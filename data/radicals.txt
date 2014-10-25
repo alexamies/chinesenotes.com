@@ -1,0 +1,349 @@
+\N	一	\N	yī	1	\N	\N	One
+\N	丨	\N	gǔn	1	\N	\N	Stick
+\N	丶	\N	zhǔ	1	\N	\N	Dot
+\N	丿	\N	piě	1	\N	\N	Line
+\N	乙	\N	yǐ	1	\N	乚 乛 ⺂ ⺃	Second heavenly stem
+\N	亅	\N	jué	1	\N	了	Hook
+\N	二	\N	èr	2	\N	\N	Two
+\N	亠	\N	tóu	2	\N	\N	Head
+\N	人	\N	rén	2	\N	亻 ⺅	Person
+\N	儿	\N	ér	2	\N	\N	Son
+\N	入	\N	rù	2	\N	\N	Enter
+\N	八	\N	bā	2	\N	\N	Eight
+\N	冂	\N	jiōng	2	\N	⺆	Wide
+\N	冖	\N	mì	2	\N	\N	Cover
+\N	冫	\N	bīng	2	\N	冰 氷	Ice
+\N	几	\N	jī	2	\N	⺇	Small table
+\N	凵	\N	qū	2	\N	\N	Receptacle
+\N	刀	\N	dāo	2	\N	\N	Knife
+\N	力	\N	lì	2	\N	\N	Strength
+\N	勹	\N	bāo	2	\N	\N	Wrap
+\N	匕	\N	bǐ	2	\N	\N	Dagger
+\N	匚	\N	fāng	2	\N	\N	Box
+\N	匸	\N	xǐ	2	\N	\N	Box
+\N	十	\N	shí	2	\N	\N	Ten
+\N	卜	\N	bǔ	2	\N	⺊	Prophesy
+\N	卩	\N	jié	2	\N	⺋	Seal
+\N	厂	\N	chǎng	2	\N	⺁	Workshop
+\N	厶	\N	sī	2	\N	\N	Secret
+\N	又	\N	yòu	2	\N	\N	Also
+\N	讠	\N	yán	2	\N	言 訁 ⻈	To speak  (S)
+\N	口	\N	kǒu	3	\N	\N	Mouth
+\N	囗	\N	wéi	3	\N	\N	Enclosure
+\N	土	\N	tǔ	3	\N	\N	Earth
+\N	士	\N	shì	3	\N	\N	Scholar
+\N	夂	\N	zhǐ	3	\N	\N	Go
+\N	夊	\N	suī	3	\N	\N	Go slowly
+\N	夕	\N	xī	3	\N	\N	Evening
+\N	大	\N	dà	3	\N	\N	Big
+\N	女	\N	nǚ	3	\N	\N	Woman
+\N	子	\N	zǐ	3	\N	孑	son
+\N	宀	\N	mián	3	\N	\N	Roof
+\N	寸	\N	cùn	3	\N	\N	Thumb
+\N	小	\N	xiǎo	3	\N	⺍ ⺌	Small
+\N	尢	\N	wāng	3	\N	⺎ ⺏ ⺐ ⺑	Lame
+\N	尸	\N	shī	3	\N	\N	Corpse
+\N	屮	\N	chè	3	\N	\N	Sprout
+\N	山	\N	shān	3	\N	\N	Mountain
+\N	川	\N	chuān	3	\N	巛 巜	River
+\N	工	\N	gōng	3	\N	\N	Work
+\N	己	\N	jǐ	3	\N	已 巳 ⺒	Self
+\N	巾	\N	jīn	3	\N	\N	Towel
+\N	干	\N	gān	3	\N	\N	Dry
+\N	幺	\N	yāo	3	\N	乡	One
+\N	广	\N	guǎng	3	\N	\N	Wide
+\N	廴	\N	yǐn	3	\N	\N	Go
+\N	廾	\N	gǒng	3	\N	\N	Joined hands
+\N	弋	\N	yì	3	\N	\N	To shoot
+\N	弓	\N	gōng	3	\N	\N	Bow
+\N	彐	\N	jì	3	\N	彑 ⺔ ⺔	Snout
+\N	彡	\N	shān	3	\N	\N	Hair
+\N	彳	\N	chì	3	\N	\N	To step with left foot
+\N	邑	阝	yì	3	2	⻏	Village (right side)
+\N	阜	阝	fù	3	2	⻖ ⻖	Abundant (left side)
+\N	纟	\N	sī	3	\N	糸 糹 ⺯ ⺰	Fine silk  (S)
+\N	门	\N	mén	3	\N	門 ⻔	Gate  (S)
+\N	饣	\N	shí	3	\N	食 飠 ⻝ ⻞ ⻟ ⻠	Food  (S)
+\N	马	\N	mǎ	3	⻢	馬	Horse  (S)
+\N	艹	\N	cǎo	3	\N	艸 ⺾ ⺿ ⻀	Grass  (S)
+\N	心	\N	xīn	4	\N	忄 ⺖ ⺗	Heart
+\N	戈	\N	gē	4	\N	\N	Spear
+\N	戸	戶	hù	4	4	户	Door
+\N	手	扌	shǒu	4	3	⺘	Hand
+\N	支	\N	zhī	4	\N	\N	Branch
+\N	攴	攵	pū	4	3	⺙	To tap
+\N	文	\N	wén	4	\N	\N	Culture
+\N	斗	\N	dòu	4	\N	\N	Fight
+\N	斤	\N	jīn	4	\N	\N	Axe
+\N	方	\N	fāng	4	\N	\N	Square
+\N	无	\N	wú	4	\N	\N	No
+\N	日	\N	rì	4	\N	⺜	Sun
+\N	曰	\N	yuē	4	\N	\N	Speak
+\N	月	\N	yuè	4	\N	⺝ ⺼	Moon
+\N	木	\N	mù	4	\N	\N	Wood
+\N	欠	\N	qiàn	4	\N	\N	Yawn
+\N	止	\N	zhǐ	4	\N	\N	Stop
+\N	歹	\N	dǎi	4	\N	\N	Evil
+\N	殳	\N	shū	4	\N	\N	Spear
+\N	毋	\N	mǔ	4	\N	母 ⺟	Mother
+\N	比	\N	bǐ	4	\N	\N	Compare
+\N	毛	\N	máo	4	\N	\N	Hair
+\N	氏	\N	shì	4	\N	\N	Clan name
+\N	气	\N	qì	4	\N	\N	Air
+\N	水	氵	shuǐ	4	3	氺 ⺡ ⺢	Water
+\N	火	\N	huǒ	4	\N	灬 ⺣	Fire
+\N	爪	\N	zhuǎ	4	\N	爫 ⺤ ⺥	Claw
+\N	父	\N	fù	4	\N	\N	Father
+\N	爻	\N	yáo	4	\N	\N	Trigram
+\N	爿	\N	qiáng	4	\N	丬 ⺦	Half of a tree trunk
+\N	片	\N	piān	4	\N	\N	Sheet
+\N	牙	\N	yá	4	\N	\N	Tooth
+\N	牛	\N	niú	4	\N	牜 ⺧	Cow
+\N	犬	犭	quǎn	4	3	⺨	Dog
+\N	王	\N	wáng	4	\N	玊 玉 ⺩	Jade
+\N	辶	\N	chuò	4	\N	辵 ⻌ ⻍ ⻎	Walk
+\N	见	\N	jiàn	4	\N	見 ⻅	To see
+\N	贝	\N	bèi	4	\N	貝 ⻉	Shell  (S)
+\N	车	\N	chē	4	\N	車 ⻋	Vehicle  (S)
+\N	韦	\N	wéi	4	\N	韋 ⻙	Soft leather
+\N	风	\N	fēng	4	\N	風 ⻛	Wind  (S)
+\N	耂	\N	lǎo	4	\N	老 ⺹	Old
+\N	玄	\N	xuán	5	\N	\N	Black
+\N	瓜	\N	guā	5	\N	\N	Melon
+\N	瓦	\N	wǎ	5	\N	\N	Tile
+\N	甘	\N	gān	5	\N	\N	Sweet
+\N	生	\N	shēng	5	\N	\N	Born
+\N	用	\N	yòng	5	\N	\N	To use
+\N	田	\N	tián	5	\N	由 甲 申	Field
+\N	疋	\N	pǐ	5	\N	⺪	A bolt of cloth
+\N	疒	\N	nì	5	\N	\N	Sick
+\N	癶	\N	bō	5	\N	\N	Legs
+\N	白	\N	bái	5	\N	\N	White
+\N	皮	\N	pí	5	\N	\N	Skin
+\N	皿	\N	mǐn	5	\N	\N	Dish
+\N	目	\N	mù	5	\N	⺫	Eye
+\N	矛	\N	máo	5	\N	\N	Spear
+\N	矢	\N	shǐ	5	\N	\N	Arrow
+\N	石	\N	shí	5	\N	\N	Rock
+\N	示	礻	shì	5	4	⺬ ⺭	To show
+\N	禸	\N	róu	5	\N	\N	Rump
+\N	禾	\N	hé	5	\N	\N	Grain
+\N	穴	\N	xué	5	\N	\N	Hole
+\N	立	\N	lì	5	\N	\N	To stand up
+\N	罒	\N	wǎng	5	\N	网 罓 ⺱ ⺲ ⺳ ⺴	Net
+\N	衤	\N	yī	5	\N	衣 ⻂	Clothes
+\N	钅	\N	jīn	5	\N	金 釒 ⻐	Gold
+\N	鸟	\N	niǎo	5	\N	鳥 ⻦	Bird  (S)
+\N	龙	\N	lóng	5	\N	龍 ⻰	Dragon  (S)
+\N	竹	⺮	zhú	6	\N	⺮	Bamboo
+\N	米	\N	mǐ	6	\N	\N	Rice
+\N	糸	纟	mì	6	3	糹 ⺯ ⺰	Fine silk
+\N	缶	\N	fǒu	6	\N	\N	Pottery
+\N	羊	\N	yáng	6	\N	⺶ ⺷ ⺸	Sheep
+\N	羽	\N	yǔ	6	\N	\N	Feather
+\N	而	\N	ér	6	\N	\N	Yet
+\N	耒	\N	lěi	6	\N	\N	Plow
+\N	耳	\N	ěr	6	\N	\N	Ear
+\N	聿	\N	yù	6	\N	肀 ⺺ ⺻	Writing brush
+\N	肉	\N	ròu	6	\N	月 ⺼ ⺼	Meat
+\N	臣	\N	chén	6	\N	\N	Official
+\N	自	\N	zì	6	\N	\N	Self
+\N	至	\N	zhì	6	\N	\N	Until
+\N	臼	\N	jiù	6	\N	⺽	Mortar
+\N	舌	\N	shé	6	\N	\N	Tongue
+\N	舛	\N	chuǎn	6	\N	\N	Mistaken
+\N	舟	\N	zhōu	6	\N	\N	Boat
+\N	艮	\N	gèn	6	\N	\N	A trigram
+\N	色	\N	sè	6	\N	\N	Form
+\N	虍	\N	hū	6	\N	虎 ⻁	Tiger
+\N	虫	\N	chóng	6	\N	\N	Worm
+\N	血	\N	xuè	6	\N	\N	Blood
+\N	行	\N	xíng	6	\N	\N	Walk
+\N	襾	\N	yà	6	\N	西 覀 ⻃ ⻄	Cover
+\N	页	\N	yè	6	\N	頁 ⻚	Leaf  (S)
+\N	見	见	jiàn	7	4	⻅	To see
+\N	角	\N	jiǎo	7	\N	⻆ ⻇	Horn
+\N	言	讠	yán	7	2	訁 ⻈ 讠	To speak
+\N	谷	\N	gǔ	7	\N	\N	Valley
+\N	豆	\N	dòu	7	\N	\N	Bean
+\N	豕	\N	shǐ	7	\N	\N	Hog
+\N	豸	\N	zhì	7	\N	\N	A mythical animal
+\N	貝	贝	bèi	7	4	⻉	Shell
+\N	赤	\N	chì	7	\N	\N	Red
+\N	走	\N	zǒu	7	\N	\N	Walk
+\N	足	⻊	zú	7	\N	⻊	Foot
+\N	身	\N	shēn	7	\N	\N	Body
+\N	車	车	chē	7	4	⻋	Vehicle
+\N	辛	\N	xīn	7	\N	\N	Eighth Heavenly Trunk
+\N	辰	\N	chén	7	\N	\N	Fifth Earthly Branch
+\N	酉	\N	yǒu	7	\N	\N	Tenth Earthly Branch
+\N	釆	\N	biàn	7	\N	\N	To distinguish
+\N	里	\N	lǐ	7	\N	\N	Inside
+\N	卤	\N	lǔ	7	\N	鹵 ⻧	Salt  (S)
+\N	麦	\N	mài	7	\N	麥 ⻨	Wheat  (S)
+\N	龟	\N	guī	7	\N	龜 ⻱ ⻳	Turtle  (S)
+\N	金	钅	jīn	8	5	釒 ⻐	Gold
+\N	長	长	cháng zhǎng	8	4	镸 ⻒ ⻓	Chief
+\N	門	门	mén	8	3	⻔	Gate
+\N	隶	\N	lì	8	\N	\N	Scribe
+\N	隹	\N	zhuī	8	\N	\N	Short-tailed bird
+\N	雨	\N	yǔ	8	\N	⻗	Rain
+\N	青	\N	qīng	8	\N	\N	Blue or green
+\N	非	\N	fēi	8	\N	\N	Not
+\N	鱼	\N	yú	8	\N	魚	Fish (S)
+\N	黾	\N	mǐn	8	\N	黽	To strive / toad (S)
+\N	齿	\N	chǐ	8	\N	齒 ⻮	Tooth (S)
+\N	面	\N	miàn	9	\N	\N	Flour
+\N	革	\N	gé	9	\N	\N	Leather
+\N	韋	韦	wéi	9	4	⻙	Soft leather
+\N	韭	\N	jiǔ	9	\N	\N	Leek
+\N	音	\N	yīn	9	\N	\N	Sound
+\N	頁	页	yè	9	6	⻚	Leaf
+\N	風	风	fēng	9	4	⻛	Wind
+\N	飛	飞	fēi	9	4	⻜	To fly
+\N	食	饣	shí	9	3	飠 ⻝ ⻞ ⻟ ⻠	Food
+\N	首	\N	shǒu	9	\N	\N	First
+\N	香	\N	xiāng	9	\N	\N	Fragrant
+\N	馬	马	mǎ	10	3	⻢	Horse
+\N	骨	\N	gǔ	10	\N	⻣	Bone
+\N	高	\N	gāo	10	\N	\N	High
+\N	髟	\N	biāo	10	\N	\N	Hair
+\N	鬥	斗	dòu	10	\N	\N	To fight
+\N	鬯	\N	chàng	10	\N	\N	Sacrificial wine
+\N	鬲	\N	lì	10	\N	\N	Caldron
+\N	鬼	\N	guǐ	10	\N	⻤	A devil
+\N	魚	鱼	yú	11	8	⻥	Fish
+\N	鳥	鸟	niǎo	11	5	⻦	Bird
+\N	鹵	卤	lǔ	11	7	⻧	Salt
+\N	鹿	\N	lù	11	\N	\N	Deer
+\N	麥	麦	mài	11	7	⻨	Wheat
+\N	麻	\N	má	11	\N	\N	Sesame
+\N	黄	\N	huáng	12	\N	⻩	Yellow
+\N	黍	\N	shǔ	12	\N	\N	Glutinous millet
+\N	黑	\N	hēi	12	\N	\N	Black
+\N	黹	\N	zhǐ	12	\N	\N	Embroidery
+\N	黽	黾	mǐn	13	8	\N	To strive / toad
+\N	鼎	\N	dǐng	13	\N	\N	A three-legged bronze caldron
+\N	鼓	\N	gǔ	13	\N	\N	Drum
+\N	鼠	\N	shǔ	13	\N	\N	Rat
+\N	鼻	\N	bí	14	\N	\N	Nose
+\N	齊	齐	qí	14	6	\N	Together
+\N	齒	齿	chǐ	15	8	⻮	Tooth
+\N	龍	龙	lóng	16	5	⻰	Dragon
+\N	龜	龟	guī	16	7	⻱ ⻳	Turtle
+\N	龠	\N	yuè	17	\N	\N	Flute
+\N	⺍	\N	xiǎo	3	\N	小 ⺌	Small
+\N	⺩	\N	wáng	4	\N	王 玊 玉	King
+\N	⺀	\N	chóng	2	\N	\N	Repeat
+\N	⺁	\N	hǎn	2	\N	厂	Cliff
+\N	⺂	\N	cì​	1	\N	乙 乚 乛 ⺃	Second
+\N	⺃	\N	yǐn	1	\N	乙 乚 乛 ⺂	Second
+\N	⺄	\N	cì​	1	\N	\N	Second
+\N	⺅	\N	rén	2	\N	亻 人	Person
+\N	⺆	\N	jiōng	2	\N	冂	Box
+\N	⺇	\N	jī​	2	\N	几	Small table
+\N	⺈	\N	mì	2	\N	冖 ⺉ 刂	Knife
+\N	⺉	\N	dāo	2	\N	刂 ⺈ ⺉ 	Knife
+\N	⺊	\N	bǔ	2	\N	卜	Divination
+\N	⺋	\N	jié bù	2	\N	卩	Seal
+\N	⺌	\N	xiǎo	3	\N	小 ⺍	Small
+\N	⺎	\N	wāng	3	\N	尢 ⺏ ⺐ ⺑	Lame
+\N	⺏	\N	wāng	3	\N	尢 ⺎ ⺐ ⺑	Lame
+\N	⺐	\N	wāng	3	\N	尢 ⺎ ⺏ ⺑	Lame
+\N	⺑	\N	wāng	3	\N	尢 ⺎ ⺏ ⺐	Lame
+\N	⺒	\N	sì​	3	\N	巳	Snake
+\N	⺓	\N	sī	3	\N	\N	Thread
+\N	⺔	\N	jì	3	\N	彑 彐 ⺕	Snout
+\N	⺕	\N	jì	3	\N	彐 彑 ⺔	Snout
+\N	⺖	\N	xīn	3	\N	心 忄 ⺗	Heart
+\N	⺗	\N	xīn	3	\N	心 忄 ⺖	Heart
+\N	⺘	\N	shǒu	3	\N	扌 手	Hand
+\N	⺙	\N	suī	4	\N	攵	Rap
+\N	⺛	\N	jì	4	\N	旡	Choke
+\N	⺜	\N	rì mì	4	\N	日	Sun
+\N	⺝	\N	yuè	4	\N	月 ⺼	Moon
+\N	⺞	\N	dǎi	4	\N	歺	Death
+\N	⺟	\N	mǔ mú wǔ wú	5	\N	母	Mother / female
+\N	⺠	\N	mín	5	\N	民	The people / nationality / citizen
+\N	⺡	\N	shuǐ	3	\N	水 氵 氺 ⺢	Water
+\N	⺢	\N	shuǐ	5	\N	水 氵 氺 ⺡	Water
+\N	⺣	\N	biāo hǒu	4	\N	火 灬	Fire
+\N	⺤	\N	zhuǎ zhǎo	4	\N	爫 爪 ⺥	Claw / nail / talon / paw
+\N	⺥	\N	zhuǎ zhǎo	4	\N	爪 爫 ⺤	Claw / nail / talon / paw
+\N	⺦	\N	qiáng	3	\N	丬	Half tree trunk
+\N	⺧	\N	niú	3	\N	牛 牜	Cow
+\N	⺨	\N	quǎn	4	\N	犭 犬	Dog
+\N	⺪	\N	pǐ pī shū yǎ	5	\N	疋	Bolt of cloth
+\N	⺫	\N	mù	5	\N	目	Eye
+\N	⺬	\N	shì qī zhì shí	5	\N	示 礻 ⺭	Show / manifest / demonstrate
+\N	⺭	\N	shì	5	\N	礻 示 ⺬	Cult / Spirit
+\N	⺮	\N	zhú	6	\N	竹 ⺮	Bamboo
+\N	⺯	\N	sī	6	\N	糹 纟 ⺰ 糸	Silk
+\N	⺰	\N	sī	3	\N	纟 糹 ⺯ 糸	Silk (S)
+\N	⺱	\N	gāng	4	\N	网 罒 罓 ⺲ ⺳ ⺴	Net
+\N	⺲	\N	wǎng	5	\N	网 罒 罓 ⺱ ⺳ ⺴	Net
+\N	⺳	\N	gāng	4	\N	网 罒 罓 ⺱ ⺲ ⺴	Net
+\N	⺴	\N	gāng	4	\N	网 罒 罓 ⺱ ⺲ ⺳	Net
+\N	⺵	\N	wǎng	4	\N	\N	Mesh
+\N	⺶	\N	yáng	6	\N	羊 ⺷ ⺸	Sheep
+\N	⺷	\N	yáng	6	\N	羊 ⺶ ⺸	Ram
+\N	⺸	\N	yáng	7	\N	羊 ⺶ ⺷	Ewe
+\N	⺹	\N	lǎo	4	\N	耂 老	Old
+\N	⺺	\N	yù	4	\N	肀 聿 ⺻	Brush
+\N	⺻	\N	yù	5	\N	聿 肀 ⺺	Brush
+\N	⺼	\N	yuè	4	\N	月 ⺝	Meat
+\N	⺽	\N	jiù	7	\N	臼	Mortar
+\N	⺾	\N	cǎo zào	3	\N	艸 艹 ⺿ ⻀	Grass
+\N	⺿	\N	cǎo zào	3	\N	艸 艹 ⺾ ⻀	Grass
+\N	⻀	\N	cǎo zào	3	\N	艸 艹 ⺾ ⺿	Grass
+\N	⻁	\N	hǔ hù	8	\N	虎 虍	Tiger
+\N	⻂	\N	yī yì	5	\N	衣 衤	Clothes
+\N	⻃	\N	xī	6	\N	西 覀 襾 ⻄	West
+\N	⻄	\N	xī	6	\N	西 覀 襾 ⻃	West
+\N	⻅	\N	jiàn xiàn	4	\N	见 見	To see (S)
+\N	⻆	\N	jiǎo jué gǔ lù	7	\N	角 ⻇	Horn
+\N	⻇	\N	jiǎo	8	\N	角 ⻆	Horn
+\N	⻈	\N	yán	2	\N	讠 言 訁	Speech (S)
+\N	⻉	\N	bèi	4	\N	贝 貝	Sea shell / money / currency (S)
+\N	⻊	\N	zú	7	\N	⻊	Foot
+\N	⻋	\N	chē jū	4	\N	车 車	Cart (S)
+\N	⻌	\N	chuò	4	\N	辶 辵 ⻍ ⻎	Walk
+\N	⻍	\N	chuò	5	\N	辶 辵 ⻌ ⻎	Walk
+\N	⻎	\N	chuò	4	\N	辶 辵 ⻎ ⻍	Walk
+\N	⻏	\N	yì è	2	\N	邑	City
+\N	⻐	\N	jīn	5	\N	钅 釒 金	Gold / metal / money (S)
+\N	⻑	\N	cháng zhǎng	8	0	長 长  镸 ⻒ ⻓	Chief / long
+\N	⻒	\N	cháng zhǎng	7	0	長 长  镸 ⻑ ⻓	Chief / long
+\N	⻓	\N	cháng zhǎng	4	0	長 长  镸 ⻑ ⻒	Chief / long (S)
+\N	⻔	\N	mén	3	0	门 門	Gate (S)
+\N	⻕	\N	fù	8	0	阝 阜 ⻖	Abundant / mound
+\N	⻖	\N	fù	2	0	阝 阜 ⻕	Abundant / mound
+\N	⻗	\N	yǔ	8	0	雨	Rain
+\N	⻘	\N	qīng	8	0	青	Blue / green
+\N	⻙	\N	wéi	4	0	韦 韋	Soft leather (S)
+\N	⻚	\N	yè	6	0	页 頁	Leaf (S)
+\N	⻛	\N	fēng	4	0	风 風	Wind (S)
+\N	⻜	\N	fēi	4	0	飞 飛	Fly (S)
+\N	⻝	\N	shí	8	0	食 飠 饣 ⻞ ⻟ ⻠	To eat
+\N	⻞	\N	shí	9	0	食 飠 饣 ⻝ ⻟ ⻠	To eat
+\N	⻟	\N	shí	8	0	食 飠 饣 ⻝ ⻞ ⻠	To eat
+\N	⻠	\N	shí	3	0	食 飠 饣 ⻝ ⻞ ⻟	To eat
+\N	⻡	\N	tóu	9	0	\N	Head
+\N	⻢	\N	mǎ	3	0	马 馬	Horse (S)
+\N	⻣	\N	gǔ	10	0	骨	Bone
+\N	⻤	\N	guǐ	10	0	鬼	Devil / ghost
+\N	⻥	\N	yú	8	0	鱼	Fish
+\N	⻦	\N	niǎo	5	0	鸟 鳥	Bird
+\N	⻧	\N	lǔ	7	0	卤 鹵	Salt (S)
+\N	⻨	\N	mài	7	0	麦 麥	Wheat (S)
+\N	⻩	\N	huáng	12	0	黄	Yellow (S)
+\N	⻪	\N	mǐn méng měng miǎn	13	0	黾	Frog / toad
+\N	⻫	\N	qí	8	0	齐	Even (Japanese variant)
+\N	⻬	\N	qí jī jì jiǎn zhāi zī	6	0	齐	Even / uniform
+\N	⻭	\N	chǐ	12	0	\N	Tooth (Japanese variant)
+\N	⻮	\N	chǐ	8	0	齿 齒	Tooth (S)
+\N	⻯	\N	lóng	10	0	龙 龍	Dragon (Japanese variant)
+\N	⻰	\N	lóng	5	0	龙 龍	Dragon (S)
+\N	⻱	\N	guī	16	0	龜 龟 ⻳	Turtle
+\N	⻲	\N	guī	12	0	龜 龟	Turtle (Japanese variant)
+\N	⻳	\N	guī	7	0	龜 龟 ⻱	Turtle (S)

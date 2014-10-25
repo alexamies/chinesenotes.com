@@ -1,0 +1,451 @@
+xuanzang400.jpg	玄奘	Xuanzang	Alex Amies	CCA	xuanzang1000.jpg
+times.png	乘	Multiply	Alex Amies	CCA	\N
+percent.png	百分之	Percent	\N	Public Domain	\N
+temple.jpg	殿	Ceremonial Hall	Alex Amies	CCA	\N
+yonghegong080207.jpg	寺	Temple	Alex Amies	CCA	yonghegong080207_high.jpg
+peony_med.jpg	牡丹	Peony	Alex Amies	CCA	peony_high.jpg
+approx.png	约	Approximately	\N	Public Domain	\N
+period.png	句号	Period	Alex Amies	Public Domain	\N
+comma.png	逗号	Comma	Alex Amies	Public Domain	\N
+semicolon.png	分号	Semicolon	Alex Amies	Public Domain	\N
+colon.png	冒号	Colon	Alex Amies	Public Domain	\N
+question_mark.png	问号	Question Mark	Alex Amies	Public Domain	\N
+quotation_mark.png	引号	Quotation Mark	Alex Amies	Public Domain	\N
+left.png	左	Left	Alex Amies	Public Domain	\N
+right.png	右	Right	Alex Amies	Public Domain	\N
+sutra_med.jpg	佛经	Buddhist Scripture	Alex Amies	Public Domain	sutra_high.jpg
+pagoda_med.jpg	塔	Pagoda	Alex Amies	CCA	pagoda_high.jpg
+bendigo_chinese_heritage_med.jpg	唐人街	Chinatown	Alex Amies	CCA	bendigo_chinese_heritage010308.jpg
+approx.png	约	Approximately	Alex Amies	Public Domain	\N
+dui_lian_med.jpg	对联	Couplet	Alex Amies	CCA	dui_lian.jpg
+dong_yuan_miao_med.jpg	东岳庙	Dongyue Temple	Alex Amies	CCA	\N
+huangluo3_med.jpg	红螺寺	Hongluo Temple	Alex Amies	CCA	huangluo3_high.jpg
+pavillion_med.jpg	亭	Pavilion	Alex Amies	CCA	\N
+incense_burner_med.jpg	香炉	Incense Burner	Alex Amies	CCA	incense_burner_high.jpg
+huanglong_temple_med.jpg	烧香	Burning Incense	Alex Amies	CCA	huanglong_temple.jpg
+upper_left_dot.png	左上点	Upper Left Dot	Alex Amies	CCA	\N
+upper_dot.png	上点	Upper Dot	Alex Amies	CCA	\N
+lower_left_dot.png	左下点	Lower Left Dot	Alex Amies	CCA	\N
+short_horizontal.png	短横	Short Horizontal Stroke	Alex Amies	CCA	\N
+long_horizontal.png	长横	Long Horizontal Stroke	Alex Amies	CCA	\N
+straight_vertical.png	直竖	Straight Vertical Stroke	Alex Amies	CCA	\N
+left_vertical.png	左弧竖	Left Vertical Stroke	Alex Amies	CCA	\N
+right_vertical.png	右弧竖	Right Vertical Stroke	Alex Amies	CCA	\N
+hanging_vertical.png	悬针	Hanging Vertical Stroke	Alex Amies	CCA	\N
+lower_right_dot.png	右下点	Lower Right Dot	Alex Amies	CCA	\N
+shugou300.png	竖钩	Vertical Hooked Stroke	Alex Amies	CCA	\N
+hugou300.png	狐钩	Hooked Arc Stroke	Alex Amies	CCA	\N
+zhegou300.png	折钩	Turning Hook Stroke	Alex Amies	CCA	\N
+horizontal_hook250.png	横钩	Horizontal Hooked Stroke	Alex Amies	CCA	\N
+tiaofa.png	挑法	Upward Flick Stroke	Alex Amies	CCA	\N
+duanpie.png	短撇	Short Downwards Left Curved Stroke	Alex Amies	CCA	\N
+zhuo.png	啄	Left Curved Stroke	Alex Amies	CCA	\N
+changpie.png	长撇	Long Downwards Left Curved Stroke	Alex Amies	CCA	\N
+na_stroke.png	捺	Downwards-Right Concave Stroke	Alex Amies	CCA	\N
+ping_na.png	平捺	Flat Right Concave Stroke	Alex Amies	CCA	\N
+you_jue.png	右厥	Right Combined Horizontal and Vertical Hook Stroke	Alex Amies	CCA	\N
+zuo_jue.png	左厥	Left Combined Horizontal and Vertical Hook Stroke	Alex Amies	CCA	\N
+xia_mi300.png	下字（颜体）	Xia Character (Yanti Style)	Alex Amies	CCA	xia_mi800.png
+zhu_mi300.png	主字（颜体）	Zhu Character (Yanti Style)	Alex Amies	CCA	zhu_mi800.png
+niu_mi300.png	牛字（颜体）	Niu Character (Yanti Style)	Alex Amies	CCA	niu_mi.png
+si_mi300.png	四字（颜体）	Si Character (Yanti Style)	Alex Amies	CCA	si_mi800.png
+xia_yanti200.png	下字（颜体）	Xia Character (Yanti Style)	Alex Amies	CCA	xia_yanti.png
+xia_zuoxiadian.png	下字（颜体）	Xia Character (Yanti Style)	Alex Amies	CCA	\N
+xia_yanti_changheng.png	下字（颜体）	Xia Character (Yanti Style)	Alex Amies	CCA	\N
+xia_yanti_shu.png	下字（颜体）	Xia Character (Yanti Style)	Alex Amies	CCA	\N
+zhu_yanti200.png	主字（颜体）	Zhu Character (Yanti Style)	Alex Amies	CCA	zhu_yanti800.png
+zhu_yanti_upper_dot.png	主字（颜体）	Zhu Character (Yanti Style)	Alex Amies	CCA	\N
+zhu_duan_heng.png	主字（颜体）	Zhu Character (Yanti Style)	Alex Amies	CCA	\N
+niu_yanti200.png	牛字（颜体）	Niu Character (Yanti Style)	Alex Amies	CCA	niu_yanti800.png
+niu_yanti__duan_pie.png	牛字（颜体）	Niu Character (Yanti Style)	Alex Amies	CCA	\N
+niu_yanti__xuanzhen.png	牛字（颜体）	Niu Character (Yanti Style)	Alex Amies	CCA	\N
+si_yanti200.png	四字（颜体）	Niu Character (Yanti Style)	Alex Amies	CCA	si_yanti800.png
+kou_yanti200.png	口字（颜体）	Kou Character (Yanti Style)	Alex Amies	CCA	kou_yanti800.png
+si_yanti_you_jue.png	口字（颜体）	Kou Character (Yanti Style)	Alex Amies	CCA	\N
+yi_yanti200.png	一字（颜体）	Yi Character (Yanti Style)	Alex Amies	CCA	yi_yanti800.png
+er_yanti200.png	二字（颜体）	Er Character (Yanti Style)	Alex Amies	CCA	er_yanti800.png
+er_duan_hengi100.png	二字（颜体）	Er Character (Yanti Style)	Alex Amies	CCA	\N
+er_chang_hengi100.png	二字（颜体）	Er Character (Yanti Style)	Alex Amies	CCA	\N
+san_yanti200.png	三字（颜体）	Er Character (Yanti Style)	Alex Amies	CCA	san_yanti800.png
+shi4_yanti200.png	士字（颜体）	Shi Character (Yanti Style)	Alex Amies	CCA	shi4_yanti800.png
+shi2_yanti200.png	十字（颜体）	Shi Character (Yanti Style)	Alex Amies	CCA	shi2_yanti800.png
+shi_xuanzhen100.png	十字（颜体）	Shi Character (Yanti Style)	Alex Amies	CCA	\N
+zheng_yanti200.png	正字（颜体）	Zheng Character (Yanti Style)	Alex Amies	CCA	zheng_yanti800.png
+wang_yanti200.png	王字（颜体）	Wang Character (Yanti Style)	Alex Amies	CCA	wang_yanti800.png
+ri_yanti200.png	日字（颜体）	Ri Character (Yanti Style)	Alex Amies	CCA	ri_yanti800.png
+yue_yanti200.png	曰字（颜体）	Ri Character (Yanti Style)	Alex Amies	CCA	yue_yanti800.png
+tian_yanti200.png	田字（颜体）	Ri Character (Yanti Style)	Alex Amies	CCA	tian_yanti800.png
+wang_changheng100.png	王字（颜体）	Wang Character (Yanti Style)	Alex Amies	CCA	\N
+ri_duanheng100.png	日字（颜体）	Ri Character (Yanti Style)	Alex Amies	CCA	\N
+ri_zuohushu100.png	日字（颜体）	Ri Character (Yanti Style)	Alex Amies	CCA	\N
+tian1_yanti200.png	天字（颜体）	Tian Character (Yanti Style)	Alex Amies	CCA	tian1_yanti800.png
+da_yanti200.png	大字（颜体）	Da Character (Yanti Style)	Alex Amies	CCA	da_yanti800.png
+wen_yanti200.png	文字（颜体）	Wen Character (Yanti Style)	Alex Amies	CCA	wen_yanti800.png
+ren_tanti200.png	人字（颜体）	Ren Character (Yanti Style)	Alex Amies	CCA	ren_tanti800.png
+ren_changpie100.png	人字（颜体）	Ren Character (Yanti Style)	Alex Amies	CCA	\N
+ren_na100.png	人字（颜体）	Ren Character (Yanti Style)	Alex Amies	CCA	\N
+wen_shangdian100.png	文字（颜体）	Wen Character (Yanti Style)	Alex Amies	CCA	\N
+wen_na100.png	文字（颜体）	Wen Character (Yanti Style)	Alex Amies	CCA	\N
+fu_yanti200.png	父字（颜体）	Fu Character (Yanti Style)	Alex Amies	CCA	fu_yanti800.png
+fu_duanpie100.png	父字（颜体）	Fu Character (Yanti Style)	Alex Amies	CCA	\N
+fu_changpie100.png	父字（颜体）	Fu Character (Yanti Style)	Alex Amies	CCA	\N
+fu_na100.png	父字（颜体）	Fu Character (Yanti Style)	Alex Amies	CCA	\N
+ru_yanti200.png	入字（颜体）	Fu Character (Yanti Style)	Alex Amies	CCA	ru_yanti800.png
+ru_duanpie100.png	入字（颜体）	Fu Character (Yanti Style)	Alex Amies	CCA	\N
+ce_trad_yanti300.png	冊字（颜体）	Fu Character (Yanti Style)	Alex Amies	CCA	\N
+ce_trad_yanti200.png	冊字（颜体）	Fu Character (Yanti Style)	Alex Amies	CCA	ce_trad_yanti800.png
+ce_trad_yanti_youjue100.png	冊字（颜体）	Fu Character (Yanti Style)	Alex Amies	CCA	\N
+nei_yanti300.png	内字（颜体）	Nei Character (Yanti Style)	Alex Amies	CCA	\N
+nei_yanti200.png	内字（颜体）	Nei Character (Yanti Style)	Alex Amies	CCA	nei_yanti800.png
+yu_yanti200.png	于字（颜体）	Nei Character (Yanti Style)	Alex Amies	CCA	yu_yanti800.png
+yu_yanti_shugou100.png	于字（颜体）	Nei Character (Yanti Style)	Alex Amies	CCA	\N
+nei_yanti_youxiadian100.png	内字（颜体）	Nei Character (Yanti Style)	Alex Amies	CCA	\N
+nei_yanti_youjue100.png	内字（颜体）	Nei Character (Yanti Style)	Alex Amies	CCA	\N
+zao_yanti200.png	早字（颜体）	Zao Character (Yanti Style)	Alex Amies	CCA	zao_yanti800.png
+zao_yanti_xuanzhen100.png	早字（颜体）	Zao Character (Yanti Style)	Alex Amies	CCA	\N
+xing_yanti200.png	行字（颜体）	Xing Character (Yanti Style)	Alex Amies	CCA	xing_yanti800.png
+xing_yanti_left_vertical200.png	行字（颜体）	Xing Character (Yanti Style)	Alex Amies	CCA	\N
+xing_yanti_vertical_hook100.png	行字（颜体）	Xing Character (Yanti Style)	Alex Amies	CCA	\N
+ping_yanti300.png	平字（颜体）	Ping Character (Yanti Style)	Alex Amies	CCA	\N
+ping_yanti200.png	平字（颜体）	Ping Character (Yanti Style)	Alex Amies	CCA	ping_yanti800.png
+wu_yanti200.png	五字（颜体）	Wu Character (Yanti Style)	Alex Amies	CCA	wu_yanti800.png
+bai4_yanti200.png	拜字（颜体）	Wu Character (Yanti Style)	Alex Amies	CCA	bai4_yanti800.png
+bai4_yanti_changpie100.png	拜字（颜体）	Wu Character (Yanti Style)	Alex Amies	CCA	\N
+shi3_yanti200.png	史字（颜体）	Wu Character (Yanti Style)	Alex Amies	CCA	shi3_yanti800.png
+li4_yanti200.png	吏字（颜体）	Wu Character (Yanti Style)	Alex Amies	CCA	li4_yanti800.png
+you4_yanti200.png	又字（颜体）	Wu Character (Yanti Style)	Alex Amies	CCA	you4_yanti800.png
+dao4_yanti200.png	又字（颜体）	Wu Character (Yanti Style)	Alex Amies	CCA	dao4_yanti800.png
+temple_of_monarchs400.jpg	历代帝王庙	Temple of Ancient Monarchs	Alex Amies	CCA	temple_of_monarchs.jpg
+bishansi_med.jpg	碧山寺	Bishan Temple	Alex Amies	CCA	bishansi_high.jpg
+wutaishan_med.jpg	五台山	Mount Wutai	Alex Amies	CCA	wutaishan_high.jpg
+pottery_pattern_shang400.jpg	白陶	White Pottery	Alex Amies	CCA	pottery_pattern_shang1000.jpg
+animal_mask.png	兽面纹	Animal Mask Designs	Alex Amies	CCA	shoumianwen744.jpg
+fengniaowen400.jpg	凤鸟纹	Bird Designs	Alex Amies	CCA	fengniaowen553.jpg
+firedesigns.jpg	火纹	Fire designs	Alex Amies	CCA	\N
+lightening_designs.jpg	雷纹	Lightening designs	Alex Amies	CCA	\N
+animal_designs.jpg	动物纹	Animal Designs	Alex Amies	CCA	\N
+longwen400.jpg	龙纹	Dragon Design	Alex Amies	CCA	longwen800.jpg
+jinwen300.jpg	金文	Bronze Script	Alex Amies	CCA	jinwen800.jpg
+defangding400.jpg	德方鼎	De Fang Ding	Alex Amies	CCA	defangding1000.jpg
+defangding_tongqi400.jpg	铜器	Bronze Ware	Alex Amies	CCA	defangding_tongqi1000.jpg
+red_pottery400.jpg	红陶	Red Pottery	Alex Amies	CCA	red_pottery1000.jpg
+white_pottery400.jpg	白陶	White Pottery	Alex Amies	CCA	white_pottery1000.jpg
+dakeding400.jpg	大克鼎	Da Ke Ding	Alex Amies	CCA	dakeding1000.jpg
+yue400.jpg	钺	Battle Ax	Alex Amies	CCA	yue1000.jpg
+jue400.jpg	爵	Ancient Bronze Wine Holder	Alex Amies	CCA	jue1000.jpg
+siyangshoupou400.jpg	瓿	Pou	Alex Amies	CCA	siyangshoupou1000.jpg
+fuyiyu400.jpg	盂	Yu	Alex Amies	CCA	fuyiyu1000.jpg
+thunder_pou400.jpg	瓿	Pou	Alex Amies	CCA	thunder_pou1000.jpg
+animal_mask_pou_shang400.jpg	瓿	Pou	Alex Amies	CCA	animal_mask_pou_shang1000.jpg
+animal_mask_pou_shang_detail400.jpg	瓿	Pou	Alex Amies	CCA	\N
+shoumianwen_gui_shang400.jpg	兽面纹	Animal Mask Designs	Alex Amies	CCA	shoumianwen_gui_shang1000.jpg
+shoumianwen_jia400.jpg	兽面纹	Animal Mask Designs	Alex Amies	CCA	shoumianwen_jia1000.jpg
+jia_shang400.jpg	斝	Jia	Alex Amies	CCA	jia_shang1000.jpg
+ding_longwen_shang400.jpg	鼎	Ding	Alex Amies	CCA	ding_longwen_shang1000.jpg
+gu_shang400.jpg	觚	Gu	Alex Amies	CCA	gu_shang1000.jpg
+you_shang400.jpg	卣	You	Alex Amies	CCA	you_shang1000.jpg
+yi_xizhou400.jpg	匜	yi	Alex Amies	CCA	yi_xizhou1000.jpg
+shihuangui400.jpg	簋	Gui	Alex Amies	CCA	shihuangui1000.jpg
+xu_xizhou400.jpg	盨	Xu	Alex Amies	CCA	xu_xizhou1000.jpg
+fangyi_wzhou400.jpg	彝	Yi	Alex Amies	CCA	fangyi_wzhou1000.jpg
+xijue_wzhou400.jpg	角	Jue	Alex Amies	CCA	xijue_wzhou1000.jpg
+zun_wzhou400.jpg	尊	Zun	Alex Amies	CCA	zun_wzhou1000.jpg
+shoumianwen_you_400.jpg	兽面纹卣	Animal Mask You	Alex Amies	CCA	shoumianwen_you_1000.jpg
+shoumianwen_you_detail400.jpg	兽面纹卣	Animal Mask You	Alex Amies	CCA	shoumianwen_you_detail1000.jpg
+ding_wzhou400.jpg	交鼎	Jiao Ding (Food Vessel)	Alex Amies	CCA	ding_wzhou1000.jpg
+zheng_spring_autumn400.jpg	变形兽面纹钲	Zheng with Morphed Animal Mask Design	Alex Amies	CCA	zheng_spring_autumn1000.jpg
+sanjiuli_chunqiu400.jpg	鬲	Li (Food Vessel)	Alex Amies	CCA	sanjiuli_chunqiu1000.jpg
+jian_chunqiu400.jpg	青铜器	Bronze Ware	Alex Amies	CCA	jian_chunqiu1000.jpg
+guzuo_chunqiu400.jpg	鼓座	Drum Stand	Alex Amies	CCA	guquo_chunqiu1000.jpg
+fu_chunqiu400.jpg	簠	Fu (a basket used in state ceremonies)	Alex Amies	CCA	fu_chunqiu1000.jpg
+pen_chunqiu400.jpg	盆	Pen (Basin)	Alex Amies	CCA	pen_chunqiu1000.jpg
+zun_chunqiu400.jpg	尊	Zun (Ancient Wine Vessel)	Alex Amies	CCA	zun_chunqiu1000.jpg
+zun_chunqiu_detail400.jpg	尊	Zun (Detail)	Alex Amies	CCA	zun_chunqiu_detail1000.jpg
+ding_chunqiu400.jpg	交龙重鳞纹鼎	Ding (Food Vessel) with Interleaved Dragon and Scale Designs	Alex Amies	CCA	ding_chunqiu1000.jpg
+bo_chunqiu400.jpg	镈	bo (an ancient musical intrument shaped as a bell)	Alex Amies	CCA	bo_chunqiu1000.jpg
+hu_geometric_war400.jpg	镶嵌几何纹	Inlaid Geometric Pattern	Alex Amies	CCA	hu_geometric_war1000.jpg
+bronze_turqoise_erlitou400.jpg	嵌绿松石铜牌饰	Bronze Ornament with Inlaid Turqoise	Alex Amies	CCA	bronze_turqoise_erlitou1000.jpg
+yue_wzhou400.jpg	铜钺	Bronze Battle Ax	Alex Amies	CCA	yue_wzhou1000.jpg
+taopan_zhanguo400.jpg	朱绘陶盘	Red Painted Pottery Plate	Alex Amies	CCA	taopan_zhanguo1000.jpg
+pottery_vase_tang400.jpg	缸瓦窑白釉剔花填黑梅瓶	Plum Blossom Vase	Alex Amies	CCA	pottery_vase_tang1000.jpg
+pottery_banpo400.jpg	彩陶瓶	Painted Pottery Vase	Alex Amies	CCA	pottery_banpo1000.jpg
+pot_neolithic400.jpg	陶罐	Pottery Jar	Alex Amies	CCA	pot_neolithic1000.jpg
+bronze_mold_shang400.jpg	罍部范	Piece of a Mold for a Lei	Alex Amies	CCA	bronze_mold_shang1000.jpg
+dongwuwen_turtle.jpg	动物纹	Animal Design	Alex Amies	CCA	\N
+caitaoqi400.jpg	彩陶器	Painted Pottery	Alex Amies	CCA	caitaoqi1000.jpg
+painted_pottery_pot400.jpg	彩陶盆	Painted Pottery Pot	Alex Amies	CCA	painted_pottery_pot1000.jpg
+bowl_dawenkou400.jpg	彩陶钵	Painted Pottery Bowl	Alex Amies	CCA	bowl_dawenkou1000.jpg
+miaodigou_vessel400.jpg	庙底沟类型盆	Miaodigou Style Vessel	Alex Amies	CCA	miaodigou_vessel1000.jpg
+yinshiqi_miaodigou400.jpg	庙底沟类型饮食器	Miaodigou Style Food and Drink Vessel	Alex Amies	CCA	yinshiqi_miaodigou1000.jpg
+longwen_taoqi400.jpg	彩绘龙纹陶盆	Painted Pottery Plate with Dragon Design	Alex Amies	CCA	longwen_taoqi1000.jpg
+taosi_taohu400.jpg	彩绘陶壶	Painted Pottery Pot	Alex Amies	CCA	taosi_taohu1000.jpg
+pottery_xiajiadian400.jpg	彩绘陶器	Painted Pottery Utensil	Alex Amies	CCA	pottery_xiajiadian1000.jpg
+ritual_vessel_xiajiadian400.jpg	彩绘陶鬲	Painted Pottery Li	Alex Amies	CCA	ritual_vessel_xiajiadian1000.jpg
+jade_pendant_qing400.jpg	玉佩	Jade Pendant	Alex Amies	CCA	jade_pendant_qing1000.jpg
+jade_huahuiwen_jin400.jpg	青白玉花卉纹佩	Gray-White Jade Pendant with Flower and Plant Designs	Alex Amies	CCA	jade_huahuiwen_jin1000.jpg
+jiaguwen_shang200.jpg	甲骨文	Oracle Bone Script	Alex Amies	CCA	jiaguwen_shang400.jpg
+juanyunwen_wadang_xihan400.jpg	卷云纹瓦当	Eaves Tile with Rolling Cloud Design	Alex Amies	CCA	juanyunwen_wadang_xihan1000.jpg
+lianhuawen_wadang_nwei400.jpg	莲花纹瓦当	Eaves Tile with Lotus Design	Alex Amies	CCA	lianhuawen_wadang_nwei1000.jpg
+gold_plate400.jpg	花卉纹金盆	Gold Plate with Flower and Plant Design	Alex Amies	CCA	gold_plate1000.jpg
+stone_carving_yuanmingyuan400.jpg	石刻	carved stone	Alex Amies	CCA	stone_carving_yuanmingyuan1000.jpg
+tiananmen_dragon080307_400.jpg	天安门华表	Tiananmen Huabiao	Alex Amies	CCA	tiananmen_dragon080307.jpg
+yonghegong_lion080207_400.jpg	雍和宫狮子石像	Lion Statue at Yonghegong	Alex Amies	CCA	yonghegong_lion080207.jpg
+luohousi2_incense_burner400.jpg	香炉	Incense Burner	Alex Amies	CCA	luohousi2_incense_burner1000.jpg
+yongle_bell400.jpg	永乐大钟	Yongle Bell	Alex Amies	CCA	yongle_bell1000.jpg
+beijing_observatory080307_400.jpg	古天文仪器	Ancient Astronomical Instrument	Alex Amies	CCA	\N
+jingdezhen_400.jpg	景德镇窑御窑厂图	Jingdezhen Kiln Imperial Kiln Factory	Alex Amies	CCA	jingdezhen_1000.jpg
+foxiangshibei_nqi400.jpg	佛像石碑	Buddhist Steele, Stone	Alex Amies	CCA	foxiangshibei_nqi1000.jpg
+foshixiang_nqi400.jpg	佛石像	Buddha Stone Statue	Alex Amies	CCA	foshixiang_nqi1000.jpg
+porcelain_pitcher_qing400.jpg	番莲纹多穆壶	Duomu Pitcher with Granadilla Floral Design	Alex Amies	CCA	porcelain_pitcher_qing1000.jpg
+porcelain_censer_bagua400.jpg	斗彩八卦纹炉	Doucai censer with eight trigrams design	Alex Amies	CCA	porcelain_censer_bagua1000.jpg
+porcelain_dragon_qing400.jpg	青花云龙纹尊	Blue and White Porcelain Zun with Cloud and Dragon Design	Alex Amies	CCA	porcelain_dragon_qing1000.jpg
+bluewhite_clouddragon400.jpg	青花云龙纹	Blue and White Porcelain with Cloud and Dragon Design	Alex Amies	CCA	bluewhite_clouddragon1000.jpg
+blackpainted_porcelain_jin400.jpg	白地黑花瓷枕	Black painted porcelain pillow with white base	Alex Amies	CCA	blackpainted_porcelain_jin1000.jpg
+porcelain_stringbead_yuan400.jpg	青白釉串珠纹	Greenish-Glazed White Porcelain with String Bead Design	Alex Amies	CCA	porcelain_stringbead_yuan1000.jpg
+porcelain_flat_pot_yuan400.jpg	白地黑花龙凤纹扁壶	Black painted, white base flat pot with dragon and phoenix design	Alex Amies	CCA	porcelain_flat_pot_yuan1000.jpg
+porcelain_floral_ming400.jpg	白釉酱色彩花果纹盘	Plate with Brown on White Glazed Floral Design	Alex Amies	CCA	porcelain_floral_ming1000.jpg
+bajixiangwen_baoyueping400.jpg	八吉祥纹抱月瓶	Flat Sided Vase with Eight Buddhist Emblems Design	Alex Amies	CCA	bajixiangwen_baoyueping1000.jpg
+hanging_vase_qing400.jpg	粉彩花卉纹壁瓶	Famille rose hanging vase with floral design	Alex Amies	CCA	hanging_vase_qing1000.jpg
+lacquerware_plate400.jpg	红雕漆牡丹方盘	Red carved lacquer Ware peony square plate	Alex Amies	CCA	lacquerware_plate1000.jpg
+lacquerware_box400.jpg	红雕漆填花卉云鹤圆盒	Carved lacquer round box with floral and crane decoration	Alex Amies	CCA	lacquerware_box1000.jpg
+lady_jacket400.jpg	红纱罗金色绣百子女夹衣	Red Cotton Lined Lady's Jacket with Gold Embroidered Hundred Sons Design	Alex Amies	CCA	lady_jacket1000.jpg
+tablecloth_qing400.jpg	黄缎绣金龙桌围	Yellow satin embroidered table cover with golden dragon design	Alex Amies	CCA	tablecloth_qing1000.jpg
+lacquerware_dish400.jpg	剔红锦纹镶铜边盘	Red lacquer ware plate with brocade design and copper edging	Alex Amies	CCA	lacquerware_dish1000.jpg
+ivory_box_qing400.jpg	象牙雕葡萄长方盒	Carved ivory rectangular box with grape design	Alex Amies	CCA	ivory_box_qing1000.jpg
+silk_dragon_qing400.jpg	云龙纹色绢	Dyed Silk with Dragon and Cloud Design	Alex Amies	CCA	silk_dragon_qing1000.jpg
+cloisonne_qing400.jpg	铜胎鎏金插丝珐琅香炉	Cloisonne enamel incense burner with gilded bronze body	Alex Amies	CCA	cloisonne_qing1000.jpg
+cloisonne_incense_burner400.jpg	景泰蓝番莲纹香炉	Cloisonne incense burner granadilla design 	Alex Amies	CCA	cloisonne_incense_burner1000.jpg
+enamel_cup_shou_qianlong400.jpg	珐琅寿葵花式杯	Enamel cup with long life and sunflower designs	Alex Amies	CCA	enamel_cup_shou_qianlong1000.jpg
+amoghasiddha_buddha400.jpg	铜镀金不动成就佛像	Bronze with Guilding Amoghasiddha Buddha Statue	Alex Amies	CCA	amoghasiddha_buddha1000.jpg
+pottery_string_majiayao400.jpg	马家窑文化彩陶弦纹壶	Majiayao Culture Painted Pottery Pot with String Design	Alex Amies	CCA	pottery_string_majiayao1000.jpg
+pot_net_majiayao400.jpg	彩陶几何网格纹壶	Painted Pottery Pot with Lattice Design	Alex Amies	CCA	pot_net_majiayao1000.jpg
+jar_zipzag_majiayao400.jpg	彩陶曲折纹罐	Painted Pottery Jar with Zigzag Design	Alex Amies	CCA	jar_zipzag_majiayao1000.jpg
+pot_circular_design_majiayao400.jpg	彩陶圆圈纹壶	Painted Pottery Pot with a Ring Pattern	Alex Amies	CCA	pot_circular_design_majiayao1000.jpg
+gray_pottery_openwork400.jpg	灰陶镂孔罐	Gray Pottery Jar with Openwork	Alex Amies	CCA	gray_pottery_openwork1000.jpg
+bowl_curtain_miaodigou400.jpg	彩陶重幛纹缽	Painted pottery bowl with a declining curtain pattern	Alex Amies	CCA	bowl_curtain_miaodigou1000.jpg
+pot_string_pattern_banpo400.jpg	彩陶弦纹壶	Painted pottery pot with a string pattern	Alex Amies	CCA	pot_string_pattern_banpo1000.jpg
+black_pottery_songze400.jpg	黑陶刻纹盖罐	Black pottery covered jar with inscribed patterns	Alex Amies	CCA	black_pottery_songze1000.jpg
+pottery_impressesion_wzhou400.jpg	硬陶上的印纹罍	Impressions on a Pottery Lei	Alex Amies	CCA	pottery_impressesion_wzhou1000.jpg
+pottery_ding_spring400.jpg	水波纹三系鼎	Celadon Tripod Ding with Ripple Patterns	Alex Amies	CCA	pottery_ding_spring1000.jpg
+celadon_string_spring400.jpg	青釉弦纹把杯	Celadon Cup with String Pattern	Alex Amies	CCA	celadon_string_spring1000.jpg
+pottery_lian_han400.jpg	褐釉陶刻花莲瓣奁	Brown glazed pottery lian with a carved lotus petal pattern	Alex Amies	CCA	pottery_lian_han1000.jpg
+celadon_wjin400.jpg	青釉贴花佛像奁	Celadon lian with Buddhist figurines	Alex Amies	CCA	celadon_wjin1000.jpg
+celadon_bixie_wjin400.jpg	青釉狮形辟耶	Celadon lion-shaped bixie	Alex Amies	CCA	celadon_bixie_wjin1000.jpg
+celadon_figurines_sanguo400.jpg	青釉堆塑人物罐	Celadon jar with piled figurines	Alex Amies	CCA	celadon_figurines_sanguo1000.jpg
+celadon_figures_wjin400.jpg	青釉堆塑楼阙人物罐	Celadon jar with watchtower and figures	Alex Amies	CCA	celadon_figures_wjin1000.jpg
+celadon_lotus_petals_southern400.jpg	青釉刻花莲瓣纹罐	Celadon jar with lotus petal designs	Alex Amies	CCA	celadon_lotus_petals_southern1000.jpg
+porcelain_guardian_tang400.jpg	彩色釉陶镇墓兽	Multi-colored glazed porcelain tomb guardian beast	Alex Amies	CCA	porcelain_guardian_tang1000.jpg
+porcelain_colored_bird400.jpg	彩色釉陶印花飞鸟云纹盘	Multi-colored glazed porcelain plate with engraved flying bird and cloud design 	Alex Amies	CCA	porcelain_colored_bird1000.jpg
+porcelain_plate_goose400.jpg	彩色釉陶云雁纹盘	Multi-colored glazed porcelain plate with wild goose and cloud design 	Alex Amies	CCA	porcelain_plate_goose1000.jpg
+twisted_pottery_pillow400.jpg	绞胎陶枕	Marbled pottery pillow	Alex Amies	CCA	twisted_pottery_pillow1000.jpg
+marbled_pottery_pot400.jpg	绞胎陶碗	Marbled pottery bowl	Alex Amies	CCA	marbled_pottery_pot1000.jpg
+jar_lotus_lid_yuan400.jpg	月白釉荷叶盖罐	Moon white glazed jar with a lotus leaf shaped lid	Alex Amies	CCA	jar_lotus_lid_yuan1000.jpg
+porcelain_jar_lotus_song400.jpg	青釉刻花莲瓣盖罐	Celadon Covered Jar with a Lotus Petal Design	Alex Amies	CCA	porcelain_jar_lotus_song1000.jpg
+celadon_meiping_song400.jpg	青釉刻花牡丹纹梅瓶	Celadon meiping vase with carved peony design	Alex Amies	CCA	celadon_meiping_song1000.jpg
+celadon_vase_nsong400.jpg	青釉刻花缠枝花卉纹瓶	Celadon vase with carved interlaced floral design	Alex Amies	CCA	celadon_vase_nsong1000.jpg
+porcelain_bowl_lotus_yuan400.jpg	姜黄釉刻花莲花纹碗	Ginger-yellow glazed porcelain bowl with lotus design	Alex Amies	CCA	porcelain_bowl_lotus_yuan1000.jpg
+celadon_cloud_phoenix_yuan400.jpg	青釉露胎贴花卉凤纹盘	Celadon plate with attached cloud and phoenix design	Alex Amies	CCA	celadon_cloud_phoenix_yuan1000.jpg
+bronze_xiaochen_cup_wzhou400.jpg	小臣单觯	Zhi for Official Shan	Alex Amies	CCA	bronze_xiaochen_cup_wzhou1000.jpg
+vase_lotus_song400.jpg	白釉划花莲鱼纹瓶	White glaze with incised fish and lotus design	Alex Amies	CCA	vase_lotus_song1000.jpg
+porcelain_jar_jizhou400.jpg	白地褐花叶纹盖罐	Covered jar with a brown leaf design on light background	Alex Amies	CCA	porcelain_jar_jizhou1000.jpg
+vase_peony_jin400.jpg	黑釉剔刻牡丹纹罐	Dark glazed jar with incised peony design	Alex Amies	CCA	vase_peony_jin1000.jpg
+porcelain_pillow_lotus_nsong400.jpg	白地黑花把莲纹枕	Porcelain pillow with dark lotus bouquet design on light background	Alex Amies	CCA	porcelain_pillow_lotus_nsong1000.jpg
+vase_peonies_xixia400.jpg	刻花开光牡丹纹瓶	Porcelain vase with blooming peonies	Alex Amies	CCA	vase_peonies_xixia1000.jpg
+jingdezhen_kiln400.jpg	景德镇蛋形窑	Jingdezhen Egg Shaped Kiln	Alex Amies	CCA	jingdezhen_kiln1000.jpg
+porcelain_lions_ming400.jpg	青花双狮戏球纹盘	Blue and white porcelain plate with two lions playing with a ball	Alex Amies	CCA	porcelain_lions_ming1000.jpg
+plate_arabic_ming400.jpg	白釉红彩阿拉伯文盘	Dish with red Arabic text on a white background	Alex Amies	CCA	plate_arabic_ming1000.jpg
+plate_sanskrit_ming400.jpg	青花莲瓣形梵文盘	Blue and white porcelain plate with lotus petal design and Sanskrit text	Alex Amies	CCA	plate_sanskrit_ming1000.jpg
+wucai_plate_ming400.jpg	五彩花蝶纹菊瓣形盘	Porcelain plate with wucai butterfly desgin and chrysanthemum petals	Alex Amies	CCA	wucai_plate_ming1000.jpg
+blue_white_phoenix_ming1400.jpg	青花双凤纹盘	Blue and white porcelain dish with two phoenixes 	Alex Amies	CCA	blue_white_phoenix_ming1000.jpg
+blue_bottle_kangxi400.jpg	酒蓝地开光青花瓶	Porcelain bottle with blue background and reserved panel design	Alex Amies	CCA	blue_bottle_kangxi1000.jpg
+porcelain_brush_holder_qing400.jpg	陈国治款黄釉笔筒	Yellow glazed porcelain brush holder with Chen Guozhi Stamp	Alex Amies	CCA	porcelain_brush_holder_qing1000.jpg
+vase_gold_medallion_qing400.jpg	蓝地金彩团花纹瓶	Vase with blue background and gold medallion design	Alex Amies	CCA	vase_gold_medallion_qing1000.jpg
+vase_medallions_detail400.jpg	蓝地金彩团花纹瓶	Vase with blue background and gold medallion design	Alex Amies	CCA	vase_medallions_detail800.jpg
+golden_dragon_qing400.jpg	绿地金彩云龙纹瓶	Vase with a golden dragon and cloud design on a green background	Alex Amies	CCA	golden_dragon_qing1000.jpg
+cong_liangzhu400.jpg	神像飞鸟纹琮	Cong with diety and flying bird design	Alex Amies	CCA	cong_liangzhu1000.jpg
+jade_pendant_spring400.jpg	龙凤饰	Ornament with dragon and phoenix	Alex Amies	CCA	jade_pendant_spring1000.jpg
+huang_warring400.jpg	谷纹璜	Huang with grain design	Alex Amies	CCA	huang_warring1000.jpg
+cong_tall_liangzhu400.jpg	神面纹琮	Cong with diety face design	Alex Amies	CCA	cong_tall_liangzhu1000.jpg
+jade_dragon_hongshan400.jpg	龙	Dragon	Alex Amies	CCA	jade_dragon_hongshan1000.jpg
+funery_face_wzhou400.jpg	幎目缀玉	Jade ornaments for a funerary mask	Alex Amies	CCA	funery_face_wzhou1000.jpg
+jade_tiger_shang400.jpg	虎	Tiger	Alex Amies	CCA	jade_tiger_shang1000.jpg
+jade_dragon_warring400.jpg	龙	Dragon	Alex Amies	CCA	jade_dragon_warring1000.jpg
+jade_bi_warring400.jpg	璧	Bi	Alex Amies	CCA	jade_bi_warring1000.jpg
+jade_frog_war_400.jpg	兽首蛙纹带钩	Belt buckle with animal mask and frog design	Alex Amies	CCA	jade_frog_war_full.jpg
+bi_bird_whan400.jpg	鸟纹璧	Bi (jade disc) with bird design	Alex Amies	CCA	bi_bird_whan1000.jpg
+jade_crane_cloud_song400.jpg	云鹤纹饰	Ornament with crane and cloud design	Alex Amies	CCA	jade_crane_cloud_song1000.jpg
+jade_parrots_ming400.jpg	双鹦鹉纹饰	Ornament with parrot design	Alex Amies	CCA	jade_parrots_ming1000.jpg
+jade_egret_yuan400.jpg	莲鹭纹饰	Ornament with lotus and egret design	Alex Amies	CCA	jade_egret_yuan1000.jpg
+jade_serpent_ming400.jpg	螭凤纹饰	Ornament with chi (serpent) and phoenix design	Alex Amies	CCA	jade_serpent_ming1000.jpg
+miao_embroidery_animal400.jpg	苗族剖绣动物纹袖片	Miao sleeve attachments with embroidered animal designs	Alex Amies	CCA	miao_embroidery_animal1000.jpg
+miao_embroidery_soul400.jpg	苗族辫绣祖灵纹袖片	Miao sleeve with embroidered braiding and ancestral soul motif	Alex Amies	CCA	miao_embroidery_soul1000.jpg
+miao_batik_bird400.jpg	苗族蜡染花鸟纹被面	Miao batik quilt with bird design	Alex Amies	CCA	miao_batik_bird1000.jpg
+batik_buyi400.jpg	布依族蜡染花袖片	Bouyi batik sleeve attachments	Alex Amies	CCA	batik_buyi_full.jpg
+baizu_batik_headscarf400.jpg	白族扎染头巾	Bai batik headscarf	Alex Amies	CCA	baizu_batik_headscarf1000.jpg
+copper_pitcher_uygur400.jpg	维吾尔族刻花镂空铜壶	Uygur openwork copper pitcher	Alex Amies	CCA	copper_pitcher_uygur1000.jpg
+copper_pitcher_spiral400.jpg	维吾尔族刻花填漆铜水壶	Uygur copper pitcher in lacquer inlay	Alex Amies	CCA	copper_pitcher_spiral1000.jpg
+copper_pitcher_spiral_detail350.jpg	螺纹	Spiral pattern	Alex Amies	CCA	\N
+lacquerware_tibetan400.jpg	藏族描金彩漆花卉纹提篮	Tibetan lacquer ware basket with gold leaf and floral design	Alex Amies	CCA	lacquerware_tibetan1000.jpg
+tibetan_lacquer_mask400.jpg	藏族彩漆牛头明王跳神面具	Tibetan lacquer Yamantaka mask used in Cham dance	Alex Amies	CCA	tibetan_lacquer_mask1000.jpg
+pictorial_seal_xzhou400.jpg	涡纹玺	Ruler's seal with a curly grain design	Alex Amies	CCA	pictorial_seal_xzhou1000.jpg
+bird_insect_script_wzhou300.jpg	鸟虫书体印	Bird and insect script seal	Alex Amies	CCA	bird_insect_script_wzhou1000.jpg
+pictorial_seal300.jpg	两汉祝辞 图形印	Han Dynasty pictorial seal for good wishes	Alex Amies	CCA	pictorial_seal1000.jpg
+shijia_liang400.jpg	程荣等造佛石像	Stone Buddha statue created for Cheng Rong and others	Alex Amies	CCA	shijia_liang1000.jpg
+porcelain_flask_mingyongle400.jpg	青花山茶纹扁壶	Blue and white oblate flask with camellia design	Alex Amies	CCA	porcelain_flask_mingyongle1000.jpg
+porcelain_vase_minghongwu400.jpg	青花云龙纹瓶	Blue and white porcelain vase with cloud and dragon design	Alex Amies	CCA	porcelain_vase_minghongwu1000.jpg
+buddha_nimbus400.jpg	佛石像	Stone Statue of the Buddha	Alex Amies	CCA	\N
+flame_pattern400.jpg	火焰纹	Flame pattern	Alex Amies	CCA	\N
+abhaya_mundra.jpg	施无畏印	Abhaya mundra	Alex Amies	CCA	\N
+vara_mundra.jpg	愿印	Vara mundra	Alex Amies	CCA	\N
+wanfo_shibei400.jpg	万佛石碑	Ten thousand Buddhas Steele	Alex Amies	CCA	wanfo_shibei1000.jpg
+baoliangzao_pusa_beiwei400.jpg	菩萨鎏金铜像	Gilt bronze bodhisattva statue	Alex Amies	CCA	baoliangzao_pusa_beiwei1000.jpg
+bronze_buddha_nwei400.jpg	佛铜像	Bronze Statue of the Buddha	Alex Amies	CCA	bronze_buddha_nwei1000.jpg
+amitabha_bronze_sui400.jpg	阿弥陀三尊铜像	Bronze statues of Amitabha	Alex Amies	CCA	amitabha_bronze_sui1000.jpg
+lokapala_stone_tang400.jpg	天王石像	Stone Lokapala statue	Alex Amies	CCA	lokapala_stone_tang1000.jpg
+buddha_gilt_dali400.jpg	大日遍照鎏金铜像	Gilt bronze Mahavairocana statue	Alex Amies	CCA	buddha_gilt_dali1000.jpg
+neolithic_silk400.jpg	纹纱丝织物残片	Fragment of silk fabric	Alex Amies	CCA	neolithic_silk1000.jpg
+needles_neolithic400.jpg	骨针	Bone needles	Alex Amies	CCA	needles_neolithic1000.jpg
+weaving_neolithic400.jpg	分经器	Weaving implement	Alex Amies	CCA	weaving_neolithic1000.jpg
+tabby_animals_war400.jpg	舞人动物纹锦	Tabby with dancers and animals	Alex Amies	CCA	tabby_animals_war1000.jpg
+brocade_printed_xhan400.jpg	印花敷彩纱工艺步骤图	Color printed brocade	Alex Amies	CCA	brocade_printed_xhan1000.jpg
+brocade_ehan_xinjiang400.jpg	延年益寿大宜子孙锦	Longevity suitable for everybody brocade	Alex Amies	CCA	brocade_ehan_xinjiang1000.jpg
+brocade_cloud_xinjiang400.jpg	夔纹锦	Brocade with Kui dragon design	Alex Amies	CCA	brocade_cloud_xinjiang1000.jpg
+brocade_lamp_xinjiang400.jpg	灯树纹锦	Brocade with Tree lamp pattern	Alex Amies	CCA	brocade_lamp_xinjiang1000.jpg
+brocade_phoenix_tang400.jpg	簇四联珠对凤锦	Silk brocade with phoenixes in pearls	Alex Amies	CCA	brocade_phoenix_tang1000.jpg
+silk_preparation_tang400.jpg	捣练图之一	One of the pictures on silk pounding	Alex Amies	CCA	silk_preparation_tang1000.jpg
+samite_bird_tang400.jpg	花瓣团窠瑞鸟衔缓锦	Brocade with a lucky bird holding a ribbon and nest of petals	Alex Amies	CCA	samite_bird_tang1000.jpg
+brocade_bird_flower_xinjiang400.jpg	花鸟纹锦	Brocade with bird and flower design	Alex Amies	CCA	brocade_bird_flower_xinjiang1000.jpg
+silk_tapestry_song400.jpg	缂丝禁鸾鹊谱	Silk tapestry with flowers and birds on purple background	Alex Amies	CCA	silk_tapestry_song1000.jpg
+robe_dragon_qing400.jpg	平金纳纱绣龙袍	Robe with embroidered dragon	Alex Amies	CCA	robe_dragon_qing1000.jpg
+dragon_robe_qing400.jpg	龙袍	emperor's court dress	Alex Amies	CCA	dragon_robe_qing1000.jpg
+silk_badge_crane_qing400.jpg	仙鹤官补	Official badge with crane design	Alex Amies	CCA	silk_badge_crane_qing1000.jpg
+jacket_crane_qing400.jpg	远地彩绣团鹤女礼服	Lady's jacket with round crane design	Alex Amies	CCA	jacket_crane_qing1000.jpg
+brocade_butterfly_qing400.jpg	黄地蝶锦	Brocade with butterfly design on a yellow background	Alex Amies	CCA	brocade_butterfly_qing1000.jpg
+silk_moth400.jpg	蚕蛾	Silk moth	Alex Amies	CCA	silk_moth_high.jpg
+silk_rearing_stand400.jpg	蚕架	Rearing stand	Alex Amies	CCA	silk_rearing_stand1000.jpg
+satin400.jpg	百花纹金宝地缎	Satin with floral design on gold background	Alex Amies	CCA	satin1000.jpg
+satin_flower_medallion400.jpg	宝相云纹库锦	Brocade with flower and cloud design	Alex Amies	CCA	satin_flower_medallion1000.jpg
+silk_moth_design400.jpg	蚕蛾纹	Silk moth design	Alex Amies	CCA	silk_moth_design1000.jpg
+dragon_roof_baoensi400.jpg	报恩寺七佛宝殿的龙	Dragon on the roof of Seven Buddha Hall at Bao En Temple	Alex Amies	CCA	dragon_roof_baoensi1000.jpg
+zen_chair_qing400.jpg	楠木禅椅	Cedar Zen chair	Alex Amies	CCA	\N
+table_decorations400.jpg	黄花梨四仙桌的修饰	Decorations on rosewood table	Alex Amies	CCA	table_decorations1000.jpg
+gate_carving_humble400.jpg	网师园砖雕门楼	Carved brick on a gate structure	Alex Amies	CCA	gate_carving_humble1000.jpg
+carved_brick_shou400.jpg	砖雕门楼的“寿”字	Long life character on carved brick	Alex Amies	CCA	carved_brick_shou_high.jpg
+chair_hall_ellegance_humble400.jpg	云纹椅	Chair with cloud designs	Alex Amies	CCA	chair_hall_ellegance_humble1000.jpg
+window_triangle400.jpg	冰裂漏窗	Window with cracked ice lattice	Alex Amies	CCA	window_triangle1000.jpg
+tableset_humble400.jpg	桌子	Table Set	Alex Amies	CCA	tableset_humble1000.jpg
+yiyugan400.jpg	倚玉軒	Yi Yu Pavilion	Alex Amies	CCA	yiyugan1000.jpg
+window_square_humble400.jpg	窗口	Window	Alex Amies	CCA	window_square_humble1000.jpg
+pavilion_lion_forst400.jpg	亭	Pavilion	Alex Amies	CCA	pavilion_lion_forst1000.jpg
+corridor_humble400.jpg	长廊	Corridor	Alex Amies	CCA	corridor_humble1000.jpg
+louchuang_lingyinsi400.jpg	漏窗	Open screen window	Alex Amies	CCA	louchuang_lingyinsi1000.jpg
+loukong_square_humble400.jpg	漏窗	Open screen window	Alex Amies	CCA	loukong_square_humble1000.jpg
+table_decoration_humbe400.jpg	陈设装饰	Furniture decoration	Alex Amies	CCA	table_decoration_humbe1000.jpg
+xuan_humble400.jpg	倚玉轩	Yi Yu Pavilion	Alex Amies	CCA	xuan_humble1000.jpg
+table_ring_design_humble400.jpg	陈设绦环装饰	Table with ring decorations	Alex Amies	CCA	table_ring_design_humble1000.jpg
+furniture_huahuiwen_humble400.jpg	花卉纹陈设	Furniture with floral design	Alex Amies	CCA	furniture_huahuiwen_humble1000.jpg
+wadang_wanzi_humble400.jpg	“万”字瓦当	Eaves tile with wan character	Alex Amies	CCA	wadang_wanzi_humble1000.jpg
+cloud_design_detail_humble400.jpg	云纹陈设	Furniture with cloud design	Alex Amies	CCA	cloud_design_detail_humble1000.jpg
+mirror_stand_humble400.jpg	镜架	Mirror stand	Alex Amies	CCA	mirror_stand_humble1000.jpg
+furniture_longwen_humble400.jpg	龙纹陈设	Furniture with dragon design	Alex Amies	CCA	furniture_longwen_humble1000.jpg
+window_square_lattice_humble400.jpg	漏窗	Open screen window	Alex Amies	CCA	window_square_lattice_humble1000.jpg
+silverware_mirror_yuan400.jpg	银镜架	Silver Mirror Stand	Alex Amies	CCA	silverware_mirror_yuan1000.jpg
+porcelain_duck_flask_tang400.jpg	三彩鸳鸯扁壶	Sancai porcelain Mandarin duck flask	Alex Amies	CCA	porcelain_duck_flask_tang1000.jpg
+bronze_mirror_shengxiao400.jpg	铜镜（十二生肖）	Bronze mirror with the twelve animals of the Terrestrial Branches	Alex Amies	CCA	bronze_mirror_shengxiao1000.jpg
+porcelain_unicorn_ming400.jpg	青花麒麟望月纹盘	Porcelain plate with unicorn gazing at the moon	Alex Amies	CCA	porcelain_unicorn_ming1000.jpg
+damo_porcelain_qing400.jpg	达摩	Bodhidharma	Alex Amies	CCA	damo_porcelain_qing1000.jpg
+jade_rams_ming400.jpg	三羊开泰饰板	Jade ornament with three sheep symbolizing an auspicious new year	Alex Amies	CCA	jade_rams_ming1000.jpg
+ruyi_qing400.jpg	白玉三镶如意	Sceptre with inlaid jade	Alex Amies	CCA	ruyi_qing1000.jpg
+ivory_tusk_figures400.jpg	象牙人物群雕	Ivory tusk with a carving of a crowd of people	Alex Amies	CCA	ivory_tusk_figures1000.jpg
+lacquerware_screen400.jpg	雕漆台屏	Carved lacquerware screen	Alex Amies	CCA	lacquerware_screen1000.jpg
+bamboo_carving_landscape_qing400.jpg	留青竹刻山水人物搁臂	Carved bamboo wrist rest	Alex Amies	CCA	bamboo_carving_landscape_qing1000.jpg
+ivory_dragon_qing400.jpg	象牙雕龙	Carved ivory dragon	Alex Amies	CCA	ivory_dragon_qing1000.jpg
+cicada_clay_qing400.jpg	紫砂桂枝歇蝉笔架	Zisha brush rest with a cicada on a branch	Alex Amies	CCA	cicada_clay_qing1000.jpg
+porcelain_praying_mantis400.jpg	青花螳纹花觚	Blue and white porcelain flower container with a praying mantis design 	Alex Amies	CCA	porcelain_praying_mantis1000.jpg
+agate_snuff_bottle_qing400.jpg	玛瑙巧色鼻烟壶	Agate snuff bottle	Alex Amies	CCA	agate_snuff_bottle_qing1000.jpg
+porcelain_thumb_ring_qing400.jpg	绿釉雕瓷扳指	Green porcelain thumb right with carved pattern	Alex Amies	CCA	porcelain_thumb_ring_qing809.jpg
+embroidery_cloud_qing400.jpg	刺绣蟠金云神袍	Ceremonial robe with gold coiled cloud embroidery	Alex Amies	CCA	embroidery_cloud_qing1000.jpg
+silk_robe_female_qing400.jpg	刺绣蟠金女套	Female robe with Embroidered coiled gold pattern	Alex Amies	CCA	silk_robe_female_qing1000.jpg
+porcelain_deers_guangxu400.jpg	粉彩百鹿纹尊	Fencai zun with deer design	Alex Amies	CCA	porcelain_deers_guangxu1000.jpg
+porcelain_waves_chenghua400.jpg	青花海水瑞兽纹盘	Blue and white porcelain plate with sea wave and lucky animal deisgn	Alex Amies	CCA	porcelain_waves_chenghua1000.jpg
+wucai_plate_shouzi_jiaqing400.jpg	五彩寿字纹盘	Wucai plate with shou character design	Alex Amies	CCA	wucai_plate_shouzi_jiaqing1000.jpg
+doucai_shou_design_qianlong400.jpg	斗彩寿字纹盘	Doucai plate with shou character design	Alex Amies	CCA	doucai_shou_design_qianlong1000.jpg
+jiaqingnian_kuan400.jpg	“大清嘉庆年制”六字三行楷书款	Qing Dynasty, Jiaqing reign seal in regular script	Alex Amies	CCA	jiaqingnian_kuan1000.jpg
+daoguangnian_kuan300.jpg	“大清道光年制”六字三行楷书款	Qing Dynasty, Daoguang reign seal in regular script	Alex Amies	CCA	\N
+kuan_kangxi300.jpg	“大清康熙年制”六字二行楷书款	Qing Dynasty, Kangxi reign seal in regular script	Alex Amies	CCA	kuan_kangxi700.jpg
+pottery_rat_tang400.jpg	陶生肖俑（鼠）	Animal figurine (rat)	Alex Amies	CCA	pottery_rat_tang1000.jpg
+pottery_zun_songze400.jpg	黑皮陶尊	Black pottery zun	Alex Amies	CCA	pottery_zun_songze1000.jpg
+chair_taiping400.jpg	椅子	Chair	Alex Amies	CCA	chair_taiping1000.jpg
+wood_relief_carving_wall400.jpg	山水木雕	Landscape wood carving	Alex Amies	CCA	wood_relief_carving_wall1000.jpg
+robe_yingyang400.jpg	八卦衣	Robe with eight divinatory trigrams	Alex Amies	CCA	robe_yingyang1000.jpg
+feilaifeng_xifangsansheng400.jpg	卢舍那佛会	Meeting with the Locana Buddha	Alex Amies	CCA	feilaifeng_xifangsansheng1000.jpg
+statue_wealth_deity400.jpg	宝藏神	Wealth Diety	Alex Amies	CCA	statue_wealth_deity1000.jpg
+jingangshou_pusa400.jpg	金刚手菩萨	Vajrapani Bodhisattva	Alex Amies	CCA	jingangshou_pusa1000.jpg
+feilaifeng_wenshu400.jpg	文殊师利	Manjusuri Bodhisattva	Alex Amies	CCA	feilaifeng_wenshu1000.jpg
+milepusa_feilaifeng400.jpg	弥勒菩萨	Maitreya Bodhisattva	Alex Amies	CCA	milepusa_feilaifeng1000.jpg
+jingzhang_lingyinsi400.jpg	经幢	Sutra pillar	Alex Amies	CCA	jingzhang_lingyinsi1000.jpg
+stork_terracotta_lingyin400.jpg	鹳	Crane	Alex Amies	CCA	stork_terracotta_lingyin1000.jpg
+bronze_flame_linyinsi400.jpg	火焰纹青铜器	Bronze flame	Alex Amies	CCA	bronze_flame_linyinsi1000.jpg
+stone_pagoda_linyinsi400.jpg	石塔	Stone pagoda	Alex Amies	CCA	stone_pagoda_linyinsi1000.jpg
+false_door_lingyinsi400.jpg	假门	False door	Alex Amies	CCA	false_door_lingyinsi1000.jpg
+stone_bat_linyinsi400.jpg	蝙蝠	Bat	Alex Amies	CCA	stone_bat_linyinsi1000.jpg
+feitian_lingyinsi400.jpg	飞天	Apsara	Alex Amies	CCA	feitian_lingyinsi1000.jpg
+elephant_linyinsi400.jpg	大象	Elephant	Alex Amies	CCA	elephant_linyinsi1000.jpg
+dizang_putuoshan400.jpg	地藏菩萨	Ksitigarbha Bodhisattva	Alex Amies	CCA	dizang_putuoshan1000.jpg
+monkey_putuoshan400.jpg	猴子	Monkey	Alex Amies	CCA	monkey_putuoshan1000.jpg
+nanhai_guanyinxiang400.jpg	南海观音像	South China Sea Avalokitesvara Statue	Alex Amies	CCA	nanhai_guanyinxiang1000.jpg
+muyu_fayusi400.jpg	木鱼	Wooden fish	Alex Amies	CCA	muyu_fayusi1000.jpg
+bamboo_relief400.jpg	竹林浮雕	Bamboo Relief Sculpture	Alex Amies	CCA	bamboo_relief1000.jpg
+incense_burner_linyinsi400.jpg	香炉	Incense burner	Alex Amies	CCA	incense_burner_linyinsi1000.jpg
+jingzhuang_linyinsi_detail400.jpg	经幢（部）	Sutra pillar (part)	Alex Amies	CCA	jingzhuang_linyinsi_detail1000.jpg
+falun_dacheng400.jpg	法轮	Dharma Wheel	Alex Amies	CCA	falun_dacheng1000.jpg
+puxian_pusa_putuoshan400.jpg	普贤菩萨	Samantabhadra Bodhisattva statue	Alex Amies	CCA	puxian_pusa_putuoshan1000.jpg
+simianfo_malaysia400.jpg	四面佛	Four-faced Buddha	Alex Amies	CCA	simianfo_malaysia1000.jpg
+pagoda_nanputuoshan1400.jpg	南普陀山佛塔	Nan Putuoshan Pagoda	Alex Amies	CCA	pagoda_nanputuoshan1000.jpg
+stupa_wutaishan400.jpg	藏传佛教佛塔	Tibetan Style Stupa	Alex Amies	CCA	stupa_wutaishan1000.jpg
+city_god_yu_gardens400.jpg	城隍	City God	Alex Amies	CCA	city_god_yu_gardens1000.jpg
+reclining_buddha_malaysia400.jpg	卧佛	Reclining Buddha	Alex Amies	CCA	reclining_buddha_malaysia1000.jpg
+window_screen_bats_fayusi400.jpg	蝙蝠花纹漏窗	Open screen window with bat design	Alex Amies	CCA	window_screen_bats_fayusi1000.jpg
+dragon_water_window_linyinsi400.jpg	蝙蝠花纹漏窗	Open screen window with dragon design	Alex Amies	CCA	dragon_water_window_linyinsi1000.jpg
+yonghegong_prayer_wheel400.jpg	传经筒	Prayer wheel	Alex Amies	CCA	\N
+buddha_bronze_foguangshan400.jpg	佛坐像	Seated Buddha statue	Alex Amies	CCA	buddha_bronze_foguangshan1000.jpg
+putuoshan_relief_story400.jpg	紫竹禅林记碑	Purple Bamboo Chan Temple Memorial Tablet	Alex Amies	CCA	putuoshan_relief_story1000.jpg
+jiulongbi_fayusi400.jpg	九龙壁	Nine Dragon Wall	Alex Amies	CCA	jiulongbi_fayusi1000.jpg
+duobaota400.jpg	多宝塔	Duobao Pagoda	Alex Amies	CCA	duobaota1000.jpg
+duobaota_buddha_east400.jpg	药师佛	Medicine Buddha	Alex Amies	CCA	duobaota_buddha_east1000.jpg
+guanyin_beiguang400.jpg	观音菩萨	Avalokitesvara Bodhisattva	Alex Amies	CCA	guanyin_beiguang1000.jpg
+taihedian400.jpg	太和殿	Taihe Hall	Alex Amies	CCA	taihedian1000.jpg
+zhonghedian400.jpg	中和殿	Zhonghe Hall	Alex Amies	CCA	zhonghedian1000.jpg
+baohedian400.jpg	保和殿	Baohe Hall	Alex Amies	CCA	baohedian1000.jpg
+baohedian_ceiling400.jpg	保和殿顶棚	Baohe Hall Ceiling	Alex Amies	CCA	baohedian_ceiling1000.jpg
+kunning_palace_plafond400.jpg	坤宁宫藻井	Kunning Palace Plafond	Alex Amies	CCA	kunning_palace_plafond1000.jpg
+gugong_wadang400.jpg	故宫瓦当	Roof tile from the Forbidden City	Alex Amies	CCA	gugong_wadang1000.jpg
+yudao_dragons400.jpg	御道石龙	Yu Dao Dragons	Alex Amies	CCA	\N
+gugong_rigui400.jpg	日晷	Sundial	Alex Amies	CCA	gugong_rigui1000.jpg
+gugong_jiaolou400.jpg	角楼	Corner Tower	Alex Amies	CCA	gugong_jiaolou1000.jpg
+gugong_wanshouting400.jpg	万寿亭	Wan Shou Ting	Alex Amies	CCA	gugong_wanshouting1000.jpg
+gugong_ridge_end_ornament400.jpg	舞动修饰	Roof ridge-end decoration	Alex Amies	CCA	gugong_ridge_end_ornament1000.jpg
+gugong_xianrenzoushou400.jpg	仙人走兽	Celestial beings and roof beasts	Alex Amies	CCA	gugong_xianrenzoushou1000.jpg
+tuzu400.jpg	土族	Tu People	Alex Amies	CCA	tuzu.jpg
+ewenke400.jpg	鄂温克族	Ewenki	Alex Amies	CCA	ewenke1000.jpg
+mongolian400.jpg	蒙古族	Mongolian	Alex Amies	CCA	mongolian1000.jpg
+ashoka_pillar_inscription_400.jpg	婆罗米文	Brahmi script	Alex Amies	CCA	ashoka_pillar_inscription_800.jpg
+manchurian_text400.jpg	满文	Manchurian script	Alex Amies	CCA	manchurian_text1000.jpg
+thousand_arm_guanyin400.jpg	千手千眼观音菩萨	Thousand Arm Guanyin	Alex Amies	CCA	thousand_arm_guanyin1000.jpg
+devanagari_nepali400.jpg	天城文	Devanagari	Alex Amies	CCA	devanagari_nepali1000.jpg
+sanskrit400.jpg	梵文	Sanskrit	Alex Amies	CCA	sanskrit1000.jpg
+tara400.jpg	多唎菩萨	Tara	Alex Amies	CCA	tara1000.jpg
+zongkeba400.jpg	宗喀吧	Tsongkhaba	Alex Amies	CCA	zongkeba1000.jpg
+medicine_buddha400.jpg	药师佛	Medicine Buddha	Alex Amies	CCA	medicine_buddha1000.jpg
+ranjana_script400.jpg	兰札文	Ranjana Script	Alex Amies	CCA	ranjana_script800.jpg
+brahmi_sanksrit400.jpg	婆罗米文	Brahmi script	Alex Amies	CCA	brahmi_sanksrit1000.jpg
+mogaoshiku400.jpg	莫高窟	Mogao Caves	Alex Amies	CCA	mogaoshiku1000.jpg
+yama400.jpg	阎摩王	Yama	Alex Amies	CCA	yama1000.jpg
+dizang400.jpg	地藏菩萨	Ksitigarbha Bodhisattva	Alex Amies	CCA	dizang1000.jpg
+dajuesi_chanting400.jpg	早课	morning chanting	Alex Amies	CCA	dajuesi_chanting1000.jpg
+screenshot_word_boundary.png	词组	word boundary detection	Alex Amies	CCA	\N
+screenshot_english_input.png	搜索英文	Searching on English	Alex Amies	CCA	\N
+screenshot_english_multiple.png	搜索英文	Searching on English	Alex Amies	CCA	\N
+screenshot_word_detail.png	搜索英文	Searching on English	Alex Amies	CCA	\N
+screenshot_word_sense.png	搜索英文	Searching on English	Alex Amies	CCA	\N
+vajra_bell400.jpg	铜铃	Copper Bell	Alex Amies	CCA	vajra_bell.jpg
