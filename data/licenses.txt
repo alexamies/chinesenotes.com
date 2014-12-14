@@ -1,0 +1,9 @@
+Public domain	\N	\N
+CC3	Creative Commons Version 3	http://creativecommons.org/licenses/by/3.0/legalcode
+CCASA	Creative Commons Attribution - Share Alike	http://creativecommons.org/licenses/by-sa/2.5/
+GFDL	GNU Free Documentation License Version 1.2 of Later	http://www.gnu.org/licenses/fdl.html
+CeCILL	\N	http://www.cecill.info/licences/Licence_CeCILL_V2-fr.html
+CCA	Creative Commons with Attribution 2.5	http://creativecommons.org/licenses/by/2.5/
+GDFL_CCASA	Multi-license with GFDL and Creative Commons CC-BY-SA-2.5 and older versions (2.0 and 1.0)	http://creativecommons.org/licenses/by-sa/2.5/
+Currency Copyright	\N	/currency_copyright.php
+Fair Use	\N	\N

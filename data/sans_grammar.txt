@@ -1,0 +1,42 @@
+proper_noun	Proper noun	A noun that names a unique person, place, or thing
+noun	Noun	Names a person, place, thing, or abstract idea
+fragment	Fragment	A string of words
+pronoun	Pronoun	Substitutes for a noun in a sentence
+phrase	Phrase	A group of words that form a constituent
+adverb	Adverb	A modifier of a verb or other part of speech besides a noun
+adjective	Adjective	Modifies a noun
+cardinal	Cardinal	A number used to count things (as opposed to a number giving a position in an order)
+conjunction	Conjunction	Connects two words, phrases, or clauses
+preposition	Preposition	Marks certain syntactic functions and semantic roles
+particle	Particle	A function word that does not belong to any more specific word classes, such as nouns, pronouns, verbs, or adjectives
+verb	Verb	Conveys an action, occurrence, or state of being
+verb1	Class I verb	A verb that undergoes a thematic inflection
+verb2	Class II Verb	\N
+verb1_3rd	Class I in the third person	A verb that undergoes a thematic inflection in the third person form, usually with <em>ti</em> appended
+verb1_2nd	Class I in the second person	A verb that undergoes a thematic inflection in the second person form
+verb1_1st	Class I in the first person	A verb that undergoes a thematic inflection in the first person form
+verb3	Class III	\N
+verb4	Class IV	A verb that undergoes a thematic inflection
+verb4_3rd	Verb of class IV in the third person	A verb that undergoes a thematic inflection in the third person form, usually with <em>ti</em> appended
+verb5	Class V	A verb that undergoes a thematic inflection
+verb6	Class VI	A verb that undergoes a thematic inflection
+verb6_3rd	Verb of class VI in the third person	A verb that undergoes a thematic inflection in the third person form, usually with <em>ti</em> appended
+indecl_adj	indeclinable adjective	An adjective that is not modified based on grammatical usage
+masculine	Masculine noun	noun with masculine grammatical gender
+feminine	Feminine noun	noun with feminine grammatical gender
+neuter	Neuter noun	noun with neuter grammatical gender
+indeclinable	Indeclinable	A word that does not change in form
+compound	Compound	A compound word
+verb7	Class VII verb	\N
+verb8	Class VIII verb	\N
+verb9	Class IX verb	\N
+verb10	Class X verb	\N
+number	Number	\N
+pp	past participle	\N
+interjection	Interjection	\N
+ordinal	Ordinal number	Used for ordering and counting
+gerund	Gerund	A modification of a verb to serve as a noun
+prefix	Prefix	Modifies a word by being prefixed
+perfect	Perfect Tense	The perfect tense of a verb
+future	Future Tense	The future tense of a verb
+present	Present Tense	The present tense of a verb

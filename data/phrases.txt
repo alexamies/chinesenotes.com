@@ -1,0 +1,336 @@
+1	何以故	何/DT[hé why] 以/P[yǐ | because] 故/NN[gù | purpose] <why?>	tatkasya hetoḥ	2	Diamond Sūtra
+2	於意云何	於/P[yú | in] 意/NN[yì | idea] 云何/DT[yúnhé | what] <what do you think?>	\N	2	Diamond Sūtra
+3	如來說	如來/NR[Rúlái | Tathāgata] 說/VV[shuō | speaks] <the Tathāgata speaks>	tathāgatena bhāṣitaḥ	2	Diamond Sūtra
+4	須菩提言	須菩提/NR[Xūpútí | Subhūti] 言/VV[yán | said] <Subhūti said>	\N	2	Diamond Sūtra
+5	不也	不/AD[bù | no] 也/SP[yě | final particle] <certainly not>	no hīdaṃ	2	Diamond Sūtra
+6	須菩提白佛言	須菩提/NR[Xūpútí | Subhūti] 白/VV[bái | to address] 佛/NR[Fó | Buddha] 言/VV[yán | said] <Subhūti addressed the Buddha>	\N	2	Diamond Sūtra
+7	佛告須菩提	佛/NR[Fó | Buddha] 告/VV[gào | said] 須菩提/NR[Xūpútí | Subhūti] <the Buddha told Subhūti>	bhagavānasyaitadavocat-iha subhūte	3	Diamond Sūtra
+8	作是念	作/VV[zuò | do] 是/DT[shì | this] 念/NN[niàn | thought] <have the thought>	\N	2	Diamond Sūtra
+9	是經	是/DT[shì | this] 經/NN[jīng | sūtra] <this sūtra>	\N	2	Diamond Sūtra
+10	諸菩薩	諸/DT[zhū | all] 菩薩/NN[púsà | bodhisattva] <all the bodhisattvas>	\N	2	Diamond Sūtra
+11	一切法	一切/DT[yīqiè | all] 法/NN[fǎ | dhárma] <all dhármas>	sarvadharmā	2	Diamond Sūtra
+12	恒河沙	恒河/NR[Hénghé | Ganges River] 沙/NN[shā | sand] <sand in the Ganges River>	gaṅgānadīvālukā	2	Diamond Sūtra
+13	若復有人	若/CS[ruò | if] 復有/AD[fùyǒu | once again] 人/NN[rén | person] <also, if a person>\N	\N	2	Diamond Sūtra
+14	發阿耨多羅三藐三菩提心	發/VV[fā | to develop] 阿耨多羅三藐三菩提/NR[ānòuduōluó sānmiǎo sānpútí | Anuttarā Samyaksaṃbodhi] 心/NN[xīn | mind] <develop the mind of Anuttarā Samyaksaṃbodhi>	\N	2	Diamond Sūtra
+15	所說義	所/DT[suǒ | it] 說/VV[shuō | explain] 義/NN[yì | meaning] <explain the meaning>	\N	2	Diamond Sūtra
+16	降伏其心	降伏/VV[xiángfú | pacify] 其/DT[qí | their] 心/NN[xīn | mind] <pacify their minds>	cittaṃ pragrahītavyam	2	Diamond Sūtra
+17	一合相	一/CD[yī | one] 合/VV[hé | combine] 相/NN[xiāng | appearance] <single unified appearance>	\N	2	Diamond Sūtra
+18	用布施	用/VV[yòng | to use] 布施/NN[bùshī | giving] <the practice of giving>	dānaṃ dadyāt	2	Diamond Sūtra
+19	無有法	無/AD[wú | not] 有/VE[yǒu | is] 法/NN[fǎ | dhárma] <there is no dhárma>	\N	2	Diamond Sūtra
+20	不應住	不/AD[bù | no] 應/VV[yīng | ought] 住/VV[zhù | dwell] <not dwell in>	\N	2	Diamond Sūtra
+21	乘白象	乘/VV[chéng | ride] 白/VA[bái | white] 象/NN[xiàng | elephant] <riding a white elephant>	\N	10	Cārya-nidāna, Scroll 1
+22	彈琴	彈/VV[tán | play] 琴/NN[qín | string instrument] <playing a string instrument>	\N	10	Cārya-nidāna, Scroll 1
+23	宮中	宮/NN[gōng | palace] 中/P[zhōng | in] <in the palace>	\N	11	Sūtra on the Life of the Prince in Accordance with Good Omens
+24	八天	八/CD[bā | eight] 天/NN[tiān | day] <eight days>	\N	11	Sūtra on the Life of the Prince in Accordance with Good Omens
+25	上二十	上/VA[shàng | more than] 二十/CD[èrshí | twenty] <more than twenty>	\N	11	Sūtra on the Life of the Prince in Accordance with Good Omens
+26	當此	當/P[dāng | at] 此/PN[cǐ | this] <at that time>	\N	11	Sūtra on the Life of the Prince in Accordance with Good Omens
+27	太子生時	太子/NN[tàizǐ | prince] 生/VV[shēng | born] 時/NT[shí | time] <at the time the prince was born>	\N	12	Abhiniṣkramaṇa Sūtra, Scroll 1
+28	王與夫人	王/NN[wáng | king] 與/CC[yǔ | and] 夫人/NN[fūren | queen] <the king and the queen>	\N	12	Abhiniṣkramaṇa Sūtra, Scroll 1
+29	千人	千/CD[qiān | thousand] 人/NN[rén | person] <a thousand people>	\N	12	Abhiniṣkramaṇa Sūtra, Scroll 1
+30	吾子	吾/PN[wú | I] 子/NN[zǐ | son] <my son>	\N	12	Abhiniṣkramaṇa Sūtra, Scroll 1
+31	太子生	太子/NN[tàizǐ | prince] 生/VV[shēng | born] <the prince was born>	\N	12	Abhiniṣkramaṇa Sūtra, Scroll 1
+32	疊毛布	疊/VV[dié | fold] 毛布/NN[máobù | wool cloth] <folded the wool cloth>	\N	12	Abhiniṣkramaṇa Sūtra, Scroll 1
+33	八日	八/OD[bā | eight] 日/NT[rì | day] <eighth day of the month>	\N	12	Abhiniṣkramaṇa Sūtra, Scroll 1
+34	四月八日	四月/NR[sìyuè | Fourth Month] 八/OD[bā | eight] 日/NT[rì | day] <eighth day of the Fourth Month>	\N	12	Abhiniṣkramaṇa Sūtra, Scroll 1
+35	其母	其/PN[qí | his / hers] 母/NN[mǔ | mother] <his mother>	\N	12	Abhiniṣkramaṇa Sūtra, Scroll 1
+36	四月八日夜半	四月/NR[sìyuè | Fourth Month] 八/OD[bā | eight] 日/NT[rì | day] 夜半/NN[bànyè | middle of the night] <the middle of the night on the eighth day of the Fourth Month>	\N	13	Guan Xi Fo Xingxiang Sūtra, Scroll 1
+37	十方諸佛皆用四月八日	十方諸佛/NR[Shí Fāng zhū Fó | the Buddhas of the Ten Directions] 皆/DT[jiē | all] 用/VV[yòng | to use] 四月/NR[sìyuè | the Fourth Month] 八/OD[bā | eight] 日/NT[rì | day] <All Buddhas of the ten directions use the 8th day of the Fourth Month>	\N	13	Guan Xi Fo Xingxiang Sūtra, Scroll 1
+38	行七步	行/VV[xíng | walk] 七/CD[qī | seven] 步/NN[bù | step] <walked seven steps>	\N	13	Guan Xi Fo Xingxiang Sūtra, Scroll 1
+39	舉右手	舉/VV[jǔ | held up] 右手/NN[yòu shǒu | right hand] <held up his right hand>	\N	13	Guan Xi Fo Xingxiang Sūtra, Scroll 1
+40	入山學道	入/VV[rù | enter] 山/NN[shān | mountain] 學/VV[xué | study] 道/NN[dào | way] <enter the mountain to study the Way>	\N	13	Guan Xi Fo Xingxiang Sūtra, Scroll 1
+41	殃罪悉畢	殃/NN[yāng | calamity] 罪/NN[zuì | sin] 悉/DT[xī | all] 畢/VV[bì | exhaust] <perils and transgressions are all extinguished>	\N	13	Guan Xi Fo Xingxiang Sūtra, Scroll 1
+42	萬物普生	萬物/NN[wànwù | living things] 普/VA[pǔ | everywhere] 生/VV[shēng | born] <myriad beings all come to life>	\N	13	Guan Xi Fo Xingxiang Sūtra, Scroll 1
+43	不寒不熱	不/AD[bù | no] 寒/VA[hán | cold] 不/AD[bù | no] 熱/VA[rè | hot] <neither cold nor hot>	\N	13	Guan Xi Fo Xingxiang Sūtra, Scroll 1
+44	時氣和適	時/NT[shí | season] 氣/[qì | air] 和適/VA[hé shì | harmonious and agreeable] <the air of the season is harmonious and agreeable>	\N	13	Guan Xi Fo Xingxiang Sūtra, Scroll 1
+45	大動	大/VA[dà | great] 動/VV[dòng | move] <shook>	\N	14	Mahāparinirvāṇasūtra, Scroll 1
+46	天地為大動	天地/NN[tiān dì | heaven and earth] 為/VC[wèi | for] 大/VA[dà | great] 動/VV[dòng | move] <heaven and earth shook>	\N	14	Mahāparinirvāṇasūtra, Scroll 1
+47	菩薩母	菩薩/NN[púsà | bodhisattva] 母/NN[mother] <the bodhisattva's mother>	\N	16	Lalitavistara, Scroll 2
+48	樹下	樹/NN[shù | tree] 下/LC[xià | under] <under a tree>	\N	16	Lalitavistara, Scroll 2
+49	菩薩生時	菩薩/NN[púsà | bodhisattva] 生/VV[shēng | born] 時/AD[shí | when] <when the bodhisattva was born>	\N	16	Lalitavistara, Scroll 2
+50	佛從四月八日生	佛/NR[Fó | Buddha] 從/VV[cóng | use] 四月/NR[sìyuè | Fourth Month] 八/OD[bā | eight] 日/NT[rì | day] 生/VV[shēng | born] <a Buddha is born on the 8th day of the Fourth Month>	\N	16	Lalitavistara, Scroll 2
+51	得佛道	得/VV[dé | attain] 佛道/NN[Fódào | way] <attains the way>	\N	16	Lalitavistara, Scroll 2
+52	弗星出時	弗星/NR[Fúxīng | Puṣya] 出/VV[chū | appear] 時/AD[shí | at that time] <at the time that Puṣya appeared>	\N	18	Sarvāstivādavinayavibhāṣā, Scroll 2
+53	七日	七/CD[qī |seven] 日/NN[rì | day] <seven days>	\N	18	Sarvāstivādavinayavibhāṣā, Scroll 2
+54	弗星出	弗星/NR[Fúxīng | Puṣya] 出/VV[chū | appear] <Puṣya appeared>	\N	18	Sarvāstivādavinayavibhāṣā, Scroll 2
+55	八月八日	八月/NR[bāyuè | Eighth Month] 八/OD[bā | eight] 日/NT[rì | day] <eighth day of the Eighth Month>	\N	18	Sarvāstivādavinayavibhāṣā, Scroll 2
+56	二月八日	二月/NT[èryuè | Second Month] 八/OD[bā | eight] 日/NT[rì | day] <eighth day of the Eighth Month>	\N	18	Sarvāstivādavinayavibhāṣā, Scroll 2
+57	四寸	四/CD[sì | four] 寸/NN[cùn | inch] <four inches>	\N	20	Shi Er You Sūtra, Scroll 1
+58	有二子	有/VC[yǒu | to have] 二/CD[èr | two] 子/NN[zǐ | son] <had two sons>	\N	20	Shi Er You Sūtra, Scroll 1
+59	長子名	長子/NN[zhǎngzǐ | eldest son] 名/VV [míng | named] <the eldest son was named>	\N	20	Shi Er You Sūtra, Scroll 1
+60	小子名	小子/NN[xiǎozi | youngest son] 名/VV [míng | named] <the youngest son was named>	\N	20	Shi Er You Sūtra, Scroll 1
+61	依般若波羅蜜多故	依P/[yī | maintain] 般若波羅蜜多/NR[bānruòbōluómìduō | prajñāpāramitā] 故/[gù | cause] <maintain prajñāpāramitā>	\N	3	Prajñāpāramitā Heart Sūtra
+62	度一切苦厄	度/VV[dù | overcome] 一切/DT[yīqiè | all] 苦厄/NN[kŭ è | suffering] <overcoming all suffering>	\N	3	Prajñāpāramitā Heart Sūtra
+63	亦復如是	亦復/AD[yìfù | also] 如是/DT[rúshì | thus] <are also like this>	\N	3	Prajñāpāramitā Heart Sūtra
+64	是諸法空相	是/DT[shì | this] 諸DT[zhū | all] 法/NN[fǎ | dhárma] 空/NN[kōng | emptiness] 相/NN[xiāng | appearance] <this is the emptiness of all dhármas>	\N	3	Prajñāpāramitā Heart Sūtra
+65	無得	無/VE[wú | to not have] 得/VV[dé | attain] <no attainment>	\N	3	Prajñāpāramitā Heart Sūtra
+66	心無罣礙	心/NN[xīn | mind] 無/AD[wú | not] 罣/[guà | to be anxious] 礙/VV[ài | to hinder] <their heart is without hindrance>	\N	3	Prajñāpāramitā Heart Sūtra
+67	無等等咒	無/VE[wú | to not have] 等/NN[děng | equal] 等/NN[děng | equal] 咒/NN[zhòu | mantra] <the unequalled mantra>	\N	3	Prajñāpāramitā Heart Sūtra
+68	真實不虛	真實/VA[zhēnshí | true] 不/AD[bù | not] 虛/VA[xū | false] <this is true, not false>	\N	3	Prajñāpāramitā Heart Sūtra
+69	即說咒曰	即/VV[jí | thus] 說/VV[shuō | recite] 咒/NN[zhòu | mantra] 曰/VV[yuē | speak] <recite the mantra thus>	\N	3	Prajñāpāramitā Heart Sūtra
+70	是时	是/DT[shì | that] 时/NN[shí | time] <at that time>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+71	他世界	他/DT[tā | other] 世界/NN[shìjiè | world] <other worlds>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+72	鬼王	鬼/NN[guǐ | ghost] 王/NN[king | wáng] <ghost king>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+73	是人	是/DT[shì | those] 人/NN[rén | person] <those people>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+74	若有	若/CS[ruò | if] 有/VC[yǒu | is] <if there is>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+75	若遇	若/NR[Fó | Buddha] 告/VV[gào | said] <the Buddha said>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+76	復有地獄	復有/[fùyǒu | moreover] 地獄/NN[dìyù] <there is another hell>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+77	男子女人	男子/NN[nánzǐ | man] 女人/NN[nǚrén | woman] <men and women>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+78	唯願	唯/AD[wěi | only] 願/VV[yuàn | wish] <I only wish>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+79	聞是	聞/VV[wén | hear] 是/DT[shì | that] <hear that>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+80	若有男子女人	若/CS[ruò | if] 有/VC[yǒu | are] 男子/NN[nánzǐ | man] 女人/NN[nǚrén | woman]	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+81	臨命終	臨/VA[lín | near] 命/NN[mìng | life] 終/NN[zhōng | end] <end of their life>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+82	險道	險/VA[xiǎn | dangerous] 道/NN[dào | road] <a dangerous road>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+83	塑畫	塑/NN[sù | ] 畫/NN[huà | picture] <sculpture and picture>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+84	聞是佛名	聞/VV[wén | hear] 是/DT[shì | this] 佛/NR[Fó | Buddha] 名/NN[míng | name] <hear this Buddha's name>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+85	受勝妙樂	受/VV[shòu | receive] 勝妙/VA[shèngmiào | wonderful] 樂/NN[lè | joy] <enjoy wonderful bliss>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+86	我母	我/PN[wǒ | I] 母/NN[mǔ | mother] <my mother>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+87	墮惡道	墮/VV[duò | degenerate] 惡道/NN[è dào | evil rebirth] <degenerate into an evil rebirth>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+88	久遠劫	久遠/VA[jiǔyuǎn | ancient] 劫/[jié | kalpa] <kalpas in the ancient past>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+89	千劫	千/CD[qiān | thousand] 劫/NN[jié | kalpa] <a thousand kalpas>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+90	得解脫	得/VV[dé | obtain] 解脫/NN[jiětuō | liberation] <obtained liberation>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+91	是命終	是/DT[shì | this] 命/NN[mìng | life] 終/NN[zhōng | end] < end of their life>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+92	命終時	命終/VV[mìng zhōng | to die] 時/NN[shí | time] <at the time of death>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+93	菩薩像	菩薩/NN[púsà | bodhisattva] 像/NN[xiàng | image] <an image of a bodhisattva>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+94	聽我說之	聽/VV[tīng | listen] 我/PN[wǒ | me] 說/VV[shuō | say] 之/DT[zhī | it] <listen to what I have to say>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+95	菩薩摩訶薩	菩薩/NN[púsà | bodhisattva] 摩訶薩/NN[móhēsà | mahasattva] <bodhisattva>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+96	承佛威神	承/VV[chéng | receive] 佛/NR[Fó | Buddha] 威/NN[wēi | great strength] shén/VA[shén | divine] <by virtue of the Buddha's great strength>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+97	合掌恭敬	合掌/VV[hézhǎng | to join palms] 恭敬/VA[gōngjìng | deferential] <deferentially joined palms>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+98	千萬劫	千萬/CD[qiānwàn |ten million] 劫/NN[jié | kalpa] <ten million>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+99	布施供養	布施/NN[bùshī | dana] 供養/VV[gōngyǎng | make offerings] <make offerings>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+100	一偈	一/CD[yī | one] 偈/NN[jì | gatha] <a gatha>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+101	夢中	夢/NN[mèng | dream] 中/P[zhōng | in] <in a dream>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+102	是國王	是/DT[shì | that] 國王/NN[guówáng | king] <that king>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+103	若男若女	若/CC[ruò | or] 男/NN[nán | male] 若/CC[ruò | or] 女/NN[nǚ | female] <either male or female>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+104	七日內	七/CD[qī | seven] 日/NN[rì | day] 內/P[nèi | in] <within seven days>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+105	地獄罪報	地獄/NN[dìyù | hell] 罪報/NN[zuìbào | retribution] <retribution in hell>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+106	其事云何	其/DT[qí | that] 事/NN[shì | thing] 云何/DT[yúnhé | how] <What is it like?>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+107	七日中	七/CD[qī | seven] 日/NN[rì | day] 中/P[zhōng | in] <for seven days>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+108	佛告文殊師利	佛/NR[Fó | Buddha] 告/VV[gào | told] 文殊師利/NR[Wénshūshīlì | Mañjuśrī] <The Buddha told Mañjuśrī>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+109	地藏本願	地藏/NR[Dìzàng | Kṣitigarbha] 本/VV[běn | to be one's own] 願/NN[yuàn | vow] <the vow of Kṣitigarbha>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+110	墮於惡道	墮/VV[duò | fall] 於/P[yú | in] 惡道/NN[è dào | evil rebirth] <fall into an evil rebirth>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+111	迴向法界	迴向/VV[huíxiàng | transfer merit] 法界/NN[fǎjiè | dhárma realm] <transfer merit back to the dhárma realm>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+112	白佛言	白/VV[bái | to address] 佛/NR[Fó | Buddha] 言/VV[yán | said] <said to the Buddha>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+113	不可計	不可/VV[bù kě | cannot] 計/VV[jì count] <uncountable>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+114	永不墮惡道	永/AD[yǒng | forever] 不/AD[bù | not] 墮/VV[duò | fall] 惡道/NN[è dào | evil rebirth] <never degenerate into an evil rebirth>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+115	我來世得	我/PN[wǒ | I] 來世/NN[lái shì | future life] 得/VV[dé | attain] <in a future life I will attain>	\N	5	Sūtra of the Medicine Buddha
+116	得菩提時	得/VV[dé | obtain] 菩提/[pútí | enlightenment] 時/P[ shí | when] <when attaining enlightenment>	\N	5	Sūtra of the Medicine Buddha
+117	我來世得菩提	我/PN[wǒ | I] 來世/NN[lái shì | future life] 得/VV[dé | attain] 菩提/[pútí | enlightenment] <In a future life when I have attained enlightenment>	\N	5	Sūtra of the Medicine Buddha
+118	此經	此/DT[cǐ | this] 經/NN[jīng | sūtra] <this sūtra>	\N	5	Sūtra of the Medicine Buddha
+119	淨信	淨/VA[jìng | pure] 信/NN[xìn | faith] <pure faith>	\N	5	Sūtra of the Medicine Buddha
+120	淨信善男子	淨/VA[jìng | pure] 信/NN[xìn | faith] 善男子/FW[shàn nánzǐ | a good man (kulaputra)] <a good man of pure faith>	\N	5	Sūtra of the Medicine Buddha
+121	佛告	佛/NR[Fó | Buddha] 告/VV[gào | told] <the Buddha said>	\N	5	Sūtra of the Medicine Buddha
+122	曼殊室利童子	曼殊室利/NR[Mànshūshìlì | Mañjuśrī] 童子/NN[tóngzǐ | boy] <the boy Mañjuśrī>	\N	5	Sūtra of the Medicine Buddha
+123	女身	女/VA[female] 身/NN[form] <female form>	\N	5	Sūtra of the Medicine Buddha
+124	深行	深/VA[profound] 行/VV[practice] <profound practice>	\N	5	Sūtra of the Medicine Buddha
+125	童子言	童子/NN[tóngzǐ | boy] 言/VV[yán | said] <the boy said>	\N	5	Sūtra of the Medicine Buddha
+126	善巧方便	善巧/VA[shànqiǎo | ingenious] 方便/NN[fāngbiàn | skillful means] <ingenious skillful means>	\N	5	Sūtra of the Medicine Buddha
+127	不可思議功德	不/AD[bù | not] 可/AD[kě | able] 思議/VV[sīyì | imagine] 功德/NN[gōngdé | merit] <inconceivable merit>	\N	6	Amitābha Sūtra
+128	彼佛	彼/DT[bǐ | that] 佛/NR[Fó | Buddha] <that Buddha>	\N	6	Amitābha Sūtra
+129	長舌	長/VA[zhǎng | long] 舌/NN[shé | tongue] <long tongue>	\N	6	Amitābha Sūtra
+130	廣長舌	廣/VA[guǎng | vast] 長/VA[zhǎng | long] 舌/NN[shé | tongue] <long tongue>	\N	6	Amitābha Sūtra
+131	佛國土	佛/NR[Fó | Buddha] 國土/NN[guótǔ | land] <Buddha land>	\N	6	Amitābha Sūtra
+132	恒河沙數	恒河/NR[Hénghé | Ganges River] 沙/NN[shā | sand] 數/NN[shǔ | number] <number of grains of sand in the Ganges River>	gaṅgānadīvālukā	2	Diamond Sūtra
+133	八事	八/CD[bā | eight] 事/NN[shì | thing] <eight things>	\N	7	Sūtra on the Eight Realizations
+134	令诸众生	令/VV[lìng | lead] 诸/DT[zhū | all] 众生/NN[zhòngshēng | sentient beings] <lead all sentient beings>	\N	7	Sūtra on the Eight Realizations
+135	佛弟子	佛/NR[Fó | Buddha] 弟子/NN[dìzi | disciple] <Buddhist disciple>	\N	7	Sūtra on the Eight Realizations
+136	常念	常/AD[cháng | frequently] 念/VV[niàn | recite] <frequently recite>	\N	7	Sūtra on the Eight Realizations
+137	不垢不淨	不/AD[bù | not] 垢/VA[gòu | unclean] 不/AD[bù | not] 淨/VA[jìng | pure] <neither defiled nor pure>	\N	3	Prajñāpāramitā Heart Sūtra
+138	空中無色	空/NN[kōng | emptiness] 中/P[zhōng | in] 無/VE[wú | to not have] 色/VA[sè | form] <within emptiness there is no form>	\N	3	Prajñāpāramitā Heart Sūtra
+139	如是我聞	如是/DT[rúshì | thus] 我/PN[wǒ | I] 聞/VV[wén | hear] <thus I have heard>	evaṃ mayā śrutam	2	Diamond Sūtra
+140	大比丘眾	大/VA[dà | great] 比丘/NN[bǐqiū | bhikṣu] 眾/NN[zhòng | multitude] <a great saṃgha of bhikṣus>	mahatā bhikṣusaṃghena	2	Diamond Sūtra
+141	爾時	爾/PN[ěr | thus] 時/AV[shí | at that time] <at that time>	atha khalu	2	Diamond Sūtra
+142	善男子	善/VA[shàn | virtuous] 男子/NN[nánzǐ | man] <a virtuous man>	kulaputra	2	Diamond Sūtra
+143	善女人	善/VA[shàn | virtuous] 女人/NN[nǚrén | woman] <a virtuous woman>	kuladuhitā	2	Diamond Sūtra
+144	諦聽	諦/VV[dì | examine] 聽VV/[tīng | listen] <listen carefully>	\N	2	Diamond Sūtra
+145	若非	若/CS[ruò | if] 非/VC[fēi | not] <were it not for>	\N	2	Diamond Sūtra
+146	我相	我/NN[wǒ | self] 相/NN[xiàng | a notion] <the notion of a self>	ātmasaṃjñā	2	Diamond Sūtra
+147	人相	人/NN[rén | person] 相/NN[xiàng | a notion] <the notion of a person>	pudgalasaṃjñā	2	Diamond Sūtra
+148	眾生相	眾生/NN[zhòngshēng | a being] 相/NN[xiàng | a notion] <the notion of a being>	sattvasaṃjñā	2	Diamond Sūtra
+149	壽者相	壽/NN[shòu | lifespan] 者/MSP[zhě | used after a verb to indicate a person who does the action] 相/NN[xiàng | a notion] <the notion of a lifespan>	jīvasaṃjñā	2	Diamond Sūtra
+150	菩薩無住	菩薩/NN[púsà | bodhisattva] 無/AD[wú | no] 住/VV[to dwell] <bodhisattvas do not dwell>	jīvasaṃjñā	2	Diamond Sūtra
+151	不可思	不/AD[bù | no] 可/VV[kě | can] 思/VV[sī | to think] <inconceivable>	\N	2	Diamond Sūtra
+152	可以	可/VV[kě | can] 以/VV[yǐ | to use] <can use>	\N	2	Diamond Sūtra
+153	相見	相/NN[xiāng | a sign] 見/VV[jiàn | to see] <seen by a sign>	\N	2	Diamond Sūtra
+154	持戒	持/VV[chí | to maintain] 戒/NN[a precept] <to uphold precepts >	\N	2	Diamond Sūtra
+155	三四五佛	三/CD[sān | three] 四/CD[sì | four] 五/CD[wŭ | five] 佛/NR[Fó | Buddha] <three, four, or five buddhas>	\N	2	Diamond Sūtra
+156	善根	善/VA[shàn | virtuous] 根/NN[gēn | a root] <virtuous roots>	\N	2	Diamond Sūtra
+157	法相	法/NN[fǎ | a dhárma] 相/NN[xiàng | a notion] <notions of dhármas>	\N	2	Diamond Sūtra
+158	取法相	取/VV[qǔ | to attach] 法/NN[fǎ | a dhárma] 相/NN[xiàng | a notion] <grasp after notions of dhármas>	\N	2	Diamond Sūtra
+159	非法相	非/VC[fēi | not] 法/NN[fǎ | a dhárma] 相/NN[xiàng | a notion] <no notions of dhármas>	\N	2	Diamond Sūtra
+160	取法	取/VV[qǔ | to attach] 法/NN[fǎ | a dhárma] <grasp after dhármas>	\N	2	Diamond Sūtra
+161	非法	非/VC[fēi | not] 法/NN[fǎ | a dhárma] <non-dhármas>	nādharmaḥ	2	Diamond Sūtra
+162	說法	說/VV[shuō | to teach] 法/NN[fǎ | a dhárma] <to teach the dhárma>	dharmadeśanā	2	Diamond Sūtra
+163	無有	無/VC[wú | no] 有/VC[yǒu | to have] <is not>	\N	2	Diamond Sūtra
+164	法名	法/NN[fǎ | a dhárma] 名/NN[míng | to be called] <dhárma called>	\N	2	Diamond Sūtra
+165	不可說	不/AD[bù | no] 可/VV[kě | can] 說/VV[shuō | to say] <indescribable>	\N	2	Diamond Sūtra
+166	賢聖	賢/VV[xián | to be worthy] 聖/NN[shèng | a sage] <noble one>	āryapudgala	2	Diamond Sūtra
+167	甚多	甚/AD[shén | extremely] 多/VA[duō | many] <extremely many>	\N	2	Diamond Sūtra
+168	四句偈	四/CD[sì | four] 句/NN[jù | line] 偈/[jì | gatha] <a four line gatha>	\N	2	Diamond Sūtra
+169	為他	為/VC[wèi | for] 他/PN[tā | other] <for others>	\N	2	Diamond Sūtra
+170	一往來	一/CD[yī | one] 往來/VV[wǎnglái | to return] <return once more>	\N	2	Diamond Sūtra
+171	佛說	佛/NR[Fó | Buddha] 說/VV[shuō | to teach] <the Buddha teaches>	\N	2	Diamond Sūtra
+172	有所	有/VE[yǒu | to have] 所/AD[suǒ | it] <to have it>	\N	2	Diamond Sūtra
+173	無所得	無/VE[wú | to not have] 所/AD[suǒ | it] 得/VV[dé | to obtain] <nothing was obtained>	\N	2	Diamond Sūtra
+174	大身	大/VA[dà | great] 身/NN[shēn | body] <great body>	mahākāya	2	Diamond Sūtra
+175	應供養	應/VV[yīng | should] 供養/VV[gōngyǎng | to provide offerings] <should provide offerings>	\N	2	Diamond Sūtra
+176	三十二相	三十二/CD[sān shí èr | thirty two] 相/NN[xiāng | a mark] <the thirty two marks of excellence>	dvatrimsan maha puruṣa laksanani	2	Diamond Sūtra
+177	是非相	是/VV[shì | is exactly] 非/VC[fēi | not] 相/NN[xiàng | appearance] <is not an appearance>	\N	2	Diamond Sūtra
+178	名實相	名/NN[míng | to be called] 實/VA[shí | true] 相/NN[xiāng | appearance] <is called true appearance>	\N	2	Diamond Sūtra
+179	不足為難	不/AD[bù | not] 足/VV[zú | to attain] 為/VC[wèi | is] 難/VA[nán | difficult] <do not find it difficult>	\N	2	Diamond Sūtra
+180	無人	無/VE[wú | to not have] 人/NN[rén | person] <no person>	\N	2	Diamond Sūtra
+181	無壽者相	無/VE[wú | to not have] 壽/NN[shòu | lifespan] 者/MSP[zhě | used after a verb to indicate a person who does the action] 相/NN[xiàng | a notion] <no notions of a lifespan>	\N	2	Diamond Sūtra
+182	節節	節/NN[jié | piece] 節/NN[jié | piece] <piece by piece>	\N	2	Diamond Sūtra
+183	瞋恨	瞋/NN[chēn | hatred] 恨/NN[hèn | anger] <hatred and anger>	\N	2	Diamond Sūtra
+184	無我相	無/VE[wú | to not have] 我/NN[wǒ | self] 相/NN[xiàng | a notion] <no notion of a self>	nātmasaṃjñā	2	Diamond Sūtra
+185	不住	不/AD[bù | not] 住/VV[to dwell] <does not dwell>	\N	2	Diamond Sūtra
+186	以要言之	以/VV[yǐ | to use] 要/NN[yào | summary] 言/VV[yán | to speak] 之/PN[ zhī | this] <in summary>	khalu punaḥ	2	Diamond Sūtra
+187	大乘者	大乘/NR[Dàchéng | Great Vehicle] 者/P[zhě | used after a verb to indicate a person who does the action] <those in the Great Vehicle>	\N	2	Diamond Sūtra
+188	最上乘	最上/VA[zuìshàng | supreme] 乘/NN[chéng | vehicle] <supreme vehicle>	\N	2	Diamond Sūtra
+189	為人	為/P[wèi | for] 人/NN[rén | person] <for people>	\N	2	Diamond Sūtra
+190	不可量	不/AD[bù | not] 可/VV[kě | can] 量/VV[liáng | to measure] <immeasurable>	\N	2	Diamond Sūtra
+191	不可稱	不/AD[bù | not] 可/VV[kě | can] 稱/VV[chēng | to consider] <inconceivable>	\N	2	Diamond Sūtra
+192	我見	我/NN[wǒ | self] 見/NN[jiàn | view] <view of a self>	ātmadṛṣṭi	2	Diamond Sūtra
+193	人見	人/NN[rén | person] 見/NN[jiàn | view] <view of a person>	\N	2	Diamond Sūtra
+194	眾生見	眾生/NN[zhòngshēng | a being] 見/NN[jiàn | view] <view of a being>	\N	2	Diamond Sūtra
+195	壽者見	壽/NN[shòu | lifespan] 者/MSP[zhě | used after a verb to indicate a person who does the action] 見/NN[jiàn | view] <view of a lifespan>	\N	2	Diamond Sūtra
+196	無壽者	無/VE[wú | to not have] 壽/NN[shòu | lifespan] 者/MSP[zhě | used after a verb to indicate a person who does the action] <no notions of a lifespan>	\N	2	Diamond Sūtra
+197	實有	實/VA[shí | true] 有/VE[yǒu | to have] <in reality there is>	\N	2	Diamond Sūtra
+198	如如不動	如/VV[rú | to follow] 如/VV[rú | to follow] 不/AD[bù | not] 動/VV[dòng | to move]	\N	2	Diamond Sūtra
+199	無有	無/AD[wú | no] 有/VV[yǒu | is] <is not>	\N	3	Prajñāpāramitā Heart Sūtra
+200	其事	其/DT[qí | that] 事/NN[shì | thing] <that thing>	\N	4	Sūtra of the Great Vow of Kṣitigarbha Bodhisattva
+201	至心誦念	至心/AD[zhìxīn | heartedly] 誦念/VV[sòngnián | recite] <heartedly recite>	\N	7	Sūtra on the Eight Realizations of the Great Beings
+202	五陰無我	五陰/NN[wŭyīn | the five aggregates] 無/VE[wú | to not have] 我/NN[wǒ | self] <the five aggregates have no self>	\N	7	Sūtra on the Eight Realizations of the Great Beings
+203	廣學多聞	廣/VA[guǎng | wide] 學/NN[xué | study] 多/VA[duō | many] 聞/NN[wén | question] <study widely and ask many questions>	\N	7	Sūtra on the Eight Realizations of the Great Beings
+204	不憎惡人	不/AD[bù | not] 憎/VV[zēng | detest] 惡人/NN[èrén | evil-doer] <do not treat evil-doers as enemies>	\N	7	Sūtra on the Eight Realizations of the Great Beings
+205	不染世樂	不/AD[bù | not] 染/VV[rǎn | pursue] 世/NN[shì | world] 樂/VV[lè | joy] <not pursue worldly desires>	\N	7	Sūtra on the Eight Realizations of the Great Beings
+206	生死熾然	生死/NR[Shēngsǐ | Saṃsāra] 熾/NN[chì | flame] 然/VA[rán | burn] <the fire of Saṃsāra is raging>	\N	7	Sūtra on the Eight Realizations of the Great Beings
+207	發大乘心	發/VV[fā | to develop] 大/VA[dà | great] 乘/NN[chéng | vehicle] 心/NN[xīn | mind] <take the vow to help everyone cross to the other shore>	\N	7	Sūtra on the Eight Realizations of the Great Beings
+208	諸眾生	諸/DT[zhū | all] 眾生/NN[zhòngshēng | a being] <all beings>	\N	7	Sūtra on the Eight Realizations of the Great Beings
+209	乘法身船	乘/VV[chéng | ferry] 法身/NR[Fǎshēn | Dharmakaya] 船/NN[chuán | boat] <ferry the Dharmakaya boat>	\N	7	Sūtra on the Eight Realizations of the Great Beings
+210	開導一切	開導/VV[kāidǎo | enlighten] 一切/DT[yīqiè | all] <enlighten all>	\N	7	Sūtra on the Eight Realizations of the Great Beings
+211	覺生死苦	覺/VV[jué | to understand] 生死/NR[Shēngsǐ | Saṃsāra] 苦/NN[kŭ | suffering] <to understand the suffering of life and death>	\N	7	Sūtra on the Eight Realizations of the Great Beings
+212	生滅	生/NN[shēng | life] 滅/NN[miè | death] <life and death>	\N	7	Sūtra on the Eight Realizations of the Great Beings
+213	明星	明/VA[míng | bright] 星/NN[xīng | star] <bright star>	\N	13	Guan Xi Fo Xingxiang Sūtra, Scroll 1 Fragment
+214	意云何	意/NN[yì | idea] 云何/DT[yúnhé | what] <what do you think?>	\N	2	Diamond Sūtra
+215	是名	是/DT[shì | this] 名/VV[míng | to be called] <one called>	\N	2	Diamond Sūtra
+216	是念	是/DT[shì | this] 念/NN[shì | thought] <this thought>	\N	2	Diamond Sūtra
+217	得阿耨多羅三藐三菩提	得/VV[dé | attain] 阿耨多羅三藐三菩提/NN[ānòuduōluó sānmiǎo sānpútí | anuttara-samyak-sambodhi] <attain anuttara-samyak-sambodhi>	\N	2	Diamond Sūtra
+218	發阿耨多羅三藐三菩提	發/VV[fā | ] 阿耨多羅三藐三菩提/NN[ānòuduōluó sānmiǎo sānpútí | anuttara-samyak-sambodhi] <develop the mind of anuttara-samyak-sambodhi>	\N	2	Diamond Sūtra
+219	我得	我/PN[wǒ | I] 得/VV[dé | obtain] <I obtain>	\N	2	Diamond Sūtra
+220	見如來	見/VV[jiàn | see] 如來/NR[Rúlái | the Tathagata] <see the Tathagata>	\N	2	Diamond Sūtra
+221	若有人	若/SC[ruò | if] 有人/PN[yǒurén | someone] <suppose someone>	\N	2	Diamond Sūtra
+222	若有善男子	若/SC[ruò | if] 有/VE[yǒu | is] 善/VA[shàn | good] 男子/NN[nánzǐ | man] <if a good man>	\N	2	Diamond Sūtra
+223	為他人說	為/P[wèi | for] 他人/PN[other people] 說/VV[shuō | teach] <teaches it to others>	\N	2	Diamond Sūtra
+224	以三十二相觀	以/VV[yǐ | to use] 三十二/CD[sān shí èr | thirty two] 相/NR[ xiāng | mark] 觀/VV[guān | observe] <be observed by means of the Thirty-two Marks>	\N	2	Diamond Sūtra
+225	觀如來	觀/VV[guān | observe] 如來/NR[Rúlái | the Tathagata] <observe the Tathagata>	\N	2	Diamond Sūtra
+226	如來得阿耨多羅三藐三菩提	如來/NR[Rúlái | the Tathagata] 得/VV[dé | attain] 阿耨多羅三藐三菩提/NN[ānòuduōluó sānmiǎo sānpútí | anuttara-samyak-sambodhi] <the Tathagata attained anuttara-samyak-sambodhi>	\N	2	Diamond Sūtra
+227	佛言	佛/NR[Fó | Buddha] 言/VV[yán | said]	\N	2	Diamond Sūtra
+228	即是非相	即/VV[jí | the same as] 是/VC[shì | are] 非/VC[fēi | not] 相/NN[xiàng | mark] <are not marks>	\N	2	Diamond Sūtra
+229	我所說	我/PN[wǒ] 所/PN[suǒ | it] 說/VV[shuō | teach] <I have spoken>	\N	2	Diamond Sūtra
+230	如來所說	如來/NR[Rúlái | the Tathagata] 所/PN[suǒ | it] 說/VV[shuō | teach] <the Tathagata teaches>	\N	2	Diamond Sūtra
+231	若作是念	若/SC[ruò | if] 作/VV[zuò | to make] 是/PN[shì | this] 念/NN[niàn | thought] <suppose you think>	\N	2	Diamond Sūtra
+232	照其實	照/VV[zhào | illuminate] 其/DT[that] 實/NN[shí | true] <to illuminate the truth>	\N	2	Diamond Sūtra
+233	母胎	母/NN[mǔ | mother] 胎/NN[tāi | womb] <mother's womb>	\N	22	Abdhutadharma
+234	是時	是/PN[shì | that] 時/NN[shí | time] <at that time>	\N	22	Abdhutadharma
+235	震動一切天地	震動/VV[zhèndòng | to shake] 一切/DT[yīqiè | all] 天地/NN[heaven and earth] <all the heavens and earths shook>	\N	22	Abdhutadharma
+236	妙光普照世間	妙/VA[miào | wonderful] 光/NN[guāng | light] 普/AD[pǔ | everywhere] 照/VA[zhào | to illuminate] 世間/NN[shìjiān | the world] <wonderful lights and sounds filled all the world>	\N	22	Abdhutadharma
+237	夫地在水上	夫/MSP[fú | still] 地/NN[dì | the Earth] 在VV/[zài | at] 水/NN[shuǐ | water] 上/VA[shàng | above] <the Earth is above water>	\N	23	Dīrghāgama, Scroll 2
+238	當於此時	當/P[dāng | at or in the very same] 於/P[yú | in] 此/DT[cǐ | this] 時/NN[shí | time] <at this time>	\N	23	Dīrghāgama, Scroll 2
+239	地動	地/NN[dì | the Earth] 動/VV[dòng | shook] <the Earth shook>	\N	23	Dīrghāgama, Scroll 2
+240	普地動	普/AD[pǔ | everywhere] 地/NN[dì | the Earth] 動/VV[dòng | shook] <the Earth shook everywhere>	\N	23	Dīrghāgama, Scroll 2
+241	專念不亂	專/VA[zhuān | focused on one thing] 念/NN[niàn | a thought] 不/AD[bù | not] 亂/VA[luàn | disorderly] <with thoughts focused>	\N	23	Dīrghāgama, Scroll 2
+242	右脇生	右/VA[yòu | right] 脇/NN[xié | side of the human body] 生/VV[shēng | born] <born from the right side of the body>	\N	24	Buddhacarita, Scroll 1
+243	大悲救世間	大/VA[dà | great] 悲/VA[bēi | to have compassion for] 救/VV[jiù | to save] 世間/NN[shìjiān | world] <to have great compassion to save the world>	\N	24	Buddhacarita, Scroll 1
+244	天雨曼陀羅華	天/NN[tiān | sky] 雨/VV[yǔ | to rain] 曼陀羅/NN[màntuóluó | mandarava flower] 華/NN[huá | a flower] <mandarava flowers rain from the sky>	\N	6	Amitābha Sūtra
+245	上聲	上/FW[shàng | shang] 聲/FW[shēng | sheng] <shang sheng (chanted)>	\N	6	Amitābha Sūtra
+246	國王家	國王/NN[guówáng | king] 家/NN[jiā | family] <the royal family>	\N	25	Sūtra on Past and Present Causes and Effects, Scroll 1
+247	生太子	生/VV[shēng | to give birth] 太子/NN[tàizǐ | prince] <the prince was born>	\N	25	Sūtra on Past and Present Causes and Effects, Scroll 1
+248	降胎	降/VV[jiàng | to descend] 胎/NN[tāi | womb] <descended to the womb (immaculate conception)>	\N	25	Sūtra on Past and Present Causes and Effects, Scroll 1
+249	生利益一切人天	生/VV[shēng | to give birth] 利益/NN[lìyì | benefit] 一切/DT[yīqiè | all] 人天/NN[人天 | all living things] <born for the benefit of all living beings>	\N	25	Sūtra on Past and Present Causes and Effects, Scroll 1
+250	六牙白象	六/CD[liù | six] 牙/NN[yá | tusk] 白象/NN[báixiàng | white elephant] <a six tusked white elephant>	\N	25	Sūtra on Past and Present Causes and Effects, Scroll 1
+251	七步	七/CD[qī | seven] 步/NN[bù | step] <seven steps>	\N	25	Sūtra on Past and Present Causes and Effects, Scroll 1
+252	墮蓮花上	墮/VV[duò | fall] 蓮花/NN[liánhuā | lotus flower] 上/NN[shàng | above] <lotus flowers fell from above>	\N	25	Sūtra on Past and Present Causes and Effects, Scroll 1
+253	行七步	行/VV[xíng | walk] 七/CD[qī | seven] 步/NN[bù | step] <walked seven steps>	\N	25	Sūtra on Past and Present Causes and Effects, Scroll 1
+254	從右脇	從/P[cóng | from] 右/VA[yòu | right] 脇/NN[xié | side of the human body] <from the right side of the body>	\N	25	Sūtra on Past and Present Causes and Effects, Scroll 1
+255	廣丈餘	廣/VA[guǎng | wide] 丈/NN[zhàng | ten chi] 餘/VA[yú | surplus] <more than ten feet wide>	\N	34	Ye Zhong Ji
+256	長二丈	長/NN[cháng | length] 二/CD[èr | two] 丈/NN[zhàng | ten chi] <twenty feet long>	\N	34	Ye Zhong Ji
+257	四輪	四/CD[sì | four] 輪/NN[lún | wheel] <four wheels>	\N	34	Ye Zhong Ji
+258	金佛像	金/NN[jīn | gold] 佛/NR[Fó | Buddha] 像/NN[xiàng | statue] <a golden Buddha statue>	\N	34	Ye Zhong Ji
+259	九龍	九/CD[jiǔ | nine] 龍/NN[lóng | dragon] <nine dragons>	\N	34	Ye Zhong Ji
+260	吐水	吐/VV[tǔ | to spurt] 水/NN[shuǐ | water] <to spurt water>	\N	34	Ye Zhong Ji
+261	木道人	木/NN[mù | wood] 道人/NN[dàorén | monk] <wooden monk>	\N	34	Ye Zhong Ji
+262	十餘	十/CD[shí | ten] 餘/VA[yú | surplus] <10 or so>	\N	34	Ye Zhong Ji
+263	披袈裟	披/VV[pī | to wear] 袈裟/NN[jiāshā | kasaya] <wearing a kasaya>	\N	34	Ye Zhong Ji
+264	繞佛	繞/VV[rào | circumambulate] 佛/NR[Fó | Buddha] <circumambulate the Buddha>	\N	34	Ye Zhong Ji
+265	長二尺	長/VA[cháng | tall] 二/CE[èr | two] 尺/NN[chǐ | foot] <two feet tall>	\N	34	Ye Zhong Ji
+266	禮佛	禮/VV[lǐ | bow] 佛/NR[Fó | Buddha] <bow to the Buddha>	\N	34	Ye Zhong Ji
+267	車止	車/NN[chē | carriage] 止/VV[zhǐ | stop] <the carriage stopped>	\N	34	Ye Zhong Ji
+268	車行	車/NN[chē | carriage] 行/VV[xíng | to move] <the carriage moved>	\N	34	Ye Zhong Ji
+269	心腹	心/NN[xīn |  heart] 腹/NN[fù | abdomen] <heart and abdomen>	\N	34	Ye Zhong Ji
+270	僧伽藍	僧/NN[sēng | monk] 伽藍/NN[qiēlán | monastery] <Buddhist monastery>	\N	35	Record of Buddhistic Kingdoms
+271	三月日	三/CD[sān | three] 月日/NN[yuèrì | month] <three months>	\N	35	Record of Buddhistic Kingdoms
+272	入城	入/VV[rù | to enter] 城/NN[chéng | city] <enter the city>	\N	36	Record of Buddhistic Kingdoms
+273	城內	城/NN[chéng | city] 內/P[nèi | inside] <inside the city>	\N	36	Record of Buddhistic Kingdoms
+274	毉師	毉/NN[yī | doctor] 師/NN[shī | expert] <a doctor>	\N	36	Record of Buddhistic Kingdoms
+275	民人富盛	民人/NN[mínrén | inhabitants] 富/VA[fù | rich] 盛/NN[shèng | prosperous] <the inhabitants are rich and prosperous>	\N	36	Record of Buddhistic Kingdoms
+276	懸繒幡蓋	懸/VV[xuán | hang] 繒/NN[zēng | silk] 幡蓋/NN[fān gài | canopy] <hang silk canopies>	\N	36	Record of Buddhistic Kingdoms
+277	菩薩立侍	菩薩/NN[púsà | bodhisattva] 立/VV[lì | stand] 侍/VV[shì | to attend on] <a bodhisattva standing in attendance>	\N	36	Record of Buddhistic Kingdoms
+278	當此日	當/P[dāng | at] 此/PN[cǐ | this] 日/NN[rì | day] <on this day>	\N	36	Record of Buddhistic Kingdoms
+279	華香供養	華/NN[huá | flower] 香/NN[xiāng | incense] 供養/VV[gōngyàng | to make offerings] <made offerings of flowers and incense>	\N	36	Record of Buddhistic Kingdoms
+280	通夜然燈	通/VV[tōng | through] 夜/NN[yè | night] 然/VV[rán | burn] 燈/NN[dēng | lamp] <through the night keep lamps burning>	\N	36	Record of Buddhistic Kingdoms
+281	卯月八日	卯月/NR[Mǎoyuè | Fourth Month] 八/OD[bā | eighth] 日/NT[rì | day] <eighth day of the Eighth Month>	\N	36	Record of Buddhistic Kingdoms
+282	四月七日	四月/NR[sìyuè | Fourth Month] 七/OD[qī | seventh] 日/NT[rì | day] <seventh day of the Fourth Month>	\N	33	Buddhist Monasteries in Luoyang
+283	錄像	錄/VV[lù | to record] 像/VV[qī | to appear] <according to records>	\N	33	Buddhist Monasteries in Luoyang
+284	八月節	八/OD[bā | eighth] 月/NN[yuè | month] 節/NN[jié | festival] <the festival on the eigth day of the month>	\N	33	Record of Buddhistic Kingdoms
+285	香煙	香/NN[xiāng | incense] 煙/NN[yān | smoke] <smoke from burning incense>	\N	33	Buddhist Monasteries in Luoyang
+286	以此	以/VV[yǐ | to use] 此/PN[cǐ | this] <to use this>	\N	36	Yu Zhu Baodian
+287	如鳥飛空下	如/VV[rú | like] 鳥/NN[niǎo | bird] 飛/VV[fēi | to fly] 空/NN[kōng | sky] 下/VV[xià | to drop] <dropping from the void like flying birds>	\N	36	Yu Zhu Baodian
+288	供養於諸佛	供養/VV[gōngyàng | to make offerings] 於/P[yú | to] 諸/DT[zhū | all] 佛/NR[Fó | Buddha] <as offerings to all the Buddhas>	\N	36	Yu Zhu Baodian
+289	此時	此/DT[cǐ | this] 時/NN[shí | time] <at this time>	\N	36	Yu Zhu Baodian
+290	漢王符	漢/NR[Hàn | Han Dynasty] 王符/NR[Wáng Fú | Wang Fu] <In the Han, Wang Fu>	\N	36	Yu Zhu Baodian
+291	轉法輪	轉/VV[zhuǎn | to turn] 法/NR[Fǎ | Dhárma] 輪/NN[lún | wheel] <to transmit Buddhist teaching>	\N	36	Yu Zhu Baodian
+292	浴佛	浴/VV[yù | to bathe] 佛/NR[Fó | Buddha] <to bathe a Buddha statue>	\N	49	Sutra on the Three Wisdoms, Scroll 1
+293	浴佛形像	浴/VV[yù | to bathe] 佛/NR[Fó | Buddha] 形像/NN[xíngxiàng | statue] <to bathe a Buddha statue>	\N	50	Mohe Cha Tou Sūtra, Scroll 1
+294	佛形像	佛/NR[Fó | Buddha] 形像/NN[xíngxiàng | statue] <a Buddha statue>	\N	50	Mohe Cha Tou Sūtra, Scroll 1
+295	第一波羅蜜	第一/VA[dì yī | foremost] 波羅蜜/NN[bōluómì | pāramitā] <foremost pāramitā>	paramapāramitā	2	Diamond Sūtra
+296	著其事	著/VV[zhāo | to attach] 其/DT[qí | that] 事/NN[shì | thing] <to attach to an object>	\N	2	Diamond Sūtra
+297	大城	大/VA[dà | chéng] 城/NN[chéng | city] <great city>	mahānagarī	2	Diamond Sūtra
+298	舍衛大城	舍衛/NR[Shèwèi | Śrāvastī] 大/VA[dà | chéng] 城/NN[chéng | city] <great city>	śrāvastī mahānagarī	2	Diamond Sūtra
+299	須陀洹果	須陀洹/NR[Xūtuóhuán | Srotaāpanna] 果/NN[guǒ | fruit] <the fruit of a Srotaāpanna>	srotaāpattiphalaṃ	2	Diamond Sūtra
+300	斯陀含果	斯陀含/NR[Sītuóhán | Sakṛdāgāmin] 果/NN[guǒ | fruit] <the fruit of a Sakṛdāgāmin>	sakṛdāgāmiphalaṃ	2	Diamond Sūtra
+301	阿那含果	阿那含/NR[Anàhán | Anāgāmin] 果/NN[guǒ | fruit] <the fruit of an Anāgāmin>	anāgāmiphalaṃ	2	Diamond Sūtra
+302	本經	本/DT[běn | this] 經/NN[jīng | sūtra] <this sūtra>	\N	36	Lectures on the Diamond Sutra by Jiang Wei Nong
+303	不應	不/AD[bù | not] 應/VV[yīng | should] <should not>	\N	36	Lectures on the Diamond Sutra by Jiang Wei Nong
+304	取非法	取/VV[qǔ | attach] 非/AD[fēi | non] 法/NN[fǎ | dharma] <to be attached to non-dharmas>	\N	36	Lectures on the Diamond Sutra by Jiang Wei Nong
+305	諸佛	諸/DT[zhū | all] 佛/NR[Fó | Buddha] <all Buddhas>	\N	36	Lectures on the Diamond Sutra by Jiang Wei Nong
+306	經中	經/NN[jīng | sūtra] 中/P[zhōng | in] <in the sūtra>	\N	36	Lectures on the Diamond Sutra by Jiang Wei Nong
+307	佛智慧	佛/NR[Fó | Buddha] 智慧/NN[zhìhuì | wisdom] <buddha-wisdom>	buddhajñānena	2	Diamond Sūtra
+308	號釋迦牟尼	號/NN[hào | name] 釋迦牟尼/NR[Shìjiāmóuní | Śākyamuni] <named Śākyamuni>	śākyamunirnāma	2	Diamond Sūtra
+309	離欲	離/VV[lí | leave] 欲/NN[yù | desire] <free of desire>	vītarāga	2	Diamond Sūtra
+310	山王	山/NN[shān | mountain] 王/NN[wáng | king] <King of Mountains>	parvatarājaḥ	2	Diamond Sūtra
+311	實相	實/VA[shí | true] 相/NN[xiàng | appearance] <true appearance>	bhūtasaṃjñā	2	Diamond Sūtra
+312	不眾生	不/AD[bù | not] 眾生/NN[zhòngshēng | sentient beings] <not sentient beings>	nāsattvāḥ	2	Diamond Sūtra
+313	非眾生	非/AD[fēi | no] 眾生/NN[zhòngshēng | sentient beings] <no sentient beings>	asattvāḥ	2	Diamond Sūtra
+314	真語者	真/VA[zhēn | true] 語/VV[yù | speak] 者/MSP[zhě | used after a verb to indicate a person who does the action] <one who speaks what is true>	bhūtavādī	2	Diamond Sūtra
+315	實語者	實/VA[shí | true] 語/VV[yù | speak] 者/MSP[zhě | used after a verb to indicate a person who does the action] <one who speaks what is real>	satyavādī	2	Diamond Sūtra
+316	如語者	如/VA[rú | thus] 語/VV[yù | speak] 者/MSP[zhě | used after a verb to indicate a person who does the action] <one who speaks what is thus>	tathāvādī	2	Diamond Sūtra
+317	異語者	異/VA[yì | different] 語/VV[yù | speak] 者/MSP[zhě | used after a verb to indicate a person who does the action] <one who speaks to the contrary>	vitathavādī	2	Diamond Sūtra
+318	一切相	一切/DT[yīqiè | all] 相/NN[xiàng | appearance] <all appearances>	sarvasaṃjñā	2	Diamond Sūtra
+319	生清淨心	生/VV[shēng | to give rise] 清淨/VA[qīngjìng | pure] 心/NN[xīn | mind] <give rise to a clear and pure mind>	cittamutpādayitavyam	2	Diamond Sūtra
+320	無法相	無/VE[wú | to not have] 法/NN[fǎ | dharma] 相/NN[xiāng | notion] <no notions of dharmas>	nādharmasaṃjñā	2	Diamond Sūtra
+321	具足色身	具足/VA[jùzú | perfect] 色身/NN[sè shēn | physical body] <perfect physical body>	rūpakāyapariniṣpatti	2	Diamond Sūtra
+322	住色	住/VV[zhù | abide] 色/NN[sè | form] <abiding in form>	rūpapratiṣṭhita	2	Diamond Sūtra
+323	微塵眾	微/VA[wēi | minute] 塵/NN[wēichén | a minute particle] 眾/NN[zhòng | multitude] <assemblage of minute particles>	paramāṇusaṃcaya	2	Diamond Sūtra
+324	亦有仁義而已矣	亦/AD[yì | also] 有/VC[yǒu | have] 仁/NN[rén | benevolence] 義/NN[yì | righteousness] 而/AD[ér | as well as] 已/AD[yǐ | already] 矣/SP[yǐ | final particle] <[I] surely have benevolence and righteousness>	\N	\N	Mengzi 1A/1 (Pullybank, Classical Chinese Grammar, 13)
+325	不違農時	不/AD[bù | not] 違/VV[wéi | against] 農/NN[nóng] 時/NN[shí | season] <[if one] does not go against the proper seasons of agriculture.>	\N 	\N	Mengzi 1A/3 (Pullybank, Classical Chinese Grammar, 13)
+326	是不為也	是/DT[shì | this] 不/AD[bù | not] 為/VC[wèi | is] 也/SP[yě | final modal particle] <This is not doing.>	\N	\N	Mengzi 1A/7 (Pullybank, Classical Chinese Grammar, 16)
+327	非不能也	非／AD[fēi | not] 不/AD[bù | not] 能/VV[néng | able] 也/SP[yě | final modal particle] <it is not-being-able.>	\N	\N	Mengzi 1A/7 (Pullybank, Classical Chinese Grammar, 16)
+328	畏天者也	畏/[wèi | fear] 天/NN[tiān | heaven] 者/MSP[zhě | used after a verb to indicate a person who does the action] 也/SP[yě | final modal particle] <one who fears Heaven>	\N	\N	Mengzi 1A/3 (Pullybank, Classical Chinese Grammar, 16)
+329	叟之所知也	叟NN/[sǒu | an old gentleman] 之/PN[zhī | it] 所/DT[suǒ | it ] 知/VV[zhī | know] 也/SP[yě | final modal particle] <It is what your reverence well knows.>	\N	\N	Mengzi 1A/7 (Pullybank, Classical Chinese Grammar, 16)
+330	夫非盡人之子與	夫/NN[fū | man] 非／AD[fēi | not] 盡/AD[jìn | all] 人/NN[rén | person] 之/DEG[zhī | genetive marker] 子/NN[zǐ | son] 與/SP[yú | interrogative particle] <Are we not all the sons of some man?>	\N	\N	Mengzi 7A/36 (Pullybank, Classical Chinese Grammar, 16)
+331	其正色邪	DT[qí | it] 正/VA[zhèng | true] 色/NN[sè | color] 邪/SP[yé | interrogative particle] <Is it its true color?>	\N	\N	Zhuang 1/4 (Pullybank, Classical Chinese Grammar, 17)
+332	然而至此極者，命也夫	然/AD[rán | thus] 而/CC[ér | and] 至/VV[zhì | arrive] 此/DT[cǐ | this] 極/NN[jí | extremity] 者MSP[zhě | used after a verb to indicate a person who does the action] ，/PU 命/NN[mìng | fate] 也/SP[yě | final modal particle] 夫/SP[is it not] <That nonetheless I have reached this extremity, is fate, is it not?>	\N	\N	Zhuang 6/97 (Pullybank, Classical Chinese Grammar, 17)
+333	此文王之勇也	此/DT[cǐ | this] 文/NR[Wén | Wen] 王/NN[wáng | king] 之/DEG[zhī | genetive marker] 勇/NN[yǒng | courage] 也/SP[yě | final modal particle] <This was King Wen's courage.>	\N	\N	Mengzi 1B/3 (Pullybank, Classical Chinese Grammar, 17)
+334	是亦走也	是/DT[shì | this] 亦/AD[yì | also] 走/VV[zǒu | go] 也/SP[yě | final modal particle] <This was also running away>	\N	\N	Mengzi 1A/3 (Pullybank, Classical Chinese Grammar, 17)
+335	皆古聖人也	皆/DT[jiē | all] 古/VA[gǔ | ancient] 聖人/NN[shèngrén | sage] 也/SP[yě | final modal particle] <They were all sages of old.>	\N	\N	Mengzi 2A/2 (Pullybank, Classical Chinese Grammar, 17)
+336	是乃仁術也	是/DT[shì | this] 乃/AD[nǎi | then] 仁/NN[rén | benevolence] 術/NN[shù | technique] 也/SP[yě | final modal particle] <This is indeed the technique of benevolence.>	\N	\N	Mengzi 1A/7 (Pullybank, Classical Chinese Grammar, 17)

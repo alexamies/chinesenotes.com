@@ -1,0 +1,2746 @@
+故/NN[gù | purpose]	以	故	7115	38
+以/P[yǐ | because]	何	以	30648	38
+云何/DT[yúnhé | what]	意	云何	29319	32
+意/NN[yì | idea]	於	意	1730	30
+佛/NR[Fó | Buddha]	諸	佛	3618	25
+說/VV[shuō | speaks]	如來	說	412	23
+名/VV[míng | to be called]	是	名	33237	22
+是/PN[shì | this]	作	是	17908	20
+者/MSP[zhě | used after a verb to indicate a person who does the action]	壽	者	671	20
+人/NN[rén | person]	是	人	399	17
+可/VV[kě | can]	不	可	948	17
+女人/NN[nǚrén | woman]	善	女人	541	17
+有/VE[yǒu | to have]	若	有	32458	16
+阿耨多羅三藐三菩提/NN[ānòuduōluó sānmiǎo sānpútí | anuttara-samyak-sambodhi]	得	阿耨多羅三藐三菩提	5104	16
+男子/NN[nánzǐ | man]	善	男子	6688	15
+念/NN[niàn | thought]	是	念	30159	15
+言/VV[yán | speak]	佛	言	3512	15
+所/PN[suǒ | it]	佛	所	17100	14
+經/NN[jīng | sūtra]	此	經	3167	13
+沙/NN[shā | sand]	恒河	沙	3729	13
+說/VV[shuō | to teach]	所	說	32460	13
+告/VV[gào | said]	佛	告	3012	12
+諸/PN[zhū | all]	一切	諸	3556	12
+所/PN[suǒ | it]	無	所	17100	12
+言/VV[yán | said]	須菩提	言	3512	12
+也/SP[yě | final modal particle]	不	也	8853	12
+說/VV[shuō | to teach]	佛	說	32460	11
+應/VV[yīng | ought]	不	應	1242	11
+佛/NR[Fó | Buddha]	白	佛	3618	10
+國/NN[guó | place]	其	國	33510	10
+功德/NN[gōngdé | merit]	思議	功德	7135	10
+思議/VV[sīyì | imagine]	可	思議	7159	10
+有/VV[yǒu | is]	如來	有	398	10
+法/NN[fǎ | a dhárma]	說	法	17994	9
+數/NN[shuò | number]	沙	數	11496	9
+為/P[wèi | for]	則	為	372	9
+菩薩/NN[púsà | bodhisattva]	諸	菩薩	3166	9
+非/VC[fēi | not]	則	非	33285	9
+多/VA[duō | many]	甚	多	401	9
+須菩提/NR[Xūpútí | Subhūti]	告	須菩提	6645	9
+阿耨多羅三藐三菩提/NN[ānòuduōluó sānmiǎo sānpútí | anuttara samyaksaṃbodhi]	發	阿耨多羅三藐三菩提	5104	9
+經/NN[jīng | sūtra]	是	經	3167	9
+等/NN[děng | and so on]	如是	等	1216	9
+為/VC[wèi | for]	是	為	13424	9
+相/NN[xiàng | a notion]	眾生	相	32443	8
+知/VV[zhī | to know]	當	知	3896	8
+時/AD[shí | at that time]	爾	時	31047	8
+者/MSP[zhě | used after a verb to indicate a person who does the action]	所以	者	671	8
+白/VV[bái | to address]	須菩提	白	10465	8
+相/NN[xiàng | a notion]	人	相	32443	8
+不/AD[bù | not]	如來	不	502	8
+非/VC[fēi | not]	即	非	33285	8
+此/DT[cǐ | this]	於	此	624	8
+無/AD[wú | no]	實	無	1843	8
+相/NN[xiàng | a notion]	者	相	32443	8
+相/NN[xiāng | a mark]	三十二	相	32237	8
+佛/NR[Fó | Buddha]	彼	佛	3618	8
+何/PN[hé | what]	者	何	3087	8
+是/DT[shì | that]	聞	是	17908	8
+法/NN[fǎ | a dhárma]	有	法	17994	8
+護念/VV[hùniàn | for a Buddha, bodhisattva, or demigod to protect a Buddhist disciple]	所	護念	32072	8
+讀誦/VV[dúsòng | to read aloud]	受持	讀誦	29258	8
+菩薩/NN[púsà | bodhisattva]	若	菩薩	3166	8
+經/NN[jīng | a sutra]	護念	經	3167	7
+有/VE[yǒu | to have]	無	有	32458	7
+人/NN[rén | person]	復有	人	399	7
+法/NN[fǎ | dhárma]	一切	法	17994	7
+不/AD[bù | not]	多	不	502	7
+得/VV[dé | to obtain]	我	得	1459	7
+復有/AD[fùyǒu | moreover]	若	復有	30475	7
+是/DT[shì | those]	知	是	17908	7
+相/NN[xiàng | a notion]	法	相	32443	7
+相/NN[xiàng | a notion]	我	相	32443	7
+其/PN[qí | that]	於	其	1574	7
+信/VV[xìn | to believe]	當	信	3091	7
+於/P[yú | in]	各	於	1710	7
+日/NT[rì | day]	八	日	8319	6
+三千大千世界/NN[sān qiān dà qiān shìjiè | a great chiliocosm]	覆	三千大千世界	26967	6
+住/VV[zhù | dwell]	應	住	747	6
+句/NN[jù | line]	四	句	6711	6
+說/VV[shuō | to say]	所	說	412	6
+有/VE[yǒu | is]	無	有	398	6
+國土/NN[guótǔ | land]	極樂	國土	3874	6
+法/NN[fǎ | a dhárma]	非	法	17994	6
+聞/VV[wén | to hear]	得	聞	3925	6
+八/CD[bā | eight]	四月	八	308	6
+無/VE[wú | to not have]	實	無	13465	6
+是/PN[shì | this]	皆	是	17908	6
+如來/NR[Rúlái | Tathagata]	見	如來	6686	6
+不/AD[bù | not]	稱讚	不	502	6
+義/NN[yì | meaning]	說	義	3613	6
+等/MSP[děng | plural]	汝	等	17035	6
+偈/NN[jì | gatha]	句	偈	6888	6
+心/NN[xīn | mind]	阿耨多羅三藐三菩提	心	17993	6
+世間/NN[shìjiān | world]	一切	世間	3873	6
+諸/DT[zhū | all]	數	諸	3556	6
+恒河/NR[Hénghé | Ganges River]	等	恒河	33257	6
+舌/NN[shé | tongue]	長	舌	5066	6
+動/VV[dòng | to move]	地	動	1481	6
+我/PN[wǒ | I]	如	我	321	6
+廣/VA[guǎng | vast]	出	廣	1626	6
+如是/PN[rúshì | so]	應	如是	8840	6
+舍利弗/NR[Shèlìfú | Sariputra]	又	舍利弗	18620	6
+出/VV[chū | to go out]	國	出	275	6
+以/VV[yǐ | to use]	可	以	17176	6
+言/VV[yán | to speak]	誠實	言	3512	6
+國土/NN[guótǔ | land]	佛	國土	3874	6
+稱讚/VV[chēngzàn | to praise]	是	稱讚	10545	6
+覆/VV[fù | to cover]	遍	覆	802	6
+眾/AD[zhòng | again]	微塵	眾	29896	6
+誠實/VA[chéngshí | honest]	說	誠實	9311	6
+等/MSP[děng | plural]	偈	等	17035	6
+長/VA[zhǎng | long]	廣	長	1324	6
+人/NN[rén | person]	為	人	399	6
+等/MSP[děng | plural]	沙	等	17035	6
+一切/DT[yīqiè | all]	功德	一切	1490	6
+是/PN[shì | this]	信	是	17908	6
+多/VA[duō | many]	為	多	401	5
+心/NN[xīn | mind]	其	心	17993	5
+所/PN[suǒ | it]	有	所	17100	5
+非/VC[fēi | not]	是	非	33285	5
+者/MSP[zhě | used after a verb to indicate a person who does the action]	語	者	671	5
+相/NN[xiàng | a sign]	舌	相	32237	5
+人/NN[rén | person]	有	人	399	5
+住/VV[zhù | to dwell]	不	住	747	5
+諸/PN[zhū | all]	是	諸	3556	5
+地/NR[dì | the Earth]	普	地	30487	5
+無/VC[wú | no]	亦	無	13465	5
+諸眾/VA[zhūzhòng | numerous]	是	諸眾	30771	5
+色身/NN[sè shēn | the physical body]	具足	色身	21077	5
+眾生/NN[zhòngshēng | a being]	一切	眾生	3180	5
+普/VA[pǔ | general]	則	普	3457	5
+見/NN[jiàn | view]	我	見	8858	5
+見/NN[jiàn | view]	者	見	8858	5
+布施/NN[bùshī | giving]	用	布施	3941	5
+四月/NR[sìyuè | the Fourth Month]	用	四月	289	5
+作/VV[zuò | to do]	莫	作	375	5
+夜半/NN[bànyè | middle of the night]	日	夜半	29381	5
+見/NN[jiàn | view]	眾生	見	8858	5
+法/NN[fǎ | a dhárma]	於	法	17994	5
+我/NN[wǒ | self]	著	我	32344	5
+相/NN[xiāng | appearance]	合	相	2911	5
+見/NN[jiàn | view]	人	見	8858	5
+有/VE[yǒu | to have]	世界	有	32458	5
+善/VA[shàn | virtuous]	有	善	3670	5
+合/VV[hé | combine]	一	合	1540	5
+壽/NN[shòu | lifespan]	無	壽	6238	4
+用/VV[yòng | to use]	皆	用	721	4
+當/P[dāng | at or in the very same]	我	當	1167	4
+具足/VA[jùzú | perfect]	以	具足	29304	4
+沙/NN[shā | sand]	所有	沙	3729	4
+今/NN[jīn | today]	我	今	6691	4
+佛土/NN[Fótǔ | a Buddha land]	莊嚴	佛土	20319	4
+心/NN[xīn | mind]	菩薩	心	17993	4
+人/NN[rén | person]	無	人	399	4
+其/DT[qí | their]	降伏	其	1574	4
+人/NN[rén | person]	他	人	399	4
+作/VV[zuò | to do]	若	作	375	4
+作/VV[zuò | to do]	能	作	375	4
+我/NN[wǒ | self]	無	我	32344	4
+所/PN[suǒ | it]	如來	所	17100	4
+恒河/NR[Hénghé | Ganges River]	以	恒河	33257	4
+彌/FW[mí | mi]	阿	彌	33535	4
+金/NN[jīn | gold]	以	金	3371	4
+言/VV[yán | said]	是	言	3512	4
+諸/PN[zhū | all]	及	諸	3556	4
+非/VC[fēi | not]	說	非	33285	4
+得/VV[dé | to obtain]	如來	得	1459	4
+所有/PN[suǒyǒu | all]	中	所有	1049	4
+若/CS[ruò | if]	布施	若	4406	4
+像/NN[xiàng | statue]	行	像	8987	4
+三十二/CD[sān shí èr | thirty two]	以	三十二	32933	4
+人/NN[rén | person]	若	人	399	4
+天/NN[tiān | a deva]	世間	天	13326	4
+於/P[yú | in]	我	於	1710	4
+說/VV[shuō | to say]	不	說	412	4
+色/NN[sè | form]	住	色	5052	4
+相/NN[xiāng | a notion]	諸	相	32443	4
+彼/PN[bǐ | that]	生	彼	6890	4
+有/VE[yǒu | is]	若	有	398	4
+說/VV[shuō | to say]	人	說	412	4
+福/NN[fú | merit]	其	福	29918	4
+得/VV[dé | to obtain]	所	得	1459	4
+莊嚴/VV[zhuāngyán | to adorn]	功德	莊嚴	32457	4
+功德/NN[gōngdé | achievements and virtue]	如是	功德	7135	4
+心/NN[xīn | mind]	生	心	17993	4
+言/VV[yán | said]	人	言	3512	4
+者/MSP[zhě | used after a verb to indicate a person who does the action]	法	者	671	4
+所/PN[suǒ | it]	我	所	17100	4
+國/NN[guó | place]	彼	國	33510	4
+見/VV[jiàn | to see]	相	見	2940	4
+皆/AD[jiē | all]	十方諸佛	皆	5046	4
+是/VV[shì | is exactly]	即	是	13237	4
+者/MSP[zhě | used after a verb to indicate a person who does the action]	阿耨多羅三藐三菩提	者	671	4
+眾生/NN[zhòngshēng | a being]	有	眾生	3180	4
+得/VV[dé | to obtain]	皆	得	1459	4
+不/AD[bù | not]	菩薩	不	502	4
+不/AD[bù | not]	則	不	502	4
+觀/VV[guān | to look at]	相	觀	1702	4
+是/DT[shì | this]	說	是	17908	4
+呪/NN[zhòu | mantra]	此	呪	33055	4
+布施/NN[bùshī | dana]	身	布施	3941	4
+我/NN[wǒ | self]	有	我	32344	4
+如來/NR[Rúlái | Tathagata]	觀	如來	6686	4
+四/CD[sì | four]	乃至	四	304	4
+無邊/VA[wúbiān | without boundaries]	無量	無邊	20348	4
+身/NN[shēn | body]	等	身	3898	4
+他/PN[tā | other]	為	他	30477	4
+等/NN[děng | and so on]	汝	等	1216	3
+多/VA[duō | much]	福德	多	401	3
+言/VV[yán | said]	所	言	3512	3
+動/VV[dòng | move]	大	動	1481	3
+如是/DT[rúshì | thus]	亦復	如是	8840	3
+名/VV[míng | to be called]	故	名	33237	3
+非/VC[fēi | not]	為	非	33285	3
+所/PN[suǒ | it]	爾	所	17100	3
+福德/NN[fúdé | merit]	受	福德	19571	3
+身/NN[shēn | body]	大	身	3898	3
+佛/NR[Fó | Buddha]	解	佛	3618	3
+道/NN[dào | the path leading to the cessation of suffering]	阿羅漢	道	28900	3
+眾生/NN[zhòngshēng | a being]	非	眾生	3180	3
+受/VV[shòu | to receive]	信	受	1978	3
+謂/VV[wèi | to speak of]	勿	謂	4267	3
+我/NN[wǒ | self]	有	我	32344	3
+者/MSP[zhě | used after a verb to indicate a person who does the action]	心	者	671	3
+此/DT[cǐ | this]	誦	此	624	3
+眾生/NN[zhòngshēng | a being]	無	眾生	3180	3
+是/PN[shì | this]	則	是	17908	3
+無/VC[wú | no]	乃至	無	13465	3
+故/CS[gù | so]	何	故	14849	3
+者/MSP[zhě | used after a verb to indicate a person who does the action]	如來	者	671	3
+發願/VV[fā yuàn | to make a vow]	應當	發願	20352	3
+恒河/NR[Hénghé | Ganges River]	諸	恒河	33257	3
+勝/VV[shèng | to surpass]	福	勝	5284	3
+用/VV[yòng | to use]	以	用	721	3
+阿耨多羅三藐三菩提/NN[ānòuduōluó sānmiǎo sānpútí | anuttara-samyak-sambodhi]	名	阿耨多羅三藐三菩提	5104	3
+根/NN[gēn | a root]	善	根	28812	3
+福/NN[fú | merit]	得	福	29918	3
+眾生/NN[zhòngshēng | a being]	諸	眾生	3180	3
+相/NN[xiāng | a sign]	諸	相	32237	3
+而/CC[ér | and]	法	而	1336	3
+聞/VV[wén | hear]	眾生	聞	3925	3
+此/DT[cǐ | this]	讀誦	此	624	3
+聲/NN[shēng | sound]	住	聲	608	3
+如是/PN[rúshì | so]	聞	如是	8840	3
+如是/PN[rúshì | thus]	成就	如是	8840	3
+阿羅漢/NR[Āluóhàn | Arhat]	得	阿羅漢	6892	3
+俱/AD[jū | together]	人	俱	33065	3
+阿耨多羅三藐三菩提/NN[ānòuduōluó sānmiǎo sānpútí | anuttara-samyak-sambodhi]	於	阿耨多羅三藐三菩提	5104	3
+得/VV[dé | to obtain]	當	得	1459	3
+眾生/NN[zhòngshēng | a being]	等	眾生	3180	3
+希有/VA[xīyǒu | uncommon]	第一	希有	8844	3
+是/DT[shì | those]	見	是	17908	3
+功德/NN[gōngdé | achievements and virtue]	所得	功德	7135	3
+異/VA[yì | different]	不	異	5053	3
+生/VV[shēng | to develop]	諸眾	生	30580	3
+中/P[zhōng | in]	恒河	中	32951	3
+得/VV[dé | to obtain]	法	得	1459	3
+然燈佛/NR[Rándēng Fó | Dipankara Buddha]	於	然燈佛	6900	3
+唎/FW[lì | li]	彌	唎	6558	3
+摩訶薩/NN[móhēsà | mahasattva]	菩薩	摩訶薩	8847	3
+眾生/NN[zhòngshēng | a being]	等	眾生	3180	3
+國土/NN[guótǔ | land]	彼	國土	3874	3
+不可/VV[bù kě | cannot]	心	不可	8863	3
+以/CC[yǐ | so as to]	應	以	650	3
+不能/VV[bù néng | cannot]	所	不能	28931	3
+一切/DT[yīqiè | all]	為	一切	1490	3
+有/VE[yǒu | to have]	如來	有	32458	3
+善/VA[shàn | virtuous]	若	善	3670	3
+受/VV[shòu | to receive]	不	受	1978	3
+法/NN[fǎ | a dhárma]	諸	法	17994	3
+不/AD[bù | no]	心	不	502	3
+香/NN[xiāng | incense]	華	香	7060	3
+住/VV[zhù | to dwell]	所	住	747	3
+諸/PN[zhū | all]	說	諸	3556	3
+所/PN[suǒ | it]	然燈佛	所	17100	3
+波羅蜜/NN[bōluómì | paramita]	第一	波羅蜜	7138	3
+善/VA[shàn | virtuous]	諸	善	3670	3
+知/VV[zhī | to know]	悉	知	3896	3
+解/VV[jiě | to understand]	我	解	33232	3
+不/AD[bù | not]	念	不	502	3
+相/NN[xiàng | appearance]	非	相	2911	3
+中/P[zhōng | in]	經	中	32951	3
+相/NN[xiāng | a sign]	身	相	32237	3
+時/AD[shí | at that time]	夜半	時	31047	3
+得/VV[dé | to obtain]	不可	得	1459	3
+彼/PN[bǐ | that]	勝	彼	6890	3
+不/AD[bù | not]	得	不	502	3
+大/VA[dà | big]	地	大	1114	3
+亂/VA[luàn | disorderly]	不	亂	1509	3
+受持/VV[shòuchí | to accept and maintain faith]	能	受持	6887	3
+為/P[wèi | for]	寧	為	372	3
+城/NN[chéng | a city]	入	城	947	3
+事/NN[shì | thing]	八	事	1219	3
+輪/NN[lún | wheel]	四	輪	588	3
+念/NN[niàn | a thought]	專	念	30159	3
+如來/NR[Rúlái | Tathāgata]	是故	如來	6686	3
+我/PN[wǒ | I]	如是	我	321	2
+眾生/NN[zhòngshēng | a being]	國	眾生	3180	2
+菩薩/NN[púsà | bodhisattva]	非	菩薩	3166	2
+一/CD[yī | one]	不及	一	301	2
+以是/CC[yǐshì | for that reason]	人	以是	30549	2
+佛/NR[Fó | Buddha]	其	佛	3618	2
+樂/VV[lè | to take joy in]	大	樂	3931	2
+於/P[yú | in]	退轉	於	1710	2
+布施/NN[bùshī | dana]	行	布施	3941	2
+知/VV[zhī | to know]	能	知	3896	2
+譬喻/NN[pìyù | analogy]	算數	譬喻	7172	2
+佛眼/NN[Fó yǎn | Buddha eyes]	有	佛眼	32342	2
+用/VV[yòng | to use]	持	用	721	2
+夫人/NN[fūren | lady]	及	夫人	10227	2
+一切/PN[yīqiè | all]	離	一切	1490	2
+六時/NN[liù shí | the six four hour periods of the day]	晝夜	六時	29373	2
+三藏/NR[Sān Zàng | Xuanzang]	舍	三藏	4067	2
+末世/NN[mòshì | last phase of an age]	後	末世	7170	2
+比丘/NN[bǐqiū | monk]	大	比丘	6607	2
+功德/NN[gōngdé | achievements and virtue]	無邊	功德	7135	2
+擾/VV[rǎo | to disturb]	水	擾	4478	2
+悉/VV[xī | to know]	如來	悉	3922	2
+供養/VV[gōngyǎng | to provide offerings]	應	供養	7122	2
+是/PN[shì | this]	者	是	17908	2
+者/MSP[zhě | used after a verb to indicate a person who does the action]	今	者	671	2
+諸/DT[zhū | all]	令	諸	3556	2
+之/DEG[zhī | genetive marker]	信	之	33281	2
+善/VA[shàn | virtuous]	如來	善	3670	2
+見/VV[jiàn | to see]	悉	見	2940	2
+菩薩/NN[púsà | bodhisattva]	名	菩薩	3166	2
+於/P[yú | in]	能	於	1710	2
+有/VV[yǒu | is]	頗	有	398	2
+等/MSP[děng | plural]	人	等	17035	2
+生/VV[shēng | to develop]	應	生	30580	2
+人/NN[rén | person]	此	人	399	2
+具足/VA[jùzú | perfect]	非	具足	29304	2
+算數/VV[suànshù | to count]	乃至	算數	7171	2
+著/VV[zhāo | to attach]	貪	著	33231	2
+以/CC[yǐ | so as to]	不	以	650	2
+甚/AD[shén | extremely]	為	甚	17505	2
+法/NN[fǎ | a dhárma]	定	法	17994	2
+令/VV[lìng | to lead]	皆	令	3958	2
+解說/VV[jiěshuō | to explain]	人	解說	7161	2
+車/NN[chē | vehicle]	車	車	3966	2
+七/OD[qī | seventh]	三	七	33462	2
+意/NN[yì | idea]	汝	意	1730	2
+應/VV[yīng | ought]	菩薩	應	1242	2
+以/CC[yǐ | so as to]	若	以	650	2
+舍利弗/NR[Shèlìfú | Sariputra]	長老	舍利弗	18620	2
+哆/FW[duō | duo]	夜	哆	33539	2
+大/VA[dà | great]	名	大	1114	2
+弟子/NN[dìzi | disciple]	佛	弟子	3172	2
+付囑/VV[chóuyōu | to entrust something to somebody]	善	付囑	31085	2
+說/VV[shuō | to say]	故	說	412	2
+阿僧祇劫/NN[āsēngzhǐ jié | an asankhyeya kalpa]	無邊	阿僧祇劫	20346	2
+不/AD[bù | not]	信心	不	502	2
+具足/VA[jùzú | perfect]	相	具足	29304	2
+鳥/NN[niǎo | bird]	諸眾	鳥	3968	2
+佛/NR[Fó | Buddha]	聞	佛	3618	2
+般若波羅蜜多/NN[bānruòbōluómìduō | prajñāpāramitā]	依	般若波羅蜜多	5043	2
+生/VV[shēng | to be born]	願	生	3220	2
+哆/FW[duō | duo]	唎	哆	33539	2
+福德/NN[fúdé | merit]	得	福德	19571	2
+不/AD[bù | not]	我	不	502	2
+說/VV[shuō | to say]	可	說	412	2
+滿/VV[mǎn | to fill]	以	滿	17778	2
+聞/VV[wén | hear]	我	聞	3925	2
+是/PN[shì | this]	即	是	17908	2
+是/PN[shì | this]	說	是	17908	2
+不/AD[bù | not]	是	不	502	2
+所/PN[suǒ | it]	譬喻	所	17100	2
+稱/VV[chēng | to consider]	可	稱	33270	2
+後/NN[hòu | after]	於	後	1149	2
+水/NN[shuǐ | water]	大	水	1609	2
+量/NN[liàng | quantity]	思	量	875	2
+應/VV[yīng | should]	皆	應	1242	2
+受記/NN[shòu jì | a prediction]	我	受記	33275	2
+大/VA[dà | big]	與	大	1114	2
+前/PN[qián | former]	勝	前	13069	2
+水/NN[shuǐ | water]	吐	水	1609	2
+來/VV[lái | to come]	不	來	370	2
+十/CD[shí | ten]	五	十	310	2
+祇樹/NR[Zhǐshù | Jetavana]	舍衛國	祇樹	20293	2
+之後/NN[zhīhòu | after]	命終	之後	443	2
+莊嚴/VV[zhuāngyán | to adorn]	名	莊嚴	32457	2
+餘/VA[yú | surplus]	丈	餘	927	2
+分/NN[fēn | a part]	日	分	1429	2
+因緣/NN[yīnyuán | principal and secondary causes]	八	因緣	7179	2
+微塵/NN[wēichén | an atom]	是	微塵	32464	2
+伽藍/NN[qiēlán | monastery]	僧	伽藍	25148	2
+之/PN[zhī | him]	希有	之	730	2
+行/VV[xíng | to do]	而	行	11499	2
+身/NN[shēn | body]	以	身	3898	2
+大/VA[dà | great]	為	大	1114	2
+降伏/VV[xiángfú | pacify]	云何	降伏	21819	2
+日/NN[rì | day]	四	日	8319	2
+一切/PN[yīqiè | all]	滅度	一切	1490	2
+男子/NN[nánzǐ | man]	善	男子	6688	2
+發/VV[fā | to send out]	為	發	1603	2
+生/VV[shēng | to be born]	發願	生	3220	2
+阿蘭那/NN[ālánnà | a forest]	樂	阿蘭那	32862	2
+取/VV[qǔ | to attach]	若	取	28121	2
+來世/NN[lái shì | future worlds]	於	來世	20981	2
+諸/PN[zhū | all]	以	諸	3556	2
+有/VE[yǒu | to have]	常	有	32458	2
+故/CC[gù | so]	相	故	14849	2
+二/CD[èr | two]	千	二	302	2
+於/P[yú | in]	住	於	1710	2
+及/CC[jí | and]	王	及	962	2
+慧眼/NN[Huì yǎn | wisdom eyes]	有	慧眼	32340	2
+億/CD[yì | one hundred million]	十萬	億	316	2
+繒/NN[zēng | silk fabric]	懸	繒	26350	2
+者/MSP[zhě | used after a verb to indicate a person who does the action]	滅度	者	671	2
+如來/NR[Rúlái | Tathagata]	謂	如來	6686	2
+須菩提/NR[xūpútí | Subhuti]	是故	須菩提	6645	2
+七寶/NR[qī bǎo | the Seven Treasures]	三千大千世界	七寶	26512	2
+名/VV[míng | to be called]	法	名	33237	2
+得/VV[dé | to obtain]	佛	得	1459	2
+微塵/NN[wēichén | an atom]	名	微塵	32464	2
+無明/NN[wúmíng | ignorance]	無	無明	5075	2
+生/VV[shēng | to develop]	法	生	30580	2
+念/VV[niàn | recite]	常	念	3905	2
+大/VA[dà | big]	是	大	1114	2
+諸/DT[zhū | all]	等	諸	3556	2
+身/NN[shēn | body]	非	身	3898	2
+罪業/NN[zuìyè | sin]	先世	罪業	21273	2
+不/AD[bù | not]	法	不	502	2
+五/CD[wŭ | five]	百	五	305	2
+音/NN[yīn | sound]	是	音	2413	2
+日/NT[rì | day]	八	日	8319	2
+於/P[yú | in]	汝	於	1710	2
+成就/NN[chéngjiù | achievement]	國土	成就	807	2
+想/NN[xiǎng | perception]	有	想	32107	2
+所得/NN[suǒdé | what one acquires]	如來	所得	5078	2
+布施/NN[bùshī | dana]	如是	布施	3941	2
+者/MSP[zhě | used after a verb to indicate a person who does the action]	有	者	671	2
+舍利弗/NR[Shèlìfú | Sariputra]	是故	舍利弗	18620	2
+若/CS[ruò | if]	汝	若	4406	2
+於/P[yú | in]	止	於	1710	2
+處/NN[chù | a place]	此	處	2665	2
+作/VV[zuò | to do]	得	作	375	2
+一/CD[yī | one]	名	一	301	2
+行/VV[xíng | to do]	人	行	11499	2
+無量/VA[wúliàng | unlimited]	如是	無量	20347	2
+因緣/NN[yīnyuán | principal and secondary causes]	以是	因緣	7179	2
+法/NN[fǎ | a dhárma]	取	法	17994	2
+道人/NN[dàorén | monk]	木	道人	32943	2
+無/VE[wú | to not have]	應	無	13465	2
+四/CD[sì | four]	受持	四	304	2
+相/NN[xiāng | a notion]	斷滅	相	32443	2
+者/MSP[zhě | used after a verb to indicate a person who does the action]	度	者	671	2
+法眼/NN[Fǎyǎn | dhárma eye]	有	法眼	32341	2
+無量/VA[wúliàng | unlimited]	滅度	無量	20347	2
+演說/VV[yǎnshuō | to deliver a speech]	人	演說	32818	2
+爾/PN[ěr | thus]	於	爾	3811	2
+等/MSP[děng | plural]	如是	等	17035	2
+說/VV[shuō | to say]	者	說	412	2
+像/NN[xiàng | statue]	行	像	8987	2
+法/NN[fǎ | a dhárma]	是	法	17994	2
+行/VV[xíng | to do]	日	行	11499	2
+人/NN[rén | person]	十	人	399	2
+著/VV[zhāo | to grasp]	即	著	33231	2
+千萬億/CD[qiānwàn yì | a trillion]	百	千萬億	33042	2
+受持/VV[shòuchí | to accept and maintain faith]	信解	受持	6887	2
+為/VC[wèi | for]	地	為	13424	2
+中/LC[zhōng | in]	國	中	32951	2
+諸/PN[zhū | all]	具足	諸	3556	2
+者/MSP[zhě | used after a verb to indicate a person who does the action]	佛土	者	671	2
+人/NN[rén | person]	如	人	399	2
+人/NN[rén | person]	其	人	399	2
+說/VV[shuō | to say]	可	說	412	2
+欲/NN[yù | desire]	離	欲	3889	2
+能/VV[néng | can]	所	能	1263	2
+觸/NN[chù | touch]	香味	觸	32140	2
+眾生/NN[zhòngshēng | a being]	無	眾生	3180	2
+遍/NN[biàn | time]	七	遍	33555	2
+然燈佛/NR[Rándēng Fó | Dipankara Buddha]	在	然燈佛	6900	2
+邊/NN[biān | side]	四	邊	3121	2
+阿彌陀/NR[Āmítuó | Amitabha]	號	阿彌陀	20320	2
+佛/NR[Fó | Buddha]	大焰肩	佛	3618	2
+重/VV[chóng | to repeat]	七	重	3280	2
+作/VV[zuò | to do]	如來	作	375	2
+甚/AD[shén | extremely]	福	甚	17505	2
+福德/NN[fúdé | merit]	前	福德	19571	2
+及/CC[jí | and]	不能	及	962	2
+實/AD[shí | truly]	而	實	33246	2
+有/VE[yǒu | to have]	實	有	32458	2
+汝/PN[rǔ | you]	於	汝	6690	2
+三十二/CD[sān shí èr | thirty two]	以	三十二	32933	2
+沙/NN[shā | sand]	是	沙	3729	2
+香味/NN[xiāngwèi | fragrance]	聲	香味	11469	2
+善/VA[shàn | good]	有	善	30100	2
+三/CD[sān | three]	誦	三	303	2
+胎/NN[tāi | womb]	母	胎	33415	2
+度/VV[dù | to liberate]	如來	度	30865	2
+長大/VA[zhǎngdà | tall and great]	人身	長大	33278	2
+不/AD[bù | not]	思量	不	502	2
+作/VV[zuò | to do]	所	作	375	2
+世界/NN[shìjiè | world]	名	世界	363	2
+得/VV[dé | to obtain]	說	得	1459	2
+諸/PN[zhū | all]	名	諸	3556	2
+是/DT[shì | this]	聞說	是	17908	2
+眾生/NN[zhòngshēng | a being]	有	眾生	3180	2
+受持/VV[shòuchí | to accept and maintain faith]	乃至	受持	6887	2
+悉/AD[xī | all]	罪	悉	30467	2
+阿羅漢/NR[Āluóhàn | Arhat]	欲	阿羅漢	6892	2
+分/NN[fēn | a part]	千萬億	分	1429	2
+百/CD[bǎi | one hundred]	二	百	313	2
+以/P[yǐ | because of]	常	以	30648	2
+見/VV[jiàn | to see]	得	見	2940	2
+毘/FW[pí | pi]	婆	毘	33545	2
+已/CS[yǐ | afterwards]	經	已	30645	2
+心/NN[xīn | mind]	若	心	17993	2
+幡蓋/NN[fān gài | a scroll style canopy]	繒	幡蓋	29260	2
+王/NN[wáng | king]	須彌山	王	3236	2
+處/NN[chù | a place]	之	處	2665	2
+七寶/NR[qī bǎo | the Seven Treasures]	世界	七寶	26512	2
+具足/VA[jùzú | perfect]	以	具足	29304	2
+諸天/NN[zhūtiān | devas]	作	諸天	27530	2
+天眼/NN[tiān yǎn | divine sight]	有	天眼	20965	2
+莊嚴/VV[zhuāngyán | to adorn]	非	莊嚴	32457	2
+當/P[dāng | at or in the very same]	若	當	1167	2
+礙/VV[ài | to hinder]	罣	礙	5083	2
+法/NN[fǎ | a dhárma]	觸	法	17994	2
+無/VE[wú | to not have]	而	無	13465	2
+應/VV[yīng | ought]	摩訶薩	應	1242	2
+恒河/NR[Hénghé | Ganges River]	等	恒河	33257	2
+釋迦牟尼/NR[Shìjiāmóuní | Sakyamuni Buddha]	號	釋迦牟尼	2889	2
+舍衛國/NR[Shèwèi Guó | Sravasti]	在	舍衛國	20292	2
+往生/NN[wǎng shēng | a future life]	任運	往生	19662	2
+以/CC[yǐ | so as to]	不可	以	650	2
+老死/NN[lǎo sǐ | old age and death]	無	老死	28916	2
+歲/NN[suì | years]	五百	歲	814	2
+諸/DT[zhū | all]	護念	諸	3556	2
+須菩提/NR[xūpútí | Subhuti]	長老	須菩提	6645	2
+不/AD[bù | not]	見	不	502	2
+第一/OD[dì yī | first]	為	第一	394	2
+不及/VA[bù jí | not as good as]	百分	不及	9223	2
+四/CD[sì | four]	三	四	304	2
+非/VC[fēi | not]	即	非	33285	2
+思/VV[sī | to think]	可	思	5245	2
+名/VV[míng | to be called]	說	名	33237	2
+信/VV[xìn | to believe]	難	信	3091	2
+吐/VV[tǔ | to spurt]	龍	吐	9999	2
+比丘/NN[bǐqiū | a monk]	諸	比丘	6607	2
+可/CC[kě | but]	虛空	可	1251	2
+想/NN[xiǎng | perception]	無	想	32107	2
+此/DT[cǐ | this]	說	此	624	2
+相/NN[xiàng | a notion]	非	相	32443	2
+勿/AD[wù | do not]	汝	勿	6359	2
+神/VA[shén | divine]	大	神	5105	2
+多/VA[duō | much]	福	多	401	2
+退轉/VV[tuìzhuàn | to degenerate]	不	退轉	30764	2
+四/CD[sì | four]	作	四	304	2
+護念/VV[hùniàn | for a Buddha, bodhisattva, or demigod to protect a Buddhist disciple]	善	護念	32072	2
+相/NN[xiāng | a notion]	於	相	32443	2
+不解/VV[bùjiě | to not understand]	人	不解	14087	2
+難/VA[nán | difficult]	甚	難	1207	2
+如來/NR[Rúlái | Tathagata]	眾生	如來	6686	2
+是/PN[shì | this]	非	是	17908	2
+佛/NR[Fó | Buddha]	是故	佛	3618	2
+思量/VV[sīliáng | to reckon]	可	思量	6700	2
+僧/NN[sēng | monk]	念	僧	3366	2
+故/CS[gù | so]	般若波羅蜜多	故	14849	2
+極樂/NN[jílè | bliss]	名曰	極樂	20321	2
+滿/VV[mǎn | to fill]	人	滿	17778	2
+相/NN[xiāng | a sign]	具足	相	32237	2
+如/CS[rú | if]	狀	如	2567	2
+土/NN[tǔ | land]	其	土	33502	2
+見/VV[jiàn | to see]	色身	見	2940	2
+法/NN[fǎ | a dharma]	之	法	17994	2
+無/VE[wú | to not have]	人	無	13465	2
+樂/VV[lè | to take joy in]	是	樂	3931	2
+布施/NN[bùshī | dana]	色	布施	3941	2
+白/VV[bái | to address]	而	白	10465	2
+大/VA[dà | big]	諸	大	1114	2
+若/CS[ruò | if]	我	若	4406	2
+諸/DT[zhū | all]	付囑	諸	3556	2
+在/P[zài | in]	佛	在	328	2
+名為/VV[míngwèi | to be called]	故	名為	30937	2
+於/P[yú | in]	如來	於	1710	2
+算數/VV[suànshù | to count]	是	算數	7171	2
+如來/NR[Rúlái | Tathagata]	法	如來	6686	2
+定/VV[dìng | to set]	有	定	3690	2
+如是/PN[rúshì | thus]	與	如是	8840	2
+信心/NN[xìnxīn | faith]	生	信心	33260	2
+是/PN[shì | this]	須菩提	是	17908	2
+法/NN[fǎ | a dharma]	念	法	17994	2
+阿/FW[ā | a]	毘	阿	33534	2
+罣/VV[guà | to be anxious]	無	罣	5082	2
+難/VA[nán | difficult]	此	難	1207	2
+所/PN[suǒ | it]	之	所	17100	2
+微塵/NN[wēichén | an atom]	非	微塵	32464	2
+我/PN[wǒ | I]	解	我	321	2
+給孤獨園/NR[Gěigūdú Yuán | Anathapimdasya arama]	祇樹	給孤獨園	20294	2
+此/DT[cǐ | this]	知	此	624	2
+肉眼/NN[ròuyǎn | naked eye]	有	肉眼	7178	2
+內/LC[nèi | inside]	城	內	32954	2
+降伏/VV[xiángfú | pacify]	如是	降伏	21819	2
+生/VV[shēng | to develop]	色	生	30580	2
+三千大千世界/NN[sān qiān dà qiān shìjiè | a great chiliocosm]	滿	三千大千世界	26967	2
+名/VV[míng | to be called]	是故	名	33237	2
+名/VV[míng | to be called]	不	名	33237	2
+時/AD[shí | at that time]	終	時	31047	2
+即/AD[jí | promptly]	相	即	1964	2
+以/CC[yǐ | so as to]	七寶	以	650	2
+我/PN[wǒ | I]	與	我	321	2
+佛/NR[Fó | Buddha]	作	佛	3618	2
+任運/VV[rèn yùn | to accomplish something by letting it occur naturally]	之後	任運	28887	2
+無我/NN[wúwǒ | selflessness]	法	無我	3164	2
+有/VE[yǒu | is]	無	有	398	2
+世界/NN[shìjiè | world]	非	世界	363	2
+袈裟/NN[jiāshā | kasaya]	披	袈裟	21031	1
+脇/NN[xié | side of the human body]	右	脇	25845	1
+法/NN[fǎ | a dhárma]	言	法	17994	1
+星/NN[xīng | star]	明	星	3199	1
+如/CS[rú | if]	亦	如	2567	1
+四千/CD[sì qiān | four thousand]	百	四千	32969	1
+以/P[yǐ | because of]	恆	以	30648	1
+迎/VV[yíng | to welcome]	城	迎	4930	1
+之/DEG[zhī | genetive marker]	三惡道	之	33281	1
+少/VA[shǎo | few]	性	少	1449	1
+我/PN[wǒ | I]	受	我	321	1
+不可思議/VA[bù kě sīyì | inconceivable]	功德	不可思議	7158	1
+常/AD[cháng | always]	國	常	3858	1
+相/NN[xiāng | a notion]	身	相	32443	1
+之/PN[zhī | him]	灌	之	730	1
+也/MSP[yě | a final modal particle indicating certainy or decision]	四	也	8853	1
+變化/NN[biànhuà | change]	流	變化	504	1
+上/VV[shàng | on]	車	上	585	1
+他/PN[tā | other]	供養	他	30477	1
+具足/VA[jùzú | perfect]	說	具足	29304	1
+為/VC[wèi | for]	不	為	13424	1
+當/P[dāng | at or in the very same]	汝	當	1167	1
+眾/VA[zhòng | various]	有	眾	29899	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	呪	者	671	1
+所/PN[suǒ | it]	解飛	所	17100	1
+之/PN[zhī | him]	生	之	730	1
+以/CC[yǐ | so as to]	多	以	650	1
+一切/DT[yīqiè | all]	慈悲	一切	1490	1
+名字/NN[míngzi | name]	以是	名字	2006	1
+持/VV[chí | to grasp]	各	持	1799	1
+見/VV[jiàn | see]	我	見	2940	1
+所有/PN[suǒyǒu | all]	三千大千世界	所有	1049	1
+深/VA[shēn | profound]	甚	深	13170	1
+度/VV[dù | to liberate]	當	度	30865	1
+一切/DT[yīqiè | all]	所有	一切	1490	1
+瞋/NN[chēn | hatred]	生	瞋	17988	1
+歡喜/VA[huānxǐ | joyful]	大	歡喜	7202	1
+一切/DT[yīqiè | all]	於	一切	1490	1
+之/DEG[zhī | genetive marker]	鬼神	之	33281	1
+時/NT[shí | season]	熱	時	31045	1
+淨/VA[jìng | pure]	不	淨	3678	1
+等/NN[děng | and so on]	釋提桓因	等	1216	1
+往昔/NN[wǎngxī | in the past]	於	往昔	7146	1
+語/VV[yǔ | to speak]	真	語	5966	1
+其中/NN[qízhōng | among]	充滿	其中	2047	1
+劫/VV[jié | to rob]	千萬億	劫	7156	1
+雨/VV[yǔ | to rain]	天	雨	33515	1
+金剛般若波羅蜜/NR[Jīngāng Bōrěbōluómì | Prajnaparamita Diamond Sutra]	名為	金剛般若波羅蜜	7129	1
+聖/NN[shèng | a sage]	諸	聖	30705	1
+作/VV[zuò | to make]	邊	作	375	1
+義/NN[yì | meaning]	以是	義	3613	1
+而/CC[ér | and]	香	而	1336	1
+為/VC[wèi | for]	皆	為	13424	1
+苦/NN[kŭ | suffering]	一切	苦	3865	1
+咒/NN[zhòu | mantra]	說	咒	5107	1
+住/VV[zhù | to dwell]	教	住	747	1
+惡/NN[è | evil]	舊	惡	3868	1
+空/NN[kòng | space]	於	空	30631	1
+華/NN[huá | a flower]	曼陀羅	華	30597	1
+心/NN[xīn | mind]	之	心	17993	1
+大/VA[dà | great]	皆	大	1114	1
+虛空/VA[xūkōng | void]	在	虛空	26607	1
+念/NN[niàn | mindfulness]	等	念	32093	1
+行/VV[xíng | to do]	觀	行	11499	1
+能/VV[néng | can]	阿羅漢	能	1263	1
+知/VV[zhī | to know]	如是	知	3896	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	國	者	671	1
+方/NN[fāng | direction]	他	方	3382	1
+過/AD[guò | too]	空	過	1202	1
+聞/VV[wén | to hear]	欲	聞	3925	1
+八/CD[bā | eight]	以是	八	308	1
+大/VA[dà | great]	發	大	1114	1
+鬼神/NN[guǐshén | spirits and devils]	邪	鬼神	26718	1
+散/VV[sàn | to scatter]	遙	散	3525	1
+為/P[wèi | for]	昔	為	372	1
+濕生/VV[shī shēng | to be born from moisture]	若	濕生	32702	1
+法/NN[fǎ | a dhárma]	為	法	17994	1
+住/VV[zhù | to dwell]	云何	住	747	1
+現在/AD[xiànzài | at present]	眾	現在	264	1
+汝/PN[rǔ | you]	為	汝	6690	1
+說/VV[shuō | to say]	具	說	412	1
+無/AD[wú | no]	生	無	1843	1
+界/NN[jiè | a realm]	無餘涅槃	界	28021	1
+三衣/NN[sān yī | the three robes of monk]	念	三衣	22161	1
+及/CC[jí | and]	語	及	962	1
+貪/VV[tān | to be greedy]	人	貪	3892	1
+天人/NN[tiānrén | a deva]	為	天人	21972	1
+臨/VV[lín | arrive]	人	臨	32083	1
+二/OD[èr | second]	為	二	33457	1
+名曰/VV[míng yuē | to be named]	國	名曰	31453	1
+於/P[yú | in]	已	於	1710	1
+願/NN[yuàn | vow]	一切	願	30499	1
+爲/P[wèi | because of]	城邑	爲	17120	1
+成佛/VV[chéng Fó | to become a Buddha]	阿彌陀佛	成佛	21014	1
+前/VA[qián | in front of]	佛	前	681	1
+諸/DT[zhū | all]	如是	諸	3556	1
+之/DEG[zhī | genetive marker]	僧	之	33281	1
+僧/NN[sēng | monk]	瞿摩帝	僧	3366	1
+業/NN[yè | actions]	之	業	17979	1
+萬億/CD[wàn yì | one trillion]	四千	萬億	28369	1
+得/VV[dé | to obtain]	相	得	1459	1
+菩薩/NN[púsà | bodhisattva]	前	菩薩	3166	1
+其/PN[qí | his]	生	其	1574	1
+眾生/NN[zhòngshēng | a being]	不	眾生	3180	1
+誦/VV[sòng | to recite]	合掌	誦	4060	1
+等/MSP[děng | plural]	方	等	17035	1
+經/NN[jīng | sūtra]	從此	經	3167	1
+皆/AD[jiē | all]	等	皆	5046	1
+之/PN[zhī | him]	工作	之	730	1
+人/NN[rén | person]	死	人	399	1
+見/VV[jiàn | to see]	如是	見	2940	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	小	者	671	1
+而/CC[ér | and]	右手	而	1336	1
+法/NN[fǎ | a dhárma]	無我	法	17994	1
+目/NN[mù | eye]	有	目	8323	1
+我/NN[wǒ | self]	非	我	32344	1
+皆/AD[jiē | all]	湯藥	皆	5046	1
+風/NN[fēng | wind]	大	風	2024	1
+世界/NN[shìjiè | world]	西方	世界	363	1
+章句/NN[zhāng jù | words]	此	章句	33218	1
+之/PN[zhī | him]	來	之	730	1
+八/OD[bā | eight]	四月	八	33463	1
+我/PN[wǒ | me]	求	我	321	1
+書寫/VV[shūxiě | to write]	何況	書寫	2547	1
+聞/VV[wén | question]	多	聞	33348	1
+露/NN[lù | dew]	如	露	6461	1
+樓閣/NN[lóugé | a tower]	有	樓閣	20332	1
+不/AD[bù | not]	一心	不	502	1
+阿羅漢/NR[Āluóhàn | Arhat]	名	阿羅漢	6892	1
+尊/VV[zūn | to honor]	為	尊	6609	1
+苦/NN[kŭ | suffering]	生死	苦	3865	1
+世/NN[shì | life]	凡	世	809	1
+上/VV[shàng | to go up]	幢	上	586	1
+此/DT[cǐ | this]	詣	此	624	1
+辯才/NN[biàncái | eloquence]	成就	辯才	3921	1
+殃/NN[yāng | calamity]	之際	殃	16669	1
+世/NN[shì | life]	三	世	809	1
+四/CD[sì | four]	是	四	304	1
+耶/MSP[yē | final interogative]	法	耶	6557	1
+二/CD[èr | two]	長	二	302	1
+欲/NN[yù | desire]	樂	欲	3889	1
+作/VV[zuò | to do]	而	作	375	1
+食時/NN[shíshí | mealtime]	世尊	食時	33071	1
+般若波羅蜜/NN[Bōrěluómì | Prajñāpāramitā]	非	般若波羅蜜	7128	1
+故/CS[gù | so]	礙	故	14849	1
+為/P[wèi | for]	云何	為	372	1
+守道/VV[shǒudào | to practice]	安貧	守道	21524	1
+之/PN[zhī | him]	如是	之	730	1
+行/VV[xíng | to do]	常	行	11499	1
+處/NN[chù | a place]	一	處	2665	1
+僧莎訶/FW[sēngshāhē | svaha]	菩提	僧莎訶	33064	1
+寧/CC[nìng | rather]	沙	寧	7117	1
+我/PN[wǒ | me]	見	我	321	1
+階/NN[jiē | stairs]	邊	階	9603	1
+生/VV[shēng | to be born]	當	生	3220	1
+此/DT[cǐ | this]	受	此	624	1
+依/VV[yī | maintain]	菩提薩埵	依	5081	1
+七寶/NR[qī bǎo | the Seven Treasures]	以	七寶	26512	1
+奉行/VV[fèngxíng | to practice]	受	奉行	7203	1
+揭帝/FW[jiēdì | gate]	揭帝	揭帝	33061	1
+輕賤/VA[qīngjiàn | petty and low]	世人	輕賤	22060	1
+經典/NN[jīngdiǎn | sūtra]	如是	經典	33258	1
+散/VV[sàn | to scatter]	而	散	3525	1
+心/NN[xīn | mind]	未來	心	17993	1
+以此/AD[yǐcǐ | hence]	人	以此	6715	1
+夢想/NN[mèngxiǎng | dream]	顛倒	夢想	771	1
+一切/DT[yīqiè | all]	知	一切	1490	1
+無/VE[wú | to not have]	五陰	無	13465	1
+耳/SP[ěr | and that is all]	宮	耳	17675	1
+一切/DT[yīqiè | all]	度	一切	1490	1
+法身/NR[Fǎshēn | Dharmakaya]	乘	法身	17739	1
+音/NN[yīn | sound]	法	音	2413	1
+用/VV[yòng | to use]	悉	用	721	1
+令/VV[lìng | to make]	苦	令	3958	1
+小/VA[xiǎo | small]	樂	小	762	1
+吾/PN[wú | I]	唯	吾	17099	1
+無故/VA[wú gù | unconditioned]	福德	無故	32459	1
+心/NN[xīn | mind]	名為	心	17993	1
+白/VA[bái | white]	以	白	33561	1
+小/VA[xiǎo | small]	數	小	762	1
+維/VV[wéi | to preserve]	四	維	6262	1
+法/NN[fǎ | a dharma]	等	法	17994	1
+空/NN[kōng | emptiness]	異	空	17657	1
+敬/VV[jìng | to respect]	禮	敬	6651	1
+生死/NR[Shēngsǐ | Saṃsāra]	覺	生死	18496	1
+行/NN[háng | row]	重	行	33512	1
+音/NN[yīn | sound]	其	音	2413	1
+一切/PN[yīqiè | all]	除	一切	1490	1
+舍衛大城/NR[Shèwèi Dà Chéng | city of Shravasti]	入	舍衛大城	8841	1
+惡/NN[è | evil]	十	惡	3868	1
+斷滅/VV[duànmiè | annihilate]	法	斷滅	7187	1
+不/AD[bù | not]	義	不	502	1
+六/CD[liù | six]	作	六	306	1
+號/NN[hào | a name]	故	號	30521	1
+負/VV[fù | to bear]	白象	負	909	1
+燈/NN[dēng | lamp]	然	燈	2401	1
+那/FW[nà | na]	伽	那	33549	1
+佛/NR[Fó | Buddha]	千萬	佛	3618	1
+出/VV[chū | to go out]	常	出	275	1
+微塵/NN[wēichén | an atom]	所有	微塵	32464	1
+不/AD[bù | not]	大	不	502	1
+得/VV[dé | to obtain]	可	得	1459	1
+方/AD[fāng | at the time when]	西北	方	30546	1
+以為/VV[yǐwéi | to believe]	人	以為	5911	1
+諸/DT[zhū | all]	稱讚	諸	3556	1
+非/VC[fēi | not]	取	非	33285	1
+百/CD[bǎi | one hundred]	八	百	313	1
+坐/VV[zuò | to sit]	而	坐	3368	1
+㲲/NN[dié | fine cotton cloth]	白	㲲	33744	1
+諸/DT[zhū | all]	聞	諸	3556	1
+來/VV[lái | to come]	子	來	370	1
+法/NN[fǎ | teachings]	聖	法	17994	1
+之間/VA[zhījiān | between]	腹	之間	389	1
+何/PN[hé | what]	當	何	3087	1
+之/DEG[zhī | genetive marker]	太宗	之	33281	1
+千/CD[qiān | one thousand]	百	千	314	1
+多/FW[duō | duo]	抧	多	33536	1
+求/VV[qiú | to request]	音聲	求	1700	1
+無/AD[wú | not]	心	無	1843	1
+墮/VV[duò | to descend]	生	墮	7165	1
+怨/VV[yuàn | to blame]	多	怨	3936	1
+世/NN[shì | world]	染	世	809	1
+貪/VV[tān | to be greedy]	應	貪	3892	1
+無數/VA[wúshù | countless]	無量	無數	5521	1
+沙門/NN[shāmén | a Buddhist monk]	德	沙門	17887	1
+罪惡/NN[zuì è | sin]	增長	罪惡	13887	1
+無/AD[wú | no]	中	無	1843	1
+有/VE[yǒu | to have]	皆	有	32458	1
+潔/VA[jié | clean]	香	潔	4845	1
+行/VV[xíng | to walk]	經	行	1260	1
+事/NN[shì | matter]	佛	事	1219	1
+釋迦/NR[Shìjiā | Sakyamuni Buddha]	負	釋迦	26872	1
+梵行/VV[fànxíng | to live peacefully and free from desires]	清白	梵行	22109	1
+三十二/CD[sān shí èr | thirty two]	名	三十二	32933	1
+將/AD[jiāng | will, shall (future tense)]	佛教	將	1317	1
+前/VA[qián | before]	其	前	681	1
+聞說/VV[wénshuō | to hear told]	須菩提	聞說	29317	1
+無我/NN[wúwǒ | selflessness]	以	無我	3164	1
+闇/NN[àn | darkness]	入	闇	7153	1
+圍繞/VV[wéirǎo | to revolve around]	作禮	圍繞	7163	1
+菩薩/NN[púsà | bodhisattva]	龍樹	菩薩	3166	1
+所/PN[suǒ | it]	汝	所	17100	1
+著/VV[zhāo | to attach]	即為	著	33231	1
+得/VV[dé | to obtain]	曾	得	1459	1
+般若波羅蜜多/NN[bānruòbōluómìduō | prajñāpāramitā]	知	般若波羅蜜多	5043	1
+足/NN[zú | foot]	禮	足	9097	1
+滅/VV[miè | to extinguish]	不	滅	568	1
+卷/VV[juǎn | to coil]	佛說阿彌陀經	卷	33039	1
+承/VV[chéng | to honor]	供養	承	30742	1
+中/P[zhōng | in]	大眾	中	32951	1
+取/VV[qǔ | to attach]	應	取	28121	1
+前/PN[qián | former]	其	前	13069	1
+可/VV[kě | can]	難	可	948	1
+悉/FW[xī | xi]	哆	悉	33546	1
+念/NN[niàn | a thought]	一	念	30159	1
+岸/NN[àn | bank]	涅槃	岸	3643	1
+不/AD[bù | not]	阿彌陀佛	不	502	1
+手/NN[shǒu | hand]	以	手	922	1
+筏/NN[fá | raft]	如	筏	6718	1
+名/VV[míng | to be called]	之	名	33237	1
+處/NN[chù | a place]	其	處	2665	1
+如是/PN[rúshì | thus]	成就	如是	8840	1
+與/CC[yǔ | and]	然燈佛	與	509	1
+諸/PN[zhū | all]	所有	諸	3556	1
+人/NN[rén | person]	之	人	399	1
+十四/CD[shí sì | fourteen]	至	十四	33705	1
+幃幕/NN[wéimù | a screen]	大	幃幕	33697	1
+少/VA[shǎo | few]	以	少	1449	1
+得/VV[dé | to obtain]	太子	得	1459	1
+若/CS[ruò | if]	來	若	4406	1
+法/NN[fǎ | a dhárma]	住	法	17994	1
+以/VV[yǐ | to use]	各	以	17176	1
+僧/NN[sēng | monk]	一	僧	3366	1
+能/VV[néng | can]	人	能	1263	1
+有人/PN[yǒurén | a person]	或	有人	32987	1
+也/MSP[yě | a final modal particle indicating certainy or decision]	一	也	8853	1
+七/CD[qī | seven]	行	七	307	1
+起/VV[qǐ | to rise]	貪欲	起	13035	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	實相	者	671	1
+所/PN[suǒ | it]	王	所	17100	1
+修/VV[xiū | to study]	慈悲	修	3677	1
+莊嚴/VV[zhuāngyán | to adorn]	說	莊嚴	32457	1
+百/CD[bǎi | one hundred]	無量	百	313	1
+聽受/VV[tīngshòu | to listen]	不能	聽受	30899	1
+何/DT[hé | what]	土	何	3087	1
+子/NN[zǐ | child]	婆羅門	子	3223	1
+常/AD[cháng | always]	不	常	3858	1
+則/CS[zé | expresses contrast with a previous sentence or clause]	罪業	則	1337	1
+已/CS[yǐ | afterwards]	有人	已	30645	1
+承/VV[chéng | to bear]	有	承	441	1
+心/NN[xīn | mind]	非	心	17993	1
+日/NN[rì | day]	三	日	8319	1
+佛/NR[Fó | Buddha]	有	佛	3618	1
+非/VC[fēi | not]	彼	非	33285	1
+聞/VV[wén | to hear]	及	聞	3925	1
+莊嚴/VV[zhuāngyán | to adorn]	如是	莊嚴	32457	1
+之/PN[zhī | him]	凡夫	之	730	1
+無為/VA[wúwèi | unconditioned]	以	無為	33233	1
+惡/NN[è | evil]	是	惡	3868	1
+咒/NN[zhòu | mantra]	神	咒	5107	1
+心/NN[xīn | mind]	清淨	心	17993	1
+生死/NR[Shēngsǐ | Saṃsāra]	斷	生死	18496	1
+照/VV[zhào | illuminate]	明	照	5044	1
+滅/NN[miè | death]	生	滅	33349	1
+諸/PN[zhū | all]	世	諸	3556	1
+上/FW[shàng | shang]	唎	上	33542	1
+神/VA[shén | divine]	降	神	5105	1
+生/VV[shēng | to be born]	時	生	3220	1
+侍/VV[shì | to attend on]	菩薩	侍	16068	1
+無上/VA[wúshàng | supreme]	作	無上	20991	1
+然/VV[rán | burn]	夜	然	33339	1
+語/VV[yǔ | to speak]	實	語	5966	1
+見/VV[jiàn | see]	照	見	2940	1
+捨/VV[shě | to give up]	應	捨	4054	1
+不/AD[bù | not]	空	不	502	1
+取/VV[qǔ | to take]	不可	取	3026	1
+日/M[rì | day of the month]	中	日	738	1
+披/VV[pī | to wear]	皆	披	10918	1
+誦/VV[sòng | to recite]	莎婆訶	誦	4060	1
+成就/VV[chéngjiù | to achieve]	人	成就	19245	1
+焰肩佛/NR[Yàn Jiān Fó | Maharcislamdha Buddha]	有	焰肩佛	20371	1
+昔/VA[xī | long ago]	我	昔	6898	1
+我/NN[wǒ | self]	說	我	32344	1
+善/VA[shàn | virtuous]	上	善	3670	1
+入/VV[rù | to enter]	所	入	916	1
+碎/VV[suì | to break down]	三千大千世界	碎	7194	1
+生/VV[shēng | to be born]	得	生	3220	1
+惡道/NN[è dào | evil rebirth]	墮	惡道	28935	1
+稱說/VV[chēngshuō | to declare]	亦	稱說	31334	1
+五蘊/NN[wŭ yùn | five aggregates]	見	五蘊	5049	1
+道/NN[dào | path]	階	道	3247	1
+寧/CC[nìng | rather]	如是	寧	7117	1
+實/AD[shí | truly]	有	實	33246	1
+去/VV[qù | to go]	自	去	343	1
+師子/NN[shīzi | a lion]	辟邪	師子	34668	1
+光明/NN[guāngmíng | light]	佛	光明	33517	1
+所/NN[suǒ | place]	然燈佛	所	1157	1
+不/AD[bù | no]	如是	不	502	1
+其/PN[qí | that]	引	其	1574	1
+重/VV[chóng | to repeat]	七	重	3280	1
+鳥/NN[niǎo | bird]	此	鳥	3968	1
+法器/NN[fǎqì | a Dharma instrument]	鉢	法器	22163	1
+念佛/VV[niàn fó | to pray to Buddha]	悉	念佛	18348	1
+見/VV[jiàn | to see]	若	見	2940	1
+受/NN[shòu | sensations]	無	受	17992	1
+自/PN[zì | oneself]	欲	自	2808	1
+身/NN[shēn | body]	說	身	3898	1
+土/NN[tǔ | land]	彼	土	33502	1
+念/NN[niàn | a thought]	樂	念	30159	1
+我/PN[wǒ | I]	不解	我	321	1
+三/CD[sān | three]	停	三	303	1
+四大/NR[sìdà | the four elements]	脆	四大	3875	1
+尺/NN[chǐ | foot]	二	尺	33688	1
+吐/VV[tǔ | to spit]	刀	吐	9999	1
+佛/NR[Fó | Buddha]	二	佛	3618	1
+藪/NN[sǒu | marsh]	罪	藪	3870	1
+貧窮/VA[pínqióng | poor]	中	貧窮	13008	1
+進趣/VV[jìnqù | to enter into]	罪	進趣	22287	1
+著/VV[zhāo | to attach]	易	著	33231	1
+捨/VV[shě | to give up]	欲	捨	4054	1
+要/NN[yào | summary]	以	要	33268	1
+天/NN[tiān | a deva]	作	天	13326	1
+不/AD[bù | not]	肉眼	不	502	1
+佛/NR[Fó | Buddha]	無量精進	佛	3618	1
+大/VA[dà | big]	則	大	1114	1
+妙/VA[miào | clever]	眾	妙	4220	1
+生/VV[shēng | to develop]	脇	生	30580	1
+夢/NN[mèng | dream]	如	夢	756	1
+言/VV[yán | to speak]	要	言	3512	1
+法/NN[fǎ | a dhárma]	生	法	17994	1
+性/NN[xìng | nature]	水	性	33234	1
+除滅/VV[chúmiè | to eliminate]	得	除滅	33557	1
+無數/VA[wúshù | countless]	多	無數	5521	1
+行/VV[xíng | to move]	佛像	行	1260	1
+刀/NN[dāo | knife]	吞	刀	4078	1
+國/NN[guó | place]	本	國	33510	1
+中/LC[zhōng | in]	念	中	32951	1
+為/P[wèi | for]	身	為	372	1
+時/AD[shí | at that time]	般若波羅蜜多	時	31047	1
+行/NN[xíng | practice]	阿蘭那	行	30222	1
+即/VV[jí | the same as]	空	即	8512	1
+四/OD[sì | fourth]	為	四	33459	1
+宮/NN[gōng | palace]	還	宮	7864	1
+此/DT[cǐ | this]	行	此	624	1
+二/CD[èr | two]	長	二	302	1
+圍繞/VV[wéirǎo | to revolve around]	周匝	圍繞	7163	1
+香/VA[xiāng | fragrant]	微妙	香	5068	1
+真/AD[zhēn | really]	是	真	16934	1
+諸/DT[zhū | all]	并	諸	3556	1
+世界/NN[shìjiè | world]	等	世界	363	1
+夜/NN[yè | night]	晨	夜	4071	1
+最上/VA[zuìshàng | supreme]	發	最上	33271	1
+寒/VA[hán | cold]	不	寒	7815	1
+佛法/NR[Fófǎ | Dhárma]	是	佛法	3165	1
+木/NN[mù | wood]	作	木	2646	1
+熱/VA[rè | hot]	不	熱	3285	1
+發/VV[fā | to develop]	法	發	33125	1
+到/VV[dào | arrive]	還	到	603	1
+一/OD[yī | first]	為	一	33456	1
+苦/NN[kŭ | suffering]	無量	苦	3865	1
+即/AD[jí | promptly]	佛	即	1964	1
+得/VV[dé | to obtain]	則	得	1459	1
+有/VE[yǒu | to have]	亦	有	32458	1
+弟子/NN[dìzi | disciple]	尊重	弟子	3172	1
+現在/AD[xiànzài | at present]	今	現在	264	1
+驚/VV[jīng | to be surprised]	不	驚	5468	1
+張/M[zhāng | sheet]	上	張	3023	1
+以/VV[yǐ | to use]	純	以	17176	1
+得/VV[dé | to obtain]	相	得	1459	1
+隨/VV[suí | to follow]	看病	隨	955	1
+見/VV[jiàn | to see]	不能	見	2940	1
+右/VA[yòu | right]	從	右	33466	1
+以/CC[yǐ | so as to]	如來	以	650	1
+慧眼/NN[Huì yǎn | wisdom eyes]	所得	慧眼	32340	1
+皆/AD[jiē | all]	餘	皆	5046	1
+名為/VV[míngwèi | to be called]	是	名為	30937	1
+見/VV[jiàn | to see]	知悉	見	2940	1
+踐/VV[jiàn | to tread]	迭相	踐	7999	1
+尚/AD[shàng | still]	法	尚	1175	1
+清白/VA[qīngbái | pure]	守道	清白	3949	1
+其中/NN[qízhōng | among]	住	其中	2047	1
+時/NT[shí | time]	生	時	524	1
+各/DT[gè | each]	諸天	各	282	1
+常/AD[cháng | always]	墜落	常	3858	1
+微塵/NN[wēichén | an atom]	若是	微塵	32464	1
+氣/NN[qì | air]	時	氣	3260	1
+其/PN[qí | his]	散	其	1574	1
+上/VA[shàng | above]	門樓	上	584	1
+青/VA[qīng | green or blue]	青色	青	483	1
+法/NN[fǎ | a dhárma]	之	法	17994	1
+佞/VV[nìng | to praise]	好	佞	33617	1
+大人/NN[dàren | mahasattva]	菩薩	大人	20972	1
+不/AD[bù | not]	真實	不	502	1
+有/VE[yǒu | to have]	當	有	32458	1
+菩薩/NN[púsà | bodhisattva]	此	菩薩	3166	1
+言/VV[yán | to speak]	實	言	3512	1
+母/NN[mǔ | mother]	神	母	4262	1
+我/NN[wǒ | self]	說	我	32344	1
+訖/VV[qì | to finish]	飯食	訖	6618	1
+語/VV[yǔ | to speak]	如	語	5966	1
+於/P[yú | in]	常	於	1710	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	相	者	671	1
+以/CC[yǐ | so as to]	人	以	650	1
+一/CD[yī | one]	若	一	301	1
+世/NN[shì | life]	之	世	809	1
+伽/FW[jiā | ga]	伽	伽	6577	1
+發願/VV[fā yuàn | to make a vow]	已	發願	20352	1
+與/CC[yǔ | and]	沙門	與	509	1
+立/VV[lì | to stand]	像	立	3784	1
+行/VV[xíng | walk]	地	行	1260	1
+知悉/VV[zhīxī | to know]	悉	知悉	6716	1
+以/VV[yǐ | to use]	又	以	17176	1
+在/P[zài | in]	在	在	328	1
+時/AD[shí | at that time]	出	時	31047	1
+多/AD[duō | more]	尚	多	402	1
+有人/PN[yǒurén | a person]	譬如	有人	32987	1
+說/VV[shuō | to say]	常	說	412	1
+須菩提/NR[xūpútí | Subhuti]	以	須菩提	6645	1
+過/VV[guò | to cross]	西方	過	829	1
+色/NN[sè | form]	異	色	5052	1
+及/CC[jí | and]	須菩提	及	962	1
+如是/PN[rúshì | thus]	分	如是	8840	1
+如是/PN[rúshì | so]	有	如是	8840	1
+立/VV[lì | to set up]	內	立	3784	1
+為/P[wèi | for]	寧	為	372	1
+車/NN[chē | vehicle]	於	車	3966	1
+業/NN[yè | pursuit]	是	業	33327	1
+輕賤/VA[qīngjiàn | petty and low]	人	輕賤	22060	1
+出家/VV[chūjiā | to become a monk]	時	出家	3770	1
+在/P[zài | in]	如來	在	328	1
+畏/VV[wèi | to fear]	不	畏	7137	1
+人/NN[rén | person]	善	人	399	1
+誦讀/VV[sòngdú | to read aloud]	受持	誦讀	21063	1
+櫨/NN[lú | the capital of a column]	承	櫨	33742	1
+地/NR[dì | the Earth]	世	地	30487	1
+清/VA[qīng | clear]	以	清	3355	1
+和/CC[hé | and]	香	和	387	1
+般若波羅蜜多/NN[bānruòbōluómìduō | prajñāpāramitā]	說	般若波羅蜜多	5043	1
+所/PN[suǒ | it]	共	所	17100	1
+衣/NN[yī | robe]	新	衣	33079	1
+得/VV[dé | to obtain]	悉	得	1459	1
+無量/VA[wúliàng | unlimited]	以	無量	20347	1
+忉利天/NR[Dāolìtiān | Trayastrimsa Heaven]	梵天	忉利天	26490	1
+濟/VV[jì | to aid]	法	濟	3957	1
+天/NN[tiān | sky]	六時	天	17756	1
+嚴/NN[yán | majesty]	事事	嚴	28538	1
+恒河/NR[Hénghé | Ganges River]	如	恒河	33257	1
+我/PN[wǒ | I]	於	我	321	1
+初/AD[chū | at first]	佛	初	2939	1
+空/VA[kōng | empty]	無	空	3876	1
+可/VV[kě | can]	佛	可	948	1
+能/VV[néng | can]	阿那含	能	1263	1
+恒河/NR[Hénghé | Ganges River]	所	恒河	33257	1
+經/NN[jīng | a sūtra]	般若波羅蜜	經	3167	1
+來/VV[lái | to come]	當	來	370	1
+蘭/FW[lán | lan]	迦	蘭	33558	1
+耶/MSP[yē | final interogative]	阿耨多羅三藐三菩提	耶	6557	1
+阿那含/NR[Anàhán | Anagamin]	得	阿那含	27415	1
+說/VV[shuō | to say]	世尊	說	412	1
+念/NN[niàn | a thought]	於	念	30159	1
+無上/VA[wúshàng | supreme]	轉	無上	20991	1
+逆/VA[nì | contrary]	不	逆	5032	1
+道/NN[dào | the path leading to the cessation of suffering]	行	道	28900	1
+值/NN[zhí | value]	得	值	3202	1
+應/VV[yīng | ought]	我	應	1242	1
+行/VV[xíng | to do]	精進	行	11499	1
+一日/NN[yī rì | first of the month]	月	一日	33706	1
+不/AD[bù | not]	名為	不	502	1
+果/NN[guǒ | fruit]	須陀洹	果	30482	1
+生/VV[shēng | to develop]	當	生	30580	1
+僧/NN[sēng | monk]	比丘	僧	3366	1
+國/NN[guó | place]	十方	國	33510	1
+千/CD[qiān | one thousand]	眾	千	314	1
+熾/NN[chì | flame]	生死	熾	3955	1
+應/VV[yīng | ought]	但	應	1242	1
+有/VE[yǒu | to have]	菩薩	有	32458	1
+也/MSP[yě | a final modal particle indicating certainy or decision]	造	也	8853	1
+如/CS[rú | if]	大	如	2567	1
+太子/NN[tàizǐ | a prince]	浴	太子	18249	1
+群/NN[qún | crowd]	度	群	530	1
+於/P[yú | in]	當	於	1710	1
+云何/PN[yúnhé | how]	應	云何	29319	1
+福德/NN[fúdé | merit]	作	福德	19571	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	說	者	671	1
+得/VV[dé | attain]	事	得	1459	1
+尊/VA[zūn | respected]	神	尊	33450	1
+作/VV[zuò | to do]	世	作	375	1
+肩/NN[jiān | shoulder]	右	肩	6648	1
+甚/AD[shén | extremely]	如是	甚	17505	1
+諸/DT[zhū | all]	為	諸	3556	1
+菩薩/NN[púsà | bodhisattva]	發	菩薩	3166	1
+周匝/VV[zhōu zā | to go around]	寶	周匝	24659	1
+如來/NR[Rúlái | Tathagata]	是	如來	6686	1
+以/VV[yǐ | to use]	皆	以	17176	1
+以/CC[yǐ | so as to]	阿耨多羅三藐三菩提	以	650	1
+國/NN[guó | place]	阿彌陀佛	國	33510	1
+皆/AD[jiē | all]	國	皆	5046	1
+阿彌陀佛/NR[Āmítuó Fó | Amitabha Buddha]	往生	阿彌陀佛	2891	1
+難/VA[nán | difficult]	異	難	1207	1
+供養/VV[gōngyǎng | to provide for one's elders]	所	供養	7121	1
+人身/NN[rénshēn | a person's life, health, activities, etc]	譬如	人身	15890	1
+受/VV[shòu | to receive]	但	受	1978	1
+須菩提/NR[xūpútí | Subhuti]	說	須菩提	6645	1
+阿耨多羅三藐三菩提/NN[ānòuduōluó sānmiǎo sānpútí | anuttara-samyak-sambodhi]	如來	阿耨多羅三藐三菩提	5104	1
+甚為/AD[shènwéi | very]	人	甚為	17727	1
+丈/NN[zhàng | zhang]	三	丈	33623	1
+亦/AD[yì | also]	老死	亦	5060	1
+持/VV[chí | to grasp]	經受	持	1799	1
+即位/VV[jíwèi | to succeed to the throne]	燾	即位	17558	1
+果/NN[guǒ | fruit]	斯陀含	果	30482	1
+功德/NN[gōngdé | achievements and virtue]	誦讀	功德	7135	1
+皆/AD[jiē | all]	道俗	皆	5046	1
+往來/VV[wǎnglái | to return]	無	往來	13408	1
+已/CS[yǐ | afterwards]	足	已	30645	1
+第一/OD[dì yī | first]	名	第一	394	1
+德/NN[Dé | virtue]	高	德	3389	1
+為/VC[wèi | for]	黃金	為	13424	1
+道/NN[dào | the path leading to the cessation of suffering]	成佛	道	28900	1
+出家/VV[chūjiā | to become a monk]	志願	出家	3770	1
+皆/AD[jiē | all]	者	皆	5046	1
+前/PN[qián | former]	然燈佛	前	13069	1
+成道/VV[chéng dào | to become enlightened]	初	成道	24816	1
+五/CD[wŭ | five]	暢	五	305	1
+眾生/NN[zhòngshēng | a being]	所有	眾生	3180	1
+住/VV[zhù | to dwell]	無	住	747	1
+時/AD[shí | at that time]	解	時	31047	1
+去/VV[qù | to go]	所	去	343	1
+貪欲/NN[tānyù | attachment]	從	貪欲	28013	1
+無上/VA[wúshàng | supreme]	是	無上	20991	1
+日/M[rì | day of the month]	之	日	738	1
+無/AD[wú | no]	眾生	無	1843	1
+其/PN[qí | his]	何況	其	1574	1
+光/NN[guāng | light]	赤	光	1229	1
+今生/NN[jīnshēng | this life]	若	今生	19050	1
+形像/NN[xíngxiàng | form]	諸天	形像	7607	1
+華/NN[huá | a flower]	妙	華	30597	1
+劫濁/NR[jiézhuó | Kalpakashaya]	五濁惡世	劫濁	22099	1
+取/VV[qǔ | to take]	不	取	3026	1
+成佛/VV[chéng Fó | to become a Buddha]	得	成佛	21014	1
+有/VE[yǒu | to have]	土	有	32458	1
+不/AD[bù | not]	說	不	502	1
+意識/NN[yìshí | consciousness]	無	意識	621	1
+在/P[zài | in]	須菩提	在	328	1
+佛/NR[Fó | Buddha]	大須彌	佛	3618	1
+善法/NN[shànfǎ | a pure dhárma]	言	善法	21317	1
+撮/M[cuō | a little bit]	手	撮	13374	1
+中/P[zhōng | in]	空	中	32951	1
+慧/NN[huì | wisdom]	修	慧	3904	1
+菩提/NN[pútí | bodhi]	進趣	菩提	3174	1
+離/VV[lí | to leave]	應	離	3222	1
+著/VV[zhāo | to attach]	為	著	33231	1
+疲/VA[pí | weary]	生死	疲	12999	1
+斷滅/VV[duànmiè | annihilate]	說	斷滅	7187	1
+故/CS[gù | so]	得	故	14849	1
+五濁惡世/NR[Wŭ Zhuó è Shì | Saha World]	於	五濁惡世	30455	1
+其/PN[qí | that]	現在	其	1574	1
+無/VE[wú | to not have]	為	無	13465	1
+樓/NN[lóu | storied building]	兔	樓	3803	1
+量/NN[liàng | quantity]	稱	量	875	1
+信/VV[xìn | to believe]	歡喜	信	3091	1
+多/AD[duō | more]	學	多	402	1
+三千大千世界/NN[sān qiān dà qiān shìjiè | a great chiliocosm]	若	三千大千世界	26967	1
+摩/VV[mó | to rub]	手	摩	6563	1
+凡夫/NN[fánfū | an ordinary person]	而	凡夫	30767	1
+夜/FW[yè | ye]	地	夜	33538	1
+已/CS[yǐ | afterwards]	成佛	已	30645	1
+十萬/CD[shí wàn | one hundred thousand]	過	十萬	28368	1
+於/P[yú | in]	菩薩	於	1710	1
+受持/VV[shòuchí | to accept and maintain faith]	有	受持	6887	1
+五百/CD[wŭ bǎi | five hundred]	後	五百	32930	1
+如是/PN[rúshì | so]	作	如是	8840	1
+常/AD[cháng | frequently]	菩薩	常	3858	1
+亦復/AD[yìfù | also]	福德	亦復	33037	1
+則/CS[zé | expresses contrast with a previous sentence or clause]	佛	則	1337	1
+流/VV[liú | to flow]	宣	流	533	1
+像/NN[xiàng | statue]	佛	像	8987	1
+人民/NN[rénmín | the people]	諸天	人民	1117	1
+里/NN[lǐ | li]	四	里	33726	1
+御/VV[yù | drive]	親	御	9052	1
+法/NN[fǎ | a dhárma]	所得	法	17994	1
+法/NN[fǎ | a dhárma]	少	法	17994	1
+國土/NN[guótǔ | land]	所	國土	3874	1
+後/VA[hòu | after]	滅	後	33226	1
+白/VA[bái | white]	白色	白	33561	1
+種/NN[zhǒng | kind]	若干	種	1590	1
+色/NN[sè | form]	入	色	5052	1
+衢/NN[qú | a thoroughfare]	廣	衢	24888	1
+道/NN[dào | the path leading to the cessation of suffering]	得	道	28900	1
+苦/NN[kŭ | suffering]	四大	苦	3865	1
+處處/AD[chùchù | everywhere]	在	處處	7162	1
+一切/DT[yīqiè | all]	言	一切	1490	1
+彫/VV[diāo | to engrave]	銀	彫	33693	1
+纏/VV[chán | to wind around]	㲲	纏	8895	1
+擔/VV[dān | to undertake]	荷	擔	7160	1
+冤/NN[yuān | injustice]	念	冤	13674	1
+然燈佛/NR[Rándēng Fó | Dipankara Buddha]	是故	然燈佛	6900	1
+可/CC[kě | but]	法	可	1251	1
+行/NN[xíng | practice]	所	行	30222	1
+誦/VV[sòng | to recite]	各	誦	4060	1
+比丘/NN[bǐqiū | a monk]	等	比丘	6607	1
+上下/NN[shàngxià | up and down]	維	上下	9341	1
+巧/VA[qiǎo | skillful]	眾	巧	2373	1
+湯藥/NN[tāng yào | medicine]	及	湯藥	30194	1
+忍/VV[rěn | to beat]	於	忍	7140	1
+像/NN[xiàng | statue]	輪	像	8987	1
+在/P[zài | in]	地	在	328	1
+極樂/NN[jílè | bliss]	名為	極樂	20321	1
+以/CC[yǐ | so as to]	初日分	以	650	1
+亦/AD[yì | also]	東方	亦	5060	1
+實/AD[shí | truly]	有	實	33246	1
+善/VA[shàn | virtuous]	種	善	3670	1
+長者/NN[zhǎngzhě | elder]	國	長者	19161	1
+東方/NR[dōngfāng | The East]	功德	東方	8149	1
+諸/PN[zhū | all]	種	諸	3556	1
+等/VV[děng | to be equal]	無	等	18604	1
+作/VV[zuò | to do]	俱	作	375	1
+嚴/NN[yán | majesty]	而	嚴	28538	1
+之/PN[zhī | him]	所在	之	730	1
+離/VV[lí | to leave]	第一	離	3222	1
+無常/NN[wúcháng | impermanence]	世間	無常	3163	1
+世界/NN[shìjiè | world]	北方	世界	363	1
+無量/VA[wúliàng | unlimited]	於	無量	20347	1
+著地/VV[zhuódì | to touch the ground]	膝	著地	29352	1
+聖/NN[shèng | a sage]	賢	聖	30705	1
+城/NN[chéng | a city]	離	城	947	1
+哆/FW[duō | duo]	蘭	哆	33539	1
+之/PN[zhī | him]	大人	之	730	1
+之際/NN[zhījì | time]	夏	之際	2537	1
+覺知/NN[juézhī | awareness]	第四	覺知	3897	1
+現/VV[xiàn | to appear]	開	現	4605	1
+哆/FW[duō | duo]	伽	哆	33539	1
+爾/PN[ěr | thus]	滿	爾	3811	1
+具/AD[jù | in detail]	若	具	28823	1
+地/NR[dì | the Earth]	觀	地	30487	1
+佛/NR[Fó | Buddha]	五	佛	3618	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	名	者	671	1
+三/OD[sān | third]	為	三	33458	1
+湯/NN[tāng | soup]	和	湯	10389	1
+繞/VV[rào | circumambulate]	袈裟	繞	3243	1
+次第/AD[cìdì | one after another]	佛	次第	6615	1
+來/VV[lái | to come]	昔	來	370	1
+終/NN[zhōng | end]	命	終	3589	1
+色/NN[sè | form]	色	色	5052	1
+佛/NR[Fó | Buddha]	為	佛	3618	1
+敬重/VV[jìngzhòng | to respect deeply]	所	敬重	29325	1
+前/VA[qián | before]	形象	前	681	1
+覺悟/NN[juéwù | awareness]	所	覺悟	3861	1
+夏/NN[xià | summer]	春	夏	3454	1
+佛/NR[Fó | Buddha]	佞	佛	3618	1
+終/NN[zhōng | end]	人	終	3589	1
+五/OD[wŭ | fifth]	為	五	33460	1
+讀誦/VV[dúsòng | to read aloud]	聽受	讀誦	29258	1
+為/P[wèi | for]	是	為	372	1
+沙/NN[shā | sand]	金	沙	3729	1
+亦/AD[yì | also]	露	亦	5060	1
+相/NN[xiāng | a notion]	住	相	32443	1
+上/VA[shàng | above]	纏	上	584	1
+受持/VV[shòuchí | to accept and maintain faith]	經	受持	6887	1
+八/OD[bā | eight]	卯月	八	33463	1
+師/NN[shī | teacher]	無上	師	3721	1
+天/NN[tiān | heaven]	脫	天	13325	1
+從此/AD[cóngcǐ | from now on]	皆	從此	8489	1
+禮/VV[lǐ | bow]	揖	禮	33656	1
+而/CC[ér | and]	作禮	而	1336	1
+精進/NN[jīngjìn | diligence]	行	精進	3912	1
+增/VV[zēng | to increase]	不	增	836	1
+人/NN[rén | person]	之	人	399	1
+咒/NN[zhòu | mantra]	明	咒	5107	1
+狀/VA[zhuàng | strong]	其	狀	3011	1
+截/VV[jié | to cut]	割	截	7144	1
+像/NN[xiàng | image]	此	像	8987	1
+呪/NN[zhòu | mantra]	受持	呪	33055	1
+消滅/VV[xiāomiè | to eliminate]	為	消滅	7168	1
+為/VC[wèi | for]	能	為	13424	1
+皆/AD[jiē | all]	五蘊	皆	5046	1
+雜色/VA[zásè | multi-colored]	奇妙	雜色	20337	1
+為/P[wèi | for]	碎	為	372	1
+心/NN[xīn | mind]	種	心	17993	1
+般若波羅蜜多/NN[bānruòbōluómìduō | prajñāpāramitā]	深	般若波羅蜜多	5043	1
+脆/VA[cuì | fragile]	危	脆	3863	1
+得/VV[dé | to obtain]	令	得	1459	1
+見/VV[jiàn | to see]	色	見	2940	1
+永/AD[yǒng | forever]	正覺	永	4064	1
+之/PN[zhī | him]	算數	之	730	1
+普/VA[pǔ | everywhere]	萬物	普	3457	1
+沙/NN[shā | sand]	如是	沙	3729	1
+滅度/VV[mièdù | to extinguish worries and the sea of grief]	而	滅度	6697	1
+竹/NN[zhú | bamboo]	縛	竹	657	1
+七/CD[qī |seven]	若	七	307	1
+教/VV[jiāo | to teach]	所	教	3929	1
+於/P[yú | in]	行	於	1710	1
+引/VV[yǐn | to lead]	導	引	3282	1
+諸/PN[zhū | all]	供養	諸	3556	1
+若/CS[ruò | if]	坐	若	4406	1
+一/CD[yī | one]	非	一	301	1
+舊/VA[jiù | old]	念	舊	3940	1
+菩薩/NN[púsà | bodhisattva]	阿逸多	菩薩	3166	1
+章句/NN[zhāng jù | words]	是	章句	33218	1
+宿/VV[sù | to lodge for the night]	再	宿	8434	1
+自/PN[zì | itself]	有時	自	2808	1
+人/NN[rén | person]	木	人	399	1
+勝/VV[shèng | to surpass]	菩薩	勝	5284	1
+騰驤/VV[téngxiāng | to gallop]	火	騰驤	34669	1
+無/VE[wú | to not have]	心	無	13465	1
+國/NN[guó | a place]	國	國	33510	1
+無量/VA[wúliàng | unlimited]	過去	無量	20347	1
+罪/NN[zuì | an offense]	等	罪	3869	1
+非/VC[fēi | not]	非	非	33285	1
+通達/VV[tōngdá | to understand clearly]	菩薩	通達	33279	1
+相/NN[xiāng | appearance]	真	相	2911	1
+經典/NN[jīngdiǎn | sūtra]	深	經典	33258	1
+此/DT[cǐ | this]	感	此	624	1
+須彌山/NR[xūmí Shān | Mount Sumeru]	如	須彌山	6903	1
+汝/PN[rǔ | you]	告	汝	6690	1
+諸/PN[zhū | all]	見	諸	3556	1
+盡/AD[jìn | all]	有人	盡	17905	1
+為/VC[wèi | for]	吾	為	13424	1
+咒/NN[zhòu | mantra]	般若波羅蜜多	咒	5107	1
+滅度/VV[mièdù | to extinguish worries and the sea of grief]	得	滅度	6697	1
+色/NN[sè | form]	赤	色	5052	1
+國/NN[guó | a place]	此	國	33510	1
+學/NN[xué | study]	廣	學	11115	1
+大/VA[dà | big]	爲	大	1114	1
+諸/PN[zhū | all]	即	諸	3556	1
+命/NN[mìng | life]	身	命	4838	1
+氣/NN[qì | air]	毒	氣	3260	1
+如是/PN[rúshì | so]	生	如是	8840	1
+成就/NN[chéngjiù | accomplishment]	得	成就	807	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	信	者	671	1
+止/VV[zhǐ | to stop]	則	止	4426	1
+已/CS[yǐ | afterwards]	音	已	30645	1
+若/CS[ruò | if]	國土	若	4406	1
+吹/VV[chuī | to blow]	風	吹	10191	1
+阿羅漢/NR[Āluóhàn | Arhat]	大	阿羅漢	6892	1
+得/VV[dé | to obtain]	眾生	得	1459	1
+過患/NN[guòhuàn | suffering and hardship]	五欲	過患	22136	1
+法/NN[fǎ | a dhárma]	名	法	17994	1
+種/NN[zhǒng | kind]	雜	種	1590	1
+建/VV[jiàn | to build]	以	建	1197	1
+性/NN[xìng | nature]	石虎	性	33234	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	我	者	671	1
+造/VV[zào | to make]	所	造	4082	1
+十四/CD[shí sì | fourteen]	中	十四	33705	1
+於/P[yú | in]	懸	於	1710	1
+及/CC[jí | and]	飲食	及	962	1
+阿/FW[ā | a]	他	阿	33534	1
+抧/FW[zhǐ | zhi]	那	抧	33550	1
+百/CD[bǎi | one hundred]	譬如	百	313	1
+布/NN[bù | cotton cloth]	沙	布	3624	1
+咒/NN[zhòu | mantra]	等	咒	5107	1
+惡/NN[è | evil]	結	惡	3868	1
+本/VV[běn | own]	至	本	20986	1
+諸/DT[zhū | all]	凡	諸	3556	1
+八/CD[bā | eight]	此	八	308	1
+為/VC[wèi | for]	形	為	13424	1
+經/VV[jīng | to experience]	飯食	經	1044	1
+無為/VA[wúwèi | unconditioned]	欲	無為	33233	1
+是/PN[shì | this]	僧	是	17908	1
+來/VV[lái | to come]	已	來	370	1
+散/VV[sàn | to scatter]	觀	散	3525	1
+為/P[wèi | for]	以此	為	372	1
+八/CD[bā | eight]	有	八	308	1
+言/VV[yán | to speak]	偈	言	3512	1
+莊/VV[zhuāng | decorate]	七寶	莊	33732	1
+供養/VV[gōngyàng | to make offerings]	香	供養	7122	1
+四月/NR[sìyuè | April]	從	四月	289	1
+欲/NN[yù | desire]	多	欲	3889	1
+數/NN[shù | number]	不	數	11496	1
+持/VV[chí | to maintain]	有人	持	1799	1
+不可思議/VA[bù kě sīyì | inconceivable]	義	不可思議	7158	1
+無餘涅槃/NR[Wú Yú Nièpán | Remainderless Nirvāṇa]	入	無餘涅槃	32165	1
+而/CC[ér | and]	紛紛	而	1336	1
+比丘/NN[bǐqiū | a monk]	道	比丘	6607	1
+世人/NN[shìrén | common people]	今	世人	7166	1
+無/VE[wú | to not have]	道	無	13465	1
+起/VV[qǐ | to get up]	座	起	1257	1
+倡/VV[chàng | to initiate]	作	倡	8074	1
+一/CD[yī | one]	有	一	301	1
+食時/NN[shíshí | mealtime]	以	食時	33071	1
+但/CC[dàn | but]	菩薩	但	1182	1
+耶/FW[yē | ye]	從	耶	33554	1
+莊校/VV[zhuāngjiào | to decorate]	琉璃	莊校	33755	1
+無量/VA[wúliàng | unlimited]	成就	無量	20347	1
+色/NN[sè | form]	以	色	5052	1
+若/CS[ruò | if]	所見	若	4406	1
+從/P[cóng | from]	我	從	1383	1
+暢/VA[chàng | joyful]	演	暢	13254	1
+各異/VA[gèyì | all different]	車	各異	17319	1
+眼/NN[yǎn | eye]	無	眼	3597	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	聞	者	671	1
+喻/NN[yù | an analogy]	筏	喻	6595	1
+膝/NN[xī | knee]	右	膝	6649	1
+水/NN[shuǐ | water]	在	水	1609	1
+陳/VV[chén | tell]	具	陳	4913	1
+也/MSP[yě | a final modal particle indicating certainy or decision]	三	也	8853	1
+夫人/NN[fūren | lady]	上	夫人	10227	1
+說/VV[shuō | to teach]	人	說	32460	1
+慧/NN[huì | wisdom]	唯	慧	3904	1
+覺知/NN[juézhī | awareness]	第八	覺知	3897	1
+百分/CD[bǎifēn | one hundredth]	福德	百分	33274	1
+為/VC[wèi | for]	號	為	13424	1
+病人/NN[bìngrén | a patient]	一切	病人	10493	1
+有/VE[yǒu | to have]	多	有	32458	1
+亦/AD[yì | also]	菩薩	亦	5060	1
+去/VV[qù | to go]	而	去	343	1
+無諍三昧/NR[wú zhèng sānmèi | Samādhi of Non-contention]	得	無諍三昧	33254	1
+口/VA[kǒu | verbal]	三藏	口	30088	1
+氓/NN[máng | people]	群	氓	9966	1
+晝夜/NN[zhòuyè | day and night]	於	晝夜	4072	1
+登/VV[dēng | to ascend]	速	登	4062	1
+和適/VA[hé shì | harmonious and agreeable]	氣	和適	32963	1
+世/NN[shì | life]	五百	世	809	1
+事/NN[shì | matter]	之	事	1219	1
+入/VV[rù | to enter]	像	入	916	1
+心/NN[xīn | mind]	住	心	17993	1
+可/CC[kě | but]	無法	可	1251	1
+上/VA[shàng | above]	水	上	584	1
+大/VA[dà | big]	甚	大	1114	1
+相/NN[xiāng | appearance]	空	相	2911	1
+有/VV[yǒu | is]	一切	有	398	1
+少/VA[shǎo | few]	有	少	1449	1
+則/CS[zé | expresses contrast with a previous sentence or clause]	如來	則	1337	1
+滅度/VV[mièdù | to extinguish worries and the sea of grief]	實	滅度	6697	1
+他/FW[tā | ta]	哆	他	33559	1
+數/NN[shù | number]	其	數	11496	1
+演/VV[yǎn | to perform]	音	演	3813	1
+色/NN[sè | form]	是	色	5052	1
+告/VV[gào | to tell]	言	告	3012	1
+舍/NN[shè | residence]	醫藥	舍	4053	1
+膩/FW[nì | ni]	彌	膩	33548	1
+寶/NN[bǎo | a jewel]	四	寶	3707	1
+日/NN[rì | day]	此	日	8319	1
+住/VV[zhù | to dwell]	皆	住	747	1
+功德/NN[gōngdé | achievements and virtue]	八	功德	7135	1
+常/AD[cháng | always]	年年	常	3858	1
+作/VV[zuò | to make]	又	作	375	1
+降/VV[jiàng | to drop]	兜率天	降	5452	1
+垢/VA[gòu | unclean]	不	垢	29838	1
+光/NN[guāng | light]	黃	光	1229	1
+如是/PN[rúshì | so]	說	如是	8840	1
+如是/PN[rúshì | so]	亦	如是	8840	1
+時/NN[shí | time]	此	時	524	1
+解/VV[jiě | to understand]	人	解	33232	1
+蓮花/NN[liánhuā | a lotus]	中	蓮花	4079	1
+希有/VA[xīyǒu | uncommon]	難	希有	8844	1
+布施/NN[bùshī | dana]	七寶	布施	3941	1
+經受/VV[jīngshòu | to undergo]	是	經受	15220	1
+快樂/VA[kuàilè | happy]	常住	快樂	4065	1
+牙/NN[yá | tusk]	六	牙	4678	1
+福德/NN[fúdé | merit]	是	福德	19571	1
+光/NN[guāng | light]	青	光	1229	1
+舍/NN[shè | residence]	此	舍	4053	1
+面/NN[miàn | side]	頭	面	3411	1
+發願/VV[fā yuàn | to make a vow]	今	發願	20352	1
+千萬/AD[qiānwàn | countless]	無量	千萬	10946	1
+三惡趣/NN[sān è qù | the three evil rebirths]	無	三惡趣	28936	1
+如/CS[rú | if]	法	如	2567	1
+不/AD[bù | not]	受持	不	502	1
+極樂/NN[jílè | bliss]	阿彌陀佛	極樂	20321	1
+他/FW[tā | ta]	夜	他	33559	1
+一切/DT[yīqiè | all]	開導	一切	1490	1
+為/VC[wèi | for]	雖	為	13424	1
+性/NN[xìng | nature]	福德	性	33234	1
+學/VV[xué | study]	山	學	3924	1
+各異/VA[gèyì | all different]	莊嚴	各異	17319	1
+具/AD[jù | in detail]	可	具	28823	1
+與/CC[yǔ | and]	不	與	509	1
+生/VV[shēng | to develop]	而	生	30580	1
+大眾/NN[dàzhòng | assembly]	在	大眾	6644	1
+鳥/NN[niǎo | bird]	之	鳥	3968	1
+以/P[yǐ | because of]	悉	以	30648	1
+持/VV[chí | to maintain]	有	持	1799	1
+不/AD[bù | not]	增	不	502	1
+而/CC[ér | and]	佛	而	1336	1
+中/P[zhōng | in]	城	中	32951	1
+花/NR[Huā | Hua]	名	花	3075	1
+王/NN[wáng | king]	忉利天	王	3236	1
+去/VV[qù | to go]	若	去	343	1
+所/VA[suǒ | various]	眾	所	32731	1
+心/NN[xīn | mind]	現在	心	17993	1
+餝/VV[shì | to adorn]	嚴	餝	33695	1
+如來/NR[Rúlái | Tathagata]	名	如來	6686	1
+一切/DT[yīqiè | all]	名	一切	1490	1
+作/VV[zuò | to do]	竹	作	375	1
+生/VV[shēng | to be born]	欲	生	3220	1
+名/VV[míng | to be called]	種	名	33237	1
+阿彌陀/NR[Āmítuó | Amitabha]	為	阿彌陀	20320	1
+以/CC[yǐ | so as to]	復	以	650	1
+高/VA[gāo | high]	引	高	953	1
+珠/NN[zhū | pearl]	赤	珠	4935	1
+不/AD[bù | not]	佛	不	502	1
+若/CS[ruò | if]	生	若	4406	1
+樂/VV[lè | joy]	世	樂	3931	1
+悉/AD[xī | all]	如來	悉	30467	1
+若/CS[ruò | if]	如來	若	4406	1
+忍辱波羅蜜/NR[rěnrǔ bōluómì | ksanti-paramita]	非	忍辱波羅蜜	29506	1
+如來/NR[Rúlái | Tathagata]	擔	如來	6686	1
+佛法/NR[Fófǎ | Dhárma]	非	佛法	3165	1
+戒/NN[jiè | a precept]	持	戒	14936	1
+再/AD[zài | again]	內	再	368	1
+佛/NR[Fó | Buddha]	謗	佛	3618	1
+難/VA[nán | difficult]	為	難	1207	1
+相/NN[xiāng | a sign]	住	相	32237	1
+不可思議/VA[bù kě sīyì | inconceivable]	亦	不可思議	7158	1
+第一/OD[dì yī | first]	卷	第一	394	1
+故/CC[gù | so]	說	故	14849	1
+壽命/NN[shòumìng | life span]	佛	壽命	6239	1
+無/VE[wú | to not have]	國	無	13465	1
+邪/VA[xié | demonic]	諸	邪	7185	1
+動/VV[dòng | to move]]	不	動	1481	1
+四天王/NR[Sì Tiānwáng | Four Deva Kings]	第一	四天王	27439	1
+宣/VV[xuān | to declare]	音	宣	8519	1
+而/CC[ér | and]	世尊	而	1336	1
+遙/VA[yáo | distant]	采女	遙	13575	1
+有/VE[yǒu | to have]	以為	有	32458	1
+動/VV[dòng | to move]	吹	動	1481	1
+僧/NN[sēng | monk]	大	僧	3366	1
+方/NN[fāng | direction]	謗	方	3382	1
+諸/DT[zhū | all]	輿	諸	3556	1
+微塵/NN[wēichén | an atom]	說	微塵	32464	1
+音/NN[yīn | sound]	微妙	音	2413	1
+語/VV[yǔ | to speak]	誑	語	5966	1
+如/CS[rú | if]	者	如	2567	1
+色/NN[sè | form]	有	色	5052	1
+六/OD[liù | sixth]	若	六	33461	1
+池/NN[chí | pool]	七寶	池	8705	1
+染/VV[rǎn | pursue]	不	染	3945	1
+覺知/NN[juézhī | awareness]	第三	覺知	3897	1
+以/P[yǐ | because of]	即	以	30648	1
+灑/VV[sǎ | to sprinkle]	掃	灑	7298	1
+知/VV[zhī | to know]	人	知	3896	1
+智慧/NN[zhìhuì | wisdom]	增長	智慧	3928	1
+空/VA[kōng | empty]	皆	空	3876	1
+受持/VV[shòuchí | to accept and maintain faith]	中	受持	6887	1
+若/CS[ruò | if]	者	若	4406	1
+何/DT[hé | what]	佛	何	3087	1
+佛/NR[Fó | Buddha]	阿閦鞞	佛	3618	1
+知識/NN[zhīshi | acquaintance]	所	知識	17622	1
+都市/NN[dūshì | city]	於	都市	14514	1
+不/AD[bù | not]	信	不	502	1
+無/VE[wú | to not have]	界	無	13465	1
+依/VV[yī | maintain]	佛	依	5081	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	善法	者	671	1
+仙人/NN[xiānrén | a sage]	忍辱	仙人	7150	1
+少/VA[shǎo | few]	阿	少	1449	1
+說/VV[shuō | to say]	又	說	412	1
+諸天/NN[zhūtiān | devas]	其中	諸天	27530	1
+行/VV[xíng | to do]	佛	行	11499	1
+引/VV[yǐn | to recruit]	每	引	33882	1
+發願/VV[fā yuàn | to make a vow]	當	發願	20352	1
+復/AD[fù | again]	無	復	4048	1
+晨/NN[chén | morning]	遍	晨	4089	1
+以/P[yǐ | to use]	花	以	651	1
+六/OD[liù | sixth]	為	六	33461	1
+罪報/NN[zuìbào | retribution]	是	罪報	30884	1
+從/P[cóng | from]	即	從	1383	1
+眾生/NN[zhòngshēng | a being]	無量	眾生	3180	1
+布施/NN[bùshī | dana]	法	布施	3941	1
+實相/NN[shíxiàng | true appearance]	是	實相	19631	1
+人身/NN[rénshēn | a person's life, health, activities, etc]	說	人身	15890	1
+合成/VV[héchéng | to compose]	頗梨	合成	11360	1
+章句/NN[zhāng jù | words]	說	章句	33218	1
+釋提桓因/NR[Shìtíhuányīn | Sakra]	及	釋提桓因	20318	1
+八/CD[bā | eight]	以前	八	308	1
+時而/AD[shí ér | sometimes]	夜半	時而	16029	1
+未來/NN[wèilái | future]	於	未來	2851	1
+日/NN[rì | day]	七	日	8319	1
+看病/VV[kànbìng | to see a doctor]	師	看病	1210	1
+獄/NN[yù | prison]	陰界	獄	3917	1
+離/VV[lí | to leave]	是	離	3222	1
+我/NN[wǒ | self]	復	我	32344	1
+令/VV[lìng | to make]	欲	令	3958	1
+覺悟/NN[juéwù | awareness]	第七	覺悟	3861	1
+乘/NN[chéng | vehicle]	大	乘	33272	1
+往生/NN[wǎng shēng | a future life]	得	往生	19662	1
+訖/VV[qì | to finish]	像	訖	6618	1
+邊/NN[biān | boundary]	有	邊	3121	1
+生死/NR[Shēngsǐ | Sansara]	愚癡	生死	18496	1
+深/VA[shēn | profound]	行	深	13170	1
+太宗/NR[Tàizōng | Tai Zong]	太祖	太宗	33872	1
+種種/M[zhǒngzhǒng | all kinds of]	見	種種	7155	1
+三千大千世界/NN[sān qiān dà qiān shìjiè | a great chiliocosm]	數	三千大千世界	26967	1
+母/NN[mǔ | mother]	出	母	4262	1
+於/P[yú | in]	則	於	1710	1
+來/VV[lái | to come]	無	來	370	1
+用/VV[yòng | to use]	所以	用	721	1
+三千大千世界/NN[sān qiān dà qiān shìjiè | a great chiliocosm]	以	三千大千世界	26967	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	佛法	者	671	1
+所在/NN[suǒzài | place]	經典	所在	6319	1
+爾/PN[ěr | thus]	恒	爾	3811	1
+無上正覺/NR[Wú shàng zhèng jué | Anuttara bodhi]	成	無上正覺	20992	1
+忍辱/VV[rěnrǔ | to tolerate disgrace and insult]	作	忍辱	27320	1
+止/VV[zhǐ | to stop]	風	止	4426	1
+能/VV[néng | can]	盡	能	1263	1
+千/CD[qiān | one thousand]	僧	千	314	1
+滅度/VV[mièdù | to extinguish worries and the sea of grief]	當	滅度	6697	1
+等/VV[děng | to be equal]	等	等	18604	1
+車/NN[chē | vehicle]	檀	車	3966	1
+滅度/VV[mièdù | to extinguish worries and the sea of grief]	如是	滅度	6697	1
+無非/AD[wúfēi | nothing but]	亦	無非	16308	1
+阿/FW[ā | a]	南無	阿	33534	1
+四/CD[sì | four]	若	四	304	1
+音/NN[yīn | sound]	雅	音	2413	1
+菩提/NN[pútí | bodhi]	七	菩提	3174	1
+種/NN[zhǒng | kind]	而	種	1590	1
+汝/PN[rǔ | you]	如	汝	6690	1
+金玉/NN[jīn yù | gold and jade]	用	金玉	27869	1
+我/PN[wǒ | I]	知	我	321	1
+無/VE[wú | to not have]	國土	無	13465	1
+充滿/VV[chōngmǎn | to fill to capacity]	水	充滿	1662	1
+般涅槃/VA[Bān Nièpán | parinirvana]	時而	般涅槃	28089	1
+須陀洹/NR[Xūtuóhuán | Sotapanna]	名	須陀洹	27417	1
+利益/NN[lìyì | benefit]	為	利益	1173	1
+檀/NN[tán | sandal wood]	作	檀	9140	1
+佛/NR[Fó | Buddha]	莊嚴	佛	3618	1
+文殊師利法王子/NR[Wénshū Shī lì Fǎ Wángzǐ | Dharma Prince Manjusri]	摩訶薩	文殊師利法王子	20313	1
+莎婆訶/FW[shā pó hē | svāhā]	隸	莎婆訶	32094	1
+西方/NR[Xīfāng | the West]	是	西方	3609	1
+分/NN[fèn | a part]	八聖道	分	1429	1
+無色/VA[wúsè | formless]	若	無色	32114	1
+曼陀羅/NN[màntuóluó | mandarava flower]	雨	曼陀羅	20333	1
+盛/VV[chéng | to fill]	裓	盛	3496	1
+命/NN[mìng | life]	臨	命	4838	1
+彩畫/NN[cǎihuà | a color painting]	然後	彩畫	31536	1
+希有/VA[xīyǒu | uncommon]	甚為	希有	8844	1
+無/VE[wú | to not have]	法	無	13465	1
+恒河/NR[Hénghé | Ganges River]	一	恒河	33257	1
+龕/NN[kān | a niche]	作	龕	18341	1
+無餘涅槃/NR[Wú Yú Nièpán | Remainderless Nirvāṇa]	於	無餘涅槃	32165	1
+心/NN[xīn |  heart]	佛	心	1849	1
+實/AD[shí | truly]	眾生	實	33246	1
+大/VA[dà | large]	十四	大	1114	1
+起/VV[qǐ | to arise]	自	起	1257	1
+黃/VA[huáng | yellow]	黃色	黃	33514	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	大乘	者	671	1
+道/NN[dào | the path leading to the cessation of suffering]	學	道	28900	1
+不/AD[bù | not]	外國	不	502	1
+迦/FW[jiā | jia]	多	迦	6564	1
+各/DT[gè | each]	居士	各	282	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	信	者	671	1
+云/VV[yún | to say]	人	云	3399	1
+相/NN[xiāng | a sign]	取	相	32237	1
+世界/NN[shìjiè | world]	有	世界	363	1
+般羅揭帝/FW[bānluójiēdì | paragate]	揭帝	般羅揭帝	33062	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	相	者	671	1
+及其/CC[jíqí | as well as]	壽命	及其	1503	1
+華/NN[huá | a flower]	散	華	30597	1
+而/CC[ér | and]	恭敬	而	1336	1
+住/VV[zhù | to dwell]	心	住	747	1
+水/NN[shuǐ | water]	功德	水	1609	1
+實/AD[shí | truly]	生	實	33246	1
+地/NN[dì | ground]	布	地	803	1
+復/AD[fù | again]	分	復	4048	1
+一/CD[yī | one]	乃至	一	301	1
+此/DT[cǐ | this]	唯	此	624	1
+八/CD[bā | eight]	如此	八	308	1
+衣缽/NN[yībō | the cassock and alms bowl of a monk]	收	衣缽	22068	1
+出/VV[chū | to go out]	始	出	275	1
+罪/NN[zuì | an offense]	無量	罪	3869	1
+巷陌/NN[xiàngmò | an alley]	莊嚴	巷陌	33696	1
+也/MSP[yě | a final modal particle indicating certainy or decision]	七	也	8853	1
+相/NN[xiāng | a notion]	無法	相	32443	1
+衆/VA[zhòng | many]	散	衆	33692	1
+瑩/NN[Yíng | the luster of gems]	彫	瑩	5154	1
+請/VV[qǐng | to ask]	來	請	279	1
+號/NN[hào | a name]	是故	號	30521	1
+自/PN[zì | oneself]	者	自	2808	1
+魔/NN[mó | evil]	若	魔	3176	1
+亂/VV[luàn | to confuse]	不	亂	33528	1
+緣/NN[yuán | cause]	惡	緣	3310	1
+作/VV[zuò | to do]	應	作	375	1
+非/VC[fēi | not]	若	非	33285	1
+二/CD[èr | two]	高	二	302	1
+凡夫/NN[fánfū | an ordinary person]	非	凡夫	30767	1
+生/VV[shēng | born]	太子	生	3220	1
+生/VV[shēng | to be born]	自然	生	3220	1
+即/VV[jí | the same as]	色	即	8512	1
+則/CS[zé | expresses contrast with a previous sentence or clause]	說	則	1337	1
+地/NR[dì | Earth]	時	地	30487	1
+樹/NN[shù | tree]	行	樹	2647	1
+則/CS[zé | expresses contrast with a previous sentence or clause]	心	則	1337	1
+種/NN[zhǒng | kind]	所	種	1590	1
+名/VV[míng | to be called]	佛	名	33237	1
+所見/NN[suǒjiàn | what one seen]	無	所見	23021	1
+作/VV[zuò | to do]	不	作	375	1
+有/VV[yǒu | is]	心	有	398	1
+寺/NN[sì | temple]	平	寺	3620	1
+得/VV[dé | to obtain]	即	得	1459	1
+斷/AD[duàn | absolutely]	永	斷	789	1
+曾/AD[céng | once]	未	曾	4730	1
+乞食/VV[qǐshí | to beg]	舍衛大城	乞食	6614	1
+步/NN[bù | step]	七	步	915	1
+盡/VV[jìn | exhaust]	無明	盡	2404	1
+生/VV[shēng | born]	普	生	3220	1
+一切/DT[yīqiè | all]	名為	一切	1490	1
+持/VV[chí | to grasp]	七寶	持	1799	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	日	者	671	1
+善法/NN[shànfǎ | a pure dhárma]	名	善法	21317	1
+一切/PN[yīqiè | all]	修	一切	1490	1
+佛塔/NN[fótǎ | a pagoda]	如	佛塔	24348	1
+奉持/VV[fèngchí | to practice]	云何	奉持	22141	1
+停/VV[tíng | to stop]	像	停	3268	1
+是/PN[shì | this]	微塵	是	17908	1
+隸/FW[lì | li]	迦	隸	33551	1
+善法/NN[shànfǎ | a pure dhárma]	一切	善法	21317	1
+種/NN[zhǒng | kind]	十二	種	1590	1
+佛/NR[Fó | Buddha]	日月燈	佛	3618	1
+生/VV[shēng | grow]	不	生	3220	1
+日/NN[rì | day]	六	日	8319	1
+三惡道/NR[Sān è Dào | Three Lower Realms]	尚無	三惡道	18530	1
+可/VV[kě | can]	如來	可	948	1
+言/VV[yán | to speak]	如是	言	3512	1
+第一/OD[dì yī | first]	說	第一	394	1
+春/NN[chūn | spring]	以	春	5342	1
+心/NN[xīn | mind]	乘	心	17993	1
+非/VC[fēi | not]	想	非	33285	1
+出/VV[chū | to go out]	六時	出	275	1
+莊嚴/VV[zhuāngyán | to adorn]	菩薩	莊嚴	32457	1
+大/VA[dà | big]	空中	大	1114	1
+餘/VA[yú | surplus]	十	餘	927	1
+師/NN[shī | expert]	毉	師	3721	1
+爐/NN[lú | a stove]	投	爐	11898	1
+還/VV[huán | to return]	乃	還	16222	1
+顛倒/VV[diāndǎo | to turn upside-down]	不	顛倒	5092	1
+純/VA[chún | pure]	底	純	954	1
+不/AD[bù | not]	人	不	502	1
+上/VA[shàng | above]	其	上	584	1
+香火/VV[xiānghuǒ | to burn incense]	然	香火	18077	1
+願/NN[yuàn | a vow]	菩薩	願	30499	1
+滿/VV[mǎn | to fill]	七寶	滿	17778	1
+智/NN[zhì | wisdom]	無	智	3927	1
+座/NN[zuò | seat]	從	座	405	1
+住/VV[zhù | to dwell]	有	住	747	1
+人/NN[rén | person]	如是	人	399	1
+劫/NN[jié | kalpa]	十	劫	18584	1
+伎樂/NN[jìyuè | a musician]	倡	伎樂	27116	1
+為/P[wèi | for]	廣	為	372	1
+無量/VA[wúliàng | unlimited]	苦惱	無量	20347	1
+復/AD[fù | again]	岸	復	4048	1
+盛/VA[shèng | prosperous]	富	盛	3498	1
+無量壽佛/NR[Wúliàng Shòu Fó | Amitayus Buddha]	有	無量壽佛	20364	1
+莊嚴/VV[zhuāngyán | to adorn]	車	莊嚴	32457	1
+不/AD[bù | not]	非	不	502	1
+地/FW[dì | di]	哆	地	33541	1
+婆/FW[pó | po]	都	婆	33537	1
+佛/NR[Fó | Buddha]	一	佛	3618	1
+力/NN[lì | power]	五	力	972	1
+有/VE[yǒu | to have]	非	有	32458	1
+諸/DT[zhū | all]	與	諸	3556	1
+以/CC[yǐ | so as to]	皆	以	650	1
+求/VV[qiú | to seek]	多	求	30924	1
+是/VC[shì | is]	慧	是	277	1
+止/VV[zhǐ | to stop]	水	止	4426	1
+無主/NN[wú zhǔ | impermanence]	虛偽	無主	21242	1
+重/VA[zhòng | heavy]	四	重	3279	1
+木/NN[mù | wood]	則	木	2646	1
+信/VV[xìn | to believe]	實	信	3091	1
+諸/DT[zhū | all]	知	諸	3556	1
+上/VA[shàng | above]	城門	上	584	1
+說/VV[shuō | to say]	眾生	說	412	1
+大/VA[dà | big]	為	大	1114	1
+生/VV[shēng | to be born]	所	生	3220	1
+時/AD[shí | at that time]	般涅槃	時	31047	1
+人民/NN[rénmín | people]	及其	人民	1117	1
+往生/NN[wǎng shēng | a future life]	說	往生	19662	1
+墮/VV[duò | degenerate]	應	墮	33388	1
+平/VA[píng | flat]	天	平	5361	1
+惡人/NN[èrén | evil-doer]	憎	惡人	22087	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	眾生	者	671	1
+許/VV[xǔ | to allow]	疋	許	4571	1
+毒/NN[dú | poison]	生	毒	2452	1
+虛/NN[xū | void]	無	虛	31896	1
+真是/VA[zhēnshì | really]	名	真是	13757	1
+福德/NN[fúdé | merit]	其	福德	19571	1
+所/PN[suǒ | it]	如	所	17100	1
+安養/NR[ānyǎng | Western Pure Land]	生	安養	33552	1
+此/DT[cǐ | this]	名	此	624	1
+解/VV[jiě | to divide]	支	解	6659	1
+入/VV[rù | to enter]	人	入	916	1
+樂/VV[lè | to take joy in]	若	樂	3931	1
+始/VV[shǐ | to begin]	若	始	3572	1
+以/VV[yǐ | to use]	亦	以	17176	1
+煩惱/NN[fánnǎo | affliction]	破	煩惱	28012	1
+有/VE[yǒu | to have]	何況	有	32458	1
+好/VA[hǎo | good]	性	好	285	1
+於/P[yú | in]	持	於	1710	1
+恨/NN[hèn | anger]	瞋	恨	33264	1
+語/VV[yǔ | to speak]	異	語	5966	1
+常/AD[cháng | frequently]	像	常	3858	1
+腹/NN[fù | abdomen]	心	腹	14758	1
+眾生/NN[zhòngshēng | a being]	無邊	眾生	3180	1
+聲聞/NR[shēngwén | Sravaka]	無邊	聲聞	20517	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	修福	者	671	1
+畢/VV[bì | to exhaust]	將	畢	30872	1
+天/NN[tiān | a deva]	尊	天	13326	1
+五欲/NR[wŭ yù | the five desires]	捨離	五欲	33337	1
+世界/NN[shìjiè | world]	下方	世界	363	1
+為/VC[wèi | is]	當	為	13414	1
+阿羅漢/NR[Āluóhàn | Arhat]	若	阿羅漢	6892	1
+虛空/VA[xūkōng | void]	上下	虛空	26607	1
+離/VV[lí | to leave]	漸	離	3222	1
+供給/VV[gōngjǐ | to furnish]	種種	供給	9109	1
+為/P[wèi | for]	若	為	372	1
+冠/NN[guān | crown]	服	冠	8928	1
+誦/VV[sòng | to recite]	三藏	誦	4060	1
+須彌山/NR[xūmí Shān | Mount Sumeru]	諸	須彌山	6903	1
+節/NN[jié | piece]	節	節	33263	1
+諸/PN[zhū | all]	但	諸	3556	1
+分/NN[fèn | a part]	菩提	分	1429	1
+躍/VV[yuè | to jump]	踐	躍	877	1
+之/PN[ zhī | this]	言	之	30898	1
+枝/NN[zhī | branch]	楊	枝	8415	1
+彌/FW[mí | mi]	伽	彌	33535	1
+世/NN[shì | life]	所	世	809	1
+福德/NN[fúdé | merit]	根	福德	19571	1
+寶/NN[bǎo | a jewel]	諸	寶	3707	1
+共/AD[gòng | all together]	佛	共	2588	1
+不/AD[bù | not]	如	不	502	1
+為/P[wèi | for]	有	為	372	1
+住/VV[zhù | to dwell]	如是	住	747	1
+廟/NN[miào | temple]	佛塔	廟	7123	1
+會/VV[huì | can]	俱	會	567	1
+最/AD[zuì | most]	中	最	945	1
+布施/NN[bùshī | dana]	相	布施	3941	1
+金/NN[jīn | gold]	作	金	3371	1
+行/VV[xíng | to move]	一日	行	1260	1
+城邑/NN[chéngyì | a city]	國	城邑	24385	1
+生/VV[shēng | to develop]	能	生	30580	1
+言/VV[yán | to speak]	而	言	3512	1
+裓/NN[gé | clothes worn by a monk]	衣	裓	20334	1
+大/VA[dà | big]	畢竟	大	1114	1
+俱/AD[jū | together]	大眾	俱	33065	1
+勞/VA[láo | weary]	疲	勞	31722	1
+佛/NR[Fó | Buddha]	摩	佛	3618	1
+城/NN[chéng | a city]	其	城	947	1
+則/CS[zé | expresses contrast with a previous sentence or clause]	世尊	則	1337	1
+說/VV[shuō | to say]	言	說	412	1
+眾生/NN[zhòngshēng | a being]	名	眾生	3180	1
+所/PN[suǒ | it]	罪報	所	17100	1
+生/VV[shēng | to develop]	如是	生	30580	1
+以/CC[yǐ | so as to]	亦	以	650	1
+道俗/NN[dàosú | layperson]	境內	道俗	18454	1
+實/VA[shí | real]	為	實	3386	1
+之/PN[zhī | him]	滅度	之	730	1
+名/VV[míng | to be called]	斯陀含	名	33237	1
+恭敬/VA[gōngjìng | deferential]	合掌	恭敬	6652	1
+二/CD[èr | two]	佛	二	302	1
+地/NR[dì | the Earth]	夫	地	30487	1
+具足/VA[jùzú | perfect]	名	具足	29304	1
+如是/PN[rúshì | so]	得	如是	8840	1
+一/CD[yī | one]	會	一	301	1
+生死/NR[Shēngsǐ | Saṃsāra]	還	生死	18496	1
+昔/VA[xī | long ago]	如來	昔	6898	1
+尚無/AD[shàng wú | not yet]	國土	尚無	23638	1
+感/VV[gǎn | to touch]	夢	感	1447	1
+以致/CC[yǐzhì | so that]	花	以致	13620	1
+不/AD[bù | not]	詭譎	不	502	1
+來世/NN[lái shì | future worlds]	當	來世	20981	1
+是/VC[shì | is]	心	是	277	1
+一切/DT[yīqiè | all]	是	一切	1490	1
+伎/NN[jì | a skill]	奇	伎	27115	1
+福德/NN[fúdé | merit]	非	福德	19571	1
+死/VV[sǐ | to die]	有	死	3880	1
+於/P[yú | in]	冠	於	1710	1
+菩提/NN[pútí | bodhi]	般羅僧揭帝	菩提	3174	1
+取/VV[qǔ | to take]	應	取	3026	1
+少/VA[shǎo | few]	起	少	1449	1
+所得/NN[suǒdé | what one acquires]	菩薩	所得	5078	1
+出/VV[chū | to go out]	星	出	275	1
+不可/VV[bù kě | cannot]	皆	不可	8863	1
+有/VV[yǒu | is]	菩薩	有	398	1
+所/PN[suǒ | it]	世人	所	17100	1
+戟/NN[jǐ | a halberd]	揠	戟	31032	1
+爲/P[wèi | because of]	一日	爲	17120	1
+無量/VA[wúliàng | unlimited]	光明	無量	20347	1
+過去/NN[guòqu | (in the) past]	念	過去	1068	1
+勿/AD[wù | do not]	等	勿	6359	1
+乃至/AD[nǎizhì | and even]	阿耨多羅三藐三菩提	乃至	5074	1
+不/AD[bù | no]	寒	不	502	1
+實/AD[shí | truly]	無	實	33246	1
+及/CC[jí | and]	比丘尼	及	962	1
+墜落/VV[zhuìluò | to fall]	懈怠	墜落	33334	1
+車/NN[chē | carriage]	輪	車	3966	1
+跛/VV[bǒ | to limp]	殘	跛	29124	1
+三千大千世界/NN[sān qiān dà qiān shìjiè | a great chiliocosm]	說	三千大千世界	26967	1
+阿彌陀佛/NR[Āmítuó Fó | Amitabha Buddha]	聞說	阿彌陀佛	2891	1
+非/VC[fēi | not]	取	非	33285	1
+成佛/VV[chéng Fó | to become a Buddha]	時	成佛	21014	1
+漱/VV[shù | to rinse one's mouth with water]	澡	漱	19824	1
+塔/NN[tǎ | a pagoda]	如	塔	3374	1
+銹/NR[Xiù | Xiu]	寺	銹	33553	1
+法/NN[fǎ | a dhárma]	阿耨多羅三藐三菩提	法	17994	1
+阿彌陀/NR[Āmítuó | Amitabha]	往生	阿彌陀	20320	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	觀	者	671	1
+華/NN[huá | a flower]	衆	華	30597	1
+空/NN[kōng | emptiness]	苦	空	17657	1
+沙/NN[shā | sand]	其	沙	3729	1
+舍/NN[shè | residence]	耶	舍	4053	1
+生/VV[shēng | to be born]	眾生	生	3220	1
+夜/FW[yè | ye]	哆	夜	33538	1
+侍/VV[shì | to attend on]	立	侍	16068	1
+大/VA[dà | big]	及	大	1114	1
+立/VV[lì | stand]	菩薩	立	3784	1
+親/VA[qīn | personally]	帝	親	33892	1
+割/VV[gē | to cut off]	歌利王	割	7143	1
+世界/NN[shìjiè | world]	說	世界	363	1
+阿那含/NR[Anàhán | Anagamin]	名	阿那含	27415	1
+樂/VV[lè | to take joy in]	願	樂	3931	1
+念/VV[niàn | to read aloud]	我	念	3905	1
+從/P[cóng | from]	法師	從	1383	1
+紀/VV[jì | to record]	不可	紀	5385	1
+奢靡/VA[shēmí | extravagant]	巧	奢靡	21377	1
+訖/VV[qì | to finish]	乃	訖	6618	1
+名為/VV[míngwèi | to be called]	阿那含	名為	30937	1
+有/VE[yǒu | to have]	人	有	32458	1
+奇妙/VA[qímiào | fantastic]	種種	奇妙	13285	1
+日/NN[rì | day]	五	日	8319	1
+十萬/CD[shí wàn | one hundred thousand]	方	十萬	28368	1
+都/FW[dū | du]	聲	都	33544	1
+無/AD[wú | no]	非	無	1843	1
+一/CD[yī | one]	是	一	301	1
+本/AD[běn | originally]	經	本	10480	1
+燒香/VV[shāoxiāng | to burn incense]	華	燒香	9113	1
+名為/VV[míngwèi | to be called]	須陀洹	名為	30937	1
+從/P[cóng | from]	翼	從	1383	1
+非/VC[fēi | not]	相	非	33285	1
+夜/FW[yè | ye]	婆	夜	33538	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	音	者	671	1
+飾/VV[shì | to decorate]	嚴	飾	3585	1
+同時/AD[tóngshí | at the same time]	樂	同時	958	1
+也/MSP[yě | a final modal particle indicating certainy or decision]	五	也	8853	1
+五/CD[wŭ | five]	若	五	305	1
+信/VV[xìn | to believe]	有	信	3091	1
+顛倒/VV[diāndǎo | to turn upside-down]	遠離	顛倒	5092	1
+七寶/NR[qī bǎo | the Seven Treasures]	等	七寶	26512	1
+佛/NR[Fó | Buddha]	名聞光	佛	3618	1
+則/CS[zé | expresses contrast with a previous sentence or clause]	擾	則	1337	1
+化生/NN[huàshēng | a symbol of birth]	若	化生	26533	1
+不/AD[bù | not]	生	不	502	1
+是/VV[shì | is exactly]	則	是	13237	1
+不/AD[bù | not]	垢	不	502	1
+偈/NN[jì | gatha]	說	偈	6888	1
+那由他/NN[nàyóutā | a nayuta]	萬億	那由他	30548	1
+初/AD[chū | at first]	菩薩	初	2939	1
+最上/VA[zuìshàng | supreme]	成就	最上	33271	1
+無/VE[wú | to not have]	是	無	13465	1
+佛像/NN[fóxiàng | figure, statue, or image of a Buddha]	諸	佛像	3756	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	持	者	671	1
+眼界/NN[yǎnjiè | sight]	無	眼界	5070	1
+則/CS[zé | expresses contrast with a previous sentence or clause]	人	則	1337	1
+輿/NN[yú | carriage]	日	輿	3702	1
+名為/VV[míngwèi | to be called]	法	名為	30937	1
+安/VA[ān | content]	得	安	3906	1
+實/VA[shí | true]	世界	實	3386	1
+佛/NR[Fó | Buddha]	數	佛	3618	1
+足/VV[zú | to attain]	不	足	33261	1
+從來/AD[cónglái | always]	所	從來	3105	1
+作/VV[zuò | to do]	阿羅漢	作	375	1
+未/AD[wèi | not yet]	氣	未	2188	1
+勝/VV[shèng | to surpass]	福德	勝	5284	1
+畢/VV[bì | exhaust]	悉	畢	30872	1
+念/VV[niàn | to remember]	又	念	8394	1
+得/VV[dé | to obtain]	今	得	1459	1
+善法/NN[shànfǎ | a pure dhárma]	非	善法	21317	1
+恐怖/VA[kǒngbù | horrifying]	有	恐怖	5086	1
+須菩提/NR[Xūpútí | Subhūti]	慧命	須菩提	6645	1
+人/NN[rén | person]	諸	人	399	1
+是/PN[shì | this]	如來	是	17908	1
+覺知/NN[juézhī | awareness]	第二	覺知	3897	1
+亦/AD[yì | also]	分	亦	5060	1
+解飛/NR[Jiěfēi | Jiefei]	亦	解飛	33622	1
+之/PN[zhī | it]	停	之	730	1
+真實/VA[zhēnshí | true]	苦	真實	5109	1
+我/NN[wǒ | self]	知	我	32344	1
+頂/NN[dǐng | head]	其	頂	5679	1
+日/NN[rì | day]	一	日	8319	1
+明/VA[míng | clear]	大	明	3062	1
+平等/VA[píngděng | equal]	法	平等	7182	1
+故/CC[gù | so]	義	故	14849	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	生	者	671	1
+代/VV[dài | to represent]	願	代	3962	1
+無/VE[wú | to not have]	以	無	13465	1
+經/NN[jīng | a sūtra]	之	經	3167	1
+利/NN[lì | advantage]	是	利	3673	1
+學/NN[xué | study]	大乘	學	11115	1
+華/NN[huà | a flower]	諸	華	30597	1
+說/VV[shuō | to say]	是	說	412	1
+四/CD[sì | four]	四月	四	304	1
+念/NN[niàn | idea]	不	念	30159	1
+生/NN[shēng | life]	我	生	11495	1
+信解/VV[xìnjiě | to believe with confidence]	如是	信解	21940	1
+其/PN[qí | that]	常住	其	1574	1
+則/CS[zé | expresses contrast with a previous sentence or clause]	止	則	1337	1
+盡/VV[jìn | exhaust]	老死	盡	2404	1
+羅網/NN[luówǎng | a net]	重	羅網	20345	1
+前/PN[qián | former]	於	前	13069	1
+賢/VV[xián | to be worthy]	一切	賢	6722	1
+三/CD[sān | three]	高	三	303	1
+樂/VV[lè | to take joy in]	天	樂	3931	1
+多/VA[duō | many]	貧苦	多	401	1
+實相/NN[shíxiàng | the actual situation]	生	實相	19631	1
+與/CC[yǔ | and]	得	與	509	1
+明/VA[míng | clear]	日光	明	3062	1
+一日/NN[yī rì | first of the month]	四月	一日	33706	1
+長老/NN[zhǎnglǎo | an elder]	告	長老	6643	1
+中/LC[zhōng | in]	池	中	32951	1
+西北/NN[xīběi | northwest]	南	西北	9367	1
+是/PN[shì | this]	我	是	17908	1
+罪/NN[zuì | sin]	殃	罪	3869	1
+中/P[zhōng | in]	人	中	32951	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	過	者	671	1
+菩薩/NN[púsà | bodhisattva]	常精進	菩薩	3166	1
+疋/NN[shū | foot]	二	疋	33752	1
+性命/NN[xìngmìng | life]	捨	性命	16436	1
+止/VV[zhǐ | stop]	車	止	4426	1
+如/VV[rú | to follow]	如	如	33143	1
+有人/PN[yǒurén | a person]	何況	有人	32987	1
+無量/VA[wúliàng | unlimited]	等	無量	20347	1
+福德/NN[fúdé | merit]	立	福德	19571	1
+名/VV[míng | to be called]	則	名	33237	1
+唯/AD[wéi | only]	天下	唯	8883	1
+不/AD[bù | not]	佛眼	不	502	1
+是/PN[shì | this]	從	是	17908	1
+多/AD[duō | more]	得	多	402	1
+所/PN[suǒ | it]	之	所	17100	1
+音聲/NN[yīnshēng | sound]	以	音聲	21189	1
+實/AD[shí | truly]	鳥	實	33246	1
+有/VV[yǒu | is]	非	有	398	1
+清淨/VA[qīngjìng | peaceful]	信心	清淨	27397	1
+有/VE[yǒu | to have]	國土	有	32458	1
+入/VV[rù | to enter]	不	入	916	1
+伽/FW[jiā | ga]	膩	伽	6577	1
+狂亂/VA[kuángluàn | hysterical]	則	狂亂	7173	1
+十方/NR[Shí Fāng | Ten Directions]	照	十方	27646	1
+彼/PN[bǐ | that]	是故	彼	6890	1
+力/NN[lì | power]	試	力	972	1
+行/VV[xíng | to move]	車	行	1260	1
+臥/VV[wò | to lie]	若	臥	7193	1
+身/NN[shēn | body]	以	身	3898	1
+皆/AD[jiē | all]	我	皆	5046	1
+功德/NN[gōngdé | achievements and virtue]	佛	功德	7135	1
+義/NN[yì | meaning]	如	義	3613	1
+佛/NR[Fó | Buddha]	須彌相	佛	3618	1
+乃/AD[nǎi | thus]	夫人	乃	5071	1
+名曰/VV[míng yuē | to be named]	世界	名曰	31453	1
+於/P[yú | in]	成	於	1710	1
+山/NN[shān | mountain]	入	山	3122	1
+新/VA[xīn | new]	著	新	798	1
+和/VV[hé | together]	出	和	7845	1
+說/VV[shuō | to say]	是故	說	412	1
+厭足/VV[yànzú | to be satisfied]	無	厭足	33310	1
+眾生/NN[zhòngshēng | a being]	代	眾生	3180	1
+說/VV[shuō | to say]	而	說	412	1
+而/CC[ér | and]	住	而	1336	1
+阿耨多羅三藐三菩提/NN[ānòuduōluó sānmiǎo sānpútí | anuttara-samyak-sambodhi]	所得	阿耨多羅三藐三菩提	5104	1
+事/NN[shì | thing]	其	事	1219	1
+此/DT[cǐ | this]	說	此	624	1
+如/CS[rú | if]	應	如	2567	1
+義趣/NN[yìqù | meaning and purpose]	解	義趣	33259	1
+浴/VV[yù | to bathe]	以	浴	13666	1
+佛/NR[Fó | Buddha]	正是	佛	3618	1
+尊重/VV[zūnzhòng | to be honored]	若	尊重	7119	1
+菩薩/NN[púsà | bodhisattva]	真是	菩薩	3166	1
+受持/VV[shòuchí | to accept and maintain faith]	晝夜	受持	6887	1
+始/VV[shǐ | to begin]	爲	始	3572	1
+欲/NN[yù | desire]	少	欲	3889	1
+試/VV[shì | to test]	自	試	1006	1
+行/VV[xíng | to do]	寶	行	11499	1
+甚/AD[shén | extremely]	數	甚	17505	1
+則/CS[zé | expresses contrast with a previous sentence or clause]	伽藍	則	1337	1
+所有/PN[suǒyǒu | all]	恒河	所有	1049	1
+便/VA[biàn | ordinary]	裏	便	2282	1
+弟子/NN[dìzi | disciple]	聲聞	弟子	3172	1
+道路/NN[dàolù | road]	灑	道路	8173	1
+詣/VV[yì | one's current attainment in learning or art]	皆	詣	4083	1
+云何/PN[yúnhé | how]	我等	云何	29319	1
+阿僧祇/NN[āsēngzhǐ | asamkhyeya]	無量	阿僧祇	28659	1
+色/NN[sè | form]	無	色	5052	1
+所得/NN[suǒdé | what one acquires]	來	所得	5078	1
+光/NN[guāng | light]	白	光	1229	1
+華/NN[huá | a flower]	持	華	30597	1
+異/VA[yì | different]	之	異	5053	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	凡夫	者	671	1
+淨/VA[jìng | pure]	生	淨	3678	1
+佛法/NR[Fófǎ | Dhárma]	所謂	佛法	3165	1
+七/OD[qī | seventh]	為	七	33462	1
+與/CC[yǔ | and]	阿彌陀佛	與	509	1
+而/CC[ér | and]	馬瑙	而	1336	1
+出/VV[chū | to go out]	羅網	出	275	1
+解/VV[jiě | to understand]	深	解	33232	1
+去/VV[qù | to be apart from]	像	去	27842	1
+今/NN[jīn | today]	以	今	6691	1
+心/NN[xīn | mind]	諸	心	17993	1
+名號/NN[mínghào | name]	執持	名號	27367	1
+阿彌陀/NR[Āmítuó | Amitabha]	名	阿彌陀	20320	1
+銀/NN[yín | silver]	金	銀	2381	1
+相/NN[xiàng | a perception]	舌	相	32443	1
+外國/NN[wàiguó | foreign country]	本	外國	9173	1
+而/CC[ér | and]	無餘涅槃	而	1336	1
+夜/NN[yè | night]	通	夜	4071	1
+相/NN[xiāng | a sign]	非	相	32237	1
+兜率天/NR[Dōushuàitiān | Tusita]	從	兜率天	27045	1
+遵/VV[zūn | to follow]	亦	遵	4422	1
+阿閦鞞/NR[Āchùbī | Aksothya]	有	阿閦鞞	20354	1
+陰界/NR[yīn jiè | the five skandhas and the eighteen dhatu]	出	陰界	21666	1
+生/VV[shēng | to be born]	已	生	3220	1
+應/VV[yīng | ought]	尚	應	1242	1
+入流/NR[Rùliú | Sotapanna]	名為	入流	32840	1
+已/CS[yǐ | afterwards]	乞	已	30645	1
+於/P[yú | in]	行	於	1710	1
+然/VV[rán | burn]	熾	然	33339	1
+門/NN[mén | gate]	去	門	2137	1
+說/VV[shuō | to say]	汝	說	412	1
+法/NN[fǎ | a dharma]	令	法	17994	1
+阿彌陀佛/NR[Āmítuó Fó | Amitabha Buddha]	生	阿彌陀佛	2891	1
+生/VV[shēng | to develop]	不	生	30580	1
+布施/NN[bùshī | dana]	命	布施	3941	1
+法/NN[fǎ | teachings]	小	法	17994	1
+有/VV[yǒu | is]	為	有	398	1
+自然/AD[zìrán | naturally]	皆	自然	4585	1
+有/VV[yǒu | is]	其	有	398	1
+底/NN[dǐ | bottom]	池	底	1093	1
+因緣/NN[yīnyuán | principal and secondary causes]	福德	因緣	7179	1
+今/NN[jīn | today]	於	今	6691	1
+其/PN[qí | that]	莊校	其	1574	1
+高下/NN[gāoxià | better or worse]	有	高下	7183	1
+果/NN[guǒ | fruit]	阿那含	果	30482	1
+日/NN[rì | day]	十四	日	8319	1
+行者/NN[xíngzhě | an itinerant monk]	阿蘭那	行者	22105	1
+般羅僧揭帝/FW[bōluósēngjiēdì | parasamgate]	般羅揭帝	般羅僧揭帝	33063	1
+無色/VA[wúsè | no form]	意	無色	32114	1
+空/NN[kōng | emptiness]	法	空	17657	1
+無/VE[wú | to not have]	如來	無	13465	1
+無量/VA[wúliàng | unlimited]	有	無量	20347	1
+欲/NN[yù | desire]	等	欲	3889	1
+堵/NN[dǔ | wall]	如	堵	34679	1
+四魔/NR[sì mó | the four kinds of evil]	摧伏	四魔	21661	1
+醫藥/NN[yīyào | medicine]	福德	醫藥	16553	1
+諸天/NN[zhūtiān | devas]	無量	諸天	27530	1
+服/NN[fú | clothes]	異	服	4691	1
+能/VV[néng | can]	須陀洹	能	1263	1
+中/P[zhōng | in]	國土	中	32951	1
+應/VV[yīng | ought]	云何	應	1242	1
+可/VV[kě | can]	但	可	948	1
+即/AD[jí | promptly]	中	即	1964	1
+人/NN[rén | person]	與	人	399	1
+臨/VV[lín | to arrive]	門樓	臨	32083	1
+時/AD[shí | at that time]	城	時	31047	1
+說/VV[shuō | recite]	即	說	32460	1
+阿鞞跋致/NR[ābībázhì | Avaivartika]	是	阿鞞跋致	20350	1
+梵天/NR[Fàntiān | Brahma]	乃至	梵天	20553	1
+無我/NN[wúwǒ | selflessness]	通達	無我	3164	1
+出/VV[chū | to go out]	經	出	275	1
+振動/VV[zhèndòng | to shake]	大	振動	13761	1
+無量/VA[wúliàng | unlimited]	滅	無量	20347	1
+正覺/NN[zhèngjué | samadhi]	登	正覺	22335	1
+我/PN[wǒ | I]	稱說	我	321	1
+地/NN[dì | ground]	為	地	803	1
+三/CD[sān | three]	城	三	303	1
+不/AD[bù | not]	法眼	不	502	1
+供養/VV[gōngyàng | to provide offerings]	伎樂	供養	7122	1
+胎生/VV[tāishēng | to be born from a womb]	若	胎生	32700	1
+阿彌陀佛/NR[Āmítuó Fó | Amitabha Buddha]	是	阿彌陀佛	2891	1
+行/VV[xíng | move]	如	行	1260	1
+滅/VV[miè | to extinguish]	如來	滅	568	1
+三/CD[sān | three]	佛	三	303	1
+校/VV[xiào | decorate]	莊	校	31868	1
+界/NN[jiè | realm]	意識	界	28021	1
+世/NN[shì | life]	未來	世	809	1
+佛/NR[Fó | Buddha]	億	佛	3618	1
+迦/FW[jiā | jia]	毘	迦	6564	1
+佛/NR[Fó | Buddha]	請	佛	3618	1
+所/PN[suǒ | it]	菩薩	所	17100	1
+生/VV[shēng | to develop]	則	生	30580	1
+索/NN[suǒ | rope]	上	索	17763	1
+菩薩/NN[púsà | bodhisattva]	佛	菩薩	3166	1
+修福/VV[xiū fú | to do good deeds]	戒	修福	29481	1
+禮/VV[lǐ | to bow]	面	禮	33656	1
+乞/VV[qǐ | to beg]	次第	乞	6613	1
+有/VE[yǒu | to have]	可	有	32458	1
+冠/NN[guān | crown]	天	冠	8928	1
+法師/NN[fǎshī | Dharma Master]	銹	法師	11850	1
+於/P[yú | in]	坐	於	1710	1
+樂/VV[lè | to take joy in]	種	樂	3931	1
+虛空/VA[xūkōng | void]	於	虛空	26607	1
+諸/DT[zhū | all]	受	諸	3556	1
+名/VV[míng | to be called]	何	名	33237	1
+能/VV[néng | can]	章句	能	1263	1
+婆/FW[pó | po]	耽	婆	33537	1
+有/VE[yǒu | to have]	佛	有	32458	1
+一切/PN[yīqiè | all]	利益	一切	1490	1
+不/AD[bù | not]	阿耨多羅三藐三菩提	不	502	1
+佛/NR[Fó | Buddha]	繞	佛	3618	1
+恭敬/VA[gōngjìng | deferential]	應	恭敬	6652	1
+無量壽佛/NR[Wúliàng Shòu Fó | Amitayus Buddha]	佛說阿彌陀經	無量壽佛	20364	1
+悲泣/VV[bēiqì | to weep with grief]	涕淚	悲泣	7134	1
+電/NN[diàn | lightning]	如	電	33283	1
+有人/PN[yǒurén | someone]	若	有人	32987	1
+五百/CD[wŭ bǎi | five hundred]	後	五百	32930	1
+八/OD[bā | eighth]	為	八	33463	1
+大乘/NR[Dàchéng | Great Vehicle]	發	大乘	3616	1
+典/NN[diǎn | law]	經	典	3760	1
+三十二/CD[sān shí èr | thirty two]	說	三十二	32933	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	差	者	671	1
+衣/NN[yī | uppergarment]	以	衣	33079	1
+觀察/VV[guānchá | to observe]	如是	觀察	3871	1
+說/VV[shuō | to teach]	世間	說	32460	1
+則/CS[zé | expresses contrast with a previous sentence or clause]	然燈佛	則	1337	1
+弟子/NN[dìzi | disciple]	大	弟子	3172	1
+佛/NR[Fó | Buddha]	釋迦牟尼	佛	3618	1
+應/VV[yīng | should]	所	應	1242	1
+一日/NN[yī rì | first of the month]	則	一日	33706	1
+灌/VV[guàn | to pour]	水	灌	3733	1
+生/VV[shēng | to develop]	念	生	30580	1
+節/NN[jié | piece]	往昔	節	33263	1
+第一/OD[dì yī | first]	最上	第一	394	1
+咒/NN[zhòu | mantra]	無上	咒	5107	1
+有時/AD[yǒushí | sometimes]	風	有時	3547	1
+清淨/VA[qīngjìng | peaceful]	生	清淨	27397	1
+斯陀含/NR[Sītuóhán | Sakridagami]	名	斯陀含	27416	1
+缽/NN[bō | a bowl]	持	缽	3947	1
+為/VC[wèi | for]	當	為	13424	1
+為/P[wèi | for]	菩薩	為	372	1
+佛/NR[Fó | Buddha]	禮	佛	3618	1
+說/VV[shuō | to teach]	我	說	32460	1
+得/VV[dé | attain]	無	得	1459	1
+世界/NN[shìjiè | world]	上方	世界	363	1
+福德/NN[fúdé | merit]	所得	福德	19571	1
+歌利王/NR[Gēlì Wáng | Rajah of Kalinga]	為	歌利王	7142	1
+乘/NN[chéng | vehicle]	最上	乘	33272	1
+亦/AD[yì | also]	無明	亦	5060	1
+成就/VV[chéngjiù | to achieve]	得	成就	19245	1
+聽/VV[tīng | listen]	諦	聽	280	1
+集/NN[jí | desire]	皆	集	33060	1
+七寶/NR[qī bǎo | the Seven Treasures]	有	七寶	26512	1
+觀/VV[guān | to look at]	如是	觀	1702	1
+二/CD[èr | two]	若	二	302	1
+天下/NN[tiānxià | the whole world]	天上	天下	13329	1
+種種/M[zhǒngzhǒng | all kinds of]	有	種種	7155	1
+風/NN[fēng | wind]	微	風	2024	1
+說/VV[shuō | to say]	隨	說	412	1
+菩薩/NN[púsà | bodhisattva]	大	菩薩	3166	1
+般若波羅蜜/NN[Bōrěluómì | Prajñāpāramitā]	說	般若波羅蜜	7128	1
+尚/AD[shàng | still]	恒河	尚	1175	1
+晝夜/NN[zhòuyè | day and night]	何況	晝夜	4072	1
+覺悟/NN[juéwù | awareness]	第一	覺悟	3861	1
+真/VA[zhēn | true]	名	真	3348	1
+說/VV[shuō | to teach]	名	說	32460	1
+雅/VA[yǎ | elegant]	和	雅	7291	1
+從/P[cóng | from]	菩薩	從	1383	1
+即/AD[jí | promptly]	說	即	1964	1
+不/AD[bù | not]	現在	不	502	1
+故/CC[gù | so]	福德	故	14849	1
+不/AD[bù | not]	慧眼	不	502	1
+涅槃/NR[Nièpán | Nirvana]	究竟	涅槃	17983	1
+菩薩/NN[púsà | bodhisattva]	乾陀訶提	菩薩	3166	1
+四/CD[sì | four]	方	四	304	1
+中/P[zhōng | in]	於是	中	32951	1
+無/VE[wú | to not have]	礙	無	13465	1
+兔/NN[tù | rabbit]	少	兔	2616	1
+莊嚴/VV[zhuāngyán | to adorn]	當	莊嚴	32457	1
+福德/NN[fúdé | merit]	無量	福德	19571	1
+福德/NN[fúdé | merit]	以	福德	19571	1
+太祖/NR[tàizǔ | Taizu]	遵	太祖	22758	1
+伽/FW[jiā | ga]	他	伽	6577	1
+有/VV[yǒu | is]	而	有	398	1
+知/VV[zhī | to know]	故	知	3896	1
+言/VV[yán | to speak]	此	言	3512	1
+澡/VV[zǎo | wash]	夜	澡	33556	1
+阿羅漢/NR[Āluóhàn | Arhat]	皆	阿羅漢	6892	1
+障礙/NN[zhàngài | barrier]	所	障礙	1386	1
+持/VV[chí | to hold]	徒跣	持	1799	1
+恒河/NR[Hénghé | Ganges River]	滿	恒河	33257	1
+在/P[zài | in]	昔	在	328	1
+不/AD[bù | not]	色	不	502	1
+已/CS[yǐ | afterwards]	眾生	已	30645	1
+此/PN[cǐ | this]	當	此	624	1
+微塵/NN[wēichén | an atom]	諸	微塵	32464	1
+事/NN[shì | matter]	承	事	1219	1
+眾/NN[zhòng | multitude]	比丘	眾	16807	1
+丈/NN[zhàng | ten chi]	二	丈	33623	1
+無/AD[wú | no]	菩薩	無	1843	1
+雜/VA[zá | mixed]	湯	雜	2728	1
+大眾/NN[dàzhòng | assembly]	諸天	大眾	6644	1
+諸/DT[zhū | all]	彼	諸	3556	1
+明/VA[míng | bright]	夜半	明	3062	1
+若/CS[ruò | if]	女人	若	4406	1
+無/VE[wú | to not have]	法	無	13465	1
+俗人/NN[súrén | common people]	為	俗人	22108	1
+世界/NN[shìjiè | world]	若	世界	363	1
+各/DT[gè | each]	六時	各	282	1
+曰/VV[yuē | speak]	咒	曰	5110	1
+滅度/VV[mièdù | to extinguish worries and the sea of grief]	應	滅度	6697	1
+羅網/NN[luówǎng | a net]	寶	羅網	20345	1
+皆/AD[jiē | all]	法	皆	5046	1
+斯陀含/NR[Sītuóhán | Sakridagami]	得	斯陀含	27416	1
+極樂/NN[jílè | bliss]	名	極樂	20321	1
+第一/OD[dì yī | first]	成就	第一	394	1
+所得/NN[suǒdé | what one acquires]	人	所得	5078	1
+不/AD[bù | not]	沙	不	502	1
+佛/NR[Fó | Buddha]	須彌光	佛	3618	1
+須菩提/NR[xūpútí | Subhuti]	名	須菩提	6645	1
+得/VV[dé | to obtain]	唯	得	1459	1
+城門/NN[chéng mén | a city gate]	其	城門	25305	1
+大/VA[dà | great]	非	大	1114	1
+日/NN[rì | day]	二	日	8319	1
+上/VA[shàng | above]	諸	上	584	1
+處/NN[chù | a place]	本	處	2665	1
+旦/NN[dàn | dawn]	清	旦	6629	1
+念佛/VV[niàn fó | to pray to Buddha]	生	念佛	18348	1
+支/NN[zhī | a limb]	節	支	3576	1
+月/NN[yuè | month]	白	月	672	1
+花/NN[Huā | flower]	散	花	3076	1
+赤/VA[chì | red]	色	赤	33513	1
+生/VV[shēng | to develop]	佛	生	30580	1
+智慧/NN[zhìhuì | wisdom]	佛	智慧	3928	1
+也/MSP[yě | a final modal particle indicating certainy or decision]	紀	也	8853	1
+無/VE[wú | to not have]	則	無	13465	1
+仁義/NN[rén yì | benevolence and righteousness]	行	仁義	26886	1
+結/VV[jié | to bond]	橫	結	3938	1
+常/AD[cháng | always]	如來	常	3858	1
+談論/VV[tánlùn | to discuss]	共	談論	2709	1
+菩薩/NN[púsà | bodhisattva]	罪惡	菩薩	3166	1
+丈/NN[zhàng | ten chi]	廣	丈	33623	1
+大/VA[dà | big]	張	大	1114	1
+有/VE[yǒu | have]	無	有	32458	1
+道/NN[dào | the path leading to the cessation of suffering]	聖	道	28900	1
+樂/VV[lè | to take joy in]	諸	樂	3931	1
+般涅槃/VA[Bān Nièpán | parinirvana]	界	般涅槃	28089	1
+行/VV[xíng | to do]	最先	行	11499	1
+則/CS[zé | expresses contrast with a previous sentence or clause]	行	則	1337	1
+八/CD[bā | eight]	何等	八	308	1
+至/P[zhì | arrive]	還	至	844	1
+為/VC[wèi | is]	足	為	13414	1
+彼/PN[bǐ | that]	功德	彼	6890	1
+等/MSP[děng | plural]	佛	等	17035	1
+入/VV[rù | to enter]	令	入	916	1
+已/CS[yǐ | afterwards]	若	已	30645	1
+量/VV[liáng | to measure]	可	量	876	1
+聲/FW[shēng | sheng]	上	聲	33543	1
+中/LC[zhōng | in]	爐	中	32951	1
+可/CS[kě | but]	如來	可	1251	1
+形象/NN[xíngxiàng | image]	於	形象	7723	1
+佛/NR[Fó | Buddha]	金	佛	3618	1
+禮/VV[lǐ | to bow]	以致	禮	33656	1
+自在/VA[zìzai | at ease]	身心	自在	3893	1
+語/VV[yù | to speak]	我	語	5966	1
+佛/NR[Fó | Buddha]	若	佛	3618	1
+阿僧祇劫/NN[āsēngzhǐ jié | an asankhyeya kalpa]	無量	阿僧祇劫	20346	1
+衣/NN[yī | robe]	著	衣	33079	1
+月日/NN[yuèrì | month]	三	月日	33702	1
+誑/VV[kuáng | to deceive]	不	誑	7151	1
+大/VA[dà | big]	以	大	1114	1
+事/NN[shì | matter]	難	事	1219	1
+不/AD[bù | not]	所謂	不	502	1
+樹/NN[shù | tree]	行	樹	2647	1
+觀/VV[guān | to look at]	欲	觀	1702	1
+念/NN[niàn | a thought]	念	念	30159	1
+除/P[chú | except]	能	除	622	1
+中/LC[zhōng | in]	車	中	32951	1
+非/VC[fēi | not]	何況	非	33285	1
+耶/MSP[yē | final interogative]	得	耶	6557	1
+中/P[zhōng | in]	三千大千世界	中	32951	1
+不信/NN[bùxìn | disbelief]	狐疑	不信	21790	1
+多/VA[duō | many]	性	多	401	1
+一面/NN[yīmiàn | one side]	騰驤	一面	20911	1
+也/MSP[yě | a final modal particle indicating certainy or decision]	六	也	8853	1
+名為/VV[míngwèi | to be called]	經	名為	30937	1
+淨土/NR[Jìng Tŭ | Pure Land]	往生	淨土	3171	1
+得/VV[dé | to obtain]	生	得	1459	1
+說/VV[shuō | to teach]	是	說	32460	1
+危/VA[wēi | dangerous, precarious]	國土	危	3862	1
+不/AD[bù | not]	佛土	不	502	1
+無量/VA[wúliàng | unlimited]	受	無量	20347	1
+幢/NN[chuáng | pillar]	綵	幢	7270	1
+一生補處/NN[Yīshēng bǔ chù | Ekajatipratibuddha]	有	一生補處	20351	1
+跪/VV[guì | to kneel]	前	跪	9098	1
+則/CS[zé | expresses contrast with a previous sentence or clause]	轉輪聖王	則	1337	1
+持/VV[chí | to grasp]	衣	持	1799	1
+成就/VV[chéngjiù | to succeed]	國土	成就	19245	1
+舍利弗/NR[Shèlìfú | Sariputra]	復次	舍利弗	18620	1
+梵音佛/NR[Fànyīn Fó | Brahmaghosa Buddha]	有	梵音佛	20382	1
+苦/NN[kŭ | suffering]	為	苦	3865	1
+福德/NN[fúdé | merit]	若	福德	19571	1
+欄楯/NN[lánshǔn | balustrade]	重	欄楯	25102	1
+如來/NR[Rúlái | Tathagata]	不解	如來	6686	1
+種/NN[zhǒng | kind]	千	種	1590	1
+經典/NN[jīngdiǎn | sūtra]	若是	經典	33258	1
+以/CC[yǐ | so as to]	劫	以	650	1
+有/VV[yǒu | is]	經	有	398	1
+佛/NR[Fó | Buddha]	以	佛	3618	1
+性/NN[xìng | nature]	地	性	33234	1
+為/P[wèi | for]	如來	為	372	1
+善/VA[shàn | virtuous]	少	善	3670	1
+之/PN[zhī | him]	知	之	730	1
+乃/AD[nǎi | thus]	像	乃	5071	1
+作/VV[zuò | to do]	常	作	375	1
+一/CD[yī | one]	於	一	301	1
+多/FW[duō | duo]	彌	多	33536	1
+眾生/NN[zhòngshēng | a being]	土	眾生	3180	1
+掃/VV[sǎo | to sweep]	便	掃	5352	1
+異/VA[yì | different]	無	異	5053	1
+地/NR[dì | the Earth]	令	地	30487	1
+解/VV[jiě | to understand]	不能	解	33232	1
+爾/PN[ěr | thus]	皆	爾	3811	1
+而/CC[ér | and]	座	而	1336	1
+住/VV[zhù | to dwell]	非	住	747	1
+導/VV[dǎo | to lead]	師子	導	3837	1
+惱亂/VV[nǎoluàn | to disrupt]	所	惱亂	28946	1
+所/PN[suǒ | it]	變化	所	17100	1
+信/NN[xìn | faith]	淨	信	30220	1
+車/NN[chē | vehicle]	立	車	3966	1
+一切/DT[yīqiè | all]	非	一切	1490	1
+佛/NR[Fó | Buddha]	有	佛	3618	1
+法/NN[fǎ | a dhárma]	無非	法	17994	1
+眾生/NN[zhòngshēng | a being]	國土	眾生	3180	1
+白鵠/NN[báihú | a white swan]	鳥	白鵠	20340	1
+如來/NR[Rúlái | Tathagata]	為	如來	6686	1
+志願/NN[zhìyuàn | aspiration]	法器	志願	3948	1
+木/NN[mù | wood]	餘	木	2646	1
+度/VV[dù | to save]	濟	度	30865	1
+行/VV[xíng | practice]	觀自在菩薩	行	33284	1
+諦/VV[dì | examine]	今	諦	5112	1
+此/DT[cǐ | this]	有	此	624	1
+日/M[rì | day of the month]	後	日	738	1
+以/P[yǐ | because of]	不可	以	30648	1
+座/NN[zuò | seat]	敷	座	405	1
+虛妄/VA[xūwàng | not real]	是	虛妄	6704	1
+誦念/VV[sòngnián | recite]	至心	誦念	3173	1
+轉/VV[zhuǎn | to convey]	不能	轉	2324	1
+中/LC[zhōng | in]	虛空	中	32951	1
+及/CC[jí | and]	舍利弗	及	962	1
+婆/FW[pó | po]	多	婆	33537	1
+富/VA[fù | rich]	民人	富	1187	1
+法/NN[fǎ | a dhárma]	有	法	17994	1
+亦/AD[yì | also]	果報	亦	5060	1
+師子佛/NR[Shī Zǐ Fó | Simha Buddha]	有	師子佛	20376	1
+我/PN[wǒ | I]	說	我	321	1
+白象/NN[báixiàng | white elephant]	牙	白象	27920	1
+來/VV[lái | to come]	若	來	370	1
+生死/NR[Shēngsǐ | Saṃsāra]	離	生死	18496	1
+為/P[wèi | for]	皆	為	372	1
+大/VA[dà | big]	是	大	1114	1
+菩薩/NN[púsà | bodhisattva]	云何	菩薩	3166	1
+覺知/NN[juézhī | awareness]	第六	覺知	3897	1
+投/VV[tóu | to throw]	香	投	2679	1
+無/VE[wú | to not have]	識	無	13465	1
+於/P[yú | in]	佛	於	1710	1
+涅槃/NR[Nièpán | Nirvana]	至	涅槃	17983	1
+根/NN[gēn | a root]	五	根	28812	1
+恒/VA[héng | permanent]	日日	恒	32905	1
+惡/NN[è | evil]	煩惱	惡	3868	1
+無/VE[wú | to not have]	盡	無	13465	1
+手/NN[shǒu | hand]	以	手	922	1
+福德/NN[fúdé | merit]	此	福德	19571	1
+娑婆國土/NR[Suōpó Guótǔ | Saha Lokadhatu]	於	娑婆國土	20393	1
+燾/VV[dào | to inherit]	世祖	燾	33871	1
+世界/NN[shìjiè | world]	阿僧祇	世界	363	1
+世界/NN[shìjiè | world]	佛	世界	363	1
+虛空/VA[xūkōng | void]	東方	虛空	26607	1
+中國/NR[Zhōngguó | Middle Kingdom]	諸	中國	33745	1
+過去/NN[guòqu | (in the) past]	念	過去	1068	1
+多/VA[duō | many]	其中	多	401	1
+滅/VV[miè | to extinguish]	即	滅	568	1
+布施/NN[bùshī | dana]	於	布施	3941	1
+相/NN[xiàng | a notion]	我	相	32443	1
+震動/VV[zhèndòng | to shake]	大	震動	13760	1
+香/NN[xiāng | incense]	種	香	7060	1
+諸/PN[zhū | all]	那由他	諸	3556	1
+入/VV[rù | to enter]	次第	入	916	1
+功德/NN[gōngdé | achievements and virtue]	希有	功德	7135	1
+凡夫/NN[fánfū | an ordinary person]	但	凡夫	30767	1
+覺悟/NN[juéwù | awareness]	第五	覺悟	3861	1
+無/AD[wú | no]	若	無	1843	1
+知足/VV[zhīzú | to be content]	念	知足	3901	1
+一/CD[yī | one]	說	一	301	1
+呪/NN[zhòu | mantra]	淨土	呪	33055	1
+殿/NN[diàn | palace hall]	行	殿	3708	1
+彼/PN[bǐ | that]	於	彼	6890	1
+今/NN[jīn | today]	汝	今	6691	1
+在/P[zài | in]	釋迦	在	328	1
+俱/AD[jū | together]	同時	俱	33065	1
+其/DT[qí | that]	著	其	1574	1
+也/MSP[yě | a final modal particle indicating certainy or decision]	二	也	8853	1
+諸天/NN[zhūtiān | devas]	告	諸天	27530	1
+詭譎/VA[guǐjué | strange]	索	詭譎	34673	1
+義/NN[yì | meaning]	經	義	3613	1
+不可思議/VA[bù kě sīyì | inconceivable]	有	不可思議	7158	1
+微妙/VA[wēimiào | subtle]	出	微妙	4221	1
+右/NN[yòu | right]	偏袒	右	2778	1
+能/VV[néng | can]	佛	能	1263	1
+本/VV[běn | to be one's own]	到	本	20986	1
+悉/AD[xī | all]	皆	悉	30467	1
+佛土/NN[Fótǔ | a Buddha land]	億	佛土	20319	1
+之/DEG[zhī | genetive marker]	凡夫	之	33281	1
+眾生/NN[zhòngshēng | a being]	度脫	眾生	3180	1
+荷/NN[hé | lotus]	為	荷	5892	1
+苦/NN[kŭ | suffering]	無	苦	3865	1
+於/P[yú | in]	不	於	1710	1
+也/MSP[yě | a final modal particle indicating certainy or decision]	八	也	8853	1
+右手/NN[yòu shǒu | right hand]	舉	右手	28056	1
+六時/NN[liù shí | the six four hour periods of the day]	日夜	六時	29373	1
+常住/NN[chángzhù | permanence]	阿彌陀佛	常住	21225	1
+層/NN[céng | layer]	五	層	33747	1
+火/NN[huǒ | fire]	吐	火	2132	1
+空/NN[kōng | emptiness]	是	空	17657	1
+像/NN[xiàng | statue]	迎	像	8987	1
+車/NN[chē | vehicle]	二十	車	3966	1
+奉持/VV[fèngchí | to practice]	當	奉持	22141	1
+難/VA[nán | difficult]	世間	難	1207	1
+無/VE[wú | to not have]	生	無	13465	1
+船/NN[chuán | boat]	法身	船	3781	1
+四/CD[sì | four]	滅	四	304	1
+所有/PN[suǒyǒu | all]	凡	所有	1049	1
+當/P[dāng | at or in the very same]	供養	當	1167	1
+車輪/NN[chēlún | a wheel]	如	車輪	25765	1
+是/PN[shì | this]	為	是	17908	1
+塔/NN[tǎ | a pagoda]	是	塔	3374	1
+異/VA[yì | strange]	伎	異	5053	1
+百/CD[bǎi | one hundred]	門	百	313	1
+作/VV[zuò | to do]	菩薩	作	375	1
+相/NN[xiāng | a notion]	一切	相	32443	1
+佛/NR[Fó | Buddha]	當	佛	3618	1
+皆/AD[jiē | all]	采女	皆	5046	1
+即/AD[jí | promptly]	福德	即	1964	1
+裏/NN[lǐ | inside]	城	裏	33694	1
+坐佛/NR[zuò Fó | a seated Buddha]	有	坐佛	27273	1
+揖/VV[yī | to greet by raising the joined hands]	輒	揖	19287	1
+於/P[yú | in]	過去	於	1710	1
+坐/VV[zuò | to sit]	若	坐	3368	1
+相/NN[xiāng | a sign]	所有	相	32237	1
+有/VE[yǒu | to have]	上	有	32458	1
+眾生/NN[zhòngshēng | a being]	度	眾生	3180	1
+故/CC[gù | so]	輕賤	故	14849	1
+十二/CD[shí èr | twelve]	持	十二	28795	1
+濟/VV[jì | to aid]	普	濟	3957	1
+三/CD[sān | three]	若	三	303	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	說	者	671	1
+脫/VV[tuō | to take off]	王	脫	4052	1
+等/MSP[děng | plural]	阿修羅	等	17035	1
+宜/VA[yí | proper]	隨	宜	4235	1
+伽/FW[jiā | ga]	哆	伽	6577	1
+怖/VV[bù | to be terrified]	不	怖	5085	1
+心/NN[xīn | mind]	無主	心	17993	1
+般若波羅蜜/NN[Bōrěluómì | Prajñāpāramitā]	以此	般若波羅蜜	7128	1
+聞/VV[wén | to hear]	有人	聞	3925	1
+菩薩/NN[púsà | bodhisattva]	名為	菩薩	3166	1
+共/AD[gòng | all together]	與	共	2588	1
+聖/VA[shèng | sacred]	現	聖	3181	1
+及/CC[jí | and]	樹	及	962	1
+城/NN[chéng | a city]	出	城	947	1
+受/VV[shòu | to receive]	口	受	1978	1
+實/VA[shí | true]	眾	實	3386	1
+一切/DT[yīqiè | all]	教化	一切	1490	1
+眾/AD[zhòng | again]	聖	眾	29896	1
+國/NN[guó | place]	阿彌陀	國	33510	1
+龍/NN[lóng | dragon]	九	龍	1818	1
+十/CD[shí | ten]	又	十	310	1
+鉢/NN[bō | an alms bowl]	瓶	鉢	24497	1
+先世/NN[xiānshì | ancestry]	人	先世	21676	1
+心/NN[xīn | mind]	如是	心	17993	1
+有/VV[yǒu | is]	福德	有	398	1
+謗/VV[bàng | to slander]	即為	謗	7181	1
+此/DT[cǐ | this]	而	此	624	1
+四月/NR[sìyuè | Fourth Month]	以	四月	289	1
+五/CD[wŭ | five]	四	五	305	1
+馱/VV[duò | to carry on one's back]	樓	馱	6569	1
+舍/NN[shè | residence]	耶	舍	4053	1
+爾/PN[ěr | thus]	不	爾	3811	1
+門樓/NN[ménlóu | a gate structure]	御	門樓	25897	1
+不/AD[bù | not]	是故	不	502	1
+水/NN[shuǐ | water]	觀	水	1609	1
+佛/NR[Fó | Buddha]	須彌燈	佛	3618	1
+供養/VV[gōngyǎng | to make offerings]	悉皆	供養	7122	1
+車/NN[chē | vehicle]	像	車	3966	1
+不/AD[bù | no]	福德	不	502	1
+色/NN[sè | form]	種種	色	5052	1
+中/LC[zhōng | in]	命濁	中	32951	1
+寶/NN[bǎo | a jewel]	及	寶	3707	1
+減/VV[jiǎn | to decrease]	不	減	908	1
+得/VV[dé | to obtain]	有時	得	1459	1
+聚/VV[jù | to gather]	七寶	聚	2224	1
+廣/VA[guǎng | wide]	於	廣	1626	1
+變異/VV[biànyì | to change]	滅	變異	3866	1
+微塵/NN[wēichén | an atom]	為	微塵	32464	1
+八/CD[bā | eight]	值	八	308	1
+五/CD[wŭ | five]	作	五	305	1
+往來/VV[wǎnglái | to return]	一	往來	13408	1
+寧/CC[nìng | rather]	眾	寧	7117	1
+說/VV[shuō | to say]	無量壽佛	說	412	1
+實/AD[shí | truly]	以	實	33246	1
+行/VV[xíng | to do]	競	行	11499	1
+五濁惡世/NR[Wŭ Zhuó è Shì | Saha World]	娑婆國土	五濁惡世	30455	1
+親/VA[qīn | related by blood or marriage]	冤	親	3580	1
+苦/NN[kŭ | suffering]	眾	苦	3865	1
+須陀洹/NR[Xūtuóhuán | Sotapanna]	得	須陀洹	27417	1
+香/NN[xiāng | fragrance]	撮	香	33058	1
+有/VE[yǒu | to have]	法	有	32458	1
+說/VV[shuō | to say]	阿僧祇劫	說	412	1
+之類/NN[zhīlèi | and so on]	眾生	之類	6694	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	乘	者	671	1
+身體/NN[shēntǐ | human body]	截	身體	7145	1
+阿耨多羅三藐三菩提/NN[ānòuduōluó sānmiǎo sānpútí | anuttara-samyak-sambodhi]	佛	阿耨多羅三藐三菩提	5104	1
+第一/OD[dì yī | first]	非	第一	394	1
+一切/DT[yīqiè | all]	濟	一切	1490	1
+實/AD[shí | truly]	無	實	33246	1
+法輪/NR[fǎlún | Dharma Wheel]	無上	法輪	17768	1
+身/NN[shēn | body]	是	身	3898	1
+布施/NN[bùshī | dana]	菩薩	布施	3941	1
+法/NN[fǎ | a dhárma]	此	法	17994	1
+等/MSP[děng | plural]	法顯	等	17035	1
+如/CS[rú | if]	身	如	2567	1
+始/VV[shǐ | to begin]	菩薩	始	3572	1
+能/VV[néng | can]	斯陀含	能	1263	1
+步/NN[bù | a pace]	百	步	915	1
+卯月/NR[Mǎoyuè | Fourth Month]	建	卯月	33746	1
+得/VV[dé | to obtain]	人	得	1459	1
+於/P[yú | in]	取	於	1710	1
+悉/AD[xī | all]	事	悉	30467	1
+日月燈/NR[Rì Yuè Dēng | Candrasuryapradipa]	有	日月燈	20359	1
+行/VV[xíng | to travel]	未	行	11497	1
+取/VV[qǔ | to grasp]	心	取	28121	1
+二十/CD[èrshí | twenty]	有	二十	17956	1
+不/AD[bù | not]	成就	不	502	1
+說/VV[shuō | to teach]	現在	說	32460	1
+觀/VV[guān | to look at]	臨	觀	1702	1
+名/VV[míng | to be called]	而	名	33237	1
+有/VV[yǒu | is]	則	有	398	1
+法/NN[fǎ | a dhárma]	無為	法	17994	1
+成/VV[chéng | to finish]	初	成	1932	1
+作/VV[zuò | to make]	嘗	作	375	1
+菩薩/NN[púsà | bodhisattva]	始	菩薩	3166	1
+實/AD[shí | truly]	法	實	33246	1
+大乘/NR[Dàchéng | Mahayana]	是	大乘	3616	1
+欲/NN[yù | desire]	阿彌陀佛	欲	3889	1
+還/VV[huán | to return]	復	還	16222	1
+菩薩/NN[púsà | bodhisattva]	二	菩薩	3166	1
+罪/NN[zuì | an offense]	為	罪	3869	1
+當/P[dāng | at or in the very same]	皆	當	1167	1
+作/VV[zuò | to do]	天人	作	375	1
+地/NR[dì | Earth]	墮	地	30487	1
+福德/NN[fúdé | merit]	說	福德	19571	1
+憎/VV[zēng | detest]	不	憎	3937	1
+諸/DT[zhū | all]	乃是	諸	3556	1
+阿彌陀佛/NR[Āmítuó Fó | Amitabha Buddha]	讚歎	阿彌陀佛	2891	1
+高遠/VA[gāoyuǎn | lofty]	梵行	高遠	3950	1
+苦厄/NN[kŭ è | suffering]	一切	苦厄	22239	1
+供具/NN[gōngjù | an offering]	莊嚴	供具	30600	1
+源/NN[yuán | source]	惡	源	1367	1
+不/AD[bù | not]	天眼	不	502	1
+為/P[wèi | for]	最	為	372	1
+我/NN[wǒ | self]	名	我	32344	1
+此/DT[cǐ | this]	聞	此	624	1
+毘/FW[pí | pi]	哆	毘	33545	1
+風/NN[fēng | wind]	於	風	2024	1
+無/VE[wú | to not have]	中	無	13465	1
+出/VV[chū | to go out]	從	出	275	1
+眾/AD[zhòng | again]	盛	眾	29896	1
+實/AD[shí | truly]	須菩提	實	33246	1
+無邊/VA[wúbiān | without boundaries]	無數	無邊	20348	1
+阿難/NR[Ānán | Ananda]	告	阿難	18622	1
+之/PN[zhī | it]	飾	之	730	1
+以/CC[yǐ | so as to]	菩薩	以	650	1
+見/VV[jiàn | to see]	則	見	2940	1
+聖/NN[shèng | a sage]	修心	聖	30705	1
+侍從/NN[shìcóng | an attendant]	諸天	侍從	26796	1
+實/AD[shí | truly]	今	實	33246	1
+心/NN[xīn | mind]	過去	心	17993	1
+楊/NN[yáng | poplar]	嚼	楊	5461	1
+昔/VA[xī | long ago]	從	昔	6898	1
+布施/NN[bùshī | dana]	相	布施	3941	1
+為/VV[wèi | create]	欲	為	33304	1
+無量/VA[wúliàng | unlimited]	滿	無量	20347	1
+眾生/NN[zhòngshēng | a being]	一	眾生	3180	1
+耽/FW[dān |dan]	悉	耽	33547	1
+所/PN[suǒ | it]	算數	所	17100	1
+足/NN[zú | foot]	洗	足	9097	1
+是/PN[shì | this]	實	是	17908	1
+十/CD[shí | ten]	今	十	310	1
+五百/CD[wŭ bǎi | five hundred]	於	五百	32930	1
+世界/NN[shìjiè | world]	南方	世界	363	1
+卵生/VV[luǎnshēng | to be born from an egg]	若	卵生	32697	1
+邪道/NN[xiédào | depraved life]	行	邪道	7186	1
+者/MSP[zhě | used after a verb to indicate a person who does the action]	喻	者	671	1
+第一/OD[dì yī | first]	是	第一	394	1
+城/NN[chéng | city]	於	城	947	1
+皆/AD[jiē | all]	鳥	皆	5046	1
+差別/NN[chābié | difference]	有	差別	6725	1
+成/VV[chéng | to finish]	得	成	1932	1
+法/NN[fǎ | a dharma]	呪	法	17994	1
+非/VC[fēi | not]	說	非	33285	1
+虛/NN[xū | void]	無	虛	31896	1
+之/DEG[zhī | genetive marker]	雜色	之	33281	1
+虛/VA[xū | false]	不	虛	4520	1
+國/NN[guó | a place]	凡	國	33510	1
+一/CD[yī | one]	如	一	301	1
+下/PN[xià | next]	而	下	580	1
