@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="textApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NTI Buddhist Text Reader">
+    <link rel="shortcut icon" href="images/yan.png" type="image/jpeg" />
+    <title>NTI Buddhist Text Reader : Chinese-English Dictionary</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="buddhistdict.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body ng-controller="textCtrl">
+    <div class="starter-template">
+      <div class="row">
+        <div class="span2"><img id="logo" src="images/yan.png" alt="Logo" class="pull-left"/></div>
+        <div class="span7"><h1>NTI Buddhist Text Reader</h1></div>
+      </div>
+    </div>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Home</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="corpus.html">Texts</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="dict_resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div>
+        <h2>Chinese Text Dictionary Lookup</h2>
+        <p>
+          Paste Chinese text into the input field below to find each word and its meaning.
+        </p>
+        <form name="textForm" role="form" class="simple-form" ng-submit="submit()">
+          <div class="form-group">
+            <label for="textInput" class="control-label">Text</label>
+            <input type="text" class="form-control" name="text" id="text" ng-model="formData.text"/>
+          </div>
+          <p class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Options
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse">
+                <div class="panel-body">
+                   <div class="form-group">
+                     Text type: 
+                     <input type="radio" ng-model="formData.langtype" name="langtype" 
+                            id="langtype-literary" value="literary"/>
+                     <label for="langtype-literary" class="control-label">literary Chinese</label>
+                     <input type="radio" ng-model="formData.langtype" name="langtype" 
+                            id="langtype-modern" value="modern"/>
+                     <label for="langtype-modern" class="control-label">modern Chinese</label>
+                   </div>
+                   <div class="form-group">
+                     Match type: 
+                     <input type="radio" ng-model="formData.matchtype" name="matchtype" 
+                            id="matchtype-approx" value="approximate"/>
+                     <label for="matchtype-approx" class="control-label">multi-line / approximate</label>
+                     <input type="radio" ng-model="formData.matchtype" name="matchtype" 
+                            id="matchtype-partial" value="partial"/>
+                     <label for="matchtype-partial" class="control-label">partial</label>
+                     <input type="radio" ng-model="formData.matchtype" name="matchtype" 
+                            id="matchtype-exact" value="exact"/>
+                     <label for="matchtype-exact" class="control-label">exact</label>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </p>
+          <div class="form-group">
+            <button type="submit" class="btn btn-default">Search</button>
+          </div>
+          <span id="lookup-help-block" class="help-block">
+            Search for words using Chinese text, English words, Hanyu pinyin, or analyze an entire text block.
+            Try this example: 觀自在菩薩行深般若波羅蜜多時，照見五蘊皆空，度一切苦厄。(From the Heart Sūtra).
+            There is a maximum of 100 characters allowed for text search.
+            Either simplified or traditional Chinese can be used for queries.
+            Try this simplified Chinese example: 推进农业.
+            English examples: Buddha, Tathāgata. 
+            Pinyin examples: Fo (use exact match), Guanyin, and Rulai.
+            See the <a href="help.html">Help</a> page for more information on the best use of the dictionary
+            or if you have problems.
+          </span>
+        </form>
+        <p ng-if="results.msg">
+          {{results.msg}}
+        </p>
+        <table class="table table-bordered table-hover" ng-if="results.words">
+          <caption>Dictionary Search Results</caption>
+          <thead>
+            <tr>
+              <th>Chinese Text</th>
+              <th><a href="/syllables_ipa.html" title="Pinyin and IPA Representations" target="_window2">Pinyin</a></th>
+              <th>English</th>
+              <th>Notes</th>
+          </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="word in results.words"">
+              <td ng-if="word.count == 0">{{word.text}}</td>
+              <td ng-if="word.count > 0"><a href="word_detail.php?id={{word.id}}">{{word.text}}</a></td>
+              <td>{{word.pinyin}}</td>
+              <td>{{word.english}}</td>
+              <td>
+                <span ng-bind-html="word.notes"></span>
+                <a ng-if="word.count>1"
+                   ng-href="word_detail.php?word={{word.text}}&matchType=exact">See all {{word.count}} word senses</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h4>Mobile device Apps</h4>
+      <p>
+        <a href="http://paradeofthebuddhas.org/">Buddha's Birthday Education Project Mobile App</a><br/>
+        <a href="https://play.google.com/store/apps/details?id=com.bravebot.apps.merittimes">Fo Guang Shan Merit Times 福報即時報</a><br/>        
+        <a href="https://play.google.com/store/apps/details?id=com.diamond.sutra">Diamond Sutra Mobile App 佛光山金剛經講話 星雲大師著</a>
+      </p>
+      <hr/>
+      <p>
+        佛光山南天大學佛教文本閱讀器。
+        Copyright Fo Guang Shan Nan Tien Institute 佛光山南天大學 2013-2014, 
+        <a href="http://www.nantien.edu.au/" title="Fo Guang Shan Nan Tien Institute">www.nantien.edu.au</a>. Materials may be reused
+        in accordance with the open source license. See the <a href="about.html">About</a> 
+        for details.
+      </p>
+      <p>This page was last updated on September 10, 2014.</p>
+    </div><!-- /.container -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-sanitize.js"></script>
+    <script src="script/buddhistdict.js"></script>
+  </body>
+</html>
