@@ -77,7 +77,7 @@ class ChineseText {
 
         // Break into chunks of either letters or non-letters
         $chunks = $this->getChunks();
-        //error_log("count chunks: " . count($chunks));
+        //error_log("chinesetext.php: count chunks: " . count($chunks));
 
         // Iterate through each chunk scanning for words
         $previous = null;
@@ -116,10 +116,13 @@ class ChineseText {
                                     $previousTrad = $previous->getSimplified();
                                 }
                             }
-                            //error_log("wordCandidate: $wordCandidate, previousTrad: $previousTrad");
-                            $word = $wordsDAO->getBestWordSense($wordCandidate, $this->langType, $previousTrad);
-                            //error_log("Best word sense: $word");
-                            $elements[] = new TextElement($wordCandidate, 2, $word, count($words));
+                            // TODO - add tables for word frequency to chinesenotes.com and have a better method for
+                            // modern Chinese
+                            //error_log("chinesetext.php, wordCandidate: $wordCandidate, previousTrad: $previousTrad");
+                            //$word = $wordsDAO->getBestWordSense($wordCandidate, $this->langType, $previousTrad);
+                            //error_log("chinesetext.php, Best word sense: $word");
+                            //$elements[] = new TextElement($wordCandidate, 2, $word, count($words));
+                            $elements[] = new TextElement($wordCandidate, 2, $words[0], count($words));
                             $i += $j;
                             $previous = $word;
                             break;

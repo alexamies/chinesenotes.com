@@ -24,7 +24,7 @@ class DatabaseUtils {
     			//	or die('Page unavailable');
 				or die('Could not connect: ' . mysql_error());
 
-			mysql_select_db('alexami_zhongwenbiji') 
+			mysql_select_db('cse_dict') 
     				or die('Page unavailable');
 						//die('Could not select database: ' . mysql_error());
 			mysql_query("SET CHARACTER SET 'utf8'", $this->connection)

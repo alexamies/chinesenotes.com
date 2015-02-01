@@ -4,7 +4,7 @@ require_once 'inc/chinesetext.php' ;
 mb_internal_encoding('UTF-8');
 header('Content-Type: text/json;charset=utf-8');
 $text = $_POST['text'];
-error_log("Length of text: " . strlen($text));
+//error_log("textlookup.php: Length of text: " . strlen($text));
 if (mb_strlen($text) > 100) {
     print('{"error":"Too long. Text cannot exceed 100 characters."}');
 } else {
@@ -15,7 +15,7 @@ if (mb_strlen($text) > 100) {
     //error_log("langType: $langType");
     $chineseText = new ChineseText($text, $langType);
     $elements = $chineseText->getTextElements();
-    //error_log("No elements: " . count($elements));
+    //error_log("textlookup.php: No elements: " . count($elements));
     $words = "[";
     foreach ($elements as $element) {
         $elemText = $element->getText();
@@ -42,7 +42,7 @@ if (mb_strlen($text) > 100) {
                   '},';
     }
     $words = rtrim($words, ",") . "]";
-    //error_log("words: $words");
+    //error_log("textlookup.php: words: $words");
     print('{"words":' . $words . "}");
 }
 ?>

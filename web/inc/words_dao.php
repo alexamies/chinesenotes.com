@@ -43,6 +43,7 @@ class WordsDAO {
 	 */
 	function getWords($word, $matchType) {
 
+        //error_log("words_dao.php: getWords, enter");
 		$databaseUtils = new DatabaseUtils();
 		$databaseUtils->getConnection();
 
@@ -65,7 +66,7 @@ class WordsDAO {
 				" OR english like '" . '%' . $word . '%' . "'"
 				;
 		}
-		//error_log("getWords, query: " . $query);
+		//error_log("words_dao.php: getWords, query: " . $query);
 		$result =& $databaseUtils->executeQuery($query);
 		$words = array();
 		$MAX = 200;
@@ -93,11 +94,9 @@ class WordsDAO {
 					);
 			$i++;
 		}
-		//error_log("getWords, results returned: " . count($words));
+		//error_log("words_dao.php: getWords, results returned: " . count($words));
 		$databaseUtils->free_result($result);
-
 		$databaseUtils->close();
-
 		return $words;
 	}
 	
