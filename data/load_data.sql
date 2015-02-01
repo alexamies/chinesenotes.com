@@ -1,4 +1,4 @@
-USE alexami_zhongwenbiji;
+USE cse_dict;
 
 LOAD DATA LOCAL INFILE 'phonetics.txt' INTO TABLE phonetics CHARACTER SET utf8 LINES TERMINATED BY '\n';
 LOAD DATA LOCAL INFILE 'grammar.txt' INTO TABLE grammar CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
