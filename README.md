@@ -3,7 +3,7 @@
 ## Environment
 Debian LAMP
 
-## (1) Install git on the host and checkout the code base
+## Install git on the host and checkout the code base
 $ sudo apt-get update
 $ sudo apt-get install -y git
 $ git clone git://github.com/alexamies/chinesenotes.com $HOME/chinesenotes.com
