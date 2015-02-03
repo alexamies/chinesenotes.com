@@ -1,179 +1,125 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
-    <title>Chinese Notes - Classics 汉语笔记 - 古文</title>
-    <link rel="shortcut icon" href="/favicon.ico"/>
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
-    <link media="only screen and (max-device-width: 480px)" href="styles-small-device.css" type= "text/css" 
-          rel="stylesheet"/>
-    <meta name="keywords"
-          content="A web site for learning (Mandarin) Chinese. Classical Chinese 古文 Tang Poetry 唐诗 bilingual 双言"/>
-    <meta name="description"
-          content="A web site for learning (Mandarin) Chinese. Classical Chinese 古文"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chinese language notes">
+    <link rel="shortcut icon" href="images/ren.png" type="image/jpeg" />
+    <title>Chinese language notes</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="chinesenotes.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <div class="menubar">
-      <a class='button' href='index.html'>Home<span class='cn'> - 首页</span></a>
-      <a class='button' href='tools.php'>Tools<span class='cn'> - 工具</span></a>
-      <a class='button' href='culture.php'>Culture<span class='cn'> - 文化</span></a>
-      <a class='button' href='reference.php'>Reference<span class='cn'> - 参考</span></a>
-      <a class='selected' href='classics.php'>Classics<span class='cn'> - 古文</span></a>
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-59206430-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <div class="starter-template">
+      <div class="row">
+        <div class="span2"><img id="logo" src="images/ren.png" alt="Logo" class="pull-left"/></div>
+        <div class="span7"><h1>Chinese Notes</h1></div>
+      </div>
     </div>
-    <div class="breadcrumbs">
-      <a href="index.html">Chinese Notes 中文笔记</a> &gt; 
-       Classics 古文
-    </div>      
-    <h1>Classics 古文</h1>
-    <p>
-      Classical Chinese works including <a href='poetry.php'>poetry</a> and 
-      <a href='buddhism_intro.php'>Buddhist</a> sutras.
-    </p>
-    <table class="portlet">
-    	<tbody>
-    		<tr><th class="portlet" colspan="2"><h2 class="portlet"><br/></h2></th></tr>
-    		<tr>
-    			<td colspan="2">
-    				<h3 class="portlet">古文<br/>Classical Chinese</h3>
-    			</td>
-    		</tr>
-    		<tr>
-    			<td colspan="2">
-    				<p>
-    				  <a href='classical_chinese.php'>古文入门</a><br/>
-    				  <a href='classical_chinese.php'>Introduction to Classical Chinese</a>
-    				</p>
-    				<p>
-    				  A gentle introduction for learners with minimal background in modern 
-    				  Chinese or even none at all, this article outlines development and history
-    				  of the language, grammar, important authors, and gives a number of 
-    				  examples with text in both Chinese and English
-    				</p>
-    			</td>
-    		</tr>
-    	</tbody>
-    </table>
-    <p/>
-    <table class="portlet">
-    	<tbody>
-    		<tr>
-    			<th class="portlet" colspan="2">
-    				<h2 class="portlet">新&nbsp; New</h2>
-    			</th>
-    		</tr>
-    		<tr>
-    			<td colspan="2">
-    				<h3 class="portlet">
-    					唐诗 Tang Poetry
-    				</h3>
-    				<div class="author">2008年 8月 3日</div>
-    			</td>
-    		</tr>
-    		<tr>
-    			<td>
-    				<p>
-    				  陈子昂 Chen Zi'ang (661 - 702)
-    				  <ul>
-    				    <li>
-    					  <a href='/poem_terrace.php'>登幽州台歌</a>
-    					  <a href='/poem_terrace.php'>Song on Ascending the Youzhou Terrace</a>
-    					</li>
-    			      </ul>
-    				</p>
-    				<p>
-    				  贺知章 He Zhizhang （659-744) 
-    				  <ul>
-    				    <li>
-    					  <a href='/poem_random.php'>回乡偶书</a> 
-    					  <a href='/poem_random.php'>Random Lines on Home-Coming</a>
-    					</li>
-    			      </ul>
-    				</p>
-    				<p>
-    				  王之涣 Wang Zhihuan （688-742)
-    				  <ul>
-    				    <li>
-    					  <a href='/poem_tower.php'>登鹳雀楼</a> 
-    					  <a href='/poem_tower.php'>Ascending the Stork Tower</a>
-    					</li>
-    					<li>
-    					  <a href='/poem_liang.php'>凉州诗</a> 
-    					  <a href='/poem_liang.php'>Liang County Song</a>
-    					</li>
-    			      </ul>
-    				</p>
-    				<p>
-    				  孟浩然 Meng Haoran（689-740) 
-    				  <ul>
-    				    <li>
-    					  <a href='/poem_dawn.php'>春晓</a> 
-    					  <a href='/poem_dawn.php'>Spring Dawn</a>
-    					</li>
-    			      </ul>
-    				</p>
-    				<p>
-    				  王维 Wang Wei （701-761）
-    				  <ul>
-    				    <li>
-    					  <a href='/poem_friend.php'>送别</a>
-    					  <a href='/poem_friend.php'>Bidding Adieu to a Friend</a>
-    					</li>
-    					<li>
-    					  <a href='/poem_stream.php'>青溪</a>
-    					  <a href='/poem_stream.php'>Clear Stream</a>
-    					</li>
-    					<li>
-    					  <a href='/poem_rapids.php'>栾家濑</a>
-    					  <a href='/poem_rapids.php'>Luanjia Rapids</a>
-    					</li>
-    					<li>
-    					  <a href='/poem_bamboo.php'>竹里馆</a>
-    					  <a href='/poem_bamboo.php'>Bamboo Grove Cabin</a>
-    					</li>
-    					<li>
-    					  <a href='/poem_bird.php'>鸟鸣涧</a>
-    					  <a href='/poem_bird.php'>Bird-Chirping Hollow</a>
-    					</li>
-    					<li>
-    					  <a href='/poem_lines.php'>杂诗</a>
-    					  <a href='/poem_lines.php'>Lines</a>
-    					</li>
-    					<li>
-    					  <a href='/poem_homes.php'>渭川田家</a>
-    					  <a href='/poem_homes.php'>Smallholders&apos; Homes by the Wei River</a>
-    					</li>
-    			      </ul>
-    				</p>
-    				<p>
-    				  <a href="javascript:openVocab('/word_detail.php?id=8413');">李白</a> Li Bai（701-762）
-    				  <ul>
-    					<li>
-    					  <a href='/poem_crows.php'>乌夜啼</a>
-    					  <a href='/poem_crows.php'>Crows Croaking at Dusk</a>
-    					</li>
-    					<li>
-    					  <a href='/poem_roosting.php'>乌栖曲</a>
-    					  <a href='/poem_roosting.php'>A Tune of Crows Roosting Before the Eve</a>
-    					</li>
-    			      </ul>
-    				</p>
-    			</td>
-    			<td style="text-align: right;">
-    				<a href='illustrations_use.php?mediumResolution=fishing_wuwei_med.jpg'><img 
-    				class='use' src='images/fishing_wuwei_med.jpg' 
-    				alt='渔乐图（明）	Fishing Picture (Ming Dynasty)' 
-    				title='渔乐图（明）	Fishing Picture (Ming Dynasty)'/></a>
-    			</td>
-    		</tr>
-    	</tbody>
-    </table>
-    <br/>
-    <hr/>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Home</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="tools.php">Tools</a></li>
+            <li><a href="culture.php">Culture</a></li>
+            <li><a href="reference.php">Reference</a></li>
+            <li class="active"><a href="classics.php">Classics</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container">
+
+      <h2>Classics 古文</h2>
+      <p>
+        Classical Chinese works including <a href='poetry.php'>poetry</a>.
+      </p>
+
+      <h3>Classical Chinese</h3>
+      <p>
+        <a href='classical_chinese.php'>Introduction to Classical Chinese</a>
+    	A gentle introduction for learners with minimal background in modern 
+    	Chinese or even none at all, this article outlines development and history
+    	of the language, grammar, important authors, and gives a number of 
+    	examples with text in both Chinese and English
+      </p>
+
+      <h3>Tang Poetry 唐诗</h3>
+      <p>
+        <a class="pull-right" href='illustrations_use.php?mediumResolution=fishing_wuwei_med.jpg'><img 
+           class='use' src='images/fishing_wuwei_med.jpg' 
+           alt='渔乐图（明）  Fishing Picture (Ming Dynasty)' 
+           title='渔乐图（明）    Fishing Picture (Ming Dynasty)'/></a>
+        Chen Zi'ang (661 - 702) 陈子昂
+    	<ul>
+    	  <li><a href='/poem_terrace.php'>Song on Ascending the Youzhou Terrace 登幽州台歌</a></li>
+    	</ul>
+    	He Zhizhang （659-744) 贺知章
+    	<ul>
+    	  <li><a href='/poem_random.php'>Random Lines on Home-Coming 回乡偶书</a></li>
+    	</ul>
+    	Wang Zhihuan （688-742) 王之涣
+    	<ul>
+    	  <li><a href='/poem_tower.php'>Ascending the Stork Tower 登鹳雀楼</a></li>
+    	  <li><a href='/poem_liang.php'>Liang County Song 凉州诗</a></li>
+    	</ul>
+    	Meng Haoran（689-740) 孟浩然
+    	<ul>
+    	  <li><a href='/poem_dawn.php'>Spring Dawn</a></li>
+    	</ul>
+    	Wang Wei （701-761）王维
+    	<ul>
+    	  <li><a href='/poem_friend.php'>Bidding Adieu to a Friend 送别</a></li>
+    	  <li><a href='/poem_stream.php'>Clear Stream 青溪</a></li>
+    	  <li><a href='/poem_rapids.php'>Luanjia Rapids 栾家濑</a></li>
+    	  <li><a href='/poem_bamboo.php'>Bamboo Grove Cabin 竹里馆</a></li>
+    	  <li><a href='/poem_bird.php'>Bird-Chirping Hollow 鸟鸣涧</a></li>
+    	  <li><a href='/poem_lines.php'>Lines 杂诗</a></li>
+    	  <li><a href='/poem_homes.php'>Smallholders&apos; Homes by the Wei River 渭川田家</a></li>
+    	</ul>
+    	Li Bai（701-762）李白
+    	<ul>
+    	  <li><a href='/poem_crows.php'>Crows Croaking at Dusk 乌夜啼</a></li>
+    	  <li><a href='/poem_roosting.php'>A Tune of Crows Roosting Before the Eve 乌栖曲</a></li>
+    	</ul>
+      </p>
+
+      <hr/>
       <p>
         Copyright Fo Guang Shan Nan Tien Institute 佛光山南天大學 2013-2015, 
         <a href="http://www.nantien.edu.au/" title="Fo Guang Shan Nan Tien Institute">www.nantien.edu.au</a>. 
         This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. See <a href='about.php'>About</a>. Please send comments to alex@chinesenotes.com.
       </p>
       <p>This page was last updated on February 1, 2015.</p>
+    </div> <!-- /.container -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-sanitize.js"></script>
+    <script src="script/dictionary.js"></script>
   </body>
 </html>

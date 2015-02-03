@@ -57,12 +57,12 @@
 
   	  <h3>Decorative Designs in Chinese Art</h3>
   	  <p>
+        <img class="pull-right" src='images/firedesign_small.png' alt='Fire Design 火纹' title='Fire Design 火纹'/></a>
         <a href='decorative_designs.php'>Decorative Designs in Chinese Art</a> &mdash;
   	    This article describes decorative art on pottery, bronze ware, and many other art works and artifacts. 
         Decorative art is distinguished from fine art in that decorative art is most often uses repeated designs and is 
         applied to artifacts that have functions in themselves. Decorative art has a fascinating story to tell about 
         Chinese culture that is not as easily told using words alone.
-        <img class="pull-right" src='images/firedesign_small.png' alt='Fire Design 火纹' title='Fire Design 火纹'/></a>
   	  </p>
   	  <h3>中华民族 Chinese Ethnic Groups</h3>
   	  <p>
@@ -85,30 +85,30 @@
 
       <h3 class="portlet">Historic Sites and Scenic Places 名胜古迹</h3>
       <h4>Temple of Ancient Monarchs</h4>
-      <p>
-        <a href='/history_lidaidiwangsi.php'>Temple of Ancient Monarchs 历代帝王庙</a> &mdash;
-    	The Temple of Ancient Monarchs was first built in the ninth year of the Ming Emperor 
-    	Jia Jing (1530) ...
-      </p>
-      <h4>Chinese Buddhism</h4>
-      <p>
-        <a href='/buddhism_chinese.html'>Chinese Buddhism 中国佛教</a> &mdash;
-        Lists, maps, and background for Chinese Buddhist sites
-      </p>
       <h4>Hongluo Temple</h4>
       <p>
-    	<a href='/history_hongluosi.php'>Hongluo Temple 红螺寺</a> &mdash;
-    	This temple was built by the senior monk Fo Tucheng in the fourth year of the reign of Emperor Xian Kang 
-    	in the Eastern Jin period (338 AD).
         <a class="pull-right" href='illustrations_use.php?mediumResolution=huangluo3_med.jpg'><img class='use' 
            src='images/huangluo3_med.jpg' alt='红螺寺 Hongluo Temple' 
            title='红螺寺Hongluo Temple'/></a>
+    	<a href='/history_hongluosi.php'>Hongluo Temple 红螺寺</a> &mdash;
+    	This temple was built by the senior monk Fo Tucheng in the fourth year of the reign of Emperor Xian Kang 
+    	in the Eastern Jin period (338 AD).
       </p>
       <h4>Prince Gong's Palace</h4>
       <p>
     	<a href='/history_gongwangfu.php'>Prince Gong's Palace 恭王府</a> &mdash;
     	Prince Gong's Palace is one of Beijing's still existing, most refined, best preserved, and complete Qing 
     	Dynasty declared bureau. 
+      </p>
+      <h4>Chinese Buddhism</h4>
+      <p>
+        <a href='/buddhism_chinese.html'>Chinese Buddhism 中国佛教</a> &mdash;
+        Lists, maps, and background for Chinese Buddhist sites
+      </p>
+      <p>
+        <a href='/history_lidaidiwangsi.php'>Temple of Ancient Monarchs 历代帝王庙</a> &mdash;
+        The Temple of Ancient Monarchs was first built in the ninth year of the Ming Emperor 
+        Jia Jing (1530) ...
       </p>
 
       <hr/>
