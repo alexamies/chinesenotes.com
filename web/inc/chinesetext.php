@@ -116,8 +116,6 @@ class ChineseText {
                                     $previousTrad = $previous->getSimplified();
                                 }
                             }
-                            // TODO - add tables for word frequency to chinesenotes.com and have a better method for
-                            // modern Chinese
                             //error_log("chinesetext.php, wordCandidate: $wordCandidate, previousTrad: $previousTrad");
                             //$word = $wordsDAO->getBestWordSense($wordCandidate, $this->langType, $previousTrad);
                             //error_log("chinesetext.php, Best word sense: $word");

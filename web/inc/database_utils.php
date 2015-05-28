@@ -20,11 +20,13 @@ class DatabaseUtils {
 	 */
 	function getConnection() {
 		if (!isset($this->connection)) {
-			$this->connection = mysql_connect('localhost', 'root', 'admin')
+			//$this->connection = mysql_connect('localhost', 'root', 'admin!')
+			//$this->connection = mysql_connect('mysql15.hostexcellence.com', 'alexami_runtime', 'mi2j4hu5ku29')
+                        $this->connection = mysql_connect('mysql403.hostexcellence.com', 'alexami_admin', 'm9j8h7g6g3f2')
     			//	or die('Page unavailable');
-				or die('Could not connect: ' . mysql_error());
+					or die('Could not connect: ' . mysql_error());
 
-			mysql_select_db('cse_dict') 
+			mysql_select_db('alexami_zhongwenbiji') 
     				or die('Page unavailable');
 						//die('Could not select database: ' . mysql_error());
 			mysql_query("SET CHARACTER SET 'utf8'", $this->connection)
