@@ -9,16 +9,19 @@ note about the language.
 Installation instructions are for Debian LAMP. The web site will work on any environment that runs PHP.
 
 ### Install git on the host and checkout the code base
-$ sudo apt-get update
+sudo apt-get update
+sudo apt-get install -y git
 
-$ sudo apt-get install -y git
-
-$ git clone git://github.com/alexamies/chinesenotes.com $HOME/chinesenotes.com
 
 $ cd $HOME/chinesenotes.com
+-- Substitute for your own location and user name
+export CN_HOME=/disk1
+sudo mkdir $CN_HOME/chinesenotes.com
+sudo chown alex:alex $CN_HOME/chinesenotes.com
+git clone git://github.com/alexamies/chinesenotes.com $CN_HOME/chinesenotes.com
 
 ### Database Setup
-$ sudo apt-get -y install mysql-server mysql-client
+sudo apt-get -y install mysql-server mysql-client
 
 Follow instructions in dictionary-readme.txt to set up the database
 

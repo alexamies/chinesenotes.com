@@ -118,8 +118,8 @@
     </div> <!-- /.container -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-sanitize.js"></script>
+    <script src="script/angular.min.js"></script>
+    <script src="script/angular-sanitize.js"></script>
     <script src="script/dictionary.js"></script>
   </body>
 </html>
