@@ -1,0 +1,9 @@
+1	中文	\N	Zhōngwén	Chinese language	noun	\N	\N	语言	Language	\N	\N	\N	zhong1wen2.mp3	May refer to
+2	繁体	繁體	fántǐ	traditional characters	noun	\N	\N	语言	Language	\N	\N	\N	\N	\N
+3	中	\N	zhōng	in / amongst	preposition	\N	\N	虚词	Function Words	\N	\N	\N	zhong1.mp3	a note
+4	文	\N	wén	writing / language / culture	noun	\N	\N	文化	Culture	\N	\N	\N	wen2.mp3	\N
+5	繁	\N	fán	complicated / many	adjective	\N	\N	特点	Characteristic	\N	\N	\N	fan2.mp3	\N
+6	体	體	tǐ	body / form / style / system	noun	\N	\N	种类	Category	\N	\N	\N	ti3.mp3	\N
+7	简	簡	jiǎn	simple	adjective	\N	\N	特点	Characteristic	\N	\N	\N	jian3.mp3	\N
+8	简体	簡體	jiǎntǐ	simplified characters	noun	\N	\N	语言	Language	\N	\N	\N	\N	\N
+9	中	\N	Zhōng	China	proper noun	国家	Country	地理	Geography	中国	China	\N	zhong1.mp3	\N
