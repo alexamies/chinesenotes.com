@@ -68,6 +68,12 @@ span.cursive {
     font-family: cursive;
 }
 
+/* Responsive design */
+@viewport {
+    width: device-width;
+    initial-scale:1.0;
+}
+
 /* Popover */
 span.dict-entry:hover {
     text-decoration: underline;

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <title>Test title</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="chinesenotes.css" rel="stylesheet">
+  </head>
+  <body>
+  	<p>A test document with simplified Chinese</p>
+    <p><span title='简体' word_id='8' class='dict-entry' data-toggle='popover'>简体</span><span title='中文' word_id='1' class='dict-entry' data-toggle='popover'>中文</span></p>
+    <p>Word with multiple senses: <span title='中' word_id='3,9' class='dict-entry' data-toggle='popover'>中</span></p>
+    
+<script>
+words = {
+'3':{'element_text':'中','pinyin':'zhōng','english':'in / amongst','notes':'a note'},
+'9':{'element_text':'中','pinyin':'Zhōng','english':'China','notes':'\N'},
+'8':{'element_text':'简体','pinyin':'jiǎntǐ','english':'simplified characters','notes':'\N'},
+'1':{'element_text':'中文','pinyin':'Zhōngwén','english':'Chinese language','notes':'May refer to'},
+}
+</script>
+<!-- words here -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/popover.js"></script>
+  </body>
+</html>
