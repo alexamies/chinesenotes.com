@@ -8,6 +8,7 @@ import (
 
 // Both traditional and simplified
 func TestIsCJKWord1(t *testing.T) {
+	fmt.Printf("TestIsCJKWord1: Begin unit tests\n")
 	ReadDict("../testdata/testwords.txt")
 	result := IsCJKWord("中文")
 	if !result {

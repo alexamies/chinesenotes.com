@@ -1,3 +1,6 @@
+/*
+Library for Chinese vocabulary analysis
+*/
 package analysis
 
 import (
@@ -100,22 +103,12 @@ func ReadDict(wsfilename string) {
 		id, _ := strconv.ParseInt(row[0], 10, 0)
 		simp := row[1]
 		trad := row[2]
-		newWs := new(WordSenseEntry)
-		newWs.Id = int(id)
-		newWs.Simplified = simp
-		newWs.Traditional = trad
-		newWs.Pinyin = row[3]
-		newWs.English = row[4]
-		newWs.Grammar = row[5]
-		newWs.Concept_cn = row[6]
-		newWs.Concept_en = row[7]
-		newWs.Topic_cn = row[8]
-		newWs.Topic_en = row[9]
-		newWs.Parent_cn = row[10]
-		newWs.Parent_en = row[11]
-		newWs.Image = row[12]
-		newWs.Mp3 = row[13]
-		newWs.Notes = row[14]
+		newWs := &WordSenseEntry{Id: int(id), Simplified: simp,
+				Traditional: trad, Pinyin: row[3], English: row[4],
+				Grammar: row[5], Concept_cn: row[6], Concept_en: row[7], 
+				Topic_cn: row[8], Topic_en: row[9], Parent_cn: row[10],
+				Parent_en: row[11], Image: row[12], Mp3: row[13],
+				Notes: row[14]}
 		if trad != "\\N" {
 			wSenses, ok := wdict[trad]
 			if !ok {
@@ -221,8 +214,11 @@ func WriteDoc(tokens list.List, vocab map[string]bool, filename string) {
 					if entries, ok := GetWord(key); ok {
 						for _, ws := range entries {
 							fmt.Fprintf(w, "\"%d\":{\"element_text\":\"%s\"," +
+									"\"simplified\":\"%s\"," +
+									"\"traditional\":\"%s\"," +
 									"\"pinyin\":\"%s\",\"english\":\"%s\"," +
-									"\"notes\":\"%s\"},\n", ws.Id, key, ws.Pinyin,
+									"\"notes\":\"%s\"},\n", ws.Id, key,
+									ws.Simplified, ws.Traditional, ws.Pinyin,
 									ws.English, ws.Notes)
 						}
 					} 

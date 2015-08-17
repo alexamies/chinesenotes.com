@@ -32,17 +32,21 @@ $(function () {
         word_entry = words[word_id]
         //console.log("popover.js, word_id: " + word_id + ", word_entry: " +
         //            word_entry)
+        var traditional = ""
+        if (('traditional' in word_entry) && (word_entry['traditional'] != '\N')) {
+          traditional = word_entry['simplified'] + '（' + word_entry['traditional'] + '）'
+        }
         var notes = ""
         if (('notes' in word_entry) && (word_entry['notes'] != '\N')) {
           notes = word_entry['notes']
         }
         //console.log("popover.js, notes: " + word_entry['notes'])
         if (wordIdArr.length == 1) {
-          text = '<p>' + word_entry['pinyin'] + 
+          text = '<p>' + traditional + word_entry['pinyin'] + 
                  ', ' + word_entry['english'] + '<br/>' + notes +
                  '</p>';
         } else {
-          text += '<li>' +  word_entry['pinyin'] + 
+          text += '<li>' + traditional +  word_entry['pinyin'] + 
                  ', ' + word_entry['english'] + '<br/>' + notes +
                  '</li>';
         }
