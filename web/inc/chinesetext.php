@@ -99,6 +99,7 @@ class ChineseText {
                         $wordCandidate = mb_substr($text, 0, $j+1);
                         $words = $wordsDAO->getWords($wordCandidate, 'exact');
                         $num = count($words);
+                        //error_log("chinesetext.php: num: " . $num);
                         if ($num == 1) {
                             // Single word found
                             $elements[] = new TextElement($wordCandidate, 1, $words[0], 1);

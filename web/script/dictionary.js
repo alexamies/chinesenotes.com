@@ -21,7 +21,7 @@ textApp.controller('textCtrl', function($scope, $http, $sce) {
     }).success(function(data) {
       $("#lookup-help-block").hide();
       $scope.results = data;
-      //alert($scope.results.words)
+      //console.log($scope.results.words)
       if ($scope.results.words && $scope.results.words.length == 0) {
           $scope.results = {"msg": "No results found"};
       }

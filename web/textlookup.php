@@ -3,9 +3,12 @@
 require_once 'inc/chinesetext.php' ;
 mb_internal_encoding('UTF-8');
 header('Content-Type: text/json;charset=utf-8');
-$text = $_POST['text'];
+$text = $_POST['text'] ? $_POST['text'] : '';
 //error_log("textlookup.php: Length of text: " . strlen($text));
-if (mb_strlen($text) > 100) {
+if (strlen($text) == 0) {
+    print('{"error":"No text entered. Please enter something."}' .
+          '{"words":"[]"}');
+} else if (mb_strlen($text) > 100) {
     print('{"error":"Too long. Text cannot exceed 100 characters."}');
 } else {
     $langType = 'literary';

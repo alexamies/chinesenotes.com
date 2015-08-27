@@ -3,9 +3,6 @@
 	require_once 'inc/illustration_dao.php' ;
 
 	header('Content-Type: text/html;charset=utf-8');
-	session_start();
-	$conceptTitle = $_SESSION['conceptTitle'];
-	$conceptURL = $_SESSION['conceptURL'];
 
 	// Retrieve image information from database
 	$mediumResolution = $_REQUEST['mediumResolution'];
@@ -31,7 +28,7 @@
   <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
     <title>Image Use 图片用法</title>
-    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="shortcut icon" href="images/ren.png" type="image/png" />
     <link rel="stylesheet" type="text/css" href="styles.css"/>
     <meta name="keywords" content="Image Use 图片用法"/>
     <meta name="description" content="Image Use 图片用法"/>
@@ -39,10 +36,8 @@
   </head>
   <body class="article">
 <?php
-  	require_once 'ad_header.txt' ;
 	print("<div class='breadcrumbs'>");
   	print("<a href='index.html'>Chinese Notes 中文笔记</a> &gt; ");
-  	print("<a href='" . $conceptURL . "'>" . $conceptTitle . "</a> &gt; ");
   	print("图片用法 Image Use");
 
 	if ($illustration) {
@@ -72,7 +67,4 @@
 	}
 ?>
   </body>
-<?php
-  include "footer2.txt";
-?>  
 </html>

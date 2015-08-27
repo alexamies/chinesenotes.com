@@ -3,9 +3,12 @@
 require_once 'inc/words_dao.php' ;
 mb_internal_encoding('UTF-8');
 header('Content-Type: text/json;charset=utf-8');
-$text = $_POST['text'];
-//error_log("Query text: $text");
-if (strlen($text) > 100) {
+$text = $_POST['text'] ? $_POST['text'] : '';
+//error_log("englishsearch.php: Query text $text");
+if (strlen($text) == 0) {
+    print('{"error":"No text entered. Please enter something."}' .
+          '{"words":"[]"}');
+} else if (strlen($text) > 100) {
     print('{"error":"Too long. Text cannot exceed 100 characters."}' .
           '{"words":"[]"}');
 } else {
@@ -33,7 +36,7 @@ if (strlen($text) > 100) {
                   '},';
     }
     $words = rtrim($words, ",") . "]";
-    error_log("words: $words \n");
+    //error_log("words: $words \n");
     print('{"words":' . $words . "}");
 }
 ?>

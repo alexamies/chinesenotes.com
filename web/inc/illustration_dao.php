@@ -98,8 +98,10 @@ class IllustrationDAO {
 					$row[7], 
 					$row[8]
 					);
+		    //error_log("getAllIllustrationByMedRes, illustration found.");
+		} else {
+		    //error_log("getAllIllustrationByMedRes, no illustration found.");			
 		}
-		//error_log("getAllIllustrationByMedRes, results returned: " . count($illustrations));
 		$databaseUtils->free_result($result);
 
 		$databaseUtils->close();

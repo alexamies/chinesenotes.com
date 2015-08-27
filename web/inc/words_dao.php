@@ -51,14 +51,14 @@ class WordsDAO {
 		if  ($matchType == 'exact') {
 		    $query = 
 				"SELECT id, simplified, traditional, pinyin, english, grammar, concept_cn, concept_en, topic_cn, " .
-				"topic_en, parent_cn, parent_en, image, mp3, notes, hsk, ll, zoom " .
+				"topic_en, parent_cn, parent_en, image, mp3, notes " .
 				"FROM words " .
 				"WHERE simplified = '$word' OR traditional = '$word' OR english = '$word'"
 				;
 		} else {
 		    $query = 
 				"SELECT id, simplified, traditional, pinyin, english, grammar, concept_cn, concept_en, topic_cn, " .
-				"topic_en, parent_cn, parent_en, image, mp3, notes, hsk, ll, zoom " .
+				"topic_en, parent_cn, parent_en, image, mp3, notes " .
 				"FROM words " .
 				"WHERE simplified like '" . '%' . $word . '%' . "'" .
 				" OR traditional like '" . '%' . $word . '%' . "'" .
