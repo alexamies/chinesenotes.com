@@ -35,6 +35,16 @@ func TestIsCJKWord3(t *testing.T) {
 	}
 }
 
+// Both traditional and simplified
+func TestIsCJKWord4(t *testing.T) {
+	ReadDict("../testdata/testwords.txt")
+	result := IsCJKWord("古人")
+	if !result {
+		fmt.Printf("TestIsCJKWord4: Testing Chinese 古人\n")
+		t.Error("Expected true, got ", result)
+	}
+}
+
 func TestGetChunks1(t *testing.T) {
 	ReadDict("../testdata/testwords.txt")
 	chunks := GetChunks("中文")
@@ -203,6 +213,24 @@ func TestParseText2(t *testing.T) {
 		if !ok {
 			t.Error("Expected to find vocab entry for 繁體 but did not.")
 		}
+	}
+}
+
+func TestParseText3(t *testing.T) {
+	//fmt.Printf("TestParseText2: Begin +++++++++++\n")
+	ReadDict("../testdata/testwords.txt")
+	tokens, _ := ParseText("前不见古人")
+	if tokens.Len() != 3 {
+		t.Error("Expected to get length 3, got ", tokens.Len())
+	}
+	expected := []string{"前", "不见", "古人"}
+	i := 0
+	for e := tokens.Front(); e != nil; e = e.Next() {
+		word := e.Value.(string)
+		if expected[i] != e.Value.(string) {
+			t.Error("Failed to get expected word", expected[i], word, i)
+		}
+		i++
 	}
 }
 

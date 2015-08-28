@@ -163,11 +163,11 @@ func ParseText(text string) (tokens list.List, vocab map[string]bool) {
 				w := strings.Join(characters[i:j], "")
 				//fmt.Printf("ParseText: i = %d, j = %d, w = %s\n", i, j, w)
 				if _, ok := wdict[w]; ok {
+					//fmt.Printf("ParseText: found word %s, i = %d\n", w, i)
 					tokens.PushBack(w)
 					vocab[w] = true
-					i += j - 1
+					i = j - 1
 					j = 0
-					//fmt.Printf("ParseText: found word %s, i = %d\n", w, i)
 				}
 			}
 		}
