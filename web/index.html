@@ -7,7 +7,8 @@
     <meta name="description" content="Chinese language notes">
     <link rel="shortcut icon" href="images/ren.png" type="image/png" />
     <title>Chinese language notes</title>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" 
+    href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="chinesenotes.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -27,14 +28,16 @@
     </script>
     <div class="starter-template">
       <div class="row">
-        <div class="span2"><img id="logo" src="images/ren.png" alt="Logo" class="pull-left"/></div>
+        <div class="span2"><img id="logo" src="images/ren.png" alt="Logo" 
+          class="pull-left"/></div>
         <div class="span7"><h1>Chinese Notes</h1></div>
       </div>
     </div>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" 
+          data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -46,7 +49,6 @@
           <ul class="nav navbar-nav">
             <li><a href="texts.html">Texts</a></li>
             <li><a href="tools.html">Tools</a></li>
-            <li><a href="culture.html">Culture</a></li>
             <li><a href="reference.html">Reference</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -57,18 +59,22 @@
       <div>
         <h2>Chinese Text Dictionary Lookup</h2>
         <p>
-          Paste Chinese text into the input field below to find each word and its meaning.
+          Paste Chinese text into the input field below to find each word and
+          its meaning.
         </p>
-        <form name="textForm" role="form" class="simple-form" ng-submit="submit()">
+        <form name="textForm" role="form" class="simple-form" 
+              ng-submit="submit()">
           <div class="form-group">
             <label for="textInput" class="control-label">Text</label>
-            <input type="text" class="form-control" name="text" id="text" ng-model="formData.text"/>
+            <input type="text" class="form-control" name="text" id="text" 
+                  ng-model="formData.text"/>
           </div>
           <p class="panel-group" id="accordion">
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  <a data-toggle="collapse" data-parent="#accordion" 
+                     href="#collapseOne">
                     Options
                   </a>
                 </h4>
@@ -77,24 +83,35 @@
                 <div class="panel-body">
                    <div class="form-group">
                      Text type: 
-                     <input type="radio" ng-model="formData.langtype" name="langtype" 
+                     <input type="radio" ng-model="formData.langtype" 
+                            name="langtype" 
                             id="langtype-modern" value="modern"/>
-                     <label for="langtype-modern" class="control-label">modern Chinese</label>
-                     <input type="radio" ng-model="formData.langtype" name="langtype" 
+                     <label for="langtype-modern" class="control-label">modern 
+                       Chinese
+                     </label>
+                     <input type="radio" ng-model="formData.langtype" 
+                            name="langtype" 
                             id="langtype-literary" value="literary"/>
-                     <label for="langtype-literary" class="control-label">literary Chinese</label>
+                     <label for="langtype-literary" 
+                            class="control-label">literary Chinese</label>
                    </div>
                    <div class="form-group">
                      Match type: 
-                     <input type="radio" ng-model="formData.matchtype" name="matchtype" 
+                     <input type="radio" ng-model="formData.matchtype" 
+                            name="matchtype" 
                             id="matchtype-approx" value="approximate"/>
-                     <label for="matchtype-approx" class="control-label">multi-line / approximate</label>
-                     <input type="radio" ng-model="formData.matchtype" name="matchtype" 
+                     <label for="matchtype-approx" 
+                          class="control-label">multi-line / approximate</label>
+                     <input type="radio" ng-model="formData.matchtype" 
+                            name="matchtype" 
                             id="matchtype-partial" value="partial"/>
-                     <label for="matchtype-partial" class="control-label">partial</label>
-                     <input type="radio" ng-model="formData.matchtype" name="matchtype" 
+                     <label for="matchtype-partial" 
+                            class="control-label">partial</label>
+                     <input type="radio" ng-model="formData.matchtype" 
+                            name="matchtype" 
                             id="matchtype-exact" value="exact"/>
-                     <label for="matchtype-exact" class="control-label">exact</label>
+                     <label for="matchtype-exact" 
+                            class="control-label">exact</label>
                    </div>
                 </div>
               </div>
@@ -104,8 +121,8 @@
             <button type="submit" class="btn btn-default">Search</button>
           </div>
           <span id="lookup-help-block" class="help-block">
-            Search for words using Chinese text, English words, or analyze an entire text block.
-            Try this example: 奥巴马总统说.
+            Search for words using Chinese text, English words, or analyze an
+            entire text block. Try this example: 奥巴马总统说.
             There is a maximum of 100 characters allowed for text search.
             Either simplified or traditional Chinese can be used for queries.
             Try this traditional Chinese example: 奧巴馬總統說.
@@ -120,7 +137,9 @@
           <thead>
             <tr>
               <th>Chinese Text</th>
-              <th><a href="/syllables_ipa.html" title="Pinyin and IPA Representations" target="_window2">Pinyin</a></th>
+              <th><a href="/syllables_ipa.html" 
+                     title="Pinyin and IPA Representations" 
+                     target="_window2">Pinyin</a></th>
               <th>English</th>
               <th>Notes</th>
           </tr>
@@ -128,13 +147,15 @@
           <tbody>
             <tr ng-repeat="word in results.words"">
               <td ng-if="word.count == 0">{{word.text}}</td>
-              <td ng-if="word.count > 0"><a href="word_detail3.php?id={{word.id}}">{{word.text}}</a></td>
+              <td ng-if="word.count > 0"><a 
+                  href="word_detail3.php?id={{word.id}}">{{word.text}}</a></td>
               <td>{{word.pinyin}}</td>
               <td>{{word.english}}</td>
               <td>
                 <span ng-bind-html="word.notes"></span>
                 <a ng-if="word.count>1"
-                   ng-href="word_detail3.php?word={{word.text}}&matchType=exact">See all {{word.count}} word senses</a>
+                   ng-href="word_detail3.php?word={{word.text}}&matchType=exact">See 
+                   all {{word.count}} word senses</a>
               </td>
             </tr>
           </tbody>
@@ -148,10 +169,15 @@
       </p>
       <p>
         Copyright Fo Guang Shan Nan Tien Institute 佛光山南天大學 2013-2015, 
-        <a href="http://www.nantien.edu.au/" title="Fo Guang Shan Nan Tien Institute">www.nantien.edu.au</a>. 
-        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. See <a href='about.php'>About</a>. Please send comments to alex@chinesenotes.com.
+        <a href="http://www.nantien.edu.au/" title="Fo Guang Shan Nan Tien 
+        Institute">www.nantien.edu.au</a>. 
+        This work is licensed under a <a rel="license" 
+        href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+        Attribution 4.0 International License</a>. See <a 
+        href='about.php'>About</a>. Please send comments to 
+        alex@chinesenotes.com.
       </p>
-      <p>This page was last updated on August 26, 2015.</p>
+      <p>This page was last updated on 2015-09-07.</p>
     </div>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
