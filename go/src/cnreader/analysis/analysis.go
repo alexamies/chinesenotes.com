@@ -146,8 +146,8 @@ func ReadText(filename string) (string) {
 // text: the string to parse
 // tokens: the tokens for the parsed text
 // vocab: a table of the unique words found in the parsed text
-func ParseText(text string) (tokens list.List, vocab map[string]bool) {
-	vocab = make(map[string]bool)
+func ParseText(text string) (tokens list.List, vocab map[string]int) {
+	vocab = make(map[string]int)
 	chunks := GetChunks(text)
 	//fmt.Printf("ParseText: For text %s got %d chunks\n", text, chunks.Len())
 	for e := chunks.Front(); e != nil; e = e.Next() {
@@ -165,7 +165,11 @@ func ParseText(text string) (tokens list.List, vocab map[string]bool) {
 				if _, ok := wdict[w]; ok {
 					//fmt.Printf("ParseText: found word %s, i = %d\n", w, i)
 					tokens.PushBack(w)
-					vocab[w] = true
+					if _, ok := vocab[w]; ok {
+						vocab[w]++
+					} else {
+						vocab[w] = 1
+					}
 					i = j - 1
 					j = 0
 				}
@@ -175,11 +179,38 @@ func ParseText(text string) (tokens list.List, vocab map[string]bool) {
 	return tokens, vocab
 }
 
+
+// Writes a document with vocabulary analysis of the text
+// vocab: A list of word id's in the document
+// filename: The file name to write to
+func WriteAnalysis(vocab map[string]int, filename string) {
+	f, err := os.Create(filename)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer f.Close()
+	w := bufio.NewWriter(f)
+	w.WriteString(
+`<!DOCTYPE html>
+<html lang='en'>
+<body>
+<h1>Vocabulary Analysis</h1>
+`)
+	for key, count := range vocab {
+		fmt.Fprintf(w, "<p>%s %d</p>\n", key, count)
+	}
+	w.WriteString(
+`</body>
+</html>
+`)
+	w.Flush()
+}
+
 // Writes a document with markup for the array of tokens
 // tokens: A list of tokens forming the document
 // vocab: A list of word id's in the document
 // filename: The file name to write to
-func WriteDoc(tokens list.List, vocab map[string]bool, filename string) {
+func WriteDoc(tokens list.List, vocab map[string]int, filename string) {
 	f, err := os.Create(filename)
 	if err != nil {
 		log.Fatal(err)

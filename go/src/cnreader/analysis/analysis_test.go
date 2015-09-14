@@ -234,9 +234,15 @@ func TestParseText3(t *testing.T) {
 	}
 }
 
+func TestWriteAnalysis(t *testing.T) {
+	_, vocab := ParseText("繁")
+	outfile := "../testoutput/output-analysis.html"
+	WriteAnalysis(vocab, outfile)
+}
+
 func TestWriteDoc1(t *testing.T) {
 	tokens, vocab := ParseText("繁")
-	outfile := "../testdata/output.html"
+	outfile := "../testoutput/output.html"
 	WriteDoc(tokens, vocab, outfile)
 }
 

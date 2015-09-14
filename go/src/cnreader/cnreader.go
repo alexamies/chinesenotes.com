@@ -6,8 +6,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	analysis "cnreader/analysis"
-	config "cnreader/config"
+	"cnreader/analysis"
+	"cnreader/config"
 )
 
 //Entry point for the chinesenotes command line tool.
