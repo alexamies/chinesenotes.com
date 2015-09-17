@@ -196,8 +196,9 @@ func WriteAnalysis(vocab map[string]int, filename string) {
 <body>
 <h1>Vocabulary Analysis</h1>
 `)
-	for key, count := range vocab {
-		fmt.Fprintf(w, "<p>%s %d</p>\n", key, count)
+	sortedWords := SortedFreq(vocab)
+	for _, key := range sortedWords {
+		fmt.Fprintf(w, "<p>%s %d</p>\n", key, vocab[key])
 	}
 	w.WriteString(
 `</body>
