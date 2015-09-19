@@ -5,6 +5,7 @@ package analysis
 
 import (
 	"bufio"
+	"bytes"
 	"container/list"
 	"encoding/csv"
 	"fmt"
@@ -143,10 +144,13 @@ func ReadText(filename string) (string) {
 }
 
 // Parses a Chinese text into words
+// Parameters:
 // text: the string to parse
+// Returns:
 // tokens: the tokens for the parsed text
 // vocab: a table of the unique words found in the parsed text
-func ParseText(text string) (tokens list.List, vocab map[string]int) {
+// wc: total word count
+func ParseText(text string) (tokens list.List, vocab map[string]int, wc int) {
 	vocab = make(map[string]int)
 	chunks := GetChunks(text)
 	//fmt.Printf("ParseText: For text %s got %d chunks\n", text, chunks.Len())
@@ -165,6 +169,7 @@ func ParseText(text string) (tokens list.List, vocab map[string]int) {
 				if _, ok := wdict[w]; ok {
 					//fmt.Printf("ParseText: found word %s, i = %d\n", w, i)
 					tokens.PushBack(w)
+					wc++
 					if _, ok := vocab[w]; ok {
 						vocab[w]++
 					} else {
@@ -176,14 +181,15 @@ func ParseText(text string) (tokens list.List, vocab map[string]int) {
 			}
 		}
 	}
-	return tokens, vocab
+	return tokens, vocab, wc
 }
 
 
 // Writes a document with vocabulary analysis of the text
 // vocab: A list of word id's in the document
 // filename: The file name to write to
-func WriteAnalysis(vocab map[string]int, filename string) {
+// wc: Word count
+func WriteAnalysis(vocab map[string]int, filename string, wc int) {
 	f, err := os.Create(filename)
 	if err != nil {
 		log.Fatal(err)
@@ -196,6 +202,7 @@ func WriteAnalysis(vocab map[string]int, filename string) {
 <body>
 <h1>Vocabulary Analysis</h1>
 `)
+	fmt.Fprintf(w, "<p>Word count: %d</p>", wc)
 	sortedWords := SortedFreq(vocab)
 	for _, key := range sortedWords {
 		fmt.Fprintf(w, "<p>%s %d</p>\n", key, vocab[key])
@@ -218,10 +225,11 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename string) {
 	}
 	defer f.Close()
 	w := bufio.NewWriter(f)
+	// Iterate over text chunks
 	for e := tokens.Front(); e != nil; e=e.Next() {
-		word := e.Value.(string)
+		chunk := e.Value.(string)
 		//fmt.Printf("WriteDoc: Word %s\n", word)
-		if entries, ok := GetWord(word); ok {
+		if entries, ok := GetWord(chunk); ok {
 			wordIds := ""
 			for _, ws := range entries {
 				if wordIds == "" {
@@ -232,35 +240,47 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename string) {
 			}
 			fmt.Fprintf(w, "<span title='%s' data-wordid='%s'" +
 					" class='dict-entry' data-toggle='popover'>%s</span>",
-					word, wordIds, word)
+					chunk, wordIds, chunk)
 		} else {
-			index := strings.Index(word, "<!-- words here -->")
+			index := strings.Index(chunk, "<!-- words here -->")
 			if index == -1 {
-				w.WriteString(word)
+				w.WriteString(chunk)
 			} else {
-				w.WriteString(word[:index])
-				w.WriteString("\n")
-				w.WriteString("<script>\n")
-				w.WriteString("words = {\n")
-				for key, _ := range vocab {
-					if entries, ok := GetWord(key); ok {
-						for _, ws := range entries {
-							fmt.Fprintf(w, "\"%d\":{\"element_text\":\"%s\"," +
-									"\"simplified\":\"%s\"," +
-									"\"traditional\":\"%s\"," +
-									"\"pinyin\":\"%s\",\"english\":\"%s\"," +
-									"\"notes\":\"%s\"},\n", ws.Id, key,
-									ws.Simplified, ws.Traditional, ws.Pinyin,
-									ws.English, ws.Notes)
-						}
-					} 
-				}
-				w.WriteString("}\n")
-				w.WriteString("</script>\n")
-				w.WriteString(word[index:])
-				w.WriteString("\n")
+				vocabJSON := WriteVocab(chunk, index, vocab)
+				w.WriteString(vocabJSON)
 			}
 		}
 	}
 	w.Flush()
+}
+
+
+// Writes the vocabulary out to a string in JSON format
+// chunk: A chunk of text
+// vocab: A list of word id's in the document
+// return a JSON formatted string with the vocabulary
+func WriteVocab(chunk string, index int, vocab map[string]int) string {
+	buffer := bytes.NewBufferString("");
+	buffer.WriteString(chunk[:index])
+	buffer.WriteString("\n")
+	buffer.WriteString("<script>\n")
+	buffer.WriteString("words = {\n")
+	for key, _ := range vocab {
+		if entries, ok := GetWord(key); ok {
+			for _, ws := range entries {
+				fmt.Fprintf(buffer, "\"%d\":{\"element_text\":\"%s\"," +
+					"\"simplified\":\"%s\"," +
+					"\"traditional\":\"%s\"," +
+					"\"pinyin\":\"%s\",\"english\":\"%s\"," +
+					"\"notes\":\"%s\"},\n", ws.Id, key,
+					ws.Simplified, ws.Traditional, ws.Pinyin,
+					ws.English, ws.Notes)
+			}
+		} 
+	}
+	buffer.WriteString("}\n")
+	buffer.WriteString("</script>\n")
+	buffer.WriteString(chunk[index:])
+	buffer.WriteString("\n")
+	return buffer.String()
 }

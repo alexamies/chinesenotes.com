@@ -1,0 +1,8 @@
+# Literary Chinese prose corpus
+# Paths are relative to the web directory
+../corpus/classical_chinese_text-raw.html	classical_chinese_text.html
+../corpus/classical_chinese_zhanguoce-raw.html	classical_chinese_zhanguoce.html
+../corpus/classical_chinese_zhuangzi-raw.html	classical_chinese_zhuangzi.html
+../corpus/classical_chinese_shiji-raw.html	classical_chinese_shiji.html
+../corpus/classical_chinese_hanfeizi-raw.html	classical_chinese_hanfeizi.html
+../corpus/classical_chinese_mengzi-raw.html	classical_chinese_mengzi.html

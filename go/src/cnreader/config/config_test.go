@@ -13,7 +13,7 @@ func TestGetHTMLConversions(t *testing.T) {
 	if len(conversions) == 0 {
 		t.Error("No conversions found")
 	}
-	if conversions[0].SrcFile != "classical_chinese-raw.html" {
+	if conversions[0].SrcFile != "../corpus/classical_chinese-raw.html" {
 		t.Error("Expected source file classical_chinese-raw.html, got ",
 			conversions[0].SrcFile)
 	}

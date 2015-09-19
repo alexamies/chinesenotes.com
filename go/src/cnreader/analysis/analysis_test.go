@@ -179,7 +179,7 @@ func TestReadText2(t *testing.T) {
 
 func TestParseText1(t *testing.T) {
 	ReadDict("../testdata/testwords.txt")
-	tokens, vocab := ParseText("繁體中文")
+	tokens, vocab, wc := ParseText("繁體中文")
 	if tokens.Len() != 2 {
 		t.Error("Expected to get length 2, got ", tokens.Len())
 		first := tokens.Front().Value.(string)
@@ -194,14 +194,20 @@ func TestParseText1(t *testing.T) {
 			t.Error("Expected to find vocab entry for 繁體 but did not.")
 		}
 	}
+	if wc != 2 {
+		t.Error("Expected to get wc = 2, got ", wc)
+	}
 }
 
 func TestParseText2(t *testing.T) {
 	//fmt.Printf("TestParseText2: Begin +++++++++++\n")
 	ReadDict("../testdata/testwords.txt")
-	tokens, vocab := ParseText("a繁體中文")
+	tokens, vocab, wc := ParseText("a繁體中文")
 	if tokens.Len() != 3 {
 		t.Error("Expected to get length 3, got ", tokens.Len())
+	}
+	if wc != 2 {
+		t.Error("Expected to get wc 2, got ", wc)
 	}
 	first := tokens.Front().Value.(string)
 	if first != "a" {
@@ -219,9 +225,12 @@ func TestParseText2(t *testing.T) {
 func TestParseText3(t *testing.T) {
 	//fmt.Printf("TestParseText2: Begin +++++++++++\n")
 	ReadDict("../testdata/testwords.txt")
-	tokens, _ := ParseText("前不见古人")
+	tokens, _, wc := ParseText("前不见古人")
 	if tokens.Len() != 3 {
 		t.Error("Expected to get length 3, got ", tokens.Len())
+	}
+	if wc != 3 {
+		t.Error("Expected to get wc 3, got ", wc)
 	}
 	expected := []string{"前", "不见", "古人"}
 	i := 0
@@ -235,13 +244,13 @@ func TestParseText3(t *testing.T) {
 }
 
 func TestWriteAnalysis(t *testing.T) {
-	_, vocab := ParseText("繁")
+	_, vocab, wc := ParseText("繁")
 	outfile := "../testoutput/output-analysis.html"
-	WriteAnalysis(vocab, outfile)
+	WriteAnalysis(vocab, outfile, wc)
 }
 
 func TestWriteDoc1(t *testing.T) {
-	tokens, vocab := ParseText("繁")
+	tokens, vocab, _ := ParseText("繁")
 	outfile := "../testoutput/output.html"
 	WriteDoc(tokens, vocab, outfile)
 }
@@ -249,7 +258,7 @@ func TestWriteDoc1(t *testing.T) {
 func TestWriteDoc2(t *testing.T) {
 	ReadDict("../testdata/testwords.txt")
 	text := ReadText("../testdata/test.html")
-	tokens, vocab := ParseText(text)
+	tokens, vocab, _ := ParseText(text)
 	if tokens.Len() != 4 {
 		t.Error("Expected to get length 4, got ", tokens.Len())
 	}
@@ -260,7 +269,7 @@ func TestWriteDoc2(t *testing.T) {
 func TestWriteDoc3(t *testing.T) {
 	ReadDict("../testdata/testwords.txt")
 	text := ReadText("../testdata/test-simplified.html")
-	tokens, vocab := ParseText(text)
+	tokens, vocab, _ := ParseText(text)
 	if tokens.Len() != 6 {
 		t.Error("Expected to get length 6, got ", tokens.Len())
 	}

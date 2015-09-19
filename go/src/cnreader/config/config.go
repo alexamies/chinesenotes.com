@@ -14,7 +14,7 @@ const conversionsFile = "data/corpus/html-conversion.csv"
 var projectHome string
 
 // A type that holds the source and destination files for HTML conversion
-type HTMLConversions struct {
+type HTMLConversion struct {
 	SrcFile, DestFile string
 }
 
@@ -28,7 +28,7 @@ func ProjectHome() string {
 }
 
 // Gets the list of source and destination files for HTML conversion
-func GetHTMLConversions() []HTMLConversions {
+func GetHTMLConversions() []HTMLConversion {
 	conversionsFile := projectHome + "/" + conversionsFile
 	convFile, err := os.Open(conversionsFile)
 	if err != nil {
@@ -38,13 +38,14 @@ func GetHTMLConversions() []HTMLConversions {
 	reader := csv.NewReader(convFile)
 	reader.FieldsPerRecord = -1
 	reader.Comma = rune('\t')
+	reader.Comment = rune('#')
 	rawCSVdata, err := reader.ReadAll()
 	if err != nil {
 		log.Fatal(err)
 	}
-	conversions := make([]HTMLConversions, 0)
+	conversions := make([]HTMLConversion, 0)
 	for _, row := range rawCSVdata {
-		conversions = append(conversions, HTMLConversions{row[0], row[1]})
+		conversions = append(conversions, HTMLConversion{row[0], row[1]})
 	}
 	return conversions
 }

@@ -17,7 +17,9 @@ func TestSortedFreq(t *testing.T) {
 	if sortedWords[0] != "three" {
 		t.Error("Expected that 'three' to be the most frequent word")
 	}
+	/*
 	for _, w := range sortedWords {
 		fmt.Printf("TestSortedFreq: %v : %v\n", w, wordFreq[w])
 	}
+	*/
 }
