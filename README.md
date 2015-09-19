@@ -38,8 +38,13 @@ $ sudo vi /etc/apache2/sites-enabled/000-default
 
 $ sudo apachectl restart
 
-### Go tool for generating markup for HTML page popovers
+### Go command line tool
+Generates markup for HTML page popovers
+
 Install go (see https://golang.org/doc/install)
+
 $ cd go/src/cnreader
+
 $ go build
+
 $ ./cnreader -all
