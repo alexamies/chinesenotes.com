@@ -7,41 +7,73 @@ import (
 )
 
 // Both traditional and simplified
-func TestIsCJKWord1(t *testing.T) {
-	fmt.Printf("TestIsCJKWord1: Begin unit tests\n")
-	ReadDict("../testdata/testwords.txt")
-	result := IsCJKWord("中文")
+func TestIsCJKChar1(t *testing.T) {
+	fmt.Printf("TestIsCJKChar1: Begin unit tests\n")
+	c := "中"
+	result := IsCJKChar(c)
 	if !result {
+		fmt.Printf("TestIsCJKChar1: Testing Chinese %s\n", c)
 		t.Error("Expected true, got ", result)
 	}
 }
 
 // Non-Chinese
-func TestIsCJKWord2(t *testing.T) {
-	ReadDict("../testdata/testwords.txt")
-	result := IsCJKWord("a")
+func TestIsCJKChar2(t *testing.T) {
+	c := "a"
+	result := IsCJKChar(c)
 	if result {
+		fmt.Printf("TestIsCJKChar2: Testing Chinese %s\n", c)
 		t.Error("Expected false, got ", result)
 	}
 }
 
 // Simplified Chinese
-func TestIsCJKWord3(t *testing.T) {
-	ReadDict("../testdata/testwords.txt")
-	result := IsCJKWord("简体")
+func TestIsCJKChar3(t *testing.T) {
+	c := "简"
+	result := IsCJKChar(c)
 	if !result {
-		fmt.Printf("TestIsCJKWord3: Testing simplified Chinese 简体\n")
+		fmt.Printf("TestIsCJKChar3: Testing Chinese %s\n", c)
 		t.Error("Expected true, got ", result)
 	}
 }
 
 // Both traditional and simplified
-func TestIsCJKWord4(t *testing.T) {
-	ReadDict("../testdata/testwords.txt")
-	result := IsCJKWord("古人")
+func TestIsCJKChar4(t *testing.T) {
+	c := "古"
+	result := IsCJKChar(c)
 	if !result {
-		fmt.Printf("TestIsCJKWord4: Testing Chinese 古人\n")
+		fmt.Printf("TestIsCJKChar4: Testing Chinese %s\n", c)
 		t.Error("Expected true, got ", result)
+	}
+}
+
+// Test for punctuation
+func TestIsCJKChar5(t *testing.T) {
+	c := "。"
+	result := IsCJKChar(c)
+	if result {
+		fmt.Printf("TestIsCJKChar5: Testing Chinese %s\n", c)
+		t.Error("Expected false, got ", result)
+	}
+}
+
+// Test for punctuation
+func TestIsCJKChar6(t *testing.T) {
+	c := "，"
+	result := IsCJKChar(c)
+	if result {
+		fmt.Printf("TestIsCJKChar6: Testing Chinese %s\n", c)
+		t.Error("Expected false, got ", result)
+	}
+}
+
+// Test for punctuation
+func TestIsCJKChar7(t *testing.T) {
+	c := "-"
+	result := IsCJKChar(c)
+	if result {
+		fmt.Printf("TestIsCJKChar7: Testing Chinese %s\n", c)
+		t.Error("Expected false, got ", result)
 	}
 }
 

@@ -14,14 +14,15 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"unicode"
 )
 
 // Defines the sense of a Chinese word
 type WordSenseEntry struct {
 	Id int
 	Simplified, Traditional, Pinyin, English, Grammar, Concept_cn,
-			Concept_en, Topic_cn, Topic_en, Parent_cn, Parent_en, Image,
-			Mp3, Notes string
+		Concept_en, Topic_cn, Topic_en, Parent_cn, Parent_en, Image,
+		Mp3, Notes string
 }
 
 // The dictionary is a map of pointers to word senses, indexed by simplified
@@ -34,7 +35,7 @@ func GetChunks(text string) (list.List) {
 	cjk := ""
 	noncjk := ""
 	for _, character := range text {
-		if IsCJKWord(string(character)) {
+		if IsCJKChar(string(character)) {
 			if noncjk != "" {
 				chunks.PushBack(noncjk)
 				noncjk = ""
@@ -78,9 +79,12 @@ func GetWord(chinese string) (word []*WordSenseEntry, ok bool) {
 	return word, ok
 }
 
-func IsCJKWord(character string) bool {
-	_, ok := wdict[character]
-	return ok
+// Tests whether the symbol is a CJK character, excluding punctuation
+// Only looks at the first charater in the string
+func IsCJKChar(character string) bool {
+	r := []rune(character)
+	unicode.Is(unicode.Han, r[0])
+	return unicode.Is(unicode.Han, r[0]) && !unicode.IsPunct(r[0])
 }
 
 // Reads the Chinese-English dictionary into memory from the word sense file
@@ -158,7 +162,7 @@ func ParseText(text string) (tokens list.List, vocab map[string]int, wc int) {
 		chunk := e.Value.(string)
 		//fmt.Printf("ParseText: chunk %s\n", chunk)
 		characters := strings.Split(chunk, "")
-		if !IsCJKWord(characters[0]) {
+		if !IsCJKChar(characters[0]) {
 			tokens.PushBack(chunk)
 			continue
 		}
@@ -177,6 +181,8 @@ func ParseText(text string) (tokens list.List, vocab map[string]int, wc int) {
 					}
 					i = j - 1
 					j = 0
+				} else if (len([]rune(w)) == 1) {
+					fmt.Printf("ParseText: found unknown character %s\n", w)
 				}
 			}
 		}

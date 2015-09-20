@@ -12,9 +12,9 @@ func TestCollections(t *testing.T) {
 	if len(collections) == 0 {
 		t.Error("No collections found")
 	}
-	if collections[0] != "literary_chinese_prose.csv" {
-		t.Error("Expected fentry html-conversion.csv, got ",
-			collections[0])
+	expected := "literary_chinese_prose.csv"
+	if collections[0] != expected {
+		t.Error("Expected entry ", expected, ", got ", collections[0])
 	}
 }
 
@@ -24,8 +24,8 @@ func TestCorpusEntries(t *testing.T) {
 	if len(corpusEntries) == 0 {
 		t.Error("No corpus entries found")
 	}
-	if corpusEntries[0].RawFile != "../corpus/classical_chinese_text-raw.html" {
-		t.Error("Expected entry ../corpus/classical_chinese_text-raw.html, got ",
+	if corpusEntries[0].RawFile != "classical_chinese_text-raw.html" {
+		t.Error("Expected entry classical_chinese_text-raw.html, got ",
 			corpusEntries[0].RawFile)
 	}
 	if corpusEntries[0].GlossFile != "classical_chinese_text.html" {
