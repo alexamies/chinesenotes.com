@@ -6,16 +6,24 @@ package analysis
 import (
 	"bufio"
 	"bytes"
+	"cnreader/config"
 	"container/list"
 	"encoding/csv"
 	"fmt"
+	"text/template"
 	"io/ioutil"
 	"log"
 	"os"
 	"strconv"
 	"strings"
+	"time"
 	"unicode"
 )
+
+// The content for a corpus entry
+type CorpusEntryContent struct {
+	CorpusText, DateUpdated, VocabularyJSON string
+}
 
 // Defines the sense of a Chinese word
 type WordSenseEntry struct {
@@ -23,6 +31,11 @@ type WordSenseEntry struct {
 	Simplified, Traditional, Pinyin, English, Grammar, Concept_cn,
 		Concept_en, Topic_cn, Topic_en, Parent_cn, Parent_en, Image,
 		Mp3, Notes string
+}
+
+// Holds vocabulary analysis for a corpus text
+type AnalysisResults struct {
+	WC int
 }
 
 // The dictionary is a map of pointers to word senses, indexed by simplified
@@ -190,7 +203,6 @@ func ParseText(text string) (tokens list.List, vocab map[string]int, wc int) {
 	return tokens, vocab, wc
 }
 
-
 // Writes a document with vocabulary analysis of the text
 // vocab: A list of word id's in the document
 // filename: The file name to write to
@@ -217,6 +229,70 @@ func WriteAnalysis(vocab map[string]int, filename string, wc int) {
 `</body>
 </html>
 `)
+	w.Flush()
+}
+
+// Writes a document with vocabulary analysis of the text
+func WriteAnalysis2(wc int) {
+	results := AnalysisResults{wc}
+	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles("/Users/alex/Documents/code/chinesenotes.com/corpus/corpus-analysis-template.html")
+	if err != nil { panic(err) }
+	if tmpl == nil {
+		fmt.Println("WriteAnalysis2: Template is nil ")
+		panic(err)
+	}
+	err = tmpl.Execute(os.Stdout, results)
+	if err != nil { panic(err) }
+}
+
+// Writes a corpus document with markup for the array of tokens
+// tokens: A list of tokens forming the document
+// vocab: A list of word id's in the document
+// filename: The file name to write to
+// HTML template to use
+func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string) {
+
+	var buffer bytes.Buffer
+
+	// Iterate over text chunks
+	for e := tokens.Front(); e != nil; e=e.Next() {
+		chunk := e.Value.(string)
+		//fmt.Printf("WriteDoc: Word %s\n", word)
+		if entries, ok := GetWord(chunk); ok {
+			wordIds := ""
+			for _, ws := range entries {
+				if wordIds == "" {
+					wordIds = fmt.Sprintf("%d", ws.Id)
+				} else {
+					wordIds = fmt.Sprintf("%s,%d", wordIds, ws.Id)
+				}
+			}
+			fmt.Fprintf(&buffer, "<span title='%s' data-wordid='%s'" +
+					" class='dict-entry' data-toggle='popover'>%s</span>",
+					chunk, wordIds, chunk)
+		} else {
+			buffer.WriteString(chunk)
+		}
+	}
+
+	textContent := buffer.String()
+	dateUpdated := time.Now().Format("2006-01-02")
+	vocabJSON := WriteVocab("", 0, vocab)
+	content := CorpusEntryContent{textContent, dateUpdated, vocabJSON}
+
+	// Write to file
+	f, err := os.Create(filename)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer f.Close()
+	w := bufio.NewWriter(f)
+	
+	templFile := config.ProjectHome() + "/corpus/corpus-template.html"
+	fmt.Println("Home: ", config.ProjectHome())
+	tmpl:= template.Must(template.New("corpus-template.html").ParseFiles(templFile))
+	err = tmpl.Execute(w, content)
+	if err != nil { panic(err) }
 	w.Flush()
 }
 
@@ -259,7 +335,6 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename string) {
 	}
 	w.Flush()
 }
-
 
 // Writes the vocabulary out to a string in JSON format
 // chunk: A chunk of text

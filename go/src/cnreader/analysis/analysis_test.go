@@ -281,6 +281,17 @@ func TestWriteAnalysis(t *testing.T) {
 	WriteAnalysis(vocab, outfile, wc)
 }
 
+func TestWriteAnalysis2(t *testing.T) {
+	fmt.Printf("TestWriteAnalysis2: Begin unit test\n")
+	WriteAnalysis2(17)
+}
+
+func TestWriteCorpusDoc1(t *testing.T) {
+	tokens, vocab, _ := ParseText("繁")
+	outfile := "../testoutput/output.html"
+	WriteCorpusDoc(tokens, vocab, outfile)
+}
+
 func TestWriteDoc1(t *testing.T) {
 	tokens, vocab, _ := ParseText("繁")
 	outfile := "../testoutput/output.html"

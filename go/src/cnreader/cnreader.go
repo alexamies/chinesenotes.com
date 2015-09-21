@@ -47,7 +47,7 @@ func main() {
 			fmt.Printf("main: input file: %s, output file: %s\n", src, dest)
 			text := analysis.ReadText(src)
 			tokens, vocab, wc := analysis.ParseText(text)
-			analysis.WriteDoc(tokens, vocab, dest)
+			analysis.WriteCorpusDoc(tokens, vocab, dest)
 			analysis.WriteAnalysis(vocab, aFile, wc)
 		}
 	} else if !*all {

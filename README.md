@@ -43,6 +43,9 @@ Generates markup for HTML page popovers
 
 Install go (see https://golang.org/doc/install)
 
+For more details on the corpus organization and command line tool to process
+it see corpus/CORPUS-README.md and go/src/cnreader/README-go.md.
+
 $ cd go/src/cnreader
 
 $ go build

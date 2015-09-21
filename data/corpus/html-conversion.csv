@@ -1,29 +1,6 @@
-# Files to be converted to add mouse over Chinese words
+# HTML files outside the corpus to be converted to add popover for Chinese words
 ../corpus/classical_chinese-raw.html	classical_chinese.html
 ../corpus/classical_chinese_nominal_verbal-raw.html	classical_chinese_nominal_verbal.html
 ../corpus/classical_chinese_verbs-raw.html	classical_chinese_verbs.html
 ../corpus/classical_chinese_embedded-raw.html	classical_chinese_embedded.html
-../corpus/classical_chinese_text-raw.html	classical_chinese_text.html
-../corpus/classical_chinese_zhanguoce-raw.html	classical_chinese_zhanguoce.html
-../corpus/classical_chinese_zhuangzi-raw.html	classical_chinese_zhuangzi.html
-../corpus/classical_chinese_shiji-raw.html	classical_chinese_shiji.html
-../corpus/classical_chinese_hanfeizi-raw.html	classical_chinese_hanfeizi.html
-../corpus/classical_chinese_mengzi-raw.html	classical_chinese_mengzi.html
 ../corpus/classical_chinese_references-raw.html	classical_chinese_references.html
-../corpus/poetry-raw.html	poetry.html
-../corpus/poetry_references-raw.html	poetry_references.html
-../corpus/poem_terrace-raw.html	poem_terrace.html
-../corpus/poem_random-raw.html	poem_random.html
-../corpus/poem_tower-raw.html	poem_tower.html
-../corpus/poem_liang-raw.html	poem_liang.html
-../corpus/poem_dawn-raw.html	poem_dawn.html
-../corpus/poem_friend-raw.html	poem_friend.html
-../corpus/poem_stream-raw.html	poem_stream.html
-../corpus/poem_rapids-raw.html	poem_rapids.html
-../corpus/poem_bamboo-raw.html	poem_bamboo.html
-../corpus/poem_bird-raw.html	poem_bird.html
-../corpus/poem_lines-raw.html	poem_lines.html
-../corpus/poem_homes-raw.html	poem_homes.html
-../corpus/poem_crows-raw.html	poem_crows.html
-../corpus/poem_roosting-raw.html	poem_roosting.html
-../corpus/red_mosque-raw.html	red_mosque.html
