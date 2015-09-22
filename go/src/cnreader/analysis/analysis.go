@@ -196,6 +196,7 @@ func ParseText(text string) (tokens list.List, vocab map[string]int, wc int) {
 					j = 0
 				} else if (len([]rune(w)) == 1) {
 					fmt.Printf("ParseText: found unknown character %s\n", w)
+					break
 				}
 			}
 		}

@@ -1,4 +1,5 @@
 # Top level file listing the corpus collections
-literary_chinese_prose.csv
-tang_poetry.csv
-modern_articles.csv
+literary_chinese_prose.csv	\N	\N
+tang_poetry.csv	\N	\N
+modern_articles.csv	\N	\N
+erya.csv	erya_collection.html	Er Ya

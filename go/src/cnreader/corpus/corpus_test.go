@@ -13,7 +13,7 @@ func TestCollections(t *testing.T) {
 		t.Error("No collections found")
 	}
 	expected := "literary_chinese_prose.csv"
-	if collections[0] != expected {
+	if collections[0].CollectionFile != expected {
 		t.Error("Expected entry ", expected, ", got ", collections[0])
 	}
 }
@@ -32,4 +32,9 @@ func TestCorpusEntries(t *testing.T) {
 		t.Error("Expected entry classical_chinese_text.html, got ",
 			corpusEntries[0].GlossFile)
 	}
+}
+
+// Test generating collection file
+func TestWriteCollectionFile(t *testing.T) {
+	WriteCollectionFile("erya.csv")
 }

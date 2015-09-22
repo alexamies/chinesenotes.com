@@ -4,14 +4,23 @@ Package for scanning the corpus collections
 package corpus
 
 import (
+	"bufio"
+	"cnreader/config"
 	"encoding/csv"
+	"fmt"
 	"log"
 	"os"
+	"text/template"
+	"time"
 )
 
+type CollectionEntry struct {
+	CollectionFile, GlossFile, Title, DateUpdated string
+	CorpusEntries []CorpusEntry
+}
+
 type CorpusEntry struct {
-	RawFile string
-	GlossFile string
+	RawFile, GlossFile, Title string
 }
 
 const collectionsFile = "data/corpus/collections.csv"
@@ -28,7 +37,7 @@ func ProjectHome() string {
 }
 
 // Gets the list of source and destination files for HTML conversion
-func Collections() []string {
+func Collections() []CollectionEntry {
 	collectionsFile := projectHome + "/" + collectionsFile
 	file, err := os.Open(collectionsFile)
 	if err != nil {
@@ -43,9 +52,11 @@ func Collections() []string {
 	if err != nil {
 		log.Fatal(err)
 	}
-	collections := make([]string, 0)
+	collections := make([]CollectionEntry, 0)
 	for _, row := range rawCSVdata {
-		collections = append(collections, row[0])
+		corpusEntries := make([]CorpusEntry, 0)
+		collections = append(collections, CollectionEntry{row[0], row[1],
+			row[2], "", corpusEntries})
 	}
 	return collections
 }
@@ -67,7 +78,8 @@ func CorpusEntries(collectionFile string) []CorpusEntry {
 	}
 	corpusEntries := make([]CorpusEntry, 0)
 	for _, row := range rawCSVdata {
-		corpusEntries = append(corpusEntries, CorpusEntry{row[0], row[1]})
+		corpusEntries = append(corpusEntries, CorpusEntry{row[0], row[1],
+			row[2]})
 	}
 	return corpusEntries	
 }
@@ -75,4 +87,38 @@ func CorpusEntries(collectionFile string) []CorpusEntry {
 // Sets the public home directory, relative to the cnreader command line tool
 func SetProjectHome(home string) {
 	projectHome = home
+}
+
+// Writes a HTML file describing the collection
+// Parameter
+// collectionFile: The name of the file describing the collection
+func WriteCollectionFile(collectionFile string) {
+	fmt.Printf("WriteCollectionFile: Writing collection file.\n")
+	collections := Collections()
+	for _, entry := range collections {
+		if entry.CollectionFile == collectionFile && entry.GlossFile != "\\N" {
+			outputFile := config.ProjectHome() + "/data/corpus/" +collectionFile
+			entry.CorpusEntries = CorpusEntries(outputFile)
+			fmt.Printf("WriteCollectionFile: Writing collection file %s\n",
+				outputFile)
+
+			// Write to file
+			f, err := os.Create(config.ProjectHome() + "/web/" +
+				entry.GlossFile)
+			if err != nil {
+				log.Fatal(err)
+			}
+			defer f.Close()
+			w := bufio.NewWriter(f)
+			entry.DateUpdated = time.Now().Format("2006-01-02")
+			templFile := config.ProjectHome() +
+					"/corpus/collection-template.html"
+			fmt.Println("Home: ", config.ProjectHome())
+			tmpl:= template.Must(template.New(
+					"collection-template.html").ParseFiles(templFile))
+			err = tmpl.Execute(w, entry)
+			if err != nil { panic(err) }
+			w.Flush()
+		}
+	}
 }
