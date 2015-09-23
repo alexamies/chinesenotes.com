@@ -197,7 +197,7 @@ func TestGetWord(t *testing.T) {
 
 func TestReadText1(t *testing.T) {
 	text := ReadText("../testdata/sampletest.txt")
-	if text != "繁體中文" {
+	if text != "繁體中文<br/>" {
 		t.Error("Expected '繁體中文', got ", text)
 	}
 }
@@ -289,7 +289,7 @@ func TestWriteAnalysis2(t *testing.T) {
 func TestWriteCorpusDoc1(t *testing.T) {
 	tokens, vocab, _ := ParseText("繁")
 	outfile := "../testoutput/output.html"
-	WriteCorpusDoc(tokens, vocab, outfile)
+	WriteCorpusDoc(tokens, vocab, outfile, "", "")
 }
 
 func TestWriteDoc1(t *testing.T) {

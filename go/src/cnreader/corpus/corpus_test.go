@@ -1,9 +1,14 @@
 package corpus
 
 import (
+	"cnreader/config"
 	"fmt"
 	"testing"
 )
+
+func init() {
+	config.SetProjectHome("../../../..")
+}
 
 // Test reading of files for HTML conversion
 func TestCollections(t *testing.T) {

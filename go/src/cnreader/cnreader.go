@@ -39,6 +39,11 @@ func main() {
 
 	if (*corpusFile != "") {
 		fmt.Printf("main: Analyzing corpus %s\n", *corpusFile)
+		collectionEntry, err := corpus.GetCollectionEntry(*corpusFile)
+		if err != nil {
+			fmt.Printf("Could not find corpus file %s\n", *corpusFile)
+			return
+		}
 		corpusEntries := corpus.CorpusEntries(corpusDataDir + "/" + *corpusFile)
 		for _, entry := range corpusEntries {
 			src := corpusDir + "/" + entry.RawFile
@@ -47,7 +52,8 @@ func main() {
 			fmt.Printf("main: input file: %s, output file: %s\n", src, dest)
 			text := analysis.ReadText(src)
 			tokens, vocab, wc := analysis.ParseText(text)
-			analysis.WriteCorpusDoc(tokens, vocab, dest)
+			analysis.WriteCorpusDoc(tokens, vocab, dest,
+				collectionEntry.GlossFile, collectionEntry.Title)
 			analysis.WriteAnalysis(vocab, aFile, wc)
 		}
 	} else if !*all {

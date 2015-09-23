@@ -7,6 +7,7 @@ import (
 	"bufio"
 	"cnreader/config"
 	"encoding/csv"
+	"errors"
 	"fmt"
 	"log"
 	"os"
@@ -25,23 +26,27 @@ type CorpusEntry struct {
 
 const collectionsFile = "data/corpus/collections.csv"
 
-var projectHome string
 
-func init() {
-	projectHome = "../../../.."
-}
-
-// Gets the public home directory, relative to the cnreader command line tool
-func ProjectHome() string {
-	return projectHome
+// Gets the entry the collection
+// Parameter
+// collectionFile: The name of the file describing the collection
+func GetCollectionEntry(collectionFile string) (CollectionEntry, error)  {
+	fmt.Printf("CollectionEntry: Writing collection file.\n")
+	collections := Collections()
+	for _, entry := range collections {
+		if entry.CollectionFile == collectionFile {
+			return entry, nil
+		}
+	}
+	return CollectionEntry{}, errors.New("could not find collection " + collectionFile)
 }
 
 // Gets the list of source and destination files for HTML conversion
 func Collections() []CollectionEntry {
-	collectionsFile := projectHome + "/" + collectionsFile
+	collectionsFile := config.ProjectHome() + "/" + collectionsFile
 	file, err := os.Open(collectionsFile)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("Collections: Error opening collection file.", err)
 	}
 	defer file.Close()
 	reader := csv.NewReader(file)
@@ -82,11 +87,6 @@ func CorpusEntries(collectionFile string) []CorpusEntry {
 			row[2]})
 	}
 	return corpusEntries	
-}
-
-// Sets the public home directory, relative to the cnreader command line tool
-func SetProjectHome(home string) {
-	projectHome = home
 }
 
 // Writes a HTML file describing the collection

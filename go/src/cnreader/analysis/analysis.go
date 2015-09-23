@@ -11,6 +11,7 @@ import (
 	"encoding/csv"
 	"fmt"
 	"text/template"
+	"io"
 	"io/ioutil"
 	"log"
 	"os"
@@ -22,7 +23,8 @@ import (
 
 // The content for a corpus entry
 type CorpusEntryContent struct {
-	CorpusText, DateUpdated, VocabularyJSON string
+	CorpusText, DateUpdated, VocabularyJSON, CollectionURL,
+	CollectionTitle string
 }
 
 // Defines the sense of a Chinese word
@@ -151,11 +153,36 @@ func ReadDict(wsfilename string) {
 
 // Reads a Chinese text file
 func ReadText(filename string) (string) {
-	bs, err := ioutil.ReadFile(filename)
-	if err != nil {
-		log.Fatal(err)
+	var text string
+	if strings.HasSuffix(filename, ".html") {
+		bs, err := ioutil.ReadFile(filename)
+		if err != nil {
+			log.Fatal(err)
+		}
+		text = string(bs)
+	} else { // plain text file, add line breaks
+		infile, err := os.Open(filename)
+		if err != nil {
+			log.Fatal(err)
+		}
+		reader := bufio.NewReader(infile)
+		var buffer bytes.Buffer
+    	eof := false
+    	for !eof {
+        	var line string
+        	line, err = reader.ReadString('\n')
+        	if err == io.EOF {
+            	err = nil
+            	eof = true
+        	} else if err != nil {
+            	break
+        	}
+        	if _, err = buffer.WriteString(line + "<br/>\n"); err != nil {
+            	break
+        	}
+    	}
+    	text = buffer.String()
 	}
-	text := string(bs)
 	//fmt.Printf("ReadText: read text %s\n", text)
 	return text
 }
@@ -196,6 +223,7 @@ func ParseText(text string) (tokens list.List, vocab map[string]int, wc int) {
 					j = 0
 				} else if (len([]rune(w)) == 1) {
 					fmt.Printf("ParseText: found unknown character %s\n", w)
+					tokens.PushBack(w)
 					break
 				}
 			}
@@ -251,7 +279,10 @@ func WriteAnalysis2(wc int) {
 // vocab: A list of word id's in the document
 // filename: The file name to write to
 // HTML template to use
-func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string) {
+// collectionURL: the URL of the collection that the corpus text belongs to
+// collectionTitle: The collection title that the corpus entry belongs to
+func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
+	collectionURL string, collectionTitle string) {
 
 	var buffer bytes.Buffer
 
@@ -279,7 +310,8 @@ func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string) {
 	textContent := buffer.String()
 	dateUpdated := time.Now().Format("2006-01-02")
 	vocabJSON := WriteVocab("", 0, vocab)
-	content := CorpusEntryContent{textContent, dateUpdated, vocabJSON}
+	content := CorpusEntryContent{textContent, dateUpdated, vocabJSON,
+		collectionURL, collectionTitle}
 
 	// Write to file
 	f, err := os.Create(filename)
