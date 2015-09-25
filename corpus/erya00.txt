@@ -1,0 +1,10 @@
+<h3>Introduction</h3>
+The Er Ya 《爾雅》, aslo known as the Ready Guide, was written c. 200 BCE is regarded the first Chinese dictionary. (Yong and Peng, 2008, pp. 1-2) It is a thesaurus style dictionary and was historically used to explain words in the ancient classics. The meaning of the title is unclear but is related to interpretation of the character as acurately as possible and then explain its use. The Er Ya probably took early form between the Zhou and the Qin and took its final form in the Han. (Yong and Peng, 2008, p. 60-61) The authorship of the Er Ya is not known. The enntries are ordered by logical grouping. For example, there is a scroll on fish and a scroll on birds.
+
+Two important commentaries on the Er Ya are the Commentary on the Er Ya《爾雅注疏》 written in the Jin by Guo Pu 郭璞 and Notes on the Er Ya《爾雅疏》 by an unknown author.
+
+Source
+Er Ya 《爾雅》, 1739, from 爾雅注疏 《武英殿十三經注疏》本 by Guo Puzhi and Xing Bingshu (Eds), published by Guangdong Publishing Bureau 廣東書局, downloaded from the Chinese Text Project <a href='http://ctext.org/er-ya'>http://ctext.org/er-ya</a> on 2015-09-21.
+
+Reference
+Yong, H., Peng, J., 2008. Chinese Lexicography: A History from 1046 BC to AD1911. Oxford University Press, Oxford.

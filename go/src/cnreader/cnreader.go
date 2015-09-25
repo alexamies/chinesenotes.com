@@ -18,9 +18,9 @@ func main() {
 		"listed in data/corpus/html-conversion.csv")
 	var analysisFile = flag.String("analysis", "testoutput/test-analysis.html",
 		"Vocabulary Analysis file")
-	var corpusFile = flag.String("corpus", "", 
+	var collectionFile = flag.String("collection", "", 
 		"Enhance HTML markup and do vocabulary analysis for all the files " +
-		"listed in given corpus file.")
+		"listed in given collection.")
 	var infile = flag.String("infile", "testdata/test.html", "Input file")
 	var outfile = flag.String("outfile", "testoutput/test-gloss.html",
 		"Output file")
@@ -37,14 +37,16 @@ func main() {
 	// Read in dictionary
 	analysis.ReadDict("../../../data/words.txt")
 
-	if (*corpusFile != "") {
-		fmt.Printf("main: Analyzing corpus %s\n", *corpusFile)
-		collectionEntry, err := corpus.GetCollectionEntry(*corpusFile)
+	if (*collectionFile != "") {
+		fmt.Printf("main: Analyzing collection %s\n", *collectionFile)
+		collectionEntry, err := corpus.GetCollectionEntry(*collectionFile)
 		if err != nil {
-			fmt.Printf("Could not find corpus file %s\n", *corpusFile)
+			fmt.Printf("Could not find collection file %s\n", *collectionFile)
 			return
 		}
-		corpusEntries := corpus.CorpusEntries(corpusDataDir + "/" + *corpusFile)
+		corpus.WriteCollectionFile(*collectionFile)
+		corpusEntries := corpus.CorpusEntries(corpusDataDir + "/" +
+			*collectionFile)
 		for _, entry := range corpusEntries {
 			src := corpusDir + "/" + entry.RawFile
 			dest := webDir + "/" + entry.GlossFile

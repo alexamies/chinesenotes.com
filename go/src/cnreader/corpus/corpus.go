@@ -5,10 +5,12 @@ package corpus
 
 import (
 	"bufio"
+	"bytes"
 	"cnreader/config"
 	"encoding/csv"
 	"errors"
 	"fmt"
+	"io"
 	"log"
 	"os"
 	"text/template"
@@ -16,7 +18,7 @@ import (
 )
 
 type CollectionEntry struct {
-	CollectionFile, GlossFile, Title, DateUpdated string
+	CollectionFile, GlossFile, Title, Summary, Intro, DateUpdated string
 	CorpusEntries []CorpusEntry
 }
 
@@ -59,9 +61,21 @@ func Collections() []CollectionEntry {
 	}
 	collections := make([]CollectionEntry, 0)
 	for _, row := range rawCSVdata {
+		title := ""
+		if row[2] != "\\N" {
+			title = row[2]
+		}
+		summary := ""
+		if row[3] != "\\N" {
+			summary = row[3]
+		}
+		introFile := ""
+		if row[4] != "\\N" {
+			introFile = row[4]
+		}
 		corpusEntries := make([]CorpusEntry, 0)
 		collections = append(collections, CollectionEntry{row[0], row[1],
-			row[2], "", corpusEntries})
+			title, summary, introFile, "", corpusEntries})
 	}
 	return collections
 }
@@ -89,11 +103,40 @@ func CorpusEntries(collectionFile string) []CorpusEntry {
 	return corpusEntries	
 }
 
+// Reads a text file introducing the collection. The file should be a plain
+// text file. HTML breaks will be added for line breaks.
+// Parameter
+// introFile: The name of the file introducing the collection
+func ReadIntroFile(introFile string) string {
+	fmt.Printf("ReadIntroFile: Reading introduction file.\n")
+	infile, err := os.Open(config.ProjectHome() + "/corpus/" + introFile)
+	if err != nil {
+		log.Fatal(err)
+	}
+	reader := bufio.NewReader(infile)
+	var buffer bytes.Buffer
+	eof := false
+	for !eof {
+		var line string
+		line, err = reader.ReadString('\n')
+		if err == io.EOF {
+			err = nil
+			eof = true
+		} else if err != nil {
+			break
+		}
+		if _, err = buffer.WriteString(line + "<br/>\n"); err != nil {
+			break
+		}
+	}
+	return buffer.String()
+}
+
 // Writes a HTML file describing the collection
 // Parameter
 // collectionFile: The name of the file describing the collection
 func WriteCollectionFile(collectionFile string) {
-	fmt.Printf("WriteCollectionFile: Writing collection file.\n")
+	//fmt.Printf("WriteCollectionFile: Writing collection file.\n")
 	collections := Collections()
 	for _, entry := range collections {
 		if entry.CollectionFile == collectionFile && entry.GlossFile != "\\N" {
@@ -110,6 +153,8 @@ func WriteCollectionFile(collectionFile string) {
 			}
 			defer f.Close()
 			w := bufio.NewWriter(f)
+			// Replace name of intro file with introduction text
+			entry.Intro = ReadIntroFile(entry.Intro)
 			entry.DateUpdated = time.Now().Format("2006-01-02")
 			templFile := config.ProjectHome() +
 					"/corpus/collection-template.html"

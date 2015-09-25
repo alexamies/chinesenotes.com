@@ -58,6 +58,7 @@
     <div class="container">
 
       <h2>{{.Title}}</h2>
+      <p>{{.Summary}}</p>
 
       <table class="table table-bordered table-hover">
         <thead>
@@ -71,7 +72,8 @@
         {{ end }}
         </tbody>
       </table>
-      </p>
+      
+      {{.Intro}}
 
       <hr/>
       <p>

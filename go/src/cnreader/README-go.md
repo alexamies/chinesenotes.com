@@ -2,9 +2,9 @@
 
 ###1 Install the Go SDK
 
-###2 Add the directory $PROJECT_HOME/go to your GOPATH
-
-export GOPATH=$GOPATH:$PROJECT_HOME/go
+###2 Add the directory $CNREADER_HOME/go to your GOPATH
+cd $CNREADER_HOME/go
+source 'path.bash.inc'
 
 ###3 Build the cnreader/analysis library
 

@@ -1,5 +1,6 @@
 # Top level file listing the corpus collections
-literary_chinese_prose.csv	\N	\N
-tang_poetry.csv	\N	\N
-modern_articles.csv	\N	\N
-erya.csv	erya_collection.html	Er Ya 《爾雅》
+#Collection File, HTML Gloss File, Title, Description, Introduction File
+literary_chinese_prose.csv	\N	\N	\N	\N
+tang_poetry.csv	\N	\N	\N	\N
+modern_articles.csv	\N	\N	\N	\N
+erya.csv	erya_collection.html	Er Ya 《爾雅》	An early Chinese dictionary	erya00.txt

@@ -40,6 +40,11 @@ func TestCorpusEntries(t *testing.T) {
 }
 
 // Test generating collection file
+func TestReadIntroFile(t *testing.T) {
+	ReadIntroFile("erya00.txt")
+}
+
+// Test generating collection file
 func TestWriteCollectionFile(t *testing.T) {
 	WriteCollectionFile("erya.csv")
 }
