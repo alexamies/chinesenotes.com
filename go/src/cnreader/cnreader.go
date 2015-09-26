@@ -5,10 +5,10 @@ package main
 
 import (
 	"flag"
-	"fmt"
 	"cnreader/analysis"
 	"cnreader/config"
 	"cnreader/corpus"
+	"log"
 )
 
 //Entry point for the chinesenotes command line tool.
@@ -38,10 +38,10 @@ func main() {
 	analysis.ReadDict("../../../data/words.txt")
 
 	if (*collectionFile != "") {
-		fmt.Printf("main: Analyzing collection %s\n", *collectionFile)
+		log.Printf("main: Analyzing collection %s\n", *collectionFile)
 		collectionEntry, err := corpus.GetCollectionEntry(*collectionFile)
 		if err != nil {
-			fmt.Printf("Could not find collection file %s\n", *collectionFile)
+			log.Fatalf("Could not find collection file %s\n", *collectionFile)
 			return
 		}
 		corpus.WriteCollectionFile(*collectionFile)
@@ -50,32 +50,34 @@ func main() {
 		for _, entry := range corpusEntries {
 			src := corpusDir + "/" + entry.RawFile
 			dest := webDir + "/" + entry.GlossFile
-			aFile := webDir + "/analysis/" + entry.GlossFile
-			fmt.Printf("main: input file: %s, output file: %s\n", src, dest)
+			log.Printf("main: input file: %s, output file: %s\n", src, dest)
 			text := analysis.ReadText(src)
-			tokens, vocab, wc := analysis.ParseText(text)
+			tokens, vocab, wc, unknownChars := analysis.ParseText(text)
+			aFile := analysis.WriteAnalysis(vocab, wc, unknownChars,
+				entry.RawFile, collectionEntry.Title, collectionEntry.Title)
 			analysis.WriteCorpusDoc(tokens, vocab, dest,
-				collectionEntry.GlossFile, collectionEntry.Title)
-			analysis.WriteAnalysis(vocab, aFile, wc)
+				collectionEntry.GlossFile, collectionEntry.Title, aFile)
 		}
 	} else if !*all {
-		fmt.Printf("main: input file: %s, output file: %s, analysis file: %s\n",
+		log.Printf("main: input file: %s, output file: %s, analysis file: %s\n",
 			*infile, *outfile, *analysisFile)
 
 		// Read text and perform vocabulary analysis
 		text := analysis.ReadText(*infile)
-		tokens, vocab, wc := analysis.ParseText(text)
+		tokens, vocab, wc, unknownChars := analysis.ParseText(text)
 		analysis.WriteDoc(tokens, vocab, *outfile)
-		analysis.WriteAnalysis(vocab, *analysisFile, wc)
+		analysis.WriteAnalysis(vocab, wc, unknownChars, *analysisFile,
+			"To do: figure out the colleciton title",
+			"To do: figure out the document title")
 	} else {
-		fmt.Printf("main: Converting all HTML files\n")
+		log.Printf("main: Converting all HTML files\n")
 		conversions := config.GetHTMLConversions()
 		for _, conversion := range conversions {
 			src := webDir + "/" + conversion.SrcFile
 			dest := webDir + "/" + conversion.DestFile
-			fmt.Printf("main: input file: %s, output file: %s\n", src, dest)
+			log.Printf("main: input file: %s, output file: %s\n", src, dest)
 			text := analysis.ReadText(src)
-			tokens, vocab, _ := analysis.ParseText(text)
+			tokens, vocab, _, _ := analysis.ParseText(text)
 			analysis.WriteDoc(tokens, vocab, dest)
 		}
 	}

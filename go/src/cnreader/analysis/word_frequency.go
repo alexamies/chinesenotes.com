@@ -9,7 +9,13 @@ import "sort"
 // Sorted list of word frequencies
 type SortedWF struct {
 	wf map[string]int
-	w []string
+	w []SortedWordItem
+}
+
+// An entry in a sorted word array
+type SortedWordItem struct {
+	Word string
+	Freq int
 }
 
 func (sortedWF *SortedWF) Len() int {
@@ -17,7 +23,7 @@ func (sortedWF *SortedWF) Len() int {
 }
 
 func (sortedWF *SortedWF) Less(i, j int) bool {
-	return sortedWF.wf[sortedWF.w[i]] > sortedWF.wf[sortedWF.w[j]]
+	return sortedWF.wf[sortedWF.w[i].Word] > sortedWF.wf[sortedWF.w[j].Word]
 }
 
 func (sortedWF *SortedWF) Swap(i, j int) {
@@ -27,13 +33,13 @@ func (sortedWF *SortedWF) Swap(i, j int) {
 /*
  * Sorts based on word frequency
  */
-func SortedFreq(wf map[string]int) []string {
+func SortedFreq(wf map[string]int) []SortedWordItem {
 	sortedWF := new(SortedWF)
 	sortedWF.wf = wf
-	sortedWF.w = make([]string, len(wf))
+	sortedWF.w = make([]SortedWordItem, len(wf))
 	i := 0
 	for key, _ := range wf {
-		sortedWF.w[i] = key
+		sortedWF.w[i] = SortedWordItem{key, sortedWF.wf[key]}
 		i++
 	}
 	sort.Sort(sortedWF)

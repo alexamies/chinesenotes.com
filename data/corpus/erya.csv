@@ -1,20 +1,21 @@
 # Text of the Er Ya, early Chinese dictionary
-../corpus/erya01_shigu.txt	erya01_shigu.html	《釋詁》 Explanation of Old Words
-../corpus/erya02_shiyan.txt	erya02_shiyan.html	《釋言》 Explanation of  Words
-../corpus/erya03_shixun.txt	erya03_shixun.html	《釋訓》 Explanation of  Instructions
-../corpus/erya04_shiqin.txt	erya04_shiqin.html	《釋親》 Explanation of Family Relations
-../corpus/erya05_shigong.txt	erya05_shigong.html	《釋宮》 Explanation of the Court
-../corpus/erya06_shiqi.txt	erya06_shiqi.html	《釋器》 Explanation of Utensils
-../corpus/erya07_shile.txt	erya07_shile.html	《釋樂》 Explanation of Music
-../corpus/erya08_shitian.txt	erya08_shitian.html	《釋天》 Explanation of Heaven
-../corpus/erya09_shidi.txt	erya09_shidi.html	《釋地》 Explanation of Earth
-../corpus/erya10_shiqiu.txt	erya10_shiqiu.html	《釋丘》 Explanation of Hills
-../corpus/erya11_shishan.txt	erya11_shishan.html	《釋山》 Explanation of Mountains
-../corpus/erya12_shishui.txt	erya12_shishui.html	《釋水》 Explanation of Water
-../corpus/erya13_shicao.txt	erya13_shicao.html	《釋草》 Explanation of Plants
-../corpus/erya14_shimu.txt	erya14_shimu.html	《釋木》 Explanation of Trees
-../corpus/erya15_shichong.txt	erya15_shichong.html	《釋蟲》 Explanation of Insects
-../corpus/erya16_shiyu.txt	erya16_shiyu.html	《釋魚》 Explanation of Fish
-../corpus/erya17_shiniao.txt	erya17_shiniao.html	《釋鳥》 Explanation of Birds
-../corpus/erya18_shishou.txt	erya18_shishou.html	《釋獸》 Explanation of Beasts
-../corpus/erya19_shichu.txt	erya19_shichu.html	《釋畜》 Explanation of Domestic Animals
+# Source file, Gloss output file, title
+erya01_shigu.txt	erya01_shigu.html	《釋詁》 Explanation of Old Words
+erya02_shiyan.txt	erya02_shiyan.html	《釋言》 Explanation of  Words
+erya03_shixun.txt	erya03_shixun.html	《釋訓》 Explanation of  Instructions
+erya04_shiqin.txt	erya04_shiqin.html	《釋親》 Explanation of Family Relations
+erya05_shigong.txt	erya05_shigong.html	《釋宮》 Explanation of the Court
+erya06_shiqi.txt	erya06_shiqi.html	《釋器》 Explanation of Utensils
+erya07_shile.txt	erya07_shile.html	《釋樂》 Explanation of Music
+erya08_shitian.txt	erya08_shitian.html	《釋天》 Explanation of Heaven
+erya09_shidi.txt	erya09_shidi.html	《釋地》 Explanation of Earth
+erya10_shiqiu.txt	erya10_shiqiu.html	《釋丘》 Explanation of Hills
+erya11_shishan.txt	erya11_shishan.html	《釋山》 Explanation of Mountains
+erya12_shishui.txt	erya12_shishui.html	《釋水》 Explanation of Water
+erya13_shicao.txt	erya13_shicao.html	《釋草》 Explanation of Plants
+erya14_shimu.txt	erya14_shimu.html	《釋木》 Explanation of Trees
+erya15_shichong.txt	erya15_shichong.html	《釋蟲》 Explanation of Insects
+erya16_shiyu.txt	erya16_shiyu.html	《釋魚》 Explanation of Fish
+erya17_shiniao.txt	erya17_shiniao.html	《釋鳥》 Explanation of Birds
+erya18_shishou.txt	erya18_shishou.html	《釋獸》 Explanation of Beasts
+erya19_shichu.txt	erya19_shichu.html	《釋畜》 Explanation of Domestic Animals

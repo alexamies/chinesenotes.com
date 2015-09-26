@@ -21,10 +21,18 @@ import (
 	"unicode"
 )
 
+// Maximum number of word frequency entries to output to the generated
+// HTML file
+const MAX_WF_OUTPUT = 50
+
+// Maximum number of unknwon characters to output to the generated
+// HTML file
+const MAX_UNKOWN_OUTPUT = 50
+
 // The content for a corpus entry
 type CorpusEntryContent struct {
 	CorpusText, DateUpdated, VocabularyJSON, CollectionURL,
-	CollectionTitle string
+	CollectionTitle, AnalysisFile string
 }
 
 // Defines the sense of a Chinese word
@@ -37,7 +45,12 @@ type WordSenseEntry struct {
 
 // Holds vocabulary analysis for a corpus text
 type AnalysisResults struct {
-	WC int
+	Title string
+	WC, UniqueWords int
+	WordFrequences []SortedWordItem
+	UnkownnChars []string
+	DateUpdated string
+	MaxWFOutput int
 }
 
 // The dictionary is a map of pointers to word senses, indexed by simplified
@@ -194,8 +207,10 @@ func ReadText(filename string) (string) {
 // tokens: the tokens for the parsed text
 // vocab: a table of the unique words found in the parsed text
 // wc: total word count
-func ParseText(text string) (tokens list.List, vocab map[string]int, wc int) {
+func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
+	unknownChars []string) {
 	vocab = make(map[string]int)
+	unknownChars = make([]string, 3)
 	chunks := GetChunks(text)
 	//fmt.Printf("ParseText: For text %s got %d chunks\n", text, chunks.Len())
 	for e := chunks.Front(); e != nil; e = e.Next() {
@@ -222,56 +237,67 @@ func ParseText(text string) (tokens list.List, vocab map[string]int, wc int) {
 					i = j - 1
 					j = 0
 				} else if (len([]rune(w)) == 1) {
-					fmt.Printf("ParseText: found unknown character %s\n", w)
+					//log.Printf("ParseText: found unknown character %s\n", w)
+					unknownChars = append(unknownChars, w)
 					tokens.PushBack(w)
 					break
 				}
 			}
 		}
 	}
-	return tokens, vocab, wc
+	return tokens, vocab, wc, unknownChars
 }
 
-// Writes a document with vocabulary analysis of the text
-// vocab: A list of word id's in the document
-// filename: The file name to write to
-// wc: Word count
-func WriteAnalysis(vocab map[string]int, filename string, wc int) {
+// Writes a document with vocabulary analysis of the text. The name of the
+// output file will be source file with '-analysis' appended, placed in the
+// web/analysis directory
+// vocab: The vocabulary with word frequency counts
+// wc: the total size of the vocabulary
+// srcFile: The source file used
+// collectionTitle: The title of the whole colleciton
+// docTitle: The title of this specific document
+// Returns the name of the file written to
+func WriteAnalysis(vocab map[string]int, wc int, unknownChars []string,
+		srcFile string, collectionTitle string, docTitle string) string {
+
+	// Parse template and organize template parameters
+	sortedWords := SortedFreq(vocab)
+	dateUpdated := time.Now().Format("2006-01-02")
+	 maxWFOutput:= len(sortedWords)
+	if maxWFOutput > MAX_WF_OUTPUT {
+		maxWFOutput = MAX_WF_OUTPUT
+	}
+	maxUnkownOutput := len(unknownChars)
+	if maxUnkownOutput > MAX_UNKOWN_OUTPUT {
+		maxUnkownOutput = MAX_UNKOWN_OUTPUT
+	}
+	results := AnalysisResults{"Vocabulary Analysis", wc, len(vocab),
+		sortedWords[:maxWFOutput], unknownChars[:maxUnkownOutput], dateUpdated,
+		maxWFOutput}
+	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles("/Users/alex/Documents/code/chinesenotes.com/corpus/corpus-analysis-template.html")
+	if err != nil { panic(err) }
+	if tmpl == nil {
+		log.Fatal("WriteAnalysis: Template is nil ")
+		panic(err)
+	}
+
+	// Write output
+	i := strings.Index(srcFile, ".txt")
+	if i <= 0 {
+		log.Fatal("WriteAnalysis: Bad name for source file", srcFile)
+	}
+	basename := srcFile[:i] + "_analysis.html"
+	filename := config.ProjectHome() + "/web/analysis/" + basename
 	f, err := os.Create(filename)
 	if err != nil {
 		log.Fatal(err)
 	}
 	defer f.Close()
 	w := bufio.NewWriter(f)
-	w.WriteString(
-`<!DOCTYPE html>
-<html lang='en'>
-<body>
-<h1>Vocabulary Analysis</h1>
-`)
-	fmt.Fprintf(w, "<p>Word count: %d</p>", wc)
-	sortedWords := SortedFreq(vocab)
-	for _, key := range sortedWords {
-		fmt.Fprintf(w, "<p>%s %d</p>\n", key, vocab[key])
-	}
-	w.WriteString(
-`</body>
-</html>
-`)
+	err = tmpl.Execute(w, results)
+	if err != nil { panic(err) }
 	w.Flush()
-}
-
-// Writes a document with vocabulary analysis of the text
-func WriteAnalysis2(wc int) {
-	results := AnalysisResults{wc}
-	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles("/Users/alex/Documents/code/chinesenotes.com/corpus/corpus-analysis-template.html")
-	if err != nil { panic(err) }
-	if tmpl == nil {
-		fmt.Println("WriteAnalysis2: Template is nil ")
-		panic(err)
-	}
-	err = tmpl.Execute(os.Stdout, results)
-	if err != nil { panic(err) }
+	return basename
 }
 
 // Writes a corpus document with markup for the array of tokens
@@ -281,8 +307,9 @@ func WriteAnalysis2(wc int) {
 // HTML template to use
 // collectionURL: the URL of the collection that the corpus text belongs to
 // collectionTitle: The collection title that the corpus entry belongs to
+// aFile: The vocabulary analysis file written to or empty string for none
 func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
-	collectionURL string, collectionTitle string) {
+	collectionURL string, collectionTitle string, aFile string) {
 
 	var buffer bytes.Buffer
 
@@ -311,7 +338,7 @@ func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	dateUpdated := time.Now().Format("2006-01-02")
 	vocabJSON := WriteVocab("", 0, vocab)
 	content := CorpusEntryContent{textContent, dateUpdated, vocabJSON,
-		collectionURL, collectionTitle}
+		collectionURL, collectionTitle, aFile}
 
 	// Write to file
 	f, err := os.Create(filename)
@@ -322,7 +349,7 @@ func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	w := bufio.NewWriter(f)
 	
 	templFile := config.ProjectHome() + "/corpus/corpus-template.html"
-	fmt.Println("Home: ", config.ProjectHome())
+	//fmt.Println("Home: ", config.ProjectHome())
 	tmpl:= template.Must(template.New("corpus-template.html").ParseFiles(templFile))
 	err = tmpl.Execute(w, content)
 	if err != nil { panic(err) }

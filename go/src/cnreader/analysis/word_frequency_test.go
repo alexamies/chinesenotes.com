@@ -14,7 +14,7 @@ func TestSortedFreq(t *testing.T) {
 	if sortedWords == nil {
 		t.Error("Expected non-nil sortedWords")
 	}
-	if sortedWords[0] != "three" {
+	if sortedWords[0].Word != "three" {
 		t.Error("Expected that 'three' to be the most frequent word")
 	}
 	/*

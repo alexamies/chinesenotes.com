@@ -34,4 +34,4 @@ go run cnreader.go -infile=../../../web/classical_chinese-raw.html \
 go run cnreader.go -all
 
 ###7 To enhance all files in the corpus literary_chinese_prose
-go run cnreader.go -corpus=literary_chinese_prose.csv
+go run cnreader.go -collection=erya.csv
