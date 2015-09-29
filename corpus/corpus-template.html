@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Chinese language notes">
-    <link rel="shortcut icon" href="images/ren.png" type="image/png" />
+    <link rel="shortcut icon" href="/images/ren.png" type="image/png" />
     <title>Chinese Language Notes</title>
     <link rel="stylesheet" 
           href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="chinesenotes.css">
+    <link rel="stylesheet" href="/chinesenotes.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -29,7 +29,7 @@
     </script>
     <div class="starter-template">
       <div class="row">
-        <div class="span2"><img id="logo" src="images/ren.png" alt="Logo"
+        <div class="span2"><img id="logo" src="/images/ren.png" alt="Logo"
                                 class="pull-left"/></div>
         <div class="span7"><h1>Chinese Notes</h1></div>
       </div>
@@ -44,12 +44,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Home</a>
+          <a class="navbar-brand" href="/index.html">Home</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="texts.html">Texts</a></li>
-            <li><a href="tools.html">Tools</a></li>
+            <li class="active"><a href="/texts.html">Texts</a></li>
+            <li><a href="/tools.html">Tools</a></li>
             <li><a href="reference.html">Reference</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -57,11 +57,11 @@
     </div>
     <div class="container">
 
-      <p><a href='{{.CollectionURL}}'>Back to collection {{ .CollectionTitle }}</a></p>
+      <p><a href='/{{.CollectionURL}}'>Back to collection {{ .CollectionTitle }}</a></p>
 
       {{.CorpusText}}
 
-      <p><a href='analysis/{{.AnalysisFile}}'>Vocabulary Analysis</a></p>
+      <p><a href='/analysis/{{.AnalysisFile}}'>Vocabulary Analysis</a></p>
 
       <hr/>
       <p>
@@ -72,7 +72,7 @@
         <a rel="license"
           href="http://creativecommons.org/licenses/by/4.0/">Creative
           Commons Attribution 4.0 International License</a>. See
-          <a href='about.html'>About</a>. Please send comments to
+          <a href='/about.html'>About</a>. Please send comments to
           alex@chinesenotes.com.
       </p>
       <p>This page was last updated on {{.DateUpdated}}.</p>
@@ -80,6 +80,6 @@
     {{.VocabularyJSON}}
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="script/popover.js"></script>
+    <script type="/text/javascript" src="script/popover.js"></script>
   </body>
 </html>
