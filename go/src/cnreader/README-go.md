@@ -19,19 +19,18 @@ go test
 cd cnreader/analysis
 go test
 
-###5 Run the command line project on test files
+###5 Build the project and compute word frequencies
+go build
 
 cd $PROJECT_HOME/go/src/cnreader
-go run cnreader.go
-
-### Test data is in directory testdata
+./cnreader.go -wf
 
 ###6 To enhance a single HTML file with Chinese word popovers
-go run cnreader.go -infile=../../../web/classical_chinese-raw.html \
+./cnreader.go -infile=../../../web/classical_chinese-raw.html \
    -outfile=../../../web/classical_chinese.html
 
 ###7 To enhance all files listed in data/corpus/html-conversions.csv
-go run cnreader.go -all
+./cnreader -html
 
 ###7 To enhance all files in the corpus literary_chinese_prose
-go run cnreader.go -collection=erya.csv
+./cnreader.go -collection=erya.csv

@@ -1,6 +1,7 @@
 package analysis
 
 import (
+	"cnreader/config"
 	"fmt"
 	"strings"
 	"testing"
@@ -316,4 +317,11 @@ func TestWriteDoc3(t *testing.T) {
 	}
 	outfile := "../testoutput/test-simplified-gloss.html"
 	WriteDoc(tokens, vocab, outfile)
+}
+
+// Test that WordFrequencies() does not explode
+func TestWordFrequencies(t *testing.T) {
+	dataDir := config.ProjectHome() + "/data/"
+	ReadDict(dataDir + "words.txt")
+	WordFrequencies()
 }

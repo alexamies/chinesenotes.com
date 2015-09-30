@@ -11,4 +11,6 @@ ascii	ASCII
 extended-ascii	Extended ASCII
 ipa_diacritic	IPA Diacritic
 devanagari	Devanagari
+dev_diacritic	Devanagari diacritic
 iast	International Alphabet of Sanskrit Transliteration
+cjk-punctuation	Asian Chinese-Japanese-Korean Punctuation

@@ -265,6 +265,8 @@
 刘缵	汉质帝	Posthumous title	\N
 汉桓帝	刘志	Common name	\N
 刘志	汉桓帝	Posthumous title	\N
+汉桓帝	汉桓	Also known as	\N
+汉桓	汉桓帝	Also known as	\N
 汉灵帝	刘宏	Common name	\N
 刘宏	汉灵帝	Posthumous title	\N
 汉灵帝	灵帝崩	Also known as	\N
@@ -807,8 +809,14 @@
 尸罗伐国	舍卫国	Also known as	\N
 舍卫国	舍罗婆悉帝国	Also known as	\N
 舍罗婆悉帝国	舍卫国	Also known as	\N
+舍卫城	舍卫	Also known as	\N
+舍卫	舍卫城	Also known as	\N
+舍卫	那毗伽	Also known as	\N
+那毗伽	舍卫	Also known as	\N
 鸯窭利摩罗	指鬘	Also known as	\N
 指鬘	鸯窭利摩罗	Also known as	\N
+鸯窭利摩罗	鸯掘魔	Also known as	\N
+鸯掘魔	鸯窭利摩罗	Also known as	\N
 指髻	指鬘	Also known as	\N
 指鬘	指髻	Also known as	\N
 指髻	鸯窭利摩罗	Also known as	\N
@@ -1016,6 +1024,10 @@
 周公旦	周公	Also known as	\N
 杨贵妃	杨玉环	Also known as	\N
 杨玉环	杨贵妃	Also known as	\N
+杨贵妃	杨太真	Also known as	\N
+杨太真	杨贵妃	Also known as	\N
+杨玉环	杨太真	Also known as	\N
+杨太真	杨玉环	Also known as	\N
 维吾尔族	维吾尔	Abbreviation	\N
 维吾尔	维吾尔族	Full name	\N
 契丹国	辽朝	Also known as	\N
@@ -1070,6 +1082,8 @@
 尼泊尔	尼婆罗	Also known as	\N
 于阗国	于阗	Also known as	\N
 于阗	于阗国	Also known as	\N
+犍陀罗	犍陀卫	Also known as	\N
+犍陀卫	犍陀罗	Also known as	\N
 犍陀罗	乾陀罗	Also known as	\N
 乾陀罗	犍陀罗	Also known as	\N
 健驼逻	犍陀罗	Also known as	\N
@@ -1140,6 +1154,8 @@
 释尊	释迦	Also known as	\N
 释迦牟尼佛	释尊	Also known as	\N
 释尊	释迦牟尼佛	Also known as	\N
+释迦牟尼佛	释迦文佛	Also known as	\N
+释迦文佛	释迦牟尼佛	Also known as	\N
 沙州	敦煌	Also known as	\N
 敦煌	沙州	Also known as	\N
 长安	西安	Also known as	\N
@@ -1366,6 +1382,10 @@
 蓝毘尼	岚毘尼	Also known as	\N
 腊伐尼	蓝毘尼	Also known as	\N
 蓝毘尼	腊伐尼	Also known as	\N
+蓝毗尼	论民	Also known as	\N
+论民	蓝毗尼	Also known as	\N
+岚毘尼	论民	Also known as	\N
+论民	岚毘尼	Also known as	\N
 辩才天	大辩天	Also known as	\N
 大辩天	辩才天	Also known as	\N
 辩才天	大辩才天女	Also known as	\N
@@ -1548,6 +1568,12 @@
 心经	般若波罗蜜多心经	Full name	\N
 大乘佛教	大乘	Also known as	\N
 大乘	大乘佛教	Also known as	\N
+大乘	摩诃衍那	Also known as	\N
+摩诃衍那	大乘	Also known as	\N
+大乘	摩诃衍	Also known as	\N
+摩诃衍	大乘	Also known as	\N
+摩诃衍那	摩诃衍	Abbreviation	\N
+摩诃衍	摩诃衍那	Full name	\N
 西藏自治区	西藏	Abbreviation	\N
 西	西藏自治区	Full name	\N
 西藏自治区	藏	Abbreviation	\N
@@ -1798,6 +1824,10 @@
 枳秣罗国	潘地亚	Also known as	\N
 憍陈如	阿若憍陈如	Also known as	\N
 阿若憍陈如	憍陈如	Also known as	\N
+憍陈如	拘驎	Also known as	\N
+拘驎	憍陈如	Also known as	\N
+阿若憍陈如	拘驎	Also known as	\N
+拘驎	阿若憍陈如	Also known as	\N
 西王母	王母娘娘	Also known as	\N
 王母娘娘	西王母	Also known as	\N
 西王母	瑶池金母	Also known as	\N
@@ -1816,6 +1846,10 @@
 夏鲁	夏鲁寺	Full name	\N
 恒河	殑伽	Also known as	\N
 殑伽	恒河	Also known as	\N
+恒河	恒水	Former name	\N
+恒水	恒河	Present-day name	\N
+殑伽	恒水	Former name	\N
+恒水	殑伽	Present-day name	\N
 孜尊．西饶迥乃	西饶迥乃	Abbreviation	\N
 西饶迥乃	孜尊．西饶迥乃	Full name	\N
 吉尊·西饶迥乃	孜尊．西饶迥乃	Also known as	\N
@@ -1856,6 +1890,12 @@
 三摩竭	须摩提	Also known as	\N
 修摩提	三摩竭	Also known as	\N
 三摩竭	修摩提	Also known as	\N
+须摩提	妙慧	Also known as	\N
+妙慧	须摩提	Also known as	\N
+修摩提	妙慧	Also known as	\N
+妙慧	修摩提	Also known as	\N
+三摩竭	妙慧	Also known as	\N
+妙慧	三摩竭	Also known as	\N
 比哈尔	比哈尔邦	Full name	\N
 比哈尔邦	比哈尔	Abbreviation	\N
 扜泥	米兰遗址	Also known as	\N
@@ -2706,7 +2746,13 @@
 钝丁	砚林	Also known as	\N
 砚林	钝丁	Also known as	\N
 楞严经	楞严	Also known as	\N
-楞严 	楞严经	Also known as	\N
+楞严	楞严经	Also known as	\N
+楞严	首楞严	Also known as	\N
+首楞严	楞严	Also known as	\N
+楞严	首楞严三昧经	Also known as	\N
+首楞严三昧经	楞严	Also known as	\N
+首楞严	首楞严三昧经	Also known as	\N
+首楞严三昧经	首楞严	Also known as	\N
 丁佛言	丁世峄	原名 original name	\N
 丁世峄	丁佛言	Also known as	\N
 天帝释	天帝	Also known as	\N
@@ -2769,6 +2815,14 @@
 锭光佛	燃灯佛	Also known as	\N
 普光佛	锭光佛	Also known as	\N
 锭光佛	普光佛	Also known as	\N
+然灯佛	定光佛	Also known as	\N
+定光佛	然灯佛	Also known as	\N
+普光佛	定光佛	Also known as	\N
+定光佛	普光佛	Also known as	\N
+燃灯佛	定光佛	Also known as	\N
+定光佛	燃灯佛	Also known as	\N
+锭光佛	定光佛	Also known as	\N
+定光佛	锭光佛	Also known as	\N
 大方等大集经	大集经	Abbreviation	\N
 大集经	大方等大集经	Full name	\N
 悉达多	悉达	Also known as	\N
@@ -2807,6 +2861,8 @@
 迦惟罗阅	迦毗罗	Also known as	\N
 迦毗罗卫	迦惟罗阅	Also known as	\N
 迦惟罗阅	迦毗罗卫	Also known as	\N
+迦毗罗	迦维罗卫	Also known as	\N
+迦维罗卫	迦毗罗	Also known as	\N
 阿尼律陀	阿楼驮	Also known as	\N
 阿楼驮	阿尼律陀	Also known as	\N
 阿尼律	阿楼驮	Also known as	\N
@@ -3043,3 +3099,299 @@
 洛阳	雒阳	Also known as	\N
 石涧寺	东山寺	Also known as	\N
 东山寺	石涧寺	Also known as	\N
+晋惠帝	晋惠	Also known as	\N
+晋惠	晋惠帝	Also known as	\N
+妙慧童女经	佛说妙慧童女经	Also known as	\N
+佛说妙慧童女经	妙慧童女经	Also known as	\N
+永济渠	白渠	Also known as	\N
+白渠	永济渠	Also known as	\N
+通济渠	汴河	Also known as	\N
+汴河	通济渠	Also known as	\N
+汳	汴水	Also known as	\N
+汴水	汳	Also known as	\N
+汴渠	汳	Also known as	\N
+汳	汴渠	Also known as	\N
+汴渠	汴水	Also known as	\N
+汴水	汴渠	Also known as	\N
+狼汤渠	蒗荡渠	Also known as	\N
+蒗荡渠	狼汤渠	Also known as	\N
+东吴	孙吴	Also known as	\N
+孙吴	东吴	Also known as	\N
+月氏	月支	Also known as	\N
+月支	月氏	Also known as	\N
+云南	滇	Also known as	\N
+滇	云南	Also known as	\N
+宜昌县	宜昌	Also known as	\N
+宜昌	宜昌县	Also known as	\N
+江南运河	江南河	Also known as	\N
+江南河	江南运河	Also known as	\N
+江南河	浙西运河	Also known as	\N	
+浙西运河	江南河	Also known as	\N
+江南运河	浙西运河	Also known as	\N
+浙西运河	江南运河	Also known as	\N
+湔江	湔水	Also known as	\N
+湔水	湔江	Also known as	\N
+说文解字	说文	Abbreviation	\N
+说文	说文解字	Full name	\N
+孔子家语	家语	Abbreviation	\N
+家语	孔子家语	Full name	\N
+太公六韬	六韬	Abbreviation	\N
+六韬	太公六韬	Full name	\N
+开元释教录	开元录	Abbreviation	\N
+开元录	开元释教录	Full name	\N
+妙慧童女经	须摩提经	Also known as	\N
+须摩提经	妙慧童女经	Also known as	\N
+美国英语	美式英语	Also known as	\N
+美式英语	美国英语	Also known as	\N
+康僧会	僧会	Also known as	\N
+僧会	康僧会	Also known as	\N
+严佛调	严浮调	Also known as	\N
+严浮调	严佛调	Also known as	\N
+三法度论	三法度	Also known as	\N
+三法度	三法度论	Also known as	\N
+康孟详	孟详	Also known as	\N
+孟详	康孟详	Also known as	\N
+浮陀跋摩	跋摩	Also known as	\N
+跋摩	浮陀跋摩	Also known as	\N
+跋陀	求那跋陀罗	Also known as	\N
+求那跋陀罗	跋陀	Also known as	\N
+罽賓	罽賓国	Also known as	\N
+罽賓国	罽賓	Also known as	\N
+释宝云	宝云	Also known as	\N
+宝云	释宝云	Also known as	\N
+法华经	法华	Also known as	\N
+法华	法华经	Also known as	\N
+慧静	释慧静	Also known as	\N
+释慧静	慧静	Also known as	\N
+文宣王	萧子良	Also known as	\N
+萧子良	文宣王	Also known as	\N
+三论宗	三论	Also known as	\N
+三论	三论宗	Also known as	\N
+孝庄帝	庄帝	Also known as	\N
+庄帝	孝庄帝	Also known as	\N
+孝庄帝	元子攸	Also known as	\N
+元子攸	孝庄帝	Also known as	\N
+庄帝	元子攸	Also known as	\N
+元子攸	庄帝	Also known as	\N
+侗台语系	壮侗语族	Also known as	\N
+壮侗语族	侗台语系	Also known as	\N
+侗台语系	壮侗语系	Also known as	\N
+壮侗语系	侗台语系	Also known as	\N
+壮侗语族	壮侗语系	Also known as	\N
+壮侗语系	壮侗语族	Also known as	\N
+苗瑶语系	苗瑶语族	Also known as	\N
+苗瑶语族	苗瑶语系	Also known as	\N
+日耳曼语族	日尔曼语族	Also known as	\N
+日尔曼语族	日耳曼语族	Also known as	\N
+日耳曼	日尔曼	Also known as	\N
+日尔曼	日耳曼	Also known as	\N
+塔克西拉	竺剎屍罗	Also known as	\N
+竺剎屍罗	塔克西拉	Also known as	\N
+拘尸那揭罗	那竭城	Also known as	\N
+那竭城	拘夷那竭	Also known as	\N
+拘夷那竭	那竭城	Also known as	\N
+波罗㮏城	波罗㮏	Also known as	\N
+波罗㮏	波罗㮏城	Also known as	\N
+波罗㮏城	波罗奈国	Also known as	\N
+波罗奈国	波罗㮏城	Also known as	\N
+波罗㮏	瓦拉纳西	Also known as	\N
+瓦拉纳西	波罗㮏	Also known as	\N
+波罗奈国	瓦拉纳西	Also known as	\N
+瓦拉纳西	波罗奈国	Also known as	\N
+那竭城	拘尸那揭罗	Also known as	\N
+旃陀罗	旃荼罗	旧称 former name	\N
+旃荼罗	旃陀罗	Also known as	\N
+印度河	新头河	旧称 former name	\N
+新头河	印度河	Also known as	\N
+目连	大目揵连	Also known as	\N
+大目揵连	目连	Also known as	\N
+目连	目犍连	Also known as	\N
+目犍连	目连	Also known as	\N
+目连	摩诃目干连	Also known as	\N
+摩诃目干连	目连	Also known as	\N
+目犍连	大目揵连	Also known as	\N
+大目揵连	目犍连	Also known as	\N
+目犍连	摩诃目干连	Also known as	\N
+摩诃目干连	目犍连	Also known as	\N
+摩诃目干连	大目揵连	Also known as	\N
+大目揵连	摩诃目干连	Also known as	\N
+罗睺罗	罗云	Also known as	\N
+罗云	罗睺罗	Also known as	\N
+只树	祇洹	Also known as	\N
+祇洹	只树	Also known as	\N
+拘留孙	拘留孙佛	Also known as	\N
+拘留孙佛	拘留孙	Also known as	\N
+拘留孙	拘楼秦佛	Also known as	\N
+拘楼秦佛	拘留孙	Also known as	\N
+拘留孙佛	拘楼秦佛	Also known as	\N
+拘楼秦佛	拘留孙佛	Also known as	\N
+优婆离	优波离	Also known as	\N
+优波离	优婆离	Also known as	\N
+频婆娑罗	䓑沙王	Also known as	\N
+䓑沙王	频婆娑罗	Also known as	\N
+迦兰陀	迦兰陀竹园	Also known as	\N
+迦兰陀竹园	迦兰陀	Also known as	\N
+迦尸国	迦尸	Also known as	\N
+迦尸	迦尸国	Also known as	\N
+拘睒弥国	拘睒弥	Also known as	\N
+拘睒弥	拘睒弥国	Also known as	\N
+说一切有部	萨婆多众	Also known as	\N
+萨婆多众	说一切有部	Also known as	\N
+苏达那太子	苏达那	Also known as	\N
+苏达那	苏达那太子	Also known as	\N
+苏达那	须大拏	Also known as	\N
+须大拏	苏达那	Also known as	\N
+苏达那太子	须大拏	Also known as	\N
+须大拏	苏达那太子	Also known as	\N
+笈多	瞿谛	Also known as	\N
+瞿谛	笈多	Also known as	\N
+师子国	斯里兰卡	Present name	\N
+斯里兰卡	师子国	Former name	\N
+斯里兰卡	大佛山	Former name	\N
+大佛山	斯里兰卡	Present name	\N
+杂阿含经	杂藏	Also known as	\N
+杂藏	杂阿含经	Also known as	\N
+南洛河	洛河	Also known as	\N
+洛河	南洛河	Also known as	\N
+妈祖	天妃	Also known as	\N
+天妃	妈祖	Also known as	\N
+夏连特拉王国	夏连特拉	Also known as	\N
+夏连特拉	夏连特拉王国	Also known as	\N
+爪哇岛	爪哇	Also known as	\N
+爪哇	爪哇岛	Also known as	\N
+可伦坡	科伦坡	Also known as	\N
+科伦坡	可伦坡	Also known as	\N
+神州	华夏	Also known as	\N
+华夏	神州	Also known as	\N
+威廉	威廉冯特	Also known as	\N
+威廉冯特	冯特	Also known as	\N
+卡尔荣格	荣格	Also known as	\N
+荣格	卡尔荣格	Also known as	\N
+裸人国	裸国	Also known as	\N
+裸国	裸人国	Also known as	\N
+苏门答腊岛	苏门答腊	Also known as	\N
+苏门答腊	苏门答腊岛	Also known as	\N
+末罗瑜	末罗游州	Also known as	\N
+末罗游州	末罗瑜	Also known as	\N
+海南	海南岛	Full name	\N
+海南岛	海南	Abbreviation	\N
+浿	浿水	Full name	\N
+浿水	浿	Abbreviation	\N
+帝汶岛	古里地闷	Former name	\N
+古里地闷	帝汶岛	Present name	\N
+纳塔姆帕奈	沙里八丹	Former name	\N
+沙里八丹	纳塔姆帕奈	Present name	\N
+新加坡	龙牙门	Former name	\N
+龙牙门	新加坡	Present name	\N
+达尔文港	达尔文	Also known as	\N
+达尔文	达尔文港	Also known as	\N
+澳大利亚	澳洲	Also known as	\N
+澳洲	澳大利亚	Also known as	\N
+澳大利亚	罗娑斯	Former name	\N
+罗娑斯	澳大利亚	Present name	\N
+澳大利亚	绝岛	Former name	\N
+绝岛	澳大利亚	Present name	\N
+汪大渊	大渊	Also known as	\N
+大渊	汪大渊	Also known as	\N
+泉州	清源	Former name	\N
+清源	泉州	Present name	\N
+泉州府志	淸源续志	Also known as	\N
+淸源续志	泉州府志	Also known as	\N
+澎湖	彭湖	Former name	\N
+彭湖	澎湖	Present name	\N
+马六甲	无枝拔	Former name	\N
+无枝拔	马六甲	Present name	\N
+彭亨	彭坑	Former name	\N
+彭坑	彭亨	Present name	\N
+登嘉楼	丁家卢	Former name	\N
+丁家卢	登嘉楼	Former name	\N
+罗斛	罗涡	Also known as	\N
+罗涡	罗斛	Also known as	\N
+萨尔温江	怒江	Also known as	\N
+怒江	萨尔温江	Also known as	\N
+巨港	旧港	Also known as	\N
+旧港	巨港	Also known as	\N
+佛洛伊德	弗洛伊德	Also known as	\N
+弗洛伊德	佛洛伊德	Also known as	\N
+完形心理学	格式塔	Also known as	\N
+格式塔	完形心理学	Also known as	\N
+黄支	黄枝	Also known as	\N
+黄枝	黄支	Also known as	\N
+交州异物志	异物志	Also known as	\N
+异物志	交州异物志	Also known as	\N
+交趾异物志	交州异物志	Also known as	\N
+交州异物志	交趾异物志	Also known as	\N
+交趾异物志	异物志	Also known as	\N
+异物志	交趾异物志	Also known as	\N
+交趾异物志	南裔异物志	Also known as	\N
+南裔异物志	交趾异物志	Also known as	\N
+交州异物志	南裔异物志	Also known as	\N
+南裔异物志	交州异物志	Also known as	\N
+南裔异物志	异物志	Also known as	\N
+异物志	南裔异物志	Also known as	\N
+骊靬	犁靬	Also known as	\N
+犁靬	骊靬	Also known as	\N
+丁令	丁零	Also known as	\N
+丁零	丁令	Also known as	\N
+瓯骆	瓯雒	Also known as	\N
+瓯雒	瓯骆	Also known as	\N
+瓯骆	骆越	Also known as	\N
+骆越	瓯骆	Also known as	\N
+瓯雒	骆越	Also known as	\N
+骆越	瓯雒	Also known as	\N
+望城	望城县	Also known as	\N
+望城县	望城	Also known as	\N
+文化艺术管理专	文管	Abbreviation	\N
+文管	文化艺术管理专	Full name	\N
+周文王	文王	Also known as	\N
+文王	周文王	Also known as	\N
+注音	注音符号	Full name	\N
+注音符号	注音	Abbreviation	\N
+国音字母	注音符号	Also known as	\N
+注音符号	国音字母	Also known as	\N
+国音字母	注音	Also known as	\N
+注音	国音字母	Also known as	\N
+洞山良价	良价	Also known as	\N
+良价	洞山良价	Also known as	\N
+白云守端	守端	Also known as	\N
+守端	白云守端	Also known as	\N
+二十四史	正史	Also known as	\N
+正史	二十四史	Also known as	\N
+钦定二十四史	二十四史	Also known as	\N
+二十四史	钦定二十四史	Also known as	\N
+正史	钦定二十四史	Also known as	\N
+钦定二十四史	正史	Also known as	\N
+南齐书	齐书	Also known as	\N
+齐书	南齐书	Also known as	\N
+旧五代史	五代史	Also known as	\N
+五代史	旧五代史	Also known as	\N
+托克托	脱脱	Also known as	\N
+脱脱	托克托	Also known as	\N
+木兰辞	木兰诗	Also known as	\N
+木兰诗	木兰辞	Also known as	\N
+周礼	周官	Also known as	\N
+周官	周礼	Also known as	\N
+墨子	墨翟	Also known as	\N
+墨翟	墨子	Also known as	\N
+卫鞅	商鞅	Also known as	\N
+商鞅	卫鞅	Also known as	\N
+晏子	晏婴	Also known as	\N
+晏婴	晏子	Also known as	\N
+白虎通义	白虎通	Also known as	\N
+白虎通	白虎通义	Also known as	\N
+潘安	潘岳	Also known as	\N
+潘岳	潘安	Also known as	\N
+李白	李太白	Also known as	\N
+李太白	李白	Also known as	\N
+李存朂	李存勗	Also known as	\N
+李存勗	李存朂	Also known as	\N
+李存朂	李存勖	Also known as	\N
+李存勖	李存朂	Also known as	\N
+李存勗	李存勖	Also known as	\N
+李存勖	李存勗	Also known as	\N
+晏殊	宴殊	Also known as	\N
+宴殊	晏殊	Also known as	\N
+八股文	八股	Also known as	\N
+八股	八股文	Also known as	\N
+太史公书	史记	Also known as	\N
+史记	太史公书	Also known as	\N

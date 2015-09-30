@@ -1,15 +1,16 @@
 # Tang poetry corpus
-poem_terrace-raw.html	poem_terrace.html
-poem_random-raw.html	poem_random.html
-poem_tower-raw.html	poem_tower.html
-poem_liang-raw.html	poem_liang.html
-poem_dawn-raw.html	poem_dawn.html
-poem_friend-raw.html	poem_friend.html
-poem_stream-raw.html	poem_stream.html
-poem_rapids-raw.html	poem_rapids.html
-poem_bamboo-raw.html	poem_bamboo.html
-poem_bird-raw.html	poem_bird.html
-poem_lines-raw.html	poem_lines.html
-poem_homes-raw.html	poem_homes.html
-poem_crows-raw.html	poem_crows.html
-poem_roosting-raw.html	poem_roosting.html
+# Input file, Output file, Title
+poem_terrace-raw.html	poem_terrace.html	Song on Ascending the Youzhou Terrace
+poem_random-raw.html	poem_random.html	Random Lines on Home-Coming
+poem_tower-raw.html	poem_tower.html	Ascending the Stork Tower
+poem_liang-raw.html	poem_liang.html	Liang County Song
+poem_dawn-raw.html	poem_dawn.html	Spring Dawn
+poem_friend-raw.html	poem_friend.html	Bidding Adieu to a Friend
+poem_stream-raw.html	poem_stream.html	Clear Stream 青溪
+poem_rapids-raw.html	poem_rapids.html	Luanjia Rapids
+poem_bamboo-raw.html	poem_bamboo.html	Bamboo Grove Cabin
+poem_bird-raw.html	poem_bird.html	Bird-Chirping Hollow
+poem_lines-raw.html	poem_lines.html	Lines
+poem_homes-raw.html	poem_homes.html	Smallholders' Homes by the Wei River
+poem_crows-raw.html	poem_crows.html	Crows Croaking at Dusk
+poem_roosting-raw.html	poem_roosting.html	A Tune of Crows Roosting Before the Eve

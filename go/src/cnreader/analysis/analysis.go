@@ -7,6 +7,7 @@ import (
 	"bufio"
 	"bytes"
 	"cnreader/config"
+	"cnreader/corpus"
 	"container/list"
 	"encoding/csv"
 	"fmt"
@@ -19,6 +20,7 @@ import (
 	"strings"
 	"time"
 	"unicode"
+    "unicode/utf8"
 )
 
 // Maximum number of word frequency entries to output to the generated
@@ -28,6 +30,9 @@ const MAX_WF_OUTPUT = 50
 // Maximum number of unknwon characters to output to the generated
 // HTML file
 const MAX_UNKOWN_OUTPUT = 50
+
+// Word frequency output file
+const UNIGRAM_FILE = "unigram.txt"
 
 // The content for a corpus entry
 type CorpusEntryContent struct {
@@ -115,6 +120,50 @@ func IsCJKChar(character string) bool {
 	return unicode.Is(unicode.Han, r[0]) && !unicode.IsPunct(r[0])
 }
 
+// Parses a Chinese text into words
+// Parameters:
+// text: the string to parse
+// Returns:
+// tokens: the tokens for the parsed text
+// vocab: a table of the unique words found in the parsed text
+// wc: total word count
+func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
+	unknownChars []string) {
+	vocab = make(map[string]int)
+	unknownChars = make([]string, 0)
+	chunks := GetChunks(text)
+	//fmt.Printf("ParseText: For text %s got %d chunks\n", text, chunks.Len())
+	for e := chunks.Front(); e != nil; e = e.Next() {
+		chunk := e.Value.(string)
+		//fmt.Printf("ParseText: chunk %s\n", chunk)
+		characters := strings.Split(chunk, "")
+		if !IsCJKChar(characters[0]) {
+			tokens.PushBack(chunk)
+			continue
+		}
+		for i := 0; i < len(characters); i++ {
+			for j := len(characters); j > 0; j-- {
+				w := strings.Join(characters[i:j], "")
+				//fmt.Printf("ParseText: i = %d, j = %d, w = %s\n", i, j, w)
+				if _, ok := wdict[w]; ok {
+					//fmt.Printf("ParseText: found word %s, i = %d\n", w, i)
+					tokens.PushBack(w)
+					wc++
+					vocab[w]++
+					i = j - 1
+					j = 0
+				} else if (utf8.RuneCountInString(w) == 1) {
+					//log.Printf("ParseText: found unknown character %s\n", w)
+					unknownChars = append(unknownChars, w)
+					tokens.PushBack(w)
+					break
+				}
+			}
+		}
+	}
+	return tokens, vocab, wc, unknownChars
+}
+
 // Reads the Chinese-English dictionary into memory from the word sense file
 // Parameters:
 //   wsfilename The name of the word sense file
@@ -198,54 +247,6 @@ func ReadText(filename string) (string) {
 	}
 	//fmt.Printf("ReadText: read text %s\n", text)
 	return text
-}
-
-// Parses a Chinese text into words
-// Parameters:
-// text: the string to parse
-// Returns:
-// tokens: the tokens for the parsed text
-// vocab: a table of the unique words found in the parsed text
-// wc: total word count
-func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
-	unknownChars []string) {
-	vocab = make(map[string]int)
-	unknownChars = make([]string, 3)
-	chunks := GetChunks(text)
-	//fmt.Printf("ParseText: For text %s got %d chunks\n", text, chunks.Len())
-	for e := chunks.Front(); e != nil; e = e.Next() {
-		chunk := e.Value.(string)
-		//fmt.Printf("ParseText: chunk %s\n", chunk)
-		characters := strings.Split(chunk, "")
-		if !IsCJKChar(characters[0]) {
-			tokens.PushBack(chunk)
-			continue
-		}
-		for i := 0; i < len(characters); i++ {
-			for j := len(characters); j > 0; j-- {
-				w := strings.Join(characters[i:j], "")
-				//fmt.Printf("ParseText: i = %d, j = %d, w = %s\n", i, j, w)
-				if _, ok := wdict[w]; ok {
-					//fmt.Printf("ParseText: found word %s, i = %d\n", w, i)
-					tokens.PushBack(w)
-					wc++
-					if _, ok := vocab[w]; ok {
-						vocab[w]++
-					} else {
-						vocab[w] = 1
-					}
-					i = j - 1
-					j = 0
-				} else if (len([]rune(w)) == 1) {
-					//log.Printf("ParseText: found unknown character %s\n", w)
-					unknownChars = append(unknownChars, w)
-					tokens.PushBack(w)
-					break
-				}
-			}
-		}
-	}
-	return tokens, vocab, wc, unknownChars
 }
 
 // Writes a document with vocabulary analysis of the text. The name of the
@@ -424,4 +425,58 @@ func WriteVocab(chunk string, index int, vocab map[string]int) string {
 	buffer.WriteString(chunk[index:])
 	buffer.WriteString("\n")
 	return buffer.String()
+}
+
+// Compute word frequencies for entire corpus.
+func WordFrequencies() {
+	corpusDataDir := config.ProjectHome() + "/data/corpus/"
+	corpusDir := config.ProjectHome() + "/corpus/"
+	outfile := config.ProjectHome() + "/data/" + UNIGRAM_FILE
+	f, err := os.Create(outfile)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer f.Close()
+	w := bufio.NewWriter(f)
+
+	// Overall word frequencies per corpus
+	wcTotal := map[string]int{}
+	wfTotal := map[*CorpusWord]CorpusWordFreq{}
+
+	collectionEntries := corpus.Collections()
+	for _, col := range collectionEntries {
+		colFile := corpusDataDir + col.CollectionFile
+		log.Printf("WordFrequencies: input file: %s\n", colFile)
+		corpusEntries := corpus.CorpusEntries(colFile)
+		for _, entry := range corpusEntries {
+			src := corpusDir + entry.RawFile
+			text := ReadText(src)
+			_, vocab, wc, _ := ParseText(text)
+			wcTotal[col.Corpus] += wc
+			for word, count := range vocab {
+				cw := &CorpusWord{col.Corpus, word}
+				cwf := &CorpusWordFreq{col.Corpus, word, count}					
+				if cwfPrev, found := wfTotal[cw]; found {
+					cwf.Freq += cwfPrev.Freq			
+				}
+				wfTotal[cw] = *cwf
+				rel_freq := 1000.0 * float64(count) / float64(wc)
+				fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\n", word, count, rel_freq,
+					entry.GlossFile, col.Title, entry.Title)
+			}
+		}
+	}
+
+	// Output totals for each corpus
+	for corpus, count := range wcTotal {
+		log.Printf("WordFrequencies: Total word count for corpus %s: %d\n",
+			corpus, count)
+
+	}
+	for _, wcf := range wfTotal {
+		rel_freq := 1000.0 * float64(wcf.Freq) / float64(wcTotal[wcf.Corpus])
+		fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\n", wcf.Word, wcf.Freq,
+			rel_freq, "#", wcf.Corpus, "")
+	}
+	w.Flush()
 }

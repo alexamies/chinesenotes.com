@@ -1,8 +1,9 @@
 # Literary Chinese prose corpus
 # Paths are relative to the web directory
-classical_chinese_text-raw.html	classical_chinese_text.html	\N
-classical_chinese_zhanguoce-raw.html	classical_chinese_zhanguoce.html	\N
-classical_chinese_zhuangzi-raw.html	classical_chinese_zhuangzi.html	\N
-classical_chinese_shiji-raw.html	classical_chinese_shiji.html	\N
-classical_chinese_hanfeizi-raw.html	classical_chinese_hanfeizi.html	\N
-classical_chinese_mengzi-raw.html	classical_chinese_mengzi.html	\N
+# Input file, output file, title
+classical_chinese_text-raw.html	classical_chinese_text.html	Selections from Stories by Liu Xiang
+classical_chinese_zhanguoce-raw.html	classical_chinese_zhanguoce.html	Selections from Stratagems of the Warring States
+classical_chinese_zhuangzi-raw.html	classical_chinese_zhuangzi.html	Selections from Zhuang Zi
+classical_chinese_shiji-raw.html	classical_chinese_shiji.html	Sections from Records of the Historian
+classical_chinese_hanfeizi-raw.html	classical_chinese_hanfeizi.html	Selections from Han Feizi
+classical_chinese_mengzi-raw.html	classical_chinese_mengzi.html	Selections from Mencius

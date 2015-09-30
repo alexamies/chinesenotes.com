@@ -18,16 +18,15 @@ import (
 )
 
 type CollectionEntry struct {
-	CollectionFile, GlossFile, Title, Summary, Intro, DateUpdated string
+	CollectionFile, GlossFile, Title, Summary, Intro, DateUpdated, Corpus string
 	CorpusEntries []CorpusEntry
-}
-
-type CorpusEntry struct {
-	RawFile, GlossFile, Title string
 }
 
 const collectionsFile = "data/corpus/collections.csv"
 
+type CorpusEntry struct {
+	RawFile, GlossFile, Title string
+}
 
 // Gets the entry the collection
 // Parameter
@@ -40,7 +39,8 @@ func GetCollectionEntry(collectionFile string) (CollectionEntry, error)  {
 			return entry, nil
 		}
 	}
-	return CollectionEntry{}, errors.New("could not find collection " + collectionFile)
+	return CollectionEntry{}, errors.New("could not find collection " +
+		collectionFile)
 }
 
 // Gets the list of source and destination files for HTML conversion
@@ -73,9 +73,15 @@ func Collections() []CollectionEntry {
 		if row[4] != "\\N" {
 			introFile = row[4]
 		}
+		corpus := ""
+		if row[5] != "\\N" {
+			corpus = row[5]
+		}
 		corpusEntries := make([]CorpusEntry, 0)
+		log.Printf("Collections: Read collection %s in corpus %s\n",
+			title, corpus)
 		collections = append(collections, CollectionEntry{row[0], row[1],
-			title, summary, introFile, "", corpusEntries})
+			title, summary, introFile, "", corpus, corpusEntries})
 	}
 	return collections
 }

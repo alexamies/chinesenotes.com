@@ -4,7 +4,10 @@ Word frequency functions.
 */
 package analysis
 
-import "sort"
+import (
+	"sort"
+	"fmt"
+	)
 
 // Sorted list of word frequencies
 type SortedWF struct {
@@ -16,6 +19,22 @@ type SortedWF struct {
 type SortedWordItem struct {
 	Word string
 	Freq int
+}
+
+// A word with corpus label
+type CorpusWord struct {
+	Corpus, Word string
+}
+
+// A word frequency with corpus label
+type CorpusWordFreq struct {
+	Corpus, Word string
+	Freq int
+}
+
+// For indexing counts
+func (cw CorpusWord) String() string {
+	return fmt.Sprintf("%s:%s", cw.Corpus, cw.Word)
 }
 
 func (sortedWF *SortedWF) Len() int {

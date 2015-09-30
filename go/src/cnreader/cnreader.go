@@ -14,16 +14,17 @@ import (
 //Entry point for the chinesenotes command line tool.
 func main() {
 	// Command line flags
-	var all = flag.Bool("all", false, "Enhance HTML markup for all the files " +
-		"listed in data/corpus/html-conversion.csv")
 	var analysisFile = flag.String("analysis", "testoutput/test-analysis.html",
 		"Vocabulary Analysis file")
 	var collectionFile = flag.String("collection", "", 
 		"Enhance HTML markup and do vocabulary analysis for all the files " +
 		"listed in given collection.")
-	var infile = flag.String("infile", "testdata/test.html", "Input file")
-	var outfile = flag.String("outfile", "testoutput/test-gloss.html",
-		"Output file")
+	var html = flag.Bool("html", false, "Enhance HTML markup for all files " +
+		"listed in data/corpus/html-conversion.csv")
+	var infile = flag.String("infile", "", "Input file")
+	var outfile = flag.String("outfile", "", "Output file")
+	var wf = flag.Bool("wf", false, "Compute wf for all the corpus files " +
+		"listed in data/corpus/collections.csv")
 	flag.Parse()
 
 	// Set project home relative to the command line tool directory
@@ -32,10 +33,11 @@ func main() {
 	webDir := projectHome + "/web"
 	corpusDir := projectHome + "/corpus"
 	corpusDataDir := projectHome + "/data/corpus"
+	dataDir := projectHome + "/data/"
 
 
 	// Read in dictionary
-	analysis.ReadDict("../../../data/words.txt")
+	analysis.ReadDict(dataDir + "words.txt")
 
 	if (*collectionFile != "") {
 		log.Printf("main: Analyzing collection %s\n", *collectionFile)
@@ -58,7 +60,7 @@ func main() {
 			analysis.WriteCorpusDoc(tokens, vocab, dest,
 				collectionEntry.GlossFile, collectionEntry.Title, aFile)
 		}
-	} else if !*all {
+	} else if *infile != "" {
 		log.Printf("main: input file: %s, output file: %s, analysis file: %s\n",
 			*infile, *outfile, *analysisFile)
 
@@ -69,7 +71,7 @@ func main() {
 		analysis.WriteAnalysis(vocab, wc, unknownChars, *analysisFile,
 			"To do: figure out the colleciton title",
 			"To do: figure out the document title")
-	} else {
+	} else if *html {
 		log.Printf("main: Converting all HTML files\n")
 		conversions := config.GetHTMLConversions()
 		for _, conversion := range conversions {
@@ -80,5 +82,10 @@ func main() {
 			tokens, vocab, _, _ := analysis.ParseText(text)
 			analysis.WriteDoc(tokens, vocab, dest)
 		}
+	} else if *wf {
+		log.Printf("main: Computing word frequencies for whole corpus\n")
+		analysis.WordFrequencies()
+	} else {
+		log.Printf("main: Nothing to do. Please enter a command\n")
 	}
 }

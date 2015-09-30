@@ -1,7 +1,7 @@
 # Top level file listing the corpus collections
-#Collection File, HTML Gloss File, Title, Description, Introduction File
-literary_chinese_prose.csv	\N	\N	\N	\N
-tang_poetry.csv	\N	\N	\N	\N
-modern_articles.csv	\N	\N	\N	\N
-erya.csv	erya_collection.html	Er Ya 《爾雅》	An earliest Chinese dictionary	erya00.txt
-shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	\N
+#Collection File, HTML Gloss File, Title, Description, Introduction File, Corpus, Format, Domain, Period
+literary_chinese_prose.csv	\N	Selections of Literary Chinese Prose	\N	\N	Literary Chinese	Prose	Classical
+tang_poetry.csv	\N	Selections of Tang Poetry	\N	\N	Literary Chinese	Poetry	Tang
+modern_articles.csv	\N	Media articles	\N	\N	Modern Chinese	Prose	Modern
+erya.csv	erya_collection.html	Er Ya 《爾雅》	An earliest Chinese dictionary	erya00.txt	Literary Chinese	Prose	Han
+shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	\N	Literary Chinese	Prose	Northern and Southern Dynasties

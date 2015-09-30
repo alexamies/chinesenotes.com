@@ -39,6 +39,7 @@
 文化	Culture	\N	\N
 习俗	Customs	\N	\N
 跳舞	Dancing	\N	\N
+方言	Dialect	\N	\N
 灾难	Disaster	\N	\N
 戏剧	Drama	\N	\N
 经济	Economics	\N	\N
@@ -49,6 +50,7 @@
 电气工程	Electrical Engineering	\N	\N
 感情	Emotion	\N	\N
 能源	Energy	\N	\N
+娱乐	Entertainment	\N	\N
 环境	Environment	\N	\N
 儿化	Erhua	\N	\N
 道德	Ethics	\N	\N
@@ -101,6 +103,7 @@
 机械	Mechanical	\N	\N
 媒体	Media	\N	\N
 医疗	Medicine	\N	\N
+冥想	Meditation	\N	\N
 冶金	Metallurgy	\N	\N
 军事	Military	\N	\N
 登山	Mountaineering	\N	\N
@@ -133,12 +136,14 @@
 科学	Science	\N	\N
 规模	Scale	\N	\N
 交际	Social Interaction	\N	\N
+社会学	Social Science	\N	\N
 社会	Society	\N	\N
 声	Sound	\N	\N
 航天	Space Flight	\N	\N
 体育	Sport	\N	\N
 文具	Stationery	\N	\N
 力气	Strength	\N	\N
+道教	Taoism	\N	\N
 老舍茶馆	Teahouse by Lao She	\N	\N
 技术	Technology	\N	\N
 温度	Temperature	\N	\N
