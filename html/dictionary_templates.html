@@ -1,0 +1,60 @@
+<h2>Dictionary Entry Templates</h2>
+<p>
+  This page explains information to include in common types of entries.
+  All the Chinese dictionary metadata should be entered in simplified, except
+  when quoting literary Chinese sources, due to the predominant use of 
+  traditional Chinese in literary Chinese texts. 
+</p>
+<h3>Classical Chinese</h3>
+<p>
+  A word used in literary Chinese with a definition that goes back to
+  pre-modern times, usually classical or pre-classical times but may include
+  medieval. The term literary Chinese refers to the language and classical
+  Chinese to a period. However, there are no categories in the dictionary
+  for pre-classical or medieval. The way to differentiate a classical Chinese
+  entry from a modern entry is via the topic_cn and topic_en fields. The
+  classical definition will have topic_en: Classical Chinese. Modern Chinese
+  will have a more specific topic.
+</p>
+<p>
+  Example: 6988 虍<br/>
+  Set these fields<br/>
+  grammar: noun<br/>
+  concept_cn: Try to use a classical term, if possible. For example, use 
+  兽 instead of 动物.<br/>
+  concept_en: Add to match concept_cn<br/>
+  topic_cn: 古文<br/>
+  topic_en: Classical Chinese<br/>
+  notes: Try to find the definition from one of the historic dictionaries or an
+  example from a literary Chinese source and reference it.
+  Try to find a modern Chinese synonymn. If neither of these can be found, look
+  for the definition in Giles. (Giles, 1892)
+</p>
+<h3>Radical</h3>
+<p>
+  A radical in any of the Kangxi, Shuo Wen, or other schemes.
+</p>
+<p>
+  Example: 40348 丂<br/>
+  Set these fields<br/>
+  grammar: noun<br/>
+  concept_cn: 部首<br/>
+  concept_en: Radical<br/>
+  topic_cn: 语法 if modern Chinese，古文 if literary Chinese<br/>
+  topic_en: Grammar if modern Chinese，Classical Chinese if literary Chinese<br/>
+  notes: Add the radical set that the radical belongs to, eg 'A radical in Shuo
+  Wen Jie Zi 《說文解字》'
+</p>
+<h3>Surname</h3>
+<p>
+  A person's surname
+</p>
+<p>
+  Example: 3235 王<br/>
+  Set these fields<br/>
+  grammar: proper noun<br/>
+  concept_cn: 姓氏<br/>
+  concept_en: Surname<br/>
+  topic_cn: 名字<br/>
+  topic_en: Names<br/>
+</p>
