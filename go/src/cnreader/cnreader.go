@@ -56,7 +56,7 @@ func main() {
 			text := analysis.ReadText(src)
 			tokens, vocab, wc, unknownChars := analysis.ParseText(text)
 			aFile := analysis.WriteAnalysis(vocab, wc, unknownChars,
-				entry.RawFile, collectionEntry.Title, collectionEntry.Title)
+				entry.RawFile, collectionEntry.Title, entry.Title)
 			analysis.WriteCorpusDoc(tokens, vocab, dest,
 				collectionEntry.GlossFile, collectionEntry.Title, aFile)
 		}

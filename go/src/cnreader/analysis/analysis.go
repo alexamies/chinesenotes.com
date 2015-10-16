@@ -48,11 +48,17 @@ type WordSenseEntry struct {
 		Mp3, Notes string
 }
 
+// Vocabulary analysis entry for a single word
+type WFResult struct {
+	Freq int
+	Chinese, Pinyin, English string
+}
+
 // Holds vocabulary analysis for a corpus text
 type AnalysisResults struct {
 	Title string
 	WC, UniqueWords int
-	WordFrequences []SortedWordItem
+	WordFrequencies []WFResult
 	UnkownnChars []string
 	DateUpdated string
 	MaxWFOutput int
@@ -263,17 +269,25 @@ func WriteAnalysis(vocab map[string]int, wc int, unknownChars []string,
 
 	// Parse template and organize template parameters
 	sortedWords := SortedFreq(vocab)
-	dateUpdated := time.Now().Format("2006-01-02")
-	 maxWFOutput:= len(sortedWords)
+	wfResults := make([]WFResult, 0)
+	maxWFOutput:= len(sortedWords)
 	if maxWFOutput > MAX_WF_OUTPUT {
 		maxWFOutput = MAX_WF_OUTPUT
 	}
+	for _, value := range sortedWords[:maxWFOutput] {
+		ws, _ := GetWordSense(value.Word)
+		wfResults = append(wfResults, WFResult{value.Freq, value.Word,
+			ws.Pinyin, ws.English})
+	}
+
+	dateUpdated := time.Now().Format("2006-01-02")
 	maxUnkownOutput := len(unknownChars)
 	if maxUnkownOutput > MAX_UNKOWN_OUTPUT {
 		maxUnkownOutput = MAX_UNKOWN_OUTPUT
 	}
-	results := AnalysisResults{"Vocabulary Analysis", wc, len(vocab),
-		sortedWords[:maxWFOutput], unknownChars[:maxUnkownOutput], dateUpdated,
+	title := "Vocabulary Analysis for " + collectionTitle + ", " + docTitle
+	results := AnalysisResults{title, wc, len(vocab),
+		wfResults, unknownChars[:maxUnkownOutput], dateUpdated,
 		maxWFOutput}
 	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles("/Users/alex/Documents/code/chinesenotes.com/corpus/corpus-analysis-template.html")
 	if err != nil { panic(err) }
