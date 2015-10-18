@@ -54,8 +54,8 @@ func main() {
 			dest := webDir + "/" + entry.GlossFile
 			log.Printf("main: input file: %s, output file: %s\n", src, dest)
 			text := analysis.ReadText(src)
-			tokens, vocab, wc, unknownChars := analysis.ParseText(text)
-			aFile := analysis.WriteAnalysis(vocab, wc, unknownChars,
+			tokens, vocab, wc, unknownChars, usage := analysis.ParseText(text)
+			aFile := analysis.WriteAnalysis(vocab, usage, wc, unknownChars,
 				entry.RawFile, collectionEntry.Title, entry.Title)
 			analysis.WriteCorpusDoc(tokens, vocab, dest,
 				collectionEntry.GlossFile, collectionEntry.Title, aFile)
@@ -66,9 +66,9 @@ func main() {
 
 		// Read text and perform vocabulary analysis
 		text := analysis.ReadText(*infile)
-		tokens, vocab, wc, unknownChars := analysis.ParseText(text)
+		tokens, vocab, wc, unknownChars, usage := analysis.ParseText(text)
 		analysis.WriteDoc(tokens, vocab, *outfile)
-		analysis.WriteAnalysis(vocab, wc, unknownChars, *analysisFile,
+		analysis.WriteAnalysis(vocab, usage, wc, unknownChars, *analysisFile,
 			"To do: figure out the colleciton title",
 			"To do: figure out the document title")
 	} else if *html {
@@ -79,7 +79,7 @@ func main() {
 			dest := webDir + "/" + conversion.DestFile
 			log.Printf("main: input file: %s, output file: %s\n", src, dest)
 			text := analysis.ReadText(src)
-			tokens, vocab, _, _ := analysis.ParseText(text)
+			tokens, vocab, _, _, _ := analysis.ParseText(text)
 			analysis.WriteDoc(tokens, vocab, dest)
 		}
 	} else if *wf {

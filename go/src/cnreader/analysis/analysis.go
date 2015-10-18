@@ -25,7 +25,7 @@ import (
 
 // Maximum number of word frequency entries to output to the generated
 // HTML file
-const MAX_WF_OUTPUT = 50
+const MAX_WF_OUTPUT = 100
 
 // Maximum number of unknwon characters to output to the generated
 // HTML file
@@ -51,7 +51,7 @@ type WordSenseEntry struct {
 // Vocabulary analysis entry for a single word
 type WFResult struct {
 	Freq int
-	Chinese, Pinyin, English string
+	Chinese, Pinyin, English, Usage string
 }
 
 // Holds vocabulary analysis for a corpus text
@@ -133,10 +133,12 @@ func IsCJKChar(character string) bool {
 // tokens: the tokens for the parsed text
 // vocab: a table of the unique words found in the parsed text
 // wc: total word count
+// usage: the first usage fo the word in the text
 func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
-	unknownChars []string) {
+	unknownChars []string, usage map[string]string) {
 	vocab = make(map[string]int)
 	unknownChars = make([]string, 0)
+	usage = make(map[string]string)
 	chunks := GetChunks(text)
 	//fmt.Printf("ParseText: For text %s got %d chunks\n", text, chunks.Len())
 	for e := chunks.Front(); e != nil; e = e.Next() {
@@ -156,6 +158,9 @@ func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
 					tokens.PushBack(w)
 					wc++
 					vocab[w]++
+					if _, ok := usage[w]; !ok {
+						usage[w] = chunk
+					}
 					i = j - 1
 					j = 0
 				} else if (utf8.RuneCountInString(w) == 1) {
@@ -167,7 +172,7 @@ func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
 			}
 		}
 	}
-	return tokens, vocab, wc, unknownChars
+	return tokens, vocab, wc, unknownChars, usage
 }
 
 // Reads the Chinese-English dictionary into memory from the word sense file
@@ -264,8 +269,9 @@ func ReadText(filename string) (string) {
 // collectionTitle: The title of the whole colleciton
 // docTitle: The title of this specific document
 // Returns the name of the file written to
-func WriteAnalysis(vocab map[string]int, wc int, unknownChars []string,
-		srcFile string, collectionTitle string, docTitle string) string {
+func WriteAnalysis(vocab map[string]int, usage map[string]string, wc int, 
+		unknownChars []string, srcFile string, collectionTitle string,
+		docTitle string) string {
 
 	// Parse template and organize template parameters
 	sortedWords := SortedFreq(vocab)
@@ -277,7 +283,7 @@ func WriteAnalysis(vocab map[string]int, wc int, unknownChars []string,
 	for _, value := range sortedWords[:maxWFOutput] {
 		ws, _ := GetWordSense(value.Word)
 		wfResults = append(wfResults, WFResult{value.Freq, value.Word,
-			ws.Pinyin, ws.English})
+			ws.Pinyin, ws.English, usage[value.Word]})
 	}
 
 	dateUpdated := time.Now().Format("2006-01-02")
@@ -465,7 +471,7 @@ func WordFrequencies() {
 		for _, entry := range corpusEntries {
 			src := corpusDir + entry.RawFile
 			text := ReadText(src)
-			_, vocab, wc, _ := ParseText(text)
+			_, vocab, wc, _, usage := ParseText(text)
 			wcTotal[col.Corpus] += wc
 			for word, count := range vocab {
 				cw := &CorpusWord{col.Corpus, word}
@@ -475,8 +481,8 @@ func WordFrequencies() {
 				}
 				wfTotal[cw] = *cwf
 				rel_freq := 1000.0 * float64(count) / float64(wc)
-				fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\n", word, count, rel_freq,
-					entry.GlossFile, col.Title, entry.Title)
+				fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\t%s\n", word, count, rel_freq,
+					entry.GlossFile, col.Title, entry.Title, usage[word])
 			}
 		}
 	}

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Chinese language notes">
-    <link rel="shortcut icon" href="images/ren.png" type="image/png" />
+    <link rel="shortcut icon" href="/images/ren.png" type="image/png" />
     <title>Chinese Language Notes</title>
     <link rel="stylesheet" 
           href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
@@ -29,7 +29,7 @@
     </script>
     <div class="starter-template">
       <div class="row">
-        <div class="span2"><img id="logo" src="images/ren.png" alt="Logo"
+        <div class="span2"><img id="logo" src="/images/ren.png" alt="Logo"
                                 class="pull-left"/></div>
         <div class="span7"><h1>Chinese Notes</h1></div>
       </div>
@@ -64,16 +64,28 @@
       <p>Top {{.MaxWFOutput}}</p>
       <table class="table table-bordered table-hover">
         <thead>
-          <tr><th>Word and frequency</th></tr>
+          <tr>
+            <th>Frequency</th>
+            <th>Chinese</th>
+            <th>Pinyin</th>
+            <th>English</th>
+            <th>Usage</th>
+          </tr>
         </thead>
         <tbody>
-        {{ range $wf := .WordFrequences }}
-          <tr><td>{{ $wf.Word }} {{ $wf.Freq }}</td></tr>
+        {{ range $wf := .WordFrequencies }}
+          <tr>
+            <td>{{ $wf.Freq }}</td>
+            <td>{{ $wf.Chinese }}</td>
+            <td>{{ $wf.Pinyin }}</td>
+            <td>{{ $wf.English }}</td>
+            <td>{{ $wf.Usage }}</td>
+          </tr>
         {{ end }}
         </tbody>
       </table>
 
-      <h3>Characters with Dictionary Entries</h3>
+      <h3>Characters without Dictionary Entries</h3>
       <table class="table table-bordered table-hover">
         <thead>
           <tr><th>Character</th></tr>
