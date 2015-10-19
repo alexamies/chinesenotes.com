@@ -8,15 +8,14 @@ import (
 	"bytes"
 	"cnreader/config"
 	"cnreader/corpus"
+	"cnreader/dictionary"
 	"container/list"
-	"encoding/csv"
 	"fmt"
 	"text/template"
 	"io"
 	"io/ioutil"
 	"log"
 	"os"
-	"strconv"
 	"strings"
 	"time"
 	"unicode"
@@ -40,12 +39,10 @@ type CorpusEntryContent struct {
 	CollectionTitle, AnalysisFile string
 }
 
-// Defines the sense of a Chinese word
-type WordSenseEntry struct {
-	Id int
-	Simplified, Traditional, Pinyin, English, Grammar, Concept_cn,
-		Concept_en, Topic_cn, Topic_en, Parent_cn, Parent_en, Image,
-		Mp3, Notes string
+// Dictionary entry content struct used for writing a dictionary entry to HTML
+type DictEntry struct {
+	Headword dictionary.HeadwordDef
+	DateUpdated string
 }
 
 // Vocabulary analysis entry for a single word
@@ -63,10 +60,6 @@ type AnalysisResults struct {
 	DateUpdated string
 	MaxWFOutput int
 }
-
-// The dictionary is a map of pointers to word senses, indexed by simplified
-// and traditional text
-var wdict map[string][]*WordSenseEntry
 
 // Breaks text into a list of CJK and non CJK strings
 func GetChunks(text string) (list.List) {
@@ -97,27 +90,6 @@ func GetChunks(text string) (list.List) {
 	return chunks
 }
 
-// Gets the dictionary definition of the first word sense matching the word
-func GetWordSense(chinese string) (WordSenseEntry, bool) {
-	wSenses, ok := wdict[chinese]
-	if ok {
-		return *(wSenses[0]), ok
-	}
-	ws := new(WordSenseEntry)
-	return *ws, ok
-}
-
-// Gets the dictionary definition of a word
-// Parameters
-//   chinese: The Chinese (simplified or traditional) text of the word
-// Return
-//   word: an array of word senses
-//   ok: true if the word is in the dictionary
-func GetWord(chinese string) (word []*WordSenseEntry, ok bool) {
-	word, ok = wdict[chinese]
-	return word, ok
-}
-
 // Tests whether the symbol is a CJK character, excluding punctuation
 // Only looks at the first charater in the string
 func IsCJKChar(character string) bool {
@@ -140,6 +112,7 @@ func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
 	unknownChars = make([]string, 0)
 	usage = make(map[string]string)
 	chunks := GetChunks(text)
+	wdict := dictionary.GetWDict()
 	//fmt.Printf("ParseText: For text %s got %d chunks\n", text, chunks.Len())
 	for e := chunks.Front(); e != nil; e = e.Next() {
 		chunk := e.Value.(string)
@@ -173,55 +146,6 @@ func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
 		}
 	}
 	return tokens, vocab, wc, unknownChars, usage
-}
-
-// Reads the Chinese-English dictionary into memory from the word sense file
-// Parameters:
-//   wsfilename The name of the word sense file
-func ReadDict(wsfilename string) {
-	wsfile, err := os.Open(wsfilename)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer wsfile.Close()
-	reader := csv.NewReader(wsfile)
-	reader.FieldsPerRecord = -1
-	reader.Comma = rune('\t')
-	rawCSVdata, err := reader.ReadAll()
-	if err != nil {
-		log.Fatal(err)
-	}
-	wdict = make(map[string][]*WordSenseEntry)
-	for _, row := range rawCSVdata {
-		id, _ := strconv.ParseInt(row[0], 10, 0)
-		simp := row[1]
-		trad := row[2]
-		newWs := &WordSenseEntry{Id: int(id), Simplified: simp,
-				Traditional: trad, Pinyin: row[3], English: row[4],
-				Grammar: row[5], Concept_cn: row[6], Concept_en: row[7], 
-				Topic_cn: row[8], Topic_en: row[9], Parent_cn: row[10],
-				Parent_en: row[11], Image: row[12], Mp3: row[13],
-				Notes: row[14]}
-		if trad != "\\N" {
-			wSenses, ok := wdict[trad]
-			if !ok {
-				wsSlice := make([]*WordSenseEntry, 1)
-				wsSlice[0] = newWs
-				wdict[trad] = wsSlice
-			} else {
-				wdict[trad] = append(wSenses, newWs)
-			}
-		}
-		wSenses, ok := wdict[simp]
-		if !ok {
-			wsSlice := make([]*WordSenseEntry, 1)
-			wsSlice[0] = newWs
-			wdict[simp] = wsSlice
-		} else {
-			//fmt.Printf("ReadDict: found simplified %s already in dict\n", simp)
-			wdict[simp] = append(wSenses, newWs)
-		}
-	}
 }
 
 // Reads a Chinese text file
@@ -260,6 +184,60 @@ func ReadText(filename string) (string) {
 	return text
 }
 
+// Compute word frequencies for entire corpus.
+func WordFrequencies() {
+	corpusDataDir := config.ProjectHome() + "/data/corpus/"
+	corpusDir := config.ProjectHome() + "/corpus/"
+	outfile := config.ProjectHome() + "/data/" + UNIGRAM_FILE
+	f, err := os.Create(outfile)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer f.Close()
+	w := bufio.NewWriter(f)
+
+	// Overall word frequencies per corpus
+	wcTotal := map[string]int{}
+	wfTotal := map[*CorpusWord]CorpusWordFreq{}
+
+	collectionEntries := corpus.Collections()
+	for _, col := range collectionEntries {
+		colFile := corpusDataDir + col.CollectionFile
+		log.Printf("WordFrequencies: input file: %s\n", colFile)
+		corpusEntries := corpus.CorpusEntries(colFile)
+		for _, entry := range corpusEntries {
+			src := corpusDir + entry.RawFile
+			text := ReadText(src)
+			_, vocab, wc, _, usage := ParseText(text)
+			wcTotal[col.Corpus] += wc
+			for word, count := range vocab {
+				cw := &CorpusWord{col.Corpus, word}
+				cwf := &CorpusWordFreq{col.Corpus, word, count}					
+				if cwfPrev, found := wfTotal[cw]; found {
+					cwf.Freq += cwfPrev.Freq			
+				}
+				wfTotal[cw] = *cwf
+				rel_freq := 1000.0 * float64(count) / float64(wc)
+				fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\t%s\n", word, count, rel_freq,
+					entry.GlossFile, col.Title, entry.Title, usage[word])
+			}
+		}
+	}
+
+	// Output totals for each corpus
+	for corpus, count := range wcTotal {
+		log.Printf("WordFrequencies: Total word count for corpus %s: %d\n",
+			corpus, count)
+
+	}
+	for _, wcf := range wfTotal {
+		rel_freq := 1000.0 * float64(wcf.Freq) / float64(wcTotal[wcf.Corpus])
+		fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\n", wcf.Word, wcf.Freq,
+			rel_freq, "#", wcf.Corpus, "")
+	}
+	w.Flush()
+}
+
 // Writes a document with vocabulary analysis of the text. The name of the
 // output file will be source file with '-analysis' appended, placed in the
 // web/analysis directory
@@ -281,7 +259,7 @@ func WriteAnalysis(vocab map[string]int, usage map[string]string, wc int,
 		maxWFOutput = MAX_WF_OUTPUT
 	}
 	for _, value := range sortedWords[:maxWFOutput] {
-		ws, _ := GetWordSense(value.Word)
+		ws, _ := dictionary.GetWordSense(value.Word)
 		wfResults = append(wfResults, WFResult{value.Freq, value.Word,
 			ws.Pinyin, ws.English, usage[value.Word]})
 	}
@@ -338,7 +316,7 @@ func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	for e := tokens.Front(); e != nil; e=e.Next() {
 		chunk := e.Value.(string)
 		//fmt.Printf("WriteDoc: Word %s\n", word)
-		if entries, ok := GetWord(chunk); ok {
+		if entries, ok := dictionary.GetWord(chunk); ok {
 			wordIds := ""
 			for _, ws := range entries {
 				if wordIds == "" {
@@ -392,7 +370,7 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename string) {
 	for e := tokens.Front(); e != nil; e=e.Next() {
 		chunk := e.Value.(string)
 		//fmt.Printf("WriteDoc: Word %s\n", word)
-		if entries, ok := GetWord(chunk); ok {
+		if entries, ok := dictionary.GetWord(chunk); ok {
 			wordIds := ""
 			for _, ws := range entries {
 				if wordIds == "" {
@@ -417,6 +395,32 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename string) {
 	w.Flush()
 }
 
+func WriteHwFiles() {
+	fmt.Printf("WriteHwFiles: Begin +++++++++++\n")
+	hwArray := dictionary.GetHeadwords()
+	dateUpdated := time.Now().Format("2006-01-02")
+
+	// Prepare template
+	templFile := config.ProjectHome() + "/html/templates/headword-template.html"
+	//fmt.Println("Home: ", config.ProjectHome())
+	tmpl := template.Must(template.New("headword-template.html").ParseFiles(templFile))
+
+	for _, hw := range hwArray {
+		dictEntry := DictEntry{hw, dateUpdated}
+		filename := fmt.Sprintf("%s%s%d%s", config.ProjectHome(), "/web/words/",
+			hw.Id, ".html")
+		f, err := os.Create(filename)
+		if err != nil {
+			log.Fatal(err)
+		}
+		w := bufio.NewWriter(f)
+		err = tmpl.Execute(w, dictEntry)
+		if err != nil { panic(err) }
+		w.Flush()
+		f.Close()
+	}
+}
+
 // Writes the vocabulary out to a string in JSON format
 // chunk: A chunk of text
 // vocab: A list of word id's in the document
@@ -428,7 +432,7 @@ func WriteVocab(chunk string, index int, vocab map[string]int) string {
 	buffer.WriteString("<script>\n")
 	buffer.WriteString("words = {\n")
 	for key, _ := range vocab {
-		if entries, ok := GetWord(key); ok {
+		if entries, ok := dictionary.GetWord(key); ok {
 			for _, ws := range entries {
 				fmt.Fprintf(buffer, "\"%d\":{\"element_text\":\"%s\"," +
 					"\"simplified\":\"%s\"," +
@@ -445,58 +449,4 @@ func WriteVocab(chunk string, index int, vocab map[string]int) string {
 	buffer.WriteString(chunk[index:])
 	buffer.WriteString("\n")
 	return buffer.String()
-}
-
-// Compute word frequencies for entire corpus.
-func WordFrequencies() {
-	corpusDataDir := config.ProjectHome() + "/data/corpus/"
-	corpusDir := config.ProjectHome() + "/corpus/"
-	outfile := config.ProjectHome() + "/data/" + UNIGRAM_FILE
-	f, err := os.Create(outfile)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer f.Close()
-	w := bufio.NewWriter(f)
-
-	// Overall word frequencies per corpus
-	wcTotal := map[string]int{}
-	wfTotal := map[*CorpusWord]CorpusWordFreq{}
-
-	collectionEntries := corpus.Collections()
-	for _, col := range collectionEntries {
-		colFile := corpusDataDir + col.CollectionFile
-		log.Printf("WordFrequencies: input file: %s\n", colFile)
-		corpusEntries := corpus.CorpusEntries(colFile)
-		for _, entry := range corpusEntries {
-			src := corpusDir + entry.RawFile
-			text := ReadText(src)
-			_, vocab, wc, _, usage := ParseText(text)
-			wcTotal[col.Corpus] += wc
-			for word, count := range vocab {
-				cw := &CorpusWord{col.Corpus, word}
-				cwf := &CorpusWordFreq{col.Corpus, word, count}					
-				if cwfPrev, found := wfTotal[cw]; found {
-					cwf.Freq += cwfPrev.Freq			
-				}
-				wfTotal[cw] = *cwf
-				rel_freq := 1000.0 * float64(count) / float64(wc)
-				fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\t%s\n", word, count, rel_freq,
-					entry.GlossFile, col.Title, entry.Title, usage[word])
-			}
-		}
-	}
-
-	// Output totals for each corpus
-	for corpus, count := range wcTotal {
-		log.Printf("WordFrequencies: Total word count for corpus %s: %d\n",
-			corpus, count)
-
-	}
-	for _, wcf := range wfTotal {
-		rel_freq := 1000.0 * float64(wcf.Freq) / float64(wcTotal[wcf.Corpus])
-		fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\n", wcf.Word, wcf.Freq,
-			rel_freq, "#", wcf.Corpus, "")
-	}
-	w.Flush()
 }

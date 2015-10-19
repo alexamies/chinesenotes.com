@@ -8,6 +8,7 @@ import (
 	"cnreader/analysis"
 	"cnreader/config"
 	"cnreader/corpus"
+	"cnreader/dictionary"
 	"log"
 )
 
@@ -19,8 +20,14 @@ func main() {
 	var collectionFile = flag.String("collection", "", 
 		"Enhance HTML markup and do vocabulary analysis for all the files " +
 		"listed in given collection.")
+	var headwords = flag.Bool("headwords", false, "Compute headword definitions " +
+		" for all lexical units listed in data/words.txt, writing to the " +
+		"headword.txt file.")
 	var html = flag.Bool("html", false, "Enhance HTML markup for all files " +
 		"listed in data/corpus/html-conversion.csv")
+	var hwFiles = flag.Bool("hwfiles", false, "Compute and write " +
+		"HTML entries for each headword, writing the files to the "+
+		"web/words directory.")
 	var infile = flag.String("infile", "", "Input file")
 	var outfile = flag.String("outfile", "", "Output file")
 	var wf = flag.Bool("wf", false, "Compute wf for all the corpus files " +
@@ -37,7 +44,7 @@ func main() {
 
 
 	// Read in dictionary
-	analysis.ReadDict(dataDir + "words.txt")
+	dictionary.ReadDict(dataDir + "words.txt")
 
 	if (*collectionFile != "") {
 		log.Printf("main: Analyzing collection %s\n", *collectionFile)
@@ -82,9 +89,15 @@ func main() {
 			tokens, vocab, _, _, _ := analysis.ParseText(text)
 			analysis.WriteDoc(tokens, vocab, dest)
 		}
+	} else if *headwords {
+		log.Printf("main: Write Headwords\n")
+		dictionary.WriteHeadwords()
 	} else if *wf {
 		log.Printf("main: Computing word frequencies for whole corpus\n")
 		analysis.WordFrequencies()
+	} else if *hwFiles {
+		log.Printf("main: Writing word entries for headwords\n")
+		analysis.WriteHwFiles()
 	} else {
 		log.Printf("main: Nothing to do. Please enter a command\n")
 	}

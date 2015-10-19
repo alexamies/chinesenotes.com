@@ -11,7 +11,7 @@
     <link rel="stylesheet" 
           href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="/chinesenotes.css">
+    <link rel="stylesheet" href="chinesenotes.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -48,7 +48,7 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/texts.html">Texts</a></li>
+            <li><a href="/texts.html">Texts</a></li>
             <li><a href="/tools.html">Tools</a></li>
             <li><a href="/reference.html">Reference</a></li>
           </ul>
@@ -57,45 +57,13 @@
     </div>
     <div class="container">
 
-      <h2>{{.Title}}</h2>
-      <p>Word count: {{.WC}}, unique words: {{.UniqueWords}}</p>
+      <h2>{{.Simplified}} ({{.Traditional}})</h2>
 
-      <h3>Word Frequencies</h3>
-      <p>Top {{.MaxWFOutput}}</p>
-      <table class="table table-bordered table-hover">
-        <thead>
-          <tr>
-            <th>Frequency</th>
-            <th>Chinese</th>
-            <th>Pinyin</th>
-            <th>English</th>
-            <th>Usage</th>
-          </tr>
-        </thead>
-        <tbody>
-        {{ range $wf := .WordFrequencies }}
-          <tr>
-            <td>{{ $wf.Freq }}</td>
-            <td>{{ $wf.Chinese }}</td>
-            <td>{{ $wf.Pinyin }}</td>
-            <td>{{ $wf.English }}</td>
-            <td>{{ $wf.Usage }}</td>
-          </tr>
+      <p>
+        {{ range $pinyin := .Pinyin }}
+          {{ $pinyin }}
         {{ end }}
-        </tbody>
-      </table>
-
-      <h3>Characters without Dictionary Entries</h3>
-      <table class="table table-bordered table-hover">
-        <thead>
-          <tr><th>Character</th></tr>
-        </thead>
-        <tbody>
-        {{ range $char := .UnkownnChars }}
-          <tr><td>{{ $char }}</td></tr>
-        {{ end }}
-        </tbody>
-      </table>
+      </p>
 
       <hr/>
       <p>
