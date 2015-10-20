@@ -79,3 +79,16 @@ span.dict-entry:hover {
     text-decoration: underline;
     background-color: silver;
 }
+
+/* Dictionary Entry style */
+span.dict-entry-pinyin {
+    font-weight: bold;
+}
+
+span.dict-entry-grammar {
+    font-style: italic;
+}
+
+span.dict-entry-notes {
+    font-weight: bold;
+}

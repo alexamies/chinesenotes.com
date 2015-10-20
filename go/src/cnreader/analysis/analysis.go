@@ -45,6 +45,13 @@ type DictEntry struct {
 	DateUpdated string
 }
 
+// Word usage
+type WordUsage struct {
+	Freq int
+	RelFreq float64
+	Word, Example, File, EntryTitle, ColTitle string
+}
+
 // Vocabulary analysis entry for a single word
 type WFResult struct {
 	Freq int
@@ -88,6 +95,58 @@ func GetChunks(text string) (list.List) {
 		chunks.PushBack(noncjk)
 	}
 	return chunks
+}
+
+
+// Compute word frequencies for entire corpus
+func GetWordFrequencies() (map[string]*[]WordUsage,
+		map[*CorpusWord]CorpusWordFreq, map[string]int) {
+
+	// Overall word frequencies per corpus
+	usageMap := map[string]*[]WordUsage{}
+	wcTotal := map[string]int{}
+	wfTotal := map[*CorpusWord]CorpusWordFreq{}
+	corpusDir := config.ProjectHome() + "/corpus/"
+	corpusDataDir := config.ProjectHome() + "/data/corpus/"
+
+	collectionEntries := corpus.Collections()
+	for _, col := range collectionEntries {
+		colFile := corpusDataDir + col.CollectionFile
+		log.Printf("GetWordFrequencies: input file: %s\n", colFile)
+		corpusEntries := corpus.CorpusEntries(colFile)
+		for _, entry := range corpusEntries {
+			src := corpusDir + entry.RawFile
+			text := ReadText(src)
+			_, vocab, wc, _, usage := ParseText(text)
+			wcTotal[col.Corpus] += wc
+			for word, count := range vocab {
+				cw := &CorpusWord{col.Corpus, word}
+				cwf := &CorpusWordFreq{col.Corpus, word, count}					
+				if cwfPrev, found := wfTotal[cw]; found {
+					cwf.Freq += cwfPrev.Freq			
+				}
+				wfTotal[cw] = *cwf
+				rel_freq := 1000.0 * float64(count) / float64(wc)
+				usage := WordUsage{cwf.Freq, rel_freq, word, usage[word],
+					entry.GlossFile, entry.Title, col.Title}
+				usageArr, ok := usageMap[word]
+				if !ok {
+					usageArr = new([]WordUsage)
+					usageMap[word] = usageArr
+				}
+				*usageArr = append(*usageArr, usage)
+				//fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\t%s\n", word, count, rel_freq,
+				//	entry.GlossFile, col.Title, entry.Title, usage[word])
+			}
+		}
+	}
+
+	// Print out totals for each corpus
+	for corpus, count := range wcTotal {
+		log.Printf("WordFrequencies: Total word count for corpus %s: %d\n",
+			corpus, count)
+	}
+	return usageMap, wfTotal, wcTotal
 }
 
 // Tests whether the symbol is a CJK character, excluding punctuation
@@ -184,10 +243,9 @@ func ReadText(filename string) (string) {
 	return text
 }
 
-// Compute word frequencies for entire corpus.
+// Write out word frequencies and example use for the entire corpus
 func WordFrequencies() {
-	corpusDataDir := config.ProjectHome() + "/data/corpus/"
-	corpusDir := config.ProjectHome() + "/corpus/"
+	usageMap, wfTotal, wcTotal := GetWordFrequencies()
 	outfile := config.ProjectHome() + "/data/" + UNIGRAM_FILE
 	f, err := os.Create(outfile)
 	if err != nil {
@@ -196,40 +254,14 @@ func WordFrequencies() {
 	defer f.Close()
 	w := bufio.NewWriter(f)
 
-	// Overall word frequencies per corpus
-	wcTotal := map[string]int{}
-	wfTotal := map[*CorpusWord]CorpusWordFreq{}
-
-	collectionEntries := corpus.Collections()
-	for _, col := range collectionEntries {
-		colFile := corpusDataDir + col.CollectionFile
-		log.Printf("WordFrequencies: input file: %s\n", colFile)
-		corpusEntries := corpus.CorpusEntries(colFile)
-		for _, entry := range corpusEntries {
-			src := corpusDir + entry.RawFile
-			text := ReadText(src)
-			_, vocab, wc, _, usage := ParseText(text)
-			wcTotal[col.Corpus] += wc
-			for word, count := range vocab {
-				cw := &CorpusWord{col.Corpus, word}
-				cwf := &CorpusWordFreq{col.Corpus, word, count}					
-				if cwfPrev, found := wfTotal[cw]; found {
-					cwf.Freq += cwfPrev.Freq			
-				}
-				wfTotal[cw] = *cwf
-				rel_freq := 1000.0 * float64(count) / float64(wc)
-				fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\t%s\n", word, count, rel_freq,
-					entry.GlossFile, col.Title, entry.Title, usage[word])
-			}
+	for word, usageArr := range usageMap {
+		for _, usage := range *usageArr {
+			fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\t%s\n", word,
+				usage.Freq, usage.RelFreq, usage.File, usage.EntryTitle,
+				usage.ColTitle, usage.Example)
 		}
 	}
 
-	// Output totals for each corpus
-	for corpus, count := range wcTotal {
-		log.Printf("WordFrequencies: Total word count for corpus %s: %d\n",
-			corpus, count)
-
-	}
 	for _, wcf := range wfTotal {
 		rel_freq := 1000.0 * float64(wcf.Freq) / float64(wcTotal[wcf.Corpus])
 		fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\n", wcf.Word, wcf.Freq,
@@ -450,3 +482,4 @@ func WriteVocab(chunk string, index int, vocab map[string]int) string {
 	buffer.WriteString("\n")
 	return buffer.String()
 }
+
