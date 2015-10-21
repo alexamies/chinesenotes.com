@@ -24,7 +24,7 @@ import (
 
 // Maximum number of word frequency entries to output to the generated
 // HTML file
-const MAX_WF_OUTPUT = 100
+const MAX_WF_OUTPUT = 100000
 
 // Maximum number of unknwon characters to output to the generated
 // HTML file
@@ -32,6 +32,16 @@ const MAX_UNKOWN_OUTPUT = 50
 
 // Word frequency output file
 const UNIGRAM_FILE = "unigram.txt"
+
+// Holds vocabulary analysis for a corpus text
+type AnalysisResults struct {
+	Title string
+	WC, UniqueWords int
+	WordFrequencies []WFResult
+	UnkownnChars []string
+	DateUpdated string
+	MaxWFOutput int
+}
 
 // The content for a corpus entry
 type CorpusEntryContent struct {
@@ -42,6 +52,7 @@ type CorpusEntryContent struct {
 // Dictionary entry content struct used for writing a dictionary entry to HTML
 type DictEntry struct {
 	Headword dictionary.HeadwordDef
+	UsageArr []WordUsage
 	DateUpdated string
 }
 
@@ -56,16 +67,6 @@ type WordUsage struct {
 type WFResult struct {
 	Freq int
 	Chinese, Pinyin, English, Usage string
-}
-
-// Holds vocabulary analysis for a corpus text
-type AnalysisResults struct {
-	Title string
-	WC, UniqueWords int
-	WordFrequencies []WFResult
-	UnkownnChars []string
-	DateUpdated string
-	MaxWFOutput int
 }
 
 // Breaks text into a list of CJK and non CJK strings
@@ -221,6 +222,7 @@ func ReadText(filename string) (string) {
 		if err != nil {
 			log.Fatal(err)
 		}
+		defer infile.Close()
 		reader := bufio.NewReader(infile)
 		var buffer bytes.Buffer
     	eof := false
@@ -427,9 +429,11 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename string) {
 	w.Flush()
 }
 
+// Writes word entries for headwords
 func WriteHwFiles() {
 	fmt.Printf("WriteHwFiles: Begin +++++++++++\n")
 	hwArray := dictionary.GetHeadwords()
+	usageMap, _, _ := GetWordFrequencies()
 	dateUpdated := time.Now().Format("2006-01-02")
 
 	// Prepare template
@@ -438,7 +442,17 @@ func WriteHwFiles() {
 	tmpl := template.Must(template.New("headword-template.html").ParseFiles(templFile))
 
 	for _, hw := range hwArray {
-		dictEntry := DictEntry{hw, dateUpdated}
+		usageArrPtr, ok := usageMap[hw.Simplified]
+		if !ok {
+			usageArrPtr, ok = usageMap[hw.Traditional]
+		}
+		if !ok {
+			if hw.Simplified == "经" {
+				fmt.Println("WriteHwFiles: no usage found for 经")
+			}
+			continue
+		}
+		dictEntry := DictEntry{hw, *usageArrPtr, dateUpdated}
 		filename := fmt.Sprintf("%s%s%d%s", config.ProjectHome(), "/web/words/",
 			hw.Id, ".html")
 		f, err := os.Create(filename)

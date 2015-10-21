@@ -62,18 +62,37 @@
           {{ $pinyin }}
         {{ end }}
       </h2>
-
       <ol>
         {{ range $ws := .Headword.WordSenses }}
           <li>
             <span class='dict-entry-pinyin'>{{ $ws.Pinyin }}</span> 
             <span class='dict-entry-grammar'>{{ $ws.Grammar }}</span> 
-            (Domain: {{ $ws.Topic_en }})
+            (Domain: {{ $ws.Topic_en }}) {{ $ws.English }}
             <span class='dict-entry-notes'>Notes</span> : {{ $ws.Notes}}
           </li>
         {{ end }}
       </ol>
 
+
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr><th>Example</th><th>Source</th></tr>
+        </thead>
+        <tbody>
+        {{ range $usage := .UsageArr }}
+          <tr>
+            <td>
+              {{ $usage.Example }} 
+            </td>
+            <td>
+              <a href='../{{$usage.File}}'>{{ $usage.EntryTitle }}</a> in 
+              {{ $usage.ColTitle }} 
+            </td>
+          </tr>
+        {{ end }}
+        </tbody>
+      </table>
+ 
       <hr/>
       <p>
         Copyright Fo Guang Shan Nan Tien Institute 佛光山南天大學 2013-2015, 
