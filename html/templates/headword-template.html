@@ -67,16 +67,17 @@
           <li>
             <span class='dict-entry-pinyin'>{{ $ws.Pinyin }}</span> 
             <span class='dict-entry-grammar'>{{ $ws.Grammar }}</span> 
-            (Domain: {{ $ws.Topic_en }}) {{ $ws.English }}
-            <span class='dict-entry-notes'>Notes</span> : {{ $ws.Notes}}
+            <span class='dict-entry-definition'>{{ $ws.English }}</span> <br/>
+            Domain: {{ $ws.Topic_en }}<br/>
+            <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
           </li>
         {{ end }}
       </ol>
 
-
+      <h3>Usage</h3>
       <table class="table table-bordered table-hover">
         <thead>
-          <tr><th>Example</th><th>Source</th></tr>
+          <tr><th>Example</th><th>Source</th><th>Occurrences</th></tr>
         </thead>
         <tbody>
         {{ range $usage := .UsageArr }}
@@ -87,6 +88,9 @@
             <td>
               <a href='../{{$usage.File}}'>{{ $usage.EntryTitle }}</a> in 
               {{ $usage.ColTitle }} 
+            </td>
+            <td>
+              {{ $usage.Freq }} 
             </td>
           </tr>
         {{ end }}

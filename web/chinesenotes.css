@@ -83,12 +83,17 @@ span.dict-entry:hover {
 /* Dictionary Entry style */
 span.dict-entry-pinyin {
     font-weight: bold;
+    font-size: 120%;
 }
 
 span.dict-entry-grammar {
     font-style: italic;
+    font-size: 120%;
 }
 
+span.dict-entry-definition {
+    font-size: 120%;
+}
 span.dict-entry-notes {
     font-weight: bold;
 }
