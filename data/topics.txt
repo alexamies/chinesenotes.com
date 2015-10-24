@@ -62,6 +62,7 @@
 饮食	Food and Drink	\N	\N
 外语	Foreign Language	\N	\N
 形态	Form	\N	\N
+常用词汇	Frequently Used Words	\N	\N
 友谊	Friendship	\N	\N
 虚词	Function Words	\N	\N
 家具	Furniture	\N	\N

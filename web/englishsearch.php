@@ -27,12 +27,14 @@ if (strlen($text) == 0) {
         $notes = $word->getNotes();
         $id = $word->getId();
         $pinyin = $word->getPinyin();
+        $headword = $word->getHeadword();
         $words .= '{"text":"' . $traditional . '",' .
                    '"english":"' . $english . '",' .
                    '"notes":"' . $notes . '",' .
                    '"id":"' . $id . '",' .
                    '"pinyin":"' . $pinyin . '",' .
-                   '"count":"' . $count . '"' .
+                   '"count":"' . $count . '",' .
+                   '"headword":"' . $headword . '"' .
                   '},';
     }
     $words = rtrim($words, ",") . "]";

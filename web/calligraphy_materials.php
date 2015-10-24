@@ -103,8 +103,8 @@
         </li>
       </ol>
       <div class="picture">
-        <a href='illustrations_use.php?mediumResolution=calligraphy_materials_med.jpg'><img class='use' 
-           src='images/calligraphy_materials_med.jpg' alt='书法文具 Calligraphy Materials' 
+        <a href='illustrations_use.php?mediumResolution=calligraphy_materials_high.jpg'><img class='use' 
+           src='images/calligraphy_materials_high.jpg' alt='书法文具 Calligraphy Materials' 
            title='书法文具 Calligraphy Materials'/></a>
         <div>
          书法文具 Calligraphy Materials

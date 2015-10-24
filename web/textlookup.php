@@ -29,19 +29,22 @@ if (strlen($text) == 0) {
         $notes = "";
         $id = "";
         $pinyin = "";
+        $headword = "";
         if (($elemType == 1) || ($elemType == 2)) {
             $word = $element->getWord();
             $english = $word->getEnglish();
             $notes = $word->getNotes();
             $id = $word->getId();
             $pinyin = $word->getPinyin();
+            $headword = $word->getHeadword();
         }
         $words .= '{"text":"' . $elemText . '",' .
                    '"english":"' . $english . '",' .
                    '"notes":"' . $notes . '",' .
                    '"id":"' . $id . '",' .
                    '"pinyin":"' . $pinyin . '",' .
-                   '"count":"' . $count . '"' .
+                   '"count":"' . $count . '",' .
+                   '"headword":"' . $headword . '"' .
                   '},';
     }
     $words = rtrim($words, ",") . "]";

@@ -1,4 +1,5 @@
 // Code for Bootstrap popover
+//console.log("popover.js: initializing script");
 
 $(function () {
   var popoverElem = $('.dict-entry').popover({

@@ -4,7 +4,6 @@ var textApp = angular.module('textApp', ['ngSanitize']);
 textApp.controller('textCtrl', function($scope, $http, $sce) {
   var re = /[^\u0040-\u007F\u0080-\u00FF\u0100-\u017F\u0180-\u024F\u0300-\u036F]/;
   $scope.formData = {};
-  $scope.formData.langtype = 'modern';
   $scope.formData.matchtype = 'approximate';
   $scope.results = {};
   $scope.submit = function() {
@@ -21,7 +20,7 @@ textApp.controller('textCtrl', function($scope, $http, $sce) {
     }).success(function(data) {
       $("#lookup-help-block").hide();
       $scope.results = data;
-      //console.log($scope.results.words)
+      console.log($scope.results.words)
       if ($scope.results.words && $scope.results.words.length == 0) {
           $scope.results = {"msg": "No results found"};
       }

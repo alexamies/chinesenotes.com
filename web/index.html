@@ -82,20 +82,6 @@
               <div id="collapseOne" class="panel-collapse collapse">
                 <div class="panel-body">
                    <div class="form-group">
-                     Text type: 
-                     <input type="radio" ng-model="formData.langtype" 
-                            name="langtype" 
-                            id="langtype-modern" value="modern"/>
-                     <label for="langtype-modern" class="control-label">modern 
-                       Chinese
-                     </label>
-                     <input type="radio" ng-model="formData.langtype" 
-                            name="langtype" 
-                            id="langtype-literary" value="literary"/>
-                     <label for="langtype-literary" 
-                            class="control-label">literary Chinese</label>
-                   </div>
-                   <div class="form-group">
                      Match type: 
                      <input type="radio" ng-model="formData.matchtype" 
                             name="matchtype" 
@@ -154,7 +140,7 @@
               <td>
                 <span ng-bind-html="word.notes"></span>
                 <a ng-if="word.count>1"
-                   ng-href="word_detail3.php?word={{word.text}}&matchType=exact">See 
+                   ng-href="words/{{word.headword}}.html">See 
                    all {{word.count}} word senses</a>
               </td>
             </tr>

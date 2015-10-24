@@ -1,33 +1,8 @@
 /*
  create database alexami_zhongwenbiji;
 */
-use cse_dict;
-
-drop table sans_examples;
-drop table sanskrit;
-drop table sans_grammar;
-drop table examples;
-drop table events;
-drop table character_rend;
-drop table font_names;
-drop table variants;
-drop table unigram;
-drop table bigram;
-drop table phrases;
-drop table related;
-drop table synonyms;
-drop table measure_words;
-drop table words;
-drop table topics;
-drop table illustrations;
-drop table licenses;
-drop table authors;
-drop table characters;
-drop table character_types;
-drop table radicals;
-drop table hsk;
-drop table grammar;
-drop table phonetics;
+USE alexami_zhongwenbiji;
+/*use cse_dict; */
 
 /*
  * Table for phonetics
@@ -68,17 +43,6 @@ CREATE TABLE grammar (
 	english VARCHAR(125) NOT NULL,
 	PRIMARY KEY (english)
 	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
- * Table for Chinese Language Proficiency Test (HSK)
- */
-CREATE TABLE hsk (
-	level INT UNSIGNED NOT NULL,
-	PRIMARY KEY (level)
-    )
 	CHARACTER SET UTF8
 	COLLATE utf8_general_ci
 ;
@@ -140,13 +104,10 @@ CREATE TABLE words (
 	image VARCHAR(255),
 	mp3 VARCHAR(255),
 	notes TEXT,
-	hsk INT UNSIGNED DEFAULT NULL,
-	ll VARCHAR(255) DEFAULT NULL,
-	zoom INT UNSIGNED DEFAULT NULL,
+	headword INT UNSIGNED NOT NULL,
 	PRIMARY KEY (id),
-	/*FOREIGN KEY (topic_cn, topic_en) REFERENCES topics(simplified, english),*/
-	/*FOREIGN KEY (grammar) REFERENCES grammar(english),*/
-	/*FOREIGN KEY (hsk) REFERENCES hsk(level),*/
+	FOREIGN KEY (topic_cn, topic_en) REFERENCES topics(simplified, english),
+	FOREIGN KEY (grammar) REFERENCES grammar(english),
 	INDEX (simplified),
 	INDEX (traditional),
 	INDEX (english)
@@ -250,68 +211,6 @@ CREATE TABLE related (
 	link VARCHAR(125),
 	PRIMARY KEY (simplified1, simplified2)/*,
 	FOREIGN KEY (simplified1) REFERENCES words(simplified)*/
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
- * Table for phrase entries.
- *
- * Entries in the phrase table may be identified when parsing new text data.
- * Phrases are tagged using Penn Chinese part-of-speech tag definitions.
- *
- * id:             An id for the phrase entry
- * chinese_phrase: Plain text Chinese
- * pos_tagged:     The phrase tagged with PoS tags, including word and phrase gloss
- * sanskrit:       The Sanskrit equivalent, if known
- * source_no:      The id of the corpus source document
- * source_name:    The name of the source document.
- */
-CREATE TABLE phrases (
-	id INT UNSIGNED NOT NULL,
-	chinese_phrase VARCHAR(125) NOT NULL,
-	pos_tagged TEXT NOT NULL,
-	sanskrit TEXT,
-	source_no INT UNSIGNED,
-	source_name TEXT NOT NULL,
-	PRIMARY KEY (id)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
- * Table for unigram frequency.
- *
- * This table records the frequency for the word sense of single words in the 
- * tagged corpus. The Penn Treebank syntax is used for part-of-speech tags.
- *
- * pos_tagged_text: The element text with POS tag and gloss in pinyin and English
- * element_text:    The element text in traditional Chinese
- * word_id:         Matching id in the word table (positive integer)
- * frequency:       The frequency of occurence of the word sense (positive integer)
- */
-CREATE TABLE unigram (
-	pos_tagged_text VARCHAR(125) NOT NULL,
-	element_text VARCHAR(125) NOT NULL,
-	word_id INT UNSIGNED NOT NULL,
-	frequency INT UNSIGNED NOT NULL,
-	PRIMARY KEY (pos_tagged_text),
-	FOREIGN KEY (word_id) REFERENCES words(id)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-CREATE TABLE bigram (
-	pos_tagged_text VARCHAR(125) NOT NULL,
-	previous_text VARCHAR(125) NOT NULL,
-	element_text VARCHAR(125) NOT NULL,
-	word_id INT UNSIGNED NOT NULL,
-	frequency INT UNSIGNED NOT NULL,
-	PRIMARY KEY (pos_tagged_text),
-	FOREIGN KEY (word_id) REFERENCES words(id)
 	)
 	CHARACTER SET UTF8
 	COLLATE utf8_general_ci
@@ -467,109 +366,6 @@ CREATE TABLE events (
 	INDEX (simplified),
 	INDEX (english),
 	INDEX (tags)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
- * Table for examples
- * id			A unique identifier for the example
- * word_id		Identifier for the word that the example relates to
- * simplified:	An example (simplified Chinese)
- * english:		Translation of the example (English)
- * pinyin:		Hanyu pinyin
- * source:		The source of the example
- * source_link:	A URL for a hyperlink to the source of the example
- * audio_file: 		Name of an audio file for the word
- */
-CREATE TABLE examples (
-	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-	word_id INT UNSIGNED NOT NULL,
-	simplified TEXT,
-	pinyin TEXT,
-	english TEXT,
-	source VARCHAR(255),
-	source_link VARCHAR(255),
-	audio_file VARCHAR(255),
-	PRIMARY KEY (id),
-	FOREIGN KEY (word_id) REFERENCES words(id)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
- * Table for Sanskrit grammar
- * id			A unique identifier for the grammatical type
- * name:		The full name of the grammatical type
- * notes:		More information
- */
-CREATE TABLE sans_grammar (
-	id VARCHAR(255) NOT NULL,
-	name VARCHAR(255) NOT NULL,
-	notes TEXT,
-	PRIMARY KEY (id)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
- * Table for Sanskrit words
- * id			A unique identifier for the word
- * word_id:		The id in the Chinese word table
- * latin		The Latin text for the word
- * iast:		The International Alphabet for Sanskrit Transliteration accented text
- * devan:		The Devanagari text for the word
- * pali:		The Pali text for the word
- * traditional:	The traditional Chinese text for the word
- * english: 	The English text for the word
- * notes: 		General notes
- * grammar: 	The grammatical type
- */
-CREATE TABLE sanskrit (
-	id INT UNSIGNED NOT NULL,
-	word_id INT UNSIGNED NOT NULL,
-	latin VARCHAR(255) NOT NULL,
-	iast VARCHAR(255),
-	devan VARCHAR(255),
-	pali VARCHAR(255),
-	traditional VARCHAR(255) NOT NULL,
-	english VARCHAR(255) NOT NULL,
-	notes TEXT,
-	grammar VARCHAR(255),
-	root VARCHAR(255),
-	PRIMARY KEY (id),
-	FOREIGN KEY (word_id) REFERENCES words(id)/*,
-	FOREIGN KEY (grammar) REFERENCES sans_grammar(id)*/
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
- * Table for examples for Sanskrit
- * id			A unique identifier for the example
- * word_id		Identifier for the Sanskrit word that the example relates to
- * devanagari:	An example (sanskrit Devanagari)
- * iast:		An example (sanskrit IAST)
- * english:		Translation of the example (English)
- * traditional:	Translation of the example (traditional Chinese)
- * source:		The source of the example
- * source_link:	A URL for a hyperlink to the source of the example
- */
-CREATE TABLE sans_examples (
-	id INT UNSIGNED NOT NULL,
-	word_id INT UNSIGNED NOT NULL,
-	devanagari TEXT,
-	iast TEXT,
-	english TEXT,
-	traditional TEXT,
-	source VARCHAR(255),
-	source_link VARCHAR(255),
-	PRIMARY KEY (id),
-	FOREIGN KEY (word_id) REFERENCES sanskrit(id)
 	)
 	CHARACTER SET UTF8
 	COLLATE utf8_general_ci
