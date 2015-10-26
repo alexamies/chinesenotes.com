@@ -6,3 +6,4 @@ modern_articles.csv	\N	Media articles	\N	\N	Modern Chinese	Prose	Modern
 erya.csv	erya_collection.html	Er Ya 《爾雅》	An earliest Chinese dictionary	erya00.txt	Literary Chinese	Prose	Han
 shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	\N	Literary Chinese	Prose	Northern and Southern Dynasties
 zhuangzi.csv	zhuangzi.html	Zhuangzi 《莊子》	A foundational Taoist Text	\N	Literary Chinese	Prose	Warring States
+shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By Sima Qian, the first of the official Chinese histories	\N	Literary Chinese	Prose	109-91 BCE
