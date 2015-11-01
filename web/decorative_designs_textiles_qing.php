@@ -13,9 +13,6 @@
   </head>
   <body>
     <div><span id="toolTip"><span id="pinyinSpan">Pinyin</span> <span id="englishSpan">English</span></span></div>
-<?php
-  	require_once 'ad_header.txt' ;
-?>
     <div class="breadcrumbs">
       <a href="index.html">Chinese Notes 中文笔记</a> &gt; 
       <a href="culture.php">Culture 文化</a> &gt; 
@@ -192,8 +189,5 @@
         <a href="decorative_designs_textiles_miao.php">Next</a> 
       </div>
     </div>
-<?php
-  	require_once 'footer2.txt';
-?>
   </body>
 </html>

@@ -13,9 +13,6 @@
   </head>
   <body>
     <div><span id="toolTip"><span id="pinyinSpan">Pinyin</span> <span id="englishSpan">English</span></span></div>
-<?php
-  	require_once 'ad_header.txt';
-?>
     <div class="breadcrumbs">
       <a href="index.html">Chinese Notes 中文笔记</a> &gt; 
       <a href="culture.php">Culture 文化</a> &gt; 
@@ -188,23 +185,6 @@
         </div>
       </div>
       <p>
-        Each square panel in the ceiling has two dragons playing within a circle surrounded by a square 
-        framed by four bats.
-        A detail of the ceiling in the Baohe Hall is shown below.
-      </p>
-      <div class="picture">
-        <a href='illustrations_use.php?mediumResolution=baohedian_ceiling_detail400.jpg'><img class='use' src='images/baohedian_ceiling_detail400.jpg' alt='Ceiling in Baohe Hall (Detail)' title='Ceiling in Baohe Hall (Detail)'/></a>
-        <div>
-          <div class='picture_header'><a href='/word_detail.php?id=26559' onmouseover="showToolTip(this, 'Bǎohé Diàn', 'Baohe Hall')" onmouseout="hideToolTip()">保和殿</a><a href='/word_detail.php?id=26560' onmouseover="showToolTip(this, '頂棚 dǐng péng', 'ceiling')" 
-          onmouseout="hideToolTip()">顶棚</a></div>
-          <a href='/word_detail.php?id=737' onmouseover="showToolTip(this, 'Běijīng', 'Beijing')" 
-          onmouseout="hideToolTip()">北京</a> <a href='/word_detail.php?id=7450' onmouseover="showToolTip(this, '故宮 Gù​gōng', 'The Imperial Palace')" 
-        onmouseout="hideToolTip()">故宫</a>
-          <div class='picture_header'>Ceiling in Baohe Hall (Detail)</div>
-          Imperial Palace, Beijing
-        </div>
-      </div>
-      <p>
         Four <span class='bookTitle'>corner towers</span> <a href='/word_detail.php?id=26569' onmouseover="showToolTip(this, '角樓 jiǎolóu', 'corner tower / watch tower')" 
         onmouseout="hideToolTip()">角楼</a> guard the Forbidden City.
         They are excellent examples of gable and hip roof structures with six intermingled gable and hip roofs each.
@@ -275,8 +255,5 @@
         <a href="decorative_designs_wood_buddhism.php">Next</a> 
       </div>
     </div>
-<?php
-  	require_once 'footer2.txt';
-?>
   </body>
 </html>

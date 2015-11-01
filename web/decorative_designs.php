@@ -13,9 +13,6 @@
   </head>
   <body>
     <div><span id="toolTip"><span id="pinyinSpan">Pinyin</span> <span id="englishSpan">English</span></span></div>
-<?php
-  	require_once 'ad_header.txt' ;
-?>
     <div class="breadcrumbs">
       <a href="index.html">Chinese Notes 中文笔记</a> &gt; 
       <a href="culture.php">Culture 文化</a> &gt; 
@@ -39,12 +36,6 @@
           Liangzhu Culture (3,200&mdash;2,200 BCE), Shanghai Museum
         </div>
       </div>
-  	  <p>
-  	    Buy the 
-        <a href="http://www.amazon.com/gp/product/B004LLIE0W?ie=UTF8&tag=medicalcomput-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B004LLIE0W">Decorative Designs in Chinese Art</a><img src="http://www.assoc-amazon.com/e/ir?t=medicalcomput-20&l=as2&o=1&a=B004LLIE0W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-  		eBook at Amazon.
-  		For more details see the <a href='decorative_designs_kindle.php'>eBook</a> page.
-  	  </p>
       <p>
         <a href='decorative_designs.pdf'>Draft eBook</a>  PDF Version
       </p>
@@ -423,8 +414,5 @@
         <a href="decorative_designs_pottery.php">Next</a> 
       </div>
     </div>
-<?php
-  	require_once 'decorative_designs_footer.php';
-?>
   </body>
 </html>
