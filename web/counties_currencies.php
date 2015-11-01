@@ -20,9 +20,6 @@
     <script type="text/javascript" src="script/chinesenotes.js"></script>
   </head>
   <body>
-<?php
-  	require_once 'ad_header.txt' ;
-?>
 <div class="breadcrumbs">
   <a href="index.html">Chinese Notes 中文笔记</a> &gt; 
   Countries and Currencies 国家货币
@@ -62,6 +59,3 @@
 <p> 
   Source: Jingrong Wu [吴景荣](Chief Ed.) 1995. The Pinyin Chinese-English Dictionary, The Commercial Press.
 </p>
-<?php
-  include "footer.txt";
-?>  

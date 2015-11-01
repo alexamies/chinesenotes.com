@@ -12,9 +12,6 @@
     <script type="text/javascript" src="script/chinesenotes.js"></script>
   </head>
   <body>
-<?php
-  	require_once 'ad_header.txt' ;
-?>
     <div class="menubar">
       <a class='button' href='index.html'>Home - 首页</a>
       <a class='button' href='tools.php'>Tools - 工具</a>
@@ -446,8 +443,5 @@
         Fifth Edition, ISBN 7-80052-067-6.
       </p>
     </div>
-<?php
-  	require_once 'footer2.txt';
-?>
   </body>
 </html>

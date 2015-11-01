@@ -12,9 +12,6 @@
     <script type="text/javascript" src="script/chinesenotes.js"></script>
   </head>
   <body>
-<?php
-  	require_once 'ad_header.txt' ;
-?>
     <div class="menubar">
       <a class='button' href='index.html'>Home - 首叶</a>
       <a class='button' href='tools.php'>Tools - 工具</a>
@@ -937,8 +934,5 @@
         Wú jǐng róng (Ed), 1995.  The Pinyin Chinese-English Dictionary, Commercial Press, ISBN 962 07 0040 6.
       </p>
     </div>
-<?php
-  	require_once 'footer2.txt';
-?>
   </body>
 </html>
