@@ -47,9 +47,9 @@ require_once 'inc/word_detail_top.php' ;
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="corpus.html">Texts</a></li>
+            <li><a href="texts.html">Texts</a></li>
             <li class="active"><a href="tools.html">Tools</a></li>
-            <li><a href="dict_resources.html">Resources</a></li>
+            <li><a href="reference.html">Resources</a></li>
             <li><a href="about.html">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->

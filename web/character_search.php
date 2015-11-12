@@ -19,11 +19,9 @@
     <div class="menubar">
       <a class='button' href='index.html'>Home<span class='cn'> - 首页</span></a>
       <a class='selected' href='tools.php'>Tools<span class='cn'> - 工具</span></a>
-      <a class='button' href='buddhism_toc.php'>Buddhism<span class='cn'> - 佛教</span></a>
       <a class='button' href='culture.php'>Culture<span class='cn'> - 文化</span></a>
       <a class='button' href='reference.php'>Reference<span class='cn'> - 参考</span></a>      
       <a class='button' href='classics.php'>Classics<span class='cn'> - 古文</span></a>
-      <a class='button' href='developers.php'>Developers<span class='cn'> - 软件</span></a>
     </div>
     <div class="breadcrumbs">
       Chinese English Character Dictionary<span class='cn'> 汉英字典</span>
@@ -33,7 +31,7 @@
 ?>
 	</div>
 	<div class='search'>
-	  <form action='/character_detail_frag.php' method='post' id='searchForm'>
+	  <form action='/character_search.php' method='post' id='searchForm'>
 	    <fieldset>
 	      <p>
 	        <input type='text' name='character' id='character' size='5'/>

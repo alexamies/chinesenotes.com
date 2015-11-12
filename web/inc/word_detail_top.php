@@ -5,9 +5,10 @@
 
 	// Session variables used for the breadcrumbs
 	session_start();
-	$conceptTitle = $_SESSION['conceptTitle'];
-	$conceptURL = $_SESSION['conceptURL'];
-	$script = $_SERVER['SCRIPT_NAME'];
+
+	$conceptTitle = '';
+	$conceptURL = '';
+	$script = '';
 
   	require_once 'words_dao.php' ;
   	require_once 'example_dao.php' ;
@@ -85,7 +86,7 @@
 		} else {
 			$searchTerm = utf8_urldecode($searchTerm);
 			$matchType = 'exact';
-			if (isset($_REQUEST['word'])) {
+			if (isset($_REQUEST['matchType'])) {
 			    $matchType = $_REQUEST['matchType'];
 			}
 			$words = $wordsDAO->getWords($searchTerm, $matchType);
@@ -97,13 +98,5 @@
 			}
 		}
 	} 
-
-	// HSK
-	$hskTerms = array(
-			1 => '基础 Elementary (HSK 1)',
-			2 => '初等 Beginning (HSK 2)',
-			3 => '中等 Intermediate (HSK 3)',
-			4 => '高等 Advanced (HSK 4)'
-			);
 
 ?>

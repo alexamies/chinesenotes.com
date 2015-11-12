@@ -71,7 +71,7 @@
           <p>
             A prepared Chinese ink manufactured specially for calligraphy.  I have used ink manufactured by
             <a href='/word_detail.php?id=301' onmouseover="showToolTip(this, 'yī', 'one')" onmouseout="hideToolTip()">一</a><a href='/word_detail.php?id=411' onmouseover="showToolTip(this, 'de', 'a sentence particle used after a verb to show effect / degree or possibility')" onmouseout="hideToolTip()">得</a><a href='/word_detail.php?id=14223' onmouseover="showToolTip(this, 'gé', 'council-chamber / government cabinet')" onmouseout="hideToolTip()">阁</a>
-            (<a href='http://www.yidege.net/'>www.yidege.net</a>).  You will need to mix the ink up with
+            You will need to mix the ink up with
             some water on the palette.  The amount of water depends on the shade you want the writing to be. 
           </p>
         </li>

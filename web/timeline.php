@@ -18,7 +18,6 @@
     <div class="menubar">
       <a class='button' href='index.html'>Home - 首页</a>
       <a class='button' href='tools.php'>Tools - 工具</a>
-      <a class='button' href='buddhism_toc.php'>佛教  Buddhism</a>
       <a class='button' href='culture.php'>Culture - 文化</a>
       <a class='selected' href='reference.php'>Reference - 参考</a>
       <a class='button' href='classics.php'>Classics - 古文</a>
