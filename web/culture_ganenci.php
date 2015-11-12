@@ -61,7 +61,7 @@
         <a href='/word_detail.php?id=3951' onmouseover="showToolTip(this, 'cíbēi', 'mercy / compassion')" onmouseout="hideToolTip()">慈悲</a><a href='/word_detail.php?id=19248' onmouseover="showToolTip(this, 'xǐshè​', 'to do good deeds')" onmouseout="hideToolTip()">喜舍</a>，<a href='/word_detail.php?id=321' onmouseover="showToolTip(this, 'wǒ', 'I / me')" onmouseout="hideToolTip()">我</a><a href='/word_detail.php?id=335' onmouseover="showToolTip(this, 'yào', 'to want ')" onmouseout="hideToolTip()">要</a><a href='/word_detail.php?id=650' onmouseover="showToolTip(this, 'yǐ', 'so as to')" onmouseout="hideToolTip()">以</a><a href='/word_detail.php?id=13130' onmouseover="showToolTip(this, 'róuruǎn', 'soft')" onmouseout="hideToolTip()">柔软</a><a href='/word_detail.php?id=1849' onmouseover="showToolTip(this, 'xīn', 'heart')" onmouseout="hideToolTip()">心</a><a href='/word_detail.php?id=709' onmouseover="showToolTip(this, 'miànduì', 'to face / to confront')" onmouseout="hideToolTip()">面对</a><a href='/word_detail.php?id=1490' onmouseover="showToolTip(this, 'yīqiè', 'all / every / everything')" onmouseout="hideToolTip()">一切</a><a href='/word_detail.php?id=4644' onmouseover="showToolTip(this, 'rénshì', 'personnel')" onmouseout="hideToolTip()">人事</a><a href='/word_detail.php?id=1463' onmouseover="showToolTip(this, 'wù', 'thing / object / matter / abbreviation for physics')" onmouseout="hideToolTip()">物</a>，<a href='/word_detail.php?id=1530' onmouseover="showToolTip(this, 'bǎ', 'marker for direct-object')" onmouseout="hideToolTip()">把</a><a href='/word_detail.php?id=4233' onmouseover="showToolTip(this, 'huān', 'joyous / happy / pleased')" onmouseout="hideToolTip()">欢</a><a href='/word_detail.php?id=19249' onmouseover="showToolTip(this, 'dài​gěi​', 'to carry to')" onmouseout="hideToolTip()">带给</a><a href='/word_detail.php?id=321' onmouseover="showToolTip(this, 'wǒ', 'I / me')" onmouseout="hideToolTip()">我</a><a href='/word_detail.php?id=10996' onmouseover="showToolTip(this, 'shēnbiān', 'at one\'s side')" onmouseout="hideToolTip()">身边</a><a href='/word_detail.php?id=273' onmouseover="showToolTip(this, 'de', 'possessive particle')" onmouseout="hideToolTip()">的</a><a href='/word_detail.php?id=399' onmouseover="showToolTip(this, 'rén', 'person / people')" onmouseout="hideToolTip()">人</a>。
       </p>
       <p class='source'>
-        <a href='http://www.ohch.org/tongxin/ertongyuan.asp'>同心儿童院</a>
+        <a href='http://www.ohch.org'>同心儿童院</a>
       </p>
     </div>
     <br/>
@@ -91,7 +91,7 @@
         With compassion, I will do good deeds.  With a soft heart I will face all people, conditions, and things and bring joy to all the people around me.
       </p>
       <p class='source'>
-        <a href='http://www.ohch.org/tongxin/ertongyuan.asp'>One Heart Children's Home</a>
+        <a href='http://www.ohch.org'>One Heart Children's Home</a>
       </p>
     </div>
     <span id="toolTip"><span id="pinyinSpan">Pinyin</span> <span id="englishSpan">English</span></span>
