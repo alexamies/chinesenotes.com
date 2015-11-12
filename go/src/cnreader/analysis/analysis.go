@@ -317,7 +317,10 @@ func WriteAnalysis(vocab map[string]int, usage map[string]string, wc int,
 	// Write output
 	i := strings.Index(srcFile, ".txt")
 	if i <= 0 {
-		log.Fatal("WriteAnalysis: Bad name for source file", srcFile)
+		i = strings.Index(srcFile, ".html")
+		if i <= 0 {
+			log.Fatal("WriteAnalysis: Bad name for source file: ", srcFile)
+		}
 	}
 	basename := srcFile[:i] + "_analysis.html"
 	filename := config.ProjectHome() + "/web/analysis/" + basename

@@ -137,7 +137,7 @@
         <li>
           <p>
             Bao Hongfei and Hu Xuefeng (Eds), 2008. <span class='bookTitle'>Yonghe Lamasery</span>
-            <a href='http://www.chinamzsy.com/'>China National Art Photography Publishing House</a>, 
+            China National Art Photography Publishing House, 
             Beijing, ISBN 978-7-80069-880-4.Chinese-English bilingual edition.
           </p>
           <p>
