@@ -108,8 +108,7 @@
         </li>
         <li>
           Bitstream. Bitstream Cyberbit Download & Documentation.
-          Bitstream (<a href='http://www.bitstream.com/'>www.bitstream.com</a>), online at
-          <a href='aol-4.vo.llnwd.net/pub/communicator/extras/fonts/windows/'>http://aol-4.vo.llnwd.net/pub/communicator/extras/fonts/windows/</a>,
+          Bitstream (<a href='http://www.bitstream.com/'>www.bitstream.com</a>)
         </li>
         <li>
           China Page, <span class='bookTitle'>Yan Zhenqing (709-785) Calligraphy Examples</span>.  Online at 
