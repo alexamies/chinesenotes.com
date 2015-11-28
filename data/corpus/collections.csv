@@ -1,12 +1,12 @@
 # Top level file listing the corpus collections
 #Collection File, HTML Gloss File, Title, Description, Introduction File, Corpus, Format, Domain, Period
-literary_chinese_prose.csv	literary_chinese_prose.html	Selections of Literary Chinese Prose	A collection of historic texts from well known writers	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical
-tang_poetry.csv	\N	Selections of Tang Poetry	\N	\N	Literary Chinese	Poetry	Tang
-erya.csv	erya_collection.html	Er Ya 《爾雅》	The earliest Chinese dictionary	erya00.txt	Literary Chinese	Prose	Han
-shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	\N	Literary Chinese	Prose	Northern and Southern Dynasties
-zhuangzi.csv	zhuangzi.html	Zhuangzi 《莊子》	A foundational Taoist Text	\N	Literary Chinese	Prose	Warring States
-shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By Sima Qian, the first of the official Chinese histories	\N	Literary Chinese	Prose	109-91 BCE
 liji.csv	liji.html	The Classic of Rites 《禮記》	Also known as the Liji, a Warring States Confucian Text with English translation by James Legge	\N	Literary Chinese	Prose	475 - 221 BCE
-sishuzhangju.csv	sishuzhangju.html	Collected Commentaries on the Four Books by Zhu Xi 朱熹《四書章句集注》	\N	\N	Literary Chinese	Prose	Circa 1200
+zhuangzi.csv	zhuangzi.html	Zhuangzi 《莊子》	A foundational Taoist Text	\N	Literary Chinese	Prose	Warring States
+literary_chinese_prose.csv	literary_chinese_prose.html	Selections of Literary Chinese Prose	A collection of historic texts from well known writers	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical
+erya.csv	erya_collection.html	Er Ya 《爾雅》	The earliest Chinese dictionary	erya00.txt	Literary Chinese	Prose	Han
+shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By Sima Qian, the first of the official Chinese histories	\N	Literary Chinese	Prose	109-91 BCE
+shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	\N	Literary Chinese	Prose	Northern and Southern Dynasties
+tang_poetry.csv	\N	Selections of Tang Poetry	\N	\N	Literary Chinese	Poetry	Tang
+sishuzhangju.csv	sishuzhangju.html	Collected Commentaries on the Four Books by Zhu Xi 朱熹《四書章句集注》	\N	sishuzhangju/sishuzhangju.txt	Literary Chinese	Prose	Circa 1200
 modern_articles.csv	\N	Media articles	\N	\N	Modern Chinese	Prose	Modern
 laoshe.csv	laoshe.html	A small number of phrases from the writings of Lao She	\N	\N	Modern Chinese	Prose	Modern
