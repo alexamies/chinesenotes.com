@@ -1,5 +1,5 @@
 《顏淵》 Yan Yuan
-
+1
 顏淵問仁。子曰：「克己復禮為仁。一日克己復禮，天下歸仁焉。為仁由己，而由人乎哉？」顏淵曰：「請問其目。」子曰：「非禮勿視，非禮勿聽，非禮勿言，非禮勿動。」顏淵曰：「回雖不敏，請事斯語矣。」
 Yan Yuan asked about perfect virtue. The Master said, "To subdue one's self and return to propriety, is perfect virtue. If a man can for one day subdue himself and return to propriety, all under heaven will ascribe perfect virtue to him. Is the practice of perfect virtue from a man himself, or is it from others?" Yan Yuan said, "I beg to ask the steps of that process." The Master replied, "Look not at what is contrary to propriety; listen not to what is contrary to propriety; speak not what is contrary to propriety; make no movement which is contrary to propriety." Yan Yuan then said, "Though I am deficient in intelligence and vigor, I will make it my business to practice this lesson."
 
@@ -11,7 +11,7 @@ Si Ma Niu asked about perfect virtue. The Master said, "The man of perfect virtu
 
 司馬牛問君子。子曰：「君子不憂不懼。」曰：「不憂不懼，斯謂之君子已乎？」子曰：「內省不疚，夫何憂何懼？」
 Si Ma Niu asked about the superior man. The Master said, "The superior man has neither anxiety nor fear." Niu said, "Being without anxiety or fear! Does this constitute what we call the superior man?" The Master said, "When internal examination discovers nothing wrong, what is there to be anxious about, what is there to fear?"
-
+5
 司馬牛憂曰：「人皆有兄弟，我獨亡。」子夏曰：「商聞之矣：死生有命，富貴在天。君子敬而無失，與人恭而有禮。四海之內，皆兄弟也。君子何患乎無兄弟也？」
 Si Ma Niu, full of anxiety, said, "Other men all have their brothers, I only have not." Zi Xia said to him, "There is the following saying which I have heard - 'Death and life have their determined appointment; riches and honors depend upon Heaven.' Let the superior man never fail reverentially to order his own conduct, and let him be respectful to others and observant of propriety - then all within the four seas will be his brothers. What has the superior man to do with being distressed because he has no brothers?"
 
@@ -26,7 +26,7 @@ Ji Zi Cheng said, "In a superior man it is only the substantial qualities which 
 
 哀公問於有若曰：「年饑，用不足，如之何？」有若對曰：「盍徹乎？」曰：「二，吾猶不足，如之何其徹也？」對曰：「百姓足，君孰與不足？百姓不足，君孰與足？」
 The duke Ai inquired of You Ruo, saying, "The year is one of scarcity, and the returns for expenditure are not sufficient - what is to be done?" You Ruo replied to him, "Why not simply tithe the people?" The duke replied, "With two tenths I find it not enough - how could I do with that system of one tenth?" You Ruo answered, "If the people have plenty, their prince will not be left to want alone. If the people are in want, their prince cannot enjoy plenty alone."
-
+10
 子張問崇德、辨惑。子曰：「主忠信，徙義，崇德也。愛之欲其生，惡之欲其死。既欲其生，又欲其死，是惑也。『誠不以富，亦祗以異。』」
 Zi Zhang having asked how virtue was to be exalted, and delusions to be discovered, the Master said, "Hold faithfulness and sincerity as first principles, and be moving continually to what is right - this is the way to exalt one's virtue. You love a man and wish him to live; you hate him and wish him to die. Having wished him to live, you also wish him to die. This is a case of delusion. 'It may not be on account of her being rich, yet you come to make a difference.'"
 
@@ -41,7 +41,7 @@ The Master said, "In hearing litigations, I am like any other body. What is nece
 
 子張問政。子曰：「居之無倦，行之以忠。」
 Zi Zhang asked about government. The Master said, "The art of governing is to keep its affairs before the mind without weariness, and to practice them with undeviating consistency."
-
+15
 子曰：「君子博學於文，約之以禮，亦可以弗畔矣夫！」
 The Master said, "By extensively studying all learning, and keeping himself under the restraint of the rules of propriety, one may thus likewise not err from what is right."
 

@@ -11,7 +11,7 @@ The Master said, "It is only the (truly) virtuous man, who can love, or who can 
 
 子曰：「苟志於仁矣，無惡也。」
 The Master said, "If the will be set on virtue, there will be no practice of wickedness."
-
+5
 子曰：「富與貴是人之所欲也，不以其道得之，不處也；貧與賤是人之所惡也，不以其道得之，不去也。君子去仁，惡乎成名？君子無終食之間違仁，造次必於是，顛沛必於是。」
 The Master said, "Riches and honors are what men desire. If it cannot be obtained in the proper way, they should not be held. Poverty and meanness are what men dislike. If it cannot be avoided in the proper way, they should not be avoided. If a superior man abandon virtue, how can he fulfill the requirements of that name? The superior man does not, even for the space of a single meal, act contrary to virtue. In moments of haste, he cleaves to it. In seasons of danger, he cleaves to it."
 
@@ -26,7 +26,7 @@ The Master said, "If a man in the morning hear the right way, he may die in the 
 
 子曰：「士志於道，而恥惡衣惡食者，未足與議也。」
 The Master said, "A scholar, whose mind is set on truth, and who is ashamed of bad clothes and bad food, is not fit to be discoursed with."
-
+10
 子曰：「君子之於天下也，無適也，無莫也，義之與比。」
 The Master said, "The superior man, in the world, does not set his mind either for anything, or against anything; what is right he will follow."
 
@@ -41,7 +41,7 @@ The Master said, "If a prince is able to govern his kingdom with the complaisanc
 
 子曰：「不患無位，患所以立；不患莫己知，求為可知也。」
 The Master said, "A man should say, I am not concerned that I have no place, I am concerned how I may fit myself for one. I am not concerned that I am not known, I seek to be worthy to be known."
-
+15
 子曰：「參乎！吾道一以貫之。」曾子曰：「唯。」子出。門人問曰：「何謂也？」曾子曰：「夫子之道，忠恕而已矣。」
 The Master said, "Shen, my doctrine is that of an all-pervading unity." The disciple Zeng replied, "Yes." The Master went out, and the other disciples asked, saying, "What do his words mean?" Zeng said, "The doctrine of our master is to be true to the principles of our nature and the benevolent exercise of them to others, this and nothing more."
 
@@ -56,7 +56,7 @@ The Master said, "In serving his parents, a son may remonstrate with them, but g
 
 子曰：「父母在，不遠遊。遊必有方。」
 The Master said, "While his parents are alive, the son may not go abroad to a distance. If he does go abroad, he must have a fixed place to which he goes."
-
+20
 子曰：「三年無改於父之道，可謂孝矣。」
 The Master said, "If the son for three years does not alter from the way of his father, he may be called filial."
 
@@ -71,7 +71,7 @@ The Master said, "The cautious seldom err."
 
 子曰：「君子欲訥於言，而敏於行。」
 The Master said, "The superior man wishes to be slow in his speech and earnest in his conduct."
-
+25
 子曰：「德不孤，必有鄰。」
 The Master said, "Virtue is not left to stand alone. He who practices it will have neighbors."
 

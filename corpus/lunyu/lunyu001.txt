@@ -11,7 +11,7 @@ The Master said, "Fine words and an insinuating appearance are seldom associated
 
 曾子曰：「吾日三省吾身：為人謀而不忠乎？與朋友交而不信乎？傳不習乎？」
 The philosopher Zeng said, "I daily examine myself on three points: whether, in transacting business for others, I may have been not faithful; whether, in intercourse with friends, I may have been not sincere; whether I may have not mastered and practiced the instructions of my teacher."
-
+5
 子曰：「道千乘之國：敬事而信，節用而愛人，使民以時。」
 The Master said, "To rule a country of a thousand chariots, there must be reverent attention to business, and sincerity; economy in expenditure, and love for men; and the employment of the people at the proper seasons."
 
@@ -26,7 +26,7 @@ The Master said, "If the scholar be not grave, he will not call forth any venera
 
 曾子曰：「慎終追遠，民德歸厚矣。」
 The philosopher Zeng said, "Let there be a careful attention to perform the funeral rites to parents, and let them be followed when long gone with the ceremonies of sacrifice - then the virtue of the people will resume its proper excellence."
-
+10
 子禽問於子貢曰：「夫子至於是邦也，必聞其政，求之與？抑與之與？」子貢曰：「夫子溫、良、恭、儉、讓以得之。夫子之求之也，其諸異乎人之求之與？」
 Zi Qin asked Zi Gong, saying, "When our master comes to any country, he does not fail to learn all about its government. Does he ask his information? or is it given to him?" Zi Gong said, "Our master is benign, upright, courteous, temperate, and complaisant and thus he gets his information. The master's mode of asking information! - is it not different from that of other men?"
 
@@ -41,7 +41,7 @@ The philosopher You said, "When agreements are made according to what is right, 
 
 子曰：「君子食無求飽，居無求安，敏於事而慎於言，就有道而正焉，可謂好學也已。」
 The Master said, "He who aims to be a man of complete virtue in his food does not seek to gratify his appetite, nor in his dwelling place does he seek the appliances of ease; he is earnest in what he is doing, and careful in his speech; he frequents the company of men of principle that he may be rectified - such a person may be said indeed to love to learn."
-
+15
 子貢曰：「貧而無諂，富而無驕，何如？」子曰：「可也。未若貧而樂1，富而好禮者也。」子貢曰：「《詩》云：『如切如磋，如琢如磨。』其斯之謂與？」子曰：「賜也，始可與言詩已矣！告諸往而知來者。」
 Zi Gong said, "What do you pronounce concerning the poor man who yet does not flatter, and the rich man who is not proud?" The Master replied, "They will do; but they are not equal to him, who, though poor, is yet cheerful, and to him, who, though rich, loves the rules of propriety." Zi Gong replied, "It is said in the Book of Poetry, 'As you cut and then file, as you carve and then polish.' - The meaning is the same, I apprehend, as that which you have just expressed." The Master said, "With one like Ci, I can begin to talk about the odes. I told him one point, and he knew its proper sequence."
 

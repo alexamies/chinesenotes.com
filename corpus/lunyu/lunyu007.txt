@@ -11,7 +11,7 @@ The Master said, "The learning virtue without proper cultivation; the not thorou
 
 子之燕居，申申如也，夭夭如也。
 When the Master was unoccupied with business, his manner was easy, and he looked pleased.
-
+5
 子曰：「甚矣吾衰也！久矣吾不復夢見周公。」
 The Master said, "Extreme is my decay. For a long time, I have not dreamed, as I was wont to do, that I saw the duke of Zhou."
 
@@ -26,7 +26,7 @@ The Master said, "I do not open up the truth to one who is not eager to get know
 
 子食於有喪者之側，未嘗飽也。
 When the Master was eating by the side of a mourner, he never ate to the full.
-
+10
 子於是日哭，則不歌。
 On a day when the master had wept, he did not sing.
 
@@ -41,7 +41,7 @@ The things in reference to which the Master exercised the greatest caution were 
 
 子在齊聞韶，三月不知肉味。曰：「不圖為樂之至於斯也！」
 When the Master was in Qi, he heard the Shao, and for three months did not know the taste of flesh. He said, "I did not think that music could have been made so excellent as this."
-
+15
 冉有曰：「夫子為衛君乎？」子貢曰：「諾。吾將問之。」入，曰：「伯夷、叔齊何人也？」曰：「古之賢人也。」曰：「怨乎？」曰：「求仁而得仁，又何怨。」出，曰：「夫子不為也。」
 Ran You said, "Is our Master for the ruler of Wei?" Zi Gong said, "Oh! I will ask him." He went in accordingly, and said, "What sort of men were Bo Yi and Shu Qi?" "They were ancient worthies," said the Master. "Did they have any repinings because of their course?" The Master again replied, "They sought to act virtuously, and they did so; what was there for them to repine about?" On this, Zi Gong went out and said, "Our Master is not for him."
 
@@ -53,7 +53,7 @@ The Master said, "If some years were added to my life, I would give fifty to the
 
 子所雅言，詩、書、執禮，皆雅言也。
 The Master's frequent themes of discourse were: the Odes, the History, and the maintenance of the Rules of Propriety. On all these he frequently discoursed.
-
+20
 葉公問孔子於子路，子路不對。子曰：「女奚不曰，其為人也，發憤忘食，樂以忘憂，不知老之將至云爾。」
 The Duke of She asked Zi Lu about Confucius, and Zi Lu did not answer him. The Master said, "Why did you not say to him, 'He is simply a man, who in his eager pursuit of knowledge forgets his food, who in the joy of its attainment forgets his sorrows, and who does not perceive that old age is coming on?'"
 
@@ -68,7 +68,7 @@ The Master said, "When I walk along with two others, they may serve me as my tea
 
 子曰：「天生德於予，桓魋其如予何？」
 The Master said, "Heaven produced the virtue that is in me. Huan Tui - what can he do to me?"
-
+25
 子曰：「二三子以我為隱乎？吾無隱乎爾。吾無行而不與二三子者，是丘也。」
 The Master said, "Do you think, my disciples, that I have any concealments? I conceal nothing from you. There is nothing which I do that is not shown to you, my disciples; that is my way."
 
@@ -83,7 +83,7 @@ The Master angled, but did not use a net. He shot, but not at birds perching.
 
 子曰：「蓋有不知而作之者，我無是也。多聞擇其善者而從之，多見而識之，知之次也。」
 The Master said, "There may be those who act without knowing why. I do not do so. Hearing much and selecting what is good and following it; seeing much and keeping it in memory - this is the second style of knowledge."
-
+30
 互鄉難與言，童子見，門人惑。子曰：「與其進也，不與其退也，唯何甚！人潔己以進，與其潔也，不保其往也。」
 It was difficult to talk (profitably and reputably) with the people of Hu Xiang, and a lad of that place having had an interview with the Master, the disciples doubted. The Master said, "I admit people's approach to me without committing myself as to what they may do when they have retired. Why must one be so severe? If a man purify himself to wait upon me, I receive him so purified, without guaranteeing his past conduct."
 
@@ -98,7 +98,7 @@ When the Master was in company with a person who was singing, if he sang well, h
 
 子曰：「文，莫吾猶人也。躬行君子，則吾未之有得。」
 The Master said, "In letters I am perhaps equal to other men, but the character of the superior man, carrying out in his conduct what he professes, is what I have not yet attained to."
-
+35
 子曰：「若聖與仁，則吾豈敢？抑為之不厭，誨人不倦，則可謂云爾已矣。」公西華曰：「正唯弟子不能學也。」
 The Master said, "The sage and the man of perfect virtue - how dare I rank myself with them? That I strive to become such without satiety, and teach others without weariness - this much can be said of me." Gong Xi Hua said, "This is just what we, the disciples, cannot imitate you in."
 

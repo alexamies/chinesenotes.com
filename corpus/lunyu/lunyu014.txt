@@ -11,7 +11,7 @@ The Master said, "When good government prevails in a state, language may be loft
 
 子曰：「有德者，必有言。有言者，不必有德。仁者，必有勇。勇者，不必有仁。」
 The Master said, "The virtuous will be sure to speak correctly, but those whose speech is good may not always be virtuous. Men of principle are sure to be bold, but those who are bold may not always be men of principle."
-
+5
 南宮适問於孔子曰：「羿善射，奡盪舟，俱不得其死然；禹稷躬稼，而有天下。」夫子不答，南宮适出。子曰：「君子哉若人！尚德哉若人！」
 Nan Gong Kuo, submitting an inquiry to Confucius, said, "Yi was skillful at archery, and Ao could move a boat along upon the land, but neither of them died a natural death. Yu and Ji personally wrought at the toils of husbandry, and they became possessors of the kingdom." The Master made no reply; but when Nan Gong Kuo went out, he said, "A superior man indeed is this! An esteemer of virtue indeed is this!"
 
@@ -26,7 +26,7 @@ The Master said, "In preparing the governmental notifications, Pi Shen first mad
 
 或問子產。子曰：「惠人也。」問子西。曰：「彼哉！彼哉！」問管仲。曰：「人也。奪伯氏駢邑三百，飯疏食，沒齒，無怨言。」
 Some one asked about Zi Chan. The Master said, "He was a kind man." He asked about Zi Xi. The Master said, "That man! That man!" He asked about Guan Zhong. "For him," said the Master, "the city of Pian, with three hundred families, was taken from the chief of the Bo family, who though to the end of his life he had only coarse rice to eat did not utter a murmuring word."
-
+10
 子曰：「貧而無怨難，富而無驕易。」
 The Master said, "To be poor without murmuring is difficult. To be rich without being proud is easy."
 
@@ -41,7 +41,7 @@ The Master asked Gong Ming Jia about Gong Ming Wen, saying, "Is it true that you
 
 子曰：「臧武仲以防求為後於魯，雖曰不要君，吾不信也。」
 The Master said, "Zang Wu Zhong, keeping possession of Fang, asked of the duke of Lu to appoint a successor to him in his family. Although it may be said that he was not using force with his sovereign, I believe he was."
-
+15
 子曰：「晉文公譎而不正，齊桓公正而不譎。」
 The Master said, "The duke Wen of Jin was crafty and not upright. The duke Huan of Qi was upright and not crafty."
 
@@ -56,7 +56,7 @@ The great officer, Xian, who had been family minister to Gong Ming Wen, ascended
 
 子言衛靈公之無道也，康子曰：「夫如是，奚而不喪？」孔子曰：「仲叔圉治賓客，祝鮀治宗廟，王孫賈治軍旅。夫如是，奚其喪？」
 The Master was speaking about the unprincipled course of the duke Ling of Wei, when Qi Kang said, "Since he is of such a character, how is it he does not lose his state?" Confucius said, "The Zhong Shu Yu has the superintendence of his guests and of strangers; the litanist, Tuo, has the management of his ancestral temple; and Wang Sun Jia has the direction of the army and forces - with such officers as these, how should he lose his state?"
-
+20
 子曰：「其言之不怍，則為之也難。」
 The Master said, "He who speaks without modesty will find it difficult to make his words good."
 
@@ -71,7 +71,7 @@ The Master said, "The progress of the superior man is upwards; the progress of t
 
 子曰：「古之學者為己，今之學者為人。」
 The Master said, "In ancient times, men learned with a view to their own improvement. Nowadays, men learn with a view to the approbation of others."
-
+25
 蘧伯玉使人於孔子。孔子與之坐而問焉，曰：「夫子何為？」對曰：「夫子欲寡其過而未能也。」使者出。子曰：「使乎！使乎！」
 Qu Bo sent a messenger with friendly inquiries to Confucius. Confucius sat with him, and questioned him. "What," said he! "is your master engaged in?" The messenger replied, "My master is anxious to make his faults few, but he has not yet succeeded." He then went out, and the Master said, "A messenger indeed! A messenger indeed!"
 
@@ -86,7 +86,7 @@ The Master said, "The way of the superior man is threefold, but I am not equal t
 
 子貢方人。子曰：「賜也賢乎哉？夫我則不暇。」
 Zi Gong was in the habit of comparing men together. The Master said, "Ci must have reached a high pitch of excellence! Now, I have not leisure for this."
-
+30
 子曰：「不患人之不己知，患其不能也。」
 The Master said, "I will not be concerned at men's not knowing me; I will be concerned at my own want of ability."
 
@@ -101,7 +101,7 @@ The Master said, "A horse is called a Ji, not because of its strength, but becau
 
 或曰：「以德報怨，何如？」子曰：「何以報德？以直報怨，以德報德。」
 Some one said, "What do you say concerning the principle that injury should be recompensed with kindness?" The Master said, "With what then will you recompense kindness? Recompense injury with justice, and recompense kindness with kindness."
-
+35
 子曰：「莫我知也夫！」子貢曰：「何為其莫知子也？」子曰：「不怨天，不尤人。下學而上達。知我者，其天乎！」
 The Master said, "Alas! there is no one that knows me." Zi Gong said, "What do you mean by thus saying - that no one knows you?" The Master replied, "I do not murmur against Heaven. I do not grumble against men. My studies lie low, and my penetration rises high. But there is Heaven - that knows me!"
 
@@ -116,7 +116,7 @@ Zi Lu happening to pass the night in Shi Men, the gatekeeper said to him, "Whom 
 
 子擊磬於衛。有荷蕢而過孔氏之門者，曰：「有心哉！擊磬乎！」既而曰：「鄙哉！硜硜乎！莫己知也，斯己而已矣。深則厲，淺則揭。」子曰：「果哉！末之難矣。」
 The Master was playing, one day, on a musical stone in Wei, when a man, carrying a straw basket, passed door of the house where Confucius was, and said, "His heart is full who so beats the musical stone." A little while after, he added, "How contemptible is the one-ideaed obstinacy those sounds display! When one is taken no notice of, he has simply at once to give over his wish for public employment. 'Deep water must be crossed with the clothes on; shallow water may be crossed with the clothes held up.'" The Master said, "How determined is he in his purpose! But this is not difficult!"
-
+40
 子張曰：「《書》云：『高宗諒陰，三年不言。』何謂也？」子曰：「何必高宗，古之人皆然。君薨，百官總己以聽於冢宰，三年。」
 Zi Zhang said, "When the Shu says that Gao Zong, while observing the usual imperial mourning, was for three years without speaking, what is meant by this?" The Master said, "Why must Gao Zong be referred to as an example of this? The ancients all did so. When the sovereign died, the officers all attended to their several duties, taking instructions from the prime minister for three years."
 

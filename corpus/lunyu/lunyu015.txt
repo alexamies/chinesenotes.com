@@ -11,7 +11,7 @@ The Master said, "Ci, you think, I suppose, that I am one who learns many things
 
 子曰：「由！知德者鮮矣。」
 The Master said, "You, those who know virtue are few."
-
+5
 子曰：「無為而治者，其舜也與？夫何為哉，恭己正南面而已矣。」
 The Master said, "May not Shun be instanced as having governed efficiently without exertion? What did he do? He did nothing but gravely and reverently occupy his royal seat."
 
@@ -26,7 +26,7 @@ The Master said, "When a man may be spoken with, not to speak to him is to err i
 
 子曰：「志士仁人，無求生以害仁，有殺身以成仁。」
 The Master said, "The determined scholar and the man of virtue will not seek to live at the expense of injuring their virtue. They will even sacrifice their lives to preserve their virtue complete."
-
+10
 子貢問為仁。子曰：「工欲善其事，必先利其器。居是邦也，事其大夫之賢者，友其士之仁者。」
 Zi Gong asked about the practice of virtue. The Master said, "The mechanic, who wishes to do his work well, must first sharpen his tools. When you are living in any state, take service with the most worthy among its great officers, and make friends of the most virtuous among its scholars."
 
@@ -41,7 +41,7 @@ The Master said, "It is all over! I have not seen one who loves virtue as he lov
 
 子曰：「臧文仲其竊位者與？知柳下惠之賢，而不與立也。」
 The Master said, "Was not Zang Wen like one who had stolen his situation? He knew the virtue and the talents of Hui of Liu Xia, and yet did not procure that he should stand with him in court."
-
+15
 子曰：「躬自厚而薄責於人，則遠怨矣。」
 The Master said, "He who requires much from himself and little from others, will keep himself from being the object of resentment."
 
@@ -56,7 +56,7 @@ The Master said, "The superior man in everything considers righteousness to be e
 
 子曰：「君子病無能焉，不病人之不己知也。」
 The Master said, "The superior man is distressed by his want of ability. He is not distressed by men's not knowing him."
-
+20
 子曰：「君子疾沒世而名不稱焉。」
 The Master said, "The superior man dislikes the thought of his name not being mentioned after his death."
 
@@ -71,7 +71,7 @@ The Master said, "The superior man does not promote a man simply on account of h
 
 子貢問曰：「有一言而可以終身行之者乎？」子曰：「其恕乎！己所不欲，勿施於人。」
 Zi Gong asked, saying, "Is there one word which may serve as a rule of practice for all one's life?" The Master said, "Is not RECIPROCITY such a word? What you do not want done to yourself, do not do to others."
-
+25
 子曰：「吾之於人也，誰毀誰譽？如有所譽者，其有所試矣。斯民也，三代之所以直道而行也。」
 The Master said, "In my dealings with men, whose evil do I blame, whose goodness do I praise, beyond what is proper? If I do sometimes exceed in praise, there must be ground for it in my examination of the individual. This people supplied the ground why the three dynasties pursued the path of straightforwardness."
 
@@ -86,7 +86,7 @@ The Master said, "When the multitude hate a man, it is necessary to examine into
 
 子曰：「人能弘道，非道弘人。」
 The Master said, "A man can enlarge the principles which he follows; those principles do not enlarge the man."
-
+30
 子曰：「過而不改，是謂過矣。」
 The Master said, "To have faults and not to reform them - this, indeed, should be pronounced having faults."
 
@@ -101,7 +101,7 @@ The Master said, "When a man's knowledge is sufficient to attain, and his virtue
 
 子曰：「君子不可小知，而可大受也；小人不可大受，而可小知也。」
 The Master said, "The superior man cannot be known in little matters; but he may be intrusted with great concerns. The small man may not be intrusted with great concerns, but he may be known in little matters."
-
+35
 子曰：「民之於仁也，甚於水火。水火，吾見蹈而死者矣，未見蹈仁而死者也。」
 The Master said, "Virtue is more to man than either water or fire. I have seen men die from treading on water and fire, but I have never seen a man die from treading the course of virtue."
 
@@ -116,7 +116,7 @@ The Master said, "A minister, in serving his prince, reverently discharges his d
 
 子曰：「有教無類。」
 The Master said, "In teaching there should be no distinction of classes."
-
+40
 子曰：「道不同，不相為謀。」
 The Master said, "Those whose courses are different cannot lay plans for one another."
 

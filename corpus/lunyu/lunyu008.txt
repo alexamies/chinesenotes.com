@@ -11,7 +11,7 @@ The philosopher Zeng being ill, he cared to him the disciples of his school, and
 
 曾子有疾，孟敬子問之。曾子言曰：「鳥之將死，其鳴也哀；人之將死，其言也善。君子所貴乎道者三：動容貌，斯遠暴慢矣；正顏色，斯近信矣；出辭氣，斯遠鄙倍矣。籩豆之事，則有司存。」
 The philosopher Zeng being ill, Meng Jing went to ask how he was. Zeng said to him, "When a bird is about to die, its notes are mournful; when a man is about to die, his words are good. There are three principles of conduct which the man of high rank should consider specially important: that in his deportment and manner he keep from violence and heedlessness; that in regulating his countenance he keep near to sincerity; and that in his words and tones he keep far from lowness and impropriety. As to such matters as attending to the sacrificial vessels, there are the proper officers for them."
-
+5
 曾子曰：「以能問於不能，以多問於寡；有若無，實若虛，犯而不校，昔者吾友嘗從事於斯矣。」
 The philosopher Zeng said, "Gifted with ability, and yet putting questions to those who were not so; possessed of much, and yet putting questions to those possessed of little; having, as though he had not; full, and yet counting himself as empty; offended against, and yet entering into no altercation; formerly I had a friend who pursued this style of conduct."
 
@@ -26,7 +26,7 @@ The Master said, "It is by the Odes that the mind is aroused. It is by the Rules
 
 子曰：「民可使由之，不可使知之。」
 The Master said, "The people may be made to follow a path of action, but they may not be made to understand it."
-
+10
 子曰：「好勇疾貧，亂也。人而不仁，疾之已甚，亂也。」
 The Master said, "The man who is fond of daring and is dissatisfied with poverty, will proceed to insubordination. The man who is not virtuous, when you carry your dislike of him to an extreme, will also proceed to insubordination."
 
@@ -41,7 +41,7 @@ The Master said, "With sincere faith he unites the love of learning; holding fir
 
 子曰：「不在其位，不謀其政。」
 The Master said, "He who is not in any particular office has nothing to do with plans for the administration of its duties."
-
+15
 子曰：「師摯之始，關雎之亂，洋洋乎！盈耳哉。」
 The Master said, "When the music master Zhi first entered on his office, the finish of the Guan Ju was magnificent - how it filled the ears!"
 
@@ -56,7 +56,7 @@ The Master said, "How majestic was the manner in which Shun and Yu held possessi
 
 子曰：「大哉，堯之為君也！巍巍乎！唯天為大，唯堯則之。蕩蕩乎！民無能名焉。巍巍乎！其有成功也；煥乎，其有文章！」
 The Master said, "Great indeed was Yao as a sovereign! How majestic was he! It is only Heaven that is grand, and only Yao corresponded to it. How vast was his virtue! The people could find no name for it. How majestic was he in the works which he accomplished! How glorious in the elegant regulations which he instituted!"
-
+20
 舜有臣五人而天下治。武王曰：「予有亂臣十人。」孔子曰：「才難，不其然乎？唐虞之際，於斯為盛。有婦人焉，九人而已。三分天下有其二，以服事殷。周之德，其可謂至德也已矣。」
 Shun had five ministers, and the empire was well governed. King Wu said, "I have ten able ministers." Confucius said, "Is not the saying that talents are difficult to find, true? Only when the dynasties of Tang and Yu met, were they more abundant than in this of Zhou, yet there was a woman among them. The able ministers were no more than nine men. King Wen possessed two of the three parts of the empire, and with those he served the dynasty of Yin. The virtue of the house of Zhou may be said to have reached the highest point indeed."
 

@@ -11,7 +11,7 @@ Zi Lu said, "The ruler of Wei has been waiting for you, in order with you to adm
 
 樊遲請學稼，子曰：「吾不如老農。」請學為圃。曰：「吾不如老圃。」樊遲出。子曰：「小人哉，樊須也！上好禮，則民莫敢不敬；上好義，則民莫敢不服；上好信，則民莫敢不用情。夫如是，則四方之民襁負其子而至矣，焉用稼？」
 Fan Chi requested to be taught husbandry. The Master said, "I am not so good for that as an old husbandman." He requested also to be taught gardening, and was answered, "I am not so good for that as an old gardener." Fan Chi having gone out, the Master said, "A small man, indeed, is Fan Xu! If a superior man love propriety, the people will not dare not to be reverent. If he love righteousness, the people will not dare not to submit to his example. If he love good faith, the people will not dare not to be sincere. Now, when these things obtain, the people from all quarters will come to him, bearing their children on their backs - what need has he of a knowledge of husbandry?"
-
+5
 子曰：「誦詩三百，授之以政，不達；使於四方，不能專對；雖多，亦奚以為？」
 The Master said, "Though a man may be able to recite the three hundred odes, yet if, when intrusted with a governmental charge, he knows not how to act, or if, when sent to any quarter on a mission, he cannot give his replies unassisted, notwithstanding the extent of his learning, of what practical use is it?"
 
@@ -26,7 +26,7 @@ The Master said of Jing, a scion of the ducal family of Wei, that he knew the ec
 
 子適衛，冉有僕。子曰：「庶矣哉！」冉有曰：「既庶矣。又何加焉？」曰：「富之。」曰：「既富矣，又何加焉？」曰：「教之。」
 When the Master went to Wei, Zan You acted as driver of his carriage. The Master observed, "How numerous are the people!" You said, "Since they are thus numerous, what more shall be done for them?" "Enrich them," was the reply. "And when they have been enriched, what more shall be done?" The Master said, "Teach them."
-
+10
 子曰：「苟有用我者。期月而已可也，三年有成。」
 The Master said, "If there were (any of the princes) who would employ me, in the course of twelve months, I should have done something considerable. In three years, the government would be perfected."
 
@@ -41,7 +41,7 @@ The Master said, "If a minister make his own conduct correct, what difficulty wi
 
 冉子退朝。子曰：「何晏也？」對曰：「有政。」子曰：「其事也。如有政，雖不吾以，吾其與聞之。」
 The disciple Ran returning from the court, the Master said to him, "How are you so late?" He replied, "We had government business." The Master said, "It must have been family affairs. If there had been government business, though I am not now in office, I should have been consulted about it."
-
+15
 定公問：「一言而可以興邦，有諸？」孔子對曰：「言不可以若是其幾也。人之言曰：『為君難，為臣不易。』如知為君之難也，不幾乎一言而興邦乎？」曰：「一言而喪邦，有諸？」孔子對曰：「言不可以若是其幾也。人之言曰：『予無樂乎為君，唯其言而莫予違也。』如其善而莫之違也，不亦善乎？如不善而莫之違也，不幾乎一言而喪邦乎？」
 The Duke Ding asked whether there was a single sentence which could make a country prosperous. Confucius replied, "Such an effect cannot be expected from one sentence. There is a saying, however, which people have - 'To be a prince is difficult; to be a minister is not easy.' If a ruler knows this - the difficulty of being a prince - may there not be expected from this one sentence the prosperity of his country?" The duke then said, "Is there a single sentence which can ruin a country?" Confucius replied, "Such an effect as that cannot be expected from one sentence. There is, however, the saying which people have - 'I have no pleasure in being a prince, but only in that no one can offer any opposition to what I say!' If a ruler's words be good, is it not also good that no one oppose them? But if they are not good, and no one opposes them, may there not be expected from this one sentence the ruin of his country?"
 
@@ -56,7 +56,7 @@ The Duke of She informed Confucius, saying, "Among us here there are those who m
 
 樊遲問仁。子曰：「居處恭，執事敬，與人忠。雖之夷狄，不可棄也。」
 Fan Chi asked about perfect virtue. The Master said, "It is, in retirement, to be sedately grave; in the management of business, to be reverently attentive; in intercourse with others, to be strictly sincere. Though a man go among rude, uncultivated tribes, these qualities may not be neglected."
-
+20
 子貢問曰：「何如斯可謂之士矣？」子曰：「行己有恥，使於四方，不辱君命，可謂士矣。」曰：「敢問其次。」曰：「宗族稱孝焉，鄉黨稱弟焉。」曰：「敢問其次。」曰：「言必信，行必果，硜硜然小人哉！抑亦可以為次矣。」曰：「今之從政者何如？」子曰：「噫！斗筲之人，何足算也。」
 Zi Gong asked, saying, "What qualities must a man possess to entitle him to be called an officer? The Master said, "He who in his conduct of himself maintains a sense of shame, and when sent to any quarter will not disgrace his prince's commission, deserves to be called an officer." Zi Gong pursued, "I venture to ask who may be placed in the next lower rank?" And he was told, "He whom the circle of his relatives pronounce to be filial, whom his fellow villagers and neighbors pronounce to be fraternal." Again the disciple asked, "I venture to ask about the class still next in order." The Master said, "They are determined to be sincere in what they say, and to carry out what they do. They are obstinate little men. Yet perhaps they may make the next class." Zi Gong finally inquired, "Of what sort are those of the present day, who engage in government?" The Master said "Pooh! they are so many pecks and hampers, not worth being taken into account."
 
@@ -71,7 +71,7 @@ The Master said, "The superior man is affable, but not adulatory; the mean man i
 
 子貢問曰：「鄉人皆好之，何如？」子曰：「未可也。」「鄉人皆惡之，何如？」子曰：「未可也。不如鄉人之善者好之，其不善者惡之。」
 Zi Gong asked, saying, "What do you say of a man who is loved by all the people of his neighborhood?" The Master replied, "We may not for that accord our approval of him." "And what do you say of him who is hated by all the people of his neighborhood?" The Master said, "We may not for that conclude that he is bad. It is better than either of these cases that the good in the neighborhood love him, and the bad hate him."
-
+25
 子曰：「君子易事而難說也：說之不以道，不說也；及其使人也，器之。小人難事而易說也：說之雖不以道，說也；及其使人也，求備焉。」
 The Master said, "The superior man is easy to serve and difficult to please. If you try to please him in any way which is not accordant with right, he will not be pleased. But in his employment of men, he uses them according to their capacity. The mean man is difficult to serve, and easy to please. If you try to please him, though it be in a way which is not accordant with right, he may be pleased. But in his employment of men, he wishes them to be equal to everything."
 
@@ -86,7 +86,7 @@ Zi Lu asked, saying, "What qualities must a man possess to entitle him to be cal
 
 子曰：「善人教民七年，亦可以即戎矣。」
 The Master said, "Let a good man teach the people seven years, and they may then likewise be employed in war."
-
+30
 子曰：「以不教民戰，是謂棄之。」
 The Master said, "To lead an uninstructed people to war, is to throw them away."
 
