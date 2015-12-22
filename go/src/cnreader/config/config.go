@@ -15,7 +15,7 @@ var projectHome string
 
 // A type that holds the source and destination files for HTML conversion
 type HTMLConversion struct {
-	SrcFile, DestFile string
+	SrcFile, DestFile, Template string
 }
 
 func init() {
@@ -45,7 +45,7 @@ func GetHTMLConversions() []HTMLConversion {
 	}
 	conversions := make([]HTMLConversion, 0)
 	for _, row := range rawCSVdata {
-		conversions = append(conversions, HTMLConversion{row[0], row[1]})
+		conversions = append(conversions, HTMLConversion{row[0], row[1], row[2]})
 	}
 	return conversions
 }

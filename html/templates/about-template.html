@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Generated from the Go template collections-template.html -->
+<!-- Generated from the Go template about-template.html -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -31,7 +31,7 @@
       <div class="row">
         <div class="span2"><img id="logo" src="/images/ren.png" alt="Logo"
                                 class="pull-left"/></div>
-        <div class="span7"><h1>Chinese Notes</h1></div>
+        <div class="span7"><header><h1>Chinese Notes</h1></header></div>
       </div>
     </div>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -57,61 +57,25 @@
     </div>
     <div class="container">
 
-      <h2>{{ .Headword.Simplified }} 
-        ({{.Headword.Traditional}})
-        {{ range $pinyin := .Headword.Pinyin }}
-          {{ $pinyin }}
-        {{ end }}
-      </h2>
-      <ol>
-        {{ range $ws := .Headword.WordSenses }}
-          <li>
-            <span class='dict-entry-pinyin'>{{ $ws.Pinyin }}</span> 
-            <span class='dict-entry-grammar'>{{ $ws.Grammar }}</span> 
-            <span class='dict-entry-definition'>{{ $ws.English }}</span> <br/>
-            Domain: {{ $ws.Topic_en }}<br/>
-            <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
-          </li>
-        {{ end }}
-      </ol>
-
-      <h3>Usage</h3>
-      <table class="table table-bordered table-hover">
-        <thead>
-          <tr><th>Example</th><th>Source</th><th>Occurrences</th></tr>
-        </thead>
-        <tbody>
-        {{ range $usage := .UsageArr }}
-          <tr>
-            <td>
-              {{ $usage.Example }} 
-            </td>
-            <td>
-              <a href='../{{$usage.File}}'>{{ $usage.EntryTitle }}</a> in 
-              {{ $usage.ColTitle }} 
-            </td>
-            <td>
-              {{ $usage.Freq }} 
-            </td>
-          </tr>
-        {{ end }}
-        </tbody>
-      </table>
+      {{ .Content }} 
  
       <hr/>
-      <p>
-        Copyright Fo Guang Shan Nan Tien Institute 佛光山南天大學 2013-2015, 
-        <a href="http://www.nantien.edu.au/"
-          title="Fo Guang Shan Nan Tien Institute">www.nantien.edu.au</a>. 
-        This work is licensed under a
-        <a rel="license"
-          href="http://creativecommons.org/licenses/by/4.0/">Creative
-          Commons Attribution 4.0 International License</a>. See
-          <a href='/about.html'>About</a>. Please send comments to
-          alex@chinesenotes.com.
-      </p>
-      <p>This page was last updated on {{.DateUpdated}}.</p>
+      <footer>
+        <p>
+          Copyright Fo Guang Shan Nan Tien Institute 佛光山南天大學 2013-2015, 
+          <a href="http://www.nantien.edu.au/"
+            title="Fo Guang Shan Nan Tien Institute">www.nantien.edu.au</a>. 
+          This work is licensed under a
+          <a rel="license"
+            href="http://creativecommons.org/licenses/by/4.0/">Creative
+            Commons Attribution 4.0 International License</a>. See
+            <a href='/about.html'>About</a>. Please send comments to
+            alex@chinesenotes.com.
+        </p>
+        <p>This page was last updated on {{.DateUpdated}}.</p>
+      </footer>
     </div> <!-- /.container -->
+    {{.VocabularyJSON}}
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="script/popover.js"></script>

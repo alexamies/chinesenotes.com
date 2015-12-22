@@ -41,6 +41,7 @@ func main() {
 	corpusDir := projectHome + "/corpus"
 	corpusDataDir := projectHome + "/data/corpus"
 	dataDir := projectHome + "/data/"
+	templateDir := projectHome + "/html/templates"
 
 
 	// Read in dictionary
@@ -74,7 +75,7 @@ func main() {
 		// Read text and perform vocabulary analysis
 		text := analysis.ReadText(*infile)
 		tokens, vocab, wc, unknownChars, usage := analysis.ParseText(text)
-		analysis.WriteDoc(tokens, vocab, *outfile)
+		analysis.WriteDoc(tokens, vocab, *outfile, `\N`, `\N`)
 		analysis.WriteAnalysis(vocab, usage, wc, unknownChars, *analysisFile,
 			"To do: figure out the colleciton title",
 			"To do: figure out the document title")
@@ -84,10 +85,15 @@ func main() {
 		for _, conversion := range conversions {
 			src := webDir + "/" + conversion.SrcFile
 			dest := webDir + "/" + conversion.DestFile
-			log.Printf("main: input file: %s, output file: %s\n", src, dest)
+			templateFile := `\N`
+			if conversion.Template != `\N` {
+				templateFile = templateDir + "/" + conversion.Template
+			}
+			log.Printf("main: input file: %s, output file: %s, template: %s\n",
+				src, dest, templateFile)
 			text := analysis.ReadText(src)
 			tokens, vocab, _, _, _ := analysis.ParseText(text)
-			analysis.WriteDoc(tokens, vocab, dest)
+			analysis.WriteDoc(tokens, vocab, dest, conversion.Template, templateFile)
 		}
 	} else if *headwords {
 		log.Printf("main: Write Headwords\n")

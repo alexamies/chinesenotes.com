@@ -69,6 +69,11 @@ type WFResult struct {
 	Chinese, Pinyin, English, Usage string
 }
 
+// HTML content for template
+type HTMLContent struct {
+	Content, VocabularyJSON, DateUpdated string
+}
+
 // Breaks text into a list of CJK and non CJK strings
 func GetChunks(text string) (list.List) {
 	var chunks list.List
@@ -396,7 +401,12 @@ func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 // tokens: A list of tokens forming the document
 // vocab: A list of word id's in the document
 // filename: The file name to write to
-func WriteDoc(tokens list.List, vocab map[string]int, filename string) {
+func WriteDoc(tokens list.List, vocab map[string]int, filename,
+		templateName, templateFile string) {
+	if templateFile != `\N` {
+		writeHTMLDoc(tokens, vocab, filename, templateName, templateFile)
+		return
+	}
 	f, err := os.Create(filename)
 	if err != nil {
 		log.Fatal(err)
@@ -430,6 +440,52 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename string) {
 		}
 	}
 	w.Flush()
+}
+
+// Writes a document with markup for the array of tokens
+// tokens: A list of tokens forming the document
+// vocab: A list of word id's in the document
+// filename: The file name to write to
+func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
+		templateName, templateFile string) {
+	var b bytes.Buffer
+
+	// Iterate over text chunks
+	for e := tokens.Front(); e != nil; e=e.Next() {
+		chunk := e.Value.(string)
+		//fmt.Printf("WriteDoc: Word %s\n", word)
+		if entries, ok := dictionary.GetWord(chunk); ok {
+			wordIds := ""
+			for _, ws := range entries {
+				if wordIds == "" {
+					wordIds = fmt.Sprintf("%d", ws.Id)
+				} else {
+					wordIds = fmt.Sprintf("%s,%d", wordIds, ws.Id)
+				}
+			}
+			fmt.Fprintf(&b, "<span title='%s' data-wordid='%s'" +
+					" class='dict-entry' data-toggle='popover'>%s</span>",
+					chunk, wordIds, chunk)
+		} else {
+			fmt.Fprintf(&b, chunk)
+		}
+	}
+	vocabJSON := WriteVocab("", 0, vocab)
+	dateUpdated := time.Now().Format("2006-01-02")
+	content := HTMLContent{b.String(), vocabJSON, dateUpdated}
+
+	// Prepare template
+	tmpl := template.Must(template.New(templateName).ParseFiles(templateFile))
+	f, err := os.Create(filename)
+	if err != nil {
+		log.Fatal(err)
+	}
+	w := bufio.NewWriter(f)
+	err = tmpl.Execute(w, content)
+	if err != nil { panic(err) }
+	w.Flush()
+	f.Close()
+
 }
 
 // Writes word entries for headwords

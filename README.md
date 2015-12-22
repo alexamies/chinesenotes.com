@@ -43,6 +43,7 @@ Generates markup for HTML page popovers
 
 Install go (see https://golang.org/doc/install)
 
+### Go command line tool
 For more details on the corpus organization and command line tool to process
 it see corpus/CORPUS-README.md and go/src/cnreader/README-go.md.
 
@@ -51,3 +52,40 @@ $ cd go/src/cnreader
 $ go build
 
 $ ./cnreader -all
+
+### Project Organization
+/corpus
+ - raw text files for making up the text corpus
+
+/data
+ - dictionary data files
+
+/data/corpus
+ - metadata files describing the structure of the corpus
+
+/go
+ - command line tool for analysis of the corpus
+
+/html
+ - raw HTML content minus headers, footers, menus, etc
+
+ /html/templates
+  - Go template for generation of HTML files
+
+/web
+ - HTML and PHP files. Many but not all files are generated with the Go command line tool. HTML files are written in HTML 5 (See <a href='https://developers.google.com/web/fundamentals/'>Web Fundamentals</a>).
+
+ /web/script
+  - JavaScript files
+
+ /web/analysis
+  - Corpus analysis files (generated)
+
+ /web/images
+ - static images
+
+/web/inc
+ - PHP includes
+
+ /web/erya, /web/laoshe, etc
+  - corpus files (generated)
