@@ -1,67 +1,80 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="textApp">
+<!-- Generated from the Go template about-template.html -->
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="NTI Buddhist Text Reader">
-    <link rel="shortcut icon" href="images/ren.png" type="image/png" />
+    <meta name="description" content="Chinese language notes">
+    <link rel="shortcut icon" href="/images/ren.png" type="image/png" />
     <title>Chinese Language Notes</title>
     <link rel="stylesheet" 
           href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="buddhistdict.css" rel="stylesheet">
+    <link rel="stylesheet" href="/chinesenotes.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body ng-controller="textCtrl">
+  <body>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-57634593-1', 'auto');
+      ga('create', 'UA-59206430-1', 'auto');
       ga('send', 'pageview');
     </script>
     <div class="starter-template">
       <div class="row">
-        <div class="span2"><img id="logo" src="images/ren.png" alt="Logo"
+        <div class="span2"><img id="logo" src="/images/ren.png" alt="Logo"
                                 class="pull-left"/></div>
-        <div class="span7"><h1>Chinese Notes</h1></div>
+        <div class="span7"><header><h1>Chinese Notes</h1></header></div>
       </div>
     </div>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+                  data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Home</a>
+          <a class="navbar-brand" href="/index.html">Home</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="tools.html">Tools</a></li>
-            <li><a href="texts.html">Texts</a></li>
-            <li><a href="reference.html">Reference</a></li>
+            <li><a href="/texts.html">Texts</a></li>
+            <li><a href="/tools.html">Tools</a></li>
+            <li><a href="/reference.html">Reference</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
     <div class="container">
-      <h2>What's New</h2>
+
+            <h2>What's New</h2>
       <p>
         An update to recent changes on this site.
       </p>
       <p>
+        <strong>2015-12-23</strong>: Added many texts to the 
+        <a href='texts.html'>text collection</a>, including 
+        <a href='lunyu.html'>The Analects of Confucius 《<span title='論語' data-wordid='7228' class='dict-entry' data-toggle='popover'>論語</span>》</a>, 
+        <a href='liji.html'>The Book of Rites 《<span title='禮記' data-wordid='23741' class='dict-entry' data-toggle='popover'>禮記</span>》</a>, 
+        <a href='zhuangzi.html'>Zhuangzi 《<span title='莊子' data-wordid='9741' class='dict-entry' data-toggle='popover'>莊子</span>》</a>, 
+        <a href='shiji.html'>Records of the Grand Historian 《<span title='史記' data-wordid='17475' class='dict-entry' data-toggle='popover'>史記</span>》</a>, 
+        <a href='shuowen.html'>Shuo Wen Jie Zi 《<span title='說文解字' data-wordid='17080' class='dict-entry' data-toggle='popover'>說文解字</span>》</a>, and
+        <a href='sishuzhangju.html'>Commentaries on the Four Books by
+          Zhu Xi <span title='朱熹' data-wordid='18517' class='dict-entry' data-toggle='popover'>朱熹</span>《<span title='四書章句集注' data-wordid='40670' class='dict-entry' data-toggle='popover'>四書章句集注</span>》</a>.
+      </p>
+      <p>
         <strong>2015-09-25</strong>: Added <a href='erya_collection.html'>Er
-        Ya 《爾雅》</a>, an early Chinese dictionary.
+        Ya 《<span title='爾雅' data-wordid='17861' class='dict-entry' data-toggle='popover'>爾雅</span>》</a>, an early Chinese dictionary.
       </p>
       <p>
         <strong>2015-09-07</strong>: Menu reorganization. Added <em>Texts</em>
@@ -74,15 +87,41 @@
         <strong>2015-09-07</strong>: Started maintaining this page.
       </p>
 
+ 
+ 
       <hr/>
-      <p>
-        Copyright Nan Tien Institute 2013 - 2015, 
-        <a href="http://www.nantien.edu.au/"
-           title="Nan Tien Institute">www.nantien.edu.au</a>.
-      </p>
-      <p>This page was last updated on 2015-09-07.</p>
-    </div>
+      <footer>
+        <p>
+          Copyright Fo Guang Shan Nan Tien Institute 佛光山南天大學 2013-2015, 
+          <a href="http://www.nantien.edu.au/"
+            title="Fo Guang Shan Nan Tien Institute">www.nantien.edu.au</a>. 
+          This work is licensed under a
+          <a rel="license"
+            href="http://creativecommons.org/licenses/by/4.0/">Creative
+            Commons Attribution 4.0 International License</a>. See
+            <a href='/about.html'>About</a>. Please send comments to
+            alex@chinesenotes.com.
+        </p>
+        <p>This page was last updated on 2015-12-23.</p>
+      </footer>
+    </div> <!-- /.container -->
+    
+<script>
+words = {
+"9741":{"element_text":"莊子","simplified":"庄子","traditional":"莊子","pinyin":"Zhuāng Zǐ","english":"Zhuang Zi","notes":"(369-286 BCE), An influential Chinese philosopher who lived during the Warring States Period. Also the name of the major Taoist text. (Idema and Haft, 1997, p. 86， 90)"},
+"17475":{"element_text":"史記","simplified":"史记","traditional":"史記","pinyin":"Shǐjì","english":"Records of the Historian","notes":"Begun by Sima Tan 司马谈 and completed by his son 司马迁 Sima Qian (145&mdash;86 BCE) (Idema and Haft, 1997, p. 79)"},
+"17080":{"element_text":"說文解字","simplified":"说文解字","traditional":"說文解字","pinyin":"Shuō Wén Jiě Zì","english":"Shuo Wen Jie Zi","notes":"The first major dictionary, appeared in the Han Dynasty, compiled by Xu Shen 许慎. (Norman, 1988, p. 67)"},
+"18517":{"element_text":"朱熹","simplified":"朱熹","traditional":"\N","pinyin":"Zhū Xī","english":"Zhu Zi / Zhu Xi / Chu Hsi","notes":"Also known as 朱子 Zhu Zi, (1130&mdash;1200), Song dynasty Confucian writer, prominent figure in neo-Confucianism (Yao, 2000, p. 105)"},
+"40670":{"element_text":"四書章句集注","simplified":"四书章句集注","traditional":"四書章句集注","pinyin":"Sì Shū Zhāng Jù Jí Zhù","english":"Commentaries on the Four Books","notes":"A commentary on the The Four Books of Neo-Confucianism, as referred to by Zhu Xi, namely the Great Learning 《大学》, Doctrine of the Mean 《中庸》, Analects of Confucius 《论语》, and Mencius 《孟子》, by influential Neo-Confucian philosopher Zhu Xi 朱熹 (1130—1200)"},
+"17861":{"element_text":"爾雅","simplified":"尔雅","traditional":"爾雅","pinyin":"Ěryǎ","english":"Erya / Er Ya / Ready Guide","notes":"The first Chinese dictionary, c. 3rd century BCE (Norman, 1988， p. 170)"},
+"7228":{"element_text":"論語","simplified":"论语","traditional":"論語","pinyin":"Lúnyǔ","english":"The Analects of Confucius","notes":" (c. 479 BCE&mdash;221 BCE) The sayings of Confucius recorded by his disciples in the two or three generations following his death (Idema and Haft, 1997, p. 87)"},
+"23741":{"element_text":"禮記","simplified":"礼记","traditional":"禮記","pinyin":"Lǐ Jì","english":"The Book of Rites / Classic of Rites","notes":"One of the Five Classics of Confucianism 五经, describes ceremonies and essays. It is thought to have been compiled in its present form by Dai Sheng 戴圣 in the Han. (Idema and Haft, 1997, p. 88)"},
+}
+</script>
+
+
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/popover.js"></script>
   </body>
 </html>
