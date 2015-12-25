@@ -34,3 +34,12 @@ cd $PROJECT_HOME/go/src/cnreader
 
 ###7 To enhance all files in the corpus literary_chinese_prose
 ./cnreader.go -collection=erya.csv
+
+###8 To build the headword file and add headword numbers to the words.txt file
+./cnreader -headwords
+cd $PROJECT_HOME/go/src/util
+go run headwords.go
+cd $PROJECT_HOME
+cp data/lexical_units.txt data/words.txt
+cd $PROJECT_HOME/go/src/cnreader
+./cnreader -hwfiles

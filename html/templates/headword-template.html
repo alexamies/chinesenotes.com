@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Generated from the Go template collections-template.html -->
+<!-- Generated from the Go template headword-template.html -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -57,8 +57,10 @@
     </div>
     <div class="container">
 
-      <h2>{{ .Headword.Simplified }} 
-        ({{.Headword.Traditional}})
+      <h2><span class='dict-entry-headword'>{{ .Headword.Simplified }}
+        {{if ne .Headword.Traditional "\\N"}}
+          ({{.Headword.Traditional}})
+        {{end}}</span>
         {{ range $pinyin := .Headword.Pinyin }}
           {{ $pinyin }}
         {{ end }}
@@ -70,7 +72,9 @@
             <span class='dict-entry-grammar'>{{ $ws.Grammar }}</span> 
             <span class='dict-entry-definition'>{{ $ws.English }}</span> <br/>
             Domain: {{ $ws.Topic_en }}<br/>
-            <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
+            {{if ne $ws.Notes "\\N"}}
+              <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
+            {{ end }}
           </li>
         {{ end }}
       </ol>

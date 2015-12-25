@@ -9,5 +9,5 @@ shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By Sima Qian, t
 shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	\N	Literary Chinese	Prose	Northern and Southern Dynasties
 tang_poetry.csv	\N	Selections of Tang Poetry	\N	\N	Literary Chinese	Poetry	Tang
 sishuzhangju.csv	sishuzhangju.html	Commentaries on the Four Books by Zhu Xi 朱熹《四書章句集注》	\N	sishuzhangju/sishuzhangju.txt	Literary Chinese	Prose	Circa 1200
-modern_articles.csv	\N	Media articles	\N	\N	Modern Chinese	Prose	Modern
+modern_articles.csv	media_articles.html	Media articles	\N	\N	Modern Chinese	Prose	Modern
 laoshe.csv	laoshe.html	A small number of phrases from the writings of Lao She	\N	\N	Modern Chinese	Prose	Modern

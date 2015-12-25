@@ -81,6 +81,10 @@ span.dict-entry:hover {
 }
 
 /* Dictionary Entry style */
+
+span.dict-entry-headword {
+    font-size: 200%;
+}
 span.dict-entry-pinyin {
     font-weight: bold;
     font-size: 120%;

@@ -506,9 +506,9 @@ func WriteHwFiles() {
 			usageArrPtr, ok = usageMap[hw.Traditional]
 		}
 		if !ok {
-			if hw.Simplified == "经" {
-				fmt.Println("WriteHwFiles: no usage found for 经")
-			}
+			//if hw.Simplified == "经" {
+			//	fmt.Println("WriteHwFiles: no usage found for 经")
+			//}
 			continue
 		}
 		dictEntry := DictEntry{hw, *usageArrPtr, dateUpdated}
