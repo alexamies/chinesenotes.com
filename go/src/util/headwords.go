@@ -1,5 +1,5 @@
 /* 
-Utility for manipulating 
+Utility for adding headword numbers to the words.txt file 
  */
 package main
 
