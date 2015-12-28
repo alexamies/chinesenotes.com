@@ -1,0 +1,97 @@
+<h2>Dictionary Style Guide</h2>
+<p>
+  This page describes the things to consider when writing a dictionary entry.
+  To add a word use the form at 
+  <a href="https://docs.google.com/forms/d/1AcPDJ3CSIyn7MNVDKiMHby4EMPH0g3FxwLRTlJKhxmA/viewform?usp=send_form"
+  >Add or Change Word</a>.
+  The design of the dictionary is described in the page 
+  <a href='dictionary_design.html'>Dictionary Design</a>.
+</p>
+<p>
+  Similar words should have similar definitions. Use the 
+</p>
+<h3>Dictionary Entry Components</h3>
+<p>
+  Dictionary <strong>headwords</strong> can be words or multi-word expressions.
+  A headword is created by adding one or more entries to the words.txt file.
+  The chinesenotes software will group together multiple lexical units with the
+  same simplified and traditional Chinese text into the same headword.
+  If the term is very specific to a single organization then it should be added
+  in a file or its own. An example of this is the 
+  <a href="https://github.com/alexamies/buddhist-dictionary/blob/master/data/dictionary/fgs_mwe.txt"
+  >fgs_mwe.txt</a> used for Fo Guang Shan specific terms.
+</p>
+<p>
+  Word id: Each lexical unit has a unique id. These are assigned in numeric
+  sequence.
+</p>
+<p>
+  Simplified Chinese: This field is compulsory. If the simplified Chinese text
+  is the same as the traditional Chinese then add it here and leave the
+  traditional Chinese field blank.
+</p>
+<p>
+  Traditional Chinese: This field is only added if the traditional Chinese
+  text is different from the simplified Chinese.
+</p>
+<p>
+  Pinyin: This field is mandatory. Add the pinyin text with the proper 
+  diacritics to indicate tone. For example, 凤梨 fènglí. Use the 
+  <a href="pinyin_format.php">Format Pinyin tool</a> to add the diacritics.
+</p>
+<p>
+  Grammar: This field is mandatory. Use one of the values in 
+  <a href="https://github.com/alexamies/chinesenotes.com/blob/master/data/grammar.txt"
+  >grammar.txt</a>.
+</p>
+<p>
+  English: This field is mandatory. It should contain direct translations
+  or near synonyms in English delimited by '/.' Commas, periods, and other 
+  punctuation other than double quotes can be include. Do not use plain ASCII
+  double quotes ". If you have to use double quotes, use a Unicode stylized
+  double quote like “”.
+</p>
+<p>
+  Concept: This is an optional field. It indicates what kind of thing a word
+  refers to. For example, for 凤梨 'pineapple' the concept is (水果, Fruit).
+  If you enter a value for concept you must add simplified Chinese and
+  English values. There is no fixed list of concepts.
+</p>
+<p>
+  Domain Labels: This field is mandatory. 
+  Domain labels indicate specialized fields that words are used in, such as
+  lingustics or medicine. In this dictionary domain labels are critical for
+  separating modern Chinese, literary Chinese, and Buddhist vocabulary.
+  Other values are helpful for dictionary users.
+  For example, the entry for 凤梨 'pineapple' the domain
+  is (饮食, Food and Drink).
+  The topic_cn and topic_en fields in Chinese and English respecitvely are used
+  for this purpose.
+  The values must be chosen from the list
+  <a href="https://github.com/alexamies/chinesenotes.com/blob/master/data/topics.txt"
+  >topics.txt</a>.
+  The parent_cn and parent_en are subdomains, which are optional. 
+  For example, History | China, 
+  i.e. Chinese History as a subdomain of the domain History.
+  There is no fixed list for subdomains. They can have any value but, if a value
+  is provided, then both Simplified Chinese and English should be provided.
+</p>
+<h3>Notes</h3>
+<p>
+  Try to provide some notes to allow users to find out more about a word.
+  The notes section provides additional information about the word. 
+  For modern Chinese words notes explaining the use of the word should be given
+  and examples included. Examples should illustrate the word sense with 
+  English gloss of Chinese examples. English gloss is given in single quotes
+  The source of the example given in English or pinyin and Chinese.
+  For example, 㣇：脩豪獸。 'Yì: a grand beast with long hair.' (Shuo Wen Jie Zi,
+  Scroll 10 《說文解字‧卷十》)
+  Examples should be taken from the corpus.
+  Synonyms in the source language should be provided to illustrate the word
+  sense.
+  Synonyms should exist in the dictionary. If the synonym does not exist then
+  add it.
+  Citations are important. Citations should be to an items listed in the 
+  <a href="references.html">References</a> page.
+</p>
+
