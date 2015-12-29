@@ -84,6 +84,7 @@ span.dict-entry:hover {
 
 span.dict-entry-headword {
     font-size: 200%;
+    font-weight: normal;
 }
 span.dict-entry-pinyin {
     font-weight: bold;
