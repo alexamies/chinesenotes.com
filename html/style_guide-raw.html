@@ -11,8 +11,9 @@
   Similar words should have similar definitions. Use the 
 </p>
 <h3>Dictionary Entry Components</h3>
+<h4>Headwords</h4>
 <p>
-  Dictionary <strong>headwords</strong> can be words or multi-word expressions.
+  Headwords can be words or multi-word expressions.
   A headword is created by adding one or more entries to the words.txt file.
   The chinesenotes software will group together multiple lexical units with the
   same simplified and traditional Chinese text into the same headword.
@@ -21,44 +22,55 @@
   <a href="https://github.com/alexamies/buddhist-dictionary/blob/master/data/dictionary/fgs_mwe.txt"
   >fgs_mwe.txt</a> used for Fo Guang Shan specific terms.
 </p>
+<h4>Word id</h4>
 <p>
-  Word id: Each lexical unit has a unique id. These are assigned in numeric
-  sequence.
+  Each lexical unit has a unique word id. These are assigned in numeric
+  sequence. There will generally be multiple lexical units for each headword.
+  Each lexical unit will differ in word sense, grammar, or pronunciation.
 </p>
+<h4>Simplified Chinese</h4>
 <p>
-  Simplified Chinese: This field is compulsory. If the simplified Chinese text
+  The Simplified Chinese field is compulsory. If the simplified Chinese text
   is the same as the traditional Chinese then add it here and leave the
   traditional Chinese field blank.
 </p>
+<h4>Traditional Chinese</h4>
 <p>
-  Traditional Chinese: This field is only added if the traditional Chinese
+  The Traditional Chinese field is only added if the traditional Chinese
   text is different from the simplified Chinese.
 </p>
+<h4>Pinyin</h4>
 <p>
-  Pinyin: This field is mandatory. Add the pinyin text with the proper 
+  The Pinyin field is mandatory. Add the pinyin text with the proper 
   diacritics to indicate tone. For example, 凤梨 fènglí. Use the 
   <a href="pinyin_format.php">Format Pinyin tool</a> to add the diacritics.
 </p>
+<h4>Grammar</h4>
 <p>
-  Grammar: This field is mandatory. Use one of the values in 
+  The Grammar field is mandatory. Use one of the values in 
   <a href="https://github.com/alexamies/chinesenotes.com/blob/master/data/grammar.txt"
   >grammar.txt</a>.
 </p>
+<h4>English</h4>
 <p>
-  English: This field is mandatory. It should contain direct translations
+  The English field is mandatory. It should contain direct translations
   or near synonyms in English delimited by '/.' Commas, periods, and other 
   punctuation other than double quotes can be include. Do not use plain ASCII
   double quotes ". If you have to use double quotes, use a Unicode stylized
-  double quote like “”.
+  double quote like “”. Several English equivalents of the Chinese source word
+  should be provided because one English equivalent will rarely be adequate
+  in all situations.
 </p>
+<h4>Concept</h4>
 <p>
-  Concept: This is an optional field. It indicates what kind of thing a word
+  Concept is an optional field. It indicates what kind of thing a word
   refers to. For example, for 凤梨 'pineapple' the concept is (水果, Fruit).
   If you enter a value for concept you must add simplified Chinese and
   English values. There is no fixed list of concepts.
 </p>
+<h4>Domain Labels</h4>
 <p>
-  Domain Labels: This field is mandatory. 
+  Domain Label fields are mandatory. 
   Domain labels indicate specialized fields that words are used in, such as
   lingustics or medicine. In this dictionary domain labels are critical for
   separating modern Chinese, literary Chinese, and Buddhist vocabulary.
@@ -76,7 +88,7 @@
   There is no fixed list for subdomains. They can have any value but, if a value
   is provided, then both Simplified Chinese and English should be provided.
 </p>
-<h3>Notes</h3>
+<h4>Notes</h4>
 <p>
   Try to provide some notes to allow users to find out more about a word.
   The notes section provides additional information about the word. 
@@ -93,5 +105,12 @@
   add it.
   Citations are important. Citations should be to an items listed in the 
   <a href="references.html">References</a> page.
+  The examples choosen should be as simple as possible, match in domain for the
+  given word. For example, if the word is a general modern Chinese word, an
+  example should not be a specialized domain. 
+  Optimally, examples should include a frequently used collocation.
+  Explanations of collocations may be added as well, preferably with an example.
+  Examples should not be invented. If an example from the corpus is too long
+  or contains extraneous words, replace them with '...'
 </p>
 

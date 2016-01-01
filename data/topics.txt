@@ -6,6 +6,7 @@
 附类	Affixes	\N	\N
 农业	Agriculture	\N	\N
 人类学	Anthropology	\N	\N
+考古学	Archaeology	\N	\N
 建筑学	Architecture	\N	\N
 艺术	Art	\N	\N
 天文	Astronomy	\N	\N
@@ -27,13 +28,13 @@
 古文	Classical Chinese	\N	\N
 气候	Climate	\N	\N
 服装	Clothing	\N	\N
-口语	Colloquial	\N	\N
 颜色	Color	\N	\N
 商务	Commerce	\N	\N
 通讯	Communications	\N	\N
 比较	Comparison	\N	\N
 状况	Condition	\N	\N
 冲突	Conflict	\N	\N
+儒家	Confucianism	\N	\N
 容器	Container	\N	\N
 化妆品	Cosmetic	\N	\N
 文化	Culture	\N	\N
@@ -138,10 +139,12 @@
 规模	Scale	\N	\N
 交际	Social Interaction	\N	\N
 社会学	Social Science	\N	\N
+社会工作	Social Work	\N	\N
 社会	Society	\N	\N
 声	Sound	\N	\N
 航天	Space Flight	\N	\N
 体育	Sport	\N	\N
+口语	Spoken Language	\N	\N
 文具	Stationery	\N	\N
 力气	Strength	\N	\N
 道教	Taoism	\N	\N
