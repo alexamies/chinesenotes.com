@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Generated from the Go template headword-template.html -->
-<html lang="en">
+<html lang="en" ng-app="textApp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +18,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body ng-controller="textCtrl">
     <script>
      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -57,51 +57,129 @@
     </div>
     <div class="container">
 
-      <h2><span class='dict-entry-headword'>{{ .Headword.Simplified }}
-        {{if ne .Headword.Traditional "\\N"}}
-          ({{.Headword.Traditional}})
-        {{end}}</span>
-        {{ range $pinyin := .Headword.Pinyin }}
-          {{ $pinyin }}
-        {{ end }}
-      </h2>
-      <ol>
-        {{ range $ws := .Headword.WordSenses }}
-          <li>
-            <span class='dict-entry-pinyin'>{{ $ws.Pinyin }}</span> 
-            <span class='dict-entry-grammar'>{{ $ws.Grammar }}</span> 
-            <span class='dict-entry-definition'>{{ $ws.English }}</span> <br/>
-            Domain: {{ $ws.Topic_en }}<br/>
-            {{if ne $ws.Notes "\\N"}}
-              <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
-            {{ end }}
-          </li>
-        {{ end }}
-      </ol>
-
-      <h3>Usage</h3>
-      <table class="table table-bordered table-hover">
-        <thead>
-          <tr><th>Example</th><th>Source</th><th>Occurrences</th></tr>
-        </thead>
-        <tbody>
-        {{ range $usage := .UsageArr }}
-          <tr>
-            <td>
-              {{ $usage.Example }} 
-            </td>
-            <td>
-              <a href='../{{$usage.File}}'>{{ $usage.EntryTitle }}</a> in 
-              {{ $usage.ColTitle }} 
-            </td>
-            <td>
-              {{ $usage.Freq }} 
-            </td>
+        <form name="textForm" role="form" class="simple-form" 
+              ng-submit="submit()">
+          <div class="form-group">
+            <input type="text" class="form-control" name="text" id="text" 
+                  ng-model="formData.text" required/>
+          </div>
+          <p class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <button type="submit" class="btn btn-default">Search</button>
+              <span class="panel-heading">
+                <span class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" 
+                     href="#collapseOne">
+                    Options
+                  </a>
+                </span>
+              </span>
+              <div id="collapseOne" class="panel-collapse collapse">
+                <div class="panel-body">
+                   <div class="form-group">
+                     Match type: 
+                     <input type="radio" ng-model="formData.matchtype" 
+                            name="matchtype" 
+                            id="matchtype-approx" value="approximate"/>
+                     <label for="matchtype-approx" 
+                          class="control-label">multi-line / approximate</label>
+                     <input type="radio" ng-model="formData.matchtype" 
+                            name="matchtype" 
+                            id="matchtype-partial" value="partial"/>
+                     <label for="matchtype-partial" 
+                            class="control-label">partial</label>
+                     <input type="radio" ng-model="formData.matchtype" 
+                            name="matchtype" 
+                            id="matchtype-exact" value="exact"/>
+                     <label for="matchtype-exact" 
+                            class="control-label">exact</label>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </p>
+          <span id="lookup-help-block" class="help-block">
+          </span>
+        </form>
+        <p ng-if="results.msg">
+          {{`{{results.msg}}`}}
+        </p>
+        <table class="table table-bordered table-hover" ng-if="results.words">
+          <caption>Dictionary Search Results</caption>
+          <thead>
+            <tr>
+              <th>Chinese Text</th>
+              <th><a href="/syllables_ipa.html" 
+                     title="Pinyin and IPA Representations" 
+                     target="_window2">Pinyin</a></th>
+              <th>English</th>
+              <th>Notes</th>
           </tr>
-        {{ end }}
-        </tbody>
-      </table>
- 
+          </thead>
+          <tbody>
+            <tr ng-repeat="word in results.words">
+              <td ng-if="word.count == 0">{{`{{word.text}}`}}</td>
+              <td ng-if="word.count > 0"><a 
+                  ng-href={{`"/words/{{word.headword}}.html"`}}>{{`{{word.text}}`}}</a></td>
+              <td>{{`{{word.pinyin}}`}}</td>
+              <td>{{`{{word.english}}`}}</td>
+              <td>
+                <span ng-bind-html="word.notes"></span>
+                <a ng-if="word.count>1"
+                   ng-href={{`"/words/{{word.headword}}.html"`}}>See 
+                   all {{`{{word.count}}`}} word senses</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+      <div id="word-detail">
+        <h2><span class='dict-entry-headword'>{{ .Headword.Simplified }}
+          {{if ne .Headword.Traditional "\\N"}}
+            ({{.Headword.Traditional}})
+          {{end}}</span>
+          {{ range $pinyin := .Headword.Pinyin }}
+            {{ $pinyin }}
+          {{ end }}
+        </h2>
+        <ol>
+          {{ range $ws := .Headword.WordSenses }}
+            <li>
+              <span class='dict-entry-pinyin'>{{ $ws.Pinyin }}</span> 
+              <span class='dict-entry-grammar'>{{ $ws.Grammar }}</span> 
+              <span class='dict-entry-definition'>{{ $ws.English }}</span> <br/>
+              Domain: {{ $ws.Topic_en }}<br/>
+              {{if ne $ws.Notes "\\N"}}
+                <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
+              {{ end }}
+            </li>
+          {{ end }}
+        </ol>
+
+        <h3>Usage</h3>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr><th>Example</th><th>Source</th><th>Occurrences</th></tr>
+          </thead>
+          <tbody>
+          {{ range $usage := .UsageArr }}
+            <tr>
+              <td>
+                {{ $usage.Example }} 
+              </td>
+              <td>
+                <a href='../{{$usage.File}}'>{{ $usage.EntryTitle }}</a> in 
+                {{ $usage.ColTitle }} 
+              </td>
+              <td>
+                {{ $usage.Freq }} 
+              </td>
+            </tr>
+          {{ end }}
+          </tbody>
+        </table>
+      </div> <!-- word-detail -->
+
       <hr/>
       <footer>
         <p>
@@ -131,6 +209,9 @@
     </div> <!-- /.container -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="script/popover.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-sanitize.js"></script>
+    <!--<script type="text/javascript" src="/script/popover.js"></script> -->
+    <script src="/script/dictionary.js"></script>
   </body>
 </html>

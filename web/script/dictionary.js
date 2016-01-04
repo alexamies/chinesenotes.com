@@ -7,11 +7,12 @@ textApp.controller('textCtrl', function($scope, $http, $sce) {
   $scope.formData.matchtype = 'approximate';
   $scope.results = {};
   $scope.submit = function() {
+    //console.log("submit: entered")
     $scope.results = {"msg": "Searching"};
     var hasCJK = re.exec($scope.formData.text);  
-    var url = "englishsearch.php";
+    var url = "/englishsearch.php";
     if (hasCJK && ($scope.formData.matchtype == 'approximate')) {
-      url = "textlookup.php";
+      url = "/textlookup.php";
     }
     $http({url: url, 
            method: 'post', 
@@ -19,13 +20,15 @@ textApp.controller('textCtrl', function($scope, $http, $sce) {
            headers : {'Content-Type':'application/x-www-form-urlencoded; charset=UTF-8'}
     }).success(function(data) {
       $("#lookup-help-block").hide();
+      $("#word-detail").hide();
       $scope.results = data;
-      console.log($scope.results.words)
+      //console.log("submit: " + $scope.results.words)
       if ($scope.results.words && $scope.results.words.length == 0) {
           $scope.results = {"msg": "No results found"};
       }
     }).error(function(data, status, headers, config) {
       $("#lookup-help-block").hide();
+      $("#word-detail").hide();
       $scope.results = {"msg": data};
     });
   };

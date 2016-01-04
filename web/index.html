@@ -132,10 +132,10 @@
           </tr>
           </thead>
           <tbody>
-            <tr ng-repeat="word in results.words"">
+            <tr ng-repeat="word in results.words">
               <td ng-if="word.count == 0">{{word.text}}</td>
               <td ng-if="word.count > 0"><a 
-                  href="word_detail3.php?id={{word.id}}">{{word.text}}</a></td>
+                  href="words/{{word.headword}}.html">{{word.text}}</a></td>
               <td>{{word.pinyin}}</td>
               <td>{{word.english}}</td>
               <td>
@@ -148,8 +148,9 @@
           </tbody>
         </table>
       </div>
+      <div id="word-detail">&nbsp;</div>
 
-     <hr/>
+      <hr/>
       <footer>
         <p>
           Tell us about 
