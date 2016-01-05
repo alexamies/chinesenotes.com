@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+    <title>Chinese Notes: Chinese Font Design and Creation 中文笔记 - 汉字字体设计与创意</title>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <meta name="keywords"
+          content="Chinese Font Design and Creation 汉字字体设计与创意"/>
+    <meta name="description"
+          content="Chinese Font Design and Creation 汉字字体设计与创意"/>
+    <script type="text/javascript" src="script/chinesenotes.js"></script>
+  </head>
+  <body>
+    <div><span id="toolTip"><span id="pinyinSpan">Pinyin</span> <span id="englishSpan">English</span></span></div>
+    <div class="breadcrumbs">
+      <a href="index.html">Chinese Notes 中文笔记</a> &gt; 
+      <a href="developers.php">Developers 计算机科学</a> &gt; 
+      <a href="chinese_fonts.php">Chinese Fonts 汉字字体</a> &gt; 
+      Font Editing Software 编辑字体软件
+    </div>      
+    <h1 class='article'>Chinese Fonts 汉字字体</h1>
+    <div class="box">
+      <div class='fright'>
+        <form action='/word_detail.php' method='post'>
+          <div>
+	      <input type='text' name='word' size='50'/>
+          <input id='searchButton' type='submit' value='搜索 Search' title='搜索 Sōusuǒ Search'/>
+          </div>
+        </form>
+      </div>
+      <div class="prevNext">
+        <a href="chinese_fonts_software.php">Previous</a> 
+        <a href="chinese_fonts.php#contents">Contents</a> 
+        <a href="chinese_fonts_history.php">Next</a> 
+      </div>
+      <h2 class='article'>
+        <a name="software"></a>
+        <a href='/word_detail.php?id=2624' onmouseover="showToolTip(this, '編輯 biānjí', 'to edit / to compile')" onmouseout="hideToolTip()">编辑</a><a href='/word_detail.php?id=2525' onmouseover="showToolTip(this, '字體 zì​tǐ', 'calligraphic style / typeface')" onmouseout="hideToolTip()">字体</a><a href='/word_detail.php?id=2052' onmouseover="showToolTip(this, '軟件 ruǎnjiàn', 'software')" 
+        onmouseout="hideToolTip()">软件</a>
+        Font Editing Software
+      </h2>
+      <p>
+        Going further than just creating graphic images you may have is to actually want to edit or create your own text font. 
+        This is a large and more specialized undertaking.
+        Fonts, especially Chinese fonts, include a large range of characters.
+        However, it is the most reusable way to create fonts since, having done this, other people will be able to use your font in 
+        text and graphics editors.
+        For this goal you will need a font creation package.  Examples of font creation packages are the open source project
+        FontForge and the market leading commercial package FontLab [<a href='chinese_fonts_ref.php'>FontLab</a>].
+        If you choose FontLab you will need the AsiaFont Studio to edit and create Chinese fonts, which is $1,999 at the time of 
+        writing.
+        I will take about FontForge in more detail.
+      </p>
+      <h3 class='article'>
+        <a name="fontforge"></a>
+      	FontForge
+      </h3>
+      <p>
+        FontForge is an open source outline font editor.  It competes with commercial software like FontLab.
+        It can create fonts in many different formats, including
+        opentype, truetype, and postscript.
+        You can import glyphs that you have created in Inkscape with FontForge or you can create them directly in FontForge.
+        The Freetype rasterization library for fonts is used extensively in FontForge.
+        The narrative here relates to the 17:32 version 14 September 2009.
+        Change the encoding to Unicode Full with the Encoding | Reencode menu.
+      </p>
+      <p>
+        Installing FontForge on Windows can be a challenge since
+        Cygwin with X Windows and some graphics libraries is a prerequisite.
+        If that does not work you might try a Linux virtual machine, such as andLinux.
+        To start FontForge on Windows, start up a Cygwin command line and type 
+      </p>
+      <div class="code">
+        <br/>
+        &gt; startxwin<br/>
+        <br/>
+      </div>
+      <p>
+        This will start X and bring up an X terminal.  In that terminal type
+      </p>
+      <div class="code">
+        <br/>
+        &gt; twm &<br/>
+        &gt; fontforge -new<br/>
+        <br/>
+      </div>
+      <p>
+        With any luck you will see the FontForge application window, as shown below.
+        Create a directory somewhere under your Cygwin home directory for the fonts that you want to edit.  Try copying a font
+        from somewhere else and open it with File | Open.
+        An example is shown below for the HanNom font HanNom [<a href='chinese_fonts_ref.php#references'>Le Van Dang 2005</a>].
+      </p>
+      <div class="picture">
+        <img src='images/fontforge.png' alt='A screenshot of FontForge' title='A screenshot of FontForge'/> 
+        <div>
+          A screenshot of FontForge
+        </div>
+      </div>
+      <p>
+        Double click on the character to bring up the outline glyph view.
+        An example is shown below for the guang radical <a href='/word_detail.php?id=6060' onmouseover="showToolTip(this, '廠 chǎng', 'factory / yard / depot / workhouse / works / cliff / slope')" 
+        onmouseout="hideToolTip()">厂</a>。
+      </p>
+      <div class="picture">
+        <img src='images/fontforge_detail.png' alt='FontForge Outline Glyph View' title='FontForge Outline Glyph View'/> 
+        <div>
+          FontForge Outline Glyph View
+        </div>
+      </div>
+      <p>
+        To create a new font start FontForge with the <span class='code'>-new option</span> or use the File | New menu.
+        Enter information about the font with the Font Information dialog available from the Elements | Font Info ... menu,
+        as shown below.
+      </p>
+      <div class="picture">
+        <img src='images/fontforge_font_information.png' alt='Font Information Dialog' title='Font Information Dialog'/> 
+        <div>
+          Font Information Dialog
+        </div>
+      </div>
+      <p>
+        Enter a name for the font, such as 'Yan', and close the dialog.  
+        Reencode the font using the menu item Encoding | Reencode and select ISO 10646-1 (Unicdoe, Full).
+        This will enable you to scroll down to the Unicode range for double-clicking the right glyph.
+        Let's try out creating a glyph using an SVG import from Inkscape for the character qi 
+        <a href='/word_detail.php?id=307' onmouseover="showToolTip(this, 'qī', 'seven')" onmouseout="hideToolTip()">七</a>. 
+        Save the file <a href='yan/4e03.svg'>4e03.svg</a> on your local file system 
+        (under your cygwin home directory if you are using Windows). 
+        It has been created with a size of 1000x1000 pixels to be appropriate for FontForge.
+        Double click the the glyph for 4E03 to open the Outline Glyph View dialog.
+        Open the import menu from File | Import and select the file that you just downloaded.
+        You should see the dialog below.
+      </p>
+      <div class="picture">
+        <img src='images/fontforge_outline_glyph_qi.png' alt='Outline Glyph View for Qi' title='Outline Glyph View for Qi'/> 
+        <div>
+          Outline Glyph View for Qi
+        </div>
+      </div>
+      <p>
+        You may want to move the character around to position it in the place you want.  
+        To do that us the command Edit | Select | Select All (CTRL-A) and drag the character around to the desired position.
+        Close the glyph dialog.
+        Save the font.
+        To experiment with FontForge at a slightly larger scale download the sample of Yan glyph files 
+        <a href='download/yan_sample.zip'>download/yan_sample.zip</a>, which contains SVG and PNG files for about
+        80 glyphs. 
+        Navigation to the glyphs is faster using the menu item View | Go To.  Enter the name of the glyph starting with 'uni',
+        for example, 'uni4E94'.
+        Repeat the process with the other 250 glyphs.
+        You can validate the font with the command Element | Validation | Validate.
+      </p>
+      <p>
+        Let's generate the font to try it out.
+        In the Font Information | General tab set the font size to 1024.
+        Generate the font with the command File | Generate Fonts ..., select True Type font and call the font yan.ttf
+      </p>
+      <p>
+        Outer boundaries should be drawn in a clockwise direction and inner boundaries should be drawn in a counter-clockwise
+        direction.
+        Intersecting paths create problems.
+        These problems need to be corrected.
+        If it works ok, generate the font and install it on your system.
+        Open Inkscape and select the font tool or on Windows open charmap.
+        Change the font to yan.
+        The result should look like the screen shot below.
+      </p>
+      <div class="picture">
+        <img src='images/yan_charmap.png' alt='Screen Shot of the Yan Font in Charmap' title='Screen Shot of the Yan Font in Charmap'/> 
+        <div>
+          Screen Shot of the Yan Font in Charmap
+        </div>
+      </div>
+      <p>
+        The FontForge project can be downloaded here: <a href='download/Yan.sfd'>Yan.sfd</a>.
+        The font can be downloaded here: <a href='download/yan.ttf'>yan.ttf</a>.
+        This version is not complete and has some problems.
+      </p>
+      <p>
+        See the FontForge web site [<a href='chinese_fonts_ref.php'>FontForge</a>] for more about FontForge.
+      </p>
+      <div class="prevNext">
+        <a href="chinese_fonts_software.php">Previous</a>
+        <a href="chinese_fonts.php#contents">Contents</a> 
+        <a href="chinese_fonts_history.php">Next</a>
+      </div>
+    </div>
+  </body>
+</html>
