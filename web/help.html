@@ -1,30 +1,64 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<!-- Generated from the Go template about-template.html -->
+<html lang="en">
   <head>
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
-    <title>Help 帮助</title>
-    <link rel="shortcut icon" href="/favicon.ico"/>
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
-    <link media="only screen and (max-device-width: 480px)" href="styles-small-device.css" type= "text/css" 
-          rel="stylesheet"/>
-    <meta name="keywords" content="Help Chinese"/>
-    <meta name="description" content="Help for Chinese-English dictionary"/>
-    <script type="text/javascript" src="script/chinesenotes.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chinese language notes">
+    <link rel="shortcut icon" href="/images/ren.png" type="image/png" />
+    <title>Chinese Language Notes</title>
+    <link rel="stylesheet" 
+          href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/chinesenotes.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <body class="article">
-    <div class="menubar">
-      <a class='selected' href='index.html'>Home<span class='cn'> - 首頁</span></a>
-      <a class='button' href='tools.html'>Tools<span class='cn'> - 工具</span></a>
-      <a class='button' href='culture.html'>Culture<span class='cn'> - 文化</span></a>
-      <a class='button' href='reference.html'>Reference<span class='cn'> - 参考</span></a>
-      <a class='button' href='classics.php'>Classics<span class='cn'> - 古文</span></a>
+  <body>
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-59206430-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <div class="starter-template">
+      <div class="row">
+        <div class="span2"><img id="logo" src="/images/ren.png" alt="Logo"
+                                class="pull-left"/></div>
+        <div class="span7"><header><h1>Chinese Notes</h1></header></div>
+      </div>
     </div>
-    <div class="breadcrumbs">
-      <a href="index.html">Chinese Notes<span class='cn'> 中文筆記</span></a> &gt; 
-      Help<span class='cn'> 帮助</span>
-    </div>      
-    <h1 class='article'>Dictionary Help 词典帮助</h1>
-    <h2 class='article'>Contents</h2>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+                  data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/index.html">Home</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/texts.html">Texts</a></li>
+            <li><a href="/tools.html">Tools</a></li>
+            <li><a href="/reference.html">Reference</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container">
+
+          <h2 class='article'>Dictionary Help</h2>
+    <h3 class='article'>Contents</h3>
     <ul>
       <li><a href='#introduction'>Introduction</a></li>
       <li><a href='#basic'>Basic Use</a></li>
@@ -35,19 +69,13 @@
       <li><a href='help4.html'>Disambiguating different senses of a Chinese word</a></li>
     </ul>
     <a name='introduction'></a>
-    <h2 class='article'>Introduction</h2>
+    <h3 class='article'>Introduction</h3>
     <p>
-      There are number of innovations that make chinesenotes.com a great dictionary.  
-      The first thing is the usability.  Some dictionaries are
-      nearly unusable for beginners because you cannot make sense of the entries.  
-      But chinesenotes.com gives sufficient information for a beginner to use, kind of like the information
-      in a beginning Chinese textbook. 
-      One of the features to help beginners and other levels as well are the notes on the use of the word, 
-      separate and in in addition to the English translation of the word.
-      Hence the 'notes' in chinesenotes.com.
+      There are number of innovations that make chinesenotes.com more than a
+      traditional dictionary.  
     </p>
     <a name='basic'></a>
-    <h2 class='article'>Basic Use</h2>
+    <h3 class='article'>Basic Use</h3>
     <p>
       For basic use of the dictionary type in or cut and paste in the Chinese or English for the word
       that you are looking for and click the Search button.  
@@ -56,7 +84,7 @@
       or don't understand the results then keep reading or look at the list of Help topics above.
     </p>
     <a name='matches'></a>
-    <h2 class='article'>No matches found</h2>
+    <h3 class='article'>No matches found</h3>
     <p>
       If you do not get any matches found in your search try searching in phrase mode.
       Phrase mode will always find a result if the input is one or more Chinese characters because
@@ -70,7 +98,7 @@
       dictionary please let me know by sending an email to alex@chinesenotes.com.
     </p>
     <a name='phrases'></a>
-    <h2 class='article'>Breaking Chinese phrases into words</h2>
+    <h3 class='article'>Breaking Chinese phrases into words</h3>
     <p>
       The chinesenotes.com dictionary can help you look up individual words or all the words in a phrase.  
       Because Chinese words do not have spaces between them in sentences it can help to look up all the 
@@ -79,35 +107,92 @@
       This is where the 'phrase' option in the dictionary is used.
     </p>
     <p>
-      To look up all the words in a phrase (1) select the 'phrase' radio button.  The text input field 
-      will change to a larger text area.  Then (2) cut-and-paste Chinese text into the text area.  
-      Click the Search button to process the text.  The results (3) will show the different words in 
-      the phrase.  The Hanyu Pinyin (4) will be shown below that.  Finally, the Chinese text will be 
-      shown again but in a form that allows you to put your mouse over the characters with information 
-      displayed in a mouse-over bubble (5).  This is shown in the figure below.
+      To look up all the words in a phrase or sentence cut-and-paste Chinese
+      text into the text area.  
+      Click the Search button to process the text.  The results will show the different words in 
+      the phrase.  The Hanyu Pinyin will be shown below that.
+    </p>
+    <h3><a name='abbreviations'></a>Abbreviations</h3>
+    <p>
+      CCD: Ling Yuan (Ed.), 2002. <i>The contemporary chinese dictionary</i>,
+        Chinese-English edition, Foreign Languages Teaching and Research Press,
+        Beijing.<br/>
+      CED: <i>Chinese-English dictionary</i>, 1997. Foreign Languages Teaching and
+        Research Press, Beijing.<br/>
+      EMC: Early Middle Chinese<br/>
+      FGS: Fo Guang Shan, including glossaries and notes<br/>
+      K: Korean Buddhist Canon<br/>
+      Lunyu x:y The Analects of Confucius scroll x, paragraph y<br/>
+      MC: Middle Chinese<br/>
+      NCCED: Hui Yu, (ed.), 2004. <i>A New Century Chinese-English
+        Dictionary</i> <span title='新' data-wordid='798,4316' class='dict-entry' data-toggle='popover'>新</span><span title='世纪' data-wordid='743' class='dict-entry' data-toggle='popover'>世纪</span><span title='汉英' data-wordid='26483' class='dict-entry' data-toggle='popover'>汉英</span><span title='大' data-wordid='1114,6778,17939,21124,38116,38117,38118,38119,38120,38121,38122,38273' class='dict-entry' data-toggle='popover'>大</span><span title='词典' data-wordid='9570' class='dict-entry' data-toggle='popover'>词典</span>, Beijing: Foreign Languages Teaching
+        and Research Press.<br/>
+      T: Taishō Tripiṭaka<br/>
+      Unihan: Unicode Consortium, 2015. <i>Unicode Han Database</i>,
+        <a href="http://unicode.org/reports/tr38/"
+        >http://unicode.org/reports/tr38/</a>.<br/>
+      WG: Wade-Giles<br/>
+      VOA: Voice of America<br/>
     </p>
     <p>
-      <div class='picture'>
-        <a href='illustrations_use.php?mediumResolution=screenshot_word_boundary.png'><img 
-            class='use' src='images/screenshot_word_boundary.png' 
-            alt='Screenshot for word boundary detection' 
-            title='Screenshot for word boundary detection'/></a>
-            <div class='caption'>Screenshot demonstrating word boundary detection</div>
-      </div>
+      See the <a href='references.html'>References</a> page for a list of
+      references.
     </p>
-    <p>
-      In the example shown in the screenshot the classical Chinese text 佛告閻羅天子 and this is broken down 
-      by the dictionary into three words: 佛 (the Buddha), 告 (told), 閻羅天子 (Yama).
-    </p>
-    <hr style="width: 100%; height: 2px;"/>
-    <p style="text-align: center">
-      <a href='about.php'>About 关于本网站</a>
-      Please send ideas and opinions to alex@chinesenotes.com or contact me for help relating to any
-      of the topics or tools on this web site.
-    </p>
-    <p style="text-align: center">© 2006 - 2013 chinesenotes.com</p>
-    <div>
-      <span id="toolTip"><span id="pinyinSpan">Pinyin</span> <span id="englishSpan">English</span></span>
-    </div>
+ 
+ 
+      <hr/>
+      <footer>
+        <p>
+          Tell us about 
+          <a href="https://docs.google.com/forms/d/1na6e8Qt1UUSZun-ATofn1lNRuwlBfTp2wj5KNDNhJ1s/viewform"
+          >a problem</a>.
+          Tell us about your experience on this web site using
+          <a href="https://docs.google.com/forms/d/1Z_set9ynr0VUSv7PtbHaPFNW_PfIDue6CjlgkbJ3GS8/viewform"
+          >this form</a>.
+          Add a new word or suggest a change to a dictionary entry defintion with 
+          <a href="https://docs.google.com/forms/d/1AcPDJ3CSIyn7MNVDKiMHby4EMPH0g3FxwLRTlJKhxmA/viewform"
+          >this form</a>.
+        </p>
+        <p>
+          Copyright Fo Guang Shan Nan Tien Institute 佛光山南天大學 2013-2015, 
+          <a href="http://www.nantien.edu.au/"
+            title="Fo Guang Shan Nan Tien Institute">www.nantien.edu.au</a>. 
+          This work is licensed under a
+          <a rel="license"
+            href="http://creativecommons.org/licenses/by/4.0/">Creative
+            Commons Attribution 4.0 International License</a>. See
+            <a href='/about.html'>About</a>. Please send comments to
+            alex@chinesenotes.com.
+        </p>
+        <p>This page was last updated on 2016-01-05.</p>
+      </footer>
+    </div> <!-- /.container -->
+    
+<script>
+words = {
+"9570":{"element_text":"词典","simplified":"词典","traditional":"詞典","pinyin":"cídiǎn","english":"a dictionary","notes":"\N"},
+"798":{"element_text":"新","simplified":"新","traditional":"\N","pinyin":"xīn","english":"new","notes":"\N"},
+"4316":{"element_text":"新","simplified":"新","traditional":"\N","pinyin":"Xīn","english":"Xinjiang","notes":"Abbreviation for 新疆 (Xīnjiāng)"},
+"743":{"element_text":"世纪","simplified":"世纪","traditional":"世紀","pinyin":"shìjì","english":"century","notes":"\N"},
+"26483":{"element_text":"汉英","simplified":"汉英","traditional":"漢英","pinyin":"Hàn Yīng","english":"Chinese-English","notes":"\N"},
+"1114":{"element_text":"大","simplified":"大","traditional":"\N","pinyin":"dà","english":"big / great / huge / large / major","notes":"For example, 大规模 'large scale.'"},
+"6778":{"element_text":"大","simplified":"大","traditional":"\N","pinyin":"dà","english":"Kangxi radical 37","notes":"big"},
+"17939":{"element_text":"大","simplified":"大","traditional":"\N","pinyin":"Dài","english":"Dai","notes":"\N"},
+"21124":{"element_text":"大","simplified":"大","traditional":"\N","pinyin":"dà","english":"an element","notes":"\N"},
+"38116":{"element_text":"大","simplified":"大","traditional":"\N","pinyin":"dà","english":"size","notes":"For example, what is the size of the dog? 狗多大？"},
+"38117":{"element_text":"大","simplified":"大","traditional":"\N","pinyin":"dà","english":"old","notes":"For example, as a very old age 年龄很大"},
+"38118":{"element_text":"大","simplified":"大","traditional":"\N","pinyin":"dà","english":"greatly","notes":"For example, greatly terrified 大怖"},
+"38119":{"element_text":"大","simplified":"大","traditional":"\N","pinyin":"dà","english":"oldest","notes":"For example, big sister 大姐"},
+"38120":{"element_text":"大","simplified":"大","traditional":"\N","pinyin":"dà","english":"adult","notes":"As in 大人"},
+"38121":{"element_text":"大","simplified":"大","traditional":"\N","pinyin":"dà","english":"your","notes":"\N"},
+"38122":{"element_text":"大","simplified":"大","traditional":"\N","pinyin":"dà","english":"used for emphasis before words indicating time","notes":"For example, 大年三十"},
+"38273":{"element_text":"大","simplified":"大","traditional":"\N","pinyin":"dà","english":"da","notes":"Used to transliterate foreign names"},
+}
+</script>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/popover.js"></script>
   </body>
 </html>
