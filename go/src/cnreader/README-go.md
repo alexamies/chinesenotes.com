@@ -36,10 +36,23 @@ cd $PROJECT_HOME/go/src/cnreader
 ./cnreader.go -collection=erya.csv
 
 ###8 To build the headword file and add headword numbers to the words.txt file
+cd $PROJECT_HOME
+cp ../buddhist-dictionary/data/dictionary/words.txt data/.
+cd $PROJECT_HOME/go/src/cndreader
 ./cnreader -headwords
-cd $PROJECT_HOME/go/src/util
+cd ../util
 go run headwords.go
 cd $PROJECT_HOME
 cp data/lexical_units.txt data/words.txt
-cd $PROJECT_HOME/go/src/cnreader
+cd ../cnreader
 ./cnreader -hwfiles
+
+##9 Special cases
+The character 著 is both a simplified character and a traditional character that
+maps to the simplified character 着. It is not handled by the word detail
+program at the moment. To fix it keep the entry:
+
+971	著	\N	zhù	971, 16830, 41404
+
+in the headwords.txt file. Some manual editing of the file words/971.html might
+be needed.
