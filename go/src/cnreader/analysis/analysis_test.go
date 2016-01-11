@@ -12,77 +12,6 @@ func init() {
 	config.SetProjectHome("../../../..")
 }
 
-// Both traditional and simplified
-func TestIsCJKChar1(t *testing.T) {
-	fmt.Printf("TestIsCJKChar1: Begin unit tests\n")
-	c := "中"
-	result := IsCJKChar(c)
-	if !result {
-		fmt.Printf("TestIsCJKChar1: Testing Chinese %s\n", c)
-		t.Error("Expected true, got ", result)
-	}
-}
-
-// Non-Chinese
-func TestIsCJKChar2(t *testing.T) {
-	c := "a"
-	result := IsCJKChar(c)
-	if result {
-		fmt.Printf("TestIsCJKChar2: Testing Chinese %s\n", c)
-		t.Error("Expected false, got ", result)
-	}
-}
-
-// Simplified Chinese
-func TestIsCJKChar3(t *testing.T) {
-	c := "简"
-	result := IsCJKChar(c)
-	if !result {
-		fmt.Printf("TestIsCJKChar3: Testing Chinese %s\n", c)
-		t.Error("Expected true, got ", result)
-	}
-}
-
-// Both traditional and simplified
-func TestIsCJKChar4(t *testing.T) {
-	c := "古"
-	result := IsCJKChar(c)
-	if !result {
-		fmt.Printf("TestIsCJKChar4: Testing Chinese %s\n", c)
-		t.Error("Expected true, got ", result)
-	}
-}
-
-// Test for punctuation
-func TestIsCJKChar5(t *testing.T) {
-	c := "。"
-	result := IsCJKChar(c)
-	if result {
-		fmt.Printf("TestIsCJKChar5: Testing Chinese %s\n", c)
-		t.Error("Expected false, got ", result)
-	}
-}
-
-// Test for punctuation
-func TestIsCJKChar6(t *testing.T) {
-	c := "，"
-	result := IsCJKChar(c)
-	if result {
-		fmt.Printf("TestIsCJKChar6: Testing Chinese %s\n", c)
-		t.Error("Expected false, got ", result)
-	}
-}
-
-// Test for punctuation
-func TestIsCJKChar7(t *testing.T) {
-	c := "-"
-	result := IsCJKChar(c)
-	if result {
-		fmt.Printf("TestIsCJKChar7: Testing Chinese %s\n", c)
-		t.Error("Expected false, got ", result)
-	}
-}
-
 func TestGetChunks1(t *testing.T) {
 	dictionary.ReadDict("../testdata/testwords.txt")
 	chunks := GetChunks("中文")
@@ -228,7 +157,7 @@ func TestWriteCorpusDoc1(t *testing.T) {
 func TestWriteDoc1(t *testing.T) {
 	tokens, vocab, _, _, _ := ParseText("繁")
 	outfile := "../testoutput/output.html"
-	WriteDoc(tokens, vocab, outfile)
+	WriteDoc(tokens, vocab, outfile, `\N`, `\N`)
 }
 
 func TestWriteDoc2(t *testing.T) {
@@ -239,7 +168,7 @@ func TestWriteDoc2(t *testing.T) {
 		t.Error("Expected to get length 4, got ", tokens.Len())
 	}
 	outfile := "../testoutput/test-gloss.html"
-	WriteDoc(tokens, vocab, outfile)
+	WriteDoc(tokens, vocab, outfile, `\N`, `\N`)
 }
 
 func TestWriteDoc3(t *testing.T) {
@@ -250,7 +179,7 @@ func TestWriteDoc3(t *testing.T) {
 		t.Error("Expected to get length 6, got ", tokens.Len())
 	}
 	outfile := "../testoutput/test-simplified-gloss.html"
-	WriteDoc(tokens, vocab, outfile)
+	WriteDoc(tokens, vocab, outfile, `\N`, `\N`)
 }
 
 

@@ -50,6 +50,11 @@ func GetHTMLConversions() []HTMLConversion {
 	return conversions
 }
 
+// The name of the text file with lexical units (word senses)
+func LUFileName() string {
+	return projectHome + "/data/" + "words.txt"
+}
+
 // Sets the public home directory, relative to the cnreader command line tool
 func SetProjectHome(home string) {
 	projectHome = home

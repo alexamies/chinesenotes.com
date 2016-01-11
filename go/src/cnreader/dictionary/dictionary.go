@@ -12,6 +12,7 @@ import (
 	"os"
 	"sort"
 	"strconv"
+	"unicode"
 )
 
 // Headword output file
@@ -115,6 +116,14 @@ func GetWordSense(chinese string) (WordSenseEntry, bool) {
 // Gets the dictionary, loads it if it is not loaded already
 func GetWDict() map[string][]*WordSenseEntry {
 	return wdict
+}
+
+// Tests whether the symbol is a CJK character, excluding punctuation
+// Only looks at the first charater in the string
+func IsCJKChar(character string) bool {
+	r := []rune(character)
+	unicode.Is(unicode.Han, r[0])
+	return unicode.Is(unicode.Han, r[0]) && !unicode.IsPunct(r[0])
 }
 
 // Reads the Chinese-English lexical units into memory from the words.txt file

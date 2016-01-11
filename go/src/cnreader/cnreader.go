@@ -40,12 +40,10 @@ func main() {
 	webDir := projectHome + "/web"
 	corpusDir := projectHome + "/corpus"
 	corpusDataDir := projectHome + "/data/corpus"
-	dataDir := projectHome + "/data/"
 	templateDir := projectHome + "/html/templates"
 
-
 	// Read in dictionary
-	dictionary.ReadDict(dataDir + "words.txt")
+	dictionary.ReadDict(config.LUFileName())
 
 	if (*collectionFile != "") {
 		log.Printf("main: Analyzing collection %s\n", *collectionFile)

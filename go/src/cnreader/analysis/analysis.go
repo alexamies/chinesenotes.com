@@ -18,7 +18,6 @@ import (
 	"os"
 	"strings"
 	"time"
-	"unicode"
     "unicode/utf8"
 )
 
@@ -80,7 +79,7 @@ func GetChunks(text string) (list.List) {
 	cjk := ""
 	noncjk := ""
 	for _, character := range text {
-		if IsCJKChar(string(character)) {
+		if dictionary.IsCJKChar(string(character)) {
 			if noncjk != "" {
 				chunks.PushBack(noncjk)
 				noncjk = ""
@@ -155,14 +154,6 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 	return usageMap, wfTotal, wcTotal
 }
 
-// Tests whether the symbol is a CJK character, excluding punctuation
-// Only looks at the first charater in the string
-func IsCJKChar(character string) bool {
-	r := []rune(character)
-	unicode.Is(unicode.Han, r[0])
-	return unicode.Is(unicode.Han, r[0]) && !unicode.IsPunct(r[0])
-}
-
 // Parses a Chinese text into words
 // Parameters:
 // text: the string to parse
@@ -183,7 +174,7 @@ func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
 		chunk := e.Value.(string)
 		//fmt.Printf("ParseText: chunk %s\n", chunk)
 		characters := strings.Split(chunk, "")
-		if !IsCJKChar(characters[0]) {
+		if !dictionary.IsCJKChar(characters[0]) {
 			tokens.PushBack(chunk)
 			continue
 		}
@@ -498,7 +489,7 @@ func WriteHwFiles() {
 	// Prepare template
 	templFile := config.ProjectHome() + "/html/templates/headword-template.html"
 	//fmt.Println("Home: ", config.ProjectHome())
-	tmpl := template.Must(template.New("headword-template.html").ParseFiles(templFile))
+	tmpl := template.Must(template.New("headword-template.html").Delims("<<", ">>").ParseFiles(templFile))
 
 	for _, hw := range hwArray {
 		usageArrPtr, ok := usageMap[hw.Simplified]
