@@ -67,12 +67,24 @@
   <a href='dictionary_design.html'>Dictionary Design</a>.
 </p>
 <p>
-  Similar words should have similar definitions. Use the 
+  Except for the CEDICT project, wich has a Creative Commons Attribution
+  license, or the Unihan, which has a licence that allows copying, never copy
+  text directly. For sources subject to copyright compare
+  several sources and compare against the text in CEDICT, Wikipedia, Baidu
+  Baike, and examples from the corpus. Use the most reasonable subject and / or
+  reword the text. 
+  It is not necessary to reference the CEDICT project for specific entries
+  because the dictionary in chinesenotes.com is based on CEDICT.
+  If published sources are used then they should be referenced in
+  Harvard short style or with an abbreviations from the
+  <a href='help.html'>Help</a> page.
 </p>
 <h3>Dictionary Entry Components</h3>
 <h4>Headwords</h4>
 <p>
-  Headwords can be words or multi-word expressions.
+  Headwords can be words or multi-word expressions. Multi-word expressions
+  should be included if they are used as a unit, for example a company name,
+  or a common expressions, for example <span title='红色预警' data-wordid='41356' class='dict-entry' data-toggle='popover'>红色预警</span> 'red alert.'
   A headword is created by adding one or more entries to the words.txt file.
   The chinesenotes software will group together multiple lexical units with the
   same simplified and traditional Chinese text into the same headword.
@@ -91,12 +103,15 @@
 <p>
   The Simplified Chinese field is compulsory. If the simplified Chinese text
   is the same as the traditional Chinese then add it here and leave the
-  traditional Chinese field blank.
+  traditional Chinese field blank. For single character word entries check
+  the Unihan Database.
 </p>
 <h4>Traditional Chinese</h4>
 <p>
   The Traditional Chinese field is only added if the traditional Chinese
   text is different from the simplified Chinese.
+  The Unihan Database (“Unicode Han Database,” 2015) should be consulted for
+  mappings between simplified and traditional Chinese characters.
 </p>
 <h4>Pinyin</h4>
 <p>
@@ -118,7 +133,7 @@
   double quotes ". If you have to use double quotes, use a Unicode stylized
   double quote like “”. Several English equivalents of the Chinese source word
   should be provided because one English equivalent will rarely be adequate
-  in all situations.
+  in all situations. 
 </p>
 <h4>Concept</h4>
 <p>
@@ -171,9 +186,20 @@
   Explanations of collocations may be added as well, preferably with an example.
   Examples should not be invented. If an example from the corpus is too long
   or contains extraneous words, replace them with '...'
+  Make sure that there are entries for any Chinese words used in the notes.
 </p>
-
- 
+<h3>Templates</h3>
+<p>
+  For more on specific types of entries see the
+  <a href="dictionary_templates.html">Dictionary Entry Templates</a> page.
+</p>
+<h3>Reference</h3>
+<ol>
+  <li>
+    Atkins, B.T.S., Rundell, M., 2008. <i>The Oxford Guide to Practical 
+    Lexicography</i>. Oxford University Press, Oxford.
+  </li>
+</ol> 
  
       <hr/>
       <footer>
@@ -199,18 +225,24 @@
             <a href='/about.html'>About</a>. Please send comments to
             alex@chinesenotes.com.
         </p>
-        <p>This page was last updated on 2016-01-07.</p>
+        <p>This page was last updated on 2016-01-10.</p>
       </footer>
     </div> <!-- /.container -->
     
 <script>
 words = {
-"6006":{"element_text":"水果","simplified":"水果","traditional":"\N","pinyin":"shuǐguǒ","english":"fruit","notes":"\N"},
 "11339":{"element_text":"獸","simplified":"兽","traditional":"獸","pinyin":"shòu","english":"a beast / a quadruped / an animal","notes":"\N"},
-"17080":{"element_text":"說文解字","simplified":"说文解字","traditional":"說文解字","pinyin":"Shuō Wén Jiě Zì","english":"Shuo Wen Jie Zi","notes":"The first major dictionary, appeared in the Han Dynasty, compiled by Xu Shen 许慎. (Norman, 1988, p. 67)"},
 "310":{"element_text":"十","simplified":"十","traditional":"\N","pinyin":"shí","english":"ten","notes":"\N"},
 "6756":{"element_text":"十","simplified":"十","traditional":"\N","pinyin":"shí","english":"Kangxi radical 24","notes":"ten"},
 "33465":{"element_text":"十","simplified":"十","traditional":"\N","pinyin":"shí","english":"tenth","notes":"\N"},
+"41222":{"element_text":"凤梨","simplified":"凤梨","traditional":"鳳梨","pinyin":"fènglí","english":"pineapple","notes":"\N"},
+"6006":{"element_text":"水果","simplified":"水果","traditional":"\N","pinyin":"shuǐguǒ","english":"fruit","notes":"\N"},
+"4148":{"element_text":"饮食","simplified":"饮食","traditional":"飲食","pinyin":"yǐn shí","english":"food and drink","notes":"\N"},
+"40426":{"element_text":"㣇","simplified":"㣇","traditional":"\N","pinyin":"yì","english":"a kind of beast with long hair, other name for pig, fox, wild cat, raccoon","notes":"(Unicode Han Database, 2015) A radical in Shuo Wen Jie Zi 《說文解字》; 㣇：脩豪獸。 'Yì: a grand beast with long hair.' (Shuo Wen Jie Zi, Scroll 10 《說文解字‧卷十》)"},
+"29251":{"element_text":"脩","simplified":"脩","traditional":"脩","pinyin":"xiū","english":"to cultivate / to repair","notes":"\N"},
+"29251":{"element_text":"脩","simplified":"脩","traditional":"脩","pinyin":"xiū","english":"to cultivate / to repair","notes":"\N"},
+"29252":{"element_text":"脩","simplified":"脩","traditional":"脩","pinyin":"xiū","english":"a teacher's pay","notes":"\N"},
+"29252":{"element_text":"脩","simplified":"脩","traditional":"脩","pinyin":"xiū","english":"a teacher's pay","notes":"\N"},
 "13860":{"element_text":"豪","simplified":"豪","traditional":"\N","pinyin":"háo","english":"grand / heroic / despotic / bullying / luxurious / extravagant / bold","notes":"\N"},
 "27005":{"element_text":"豪","simplified":"豪","traditional":"\N","pinyin":"háo","english":"a porcupine","notes":"\N"},
 "27006":{"element_text":"豪","simplified":"豪","traditional":"\N","pinyin":"háo","english":"a long, fine hair","notes":"Same as 毫"},
@@ -220,19 +252,14 @@ words = {
 "27010":{"element_text":"豪","simplified":"豪","traditional":"\N","pinyin":"háo","english":"a commander in chief","notes":"\N"},
 "27011":{"element_text":"豪","simplified":"豪","traditional":"\N","pinyin":"háo","english":"powerful and rich","notes":"\N"},
 "27012":{"element_text":"豪","simplified":"豪","traditional":"\N","pinyin":"háo","english":"powerful and rich","notes":"\N"},
+"41356":{"element_text":"红色预警","simplified":"红色预警","traditional":"紅色预警","pinyin":"hóngsè yùjǐng","english":"red alert","notes":"\N"},
+"17080":{"element_text":"說文解字","simplified":"说文解字","traditional":"說文解字","pinyin":"Shuō Wén Jiě Zì","english":"Shuo Wen Jie Zi","notes":"The first major dictionary, appeared in the Han Dynasty, compiled by Xu Shen 许慎. (Norman, 1988, p. 67)"},
 "7944":{"element_text":"卷","simplified":"卷","traditional":"捲","pinyin":"juǎn","english":"to coil / to roll","notes":"\N"},
 "7945":{"element_text":"卷","simplified":"卷","traditional":"捲","pinyin":"juǎn","english":"a coil / a roll / a scroll","notes":"\N"},
 "7946":{"element_text":"卷","simplified":"卷","traditional":"捲","pinyin":"juàn","english":"chapter / examination paper","notes":"\N"},
 "9988":{"element_text":"卷","simplified":"卷","traditional":"捲","pinyin":"juǎn","english":"roll","notes":"\N"},
 "12692":{"element_text":"卷","simplified":"卷","traditional":"捲","pinyin":"juǎn","english":"to sweep up / to carry away","notes":"\N"},
 "33039":{"element_text":"卷","simplified":"卷","traditional":"\N","pinyin":"juǎn","english":"to coil / to roll","notes":"Besides being the simplified form, 卷 is also an archaic variant of 捲."},
-"41222":{"element_text":"凤梨","simplified":"凤梨","traditional":"鳳梨","pinyin":"fènglí","english":"pineapple","notes":"\N"},
-"4148":{"element_text":"饮食","simplified":"饮食","traditional":"飲食","pinyin":"yǐn shí","english":"food and drink","notes":"\N"},
-"40426":{"element_text":"㣇","simplified":"㣇","traditional":"\N","pinyin":"yì","english":"a kind of beast with long hair, other name for pig, fox, wild cat, raccoon","notes":"(Unicode Han Database, 2015) A radical in Shuo Wen Jie Zi 《說文解字》; 㣇：脩豪獸。 'Yì: a grand beast with long hair.' (Shuo Wen Jie Zi, Scroll 10 《說文解字‧卷十》)"},
-"29251":{"element_text":"脩","simplified":"脩","traditional":"脩","pinyin":"xiū","english":"to cultivate / to repair","notes":"\N"},
-"29251":{"element_text":"脩","simplified":"脩","traditional":"脩","pinyin":"xiū","english":"to cultivate / to repair","notes":"\N"},
-"29252":{"element_text":"脩","simplified":"脩","traditional":"脩","pinyin":"xiū","english":"a teacher's pay","notes":"\N"},
-"29252":{"element_text":"脩","simplified":"脩","traditional":"脩","pinyin":"xiū","english":"a teacher's pay","notes":"\N"},
 }
 </script>
 
