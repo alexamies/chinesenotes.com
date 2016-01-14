@@ -446,6 +446,8 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 		chunk := e.Value.(string)
 		//fmt.Printf("WriteDoc: Word %s\n", word)
 		if entries, ok := dictionary.GetWord(chunk); ok {
+			// Popover
+			/*
 			wordIds := ""
 			for _, ws := range entries {
 				if wordIds == "" {
@@ -457,6 +459,13 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 			fmt.Fprintf(&b, "<span title='%s' data-wordid='%s'" +
 					" class='dict-entry' data-toggle='popover'>%s</span>",
 					chunk, wordIds, chunk)
+					*/
+			// Regular HTML link
+			mouseover := fmt.Sprintf("%s | %s", entries[0].Pinyin,
+				entries[0].English)
+			link := fmt.Sprintf("/words/%d.html", entries[0].HeadwordId)
+			fmt.Fprintf(&b, "<a title='%s' href='%s'>%s</a>", mouseover, link,
+				chunk)
 		} else {
 			fmt.Fprintf(&b, chunk)
 		}

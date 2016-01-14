@@ -28,7 +28,7 @@ type HeadwordDef struct {
 
 // Defines a single sense of a Chinese word
 type WordSenseEntry struct {
-	Id int
+	Id, HeadwordId int
 	Simplified, Traditional, Pinyin, English, Grammar, Concept_cn,
 		Concept_en, Topic_cn, Topic_en, Parent_cn, Parent_en, Image,
 		Mp3, Notes string
@@ -140,18 +140,39 @@ func ReadDict(wsfilename string) {
 	reader.Comma = rune('\t')
 	rawCSVdata, err := reader.ReadAll()
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("Could not parse lexical units file", err)
 	}
 	wdict = make(map[string][]*WordSenseEntry)
-	for _, row := range rawCSVdata {
-		id, _ := strconv.ParseInt(row[0], 10, 0)
+	for i, row := range rawCSVdata {
+		id, err := strconv.ParseInt(row[0], 10, 0)
+		if err != nil {
+			log.Fatal("Could not parse word id for word ", i, err)
+		}
 		simp := row[1]
 		trad := row[2]
-		newWs := &WordSenseEntry{Id: int(id), Simplified: simp,
-				Traditional: trad, Pinyin: row[3], English: row[4],
-				Grammar: row[5], Concept_cn: row[6], Concept_en: row[7], 
-				Topic_cn: row[8], Topic_en: row[9], Parent_cn: row[10],
-				Parent_en: row[11], Image: row[12], Mp3: row[13],
+		hwId := 0
+		if len(row) > 15 {
+			hwIdInt, err := strconv.ParseInt(row[15], 10, 0)
+			if err != nil {
+				log.Fatal("Could not parse headword id for word ", i, err)
+			}
+			hwId = int(hwIdInt)
+		}
+		newWs := &WordSenseEntry{Id: int(id),
+				HeadwordId: int(hwId),
+				Simplified: simp,
+				Traditional: trad,
+				Pinyin: row[3],
+				English: row[4],
+				Grammar: row[5],
+				Concept_cn: row[6],
+				Concept_en: row[7], 
+				Topic_cn: row[8],
+				Topic_en: row[9],
+				Parent_cn: row[10],
+				Parent_en: row[11],
+				Image: row[12],
+				Mp3: row[13],
 				Notes: row[14]}
 		if trad != "\\N" {
 			wSenses, ok := wdict[trad]
