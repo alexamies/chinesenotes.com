@@ -51,14 +51,14 @@ class WordsDAO {
 		if  ($matchType == 'exact') {
 		    $query = 
 				"SELECT id, simplified, traditional, pinyin, english, grammar, concept_cn, concept_en, topic_cn, " .
-				"topic_en, parent_cn, parent_en, image, mp3, notes " .
+				"topic_en, parent_cn, parent_en, image, mp3, notes, headword " .
 				"FROM words " .
 				"WHERE simplified = '$word' OR traditional = '$word' OR english = '$word'"
 				;
 		} else {
 		    $query = 
 				"SELECT id, simplified, traditional, pinyin, english, grammar, concept_cn, concept_en, topic_cn, " .
-				"topic_en, parent_cn, parent_en, image, mp3, notes " .
+				"topic_en, parent_cn, parent_en, image, mp3, notes, headword " .
 				"FROM words " .
 				"WHERE simplified like '" . '%' . $word . '%' . "'" .
 				" OR traditional like '" . '%' . $word . '%' . "'" .
@@ -87,9 +87,7 @@ class WordsDAO {
 					$row[12],
 					$row[13],
 					$row[14],
-					$row[15],
-					$row[16],
-					$row[17]
+					$row[15]
 					);
 			$i++;
 		}
@@ -115,7 +113,7 @@ class WordsDAO {
 		$word = $databaseUtils->escapeString($grammar);
 		$query = 
 				"SELECT id, simplified, traditional, pinyin, english, grammar, concept_cn, concept_en, topic_cn, " .
-				"topic_en, parent_cn, parent_en, image, mp3, notes, hsk, ll, zoom " .
+				"topic_en, parent_cn, parent_en, image, mp3, notes, headword " .
 				"FROM words " .
 				"WHERE grammar = '$grammar'"
 				;
@@ -139,9 +137,7 @@ class WordsDAO {
 					$row[12],
 					$row[13],
 					$row[14],
-					$row[15],
-					$row[16],
-					$row[17]
+					$row[15]
 					);
 		}
 		//error_log("getWordsByGrammar, results returned: " . count($words));
@@ -167,7 +163,7 @@ class WordsDAO {
 		$conceptEn = $databaseUtils->escapeString($conceptEn);
 		$query = 
 				"SELECT id, simplified, traditional, pinyin, english, grammar, concept_cn, topic_cn, topic_en, " .
-				"parent_cn, parent_en, notes " .
+				"parent_cn, parent_en, notes, headword " .
 				"FROM words " .
 				"WHERE concept_en = '$conceptEn' " .
 				"ORDER BY $orderBy ASC"
@@ -191,7 +187,8 @@ class WordsDAO {
 					$row[10], 
 					null,
 					null,
-					$row[11]
+					$row[11],
+					$row[12]
 					);
 		}
 		//error_log("getWordsForConceptEn, results returned: " . count($words));
@@ -216,7 +213,7 @@ class WordsDAO {
 		// Perform SQL select operation 
 		$query = 
 				"SELECT id, simplified, traditional, pinyin, english, grammar, concept_cn, concept_en, topic_cn, topic_en, " .
-				"parent_cn, parent_en, notes " .
+				"parent_cn, parent_en, notes, headword " .
 				"FROM words " .
 				"WHERE topic_en = '$topicEn' " .
 				"ORDER BY $orderBy ASC"
@@ -240,7 +237,8 @@ class WordsDAO {
 					$row[11], 
 					null,
 					null,
-					$row[12]
+					$row[12],
+					$row[13]
 					);
 		}
 		//error_log("getWordsForTopicEn, results returned: " . count($words));
@@ -265,7 +263,7 @@ class WordsDAO {
 		$id = $databaseUtils->escapeString($id);
 		$query = 
 				"SELECT simplified, traditional, pinyin, english, grammar, concept_cn, concept_en, topic_cn, " .
-				"topic_en, parent_cn, parent_en, image, mp3, notes, hsk, ll, zoom " .
+				"topic_en, parent_cn, parent_en, image, mp3, notes, headword " .
 				"FROM words " .
 				"WHERE id = '$id'"
 				;
@@ -289,9 +287,7 @@ class WordsDAO {
 					$row[11],
 					$row[12],
 					$row[13],
-					$row[14],
-					$row[15],
-					$row[16]
+					$row[14]
 					);
 		} else {
 			error_log("getWordForId, no results found for id: $id");
@@ -316,7 +312,7 @@ class WordsDAO {
 		// Perform SQL select operation 
 		$query = 
 				"SELECT id, simplified, traditional, pinyin, grammar, concept_cn, concept_en, topic_cn, " .
-				"topic_en, parent_cn, parent_en, image, mp3, notes " .
+				"topic_en, parent_cn, parent_en, image, mp3, notes, headword " .
 				"FROM words " .
 				"WHERE english = '$english'"
 				;
@@ -339,7 +335,8 @@ class WordsDAO {
 					$row[10], 
 					$row[11],
 					$row[12],
-					$row[13]
+					$row[13],
+					$row[14]
 					);
 		}
 		//error_log("getWordForEnglish, results returned: " . count($words));

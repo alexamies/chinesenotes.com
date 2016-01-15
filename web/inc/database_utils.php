@@ -30,6 +30,7 @@ class DatabaseUtils {
         }
         //error_log('DatabaseUtils: Connected');
 
+        //mysql_select_db('cse_dict') 
         mysql_select_db('cse_dict') 
             or die('Page unavailable');
             //die('Could not select database: ' . mysql_error()); // Use in local mode

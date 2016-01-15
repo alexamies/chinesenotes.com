@@ -123,7 +123,7 @@ class ChineseText {
                             //$elements[] = new TextElement($wordCandidate, 2, $word, count($words));
                             $elements[] = new TextElement($wordCandidate, 2, $words[0], count($words));
                             $i += $j;
-                            $previous = $word;
+                            $previous = $words[0];
                             break;
 
                         } else if ($j == 0) {

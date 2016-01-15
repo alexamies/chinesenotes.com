@@ -2,7 +2,6 @@ USE alexami_zhongwenbiji;
 
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/phonetics.txt' INTO TABLE phonetics CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/grammar.txt' INTO TABLE grammar CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/hsk.txt' INTO TABLE hsk CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/topics.txt' INTO TABLE topics CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/words.txt' INTO TABLE words CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/licenses.txt' INTO TABLE licenses CHARACTER SET utf8 LINES TERMINATED BY '\r\n';

@@ -1,6 +1,6 @@
 <?php
 /** 
- * An object encapsulating word information
+ * An object encapsulating a lexical unit (word sense)
  */
 class Word {
 
@@ -19,9 +19,7 @@ class Word {
 	var $image;			// The name of a file containing an image for the word
 	var $mp3;			// Name of an audio file for the word
     var $notes;			// Miscellaneous notes about the word
-    var $hsk;			// Hanyu Shuiping Kaoshi level, an integer (if any)
-    var $ll;			// Latitude and longitude for the point (if any)
-    var $zoom;			// The zoom for the map, a positive integer (used in Google Map API), optional
+    var $headword;		// Id for the headword, mapps to a page listing all lexical units
 
 	/**
 	 * Constructor for a Word object
@@ -40,9 +38,7 @@ class Word {
      * @param $image 		The name of a file containing an image for the word
      * @param $mp3 			Name of an audio file for the word
      * @param $notes	 	Miscellaneous notes about the word
-     * @param $hsk			Hanyu Shuiping Kaoshi level, an integer (if any), default null
-     * @param $ll			Latitude and longitude for the point (if any)
-     * @param $zoom			The zoom for the map, a positive integer (used in Google Map API), optional
+     * @param $headword		Id for the headword, mapps to a page listing all lexical units
 	 */
 	function Word (
 			$id,
@@ -60,9 +56,7 @@ class Word {
 			$image,
 			$mp3,
 			$notes,
-			$hsk = null,
-			$ll = null,
-			$zoom = null
+			$headword
 			) {
 		$this->id = $id;
 		$this->simplified = $simplified;
@@ -79,9 +73,7 @@ class Word {
 		$this->image = $image;
 		$this->mp3 = $mp3;
 		$this->notes = $notes;
-		$this->hsk	= $hsk;
-		$this->ll	= $ll;
-		$this->zoom	= $zoom;
+		$this->headword	= $headword;
 	}
 
 	/**
@@ -117,11 +109,11 @@ class Word {
 	}
 
 	/**
-     * Accessor method for Hanyu Shuiping Kaoshi level.
-	 * @return an integer (if any) or null
+     * Accessor method for headword id.
+	 * @return an integer, never null
 	 */
-	function getHsk() {
-    	return $this->hsk;
+	function getHeadword() {
+    	return $this->headword;
 	}
 
 	/**
@@ -138,14 +130,6 @@ class Word {
 	 */
 	function getImage() {
     	return $this->image;
-	}
-
-	/** 
-     * Accessor method for latitude and longitude for the point (if any)
-	 * @return A string with a comma separating the latitude and longitude
-	 */
-	function getLl() {
-    	return $this->ll;
 	}
 
 	/** 
@@ -218,14 +202,6 @@ class Word {
 	 */
 	function getTraditional() {
     	return $this->traditional;
-	}
-
-	/** 
-     * Accessor method for The zoom for the map, a positive integer (used in Google Map API), optional
-	 * @return An integer or null
-	 */
-	function getZoom() {
-    	return $this->zoom;
 	}
 
 }
