@@ -498,7 +498,8 @@ func WriteHwFiles() {
 	// Prepare template
 	templFile := config.ProjectHome() + "/html/templates/headword-template.html"
 	//fmt.Println("Home: ", config.ProjectHome())
-	tmpl := template.Must(template.New("headword-template.html").Delims("<<", ">>").ParseFiles(templFile))
+	tmpl := template.Must(template.New("headword-template.html").Delims("<<",
+		">>").ParseFiles(templFile))
 
 	for _, hw := range hwArray {
 		usageArrPtr, ok := usageMap[hw.Simplified]
@@ -514,6 +515,10 @@ func WriteHwFiles() {
 		dictEntry := DictEntry{hw, *usageArrPtr, dateUpdated}
 		filename := fmt.Sprintf("%s%s%d%s", config.ProjectHome(), "/web/words/",
 			hw.Id, ".html")
+		if hw.Simplified == "经" {
+			log.Printf("WriteHwFiles: 经 hw.Id: %d, filename: %s, Pinyin: %s",
+				hw.Id, filename, hw.Pinyin)
+		}
 		f, err := os.Create(filename)
 		if err != nil {
 			log.Fatal(err)
