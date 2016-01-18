@@ -1,27 +1,28 @@
-noun
 adjective
-proper noun
-verb
 adverb
-particle
-pronoun
-ordinal
-preposition
-measure word
-conjunction
-interrogative pronoun
 auxiliary verb
-idiom
-phrase
-quantity
-onomatopoeia
-phonetic
-suffix
-prefix
-radical
-interjection
-pattern
-set phrase
+bound form
+conjunction
 expression
-number
 foreign
+idiom
+interjection
+interrogative pronoun
+measure word
+noun
+number
+onomatopoeia
+ordinal
+particle
+pattern
+phrase
+phonetic
+prefix
+preposition
+pronoun
+proper noun
+quantity
+radical
+set phrase
+suffix
+verb

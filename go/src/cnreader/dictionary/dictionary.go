@@ -150,11 +150,18 @@ func ReadDict(wsfilename string) {
 		}
 		simp := row[1]
 		trad := row[2]
+		pinyin := row[3]
+		english := row[4]
+		grammar := row[5]
+		conceptCn := row[6]
 		hwId := 0
 		if len(row) > 15 {
 			hwIdInt, err := strconv.ParseInt(row[15], 10, 0)
 			if err != nil {
-				log.Fatal("Could not parse headword id for word ", i, err)
+				log.Printf("id: %d, simp: %s, trad: %s, pinyin: %s, " +
+					"english: %s, grammar: %s, conceptCn: %s\n",
+					id, simp, trad, pinyin, english, grammar, conceptCn)
+				log.Fatal("Could not parse headword id for word ", id, err)
 			}
 			hwId = int(hwIdInt)
 		}
@@ -162,10 +169,10 @@ func ReadDict(wsfilename string) {
 				HeadwordId: int(hwId),
 				Simplified: simp,
 				Traditional: trad,
-				Pinyin: row[3],
-				English: row[4],
-				Grammar: row[5],
-				Concept_cn: row[6],
+				Pinyin: pinyin,
+				English: english,
+				Grammar: grammar,
+				Concept_cn: conceptCn,
 				Concept_en: row[7], 
 				Topic_cn: row[8],
 				Topic_en: row[9],
