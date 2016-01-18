@@ -498,8 +498,7 @@ func WriteHwFiles() {
 	// Prepare template
 	templFile := config.ProjectHome() + "/html/templates/headword-template.html"
 	//fmt.Println("Home: ", config.ProjectHome())
-	tmpl := template.Must(template.New("headword-template.html").Delims("<<",
-		">>").ParseFiles(templFile))
+	tmpl := template.Must(template.New("headword-template.html").ParseFiles(templFile))
 
 	for _, hw := range hwArray {
 		usageArrPtr, ok := usageMap[hw.Simplified]
@@ -525,7 +524,9 @@ func WriteHwFiles() {
 		}
 		w := bufio.NewWriter(f)
 		err = tmpl.Execute(w, dictEntry)
-		if err != nil { panic(err) }
+		if err != nil {
+			log.Fatal(err)
+		}
 		w.Flush()
 		f.Close()
 	}
