@@ -506,25 +506,23 @@ func WriteHwFiles() {
 			usageArrPtr, ok = usageMap[hw.Traditional]
 		}
 		if !ok {
-			if hw.Simplified == "经" {
-				log.Printf("WriteHwFiles: no usage found for 经")
-			}
-			continue
+			//log.Printf("WriteHwFiles: no usage found for %s", hw.Simplified)
+			usageArrPtr = &[]WordUsage{}
 		}
 		dictEntry := DictEntry{hw, *usageArrPtr, dateUpdated}
 		filename := fmt.Sprintf("%s%s%d%s", config.ProjectHome(), "/web/words/",
 			hw.Id, ".html")
-		if hw.Simplified == "参选人" {
-			log.Printf("WriteHwFiles hw.Id: %d, filename: %s, Simplified: %s",
-				hw.Id, filename, hw.Simplified)
-		}
 		f, err := os.Create(filename)
 		if err != nil {
+			log.Printf("WriteHwFiles: Error creating file for hw.Id %d, " +
+				"Simplified %s", hw.Id, hw.Simplified)
 			log.Fatal(err)
 		}
 		w := bufio.NewWriter(f)
 		err = tmpl.Execute(w, dictEntry)
 		if err != nil {
+			log.Printf("WriteHwFiles: error executing template for hw.Id: %d," +
+				" filename: %s, Simplified: %s", hw.Id, filename, hw.Simplified)
 			log.Fatal(err)
 		}
 		w.Flush()
