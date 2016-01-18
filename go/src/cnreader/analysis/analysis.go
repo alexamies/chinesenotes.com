@@ -514,9 +514,9 @@ func WriteHwFiles() {
 		dictEntry := DictEntry{hw, *usageArrPtr, dateUpdated}
 		filename := fmt.Sprintf("%s%s%d%s", config.ProjectHome(), "/web/words/",
 			hw.Id, ".html")
-		if hw.Simplified == "经" {
-			log.Printf("WriteHwFiles: 经 hw.Id: %d, filename: %s, Pinyin: %s",
-				hw.Id, filename, hw.Pinyin)
+		if hw.Simplified == "参选人" {
+			log.Printf("WriteHwFiles hw.Id: %d, filename: %s, Simplified: %s",
+				hw.Id, filename, hw.Simplified)
 		}
 		f, err := os.Create(filename)
 		if err != nil {
