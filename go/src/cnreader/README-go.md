@@ -1,28 +1,27 @@
-# Go Development Readme
+# HTML page generation and Go development readme
+Many HTML pages at chinesenotes.com are generated from Go templates from the
+lexical database and text corpus. This readme gives instructions. It assumes
+that you have already cloned the project from GitHub.
 
 ###1 Install the Go SDK
+https://golang.org/doc/install
+
+Make sure that your GOROOT is set properly to where Go is installed.
 
 ###2 Add the directory $CNREADER_HOME/go to your GOPATH
 cd $CNREADER_HOME/go
 source 'path.bash.inc'
 
-###3 Build the cnreader/analysis library
-
-cd $PROJECT_HOME/go/src/cnreader
-go install cnreader/analysis
-go install cnreader/config
-
-###4 Run unit tests
-
-cd cnreader/analysis
-go test
-cd cnreader/analysis
-go test
-
-###5 Build the project and compute word frequencies
+###3 Build the project
+cd $CNREADER_HOME/go/src/cnreader
 go build
 
-cd $PROJECT_HOME/go/src/cnreader
+##4 Generate word definition files
+mkdir $CNREADER_HOME/web/words
+./cnreader -hwfiles
+
+##4 Compute word frequencies
+cd $CNREADER_HOME/go/src/cnreader
 ./cnreader.go -wf
 
 ###6 To enhance a single HTML file with Chinese word popovers
@@ -36,13 +35,13 @@ cd $PROJECT_HOME/go/src/cnreader
 ./cnreader.go -collection=erya.csv
 
 ###8 To build the headword file and add headword numbers to the words.txt file
-cd $PROJECT_HOME
+cd $CNREADER_HOME
 cp ../buddhist-dictionary/data/dictionary/words.txt data/.
-cd $PROJECT_HOME/go/src/cndreader
+cd $CNREADER_HOME/go/src/cndreader
 ./cnreader -headwords
 cd ../util
 go run headwords.go
-cd $PROJECT_HOME
+cd $CNREADER_HOME
 cp data/lexical_units.txt data/words.txt
 cd ../cnreader
 ./cnreader -hwfiles
@@ -56,3 +55,11 @@ program at the moment. To fix it keep the entry:
 
 in the headwords.txt file. Some manual editing of the file words/971.html might
 be needed.
+
+
+###4 Run unit tests
+
+cd $CNREADER_HOME/src/cnreader/analysis
+go test
+cd $CNREADER_HOME/src/cnreader/dictionary
+go test

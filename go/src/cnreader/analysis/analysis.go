@@ -303,11 +303,12 @@ func WriteAnalysis(vocab map[string]int, usage map[string]string, wc int,
 	results := AnalysisResults{title, wc, len(vocab),
 		wfResults, unknownChars[:maxUnkownOutput], dateUpdated,
 		maxWFOutput}
-	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles("/Users/alex/Documents/code/chinesenotes.com/corpus/corpus-analysis-template.html")
+	projectHome := config.ProjectHome()
+	tmplFile := projectHome + "/html/templates/corpus-analysis-template.html"
+	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles(tmplFile)
 	if err != nil { panic(err) }
 	if tmpl == nil {
-		log.Fatal("WriteAnalysis: Template is nil ")
-		panic(err)
+		log.Fatal("WriteAnalysis: Template is nil", err)
 	}
 
 	// Write output
