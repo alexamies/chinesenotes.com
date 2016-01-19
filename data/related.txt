@@ -2589,6 +2589,8 @@
 首尔	汉城	Also known as	\N
 菩提伽耶	伽耶城	Also known as	\N
 伽耶城	菩提伽耶	Also known as	\N
+菩提伽耶	菩提迦耶	Also known as	\N
+菩提迦耶	菩提伽耶	Also known as	\N
 天龙八部	八部众	Also known as	\N
 八部众	天龙八部	Also known as	\N
 龙神八部	天龙八部	Also known as	\N
@@ -3003,6 +3005,8 @@
 中都	汗八里	Also known as	\N
 汗八里	北京	Present-day name	\N
 北京	汗八里	Former name	\N
+北平	北京	Present-day name	\N
+北京	北平	Former name	\N
 栄西	明菴栄西	Also known as	\N
 明菴栄西	栄西	Also known as	\N
 荣西	栄西	Japanese variant	\N
@@ -3395,3 +3399,37 @@
 八股	八股文	Also known as	\N
 太史公书	史记	Also known as	\N
 史记	太史公书	Also known as	\N
+毛诗诂训传	毛传	Also known as	\N
+毛传	毛诗诂训传	Also known as	\N
+阿毘达磨集异门足论	集异门足论	Also known as	\N
+异门足论	阿毘达磨集异门足论	Also known as	\N
+孔丘	孔子	Also known as	\N
+孔子	孔丘	Also known as	\N
+孔丘	孔夫子	Also known as	\N
+孔夫子	孔丘	Also known as	\N
+仲尼	孔子	Also known as	\N
+孔子	仲尼	Also known as	\N
+仲尼	孔丘	Also known as	\N
+孔丘	仲尼	Also known as	\N
+孔仲尼	孔子	Also known as	\N
+孔子	孔仲尼	Also known as	\N
+孔仲尼	孔丘	Also known as	\N
+孔丘	孔仲尼	Also known as	\N
+孔仲尼	仲尼	Also known as	\N
+仲尼	孔仲尼	Also known as	\N
+四书集注	四书章句集注	Also known as	\N
+四书章句集注	四书集注	Also known as	\N
+翻译名义文集	翻译名义集	Also known as	\N
+翻译名义集	翻译名义文集	Also known as	\N
+普陀洛伽山	补陀落山	Also known as	\N
+补陀落山	普陀洛伽山	Also known as	\N
+新西兰	纽西兰	Also known as	\N
+纽西兰	新西兰	Also known as	\N
+佛光会	国际佛光会	Also known as	\N
+国际佛光会	佛光会	Also known as	\N
+世卫组织	世界卫生组织	Also known as	\N
+世界卫生组织	世卫组织	Also known as	\N
+北京	北京市	Also known as	\N
+北京市	北京	Also known as	\N
+天津	天津市	Also known as	\N
+天津市	天津	Also known as	\N

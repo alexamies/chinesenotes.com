@@ -1,0 +1,33 @@
+VA	Verb adjective	\N
+VC	Copula	為 为 是 非
+VE	Existential verb	有 沒有 没有 沒 没 無 无
+VV	Other verbs	\N
+NR	Proper noun	\N
+NT	Temporal noun	\N
+NN	Other noun	\N
+LC	Localizer	\N
+PN	Personal pronoun	他 我 你 您 她 它 之 我们 你们 他们 她们 它们 其 自己 大家 对方 双方 自身 我們 你們 他們 她們 它們 對方 雙方 吾 自
+DT	Determiner	这 这些 此 该 本 那 那些 上 下 前 后 头 另 其余 其他 其它 某 某些 各 诸 每 何 什么 任何 全 全体 全都 一切 所有 同 有的 有些 這 這些 該 後 頭 諸 什麼 全體 是 悉 之 云何
+CD	Cardinal number	\N
+OD	Ordinal number	\N
+M	Measure word	\N
+AD	Adverb	\N
+P	Preposition	\N
+CC	Coordinating conjunction	与 和 跟 同 及 以及 并 并且 而 而且 且 或 或者 还是 即 又 不仅 至 到 與 並 並且 還是 不僅
+CS	Subordinating conjunction	如果 如 若 假如 不管 不论 不但 尽管 虽然 虽 只要 只有 一旦 不論 儘管 雖然 雖 則 是故 已 故
+DEC	Nominalizer	的 之
+DEG	Genetive marker	的 之
+DER	Resultative particle	得
+DEV	Manner particle	地
+SP	Sentence final particle 了 吧 呢 啊 呀 吗 嗎
+AS	Aspectual particle	了 着 过 過 的
+ETC	Etc particle 等 等等
+MSP	Other particle	\N
+IJ	Interjection	\N
+ON	Onomatopoeia	\N
+PU	Punctuation	\N
+JJ	Other modifier	\N
+FW	Foreign word	\N
+LB	Bei- construction	被
+SB	Other	\N
+BA	Ba- construction	把 将

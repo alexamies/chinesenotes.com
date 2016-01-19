@@ -16,7 +16,6 @@ right.png	右	Right	Alex Amies	Public Domain	\N
 sutra_med.jpg	佛经	Buddhist Scripture	Alex Amies	Public Domain	sutra_high.jpg
 pagoda_med.jpg	塔	Pagoda	Alex Amies	CCA	pagoda_high.jpg
 bendigo_chinese_heritage_med.jpg	唐人街	Chinatown	Alex Amies	CCA	bendigo_chinese_heritage010308.jpg
-approx.png	约	Approximately	Alex Amies	Public Domain	\N
 dui_lian_med.jpg	对联	Couplet	Alex Amies	CCA	dui_lian.jpg
 dong_yuan_miao_med.jpg	东岳庙	Dongyue Temple	Alex Amies	CCA	\N
 huangluo3_med.jpg	红螺寺	Hongluo Temple	Alex Amies	CCA	huangluo3_high.jpg
@@ -449,3 +448,5 @@ screenshot_english_multiple.png	搜索英文	Searching on English	Alex Amies	CCA
 screenshot_word_detail.png	搜索英文	Searching on English	Alex Amies	CCA	\N
 screenshot_word_sense.png	搜索英文	Searching on English	Alex Amies	CCA	\N
 vajra_bell400.jpg	铜铃	Copper Bell	Alex Amies	CCA	vajra_bell.jpg
+prachalit_frag400.jpg	Prachalit	Prachalit	University of the West	Fair Use	prachalit_frag.jpg
+old_man_statue_med.jpg	老人塑雕	Statue of an Old Man	Alex Amies	CCA	old_man_statue_full.jpg

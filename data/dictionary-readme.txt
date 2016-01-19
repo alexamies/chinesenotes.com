@@ -22,7 +22,7 @@ database. They work directly from the text files.
 4. Define the database tables. Log into the mysql command line client and run
    DDL commands in dictionary.ddl.
 
-   > source notes.ddl
+   > source dictionary.ddl
 
 5. Load the data into the tables. Execute this command.
 

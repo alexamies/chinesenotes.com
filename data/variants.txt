@@ -1,1922 +1,1930 @@
-县	縣	繁体 Traditional
-縣	县	简体 Simplified
-纮	紘	繁体 Traditional
-紘	纮	简体 Simplified
-义	義	繁体 Traditional
-義	义	简体 Simplified
-翘	翹	繁体 Traditional
-翹	翘	简体 Simplified
-讠	訁	繁体 Traditional
-訁	讠	简体 Simplified
-访	訪	繁体 Traditional
-訪	访	简体 Simplified
-诞	誕	繁体 Traditional
-誕	诞	简体 Simplified
-谋	謀	繁体 Traditional
-謀	谋	简体 Simplified
-贝	貝	繁体 Traditional
-貝	贝	简体 Simplified
-贼	賊	繁体 Traditional
-賊	贼	简体 Simplified
-质	質	繁体 Traditional
-質	质	简体 Simplified
-赠	贈	繁体 Traditional
-贈	赠	简体 Simplified
-车	車	繁体 Traditional
-車	车	简体 Simplified
-鱼	魚	繁体 Traditional
-魚	鱼	简体 Simplified
-凤	鳳	繁体 Traditional
-鳳	凤	简体 Simplified
-盐	鹽	繁体 Traditional
-鹽	盐	简体 Simplified
-鹽	䀋	久异体字 Archaic Variant
-䀋	鹽	新异体字 Modern Variant
-鹽	塩	久异体字 Archaic Variant
-塩	鹽	新异体字 Modern Variant
-鹽	𥂁	久异体字 Archaic Variant
-𥂁	鹽	新异体字 Modern Variant
-鲁	魯	繁体 Traditional
-魯	鲁	简体 Simplified
-参	參	繁体 Traditional
-參	参	简体 Simplified
-參	叅	异体字 Variant
-叅	參	异体字 Variant
-宪	憲	繁体 Traditional
-憲	宪	简体 Simplified
-曾	曽	异体字 Variant
-曽	曾	异体字 Variant
-为	為	繁体 Traditional
-為	为	简体 Simplified
-为	爲	繁体 Traditional
-爲	为	简体 Simplified
-為	爲	异体字 Variant
-爲	為	异体字 Variant
-卢	盧	繁体 Traditional
-盧	卢	简体 Simplified
-御	禦	繁体 Traditional
-禦	御	简体 Simplified
-华	華	繁体 Traditional
-華	华	简体 Simplified
-觌	覿	繁体 Traditional
-覿	觌	简体 Simplified
-观	觀	繁体 Traditional
-觀	观	简体 Simplified
-覌	觀	新异体字 Modern Variant
-觀	覌	久异体字 Archaic Variant
-伦	倫	繁体 Traditional
-倫	伦	简体 Simplified
-国	國	繁体 Traditional
-國	国	简体 Simplified
-明	朙	久异体字 Archaic Variant
-朙	明	新异体字 Modern Variant
-闻	聞	繁体 Traditional
-聞	闻	简体 Simplified
-荆	荊	繁体 Traditional
-荊	荆	简体 Simplified
-仪	儀	繁体 Traditional
-儀	仪	简体 Simplified
-週	周	异体字 Variant
-周	週	异体字 Variant
-晋	晉	繁体 Traditional
-晉	晋	简体 Simplified
-举	舉	繁体 Traditional
-舉	举	简体 Simplified
-荐	薦	繁体 Traditional
-薦	荐	简体 Simplified
-长	長	繁体 Traditional
-長	长	简体 Simplified
-颇	頗	繁体 Traditional
-頗	颇	简体 Simplified
-颋	頲	繁体 Traditional
-頲	颋	简体 Simplified
-颢	顥	繁体 Traditional
-顥	颢	简体 Simplified
-禄	祿	繁体 Traditional
-祿	禄	简体 Simplified
-蛮	蠻	繁体 Traditional
-蠻	蛮	简体 Simplified
-万	萬	繁体 Traditional
-萬	万	简体 Simplified
-与	與	繁体 Traditional
-與	与	简体 Simplified
-丑	醜	繁体 Traditional
-醜	丑	简体 Simplified
-专	專	繁体 Traditional
-專	专	简体 Simplified
-业	業	繁体 Traditional
-業	业	简体 Simplified
-丛	叢	繁体 Traditional
-叢	丛	简体 Simplified
-东	東	繁体 Traditional
-東	东	简体 Simplified
-丝	絲	繁体 Traditional
-絲	丝	简体 Simplified
-丟	丢	繁体 Traditional
-丢	丟	简体 Simplified
-两	兩	繁体 Traditional
-兩	两	简体 Simplified
-严	嚴	繁体 Traditional
-嚴	严	简体 Simplified
-丽	麗	繁体 Traditional
-麗	丽	简体 Simplified
-并	並	繁体 Traditional
-並	并	简体 Simplified
-丧	喪	繁体 Traditional
-喪	丧	简体 Simplified
-个	個	繁体 Traditional
-個	个	简体 Simplified
-丰	豐	繁体 Traditional
-豐	丰	简体 Simplified
-临	臨	繁体 Traditional
-臨	临	简体 Simplified
-久	乆	久异体字 Archaic Variant
-乆	久	新异体字 Modern Variant
-么	幺	异体字 Variant
-幺	么	异体字 Variant
-么	麼	繁体 Traditional
-麼	么	简体 Simplified
-么	麽	繁体 Traditional
-麽	么	简体 Simplified
-麼	麽	异体字 Variant
-麽	麼	异体字 Variant
-乌	烏	繁体 Traditional
-烏	乌	简体 Simplified
-乐	樂	繁体 Traditional
-樂	乐	简体 Simplified
-乔	喬	繁体 Traditional
-喬	乔	简体 Simplified
-乗	乘	新异体字 Modern Variant
-乘	乗	久异体字 Archaic Variant
-九	玖	异体字 Variant
-玖	九	异体字 Variant
-习	習	繁体 Traditional
-習	习	简体 Simplified
-书	書	繁体 Traditional
-書	书	简体 Simplified
-买	買	繁体 Traditional
-買	买	简体 Simplified
-乱	亂	繁体 Traditional
-亂	乱	简体 Simplified
-干	乾	繁体 Traditional
-乾	干	简体 Simplified
-乾	亁	异体字 Variant
-亁	乾	异体字 Variant
-争	爭	繁体 Traditional
-爭	争	简体 Simplified
-亊	事	新异体字 Modern Variant
-事	亊	久异体字 Archaic Variant
-二	弍	异体字 Variant
-弍	二	异体字 Variant
-于	於	繁体 Traditional
-於	于	简体 Simplified
-亏	虧	繁体 Traditional
-虧	亏	简体 Simplified
-云	雲	繁体 Traditional
-雲	云	简体 Simplified
-其	亓	久异体字 Archaic Variant
-亓	其	新异体字 Modern Variant
-五	伍	异体字 Variant
-伍	五	异体字 Variant
-井	丼	异体字 Variant
-丼	井	异体字 Variant
-岁	亗	久异体字 Archaic Variant
-亗	岁	新异体字 Modern Variant
-歲	亗	久异体字 Archaic Variant
-亗	歲	新异体字 Modern Variant
-亗	𡻕	异体字 Variant
-𡻕	亗	异体字 Variant
-亘	亙	异体字 Variant
-亙	亘	异体字 Variant
-亚	亞	繁体 Traditional
-亞	亚	简体 Simplified
-亚	亜	久异体字 Archaic Variant
-亜	亚	新异体字 Modern Variant
-亞	亜	久异体字 Archaic Variant
-亜	亞	新异体字 Modern Variant
-产	產	繁体 Traditional
-產	产	简体 Simplified
-产	産	繁体 Traditional
-産	产	简体 Simplified
-產	産	异体字 Variant
-産	產	异体字 Variant
-亩	畝	繁体 Traditional
-畝	亩	简体 Simplified
-京	亰	久异体字 Archaic Variant
-亰	京	新异体字 Modern Variant
-享	亯	久异体字 Archaic Variant
-亯	享	新异体字 Modern Variant
-夜	亱	久异体字 Archaic Variant
-亱	夜	新异体字 Modern Variant
-亲	親	繁体 Traditional
-親	亲	简体 Simplified
-亵	褻	繁体 Traditional
-褻	亵	简体 Simplified
-廉	亷	异体字 Variant
-亷	廉	异体字 Variant
-亸	嚲	繁体 Traditional
-嚲	亸	简体 Simplified
-集	亼	久异体字 Archaic Variant
-亼	集	新异体字 Modern Variant
-亡	亾	久异体字 Archaic Variant
-亾	亡	新异体字 Modern Variant
-亿	億	繁体 Traditional
-億	亿	简体 Simplified
-仅	僅	繁体 Traditional
-僅	仅	简体 Simplified
-仆	僕	繁体 Traditional
-僕	仆	简体 Simplified
-从	從	繁体 Traditional
-從	从	简体 Simplified
-佛	仏	久异体字 Archaic Variant
-仏	佛	新异体字 Modern Variant
-仑	侖	繁体 Traditional
-侖	仑	简体 Simplified
-仓	倉	繁体 Traditional
-倉	仓	简体 Simplified
-他	牠	异体字 Variant
-牠	他	异体字 Variant
-仭	仞	异体字 Variant
-仞	仭	异体字 Variant
-仟	千	异体字 Variant
-千	仟	异体字 Variant
-令	令	久异体字 Archaic Variant
-令	令	新异体字 Modern Variant
-们	們	繁体 Traditional
-們	们	简体 Simplified
-假	仮	久异体字 Archaic Variant
-仮	假	新异体字 Modern Variant
-伀	彸	异体字 Variant
-彸	伀	异体字 Variant
-众	眾	繁体 Traditional
-眾	众	简体 Simplified
-众	衆	繁体 Traditional
-衆	众	简体 Simplified
-眾	衆	异体字 Variant
-衆	眾	异体字 Variant
-优	優	繁体 Traditional
-優	优	简体 Simplified
-会	會	繁体 Traditional
-會	会	简体 Simplified
-伛	傴	繁体 Traditional
-傴	伛	简体 Simplified
-伞	傘	繁体 Traditional
-傘	伞	简体 Simplified
-伟	偉	繁体 Traditional
-偉	伟	简体 Simplified
-传	傳	繁体 Traditional
-傳	传	简体 Simplified
-伣	俔	繁体 Traditional
-俔	伣	简体 Simplified
-儿	兒	繁体 Traditional
-兒	儿	简体 Simplified
-凶	兇	繁体 Traditional
-兇	凶	简体 Simplified
-内	內	繁体 Traditional
-內	内	简体 Simplified
-俞	兪	异体字 Variant
-兪	俞	异体字 Variant
-兰	蘭	繁体 Traditional
-蘭	兰	简体 Simplified
-天	兲	久异体字 Archaic Variant
-兲	天	新异体字 Modern Variant
-关	關	繁体 Traditional
-關	关	简体 Simplified
-兴	興	繁体 Traditional
-興	兴	简体 Simplified
-茲	兹	繁体 Traditional
-兹	茲	简体 Simplified
-兹	玆	久异体字 Archaic Variant
-玆	兹	新异体字 Modern Variant
-茲	玆	久异体字 Archaic Variant
-玆	茲	新异体字 Modern Variant
-养	養	繁体 Traditional
-養	养	简体 Simplified
-兽	獸	繁体 Traditional
-獸	兽	简体 Simplified
-兾	冀	异体字 Variant
-冀	兾	异体字 Variant
-冁	囅	繁体 Traditional
-囅	冁	简体 Simplified
-冉	冄	异体字 Variant
-冄	冉	异体字 Variant
-冈	岡	繁体 Traditional
-岡	冈	简体 Simplified
-冊	册	繁体 Traditional
-册	冊	简体 Simplified
-冋	冂	异体字 Variant
-冂	冋	异体字 Variant
-冒	冐	异体字 Variant
-冐	冒	异体字 Variant
-冗	宂	久异体字 Archaic Variant
-宂	冗	新异体字 Modern Variant
-写	寫	繁体 Traditional
-寫	写	简体 Simplified
-军	軍	繁体 Traditional
-軍	军	简体 Simplified
-农	農	繁体 Traditional
-農	农	简体 Simplified
-宜	冝	久异体字 Archaic Variant
-冝	宜	新异体字 Modern Variant
-富	冨	久异体字 Archaic Variant
-冨	富	新异体字 Modern Variant
-寫	冩	久异体字 Archaic Variant
-冩	寫	新异体字 Modern Variant
-幂	冪	繁体 Traditional
-冪	幂	简体 Simplified
-冰	氷	久异体字 Archaic Variant
-氷	冰	新异体字 Modern Variant
-冯	馮	繁体 Traditional
-馮	冯	简体 Simplified
-冲	沖	繁体 Traditional
-沖	冲	简体 Simplified
-决	決	繁体 Traditional
-決	决	简体 Simplified
-况	況	繁体 Traditional
-況	况	简体 Simplified
-伤	傷	繁体 Traditional
-傷	伤	简体 Simplified
-伥	倀	繁体 Traditional
-倀	伥	简体 Simplified
-伧	傖	繁体 Traditional
-傖	伧	简体 Simplified
-伪	偽	繁体 Traditional
-偽	伪	简体 Simplified
-伪	僞	繁体 Traditional
-僞	伪	简体 Simplified
-偽	僞	异体字 Variant
-僞	偽	异体字 Variant
-伫	佇	繁体 Traditional
-佇	伫	简体 Simplified
-竚	伫	新异体字 Modern Variant
-伫	竚	久异体字 Archaic Variant
-竚	佇	新异体字 Modern Variant
-佇	竚	久异体字 Archaic Variant
-玄	伭	久异体字 Archaic Variant
-伭	玄	新异体字 Modern Variant
-伱	你	新异体字 Modern Variant
-你	伱	久异体字 Archaic Variant
-布	佈	异体字 Variant
-佈	布	异体字 Variant
-体	體	繁体 Traditional
-體	体	简体 Simplified
-占	佔	异体字 Variant
-佔	占	异体字 Variant
-佗	它	新异体字 Modern Variant
-它	佗	久异体字 Archaic Variant
-余	餘	繁体 Traditional
-餘	余	简体 Simplified
-余	馀	久异体字 Archaic Variant
-馀	余	新异体字 Modern Variant
-餘	馀	久异体字 Archaic Variant
-馀	餘	新异体字 Modern Variant
-佣	傭	繁体 Traditional
-傭	佣	简体 Simplified
-佥	僉	繁体 Traditional
-僉	佥	简体 Simplified
-百	佰	异体字 Variant
-佰	百	异体字 Variant
-并	併	繁体 Traditional
-併	并	简体 Simplified
-几	幾	繁体 Traditional
-幾	几	简体 Simplified
-凡	凢	久异体字 Archaic Variant
-凢	凡	新异体字 Modern Variant
-凡	凣	久异体字 Archaic Variant
-凣	凡	新异体字 Modern Variant
-凢	凣	异体字 Variant
-凣	凢	异体字 Variant
-處	処	久异体字 Archaic Variant
-処	處	新异体字 Modern Variant
-处	処	久异体字 Archaic Variant
-処	处	新异体字 Modern Variant
-凫	鳧	繁体 Traditional
-鳧	凫	简体 Simplified
-处	鳬	繁体 Traditional
-鳬	处	简体 Simplified
-鳬	鳧	异体字 Variant
-鳧	鳬	异体字 Variant
-風	凨	久异体字 Archaic Variant
-凨	風	新异体字 Modern Variant
-风	凨	久异体字 Archaic Variant
-凨	风	新异体字 Modern Variant
-凭	憑	繁体 Traditional
-憑	凭	简体 Simplified
-风	凮	久异体字 Archaic Variant
-凮	风	新异体字 Modern Variant
-風	凮	久异体字 Archaic Variant
-凮	風	新异体字 Modern Variant
-凯	凱	繁体 Traditional
-凱	凯	简体 Simplified
-出	岀	久异体字 Archaic Variant
-岀	出	新异体字 Modern Variant
-击	擊	繁体 Traditional
-擊	击	简体 Simplified
-函	凾	久异体字 Archaic Variant
-凾	函	新异体字 Modern Variant
-凿	鑿	繁体 Traditional
-鑿	凿	简体 Simplified
-刃	刄	久异体字 Archaic Variant
-刄	刃	新异体字 Modern Variant
-刊	刋	久异体字 Archaic Variant
-刋	刊	新异体字 Modern Variant
-刍	芻	繁体 Traditional
-芻	刍	简体 Simplified
-劝	勸	繁体 Traditional
-勸	劝	简体 Simplified
-办	辦	繁体 Traditional
-辦	办	简体 Simplified
-务	務	繁体 Traditional
-務	务	简体 Simplified
-劢	勱	繁体 Traditional
-勱	劢	简体 Simplified
-动	動	繁体 Traditional
-動	动	简体 Simplified
-励	勵	繁体 Traditional
-勵	励	简体 Simplified
-匀	勻	繁体 Traditional
-勻	匀	简体 Simplified
-丐	匃	久异体字 Archaic Variant
-匃	丐	新异体字 Modern Variant
-丐	匄	久异体字 Archaic Variant
-匄	丐	新异体字 Modern Variant
-匄	匃	异体字 Variant
-匃	匄	异体字 Variant
-包	勹	久异体字 Archaic Variant
-勹	包	新异体字 Modern Variant
-匦	匭	繁体 Traditional
-匭	匦	简体 Simplified
-匮	匱	繁体 Traditional
-匱	匮	简体 Simplified
-汇	匯	繁体 Traditional
-匯	汇	简体 Simplified
-区	區	繁体 Traditional
-區	区	简体 Simplified
-医	醫	繁体 Traditional
-醫	医	简体 Simplified
-世	卋	久异体字 Archaic Variant
-卋	世	新异体字 Modern Variant
-华	華	繁体 Traditional
-華	华	简体 Simplified
-卍	卐	异体字 Variant
-卐	卍	异体字 Variant
-升	昇	繁体 Traditional
-昇	升	简体 Simplified
-协	協	繁体 Traditional
-協	协	简体 Simplified
-卤	鹵	繁体 Traditional
-鹵	卤	简体 Simplified
-卧	臥	繁体 Traditional
-臥	卧	简体 Simplified
-卫	衛	繁体 Traditional
-衛	卫	简体 Simplified
-卬	卭	久异体字 Archaic Variant
-卭	卬	新异体字 Modern Variant
-卮	巵	异体字 Variant
-巵	卮	异体字 Variant
-卯	戼	久异体字 Archaic Variant
-戼	卯	新异体字 Modern Variant
-却	卻	繁体 Traditional
-卻	却	简体 Simplified
-厂	廠	繁体 Traditional
-廠	厂	简体 Simplified
-厄	阨	久异体字 Archaic Variant
-阨	厄	新异体字 Modern Variant
-厅	廳	繁体 Traditional
-廳	厅	简体 Simplified
-历	曆	繁体 Traditional
-曆	历	简体 Simplified
-历	歷	繁体 Traditional
-歷	历	简体 Simplified
-曆	歷	异体字 Variant
-歷	曆	异体字 Variant
-厉	厲	繁体 Traditional
-厲	厉	简体 Simplified
-压	壓	繁体 Traditional
-壓	压	简体 Simplified
-圧	压	中文 Chinese
-压	圧	日文 Japanese
-圧	壓	中文 Chinese
-壓	圧	日文 Japanese
-厌	厭	繁体 Traditional
-厭	厌	简体 Simplified
-厍	厙	繁体 Traditional
-厙	厍	简体 Simplified
-厐	龎	繁体 Traditional
-龎	厐	简体 Simplified
-叁	叄	繁体 Traditional
-叄	叁	简体 Simplified
-參	叄	异体字 Variant
-叄	參	异体字 Variant
-参	叁	异体字 Variant
-叁	参	异体字 Variant
-叄	叅	异体字 Variant
-叅	叄	异体字 Variant
-叆	靉	繁体 Traditional
-靉	叆	简体 Simplified
-双	雙	繁体 Traditional
-雙	双	简体 Simplified
-收	収	日文 Japanese
-収	收	中文 Chinese
-发	發	繁体 Traditional
-發	发	简体 Simplified
-发	髮	繁体 Traditional
-髮	发	简体 Simplified
-斗	鬥	繁体 Traditional
-鬥	斗	简体 Simplified
-鬥	鬭	久异体字 Archaic Variant
-鬭	鬥	新异体字 Modern Variant
-鬥	鬬	久异体字 Archaic Variant
-鬬	鬥	新异体字 Modern Variant
-鬥	鬦	久异体字 Archaic Variant
-鬦	鬥	新异体字 Modern Variant
-鬥	鬪	久异体字 Archaic Variant
-鬪	鬥	新异体字 Modern Variant
-叔	尗	久异体字 Archaic Variant
-尗	叔	新异体字 Modern Variant
-只	衹	繁体 Traditional
-衹	只	简体 Simplified
-只	隻	繁体 Traditional
-隻	只	简体 Simplified
-回	囘	久异体字 Archaic Variant
-囘	回	新异体字 Modern Variant
-团	團	繁体 Traditional
-團	团	简体 Simplified
-团	団	日文 Japanese
-団	团	中文 Chinese
-團	団	日文 Japanese
-団	團	中文 Chinese
-圢	町	异体字 Variant
-町	圢	异体字 Variant
-圣	聖	繁体 Traditional
-聖	圣	简体 Simplified
-壮	壯	繁体 Traditional
-壯	壮	简体 Simplified
-声	聲	繁体 Traditional
-聲	声	简体 Simplified
-壳	殻	繁体 Traditional
-殻	壳	简体 Simplified
-壳	殼	繁体 Traditional
-殼	壳	简体 Simplified
-壶	壺	繁体 Traditional
-壺	壶	简体 Simplified
-壺	壷	久异体字 Archaic Variant
-壷	壺	新异体字 Modern Variant
-壶	壷	久异体字 Archaic Variant
-壷	壶	新异体字 Modern Variant
-壸	壼	繁体 Traditional
-壼	壸	简体 Simplified
-备	備	繁体 Traditional
-備	备	简体 Simplified
-变	変	日文 Japanese
-変	变	中文 Chinese
-変	變	繁体 Traditional
-變	変	简体 Simplified
-變	変	日文 Japanese
-変	變	中文 Chinese
-复	復	繁体 Traditional
-復	复	简体 Simplified
-复	複	繁体 Traditional
-複	复	简体 Simplified
-复	覆	繁体 Traditional
-覆	复	简体 Simplified
-復	複	异体字 Variant
-複	復	异体字 Variant
-復	覆	异体字 Variant
-覆	復	异体字 Variant
-複	覆	异体字 Variant
-覆	複	异体字 Variant
-卯	夘	久异体字 Archaic Variant
-夘	卯	新异体字 Modern Variant
-多	夛	久异体字 Archaic Variant
-夛	多	新异体字 Modern Variant
-够	夠	繁体 Traditional
-夠	够	简体 Simplified
-梦	夢	繁体 Traditional
-夢	梦	简体 Simplified
-梦	夣	久异体字 Archaic Variant
-夣	梦	新异体字 Modern Variant
-夢	夣	久异体字 Archaic Variant
-夣	夢	新异体字 Modern Variant
-伙	夥	久异体字 Archaic Variant
-夥	伙	新异体字 Modern Variant
-夭	殀	久异体字 Archaic Variant
-殀	夭	新异体字 Modern Variant
-头	頭	繁体 Traditional
-頭	头	简体 Simplified
-奸	姦	繁体 Traditional
-姦	奸	简体 Simplified
-妆	妝	繁体 Traditional
-妝	妆	简体 Simplified
-妇	婦	繁体 Traditional
-婦	妇	简体 Simplified
-妈	媽	繁体 Traditional
-媽	妈	简体 Simplified
-娄	娄	繁体 Traditional
-娄	娄	简体 Simplified
-孙	孫	繁体 Traditional
-孫	孙	简体 Simplified
-宁	寧	繁体 Traditional
-寧	宁	简体 Simplified
-它	牠	久异体字 Archaic Variant
-牠	它	新异体字 Modern Variant
-实	實	繁体 Traditional
-實	实	简体 Simplified
-对	對	繁体 Traditional
-對	对	简体 Simplified
-寻	尋	繁体 Traditional
-尋	寻	简体 Simplified
-导	導	繁体 Traditional
-導	导	简体 Simplified
-對	対	久异体字 Archaic Variant
-対	對	新异体字 Modern Variant
-对	対	久异体字 Archaic Variant
-対	对	新异体字 Modern Variant
-寿	壽	繁体 Traditional
-壽	寿	简体 Simplified
-專	専	日文 Japanese
-専	專	中文 Chinese
-专	専	日文 Japanese
-専	专	中文 Chinese
-尔	尒	久异体字 Archaic Variant
-尒	尔	新异体字 Modern Variant
-爾	尒	久异体字 Archaic Variant
-尒	爾	新异体字 Modern Variant
-尔	尓	久异体字 Archaic Variant
-尓	尔	新异体字 Modern Variant
-爾	尓	久异体字 Archaic Variant
-尓	爾	新异体字 Modern Variant
-尓	尒	异体字 Variant
-尒	尓	异体字 Variant
-尘	塵	繁体 Traditional
-塵	尘	简体 Simplified
-尚	尙	久异体字 Archaic Variant
-尙	尚	新异体字 Modern Variant
-尝	嘗	繁体 Traditional
-嘗	尝	简体 Simplified
-尝	甞	久异体字 Archaic Variant
-甞	尝	新异体字 Modern Variant
-嘗	甞	久异体字 Archaic Variant
-甞	嘗	新异体字 Modern Variant
-尣	尢	异体字 Variant
-尢	尣	异体字 Variant
-尧	堯	繁体 Traditional
-堯	尧	简体 Simplified
-尩	尪	异体字 Variant
-尪	尩	异体字 Variant
-尪	尫	异体字 Variant
-尫	尪	异体字 Variant
-尫	尩	异体字 Variant
-尩	尫	异体字 Variant
-堯	尭	久异体字 Archaic Variant
-尭	堯	新异体字 Modern Variant
-尧	尭	久异体字 Archaic Variant
-尭	尧	新异体字 Modern Variant
-尷	尲	久异体字 Archaic Variant
-尲	尷	新异体字 Modern Variant
-尷	尴	异体字 Variant
-尴	尷	异体字 Variant
-尲	尴	异体字 Variant
-尴	尲	异体字 Variant
-尷	尶	久异体字 Archaic Variant
-尶	尷	新异体字 Modern Variant
-尶	尴	异体字 Variant
-尴	尶	异体字 Variant
-尲	尶	异体字 Variant
-尶	尲	异体字 Variant
-尸	屍	繁体 Traditional
-屍	尸	简体 Simplified
-尽	儘	繁体 Traditional
-儘	尽	简体 Simplified
-尽	盡	繁体 Traditional
-盡	尽	简体 Simplified
-儘	盡	异体字 Variant
-盡	儘	异体字 Variant
-层	層	繁体 Traditional
-層	层	简体 Simplified
-屃	屓	繁体 Traditional
-屓	屃	简体 Simplified
-属	屬	繁体 Traditional
-屬	属	简体 Simplified
-屿	嶼	繁体 Traditional
-嶼	屿	简体 Simplified
-岁	歲	繁体 Traditional
-歲	岁	简体 Simplified
-岳	嶽	繁体 Traditional
-嶽	岳	简体 Simplified
-岭	嶺	繁体 Traditional
-嶺	岭	简体 Simplified
-巡	廵	久异体字 Archaic Variant
-廵	巡	新异体字 Modern Variant
-巢	巣	日文 Japanese
-巣	巢	中文 Chinese
-巩	鞏	繁体 Traditional
-鞏	巩	简体 Simplified
-巯	巰	繁体 Traditional
-巰	巯	简体 Simplified
-巽	巺	久异体字 Archaic Variant
-巺	巽	新异体字 Modern Variant
-匝	帀	久异体字 Archaic Variant
-帀	匝	新异体字 Modern Variant
-币	幣	繁体 Traditional
-幣	币	简体 Simplified
-帅	帥	繁体 Traditional
-帥	帅	简体 Simplified
-师	師	繁体 Traditional
-師	师	简体 Simplified
-紙	帋	久异体字 Archaic Variant
-帋	紙	新异体字 Modern Variant
-纸	帋	久异体字 Archaic Variant
-帋	纸	新异体字 Modern Variant
-纸	紙	繁体 Traditional
-紙	纸	简体 Simplified
-帏	幃	繁体 Traditional
-幃	帏	简体 Simplified
-并	竝	久异体字 Archaic Variant
-竝	并	新异体字 Modern Variant
-並	竝	久异体字 Archaic Variant
-竝	並	新异体字 Modern Variant
-并	幷	久异体字 Archaic Variant
-幷	并	新异体字 Modern Variant
-並	幷	久异体字 Archaic Variant
-幷	並	新异体字 Modern Variant
-张	張	繁体 Traditional
-張	张	简体 Simplified
-乡	鄉	繁体 Traditional
-鄉	乡	简体 Simplified
-广	廣	繁体 Traditional
-廣	广	简体 Simplified
-廳	庁	日文 Japanese
-庁	廳	中文 Chinese
-厅	庁	日文 Japanese
-庁	厅	中文 Chinese
-廣	広	日文 Japanese
-広	廣	中文 Chinese
-广	広	日文 Japanese
-広	广	中文 Chinese
-庄	莊	繁体 Traditional
-莊	庄	简体 Simplified
-麽	庅	久异体字 Archaic Variant
-庅	麽	新异体字 Modern Variant
-么	庅	久异体字 Archaic Variant
-庅	么	新异体字 Modern Variant
-麼	庅	久异体字 Archaic Variant
-庅	麼	新异体字 Modern Variant
-庆	慶	繁体 Traditional
-慶	庆	简体 Simplified
-床	牀	繁体 Traditional
-牀	床	简体 Simplified
-回	廻	久异体字 Archaic Variant
-廻	回	新异体字 Modern Variant
-乃	廼	久异体字 Archaic Variant
-廼	乃	新异体字 Modern Variant
-回	廽	久异体字 Archaic Variant
-廽	回	新异体字 Modern Variant
-廽	廻	异体字 Variant
-廻	廽	异体字 Variant
-卄	廿	异体字 Variant
-廿	卄	异体字 Variant
-开	開	繁体 Traditional
-開	开	简体 Simplified
-异	異	繁体 Traditional
-異	异	简体 Simplified
-弃	棄	繁体 Traditional
-棄	弃	简体 Simplified
-一	弌	久异体字 Archaic Variant
-弌	一	新异体字 Modern Variant
-弎	叄	久异体字 Archaic Variant
-叄	弎	新异体字 Modern Variant
-弎	叁	久异体字 Archaic Variant
-叁	弎	新异体字 Modern Variant
-弐	弍	异体字 Variant
-弍	弐	异体字 Variant
-弑	弒	繁体 Traditional
-弒	弑	简体 Simplified
-吊	弔	繁体 Traditional
-弔	吊	简体 Simplified
-归	歸	繁体 Traditional
-歸	归	简体 Simplified
-当	噹	繁体 Traditional
-噹	当	简体 Simplified
-当	當	繁体 Traditional
-當	当	简体 Simplified
-录	錄	繁体 Traditional
-錄	录	简体 Simplified
-录	録	繁体 Traditional
-録	录	简体 Simplified
-錄	録	异体字 Variant
-録	錄	异体字 Variant
-汇	彙	繁体 Traditional
-彙	汇	简体 Simplified
-彙	彚	久异体字 Archaic Variant
-彚	彙	新异体字 Modern Variant
-汇	彚	久异体字 Archaic Variant
-彚	汇	新异体字 Modern Variant
-彝	彛	久异体字 Archaic Variant
-彛	彝	新异体字 Modern Variant
-彝	彞	繁体 Traditional
-彞	彝	简体 Simplified
-彞	彛	久异体字 Archaic Variant
-彛	彞	新异体字 Modern Variant
-彝	彜	久异体字 Archaic Variant
-彜	彝	新异体字 Modern Variant
-彞	彜	久异体字 Archaic Variant
-彜	彞	新异体字 Modern Variant
-彛	彜	异体字 Variant
-彜	彛	异体字 Variant
-彦	彥	繁体 Traditional
-彥	彦	简体 Simplified
-雕	彫	繁体 Traditional
-彫	雕	简体 Simplified
-仿	彷	异体字 Variant
-彷	仿	异体字 Variant
-彷	髣	久异体字 Archaic Variant
-髣	彷	新异体字 Modern Variant
-仿	髣	久异体字 Archaic Variant
-髣	仿	新异体字 Modern Variant
-彸	伀	异体字 Variant
-伀	彸	异体字 Variant
-彻	徹	繁体 Traditional
-徹	彻	简体 Simplified
-低	彽	久异体字 Archaic Variant
-彽	低	新异体字 Modern Variant
-征	徵	繁体 Traditional
-徵	征	简体 Simplified
-忆	憶	繁体 Traditional
-憶	忆	简体 Simplified
-忏	懺	繁体 Traditional
-懺	忏	简体 Simplified
-戋	戔	繁体 Traditional
-戔	戋	简体 Simplified
-戏	戲	繁体 Traditional
-戲	戏	简体 Simplified
-戗	戧	繁体 Traditional
-戧	戗	简体 Simplified
-战	戰	繁体 Traditional
-戰	战	简体 Simplified
-厄	戹	久异体字 Archaic Variant
-戹	厄	新异体字 Modern Variant
-戾	戻	日文 Japanese
-戻	戾	中文 Chinese
-扑	撲	繁体 Traditional
-撲	扑	简体 Simplified
-考	攷	久异体字 Archaic Variant
-攷	考	新异体字 Modern Variant
-學	斈	久异体字 Archaic Variant
-斈	學	新异体字 Modern Variant
-学	斈	久异体字 Archaic Variant
-斈	学	新异体字 Modern Variant
-学	學	繁体 Traditional
-學	学	简体 Simplified
-斋	齋	繁体 Traditional
-齋	斋	简体 Simplified
-斋	斎	日文 Japanese
-斎	斋	中文 Chinese
-齋	斎	日文 Japanese
-斎	齋	中文 Chinese
-斝	斚	异体字 Variant
-斚	斝	异体字 Variant
-斤	觔	久异体字 Archaic Variant
-觔	斤	新异体字 Modern Variant
-采	採	繁体 Traditional
-採	采	简体 Simplified
-斩	斬	繁体 Traditional
-斬	斩	简体 Simplified
-斫	斮	久异体字 Archaic Variant
-斮	斫	新异体字 Modern Variant
-斫	斲	久异体字 Archaic Variant
-斲	斫	新异体字 Modern Variant
-斮	斲	异体字 Variant
-斲	斮	异体字 Variant
-斫	斵	久异体字 Archaic Variant
-斵	斫	新异体字 Modern Variant
-斵	斲	异体字 Variant
-斲	斵	异体字 Variant
-斮	斵	异体字 Variant
-斵	斮	异体字 Variant
-断	斷	繁体 Traditional
-斷	断	简体 Simplified
-旆	斾	久异体字 Archaic Variant
-斾	旆	新异体字 Modern Variant
-耄	旄	久异体字 Archaic Variant
-旄	耄	新异体字 Modern Variant
-无	無	繁体 Traditional
-無	无	简体 Simplified
-既	旣	久异体字 Archaic Variant
-旣	既	新异体字 Modern Variant
-旧	舊	繁体 Traditional
-舊	旧	简体 Simplified
-时	時	繁体 Traditional
-時	时	简体 Simplified
-旷	曠	繁体 Traditional
-曠	旷	简体 Simplified
-旸	暘	繁体 Traditional
-暘	旸	简体 Simplified
-曳	曵	久异体字 Archaic Variant
-曵	曳	新异体字 Modern Variant
-本	夲	久异体字 Archaic Variant
-夲	本	新异体字 Modern Variant
-术	朮	久异体字 Archaic Variant
-朮	术	新异体字 Modern Variant
-術	朮	久异体字 Archaic Variant
-朮	術	新异体字 Modern Variant
-术	術	繁体 Traditional
-術	术	简体 Simplified
-朴	樸	繁体 Traditional
-樸	朴	简体 Simplified
-缺	欠	异体字 Variant
-欠	缺	异体字 Variant
-欢	歡	繁体 Traditional
-歡	欢	简体 Simplified
-欤	歟	繁体 Traditional
-歟	欤	简体 Simplified
-欧	歐	繁体 Traditional
-歐	欧	简体 Simplified
-步	歩	日文 Japanese
-歩	步	中文 Chinese
-齒	歯	日文 Japanese
-歯	齒	中文 Chinese
-齿	歯	日文 Japanese
-歯	齿	中文 Chinese
-齿	齒	繁体 Traditional
-齒	齿	简体 Simplified
-歲	歳	日文 Japanese
-歳	歲	中文 Chinese
-岁	歳	日文 Japanese
-歳	岁	中文 Chinese
-歺	歹	久异体字 Archaic Variant
-歹	歺	新异体字 Modern Variant
-歼	殲	繁体 Traditional
-殲	歼	简体 Simplified
-殁	歿	繁体 Traditional
-歿	殁	简体 Simplified
-殴	毆	繁体 Traditional
-毆	殴	简体 Simplified
-杀	殺	繁体 Traditional
-殺	杀	简体 Simplified
-毁	毀	繁体 Traditional
-毀	毁	简体 Simplified
-毎	每	日文 Japanese
-每	毎	中文 Chinese
-毕	畢	繁体 Traditional
-畢	毕	简体 Simplified
-毗	毘	久异体字 Archaic Variant
-毘	毗	新异体字 Modern Variant
-毙	斃	繁体 Traditional
-斃	毙	简体 Simplified
-毡	氈	繁体 Traditional
-氈	毡	简体 Simplified
-毵	毿	繁体 Traditional
-毿	毵	简体 Simplified
-气	氣	繁体 Traditional
-氣	气	简体 Simplified
-气	気	日文 Japanese
-気	气	中文 Chinese
-氣	気	日文 Japanese
-気	氣	中文 Chinese
-氢	氫	繁体 Traditional
-氫	氢	简体 Simplified
-尿	氽	异体字 Variant
-氽	尿	异体字 Variant
-沈	瀋	繁体 Traditional
-瀋	沈	简体 Simplified
-没	沒	繁体 Traditional
-沒	没	简体 Simplified
-温	溫	繁体 Traditional
-溫	温	简体 Simplified
-灭	滅	繁体 Traditional
-滅	灭	简体 Simplified
-灯	燈	繁体 Traditional
-燈	灯	简体 Simplified
-灵	靈	繁体 Traditional
-靈	灵	简体 Simplified
-灶	竈	繁体 Traditional
-竈	灶	简体 Simplified
-爱	愛	繁体 Traditional
-愛	爱	简体 Simplified
-爷	爺	繁体 Traditional
-爺	爷	简体 Simplified
-墙	牆	繁体 Traditional
-牆	墙	简体 Simplified
-墙	墻	久异体字 Archaic Variant
-墻	墙	新异体字 Modern Variant
-牆	墻	久异体字 Archaic Variant
-墻	牆	新异体字 Modern Variant
-牍	牘	繁体 Traditional
-牘	牍	简体 Simplified
-牦	氂	繁体 Traditional
-氂	牦	简体 Simplified
-豺	犯	久异体字 Archaic Variant
-犯	豺	新异体字 Modern Variant
-豻	犴	异体字 Variant
-犴	豻	异体字 Variant
-状	狀	繁体 Traditional
-狀	状	简体 Simplified
-犷	獷	繁体 Traditional
-獷	犷	简体 Simplified
-犸	獁	繁体 Traditional
-獁	犸	简体 Simplified
-犹	猶	繁体 Traditional
-猶	犹	简体 Simplified
-玑	璣	繁体 Traditional
-璣	玑	简体 Simplified
-瓯	甌	繁体 Traditional
-甌	瓯	简体 Simplified
-瓶	缾	久异体字 Archaic Variant
-缾	瓶	新异体字 Modern Variant
-瓶	甁	久异体字 Archaic Variant
-甁	瓶	新异体字 Modern Variant
-甁	缾	异体字 Variant
-缾	甁	异体字 Variant
-什	甚	异体字 Variant
-甚	什	异体字 Variant
-甜	甛	久异体字 Archaic Variant
-甛	甜	新异体字 Modern Variant
-苏	甦	繁体 Traditional
-甦	苏	简体 Simplified
-稣	穌	繁体 Traditional
-穌	稣	简体 Simplified
-穌	甦	异体字 Variant
-甦	穌	异体字 Variant
-稣	甦	异体字 Variant
-甦	稣	异体字 Variant
-苏	蘇	繁体 Traditional
-蘇	苏	简体 Simplified
-稣	蘇	异体字 Variant
-蘇	稣	异体字 Variant
-角	甪	久异体字 Archaic Variant
-甪	角	新异体字 Modern Variant
-电	電	繁体 Traditional
-電	电	简体 Simplified
-圢	町	异体字 Variant
-町	圢	异体字 Variant
-画	畫	繁体 Traditional
-畫	画	简体 Simplified
-疏	疎	日文 Japanese
-疎	疏	中文 Chinese
-疖	癤	繁体 Traditional
-癤	疖	简体 Simplified
-疗	療	繁体 Traditional
-療	疗	简体 Simplified
-疟	瘧	繁体 Traditional
-瘧	疟	简体 Simplified
-疠	癘	繁体 Traditional
-癘	疠	简体 Simplified
-發	発	日文 Japanese
-発	發	中文 Chinese
-发	発	日文 Japanese
-発	发	中文 Chinese
-登	豋	久异体字 Archaic Variant
-豋	登	新异体字 Modern Variant
-皂	皁	久异体字 Archaic Variant
-皁	皂	新异体字 Modern Variant
-貌	皃	久异体字 Archaic Variant
-皃	貌	新异体字 Modern Variant
-臯	皋	久异体字 Archaic Variant
-皋	臯	新异体字 Modern Variant
-疱	皰	繁体 Traditional
-皰	疱	简体 Simplified
-皱	皺	繁体 Traditional
-皺	皱	简体 Simplified
-皲	皸	繁体 Traditional
-皸	皲	简体 Simplified
-皸	皹	久异体字 Archaic Variant
-皹	皸	新异体字 Modern Variant
-皲	皹	久异体字 Archaic Variant
-皹	皲	新异体字 Modern Variant
-盍	盇	异体字 Variant
-盇	盍	异体字 Variant
-矫	矯	繁体 Traditional
-矯	矫	简体 Simplified
-矮	躷	久异体字 Archaic Variant
-躷	矮	新异体字 Modern Variant
-矶	磯	繁体 Traditional
-磯	矶	简体 Simplified
-矾	礬	繁体 Traditional
-礬	矾	简体 Simplified
-矿	礦	繁体 Traditional
-礦	矿	简体 Simplified
-砀	碭	繁体 Traditional
-碭	砀	简体 Simplified
-礼	禮	繁体 Traditional
-禮	礼	简体 Simplified
-祃	禡	繁体 Traditional
-禡	祃	简体 Simplified
-祆	祅	异体字 Variant
-祅	祆	异体字 Variant
-只	祇	繁体 Traditional
-祇	只	简体 Simplified
-离	離	繁体 Traditional
-離	离	简体 Simplified
-万	萬	繁体 Traditional
-萬	万	简体 Simplified
-秃	禿	繁体 Traditional
-禿	秃	简体 Simplified
-秆	稈	繁体 Traditional
-稈	秆	简体 Simplified
-籼	秈	繁体 Traditional
-秈	籼	简体 Simplified
-穷	窮	繁体 Traditional
-窮	穷	简体 Simplified
-竖	竪	繁体 Traditional
-竪	竖	简体 Simplified
-竖	豎	繁体 Traditional
-豎	竖	简体 Simplified
-豎	竪	异体字 Variant
-竪	豎	异体字 Variant
-龍	竜	日文 Japanese
-竜	龍	中文 Chinese
-龙	竜	日文 Japanese
-竜	龙	中文 Chinese
-龙	龍	繁体 Traditional
-龍	龙	简体 Simplified
-竞	競	繁体 Traditional
-競	竞	简体 Simplified
-笃	篤	繁体 Traditional
-篤	笃	简体 Simplified
-笋	筍	繁体 Traditional
-筍	笋	简体 Simplified
-节	節	繁体 Traditional
-節	节	简体 Simplified
-籴	糴	繁体 Traditional
-糴	籴	简体 Simplified
-类	類	繁体 Traditional
-類	类	简体 Simplified
-糾	糺	久异体字 Archaic Variant
-糺	糾	新异体字 Modern Variant
-纠	糺	久异体字 Archaic Variant
-糺	纠	新异体字 Modern Variant
-纠	糾	繁体 Traditional
-糾	纠	简体 Simplified
-系	係	繁体 Traditional
-係	系	简体 Simplified
-系	繫	繁体 Traditional
-繫	系	简体 Simplified
-係	繫	异体字 Variant
-繫	係	异体字 Variant
-纪	紀	繁体 Traditional
-紀	纪	简体 Simplified
-纣	紂	繁体 Traditional
-紂	纣	简体 Simplified
-约	約	繁体 Traditional
-約	约	简体 Simplified
-红	紅	繁体 Traditional
-紅	红	简体 Simplified
-纡	紆	繁体 Traditional
-紆	纡	简体 Simplified
-纥	紇	繁体 Traditional
-紇	纥	简体 Simplified
-纨	紈	繁体 Traditional
-紈	纨	简体 Simplified
-经	經	繁体 Traditional
-經	经	简体 Simplified
-绵	綿	繁体 Traditional
-綿	绵	简体 Simplified
-纤	纖	繁体 Traditional
-纖	纤	简体 Simplified
-级	級	繁体 Traditional
-級	级	简体 Simplified
-纩	纊	繁体 Traditional
-纊	纩	简体 Simplified
-纫	紉	繁体 Traditional
-紉	纫	简体 Simplified
-缸	罁	久异体字 Archaic Variant
-罁	缸	新异体字 Modern Variant
-缶	缻	异体字 Variant
-缻	缶	异体字 Variant
-钵	缽	繁体 Traditional
-缽	钵	简体 Simplified
-缽	鉢	异体字 Variant
-鉢	缽	异体字 Variant
-钵	鉢	繁体 Traditional
-鉢	钵	简体 Simplified
-罂	罌	繁体 Traditional
-罌	罂	简体 Simplified
-罂	罃	异体字 Variant
-罃	罂	异体字 Variant
-罌	罃	异体字 Variant
-罃	罌	异体字 Variant
-芈	羋	繁体 Traditional
-羋	芈	简体 Simplified
-羌	羗	久异体字 Archaic Variant
-羗	羌	新异体字 Modern Variant
-豝	羓	异体字 Variant
-羓	豝	异体字 Variant
-翅	翄	久异体字 Archaic Variant
-翄	翅	新异体字 Modern Variant
-软	耎	久异体字 Archaic Variant
-耎	软	新异体字 Modern Variant
-軟	耎	久异体字 Archaic Variant
-耎	軟	新异体字 Modern Variant
-软	軟	繁体 Traditional
-軟	软	简体 Simplified
-秄	耔	异体字 Variant
-耔	秄	异体字 Variant
-耸	聳	繁体 Traditional
-聳	耸	简体 Simplified
-耻	恥	繁体 Traditional
-恥	耻	简体 Simplified
-耽	躭	久异体字 Archaic Variant
-躭	耽	新异体字 Modern Variant
-聂	聶	繁体 Traditional
-聶	聂	简体 Simplified
-肃	肅	繁体 Traditional	
-肅	肃	简体 Simplified
-肇	肈	繁体 Traditional
-肈	肇	简体 Simplified
-网	網	繁体 Traditional
-網	网	简体 Simplified
-罗	羅	繁体 Traditional
-羅	罗	简体 Simplified
-罚	罰	繁体 Traditional
-罰	罚	简体 Simplified
-耈	耇	异体字 Variant
-耇	耈	异体字 Variant
-耉	耈	异体字 Variant
-耈	耉	异体字 Variant
-耉	耇	异体字 Variant
-耇	耉	异体字 Variant
-脔	臠	繁体 Traditional
-臠	脔	简体 Simplified
-致	緻	繁体 Traditional
-緻	致	简体 Simplified
-台	臺	繁体 Traditional
-臺	台	简体 Simplified
-台	檯	繁体 Traditional
-檯	台	简体 Simplified
-台	颱	繁体 Traditional
-颱	台	简体 Simplified
-舃	舄	异体字 Variant
-舄	舃	异体字 Variant
-舆	輿	繁体 Traditional
-輿	舆	简体 Simplified
-衅	舋	久异体字 Archaic Variant
-舋	衅	新异体字 Modern Variant
-衅	釁	繁体 Traditional
-釁	衅	简体 Simplified
-釁	舋	久异体字 Archaic Variant
-舋	釁	新异体字 Modern Variant
-舍	捨	繁体 Traditional
-捨	舍	简体 Simplified
-舓	舐	异体字 Variant
-舐	舓	异体字 Variant
-舖	鋪	异体字 Variant
-鋪	舖	异体字 Variant
-铺	鋪	繁体 Traditional
-鋪	铺	简体 Simplified
-铺	舖	繁体 Traditional
-舖	铺	简体 Simplified
-舖	舗	日文 Japanese
-舗	舖	中文 Chinese
-鋪	舗	日文 Japanese
-舗	鋪	中文 Chinese
-铺	舗	日文 Japanese
-舗	铺	中文 Chinese
-舣	艤	繁体 Traditional
-艤	舣	简体 Simplified
-艰	艱	繁体 Traditional
-艱	艰	简体 Simplified
-艳	艷	繁体 Traditional
-艷	艳	简体 Simplified
-艳	艶	日文 Japanese
-艶	艳	中文 Chinese
-艷	艶	日文 Japanese
-艶	艷	中文 Chinese
-艺	藝	繁体 Traditional
-藝	艺	简体 Simplified
-艺	秇	久异体字 Archaic Variant
-秇	艺	新异体字 Modern Variant
-艺	藝	久异体字 Archaic Variant
-藝	秇	新异体字 Modern Variant
-荆	荊	繁体 Traditional
-荊	荆	简体 Simplified
-虏	虜	繁体 Traditional
-虜	虏	简体 Simplified
-虑	慮	繁体 Traditional
-慮	虑	简体 Simplified
-虚	虛	繁体 Traditional
-虛	虚	简体 Simplified
-虬	虯	繁体 Traditional
-虯	虬	简体 Simplified
-虮	蟣	繁体 Traditional
-蟣	虮	简体 Simplified
-虱	蝨	繁体 Traditional
-蝨	虱	简体 Simplified
-虽	雖	繁体 Traditional
-雖	虽	简体 Simplified
-蛮	蠻	繁体 Traditional
-蠻	蛮	简体 Simplified
-衂	衄	异体字 Variant
-衄	衂	异体字 Variant
-衔	銜	繁体 Traditional
-銜	衔	简体 Simplified
-同	衕	繁体 Traditional
-衕	同	简体 Simplified
-胡	衚	繁体 Traditional
-衚	胡	简体 Simplified
-胡	鬍	繁体 Traditional
-鬍	胡	简体 Simplified
-补	補	繁体 Traditional
-補	补	简体 Simplified
-表	錶	繁体 Traditional
-錶	表	简体 Simplified
-衬	襯	繁体 Traditional
-襯	衬	简体 Simplified
-衮	袞	繁体 Traditional
-袞	衮	简体 Simplified
-核	覈	繁体 Traditional
-覈	核	简体 Simplified
-观	覌	久异体字 Archaic Variant
-覌	观	新异体字 Modern Variant
-规	規	繁体 Traditional
-規	规	简体 Simplified
-觅	覓	繁体 Traditional
-覓	觅	简体 Simplified
-觅	覔	久异体字 Archaic Variant
-覔	觅	新异体字 Modern Variant
-覓	覔	久异体字 Archaic Variant
-覔	覓	新异体字 Modern Variant
-觇	覘	繁体 Traditional
-覘	觇	简体 Simplified
-觉	覺	繁体 Traditional
-覺	觉	简体 Simplified
-觉	覚	日文 Japanese
-覚	觉	中文 Chinese
-覺	覚	日文 Japanese
-覚	覺	中文 Chinese
-觌	覿	繁体 Traditional
-覿	觌	简体 Simplified
-觃	覎	繁体 Traditional
-覎	觃	简体 Simplified
-览	覽	繁体 Traditional
-覽	览	简体 Simplified
-觊	覬	繁体 Traditional
-覬	觊	简体 Simplified
-觋	覡	繁体 Traditional
-覡	觋	简体 Simplified
-觍	覥	繁体 Traditional
-覥	觍	简体 Simplified
-觎	覦	繁体 Traditional
-覦	觎	简体 Simplified
-觏	覯	繁体 Traditional
-覯	觏	简体 Simplified
-觐	覲	繁体 Traditional
-覲	觐	简体 Simplified
-觑	覷	繁体 Traditional
-覷	觑	简体 Simplified
-觞	觴	繁体 Traditional
-觴	觞	简体 Simplified
-订	訂	繁体 Traditional
-訂	订	简体 Simplified
-讣	訃	繁体 Traditional
-訃	讣	简体 Simplified
-计	計	繁体 Traditional
-計	计	简体 Simplified
-讯	訊	繁体 Traditional
-訊	讯	简体 Simplified
-讧	訌	繁体 Traditional
-訌	讧	简体 Simplified
-讨	討	繁体 Traditional
-討	讨	简体 Simplified
-讦	訐	繁体 Traditional
-訐	讦	简体 Simplified
-认	認	繁体 Traditional
-認	认	简体 Simplified
-讥	譏	繁体 Traditional
-譏	讥	简体 Simplified
-让	讓	繁体 Traditional
-讓	让	简体 Simplified
-讪	訕	繁体 Traditional
-訕	讪	简体 Simplified
-讫	訖	繁体 Traditional
-訖	讫	简体 Simplified
-讬	託	繁体 Traditional
-託	讬	简体 Simplified
-岂	豈	繁体 Traditional
-豈	岂	简体 Simplified
-丰	豊	日文 Japanese
-豊	丰	中文 Chinese
-豐	豊	日文 Japanese
-豊	豐	中文 Chinese
-丰	豐	繁体 Traditional
-豐	丰	简体 Simplified
-豔	豓	异体字 Variant
-豓	豔	异体字 Variant
-豔	艶	日文 Japanese
-艶	豔	中文 Chinese
-豓	艶	日文 Japanese
-艶	豓	中文 Chinese
-豚	豘	久异体字 Archaic Variant
-豘	豚	新异体字 Modern Variant
-豜	豣	异体字 Variant
-豣	豜	异体字 Variant
-贞	貞	繁体 Traditional
-貞	贞	简体 Simplified
-贠	貟	繁体 Traditional
-貟	贠	简体 Simplified
-负	負	繁体 Traditional
-負	负	简体 Simplified
-财	財	繁体 Traditional
-財	财	简体 Simplified
-责	責	繁体 Traditional
-責	责	简体 Simplified
-贡	貢	繁体 Traditional
-貢	贡	简体 Simplified
-贫	貧	繁体 Traditional
-貧	贫	简体 Simplified
-货	貨	繁体 Traditional
-貨	货	简体 Simplified
-贩	販	繁体 Traditional
-販	贩	简体 Simplified
-贪	貪	繁体 Traditional
-貪	贪	简体 Simplified
-赪	赬	繁体 Traditional
-赬	赪	简体 Simplified
-走	赱	久异体字 Archaic Variant
-赱	走	新异体字 Modern Variant
-赵	趙	繁体 Traditional
-趙	赵	简体 Simplified
-赶	趕	繁体 Traditional
-趕	赶	简体 Simplified
-趁	趂	久异体字 Archaic Variant
-趂	趁	新异体字 Modern Variant
-趸	躉	繁体 Traditional
-躉	趸	简体 Simplified
-躬	躳	久异体字 Archaic Variant
-躳	躬	新异体字 Modern Variant
-躯	軀	繁体 Traditional
-軀	躯	简体 Simplified
-體	躰	久异体字 Archaic Variant
-躰	體	新异体字 Modern Variant
-体	躰	久异体字 Archaic Variant
-躰	体	新异体字 Modern Variant
-躲	躱	久异体字 Archaic Variant
-躱	躲	新异体字 Modern Variant
-轧	軋	繁体 Traditional
-軋	轧	简体 Simplified
-轨	軌	繁体 Traditional
-軌	轨	简体 Simplified
-轩	軒	繁体 Traditional
-軒	轩	简体 Simplified
-轫	軔	繁体 Traditional
-軔	轫	简体 Simplified
-辞	辭	繁体 Traditional
-辭	辞	简体 Simplified
-辞	辤	久异体字 Archaic Variant
-辤	辞	新异体字 Modern Variant
-辭	辤	久异体字 Archaic Variant
-辤	辭	新异体字 Modern Variant
-辟	闢	繁体 Traditional
-闢	辟	简体 Simplified
-辣	辢	久异体字 Archaic Variant
-辢	辣	新异体字 Modern Variant
-贤	賢	繁体 Traditional
-賢	贤	简体 Simplified
-败	敗	繁体 Traditional
-敗	败	简体 Simplified
-账	賬	繁体 Traditional
-賬	账	简体 Simplified
-转	轉	繁体 Traditional
-轉	转	简体 Simplified
-轭	軛	繁体 Traditional
-軛	轭	简体 Simplified
-轮	輪	繁体 Traditional
-輪	轮	简体 Simplified
-轰	轟	繁体 Traditional
-轟	轰	简体 Simplified
-轱	軲	繁体 Traditional
-軲	轱	简体 Simplified
-边	邊	繁体 Traditional
-邊	边	简体 Simplified
-边	辺	日文 Japanese
-辺	边	中文 Chinese
-邊	辺	日文 Japanese
-辺	邊	中文 Chinese
-辽	遼	繁体 Traditional
-遼	辽	简体 Simplified
-达	達	繁体 Traditional
-達	达	简体 Simplified
-迁	遷	繁体 Traditional
-遷	迁	简体 Simplified
-邓	鄧	繁体 Traditional
-鄧	邓	简体 Simplified
-邝	鄺	繁体 Traditional
-鄺	邝	简体 Simplified
-郑	鄭	繁体 Traditional
-鄭	郑	简体 Simplified
-釋	釈	日文 Japanese
-釈	釋	中文 Chinese
-释	釋	繁体 Traditional
-釋	释	简体 Simplified
-释	釈	日文 Japanese
-釈	释	中文 Chinese
-里	裏	繁体 Traditional
-裏	里	简体 Simplified
-里	裡	繁体 Traditional
-裡	里	简体 Simplified
-厘	釐	繁体 Traditional
-釐	厘	简体 Simplified
-钆	釓	繁体 Traditional
-釓	钆	简体 Simplified
-钇	釔	繁体 Traditional
-釔	钇	简体 Simplified
-钌	釕	繁体 Traditional
-釕	钌	简体 Simplified
-钊	釗	繁体 Traditional
-釗	钊	简体 Simplified
-钉	釘	繁体 Traditional
-釘	钉	简体 Simplified
-钋	釙	繁体 Traditional
-釙	钋	简体 Simplified
-针	針	繁体 Traditional
-針	针	简体 Simplified
-钍	釷	繁体 Traditional
-釷	钍	简体 Simplified
-钎	釺	繁体 Traditional
-釺	钎	简体 Simplified
-钏	釧	繁体 Traditional
-釧	钏	简体 Simplified
-钐	釤	繁体 Traditional
-釤	钐	简体 Simplified
-闩	閂	繁体 Traditional
-閂	闩	简体 Simplified
-闪	閃	繁体 Traditional
-閃	闪	简体 Simplified
-闫	閆	繁体 Traditional
-閆	闫	简体 Simplified
-閉	閇	久异体字 Archaic Variant
-閇	閉	新异体字 Modern Variant
-闭	閇	久异体字 Archaic Variant
-閇	闭	新异体字 Modern Variant
-闭	閉	繁体 Traditional
-閉	闭	简体 Simplified
-闬	閈	繁体 Traditional
-閈	闬	简体 Simplified
-闶	閌	繁体 Traditional
-閌	闶	简体 Simplified
-闳	閎	繁体 Traditional
-閎	闳	简体 Simplified
-闰	閏	繁体 Traditional
-閏	闰	简体 Simplified
-问	問	繁体 Traditional
-問	问	简体 Simplified
-闯	闖	繁体 Traditional
-闖	闯	简体 Simplified
-闱	闈	繁体 Traditional
-闈	闱	简体 Simplified
-闲	閑	繁体 Traditional
-閑	闲	简体 Simplified
-队	隊	繁体 Traditional
-隊	队	简体 Simplified
-仟	阡	异体字 Variant
-阡	仟	异体字 Variant
-隸	隷	日文 Japanese
-隷	隶	中文 Chinese
-隶	隷	日文 Japanese
-隷	隸	中文 Chinese
-隶	隸	繁体 Traditional
-隸	隶	简体 Simplified
-隽	雋	繁体 Traditional
-雋	隽	简体 Simplified
-难	難	繁体 Traditional
-難	难	简体 Simplified
-雳	靂	繁体 Traditional
-靂	雳	简体 Simplified
-青	靑	久异体字 Archaic Variant
-靑	青	新异体字 Modern Variant
-靓	靚	繁体 Traditional
-靚	靓	简体 Simplified
-静	靜	繁体 Traditional
-靜	静	简体 Simplified
-靥	靨	繁体 Traditional
-靨	靥	简体 Simplified
-腼	靦	繁体 Traditional
-靦	腼	简体 Simplified
-䩄	靦	繁体 Traditional
-靦	䩄	简体 Simplified
-靦	覥	异体字 Variant
-覥	靦	异体字 Variant
-䩄	覥	异体字 Variant
-覥	䩄	异体字 Variant
-韌	靭	久异体字 Archaic Variant
-靭	韌	新异体字 Modern Variant
-韧	靭	久异体字 Archaic Variant
-靭	韧	新异体字 Modern Variant
-韧	韌	繁体 Traditional
-韌	韧	简体 Simplified
-韌	肕	久异体字 Archaic Variant
-肕	韌	新异体字 Modern Variant
-韧	肕	久异体字 Archaic Variant
-肕	韧	新异体字 Modern Variant
-肕	靭	异体字 Variant
-靭	肕	异体字 Variant
-韌	靱	久异体字 Archaic Variant
-靱	韌	新异体字 Modern Variant
-韧	靱	久异体字 Archaic Variant
-靱	韧	新异体字 Modern Variant
-肕	靱	异体字 Variant
-靱	肕	异体字 Variant
-靭	靱	异体字 Variant
-靱	靭	异体字 Variant
-韨	韍	繁体 Traditional
-韍	韨	简体 Simplified
-韩	韓	繁体 Traditional
-韓	韩	简体 Simplified
-韪	韙	繁体 Traditional
-韙	韪	简体 Simplified
-韫	韞	繁体 Traditional
-韞	韫	简体 Simplified
-韬	韜	繁体 Traditional
-韜	韬	简体 Simplified
-韭	韮	久异体字 Archaic Variant
-韮	韭	新异体字 Modern Variant
-韱	韯	异体字 Variant
-韯	韱	异体字 Variant
-韵	韻	繁体 Traditional
-韻	韵	简体 Simplified
-响	響	繁体 Traditional
-響	响	简体 Simplified
-顶	頂	繁体 Traditional
-頂	顶	简体 Simplified
-顷	頃	繁体 Traditional
-頃	顷	简体 Simplified
-项	項	繁体 Traditional
-項	项	简体 Simplified
-顺	順	繁体 Traditional
-順	顺	简体 Simplified
-顸	頇	繁体 Traditional
-頇	顸	简体 Simplified
-须	須	繁体 Traditional
-須	须	简体 Simplified
-顼	頊	繁体 Traditional
-頊	顼	简体 Simplified
-颜	顏	繁体 Traditional
-顏	颜	简体 Simplified
-颜	顔	繁体 Traditional
-顔	颜	简体 Simplified
-顔	顏	异体字 Variant
-顏	顔	异体字 Variant
-飐	颭	繁体 Traditional
-颭	飐	简体 Simplified
-飑	飑	繁体 Traditional
-飑	飑	简体 Simplified
-飒	颯	繁体 Traditional
-颯	飒	简体 Simplified
-刮	颳	繁体 Traditional
-颳	刮	简体 Simplified
-飓	颶	繁体 Traditional
-颶	飓	简体 Simplified
-飔	颸	繁体 Traditional
-颸	飔	简体 Simplified
-饥	飢	繁体 Traditional
-飢	饥	简体 Simplified
-饤	飣	繁体 Traditional
-飣	饤	简体 Simplified
-饦	飥	繁体 Traditional
-飥	饦	简体 Simplified
-飨	饗	繁体 Traditional
-饗	飨	简体 Simplified
-饨	飩	繁体 Traditional
-飩	饨	简体 Simplified
-饪	飪	繁体 Traditional
-飪	饪	简体 Simplified
-饫	飫	繁体 Traditional
-飫	饫	简体 Simplified
-饧	餳	繁体 Traditional
-餳	饧	简体 Simplified
-饩	餼	繁体 Traditional
-餼	饩	简体 Simplified
-饬	飭	繁体 Traditional
-飭	饬	简体 Simplified
-饭	飯	繁体 Traditional
-飯	饭	简体 Simplified
-饮	飲	繁体 Traditional
-飲	饮	简体 Simplified
-驭	馭	繁体 Traditional
-馭	驭	简体 Simplified
-驮	馱	繁体 Traditional
-馱	驮	简体 Simplified
-驮	駄	日文 Japanese
-馱	駄	日文 Japanese
-驯	馴	繁体 Traditional
-馴	驯	简体 Simplified
-驰	馳	繁体 Traditional
-馳	驰	简体 Simplified
-驱	驅	繁体 Traditional
-驅	驱	简体 Simplified
-驲	馹	繁体 Traditional
-馹	驲	简体 Simplified
-驳	駁	繁体 Traditional
-駁	驳	简体 Simplified
-驴	驢	繁体 Traditional
-驢	驴	简体 Simplified
-驴	馿	久异体字 Archaic Variant
-馿	驴	新异体字 Modern Variant
-驢	馿	久异体字 Archaic Variant
-馿	驢	新异体字 Modern Variant
-驵	駔	繁体 Traditional
-駔	驵	简体 Simplified
-驶	駛	繁体 Traditional
-駛	驶	简体 Simplified
-驷	駟	繁体 Traditional
-駟	驷	简体 Simplified
-驸	駙	繁体 Traditional
-駙	驸	简体 Simplified
-馩	馚	异体字 Variant
-馚	馩	异体字 Variant
-肮	骯	繁体 Traditional
-骯	肮	简体 Simplified
-高	髙	久异体字 Archaic Variant
-髙	高	新异体字 Modern Variant
-髡	髠	异体字 Variant
-髠	髡	异体字 Variant
-髮	髪	日文 Japanese
-髪	髮	中文 Chinese
-发	髪	日文 Japanese
-髪	发	中文 Chinese
-闹	鬧	繁体 Traditional
-鬧	闹	简体 Simplified
-哄	鬨	繁体 Traditional
-鬨	哄	简体 Simplified
-阋	鬩	繁体 Traditional
-鬩	阋	简体 Simplified
-阄	鬮	繁体 Traditional
-鬮	阄	简体 Simplified
-鬱	鬰	久异体字 Archaic Variant
-鬰	鬱	新异体字 Modern Variant
-魇	魘	繁体 Traditional
-魘	魇	简体 Simplified
-魉	魎	繁体 Traditional
-魎	魉	简体 Simplified
-鱽	魛	繁体 Traditional
-魛	鱽	简体 Simplified
-鱾	魢	繁体 Traditional
-魢	鱾	简体 Simplified
-鲀	魨	繁体 Traditional
-魨	鲀	简体 Simplified
-顽	頑	繁体 Traditional
-頑	顽	简体 Simplified
-顾	顧	繁体 Traditional
-顧	顾	简体 Simplified
-顾	頋	久异体字 Archaic Variant
-頋	顾	新异体字 Modern Variant
-顧	頋	久异体字 Archaic Variant
-頋	顧	新异体字 Modern Variant
-顿	頓	繁体 Traditional
-頓	顿	简体 Simplified
-颀	頎	繁体 Traditional
-頎	颀	简体 Simplified
-颁	頒	繁体 Traditional
-頒	颁	简体 Simplified
-颁	朌	久异体字 Archaic Variant
-朌	颁	新异体字 Modern Variant
-頒	朌	久异体字 Archaic Variant
-朌	頒	新异体字 Modern Variant
-飏	颺	繁体 Traditional
-颺	飏	简体 Simplified
-飖	颻	繁体 Traditional
-颻	飖	简体 Simplified
-飕	颼	繁体 Traditional
-颼	飕	简体 Simplified
-飗	飀	繁体 Traditional
-飀	飗	简体 Simplified
-飘	飄	繁体 Traditional
-飄	飘	简体 Simplified
-飙	飆	繁体 Traditional
-飆	飙	简体 Simplified
-飙	飚	久异体字 Archaic Variant
-飚	飙	新异体字 Modern Variant
-飆	飚	久异体字 Archaic Variant
-飚	飆	新异体字 Modern Variant
-鱿	魷	繁体 Traditional
-魷	鱿	简体 Simplified
-鲂	魴	繁体 Traditional
-魴	鲂	简体 Simplified
-鲃	䰾	繁体 Traditional
-䰾	鲃	简体 Simplified
-鲅	鮁	繁体 Traditional
-鮁	鲅	简体 Simplified
-鲆	鮃	繁体 Traditional
-鮃	鲆	简体 Simplified
-鲇	鮎	繁体 Traditional
-鮎	鲇	简体 Simplified
-鲇	鯰	繁体 Traditional
-鯰	鲇	简体 Simplified
-鮎	鯰	异体字 Variant
-鯰	鮎	异体字 Variant
-鲶	鯰	繁体 Traditional
-鯰	鲶	简体 Simplified
-鲶	鮎	繁体 Traditional
-鮎	鲶	简体 Simplified
-鲶	鲇	异体字 Variant
-鲇	鲶	异体字 Variant
-鲈	鱸	繁体 Traditional
-鱸	鲈	简体 Simplified
-鸠	鳩	繁体 Traditional
-鳩	鸠	简体 Simplified
-鸡	雞	繁体 Traditional
-雞	鸡	简体 Simplified
-鸡	鷄	繁体 Traditional
-鷄	鸡	简体 Simplified
-鷄	雞	异体字 Variant
-雞	鷄	异体字 Variant
-鸢	鳶	繁体 Traditional
-鳶	鸢	简体 Simplified
-鸣	鳴	繁体 Traditional
-鳴	鸣	简体 Simplified
-鸤	鳲	繁体 Traditional
-鳲	鸤	简体 Simplified
-鸥	鷗	繁体 Traditional
-鷗	鸥	简体 Simplified
-鸦	鴉	繁体 Traditional
-鴉	鸦	简体 Simplified
-鸧	鶬	繁体 Traditional
-鶬	鸧	简体 Simplified
-鸨	鴇	繁体 Traditional
-鴇	鸨	简体 Simplified
-鸩	鴆	繁体 Traditional
-鴆	鸩	简体 Simplified
-龚	龔	繁体 Traditional
-龔	龚	简体 Simplified
-龛	龕	繁体 Traditional
-龕	龛	简体 Simplified
-鹾	鹺	繁体 Traditional
-鹺	鹾	简体 Simplified
-麸	麩	繁体 Traditional
-麩	麸	简体 Simplified
-麺	麵	繁体 Traditional
-麵	麺	简体 Simplified
-面	麵	繁体 Traditional
-麵	面	简体 Simplified
-鼋	黿	繁体 Traditional
-黿	鼋	简体 Simplified
-鼍	鼉	繁体 Traditional
-鼉	鼍	简体 Simplified
-齐	齊	繁体 Traditional
-齊	齐	简体 Simplified
-齑	齏	繁体 Traditional
-齏	齑	简体 Simplified
-齊	亝	异体字 Variant
-亝	齊	异体字 Variant
-齊	斉	久异体字 Archaic Variant
-斉	齊	新异体字 Modern Variant
-斋	齊	异体字 Variant
-齊	斋	异体字 Variant
-齋	齊	异体字 Variant
-齊	齋	异体字 Variant
-龀	齔	繁体 Traditional
-齔	龀	简体 Simplified
-龁	齕	繁体 Traditional
-齕	龁	简体 Simplified
-龂	齗	繁体 Traditional
-齗	龂	简体 Simplified
-龃	齟	繁体 Traditional
-齟	龃	简体 Simplified
-龄	齡	繁体 Traditional
-齡	龄	简体 Simplified
-龅	齙	繁体 Traditional
-齙	龅	简体 Simplified
-龆	齠	繁体 Traditional
-齠	龆	简体 Simplified
-龇	齜	繁体 Traditional
-齜	龇	简体 Simplified
-龈	齦	繁体 Traditional
-齦	龈	简体 Simplified
-龉	齬	繁体 Traditional
-齬	龉	简体 Simplified
-龊	齪	繁体 Traditional
-齪	龊	简体 Simplified
-龋	齲	繁体 Traditional
-齲	龋	简体 Simplified
-龌	齷	繁体 Traditional
-齷	龌	简体 Simplified
-焰	燄	异体字 Variant
-燄	焰	异体字 Variant
-絃	弦	新异体字 Modern Variant
-弦	絃	久异体字 Archaic Variant
-涅	湼	新异体字 Modern Variant
-涅	涅	久异体字 Archaic Variant
-茷	笩	久异体字 Archaic Variant
-笩	茷	新异体字 Modern Variant
-鹅	鵝	繁体 Traditional
-鵝	鹅	简体 Simplified
-峡	峽	繁体 Traditional
-峽	峡	简体 Simplified
-诃	訶	繁体 Traditional
-訶	诃	简体 Simplified
-险	崄	久异体字 Archaic Variant
-崄	险	新异体字 Modern Variant
-險	崄	久异体字 Archaic Variant
-崄	險	新异体字 Modern Variant
-衲	纳	新异体字 Modern Variant
-纳	衲	久异体字 Archaic Variant
-衲	納	新异体字 Modern Variant
-納	衲	久异体字 Archaic Variant
-壊	坏	新异体字 Modern Variant
-坏	壊	久异体字 Archaic Variant
-蕅	藕	新异体字 Modern Variant
-藕	蕅	久异体字 Archaic Variant
-淸	清	新异体字 Modern Variant
-清	淸	久异体字 Archaic Variant
-诚	誠	繁体 Traditional
-誠	诚	简体 Simplified
+县	縣	Traditional
+縣	县	Simplified
+纮	紘	Traditional
+紘	纮	Simplified
+义	義	Traditional
+義	义	Simplified
+翘	翹	Traditional
+翹	翘	Simplified
+讠	訁	Traditional
+訁	讠	Simplified
+访	訪	Traditional
+訪	访	Simplified
+诞	誕	Traditional
+誕	诞	Simplified
+谋	謀	Traditional
+謀	谋	Simplified
+贝	貝	Traditional
+貝	贝	Simplified
+贼	賊	Traditional
+賊	贼	Simplified
+质	質	Traditional
+質	质	Simplified
+赠	贈	Traditional
+贈	赠	Simplified
+车	車	Traditional
+車	车	Simplified
+鱼	魚	Traditional
+魚	鱼	Simplified
+凤	鳳	Traditional
+鳳	凤	Simplified
+盐	鹽	Traditional
+鹽	盐	Simplified
+鹽	䀋	Archaic Variant
+䀋	鹽	Modern Variant
+鹽	塩	Archaic Variant
+塩	鹽	Modern Variant
+鲁	魯	Traditional
+魯	鲁	Simplified
+参	參	Traditional
+參	参	Simplified
+參	叅	Variant
+叅	參	Variant
+宪	憲	Traditional
+憲	宪	Simplified
+曾	曽	Variant
+曽	曾	Variant
+为	為	Traditional
+為	为	Simplified
+为	爲	Traditional
+爲	为	Simplified
+為	爲	Variant
+爲	為	Variant
+卢	盧	Traditional
+盧	卢	Simplified
+御	禦	Traditional
+禦	御	Simplified
+华	華	Traditional
+華	华	Simplified
+觌	覿	Traditional
+覿	觌	Simplified
+观	觀	Traditional
+觀	观	Simplified
+覌	觀	Modern Variant
+觀	覌	Archaic Variant
+伦	倫	Traditional
+倫	伦	Simplified
+国	國	Traditional
+國	国	Simplified
+明	朙	Archaic Variant
+朙	明	Modern Variant
+闻	聞	Traditional
+聞	闻	Simplified
+荆	荊	Traditional
+荊	荆	Simplified
+仪	儀	Traditional
+儀	仪	Simplified
+週	周	Variant
+周	週	Variant
+晋	晉	Traditional
+晉	晋	Simplified
+举	舉	Traditional
+舉	举	Simplified
+荐	薦	Traditional
+薦	荐	Simplified
+长	長	Traditional
+長	长	Simplified
+颇	頗	Traditional
+頗	颇	Simplified
+颋	頲	Traditional
+頲	颋	Simplified
+颢	顥	Traditional
+顥	颢	Simplified
+禄	祿	Traditional
+祿	禄	Simplified
+蛮	蠻	Traditional
+蠻	蛮	Simplified
+万	萬	Traditional
+萬	万	Simplified
+与	與	Traditional
+與	与	Simplified
+丑	醜	Traditional
+醜	丑	Simplified
+专	專	Traditional
+專	专	Simplified
+业	業	Traditional
+業	业	Simplified
+丛	叢	Traditional
+叢	丛	Simplified
+东	東	Traditional
+東	东	Simplified
+丝	絲	Traditional
+絲	丝	Simplified
+丟	丢	Traditional
+丢	丟	Simplified
+两	兩	Traditional
+兩	两	Simplified
+严	嚴	Traditional
+嚴	严	Simplified
+丽	麗	Traditional
+麗	丽	Simplified
+并	並	Traditional
+並	并	Simplified
+丧	喪	Traditional
+喪	丧	Simplified
+个	個	Traditional
+個	个	Simplified
+丰	豐	Traditional
+豐	丰	Simplified
+临	臨	Traditional
+臨	临	Simplified
+久	乆	Archaic Variant
+乆	久	Modern Variant
+么	幺	Variant
+幺	么	Variant
+么	麼	Traditional
+麼	么	Simplified
+么	麽	Traditional
+麽	么	Simplified
+麼	麽	Variant
+麽	麼	Variant
+乌	烏	Traditional
+烏	乌	Simplified
+乐	樂	Traditional
+樂	乐	Simplified
+乔	喬	Traditional
+喬	乔	Simplified
+乗	乘	Modern Variant
+乘	乗	Archaic Variant
+九	玖	Variant
+玖	九	Variant
+习	習	Traditional
+習	习	Simplified
+书	書	Traditional
+書	书	Simplified
+买	買	Traditional
+買	买	Simplified
+乱	亂	Traditional
+亂	乱	Simplified
+干	乾	Traditional
+乾	干	Simplified
+乾	亁	Variant
+亁	乾	Variant
+争	爭	Traditional
+爭	争	Simplified
+亊	事	Modern Variant
+事	亊	Archaic Variant
+二	弍	Variant
+弍	二	Variant
+于	於	Traditional
+於	于	Simplified
+亏	虧	Traditional
+虧	亏	Simplified
+云	雲	Traditional
+雲	云	Simplified
+其	亓	Archaic Variant
+亓	其	Modern Variant
+五	伍	Variant
+伍	五	Variant
+井	丼	Variant
+丼	井	Variant
+岁	亗	Archaic Variant
+亗	岁	Modern Variant
+歲	亗	Archaic Variant
+亗	歲	Modern Variant
+亗	𡻕	Variant
+𡻕	亗	Variant
+亘	亙	Variant
+亙	亘	Variant
+亚	亞	Traditional
+亞	亚	Simplified
+亚	亜	Archaic Variant
+亜	亚	Modern Variant
+亞	亜	Archaic Variant
+亜	亞	Modern Variant
+产	產	Traditional
+產	产	Simplified
+产	産	Traditional
+産	产	Simplified
+產	産	Variant
+産	產	Variant
+亩	畝	Traditional
+畝	亩	Simplified
+京	亰	Archaic Variant
+亰	京	Modern Variant
+享	亯	Archaic Variant
+亯	享	Modern Variant
+夜	亱	Archaic Variant
+亱	夜	Modern Variant
+亲	親	Traditional
+親	亲	Simplified
+亵	褻	Traditional
+褻	亵	Simplified
+廉	亷	Variant
+亷	廉	Variant
+亸	嚲	Traditional
+嚲	亸	Simplified
+集	亼	Archaic Variant
+亼	集	Modern Variant
+亡	亾	Archaic Variant
+亾	亡	Modern Variant
+亿	億	Traditional
+億	亿	Simplified
+仅	僅	Traditional
+僅	仅	Simplified
+仆	僕	Traditional
+僕	仆	Simplified
+从	從	Traditional
+從	从	Simplified
+佛	仏	Archaic Variant
+仏	佛	Modern Variant
+仑	侖	Traditional
+侖	仑	Simplified
+仓	倉	Traditional
+倉	仓	Simplified
+他	牠	Variant
+牠	他	Variant
+仭	仞	Variant
+仞	仭	Variant
+仟	千	Variant
+千	仟	Variant
+令	令	Archaic Variant
+令	令	Modern Variant
+们	們	Traditional
+們	们	Simplified
+假	仮	Archaic Variant
+仮	假	Modern Variant
+伀	彸	Variant
+彸	伀	Variant
+众	眾	Traditional
+眾	众	Simplified
+众	衆	Traditional
+衆	众	Simplified
+眾	衆	Variant
+衆	眾	Variant
+优	優	Traditional
+優	优	Simplified
+会	會	Traditional
+會	会	Simplified
+伛	傴	Traditional
+傴	伛	Simplified
+伞	傘	Traditional
+傘	伞	Simplified
+伟	偉	Traditional
+偉	伟	Simplified
+传	傳	Traditional
+傳	传	Simplified
+伣	俔	Traditional
+俔	伣	Simplified
+儿	兒	Traditional
+兒	儿	Simplified
+凶	兇	Traditional
+兇	凶	Simplified
+内	內	Traditional
+內	内	Simplified
+俞	兪	Variant
+兪	俞	Variant
+兰	蘭	Traditional
+蘭	兰	Simplified
+天	兲	Archaic Variant
+兲	天	Modern Variant
+关	關	Traditional
+關	关	Simplified
+兴	興	Traditional
+興	兴	Simplified
+茲	兹	Traditional
+兹	茲	Simplified
+兹	玆	Archaic Variant
+玆	兹	Modern Variant
+茲	玆	Archaic Variant
+玆	茲	Modern Variant
+养	養	Traditional
+養	养	Simplified
+兽	獸	Traditional
+獸	兽	Simplified
+兾	冀	Variant
+冀	兾	Variant
+冁	囅	Traditional
+囅	冁	Simplified
+冉	冄	Variant
+冄	冉	Variant
+冈	岡	Traditional
+岡	冈	Simplified
+冊	册	Traditional
+册	冊	Simplified
+冋	冂	Variant
+冂	冋	Variant
+冒	冐	Variant
+冐	冒	Variant
+冗	宂	Archaic Variant
+宂	冗	Modern Variant
+写	寫	Traditional
+寫	写	Simplified
+军	軍	Traditional
+軍	军	Simplified
+农	農	Traditional
+農	农	Simplified
+宜	冝	Archaic Variant
+冝	宜	Modern Variant
+富	冨	Archaic Variant
+冨	富	Modern Variant
+寫	冩	Archaic Variant
+冩	寫	Modern Variant
+幂	冪	Traditional
+冪	幂	Simplified
+冰	氷	Archaic Variant
+氷	冰	Modern Variant
+冯	馮	Traditional
+馮	冯	Simplified
+冲	沖	Traditional
+沖	冲	Simplified
+决	決	Traditional
+決	决	Simplified
+况	況	Traditional
+況	况	Simplified
+伤	傷	Traditional
+傷	伤	Simplified
+伥	倀	Traditional
+倀	伥	Simplified
+伧	傖	Traditional
+傖	伧	Simplified
+伪	偽	Traditional
+偽	伪	Simplified
+伪	僞	Traditional
+僞	伪	Simplified
+偽	僞	Variant
+僞	偽	Variant
+伫	佇	Traditional
+佇	伫	Simplified
+竚	伫	Modern Variant
+伫	竚	Archaic Variant
+竚	佇	Modern Variant
+佇	竚	Archaic Variant
+玄	伭	Archaic Variant
+伭	玄	Modern Variant
+伱	你	Modern Variant
+你	伱	Archaic Variant
+布	佈	Variant
+佈	布	Variant
+体	體	Traditional
+體	体	Simplified
+占	佔	Variant
+佔	占	Variant
+佗	它	Modern Variant
+它	佗	Archaic Variant
+余	餘	Traditional
+餘	余	Simplified
+余	馀	Archaic Variant
+馀	余	Modern Variant
+餘	馀	Archaic Variant
+馀	餘	Modern Variant
+佣	傭	Traditional
+傭	佣	Simplified
+佥	僉	Traditional
+僉	佥	Simplified
+百	佰	Variant
+佰	百	Variant
+并	併	Traditional
+併	并	Simplified
+几	幾	Traditional
+幾	几	Simplified
+凡	凢	Archaic Variant
+凢	凡	Modern Variant
+凡	凣	Archaic Variant
+凣	凡	Modern Variant
+凢	凣	Variant
+凣	凢	Variant
+處	処	Archaic Variant
+処	處	Modern Variant
+处	処	Archaic Variant
+処	处	Modern Variant
+凫	鳧	Traditional
+鳧	凫	Simplified
+处	鳬	Traditional
+鳬	处	Simplified
+鳬	鳧	Variant
+鳧	鳬	Variant
+風	凨	Archaic Variant
+凨	風	Modern Variant
+风	凨	Archaic Variant
+凨	风	Modern Variant
+凭	憑	Traditional
+憑	凭	Simplified
+风	凮	Archaic Variant
+凮	风	Modern Variant
+風	凮	Archaic Variant
+凮	風	Modern Variant
+凯	凱	Traditional
+凱	凯	Simplified
+出	岀	Archaic Variant
+岀	出	Modern Variant
+击	擊	Traditional
+擊	击	Simplified
+函	凾	Archaic Variant
+凾	函	Modern Variant
+凿	鑿	Traditional
+鑿	凿	Simplified
+刃	刄	Archaic Variant
+刄	刃	Modern Variant
+刊	刋	Archaic Variant
+刋	刊	Modern Variant
+刍	芻	Traditional
+芻	刍	Simplified
+劝	勸	Traditional
+勸	劝	Simplified
+办	辦	Traditional
+辦	办	Simplified
+务	務	Traditional
+務	务	Simplified
+劢	勱	Traditional
+勱	劢	Simplified
+动	動	Traditional
+動	动	Simplified
+励	勵	Traditional
+勵	励	Simplified
+匀	勻	Traditional
+勻	匀	Simplified
+丐	匃	Archaic Variant
+匃	丐	Modern Variant
+丐	匄	Archaic Variant
+匄	丐	Modern Variant
+匄	匃	Variant
+匃	匄	Variant
+包	勹	Archaic Variant
+勹	包	Modern Variant
+匦	匭	Traditional
+匭	匦	Simplified
+匮	匱	Traditional
+匱	匮	Simplified
+汇	匯	Traditional
+匯	汇	Simplified
+区	區	Traditional
+區	区	Simplified
+医	醫	Traditional
+醫	医	Simplified
+世	卋	Archaic Variant
+卋	世	Modern Variant
+华	華	Traditional
+華	华	Simplified
+卍	卐	Variant
+卐	卍	Variant
+升	昇	Traditional
+昇	升	Simplified
+协	協	Traditional
+協	协	Simplified
+卤	鹵	Traditional
+鹵	卤	Simplified
+卧	臥	Traditional
+臥	卧	Simplified
+卫	衛	Traditional
+衛	卫	Simplified
+卬	卭	Archaic Variant
+卭	卬	Modern Variant
+卮	巵	Variant
+巵	卮	Variant
+卯	戼	Archaic Variant
+戼	卯	Modern Variant
+却	卻	Traditional
+卻	却	Simplified
+厂	廠	Traditional
+廠	厂	Simplified
+厄	阨	Archaic Variant
+阨	厄	Modern Variant
+厅	廳	Traditional
+廳	厅	Simplified
+历	曆	Traditional
+曆	历	Simplified
+历	歷	Traditional
+歷	历	Simplified
+曆	歷	Variant
+歷	曆	Variant
+厉	厲	Traditional
+厲	厉	Simplified
+压	壓	Traditional
+壓	压	Simplified
+圧	压	Chinese
+压	圧	Japanese
+圧	壓	Chinese
+壓	圧	Japanese
+厌	厭	Traditional
+厭	厌	Simplified
+厍	厙	Traditional
+厙	厍	Simplified
+厐	龎	Traditional
+龎	厐	Simplified
+叁	叄	Traditional
+叄	叁	Simplified
+參	叄	Variant
+叄	參	Variant
+参	叁	Variant
+叁	参	Variant
+叄	叅	Variant
+叅	叄	Variant
+叆	靉	Traditional
+靉	叆	Simplified
+双	雙	Traditional
+雙	双	Simplified
+收	収	Japanese
+収	收	Chinese
+发	發	Traditional
+發	发	Simplified
+发	髮	Traditional
+髮	发	Simplified
+斗	鬥	Traditional
+鬥	斗	Simplified
+鬥	鬭	Archaic Variant
+鬭	鬥	Modern Variant
+鬥	鬬	Archaic Variant
+鬬	鬥	Modern Variant
+鬥	鬦	Archaic Variant
+鬦	鬥	Modern Variant
+鬥	鬪	Archaic Variant
+鬪	鬥	Modern Variant
+叔	尗	Archaic Variant
+尗	叔	Modern Variant
+只	衹	Traditional
+衹	只	Simplified
+只	隻	Traditional
+隻	只	Simplified
+回	囘	Archaic Variant
+囘	回	Modern Variant
+团	團	Traditional
+團	团	Simplified
+团	団	Japanese
+団	团	Chinese
+團	団	Japanese
+団	團	Chinese
+圢	町	Variant
+町	圢	Variant
+圣	聖	Traditional
+聖	圣	Simplified
+壮	壯	Traditional
+壯	壮	Simplified
+声	聲	Traditional
+聲	声	Simplified
+壳	殻	Traditional
+殻	壳	Simplified
+壳	殼	Traditional
+殼	壳	Simplified
+壶	壺	Traditional
+壺	壶	Simplified
+壺	壷	Archaic Variant
+壷	壺	Modern Variant
+壶	壷	Archaic Variant
+壷	壶	Modern Variant
+壸	壼	Traditional
+壼	壸	Simplified
+备	備	Traditional
+備	备	Simplified
+变	変	Japanese
+変	变	Chinese
+変	變	Traditional
+變	変	Simplified
+變	変	Japanese
+変	變	Chinese
+复	復	Traditional
+復	复	Simplified
+复	複	Traditional
+複	复	Simplified
+复	覆	Traditional
+覆	复	Simplified
+復	複	Variant
+複	復	Variant
+復	覆	Variant
+覆	復	Variant
+複	覆	Variant
+覆	複	Variant
+卯	夘	Archaic Variant
+夘	卯	Modern Variant
+多	夛	Archaic Variant
+夛	多	Modern Variant
+够	夠	Traditional
+夠	够	Simplified
+梦	夢	Traditional
+夢	梦	Simplified
+梦	夣	Archaic Variant
+夣	梦	Modern Variant
+夢	夣	Archaic Variant
+夣	夢	Modern Variant
+伙	夥	Archaic Variant
+夥	伙	Modern Variant
+夭	殀	Archaic Variant
+殀	夭	Modern Variant
+头	頭	Traditional
+頭	头	Simplified
+奸	姦	Traditional
+姦	奸	Simplified
+妆	妝	Traditional
+妝	妆	Simplified
+妇	婦	Traditional
+婦	妇	Simplified
+妈	媽	Traditional
+媽	妈	Simplified
+娄	娄	Traditional
+娄	娄	Simplified
+孙	孫	Traditional
+孫	孙	Simplified
+宁	寧	Traditional
+寧	宁	Simplified
+它	牠	Archaic Variant
+牠	它	Modern Variant
+实	實	Traditional
+實	实	Simplified
+对	對	Traditional
+對	对	Simplified
+寻	尋	Traditional
+尋	寻	Simplified
+导	導	Traditional
+導	导	Simplified
+對	対	Archaic Variant
+対	對	Modern Variant
+对	対	Archaic Variant
+対	对	Modern Variant
+寿	壽	Traditional
+壽	寿	Simplified
+專	専	Japanese
+専	專	Chinese
+专	専	Japanese
+専	专	Chinese
+尔	尒	Archaic Variant
+尒	尔	Modern Variant
+爾	尒	Archaic Variant
+尒	爾	Modern Variant
+尔	尓	Archaic Variant
+尓	尔	Modern Variant
+爾	尓	Archaic Variant
+尓	爾	Modern Variant
+尓	尒	Variant
+尒	尓	Variant
+尘	塵	Traditional
+塵	尘	Simplified
+尚	尙	Archaic Variant
+尙	尚	Modern Variant
+尝	嘗	Traditional
+嘗	尝	Simplified
+尝	甞	Archaic Variant
+甞	尝	Modern Variant
+嘗	甞	Archaic Variant
+甞	嘗	Modern Variant
+尣	尢	Variant
+尢	尣	Variant
+尧	堯	Traditional
+堯	尧	Simplified
+尩	尪	Variant
+尪	尩	Variant
+尪	尫	Variant
+尫	尪	Variant
+尫	尩	Variant
+尩	尫	Variant
+堯	尭	Archaic Variant
+尭	堯	Modern Variant
+尧	尭	Archaic Variant
+尭	尧	Modern Variant
+尷	尲	Archaic Variant
+尲	尷	Modern Variant
+尷	尴	Variant
+尴	尷	Variant
+尲	尴	Variant
+尴	尲	Variant
+尷	尶	Archaic Variant
+尶	尷	Modern Variant
+尶	尴	Variant
+尴	尶	Variant
+尲	尶	Variant
+尶	尲	Variant
+尸	屍	Traditional
+屍	尸	Simplified
+尽	儘	Traditional
+儘	尽	Simplified
+尽	盡	Traditional
+盡	尽	Simplified
+儘	盡	Variant
+盡	儘	Variant
+层	層	Traditional
+層	层	Simplified
+屃	屓	Traditional
+屓	屃	Simplified
+属	屬	Traditional
+屬	属	Simplified
+屿	嶼	Traditional
+嶼	屿	Simplified
+岁	歲	Traditional
+歲	岁	Simplified
+岳	嶽	Traditional
+嶽	岳	Simplified
+岭	嶺	Traditional
+嶺	岭	Simplified
+巡	廵	Archaic Variant
+廵	巡	Modern Variant
+巢	巣	Japanese
+巣	巢	Chinese
+巩	鞏	Traditional
+鞏	巩	Simplified
+巯	巰	Traditional
+巰	巯	Simplified
+巽	巺	Archaic Variant
+巺	巽	Modern Variant
+匝	帀	Archaic Variant
+帀	匝	Modern Variant
+币	幣	Traditional
+幣	币	Simplified
+帅	帥	Traditional
+帥	帅	Simplified
+师	師	Traditional
+師	师	Simplified
+紙	帋	Archaic Variant
+帋	紙	Modern Variant
+纸	帋	Archaic Variant
+帋	纸	Modern Variant
+纸	紙	Traditional
+紙	纸	Simplified
+帏	幃	Traditional
+幃	帏	Simplified
+并	竝	Archaic Variant
+竝	并	Modern Variant
+並	竝	Archaic Variant
+竝	並	Modern Variant
+并	幷	Archaic Variant
+幷	并	Modern Variant
+並	幷	Archaic Variant
+幷	並	Modern Variant
+张	張	Traditional
+張	张	Simplified
+乡	鄉	Traditional
+鄉	乡	Simplified
+广	廣	Traditional
+廣	广	Simplified
+廳	庁	Japanese
+庁	廳	Chinese
+厅	庁	Japanese
+庁	厅	Chinese
+廣	広	Japanese
+広	廣	Chinese
+广	広	Japanese
+広	广	Chinese
+庄	莊	Traditional
+莊	庄	Simplified
+麽	庅	Archaic Variant
+庅	麽	Modern Variant
+么	庅	Archaic Variant
+庅	么	Modern Variant
+麼	庅	Archaic Variant
+庅	麼	Modern Variant
+庆	慶	Traditional
+慶	庆	Simplified
+床	牀	Traditional
+牀	床	Simplified
+回	廻	Archaic Variant
+廻	回	Modern Variant
+乃	廼	Archaic Variant
+廼	乃	Modern Variant
+回	廽	Archaic Variant
+廽	回	Modern Variant
+廽	廻	Variant
+廻	廽	Variant
+卄	廿	Variant
+廿	卄	Variant
+开	開	Traditional
+開	开	Simplified
+异	異	Traditional
+異	异	Simplified
+弃	棄	Traditional
+棄	弃	Simplified
+一	弌	Archaic Variant
+弌	一	Modern Variant
+弎	叄	Archaic Variant
+叄	弎	Modern Variant
+弎	叁	Archaic Variant
+叁	弎	Modern Variant
+弐	弍	Variant
+弍	弐	Variant
+弑	弒	Traditional
+弒	弑	Simplified
+吊	弔	Traditional
+弔	吊	Simplified
+归	歸	Traditional
+歸	归	Simplified
+当	噹	Traditional
+噹	当	Simplified
+当	當	Traditional
+當	当	Simplified
+录	錄	Traditional
+錄	录	Simplified
+录	録	Traditional
+録	录	Simplified
+錄	録	Variant
+録	錄	Variant
+汇	彙	Traditional
+彙	汇	Simplified
+彙	彚	Archaic Variant
+彚	彙	Modern Variant
+汇	彚	Archaic Variant
+彚	汇	Modern Variant
+彝	彛	Archaic Variant
+彛	彝	Modern Variant
+彝	彞	Traditional
+彞	彝	Simplified
+彞	彛	Archaic Variant
+彛	彞	Modern Variant
+彝	彜	Archaic Variant
+彜	彝	Modern Variant
+彞	彜	Archaic Variant
+彜	彞	Modern Variant
+彛	彜	Variant
+彜	彛	Variant
+彦	彥	Traditional
+彥	彦	Simplified
+雕	彫	Traditional
+彫	雕	Simplified
+仿	彷	Variant
+彷	仿	Variant
+彷	髣	Archaic Variant
+髣	彷	Modern Variant
+仿	髣	Archaic Variant
+髣	仿	Modern Variant
+彸	伀	Variant
+伀	彸	Variant
+彻	徹	Traditional
+徹	彻	Simplified
+低	彽	Archaic Variant
+彽	低	Modern Variant
+征	徵	Traditional
+徵	征	Simplified
+忆	憶	Traditional
+憶	忆	Simplified
+忏	懺	Traditional
+懺	忏	Simplified
+戋	戔	Traditional
+戔	戋	Simplified
+戏	戲	Traditional
+戲	戏	Simplified
+戗	戧	Traditional
+戧	戗	Simplified
+战	戰	Traditional
+戰	战	Simplified
+厄	戹	Archaic Variant
+戹	厄	Modern Variant
+戾	戻	Japanese
+戻	戾	Chinese
+扑	撲	Traditional
+撲	扑	Simplified
+考	攷	Archaic Variant
+攷	考	Modern Variant
+學	斈	Archaic Variant
+斈	學	Modern Variant
+学	斈	Archaic Variant
+斈	学	Modern Variant
+学	學	Traditional
+學	学	Simplified
+斋	齋	Traditional
+齋	斋	Simplified
+斋	斎	Japanese
+斎	斋	Chinese
+齋	斎	Japanese
+斎	齋	Chinese
+斝	斚	Variant
+斚	斝	Variant
+斤	觔	Archaic Variant
+觔	斤	Modern Variant
+采	採	Traditional
+採	采	Simplified
+斩	斬	Traditional
+斬	斩	Simplified
+斫	斮	Archaic Variant
+斮	斫	Modern Variant
+斫	斲	Archaic Variant
+斲	斫	Modern Variant
+斮	斲	Variant
+斲	斮	Variant
+斫	斵	Archaic Variant
+斵	斫	Modern Variant
+斵	斲	Variant
+斲	斵	Variant
+斮	斵	Variant
+斵	斮	Variant
+断	斷	Traditional
+斷	断	Simplified
+旆	斾	Archaic Variant
+斾	旆	Modern Variant
+耄	旄	Archaic Variant
+旄	耄	Modern Variant
+无	無	Traditional
+無	无	Simplified
+既	旣	Archaic Variant
+旣	既	Modern Variant
+旧	舊	Traditional
+舊	旧	Simplified
+时	時	Traditional
+時	时	Simplified
+旷	曠	Traditional
+曠	旷	Simplified
+旸	暘	Traditional
+暘	旸	Simplified
+曳	曵	Archaic Variant
+曵	曳	Modern Variant
+本	夲	Archaic Variant
+夲	本	Modern Variant
+术	朮	Archaic Variant
+朮	术	Modern Variant
+術	朮	Archaic Variant
+朮	術	Modern Variant
+术	術	Traditional
+術	术	Simplified
+朴	樸	Traditional
+樸	朴	Simplified
+缺	欠	Variant
+欠	缺	Variant
+欢	歡	Traditional
+歡	欢	Simplified
+欤	歟	Traditional
+歟	欤	Simplified
+欧	歐	Traditional
+歐	欧	Simplified
+步	歩	Japanese
+歩	步	Chinese
+齒	歯	Japanese
+歯	齒	Chinese
+齿	歯	Japanese
+歯	齿	Chinese
+齿	齒	Traditional
+齒	齿	Simplified
+歲	歳	Japanese
+歳	歲	Chinese
+岁	歳	Japanese
+歳	岁	Chinese
+歺	歹	Archaic Variant
+歹	歺	Modern Variant
+歼	殲	Traditional
+殲	歼	Simplified
+殁	歿	Traditional
+歿	殁	Simplified
+殴	毆	Traditional
+毆	殴	Simplified
+杀	殺	Traditional
+殺	杀	Simplified
+毁	毀	Traditional
+毀	毁	Simplified
+毎	每	Japanese
+每	毎	Chinese
+毕	畢	Traditional
+畢	毕	Simplified
+毗	毘	Archaic Variant
+毘	毗	Modern Variant
+毙	斃	Traditional
+斃	毙	Simplified
+毡	氈	Traditional
+氈	毡	Simplified
+毵	毿	Traditional
+毿	毵	Simplified
+气	氣	Traditional
+氣	气	Simplified
+气	気	Japanese
+気	气	Chinese
+氣	気	Japanese
+気	氣	Chinese
+氢	氫	Traditional
+氫	氢	Simplified
+尿	氽	Variant
+氽	尿	Variant
+沈	瀋	Traditional
+瀋	沈	Simplified
+没	沒	Traditional
+沒	没	Simplified
+温	溫	Traditional
+溫	温	Simplified
+灭	滅	Traditional
+滅	灭	Simplified
+灯	燈	Traditional
+燈	灯	Simplified
+灵	靈	Traditional
+靈	灵	Simplified
+灶	竈	Traditional
+竈	灶	Simplified
+爱	愛	Traditional
+愛	爱	Simplified
+爷	爺	Traditional
+爺	爷	Simplified
+墙	牆	Traditional
+牆	墙	Simplified
+墙	墻	Archaic Variant
+墻	墙	Modern Variant
+牆	墻	Archaic Variant
+墻	牆	Modern Variant
+牍	牘	Traditional
+牘	牍	Simplified
+牦	氂	Traditional
+氂	牦	Simplified
+豺	犯	Archaic Variant
+犯	豺	Modern Variant
+豻	犴	Variant
+犴	豻	Variant
+状	狀	Traditional
+狀	状	Simplified
+犷	獷	Traditional
+獷	犷	Simplified
+犸	獁	Traditional
+獁	犸	Simplified
+犹	猶	Traditional
+猶	犹	Simplified
+玑	璣	Traditional
+璣	玑	Simplified
+瓯	甌	Traditional
+甌	瓯	Simplified
+瓶	缾	Archaic Variant
+缾	瓶	Modern Variant
+瓶	甁	Archaic Variant
+甁	瓶	Modern Variant
+甁	缾	Variant
+缾	甁	Variant
+什	甚	Variant
+甚	什	Variant
+甜	甛	Archaic Variant
+甛	甜	Modern Variant
+苏	甦	Traditional
+甦	苏	Simplified
+稣	穌	Traditional
+穌	稣	Simplified
+穌	甦	Variant
+甦	穌	Variant
+稣	甦	Variant
+甦	稣	Variant
+苏	蘇	Traditional
+蘇	苏	Simplified
+稣	蘇	Variant
+蘇	稣	Variant
+角	甪	Archaic Variant
+甪	角	Modern Variant
+电	電	Traditional
+電	电	Simplified
+圢	町	Variant
+町	圢	Variant
+画	畫	Traditional
+畫	画	Simplified
+疏	疎	Japanese
+疎	疏	Chinese
+疖	癤	Traditional
+癤	疖	Simplified
+疗	療	Traditional
+療	疗	Simplified
+疟	瘧	Traditional
+瘧	疟	Simplified
+疠	癘	Traditional
+癘	疠	Simplified
+發	発	Japanese
+発	發	Chinese
+发	発	Japanese
+発	发	Chinese
+登	豋	Archaic Variant
+豋	登	Modern Variant
+皂	皁	Archaic Variant
+皁	皂	Modern Variant
+貌	皃	Archaic Variant
+皃	貌	Modern Variant
+臯	皋	Archaic Variant
+皋	臯	Modern Variant
+疱	皰	Traditional
+皰	疱	Simplified
+皱	皺	Traditional
+皺	皱	Simplified
+皲	皸	Traditional
+皸	皲	Simplified
+皸	皹	Archaic Variant
+皹	皸	Modern Variant
+皲	皹	Archaic Variant
+皹	皲	Modern Variant
+盍	盇	Variant
+盇	盍	Variant
+矫	矯	Traditional
+矯	矫	Simplified
+矮	躷	Archaic Variant
+躷	矮	Modern Variant
+矶	磯	Traditional
+磯	矶	Simplified
+矾	礬	Traditional
+礬	矾	Simplified
+矿	礦	Traditional
+礦	矿	Simplified
+砀	碭	Traditional
+碭	砀	Simplified
+礼	禮	Traditional
+禮	礼	Simplified
+祃	禡	Traditional
+禡	祃	Simplified
+祆	祅	Variant
+祅	祆	Variant
+只	祇	Traditional
+祇	只	Simplified
+离	離	Traditional
+離	离	Simplified
+万	萬	Traditional
+萬	万	Simplified
+秃	禿	Traditional
+禿	秃	Simplified
+秆	稈	Traditional
+稈	秆	Simplified
+籼	秈	Traditional
+秈	籼	Simplified
+穷	窮	Traditional
+窮	穷	Simplified
+竖	竪	Traditional
+竪	竖	Simplified
+竖	豎	Traditional
+豎	竖	Simplified
+豎	竪	Variant
+竪	豎	Variant
+龍	竜	Japanese
+竜	龍	Chinese
+龙	竜	Japanese
+竜	龙	Chinese
+龙	龍	Traditional
+龍	龙	Simplified
+竞	競	Traditional
+競	竞	Simplified
+笃	篤	Traditional
+篤	笃	Simplified
+笋	筍	Traditional
+筍	笋	Simplified
+节	節	Traditional
+節	节	Simplified
+籴	糴	Traditional
+糴	籴	Simplified
+类	類	Traditional
+類	类	Simplified
+糾	糺	Archaic Variant
+糺	糾	Modern Variant
+纠	糺	Archaic Variant
+糺	纠	Modern Variant
+纠	糾	Traditional
+糾	纠	Simplified
+系	係	Traditional
+係	系	Simplified
+系	繫	Traditional
+繫	系	Simplified
+係	繫	Variant
+繫	係	Variant
+纪	紀	Traditional
+紀	纪	Simplified
+纣	紂	Traditional
+紂	纣	Simplified
+约	約	Traditional
+約	约	Simplified
+红	紅	Traditional
+紅	红	Simplified
+纡	紆	Traditional
+紆	纡	Simplified
+纥	紇	Traditional
+紇	纥	Simplified
+纨	紈	Traditional
+紈	纨	Simplified
+经	經	Traditional
+經	经	Simplified
+绵	綿	Traditional
+綿	绵	Simplified
+纤	纖	Traditional
+纖	纤	Simplified
+级	級	Traditional
+級	级	Simplified
+纩	纊	Traditional
+纊	纩	Simplified
+纫	紉	Traditional
+紉	纫	Simplified
+缸	罁	Archaic Variant
+罁	缸	Modern Variant
+缶	缻	Variant
+缻	缶	Variant
+钵	缽	Traditional
+缽	钵	Simplified
+缽	鉢	Variant
+鉢	缽	Variant
+钵	鉢	Traditional
+鉢	钵	Simplified
+罂	罌	Traditional
+罌	罂	Simplified
+罂	罃	Variant
+罃	罂	Variant
+罌	罃	Variant
+罃	罌	Variant
+芈	羋	Traditional
+羋	芈	Simplified
+羌	羗	Archaic Variant
+羗	羌	Modern Variant
+豝	羓	Variant
+羓	豝	Variant
+翅	翄	Archaic Variant
+翄	翅	Modern Variant
+软	耎	Archaic Variant
+耎	软	Modern Variant
+軟	耎	Archaic Variant
+耎	軟	Modern Variant
+软	軟	Traditional
+軟	软	Simplified
+秄	耔	Variant
+耔	秄	Variant
+耸	聳	Traditional
+聳	耸	Simplified
+耻	恥	Traditional
+恥	耻	Simplified
+耽	躭	Archaic Variant
+躭	耽	Modern Variant
+聂	聶	Traditional
+聶	聂	Simplified
+肃	肅	Traditional	
+肅	肃	Simplified
+肇	肈	Traditional
+肈	肇	Simplified
+网	網	Traditional
+網	网	Simplified
+罗	羅	Traditional
+羅	罗	Simplified
+罚	罰	Traditional
+罰	罚	Simplified
+耈	耇	Variant
+耇	耈	Variant
+耉	耈	Variant
+耈	耉	Variant
+耉	耇	Variant
+耇	耉	Variant
+脔	臠	Traditional
+臠	脔	Simplified
+致	緻	Traditional
+緻	致	Simplified
+台	臺	Traditional
+臺	台	Simplified
+台	檯	Traditional
+檯	台	Simplified
+台	颱	Traditional
+颱	台	Simplified
+舃	舄	Variant
+舄	舃	Variant
+舆	輿	Traditional
+輿	舆	Simplified
+衅	舋	Archaic Variant
+舋	衅	Modern Variant
+衅	釁	Traditional
+釁	衅	Simplified
+釁	舋	Archaic Variant
+舋	釁	Modern Variant
+舍	捨	Traditional
+捨	舍	Simplified
+舓	舐	Variant
+舐	舓	Variant
+舖	鋪	Variant
+鋪	舖	Variant
+铺	鋪	Traditional
+鋪	铺	Simplified
+铺	舖	Traditional
+舖	铺	Simplified
+舖	舗	Japanese
+舗	舖	Chinese
+鋪	舗	Japanese
+舗	鋪	Chinese
+铺	舗	Japanese
+舗	铺	Chinese
+舣	艤	Traditional
+艤	舣	Simplified
+艰	艱	Traditional
+艱	艰	Simplified
+艳	艷	Traditional
+艷	艳	Simplified
+艳	艶	Japanese
+艶	艳	Chinese
+艷	艶	Japanese
+艶	艷	Chinese
+艺	藝	Traditional
+藝	艺	Simplified
+艺	秇	Archaic Variant
+秇	艺	Modern Variant
+艺	藝	Archaic Variant
+藝	秇	Modern Variant
+荆	荊	Traditional
+荊	荆	Simplified
+虏	虜	Traditional
+虜	虏	Simplified
+虑	慮	Traditional
+慮	虑	Simplified
+虚	虛	Traditional
+虛	虚	Simplified
+虬	虯	Traditional
+虯	虬	Simplified
+虮	蟣	Traditional
+蟣	虮	Simplified
+虱	蝨	Traditional
+蝨	虱	Simplified
+虽	雖	Traditional
+雖	虽	Simplified
+蛮	蠻	Traditional
+蠻	蛮	Simplified
+衂	衄	Variant
+衄	衂	Variant
+衔	銜	Traditional
+銜	衔	Simplified
+同	衕	Traditional
+衕	同	Simplified
+胡	衚	Traditional
+衚	胡	Simplified
+胡	鬍	Traditional
+鬍	胡	Simplified
+补	補	Traditional
+補	补	Simplified
+表	錶	Traditional
+錶	表	Simplified
+衬	襯	Traditional
+襯	衬	Simplified
+衮	袞	Traditional
+袞	衮	Simplified
+核	覈	Traditional
+覈	核	Simplified
+观	覌	Archaic Variant
+覌	观	Modern Variant
+规	規	Traditional
+規	规	Simplified
+觅	覓	Traditional
+覓	觅	Simplified
+觅	覔	Archaic Variant
+覔	觅	Modern Variant
+覓	覔	Archaic Variant
+覔	覓	Modern Variant
+觇	覘	Traditional
+覘	觇	Simplified
+觉	覺	Traditional
+覺	觉	Simplified
+觉	覚	Japanese
+覚	觉	Chinese
+覺	覚	Japanese
+覚	覺	Chinese
+觌	覿	Traditional
+覿	觌	Simplified
+觃	覎	Traditional
+覎	觃	Simplified
+览	覽	Traditional
+覽	览	Simplified
+觊	覬	Traditional
+覬	觊	Simplified
+觋	覡	Traditional
+覡	觋	Simplified
+觍	覥	Traditional
+覥	觍	Simplified
+觎	覦	Traditional
+覦	觎	Simplified
+觏	覯	Traditional
+覯	觏	Simplified
+觐	覲	Traditional
+覲	觐	Simplified
+觑	覷	Traditional
+覷	觑	Simplified
+觞	觴	Traditional
+觴	觞	Simplified
+订	訂	Traditional
+訂	订	Simplified
+讣	訃	Traditional
+訃	讣	Simplified
+计	計	Traditional
+計	计	Simplified
+讯	訊	Traditional
+訊	讯	Simplified
+讧	訌	Traditional
+訌	讧	Simplified
+讨	討	Traditional
+討	讨	Simplified
+讦	訐	Traditional
+訐	讦	Simplified
+认	認	Traditional
+認	认	Simplified
+讥	譏	Traditional
+譏	讥	Simplified
+让	讓	Traditional
+讓	让	Simplified
+讪	訕	Traditional
+訕	讪	Simplified
+讫	訖	Traditional
+訖	讫	Simplified
+讬	託	Traditional
+託	讬	Simplified
+岂	豈	Traditional
+豈	岂	Simplified
+丰	豊	Japanese
+豊	丰	Chinese
+豐	豊	Japanese
+豊	豐	Chinese
+丰	豐	Traditional
+豐	丰	Simplified
+豔	豓	Variant
+豓	豔	Variant
+豔	艶	Japanese
+艶	豔	Chinese
+豓	艶	Japanese
+艶	豓	Chinese
+豚	豘	Archaic Variant
+豘	豚	Modern Variant
+豜	豣	Variant
+豣	豜	Variant
+贞	貞	Traditional
+貞	贞	Simplified
+贠	貟	Traditional
+貟	贠	Simplified
+负	負	Traditional
+負	负	Simplified
+财	財	Traditional
+財	财	Simplified
+责	責	Traditional
+責	责	Simplified
+贡	貢	Traditional
+貢	贡	Simplified
+贫	貧	Traditional
+貧	贫	Simplified
+货	貨	Traditional
+貨	货	Simplified
+贩	販	Traditional
+販	贩	Simplified
+贪	貪	Traditional
+貪	贪	Simplified
+赪	赬	Traditional
+赬	赪	Simplified
+走	赱	Archaic Variant
+赱	走	Modern Variant
+赵	趙	Traditional
+趙	赵	Simplified
+赶	趕	Traditional
+趕	赶	Simplified
+趁	趂	Archaic Variant
+趂	趁	Modern Variant
+趸	躉	Traditional
+躉	趸	Simplified
+躬	躳	Archaic Variant
+躳	躬	Modern Variant
+躯	軀	Traditional
+軀	躯	Simplified
+體	躰	Archaic Variant
+躰	體	Modern Variant
+体	躰	Archaic Variant
+躰	体	Modern Variant
+躲	躱	Archaic Variant
+躱	躲	Modern Variant
+轧	軋	Traditional
+軋	轧	Simplified
+轨	軌	Traditional
+軌	轨	Simplified
+轩	軒	Traditional
+軒	轩	Simplified
+轫	軔	Traditional
+軔	轫	Simplified
+辞	辭	Traditional
+辭	辞	Simplified
+辞	辤	Archaic Variant
+辤	辞	Modern Variant
+辭	辤	Archaic Variant
+辤	辭	Modern Variant
+辟	闢	Traditional
+闢	辟	Simplified
+辣	辢	Archaic Variant
+辢	辣	Modern Variant
+贤	賢	Traditional
+賢	贤	Simplified
+败	敗	Traditional
+敗	败	Simplified
+账	賬	Traditional
+賬	账	Simplified
+转	轉	Traditional
+轉	转	Simplified
+轭	軛	Traditional
+軛	轭	Simplified
+轮	輪	Traditional
+輪	轮	Simplified
+轰	轟	Traditional
+轟	轰	Simplified
+轱	軲	Traditional
+軲	轱	Simplified
+边	邊	Traditional
+邊	边	Simplified
+边	辺	Japanese
+辺	边	Chinese
+邊	辺	Japanese
+辺	邊	Chinese
+辽	遼	Traditional
+遼	辽	Simplified
+达	達	Traditional
+達	达	Simplified
+迁	遷	Traditional
+遷	迁	Simplified
+邓	鄧	Traditional
+鄧	邓	Simplified
+邝	鄺	Traditional
+鄺	邝	Simplified
+郑	鄭	Traditional
+鄭	郑	Simplified
+釋	釈	Japanese
+釈	釋	Chinese
+释	釋	Traditional
+釋	释	Simplified
+释	釈	Japanese
+釈	释	Chinese
+里	裏	Traditional
+裏	里	Simplified
+里	裡	Traditional
+裡	里	Simplified
+厘	釐	Traditional
+釐	厘	Simplified
+钆	釓	Traditional
+釓	钆	Simplified
+钇	釔	Traditional
+釔	钇	Simplified
+钌	釕	Traditional
+釕	钌	Simplified
+钊	釗	Traditional
+釗	钊	Simplified
+钉	釘	Traditional
+釘	钉	Simplified
+钋	釙	Traditional
+釙	钋	Simplified
+针	針	Traditional
+針	针	Simplified
+钍	釷	Traditional
+釷	钍	Simplified
+钎	釺	Traditional
+釺	钎	Simplified
+钏	釧	Traditional
+釧	钏	Simplified
+钐	釤	Traditional
+釤	钐	Simplified
+闩	閂	Traditional
+閂	闩	Simplified
+闪	閃	Traditional
+閃	闪	Simplified
+闫	閆	Traditional
+閆	闫	Simplified
+閉	閇	Archaic Variant
+閇	閉	Modern Variant
+闭	閇	Archaic Variant
+閇	闭	Modern Variant
+闭	閉	Traditional
+閉	闭	Simplified
+闬	閈	Traditional
+閈	闬	Simplified
+闶	閌	Traditional
+閌	闶	Simplified
+闳	閎	Traditional
+閎	闳	Simplified
+闰	閏	Traditional
+閏	闰	Simplified
+问	問	Traditional
+問	问	Simplified
+闯	闖	Traditional
+闖	闯	Simplified
+闱	闈	Traditional
+闈	闱	Simplified
+闲	閑	Traditional
+閑	闲	Simplified
+队	隊	Traditional
+隊	队	Simplified
+仟	阡	Variant
+阡	仟	Variant
+隸	隷	Japanese
+隷	隶	Chinese
+隶	隷	Japanese
+隷	隸	Chinese
+隶	隸	Traditional
+隸	隶	Simplified
+隽	雋	Traditional
+雋	隽	Simplified
+难	難	Traditional
+難	难	Simplified
+雳	靂	Traditional
+靂	雳	Simplified
+青	靑	Archaic Variant
+靑	青	Modern Variant
+靓	靚	Traditional
+靚	靓	Simplified
+静	靜	Traditional
+靜	静	Simplified
+靥	靨	Traditional
+靨	靥	Simplified
+腼	靦	Traditional
+靦	腼	Simplified
+䩄	靦	Traditional
+靦	䩄	Simplified
+靦	覥	Variant
+覥	靦	Variant
+䩄	覥	Variant
+覥	䩄	Variant
+韌	靭	Archaic Variant
+靭	韌	Modern Variant
+韧	靭	Archaic Variant
+靭	韧	Modern Variant
+韧	韌	Traditional
+韌	韧	Simplified
+韌	肕	Archaic Variant
+肕	韌	Modern Variant
+韧	肕	Archaic Variant
+肕	韧	Modern Variant
+肕	靭	Variant
+靭	肕	Variant
+韌	靱	Archaic Variant
+靱	韌	Modern Variant
+韧	靱	Archaic Variant
+靱	韧	Modern Variant
+肕	靱	Variant
+靱	肕	Variant
+靭	靱	Variant
+靱	靭	Variant
+韨	韍	Traditional
+韍	韨	Simplified
+韩	韓	Traditional
+韓	韩	Simplified
+韪	韙	Traditional
+韙	韪	Simplified
+韫	韞	Traditional
+韞	韫	Simplified
+韬	韜	Traditional
+韜	韬	Simplified
+韭	韮	Archaic Variant
+韮	韭	Modern Variant
+韱	韯	Variant
+韯	韱	Variant
+韵	韻	Traditional
+韻	韵	Simplified
+响	響	Traditional
+響	响	Simplified
+顶	頂	Traditional
+頂	顶	Simplified
+顷	頃	Traditional
+頃	顷	Simplified
+项	項	Traditional
+項	项	Simplified
+顺	順	Traditional
+順	顺	Simplified
+顸	頇	Traditional
+頇	顸	Simplified
+须	須	Traditional
+須	须	Simplified
+顼	頊	Traditional
+頊	顼	Simplified
+颜	顏	Traditional
+顏	颜	Simplified
+颜	顔	Traditional
+顔	颜	Simplified
+顔	顏	Variant
+顏	顔	Variant
+飐	颭	Traditional
+颭	飐	Simplified
+飑	飑	Traditional
+飑	飑	Simplified
+飒	颯	Traditional
+颯	飒	Simplified
+刮	颳	Traditional
+颳	刮	Simplified
+飓	颶	Traditional
+颶	飓	Simplified
+飔	颸	Traditional
+颸	飔	Simplified
+饥	飢	Traditional
+飢	饥	Simplified
+饤	飣	Traditional
+飣	饤	Simplified
+饦	飥	Traditional
+飥	饦	Simplified
+飨	饗	Traditional
+饗	飨	Simplified
+饨	飩	Traditional
+飩	饨	Simplified
+饪	飪	Traditional
+飪	饪	Simplified
+饫	飫	Traditional
+飫	饫	Simplified
+饧	餳	Traditional
+餳	饧	Simplified
+饩	餼	Traditional
+餼	饩	Simplified
+饬	飭	Traditional
+飭	饬	Simplified
+饭	飯	Traditional
+飯	饭	Simplified
+饮	飲	Traditional
+飲	饮	Simplified
+驭	馭	Traditional
+馭	驭	Simplified
+驮	馱	Traditional
+馱	驮	Simplified
+驮	駄	Japanese
+馱	駄	Japanese
+驯	馴	Traditional
+馴	驯	Simplified
+驰	馳	Traditional
+馳	驰	Simplified
+驱	驅	Traditional
+驅	驱	Simplified
+驲	馹	Traditional
+馹	驲	Simplified
+驳	駁	Traditional
+駁	驳	Simplified
+驴	驢	Traditional
+驢	驴	Simplified
+驴	馿	Archaic Variant
+馿	驴	Modern Variant
+驢	馿	Archaic Variant
+馿	驢	Modern Variant
+驵	駔	Traditional
+駔	驵	Simplified
+驶	駛	Traditional
+駛	驶	Simplified
+驷	駟	Traditional
+駟	驷	Simplified
+驸	駙	Traditional
+駙	驸	Simplified
+馩	馚	Variant
+馚	馩	Variant
+肮	骯	Traditional
+骯	肮	Simplified
+高	髙	Archaic Variant
+髙	高	Modern Variant
+髡	髠	Variant
+髠	髡	Variant
+髮	髪	Japanese
+髪	髮	Chinese
+发	髪	Japanese
+髪	发	Chinese
+闹	鬧	Traditional
+鬧	闹	Simplified
+哄	鬨	Traditional
+鬨	哄	Simplified
+阋	鬩	Traditional
+鬩	阋	Simplified
+阄	鬮	Traditional
+鬮	阄	Simplified
+鬱	鬰	Archaic Variant
+鬰	鬱	Modern Variant
+郁	鬱	Traditional
+鬱	郁	Simplified
+欝	鬱	Modern Variant
+鬱	欝	Archaic Variant
+欝	郁	Modern Variant
+郁	欝	Archaic Variant
+魇	魘	Traditional
+魘	魇	Simplified
+魉	魎	Traditional
+魎	魉	Simplified
+鱽	魛	Traditional
+魛	鱽	Simplified
+鱾	魢	Traditional
+魢	鱾	Simplified
+鲀	魨	Traditional
+魨	鲀	Simplified
+顽	頑	Traditional
+頑	顽	Simplified
+顾	顧	Traditional
+顧	顾	Simplified
+顾	頋	Archaic Variant
+頋	顾	Modern Variant
+顧	頋	Archaic Variant
+頋	顧	Modern Variant
+顿	頓	Traditional
+頓	顿	Simplified
+颀	頎	Traditional
+頎	颀	Simplified
+颁	頒	Traditional
+頒	颁	Simplified
+颁	朌	Archaic Variant
+朌	颁	Modern Variant
+頒	朌	Archaic Variant
+朌	頒	Modern Variant
+飏	颺	Traditional
+颺	飏	Simplified
+飖	颻	Traditional
+颻	飖	Simplified
+飕	颼	Traditional
+颼	飕	Simplified
+飗	飀	Traditional
+飀	飗	Simplified
+飘	飄	Traditional
+飄	飘	Simplified
+飙	飆	Traditional
+飆	飙	Simplified
+飙	飚	Archaic Variant
+飚	飙	Modern Variant
+飆	飚	Archaic Variant
+飚	飆	Modern Variant
+鱿	魷	Traditional
+魷	鱿	Simplified
+鲂	魴	Traditional
+魴	鲂	Simplified
+鲃	䰾	Traditional
+䰾	鲃	Simplified
+鲅	鮁	Traditional
+鮁	鲅	Simplified
+鲆	鮃	Traditional
+鮃	鲆	Simplified
+鲇	鮎	Traditional
+鮎	鲇	Simplified
+鲇	鯰	Traditional
+鯰	鲇	Simplified
+鮎	鯰	Variant
+鯰	鮎	Variant
+鲶	鯰	Traditional
+鯰	鲶	Simplified
+鲶	鮎	Traditional
+鮎	鲶	Simplified
+鲶	鲇	Variant
+鲇	鲶	Variant
+鲈	鱸	Traditional
+鱸	鲈	Simplified
+鸠	鳩	Traditional
+鳩	鸠	Simplified
+鸡	雞	Traditional
+雞	鸡	Simplified
+鸡	鷄	Traditional
+鷄	鸡	Simplified
+鷄	雞	Variant
+雞	鷄	Variant
+鸢	鳶	Traditional
+鳶	鸢	Simplified
+鸣	鳴	Traditional
+鳴	鸣	Simplified
+鸤	鳲	Traditional
+鳲	鸤	Simplified
+鸥	鷗	Traditional
+鷗	鸥	Simplified
+鸦	鴉	Traditional
+鴉	鸦	Simplified
+鸧	鶬	Traditional
+鶬	鸧	Simplified
+鸨	鴇	Traditional
+鴇	鸨	Simplified
+鸩	鴆	Traditional
+鴆	鸩	Simplified
+龚	龔	Traditional
+龔	龚	Simplified
+龛	龕	Traditional
+龕	龛	Simplified
+鹾	鹺	Traditional
+鹺	鹾	Simplified
+麸	麩	Traditional
+麩	麸	Simplified
+麺	麵	Traditional
+麵	麺	Simplified
+面	麵	Traditional
+麵	面	Simplified
+鼋	黿	Traditional
+黿	鼋	Simplified
+鼍	鼉	Traditional
+鼉	鼍	Simplified
+齐	齊	Traditional
+齊	齐	Simplified
+齑	齏	Traditional
+齏	齑	Simplified
+齊	亝	Variant
+亝	齊	Variant
+齊	斉	Archaic Variant
+斉	齊	Modern Variant
+斋	齊	Variant
+齊	斋	Variant
+齋	齊	Variant
+齊	齋	Variant
+龀	齔	Traditional
+齔	龀	Simplified
+龁	齕	Traditional
+齕	龁	Simplified
+龂	齗	Traditional
+齗	龂	Simplified
+龃	齟	Traditional
+齟	龃	Simplified
+龄	齡	Traditional
+齡	龄	Simplified
+龅	齙	Traditional
+齙	龅	Simplified
+龆	齠	Traditional
+齠	龆	Simplified
+龇	齜	Traditional
+齜	龇	Simplified
+龈	齦	Traditional
+齦	龈	Simplified
+龉	齬	Traditional
+齬	龉	Simplified
+龊	齪	Traditional
+齪	龊	Simplified
+龋	齲	Traditional
+齲	龋	Simplified
+龌	齷	Traditional
+齷	龌	Simplified
+焰	燄	Variant
+燄	焰	Variant
+絃	弦	Modern Variant
+弦	絃	Archaic Variant
+涅	湼	Modern Variant
+涅	涅	Archaic Variant
+茷	笩	Archaic Variant
+笩	茷	Modern Variant
+鹅	鵝	Traditional
+鵝	鹅	Simplified
+峡	峽	Traditional
+峽	峡	Simplified
+诃	訶	Traditional
+訶	诃	Simplified
+险	崄	Archaic Variant
+崄	险	Modern Variant
+險	崄	Archaic Variant
+崄	險	Modern Variant
+衲	纳	Modern Variant
+纳	衲	Archaic Variant
+衲	納	Modern Variant
+納	衲	Archaic Variant
+壊	坏	Modern Variant
+坏	壊	Archaic Variant
+蕅	藕	Modern Variant
+藕	蕅	Archaic Variant
+淸	清	Modern Variant
+清	淸	Archaic Variant
+诚	誠	Traditional
+誠	诚	Simplified
+厨	廚	Traditional
+廚	厨	Simplified
+熏	燻	Traditional
+燻	熏	Simplified

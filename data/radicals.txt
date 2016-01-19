@@ -64,7 +64,7 @@
 \N	纟	\N	sī	3	\N	糸 糹 ⺯ ⺰	Fine silk  (S)
 \N	门	\N	mén	3	\N	門 ⻔	Gate  (S)
 \N	饣	\N	shí	3	\N	食 飠 ⻝ ⻞ ⻟ ⻠	Food  (S)
-\N	马	\N	mǎ	3	⻢	馬	Horse  (S)
+\N	马	\N	mǎ	3	3	馬	Horse  (S)
 \N	艹	\N	cǎo	3	\N	艸 ⺾ ⺿ ⻀	Grass  (S)
 \N	心	\N	xīn	4	\N	忄 ⺖ ⺗	Heart
 \N	戈	\N	gē	4	\N	\N	Spear

@@ -2563,3 +2563,5 @@
 2563	30360	siddhanta	siddhānta	सिद्धान्त	\N	悉檀	a teaching method	\N	masculine	siddhā + nta
 2564	35602	prajnapti	prajñapti	प्रज्ञप्ति	\N	假名	a designation / provisional / a conventional term	\N	noun	\N
 2565	21810	anasrava	anāsrava	अनास्रव	\N	無漏	having no passion or delusion	\N	adjective	\N
+2566	37552	ksapita	kṣapita	क्षपित	jhāpita	闍維、荼毘、闍毘、闍鼻多	destroyed , ruined , diminished , suppressed , cremated	mfn	adjective	\N
+2567	37537	candala	caṇḍāla	चण्डाल	\N	旃陀羅、旃荼羅	Chandala	an untouchable caste responsible for disposing corpses	masculine	\N

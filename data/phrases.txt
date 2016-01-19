@@ -127,7 +127,7 @@
 127	不可思議功德	不/AD[bù | not] 可/AD[kě | able] 思議/VV[sīyì | imagine] 功德/NN[gōngdé | merit] <inconceivable merit>	\N	6	Amitābha Sūtra
 128	彼佛	彼/DT[bǐ | that] 佛/NR[Fó | Buddha] <that Buddha>	\N	6	Amitābha Sūtra
 129	長舌	長/VA[zhǎng | long] 舌/NN[shé | tongue] <long tongue>	\N	6	Amitābha Sūtra
-130	廣長舌	廣/VA[guǎng | vast] 長/VA[zhǎng | long] 舌/NN[shé | tongue] <long tongue>	\N	6	Amitābha Sūtra
+130	廣長舌	廣/VA[guǎng | vast] 長/VA[cháng | long] 舌/NN[shé | tongue] <a long tongue>	\N	6	Amitābha Sūtra
 131	佛國土	佛/NR[Fó | Buddha] 國土/NN[guótǔ | land] <Buddha land>	\N	6	Amitābha Sūtra
 132	恒河沙數	恒河/NR[Hénghé | Ganges River] 沙/NN[shā | sand] 數/NN[shǔ | number] <number of grains of sand in the Ganges River>	gaṅgānadīvālukā	2	Diamond Sūtra
 133	八事	八/CD[bā | eight] 事/NN[shì | thing] <eight things>	\N	7	Sūtra on the Eight Realizations
@@ -141,7 +141,7 @@
 141	爾時	爾/PN[ěr | thus] 時/AV[shí | at that time] <at that time>	atha khalu	2	Diamond Sūtra
 142	善男子	善/VA[shàn | virtuous] 男子/NN[nánzǐ | man] <a virtuous man>	kulaputra	2	Diamond Sūtra
 143	善女人	善/VA[shàn | virtuous] 女人/NN[nǚrén | woman] <a virtuous woman>	kuladuhitā	2	Diamond Sūtra
-144	諦聽	諦/VV[dì | examine] 聽VV/[tīng | listen] <listen carefully>	\N	2	Diamond Sūtra
+144	諦聽	諦/AD[dì | carefully] 聽/VV[tīng | listen] <listen carefully>	\N	2	Diamond Sūtra
 145	若非	若/CS[ruò | if] 非/VC[fēi | not] <were it not for>	\N	2	Diamond Sūtra
 146	我相	我/NN[wǒ | self] 相/NN[xiàng | a notion] <the notion of a self>	ātmasaṃjñā	2	Diamond Sūtra
 147	人相	人/NN[rén | person] 相/NN[xiàng | a notion] <the notion of a person>	pudgalasaṃjñā	2	Diamond Sūtra
@@ -165,7 +165,7 @@
 165	不可說	不/AD[bù | no] 可/VV[kě | can] 說/VV[shuō | to say] <indescribable>	\N	2	Diamond Sūtra
 166	賢聖	賢/VV[xián | to be worthy] 聖/NN[shèng | a sage] <noble one>	āryapudgala	2	Diamond Sūtra
 167	甚多	甚/AD[shén | extremely] 多/VA[duō | many] <extremely many>	\N	2	Diamond Sūtra
-168	四句偈	四/CD[sì | four] 句/NN[jù | line] 偈/[jì | gatha] <a four line gatha>	\N	2	Diamond Sūtra
+168	四句偈	四/CD[sì | four] 句/NN[jù | line] 偈/NN[jì | gatha] <a four line gatha>	\N	2	Diamond Sūtra
 169	為他	為/VC[wèi | for] 他/PN[tā | other] <for others>	\N	2	Diamond Sūtra
 170	一往來	一/CD[yī | one] 往來/VV[wǎnglái | to return] <return once more>	\N	2	Diamond Sūtra
 171	佛說	佛/NR[Fó | Buddha] 說/VV[shuō | to teach] <the Buddha teaches>	\N	2	Diamond Sūtra
@@ -222,9 +222,9 @@
 222	若有善男子	若/SC[ruò | if] 有/VE[yǒu | is] 善/VA[shàn | good] 男子/NN[nánzǐ | man] <if a good man>	\N	2	Diamond Sūtra
 223	為他人說	為/P[wèi | for] 他人/PN[other people] 說/VV[shuō | teach] <teaches it to others>	\N	2	Diamond Sūtra
 224	以三十二相觀	以/VV[yǐ | to use] 三十二/CD[sān shí èr | thirty two] 相/NR[ xiāng | mark] 觀/VV[guān | observe] <be observed by means of the Thirty-two Marks>	\N	2	Diamond Sūtra
-225	觀如來	觀/VV[guān | observe] 如來/NR[Rúlái | the Tathagata] <observe the Tathagata>	\N	2	Diamond Sūtra
+225	觀如來	觀/VV[guān | observe] 如來/NR[Rúlái | the Tathagata] <observe the Tathagata>	\N	2	Diamond Sūtra T8 235
 226	如來得阿耨多羅三藐三菩提	如來/NR[Rúlái | the Tathagata] 得/VV[dé | attain] 阿耨多羅三藐三菩提/NN[ānòuduōluó sānmiǎo sānpútí | anuttara-samyak-sambodhi] <the Tathagata attained anuttara-samyak-sambodhi>	\N	2	Diamond Sūtra
-227	佛言	佛/NR[Fó | Buddha] 言/VV[yán | said]	\N	2	Diamond Sūtra
+227	佛言	佛/NR[Fó | Buddha] 言/VV[yán | said] <the Buddha said>	\N	2	Diamond Sūtra T8 235
 228	即是非相	即/VV[jí | the same as] 是/VC[shì | are] 非/VC[fēi | not] 相/NN[xiàng | mark] <are not marks>	\N	2	Diamond Sūtra
 229	我所說	我/PN[wǒ] 所/PN[suǒ | it] 說/VV[shuō | teach] <I have spoken>	\N	2	Diamond Sūtra
 230	如來所說	如來/NR[Rúlái | the Tathagata] 所/PN[suǒ | it] 說/VV[shuō | teach] <the Tathagata teaches>	\N	2	Diamond Sūtra
@@ -334,3 +334,270 @@
 334	是亦走也	是/DT[shì | this] 亦/AD[yì | also] 走/VV[zǒu | go] 也/SP[yě | final modal particle] <This was also running away>	\N	\N	Mengzi 1A/3 (Pullybank, Classical Chinese Grammar, 17)
 335	皆古聖人也	皆/DT[jiē | all] 古/VA[gǔ | ancient] 聖人/NN[shèngrén | sage] 也/SP[yě | final modal particle] <They were all sages of old.>	\N	\N	Mengzi 2A/2 (Pullybank, Classical Chinese Grammar, 17)
 336	是乃仁術也	是/DT[shì | this] 乃/AD[nǎi | then] 仁/NN[rén | benevolence] 術/NN[shù | technique] 也/SP[yě | final modal particle] <This is indeed the technique of benevolence.>	\N	\N	Mengzi 1A/7 (Pullybank, Classical Chinese Grammar, 17)
+337	說偈言	說/VV[shuō | speak] 偈/NN[jì | verse] 言/VV[yán | said] <spoke in verse>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+338	菩薩成就四法	菩薩/NN[púsà | bodhisattva] 成就/VV[chéngjiù | to achieve] 四/CD[sì | four] 法/NN[fǎ | method] <bodhisattvas use four methods>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+339	妙慧菩薩	妙慧/NR[Miàohuì | Sumatī] 菩薩/NN[púsà | bodhisattva] <Sumati Bodhisattva>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+340	童女	童/NN[tóng | child] 女/NN[nǚ | female] <young girl>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+341	微妙法門	微妙/VA[wēimiào | skillful] 法門/NN[Fǎmén | a Buddhist teaching] <wonderous teaching >	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+342	深經	深/VA[shēn | profound] 經/NN[jīng | sūtra] <profound sūtra>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+343	聞甚深經	聞/VV[wén | to hear] 甚/VA[shén | deep] 深/VA[shēn | profound] 經/NN[jīng | sūtra] <hearing the profound sutras>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+344	善友	善/VA[shàn | virtuous] 友/NN[yǒu | friend] <good Dharma friends>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+345	出現於世	出現/VV[chūxiàn | to appear] 於/P[yú | in] 世/NN[shì | future] <appear in the future>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+346	法障	法/NR[fǎ | Dharma] 障/NN[zhàng | obstruction] <Dharma obstructions>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+347	一切諸佛	一切/DT[yīqiè | all] 諸/DT[zhū | all] 佛/NR[Fó | Buddha] <all Buddhas>	\N	\N	Amitābha Sūtra 佛說阿彌陀經 T12 366
+348	信是稱讚不可思議功德	信/VV[xìn | to believe] 是/DT[shì | this] 稱讚/VV[chēngzàn | to praise] 不/AD[bù | not] 可/AD[kě | able] 思議/VV[sīyì | imagine] 功德/NN[gōngdé | merit] <believe, praise, and hold in reverence the inconceivable merit and virtue>	\N	\N	Amitābha Sūtra 佛說阿彌陀經 T12 366
+349	恒河沙數諸佛	恒河/NR[Hénghé | Ganges River] 沙/NN[shā | sand] 數/NN[shǔ | number] 諸/DT[zhū | all] 佛/NR[Fó | Buddha] <Buddhas as countless as the grains of sand in the Ganges River>	\N	\N	Amitābha Sūtra 佛說阿彌陀經 T12 366
+350	成就如是功德莊嚴	成就/VV[chéngjiù | to achieve] 如是/DT[rúshì | thus] 功德/NN[gōngdé | merit] 莊嚴/VV[zhuāngyán | to adorn] <is thus meritoriously adorned>	\N	\N	Amitābha Sūtra 佛說阿彌陀經 T12 366
+351	譯出	譯/VV[yì | to translate] 出/VV[chū | to publish] <to translate>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+352	遊化	遊/VV[yóu | to travel] 化/VV[huà | to make into] <to travel and teach>	\N	\N	Short for 游方行化. Biographies of Eminent Monks 高僧傳 T 50 2059
+353	梵本	梵/NR[Fàn | Sanskrit] 本/NN[běn | source] <Sanskrit source text>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+354	漢言	漢/NR[Hàn | Han Chinese] 言/VV[yán | to speak] <to speak Chinese>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+355	誦經	誦/VV[sòng | to recite] 經/NN[jīng | sūtra] <to recite a sūtra>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+356	譯梵文	譯/VV[yì | to translate] 梵文/NR[Fànwén | Sanskrit] <to translate from Sanskrit>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+357	譯為漢文	譯/VV[yì | to translate] 為/P[wèi | to] 漢文/NR[Hànwén | Chinese] <to translate to Chinese>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+358	譯經	譯/VV[yì | to translate] 經/NN[jīng | sūtra] <to translate a sūtra>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+359	圖寫	圖/NN[tú | picture] 寫/VV[xiě | to write] <to draw a picture>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+360	立寺	立/VV[lì | to establish] 寺/NN[sì | temple] <to establish a temple>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+361	譯出眾經	譯/VV[yì | to translate] 出/VV[chū | to publish] 眾/NN[zhòng | multitude] 經/NN[jīng | sūtra] <to translate a number of sūtras>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+362	大小乘	大/VA[dà | great] 小/VA[xiǎo | smaller] 乘/NN[chéng | vehicle] <Mahāyāna and Theravāda>	\N	\N	This phrase refers to the great and small vehicles. Biographies of Eminent Monks 高僧傳 T 50 2059
+363	辭還西域	辭/VV[cí | to take leave] 還/VV[huán | to return] 西域/NR[] <took leave and returned to the Western Regions>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+364	二十餘年	二十/CD[èrshí | twenty] 餘/VA[yú | extra] 年/NN[nián | year] <more than twenty years>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+365	西行	西/NN[xī | west] 行/VV[xíng | to travel] <to travel west>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+366	論云	論/NN[lùn | treatise] 云/VV[yún | to say] <the treatise says>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+367	少出家	少/VA[shào | young] 出家/VV[chūjiā | to become a monk] <was ordained as a monk at a young age>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+368	過江	過/VV[guò | to cross] 江/NR[Jiāng | Yangtze River] <crossed the Yangtze River>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059
+369	本姓	本/VV[běn | own] 姓/NN[xìng | surname] <his surname was>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059, Scroll 8
+370	立碑頌德	立/VV[lì | to set up] 碑/NN[bēi | stele] 頌/VV[sòng | to praise] 德/NN[dé | virtue] <to errect a stele to praise the virtues>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059, Scroll 8
+371	請稱還鄉	請/VV[qǐng | to ask] 稱/VV[chēng | to consider] 還/VV[huán | to return] 鄉/NN[xiāng | village] <requested to retire from his post (to return to his village)>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059, Scroll 11
+372	經云	經/NN[jīng | sūtra] 云/VV[yún | to say] <the sūtra says>	\N	\N	Biographies of Eminent Monks 高僧傳 T 50 2059, Scroll 11
+373	講經	講/VV[jiǎng | to speak] 經/NN[jīng | sūtra] <to lecture on a sūtra>	\N	\N	T51 2092 Buddhist Monasteries in Luoyang, Scroll 2
+374	受持讀誦	受/VV[shòu | receive] 持/VV[chí | to maintain] 讀誦/VV[dúsòng | to recite] <receives, retains, reads and recites>	\N	\N	Diamond Sūtra T8 235
+375	得聞	得/VV[dé | to obtain] 聞/VV[wén | to hear] <to hear>	\N	\N	Diamond Sūtra T8 235
+376	一切眾生	一切/DT[yīqiè | all] 眾生/NN[zhòngshēng | a being] <all sentient beings>	\N	\N	Diamond Sūtra T8 235
+377	福勝	福/NN[fú | reward] 勝/VV[shèng | to surpass] <rewards will surpass>	\N	\N	Diamond Sūtra T8 235
+378	三十二相觀如來	三十二相/NR[sān shí èr xiāng | the thirty two marks of excellence] 觀/VV[guān | observe] 如來/NR[Rúlái | the Tathagata] <perceives the Tathagata by the thirty-two characteristics>	\N	\N	Diamond Sūtra T8 235
+379	菩薩心	菩薩/NN[púsà | bodhisattva] 心/NN[xīn | mind] <the mind of a bodhisattva>	\N	\N	Diamond Sūtra T8 235
+380	生心	生/VV[shēng | to give rise] 心/NN[xīn | mind] <develop the mind>	\N	\N	Diamond Sūtra T8 235
+381	莊嚴佛土	莊嚴/VV[zhuāngyán | to adorn] 佛土/NN[Fótǔ | a Buddha land] <adorn Buddha Lands>	\N	\N	Diamond Sūtra T8 235
+382	聲香味觸法	聲/NN[shēng | sound] 香/NN[xiāng | scent] 味/NN[wèi | taste] 觸/NN[chù | touch] 法/NN[fǎ | a thought] <sound, scent, taste, touch, or thought>	\N	\N	Diamond Sūtra T8 235
+383	身布施	身/NN[shēn | body]  布施/NN[bùshī | dana] <give a life>	\N	\N	Diamond Sūtra T8 235
+384	得福	得/VV[dé | to obtain] 福/NN[fú | reward] <rewards obtained>	\N	\N	Diamond Sūtra T8 235
+385	持用布施	持/VV[chí | to hold] 用/VV[yòng | to use] 布施/NN[bùshī | giving] <used to practice giving>	\N	\N	Diamond Sūtra T8 235
+386	心不可得	心/NN[xīn | mind] 不/AD[bù | not] 可/AD[kě | able] 得/VV[dé | to obtain] <mind cannot be grasped>	\N	\N	Diamond Sūtra T8 235
+387	沙數	沙/NN[shā | sand] 數/NN[shǔ | number] <number of grains of sand>	\N	\N	Diamond Sūtra T8 235
+388	解佛所說義	解/VV[jiě | to understand] 佛/NR[Fó | Buddha] 所/DT[suǒ | it ] 說/VV[shuō | speak] 義/NN[yì | meaning] <understand the meaning of what the Buddha has said>	\N	\N	Diamond Sūtra T8 235
+389	恒河沙等身布施	恒河/NR[Hénghé | Ganges River] 沙/NN[shā | sand] 等/MSP[děng | plural] 身/NN[shēn | body]  布施/NN[bùshī | dana] <practice giving as many lives as there are grains of sand in the Ganges River>	\N	\N	Diamond Sūtra T8 235
+390	福德多	福德/NN[fúdé | reward] 多/VA[duō | many] <many rewards>	\N	\N	Diamond Sūtra T8 235
+391	法得阿耨多羅三藐三菩提	法/NN[fǎ | dhárma] 得/VV[dé | to attain] 阿耨多羅三藐三菩提/NN[ānòuduōluó sānmiǎo sānpútí | anuttara samyaksaṃbodhi] <dharma attained that was anuttara samyaksaṃbodhi>	\N	\N	Diamond Sūtra T8 235
+392	身相	身/NN[shēn | body] 相/NN[xiàng | appearance] <bodily appearance>	\N	\N	Diamond Sūtra T8 235
+393	得聞是經	得/VV[dé | to obtain] 聞/VV[wén | hear] 是/PN[shì | this] 經/NN[jīng | sūtra] <to hear this sūtra>	\N	\N	Diamond Sūtra T8 235
+394	受持讀誦此經	受/VV[shòu | receive] 持/VV[chí | to maintain] 讀誦/VV[dúsòng | to recite] 是/PN[shì | this] 經/NN[jīng | sūtra] <receive, retain, read and recite this sūtra>	\N	\N	Diamond Sūtra T8 235
+395	偈言	偈/NN[jì | gatha] 言/VV[yán | to speak] <the gatha says>	\N	\N	Vajracchedika-prajbaparamitopadewa, Scroll 1, T25 1511
+396	告須菩提	告/VV[gào | said] 須菩提/NR[Xūpútí | Subhūti] <said to Subhūti>	\N	\N	Vajracchedika-prajbaparamitopadewa, Scroll 1, T25 1511
+397	福德聚	福德/NN[fúdé | merit] 聚/VV[jù | to amass] <merit accumulated>	\N	\N	Vajracchedika-prajbaparamitopadewa, Scroll 1, T25 1511
+398	論曰	論/NN[lùn | a treatise] 曰/VV[yuē | speak] <the treatise says>	\N	\N	Vajracchedika-prajbaparamitopadewa, Scroll 1, T25 1511
+399	四種	四/CD[sì | four] 種/NN[zhǒng | kind] 種 <four kinds>	\N	\N	Vajracchedika-prajbaparamitopadewa, Scroll 1, T25 1511
+400	非相	非/VC[fēi | not] 相/NN[xiàng | appearance] <not an appearance>	\N	\N	Diamond Sūtra T8 235
+401	經曰	經/NN[jīng | sūtra] 曰/VV[yuē | speak] <the sūtra says>	\N	\N	Vajracchedika-prajbaparamitopadewa, Scroll 1, T25 1511
+402	二種	二/CD[èr | two] 種/NN[zhǒng | kind] <two kinds>	\N	\N	Vajracchedika-prajbaparamitopadewa, Scroll 1, T25 1511
+403	修多羅章句	修多羅/NN[xiūduōluó | sūtra] 章句/NN[zhāng jù | words] <words in the sūtra>	\N	\N	Vajracchedika-prajbaparamitopadewa, Scroll 1, T25 1511
+404	菩薩不住	菩薩/NN[púsà | bodhisattva] 不/AD[bù | not] 住/VV[zhù | to attach] <a bodhisattva does not attach>	\N	\N	Vajracchedika-prajbaparamitopadewa, Scroll 1, T25 1511
+405	佛復告須菩提	佛/NR[Fó | Buddha] 復/AD[fù | again] 告/VV[gào | said] 須菩提/NR[Xūpútí | Subhūti] <the Buddha told Subhūti again>	\N	\N	Vajracchedika-prajbaparamitopadewa, Scroll 1, T25 1511
+406	一切聖人	一切/DT[yīqiè | all] 聖人/NN[shèngrén | sage] <all sages>	\N	\N	Vajracchedika-prajbaparamitopadewa, Scroll 1, T25 1511
+407	二佛三四五佛	二/CD[èr | two] 佛/NR[Fó | Buddha] 三/CD[sān | three] 四/CD[sì | four] 五/CD[wŭ | five] 佛/NR[Fó | Buddha] <two, three, four, or five Buddhas>	\N	\N	Vajracchedika-prajbaparamitopadewa, Scroll 1, T25 1511
+408	生信心	生/VV[shēng | to develop] 信心/NN[xìnxīn | faith] <to give rise to faith>	\N	\N	Vajracchedika-prajbaparamitopadewa, Scroll 1, T25 1511
+409	江味農居士傳	江味農/NR[Jiāng Wèinóng | Jiang Weinong] 居士/NN[jūshì | lay Buddhist] 傳/NN[zhuàn | biography] <biography of lay Buddhist Jiang Weinong>	\N	\N	Lectures on the Diamond Sutra by Jiang Wei Nong, Part 1
+410	故曰	故/CC[gù | so] 曰/VV[yuē | speak] <for this reason, we say>	\N	\N	Lectures on the Diamond Sutra by Jiang Wei Nong, Part 1
+411	離一切	離/VV[lí | to leave] 一切/DT[yīqiè | all] <free from all>	\N	\N	Diamond Sūtra T8 235
+412	離一切相	離/VV[lí | to leave] 一切/DT[yīqiè | all] 相/NN[xiàng | a notion] <without all conceptions>	\N	\N	Diamond Sūtra T8 235
+413	清淨心	清淨/VA[qīngjìng | pure] 心/NN[xīn | mind] <a pure, clean mind>	\N	\N	Diamond Sūtra T8 235
+414	發菩提心	發/VV[fā | to develop] 菩提心/NN[pútíxīn | bodhicitta] <develop bodhicitta>	\N	\N	The Great Calming and Contemplation Scroll 1 摩訶止觀卷第一
+415	得佛	得/VV[dé | to obtain] 佛/NR[Fó | Buddha] <to attain Buddhahood>	\N	\N	The Great Calming and Contemplation Scroll 1 摩訶止觀卷第一
+416	衆僧	衆/AD[zhòng | all] 僧/NN[sēng | monk] <all the monks>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+417	起塔	起/VV[qǐ | to build] 塔/NN[tǎ | stupa] <to build a stupa>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+418	東行	東/NN[dōng | east] 行/VV[xíng | to travel] <to travel east>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+419	起精舍	起/VV[qǐ | to establish] 精舍/NN[jīngshè | vihāra] <to establish a vihāra>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+420	小乘學	小乘/NR[Xiǎochéng | Theravāda] 學/VV[xué | study] <to study Theravāda>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+421	坐處	坐/VV[zuò | to sit] 處/NN[chù | a place] <the place where he sat>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+422	華香	華/NN[huà | a flower] 香/NN[xiāng | incense] <flowers and incense>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+423	校餝	校/VV[jiào | to decorate] 餝/VV[shì | to decorate] <to decorate>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+424	處起塔	處/NN[chù | a place] 起/VV[qǐ | to build] 塔/NN[tǎ | stupa] <to build a stupa at that place>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+425	夏坐	夏/NN[xià | summer] 坐/VV[zuò | to stay] <to stay for the summer>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+426	北行	北/NN[běi | north] 行/VV[xíng | to travel] <to travel north>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+427	三里	三/CD[sān | three] 里/NN[lǐ | li] <three li>	\N	\N	About 1.5 km, Record of Buddhistic Kingdoms 佛國記
+428	佛齒	佛/NR[Fó | Buddha] 齒/NN[chǐ | tooth] <a Buddha tooth relic>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+429	坐訖	坐/NN[zuò | a retreat] 訖/VV[qì | to finish] <the retreat finished>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+430	金銀	金/NN[jīn | gold] 銀/NN[yín | silver] <gold and silver>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+431	東南行	東南/NN[dōngnán | southeast] 行/VV[xíng | to travel] <to travel southeast>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+432	行像	行/VV[xíng | to travel ] 像/NN[xiàng | image] <a procession of images>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+433	僧住	僧/NN[sēng | monk] 住/VV[zhù | to dwell] <monks residing>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+434	大塔	大/VA[dà | big] 塔/NN[tǎ | a pagoda] <a large stupa>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+435	百年	百/CD[bǎi | one hundred] 年/NN[nián | year] <a hundred years>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+436	城南	城/NN[chéng | a city] 南/NN[nán | south] <south of the city>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+437	經行	經/VV[jīng | to experience] 行/VV[xíng | to walk] <walked>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+438	佛鉢	佛/NR[Fó | Buddha] 鉢/NN[bō | an alms bowl] <the Buddha’s alms-bowl>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+439	一人	一/CD[yī | one] 人/NN[rén | person] <one person>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+440	請佛	請/VV[qǐng | to invite] 佛/NR[Fó | Buddha] <to invite the Buddha>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+441	羣臣	羣/NN[qún | group] 臣/NN[chén | minister] <a group of ministers>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+442	得道	得/VV[dé | to obtain] 道/NN[dào | the path leading to the cessation of suffering] <attaining to the Path (of Wisdom)>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+443	國名	國/NN[guó | a country] 名/VV[míng | to be called] <a country named>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+444	香供養	香/NN[xiāng | incense] 供養/VV[gōngyǎng | to provide offerings] <to make an offering of incense>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+445	般泥洹處	般泥洹/NR[Bānníhuán | Nirvāṇa] 處/NN[chù | a place] <the place where he attained Nirvāṇa>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+446	出城	出/VV[chū | to go out] 城/NN[chéng | a city] <to leave the city>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+447	供養佛	供養/VV[gōngyǎng | to provide offerings] 佛/NR[Fó | Buddha] <made an offering to the Buddha>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+448	衆寶	衆/AD[zhòng | all] 寶/NN[bǎo | a jewel] <all the precious substances>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+449	新城	新/VA[xīn | new] 城/NN[chéng | a city] <new city>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+450	佛坐	佛/NR[Fó | Buddha] 坐/VV[zuò | to sit] <the Buddha sat>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+451	西南行	西南/NN[xīnán | southwest] 行/VV[xíng | to travel] <to travel southwest>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+452	遣人	遣/VV[qiǎn | to dispatch] 人/NN[rén | person] <to send a person>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+453	大國	大/VA[dà | big] 國/NN[guó | a state] <a great kingdom>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+454	四里	四/CD[sì | four] 里/NN[lǐ | li] <four li>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+455	城西	城/NN[chéng | a city] 西/NN[xī | west] <west of the city>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+456	塔邊	塔/NN[tǎ | stupa] 邊/VV[biān | to be near] <beside the stupa>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+457	五人	五/CD[wŭ | five] 人/NN[rén | person] <five people>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+458	道西	道/NN[dào | path] 西/NN[xī | west] <west of the road>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+459	上忉利天	上/VV[shàng | to go up] 忉利天/NR[Dāolìtiān | Trāyastriṃśa Heaven] <to go up to Trāyastriṃśa Heaven>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+460	石山	石/NN[shí | rock] 山/NN[shān | mountain] <a rocky hill>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+461	衆食	衆/VA[zhòng | common] 食/NN[shí | food] <common store>	\N	\N	Record of Buddhistic Kingdoms 佛國記, uses 衆, an archaic variant of 眾
+462	眾食	眾/VA[zhòng | common] 食/NN[shí | food] <common store>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+463	治罪人	治/VV[zhì | to punish] 罪人/NN[zuìrén | a sinner] <to punish an offender>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+464	佛泥洹	佛/NR[Fó | Buddha] 泥洹/NR[Níhuán | Nirvāṇa] <the Buddha's Nirvāṇa>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+465	舊城	舊/VA[jiù | old] 城/NN[chéng | a city] <old city>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+466	城裏	城/NN[chéng | a city] 裏/NN[lǐ | inside] <inside the city>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+467	十里	十/CD[shí | ten] 里/NN[lǐ | li] <ten li>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+468	放弓仗	放/VV[fàng | to release] 弓/NN[gōng | bow] 仗/NN[zhàng | weapons] <to put down weapons>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+469	掃灑	掃/VV[sǎo | to sweep] 灑/VV[sǎ | to water] <to sweep and water>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+470	四邊	四/CD[sì | four] 邊/NN[biān | side] <four sides>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+471	佛般泥洹	佛/NR[Fó | Buddha] 般泥洹/NR[Bānníhuán | Nirvāṇa] <the Buddha's Nirvāṇa>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+472	起大塔	起/VV[qǐ | to build] 大/VA[dà | big] 塔/NN[tǎ | stupa] <to build a great stupa>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+473	夏坐訖	夏/NN[xià | summer] 坐/VV[zuò | to stay] 訖/VV[qì | to finish] <after having stayed for the summer>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+474	城北	城/NN[chéng | a city] 北/NN[běi | north] <north of the city>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+475	般泥洹後	般泥洹/NR[Bānníhuán | Nirvāṇa] 後/NN[hòu | after] <after attaining Nirvāṇa>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+476	佛坐處	佛/NR[Fó | Buddha] 坐/VV[zuò | to sit] 處/NN[chù | a place] <the place where the Buddha sat>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+477	城東北	城/NN[chéng | city] 東北/NN[dōngběi | northeast] <northeast of the city>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+478	國人民	國/NN[guó | a state] 人民/NN[rénmín | people] <the people of the country>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+479	二丈	二/CD[èr | two] 丈/NN[zhàng | zhang] <two zhang>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+480	秦土	秦/NR[Qín | Qin Dynasty] 土/NN[tǔ | territory] <territory of Qin>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+481	六七	六/CD[liù | six] 七/CD[qī | seven] <six or seven>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+482	一分	一/CD[yī | one] 分/NN[fèn | a portion] <one portion>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+483	西門	西/NN[xī | west] 門/NN[mén | gate] <west gate>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+484	三人	三/CD[sān | three] 人/NN[rén | person] <three people>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+485	到一邑	到/VV[dào | arrive] 一/CD[yī | one] 邑/NN[yì | village] <arrived at a village>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+486	南三里	三/CD[sān | three] 里/NN[lǐ | li] 南/NN[nán | south] <three li south>	\N	\N	About 1.5 km, Record of Buddhistic Kingdoms 佛國記
+487	千佛	千/CD[qiān | thousand] 佛/NR[Fó | Buddha] <a thousand Buddhas>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+488	處皆起塔	處/NN[chù | a place] 皆/DT[jiē | all] 起/VV[qǐ | to build] 塔/NN[tǎ | stupa] <stupas were built at all these places>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+489	父子相見處	父/NN[fù | father] 子/NN[zǐ | son] 相見/VV[xiāngjiàn | to meet each other] 處/NN[chù | a place] <the place where the father and son met>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+490	僧住處	僧/NN[sēng | monk] 住/VV[zhù | dwell] 處/NN[chù | a place] <where monks live>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+491	西北行	西北/NN[xīběi | northwest] 行/VV[xíng | to travel] <to travel northwest>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+492	度蔥嶺	度/VV[dù | to cross] 蔥嶺/NR[Cōnglǐng | Pamirs] <crossed the Pamirs>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+493	割肉貿鴿	割/VV[gē | to cut off] 肉/NN[ròu | flesh] 貿/VV[mào | to trade] 鴿/NN[gē | dove] <cut off a piece of his own flesh to ransom the life of a dove>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+494	篤信佛法	篤信/VV[dǔxìn | to believe firmly] 佛法/NR[Fófǎ | Dharma] <to firmly believe in Buddhism>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+495	臣民	臣/NN[chén | minister] 民/NN[mín | people] <ministers and people>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+496	佛影	佛/NR[Fó | Buddha] 影/NN[yǐng | shadow] <the Buddha's shadow>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+497	成道處	成/VV[chéng | to accomplish] 道/NN[dào | the path leading to the cessation of suffering] 處/NN[chù | a place] <the place where he attained enlightenment>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+498	入谷	入/VV[rù | to enter] 谷/NN[gǔ | valley] <enter a valley>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+499	行一由延	行/VV[xíng | to travel] 一/CD[yī | one] 由延/NN[yóuyán | yojana] <to travel one yojana>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+500	東門	東/NN[dōng | east] 門/NN[mén | gate] <east gate>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+501	佛頂骨	佛/NR[Fó | Buddha] 頂骨/NN[dǐnggǔ | parietal bone] <the flat-bone of Buddha’s skull>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+502	二丈許	二/CD[èr | two] 丈/NN[zhàng | zhang] 許/AD[xǔ | perhaps] <perhaps two zhang>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+503	佛成道	佛/NR[Fó | Buddha] 成/VV[chéng | to accomplish] 道/NN[dào | the path leading to the cessation of suffering] <the Buddha attained enlightenment>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+504	競興供養	競/VV[jìng | to compete] 興/VV[xīng | to be popular] 供養/VV[gōngyàng | to make offerings] <it was common to compete in making offerings>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+505	得道處	得/VV[dé | to obtain] 道/NN[dào | the path leading to the cessation of suffering] 處/NN[chù | a place] <the place where he attained enlightenment>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+506	四大塔	四/CD[sì | four] 大/VA[dà | big] 塔/NN[tǎ | stupa] <four large stupas>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+507	敬心	敬/VV[jìng | to venerate] 心/NN[xīn | heart] <to have a reverent heart>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+508	求法	求/VV[qiú | to seek] 法/NR[Fǎ | Dharma] <to seek the Dharma>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+509	冬夏	冬/NN[dōng | winter] 夏/NN[xià | summer] <winter and summer>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+510	七八	七/CD[qī | seven] 八/CD[bā | eight] <seven or eight>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+511	大乘學	大乘/NR[Dàchéng | Mahāyāna] 學/VV[xué | study] <study Mahāyāna>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+512	心念	心/NN[xīn | mind] 念/NN[niàn | a thought] <to think in his heart>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+513	散華	散/VV[sàn | to scatter] 華/NN[huá | a flower] <to scatter flowers>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+514	柱上	柱/NN[zhù | a pillar] 上/P[shàng | on] <on top of the pillar>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+515	高六丈許	高/NN[gāo | height] 六/CD[liù | six] 丈/NN[zhàng | zhang] 許/AD[xǔ | perhaps] <perhaps six zhang in height>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+516	船漏	船/NN[chuán | ship] 漏/VV[lòu | to leak] <the ship leaked>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+517	國國	國/NN[guó | a state] 國/NN[guó | a state] <all the kingdoms>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+518	佛得道	佛/NR[Fó | Buddha] 得/VV[dé | to obtain] 道/NN[dào | the path leading to the cessation of suffering] <the Buddha attained enlightenment>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+519	然燈續明	然/VV[rán | to burn] 燈/NN[dēng | lamp] 續/[xù | to continue] 明/VA[míng | bright] <lighting lamps to shine brightly>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+520	三帀	三/CD[sān | three] 帀/NN[zā | a round] <to go around three times>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+521	金銀校餝	校/VV[jiào | to decorate] 餝/VV[shì | to decorate] 金/NN[jīn | gold] 銀/NN[yín | silver] <gold and silver>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+522	汎海	汎/VV[fàn | to float] 海/NN[hǎi | sea] <to float across the sea>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+523	佛般泥洹後	佛/NR[Fó | Buddha] 般泥洹/NR[Bānníhuán | Nirvāṇa] 後/NN[hòu | after] <after the Buddha attained Nirvāṇa>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+524	船上	船/NN[chuán | ship] 上/P[shàng | on] <on the boat>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+525	佛泥洹已來	佛/NR[Fó | Buddha] 泥洹/NR[Níhuán | Nirvāṇa] 已/NN[yǐ | afterwards] 來/P[lái | ever since] <since the Buddha attained Nirvāṇa>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+526	四方僧	四/CD[sì | four] 方/NN[fāng | side] 僧/NN[sēng | monk] <monks from all quarters>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+527	世尊而說偈言	世尊/NR[Shìzūn | Bhagavān] 而/CS[ér | then] 說/VV[shuō | to say] 偈/NN[jì | gatha] 言/VV[yán | speak] <the Bhagavān spoke this verse>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+528	身皆金色	身/NN[shēn | body] 皆/AD[jiē | all] 金色/NN[jīnsè | gold] <bodies all become gold in color>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+529	信受	信/VA[xìn | sincere] 受/VV[shòu | to receive] <faithfully received>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+530	令滿足	令/VV[lìng | to cause to be] 滿足/VV[mǎnzú | to satisfy] <to fulfill>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+531	發起精進	發起/VV[fāqǐ | to initiate] 精進/NN[jīngjìn | diligence] <give rise to diligence>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+532	來世得	來世/NN[lái shì | future] 得/VV[dé | to attain] <attain in the future>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+533	慈心	慈/VA[cí | kind] 心/NN[xīn | heart] <a kind heart>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+534	佛說此經	佛/NR[Fó | Buddha] 說/VV[shuō | to say] 此/DT[cǐ | this] 經/NN[jīng | sūtra] <the Buddha spoke this sutra>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+535	勤修	勤/VA[qín | diligent] 修/VV[xiū | to cultivate] <diligently cultivate>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+536	一佛土	一/CD[yī | one] 佛土/NN[Fótǔ | a Buddha land] <one Buddha land>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+537	云何名為菩提	云何/PN[yúnhé | what] 名為/VV[míngwèi | to be called] 菩提/NN[pútí | bodhi] <What is 'bodhi?'>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+538	佛菩提	佛/NR[Fó | Buddha] 菩提/NN[pútí | bodhi] <the enlightenment of a Buddha>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+539	塔廟	塔/NN[tǎ | stupa] 廟/NN[miào | temple] <stupas and temples>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+540	一者	一/OD[yī | first] 者/PN[zhě | that] <first>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+541	二者	二/OD[èr | second] 者/PN[zhě | that] <second>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+542	三者	三/OD[sān | third] 者/PN[zhě | that] <third>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+543	正法	正/VA[zhèng | main] 法/NR[Fǎ | Dhárma] <true Dharma>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+544	四者	四/OD[sì | fourth] 者/PN[zhě | that] <third>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+545	安住	安/VV[ān | to find a place for] 住/VV[zhù | to dwell] <to lead to dwell>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+546	安處	安/VV[ān | to find a place for] 處/NN[chù | a place] <to place upon>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+547	菩薩行	菩薩/NN[púsà | bodhisattva] 行/NN[xíng | practice] <bodhisattva practices>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+548	惡心	惡/NN[è | evil] 心/NN[xīn | mind] <unwholesome thoughts>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+549	念佛	念/VV[niàn | to remember] 佛/NR[Fó | Buddha] <to recollect the Buddha>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+550	佛現前	佛/NR[Fó | Buddha] 現/VV[xiàn | to appear] 前/VA[qián | in front of] <the Buddha will appear>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+551	善法	善/VA[shàn | good] 法/NN[fǎ | teaching] <a wholesome teaching>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+552	白言	白/VV[bái | to say] 言/VV[yán | to speak] <to say to>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+553	一行	一/CD[yī | one] 行/NN[xíng | practice] <one practice>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+554	佛教	佛/NR[Fó | Buddha] 教/VV[jiāo | to teach] <the Buddha teaches>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+555	可行	可/VV[kě | able to] 行/VV[xíng | to do] <to be able to do>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+556	成佛	成/VV[chéng | to become] 佛/NR[Fó | Buddha] <to become a Buddha>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+557	答言	答/VV[dá | to reply] 言/VV[yán | to say] <to reply>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+558	答曰	答/VV[dá | to reply] 曰/VV[yuē | speak] <to reply>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+559	豐饒	豐/VA[fēng | rich] 饒/VA[ráo | abundant] <rich and abundant>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+560	隨念	隨/VV[suí | to follow] 念/NN[niàn | thought] <to follow the thought>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+561	地居天	地/NR[Dì | Earth] 居/VV[jū | to reside] 天/NN[tiān | a deva] <heavenly beings dwelling on Earth>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+562	展轉	展/VV[zhǎn | to turn] 轉/VV[zhuǎn | to turn] <one after the other in turn>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+563	智證	智/NN[zhì | wisdom] 證/NN[zhèng | realization] <liberating wisdom>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+564	威德	威/NN[wēi | power] 德/NN[dé | virtue] <majestic virtue>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+565	汝等	汝/PN[rǔ | you] 等/MSP[děng | plural] <you all>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+566	相次	相/AD[xiāng | mutual] 次/VA[cì | a sequence / an order] <one after another>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+567	善巧	善/VA[shàn | virtuous] 巧/VA[qiǎo | clever] <virtuous and clever>	\N	\N	Sumati Sūtra 妙慧童女經 T12 336
+568	一路	一/AD[yī | a complete unit] 路/NN[lù | journey] <the whole journey>	\N	\N	Discourse on Sailing Directions 海道經
+569	東西	東/NN[dōng | east] 西/NN[xī | west] <east to west>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+570	南北	南/NN[nán | south] 北/NN[běi | north] <north to south>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+571	薄瘠	薄/VA[báo | thin] 瘠/VA[jí | barren] <thin and barren>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+572	奉法	奉/VV[fèng | to receive] 法/NR[Fǎ | Dhárma] <to act with reverence for the Dharma>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+573	寂然	寂/VA[jì | tranquil] 然/AD[rán | thus] <silent>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+574	手指麾	手/NN[shǒu | hand] 指/VV[zhǐ | to indicate] 麾/VV[huī | to signal] <make signs with their hands>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+575	諸天	諸/DT[zhū | all] 天/NN[tiān | deva] <many devas>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+576	妙好	妙/VA[miào | wonderful] 好/VA[hǎo | beautiful] <elaborate and beautiful>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+577	非人	非/VC[fēi | not] 人/NN[rén | person] <a non-human>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+578	國人	國/NN[guó | a country] 人/NN[rén | person] <people of that country>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+579	問言	問/VV[wèn | to ask] 言/VV[yán | to speak] <to ask>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+580	開戶	開/VV[kāi | to open] 戶/NN[hù | a door] <to open a door>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+581	香汁	香/VA[xiāng | scented] 汁/NN[zhī | liquid] <scented water>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+582	聞已	聞/VV[wén | to hear] 已/AD[yǐ | afterwards] <upon hearing>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+583	山西南	山/NN[shān | mountain] 西南/NN[xīnán | westsouth] <southwest of the mountain>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+584	不復活	不/AD[bù | not] 復/AD[fù | more] 活/VV[huó | to live] <will not live any longer>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+585	左右	左/NN[zuǒ | left] 右/NN[yòu | right] <retainers and officials>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+586	或多或少	或/CC[huò | or] 多/VA[duō | many] 或/CC[huò | or] 少/VA[shǎo | few] <more or less>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+587	何國	何/DT[hé | which] 國/NN[guó | a state] <which country>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+588	四處	四/CD[sì | four] 處/NN[chù | a place] <four places>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+589	國有	國/NN[guó | land] 有/VE[yǒu | to have] <country has>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+590	五河合口	五/CD[wŭ | five] 河/NN[hé | a river] 合/VV[hé | combine] 口/NN[kǒu | an opening] <confluence of five rivers>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+591	分身作二分	分/VV[fēn | to divide] 身/NN[shēn | body] 作/VV[zuò | to do] 二/CD[èr | two] 分/NN[fèn | a part] <to divide a body into two>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+592	度河南	度/VV[dù | to cross] 河/NN[hé | a river] 南/NN[nán | south] <crossed the river to the south>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+593	大方石	大/VA[dà | large] 方/NN[fāng | square] 石/NN[shí | rock] <large square stone>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+594	日月	日/NN[rì | day] 月/NN[yuè | month] <day and month>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+595	搏山東南	搏/VV[bó | to adhere] 山/NN[shān | mountain] 東南/NN[dōngnán | southeast] <to stick to the southeast of the mountain>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+596	搏山東南	搏/VV[bó | to adhere] 山/NN[shān | mountain] 東南/NN[xīnán | southwest] <to stick to the southwest of the mountain>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+597	數百	數/NN[shuò | number] 百/CD[bǎi | one hundred] <several hundred>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+598	日食一麻	日/NN[rì | day] 食/VV[shí | to eat] 一/CD[yī | one] 麻/NN[má | sesame] <to eat daily only a single sesame seed>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+599	三阿僧祇劫	三/CD[sān | three] 阿僧祇/CD[āsēngzhǐ | asamkhyeya] 劫/NN[jié | kalpa] <Three Asankhyeya Kalpas>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+600	南北	南/NN[nán | south] 北/NN[běi | north] <north to south>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+601	次第乞食	次第/AD[cìdì | one after another] 乞/VV[qǐ | to beg] 食/NN[shí | food] <collecting alms in order>	\N	\N	Record of Buddhistic Kingdoms 佛國記
+604	全球華文文學星雲獎	<Hsing Yun Award for Global Chinese Literature>	\N	\N 	A Fo Guang Shan award name
+605	做好事	<do good deeds>	\N	\N 	A Fo Guang Shan quote

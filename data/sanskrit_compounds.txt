@@ -1,0 +1,332 @@
+1	buddhajñānena	Buddha wisdom	佛智慧	2	Diamond Sūtra (T 235)	buddha + jñāna	\N
+2	paramapāramitā	foremost pāramitā	第一波羅蜜	2	Diamond Sūtra (T 235)	parama + pāramitā	\N
+3	srotaāpattiphalaṃ	the fruit of a Srotaāpanna	須陀洹果	2	Diamond Sūtra (T 235)	srotaāpatti + phala	Accusative case
+4	sakṛdāgāmiphalaṃ	the fruit of a Sakṛdāgāmin	斯陀含果	2	Diamond Sūtra (T 235)	sakṛdāgāmi + phala	Accusative case
+5	anāgāmiphalaṃ	the fruit of a Sakṛdāgāmin	阿那含果	2	Diamond Sūtra (T 235)	anāgāmi + phala	Accusative case
+6	nādharmaḥ	non-dhárma	非法	2	Diamond Sūtra (T 235)	nā + dharma	Nominative case, negation formed with the prefix nā
+7	śākyamunirnāma	named Śākyamuni	號釋迦牟尼	2	Diamond Sūtra (T 235)	śākyamuni + nāma	\N
+8	parvatarājaḥ	King of Mountains	山王	2	Diamond Sūtra (T 235)	parvata + rāja	Nominative case
+9	caityabhūtaḥ	a true place of worship	\N	2	Diamond Sūtra	caitya + bhūta	Nominative case
+10	idamavocadbhagavān	after the Buddha had said this	\N	3	Diamond Sūtra	idama + vocad + bhagavān	\N
+11	nāsattvāḥ	not sentient beings	不眾生	2	Diamond Sūtra (T 235)	nā + sattvā	Nominative case
+12	paramapāramitāṃ	foremost pāramitā	第一波羅蜜	2	Diamond Sūtra (T 235)	parama + pāramitā	Accusative case
+13	jetavane'nāthapiṇḍadasyārāme	Jeta Grove in Anāthapiṇḍada’s park	祇樹給孤獨園	4	Diamond Sūtra (T 235)	jeta + vana + anāthapiṇḍa + dasyārāme	Locative case
+14	sarvadharmā	all dharmas	一切法	2	Diamond Sūtra (T 235)	 sarva + dharma	The nominative case, plural form dharmāḥ, is modified for Sandhi.
+15	apāramitā	not a paramita	\N	2	Diamond Sūtra	a + pāramitā	Negation formed with the prefix a
+16	dharmadeśanā	dhárma teaching	說法	2	Diamond Sūtra	dharma + deśanā	\N
+17	askandhaḥ	not a skandha	\N	2	Diamond Sūtra	a + skandha	Nominative case with negation formed with the prefix a
+18	bodhisattvairmahāsattvaiḥ	bodhisattvas and mahāsattva	\N	2	Diamond Sūtra (T 235)	bodhisattva + mahāsattva	Instrumental case
+19	ātmagrāha	grasping to the self	\N	2	Diamond Sūtra	ātma + grāha	\N
+20	kaścitsattvo	any sentient beings	有眾生	2	Diamond Sūtra (T 235)	kaścit + sattva	Word ending modified for sandhi
+21	asattvāḥ	no sentient beings	非眾生	2	Diamond Sūtra (T 235)	a + sattvā	Nominative case
+22	bhūtavādī	speaks what is true	真語	2	Diamond Sūtra (T 235)	bhūta + vādī	\N
+23	satyavādī	speaks what is real	實語	2	Diamond Sūtra (T 235)	satya + vādī	\N
+24	tathāvādī	speaks what is thus	如語	2	Diamond Sūtra (T 235)	tathā + vādī	\N
+25	vitathavādī	speaks to the contrary	異語	2	Diamond Sūtra (T 235)	vitatha + vādī	\N
+26	akāyaḥ	not a body	非身	2	Diamond Sūtra (T 235)	a + kāya	Nominative case with negation formed with the prefix a
+27	nātmasaṃjñā	no notions of a self	無我相	3	Diamond Sūtra (T 235)	na + atma + saṃjñā	\N
+28	pudgalasaṃjñā	notions of a person	人相	2	Diamond Sūtra (T 235)	pudgala + saṃjñā	\N
+29	sattvasaṃjñā	notions of a being	眾生相	2	Diamond Sūtra (T 235)	sattva + saṃjñā	\N
+30	jīvasaṃjñā	notions of a life	壽者相	2	Diamond Sūtra (T 235)	jīva + saṃjñā	\N
+31	agrāha	no grasping	\N	2	Diamond Sūtra	a + grāha	Negation formed with the prefix a
+32	kṣāntivādī	to speak of forbearance	\N	2	Diamond Sūtra (T 235)	kṣānti + vādī	\N
+33	sarvasaṃjñā	all appearances	一切相	2	Diamond Sūtra (T 235)	sarva + saṃjñā	\N
+34	pātracīvaraṃ	robe and bowl	衣缽	2	Diamond Sūtra (T 235)	pātra + cīvara	Accusative with anusvara sandhi
+35	bhāṣatebhūtasaṃjñā	he speaks of a true appearance	說名實相	3	Diamond Sūtra (T 235)	bhāṣate + bhūta + saṃjñā	\N
+36	samyaksaṃbuddhasyāntikādudgṛhītaḥ	enlightenment obtained	得法	3	Diamond Sūtra (T 235)	samyak + saṃbuddhasyāntikādud + gṛhīta	Nominative case
+37	sakṛdāgāmīti	called a sakṛdāgāmin	名斯陀含	2	Diamond Sūtra (T 235)	sakṛdāgāmin + iti	Sandhi applied
+38	ātmadṛṣṭiriti	called the view of a self	名我見	3	Diamond Sūtra (T 235)	ātma + dṛṣṭi + iti	Sandhi applied
+39	bhavediti	said to be	\N	2	Diamond Sūtra	bhave + iti	Sandhi applied
+40	araṇāvihārīti	called forest dwelling	\N	3	Diamond Sūtra (T 235)	araṇā + vihār + iti	Sandhi applied
+41	anāgāmīti	called an Anāgāmin	名阿那含	2	Diamond Sūtra (T 235)	anāgāmin + iti	Sandhi applied
+42	yathāhaṃ	thus I	\N	2	Diamond Sūtra	 yatha + aham	Accusative form with sandhi applied
+43	arhattvaṃ	you Arhat	\N	2	Diamond Sūtra	arhat + tvam	Accusative form with sandhi applied
+44	tatkasya	that reason	\N	2	Diamond Sūtra	tat + kasya	\N
+45	kaściddharmo	any dharma	\N	2	Diamond Sūtra	kaścid + dharma	Nominative case with sandhi applied to word end
+46	āryaprajñāpāramitāyai	the noble prajna paramita	\N	3	Diamond Sūtra	ārya + prajñā + pāramitā	The dative case of pāramitā is used.
+47	buddhacakṣuṣā	perceived by the Buddha	\N	2	Diamond Sūtra	buddha + cakṣuṣa	Instrumental case, singular form
+48	cittamutpādayitavyam	to tame the mind	生清淨心	2	Diamond Sūtra (T 235)	citta + utpādayitavya	Accusative case
+49	cittamutpādayitavyaṃ	to tame the mind	生清淨心	2	Diamond Sūtra (T 235)	citta + utpādayitavya	Accusative case with word ending modified for sandhi
+50	pudgalagrāha	grasping to a person	\N	2	Diamond Sūtra	pudgala + grāha	\N
+51	prajñāpāramiteti	called prajñāpāramitā	\N	2	Diamond Sūtra	prajñāpāramitā + iti	Modified for sandhi
+52	pṛthivīrajaḥ	king of the land	\N	2	Diamond Sūtra	pṛthivī + raja	Nominative case, singular form
+53	bhikṣusaṃghena	with a group of monks	比丘眾	2	Diamond Sūtra (T 235)	bhikṣu + saṃgha	Instrumental case, singular form
+54	nādharmasaṃjñā	no notions of dharmas	無法相	3	Diamond Sūtra (T 235)	nā + dharma + saṃjñā	Negation formed with the adverb nā
+55	mahāsattvānāmātmasaṃjñā	mahāsattvas do not have notions of a self	\N	4	Diamond Sūtra	mahāsattva + nā + ātma + saṃjñā	Modified for sandhi
+56	dharmānāpannaḥ	no entry into dharmas	\N	3	Diamond Sūtra	dharma + na + āpanna	Nominative case, modified for sandhi
+57	sattvadṛṣṭirjīvadṛṣṭiḥ	view of a being, view of a life	眾生見、 壽者見	4	Diamond Sūtra (T 235)	sattva + dṛṣṭi + jīva + dṛṣṭi	Nominative case, modified for sandhi
+58	teṣāmātmasaṃjñā	those notions of a self	\N	3	Diamond Sūtra	teṣām + ātma + saṃjñā	\N
+59	tatkathaṃ	he thus	\N	2	Diamond Sūtra	tat + katha	Accusative case, singular form with sandhi
+60	tadbahu	they are many	\N	2	Diamond Sūtra	tad + bahu	\N
+61	tasmāttathāgato	he the Tathagata	如來	2	Diamond Sūtra (T 235)	tasmāt + tathāgata	Ablative case
+62	tasmāttarhi	therefore	是故	2	Diamond Sūtra (T 235)	tasmāt + tarhi	Ablative case
+63	yasmāttarhi	it is because	\N	2	Diamond Sūtra	yasmāt + tarhi	\N
+64	guṇavantaḥ	to cultivate merit	修福	2	Diamond Sūtra (T 235)	guṇa + bhāvanā	Nominative case
+65	śīlavantaḥ	to maintain precepts	持戒	2	Diamond Sūtra (T 235)	śīla + bhāvanā	Nominative case
+66	rūpakāyapariniṣpattiriti	to speak of a perfect physical body	說具足色身	4	Diamond Sūtra (T 235)	rūpa + kāya + pariniṣpatti + iti	\N
+67	rūpapratiṣṭhitaṃ	abiding in form	住色	2	Diamond Sūtra (T 235)	rūpa + pratiṣṭhita	Nominative case modified for sandhi
+68	rūpapratiṣṭhitena	abiding in form	住色	2	Diamond Sūtra (T 235)	rūpa + pratiṣṭhita	Nominative case modified for sandhi
+69	rūpakāyapariniṣpattī	a perfect physical body	具足色身	4	Diamond Sūtra (T 235)	rūpa + kāya + pariniṣpatti	Modified for sandhi
+70	bhūtatathatāyā	truly real	\N	2	Diamond Sūtra	bhūta + tathatā	Instrumental case
+71	gaṅgānadīvālukāsamānātmabhāvān	body away as many times as there are sand grains in the Ganges River	以恆河沙等身命	6	Diamond Sūtra (T 235)	gaṅgā + nada + vālukā + sama + ātma + bhāvān	\N
+72	gaṅgānadīvālukāsamān	as many times as there are sand grains in the Ganges River	恆河沙等	4	Diamond Sūtra (T 235)	gaṅgā + nada + vālukā + sama	\N
+73	trisāhasramahāsāhasraṃ	one billion	三千大千	4	Diamond Sūtra (T 235)	tri + sāhasra + mahā + sāhasra	Accusative case with sandhi
+74	trisāhasramahāsāhasre	one billion	三千大千	4	Diamond Sūtra (T 235)	tri + sāhasra + mahā + sāhasra	Locative case
+75	bhāṣitastrisāhasramahāsāhasro	said to be one billion	說三千大千	5	Diamond Sūtra (T 235)	bhāṣita + tri + sāhasra + mahā + sāhasra	\N
+76	trisāhasramahāsāhasro	one billion	三千大千	4	Diamond Sūtra (T 235)	tri + sāhasra + mahā + sāhasra	With sandhi applied
+77	nāsaṃjñā	no notions	\N	2	Diamond Sūtra	nā + saṃjñā	\N
+78	kaścitsattvaḥ	any beings	\N	2	Diamond Sūtra	kaścit + sattva	Nominative case
+79	bhavatimayā	I become	\N	2	Diamond Sūtra	bhavati + mayā	DSBC text uses a hyphen: bhavati-mayā
+80	prāptamiti	said to obtain	\N	2	Diamond Sūtra	prāpta + iti	Accusative case
+81	lokadhāturiti	speak of worlds	說世界	2	Diamond Sūtra (T 235)	lokadhātu + iti	\N
+82	jānumaṇḍalaṃ	knee making a circle	\N	2	Diamond Sūtra	jānu + maṇḍala	Accusative case
+83	ajanā	not a person	\N	2	Diamond Sūtra	a + jana	A Negative compound
+84	dharmasaṃjñeti	called the characteristic of dharmas	名法相	2	Diamond Sūtra (T 235)	dharmasaṃjñā + iti	With sandhi applied
+85	paramapāramiteti	called the foremost pāramitā	名第一波羅蜜	3	Diamond Sūtra (T 235)	parama + pāramitā + iti	With sandhi applied
+86	bhūtasaṃjñeti	called true appearance	名實相	3	Diamond Sūtra (T 235)	bhūta + saṃjñā + iti	With sandhi applied
+87	dharmadeśaneti	called speaking the Dharma	名說法	3	Diamond Sūtra (T 235)	dharma + deśanā + iti	With sandhi applied
+88	mṛṣeti	said to be false	\N	2	Diamond Sūtra	mṛṣā + iti	With sandhi applied
+89	mahānadyāṃ	in the great river	\N	2	Diamond Sūtra	mahā + nadī	Locative case, singular form (nadyā) with sandhi applied
+90	naivasaṃjñino	neither with thought	 非有想	3	Diamond Sūtra (T 235)	na + va + saṃjñā	Negative compound
+91	nāsaṃjñino	not without thought	非無想	2	Diamond Sūtra (T 235)	na + asaṃjñā	Negative compound
+92	tatkiṃ	what is that?	\N	2	Diamond Sūtra	tat + kim	With sandhi applied to the ending
+93	tatkim	what is that?	\N	2	Diamond Sūtra	tat + kim	\N
+94	kvacitpratiṣṭhitaṃ	any abiding	所住	2	Diamond Sūtra (T 235)	kvacit + pratiṣṭhita	Accusative case with sandhi applied to the ending
+95	dharmapratiṣṭhitaṃ	abide in dharmas	\N	2	Diamond Sūtra	dharma + pratiṣṭhita	Accusative case with sandhi applied to the ending
+96	nādharmapratiṣṭhitaṃ 	not abide in dharmas	\N	3	Diamond Sūtra	na + dharma + pratiṣṭhita	Accusative case with sandhi applied to the ending
+97	kvacitpratiṣṭhitena	any abiding	所住	2	Diamond Sūtra (T 235)	kvacit + pratiṣṭhita	Instrumental case
+98	pudgaladṛṣṭikaiḥ	belief in a person	人見	2	Diamond Sūtra (T 235)	pudgala + dṛṣṭikaiḥ	\N
+99	ekabuddhaparyupāsitā	planted good roots with one buddha	\N	3	Diamond Sūtra	eka + buddha + paryupāsita	\N
+100	samaye'bhaviṣyat	at that time there were no	\N	2	Diamond Sūtra	samaye + bhaviṣyati	Mofified for sandhi
+101	bhavatimayānāgāmiphalaṃ	I have obtained the fruit of an Anāgāmin	我得阿那含果	4	Diamond Sūtra (T 235)	bhavati + mayā + anāgāmin + phalam	Mofified for sandhi
+102	bhavetmayā	I become	\N	2	Diamond Sūtra	bhavet + mayā	\N
+103	pudgalagrāho'bhaviṣyat	would be attachment to a person	\N	3	Diamond Sūtra	pudgala + grāha + bhaviṣyati	Mofified for sandhi
+104	puṇyaskandho'bhaviṣyat	to have great merit	福德多	3	Diamond Sūtra (T 235)	puṇya + skandha + bhaviṣyati	Mofified for sandhi
+105	pudgalasaṃjñābhaviṣyat	to have the concept of a person	\N	3	Diamond Sūtra	pudgala + saṃjñā + bhaviṣyati	\N
+106	lokadhāturabhaviṣyat	the existence of these worlds	世界實有者	2	Diamond Sūtra (T 235)	lokadhātu + bhaviṣyati	\N
+107	tathāgato'bhaviṣyat	the Tathagata would be	\N	2	Diamond Sūtra	tathāgatas + bhaviṣyati	\N
+108	sthavirasubhūtiste	Elder Subhūti	長老須菩提	2	Diamond Sūtra (T 235)	sthavira + subhūte	\N
+109	subhūtirāhano	Subhuti said, No!	\N	3	Diamond Sūtra	subhūte + rās + no	Usually, written with a hyphen: subhūtirāha-no
+110	bhagavānāha	the Bhagavan (Buddha) said	\N	2	Diamond Sūtra (T 235)	bhagavān + āh	\N
+111	kuladuhitā	good women	善女人	2	Diamond Sūtra (T 235)	kula + duhitā	\N
+112	yastathāgatena	for the Tathagata	\N	2	Diamond Sūtra	yas + tathāgata	Instrumental case
+113	lakṣaṇasaṃpadā	possession of signs	\N	2	Diamond Sūtra	lakṣaṇa + sampad	\N
+114	evamukte	this having been said	\N	2	Diamond Sūtra (T 235)	evam + ukta	\N
+115	trayodaśabhirbhikṣuśataiḥ	thirteen hundred monks	\N	4	Diamond Sūtra	trayas + dasabhis + bhikṣu + śata	Instrumental case, plural, masculine form. Other Sanskrit versions of the Diamond Sūtra give ardhatrayodaśabhir (1,250 monks).
+116	pūrvāhṇakālasamaye	in the morning	\N	3	Diamond Sūtra	pūrvāhṇa + kāla + samaye	Locative case, singular form
+117	kṛtabhaktakṛtyaḥ	having eaten	\N	3	Diamond Sūtra	kṛta + bhakta + kṛtyas	Modified for sandhi
+118	pātracīvaramādāya	taking bowl and robe	\N	3	Diamond Sūtra	pātra + cīvara + ādāya	Accusative case
+119	paścādbhaktapiṇḍapātapratikrāntaḥ	After obtaining food he returned	\N	6	Diamond Sūtra (T 235)	paścā + bhakta + piṇḍa + pāta + prati + krānta	Nominative case
+120	evāsane	a seat	座	2	Diamond Sūtra (T 235)	eva + āsana	Locative case
+121	paryaṅkamābhujya	to sit down	\N	3	Diamond Sūtra	paryaṅka + ā + bhuj	\N
+122	praṇidhāya	possessing	\N	2	Diamond Sūtra (T 235)	praṇi + dhāya	\N
+123	smṛtimupasthāpya	abiding in mindfulness	\N	2	Diamond Sūtra	smṛti + upastha	\N
+124	bhagavāṃstenopasaṃkrāman	when the Bhagavan was walking	\N	4	Diamond Sūtra	bhagavat + tena + sam + krāmat	\N
+125	nyaṣīdatprajñapta	the concept of sitting down	\N	2	Diamond Sūtra	nyaṣīdat + prajñapta	\N
+126	ekānte	one person	\N	2	Diamond Sūtra	eka + tad	Accusative case
+127	śirobhirabhivandya	having worshipped with their heads	\N	2	Diamond Sūtra	śirobhiḥ + abhivandya	Instrumental case, plural form
+128	triṣpradakṣiṇīkṛtya	having circumambulated three times	\N	3	Diamond Sūtra	tri + pradakṣiṇa + kṛtya	\N
+129	samayenāyuṣmān	at that time you all	\N	2	Diamond Sūtra	samayena + yuṣmān	\N
+130	subhutistasyāmeva	Subhūti, on that occasion	\N	2	Diamond Sūtra	subhūtiḥ + tasyām + eva	Nominative case
+131	saṃnipatito'bhūtsaṃniṣaṇṇaḥ	was seated together	從座起	3	Diamond Sūtra (T 235)	saṃnipatitaḥ + abhūt + saṃniṣaṇṇaḥ	Nominative case
+132	khalvāyuṣmān	now then, elder	時，長老	2	Diamond Sūtra (T 235)	khalu + āyuṣmān	\N
+133	bhagavantametadavocat	the Bhagavan said this	佛言	3	Diamond Sūtra (T 235)	bhagavantam + etad + avocat	Accusative case
+134	tathāgatenārhatā	with the Tathāgata, Arhat	\N	2	Diamond Sūtra (T 235)	tathāgatena + arhatā	Instrumental case
+135	bhagavānasyaitadavocat	the Bhagavan said to ...	佛告	4	Diamond Sūtra (T 235)	bhagavān + asi + tat + avocat	Instrumental case
+136	sattvadhātau	types of beings	眾生之類	2	Diamond Sūtra (T 235)	sattva + dhātu	\N
+137	pramāṇamudgrahītum	can it be measured?	可思量不	3	Diamond Sūtra (T 235)	pramāṇam + ut + grahītum	\N
+138	subhūtirāha	Subhūti said	\N	2	Diamond Sūtra	subhūti + rai	Nominative case
+139	parebhyaśca	and other	\N	2	Diamond Sūtra	parebhyas + ca	\N
+140	jīvagrāhaḥ	attachment to life	\N	2	Diamond Sūtra	jīva + grāha	Nominative case
+141	subhūteapi	Subhūti, also	\N	2	Diamond Sūtra	subhūte + api	Vocative case
+142	sattvagrāho	attachment to a being	\N	2	Diamond Sūtra	sattv + grāha	Nominative case
+143	punaste	again, he	\N	2	Diamond Sūtra	punar + te	Nominative or accusative case
+144	sūtrāntapadeṣu	words in this sutra	\N	2	Diamond Sūtra	sūtra + padeṣu	Locative case
+145	lokadhātau	in those worlds	\N	2	Diamond Sūtra	loka + dhātau	Locative case
+146	pudgalagrāho	attachment to a person	\N	2	Diamond Sūtra	pudgala + grāha	Nominative case
+147	nimittasaṃjñāyāmapi	abiding in characteristics	住於相	3	Diamond Sūtra (T 235)	nimitta + saṃjñāyām + api	Locative case
+148	samyaksaṃbodhiriti	called samyaksambodhi	名阿耨多羅三藐三菩提	3	Diamond Sūtra (T 235)	samyaksaṃbodhi + iti	Nominative case
+149	subhūteasti	Subhūti, is	\N	2		Diamond Sūtra	subhūte + asti	Vocative case
+150	subhūteyāvat	Subhūti,  as far as	\N	2	Diamond Sūtra	subhūte + yāvat	\N
+151	dānaparityāgaḥ	giving without dwelling	\N	2	Diamond Sūtra	dāna + parityāga	Nominative case
+152	kaściddharmaḥ	any dharma	\N	2	Diamond Sūtra	kaścid + dharma	Nominative case
+153	nārhata	not an Arhat	\N	2	Diamond Sūtra	na + arhat	\N
+154	nocchedaḥ	no annihilation	\N	2	Diamond Sūtra	na + uccheda	Negative compound, nominative case
+155	samyaksaṃbuddha	a true Buddha	\N	3	Diamond Sūtra	samyak + saṃ + buddha	\N
+156	subhūtirāhabahu	Subhuti shouted, many	須菩提言甚多	3	Diamond Sūtra (T 235)	subhūti + rāha + bahu	\N
+157	lakṣaṇasaṃpaditi	called perfection of marks	名諸相具足	3	Diamond Sūtra (T 235)	lakṣaṇa + saṃpad + iti	\N
+158	agrāhyaḥ	not grasped	\N	2	Diamond Sūtra	a + grāhyaḥ	Negative compound, nominative case
+159	agrāhaḥ	not grasped	\N	2	Diamond Sūtra	a + grāhaḥ	Negative compound, nominative case
+160	subhūtirāhatā	Subhuti barked back	\N	2	Diamond Sūtra	subhūti + rās	\N
+161	śakyamayaṃ	I will be a śakya	\N	2	Diamond Sūtra	śakya + maya	Accusative case
+162	nirātmakeṣvanutpattikeṣu	selfless and birthless	\N	2	Diamond Sūtra	nirātmaka + anutpattikeṣu	Locative case, plural form
+163	prasavedaprameyamasaṃkhyeyam	producing immeasurable, innumerable	\N	3	Diamond Sūtra	prasavet + aprameyan + asaṃkhyeya	Contains two Negative compounds	\N
+164	paramāṇusaṃcayaḥ	assemblage of minute particles	微塵眾	2	Diamond Sūtra (T 235)	paramāṇu + sañcaya	Nominative case
+165	paramāṇusaṃcayo	assemblage of minute particles	微塵眾	2	Diamond Sūtra (T 235)	paramāṇu + sañcaya	Nominative case with visarga sandhi
+166	paramāṇusaṃcaya	assemblage of minute particles	微塵眾	2	Diamond Sūtra (T 235)	paramāṇu + sañcaya	\N
+167	paramāṇusaṃcayastathāgatena	assemblage of minute particles, Tathāgata	\N	3	Diamond Sūtra	paramāṇu + sañcaya + tathāgata	Instrumental case
+168	paramāṇusaṃcayo'bhaviṣyat	assemblage of minute particles, becoming	\N	3	Diamond Sūtra	paramāṇu + sañcaya + bhaviṣyat	Future active participle
+169	bhagavānavakṣyatparamāṇusaṃcaya	the Bhagavān does not talk of an assemblage of minute particles	\N	5	Diamond Sūtra	bhagavān + a + vakṣyat + paramāṇu + sañcaya	Negative compound
+170	paramāścaryaṃ	rare and wonderful	\N	2	Diamond Sūtra	parama + āścarya	Accusative case
+171	yāvadeva	as greatly as, thus	\N	2	Diamond Sūtra	yāvat + eva	\N
+172	parameṇānugraheṇa	with the best of blessings	\N	2	Diamond Sūtra	paramena + anugraha	Instrumental case
+173	subhūtirutthāyāsanādekāṃsamuttarāsaṅgaṃ	Subhūti stood up	\N	8	Diamond Sūtra	subhūti + utthā + yā + sana + eka + aṃsa + uttarā + saṅga	Accusative form
+174	bhagavāṃstenāñjaliṃ	towards the Bhagavān with palms joined	\N	3	Diamond Sūtra	bhagavān + tena + añjali	Accusative form
+175	anuparigṛhītāḥ	obtained the highest	\N	3	Diamond Sūtra	anu + pari + gṛhītā	Nominative case
+176	bodhisattvayānasaṃprasthitena	set forth on the bodhisattva path	\N	4	Diamond Sūtra	bodhisattva + yāna + saṃ + prasthitena	Instrumental case
+177	bhagavānāyuṣmantaṃ	he, the Elder Bhagavān	\N	3	Diamond Sūtra	bhagavān + āyuṣman + taṃ	Accusative case
+178	subhūtimetadavocat	said this to Subhūti	\N	3	Diamond Sūtra	subhūti + etat + avocat	\N
+179	evametatsubhūte	so it is, Subhūti	須菩提！如汝所說	3	Diamond Sūtra (T 235)	eva + etat + subhūte	Vocative case
+180	evametadyathā	it is thus	\N	3	Diamond Sūtra (T 235)	eva + etat + yathā	\N
+181	anuparigṛhītāstathāgatena	obtained the highest ... from the Tathāgat	\N	4	Diamond Sūtra	anu + pari + gṛhītā + thāgatena	Instrumental case
+182	parīnditāstathāgatena	with the power of the Tathāgata	\N	2	Diamond Sūtra	parīnditā + tathāgatena	Instrumental case
+183	bhāṣiṣye'haṃ	I will tell (you)	當為汝說	2	Diamond Sūtra	bhāṣiṣye + ahaṃ	Future tense, first person
+184	teyathā	you, thus	\N	2	Diamond Sūtra	te + yathā	\N
+185	ityāyuṣyān	tell, Elder	\N	2	Diamond Sūtra	iti + āyuṣyān	\N
+186	subhūtirbhagavataḥ	Subhūti, Bhagavat	\N	2	Diamond Sūtra	subhūti + bhagavat	\N	
+187	bhagavānasyaitadavocatiha	then, the Bhagavān said this	\N	5	Diamond Sūtra	bhagavān + asi + tad + avocat + iha	\N
+188	bodhisattvayānasaṃprasthitenaiva	set forth on the bodhisattva path, indeed	\N	4	Diamond Sūtra	bodhisattva + yāna + saṃprasthitena + iva	\N
+233	vāgbhāṣitā	like in the parable	\N	2	Diamond Sūtra	vāg + bhāṣita	\N
+190	sattvasaṃgraheṇa	beings, together	一切眾生	2	Diamond Sūtra (T 235)	sattva + saṃgraha	Instrumental case
+191	kaścitsattvadhātuḥ	whatever realm of sentient beings	所有眾生界	3	Diamond Sūtra (T 238)	kaścit + sattva + dhātu	Nominative case
+192	sarve'nupadhiśeṣe	lead all to rest	皆安置於	2	Diamond Sūtra (T 236b)	sarve + an + upadhi + śeṣe	Present, middle, singular form
+193	nirvāṇadhātau	the realm of Nirvaṇa	涅槃界	2	Diamond Sūtra (T 238)	nirvāṇa + dhātau	Locative case
+194	evamaparimāṇānapi	thus, immeasurable, extinction	\N	4	Diamond Sūtra	evam + aparimāṇa + āna + pi	\N
+195	sacetsubhūte	he and, Subhūti	\N	3	Diamond Sūsa + ced + subhūte	Sandhi applied
+196	vastupratiṣṭhitena	abiding in dharmas	住於事	2	Diamond Sūtra (T 236a)	vastu + pratiṣṭhitena	Instrumental case
+197	śabdagandharasaspraṣṭavyadharmeṣu	in sounds, scents, tastes, sensations, dharmas in	聲香味觸法	5	Diamond Sūtra (T 235)	śabda + gandha+ rasa + spraṣṭavya + dharmeṣu	Locative case
+198	bodhisattvo'pratiṣṭhito	bodhisattvas do not abide	菩薩不住	2	Diamond Sūtra (T 235)	bodhisattva + apratiṣṭhita	Nominative case 
+199	pramāṇāmudgrahītum	to make a measure	不可數量	3	Diamond Sūtra (T 236b)	pramā + ut + grah	\N
+200	dakṣiṇapaścimottarāsu	south, west, and north	南西北	3	Diamond Sūtra (T 235)	dakṣiṇa + paścima + uttara	Locative case, plural form
+201	digvidikṣu	points of the compass	四維	2	Diamond Sūtra (T 235)	dik + vidiś	Locative case, plural form
+202	samantāddaśasu	in the ten directions	十方	2	Diamond Sūtra (T 236b)	samanta + daśan	Ablative and locative cases
+203	sukaramākāśasya	easy, the sky	\N	3	Diamond Sūtra	su + kara + ākāśasya	Accusative case
+204	bhagavānāha	The Bhagavān said	世尊言	2	Diamond Sūtra (T 238)	bhagavān + āha	\N
+205	lakṣaṇasaṃpattathāgatena	possession of distinctive features, by the Tathagata	\N	3	Diamond Sūtra	lakṣaṇa + saṃpad + tathāgata	Instrumental case
+206	saivālakṣaṇasaṃpat	he thus, possession of distinctive features	\N	4	Diamond Sūtra	sā + eva + lakṣaṇa + saṃpad	Nominative case
+207	yāvatsubhūte	Subhūti, whenever	\N	2	Diamond Sūtra	yāvat + subhūti	Vocative case
+208	lakṣaṇasaṃpat	possession of distinctive features	相具足	2	Diamond Sūtra (T 238)	lakṣaṇa + saṃpad	Nominative case
+209	tāvanmṛṣā	are all deceptions	皆是虛妄	2	Diamond Sūtra (T 235)	tāvat + mṛṣā	\N
+210	yāvadalakṣaṇasaṃpat	it is called possession of distinctive features	\N	4	Diamond Sūtra	yā + vad + lakṣaṇa + saṃpad	Nominative case
+211	tāvanna	so many, not	\N	2	Diamond Sūtra	tāvat + na	\N
+212	lakṣaṇālakṣaṇatastathāgato	... distinctive features, those distinctive features, Tathāgata	\N	4	Diamond Sūtra	lakṣaṇā + lakṣaṇa + taḥ + tathāgata	Nominative case with visarga sandhi
+213	subhūtirbhagavantametadavocat	Subhūti, said this to the bhagavan	須菩提白佛言	4	Diamond Sūtra (T 235)	subhūti + bhagavat + etat + avocat	Accusative case
+214	kecitsattvā	any sentient beings	有眾生	2	Diamond Sūtra (T 235)	ka + cid + sattvā	Nominative or Accusative case
+215	bhaviṣyantyanāgate'dhvani	in the coming time, after the passing ... will there be?	\N	4	Diamond Sūtra	bhaviṣyanti + an + āgata + adhvani	\N
+216	paścimāyāṃ	who, after	\N	2	Diamond Sūtra	paścima + yad	Accusative case with sandhi
+217	saddharmavipralopakāle	the time after the extinction of the Dharma	正法將滅時	4	Diamond Sūtra (T 220)	saddharma + vipralopa + kāle	\N
+218	imeṣvevaṃrūpeṣu	this, thus form	\N	3	Diamond Sūtra	ayam + evaṃ + rūpeṣu	Locative case
+219	bhūtasaṃjñāmutpādayiṣyanti	give rise to the perception of truth by searching	\N	4	Diamond Sūtra	bhūta + saṃjñā + utpāda + iṣyanti	Accusative case
+220	prajñāvantaśca	wisdom within	智慧者於	3	Diamond Sūtra (T 236a)	prajñā + antar + ca	\N
+221	bhūtasaṃjñāmutpāadayiṣyanti	give rise to the perception of truth by searching	\N	4	Diamond Sūtra	bhūta + saṃjñā + utpāda + iṣyanti	Accusative case
+222	naikabuddhāvaropitakuśalamūlā	planted wholesome roots with more than one Buddha	\N	6	Diamond Sūtra	naika + buddha + a + ropita + kuśala + mūlā	\N
+223	anekabuddhaśatasahasraparyupāsitā	worshipped not one Buddha but hundreds and thousands of Buddhas	修行供養無量百千萬諸佛	6	Diamond Sūtra (T 236a)	an + eka + buddha + śata + sahasra + paryupāsita	Negative compound
+224	anekabuddhaśatasahasrāvaropitakuśalamūlāste	planted wholesome roots with not one Buddha but with hundreds and thousands of Buddhas	不一佛百千種植善根	10	Diamond Sūtra (T 238)	an + eka + buddha + śata + sahasra + a + ropita + kuśala + mūla + te	Negative compound
+225	ekacittaprasādamapi	generate a clear mind in a single thought	一念生淨信	4	Diamond Sūtra	eka + citta + prasāda + api	Accusative case
+226	jñātāste	knows them	悉知是諸	2	Diamond Sūtra (T 236a)	jñātā + te	Nominative case with sandhi
+227	dṛṣṭāste	sees them	見是諸	2	Diamond Sūtra (T 235)	dṛṣṭā + te	Nominative case with sandhi
+228	buddhāste	Buddha, them	\N	2	Diamond Sūtra	buddha + te	Nominative case with sandhi
+229	aprameyamasaṃkhyeyaṃ	cannot measure them, innumerable	無量無數	4	Diamond Sūtra (T 220)	a + pramā + yam + asaṃkhyeya	Negative compound, accusative case
+230	teṣāmātmagrāho	they grasp onto a self	\N	3	Diamond Sūtra	teṣām + ātma + grāha	Nominative case with sandhi
+231	sacedadharmasaṃjñā	and conception of a dharma	\N	3	Diamond Sūtra	ced + dharma + saṃjñā	\N
+232	tasmādiyaṃ	this	是	2	Diamond Sūtra (T 235)	tasmāt + idam	Accusative case with sandhi
+233	kolopamaṃ	raft, themselves near ...	\N	3	Diamond Sūtra	kola + upa + ma	Accusative case with sandhi
+234	dharmaparyāyamājānadbhidharmā	understand the way of teaching of dharmas ...	\N	5	Diamond Sūtra	dharma + paryāya + ā + jānadbhi + dharmā	Accusative case
+235	prāgevādharmā	to say nothing of non-dharmas	何況非法	4	Diamond Sūtra (T 235)	prāś + eva + a + dharma	Negative compound
+236	yastathāgatenānuttarā	Tathagata attained anuttara ...	如來得阿耨多羅	3	Diamond Sūtra (T 235)	yas + tathāgatena + anuttara	Instrumental case
+237	samyaksaṃbodhirityabhisaṃbuddhaḥ	called perfect enlightenment, Realized One	\N	6	Diamond Sūtra	samyak + saṃbodhi + iti + abhi + saṃ + buddha	Nominative case
+238	kaścidvā	any and	\N	2	Diamond Sūtra	kaścid + vā	\N
+239	dharmastathāgatena	dharma, by the Tathāgata	\N	2	Diamond Sūtra	dharma + tathāgatena	Instrumental case
+240	evameva	thus it is	如是	2	Diamond Sūtra (T 238)	evam + etat	\N
+241	bhāṣitasyārthamājānāmi	meaning said, not known	\N	4	Diamond Sūtra	bhāṣita + ārtham + ā + jñā	Genetive case
+242	yo'sau	which is	\N	2	Diamond Sūtra	ya + asi	Nominative case, Negative compound
+243	dharmo'bhisaṃbuddho	dharma that can be realized	\N	4	Diamond Sūtra	dharma + abhi + saṃ + buddha	Nominative case with sandhi
+244	so'nabhilapyaḥ	it cannot be spoken of	不可說	4	Diamond Sūtra (T 235)	saḥ + an + abhi + lap	Nominative case
+245	asaṃskṛtaprabhāvitā	possess unconditioned ...	以無為	2	Diamond Sūtra (T 235)	asaṃskṛta + prabhāvitā	Negative compound
+246	hyāryapudgalāḥ	because noble ones	故一切聖	3	Diamond Sūtra (T 236a)	hi + ārya + pudgalā	Nominative case, plural
+247	saṃprakāśyeta	explaining to	\N	4	Diamond Sūtra	sam + pra + kāś + ita	Optative conjugation
+248	saṃprakāśayediti	called explaining	\N	4	Diamond Sūtra	sam + pra + kāś + iti	\N
+249	tenocyate	thus called	名為	2	Diamond Sūtra (T 235)	tad + vac	Present passive conjugation ucyate of class 2 verb vac
+250	tenocyante	thus they are called	名為	2	Diamond Sūtra (T 235)	tad + vac	Present passive plural conjugation ucyate of class 2 verb vac
+251	kaścitkulaputro	any good man	有善家	3	Diamond Sūtra (T 238)	kaścit + kula + putra	Nominative case with visarga sandhi applied
+252	tathāgatebhyo'rhadbhayaḥ	to a Tathāgata, Arhat	\N	3	Diamond Sūtra	tathāgata + arhat + bhayaḥ	Dative case
+253	puṇyaskandhastathāgatena	a body of merit ... by the Tathagata	\N	3	Diamond Sūtra	puṇya + skandha + tathāgatena	Tathāgata is in the instrumental case
+254	tathāgatebhyo'rhadbhyaḥ	to a Tathāgata, Arhat 	\N	2	Diamond Sūtra	tathāgata + arhat	Dative case
+255	dharmaparyāyādantaśaścatuṣpādikāmapi	dharma ... so much as four lines, moreover	法門乃至四句	7	Diamond Sūtra (T 220)	dharma + paryāyā + antaśaś + catur + pāda + ka + api	\N
+256	gāthāmudgṛhya	gāthā, accepted	伽陀受持	2	Diamond Sūtra (T 220)	gāthā + mud + gṛhya	\N
+257	ayameva	this is thus	如理	2	Diamond Sūtra (T 220)	ayam + eva	\N
+258	prasunuyādaprameyasaṃkhyeyam	the praise generated cannot be measured	\N	5	Diamond Sūtra	prasū + nuyāt + a + pramā + asaṃkhyeyam	Accusative case
+259	prasunuyāt	generating praise	\N	2	Diamond Sūtra	prasū + nuyāt	Optative conjugation nuyāt of root √nu
+260	atonirjātā	born from	生由	2	Diamond Sūtra (T 220)	at + nirjāta	\N
+261	tathāgatānāmarhatāṃ	Tathāgatas have, arhat 	\N	2	Diamond Sūtra	tathāgatānām + arhat	Genitive case, plural form (tathāgatānām)
+262	samyaksaṃbuddhānāmanuttarā	perfect, unequalled, Buddhas have	諸佛阿耨多羅三藐三菩提	4	Diamond Sūtra (T 235)	samyak + saṃ + buddhānām + anuttarā	Genitive case, plural form (buddhānām)
+263	atonirjātāśca	born from, and	\N	3	Diamond Sūtra	at + nirjāta + ca	Genitive case
+264	abuddhadharmāścaiva	thus, they are not Buddha dharmas	\N	5	Diamond Sūtra	a + buddha + dharmāś + ca + eva	Nominative case, plural form
+265	srotaāpannasyaivaṃ	Srotaāpanna thus ...	\N	2	Diamond Sūtra	srotaāpanna evam	Genitive case
+266	kaṃciddharmamāpannaḥ	who knows the dharma of entering	\N	4	Diamond Sūtra	ka + cit + dharma + āpanna	Dharma is in accusative case (dharmam), āpanna is in nominative case (āpannaḥ).
+267	rūpamāpanno	entering form	\N	2	Diamond Sūtra	rūpa + āpanna	Nominative case with visarga sandhi (āpannaḥ)
+268	sacedbhagavan	and Bhagavan	\N	2	Diamond Sūtra	saced + bhagavan	\N
+269	tasyātmagrāho	he grasps onto a self	執我	3	Diamond Sūtra (T 220)	tasya + ātma + grāha	Nominative case with visarga sandhi (grāhaḥ)
+270	takiṃ	he, what	\N	2	Diamond Sūtra	tat + kim	With sandhi
+271	sakṛdāgāmitvamāpannaḥ	Once-Returner, you have entered	\N	2	Diamond Sūtra	sakṛdāgāmin + āpanna	Nominative case
+272	mayānāgāmiphalaṃ	I have the fruit of Anāgāmin	我得阿那含果	3	Diamond Sūtra (T 235)	mayā + anāgāmi + phala	Accusative case
+273	yo'nāgāmitvamāpannaḥ	to enter into not returning	\N	3	Diamond Sūtra	ya + an + āgāmi + āpanna	Nominative case
+274	yo'rhannāma	called an Arhat	名阿羅漢	3	Diamond Sūtra (T 220)	ya + arhat + nāma	\N
+275	arhanniti	called an Arhat	\N	2	Diamond Sūtra	arhat + iti	\N
+276	ahamasmi	I am	我得	2	Diamond Sūtra (T 235)	aham + asmi	\N
+277	bhagavaṃstathāgatenārhatā	Bhagavan, Tathāgata, Arhat	\N	3	Diamond Sūtra	bhagavan + tathāgata + arhat	\N
+278	araṇāvihāriṇāmagryo	foremost dwelling in peace	\N	3	Diamond Sūtra	araṇa + vihāra + agrya	Nominative case with visarga sandhi (agryaḥ)
+279	bhagavannevaṃ	the Bhagavan thus	世尊如是	2	Diamond Sūtra (T 238)	bhagavan + evam	With sandhi
+280	arhannasmyahaṃ	I am an Arhat	我是阿羅漢	3	Diamond Sūtra (T 236b)	arhan + asmi + aham	\N
+281	sacenmama	if I	我若	sace + mama	2	Diamond Sūtra (T 235)	\N
+282	vyākariṣyadaraṇāvihāriṇāmagryaḥ	predicted that I will be the foremost who dwells in peace	記我無諍行第一	5	Diamond Sūtra (T 236a)	vyākaraṇa + iṣ + araṇa + vihāra + agrya	Nominative case
+283	kvacidviharati	practice anywhere	所行	2	Diamond Sūtra (T 236a)	kvacit + viharati	\N
+284	araṇāvihārī	dwelling in peace	無諍住	2	Diamond Sūtra (T 220)	araṇa + vihārī	\N
+285	sarvasattvāstathāgatena	all beings, with the Tathāgata	\N	sarva + sattva + Tathāgata	Instrumental case (tathāgatena)
+286	tathāgatasyārhata	Tathāgata, Arhat	\N	2	Diamond Sūtra	tathāgata + arhat	Genitive case (tathāgatasya)
+287	tathāgatasyārhataḥ	Tathāgata, Arhat	\N	2	Diamond Sūtra	tathāgata + arhat	Genitive case (tathāgatasya) and nominative case (arhataḥ)
+288	kaścitsubhūte	any, Subhūte	\N	2	Diamond Sūtra	kaścit + subhūte	\N
+289	kṣetravyūhān	arrangement of worlds	\N	2	Diamond Sūtra	kṣetra + vyūhā	\N
+290	niṣpādayiṣyāmīti	called accomplishing	\N	2	Diamond Sūtra	niṣpādayati + iti	\N
+291	kṣetravyūhāḥ	adornment of worlds	\N	2	Diamond Sūtra	kṣetra + vyūhā	Nominative case
+292	kṣetravyūhā	adornment of worlds	\N	2	Diamond Sūtra	kṣetra + vyūhā	\N
+293	avyūhāste	is not an adornment	非莊嚴	3	Diamond Sūtra (T 220)	a + vyūhā + as	A negative compound
+294	evamapratiṣṭhitaṃ	thus, non-attachment	不應住	2	Diamond Sūtra (T 235)	evam + apratiṣṭhita	modified for sandhi
+295	śabdagandharasaspraṣṭavyadharmapratiṣṭhitaṃ	attachment to dharmas by sound, scent, taste, or touch	住聲香味觸法	6	Diamond Sūtra	śabda + gandha + rasa + spraṣṭavya + dharma + pratiṣṭhita	Accusative case (pratiṣṭhitaṃ)
+296	tadyathāpi	he is thus not	\N	3	Diamond Sūtra	tad + yatha + api	\N
+297	bhavedupetakāyo	having a body	有人身	3	Diamond Sūtra (T 235)	bhavet + upa + ita + kāya	Nominative case with anusvara sandhi applied
+298	yattasyaivaṃ	prepared thus	\N	3	Diamond Sūtra	yatta + eva	Accusative case
+299	tenocyata	thus called	名為	2	Diamond Sūtra (T 235)	tad + vac	Imperfect conjugation ucyata of class 2 verb vac
+300	vālukāstāvatya	so many grains of sand	沙數	2	Diamond Sūtra (T 235)	vālukā + tāvat	Nominative case with sandhi applied (vālukāḥ -> vālukās)
+301	tāvadbhagavan	many, Bhagavān	甚多世尊	2	Diamond Sūtra (T 235)	tāvat + bhagavan	\N
+302	prāgeva	assertion, thus	\N	2	Diamond Sūtra	prāś + eva	Nominative, singular form (prāś -> prāc) with sandhi applied
+303	yāstāsu	they	\N	2	Diamond Sūtra	yā + tāsu	\N
+304	yāvatyastāsu	as many as they ...	\N	2	Diamond Sūtra	yāvat + tāsu	Nominative plural form (yāvat -> yāvatyas)
+305	bhaveyustāvato	becomes as great	\N	2	Diamond Sūtra	bhaveyus + tāvato	Optative, accusative, plural form of root √bhū with anusvara sandhi applied (bhaveyuḥ -> bhaveyus)
+306	kaścideva	any, thus	\N	2	Diamond Sūtra	kaścid + eva	\N
+307	prasunuyādaprameyamasaṃkhyeyam	produce an immeasurable and incalculable amount	\N	6	Diamond Sūtra	prasu + nuyāt + a + pramā + yam + asaṃkhyeya	Negative compound
+308	pṛthivīpradeśe	this piece of ground	此地	2	Diamond Sūtra (T 220)	pṛthivī + pradeśa	\N
+309	pṛthivīpradeśaścaityabhūto	this piece of ground will be a true caitya	\N	4	Diamond Sūtra	pṛthivī + pradeśa + caitya + bhūta	Nominative with anusvara sandhi applied (bhūtaḥ -> bhūto)
+310	sadevamānuṣāsurasya	deva, man, and asura	天人阿修羅	4	Diamond Sūtra (T 235)	sa + deva + mānuṣa + asura	Genitive case, singular form (asura -> asurasya)
+311	punarvādo	spoken again	語已	2	Diamond Sūtra (T 220)	punar + vāda	Nominative with anusvara sandhi applied (vādaḥ -> vādo)
+312	sakalasamāptaṃ	he will attain shining	\N	3	Diamond Sūtra	saka + lasa + āpta	Accusative case with sandhi
+313	paryavāpsyanti	come to arrive	\N	3	Diamond Sūtra	pari + ava + √āp	Nominative and accusative case (āpsyanti) of the future active participle of √āp (āpsyat)
+314	tasmiṃśca	him and	\N	2	Diamond Sūtra	tasmin + ca	\N
+315	viharatyanyatarānyataro	also being	有又	3	Diamond Sūtra (T 239)	viharati + anyatara + anyatara	Nominative with visarga sandhi applied  (anyataraḥ -> anyataro)
+316	vijñagurusthānīyaḥ	occupied by a wise teacher	\N	3	Diamond Sūtra	vijña + guru + sthā	Nominative case(sthānīyaḥ) of present passive participle (sthānīya) of root sthā
+317	cainaṃ	and he	\N	2	Diamond Sūtra	ca + enam	With anusvāra sandhi applied
+318	yaiva	who only	\N	2	Diamond Sūtra	ya + eva	\N
+319	saiva	he only	\N	2	Diamond Sūtra	sā + eva	\N
+320	pṛthivīrajo	dust	地塵	2	Diamond Sūtra (T 238)	pṛthivī + raja	Literally, "earth dust," which is dust from grinding up worlds. Nominative case with visarga sandhi applied  (rajaḥ -> rajo)
+321	yattadbhagavan	that, Bhagavan	\N	3	Diamond Sūtra	ya + tad + bhagavan	\N
+322	pṛthivīrajastathāgatena	dust, by the Tathāgata	塵如來	3	Diamond Sūtra (T 235)	pṛthivī + raja + tathāgata	Nominative case with sandhi (rajaḥ -> rajas) and instrumental case (tathāgata -> tathāgatena)
+323	arajastadbhagavaṃstathāgatena	is not dust, by the Tathāgata	\N	5	Diamond Sūtra	a + raja + tad + bhagavan + tathāgata	A negative compound; instrumental case (tathāgata -> tathāgatena)
+324	pṛthivīraja	dust	地塵	2	Diamond Sūtra (T 238)	pṛthivī + raja	Literally, "earth dust," which is dust from grinding up worlds.
+325	yo'pyasau	it is	\N	3	Diamond Sūtra	ya + api + asau	Nominative case with sandhi applied  (ya -> yaḥ -> yas)
+326	lokadhātustathāgatena	a world system, by the Tathāgata	\N	2	Diamond Sūtra	lokadhātu + tathāgata	Nominative case with sandhi applied  (lokadhātu -> lokadhātuḥ -> lokadhātus); instrumental case (tathāgata -> tathāgatena)
+327	adhātuḥ	not a world	非世界	2	Diamond Sūtra (T 235)	a + dhātu	A negative compound; nominative case (dhātu -> dhātuḥ)
+328	dvātriṃśanmahāpuruṣalakṣaṇaistathāgato'rhan	thirty two characteristics of a great man, Tathāgata, Arhat	三十二大丈夫相如來	7	Diamond Sūtra (T 238)	dvā + triṃśa + mahā + puruṣa + lakṣaṇa + tathāgata + arhan	\N
+329	dvātriṃśanmahāpuruṣalakṣaṇāni	thirty two characteristics of a great man	三十二大丈夫相	5	Diamond Sūtra (T 238)	dvā + triṃśa + mahā + puruṣa + lakṣaṇa	\N
+330	alakṣaṇāni	not a characteristic	非相	2	Diamond Sūtra (T 235)	a + lakṣaṇa	A negative compound; nominative and accusative plural form (lakṣaṇāni)
+331	bhagavaṃstathāgatena	by the Bhagavan, Tathāgata	\N	2	Diamond Sūtra	bhagavan + tathāgatena	Instrumental case (tathāgatena)
+332	dvātriṃśanmahāpuruṣalakṣaṇānīti	is called the thirty two characteristics of a great man	名三十二大士夫相	6	Diamond Sūtra (T 220)	dvā + triṃśa + mahā + puruṣa + lakṣaṇa + iti	\N
