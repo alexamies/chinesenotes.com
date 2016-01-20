@@ -155,15 +155,22 @@ func ReadDict(wsfilename string) {
 		grammar := row[5]
 		conceptCn := row[6]
 		hwId := 0
-		if len(row) > 15 {
+		if len(row) == 16 {
 			hwIdInt, err := strconv.ParseInt(row[15], 10, 0)
 			if err != nil {
-				log.Printf("id: %d, simp: %s, trad: %s, pinyin: %s, " +
+				log.Printf("ReadDict, id: %d, simp: %s, trad: %s, pinyin: %s, " +
 					"english: %s, grammar: %s, conceptCn: %s\n",
 					id, simp, trad, pinyin, english, grammar, conceptCn)
-				log.Fatal("Could not parse headword id for word ", id, err)
+				log.Fatal("ReadDict: Could not parse headword id for word ",
+					id, err)
 			}
 			hwId = int(hwIdInt)
+		} else {
+			log.Printf("ReadDict, No. cols: %d\n",len(row))
+			log.Printf("ReadDict, id: %d, simp: %s, trad: %s, pinyin: %s, " +
+				"english: %s, grammar: %s, conceptCn: %s\n",
+				id, simp, trad, pinyin, english, grammar, conceptCn)
+			log.Fatal("ReadDict wrong number of columns ", id, err)
 		}
 		newWs := &WordSenseEntry{Id: int(id),
 				HeadwordId: int(hwId),

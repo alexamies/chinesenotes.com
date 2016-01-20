@@ -502,13 +502,25 @@ func WriteHwFiles() {
 	tmpl := template.Must(template.New("headword-template.html").ParseFiles(templFile))
 
 	for _, hw := range hwArray {
+
+		// Combine usage arrays for both simplified and traditional characters
 		usageArrPtr, ok := usageMap[hw.Simplified]
 		if !ok {
 			usageArrPtr, ok = usageMap[hw.Traditional]
-		}
-		if !ok {
-			//log.Printf("WriteHwFiles: no usage found for %s", hw.Simplified)
-			usageArrPtr = &[]WordUsage{}
+			if !ok {
+				//log.Printf("WriteHwFiles: no usage for %s", hw.Simplified)
+				usageArrPtr = &[]WordUsage{}
+			}
+		} else {
+			usageArrTradPtr, ok := usageMap[hw.Traditional]
+			if ok {
+				usageArr := *usageArrPtr
+				usageArrTrad := *usageArrTradPtr
+				for j, _ := range usageArrTrad {
+					usageArr = append(usageArr, usageArrTrad[j])
+				}
+				usageArrPtr = &usageArr
+			}
 		}
 		dictEntry := DictEntry{hw, *usageArrPtr, dateUpdated}
 		filename := fmt.Sprintf("%s%s%d%s", config.ProjectHome(), "/web/words/",
