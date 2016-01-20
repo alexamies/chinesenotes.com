@@ -6,7 +6,14 @@ that you have already cloned the project from GitHub.
 ###1 Install the Go SDK
 https://golang.org/doc/install
 
-Make sure that your GOROOT is set properly to where Go is installed.
+Make sure that your the go executable is on your path. You may need to do 
+something like 
+
+$ export PATH=$PATH:/usr/local/go/bin
+
+Make sure that GOROOT is set properly to where Go is installed. For example,
+
+export GOROOT=/usr/local/go
 
 ###2 Add the directory $CNREADER_HOME/go to your GOPATH
 cd $CNREADER_HOME/go
@@ -31,8 +38,8 @@ cd $CNREADER_HOME/go/src/cnreader
 ###7 To enhance all files listed in data/corpus/html-conversions.csv
 ./cnreader -html
 
-###7 To enhance all files in the corpus literary_chinese_prose
-./cnreader.go -collection=erya.csv
+###7 To enhance all files in the corpus file modern_articles.csv
+./cnreader -collection modern_articles.csv
 
 ###8 To build the headword file and add headword numbers to the words.txt file
 cd $CNREADER_HOME
@@ -55,7 +62,6 @@ program at the moment. To fix it keep the entry:
 
 in the headwords.txt file. Some manual editing of the file words/971.html might
 be needed.
-
 
 ###4 Run unit tests
 
