@@ -40,6 +40,7 @@
 文化	Culture	\N	\N
 习俗	Customs	\N	\N
 跳舞	Dancing	\N	\N
+危险	Danger	\N	\N
 方言	Dialect	\N	\N
 灾难	Disaster	\N	\N
 戏剧	Drama	\N	\N
