@@ -32,6 +32,7 @@
 商务	Commerce	\N	\N
 通讯	Communications	\N	\N
 比较	Comparison	\N	\N
+计算机学	Computer Science	\N	\N
 状况	Condition	\N	\N
 冲突	Conflict	\N	\N
 儒家	Confucianism	\N	\N
