@@ -11,4 +11,5 @@ tang_poetry.csv	\N	Selections of Tang Poetry	\N	\N	Literary Chinese	Poetry	Tang
 sishuzhangju.csv	sishuzhangju.html	Commentaries on the Four Books by Zhu Xi 朱熹《四書章句集注》	\N	sishuzhangju/sishuzhangju.txt	Literary Chinese	Prose	Circa 1200
 modern_articles.csv	media_articles.html	Media articles	\N	\N	Modern Chinese	Prose	Modern
 laoshe.csv	laoshe.html	A small number of phrases from the writings of Lao She	\N	\N	Modern Chinese	Prose	Modern
+yeshengtao.csv	yeshengtao.html	A small number of phrases from the writings of Ye Shengtao	\N	\N	Modern Chinese	Prose	Modern
 #korean.csv	korean.html	An experiment with Korean text	\N	\N	Korean	Prose	Modern
