@@ -15,11 +15,14 @@ Make sure that GOROOT is set properly to where Go is installed. For example,
 
 export GOROOT=/usr/local/go
 
-###2 Add the directory $CNREADER_HOME/go to your GOPATH
+###2 Get the source code and add the directory $CNREADER_HOME/go to your GOPATH
+export CNREADER_HOME = #Whatever it is
+cd $CNREADER_HOME
+git pull origin master
 cd $CNREADER_HOME/go
 source 'path.bash.inc'
 
-###3 Build the project
+###3 build the project
 cd $CNREADER_HOME/go/src/cnreader
 go build
 

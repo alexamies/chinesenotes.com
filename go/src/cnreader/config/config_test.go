@@ -11,15 +11,25 @@ func TestGetHTMLConversions(t *testing.T) {
 	conversions := GetHTMLConversions()
 	fmt.Printf("TestGetHTMLConversions: # conversions: %d\n", len(conversions))
 	if len(conversions) == 0 {
-		t.Error("No conversions found")
+		t.Error("TestProjectHome: No conversions found")
 	}
 	if conversions[0].SrcFile != "../corpus/classical_chinese-raw.html" {
-		t.Error("Expected source file classical_chinese-raw.html, got ",
-			conversions[0].SrcFile)
+		t.Error("TestProjectHome: Expected source file " +
+			"classical_chinese-raw.html, got ", conversions[0].SrcFile)
 	}
 	if conversions[0].DestFile != "classical_chinese.html" {
-		t.Error("Expected dest file classical_chinese.html, got ",
-			conversions[0].DestFile)
+		t.Error("TestProjectHome: Expected dest file classical_chinese.html, " +
+			"got ", conversions[0].DestFile)
 	}
 }
 
+
+// Test reading of files for HTML conversion
+func TestReadConfig(t *testing.T) {
+	fmt.Printf("TestReadConfig: Begin unit tests\n")
+	vars := readConfig()
+	fmt.Printf("TestReadConfig: len(vars): %d\n", len(vars))
+	if len(vars) == 0 {
+		t.Error("TestReadConfig: No vars found")
+	}
+}

@@ -34,14 +34,6 @@ func main() {
 		"listed in data/corpus/collections.csv")
 	flag.Parse()
 
-	// Set project home relative to the command line tool directory
-	projectHome := "../../.."
-	config.SetProjectHome(projectHome)
-	webDir := projectHome + "/web"
-	corpusDir := projectHome + "/corpus"
-	corpusDataDir := projectHome + "/data/corpus"
-	templateDir := projectHome + "/html/templates"
-
 	// Read in dictionary
 	dictionary.ReadDict(config.LUFileName())
 
@@ -53,11 +45,11 @@ func main() {
 			return
 		}
 		corpus.WriteCollectionFile(*collectionFile)
-		corpusEntries := corpus.CorpusEntries(corpusDataDir + "/" +
+		corpusEntries := corpus.CorpusEntries(config.CorpusDataDir() + "/" +
 			*collectionFile)
 		for _, entry := range corpusEntries {
-			src := corpusDir + "/" + entry.RawFile
-			dest := webDir + "/" + entry.GlossFile
+			src := config.CorpusDir() + "/" + entry.RawFile
+			dest := config.WebDir() + "/" + entry.GlossFile
 			log.Printf("main: input file: %s, output file: %s\n", src, dest)
 			text := analysis.ReadText(src)
 			tokens, vocab, wc, unknownChars, usage := analysis.ParseText(text)
@@ -81,17 +73,18 @@ func main() {
 		log.Printf("main: Converting all HTML files\n")
 		conversions := config.GetHTMLConversions()
 		for _, conversion := range conversions {
-			src := webDir + "/" + conversion.SrcFile
-			dest := webDir + "/" + conversion.DestFile
+			src := config.WebDir() + "/" + conversion.SrcFile
+			dest := config.WebDir() + "/" + conversion.DestFile
 			templateFile := `\N`
 			if conversion.Template != `\N` {
-				templateFile = templateDir + "/" + conversion.Template
+				templateFile = config.TemplateDir() + "/" + conversion.Template
 			}
 			log.Printf("main: input file: %s, output file: %s, template: %s\n",
 				src, dest, templateFile)
 			text := analysis.ReadText(src)
 			tokens, vocab, _, _, _ := analysis.ParseText(text)
-			analysis.WriteDoc(tokens, vocab, dest, conversion.Template, templateFile)
+			analysis.WriteDoc(tokens, vocab, dest, conversion.Template,
+				templateFile)
 		}
 	} else if *headwords {
 		log.Printf("main: Write Headwords\n")
