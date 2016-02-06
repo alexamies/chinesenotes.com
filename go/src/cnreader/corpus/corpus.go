@@ -162,13 +162,14 @@ func WriteCollectionFile(collectionFile string) {
 			// Replace name of intro file with introduction text
 			entry.Intro = ReadIntroFile(entry.Intro)
 			entry.DateUpdated = time.Now().Format("2006-01-02")
-			templFile := config.ProjectHome() +
-					"/corpus/collection-template.html"
+			templFile := config.TemplateDir() + "/collection-template.html"
 			fmt.Println("Home: ", config.ProjectHome())
 			tmpl:= template.Must(template.New(
 					"collection-template.html").ParseFiles(templFile))
 			err = tmpl.Execute(w, entry)
-			if err != nil { panic(err) }
+			if err != nil {
+				log.Fatal(err)
+			}
 			w.Flush()
 		}
 	}

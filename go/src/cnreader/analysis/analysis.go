@@ -161,7 +161,7 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 // tokens: the tokens for the parsed text
 // vocab: a table of the unique words found in the parsed text
 // wc: total word count
-// usage: the first usage fo the word in the text
+// usage: the first usage of the word in the text
 func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
 	unknownChars []string, usage map[string]string) {
 	vocab = make(map[string]int)
@@ -381,7 +381,7 @@ func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	defer f.Close()
 	w := bufio.NewWriter(f)
 	
-	templFile := config.ProjectHome() + "/corpus/corpus-template.html"
+	templFile := config.TemplateDir() + "/corpus-template.html"
 	//fmt.Println("Home: ", config.ProjectHome())
 	tmpl:= template.Must(template.New("corpus-template.html").ParseFiles(templFile))
 	err = tmpl.Execute(w, content)
