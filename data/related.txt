@@ -1122,6 +1122,24 @@
 天竺	婆罗门国	Also known as	\N
 印度	天竺	Also known as	\N
 天竺	印度	Also known as	\N
+天竺	天笃	Also known as	\N
+天笃	天竺	Also known as	\N
+天竺	天督	Also known as	\N
+天督	天竺	Also known as	\N
+天竺	天毒	Also known as	\N
+天毒	天竺	Also known as	\N
+天竺	身毒	Also known as	\N
+身毒	天竺	Also known as	\N
+天笃	天督	Also known as	\N
+天督	天笃	Also known as	\N
+天笃	天毒	Also known as	\N
+天毒	天笃	Also known as	\N
+天笃	身毒	Also known as	\N
+身毒	天笃	Also known as	\N
+天督	天毒	Also known as	\N
+天毒	天督	Also known as	\N
+天督	身毒	Also known as	\N
+身毒	天督	Also known as	\N
 印度	婆罗门国	Also known as	\N
 婆罗门国	印度	Also known as	\N
 番禾	永昌	Also known as	\N
@@ -3433,3 +3451,19 @@
 北京市	北京	Also known as	\N
 天津	天津市	Also known as	\N
 天津市	天津	Also known as	\N
+印度尼西亚	印尼	Also known as	\N
+印尼	印度尼西亚	Also known as	\N
+国务院台湾事务办公	国台办	Also known as	\N
+国台办	国务院台湾事务办公	Also known as	\N
+北卡	北卡罗莱纳	Also known as	\N
+北卡罗莱纳	北卡	Also known as	\N
+春晚	春节联欢晚会	Also known as	\N
+春节联欢晚会	春晚	Also known as	\N
+多米尼克	多米尼加	Also known as	\N
+多米尼加	多米尼克	Also known as	\N
+安提瓜	安地卡	Also known as	\N
+安地卡	安提瓜	Also known as	\N
+中国作家协会	作协	Abbreviation	\N
+作协	中国作家协会	Full name	\N
+安提瓜和巴布达	安地卡及巴布达	Also known as	\N
+安地卡及巴布达	安提瓜和巴布达	Also known as	\N
