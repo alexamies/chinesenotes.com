@@ -14,4 +14,4 @@ limitations under the License.
 
 The Creative Commons Attribution-Share Alike 3.0 License (CCASE 3.0),
 http://creativecommons.org/licenses/by-sa/3.0/ applies
-to the content in the Chinese-English dictionaries this site.
+to the content in the Chinese-English dictionary and other text files.
