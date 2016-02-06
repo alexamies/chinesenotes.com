@@ -1,9 +1,10 @@
 # Chinese Notes
 ## About the project
-This is a project for learning modern and literary Chinese language. It has a
-dictionary, some language tools, web pages for learning grammar and such,
-a collection of texts, and a system for looking up the words in the texts by
-mouse over and popover by clicking on the words. Source code is in PHP and Go.
+This is a project for study of modern and literary Chinese language. It includes
+a Chinese-English dictionary, some language tools, web pages for learning
+grammar and such, a collection of texts, and a system for looking up the words
+in the texts by mouse over and popover by clicking on the words. Source code is
+in PHP and Go.
 
 ## Installing the Chinese Notes web site
 
