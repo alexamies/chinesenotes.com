@@ -41,8 +41,7 @@ func main() {
 		log.Printf("main: Analyzing collection %s\n", *collectionFile)
 		collectionEntry, err := corpus.GetCollectionEntry(*collectionFile)
 		if err != nil {
-			log.Fatalf("Could not find collection file %s\n", *collectionFile)
-			return
+			log.Fatalf("main: %v", err)
 		}
 		corpus.WriteCollectionFile(*collectionFile)
 		corpusEntries := corpus.CorpusEntries(config.CorpusDataDir() + "/" +

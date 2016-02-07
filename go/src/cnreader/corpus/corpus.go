@@ -9,10 +9,10 @@ import (
 	"cnreader/config"
 	"encoding/csv"
 	"errors"
-	"fmt"
 	"io"
 	"log"
 	"os"
+	"strings"
 	"text/template"
 	"time"
 )
@@ -32,10 +32,11 @@ type CorpusEntry struct {
 // Parameter
 // collectionFile: The name of the file describing the collection
 func GetCollectionEntry(collectionFile string) (CollectionEntry, error)  {
-	fmt.Printf("CollectionEntry: Writing collection file.\n")
+	log.Printf("corpus.GetCollectionEntry: collectionFile: '%s'.\n",
+		collectionFile)
 	collections := Collections()
 	for _, entry := range collections {
-		if entry.CollectionFile == collectionFile {
+		if strings.Compare(entry.CollectionFile, collectionFile) == 0 {
 			return entry, nil
 		}
 	}
@@ -61,6 +62,7 @@ func Collections() []CollectionEntry {
 	}
 	collections := make([]CollectionEntry, 0)
 	for _, row := range rawCSVdata {
+		collectionFile := row[0]
 		title := ""
 		if row[2] != "\\N" {
 			title = row[2]
@@ -78,8 +80,8 @@ func Collections() []CollectionEntry {
 			corpus = row[5]
 		}
 		corpusEntries := make([]CorpusEntry, 0)
-		log.Printf("Collections: Read collection %s in corpus %s\n",
-			title, corpus)
+		log.Printf("corpus.Collections: Read collection %s in corpus %s\n",
+			collectionFile, corpus)
 		collections = append(collections, CollectionEntry{row[0], row[1],
 			title, summary, introFile, "", corpus, corpusEntries})
 	}
@@ -114,7 +116,7 @@ func CorpusEntries(collectionFile string) []CorpusEntry {
 // Parameter
 // introFile: The name of the file introducing the collection
 func ReadIntroFile(introFile string) string {
-	fmt.Printf("ReadIntroFile: Reading introduction file.\n")
+	log.Printf("ReadIntroFile: Reading introduction file.\n")
 	infile, err := os.Open(config.ProjectHome() + "/corpus/" + introFile)
 	if err != nil {
 		log.Fatal(err)
@@ -142,13 +144,13 @@ func ReadIntroFile(introFile string) string {
 // Parameter
 // collectionFile: The name of the file describing the collection
 func WriteCollectionFile(collectionFile string) {
-	//fmt.Printf("WriteCollectionFile: Writing collection file.\n")
+	//log.Printf("WriteCollectionFile: Writing collection file.\n")
 	collections := Collections()
 	for _, entry := range collections {
 		if entry.CollectionFile == collectionFile && entry.GlossFile != "\\N" {
 			outputFile := config.ProjectHome() + "/data/corpus/" +collectionFile
 			entry.CorpusEntries = CorpusEntries(outputFile)
-			fmt.Printf("WriteCollectionFile: Writing collection file %s\n",
+			log.Printf("WriteCollectionFile: Writing collection file %s\n",
 				outputFile)
 
 			// Write to file
@@ -163,7 +165,7 @@ func WriteCollectionFile(collectionFile string) {
 			entry.Intro = ReadIntroFile(entry.Intro)
 			entry.DateUpdated = time.Now().Format("2006-01-02")
 			templFile := config.TemplateDir() + "/collection-template.html"
-			fmt.Println("Home: ", config.ProjectHome())
+			log.Println("Home: ", config.ProjectHome())
 			tmpl:= template.Must(template.New(
 					"collection-template.html").ParseFiles(templFile))
 			err = tmpl.Execute(w, entry)

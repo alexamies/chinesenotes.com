@@ -44,8 +44,7 @@ type AnalysisResults struct {
 
 // The content for a corpus entry
 type CorpusEntryContent struct {
-	CorpusText, DateUpdated, VocabularyJSON, CollectionURL,
-	CollectionTitle, AnalysisFile string
+	CorpusText, DateUpdated, CollectionURL, CollectionTitle, AnalysisFile string
 }
 
 // Dictionary entry content struct used for writing a dictionary entry to HTML
@@ -303,8 +302,7 @@ func WriteAnalysis(vocab map[string]int, usage map[string]string, wc int,
 	results := AnalysisResults{title, wc, len(vocab),
 		wfResults, unknownChars[:maxUnkownOutput], dateUpdated,
 		maxWFOutput}
-	projectHome := config.ProjectHome()
-	tmplFile := projectHome + "/html/templates/corpus-analysis-template.html"
+	tmplFile := config.TemplateDir() + "/corpus-analysis-template.html"
 	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles(tmplFile)
 	if err != nil { panic(err) }
 	if tmpl == nil {
@@ -344,7 +342,7 @@ func WriteAnalysis(vocab map[string]int, usage map[string]string, wc int,
 func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	collectionURL string, collectionTitle string, aFile string) {
 
-	var buffer bytes.Buffer
+	var b bytes.Buffer
 
 	// Iterate over text chunks
 	for e := tokens.Front(); e != nil; e=e.Next() {
@@ -359,19 +357,26 @@ func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 					wordIds = fmt.Sprintf("%s,%d", wordIds, ws.Id)
 				}
 			}
+			/*
 			fmt.Fprintf(&buffer, "<span title='%s' data-wordid='%s'" +
 					" class='dict-entry' data-toggle='popover'>%s</span>",
 					chunk, wordIds, chunk)
+			*/
+			// Regular HTML link
+			mouseover := fmt.Sprintf("%s | %s", entries[0].Pinyin,
+				entries[0].English)
+			link := fmt.Sprintf("/words/%d.html", entries[0].HeadwordId)
+			fmt.Fprintf(&b, "<a title='%s' href='%s'>%s</a>", mouseover, link,
+				chunk)
 		} else {
-			buffer.WriteString(chunk)
+			b.WriteString(chunk)
 		}
 	}
 
-	textContent := buffer.String()
+	textContent := b.String()
 	dateUpdated := time.Now().Format("2006-01-02")
-	vocabJSON := WriteVocab("", 0, vocab)
-	content := CorpusEntryContent{textContent, dateUpdated, vocabJSON,
-		collectionURL, collectionTitle, aFile}
+	content := CorpusEntryContent{textContent, dateUpdated, collectionURL,
+		collectionTitle, aFile}
 
 	// Write to file
 	f, err := os.Create(filename)
@@ -382,7 +387,6 @@ func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	w := bufio.NewWriter(f)
 	
 	templFile := config.TemplateDir() + "/corpus-template.html"
-	//fmt.Println("Home: ", config.ProjectHome())
 	tmpl:= template.Must(template.New("corpus-template.html").ParseFiles(templFile))
 	err = tmpl.Execute(w, content)
 	if err != nil { panic(err) }
@@ -498,7 +502,6 @@ func WriteHwFiles() {
 
 	// Prepare template
 	templFile := config.ProjectHome() + "/html/templates/headword-template.html"
-	//fmt.Println("Home: ", config.ProjectHome())
 	tmpl := template.Must(template.New("headword-template.html").ParseFiles(templFile))
 
 	for _, hw := range hwArray {

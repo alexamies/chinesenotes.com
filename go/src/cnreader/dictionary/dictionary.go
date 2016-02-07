@@ -42,7 +42,7 @@ var wdict map[string][]*WordSenseEntry
 // Return a sorted array of headwords
 func GetHeadwords() []HeadwordDef {
 	log.Printf("GetHeadwords: Enter\n")
-	wsMap := readWSMap(config.ProjectHome() + "/data/words.txt")
+	wsMap := readWSMap(config.DictionaryDir() + "/words.txt")
 
 	// Read lexical units
 	hwmap := make(map[string][]*WordSenseEntry)
