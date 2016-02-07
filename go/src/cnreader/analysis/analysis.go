@@ -88,7 +88,12 @@ func decodeUsageExample(usageText string, headword dictionary.HeadwordDef) strin
 			replacementText = replacementText +
 				"<span class='usage-highlight'>" + word + "</span>"
 		} else {
-			replacementText = replacementText + word
+			ws, ok := dictionary.GetWordSense(word)
+			if ok {
+				replacementText = replacementText + hyperlink(ws, word)
+			} else {
+				replacementText = replacementText + word
+			}
 		}
 	}
 	return replacementText
@@ -122,7 +127,6 @@ func GetChunks(text string) (list.List) {
 	}
 	return chunks
 }
-
 
 // Compute word frequencies for entire corpus
 func GetWordFrequencies() (map[string]*[]WordUsage,
@@ -173,6 +177,14 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 			corpus, count)
 	}
 	return usageMap, wfTotal, wcTotal
+}
+
+// Constructs a hyperlink for a headword, including Pinyin and English in the
+// title attribute for the link mouseover
+func hyperlink(entry dictionary.WordSenseEntry, text string) string {
+	mouseover := fmt.Sprintf("%s | %s", entry.Pinyin, entry.English)
+	link := fmt.Sprintf("/words/%d.html", entry.HeadwordId)
+	return fmt.Sprintf("<a title='%s' href='%s'>%s</a>", mouseover, link, text)
 }
 
 // Parses a Chinese text into words
@@ -386,11 +398,7 @@ func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 					chunk, wordIds, chunk)
 			*/
 			// Regular HTML link
-			mouseover := fmt.Sprintf("%s | %s", entries[0].Pinyin,
-				entries[0].English)
-			link := fmt.Sprintf("/words/%d.html", entries[0].HeadwordId)
-			fmt.Fprintf(&b, "<a title='%s' href='%s'>%s</a>", mouseover, link,
-				chunk)
+			fmt.Fprintf(&b, hyperlink(*entries[0], chunk))
 		} else {
 			b.WriteString(chunk)
 		}
