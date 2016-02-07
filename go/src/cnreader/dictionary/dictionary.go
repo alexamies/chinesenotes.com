@@ -130,6 +130,7 @@ func IsCJKChar(character string) bool {
 // Parameters:
 //   wsfilename The name of the word sense file
 func ReadDict(wsfilename string) {
+	log.Printf("dictionary.ReadDict: wsfilename: %s\n", wsfilename)
 	wsfile, err := os.Open(wsfilename)
 	if err != nil {
 		log.Fatal(err)
@@ -158,8 +159,8 @@ func ReadDict(wsfilename string) {
 		if len(row) == 16 {
 			hwIdInt, err := strconv.ParseInt(row[15], 10, 0)
 			if err != nil {
-				log.Printf("ReadDict, id: %d, simp: %s, trad: %s, pinyin: %s, " +
-					"english: %s, grammar: %s, conceptCn: %s\n",
+				log.Printf("ReadDict, id: %d, simp: %s, trad: %s, " + 
+					"pinyin: %s, english: %s, grammar: %s, conceptCn: %s\n",
 					id, simp, trad, pinyin, english, grammar, conceptCn)
 				log.Fatal("ReadDict: Could not parse headword id for word ",
 					id, err)
@@ -254,7 +255,7 @@ func WriteHeadwords() {
 	hwArray := GetHeadwords()
 
 	// Prepare head words file for writing
-	outfile := config.ProjectHome() + "/data/" + HEADWORD_FILE
+	outfile := config.DictionaryDir() + "/" + HEADWORD_FILE
 	f, err := os.Create(outfile)
 	if err != nil {
 		log.Fatal(err)

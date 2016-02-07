@@ -81,7 +81,6 @@ span.dict-entry:hover {
 }
 
 /* Dictionary Entry style */
-
 span.dict-entry-headword {
     font-size: 200%;
     font-weight: normal;
@@ -99,6 +98,12 @@ span.dict-entry-grammar {
 span.dict-entry-definition {
     font-size: 120%;
 }
+
 span.dict-entry-notes {
     font-weight: bold;
+}
+
+/* Highlight for headword in usage */
+span.usage-highlight {
+    color: red;
 }

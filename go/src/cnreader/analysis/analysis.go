@@ -72,6 +72,28 @@ type HTMLContent struct {
 	Content, VocabularyJSON, DateUpdated string
 }
 
+/* Break usage example text into links with highlight on headword
+   Parameters:
+      usageText - usage example or notes on lexical unit
+      headword - Includes simplified and traditional Chinese text
+   Return
+      marked up text with links and highlight
+*/
+func decodeUsageExample(usageText string, headword dictionary.HeadwordDef) string {
+	tokens, _, _, _, _ := ParseText(usageText)
+	replacementText := ""
+	for e := tokens.Front(); e != nil; e = e.Next() {
+		word := e.Value.(string)
+		if word == headword.Simplified || word == headword.Traditional {
+			replacementText = replacementText +
+				"<span class='usage-highlight'>" + word + "</span>"
+		} else {
+			replacementText = replacementText + word
+		}
+	}
+	return replacementText
+}
+
 // Breaks text into a list of CJK and non CJK strings
 func GetChunks(text string) (list.List) {
 	var chunks list.List
@@ -358,6 +380,7 @@ func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 				}
 			}
 			/*
+			// Popover
 			fmt.Fprintf(&buffer, "<span title='%s' data-wordid='%s'" +
 					" class='dict-entry' data-toggle='popover'>%s</span>",
 					chunk, wordIds, chunk)
@@ -525,7 +548,24 @@ func WriteHwFiles() {
 				usageArrPtr = &usageArr
 			}
 		}
-		dictEntry := DictEntry{hw, *usageArrPtr, dateUpdated}
+
+		// Decorate useage text
+		hlUsageArr := []WordUsage{}
+		for _, wu := range *usageArrPtr {
+			hlText := decodeUsageExample(wu.Example, hw)
+			hlWU := WordUsage{
+				Freq: wu.Freq,
+				RelFreq: wu.RelFreq,
+				Word: wu.Word,
+				Example: hlText,
+				File: wu.File,
+				EntryTitle: wu.EntryTitle,
+				ColTitle: wu.ColTitle,
+			}
+			hlUsageArr = append(hlUsageArr, hlWU)
+		}
+
+		dictEntry := DictEntry{hw, hlUsageArr, dateUpdated}
 		filename := fmt.Sprintf("%s%s%d%s", config.ProjectHome(), "/web/words/",
 			hw.Id, ".html")
 		f, err := os.Create(filename)

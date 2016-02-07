@@ -24,7 +24,7 @@ type HTMLConversion struct {
 
 func init() {
 	projectHome = os.Getenv("CNREADER_HOME")
-	//log.Printf("config.init: projectHome: '%s'\n", projectHome)
+	log.Printf("config.init: projectHome: '%s'\n", projectHome)
 	if projectHome == "" {
 		projectHome = "../../.."
 	}

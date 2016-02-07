@@ -5,6 +5,17 @@ import (
 	"testing"
 )
 
+
+// Test reading of files for HTML conversion
+func TestReadConfig(t *testing.T) {
+	fmt.Printf("TestReadConfig: Begin unit tests\n")
+	vars := readConfig()
+	fmt.Printf("TestReadConfig: len(vars): %d\n", len(vars))
+	if len(vars) == 0 {
+		t.Error("TestReadConfig: No vars found")
+	}
+}
+
 // Test reading of files for HTML conversion
 func TestGetHTMLConversions(t *testing.T) {
 	fmt.Printf("TestGetHTMLConversions: Begin unit tests\n")
@@ -22,7 +33,6 @@ func TestGetHTMLConversions(t *testing.T) {
 			"got ", conversions[0].DestFile)
 	}
 }
-
 
 // Test reading of files for HTML conversion
 func TestReadConfig(t *testing.T) {
