@@ -37,7 +37,7 @@ type AnalysisResults struct {
 	Title string
 	WC, UniqueWords int
 	WordFrequencies []WFResult
-	UnkownnChars []string
+	UnkownnChars []SortedWordItem
 	DateUpdated string
 	MaxWFOutput int
 }
@@ -196,9 +196,9 @@ func hyperlink(entry dictionary.WordSenseEntry, text string) string {
 // wc: total word count
 // usage: the first usage of the word in the text
 func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
-	unknownChars []string, usage map[string]string) {
+	unknownChars map[string]int, usage map[string]string) {
 	vocab = make(map[string]int)
-	unknownChars = make([]string, 0)
+	unknownChars = make(map[string]int)
 	usage = make(map[string]string)
 	chunks := GetChunks(text)
 	wdict := dictionary.GetWDict()
@@ -227,7 +227,7 @@ func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
 					j = 0
 				} else if (utf8.RuneCountInString(w) == 1) {
 					//log.Printf("ParseText: found unknown character %s\n", w)
-					unknownChars = append(unknownChars, w)
+					unknownChars[w]++
 					tokens.PushBack(w)
 					break
 				}
@@ -311,12 +311,13 @@ func WordFrequencies() {
 // docTitle: The title of this specific document
 // Returns the name of the file written to
 func WriteAnalysis(vocab map[string]int, usage map[string]string, wc int, 
-		unknownChars []string, srcFile string, collectionTitle string,
+		unknownChars map[string]int, srcFile string, collectionTitle string,
 		docTitle string) string {
 
 	// Parse template and organize template parameters
 	sortedWords := SortedFreq(vocab)
 	wfResults := make([]WFResult, 0)
+	sortedUnknownWords := SortedFreq(unknownChars)
 	maxWFOutput:= len(sortedWords)
 	if maxWFOutput > MAX_WF_OUTPUT {
 		maxWFOutput = MAX_WF_OUTPUT
@@ -334,7 +335,7 @@ func WriteAnalysis(vocab map[string]int, usage map[string]string, wc int,
 	}
 	title := "Vocabulary Analysis for " + collectionTitle + ", " + docTitle
 	results := AnalysisResults{title, wc, len(vocab),
-		wfResults, unknownChars[:maxUnkownOutput], dateUpdated,
+		wfResults, sortedUnknownWords, dateUpdated,
 		maxWFOutput}
 	tmplFile := config.TemplateDir() + "/corpus-analysis-template.html"
 	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles(tmplFile)

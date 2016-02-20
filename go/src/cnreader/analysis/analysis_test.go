@@ -196,7 +196,7 @@ func TestParseText3(t *testing.T) {
 func TestWriteAnalysis(t *testing.T) {
 	//log.Printf("TestWriteAnalysis: Begin +++++++++++\n")
 	_, vocab, wc, _, usage := ParseText("繁")
-	unknownChars := []string{"獢"}
+	unknownChars := map[string]int{"獢":1}
 	srcFile := "test.txt"
 	WriteAnalysis(vocab, usage, wc, unknownChars, srcFile, "Test Collection",
 		"Test Doc")

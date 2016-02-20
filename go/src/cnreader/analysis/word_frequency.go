@@ -9,6 +9,17 @@ import (
 	"fmt"
 	)
 
+// A word with corpus label
+type CorpusWord struct {
+	Corpus, Word string
+}
+
+// A word frequency with corpus label
+type CorpusWordFreq struct {
+	Corpus, Word string
+	Freq int
+}
+
 // Sorted list of word frequencies
 type SortedWF struct {
 	wf map[string]int
@@ -18,17 +29,6 @@ type SortedWF struct {
 // An entry in a sorted word array
 type SortedWordItem struct {
 	Word string
-	Freq int
-}
-
-// A word with corpus label
-type CorpusWord struct {
-	Corpus, Word string
-}
-
-// A word frequency with corpus label
-type CorpusWordFreq struct {
-	Corpus, Word string
 	Freq int
 }
 
@@ -50,7 +50,7 @@ func (sortedWF *SortedWF) Swap(i, j int) {
 }
 
 /*
- * Sorts based on word frequency
+ * Sorts Word struct's based on frequency
  */
 func SortedFreq(wf map[string]int) []SortedWordItem {
 	sortedWF := new(SortedWF)
