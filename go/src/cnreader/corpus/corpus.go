@@ -20,6 +20,7 @@ import (
 type CollectionEntry struct {
 	CollectionFile, GlossFile, Title, Summary, Intro, DateUpdated, Corpus string
 	CorpusEntries []CorpusEntry
+	AnalysisFile string
 }
 
 const collectionsFile = "data/corpus/collections.csv"
@@ -83,7 +84,7 @@ func Collections() []CollectionEntry {
 		log.Printf("corpus.Collections: Read collection %s in corpus %s\n",
 			collectionFile, corpus)
 		collections = append(collections, CollectionEntry{row[0], row[1],
-			title, summary, introFile, "", corpus, corpusEntries})
+			title, summary, introFile, "", corpus, corpusEntries, ""})
 	}
 	return collections
 }
@@ -143,7 +144,7 @@ func ReadIntroFile(introFile string) string {
 // Writes a HTML file describing the collection
 // Parameter
 // collectionFile: The name of the file describing the collection
-func WriteCollectionFile(collectionFile string) {
+func WriteCollectionFile(collectionFile, analysisFile string) {
 	//log.Printf("WriteCollectionFile: Writing collection file.\n")
 	collections := Collections()
 	for _, entry := range collections {
@@ -152,6 +153,7 @@ func WriteCollectionFile(collectionFile string) {
 			entry.CorpusEntries = CorpusEntries(outputFile)
 			log.Printf("WriteCollectionFile: Writing collection file %s\n",
 				outputFile)
+			entry.AnalysisFile = analysisFile
 
 			// Write to file
 			f, err := os.Create(config.ProjectHome() + "/web/" +

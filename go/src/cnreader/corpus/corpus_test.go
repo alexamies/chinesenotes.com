@@ -46,5 +46,5 @@ func TestReadIntroFile(t *testing.T) {
 
 // Test generating collection file
 func TestWriteCollectionFile(t *testing.T) {
-	WriteCollectionFile("erya.csv")
+	WriteCollectionFile("erya.csv", "analysis/erya-analysis-test.html")
 }

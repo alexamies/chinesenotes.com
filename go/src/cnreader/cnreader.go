@@ -43,9 +43,10 @@ func main() {
 		if err != nil {
 			log.Fatalf("main: %v", err)
 		}
-		corpus.WriteCollectionFile(*collectionFile)
 		corpusEntries := corpus.CorpusEntries(config.CorpusDataDir() + "/" +
 			*collectionFile)
+		aResults := analysis.CollectionAResults{map[string]int{},
+				map[string]string{}, 0, map[string]int{}}
 		for _, entry := range corpusEntries {
 			src := config.CorpusDir() + "/" + entry.RawFile
 			dest := config.WebDir() + "/" + entry.GlossFile
@@ -56,7 +57,12 @@ func main() {
 				entry.RawFile, collectionEntry.Title, entry.Title)
 			analysis.WriteCorpusDoc(tokens, vocab, dest,
 				collectionEntry.GlossFile, collectionEntry.Title, aFile)
+			aResults.AddResults(vocab, usage, wc, unknownChars)
 		}
+		aFile := analysis.WriteAnalysis(aResults.Vocab, aResults.Usage,
+				aResults.WC, aResults.UnknownChars, *collectionFile,
+				collectionEntry.Title, "")
+		corpus.WriteCollectionFile(*collectionFile, aFile)
 	} else if *infile != "" {
 		log.Printf("main: input file: %s, output file: %s, analysis file: %s\n",
 			*infile, *outfile, *analysisFile)
