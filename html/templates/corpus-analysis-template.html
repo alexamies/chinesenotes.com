@@ -69,7 +69,7 @@
             <th>Chinese</th>
             <th>Pinyin</th>
             <th>English</th>
-            <th>Usage</th>
+            <th>Example Usage</th>
           </tr>
         </thead>
         <tbody>
@@ -88,11 +88,11 @@
       <h3>Characters without Dictionary Entries</h3>
       <table class="table table-bordered table-hover">
         <thead>
-          <tr><th>Character</th></tr>
+          <tr><th>Frequency</th><th>Character</th></tr>
         </thead>
         <tbody>
         {{ range $char := .UnkownnChars }}
-          <tr><td>{{ $char }}</td></tr>
+          <tr><td>{{ $char.Freq }}</td><td>{{ $char.Word }}</td></tr>
         {{ end }}
         </tbody>
       </table>
