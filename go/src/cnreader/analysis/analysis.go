@@ -80,7 +80,7 @@ type HTMLContent struct {
       marked up text with links and highlight
 */
 func decodeUsageExample(usageText string, headword dictionary.HeadwordDef) string {
-	tokens, _, _, _, _ := ParseText(usageText)
+	tokens, _ := ParseText(usageText)
 	replacementText := ""
 	for e := tokens.Front(); e != nil; e = e.Next() {
 		word := e.Value.(string)
@@ -147,17 +147,17 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 		for _, entry := range corpusEntries {
 			src := corpusDir + entry.RawFile
 			text := ReadText(src)
-			_, vocab, wc, _, usage := ParseText(text)
-			wcTotal[col.Corpus] += wc
-			for word, count := range vocab {
+			_, results := ParseText(text)
+			wcTotal[col.Corpus] += results.WC
+			for word, count := range results.Vocab {
 				cw := &CorpusWord{col.Corpus, word}
 				cwf := &CorpusWordFreq{col.Corpus, word, count}					
 				if cwfPrev, found := wfTotal[cw]; found {
 					cwf.Freq += cwfPrev.Freq			
 				}
 				wfTotal[cw] = *cwf
-				rel_freq := 1000.0 * float64(count) / float64(wc)
-				usage := WordUsage{cwf.Freq, rel_freq, word, usage[word],
+				rel_freq := 1000.0 * float64(count) / float64(results.WC)
+				usage := WordUsage{cwf.Freq, rel_freq, word, results.Usage[word],
 					entry.GlossFile, entry.Title, col.Title}
 				usageArr, ok := usageMap[word]
 				if !ok {
@@ -195,11 +195,11 @@ func hyperlink(entry dictionary.WordSenseEntry, text string) string {
 // vocab: a table of the unique words found in the parsed text
 // wc: total word count
 // usage: the first usage of the word in the text
-func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
-	unknownChars map[string]int, usage map[string]string) {
-	vocab = make(map[string]int)
-	unknownChars = make(map[string]int)
-	usage = make(map[string]string)
+func ParseText(text string) (tokens list.List, results CollectionAResults) {
+	vocab := map[string]int{}
+	unknownChars := map[string]int{}
+	usage := map[string]string{}
+	wc := 0
 	chunks := GetChunks(text)
 	wdict := dictionary.GetWDict()
 	//fmt.Printf("ParseText: For text %s got %d chunks\n", text, chunks.Len())
@@ -234,7 +234,13 @@ func ParseText(text string) (tokens list.List, vocab map[string]int, wc int,
 			}
 		}
 	}
-	return tokens, vocab, wc, unknownChars, usage
+	results = CollectionAResults {
+		Vocab: vocab,
+		Usage: usage,
+		WC: wc,
+		UnknownChars: unknownChars,
+	}
+	return tokens, results
 }
 
 // Reads a Chinese text file
@@ -304,20 +310,17 @@ func WordFrequencies() {
 // Writes a document with vocabulary analysis of the text. The name of the
 // output file will be source file with '-analysis' appended, placed in the
 // web/analysis directory
-// vocab: The vocabulary with word frequency counts
-// wc: the total size of the vocabulary
-// srcFile: The source file used
+// results: The results of vocabulary analysis
 // collectionTitle: The title of the whole colleciton
 // docTitle: The title of this specific document
 // Returns the name of the file written to
-func WriteAnalysis(vocab map[string]int, usage map[string]string, wc int, 
-		unknownChars map[string]int, srcFile string, collectionTitle string,
+func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
 		docTitle string) string {
 
 	// Parse template and organize template parameters
-	sortedWords := SortedFreq(vocab)
+	sortedWords := SortedFreq(results.Vocab)
 	wfResults := make([]WFResult, 0)
-	sortedUnknownWords := SortedFreq(unknownChars)
+	sortedUnknownWords := SortedFreq(results.UnknownChars)
 	maxWFOutput:= len(sortedWords)
 	if maxWFOutput > MAX_WF_OUTPUT {
 		maxWFOutput = MAX_WF_OUTPUT
@@ -325,16 +328,16 @@ func WriteAnalysis(vocab map[string]int, usage map[string]string, wc int,
 	for _, value := range sortedWords[:maxWFOutput] {
 		ws, _ := dictionary.GetWordSense(value.Word)
 		wfResults = append(wfResults, WFResult{value.Freq, value.Word,
-			ws.Pinyin, ws.English, usage[value.Word]})
+			ws.Pinyin, ws.English, results.Usage[value.Word]})
 	}
 
 	dateUpdated := time.Now().Format("2006-01-02")
-	maxUnkownOutput := len(unknownChars)
+	maxUnkownOutput := len(results.UnknownChars)
 	if maxUnkownOutput > MAX_UNKOWN_OUTPUT {
 		maxUnkownOutput = MAX_UNKOWN_OUTPUT
 	}
 	title := "Vocabulary Analysis for " + collectionTitle + ", " + docTitle
-	results := AnalysisResults{title, wc, len(vocab),
+	aResults := AnalysisResults{title, results.WC, len(results.Vocab),
 		wfResults, sortedUnknownWords, dateUpdated,
 		maxWFOutput}
 	tmplFile := config.TemplateDir() + "/corpus-analysis-template.html"
@@ -363,7 +366,7 @@ func WriteAnalysis(vocab map[string]int, usage map[string]string, wc int,
 	}
 	defer f.Close()
 	w := bufio.NewWriter(f)
-	err = tmpl.Execute(w, results)
+	err = tmpl.Execute(w, aResults)
 	if err != nil { panic(err) }
 	w.Flush()
 	return basename

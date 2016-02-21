@@ -11,17 +11,16 @@ type CollectionAResults struct {
 	UnknownChars map[string]int
 }
 
-func (results *CollectionAResults) AddResults(vocab1 map[string]int, 
-		usage1 map[string]string, wc1 int, unknown1 map[string]int) {
+func (results *CollectionAResults) AddResults(more CollectionAResults) {
 
-	for k, v := range vocab1 {
+	for k, v := range more.Vocab {
     	results.Vocab[k] += v
 	}
-	for k, v := range usage1 {
+	for k, v := range more.Usage {
     	results.Usage[k] = v
 	}
-	results.WC += wc1
-	for k, v := range unknown1 {
+	results.WC += more.WC
+	for k, v := range more.UnknownChars {
     	results.UnknownChars[k] += v
 	}
 }

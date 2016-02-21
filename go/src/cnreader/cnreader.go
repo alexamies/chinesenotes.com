@@ -52,15 +52,14 @@ func main() {
 			dest := config.WebDir() + "/" + entry.GlossFile
 			log.Printf("main: input file: %s, output file: %s\n", src, dest)
 			text := analysis.ReadText(src)
-			tokens, vocab, wc, unknownChars, usage := analysis.ParseText(text)
-			aFile := analysis.WriteAnalysis(vocab, usage, wc, unknownChars,
-				entry.RawFile, collectionEntry.Title, entry.Title)
-			analysis.WriteCorpusDoc(tokens, vocab, dest,
+			tokens, results := analysis.ParseText(text)
+			aFile := analysis.WriteAnalysis(results, entry.RawFile,
+					collectionEntry.Title, entry.Title)
+			analysis.WriteCorpusDoc(tokens, results.Vocab, dest,
 				collectionEntry.GlossFile, collectionEntry.Title, aFile)
-			aResults.AddResults(vocab, usage, wc, unknownChars)
+			aResults.AddResults(results)
 		}
-		aFile := analysis.WriteAnalysis(aResults.Vocab, aResults.Usage,
-				aResults.WC, aResults.UnknownChars, *collectionFile,
+		aFile := analysis.WriteAnalysis(aResults, *collectionFile,
 				collectionEntry.Title, "")
 		corpus.WriteCollectionFile(*collectionFile, aFile)
 	} else if *infile != "" {
@@ -69,9 +68,9 @@ func main() {
 
 		// Read text and perform vocabulary analysis
 		text := analysis.ReadText(*infile)
-		tokens, vocab, wc, unknownChars, usage := analysis.ParseText(text)
-		analysis.WriteDoc(tokens, vocab, *outfile, `\N`, `\N`)
-		analysis.WriteAnalysis(vocab, usage, wc, unknownChars, *analysisFile,
+		tokens, results := analysis.ParseText(text)
+		analysis.WriteDoc(tokens, results.Vocab, *outfile, `\N`, `\N`)
+		analysis.WriteAnalysis(results, *analysisFile,
 			"To do: figure out the colleciton title",
 			"To do: figure out the document title")
 	} else if *html {
@@ -87,8 +86,8 @@ func main() {
 			log.Printf("main: input file: %s, output file: %s, template: %s\n",
 				src, dest, templateFile)
 			text := analysis.ReadText(src)
-			tokens, vocab, _, _, _ := analysis.ParseText(text)
-			analysis.WriteDoc(tokens, vocab, dest, conversion.Template,
+			tokens, results := analysis.ParseText(text)
+			analysis.WriteDoc(tokens, results.Vocab, dest, conversion.Template,
 				templateFile)
 		}
 	} else if *headwords {

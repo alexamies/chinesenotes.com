@@ -81,10 +81,10 @@ func Collections() []CollectionEntry {
 			corpus = row[5]
 		}
 		corpusEntries := make([]CorpusEntry, 0)
-		log.Printf("corpus.Collections: Read collection %s in corpus %s\n",
-			collectionFile, corpus)
-		collections = append(collections, CollectionEntry{row[0], row[1],
-			title, summary, introFile, "", corpus, corpusEntries, ""})
+		//log.Printf("corpus.Collections: Read collection %s in corpus %s\n",
+		//	collectionFile, corpus)
+		collections = append(collections, CollectionEntry{collectionFile,
+			row[1], title, summary, introFile, "", corpus, corpusEntries, ""})
 	}
 	return collections
 }

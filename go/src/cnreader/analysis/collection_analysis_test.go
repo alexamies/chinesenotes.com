@@ -16,7 +16,8 @@ func TestAddResults(t *testing.T) {
 	moreVocab := map[string]int{"one":1, "three":1, "four":4}
 	moreUsage := map[string]string {"two": "two banana"}
 	unknown1 := map[string]int{"x":1}
-	results.AddResults(moreVocab, moreUsage, 4, unknown1)
+	more := CollectionAResults{moreVocab, moreUsage, 4, unknown1}
+	results.AddResults(more)
 	r := results.Vocab["three"]
 	e := 4
 	if r != e {
