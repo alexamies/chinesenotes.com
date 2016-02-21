@@ -76,7 +76,7 @@
         {{ range $wf := .WordFrequencies }}
           <tr>
             <td>{{ $wf.Freq }}</td>
-            <td>{{ $wf.Chinese }}</td>
+            <td><a href="/words/{{$wf.HeadwordId}}.html">{{$wf.Chinese}}</a></td>
             <td>{{ $wf.Pinyin }}</td>
             <td>{{ $wf.English }}</td>
             <td>{{ $wf.Usage }}</td>

@@ -63,7 +63,7 @@ type WordUsage struct {
 
 // Vocabulary analysis entry for a single word
 type WFResult struct {
-	Freq int
+	Freq, HeadwordId int
 	Chinese, Pinyin, English, Usage string
 }
 
@@ -327,8 +327,13 @@ func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	}
 	for _, value := range sortedWords[:maxWFOutput] {
 		ws, _ := dictionary.GetWordSense(value.Word)
-		wfResults = append(wfResults, WFResult{value.Freq, value.Word,
-			ws.Pinyin, ws.English, results.Usage[value.Word]})
+		wfResults = append(wfResults, WFResult{
+			Freq: value.Freq,
+			HeadwordId: ws.HeadwordId,
+			Chinese: value.Word,
+			Pinyin: ws.Pinyin, 
+			English: ws.English, 
+			Usage: results.Usage[value.Word]})
 	}
 
 	dateUpdated := time.Now().Format("2006-01-02")
@@ -338,8 +343,7 @@ func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	}
 	title := "Vocabulary Analysis for " + collectionTitle + ", " + docTitle
 	aResults := AnalysisResults{title, results.WC, len(results.Vocab),
-		wfResults, sortedUnknownWords, dateUpdated,
-		maxWFOutput}
+		wfResults, sortedUnknownWords, dateUpdated, maxWFOutput}
 	tmplFile := config.TemplateDir() + "/corpus-analysis-template.html"
 	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles(tmplFile)
 	if err != nil { panic(err) }
