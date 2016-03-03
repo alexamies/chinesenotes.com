@@ -193,6 +193,17 @@ func TestParseText3(t *testing.T) {
 	//log.Printf("TestParseText3: End +++++++++++\n")
 }
 
+func TestRankUsage(t *testing.T) {
+	//log.Printf("TestRankUsage: Begin +++++++++++\n")
+	usageMap := map[string]*[]WordUsage{}
+	usageMap = rankUsage(usageMap)
+	l := len(usageMap)
+	expected := 0
+	if l != expected {
+		t.Error("Expected to get length ", expected, ", got ", l)
+	}
+}
+
 func TestWriteAnalysis(t *testing.T) {
 	//log.Printf("TestWriteAnalysis: Begin +++++++++++\n")
 	_, results := ParseText("繁")

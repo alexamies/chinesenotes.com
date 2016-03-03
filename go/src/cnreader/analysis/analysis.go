@@ -32,6 +32,9 @@ const MAX_UNKOWN_OUTPUT = 50
 // Word frequency output file
 const UNIGRAM_FILE = "unigram.txt"
 
+// Max usage elements for a word
+const MAX_USAGE = 100
+
 // Holds vocabulary analysis for a corpus text
 type AnalysisResults struct {
 	Title string
@@ -171,6 +174,8 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 		}
 	}
 
+	usageMap = rankUsage(usageMap)
+
 	// Print out totals for each corpus
 	for corpus, count := range wcTotal {
 		log.Printf("WordFrequencies: Total word count for corpus %s: %d\n",
@@ -241,6 +246,21 @@ func ParseText(text string) (tokens list.List, results CollectionAResults) {
 		UnknownChars: unknownChars,
 	}
 	return tokens, results
+}
+
+// Rank word usage for usability
+func rankUsage(usageMap map[string]*[]WordUsage) map[string]*[]WordUsage {
+	for word, usagePtr := range usageMap {
+		if len(*usagePtr) > MAX_USAGE {
+			usage := *usagePtr
+			usageCapped := new([]WordUsage)
+			for i := 1; i < MAX_USAGE; i++ {
+				*usageCapped = append(*usageCapped, usage[i])
+			}
+			usageMap[word] = usageCapped
+		}
+	}
+	return usageMap
 }
 
 // Reads a Chinese text file
@@ -535,7 +555,7 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 
 }
 
-// Writes word entries for headwords
+// Writes dictionary headword entries
 func WriteHwFiles() {
 	fmt.Printf("WriteHwFiles: Begin +++++++++++\n")
 	hwArray := dictionary.GetHeadwords()
