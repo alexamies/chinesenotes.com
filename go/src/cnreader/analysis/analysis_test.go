@@ -228,6 +228,38 @@ func TestSampleUsage2(t *testing.T) {
 
 // Basic test with more data
 func TestSampleUsage3(t *testing.T) {
+	log.Printf("TestSampleUsage3: Begin +++++++++++\n")
+	wu1 := WordUsage{
+		Freq: 1,
+		RelFreq: 0.01,
+		Word: "蛇",
+		Example: "大蛇",
+		File: "afile.txt",
+		EntryTitle: "Scroll 1",
+		ColTitle: "Some Snakes",
+	}
+	wu2 := WordUsage{
+		Freq: 1,
+		RelFreq: 0.01,
+		Word: "蛇",
+		Example: "小蛇",
+		File: "afile.txt",
+		EntryTitle: "Scroll 2",
+		ColTitle: "Some Snakes",
+	}
+	wuArray := []WordUsage{wu1, wu2}
+	usageMap := map[string]*[]WordUsage{"蛇": &wuArray}
+	usageMap = sampleUsage(usageMap)
+	l := len(*usageMap["蛇"])
+	expected := 2
+	if l != expected {
+		t.Error("Expected to get length ", expected, ", got ", l)
+	}
+}
+
+// Basic test with more data
+func TestSampleUsage4(t *testing.T) {
+	log.Printf("TestSampleUsage4: Begin +++++++++++\n")
 	wu1 := WordUsage{
 		Freq: 1,
 		RelFreq: 0.01,
@@ -246,11 +278,20 @@ func TestSampleUsage3(t *testing.T) {
 		EntryTitle: "Scroll 2",
 		ColTitle: "Some Big Animals",
 	}
-	wuArray := []WordUsage{wu1, wu2}
+	wu3 := WordUsage{
+		Freq: 1,
+		RelFreq: 0.01,
+		Word: "大",
+		Example: "大树",
+		File: "afile.txt",
+		EntryTitle: "Scroll 1",
+		ColTitle: "Some Big Trees",
+	}
+	wuArray := []WordUsage{wu1, wu2, wu3}
 	usageMap := map[string]*[]WordUsage{"大": &wuArray}
 	usageMap = sampleUsage(usageMap)
-	l := len(usageMap)
-	expected := 2
+	l := len(*usageMap["大"])
+	expected := 3
 	if l != expected {
 		t.Error("Expected to get length ", expected, ", got ", l)
 	}

@@ -148,7 +148,7 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 	collectionEntries := corpus.Collections()
 	for _, col := range collectionEntries {
 		colFile := corpusDataDir + col.CollectionFile
-		log.Printf("GetWordFrequencies: input file: %s\n", colFile)
+		//log.Printf("GetWordFrequencies: input file: %s\n", colFile)
 		corpusEntries := corpus.CorpusEntries(colFile)
 		for _, entry := range corpusEntries {
 			src := corpusDir + entry.RawFile
@@ -257,23 +257,18 @@ func ParseText(text string) (tokens list.List, results CollectionAResults) {
 func sampleUsage(usageMap map[string]*[]WordUsage) map[string]*[]WordUsage {
 	for word, usagePtr := range usageMap {
 		sampleMap := map[string]int{}
-		if len(*usagePtr) > MAX_USAGE {
-			usage := *usagePtr
-			usageCapped := new([]WordUsage)
-			for i := 1; i < MAX_USAGE; i++ {
-				if _, ok := sampleMap[usage[i].ColTitle]; ok {
-					count := sampleMap[usage[i].ColTitle]
-					if count <= MAX_TITLE {
-						*usageCapped = append(*usageCapped, usage[i])
-						sampleMap[usage[i].ColTitle]++
-					}
-				} else {
-					sampleMap[usage[i].ColTitle] = 1
-					*usageCapped = append(*usageCapped, usage[i])
-				}
+		usage := *usagePtr
+		usageCapped := new([]WordUsage)
+		j := 0
+		for _, wu := range usage {
+			count, _ := sampleMap[wu.ColTitle]
+			if count < MAX_TITLE && j < MAX_USAGE {
+				*usageCapped = append(*usageCapped, wu)
+				sampleMap[wu.ColTitle]++
+				j++
 			}
-			usageMap[word] = usageCapped
 		}
+		usageMap[word] = usageCapped
 	}
 	return usageMap
 }
