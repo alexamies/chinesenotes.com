@@ -35,6 +35,9 @@ const UNIGRAM_FILE = "unigram.txt"
 // Max usage elements for a word
 const MAX_USAGE = 100
 
+// Max number of occurrences of same title in a list of word usages
+const MAX_TITLE = 10
+
 // Holds vocabulary analysis for a corpus text
 type AnalysisResults struct {
 	Title string
@@ -174,7 +177,7 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 		}
 	}
 
-	usageMap = rankUsage(usageMap)
+	usageMap = sampleUsage(usageMap)
 
 	// Print out totals for each corpus
 	for corpus, count := range wcTotal {
@@ -248,14 +251,26 @@ func ParseText(text string) (tokens list.List, results CollectionAResults) {
 	return tokens, results
 }
 
-// Rank word usage for usability
-func rankUsage(usageMap map[string]*[]WordUsage) map[string]*[]WordUsage {
+// Sample word usage for usability making sure that the list of word usage
+// samples is not dominated by any one title and truncating at MAX_USAGE
+// examples.
+func sampleUsage(usageMap map[string]*[]WordUsage) map[string]*[]WordUsage {
 	for word, usagePtr := range usageMap {
+		sampleMap := map[string]int{}
 		if len(*usagePtr) > MAX_USAGE {
 			usage := *usagePtr
 			usageCapped := new([]WordUsage)
 			for i := 1; i < MAX_USAGE; i++ {
-				*usageCapped = append(*usageCapped, usage[i])
+				if _, ok := sampleMap[usage[i].ColTitle]; ok {
+					count := sampleMap[usage[i].ColTitle]
+					if count <= MAX_TITLE {
+						*usageCapped = append(*usageCapped, usage[i])
+						sampleMap[usage[i].ColTitle]++
+					}
+				} else {
+					sampleMap[usage[i].ColTitle] = 1
+					*usageCapped = append(*usageCapped, usage[i])
+				}
 			}
 			usageMap[word] = usageCapped
 		}
