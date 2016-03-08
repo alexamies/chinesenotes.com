@@ -56,6 +56,7 @@ type CorpusEntryContent struct {
 // Dictionary entry content struct used for writing a dictionary entry to HTML
 type DictEntry struct {
 	Headword dictionary.HeadwordDef
+	Contains []dictionary.HeadwordDef
 	UsageArr []WordUsage
 	DateUpdated string
 }
@@ -567,7 +568,7 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 
 // Writes dictionary headword entries
 func WriteHwFiles() {
-	fmt.Printf("WriteHwFiles: Begin +++++++++++\n")
+	log.Printf("analysis.WriteHwFiles: Begin +++++++++++\n")
 	hwArray := dictionary.GetHeadwords()
 	usageMap, _, _ := GetWordFrequencies()
 	dateUpdated := time.Now().Format("2006-01-02")
@@ -576,7 +577,15 @@ func WriteHwFiles() {
 	templFile := config.ProjectHome() + "/html/templates/headword-template.html"
 	tmpl := template.Must(template.New("headword-template.html").ParseFiles(templFile))
 
+	i := 0
 	for _, hw := range hwArray {
+
+		if i % 1000 == 0 {
+			log.Printf("analysis.WriteHwFiles: wrote %d words\n", i)
+		}
+
+		// Words that contain this word
+		contains := dictionary.ContainsWord(hw.Simplified, hwArray)
 
 		// Combine usage arrays for both simplified and traditional characters
 		usageArrPtr, ok := usageMap[hw.Simplified]
@@ -614,7 +623,7 @@ func WriteHwFiles() {
 			hlUsageArr = append(hlUsageArr, hlWU)
 		}
 
-		dictEntry := DictEntry{hw, hlUsageArr, dateUpdated}
+		dictEntry := DictEntry{hw, contains, hlUsageArr, dateUpdated}
 		filename := fmt.Sprintf("%s%s%d%s", config.ProjectHome(), "/web/words/",
 			hw.Id, ".html")
 		f, err := os.Create(filename)
@@ -632,6 +641,7 @@ func WriteHwFiles() {
 		}
 		w.Flush()
 		f.Close()
+		i++
 	}
 }
 

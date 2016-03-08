@@ -12,6 +12,7 @@ import (
 	"os"
 	"sort"
 	"strconv"
+	"strings"
 	"unicode"
 )
 
@@ -38,10 +39,22 @@ type WordSenseEntry struct {
 // and traditional text
 var wdict map[string][]*WordSenseEntry
 
+// Get a list of words that containst the given word
+func ContainsWord(word string, headwords []HeadwordDef) []HeadwordDef {
+	//log.Printf("dictionary.ContainsWord: Enter\n")
+	contains := []HeadwordDef{}
+	for _, hw := range headwords {
+		if len(contains) <= 20 && hw.Simplified != word && strings.Contains(hw.Simplified, word) {
+			contains = append(contains, hw)
+		}
+	}
+	return contains
+}
+
 // Compute headword numbers for all lexical units listed in data/words.txt
 // Return a sorted array of headwords
 func GetHeadwords() []HeadwordDef {
-	log.Printf("GetHeadwords: Enter\n")
+	//log.Printf("dictionary.GetHeadwords: Enter\n")
 	wsMap := readWSMap(config.DictionaryDir() + "/words.txt")
 
 	// Read lexical units
@@ -54,7 +67,7 @@ func GetHeadwords() []HeadwordDef {
 			hwcount++
 		}
 	}
-	log.Printf("GetHeadwords: hwcount = %d\n", hwcount)
+	//log.Printf("dictionary.GetHeadwords: hwcount = %d\n", hwcount)
 
 	// Organize the headwords
 	hwIdArray := make([]int, 0)

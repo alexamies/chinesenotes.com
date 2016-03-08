@@ -156,7 +156,40 @@
           {{ end }}
         </ol>
 
+        <h3>Contained in</h3>
+        <p>Truncated for common words</p>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr><th>Simplified</th><th>Traditional</th><th>Pinyin</th><th>English</th></tr>
+          </thead>
+          <tbody>
+          {{ range $w := .Contains }}
+            <tr>
+              <td>
+                <a href='/words/{{$w.Id}}.html'>{{ $w.Simplified }}</a>
+              </td>
+              <td>
+                {{ $w.Traditional }} 
+              </td>
+              <td>
+                {{ range $p := $w.Pinyin }}
+                {{ $p }} 
+                {{ end }}
+              </td>
+              <td>
+                <ol>
+                {{ range $ws := $w.WordSenses }}
+                  <li>{{ $ws.English }} </li>
+                {{ end }}
+                <ol>
+              </td>
+            </tr>
+          {{ end }}
+          </tbody>
+        </table>
+
         <h3>Usage</h3>
+        <p>Sampled for common words</p>
         <table class="table table-bordered table-hover">
           <thead>
             <tr><th>Example</th><th>Source</th><th>Occurrences</th></tr>

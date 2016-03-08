@@ -6,13 +6,37 @@ import (
 	"testing"
 )
 
-func init() {
-	config.SetProjectHome("../../../..")
+// Trival test to make sure that method does not explode
+func TestContainsWord0(t *testing.T) {
+	//fmt.Printf("TestContainsWord0: Begin unit tests\n")
+	c := "hello"
+	ReadDict(config.DictionaryDir() + "/words.txt")
+	headwords := GetHeadwords()
+	contains := ContainsWord(c, headwords)
+	result := len(contains)
+	expected := 0
+	if result != expected {
+		t.Error("Expected ", expected, ", got ", result)
+	}
+}
+
+// Basic test to make sure that method does something correct
+func TestContainsWord1(t *testing.T) {
+	fmt.Printf("TestContainsWord1: Begin unit tests\n")
+	ReadDict(config.DictionaryDir() + "/words.txt")
+	c := "中"
+	headwords := GetHeadwords()
+	contains := ContainsWord(c, headwords)
+	result := len(contains)
+	notexpected := 0
+	if result <= notexpected {
+		t.Error("not expected ", notexpected, ", got ", result)
+	}
 }
 
 // Both traditional and simplified
 func TestIsCJKChar1(t *testing.T) {
-	fmt.Printf("TestIsCJKChar1: Begin unit tests\n")
+	//fmt.Printf("TestIsCJKChar1: Begin unit tests\n")
 	c := "中"
 	result := IsCJKChar(c)
 	if !result {
@@ -83,7 +107,7 @@ func TestIsCJKChar7(t *testing.T) {
 
 func TestWriteHeadwords(t *testing.T) {
 	fmt.Printf("TestWriteHeadwords: Begin +++++++++++\n")
-	ReadDict(config.ProjectHome() + "/data/words.txt")
+	ReadDict(config.DictionaryDir() + "/words.txt")
 	WriteHeadwords()
 }
 
