@@ -138,10 +138,9 @@
           {{if ne .Headword.Traditional "\\N"}}
             ({{.Headword.Traditional}})
           {{end}}</span>
-          {{ range $pinyin := .Headword.Pinyin }}
-            {{ $pinyin }}
-          {{ end }}
+          {{ range $pinyin := .Headword.Pinyin }} {{ $pinyin }} {{ end }}
         </h2>
+        {{ if gt (len .Headword.WordSenses) 1}}
         <ol>
           {{ range $ws := .Headword.WordSenses }}
             <li>
@@ -155,7 +154,21 @@
             </li>
           {{ end }}
         </ol>
+        {{ else }}
+          <p>
+          {{ range $ws := .Headword.WordSenses }}
+              <span class='dict-entry-pinyin'>{{ $ws.Pinyin }}</span> 
+              <span class='dict-entry-grammar'>{{ $ws.Grammar }}</span> 
+              <span class='dict-entry-definition'>{{ $ws.English }}</span> <br/>
+              Domain: {{ $ws.Topic_en }}<br/>
+              {{if ne $ws.Notes "\\N"}}
+                <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
+              {{ end }}
+          {{ end }}
+          </p>
+        {{ end }}
 
+        {{ if .Contains }}
         <h3>Contained in</h3>
         <p>Truncated for common words</p>
         <table class="table table-bordered table-hover">
@@ -172,22 +185,26 @@
                 {{ $w.Traditional }} 
               </td>
               <td>
-                {{ range $p := $w.Pinyin }}
-                {{ $p }} 
-                {{ end }}
+                {{ range $p := $w.Pinyin }} {{ $p }} {{ end }}
               </td>
               <td>
+                {{ if gt (len $w.WordSenses) 1}}
                 <ol>
                 {{ range $ws := $w.WordSenses }}
                   <li>{{ $ws.English }} </li>
                 {{ end }}
                 <ol>
+                {{ else }}
+                  {{ range $ws := $w.WordSenses }} {{ $ws.English }} {{ end }}
+                {{ end }}
               </td>
             </tr>
           {{ end }}
           </tbody>
         </table>
+        {{ end }}
 
+        {{ if .UsageArr }}
         <h3>Usage</h3>
         <p>Sampled for common words</p>
         <table class="table table-bordered table-hover">
@@ -211,6 +228,8 @@
           {{ end }}
           </tbody>
         </table>
+        {{ end }}
+        
       </div> <!-- word-detail -->
 
       <hr/>
