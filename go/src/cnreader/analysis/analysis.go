@@ -9,6 +9,7 @@ import (
 	"cnreader/config"
 	"cnreader/corpus"
 	"cnreader/dictionary"
+	"cnreader/ngram"
 	"container/list"
 	"fmt"
 	"text/template"
@@ -23,7 +24,7 @@ import (
 
 // Maximum number of word frequency entries to output to the generated
 // HTML file
-const MAX_WF_OUTPUT = 100000
+const MAX_WF_OUTPUT = 500
 
 // Maximum number of unknwon characters to output to the generated
 // HTML file
@@ -43,6 +44,7 @@ type AnalysisResults struct {
 	Title string
 	WC, UniqueWords int
 	WordFrequencies []WFResult
+	BigramFreqSorted []ngram.BigramFreq
 	UnkownnChars []SortedWordItem
 	DateUpdated string
 	MaxWFOutput int
@@ -206,11 +208,14 @@ func hyperlink(entry dictionary.WordSenseEntry, text string) string {
 // usage: the first usage of the word in the text
 func ParseText(text string) (tokens list.List, results CollectionAResults) {
 	vocab := map[string]int{}
+	bigramMap := ngram.NewBigramFreqMap()
 	unknownChars := map[string]int{}
 	usage := map[string]string{}
 	wc := 0
 	chunks := GetChunks(text)
 	wdict := dictionary.GetWDict()
+	lastHWPtr := new(dictionary.HeadwordDef)
+	lastHW := *lastHWPtr
 	//fmt.Printf("ParseText: For text %s got %d chunks\n", text, chunks.Len())
 	for e := chunks.Front(); e != nil; e = e.Next() {
 		chunk := e.Value.(string)
@@ -218,13 +223,15 @@ func ParseText(text string) (tokens list.List, results CollectionAResults) {
 		characters := strings.Split(chunk, "")
 		if !dictionary.IsCJKChar(characters[0]) {
 			tokens.PushBack(chunk)
+			lastHWPtr = new(dictionary.HeadwordDef)
+			lastHW = *lastHWPtr
 			continue
 		}
 		for i := 0; i < len(characters); i++ {
 			for j := len(characters); j > 0; j-- {
 				w := strings.Join(characters[i:j], "")
 				//fmt.Printf("ParseText: i = %d, j = %d, w = %s\n", i, j, w)
-				if _, ok := wdict[w]; ok {
+				if wsArray, ok := wdict[w]; ok {
 					//fmt.Printf("ParseText: found word %s, i = %d\n", w, i)
 					tokens.PushBack(w)
 					wc++
@@ -234,6 +241,18 @@ func ParseText(text string) (tokens list.List, results CollectionAResults) {
 					}
 					i = j - 1
 					j = 0
+					hw := dictionary.HeadwordDef{
+						Id: wsArray[0].HeadwordId,
+						Simplified: wsArray[0].Simplified,
+						Traditional: wsArray[0].Traditional,
+						Pinyin: []string{},
+						WordSenses: []dictionary.WordSenseEntry{},
+					}
+					if lastHW.Id != 0 {
+						bigram := ngram.Bigram{lastHW, hw}
+						bigramMap.PutBigram(bigram)
+					}
+					lastHW = hw
 				} else if (utf8.RuneCountInString(w) == 1) {
 					//log.Printf("ParseText: found unknown character %s\n", w)
 					unknownChars[w]++
@@ -246,6 +265,7 @@ func ParseText(text string) (tokens list.List, results CollectionAResults) {
 	results = CollectionAResults {
 		Vocab: vocab,
 		Usage: usage,
+		BigramFrequencies: *bigramMap,
 		WC: wc,
 		UnknownChars: unknownChars,
 	}
@@ -352,6 +372,8 @@ func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	sortedWords := SortedFreq(results.Vocab)
 	wfResults := make([]WFResult, 0)
 	sortedUnknownWords := SortedFreq(results.UnknownChars)
+
+	// Truncate sorted words
 	maxWFOutput:= len(sortedWords)
 	if maxWFOutput > MAX_WF_OUTPUT {
 		maxWFOutput = MAX_WF_OUTPUT
@@ -367,14 +389,29 @@ func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
 			Usage: results.Usage[value.Word]})
 	}
 
+	// Bigrams, also truncated
+	bFreq := ngram.SortedFreq(results.BigramFrequencies)
+	maxBFOutput:= len(bFreq)
+	if maxBFOutput > MAX_WF_OUTPUT {
+		maxBFOutput = MAX_WF_OUTPUT
+	}
+
 	dateUpdated := time.Now().Format("2006-01-02")
 	maxUnkownOutput := len(results.UnknownChars)
 	if maxUnkownOutput > MAX_UNKOWN_OUTPUT {
 		maxUnkownOutput = MAX_UNKOWN_OUTPUT
 	}
 	title := "Vocabulary Analysis for " + collectionTitle + ", " + docTitle
-	aResults := AnalysisResults{title, results.WC, len(results.Vocab),
-		wfResults, sortedUnknownWords, dateUpdated, maxWFOutput}
+	aResults := AnalysisResults{
+		Title: title,
+		WC: results.WC, 
+		UniqueWords: len(results.Vocab),
+		WordFrequencies: wfResults,
+		BigramFreqSorted: bFreq[:maxBFOutput],
+		UnkownnChars: sortedUnknownWords, 
+		DateUpdated: dateUpdated, 
+		MaxWFOutput: maxWFOutput,
+	}
 	tmplFile := config.TemplateDir() + "/corpus-analysis-template.html"
 	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles(tmplFile)
 	if err != nil { panic(err) }

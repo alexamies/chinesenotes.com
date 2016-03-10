@@ -60,7 +60,14 @@
       <h2>{{.Title}}</h2>
       <p>Word count: {{.WC}}, unique words: {{.UniqueWords}}</p>
 
-      <h3>Word Frequencies</h3>
+      <h3>Contents</h3>
+      <ol>
+        <li><a href="#wf">Word Frequencies</a></li>
+        <li><a href="#bigrams">Bigrams</a></li>
+        <li><a href="#no-entry">Characters without Dictionary Entries</a></li>
+      </ol>
+
+      <h3 id="wf">Word Frequencies</h3>
       <p>Top {{.MaxWFOutput}}</p>
       <table class="table table-bordered table-hover">
         <thead>
@@ -85,7 +92,28 @@
         </tbody>
       </table>
 
-      <h3>Characters without Dictionary Entries</h3>
+      <h3 id="bigrams">Bigrams</h3>
+      <p>Top {{.MaxWFOutput}}</p>
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>Frequency</th>
+            <th>Simplified</th>
+            <th>Traditional</th>
+          </tr>
+        </thead>
+        <tbody>
+        {{ range $b := .BigramFreqSorted }}
+          <tr>
+            <td>{{ $b.Frequency }}</td>
+            <td>{{ $b.BigramVal.Simplified }}</td>
+            <td>{{ $b.BigramVal.Traditional }}</td>
+          </tr>
+        {{ end }}
+        </tbody>
+      </table>
+
+      <h3 id="no-entry">Characters without Dictionary Entries</h3>
       <table class="table table-bordered table-hover">
         <thead>
           <tr><th>Frequency</th><th>Character</th></tr>

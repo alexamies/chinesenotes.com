@@ -2,6 +2,7 @@
 package analysis
 
 import (
+	"cnreader/ngram"
 	"fmt"
 	"testing"
 )
@@ -12,11 +13,24 @@ func TestAddResults(t *testing.T) {
 	vocab := map[string]int{"one":1, "three":3, "two":2}
 	usage := map[string]string {"one": "one banana"}
 	unknown := map[string]int{"x":1}
-	results := CollectionAResults{vocab, usage, 3, unknown}
+	bigramFreq := ngram.NewBigramFreqMap()
+	results := CollectionAResults{
+		Vocab: vocab,
+		Usage: usage,
+		BigramFrequencies: *bigramFreq,
+		WC: 3,
+		UnknownChars: unknown,
+	}
 	moreVocab := map[string]int{"one":1, "three":1, "four":4}
 	moreUsage := map[string]string {"two": "two banana"}
 	unknown1 := map[string]int{"x":1}
-	more := CollectionAResults{moreVocab, moreUsage, 4, unknown1}
+	more := CollectionAResults{
+		Vocab: moreVocab,
+		Usage: moreUsage,
+		BigramFrequencies: *bigramFreq,
+		WC: 4,
+		UnknownChars: unknown1,
+	}
 	results.AddResults(more)
 	r := results.Vocab["three"]
 	e := 4
