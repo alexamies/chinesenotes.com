@@ -38,3 +38,10 @@ func (bigram *Bigram) Traditional() string {
 	}
 	return fmt.Sprintf("%s%s", t1, t2)
 }
+
+// Bigrams that contain function words may be excluded
+func (bigram *Bigram) ContainsFunctionWord() bool {
+	ws1 := bigram.HeadwordDef1.WordSenses[0]
+	ws2 := bigram.HeadwordDef2.WordSenses[0]
+	return ws1.IsFunctionWord() || ws2.IsFunctionWord()
+}

@@ -26,10 +26,12 @@ func NewBigramFreqMap() *BigramFreqMap {
 
 // Put the bigram in the bigram frequency map
 func (bfm *BigramFreqMap) PutBigram(bigram Bigram) {
-	if bf, ok := bfm.BM[bigram.String()]; !ok {
-		bfm.BM[bigram.String()] = BigramFreq{bigram, 1}
-	} else {
-		bf.Frequency++
-		bfm.BM[bigram.String()] = bf
+	if !bigram.ContainsFunctionWord() {
+		if bf, ok := bfm.BM[bigram.String()]; !ok {
+			bfm.BM[bigram.String()] = BigramFreq{bigram, 1}
+		} else {
+			bf.Frequency++
+			bfm.BM[bigram.String()] = bf
+		}
 	}
 }

@@ -39,6 +39,24 @@ type WordSenseEntry struct {
 // and traditional text
 var wdict map[string][]*WordSenseEntry
 
+// Map of parts of speech that distinguish words as function words
+var functionPOS map[string]bool
+
+func init() {
+	functionPOS = map[string]bool{
+		"adverb": true,
+		"conjunction": true,
+		"interjection": true,
+		"interrogative pronoun": true,
+		"measure word": true,
+		"particle": true,
+		"prefix": true,
+		"preposition": true,
+		"pronoun": true,
+		"suffix": true,
+	}	
+}
+
 // Get a list of words that containst the given word
 func ContainsWord(word string, headwords []HeadwordDef) []HeadwordDef {
 	//log.Printf("dictionary.ContainsWord: Enter\n")
@@ -137,6 +155,11 @@ func IsCJKChar(character string) bool {
 	r := []rune(character)
 	unicode.Is(unicode.Han, r[0])
 	return unicode.Is(unicode.Han, r[0]) && !unicode.IsPunct(r[0])
+}
+
+// Tests whether the word is a function word
+func (ws *WordSenseEntry) IsFunctionWord() bool {
+	return functionPOS[ws.Grammar]
 }
 
 // Reads the Chinese-English lexical units into memory from the words.txt file

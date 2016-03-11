@@ -246,7 +246,7 @@ func ParseText(text string) (tokens list.List, results CollectionAResults) {
 						Simplified: wsArray[0].Simplified,
 						Traditional: wsArray[0].Traditional,
 						Pinyin: []string{},
-						WordSenses: []dictionary.WordSenseEntry{},
+						WordSenses: []dictionary.WordSenseEntry{*wsArray[0]},
 					}
 					if lastHW.Id != 0 {
 						bigram := ngram.Bigram{lastHW, hw}

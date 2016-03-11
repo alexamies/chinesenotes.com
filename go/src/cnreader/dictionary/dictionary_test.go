@@ -45,6 +45,22 @@ func TestIsCJKChar1(t *testing.T) {
 	}
 }
 
+// Tests whether the word is a function word
+func TestIsFunctionWord(t *testing.T) {
+	ws1 := WordSenseEntry{
+		Id: 1,
+		Simplified: "蓝", 
+		Traditional: "藍",
+		Pinyin: "lán",
+		Grammar: "adjective",
+	}
+	result := ws1.IsFunctionWord()
+	expected := false
+	if result != expected {
+		t.Error("TestIsFunctionWord: Expected ", expected, ", got ", result)
+	}
+}
+
 // Non-Chinese
 func TestIsCJKChar2(t *testing.T) {
 	c := "a"
