@@ -112,6 +112,15 @@ func CorpusEntries(collectionFile string) []CorpusEntry {
 	return corpusEntries	
 }
 
+// Constructor for an empty CollectionEntry
+func NewCorpusEntry() *CorpusEntry {
+	return &CorpusEntry{
+		RawFile: "",
+		GlossFile: "",
+		Title: "",
+	}
+}
+
 // Reads a text file introducing the collection. The file should be a plain
 // text file. HTML breaks will be added for line breaks.
 // Parameter
