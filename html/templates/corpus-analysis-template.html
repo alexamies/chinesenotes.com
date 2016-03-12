@@ -100,6 +100,8 @@
             <th>Frequency</th>
             <th>Simplified</th>
             <th>Traditional</th>
+            <th>Example</th>
+            <th>Document</th>
           </tr>
         </thead>
         <tbody>
@@ -108,6 +110,8 @@
             <td>{{ $b.Frequency }}</td>
             <td>{{ $b.BigramVal.Simplified }}</td>
             <td>{{ $b.BigramVal.Traditional }}</td>
+            <td>{{ $b.BigramVal.Example }}</td>
+            <td><a href="{{ $b.BigramVal.ExFile }}">{{ $b.BigramVal.ExDocTitle }}</a></td>
           </tr>
         {{ end }}
         </tbody>

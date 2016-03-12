@@ -58,7 +58,7 @@ func main() {
 			dest := config.WebDir() + "/" + entry.GlossFile
 			log.Printf("main: input file: %s, output file: %s\n", src, dest)
 			text := analysis.ReadText(src)
-			tokens, results := analysis.ParseText(text)
+			tokens, results := analysis.ParseText(text, &entry)
 			aFile := analysis.WriteAnalysis(results, entry.RawFile,
 					collectionEntry.Title, entry.Title)
 			analysis.WriteCorpusDoc(tokens, results.Vocab, dest,
@@ -74,7 +74,7 @@ func main() {
 
 		// Read text and perform vocabulary analysis
 		text := analysis.ReadText(*infile)
-		tokens, results := analysis.ParseText(text)
+		tokens, results := analysis.ParseText(text, corpus.NewCorpusEntry())
 		analysis.WriteDoc(tokens, results.Vocab, *outfile, `\N`, `\N`)
 		analysis.WriteAnalysis(results, *analysisFile,
 			"To do: figure out the colleciton title",
@@ -92,7 +92,7 @@ func main() {
 			log.Printf("main: input file: %s, output file: %s, template: %s\n",
 				src, dest, templateFile)
 			text := analysis.ReadText(src)
-			tokens, results := analysis.ParseText(text)
+			tokens, results := analysis.ParseText(text, corpus.NewCorpusEntry())
 			analysis.WriteDoc(tokens, results.Vocab, dest, conversion.Template,
 				templateFile)
 		}

@@ -89,7 +89,7 @@ type HTMLContent struct {
       marked up text with links and highlight
 */
 func decodeUsageExample(usageText string, headword dictionary.HeadwordDef) string {
-	tokens, _ := ParseText(usageText)
+	tokens, _ := ParseText(usageText, corpus.NewCorpusEntry())
 	replacementText := ""
 	for e := tokens.Front(); e != nil; e = e.Next() {
 		word := e.Value.(string)
@@ -156,7 +156,7 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 		for _, entry := range corpusEntries {
 			src := corpusDir + entry.RawFile
 			text := ReadText(src)
-			_, results := ParseText(text)
+			_, results := ParseText(text, &entry)
 			wcTotal[col.Corpus] += results.WC
 			for word, count := range results.Vocab {
 				cw := &CorpusWord{col.Corpus, word}
@@ -203,10 +203,10 @@ func hyperlink(entry dictionary.WordSenseEntry, text string) string {
 // text: the string to parse
 // Returns:
 // tokens: the tokens for the parsed text
-// vocab: a table of the unique words found in the parsed text
-// wc: total word count
-// usage: the first usage of the word in the text
-func ParseText(text string) (tokens list.List, results CollectionAResults) {
+// results: vocabulary analysis results
+// document: Optional parameter used for tracing bigrams
+// usage
+func ParseText(text string, document *corpus.CorpusEntry) (tokens list.List, results CollectionAResults) {
 	vocab := map[string]int{}
 	bigramMap := ngram.NewBigramFreqMap()
 	unknownChars := map[string]int{}
@@ -249,7 +249,14 @@ func ParseText(text string) (tokens list.List, results CollectionAResults) {
 						WordSenses: []dictionary.WordSenseEntry{*wsArray[0]},
 					}
 					if lastHW.Id != 0 {
-						bigram := ngram.Bigram{lastHW, hw}
+						bigram := ngram.Bigram{
+							HeadwordDef1: lastHW,
+							HeadwordDef2: hw,
+							Example: chunk,
+							ExFile: document.GlossFile,
+							ExDocTitle: document.Title,
+							ExColTitle: "",
+						}
 						bigramMap.PutBigram(bigram)
 					}
 					lastHW = hw

@@ -24,7 +24,14 @@ func TestBigram(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: []dictionary.WordSenseEntry{},
 	}
-	b := Bigram{hw1, hw2}
+	b := Bigram{
+		HeadwordDef1: hw1,
+		HeadwordDef2: hw2,
+		Example: "",
+		ExFile: "",
+		ExDocTitle: "",
+		ExColTitle: "",
+	}
 	r := b.Traditional()
 	e := "藍天"
 	if r != e {

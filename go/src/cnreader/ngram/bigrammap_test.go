@@ -38,7 +38,14 @@ func TestBigramFreqMap(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: []dictionary.WordSenseEntry{ws2},
 	}
-	b1 := Bigram{hw1, hw2}
+	b1 := Bigram{
+		HeadwordDef1: hw1, 
+		HeadwordDef2: hw2,
+		Example: "",
+		ExFile: "",
+		ExDocTitle: "",
+		ExColTitle: "",
+	}
 	bm := NewBigramFreqMap()
 	bm.PutBigram(b1)
 	bm.PutBigram(b1)
@@ -61,7 +68,14 @@ func TestBigramFreqMap(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: []dictionary.WordSenseEntry{ws3},
 	}
-	b2 := Bigram{hw1, hw3}
+	b2 := Bigram{
+		HeadwordDef1: hw1,
+		HeadwordDef2: hw3,
+		Example: "",
+		ExFile: "",
+		ExDocTitle: "",
+		ExColTitle: "",
+	}
 	r2 := bm.GetBigram(b2)
 	e2 := 0
 	if r2.Frequency != e2 {
