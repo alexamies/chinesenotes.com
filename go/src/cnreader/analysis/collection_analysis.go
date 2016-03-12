@@ -24,8 +24,10 @@ func (results *CollectionAResults) AddResults(more CollectionAResults) {
 	for k, v := range more.Usage {
     	results.Usage[k] = v
 	}
-	for _, v := range more.BigramFrequencies.BM {
-    	results.BigramFrequencies.PutBigram(v.BigramVal)
+	for k, v := range more.BigramFrequencies.BM {
+    	bf := results.BigramFrequencies.BM[k]
+    	bf.Frequency += v.Frequency
+    	results.BigramFrequencies.BM[k] = bf
 	}
 	results.WC += more.WC
 	for k, v := range more.UnknownChars {

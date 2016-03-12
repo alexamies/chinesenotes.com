@@ -2,6 +2,7 @@
 package analysis
 
 import (
+	"cnreader/dictionary"
 	"cnreader/ngram"
 	"fmt"
 	"testing"
@@ -13,11 +14,49 @@ func TestAddResults(t *testing.T) {
 	vocab := map[string]int{"one":1, "three":3, "two":2}
 	usage := map[string]string {"one": "one banana"}
 	unknown := map[string]int{"x":1}
-	bigramFreq := ngram.NewBigramFreqMap()
+	ws1 := dictionary.WordSenseEntry{
+		Id: 1,
+		Simplified: "蓝", 
+		Traditional: "藍",
+		Pinyin: "lán",
+		Grammar: "adjective",
+	}
+	hw1 := dictionary.HeadwordDef{
+		Id: 1,
+		Simplified: "蓝", 
+		Traditional: "藍",
+		Pinyin: []string{},
+		WordSenses: []dictionary.WordSenseEntry{ws1},
+	}
+	ws2 := dictionary.WordSenseEntry{
+		Id: 1,
+		Simplified: "天", 
+		Traditional: "\\N",
+		Pinyin: "tiān",
+		Grammar: "noun",
+	}
+	hw2 := dictionary.HeadwordDef{
+		Id: 2,
+		Simplified: "天",
+		Traditional: "\\N",
+		Pinyin: []string{},
+		WordSenses: []dictionary.WordSenseEntry{ws2},
+	}
+	b1 := ngram.Bigram{
+		HeadwordDef1: hw1, 
+		HeadwordDef2: hw2,
+		Example: "",
+		ExFile: "",
+		ExDocTitle: "",
+		ExColTitle: "",
+	}
+	bm := ngram.NewBigramFreqMap()
+	bm.PutBigram(b1)
+	bm.PutBigram(b1)
 	results := CollectionAResults{
 		Vocab: vocab,
 		Usage: usage,
-		BigramFrequencies: *bigramFreq,
+		BigramFrequencies: *bm,
 		WC: 3,
 		UnknownChars: unknown,
 	}
@@ -27,7 +66,7 @@ func TestAddResults(t *testing.T) {
 	more := CollectionAResults{
 		Vocab: moreVocab,
 		Usage: moreUsage,
-		BigramFrequencies: *bigramFreq,
+		BigramFrequencies: *bm,
 		WC: 4,
 		UnknownChars: unknown1,
 	}
@@ -46,5 +85,10 @@ func TestAddResults(t *testing.T) {
 	e = 7
 	if r != e {
 		t.Error("TestAddResults, word count expected ", e, " got, ", r)
+	}
+	r = results.BigramFrequencies.GetBigram(b1).Frequency
+	e = 4
+	if r != e {
+		t.Error("TestAddResults, bigram count expected ", e, " got, ", r)
 	}
 }
