@@ -25,9 +25,12 @@ func (results *CollectionAResults) AddResults(more CollectionAResults) {
     	results.Usage[k] = v
 	}
 	for k, v := range more.BigramFrequencies.BM {
-    	bf := results.BigramFrequencies.BM[k]
-    	bf.Frequency += v.Frequency
-    	results.BigramFrequencies.BM[k] = bf
+    	if bf, ok := results.BigramFrequencies.BM[k]; ok {
+    		bf.Frequency += v.Frequency
+    		results.BigramFrequencies.BM[k] = bf
+    	} else {
+    		results.BigramFrequencies.BM[k] = v
+    	}
 	}
 	results.WC += more.WC
 	for k, v := range more.UnknownChars {
