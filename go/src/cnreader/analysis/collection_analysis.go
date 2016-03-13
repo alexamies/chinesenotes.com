@@ -12,6 +12,7 @@ type CollectionAResults struct {
 	Vocab map[string]int
 	Usage map[string]string
 	BigramFrequencies ngram.BigramFreqMap
+	Collocations ngram.CollocationMap
 	WC int
 	UnknownChars map[string]int
 }
@@ -21,18 +22,17 @@ func (results *CollectionAResults) AddResults(more CollectionAResults) {
 	for k, v := range more.Vocab {
     	results.Vocab[k] += v
 	}
+
 	for k, v := range more.Usage {
     	results.Usage[k] = v
 	}
-	for k, v := range more.BigramFrequencies.BM {
-    	if bf, ok := results.BigramFrequencies.BM[k]; ok {
-    		bf.Frequency += v.Frequency
-    		results.BigramFrequencies.BM[k] = bf
-    	} else {
-    		results.BigramFrequencies.BM[k] = v
-    	}
-	}
+
+	results.BigramFrequencies.Merge(more.BigramFrequencies)
+
+	results.Collocations.MergeCollocationMap(more.Collocations)
+
 	results.WC += more.WC
+
 	for k, v := range more.UnknownChars {
     	results.UnknownChars[k] += v
 	}

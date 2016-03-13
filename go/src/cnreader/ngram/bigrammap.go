@@ -1,5 +1,5 @@
 /*
-Library for sotring bigram frequencies in a map
+Library for storing bigram frequencies in a map
 */
 package ngram
 
@@ -10,28 +10,48 @@ type BigramFreq struct {
 }
 
 // Map of the frequency of occurence of a bigram in a collection of texts
-type BigramFreqMap struct {
-	BM map[string]BigramFreq
+type BigramFreqMap map[string]BigramFreq
+
+// Put the bigram in the bigram frequency map
+func (bfmPtr *BigramFreqMap) GetBigram(bigram Bigram) BigramFreq {
+	bfm := *bfmPtr
+	return bfm[bigram.String()]
+}
+
+// Merge another bigram frequency map
+func (bfmPtr *BigramFreqMap) Merge(more BigramFreqMap) {
+	bfm := *bfmPtr
+	for k, v := range more {
+    	if bf, ok := bfm[k]; ok {
+    		bf.Frequency += v.Frequency
+    		bfm[k] = bf
+    	} else {
+    		bfm[k] = v
+    	}
+	}
 }
 
 // Put the bigram in the bigram frequency map
-func (bfm *BigramFreqMap) GetBigram(bigram Bigram) BigramFreq {
-	return bfm.BM[bigram.String()]
-}
-
-// Constructore
-func NewBigramFreqMap() *BigramFreqMap {
-	return &BigramFreqMap{map[string]BigramFreq{}}
-}
-
-// Put the bigram in the bigram frequency map
-func (bfm *BigramFreqMap) PutBigram(bigram Bigram) {
+func (bfmPtr *BigramFreqMap) PutBigram(bigram Bigram) {
 	if !bigram.ContainsFunctionWord() {
-		if bf, ok := bfm.BM[bigram.String()]; !ok {
-			bfm.BM[bigram.String()] = BigramFreq{bigram, 1}
+		bfm := *bfmPtr
+		if bf, ok := bfm[bigram.String()]; !ok {
+			bfm[bigram.String()] = BigramFreq{bigram, 1}
 		} else {
 			bf.Frequency++
-			bfm.BM[bigram.String()] = bf
+			bfm[bigram.String()] = bf
 		}
+	}
+}
+
+// Put the bigram in the bigram frequency map
+func (bfmPtr *BigramFreqMap) PutBigramFreq(bigramFreq BigramFreq) {
+	bfm := *bfmPtr
+	key := bigramFreq.BigramVal.String()
+	if bf, ok := bfm[key]; !ok {
+		bfm[key] = bigramFreq
+	} else {
+		bf.Frequency += bigramFreq.Frequency
+		bfm[key] = bf
 	}
 }

@@ -14,7 +14,7 @@ type SortedBFM struct {
 }
 
 func (sbf *SortedBFM) Len() int {
-	return len(sbf.bfm.BM)
+	return len(sbf.bfm)
 }
 
 func (sbf *SortedBFM) Less(i, j int) bool {
@@ -33,10 +33,10 @@ func (sbf *SortedBFM) Swap(i, j int) {
 func SortedFreq(bfm BigramFreqMap) []BigramFreq {
 	sortedBFM := new(SortedBFM)
 	sortedBFM.bfm = bfm
-	sortedBFM.f = make([]BigramFreq, len(bfm.BM))
+	sortedBFM.f = make([]BigramFreq, len(bfm))
 	i := 0
-	for key, _ := range bfm.BM {
-		sortedBFM.f[i] = sortedBFM.bfm.BM[key]
+	for key, _ := range bfm {
+		sortedBFM.f[i] = sortedBFM.bfm[key]
 		i++
 	}
 	sort.Sort(sortedBFM)

@@ -59,6 +59,7 @@ type CorpusEntryContent struct {
 type DictEntry struct {
 	Headword dictionary.HeadwordDef
 	Contains []dictionary.HeadwordDef
+	Collocations []ngram.BigramFreq
 	UsageArr []WordUsage
 	DateUpdated string
 }
@@ -137,11 +138,12 @@ func GetChunks(text string) (list.List) {
 	return chunks
 }
 
-// Compute word frequencies for entire corpus
+// Compute word frequencies, collocations, and usage for the entire corpus
 func GetWordFrequencies() (map[string]*[]WordUsage,
-		map[*CorpusWord]CorpusWordFreq, map[string]int) {
+		map[*CorpusWord]CorpusWordFreq, map[string]int, ngram.CollocationMap) {
 
 	// Overall word frequencies per corpus
+	collocations := ngram.CollocationMap{}
 	usageMap := map[string]*[]WordUsage{}
 	wcTotal := map[string]int{}
 	wfTotal := map[*CorpusWord]CorpusWordFreq{}
@@ -158,6 +160,11 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 			text := ReadText(src)
 			_, results := ParseText(text, &entry)
 			wcTotal[col.Corpus] += results.WC
+
+			// Process collocations
+			collocations.MergeCollocationMap(results.Collocations)
+
+			// Find word usage for the given word
 			for word, count := range results.Vocab {
 				cw := &CorpusWord{col.Corpus, word}
 				cwf := &CorpusWordFreq{col.Corpus, word, count}					
@@ -187,7 +194,7 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 		log.Printf("WordFrequencies: Total word count for corpus %s: %d\n",
 			corpus, count)
 	}
-	return usageMap, wfTotal, wcTotal
+	return usageMap, wfTotal, wcTotal, collocations
 }
 
 // Constructs a hyperlink for a headword, including Pinyin and English in the
@@ -208,7 +215,8 @@ func hyperlink(entry dictionary.WordSenseEntry, text string) string {
 // usage
 func ParseText(text string, document *corpus.CorpusEntry) (tokens list.List, results CollectionAResults) {
 	vocab := map[string]int{}
-	bigramMap := ngram.NewBigramFreqMap()
+	bigramMap := ngram.BigramFreqMap{}
+	collocations := ngram.CollocationMap{}
 	unknownChars := map[string]int{}
 	usage := map[string]string{}
 	wc := 0
@@ -258,6 +266,8 @@ func ParseText(text string, document *corpus.CorpusEntry) (tokens list.List, res
 							ExColTitle: "",
 						}
 						bigramMap.PutBigram(bigram)
+						collocations.PutBigram(bigram.HeadwordDef1.Id, bigram)
+						collocations.PutBigram(bigram.HeadwordDef2.Id, bigram)
 					}
 					lastHW = hw
 				} else if (utf8.RuneCountInString(w) == 1) {
@@ -272,7 +282,8 @@ func ParseText(text string, document *corpus.CorpusEntry) (tokens list.List, res
 	results = CollectionAResults {
 		Vocab: vocab,
 		Usage: usage,
-		BigramFrequencies: *bigramMap,
+		BigramFrequencies: bigramMap,
+		Collocations: collocations,
 		WC: wc,
 		UnknownChars: unknownChars,
 	}
@@ -340,7 +351,7 @@ func ReadText(filename string) (string) {
 
 // Write out word frequencies and example use for the entire corpus
 func WordFrequencies() {
-	usageMap, wfTotal, wcTotal := GetWordFrequencies()
+	usageMap, wfTotal, wcTotal, _ := GetWordFrequencies()
 	outfile := config.ProjectHome() + "/data/" + UNIGRAM_FILE
 	f, err := os.Create(outfile)
 	if err != nil {
@@ -614,7 +625,7 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 func WriteHwFiles() {
 	log.Printf("analysis.WriteHwFiles: Begin +++++++++++\n")
 	hwArray := dictionary.GetHeadwords()
-	usageMap, _, _ := GetWordFrequencies()
+	usageMap, _, _, collocations := GetWordFrequencies()
 	dateUpdated := time.Now().Format("2006-01-02")
 
 	// Prepare template
@@ -630,6 +641,9 @@ func WriteHwFiles() {
 
 		// Words that contain this word
 		contains := dictionary.ContainsWord(hw.Simplified, hwArray)
+
+		// Sorted array of collocations
+		wordCollocations := collocations.SortedCollocations(hw.Id)
 
 		// Combine usage arrays for both simplified and traditional characters
 		usageArrPtr, ok := usageMap[hw.Simplified]
@@ -667,7 +681,13 @@ func WriteHwFiles() {
 			hlUsageArr = append(hlUsageArr, hlWU)
 		}
 
-		dictEntry := DictEntry{hw, contains, hlUsageArr, dateUpdated}
+		dictEntry := DictEntry{
+			Headword: hw,
+			Contains: contains,
+			Collocations: wordCollocations,
+			UsageArr: hlUsageArr,
+			DateUpdated: dateUpdated,
+		}
 		filename := fmt.Sprintf("%s%s%d%s", config.ProjectHome(), "/web/words/",
 			hw.Id, ".html")
 		f, err := os.Create(filename)

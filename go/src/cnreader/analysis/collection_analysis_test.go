@@ -52,13 +52,13 @@ func TestAddResults(t *testing.T) {
 		ExDocTitle: "",
 		ExColTitle: "",
 	}
-	bm := ngram.NewBigramFreqMap()
+	bm := ngram.BigramFreqMap{}
 	bm.PutBigram(b1)
 	bm.PutBigram(b1)
 	results := CollectionAResults{
 		Vocab: vocab,
 		Usage: usage,
-		BigramFrequencies: *bm,
+		BigramFrequencies: bm,
 		WC: 3,
 		UnknownChars: unknown,
 	}
@@ -86,7 +86,7 @@ func TestAddResults(t *testing.T) {
 		ExDocTitle: "",
 		ExColTitle: "",
 	}
-	bm2 := ngram.NewBigramFreqMap()
+	bm2 := ngram.BigramFreqMap{}
 	bm2.PutBigram(b1)
 	bm2.PutBigram(b1)
 	bm2.PutBigram(b2)
@@ -94,7 +94,7 @@ func TestAddResults(t *testing.T) {
 	more := CollectionAResults{
 		Vocab: moreVocab,
 		Usage: moreUsage,
-		BigramFrequencies: *bm2,
+		BigramFrequencies: bm2,
 		WC: 4,
 		UnknownChars: unknown1,
 	}

@@ -46,7 +46,7 @@ func TestSortedBFM(t *testing.T) {
 		ExDocTitle: "",
 		ExColTitle: "",
 	}
-	bm := NewBigramFreqMap()
+	bm := BigramFreqMap{}
 	bm.PutBigram(b1)
 	bm.PutBigram(b1)
 	ws3 := dictionary.WordSenseEntry{
@@ -72,7 +72,7 @@ func TestSortedBFM(t *testing.T) {
 		ExColTitle: "",
 	}
 	bm.PutBigram(b2)
-	sbf := SortedFreq(*bm)
+	sbf := SortedFreq(bm)
 	r1 := len(sbf)
 	e1 := 2
 	if r1 != e1 {

@@ -204,6 +204,37 @@
         </table>
         {{ end }}
 
+        {{ if .Collocations }}
+        <h3>Collocations</h3>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr><th>Simplified</th><th>Traditional</th><th>Example</th><th>Example Reference</th><th>Frequency</th></tr>
+          </thead>
+          <tbody>
+          {{ range $c := .Collocations }}
+            <tr>
+              <td>
+                {{ $c.BigramVal.Simplified }}
+              </td>
+              <td>
+                {{ $c.BigramVal.Traditional }} 
+              </td>
+              <td>
+                {{ $c.BigramVal.Example }} 
+              </td>
+              <td>
+                 {{ $c.BigramVal.ExColTitle }}
+                 <a href="/{{ $c.BigramVal.ExFile }}">{{ $c.BigramVal.ExDocTitle }}</a>
+              </td>
+              <td>
+                {{ $c.Frequency }} 
+              </td>
+            </tr>
+          {{ end }}
+          </tbody>
+        </table>
+        {{ end }}
+
         {{ if .UsageArr }}
         <h3>Usage</h3>
         <p>Sampled for common words</p>

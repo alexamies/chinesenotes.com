@@ -49,7 +49,7 @@ func main() {
 		aResults := analysis.CollectionAResults{
 			Vocab: map[string]int{},
 			Usage: map[string]string{}, 
-			BigramFrequencies: *ngram.NewBigramFreqMap(),
+			BigramFrequencies: ngram.BigramFreqMap{},
 			WC: 0,
 			UnknownChars: map[string]int{},
 		}
