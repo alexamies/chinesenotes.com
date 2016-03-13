@@ -90,7 +90,7 @@ type HTMLContent struct {
       marked up text with links and highlight
 */
 func decodeUsageExample(usageText string, headword dictionary.HeadwordDef) string {
-	tokens, _ := ParseText(usageText, corpus.NewCorpusEntry())
+	tokens, _ := ParseText(usageText, "", corpus.NewCorpusEntry())
 	replacementText := ""
 	for e := tokens.Front(); e != nil; e = e.Next() {
 		word := e.Value.(string)
@@ -158,7 +158,7 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 		for _, entry := range corpusEntries {
 			src := corpusDir + entry.RawFile
 			text := ReadText(src)
-			_, results := ParseText(text, &entry)
+			_, results := ParseText(text, col.Title, &entry)
 			wcTotal[col.Corpus] += results.WC
 
 			// Process collocations
@@ -208,12 +208,13 @@ func hyperlink(entry dictionary.WordSenseEntry, text string) string {
 // Parses a Chinese text into words
 // Parameters:
 // text: the string to parse
+// ColTitle: Optional parameter used for tracing collocation usage
+// document: Optional parameter used for tracing collocation usage
 // Returns:
 // tokens: the tokens for the parsed text
 // results: vocabulary analysis results
-// document: Optional parameter used for tracing bigrams
-// usage
-func ParseText(text string, document *corpus.CorpusEntry) (tokens list.List, results CollectionAResults) {
+func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
+		tokens list.List, results CollectionAResults) {
 	vocab := map[string]int{}
 	bigramMap := ngram.BigramFreqMap{}
 	collocations := ngram.CollocationMap{}
@@ -263,7 +264,7 @@ func ParseText(text string, document *corpus.CorpusEntry) (tokens list.List, res
 							Example: chunk,
 							ExFile: document.GlossFile,
 							ExDocTitle: document.Title,
-							ExColTitle: "",
+							ExColTitle: colTitle,
 						}
 						bigramMap.PutBigram(bigram)
 						collocations.PutBigram(bigram.HeadwordDef1.Id, bigram)
