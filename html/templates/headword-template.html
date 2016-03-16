@@ -181,9 +181,7 @@
               <td>
                 <a href='/words/{{$w.Id}}.html'>{{ $w.Simplified }}</a>
               </td>
-              <td>
-                {{ $w.Traditional }} 
-              </td>
+              <td>{{if ne .Traditional "\\N"}}{{.Traditional}}{{end}}</td>
               <td>
                 {{ range $p := $w.Pinyin }} {{ $p }} {{ end }}
               </td>
