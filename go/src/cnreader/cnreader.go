@@ -50,6 +50,7 @@ func main() {
 			Vocab: map[string]int{},
 			Usage: map[string]string{}, 
 			BigramFrequencies: ngram.BigramFreqMap{},
+			Collocations: ngram.CollocationMap{},
 			WC: 0,
 			UnknownChars: map[string]int{},
 		}
