@@ -42,6 +42,9 @@ var wdict map[string][]*WordSenseEntry
 // Map of parts of speech that distinguish words as function words
 var functionPOS map[string]bool
 
+// Map of words that are function words regardless of PoS
+var functionalWords map[string]bool
+
 func init() {
 	functionPOS = map[string]bool{
 		"adverb": true,
@@ -55,6 +58,13 @@ func init() {
 		"pronoun": true,
 		"suffix": true,
 	}	
+	functionalWords = map[string]bool{
+		"有": true,
+		"是": true,
+		"诸": true,
+		"故": true,
+		"出": true,
+	}
 }
 
 // Get a list of words that containst the given word
@@ -159,7 +169,7 @@ func IsCJKChar(character string) bool {
 
 // Tests whether the word is a function word
 func (ws *WordSenseEntry) IsFunctionWord() bool {
-	return functionPOS[ws.Grammar]
+	return functionalWords[ws.Simplified] || functionPOS[ws.Grammar]
 }
 
 // Reads the Chinese-English lexical units into memory from the words.txt file

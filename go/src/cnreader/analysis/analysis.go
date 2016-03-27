@@ -44,6 +44,7 @@ type AnalysisResults struct {
 	Title string
 	WC, UniqueWords int
 	WordFrequencies []WFResult
+	LexicalWordFreq []WFResult
 	BigramFreqSorted []ngram.BigramFreq
 	UnkownnChars []SortedWordItem
 	DateUpdated string
@@ -389,24 +390,9 @@ func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
 
 	// Parse template and organize template parameters
 	sortedWords := SortedFreq(results.Vocab)
-	wfResults := make([]WFResult, 0)
+	wfResults := results.GetWordFreq(sortedWords)
+	lexicalWordFreq := results.GetLexicalWordFreq(sortedWords)
 	sortedUnknownWords := SortedFreq(results.UnknownChars)
-
-	// Truncate sorted words
-	maxWFOutput:= len(sortedWords)
-	if maxWFOutput > MAX_WF_OUTPUT {
-		maxWFOutput = MAX_WF_OUTPUT
-	}
-	for _, value := range sortedWords[:maxWFOutput] {
-		ws, _ := dictionary.GetWordSense(value.Word)
-		wfResults = append(wfResults, WFResult{
-			Freq: value.Freq,
-			HeadwordId: ws.HeadwordId,
-			Chinese: value.Word,
-			Pinyin: ws.Pinyin, 
-			English: ws.English, 
-			Usage: results.Usage[value.Word]})
-	}
 
 	// Bigrams, also truncated
 	bFreq := ngram.SortedFreq(results.BigramFrequencies)
@@ -416,20 +402,17 @@ func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	}
 
 	dateUpdated := time.Now().Format("2006-01-02")
-	maxUnkownOutput := len(results.UnknownChars)
-	if maxUnkownOutput > MAX_UNKOWN_OUTPUT {
-		maxUnkownOutput = MAX_UNKOWN_OUTPUT
-	}
 	title := "Vocabulary Analysis for " + collectionTitle + ", " + docTitle
 	aResults := AnalysisResults{
 		Title: title,
 		WC: results.WC, 
 		UniqueWords: len(results.Vocab),
 		WordFrequencies: wfResults,
+		LexicalWordFreq: lexicalWordFreq,
 		BigramFreqSorted: bFreq[:maxBFOutput],
 		UnkownnChars: sortedUnknownWords, 
 		DateUpdated: dateUpdated, 
-		MaxWFOutput: maxWFOutput,
+		MaxWFOutput: len(wfResults),
 	}
 	tmplFile := config.TemplateDir() + "/corpus-analysis-template.html"
 	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles(tmplFile)

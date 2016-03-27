@@ -143,3 +143,59 @@ func TestAddResults(t *testing.T) {
 			" got, ", rTrad2)
 	}
 }
+
+// Test sorting of word frequencies
+func TestGetLexicalWordFreq0(t *testing.T) {
+
+	// Test setup
+	vocab := map[string]int{"one":1, "three":3, "two":2}
+	usage := map[string]string {"one": "one banana"}
+	unknown := map[string]int{"x":1}
+	sortedWords := []SortedWordItem{}
+	bm := ngram.BigramFreqMap{}
+	results := CollectionAResults{
+		Vocab: vocab,
+		Usage: usage,
+		BigramFrequencies: bm,
+		WC: 3,
+		UnknownChars: unknown,
+	}
+
+	// Method to test
+	lexicalWF := results.GetLexicalWordFreq(sortedWords)
+
+	// Check results
+	r := len(lexicalWF)
+	e := 0
+	if r != e {
+		t.Error("TestGetLexicalWordFreq0, expected ", e, " got, ", r)
+	}
+}
+
+// Test sorting of word frequencies
+func TestGetWordFreq0(t *testing.T) {
+
+	// Test setup
+	vocab := map[string]int{"one":1, "three":3, "two":2}
+	usage := map[string]string {"one": "one banana"}
+	unknown := map[string]int{"x":1}
+	sortedWords := []SortedWordItem{}
+	bm := ngram.BigramFreqMap{}
+	results := CollectionAResults{
+		Vocab: vocab,
+		Usage: usage,
+		BigramFrequencies: bm,
+		WC: 3,
+		UnknownChars: unknown,
+	}
+
+	// Method to test
+	lexicalWF := results.GetWordFreq(sortedWords)
+
+	// Check results
+	r := len(lexicalWF)
+	e := 0
+	if r != e {
+		t.Error("TestGetLexicalWordFreq0, expected ", e, " got, ", r)
+	}
+}
