@@ -402,7 +402,7 @@ func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	}
 
 	dateUpdated := time.Now().Format("2006-01-02")
-	title := "Vocabulary Analysis for " + collectionTitle + ", " + docTitle
+	title := "Content Analysis for " + collectionTitle + ", " + docTitle
 	aResults := AnalysisResults{
 		Title: title,
 		WC: results.WC, 
