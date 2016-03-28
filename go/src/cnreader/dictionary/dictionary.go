@@ -64,7 +64,7 @@ func init() {
 		"诸": true,
 		"故": true,
 		"出": true,
-		"當": true,
+		"当": true,
 		"若": true,
 		"如": true,
 	}
