@@ -9,7 +9,6 @@ import (
 	"cnreader/config"
 	"cnreader/corpus"
 	"cnreader/dictionary"
-	"cnreader/ngram"
 	"log"
 )
 
@@ -46,14 +45,7 @@ func main() {
 		}
 		corpusEntries := corpus.CorpusEntries(config.CorpusDataDir() + "/" +
 			*collectionFile)
-		aResults := analysis.CollectionAResults{
-			Vocab: map[string]int{},
-			Usage: map[string]string{}, 
-			BigramFrequencies: ngram.BigramFreqMap{},
-			Collocations: ngram.CollocationMap{},
-			WC: 0,
-			UnknownChars: map[string]int{},
-		}
+		aResults := analysis.NewCollectionAResults()
 		for _, entry := range corpusEntries {
 			src := config.CorpusDir() + "/" + entry.RawFile
 			dest := config.WebDir() + "/" + entry.GlossFile

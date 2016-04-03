@@ -45,22 +45,6 @@ func TestIsCJKChar1(t *testing.T) {
 	}
 }
 
-// Tests whether the word is a function word
-func TestIsFunctionWord(t *testing.T) {
-	ws1 := WordSenseEntry{
-		Id: 1,
-		Simplified: "蓝", 
-		Traditional: "藍",
-		Pinyin: "lán",
-		Grammar: "adjective",
-	}
-	result := ws1.IsFunctionWord()
-	expected := false
-	if result != expected {
-		t.Error("TestIsFunctionWord: Expected ", expected, ", got ", result)
-	}
-}
-
 // Non-Chinese
 func TestIsCJKChar2(t *testing.T) {
 	c := "a"
@@ -118,6 +102,70 @@ func TestIsCJKChar7(t *testing.T) {
 	if result {
 		fmt.Printf("TestIsCJKChar7: Testing Chinese %s\n", c)
 		t.Error("Expected false, got ", result)
+	}
+}
+
+// Tests whether the word is a function word
+func TestIsFunctionWord(t *testing.T) {
+	ws1 := WordSenseEntry{
+		Id: 1,
+		Simplified: "蓝", 
+		Traditional: "藍",
+		Pinyin: "lán",
+		Grammar: "adjective",
+	}
+	result := ws1.IsFunctionWord()
+	expected := false
+	if result != expected {
+		t.Error("TestIsFunctionWord: Expected ", expected, ", got ", result)
+	}
+}
+
+// Tests whether the word is a function word
+func TestIsNumericExpression1(t *testing.T) {
+	ws1 := WordSenseEntry{
+		Id: 1,
+		Simplified: "三", 
+		Traditional: "\\N",
+		Pinyin: "sān",
+		Grammar: "number",
+	}
+	result := ws1.IsNumericExpression()
+	expected := true
+	if result != expected {
+		t.Error("TestIsNumericExpression1: Expected ", expected, ", got ", result)
+	}
+}
+
+// Tests whether the word is a function word
+func TestIsNumericExpression2(t *testing.T) {
+	ws1 := WordSenseEntry{
+		Id: 1,
+		Simplified: "三个人", 
+		Traditional: "\\N",
+		Pinyin: "sān gè rén",
+		Grammar: "phrase",
+	}
+	result := ws1.IsNumericExpression()
+	expected := true
+	if result != expected {
+		t.Error("TestIsNumericExpression2: Expected ", expected, ", got ", result)
+	}
+}
+
+// Tests whether the word is a function word
+func TestIsProperNoun(t *testing.T) {
+	ws1 := WordSenseEntry{
+		Id: 1,
+		Simplified: "蓝", 
+		Traditional: "藍",
+		Pinyin: "lán",
+		Grammar: "adjective",
+	}
+	result := ws1.IsProperNoun()
+	expected := false
+	if result != expected {
+		t.Error("TestIsProperNoun: Expected ", expected, ", got ", result)
 	}
 }
 

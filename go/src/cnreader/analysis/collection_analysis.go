@@ -4,6 +4,7 @@ CollectionAResults type for vocabulary analysis of a collection of texts
 package analysis
 
 import (
+	"cnreader/alignment"
 	"cnreader/dictionary"
 	"cnreader/ngram"
 )
@@ -14,6 +15,7 @@ type CollectionAResults struct {
 	Usage map[string]string
 	BigramFrequencies ngram.BigramFreqMap
 	Collocations ngram.CollocationMap
+	CollectionCogs []alignment.CorpEntryCognates
 	WC int
 	UnknownChars map[string]int
 }
@@ -32,6 +34,11 @@ func (results *CollectionAResults) AddResults(more CollectionAResults) {
 	results.BigramFrequencies.Merge(more.BigramFrequencies)
 
 	results.Collocations.MergeCollocationMap(more.Collocations)
+
+	if len(more.CollectionCogs) > 0 {
+		results.CollectionCogs = append(results.CollectionCogs,
+			more.CollectionCogs[0])
+	}
 
 	results.WC += more.WC
 
@@ -83,4 +90,17 @@ func (results *CollectionAResults) GetWordFreq(sortedWords []SortedWordItem) []W
 			Usage: results.Usage[value.Word]})
 	}
 	return wfResults
+}
+
+// Constructor for empty CollectionAResults
+func NewCollectionAResults() CollectionAResults {
+	return CollectionAResults{
+		Vocab: map[string]int{},
+		Usage: map[string]string{}, 
+		BigramFrequencies: ngram.BigramFreqMap{},
+		Collocations: ngram.CollocationMap{},
+		CollectionCogs: []alignment.CorpEntryCognates{},
+		WC: 0,
+		UnknownChars: map[string]int{},
+	}
 }

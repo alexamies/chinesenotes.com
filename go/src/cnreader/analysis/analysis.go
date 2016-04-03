@@ -6,6 +6,7 @@ package analysis
 import (
 	"bufio"
 	"bytes"
+	"cnreader/alignment"
 	"cnreader/config"
 	"cnreader/corpus"
 	"cnreader/dictionary"
@@ -43,6 +44,7 @@ const MAX_TITLE = 10
 type AnalysisResults struct {
 	Title string
 	WC, UniqueWords int
+	Cognates []alignment.CorpEntryCognates
 	WordFrequencies []WFResult
 	LexicalWordFreq []WFResult
 	BigramFreqSorted []ngram.BigramFreq
@@ -219,6 +221,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	vocab := map[string]int{}
 	bigramMap := ngram.BigramFreqMap{}
 	collocations := ngram.CollocationMap{}
+	corpEntryCogs := alignment.NewCorpEntryCognates()
 	unknownChars := map[string]int{}
 	usage := map[string]string{}
 	wc := 0
@@ -272,6 +275,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 						collocations.PutBigram(bigram.HeadwordDef2.Id, bigram)
 					}
 					lastHW = hw
+					corpEntryCogs.AddCognate(wsArray[0])
 				} else if (utf8.RuneCountInString(w) == 1) {
 					//log.Printf("ParseText: found unknown character %s\n", w)
 					unknownChars[w]++
@@ -281,11 +285,14 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 			}
 		}
 	}
+	collectionCogs := []alignment.CorpEntryCognates{}
+	collectionCogs = append(collectionCogs, corpEntryCogs)
 	results = CollectionAResults {
 		Vocab: vocab,
 		Usage: usage,
 		BigramFrequencies: bigramMap,
 		Collocations: collocations,
+		CollectionCogs: collectionCogs,
 		WC: wc,
 		UnknownChars: unknownChars,
 	}
@@ -405,7 +412,8 @@ func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	title := "Content Analysis for " + collectionTitle + ", " + docTitle
 	aResults := AnalysisResults{
 		Title: title,
-		WC: results.WC, 
+		WC: results.WC,
+		Cognates: results.CollectionCogs,
 		UniqueWords: len(results.Vocab),
 		WordFrequencies: wfResults,
 		LexicalWordFreq: lexicalWordFreq,

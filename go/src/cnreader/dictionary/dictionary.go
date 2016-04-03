@@ -166,13 +166,33 @@ func GetWDict() map[string][]*WordSenseEntry {
 // Only looks at the first charater in the string
 func IsCJKChar(character string) bool {
 	r := []rune(character)
-	unicode.Is(unicode.Han, r[0])
 	return unicode.Is(unicode.Han, r[0]) && !unicode.IsPunct(r[0])
 }
 
 // Tests whether the word is a function word
 func (ws *WordSenseEntry) IsFunctionWord() bool {
 	return functionalWords[ws.Simplified] || functionPOS[ws.Grammar]
+}
+
+// Tests whether the word string contains a number
+func (ws *WordSenseEntry) IsNumericExpression() bool {
+	if ws.Grammar == "number" {
+		return true
+	}
+	if ws.Grammar == "phrase" ||  ws.Grammar == "set phrase" {
+		for _, r := range []rune(ws.Simplified) {
+			wsChar := wdict[string(r)]
+			if wsChar[0].Grammar == "number" {
+				return true
+			}
+		}
+	}
+	return false
+}
+
+// Tests whether the word is a function word
+func (ws *WordSenseEntry) IsProperNoun() bool {
+	return ws.Grammar == "proper noun"
 }
 
 // Reads the Chinese-English lexical units into memory from the words.txt file
