@@ -192,6 +192,9 @@ func (ws *WordSenseEntry) IsNumericExpression() bool {
 
 // Tests whether the word is a function word
 func (ws *WordSenseEntry) IsProperNoun() bool {
+	if wsArray, ok := wdict[ws.Simplified]; ok {
+		return len(wsArray) == 1 && ws.Grammar == "proper noun"
+	}
 	return ws.Grammar == "proper noun"
 }
 

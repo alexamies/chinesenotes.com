@@ -221,7 +221,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	vocab := map[string]int{}
 	bigramMap := ngram.BigramFreqMap{}
 	collocations := ngram.CollocationMap{}
-	corpEntryCogs := alignment.NewCorpEntryCognates()
+	corpEntryCogs := alignment.NewCorpEntryCognates(*document)
 	unknownChars := map[string]int{}
 	usage := map[string]string{}
 	wc := 0

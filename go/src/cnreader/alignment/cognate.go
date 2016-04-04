@@ -20,8 +20,7 @@ type CorpEntryCognates struct {
 }
 
 // Constructor
-func NewCorpEntryCognates() CorpEntryCognates {
-	corpusEntry := corpus.CorpusEntry{}
+func NewCorpEntryCognates(corpusEntry corpus.CorpusEntry) CorpEntryCognates {
 	properNouns := []dictionary.WordSenseEntry{}
 	pnMap := map[string]bool{}
 	numericExp := []dictionary.WordSenseEntry{}
