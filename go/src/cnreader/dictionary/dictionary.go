@@ -190,10 +190,18 @@ func (ws *WordSenseEntry) IsNumericExpression() bool {
 	return false
 }
 
-// Tests whether the word is a function word
+// IsProperNoun tests whether the word is a function word.
+// If the majority of word senses are proper nouns, then the word is marked
+// as a proper noun.
 func (ws *WordSenseEntry) IsProperNoun() bool {
 	if wsArray, ok := wdict[ws.Simplified]; ok {
-		return len(wsArray) == 1 && ws.Grammar == "proper noun"
+		count := 0
+		for _, s := range wsArray {
+			if s.Grammar == "proper noun" {
+				count++
+			}
+		}
+		return float64(count) / float64(len(wsArray)) > 0.5
 	}
 	return ws.Grammar == "proper noun"
 }
