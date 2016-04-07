@@ -153,8 +153,8 @@ func TestIsNumericExpression2(t *testing.T) {
 	}
 }
 
-// Tests whether the word is a function word
-func TestIsProperNoun(t *testing.T) {
+// Tests whether the word is a proper noun
+func TestIsProperNoun1(t *testing.T) {
 	ws1 := WordSenseEntry{
 		Id: 1,
 		Simplified: "蓝", 
@@ -165,7 +165,23 @@ func TestIsProperNoun(t *testing.T) {
 	result := ws1.IsProperNoun()
 	expected := false
 	if result != expected {
-		t.Error("TestIsProperNoun: Expected ", expected, ", got ", result)
+		t.Error("TestIsProperNoun1: Expected ", expected, ", got ", result)
+	}
+}
+
+// Tests whether a word with multiple senses is a proper noun
+func TestIsProperNoun2(t *testing.T) {
+	ws1 := WordSenseEntry{
+		Id: 1,
+		Simplified: "佛", 
+		Traditional: "\\N",
+		Pinyin: "Fó",
+		Grammar: "proper noun",
+	}
+	result := ws1.IsProperNoun()
+	expected := true
+	if result != expected {
+		t.Error("TestIsProperNoun2: Expected ", expected, ", got ", result)
 	}
 }
 
