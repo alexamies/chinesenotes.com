@@ -107,3 +107,8 @@ span.dict-entry-notes {
 span.usage-highlight {
     color: red;
 }
+
+/* Different color for proper nouns in texts */
+a.propernoun {
+    color: blue;
+}
