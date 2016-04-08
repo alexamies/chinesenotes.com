@@ -110,5 +110,6 @@ span.usage-highlight {
 
 /* Different color for proper nouns in texts */
 a.propernoun {
+    text-decoration: underline;
     color: blue;
 }
