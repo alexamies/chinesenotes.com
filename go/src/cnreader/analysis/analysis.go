@@ -390,6 +390,60 @@ func WordFrequencies() {
 	w.Flush()
 }
 
+// Writes out an analysis of the entire corpus, including word frequencies
+// and other data. The output file is called 'corpus-analysis.html' in the
+// web/analysis directory.
+// results: The results of corpus analysis
+// Returns the name of the file written to
+func writeAnalysisCorpus(results CollectionAResults) string {
+
+	// Parse template and organize template parameters
+	sortedWords := SortedFreq(results.Vocab)
+	wfResults := results.GetWordFreq(sortedWords)
+	lexicalWordFreq := results.GetLexicalWordFreq(sortedWords)
+	sortedUnknownWords := SortedFreq(results.UnknownChars)
+
+	// Bigrams, also truncated
+	bFreq := ngram.SortedFreq(results.BigramFrequencies)
+	maxBFOutput:= len(bFreq)
+	if maxBFOutput > MAX_WF_OUTPUT {
+		maxBFOutput = MAX_WF_OUTPUT
+	}
+
+	dateUpdated := time.Now().Format("2006-01-02")
+	title := "Corpus Analysis"
+	aResults := AnalysisResults{
+		Title: title,
+		WC: results.WC,
+		Cognates: []alignment.CorpEntryCognates{},
+		UniqueWords: len(results.Vocab),
+		WordFrequencies: wfResults,
+		LexicalWordFreq: lexicalWordFreq,
+		BigramFreqSorted: bFreq[:maxBFOutput],
+		UnkownnChars: sortedUnknownWords, 
+		DateUpdated: dateUpdated, 
+		MaxWFOutput: len(wfResults),
+	}
+	tmplFile := config.TemplateDir() + "/corpus-analysis-template.html"
+	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles(tmplFile)
+	if err != nil { panic(err) }
+	if tmpl == nil {
+		log.Fatal("writeAnalysis: Template is nil", err)
+	}
+	basename := "corpus_analysis.html"
+	filename := config.ProjectHome() + "/web/analysis/" + basename
+	f, err := os.Create(filename)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer f.Close()
+	w := bufio.NewWriter(f)
+	err = tmpl.Execute(w, aResults)
+	if err != nil { panic(err) }
+	w.Flush()
+	return basename
+}
+
 // Writes a document with vocabulary analysis of the text. The name of the
 // output file will be source file with '-analysis' appended, placed in the
 // web/analysis directory
@@ -397,7 +451,7 @@ func WordFrequencies() {
 // collectionTitle: The title of the whole colleciton
 // docTitle: The title of this specific document
 // Returns the name of the file written to
-func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
+func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 		docTitle string) string {
 
 	// Parse template and organize template parameters
@@ -431,7 +485,7 @@ func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles(tmplFile)
 	if err != nil { panic(err) }
 	if tmpl == nil {
-		log.Fatal("WriteAnalysis: Template is nil", err)
+		log.Fatal("writeAnalysis: Template is nil", err)
 	}
 
 	// Write output
@@ -441,7 +495,7 @@ func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
 		if i <= 0 {
 			i = strings.Index(srcFile, ".csv")
 			if i <= 0 {
-				log.Fatal("WriteAnalysis: Bad name for source file: ", srcFile)
+				log.Fatal("writeAnalysis: Bad name for source file: ", srcFile)
 			}
 		}
 	}
@@ -459,6 +513,55 @@ func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	return basename
 }
 
+// Writes a corpus document collection to HTML, including all the entries
+// contained in the collection
+// collectionEntry: the CollectionEntry struct
+func writeCollection(collectionEntry corpus.CollectionEntry) CollectionAResults {
+	corpusEntries := corpus.CorpusEntries(config.CorpusDataDir() + "/" +
+			collectionEntry.CollectionFile)
+	aResults := NewCollectionAResults()
+	for _, entry := range corpusEntries {
+		src := config.CorpusDir() + "/" + entry.RawFile
+		dest := config.WebDir() + "/" + entry.GlossFile
+		//log.Printf("analysis.writeCollection: input file: %s, output file:
+			//%s\n", src, dest)
+		text := ReadText(src)
+		tokens, results := ParseText(text, collectionEntry.Title, &entry)
+		aFile := writeAnalysis(results, entry.RawFile, collectionEntry.Title,
+			entry.Title)
+		writeCorpusDoc(tokens, results.Vocab, dest, collectionEntry.GlossFile,
+			collectionEntry.Title, aFile)
+		aResults.AddResults(results)
+	}
+	aFile := writeAnalysis(aResults, collectionEntry.CollectionFile,
+		collectionEntry.Title, "")
+	corpus.WriteCollectionFile(collectionEntry.CollectionFile, aFile)
+	log.Printf("analysis.writeCollection: completed: %s\n",
+		collectionEntry.CollectionFile)
+	return aResults
+}
+
+func WriteCorpusAll() {
+	collections := corpus.Collections()
+	aResults := NewCollectionAResults()
+	for _, collectionEntry := range collections {
+		results := writeCollection(collectionEntry)
+		aResults.AddResults(results)
+	}
+	writeAnalysisCorpus(aResults)
+}
+
+// Writes a corpus document collection to HTML, including all the entries
+// contained in the collection
+// collectionFile: the name of the collection file
+func WriteCorpusCol(collectionFile string) {
+	collectionEntry, err := corpus.GetCollectionEntry(collectionFile)
+	if err != nil {
+		log.Fatalf("analysis.WriteCorpusCol: fatal error %v", err)
+	}
+	writeCollection(collectionEntry)
+}
+
 // Writes a corpus document with markup for the array of tokens
 // tokens: A list of tokens forming the document
 // vocab: A list of word id's in the document
@@ -467,7 +570,7 @@ func WriteAnalysis(results CollectionAResults, srcFile, collectionTitle,
 // collectionURL: the URL of the collection that the corpus text belongs to
 // collectionTitle: The collection title that the corpus entry belongs to
 // aFile: The vocabulary analysis file written to or empty string for none
-func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
+func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	collectionURL string, collectionTitle string, aFile string) {
 
 	var b bytes.Buffer
@@ -485,13 +588,6 @@ func WriteCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 					wordIds = fmt.Sprintf("%s,%d", wordIds, ws.Id)
 				}
 			}
-			/*
-			// Popover
-			fmt.Fprintf(&buffer, "<span title='%s' data-wordid='%s'" +
-					" class='dict-entry' data-toggle='popover'>%s</span>",
-					chunk, wordIds, chunk)
-			*/
-			// Regular HTML link
 			fmt.Fprintf(&b, hyperlink(*entries[0], chunk))
 		} else {
 			b.WriteString(chunk)

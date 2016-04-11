@@ -30,15 +30,11 @@ go build
 mkdir $CNREADER_HOME/web/words
 ./cnreader -hwfiles
 
-##4 Compute word frequencies
+##5 Analyze the whole, including word frequencies and writing out docs to HTML
 cd $CNREADER_HOME/go/src/cnreader
-./cnreader.go -wf
+./cnreader.go
 
-###6 To enhance a single HTML file with Chinese word popovers
-./cnreader.go -infile=../../../web/classical_chinese-raw.html \
-   -outfile=../../../web/classical_chinese.html
-
-###7 To enhance all files listed in data/corpus/html-conversions.csv
+###6 To enhance all files listed in data/corpus/html-conversions.csv
 ./cnreader -html
 
 ###7 To enhance all files in the corpus file modern_articles.csv
@@ -72,3 +68,4 @@ cd $CNREADER_HOME/src/cnreader/analysis
 go test
 cd $CNREADER_HOME/src/cnreader/dictionary
 go test
+# Similarly for other packages

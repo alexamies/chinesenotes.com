@@ -302,15 +302,27 @@ func TestWriteAnalysis(t *testing.T) {
 	//log.Printf("TestWriteAnalysis: Begin +++++++++++\n")
 	_, results := ParseText("繁", "", corpus.NewCorpusEntry())
 	srcFile := "test.txt"
-	WriteAnalysis(results, srcFile, "Test Collection", "Test Doc")
+	writeAnalysis(results, srcFile, "Test Collection", "Test Doc")
 	//log.Printf("TestWriteAnalysis: End +++++++++++\n")
+}
+
+func TestWriteCorpusAll(t *testing.T) {
+	//log.Printf("TestWriteCorpusAll: Begin +++++++++++\n")
+	WriteCorpusAll()
+	//log.Printf("TestWriteCorpusAll: End +++++++++++\n")
+}
+
+func TestWriteCorpusCol(t *testing.T) {
+	//log.Printf("TestWriteCorpusCol: Begin +++++++++++\n")
+	WriteCorpusCol("taisho/t0099.csv")
+	//log.Printf("TestWriteCorpusCol: End +++++++++++\n")
 }
 
 func TestWriteCorpusDoc1(t *testing.T) {
 	//log.Printf("TestWriteCorpusDoc1: Begin +++++++++++\n")
 	tokens, results := ParseText("繁", "", corpus.NewCorpusEntry())
 	outfile := "../testoutput/output.html"
-	WriteCorpusDoc(tokens, results.Vocab, outfile, "", "", "")
+	writeCorpusDoc(tokens, results.Vocab, outfile, "", "", "")
 	//log.Printf("TestWriteCorpusDoc1: End +++++++++++\n")
 }
 

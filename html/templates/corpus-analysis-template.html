@@ -62,13 +62,14 @@
 
       <h3>Contents</h3>
       <ol>
-        <li><a href="#propernouns">Proper Nouns</a></li>
+        {{ if .Cognates }}<li><a href="#propernouns">Proper Nouns</a></li>{{ end }}
         <li><a href="#lexical">Frequencies of Lexical Words</a></li>
         <li><a href="#wf">Frequencies of all Words</a></li>
         <li><a href="#bigrams">Bigrams</a></li>
         <li><a href="#no-entry">Characters without Dictionary Entries</a></li>
       </ol>
 
+      {{ if .Cognates }}
       <h3 id="propernouns">Proper Nouns</h3>
       <table class="table table-bordered table-hover">
         <thead>
@@ -95,6 +96,7 @@
         {{ end }}
         </tbody>
       </table>
+      {{ end }}
 
       <h3 id="lexical">Frequencies of Lexical Words</h3>
       <table class="table table-bordered table-hover">

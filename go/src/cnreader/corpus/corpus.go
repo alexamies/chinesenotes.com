@@ -126,7 +126,7 @@ func NewCorpusEntry() *CorpusEntry {
 // Parameter
 // introFile: The name of the file introducing the collection
 func ReadIntroFile(introFile string) string {
-	log.Printf("ReadIntroFile: Reading introduction file.\n")
+	//log.Printf("ReadIntroFile: Reading introduction file.\n")
 	infile, err := os.Open(config.ProjectHome() + "/corpus/" + introFile)
 	if err != nil {
 		log.Fatal(err)
@@ -160,8 +160,8 @@ func WriteCollectionFile(collectionFile, analysisFile string) {
 		if entry.CollectionFile == collectionFile && entry.GlossFile != "\\N" {
 			outputFile := config.ProjectHome() + "/data/corpus/" +collectionFile
 			entry.CorpusEntries = CorpusEntries(outputFile)
-			log.Printf("WriteCollectionFile: Writing collection file %s\n",
-				outputFile)
+			//log.Printf("WriteCollectionFile: Writing collection file %s\n",
+			//	outputFile)
 			entry.AnalysisFile = analysisFile
 
 			// Write to file
@@ -176,7 +176,7 @@ func WriteCollectionFile(collectionFile, analysisFile string) {
 			entry.Intro = ReadIntroFile(entry.Intro)
 			entry.DateUpdated = time.Now().Format("2006-01-02")
 			templFile := config.TemplateDir() + "/collection-template.html"
-			log.Println("Home: ", config.ProjectHome())
+			//log.Println("Home: ", config.ProjectHome())
 			tmpl:= template.Must(template.New(
 					"collection-template.html").ParseFiles(templFile))
 			err = tmpl.Execute(w, entry)
