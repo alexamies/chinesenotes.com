@@ -401,7 +401,12 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 	sortedWords := SortedFreq(results.Vocab)
 	wfResults := results.GetWordFreq(sortedWords)
 	lexicalWordFreq := results.GetLexicalWordFreq(sortedWords)
+
 	sortedUnknownWords := SortedFreq(results.UnknownChars)
+	maxUnknown := len(sortedUnknownWords)
+	if maxUnknown > MAX_UNKOWN_OUTPUT {
+		maxUnknown = MAX_UNKOWN_OUTPUT
+	}
 
 	// Bigrams, also truncated
 	bFreq := ngram.SortedFreq(results.BigramFrequencies)
@@ -420,7 +425,7 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 		WordFrequencies: wfResults,
 		LexicalWordFreq: lexicalWordFreq,
 		BigramFreqSorted: bFreq[:maxBFOutput],
-		UnkownnChars: sortedUnknownWords, 
+		UnkownnChars: sortedUnknownWords[:maxUnknown],
 		DateUpdated: dateUpdated, 
 		MaxWFOutput: len(wfResults),
 	}
@@ -458,11 +463,16 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	sortedWords := SortedFreq(results.Vocab)
 	wfResults := results.GetWordFreq(sortedWords)
 	lexicalWordFreq := results.GetLexicalWordFreq(sortedWords)
+
 	sortedUnknownWords := SortedFreq(results.UnknownChars)
+	maxUnknown := len(sortedUnknownWords)
+	if maxUnknown > MAX_UNKOWN_OUTPUT {
+		maxUnknown = MAX_UNKOWN_OUTPUT
+	}
 
 	// Bigrams, also truncated
 	bFreq := ngram.SortedFreq(results.BigramFrequencies)
-	maxBFOutput:= len(bFreq)
+	maxBFOutput := len(bFreq)
 	if maxBFOutput > MAX_WF_OUTPUT {
 		maxBFOutput = MAX_WF_OUTPUT
 	}
@@ -477,7 +487,7 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 		WordFrequencies: wfResults,
 		LexicalWordFreq: lexicalWordFreq,
 		BigramFreqSorted: bFreq[:maxBFOutput],
-		UnkownnChars: sortedUnknownWords, 
+		UnkownnChars: sortedUnknownWords[:maxUnknown],
 		DateUpdated: dateUpdated, 
 		MaxWFOutput: len(wfResults),
 	}
