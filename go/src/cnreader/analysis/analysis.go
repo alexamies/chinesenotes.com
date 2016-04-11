@@ -503,7 +503,7 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	filename := config.ProjectHome() + "/web/analysis/" + basename
 	f, err := os.Create(filename)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("analysis.writeAnalysis", err)
 	}
 	defer f.Close()
 	w := bufio.NewWriter(f)
