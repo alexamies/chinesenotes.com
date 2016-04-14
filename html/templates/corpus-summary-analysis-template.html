@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Generated from the Go template corpus-analysis-template.html -->
+<!-- Generated from the Go template corpus-summary-analysis-template.html -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -65,6 +65,7 @@
         {{ if .Cognates }}<li><a href="#propernouns">Proper Nouns</a></li>{{ end }}
         <li><a href="#lexical">Frequencies of Lexical Words</a></li>
         <li><a href="#wf">Frequencies of all Words</a></li>
+        <li><a href="#genre">Frequencies of Lexical Words by Genre</a></li>
         <li><a href="#bigrams">Bigrams</a></li>
         <li><a href="#no-entry">Characters without Dictionary Entries</a></li>
       </ol>
@@ -146,6 +147,34 @@
         {{ end }}
         </tbody>
       </table>
+
+      <h3 id="genre">Frequencies of Lexical Words by Genre</h3>
+      <p>Top {{.MaxWFOutput}}</p>
+      {{ range $wordFreqByGenre := .ByGenre }}
+      <h4>{{ $wordFreqByGenre.Genre }}</h4>
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>Frequency</th>
+            <th>Chinese</th>
+            <th>Pinyin</th>
+            <th>English</th>
+            <th>Example Usage</th>
+          </tr>
+        </thead>
+        <tbody>
+        {{ range $wf := $wordFreqByGenre.WF }}
+          <tr>
+            <td>{{ $wf.Freq }}</td>
+            <td><a href="/words/{{$wf.HeadwordId}}.html">{{$wf.Chinese}}</a></td>
+            <td>{{ $wf.Pinyin }}</td>
+            <td>{{ $wf.English }}</td>
+            <td>{{ $wf.Usage }}</td>
+          </tr>
+        {{ end }}
+        </tbody>
+      </table>
+      {{ end }}
 
       <h3 id="bigrams">Bigrams</h3>
       <p>Top {{.MaxWFOutput}}</p>

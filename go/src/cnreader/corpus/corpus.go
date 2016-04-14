@@ -20,7 +20,7 @@ import (
 type CollectionEntry struct {
 	CollectionFile, GlossFile, Title, Summary, Intro, DateUpdated, Corpus string
 	CorpusEntries []CorpusEntry
-	AnalysisFile string
+	AnalysisFile, Format, Date, Genre string
 }
 
 const collectionsFile = "data/corpus/collections.csv"
@@ -80,11 +80,24 @@ func Collections() []CollectionEntry {
 		if row[5] != "\\N" {
 			corpus = row[5]
 		}
+		format := ""
+		if row[6] != "\\N" {
+			format = row[6]
+		}
+		date := ""
+		if row[7] != "\\N" {
+			date = row[7]
+		}
+		genre := ""
+		if len(row) > 8 && row[8] != "\\N" {
+			genre = row[8]
+		}
 		corpusEntries := make([]CorpusEntry, 0)
 		//log.Printf("corpus.Collections: Read collection %s in corpus %s\n",
 		//	collectionFile, corpus)
 		collections = append(collections, CollectionEntry{collectionFile,
-			row[1], title, summary, introFile, "", corpus, corpusEntries, ""})
+			row[1], title, summary, introFile, "", corpus, corpusEntries, "",
+			format, date, genre})
 	}
 	return collections
 }

@@ -16,10 +16,12 @@ func TestCollections(t *testing.T) {
 	collections := Collections()
 	if len(collections) == 0 {
 		t.Error("No collections found")
-	}
-	expected := "literary_chinese_prose.csv"
-	if collections[0].CollectionFile != expected {
-		t.Error("Expected entry ", expected, ", got ", collections[0])
+	} else {
+		genre := "Confucian"
+		if collections[0].Genre != genre {
+			t.Error("Expected genre ", genre, ", got ",
+				collections[0].Genre)
+		}
 	}
 }
 

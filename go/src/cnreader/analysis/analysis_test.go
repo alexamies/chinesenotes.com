@@ -313,9 +313,9 @@ func TestWriteCorpusAll(t *testing.T) {
 }
 
 func TestWriteCorpusCol(t *testing.T) {
-	//log.Printf("TestWriteCorpusCol: Begin +++++++++++\n")
-	WriteCorpusCol("taisho/t0099.csv")
-	//log.Printf("TestWriteCorpusCol: End +++++++++++\n")
+	log.Printf("TestWriteCorpusCol: Begin +++++++++++\n")
+	WriteCorpusCol("lunyu.csv")
+	log.Printf("TestWriteCorpusCol: End +++++++++++\n")
 }
 
 func TestWriteCorpusDoc1(t *testing.T) {
@@ -360,6 +360,7 @@ func TestWriteDoc3(t *testing.T) {
 // Test that WriteHwFiles() does not explode
 func TestWriteHwFiles(t *testing.T) {
 	log.Printf("TestWriteHwFiles: Begin +++++++++++\n")
+	log.Printf("TestWriteHwFiles: LUFileName: ", config.LUFileName())
 	dictionary.ReadDict(config.LUFileName())
 	WriteHwFiles()
 	log.Printf("TestWriteHwFiles: End +++++++++++\n")

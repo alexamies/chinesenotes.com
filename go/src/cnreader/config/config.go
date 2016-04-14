@@ -50,13 +50,14 @@ func DictionaryDir() string {
 	return projectHome + "/data"
 }
 
+
 // Gets the list of source and destination files for HTML conversion
 func GetHTMLConversions() []HTMLConversion {
 	log.Printf("GetHTMLConversions: projectHome: '%s'\n", projectHome)
 	conversionsFile := projectHome + "/" + conversionsFile
 	convFile, err := os.Open(conversionsFile)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("config.GetHTMLConversions fatal error: ", err)
 	}
 	defer convFile.Close()
 	reader := csv.NewReader(convFile)
@@ -90,7 +91,14 @@ func readConfig() map[string]string {
 	fileName := projectHome + "/config.yaml"
 	configFile, err := os.Open(fileName)
 	if err != nil {
-		log.Fatal("Could not open config.yaml", err)
+		projectHome = "../../../.."
+		log.Printf("config.readConfig: setting projectHome to: '%s'\n",
+			projectHome)
+		fileName = projectHome + "/config.yaml"
+		configFile, err = os.Open(fileName)
+		if err != nil {
+			log.Fatal("config.init fatal error: config.yaml not found")
+		}
 	}
 	defer configFile.Close()
 	reader := bufio.NewReader(configFile)
@@ -111,7 +119,7 @@ func readConfig() map[string]string {
 		i := strings.Index(line, ":")
 		if i > 0 {
 			varName := line[:i]
-			val := strings.Trim(line[i+1:], " ")
+			val := strings.TrimSpace(line[i+1:])
 			vars[varName] = val
 		}
 	}

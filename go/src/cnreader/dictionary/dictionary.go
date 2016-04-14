@@ -213,7 +213,7 @@ func ReadDict(wsfilename string) {
 	log.Printf("dictionary.ReadDict: wsfilename: %s\n", wsfilename)
 	wsfile, err := os.Open(wsfilename)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("dictionary.ReadDict, error: ", err)
 	}
 	defer wsfile.Close()
 	reader := csv.NewReader(wsfile)

@@ -9,12 +9,12 @@ import (
 	"fmt"
 	)
 
-// A word with corpus label
+// A word with corpus entry label
 type CorpusWord struct {
 	Corpus, Word string
 }
 
-// A word frequency with corpus label
+// A word frequency with corpus entry label
 type CorpusWordFreq struct {
 	Corpus, Word string
 	Freq int

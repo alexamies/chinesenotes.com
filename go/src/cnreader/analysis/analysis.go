@@ -51,6 +51,7 @@ type AnalysisResults struct {
 	UnkownnChars []SortedWordItem
 	DateUpdated string
 	MaxWFOutput int
+	ByGenre WFArrayByGenre
 }
 
 // The content for a corpus entry
@@ -82,7 +83,7 @@ type WFResult struct {
 
 // HTML content for template
 type HTMLContent struct {
-	Content, VocabularyJSON, DateUpdated string
+	Content, DateUpdated string
 }
 
 /* Break usage example text into links with highlight on headword
@@ -429,8 +430,8 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 		DateUpdated: dateUpdated, 
 		MaxWFOutput: len(wfResults),
 	}
-	tmplFile := config.TemplateDir() + "/corpus-analysis-template.html"
-	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles(tmplFile)
+	tmplFile := config.TemplateDir() + "/corpus-summary-analysis-template.html"
+	tmpl, err := template.New("corpus-summary-analysis-template.html").ParseFiles(tmplFile)
 	if err != nil { panic(err) }
 	if tmpl == nil {
 		log.Fatal("writeAnalysis: Template is nil", err)
@@ -554,10 +555,15 @@ func writeCollection(collectionEntry corpus.CollectionEntry) CollectionAResults 
 func WriteCorpusAll() {
 	collections := corpus.Collections()
 	aResults := NewCollectionAResults()
+	wfArrayByGenre := WFArrayByGenre{}
 	for _, collectionEntry := range collections {
 		results := writeCollection(collectionEntry)
+		byGenre := NewWordFreqByGenre(collectionEntry.Genre)
+		byGenre.WF = results.Vocab
+		wfArrayByGenre.Merge(byGenre)
 		aResults.AddResults(results)
 	}
+	aResults.ByGenre = wfArrayByGenre
 	writeAnalysisCorpus(aResults)
 }
 
@@ -657,13 +663,7 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename,
 					" class='dict-entry' data-toggle='popover'>%s</span>",
 					chunk, wordIds, chunk)
 		} else {
-			index := strings.Index(chunk, "<!-- words here -->")
-			if index == -1 {
-				w.WriteString(chunk)
-			} else {
-				vocabJSON := WriteVocab(chunk, index, vocab)
-				w.WriteString(vocabJSON)
-			}
+			w.WriteString(chunk)
 		}
 	}
 	w.Flush()
@@ -682,20 +682,6 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 		chunk := e.Value.(string)
 		//fmt.Printf("WriteDoc: Word %s\n", word)
 		if entries, ok := dictionary.GetWord(chunk); ok {
-			// Popover
-			/*
-			wordIds := ""
-			for _, ws := range entries {
-				if wordIds == "" {
-					wordIds = fmt.Sprintf("%d", ws.Id)
-				} else {
-					wordIds = fmt.Sprintf("%s,%d", wordIds, ws.Id)
-				}
-			}
-			fmt.Fprintf(&b, "<span title='%s' data-wordid='%s'" +
-					" class='dict-entry' data-toggle='popover'>%s</span>",
-					chunk, wordIds, chunk)
-					*/
 			// Regular HTML link
 			mouseover := fmt.Sprintf("%s | %s", entries[0].Pinyin,
 				entries[0].English)
@@ -706,9 +692,8 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 			fmt.Fprintf(&b, chunk)
 		}
 	}
-	vocabJSON := WriteVocab("", 0, vocab)
 	dateUpdated := time.Now().Format("2006-01-02")
-	content := HTMLContent{b.String(), vocabJSON, dateUpdated}
+	content := HTMLContent{b.String(), dateUpdated}
 
 	// Prepare template
 	tmpl := template.Must(template.New(templateName).ParseFiles(templateFile))
@@ -811,34 +796,3 @@ func WriteHwFiles() {
 		i++
 	}
 }
-
-// Writes the vocabulary out to a string in JSON format
-// chunk: A chunk of text
-// vocab: A list of word id's in the document
-// return a JSON formatted string with the vocabulary
-func WriteVocab(chunk string, index int, vocab map[string]int) string {
-	buffer := bytes.NewBufferString("");
-	buffer.WriteString(chunk[:index])
-	buffer.WriteString("\n")
-	buffer.WriteString("<script>\n")
-	buffer.WriteString("words = {\n")
-	for key, _ := range vocab {
-		if entries, ok := dictionary.GetWord(key); ok {
-			for _, ws := range entries {
-				fmt.Fprintf(buffer, "\"%d\":{\"element_text\":\"%s\"," +
-					"\"simplified\":\"%s\"," +
-					"\"traditional\":\"%s\"," +
-					"\"pinyin\":\"%s\",\"english\":\"%s\"," +
-					"\"notes\":\"%s\"},\n", ws.Id, key,
-					ws.Simplified, ws.Traditional, ws.Pinyin,
-					ws.English, ws.Notes)
-			}
-		} 
-	}
-	buffer.WriteString("}\n")
-	buffer.WriteString("</script>\n")
-	buffer.WriteString(chunk[index:])
-	buffer.WriteString("\n")
-	return buffer.String()
-}
-

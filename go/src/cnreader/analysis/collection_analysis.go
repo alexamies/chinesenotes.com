@@ -18,6 +18,7 @@ type CollectionAResults struct {
 	CollectionCogs []alignment.CorpEntryCognates
 	WC int
 	UnknownChars map[string]int
+	ByGenre WFArrayByGenre
 }
 
 // Add more results to this set of results
@@ -45,6 +46,7 @@ func (results *CollectionAResults) AddResults(more CollectionAResults) {
 	for k, v := range more.UnknownChars {
     	results.UnknownChars[k] += v
 	}
+
 }
 
 // Returns the subset of words that are lexical (content) words
@@ -102,5 +104,6 @@ func NewCollectionAResults() CollectionAResults {
 		CollectionCogs: []alignment.CorpEntryCognates{},
 		WC: 0,
 		UnknownChars: map[string]int{},
+		ByGenre: WFArrayByGenre{},
 	}
 }
