@@ -151,7 +151,7 @@
       <h3 id="genre">Frequencies of Lexical Words by Genre</h3>
       <p>Top {{.MaxWFOutput}}</p>
       {{ range $wordFreqByGenre := .ByGenre }}
-      <h4>{{ $wordFreqByGenre.Genre }}</h4>
+      <h4>Genre: {{ $wordFreqByGenre.Genre }}</h4>
       <table class="table table-bordered table-hover">
         <thead>
           <tr>
