@@ -35,8 +35,6 @@ func  (wfArray WFArrayByGenre) Get(genre string) map[string]int {
 // Merge the argument into the word frequency map for the matching genre
 // more: a word frequency map for a given genre
 func MergeByGenre(wfArray WFArrayByGenre, more WordFreqByGenre) WFArrayByGenre {
-	log.Printf("analysis.Merge: len(wfArray): '%d' more.Genre: '%s'\n",
-		len(wfArray), more.Genre)
 	found := false
 	for _, wf := range wfArray {
 		if wf.Genre == more.Genre {
@@ -49,8 +47,6 @@ func MergeByGenre(wfArray WFArrayByGenre, more WordFreqByGenre) WFArrayByGenre {
 	if !found {
 		wfArray = append(wfArray, more)
 	}
-	log.Printf("analysis.MergeByGenre: len(wfArray): '%d' found: '%v'\n",
-		len(wfArray), found)
 	return wfArray
 }
 

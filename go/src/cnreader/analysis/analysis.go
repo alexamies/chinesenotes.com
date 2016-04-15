@@ -427,8 +427,8 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 		sortedGenre = append(sortedGenre, SortedByGenre{wf.Genre,
 			sortedWF[:maxGenreOutput]})
 	}
-	log.Printf("analysis.writeAnalysisCorpus: len(sortedGenre): '%d'\n",
-			len(sortedGenre))
+	//log.Printf("analysis.writeAnalysisCorpus: len(sortedGenre): '%d'\n",
+			//len(sortedGenre))
 
 	dateUpdated := time.Now().Format("2006-01-02")
 	title := "Corpus Analysis"
@@ -562,8 +562,8 @@ func writeCollection(collectionEntry corpus.CollectionEntry) CollectionAResults 
 	aFile := writeAnalysis(aResults, collectionEntry.CollectionFile,
 		collectionEntry.Title, "")
 	corpus.WriteCollectionFile(collectionEntry.CollectionFile, aFile)
-	log.Printf("analysis.writeCollection: completed: %s\n",
-		collectionEntry.CollectionFile)
+	//log.Printf("analysis.writeCollection: completed: %s\n",
+		//collectionEntry.CollectionFile)
 	return aResults
 }
 
