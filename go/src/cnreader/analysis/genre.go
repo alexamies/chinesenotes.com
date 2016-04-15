@@ -3,10 +3,6 @@ Library for Chinese vocabulary analysis based on literary genre
 */
 package analysis
 
-import (
-	"log"
-)
-
 // Sorted list of word frequencies
 type SortedByGenre struct {
 	Genre string
