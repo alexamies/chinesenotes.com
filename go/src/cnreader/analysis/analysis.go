@@ -426,9 +426,8 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 		}
 		sortedGenre = append(sortedGenre, SortedByGenre{wf.Genre,
 			sortedWF[:maxGenreOutput]})
+		log.Printf("analysis.writeAnalysisCorpus: Genre: '%s'\n", wf.Genre)
 	}
-	//log.Printf("analysis.writeAnalysisCorpus: len(sortedGenre): '%d'\n",
-			//len(sortedGenre))
 
 	dateUpdated := time.Now().Format("2006-01-02")
 	title := "Corpus Analysis"
