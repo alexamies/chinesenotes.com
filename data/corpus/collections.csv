@@ -1,15 +1,14 @@
 # Top level file listing the corpus collections
-#Collection File, HTML Gloss File, Title, Description, Introduction File, Corpus, Format, Domain, Period
-lunyu.csv	lunyu.html	The Analects of Confucius 《論語》	Also known as Lunyu, with English translation by James Legge	lunyu/lunyu000.txt	Literary Chinese	Prose	c. 479—221 BCE
-liji.csv	liji.html	The Book of Rites 《禮記》	Also known as the Liji, a Warring States Confucian Text with English translation by James Legge	liji/liji000.txt	Literary Chinese	Prose	475 - 221 BCE
-zhuangzi.csv	zhuangzi.html	Zhuangzi 《莊子》	A foundational Taoist Text	\N	Literary Chinese	Prose	Warring States
-literary_chinese_prose.csv	literary_chinese_prose.html	Selections of Literary Chinese Prose	A collection of historic texts from well known writers	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical
-erya.csv	erya_collection.html	Er Ya 《爾雅》	The earliest Chinese dictionary	erya00.txt	Literary Chinese	Prose	Han
-shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By Sima Qian, the first of the official Chinese histories	\N	Literary Chinese	Prose	109-91 BCE
-shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	\N	Literary Chinese	Prose	Northern and Southern Dynasties
-tang_poetry.csv	\N	Selections of Tang Poetry	\N	\N	Literary Chinese	Poetry	Tang
-sishuzhangju.csv	sishuzhangju.html	Commentaries on the Four Books by Zhu Xi 朱熹《四書章句集注》	\N	sishuzhangju/sishuzhangju.txt	Literary Chinese	Prose	Circa 1200
-modern_articles.csv	media_articles.html	Media articles	\N	\N	Modern Chinese	Prose	Modern
-laoshe.csv	laoshe.html	A small number of phrases from the writings of Lao She	\N	\N	Modern Chinese	Prose	Modern
-yeshengtao.csv	yeshengtao.html	A small number of phrases from the writings of Ye Shengtao	\N	\N	Modern Chinese	Prose	Modern
-#korean.csv	korean.html	An experiment with Korean text	\N	\N	Korean	Prose	Modern
+#Collection File, HTML Gloss File, Title, Description, Introduction File, Corpus, Format, Period
+lunyu.csv	lunyu.html	The Analects of Confucius 《論語》	Also known as Lunyu, with English translation by James Legge	lunyu/lunyu000.txt	Literary Chinese	Prose	c. 479—221 BCE	Confucian
+liji.csv	liji.html	The Book of Rites 《禮記》	Also known as the Liji, a Warring States Confucian Text with English translation by James Legge	liji/liji000.txt	Literary Chinese	Prose	475 - 221 BCE	Confucian
+zhuangzi.csv	zhuangzi.html	Zhuangzi 《莊子》	A foundational Taoist Text	\N	Literary Chinese	Prose	Warring States	Taoist
+literary_chinese_prose.csv	literary_chinese_prose.html	Selections of Literary Chinese Prose	A collection of historic texts from well known writers	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical	anthology
+erya.csv	erya_collection.html	Er Ya 《爾雅》	The earliest Chinese dictionary	erya00.txt	Literary Chinese	Prose	Han	historic dictionary
+shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By Sima Qian, the first of the official Chinese histories	\N	Literary Chinese	Prose	109-91 BCE	historic
+shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	\N	Literary Chinese	Prose	Northern and Southern Dynasties	historic dictionary
+tang_poetry.csv	\N	Selections of Tang Poetry	\N	\N	Literary Chinese	Poetry	Tang	poetry
+sishuzhangju.csv	sishuzhangju.html	Commentaries on the Four Books by Zhu Xi 朱熹《四書章句集注》	\N	sishuzhangju/sishuzhangju.txt	Literary Chinese	Prose	Circa 1200	Confucian
+modern_articles.csv	media_articles.html	Media articles	\N	\N	Modern Chinese	Prose	Modern	non-fiction
+laoshe.csv	laoshe.html	A small number of phrases from the writings of Lao She	\N	\N	Modern Chinese	Prose	Modern	fiction
+yeshengtao.csv	yeshengtao.html	A small number of phrases from the writings of Ye Shengtao	\N	\N	Modern Chinese	Prose	Modern	fiction
