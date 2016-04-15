@@ -7,19 +7,34 @@ import (
 )
 
 // Test merging of word frequencies
-func TestMerge(t *testing.T) {
-	log.Printf("analysis.TestMerge: Begin ******** \n")	
+func TestMergeByGenre1(t *testing.T) {
 	classicalWF1 := NewWordFreqByGenre("classical")
 	classicalWF1.WF["thou"] = 1
 	classicalWF2 := NewWordFreqByGenre("classical")
 	classicalWF2.WF["thou"] = 2
 	genreWF1 := WFArrayByGenre{classicalWF1}
-	genreWF1.Merge(classicalWF2)
-	wf := genreWF1.Get("classical")
+	genreWF := MergeByGenre(genreWF1, classicalWF2)
+	wf := genreWF.Get("classical")
 	result := wf["thou"]
 	expected := 3
-	if result != result {
-		t.Error("analysis.TestMerge: Expected ", expected, ", got ", result)
+	if result != expected {
+		t.Error("analysis.TestMergeByGenre1: Expected ", expected, ", got ", result)
 	}
-	log.Printf("analysis.TestMerge: End ******** \n")	
+}
+
+// Test length of merged results
+func TestMergeByGenre2(t *testing.T) {
+	log.Printf("analysis.TestMergeByGenre2: Begin ******** \n")	
+	classicalWF1 := NewWordFreqByGenre("classical")
+	classicalWF1.WF["thou"] = 1
+	classicalWF2 := NewWordFreqByGenre("modern")
+	classicalWF2.WF["you"] = 2
+	genreWF1 := WFArrayByGenre{classicalWF1}
+	genreWF := MergeByGenre(genreWF1, classicalWF2)
+	result := len(genreWF)
+	expected := 2
+	if result != expected {
+		t.Error("analysis.TestMergeByGenre2: Expected ", expected, ", got ", result)
+	}
+	log.Printf("analysis.TestMergeByGenre2: End ******** \n")	
 }

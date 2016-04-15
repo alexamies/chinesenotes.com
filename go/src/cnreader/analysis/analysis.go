@@ -25,7 +25,7 @@ import (
 
 // Maximum number of word frequency entries to output to the generated
 // HTML file
-const MAX_WF_OUTPUT = 500
+const MAX_WF_OUTPUT = 100
 
 // Maximum number of unknwon characters to output to the generated
 // HTML file
@@ -51,7 +51,7 @@ type AnalysisResults struct {
 	UnkownnChars []SortedWordItem
 	DateUpdated string
 	MaxWFOutput int
-	ByGenre WFArrayByGenre
+	ByGenre []SortedByGenre
 }
 
 // The content for a corpus entry
@@ -411,10 +411,24 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 
 	// Bigrams, also truncated
 	bFreq := ngram.SortedFreq(results.BigramFrequencies)
-	maxBFOutput:= len(bFreq)
+	maxBFOutput := len(bFreq)
 	if maxBFOutput > MAX_WF_OUTPUT {
 		maxBFOutput = MAX_WF_OUTPUT
 	}
+
+	// Results by genre, also sorted and truncated
+	sortedGenre := []SortedByGenre{}
+	for _, wf := range results.ByGenre {
+		sortedWF := results.GetLexicalWordFreq(SortedFreq(wf.WF))
+		maxGenreOutput := len(sortedWF)
+		if maxGenreOutput > MAX_WF_OUTPUT {
+			maxGenreOutput = MAX_WF_OUTPUT
+		}
+		sortedGenre = append(sortedGenre, SortedByGenre{wf.Genre,
+			sortedWF[:maxGenreOutput]})
+	}
+	log.Printf("analysis.writeAnalysisCorpus: len(sortedGenre): '%d'\n",
+			len(sortedGenre))
 
 	dateUpdated := time.Now().Format("2006-01-02")
 	title := "Corpus Analysis"
@@ -429,6 +443,7 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 		UnkownnChars: sortedUnknownWords[:maxUnknown],
 		DateUpdated: dateUpdated, 
 		MaxWFOutput: len(wfResults),
+		ByGenre: sortedGenre,
 	}
 	tmplFile := config.TemplateDir() + "/corpus-summary-analysis-template.html"
 	tmpl, err := template.New("corpus-summary-analysis-template.html").ParseFiles(tmplFile)
@@ -557,10 +572,12 @@ func WriteCorpusAll() {
 	aResults := NewCollectionAResults()
 	wfArrayByGenre := WFArrayByGenre{}
 	for _, collectionEntry := range collections {
+		//log.Printf("analysis.WriteCorpusAll: entry: '%s' has genre '%s'\n",
+		//	collectionEntry.Title, collectionEntry.Genre)
 		results := writeCollection(collectionEntry)
 		byGenre := NewWordFreqByGenre(collectionEntry.Genre)
 		byGenre.WF = results.Vocab
-		wfArrayByGenre.Merge(byGenre)
+		wfArrayByGenre = MergeByGenre(wfArrayByGenre, byGenre)
 		aResults.AddResults(results)
 	}
 	aResults.ByGenre = wfArrayByGenre
