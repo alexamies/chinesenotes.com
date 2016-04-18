@@ -210,7 +210,7 @@ func hyperlink(entry dictionary.WordSenseEntry, text string) string {
 	if entry.IsProperNoun() {
 		classTxt = " class='propernoun'"
 	}
-	return fmt.Sprintf("<a title='%s' %s href='%s'>%s</a>", mouseover, classTxt,
+	return fmt.Sprintf("<a title=\"%s\" %s href=\"%s\">%s</a>", mouseover, classTxt,
 		link, text)
 }
 
@@ -252,43 +252,39 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 				//log.Printf("analysis.ParseText: i = %d, j = %d, w = %s\n", i, j, w)
 				if wsArray, ok := wdict[w]; ok {
 					//log.Printf("analysis.ParseText: found word %s, i = %d\n", w, i)
-					if wsArray[0].Notes == "CBETA boilerplate" {
-						//log.Printf("analysis.ParseText: boilerplate\n")
-						tokens.PushBack(chunk)
-						lastHWPtr = new(dictionary.HeadwordDef)
-						lastHW = *lastHWPtr
-						break
-					}
 					tokens.PushBack(w)
-					wc++
-					vocab[w]++
-					if _, ok := usage[w]; !ok {
-						usage[w] = chunk
-					}
 					i = j - 1
 					j = 0
-					hw := dictionary.HeadwordDef{
-						Id: wsArray[0].HeadwordId,
-						Simplified: wsArray[0].Simplified,
-						Traditional: wsArray[0].Traditional,
-						Pinyin: []string{},
-						WordSenses: []dictionary.WordSenseEntry{*wsArray[0]},
-					}
-					if lastHW.Id != 0 {
-						bigram := ngram.Bigram{
-							HeadwordDef1: lastHW,
-							HeadwordDef2: hw,
-							Example: chunk,
-							ExFile: document.GlossFile,
-							ExDocTitle: document.Title,
-							ExColTitle: colTitle,
+					if wsArray[0].Notes != "CBETA boilerplate" {
+						//log.Printf("analysis.ParseText: boilerplate\n")
+						wc++
+						vocab[w]++
+						if _, ok := usage[w]; !ok {
+							usage[w] = chunk
 						}
-						bigramMap.PutBigram(bigram)
-						collocations.PutBigram(bigram.HeadwordDef1.Id, bigram)
-						collocations.PutBigram(bigram.HeadwordDef2.Id, bigram)
+						hw := dictionary.HeadwordDef{
+							Id: wsArray[0].HeadwordId,
+							Simplified: wsArray[0].Simplified,
+							Traditional: wsArray[0].Traditional,
+							Pinyin: []string{},
+							WordSenses: []dictionary.WordSenseEntry{*wsArray[0]},
+						}
+						if lastHW.Id != 0 {
+							bigram := ngram.Bigram{
+								HeadwordDef1: lastHW,
+								HeadwordDef2: hw,
+								Example: chunk,
+								ExFile: document.GlossFile,
+								ExDocTitle: document.Title,
+								ExColTitle: colTitle,
+							}
+							bigramMap.PutBigram(bigram)
+							collocations.PutBigram(bigram.HeadwordDef1.Id, bigram)
+							collocations.PutBigram(bigram.HeadwordDef2.Id, bigram)
+						}
+						lastHW = hw
+						corpEntryCogs.AddCognate(wsArray[0])
 					}
-					lastHW = hw
-					corpEntryCogs.AddCognate(wsArray[0])
 				} else if (utf8.RuneCountInString(w) == 1) {
 					//log.Printf("ParseText: found unknown character %s\n", w)
 					unknownChars[w]++
@@ -618,7 +614,7 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	for e := tokens.Front(); e != nil; e=e.Next() {
 		chunk := e.Value.(string)
 		//fmt.Printf("WriteDoc: Word %s\n", word)
-		if entries, ok := dictionary.GetWord(chunk); ok {
+		if entries, ok := dictionary.GetWord(chunk); ok && entries[0].Notes != "CBETA boilerplate" {
 			wordIds := ""
 			for _, ws := range entries {
 				if wordIds == "" {
