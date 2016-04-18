@@ -394,6 +394,11 @@ func WordFrequencies() {
 	w.Flush()
 }
 
+// For the HTML template
+func add(x, y int) int {
+	return x + y
+}
+
 // Writes out an analysis of the entire corpus, including word frequencies
 // and other data. The output file is called 'corpus-analysis.html' in the
 // web/analysis directory.
@@ -448,7 +453,8 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 		ByGenre: sortedGenre,
 	}
 	tmplFile := config.TemplateDir() + "/corpus-summary-analysis-template.html"
-	tmpl, err := template.New("corpus-summary-analysis-template.html").ParseFiles(tmplFile)
+	funcs := template.FuncMap{"add": add}
+	tmpl, err := template.New("corpus-summary-analysis-template.html").Funcs(funcs).ParseFiles(tmplFile)
 	if err != nil { panic(err) }
 	if tmpl == nil {
 		log.Fatal("writeAnalysis: Template is nil", err)

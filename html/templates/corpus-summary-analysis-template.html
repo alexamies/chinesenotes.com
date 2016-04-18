@@ -103,6 +103,7 @@
       <table class="table table-bordered table-hover">
         <thead>
           <tr>
+            <th>Rank</th>
             <th>Frequency</th>
             <th>Chinese</th>
             <th>Pinyin</th>
@@ -111,8 +112,9 @@
           </tr>
         </thead>
         <tbody>
-        {{ range $wf := .LexicalWordFreq }}
+        {{ range $index, $wf := .LexicalWordFreq }}
           <tr>
+            <td>{{ add $index 1 }}</td>
             <td>{{ $wf.Freq }}</td>
             <td><a href="/words/{{$wf.HeadwordId}}.html">{{$wf.Chinese}}</a></td>
             <td>{{ $wf.Pinyin }}</td>
@@ -128,6 +130,7 @@
       <table class="table table-bordered table-hover">
         <thead>
           <tr>
+            <th>Rank</th>
             <th>Frequency</th>
             <th>Chinese</th>
             <th>Pinyin</th>
@@ -136,8 +139,9 @@
           </tr>
         </thead>
         <tbody>
-        {{ range $wf := .WordFrequencies }}
+        {{ range $index, $wf := .WordFrequencies }}
           <tr>
+            <td>{{ add $index 1 }}</td>
             <td>{{ $wf.Freq }}</td>
             <td><a href="/words/{{$wf.HeadwordId}}.html">{{$wf.Chinese}}</a></td>
             <td>{{ $wf.Pinyin }}</td>
@@ -155,6 +159,7 @@
       <table class="table table-bordered table-hover">
         <thead>
           <tr>
+            <th>Rank</th>
             <th>Frequency</th>
             <th>Chinese</th>
             <th>Pinyin</th>
@@ -163,8 +168,9 @@
           </tr>
         </thead>
         <tbody>
-        {{ range $wf := $wordFreqByGenre.SWI }}
+        {{ range $index, $wf := $wordFreqByGenre.SWI }}
           <tr>
+            <td>{{ add $index 1 }}</td>
             <td>{{ $wf.Freq }}</td>
             <td><a href="/words/{{$wf.HeadwordId}}.html">{{$wf.Chinese}}</a></td>
             <td>{{ $wf.Pinyin }}</td>
