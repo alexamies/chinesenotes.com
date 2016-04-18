@@ -53,11 +53,7 @@ func (results *CollectionAResults) AddResults(more CollectionAResults) {
 func (results *CollectionAResults) GetLexicalWordFreq(sortedWords []SortedWordItem) []WFResult {
 
 	wfResults := make([]WFResult, 0)
-	maxWFOutput := len(sortedWords)
-	if maxWFOutput > MAX_WF_OUTPUT {
-		maxWFOutput = MAX_WF_OUTPUT
-	}
-	for _, value := range sortedWords[:maxWFOutput] {
+	for _, value := range sortedWords {
 		ws, _ := dictionary.GetWordSense(value.Word)
 		if !ws.IsFunctionWord() {
 			wfResults = append(wfResults, WFResult{

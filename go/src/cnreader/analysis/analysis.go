@@ -25,7 +25,7 @@ import (
 
 // Maximum number of word frequency entries to output to the generated
 // HTML file
-const MAX_WF_OUTPUT = 200
+const MAX_WF_OUTPUT = 500
 
 // Maximum number of unknwon characters to output to the generated
 // HTML file
@@ -434,7 +434,8 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 		}
 		sortedGenre = append(sortedGenre, SortedByGenre{wf.Genre,
 			sortedWF[:maxGenreOutput]})
-		log.Printf("analysis.writeAnalysisCorpus: Genre: '%s'\n", wf.Genre)
+		log.Printf("analysis.writeAnalysisCorpus: Genre: '%s', max: %d\n",
+			wf.Genre, maxGenreOutput)
 	}
 
 	dateUpdated := time.Now().Format("2006-01-02")
