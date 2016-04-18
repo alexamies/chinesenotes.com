@@ -410,14 +410,14 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 	sortedWords := SortedFreq(results.Vocab)
 	wfResults := results.GetWordFreq(sortedWords)
 	maxWf := len(wfResults)
-	if maxWf > MAX_UNKOWN_OUTPUT {
-		maxWf = MAX_UNKOWN_OUTPUT
+	if maxWf > MAX_WF_OUTPUT {
+		maxWf = MAX_WF_OUTPUT
 	}
 
 	lexicalWordFreq := results.GetLexicalWordFreq(sortedWords)
 	maxLex := len(lexicalWordFreq)
-	if maxLex > MAX_UNKOWN_OUTPUT {
-		maxLex = MAX_UNKOWN_OUTPUT
+	if maxLex > MAX_WF_OUTPUT {
+		maxLex = MAX_WF_OUTPUT
 	}
 
 	sortedUnknownWords := SortedFreq(results.UnknownChars)
@@ -497,14 +497,14 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	sortedWords := SortedFreq(results.Vocab)
 	wfResults := results.GetWordFreq(sortedWords)
 	maxWf := len(wfResults)
-	if maxWf > MAX_UNKOWN_OUTPUT {
-		maxWf = MAX_UNKOWN_OUTPUT
+	if maxWf > MAX_WF_OUTPUT {
+		maxWf = MAX_WF_OUTPUT
 	}
 
 	lexicalWordFreq := results.GetLexicalWordFreq(sortedWords)
 	maxLex := len(lexicalWordFreq)
-	if maxLex > MAX_UNKOWN_OUTPUT {
-		maxLex = MAX_UNKOWN_OUTPUT
+	if maxLex > MAX_WF_OUTPUT {
+		maxLex = MAX_WF_OUTPUT
 	}
 
 	sortedUnknownWords := SortedFreq(results.UnknownChars)
