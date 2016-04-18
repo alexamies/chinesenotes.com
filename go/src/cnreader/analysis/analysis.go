@@ -409,7 +409,16 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 	// Parse template and organize template parameters
 	sortedWords := SortedFreq(results.Vocab)
 	wfResults := results.GetWordFreq(sortedWords)
+	maxWf := len(wfResults)
+	if maxWf > MAX_UNKOWN_OUTPUT {
+		maxWf = MAX_UNKOWN_OUTPUT
+	}
+
 	lexicalWordFreq := results.GetLexicalWordFreq(sortedWords)
+	maxLex := len(lexicalWordFreq)
+	if maxLex > MAX_UNKOWN_OUTPUT {
+		maxLex = MAX_UNKOWN_OUTPUT
+	}
 
 	sortedUnknownWords := SortedFreq(results.UnknownChars)
 	maxUnknown := len(sortedUnknownWords)
@@ -445,8 +454,8 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 		WC: results.WC,
 		Cognates: []alignment.CorpEntryCognates{},
 		UniqueWords: len(results.Vocab),
-		WordFrequencies: wfResults,
-		LexicalWordFreq: lexicalWordFreq,
+		WordFrequencies: wfResults[:maxWf],
+		LexicalWordFreq: lexicalWordFreq[:maxLex],
 		BigramFreqSorted: bFreq[:maxBFOutput],
 		UnkownnChars: sortedUnknownWords[:maxUnknown],
 		DateUpdated: dateUpdated, 
@@ -487,7 +496,16 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	// Parse template and organize template parameters
 	sortedWords := SortedFreq(results.Vocab)
 	wfResults := results.GetWordFreq(sortedWords)
+	maxWf := len(wfResults)
+	if maxWf > MAX_UNKOWN_OUTPUT {
+		maxWf = MAX_UNKOWN_OUTPUT
+	}
+
 	lexicalWordFreq := results.GetLexicalWordFreq(sortedWords)
+	maxLex := len(lexicalWordFreq)
+	if maxLex > MAX_UNKOWN_OUTPUT {
+		maxLex = MAX_UNKOWN_OUTPUT
+	}
 
 	sortedUnknownWords := SortedFreq(results.UnknownChars)
 	maxUnknown := len(sortedUnknownWords)
@@ -509,8 +527,8 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 		WC: results.WC,
 		Cognates: results.CollectionCogs,
 		UniqueWords: len(results.Vocab),
-		WordFrequencies: wfResults,
-		LexicalWordFreq: lexicalWordFreq,
+		WordFrequencies: wfResults[:maxWf],
+		LexicalWordFreq: lexicalWordFreq[:maxLex],
 		BigramFreqSorted: bFreq[:maxBFOutput],
 		UnkownnChars: sortedUnknownWords[:maxUnknown],
 		DateUpdated: dateUpdated, 
