@@ -249,9 +249,16 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 		for i := 0; i < len(characters); i++ {
 			for j := len(characters); j > 0; j-- {
 				w := strings.Join(characters[i:j], "")
-				//fmt.Printf("ParseText: i = %d, j = %d, w = %s\n", i, j, w)
-				if wsArray, ok := wdict[w]; ok && wsArray[0].Notes != "CBETA boilerplate" {
-					//fmt.Printf("ParseText: found word %s, i = %d\n", w, i)
+				//log.Printf("analysis.ParseText: i = %d, j = %d, w = %s\n", i, j, w)
+				if wsArray, ok := wdict[w]; ok {
+					//log.Printf("analysis.ParseText: found word %s, i = %d\n", w, i)
+					if wsArray[0].Notes != "CBETA boilerplate" {
+						//log.Printf("analysis.ParseText: boilerplate\n")
+						tokens.PushBack(chunk)
+						lastHWPtr = new(dictionary.HeadwordDef)
+						lastHW = *lastHWPtr
+						break
+					}
 					tokens.PushBack(w)
 					wc++
 					vocab[w]++
