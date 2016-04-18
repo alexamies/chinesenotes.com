@@ -25,7 +25,7 @@ import (
 
 // Maximum number of word frequency entries to output to the generated
 // HTML file
-const MAX_WF_OUTPUT = 100
+const MAX_WF_OUTPUT = 200
 
 // Maximum number of unknwon characters to output to the generated
 // HTML file
@@ -250,7 +250,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 			for j := len(characters); j > 0; j-- {
 				w := strings.Join(characters[i:j], "")
 				//fmt.Printf("ParseText: i = %d, j = %d, w = %s\n", i, j, w)
-				if wsArray, ok := wdict[w]; ok {
+				if wsArray, ok := wdict[w]; ok && wsArray[0].Notes != "CBETA boilerplate" {
 					//fmt.Printf("ParseText: found word %s, i = %d\n", w, i)
 					tokens.PushBack(w)
 					wc++
