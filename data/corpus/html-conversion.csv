@@ -1,5 +1,6 @@
 # HTML files outside the corpus to be converted to add popover for Chinese words
 # Raw file, Output file, Template
+../html/abbreviations-raw.html	abbreviations.html	about-template.html
 ../corpus/classical_chinese-raw.html	classical_chinese.html	\N
 ../corpus/classical_chinese_nominal_verbal-raw.html	classical_chinese_nominal_verbal.html	\N
 ../corpus/classical_chinese_verbs-raw.html	classical_chinese_verbs.html	\N
