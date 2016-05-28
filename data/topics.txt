@@ -136,6 +136,7 @@
 联系	Relationship	\N	\N
 宗教	Religion	\N	\N
 重复	Repetition	\N	\N
+研究	Research	\N	\N
 安全	Safety	\N	\N
 科学	Science	\N	\N
 规模	Scale	\N	\N
