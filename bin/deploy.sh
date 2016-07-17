@@ -13,9 +13,9 @@ if [ -n "$PROD" ]; then
     cp $CNREADER_HOME/web/analysis/lunyu/*.html $PROD/web/analysis/lunyu/.
     cp $CNREADER_HOME/web/analysis/shiji/*.html $PROD/web/analysis/shiji/.
     cp $CNREADER_HOME/web/analysis/shuowen/*.html $PROD/web/analysis/shuowen/.
-    cp $CNREADER_HOME/web/analysis/shishuzhangju/*.html $PROD/web/analysis/shishuzhangju/.
+    cp $CNREADER_HOME/web/analysis/sishuzhangju/*.html $PROD/web/analysis/sishuzhangju/.
     cp $CNREADER_HOME/web/analysis/yeshengtao/*.html $PROD/web/analysis/yeshengtao/.
-    cp $CNREADER_HOME/web/analysis/zhangzi/*.html $PROD/web/analysis/zhangzi/.
+    cp $CNREADER_HOME/web/analysis/zhuangzi/*.html $PROD/web/analysis/zhuangzi/.
     cp $CNREADER_HOME/web/articles/*.html $PROD/web/articles/.
     cp $CNREADER_HOME/web/erya/*.html $PROD/web/erya/.
     cp $CNREADER_HOME/web/laoshe/*.html $PROD/web/laoshe/.
@@ -23,9 +23,9 @@ if [ -n "$PROD" ]; then
     cp $CNREADER_HOME/web/lunyu/*.html $PROD/web/lunyu/.
     cp $CNREADER_HOME/web/shiji/*.html $PROD/web/shiji/.
     cp $CNREADER_HOME/web/shuowen/*.html $PROD/web/shuowen/.
-    cp $CNREADER_HOME/web/*.html $PROD/web/.
+    cp $CNREADER_HOME/web/sishuzhangju/*.html $PROD/web/sishuzhangju/.
     cp $CNREADER_HOME/web/yeshengtao/*.html $PROD/web/yeshengtao/.
-    cp $CNREADER_HOME/web/zhangzi/*.html $PROD/web/zhangzi/.
+    cp $CNREADER_HOME/web/zhuangzi/*.html $PROD/web/zhuangzi/.
   else
     echo "CNREADER_HOME is not set"
     exit 1
