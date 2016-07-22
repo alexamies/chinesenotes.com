@@ -26,7 +26,7 @@ textApp.controller('textCtrl', function($scope, $http, $sce) {
       if ($scope.results.words && $scope.results.words.length == 0) {
           $scope.results = {"msg": "No results found"};
       } else if ($scope.results.words && $scope.results.words.length == 1) {
-          window.location = "words/" + $scope.results.words[0].headword + ".html";
+          window.location = "/words/" + $scope.results.words[0].headword + ".html";
       }
     }).error(function(data, status, headers, config) {
       $("#lookup-help-block").hide();
