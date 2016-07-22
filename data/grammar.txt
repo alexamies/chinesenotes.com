@@ -1,11 +1,13 @@
 adjective
 adverb
 auxiliary verb
+boilerplate
 bound form
 conjunction
 expression
 foreign
 idiom
+infix
 interjection
 interrogative pronoun
 measure word
@@ -26,3 +28,4 @@ radical
 set phrase
 suffix
 verb
+unknown
