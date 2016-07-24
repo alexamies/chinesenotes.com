@@ -25,7 +25,8 @@ textApp.controller('textCtrl', function($scope, $http, $sce) {
       //console.log("submit: " + $scope.results.words)
       if ($scope.results.words && $scope.results.words.length == 0) {
           $scope.results = {"msg": "No results found"};
-      } else if ($scope.results.words && $scope.results.words.length == 1) {
+      } else if ($scope.results.words && $scope.results.words.length == 1 
+                 && $scope.results.words[0].headword) {
           window.location = "/words/" + $scope.results.words[0].headword + ".html";
       }
     }).error(function(data, status, headers, config) {
