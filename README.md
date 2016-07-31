@@ -1,10 +1,16 @@
-# Chinese Notes
+# Chinese Notes Project
 ## About the project
 This is a project for study of modern and literary Chinese language. It includes
-a Chinese-English dictionary, some language tools, web pages for learning
-grammar and such, a collection of texts, and a system for looking up the words
-in the texts by mouse over and popover by clicking on the words. Source code is
-in PHP and Go.
+a Chinese-English dictionary, a corpus management system written in Go, 
+web pages for learning grammar and such, a collection of texts, and a system for
+looking up the words in the texts by mouse over and popover by clicking on the
+words.
+
+## Acknowldegement
+The dictionary is based on the the [CC-CEDICT Chinese - English dictionary]
+(http://cc-cedict.org/wiki/), shared under the 
+[Creative Commons Attribution-Share Alike 3.0 License]
+(http://creativecommons.org/licenses/by-sa/3.0/).
 
 ## Installing the Chinese Notes web site
 
