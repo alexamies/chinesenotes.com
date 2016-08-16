@@ -3,10 +3,10 @@
 if [ -n "$PROD" ]; then
   echo "Copying to $PROD"
   if [ -n "$CNREADER_HOME" ]; then
-  	echo "Copying from $CNREADER_HOME"
-  	cp $CNREADER_HOME/web/words/*.html $PROD/web/words/.
-  	cp $CNREADER_HOME/web/analysis/*.html $PROD/web/analysis/.
-  	cp $CNREADER_HOME/web/analysis/articles/*.html $PROD/web/analysis/articles/.
+    echo "Copying from $CNREADER_HOME"
+    cp $CNREADER_HOME/web/words/*.html $PROD/web/words/.
+    cp $CNREADER_HOME/web/analysis/*.html $PROD/web/analysis/.
+    cp $CNREADER_HOME/web/analysis/articles/*.html $PROD/web/analysis/articles/.
     cp $CNREADER_HOME/web/analysis/erya/*.html $PROD/web/analysis/erya/.
     cp $CNREADER_HOME/web/analysis/laoshe/*.html $PROD/web/analysis/laoshe/.
     cp $CNREADER_HOME/web/analysis/liji/*.html $PROD/web/analysis/liji/.
