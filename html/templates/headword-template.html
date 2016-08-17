@@ -151,6 +151,9 @@
               {{if ne $ws.Notes "\\N"}}
                 <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
               {{ end }}
+              {{if ne $ws.Image "\\N"}}
+                <span><img src='/images/{{ $ws.Image }}'/></span>
+              {{ end }}
             </li>
           {{ end }}
         </ol>
@@ -163,6 +166,9 @@
               Domain: {{ $ws.Topic_en }}<br/>
               {{if ne $ws.Notes "\\N"}}
                 <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
+              {{ end }}
+              {{if ne $ws.Image "\\N"}}
+                <span><img src='/images/{{ $ws.Image }}'/></span>
               {{ end }}
           {{ end }}
           </p>
