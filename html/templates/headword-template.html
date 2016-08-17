@@ -151,6 +151,9 @@
               {{if ne $ws.Notes "\\N"}}
                 <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
               {{ end }}
+              {{if ne $ws.Mp3 "\\N"}}
+                <span><a href='/mp3/{{ $ws.Mp3 }}'><img src='/images/audio.gif'/></a></span>
+              {{ end }}
               {{if ne $ws.Image "\\N"}}
                 <span><img src='/images/{{ $ws.Image }}'/></span>
               {{ end }}
@@ -166,6 +169,9 @@
               Domain: {{ $ws.Topic_en }}<br/>
               {{if ne $ws.Notes "\\N"}}
                 <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
+              {{ end }}
+              {{if ne $ws.Mp3 "\\N"}}
+                <span><a href='/mp3/{{ $ws.Mp3 }}'><img src='/images/audio.gif'/></a></span>
               {{ end }}
               {{if ne $ws.Image "\\N"}}
                 <span><img src='/images/{{ $ws.Image }}'/></span>
