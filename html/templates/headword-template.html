@@ -142,7 +142,7 @@
         </h2>
         {{ if gt (len .Headword.WordSenses) 1}}
         <ol>
-          {{ range $ws := .Headword.WordSenses }}
+          {{ range $index, $ws := .Headword.WordSenses }}
             <li>
               <span class='dict-entry-pinyin'>{{ $ws.Pinyin }}</span> 
               {{if ne $ws.Mp3 "\\N"}}
