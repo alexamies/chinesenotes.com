@@ -134,7 +134,7 @@
         </table>
 
       <div id="word-detail">
-        <h2><span class='dict-entry-headword'>{{ .Headword.Simplified }}
+        <h2><span class='dict-entry-headword'>{{if ne .Headword.Simplified "\\N"}}{{ .Headword.Simplified }}{{end}}
           {{if ne .Headword.Traditional "\\N"}}
             ({{.Headword.Traditional}})
           {{end}}</span>
@@ -151,8 +151,8 @@
                          title='Play sound'><img src='/images/audio.gif'/></a></span>
                 {{ end }}
               {{ end }}
-              <span class='dict-entry-grammar'>{{ $ws.Grammar }}</span> 
-              <span class='dict-entry-definition'>{{ $ws.English }}</span> <br/>
+              <span class='dict-entry-grammar'>{{if ne $ws.Grammar "\\N"}}{{ $ws.Grammar }}{{end}}</span> 
+              <span class='dict-entry-definition'>{{if ne $ws.English "\\N"}}{{ $ws.English }}{{end}}</span> <br/>
               Domain: {{ $ws.Topic_en }}<br/>
               {{if ne $ws.Notes "\\N"}}
                 <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
@@ -166,13 +166,13 @@
         {{ else }}
           <p>
           {{ range $ws := .Headword.WordSenses }}
-              <span class='dict-entry-pinyin'>{{ $ws.Pinyin }}</span> 
+              <span class='dict-entry-pinyin'>{{if ne $ws.Pinyin "\\N"}}{{ $ws.Pinyin }}{{end}}</span> 
               {{if ne $ws.Mp3 "\\N"}}
                 <span><a href='/mp3/{{ $ws.Mp3 }}'
                          title='Play sound'><img src='/images/audio.gif'/></a></span>
               {{ end }}
-             <span class='dict-entry-grammar'>{{ $ws.Grammar }}</span> 
-              <span class='dict-entry-definition'>{{ $ws.English }}</span> <br/>
+             <span class='dict-entry-grammar'>{{if ne $ws.Grammar "\\N"}}{{ $ws.Grammar }}{{end}}</span> 
+              <span class='dict-entry-definition'>{{if ne $ws.English "\\N"}}{{ $ws.English }}{{end}}</span> <br/>
               Domain: {{ $ws.Topic_en }}<br/>
               {{if ne $ws.Notes "\\N"}}
                 <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
