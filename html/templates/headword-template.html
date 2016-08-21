@@ -145,15 +145,17 @@
           {{ range $ws := .Headword.WordSenses }}
             <li>
               <span class='dict-entry-pinyin'>{{ $ws.Pinyin }}</span> 
+              {{if ne $ws.Mp3 "\\N"}}
+                {{if eq $index 0}}
+                <span><a href='/mp3/{{ $ws.Mp3 }}'
+                         title='Play sound'><img src='/images/audio.gif'/></a></span>
+                {{ end }}
+              {{ end }}
               <span class='dict-entry-grammar'>{{ $ws.Grammar }}</span> 
               <span class='dict-entry-definition'>{{ $ws.English }}</span> <br/>
               Domain: {{ $ws.Topic_en }}<br/>
               {{if ne $ws.Notes "\\N"}}
                 <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
-              {{ end }}
-              {{if ne $ws.Mp3 "\\N"}}
-                <span><a href='/mp3/{{ $ws.Mp3 }}'
-                         title='Play sound'><img src='/images/audio.gif'/></a></span>
               {{ end }}
               {{if ne $ws.Image "\\N"}}
                 <span><img src='/images/{{ $ws.Image }}'/></span>
@@ -165,17 +167,17 @@
           <p>
           {{ range $ws := .Headword.WordSenses }}
               <span class='dict-entry-pinyin'>{{ $ws.Pinyin }}</span> 
-              <span class='dict-entry-grammar'>{{ $ws.Grammar }}</span> 
+              {{if ne $ws.Mp3 "\\N"}}
+                <span><a href='/mp3/{{ $ws.Mp3 }}'
+                         title='Play sound'><img src='/images/audio.gif'/></a></span>
+              {{ end }}
+             <span class='dict-entry-grammar'>{{ $ws.Grammar }}</span> 
               <span class='dict-entry-definition'>{{ $ws.English }}</span> <br/>
               Domain: {{ $ws.Topic_en }}<br/>
               {{if ne $ws.Notes "\\N"}}
                 <span class='dict-entry-notes'>Notes</span>: {{ $ws.Notes}}
               {{ end }}
-              {{if ne $ws.Mp3 "\\N"}}
-                <span><a href='/mp3/{{ $ws.Mp3 }}'
-                         title='Play sound'><img src='/images/audio.gif'/></a></span>
-              {{ end }}
-              {{if ne $ws.Image "\\N"}}
+               {{if ne $ws.Image "\\N"}}
                 <span><img src='/images/{{ $ws.Image }}'/></span>
               {{ end }}
           {{ end }}
