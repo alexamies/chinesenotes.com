@@ -33,7 +33,7 @@ func main() {
 	flag.Parse()
 
 	// Read in dictionary
-	dictionary.ReadDict(config.LUFileName())
+	dictionary.ReadDict(config.LUFileNames())
 
 	if (*collectionFile != "") {
 		log.Printf("main: Analyzing collection %s\n", *collectionFile)

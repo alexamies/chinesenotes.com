@@ -10,7 +10,7 @@ import (
 func TestContainsWord0(t *testing.T) {
 	//fmt.Printf("TestContainsWord0: Begin unit tests\n")
 	c := "hello"
-	ReadDict(config.DictionaryDir() + "/words.txt")
+	ReadDict(config.LUFileNames())
 	headwords := GetHeadwords()
 	contains := ContainsWord(c, headwords)
 	result := len(contains)
@@ -23,7 +23,7 @@ func TestContainsWord0(t *testing.T) {
 // Basic test to make sure that method does something correct
 func TestContainsWord1(t *testing.T) {
 	fmt.Printf("TestContainsWord1: Begin unit tests\n")
-	ReadDict(config.DictionaryDir() + "/words.txt")
+	ReadDict(config.LUFileNames())
 	c := "中"
 	headwords := GetHeadwords()
 	contains := ContainsWord(c, headwords)
@@ -173,26 +173,28 @@ func TestIsProperNoun1(t *testing.T) {
 func TestIsProperNoun2(t *testing.T) {
 	ws1 := WordSenseEntry{
 		Id: 1,
-		Simplified: "佛", 
-		Traditional: "\\N",
-		Pinyin: "Fó",
+		Simplified: "如来", 
+		Traditional: "如來",
+		Pinyin: "Rúlái",
 		Grammar: "proper noun",
 	}
 	result := ws1.IsProperNoun()
 	expected := true
 	if result != expected {
+		fmt.Printf("TestIsProperNoun2: ws1.Simplified: %v\n", ws1.Simplified)
 		t.Error("TestIsProperNoun2: Expected ", expected, ", got ", result)
 	}
 }
 
 func TestWriteHeadwords(t *testing.T) {
 	fmt.Printf("TestWriteHeadwords: Begin +++++++++++\n")
-	ReadDict(config.DictionaryDir() + "/words.txt")
+	ReadDict(config.LUFileNames())
 	WriteHeadwords()
 }
 
 func TestReadDict1(t *testing.T) {
-	ReadDict("../testdata/testwords.txt")
+	fileNames := []string{"../testdata/testwords.txt"}
+	ReadDict(fileNames)
 	ws, ok := GetWordSense("中文")
 	if !ok {
 		t.Error("Expected true, got ", ok)
@@ -245,7 +247,8 @@ func TestReadDict1(t *testing.T) {
 }
 
 func TestGetWord(t *testing.T) {
-	ReadDict("../testdata/testwords.txt")
+	fileNames := []string{"../testdata/testwords.txt"}
+	ReadDict(fileNames)
 	word, ok := GetWord("中")
 	if !ok {
 		t.Error("Expected true, got ", ok)

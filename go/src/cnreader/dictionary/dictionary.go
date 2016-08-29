@@ -206,54 +206,56 @@ func (ws *WordSenseEntry) IsProperNoun() bool {
 	return ws.Grammar == "proper noun"
 }
 
-// Reads the Chinese-English lexical units into memory from the words.txt file
+// Reads the Chinese-English lexical units into memory from the lexical unit 
+// files.
 // Parameters:
 //   wsfilename The name of the word sense file
-func ReadDict(wsfilename string) {
-	log.Printf("dictionary.ReadDict: wsfilename: %s\n", wsfilename)
-	wsfile, err := os.Open(wsfilename)
-	if err != nil {
-		log.Fatal("dictionary.ReadDict, error: ", err)
-	}
-	defer wsfile.Close()
-	reader := csv.NewReader(wsfile)
-	reader.FieldsPerRecord = -1
-	reader.Comma = rune('\t')
-	rawCSVdata, err := reader.ReadAll()
-	if err != nil {
-		log.Fatal("Could not parse lexical units file", err)
-	}
+func ReadDict(wsFilenames []string) {
 	wdict = make(map[string][]*WordSenseEntry)
-	for i, row := range rawCSVdata {
-		id, err := strconv.ParseInt(row[0], 10, 0)
+	for _, wsfilename := range wsFilenames {
+		log.Printf("dictionary.ReadDict: wsfilename: %s\n", wsfilename)
+		wsfile, err := os.Open(wsfilename)
 		if err != nil {
-			log.Fatal("Could not parse word id for word ", i, err)
+			log.Fatal("dictionary.ReadDict, error: ", err)
 		}
-		simp := row[1]
-		trad := row[2]
-		pinyin := row[3]
-		english := row[4]
-		grammar := row[5]
-		conceptCn := row[6]
-		hwId := 0
-		if len(row) == 16 {
-			hwIdInt, err := strconv.ParseInt(row[15], 10, 0)
+		defer wsfile.Close()
+		reader := csv.NewReader(wsfile)
+		reader.FieldsPerRecord = -1
+		reader.Comma = rune('\t')
+		rawCSVdata, err := reader.ReadAll()
+		if err != nil {
+			log.Fatal("Could not parse lexical units file", err)
+		}
+		for i, row := range rawCSVdata {
+			id, err := strconv.ParseInt(row[0], 10, 0)
 			if err != nil {
-				log.Printf("ReadDict, id: %d, simp: %s, trad: %s, " + 
-					"pinyin: %s, english: %s, grammar: %s, conceptCn: %s\n",
-					id, simp, trad, pinyin, english, grammar, conceptCn)
-				log.Fatal("ReadDict: Could not parse headword id for word ",
-					id, err)
+				log.Fatal("Could not parse word id for word ", i, err)
 			}
-			hwId = int(hwIdInt)
-		} else {
-			log.Printf("ReadDict, No. cols: %d\n",len(row))
-			log.Printf("ReadDict, id: %d, simp: %s, trad: %s, pinyin: %s, " +
-				"english: %s, grammar: %s, conceptCn: %s\n",
-				id, simp, trad, pinyin, english, grammar, conceptCn)
-			log.Fatal("ReadDict wrong number of columns ", id, err)
-		}
-		newWs := &WordSenseEntry{Id: int(id),
+			simp := row[1]
+			trad := row[2]
+			pinyin := row[3]
+			english := row[4]
+			grammar := row[5]
+			conceptCn := row[6]
+			hwId := 0
+			if len(row) == 16 {
+				hwIdInt, err := strconv.ParseInt(row[15], 10, 0)
+				if err != nil {
+					log.Printf("ReadDict, id: %d, simp: %s, trad: %s, " + 
+						"pinyin: %s, english: %s, grammar: %s, conceptCn: %s\n",
+						id, simp, trad, pinyin, english, grammar, conceptCn)
+					log.Fatal("ReadDict: Could not parse headword id for word ",
+						id, err)
+				}
+				hwId = int(hwIdInt)
+			} else {
+				log.Printf("ReadDict, No. cols: %d\n",len(row))
+				log.Printf("ReadDict, id: %d, simp: %s, trad: %s, pinyin: %s, " +
+					"english: %s, grammar: %s, conceptCn: %s\n",
+					id, simp, trad, pinyin, english, grammar, conceptCn)
+				log.Fatal("ReadDict wrong number of columns ", id, err)
+			}
+			newWs := &WordSenseEntry{Id: int(id),
 				HeadwordId: int(hwId),
 				Simplified: simp,
 				Traditional: trad,
@@ -269,24 +271,25 @@ func ReadDict(wsfilename string) {
 				Image: row[12],
 				Mp3: row[13],
 				Notes: row[14]}
-		if trad != "\\N" {
-			wSenses, ok := wdict[trad]
+			if trad != "\\N" {
+				wSenses, ok := wdict[trad]
+				if !ok {
+					wsSlice := make([]*WordSenseEntry, 1)
+					wsSlice[0] = newWs
+					wdict[trad] = wsSlice
+				} else {
+					wdict[trad] = append(wSenses, newWs)
+				}
+			}
+			wSenses, ok := wdict[simp]
 			if !ok {
 				wsSlice := make([]*WordSenseEntry, 1)
 				wsSlice[0] = newWs
-				wdict[trad] = wsSlice
+				wdict[simp] = wsSlice
 			} else {
-				wdict[trad] = append(wSenses, newWs)
+				//fmt.Printf("ReadDict: found simplified %s already in dict\n", simp)
+				wdict[simp] = append(wSenses, newWs)
 			}
-		}
-		wSenses, ok := wdict[simp]
-		if !ok {
-			wsSlice := make([]*WordSenseEntry, 1)
-			wsSlice[0] = newWs
-			wdict[simp] = wsSlice
-		} else {
-			//fmt.Printf("ReadDict: found simplified %s already in dict\n", simp)
-			wdict[simp] = append(wSenses, newWs)
 		}
 	}
 }

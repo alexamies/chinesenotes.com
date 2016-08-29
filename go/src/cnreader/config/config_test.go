@@ -26,6 +26,16 @@ func TestReadConfig(t *testing.T) {
 	}
 }
 
+
+// Test reading of lexical unit file names
+func TestLUFileNames(t *testing.T) {
+	luFiles := LUFileNames()
+	log.Printf("TestLUFileNames: len(luFiles): %d\n", len(luFiles))
+	if len(luFiles) == 0 {
+		t.Error("TestLUFileNames: No lexical unit files found")
+	}
+}
+
 // Test reading of files for HTML conversion
 func TestGetHTMLConversions(t *testing.T) {
 	log.Printf("TestGetHTMLConversions: Begin unit tests\n")

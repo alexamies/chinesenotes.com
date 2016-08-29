@@ -75,9 +75,18 @@ func GetHTMLConversions() []HTMLConversion {
 	return conversions
 }
 
-// The name of the text file with lexical units (word senses)
-func LUFileName() string {
-	return DictionaryDir() + "/words.txt"
+// The name of the text files with lexical units (word senses)
+func LUFileNames() []string {
+	fileNames := []string{DictionaryDir() + "/words.txt"}
+	val, ok := configVars["LUFiles"]
+	if ok {
+		tokens := strings.Split(val, ",")
+		fileNames = []string{}
+		for _, token := range tokens {
+			fileNames = append(fileNames, DictionaryDir() + "/" + token)
+		}
+	}
+	return fileNames
 }
 
 // Gets the public home directory, relative to the cnreader command line tool
