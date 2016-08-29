@@ -86,7 +86,7 @@ func ContainsWord(word string, headwords []HeadwordDef) []HeadwordDef {
 // Return a sorted array of headwords
 func GetHeadwords() []HeadwordDef {
 	//log.Printf("dictionary.GetHeadwords: Enter\n")
-	wsMap := readWSMap(config.DictionaryDir() + "/words.txt")
+	wsMap := readWSMap(config.LUFileNames())
 
 	// Read lexical units
 	hwmap := make(map[string][]*WordSenseEntry)
@@ -299,34 +299,37 @@ func ReadDict(wsFilenames []string) {
 // and returns a map from word sense id to word sense definition
 // Parameters:
 //   wsfilename The name of the word sense file
-func readWSMap(wsfilename string) map[int]WordSenseEntry {
-	wsfile, err := os.Open(wsfilename)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer wsfile.Close()
-	reader := csv.NewReader(wsfile)
-	reader.FieldsPerRecord = -1
-	reader.Comma = rune('\t')
-	rawCSVdata, err := reader.ReadAll()
-	if err != nil {
-		log.Fatal(err)
-	}
+func readWSMap(wsFilenames []string) map[int]WordSenseEntry {
 	wsMap := make(map[int]WordSenseEntry)
-	for _, row := range rawCSVdata {
-		id, error := strconv.ParseInt(row[0], 10, 0)
-		if error != nil {
-			log.Fatal("readWSMap: Could not parse word id for row %s\n", row[0])
+	for _, wsfilename := range wsFilenames {
+		wsfile, err := os.Open(wsfilename)
+		if err != nil {
+			log.Fatal(err)
 		}
-		simp := row[1]
-		trad := row[2]
-		ws := WordSenseEntry{Id: int(id), Simplified: simp,
+		defer wsfile.Close()
+		reader := csv.NewReader(wsfile)
+		reader.FieldsPerRecord = -1
+		reader.Comma = rune('\t')
+		rawCSVdata, err := reader.ReadAll()
+		if err != nil {
+			log.Fatal(err)
+		}
+		for _, row := range rawCSVdata {
+			id, error := strconv.ParseInt(row[0], 10, 0)
+			if error != nil {
+				log.Fatal("readWSMap: Could not parse word id for row %s\n",
+					row[0])
+			}
+			simp := row[1]
+			trad := row[2]
+			ws := WordSenseEntry{Id: int(id), Simplified: simp,
 				Traditional: trad, Pinyin: row[3], English: row[4],
 				Grammar: row[5], Concept_cn: row[6], Concept_en: row[7], 
 				Topic_cn: row[8], Topic_en: row[9], Parent_cn: row[10],
 				Parent_en: row[11], Image: row[12], Mp3: row[13],
 				Notes: row[14]}
-		wsMap[int(id)] = ws
+			wsMap[int(id)] = ws
+		}
 	}
 	return wsMap
 }
