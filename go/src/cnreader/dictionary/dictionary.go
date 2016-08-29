@@ -271,7 +271,7 @@ func ReadDict(wsFilenames []string) {
 				Image: row[12],
 				Mp3: row[13],
 				Notes: row[14]}
-			if trad != "\\N" {
+			if trad != "\\N" && trad != simp {
 				wSenses, ok := wdict[trad]
 				if !ok {
 					wsSlice := make([]*WordSenseEntry, 1)
