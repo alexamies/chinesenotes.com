@@ -57,7 +57,8 @@ func TestDecodeUsageExample3(t *testing.T) {
 	}
 }
 func TestGetChunks1(t *testing.T) {
-	dictionary.ReadDict("../testdata/testwords.txt")
+	files := []string{"../testdata/testwords.txt"}
+	dictionary.ReadDict(files)
 	chunks := GetChunks("中文")
 	if chunks.Len() != 1 {
 		t.Error("TestGetChunks1: Expected length of chunks 1, got ",
@@ -71,7 +72,8 @@ func TestGetChunks1(t *testing.T) {
 }
 
 func TestGetChunks2(t *testing.T) {
-	dictionary.ReadDict("../testdata/testwords.txt")
+	files := []string{"../testdata/testwords.txt"}
+	dictionary.ReadDict(files)
 	chunks := GetChunks("a中文")
 	if chunks.Len() != 2 {
 		t.Error("Expected length of chunks 2, got ", chunks.Len())
@@ -83,7 +85,8 @@ func TestGetChunks2(t *testing.T) {
 }
 
 func TestGetChunks3(t *testing.T) {
-	dictionary.ReadDict("../testdata/testwords.txt")
+	files := []string{"../testdata/testwords.txt"}
+	dictionary.ReadDict(files)
 	chunks := GetChunks("a中文b")
 	if chunks.Len() != 3 {
 		t.Error("Expected length of chunks 3, got ", chunks.Len())
@@ -96,7 +99,8 @@ func TestGetChunks3(t *testing.T) {
 
 // Simplified Chinese
 func TestGetChunks4(t *testing.T) {
-	dictionary.ReadDict("../testdata/testwords.txt")
+	files := []string{"../testdata/testwords.txt"}
+	dictionary.ReadDict(files)
 	chunks := GetChunks("简体中文")
 	if chunks.Len() != 1 {
 		t.Error("Simplified Chinese 简体中文: expected length of chunks 1, got ",
@@ -134,7 +138,8 @@ func TestReadText2(t *testing.T) {
 
 func TestParseText1(t *testing.T) {
 	//log.Printf("TestParseText1: Begin ******** \n")	
-	dictionary.ReadDict("../testdata/testwords.txt")
+	files := []string{"../testdata/testwords.txt"}
+	dictionary.ReadDict(files)
 	tokens, results := ParseText("繁體中文", "", corpus.NewCorpusEntry())
 	if tokens.Len() != 2 {
 		t.Error("Expected to get length 2, got ", tokens.Len())
@@ -154,7 +159,8 @@ func TestParseText1(t *testing.T) {
 
 func TestParseText2(t *testing.T) {
 	//log.Printf("TestParseText2: Begin ******** \n")	
-	dictionary.ReadDict("../testdata/testwords.txt")
+	files := []string{"../testdata/testwords.txt"}
+	dictionary.ReadDict(files)
 	tokens, results := ParseText("a繁體中文", "", corpus.NewCorpusEntry())
 	if tokens.Len() != 3 {
 		t.Error("Expected to get length 3, got ", tokens.Len())
@@ -174,7 +180,8 @@ func TestParseText2(t *testing.T) {
 
 func TestParseText3(t *testing.T) {
 	//log.Printf("TestParseText3: Begin +++++++++++\n")
-	dictionary.ReadDict("../testdata/testwords.txt")
+	files := []string{"../testdata/testwords.txt"}
+	dictionary.ReadDict(files)
 	tokens, results := ParseText("前不见古人", "", corpus.NewCorpusEntry())
 	if tokens.Len() != 3 {
 		t.Error("Expected to get length 3, got ", tokens.Len())
@@ -335,7 +342,8 @@ func TestWriteDoc1(t *testing.T) {
 }
 
 func TestWriteDoc2(t *testing.T) {
-	dictionary.ReadDict("../testdata/testwords.txt")
+	files := []string{"../testdata/testwords.txt"}
+	dictionary.ReadDict(files)
 	text := ReadText("../testdata/test.html")
 	tokens, results := ParseText(text, "", corpus.NewCorpusEntry())
 	if tokens.Len() != 4 {
@@ -346,7 +354,8 @@ func TestWriteDoc2(t *testing.T) {
 }
 
 func TestWriteDoc3(t *testing.T) {
-	dictionary.ReadDict("../testdata/testwords.txt")
+	files := []string{"../testdata/testwords.txt"}
+	dictionary.ReadDict(files)
 	text := ReadText("../testdata/test-simplified.html")
 	tokens, results := ParseText(text, "", corpus.NewCorpusEntry())
 	if tokens.Len() != 6 {
@@ -360,8 +369,7 @@ func TestWriteDoc3(t *testing.T) {
 // Test that WriteHwFiles() does not explode
 func TestWriteHwFiles(t *testing.T) {
 	log.Printf("TestWriteHwFiles: Begin +++++++++++\n")
-	log.Printf("TestWriteHwFiles: LUFileName: ", config.LUFileName())
-	dictionary.ReadDict(config.LUFileName())
+	dictionary.ReadDict(config.LUFileNames())
 	WriteHwFiles()
 	log.Printf("TestWriteHwFiles: End +++++++++++\n")
 }
@@ -369,7 +377,24 @@ func TestWriteHwFiles(t *testing.T) {
 // Test that WordFrequencies() does not explode
 func TestWordFrequencies(t *testing.T) {
 	//log.Printf("TestWordFrequencies: Begin +++++++++++\n")
-	dictionary.ReadDict(config.LUFileName())
+	dictionary.ReadDict(config.LUFileNames())
 	WordFrequencies()
 	//log.Printf("TestWordFrequencies: End +++++++++++\n")
+}
+
+// Test that writeUnknownChars() works with an empty list
+func TestWriteUnknownChars1(t *testing.T) {
+	//log.Printf("TestWriteUnknownChars1: Begin +++++++++++\n")
+	sortedUnknownWords := []SortedWordItem{}
+	writeUnknownChars(sortedUnknownWords)
+	//log.Printf("TestWriteUnknownChars1: End +++++++++++\n")
+}
+
+// Test that WordFrequencies() does not explode
+func TestWriteUnknownChars2(t *testing.T) {
+	//log.Printf("TestWriteUnknownChars2: Begin +++++++++++\n")
+	swi := SortedWordItem{"釴", 1}
+	sortedUnknownWords := []SortedWordItem{swi}
+	writeUnknownChars(sortedUnknownWords)
+	//log.Printf("TestWriteUnknownChars2: End +++++++++++\n")
 }

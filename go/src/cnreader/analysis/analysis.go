@@ -480,6 +480,10 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 	err = tmpl.Execute(w, aResults)
 	if err != nil { panic(err) }
 	w.Flush()
+
+	// Write unknown characters to a text file
+	writeUnknownChars(sortedUnknownWords)
+
 	return basename
 }
 
@@ -770,6 +774,9 @@ func WriteHwFiles() {
 		if i % 1000 == 0 {
 			log.Printf("analysis.WriteHwFiles: wrote %d words\n", i)
 		}
+		//if hw.Id == 873 {
+		//	log.Printf("analysis.WriteHwFiles: hw.Id %d, image: %s\n", hw.Id, hw.WordSenses[0].Image)
+		//}
 
 		// Words that contain this word
 		contains := dictionary.ContainsWord(hw.Simplified, hwArray)
@@ -839,4 +846,22 @@ func WriteHwFiles() {
 		f.Close()
 		i++
 	}
+}
+
+// Write unknown characters to a text file
+func writeUnknownChars(sortedUnknownWords []SortedWordItem) {
+	unknownCharsFile, err := os.Create("unknown.txt")
+	if err != nil {
+		log.Printf("Could not open write unknownCharsFile", err)
+		return 
+	}
+	defer unknownCharsFile.Close()
+	w := bufio.NewWriter(unknownCharsFile)
+	for _, wordItem := range sortedUnknownWords {
+		for _, r := range wordItem.Word {
+			fmt.Fprintf(w, "U+%X\t%c", r, r)
+		}
+		fmt.Fprintln(w)
+	}
+	w.Flush()
 }
