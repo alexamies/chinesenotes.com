@@ -62,7 +62,11 @@ func Collections() []CollectionEntry {
 		log.Fatal(err)
 	}
 	collections := make([]CollectionEntry, 0)
-	for _, row := range rawCSVdata {
+	for i, row := range rawCSVdata {
+		if len(row) < 9 {
+			log.Fatal("Collections: not enough rows in file ", i, len(row),
+					collectionsFile)
+	  	}
 		collectionFile := row[0]
 		title := ""
 		if row[2] != "\\N" {
