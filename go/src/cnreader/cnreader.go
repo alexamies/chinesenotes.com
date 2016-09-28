@@ -10,6 +10,8 @@ import (
 	"cnreader/corpus"
 	"cnreader/dictionary"
 	"log"
+	"runtime/pprof"
+	"os"
 )
 
 //Entry point for the chinesenotes command line tool.
@@ -30,6 +32,7 @@ func main() {
 		"web/words directory.")
 	var wf = flag.Bool("wf", false, "Compute wf for all the corpus files " +
 		"listed in data/corpus/collections.csv")
+	var memprofile = flag.String("memprofile", "", "write memory profile to this file")
 	flag.Parse()
 
 	// Read in dictionary
@@ -69,4 +72,14 @@ func main() {
 		log.Printf("main: Writing out entire corpus\n")
 		analysis.WriteCorpusAll()
 	}
+
+	// Memory profiling
+	if *memprofile != "" {
+        f, err := os.Create(*memprofile)
+        if err != nil {
+            log.Fatal(err)
+        }
+        pprof.WriteHeapProfile(f)
+        f.Close()
+    }
 }
