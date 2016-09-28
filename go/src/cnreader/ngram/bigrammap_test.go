@@ -41,8 +41,8 @@ func TestMerge(t *testing.T) {
 		WordSenses: []dictionary.WordSenseEntry{ws2},
 	}
 	b1 := Bigram{
-		HeadwordDef1: hw1, 
-		HeadwordDef2: hw2,
+		HeadwordDef1: &hw1, 
+		HeadwordDef2: &hw2,
 		Example: "",
 		ExFile: "",
 		ExDocTitle: "",
@@ -70,8 +70,8 @@ func TestMerge(t *testing.T) {
 		WordSenses: []dictionary.WordSenseEntry{ws3},
 	}
 	b2 := Bigram{
-		HeadwordDef1: hw1,
-		HeadwordDef2: hw3,
+		HeadwordDef1: &hw1,
+		HeadwordDef2: &hw3,
 		Example: "",
 		ExFile: "",
 		ExDocTitle: "",
@@ -130,8 +130,8 @@ func TestPutBigram(t *testing.T) {
 		WordSenses: []dictionary.WordSenseEntry{ws2},
 	}
 	b1 := Bigram{
-		HeadwordDef1: hw1, 
-		HeadwordDef2: hw2,
+		HeadwordDef1: &hw1, 
+		HeadwordDef2: &hw2,
 		Example: "",
 		ExFile: "",
 		ExDocTitle: "",
@@ -164,8 +164,8 @@ func TestPutBigram(t *testing.T) {
 		WordSenses: []dictionary.WordSenseEntry{ws3},
 	}
 	b2 := Bigram{
-		HeadwordDef1: hw1,
-		HeadwordDef2: hw3,
+		HeadwordDef1: &hw1,
+		HeadwordDef2: &hw3,
 		Example: "",
 		ExFile: "",
 		ExDocTitle: "",
@@ -211,8 +211,8 @@ func TestPutBigramFreq(t *testing.T) {
 		WordSenses: []dictionary.WordSenseEntry{ws2},
 	}
 	b1 := Bigram{
-		HeadwordDef1: hw1, 
-		HeadwordDef2: hw2,
+		HeadwordDef1: &hw1, 
+		HeadwordDef2: &hw2,
 		Example: "",
 		ExFile: "",
 		ExDocTitle: "",

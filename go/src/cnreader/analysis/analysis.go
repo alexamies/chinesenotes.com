@@ -198,6 +198,8 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 		log.Printf("WordFrequencies: Total word count for corpus %s: %d\n",
 			corpus, count)
 	}
+	log.Printf("WordFrequencies: len(collocations) = %d\n", len(collocations))
+
 	return usageMap, wfTotal, wcTotal, collocations
 }
 
@@ -271,8 +273,8 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 						}
 						if lastHW.Id != 0 {
 							bigram := ngram.Bigram{
-								HeadwordDef1: lastHW,
-								HeadwordDef2: hw,
+								HeadwordDef1: &lastHW,
+								HeadwordDef2: &hw,
 								Example: chunk,
 								ExFile: document.GlossFile,
 								ExDocTitle: document.Title,

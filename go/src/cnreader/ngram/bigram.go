@@ -13,8 +13,8 @@ import (
 //ids. Also, include an example of the bigram so that usage context can be
 // investigated
 type Bigram struct {
-	HeadwordDef1 dictionary.HeadwordDef  // First headword
-	HeadwordDef2 dictionary.HeadwordDef  // Second headword
+	HeadwordDef1 *dictionary.HeadwordDef  // First headword
+	HeadwordDef2 *dictionary.HeadwordDef  // Second headword
 	Example, ExFile, ExDocTitle, ExColTitle string
 }
 

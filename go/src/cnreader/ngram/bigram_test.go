@@ -25,8 +25,8 @@ func TestBigram(t *testing.T) {
 		WordSenses: []dictionary.WordSenseEntry{},
 	}
 	b := Bigram{
-		HeadwordDef1: hw1,
-		HeadwordDef2: hw2,
+		HeadwordDef1: &hw1,
+		HeadwordDef2: &hw2,
 		Example: "",
 		ExFile: "",
 		ExDocTitle: "",
