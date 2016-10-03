@@ -39,6 +39,8 @@ type WordSenseEntry struct {
 // and traditional text
 var wdict map[string][]*WordSenseEntry
 
+var hwIdMap map[int]HeadwordDef
+
 // Map of parts of speech that distinguish words as function words
 var functionPOS map[string]bool
 
@@ -102,7 +104,7 @@ func GetHeadwords() []HeadwordDef {
 
 	// Organize the headwords
 	hwIdArray := make([]int, 0)
-	hwIdMap := make(map[int]HeadwordDef)
+	hwIdMap = make(map[int]HeadwordDef)
 	for _, senses := range hwmap {
 		wsIds := []int{}
 		pinyinMap := make(map[string]bool)
@@ -133,7 +135,12 @@ func GetHeadwords() []HeadwordDef {
 		hw := hwIdMap[hwId]
 		hwArray = append(hwArray, hw)
 	}
+
 	return hwArray
+}
+
+func GetHwMap() map[int]HeadwordDef {
+	return hwIdMap
 }
 
 // Gets the dictionary definition of a word

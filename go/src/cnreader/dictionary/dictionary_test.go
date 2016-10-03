@@ -34,6 +34,11 @@ func TestContainsWord1(t *testing.T) {
 	}
 }
 
+func TestGetHwMap(t *testing.T) {
+	GetHeadwords()
+	GetHwMap()
+}
+
 // Both traditional and simplified
 func TestIsCJKChar1(t *testing.T) {
 	//fmt.Printf("TestIsCJKChar1: Begin unit tests\n")

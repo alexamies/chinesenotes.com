@@ -235,6 +235,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	wc := 0
 	chunks := GetChunks(text)
 	wdict := dictionary.GetWDict()
+	hwIdMap := dictionary.GetHwMap()
 	lastHWPtr := new(dictionary.HeadwordDef)
 	lastHW := *lastHWPtr
 	//fmt.Printf("ParseText: For text %s got %d chunks\n", text, chunks.Len())
@@ -264,6 +265,8 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 						if _, ok := usage[w]; !ok {
 							usage[w] = chunk
 						}
+						hw := hwIdMap[wsArray[0].HeadwordId]
+						/*
 						hw := dictionary.HeadwordDef{
 							Id: wsArray[0].HeadwordId,
 							Simplified: &wsArray[0].Simplified,
@@ -271,6 +274,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 							Pinyin: []string{},
 							WordSenses: &[]dictionary.WordSenseEntry{*wsArray[0]},
 						}
+						*/
 						if lastHW.Id != 0 {
 							bigram := ngram.Bigram{
 								HeadwordDef1: &lastHW,
