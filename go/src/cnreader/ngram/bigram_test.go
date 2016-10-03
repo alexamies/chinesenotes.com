@@ -15,14 +15,14 @@ func TestBigram(t *testing.T) {
 		Simplified: "蓝", 
 		Traditional: "藍",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{},
+		WordSenses: &[]dictionary.WordSenseEntry{},
 	}
 	hw2 := dictionary.HeadwordDef{
 		Id: 2,
 		Simplified: "天", 
 		Traditional: "\\N",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{},
+		WordSenses: &[]dictionary.WordSenseEntry{},
 	}
 	b := Bigram{
 		HeadwordDef1: &hw1,

@@ -15,7 +15,7 @@ func TestDecodeUsageExample1(t *testing.T) {
 		Simplified: "海",
 		Traditional: "\\N",
 		Pinyin: []string{"hǎi"},
-		WordSenses: []dictionary.WordSenseEntry{},
+		WordSenses: &[]dictionary.WordSenseEntry{},
 	}
 	highlighted := decodeUsageExample("海", hw)
 	expected := "<span class='usage-highlight'>海</span>"
@@ -31,7 +31,7 @@ func TestDecodeUsageExample2(t *testing.T) {
 		Simplified: "海",
 		Traditional: "\\N",
 		Pinyin: []string{"hǎi"},
-		WordSenses: []dictionary.WordSenseEntry{},
+		WordSenses: &[]dictionary.WordSenseEntry{},
 	}
 	highlighted := decodeUsageExample("banana", hw)
 	expected := "banana"
@@ -47,7 +47,7 @@ func TestDecodeUsageExample3(t *testing.T) {
 		Simplified: "国",
 		Traditional: "國",
 		Pinyin: []string{"guó"},
-		WordSenses: []dictionary.WordSenseEntry{},
+		WordSenses: &[]dictionary.WordSenseEntry{},
 	}
 	highlighted := decodeUsageExample("國", hw)
 	expected := "<span class='usage-highlight'>國</span>"

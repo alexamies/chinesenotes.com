@@ -24,7 +24,7 @@ func TestMerge(t *testing.T) {
 		Simplified: "蓝", 
 		Traditional: "藍",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws1},
+		WordSenses: &[]dictionary.WordSenseEntry{ws1},
 	}
 	ws2 := dictionary.WordSenseEntry{
 		Id: 1,
@@ -38,7 +38,7 @@ func TestMerge(t *testing.T) {
 		Simplified: "天",
 		Traditional: "\\N",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws2},
+		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
 	b1 := Bigram{
 		HeadwordDef1: &hw1, 
@@ -67,7 +67,7 @@ func TestMerge(t *testing.T) {
 		Simplified: "海",
 		Traditional: "\\N",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws3},
+		WordSenses: &[]dictionary.WordSenseEntry{ws3},
 	}
 	b2 := Bigram{
 		HeadwordDef1: &hw1,
@@ -113,7 +113,7 @@ func TestPutBigram(t *testing.T) {
 		Simplified: "蓝", 
 		Traditional: "藍",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws1},
+		WordSenses: &[]dictionary.WordSenseEntry{ws1},
 	}
 	ws2 := dictionary.WordSenseEntry{
 		Id: 1,
@@ -127,7 +127,7 @@ func TestPutBigram(t *testing.T) {
 		Simplified: "天",
 		Traditional: "\\N",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws2},
+		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
 	b1 := Bigram{
 		HeadwordDef1: &hw1, 
@@ -161,7 +161,7 @@ func TestPutBigram(t *testing.T) {
 		Simplified: "海",
 		Traditional: "\\N",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws3},
+		WordSenses: &[]dictionary.WordSenseEntry{ws3},
 	}
 	b2 := Bigram{
 		HeadwordDef1: &hw1,
@@ -194,7 +194,7 @@ func TestPutBigramFreq(t *testing.T) {
 		Simplified: "蓝", 
 		Traditional: "藍",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws1},
+		WordSenses: &[]dictionary.WordSenseEntry{ws1},
 	}
 	ws2 := dictionary.WordSenseEntry{
 		Id: 1,
@@ -208,7 +208,7 @@ func TestPutBigramFreq(t *testing.T) {
 		Simplified: "天",
 		Traditional: "\\N",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws2},
+		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
 	b1 := Bigram{
 		HeadwordDef1: &hw1, 

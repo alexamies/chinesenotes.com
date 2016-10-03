@@ -269,7 +269,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 							Simplified: wsArray[0].Simplified,
 							Traditional: wsArray[0].Traditional,
 							Pinyin: []string{},
-							WordSenses: []dictionary.WordSenseEntry{*wsArray[0]},
+							WordSenses: &[]dictionary.WordSenseEntry{*wsArray[0]},
 						}
 						if lastHW.Id != 0 {
 							bigram := ngram.Bigram{

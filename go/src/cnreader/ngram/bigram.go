@@ -20,8 +20,8 @@ type Bigram struct {
 
 // Bigrams that contain function words should be excluded
 func (bigram *Bigram) ContainsFunctionWord() bool {
-	ws1 := bigram.HeadwordDef1.WordSenses[0]
-	ws2 := bigram.HeadwordDef2.WordSenses[0]
+	ws1 := (*bigram.HeadwordDef1.WordSenses)[0]
+	ws2 := (*bigram.HeadwordDef2.WordSenses)[0]
 	return ws1.IsFunctionWord() || ws2.IsFunctionWord()
 }
 

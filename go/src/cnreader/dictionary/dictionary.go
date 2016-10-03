@@ -24,7 +24,7 @@ type HeadwordDef struct {
 	Id int // key for the headword
 	Simplified, Traditional string
 	Pinyin []string
-	WordSenses []WordSenseEntry //keys for the lexical units
+	WordSenses *[]WordSenseEntry //keys for the lexical units
 }
 
 // Defines a single sense of a Chinese word
@@ -122,7 +122,7 @@ func GetHeadwords() []HeadwordDef {
 			pinyinArr = append(pinyinArr, pinyin)
 		}
 		hw := HeadwordDef{hwId, senses[0].Simplified, senses[0].Traditional,
-			pinyinArr, wsArray}
+			pinyinArr, &wsArray}
 		hwIdMap[hwId] = hw
 	}
 
@@ -352,7 +352,7 @@ func WriteHeadwords() {
 	// Write the headwords to the output file
 	for _, hw := range hwArray {
 		wsNumStr := ""
-		for i, ws := range hw.WordSenses {
+		for i, ws := range *hw.WordSenses {
 			if i == 0 {
 				wsNumStr = fmt.Sprintf("%d", ws.Id)
 			} else {

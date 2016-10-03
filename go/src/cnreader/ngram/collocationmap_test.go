@@ -24,7 +24,7 @@ func TestCMPutBigram(t *testing.T) {
 		Simplified: "蓝", 
 		Traditional: "藍",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws1},
+		WordSenses: &[]dictionary.WordSenseEntry{ws1},
 	}
 	ws2 := dictionary.WordSenseEntry{
 		Id: 1,
@@ -38,7 +38,7 @@ func TestCMPutBigram(t *testing.T) {
 		Simplified: "天",
 		Traditional: "\\N",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws2},
+		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
 	b1 := Bigram{
 		HeadwordDef1: &hw1, 
@@ -80,7 +80,7 @@ func TestCMPutBigramFreq(t *testing.T) {
 		Simplified: "蓝", 
 		Traditional: "藍",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws1},
+		WordSenses: &[]dictionary.WordSenseEntry{ws1},
 	}
 	ws2 := dictionary.WordSenseEntry{
 		Id: 1,
@@ -94,7 +94,7 @@ func TestCMPutBigramFreq(t *testing.T) {
 		Simplified: "天",
 		Traditional: "\\N",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws2},
+		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
 	b1 := Bigram{
 		HeadwordDef1: &hw1, 
@@ -138,7 +138,7 @@ func TestMergeCollocationMap(t *testing.T) {
 		Simplified: "蓝", 
 		Traditional: "藍",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws1},
+		WordSenses: &[]dictionary.WordSenseEntry{ws1},
 	}
 	ws2 := dictionary.WordSenseEntry{
 		Id: 1,
@@ -152,7 +152,7 @@ func TestMergeCollocationMap(t *testing.T) {
 		Simplified: "天",
 		Traditional: "\\N",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws2},
+		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
 	b1 := Bigram{
 		HeadwordDef1: &hw1, 

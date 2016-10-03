@@ -28,7 +28,7 @@ func TestAddResults(t *testing.T) {
 		Simplified: "蓝", 
 		Traditional: "藍",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws1},
+		WordSenses: &[]dictionary.WordSenseEntry{ws1},
 	}
 	ws2 := dictionary.WordSenseEntry{
 		Id: 1,
@@ -42,11 +42,11 @@ func TestAddResults(t *testing.T) {
 		Simplified: "天",
 		Traditional: "\\N",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws2},
+		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
 	b1 := ngram.Bigram{
-		HeadwordDef1: hw1, 
-		HeadwordDef2: hw2,
+		HeadwordDef1: &hw1, 
+		HeadwordDef2: &hw2,
 		Example: "",
 		ExFile: "",
 		ExDocTitle: "",
@@ -76,11 +76,11 @@ func TestAddResults(t *testing.T) {
 		Simplified: "海",
 		Traditional: "\\N",
 		Pinyin: []string{},
-		WordSenses: []dictionary.WordSenseEntry{ws3},
+		WordSenses: &[]dictionary.WordSenseEntry{ws3},
 	}
 	b2 := ngram.Bigram{
-		HeadwordDef1: hw1,
-		HeadwordDef2: hw3,
+		HeadwordDef1: &hw1,
+		HeadwordDef2: &hw3,
 		Example: "",
 		ExFile: "",
 		ExDocTitle: "",
