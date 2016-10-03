@@ -22,7 +22,7 @@ const HEADWORD_FILE = "headwords.txt"
 // Defines a headword with mapping between simplified and traditional
 type HeadwordDef struct {
 	Id int // key for the headword
-	Simplified, Traditional string
+	Simplified, Traditional *string
 	Pinyin []string
 	WordSenses *[]WordSenseEntry //keys for the lexical units
 }
@@ -75,7 +75,7 @@ func ContainsWord(word string, headwords []HeadwordDef) []HeadwordDef {
 	//log.Printf("dictionary.ContainsWord: Enter\n")
 	contains := []HeadwordDef{}
 	for _, hw := range headwords {
-		if len(contains) <= 20 && hw.Simplified != word && strings.Contains(hw.Simplified, word) {
+		if len(contains) <= 20 && *hw.Simplified != word && strings.Contains(*hw.Simplified, word) {
 			contains = append(contains, hw)
 		}
 	}
@@ -121,7 +121,7 @@ func GetHeadwords() []HeadwordDef {
 		for pinyin, _ := range pinyinMap {
 			pinyinArr = append(pinyinArr, pinyin)
 		}
-		hw := HeadwordDef{hwId, senses[0].Simplified, senses[0].Traditional,
+		hw := HeadwordDef{hwId, &senses[0].Simplified, &senses[0].Traditional,
 			pinyinArr, &wsArray}
 		hwIdMap[hwId] = hw
 	}

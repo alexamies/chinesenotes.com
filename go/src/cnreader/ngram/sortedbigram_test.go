@@ -10,31 +10,35 @@ import (
 // Test basic Bigram functions
 func TestSortedBFM(t *testing.T) {
 	fmt.Printf("TestSortedBFM: Begin unit test\n")
+	s1 := "蓝"
+	s2 := "藍"
 	ws1 := dictionary.WordSenseEntry{
 		Id: 1,
-		Simplified: "蓝", 
-		Traditional: "藍",
+		Simplified: s1, 
+		Traditional: s2,
 		Pinyin: "lán",
 		Grammar: "adjective",
 	}
 	hw1 := dictionary.HeadwordDef{
 		Id: 1,
-		Simplified: "蓝", 
-		Traditional: "藍",
+		Simplified: &s1, 
+		Traditional: &s2,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws1},
 	}
+	s3 := "天"
+	s4 := "\\N"
 	ws2 := dictionary.WordSenseEntry{
 		Id: 1,
-		Simplified: "天", 
-		Traditional: "\\N",
+		Simplified: s3, 
+		Traditional: s4,
 		Pinyin: "tiān",
 		Grammar: "noun",
 	}
 	hw2 := dictionary.HeadwordDef{
 		Id: 2,
-		Simplified: "天",
-		Traditional: "\\N",
+		Simplified: &s3, 
+		Traditional: &s4,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
@@ -49,17 +53,19 @@ func TestSortedBFM(t *testing.T) {
 	bm := BigramFreqMap{}
 	bm.PutBigram(b1)
 	bm.PutBigram(b1)
+	s5 := "海"
+	s6 := "\\N"
 	ws3 := dictionary.WordSenseEntry{
 		Id: 3,
-		Simplified: "海", 
-		Traditional: "\\N",
+		Simplified: s5, 
+		Traditional: s6,
 		Pinyin: "hǎi",
 		Grammar: "noun",
 	}
 	hw3 := dictionary.HeadwordDef{
 		Id: 3,
-		Simplified: "海",
-		Traditional: "\\N",
+		Simplified: &s5,
+		Traditional: &s6,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws3},
 	}
@@ -83,7 +89,7 @@ func TestSortedBFM(t *testing.T) {
 	if r2 != e2 {
 		t.Error("TestSortedBFM, expected ", e2, " got, ", r2, "sbf[0]", sbf[0])
 	}
-	r3 := sbf[0].BigramVal.HeadwordDef1.Simplified
+	r3 := *sbf[0].BigramVal.HeadwordDef1.Simplified
 	e3 := "蓝"
 	if r3 != e3 {
 		t.Error("TestSortedBFM, expected ", e3, " got, ", r3, "sbf[0]", sbf[0])

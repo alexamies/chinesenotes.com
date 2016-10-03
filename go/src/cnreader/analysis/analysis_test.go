@@ -10,10 +10,12 @@ import (
 )
 
 func TestDecodeUsageExample1(t *testing.T) {
+	s1 := "海"
+	s2 := "\\N"
 	hw := dictionary.HeadwordDef{
 		Id: 1,
-		Simplified: "海",
-		Traditional: "\\N",
+		Simplified: &s1,
+		Traditional: &s2,
 		Pinyin: []string{"hǎi"},
 		WordSenses: &[]dictionary.WordSenseEntry{},
 	}
@@ -26,10 +28,12 @@ func TestDecodeUsageExample1(t *testing.T) {
 }
 
 func TestDecodeUsageExample2(t *testing.T) {
+	s1 := "海"
+	s2 := "\\N"
 	hw := dictionary.HeadwordDef{
 		Id: 1,
-		Simplified: "海",
-		Traditional: "\\N",
+		Simplified: &s1,
+		Traditional: &s2,
 		Pinyin: []string{"hǎi"},
 		WordSenses: &[]dictionary.WordSenseEntry{},
 	}
@@ -42,10 +46,12 @@ func TestDecodeUsageExample2(t *testing.T) {
 }
 
 func TestDecodeUsageExample3(t *testing.T) {
+	s1 := "国"
+	s2 := "國"
 	hw := dictionary.HeadwordDef{
 		Id: 1,
-		Simplified: "国",
-		Traditional: "國",
+		Simplified: &s1,
+		Traditional: &s2,
 		Pinyin: []string{"guó"},
 		WordSenses: &[]dictionary.WordSenseEntry{},
 	}
@@ -267,7 +273,7 @@ func TestSampleUsage3(t *testing.T) {
 
 // Basic test with more data
 func TestSampleUsage4(t *testing.T) {
-	log.Printf("TestSampleUsage4: Begin +++++++++++\n")
+	log.Printf("analysis.TestSampleUsage4: Begin +++++++++++\n")
 	wu1 := WordUsage{
 		Freq: 1,
 		RelFreq: 0.01,
@@ -303,42 +309,43 @@ func TestSampleUsage4(t *testing.T) {
 	if l != expected {
 		t.Error("Expected to get length ", expected, ", got ", l)
 	}
+	log.Printf("analysis.TestSampleUsage4: End +++++++++++\n")
 }
 
 func TestWriteAnalysis(t *testing.T) {
-	//log.Printf("TestWriteAnalysis: Begin +++++++++++\n")
+	log.Printf("analysis.TestWriteAnalysis: Begin +++++++++++\n")
 	_, results := ParseText("繁", "", corpus.NewCorpusEntry())
 	srcFile := "test.txt"
 	writeAnalysis(results, srcFile, "Test Collection", "Test Doc")
-	//log.Printf("TestWriteAnalysis: End +++++++++++\n")
+	log.Printf("analysis.TestWriteAnalysis: End +++++++++++\n")
 }
 
 func TestWriteCorpusAll(t *testing.T) {
-	//log.Printf("TestWriteCorpusAll: Begin +++++++++++\n")
+	log.Printf("analysis.TestWriteCorpusAll: Begin +++++++++++\n")
 	WriteCorpusAll()
-	//log.Printf("TestWriteCorpusAll: End +++++++++++\n")
+	log.Printf("analysis.TestWriteCorpusAll: End +++++++++++\n")
 }
 
 func TestWriteCorpusCol(t *testing.T) {
-	log.Printf("TestWriteCorpusCol: Begin +++++++++++\n")
+	log.Printf("analysis.TestWriteCorpusCol: Begin +++++++++++\n")
 	WriteCorpusCol("lunyu.csv")
-	log.Printf("TestWriteCorpusCol: End +++++++++++\n")
+	log.Printf("analysis.TestWriteCorpusCol: End +++++++++++\n")
 }
 
 func TestWriteCorpusDoc1(t *testing.T) {
-	//log.Printf("TestWriteCorpusDoc1: Begin +++++++++++\n")
+	log.Printf("analysis.TestWriteCorpusDoc1: Begin +++++++++++\n")
 	tokens, results := ParseText("繁", "", corpus.NewCorpusEntry())
 	outfile := "../testoutput/output.html"
 	writeCorpusDoc(tokens, results.Vocab, outfile, "", "", "")
-	//log.Printf("TestWriteCorpusDoc1: End +++++++++++\n")
+	log.Printf("analysis.TestWriteCorpusDoc1: End +++++++++++\n")
 }
 
 func TestWriteDoc1(t *testing.T) {
-	//log.Printf("TestWriteDoc1: Begin +++++++++++\n")
+	log.Printf("analysis.TestWriteDoc1: Begin +++++++++++\n")
 	tokens, results := ParseText("繁", "", corpus.NewCorpusEntry())
 	outfile := "../testoutput/output.html"
 	WriteDoc(tokens, results.Vocab, outfile, `\N`, `\N`)
-	//log.Printf("TestWriteDoc1: End +++++++++++\n")
+	log.Printf("analysis.TestWriteDoc1: End +++++++++++\n")
 }
 
 func TestWriteDoc2(t *testing.T) {

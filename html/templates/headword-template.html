@@ -134,9 +134,9 @@
         </table>
 
       <div id="word-detail">
-        <h2><span class='dict-entry-headword'>{{if ne .Headword.Simplified "\\N"}}{{ .Headword.Simplified }}{{end}}
-          {{if ne .Headword.Traditional "\\N"}}
-            ({{.Headword.Traditional}})
+        <h2><span class='dict-entry-headword'>{{if DerefNe .Headword.Simplified "\\N"}}{{ Deref .Headword.Simplified }}{{end}}
+          {{if DerefNe .Headword.Traditional "\\N"}}
+            ({{Deref .Headword.Traditional}})
           {{end}}</span>
           {{ range $pinyin := .Headword.Pinyin }} {{ $pinyin }} {{ end }}
         </h2>
@@ -211,7 +211,7 @@
               <td>
                 <a href='/words/{{$w.Id}}.html'>{{ $w.Simplified }}</a>
               </td>
-              <td>{{if ne .Traditional "\\N"}}{{.Traditional}}{{end}}</td>
+              <td>{{if DerefNe .Traditional "\\N"}}{{Deref .Traditional}}{{end}}</td>
               <td>
                 {{ range $p := $w.Pinyin }} {{ $p }} {{ end }}
               </td>

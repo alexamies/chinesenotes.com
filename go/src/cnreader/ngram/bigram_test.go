@@ -10,17 +10,21 @@ import (
 // Test basic Bigram functions
 func TestBigram(t *testing.T) {
 	fmt.Printf("TestBigram: Begin unit test\n")
+	s1 := "蓝"
+	s2 := "藍"
 	hw1 := dictionary.HeadwordDef{
 		Id: 1,
-		Simplified: "蓝", 
-		Traditional: "藍",
+		Simplified: &s1, 
+		Traditional: &s2,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{},
 	}
+	s3 := "天"
+	s4 := "\\N"
 	hw2 := dictionary.HeadwordDef{
 		Id: 2,
-		Simplified: "天", 
-		Traditional: "\\N",
+		Simplified: &s3, 
+		Traditional: &s4,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{},
 	}

@@ -98,7 +98,7 @@ func decodeUsageExample(usageText string, headword dictionary.HeadwordDef) strin
 	replacementText := ""
 	for e := tokens.Front(); e != nil; e = e.Next() {
 		word := e.Value.(string)
-		if word == headword.Simplified || word == headword.Traditional {
+		if word == *headword.Simplified || word == *headword.Traditional {
 			replacementText = replacementText +
 				"<span class='usage-highlight'>" + word + "</span>"
 		} else {
@@ -266,8 +266,8 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 						}
 						hw := dictionary.HeadwordDef{
 							Id: wsArray[0].HeadwordId,
-							Simplified: wsArray[0].Simplified,
-							Traditional: wsArray[0].Traditional,
+							Simplified: &wsArray[0].Simplified,
+							Traditional: &wsArray[0].Traditional,
 							Pinyin: []string{},
 							WordSenses: &[]dictionary.WordSenseEntry{*wsArray[0]},
 						}
@@ -582,8 +582,8 @@ func writeCollection(collectionEntry corpus.CollectionEntry) CollectionAResults 
 	for _, entry := range corpusEntries {
 		src := config.CorpusDir() + "/" + entry.RawFile
 		dest := config.WebDir() + "/" + entry.GlossFile
-		//log.Printf("analysis.writeCollection: input file: %s, output file:
-			//%s\n", src, dest)
+		//log.Printf("analysis.writeCollection: input file: %s, output file: %s\n",
+		//	src, dest)
 		text := ReadText(src)
 		tokens, results := ParseText(text, collectionEntry.Title, &entry)
 		aFile := writeAnalysis(results, entry.RawFile, collectionEntry.Title,
@@ -596,7 +596,7 @@ func writeCollection(collectionEntry corpus.CollectionEntry) CollectionAResults 
 		collectionEntry.Title, "")
 	corpus.WriteCollectionFile(collectionEntry.CollectionFile, aFile)
 	//log.Printf("analysis.writeCollection: completed: %s\n",
-		//collectionEntry.CollectionFile)
+	//	collectionEntry.CollectionFile)
 	return aResults
 }
 
@@ -768,7 +768,11 @@ func WriteHwFiles() {
 
 	// Prepare template
 	templFile := config.ProjectHome() + "/html/templates/headword-template.html"
-	tmpl := template.Must(template.New("headword-template.html").ParseFiles(templFile))
+	fm := template.FuncMap{
+    	"Deref": func(sp *string) string { return *sp },
+    	"DerefNe": func(sp *string, s string) bool { return *sp != s },
+    }
+	tmpl := template.Must(template.New("headword-template.html").Funcs(fm).ParseFiles(templFile))
 
 	i := 0
 	for _, hw := range hwArray {
@@ -781,21 +785,21 @@ func WriteHwFiles() {
 		//}
 
 		// Words that contain this word
-		contains := dictionary.ContainsWord(hw.Simplified, hwArray)
+		contains := dictionary.ContainsWord(*hw.Simplified, hwArray)
 
 		// Sorted array of collocations
 		wordCollocations := collocations.SortedCollocations(hw.Id)
 
 		// Combine usage arrays for both simplified and traditional characters
-		usageArrPtr, ok := usageMap[hw.Simplified]
+		usageArrPtr, ok := usageMap[*hw.Simplified]
 		if !ok {
-			usageArrPtr, ok = usageMap[hw.Traditional]
+			usageArrPtr, ok = usageMap[*hw.Traditional]
 			if !ok {
 				//log.Printf("WriteHwFiles: no usage for %s", hw.Simplified)
 				usageArrPtr = &[]WordUsage{}
 			}
 		} else {
-			usageArrTradPtr, ok := usageMap[hw.Traditional]
+			usageArrTradPtr, ok := usageMap[*hw.Traditional]
 			if ok {
 				usageArr := *usageArrPtr
 				usageArrTrad := *usageArrTradPtr

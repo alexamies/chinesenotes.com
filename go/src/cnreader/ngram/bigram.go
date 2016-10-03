@@ -27,8 +27,11 @@ func (bigram *Bigram) ContainsFunctionWord() bool {
 
 // The simplified text of the bigram
 func (bigram *Bigram) Simplified() string {
-	return fmt.Sprintf("%s%s", bigram.HeadwordDef1.Simplified,
-		bigram.HeadwordDef2.Simplified)
+	if bigram.HeadwordDef1.Simplified == nil || bigram.HeadwordDef2.Simplified == nil {
+		return "bigram.Simplified nil value"
+	}
+	return fmt.Sprintf("%s%s", *bigram.HeadwordDef1.Simplified,
+		*bigram.HeadwordDef2.Simplified)
 }
 
 // Override string method for comparison
@@ -39,13 +42,16 @@ func (bigram *Bigram) String() string {
 
 // The traditional text of the bigram
 func (bigram *Bigram) Traditional() string {
-	t1 := bigram.HeadwordDef1.Traditional
-	if t1 == "\\N" {
-		t1 = bigram.HeadwordDef1.Simplified
+	if bigram.HeadwordDef1.Traditional == nil || bigram.HeadwordDef2.Traditional == nil {
+		return "bigram.Traditional nil value"
 	}
-	t2 := bigram.HeadwordDef2.Traditional
+	t1 := *bigram.HeadwordDef1.Traditional
+	if t1 == "\\N" {
+		t1 = *bigram.HeadwordDef1.Simplified
+	}
+	t2 := *bigram.HeadwordDef2.Traditional
 	if t2 == "\\N" {
-		t2 = bigram.HeadwordDef2.Simplified
+		t2 = *bigram.HeadwordDef2.Simplified
 	}
 	return fmt.Sprintf("%s%s", t1, t2)
 }

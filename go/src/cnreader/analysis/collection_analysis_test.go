@@ -16,31 +16,35 @@ func TestAddResults(t *testing.T) {
 	vocab := map[string]int{"one":1, "three":3, "two":2}
 	usage := map[string]string {"one": "one banana"}
 	unknown := map[string]int{"x":1}
+	s1 := "蓝"
+	s2 := "藍"
 	ws1 := dictionary.WordSenseEntry{
 		Id: 1,
-		Simplified: "蓝", 
-		Traditional: "藍",
+		Simplified: s1, 
+		Traditional: s2,
 		Pinyin: "lán",
 		Grammar: "adjective",
 	}
 	hw1 := dictionary.HeadwordDef{
 		Id: 1,
-		Simplified: "蓝", 
-		Traditional: "藍",
+		Simplified: &s1, 
+		Traditional: &s2,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws1},
 	}
+	s3 := "天"
+	s4 := "\\N"
 	ws2 := dictionary.WordSenseEntry{
 		Id: 1,
-		Simplified: "天", 
-		Traditional: "\\N",
+		Simplified: s3, 
+		Traditional: s4,
 		Pinyin: "tiān",
 		Grammar: "noun",
 	}
 	hw2 := dictionary.HeadwordDef{
 		Id: 2,
-		Simplified: "天",
-		Traditional: "\\N",
+		Simplified: &s3,
+		Traditional: &s4,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
@@ -64,17 +68,19 @@ func TestAddResults(t *testing.T) {
 	}
 	moreVocab := map[string]int{"one":1, "three":1, "four":4}
 	moreUsage := map[string]string {"two": "two banana"}
+	s5 := "海"
+	s6 := "\\N"
 	ws3 := dictionary.WordSenseEntry{
 		Id: 3,
-		Simplified: "海", 
-		Traditional: "\\N",
+		Simplified: s5, 
+		Traditional: s6,
 		Pinyin: "hǎi",
 		Grammar: "noun",
 	}
 	hw3 := dictionary.HeadwordDef{
 		Id: 3,
-		Simplified: "海",
-		Traditional: "\\N",
+		Simplified: &s5,
+		Traditional: &s6,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws3},
 	}

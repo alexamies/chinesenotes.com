@@ -12,31 +12,35 @@ func TestCMPutBigram(t *testing.T) {
 	fmt.Printf("TestCMPutBigram: Begin unit test\n")
 
 	// Data to test
+	s1 := "蓝"
+	s2 := "藍"
 	ws1 := dictionary.WordSenseEntry{
 		Id: 1,
-		Simplified: "蓝", 
-		Traditional: "藍",
+		Simplified: s1, 
+		Traditional: s2,
 		Pinyin: "lán",
 		Grammar: "adjective",
 	}
 	hw1 := dictionary.HeadwordDef{
 		Id: 1,
-		Simplified: "蓝", 
-		Traditional: "藍",
+		Simplified: &s1, 
+		Traditional: &s2,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws1},
 	}
+	s3 := "天"
+	s4 := "\\N"
 	ws2 := dictionary.WordSenseEntry{
 		Id: 1,
-		Simplified: "天", 
-		Traditional: "\\N",
+		Simplified: s3, 
+		Traditional: s4,
 		Pinyin: "tiān",
 		Grammar: "noun",
 	}
 	hw2 := dictionary.HeadwordDef{
 		Id: 2,
-		Simplified: "天",
-		Traditional: "\\N",
+		Simplified: &s3, 
+		Traditional: &s4,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
@@ -68,31 +72,35 @@ func TestCMPutBigram(t *testing.T) {
 func TestCMPutBigramFreq(t *testing.T) {
 
 	// Data to test
+	s1 := "蓝"
+	s2 := "藍"
 	ws1 := dictionary.WordSenseEntry{
 		Id: 1,
-		Simplified: "蓝", 
-		Traditional: "藍",
+		Simplified: s1, 
+		Traditional: s2,
 		Pinyin: "lán",
 		Grammar: "adjective",
 	}
 	hw1 := dictionary.HeadwordDef{
 		Id: 1,
-		Simplified: "蓝", 
-		Traditional: "藍",
+		Simplified: &s1, 
+		Traditional: &s2,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws1},
 	}
+	s3 := "天"
+	s4 := "\\N"
 	ws2 := dictionary.WordSenseEntry{
 		Id: 1,
-		Simplified: "天", 
-		Traditional: "\\N",
+		Simplified: s3, 
+		Traditional: s4,
 		Pinyin: "tiān",
 		Grammar: "noun",
 	}
 	hw2 := dictionary.HeadwordDef{
 		Id: 2,
-		Simplified: "天",
-		Traditional: "\\N",
+		Simplified: &s3, 
+		Traditional: &s4,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
@@ -126,31 +134,35 @@ func TestCMPutBigramFreq(t *testing.T) {
 func TestMergeCollocationMap(t *testing.T) {
 
 	// Data to test
+	s1 := "蓝"
+	s2 := "藍"
 	ws1 := dictionary.WordSenseEntry{
 		Id: 1,
-		Simplified: "蓝", 
-		Traditional: "藍",
+		Simplified: s1, 
+		Traditional: s2,
 		Pinyin: "lán",
 		Grammar: "adjective",
 	}
 	hw1 := dictionary.HeadwordDef{
 		Id: 1,
-		Simplified: "蓝", 
-		Traditional: "藍",
+		Simplified: &s1, 
+		Traditional: &s2,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws1},
 	}
+	s3 := "天"
+	s4 := "\\N"
 	ws2 := dictionary.WordSenseEntry{
 		Id: 1,
-		Simplified: "天", 
-		Traditional: "\\N",
+		Simplified: s3, 
+		Traditional: s4,
 		Pinyin: "tiān",
 		Grammar: "noun",
 	}
 	hw2 := dictionary.HeadwordDef{
 		Id: 2,
-		Simplified: "天",
-		Traditional: "\\N",
+		Simplified: &s3, 
+		Traditional: &s4,
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
