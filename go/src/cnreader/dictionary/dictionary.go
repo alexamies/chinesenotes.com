@@ -140,6 +140,9 @@ func GetHeadwords() []HeadwordDef {
 }
 
 func GetHwMap() map[int]HeadwordDef {
+	if hwIdMap == nil {
+		GetHeadwords()
+	}
 	return hwIdMap
 }
 
