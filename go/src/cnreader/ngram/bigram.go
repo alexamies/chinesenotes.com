@@ -58,15 +58,16 @@ func bigramKey(id1, id2 int) string {
 // Bigrams that contain function words should be excluded
 func (bigram *Bigram) ContainsFunctionWord() bool {
 	if bigram.HeadwordDef1.WordSenses == nil || bigram.HeadwordDef2.WordSenses == nil {
-		msg := ""
+		msg := "bigram.ContainsFunctionWord: nil reference"
 		if bigram.HeadwordDef1.Simplified != nil {
-			msg = fmt.Sprintf("bigram.ContainsFunctionWord: nil reference, Simplified1 = %s", 
+			msg += fmt.Sprintf(", Simplified1 = %s",  
 				*bigram.HeadwordDef1.Simplified)
-		} else if bigram.HeadwordDef2.Simplified != nil {
-			msg = fmt.Sprintf("bigram.ContainsFunctionWord: nil reference, Simplified2 = %s", 
-				*bigram.HeadwordDef2.Simplified)
 		}
-		panic(msg)
+		if bigram.HeadwordDef2.Simplified != nil {
+			msg += fmt.Sprintf(", Simplified2 = %s",  
+				*bigram.HeadwordDef1.Simplified)
+		}
+		log.Fatal(msg)
 	}
 	ws1 := (*bigram.HeadwordDef1.WordSenses)[0]
 	ws2 := (*bigram.HeadwordDef2.WordSenses)[0]
