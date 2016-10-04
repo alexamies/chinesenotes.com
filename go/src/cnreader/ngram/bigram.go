@@ -94,7 +94,9 @@ func (bigram *Bigram) String() string {
 // The traditional text of the bigram
 func (bigram *Bigram) Traditional() string {
 	if bigram.HeadwordDef1.Traditional == nil || bigram.HeadwordDef2.Traditional == nil {
-		panic("bigram.Traditional(): nil reference")
+		msg := "bigram.Traditional(): nil reference"
+		log.Printf(msg)
+		return msg
 	}
 	t1 := *bigram.HeadwordDef1.Traditional
 	if t1 == "\\N" {
