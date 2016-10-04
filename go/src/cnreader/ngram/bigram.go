@@ -78,7 +78,9 @@ func (bigram *Bigram) ContainsFunctionWord() bool {
 // The simplified text of the bigram
 func (bigram *Bigram) Simplified() string {
 	if bigram.HeadwordDef1.Simplified == nil || bigram.HeadwordDef2.Simplified == nil {
-		panic("bigram.Simplified nil value")
+		msg := "bigram.Simplified nil value"
+		log.Printf(msg)
+		return msg
 	}
 	return fmt.Sprintf("%s%s", *bigram.HeadwordDef1.Simplified,
 		*bigram.HeadwordDef2.Simplified)
