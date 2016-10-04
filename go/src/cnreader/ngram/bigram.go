@@ -67,7 +67,7 @@ func (bigram *Bigram) ContainsFunctionWord() bool {
 			msg += fmt.Sprintf(", Simplified2 = %s",  
 				*bigram.HeadwordDef1.Simplified)
 		}
-		log.Fatal(msg)
+		log.Printf(msg)
 	}
 	ws1 := (*bigram.HeadwordDef1.WordSenses)[0]
 	ws2 := (*bigram.HeadwordDef2.WordSenses)[0]
