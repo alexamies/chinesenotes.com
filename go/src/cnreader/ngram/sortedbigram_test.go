@@ -42,14 +42,11 @@ func TestSortedBFM(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
-	b1 := Bigram{
-		HeadwordDef1: &hw1, 
-		HeadwordDef2: &hw2,
-		Example: "",
-		ExFile: "",
-		ExDocTitle: "",
-		ExColTitle: "",
-	}
+	example := ""
+	exFile := ""
+	exDocTitle := ""
+	exColTitle := ""
+	b1 := NewBigram(hw1, hw2, example, exFile, exDocTitle, exColTitle)
 	bm := BigramFreqMap{}
 	bm.PutBigram(b1)
 	bm.PutBigram(b1)
@@ -69,14 +66,7 @@ func TestSortedBFM(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws3},
 	}
-	b2 := Bigram{
-		HeadwordDef1: &hw1,
-		HeadwordDef2: &hw3,
-		Example: "",
-		ExFile: "",
-		ExDocTitle: "",
-		ExColTitle: "",
-	}
+	b2 := NewBigram(hw1, hw3, example, exFile, exDocTitle, exColTitle)
 	bm.PutBigram(b2)
 	sbf := SortedFreq(bm)
 	r1 := len(sbf)

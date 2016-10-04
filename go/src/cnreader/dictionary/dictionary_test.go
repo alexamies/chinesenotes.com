@@ -36,7 +36,13 @@ func TestContainsWord1(t *testing.T) {
 
 func TestGetHwMap(t *testing.T) {
 	GetHeadwords()
-	GetHwMap()
+	hwIdMap := GetHwMap()
+	hw := hwIdMap[1]
+	expected := "阿爾巴尼亞"
+	if *hw.Traditional != expected {
+		t.Error("dictionary.TestGetHwMap: expected ", expected, ", got ",
+			*hw.Traditional)
+	}
 }
 
 // Both traditional and simplified

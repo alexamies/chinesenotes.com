@@ -12,8 +12,19 @@ type BigramFreq struct {
 // Map of the frequency of occurence of a bigram in a collection of texts
 type BigramFreqMap map[string]BigramFreq
 
+// Does the Bigram map contain a bigram with this combination of words?
+func (bfmPtr *BigramFreqMap) GetBigramVal(id1, id2 int) (*Bigram, bool) {
+	bfm := *bfmPtr
+	key := bigramKey(id1, id2)
+	bf, ok := bfm[key]
+	if ok {
+		return &bf.BigramVal, ok
+	}
+	return NullBigram(), ok
+}
+
 // Put the bigram in the bigram frequency map
-func (bfmPtr *BigramFreqMap) GetBigram(bigram Bigram) BigramFreq {
+func (bfmPtr *BigramFreqMap) GetBigram(bigram *Bigram) BigramFreq {
 	bfm := *bfmPtr
 	return bfm[bigram.String()]
 }
@@ -32,11 +43,11 @@ func (bfmPtr *BigramFreqMap) Merge(more BigramFreqMap) {
 }
 
 // Put the bigram in the bigram frequency map
-func (bfmPtr *BigramFreqMap) PutBigram(bigram Bigram) {
+func (bfmPtr *BigramFreqMap) PutBigram(bigram *Bigram) {
 	if !bigram.ContainsFunctionWord() {
 		bfm := *bfmPtr
 		if bf, ok := bfm[bigram.String()]; !ok {
-			bfm[bigram.String()] = BigramFreq{bigram, 1}
+			bfm[bigram.String()] = BigramFreq{*bigram, 1}
 		} else {
 			bf.Frequency++
 			bfm[bigram.String()] = bf

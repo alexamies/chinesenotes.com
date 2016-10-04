@@ -44,14 +44,11 @@ func TestMerge(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
-	b1 := Bigram{
-		HeadwordDef1: &hw1, 
-		HeadwordDef2: &hw2,
-		Example: "",
-		ExFile: "",
-		ExDocTitle: "",
-		ExColTitle: "",
-	}
+	example := ""
+	exFile := ""
+	exDocTitle := ""
+	exColTitle := ""
+	b1 := NewBigram(hw1, hw2, example, exFile, exDocTitle, exColTitle)
 	bm := BigramFreqMap{}
 
 	// Invoke twice
@@ -75,14 +72,7 @@ func TestMerge(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws3},
 	}
-	b2 := Bigram{
-		HeadwordDef1: &hw1,
-		HeadwordDef2: &hw3,
-		Example: "",
-		ExFile: "",
-		ExDocTitle: "",
-		ExColTitle: "",
-	}
+	b2 := NewBigram(hw1, hw3, example, exFile, exDocTitle, exColTitle)
 	bm2 := BigramFreqMap{}
 	bm2.PutBigram(b1)
 	bm2.PutBigram(b2)
@@ -139,14 +129,11 @@ func TestPutBigram(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
-	b1 := Bigram{
-		HeadwordDef1: &hw1, 
-		HeadwordDef2: &hw2,
-		Example: "",
-		ExFile: "",
-		ExDocTitle: "",
-		ExColTitle: "",
-	}
+	example := ""
+	exFile := ""
+	exDocTitle := ""
+	exColTitle := ""
+	b1 := NewBigram(hw1, hw2, example, exFile, exDocTitle, exColTitle)
 	bm := BigramFreqMap{}
 
 	// Method to test (invoke twice)
@@ -175,14 +162,7 @@ func TestPutBigram(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws3},
 	}
-	b2 := Bigram{
-		HeadwordDef1: &hw1,
-		HeadwordDef2: &hw3,
-		Example: "",
-		ExFile: "",
-		ExDocTitle: "",
-		ExColTitle: "",
-	}
+	b2 := NewBigram(hw1, hw3, example, exFile, exDocTitle, exColTitle)
 	r2 := bm.GetBigram(b2)
 	e2 := 0
 	if r2.Frequency != e2 {
@@ -226,17 +206,14 @@ func TestPutBigramFreq(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
-	b1 := Bigram{
-		HeadwordDef1: &hw1, 
-		HeadwordDef2: &hw2,
-		Example: "",
-		ExFile: "",
-		ExDocTitle: "",
-		ExColTitle: "",
-	}
+	example := ""
+	exFile := ""
+	exDocTitle := ""
+	exColTitle := ""
+	b1 := NewBigram(hw1, hw2, example, exFile, exDocTitle, exColTitle)
 	bm := BigramFreqMap{}
 	bm.PutBigram(b1)
-	bf := BigramFreq{b1, 2}
+	bf := BigramFreq{*b1, 2}
 
 	// Method to test (invoke twice)
 	bm.PutBigramFreq(bf)

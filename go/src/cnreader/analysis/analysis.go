@@ -235,6 +235,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	wc := 0
 	chunks := GetChunks(text)
 	wdict := dictionary.GetWDict()
+	dictionary.GetHeadwords()
 	hwIdMap := dictionary.GetHwMap()
 	lastHWPtr := new(dictionary.HeadwordDef)
 	lastHW := *lastHWPtr
@@ -276,13 +277,11 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 						}
 						*/
 						if lastHW.Id != 0 {
-							bigram := ngram.Bigram{
-								HeadwordDef1: &lastHW,
-								HeadwordDef2: &hw,
-								Example: chunk,
-								ExFile: document.GlossFile,
-								ExDocTitle: document.Title,
-								ExColTitle: colTitle,
+							bigram, ok := bigramMap.GetBigramVal(lastHW.Id,
+								wsArray[0].HeadwordId)
+							if !ok {
+								bigram = ngram.NewBigram(lastHW, hw, chunk,
+									document.GlossFile, document.Title, colTitle)
 							}
 							bigramMap.PutBigram(bigram)
 							collocations.PutBigram(bigram.HeadwordDef1.Id, bigram)

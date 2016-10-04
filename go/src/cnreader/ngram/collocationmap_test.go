@@ -44,14 +44,11 @@ func TestCMPutBigram(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
-	b1 := Bigram{
-		HeadwordDef1: &hw1, 
-		HeadwordDef2: &hw2,
-		Example: "",
-		ExFile: "",
-		ExDocTitle: "",
-		ExColTitle: "",
-	}
+	example := ""
+	exFile := ""
+	exDocTitle := ""
+	exColTitle := ""
+	b1 := NewBigram(hw1, hw2, example, exFile, exDocTitle, exColTitle)
 	cm := CollocationMap{}
 
 	// Method being tested
@@ -104,17 +101,14 @@ func TestCMPutBigramFreq(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
-	b1 := Bigram{
-		HeadwordDef1: &hw1, 
-		HeadwordDef2: &hw2,
-		Example: "",
-		ExFile: "",
-		ExDocTitle: "",
-		ExColTitle: "",
-	}
+	example := ""
+	exFile := ""
+	exDocTitle := ""
+	exColTitle := ""
+	b1 := NewBigram(hw1, hw2, example, exFile, exDocTitle, exColTitle)
 	cm := CollocationMap{}
 	cm.PutBigram(hw1.Id, b1)
-	bf := BigramFreq{b1, 3}
+	bf := BigramFreq{*b1, 3}
 
 	// Method being tested
 	cm.PutBigramFreq(hw1.Id, bf)
@@ -166,14 +160,11 @@ func TestMergeCollocationMap(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
-	b1 := Bigram{
-		HeadwordDef1: &hw1, 
-		HeadwordDef2: &hw2,
-		Example: "",
-		ExFile: "",
-		ExDocTitle: "",
-		ExColTitle: "",
-	}
+	example := ""
+	exFile := ""
+	exDocTitle := ""
+	exColTitle := ""
+	b1 := NewBigram(hw1, hw2, example, exFile, exDocTitle, exColTitle)
 	cm := CollocationMap{}
 	cm.PutBigram(hw1.Id, b1)
 	cm2 := CollocationMap{}

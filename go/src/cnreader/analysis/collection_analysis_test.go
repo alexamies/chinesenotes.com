@@ -48,14 +48,11 @@ func TestAddResults(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws2},
 	}
-	b1 := ngram.Bigram{
-		HeadwordDef1: &hw1, 
-		HeadwordDef2: &hw2,
-		Example: "",
-		ExFile: "",
-		ExDocTitle: "",
-		ExColTitle: "",
-	}
+	example := ""
+	exFile := ""
+	exDocTitle := ""
+	exColTitle := ""
+	b1 := ngram.NewBigram(hw1, hw2, example, exFile, exDocTitle, exColTitle)
 	bm := ngram.BigramFreqMap{}
 	bm.PutBigram(b1)
 	bm.PutBigram(b1)
@@ -84,14 +81,7 @@ func TestAddResults(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{ws3},
 	}
-	b2 := ngram.Bigram{
-		HeadwordDef1: &hw1,
-		HeadwordDef2: &hw3,
-		Example: "",
-		ExFile: "",
-		ExDocTitle: "",
-		ExColTitle: "",
-	}
+	b2 := ngram.NewBigram(hw1, hw3, example, exFile, exDocTitle, exColTitle)
 	bm2 := ngram.BigramFreqMap{}
 	bm2.PutBigram(b1)
 	bm2.PutBigram(b1)

@@ -18,7 +18,7 @@ func (sbf *SortedBFM) Len() int {
 }
 
 func (sbf *SortedBFM) Less(i, j int) bool {
-	return sbf.bfm.GetBigram(sbf.f[i].BigramVal).Frequency > sbf.bfm.GetBigram(sbf.f[j].BigramVal).Frequency
+	return sbf.bfm.GetBigram(&sbf.f[i].BigramVal).Frequency > sbf.bfm.GetBigram(&sbf.f[j].BigramVal).Frequency
 }
 
 func NewSortedBFM(bfm BigramFreqMap) *SortedBFM {

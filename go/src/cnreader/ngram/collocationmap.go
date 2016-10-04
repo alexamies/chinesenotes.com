@@ -19,7 +19,7 @@ func (cmPtr *CollocationMap) MergeCollocationMap(more CollocationMap) {
 }
 
 // Put the bigram in the bigram frequency map for the specific word
-func (cmPtr *CollocationMap) PutBigram(headwordId int, bigram Bigram) {
+func (cmPtr *CollocationMap) PutBigram(headwordId int, bigram *Bigram) {
 	if !bigram.ContainsFunctionWord() {
 		cm := *cmPtr
 		if bfm, ok := cm[headwordId]; ok {

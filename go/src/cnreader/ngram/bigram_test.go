@@ -28,14 +28,11 @@ func TestBigram(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{},
 	}
-	b := Bigram{
-		HeadwordDef1: &hw1,
-		HeadwordDef2: &hw2,
-		Example: "",
-		ExFile: "",
-		ExDocTitle: "",
-		ExColTitle: "",
-	}
+	example := ""
+	exFile := ""
+	exDocTitle := ""
+	exColTitle := ""
+	b := NewBigram(hw1, hw2, example, exFile, exDocTitle, exColTitle)
 	r := b.Traditional()
 	e := "藍天"
 	if r != e {
