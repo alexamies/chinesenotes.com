@@ -10,8 +10,8 @@ import (
 // Test basic Bigram functions
 func TestBigram(t *testing.T) {
 	fmt.Printf("TestBigram: Begin unit test\n")
-	s1 := "蓝"
-	s2 := "藍"
+	s1 := "诸"
+	s2 := "諸"
 	hw1 := dictionary.HeadwordDef{
 		Id: 1,
 		Simplified: &s1, 
@@ -19,7 +19,7 @@ func TestBigram(t *testing.T) {
 		Pinyin: []string{},
 		WordSenses: &[]dictionary.WordSenseEntry{},
 	}
-	s3 := "天"
+	s3 := "倿"
 	s4 := "\\N"
 	hw2 := dictionary.HeadwordDef{
 		Id: 2,
@@ -34,7 +34,7 @@ func TestBigram(t *testing.T) {
 	exColTitle := ""
 	b := NewBigram(hw1, hw2, example, exFile, exDocTitle, exColTitle)
 	r := b.Traditional()
-	e := "藍天"
+	e := "諸倿"
 	if r != e {
 		t.Error("TestBigram, expected ", e, " got, ", r)
 	}

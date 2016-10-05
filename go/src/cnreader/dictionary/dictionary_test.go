@@ -34,14 +34,33 @@ func TestContainsWord1(t *testing.T) {
 	}
 }
 
-func TestGetHwMap(t *testing.T) {
+func TestGetHwMap1(t *testing.T) {
 	GetHeadwords()
 	hwIdMap := GetHwMap()
 	hw := hwIdMap[1]
 	expected := "阿爾巴尼亞"
 	if *hw.Traditional != expected {
-		t.Error("dictionary.TestGetHwMap: expected ", expected, ", got ",
+		t.Error("dictionary.TestGetHwMap1: expected ", expected, ", got ",
 			*hw.Traditional)
+	}
+}
+
+func TestGetHwMap2(t *testing.T) {
+	hwIdMap := GetHwMap()
+	hw, ok := hwIdMap[44832]
+	if !ok {
+		t.Error("dictionary.TestGetHwMap2, Expected true, got ", ok)
+	}
+	if *hw.Simplified != "倿" {
+		t.Error("dictionary.TestGetHwMap2, Expected Simplified = 倿, got ",
+				hw.Simplified)
+	}
+	if *hw.Simplified != "倿" {
+		t.Error("dictionary.TestGetHwMap2, Expected Simplified = 倿, got ",
+				hw.Simplified)
+	}
+	if hw.WordSenses == nil {
+		t.Error("dictionary.TestGetHwMap2: WordSenses nil")
 	}
 }
 
@@ -200,7 +219,7 @@ func TestIsProperNoun2(t *testing.T) {
 func TestWriteHeadwords(t *testing.T) {
 	fmt.Printf("TestWriteHeadwords: Begin +++++++++++\n")
 	ReadDict(config.LUFileNames())
-	WriteHeadwords()
+	//WriteHeadwords()
 }
 
 func TestReadDict1(t *testing.T) {
@@ -257,14 +276,34 @@ func TestReadDict1(t *testing.T) {
 	}
 }
 
-func TestGetWord(t *testing.T) {
+func TestGetWord1(t *testing.T) {
 	fileNames := []string{"../testdata/testwords.txt"}
 	ReadDict(fileNames)
 	word, ok := GetWord("中")
 	if !ok {
-		t.Error("Expected true, got ", ok)
+		t.Error("TestGetWord1, Expected true, got ", ok)
 	}
 	if len(word) != 2 {
-		t.Error("Expected len(word) = 2, got ", len(word))
+		t.Error("TestGetWord1, Expected len(word) = 2, got ", len(word))
+	}
+}
+
+func TestGetWord2(t *testing.T) {
+	ReadDict(config.LUFileNames())
+	word, ok := GetWord("倿")
+	if !ok {
+		t.Error("TestGetWord2, Expected true, got ", ok)
+	}
+	if len(word) != 1 {
+		t.Error("TestGetWord2, Expected len(word) = 1, got ", len(word))
+	} else {
+		if word[0].Simplified != "倿" {
+			t.Error("TestGetWord2, Expected Simplified = 倿, got ",
+				word[0].Simplified)
+		}
+		if word[0].HeadwordId != 44832 {
+			t.Error("TestGetWord2, Expected HeadwordId = 44832, got ",
+				word[0].HeadwordId)
+		}
 	}
 }

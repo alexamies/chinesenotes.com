@@ -149,6 +149,7 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 	// Overall word frequencies per corpus
 	collocations := ngram.CollocationMap{}
 	usageMap := map[string]*[]WordUsage{}
+	ccount := 0 // character count
 	wcTotal := map[string]int{}
 	wfTotal := map[*CorpusWord]CorpusWordFreq{}
 	corpusDir := config.ProjectHome() + "/corpus/"
@@ -162,6 +163,7 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 		for _, entry := range corpusEntries {
 			src := corpusDir + entry.RawFile
 			text := ReadText(src)
+			ccount += utf8.RuneCountInString(text)
 			_, results := ParseText(text, col.Title, &entry)
 			wcTotal[col.Corpus] += results.WC
 
@@ -199,6 +201,7 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 			corpus, count)
 	}
 	log.Printf("WordFrequencies: len(collocations) = %d\n", len(collocations))
+	log.Printf("WordFrequencies: character count = %d\n", ccount)
 
 	return usageMap, wfTotal, wcTotal, collocations
 }
@@ -265,8 +268,14 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 						if _, ok := usage[w]; !ok {
 							usage[w] = chunk
 						}
-						hw := hwIdMap[wsArray[0].HeadwordId]
+						hwid := wsArray[0].HeadwordId
+						hw := hwIdMap[hwid]
 						if lastHW.Id != 0 {
+							if hw.WordSenses == nil {
+								log.Printf("ParseText: WordSenses nil for %s " +
+									", id = %d, in %s, %s\n", w, hwid, 
+									document.Title, colTitle)
+							}
 							bigram, ok := bigramMap.GetBigramVal(lastHW.Id,
 								wsArray[0].HeadwordId)
 							if !ok {
@@ -575,8 +584,11 @@ func writeCollection(collectionEntry corpus.CollectionEntry) CollectionAResults 
 	for _, entry := range corpusEntries {
 		src := config.CorpusDir() + "/" + entry.RawFile
 		dest := config.WebDir() + "/" + entry.GlossFile
-		//log.Printf("analysis.writeCollection: input file: %s, output file: %s\n",
-		//	src, dest)
+		if collectionEntry.Title == "" {
+			log.Printf("analysis.writeCollection: collectionEntry.Title is " +
+					"empty, input file: %s, output file: %s\n",
+					src, dest)
+		}
 		text := ReadText(src)
 		tokens, results := ParseText(text, collectionEntry.Title, &entry)
 		aFile := writeAnalysis(results, entry.RawFile, collectionEntry.Title,

@@ -4,7 +4,8 @@ Library for storing collocations for each word in the dictionary.
 package ngram
 
 // Max collocation elements for a single word
-const MAX_COLLOCATIONS = 20
+const MAX_COLLOCATIONS = 20 // Max to report
+const MAX_STORE = 100 // Max to store
 
 // The key is the headword id, each entry is a bigram frequency map
 type CollocationMap map[int]BigramFreqMap
@@ -39,7 +40,9 @@ func (cmPtr *CollocationMap) PutBigramFreq(key int, bigramFreq BigramFreq) {
 		bgKey := bigramFreq.BigramVal.String()
 		cm[key] = BigramFreqMap{bgKey: bigramFreq}
 	} else {
-		bfm.PutBigramFreq(bigramFreq)
+		if len(bfm) < MAX_STORE {
+			bfm.PutBigramFreq(bigramFreq)
+		}
 	}
 }
 

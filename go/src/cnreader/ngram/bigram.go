@@ -24,6 +24,23 @@ type Bigram struct {
 // Constructor for a Bigram struct
 func NewBigram(hw1, hw2 dictionary.HeadwordDef,
 		example, exFile, exDocTitle, exColTitle string) *Bigram {
+	if hw1.WordSenses == nil || hw2.WordSenses == nil {
+		msg := "bigram.NewBigram: nil reference"
+		if hw1.Simplified != nil {
+			msg += fmt.Sprintf(", Simplified1 = %s", *hw1.Simplified)
+		}
+		if hw2.Simplified != nil {
+			msg += fmt.Sprintf(", Simplified2 = %s", *hw2.Simplified)
+		}
+		if hw1.Traditional != nil {
+			msg += fmt.Sprintf(", Traditional1 = %s", *hw1.Traditional)
+		}
+		if hw2.Traditional != nil {
+			msg += fmt.Sprintf(", Traditional2 = %s", *hw2.Traditional)
+		}
+		msg += fmt.Sprintf("in %s, %s", exFile, exColTitle)
+		log.Printf(msg)
+	}
 	return &Bigram{
 		HeadwordDef1: &hw1,
 		HeadwordDef2: &hw2,
