@@ -5,7 +5,7 @@ package ngram
 
 // Max collocation elements for a single word
 const MAX_COLLOCATIONS = 20 // Max to report
-const MAX_STORE = 100 // Max to store
+const MAX_STORE = 50 // Max to store
 
 // The key is the headword id, each entry is a bigram frequency map
 type CollocationMap map[int]BigramFreqMap
