@@ -35,7 +35,7 @@ const MAX_UNKOWN_OUTPUT = 50
 const UNIGRAM_FILE = "unigram.txt"
 
 // Max usage elements for a word
-const MAX_USAGE = 100
+const MAX_USAGE = 50
 
 // Max number of occurrences of same title in a list of word usages
 const MAX_TITLE = 10
