@@ -8,9 +8,12 @@ $text = $_POST['text'] ? $_POST['text'] : '';
 if (strlen($text) == 0) {
     print('{"error":"No text entered. Please enter something."}' .
           '{"words":"[]"}');
-} else if (mb_strlen($text) > 100) {
-    print('{"error":"Too long. Text cannot exceed 100 characters."}');
 } else {
+    if (mb_strlen($text) > 200) {
+        //print('{"error":"Too long. Text cannot exceed 100 characters."}');
+        $text = mb_strcut($text, 0, 200);
+    }
+
     $langType = 'literary';
     if (isset($_POST['langtype'])) {
         $langType = trim($_POST['langtype']);
