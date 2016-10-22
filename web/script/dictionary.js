@@ -1,7 +1,7 @@
 // Angular code for main search page
 var textApp = angular.module('textApp', ['ngSanitize']);
 
-textApp.controller('textCtrl', function($scope, $http, $sce) {
+textApp.controller('textCtrl', function($scope, $http, $location) {
   var re = /[^\u0040-\u007F\u0080-\u00FF\u0100-\u017F\u0180-\u024F\u0300-\u036F]/;
   $scope.formData = {};
   $scope.formData.matchtype = 'approximate';
@@ -36,5 +36,13 @@ textApp.controller('textCtrl', function($scope, $http, $sce) {
       $scope.results = {"msg": data};
     });
   };
+
+  // If the URL contains text then submit the form right away
+  var l = $location.search()
+  if (l.text) {
+    //console.log("buddhistdict.js text len = " + l.text.length)
+    $scope.formData.text = l.text
+    $scope.submit()
+  }
 });
 
