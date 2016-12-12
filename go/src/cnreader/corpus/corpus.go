@@ -123,6 +123,9 @@ func CorpusEntries(collectionFile string) []CorpusEntry {
 	}
 	corpusEntries := make([]CorpusEntry, 0)
 	for _, row := range rawCSVdata {
+		if len(row) != 3 {
+			log.Fatal("corpus.CorpusEntries len(row) != 3 ", row)
+		}
 		corpusEntries = append(corpusEntries, CorpusEntry{row[0], row[1],
 			row[2]})
 	}
