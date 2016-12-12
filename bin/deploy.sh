@@ -21,6 +21,7 @@ if [ -n "$PROD" ]; then
     cp $CNREADER_HOME/web/laoshe/*.html $PROD/web/laoshe/.
     cp $CNREADER_HOME/web/liji/*.html $PROD/web/liji/.
     cp $CNREADER_HOME/web/lunyu/*.html $PROD/web/lunyu/.
+    cp $CNREADER_HOME/web/media_articles.html $PROD/web/media_articles.html
     cp $CNREADER_HOME/web/shiji/*.html $PROD/web/shiji/.
     cp $CNREADER_HOME/web/shuowen/*.html $PROD/web/shuowen/.
     cp $CNREADER_HOME/web/sishuzhangju/*.html $PROD/web/sishuzhangju/.
