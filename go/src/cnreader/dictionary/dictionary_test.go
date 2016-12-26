@@ -16,7 +16,7 @@ func TestContainsWord0(t *testing.T) {
 	result := len(contains)
 	expected := 0
 	if result != expected {
-		t.Error("Expected ", expected, ", got ", result)
+		t.Error("TestContainsWord0: Expected ", expected, ", got ", result)
 	}
 }
 
@@ -30,8 +30,56 @@ func TestContainsWord1(t *testing.T) {
 	result := len(contains)
 	notexpected := 0
 	if result <= notexpected {
-		t.Error("not expected ", notexpected, ", got ", result)
+		t.Error("TestContainsWord1: not expected ", notexpected, ", got ",
+			result)
 	}
+}
+
+// Basic test to make sure that method does something correct
+func TestContainsWord2(t *testing.T) {
+	fmt.Printf("TestContainsWord2: Begin unit test\n")
+	ReadDict(config.LUFileNames())
+	c := "不见"
+	headwords := GetHeadwords()
+	contains := ContainsWord(c, headwords)
+	result := len(contains)
+	notexpected := 0
+	if result <= notexpected {
+		t.Error("TestContainsWord2: not expected ", notexpected, ", got ",
+			result)
+	}
+}
+
+// Basic test to make sure that method does something correct
+func TestContainsWord3(t *testing.T) {
+	fmt.Printf("TestContainsWord3: Begin unit test\n")
+	ReadDict(config.LUFileNames())
+	c := "不"
+	headwords := GetHeadwords()
+	contains := ContainsWord(c, headwords)
+	result := len(contains)
+	notexpected := 0
+	if result <= notexpected {
+		t.Error("TestContainsWord3: not expected ", notexpected, ", got ",
+			result)
+	}
+	fmt.Printf("TestContainsWord3: ok\n")
+}
+
+// Basic test to make sure that method does something correct
+func TestContainsWord4(t *testing.T) {
+	fmt.Printf("TestContainsWord4: Begin unit test\n")
+	ReadDict(config.LUFileNames())
+	c := "见"
+	headwords := GetHeadwords()
+	contains := ContainsWord(c, headwords)
+	result := len(contains)
+	notexpected := 0
+	if result <= notexpected {
+		t.Error("TestContainsWord4: not expected ", notexpected, ", got ",
+			result)
+	}
+	fmt.Printf("TestContainsWord4: ok\n")
 }
 
 func TestGetHwMap1(t *testing.T) {
@@ -163,7 +211,7 @@ func TestIsFunctionWord(t *testing.T) {
 	}
 }
 
-// Tests whether the word is a function word
+// Tests whether the word is a numeric expression
 func TestIsNumericExpression1(t *testing.T) {
 	ws1 := WordSenseEntry{
 		Id: 1,
@@ -179,7 +227,7 @@ func TestIsNumericExpression1(t *testing.T) {
 	}
 }
 
-// Tests whether the word is a function word
+// Tests whether the word is a numeric expression
 func TestIsNumericExpression2(t *testing.T) {
 	ws1 := WordSenseEntry{
 		Id: 1,
@@ -191,7 +239,25 @@ func TestIsNumericExpression2(t *testing.T) {
 	result := ws1.IsNumericExpression()
 	expected := true
 	if result != expected {
-		t.Error("TestIsNumericExpression2: Expected ", expected, ", got ", result)
+		t.Error("TestIsNumericExpression2: Expected ", expected, ", got ",
+			result)
+	}
+}
+
+// Tests whether the word is a numeric expression
+func TestIsNumericExpression3(t *testing.T) {
+	ws1 := WordSenseEntry{
+		Id: 1,
+		Simplified: "不见", 
+		Traditional: "不見",
+		Pinyin: "bùjiàn",
+		Grammar: "phrase",
+	}
+	result := ws1.IsNumericExpression()
+	expected := false
+	if result != expected {
+		t.Error("TestIsNumericExpression3: Expected ", expected, ", got ",
+			result)
 	}
 }
 

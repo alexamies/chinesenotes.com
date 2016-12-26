@@ -94,13 +94,15 @@ func GetHeadwords() []HeadwordDef {
 	hwmap := make(map[int][]*WordSenseEntry)
 	hwcount := 0
 	for _, ws := range wdict {
-		key := ws[0].HeadwordId
-		if key == 9806 {
-			log.Printf("dictionary.GetHeadwords: key == 9806\n")
-		}
-		if _, ok := hwmap[key]; !ok {
-			hwmap[key] = ws
-			hwcount++
+		for _, lu := range ws {
+			key := lu.HeadwordId
+			if key == 9806 {
+				log.Printf("dictionary.GetHeadwords: key == 9806\n")
+			}
+			if _, ok := hwmap[key]; !ok {
+				hwmap[key] = ws
+				hwcount++
+			}
 		}
 	}
 	log.Printf("dictionary.GetHeadwords: hwcount = %d\n", hwcount)
@@ -193,9 +195,12 @@ func (ws *WordSenseEntry) IsNumericExpression() bool {
 	}
 	if ws.Grammar == "phrase" ||  ws.Grammar == "set phrase" {
 		for _, r := range []rune(ws.Simplified) {
-			wsChar := wdict[string(r)]
-			if wsChar[0].Grammar == "number" {
+			wsChar, ok := wdict[string(r)]
+			if ok && wsChar[0].Grammar == "number" {
 				return true
+			} else if !ok {
+				log.Printf("dictionary.IsNumericExpression not found: '%s'", 
+					string(r))
 			}
 		}
 	}
@@ -292,7 +297,6 @@ func ReadDict(wsFilenames []string) {
 				} else {
 					wdict[trad] = append(wSenses, newWs)
 				}
-				continue
 			}
 			wSenses, ok := wdict[simp]
 			if !ok {

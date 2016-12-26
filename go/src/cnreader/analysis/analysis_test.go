@@ -191,9 +191,11 @@ func TestParseText3(t *testing.T) {
 	tokens, results := ParseText("前不见古人", "", corpus.NewCorpusEntry())
 	if tokens.Len() != 3 {
 		t.Error("Expected to get length 3, got ", tokens.Len())
+		return
 	}
 	if results.WC != 3 {
 		t.Error("Expected to get wc 3, got ", results.WC)
+		return
 	}
 	expected := []string{"前", "不见", "古人"}
 	i := 0
