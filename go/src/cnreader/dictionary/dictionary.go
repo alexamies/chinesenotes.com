@@ -96,9 +96,9 @@ func GetHeadwords() []HeadwordDef {
 	for _, ws := range wdict {
 		for _, lu := range ws {
 			key := lu.HeadwordId
-			if key == 9806 {
-				log.Printf("dictionary.GetHeadwords: key == 9806\n")
-			}
+			//if key == 9806 {
+				//log.Printf("dictionary.GetHeadwords: key == 9806\n")
+			//}
 			if _, ok := hwmap[key]; !ok {
 				hwmap[key] = ws
 				hwcount++
@@ -127,7 +127,16 @@ func GetHeadwords() []HeadwordDef {
 		for pinyin, _ := range pinyinMap {
 			pinyinArr = append(pinyinArr, pinyin)
 		}
-		hw := HeadwordDef{hwId, &senses[0].Simplified, &senses[0].Traditional,
+		simplified := &senses[0].Simplified
+		traditional := &senses[0].Traditional
+		// In case the simplified form maps to multiple traditional variants
+		for _, sense := range senses {
+			if sense.HeadwordId == hwId {
+				traditional = &sense.Traditional
+				break
+			}
+		}
+		hw := HeadwordDef{hwId, simplified, traditional,
 			pinyinArr, &wsArray}
 		hwIdMap[hwId] = hw
 	}
