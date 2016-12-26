@@ -91,21 +91,24 @@ func GetHeadwords() []HeadwordDef {
 	wsMap := readWSMap(config.LUFileNames())
 
 	// Read lexical units
-	hwmap := make(map[string][]*WordSenseEntry)
+	hwmap := make(map[int][]*WordSenseEntry)
 	hwcount := 0
 	for _, ws := range wdict {
-		key := fmt.Sprintf("%s:%s", ws[0].Simplified, ws[0].Traditional)
+		key := ws[0].HeadwordId
+		if key == 9806 {
+			log.Printf("dictionary.GetHeadwords: key == 9806\n")
+		}
 		if _, ok := hwmap[key]; !ok {
 			hwmap[key] = ws
 			hwcount++
 		}
 	}
-	//log.Printf("dictionary.GetHeadwords: hwcount = %d\n", hwcount)
+	log.Printf("dictionary.GetHeadwords: hwcount = %d\n", hwcount)
 
 	// Organize the headwords
 	hwIdArray := make([]int, 0)
 	hwIdMap = make(map[int]HeadwordDef)
-	for _, senses := range hwmap {
+	for hwId, senses := range hwmap {
 		wsIds := []int{}
 		pinyinMap := make(map[string]bool)
 		for _, ws:= range senses {
@@ -113,7 +116,6 @@ func GetHeadwords() []HeadwordDef {
 			pinyinMap[ws.Pinyin] = true
 		}
 		sort.Ints(wsIds)
-		hwId := wsIds[0]
 		hwIdArray = append(hwIdArray, hwId)
 		wsArray := make([]WordSenseEntry, 0)
 		for _, wsId := range wsIds {
@@ -290,6 +292,7 @@ func ReadDict(wsFilenames []string) {
 				} else {
 					wdict[trad] = append(wSenses, newWs)
 				}
+				continue
 			}
 			wSenses, ok := wdict[simp]
 			if !ok {

@@ -55,12 +55,24 @@ func TestGetHwMap2(t *testing.T) {
 		t.Error("dictionary.TestGetHwMap2, Expected Simplified = 倿, got ",
 				hw.Simplified)
 	}
-	if *hw.Simplified != "倿" {
-		t.Error("dictionary.TestGetHwMap2, Expected Simplified = 倿, got ",
+	if hw.WordSenses == nil {
+		t.Error("dictionary.TestGetHwMap2: WordSenses nil")
+	}
+}
+
+func TestGetHwMap3(t *testing.T) {
+	hwIdMap := GetHwMap()
+	hw, ok := hwIdMap[9806]
+	if !ok {
+		t.Error("dictionary.TestGetHwMap3, Expected true, got ", ok)
+		return
+	}
+	if *hw.Simplified != "胡" {
+		t.Error("dictionary.TestGetHwMap3, Expected Simplified = 胡, got ",
 				hw.Simplified)
 	}
 	if hw.WordSenses == nil {
-		t.Error("dictionary.TestGetHwMap2: WordSenses nil")
+		t.Error("dictionary.TestGetHwMap3: WordSenses nil")
 	}
 }
 
