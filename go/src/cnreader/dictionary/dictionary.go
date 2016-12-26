@@ -114,8 +114,10 @@ func GetHeadwords() []HeadwordDef {
 		wsIds := []int{}
 		pinyinMap := make(map[string]bool)
 		for _, ws:= range senses {
-			wsIds = append(wsIds, ws.Id)
-			pinyinMap[ws.Pinyin] = true
+			if ws.HeadwordId == hwId {
+				wsIds = append(wsIds, ws.Id)
+				pinyinMap[ws.Pinyin] = true
+			}
 		}
 		sort.Ints(wsIds)
 		hwIdArray = append(hwIdArray, hwId)
@@ -313,7 +315,9 @@ func ReadDict(wsFilenames []string) {
 				wsSlice[0] = newWs
 				wdict[simp] = wsSlice
 			} else {
-				//fmt.Printf("ReadDict: found simplified %s already in dict\n", simp)
+				//if int(int(hwId)) == 9806 {
+					//fmt.Printf("ReadDict: found simp %s in dict\n", simp)
+				//}
 				wdict[simp] = append(wSenses, newWs)
 			}
 		}
