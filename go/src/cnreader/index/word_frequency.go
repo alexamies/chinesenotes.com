@@ -1,13 +1,12 @@
 /*
-Library for Chinese vocabulary analysis
-Word frequency functions.
+Library for Chinese vocabulary analysis Word frequency functions.
 */
-package analysis
+package index
 
 import (
-	"sort"
 	"fmt"
-	)
+	"sort"
+)
 
 // A word with corpus entry label
 type CorpusWord struct {
@@ -17,13 +16,13 @@ type CorpusWord struct {
 // A word frequency with corpus entry label
 type CorpusWordFreq struct {
 	Corpus, Word string
-	Freq int
+	Freq         int
 }
 
 // Sorted list of word frequencies
 type SortedWF struct {
 	wf map[string]int
-	w []SortedWordItem
+	w  []SortedWordItem
 }
 
 // An entry in a sorted word array

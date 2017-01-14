@@ -13,11 +13,11 @@ func TestDecodeUsageExample1(t *testing.T) {
 	s1 := "海"
 	s2 := "\\N"
 	hw := dictionary.HeadwordDef{
-		Id: 1,
-		Simplified: &s1,
+		Id:          1,
+		Simplified:  &s1,
 		Traditional: &s2,
-		Pinyin: []string{"hǎi"},
-		WordSenses: &[]dictionary.WordSenseEntry{},
+		Pinyin:      []string{"hǎi"},
+		WordSenses:  &[]dictionary.WordSenseEntry{},
 	}
 	highlighted := decodeUsageExample("海", hw)
 	expected := "<span class='usage-highlight'>海</span>"
@@ -31,11 +31,11 @@ func TestDecodeUsageExample2(t *testing.T) {
 	s1 := "海"
 	s2 := "\\N"
 	hw := dictionary.HeadwordDef{
-		Id: 1,
-		Simplified: &s1,
+		Id:          1,
+		Simplified:  &s1,
 		Traditional: &s2,
-		Pinyin: []string{"hǎi"},
-		WordSenses: &[]dictionary.WordSenseEntry{},
+		Pinyin:      []string{"hǎi"},
+		WordSenses:  &[]dictionary.WordSenseEntry{},
 	}
 	highlighted := decodeUsageExample("banana", hw)
 	expected := "banana"
@@ -49,11 +49,11 @@ func TestDecodeUsageExample3(t *testing.T) {
 	s1 := "国"
 	s2 := "國"
 	hw := dictionary.HeadwordDef{
-		Id: 1,
-		Simplified: &s1,
+		Id:          1,
+		Simplified:  &s1,
 		Traditional: &s2,
-		Pinyin: []string{"guó"},
-		WordSenses: &[]dictionary.WordSenseEntry{},
+		Pinyin:      []string{"guó"},
+		WordSenses:  &[]dictionary.WordSenseEntry{},
 	}
 	highlighted := decodeUsageExample("國", hw)
 	expected := "<span class='usage-highlight'>國</span>"
@@ -110,7 +110,7 @@ func TestGetChunks4(t *testing.T) {
 	chunks := GetChunks("简体中文")
 	if chunks.Len() != 1 {
 		t.Error("Simplified Chinese 简体中文: expected length of chunks 1, got ",
-				chunks.Len())
+			chunks.Len())
 	}
 	chunk := chunks.Front().Value.(string)
 	if chunk != "简体中文" {
@@ -118,32 +118,32 @@ func TestGetChunks4(t *testing.T) {
 			log.Printf("TestGetChunks4: chunk: %s\n", e.Value.(string))
 		}
 		t.Error("Expected first element of chunk 简体中文 to be 简体中文, got ",
-				chunk)
+			chunk)
 	}
 }
 
 func TestReadText1(t *testing.T) {
-	//log.Printf("TestReadText1: Begin ******** \n")	
+	//log.Printf("TestReadText1: Begin ******** \n")
 	text := ReadText("../testdata/sampletest.txt")
 	expected := "繁體中文<br/>\n"
-	//log.Printf("TestReadText1: Expected  '%s', got '%s'\n", expected, text)	
+	//log.Printf("TestReadText1: Expected  '%s', got '%s'\n", expected, text)
 	if text != expected {
 		t.Error("Expected ", expected, ", got ", text)
 	}
-	//log.Printf("TestReadText1: End ******** \n")	
+	//log.Printf("TestReadText1: End ******** \n")
 }
 
 func TestReadText2(t *testing.T) {
-	//log.Printf("TestReadText2: Begin ******** \n")	
+	//log.Printf("TestReadText2: Begin ******** \n")
 	text := ReadText("../testdata/test.html")
 	if !strings.Contains(text, "繁體中文") {
 		t.Error("Expected to contain '繁體中文', got ", text)
 	}
-	//log.Printf("TestReadText2: End ******** \n")	
+	//log.Printf("TestReadText2: End ******** \n")
 }
 
 func TestParseText1(t *testing.T) {
-	//log.Printf("TestParseText1: Begin ******** \n")	
+	//log.Printf("TestParseText1: Begin ******** \n")
 	files := []string{"../testdata/testwords.txt"}
 	dictionary.ReadDict(files)
 	tokens, results := ParseText("繁體中文", "", corpus.NewCorpusEntry())
@@ -160,11 +160,11 @@ func TestParseText1(t *testing.T) {
 	if results.WC != 2 {
 		t.Error("Expected to get wc = 2, got ", results.WC)
 	}
-	//log.Printf("TestParseText1: End ******** \n")	
+	//log.Printf("TestParseText1: End ******** \n")
 }
 
 func TestParseText2(t *testing.T) {
-	//log.Printf("TestParseText2: Begin ******** \n")	
+	//log.Printf("TestParseText2: Begin ******** \n")
 	files := []string{"../testdata/testwords.txt"}
 	dictionary.ReadDict(files)
 	tokens, results := ParseText("a繁體中文", "", corpus.NewCorpusEntry())
@@ -181,7 +181,7 @@ func TestParseText2(t *testing.T) {
 	if len(results.Vocab) != 2 {
 		t.Error("Expected to get len(vocab) = 2, got ", len(results.Vocab))
 	}
-	//log.Printf("TestParseText2: End ******** \n")	
+	//log.Printf("TestParseText2: End ******** \n")
 }
 
 func TestParseText3(t *testing.T) {
@@ -224,13 +224,13 @@ func TestSampleUsage1(t *testing.T) {
 // Basic test with minimal data
 func TestSampleUsage2(t *testing.T) {
 	wu := WordUsage{
-		Freq: 1,
-		RelFreq: 0.01,
-		Word: "大",
-		Example: "大蛇",
-		File: "afile.txt",
+		Freq:       1,
+		RelFreq:    0.01,
+		Word:       "大",
+		Example:    "大蛇",
+		File:       "afile.txt",
 		EntryTitle: "Scroll 1",
-		ColTitle: "A Big Snake",
+		ColTitle:   "A Big Snake",
 	}
 	wuArray := []WordUsage{wu}
 	usageMap := map[string]*[]WordUsage{"大": &wuArray}
@@ -246,22 +246,22 @@ func TestSampleUsage2(t *testing.T) {
 func TestSampleUsage3(t *testing.T) {
 	log.Printf("TestSampleUsage3: Begin +++++++++++\n")
 	wu1 := WordUsage{
-		Freq: 1,
-		RelFreq: 0.01,
-		Word: "蛇",
-		Example: "大蛇",
-		File: "afile.txt",
+		Freq:       1,
+		RelFreq:    0.01,
+		Word:       "蛇",
+		Example:    "大蛇",
+		File:       "afile.txt",
 		EntryTitle: "Scroll 1",
-		ColTitle: "Some Snakes",
+		ColTitle:   "Some Snakes",
 	}
 	wu2 := WordUsage{
-		Freq: 1,
-		RelFreq: 0.01,
-		Word: "蛇",
-		Example: "小蛇",
-		File: "afile.txt",
+		Freq:       1,
+		RelFreq:    0.01,
+		Word:       "蛇",
+		Example:    "小蛇",
+		File:       "afile.txt",
 		EntryTitle: "Scroll 2",
-		ColTitle: "Some Snakes",
+		ColTitle:   "Some Snakes",
 	}
 	wuArray := []WordUsage{wu1, wu2}
 	usageMap := map[string]*[]WordUsage{"蛇": &wuArray}
@@ -277,31 +277,31 @@ func TestSampleUsage3(t *testing.T) {
 func TestSampleUsage4(t *testing.T) {
 	log.Printf("analysis.TestSampleUsage4: Begin +++++++++++\n")
 	wu1 := WordUsage{
-		Freq: 1,
-		RelFreq: 0.01,
-		Word: "大",
-		Example: "大蛇",
-		File: "afile.txt",
+		Freq:       1,
+		RelFreq:    0.01,
+		Word:       "大",
+		Example:    "大蛇",
+		File:       "afile.txt",
 		EntryTitle: "Scroll 1",
-		ColTitle: "Some Big Animals",
+		ColTitle:   "Some Big Animals",
 	}
 	wu2 := WordUsage{
-		Freq: 1,
-		RelFreq: 0.01,
-		Word: "大",
-		Example: "大老虎",
-		File: "afile.txt",
+		Freq:       1,
+		RelFreq:    0.01,
+		Word:       "大",
+		Example:    "大老虎",
+		File:       "afile.txt",
 		EntryTitle: "Scroll 2",
-		ColTitle: "Some Big Animals",
+		ColTitle:   "Some Big Animals",
 	}
 	wu3 := WordUsage{
-		Freq: 1,
-		RelFreq: 0.01,
-		Word: "大",
-		Example: "大树",
-		File: "afile.txt",
+		Freq:       1,
+		RelFreq:    0.01,
+		Word:       "大",
+		Example:    "大树",
+		File:       "afile.txt",
 		EntryTitle: "Scroll 1",
-		ColTitle: "Some Big Trees",
+		ColTitle:   "Some Big Trees",
 	}
 	wuArray := []WordUsage{wu1, wu2, wu3}
 	usageMap := map[string]*[]WordUsage{"大": &wuArray}
@@ -374,7 +374,6 @@ func TestWriteDoc3(t *testing.T) {
 	WriteDoc(tokens, results.Vocab, outfile, `\N`, `\N`)
 }
 
-
 // Test that WriteHwFiles() does not explode
 func TestWriteHwFiles(t *testing.T) {
 	log.Printf("TestWriteHwFiles: Begin +++++++++++\n")
@@ -389,21 +388,4 @@ func TestWordFrequencies(t *testing.T) {
 	dictionary.ReadDict(config.LUFileNames())
 	WordFrequencies()
 	//log.Printf("TestWordFrequencies: End +++++++++++\n")
-}
-
-// Test that writeUnknownChars() works with an empty list
-func TestWriteUnknownChars1(t *testing.T) {
-	//log.Printf("TestWriteUnknownChars1: Begin +++++++++++\n")
-	sortedUnknownWords := []SortedWordItem{}
-	writeUnknownChars(sortedUnknownWords)
-	//log.Printf("TestWriteUnknownChars1: End +++++++++++\n")
-}
-
-// Test that WordFrequencies() does not explode
-func TestWriteUnknownChars2(t *testing.T) {
-	//log.Printf("TestWriteUnknownChars2: Begin +++++++++++\n")
-	swi := SortedWordItem{"釴", 1}
-	sortedUnknownWords := []SortedWordItem{swi}
-	writeUnknownChars(sortedUnknownWords)
-	//log.Printf("TestWriteUnknownChars2: End +++++++++++\n")
 }

@@ -3,6 +3,7 @@ package analysis
 
 import (
 	"cnreader/dictionary"
+	"cnreader/index"
 	"cnreader/ngram"
 	"fmt"
 	"testing"
@@ -13,40 +14,40 @@ func TestAddResults(t *testing.T) {
 	fmt.Printf("TestAddResults: Begin unit tests\n")
 
 	// Setup
-	vocab := map[string]int{"one":1, "three":3, "two":2}
-	usage := map[string]string {"one": "one banana"}
-	unknown := map[string]int{"x":1}
+	vocab := map[string]int{"one": 1, "three": 3, "two": 2}
+	usage := map[string]string{"one": "one banana"}
+	unknown := map[string]int{"x": 1}
 	s1 := "蓝"
 	s2 := "藍"
 	ws1 := dictionary.WordSenseEntry{
-		Id: 1,
-		Simplified: s1, 
+		Id:          1,
+		Simplified:  s1,
 		Traditional: s2,
-		Pinyin: "lán",
-		Grammar: "adjective",
+		Pinyin:      "lán",
+		Grammar:     "adjective",
 	}
 	hw1 := dictionary.HeadwordDef{
-		Id: 1,
-		Simplified: &s1, 
+		Id:          1,
+		Simplified:  &s1,
 		Traditional: &s2,
-		Pinyin: []string{},
-		WordSenses: &[]dictionary.WordSenseEntry{ws1},
+		Pinyin:      []string{},
+		WordSenses:  &[]dictionary.WordSenseEntry{ws1},
 	}
 	s3 := "天"
 	s4 := "\\N"
 	ws2 := dictionary.WordSenseEntry{
-		Id: 1,
-		Simplified: s3, 
+		Id:          1,
+		Simplified:  s3,
 		Traditional: s4,
-		Pinyin: "tiān",
-		Grammar: "noun",
+		Pinyin:      "tiān",
+		Grammar:     "noun",
 	}
 	hw2 := dictionary.HeadwordDef{
-		Id: 2,
-		Simplified: &s3,
+		Id:          2,
+		Simplified:  &s3,
 		Traditional: &s4,
-		Pinyin: []string{},
-		WordSenses: &[]dictionary.WordSenseEntry{ws2},
+		Pinyin:      []string{},
+		WordSenses:  &[]dictionary.WordSenseEntry{ws2},
 	}
 	example := ""
 	exFile := ""
@@ -57,42 +58,42 @@ func TestAddResults(t *testing.T) {
 	bm.PutBigram(b1)
 	bm.PutBigram(b1)
 	results := CollectionAResults{
-		Vocab: vocab,
-		Usage: usage,
+		Vocab:             vocab,
+		Usage:             usage,
 		BigramFrequencies: bm,
-		WC: 3,
-		UnknownChars: unknown,
+		WC:                3,
+		UnknownChars:      unknown,
 	}
-	moreVocab := map[string]int{"one":1, "three":1, "four":4}
-	moreUsage := map[string]string {"two": "two banana"}
+	moreVocab := map[string]int{"one": 1, "three": 1, "four": 4}
+	moreUsage := map[string]string{"two": "two banana"}
 	s5 := "海"
 	s6 := "\\N"
 	ws3 := dictionary.WordSenseEntry{
-		Id: 3,
-		Simplified: s5, 
+		Id:          3,
+		Simplified:  s5,
 		Traditional: s6,
-		Pinyin: "hǎi",
-		Grammar: "noun",
+		Pinyin:      "hǎi",
+		Grammar:     "noun",
 	}
 	hw3 := dictionary.HeadwordDef{
-		Id: 3,
-		Simplified: &s5,
+		Id:          3,
+		Simplified:  &s5,
 		Traditional: &s6,
-		Pinyin: []string{},
-		WordSenses: &[]dictionary.WordSenseEntry{ws3},
+		Pinyin:      []string{},
+		WordSenses:  &[]dictionary.WordSenseEntry{ws3},
 	}
 	b2 := ngram.NewBigram(hw1, hw3, example, exFile, exDocTitle, exColTitle)
 	bm2 := ngram.BigramFreqMap{}
 	bm2.PutBigram(b1)
 	bm2.PutBigram(b1)
 	bm2.PutBigram(b2)
-	unknown1 := map[string]int{"x":1}
+	unknown1 := map[string]int{"x": 1}
 	more := CollectionAResults{
-		Vocab: moreVocab,
-		Usage: moreUsage,
+		Vocab:             moreVocab,
+		Usage:             moreUsage,
 		BigramFrequencies: bm2,
-		WC: 4,
-		UnknownChars: unknown1,
+		WC:                4,
+		UnknownChars:      unknown1,
 	}
 
 	// Method to test
@@ -144,17 +145,17 @@ func TestAddResults(t *testing.T) {
 func TestGetLexicalWordFreq0(t *testing.T) {
 
 	// Test setup
-	vocab := map[string]int{"one":1, "three":3, "two":2}
-	usage := map[string]string {"one": "one banana"}
-	unknown := map[string]int{"x":1}
-	sortedWords := []SortedWordItem{}
+	vocab := map[string]int{"one": 1, "three": 3, "two": 2}
+	usage := map[string]string{"one": "one banana"}
+	unknown := map[string]int{"x": 1}
+	sortedWords := []index.SortedWordItem{}
 	bm := ngram.BigramFreqMap{}
 	results := CollectionAResults{
-		Vocab: vocab,
-		Usage: usage,
+		Vocab:             vocab,
+		Usage:             usage,
 		BigramFrequencies: bm,
-		WC: 3,
-		UnknownChars: unknown,
+		WC:                3,
+		UnknownChars:      unknown,
 	}
 
 	// Method to test
@@ -172,17 +173,17 @@ func TestGetLexicalWordFreq0(t *testing.T) {
 func TestGetWordFreq0(t *testing.T) {
 
 	// Test setup
-	vocab := map[string]int{"one":1, "three":3, "two":2}
-	usage := map[string]string {"one": "one banana"}
-	unknown := map[string]int{"x":1}
-	sortedWords := []SortedWordItem{}
+	vocab := map[string]int{"one": 1, "three": 3, "two": 2}
+	usage := map[string]string{"one": "one banana"}
+	unknown := map[string]int{"x": 1}
+	sortedWords := []index.SortedWordItem{}
 	bm := ngram.BigramFreqMap{}
 	results := CollectionAResults{
-		Vocab: vocab,
-		Usage: usage,
+		Vocab:             vocab,
+		Usage:             usage,
 		BigramFrequencies: bm,
-		WC: 3,
-		UnknownChars: unknown,
+		WC:                3,
+		UnknownChars:      unknown,
 	}
 
 	// Method to test

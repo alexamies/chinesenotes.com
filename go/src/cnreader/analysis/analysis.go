@@ -10,17 +10,18 @@ import (
 	"cnreader/config"
 	"cnreader/corpus"
 	"cnreader/dictionary"
+	"cnreader/index"
 	"cnreader/ngram"
 	"container/list"
 	"fmt"
-	"text/template"
 	"io"
 	"io/ioutil"
 	"log"
 	"os"
 	"strings"
+	"text/template"
 	"time"
-    "unicode/utf8"
+	"unicode/utf8"
 )
 
 // Maximum number of word frequency entries to output to the generated
@@ -42,16 +43,16 @@ const MAX_TITLE = 5
 
 // Holds vocabulary analysis for a corpus text
 type AnalysisResults struct {
-	Title string
-	WC, UniqueWords int
-	Cognates []alignment.CorpEntryCognates
-	WordFrequencies []WFResult
-	LexicalWordFreq []WFResult
+	Title            string
+	WC, UniqueWords  int
+	Cognates         []alignment.CorpEntryCognates
+	WordFrequencies  []WFResult
+	LexicalWordFreq  []WFResult
 	BigramFreqSorted []ngram.BigramFreq
-	UnkownnChars []SortedWordItem
-	DateUpdated string
-	MaxWFOutput int
-	ByGenre []SortedByGenre
+	UnkownnChars     []index.SortedWordItem
+	DateUpdated      string
+	MaxWFOutput      int
+	ByGenre          []SortedByGenre
 }
 
 // The content for a corpus entry
@@ -61,23 +62,23 @@ type CorpusEntryContent struct {
 
 // Dictionary entry content struct used for writing a dictionary entry to HTML
 type DictEntry struct {
-	Headword dictionary.HeadwordDef
-	Contains []dictionary.HeadwordDef
+	Headword     dictionary.HeadwordDef
+	Contains     []dictionary.HeadwordDef
 	Collocations []ngram.BigramFreq
-	UsageArr []WordUsage
-	DateUpdated string
+	UsageArr     []WordUsage
+	DateUpdated  string
 }
 
 // Word usage
 type WordUsage struct {
-	Freq int
-	RelFreq float64
+	Freq                                      int
+	RelFreq                                   float64
 	Word, Example, File, EntryTitle, ColTitle string
 }
 
 // Vocabulary analysis entry for a single word
 type WFResult struct {
-	Freq, HeadwordId int
+	Freq, HeadwordId                int
 	Chinese, Pinyin, English, Usage string
 }
 
@@ -114,7 +115,7 @@ func decodeUsageExample(usageText string, headword dictionary.HeadwordDef) strin
 }
 
 // Breaks text into a list of CJK and non CJK strings
-func GetChunks(text string) (list.List) {
+func GetChunks(text string) list.List {
 	var chunks list.List
 	cjk := ""
 	noncjk := ""
@@ -123,7 +124,7 @@ func GetChunks(text string) (list.List) {
 			if noncjk != "" {
 				chunks.PushBack(noncjk)
 				noncjk = ""
-			} 
+			}
 			cjk += string(character)
 		} else if cjk != "" {
 			chunks.PushBack(cjk)
@@ -144,14 +145,14 @@ func GetChunks(text string) (list.List) {
 
 // Compute word frequencies, collocations, and usage for the entire corpus
 func GetWordFrequencies() (map[string]*[]WordUsage,
-		map[*CorpusWord]CorpusWordFreq, map[string]int, ngram.CollocationMap) {
+	map[*index.CorpusWord]index.CorpusWordFreq, map[string]int, ngram.CollocationMap) {
 
 	// Overall word frequencies per corpus
 	collocations := ngram.CollocationMap{}
 	usageMap := map[string]*[]WordUsage{}
 	ccount := 0 // character count
 	wcTotal := map[string]int{}
-	wfTotal := map[*CorpusWord]CorpusWordFreq{}
+	wfTotal := map[*index.CorpusWord]index.CorpusWordFreq{}
 	corpusDir := config.ProjectHome() + "/corpus/"
 	corpusDataDir := config.ProjectHome() + "/data/corpus/"
 
@@ -172,10 +173,10 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 
 			// Find word usage for the given word
 			for word, count := range results.Vocab {
-				cw := &CorpusWord{col.Corpus, word}
-				cwf := &CorpusWordFreq{col.Corpus, word, count}					
+				cw := &index.CorpusWord{col.Corpus, word}
+				cwf := &index.CorpusWordFreq{col.Corpus, word, count}
 				if cwfPrev, found := wfTotal[cw]; found {
-					cwf.Freq += cwfPrev.Freq			
+					cwf.Freq += cwfPrev.Freq
 				}
 				wfTotal[cw] = *cwf
 				rel_freq := 1000.0 * float64(count) / float64(results.WC)
@@ -228,7 +229,7 @@ func hyperlink(entry dictionary.WordSenseEntry, text string) string {
 // tokens: the tokens for the parsed text
 // results: vocabulary analysis results
 func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
-		tokens list.List, results CollectionAResults) {
+	tokens list.List, results CollectionAResults) {
 	vocab := map[string]int{}
 	bigramMap := ngram.BigramFreqMap{}
 	collocations := ngram.CollocationMap{}
@@ -272,8 +273,8 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 						hw := hwIdMap[hwid]
 						if lastHW.Id != 0 {
 							if hw.WordSenses == nil {
-								log.Printf("ParseText: WordSenses nil for %s " +
-									", id = %d, in %s, %s\n", w, hwid, 
+								log.Printf("ParseText: WordSenses nil for %s "+
+									", id = %d, in %s, %s\n", w, hwid,
 									document.Title, colTitle)
 							}
 							bigram, ok := bigramMap.GetBigramVal(lastHW.Id,
@@ -289,7 +290,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 						lastHW = hw
 						corpEntryCogs.AddCognate(wsArray[0])
 					}
-				} else if (utf8.RuneCountInString(w) == 1) {
+				} else if utf8.RuneCountInString(w) == 1 {
 					//log.Printf("ParseText: found unknown character %s\n", w)
 					unknownChars[w]++
 					tokens.PushBack(w)
@@ -300,14 +301,14 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	}
 	collectionCogs := []alignment.CorpEntryCognates{}
 	collectionCogs = append(collectionCogs, corpEntryCogs)
-	results = CollectionAResults {
-		Vocab: vocab,
-		Usage: usage,
+	results = CollectionAResults{
+		Vocab:             vocab,
+		Usage:             usage,
 		BigramFrequencies: bigramMap,
-		Collocations: collocations,
-		CollectionCogs: collectionCogs,
-		WC: wc,
-		UnknownChars: unknownChars,
+		Collocations:      collocations,
+		CollectionCogs:    collectionCogs,
+		WC:                wc,
+		UnknownChars:      unknownChars,
 	}
 	return tokens, results
 }
@@ -335,7 +336,7 @@ func sampleUsage(usageMap map[string]*[]WordUsage) map[string]*[]WordUsage {
 }
 
 // Reads a Chinese text file
-func ReadText(filename string) (string) {
+func ReadText(filename string) string {
 	var text string
 	if strings.HasSuffix(filename, ".html") {
 		bs, err := ioutil.ReadFile(filename)
@@ -351,21 +352,21 @@ func ReadText(filename string) (string) {
 		defer infile.Close()
 		reader := bufio.NewReader(infile)
 		var buffer bytes.Buffer
-    	eof := false
-    	for !eof {
-        	var line string
-        	line, err = reader.ReadString('\n')
-        	if err == io.EOF {
-            	err = nil
-            	eof = true
-        	} else if err != nil {
-            	break
-        	}
-        	if _, err = buffer.WriteString(line + "<br/>\n"); err != nil {
-            	break
-        	}
-    	}
-    	text = buffer.String()
+		eof := false
+		for !eof {
+			var line string
+			line, err = reader.ReadString('\n')
+			if err == io.EOF {
+				err = nil
+				eof = true
+			} else if err != nil {
+				break
+			}
+			if _, err = buffer.WriteString(line + "<br/>\n"); err != nil {
+				break
+			}
+		}
+		text = buffer.String()
 	}
 	//fmt.Printf("ReadText: read text %s\n", text)
 	return text
@@ -411,7 +412,7 @@ func add(x, y int) int {
 func writeAnalysisCorpus(results CollectionAResults) string {
 
 	// Parse template and organize template parameters
-	sortedWords := SortedFreq(results.Vocab)
+	sortedWords := index.SortedFreq(results.Vocab)
 	wfResults := results.GetWordFreq(sortedWords)
 	maxWf := len(wfResults)
 	if maxWf > MAX_WF_OUTPUT {
@@ -424,7 +425,7 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 		maxLex = MAX_WF_OUTPUT
 	}
 
-	sortedUnknownWords := SortedFreq(results.UnknownChars)
+	sortedUnknownWords := index.SortedFreq(results.UnknownChars)
 	maxUnknown := len(sortedUnknownWords)
 	if maxUnknown > MAX_UNKOWN_OUTPUT {
 		maxUnknown = MAX_UNKOWN_OUTPUT
@@ -440,7 +441,7 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 	// Results by genre, also sorted and truncated
 	sortedGenre := []SortedByGenre{}
 	for _, wf := range results.ByGenre {
-		sortedWF := results.GetLexicalWordFreq(SortedFreq(wf.WF))
+		sortedWF := results.GetLexicalWordFreq(index.SortedFreq(wf.WF))
 		maxGenreOutput := len(sortedWF)
 		if maxGenreOutput > MAX_WF_OUTPUT {
 			maxGenreOutput = MAX_WF_OUTPUT
@@ -454,22 +455,24 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 	dateUpdated := time.Now().Format("2006-01-02")
 	title := "Corpus Analysis"
 	aResults := AnalysisResults{
-		Title: title,
-		WC: results.WC,
-		Cognates: []alignment.CorpEntryCognates{},
-		UniqueWords: len(results.Vocab),
-		WordFrequencies: wfResults[:maxWf],
-		LexicalWordFreq: lexicalWordFreq[:maxLex],
+		Title:            title,
+		WC:               results.WC,
+		Cognates:         []alignment.CorpEntryCognates{},
+		UniqueWords:      len(results.Vocab),
+		WordFrequencies:  wfResults[:maxWf],
+		LexicalWordFreq:  lexicalWordFreq[:maxLex],
 		BigramFreqSorted: bFreq[:maxBFOutput],
-		UnkownnChars: sortedUnknownWords[:maxUnknown],
-		DateUpdated: dateUpdated, 
-		MaxWFOutput: len(wfResults),
-		ByGenre: sortedGenre,
+		UnkownnChars:     sortedUnknownWords[:maxUnknown],
+		DateUpdated:      dateUpdated,
+		MaxWFOutput:      len(wfResults),
+		ByGenre:          sortedGenre,
 	}
 	tmplFile := config.TemplateDir() + "/corpus-summary-analysis-template.html"
 	funcs := template.FuncMap{"add": add}
 	tmpl, err := template.New("corpus-summary-analysis-template.html").Funcs(funcs).ParseFiles(tmplFile)
-	if err != nil { panic(err) }
+	if err != nil {
+		panic(err)
+	}
 	if tmpl == nil {
 		log.Fatal("writeAnalysis: Template is nil", err)
 	}
@@ -482,11 +485,13 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 	defer f.Close()
 	w := bufio.NewWriter(f)
 	err = tmpl.Execute(w, aResults)
-	if err != nil { panic(err) }
+	if err != nil {
+		panic(err)
+	}
 	w.Flush()
 
-	// Write unknown characters to a text file
-	writeUnknownChars(sortedUnknownWords)
+	// Write results to plain text files
+	index.WriteIndexCorpus(sortedWords, sortedUnknownWords)
 
 	return basename
 }
@@ -499,10 +504,14 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 // docTitle: The title of this specific document
 // Returns the name of the file written to
 func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
-		docTitle string) string {
+	docTitle string) string {
 
 	// Parse template and organize template parameters
-	sortedWords := SortedFreq(results.Vocab)
+	sortedWords := index.SortedFreq(results.Vocab)
+
+	// Write results to a plain text file
+	index.WriteIndexDoc(sortedWords, srcFile)
+
 	wfResults := results.GetWordFreq(sortedWords)
 	maxWf := len(wfResults)
 	if maxWf > MAX_WF_OUTPUT {
@@ -515,7 +524,7 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 		maxLex = MAX_WF_OUTPUT
 	}
 
-	sortedUnknownWords := SortedFreq(results.UnknownChars)
+	sortedUnknownWords := index.SortedFreq(results.UnknownChars)
 	maxUnknown := len(sortedUnknownWords)
 	if maxUnknown > MAX_UNKOWN_OUTPUT {
 		maxUnknown = MAX_UNKOWN_OUTPUT
@@ -531,20 +540,22 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	dateUpdated := time.Now().Format("2006-01-02")
 	title := "Content Analysis for " + collectionTitle + ", " + docTitle
 	aResults := AnalysisResults{
-		Title: title,
-		WC: results.WC,
-		Cognates: results.CollectionCogs,
-		UniqueWords: len(results.Vocab),
-		WordFrequencies: wfResults[:maxWf],
-		LexicalWordFreq: lexicalWordFreq[:maxLex],
+		Title:            title,
+		WC:               results.WC,
+		Cognates:         results.CollectionCogs,
+		UniqueWords:      len(results.Vocab),
+		WordFrequencies:  wfResults[:maxWf],
+		LexicalWordFreq:  lexicalWordFreq[:maxLex],
 		BigramFreqSorted: bFreq[:maxBFOutput],
-		UnkownnChars: sortedUnknownWords[:maxUnknown],
-		DateUpdated: dateUpdated, 
-		MaxWFOutput: len(wfResults),
+		UnkownnChars:     sortedUnknownWords[:maxUnknown],
+		DateUpdated:      dateUpdated,
+		MaxWFOutput:      len(wfResults),
 	}
 	tmplFile := config.TemplateDir() + "/corpus-analysis-template.html"
 	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles(tmplFile)
-	if err != nil { panic(err) }
+	if err != nil {
+		panic(err)
+	}
 	if tmpl == nil {
 		log.Fatal("writeAnalysis: Template is nil", err)
 	}
@@ -569,8 +580,11 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	defer f.Close()
 	w := bufio.NewWriter(f)
 	err = tmpl.Execute(w, aResults)
-	if err != nil { panic(err) }
+	if err != nil {
+		panic(err)
+	}
 	w.Flush()
+
 	return basename
 }
 
@@ -578,16 +592,17 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 // contained in the collection
 // collectionEntry: the CollectionEntry struct
 func writeCollection(collectionEntry corpus.CollectionEntry) CollectionAResults {
+
 	corpusEntries := corpus.CorpusEntries(config.CorpusDataDir() + "/" +
-			collectionEntry.CollectionFile)
+		collectionEntry.CollectionFile)
 	aResults := NewCollectionAResults()
 	for _, entry := range corpusEntries {
 		src := config.CorpusDir() + "/" + entry.RawFile
 		dest := config.WebDir() + "/" + entry.GlossFile
 		if collectionEntry.Title == "" {
-			log.Printf("analysis.writeCollection: collectionEntry.Title is " +
-					"empty, input file: %s, output file: %s\n",
-					src, dest)
+			log.Printf("analysis.writeCollection: collectionEntry.Title is "+
+				"empty, input file: %s, output file: %s\n",
+				src, dest)
 		}
 		text := ReadText(src)
 		tokens, results := ParseText(text, collectionEntry.Title, &entry)
@@ -606,6 +621,7 @@ func writeCollection(collectionEntry corpus.CollectionEntry) CollectionAResults 
 }
 
 func WriteCorpusAll() {
+	index.Reset()
 	collections := corpus.Collections()
 	aResults := NewCollectionAResults()
 	wfArrayByGenre := WFArrayByGenre{}
@@ -647,7 +663,7 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	var b bytes.Buffer
 
 	// Iterate over text chunks
-	for e := tokens.Front(); e != nil; e=e.Next() {
+	for e := tokens.Front(); e != nil; e = e.Next() {
 		chunk := e.Value.(string)
 		//fmt.Printf("WriteDoc: Word %s\n", word)
 		if entries, ok := dictionary.GetWord(chunk); ok && entries[0].Notes != "CBETA boilerplate" {
@@ -677,11 +693,13 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	}
 	defer f.Close()
 	w := bufio.NewWriter(f)
-	
+
 	templFile := config.TemplateDir() + "/corpus-template.html"
-	tmpl:= template.Must(template.New("corpus-template.html").ParseFiles(templFile))
+	tmpl := template.Must(template.New("corpus-template.html").ParseFiles(templFile))
 	err = tmpl.Execute(w, content)
-	if err != nil { panic(err) }
+	if err != nil {
+		panic(err)
+	}
 	w.Flush()
 }
 
@@ -690,7 +708,7 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 // vocab: A list of word id's in the document
 // filename: The file name to write to
 func WriteDoc(tokens list.List, vocab map[string]int, filename,
-		templateName, templateFile string) {
+	templateName, templateFile string) {
 	if templateFile != `\N` {
 		writeHTMLDoc(tokens, vocab, filename, templateName, templateFile)
 		return
@@ -702,7 +720,7 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename,
 	defer f.Close()
 	w := bufio.NewWriter(f)
 	// Iterate over text chunks
-	for e := tokens.Front(); e != nil; e=e.Next() {
+	for e := tokens.Front(); e != nil; e = e.Next() {
 		chunk := e.Value.(string)
 		//fmt.Printf("WriteDoc: Word %s\n", word)
 		if entries, ok := dictionary.GetWord(chunk); ok {
@@ -714,9 +732,9 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename,
 					wordIds = fmt.Sprintf("%s,%d", wordIds, ws.Id)
 				}
 			}
-			fmt.Fprintf(w, "<span title='%s' data-wordid='%s'" +
-					" class='dict-entry' data-toggle='popover'>%s</span>",
-					chunk, wordIds, chunk)
+			fmt.Fprintf(w, "<span title='%s' data-wordid='%s'"+
+				" class='dict-entry' data-toggle='popover'>%s</span>",
+				chunk, wordIds, chunk)
 		} else {
 			w.WriteString(chunk)
 		}
@@ -729,11 +747,11 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename,
 // vocab: A list of word id's in the document
 // filename: The file name to write to
 func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
-		templateName, templateFile string) {
+	templateName, templateFile string) {
 	var b bytes.Buffer
 
 	// Iterate over text chunks
-	for e := tokens.Front(); e != nil; e=e.Next() {
+	for e := tokens.Front(); e != nil; e = e.Next() {
 		chunk := e.Value.(string)
 		//fmt.Printf("WriteDoc: Word %s\n", word)
 		if entries, ok := dictionary.GetWord(chunk); ok {
@@ -758,7 +776,9 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 	}
 	w := bufio.NewWriter(f)
 	err = tmpl.Execute(w, content)
-	if err != nil { panic(err) }
+	if err != nil {
+		panic(err)
+	}
 	w.Flush()
 	f.Close()
 
@@ -774,15 +794,15 @@ func WriteHwFiles() {
 	// Prepare template
 	templFile := config.ProjectHome() + "/html/templates/headword-template.html"
 	fm := template.FuncMap{
-    	"Deref": func(sp *string) string { return *sp },
-    	"DerefNe": func(sp *string, s string) bool { return *sp != s },
-    }
+		"Deref":   func(sp *string) string { return *sp },
+		"DerefNe": func(sp *string, s string) bool { return *sp != s },
+	}
 	tmpl := template.Must(template.New("headword-template.html").Funcs(fm).ParseFiles(templFile))
 
 	i := 0
 	for _, hw := range hwArray {
 
-		if i % 1000 == 0 {
+		if i%1000 == 0 {
 			log.Printf("analysis.WriteHwFiles: wrote %d words\n", i)
 		}
 		//if hw.Id == 873 {
@@ -820,36 +840,36 @@ func WriteHwFiles() {
 		for _, wu := range *usageArrPtr {
 			hlText := decodeUsageExample(wu.Example, hw)
 			hlWU := WordUsage{
-				Freq: wu.Freq,
-				RelFreq: wu.RelFreq,
-				Word: wu.Word,
-				Example: hlText,
-				File: wu.File,
+				Freq:       wu.Freq,
+				RelFreq:    wu.RelFreq,
+				Word:       wu.Word,
+				Example:    hlText,
+				File:       wu.File,
 				EntryTitle: wu.EntryTitle,
-				ColTitle: wu.ColTitle,
+				ColTitle:   wu.ColTitle,
 			}
 			hlUsageArr = append(hlUsageArr, hlWU)
 		}
 
 		dictEntry := DictEntry{
-			Headword: hw,
-			Contains: contains,
+			Headword:     hw,
+			Contains:     contains,
 			Collocations: wordCollocations,
-			UsageArr: hlUsageArr,
-			DateUpdated: dateUpdated,
+			UsageArr:     hlUsageArr,
+			DateUpdated:  dateUpdated,
 		}
 		filename := fmt.Sprintf("%s%s%d%s", config.ProjectHome(), "/web/words/",
 			hw.Id, ".html")
 		f, err := os.Create(filename)
 		if err != nil {
-			log.Printf("WriteHwFiles: Error creating file for hw.Id %d, " +
+			log.Printf("WriteHwFiles: Error creating file for hw.Id %d, "+
 				"Simplified %s", hw.Id, hw.Simplified)
 			log.Fatal(err)
 		}
 		w := bufio.NewWriter(f)
 		err = tmpl.Execute(w, dictEntry)
 		if err != nil {
-			log.Printf("WriteHwFiles: error executing template for hw.Id: %d," +
+			log.Printf("WriteHwFiles: error executing template for hw.Id: %d,"+
 				" filename: %s, Simplified: %s", hw.Id, filename, hw.Simplified)
 			log.Fatal(err)
 		}
@@ -857,22 +877,4 @@ func WriteHwFiles() {
 		f.Close()
 		i++
 	}
-}
-
-// Write unknown characters to a text file
-func writeUnknownChars(sortedUnknownWords []SortedWordItem) {
-	unknownCharsFile, err := os.Create("unknown.txt")
-	if err != nil {
-		log.Printf("Could not open write unknownCharsFile", err)
-		return 
-	}
-	defer unknownCharsFile.Close()
-	w := bufio.NewWriter(unknownCharsFile)
-	for _, wordItem := range sortedUnknownWords {
-		for _, r := range wordItem.Word {
-			fmt.Fprintf(w, "U+%X\t%c", r, r)
-		}
-		fmt.Fprintln(w)
-	}
-	w.Flush()
 }

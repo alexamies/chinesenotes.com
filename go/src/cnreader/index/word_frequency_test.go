@@ -1,5 +1,5 @@
 // Test sorting of word frequencies
-package analysis
+package index
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 // Test sorting of word frequencies
 func TestSortedFreq(t *testing.T) {
 	fmt.Printf("TestSortedFreq: Begin unit tests\n")
-	wordFreq := map[string]int{"one":1, "three":3, "two":2}
+	wordFreq := map[string]int{"one": 1, "three": 3, "two": 2}
 	sortedWords := SortedFreq(wordFreq)
 	if sortedWords == nil {
 		t.Error("Expected non-nil sortedWords")
@@ -18,8 +18,8 @@ func TestSortedFreq(t *testing.T) {
 		t.Error("Expected that 'three' to be the most frequent word")
 	}
 	/*
-	for _, w := range sortedWords {
-		fmt.Printf("TestSortedFreq: %v : %v\n", w, wordFreq[w])
-	}
+		for _, w := range sortedWords {
+			fmt.Printf("TestSortedFreq: %v : %v\n", w, wordFreq[w])
+		}
 	*/
 }

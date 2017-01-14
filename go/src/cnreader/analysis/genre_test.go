@@ -24,7 +24,7 @@ func TestMergeByGenre1(t *testing.T) {
 
 // Test length of merged results
 func TestMergeByGenre2(t *testing.T) {
-	log.Printf("analysis.TestMergeByGenre2: Begin ******** \n")	
+	log.Printf("analysis.TestMergeByGenre2: Begin ******** \n")
 	classicalWF1 := NewWordFreqByGenre("classical")
 	classicalWF1.WF["thou"] = 1
 	classicalWF2 := NewWordFreqByGenre("modern")
@@ -36,5 +36,5 @@ func TestMergeByGenre2(t *testing.T) {
 	if result != expected {
 		t.Error("analysis.TestMergeByGenre2: Expected ", expected, ", got ", result)
 	}
-	log.Printf("analysis.TestMergeByGenre2: End ******** \n")	
+	log.Printf("analysis.TestMergeByGenre2: End ******** \n")
 }

@@ -6,20 +6,20 @@ package analysis
 // Sorted list of word frequencies
 type SortedByGenre struct {
 	Genre string
-	SWI []WFResult
+	SWI   []WFResult
 }
 
 // Word frequency by genre
 type WordFreqByGenre struct {
 	Genre string
-	WF map[string]int
+	WF    map[string]int
 }
 
 // An array of word frequency maps by genre
 type WFArrayByGenre []WordFreqByGenre
 
 // Gets the matching word frequency map
-func  (wfArray WFArrayByGenre) Get(genre string) map[string]int {
+func (wfArray WFArrayByGenre) Get(genre string) map[string]int {
 	for _, wf := range wfArray {
 		if wf.Genre == genre {
 			return wf.WF
@@ -35,7 +35,7 @@ func MergeByGenre(wfArray WFArrayByGenre, more WordFreqByGenre) WFArrayByGenre {
 	for _, wf := range wfArray {
 		if wf.Genre == more.Genre {
 			for k, v := range more.WF {
-    			wf.WF[k] += v
+				wf.WF[k] += v
 			}
 			found = true
 		}
@@ -50,6 +50,6 @@ func MergeByGenre(wfArray WFArrayByGenre, more WordFreqByGenre) WFArrayByGenre {
 func NewWordFreqByGenre(genre string) WordFreqByGenre {
 	return WordFreqByGenre{
 		Genre: genre,
-		WF: map[string]int{},
+		WF:    map[string]int{},
 	}
 }
