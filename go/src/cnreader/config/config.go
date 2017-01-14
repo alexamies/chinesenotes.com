@@ -75,6 +75,11 @@ func GetHTMLConversions() []HTMLConversion {
 	return conversions
 }
 
+// The name of the directory containing the dictionary files
+func IndexDir() string {
+	return projectHome + "/index"
+}
+
 // The name of the text files with lexical units (word senses)
 func LUFileNames() []string {
 	fileNames := []string{DictionaryDir() + "/words.txt"}
