@@ -43,16 +43,16 @@ const MAX_TITLE = 5
 
 // Holds vocabulary analysis for a corpus text
 type AnalysisResults struct {
-	Title            string
-	WC, UniqueWords  int
-	Cognates         []alignment.CorpEntryCognates
-	WordFrequencies  []WFResult
-	LexicalWordFreq  []WFResult
-	BigramFreqSorted []ngram.BigramFreq
-	UnkownnChars     []index.SortedWordItem
-	DateUpdated      string
-	MaxWFOutput      int
-	ByGenre          []SortedByGenre
+	Title                   string
+	WC, UniqueWords, CCount int
+	Cognates                []alignment.CorpEntryCognates
+	WordFrequencies         []WFResult
+	LexicalWordFreq         []WFResult
+	BigramFreqSorted        []ngram.BigramFreq
+	UnkownnChars            []index.SortedWordItem
+	DateUpdated             string
+	MaxWFOutput             int
+	ByGenre                 []SortedByGenre
 }
 
 // The content for a corpus entry
@@ -237,6 +237,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	unknownChars := map[string]int{}
 	usage := map[string]string{}
 	wc := 0
+	cc := 0
 	chunks := GetChunks(text)
 	wdict := dictionary.GetWDict()
 	hwIdMap := dictionary.GetHwMap()
@@ -265,6 +266,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 					if wsArray[0].Notes != "CBETA boilerplate" {
 						//log.Printf("analysis.ParseText: boilerplate\n")
 						wc++
+						cc += utf8.RuneCountInString(w)
 						vocab[w]++
 						if _, ok := usage[w]; !ok {
 							usage[w] = chunk
@@ -299,6 +301,8 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 			}
 		}
 	}
+	//log.Printf("analysis.ParseText: %s found character count %d, vocab %d\n",
+	//	document.RawFile, cc, len(vocab))
 	collectionCogs := []alignment.CorpEntryCognates{}
 	collectionCogs = append(collectionCogs, corpEntryCogs)
 	results = CollectionAResults{
@@ -308,6 +312,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 		Collocations:      collocations,
 		CollectionCogs:    collectionCogs,
 		WC:                wc,
+		CCount:			   cc,
 		UnknownChars:      unknownChars,
 	}
 	return tokens, results
@@ -457,6 +462,7 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 	aResults := AnalysisResults{
 		Title:            title,
 		WC:               results.WC,
+		CCount:			  results.CCount,
 		Cognates:         []alignment.CorpEntryCognates{},
 		UniqueWords:      len(results.Vocab),
 		WordFrequencies:  wfResults[:maxWf],
@@ -508,6 +514,8 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 
 	// Parse template and organize template parameters
 	sortedWords := index.SortedFreq(results.Vocab)
+	log.Printf("analysis.writeAnalysis: found sortedWords for %s, count %d\n",
+		srcFile, len(sortedWords))
 
 	// Write results to a plain text file
 	index.WriteIndexDoc(sortedWords, srcFile)
@@ -542,6 +550,7 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	aResults := AnalysisResults{
 		Title:            title,
 		WC:               results.WC,
+		CCount:			  results.CCount,
 		Cognates:         results.CollectionCogs,
 		UniqueWords:      len(results.Vocab),
 		WordFrequencies:  wfResults[:maxWf],

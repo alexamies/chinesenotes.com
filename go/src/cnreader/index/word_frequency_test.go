@@ -7,7 +7,7 @@ import (
 )
 
 // Test sorting of word frequencies
-func TestSortedFreq(t *testing.T) {
+func TestSortedFreq1(t *testing.T) {
 	fmt.Printf("TestSortedFreq: Begin unit tests\n")
 	wordFreq := map[string]int{"one": 1, "three": 3, "two": 2}
 	sortedWords := SortedFreq(wordFreq)

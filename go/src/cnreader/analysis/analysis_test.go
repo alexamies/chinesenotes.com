@@ -4,6 +4,7 @@ import (
 	"cnreader/config"
 	"cnreader/corpus"
 	"cnreader/dictionary"
+	"cnreader/index"
 	"log"
 	"strings"
 	"testing"
@@ -160,6 +161,9 @@ func TestParseText1(t *testing.T) {
 	if results.WC != 2 {
 		t.Error("Expected to get wc = 2, got ", results.WC)
 	}
+	if results.CCount != 4 {
+		t.Error("Expected to get wc = 2, got ", results.WC)
+	}
 	//log.Printf("TestParseText1: End ******** \n")
 }
 
@@ -207,6 +211,23 @@ func TestParseText3(t *testing.T) {
 		i++
 	}
 	//log.Printf("TestParseText3: End +++++++++++\n")
+}
+
+func TestParseText4(t *testing.T) {
+	dictionary.ReadDict(config.LUFileNames())
+	text := ReadText("../testdata/test-trad.html")
+	tokens, results := ParseText(text, "", corpus.NewCorpusEntry())
+	if tokens.Len() != 49 {
+		t.Error("Expected to get length 49, got ", tokens.Len())
+	}
+	if results.CCount != 49 {
+		t.Error("Expected to get cc 49, got ", results.CCount)
+		return
+	}
+	if len(results.Vocab) != 38 {
+		t.Error("Expected to get Vocab 38, got ", len(results.Vocab), results.Vocab)
+		return
+	}
 }
 
 // Basic test with no data
@@ -314,6 +335,19 @@ func TestSampleUsage4(t *testing.T) {
 	log.Printf("analysis.TestSampleUsage4: End +++++++++++\n")
 }
 
+func TestSortedFreq(t *testing.T) {
+	dictionary.ReadDict(config.LUFileNames())
+	text := ReadText("../testdata/test-trad.html")
+	_, results := ParseText(text, "", corpus.NewCorpusEntry())
+	sortedWords := index.SortedFreq(results.Vocab)
+	expected := len(results.Vocab)
+	got := len(sortedWords)
+	if expected != got {
+		t.Error("TestSortedFreq: Expected %d, got %d", expected, got)
+		return
+	}
+}
+
 func TestWriteAnalysis(t *testing.T) {
 	log.Printf("analysis.TestWriteAnalysis: Begin +++++++++++\n")
 	_, results := ParseText("繁", "", corpus.NewCorpusEntry())
@@ -322,17 +356,21 @@ func TestWriteAnalysis(t *testing.T) {
 	log.Printf("analysis.TestWriteAnalysis: End +++++++++++\n")
 }
 
+/*
 func TestWriteCorpusAll(t *testing.T) {
 	log.Printf("analysis.TestWriteCorpusAll: Begin +++++++++++\n")
 	WriteCorpusAll()
 	log.Printf("analysis.TestWriteCorpusAll: End +++++++++++\n")
 }
+*/
 
+/*
 func TestWriteCorpusCol(t *testing.T) {
 	log.Printf("analysis.TestWriteCorpusCol: Begin +++++++++++\n")
 	WriteCorpusCol("lunyu.csv")
 	log.Printf("analysis.TestWriteCorpusCol: End +++++++++++\n")
 }
+*/
 
 func TestWriteCorpusDoc1(t *testing.T) {
 	log.Printf("analysis.TestWriteCorpusDoc1: Begin +++++++++++\n")
@@ -375,17 +413,21 @@ func TestWriteDoc3(t *testing.T) {
 }
 
 // Test that WriteHwFiles() does not explode
+/*
 func TestWriteHwFiles(t *testing.T) {
 	log.Printf("TestWriteHwFiles: Begin +++++++++++\n")
 	dictionary.ReadDict(config.LUFileNames())
 	WriteHwFiles()
 	log.Printf("TestWriteHwFiles: End +++++++++++\n")
 }
+*/
 
 // Test that WordFrequencies() does not explode
+/*
 func TestWordFrequencies(t *testing.T) {
 	//log.Printf("TestWordFrequencies: Begin +++++++++++\n")
 	dictionary.ReadDict(config.LUFileNames())
 	WordFrequencies()
 	//log.Printf("TestWordFrequencies: End +++++++++++\n")
 }
+*/

@@ -17,7 +17,7 @@ type CollectionAResults struct {
 	BigramFrequencies ngram.BigramFreqMap
 	Collocations      ngram.CollocationMap
 	CollectionCogs    []alignment.CorpEntryCognates
-	WC                int
+	WC, CCount        int
 	UnknownChars      map[string]int
 	ByGenre           WFArrayByGenre
 }
@@ -43,6 +43,7 @@ func (results *CollectionAResults) AddResults(more CollectionAResults) {
 	}
 
 	results.WC += more.WC
+	results.CCount += more.CCount
 
 	for k, v := range more.UnknownChars {
 		results.UnknownChars[k] += v
