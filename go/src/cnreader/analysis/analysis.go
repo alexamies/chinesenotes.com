@@ -497,7 +497,7 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 	w.Flush()
 
 	// Write results to plain text files
-	index.WriteIndexCorpus(sortedWords, sortedUnknownWords)
+	index.WriteIndexCorpus(sortedWords, sortedUnknownWords, results.WC)
 
 	return basename
 }
@@ -514,11 +514,11 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 
 	// Parse template and organize template parameters
 	sortedWords := index.SortedFreq(results.Vocab)
-	log.Printf("analysis.writeAnalysis: found sortedWords for %s, count %d\n",
-		srcFile, len(sortedWords))
+	//log.Printf("analysis.writeAnalysis: found sortedWords for %s, count %d\n",
+	//	srcFile, len(sortedWords))
 
 	// Write results to a plain text file
-	index.WriteIndexDoc(sortedWords, srcFile)
+	index.WriteIndexDoc(sortedWords, srcFile, results.WC)
 
 	wfResults := results.GetWordFreq(sortedWords)
 	maxWf := len(wfResults)
@@ -645,6 +645,7 @@ func WriteCorpusAll() {
 	}
 	aResults.ByGenre = wfArrayByGenre
 	writeAnalysisCorpus(aResults)
+	index.BuildIndex()
 }
 
 // Writes a corpus document collection to HTML, including all the entries

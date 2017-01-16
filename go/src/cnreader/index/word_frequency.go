@@ -1,5 +1,5 @@
 /*
-Library for Chinese vocabulary analysis Word frequency functions.
+Library for sorting word frequency iteme by count
 */
 package index
 
