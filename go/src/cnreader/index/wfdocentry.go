@@ -1,5 +1,5 @@
 /*
-Library for sorting word frequency iteme by relative frequency
+Library for sorting word frequency item by relative frequency
 */
 package index
 

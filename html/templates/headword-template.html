@@ -198,6 +198,24 @@
           </p>
         {{ end }}
 
+        {{ if .RelevantDocs }}
+        <h3>Word is mentioned most frequently in</h3>
+        <p>Truncated for common words</p>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr><th>Collection</th><th>Document Title</th></tr>
+          </thead>
+          <tbody>
+          {{ range $doc := .RelevantDocs }}
+            <tr>
+              <td>{{ $doc.ColTitle }}</td>
+              <td><a href='/{{$doc.HTMLFile}}'>{{ $doc.Title }}</a></td>
+            </tr>
+          {{ end }}
+          </tbody>
+        </table>
+        {{ end }}
+
         {{ if .Contains }}
         <h3>Contained in</h3>
         <p>Truncated for common words</p>

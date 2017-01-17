@@ -63,6 +63,7 @@ type CorpusEntryContent struct {
 // Dictionary entry content struct used for writing a dictionary entry to HTML
 type DictEntry struct {
 	Headword     dictionary.HeadwordDef
+	RelevantDocs []index.RetrievalResult
 	Contains     []dictionary.HeadwordDef
 	Collocations []ngram.BigramFreq
 	UsageArr     []WordUsage
@@ -160,7 +161,7 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 	for _, col := range collectionEntries {
 		colFile := corpusDataDir + col.CollectionFile
 		//log.Printf("GetWordFrequencies: input file: %s\n", colFile)
-		corpusEntries := corpus.CorpusEntries(colFile)
+		corpusEntries := corpus.CorpusEntries(colFile, col.Title)
 		for _, entry := range corpusEntries {
 			src := corpusDir + entry.RawFile
 			text := ReadText(src)
@@ -497,7 +498,7 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 	w.Flush()
 
 	// Write results to plain text files
-	index.WriteIndexCorpus(sortedWords, sortedUnknownWords, results.WC)
+	index.WriteWFCorpus(sortedWords, sortedUnknownWords, results.WC)
 
 	return basename
 }
@@ -518,7 +519,7 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	//	srcFile, len(sortedWords))
 
 	// Write results to a plain text file
-	index.WriteIndexDoc(sortedWords, srcFile, results.WC)
+	index.WriteWFDoc(sortedWords, srcFile, results.WC)
 
 	wfResults := results.GetWordFreq(sortedWords)
 	maxWf := len(wfResults)
@@ -603,7 +604,7 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 func writeCollection(collectionEntry corpus.CollectionEntry) CollectionAResults {
 
 	corpusEntries := corpus.CorpusEntries(config.CorpusDataDir() + "/" +
-		collectionEntry.CollectionFile)
+		collectionEntry.CollectionFile, collectionEntry.Title)
 	aResults := NewCollectionAResults()
 	for _, entry := range corpusEntries {
 		src := config.CorpusDir() + "/" + entry.RawFile
@@ -797,6 +798,7 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 // Writes dictionary headword entries
 func WriteHwFiles() {
 	log.Printf("analysis.WriteHwFiles: Begin +++++++++++\n")
+	index.BuildIndex()
 	hwArray := dictionary.GetHeadwords()
 	usageMap, _, _, collocations := GetWordFrequencies()
 	dateUpdated := time.Now().Format("2006-01-02")
@@ -861,8 +863,9 @@ func WriteHwFiles() {
 			hlUsageArr = append(hlUsageArr, hlWU)
 		}
 
-		dictEntry := DictEntry{
+		dictEntry := DictEntry {
 			Headword:     hw,
+			RelevantDocs: index.FindDocsForKeyword(hw),
 			Contains:     contains,
 			Collocations: wordCollocations,
 			UsageArr:     hlUsageArr,

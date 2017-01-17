@@ -12,7 +12,7 @@ func init() {
 
 // Test reading of files for HTML conversion
 func TestCollections(t *testing.T) {
-	fmt.Printf("Collections: Begin unit tests\n")
+	fmt.Printf("corpus.TestCollections: Begin unit tests\n")
 	collections := Collections()
 	if len(collections) == 0 {
 		t.Error("No collections found")
@@ -27,7 +27,7 @@ func TestCollections(t *testing.T) {
 
 // Test reading of corpus files
 func TestCorpusEntries(t *testing.T) {
-	corpusEntries := CorpusEntries("../../../../data/corpus/literary_chinese_prose.csv")
+	corpusEntries := CorpusEntries("../../../../data/corpus/literary_chinese_prose.csv", "")
 	if len(corpusEntries) == 0 {
 		t.Error("No corpus entries found")
 	}
@@ -38,6 +38,20 @@ func TestCorpusEntries(t *testing.T) {
 	if corpusEntries[0].GlossFile != "classical_chinese_text.html" {
 		t.Error("Expected entry classical_chinese_text.html, got ",
 			corpusEntries[0].GlossFile)
+	}
+}
+
+// Trivial test to look up a collection file
+func TestLoadCorpusEntries(t *testing.T) {
+	loadCorpusEntries()
+	if len(corpusEntryMap) == 0 {
+		t.Error("corpus.TestLoadCorpusEntries: No corpus entries found")
+	} else {
+		for _, v := range corpusEntryMap {
+			entry := GetCorpusEntry(v.RawFile)
+			fmt.Printf("corpus.TestLoadCorpusEntries: first entry: %v\n", entry)
+			break
+		}
 	}
 }
 

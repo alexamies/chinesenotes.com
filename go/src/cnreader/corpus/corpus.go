@@ -26,7 +26,14 @@ type CollectionEntry struct {
 const collectionsFile = "data/corpus/collections.csv"
 
 type CorpusEntry struct {
-	RawFile, GlossFile, Title string
+	RawFile, GlossFile, Title, ColTitle string
+}
+
+// Index corpus entries by raw file name
+var corpusEntryMap map[string]CorpusEntry
+
+func init() {
+	loadCorpusEntries()
 }
 
 // Gets the entry the collection
@@ -107,7 +114,7 @@ func Collections() []CollectionEntry {
 }
 
 // Get a list of files for a corpus
-func CorpusEntries(collectionFile string) []CorpusEntry {
+func CorpusEntries(collectionFile, colTitle string) []CorpusEntry {
 	file, err := os.Open(collectionFile)
 	if err != nil {
 		log.Fatal(err)
@@ -127,9 +134,27 @@ func CorpusEntries(collectionFile string) []CorpusEntry {
 			log.Fatal("corpus.CorpusEntries len(row) != 3 ", row)
 		}
 		corpusEntries = append(corpusEntries, CorpusEntry{row[0], row[1],
-			row[2]})
+			row[2], colTitle})
 	}
 	return corpusEntries	
+}
+
+// Lookup a corpus entry by raw file name
+func GetCorpusEntry(filename string) CorpusEntry {
+	return corpusEntryMap[filename]
+}
+
+// Load all corpus entries and keep them in a hash map
+func loadCorpusEntries() {
+	corpusEntryMap = make(map[string]CorpusEntry)
+	collections := Collections()
+	for _, collectionEntry := range collections {
+		corpusEntries := CorpusEntries(config.CorpusDataDir() + "/" +
+		collectionEntry.CollectionFile, collectionEntry.Title)
+		for _, entry := range corpusEntries {
+			corpusEntryMap[entry.RawFile] = entry
+		}
+	}
 }
 
 // Constructor for an empty CollectionEntry
@@ -179,7 +204,7 @@ func WriteCollectionFile(collectionFile, analysisFile string) {
 	for _, entry := range collections {
 		if entry.CollectionFile == collectionFile && entry.GlossFile != "\\N" {
 			outputFile := config.ProjectHome() + "/data/corpus/" +collectionFile
-			entry.CorpusEntries = CorpusEntries(outputFile)
+			entry.CorpusEntries = CorpusEntries(outputFile, entry.Title)
 			//log.Printf("WriteCollectionFile: Writing collection file %s\n",
 			//	outputFile)
 			entry.AnalysisFile = analysisFile
