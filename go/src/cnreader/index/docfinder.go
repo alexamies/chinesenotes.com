@@ -21,6 +21,7 @@ const MAX_DOCS_DISPLAYED = 5
 // A document-specific word frequency entry record
 type RetrievalResult struct {
 	HTMLFile, Title, ColTitle string
+	Count int
 }
 
 // Retrieves documents with title for a single keyword
@@ -28,7 +29,7 @@ func FindDocsForKeyword(keyword dictionary.HeadwordDef) []RetrievalResult {
 	docs := make([]RetrievalResult, 0)
 	if !keywordIndexReady {
 		log.Printf("index.FindForKeyword, Warning: index not yet ready")
-		entry := RetrievalResult{"Index not ready", "", ""}
+		entry := RetrievalResult{"Index not ready", "", "", 0}
 		return []RetrievalResult{entry}
 	}
 	// TODO - separate corpora into simplified and traditional. At the moment
@@ -41,8 +42,14 @@ func FindDocsForKeyword(keyword dictionary.HeadwordDef) []RetrievalResult {
 	for _, raw := range wfdoc[kw] {
 		if i < MAX_DOCS_DISPLAYED {
 			corpusEntry := corpus.GetCorpusEntry(raw.Filename)
+			if corpusEntry.Title == "" {
+				//TODO - fix these
+				continue
+				//log.Printf("index.FindForKeyword, no title for %s\n", 
+				//	raw.Filename)
+			}
 			item := RetrievalResult{corpusEntry.GlossFile, corpusEntry.Title,
-				corpusEntry.ColTitle}
+				corpusEntry.ColTitle, raw.Count}
 			docs = append(docs, item)
 			i++
 		} else {

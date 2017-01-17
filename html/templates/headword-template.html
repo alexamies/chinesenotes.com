@@ -203,13 +203,14 @@
         <p>Truncated for common words</p>
         <table class="table table-bordered table-hover">
           <thead>
-            <tr><th>Collection</th><th>Document Title</th></tr>
+            <tr><th>Collection</th><th>Document Title</th><th>Occurrences</th></tr>
           </thead>
           <tbody>
           {{ range $doc := .RelevantDocs }}
             <tr>
               <td>{{ $doc.ColTitle }}</td>
               <td><a href='/{{$doc.HTMLFile}}'>{{ $doc.Title }}</a></td>
+              <td>{{ $doc.Count }}</td>
             </tr>
           {{ end }}
           </tbody>

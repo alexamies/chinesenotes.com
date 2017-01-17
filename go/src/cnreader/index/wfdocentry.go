@@ -29,5 +29,5 @@ func (items ByFrequencyDoc) Swap(i, j int) {
 }
 
 func (items ByFrequencyDoc) Less(i, j int) bool {
-	return items[i].Freq > items[j].Freq
+	return items[i].Count > items[j].Count
 }
