@@ -1,6 +1,7 @@
 package index
 
 import (
+	"fmt"
 	"testing"
 )
 
@@ -21,14 +22,20 @@ func TestBuildIndex1(t *testing.T) {
 	sw := SortedWordItem{w, 1}
 	sortedWords := []SortedWordItem{sw}
 	unknownChars := []SortedWordItem{}
-	WriteIndexCorpus(sortedWords, unknownChars, 1)
-	WriteIndexDoc(sortedWords, "file.txt", 1)
+	WriteWFCorpus(sortedWords, unknownChars, 1)
+	WriteWFDoc(sortedWords, "file.txt", 1)
 	BuildIndex()
 	entries := wfdoc[w]
 	expected := 1
 	if len(entries) != expected {
-		t.Error("index.TestReadWF1: Expected ", expected, " got ", len(entries))
+		t.Error("index.TestBuildIndex1: Expected ", expected, " got ", len(entries))
 	}
+	documents := FindForKeyword(w)
+	retExpected := 1
+	if len(documents) != retExpected {
+		t.Error("index.TestReadWF1: retExpected ", retExpected, " got ", len(documents))
+	}
+	fmt.Println("index.TestBuildIndex1 ", documents)
 }
 
 // Trivial test for corpus-wide word frequency reading
@@ -42,7 +49,7 @@ func TestReadWFCorpus1(t *testing.T) {
 	sw := SortedWordItem{w, 1}
 	sortedWords := []SortedWordItem{sw}
 	unknownChars := []SortedWordItem{}
-	WriteIndexCorpus(sortedWords, unknownChars, 1)
+	WriteWFCorpus(sortedWords, unknownChars, 1)
 	readWFCorpus()
 	entry := wf[w]
 	expected := 1
@@ -53,30 +60,30 @@ func TestReadWFCorpus1(t *testing.T) {
 }
 
 // Trivial test for corpus index writing
-func TestWriteIndexCorpus0(t *testing.T) {
+func TestWriteWFCorpus0(t *testing.T) {
 	sortedWords := []SortedWordItem{}
 	unknownChars := []SortedWordItem{}
-	WriteIndexCorpus(sortedWords, unknownChars, 0)
+	WriteWFCorpus(sortedWords, unknownChars, 0)
 }
 
 // Simple test for corpus index writing
-func TestWriteIndexCorpus1(t *testing.T) {
+func TestWriteWFCorpus1(t *testing.T) {
 	sw := SortedWordItem{"鐵", 1}
 	sortedWords := []SortedWordItem{sw}
 	uw := SortedWordItem{"𣣌", 2}
 	unknownChars := []SortedWordItem{uw}
-	WriteIndexCorpus(sortedWords, unknownChars, 1)
+	WriteWFCorpus(sortedWords, unknownChars, 1)
 }
 
 // Trivial test for document index writing
-func TestWriteIndexDoc0(t *testing.T) {
+func TestWriteWFDoc0(t *testing.T) {
 	sortedWords := []SortedWordItem{}
-	WriteIndexDoc(sortedWords, "test.txt", 0)
+	WriteWFDoc(sortedWords, "test.txt", 0)
 }
 
 // Simple test for document index writing
-func TestWriteIndexDoc1(t *testing.T) {
+func TestWriteWFDoc1(t *testing.T) {
 	sw := SortedWordItem{"鐵", 1}
 	sortedWords := []SortedWordItem{sw}
-	WriteIndexDoc(sortedWords, "test.txt", 1)
+	WriteWFDoc(sortedWords, "test.txt", 1)
 }

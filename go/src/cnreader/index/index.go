@@ -1,5 +1,5 @@
 /*
-Package for index building
+Package for keyword index building and use
 */
 package index
 
@@ -43,11 +43,16 @@ var wf map[string]WFEntry
 // Keep document-specific word frequency map in memory
 var wfdoc map[string][]WFDocEntry
 
-// Reads word frequencies data from files into memory
+// For checking the status of the keyword index
+var keywordIndexReady bool
+
+// Reads word frequencies data from files into memory and builds the keyword
+// index
 func BuildIndex() {
 	readWFCorpus()
 	readWFDoc()
 	writeKeywordIndex()
+	keywordIndexReady = true
 }
 
 // Reads corpus-wide word frequencies from file into memory
@@ -129,17 +134,39 @@ func readWFDoc() {
 
 // Resets the document analysis plain text file
 func Reset() {
-
 	dir := config.IndexDir()
-
-	// Word frequencies
 	fname := dir + "/word_freq_doc.txt"
 	wfFile, _ := os.Create(fname)
 	wfFile.Close()
+	keywordIndexReady = false
+}
+
+// Writes a JSON format keyword index to look up top documents for each keyword
+func writeKeywordIndex() {
+	dir := config.IndexDir()
+
+	// Word frequencies
+	fname := dir + "/" + KEYWORD_INDEX_FILE
+	f, err := os.Create(fname)
+	if err != nil {
+		log.Printf("index.writeKeywordIndex: Could not create file", err)
+		return
+	}
+	defer f.Close()
+	w := bufio.NewWriter(f)
+	for k, items := range wfdoc {
+		sort.Sort(ByFrequencyDoc(items))
+		if len(items) > MAX_FILES_PER_KEYWORD {
+			wfdoc[k] = items[:MAX_FILES_PER_KEYWORD]
+		}
+	}
+	encoder := json.NewEncoder(w)
+	encoder.Encode(wfdoc)
+	w.Flush()
 }
 
 // Write corpus analysis to plain text files in the index directory
-func WriteIndexCorpus(sortedWords, sortedUnknownWords []SortedWordItem, wc int) {
+func WriteWFCorpus(sortedWords, sortedUnknownWords []SortedWordItem, wc int) {
 
 	// Word frequencies
 	dir := config.IndexDir()
@@ -179,12 +206,7 @@ func WriteIndexCorpus(sortedWords, sortedUnknownWords []SortedWordItem, wc int) 
 }
 
 // Append document analysis to a plain text file in the index directory
-func WriteIndexDoc(sortedWords []SortedWordItem, srcFile string, wc int) {
-
-	if srcFile == "lunyu/lunyu001.txt" {
-		log.Printf("index.WriteIndexDoc: file = %s, len(sortedWords) = %d",
-			srcFile, len(sortedWords))
-	}
+func WriteWFDoc(sortedWords []SortedWordItem, srcFile string, wc int) {
 
 	dir := config.IndexDir()
 
@@ -206,28 +228,4 @@ func WriteIndexDoc(sortedWords []SortedWordItem, srcFile string, wc int) {
 			rel_freq, srcFile)
 	}
 	wfWriter.Flush()
-}
-
-// Writes a JSON format keyword index to look up top documents for each keyword
-func writeKeywordIndex() {
-	dir := config.IndexDir()
-
-	// Word frequencies
-	fname := dir + "/" + KEYWORD_INDEX_FILE
-	f, err := os.Create(fname)
-	if err != nil {
-		log.Printf("index.writeKeywordIndex: Could not create file", err)
-		return
-	}
-	defer f.Close()
-	w := bufio.NewWriter(f)
-	for k, items := range wfdoc {
-		sort.Sort(ByFrequencyDoc(items))
-		if len(items) > MAX_FILES_PER_KEYWORD {
-			wfdoc[k] = items[:MAX_FILES_PER_KEYWORD]
-		}
-	}
-	encoder := json.NewEncoder(w)
-	encoder.Encode(wfdoc)
-	w.Flush()
 }
