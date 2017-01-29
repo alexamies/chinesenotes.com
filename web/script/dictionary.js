@@ -2,7 +2,7 @@
 var textApp = angular.module('textApp', ['ngSanitize']);
 
 textApp.controller('textCtrl', function($scope, $http, $location) {
-  var re = /[^\u0040-\u007F\u0080-\u00FF\u0100-\u017F\u0180-\u024F\u0300-\u036F]/;
+  var re = /[^\u0032-\u007F\u0080-\u00FF\u0100-\u017F\u0180-\u024F\u0300-\u036F]/;
   $scope.formData = {};
   $scope.formData.matchtype = 'approximate';
   $scope.results = {};
@@ -10,6 +10,7 @@ textApp.controller('textCtrl', function($scope, $http, $location) {
     //console.log("submit: entered")
     $scope.results = {"msg": "Searching"};
     var hasCJK = re.exec($scope.formData.text);  
+    console.log("dictionary.js: hasCJK = " + hasCJK)
     var url = "/englishsearch.php";
     if (hasCJK && ($scope.formData.matchtype == 'approximate')) {
       url = "/textlookup.php";
