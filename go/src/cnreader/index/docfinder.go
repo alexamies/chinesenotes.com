@@ -16,7 +16,7 @@ import (
 )
 
 // Maximum number of documents displayed on a web page
-const MAX_DOCS_DISPLAYED = 5
+const MAX_DOCS_DISPLAYED = 10
 
 // A document-specific word frequency entry record
 type RetrievalResult struct {
