@@ -10,6 +10,7 @@ import (
 	"log"
 	"os"
 	"strings"
+	"strconv"
 )
 
 const conversionsFile = "data/corpus/html-conversion.csv"
@@ -20,6 +21,7 @@ var configVars map[string]string
 // A type that holds the source and destination files for HTML conversion
 type HTMLConversion struct {
 	SrcFile, DestFile, Template string
+	GlossChinese bool
 }
 
 func init() {
@@ -70,7 +72,19 @@ func GetHTMLConversions() []HTMLConversion {
 	}
 	conversions := make([]HTMLConversion, 0)
 	for _, row := range rawCSVdata {
-		conversions = append(conversions, HTMLConversion{row[0], row[1], row[2]})
+		if len(row) == 3 {
+			conversions = append(conversions, HTMLConversion{row[0], row[1],
+				row[2], true})
+		} else {
+			glossChinese, err := strconv.ParseBool(row[3])
+			if err != nil {
+				conversions = append(conversions, HTMLConversion{row[0], row[1],
+				row[2], true})
+			} else {
+				conversions = append(conversions, HTMLConversion{row[0], row[1],
+					row[2], glossChinese})
+			}
+		}
 	}
 	return conversions
 }

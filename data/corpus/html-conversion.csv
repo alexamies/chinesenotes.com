@@ -1,24 +1,24 @@
 # HTML files outside the corpus to be converted to add popover for Chinese words
 # Raw file, Output file, Template
-../html/abbreviations-raw.html	abbreviations.html	about-template.html
-../corpus/classical_chinese-raw.html	classical_chinese.html	\N
-../corpus/classical_chinese_nominal_verbal-raw.html	classical_chinese_nominal_verbal.html	\N
-../corpus/classical_chinese_verbs-raw.html	classical_chinese_verbs.html	\N
-../corpus/classical_chinese_embedded-raw.html	classical_chinese_embedded.html	\N
-../corpus/classical_chinese_references-raw.html	classical_chinese_references.html	\N
-../html/dictionary_templates.html	dictionary_templates.html	about-template.html
-../corpus/poetry-raw.html	poetry.html	\N
-../corpus/poetry_references-raw.html	poetry_references.html	\N
-../html/about-raw.html	about.html	about-template.html
-../html/frequency-list-raw.html	frequency-list.html	reference-template.html
-../html/dictionary_design-raw.html	dictionary_design.html	about-template.html
-../html/help-raw.html	help.html	about-template.html
-../html/help2-raw.html	help2.html	about-template.html
-../html/help3-raw.html	help3.html	about-template.html
-../html/help4-raw.html	help4.html	about-template.html
-../html/reference-raw.html	reference.html	reference-template.html
-../html/references-raw.html	references.html	about-template.html
-../html/style_guide-raw.html	style_guide.html	about-template.html
-../html/syllables_ipa.html	syllables_ipa.html	reference-template.html
-../html/texts-raw.html	texts.html	texts-template.html
-../html/whatsnew-raw.html	whatsnew.html	about-template.html
+../html/abbreviations-raw.html	abbreviations.html	about-template.html	false
+../corpus/classical_chinese-raw.html	classical_chinese.html	\N	true
+../corpus/classical_chinese_nominal_verbal-raw.html	classical_chinese_nominal_verbal.html	\N	true
+../corpus/classical_chinese_verbs-raw.html	classical_chinese_verbs.html	\N	true
+../corpus/classical_chinese_embedded-raw.html	classical_chinese_embedded.html	\N	true
+../corpus/classical_chinese_references-raw.html	classical_chinese_references.html	\N	true
+../html/dictionary_templates.html	dictionary_templates.html	about-template.html	true
+../corpus/poetry-raw.html	poetry.html	\N	true
+../corpus/poetry_references-raw.html	poetry_references.html	\N	true
+../html/about-raw.html	about.html	about-template.html	false
+../html/frequency-list-raw.html	frequency-list.html	reference-template.html	true
+../html/dictionary_design-raw.html	dictionary_design.html	about-template.html	true
+../html/help-raw.html	help.html	about-template.html	true
+../html/help2-raw.html	help2.html	about-template.html	true
+../html/help3-raw.html	help3.html	about-template.html	true
+../html/help4-raw.html	help4.html	about-template.html	true
+../html/reference-raw.html	reference.html	reference-template.html	false
+../html/references-raw.html	references.html	about-template.html	false
+../html/style_guide-raw.html	style_guide.html	about-template.html	true
+../html/syllables_ipa.html	syllables_ipa.html	reference-template.html	true
+../html/texts-raw.html	texts.html	texts-template.html	false
+../html/whatsnew-raw.html	whatsnew.html	about-template.html	false

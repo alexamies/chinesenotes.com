@@ -384,7 +384,7 @@ func TestWriteDoc1(t *testing.T) {
 	log.Printf("analysis.TestWriteDoc1: Begin +++++++++++\n")
 	tokens, results := ParseText("繁", "", corpus.NewCorpusEntry())
 	outfile := "../testoutput/output.html"
-	WriteDoc(tokens, results.Vocab, outfile, `\N`, `\N`)
+	WriteDoc(tokens, results.Vocab, outfile, `\N`, `\N`, true)
 	log.Printf("analysis.TestWriteDoc1: End +++++++++++\n")
 }
 
@@ -397,7 +397,7 @@ func TestWriteDoc2(t *testing.T) {
 		t.Error("Expected to get length 4, got ", tokens.Len())
 	}
 	outfile := "../testoutput/test-gloss.html"
-	WriteDoc(tokens, results.Vocab, outfile, `\N`, `\N`)
+	WriteDoc(tokens, results.Vocab, outfile, `\N`, `\N`, true)
 }
 
 func TestWriteDoc3(t *testing.T) {
@@ -409,7 +409,7 @@ func TestWriteDoc3(t *testing.T) {
 		t.Error("Expected to get length 6, got ", tokens.Len())
 	}
 	outfile := "../testoutput/test-simplified-gloss.html"
-	WriteDoc(tokens, results.Vocab, outfile, `\N`, `\N`)
+	WriteDoc(tokens, results.Vocab, outfile, `\N`, `\N`, true)
 }
 
 // Test that WriteHwFiles() does not explode

@@ -718,10 +718,12 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 // tokens: A list of tokens forming the document
 // vocab: A list of word id's in the document
 // filename: The file name to write to
+// GlossChinese: whether to convert the Chinese text in the file to hyperlinks
 func WriteDoc(tokens list.List, vocab map[string]int, filename,
-	templateName, templateFile string) {
+	templateName, templateFile string, glossChinese bool) {
 	if templateFile != `\N` {
-		writeHTMLDoc(tokens, vocab, filename, templateName, templateFile)
+		writeHTMLDoc(tokens, vocab, filename, templateName, templateFile,
+			glossChinese)
 		return
 	}
 	f, err := os.Create(filename)
@@ -757,15 +759,18 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename,
 // tokens: A list of tokens forming the document
 // vocab: A list of word id's in the document
 // filename: The file name to write to
+// GlossChinese: whether to convert the Chinese text in the file to hyperlinks
 func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
-	templateName, templateFile string) {
+	templateName, templateFile string, glossChinese bool) {
 	var b bytes.Buffer
 
 	// Iterate over text chunks
 	for e := tokens.Front(); e != nil; e = e.Next() {
 		chunk := e.Value.(string)
 		//fmt.Printf("WriteDoc: Word %s\n", word)
-		if entries, ok := dictionary.GetWord(chunk); ok {
+		if !glossChinese {
+			fmt.Fprintf(&b, chunk)
+		} else if entries, ok := dictionary.GetWord(chunk); ok {
 			// Regular HTML link
 			mouseover := fmt.Sprintf("%s | %s", entries[0].Pinyin,
 				entries[0].English)
