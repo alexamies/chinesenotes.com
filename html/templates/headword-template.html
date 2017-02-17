@@ -198,6 +198,18 @@
           </p>
         {{ end }}
 
+        {{ if .Contains }}
+        <h3>Contained in</h3>
+        <p>
+          {{ range $w := .Contains }}
+            <a href='/words/{{$w.Id}}.html'
+               title='{{if DerefNe .Traditional "\\N"}}{{Deref .Traditional}}{{end}} | {{ range $p := $w.Pinyin }} {{ $p }} {{ end }} | {{ range $ws := $w.WordSenses }} {{ $ws.English }} {{ end }}'
+               >{{ $w.Simplified }}</a>
+            &nbsp;
+          {{ end }}
+        {{ end }}
+        </p>
+
         {{ if .RelevantDocs }}
         <h3>Word is mentioned most frequently in</h3>
         <p>Truncated for common words</p>
@@ -211,40 +223,6 @@
               <td>{{ $doc.ColTitle }}</td>
               <td><a href='/{{$doc.HTMLFile}}'>{{ $doc.Title }}</a></td>
               <td>{{ $doc.Count }}</td>
-            </tr>
-          {{ end }}
-          </tbody>
-        </table>
-        {{ end }}
-
-        {{ if .Contains }}
-        <h3>Contained in</h3>
-        <p>Truncated for common words</p>
-        <table class="table table-bordered table-hover">
-          <thead>
-            <tr><th>Simplified</th><th>Traditional</th><th>Pinyin</th><th>English</th></tr>
-          </thead>
-          <tbody>
-          {{ range $w := .Contains }}
-            <tr>
-              <td>
-                <a href='/words/{{$w.Id}}.html'>{{ $w.Simplified }}</a>
-              </td>
-              <td>{{if DerefNe .Traditional "\\N"}}{{Deref .Traditional}}{{end}}</td>
-              <td>
-                {{ range $p := $w.Pinyin }} {{ $p }} {{ end }}
-              </td>
-              <td>
-                {{ if gt (len $w.WordSenses) 1}}
-                <ol>
-                {{ range $ws := $w.WordSenses }}
-                  <li>{{ $ws.English }} </li>
-                {{ end }}
-                <ol>
-                {{ else }}
-                  {{ range $ws := $w.WordSenses }} {{ $ws.English }} {{ end }}
-                {{ end }}
-              </td>
             </tr>
           {{ end }}
           </tbody>
