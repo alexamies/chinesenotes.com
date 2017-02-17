@@ -201,11 +201,11 @@
         {{ if .Contains }}
         <h3>Contained in</h3>
         <p>
-          {{ range $w := .Contains }}
+          {{ range $index, $w := .Contains }}
+            {{if $index}}、{{end}}
             <a href='/words/{{$w.Id}}.html'
-               title='{{if DerefNe .Traditional "\\N"}}{{Deref .Traditional}}{{end}} | {{ range $p := $w.Pinyin }} {{ $p }} {{ end }} | {{ range $ws := $w.WordSenses }} {{ $ws.English }} {{ end }}'
+               title='{{if DerefNe .Traditional "\\N"}}{{Deref .Traditional | }}{{end}} {{ range $p := $w.Pinyin }} {{ $p }} {{ end }} | {{ range $ws := $w.WordSenses }} {{ $ws.English }} {{ end }}'
                >{{ $w.Simplified }}</a>
-            &nbsp;
           {{ end }}
         {{ end }}
         </p>
