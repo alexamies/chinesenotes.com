@@ -19,6 +19,10 @@ import (
 // Headword output file
 const HEADWORD_FILE = "headwords.txt"
 
+// Maximum number of containing words to output to the generated
+// HTML file
+const MAX_CONTAINS = 50
+
 // Defines a headword with mapping between simplified and traditional
 type HeadwordDef struct {
 	Id int // key for the headword
@@ -77,7 +81,7 @@ func ContainsWord(word string, headwords []HeadwordDef) []HeadwordDef {
 	//log.Printf("dictionary.ContainsWord: Enter\n")
 	contains := []HeadwordDef{}
 	for _, hw := range headwords {
-		if len(contains) <= 20 && *hw.Simplified != word && strings.Contains(*hw.Simplified, word) {
+		if len(contains) <= MAX_CONTAINS && *hw.Simplified != word && strings.Contains(*hw.Simplified, word) {
 			contains = append(contains, hw)
 		}
 	}
@@ -323,7 +327,6 @@ func ReadDict(wsFilenames []string) {
 		}
 	}
 }
-
 
 // Reads the Chinese-English lexical units into memory from the words.txt file
 // and returns a map from word sense id to word sense definition
