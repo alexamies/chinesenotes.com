@@ -204,7 +204,7 @@
           {{ range $index, $w := .Contains }}
             {{if $index}}、{{end}}
             <a href='/words/{{$w.Id}}.html'
-               title='{{if DerefNe .Traditional "\\N"}}{{Deref .Traditional | }}{{end}} {{ range $p := $w.Pinyin }} {{ $p }} {{ end }} | {{ range $ws := $w.WordSenses }} {{ $ws.English }} {{ end }}'
+               title='{{if DerefNe .Traditional "\\N"}}{{Deref .Traditional | }}{{end}} {{ range $p := $w.Pinyin }} {{ $p }} {{ end }} | {{ range $i, $ws := $w.WordSenses }} {{if $i}}; {{end}} {{ $ws.English }} {{ end }}'
                >{{ $w.Simplified }}</a>
           {{ end }}
         {{ end }}
