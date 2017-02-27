@@ -35,8 +35,8 @@ if [ -n "$PROD" ]; then
     cp $CNREADER_HOME/web/sishuzhangju/*.html $PROD/web/sishuzhangju/.
     cp $CNREADER_HOME/web/yeshengtao/*.html $PROD/web/yeshengtao/.
     cp $CNREADER_HOME/web/zhuangzi/*.html $PROD/web/zhuangzi/.
-    cp $CNREADER_HOME/web/abbreviations.html $PROD/web/.
-    cp $CNREADER_HOME/web/references.html $PROD/web/.
+    cp $CNREADER_HOME/web/*.html $PROD/web/.
+    cp $CNREADER_HOME/web/*.css $PROD/web/.
     cp $CNREADER_HOME/web/script/*.js $PROD/web/script/.
     cp $CNREADER_HOME/data/*.txt $PROD/data/.
   else
