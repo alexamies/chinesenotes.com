@@ -86,16 +86,16 @@ span.dict-entry-headword {
     font-weight: normal;
 }
 span.dict-entry-pinyin {
-    font-weight: bold;
-    font-size: 120%;
-}
-
-span.dict-entry-grammar {
     font-style: italic;
     font-size: 120%;
 }
 
+span.dict-entry-grammar {
+    font-size: 120%;
+}
+
 span.dict-entry-definition {
+    font-weight: bold;
     font-size: 120%;
 }
 
