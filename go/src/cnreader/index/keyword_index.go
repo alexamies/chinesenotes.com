@@ -6,6 +6,7 @@ package index
 import (
 	"bufio"
 	"cnreader/config"
+	"cnreader/ngram"
 	"encoding/csv"
 	"encoding/json"
 	"fmt"
@@ -29,6 +30,9 @@ const WF_CORPUS_FILE = "word_frequencies.txt"
 
 // Word frequencies for each document
 const WF_DOC_FILE = "word_freq_doc.txt"
+
+// ngram frequencies for corpus
+const NGRAM_CORPUS_FILE = "ngram_frequencies.txt"
 
 // A word frequency entry record
 type WFEntry struct {
@@ -166,7 +170,8 @@ func writeKeywordIndex() {
 }
 
 // Write corpus analysis to plain text files in the index directory
-func WriteWFCorpus(sortedWords, sortedUnknownWords []SortedWordItem, wc int) {
+func WriteWFCorpus(sortedWords, sortedUnknownWords []SortedWordItem,
+	bFreq []ngram.BigramFreq, wc int) {
 
 	// Word frequencies
 	dir := config.IndexDir()
@@ -203,6 +208,24 @@ func WriteWFCorpus(sortedWords, sortedUnknownWords []SortedWordItem, wc int) {
 		fmt.Fprintln(w)
 	}
 	w.Flush()
+
+	// Write ngrams to a file
+	ngramFile, err := os.Create(dir + "/" + NGRAM_CORPUS_FILE)
+	if err != nil {
+		log.Printf("Could not open write ngramFile", err)
+		return
+	}
+	defer ngramFile.Close()
+	nWriter := bufio.NewWriter(ngramFile)
+	for _, ngramItem := range bFreq {
+		rel_freq := 0.0
+		if wc > 0 {
+			rel_freq = float64(ngramItem.Frequency) * 10000.0 / float64(wc)
+		}
+		fmt.Fprintf(nWriter, "%s\t%d\t%f\n", ngramItem.BigramVal.Traditional(),
+			ngramItem.Frequency,	rel_freq)
+	}
+	nWriter.Flush()
 }
 
 // Append document analysis to a plain text file in the index directory

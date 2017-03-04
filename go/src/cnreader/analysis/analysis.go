@@ -498,7 +498,7 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 	w.Flush()
 
 	// Write results to plain text files
-	index.WriteWFCorpus(sortedWords, sortedUnknownWords, results.WC)
+	index.WriteWFCorpus(sortedWords, sortedUnknownWords, bFreq, results.WC)
 
 	return basename
 }
