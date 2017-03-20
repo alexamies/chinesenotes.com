@@ -459,7 +459,7 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 	}
 
 	dateUpdated := time.Now().Format("2006-01-02")
-	title := "Corpus Analysis"
+	title := "Terminology Extraction and Vocabulary Analysis"
 	aResults := AnalysisResults{
 		Title:            title,
 		WC:               results.WC,
