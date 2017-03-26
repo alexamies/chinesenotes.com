@@ -2,3 +2,18 @@
 
 # The name of the directory with dictionary files
 DictionaryDir: data
+
+# The host name or ip of the database to connect to (used for cnweb)
+DBHost: 127.0.0.1
+
+# The port of the database to connect to (used for cnweb)
+DBPort: 3306
+
+# The user of the database to connect to (used for cnweb)
+DBUser: set me
+
+# The user password of the database to connect to (used for cnweb)
+DBPass: set me
+
+# The name of the database to connect to (used for cnweb)
+DBName: corpus_index

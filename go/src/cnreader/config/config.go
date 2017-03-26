@@ -89,6 +89,16 @@ func GetHTMLConversions() []HTMLConversion {
 	return conversions
 }
 
+// Gets a configuration variable value
+func GetVar(key string) string {
+	val, ok := configVars[key]
+	if !ok {
+		log.Printf("config.GetVar: could not find key: '%s'\n", key)
+		val = "Not found"
+	}
+	return val
+}
+
 // The name of the directory containing the dictionary files
 func IndexDir() string {
 	return projectHome + "/index"

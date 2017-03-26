@@ -1,0 +1,4 @@
+USE corpus_index;
+
+LOAD DATA LOCAL INFILE 'collections.csv' INTO TABLE collection CHARACTER SET utf8 LINES TERMINATED BY '\n';
+SHOW WARNINGS;
