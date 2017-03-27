@@ -5,6 +5,7 @@ package find
 
 import (
 	"cnreader/config"
+	"cnweb/applog"
 	"database/sql"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
@@ -24,7 +25,7 @@ type Collection struct {
 }
 
 func init() {
-	log.Println("cnweb.find.init() enter")
+	applog.Info("cnweb.find.init() enter")
 	dbhost := config.GetVar("DBHost")
 	dbport := config.GetVar("DBPort")
 	dbuser := config.GetVar("DBUser")
@@ -34,16 +35,16 @@ func init() {
 		dbport, dbname)
 	db, err := sql.Open("mysql", conString)
 	if err != nil {
-		log.Println("cnweb.find.init() could not connect to the database, ",
+		applog.GetLogger().Println("FATAL: could not connect to the database, ",
 			err)
 		panic(err.Error())
 	}
 	database = db
-	log.Println("cnweb.find.init() exit")
+	applog.Info("cnweb.find.init() exit")
 }
 
 func FindDocuments(query string) string {
-	log.Println("cnweb.find.FindDocuments(): ", query)
+	applog.GetLogger().Println("INFO: ", query)
 	stmt, err := database.Prepare("SELECT title, gloss_file FROM collection WHERE title LIKE ?")
     if err != nil {
         log.Println("cnweb.find.FindDocuments() Error preparing query: ", query,
@@ -51,7 +52,7 @@ func FindDocuments(query string) string {
     }
 	results, err := stmt.Query("%" + query + "%")
 	if err != nil {
-		log.Println("cnweb.find.FindDocuments() Error for query: ", query, err)
+		applog.GetLogger().Println("ERROR: Error for query: ", query, err)
 	}
 	defer results.Close()
 
