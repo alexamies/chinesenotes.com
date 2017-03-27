@@ -13,7 +13,11 @@ import (
 	"strings"
 )
 
-var database *sql.DB
+var (
+	database *sql.DB
+	findColStmt *sql.Stmt
+	countColStmt *sql.Stmt
+)
 
 type Collection struct {
 	CollectionFile string
@@ -24,6 +28,7 @@ type Collection struct {
 	CorpusName     string
 }
 
+// Open database connection and prepare statements
 func init() {
 	dbhost := config.GetVar("DBHost")
 	dbport := config.GetVar("DBPort")
@@ -39,18 +44,39 @@ func init() {
 		panic(err.Error())
 	}
 	database = db
+
+	stmt, err := database.Prepare("SELECT title, gloss_file FROM collection WHERE title LIKE ?")
+    if err != nil {
+        log.Fatal("cnweb.find.FindDocuments() Error preparing query: ", err)
+    }
+    findColStmt = stmt
+
+	cstmt, err := database.Prepare("SELECT count(title) FROM collection WHERE title LIKE ?")
+    if err != nil {
+        log.Fatal("cnweb.find.FindDocuments() Error preparing query: ", err)
+    }
+    countColStmt = cstmt
+}
+
+func countDocuments(query string) int {
+	var count int
+	results, err := countColStmt.Query("%" + query + "%")
+	results.Next()
+	results.Scan(&count)
+	if err != nil {
+		applog.Error("countDocuments: Error for query: ", query, err)
+	}
+	results.Close()
+	return count
 }
 
 func FindDocuments(query string) string {
 	applog.Info("FindDocuments, ", query)
-	stmt, err := database.Prepare("SELECT title, gloss_file FROM collection WHERE title LIKE ?")
-    if err != nil {
-        applog.Error("cnweb.find.FindDocuments() Error preparing query: ", query,
-        	err)
-    }
-	results, err := stmt.Query("%" + query + "%")
+	count := countDocuments(query)
+	applog.Info("FindDocuments, expect count: ", count)
+	results, err := findColStmt.Query("%" + query + "%")
 	if err != nil {
-		applog.Error("ERROR: Error for query: ", query, err)
+		applog.Error("FindDocuments, Error for query: ", query, err)
 	}
 	defer results.Close()
 
