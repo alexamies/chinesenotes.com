@@ -59,8 +59,8 @@ func FindDocuments(query string) string {
 	for results.Next() {
 		col := Collection{}
 		results.Scan(&col.GlossFile, &col.Title)
-		json += fmt.Sprintf("{\"title\":%s, \"gloss_file\":%s},", col.Title,
-			col.GlossFile)
+		json += fmt.Sprintf("{\"title\":%s, \"gloss_file\":\"%s\"},",
+			col.Title, col.GlossFile)
 	}
 	json = strings.TrimSuffix(json, ",") + "]}"
 	return json
