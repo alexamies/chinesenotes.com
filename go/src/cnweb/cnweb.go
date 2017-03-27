@@ -30,6 +30,6 @@ func main() {
 	log.Println("cnweb.main: Web app started")
 	//index.LoadKeywordIndex()
 	//documents := index.FindForKeyword("你")
-	http.HandleFunc("/find", handler)
+	http.HandleFunc("/find/", handler)
 	http.ListenAndServe(":8080", nil)
 }
