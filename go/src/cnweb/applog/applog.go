@@ -15,9 +15,10 @@ var (
 
 //Log setup
 func Create() {
-	logFilename := "application.log"
+	homedir := os.Getenv("CNREADER_HOME")
+	logFilename := homedir + "/log/application.log"
 	fmt.Println("Log messages will be written to ", logFilename)
-	appLogFile, err := os.OpenFile(logFilename, os.O_CREATE|os.O_APPEND|os.O_RDWR,
+	appLogFile, err := os.OpenFile(logFilename, os.O_APPEND|os.O_RDWR,
 		0660)
 	defer close(appLogFile)
 	if err != nil {
@@ -25,6 +26,7 @@ func Create() {
 	}
 	AppLog = log.New(appLogFile, "", log.Ldate|log.Ltime)
 	AppLog.SetOutput(appLogFile)
+	AppLog.Println("\nINFO: Application log opened")
 }
 
 // Log an error to the application log
@@ -39,7 +41,7 @@ func GetLogger() *log.Logger {
 
 // Log an error to the application log
 func Info(msg string) {
-	AppLog.Println("Info: ", msg)
+	//AppLog.Println("Info: ", msg)
 }
 
 func close(appLogFile *os.File) {
