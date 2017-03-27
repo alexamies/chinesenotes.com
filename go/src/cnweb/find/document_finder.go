@@ -25,7 +25,6 @@ type Collection struct {
 }
 
 func init() {
-	applog.Info("cnweb.find.init() enter")
 	dbhost := config.GetVar("DBHost")
 	dbport := config.GetVar("DBPort")
 	dbuser := config.GetVar("DBUser")
@@ -35,24 +34,23 @@ func init() {
 		dbport, dbname)
 	db, err := sql.Open("mysql", conString)
 	if err != nil {
-		applog.GetLogger().Println("FATAL: could not connect to the database, ",
+		log.Fatal("FATAL: could not connect to the database, ",
 			err)
 		panic(err.Error())
 	}
 	database = db
-	applog.Info("cnweb.find.init() exit")
 }
 
 func FindDocuments(query string) string {
-	applog.GetLogger().Println("INFO: ", query)
+	applog.Info("FindDocuments, ", query)
 	stmt, err := database.Prepare("SELECT title, gloss_file FROM collection WHERE title LIKE ?")
     if err != nil {
-        log.Println("cnweb.find.FindDocuments() Error preparing query: ", query,
+        applog.Error("cnweb.find.FindDocuments() Error preparing query: ", query,
         	err)
     }
 	results, err := stmt.Query("%" + query + "%")
 	if err != nil {
-		applog.GetLogger().Println("ERROR: Error for query: ", query, err)
+		applog.Error("ERROR: Error for query: ", query, err)
 	}
 	defer results.Close()
 
@@ -64,5 +62,6 @@ func FindDocuments(query string) string {
 			col.Title, col.GlossFile)
 	}
 	json = strings.TrimSuffix(json, ",") + "]}"
+	applog.Info("FindDocuments, results returned: ", json)
 	return json
 }

@@ -25,7 +25,8 @@ func handler(response http.ResponseWriter, request *http.Request) {
 //Entry point for the web application
 func main() {
 
-	applog.Create()
+	appLogFile := applog.Create()
+	defer applog.Close(appLogFile)
 	applog.Info("Started cnweb")
 
 
