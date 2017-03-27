@@ -26,7 +26,7 @@ func Create() {
 	}
 	AppLog = log.New(appLogFile, "", log.Ldate|log.Ltime)
 	AppLog.SetOutput(appLogFile)
-	AppLog.Println("\nINFO: Application log opened")
+	AppLog.Println("INFO: Application log opened")
 }
 
 // Log an error to the application log
