@@ -27,6 +27,12 @@ type Collection struct {
 	CorpusName     string
 }
 
+
+type QueryResults struct {
+	NumCollections int
+	Collections []Collection
+}
+
 // Open database connection and prepare statements
 func init() {
 	dbhost := config.GetVar("DBHost")
@@ -69,7 +75,7 @@ func countDocuments(query string) int {
 	return count
 }
 
-func FindDocuments(query string) []Collection {
+func FindDocuments(query string) QueryResults {
 	applog.Info("FindDocuments, ", query)
 	count := countDocuments(query)
 	applog.Info("FindDocuments, expect count: ", count)
@@ -85,5 +91,5 @@ func FindDocuments(query string) []Collection {
 		results.Scan(&col.Title, &col.GlossFile)
 		collections = append(collections, col)
 	}
-	return collections
+	return QueryResults{count, collections}
 }
