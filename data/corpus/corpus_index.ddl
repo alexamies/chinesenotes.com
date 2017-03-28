@@ -28,3 +28,15 @@ CREATE TABLE collection (
     CHARACTER SET UTF8
     COLLATE utf8_general_ci
 ;
+
+/*
+ * Table for document titles
+ */
+CREATE TABLE document (
+	source_file VARCHAR(256) NOT NULL,
+    gloss_file VARCHAR(256) NOT NULL,
+	title mediumtext NOT NULL
+	)
+    CHARACTER SET UTF8
+    COLLATE utf8_general_ci
+;

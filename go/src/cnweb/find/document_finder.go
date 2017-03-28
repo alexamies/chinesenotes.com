@@ -13,24 +13,28 @@ import (
 )
 
 var (
+	countColStmt *sql.Stmt
+	countDocStmt *sql.Stmt
 	database *sql.DB
 	findColStmt *sql.Stmt
-	countColStmt *sql.Stmt
+	findDocStmt *sql.Stmt
 )
 
 type Collection struct {
-	CollectionFile string
 	GlossFile      string
 	Title          string
-	Description    string
-	Intro_file     string
-	CorpusName     string
 }
 
+type Document struct {
+	GlossFile      string
+	Title          string
+}
 
 type QueryResults struct {
 	NumCollections int
+	NumDocuments int
 	Collections []Collection
+	Documents []Document
 }
 
 // Open database connection and prepare statements
@@ -52,20 +56,44 @@ func init() {
 
 	stmt, err := database.Prepare("SELECT title, gloss_file FROM collection WHERE title LIKE ?")
     if err != nil {
-        log.Fatal("cnweb.find.FindDocuments() Error preparing query: ", err)
+        log.Fatal("find.init() Error preparing stmt: ", err)
     }
     findColStmt = stmt
 
 	cstmt, err := database.Prepare("SELECT count(title) FROM collection WHERE title LIKE ?")
     if err != nil {
-        log.Fatal("cnweb.find.FindDocuments() Error preparing query: ", err)
+        log.Fatal("find.init() Error preparing cstmt: ", err)
     }
     countColStmt = cstmt
+
+	dstmt, err := database.Prepare("SELECT title, gloss_file FROM document WHERE title LIKE ? LIMIT 50")
+    if err != nil {
+        log.Fatal("find.init() Error preparing dstmt: ", err)
+    }
+    findDocStmt = dstmt
+
+	cdstmt, err := database.Prepare("SELECT count(title) FROM document WHERE title LIKE ?")
+    if err != nil {
+        log.Fatal("find.init() Error preparing cDocStmt: ", err)
+    }
+    countDocStmt = cdstmt    
+}
+
+func countCollections(query string) int {
+	var count int
+	results, err := countColStmt.Query("%" + query + "%")
+	results.Next()
+	results.Scan(&count)
+	if err != nil {
+		applog.Error("countCollections: Error for query: ", query, err)
+	}
+	results.Close()
+	return count
 }
 
 func countDocuments(query string) int {
 	var count int
-	results, err := countColStmt.Query("%" + query + "%")
+	results, err := countDocStmt.Query("%" + query + "%")
 	results.Next()
 	results.Scan(&count)
 	if err != nil {
@@ -75,13 +103,11 @@ func countDocuments(query string) int {
 	return count
 }
 
-func FindDocuments(query string) QueryResults {
-	applog.Info("FindDocuments, ", query)
-	count := countDocuments(query)
-	applog.Info("FindDocuments, expect count: ", count)
+func findCollections(query string) []Collection {
+	applog.Info("findCollections, ", query)
 	results, err := findColStmt.Query("%" + query + "%")
 	if err != nil {
-		applog.Error("FindDocuments, Error for query: ", query, err)
+		applog.Error("findCollections, Error for query: ", query, err)
 	}
 	defer results.Close()
 
@@ -91,5 +117,32 @@ func FindDocuments(query string) QueryResults {
 		results.Scan(&col.Title, &col.GlossFile)
 		collections = append(collections, col)
 	}
-	return QueryResults{count, collections}
+	return collections
+}
+
+func findDocuments(query string) []Document {
+	applog.Info("findDocuments, ", query)
+	results, err := findDocStmt.Query("%" + query + "%")
+	if err != nil {
+		applog.Error("findDocuments, Error for query: ", query, err)
+	}
+	defer results.Close()
+
+	documents := []Document{}
+	for results.Next() {
+		doc := Document{}
+		results.Scan(&doc.Title, &doc.GlossFile)
+		documents = append(documents, doc)
+	}
+	return documents
+}
+
+func FindDocuments(query string) QueryResults {
+	applog.Info("FindDocuments, ", query)
+	nCol := countCollections(query)
+	nDoc := countDocuments(query)
+	collections := findCollections(query)
+	documents := findDocuments(query)
+	applog.Info("FindDocuments, expect collection, doc count: ", nCol, nDoc)
+	return QueryResults{nCol, nDoc, collections, documents}
 }
