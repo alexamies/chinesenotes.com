@@ -7,6 +7,7 @@ import (
 	"cnweb/applog"
 	"cnweb/find"
 	"fmt"
+	"encoding/json"
 	"net/http"
 )
 
@@ -18,8 +19,14 @@ func handler(response http.ResponseWriter, request *http.Request) {
 	if len(query) > 0 {
 		q = query[0]
 	}
-	documents := find.FindDocuments(q)
-	fmt.Fprintf(response, documents)
+	results := find.FindDocuments(q)
+	resultsJson, err := json.Marshal(results)
+	if err != nil {
+		applog.Error("main.handler error marshalling JSON, ", err)
+	}
+	applog.Info("handler, results returned: ", string(resultsJson))
+	response.Header().Set("Content-Type", "application/json; charset=utf-8")
+	fmt.Fprintf(response, string(resultsJson))
 }
 
 //Entry point for the web application
@@ -27,8 +34,7 @@ func main() {
 
 	appLogFile := applog.Create()
 	defer applog.Close(appLogFile)
-	applog.Info("Started cnweb")
-
+	applog.Info("main.main Started cnweb")
 
 	//index.LoadKeywordIndex()
 	//documents := index.FindForKeyword("你")

@@ -10,7 +10,6 @@ import (
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"log"
-	"strings"
 )
 
 var (
@@ -70,7 +69,7 @@ func countDocuments(query string) int {
 	return count
 }
 
-func FindDocuments(query string) string {
+func FindDocuments(query string) []Collection {
 	applog.Info("FindDocuments, ", query)
 	count := countDocuments(query)
 	applog.Info("FindDocuments, expect count: ", count)
@@ -80,17 +79,11 @@ func FindDocuments(query string) string {
 	}
 	defer results.Close()
 
-	json := "{\"collections\": ["
-	i := 0
+	collections := []Collection{}
 	for results.Next() {
-		i++
 		col := Collection{}
 		results.Scan(&col.Title, &col.GlossFile)
-		json += fmt.Sprintf("{\"title\":\"%s\", \"gloss_file\":\"%s\"},",
-			col.Title, col.GlossFile)
+		collections = append(collections, col)
 	}
-	json = strings.TrimSuffix(json, ",") + "]}"
-	applog.Info("FindDocuments, num results returned: ", i)
-	applog.Info("FindDocuments, results returned: ", json)
-	return json
+	return collections
 }
