@@ -20,21 +20,6 @@ func handler(response http.ResponseWriter, request *http.Request) {
 		q = query[0]
 	}
 	results := find.FindDocuments(q)
-
-	// If there is only one result, redirect to it
-	if len(results.Collections) + len(results.Documents) == 1 {
-		applog.Info("handler, unique result redirecting")
-		if len(results.Collections) == 1 {
-			url := "/" + results.Collections[0].GlossFile
-			http.Redirect(response, request, url, http.StatusFound)
-		} else {
-			url := "/" + results.Documents[0].GlossFile
-			http.Redirect(response, request, url, http.StatusFound)
-		}
-		return
-	}
-
-	// Otherwise send the results to the client in JSON form
 	resultsJson, err := json.Marshal(results)
 	if err != nil {
 		applog.Error("main.handler error marshalling JSON, ", err)
