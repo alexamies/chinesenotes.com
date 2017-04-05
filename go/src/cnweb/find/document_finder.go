@@ -54,7 +54,7 @@ func init() {
 	}
 	database = db
 
-	stmt, err := database.Prepare("SELECT title, gloss_file FROM collection WHERE title LIKE ?")
+	stmt, err := database.Prepare("SELECT title, gloss_file FROM collection WHERE title LIKE ? LIMIT 50")
     if err != nil {
         log.Fatal("find.init() Error preparing stmt: ", err)
     }
@@ -143,6 +143,6 @@ func FindDocuments(query string) QueryResults {
 	nDoc := countDocuments(query)
 	collections := findCollections(query)
 	documents := findDocuments(query)
-	applog.Info("FindDocuments, expect collection, doc count: ", nCol, nDoc)
+	applog.Info("FindDocuments, collection, doc count: ", nCol, nDoc)
 	return QueryResults{nCol, nDoc, collections, documents}
 }

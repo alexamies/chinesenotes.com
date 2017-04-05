@@ -23,11 +23,12 @@ func handler(response http.ResponseWriter, request *http.Request) {
 
 	// If there is only one result, redirect to it
 	if len(results.Collections) + len(results.Documents) == 1 {
+		applog.Info("handler, unique result redirecting")
 		if len(results.Collections) == 1 {
-			url := results.Collections[0].GlossFile
+			url := "/" + results.Collections[0].GlossFile
 			http.Redirect(response, request, url, http.StatusFound)
 		} else {
-			url := results.Documents[0].GlossFile
+			url := "/" + results.Documents[0].GlossFile
 			http.Redirect(response, request, url, http.StatusFound)
 		}
 		return
