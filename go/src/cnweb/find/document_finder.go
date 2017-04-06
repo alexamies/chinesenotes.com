@@ -31,7 +31,7 @@ type Document struct {
 
 type Word struct {
 	Simplified, Traditional, Pinyin, English string
-	HeadwordId uint64
+	HeadwordId int
 }
 
 type QueryResults struct {
