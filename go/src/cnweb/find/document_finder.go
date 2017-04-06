@@ -165,10 +165,16 @@ func findWords(query string) []Word {
 	words := []Word{}
 	for results.Next() {
 		word := Word{}
-		results.Scan(&word.Simplified, &word.Traditional, &word.Pinyin,
-			&word.English, &word.HeadwordId)
-		applog.Error("findWords, simplified, headword = ", word.Simplified,
-			word.HeadwordId)
+		var hw sql.NullInt64
+		var trad sql.NullString
+		results.Scan(&word.Simplified, &trad, &word.Pinyin, &word.English, &hw)
+		applog.Error("findWords, simplified, headword = ", word.Simplified, hw)
+		if trad.Valid {
+			word.Traditional = trad.String
+		}
+		if hw.Valid {
+			word.HeadwordId = int(hw.Int64)
+		}
 		words = append(words, word)
 	}
 	return words
