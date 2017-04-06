@@ -31,7 +31,7 @@ type Document struct {
 
 type Word struct {
 	Simplified, Traditional, Pinyin, English string
-	HeadwordId int
+	HeadwordId uint64
 }
 
 type QueryResults struct {
@@ -165,9 +165,10 @@ func findWords(query string) []Word {
 	words := []Word{}
 	for results.Next() {
 		word := Word{}
-		results.Scan(&word.Simplified,
-			&word.Traditional, &word.Pinyin, &word.English, &word.HeadwordId)
-		applog.Error("findWords, word.HeadwordId = ", word.HeadwordId)
+		results.Scan(&word.Simplified, &word.Traditional, &word.Pinyin,
+			&word.English, &word.HeadwordId)
+		applog.Error("findWords, simplified, headword = ", word.Simplified,
+			word.HeadwordId)
 		words = append(words, word)
 	}
 	return words
