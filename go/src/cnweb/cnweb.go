@@ -24,7 +24,7 @@ func handler(response http.ResponseWriter, request *http.Request) {
 	if err != nil {
 		applog.Error("main.handler error marshalling JSON, ", err)
 	}
-	applog.Info("handler, results returned: ", string(resultsJson))
+	//applog.Info("handler, results returned: ", string(resultsJson))
 	response.Header().Set("Content-Type", "application/json; charset=utf-8")
 	fmt.Fprintf(response, string(resultsJson))
 }

@@ -18,23 +18,27 @@ var (
 	database *sql.DB
 	findColStmt *sql.Stmt
 	findDocStmt *sql.Stmt
+	findWordStmt *sql.Stmt
 )
 
 type Collection struct {
-	GlossFile      string
-	Title          string
+	GlossFile, Title string
 }
 
 type Document struct {
-	GlossFile      string
-	Title          string
+	GlossFile, Title string
+}
+
+type Word struct {
+	Simplified, Traditional, Pinyin, English string
+	HeadwordId int
 }
 
 type QueryResults struct {
-	NumCollections int
-	NumDocuments int
+	NumCollections, NumDocuments int
 	Collections []Collection
 	Documents []Document
+	Words []Word
 }
 
 // Open database connection and prepare statements
@@ -77,6 +81,12 @@ func init() {
         log.Fatal("find.init() Error preparing cDocStmt: ", err)
     }
     countDocStmt = cdstmt    
+
+	fwstmt, err := database.Prepare("SELECT simplified, traditional, pinyin, english, headword FROM words WHERE simplified = ? OR traditional = ? LIMIT 1")
+    if err != nil {
+        log.Fatal("find.init() Error preparing fwstmt: ", err)
+    }
+    findWordStmt = fwstmt
 }
 
 func countCollections(query string) int {
@@ -104,7 +114,6 @@ func countDocuments(query string) int {
 }
 
 func findCollections(query string) []Collection {
-	applog.Info("findCollections, ", query)
 	results, err := findColStmt.Query("%" + query + "%")
 	if err != nil {
 		applog.Error("findCollections, Error for query: ", query, err)
@@ -121,7 +130,6 @@ func findCollections(query string) []Collection {
 }
 
 func findDocuments(query string) []Document {
-	applog.Info("findDocuments, ", query)
 	results, err := findDocStmt.Query("%" + query + "%")
 	if err != nil {
 		applog.Error("findDocuments, Error for query: ", query, err)
@@ -139,10 +147,32 @@ func findDocuments(query string) []Document {
 
 func FindDocuments(query string) QueryResults {
 	applog.Info("FindDocuments, ", query)
+	words := findWords(query)
 	nCol := countCollections(query)
 	nDoc := countDocuments(query)
 	collections := findCollections(query)
 	documents := findDocuments(query)
 	applog.Info("FindDocuments, collection, doc count: ", nCol, nDoc)
-	return QueryResults{nCol, nDoc, collections, documents}
+	return QueryResults{nCol, nDoc, collections, documents, words}
+}
+
+// Returns the headword words in the query (only a single word at the moment)
+func findWords(query string) []Word {
+	word := Word{}
+	err := findWordStmt.QueryRow(query, query).Scan(&word.Simplified,
+		&word.Traditional, &word.Pinyin, &word.English, &word.HeadwordId)
+	if err != nil {
+		applog.Error("findDocuments, Error for query: ", query, err)
+	}
+	switch {
+	case err == sql.ErrNoRows:
+        applog.Info("findWord, no word found")
+        return []Word{}
+	case err != nil:
+        applog.Info("findWord, error, ", err)
+        return []Word{}
+	default:
+        applog.Info("findWord, headword id is %s\n", word.HeadwordId)
+	}
+	return []Word{word}
 }
