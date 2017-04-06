@@ -160,13 +160,14 @@ func FindDocuments(query string) QueryResults {
 func findWords(query string) []Word {
 	results, err := findWordStmt.Query(query, query)
 	if err != nil {
-		applog.Error("findDocuments, Error for query: ", query, err)
+		applog.Error("findWords, Error for query: ", query, err)
 	}
 	words := []Word{}
 	for results.Next() {
 		word := Word{}
 		results.Scan(&word.Simplified,
-		&word.Traditional, &word.Pinyin, &word.English, &word.HeadwordId)
+			&word.Traditional, &word.Pinyin, &word.English, &word.HeadwordId)
+		applog.Error("findWords, word.HeadwordId = ", word.HeadwordId)
 		words = append(words, word)
 	}
 	return words
