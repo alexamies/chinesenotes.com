@@ -158,21 +158,16 @@ func FindDocuments(query string) QueryResults {
 
 // Returns the headword words in the query (only a single word at the moment)
 func findWords(query string) []Word {
-	word := Word{}
-	err := findWordStmt.QueryRow(query, query).Scan(&word.Simplified,
-		&word.Traditional, &word.Pinyin, &word.English, &word.HeadwordId)
+	results, err := findWordStmt.Query(query, query)
 	if err != nil {
 		applog.Error("findDocuments, Error for query: ", query, err)
 	}
-	switch {
-	case err == sql.ErrNoRows:
-        applog.Info("findWord, no word found")
-        return []Word{}
-	case err != nil:
-        applog.Info("findWord, error, ", err)
-        return []Word{}
-	default:
-        applog.Info("findWord, headword id is %s\n", word.HeadwordId)
+	words := []Word{}
+	for results.Next() {
+		word := Word{}
+		results.Scan(&word.Simplified,
+		&word.Traditional, &word.Pinyin, &word.English, &word.HeadwordId)
+		words = append(words, word)
 	}
-	return []Word{word}
+	return words
 }
