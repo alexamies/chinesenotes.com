@@ -1,3 +1,4 @@
+// Tests for dictionary package
 package dictionary
 
 import (

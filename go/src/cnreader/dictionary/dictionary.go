@@ -23,22 +23,6 @@ const HEADWORD_FILE = "headwords.txt"
 // HTML file
 const MAX_CONTAINS = 50
 
-// Defines a headword with mapping between simplified and traditional
-type HeadwordDef struct {
-	Id int // key for the headword
-	Simplified, Traditional *string
-	Pinyin []string
-	WordSenses *[]WordSenseEntry //keys for the lexical units
-}
-
-// Defines a single sense of a Chinese word
-type WordSenseEntry struct {
-	Id, HeadwordId int
-	Simplified, Traditional, Pinyin, English, Grammar, Concept_cn,
-		Concept_en, Topic_cn, Topic_en, Parent_cn, Parent_en, Image,
-		Mp3, Notes string
-}
-
 // The dictionary is a map of pointers to word senses, indexed by simplified
 // and traditional text
 var wdict map[string][]*WordSenseEntry
@@ -73,6 +57,18 @@ func init() {
 		"当": true,
 		"若": true,
 		"如": true,
+	}
+}
+
+// Clones the headword definition without the attached array of word senses
+func CloneHeadword(hw HeadwordDef) HeadwordDef {
+	wsArray := []WordSenseEntry{}
+	return HeadwordDef{
+		Id: hw.Id,
+		Simplified: hw.Simplified,
+		Traditional: hw.Traditional,
+		Pinyin: hw.Pinyin,
+		WordSenses: &wsArray,
 	}
 }
 
