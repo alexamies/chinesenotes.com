@@ -102,3 +102,25 @@ func TestNormalizePinyin0(t *testing.T) {
 			expected, ", got", noTones)
 	}
 }
+
+// Test removal of tones from Pinyin
+func TestNormalizePinyin1(t *testing.T) {
+	pinyin := "Sān Bǎo"
+	noTones := normalizePinyin(pinyin)
+	expected := "san bao"
+	if expected != noTones {
+		t.Error("dictionary.TestNormalizePinyin1: expected noTones ",
+			expected, ", got", noTones)
+	}
+}
+
+// Test removal of tones from Pinyin
+func TestNormalizePinyin2(t *testing.T) {
+	pinyin := "Ēmítuó"
+	noTones := normalizePinyin(pinyin)
+	expected := "emituo"
+	if expected != noTones {
+		t.Error("dictionary.TestNormalizePinyin1: expected noTones ",
+			expected, ", got", noTones)
+	}
+}

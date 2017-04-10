@@ -17,3 +17,6 @@ DBPass: set me
 
 # The name of the database to connect to (used for cnweb)
 DBName: corpus_index
+
+# The domain of the corpus
+Domain:

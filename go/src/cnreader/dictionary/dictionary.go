@@ -84,6 +84,23 @@ func ContainsWord(word string, headwords []HeadwordDef) []HeadwordDef {
 	return contains
 }
 
+// Gets the dictionary definition of a word
+// Parameters
+//   chinese: The Chinese (simplified or traditional) text of the word
+// Return
+//   word: an array of word senses
+//   ok: true if the word is in the dictionary
+func GetHeadword(chinese string) (hw HeadwordDef, ok bool) {
+	wsArray, ok := GetWord(chinese)
+	if ok && len(wsArray) > 0 {
+		hw := hwIdMap[wsArray[0].HeadwordId]
+		return hw, ok
+	}
+	empty := ""
+	wsArr0 := []WordSenseEntry{}
+	return HeadwordDef{-1, &empty, &empty, []string{}, &wsArr0}, ok
+}
+
 // Compute headword numbers for all lexical units listed in data/words.txt
 // Return a sorted array of headwords
 func GetHeadwords() []HeadwordDef {

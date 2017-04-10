@@ -21,10 +21,13 @@ type Glossary struct {
 // pinyin.
 func MakeGlossary(domain_en string, headwords []dictionary.HeadwordDef) Glossary {
 	hws := dictionary.Headwords{}
+	if domain_en == "" {
+		return Glossary{domain_en, hws}
+	}
 	for _, hw := range headwords {
 		gwsArray := []dictionary.WordSenseEntry{}
 		for _, ws := range *hw.WordSenses {
-			if ws.Topic_en == domain_en {
+			if ws.Topic_en == domain_en && ws.Grammar != "proper noun" {
 				gwsArray = append(gwsArray, ws)
 			}
 		}

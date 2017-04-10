@@ -7,55 +7,6 @@ import (
 	"strings"
 )
 
-var NORMAL = map[rune]rune{
-	'a': 'a',
-	'b': 'b',
-	'c': 'c',
-	'd': 'd',
-	'e': 'e',
-	'f': 'f',
-	'g': 'g',
-	'h': 'h',
-	'i': 'i',
-	'j': 'j',
-	'k': 'k',
-	'l': 'l',
-	'm': 'm',
-	'n': 'n',
-	'o': 'o',
-	'p': 'p',
-	'q': 'q',
-	'r': 'r',
-	's': 's',
-	't': 't',
-	'u': 'u',
-	'v': 'v',
-	'w': 'w',
-	'x': 'x',
-	'y': 'y',
-	'z': 'z',
-	'ā': 'a',
-	'á': 'a',
-	'ǎ': 'a',
-	'à': 'a',
-	'ē': 'e',
-	'é': 'e',
-	'ě': 'e',
-	'è': 'e',
-	'ī': 'i',
-	'í': 'i',
-	'ǐ': 'i',
-	'ì': 'i',
-	'ō': 'o',
-	'ó': 'o',
-	'ǒ': 'o',
-	'ò': 'o',
-	'ū': 'u',
-	'ú': 'u',
-	'ǔ': 'u',
-	'ù': 'u',
-}
-
 // Defines a headword with mapping between simplified and traditional
 type HeadwordDef struct {
 	Id int // key for the headword
@@ -87,14 +38,62 @@ func (hwArr Headwords) Swap(i, j int) {
 func (hwArr Headwords) Less(i, j int) bool {
 	noTones1 := normalizePinyin(hwArr[i].Pinyin[0])
 	noTones2 := normalizePinyin(hwArr[j].Pinyin[0])
-	return strings.Compare(noTones1, noTones2) < 0
+	return noTones1 < noTones2
 }
 
 // Removes the tone diacritics from a Pinyin string
 func normalizePinyin(pinyin string) string {
 	runes := []rune{}
 	for _, r := range pinyin {
-		runes = append(runes, NORMAL[r])
+		n, ok := NORMAL[r]
+		if ok {
+			runes = append(runes, n)
+		} else {
+			runes = append(runes, r)
+		}
 	}
-	return string(runes)
+	return strings.ToLower(string(runes))
+}
+
+var NORMAL = map[rune]rune{
+	'ā': 'a',
+	'á': 'a',
+	'ǎ': 'a',
+	'à': 'a',
+	'ē': 'e',
+	'é': 'e',
+	'ě': 'e',
+	'è': 'e',
+	'ī': 'i',
+	'í': 'i',
+	'ǐ': 'i',
+	'ì': 'i',
+	'ō': 'o',
+	'ó': 'o',
+	'ǒ': 'o',
+	'ò': 'o',
+	'ū': 'u',
+	'ú': 'u',
+	'ǔ': 'u',
+	'ù': 'u',
+	'Ā': 'a',
+	'Á': 'a',
+	'Ǎ': 'a',
+	'À': 'a',
+	'Ē': 'e',
+	'É': 'e',
+	'Ě': 'e',
+	'È': 'e',
+	'Ī': 'i',
+	'Í': 'i',
+	'Ǐ': 'i',
+	'Ì': 'i',
+	'Ō': 'o',
+	'Ó': 'o',
+	'Ǒ': 'o',
+	'Ò': 'o',
+	'Ū': 'u',
+	'Ú': 'u',
+	'Ǔ': 'u',
+	'Ù': 'u',
 }

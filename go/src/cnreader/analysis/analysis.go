@@ -46,6 +46,7 @@ type AnalysisResults struct {
 	Title                   string
 	WC, UniqueWords, CCount int
 	Cognates                []alignment.CorpEntryCognates
+	DocumentGlossary 		Glossary
 	WordFrequencies         []WFResult
 	LexicalWordFreq         []WFResult
 	BigramFreqSorted        []ngram.BigramFreq
@@ -465,6 +466,7 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 		WC:               results.WC,
 		CCount:			  results.CCount,
 		Cognates:         []alignment.CorpEntryCognates{},
+		DocumentGlossary: MakeGlossary("", []dictionary.HeadwordDef{}),
 		UniqueWords:      len(results.Vocab),
 		WordFrequencies:  wfResults[:maxWf],
 		LexicalWordFreq:  lexicalWordFreq[:maxLex],
@@ -475,7 +477,11 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 		ByGenre:          sortedGenre,
 	}
 	tmplFile := config.TemplateDir() + "/corpus-summary-analysis-template.html"
-	funcs := template.FuncMap{"add": add}
+	funcs := template.FuncMap{
+		"add": add,
+		"Deref":   func(sp *string) string { return *sp },
+		"DerefNe": func(sp *string, s string) bool { return *sp != s },
+	}
 	tmpl, err := template.New("corpus-summary-analysis-template.html").Funcs(funcs).ParseFiles(tmplFile)
 	if err != nil {
 		panic(err)
@@ -514,6 +520,11 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	docTitle string) string {
 
 	// Parse template and organize template parameters
+
+	domain_label := config.GetVar("Domain")
+	//log.Printf("analysis.writeAnalysis: domain_label: %s\n", domain_label)
+	glossary := MakeGlossary(domain_label, results.GetHeadwords())
+
 	sortedWords := index.SortedFreq(results.Vocab)
 	//log.Printf("analysis.writeAnalysis: found sortedWords for %s, count %d\n",
 	//	srcFile, len(sortedWords))
@@ -547,12 +558,16 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	}
 
 	dateUpdated := time.Now().Format("2006-01-02")
-	title := "Content Analysis for " + collectionTitle + ", " + docTitle
+	title := "Glossary and Vocabulary for " + collectionTitle
+	if docTitle != "" {
+		title += ", " + docTitle
+	}
 	aResults := AnalysisResults{
 		Title:            title,
 		WC:               results.WC,
 		CCount:			  results.CCount,
 		Cognates:         results.CollectionCogs,
+		DocumentGlossary: glossary,
 		UniqueWords:      len(results.Vocab),
 		WordFrequencies:  wfResults[:maxWf],
 		LexicalWordFreq:  lexicalWordFreq[:maxLex],
@@ -562,7 +577,12 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 		MaxWFOutput:      len(wfResults),
 	}
 	tmplFile := config.TemplateDir() + "/corpus-analysis-template.html"
-	tmpl, err := template.New("corpus-analysis-template.html").ParseFiles(tmplFile)
+	funcs := template.FuncMap{
+		"add": add,
+		"Deref":   func(sp *string) string { return *sp },
+		"DerefNe": func(sp *string, s string) bool { return *sp != s },
+	}
+	tmpl, err := template.New("corpus-analysis-template.html").Funcs(funcs).ParseFiles(tmplFile)
 	if err != nil {
 		panic(err)
 	}
