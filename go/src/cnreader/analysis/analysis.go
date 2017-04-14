@@ -265,7 +265,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 					tokens.PushBack(w)
 					i = j - 1
 					j = 0
-					if wsArray[0].Notes != "CBETA boilerplate" {
+					if !corpus.IsExcluded(w) {
 						//log.Printf("analysis.ParseText: boilerplate\n")
 						wc++
 						cc += utf8.RuneCountInString(w)
