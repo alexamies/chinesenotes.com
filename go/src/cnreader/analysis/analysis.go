@@ -266,7 +266,6 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 					i = j - 1
 					j = 0
 					if !corpus.IsExcluded(w) {
-						//log.Printf("analysis.ParseText: boilerplate\n")
 						wc++
 						cc += utf8.RuneCountInString(w)
 						vocab[w]++
@@ -697,7 +696,7 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	for e := tokens.Front(); e != nil; e = e.Next() {
 		chunk := e.Value.(string)
 		//fmt.Printf("WriteDoc: Word %s\n", word)
-		if entries, ok := dictionary.GetWord(chunk); ok && entries[0].Notes != "CBETA boilerplate" {
+		if entries, ok := dictionary.GetWord(chunk); ok && !corpus.IsExcluded(chunk) {
 			wordIds := ""
 			for _, ws := range entries {
 				if wordIds == "" {
