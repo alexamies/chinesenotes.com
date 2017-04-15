@@ -1,1 +1,2 @@
-# List of words to exclude from corpus analysis (CBETA boilerplate)
+# List of words to exclude from corpus analysis (copyright boilerplate)
+如需引用文章
