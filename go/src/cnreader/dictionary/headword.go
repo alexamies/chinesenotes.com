@@ -4,6 +4,7 @@ Definition and sorting of headwords in Pinyin alphabetical order
 package dictionary
 
 import (
+	"log"
 	"strings"
 )
 
@@ -23,9 +24,26 @@ type WordSenseEntry struct {
 		Mp3, Notes string
 }
 
-// Sorted into descending order with most frequent bigram first
+// May be sorted into descending order with most frequent bigram first
 type Headwords []HeadwordDef
 
+
+// IsProperNoun tests whether the word is a function word.
+// If the majority of word senses are proper nouns, then the word is marked
+// as a proper noun.
+func (hw HeadwordDef) IsProperNoun() bool {
+	if hw.Id > 0 {
+		wsArray := *hw.WordSenses
+		if len(wsArray) > 0 {
+			return wsArray[0].IsProperNoun()
+		} else {
+			log.Printf("dictionary.hw.IsProperNoun: id == %d\n", hw.Id)
+		}
+	} else {
+		log.Printf("dictionary.hw.IsProperNoun: id == %d\n", hw.Id)
+	}
+	return false
+}
 
 func (hwArr Headwords) Len() int {
 	return len(hwArr)

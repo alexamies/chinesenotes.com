@@ -62,15 +62,16 @@
 
       <h3>Contents</h3>
       <ol>
-        {{ if .Cognates }}<li><a href="#propernouns">Proper Nouns</a></li>{{ end }}
+        {{ if .ProperNouns }}<li><a href="#propernouns">People and Places</a></li>{{ end }}
         <li><a href="#lexical">Frequencies of Lexical Words</a></li>
         <li><a href="#wf">Frequencies of all Words</a></li>
         <li><a href="#bigrams">Bigrams</a></li>
         <li><a href="#no-entry">Characters without Dictionary Entries</a></li>
       </ol>
 
-      {{ if .Cognates }}
-      <h3 id="propernouns">Proper Nouns</h3>
+      {{ if .ProperNouns }}
+      <h3 id="propernouns">People, places</h3>
+      <p>and other proper nouns</p> 
       <table class="table table-bordered table-hover">
         <thead>
           <tr>
@@ -81,18 +82,20 @@
           </tr>
         </thead>
         <tbody>
-        {{ range $cog := .Cognates }}
+        {{ range $hw := .ProperNouns }}
           <tr>
-            <td colspan="4"><a href="/{{ $cog.CorpEntry.GlossFile }}">{{ $cog.CorpEntry.Title }}</a></td>
+            <td><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
+            <td>{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
+            <td>{{ index $hw.Pinyin 0}}</td>
+            <td>
+              {{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
+              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.English}}{{ end }} {{ end }}
+            </td>
+            <td>
+              {{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{if ne $ws.Parent_en "\\N"}}{{ $ws.Notes}}{{ end }}</li>{{ end }}</ol>
+              {{ else }}{{ range $ws := $hw.WordSenses }}{{if ne $ws.Parent_en "\\N"}}{{ $ws.Notes}}{{ end }}{{ end }} {{ end }}
+            </td>
           </tr>
-            {{ range $ws := $cog.GetProperNouns }}
-          <tr>
-            <td><a href="/words/{{$ws.HeadwordId}}.html">{{$ws.Simplified}}</a></td>
-            <td>{{if ne $ws.Traditional "\\N"}}{{$ws.Traditional}}{{end}}</td>
-            <td>{{ $ws.Pinyin }}</td>
-            <td>{{ $ws.English }}</td>
-          </tr>
-          {{ end }}
         {{ end }}
         </tbody>
       </table>

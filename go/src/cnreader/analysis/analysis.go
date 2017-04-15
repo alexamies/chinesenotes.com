@@ -6,7 +6,7 @@ package analysis
 import (
 	"bufio"
 	"bytes"
-	"cnreader/alignment"
+	//"cnreader/alignment"
 	"cnreader/config"
 	"cnreader/corpus"
 	"cnreader/dictionary"
@@ -45,7 +45,8 @@ const MAX_TITLE = 5
 type AnalysisResults struct {
 	Title                   string
 	WC, UniqueWords, CCount int
-	Cognates                []alignment.CorpEntryCognates
+	//Cognates                []alignment.CorpEntryCognates
+	ProperNouns				dictionary.Headwords
 	DocumentGlossary 		Glossary
 	WordFrequencies         []WFResult
 	LexicalWordFreq         []WFResult
@@ -235,7 +236,8 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	vocab := map[string]int{}
 	bigramMap := ngram.BigramFreqMap{}
 	collocations := ngram.CollocationMap{}
-	corpEntryCogs := alignment.NewCorpEntryCognates(*document)
+	//corpEntryCogs := alignment.NewCorpEntryCognates(*document)
+	//corpEntryPN := mapdictionary.HeadwordDef{}
 	unknownChars := map[string]int{}
 	usage := map[string]string{}
 	wc := 0
@@ -291,7 +293,10 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 							collocations.PutBigram(bigram.HeadwordDef2.Id, bigram)
 						}
 						lastHW = hw
-						corpEntryCogs.AddCognate(wsArray[0])
+						//corpEntryCogs.AddCognate(wsArray[0])
+						//if wsArray[0].IsProperNoun() {
+						//	corpEntryPN = append(corpEntryPN, hw)
+						//}
 					}
 				} else if utf8.RuneCountInString(w) == 1 {
 					//log.Printf("ParseText: found unknown character %s\n", w)
@@ -304,14 +309,14 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	}
 	//log.Printf("analysis.ParseText: %s found character count %d, vocab %d\n",
 	//	document.RawFile, cc, len(vocab))
-	collectionCogs := []alignment.CorpEntryCognates{}
-	collectionCogs = append(collectionCogs, corpEntryCogs)
+	//collectionCogs := []alignment.CorpEntryCognates{}
+	//collectionCogs = append(collectionCogs, corpEntryCogs)
 	results = CollectionAResults{
 		Vocab:             vocab,
 		Usage:             usage,
 		BigramFrequencies: bigramMap,
 		Collocations:      collocations,
-		CollectionCogs:    collectionCogs,
+		//ProperNouns:       corpEntryPN,
 		WC:                wc,
 		CCount:			   cc,
 		UnknownChars:      unknownChars,
@@ -464,7 +469,8 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 		Title:            title,
 		WC:               results.WC,
 		CCount:			  results.CCount,
-		Cognates:         []alignment.CorpEntryCognates{},
+		//Cognates:         []alignment.CorpEntryCognates{},
+		ProperNouns:      dictionary.Headwords{},
 		DocumentGlossary: MakeGlossary("", []dictionary.HeadwordDef{}),
 		UniqueWords:      len(results.Vocab),
 		WordFrequencies:  wfResults[:maxWf],
@@ -519,6 +525,7 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	docTitle string) string {
 
 	// Parse template and organize template parameters
+	properNouns := makePNList(results.Vocab)
 
 	domain_label := config.GetVar("Domain")
 	//log.Printf("analysis.writeAnalysis: domain_label: %s\n", domain_label)
@@ -561,11 +568,13 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	if docTitle != "" {
 		title += ", " + docTitle
 	}
+
 	aResults := AnalysisResults{
 		Title:            title,
 		WC:               results.WC,
 		CCount:			  results.CCount,
-		Cognates:         results.CollectionCogs,
+		//Cognates:         results.CollectionCogs,
+		ProperNouns:      properNouns,
 		DocumentGlossary: glossary,
 		UniqueWords:      len(results.Vocab),
 		WordFrequencies:  wfResults[:maxWf],

@@ -4,7 +4,7 @@ CollectionAResults type for vocabulary analysis of a collection of texts
 package analysis
 
 import (
-	"cnreader/alignment"
+	//"cnreader/alignment"
 	"cnreader/dictionary"
 	"cnreader/index"
 	"cnreader/ngram"
@@ -16,7 +16,8 @@ type CollectionAResults struct {
 	Usage             map[string]string
 	BigramFrequencies ngram.BigramFreqMap
 	Collocations      ngram.CollocationMap
-	CollectionCogs    []alignment.CorpEntryCognates
+	//CollectionCogs    []alignment.CorpEntryCognates
+	//ProperNouns       dictionary.Headwords
 	WC, CCount        int
 	UnknownChars      map[string]int
 	ByGenre           WFArrayByGenre
@@ -37,10 +38,15 @@ func (results *CollectionAResults) AddResults(more CollectionAResults) {
 
 	results.Collocations.MergeCollocationMap(more.Collocations)
 
+	/*
 	if len(more.CollectionCogs) > 0 {
 		results.CollectionCogs = append(results.CollectionCogs,
 			more.CollectionCogs[0])
 	}
+	for _, pn := range more.ProperNouns {
+		results.ProperNouns = append(results.ProperNouns, pn)
+	}
+	*/
 
 	results.WC += more.WC
 	results.CCount += more.CCount
@@ -108,7 +114,8 @@ func NewCollectionAResults() CollectionAResults {
 		Usage:             map[string]string{},
 		BigramFrequencies: ngram.BigramFreqMap{},
 		Collocations:      ngram.CollocationMap{},
-		CollectionCogs:    []alignment.CorpEntryCognates{},
+		//CollectionCogs:    []alignment.CorpEntryCognates{},
+		//ProperNouns:       dictionary.Headwords{},
 		WC:                0,
 		UnknownChars:      map[string]int{},
 		ByGenre:           WFArrayByGenre{},

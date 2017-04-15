@@ -40,3 +40,17 @@ func MakeGlossary(domain_en string, headwords []dictionary.HeadwordDef) Glossary
 	sort.Sort(hws)
 	return Glossary{domain_en, hws}
 }
+
+// Makes a list of proper nouns, sorted by Pinyin
+func makePNList(vocab map[string]int) dictionary.Headwords {
+	hws := []dictionary.HeadwordDef{}
+	for w, _ := range vocab {
+		hw, ok := dictionary.GetHeadword(w)
+			if ok && hw.IsProperNoun() {
+				hws = append(hws, hw)
+			}
+	}
+	headwords := dictionary.Headwords(hws)
+	sort.Sort(headwords)
+	return headwords
+}
