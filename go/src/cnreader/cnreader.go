@@ -30,8 +30,6 @@ func main() {
 	var hwFiles = flag.Bool("hwfiles", false, "Compute and write " +
 		"HTML entries for each headword, writing the files to the "+
 		"web/words directory.")
-	var wf = flag.Bool("wf", false, "Compute wf for all the corpus files " +
-		"listed in data/corpus/collections.csv")
 	var memprofile = flag.String("memprofile", "", "write memory profile to this file")
 	flag.Parse()
 
@@ -62,9 +60,6 @@ func main() {
 	} else if *headwords {
 		log.Printf("main: Write Headwords\n")
 		dictionary.WriteHeadwords()
-	} else if *wf {
-		log.Printf("main: Computing word frequencies for whole corpus\n")
-		analysis.WordFrequencies()
 	} else if *hwFiles {
 		log.Printf("main: Writing word entries for headwords\n")
 		analysis.WriteHwFiles()

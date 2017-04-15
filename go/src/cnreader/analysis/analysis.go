@@ -32,9 +32,6 @@ const MAX_WF_OUTPUT = 500
 // HTML file
 const MAX_UNKOWN_OUTPUT = 50
 
-// Word frequency output file
-const UNIGRAM_FILE = "unigram.txt"
-
 // Max usage elements for a word
 const MAX_USAGE = 25
 
@@ -45,7 +42,6 @@ const MAX_TITLE = 5
 type AnalysisResults struct {
 	Title                   string
 	WC, UniqueWords, CCount int
-	//Cognates                []alignment.CorpEntryCognates
 	ProperNouns				dictionary.Headwords
 	DocumentGlossary 		Glossary
 	WordFrequencies         []WFResult
@@ -236,8 +232,6 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	vocab := map[string]int{}
 	bigramMap := ngram.BigramFreqMap{}
 	collocations := ngram.CollocationMap{}
-	//corpEntryCogs := alignment.NewCorpEntryCognates(*document)
-	//corpEntryPN := mapdictionary.HeadwordDef{}
 	unknownChars := map[string]int{}
 	usage := map[string]string{}
 	wc := 0
@@ -293,10 +287,6 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 							collocations.PutBigram(bigram.HeadwordDef2.Id, bigram)
 						}
 						lastHW = hw
-						//corpEntryCogs.AddCognate(wsArray[0])
-						//if wsArray[0].IsProperNoun() {
-						//	corpEntryPN = append(corpEntryPN, hw)
-						//}
 					}
 				} else if utf8.RuneCountInString(w) == 1 {
 					//log.Printf("ParseText: found unknown character %s\n", w)
@@ -309,14 +299,11 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	}
 	//log.Printf("analysis.ParseText: %s found character count %d, vocab %d\n",
 	//	document.RawFile, cc, len(vocab))
-	//collectionCogs := []alignment.CorpEntryCognates{}
-	//collectionCogs = append(collectionCogs, corpEntryCogs)
 	results = CollectionAResults{
 		Vocab:             vocab,
 		Usage:             usage,
 		BigramFrequencies: bigramMap,
 		Collocations:      collocations,
-		//ProperNouns:       corpEntryPN,
 		WC:                wc,
 		CCount:			   cc,
 		UnknownChars:      unknownChars,
@@ -381,33 +368,6 @@ func ReadText(filename string) string {
 	}
 	//fmt.Printf("ReadText: read text %s\n", text)
 	return text
-}
-
-// Write out word frequencies and example use for the entire corpus
-func WordFrequencies() {
-	usageMap, wfTotal, wcTotal, _ := GetWordFrequencies()
-	outfile := config.ProjectHome() + "/data/" + UNIGRAM_FILE
-	f, err := os.Create(outfile)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer f.Close()
-	w := bufio.NewWriter(f)
-
-	for word, usageArr := range usageMap {
-		for _, usage := range *usageArr {
-			fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\t%s\n", word,
-				usage.Freq, usage.RelFreq, usage.File, usage.EntryTitle,
-				usage.ColTitle, usage.Example)
-		}
-	}
-
-	for _, wcf := range wfTotal {
-		rel_freq := 1000.0 * float64(wcf.Freq) / float64(wcTotal[wcf.Corpus])
-		fmt.Fprintf(w, "%s\t%d\t%f\t%s\t%s\t%s\n", wcf.Word, wcf.Freq,
-			rel_freq, "#", wcf.Corpus, "")
-	}
-	w.Flush()
 }
 
 // For the HTML template
