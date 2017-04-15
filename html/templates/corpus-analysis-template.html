@@ -66,7 +66,6 @@
         <li><a href="#lexical">Frequencies of Lexical Words</a></li>
         <li><a href="#wf">Frequencies of all Words</a></li>
         <li><a href="#bigrams">Bigrams</a></li>
-        <li><a href="#no-entry">Characters without Dictionary Entries</a></li>
       </ol>
 
       {{ if .ProperNouns }}
@@ -171,18 +170,6 @@
             <td>{{ $b.BigramVal.Example }}</td>
             <td><a href="/{{ $b.BigramVal.ExFile }}">{{ $b.BigramVal.ExDocTitle }}</a></td>
           </tr>
-        {{ end }}
-        </tbody>
-      </table>
-
-      <h3 id="no-entry">Characters without Dictionary Entries</h3>
-      <table class="table table-bordered table-hover">
-        <thead>
-          <tr><th>Frequency</th><th>Character</th></tr>
-        </thead>
-        <tbody>
-        {{ range $char := .UnkownnChars }}
-          <tr><td>{{ $char.Freq }}</td><td>{{ $char.Word }}</td></tr>
         {{ end }}
         </tbody>
       </table>
