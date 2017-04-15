@@ -250,7 +250,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 		chunk := e.Value.(string)
 		//fmt.Printf("ParseText: chunk %s\n", chunk)
 		characters := strings.Split(chunk, "")
-		if !dictionary.IsCJKChar(characters[0]) {
+		if !dictionary.IsCJKChar(characters[0]) || corpus.IsExcluded(chunk) {
 			tokens.PushBack(chunk)
 			lastHWPtr = new(dictionary.HeadwordDef)
 			lastHW = *lastHWPtr
@@ -755,7 +755,7 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename,
 	for e := tokens.Front(); e != nil; e = e.Next() {
 		chunk := e.Value.(string)
 		//fmt.Printf("WriteDoc: Word %s\n", word)
-		if entries, ok := dictionary.GetWord(chunk); ok {
+		if entries, ok := dictionary.GetWord(chunk); ok && !corpus.IsExcluded(chunk) {
 			wordIds := ""
 			for _, ws := range entries {
 				if wordIds == "" {

@@ -412,6 +412,22 @@ func TestWriteDoc3(t *testing.T) {
 	WriteDoc(tokens, results.Vocab, outfile, `\N`, `\N`, true)
 }
 
+func TestWriteDoc4(t *testing.T) {
+	files := []string{"../testdata/testwords.txt"}
+	dictionary.ReadDict(files)
+	text := ReadText("../testdata/test-simplified2.html")
+	tokens, results := ParseText(text, "", corpus.NewCorpusEntry())
+	l := 3
+	if tokens.Len() != l {
+		for e := tokens.Front(); e != nil; e = e.Next() {
+			log.Println("analysis.TestWriteDoc4", e.Value.(string))
+		}
+		t.Error("TestWriteDoc4: Expected to get length ", l, ", got ",
+			tokens.Len())
+	}
+	outfile := "../testoutput/test-simplified-gloss2.html"
+	WriteDoc(tokens, results.Vocab, outfile, `\N`, `\N`, true)
+}
 // Test that WriteHwFiles() does not explode
 /*
 func TestWriteHwFiles(t *testing.T) {
