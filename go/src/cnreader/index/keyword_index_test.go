@@ -2,6 +2,7 @@ package index
 
 import (
 	"fmt"
+	"cnreader/ngram"
 	"testing"
 )
 
@@ -22,18 +23,21 @@ func TestBuildIndex1(t *testing.T) {
 	sw := SortedWordItem{w, 1}
 	sortedWords := []SortedWordItem{sw}
 	unknownChars := []SortedWordItem{}
-	WriteWFCorpus(sortedWords, unknownChars, 1)
+	bFreq := []ngram.BigramFreq{}
+	WriteWFCorpus(sortedWords, unknownChars, bFreq, 1)
 	WriteWFDoc(sortedWords, "file.txt", 1)
 	BuildIndex()
 	entries := wfdoc[w]
 	expected := 1
 	if len(entries) != expected {
-		t.Error("index.TestBuildIndex1: Expected ", expected, " got ", len(entries))
+		t.Error("index.TestBuildIndex1: Expected ", expected, " got ",
+			len(entries))
 	}
 	documents := FindForKeyword(w)
 	retExpected := 1
 	if len(documents) != retExpected {
-		t.Error("index.TestReadWF1: retExpected ", retExpected, " got ", len(documents))
+		t.Error("index.TestReadWF1: retExpected ", retExpected, " got ",
+			len(documents))
 	}
 	fmt.Println("index.TestBuildIndex1 ", documents)
 }
@@ -49,7 +53,8 @@ func TestReadWFCorpus1(t *testing.T) {
 	sw := SortedWordItem{w, 1}
 	sortedWords := []SortedWordItem{sw}
 	unknownChars := []SortedWordItem{}
-	WriteWFCorpus(sortedWords, unknownChars, 1)
+	bFreq := []ngram.BigramFreq{}
+	WriteWFCorpus(sortedWords, unknownChars, bFreq, 1)
 	readWFCorpus()
 	entry := wf[w]
 	expected := 1
@@ -63,7 +68,8 @@ func TestReadWFCorpus1(t *testing.T) {
 func TestWriteWFCorpus0(t *testing.T) {
 	sortedWords := []SortedWordItem{}
 	unknownChars := []SortedWordItem{}
-	WriteWFCorpus(sortedWords, unknownChars, 0)
+	bFreq := []ngram.BigramFreq{}
+	WriteWFCorpus(sortedWords, unknownChars, bFreq, 0)
 }
 
 // Simple test for corpus index writing
@@ -72,7 +78,8 @@ func TestWriteWFCorpus1(t *testing.T) {
 	sortedWords := []SortedWordItem{sw}
 	uw := SortedWordItem{"𣣌", 2}
 	unknownChars := []SortedWordItem{uw}
-	WriteWFCorpus(sortedWords, unknownChars, 1)
+	bFreq := []ngram.BigramFreq{}
+	WriteWFCorpus(sortedWords, unknownChars, bFreq, 1)
 }
 
 // Trivial test for document index writing
