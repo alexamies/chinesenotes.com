@@ -73,15 +73,13 @@
       <h3 id="propernouns">Keywords</h3>
       <p>Top keywords ordered by frequency in comparison to occurrence across the entire corpus</p> 
       <table class="table table-bordered table-hover">
-        <thead>
-          <tr>
-            <th>Simplified</th>
-            <th>Traditional</th>
-            <th>Pinyin</th>
-            <th>English</th>
-          </tr>
-        </thead>
-        <tbody>
+        <tr>
+          <th>Simplified</th>
+          <th>Traditional</th>
+          <th>Pinyin</th>
+          <th>English</th>
+          <th>Notes</th>
+        </tr>
         {{ range $hw := .TopKeywords }}
           <tr>
             <td><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
@@ -97,7 +95,6 @@
             </td>
           </tr>
         {{ end }}
-        </tbody>
       </table>
       {{ end }}
 
@@ -105,15 +102,13 @@
       <h3 id="propernouns">People, places</h3>
       <p>and other proper nouns</p> 
       <table class="table table-bordered table-hover">
-        <thead>
-          <tr>
-            <th>Simplified</th>
-            <th>Traditional</th>
-            <th>Pinyin</th>
-            <th>English</th>
-          </tr>
-        </thead>
-        <tbody>
+        <tr>
+          <th>Simplified</th>
+          <th>Traditional</th>
+          <th>Pinyin</th>
+          <th>English</th>
+          <th>Notes</th>
+        </tr>
         {{ range $hw := .ProperNouns }}
           <tr>
             <td><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
@@ -129,22 +124,18 @@
             </td>
           </tr>
         {{ end }}
-        </tbody>
       </table>
       {{ end }}
 
       <h3 id="lexical">Frequencies of Lexical Words</h3>
       <table class="table table-bordered table-hover">
-        <thead>
-          <tr>
-            <th>Frequency</th>
-            <th>Chinese</th>
-            <th>Pinyin</th>
-            <th>English</th>
-            <th>Example Usage</th>
-          </tr>
-        </thead>
-        <tbody>
+        <tr>
+          <th>Frequency</th>
+          <th>Chinese</th>
+          <th>Pinyin</th>
+          <th>English</th>
+          <th>Example Usage</th>
+        </tr>
         {{ range $wf := .LexicalWordFreq }}
           <tr>
             <td>{{ $wf.Freq }}</td>
@@ -154,47 +145,18 @@
             <td>{{ $wf.Usage }}</td>
           </tr>
         {{ end }}
-        </tbody>
-      </table>
-
-      <h3 id="wf">Frequencies of all Words</h3>
-      <p>Top {{.MaxWFOutput}}</p>
-      <table class="table table-bordered table-hover">
-        <thead>
-          <tr>
-            <th>Frequency</th>
-            <th>Chinese</th>
-            <th>Pinyin</th>
-            <th>English</th>
-            <th>Example Usage</th>
-          </tr>
-        </thead>
-        <tbody>
-        {{ range $wf := .WordFrequencies }}
-          <tr>
-            <td>{{ $wf.Freq }}</td>
-            <td><a href="/words/{{$wf.HeadwordId}}.html">{{$wf.Chinese}}</a></td>
-            <td>{{ $wf.Pinyin }}</td>
-            <td>{{ $wf.English }}</td>
-            <td>{{ $wf.Usage }}</td>
-          </tr>
-        {{ end }}
-        </tbody>
       </table>
 
       <h3 id="bigrams">Bigrams</h3>
       <p>Top {{.MaxWFOutput}}</p>
       <table class="table table-bordered table-hover">
-        <thead>
-          <tr>
-            <th>Frequency</th>
-            <th>Simplified</th>
-            <th>Traditional</th>
-            <th>Example</th>
-            <th>Document</th>
-          </tr>
-        </thead>
-        <tbody>
+        <tr>
+          <th>Frequency</th>
+          <th>Simplified</th>
+          <th>Traditional</th>
+          <th>Example</th>
+          <th>Document</th>
+        </tr>
         {{ range $b := .BigramFreqSorted }}
           <tr>
             <td>{{ $b.Frequency }}</td>
@@ -204,7 +166,6 @@
             <td><a href="/{{ $b.BigramVal.ExFile }}">{{ $b.BigramVal.ExDocTitle }}</a></td>
           </tr>
         {{ end }}
-        </tbody>
       </table>
 
       <hr/>
