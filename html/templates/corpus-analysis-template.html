@@ -90,8 +90,8 @@
               {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.English}}{{ end }} {{ end }}{{end}}
             </td>
             <td>
-              {{if $hw.WordSenses}}{{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{if ne $ws.Parent_en "\\N"}}{{ $ws.Notes}}{{ end }}</li>{{ end }}</ol>
-              {{ else }}{{ range $ws := $hw.WordSenses }}{{if ne $ws.Parent_en "\\N"}}{{ $ws.Notes}}{{ end }}{{ end }} {{ end }}{{ end }}
+              {{if $hw.WordSenses}}{{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{if ne $ws.Notes "\\N"}}{{ $ws.Notes}}{{ end }}</li>{{ end }}</ol>
+              {{ else }}{{ range $ws := $hw.WordSenses }}{{if ne $ws.Notes "\\N"}}{{ $ws.Notes}}{{ end }}{{ end }} {{ end }}{{ end }}
             </td>
           </tr>
         {{ end }}
@@ -119,8 +119,8 @@
               {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.English}}{{ end }} {{ end }}
             </td>
             <td>
-              {{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{if ne $ws.Parent_en "\\N"}}{{ $ws.Notes}}{{ end }}</li>{{ end }}</ol>
-              {{ else }}{{ range $ws := $hw.WordSenses }}{{if ne $ws.Parent_en "\\N"}}{{ $ws.Notes}}{{ end }}{{ end }} {{ end }}
+              {{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{if ne $ws.Notes "\\N"}}{{ $ws.Notes}}{{ end }}</li>{{ end }}</ol>
+              {{ else }}{{ range $ws := $hw.WordSenses }}{{if ne $ws.Notes "\\N"}}{{ $ws.Notes}}{{ end }}{{ end }} {{ end }}
             </td>
           </tr>
         {{ end }}
