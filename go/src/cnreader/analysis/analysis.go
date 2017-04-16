@@ -38,12 +38,16 @@ const MAX_USAGE = 25
 // Max number of occurrences of same title in a list of word usages
 const MAX_TITLE = 5
 
+// Max number of keywords to display
+const MAX_KEYWORDS = 10
+
 // Holds vocabulary analysis for a corpus text
 type AnalysisResults struct {
 	Title                   string
 	WC, UniqueWords, CCount int
 	ProperNouns				dictionary.Headwords
 	DocumentGlossary 		Glossary
+	TopKeywords				dictionary.Headwords
 	WordFrequencies         []WFResult
 	LexicalWordFreq         []WFResult
 	BigramFreqSorted        []ngram.BigramFreq
@@ -378,9 +382,12 @@ func add(x, y int) int {
 // Writes out an analysis of the entire corpus, including word frequencies
 // and other data. The output file is called 'corpus-analysis.html' in the
 // web/analysis directory.
-// results: The results of corpus analysis
-// Returns the name of the file written to
-func writeAnalysisCorpus(results CollectionAResults) string {
+// Parameters:
+//   results: The results of corpus analysis
+//   docFreq: document frequency for terms
+// Returns: the name of the file written to
+func writeAnalysisCorpus(results CollectionAResults,
+	docFreq index.DocumentFrequency) string {
 
 	// Parse template and organize template parameters
 	sortedWords := index.SortedFreq(results.Vocab)
@@ -429,9 +436,9 @@ func writeAnalysisCorpus(results CollectionAResults) string {
 		Title:            title,
 		WC:               results.WC,
 		CCount:			  results.CCount,
-		//Cognates:         []alignment.CorpEntryCognates{},
 		ProperNouns:      dictionary.Headwords{},
 		DocumentGlossary: MakeGlossary("", []dictionary.HeadwordDef{}),
+		TopKeywords:	  dictionary.Headwords{},
 		UniqueWords:      len(results.Vocab),
 		WordFrequencies:  wfResults[:maxWf],
 		LexicalWordFreq:  lexicalWordFreq[:maxLex],
@@ -510,6 +517,15 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 		maxLex = MAX_WF_OUTPUT
 	}
 
+	keywords := index.SortByWeight(results.Vocab)
+	maxKeywords := len(keywords)
+	if maxKeywords > MAX_KEYWORDS {
+		maxKeywords = MAX_KEYWORDS
+	}
+	keywords = keywords[:maxKeywords]
+	topKeywords := index.GetHeadwordArray(keywords)
+	//log.Printf("analysis.writeAnalysis: len topKeywords: %d\n", len(topKeywords))
+
 	sortedUnknownWords := index.SortedFreq(results.UnknownChars)
 	maxUnknown := len(sortedUnknownWords)
 	if maxUnknown > MAX_UNKOWN_OUTPUT {
@@ -533,9 +549,9 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 		Title:            title,
 		WC:               results.WC,
 		CCount:			  results.CCount,
-		//Cognates:         results.CollectionCogs,
 		ProperNouns:      properNouns,
 		DocumentGlossary: glossary,
+		TopKeywords:	  topKeywords,
 		UniqueWords:      len(results.Vocab),
 		WordFrequencies:  wfResults[:maxWf],
 		LexicalWordFreq:  lexicalWordFreq[:maxLex],
@@ -548,7 +564,12 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	funcs := template.FuncMap{
 		"add": add,
 		"Deref":   func(sp *string) string { return *sp },
-		"DerefNe": func(sp *string, s string) bool { return *sp != s },
+		"DerefNe": func(sp *string, s string) bool { 
+			if sp != nil {
+				return *sp != s 
+			}
+			return false
+		},
 	}
 	tmpl, err := template.New("corpus-analysis-template.html").Funcs(funcs).ParseFiles(tmplFile)
 	if err != nil {
@@ -589,7 +610,8 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 // Writes a corpus document collection to HTML, including all the entries
 // contained in the collection
 // collectionEntry: the CollectionEntry struct
-func writeCollection(collectionEntry corpus.CollectionEntry) CollectionAResults {
+func writeCollection(collectionEntry corpus.CollectionEntry,
+		docFreq index.DocumentFrequency) CollectionAResults {
 
 	corpusEntries := corpus.CorpusEntries(config.CorpusDataDir() + "/" +
 		collectionEntry.CollectionFile, collectionEntry.Title)
@@ -604,6 +626,7 @@ func writeCollection(collectionEntry corpus.CollectionEntry) CollectionAResults 
 		}
 		text := ReadText(src)
 		tokens, results := ParseText(text, collectionEntry.Title, &entry)
+		docFreq.AddVocabulary(results.Vocab)
 		aFile := writeAnalysis(results, entry.RawFile, collectionEntry.Title,
 			entry.Title)
 		writeCorpusDoc(tokens, results.Vocab, dest, collectionEntry.GlossFile,
@@ -620,20 +643,22 @@ func writeCollection(collectionEntry corpus.CollectionEntry) CollectionAResults 
 
 func WriteCorpusAll() {
 	index.Reset()
+	docFreq := index.NewDocumentFrequency() // used to accumulate the frequencies
 	collections := corpus.Collections()
 	aResults := NewCollectionAResults()
 	wfArrayByGenre := WFArrayByGenre{}
 	for _, collectionEntry := range collections {
 		//log.Printf("analysis.WriteCorpusAll: entry: '%s' has genre '%s'\n",
 		//	collectionEntry.Title, collectionEntry.Genre)
-		results := writeCollection(collectionEntry)
+		results := writeCollection(collectionEntry, docFreq)
 		byGenre := NewWordFreqByGenre(collectionEntry.Genre)
 		byGenre.WF = results.Vocab
 		wfArrayByGenre = MergeByGenre(wfArrayByGenre, byGenre)
 		aResults.AddResults(results)
 	}
 	aResults.ByGenre = wfArrayByGenre
-	writeAnalysisCorpus(aResults)
+	writeAnalysisCorpus(aResults, docFreq)
+	docFreq.WriteToFile()
 	index.BuildIndex()
 }
 
@@ -645,7 +670,10 @@ func WriteCorpusCol(collectionFile string) {
 	if err != nil {
 		log.Fatalf("analysis.WriteCorpusCol: fatal error %v", err)
 	}
-	writeCollection(collectionEntry)
+	// df does not work without a full corpus analysis because df is not
+	// persisted
+	df := index.DocumentFrequency{}
+	writeCollection(collectionEntry, df)
 }
 
 // Writes a corpus document with markup for the array of tokens

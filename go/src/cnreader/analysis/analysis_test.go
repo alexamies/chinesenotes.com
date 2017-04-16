@@ -350,8 +350,16 @@ func TestSortedFreq(t *testing.T) {
 
 func TestWriteAnalysis(t *testing.T) {
 	log.Printf("analysis.TestWriteAnalysis: Begin +++++++++++\n")
-	_, results := ParseText("繁", "", corpus.NewCorpusEntry())
+	term := "繁"
+	_, results := ParseText(term, "", corpus.NewCorpusEntry())
 	srcFile := "test.txt"
+	vocab := map[string]int{
+		term: 1,
+	}
+	df := index.NewDocumentFrequency()
+	df.AddVocabulary(vocab)
+	df.WriteToFile()
+	index.ReadDocumentFrequency()
 	writeAnalysis(results, srcFile, "Test Collection", "Test Doc")
 	log.Printf("analysis.TestWriteAnalysis: End +++++++++++\n")
 }

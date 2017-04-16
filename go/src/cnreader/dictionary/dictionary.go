@@ -88,7 +88,7 @@ func ContainsWord(word string, headwords []HeadwordDef) []HeadwordDef {
 // Parameters
 //   chinese: The Chinese (simplified or traditional) text of the word
 // Return
-//   word: an array of word senses
+//   hw: the headword for the string
 //   ok: true if the word is in the dictionary
 func GetHeadword(chinese string) (hw HeadwordDef, ok bool) {
 	wsArray, ok := GetWord(chinese)
