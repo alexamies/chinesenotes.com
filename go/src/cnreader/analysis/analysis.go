@@ -516,14 +516,17 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 		maxLex = MAX_WF_OUTPUT
 	}
 
-	keywords := index.SortByWeight(results.Vocab)
-	topKeywords := index.GetHeadwordArray(keywords)
-	topKeywords = dictionary.FilterByDomain(topKeywords, domain_label)
-	maxKeywords := len(topKeywords)
-	if maxKeywords > MAX_KEYWORDS {
-		maxKeywords = MAX_KEYWORDS
+	topKeywords := []dictionary.HeadwordDef{}
+	if domain_label != "" {
+		keywords := index.SortByWeight(results.Vocab)
+		topKeywords = index.GetHeadwordArray(keywords)
+		topKeywords = dictionary.FilterByDomain(topKeywords, domain_label)
+		maxKeywords := len(topKeywords)
+		if maxKeywords > MAX_KEYWORDS {
+			maxKeywords = MAX_KEYWORDS
+		}
+		topKeywords = topKeywords[:maxKeywords]
 	}
-	topKeywords = topKeywords[:maxKeywords]
 
 	//log.Printf("analysis.writeAnalysis: len topKeywords: %d\n", len(topKeywords))
 
