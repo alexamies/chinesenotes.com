@@ -62,39 +62,11 @@
 
       <h3>Contents</h3>
       <ol>
-        {{ if .TopKeywords }}<li><a href="#keywords">Keywords</a></li>{{ end }}
         {{ if .ProperNouns }}<li><a href="#propernouns">People and Places</a></li>{{ end }}
         <li><a href="#lexical">Frequencies of Lexical Words</a></li>
         <li><a href="#wf">Frequencies of all Words</a></li>
         <li><a href="#bigrams">Bigrams</a></li>
       </ol>
-
-      {{ if .TopKeywords }}
-      <h3 id="propernouns">Keywords</h3>
-      <p>Top keywords ordered by frequency in comparison to occurrence across the entire corpus</p> 
-      <table class="table table-bordered table-hover">
-        <tr>
-          <th>Simplified</th>
-          <th>Traditional</th>
-          <th>Pinyin</th>
-          <th>English</th>
-        </tr>
-        {{ range $hw := .TopKeywords }}
-          <tr>
-            <td><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
-            <td>{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
-            <td>
-              {{if $hw.WordSenses}}{{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.Pinyin}}</li>{{ end }}</ol>
-              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.Pinyin}}{{ end }} {{ end }}{{end}}
-            </td>
-            <td>
-              {{if $hw.WordSenses}}{{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
-              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.English}}{{ end }} {{ end }}{{end}}
-            </td>
-          </tr>
-        {{ end }}
-      </table>
-      {{ end }}
 
       {{ if .ProperNouns }}
       <h3 id="propernouns">People, places</h3>
