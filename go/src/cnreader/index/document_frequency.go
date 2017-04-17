@@ -19,7 +19,7 @@ const DOC_FREQ_FILE = "doc_freq.json"
 // Map from term to number of documents referencing the term
 type DocumentFrequency struct {
 	DocFreq map[string]int
-	N       int // total number of documents
+	N       *int // total number of documents
 }
 
 // Loaded from disk in contrast to partially ready and still accumulating data
@@ -35,9 +35,10 @@ func init () {
 
 // Initializes a DocumentFrequency struct
 func NewDocumentFrequency() DocumentFrequency {
+	zero := 0
 	return DocumentFrequency{
 		DocFreq: map[string]int{},
-		N: 0,
+		N: &zero,
 	}
 }
 
@@ -54,7 +55,7 @@ func (df *DocumentFrequency) AddVocabulary(vocab map[string]int) {
 			df.DocFreq[k] = 1
 		}
 	}
-	df.N += 1
+	*df.N += 1
 }
 
 // Computes the inverse document frequency for the given term
@@ -63,8 +64,8 @@ func (df *DocumentFrequency) AddVocabulary(vocab map[string]int) {
 func (df *DocumentFrequency) IDF(term string) (val float64, ok bool) {
 	ndocs, ok := df.DocFreq[term]
 	if ok && ndocs > 0 {
-		val = math.Log10(float64(df.N) / float64(ndocs))
-	//log.Println("index.IDF: term, val, df.N, ", term, val, df.N)
+		val = math.Log10(float64(*df.N) / float64(ndocs))
+	//log.Println("index.IDF: term, val, df.n, ", term, val, df.N)
 	} 
 	return val, ok
 }
@@ -101,7 +102,7 @@ func tfIdf(term string, count int) (val float64, ok bool) {
 // Writes the document frequency to json file
 func (df *DocumentFrequency) WriteToFile() {
 	dir := config.IndexDir()
-
+	log.Println("index.DocumentFrequency.WriteToFile: N, ", df.N)
 	fname := dir + "/" + DOC_FREQ_FILE
 	f, err := os.Create(fname)
 	if err != nil {

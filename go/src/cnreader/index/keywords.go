@@ -3,6 +3,7 @@ package index
 
 import (
 	"cnreader/dictionary"
+	"log"
 	"sort"
 )
 
@@ -24,7 +25,7 @@ func (kws Keywords) Swap(i, j int) {
 }
 
 func (kws Keywords) Less(i, j int) bool {
-	return kws[i].Weight < kws[j].Weight
+	return kws[i].Weight > kws[j].Weight
 }
 
 // Gets the dictionary definition of a slice of strings
@@ -38,12 +39,14 @@ func GetHeadwordArray(keywords Keywords) ([]dictionary.HeadwordDef) {
 		hw, ok := dictionary.GetHeadword(kw.Term)
 		if ok {
 			hws = append(hws, hw)
+		} else {
+			log.Printf("index.GetHeadwordArray %s not found\n", kw.Term)
 		}
 	}
 	return hws
 }
 
-// Orders the word with given frequency in a document by tf-idf weight
+// Orders the keyword with given frequency in a document by tf-idf weight
 // Param:
 //   vocab - word frequencies for a particular document
 func SortByWeight(vocab map[string]int) Keywords {

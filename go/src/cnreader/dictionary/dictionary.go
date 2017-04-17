@@ -84,6 +84,34 @@ func ContainsWord(word string, headwords []HeadwordDef) []HeadwordDef {
 	return contains
 }
 
+// Filter the list of headwords by the given domain
+// Parameters
+//   hws: A list of headwords
+//   domain_en: the domain to filter by, ignored if empty
+// Return
+//   hw: an array of headwords matching the domain, with senses not matching the
+//       domain also removed
+func FilterByDomain(hws []HeadwordDef, domain_en string) []HeadwordDef {
+	if domain_en == "" {
+		return hws
+	}
+	headwords := []HeadwordDef{}
+	for _, hw := range hws {
+		wsArr := []WordSenseEntry{}
+		for _, ws := range *hw.WordSenses {
+			if ws.Topic_en == domain_en {
+				wsArr = append(wsArr, ws)
+			}
+		}
+		if len(wsArr) > 0 {
+			h := CloneHeadword(hw)
+			h.WordSenses = &wsArr
+			headwords = append(headwords, h)
+		}
+	}
+	return headwords
+}
+
 // Gets the dictionary definition of a word
 // Parameters
 //   chinese: The Chinese (simplified or traditional) text of the word
@@ -339,6 +367,7 @@ func ReadDict(wsFilenames []string) {
 			}
 		}
 	}
+	GetHeadwords()
 }
 
 // Reads the Chinese-English lexical units into memory from the words.txt file

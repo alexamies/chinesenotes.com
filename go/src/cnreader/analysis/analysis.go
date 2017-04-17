@@ -6,7 +6,6 @@ package analysis
 import (
 	"bufio"
 	"bytes"
-	//"cnreader/alignment"
 	"cnreader/config"
 	"cnreader/corpus"
 	"cnreader/dictionary"
@@ -518,12 +517,14 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	}
 
 	keywords := index.SortByWeight(results.Vocab)
-	maxKeywords := len(keywords)
+	topKeywords := index.GetHeadwordArray(keywords)
+	topKeywords = dictionary.FilterByDomain(topKeywords, domain_label)
+	maxKeywords := len(topKeywords)
 	if maxKeywords > MAX_KEYWORDS {
 		maxKeywords = MAX_KEYWORDS
 	}
-	keywords = keywords[:maxKeywords]
-	topKeywords := index.GetHeadwordArray(keywords)
+	topKeywords = topKeywords[:maxKeywords]
+
 	//log.Printf("analysis.writeAnalysis: len topKeywords: %d\n", len(topKeywords))
 
 	sortedUnknownWords := index.SortedFreq(results.UnknownChars)

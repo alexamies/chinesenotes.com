@@ -83,6 +83,11 @@ func TestContainsWord4(t *testing.T) {
 	fmt.Printf("TestContainsWord4: ok\n")
 }
 
+// Trivial test for FilterByDomain
+func TestFilterByDomain0(t *testing.T) {
+	FilterByDomain([]HeadwordDef{}, "")
+}
+
 func TestGetHwMap1(t *testing.T) {
 	GetHeadwords()
 	hwIdMap := GetHwMap()
