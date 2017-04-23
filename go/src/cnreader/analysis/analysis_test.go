@@ -384,7 +384,7 @@ func TestWriteCorpusDoc1(t *testing.T) {
 	log.Printf("analysis.TestWriteCorpusDoc1: Begin +++++++++++\n")
 	tokens, results := ParseText("繁", "", corpus.NewCorpusEntry())
 	outfile := "../testoutput/output.html"
-	writeCorpusDoc(tokens, results.Vocab, outfile, "", "", "")
+	writeCorpusDoc(tokens, results.Vocab, outfile, "", "", "", "")
 	log.Printf("analysis.TestWriteCorpusDoc1: End +++++++++++\n")
 }
 

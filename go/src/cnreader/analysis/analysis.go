@@ -58,7 +58,7 @@ type AnalysisResults struct {
 
 // The content for a corpus entry
 type CorpusEntryContent struct {
-	CorpusText, DateUpdated, CollectionURL, CollectionTitle, AnalysisFile string
+	CorpusText, DateUpdated, CollectionURL, CollectionTitle, EntryTitle, AnalysisFile string
 }
 
 // Dictionary entry content struct used for writing a dictionary entry to HTML
@@ -634,7 +634,7 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 		aFile := writeAnalysis(results, entry.RawFile, collectionEntry.Title,
 			entry.Title)
 		writeCorpusDoc(tokens, results.Vocab, dest, collectionEntry.GlossFile,
-			collectionEntry.Title, aFile)
+			collectionEntry.Title, entry.Title,  aFile)
 		aResults.AddResults(results)
 	}
 	aFile := writeAnalysis(aResults, collectionEntry.CollectionFile,
@@ -689,7 +689,8 @@ func WriteCorpusCol(collectionFile string) {
 // collectionTitle: The collection title that the corpus entry belongs to
 // aFile: The vocabulary analysis file written to or empty string for none
 func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
-	collectionURL string, collectionTitle string, aFile string) {
+	collectionURL string, collectionTitle string, entryTitle string,
+	aFile string) {
 
 	var b bytes.Buffer
 
@@ -715,7 +716,7 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	textContent := b.String()
 	dateUpdated := time.Now().Format("2006-01-02")
 	content := CorpusEntryContent{textContent, dateUpdated, collectionURL,
-		collectionTitle, aFile}
+		collectionTitle, entryTitle, aFile}
 
 	// Write to file
 	f, err := os.Create(filename)

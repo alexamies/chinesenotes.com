@@ -56,8 +56,11 @@
       </div>
     </div>
     <div class="container">
-
-      <p><a href='/{{.CollectionURL}}'>Back to collection {{ .CollectionTitle }}</a></p>
+      <p><a href='/{{.CollectionURL}}'>Back to collection</a></p>
+      <header>
+        <h2>{{.CollectionTitle}}</h2>
+        <h3>{{.EntryTitle}}</h3>
+      </header>
 
       {{.CorpusText}}
 
