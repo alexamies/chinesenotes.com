@@ -18,5 +18,7 @@ DBPass: set me
 # The name of the database to connect to (used for cnweb)
 DBName: corpus_index
 
+LUFiles: words.txt,translation_memory_literary.txt
+
 # The domain of the corpus
 Domain:

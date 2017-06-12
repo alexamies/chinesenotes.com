@@ -1,0 +1,12 @@
+3000001	秋风	秋風	qiū fēng	autumn wind	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 秋 autumn + 風 wind (Barnes 2007, p. 35; Guoyu '秋風')	3000001
+3000002	春林	\N	chūn lín	the forest in springtime	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 春 spring + 林 woods (Barnes 2007, p. 35; Guoyu '春林')	3000002
+3000003	春鸟	春鳥	chūn niǎo	birds in springtime	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 春 spring + 鳥 birds (Barnes 2007, p. 35)	3000003
+3000004	夜风	夜風	yè fēng	the night wind	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 夜 night + 風 wind (Barnes 2007, p. 35)	3000004
+3000005	月林	\N	yuè lín	the moonlit forest	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 月 moon + 林 woods (Barnes 2007, p. 35)	3000005
+3000006	风竹	風竹	fēng zhú	bamboo swaying and rustling in the wind	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 風 wind + 竹 bamboo (Barnes 2007, p. 36)	3000006
+3000007	雨夜	\N	yǔ yè	a rainy night	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 雨 rain + 夜 night (Barnes 2007, p. 36)	3000007
+3000008	水竹	\N	shuǐzhú	river-side bamboo	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 水 water + 竹 bamboo (Barnes 2007, p. 36)	3000008
+3000009	山花	\N	shān huā	mountain flowers	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 山 mountain + 花 flower (Barnes 2007, p. 36)	3000009
+3000010	山风	山風	shān fēng	mountain breeze	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 山 mountain + 風 breeze (Barnes 2007, p. 36; Guoyu '山風')	3000010
+3000011	林声	林聲	lín shēng	the sound of the forest	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 林 woods + 聲 sound (Barnes 2007, p. 36)	3000011
+3000012	竹木	\N	zhú mù	bamboo and wood	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 竹 bamboo + 木 wood (Barnes 2007, p. 37)	3000012
