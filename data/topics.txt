@@ -1,7 +1,6 @@
 能力	Ability	\N	\N
 抽象	Abstract	\N	\N
 住宿	Accommodation	\N	\N
-行为	Actions	\N	\N
 管理	Administration	\N	\N
 附类	Affixes	\N	\N
 农业	Agriculture	\N	\N
@@ -32,8 +31,7 @@
 商务	Commerce	\N	\N
 通讯	Communications	\N	\N
 比较	Comparison	\N	\N
-计算机学	Computer Science	\N	\N
-状况	Condition	\N	\N
+计算机科学	Computer Science	\N	\N
 冲突	Conflict	\N	\N
 儒家	Confucianism	\N	\N
 容器	Container	\N	\N
@@ -78,6 +76,7 @@
 历史	History	\N	\N
 荣誉	Honor	\N	\N
 家庭用品	Household Article	\N	\N
+人文学	Humanities
 幽默	Humor	\N	\N
 打猎	Hunting	\N	\N
 卫生	Hygiene	\N	\N
@@ -99,6 +98,7 @@
 逻辑	Logic	\N	\N
 爱情	Love	\N	\N
 运气	Luck	\N	\N
+法术	Magic	\N	\N
 海上	Maritime	\N	\N
 实物	Material Object	\N	\N
 物料	Materials	\N	\N
@@ -111,6 +111,7 @@
 冶金	Metallurgy	\N	\N
 比喻	Metaphor	\N	\N
 军事	Military	\N	\N
+现代汉语	Modern Chinese	\N	\N
 登山	Mountaineering	\N	\N
 移动	Movement	\N	\N
 音乐	Music	\N	\N
@@ -118,6 +119,7 @@
 名字	Names	\N	\N
 大自然	Nature	\N	\N
 观察	Observation	\N	\N
+光学	Optics	\N	\N
 组织	Organization	\N	\N
 人	People	\N	\N
 哲学	Philosophy	\N	\N
@@ -142,10 +144,8 @@
 安全	Safety	\N	\N
 科学	Science	\N	\N
 规模	Scale	\N	\N
-交际	Social Interaction	\N	\N
 社会学	Social Science	\N	\N
 社会工作	Social Work	\N	\N
-社会	Society	\N	\N
 声	Sound	\N	\N
 航天	Space Flight	\N	\N
 体育	Sport	\N	\N
@@ -156,7 +156,6 @@
 老舍茶馆	Teahouse by Lao She	\N	\N
 技术	Technology	\N	\N
 温度	Temperature	\N	\N
-思想	Thought	\N	\N
 时间	Time	\N	\N
 工具	Tools	\N	\N
 旅游	Tourism	\N	\N
