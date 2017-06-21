@@ -93,7 +93,6 @@
 语言学	Linguistics	\N	\N
 文学	Literature	\N	\N
 逻辑	Logic	\N	\N
-爱情	Love	\N	\N
 运气	Luck	\N	\N
 法术	Magic	\N	\N
 海上	Maritime	\N	\N
@@ -152,7 +151,6 @@
 老舍茶馆	Teahouse by Lao She	\N	\N
 技术	Technology	\N	\N
 温度	Temperature	\N	\N
-时间	Time	\N	\N
 工具	Tools	\N	\N
 旅游	Tourism	\N	\N
 玩具	Toys	\N	\N

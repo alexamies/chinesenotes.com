@@ -1,4 +1,5 @@
 # Corpus of modern Chinese articles
+# Source file, Gloss output file, title
 articles/article_xhw_literature20160204a_raw.html	articles/article_xhw_literature20160204a.html	文学 Literature - Fragment a (2016-02-04)
 articles/article_xhw_literature20160204b_raw.html	articles/article_xhw_literature20160204b.html	文学 Literature - Fragment b (2016-02-04)
 articles/article_xhw_literature20160204c_raw.html	articles/article_xhw_literature20160204c.html	文学 Literature - Fragment c (2016-02-04)
@@ -78,3 +79,4 @@ articles/unesco_zhoukoudian.html	articles/unesco_zhoukoudian.html	周口店北�
 articles/unesco_greatwall.html	articles/unesco_greatwall.html	长城 The Great Wall (1987)
 articles/unesco_huangshan.html	articles/unesco_huangshan.html	黄山 Mount Huangshan (1990)
 articles/unesco_huanglong.html	articles/unesco_huanglong.html	黄龙风景名胜区 Huanglong Scenic and Historic Interest Area (1992)
+articles/nyt20160802.html	articles/nyt20160802.html	丈夫有外遇？你可以找个“小三劝退师” China’s Cheating Husbands Fuel an Industry of ‘Mistress Dispellers’ (2016)
