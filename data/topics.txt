@@ -23,6 +23,7 @@
 服装	Clothing	\N	\N
 颜色	Color	\N	\N
 商务	Commerce	\N	\N
+俗语	Common Saying	\N	\N
 通讯	Communications	\N	\N
 比较	Comparison	\N	\N
 计算机科学	Computer Science	\N	\N
@@ -77,7 +78,6 @@
 功夫	Kungfu	\N	\N
 法律	Law	\N	\N
 休闲	Leisure	\N	\N
-光纤	Light	\N	\N
 语言学	Linguistics	\N	\N
 文学	Literature	\N	\N
 逻辑	Logic	\N	\N
@@ -101,7 +101,6 @@
 音乐	Music	\N	\N
 神话	Mythology	\N	\N
 名字	Names	\N	\N
-大自然	Nature	\N	\N
 光学	Optics	\N	\N
 组织	Organization	\N	\N
 哲学	Philosophy	\N	\N
@@ -138,8 +137,6 @@
 旅游	Tourism	\N	\N
 玩具	Toys	\N	\N
 用具	Utensil	\N	\N
-水	Water	\N	\N
-财富	Wealth	\N	\N
 武器	Weapons	\N	\N
 书	Written Chinese	\N	\N
 动物学	Zoology	\N	\N
