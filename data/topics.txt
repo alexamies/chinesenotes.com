@@ -13,7 +13,6 @@
 植物学	Botany	\N	\N
 佛教	Buddhism	\N	\N
 书法	Calligraphy	\N	\N
-种类	Category	\N	\N
 化学	Chemistry	\N	\N
 慈善会	Charity	\N	\N
 中医	Chinese Medicine	\N	\N
@@ -21,7 +20,6 @@
 古文	Classical Chinese	\N	\N
 气候	Climate	\N	\N
 服装	Clothing	\N	\N
-颜色	Color	\N	\N
 商务	Commerce	\N	\N
 俗语	Common Saying	\N	\N
 通讯	Communications	\N	\N
@@ -45,7 +43,6 @@
 能源	Energy	\N	\N
 娱乐	Entertainment	\N	\N
 环境	Environment	\N	\N
-道德	Ethics	\N	\N
 日常生活	Everyday Life	\N	\N
 设备	Facilities	\N	\N
 财会	Finance and Accounting	\N	\N
@@ -70,7 +67,6 @@
 打猎	Hunting	\N	\N
 成语	Idiom	\N	\N
 工业	Industry	\N	\N
-信息	Information	\N	\N
 信息技术	Information Technology	\N	\N
 叹词	Interjection	\N	\N
 日语	Japanese	\N	\N
