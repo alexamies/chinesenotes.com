@@ -56,7 +56,6 @@
 地理	Geography	\N	\N
 地质	Geology	\N	\N
 政府	Government	\N	\N
-语法	Grammar	\N	\N
 健康	Health	\N	\N
 帮助	Help	\N	\N
 历史	History	\N	\N
@@ -68,10 +67,10 @@
 成语	Idiom	\N	\N
 工业	Industry	\N	\N
 信息技术	Information Technology	\N	\N
+信息学	Information Science	\N	\N
 叹词	Interjection	\N	\N
 日语	Japanese	\N	\N
 配饰	Jewelry	\N	\N
-功夫	Kungfu	\N	\N
 法律	Law	\N	\N
 休闲	Leisure	\N	\N
 语言学	Linguistics	\N	\N
@@ -80,6 +79,7 @@
 运气	Luck	\N	\N
 法术	Magic	\N	\N
 海上	Maritime	\N	\N
+武术	Martial Arts	\N	\N
 实物	Material Object	\N	\N
 物料	Materials	\N	\N
 数学	Mathematics	\N	\N
@@ -113,7 +113,6 @@
 部首	Radicals	\N	\N
 联系	Relationship	\N	\N
 宗教	Religion	\N	\N
-重复	Repetition	\N	\N
 研究	Research	\N	\N
 安全	Safety	\N	\N
 科学	Science	\N	\N
@@ -124,7 +123,6 @@
 航天	Space Flight	\N	\N
 体育	Sport	\N	\N
 口语	Spoken Language	\N	\N
-文具	Stationery	\N	\N
 力气	Strength	\N	\N
 道教	Taoism	\N	\N
 老舍茶馆	Teahouse by Lao She	\N	\N
