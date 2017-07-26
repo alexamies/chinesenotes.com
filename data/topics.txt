@@ -106,7 +106,6 @@
 地方	Places	\N	\N
 诗	Poetry	\N	\N
 政治	Politics	\N	\N
-身姿	Posture	\N	\N
 谚语	Proverb	\N	\N
 心理学	Psychology	\N	\N
 公安	Public Security	\N	\N
