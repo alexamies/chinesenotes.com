@@ -30,7 +30,7 @@
 化妆品	Cosmetic	\N	\N
 文化	Culture	\N	\N
 习俗	Customs	\N	\N
-跳舞	Dancing	\N	\N
+舞蹈	Dance	\N	\N
 危险	Danger	\N	\N
 方言	Dialect	\N	\N
 灾难	Disaster	\N	\N
@@ -99,6 +99,7 @@
 名字	Names	\N	\N
 光学	Optics	\N	\N
 组织	Organization	\N	\N
+表演艺术 Performing Arts	\N	\N
 哲学	Philosophy	\N	\N
 摄影术	Photography	\N	\N
 物理	Physics	\N	\N
