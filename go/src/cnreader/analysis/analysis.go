@@ -803,7 +803,9 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 		}
 	}
 	dateUpdated := time.Now().Format("2006-01-02")
-	content := HTMLContent{b.String(), dateUpdated, title, filename}
+	fnameParts := strings.Split(filename, "/")
+	fname := fnameParts[len(fnameParts) - 1]
+	content := HTMLContent{b.String(), dateUpdated, title, fname}
 
 	// Prepare template
 	tmpl := template.Must(template.New(templateName).ParseFiles(templateFile))
