@@ -86,7 +86,7 @@ type WFResult struct {
 
 // HTML content for template
 type HTMLContent struct {
-	Content, DateUpdated, Title string
+	Content, DateUpdated, Title, FileName string
 }
 
 /* Break usage example text into links with highlight on headword
@@ -803,7 +803,7 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 		}
 	}
 	dateUpdated := time.Now().Format("2006-01-02")
-	content := HTMLContent{b.String(), dateUpdated, title}
+	content := HTMLContent{b.String(), dateUpdated, title, filename}
 
 	// Prepare template
 	tmpl := template.Must(template.New(templateName).ParseFiles(templateFile))
