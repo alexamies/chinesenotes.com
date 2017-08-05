@@ -86,7 +86,7 @@ type WFResult struct {
 
 // HTML content for template
 type HTMLContent struct {
-	Content, DateUpdated string
+	Content, DateUpdated, Title string
 }
 
 /* Break usage example text into links with highlight on headword
@@ -741,10 +741,10 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 // filename: The file name to write to
 // GlossChinese: whether to convert the Chinese text in the file to hyperlinks
 func WriteDoc(tokens list.List, vocab map[string]int, filename,
-	templateName, templateFile string, glossChinese bool) {
+	templateName, templateFile string, glossChinese bool, title string) {
 	if templateFile != `\N` {
 		writeHTMLDoc(tokens, vocab, filename, templateName, templateFile,
-			glossChinese)
+			glossChinese, title)
 		return
 	}
 	f, err := os.Create(filename)
@@ -782,7 +782,7 @@ func WriteDoc(tokens list.List, vocab map[string]int, filename,
 // filename: The file name to write to
 // GlossChinese: whether to convert the Chinese text in the file to hyperlinks
 func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
-	templateName, templateFile string, glossChinese bool) {
+	templateName, templateFile string, glossChinese bool, title string) {
 	var b bytes.Buffer
 
 	// Iterate over text chunks
@@ -803,7 +803,7 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 		}
 	}
 	dateUpdated := time.Now().Format("2006-01-02")
-	content := HTMLContent{b.String(), dateUpdated}
+	content := HTMLContent{b.String(), dateUpdated, title}
 
 	// Prepare template
 	tmpl := template.Must(template.New(templateName).ParseFiles(templateFile))

@@ -22,6 +22,7 @@ var configVars map[string]string
 type HTMLConversion struct {
 	SrcFile, DestFile, Template string
 	GlossChinese bool
+	Title string
 }
 
 func init() {
@@ -74,15 +75,24 @@ func GetHTMLConversions() []HTMLConversion {
 	for _, row := range rawCSVdata {
 		if len(row) == 3 {
 			conversions = append(conversions, HTMLConversion{row[0], row[1],
-				row[2], true})
-		} else {
+				row[2], true, ""})
+		} else if len(row) == 4  {
 			glossChinese, err := strconv.ParseBool(row[3])
 			if err != nil {
 				conversions = append(conversions, HTMLConversion{row[0], row[1],
-				row[2], true})
+				row[2], true, ""})
 			} else {
 				conversions = append(conversions, HTMLConversion{row[0], row[1],
-					row[2], glossChinese})
+					row[2], glossChinese, ""})
+			}
+		} else if len(row) == 5  {
+			glossChinese, err := strconv.ParseBool(row[3])
+			if err != nil {
+				conversions = append(conversions, HTMLConversion{row[0], row[1],
+				row[2], true, row[4]})
+			} else {
+				conversions = append(conversions, HTMLConversion{row[0], row[1],
+					row[2], glossChinese, row[4]})
 			}
 		}
 	}
@@ -94,7 +104,7 @@ func GetVar(key string) string {
 	val, ok := configVars[key]
 	if !ok {
 		log.Printf("config.GetVar: could not find key: '%s'\n", key)
-		val = "Not found"
+		val = ""
 	}
 	return val
 }

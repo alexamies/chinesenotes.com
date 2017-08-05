@@ -55,7 +55,7 @@ func main() {
 			tokens, results := analysis.ParseText(text, "",
 				corpus.NewCorpusEntry())
 			analysis.WriteDoc(tokens, results.Vocab, dest, conversion.Template,
-				templateFile, conversion.GlossChinese)
+				templateFile, conversion.GlossChinese, conversion.Title)
 		}
 	} else if *headwords {
 		log.Printf("main: Write Headwords\n")
