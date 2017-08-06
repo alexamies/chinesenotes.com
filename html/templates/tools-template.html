@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- Generated from the Go template about-template.html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chinese language notes">
+    <link rel="shortcut icon" href="/images/ren.png" type="image/png" />
+    <title>Language Tools</title>
+    <link rel="stylesheet" 
+          href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/chinesenotes.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-59206430-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <div class="starter-template">
+      <div class="row">
+        <div class="span2"><img id="logo" src="/images/ren.png" alt="Logo"
+                                class="pull-left"/></div>
+        <div class="span7"><header><h1>Chinese Notes</h1></header></div>
+      </div>
+    </div>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+                  data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/index.html">Home</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/texts.html">Texts</a></li>
+            <li class="active"><a href="/tools.html">Tools</a></li>
+            <li><a href="/reference.html">Reference</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container">
+
+      {{ .Content }} 
+ 
+      <hr/>
+      <footer>
+        <p>
+          See the <a href="/help.html">Help</a> page for more
+          information on the best use of the dictionary or if you have problems.
+          Tell us about 
+          <a href="https://docs.google.com/forms/d/1na6e8Qt1UUSZun-ATofn1lNRuwlBfTp2wj5KNDNhJ1s/viewform"
+          >a problem</a>.
+          Tell us about your experience on this web site using
+          <a href="https://docs.google.com/forms/d/1Z_set9ynr0VUSv7PtbHaPFNW_PfIDue6CjlgkbJ3GS8/viewform"
+          >this form</a>.
+          Add a new word or suggest a change to a dictionary entry defintion with 
+          <a href="https://docs.google.com/forms/d/1AcPDJ3CSIyn7MNVDKiMHby4EMPH0g3FxwLRTlJKhxmA/viewform"
+          >this form</a>.
+        </p>
+        <p>
+          Copyright Fo Guang Shan Nan Tien Institute 佛光山南天大學 2013-2017, 
+          <a href="http://www.nantien.edu.au/"
+            title="Fo Guang Shan Nan Tien Institute">www.nantien.edu.au</a>. 
+          This work is licensed under a
+          <a rel="license"
+            href="http://creativecommons.org/licenses/by/4.0/">Creative
+            Commons Attribution 4.0 International License</a>. See
+            <a href='/about.html'>About</a>. Please send comments to
+            alex@chinesenotes.com.
+        </p>
+        <p>This page was last updated on {{.DateUpdated}}.</p>
+      </footer>
+    </div> <!-- /.container -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/popover.js"></script>
+  </body>
+</html>
