@@ -80,11 +80,11 @@
 法术	Magic	\N	\N
 海上	Maritime	\N	\N
 武术	Martial Arts	\N	\N
-实物	Material Object	\N	\N
-物料	Materials	\N	\N
+材料科学	Materials Science	\N	\N
 数学	Mathematics	\N	\N
 测控	Measurement and Control	\N	\N
 机械	Mechanical	\N	\N
+机械工程	Mechanical Engineering	\N	\N
 媒体	Media	\N	\N
 医疗	Medicine	\N	\N
 冥想	Meditation	\N	\N
@@ -121,7 +121,7 @@
 社会工作	Social Work	\N	\N
 声	Sound	\N	\N
 航天	Space Flight	\N	\N
-体育	Sport	\N	\N
+体育运动	Sport	\N	\N
 口语	Spoken Language	\N	\N
 力气	Strength	\N	\N
 道教	Taoism	\N	\N
