@@ -22,5 +22,5 @@
 ../html/style_guide-raw.html	style_guide.html	about-template.html	true
 ../html/syllables_ipa.html	syllables_ipa.html	reference-template.html	true
 ../html/texts-raw.html	texts.html	texts-template.html	false
-../html/tools.html.html	tools.html	tools-template.html	false
+../html/tools.html	tools.html	tools-template.html	false
 ../html/whatsnew-raw.html	whatsnew.html	about-template.html	false
