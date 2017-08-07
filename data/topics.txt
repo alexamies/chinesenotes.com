@@ -35,6 +35,7 @@
 方言	Dialect	\N	\N
 灾难	Disaster	\N	\N
 戏剧	Drama	\N	\N
+地球科学	Earth Sciences	\N	\N
 经济	Economics	\N	\N
 教育	Education	\N	\N
 电	Electricity	\N	\N
@@ -65,7 +66,7 @@
 幽默	Humor	\N	\N
 打猎	Hunting	\N	\N
 成语	Idiom	\N	\N
-工业	Industry	\N	\N
+产业	Industry	\N	\N
 信息技术	Information Technology	\N	\N
 信息学	Information Science	\N	\N
 叹词	Interjection	\N	\N
@@ -110,6 +111,7 @@
 谚语	Proverb	\N	\N
 心理学	Psychology	\N	\N
 公安	Public Security	\N	\N
+出版	Publishing	\N	\N
 部首	Radicals	\N	\N
 联系	Relationship	\N	\N
 宗教	Religion	\N	\N
