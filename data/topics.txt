@@ -94,7 +94,6 @@
 军事	Military	\N	\N
 现代汉语	Modern Chinese	\N	\N
 登山	Mountaineering	\N	\N
-移动	Movement	\N	\N
 音乐	Music	\N	\N
 神话	Mythology	\N	\N
 名字	Names	\N	\N
@@ -125,7 +124,6 @@
 航天	Space Flight	\N	\N
 体育运动	Sport	\N	\N
 口语	Spoken Language	\N	\N
-力气	Strength	\N	\N
 道教	Taoism	\N	\N
 老舍茶馆	Teahouse by Lao She	\N	\N
 技术	Technology	\N	\N
