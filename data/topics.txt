@@ -38,7 +38,6 @@
 地球科学	Earth Sciences	\N	\N
 经济	Economics	\N	\N
 教育	Education	\N	\N
-电	Electricity	\N	\N
 电子	Electronics	\N	\N
 电气工程	Electrical Engineering	\N	\N
 能源	Energy	\N	\N
@@ -73,7 +72,6 @@
 日语	Japanese	\N	\N
 配饰	Jewelry	\N	\N
 法律	Law	\N	\N
-休闲	Leisure	\N	\N
 语言学	Linguistics	\N	\N
 文学	Literature	\N	\N
 逻辑	Logic	\N	\N
