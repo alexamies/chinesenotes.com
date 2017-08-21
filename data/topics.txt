@@ -38,8 +38,7 @@
 地球科学	Earth Sciences	\N	\N
 经济	Economics	\N	\N
 教育	Education	\N	\N
-电子	Electronics	\N	\N
-电气工程	Electrical Engineering	\N	\N
+电机工程学	Electrical Engineering	\N	\N
 能源	Energy	\N	\N
 娱乐	Entertainment	\N	\N
 环境	Environment	\N	\N
