@@ -96,3 +96,269 @@ $ ./cnreader -all
 
  /web/erya, /web/laoshe, etc
   - corpus files (generated)
+
+## Containerization
+Containerization is new, under development, and not yet deployed to prod.
+
+### Local Development Environment or Build Machine
+
+The build machine builds the source code and Docker images. Get the project
+files from GitHub:
+
+```
+git clone https://github.com/alexamies/chinesenotes.com.git
+```
+
+### Install Docker
+[Docker Documentation](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
+
+Instance name: BUILD_VM
+
+Image type: Ubuntu Zesty 17.04
+
+```
+gcloud compute --project $PROJECT ssh --zone $ZONE $BUILD_VM
+sudo apt-get remove docker docker-engine docker.io
+sudo apt-get update
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
+sudo apt-get update
+sudo apt-get install docker-ce
+
+sudo usermod -a -G docker ${USER}
+
+# Run a test
+docker run hello-world
+```
+
+## Database
+[Mariadb Documentation](https://mariadb.org/)
+
+The application uses a Mariadb database. 
+
+### Mariadb Docker Image
+[Mariadb Image Documentation](https://hub.docker.com/r/library/mariadb/)
+
+To start a Docker container with Mariadb and connect to it from a MySQL command
+line client execute the command below. First, set environment variable 
+`MYSQL_ROOT_PASSWORD`.
+
+```
+docker run --name mariadb -p 3306:3306 \
+  -e MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD -d \
+  --mount type=bind,source="$(pwd)"/data,target=/dldata \
+  mariadb:10.3
+docker exec -it mariadb bash
+mysql --local-infile=1 -h localhost -u root -p
+
+# In the mariadb client prompt
+source dldata/hsingyundl.sql
+```
+
+The data in the database is persistent unless the container is deleted. To
+restart the database use the command
+
+```
+docker restart  mariadb
+```
+
+To load data from other sources start up a mysql-client
+
+```
+docker build -f docker/client/Dockerfile -t mysql-client-image .
+docker run -itd --rm --name mysql-client --link mariadb \
+  --mount type=bind,source="$(pwd)"/data,target=/cndata \
+  mysql-client-image
+docker exec -it mysql-client bash
+mysql --local-infile=1 -h mariadb -u root -p
+
+# In the mysql client
+# Edit password in the script
+source cndata/first_time_setup.sql
+source cndata/notes.ddl
+source cndata/sample_data.sql
+source cndata/corpus_index.ddl
+source cndata/load_index.ddl
+
+```
+
+### Go Application
+[Go Documentation](https://golang.org)
+
+The indexing command tool and new generation of the web application are written
+in Go. 
+
+##### Install Go
+[Go Install Documentation](https://golang.org/doc/install)
+
+```
+wget https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz
+
+sudo tar -C /usr/local -xzf go*
+
+vi .profile
+```
+
+Add 
+
+```
+export PATH=$PATH:/usr/local/go/bin
+
+source .profile
+```
+
+Build Software locally
+
+```
+cd chinesenotes.com
+cd go
+source path.bash.inc
+cd src/cnweb
+go build
+```
+
+For Go unit tests set in a local development environment first export environment
+variables
+
+```
+export DBDBHOST=localhost
+export DBUSER={database user}
+export DBPASSWORD={the password}
+cd go/src/cnweb/identity
+go test
+```
+#### Make and Save Go Application Image
+The Go app is not needed for chinesenotes.com at the moment but it is use for
+other sites (eg. hbreader.org).
+
+Build the Docker image for the Go application:
+
+```
+docker build -f docker/go/Dockerfile -t cnweb-app-image .
+```
+
+Run it locally
+```
+export DBDBHOST=mariadb
+export DBUSER=app_user
+export DBPASSWORD="***"
+export DATABASE=corpus_index
+docker run -itd --rm -p 8000:8080 --name cnweb-app --link mariadb -e DBUSER=$DBUSER -e DBPASSWORD=$DBPASSWORD cnweb-app-image
+```
+
+Push to Google Container Registry
+
+```
+docker tag cnweb-app-image gcr.io/$PROJECT/cnweb-app-image:$TAG
+gcloud docker -- push gcr.io/$PROJECT/cnweb-app-image:$TAG
+```
+
+### PHP Web Front End
+[Example Project PHP Documentation](https://cloud.google.com/container-engine/docs/tutorials/guestbook)
+Make the web front end PHP Docker image
+
+The web front end is an Apache web server that serves static content and 
+uses PHP to serve dynamic requests.
+
+```
+docker build -f docker/php/Dockerfile -t chinesenotes-web-image .
+
+# Test it locally
+First, export environment variables `DBUSER` and `DBPASSWORD` to connect to the 
+database, as per unit tests above.
+
+```
+docker run -itd --rm -p 80:80 --name chinesenotes-web --link mariadb -e DBUSER=$DBUSER -e DBPASSWORD=$DBPASSWORD chinesenotes-web-image
+```
+
+# Attach to a local image for debugging, if needed
+docker exec -it chinesenotes-web bash
+```
+
+Push to Google Container Registry
+[Google Container Registry Quickstart](https://cloud.google.com/container-registry/docs/quickstart)
+
+```
+TAG=prototype19
+docker tag chinesenotes-web-image gcr.io/$PROJECT/chinesenotes-web-image:$TAG
+gcloud docker -- push gcr.io/$PROJECT/chinesenotes-web-image:$TAG
+
+```
+
+### Set Up Kubernetes Cluster and Deployment
+[Container Engine Quickstart](https://cloud.google.com/container-engine/docs/quickstart)
+The digital library runs in a Kubernetes cluster using Google Container Engine.
+The Maria DB runs on a persistent volume. The password for the root user and 
+application user for the database are stored in Kubernetes secrets.
+
+```
+gcloud container clusters create $CLUSTER --zone=$ZONE --disk-size=500 --machine-type=n1-standard-1 --num-nodes=1 --enable-cloud-monitoring
+
+gcloud compute disks create --size 200GB mariadb-disk
+
+kubectl create secret generic mysqlroot --from-literal=MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
+kubectl create secret generic mysql --from-literal=DBPASSWORD=$DBPASSWORD
+
+kubectl create --save-config -f kubernetes/db-deployment.yaml
+kubectl create --save-config -f kubernetes/db-service.yaml
+```
+
+The application tier is dependent on an operational database, which takes
+some manual configuration to achieve. 
+
+```
+kubectl get pods
+kubectl exec -it {POD_NAME} bash
+```
+
+Execute the database configuration steps above and continue to configure the
+app and web tiers.
+
+```
+# Deploy the app tier
+kubectl create --save-config -f kubernetes/app-deployment.yaml 
+kubectl create --save-config -f kubernetes/app-service.yaml
+
+# Deploy the web tier
+kubectl create --save-config -f kubernetes/web-deployment.yaml
+kubectl expose deployment hsingyundl-web --target-port=80  --type=NodePort
+
+# Check that the service is available
+kubectl get service hsingyundl-web
+
+# Configure public ingress
+kubectl create --save-config -f kubernetes/web-ingress.yaml
+```
+
+### Update App in Kubernetes Cluster
+
+To update an existing deployment using the GCP Container Registry
+
+```
+TAG=prototype19
+kubectl set image deployment/hsingyundl-web hsingyundl-web=gcr.io/$PROJECT/hsingyundl-web-image:$TAG
+kubectl set image deployment/hsingyundl-app hsingyundl-app=gcr.io/$PROJECT/hsingyundl-app-image:$TAG
+
+# If configuration changes outside image are needed:
+kubectl get deployment hsingyundl-web -o yaml > kubernetes/web-deployment.yaml
+kubectl get deployment hsingyundl-app -o yaml > kubernetes/app-deployment.yaml
+
+# Make edits
+kubectl apply -f kubernetes/db-deployment.yaml
+kubectl apply -f kubernetes/db-service.yaml
+kubectl apply -f kubernetes/app-deployment.yaml
+kubectl apply -f kubernetes/app-service.yaml
+kubectl apply -f kubernetes/web-deployment.yaml
+kubectl apply -f kubernetes/web-ingress.yaml
+```

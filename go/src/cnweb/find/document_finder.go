@@ -4,12 +4,12 @@ Functions for finding collections by partial match on collection title
 package find
 
 import (
-	"cnreader/config"
 	"cnweb/applog"
 	"database/sql"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"log"
+	"os"
 )
 
 var (
@@ -43,13 +43,30 @@ type QueryResults struct {
 
 // Open database connection and prepare statements
 func init() {
-	dbhost := config.GetVar("DBHost")
-	dbport := config.GetVar("DBPort")
-	dbuser := config.GetVar("DBUser")
-	dbpass := config.GetVar("DBPass")
-	dbname := config.GetVar("DBName")
+	dbhost := "mariadb"
+	host := os.Getenv("DBDBHOST")
+	if host != "" {
+		dbhost = host
+	}
+	dbport := "3306"
+	port := os.Getenv("DBPORT")
+	if port != "" {
+		dbport = port
+	}
+	dbuser := "3306"
+	user := os.Getenv("DBUSER")
+	if user != "" {
+		dbuser = user
+	}
+	dbpass := os.Getenv("DBPASSWORD")
+	dbname := "corpus_index"
+	d := os.Getenv("DATABASE")
+	if d != "" {
+		dbname = d
+	}
 	conString := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s", dbuser, dbpass, dbhost,
 		dbport, dbname)
+	log.Printf("find.init(), conString: %s", conString)
 	db, err := sql.Open("mysql", conString)
 	if err != nil {
 		log.Fatal("FATAL: could not connect to the database, ",
