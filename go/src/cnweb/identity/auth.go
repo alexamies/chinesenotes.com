@@ -47,7 +47,11 @@ func init() {
 	dbport := "3306"
 	dbuser := os.Getenv("DBUSER")
 	dbpass := os.Getenv("DBPASSWORD")
-	dbname := "hsingyundl"
+	dbname := "corpus_index"
+	d := os.Getenv("DATABASE")
+	if d != "" {
+		dbname = d
+	}
 	conString := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s", dbuser, dbpass, dbhost,
 		dbport, dbname)
 	db, err := sql.Open("mysql", conString)

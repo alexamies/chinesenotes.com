@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chinese Notes Web Test</title>
+    <link rel="shortcut icon" href="images/ren.png" type="image/png" />
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <p>Back <a href='/'>home</a></p>
+    <h3>Search text collection</h3>
+    <p>
+      <form name="findForm" id="findForm" action="#">
+        <label for="findInput">Title containing</label>
+        <input type="text" name="findInput" id="findInput" required/>
+        <button type="submit" id="findSubmit">Find</button>
+     </form>
+    </p>
+    <div id="findResults">
+      <h4>Matching Results</h4>
+      <div>
+        Number of matching document collections: <span id="NumCollections"></span>
+      </div>
+      <div>
+        Number of matching documents: <span id="NumDocuments"></span>
+      </div>
+      <h4 id="findResultsTitle">Document Collections</h4>
+      <table id="findResultsTable">
+        <thead>
+          <tr><th>Title</th></tr>
+        </thead>
+        <tbody id="findResultsBody">
+        </tbody>
+      </table>
+      <h4 id="findDocResultsTitle">Documents</h4>
+      <table id="findDocResultsTable">
+        <thead>
+          <tr><th>Title</th></tr>
+        </thead>
+        <tbody id="findDocResultsBody">
+        </tbody>
+      </table>
+    </div>
+    <p id="findError"></p>
+        <footer>
+          <hr/>
+          <p>
+            This page was last updated on 2017-06-04.
+          </p>
+        </footer>
+    </div>
+  <script src="script/find.js"></script>
+  </body>
+</html>

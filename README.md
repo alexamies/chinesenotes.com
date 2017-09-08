@@ -264,8 +264,39 @@ docker tag cnweb-app-image gcr.io/$PROJECT/cnweb-app-image:$TAG
 gcloud docker -- push gcr.io/$PROJECT/cnweb-app-image:$TAG
 ```
 
+### Experimental Web Front End
+The experimental web front end is not used in the chinesenotes.com web site. It
+is used for testing the cnweb Go web application and as a prototype for a
+future version of chinesenotes.com. It is an Apache web server that serves 
+static content and proxies dynamic requests to the Go app via Javascript AJAX
+code.
+
+To build the docker image:
+
+```
+docker build -f docker/web/Dockerfile -t cnweb-web-image .
+
+# Test it locally
+
+docker run -itd --rm -p 80:80 --name cnweb-web --link cnweb-app  cnweb-web-image
+
+#Attach to a local image for debugging, if needed
+docker exec -it hsingyundl-web bash
+```
+
+Push to Google Container Registry
+
+```
+docker tag hsingyundl-web-image gcr.io/$PROJECT/hsingyundl-web-image:$TAG
+gcloud docker -- push gcr.io/$PROJECT/hsingyundl-web-image:$TAG
+
+```
+
 ### PHP Web Front End
 [Example Project PHP Documentation](https://cloud.google.com/container-engine/docs/tutorials/guestbook)
+
+The PHP web front end is currently used on the chinesenotes.com web site.
+
 Make the web front end PHP Docker image
 
 The web front end is an Apache web server that serves static content and 
