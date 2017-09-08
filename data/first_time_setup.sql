@@ -5,11 +5,11 @@
  */
 
 USE mysql;
-update user SET password=password("***") WHERE user='root';
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('***');
 
 CREATE DATABASE IF NOT EXISTS corpus_index CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
 
-CREATE user IF NOT EXISTS 'app_reader' IDENTIFIED BY '***';
-GRANT SELECT ON corpus_index.* TO 'app_reader'@'%';
+CREATE user IF NOT EXISTS 'app_user' IDENTIFIED BY '***';
+GRANT SELECT, INSERT, UPDATE ON corpus_index.* TO 'app_user'@'%';
 
 USE corpus_index;
