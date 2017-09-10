@@ -89,7 +89,6 @@ func init() {
 		`SELECT user.UserID, UserName, Email, FullName, Role, Authenticated
 		FROM user, session 
 		WHERE SessionID = ? 
-		AND user.UserName = session.UserID
 		LIMIT 1`)
     if err != nil {
         log.Fatal("auth.init() Error preparing stmt1: ", err)
@@ -145,6 +144,7 @@ func CheckSession(sessionid string) SessionInfo {
 	if len(sessions) != 1 {
 		return UnauthSession()
 	}
+	log.Printf("CheckSession, Authenticated = %d", sessions[0].Authenticated)
 	return sessions[0]
 }
 
@@ -153,7 +153,7 @@ func checkSessionStore(sessionid string) []SessionInfo {
 	log.Printf("CheckSession, sessionid: %s", sessionid)
 	results, err := checkSessionStmt.Query(sessionid)
 	if err != nil {
-		log.Printf("CheckSession, Error: ", err)
+		log.Printf("checkSessionStore, Error: ", err)
 	}
 	defer results.Close()
 
@@ -166,6 +166,7 @@ func checkSessionStore(sessionid string) []SessionInfo {
 		session.User = user
 		sessions = append(sessions, session)
 	}
+	log.Printf("checkSessionStore, %d sessions found", len(sessions))
 	return sessions
 }
 
@@ -203,14 +204,19 @@ func NewSessionId() string {
 }
 
 // Save an authenticated session to the database
-func SaveSession(sessionid, username string, authenticated int) {
-	//log.Printf("SaveSession, sessionid: %s\n", sessionid)
-	result, err := saveSessionStmt.Exec(sessionid, username, authenticated)
+func SaveSession(sessionid string, userInfo UserInfo, authenticated int) SessionInfo {
+	log.Printf("SaveSession, sessionid: %s\n", sessionid)
+	result, err := saveSessionStmt.Exec(sessionid, userInfo.UserName,
+		authenticated)
 	if err != nil {
-		log.Printf("SaveSession, Error for username: ", username, err)
-	} else {
-		rowsAffected, _ := result.RowsAffected()
-		log.Printf("SaveSession, rows updated: %d", rowsAffected)
+		log.Printf("SaveSession, Error for username: ", userInfo.UserName, err)
+		return UnauthSession()
+	}
+	rowsAffected, _ := result.RowsAffected()
+	log.Printf("SaveSession, rows updated: %d", rowsAffected)
+	return SessionInfo{
+		Authenticated: authenticated,
+		User: userInfo,
 	}
 }
 
@@ -230,12 +236,17 @@ func UnauthSession() SessionInfo {
 }
 
 // Log a user in when they already have an unauthenticated session
-func UpdateSession(sessionid, username string, authenticated int) {
-	result, err := updateSessionStmt.Exec(authenticated, username, sessionid)
+func UpdateSession(sessionid string, userInfo UserInfo, authenticated int) SessionInfo {
+	result, err := updateSessionStmt.Exec(authenticated, userInfo.UserName,
+		sessionid)
 	if err != nil {
 		log.Printf("UpdateSession, Error: ", err)
-	} else {
-		rowsAffected, _ := result.RowsAffected()
-		log.Printf("UpdateSession, rows updated: %d", rowsAffected)
+		return UnauthSession()
+	} 
+	rowsAffected, _ := result.RowsAffected()
+	log.Printf("UpdateSession, rows updated: %d", rowsAffected)
+	return SessionInfo{
+		Authenticated: authenticated,
+		User: userInfo,
 	}
 }

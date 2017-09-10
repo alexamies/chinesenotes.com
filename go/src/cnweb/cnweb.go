@@ -32,6 +32,7 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 }
 
 func loginHandler(w http.ResponseWriter, r *http.Request) {
+	sessionInfo := identity.UnauthSession()
 	err := r.ParseForm()
 	if err != nil {
 		log.Printf("loginHandler: error parsing form %v", err)
@@ -42,17 +43,16 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 	log.Printf("loginHandler: %s", username)
 	password := r.PostFormValue("Password")
 	users := identity.CheckLogin(username, password)
-	message := ""
 	if len(users) != 1 {
-		message = "Sorry, your either your username is not found or password do not match."
+		log.Printf("loginHandler: user not found %s", username)
 	} else {
-		userInfo := users[0]
-		message = fmt.Sprintf("Hello, %s!", userInfo.FullName)
 		cookie, err := r.Cookie("session")
 		if err == nil {
-			identity.UpdateSession(cookie.Value, username, 1)
+			log.Printf("loginHandler: updating session %v", cookie.Value)
+			sessionInfo = identity.UpdateSession(cookie.Value, users[0], 1)
 		} else {
 			sessionid := identity.NewSessionId()
+			log.Printf("loginHandler: creating new session %v", sessionid)
 			cookie := &http.Cookie{
         		Name: "session",
         		Value: sessionid,
@@ -61,11 +61,12 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
         		MaxAge: 86400*30, // One month
         	}
         	http.SetCookie(w, cookie)
-        	identity.SaveSession(sessionid, username, 1)
+        	sessionInfo = identity.SaveSession(sessionid, users[0], 1)
         }
     }
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
-	fmt.Fprintf(w, "{\"greeting\" :\"%s\"}", message)
+	resultsJson, err := json.Marshal(sessionInfo)
+	fmt.Fprintf(w, string(resultsJson))
 }
 
 func logoutHandler(w http.ResponseWriter, r *http.Request) {
@@ -97,7 +98,14 @@ func sessionHandler(w http.ResponseWriter, r *http.Request) {
         	MaxAge: 86400*30, // One month
         }
         http.SetCookie(w, cookie)
-        identity.SaveSession(sessionid, "", 0)
+        userInfo := identity.UserInfo{
+			UserID: -1,
+			UserName: "",
+			Email: "",
+			FullName: "",
+			Role: "",
+		}
+        identity.SaveSession(sessionid, userInfo, 0)
 
 	} else {
 		sessionInfo = identity.CheckSession(cookie.Value)

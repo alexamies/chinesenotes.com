@@ -9,11 +9,11 @@ $(document).ready(function() {
       dataType : "json",
     })
     .done(function(json) {
-       console.log( "Result: " + json);
-       if (json.Authenticated == true) {
+       console.log("Checking session json.Authenticated: " +
+                   json.Authenticated);
+       if (json.Authenticated == 1) {
          $("#LoginBar").hide();
-         $("#LogoutBar").show();
-         $("#SessionSpan").show();
+         $(".authenticated").show();
          if (json.User.Role == "admin") {
             $("#Menu").text("Admin")
          }
@@ -25,7 +25,7 @@ $(document).ready(function() {
       $("#ErrorDiv").show();
     })
     .always(function( xhr, status ) {
-      console.log( "Status: " + status );
+      console.log( "Checking session status: " + status );
     });
 
   // Login
@@ -37,9 +37,17 @@ $(document).ready(function() {
       dataType : "json",
     })
     .done(function(json) {
-       $("#LoginBar").hide();
-       $("#LogoutBar").show();
-       $("#SessionSpan").show();
+      if (json.Authenticated == 1) {
+        $("#LoginBar").hide();
+        $(".authenticated").show();
+        if (json.User.Role == "admin") {
+          $("#Menu").text("Admin")
+        }
+      } else {
+        $("#ErrorDiv").replaceWith("Sorry, your user name or password did " + 
+                                   "not match");
+        $("#ErrorDiv").show();
+      }
     })
     .fail(function( xhr, status, errorThrown ) {
       console.log( "Error: " + errorThrown );
@@ -48,7 +56,7 @@ $(document).ready(function() {
       $("#ErrorDiv").show();
     })
     .always(function( xhr, status ) {
-      console.log( "Status: " + status );
+      console.log( "LoginForm Status: " + status );
     });
     event.preventDefault();
   });
@@ -62,8 +70,7 @@ $(document).ready(function() {
     })
     .done(function(json) {
        $("#LoginBar").show();
-       $("#LogoutBar").hide();
-       $("#SessionSpan").hide();
+       $(".authenticated").hide();
     })
     .fail(function( xhr, status, errorThrown ) {
       console.log( "Error: " + errorThrown );
@@ -72,7 +79,7 @@ $(document).ready(function() {
       $("#ErrorDiv").show();
     })
     .always(function( xhr, status ) {
-      console.log( "Status: " + status );
+      console.log( "LogoutLink Status: " + status );
     });
     event.preventDefault();
   });
