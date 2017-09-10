@@ -25,6 +25,13 @@
                  value="Login"/>
         </form>
       </div>
+      <div id="LogoutBar" class="authenticated">
+        <span id="SessionSpan">
+          Welcome back
+          <a id="LogoutLink" href="/loggedin/logout">Logout</a>
+        </span>
+      </div>
+      <div id="ErrorDiv"></div>
       <div id="MainAuthenticated" class="authenticated">
         <div id="LogoutBar">
           <span id="SessionSpan">
@@ -37,11 +44,12 @@
       <div id="ErrorDiv"></div>
     </main>
     <footer>
-      <p>Last updated: 2018-09-07</p>
+      <p>Last updated: 2018-09-08</p>
     </footer>
-    <script
+    <!--<script
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"
-      ></script>
-    <script src="script/cnweb.js"></script>
+      ></script>-->
+    <script src="localcache/jquery.min.js"></script>
+    <script src="script/auth.js"></script>
   </body>
 </html>

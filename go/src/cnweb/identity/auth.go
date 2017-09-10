@@ -18,10 +18,11 @@ var (
 	loginStmt *sql.Stmt
 	logoutStmt *sql.Stmt
 	saveSessionStmt *sql.Stmt
+	updateSessionStmt *sql.Stmt
 )
 
 type SessionInfo struct {
-	Authenticated bool
+	Authenticated int
 	User UserInfo
 }
 
@@ -40,7 +41,7 @@ func init() {
 		domain = &site_domain
 	}
 	dbhost := "mariadb"
-	host := os.Getenv("DBDBHOST")
+	host := os.Getenv("DBHOST")
 	if host != "" {
 		dbhost = host
 	}
@@ -76,18 +77,19 @@ func init() {
 
 	stmt2, err := database.Prepare(
 		`INSERT INTO
-		  session (SessionID, UserID)
-		VALUES (?, ?)`)
+		  session (SessionID, UserID, Authenticated)
+		VALUES (?, ?, ?)`)
     if err != nil {
         log.Fatal("auth.init() Error preparing stmt2: ", err)
     }
     saveSessionStmt = stmt2
 
+    // Need to fix use of username in session table. Should be UserId
 	stmt3, err := database.Prepare(
-		`SELECT user.UserID, UserName, Email, FullName, Role 
+		`SELECT user.UserID, UserName, Email, FullName, Role, Authenticated
 		FROM user, session 
 		WHERE SessionID = ? 
-		AND user.UserID = session.UserID
+		AND user.UserName = session.UserID
 		LIMIT 1`)
     if err != nil {
         log.Fatal("auth.init() Error preparing stmt1: ", err)
@@ -102,6 +104,16 @@ func init() {
         log.Fatal("auth.init() Error preparing stmt4: ", err)
     }
     logoutStmt = stmt4
+
+	stmt5, err := database.Prepare(
+		`UPDATE session SET
+		Authenticated = ?,
+		UserID = ?
+		WHERE SessionID = ?`)
+    if err != nil {
+        log.Fatal("auth.init() Error preparing stmt4: ", err)
+    }
+    updateSessionStmt = stmt5
 
 }
 
@@ -129,18 +141,15 @@ func CheckLogin(username, password string) []UserInfo {
 
 // Check session when the user requests a page
 func CheckSession(sessionid string) SessionInfo {
-	users := checkSessionStore(sessionid)
-	if len(users) != 1 {
+	sessions := checkSessionStore(sessionid)
+	if len(sessions) != 1 {
 		return UnauthSession()
 	}
-	return SessionInfo{
-		Authenticated: true,
-		User: users[0],
-	}
+	return sessions[0]
 }
 
 // Check session when the user requests a page
-func checkSessionStore(sessionid string) []UserInfo {
+func checkSessionStore(sessionid string) []SessionInfo {
 	log.Printf("CheckSession, sessionid: %s", sessionid)
 	results, err := checkSessionStmt.Query(sessionid)
 	if err != nil {
@@ -148,14 +157,16 @@ func checkSessionStore(sessionid string) []UserInfo {
 	}
 	defer results.Close()
 
-	users := []UserInfo{}
+	sessions := []SessionInfo{}
 	for results.Next() {
 		user := UserInfo{}
+		session := SessionInfo{}
 		results.Scan(&user.UserID, &user.UserName, &user.Email, &user.FullName,
-			&user.Role)
-		users = append(users, user)
+			&user.Role, &session.Authenticated)
+		session.User = user
+		sessions = append(sessions, session)
 	}
-	return users
+	return sessions
 }
 
 // Generate a new session id after login
@@ -191,10 +202,10 @@ func NewSessionId() string {
 	return val
 }
 
-// Save the session id to the database
-func SaveSession(sessionid, username string) {
+// Save an authenticated session to the database
+func SaveSession(sessionid, username string, authenticated int) {
 	//log.Printf("SaveSession, sessionid: %s\n", sessionid)
-	result, err := saveSessionStmt.Exec(sessionid, username)
+	result, err := saveSessionStmt.Exec(sessionid, username, authenticated)
 	if err != nil {
 		log.Printf("SaveSession, Error for username: ", username, err)
 	} else {
@@ -213,7 +224,18 @@ func UnauthSession() SessionInfo {
 		Role: "",
 	}
 	return SessionInfo{
-		Authenticated: false,
+		Authenticated: 0,
 		User: userInfo,
+	}
+}
+
+// Log a user in when they already have an unauthenticated session
+func UpdateSession(sessionid, username string, authenticated int) {
+	result, err := updateSessionStmt.Exec(authenticated, username, sessionid)
+	if err != nil {
+		log.Printf("UpdateSession, Error: ", err)
+	} else {
+		rowsAffected, _ := result.RowsAffected()
+		log.Printf("UpdateSession, rows updated: %d", rowsAffected)
 	}
 }

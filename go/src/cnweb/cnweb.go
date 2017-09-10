@@ -48,16 +48,21 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 	} else {
 		userInfo := users[0]
 		message = fmt.Sprintf("Hello, %s!", userInfo.FullName)
-		sessionid := identity.NewSessionId()
-		cookie := &http.Cookie{
-        	Name: "session",
-        	Value: sessionid,
-        	Domain: "hsingyundl.org",
-        	Path: "/",
-        	MaxAge: 86400*30, // One month
+		cookie, err := r.Cookie("session")
+		if err == nil {
+			identity.UpdateSession(cookie.Value, username, 1)
+		} else {
+			sessionid := identity.NewSessionId()
+			cookie := &http.Cookie{
+        		Name: "session",
+        		Value: sessionid,
+        		Domain: identity.GetSiteDomain(),
+        		Path: "/",
+        		MaxAge: 86400*30, // One month
+        	}
+        	http.SetCookie(w, cookie)
+        	identity.SaveSession(sessionid, username, 1)
         }
-        http.SetCookie(w, cookie)
-        identity.SaveSession(sessionid, username)
     }
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
 	fmt.Fprintf(w, "{\"greeting\" :\"%s\"}", message)
@@ -76,12 +81,24 @@ func logoutHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "{\"message\" :\"%s\"}", message)
 }
 
+// Check to see if the user has a session
 func sessionHandler(w http.ResponseWriter, r *http.Request) {
 	sessionInfo := identity.UnauthSession()
 	cookie, err := r.Cookie("session")
 	if err != nil {
-		// OK, just don't show the contents that require a login
+		// OK, just don't show the contents that don't require a login
 		log.Printf("sessionHandler: no cookie")
+		sessionid := identity.NewSessionId()
+		cookie := &http.Cookie{
+        	Name: "session",
+        	Value: sessionid,
+        	Domain: identity.GetSiteDomain(),
+        	Path: "/",
+        	MaxAge: 86400*30, // One month
+        }
+        http.SetCookie(w, cookie)
+        identity.SaveSession(sessionid, "", 0)
+
 	} else {
 		sessionInfo = identity.CheckSession(cookie.Value)
 	}

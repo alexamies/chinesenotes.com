@@ -27,6 +27,38 @@ func TestCheckLogin2(t *testing.T) {
 	}
 }
 
+// Test CheckSession function with expected result that session does not exist
+func TestCheckSession1(t *testing.T) {
+	sessionid := NewSessionId()
+	session := CheckSession(sessionid)
+	if session.Authenticated != 0 {
+		t.Error("TestCheckSession1: session.Authenticated != 0, sessionid: ",
+			sessionid)
+	}
+}
+
+// Test CheckSession function with session that does exist
+func TestCheckSession2(t *testing.T) {
+	sessionid := NewSessionId()
+	SaveSession(sessionid, "unittest", 1)
+	session := CheckSession(sessionid)
+	if session.Authenticated != 0 {
+		t.Error("TestCheckSession2: session.Authenticated != 0, SessionID: ",
+			sessionid)
+	}
+}
+
+// Test CheckSession function with session that does exist
+func TestCheckSession3(t *testing.T) {
+	sessionid := NewSessionId()
+	SaveSession(sessionid, "guest", 1)
+	session := CheckSession(sessionid)
+	if session.Authenticated != 1 {
+		t.Error("TestCheckSession3: session.Authenticated != 1, SessionID: ",
+			sessionid)
+	}
+}
+
 // Test check login method
 func TestNewSessionId(t *testing.T) {
 	sessionid := NewSessionId()
@@ -49,8 +81,7 @@ func TestLogout(t *testing.T) {
 	Logout(sessionid)
 }
 
-// Test check login method
 func TestSaveSession(t *testing.T) {
 	sessionid := NewSessionId()
-	SaveSession(sessionid, "testuser")
+	SaveSession(sessionid, "testuser", 1)
 }
