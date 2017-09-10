@@ -32,7 +32,7 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 }
 
 func loginHandler(w http.ResponseWriter, r *http.Request) {
-	sessionInfo := identity.UnauthSession()
+	sessionInfo := identity.InvalidSession()
 	err := r.ParseForm()
 	if err != nil {
 		log.Printf("loginHandler: error parsing form %v", err)
@@ -50,7 +50,8 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 		if err == nil {
 			log.Printf("loginHandler: updating session %v", cookie.Value)
 			sessionInfo = identity.UpdateSession(cookie.Value, users[0], 1)
-		} else {
+		}
+		if (err != nil) || !sessionInfo.Valid {
 			sessionid := identity.NewSessionId()
 			log.Printf("loginHandler: creating new session %v", sessionid)
 			cookie := &http.Cookie{
@@ -84,11 +85,14 @@ func logoutHandler(w http.ResponseWriter, r *http.Request) {
 
 // Check to see if the user has a session
 func sessionHandler(w http.ResponseWriter, r *http.Request) {
-	sessionInfo := identity.UnauthSession()
+	sessionInfo := identity.InvalidSession()
 	cookie, err := r.Cookie("session")
-	if err != nil {
+	if err == nil {
+		sessionInfo = identity.CheckSession(cookie.Value)
+	}
+	if (err != nil) || (!sessionInfo.Valid) {
 		// OK, just don't show the contents that don't require a login
-		log.Printf("sessionHandler: no cookie")
+		log.Printf("sessionHandler: creating a new cookie")
 		sessionid := identity.NewSessionId()
 		cookie := &http.Cookie{
         	Name: "session",
@@ -106,9 +110,6 @@ func sessionHandler(w http.ResponseWriter, r *http.Request) {
 			Role: "",
 		}
         identity.SaveSession(sessionid, userInfo, 0)
-
-	} else {
-		sessionInfo = identity.CheckSession(cookie.Value)
 	}
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
 	resultsJson, err := json.Marshal(sessionInfo)

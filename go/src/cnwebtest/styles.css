@@ -1,7 +1,3 @@
-#GreetingSpan {
-  display: none;
-}
-
-#SessionSpan {
+.authenticated {
   display: none;
 }

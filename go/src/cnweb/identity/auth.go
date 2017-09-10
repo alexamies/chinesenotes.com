@@ -23,6 +23,7 @@ var (
 
 type SessionInfo struct {
 	Authenticated int
+	Valid bool
 	User UserInfo
 }
 
@@ -142,7 +143,7 @@ func CheckLogin(username, password string) []UserInfo {
 func CheckSession(sessionid string) SessionInfo {
 	sessions := checkSessionStore(sessionid)
 	if len(sessions) != 1 {
-		return UnauthSession()
+		return InvalidSession()
 	}
 	log.Printf("CheckSession, Authenticated = %d", sessions[0].Authenticated)
 	return sessions[0]
@@ -164,6 +165,7 @@ func checkSessionStore(sessionid string) []SessionInfo {
 		results.Scan(&user.UserID, &user.UserName, &user.Email, &user.FullName,
 			&user.Role, &session.Authenticated)
 		session.User = user
+		session.Valid = true
 		sessions = append(sessions, session)
 	}
 	log.Printf("checkSessionStore, %d sessions found", len(sessions))
@@ -210,7 +212,7 @@ func SaveSession(sessionid string, userInfo UserInfo, authenticated int) Session
 		authenticated)
 	if err != nil {
 		log.Printf("SaveSession, Error for username: ", userInfo.UserName, err)
-		return UnauthSession()
+		return InvalidSession()
 	}
 	rowsAffected, _ := result.RowsAffected()
 	log.Printf("SaveSession, rows updated: %d", rowsAffected)
@@ -221,7 +223,7 @@ func SaveSession(sessionid string, userInfo UserInfo, authenticated int) Session
 }
 
 // Empty session struct for an unauthenticated session
-func UnauthSession() SessionInfo {
+func InvalidSession() SessionInfo {
 	userInfo := UserInfo{
 		UserID: -1,
 		UserName: "",
@@ -231,6 +233,7 @@ func UnauthSession() SessionInfo {
 	}
 	return SessionInfo{
 		Authenticated: 0,
+		Valid: false,
 		User: userInfo,
 	}
 }
@@ -241,7 +244,7 @@ func UpdateSession(sessionid string, userInfo UserInfo, authenticated int) Sessi
 		sessionid)
 	if err != nil {
 		log.Printf("UpdateSession, Error: ", err)
-		return UnauthSession()
+		return InvalidSession()
 	} 
 	rowsAffected, _ := result.RowsAffected()
 	log.Printf("UpdateSession, rows updated: %d", rowsAffected)
