@@ -278,7 +278,7 @@ docker build -f docker/web/Dockerfile -t cnweb-web-image .
 
 # Test it locally
 
-docker run -itd --rm -p 80:80 --name cnweb-web --link cnweb-app  cnweb-web-image
+docker run -itd --rm -p 80:80 --name cnweb-test --link cnweb-app  cnweb-web-image
 
 #Attach to a local image for debugging, if needed
 docker exec -it hsingyundl-web bash

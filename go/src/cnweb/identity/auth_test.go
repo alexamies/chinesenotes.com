@@ -31,8 +31,8 @@ func TestCheckLogin2(t *testing.T) {
 func TestCheckSession1(t *testing.T) {
 	sessionid := NewSessionId()
 	session := CheckSession(sessionid)
-	if session.Authenticated != 0 {
-		t.Error("TestCheckSession1: session.Authenticated != 0, sessionid: ",
+	if session.Valid {
+		t.Error("TestCheckSession1: session.Valid, sessionid: ",
 			sessionid)
 	}
 }
@@ -41,7 +41,7 @@ func TestCheckSession1(t *testing.T) {
 func TestCheckSession2(t *testing.T) {
 	sessionid := NewSessionId()
 	userInfo := UserInfo{
-		UserID: -1,
+		UserID: 1,
 		UserName: "unittest",
 		Email: "",
 		FullName: "",
@@ -49,7 +49,7 @@ func TestCheckSession2(t *testing.T) {
 	}
 	SaveSession(sessionid, userInfo, 1)
 	session := CheckSession(sessionid)
-	if session.Authenticated != 1 {
+	if (session.Authenticated != 1) {
 		t.Error("TestCheckSession2: session.Authenticated != 1, SessionID: ",
 			sessionid)
 	}
@@ -59,7 +59,7 @@ func TestCheckSession2(t *testing.T) {
 func TestCheckSession3(t *testing.T) {
 	sessionid := NewSessionId()
 	userInfo := UserInfo{
-		UserID: -1,
+		UserID: 1,
 		UserName: "guest",
 		Email: "",
 		FullName: "",
@@ -98,7 +98,7 @@ func TestLogout(t *testing.T) {
 func TestSaveSession(t *testing.T) {
 	sessionid := NewSessionId()
 	userInfo := UserInfo{
-		UserID: -1,
+		UserID: 1,
 		UserName: "testuser",
 		Email: "",
 		FullName: "",

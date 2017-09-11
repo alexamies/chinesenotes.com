@@ -90,9 +90,10 @@ func init() {
 		`SELECT user.UserID, UserName, Email, FullName, Role, Authenticated
 		FROM user, session 
 		WHERE SessionID = ? 
+		AND user.UserID = session.UserID
 		LIMIT 1`)
     if err != nil {
-        log.Fatal("auth.init() Error preparing stmt1: ", err)
+        log.Fatal("auth.init() Error preparing stmt3: ", err)
     }
     checkSessionStmt = stmt3
 
@@ -145,7 +146,7 @@ func CheckSession(sessionid string) SessionInfo {
 	if len(sessions) != 1 {
 		return InvalidSession()
 	}
-	log.Printf("CheckSession, Authenticated = %d", sessions[0].Authenticated)
+	log.Printf("CheckSession, Authenticated = %v", sessions[0].Authenticated)
 	return sessions[0]
 }
 
@@ -208,7 +209,7 @@ func NewSessionId() string {
 // Save an authenticated session to the database
 func SaveSession(sessionid string, userInfo UserInfo, authenticated int) SessionInfo {
 	log.Printf("SaveSession, sessionid: %s\n", sessionid)
-	result, err := saveSessionStmt.Exec(sessionid, userInfo.UserName,
+	result, err := saveSessionStmt.Exec(sessionid, userInfo.UserID,
 		authenticated)
 	if err != nil {
 		log.Printf("SaveSession, Error for username: ", userInfo.UserName, err)
@@ -218,6 +219,7 @@ func SaveSession(sessionid string, userInfo UserInfo, authenticated int) Session
 	log.Printf("SaveSession, rows updated: %d", rowsAffected)
 	return SessionInfo{
 		Authenticated: authenticated,
+		Valid: true,
 		User: userInfo,
 	}
 }
@@ -225,7 +227,7 @@ func SaveSession(sessionid string, userInfo UserInfo, authenticated int) Session
 // Empty session struct for an unauthenticated session
 func InvalidSession() SessionInfo {
 	userInfo := UserInfo{
-		UserID: -1,
+		UserID: 1,
 		UserName: "",
 		Email: "",
 		FullName: "",
@@ -240,7 +242,7 @@ func InvalidSession() SessionInfo {
 
 // Log a user in when they already have an unauthenticated session
 func UpdateSession(sessionid string, userInfo UserInfo, authenticated int) SessionInfo {
-	result, err := updateSessionStmt.Exec(authenticated, userInfo.UserName,
+	result, err := updateSessionStmt.Exec(authenticated, userInfo.UserID,
 		sessionid)
 	if err != nil {
 		log.Printf("UpdateSession, Error: ", err)
