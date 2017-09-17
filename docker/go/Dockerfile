@@ -7,4 +7,7 @@ RUN go install cnweb
 
 FROM debian:stretch
 COPY --from=0 /go/bin/cnweb .
+COPY --from=0 /go/src/cnweb/webconfig.yaml .
+RUN mkdir -p templates
+COPY --from=0 /go/src/cnweb/templates templates/.
 CMD ["./cnweb"]

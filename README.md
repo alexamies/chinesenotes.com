@@ -252,7 +252,7 @@ other sites (eg. hbreader.org).
 Build the Docker image for the Go application:
 
 ```
-docker build -f docker/go/Dockerfile -t cnweb-app-image .
+docker build -f docker/go/Dockerfile -t cn-app-image .
 ```
 
 Run it locally
@@ -261,19 +261,19 @@ export DBDBHOST=mariadb
 export DBUSER=app_user
 export DBPASSWORD="***"
 export DATABASE=cse_dict
-docker run -itd --rm -p 8080:8080 --name cnweb-app --link mariadb \
+docker run -itd --rm -p 8080:8080 --name cn-app --link mariadb \
   -e DBDBHOST=$DBDBHOST \
   -e DBUSER=$DBUSER \
   -e DBPASSWORD=$DBPASSWORD \
   -e DATABASE=$DATABASE \
-  cnweb-app-image
+  cn-app-image
 ```
 
 Push to Google Container Registry
 
 ```
-docker tag cnweb-app-image gcr.io/$PROJECT/cnweb-app-image:$TAG
-gcloud docker -- push gcr.io/$PROJECT/cnweb-app-image:$TAG
+docker tag cn-app-image gcr.io/$PROJECT/cn-app-image:$TAG
+gcloud docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
 ```
 
 ### Experimental Web Front End
@@ -286,14 +286,14 @@ code.
 To build the docker image:
 
 ```
-docker build -f docker/web/Dockerfile -t cnweb-web-image .
+docker build -f docker/web/Dockerfile -t cn-web-image .
 
 # Test it locally
 
-docker run -itd --rm -p 80:80 --name cnweb-test --link cnweb-app  cnweb-web-image
+docker run -itd --rm -p 80:80 --name cn-web --link cn-app  cnweb-image
 
 #Attach to a local image for debugging, if needed
-docker exec -it hsingyundl-web bash
+docker exec -it cn-web bash
 ```
 
 Push to Google Container Registry

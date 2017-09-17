@@ -1,0 +1,4 @@
+# Configuration file for web application
+
+# The ID of the Google Sheet for new vocabulary
+NewVocabSheetID: xxx

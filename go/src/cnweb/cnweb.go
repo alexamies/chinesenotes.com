@@ -7,8 +7,10 @@ import (
 	"cnweb/applog"
 	"cnweb/find"
 	"cnweb/identity"
-	"fmt"
+	"cnweb/webconfig"
 	"encoding/json"
+	"fmt"
+	"html/template"
 	"net/http"
 )
 
@@ -89,8 +91,22 @@ func portalHandler(w http.ResponseWriter, r *http.Request) {
 	if err == nil {
 		sessionInfo = identity.CheckSession(cookie.Value)
 	}
-	if identity.IsAuthorized(sessionInfo.User, "view_portal") {
-		http.ServeFile(w, r, "templates/translation_portal.html")
+	if identity.IsAuthorized(sessionInfo.User, "translation_portal") {
+		vars := webconfig.GetAll()
+		tmpl, err := template.New("translation_portal.html").ParseFiles("templates/translation_portal.html")
+		if err != nil {
+			applog.Error("portalHandler: error parsing template", err)
+		}
+		if tmpl == nil {
+			applog.Error("portalHandler: Template is nil")
+		}
+		if err != nil {
+			applog.Error("portalHandler: error parsing template", err)
+		}
+		err = tmpl.Execute(w, vars)
+		if err != nil {
+			applog.Error("portalHandler: error rendering template", err)
+		}
 	} else {
 		http.Error(w, "Not authorized", 403)
 	}
