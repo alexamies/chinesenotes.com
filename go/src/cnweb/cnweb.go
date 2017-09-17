@@ -14,6 +14,34 @@ import (
 	"net/http"
 )
 
+// Starting point for the Administration Portal
+func adminHandler(w http.ResponseWriter, r *http.Request) {
+	sessionInfo := identity.InvalidSession()
+	cookie, err := r.Cookie("session")
+	if err == nil {
+		sessionInfo = identity.CheckSession(cookie.Value)
+	}
+	if identity.IsAuthorized(sessionInfo.User, "admin_portal") {
+		vars := webconfig.GetAll()
+		tmpl, err := template.New("admin_portal.html").ParseFiles("templates/admin_portal.html")
+		if err != nil {
+			applog.Error("adminHandler: error parsing template", err)
+		}
+		if tmpl == nil {
+			applog.Error("adminHandler: Template is nil")
+		}
+		if err != nil {
+			applog.Error("adminHandler: error parsing template", err)
+		}
+		err = tmpl.Execute(w, vars)
+		if err != nil {
+			applog.Error("adminHandler: error rendering template", err)
+		}
+	} else {
+		http.Error(w, "Not authorized", 403)
+	}
+}
+
 func findHandler(response http.ResponseWriter, request *http.Request) {
 	url := request.URL
 	queryString := url.Query()
@@ -147,12 +175,12 @@ func sessionHandler(w http.ResponseWriter, r *http.Request) {
 
 //Entry point for the web application
 func main() {
-
 	applog.Info("main.main Started cnweb")
 
 	//index.LoadKeywordIndex()
 	//documents := index.FindForKeyword("你")
 	http.HandleFunc("/find/", findHandler)
+	http.HandleFunc("/loggedin/admin", adminHandler)
 	http.HandleFunc("/loggedin/login", loginHandler)
 	http.HandleFunc("/loggedin/logout", logoutHandler)
 	http.HandleFunc("/loggedin/session", sessionHandler)

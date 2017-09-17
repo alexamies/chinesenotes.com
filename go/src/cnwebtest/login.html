@@ -2,15 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Chinese Notes Web Test</title>
+    <title>Library Portal</title>
     <link rel="shortcut icon" href="images/ren.png" type="image/png" />
     <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
     <header>
-      <h1>Login</h1>
+      <h1>Library Portal</h1>
     </header>
     <main>
+      <p>
+        Login is required for the use of the library portal.
+      </p>
       <div id="LoginBar">
         <form id="LoginForm" name="login" action="/loggedin/login"
               method="post">
@@ -31,12 +34,13 @@
             <a id="LogoutLink" href="/loggedin/logout">Logout</a>
           </span>
         </div>
-        <p><a href="/loggedin/portal">Translation Portal</a></p>
+        <p><a href="/loggedin/portal">Translation Portal (requires login)</a></p>
+        <p><a href="/loggedin/admin">Administration Portal (requires login)</a></p>
       </div>
       <div id="ErrorDiv"></div>
     </main>
     <footer>
-      <p>Last updated: 2018-09-16</p>
+      <p>Last updated: 2018-09-17</p>
     </footer>
     <script
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"

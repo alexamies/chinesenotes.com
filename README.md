@@ -290,7 +290,7 @@ docker build -f docker/web/Dockerfile -t cn-web-image .
 
 # Test it locally
 
-docker run -itd --rm -p 80:80 --name cn-web --link cn-app  cnweb-image
+docker run -itd --rm -p 80:80 --name cn-web --link cn-app  cn-web-image
 
 #Attach to a local image for debugging, if needed
 docker exec -it cn-web bash

@@ -2,3 +2,9 @@
 
 # The ID of the Google Sheet for new vocabulary
 NewVocabSheetID: xxx
+
+# The ID of the Google Sheet for library users
+UsersSheetID: xxx
+
+# The ID of the Google Sheet for collection titles
+TitlesSheetID: xxx
