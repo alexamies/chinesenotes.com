@@ -33,8 +33,12 @@ textApp.controller('textCtrl', function($scope, $http, $location) {
       }
     }).error(function(data, status, headers, config) {
       $("#lookup-help-block").hide();
+      if (data) {
+        $scope.results = {"msg": data};
+      } else {
+        $scope.results = {"msg": "There was a problem with your request"};
+      }
       $("#word-detail").hide();
-      $scope.results = {"msg": data};
     });
   };
 
