@@ -1,3 +1,7 @@
 .authenticated {
   display: none;
 }
+
+#findResults {
+  display: none;
+}
