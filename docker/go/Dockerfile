@@ -7,5 +7,4 @@ RUN go install cnweb
 
 FROM debian:stretch
 COPY --from=0 /go/bin/cnweb .
-RUN mkdir -p /log
 CMD ["./cnweb"]

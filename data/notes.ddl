@@ -1,8 +1,5 @@
-/*
- create database alexami_zhongwenbiji;
-*/
-USE alexami_zhongwenbiji;
-/*use cse_dict; */
+CREATE DATABASE IF NOT EXISTS cse_dict;
+USE cse_dict;
 
 /*
  * Table for phonetics
@@ -37,7 +34,7 @@ CREATE TABLE phonetics (
 ;
 
 /*
- * Table for grammar
+ * Table for part of speech
  */
 CREATE TABLE grammar (
 	english VARCHAR(125) NOT NULL,
@@ -48,7 +45,7 @@ CREATE TABLE grammar (
 ;
 
 /*
- * Table for topics
+ * Table for domain labels
  * id			A unique identifier for the topic
  * word_id		Identifier for the word that the topic relates to
  * simplified:	Simplified Chinese text
@@ -83,10 +80,7 @@ CREATE TABLE topics (
  * parent_en:	The parent for the concept (English)
  * mp3: 		Name of an audio file for the word
  * image:		The name of a file for an image illustrating the concept
- * notes:		Notes about the word
- * hsk:			If the word is listed then the Hanyu Shuiping Kaoshi (HSK) level
- * ll;			Latitude and longitude for the point (if any)
- * zoom;		The zoom for the map, a positive integer (used in Google Map API), optional
+ * notes:		Encyclopedic notes about the word
  */
 CREATE TABLE words (
 	id INT UNSIGNED NOT NULL,

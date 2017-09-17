@@ -1,4 +1,4 @@
-USE corpus_index;
+USE cse_dict;
 
 CREATE TABLE IF NOT EXISTS user (
   UserID INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
@@ -42,3 +42,9 @@ VALUES (2, 'guest', "", "Guest User", "user", 0, "", "", "");
 
 INSERT INTO passwd (UserID, Password) 
 VALUES (2, '84983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec');
+
+INSERT INTO user (UserID, UserName, Email, FullName, Role, PasswordNeedsReset, Organization, Position, Location) 
+VALUES (3, 'admin', "", "Administrator", "admin", 0, "", "", "");
+
+INSERT INTO passwd (UserID, Password) 
+VALUES (3, '84983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec');

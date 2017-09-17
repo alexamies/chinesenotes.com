@@ -1,8 +1,8 @@
 /**
  * Database script to drop tables for corpus index.
  */
-CREATE IF NOT EXISTS DATABASE corpus_index
-USE corpus_index;
+CREATE IF NOT EXISTS DATABASE cse_dict
+USE cse_dict;
 
 DROP TABLE collection;
 DROP TABLE document;

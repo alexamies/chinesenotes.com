@@ -1,7 +1,7 @@
 /*
  create database alexami_zhongwenbiji;
 */
-use alexami_zhongwenbiji;
+use cse_dict;
 
 drop table events;
 drop table character_rend;

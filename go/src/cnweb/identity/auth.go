@@ -178,6 +178,14 @@ func GetSiteDomain() string {
 	return *domain
 }
 
+// Generate a new session id after login
+func IsAuthorized(user UserInfo, permission string) bool {
+	if user.Role == "admin" {
+	  return true
+	}
+	return false
+}
+
 // Log the user out of the current session
 func Logout(sessionid string) {
 	result, err := logoutStmt.Exec(sessionid)

@@ -19,29 +19,36 @@ Installation instructions are for Debian LAMP. The web site will work on any
 environment that runs PHP.
 
 ### Install git on the host and checkout the code base
+```
 sudo apt-get update
 sudo apt-get install -y git
 
-$ cd $HOME/chinesenotes.com
+cd $HOME/chinesenotes.com
 -- Substitute for your own location and user name
 export CN_HOME=/disk1
 sudo mkdir $CN_HOME/chinesenotes.com
 sudo chown alex:alex $CN_HOME/chinesenotes.com
 git clone git://github.com/alexamies/chinesenotes.com $CN_HOME/chinesenotes.com
 
+cd $CN_HOME/chinesenotes.com
+export CNREADER_HOME=`pwd`
+```
+
 ### Database Setup
+```
 sudo apt-get -y install mysql-server mysql-client
+```
 
 Follow instructions in dictionary-readme.txt to set up the database
 
 ### Web Server Setup
+```
 $ sudo apt-get install -y apache2 php5 php5-mysql
 
 Set the Apache home directory to the web directory for the project
 
 $ sudo vi /etc/apache2/sites-enabled/000-default
-
-...
+```
 
 $ sudo apachectl restart
 
@@ -54,11 +61,13 @@ Install go (see https://golang.org/doc/install)
 For more details on the corpus organization and command line tool to process
 it see corpus/CORPUS-README.md and go/src/cnreader/README-go.md.
 
+```
 $ cd go/src/cnreader
 
 $ go build
 
 $ ./cnreader -all
+```
 
 ### Project Organization
 /corpus
@@ -157,13 +166,10 @@ line client execute the command below. First, set environment variable
 ```
 docker run --name mariadb -p 3306:3306 \
   -e MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD -d \
-  --mount type=bind,source="$(pwd)"/data,target=/dldata \
+  --mount type=bind,source="$(pwd)"/data,target=/cndata \
   mariadb:10.3
 docker exec -it mariadb bash
 mysql --local-infile=1 -h localhost -u root -p
-
-# In the mariadb client prompt
-source dldata/hsingyundl.sql
 ```
 
 The data in the database is persistent unless the container is deleted. To
@@ -173,7 +179,8 @@ restart the database use the command
 docker restart  mariadb
 ```
 
-To load data from other sources start up a mysql-client
+To load data from other sources connect to the database container
+or start up a mysql-client
 
 ```
 docker build -f docker/client/Dockerfile -t mysql-client-image .
@@ -253,8 +260,13 @@ Run it locally
 export DBDBHOST=mariadb
 export DBUSER=app_user
 export DBPASSWORD="***"
-export DATABASE=corpus_index
-docker run -itd --rm -p 8000:8080 --name cnweb-app --link mariadb -e DBUSER=$DBUSER -e DBPASSWORD=$DBPASSWORD cnweb-app-image
+export DATABASE=cse_dict
+docker run -itd --rm -p 8080:8080 --name cnweb-app --link mariadb \
+  -e DBDBHOST=$DBDBHOST \
+  -e DBUSER=$DBUSER \
+  -e DBPASSWORD=$DBPASSWORD \
+  -e DATABASE=$DATABASE \
+  cnweb-app-image
 ```
 
 Push to Google Container Registry

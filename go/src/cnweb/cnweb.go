@@ -84,7 +84,16 @@ func logoutHandler(w http.ResponseWriter, r *http.Request) {
 
 // Starting point for the Translation Portal
 func portalHandler(w http.ResponseWriter, r *http.Request) {
-	http.ServeFile(w, r, "templates/translation_portal.html")
+	sessionInfo := identity.InvalidSession()
+	cookie, err := r.Cookie("session")
+	if err == nil {
+		sessionInfo = identity.CheckSession(cookie.Value)
+	}
+	if identity.IsAuthorized(sessionInfo.User, "view_portal") {
+		http.ServeFile(w, r, "templates/translation_portal.html")
+	} else {
+		http.Error(w, "Not authorized", 403)
+	}
 }
 
 // Check to see if the user has a session
