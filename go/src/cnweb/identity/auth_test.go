@@ -13,7 +13,7 @@ func TestInit(t *testing.T) {
 
 // Test check login method
 func TestCheckLogin1(t *testing.T) {
-	user := CheckLogin("guest", "guest")
+	user := CheckLogin("guest", "fgs0722")
 	if len(user) != 1 {
 		t.Error("TestCheckLogin1: len(user) != 1, ", len(user))
 	}

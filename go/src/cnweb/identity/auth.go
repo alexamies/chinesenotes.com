@@ -1,13 +1,13 @@
 package identity
 
 import (
+	"cnweb/applog"
 	"crypto/rand"
 	"crypto/sha256"
 	"database/sql"
 	"encoding/base64"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
-	"log"
 	"os"
 )
 
@@ -58,7 +58,7 @@ func init() {
 		dbport, dbname)
 	db, err := sql.Open("mysql", conString)
 	if err != nil {
-		log.Fatal("FATAL: could not connect to the database, ",
+		applog.Fatal("FATAL: could not connect to the database, ",
 			err)
 		panic(err.Error())
 	}
@@ -72,7 +72,7 @@ func init() {
 		AND Password = ?
 		LIMIT 1`)
     if err != nil {
-        log.Fatal("auth.init() Error preparing stmt1: ", err)
+        applog.Fatal("auth.init() Error preparing stmt1: ", err)
     }
     loginStmt = stmt1
 
@@ -81,7 +81,7 @@ func init() {
 		  session (SessionID, UserID, Authenticated)
 		VALUES (?, ?, ?)`)
     if err != nil {
-        log.Fatal("auth.init() Error preparing stmt2: ", err)
+        applog.Fatal("auth.init() Error preparing stmt2: ", err)
     }
     saveSessionStmt = stmt2
 
@@ -93,7 +93,7 @@ func init() {
 		AND user.UserID = session.UserID
 		LIMIT 1`)
     if err != nil {
-        log.Fatal("auth.init() Error preparing stmt3: ", err)
+        applog.Fatal("auth.init() Error preparing stmt3: ", err)
     }
     checkSessionStmt = stmt3
 
@@ -102,7 +102,7 @@ func init() {
 		Authenticated = 0
 		WHERE SessionID = ?`)
     if err != nil {
-        log.Fatal("auth.init() Error preparing stmt4: ", err)
+        applog.Fatal("auth.init() Error preparing stmt4: ", err)
     }
     logoutStmt = stmt4
 
@@ -112,7 +112,7 @@ func init() {
 		UserID = ?
 		WHERE SessionID = ?`)
     if err != nil {
-        log.Fatal("auth.init() Error preparing stmt4: ", err)
+        applog.Fatal("auth.init() Error preparing stmt4: ", err)
     }
     updateSessionStmt = stmt5
 
@@ -123,10 +123,10 @@ func CheckLogin(username, password string) []UserInfo {
 	h := sha256.New()
 	h.Write([]byte(password))
 	hstr := fmt.Sprintf("%x", h.Sum(nil))
-	//log.Printf("CheckLogin, username: %s, hstr: %s", username, hstr)
+	applog.Info("CheckLogin, username, hstr:", username, hstr)
 	results, err := loginStmt.Query(username, hstr)
 	if err != nil {
-		log.Printf("CheckLogin, Error for username: ", username, err)
+		applog.Error("CheckLogin, Error for username: ", username, err)
 	}
 	defer results.Close()
 
@@ -146,16 +146,16 @@ func CheckSession(sessionid string) SessionInfo {
 	if len(sessions) != 1 {
 		return InvalidSession()
 	}
-	log.Printf("CheckSession, Authenticated = %v", sessions[0].Authenticated)
+	applog.Info("CheckSession, Authenticated =", sessions[0].Authenticated)
 	return sessions[0]
 }
 
 // Check session when the user requests a page
 func checkSessionStore(sessionid string) []SessionInfo {
-	log.Printf("CheckSession, sessionid: %s", sessionid)
+	applog.Info("CheckSession, sessionid: %s", sessionid)
 	results, err := checkSessionStmt.Query(sessionid)
 	if err != nil {
-		log.Printf("checkSessionStore, Error: ", err)
+		applog.Error("checkSessionStore, Error: ", err)
 	}
 	defer results.Close()
 
@@ -169,7 +169,7 @@ func checkSessionStore(sessionid string) []SessionInfo {
 		session.Valid = true
 		sessions = append(sessions, session)
 	}
-	log.Printf("checkSessionStore, %d sessions found", len(sessions))
+	applog.Info("checkSessionStore, sessions found: ", len(sessions))
 	return sessions
 }
 
@@ -182,10 +182,10 @@ func GetSiteDomain() string {
 func Logout(sessionid string) {
 	result, err := logoutStmt.Exec(sessionid)
 	if err != nil {
-		log.Printf("Logout, Error: ", err)
+		applog.Error("Logout, Error: ", err)
 	} else {
 		rowsAffected, _ := result.RowsAffected()
-		log.Printf("Logout, rows updated: %d", rowsAffected)
+		applog.Info("Logout, rows updated:", rowsAffected)
 	}
 }
 
@@ -195,12 +195,12 @@ func NewSessionId() string {
 	b := make([]byte, 32)
     _, err := rand.Read(b)
     if err != nil {
-        log.Printf("NewSessionId, Error: ", err)
+        applog.Error("NewSessionId, Error: ", err)
         return value
     }
     val, err := base64.URLEncoding.EncodeToString(b), err
 	if err != nil {
-		log.Printf("NewSessionId, Error: ", err)
+		applog.Info("NewSessionId, Error: ", err)
 		return value
 	}
 	return val
@@ -208,15 +208,15 @@ func NewSessionId() string {
 
 // Save an authenticated session to the database
 func SaveSession(sessionid string, userInfo UserInfo, authenticated int) SessionInfo {
-	log.Printf("SaveSession, sessionid: %s\n", sessionid)
+	applog.Info("SaveSession, sessionid:", sessionid)
 	result, err := saveSessionStmt.Exec(sessionid, userInfo.UserID,
 		authenticated)
 	if err != nil {
-		log.Printf("SaveSession, Error for username: ", userInfo.UserName, err)
+		applog.Info("SaveSession, Error for username: ", userInfo.UserName, err)
 		return InvalidSession()
 	}
 	rowsAffected, _ := result.RowsAffected()
-	log.Printf("SaveSession, rows updated: %d", rowsAffected)
+	applog.Info("SaveSession, rows updated: %d", rowsAffected)
 	return SessionInfo{
 		Authenticated: authenticated,
 		Valid: true,
@@ -245,11 +245,11 @@ func UpdateSession(sessionid string, userInfo UserInfo, authenticated int) Sessi
 	result, err := updateSessionStmt.Exec(authenticated, userInfo.UserID,
 		sessionid)
 	if err != nil {
-		log.Printf("UpdateSession, Error: ", err)
+		applog.Error("UpdateSession, Error: ", err)
 		return InvalidSession()
 	} 
 	rowsAffected, _ := result.RowsAffected()
-	log.Printf("UpdateSession, rows updated: %d", rowsAffected)
+	applog.Info("UpdateSession, rows updated:", rowsAffected)
 	return SessionInfo{
 		Authenticated: authenticated,
 		User: userInfo,

@@ -9,7 +9,6 @@ import (
 	"cnweb/identity"
 	"fmt"
 	"encoding/json"
-	"log"
 	"net/http"
 )
 
@@ -35,25 +34,25 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 	sessionInfo := identity.InvalidSession()
 	err := r.ParseForm()
 	if err != nil {
-		log.Printf("loginHandler: error parsing form %v", err)
+		applog.Error("loginHandler: error parsing form", err)
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	username := r.PostFormValue("UserName")
-	log.Printf("loginHandler: %s", username)
+	applog.Info("loginHandler: username = ", username)
 	password := r.PostFormValue("Password")
 	users := identity.CheckLogin(username, password)
 	if len(users) != 1 {
-		log.Printf("loginHandler: user not found %s", username)
+		applog.Error("loginHandler: user not found", username)
 	} else {
 		cookie, err := r.Cookie("session")
 		if err == nil {
-			log.Printf("loginHandler: updating session %v", cookie.Value)
+			applog.Error("loginHandler: updating session", cookie.Value)
 			sessionInfo = identity.UpdateSession(cookie.Value, users[0], 1)
 		}
 		if (err != nil) || !sessionInfo.Valid {
 			sessionid := identity.NewSessionId()
-			log.Printf("loginHandler: creating new session %v", sessionid)
+			//applog.Info("loginHandler: creating new session %v", sessionid)
 			cookie := &http.Cookie{
         		Name: "session",
         		Value: sessionid,
@@ -74,13 +73,18 @@ func logoutHandler(w http.ResponseWriter, r *http.Request) {
 	cookie, err := r.Cookie("session")
 	if err != nil {
 		// OK, just don't show the contents that require a login
-		log.Printf("logoutHandler: no cookie")
+		applog.Error("logoutHandler: no cookie")
 	} else {
 		identity.Logout(cookie.Value)
 	}
 	message := "Please come back again"
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
 	fmt.Fprintf(w, "{\"message\" :\"%s\"}", message)
+}
+
+// Starting point for the Translation Portal
+func portalHandler(w http.ResponseWriter, r *http.Request) {
+	http.ServeFile(w, r, "templates/translation_portal.html")
 }
 
 // Check to see if the user has a session
@@ -92,14 +96,14 @@ func sessionHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	if (err != nil) || (!sessionInfo.Valid) {
 		// OK, just don't show the contents that don't require a login
-		log.Printf("sessionHandler: creating a new cookie")
+		applog.Info("sessionHandler: creating a new cookie")
 		sessionid := identity.NewSessionId()
 		cookie := &http.Cookie{
         	Name: "session",
         	Value: sessionid,
         	Domain: identity.GetSiteDomain(),
         	Path: "/",
-        	MaxAge: 86400*30, // One month
+        	MaxAge: 86400, // One day
         }
         http.SetCookie(w, cookie)
         userInfo := identity.UserInfo{
@@ -119,8 +123,6 @@ func sessionHandler(w http.ResponseWriter, r *http.Request) {
 //Entry point for the web application
 func main() {
 
-	appLogFile := applog.Create()
-	defer applog.Close(appLogFile)
 	applog.Info("main.main Started cnweb")
 
 	//index.LoadKeywordIndex()
@@ -129,5 +131,6 @@ func main() {
 	http.HandleFunc("/loggedin/login", loginHandler)
 	http.HandleFunc("/loggedin/logout", logoutHandler)
 	http.HandleFunc("/loggedin/session", sessionHandler)
+	http.HandleFunc("/loggedin/portal", portalHandler)
 	http.ListenAndServe(":8080", nil)
 }

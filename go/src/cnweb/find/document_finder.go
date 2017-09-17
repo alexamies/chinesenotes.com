@@ -1,4 +1,4 @@
-/*
+/* 
 Functions for finding collections by partial match on collection title
 */
 package find
@@ -44,7 +44,7 @@ type QueryResults struct {
 // Open database connection and prepare statements
 func init() {
 	dbhost := "mariadb"
-	host := os.Getenv("DBDBHOST")
+	host := os.Getenv("DBHOST")
 	if host != "" {
 		dbhost = host
 	}
@@ -66,7 +66,7 @@ func init() {
 	}
 	conString := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s", dbuser, dbpass, dbhost,
 		dbport, dbname)
-	log.Printf("find.init(), conString: %s", conString)
+	//log.Printf("find.init(), conString: %s", conString)
 	db, err := sql.Open("mysql", conString)
 	if err != nil {
 		log.Fatal("FATAL: could not connect to the database, ",
@@ -77,31 +77,31 @@ func init() {
 
 	stmt, err := database.Prepare("SELECT title, gloss_file FROM collection WHERE title LIKE ? LIMIT 50")
     if err != nil {
-        log.Fatal("find.init() Error preparing stmt: ", err)
+        applog.Fatal("find.init() Error preparing stmt: ", err)
     }
     findColStmt = stmt
 
 	cstmt, err := database.Prepare("SELECT count(title) FROM collection WHERE title LIKE ?")
     if err != nil {
-        log.Fatal("find.init() Error preparing cstmt: ", err)
+        applog.Fatal("find.init() Error preparing cstmt: ", err)
     }
     countColStmt = cstmt
 
 	dstmt, err := database.Prepare("SELECT title, gloss_file FROM document WHERE title LIKE ? LIMIT 50")
     if err != nil {
-        log.Fatal("find.init() Error preparing dstmt: ", err)
+        applog.Fatal("find.init() Error preparing dstmt: ", err)
     }
     findDocStmt = dstmt
 
 	cdstmt, err := database.Prepare("SELECT count(title) FROM document WHERE title LIKE ?")
     if err != nil {
-        log.Fatal("find.init() Error preparing cDocStmt: ", err)
+        applog.Fatal("find.init() Error preparing cDocStmt: ", err)
     }
     countDocStmt = cdstmt    
 
 	fwstmt, err := database.Prepare("SELECT simplified, traditional, pinyin, english, headword FROM words WHERE simplified = ? OR traditional = ? LIMIT 1")
     if err != nil {
-        log.Fatal("find.init() Error preparing fwstmt: ", err)
+        applog.Fatal("find.init() Error preparing fwstmt: ", err)
     }
     findWordStmt = fwstmt
 }
