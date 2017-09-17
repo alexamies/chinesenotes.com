@@ -332,35 +332,3 @@ CREATE TABLE character_rend (
 	CHARACTER SET UTF8
 	COLLATE utf8_general_ci
 ;
-
-/*
- * Table for events in a historic time line
- * year			The year of the event
- * month		The month of the event
- * day			The day of the event
- * circa		1 indicates that the date is approximate
- * simplified:	Simplified Chinese text for the event, relates to a word in the words table
- * english:		English text for the event 
- * tags:		Space separated list of tags to categorize the event
- * notes:		Notes about the event
- */
-CREATE TABLE events (
-	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-	year INT NOT NULL,
-	month INT UNSIGNED DEFAULT NULL,
-	day INT UNSIGNED DEFAULT NULL,
-	circa INT UNSIGNED DEFAULT NULL,
-	simplified VARCHAR(255) NOT NULL,
-	english VARCHAR(255) NOT NULL,
-	tags VARCHAR(255),
-	notes TEXT,
-	PRIMARY KEY (id),
-	FOREIGN KEY (simplified) REFERENCES words(simplified),
-	INDEX (year),
-	INDEX (simplified),
-	INDEX (english),
-	INDEX (tags)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;

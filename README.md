@@ -187,16 +187,27 @@ docker build -f docker/client/Dockerfile -t mysql-client-image .
 docker run -itd --rm --name mysql-client --link mariadb \
   --mount type=bind,source="$(pwd)"/data,target=/cndata \
   mysql-client-image
+
+# Copy files as needed
+tar -zcf cndata.tar.gz data
+docker cp cndata.tar.gz mariadb:/cndata.tar.gz
+
 docker exec -it mysql-client bash
-mysql --local-infile=1 -h mariadb -u root -p
+
+# In the container command line
+tar -zxf cndata.tar.gz
+mv data cndata
+cd cndata
+mysql --local-infile=1 -h localhost -u root -p
 
 # In the mysql client
 # Edit password in the script
-source cndata/first_time_setup.sql
-source cndata/notes.ddl
-source cndata/sample_data.sql
-source cndata/corpus_index.ddl
-source cndata/load_index.ddl
+# source first_time_setup.sql
+source drop.sql
+source notes.ddl
+source load_data.sql
+source corpus_index.ddl
+source load_index.ddl
 
 ```
 

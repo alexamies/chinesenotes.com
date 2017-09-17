@@ -1,5 +1,5 @@
 /*USE cse_dict;*/
-USE alexami_zhongwenbiji;
+use cse_dict;
 
 LOAD DATA LOCAL INFILE 'phonetics.txt' INTO TABLE phonetics CHARACTER SET utf8 LINES TERMINATED BY '\n';
 SHOW WARNINGS;
