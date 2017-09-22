@@ -20,8 +20,8 @@ This for working with ink and water to work it into the brush and prevent it fro
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=calligraphy_materials_high.jpg'><img class='use' 
-           src='images/calligraphy_materials_high.jpg' alt='书法文具 Calligraphy Materials' 
-           title='书法文具 Calligraphy Materials'/></a>
+           src='images/calligraphy_materials_high.jpg' alt='Calligraphy Materials' 
+           title='Calligraphy Materials'/></a>
         <div>
          书法文具 Calligraphy Materials
         </div>

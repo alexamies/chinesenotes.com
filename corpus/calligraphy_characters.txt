@@ -4,8 +4,8 @@ When combining strokes together to form characters there are a few consideration
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=xia_mi300.png'><img class='use' 
-           src='images/xia_mi300.png' alt='下字（颜体） Xia Character (Yan Style)' 
-           title='下字（颜体） Xia Character (Yan Style)'/></a>
+           src='images/xia_mi300.png' alt='Xia Character (Yan Style)' 
+           title='Xia Character (Yan Style)'/></a>
         <div>
          下字（颜体） Xia Character (Yan Style)
         </div>
@@ -15,8 +15,8 @@ The balance of the character is an important consideration. It is ok to be heavi
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=zhu_mi300.png'><img class='use' 
-           src='images/zhu_mi300.png' alt='主字（颜体） Zhu Character (Yan Style)' 
-           title='主字（颜体） Zhu Character (Yan Style)'/></a>
+           src='images/zhu_mi300.png' alt='Zhu Character (Yan Style)' 
+           title='Zhu Character (Yan Style)'/></a>
         <div>
          主字（颜体） Zhu Character (Yanti Style)
         </div>
@@ -26,8 +26,8 @@ The thickness of the strokes is also adjusted to balance the character within th
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=niu_mi300.png'><img class='use' 
-           src='images/niu_mi300.png' alt='牛字（颜体） Niu Character (Yan Style)' 
-           title='牛字（颜体） Niu Character (Yan Style)'/></a>
+           src='images/niu_mi300.png' alt='Niu Character (Yan Style)' 
+           title='Niu Character (Yan Style)'/></a>
         <div>
          牛字（颜体） Niu Character (Yan Style)
         </div>
@@ -37,8 +37,8 @@ In Yan style the horizontal lines tend to be thinner than the vertical lines, an
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=nei_yanti300.png'><img class='use' 
-           src='images/nei_yanti300.png' alt='内字（颜体） Nei Character (Yan Style)' 
-           title='内字（颜体） Nei Character (Yan Style)'/></a>
+           src='images/nei_yanti300.png' alt='Nei Character (Yan Style)' 
+           title='Nei Character (Yan Style)'/></a>
         <div>
          内字（颜体） Nei Character (Yan Style)
         </div>
@@ -48,8 +48,8 @@ The length of strokes needs to be adjusted to meet the needs of the individual c
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=si_mi300.png'><img class='use' 
-           src='images/si_mi300.png' alt='四字（颜体） Si Character (Yan Style)' 
-           title='四字（颜体） Si Character (Yan Style)'/></a>
+           src='images/si_mi300.png' alt='Si Character (Yan Style)' 
+           title='Si Character (Yan Style)'/></a>
         <div>
          四字（颜体） Si Character (Yan Style)
         </div>
@@ -63,8 +63,8 @@ The forms of characters that we use in calligraphy sometimes match the forms tha
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=ping_yanti300.png'><img class='use' 
-           src='images/ping_yanti300.png' alt='平字（颜体） Ping Character (Yan Style)' 
-           title='平字（颜体） Ping Character (Yan Style)'/></a>
+           src='images/ping_yanti300.png' alt='Ping Character (Yan Style)' 
+           title='Ping Character (Yan Style)'/></a>
         <div>
          平字（颜体） Ping Character (Yan Style)
         </div>

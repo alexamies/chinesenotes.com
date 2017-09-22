@@ -6,8 +6,8 @@ There are twenty two fundamental strokes and each is described below for the Yan
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=upper_left_dot.png'><img class='use' 
-           src='images/upper_left_dot.png' alt='左上点 Upper Left Dot' 
-           title='左上点 Upper Left Dot'/></a>
+           src='images/upper_left_dot.png' alt='Upper Left Dot' 
+           title='Upper Left Dot'/></a>
         <div>
          左上点
          Upper Left Dot
@@ -24,8 +24,8 @@ This stroke is used in the characters 为, 精, and 禜,.
 上点 Upper Dot
 
         <a href='illustrations_use.php?mediumResolution=upper_dot.png'><img class='use' 
-           src='images/upper_dot.png' alt='上点 Upper Dot' 
-           title='上点 Upper Dot'/></a>
+           src='images/upper_dot.png' alt='Upper Dot' 
+           title='Upper Dot'/></a>
         <div>
          上点 Upper Dot
         </div>
@@ -42,16 +42,16 @@ An upper dot (上点 or 斜点) is used in the characters 主, 文, 之, 夜, �
           <tr>
             <td>
               <a href='illustrations_use.php?mediumResolution=zhu_yanti_upper_dot.png'><img class='use' 
-                 src='images/zhu_yanti_upper_dot.png' alt='主 Zhu' 
-                 title='主 Zhu'/></a>
+                 src='images/zhu_yanti_upper_dot.png' alt='Zhu' 
+                 title='Zhu'/></a>
               <div>
                 主 Zhu
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=wen_shangdian100.png'><img class='use' 
-                 src='images/wen_shangdian100.png' alt='文 Wen' 
-                 title='文 Wen'/></a>
+                 src='images/wen_shangdian100.png' alt='Wen' 
+                 title='Wen'/></a>
               <div>
                 文 We
               </div>
@@ -64,8 +64,8 @@ An upper dot (上点 or 斜点) is used in the characters 主, 文, 之, 夜, �
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=lower_left_dot.png'><img class='use' 
-           src='images/lower_left_dot.png' alt='左下点 Lower Left Dot' 
-           title='左下点 Lower Left Dot'/></a>
+           src='images/lower_left_dot.png' alt='Lower Left Dot' 
+           title='Lower Left Dot'/></a>
         <div>
          左下点 Lower Left Dot
         </div>
@@ -82,8 +82,8 @@ This stroke is used in the character 然.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=lower_right_dot.png'><img class='use' 
-           src='images/lower_right_dot.png' alt='右下点 Lower Right Dot' 
-           title='右下点 Lower Right Dot'/></a>
+           src='images/lower_right_dot.png' alt='Lower Right Dot' 
+           title='Lower Right Dot'/></a>
         <div>
          右下点 Lower Right Dot
         </div>
@@ -100,8 +100,8 @@ This stroke is used in the characters 下, 示, and 原.
           <tr>
             <td>
               <a href='illustrations_use.php?mediumResolution=xia_zuoxiadian.png'><img class='use' 
-                 src='images/xia_zuoxiadian.png' alt='下 Xia' 
-                 title='下 Xia'/></a>
+                 src='images/xia_zuoxiadian.png' alt='Xia' 
+                 title='Xia'/></a>
               <div>
                下
                Xia
@@ -109,8 +109,8 @@ This stroke is used in the characters 下, 示, and 原.
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=nei_yanti_youxiadian100.png'><img class='use' 
-                 src='images/nei_yanti_youxiadian100.png' alt='内 Nei' 
-                 title='内 Nei'/></a>
+                 src='images/nei_yanti_youxiadian100.png' alt='Nei' 
+                 title='Nei'/></a>
               <div>
                内
                Nei
@@ -124,8 +124,8 @@ This stroke is used in the characters 下, 示, and 原.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=short_horizontal.png'><img class='use' 
-           src='images/short_horizontal.png' alt='短横 Short Horizontal Stroke' 
-           title='短横 Short Horizontal Stroke'/></a>
+           src='images/short_horizontal.png' alt='Short Horizontal Stroke' 
+           title='Short Horizontal Stroke'/></a>
         <div>
          短横 Short Horizontal Stroke
         </div>
@@ -143,24 +143,24 @@ This stroke is used in the characters 主, 二, 日, 在, 至, 石, and 换.
           <tr>
             <td>
               <a href='illustrations_use.php?mediumResolution=zhu_duan_heng.png'><img class='use' 
-              src='images/zhu_duan_heng.png' alt='主 Zhu' 
-              title='主 Zhu'/></a>
+              src='images/zhu_duan_heng.png' alt='Zhu' 
+              title='Zhu'/></a>
               <div>
                 主 Zhu
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=er_duan_hengi100.png'><img class='use' 
-                 src='images/er_duan_hengi100.png' alt='二 Er' 
-                 title='二 Er'/></a>
+                 src='images/er_duan_hengi100.png' alt='Er' 
+                 title='Er'/></a>
               <div>
                二 Er
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=ri_duanheng100.png'><img class='use' 
-                 src='images/ri_duanheng100.png' alt='日 Ri' 
-                 title='日 Ri'/></a>
+                 src='images/ri_duanheng100.png' alt='Ri' 
+                 title='Ri'/></a>
               <div>
                日 Ri
               </div>
@@ -173,8 +173,8 @@ This stroke is used in the characters 主, 二, 日, 在, 至, 石, and 换.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=long_horizontal.png'><img class='use' 
-           src='images/long_horizontal.png' alt='长横 Long Horizontal Stroke' 
-           title='长横 Long Horizontal Stroke'/></a>
+           src='images/long_horizontal.png' alt='Long Horizontal Stroke' 
+           title='Long Horizontal Stroke'/></a>
         <div>
          长横 Long Horizontal Stroke
         </div>
@@ -192,24 +192,24 @@ This stroke is used in the characters 下, 二, 王, 长, 事, 童, 青, and 子
           <tr>
             <td>
               <a href='illustrations_use.php?mediumResolution=xia_yanti_changheng.png'><img class='use' 
-                 src='images/xia_yanti_changheng.png' alt='下 Xia' 
-                 title='下 Xia'/></a>
+                 src='images/xia_yanti_changheng.png' alt='Xia' 
+                 title='Xia'/></a>
               <div>
                下 Xia
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=er_chang_hengi100.png'><img class='use' 
-                 src='images/er_chang_hengi100.png' alt='二 Er' 
-                 title='二 Er'/></a>
+                 src='images/er_chang_hengi100.png' alt='Er' 
+                 title='Er'/></a>
               <div>
                二 Er
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=wang_changheng100.png'><img class='use' 
-                 src='images/wang_changheng100.png' alt='王 Wang' 
-                 title='王 Wang'/></a>
+                 src='images/wang_changheng100.png' alt='Wang' 
+                 title='Wang'/></a>
               <div>
                王 Wang
               </div>
@@ -222,8 +222,8 @@ This stroke is used in the characters 下, 二, 王, 长, 事, 童, 青, and 子
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=straight_vertical.png'><img class='use' 
-           src='images/straight_vertical.png' alt='直竖 Straight Vertical' 
-           title='直竖 Straight Vertical'/></a>
+           src='images/straight_vertical.png' alt='Straight Vertical' 
+           title='Straight Vertical'/></a>
         <div>
          直竖 Straight Vertical
         </div>
@@ -238,8 +238,8 @@ This stroke is used in the characters 下, 将, 第, 处, and 半.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=xia_yanti_shu.png'><img class='use' 
-           src='images/xia_yanti_shu.png' alt='下 Xia' 
-           title='下 Xia'/></a>
+           src='images/xia_yanti_shu.png' alt='Xia' 
+           title='Xia'/></a>
         <div>
          下 Xia
         </div>
@@ -249,8 +249,8 @@ This stroke is used in the characters 下, 将, 第, 处, and 半.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=left_vertical.png'><img class='use' 
-           src='images/left_vertical.png' alt='左弧竖 Left Vertical' 
-           title='左弧竖 Left Vertical'/></a>
+           src='images/left_vertical.png' alt='Left Vertical' 
+           title='Left Vertical'/></a>
         <div>
          左弧竖 Left Vertical
         </div>
@@ -268,16 +268,16 @@ This stroke is used in the characters 日, 柜, 问, 同, and 得.
           <tr>
             <td>
               <a href='illustrations_use.php?mediumResolution=ri_zuohushu100.png'><img class='use' 
-                 src='images/ri_zuohushu100.png' alt='日 Ri' 
-                 title='日 Ri'/></a>
+                 src='images/ri_zuohushu100.png' alt='Ri' 
+                 title='Ri'/></a>
               <div>
                日 Ri
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=xing_yanti_left_vertical200.png'><img class='use' 
-                 src='images/xing_yanti_left_vertical200.png' alt='行 Xing' 
-                 title='行 Xing'/></a>
+                 src='images/xing_yanti_left_vertical200.png' alt='Xing' 
+                 title='Xing'/></a>
               <div>
                行 Xing
               </div>
@@ -290,8 +290,8 @@ This stroke is used in the characters 日, 柜, 问, 同, and 得.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=right_vertical.png'><img class='use' 
-           src='images/right_vertical.png' alt='右弧竖 Right Vertical' 
-           title='右弧竖 Right Vertical'/></a>
+           src='images/right_vertical.png' alt='Right Vertical' 
+           title='Right Vertical'/></a>
         <div>
          右弧竖 Right Vertical
         </div>
@@ -307,8 +307,8 @@ This stroke is used in the characters 肃 and 引.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=hanging_vertical.png'><img class='use' 
-           src='images/hanging_vertical.png' alt='悬针 Hanging Vertical' 
-           title='悬针 Hanging Vertical'/></a>
+           src='images/hanging_vertical.png' alt='Hanging Vertical' 
+           title='Hanging Vertical'/></a>
         <div>
          悬针 Hanging Vertical
         </div>
@@ -326,24 +326,24 @@ This stroke is used in the characters 牛, 中, and 千.
           <tr>
             <td>
               <a href='illustrations_use.php?mediumResolution=niu_yanti__xuanzhen.png'><img class='use' 
-                 src='images/niu_yanti__xuanzhen.png' alt='牛 Niu' 
-                 title='牛 Niu'/></a>
+                 src='images/niu_yanti__xuanzhen.png' alt='Niu' 
+                 title='Niu'/></a>
               <div>
                 牛 Niu
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=shi_xuanzhen100.png'><img class='use' 
-                 src='images/shi_xuanzhen100.png' alt='十 Shi' 
-                 title='十 Shi'/></a>
+                 src='images/shi_xuanzhen100.png' alt='Shi' 
+                 title='Shi'/></a>
               <div>
                十 Shi
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=zao_yanti_xuanzhen100.png'><img class='use' 
-                 src='images/zao_yanti_xuanzhen100.png' alt='早 Zao' 
-                 title='早 Zao'/></a>
+                 src='images/zao_yanti_xuanzhen100.png' alt='Zao' 
+                 title='Zao'/></a>
               <div>
                早 Zao
               </div>
@@ -356,8 +356,8 @@ This stroke is used in the characters 牛, 中, and 千.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=shugou300.png'><img class='use' 
-           src='images/shugou300.png' alt='竖钩 Vertical Hooked Stroke' 
-           title='竖钩 Vertical Hooked Stroke'/></a>
+           src='images/shugou300.png' alt='Vertical Hooked Stroke' 
+           title='Vertical Hooked Stroke'/></a>
         <div>
          竖钩 Vertical Hooked
         </div>
@@ -375,16 +375,16 @@ This stroke is used in the characters 于, 行, 到, 东, and 打.
           <tr>
             <td>
               <a href='illustrations_use.php?mediumResolution=yu_yanti_shugou100.png'><img class='use' 
-                 src='images/yu_yanti_shugou100.png' alt='于 Yu' 
-                 title='于 Yu'/></a>
+                 src='images/yu_yanti_shugou100.png' alt='Yu' 
+                 title='Yu'/></a>
               <div>
                 于 Yu
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=xing_yanti_vertical_hook100.png'><img class='use' 
-                 src='images/xing_yanti_vertical_hook100.png' alt='行 Xing' 
-                 title='行 Xing'/></a>
+                 src='images/xing_yanti_vertical_hook100.png' alt='Xing' 
+                 title='Xing'/></a>
               <div>
                 行 Xing
               </div>
@@ -397,8 +397,8 @@ This stroke is used in the characters 于, 行, 到, 东, and 打.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=hugou300.png'><img class='use' 
-           src='images/hugou300.png' alt='狐钩 Hooked Arc Stroke' 
-           title='狐钩 Hooked Arc Stroke'/></a>
+           src='images/hugou300.png' alt='Hooked Arc Stroke' 
+           title='Hooked Arc Stroke'/></a>
         <div>
          狐钩 Hooked Arc
         </div>
@@ -415,8 +415,8 @@ This stroke is used in the characters 武, 我, 载, and 戏.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=zhegou300.png'><img class='use' 
-           src='images/zhegou300.png' alt='折钩 Turning Hook Stroke' 
-           title='折钩 Turning Hook Stroke'/></a>
+           src='images/zhegou300.png' alt='Turning Hook Stroke' 
+           title='Turning Hook Stroke'/></a>
         <div>
          折钩 Turning Hook Stroke
         </div>
@@ -433,8 +433,8 @@ This stroke is used in the characters 化, 光, and 也.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=horizontal_hook250.png'><img class='use' 
-           src='images/horizontal_hook250.png' alt='横钩 Horizontal Hooked Stroke' 
-           title='横钩 Horizontal Hooked Stroke'/></a>
+           src='images/horizontal_hook250.png' alt='Horizontal Hooked Stroke' 
+           title='Horizontal Hooked Stroke'/></a>
         <div>
          横钩 Horizontal Hooked Stroke
         </div>
@@ -451,8 +451,8 @@ This stroke is used in the characters 虎, 爱, and 军.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=tiaofa.png'><img class='use' 
-           src='images/tiaofa.png' alt='挑法 Upward Flick' 
-           title='挑法 Upward Flick'/></a>
+           src='images/tiaofa.png' alt='Upward Flick' 
+           title='Upward Flick'/></a>
         <div>
          挑法 Upward Flick Stroke
         </div>
@@ -469,8 +469,8 @@ This stroke is used in the characters 海, 泊, and 冰.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=duanpie.png'><img class='use' 
-           src='images/duanpie.png' alt='短撇 Short Downwards Left Curved Stroke' 
-           title='短撇 Short Downwards Left Curved Stroke'/></a>
+           src='images/duanpie.png' alt='Short Downwards Left Curved Stroke' 
+           title='Short Downwards Left Curved Stroke'/></a>
         <div>
          短撇 Short Downwards Left Curved Stroke
         </div>
@@ -488,24 +488,24 @@ This stroke is used in the characters 牛, 父, 足 and and 但.
           <tr>
             <td>
               <a href='illustrations_use.php?mediumResolution=niu_yanti__duan_pie.png'><img class='use' 
-                 src='images/niu_yanti__duan_pie.png' alt='牛 Niu' 
-                 title='牛 Niu'/></a>
+                 src='images/niu_yanti__duan_pie.png' alt='Niu' 
+                 title='Niu'/></a>
               <div>
                牛 Niu
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=fu_duanpie100.png'><img class='use' 
-                 src='images/fu_duanpie100.png' alt='父 Fu' 
-                 title='父 Fu'/></a>
+                 src='images/fu_duanpie100.png' alt='Fu' 
+                 title='Fu'/></a>
               <div>
                父 Fu
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=ru_duanpie100.png'><img class='use' 
-                 src='images/ru_duanpie100.png' alt='入 Ru' 
-                 title='入 Ru'/></a>
+                 src='images/ru_duanpie100.png' alt='Ru' 
+                 title='Ru'/></a>
               <div>
                入 Ru
               </div>
@@ -518,8 +518,8 @@ This stroke is used in the characters 牛, 父, 足 and and 但.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=zhuo.png'><img class='use' 
-           src='images/zhuo.png' alt='啄 Left Curved Stroke' 
-           title='啄 Left Curved Stroke'/></a>
+           src='images/zhuo.png' alt='Left Curved Stroke' 
+           title='Left Curved Stroke'/></a>
         <div>
          啄 Left Curved Stroke
         </div>
@@ -536,8 +536,8 @@ This stroke is used in the characters 乎, 手, 和, and 香.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=changpie.png'><img class='use' 
-           src='images/changpie.png' alt='长撇 Long Downwards Left Curved Stroke' 
-           title='长撇 Long Downwards Left Curved Stroke'/></a>
+           src='images/changpie.png' alt='Long Downwards Left Curved Stroke' 
+           title='Long Downwards Left Curved Stroke'/></a>
         <div>
          长撇 Long Downwards Left Curved Stroke
         </div>
@@ -556,23 +556,23 @@ This stroke is used in the characters 人, 户, 拜, 厂, and 左.
             <td>
               <a href='illustrations_use.php?mediumResolution=ren_changpie100.png'><img class='use' 
               src='images/ren_changpie100.png' alt='人 Ren' 
-              title='人 Ren'/></a>
+              title='Ren'/></a>
               <div>
                 人 Ren
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=fu_changpie100.png'><img class='use' 
-                 src='images/fu_changpie100.png' alt='父 Fu' 
-                 title='父 Fu'/></a>
+                 src='images/fu_changpie100.png' alt='Fu' 
+                 title='Fu'/></a>
               <div>
                父 Fu
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=bai4_yanti_changpie100.png'><img class='use' 
-                 src='images/bai4_yanti_changpie100.png' alt='拜 Bai' 
-                 title='拜 Bai'/></a>
+                 src='images/bai4_yanti_changpie100.png' alt='Bai' 
+                 title='Bai'/></a>
               <div>
                拜 Bai
               </div>
@@ -585,8 +585,8 @@ This stroke is used in the characters 人, 户, 拜, 厂, and 左.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=na_stroke.png'><img class='use' 
-           src='images/na_stroke.png' alt='捺 Downwards Right Concave Stroke' 
-           title='捺 Downwards Right Concave Stroke'/></a>
+           src='images/na_stroke.png' alt='Downwards Right Concave Stroke' 
+           title='Downwards Right Concave Stroke'/></a>
         <div>
          捺 Downwards Right Concave Stroke
         </div>
@@ -603,24 +603,24 @@ This stroke is used in the characters 人, 八, 父, 春, 全, and 交.
           <tr>
             <td>
               <a href='illustrations_use.php?mediumResolution=ren_na100.png'><img class='use' 
-              src='images/ren_na100.png' alt='人 Ren' 
-              title='人 Ren'/></a>
+              src='images/ren_na100.png' alt='Ren' 
+              title='Ren'/></a>
               <div>
                 人 Ren
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=wen_na100.png'><img class='use' 
-              src='images/wen_na100.png' alt='文 Wen' 
-              title='文 Wen'/></a>
+              src='images/wen_na100.png' alt='Wen' 
+              title='Wen'/></a>
               <div>
                 文 Wen
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=fu_na100.png'><img class='use' 
-                 src='images/fu_na100.png' alt='父 Fu' 
-                 title='父 Fu'/></a>
+                 src='images/fu_na100.png' alt='Fu' 
+                 title='Fu'/></a>
               <div>
                父 Fu
               </div>
@@ -633,8 +633,8 @@ This stroke is used in the characters 人, 八, 父, 春, 全, and 交.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=ping_na.png'><img class='use' 
-           src='images/ping_na.png' alt='平捺 Flat Right Concave Stroke' 
-           title='平捺 Flat Right Concave Stroke'/></a>
+           src='images/ping_na.png' alt='Flat Right Concave Stroke' 
+           title='Flat Right Concave Stroke'/></a>
         <div>
          平捺 Flat Right Concave Stroke
         </div>
@@ -651,8 +651,8 @@ This stroke is used in the characters 之, 道, 这, and 是.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=you_jue.png'><img class='use' 
-           src='images/you_jue.png' alt='右厥 Right Combined Horizontal and Vertical Hook Stroke' 
-           title='右厥 Right Combined Horizontal and Vertical Hook Stroke'/></a>
+           src='images/you_jue.png' alt='Right Combined Horizontal and Vertical Hook Stroke' 
+           title='Right Combined Horizontal and Vertical Hook Stroke'/></a>
         <div>
          右厥 Right Combined Horizontal and Vertical Hook Stroke
         </div>
@@ -670,24 +670,24 @@ This stroke is used in the characters 四, 册, 内, 高, 有, and 国.
           <tr>
             <td>
               <a href='illustrations_use.php?mediumResolution=si_yanti_you_jue.png'><img class='use' 
-                 src='images/si_yanti_you_jue.png' alt='四 Si' 
-                 title='四 Si'/></a>
+                 src='images/si_yanti_you_jue.png' alt='Si' 
+                 title='Si'/></a>
               <div>
                四 Si
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=ce_trad_yanti_youjue100.png'><img class='use' 
-                 src='images/ce_trad_yanti_youjue100.png' alt='冊 Ce' 
-                 title='冊 Ce'/></a>
+                 src='images/ce_trad_yanti_youjue100.png' alt='Ce' 
+                 title='Ce'/></a>
               <div>
                冊 Ce
               </div>
             </td>
             <td>
               <a href='illustrations_use.php?mediumResolution=nei_yanti_youjue100.png'><img class='use' 
-                 src='images/nei_yanti_youjue100.png' alt='内 Nei' 
-                 title='内 Nei'/></a>
+                 src='images/nei_yanti_youjue100.png' alt='Nei' 
+                 title='Nei'/></a>
               <div>
                内 Nei
               </div>
@@ -700,8 +700,8 @@ This stroke is used in the characters 四, 册, 内, 高, 有, and 国.
 
       <div class="picture">
         <a href='illustrations_use.php?mediumResolution=zuo_jue.png'><img class='use' 
-           src='images/zuo_jue.png' alt='左厥 Left Combined Horizontal and Vertical Hook Stroke' 
-           title='左厥 Left Combined Horizontal and Vertical Hook Stroke'/></a>
+           src='images/zuo_jue.png' alt='Left Combined Horizontal and Vertical Hook Stroke' 
+           title='Left Combined Horizontal and Vertical Hook Stroke'/></a>
         <div>
          左厥 Left Combined Horizontal and Vertical Hook Stroke
         </div>
