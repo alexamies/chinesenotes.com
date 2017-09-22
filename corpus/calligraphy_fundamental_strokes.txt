@@ -1,0 +1,715 @@
+基本笔画（颜体） Fundamental Strokes (Yanti)
+
+There are twenty two fundamental strokes and each is described below for the Yan style (颜体).
+
+左上点 Upper Left Dot
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=upper_left_dot.png'><img class='use' 
+           src='images/upper_left_dot.png' alt='左上点 Upper Left Dot' 
+           title='左上点 Upper Left Dot'/></a>
+        <div>
+         左上点
+         Upper Left Dot
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the brush moving left
+Turn the brush moving down and right
+Move back in a transition
+Move the brush out and up off the paper
+This stroke is used in the characters 为, 精, and 禜,.
+
+上点 Upper Dot
+
+        <a href='illustrations_use.php?mediumResolution=upper_dot.png'><img class='use' 
+           src='images/upper_dot.png' alt='上点 Upper Dot' 
+           title='上点 Upper Dot'/></a>
+        <div>
+         上点 Upper Dot
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Move the tip to the right
+Turn the brush moving down and left
+Move back and stop
+An upper dot (上点 or 斜点) is used in the characters 主, 文, 之, 夜, 空, and 度.
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=zhu_yanti_upper_dot.png'><img class='use' 
+                 src='images/zhu_yanti_upper_dot.png' alt='主 Zhu' 
+                 title='主 Zhu'/></a>
+              <div>
+                主 Zhu
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=wen_shangdian100.png'><img class='use' 
+                 src='images/wen_shangdian100.png' alt='文 Wen' 
+                 title='文 Wen'/></a>
+              <div>
+                文 We
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+左下点 Lower Left Dot
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=lower_left_dot.png'><img class='use' 
+           src='images/lower_left_dot.png' alt='左下点 Lower Left Dot' 
+           title='左下点 Lower Left Dot'/></a>
+        <div>
+         左下点 Lower Left Dot
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Move the tip to the left
+Moving the brush down and left
+Move back in a transition
+Move the brush out and up off the paper
+This stroke is used in the character 然.
+
+右下点 Lower Right Dot
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=lower_right_dot.png'><img class='use' 
+           src='images/lower_right_dot.png' alt='右下点 Lower Right Dot' 
+           title='右下点 Lower Right Dot'/></a>
+        <div>
+         右下点 Lower Right Dot
+        </div>
+      </div>
+Start the stroke with a hidden tip
+Move the tip to the right
+Continue down and right
+Move down and around
+Return back and stop
+This stroke is used in the characters 下, 示, and 原.
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=xia_zuoxiadian.png'><img class='use' 
+                 src='images/xia_zuoxiadian.png' alt='下 Xia' 
+                 title='下 Xia'/></a>
+              <div>
+               下
+               Xia
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=nei_yanti_youxiadian100.png'><img class='use' 
+                 src='images/nei_yanti_youxiadian100.png' alt='内 Nei' 
+                 title='内 Nei'/></a>
+              <div>
+               内
+               Nei
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+短横 Short Horizontal Stroke
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=short_horizontal.png'><img class='use' 
+           src='images/short_horizontal.png' alt='短横 Short Horizontal Stroke' 
+           title='短横 Short Horizontal Stroke'/></a>
+        <div>
+         短横 Short Horizontal Stroke
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the brush moving right
+Move the brush to the right
+Turn the tip down
+Move back and stop
+This stroke is used in the characters 主, 二, 日, 在, 至, 石, and 换.
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=zhu_duan_heng.png'><img class='use' 
+              src='images/zhu_duan_heng.png' alt='主 Zhu' 
+              title='主 Zhu'/></a>
+              <div>
+                主 Zhu
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=er_duan_hengi100.png'><img class='use' 
+                 src='images/er_duan_hengi100.png' alt='二 Er' 
+                 title='二 Er'/></a>
+              <div>
+               二 Er
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=ri_duanheng100.png'><img class='use' 
+                 src='images/ri_duanheng100.png' alt='日 Ri' 
+                 title='日 Ri'/></a>
+              <div>
+               日 Ri
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+长横 Long Horizontal Stroke
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=long_horizontal.png'><img class='use' 
+           src='images/long_horizontal.png' alt='长横 Long Horizontal Stroke' 
+           title='长横 Long Horizontal Stroke'/></a>
+        <div>
+         长横 Long Horizontal Stroke
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the brush moving right
+Move the brush to the right
+Turn the tip down
+Move back and stop
+This stroke is used in the characters 下, 二, 王, 长, 事, 童, 青, and 子.
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=xia_yanti_changheng.png'><img class='use' 
+                 src='images/xia_yanti_changheng.png' alt='下 Xia' 
+                 title='下 Xia'/></a>
+              <div>
+               下 Xia
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=er_chang_hengi100.png'><img class='use' 
+                 src='images/er_chang_hengi100.png' alt='二 Er' 
+                 title='二 Er'/></a>
+              <div>
+               二 Er
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=wang_changheng100.png'><img class='use' 
+                 src='images/wang_changheng100.png' alt='王 Wang' 
+                 title='王 Wang'/></a>
+              <div>
+               王 Wang
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+直竖 Straight Vertical
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=straight_vertical.png'><img class='use' 
+           src='images/straight_vertical.png' alt='直竖 Straight Vertical' 
+           title='直竖 Straight Vertical'/></a>
+        <div>
+         直竖 Straight Vertical
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the brush moving down
+Firm downward movement
+Turn the tip right
+Move back and stop
+This stroke is used in the characters 下, 将, 第, 处, and 半.
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=xia_yanti_shu.png'><img class='use' 
+           src='images/xia_yanti_shu.png' alt='下 Xia' 
+           title='下 Xia'/></a>
+        <div>
+         下 Xia
+        </div>
+      </div>
+
+左弧竖 Left Vertical
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=left_vertical.png'><img class='use' 
+           src='images/left_vertical.png' alt='左弧竖 Left Vertical' 
+           title='左弧竖 Left Vertical'/></a>
+        <div>
+         左弧竖 Left Vertical
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the brush moving down
+Use a left facing arc shaped downward movement
+Turn the tip right
+Move back and stop
+This stroke is used in the characters 日, 柜, 问, 同, and 得.
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=ri_zuohushu100.png'><img class='use' 
+                 src='images/ri_zuohushu100.png' alt='日 Ri' 
+                 title='日 Ri'/></a>
+              <div>
+               日 Ri
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=xing_yanti_left_vertical200.png'><img class='use' 
+                 src='images/xing_yanti_left_vertical200.png' alt='行 Xing' 
+                 title='行 Xing'/></a>
+              <div>
+               行 Xing
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+右弧竖 Right Vertical
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=right_vertical.png'><img class='use' 
+           src='images/right_vertical.png' alt='右弧竖 Right Vertical' 
+           title='右弧竖 Right Vertical'/></a>
+        <div>
+         右弧竖 Right Vertical
+        </div>
+      </div>
+Start the stroke with a hidden tip
+Turn the brush moving down
+Use a right facing arc shaped downward movement
+Turn the tip back and up
+Lightly lift the brush and stop
+This stroke is used in the characters 肃 and 引.
+
+悬针 Hanging Vertical
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=hanging_vertical.png'><img class='use' 
+           src='images/hanging_vertical.png' alt='悬针 Hanging Vertical' 
+           title='悬针 Hanging Vertical'/></a>
+        <div>
+         悬针 Hanging Vertical
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the brush moving down
+Turn back to thicken the middle of the stroke
+Continue moving the brush down
+Move the brush straight down and off the page
+This stroke is used in the characters 牛, 中, and 千.
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=niu_yanti__xuanzhen.png'><img class='use' 
+                 src='images/niu_yanti__xuanzhen.png' alt='牛 Niu' 
+                 title='牛 Niu'/></a>
+              <div>
+                牛 Niu
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=shi_xuanzhen100.png'><img class='use' 
+                 src='images/shi_xuanzhen100.png' alt='十 Shi' 
+                 title='十 Shi'/></a>
+              <div>
+               十 Shi
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=zao_yanti_xuanzhen100.png'><img class='use' 
+                 src='images/zao_yanti_xuanzhen100.png' alt='早 Zao' 
+                 title='早 Zao'/></a>
+              <div>
+               早 Zao
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+竖钩 Vertical Hooked
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=shugou300.png'><img class='use' 
+           src='images/shugou300.png' alt='竖钩 Vertical Hooked Stroke' 
+           title='竖钩 Vertical Hooked Stroke'/></a>
+        <div>
+         竖钩 Vertical Hooked
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the brush moving down
+Continue moving the brush down forming a curved edge on the right side
+Move the brush down and around
+Bring the tip around and off the paper forming a definite hook
+This stroke is used in the characters 于, 行, 到, 东, and 打.
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=yu_yanti_shugou100.png'><img class='use' 
+                 src='images/yu_yanti_shugou100.png' alt='于 Yu' 
+                 title='于 Yu'/></a>
+              <div>
+                于 Yu
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=xing_yanti_vertical_hook100.png'><img class='use' 
+                 src='images/xing_yanti_vertical_hook100.png' alt='行 Xing' 
+                 title='行 Xing'/></a>
+              <div>
+                行 Xing
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+狐钩 Hooked Arc
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=hugou300.png'><img class='use' 
+           src='images/hugou300.png' alt='狐钩 Hooked Arc Stroke' 
+           title='狐钩 Hooked Arc Stroke'/></a>
+        <div>
+         狐钩 Hooked Arc
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the brush moving down
+Move the brush along an arc
+Bring the tip back and up
+Bring the tip around and off the paper forming a definite hook
+This stroke is used in the characters 武, 我, 载, and 戏.
+
+折钩 Turning Hook
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=zhegou300.png'><img class='use' 
+           src='images/zhegou300.png' alt='折钩 Turning Hook Stroke' 
+           title='折钩 Turning Hook Stroke'/></a>
+        <div>
+         折钩 Turning Hook Stroke
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the brush moving down
+Move the right forming an arc
+Bring the tip back
+Lift the brush to form an upward facing hook
+This stroke is used in the characters 化, 光, and 也.
+
+横钩 Horizontal Hooked
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=horizontal_hook250.png'><img class='use' 
+           src='images/horizontal_hook250.png' alt='横钩 Horizontal Hooked Stroke' 
+           title='横钩 Horizontal Hooked Stroke'/></a>
+        <div>
+         横钩 Horizontal Hooked Stroke
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the brush moving right
+Lift the brush and then press down again
+Bring the tip back
+Press, turn, and then flick up and off the paper
+This stroke is used in the characters 虎, 爱, and 军.
+
+挑法 Upward Flick
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=tiaofa.png'><img class='use' 
+           src='images/tiaofa.png' alt='挑法 Upward Flick' 
+           title='挑法 Upward Flick'/></a>
+        <div>
+         挑法 Upward Flick Stroke
+        </div>
+      </div>
+
+Start the stroke with a hidden tip ??
+Turn the brush moving down
+Bring the tip back
+Press down again
+Press, turn, and then flick up and off the paper
+This stroke is used in the characters 海, 泊, and 冰.
+
+短撇 Short Downwards Left Curved
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=duanpie.png'><img class='use' 
+           src='images/duanpie.png' alt='短撇 Short Downwards Left Curved Stroke' 
+           title='短撇 Short Downwards Left Curved Stroke'/></a>
+        <div>
+         短撇 Short Downwards Left Curved Stroke
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the brush moving down
+Bring the tip back
+Keep moving down and left
+Flick up and off the paper
+This stroke is used in the characters 牛, 父, 足 and and 但.
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=niu_yanti__duan_pie.png'><img class='use' 
+                 src='images/niu_yanti__duan_pie.png' alt='牛 Niu' 
+                 title='牛 Niu'/></a>
+              <div>
+               牛 Niu
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=fu_duanpie100.png'><img class='use' 
+                 src='images/fu_duanpie100.png' alt='父 Fu' 
+                 title='父 Fu'/></a>
+              <div>
+               父 Fu
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=ru_duanpie100.png'><img class='use' 
+                 src='images/ru_duanpie100.png' alt='入 Ru' 
+                 title='入 Ru'/></a>
+              <div>
+               入 Ru
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+啄 Left Curved
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=zhuo.png'><img class='use' 
+           src='images/zhuo.png' alt='啄 Left Curved Stroke' 
+           title='啄 Left Curved Stroke'/></a>
+        <div>
+         啄 Left Curved Stroke
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the brush moving down
+Turn and press the brush down
+Lift the brush up off the paper a little
+Flick up and off the paper
+This stroke is used in the characters 乎, 手, 和, and 香.
+
+长撇 Long Downwards Left Curved
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=changpie.png'><img class='use' 
+           src='images/changpie.png' alt='长撇 Long Downwards Left Curved Stroke' 
+           title='长撇 Long Downwards Left Curved Stroke'/></a>
+        <div>
+         长撇 Long Downwards Left Curved Stroke
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the tip moving down
+Continue moving the brush down
+Change the direction a little to the left
+Flick up and off the paper
+This stroke is used in the characters 人, 户, 拜, 厂, and 左.
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=ren_changpie100.png'><img class='use' 
+              src='images/ren_changpie100.png' alt='人 Ren' 
+              title='人 Ren'/></a>
+              <div>
+                人 Ren
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=fu_changpie100.png'><img class='use' 
+                 src='images/fu_changpie100.png' alt='父 Fu' 
+                 title='父 Fu'/></a>
+              <div>
+               父 Fu
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=bai4_yanti_changpie100.png'><img class='use' 
+                 src='images/bai4_yanti_changpie100.png' alt='拜 Bai' 
+                 title='拜 Bai'/></a>
+              <div>
+               拜 Bai
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+捺 Downwards Right Concave Stroke
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=na_stroke.png'><img class='use' 
+           src='images/na_stroke.png' alt='捺 Downwards Right Concave Stroke' 
+           title='捺 Downwards Right Concave Stroke'/></a>
+        <div>
+         捺 Downwards Right Concave Stroke
+        </div>
+      </div>
+Start the stroke with a hidden tip
+Turn the tip moving right
+Continue moving the brush right and down
+Bring the brush back and up
+Turn the brush again and flick up and off the paper
+This stroke is used in the characters 人, 八, 父, 春, 全, and 交.
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=ren_na100.png'><img class='use' 
+              src='images/ren_na100.png' alt='人 Ren' 
+              title='人 Ren'/></a>
+              <div>
+                人 Ren
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=wen_na100.png'><img class='use' 
+              src='images/wen_na100.png' alt='文 Wen' 
+              title='文 Wen'/></a>
+              <div>
+                文 Wen
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=fu_na100.png'><img class='use' 
+                 src='images/fu_na100.png' alt='父 Fu' 
+                 title='父 Fu'/></a>
+              <div>
+               父 Fu
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+平捺 Flat Right Concave Stroke
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=ping_na.png'><img class='use' 
+           src='images/ping_na.png' alt='平捺 Flat Right Concave Stroke' 
+           title='平捺 Flat Right Concave Stroke'/></a>
+        <div>
+         平捺 Flat Right Concave Stroke
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the tip moving right
+Continue moving the brush right
+Turn the tip back
+Turn the brush right again and flick up and off the paper
+This stroke is used in the characters 之, 道, 这, and 是.
+
+右厥 Right Combined Horizontal and Vertical Hook Stroke
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=you_jue.png'><img class='use' 
+           src='images/you_jue.png' alt='右厥 Right Combined Horizontal and Vertical Hook Stroke' 
+           title='右厥 Right Combined Horizontal and Vertical Hook Stroke'/></a>
+        <div>
+         右厥 Right Combined Horizontal and Vertical Hook Stroke
+        </div>
+      </div>
+
+Start the stroke with a hidden tip
+Turn the tip moving right
+Move down for the horizontal stroke
+Move around and back up
+Form a definite left facing hook
+This stroke is used in the characters 四, 册, 内, 高, 有, and 国.
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=si_yanti_you_jue.png'><img class='use' 
+                 src='images/si_yanti_you_jue.png' alt='四 Si' 
+                 title='四 Si'/></a>
+              <div>
+               四 Si
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=ce_trad_yanti_youjue100.png'><img class='use' 
+                 src='images/ce_trad_yanti_youjue100.png' alt='冊 Ce' 
+                 title='冊 Ce'/></a>
+              <div>
+               冊 Ce
+              </div>
+            </td>
+            <td>
+              <a href='illustrations_use.php?mediumResolution=nei_yanti_youjue100.png'><img class='use' 
+                 src='images/nei_yanti_youjue100.png' alt='内 Nei' 
+                 title='内 Nei'/></a>
+              <div>
+               内 Nei
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+左厥 Left Combined Horizontal and Vertical Hook Stroke
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=zuo_jue.png'><img class='use' 
+           src='images/zuo_jue.png' alt='左厥 Left Combined Horizontal and Vertical Hook Stroke' 
+           title='左厥 Left Combined Horizontal and Vertical Hook Stroke'/></a>
+        <div>
+         左厥 Left Combined Horizontal and Vertical Hook Stroke
+        </div>
+      </div>
+Start the stroke with a hidden tip
+Turn the tip moving down
+At the corner lighten pressure on the brush, turn, and then increase pressure again
+Reduce pressure again and then move right
+At the end of the horizontal stroke turn around to and down.
+Turn the tip back.
+This stroke is used in the character 喝 and 函.

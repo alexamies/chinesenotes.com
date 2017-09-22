@@ -1,0 +1,40 @@
+笔法 Drawing Strokes
+
+Drawing a stroke (笔法) involves the start of the stroke (起笔), moving the brush (行笔), to form the main part of the stroke, and finishing the stroke (收笔). Two basic skills are moving the tip of the brush (笔锋) up in a kind of slow flicking motion (提笔) and to press the tip of the brush down against the paper (按笔). These two motions control the thickness of strokes.
+
+Some strokes, such as pie (downwards-left curved stroke 撇), na (downwards-right concave character stroke 捺), and gou (a hook shaped stroke 钩) finish with a hook.
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=brush_movement.png'><img class='use' 
+           src='images/brush_movement.png' alt='笔法 Drawing a stroke' 
+           title='笔法 Drawing a stroke'/></a>
+        <div>
+         笔法 Drawing a stroke
+        </div>
+      </div>
+
+Some characters require a hook-like motion to start a stroke (逆锋起笔). Some characters require a hook-like movement at the end of the stroke (回锋收笔).
+
+Starting a stroke in a very abrupt way with a straight end leads to a square style (方笔). Ouyang Xun (欧阳询) was known for this style.
+
+      <div class='picture'>
+        <a href='illustrations_use.php?mediumResolution=KaishuOuyangxun_square.jpg'><img class='use' 
+           src='images/KaishuOuyangxun_square.jpg' alt='方笔 Square Style Brush Work (Ouyang Xun)' 
+           title='方笔 Square Style Brush Work (Ouyang Xun)'/></a>
+        <div>
+         方笔 Square Style (Ouyang Xun)
+        </div>
+      </div>
+
+圆笔 or round brush is a style where the ends of the strokes are rounded in an exagerated turning motion. This style was initially popularized by Yan Zhenqing.
+
+      <div class='picture'>
+        <a href='illustrations_use.php?mediumResolution=yuanbi.jpg'><img class='use' 
+           src='images/yuanbi.jpg' alt='圆笔 Round Style Brush Work (Yan Zhenqing)' 
+           title='圆笔 Round Style Brush Work (Yan Zhenqing)'/></a>
+        <div>
+         圆笔 Round Style Brush Work (Yan Zhenqing)
+        </div>
+      </div>
+
+中锋 zhongfeng or 正锋 zhengfeng is a style of brush work with decoration in transitions between strokes.

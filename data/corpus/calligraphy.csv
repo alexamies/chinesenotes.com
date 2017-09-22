@@ -1,0 +1,10 @@
+# Source file, Gloss output file, title
+calligraphy.txt	calligraphy.php	导言 Introduction
+calligraphy_materials.txt	calligraphy_materials.php	文具 Materials
+calligraphy_writing.txt	calligraphy_writing.php	执笔与运笔 Holding and Moving the Brush
+calligraphy_strokes.txt	calligraphy_strokes.php	笔法 Drawing Strokes
+calligraphy_fundamental_strokes.txt	calligraphy_fundamental_strokes.php	基本笔画（颜体） Fundamental Strokes (Yanti)
+calligraphy_characters.txt	calligraphy_characters.php	字 Characters
+calligraphy_copying.txt	calligraphy_copying.php	基本笔画（颜体） Fundamental Strokes (Yanti)
+calligraphy_characters_yi.txt	calligraphy_characters_yi.php	Selected Characters
+calligraphy_references.txt	calligraphy_references.php	字 Characters

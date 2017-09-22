@@ -1,0 +1,28 @@
+文具 Materials
+
+The basic materials needed are:
+
+毛笔 Brush
+The size will depend on the size of characters you want to write. A good size of character for beginners to start with is 10 cm x 10 cm (4 in x 4 in). Smaller characters and larger characters are harder to write and also need different size brushes Brushes have size numbers but they depend on the brand. Since there is no standard for this you will need to ask someone knowledgeable when buying a first set of brushes.
+
+When starting with a new brush work some water into it to soften it.
+
+墨汁 Ink
+A prepared Chinese ink manufactured specially for calligraphy. I have used ink manufactured by 一得阁 You will need to mix the ink up with some water on the palette. The amount of water depends on the shade you want the writing to be.
+
+纸 Paper
+The correct type of paper that has a soft surface, absorb and hold the ink, and has sufficient strength is important. Although it is tempting to use cheaper paper for repetitious practice it can inhibit good style. The paper recommended for me to start with is made from bamboo starch. Having paper with printed squares on it is nice to help keep to drawing regular characters. A copy book 字帖 or paper specially made for tracing can be very helpful for practicing.
+
+It is also nice to have a felt desk pad (书画毡 or 画垫) to provide a nice writing surface and prevent the ink from bleeding onto the table below. The printed squares on it can help with paper that has no printed outlines.
+
+调色盘 Palette or plastic plate
+This for working with ink and water to work it into the brush and prevent it from spilling.
+
+      <div class="picture">
+        <a href='illustrations_use.php?mediumResolution=calligraphy_materials_high.jpg'><img class='use' 
+           src='images/calligraphy_materials_high.jpg' alt='书法文具 Calligraphy Materials' 
+           title='书法文具 Calligraphy Materials'/></a>
+        <div>
+         书法文具 Calligraphy Materials
+        </div>
+      </div>
