@@ -22,3 +22,6 @@ LUFiles: words.txt,translation_memory_literary.txt
 
 # The domain of the corpus
 Domain:
+
+# Character replacement
+VocabFormat: <a title="%s | %s" class="%s" href="/words/%d.html">%s</a>

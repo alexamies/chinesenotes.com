@@ -188,3 +188,12 @@ func TemplateDir() string {
 func WebDir() string {
 	return projectHome + "/web"
 }
+
+// Gets the Web directory, as used for serving HTML files
+func VocabFormat() string {
+	val, ok := configVars["VocabFormat"]
+	if ok {
+		return val
+	}
+	return "<a title=\"%s | %s\" class=\"%s\" href=\"/words/%d.html\">%s</a>"
+}

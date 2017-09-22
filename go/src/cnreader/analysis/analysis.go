@@ -212,14 +212,12 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 // Constructs a hyperlink for a headword, including Pinyin and English in the
 // title attribute for the link mouseover
 func hyperlink(entry dictionary.WordSenseEntry, text string) string {
-	mouseover := fmt.Sprintf("%s | %s", entry.Pinyin, entry.English)
-	link := fmt.Sprintf("/words/%d.html", entry.HeadwordId)
-	classTxt := ""
+	classTxt := "vocabulary"
 	if entry.IsProperNoun() {
-		classTxt = " class='propernoun'"
+		classTxt = " propernoun'"
 	}
-	return fmt.Sprintf("<a title=\"%s\" %s href=\"%s\">%s</a>", mouseover, classTxt,
-		link, text)
+	return fmt.Sprintf(config.VocabFormat(),
+		entry.Pinyin, entry.English, classTxt, entry.HeadwordId, text)
 }
 
 // Parses a Chinese text into words
