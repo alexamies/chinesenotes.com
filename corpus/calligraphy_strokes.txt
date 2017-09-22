@@ -5,9 +5,7 @@ Drawing a stroke (笔法) involves the start of the stroke (起笔), moving the 
 Some strokes, such as pie (downwards-left curved stroke 撇), na (downwards-right concave character stroke 捺), and gou (a hook shaped stroke 钩) finish with a hook.
 
       <div class="picture">
-        <a href='illustrations_use.php?mediumResolution=brush_movement.png'><img class='use' 
-           src='images/brush_movement.png' alt='Drawing a stroke' 
-           title='Drawing a stroke'/></a>
+        <a href='illustrations_use.php?mediumResolution=brush_movement.png'><img class='use'  src='images/brush_movement.png' alt='Drawing a stroke'   title='Drawing a stroke'/></a>
         <div>
          笔法 Drawing a stroke
         </div>
@@ -18,9 +16,7 @@ Some characters require a hook-like motion to start a stroke (逆锋起笔). Som
 Starting a stroke in a very abrupt way with a straight end leads to a square style (方笔). Ouyang Xun (欧阳询) was known for this style.
 
       <div class='picture'>
-        <a href='illustrations_use.php?mediumResolution=KaishuOuyangxun_square.jpg'><img class='use' 
-           src='images/KaishuOuyangxun_square.jpg' alt='Square Style Brush Work (Ouyang Xun)' 
-           title='Square Style Brush Work (Ouyang Xun)'/></a>
+        <a href='illustrations_use.php?mediumResolution=KaishuOuyangxun_square.jpg'><img class='use'  src='images/KaishuOuyangxun_square.jpg' alt='Square Style Brush Work (Ouyang Xun)'   title='Square Style Brush Work (Ouyang Xun)'/></a>
         <div>
          方笔 Square Style (Ouyang Xun)
         </div>
@@ -29,9 +25,7 @@ Starting a stroke in a very abrupt way with a straight end leads to a square sty
 圆笔 or round brush is a style where the ends of the strokes are rounded in an exagerated turning motion. This style was initially popularized by Yan Zhenqing.
 
       <div class='picture'>
-        <a href='illustrations_use.php?mediumResolution=yuanbi.jpg'><img class='use' 
-           src='images/yuanbi.jpg' alt='Round Style Brush Work (Yan Zhenqing)' 
-           title='Round Style Brush Work (Yan Zhenqing)'/></a>
+        <a href='illustrations_use.php?mediumResolution=yuanbi.jpg'><img class='use'   src='images/yuanbi.jpg' alt='Round Style Brush Work (Yan Zhenqing)'   title='Round Style Brush Work (Yan Zhenqing)'/></a>
         <div>
          圆笔 Round Style Brush Work (Yan Zhenqing)
         </div>

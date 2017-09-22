@@ -4,42 +4,32 @@ Selected Characters
         <tbody>
           <tr>
             <td>
-              <a href='illustrations_use.php?mediumResolution=xia_yanti200.png'><img class='use' 
-                 src='images/xia_yanti200.png' alt='Xia (Yan Style)' 
-                 title='Xia (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=xia_yanti200.png'><img class='use' src='images/xia_yanti200.png' alt='Xia (Yan Style)'  title='Xia (Yan Style)'/></a>
               <div>
                 下 Xia
               </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=zhu_yanti200.png'><img class='use' 
-                 src='images/zhu_yanti200.png' alt='Zhu (Yan Style)' 
-                 title='Zhu (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=zhu_yanti200.png'><img class='use' src='images/zhu_yanti200.png' alt='Zhu (Yan Style)'  title='Zhu (Yan Style)'/></a>
                <div>
                  主 Zhu
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=niu_yanti200.png'><img class='use' 
-                 src='images/niu_yanti200.png' alt='Niu (Yan Style)' 
-                 title='Niu (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=niu_yanti200.png'><img class='use'  src='images/niu_yanti200.png' alt='Niu (Yan Style)' title='Niu (Yan Style)'/></a>
                <div>
                  牛 Niu
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=kou_yanti200.png'><img class='use' 
-                 src='images/kou_yanti200.png' alt='Kou (Yan Style)' 
-                 title='Kou (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=kou_yanti200.png'><img class='use'  src='images/kou_yanti200.png' alt='Kou (Yan Style)' title='Kou (Yan Style)'/></a>
                <div>
                  口  onmouseout="hideToolTip()">口</a>
                  Kou
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=si_yanti200.png'><img class='use' 
-                 src='images/si_yanti200.png' alt='Si (Yan Style)' 
-                 title='Si (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=si_yanti200.png'><img class='use'  src='images/si_yanti200.png' alt='Si (Yan Style)' title='Si (Yan Style)'/></a>
                <div>
                  四 Si
                </div>
@@ -47,41 +37,31 @@ Selected Characters
           </tr>
           <tr>
             <td>
-              <a href='illustrations_use.php?mediumResolution=yi_yanti200.png'><img class='use' 
-                 src='images/yi_yanti200.png' alt='Si (Yan Style)' 
-                 title='Si (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=yi_yanti200.png'><img class='use'  src='images/yi_yanti200.png' alt='Si (Yan Style)'  title='Si (Yan Style)'/></a>
                <div>
                  一 Yi
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=er_yanti200.png'><img class='use' 
-                 src='images/er_yanti200.png' alt='Er (Yan Style)' 
-                 title='Si (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=er_yanti200.png'><img class='use' src='images/er_yanti200.png' alt='Er (Yan Style)' title='Si (Yan Style)'/></a>
                <div>
                  二 Er
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=san_yanti200.png'><img class='use' 
-                 src='images/san_yanti200.png' alt='San (Yan Style)' 
-                 title='San (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=san_yanti200.png'><img class='use' src='images/san_yanti200.png' alt='San (Yan Style)'  title='San (Yan Style)'/></a>
                <div>
                  三 San
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=shi4_yanti200.png'><img class='use' 
-                 src='images/shi4_yanti200.png' alt='Shi (Yan Style)' 
-                 title='Shi (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=shi4_yanti200.png'><img class='use' src='images/shi4_yanti200.png' alt='Shi (Yan Style)'  title='Shi (Yan Style)'/></a>
                <div>
                  士 Shi
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=shi2_yanti200.png'><img class='use' 
-                 src='images/shi2_yanti200.png' alt='Shi (Yan Style)' 
-                 title='Shi (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=shi2_yanti200.png'><img class='use' src='images/shi2_yanti200.png' alt='Shi (Yan Style)' title='Shi (Yan Style)'/></a>
                <div>
                  十 Shi
                </div>
@@ -89,41 +69,31 @@ Selected Characters
           </tr>
           <tr>
             <td>
-              <a href='illustrations_use.php?mediumResolution=zheng_yanti200.png'><img class='use' 
-                 src='images/zheng_yanti200.png' alt='Zheng (Yan Style)' 
-                 title='Zheng (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=zheng_yanti200.png'><img class='use' src='images/zheng_yanti200.png' alt='Zheng (Yan Style)' title='Zheng (Yan Style)'/></a>
                <div>
                  正 Zheng
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=wang_yanti200.png'><img class='use' 
-                 src='images/wang_yanti200.png' alt='Wang (Yan Style)' 
-                 title='Wang (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=wang_yanti200.png'><img class='use'  src='images/wang_yanti200.png' alt='Wang (Yan Style)' title='Wang (Yan Style)'/></a>
                <div>
                  王 Wang
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=ri_yanti200.png'><img class='use' 
-                 src='images/ri_yanti200.png' alt='Ri (Yan Style)' 
-                 title='Ri (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=ri_yanti200.png'><img class='use'  src='images/ri_yanti200.png' alt='Ri (Yan Style)' title='Ri (Yan Style)'/></a>
                <div>
                  日 Ri
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=yue_yanti200.png'><img class='use' 
-                 src='images/yue_yanti200.png' alt='Yue (Yan Style)' 
-                 title='Yue (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=yue_yanti200.png'><img class='use' src='images/yue_yanti200.png' alt='Yue (Yan Style)'  title='Yue (Yan Style)'/></a>
                <div>
                  曰 Yue
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=tian_yanti200.png'><img class='use' 
-                 src='images/tian_yanti200.png' alt='Tian (Yan Style)' 
-                 title='Tian (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=tian_yanti200.png'><img class='use' src='images/tian_yanti200.png' alt='Tian (Yan Style)' title='Tian (Yan Style)'/></a>
                <div>
                  田 Tian
                </div>
@@ -131,41 +101,31 @@ Selected Characters
           </tr>
           <tr>
             <td>
-              <a href='illustrations_use.php?mediumResolution=tian1_yanti200.png'><img class='use' 
-                 src='images/tian1_yanti200.png' alt='Tian (Yan Style)' 
-                 title='Tian (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=tian1_yanti200.png'><img class='use' src='images/tian1_yanti200.png' alt='Tian (Yan Style)' title='Tian (Yan Style)'/></a>
                <div>
                  天 Tian
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=da_yanti200.png'><img class='use' 
-                 src='images/da_yanti200.png' alt='Da (Yan Style)' 
-                 title='Da (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=da_yanti200.png'><img class='use' src='images/da_yanti200.png' alt='Da (Yan Style)' title='Da (Yan Style)'/></a>
                <div>
                  大 Da
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=wen_yanti200.png'><img class='use' 
-                 src='images/wen_yanti200.png' alt='Wen (Yan Style)' 
-                 title='Wen (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=wen_yanti200.png'><img class='use' src='images/wen_yanti200.png' alt='Wen (Yan Style)' title='Wen (Yan Style)'/></a>
                <div>
                  文 Wen
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=ren_tanti200.png'><img class='use' 
-                 src='images/ren_tanti200.png' alt='Ren (Yan Style)' 
-                 title='Ren (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=ren_tanti200.png'><img class='use' src='images/ren_tanti200.png' alt='Ren (Yan Style)' title='Ren (Yan Style)'/></a>
                <div>
                  人 Ren
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=fu_yanti200.png'><img class='use' 
-                 src='images/fu_yanti200.png' alt='Fu (Yan Style)' 
-                 title='Fu (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=fu_yanti200.png'><img class='use' src='images/fu_yanti200.png' alt='Fu (Yan Style)' title='Fu (Yan Style)'/></a>
                <div>
                  父 Fu
                </div>
@@ -173,41 +133,31 @@ Selected Characters
           </tr>
           <tr>
             <td>
-              <a href='illustrations_use.php?mediumResolution=ru_yanti200.png'><img class='use' 
-                 src='images/ru_yanti200.png' alt='Ru (Yan Style)' 
-                 title='Ru (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=ru_yanti200.png'><img class='use' src='images/ru_yanti200.png' alt='Ru (Yan Style)'  title='Ru (Yan Style)'/></a>
                <div>
                  入 Ru
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=ce_trad_yanti200.png'><img class='use' 
-                 src='images/ce_trad_yanti200.png' alt='Ce (Yan Style)' 
-                 title='Ce (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=ce_trad_yanti200.png'><img class='use' src='images/ce_trad_yanti200.png' alt='Ce (Yan Style)'  title='Ce (Yan Style)'/></a>
                <div>
                  冊 Ce
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=nei_yanti200.png'><img class='use' 
-                 src='images/nei_yanti200.png' alt='Nei (Yan Style)' 
-                 title='Nei (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=nei_yanti200.png'><img class='use' src='images/nei_yanti200.png' alt='Nei (Yan Style)' title='Nei (Yan Style)'/></a>
                <div>
                  内 Nei
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=yu_yanti200.png'><img class='use' 
-                 src='images/yu_yanti200.png' alt='Yu (Yan Style)' 
-                 title='Yu (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=yu_yanti200.png'><img class='use' src='images/yu_yanti200.png' alt='Yu (Yan Style)'  title='Yu (Yan Style)'/></a>
                <div>
                  于 Yu
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=zao_yanti200.png'><img class='use' 
-                 src='images/zao_yanti200.png' alt='Zao (Yan Style)' 
-                 title='Zao (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=zao_yanti200.png'><img class='use' src='images/zao_yanti200.png' alt='Zao (Yan Style)'  title='Zao (Yan Style)'/></a>
                <div>
                  早 Zao
                </div>
@@ -215,41 +165,31 @@ Selected Characters
           </tr>
           <tr>
             <td>
-              <a href='illustrations_use.php?mediumResolution=xing_yanti200.png'><img class='use' 
-                 src='images/xing_yanti200.png' alt='Xing (Yan Style)' 
-                 title='Xing (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=xing_yanti200.png'><img class='use' src='images/xing_yanti200.png' alt='Xing (Yan Style)' title='Xing (Yan Style)'/></a>
                <div>
                  行 Xing
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=ping_yanti200.png'><img class='use' 
-                 src='images/ping_yanti200.png' alt='Ping (Yan Style)' 
-                 title='Ping (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=ping_yanti200.png'><img class='use' src='images/ping_yanti200.png' alt='Ping (Yan Style)'  title='Ping (Yan Style)'/></a>
                <div>
                  平 Ping
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=wu_yanti200.png'><img class='use' 
-                 src='images/wu_yanti200.png' alt='Wu (Yan Style)' 
-                 title='Wu (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=wu_yanti200.png'><img class='use'  src='images/wu_yanti200.png' alt='Wu (Yan Style)'  title='Wu (Yan Style)'/></a>
                <div>
                  五 Wu
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=bai4_yanti200.png'><img class='use' 
-                 src='images/bai4_yanti200.png' alt='Bai (Yan Style)' 
-                 title='Bai (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=bai4_yanti200.png'><img class='use' src='images/bai4_yanti200.png' alt='Bai (Yan Style)'  title='Bai (Yan Style)'/></a>
                <div>
                  拜 Bai
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=shi3_yanti200.png'><img class='use' 
-                 src='images/shi3_yanti200.png' alt='Shi (Yan Style)' 
-                 title='Shi (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=shi3_yanti200.png'><img class='use'  src='images/shi3_yanti200.png' alt='Shi (Yan Style)'  title='Shi (Yan Style)'/></a>
                <div>
                  史 Shi
                </div>
@@ -257,25 +197,19 @@ Selected Characters
           </tr>
           <tr>
             <td>
-              <a href='illustrations_use.php?mediumResolution=li4_yanti200.png'><img class='use' 
-                 src='images/li4_yanti200.png' alt='Li (Yan Style)' 
-                 title='Li (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=li4_yanti200.png'><img class='use'  src='images/li4_yanti200.png' alt='Li (Yan Style)'  title='Li (Yan Style)'/></a>
                <div>
                  吏 Li
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=you4_yanti200.png'><img class='use' 
-                 src='images/you4_yanti200.png' alt='You (Yan Style)' 
-                 title='You (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=you4_yanti200.png'><img class='use' src='images/you4_yanti200.png' alt='You (Yan Style)' title='You (Yan Style)'/></a>
                <div>
                  又 You
                </div>
             </td>
             <td>
-              <a href='illustrations_use.php?mediumResolution=dao4_yanti200.png'><img class='use' 
-                 src='images/dao4_yanti200.png' alt='Dao (Yan Style)' 
-                 title='Dao (Yan Style)'/></a>
+              <a href='illustrations_use.php?mediumResolution=dao4_yanti200.png'><img class='use' src='images/dao4_yanti200.png' alt='Dao (Yan Style)' title='Dao (Yan Style)'/></a>
                <div>
                  道 Dao
                </div>
