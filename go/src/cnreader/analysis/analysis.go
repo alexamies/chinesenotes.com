@@ -105,7 +105,7 @@ func decodeUsageExample(usageText string, headword dictionary.HeadwordDef) strin
 			replacementText = replacementText +
 				"<span class='usage-highlight'>" + word + "</span>"
 		} else {
-			ws, ok := dictionary.GetWordSense(word)
+			ws, ok := dictionary.GetWord(word)
 			if ok {
 				replacementText = replacementText + hyperlink(ws, word)
 			} else {
@@ -211,13 +211,22 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 
 // Constructs a hyperlink for a headword, including Pinyin and English in the
 // title attribute for the link mouseover
-func hyperlink(entry dictionary.WordSenseEntry, text string) string {
+func hyperlink(entries []*dictionary.WordSenseEntry, text string) string {
 	classTxt := "vocabulary"
-	if entry.IsProperNoun() {
-		classTxt = " propernoun'"
+	if entries[0].IsProperNoun() {
+		classTxt = classTxt + " propernoun"
+	}
+	pinyin := entries[0].Pinyin
+	english := entries[0].English
+	if len(entries) > 1 {
+		english = ""
+		for i, entry := range entries {
+			english += fmt.Sprintf("%d. %s, ", i + 1, entry.English)
+		}
+		english = english[0:len(english)-2]
 	}
 	return fmt.Sprintf(config.VocabFormat(),
-		entry.Pinyin, entry.English, classTxt, entry.HeadwordId, text)
+		pinyin, english, classTxt, entries[0].HeadwordId, text)
 }
 
 // Parses a Chinese text into words
@@ -705,7 +714,7 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 					wordIds = fmt.Sprintf("%s,%d", wordIds, ws.Id)
 				}
 			}
-			fmt.Fprintf(&b, hyperlink(*entries[0], chunk))
+			fmt.Fprintf(&b, hyperlink(entries, chunk))
 		} else {
 			b.WriteString(chunk)
 		}
