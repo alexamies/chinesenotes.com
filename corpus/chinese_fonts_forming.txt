@@ -1,0 +1,29 @@
+造字原理 Formation of Characters
+
+The Six Methods of forming Chinese characters 六书 described in the historic classic Shuo Wen Jie Zi 说文解字 compiled in around 100 CE are still considered fundamental to the principles of forming Chinese characters. The six types are: Pictogram 象形, Ideogram 指事, Combined Ideogram 会意, Phonogram 形声, Transfer character 转注, and Loan character 假借.
+
+Pictogram 象形
+
+A pictogram is a character derived from a picture. These characters arose from Oracle bone script. There are only about 300 pictograms in Chinese but they are very important in origins of the language. Examples are 日 sun, 月 moon, and 山 mountain.
+
+Ideogram 指事
+
+An ideogram is a character indicating an idea
+
+Combined Ideogram 会意
+
+A combined ideogram is a character that combines the meanings of existing characters as elements.
+
+Phonogram 形声
+
+A phonogram is a character derived from a radical indicating meaning plus phonetic part.
+
+Transfer character 转注
+
+A transfer character is a character with meanings influenced by other characters.
+
+Loan character 假借
+
+A loan character is a character acquiring meanings by phonetic association.
+
+For more on the formation of Chinese characters see the book Chinese Characters [Han Jianting 2008].

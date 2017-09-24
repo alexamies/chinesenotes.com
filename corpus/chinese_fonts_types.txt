@@ -1,0 +1,33 @@
+字体种类 Font Families
+
+汉字字体 Latin Fonts
+
+In traditional printing a font refers to the set of metal type needed to print an entire page, including more than one of each character in the entire character set in a fixed height. With the advent of computers font height (or size) can be more easily varied and the number of identical characters is not an issue. The main characteristics of a computer font are
+
+Weight - this refers to the thickness of the font in relation to its height. Many commonly used fonts for personal computers come with just two weights: normal and bold. However, fonts for professional printing may have many different weights
+Slope - typically either upright or italic
+Width, optical size, and metrics - parameters that can less commonly be varied
+The most common way to measure the size of a font is by its height in points. A point is 1⁄72 inch.
+
+A font family or typeface is a set of fonts with a consistent style. Examples of Latin font families are Arial and Helvetica. Latin font families can be divided into two major families: serifs and sans serifs (without serifs). Serifs are decorations at the ends of the glyphs, as shown circled in red in the diagram below.
+
+Times New, shown above, is a common serif fonts. Arial is a common sans serif font and is shown below.
+
+Arial Font
+A proportional font uses different widths for different Latin characters. For example, a 'w' is wider than an 'i' in a proportional font. The Arial and Times New fonts above are both proportional fonts. Monospaced or fixed width fonts are used for more applications where it is important for columns of characters to line up, such as for a command shell or a programming language source code editor. An example of a monospaced font (Courier New) is shown below.
+
+Courier New - a Monospaced Font
+In addition, script fonts, or calligraphic fonts, are another class of font families. Script fonts imitate hand writing. Artistic fonts are another class that overlap with script fonts. A script font is shown below.
+
+Script Font
+
+Artistic fonts are a class of fonts that overlap with script fonts. There are many, many kinds of artistic fonts. They are commonly seen in advertisements and on product packaging. An artistic font is shown below.
+
+Artistic Font
+Designers of company logos, advertisements, posters, web sites, product packaging, and related graphics look usually look for a stylish and distintive font or combination of fonts to make their design capture people's interest and be memorable. Often designers select less common, modern fonts without being too modern or eccentric. The Vogue shown below is a classic example of this.
+
+Vogue Logo
+To make a logo distincitve, designers often adjust the placement, orientation, color, or font type of some characters within the log. The logo for the Tex rendering engine, shown below, is a classic example, where the 'e' is lowered relative to the other letters.
+
+Tex Logo
+For more on Latin font design, especially for web sites, see the book The Principles of Beautiful Web Design [Beaird 2007].

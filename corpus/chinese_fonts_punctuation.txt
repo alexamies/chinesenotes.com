@@ -1,0 +1,29 @@
+标点 Punctuation
+
+In classical Chinese no punctuation was used, which adds to the challenge of reading it. Chinese punctuation today is similar to English punctuation with differences and uses fullwidth form.
+
+。Period 句号
+， Comma 逗号
+、Enumeration comma 顿号
+！Exclamation mark 感叹号
+？Question mark 问号
+：Colon 冒号
+；Semicolon 分号
+（ ）Brackets 括号
+【 】 or ［］Square brackets 方括号
+「...」Quotation marks 引号
+《... 》Title marks 书名号 used to refer to titles of books, articles, etc
+· Centred dot mark 间隔号 Used to separate foreign names, for exmaple, first name and last name
+See the article Use of Punctuation Marks [Hong Kong Department of Technology 1996] for more information on punctuation. See [Unicode Consortium 2009] for a list of CJK symbols and their Unicode representations.
+
+全角和半角字符 Fullwidth and Halfwidth Forms
+
+Chinese characters tend to be larger than Latin characters so to deal with mixing the two types of symbols together in text fullwidth and halfwidth forms have been developed. The fullwidth forms make Latin text seem highly spread out. The same problem applies to Katakana (Japanese) and Hangul (Korean) characters. As the name suggests, a fullwidth form is a Latin (Katakana or Hangul) character that takes up the full width of a Chinese character. A halfwidth from takes up half the width of a Chinese character. The difference is illustrated in the figure below.
+
+Unicode range U+FF01—FF5E has the fullwidth forms for the ASCII characters 21 to 7E.
+
+字汇 Vocabulary
+
+How many characters is there and how many is enough? The Commonly Used Characters in Modern Chinese [Ministry of Education of the People's Republic of China 1988] defines 2,500 commonly used (simplified) characters and another 1,000 secondarily commonly used characters. To arrive at this number the Ministry of Education analyzed the People's Daily and other major newspapers over a period of several years and found that the 2,500 commonly used characters formed 97.7% of the text and the 1,000 secondarily commonly used characters formed 1.51%, or 99.48% total for the combined 3,500 characters. [Jun Da 2004] lists the frequency of use this set of characters in a range of texts. Readers of literature, historic, medical, and scientific texts will need to know more than this number. The Kangxi Dictionary [Zhang Yushu and Chen Tingjing 1716], considered the first modern Chinese dictionary, defines over 47,000 characters. The Hanyu Da Zidian [Hanyu Da Zidian Editorial Committee 1995] defines 54,678 characters.
+
+Today, most words in Chinese have two characters. Chinese went through a transition from predominantly single character words to predominantly two character words. Making up new characters for each word meant that too many characters to keep track of were invented. Also, with the one-to-one relation between character and syllable, the spoken language was becoming too ambiguous. So gradually more two character words were introduced to express more concepts and give more precision to their meaning. Some interesting relics are left in the language from this transition. For example, the character 粁 is an archaic form for kilometer that combines the rice radical 米, which also means meter, with 千, meaning a thousand, together to mean a thousand meters.
