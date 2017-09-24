@@ -1,0 +1,20 @@
+# Source file, Gloss output file, title
+chinese_fonts.html	chinese_fonts.php	导言 Introduction
+chinese_fonts_using.html	chinese_fonts_using.php	如何拿到并用汉字字体 Getting and Using Chinese Fonts
+chinese_fonts_types.txt	chinese_fonts_types.php	字体种类 Font Families
+chinese_fonts_chinese.html	chinese_fonts_chinese.php	汉字字体 Chinese Fonts
+chinese_fonts_encoding.html	chinese_fonts_encoding.php	中文内码 Encoding Chinese Text
+chinese_fonts_graphics.html	chinese_fonts_graphics.php	计算机制图 Computer Graphics
+chinese_fonts_technologies.html	chinese_fonts_technologies.php	字体技术 Font Technologies
+chinese_fonts_software.html	chinese_fonts_software.php	制图软件 Graphics Software
+chinese_fonts_fontforge.html	chinese_fonts_fontforge.php	编辑字体软件 Font Editing Software
+chinese_fonts_history.html	chinese_fonts_history.php	历史 History
+chinese_fonts_forming.txt	chinese_fonts_forming.php	造字原理 Formation of Characters
+chinese_fonts_characters.html	chinese_fonts_characters.php	笔画 Strokes
+chinese_fonts_stroke_group.html	chinese_fonts_stroke_group.php	笔画的集合 Groups of Strokes
+chinese_fonts_structure.html	chinese_fonts_structure.php	汉字的结构 Character Structure
+chinese_fonts_punctuation.txt	chinese_fonts_punctuation.php	标点 Punctuation
+chinese_fonts_calligraphy.html	chinese_fonts_calligraphy.php	书法字体 Calligraphic Fonts
+chinese_fonts_ref.html	chinese_fonts_ref.php	参考书目 References
+chinese_fonts_yanqin.html	chinese_fonts_yanqin.php	颜勤礼碑 Yan Family Ceremonial Inscription
+chinese_fonts_jinwen_scans.html	chinese_fonts_jinwen_scans.php	金文与篆书扫描 Bronze Script and Seal Script Scans
