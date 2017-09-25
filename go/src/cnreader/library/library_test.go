@@ -1,4 +1,4 @@
-package corpus
+package library
 
 import (
 	"fmt"
@@ -13,6 +13,6 @@ func TestLibrary(t *testing.T) {
 	}
 }
 
-func TestWriteLibraryFile(t *testing.T) {
-	WriteLibraryFile()
+func TestWriteLibraryFiles(t *testing.T) {
+	WriteLibraryFiles()
 }

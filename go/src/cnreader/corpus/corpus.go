@@ -54,10 +54,15 @@ func GetCollectionEntry(collectionFile string) (CollectionEntry, error)  {
 
 // Gets the list of source and destination files for HTML conversion
 func Collections() []CollectionEntry {
-	collectionsFile := config.ProjectHome() + "/" + collectionsFile
+	return CorpusCollections(collectionsFile)
+}
+
+// Gets the list of collections in the corpus
+func CorpusCollections(cFile string) []CollectionEntry {
+	collectionsFile := config.ProjectHome() + "/" + cFile
 	file, err := os.Open(collectionsFile)
 	if err != nil {
-		log.Fatal("Collections: Error opening collection file.", err)
+		log.Fatal("CorpusCollections: Error opening collection file.", err)
 	}
 	defer file.Close()
 	reader := csv.NewReader(file)

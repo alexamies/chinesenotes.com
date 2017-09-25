@@ -9,12 +9,13 @@ import (
 	"cnreader/config"
 	"cnreader/corpus"
 	"cnreader/dictionary"
+	"cnreader/library"
 	"log"
-	"runtime/pprof"
 	"os"
+	"runtime/pprof"
 )
 
-//Entry point for the chinesenotes command line tool.
+// Entry point for the chinesenotes command line tool.
 // Default action is to write out all corpus entries to HTML files
 func main() {
 	// Command line flags
@@ -30,6 +31,8 @@ func main() {
 	var hwFiles = flag.Bool("hwfiles", false, "Compute and write " +
 		"HTML entries for each headword, writing the files to the "+
 		"web/words directory.")
+	var librarymeta = flag.Bool("librarymeta", false, "Top level " +
+		"collection entries for the digital library.")
 	var memprofile = flag.String("memprofile", "", "write memory profile to this file")
 	flag.Parse()
 
@@ -63,6 +66,9 @@ func main() {
 	} else if *hwFiles {
 		log.Printf("main: Writing word entries for headwords\n")
 		analysis.WriteHwFiles()
+	} else if *librarymeta {
+		log.Printf("main: Writing digital library metadata\n")
+		library.WriteLibraryFiles()
 	} else {
 		log.Printf("main: Writing out entire corpus\n")
 		analysis.WriteCorpusAll()

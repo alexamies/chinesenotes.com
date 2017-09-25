@@ -1,12 +1,14 @@
 /*
 Package for scanning the corpora making up the library
 */
-package corpus
+package library
 
 import (
 	"bufio"
 	"cnreader/config"
+	"cnreader/corpus"
 	"encoding/csv"
+	"fmt"
 	"log"
 	"os"
 	"text/template"
@@ -14,7 +16,12 @@ import (
 )
 
 type Corpus struct {
-	Title, ShortName string
+	Title, ShortName, Status, FileName string
+}
+
+type CorpusMeta struct {
+	Title, Summary, DateUpdated string
+	Collections []corpus.CollectionEntry
 }
 
 type LibraryMeta struct {
@@ -53,23 +60,25 @@ func loadLibrary() []Corpus {
 	}
 	corpora = make([]Corpus, 0)
 	for i, row := range rawCSVdata {
-		if len(row) < 2 {
+		if len(row) < 4 {
 			log.Fatal("library.loadLibrary: not enough rows in file ", i,
 				      len(row), fname)
 	  	}
 		title := row[0]
 		shortName := row[1]
-		corpus := Corpus{title, shortName}
+		status := row[2]
+		fileName := row[3]
+		corpus := Corpus{title, shortName, status, fileName}
 		corpora = append(corpora, corpus)
 	}
 	return corpora
 }
 
 // Writes a HTML file describing the corpora in the library
-func WriteLibraryFile() {
+func writeLibraryFile() {
 	dateUpdated := time.Now().Format("2006-01-02")
-	libraryMeta := LibraryMeta{"Library", "Corpora in the Library", dateUpdated,
-							corpora}
+	libraryMeta := LibraryMeta{"Library", "Top level collection in the Library",
+				dateUpdated, corpora}
 	outputFile := config.ProjectHome() + "/web/library.html"
 	f, err := os.Create(outputFile)
 	if err != nil {
@@ -85,4 +94,32 @@ func WriteLibraryFile() {
 		log.Fatal(err)
 	}
 	w.Flush()
+}
+
+// Writes a HTML file describing the corpora in the library and for each corpus
+// in the library
+func WriteLibraryFiles() {
+	writeLibraryFile()
+	dateUpdated := time.Now().Format("2006-01-02")
+	for _, c := range corpora {
+		outputFile := fmt.Sprintf("%s/web/%s.html", config.ProjectHome(),
+					c.ShortName)
+		fName := fmt.Sprintf("data/corpus/%s", c.FileName)
+		collections := corpus.CorpusCollections(fName)
+		corpusMeta := CorpusMeta{c.Title, "", dateUpdated, collections}
+		f, err := os.Create(outputFile)
+		if err != nil {
+			log.Fatal("library.WriteLibraryFiles: could not open file", err)
+		}
+		defer f.Close()
+		w := bufio.NewWriter(f)
+		templFile := config.TemplateDir() + "/corpus-list-template.html"
+		tmpl:= template.Must(template.New(
+					"corpus-list-template.html").ParseFiles(templFile))
+		err = tmpl.Execute(w, corpusMeta)
+		if err != nil {
+			log.Fatal(err)
+		}
+		w.Flush()
+	}
 }
