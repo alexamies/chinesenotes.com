@@ -11,16 +11,13 @@ something like
 ```
 $ export PATH=$PATH:/usr/local/go/bin
 ```
-Make sure that GOROOT is set properly to where Go is installed. For example,
-```
-export GOROOT=/usr/local/go
-```
 ###2 Get the source code and add the directory $CNREADER_HOME/go to your GOPATH
 ```
-export CNREADER_HOME=#Whatever it is
-cd $CNREADER_HOME
-git pull origin master
-cd $CNREADER_HOME/go
+sudo apt-get install -y git
+git clone https://github.com/alexamies/chinesenotes.com.git
+cd chinesenotes.com
+export CNREADER_HOME=`pwd`
+cd go
 source 'path.bash.inc'
 ```
 ###3 build the project
@@ -30,7 +27,6 @@ go build
 ```
 ##4 Generate word definition files
 ```
-mkdir $CNREADER_HOME/web/words
 ./cnreader -hwfiles
 ```
 
@@ -86,3 +82,6 @@ go test
 ## Potential issues
 If you run out of memory running the cnreader command then you may need to increase the locked memory. 
 Edit the /etc/security/limits.conf file to increase this.
+
+## Analyzing your own corpus
+The cnreader program looks at the file $CNREADER_HOME/data/corpus/collections.csv and analyzes the lists of texts under there. To analyze your own corpus, create a new directory tree with your own collections.csv file and set the environment variable CNREADER_HOME to the top of that directory.
