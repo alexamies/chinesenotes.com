@@ -26,7 +26,6 @@
 比较	Comparison	\N	\N
 计算机科学	Computer Science	\N	\N
 儒家	Confucianism	\N	\N
-容器	Container	\N	\N
 化妆品	Cosmetic	\N	\N
 文化	Culture	\N	\N
 习俗	Customs	\N	\N
@@ -129,5 +128,6 @@
 玩具	Toys	\N	\N
 用具	Utensil	\N	\N
 武器	Weapons	\N	\N
+异体字	Variant	\N	\N
 书	Written Chinese	\N	\N
 动物学	Zoology	\N	\N
