@@ -6,10 +6,11 @@ package find
 import (
 	"cnweb/applog"
 	"database/sql"
-	"fmt"
+	"context"
+	"errors"
 	_ "github.com/go-sql-driver/mysql"
-	"log"
-	"os"
+	"time"
+	"cnweb/webconfig"
 )
 
 var (
@@ -43,72 +44,83 @@ type QueryResults struct {
 
 // Open database connection and prepare statements
 func init() {
-	dbhost := "mariadb"
-	host := os.Getenv("DBHOST")
-	if host != "" {
-		dbhost = host
+	err := initStatements()
+	if err != nil {
+		applog.Error("init: error preparing database statements, retrying",
+			err)
+		time.Sleep(60000 * time.Millisecond)
+		err = initStatements()
+		conString := webconfig.DBConfig()
+		applog.Fatal("init: error preparing database statements, giving up",
+			conString, err)
 	}
-	dbport := "3306"
-	port := os.Getenv("DBPORT")
-	if port != "" {
-		dbport = port
+	words, err := findWords("你好")
+	if err != nil {
+		conString := webconfig.DBConfig()
+		applog.Fatal("init: got error with findWords ", conString, err)
 	}
-	dbuser := "3306"
-	user := os.Getenv("DBUSER")
-	if user != "" {
-		dbuser = user
+	if len(words) != 1 {
+		applog.Error("init: could not find my word ", len(words))
+	} else {
+		applog.Info("init: Ready to go")
 	}
-	dbpass := os.Getenv("DBPASSWORD")
-	dbname := "corpus_index"
-	d := os.Getenv("DATABASE")
-	if d != "" {
-		dbname = d
-	}
-	conString := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s", dbuser, dbpass, dbhost,
-		dbport, dbname)
-	//log.Printf("find.init(), conString: %s", conString)
+}
+
+func initStatements() error {
+	conString := webconfig.DBConfig()
 	db, err := sql.Open("mysql", conString)
 	if err != nil {
-		log.Fatal("FATAL: could not connect to the database, ",
-			err)
-		panic(err.Error())
+		return err
 	}
 	database = db
 
-	stmt, err := database.Prepare("SELECT title, gloss_file FROM collection WHERE title LIKE ? LIMIT 50")
+	ctx := context.Background()
+	stmt, err := database.PrepareContext(ctx,
+		"SELECT title, gloss_file FROM collection WHERE title LIKE ? LIMIT 50")
     if err != nil {
-        applog.Fatal("find.init() Error preparing stmt: ", err)
+        applog.Error("find.init() Error preparing collection stmt: ", err)
+        return err
     }
     findColStmt = stmt
 
-	cstmt, err := database.Prepare("SELECT count(title) FROM collection WHERE title LIKE ?")
+	cstmt, err := database.PrepareContext(ctx,
+		"SELECT count(title) FROM collection WHERE title LIKE ?")
     if err != nil {
-        applog.Fatal("find.init() Error preparing cstmt: ", err)
+        applog.Error("find.init() Error preparing cstmt: ", err)
+        return err
     }
     countColStmt = cstmt
 
-	dstmt, err := database.Prepare("SELECT title, gloss_file FROM document WHERE title LIKE ? LIMIT 50")
+	dstmt, err := database.PrepareContext(ctx,
+		"SELECT title, gloss_file FROM document WHERE title LIKE ? LIMIT 50")
     if err != nil {
-        applog.Fatal("find.init() Error preparing dstmt: ", err)
+        applog.Error("find.init() Error preparing dstmt: ", err)
+        return err
     }
     findDocStmt = dstmt
 
-	cdstmt, err := database.Prepare("SELECT count(title) FROM document WHERE title LIKE ?")
+	cdstmt, err := database.PrepareContext(ctx,
+		"SELECT count(title) FROM document WHERE title LIKE ?")
     if err != nil {
-        applog.Fatal("find.init() Error preparing cDocStmt: ", err)
+        applog.Error("find.init() Error preparing cDocStmt: ", err)
+        return err
     }
     countDocStmt = cdstmt    
 
-	fwstmt, err := database.Prepare("SELECT simplified, traditional, pinyin, english, headword FROM words WHERE simplified = ? OR traditional = ? LIMIT 1")
+	fwstmt, err := database.PrepareContext(ctx, 
+		"SELECT simplified, traditional, pinyin, english, headword FROM words WHERE simplified = ? OR traditional = ? LIMIT 1")
     if err != nil {
-        applog.Fatal("find.init() Error preparing fwstmt: ", err)
+        applog.Error("find.init() Error preparing fwstmt: ", err)
+        return err
     }
     findWordStmt = fwstmt
+    return nil
 }
 
 func countCollections(query string) int {
 	var count int
-	results, err := countColStmt.Query("%" + query + "%")
+	ctx := context.Background()
+	results, err := countColStmt.QueryContext(ctx, "%" + query + "%")
 	results.Next()
 	results.Scan(&count)
 	if err != nil {
@@ -120,7 +132,8 @@ func countCollections(query string) int {
 
 func countDocuments(query string) int {
 	var count int
-	results, err := countDocStmt.Query("%" + query + "%")
+	ctx := context.Background()
+	results, err := countDocStmt.QueryContext(ctx, "%" + query + "%")
 	results.Next()
 	results.Scan(&count)
 	if err != nil {
@@ -131,7 +144,8 @@ func countDocuments(query string) int {
 }
 
 func findCollections(query string) []Collection {
-	results, err := findColStmt.Query("%" + query + "%")
+	ctx := context.Background()
+	results, err := findColStmt.QueryContext(ctx, "%" + query + "%")
 	if err != nil {
 		applog.Error("findCollections, Error for query: ", query, err)
 	}
@@ -147,7 +161,8 @@ func findCollections(query string) []Collection {
 }
 
 func findDocuments(query string) []Document {
-	results, err := findDocStmt.Query("%" + query + "%")
+	ctx := context.Background()
+	results, err := findDocStmt.QueryContext(ctx, "%" + query + "%")
 	if err != nil {
 		applog.Error("findDocuments, Error for query: ", query, err)
 	}
@@ -162,22 +177,38 @@ func findDocuments(query string) []Document {
 	return documents
 }
 
-func FindDocuments(query string) QueryResults {
+func FindDocuments(query string) (QueryResults, error) {
+	if query == "" {
+		applog.Error("FindDocuments, Empty query string")
+		return QueryResults{}, errors.New("Empty query string")
+	}
 	applog.Info("FindDocuments, ", query)
-	words := findWords(query)
+	words, err := findWords(query)
+	if err != nil {
+		return QueryResults{}, err
+	}
 	nCol := countCollections(query)
 	nDoc := countDocuments(query)
 	collections := findCollections(query)
 	documents := findDocuments(query)
 	applog.Info("FindDocuments, collection, doc count: ", nCol, nDoc)
-	return QueryResults{nCol, nDoc, collections, documents, words}
+	return QueryResults{nCol, nDoc, collections, documents, words}, err
 }
 
 // Returns the headword words in the query (only a single word at the moment)
-func findWords(query string) []Word {
-	results, err := findWordStmt.Query(query, query)
+func findWords(query string) ([]Word, error) {
+	ctx := context.Background()
+	results, err := findWordStmt.QueryContext(ctx, query, query)
 	if err != nil {
 		applog.Error("findWords, Error for query: ", query, err)
+		// Sleep for a while, reinitialize, and retry
+		time.Sleep(2000 * time.Millisecond)
+		initStatements()
+		results, err = findWordStmt.QueryContext(ctx, query, query)
+		if err != nil {
+			applog.Error("findWords, Give up after retry: ", query, err)
+			return []Word{}, err
+		}
 	}
 	words := []Word{}
 	for results.Next() {
@@ -185,7 +216,7 @@ func findWords(query string) []Word {
 		var hw sql.NullInt64
 		var trad sql.NullString
 		results.Scan(&word.Simplified, &trad, &word.Pinyin, &word.English, &hw)
-		applog.Error("findWords, simplified, headword = ", word.Simplified, hw)
+		applog.Info("findWords, simplified, headword = ", word.Simplified, hw)
 		if trad.Valid {
 			word.Traditional = trad.String
 		}
@@ -194,5 +225,5 @@ func findWords(query string) []Word {
 		}
 		words = append(words, word)
 	}
-	return words
+	return words, nil
 }

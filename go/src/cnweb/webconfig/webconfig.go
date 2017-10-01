@@ -6,6 +6,7 @@ package webconfig
 import (
 	"bufio"
 	"cnweb/applog"
+	"fmt"
 	"io"
 	"os"
 	"strings"
@@ -15,6 +16,32 @@ var configVars map[string]string
 
 func init() {
 	configVars = readConfig()
+}
+
+func DBConfig() string {
+	dbhost := "mariadb"
+	host := os.Getenv("DBHOST")
+	if host != "" {
+		dbhost = host
+	}
+	dbport := "3306"
+	port := os.Getenv("DBPORT")
+	if port != "" {
+		dbport = port
+	}
+	dbuser := "3306"
+	user := os.Getenv("DBUSER")
+	if user != "" {
+		dbuser = user
+	}
+	dbpass := os.Getenv("DBPASSWORD")
+	dbname := "corpus_index"
+	d := os.Getenv("DATABASE")
+	if d != "" {
+		dbname = d
+	}
+	return fmt.Sprintf("%s:%s@tcp(%s:%s)/%s", dbuser, dbpass, dbhost,
+		dbport, dbname)
 }
 
 // Gets all configuration variables
@@ -35,7 +62,11 @@ func GetVar(key string) string {
 // Reads the configuration file with project variables
 func readConfig() map[string]string {
 	vars := make(map[string]string)
-	fileName := "webconfig.yaml"
+	cnwebHome := os.Getenv("CNWEB_HOME")
+	if cnwebHome == "" {
+		cnwebHome = "."
+	}
+	fileName := fmt.Sprintf("%s/webconfig.yaml", cnwebHome)
 	configFile, err := os.Open(fileName)
 	if err != nil {
 		if err != nil {

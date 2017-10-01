@@ -50,14 +50,21 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 	if len(query) > 0 {
 		q = query[0]
 	}
-	results := find.FindDocuments(q)
+	results, err := find.FindDocuments(q)
+	if err != nil {
+		applog.Error("main.findHandler searching docs, ", err)
+		http.Error(response, "Error searching docs", 500)
+		return
+	}
 	resultsJson, err := json.Marshal(results)
 	if err != nil {
-		applog.Error("main.handler error marshalling JSON, ", err)
+		applog.Error("main.findHandler error marshalling JSON, ", err)
+		http.Error(response, "Error marshalling results", 500)
+	} else {
+		//applog.Info("handler, results returned: ", string(resultsJson))
+		response.Header().Set("Content-Type", "application/json; charset=utf-8")
+		fmt.Fprintf(response, string(resultsJson))
 	}
-	//applog.Info("handler, results returned: ", string(resultsJson))
-	response.Header().Set("Content-Type", "application/json; charset=utf-8")
-	fmt.Fprintf(response, string(resultsJson))
 }
 
 func loginHandler(w http.ResponseWriter, r *http.Request) {
