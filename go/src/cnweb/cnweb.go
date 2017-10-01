@@ -78,7 +78,12 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 	username := r.PostFormValue("UserName")
 	applog.Info("loginHandler: username = ", username)
 	password := r.PostFormValue("Password")
-	users := identity.CheckLogin(username, password)
+	users, err := identity.CheckLogin(username, password)
+	if err != nil {
+		applog.Error("main.loginHandler checking login, ", err)
+		http.Error(w, "Error checking login", 500)
+		return
+	}
 	if len(users) != 1 {
 		applog.Error("loginHandler: user not found", username)
 	} else {
@@ -93,7 +98,7 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 			cookie := &http.Cookie{
         		Name: "session",
         		Value: sessionid,
-        		Domain: identity.GetSiteDomain(),
+        		Domain: webconfig.GetSiteDomain(),
         		Path: "/",
         		MaxAge: 86400*30, // One month
         	}
@@ -161,7 +166,7 @@ func sessionHandler(w http.ResponseWriter, r *http.Request) {
 		cookie := &http.Cookie{
         	Name: "session",
         	Value: sessionid,
-        	Domain: identity.GetSiteDomain(),
+        	Domain: webconfig.GetSiteDomain(),
         	Path: "/",
         	MaxAge: 86400, // One day
         }

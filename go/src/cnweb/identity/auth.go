@@ -2,13 +2,15 @@ package identity
 
 import (
 	"cnweb/applog"
+	"cnweb/webconfig"
+	"context"
 	"crypto/rand"
 	"crypto/sha256"
 	"database/sql"
 	"encoding/base64"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
-	"os"
+	"time"
 )
 
 var (
@@ -32,30 +34,23 @@ type UserInfo struct {
 	UserName, Email, FullName, Role string
 }
 
-// Open database connection and prepare statements
 func init() {
+	err := initStatements()
+	if err != nil {
+		applog.Error("identity/init: error preparing database statements, retrying",
+			err)
+		time.Sleep(60000 * time.Millisecond)
+		err = initStatements()
+		conString := webconfig.DBConfig()
+		applog.Fatal("identity/init: error preparing database statements, giving up",
+			conString, err)
+	}
+	applog.Info("identity/init: Ready to go")
+}
 
-	localhost := "localhost"
-	domain = &localhost
-	site_domain := os.Getenv("SITEDOMAIN")
-	if site_domain != "" {
-		domain = &site_domain
-	}
-	dbhost := "mariadb"
-	host := os.Getenv("DBHOST")
-	if host != "" {
-		dbhost = host
-	}
-	dbport := "3306"
-	dbuser := os.Getenv("DBUSER")
-	dbpass := os.Getenv("DBPASSWORD")
-	dbname := "corpus_index"
-	d := os.Getenv("DATABASE")
-	if d != "" {
-		dbname = d
-	}
-	conString := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s", dbuser, dbpass, dbhost,
-		dbport, dbname)
+// Open database connection and prepare statements
+func initStatements() error {
+	conString := webconfig.DBConfig()
 	db, err := sql.Open("mysql", conString)
 	if err != nil {
 		applog.Fatal("FATAL: could not connect to the database, ",
@@ -64,7 +59,8 @@ func init() {
 	}
 	database = db
 
-	stmt1, err := database.Prepare(
+	ctx := context.Background()
+	stmt1, err := database.PrepareContext(ctx,
 		`SELECT user.UserID, UserName, Email, FullName, Role 
 		FROM user, passwd 
 		WHERE UserName = ? 
@@ -72,63 +68,77 @@ func init() {
 		AND Password = ?
 		LIMIT 1`)
     if err != nil {
-        applog.Fatal("auth.init() Error preparing stmt1: ", err)
+        applog.Error("auth.init() Error preparing stmt1: ", err)
+        return err
     }
     loginStmt = stmt1
 
-	stmt2, err := database.Prepare(
+	stmt2, err := database.PrepareContext(ctx,
 		`INSERT INTO
 		  session (SessionID, UserID, Authenticated)
 		VALUES (?, ?, ?)`)
     if err != nil {
-        applog.Fatal("auth.init() Error preparing stmt2: ", err)
+        applog.Error("auth.init() Error preparing stmt2: ", err)
+        return err
     }
     saveSessionStmt = stmt2
 
     // Need to fix use of username in session table. Should be UserId
-	stmt3, err := database.Prepare(
+	stmt3, err := database.PrepareContext(ctx,
 		`SELECT user.UserID, UserName, Email, FullName, Role, Authenticated
 		FROM user, session 
 		WHERE SessionID = ? 
 		AND user.UserID = session.UserID
 		LIMIT 1`)
     if err != nil {
-        applog.Fatal("auth.init() Error preparing stmt3: ", err)
+        applog.Error("auth.init() Error preparing stmt3: ", err)
+        return err
     }
     checkSessionStmt = stmt3
 
-	stmt4, err := database.Prepare(
+	stmt4, err := database.PrepareContext(ctx,
 		`UPDATE session SET
 		Authenticated = 0
 		WHERE SessionID = ?`)
     if err != nil {
-        applog.Fatal("auth.init() Error preparing stmt4: ", err)
+        applog.Error("auth.init() Error preparing stmt4: ", err)
+        return err
     }
     logoutStmt = stmt4
 
-	stmt5, err := database.Prepare(
+	stmt5, err := database.PrepareContext(ctx,
 		`UPDATE session SET
 		Authenticated = ?,
 		UserID = ?
 		WHERE SessionID = ?`)
     if err != nil {
-        applog.Fatal("auth.init() Error preparing stmt4: ", err)
+        applog.Error("auth.init() Error preparing stmt4: ", err)
+        return err
     }
     updateSessionStmt = stmt5
-
+    return nil
 }
 
 // Check password when the user logs in
-func CheckLogin(username, password string) []UserInfo {
+func CheckLogin(username, password string) ([]UserInfo, error) {
 	h := sha256.New()
 	h.Write([]byte(password))
 	hstr := fmt.Sprintf("%x", h.Sum(nil))
 	applog.Info("CheckLogin, username, hstr:", username, hstr)
-	results, err := loginStmt.Query(username, hstr)
+	ctx := context.Background()
+	results, err := loginStmt.QueryContext(ctx, username, hstr)
+	defer results.Close()
 	if err != nil {
 		applog.Error("CheckLogin, Error for username: ", username, err)
+		// Sleep for a while, reinitialize, and retry
+		time.Sleep(2000 * time.Millisecond)
+		initStatements()
+		results, err = loginStmt.QueryContext(ctx, username, hstr)
+		if err != nil {
+			applog.Error("CheckLogin, Give up after retry: ", username, err)
+			return []UserInfo{}, err
+		}
 	}
-	defer results.Close()
 
 	users := []UserInfo{}
 	for results.Next() {
@@ -137,7 +147,7 @@ func CheckLogin(username, password string) []UserInfo {
 			&user.Role)
 		users = append(users, user)
 	}
-	return users
+	return users, nil
 }
 
 // Check session when the user requests a page
@@ -153,7 +163,8 @@ func CheckSession(sessionid string) SessionInfo {
 // Check session when the user requests a page
 func checkSessionStore(sessionid string) []SessionInfo {
 	applog.Info("CheckSession, sessionid: %s", sessionid)
-	results, err := checkSessionStmt.Query(sessionid)
+	ctx := context.Background()
+	results, err := checkSessionStmt.QueryContext(ctx, sessionid)
 	if err != nil {
 		applog.Error("checkSessionStore, Error: ", err)
 	}
@@ -174,11 +185,6 @@ func checkSessionStore(sessionid string) []SessionInfo {
 }
 
 // Generate a new session id after login
-func GetSiteDomain() string {
-	return *domain
-}
-
-// Generate a new session id after login
 func IsAuthorized(user UserInfo, permission string) bool {
 	if user.Role == "admin" {
 	  return true
@@ -188,7 +194,8 @@ func IsAuthorized(user UserInfo, permission string) bool {
 
 // Log the user out of the current session
 func Logout(sessionid string) {
-	result, err := logoutStmt.Exec(sessionid)
+	ctx := context.Background()
+	result, err := logoutStmt.ExecContext(ctx, sessionid)
 	if err != nil {
 		applog.Error("Logout, Error: ", err)
 	} else {
@@ -217,7 +224,8 @@ func NewSessionId() string {
 // Save an authenticated session to the database
 func SaveSession(sessionid string, userInfo UserInfo, authenticated int) SessionInfo {
 	applog.Info("SaveSession, sessionid:", sessionid)
-	result, err := saveSessionStmt.Exec(sessionid, userInfo.UserID,
+	ctx := context.Background()
+	result, err := saveSessionStmt.ExecContext(ctx, sessionid, userInfo.UserID,
 		authenticated)
 	if err != nil {
 		applog.Info("SaveSession, Error for username: ", userInfo.UserName, err)
@@ -250,8 +258,9 @@ func InvalidSession() SessionInfo {
 
 // Log a user in when they already have an unauthenticated session
 func UpdateSession(sessionid string, userInfo UserInfo, authenticated int) SessionInfo {
-	result, err := updateSessionStmt.Exec(authenticated, userInfo.UserID,
-		sessionid)
+	ctx := context.Background()
+	result, err := updateSessionStmt.ExecContext(ctx, authenticated,
+		userInfo.UserID, sessionid)
 	if err != nil {
 		applog.Error("UpdateSession, Error: ", err)
 		return InvalidSession()

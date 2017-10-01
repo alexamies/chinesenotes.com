@@ -12,9 +12,18 @@ import (
 	"strings"
 )
 
-var configVars map[string]string
+var (
+	configVars map[string]string
+	domain *string
+)
 
 func init() {
+	localhost := "localhost"
+	domain = &localhost
+	site_domain := os.Getenv("SITEDOMAIN")
+	if site_domain != "" {
+		domain = &site_domain
+	}
 	configVars = readConfig()
 }
 
@@ -47,6 +56,11 @@ func DBConfig() string {
 // Gets all configuration variables
 func GetAll() map[string]string {
 	return configVars
+}
+
+// Get the domain name of the site
+func GetSiteDomain() string {
+	return *domain
 }
 
 // Gets a configuration variable value

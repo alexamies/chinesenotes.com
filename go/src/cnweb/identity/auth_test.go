@@ -1,4 +1,4 @@
-// Unit tests for the config package
+// Unit tests for the identity package
 package identity
 
 import (
@@ -8,12 +8,15 @@ import (
 
 // Test package initialization, which requires a database connection
 func TestInit(t *testing.T) {
-	log.Printf("TestCheckLogin: Begin unit tests\n")
+	log.Printf("TestInit: Begin unit tests\n")
 }
 
 // Test check login method
 func TestCheckLogin1(t *testing.T) {
-	user := CheckLogin("guest", "fgs0722")
+	user, err := CheckLogin("guest", "fgs0722")
+	if err != nil {
+		t.Error("TestCheckLogin1: error, ", err)
+	}
 	if len(user) != 1 {
 		t.Error("TestCheckLogin1: len(user) != 1, ", len(user))
 	}
@@ -21,7 +24,10 @@ func TestCheckLogin1(t *testing.T) {
 
 // Test check login method
 func TestCheckLogin2(t *testing.T) {
-	user := CheckLogin("admin", "changeme")
+	user, err := CheckLogin("admin", "changeme")
+	if err != nil {
+		t.Error("TestCheckLogin2: error, ", err)
+	}
 	if len(user) != 0 {
 		t.Error("TestCheckLogin2: len(user) != 0, ", len(user))
 	}
@@ -78,14 +84,6 @@ func TestNewSessionId(t *testing.T) {
 	sessionid := NewSessionId()
 	if sessionid == "invalid" {
 		t.Error("TestNewSessionId: ", sessionid)
-	}
-}
-
-// Test check login method
-func TestGetSiteDomain(t *testing.T) {
-	domain := GetSiteDomain()
-	if domain != "localhost" {
-		t.Error("TestGetSiteDomain: domain = ", domain)
 	}
 }
 

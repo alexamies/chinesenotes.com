@@ -46,23 +46,23 @@ type QueryResults struct {
 func init() {
 	err := initStatements()
 	if err != nil {
-		applog.Error("init: error preparing database statements, retrying",
+		applog.Error("find/init: error preparing database statements, retrying",
 			err)
 		time.Sleep(60000 * time.Millisecond)
 		err = initStatements()
 		conString := webconfig.DBConfig()
-		applog.Fatal("init: error preparing database statements, giving up",
+		applog.Fatal("find/init: error preparing database statements, giving up",
 			conString, err)
 	}
 	words, err := findWords("你好")
 	if err != nil {
 		conString := webconfig.DBConfig()
-		applog.Fatal("init: got error with findWords ", conString, err)
+		applog.Fatal("find/init: got error with findWords ", conString, err)
 	}
 	if len(words) != 1 {
-		applog.Error("init: could not find my word ", len(words))
+		applog.Error("find/init: could not find my word ", len(words))
 	} else {
-		applog.Info("init: Ready to go")
+		applog.Info("find/init: Ready to go")
 	}
 }
 
