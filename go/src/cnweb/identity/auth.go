@@ -228,11 +228,11 @@ func SaveSession(sessionid string, userInfo UserInfo, authenticated int) Session
 	result, err := saveSessionStmt.ExecContext(ctx, sessionid, userInfo.UserID,
 		authenticated)
 	if err != nil {
-		applog.Info("SaveSession, Error for username: ", userInfo.UserName, err)
+		applog.Info("SaveSession, Error for username: ", userInfo.UserID, err)
 		return InvalidSession()
 	}
 	rowsAffected, _ := result.RowsAffected()
-	applog.Info("SaveSession, rows updated: %d", rowsAffected)
+	applog.Info("SaveSession, rows updated: ", rowsAffected)
 	return SessionInfo{
 		Authenticated: authenticated,
 		Valid: true,

@@ -172,7 +172,7 @@ func sessionHandler(w http.ResponseWriter, r *http.Request) {
         }
         http.SetCookie(w, cookie)
         userInfo := identity.UserInfo{
-			UserID: -1,
+			UserID: 1,
 			UserName: "",
 			Email: "",
 			FullName: "",
