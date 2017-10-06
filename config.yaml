@@ -23,5 +23,8 @@ LUFiles: words.txt,translation_memory_literary.txt
 # The domain of the corpus
 Domain:
 
-# Character replacement
+# Character replacement, variables: Pinyin, English, classes, HeadwordId, character text
 VocabFormat: <a title="%s | %s" class="%s" href="/words/%d.html">%s</a>
+
+# Directory for Go lang static files to be served by the cnweb app
+GoStaticDir: go/static

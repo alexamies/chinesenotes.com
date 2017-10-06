@@ -25,7 +25,7 @@ type CorpusMeta struct {
 }
 
 type LibraryMeta struct {
-	Title, Summary, DateUpdated string
+	Title, Summary, DateUpdated, TargetStatus string
 	Corpora []Corpus
 }
 
@@ -74,12 +74,12 @@ func loadLibrary() []Corpus {
 	return corpora
 }
 
-// Writes a HTML file describing the corpora in the library
-func writeLibraryFile() {
+// Writes a HTML files describing the corpora in the library, both public and
+// for the translation portal (requiring login)
+func writeLibraryFile(targetStatus, title, summary, outputFile string) {
 	dateUpdated := time.Now().Format("2006-01-02")
-	libraryMeta := LibraryMeta{"Library", "Top level collection in the Library",
-				dateUpdated, corpora}
-	outputFile := config.ProjectHome() + "/web/library.html"
+	libraryMeta := LibraryMeta{title, summary,
+				dateUpdated, targetStatus, corpora}
 	f, err := os.Create(outputFile)
 	if err != nil {
 		log.Fatal("library.WriteLibraryFile: could not open file", err)
@@ -94,16 +94,41 @@ func writeLibraryFile() {
 		log.Fatal(err)
 	}
 	w.Flush()
+
 }
 
 // Writes a HTML file describing the corpora in the library and for each corpus
 // in the library
 func WriteLibraryFiles() {
-	writeLibraryFile()
+	title := "Library"
+	summary := "Top level collection in the Library"
+	libraryOutFile := config.ProjectHome() + "/web/library.html"
+	writeLibraryFile("public", title, summary, libraryOutFile)
+	portalDir := ""
+	if config.GetVar("GoStaticDir") != "" {
+		title2 := "Translator Portal Library"
+		summary2 := "Access for Translators Only"
+		portalDir = config.ProjectHome() + "/" + config.GetVar("GoStaticDir")
+		_, err := os.Stat(portalDir)
+		if err == nil {
+			portalLibraryFile := portalDir + "/portal_library.html"
+			writeLibraryFile("translator_portal", title2, summary2, portalLibraryFile)
+		}
+	}
 	dateUpdated := time.Now().Format("2006-01-02")
 	for _, c := range corpora {
-		outputFile := fmt.Sprintf("%s/web/%s.html", config.ProjectHome(),
+		outputFile := ""
+		if c.Status == "public" {
+			outputFile = fmt.Sprintf("%s/web/%s.html", config.ProjectHome(),
 					c.ShortName)
+		} else if c.Status == "translator_portal" {
+			outputFile = fmt.Sprintf("%s/%s.html", portalDir,
+					c.ShortName)
+		} else {
+			log.Printf("library.WriteLibraryFiles: not sure what to do with status",
+				c.Status)
+			continue
+		}
 		fName := fmt.Sprintf("data/corpus/%s", c.FileName)
 		collections := corpus.CorpusCollections(fName)
 		corpusMeta := CorpusMeta{c.Title, "", dateUpdated, collections}
