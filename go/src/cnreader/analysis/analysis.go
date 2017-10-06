@@ -395,6 +395,13 @@ func add(x, y int) int {
 func writeAnalysisCorpus(results CollectionAResults,
 	docFreq index.DocumentFrequency) string {
 
+	// If the web/analysis directory does not exist, then skip the analysis
+	analysisDir := config.ProjectHome() + "/web/analysis/"
+	_, err := os.Stat(analysisDir)
+	if err != nil {
+		return ""
+	}
+
 	// Parse template and organize template parameters
 	sortedWords := index.SortedFreq(results.Vocab)
 	wfResults := results.GetWordFreq(sortedWords)
@@ -468,7 +475,7 @@ func writeAnalysisCorpus(results CollectionAResults,
 		log.Fatal("writeAnalysis: Template is nil", err)
 	}
 	basename := "corpus_analysis.html"
-	filename := config.ProjectHome() + "/web/analysis/" + basename
+	filename := analysisDir + basename
 	f, err := os.Create(filename)
 	if err != nil {
 		log.Fatal(err)
