@@ -5,6 +5,7 @@ package library
 
 import (
 	"bufio"
+	"cnreader/analysis"
 	"cnreader/config"
 	"cnreader/corpus"
 	"encoding/csv"
@@ -74,6 +75,7 @@ func loadLibrary() []Corpus {
 	return corpora
 }
 
+
 // Writes a HTML files describing the corpora in the library, both public and
 // for the translation portal (requiring login)
 func writeLibraryFile(targetStatus, title, summary, outputFile string) {
@@ -118,10 +120,13 @@ func WriteLibraryFiles() {
 	dateUpdated := time.Now().Format("2006-01-02")
 	for _, c := range corpora {
 		outputFile := ""
+		baseDir := ""
 		if c.Status == "public" {
+			baseDir = config.ProjectHome() + "/web"
 			outputFile = fmt.Sprintf("%s/web/%s.html", config.ProjectHome(),
 					c.ShortName)
 		} else if c.Status == "translator_portal" {
+			baseDir = portalDir
 			outputFile = fmt.Sprintf("%s/%s.html", portalDir,
 					c.ShortName)
 		} else {
@@ -131,6 +136,7 @@ func WriteLibraryFiles() {
 		}
 		fName := fmt.Sprintf("data/corpus/%s", c.FileName)
 		collections := corpus.CorpusCollections(fName)
+		analysis.WriteCorpus(collections, baseDir)
 		corpusMeta := CorpusMeta{c.Title, "", dateUpdated, collections}
 		f, err := os.Create(outputFile)
 		if err != nil {

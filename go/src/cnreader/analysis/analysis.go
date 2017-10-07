@@ -504,6 +504,12 @@ func writeAnalysisCorpus(results CollectionAResults,
 func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	docTitle string) string {
 
+	analysisDir := config.ProjectHome() + "/web/analysis/"
+	_, err := os.Stat(analysisDir)
+	if err != nil {
+		return ""
+	}
+
 	// Parse template and organize template parameters
 	properNouns := makePNList(results.Vocab)
 
@@ -609,7 +615,7 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 		}
 	}
 	basename := srcFile[:i] + "_analysis.html"
-	filename := config.ProjectHome() + "/web/analysis/" + basename
+	filename := analysisDir + basename
 	f, err := os.Create(filename)
 	if err != nil {
 		log.Fatal("analysis.writeAnalysis", err)
@@ -628,15 +634,16 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 // Writes a corpus document collection to HTML, including all the entries
 // contained in the collection
 // collectionEntry: the CollectionEntry struct
+// baseDir: The base directory to use
 func writeCollection(collectionEntry corpus.CollectionEntry,
-		docFreq index.DocumentFrequency) CollectionAResults {
+		docFreq index.DocumentFrequency, baseDir string) CollectionAResults {
 
 	corpusEntries := corpus.CorpusEntries(config.CorpusDataDir() + "/" +
 		collectionEntry.CollectionFile, collectionEntry.Title)
 	aResults := NewCollectionAResults()
 	for _, entry := range corpusEntries {
 		src := config.CorpusDir() + "/" + entry.RawFile
-		dest := config.WebDir() + "/" + entry.GlossFile
+		dest := baseDir + "/" + entry.GlossFile
 		if collectionEntry.Title == "" {
 			log.Printf("analysis.writeCollection: collectionEntry.Title is "+
 				"empty, input file: %s, output file: %s\n",
@@ -659,16 +666,18 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 	return aResults
 }
 
-func WriteCorpusAll() {
+// Write all the collections in the given corpus
+// collections: The set of collections to write to HTML
+// baseDir: The base directory to use to write the files
+func WriteCorpus(collections []corpus.CollectionEntry, baseDir string) {
 	index.Reset()
 	docFreq := index.NewDocumentFrequency() // used to accumulate the frequencies
-	collections := corpus.Collections()
 	aResults := NewCollectionAResults()
 	wfArrayByGenre := WFArrayByGenre{}
 	for _, collectionEntry := range collections {
 		//log.Printf("analysis.WriteCorpusAll: entry: '%s' has genre '%s'\n",
 		//	collectionEntry.Title, collectionEntry.Genre)
-		results := writeCollection(collectionEntry, docFreq)
+		results := writeCollection(collectionEntry, docFreq, baseDir)
 		byGenre := NewWordFreqByGenre(collectionEntry.Genre)
 		byGenre.WF = results.Vocab
 		wfArrayByGenre = MergeByGenre(wfArrayByGenre, byGenre)
@@ -678,6 +687,13 @@ func WriteCorpusAll() {
 	writeAnalysisCorpus(aResults, docFreq)
 	docFreq.WriteToFile()
 	index.BuildIndex()
+}
+
+// Write all the collections in the default corpus (collections.csv file)
+func WriteCorpusAll() {
+	collections := corpus.Collections()
+	baseDir := config.ProjectHome() + "/web"
+	WriteCorpus(collections, baseDir)
 }
 
 // Writes a corpus document collection to HTML, including all the entries
@@ -691,7 +707,8 @@ func WriteCorpusCol(collectionFile string) {
 	// df does not work without a full corpus analysis because df is not
 	// persisted
 	df := index.DocumentFrequency{}
-	writeCollection(collectionEntry, df)
+	baseDir := config.ProjectHome() + "/web"
+	writeCollection(collectionEntry, df, baseDir)
 }
 
 // Writes a corpus document with markup for the array of tokens
