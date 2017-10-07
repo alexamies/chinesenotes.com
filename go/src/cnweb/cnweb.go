@@ -12,6 +12,7 @@ import (
 	"fmt"
 	"html/template"
 	"net/http"
+	"os"
 )
 
 // Starting point for the Administration Portal
@@ -42,6 +43,25 @@ func adminHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+func displayPortalHome(w http.ResponseWriter) {
+	vars := webconfig.GetAll()
+	tmpl, err := template.New("translation_portal.html").ParseFiles("templates/translation_portal.html")
+	if err != nil {
+		applog.Error("portalHandler: error parsing template", err)
+		http.Error(w, "Server Error", 500)
+		return
+	} else if tmpl == nil {
+		applog.Error("portalHandler: Template is nil")
+		http.Error(w, "Server Error", 500)
+		return
+	}
+	err = tmpl.Execute(w, vars)
+	if err != nil {
+		applog.Error("portalHandler: error rendering template", err)
+		http.Error(w, "Server Error", 500)
+	}
+}
+
 func findHandler(response http.ResponseWriter, request *http.Request) {
 	url := request.URL
 	queryString := url.Query()
@@ -67,6 +87,27 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 	}
 }
 
+// Display login form for the Translation Portal
+func loginFormHandler(w http.ResponseWriter, r *http.Request) {
+	tmpl, err := template.New("login_form.html").ParseFiles("templates/login_form.html")
+	if err != nil {
+		applog.Error("loginFormHandler: error parsing template", err)
+		http.Error(w, "Server Error", 500)
+		return
+	} else if tmpl == nil {
+		applog.Error("loginFormHandler: Template is nil")
+		http.Error(w, "Server Error", 500)
+		return
+	}
+	err = tmpl.Execute(w, nil)
+	if err != nil {
+		applog.Error("portalHandler: error rendering template", err)
+		http.Error(w, "Server Error", 500)
+		return
+	}
+}
+
+// Process a login request
 func loginHandler(w http.ResponseWriter, r *http.Request) {
 	sessionInfo := identity.InvalidSession()
 	err := r.ParseForm()
@@ -106,9 +147,22 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
         	sessionInfo = identity.SaveSession(sessionid, users[0], 1)
         }
     }
-	w.Header().Set("Content-Type", "application/json; charset=utf-8")
-	resultsJson, err := json.Marshal(sessionInfo)
-	fmt.Fprintf(w, string(resultsJson))
+    if r.Header.Get("Accept-Encoding") == "application/json" {
+		w.Header().Set("Content-Type", "application/json; charset=utf-8")
+		resultsJson, err := json.Marshal(sessionInfo)
+		if err == nil {
+			applog.Error("loginHandler: error marshalling json", err)
+			http.Error(w, "Error checking login", 500)
+			return
+		}
+		fmt.Fprintf(w, string(resultsJson))
+	} else {
+		if sessionInfo.Authenticated == 1 {
+			displayPortalHome(w)
+		} else {
+			loginFormHandler(w, r)
+		}
+	}
 }
 
 func logoutHandler(w http.ResponseWriter, r *http.Request) {
@@ -132,21 +186,23 @@ func portalHandler(w http.ResponseWriter, r *http.Request) {
 		sessionInfo = identity.CheckSession(cookie.Value)
 	}
 	if identity.IsAuthorized(sessionInfo.User, "translation_portal") {
-		vars := webconfig.GetAll()
-		tmpl, err := template.New("translation_portal.html").ParseFiles("templates/translation_portal.html")
-		if err != nil {
-			applog.Error("portalHandler: error parsing template", err)
-		}
-		if tmpl == nil {
-			applog.Error("portalHandler: Template is nil")
-		}
-		if err != nil {
-			applog.Error("portalHandler: error parsing template", err)
-		}
-		err = tmpl.Execute(w, vars)
-		if err != nil {
-			applog.Error("portalHandler: error rendering template", err)
-		}
+		displayPortalHome(w)
+	} else {
+		http.Error(w, "Not authorized", 403)
+	}
+}
+
+// Static handler for pages in the Translation Portal Library
+func portalLibraryHandler(w http.ResponseWriter, r *http.Request) {
+	sessionInfo := identity.InvalidSession()
+	cookie, err := r.Cookie("session")
+	if err == nil {
+		sessionInfo = identity.CheckSession(cookie.Value)
+	}
+	if identity.IsAuthorized(sessionInfo.User, "translation_portal") {
+		portalLibHome := os.Getenv("PORTAL_LIB_HOME")
+		filename := portalLibHome + "/" + r.URL.Path
+		http.ServeFile(w, r, filename)
 	} else {
 		http.Error(w, "Not authorized", 403)
 	}
@@ -194,8 +250,10 @@ func main() {
 	http.HandleFunc("/find/", findHandler)
 	http.HandleFunc("/loggedin/admin", adminHandler)
 	http.HandleFunc("/loggedin/login", loginHandler)
+	http.HandleFunc("/loggedin/loginForm", loginFormHandler)
 	http.HandleFunc("/loggedin/logout", logoutHandler)
 	http.HandleFunc("/loggedin/session", sessionHandler)
 	http.HandleFunc("/loggedin/portal", portalHandler)
+	http.HandleFunc("/loggedin/portal_library", portalLibraryHandler)
 	http.ListenAndServe(":8080", nil)
 }
