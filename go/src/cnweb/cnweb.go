@@ -44,6 +44,28 @@ func adminHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+// Custom 404 page handler
+func custom404(w http.ResponseWriter, r *http.Request, url string) {
+	applog.Error("custom404: sending 404 for ", url)
+	tmpl, err := template.New("404.html").ParseFiles("templates/404.html")
+	if err != nil {
+		applog.Error("custom404: error parsing template", err)
+		http.Error(w, "Server Error", 500)
+		return
+	} else if tmpl == nil {
+		applog.Error("custom404: Template is nil")
+		http.Error(w, "Server Error", 500)
+		return
+	}
+	err = tmpl.Execute(w, nil)
+	if err != nil {
+		applog.Error("custom404: error rendering template", err)
+		http.Error(w, "Server Error", 500)
+		return
+	}
+}
+
+// Displays the translation portal home page
 func displayPortalHome(w http.ResponseWriter) {
 	vars := webconfig.GetAll()
 	tmpl, err := template.New("translation_portal.html").ParseFiles("templates/translation_portal.html")
@@ -63,6 +85,7 @@ func displayPortalHome(w http.ResponseWriter) {
 	}
 }
 
+// Finds documents matching the given query
 func findHandler(response http.ResponseWriter, request *http.Request) {
 	url := request.URL
 	queryString := url.Query()
@@ -204,6 +227,11 @@ func portalLibraryHandler(w http.ResponseWriter, r *http.Request) {
 		portalLibHome := os.Getenv("PORTAL_LIB_HOME")
 		filepart := r.URL.Path[len("/loggedin/portal_library/"):]
 		filename := portalLibHome + "/" + filepart
+		_, err := os.Stat(filename)
+		if err != nil {
+			custom404(w, r, filename)
+			return
+		}
 		applog.Info("portalLibraryHandler: serving file ", filename)
 		http.ServeFile(w, r, filename)
 	} else {
