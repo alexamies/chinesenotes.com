@@ -660,9 +660,9 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 	}
 	aFile := writeAnalysis(aResults, collectionEntry.CollectionFile,
 		collectionEntry.Title, "")
-	corpus.WriteCollectionFile(collectionEntry.CollectionFile, aFile)
-	//log.Printf("analysis.writeCollection: completed: %s\n",
-	//	collectionEntry.CollectionFile)
+	corpus.WriteCollectionFile(collectionEntry, aFile, baseDir)
+	log.Printf("analysis.writeCollection: completed writing %s\n",
+		collectionEntry.CollectionFile)
 	return aResults
 }
 

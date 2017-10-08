@@ -59,8 +59,3 @@ func TestLoadCorpusEntries(t *testing.T) {
 func TestReadIntroFile(t *testing.T) {
 	ReadIntroFile("erya00.txt")
 }
-
-// Test generating collection file
-func TestWriteCollectionFile(t *testing.T) {
-	WriteCollectionFile("erya.csv", "analysis/erya-analysis-test.html")
-}

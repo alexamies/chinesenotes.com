@@ -203,37 +203,32 @@ func ReadIntroFile(introFile string) string {
 // Writes a HTML file describing the collection
 // Parameter
 // collectionFile: The name of the file describing the collection
-func WriteCollectionFile(collectionFile, analysisFile string) {
-	//log.Printf("WriteCollectionFile: Writing collection file.\n")
-	collections := Collections()
-	for _, entry := range collections {
-		if entry.CollectionFile == collectionFile && entry.GlossFile != "\\N" {
-			outputFile := config.ProjectHome() + "/data/corpus/" +collectionFile
-			entry.CorpusEntries = CorpusEntries(outputFile, entry.Title)
-			//log.Printf("WriteCollectionFile: Writing collection file %s\n",
-			//	outputFile)
-			entry.AnalysisFile = analysisFile
-
-			// Write to file
-			f, err := os.Create(config.ProjectHome() + "/web/" +
-				entry.GlossFile)
-			if err != nil {
-				log.Fatal(err)
-			}
-			defer f.Close()
-			w := bufio.NewWriter(f)
-			// Replace name of intro file with introduction text
-			entry.Intro = ReadIntroFile(entry.Intro)
-			entry.DateUpdated = time.Now().Format("2006-01-02")
-			templFile := config.TemplateDir() + "/collection-template.html"
-			//log.Println("Home: ", config.ProjectHome())
-			tmpl:= template.Must(template.New(
-					"collection-template.html").ParseFiles(templFile))
-			err = tmpl.Execute(w, entry)
-			if err != nil {
-				log.Fatal(err)
-			}
-			w.Flush()
-		}
+// baseDir: The base directory for writing the file
+func WriteCollectionFile(entry CollectionEntry, analysisFile, baseDir string) {
+	collectionFile := entry.CollectionFile
+	log.Printf("WriteCollectionFile: Writing collection file.\n")
+	outputFile := config.ProjectHome() + "/data/corpus/" + collectionFile
+	log.Printf("WriteCollectionFile: Writing collection file %s\n",
+				outputFile)
+	entry.CorpusEntries = CorpusEntries(outputFile, entry.Title)
+	entry.AnalysisFile = analysisFile
+	fName := baseDir + "/" + entry.GlossFile
+	f, err := os.Create(fName)
+	if err != nil {
+		log.Fatal(err)
 	}
+	defer f.Close()
+	w := bufio.NewWriter(f)
+	// Replace name of intro file with introduction text
+	entry.Intro = ReadIntroFile(entry.Intro)
+	entry.DateUpdated = time.Now().Format("2006-01-02")
+	templFile := config.TemplateDir() + "/collection-template.html"
+	log.Println("WriteCollectionFile: wrote %s", fName)
+	tmpl:= template.Must(template.New(
+					"collection-template.html").ParseFiles(templFile))
+	err = tmpl.Execute(w, entry)
+	if err != nil {
+		log.Fatal(err)
+	}
+	w.Flush()
 }

@@ -13,6 +13,7 @@ import (
 	"html/template"
 	"net/http"
 	"os"
+	"strings"
 )
 
 // Starting point for the Administration Portal
@@ -130,7 +131,7 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 	} else {
 		cookie, err := r.Cookie("session")
 		if err == nil {
-			applog.Error("loginHandler: updating session", cookie.Value)
+			applog.Info("loginHandler: updating session", cookie.Value)
 			sessionInfo = identity.UpdateSession(cookie.Value, users[0], 1)
 		}
 		if (err != nil) || !sessionInfo.Valid {
@@ -147,10 +148,10 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
         	sessionInfo = identity.SaveSession(sessionid, users[0], 1)
         }
     }
-    if r.Header.Get("Accept-Encoding") == "application/json" {
+    if strings.Contains(r.Header.Get("Accept"), "application/json") {
 		w.Header().Set("Content-Type", "application/json; charset=utf-8")
 		resultsJson, err := json.Marshal(sessionInfo)
-		if err == nil {
+		if err != nil {
 			applog.Error("loginHandler: error marshalling json", err)
 			http.Error(w, "Error checking login", 500)
 			return
@@ -201,7 +202,9 @@ func portalLibraryHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	if identity.IsAuthorized(sessionInfo.User, "translation_portal") {
 		portalLibHome := os.Getenv("PORTAL_LIB_HOME")
-		filename := portalLibHome + "/" + r.URL.Path
+		filepart := r.URL.Path[len("/loggedin/portal_library/"):]
+		filename := portalLibHome + "/" + filepart
+		applog.Info("portalLibraryHandler: serving file ", filename)
 		http.ServeFile(w, r, filename)
 	} else {
 		http.Error(w, "Not authorized", 403)
@@ -250,10 +253,10 @@ func main() {
 	http.HandleFunc("/find/", findHandler)
 	http.HandleFunc("/loggedin/admin", adminHandler)
 	http.HandleFunc("/loggedin/login", loginHandler)
-	http.HandleFunc("/loggedin/loginForm", loginFormHandler)
+	http.HandleFunc("/loggedin/login_form", loginFormHandler)
 	http.HandleFunc("/loggedin/logout", logoutHandler)
 	http.HandleFunc("/loggedin/session", sessionHandler)
 	http.HandleFunc("/loggedin/portal", portalHandler)
-	http.HandleFunc("/loggedin/portal_library", portalLibraryHandler)
+	http.HandleFunc("/loggedin/portal_library/", portalLibraryHandler)
 	http.ListenAndServe(":8080", nil)
 }
