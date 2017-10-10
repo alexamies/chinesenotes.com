@@ -206,10 +206,10 @@ func ReadIntroFile(introFile string) string {
 // baseDir: The base directory for writing the file
 func WriteCollectionFile(entry CollectionEntry, analysisFile, baseDir string) {
 	collectionFile := entry.CollectionFile
-	log.Printf("WriteCollectionFile: Writing collection file.\n")
+	//log.Printf("WriteCollectionFile: Writing collection file.\n")
 	outputFile := config.ProjectHome() + "/data/corpus/" + collectionFile
-	log.Printf("WriteCollectionFile: Writing collection file %s\n",
-				outputFile)
+	//log.Printf("WriteCollectionFile: Writing collection file %s\n",
+	//			outputFile)
 	entry.CorpusEntries = CorpusEntries(outputFile, entry.Title)
 	entry.AnalysisFile = analysisFile
 	fName := baseDir + "/" + entry.GlossFile
@@ -223,7 +223,7 @@ func WriteCollectionFile(entry CollectionEntry, analysisFile, baseDir string) {
 	entry.Intro = ReadIntroFile(entry.Intro)
 	entry.DateUpdated = time.Now().Format("2006-01-02")
 	templFile := config.TemplateDir() + "/collection-template.html"
-	log.Println("WriteCollectionFile: wrote %s", fName)
+	//log.Println("WriteCollectionFile: wrote %s", fName)
 	tmpl:= template.Must(template.New(
 					"collection-template.html").ParseFiles(templFile))
 	err = tmpl.Execute(w, entry)
