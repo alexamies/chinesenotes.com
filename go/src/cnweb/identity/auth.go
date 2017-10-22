@@ -16,12 +16,19 @@ import (
 var (
 	database *sql.DB
 	domain *string
+	changePasswordStmt *sql.Stmt
 	checkSessionStmt *sql.Stmt
 	loginStmt *sql.Stmt
 	logoutStmt *sql.Stmt
 	saveSessionStmt *sql.Stmt
 	updateSessionStmt *sql.Stmt
 )
+
+type ChangePasswordResult struct {
+	OldPasswordValid bool
+	ChangeSuccessful bool
+	ShowNewForm bool
+}
 
 type SessionInfo struct {
 	Authenticated int
@@ -45,7 +52,7 @@ func init() {
 		applog.Fatal("identity/init: error preparing database statements, giving up",
 			conString, err)
 	}
-	applog.Info("identity/init: Ready to go")
+	applog.Info("identity/init: Ready to go, ")
 }
 
 // Open database connection and prepare statements
@@ -112,11 +119,49 @@ func initStatements() error {
 		UserID = ?
 		WHERE SessionID = ?`)
     if err != nil {
-        applog.Error("auth.init() Error preparing stmt4: ", err)
+        applog.Error("auth.init() Error preparing stmt5: ", err)
         return err
     }
     updateSessionStmt = stmt5
+
+	stmt6, err := database.PrepareContext(ctx,
+		`UPDATE passwd SET
+		Password = ?
+		WHERE UserID = ?`)
+    if err != nil {
+        applog.Error("auth.init() Error preparing stmt6: ", err)
+        return err
+    }
+    changePasswordStmt = stmt6
+
     return nil
+}
+
+
+// Log a user in when they already have an unauthenticated session
+func ChangePassword(userInfo UserInfo, oldPassword, password string) ChangePasswordResult {
+	users, err := CheckLogin(userInfo.UserName, oldPassword)
+	if err != nil {
+		applog.Error("identity.changePasswordHandler checking login, ", err)
+		applog.Error("identity.changePasswordHandlerError checking login")
+		return ChangePasswordResult{true, false, false}
+	}
+	if len(users) != 1 {
+		applog.Error("identity.changePasswordHandler: old password wrong")
+		return ChangePasswordResult{false, false, false}
+	}
+	ctx := context.Background()
+	h := sha256.New()
+	h.Write([]byte(password))
+	hstr := fmt.Sprintf("%x", h.Sum(nil))
+	result, err := changePasswordStmt.ExecContext(ctx, hstr, userInfo.UserID)
+	if err != nil {
+		applog.Error("identity.changePasswordHandler, Error: ", err)
+		return ChangePasswordResult{true, false, false}
+	} 
+	rowsAffected, _ := result.RowsAffected()
+	applog.Info("identity.changePasswordHandler, rows updated:", rowsAffected)
+	return ChangePasswordResult{true, true, false}
 }
 
 // Check password when the user logs in
@@ -184,9 +229,25 @@ func checkSessionStore(sessionid string) []SessionInfo {
 	return sessions
 }
 
+// Empty session struct for an unauthenticated session
+func InvalidSession() SessionInfo {
+	userInfo := UserInfo{
+		UserID: 1,
+		UserName: "",
+		Email: "",
+		FullName: "",
+		Role: "",
+	}
+	return SessionInfo{
+		Authenticated: 0,
+		Valid: false,
+		User: userInfo,
+	}
+}
+
 // Generate a new session id after login
 func IsAuthorized(user UserInfo, permission string) bool {
-	if user.Role == "admin" {
+	if user.Role == "admin" || user.Role == "editor" || user.Role == "translator" {
 	  return true
 	}
 	return false
@@ -221,6 +282,11 @@ func NewSessionId() string {
 	return val
 }
 
+// Old password does not match
+func OldPasswordDoesNotMatch() ChangePasswordResult {
+	return ChangePasswordResult{false, true, false}
+}
+
 // Save an authenticated session to the database
 func SaveSession(sessionid string, userInfo UserInfo, authenticated int) SessionInfo {
 	applog.Info("SaveSession, sessionid:", sessionid)
@@ -236,22 +302,6 @@ func SaveSession(sessionid string, userInfo UserInfo, authenticated int) Session
 	return SessionInfo{
 		Authenticated: authenticated,
 		Valid: true,
-		User: userInfo,
-	}
-}
-
-// Empty session struct for an unauthenticated session
-func InvalidSession() SessionInfo {
-	userInfo := UserInfo{
-		UserID: 1,
-		UserName: "",
-		Email: "",
-		FullName: "",
-		Role: "",
-	}
-	return SessionInfo{
-		Authenticated: 0,
-		Valid: false,
 		User: userInfo,
 	}
 }

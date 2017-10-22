@@ -40,6 +40,7 @@ VALUES (1, 'unauthenticated_user', "", "Unauthenticated User", "none", 0, "", ""
 INSERT INTO user (UserID, UserName, Email, FullName, Role, PasswordNeedsReset, Organization, Position, Location) 
 VALUES (2, 'guest', "", "Guest User", "user", 0, "", "", "");
 
+-- guest / guest
 INSERT INTO passwd (UserID, Password) 
 VALUES (2, '84983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec');
 

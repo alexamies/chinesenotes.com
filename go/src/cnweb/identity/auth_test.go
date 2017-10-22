@@ -12,8 +12,23 @@ func TestInit(t *testing.T) {
 }
 
 // Test check login method
+func TestChangePassword(t *testing.T) {
+	userInfo := UserInfo{
+		UserID: 1,
+		UserName: "guest",
+		Email: "",
+		FullName: "",
+		Role: "",
+	}
+	result := ChangePassword(userInfo, "guest", "guest")
+	if !result.ChangeSuccessful {
+		t.Error("TestChangePassword: !result.ChangeSuccessful")
+	}
+}
+
+// Test check login method
 func TestCheckLogin1(t *testing.T) {
-	user, err := CheckLogin("guest", "fgs0722")
+	user, err := CheckLogin("guest", "guest")
 	if err != nil {
 		t.Error("TestCheckLogin1: error, ", err)
 	}

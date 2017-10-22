@@ -44,6 +44,32 @@ func adminHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+// Process a change password request
+func changePasswordHandler(w http.ResponseWriter, r *http.Request) {
+	sessionInfo := enforceValidSession(w, r)
+	if sessionInfo.Authenticated == 1 {
+		oldPassword := r.PostFormValue("OldPassword")
+		password := r.PostFormValue("Password")
+		result := identity.ChangePassword(sessionInfo.User, oldPassword,
+			password)
+    	if strings.Contains(r.Header.Get("Accept"), "application/json") {
+    		sendJSON(w, result)
+		} else {
+			displayPasswordForm(w, r, result)
+		}
+	}
+}
+
+// Display change password form
+func changePasswordFormHandler(w http.ResponseWriter, r *http.Request) {
+	sessionInfo := enforceValidSession(w, r)
+	if sessionInfo.Authenticated == 1 {
+		// fresh form
+		result := identity.ChangePasswordResult{false, false, true}
+		displayPasswordForm(w, r, result)
+	}
+}
+
 // Custom 404 page handler
 func custom404(w http.ResponseWriter, r *http.Request, url string) {
 	applog.Error("custom404: sending 404 for ", url)
@@ -60,6 +86,28 @@ func custom404(w http.ResponseWriter, r *http.Request, url string) {
 	err = tmpl.Execute(w, nil)
 	if err != nil {
 		applog.Error("custom404: error rendering template", err)
+		http.Error(w, "Server Error", 500)
+		return
+	}
+}
+
+// Display change password form
+// Assumes session is already validated
+func displayPasswordForm(w http.ResponseWriter, r *http.Request,
+		result identity.ChangePasswordResult) {
+	tmpl, err := template.New("change_password_form.html").ParseFiles("templates/change_password_form.html")
+	if err != nil {
+		applog.Error("displayPasswordForm: error parsing template", err)
+		http.Error(w, "Server Error", 500)
+		return
+	} else if tmpl == nil {
+		applog.Error("displayPasswordForm: Template is nil")
+		http.Error(w, "Server Error", 500)
+		return
+	}
+	err = tmpl.Execute(w, result)
+	if err != nil {
+		applog.Error("displayPasswordForm: error rendering template", err)
 		http.Error(w, "Server Error", 500)
 		return
 	}
@@ -83,6 +131,23 @@ func displayPortalHome(w http.ResponseWriter) {
 		applog.Error("portalHandler: error rendering template", err)
 		http.Error(w, "Server Error", 500)
 	}
+}
+
+// Process a change password request
+func enforceValidSession(w http.ResponseWriter, r *http.Request) identity.SessionInfo {
+	sessionInfo := identity.InvalidSession()
+	cookie, err := r.Cookie("session")
+	if err == nil {
+		sessionInfo = identity.CheckSession(cookie.Value)
+		if sessionInfo.Authenticated != 1 {
+			http.Error(w, "Not authorized", 403)
+			return sessionInfo
+		}
+	} else {
+		http.Error(w, "Not authorized", 403)
+		return identity.InvalidSession()
+	}
+	return sessionInfo
 }
 
 // Finds documents matching the given query
@@ -172,14 +237,7 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
         }
     }
     if strings.Contains(r.Header.Get("Accept"), "application/json") {
-		w.Header().Set("Content-Type", "application/json; charset=utf-8")
-		resultsJson, err := json.Marshal(sessionInfo)
-		if err != nil {
-			applog.Error("loginHandler: error marshalling json", err)
-			http.Error(w, "Error checking login", 500)
-			return
-		}
-		fmt.Fprintf(w, string(resultsJson))
+    	sendJSON(w, sessionInfo)
 	} else {
 		if sessionInfo.Authenticated == 1 {
 			displayPortalHome(w)
@@ -239,6 +297,17 @@ func portalLibraryHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+func sendJSON(w http.ResponseWriter, obj interface{}) {
+	w.Header().Set("Content-Type", "application/json; charset=utf-8")
+	resultsJson, err := json.Marshal(obj)
+	if err != nil {
+		applog.Error("changePasswordHandler: error marshalling json", err)
+		http.Error(w, "Error checking login", 500)
+		return
+	}
+	fmt.Fprintf(w, string(resultsJson))
+}
+
 // Check to see if the user has a session
 func sessionHandler(w http.ResponseWriter, r *http.Request) {
 	sessionInfo := identity.InvalidSession()
@@ -280,11 +349,13 @@ func main() {
 	//documents := index.FindForKeyword("你")
 	http.HandleFunc("/find/", findHandler)
 	http.HandleFunc("/loggedin/admin", adminHandler)
+	http.HandleFunc("/loggedin/changepassword", changePasswordFormHandler)
 	http.HandleFunc("/loggedin/login", loginHandler)
 	http.HandleFunc("/loggedin/login_form", loginFormHandler)
 	http.HandleFunc("/loggedin/logout", logoutHandler)
 	http.HandleFunc("/loggedin/session", sessionHandler)
 	http.HandleFunc("/loggedin/portal", portalHandler)
 	http.HandleFunc("/loggedin/portal_library/", portalLibraryHandler)
+	http.HandleFunc("/loggedin/submitcpwd", changePasswordHandler)
 	http.ListenAndServe(":8080", nil)
 }
