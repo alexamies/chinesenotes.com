@@ -7,6 +7,7 @@ import (
 	"cnweb/applog"
 	"cnweb/find"
 	"cnweb/identity"
+	"cnweb/mail"
 	"cnweb/webconfig"
 	"encoding/json"
 	"fmt"
@@ -55,7 +56,7 @@ func changePasswordHandler(w http.ResponseWriter, r *http.Request) {
     	if strings.Contains(r.Header.Get("Accept"), "application/json") {
     		sendJSON(w, result)
 		} else {
-			displayPasswordForm(w, r, result)
+			displayPage(w, "change_password_form.html", result)
 		}
 	}
 }
@@ -66,71 +67,38 @@ func changePasswordFormHandler(w http.ResponseWriter, r *http.Request) {
 	if sessionInfo.Authenticated == 1 {
 		// fresh form
 		result := identity.ChangePasswordResult{false, false, true}
-		displayPasswordForm(w, r, result)
+		displayPage(w, "change_password_form.html", result)
 	}
 }
 
 // Custom 404 page handler
 func custom404(w http.ResponseWriter, r *http.Request, url string) {
 	applog.Error("custom404: sending 404 for ", url)
-	tmpl, err := template.New("404.html").ParseFiles("templates/404.html")
-	if err != nil {
-		applog.Error("custom404: error parsing template", err)
-		http.Error(w, "Server Error", 500)
-		return
-	} else if tmpl == nil {
-		applog.Error("custom404: Template is nil")
-		http.Error(w, "Server Error", 500)
-		return
-	}
-	err = tmpl.Execute(w, nil)
-	if err != nil {
-		applog.Error("custom404: error rendering template", err)
-		http.Error(w, "Server Error", 500)
-		return
-	}
+	displayPage(w, "404.html", nil)
 }
 
-// Display change password form
-// Assumes session is already validated
-func displayPasswordForm(w http.ResponseWriter, r *http.Request,
-		result identity.ChangePasswordResult) {
-	tmpl, err := template.New("change_password_form.html").ParseFiles("templates/change_password_form.html")
+func displayPage(w http.ResponseWriter, templateName string, content interface{}) {
+	tmpl, err := template.New(templateName).ParseFiles("templates/" + templateName)
 	if err != nil {
-		applog.Error("displayPasswordForm: error parsing template", err)
+		applog.Error("displayPage: error parsing template", err)
 		http.Error(w, "Server Error", 500)
 		return
 	} else if tmpl == nil {
-		applog.Error("displayPasswordForm: Template is nil")
+		applog.Error("displayPage: Template is nil")
 		http.Error(w, "Server Error", 500)
 		return
 	}
-	err = tmpl.Execute(w, result)
+	err = tmpl.Execute(w, content)
 	if err != nil {
-		applog.Error("displayPasswordForm: error rendering template", err)
+		applog.Error("displayPage: error rendering template", err)
 		http.Error(w, "Server Error", 500)
-		return
-	}
+	}	
 }
 
 // Displays the translation portal home page
 func displayPortalHome(w http.ResponseWriter) {
 	vars := webconfig.GetAll()
-	tmpl, err := template.New("translation_portal.html").ParseFiles("templates/translation_portal.html")
-	if err != nil {
-		applog.Error("portalHandler: error parsing template", err)
-		http.Error(w, "Server Error", 500)
-		return
-	} else if tmpl == nil {
-		applog.Error("portalHandler: Template is nil")
-		http.Error(w, "Server Error", 500)
-		return
-	}
-	err = tmpl.Execute(w, vars)
-	if err != nil {
-		applog.Error("portalHandler: error rendering template", err)
-		http.Error(w, "Server Error", 500)
-	}
+	displayPage(w, "translation_portal.html", vars)
 }
 
 // Process a change password request
@@ -178,22 +146,7 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 
 // Display login form for the Translation Portal
 func loginFormHandler(w http.ResponseWriter, r *http.Request) {
-	tmpl, err := template.New("login_form.html").ParseFiles("templates/login_form.html")
-	if err != nil {
-		applog.Error("loginFormHandler: error parsing template", err)
-		http.Error(w, "Server Error", 500)
-		return
-	} else if tmpl == nil {
-		applog.Error("loginFormHandler: Template is nil")
-		http.Error(w, "Server Error", 500)
-		return
-	}
-	err = tmpl.Execute(w, nil)
-	if err != nil {
-		applog.Error("portalHandler: error rendering template", err)
-		http.Error(w, "Server Error", 500)
-		return
-	}
+	displayPage(w, "login_form.html", nil)
 }
 
 // Process a login request
@@ -297,6 +250,57 @@ func portalLibraryHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+// Display form to request a password reset
+func requestResetFormHandler(w http.ResponseWriter, r *http.Request) {
+	content := identity.RequestResetResult{true, false, true,
+		identity.InvalidUser(), ""}
+	displayPage(w, "request_reset_form.html", content)
+}
+
+// Process a request for password reset
+func requestResetHandler(w http.ResponseWriter, r *http.Request) {
+	email := r.PostFormValue("Email")
+	result := identity.RequestPasswordReset(email)
+	if result.RequestResetSuccess {
+		err := mail.SendPasswordReset(result.User, result.Token)
+		if err != nil {
+			result.RequestResetSuccess = false
+		}
+	}
+    if strings.Contains(r.Header.Get("Accept"), "application/json") {
+    	sendJSON(w, result)
+	} else {
+		displayPage(w, "request_reset_form.html", result)
+	}
+}
+
+func resetPasswordFormHandler(w http.ResponseWriter, r *http.Request) {
+	queryString := r.URL.Query()
+	token := queryString["token"]
+	content := make(map[string]string)
+	if len(token) == 1 {
+		content["Token"] = token[0]
+	} else {
+		content["Token"] = ""
+	}
+	displayPage(w, "reset_password_form.html", content)
+}
+
+func resetPasswordHandler(w http.ResponseWriter, r *http.Request) {
+	token := r.PostFormValue("Token")
+	newPassword := r.PostFormValue("NewPassword")
+	result := identity.ResetPassword(token, newPassword)
+	content := make(map[string]bool)
+	if result {
+		content["ResetPasswordSuccessful"] = true
+	}
+    if strings.Contains(r.Header.Get("Accept"), "application/json") {
+    	sendJSON(w, result)
+	} else {
+		displayPage(w, "reset_password_confirmation.html", content)
+	}
+}
+
 func sendJSON(w http.ResponseWriter, obj interface{}) {
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
 	resultsJson, err := json.Marshal(obj)
@@ -356,6 +360,10 @@ func main() {
 	http.HandleFunc("/loggedin/session", sessionHandler)
 	http.HandleFunc("/loggedin/portal", portalHandler)
 	http.HandleFunc("/loggedin/portal_library/", portalLibraryHandler)
+	http.HandleFunc("/loggedin/request_reset", requestResetHandler)
+	http.HandleFunc("/loggedin/request_reset_form", requestResetFormHandler)
+	http.HandleFunc("/loggedin/reset_password", resetPasswordFormHandler)
+	http.HandleFunc("/loggedin/reset_password_submit", resetPasswordHandler)
 	http.HandleFunc("/loggedin/submitcpwd", changePasswordHandler)
 	http.ListenAndServe(":8080", nil)
 }

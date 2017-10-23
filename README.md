@@ -256,6 +256,17 @@ export DBPASSWORD={the password}
 cd go/src/cnweb/identity
 go test
 ```
+
+### Email configuration
+Email is sent with [SendGrid](https://sendgrid.com). 
+[SendGrid Go Client Library Documentation](https://github.com/sendgrid/sendgrid-go)
+
+Follow the following steps to get it set up
+echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env
+echo "sendgrid.env" >> .gitignore
+source ./sendgrid.env
+go get github.com/sendgrid/sendgrid-go
+
 #### Make and Save Go Application Image
 The Go app is not needed for chinesenotes.com at the moment but it is use for
 other sites (eg. hbreader.org).
@@ -277,6 +288,7 @@ docker run -itd --rm -p 8080:8080 --name cn-app --link mariadb \
   -e DBUSER=$DBUSER \
   -e DBPASSWORD=$DBPASSWORD \
   -e DATABASE=$DATABASE \
+  -e SENDGRID_API_KEY="$SENDGRID_API_KEY" \
   cn-app-image
 ```
 
@@ -381,18 +393,18 @@ app and web tiers.
 
 ```
 # Deploy the app tier
-kubectl create --save-config -f kubernetes/app-deployment.yaml 
-kubectl create --save-config -f kubernetes/app-service.yaml
+kubectl apply -f kubernetes/app-deployment.yaml 
+kubectl apply -f kubernetes/app-service.yaml
 
 # Deploy the web tier
-kubectl create --save-config -f kubernetes/web-deployment.yaml
+kubectl apply -f kubernetes/web-deployment.yaml
 kubectl expose deployment hsingyundl-web --target-port=80  --type=NodePort
 
 # Check that the service is available
 kubectl get service hsingyundl-web
 
 # Configure public ingress
-kubectl create --save-config -f kubernetes/web-ingress.yaml
+kubectl apply -f kubernetes/web-ingress.yaml
 ```
 
 ### Update App in Kubernetes Cluster

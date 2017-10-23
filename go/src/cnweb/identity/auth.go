@@ -18,16 +18,29 @@ var (
 	domain *string
 	changePasswordStmt *sql.Stmt
 	checkSessionStmt *sql.Stmt
+	getResetRequestStmt *sql.Stmt
+	getUserStmt *sql.Stmt
+	getUserByEmailStmt *sql.Stmt
 	loginStmt *sql.Stmt
 	logoutStmt *sql.Stmt
+	requestResetStmt *sql.Stmt
 	saveSessionStmt *sql.Stmt
 	updateSessionStmt *sql.Stmt
+	updateResetRequestStmt *sql.Stmt
 )
 
 type ChangePasswordResult struct {
 	OldPasswordValid bool
 	ChangeSuccessful bool
 	ShowNewForm bool
+}
+
+type RequestResetResult struct {
+	EmailValid bool
+	RequestResetSuccess bool
+	ShowNewForm bool
+	User UserInfo
+	Token string
 }
 
 type SessionInfo struct {
@@ -134,20 +147,73 @@ func initStatements() error {
     }
     changePasswordStmt = stmt6
 
+	stmt7, err := database.PrepareContext(ctx,
+		`SELECT user.UserID, UserName, Email, FullName, Role 
+		FROM user
+		WHERE UserName = ? 
+		LIMIT 1`)
+    if err != nil {
+        applog.Error("auth.init() Error preparing stmt7: ", err)
+        return err
+    }
+    getUserStmt = stmt7
+
+	stmt8, err := database.PrepareContext(ctx,
+		`INSERT INTO
+		passwdreset (Token, UserID)
+		VALUES (?, ?)`)
+    if err != nil {
+        applog.Error("auth.init() Error preparing stmt8: ", err)
+        return err
+    }
+    requestResetStmt = stmt8
+
+	stmt9, err := database.PrepareContext(ctx,
+		`SELECT user.UserID, UserName, Email, FullName, Role 
+		FROM user
+		WHERE Email = ? 
+		LIMIT 1`)
+    if err != nil {
+        applog.Error("auth.init() Error preparing stmt9: ", err)
+        return err
+    }
+    getUserByEmailStmt = stmt9
+
+	stmt10, err := database.PrepareContext(ctx,
+		`SELECT UserID
+		FROM passwdreset
+		WHERE Token = ?
+		AND Valid = 1
+		LIMIT 1`)
+    if err != nil {
+        applog.Error("auth.init() Error preparing stmt10: ", err)
+        return err
+    }
+    getResetRequestStmt = stmt10
+
+	stmt11, err := database.PrepareContext(ctx,
+		`UPDATE passwdreset SET
+		Valid = 0
+		WHERE Token = ?`)
+    if err != nil {
+        applog.Error("auth.init() Error preparing stmt11: ", err)
+        return err
+    }
+    updateResetRequestStmt = stmt11
+
     return nil
 }
-
 
 // Log a user in when they already have an unauthenticated session
 func ChangePassword(userInfo UserInfo, oldPassword, password string) ChangePasswordResult {
 	users, err := CheckLogin(userInfo.UserName, oldPassword)
 	if err != nil {
-		applog.Error("identity.changePasswordHandler checking login, ", err)
-		applog.Error("identity.changePasswordHandlerError checking login")
+		applog.Error("ChangePassword checking login, ", err)
 		return ChangePasswordResult{true, false, false}
 	}
 	if len(users) != 1 {
-		applog.Error("identity.changePasswordHandler: old password wrong")
+		applog.Info("ChangePassword, user or password wrong: ",
+			userInfo.UserName)
 		return ChangePasswordResult{false, false, false}
 	}
 	ctx := context.Background()
@@ -156,11 +222,11 @@ func ChangePassword(userInfo UserInfo, oldPassword, password string) ChangePassw
 	hstr := fmt.Sprintf("%x", h.Sum(nil))
 	result, err := changePasswordStmt.ExecContext(ctx, hstr, userInfo.UserID)
 	if err != nil {
-		applog.Error("identity.changePasswordHandler, Error: ", err)
+		applog.Error("ChangePassword, Error: ", err)
 		return ChangePasswordResult{true, false, false}
 	} 
 	rowsAffected, _ := result.RowsAffected()
-	applog.Info("identity.changePasswordHandler, rows updated:", rowsAffected)
+	applog.Info("ChangePassword, rows updated:", rowsAffected)
 	return ChangePasswordResult{true, true, false}
 }
 
@@ -191,6 +257,13 @@ func CheckLogin(username, password string) ([]UserInfo, error) {
 		results.Scan(&user.UserID, &user.UserName, &user.Email, &user.FullName,
 			&user.Role)
 		users = append(users, user)
+	}
+	if len(users) == 0 {
+		applog.Info("CheckLogin, user or password wrong: ", username)
+		u, _ := GetUser(username)
+		if len(u) == 0 {
+			applog.Info("CheckLogin, user not found: ", username)
+		}
 	}
 	return users, nil
 }
@@ -229,6 +302,27 @@ func checkSessionStore(sessionid string) []SessionInfo {
 	return sessions
 }
 
+// Get the user information
+func GetUser(username string) ([]UserInfo, error) {
+	applog.Info("getUser, username:", username)
+	ctx := context.Background()
+	results, err := getUserStmt.QueryContext(ctx, username)
+	defer results.Close()
+	if err != nil {
+		applog.Error("getUser, Error for username: ", username, err)
+		return []UserInfo{}, err
+	}
+
+	users := []UserInfo{}
+	for results.Next() {
+		user := UserInfo{}
+		results.Scan(&user.UserID, &user.UserName, &user.Email, &user.FullName,
+			&user.Role)
+		users = append(users, user)
+	}
+	return users, nil
+}
+
 // Empty session struct for an unauthenticated session
 func InvalidSession() SessionInfo {
 	userInfo := UserInfo{
@@ -242,6 +336,17 @@ func InvalidSession() SessionInfo {
 		Authenticated: 0,
 		Valid: false,
 		User: userInfo,
+	}
+}
+
+// Empty session struct for an unauthenticated session
+func InvalidUser() UserInfo {
+	return UserInfo{
+		UserID: 1,
+		UserName: "",
+		Email: "",
+		FullName: "",
+		Role: "",
 	}
 }
 
@@ -285,6 +390,95 @@ func NewSessionId() string {
 // Old password does not match
 func OldPasswordDoesNotMatch() ChangePasswordResult {
 	return ChangePasswordResult{false, true, false}
+}
+
+// Request a password reset, to be sent by email
+func RequestPasswordReset(email string) RequestResetResult {
+	applog.Info("RequestPasswordReset, email:", email)
+	b := make([]byte, 32)
+    _, err := rand.Read(b)
+    if err != nil {
+        applog.Error("RequestPasswordReset, Error: ", err)
+        return RequestResetResult{true, false, true, InvalidUser(), ""}
+    }
+    token, err := base64.URLEncoding.EncodeToString(b), err
+	if err != nil {
+		applog.Info("RequestPasswordReset, Error: ", err)
+		return RequestResetResult{true, false, true, InvalidUser(), ""}
+	}
+	ctx := context.Background()
+	results, err := getUserByEmailStmt.QueryContext(ctx, email)
+	defer results.Close()
+	if err != nil {
+		applog.Error("RequestPasswordReset, Error for email: ", email, err)
+		return RequestResetResult{true, false, true, InvalidUser(), ""}
+	}
+	users := []UserInfo{}
+	for results.Next() {
+		user := UserInfo{}
+		results.Scan(&user.UserID, &user.UserName, &user.Email, &user.FullName,
+			&user.Role)
+		users = append(users, user)
+	}
+
+	if len(users) != 1 {
+		applog.Error("RequestPasswordReset, No email: ", email)
+		return RequestResetResult{false, false, true, InvalidUser(), ""}
+	}
+
+	result, err := requestResetStmt.ExecContext(ctx, token, users[0].UserID)
+	if err != nil {
+		applog.Info("RequestPasswordReset, Error for email: ", email, err)
+		return RequestResetResult{true, false, true, InvalidUser(), ""}
+	}
+	rowsAffected, _ := result.RowsAffected()
+	applog.Info("RequestPasswordReset, rows updated: ", rowsAffected)
+	return RequestResetResult{true, true, false, users[0], token}
+}
+
+// Reset a password
+func ResetPassword(token, password string) bool {
+	applog.Info("ResetPassword, token:", token)
+	ctx := context.Background()
+	results, err := getResetRequestStmt.QueryContext(ctx, token)
+	defer results.Close()
+	if err != nil {
+		applog.Error("ResetPassword, Error for token: ", token, err)
+		return false
+	}
+	userIds := []string{}
+	for results.Next() {
+		userId := ""
+		results.Scan(&userId)
+		userIds = append(userIds, userId)
+	}
+	if len(userIds) != 1 {
+		applog.Error("ResetPassword, No userId: ", token)
+		return false
+	}
+	userId := userIds[0]
+
+	// Change password
+	h := sha256.New()
+	h.Write([]byte(password))
+	hstr := fmt.Sprintf("%x", h.Sum(nil))
+	result, err := changePasswordStmt.ExecContext(ctx, hstr, userId)
+	if err != nil {
+		applog.Error("ResetPassword, Error setting password: ", err)
+		return false
+	} 
+	rowsAffected, _ := result.RowsAffected()
+	applog.Info("ResetPassword, rows updated for change pwd:", rowsAffected)
+
+	// Update reset token so that it cannot be used again
+	result, err = updateResetRequestStmt.ExecContext(ctx, token)
+	if err != nil {
+		applog.Error("ResetPassword, Error updating reset token: ", err)
+	} 
+	rowsAffected, _ = result.RowsAffected()
+	applog.Info("ResetPassword, rows updated for token:", rowsAffected)
+
+	return true
 }
 
 // Save an authenticated session to the database

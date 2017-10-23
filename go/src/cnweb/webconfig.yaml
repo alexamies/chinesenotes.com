@@ -1,10 +1,16 @@
 # Configuration file for web application
 
 # The ID of the Google Sheet for new vocabulary
-NewVocabSheetID: xxx
+NewVocabSheetID: xx
 
 # The ID of the Google Sheet for library users
-UsersSheetID: xxx
+UsersSheetID: xx
 
 # The ID of the Google Sheet for collection titles
-TitlesSheetID: xxx
+TitlesSheetID: xx
+
+# The ID of a user to send mail from
+FromEmail: do_not_reply@chinesenotes.com
+
+# The URL to do a password reset
+PasswordResetURL: http://localhost/loggedin/reset_password

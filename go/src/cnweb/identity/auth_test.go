@@ -94,6 +94,18 @@ func TestCheckSession3(t *testing.T) {
 	}
 }
 
+func TestGetUser(t *testing.T) {
+	username := "guest"
+	users, err := GetUser(username)
+	if err != nil {
+		t.Error("TestGetUser: error: ", err)
+		return
+	}
+	if len(users) == 0 {
+		t.Error("TestGetUser: username not found: ", username)
+	}
+}
+
 // Test check login method
 func TestNewSessionId(t *testing.T) {
 	sessionid := NewSessionId()
@@ -106,6 +118,20 @@ func TestNewSessionId(t *testing.T) {
 func TestLogout(t *testing.T) {
 	sessionid := NewSessionId()
 	Logout(sessionid)
+}
+
+func TestRequestPasswordReset(t *testing.T) {
+	result := RequestPasswordReset("mail.example.com")
+	if result.EmailValid {
+		t.Error("TestRequestPasswordReset: result.EmailValid not expected")
+	}
+}
+
+func TestPasswordReset(t *testing.T) {
+	result := ResetPassword("invalid token", "mail.example.com")
+	if result {
+		t.Error("TestPasswordReset: result true not expected")
+	}
 }
 
 func TestSaveSession(t *testing.T) {
