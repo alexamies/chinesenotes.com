@@ -75,6 +75,7 @@
 逻辑	Logic	\N	\N
 运气	Luck	\N	\N
 法术	Magic	\N	\N
+制造业	Manufacturing	\N	\N
 海上	Maritime	\N	\N
 武术	Martial Arts	\N	\N
 材料科学	Materials Science	\N	\N
@@ -94,7 +95,6 @@
 神话	Mythology	\N	\N
 名字	Names	\N	\N
 光学	Optics	\N	\N
-组织	Organization	\N	\N
 表演艺术 Performing Arts	\N	\N
 哲学	Philosophy	\N	\N
 摄影术	Photography	\N	\N
