@@ -7,6 +7,8 @@ if [ -n "$DEV_HOME" ]; then
   if [ -n "$CNREADER_HOME" ]; then
   	echo "Pulling to $CNREADER_HOME"
     cd $CNREADER_HOME
+    rm index/*.txt
+    rm index/*.json
     git pull origin master
     cd $DEV_HOME/go
     source 'path.bash.inc'
