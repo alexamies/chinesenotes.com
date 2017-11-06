@@ -1,4 +1,5 @@
 抽象	Abstract	\N	\N
+声学	Acoustics	\N	\N
 管理	Administration	\N	\N
 附类	Affixes	\N	\N
 农业	Agriculture	\N	\N
@@ -27,7 +28,6 @@
 计算机科学	Computer Science	\N	\N
 儒家	Confucianism	\N	\N
 化妆品	Cosmetic	\N	\N
-文化	Culture	\N	\N
 习俗	Customs	\N	\N
 舞蹈	Dance	\N	\N
 危险	Danger	\N	\N
@@ -55,7 +55,6 @@
 地质	Geology	\N	\N
 政府	Government	\N	\N
 健康	Health	\N	\N
-帮助	Help	\N	\N
 历史	History	\N	\N
 荣誉	Honor	\N	\N
 家庭用品	Household Article	\N	\N
@@ -95,7 +94,7 @@
 神话	Mythology	\N	\N
 名字	Names	\N	\N
 光学	Optics	\N	\N
-表演艺术 Performing Arts	\N	\N
+表演艺术	Performing Arts	\N	\N
 哲学	Philosophy	\N	\N
 摄影术	Photography	\N	\N
 物理	Physics	\N	\N
@@ -116,7 +115,6 @@
 规模	Scale	\N	\N
 社会学	Social Science	\N	\N
 社会工作	Social Work	\N	\N
-声	Sound	\N	\N
 航天	Space Flight	\N	\N
 体育运动	Sport	\N	\N
 口语	Spoken Language	\N	\N
