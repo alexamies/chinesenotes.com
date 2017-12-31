@@ -13,6 +13,7 @@ import (
 	"log"
 	"os"
 	"runtime/pprof"
+	"time"
 )
 
 // Entry point for the chinesenotes command line tool.
@@ -68,7 +69,17 @@ func main() {
 		analysis.WriteHwFiles()
 	} else if *librarymeta {
 		log.Printf("main: Writing digital library metadata\n")
-		library.WriteLibraryFiles()
+		fname := config.ProjectHome() + "/" + library.LibraryFile
+		fileLibraryLoader := library.FileLibraryLoader{fname}
+		dateUpdated := time.Now().Format("2006-01-02")
+		lib := library.Library{
+			Title: "Library",
+			Summary: "Top level collection in the Library",
+			DateUpdated: dateUpdated,
+			TargetStatus: "public",
+			Loader: fileLibraryLoader,
+		}
+		library.WriteLibraryFiles(lib)
 	} else {
 		log.Printf("main: Writing out entire corpus\n")
 		analysis.WriteCorpusAll()

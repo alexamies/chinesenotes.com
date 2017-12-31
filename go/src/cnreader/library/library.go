@@ -13,39 +13,56 @@ import (
 	"log"
 	"os"
 	"text/template"
-	"time"
 )
 
-type Corpus struct {
+type CorpusData struct {
 	Title, ShortName, Status, FileName string
 }
 
-type CorpusMeta struct {
+type Corpus struct {
 	Title, Summary, DateUpdated string
 	Collections []corpus.CollectionEntry
 }
 
-type LibraryMeta struct {
+// A Library is a set of corpora loaded using a LibraryLoader and metadata
+type Library struct {
 	Title, Summary, DateUpdated, TargetStatus string
-	Corpora []Corpus
+	Loader LibraryLoader
+}
+// A LibraryData is a struct to output library metadata to a HTML file
+type LibraryData struct {
+	Title, Summary, DateUpdated, TargetStatus string
+	Corpora []CorpusData
 }
 
-const libraryFile = "data/corpus/library.csv"
+// A LibraryLoader loads teh corpora into the library
+type LibraryLoader interface {
 
-// Contains the name of the corpora in the library
-var corpora []Corpus
+	// Method to load the corpora in the library
+	LoadLibrary() []CorpusData
 
-func init() {
-	loadLibrary()
+	// Method to load the collections in a corpus
+	// Parameter:
+	//  fName: the file name listing the collections
+	LoadCorpus(fName string) []corpus.CollectionEntry
 }
 
-func Library() []Corpus {
-	return corpora
+// A FileLibraryLoader loads the corpora from files
+type FileLibraryLoader struct{FileName string}
+
+func (loader FileLibraryLoader) LoadLibrary() []CorpusData {
+	return loadLibrary(loader.FileName)
 }
+
+func (loader FileLibraryLoader) LoadCorpus(fName string) []corpus.CollectionEntry {
+	return corpus.CorpusCollections(fName)
+}
+
+// The library file listing the corpora
+const LibraryFile = "data/corpus/library.csv"
 
 // Gets the list of source and destination files for HTML conversion
-func loadLibrary() []Corpus {
-	fname := config.ProjectHome() + "/" + libraryFile
+func loadLibrary(fname string) []CorpusData {
 	file, err := os.Open(fname)
 	if err != nil {
 		log.Fatal("library.loadLibrary: Error opening library file.", err)
@@ -59,7 +76,7 @@ func loadLibrary() []Corpus {
 	if err != nil {
 		log.Fatal(err)
 	}
-	corpora = make([]Corpus, 0)
+	corpora := []CorpusData{}
 	for i, row := range rawCSVdata {
 		if len(row) < 4 {
 			log.Fatal("library.loadLibrary: not enough rows in file ", i,
@@ -69,7 +86,7 @@ func loadLibrary() []Corpus {
 		shortName := row[1]
 		status := row[2]
 		fileName := row[3]
-		corpus := Corpus{title, shortName, status, fileName}
+		corpus := CorpusData{title, shortName, status, fileName}
 		corpora = append(corpora, corpus)
 	}
 	return corpora
@@ -78,10 +95,14 @@ func loadLibrary() []Corpus {
 
 // Writes a HTML files describing the corpora in the library, both public and
 // for the translation portal (requiring login)
-func writeLibraryFile(targetStatus, title, summary, outputFile string) {
-	dateUpdated := time.Now().Format("2006-01-02")
-	libraryMeta := LibraryMeta{title, summary,
-				dateUpdated, targetStatus, corpora}
+func writeLibraryFile(lib Library, corpora []CorpusData, outputFile string) {
+	libData := LibraryData{
+		Title: lib.Title,
+		Summary: lib.Summary,
+		DateUpdated: lib.DateUpdated,
+		TargetStatus: lib.TargetStatus,
+		Corpora: corpora,
+	}
 	f, err := os.Create(outputFile)
 	if err != nil {
 		log.Fatal("library.WriteLibraryFile: could not open file", err)
@@ -91,7 +112,7 @@ func writeLibraryFile(targetStatus, title, summary, outputFile string) {
 	templFile := config.TemplateDir() + "/library-template.html"
 	tmpl:= template.Must(template.New(
 					"library-template.html").ParseFiles(templFile))
-	err = tmpl.Execute(w, libraryMeta)
+	err = tmpl.Execute(w, libData)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -101,23 +122,19 @@ func writeLibraryFile(targetStatus, title, summary, outputFile string) {
 
 // Writes a HTML file describing the corpora in the library and for each corpus
 // in the library
-func WriteLibraryFiles() {
-	title := "Library"
-	summary := "Top level collection in the Library"
+func WriteLibraryFiles(lib Library) {
+	corpora := lib.Loader.LoadLibrary()
 	libraryOutFile := config.ProjectHome() + "/web/library.html"
-	writeLibraryFile("public", title, summary, libraryOutFile)
+	writeLibraryFile(lib, corpora, libraryOutFile)
 	portalDir := ""
 	if config.GetVar("GoStaticDir") != "" {
-		title2 := "Translator Portal Library"
-		summary2 := "Access for Translators Only"
 		portalDir = config.ProjectHome() + "/" + config.GetVar("GoStaticDir")
 		_, err := os.Stat(portalDir)
 		if err == nil {
 			portalLibraryFile := portalDir + "/portal_library.html"
-			writeLibraryFile("translator_portal", title2, summary2, portalLibraryFile)
+			writeLibraryFile(lib, corpora, portalLibraryFile)
 		}
 	}
-	dateUpdated := time.Now().Format("2006-01-02")
 	for _, c := range corpora {
 		outputFile := ""
 		baseDir := ""
@@ -135,9 +152,9 @@ func WriteLibraryFiles() {
 			continue
 		}
 		fName := fmt.Sprintf("data/corpus/%s", c.FileName)
-		collections := corpus.CorpusCollections(fName)
+		collections := lib.Loader.LoadCorpus(fName)
 		analysis.WriteCorpus(collections, baseDir)
-		corpusMeta := CorpusMeta{c.Title, "", dateUpdated, collections}
+		corpus := Corpus{c.Title, "", lib.DateUpdated, collections}
 		f, err := os.Create(outputFile)
 		if err != nil {
 			log.Fatal("library.WriteLibraryFiles: could not open file", err)
@@ -147,7 +164,7 @@ func WriteLibraryFiles() {
 		templFile := config.TemplateDir() + "/corpus-list-template.html"
 		tmpl:= template.Must(template.New(
 					"corpus-list-template.html").ParseFiles(templFile))
-		err = tmpl.Execute(w, corpusMeta)
+		err = tmpl.Execute(w, corpus)
 		if err != nil {
 			log.Fatal(err)
 		}

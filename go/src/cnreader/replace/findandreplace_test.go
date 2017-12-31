@@ -1,35 +1,38 @@
 /*
- * Unit tests for library package
+ * Unit tests for the replace package
  */
-package library
+package replace
 
 import (
+	"cnreader/library"
 	"testing"
 	"time"
 )
 
-func TestWriteLibraryFiles0(t *testing.T) {
-	emptyLoader := EmptyLibraryLoader{"Empty"}
+func TestFind0(t *testing.T) {
+	expr := "見"
+	emptyLoader := library.EmptyLibraryLoader{"Empty"}
 	dateUpdated := time.Now().Format("2006-01-02")
-	lib := Library{
+	lib := library.Library{
 		Title: "Library",
 		Summary: "Top level collection in the Library",
 		DateUpdated: dateUpdated,
 		TargetStatus: "public",
 		Loader: emptyLoader,
 	}
-	WriteLibraryFiles(lib)
+	Find(expr, lib)
 }
 
-func TestWriteLibraryFiles1(t *testing.T) {
-	mockLoader := MockLibraryLoader{"Mock"}
+func TestFind1(t *testing.T) {
+	expr := "見"
+	mockLoader := library.MockLibraryLoader{"Mock"}
 	dateUpdated := time.Now().Format("2006-01-02")
-	lib := Library{
+	lib := library.Library{
 		Title: "Library",
 		Summary: "Top level collection in the Library",
 		DateUpdated: dateUpdated,
 		TargetStatus: "public",
 		Loader: mockLoader,
 	}
-	WriteLibraryFiles(lib)
+	Find(expr, lib)
 }
