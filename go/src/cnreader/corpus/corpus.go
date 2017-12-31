@@ -23,10 +23,35 @@ type CollectionEntry struct {
 	AnalysisFile, Format, Date, Genre string
 }
 
-const collectionsFile = "data/corpus/collections.csv"
+const COLLECTIONS_FILE = "collections.csv"
 
 type CorpusEntry struct {
 	RawFile, GlossFile, Title, ColTitle string
+}
+
+type CorpusLoader interface {
+
+	// Method to load the entries in a collection
+	LoadCollection(fName string) (CollectionEntry, error)
+
+	// Method to load the collections in a corpus
+	// Parameter:
+	//  fName: the file name listing the collections
+	LoadCorpus(fName string) []CollectionEntry
+
+}
+
+// A FileLibraryLoader loads the corpora from files
+type FileCorpusLoader struct{FileName string}
+
+// Impements the CollectionLoader interface for FileCollectionLoader
+func (loader FileCorpusLoader) LoadCollection(fName string) (CollectionEntry, error) {
+	return GetCollectionEntry(loader.FileName)
+}
+
+// Implements the CorpusLoader interface
+func (loader FileCorpusLoader) LoadCorpus(fName string) []CollectionEntry {
+	return loadCorpusCollections(fName)
 }
 
 // Index corpus entries by raw file name
@@ -42,7 +67,7 @@ func init() {
 func GetCollectionEntry(collectionFile string) (CollectionEntry, error)  {
 	log.Printf("corpus.GetCollectionEntry: collectionFile: '%s'.\n",
 		collectionFile)
-	collections := Collections()
+	collections := loadCorpusCollections(COLLECTIONS_FILE)
 	for _, entry := range collections {
 		if strings.Compare(entry.CollectionFile, collectionFile) == 0 {
 			return entry, nil
@@ -52,17 +77,13 @@ func GetCollectionEntry(collectionFile string) (CollectionEntry, error)  {
 		collectionFile)
 }
 
-// Gets the list of source and destination files for HTML conversion
-func Collections() []CollectionEntry {
-	return CorpusCollections(collectionsFile)
-}
-
 // Gets the list of collections in the corpus
-func CorpusCollections(cFile string) []CollectionEntry {
-	collectionsFile := config.ProjectHome() + "/" + cFile
+func loadCorpusCollections(cFile string) []CollectionEntry {
+	log.Printf("corpus.loadCorpusCollections: cFile: '%s'.\n", cFile)
+	collectionsFile := config.CorpusDataDir() + "/" + cFile
 	file, err := os.Open(collectionsFile)
 	if err != nil {
-		log.Fatal("CorpusCollections: Error opening collection file.", err)
+		log.Fatal("loadCorpusCollections: Error opening collection file.", err)
 	}
 	defer file.Close()
 	reader := csv.NewReader(file)
@@ -76,8 +97,8 @@ func CorpusCollections(cFile string) []CollectionEntry {
 	collections := make([]CollectionEntry, 0)
 	for i, row := range rawCSVdata {
 		if len(row) < 9 {
-			log.Fatal("Collections: not enough rows in file ", i, len(row),
-					collectionsFile)
+			log.Fatal("loadCorpusCollections: not enough rows in file ", i,
+					len(row), collectionsFile)
 	  	}
 		collectionFile := row[0]
 		title := ""
@@ -152,7 +173,7 @@ func GetCorpusEntry(filename string) CorpusEntry {
 // Load all corpus entries and keep them in a hash map
 func loadCorpusEntries() {
 	corpusEntryMap = make(map[string]CorpusEntry)
-	collections := Collections()
+	collections := loadCorpusCollections(COLLECTIONS_FILE)
 	for _, collectionEntry := range collections {
 		corpusEntries := CorpusEntries(config.CorpusDataDir() + "/" +
 		collectionEntry.CollectionFile, collectionEntry.Title)

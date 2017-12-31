@@ -1,3 +1,6 @@
+/*
+ * Unit tests for the analysis package
+ */
 package analysis
 
 import (
@@ -5,9 +8,11 @@ import (
 	"cnreader/corpus"
 	"cnreader/dictionary"
 	"cnreader/index"
+	"cnreader/library"
 	"log"
 	"strings"
 	"testing"
+	"time"
 )
 
 func TestDecodeUsageExample1(t *testing.T) {
@@ -436,22 +441,29 @@ func TestWriteDoc4(t *testing.T) {
 	outfile := "../testoutput/test-simplified-gloss2.html"
 	WriteDoc(tokens, results.Vocab, outfile, `\N`, `\N`, true, "")
 }
-// Test that WriteHwFiles() does not explode
-/*
-func TestWriteHwFiles(t *testing.T) {
-	log.Printf("TestWriteHwFiles: Begin +++++++++++\n")
-	dictionary.ReadDict(config.LUFileNames())
-	WriteHwFiles()
-	log.Printf("TestWriteHwFiles: End +++++++++++\n")
-}
-*/
 
-// Test that WordFrequencies() does not explode
-/*
-func TestWordFrequencies(t *testing.T) {
-	//log.Printf("TestWordFrequencies: Begin +++++++++++\n")
-	dictionary.ReadDict(config.LUFileNames())
-	WordFrequencies()
-	//log.Printf("TestWordFrequencies: End +++++++++++\n")
+func TestWriteLibraryFiles0(t *testing.T) {
+	emptyLibLoader := library.EmptyLibraryLoader{"Empty"}
+	dateUpdated := time.Now().Format("2006-01-02")
+	lib := library.Library{
+		Title: "Library",
+		Summary: "Top level collection in the Library",
+		DateUpdated: dateUpdated,
+		TargetStatus: "public",
+		Loader: emptyLibLoader,
+	}
+	WriteLibraryFiles(lib)
 }
-*/
+
+func TestWriteLibraryFiles1(t *testing.T) {
+	mockLoader := library.MockLibraryLoader{"Mock"}
+	dateUpdated := time.Now().Format("2006-01-02")
+	lib := library.Library{
+		Title: "Library",
+		Summary: "Top level collection in the Library",
+		DateUpdated: dateUpdated,
+		TargetStatus: "public",
+		Loader: mockLoader,
+	}
+	WriteLibraryFiles(lib)
+}

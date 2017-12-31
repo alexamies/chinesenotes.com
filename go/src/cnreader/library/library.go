@@ -4,15 +4,10 @@ Package for scanning the corpora making up the library
 package library
 
 import (
-	"bufio"
-	"cnreader/analysis"
-	"cnreader/config"
 	"cnreader/corpus"
 	"encoding/csv"
-	"fmt"
 	"log"
 	"os"
-	"text/template"
 )
 
 type CorpusData struct {
@@ -38,24 +33,24 @@ type LibraryData struct {
 // A LibraryLoader loads teh corpora into the library
 type LibraryLoader interface {
 
+	// Method to get the corpus loader
+	GetCorpusLoader() corpus.CorpusLoader
+
 	// Method to load the corpora in the library
 	LoadLibrary() []CorpusData
-
-	// Method to load the collections in a corpus
-	// Parameter:
-	//  fName: the file name listing the collections
-	LoadCorpus(fName string) []corpus.CollectionEntry
 }
 
 // A FileLibraryLoader loads the corpora from files
 type FileLibraryLoader struct{FileName string}
 
-func (loader FileLibraryLoader) LoadLibrary() []CorpusData {
-	return loadLibrary(loader.FileName)
+// Implements the method from the LibraryLoader interface
+func (loader FileLibraryLoader) GetCorpusLoader() corpus.CorpusLoader {
+	return corpus.FileCorpusLoader{loader.FileName}
 }
 
-func (loader FileLibraryLoader) LoadCorpus(fName string) []corpus.CollectionEntry {
-	return corpus.CorpusCollections(fName)
+// Implements the method from the LibraryLoader interface
+func (loader FileLibraryLoader) LoadLibrary() []CorpusData {
+	return loadLibrary(loader.FileName)
 }
 
 // The library file listing the corpora
@@ -90,84 +85,4 @@ func loadLibrary(fname string) []CorpusData {
 		corpora = append(corpora, corpus)
 	}
 	return corpora
-}
-
-
-// Writes a HTML files describing the corpora in the library, both public and
-// for the translation portal (requiring login)
-func writeLibraryFile(lib Library, corpora []CorpusData, outputFile string) {
-	libData := LibraryData{
-		Title: lib.Title,
-		Summary: lib.Summary,
-		DateUpdated: lib.DateUpdated,
-		TargetStatus: lib.TargetStatus,
-		Corpora: corpora,
-	}
-	f, err := os.Create(outputFile)
-	if err != nil {
-		log.Fatal("library.WriteLibraryFile: could not open file", err)
-	}
-	defer f.Close()
-	w := bufio.NewWriter(f)
-	templFile := config.TemplateDir() + "/library-template.html"
-	tmpl:= template.Must(template.New(
-					"library-template.html").ParseFiles(templFile))
-	err = tmpl.Execute(w, libData)
-	if err != nil {
-		log.Fatal(err)
-	}
-	w.Flush()
-
-}
-
-// Writes a HTML file describing the corpora in the library and for each corpus
-// in the library
-func WriteLibraryFiles(lib Library) {
-	corpora := lib.Loader.LoadLibrary()
-	libraryOutFile := config.ProjectHome() + "/web/library.html"
-	writeLibraryFile(lib, corpora, libraryOutFile)
-	portalDir := ""
-	if config.GetVar("GoStaticDir") != "" {
-		portalDir = config.ProjectHome() + "/" + config.GetVar("GoStaticDir")
-		_, err := os.Stat(portalDir)
-		if err == nil {
-			portalLibraryFile := portalDir + "/portal_library.html"
-			writeLibraryFile(lib, corpora, portalLibraryFile)
-		}
-	}
-	for _, c := range corpora {
-		outputFile := ""
-		baseDir := ""
-		if c.Status == "public" {
-			baseDir = config.ProjectHome() + "/web"
-			outputFile = fmt.Sprintf("%s/web/%s.html", config.ProjectHome(),
-					c.ShortName)
-		} else if c.Status == "translator_portal" {
-			baseDir = portalDir
-			outputFile = fmt.Sprintf("%s/%s.html", portalDir,
-					c.ShortName)
-		} else {
-			log.Printf("library.WriteLibraryFiles: not sure what to do with status",
-				c.Status)
-			continue
-		}
-		fName := fmt.Sprintf("data/corpus/%s", c.FileName)
-		collections := lib.Loader.LoadCorpus(fName)
-		analysis.WriteCorpus(collections, baseDir)
-		corpus := Corpus{c.Title, "", lib.DateUpdated, collections}
-		f, err := os.Create(outputFile)
-		if err != nil {
-			log.Fatal("library.WriteLibraryFiles: could not open file", err)
-		}
-		defer f.Close()
-		w := bufio.NewWriter(f)
-		templFile := config.TemplateDir() + "/corpus-list-template.html"
-		tmpl:= template.Must(template.New(
-					"corpus-list-template.html").ParseFiles(templFile))
-		err = tmpl.Execute(w, corpus)
-		if err != nil {
-			log.Fatal(err)
-		}
-		w.Flush()
-	}
 }

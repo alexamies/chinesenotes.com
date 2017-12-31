@@ -17,9 +17,12 @@ func Find(expr string, lib library.Library) {
 	corpora := lib.Loader.LoadLibrary()
 	for i, corpus := range corpora {
 		log.Printf("Find %d: corpus: %v\n", i, corpus)
-		collections := lib.Loader.LoadCorpus(corpus.FileName)
+		collections := lib.Loader.GetCorpusLoader().LoadCorpus(corpus.FileName)
 		for j, col := range collections {
 			log.Printf("Find j: %d: col: %v\n", j, col)
+			for k, entry := range col.CorpusEntries {
+				log.Printf("Find k: %d: entry: %v\n", k, entry)
+			}
 		}
 	}
 }

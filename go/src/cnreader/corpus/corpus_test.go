@@ -1,3 +1,6 @@
+/*
+ * Unit tests for corpus package
+ */
 package corpus
 
 import (
@@ -13,7 +16,7 @@ func init() {
 // Test reading of files for HTML conversion
 func TestCollections(t *testing.T) {
 	fmt.Printf("corpus.TestCollections: Begin unit tests\n")
-	collections := Collections()
+	collections := loadCorpusCollections(COLLECTIONS_FILE)
 	if len(collections) == 0 {
 		t.Error("No collections found")
 	} else {

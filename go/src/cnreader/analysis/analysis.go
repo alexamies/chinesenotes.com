@@ -11,6 +11,7 @@ import (
 	"cnreader/dictionary"
 	"cnreader/index"
 	"cnreader/ngram"
+	"cnreader/library"
 	"container/list"
 	"fmt"
 	"io"
@@ -146,8 +147,9 @@ func GetChunks(text string) list.List {
 }
 
 // Compute word frequencies, collocations, and usage for the entire corpus
-func GetWordFrequencies() (map[string]*[]WordUsage,
-	map[*index.CorpusWord]index.CorpusWordFreq, map[string]int, ngram.CollocationMap) {
+func GetWordFrequencies(libLoader library.LibraryLoader) (map[string]*[]WordUsage,
+	map[*index.CorpusWord]index.CorpusWordFreq, map[string]int,
+	ngram.CollocationMap) {
 
 	// Overall word frequencies per corpus
 	collocations := ngram.CollocationMap{}
@@ -158,7 +160,8 @@ func GetWordFrequencies() (map[string]*[]WordUsage,
 	corpusDir := config.ProjectHome() + "/corpus/"
 	corpusDataDir := config.ProjectHome() + "/data/corpus/"
 
-	collectionEntries := corpus.Collections()
+	corpLoader := libLoader.GetCorpusLoader()
+	collectionEntries := corpLoader.LoadCorpus(corpus.COLLECTIONS_FILE)
 	for _, col := range collectionEntries {
 		colFile := corpusDataDir + col.CollectionFile
 		//log.Printf("GetWordFrequencies: input file: %s\n", colFile)
@@ -690,8 +693,9 @@ func WriteCorpus(collections []corpus.CollectionEntry, baseDir string) {
 }
 
 // Write all the collections in the default corpus (collections.csv file)
-func WriteCorpusAll() {
-	collections := corpus.Collections()
+func WriteCorpusAll(libLoader library.LibraryLoader) {
+	corpLoader := libLoader.GetCorpusLoader()
+	collections := corpLoader.LoadCorpus(corpus.COLLECTIONS_FILE)
 	baseDir := config.ProjectHome() + "/web"
 	WriteCorpus(collections, baseDir)
 }
@@ -855,11 +859,11 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 }
 
 // Writes dictionary headword entries
-func WriteHwFiles() {
+func WriteHwFiles(loader library.LibraryLoader) {
 	log.Printf("analysis.WriteHwFiles: Begin +++++++++++\n")
 	index.BuildIndex()
 	hwArray := dictionary.GetHeadwords()
-	usageMap, _, _, collocations := GetWordFrequencies()
+	usageMap, _, _, collocations := GetWordFrequencies(loader)
 	dateUpdated := time.Now().Format("2006-01-02")
 
 	// Prepare template
@@ -948,5 +952,84 @@ func WriteHwFiles() {
 		w.Flush()
 		f.Close()
 		i++
+	}
+}
+
+// Writes a HTML files describing the corpora in the library, both public and
+// for the translation portal (requiring login)
+func writeLibraryFile(lib library.Library, corpora []library.CorpusData, outputFile string) {
+	libData := library.LibraryData{
+		Title: lib.Title,
+		Summary: lib.Summary,
+		DateUpdated: lib.DateUpdated,
+		TargetStatus: lib.TargetStatus,
+		Corpora: corpora,
+	}
+	f, err := os.Create(outputFile)
+	if err != nil {
+		log.Fatal("library.WriteLibraryFile: could not open file", err)
+	}
+	defer f.Close()
+	w := bufio.NewWriter(f)
+	templFile := config.TemplateDir() + "/library-template.html"
+	tmpl:= template.Must(template.New(
+					"library-template.html").ParseFiles(templFile))
+	err = tmpl.Execute(w, libData)
+	if err != nil {
+		log.Fatal(err)
+	}
+	w.Flush()
+
+}
+
+// Writes a HTML file describing the corpora in the library and for each corpus
+// in the library
+func WriteLibraryFiles(lib library.Library) {
+	corpora := lib.Loader.LoadLibrary()
+	libraryOutFile := config.ProjectHome() + "/web/library.html"
+	writeLibraryFile(lib, corpora, libraryOutFile)
+	portalDir := ""
+	if config.GetVar("GoStaticDir") != "" {
+		portalDir = config.ProjectHome() + "/" + config.GetVar("GoStaticDir")
+		_, err := os.Stat(portalDir)
+		if err == nil {
+			portalLibraryFile := portalDir + "/portal_library.html"
+			writeLibraryFile(lib, corpora, portalLibraryFile)
+		}
+	}
+	for _, c := range corpora {
+		outputFile := ""
+		baseDir := ""
+		if c.Status == "public" {
+			baseDir = config.ProjectHome() + "/web"
+			outputFile = fmt.Sprintf("%s/web/%s.html", config.ProjectHome(),
+					c.ShortName)
+		} else if c.Status == "translator_portal" {
+			baseDir = portalDir
+			outputFile = fmt.Sprintf("%s/%s.html", portalDir,
+					c.ShortName)
+		} else {
+			log.Printf("library.WriteLibraryFiles: not sure what to do with status",
+				c.Status)
+			continue
+		}
+		fName := fmt.Sprintf("data/corpus/%s", c.FileName)
+		collections := lib.Loader.GetCorpusLoader().LoadCorpus(fName)
+		WriteCorpus(collections, baseDir)
+		corpus := library.Corpus{c.Title, "", lib.DateUpdated, collections}
+		f, err := os.Create(outputFile)
+		if err != nil {
+			log.Fatal("library.WriteLibraryFiles: could not open file", err)
+		}
+		defer f.Close()
+		w := bufio.NewWriter(f)
+		templFile := config.TemplateDir() + "/corpus-list-template.html"
+		tmpl:= template.Must(template.New(
+					"corpus-list-template.html").ParseFiles(templFile))
+		err = tmpl.Execute(w, corpus)
+		if err != nil {
+			log.Fatal(err)
+		}
+		w.Flush()
 	}
 }

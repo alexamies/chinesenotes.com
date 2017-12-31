@@ -10,6 +10,7 @@ import (
 	"cnreader/corpus"
 	"cnreader/dictionary"
 	"cnreader/library"
+	"cnreader/replace"
 	"log"
 	"os"
 	"runtime/pprof"
@@ -23,6 +24,8 @@ func main() {
 	var collectionFile = flag.String("collection", "", 
 		"Enhance HTML markup and do vocabulary analysis for all the files " +
 		"listed in given collection.")
+	var find = flag.String("find", "", "Find occurrences matching a given " +
+		"string in the library.")
 	var headwords = flag.Bool("headwords", false,
 		"Compute headword definitions " +
 		" for all lexical units listed in data/words.txt, writing to the " +
@@ -34,15 +37,31 @@ func main() {
 		"web/words directory.")
 	var librarymeta = flag.Bool("librarymeta", false, "Top level " +
 		"collection entries for the digital library.")
-	var memprofile = flag.String("memprofile", "", "write memory profile to this file")
+	var memprofile = flag.String("memprofile", "", "write memory profile to " +
+				"this file")
 	flag.Parse()
 
 	// Read in dictionary
 	dictionary.ReadDict(config.LUFileNames())
 
+	// Setup loader for library
+	fname := config.ProjectHome() + "/" + library.LibraryFile
+	fileLibraryLoader := library.FileLibraryLoader{fname}
+	dateUpdated := time.Now().Format("2006-01-02")
+	lib := library.Library{
+		Title: "Library",
+		Summary: "Top level collection in the Library",
+		DateUpdated: dateUpdated,
+		TargetStatus: "public",
+		Loader: fileLibraryLoader,
+	}
+
 	if (*collectionFile != "") {
 		log.Printf("main: Analyzing collection %s\n", *collectionFile)
 		analysis.WriteCorpusCol(*collectionFile)
+	} else if (*find != "") {
+		log.Printf("main: Finding occurences of string %s\n", *find)
+		replace.Find(*find, lib)
 	} else if *html {
 		log.Printf("main: Converting all HTML files\n")
 		conversions := config.GetHTMLConversions()
@@ -66,7 +85,7 @@ func main() {
 		dictionary.WriteHeadwords()
 	} else if *hwFiles {
 		log.Printf("main: Writing word entries for headwords\n")
-		analysis.WriteHwFiles()
+		analysis.WriteHwFiles(fileLibraryLoader)
 	} else if *librarymeta {
 		log.Printf("main: Writing digital library metadata\n")
 		fname := config.ProjectHome() + "/" + library.LibraryFile
@@ -79,10 +98,10 @@ func main() {
 			TargetStatus: "public",
 			Loader: fileLibraryLoader,
 		}
-		library.WriteLibraryFiles(lib)
+		analysis.WriteLibraryFiles(lib)
 	} else {
 		log.Printf("main: Writing out entire corpus\n")
-		analysis.WriteCorpusAll()
+		analysis.WriteCorpusAll(fileLibraryLoader)
 	}
 
 	// Memory profiling
