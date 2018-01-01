@@ -24,7 +24,7 @@ func TestFind0(t *testing.T) {
 }
 
 func TestFind1(t *testing.T) {
-	expr := "見"
+	expr := "你好"
 	mockLoader := library.MockLibraryLoader{"Mock"}
 	dateUpdated := time.Now().Format("2006-01-02")
 	lib := library.Library{

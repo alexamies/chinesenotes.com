@@ -14,8 +14,6 @@ import (
 	"cnreader/library"
 	"container/list"
 	"fmt"
-	"io"
-	"io/ioutil"
 	"log"
 	"os"
 	"strings"
@@ -158,17 +156,16 @@ func GetWordFrequencies(libLoader library.LibraryLoader) (map[string]*[]WordUsag
 	wcTotal := map[string]int{}
 	wfTotal := map[*index.CorpusWord]index.CorpusWordFreq{}
 	corpusDir := config.ProjectHome() + "/corpus/"
-	corpusDataDir := config.ProjectHome() + "/data/corpus/"
 
 	corpLoader := libLoader.GetCorpusLoader()
 	collectionEntries := corpLoader.LoadCorpus(corpus.COLLECTIONS_FILE)
 	for _, col := range collectionEntries {
-		colFile := corpusDataDir + col.CollectionFile
+		colFile := col.CollectionFile
 		//log.Printf("GetWordFrequencies: input file: %s\n", colFile)
-		corpusEntries := corpus.CorpusEntries(colFile, col.Title)
+		corpusEntries := corpLoader.LoadCollection(colFile, col.Title)
 		for _, entry := range corpusEntries {
 			src := corpusDir + entry.RawFile
-			text := ReadText(src)
+			text := corpLoader.ReadText(src)
 			ccount += utf8.RuneCountInString(text)
 			_, results := ParseText(text, col.Title, &entry)
 			wcTotal[col.Corpus] += results.WC
@@ -344,43 +341,6 @@ func sampleUsage(usageMap map[string]*[]WordUsage) map[string]*[]WordUsage {
 		usageMap[word] = usageCapped
 	}
 	return usageMap
-}
-
-// Reads a Chinese text file
-func ReadText(filename string) string {
-	var text string
-	if strings.HasSuffix(filename, ".html") {
-		bs, err := ioutil.ReadFile(filename)
-		if err != nil {
-			log.Fatal(err)
-		}
-		text = string(bs)
-	} else { // plain text file, add line breaks
-		infile, err := os.Open(filename)
-		if err != nil {
-			log.Fatal(err)
-		}
-		defer infile.Close()
-		reader := bufio.NewReader(infile)
-		var buffer bytes.Buffer
-		eof := false
-		for !eof {
-			var line string
-			line, err = reader.ReadString('\n')
-			if err == io.EOF {
-				err = nil
-				eof = true
-			} else if err != nil {
-				break
-			}
-			if _, err = buffer.WriteString(line + "<br/>\n"); err != nil {
-				break
-			}
-		}
-		text = buffer.String()
-	}
-	//fmt.Printf("ReadText: read text %s\n", text)
-	return text
 }
 
 // For the HTML template
@@ -639,9 +599,11 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 // collectionEntry: the CollectionEntry struct
 // baseDir: The base directory to use
 func writeCollection(collectionEntry corpus.CollectionEntry,
-		docFreq index.DocumentFrequency, baseDir string) CollectionAResults {
+		docFreq index.DocumentFrequency, baseDir string,
+		libLoader library.LibraryLoader) CollectionAResults {
 
-	corpusEntries := corpus.CorpusEntries(config.CorpusDataDir() + "/" +
+	corpLoader := libLoader.GetCorpusLoader()
+	corpusEntries := corpLoader.LoadCollection(config.CorpusDataDir() + "/" +
 		collectionEntry.CollectionFile, collectionEntry.Title)
 	aResults := NewCollectionAResults()
 	for _, entry := range corpusEntries {
@@ -652,7 +614,7 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 				"empty, input file: %s, output file: %s\n",
 				src, dest)
 		}
-		text := ReadText(src)
+		text := corpLoader.ReadText(src)
 		tokens, results := ParseText(text, collectionEntry.Title, &entry)
 		docFreq.AddVocabulary(results.Vocab)
 		aFile := writeAnalysis(results, entry.RawFile, collectionEntry.Title,
@@ -672,7 +634,8 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 // Write all the collections in the given corpus
 // collections: The set of collections to write to HTML
 // baseDir: The base directory to use to write the files
-func WriteCorpus(collections []corpus.CollectionEntry, baseDir string) {
+func WriteCorpus(collections []corpus.CollectionEntry, baseDir string,
+	libLoader library.LibraryLoader) {
 	index.Reset()
 	docFreq := index.NewDocumentFrequency() // used to accumulate the frequencies
 	aResults := NewCollectionAResults()
@@ -680,7 +643,7 @@ func WriteCorpus(collections []corpus.CollectionEntry, baseDir string) {
 	for _, collectionEntry := range collections {
 		//log.Printf("analysis.WriteCorpusAll: entry: '%s' has genre '%s'\n",
 		//	collectionEntry.Title, collectionEntry.Genre)
-		results := writeCollection(collectionEntry, docFreq, baseDir)
+		results := writeCollection(collectionEntry, docFreq, baseDir, libLoader)
 		byGenre := NewWordFreqByGenre(collectionEntry.Genre)
 		byGenre.WF = results.Vocab
 		wfArrayByGenre = MergeByGenre(wfArrayByGenre, byGenre)
@@ -697,14 +660,15 @@ func WriteCorpusAll(libLoader library.LibraryLoader) {
 	corpLoader := libLoader.GetCorpusLoader()
 	collections := corpLoader.LoadCorpus(corpus.COLLECTIONS_FILE)
 	baseDir := config.ProjectHome() + "/web"
-	WriteCorpus(collections, baseDir)
+	WriteCorpus(collections, baseDir, libLoader)
 }
 
 // Writes a corpus document collection to HTML, including all the entries
 // contained in the collection
 // collectionFile: the name of the collection file
-func WriteCorpusCol(collectionFile string) {
-	collectionEntry, err := corpus.GetCollectionEntry(collectionFile)
+func WriteCorpusCol(collectionFile string,
+			libLoader library.LibraryLoader) {
+	collectionEntry, err := libLoader.GetCorpusLoader().GetCollectionEntry(collectionFile)
 	if err != nil {
 		log.Fatalf("analysis.WriteCorpusCol: fatal error %v", err)
 	}
@@ -712,7 +676,7 @@ func WriteCorpusCol(collectionFile string) {
 	// persisted
 	df := index.DocumentFrequency{}
 	baseDir := config.ProjectHome() + "/web"
-	writeCollection(collectionEntry, df, baseDir)
+	writeCollection(collectionEntry, df, baseDir, libLoader)
 }
 
 // Writes a corpus document with markup for the array of tokens
@@ -864,6 +828,7 @@ func WriteHwFiles(loader library.LibraryLoader) {
 	index.BuildIndex()
 	hwArray := dictionary.GetHeadwords()
 	usageMap, _, _, collocations := GetWordFrequencies(loader)
+	corpusEntryMap := loader.GetCorpusLoader().LoadAll(corpus.COLLECTIONS_FILE)
 	dateUpdated := time.Now().Format("2006-01-02")
 
 	// Prepare template
@@ -928,7 +893,7 @@ func WriteHwFiles(loader library.LibraryLoader) {
 
 		dictEntry := DictEntry {
 			Headword:     hw,
-			RelevantDocs: index.FindDocsForKeyword(hw),
+			RelevantDocs: index.FindDocsForKeyword(hw, corpusEntryMap),
 			Contains:     contains,
 			Collocations: wordCollocations,
 			UsageArr:     hlUsageArr,
@@ -1015,7 +980,7 @@ func WriteLibraryFiles(lib library.Library) {
 		}
 		fName := fmt.Sprintf("data/corpus/%s", c.FileName)
 		collections := lib.Loader.GetCorpusLoader().LoadCorpus(fName)
-		WriteCorpus(collections, baseDir)
+		WriteCorpus(collections, baseDir, lib.Loader)
 		corpus := library.Corpus{c.Title, "", lib.DateUpdated, collections}
 		f, err := os.Create(outputFile)
 		if err != nil {

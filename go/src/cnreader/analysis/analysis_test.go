@@ -130,7 +130,8 @@ func TestGetChunks4(t *testing.T) {
 
 func TestReadText1(t *testing.T) {
 	//log.Printf("TestReadText1: Begin ******** \n")
-	text := ReadText("../testdata/sampletest.txt")
+	corpusLoader := corpus.FileCorpusLoader{"File"}
+	text := corpusLoader.ReadText("../testdata/sampletest.txt")
 	expected := "繁體中文<br/>\n"
 	//log.Printf("TestReadText1: Expected  '%s', got '%s'\n", expected, text)
 	if text != expected {
@@ -141,7 +142,8 @@ func TestReadText1(t *testing.T) {
 
 func TestReadText2(t *testing.T) {
 	//log.Printf("TestReadText2: Begin ******** \n")
-	text := ReadText("../testdata/test.html")
+	corpusLoader := corpus.FileCorpusLoader{"File"}
+	text := corpusLoader.ReadText("../testdata/test.html")
 	if !strings.Contains(text, "繁體中文") {
 		t.Error("Expected to contain '繁體中文', got ", text)
 	}
@@ -220,7 +222,8 @@ func TestParseText3(t *testing.T) {
 
 func TestParseText4(t *testing.T) {
 	dictionary.ReadDict(config.LUFileNames())
-	text := ReadText("../testdata/test-trad.html")
+	corpusLoader := corpus.FileCorpusLoader{"File"}
+	text := corpusLoader.ReadText("../testdata/test-trad.html")
 	tokens, results := ParseText(text, "", corpus.NewCorpusEntry())
 	if tokens.Len() != 48 {
 		t.Error("Expected to get length 48, got ", tokens.Len())
@@ -342,7 +345,8 @@ func TestSampleUsage4(t *testing.T) {
 
 func TestSortedFreq(t *testing.T) {
 	dictionary.ReadDict(config.LUFileNames())
-	text := ReadText("../testdata/test-trad.html")
+	corpusLoader := corpus.FileCorpusLoader{"File"}
+	text := corpusLoader.ReadText("../testdata/test-trad.html")
 	_, results := ParseText(text, "", corpus.NewCorpusEntry())
 	sortedWords := index.SortedFreq(results.Vocab)
 	expected := len(results.Vocab)
@@ -404,7 +408,8 @@ func TestWriteDoc1(t *testing.T) {
 func TestWriteDoc2(t *testing.T) {
 	files := []string{"../testdata/testwords.txt"}
 	dictionary.ReadDict(files)
-	text := ReadText("../testdata/test.html")
+	corpusLoader := corpus.FileCorpusLoader{"File"}
+	text := corpusLoader.ReadText("../testdata/test.html")
 	tokens, results := ParseText(text, "", corpus.NewCorpusEntry())
 	if tokens.Len() != 4 {
 		t.Error("Expected to get length 4, got ", tokens.Len())
@@ -416,7 +421,8 @@ func TestWriteDoc2(t *testing.T) {
 func TestWriteDoc3(t *testing.T) {
 	files := []string{"../testdata/testwords.txt"}
 	dictionary.ReadDict(files)
-	text := ReadText("../testdata/test-simplified.html")
+	corpusLoader := corpus.FileCorpusLoader{"File"}
+	text := corpusLoader.ReadText("../testdata/test-simplified.html")
 	tokens, results := ParseText(text, "", corpus.NewCorpusEntry())
 	if tokens.Len() != 6 {
 		t.Error("Expected to get length 6, got ", tokens.Len())
@@ -428,7 +434,8 @@ func TestWriteDoc3(t *testing.T) {
 func TestWriteDoc4(t *testing.T) {
 	files := []string{"../testdata/testwords.txt"}
 	dictionary.ReadDict(files)
-	text := ReadText("../testdata/test-simplified2.html")
+	corpusLoader := corpus.FileCorpusLoader{"File"}
+	text := corpusLoader.ReadText("../testdata/test-simplified2.html")
 	tokens, results := ParseText(text, "", corpus.NewCorpusEntry())
 	l := 3
 	if tokens.Len() != l {

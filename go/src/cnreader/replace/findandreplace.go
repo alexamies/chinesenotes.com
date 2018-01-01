@@ -6,22 +6,27 @@ package replace
 import (
 	"cnreader/library"
 	"log"
+	"strings"
 )
 
 // Finds occurrences of the expression in the library
 // Parameters
-//   expr - the string to find
+//   substr - the string to find
 //   lib - the library to search over
-func Find(expr string, lib library.Library) {
-	log.Printf("Find expr: %s\n", expr)
+func Find(substr string, lib library.Library) {
+	log.Printf("replace.Find substr: %s\n", substr)
 	corpora := lib.Loader.LoadLibrary()
+	corpLoader := lib.Loader.GetCorpusLoader()
 	for i, corpus := range corpora {
-		log.Printf("Find %d: corpus: %v\n", i, corpus)
-		collections := lib.Loader.GetCorpusLoader().LoadCorpus(corpus.FileName)
+		log.Printf("replace.Find %d: corpus: %v\n", i, corpus)
+		collections := corpLoader.LoadCorpus(corpus.FileName)
 		for j, col := range collections {
-			log.Printf("Find j: %d: col: %v\n", j, col)
-			for k, entry := range col.CorpusEntries {
-				log.Printf("Find k: %d: entry: %v\n", k, entry)
+			log.Printf("replace.Find j: %d: col: %v\n", j, col)
+			entries := corpLoader.LoadCollection(col.CollectionFile, col.Title)
+			for _, entry := range entries {
+				text := corpLoader.ReadText(entry.RawFile)
+				res := strings.Contains(text, substr)
+				log.Printf("replace.Find title: %s: found: %v\n", col.Title, res)
 			}
 		}
 	}

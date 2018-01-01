@@ -25,7 +25,8 @@ type RetrievalResult struct {
 }
 
 // Retrieves documents with title for a single keyword
-func FindDocsForKeyword(keyword dictionary.HeadwordDef) []RetrievalResult {
+func FindDocsForKeyword(keyword dictionary.HeadwordDef,
+		corpusEntryMap map[string]corpus.CorpusEntry) []RetrievalResult {
 	docs := make([]RetrievalResult, 0)
 	if !keywordIndexReady {
 		log.Printf("index.FindForKeyword, Warning: index not yet ready")
@@ -41,12 +42,11 @@ func FindDocsForKeyword(keyword dictionary.HeadwordDef) []RetrievalResult {
 	i := 0
 	for _, raw := range wfdoc[kw] {
 		if i < MAX_DOCS_DISPLAYED {
-			corpusEntry := corpus.GetCorpusEntry(raw.Filename)
-			if corpusEntry.Title == "" {
-				//TODO - fix these
+			corpusEntry, ok := corpusEntryMap[raw.Filename]
+			if !ok {
+				log.Printf("index.FindForKeyword, no title for %s\n",
+						raw.Filename)
 				continue
-				//log.Printf("index.FindForKeyword, no title for %s\n", 
-				//	raw.Filename)
 			}
 			item := RetrievalResult{corpusEntry.GlossFile, corpusEntry.Title,
 				corpusEntry.ColTitle, raw.Count}

@@ -10,6 +10,7 @@ import (
 	"encoding/csv"
 	"errors"
 	"io"
+	"io/ioutil"
 	"log"
 	"os"
 	"strings"
@@ -31,13 +32,33 @@ type CorpusEntry struct {
 
 type CorpusLoader interface {
 
+	// Method to get a single entry in a collection
+	// Param:
+	//   fName: The file name of the collection
+	// Returns
+	//   A CollectionEntry encapsulating the collection or an error
+	GetCollectionEntry(fName string) (CollectionEntry, error)
+
+	// Load all entries in all collections in a corpus
+    // Param:
+	//  fName: the corpus file name listing the collections
+	LoadAll(fName string) map[string]CorpusEntry
+
 	// Method to load the entries in a collection
-	LoadCollection(fName string) (CollectionEntry, error)
+    // Param:
+    //   fName: A file name containing the entries in the collection
+    //   colTitle: The title of the collection
+	LoadCollection(fName string, colTitle string) []CorpusEntry
 
 	// Method to load the collections in a corpus
 	// Parameter:
-	//  fName: the file name listing the collections
+	//  fName: the corpus file name listing the collections
 	LoadCorpus(fName string) []CollectionEntry
+
+	// Method to read the contents of a corpus entry
+	// Parameter:
+	//  fName: the file name containing the text
+	ReadText(fName string) string
 
 }
 
@@ -45,26 +66,34 @@ type CorpusLoader interface {
 type FileCorpusLoader struct{FileName string}
 
 // Impements the CollectionLoader interface for FileCollectionLoader
-func (loader FileCorpusLoader) LoadCollection(fName string) (CollectionEntry, error) {
-	return GetCollectionEntry(loader.FileName)
+func (loader FileCorpusLoader) GetCollectionEntry(fName string) (CollectionEntry, error) {
+	return getCollectionEntry(loader.FileName)
 }
 
-// Implements the CorpusLoader interface
+// Implements the LoadCorpus method in the CorpusLoader interface
+func (loader FileCorpusLoader) LoadCollection(fName, colTitle string) []CorpusEntry {
+	return loadCorpusEntries(fName, colTitle)
+}
+
+// Implements the LoadAll method in the CorpusLoader interface
+func (loader FileCorpusLoader) LoadAll(fName string) (map[string]CorpusEntry) {
+	return loadAll(fName)
+}
+
+// Implements the LoadCorpus method in the CorpusLoader interface
 func (loader FileCorpusLoader) LoadCorpus(fName string) []CollectionEntry {
 	return loadCorpusCollections(fName)
 }
 
-// Index corpus entries by raw file name
-var corpusEntryMap map[string]CorpusEntry
-
-func init() {
-	loadCorpusEntries()
+// Implements the LoadCorpus method in the CorpusLoader interface
+func (loader FileCorpusLoader) ReadText(fName string) string {
+	return readText(fName)
 }
 
 // Gets the entry the collection
 // Parameter
 // collectionFile: The name of the file describing the collection
-func GetCollectionEntry(collectionFile string) (CollectionEntry, error)  {
+func getCollectionEntry(collectionFile string) (CollectionEntry, error)  {
 	log.Printf("corpus.GetCollectionEntry: collectionFile: '%s'.\n",
 		collectionFile)
 	collections := loadCorpusCollections(COLLECTIONS_FILE)
@@ -75,6 +104,20 @@ func GetCollectionEntry(collectionFile string) (CollectionEntry, error)  {
 	}
 	return CollectionEntry{}, errors.New("could not find collection " +
 		collectionFile)
+}
+
+// Load all corpus entries and keep them in a hash map
+func loadAll(fname string) (map[string]CorpusEntry) {
+	corpusEntryMap := map[string]CorpusEntry{}
+	collections := loadCorpusCollections(fname)
+	for _, collectionEntry := range collections {
+		corpusEntries := loadCorpusEntries(collectionEntry.CollectionFile,
+				collectionEntry.Title)
+		for _, entry := range corpusEntries {
+			corpusEntryMap[entry.RawFile] = entry
+		}
+	}
+	return corpusEntryMap
 }
 
 // Gets the list of collections in the corpus
@@ -140,10 +183,12 @@ func loadCorpusCollections(cFile string) []CollectionEntry {
 }
 
 // Get a list of files for a corpus
-func CorpusEntries(collectionFile, colTitle string) []CorpusEntry {
-	file, err := os.Open(collectionFile)
+func loadCorpusEntries(collectionFile, colTitle string) []CorpusEntry {
+	log.Printf("corpus.loadCorpusEntries enter: '%s'.\n", collectionFile)
+	cFile := config.CorpusDataDir() + "/" + collectionFile
+	file, err := os.Open(cFile)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("corpus.loadCorpusEntries collectionFile not found: ", err)
 	}
 	defer file.Close()
 	reader := csv.NewReader(file)
@@ -157,30 +202,12 @@ func CorpusEntries(collectionFile, colTitle string) []CorpusEntry {
 	corpusEntries := make([]CorpusEntry, 0)
 	for _, row := range rawCSVdata {
 		if len(row) != 3 {
-			log.Fatal("corpus.CorpusEntries len(row) != 3 ", row)
+			log.Fatal("corpus.loadCorpusEntries len(row) != 3 ", row)
 		}
 		corpusEntries = append(corpusEntries, CorpusEntry{row[0], row[1],
 			row[2], colTitle})
 	}
 	return corpusEntries	
-}
-
-// Lookup a corpus entry by raw file name
-func GetCorpusEntry(filename string) CorpusEntry {
-	return corpusEntryMap[filename]
-}
-
-// Load all corpus entries and keep them in a hash map
-func loadCorpusEntries() {
-	corpusEntryMap = make(map[string]CorpusEntry)
-	collections := loadCorpusCollections(COLLECTIONS_FILE)
-	for _, collectionEntry := range collections {
-		corpusEntries := CorpusEntries(config.CorpusDataDir() + "/" +
-		collectionEntry.CollectionFile, collectionEntry.Title)
-		for _, entry := range corpusEntries {
-			corpusEntryMap[entry.RawFile] = entry
-		}
-	}
 }
 
 // Constructor for an empty CollectionEntry
@@ -221,6 +248,44 @@ func ReadIntroFile(introFile string) string {
 	return buffer.String()
 }
 
+// Reads a Chinese text file
+func readText(filename string) string {
+	var text string
+	if strings.HasSuffix(filename, ".html") {
+		bs, err := ioutil.ReadFile(filename)
+		if err != nil {
+			log.Println("corpus.readText: could not read %s", filename)
+			log.Fatal(err)
+		}
+		text = string(bs)
+	} else { // plain text file, add line breaks
+		infile, err := os.Open(filename)
+		if err != nil {
+			log.Fatal(err)
+		}
+		defer infile.Close()
+		reader := bufio.NewReader(infile)
+		var buffer bytes.Buffer
+		eof := false
+		for !eof {
+			var line string
+			line, err = reader.ReadString('\n')
+			if err == io.EOF {
+				err = nil
+				eof = true
+			} else if err != nil {
+				break
+			}
+			if _, err = buffer.WriteString(line + "<br/>\n"); err != nil {
+				break
+			}
+		}
+		text = buffer.String()
+	}
+	//fmt.Printf("ReadText: read text %s\n", text)
+	return text
+}
+
 // Writes a HTML file describing the collection
 // Parameter
 // collectionFile: The name of the file describing the collection
@@ -231,7 +296,7 @@ func WriteCollectionFile(entry CollectionEntry, analysisFile, baseDir string) {
 	outputFile := config.ProjectHome() + "/data/corpus/" + collectionFile
 	//log.Printf("WriteCollectionFile: Writing collection file %s\n",
 	//			outputFile)
-	entry.CorpusEntries = CorpusEntries(outputFile, entry.Title)
+	entry.CorpusEntries = loadCorpusEntries(outputFile, entry.Title)
 	entry.AnalysisFile = analysisFile
 	fName := baseDir + "/" + entry.GlossFile
 	f, err := os.Create(fName)

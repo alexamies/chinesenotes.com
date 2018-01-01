@@ -2,6 +2,7 @@
 package index
 
 import (
+	"cnreader/corpus"
 	"cnreader/dictionary"
 	"fmt"
 	"testing"
@@ -31,6 +32,8 @@ func TestFindDocsForKeyword0(t *testing.T) {
 		Pinyin:      []string{"hǎi"},
 		WordSenses:  &[]dictionary.WordSenseEntry{},
 	}
-	documents := FindDocsForKeyword(hw)
+	fileLoader := corpus.FileCorpusLoader{"File"}
+	corpusEntryMap := fileLoader.LoadAll(corpus.COLLECTIONS_FILE)
+	documents := FindDocsForKeyword(hw, corpusEntryMap)
 	fmt.Println("index.TestFindDocsForKeyword0 ", documents)
 }

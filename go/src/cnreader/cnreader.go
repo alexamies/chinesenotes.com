@@ -47,6 +47,7 @@ func main() {
 	// Setup loader for library
 	fname := config.ProjectHome() + "/" + library.LibraryFile
 	fileLibraryLoader := library.FileLibraryLoader{fname}
+	//corpusMap := fileLibraryLoader.GetCorpusLoader().LoadAll(corpus.COLLECTIONS_FILE)
 	dateUpdated := time.Now().Format("2006-01-02")
 	lib := library.Library{
 		Title: "Library",
@@ -58,7 +59,7 @@ func main() {
 
 	if (*collectionFile != "") {
 		log.Printf("main: Analyzing collection %s\n", *collectionFile)
-		analysis.WriteCorpusCol(*collectionFile)
+		analysis.WriteCorpusCol(*collectionFile, fileLibraryLoader)
 	} else if (*find != "") {
 		log.Printf("main: Finding occurences of string %s\n", *find)
 		replace.Find(*find, lib)
@@ -74,7 +75,7 @@ func main() {
 			}
 			log.Printf("main: input file: %s, output file: %s, template: %s\n",
 				src, dest, templateFile)
-			text := analysis.ReadText(src)
+			text := fileLibraryLoader.GetCorpusLoader().ReadText(src)
 			tokens, results := analysis.ParseText(text, "",
 				corpus.NewCorpusEntry())
 			analysis.WriteDoc(tokens, results.Vocab, dest, conversion.Template,
