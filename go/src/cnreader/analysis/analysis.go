@@ -149,6 +149,8 @@ func GetWordFrequencies(libLoader library.LibraryLoader) (map[string]*[]WordUsag
 	map[*index.CorpusWord]index.CorpusWordFreq, map[string]int,
 	ngram.CollocationMap) {
 
+	log.Printf("analysis.GetWordFrequencies: enter")
+
 	// Overall word frequencies per corpus
 	collocations := ngram.CollocationMap{}
 	usageMap := map[string]*[]WordUsage{}
@@ -402,8 +404,8 @@ func writeAnalysisCorpus(results CollectionAResults,
 		}
 		sortedGenre = append(sortedGenre, SortedByGenre{wf.Genre,
 			sortedWF[:maxGenreOutput]})
-		log.Printf("analysis.writeAnalysisCorpus: Genre: '%s', max: %d\n",
-			wf.Genre, maxGenreOutput)
+		//log.Printf("analysis.writeAnalysisCorpus: Genre: '%s', max: %d\n",
+		//	wf.Genre, maxGenreOutput)
 	}
 
 	dateUpdated := time.Now().Format("2006-01-02")
@@ -467,6 +469,7 @@ func writeAnalysisCorpus(results CollectionAResults,
 func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	docTitle string) string {
 
+	//log.Printf("analysis.writeAnalysis: enter")
 	analysisDir := config.ProjectHome() + "/web/analysis/"
 	_, err := os.Stat(analysisDir)
 	if err != nil {
@@ -602,18 +605,20 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 		docFreq index.DocumentFrequency, baseDir string,
 		libLoader library.LibraryLoader) CollectionAResults {
 
+	//log.Printf("analysis.writeCollection: enter CollectionFile =" +
+	//		collectionEntry.CollectionFile)
 	corpLoader := libLoader.GetCorpusLoader()
-	corpusEntries := corpLoader.LoadCollection(config.CorpusDataDir() + "/" +
-		collectionEntry.CollectionFile, collectionEntry.Title)
+	corpusEntries := corpLoader.LoadCollection(collectionEntry.CollectionFile,
+		collectionEntry.Title)
 	aResults := NewCollectionAResults()
 	for _, entry := range corpusEntries {
+		//log.Printf("analysis.writeCollection: entry.RawFile = " + entry.RawFile)
 		src := config.CorpusDir() + "/" + entry.RawFile
 		dest := baseDir + "/" + entry.GlossFile
-		if collectionEntry.Title == "" {
-			log.Printf("analysis.writeCollection: collectionEntry.Title is "+
-				"empty, input file: %s, output file: %s\n",
-				src, dest)
-		}
+		//if collectionEntry.Title == "" {
+		//	log.Printf("analysis.writeCollection: collectionEntry.Title is " +
+		//		"empty, input file: %s, output file: %s\n", src, dest)
+		//}
 		text := corpLoader.ReadText(src)
 		tokens, results := ParseText(text, collectionEntry.Title, &entry)
 		docFreq.AddVocabulary(results.Vocab)
@@ -626,8 +631,7 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 	aFile := writeAnalysis(aResults, collectionEntry.CollectionFile,
 		collectionEntry.Title, "")
 	corpus.WriteCollectionFile(collectionEntry, aFile, baseDir)
-	//log.Printf("analysis.writeCollection: completed writing %s\n",
-	//	collectionEntry.CollectionFile)
+	//log.Printf("analysis.writeCollection: exit\n")
 	return aResults
 }
 
@@ -635,14 +639,15 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 // collections: The set of collections to write to HTML
 // baseDir: The base directory to use to write the files
 func WriteCorpus(collections []corpus.CollectionEntry, baseDir string,
-	libLoader library.LibraryLoader) {
+		libLoader library.LibraryLoader) {
+	log.Printf("analysis.WriteCorpus: enter")
 	index.Reset()
 	docFreq := index.NewDocumentFrequency() // used to accumulate the frequencies
 	aResults := NewCollectionAResults()
 	wfArrayByGenre := WFArrayByGenre{}
 	for _, collectionEntry := range collections {
-		//log.Printf("analysis.WriteCorpusAll: entry: '%s' has genre '%s'\n",
-		//	collectionEntry.Title, collectionEntry.Genre)
+		log.Printf("analysis.WriteCorpusAll: entry: '%s' has genre '%s'\n",
+			collectionEntry.Title, collectionEntry.Genre)
 		results := writeCollection(collectionEntry, docFreq, baseDir, libLoader)
 		byGenre := NewWordFreqByGenre(collectionEntry.Genre)
 		byGenre.WF = results.Vocab
@@ -657,6 +662,7 @@ func WriteCorpus(collections []corpus.CollectionEntry, baseDir string,
 
 // Write all the collections in the default corpus (collections.csv file)
 func WriteCorpusAll(libLoader library.LibraryLoader) {
+	log.Printf("analysis.WriteCorpusAll: enter")
 	corpLoader := libLoader.GetCorpusLoader()
 	collections := corpLoader.LoadCorpus(corpus.COLLECTIONS_FILE)
 	baseDir := config.ProjectHome() + "/web"

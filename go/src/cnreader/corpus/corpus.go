@@ -70,14 +70,14 @@ func (loader FileCorpusLoader) GetCollectionEntry(fName string) (CollectionEntry
 	return getCollectionEntry(loader.FileName)
 }
 
+// Implements the LoadAll method in the CorpusLoader interface
+func (loader FileCorpusLoader) LoadAll(fName string) (map[string]CorpusEntry) {
+	return loadAll(loader, fName)
+}
+
 // Implements the LoadCorpus method in the CorpusLoader interface
 func (loader FileCorpusLoader) LoadCollection(fName, colTitle string) []CorpusEntry {
 	return loadCorpusEntries(fName, colTitle)
-}
-
-// Implements the LoadAll method in the CorpusLoader interface
-func (loader FileCorpusLoader) LoadAll(fName string) (map[string]CorpusEntry) {
-	return loadAll(fName)
 }
 
 // Implements the LoadCorpus method in the CorpusLoader interface
@@ -107,11 +107,11 @@ func getCollectionEntry(collectionFile string) (CollectionEntry, error)  {
 }
 
 // Load all corpus entries and keep them in a hash map
-func loadAll(fname string) (map[string]CorpusEntry) {
+func loadAll(loader CorpusLoader, fName string) (map[string]CorpusEntry) {
 	corpusEntryMap := map[string]CorpusEntry{}
-	collections := loadCorpusCollections(fname)
+	collections := loader.LoadCorpus(fName)
 	for _, collectionEntry := range collections {
-		corpusEntries := loadCorpusEntries(collectionEntry.CollectionFile,
+		corpusEntries := loader.LoadCollection(collectionEntry.CollectionFile,
 				collectionEntry.Title)
 		for _, entry := range corpusEntries {
 			corpusEntryMap[entry.RawFile] = entry
@@ -184,7 +184,7 @@ func loadCorpusCollections(cFile string) []CollectionEntry {
 
 // Get a list of files for a corpus
 func loadCorpusEntries(collectionFile, colTitle string) []CorpusEntry {
-	log.Printf("corpus.loadCorpusEntries enter: '%s'.\n", collectionFile)
+	//log.Printf("corpus.loadCorpusEntries enter: '%s'.\n", collectionFile)
 	cFile := config.CorpusDataDir() + "/" + collectionFile
 	file, err := os.Open(cFile)
 	if err != nil {
@@ -292,11 +292,9 @@ func readText(filename string) string {
 // baseDir: The base directory for writing the file
 func WriteCollectionFile(entry CollectionEntry, analysisFile, baseDir string) {
 	collectionFile := entry.CollectionFile
-	//log.Printf("WriteCollectionFile: Writing collection file.\n")
-	outputFile := config.ProjectHome() + "/data/corpus/" + collectionFile
 	//log.Printf("WriteCollectionFile: Writing collection file %s\n",
 	//			outputFile)
-	entry.CorpusEntries = loadCorpusEntries(outputFile, entry.Title)
+	entry.CorpusEntries = loadCorpusEntries(collectionFile, entry.Title)
 	entry.AnalysisFile = analysisFile
 	fName := baseDir + "/" + entry.GlossFile
 	f, err := os.Create(fName)

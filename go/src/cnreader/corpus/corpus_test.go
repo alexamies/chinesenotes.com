@@ -13,9 +13,34 @@ func init() {
 	config.SetProjectHome("../../../..")
 }
 
-// Trivial test to look up a collection file
-func TestLoadAll(t *testing.T) {
+// Trivial test to load a collection file
+func TestLoadAll0(t *testing.T) {
 	fmt.Printf("corpus.TestLoadAll: Begin unit test\n")
+	loader := EmptyCorpusLoader{"File"}
+	corpusEntryMap := loader.LoadAll(COLLECTIONS_FILE)
+	if len(corpusEntryMap) != 0 {
+		t.Error("corpus.TestLoadAll0: Non zero num. corpus entries found")
+	}
+}
+
+
+// Easy test to load a collection file
+func TestLoadAll1(t *testing.T) {
+	fmt.Printf("corpus.TestLoadAll1: Begin unit test\n")
+	loader := MockCorpusLoader{"File"}
+	corpusEntryMap := loader.LoadAll(COLLECTIONS_FILE)
+	if len(corpusEntryMap) != 1 {
+		t.Error("corpus.TestLoadAll1: No corpus entries found")
+	}
+	_, ok := corpusEntryMap["raw_file.txt"]
+	if !ok {
+		fmt.Printf("corpus.TestLoadAll1: corpusEntryMap %v\n", corpusEntryMap)
+		t.Error("corpus.TestLoadAll1: Corpus entry not found")
+	}
+}
+
+func TestLoadAll2(t *testing.T) {
+	fmt.Printf("corpus.TestLoadAll2: Begin unit test\n")
 	fileLoader := FileCorpusLoader{"File"}
 	corpusEntryMap := fileLoader.LoadAll(COLLECTIONS_FILE)
 	if len(corpusEntryMap) == 0 {
@@ -23,7 +48,7 @@ func TestLoadAll(t *testing.T) {
 	} else {
 		for _, v := range corpusEntryMap {
 			entry := corpusEntryMap[v.RawFile]
-			fmt.Printf("corpus.TestLoadAll: first entry: %v\n", entry)
+			fmt.Printf("corpus.TestLoadAll2: first entry: %v\n", entry)
 			break
 		}
 	}

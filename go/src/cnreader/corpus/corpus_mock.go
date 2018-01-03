@@ -16,7 +16,7 @@ func (loader EmptyCorpusLoader) GetCollectionEntry(fName string) (CollectionEntr
 }
 
 func (loader EmptyCorpusLoader) LoadAll(fName string) (map[string]CorpusEntry) {
-	return map[string]CorpusEntry{}
+	return loadAll(loader, fName)
 }
 
 func (loader EmptyCorpusLoader) LoadCollection(fName, colTitle string) []CorpusEntry {
@@ -60,16 +60,7 @@ func (loader MockCorpusLoader) GetCollectionEntry(fName string) (CollectionEntry
 }
 
 func (loader MockCorpusLoader) LoadAll(fName string) (map[string]CorpusEntry) {
-	corpusEntryMap := map[string]CorpusEntry{}
-	collections := loader.LoadCorpus(fName)
-	for _, collectionEntry := range collections {
-		corpusEntries := loader.LoadCollection(collectionEntry.CollectionFile,
-				collectionEntry.Title)
-		for _, entry := range corpusEntries {
-			corpusEntryMap[entry.RawFile] = entry
-		}
-	}
-	return corpusEntryMap
+	return loadAll(loader, fName)
 }
 
 func (loader MockCorpusLoader) LoadCollection(fName, colTitle string) []CorpusEntry {
