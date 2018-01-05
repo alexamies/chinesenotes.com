@@ -11,6 +11,7 @@ import (
 	"cnreader/dictionary"
 	"cnreader/library"
 	"cnreader/replace"
+	"fmt"
 	"log"
 	"os"
 	"runtime/pprof"
@@ -24,8 +25,8 @@ func main() {
 	var collectionFile = flag.String("collection", "", 
 		"Enhance HTML markup and do vocabulary analysis for all the files " +
 		"listed in given collection.")
-	var find = flag.String("find", "", "Find occurrences matching a given " +
-		"string in the library.")
+	var findandreplace = flag.String("findandreplace", "",
+		"Find occurrences matching a given string in the library.")
 	var headwords = flag.Bool("headwords", false,
 		"Compute headword definitions " +
 		" for all lexical units listed in data/words.txt, writing to the " +
@@ -60,9 +61,11 @@ func main() {
 	if (*collectionFile != "") {
 		log.Printf("main: Analyzing collection %s\n", *collectionFile)
 		analysis.WriteCorpusCol(*collectionFile, fileLibraryLoader)
-	} else if (*find != "") {
-		log.Printf("main: Finding occurences of string %s\n", *find)
-		replace.Find(*find, lib)
+	} else if (*findandreplace != "") {
+		log.Printf("main: Finding occurences of string %s\n", *findandreplace)
+		expr := replace.Expression{*findandreplace, "", false}
+		results := replace.FindAndReplace(expr, lib)
+		fmt.Printf("cnreader.FindAndReplace: results = %v\n", results)
 	} else if *html {
 		log.Printf("main: Converting all HTML files\n")
 		conversions := config.GetHTMLConversions()

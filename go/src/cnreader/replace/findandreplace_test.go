@@ -5,12 +5,13 @@ package replace
 
 import (
 	"cnreader/library"
+	"fmt"
 	"testing"
 	"time"
 )
 
 func TestFind0(t *testing.T) {
-	expr := "見"
+	expr := Expression{"見", "", false}
 	emptyLoader := library.EmptyLibraryLoader{"Empty"}
 	dateUpdated := time.Now().Format("2006-01-02")
 	lib := library.Library{
@@ -20,11 +21,15 @@ func TestFind0(t *testing.T) {
 		TargetStatus: "public",
 		Loader: emptyLoader,
 	}
-	Find(expr, lib)
+	results := FindAndReplace(expr, lib)
+	fmt.Printf("corpus.TestFind0: results = %v\n", results)
+	if len(results) != 0 {
+		t.Error("corpus.TestFind0: len(results) != 0")
+	}
 }
 
 func TestFind1(t *testing.T) {
-	expr := "你好"
+	expr := Expression{"你好", "", false}
 	mockLoader := library.MockLibraryLoader{"Mock"}
 	dateUpdated := time.Now().Format("2006-01-02")
 	lib := library.Library{
@@ -34,5 +39,9 @@ func TestFind1(t *testing.T) {
 		TargetStatus: "public",
 		Loader: mockLoader,
 	}
-	Find(expr, lib)
+	results := FindAndReplace(expr, lib)
+	fmt.Printf("corpus.TestFind0: results = %v\n", results)
+	if len(results) != 1 {
+		t.Error("corpus.TestFind1: len(results) != 1")
+	}
 }
