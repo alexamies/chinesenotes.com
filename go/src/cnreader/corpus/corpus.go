@@ -26,6 +26,7 @@ type CollectionEntry struct {
 
 const COLLECTIONS_FILE = "collections.csv"
 
+// An entry in a collection
 type CorpusEntry struct {
 	RawFile, GlossFile, Title, ColTitle string
 }

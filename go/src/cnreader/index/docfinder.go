@@ -44,8 +44,8 @@ func FindDocsForKeyword(keyword dictionary.HeadwordDef,
 		if i < MAX_DOCS_DISPLAYED {
 			corpusEntry, ok := corpusEntryMap[raw.Filename]
 			if !ok {
-				log.Printf("index.FindForKeyword, no title for %s\n",
-						raw.Filename)
+				//log.Printf("index.FindForKeyword, no title for %s\n",
+				//		raw.Filename)
 				continue
 			}
 			item := RetrievalResult{corpusEntry.GlossFile, corpusEntry.Title,

@@ -916,7 +916,7 @@ func WriteHwFiles(loader library.LibraryLoader) {
 		w := bufio.NewWriter(f)
 		err = tmpl.Execute(w, dictEntry)
 		if err != nil {
-			log.Printf("WriteHwFiles: error executing template for hw.Id: %d,"+
+			log.Printf("analysis.WriteHwFiles: error executing template for hw.Id: %d,"+
 				" filename: %s, Simplified: %s", hw.Id, filename, hw.Simplified)
 			log.Fatal(err)
 		}
@@ -928,7 +928,10 @@ func WriteHwFiles(loader library.LibraryLoader) {
 
 // Writes a HTML files describing the corpora in the library, both public and
 // for the translation portal (requiring login)
-func writeLibraryFile(lib library.Library, corpora []library.CorpusData, outputFile string) {
+func writeLibraryFile(lib library.Library, corpora []library.CorpusData,
+		outputFile string) {
+	log.Printf("analysis.writeLibraryFile: with %d corpora, outputFile = %s, " +
+			"TargetStatus = %s", len(corpora), outputFile, lib.TargetStatus)
 	libData := library.LibraryData{
 		Title: lib.Title,
 		Summary: lib.Summary,
@@ -963,6 +966,7 @@ func WriteLibraryFiles(lib library.Library) {
 	if config.GetVar("GoStaticDir") != "" {
 		portalDir = config.ProjectHome() + "/" + config.GetVar("GoStaticDir")
 		_, err := os.Stat(portalDir)
+		lib.TargetStatus = "translator_portal"
 		if err == nil {
 			portalLibraryFile := portalDir + "/portal_library.html"
 			writeLibraryFile(lib, corpora, portalLibraryFile)
@@ -984,7 +988,7 @@ func WriteLibraryFiles(lib library.Library) {
 				c.Status)
 			continue
 		}
-		fName := fmt.Sprintf("data/corpus/%s", c.FileName)
+		fName := fmt.Sprintf(c.FileName)
 		collections := lib.Loader.GetCorpusLoader().LoadCorpus(fName)
 		WriteCorpus(collections, baseDir, lib.Loader)
 		corpus := library.Corpus{c.Title, "", lib.DateUpdated, collections}

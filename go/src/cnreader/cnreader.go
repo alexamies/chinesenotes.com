@@ -11,10 +11,10 @@ import (
 	"cnreader/dictionary"
 	"cnreader/library"
 	"cnreader/replace"
-	"fmt"
 	"log"
 	"os"
 	"runtime/pprof"
+	"strings"
 	"time"
 )
 
@@ -62,10 +62,31 @@ func main() {
 		log.Printf("main: Analyzing collection %s\n", *collectionFile)
 		analysis.WriteCorpusCol(*collectionFile, fileLibraryLoader)
 	} else if (*findandreplace != "") {
-		log.Printf("main: Finding occurences of string %s\n", *findandreplace)
-		expr := replace.Expression{*findandreplace, "", false}
-		results := replace.FindAndReplace(expr, lib)
-		fmt.Printf("cnreader.FindAndReplace: results = %v\n", results)
+		// try unmarshalling the argument as json
+		var expressions []replace.Expression
+		if strings.HasSuffix(*findandreplace, ".tsv") {
+			log.Printf("main: Finding occurences listed in file %s\n",
+					*findandreplace)
+			exp, err := replace.ReadExp(*findandreplace)
+			if err != nil {
+				log.Fatal(err)
+			}
+			expressions = exp
+		} else {
+			exprObj, err := replace.UnmarshalExp(*findandreplace)
+			if err != nil {
+				log.Printf("main: Finding occurences based on string %s\n",
+						*findandreplace)
+				expr := replace.Expression{*findandreplace, "", false}
+				expressions = []replace.Expression{expr}
+			} else {
+				log.Printf("main: Finding occurences based on JSON %s\n",
+						*findandreplace)
+				expressions = exprObj.Expressions
+			}
+		}
+		results := replace.FindAndReplace(expressions, lib)
+		replace.WriteReport(results)
 	} else if *html {
 		log.Printf("main: Converting all HTML files\n")
 		conversions := config.GetHTMLConversions()
