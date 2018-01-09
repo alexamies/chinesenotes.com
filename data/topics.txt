@@ -28,7 +28,6 @@
 计算机科学	Computer Science	\N	\N
 儒家	Confucianism	\N	\N
 化妆品	Cosmetic	\N	\N
-习俗	Customs	\N	\N
 舞蹈	Dance	\N	\N
 危险	Danger	\N	\N
 方言	Dialect	\N	\N
@@ -51,7 +50,7 @@
 友谊	Friendship	\N	\N
 家具	Furniture	\N	\N
 世系	Genealogy	\N	\N
-地理	Geography	\N	\N
+地理学	Geography	\N	\N
 地质	Geology	\N	\N
 政府	Government	\N	\N
 健康	Health	\N	\N
@@ -110,7 +109,6 @@
 联系	Relationship	\N	\N
 宗教	Religion	\N	\N
 研究	Research	\N	\N
-安全	Safety	\N	\N
 科学	Science	\N	\N
 规模	Scale	\N	\N
 社会学	Social Science	\N	\N
@@ -119,7 +117,6 @@
 体育运动	Sport	\N	\N
 口语	Spoken Language	\N	\N
 道教	Taoism	\N	\N
-老舍茶馆	Teahouse by Lao She	\N	\N
 技术	Technology	\N	\N
 工具	Tools	\N	\N
 旅游	Tourism	\N	\N
