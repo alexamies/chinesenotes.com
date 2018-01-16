@@ -1,4 +1,3 @@
-抽象	Abstract	\N	\N
 声学	Acoustics	\N	\N
 管理	Administration	\N	\N
 附类	Affixes	\N	\N
@@ -8,6 +7,7 @@
 建筑学	Architecture	\N	\N
 艺术	Art	\N	\N
 天文	Astronomy	\N	\N
+占星术	Astrology	\N	\N
 试行	Attempt	\N	\N
 航空	Aviation	\N	\N
 生物学	Biology	\N	\N
@@ -74,7 +74,6 @@
 运气	Luck	\N	\N
 法术	Magic	\N	\N
 制造业	Manufacturing	\N	\N
-海上	Maritime	\N	\N
 武术	Martial Arts	\N	\N
 材料科学	Materials Science	\N	\N
 数学	Mathematics	\N	\N
@@ -124,5 +123,6 @@
 用具	Utensil	\N	\N
 武器	Weapons	\N	\N
 异体字	Variant	\N	\N
+船	Watercraft	\N	\N
 书	Written Chinese	\N	\N
 动物学	Zoology	\N	\N
