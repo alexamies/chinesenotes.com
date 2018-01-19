@@ -132,7 +132,7 @@ func TestReadText1(t *testing.T) {
 	//log.Printf("TestReadText1: Begin ******** \n")
 	corpusLoader := corpus.FileCorpusLoader{"File"}
 	text := corpusLoader.ReadText("../testdata/sampletest.txt")
-	expected := "繁體中文<br/>\n"
+	expected := "繁體中文\n"
 	//log.Printf("TestReadText1: Expected  '%s', got '%s'\n", expected, text)
 	if text != expected {
 		t.Error("Expected ", expected, ", got ", text)

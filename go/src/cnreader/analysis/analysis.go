@@ -646,8 +646,8 @@ func WriteCorpus(collections []corpus.CollectionEntry, baseDir string,
 	aResults := NewCollectionAResults()
 	wfArrayByGenre := WFArrayByGenre{}
 	for _, collectionEntry := range collections {
-		log.Printf("analysis.WriteCorpusAll: entry: '%s' has genre '%s'\n",
-			collectionEntry.Title, collectionEntry.Genre)
+		//log.Printf("analysis.WriteCorpusAll: entry: '%s' has genre '%s'\n",
+		//	collectionEntry.Title, collectionEntry.Genre)
 		results := writeCollection(collectionEntry, docFreq, baseDir, libLoader)
 		byGenre := NewWordFreqByGenre(collectionEntry.Genre)
 		byGenre.WF = results.Vocab
@@ -698,6 +698,7 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	aFile string) {
 
 	var b bytes.Buffer
+	replacer := strings.NewReplacer("\n", "<br/>")
 
 	// Iterate over text chunks
 	for e := tokens.Front(); e != nil; e = e.Next() {
@@ -714,6 +715,7 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 			}
 			fmt.Fprintf(&b, hyperlink(entries, chunk))
 		} else {
+			chunk = replacer.Replace(chunk)
 			b.WriteString(chunk)
 		}
 	}
