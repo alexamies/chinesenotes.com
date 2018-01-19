@@ -242,7 +242,7 @@ func ReadIntroFile(introFile string) string {
 		} else if err != nil {
 			break
 		}
-		if _, err = buffer.WriteString(line + "<br/>\n"); err != nil {
+		if _, err = buffer.WriteString(line); err != nil {
 			break
 		}
 	}
@@ -277,7 +277,7 @@ func readText(filename string) string {
 			} else if err != nil {
 				break
 			}
-			if _, err = buffer.WriteString(line + "<br/>\n"); err != nil {
+			if _, err = buffer.WriteString(line); err != nil {
 				break
 			}
 		}

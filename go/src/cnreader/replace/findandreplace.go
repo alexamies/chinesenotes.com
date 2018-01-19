@@ -67,8 +67,8 @@ func FindAndReplace(expressions []Expression, lib library.Library) []Result {
 				src := config.CorpusDir() + "/" + doc.RawFile
 				text := corpLoader.ReadText(src)
 				for _, expr := range expressions {
-					log.Printf("replace.Find looking for %s in %s\n",
-					           expr.Find, doc.Title)
+					//log.Printf("replace.Find looking for %s in %s\n",
+					//           expr.Find, doc.Title)
 					res := strings.Contains(text, expr.Find)
 					if res {
 						result := Result{
@@ -137,8 +137,8 @@ func ReadExp(fName string) ([]Expression, error) {
 func WriteReplacement(corpus library.CorpusData, col corpus.CollectionEntry,
 		doc corpus.CorpusEntry, text string, find string,
 		replacement string) string {
-	log.Printf("replace.WriteReplacement repacing: %s: with: %s\n", find,
-		replacement)
+	//log.Printf("replace.WriteReplacement repacing: %s: with: %s\n", find,
+	//	replacement)
 	r := strings.NewReplacer(find, replacement)
 	rText := r.Replace(text)
 	fName := config.CorpusDir() + "/replace/" + doc.RawFile
