@@ -91,8 +91,12 @@ func TestFilterByDomain0(t *testing.T) {
 func TestGetHwMap1(t *testing.T) {
 	GetHeadwords()
 	hwIdMap := GetHwMap()
-	hw := hwIdMap[1]
-	expected := "阿爾巴尼亞"
+	hw, ok := hwIdMap[2]
+	if !ok {
+		t.Error("dictionary.TestGetHwMap1: not ok")
+		return
+	}
+	expected := "阿爾及利亞"
 	if *hw.Traditional != expected {
 		t.Error("dictionary.TestGetHwMap1: expected ", expected, ", got ",
 			*hw.Traditional)

@@ -295,6 +295,7 @@ func ReadDict(wsFilenames []string) {
 		reader := csv.NewReader(wsfile)
 		reader.FieldsPerRecord = -1
 		reader.Comma = rune('\t')
+		reader.Comment = '#'
 		rawCSVdata, err := reader.ReadAll()
 		if err != nil {
 			log.Fatal("Could not parse lexical units file", err)
@@ -385,6 +386,7 @@ func readWSMap(wsFilenames []string) map[int]WordSenseEntry {
 		reader := csv.NewReader(wsfile)
 		reader.FieldsPerRecord = -1
 		reader.Comma = rune('\t')
+		reader.Comment = '#'
 		rawCSVdata, err := reader.ReadAll()
 		if err != nil {
 			log.Fatal(err)
