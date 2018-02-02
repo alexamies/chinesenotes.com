@@ -37,7 +37,6 @@
 经济	Economics	\N	\N
 教育	Education	\N	\N
 电机工程学	Electrical Engineering	\N	\N
-能源	Energy	\N	\N
 娱乐	Entertainment	\N	\N
 环境	Environment	\N	\N
 日常生活	Everyday Life	\N	\N
@@ -119,7 +118,6 @@
 技术	Technology	\N	\N
 工具	Tools	\N	\N
 旅游	Tourism	\N	\N
-玩具	Toys	\N	\N
 用具	Utensil	\N	\N
 武器	Weapons	\N	\N
 异体字	Variant	\N	\N
