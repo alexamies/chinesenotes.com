@@ -116,7 +116,6 @@
 口语	Spoken Language	\N	\N
 道教	Taoism	\N	\N
 技术	Technology	\N	\N
-工具	Tools	\N	\N
 旅游	Tourism	\N	\N
 用具	Utensil	\N	\N
 武器	Weapons	\N	\N
