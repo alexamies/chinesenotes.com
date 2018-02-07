@@ -58,7 +58,6 @@
 家庭用品	Household Article	\N	\N
 人文学	Humanities
 幽默	Humor	\N	\N
-打猎	Hunting	\N	\N
 成语	Idiom	\N	\N
 产业	Industry	\N	\N
 信息技术	Information Technology	\N	\N
