@@ -42,7 +42,6 @@
 日常生活	Everyday Life	\N	\N
 设备	Facilities	\N	\N
 财会	Finance and Accounting	\N	\N
-火	Fire	\N	\N
 饮食	Food and Drink	\N	\N
 外语	Foreign Language	\N	\N
 常用词汇	Frequently Used Words	\N	\N
@@ -103,7 +102,6 @@
 公安	Public Security	\N	\N
 出版	Publishing	\N	\N
 部首	Radicals	\N	\N
-联系	Relationship	\N	\N
 宗教	Religion	\N	\N
 研究	Research	\N	\N
 科学	Science	\N	\N
