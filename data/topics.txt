@@ -19,7 +19,6 @@
 中医	Chinese Medicine	\N	\N
 土木	Civil Engineering	\N	\N
 古文	Classical Chinese	\N	\N
-气候	Climate	\N	\N
 服装	Clothing	\N	\N
 商务	Commerce	\N	\N
 俗语	Common Saying	\N	\N
