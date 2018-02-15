@@ -39,12 +39,6 @@
           return
         }
 
-        // If the result is a single word, then redirect to the word page
-        words = obj.Words;
-        if (words && words.length == 1) {
-          window.location = "/words/" + words[0].HeadwordId + ".html";
-        }
-
         // Otherwise send the results to the client in JSON form
         if (numCollections > 0 || numDocuments > 0) {
 
@@ -124,6 +118,54 @@
           elem.innerHTML = msg;
           elem.style.display = "block";
         }
+
+        // Display the segmented query terms
+        terms = obj.Terms;
+        if (terms && terms.length > 0) {
+            var qTable = document.getElementById("queryTermsTable");
+            if (typeof qOldBody === 'undefined') {
+              qOldBody = document.getElementById("findDocResultsBody");
+            }
+            qTable.removeChild(qOldBody)
+            var qTbody = document.createElement('tbody');
+            for (i = 0; i < terms.length; i++) {
+              var qText = terms[i].QueryText;
+              var pinyin = "";
+              var english = "";
+              if (terms[i].DictEntry) {
+                pinyin = terms[i].DictEntry.Pinyin;
+                english = terms[i].DictEntry.English;
+              }
+
+              var tr = document.createElement('tr');
+              var td1 = document.createElement('td');
+              td1.setAttribute("class", "mdl-data-table__cell--non-numeric");
+              tr.appendChild(td1);
+              var textNode1 = document.createTextNode(qText);
+              td1.appendChild(textNode1);
+
+              var td2 = document.createElement('td');
+              td2.setAttribute("class", "mdl-data-table__cell--non-numeric");
+              tr.appendChild(td2);
+              var textNode2 = document.createTextNode(pinyin);
+              td2.appendChild(textNode2);
+
+              var td3 = document.createElement('td');
+              td3.setAttribute("class", "mdl-data-table__cell--non-numeric");
+              tr.appendChild(td3);
+              var textNode3 = document.createTextNode(english);
+              td3.appendChild(textNode3);
+
+              dTbody.appendChild(tr);
+            }
+            dTable.appendChild(dTbody);
+            componentHandler.upgradeElement(dTbody);
+            dTable.style.display = "block";
+            var docTitle = document.getElementById("findDocResultsTitle");
+            docTitle.style.display = "block";
+            dOldBody = dTbody
+        }
+
       } else {
       	msg = 'There was a problem with the request.';
         console.log(msg);

@@ -39,7 +39,7 @@ type QueryResults struct {
 	NumCollections, NumDocuments int
 	Collections []Collection
 	Documents []Document
-	Words []Word
+	Terms []TextSegment
 }
 
 // Open database connection and prepare statements
@@ -54,16 +54,26 @@ func init() {
 		applog.Fatal("find/init: error preparing database statements, giving up",
 			conString, err)
 	}
-	words, err := findWords("你好")
-	if err != nil {
+	result := hello() 
+	if !result {
 		conString := webconfig.DBConfig()
 		applog.Fatal("find/init: got error with findWords ", conString, err)
 	}
-	if len(words) != 1 {
-		applog.Error("find/init: could not find my word ", len(words))
-	} else {
-		applog.Info("find/init: Ready to go")
+}
+
+func hello() bool {
+	words, err := findWords("你好")
+	if err != nil {
+		conString := webconfig.DBConfig()
+		applog.Error("find/hello: got error with findWords ", conString, err)
+		return false
 	}
+	if len(words) != 1 {
+		applog.Error("find/hello: could not find my word ", len(words))
+		return false
+	} 
+	applog.Info("find/hello: Ready to go")
+	return true
 }
 
 func initStatements() error {
@@ -160,11 +170,12 @@ func findCollections(query string) []Collection {
 	return collections
 }
 
-func findDocuments(query string) []Document {
+func findDocuments(query string) ([]Document, error) {
 	ctx := context.Background()
 	results, err := findDocStmt.QueryContext(ctx, "%" + query + "%")
 	if err != nil {
 		applog.Error("findDocuments, Error for query: ", query, err)
+		return nil, err
 	}
 	defer results.Close()
 
@@ -174,28 +185,26 @@ func findDocuments(query string) []Document {
 		results.Scan(&doc.Title, &doc.GlossFile)
 		documents = append(documents, doc)
 	}
-	return documents
+	return documents, nil
 }
 
-func FindDocuments(query string) (QueryResults, error) {
+func FindDocuments(parser QueryParser, query string) (QueryResults, error) {
 	if query == "" {
 		applog.Error("FindDocuments, Empty query string")
 		return QueryResults{}, errors.New("Empty query string")
 	}
-	applog.Info("FindDocuments, ", query)
-	words, err := findWords(query)
-	if err != nil {
-		return QueryResults{}, err
-	}
+	terms := parser.ParseQuery(query)
 	nCol := countCollections(query)
 	nDoc := countDocuments(query)
 	collections := findCollections(query)
-	documents := findDocuments(query)
-	applog.Info("FindDocuments, collection, doc count: ", nCol, nDoc)
-	return QueryResults{nCol, nDoc, collections, documents, words}, err
+	documents, err := findDocuments(query)
+	applog.Info("FindDocuments, query, nTerms, collection, doc count: ", query,
+		len(terms), nCol, nDoc)
+	return QueryResults{nCol, nDoc, collections, documents, terms}, err
 }
 
-// Returns the headword words in the query (only a single word at the moment)
+// Returns the headword words in the query (only a single word based on Chinese
+// query)
 func findWords(query string) ([]Word, error) {
 	ctx := context.Background()
 	results, err := findWordStmt.QueryContext(ctx, query, query)

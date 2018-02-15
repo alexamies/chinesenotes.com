@@ -38,7 +38,7 @@ func DBConfig() string {
 	if port != "" {
 		dbport = port
 	}
-	dbuser := "3306"
+	dbuser := "app_user"
 	user := os.Getenv("DBUSER")
 	if user != "" {
 		dbuser = user
@@ -56,6 +56,24 @@ func DBConfig() string {
 // Gets all configuration variables
 func GetAll() map[string]string {
 	return configVars
+}
+
+// Get environment variable for sending email from
+func GetFromEmail() string {
+	fromEmail := os.Getenv("FROM_EMAIL")
+	if fromEmail == "" {
+		fromEmail = GetVar("FromEmail")
+	}
+	return fromEmail
+}
+
+// Get the domain name of the site
+func GetPasswordResetURL() string {
+	passwordResetURL := os.Getenv("PASSWORD_RESET_URL")
+	if passwordResetURL == "" {
+		passwordResetURL = GetVar("PasswordResetURL")
+	}
+	return passwordResetURL
 }
 
 // Get the domain name of the site
@@ -78,6 +96,7 @@ func readConfig() map[string]string {
 	vars := make(map[string]string)
 	cnwebHome := os.Getenv("CNWEB_HOME")
 	if cnwebHome == "" {
+		applog.Error("config.readConfig: CNWEB_HOME is not defined")
 		cnwebHome = "."
 	}
 	fileName := fmt.Sprintf("%s/webconfig.yaml", cnwebHome)

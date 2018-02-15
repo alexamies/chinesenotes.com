@@ -17,6 +17,19 @@ import (
 	"strings"
 )
 
+var (
+	parser find.QueryParser
+	wdict map[string]find.Word
+)
+
+func init() {
+	wdict, err := find.LoadDict()
+	if err != nil {
+		applog.Error("main unable to load dictionary: ", err)
+	}
+	parser = find.DictQueryParser{wdict}
+}
+
 // Starting point for the Administration Portal
 func adminHandler(w http.ResponseWriter, r *http.Request) {
 	sessionInfo := identity.InvalidSession()
@@ -127,7 +140,7 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 	if len(query) > 0 {
 		q = query[0]
 	}
-	results, err := find.FindDocuments(q)
+	results, err := find.FindDocuments(parser, q)
 	if err != nil {
 		applog.Error("main.findHandler searching docs, ", err)
 		http.Error(response, "Error searching docs", 500)
