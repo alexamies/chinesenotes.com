@@ -198,6 +198,12 @@ func FindDocuments(parser QueryParser, query string) (QueryResults, error) {
 	nDoc := countDocuments(query)
 	collections := findCollections(query)
 	documents, err := findDocuments(query)
+	if err != nil {
+		// Got an error, see if we can connect and try again
+		if hello() {
+			documents, err = findDocuments(query)
+		} // else do not try again, giveup and return the error
+	}
 	applog.Info("FindDocuments, query, nTerms, collection, doc count: ", query,
 		len(terms), nCol, nDoc)
 	return QueryResults{nCol, nDoc, collections, documents, terms}, err

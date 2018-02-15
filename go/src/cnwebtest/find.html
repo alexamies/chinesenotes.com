@@ -20,7 +20,7 @@
     <link rel="shortcut icon" href="/images/ios-desktop.png">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.brown-orange.min.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-light_blue.min.css" />
     <link rel="stylesheet" href="/styles.css">
   </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
@@ -44,71 +44,62 @@
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="/">Home</a>
           <a class="mdl-navigation__link" href="/find.html">Search</a>
-          <a class="mdl-navigation__link" href="/resources.html">Resources</a>
-          <a class="mdl-navigation__link" href="/about.html">About</a>
+          <a class="mdl-navigation__link" href="/translation_portal.html">Resources</a>
         </nav>
       </div>
       <main class="mdl-layout__content">
-        <h2>Search text collection</h2>
-    <p>
-      <form name="findForm" id="findForm" action="#">
-        <div class="mdl-textfield mdl-js-textfield">
-          <label for="findInput">Title containing</label>
-          <input type="text" name="findInput" id="findInput" required/>
-        </div>div
-        <button  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+        <h3>Search text collection</h3>
+        <p>
+          <form name="findForm" id="findForm" action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+              <label for="findInput">Title containing</label>
+              <input type="text" name="findInput" id="findInput" required/>
+            </div>
+            <button  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
                  type="submit" id="findSubmit">Find</button>
-     </form>
-    </p>
-    <div id="findResults">
-      <h4>Matching Results</h4>
-      <div>
-        Number of matching document collections: <span id="NumCollections"></span>
-      </div>
-      <div>
-        Number of matching documents: <span id="NumDocuments"></span>
-      </div>
-      <h4 id="findResultsTitle">Document Collections</h4>
-      <table id="findResultsTable"
-             class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-        <thead>
-          <tr><th class="mdl-data-table__cell--non-numeric">Title</th></tr>
-        </thead>
-        <tbody id="findResultsBody">
-        </tbody>
-      </table>
-      <h4 id="findDocResultsTitle">Documents</h4>
-      <table id="findDocResultsTable"
-             class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-        <thead>
-          <tr><th class="mdl-data-table__cell--non-numeric">Title</th></tr>
-        </thead>
-        <tbody id="findDocResultsBody">
-        </tbody>
-      </table>
-      <h4 id="queryTerms">Query Terms</h4>
-      <table id="queryTermsTable"
-             class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-        <thead>
-          <tr>
-            <th class="mdl-data-table__cell--non-numeric">Term</th>
-            <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
-            <th class="mdl-data-table__cell--non-numeric">English</th>
-          </tr>
-        </thead>
-        <tbody id="queryTermsBody">
-        </tbody>
-      </table>
-    </div>
-    <p id="findError"></p>
-        <footer>
-          <hr/>
-          <p>
-            This page was last updated on 2018-02-14.
-          </p>
-        </footer>
-    </div>
-      </main>
+          </form>
+        </p>
+        <div id="findResults">
+          <h4>Matching Results</h4>
+          <div>
+            Number of matching document collections: <span id="NumCollections"></span>
+          </div>
+          <div>
+            Number of matching documents: <span id="NumDocuments"></span>
+          </div>
+          <h4 id="findResultsTitle">Document Collections</h4>
+          <table id="findResultsTable"
+                 class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+            <thead>
+              <tr><th class="mdl-data-table__cell--non-numeric">Title</th></tr>
+            </thead>
+            <tbody id="findResultsBody">
+            </tbody>
+          </table>
+          <h4 id="findDocResultsTitle">Documents</h4>
+          <table id="findDocResultsTable"
+                 class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+            <thead>
+              <tr><th class="mdl-data-table__cell--non-numeric">Title</th></tr>
+            </thead>
+            <tbody id="findDocResultsBody">
+            </tbody>
+          </table>
+          <h4 id="queryTermsTitle">Query Terms</h4>
+          <table id="queryTermsTable"
+                 class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+            <thead>
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Term</th>
+                <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
+                <th class="mdl-data-table__cell--non-numeric">English</th>
+              </tr>
+            </thead>
+            <tbody id="queryTermsBody">
+            </tbody>
+          </table>
+        </div> <!--findResults-->
+        <p id="findError"></p>
         <footer class="mdl-mini-footer">
           <div class="mdl-mini-footer__left-section">
             <div>Copyright Fo Guang Shan 佛光山 2016-2018</div>
@@ -127,9 +118,7 @@
       </main>
     </div>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"
-      ></script>
+    <script src="script/jquery.min.js"></script>
     <script src="script/auth.js"></script>
   <script src="script/find.js"></script>
   </body>

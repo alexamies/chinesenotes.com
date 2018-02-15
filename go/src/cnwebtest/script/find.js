@@ -124,7 +124,7 @@
         if (terms && terms.length > 0) {
             var qTable = document.getElementById("queryTermsTable");
             if (typeof qOldBody === 'undefined') {
-              qOldBody = document.getElementById("findDocResultsBody");
+              qOldBody = document.getElementById("queryTermsBody");
             }
             qTable.removeChild(qOldBody)
             var qTbody = document.createElement('tbody');
@@ -156,14 +156,14 @@
               var textNode3 = document.createTextNode(english);
               td3.appendChild(textNode3);
 
-              dTbody.appendChild(tr);
+              qTbody.appendChild(tr);
             }
-            dTable.appendChild(dTbody);
-            componentHandler.upgradeElement(dTbody);
-            dTable.style.display = "block";
-            var docTitle = document.getElementById("findDocResultsTitle");
-            docTitle.style.display = "block";
-            dOldBody = dTbody
+            qTable.appendChild(qTbody);
+            componentHandler.upgradeElement(qTbody);
+            qTable.style.display = "block";
+            var qTitle = document.getElementById("queryTermsTitle");
+            qTitle.style.display = "block";
+            qOldBody = qTbody
         }
 
       } else {
