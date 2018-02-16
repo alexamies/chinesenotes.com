@@ -121,9 +121,17 @@
           elem.style.display = "block";
         }
 
-        // Display the segmented query terms
         terms = obj.Terms;
-        if (terms && terms.length > 0) {
+        if (terms && terms.length == 1 && terms[0].DictEntry) {
+          console.log("Single matching word, redirect to it");
+          hwId = terms[0].DictEntry.HeadwordId;
+          wordURL = "/words/" + hwId + ".html";
+          window.location = wordURL;
+          return;
+        }
+
+        // Display the segmented query terms in a table
+        if (terms && terms.length > 1) {
           var qTable = document.getElementById("queryTermsTable");
           if (typeof qOldBody === 'undefined') {
             qOldBody = document.getElementById("queryTermsBody");
@@ -131,19 +139,30 @@
           qTable.removeChild(qOldBody)
           var qTbody = document.createElement('tbody');
           for (i = 0; i < terms.length; i++) {
-            var qText = terms[i].QueryText;
-            var pinyin = "";
-            var english = "";
-            if (terms[i].DictEntry) {
-              pinyin = terms[i].DictEntry.Pinyin;
-            }
-
             var tr = document.createElement('tr');
             var td1 = document.createElement('td');
             td1.setAttribute("class", "mdl-data-table__cell--non-numeric");
             tr.appendChild(td1);
+
+            var qText = terms[i].QueryText;
+            var pinyin = "";
+            var english = "";
+            var wordURL = ""
             var textNode1 = document.createTextNode(qText);
-            td1.appendChild(textNode1);
+            if (terms[i].DictEntry && terms[i].DictEntry.Senses) {
+              pinyin = terms[i].DictEntry.Pinyin;
+              // Add link to word detail page
+              hwId = terms[i].DictEntry.Senses[0].HeadwordId;
+              wordURL = "/words/" + hwId + ".html";
+              var a = document.createElement('a');
+              a.setAttribute("href", wordURL);
+              a.setAttribute("title", "Details for word");
+              a.appendChild(textNode1);
+              td1.appendChild(a);
+            } else {
+              // No link to a detailed word page
+              td1.appendChild(textNode1);
+            }
 
             var td2 = document.createElement('td');
             td2.setAttribute("class", "mdl-data-table__cell--non-numeric");
@@ -154,14 +173,14 @@
             var td3 = document.createElement('td');
             td3.setAttribute("class", "mdl-data-table__cell--non-numeric");
             tr.appendChild(td3);
-            console.log("terms.DictEntry: " + terms[i].DictEntry);
-            if (terms[i].DictEntry && terms[i].DictEntry.Senses.length == 1) {
+            //console.log("terms.DictEntry: " + terms[i].DictEntry);
+            if (terms[i].DictEntry && terms[i].DictEntry.Senses && terms[i].DictEntry.Senses.length == 1) {
               english = terms[i].DictEntry.Senses[0].English;
               //console.log("WordSense 1: " + english);
               var textNode3 = document.createTextNode(english);
               td3.appendChild(textNode3);
-            } else if (terms[i].DictEntry && terms[i].DictEntry.Senses.length > 1) {
-              //console.log("WordSense " + terms[i].DictEntry.Senses.length);
+            } else if (terms[i].DictEntry && terms[i].DictEntry.Senses && terms[i].DictEntry.Senses.length > 1) {
+              console.log("WordSense " + terms[i].DictEntry.Senses.length);
               var wslist = "";
               for (j = 0; j < terms[i].DictEntry.Senses.length; j++) {
                 ws = terms[i].DictEntry.Senses[j];
