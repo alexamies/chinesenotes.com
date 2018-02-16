@@ -1,3 +1,6 @@
+// JavaScript function for sending and displaying search results for words and
+// phrases. The results may be a word or table of words and matching collections
+// and documents.
 (function() {
   var httpRequest;
   document.getElementById("findForm").onsubmit = function() {
@@ -76,8 +79,8 @@
             table.appendChild(tbody);
             componentHandler.upgradeElement(tbody);
             table.style.display = "block";
-            var colTitle = document.getElementById("findResultsTitle");
-            colTitle.style.display = "block";
+            var colResultsDiv = document.getElementById("colResultsDiv");
+            colResultsDiv.style.display = "block";
             oldBody = tbody
           }
 
@@ -106,14 +109,14 @@
             dTable.appendChild(dTbody);
             componentHandler.upgradeElement(dTbody);
             dTable.style.display = "block";
-            var docTitle = document.getElementById("findDocResultsTitle");
-            docTitle.style.display = "block";
+            var docResultsDiv = document.getElementById("docResultsDiv");
+            docResultsDiv.style.display = "block";
             dOldBody = dTbody
           }
 
           document.getElementById("findResults").style.display = "block";
         } else {
-      	  msg = 'No results found';
+      	  msg = 'No results found in document collection';
           elem = document.getElementById("findResults");
           elem.style.display = "none";
           elem = document.getElementById("findError");
@@ -122,7 +125,7 @@
         }
 
         terms = obj.Terms;
-        if (terms && terms.length == 1 && terms[0].DictEntry) {
+        if (terms && terms.length == 1 && terms[0].DictEntry && terms[0].DictEntry.HeadwordId > 0) {
           console.log("Single matching word, redirect to it");
           hwId = terms[0].DictEntry.HeadwordId;
           wordURL = "/words/" + hwId + ".html";
@@ -131,7 +134,7 @@
         }
 
         // Display the segmented query terms in a table
-        if (terms && terms.length > 1) {
+        if (terms) {
           var qTable = document.getElementById("queryTermsTable");
           if (typeof qOldBody === 'undefined') {
             qOldBody = document.getElementById("queryTermsBody");
