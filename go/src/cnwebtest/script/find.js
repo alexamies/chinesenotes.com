@@ -122,48 +122,62 @@
         // Display the segmented query terms
         terms = obj.Terms;
         if (terms && terms.length > 0) {
-            var qTable = document.getElementById("queryTermsTable");
-            if (typeof qOldBody === 'undefined') {
-              qOldBody = document.getElementById("queryTermsBody");
+          var qTable = document.getElementById("queryTermsTable");
+          if (typeof qOldBody === 'undefined') {
+            qOldBody = document.getElementById("queryTermsBody");
+          }
+          qTable.removeChild(qOldBody)
+          var qTbody = document.createElement('tbody');
+          for (i = 0; i < terms.length; i++) {
+            var qText = terms[i].QueryText;
+            var pinyin = "";
+            var english = "";
+            if (terms[i].DictEntry) {
+              pinyin = terms[i].DictEntry.Pinyin;
             }
-            qTable.removeChild(qOldBody)
-            var qTbody = document.createElement('tbody');
-            for (i = 0; i < terms.length; i++) {
-              var qText = terms[i].QueryText;
-              var pinyin = "";
-              var english = "";
-              if (terms[i].DictEntry) {
-                pinyin = terms[i].DictEntry.Pinyin;
-                english = terms[i].DictEntry.English;
-              }
 
-              var tr = document.createElement('tr');
-              var td1 = document.createElement('td');
-              td1.setAttribute("class", "mdl-data-table__cell--non-numeric");
-              tr.appendChild(td1);
-              var textNode1 = document.createTextNode(qText);
-              td1.appendChild(textNode1);
+            var tr = document.createElement('tr');
+            var td1 = document.createElement('td');
+            td1.setAttribute("class", "mdl-data-table__cell--non-numeric");
+            tr.appendChild(td1);
+            var textNode1 = document.createTextNode(qText);
+            td1.appendChild(textNode1);
 
-              var td2 = document.createElement('td');
-              td2.setAttribute("class", "mdl-data-table__cell--non-numeric");
-              tr.appendChild(td2);
-              var textNode2 = document.createTextNode(pinyin);
-              td2.appendChild(textNode2);
+            var td2 = document.createElement('td');
+            td2.setAttribute("class", "mdl-data-table__cell--non-numeric");
+            tr.appendChild(td2);
+            var textNode2 = document.createTextNode(pinyin);
+            td2.appendChild(textNode2);
 
-              var td3 = document.createElement('td');
-              td3.setAttribute("class", "mdl-data-table__cell--non-numeric");
-              tr.appendChild(td3);
+            var td3 = document.createElement('td');
+            td3.setAttribute("class", "mdl-data-table__cell--non-numeric");
+            tr.appendChild(td3);
+            console.log("terms.DictEntry: " + terms[i].DictEntry);
+            if (terms[i].DictEntry && terms[i].DictEntry.Senses.length == 1) {
+              english = terms[i].DictEntry.Senses[0].English;
+              console.log("WordSense 1: " + english);
               var textNode3 = document.createTextNode(english);
               td3.appendChild(textNode3);
-
-              qTbody.appendChild(tr);
+            } else if (terms[i].DictEntry && terms[i].DictEntry.Senses.length > 1) {
+              console.log("WordSense " + terms[i].DictEntry.Senses.length);
+              var wslist = "";
+              for (j = 0; j < terms[i].DictEntry.Senses.length; j++) {
+                ws = terms[i].DictEntry.Senses[j]
+                wslist += " " + (j + 1) + ". " + ws.English + "; "
+              }
+              var textNode3 = document.createTextNode(wslist);
+              td3.appendChild(textNode3);
             }
-            qTable.appendChild(qTbody);
-            componentHandler.upgradeElement(qTbody);
-            qTable.style.display = "block";
-            var qTitle = document.getElementById("queryTermsTitle");
-            qTitle.style.display = "block";
-            qOldBody = qTbody
+
+            qTbody.appendChild(tr);
+          }
+          qTable.appendChild(qTbody);
+          componentHandler.upgradeElement(qTbody);
+          qTable.style.display = "block";
+          var qTitle = document.getElementById("queryTermsTitle");
+          qTitle.style.display = "block";
+          qOldBody = qTbody
+          document.getElementById("queryTerms").style.display = "block";
         }
 
       } else {

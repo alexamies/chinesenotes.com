@@ -50,7 +50,11 @@ func TestParseChinese2(t *testing.T) {
 	log.Printf("TestParseChinese: Begin unit tests\n")
 	dict := map[string]Word{}
 	s1 := "小"
-	w := Word{s1, "\\N", "xiǎo", "small", 42}
+	w := Word{}
+	w.Simplified = s1
+	w.Traditional = "\\N"
+	w.Pinyin = "xiǎo"
+	w.HeadwordId = 42
 	dict["小"] = w
 	parser := DictQueryParser{dict}
 	s2 := "王"
@@ -74,7 +78,11 @@ func TestParseChinese3(t *testing.T) {
 	log.Printf("TestParseChinese: Begin unit tests\n")
 	dict := map[string]Word{}
 	s1 := "你好"
-	w := Word{s1, "\\N", "nǐhǎo", "hello", 42}
+	w := Word{}
+	w.Simplified = s1
+	w.Traditional = "\\N"
+	w.Pinyin = "nǐhǎo"
+	w.HeadwordId = 42
 	dict["你好"] = w
 	parser := DictQueryParser{dict}
 	s2 := "小"
@@ -99,7 +107,11 @@ func TestParseChinese4(t *testing.T) {
 	log.Printf("TestParseChinese: Begin unit tests\n")
 	dict := map[string]Word{}
 	s1 := "你好"
-	w := Word{s1, "\\N", "nǐhǎo", "hello", 42}
+	w := Word{}
+	w.Simplified = s1
+	w.Traditional = "\\N"
+	w.Pinyin = "nǐhǎo"
+	w.HeadwordId = 42
 	dict["你好"] = w
 	parser := DictQueryParser{dict}
 	s2 := "，"

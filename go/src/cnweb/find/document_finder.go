@@ -30,11 +30,6 @@ type Document struct {
 	GlossFile, Title string
 }
 
-type Word struct {
-	Simplified, Traditional, Pinyin, English string
-	HeadwordId int
-}
-
 type QueryResults struct {
 	NumCollections, NumDocuments int
 	Collections []Collection
@@ -118,7 +113,7 @@ func initStatements() error {
     countDocStmt = cdstmt    
 
 	fwstmt, err := database.PrepareContext(ctx, 
-		"SELECT simplified, traditional, pinyin, english, headword FROM words WHERE simplified = ? OR traditional = ? LIMIT 1")
+		"SELECT simplified, traditional, pinyin, headword FROM words WHERE simplified = ? OR traditional = ? LIMIT 1")
     if err != nil {
         applog.Error("find.init() Error preparing fwstmt: ", err)
         return err
@@ -230,7 +225,7 @@ func findWords(query string) ([]Word, error) {
 		word := Word{}
 		var hw sql.NullInt64
 		var trad sql.NullString
-		results.Scan(&word.Simplified, &trad, &word.Pinyin, &word.English, &hw)
+		results.Scan(&word.Simplified, &trad, &word.Pinyin, &hw)
 		applog.Info("findWords, simplified, headword = ", word.Simplified, hw)
 		if trad.Valid {
 			word.Traditional = trad.String
