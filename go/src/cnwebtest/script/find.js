@@ -114,6 +114,8 @@
           document.getElementById("findResults").style.display = "block";
         } else {
       	  msg = 'No results found';
+          elem = document.getElementById("findResults");
+          elem.style.display = "none";
           elem = document.getElementById("findError");
           elem.innerHTML = msg;
           elem.style.display = "block";
@@ -155,14 +157,14 @@
             console.log("terms.DictEntry: " + terms[i].DictEntry);
             if (terms[i].DictEntry && terms[i].DictEntry.Senses.length == 1) {
               english = terms[i].DictEntry.Senses[0].English;
-              console.log("WordSense 1: " + english);
+              //console.log("WordSense 1: " + english);
               var textNode3 = document.createTextNode(english);
               td3.appendChild(textNode3);
             } else if (terms[i].DictEntry && terms[i].DictEntry.Senses.length > 1) {
-              console.log("WordSense " + terms[i].DictEntry.Senses.length);
+              //console.log("WordSense " + terms[i].DictEntry.Senses.length);
               var wslist = "";
               for (j = 0; j < terms[i].DictEntry.Senses.length; j++) {
-                ws = terms[i].DictEntry.Senses[j]
+                ws = terms[i].DictEntry.Senses[j];
                 wslist += " " + (j + 1) + ". " + ws.English + "; "
               }
               var textNode3 = document.createTextNode(wslist);
@@ -183,6 +185,8 @@
       } else {
       	msg = 'There was a problem with the request.';
         console.log(msg);
+        elem = document.getElementById("findResults");
+        elem.style.display = "none";
         elem = document.getElementById("findError");
         elem.innerHTML = msg;
         elem.style.display = "block";

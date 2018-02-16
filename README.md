@@ -192,7 +192,7 @@ docker run -itd --rm --name mysql-client --link mariadb \
 tar -zcf cndata.tar.gz data
 docker cp cndata.tar.gz mariadb:/cndata.tar.gz
 
-docker exec -it mysql-client bash
+docker exec -it mariadb bash
 
 # In the container command line
 tar -zxf cndata.tar.gz
@@ -207,7 +207,7 @@ source drop.sql
 source notes.ddl
 source load_data.sql
 source corpus_index.ddl
-source load_index.ddl
+source load_index.sql
 
 ```
 
@@ -290,6 +290,11 @@ docker run -itd --rm -p 8080:8080 --name cn-app --link mariadb \
   -e DATABASE=$DATABASE \
   -e SENDGRID_API_KEY="$SENDGRID_API_KEY" \
   cn-app-image
+```
+
+Debug
+```
+docker exec -it cn-app bash 
 ```
 
 Push to Google Container Registry
