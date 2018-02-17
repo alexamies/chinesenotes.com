@@ -116,7 +116,7 @@
 
           document.getElementById("findResults").style.display = "block";
         } else {
-      	  msg = 'No results found in document collection';
+      	  msg = 'No matching results found in document collection';
           elem = document.getElementById("findResults");
           elem.style.display = "none";
           elem = document.getElementById("findError");
