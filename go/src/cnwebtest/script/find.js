@@ -177,20 +177,8 @@
             td3.setAttribute("class", "mdl-data-table__cell--non-numeric");
             tr.appendChild(td3);
             //console.log("terms.DictEntry: " + terms[i].DictEntry);
-            if (terms[i].DictEntry && terms[i].DictEntry.Senses && terms[i].DictEntry.Senses.length == 1) {
-              english = terms[i].DictEntry.Senses[0].English;
-              //console.log("WordSense 1: " + english);
-              var textNode3 = document.createTextNode(english);
-              td3.appendChild(textNode3);
-            } else if (terms[i].DictEntry && terms[i].DictEntry.Senses && terms[i].DictEntry.Senses.length > 1) {
-              console.log("WordSense " + terms[i].DictEntry.Senses.length);
-              var wslist = "";
-              for (j = 0; j < terms[i].DictEntry.Senses.length; j++) {
-                ws = terms[i].DictEntry.Senses[j];
-                wslist += " " + (j + 1) + ". " + ws.English + "; "
-              }
-              var textNode3 = document.createTextNode(wslist);
-              td3.appendChild(textNode3);
+            if (terms[i].DictEntry && terms[i].DictEntry.Senses) {
+              td3.appendChild(combineEnglish(terms[i].DictEntry.Senses, wordURL));
             }
 
             qTbody.appendChild(tr);
@@ -216,3 +204,54 @@
     }
   }
 })();
+
+// Combine and crop the list of English equivalents and notes to a limited 
+// number of characters.
+// Parameters:
+//   senses is an array of WordSense objects
+//   wordURL is the URL of detail page for the headword
+// Returns a HTML element that can be added to the table
+function combineEnglish(senses, wordURL) {
+  var span = document.createElement('span');
+  var link = document.createElement('a');
+  link.setAttribute("href", wordURL);
+  link.setAttribute("title", "Details for word");
+  var linkText = document.createTextNode("Details");
+  link.appendChild(linkText);
+  var english = ""
+  if (senses.length == 1) {
+    // For a single sense, give the equivalent and notes
+    english = senses[0].English;
+    if (senses[0].Notes) {
+      english += ". Notes: " + senses[0].Notes;
+    }
+    //console.log("WordSense 1: " + english);
+  } else if (senses.length == 2) {
+    // For a list of two, give the enumeration with equivalents and notes
+    console.log("WordSense " + senses.length);
+    for (j = 0; j < senses.length; j++) {
+      ws = senses[j];
+      english += " " + (j + 1) + ". " + ws.English;
+      if (senses[0].Notes) {
+        english += ". Notes: " + senses[0].Notes + "; ";
+      }
+    }
+  } else if (senses.length > 2) {
+    // For longer lists, give the enumeration with equivalents only
+    console.log("WordSense " + senses.length);
+    for (j = 0; j < senses.length; j++) {
+      ws = senses[j];
+      english += " " + (j + 1) + ". " + ws.English + "; "
+    }
+  }
+  if (english.length > 120) {
+    english = english.substr(0, 120) + " ...";
+  }
+  english += " [";
+  var tn1 = document.createTextNode(english);
+  span.appendChild(tn1);
+  span.appendChild(link);
+  var tn2 = document.createTextNode("]");
+  span.appendChild(tn2);
+  return span;
+}

@@ -21,7 +21,7 @@ type Word struct {
 // Defines a single sense of a Chinese word
 type WordSense struct {
 	Id, HeadwordId int
-	Simplified, Traditional, Pinyin, English string
+	Simplified, Traditional, Pinyin, English, Notes string
 }
 
 // Loads all words from the database
@@ -35,7 +35,7 @@ func LoadDict() (map[string]Word, error) {
 	}
 	ctx := context.Background()
 	stmt, err := database.PrepareContext(ctx, 
-		"SELECT id, simplified, traditional, pinyin, english, headword FROM words")
+		"SELECT id, simplified, traditional, pinyin, english, notes, headword FROM words")
     if err != nil {
         applog.Error("find.load_dict Error preparing stmt: ", err)
         return wdict, err
@@ -49,7 +49,8 @@ func LoadDict() (map[string]Word, error) {
 		ws := WordSense{}
 		var wsId, hw sql.NullInt64
 		var trad sql.NullString
-		results.Scan(&wsId, &ws.Simplified, &trad, &ws.Pinyin, &ws.English, &hw)
+		results.Scan(&wsId, &ws.Simplified, &trad, &ws.Pinyin, &ws.English,
+			&ws.Notes, &hw)
 		if wsId.Valid {
 			ws.Id = int(wsId.Int64)
 		}
