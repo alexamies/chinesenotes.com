@@ -17,4 +17,11 @@ func TestLoadDict(t *testing.T) {
 	if len(wdict) == 0 {
 		t.Error("TestLoadDict: len(wdict) == 0")
 	}
+	w := wdict["猴"]
+	if w.HeadwordId == 0 {
+		t.Error("TestLoadDict: w.HeadwordId == 0")
+	}
+	if w.Pinyin != "hóu" {
+		t.Error("TestLoadDict: w.Pinyin != hóu", w.Pinyin)
+	}
 }

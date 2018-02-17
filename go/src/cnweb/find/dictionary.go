@@ -48,9 +48,9 @@ func LoadDict() (map[string]Word, error) {
 	for results.Next() {
 		ws := WordSense{}
 		var wsId, hw sql.NullInt64
-		var trad sql.NullString
-		results.Scan(&wsId, &ws.Simplified, &trad, &ws.Pinyin, &ws.English,
-			&ws.Notes, &hw)
+		var trad, notes, pinyin, english sql.NullString
+		results.Scan(&wsId, &ws.Simplified, &trad, &pinyin, &english, &notes,
+			&hw)
 		if wsId.Valid {
 			ws.Id = int(wsId.Int64)
 		}
@@ -59,6 +59,15 @@ func LoadDict() (map[string]Word, error) {
 		}
 		if trad.Valid {
 			ws.Traditional = trad.String
+		}
+		if pinyin.Valid {
+			ws.Pinyin = pinyin.String
+		}
+		if english.Valid {
+			ws.English = english.String
+		}
+		if notes.Valid {
+			ws.Notes = notes.String
 		}
 		word, ok := wdict[ws.Simplified]
 		if ok {
