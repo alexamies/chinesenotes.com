@@ -91,6 +91,7 @@ func LoadDict() (map[string]Word, error) {
 				word1 = Word{}
 				word1.Simplified = ws.Simplified
 				word1.Traditional = ws.Traditional
+				word1.Pinyin = ws.Pinyin
 				word1.HeadwordId = ws.HeadwordId
 				word1.Senses = []WordSense{ws}
 				wdict[word.Traditional] = word1
