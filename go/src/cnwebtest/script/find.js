@@ -268,11 +268,11 @@ function combineEnglish(senses, wordURL) {
     }
   } else if (senses.length > 2) {
     // For longer lists, give the enumeration with equivalents only
-    console.log("WordSense " + senses.length);
+    //console.log("WordSense " + senses.length);
     var equivalent = ""
     for (j = 0; j < senses.length; j++) {
       ws = senses[j];
-      equivalent += (j + 1) + " " + ws.English + "; ";
+      equivalent += (j + 1) + ". " + ws.English + "; ";
       if (equivalent.length > maxLen) {
         equivalent + " ...";
         break;
