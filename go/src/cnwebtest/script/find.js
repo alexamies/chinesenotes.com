@@ -160,6 +160,7 @@
               var a = document.createElement('a');
               a.setAttribute("href", wordURL);
               a.setAttribute("title", "Details for word");
+              a.setAttribute("class", "query-term");
               a.appendChild(textNode1);
               td1.appendChild(a);
             } else {
@@ -212,46 +213,86 @@
 //   wordURL is the URL of detail page for the headword
 // Returns a HTML element that can be added to the table
 function combineEnglish(senses, wordURL) {
-  var span = document.createElement('span');
-  var link = document.createElement('a');
-  link.setAttribute("href", wordURL);
-  link.setAttribute("title", "Details for word");
-  var linkText = document.createTextNode("Details");
-  link.appendChild(linkText);
-  var english = ""
+  var maxLen = 120;
+  var englishSpan = document.createElement('span');
   if (senses.length == 1) {
     // For a single sense, give the equivalent and notes
-    english = senses[0].English;
+    var textLen = 0;
+    var equivSpan = document.createElement('span');
+    equivSpan.setAttribute("class", "dict-entry-definition");
+    var equivalent = senses[0].English;
+    textLen += equivalent.length;
+    var equivTN = document.createTextNode(equivalent);
+    equivSpan.appendChild(equivTN);
+    englishSpan.appendChild(equivSpan);
     if (senses[0].Notes) {
-      english += ". Notes: " + senses[0].Notes;
+      var notesSpan = document.createElement('span');
+      notesSpan.setAttribute("class", "notes-label");
+      var noteTN = document.createTextNode("  Notes");
+      notesSpan.appendChild(noteTN);
+      englishSpan.appendChild(notesSpan);
+      var notesTxt = ": " + senses[0].Notes;
+      textLen += notesTxt.length;
+      if (textLen > maxLen) {
+        notesTxt = notesTxt.substr(0, maxLen) + " ...";
+      }
+      var notesTN = document.createTextNode(notesTxt);
+      englishSpan.appendChild(notesTN);
     }
-    //console.log("WordSense 1: " + english);
   } else if (senses.length == 2) {
     // For a list of two, give the enumeration with equivalents and notes
     console.log("WordSense " + senses.length);
+    var textLen = 0;
     for (j = 0; j < senses.length; j++) {
       ws = senses[j];
-      english += " " + (j + 1) + ". " + ws.English;
-      if (senses[0].Notes) {
-        english += ". Notes: " + senses[0].Notes + "; ";
+      var equivalent = " " + (j + 1) + ". " + ws.English;
+      textLen += equivalent.length;
+      var equivSpan = document.createElement('span');
+      equivSpan.setAttribute("class", "dict-entry-definition");
+      var equivTN = document.createTextNode(equivalent);
+      equivSpan.appendChild(equivTN);
+      englishSpan.appendChild(equivSpan);
+      if (senses[j].Notes) {
+        var notesSpan = document.createElement('span');
+        notesSpan.setAttribute("class", "notes-label");
+        var noteTN = document.createTextNode("  Notes");
+        notesSpan.appendChild(noteTN);
+        englishSpan.appendChild(notesSpan);
+        var notesTxt = ": " + senses[j].Notes + "; ";
+        if (textLen > maxLen) {
+          notesTxt = notesTxt.substr(0, maxLen) + " ...";
+        }
+        var notesTN = document.createTextNode(notesTxt);
+        englishSpan.appendChild(notesTN);
       }
     }
   } else if (senses.length > 2) {
     // For longer lists, give the enumeration with equivalents only
     console.log("WordSense " + senses.length);
+    var equivalent = ""
     for (j = 0; j < senses.length; j++) {
       ws = senses[j];
-      english += " " + (j + 1) + ". " + ws.English + "; "
+      equivalent += (j + 1) + " " + ws.English + "; ";
+      if (equivalent.length > maxLen) {
+        equivalent + " ...";
+        break;
+      }
     }
+    var equivSpan = document.createElement('span');
+    equivSpan.setAttribute("class", "dict-entry-definition");
+    var equivTN = document.createTextNode(equivalent);
+    equivSpan.appendChild(equivTN);
+    englishSpan.appendChild(equivSpan);
   }
-  if (english.length > 120) {
-    english = english.substr(0, 120) + " ...";
-  }
-  english += " [";
-  var tn1 = document.createTextNode(english);
-  span.appendChild(tn1);
-  span.appendChild(link);
+  var link = document.createElement('a');
+  link.setAttribute("href", wordURL);
+  link.setAttribute("title", "Details for word");
+  var linkText = document.createTextNode("Details");
+  link.appendChild(linkText);
+  var tn1 = document.createTextNode("  [");
+  englishSpan.appendChild(tn1);
+  englishSpan.appendChild(link);
   var tn2 = document.createTextNode("]");
-  span.appendChild(tn2);
-  return span;
+  englishSpan.appendChild(tn2);
+  return englishSpan;
 }
