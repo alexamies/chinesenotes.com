@@ -31,4 +31,12 @@ func TestLoadDict(t *testing.T) {
 	if w2.Pinyin == "" {
 		t.Error("TestLoadDict: w2.Pinyin == ''")
 	}
+	w3 := wdict["來"]
+	if len(w3.Senses) < 2 {
+		t.Error("len(w3.Senses) < 2, ", len(w3.Senses))
+	}
+	w4 := wdict["發"]
+	if len(w4.Senses) < 2 {
+		t.Error("len(w4.Senses) < 2, ", len(w4.Senses))
+	}
 }

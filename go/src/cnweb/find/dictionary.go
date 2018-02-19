@@ -86,7 +86,7 @@ func LoadDict() (map[string]Word, error) {
 			word1, ok1 := wdict[trad.String]
 			if ok1 {
 				word1.Senses = append(word1.Senses, ws)
-				wdict[word1.Simplified] = word1
+				wdict[word1.Traditional] = word1
 			} else {
 				word1 = Word{}
 				word1.Simplified = ws.Simplified
@@ -94,7 +94,7 @@ func LoadDict() (map[string]Word, error) {
 				word1.Pinyin = ws.Pinyin
 				word1.HeadwordId = ws.HeadwordId
 				word1.Senses = []WordSense{ws}
-				wdict[word.Traditional] = word1
+				wdict[word1.Traditional] = word1
 			}
 		}
 	}
