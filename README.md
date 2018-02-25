@@ -188,15 +188,9 @@ docker run -itd --rm --name mysql-client --link mariadb \
   --mount type=bind,source="$(pwd)"/data,target=/cndata \
   mysql-client-image
 
-# Copy files as needed
-tar -zcf cndata.tar.gz data
-docker cp cndata.tar.gz mariadb:/cndata.tar.gz
-
 docker exec -it mariadb bash
 
 # In the container command line
-tar -zxf cndata.tar.gz
-mv data cndata
 cd cndata
 mysql --local-infile=1 -h localhost -u root -p
 
@@ -208,6 +202,7 @@ source notes.ddl
 source load_data.sql
 source corpus_index.ddl
 source load_index.sql
+source libary/digital_library.sql
 
 ```
 
@@ -318,7 +313,9 @@ docker build -f docker/web/Dockerfile -t cn-web-image .
 
 # Test it locally
 
-docker run -itd --rm -p 80:80 --name cn-web --link cn-app  cn-web-image
+docker run -itd --rm -p 80:80 --name cn-web --link cn-app \
+  --mount type=bind,source="$(pwd)"/web/words,target=/usr/local/apache2/htdocs/words \
+  cn-web-image
 
 #Attach to a local image for debugging, if needed
 docker exec -it cn-web bash
