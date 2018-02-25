@@ -32,6 +32,21 @@ func TestFindDocuments2(t *testing.T) {
 	}
 }
 
+func TestFindDocuments3(t *testing.T) {
+	dict := map[string]Word{}
+	parser := DictQueryParser{dict}
+	qr, err := FindDocuments(parser, "hello")
+	if err != nil {
+		t.Error("TestFindDocuments3: got error, ", err)
+	}
+	if len(qr.Terms) != 1 {
+		t.Error("TestFindDocuments3: len(qr.Terms) != 1, ", qr)
+	}
+	if len(qr.Terms[0].Senses) == 0 {
+		t.Error("TestFindDocuments3: len(qr.Terms.Senses) == 0, ", qr)
+	}
+}
+
 func TestFindWords1(t *testing.T) {
 	words, err := findWords("Assembly")
 	if err != nil {

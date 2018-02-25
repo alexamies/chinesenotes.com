@@ -20,10 +20,12 @@ type DictQueryParser struct{WDict map[string]Word}
 // A text segment contains the QueryText searched for and possibly a matching
 // dictionary entry. There will only be matching dictionary entries for 
 // Chinese words in the dictionary. Non-Chinese text, punctuation, and unknown
-// Chinese words will have nil DictEntry values
+// Chinese words will have nil DictEntry values and matching values will be
+// included in the Senses field.
 type TextSegment struct{
 	QueryText string
-	DictEntry Word 
+	DictEntry Word
+	Senses []WordSense
 }
 
 // The method for parsing the query text in this function is based on dictionary
@@ -91,7 +93,7 @@ func (parser DictQueryParser) parse_chinese(text string) []TextSegment {
 		for j := len(characters); j > 0; j-- {
 			w := strings.Join(characters[i:j], "")
 			if entry, ok := parser.WDict[w]; ok {
-				seg := TextSegment{w, entry}
+				seg := TextSegment{w, entry, []WordSense{}}
 				terms = append(terms, seg)
 				i = j - 1
 				j = 0

@@ -54,7 +54,7 @@ func adminHandler(w http.ResponseWriter, r *http.Request) {
 			applog.Error("adminHandler: error rendering template", err)
 		}
 	} else {
-		http.Error(w, "Not authorized", 403)
+		http.Error(w, "Not authorized", http.StatusForbidden)
 	}
 }
 
@@ -94,18 +94,33 @@ func displayPage(w http.ResponseWriter, templateName string, content interface{}
 	tmpl, err := template.New(templateName).ParseFiles("templates/" + templateName)
 	if err != nil {
 		applog.Error("displayPage: error parsing template", err)
-		http.Error(w, "Server Error", 500)
+		http.Error(w, "Server Error", http.StatusInternalServerError)
 		return
 	} else if tmpl == nil {
 		applog.Error("displayPage: Template is nil")
-		http.Error(w, "Server Error", 500)
+		http.Error(w, "Server Error", http.StatusInternalServerError)
 		return
 	}
 	err = tmpl.Execute(w, content)
 	if err != nil {
 		applog.Error("displayPage: error rendering template", err)
-		http.Error(w, "Server Error", 500)
+		http.Error(w, "Server Error", http.StatusInternalServerError)
 	}	
+}
+
+// HTML redirect to the index.html page, for healthchecks that use /
+func displayHome(w http.ResponseWriter, r *http.Request) {
+	page := `<!DOCTYPE html>
+<html>
+  <head>
+   <meta http-equiv='refresh' content='0; url=index.html'>
+  </head>
+  <body>
+   <p>Redirect to main page</p>
+  </body>
+</html>
+`
+	fmt.Fprintf(w, page)
 }
 
 // Displays the translation portal home page
@@ -121,11 +136,11 @@ func enforceValidSession(w http.ResponseWriter, r *http.Request) identity.Sessio
 	if err == nil {
 		sessionInfo = identity.CheckSession(cookie.Value)
 		if sessionInfo.Authenticated != 1 {
-			http.Error(w, "Not authorized", 403)
+			http.Error(w, "Not authorized", http.StatusForbidden)
 			return sessionInfo
 		}
 	} else {
-		http.Error(w, "Not authorized", 403)
+		http.Error(w, "Not authorized", http.StatusForbidden)
 		return identity.InvalidSession()
 	}
 	return sessionInfo
@@ -143,18 +158,25 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 	results, err := find.FindDocuments(parser, q)
 	if err != nil {
 		applog.Error("main.findHandler searching docs, ", err)
-		http.Error(response, "Error searching docs", 500)
+		http.Error(response, "Error searching docs",
+			http.StatusInternalServerError)
 		return
 	}
 	resultsJson, err := json.Marshal(results)
 	if err != nil {
 		applog.Error("main.findHandler error marshalling JSON, ", err)
-		http.Error(response, "Error marshalling results", 500)
+		http.Error(response, "Error marshalling results",
+			http.StatusInternalServerError)
 	} else {
 		//applog.Info("handler, results returned: ", string(resultsJson))
 		response.Header().Set("Content-Type", "application/json; charset=utf-8")
 		fmt.Fprintf(response, string(resultsJson))
 	}
+}
+
+// Health check for monitoring or load balancing system, checks reachability
+func healthcheck(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "healthcheck ok")
 }
 
 // Display login form for the Translation Portal
@@ -177,7 +199,7 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 	users, err := identity.CheckLogin(username, password)
 	if err != nil {
 		applog.Error("main.loginHandler checking login, ", err)
-		http.Error(w, "Error checking login", 500)
+		http.Error(w, "Error checking login", http.StatusInternalServerError)
 		return
 	}
 	if len(users) != 1 {
@@ -236,7 +258,7 @@ func portalHandler(w http.ResponseWriter, r *http.Request) {
 	if identity.IsAuthorized(sessionInfo.User, "translation_portal") {
 		displayPortalHome(w)
 	} else {
-		http.Error(w, "Not authorized", 403)
+		http.Error(w, "Not authorized", http.StatusForbidden)
 	}
 }
 
@@ -259,7 +281,7 @@ func portalLibraryHandler(w http.ResponseWriter, r *http.Request) {
 		applog.Info("portalLibraryHandler: serving file ", filename)
 		http.ServeFile(w, r, filename)
 	} else {
-		http.Error(w, "Not authorized", 403)
+		http.Error(w, "Not authorized", http.StatusForbidden)
 	}
 }
 
@@ -319,7 +341,7 @@ func sendJSON(w http.ResponseWriter, obj interface{}) {
 	resultsJson, err := json.Marshal(obj)
 	if err != nil {
 		applog.Error("changePasswordHandler: error marshalling json", err)
-		http.Error(w, "Error checking login", 500)
+		http.Error(w, "Error checking login", http.StatusInternalServerError)
 		return
 	}
 	fmt.Fprintf(w, string(resultsJson))
@@ -365,6 +387,7 @@ func main() {
 	//index.LoadKeywordIndex()
 	//documents := index.FindForKeyword("你")
 	http.HandleFunc("/find/", findHandler)
+	http.HandleFunc("/healthcheck/", healthcheck)
 	http.HandleFunc("/loggedin/admin", adminHandler)
 	http.HandleFunc("/loggedin/changepassword", changePasswordFormHandler)
 	http.HandleFunc("/loggedin/login", loginHandler)
@@ -378,5 +401,6 @@ func main() {
 	http.HandleFunc("/loggedin/reset_password", resetPasswordFormHandler)
 	http.HandleFunc("/loggedin/reset_password_submit", resetPasswordHandler)
 	http.HandleFunc("/loggedin/submitcpwd", changePasswordHandler)
+	http.HandleFunc("/", displayHome)
 	http.ListenAndServe(":8080", nil)
 }

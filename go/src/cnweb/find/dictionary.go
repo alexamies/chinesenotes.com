@@ -9,6 +9,11 @@ import (
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
 	"cnweb/webconfig"
+	"time"
+)
+
+var (
+	findEnglishStmt *sql.Stmt
 )
 
 // A top level word structure that may include multiple word senses
@@ -22,6 +27,76 @@ type Word struct {
 type WordSense struct {
 	Id, HeadwordId int
 	Simplified, Traditional, Pinyin, English, Notes string
+}
+
+func initQueries() error {
+	conString := webconfig.DBConfig()
+	db, err := sql.Open("mysql", conString)
+	if err != nil {
+		return err
+	}
+	database = db
+
+	ctx := context.Background()
+	fwstmt, err := database.PrepareContext(ctx, 
+`SELECT simplified, traditional, pinyin, english, notes, headword
+FROM words
+WHERE pinyin = ? OR english LIKE ?
+LIMIT 20`)
+    if err != nil {
+        applog.Error("find.init() Error preparing fwstmt: ", err)
+        return err
+    }
+    findEnglishStmt = fwstmt
+
+    return nil
+}
+
+// Returns the word senses with English approximate or Pinyin exact match
+func findWordsByEnglish(query string) ([]WordSense, error) {
+	if findEnglishStmt == nil {
+		initQueries()
+	}
+	ctx := context.Background()
+	results, err := findEnglishStmt.QueryContext(ctx, query, query)
+	if err != nil {
+		applog.Error("findWordsByEnglish, Error for query: ", query, err)
+		// Sleep for a while, reinitialize, and retry
+		time.Sleep(2000 * time.Millisecond)
+		initQueries()
+		results, err = findEnglishStmt.QueryContext(ctx, query, query)
+		if err != nil {
+			applog.Error("findWordsByEnglish, Give up after retry: ", query, err)
+			return []WordSense{}, err
+		}
+	}
+	senses := []WordSense{}
+	for results.Next() {
+		ws := WordSense{}
+		var hw sql.NullInt64
+		var trad, pinyin, english, notes sql.NullString
+		results.Scan(&ws.Simplified, &trad, &pinyin, &english, &notes, &hw)
+		applog.Info("findWordsByEnglish, simplified, headword = ",
+			ws.Simplified, hw)
+		if trad.Valid {
+			ws.Traditional = trad.String
+		}
+		if pinyin.Valid {
+			ws.Pinyin = pinyin.String
+		}
+		if english.Valid {
+			ws.English = english.String
+		}
+		if notes.Valid {
+			ws.Notes = notes.String
+		}
+		if hw.Valid {
+			ws.HeadwordId = int(hw.Int64)
+		}
+		senses = append(senses, ws)
+	}
+	applog.Info("findWordsByEnglish, len(senses): ", len(senses))
+	return senses, nil
 }
 
 // Loads all words from the database

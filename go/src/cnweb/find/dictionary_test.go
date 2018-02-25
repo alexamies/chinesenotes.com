@@ -7,8 +7,25 @@ import (
 )
 
 // Test trivial query with empty dictionary
+func TestFindWordsByEnglish(t *testing.T) {
+	log.Printf("TestFindWordsByEnglish: Begin unit tests\n")
+	senses, err := findWordsByEnglish("hello")
+	if err != nil {
+		t.Error("TestFindWordsByEnglish: encountered error: ", err)
+		return
+	}
+	if len(senses) == 0 {
+		t.Error("TestFindWordsByEnglish: len(senses) == 0")
+	}
+	if len(senses[0].Pinyin) == 0 {
+		t.Error("TestFindWordsByEnglish: len(senses[0].Pinyin) == 0",
+			senses[0].Pinyin)
+	}
+}
+
+
+// Test trivial query with empty dictionary
 func TestLoadDict(t *testing.T) {
-	log.Printf("TestLoadDict: Begin unit tests\n")
 	wdict, err := LoadDict()
 	if err != nil {
 		t.Error("TestLoadDict: encountered error: ", err)

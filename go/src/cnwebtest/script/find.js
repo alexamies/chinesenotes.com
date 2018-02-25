@@ -25,7 +25,7 @@
   function alertContents() {
     if (httpRequest.readyState === XMLHttpRequest.DONE) {
       if (httpRequest.status === 200) {
-        console.log(httpRequest.responseText);
+        //console.log(httpRequest.responseText);
         obj = JSON.parse(httpRequest.responseText);
 
         // If there is only one result, redirect to it
@@ -141,21 +141,71 @@
           }
           qTable.removeChild(qOldBody)
           var qTbody = document.createElement('tbody');
-          for (i = 0; i < terms.length; i++) {
-            var tr = document.createElement('tr');
-            var td1 = document.createElement('td');
-            td1.setAttribute("class", "mdl-data-table__cell--non-numeric");
-            tr.appendChild(td1);
+          if ((terms.length > 0) && terms[0].DictEntry && terms[0].DictEntry.Senses) {
+            console.log("alertContents: Query contain Chinese words", terms)
+            for (i = 0; i < terms.length; i++) {
+              var tr = document.createElement('tr');
+              var td1 = document.createElement('td');
+              td1.setAttribute("class", "mdl-data-table__cell--non-numeric");
+              tr.appendChild(td1);
 
-            var qText = terms[i].QueryText;
-            var pinyin = "";
-            var english = "";
-            var wordURL = ""
-            var textNode1 = document.createTextNode(qText);
-            if (terms[i].DictEntry && terms[i].DictEntry.Senses) {
-              pinyin = terms[i].DictEntry.Pinyin;
+              var qText = terms[i].QueryText;
+              var pinyin = "";
+              var english = "";
+              var wordURL = ""
+              var textNode1 = document.createTextNode(qText);
+              if (terms[i].DictEntry && terms[i].DictEntry.Senses) {
+                pinyin = terms[i].DictEntry.Pinyin;
+                // Add link to word detail page
+                hwId = terms[i].DictEntry.Senses[0].HeadwordId;
+                wordURL = "/words/" + hwId + ".html";
+                var a = document.createElement('a');
+                a.setAttribute("href", wordURL);
+                a.setAttribute("title", "Details for word");
+                a.setAttribute("class", "query-term");
+                a.appendChild(textNode1);
+                td1.appendChild(a);
+              } else {
+                // No link to a detailed word page
+                td1.appendChild(textNode1);
+              }
+
+              var td2 = document.createElement('td');
+              td2.setAttribute("class", "mdl-data-table__cell--non-numeric");
+              tr.appendChild(td2);
+              var textNode2 = document.createTextNode(pinyin);
+              td2.appendChild(textNode2);
+
+              var td3 = document.createElement('td');
+              td3.setAttribute("class", "mdl-data-table__cell--non-numeric");
+              tr.appendChild(td3);
+              //console.log("terms.DictEntry: " + terms[i].DictEntry);
+              if (terms[i].DictEntry && terms[i].DictEntry.Senses) {
+                td3.appendChild(combineEnglish(terms[i].DictEntry.Senses, wordURL));
+              }
+              qTbody.appendChild(tr);
+            }
+          } else if ((terms.length == 1) && (terms[0].Senses)) {
+            console.log("alertContents: Query is English", terms[0].Senses)
+            senses = terms[0].Senses
+            for (i = 0; i < senses.length; i++) {
+              var tr = document.createElement('tr');
+              var td1 = document.createElement('td');
+              td1.setAttribute("class", "mdl-data-table__cell--non-numeric");
+              tr.appendChild(td1);
+
+              var chinese = senses[i].Simplified;
+              console.log("alertContents: chinese", i, chinese)
+              if (senses[i].Traditional) {
+                chinese += " (" + senses[i].Traditional + ")"
+              }
+              var textNode1 = document.createTextNode(chinese);
+              var pinyin = "";
+              var english = "";
+              var wordURL = ""
+
               // Add link to word detail page
-              hwId = terms[i].DictEntry.Senses[0].HeadwordId;
+              hwId = senses[i].HeadwordId;
               wordURL = "/words/" + hwId + ".html";
               var a = document.createElement('a');
               a.setAttribute("href", wordURL);
@@ -163,26 +213,22 @@
               a.setAttribute("class", "query-term");
               a.appendChild(textNode1);
               td1.appendChild(a);
-            } else {
-              // No link to a detailed word page
-              td1.appendChild(textNode1);
+
+              var td2 = document.createElement('td');
+              td2.setAttribute("class", "mdl-data-table__cell--non-numeric");
+              tr.appendChild(td2);
+              pinyin = senses[i].Pinyin;
+              var textNode2 = document.createTextNode(pinyin);
+              td2.appendChild(textNode2);
+
+              var td3 = document.createElement('td');
+              td3.setAttribute("class", "mdl-data-table__cell--non-numeric");
+              tr.appendChild(td3);
+              var wsArray = [senses[i]]
+              englishSpan = combineEnglish(wsArray, wordURL)
+              td3.appendChild(englishSpan);
+              qTbody.appendChild(tr);
             }
-
-            var td2 = document.createElement('td');
-            td2.setAttribute("class", "mdl-data-table__cell--non-numeric");
-            tr.appendChild(td2);
-            var textNode2 = document.createTextNode(pinyin);
-            td2.appendChild(textNode2);
-
-            var td3 = document.createElement('td');
-            td3.setAttribute("class", "mdl-data-table__cell--non-numeric");
-            tr.appendChild(td3);
-            //console.log("terms.DictEntry: " + terms[i].DictEntry);
-            if (terms[i].DictEntry && terms[i].DictEntry.Senses) {
-              td3.appendChild(combineEnglish(terms[i].DictEntry.Senses, wordURL));
-            }
-
-            qTbody.appendChild(tr);
           }
           qTable.appendChild(qTbody);
           componentHandler.upgradeElement(qTbody);
@@ -191,6 +237,8 @@
           qTitle.style.display = "block";
           qOldBody = qTbody
           document.getElementById("queryTerms").style.display = "block";
+        } else {
+          console.log("alertContents: not able to load dictionary terms", terms)
         }
 
       } else {

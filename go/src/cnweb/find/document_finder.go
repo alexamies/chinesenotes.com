@@ -183,12 +183,29 @@ func findDocuments(query string) ([]Document, error) {
 	return documents, nil
 }
 
+// Returns a QueryResults object containing matching collections, documents,
+// and dictionary words. For dictionary lookup, a text segment will
+// contains the QueryText searched for and possibly a matching
+// dictionary entry. There will only be matching dictionary entries for 
+// Chinese words in the dictionary. If there are no Chinese words in the query
+// then the Chinese word senses matching the English or Pinyin will be included
+// in the TextSegment.Senses field.
 func FindDocuments(parser QueryParser, query string) (QueryResults, error) {
 	if query == "" {
 		applog.Error("FindDocuments, Empty query string")
 		return QueryResults{}, errors.New("Empty query string")
 	}
 	terms := parser.ParseQuery(query)
+	if (len(terms) == 1) && (terms[0].DictEntry.HeadwordId == 0) {
+	    applog.Info("FindDocuments,Query does not contain Chinese, look for " +
+	    	"English and Pinyin matches: ", query)
+		senses, err := findWordsByEnglish(terms[0].QueryText)
+		if err != nil {
+			return QueryResults{}, err
+		} else {
+			terms[0].Senses = senses
+		}
+	}
 	nCol := countCollections(query)
 	nDoc := countDocuments(query)
 	collections := findCollections(query)
