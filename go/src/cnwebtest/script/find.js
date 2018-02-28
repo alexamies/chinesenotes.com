@@ -25,6 +25,7 @@
   function alertContents() {
     if (httpRequest.readyState === XMLHttpRequest.DONE) {
       if (httpRequest.status === 200) {
+        console.log("alertContents: Got a successful response");
         //console.log(httpRequest.responseText);
         obj = JSON.parse(httpRequest.responseText);
 
@@ -45,7 +46,8 @@
         // Otherwise send the results to the client in JSON form
         if (numCollections > 0 || numDocuments > 0) {
 
-          // Report Summary reults
+          // Report summary reults
+          console.log("alertContents: processing summary reults");
           var span = document.getElementById("NumCollections");
           span.innerHTML = numCollections;
           componentHandler.upgradeElement(span);
@@ -56,6 +58,7 @@
 
           // Add detailed results for collections
           if (numCollections > 0) {
+            console.log("alertContents: detailed results for collections");
             var table = document.getElementById("findResultsTable");
             if (typeof oldBody === 'undefined') {
               oldBody = document.getElementById("findResultsBody");
@@ -86,6 +89,7 @@
 
           // Add detailed results for documents
           if (numDocuments > 0) {
+            console.log("alertContents: detailed results for documents");
             var dTable = document.getElementById("findDocResultsTable");
             if (typeof dOldBody === 'undefined') {
               dOldBody = document.getElementById("findDocResultsBody");
@@ -124,7 +128,7 @@
           elem.style.display = "block";
         }
 
-        terms = obj.Terms;
+        var terms = obj.Terms;
         if (terms && terms.length == 1 && terms[0].DictEntry && terms[0].DictEntry.HeadwordId > 0) {
           console.log("Single matching word, redirect to it");
           hwId = terms[0].DictEntry.HeadwordId;
@@ -133,15 +137,16 @@
           return;
         }
 
-        // Display the segmented query terms in a table
+        // Display dictionary lookup for the segmented query terms in a table
         if (terms) {
+          console.log("alertContents: detailed results for dictionary lookup");
           var qTable = document.getElementById("queryTermsTable");
           if (typeof qOldBody === 'undefined') {
             qOldBody = document.getElementById("queryTermsBody");
           }
           qTable.removeChild(qOldBody)
           var qTbody = document.createElement('tbody');
-          if ((terms.length > 0) && terms[0].DictEntry && terms[0].DictEntry.Senses) {
+          if ((terms.length > 0) && terms[0].DictEntry && (!terms[0].Senses || (terms[0].Senses.length == 0))) {
             console.log("alertContents: Query contain Chinese words", terms)
             for (i = 0; i < terms.length; i++) {
               var tr = document.createElement('tr');
@@ -185,7 +190,7 @@
               }
               qTbody.appendChild(tr);
             }
-          } else if ((terms.length == 1) && (terms[0].Senses)) {
+          } else if ((terms.length == 1) && terms[0].Senses) {
             console.log("alertContents: Query is English", terms[0].Senses)
             senses = terms[0].Senses
             for (i = 0; i < senses.length; i++) {
@@ -229,6 +234,8 @@
               td3.appendChild(englishSpan);
               qTbody.appendChild(tr);
             }
+          } else {
+            console.log("alertContents: not able to handle this case", terms)
           }
           qTable.appendChild(qTbody);
           componentHandler.upgradeElement(qTbody);

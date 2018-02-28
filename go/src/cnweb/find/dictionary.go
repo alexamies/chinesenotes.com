@@ -58,7 +58,8 @@ func findWordsByEnglish(query string) ([]WordSense, error) {
 		initQueries()
 	}
 	ctx := context.Background()
-	results, err := findEnglishStmt.QueryContext(ctx, query, query)
+	likeEnglish := "%" + query + "%"
+	results, err := findEnglishStmt.QueryContext(ctx, query, likeEnglish)
 	if err != nil {
 		applog.Error("findWordsByEnglish, Error for query: ", query, err)
 		// Sleep for a while, reinitialize, and retry
