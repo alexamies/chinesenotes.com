@@ -4,10 +4,10 @@
 (function() {
   var httpRequest;
   document.getElementById("findForm").onsubmit = function() {
-  	query = document.getElementById("findInput").value
-  	url = '/find/?query=' + query
-  	makeRequest(url);
-  	return false
+    query = document.getElementById("findInput").value
+    url = '/find/?query=' + query
+    makeRequest(url);
+    return false
   };
 
   function makeRequest(url) {
@@ -26,7 +26,7 @@
     if (httpRequest.readyState === XMLHttpRequest.DONE) {
       if (httpRequest.status === 200) {
         console.log("alertContents: Got a successful response");
-        //console.log(httpRequest.responseText);
+        console.log(httpRequest.responseText);
         obj = JSON.parse(httpRequest.responseText);
 
         // If there is only one result, redirect to it
@@ -65,13 +65,14 @@
             }
             table.removeChild(oldBody)
             var tbody = document.createElement('tbody');
+            var numCol = collections.length;
             for (i = 0; i < numCollections; i++) {
-          	  var title = collections[i].Title;
-          	  var gloss_file = collections[i].GlossFile
-          	  var tr = document.createElement('tr');
-          	  var td = document.createElement('td');
-          	  td.setAttribute("class", "mdl-data-table__cell--non-numeric");
-          	  tr.appendChild(td);
+              var title = collections[i].Title;
+              var gloss_file = collections[i].GlossFile
+              var tr = document.createElement('tr');
+              var td = document.createElement('td');
+              td.setAttribute("class", "mdl-data-table__cell--non-numeric");
+              tr.appendChild(td);
               var a = document.createElement('a');
               a.setAttribute("href", gloss_file);
               var textNode = document.createTextNode(title);
@@ -96,19 +97,24 @@
             }
             dTable.removeChild(dOldBody)
             var dTbody = document.createElement('tbody');
-            for (i = 0; i < numDocuments; i++) {
-          	  var title = documents[i].Title;
-          	  var gloss_file = documents[i].GlossFile
-          	  var tr = document.createElement('tr');
-          	  var td = document.createElement('td');
-          	  td.setAttribute("class", "mdl-data-table__cell--non-numeric");
-          	  tr.appendChild(td);
-              var a = document.createElement('a');
-              a.setAttribute("href", gloss_file);
-              var textNode = document.createTextNode(title);
-              a.appendChild(textNode);
-              td.appendChild(a);
-              dTbody.appendChild(tr);
+            var numDoc = documents.length;
+            for (i = 0; i < numDoc; i++) {
+              if ("Title" in documents[i]) {
+                var title = documents[i].Title;
+                var gloss_file = documents[i].GlossFile
+                var tr = document.createElement('tr');
+                var td = document.createElement('td');
+                td.setAttribute("class", "mdl-data-table__cell--non-numeric");
+                tr.appendChild(td);
+                var a = document.createElement('a');
+                a.setAttribute("href", gloss_file);
+                var textNode = document.createTextNode(title);
+                a.appendChild(textNode);
+                td.appendChild(a);
+                dTbody.appendChild(tr);
+              } else {
+                console.log("alertContents: no title for document " + i);
+              }
             }
             dTable.appendChild(dTbody);
             componentHandler.upgradeElement(dTbody);
@@ -120,7 +126,7 @@
 
           document.getElementById("findResults").style.display = "block";
         } else {
-      	  msg = 'No matching results found in document collection';
+          msg = 'No matching results found in document collection';
           elem = document.getElementById("findResults");
           elem.style.display = "none";
           elem = document.getElementById("findError");
@@ -249,7 +255,7 @@
         }
 
       } else {
-      	msg = 'There was a problem with the request.';
+        msg = 'There was a problem with the request.';
         console.log(msg);
         elem = document.getElementById("findResults");
         elem.style.display = "none";
