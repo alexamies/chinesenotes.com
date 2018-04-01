@@ -12,5 +12,6 @@ sishuzhangju.csv	sishuzhangju.html	Commentaries on the Four Books by Zhu Xi 朱�
 modern_articles.csv	media_articles.html	Media articles	\N	\N	Modern Chinese	Prose	Modern	non-fiction
 laoshe.csv	laoshe.html	A small number of phrases from the writings of Lao She	\N	\N	Modern Chinese	Prose	Modern	fiction
 yeshengtao.csv	yeshengtao.html	A small number of phrases from the writings of Ye Shengtao	\N	\N	Modern Chinese	Prose	Modern	fiction
-calligraphy.csv	calligraphy.html	An introduction to Chinese calligraphy	\N	\N	Modern Chinese	Prose	Modern	non-fiction
-chinese_fonts.csv	chinese_fonts.html	Chinese Fonts	\N	\N	Modern Chinese	Prose	Modern	non-fiction
+calligraphy.csv	calligraphy.html	An introduction to Chinese calligraphy	\N	\N	English	Prose	Modern	non-fiction
+chinese_fonts.csv	chinese_fonts.html	Chinese Fonts	\N	\N	English	Prose	Modern	non-fiction
+decorative_designs.csv	chinese_fonts.html	Decorative Designs in Chinese Art 中国文物的纹饰	\N	\N	English	Prose	Modern	non-fiction
