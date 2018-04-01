@@ -10,3 +10,10 @@
 3000010	山风	山風	shān fēng	mountain breeze	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 山 mountain + 風 breeze (Barnes 2007, p. 36; Guoyu '山風')	3000010
 3000011	林声	林聲	lín shēng	the sound of the forest	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 林 woods + 聲 sound (Barnes 2007, p. 36)	3000011
 3000012	竹木	\N	zhú mù	bamboo and wood	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 竹 bamboo + 木 wood (Barnes 2007, p. 37)	3000012
+3000013	好乐	好樂	hǎo lè	fondness and delight	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 好 'fond' + 樂 'delight'; from 《大学》 'Great Learning' (Plaks 2015, p. 73)	3000013
+3000014	忿懥	\N	fèn zhì	animosity and resentment	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 忿 'animosity' + 懥 'resentment'; from 《大学》 'Great Learning' (Plaks 2015, p. 73)	3000014
+3000015	亲爱	親愛	qīn ài	kinship and affection	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 親 'kinship' + 愛 'love'; from 《大学》 'Great Learning' (Plaks 2015, pp. 73-74)	10960
+3000016	贱恶	賤惡	jiàn è	disdain and distaste	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 賤 'disdain' + 惡 'distaste'; from 《大学》 'Great Learning' (Plaks 2015, pp. 73-74)	3000016
+3000017	畏敬	\N	wèi jìng	awe and respect	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 畏 'awe' + 敬 'respect' from 《大学》 'Great Learning' (Plaks 2015, pp. 73-74)	3000017
+3000018	敖惰	\N	áo duò	arrogance and indifference	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 敖 'arrogance' + 惰 'indifference'; from 《大学》 'Great Learning' (Plaks 2015, pp. 73-74)	3000018
+3000019	知者	\N	zhī zhě	the wise	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 知 'know' + 者 nominalizer; from 《論語》 'Analects of Confucius', book 6 (Plaks 2015, p. 79)	3000019
