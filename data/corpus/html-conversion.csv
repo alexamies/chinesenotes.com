@@ -7,6 +7,7 @@
 ../corpus/classical_chinese_verbs-raw.html	classical_chinese_verbs.html	\N	true
 ../corpus/classical_chinese_embedded-raw.html	classical_chinese_embedded.html	\N	true
 ../corpus/classical_chinese_references-raw.html	classical_chinese_references.html	\N	true
+../corpus/corpus.html	corpus.html	about-template.html	true
 ../html/dictionary_templates.html	dictionary_templates.html	about-template.html	true
 ../corpus/poetry-raw.html	poetry.html	\N	true
 ../corpus/poetry_references-raw.html	poetry_references.html	\N	true
