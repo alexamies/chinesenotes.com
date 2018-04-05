@@ -1,3 +1,5 @@
 # Source file, Gloss output file, title
 grammar.html	grammar.php	Introduction
 grammar_phrases.html	grammar_phrases.php	词组 Phrases
+grammar_sentence_elements.html	grammar_sentence_elements.php	句子成分 Sentence Elements
+grammar_simple_sentences.html	grammar_simple_sentences.php	单句 Simple Sentences
