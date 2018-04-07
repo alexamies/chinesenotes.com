@@ -861,8 +861,8 @@ func WriteHwFiles(loader library.LibraryLoader) {
 		for _, ws := range *hw.WordSenses {
 			if hw.Id != ws.HeadwordId {
 				tradVariants = append(tradVariants, ws)
-				//log.Printf("analysis.WriteHwFiles: hw.Id != ws.HeadwordId: %d, %d\n",
-				//	hw.Id, ws.HeadwordId)
+				log.Printf("analysis.WriteHwFiles: hw.Id != ws.HeadwordId: %d, %d\n",
+					hw.Id, ws.HeadwordId)
 			}
 		}
 
