@@ -162,7 +162,10 @@ func GetHeadwords() []HeadwordDef {
 			if ws.HeadwordId == hwId {
 				wsIds = append(wsIds, ws.Id)
 				pinyinMap[ws.Pinyin] = true
-			}
+			} //else {
+			//	log.Printf("dictionary.GetHeadwords: hw.Id != ws.HeadwordId: %d, %d\n",
+			//		hwId, ws.HeadwordId)
+			//}
 		}
 		sort.Ints(wsIds)
 		hwIdArray = append(hwIdArray, hwId)
@@ -399,12 +402,17 @@ func readWSMap(wsFilenames []string) map[int]WordSenseEntry {
 			}
 			simp := row[1]
 			trad := row[2]
+			hwId, error := strconv.ParseInt(row[15], 10, 0)
+			if error != nil {
+				log.Fatal("readWSMap: Could not parse hwId for row %s\n",
+					row[0])
+			}
 			ws := WordSenseEntry{Id: int(id), Simplified: simp,
 				Traditional: trad, Pinyin: row[3], English: row[4],
 				Grammar: row[5], Concept_cn: row[6], Concept_en: row[7], 
 				Topic_cn: row[8], Topic_en: row[9], Parent_cn: row[10],
 				Parent_en: row[11], Image: row[12], Mp3: row[13],
-				Notes: row[14]}
+				Notes: row[14], HeadwordId: int(hwId)}
 			wsMap[int(id)] = ws
 		}
 	}
