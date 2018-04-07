@@ -715,7 +715,9 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 			}
 			fmt.Fprintf(&b, hyperlink(entries, chunk))
 		} else {
-			chunk = replacer.Replace(chunk)
+			if !strings.HasSuffix(chunk, ">") {
+				chunk = replacer.Replace(chunk)
+			}
 			b.WriteString(chunk)
 		}
 	}
@@ -853,6 +855,17 @@ func WriteHwFiles(loader library.LibraryLoader) {
 		if i%1000 == 0 {
 			log.Printf("analysis.WriteHwFiles: wrote %d words\n", i)
 		}
+
+		// Look for different writings of traditional form
+		tradVariants := []dictionary.WordSenseEntry{}
+		for _, ws := range *hw.WordSenses {
+			if hw.Id != ws.HeadwordId {
+				tradVariants = append(tradVariants, ws)
+				log.Printf("analysis.WriteHwFiles: hw.Id != ws.HeadwordId: %d, %d\n",
+					hw.Id, ws.HeadwordId)
+			}
+		}
+
 		//if hw.Id == 873 {
 		//	log.Printf("analysis.WriteHwFiles: hw.Id %d, image: %s\n", hw.Id, hw.WordSenses[0].Image)
 		//}
