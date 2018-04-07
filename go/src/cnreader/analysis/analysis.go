@@ -624,8 +624,12 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 		docFreq.AddVocabulary(results.Vocab)
 		aFile := writeAnalysis(results, entry.RawFile, collectionEntry.Title,
 			entry.Title)
+		sourceFormat := "TEXT"
+		if strings.HasSuffix(entry.RawFile, ".html") {
+			sourceFormat = "HTML"
+		}
 		writeCorpusDoc(tokens, results.Vocab, dest, collectionEntry.GlossFile,
-			collectionEntry.Title, entry.Title,  aFile)
+			collectionEntry.Title, entry.Title,  aFile, sourceFormat)
 		aResults.AddResults(results)
 	}
 	aFile := writeAnalysis(aResults, collectionEntry.CollectionFile,
@@ -693,9 +697,10 @@ func WriteCorpusCol(collectionFile string,
 // collectionURL: the URL of the collection that the corpus text belongs to
 // collectionTitle: The collection title that the corpus entry belongs to
 // aFile: The vocabulary analysis file written to or empty string for none
+// sourceFormat: TEXT, or HTML used for formatting output
 func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 	collectionURL string, collectionTitle string, entryTitle string,
-	aFile string) {
+	aFile string, sourceFormat string) {
 
 	var b bytes.Buffer
 	replacer := strings.NewReplacer("\n", "<br/>")
@@ -715,7 +720,7 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 			}
 			fmt.Fprintf(&b, hyperlink(entries, chunk))
 		} else {
-			if !strings.HasSuffix(chunk, ">") {
+			if sourceFormat != "HTML" {
 				chunk = replacer.Replace(chunk)
 			}
 			b.WriteString(chunk)
