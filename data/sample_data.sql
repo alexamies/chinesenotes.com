@@ -28,21 +28,6 @@ topic_en, parent_cn, parent_en, image, mp3, notes)
 VALUES
 (
 
-SELECT * FROM examples WHERE id = (SELECT MAX(id) FROM examples);
-
-SELECT * INTO OUTFILE '/temp/examples.txt' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '),\r\n(' FROM examples WHERE id >  3256;
-
-INSERT INTO examples (id, word_id, simplified, pinyin, english, source, source_link, audio_file) 
-VALUES
-(
-
-SELECT * FROM topics WHERE id = (SELECT MAX(id) FROM examples);
-
-SELECT * INTO OUTFILE '/temp/topics.txt' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '),\r\n(' FROM topics;
-
-INSERT INTO topics (simplified, english) 
-VALUES
-(
 
 
 SELECT * INTO OUTFILE '/temp/authors.txt' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '),\r\n(' FROM authors;
