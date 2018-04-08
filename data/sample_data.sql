@@ -9,16 +9,10 @@ LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/authors.txt' INTO TABLE 
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/illustrations.txt' INTO TABLE illustrations CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/measure_words.txt' INTO TABLE measure_words CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/radicals.txt' INTO TABLE radicals CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/character_types.txt' INTO TABLE character_types CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/variants.txt' INTO TABLE variants CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/synonyms.txt' INTO TABLE synonyms CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/related.txt' INTO TABLE related CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/font_names.txt' INTO TABLE font_names CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/character_rend.txt' INTO TABLE character_rend CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/events.txt' INTO TABLE events CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/examples.txt' INTO TABLE examples CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/sanskrit.txt' INTO TABLE sanskrit CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/sans_examples.txt' INTO TABLE sans_examples CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 
 SHOW WARNINGS;
 
