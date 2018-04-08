@@ -249,38 +249,6 @@ CREATE TABLE character_types (
 ;
 
 /*
- * Table for characters
- * unicode			The Unicode unique identifier for the character (decimal)
- * c:				Chinese text for the character (simplified, traditional, or other symbol)
- * pinyin:			Hanyu pinyin
- * radical:			Main radical
- * strokes:			The number of strokes
- * other_strokes:	The number of strokes other than the main radical
- * english:			English text for the radical 
- * notes:			Miscellaneous notes about the character, if any
- */
-CREATE TABLE characters (
-	unicode INT UNSIGNED NOT NULL,
-	c VARCHAR(10) binary NOT NULL,
-	pinyin VARCHAR(80),
-	radical VARCHAR(10),
-	strokes INT UNSIGNED NOT NULL,
-	other_strokes INT UNSIGNED NOT NULL,
-	english VARCHAR(255) NOT NULL,
-	notes TEXT,
-	type VARCHAR(125) NOT NULL,
-	hangul VARCHAR(10),
-	PRIMARY KEY (unicode),
-	FOREIGN KEY (radical) REFERENCES radicals(traditional),
-	/*FOREIGN KEY (type) REFERENCES character_types(type),*/
-	UNIQUE (c),
-	INDEX (c)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
  * Table for relationship between character variants, traditional / simplified and other variant
  * c1				The UTF-8 text for the subject character
  * c2:				The UTF-8 text for the variant character
