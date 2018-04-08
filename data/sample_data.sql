@@ -10,7 +10,6 @@ LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/illustrations.txt' INTO 
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/measure_words.txt' INTO TABLE measure_words CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/radicals.txt' INTO TABLE radicals CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/character_types.txt' INTO TABLE character_types CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/characters.txt' INTO TABLE characters CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/variants.txt' INTO TABLE variants CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/synonyms.txt' INTO TABLE synonyms CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/related.txt' INTO TABLE related CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
