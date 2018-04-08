@@ -29,6 +29,7 @@
 ../html/ref_heavenly_stems.html	ref_heavenly_stems.php	reference-template.html	true
 ../html/reference-raw.html	reference.html	reference-template.html	false
 ../html/references-raw.html	references.html	about-template.html	false
+../html/resources.html	resources.html	reference-template.html	true
 ../html/style_guide-raw.html	style_guide.html	about-template.html	true
 ../html/syllables_ipa.html	syllables_ipa.html	reference-template.html	true
 ../html/texts-raw.html	texts.html	texts-template.html	false
