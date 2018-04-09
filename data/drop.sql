@@ -3,9 +3,6 @@
 */
 use cse_dict;
 
-drop table font_names;
-drop table related;
-drop table synonyms;
 drop table words;
 drop table topics;
 drop table illustrations;

@@ -6,7 +6,6 @@ LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/words.txt' INTO TABLE wo
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/licenses.txt' INTO TABLE licenses CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/authors.txt' INTO TABLE authors CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/illustrations.txt' INTO TABLE illustrations CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/font_names.txt' INTO TABLE font_names CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 
 SHOW WARNINGS;
 
