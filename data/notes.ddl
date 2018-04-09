@@ -131,17 +131,3 @@ CREATE TABLE illustrations (
 	CHARACTER SET UTF8
 	COLLATE utf8_general_ci
 ;
-
-/*
- * Table for font names
- * font_name_en	The name of the font that the character is rendered in (English)
- * font_name_zh	The name of the font that the character is rendered in (Chinese)
- */
-CREATE TABLE font_names (
-	font_name_en VARCHAR(80) NOT NULL,
-	font_name_zh VARCHAR(80) NOT NULL,
-	PRIMARY KEY (font_name_en)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
