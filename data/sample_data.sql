@@ -1,18 +1,12 @@
 USE alexami_zhongwenbiji;
 
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/phonetics.txt' INTO TABLE phonetics CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/grammar.txt' INTO TABLE grammar CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/topics.txt' INTO TABLE topics CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/words.txt' INTO TABLE words CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/licenses.txt' INTO TABLE licenses CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/authors.txt' INTO TABLE authors CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/illustrations.txt' INTO TABLE illustrations CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/measure_words.txt' INTO TABLE measure_words CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/radicals.txt' INTO TABLE radicals CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/synonyms.txt' INTO TABLE synonyms CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/related.txt' INTO TABLE related CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/font_names.txt' INTO TABLE font_names CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/examples.txt' INTO TABLE examples CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
 
 SHOW WARNINGS;
 

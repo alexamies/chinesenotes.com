@@ -2,38 +2,6 @@ CREATE DATABASE IF NOT EXISTS cse_dict;
 USE cse_dict;
 
 /*
- * Table for phonetics
- * id				A unique id for the entry
- * pinyin			Hanyu Pinyin with diacritics for tones
- * tonenumbers		Hanyu Pinyin with numbers for tones
- * notones			Hanyu Pinyin with no tones
- * ipa				International Phonetic Alphabet symbols
- * pronunciation	Type of pronunciation.  Standard Chinese assumed if null.
- * initial			Initial part of the syllable (only if a single syllable)
- * final			Final part of the syllable (only if a single syllable)
- * nosyllables		Number of syllables (integer number)
- * mp3				An mp3 recording of the sound
- * notes			Commentary on the entry
- */
-CREATE TABLE phonetics (
-	id INT UNSIGNED NOT NULL,
-	pinyin VARCHAR(125) NOT NULL,
-	tonenumbers VARCHAR(125) NOT NULL,
-	notones VARCHAR(125) NOT NULL,
-	ipa VARCHAR(125) NOT NULL,
-	pronunciation VARCHAR(125),
-	initial VARCHAR(125),
-	final VARCHAR(125),
-	nosyllables INT UNSIGNED NOT NULL,
-	mp3 VARCHAR(125),
-	notes TEXT,
-	PRIMARY KEY (id)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
  * Table for part of speech
  */
 CREATE TABLE grammar (
@@ -165,109 +133,6 @@ CREATE TABLE illustrations (
 ;
 
 /*
- * Table for mapping nominal measure words to matching nouns
- * measure_word:	Simplified Chinese text for the measure word
- * noun:			Simplified Chinese text for the matching noun
- */
-CREATE TABLE measure_words (
-	measure_word VARCHAR(80),
-	noun VARCHAR(80),
-	PRIMARY KEY (measure_word, noun),
-	FOREIGN KEY (measure_word) REFERENCES words(simplified),
-	FOREIGN KEY (noun) REFERENCES words(simplified)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
- * Table for synonyms
- */
-CREATE TABLE synonyms (
-	simplified1 VARCHAR(125) NOT NULL,
-	simplified2 VARCHAR(125) NOT NULL,
-	PRIMARY KEY (simplified1, simplified2)/*,
-	FOREIGN KEY (simplified1) REFERENCES words(simplified),
-	FOREIGN KEY (simplified2) REFERENCES words(simplified)*/
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
- * Table for related words
- * Related words are not synonyms but connected because one is an abbreviation or different way of writing the other
- */
-CREATE TABLE related (
-	simplified1 VARCHAR(125) NOT NULL,
-	simplified2 VARCHAR(125) NOT NULL,
-	note VARCHAR(125),
-	link VARCHAR(125),
-	PRIMARY KEY (simplified1, simplified2)/*,
-	FOREIGN KEY (simplified1) REFERENCES words(simplified)*/
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
- * Table for Kangxi radicals
- * id			A unique identifier for the radical
- * traditional:	Traditional Chinese text for the radical
- * simplified:	Simplified Chinese text for the radical (if different)
- * pinyin:		Hanyu pinyin
- * strokes:		The number of strokes
- * other_forms:		Other forms of the radical
- * english:		English text for the radical 
- */
-CREATE TABLE radicals (
-	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-	traditional VARCHAR(10) NOT NULL,
-	simplified VARCHAR(10),
-	pinyin VARCHAR(10),
-	strokes INT UNSIGNED NOT NULL,
-	simplified_strokes INT UNSIGNED,
-	other_forms VARCHAR(255),
-	english VARCHAR(255) NOT NULL,
-	PRIMARY KEY (id),
-	INDEX (traditional)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
- * Types of characters
- */
-CREATE TABLE character_types (
-	type VARCHAR(125) NOT NULL,
-	name VARCHAR(125) NOT NULL,
-	PRIMARY KEY (type)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
- * Table for relationship between character variants, traditional / simplified and other variant
- * c1				The UTF-8 text for the subject character
- * c2:				The UTF-8 text for the variant character
- * relation_type:	Traditional / simplified or other variant
- */
-CREATE TABLE variants (
-	c1 VARCHAR(10) NOT NULL,
-	c2 VARCHAR(10) NOT NULL,
-	relation_type VARCHAR(255) NOT NULL,
-	PRIMARY KEY (c1,c2),
-	/*FOREIGN KEY (c1) REFERENCES characters(c),*/
-	INDEX (c1),
-	INDEX (c2)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
  * Table for font names
  * font_name_en	The name of the font that the character is rendered in (English)
  * font_name_zh	The name of the font that the character is rendered in (Chinese)
@@ -276,26 +141,6 @@ CREATE TABLE font_names (
 	font_name_en VARCHAR(80) NOT NULL,
 	font_name_zh VARCHAR(80) NOT NULL,
 	PRIMARY KEY (font_name_en)
-	)
-	CHARACTER SET UTF8
-	COLLATE utf8_general_ci
-;
-
-/*
- * Table for character renderings in different fonts
- * unicode		The Unicode unique identifier for the character (decimal)
- * font_name_en	The name of the font that the character is rendered in (English)
- * image		The name of the image file
- * svg			The name of the svg file
- */
-CREATE TABLE character_rend (
-	unicode INT UNSIGNED NOT NULL,
-	font_name_en VARCHAR(80) NOT NULL,
-	image VARCHAR(80) NOT NULL,
-	svg VARCHAR(80) NOT NULL,
-	PRIMARY KEY (unicode, font_name_en),
-	FOREIGN KEY (unicode) REFERENCES characters(unicode),
-	FOREIGN KEY (font_name_en) REFERENCES font_names(font_name_en)
 	)
 	CHARACTER SET UTF8
 	COLLATE utf8_general_ci
