@@ -8,6 +8,7 @@ import (
 	"cnweb/find"
 	"cnweb/identity"
 	"cnweb/mail"
+	"cnweb/media"
 	"cnweb/webconfig"
 	"encoding/json"
 	"fmt"
@@ -109,6 +110,7 @@ func displayPage(w http.ResponseWriter, templateName string, content interface{}
 }
 
 // HTML redirect to the index.html page, for healthchecks that use /
+// Do not expect a user to hit this
 func displayHome(w http.ResponseWriter, r *http.Request) {
 	page := `<!DOCTYPE html>
 <html>
@@ -157,7 +159,7 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 	}
 	results, err := find.FindDocuments(parser, q)
 	if err != nil {
-		applog.Error("main.findHandler searching docs, ", err)
+		applog.Error("main.findHandler Error searching docs, ", err)
 		http.Error(response, "Error searching docs",
 			http.StatusInternalServerError)
 		return
@@ -246,6 +248,34 @@ func logoutHandler(w http.ResponseWriter, r *http.Request) {
 	message := "Please come back again"
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
 	fmt.Fprintf(w, "{\"message\" :\"%s\"}", message)
+}
+
+// Retrieves detail about media objects
+func mediaDetailHandler(response http.ResponseWriter, request *http.Request) {
+	url := request.URL
+	queryString := url.Query()
+	query := queryString["mediumResolution"]
+	q := "No Query"
+	if len(query) > 0 {
+		q = query[0]
+	}
+	results, err := media.FindMedia(q)
+	if err != nil {
+		applog.Error("main.mediaDetailHandler Error retrieving media detail, ",
+			err)
+		http.Error(response, "Error retrieving media detail",
+			http.StatusInternalServerError)
+		return
+	}
+	resultsJson, err := json.Marshal(results)
+	if err != nil {
+		applog.Error("main.mediaDetailHandler error marshalling JSON, ", err)
+		http.Error(response, "Error marshalling results",
+			http.StatusInternalServerError)
+	} else {
+		response.Header().Set("Content-Type", "application/json; charset=utf-8")
+		fmt.Fprintf(response, string(resultsJson))
+	}
 }
 
 // Starting point for the Translation Portal
@@ -382,11 +412,9 @@ func sessionHandler(w http.ResponseWriter, r *http.Request) {
 
 //Entry point for the web application
 func main() {
-	applog.Info("main.main Started cnweb")
-
-	//index.LoadKeywordIndex()
-	//documents := index.FindForKeyword("你")
+	applog.Info("cnweb.main Starting cnweb")
 	http.HandleFunc("/find/", findHandler)
+	http.HandleFunc("/findmedia/", mediaDetailHandler)
 	http.HandleFunc("/healthcheck/", healthcheck)
 	http.HandleFunc("/loggedin/admin", adminHandler)
 	http.HandleFunc("/loggedin/changepassword", changePasswordFormHandler)
