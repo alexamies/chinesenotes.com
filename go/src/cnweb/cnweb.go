@@ -414,7 +414,7 @@ func sessionHandler(w http.ResponseWriter, r *http.Request) {
 func main() {
 	applog.Info("cnweb.main Starting cnweb")
 	http.HandleFunc("/find/", findHandler)
-	http.HandleFunc("/findmedia/", mediaDetailHandler)
+	http.HandleFunc("/findmedia", mediaDetailHandler)
 	http.HandleFunc("/healthcheck/", healthcheck)
 	http.HandleFunc("/loggedin/admin", adminHandler)
 	http.HandleFunc("/loggedin/changepassword", changePasswordFormHandler)
