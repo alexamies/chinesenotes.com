@@ -80,16 +80,25 @@ $ ./cnreader -all
  - metadata files describing the structure of the corpus
 
 /go
- - command line tool for analysis of the corpus
+ - source code for the command line tool for analysis of the corpus and
+   generation of HTML pages
 
 /html
- - raw HTML content minus headers, footers, menus, etc
+ - raw HTML content minus headers, footers, menus, etc. This is the source
+   HTML before application of templates for pages that are not considered part
+   of the corpus. The home, about, references, and relates pages are here.
 
  /html/templates
-  - Go template for generation of HTML files
+  - Go templates for generation of HTML files. This is a default that can be 
+    overridden by setting an environment variale named TEMPLATE_HOME with the
+    path relative to the project home.
 
 /web
- - HTML and PHP files. Many but not all files are generated with the Go command line tool. HTML files are written in HTML 5 (See <a href='https://developers.google.com/web/fundamentals/'>Web Fundamentals</a>).
+ - HTML and PHP files. Many but not all files are generated with the Go command 
+  line tool cnreader. HTML files are written in HTML 5 (See <a 
+  href='https://developers.google.com/web/fundamentals/'>Web Fundamentals</a>).
+  This is a default that can be overridden by setting an environment variale 
+  named WEB_DIR with the path relative to the project home.
 
  /web/script
   - JavaScript files
@@ -202,7 +211,7 @@ source notes.ddl
 source load_data.sql
 source corpus_index.ddl
 source load_index.sql
-source libary/digital_library.sql
+source library/digital_library.sql
 
 ```
 

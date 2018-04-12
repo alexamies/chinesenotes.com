@@ -181,12 +181,22 @@ func SetProjectHome(home string) {
 
 // Gets the name of the directory where the HTML templates are stored
 func TemplateDir() string {
-	return projectHome + "/html/templates"
+	templateHome := os.Getenv("TEMPLATE_HOME")
+	log.Printf("config.TemplateDir: templateHome: '%s'\n", templateHome)
+	if templateHome == "" {
+		templateHome = "html/templates"
+	}
+	return ProjectHome() + "/" + templateHome
 }
 
 // Gets the Web directory, as used for serving HTML files
 func WebDir() string {
-	return projectHome + "/web"
+	webDir := os.Getenv("WEB_DIR")
+	log.Printf("config.TemplateDir: webDir: '%s'\n", webDir)
+	if webDir == "" {
+		webDir = "web"
+	}
+	return projectHome + "/" + webDir
 }
 
 // Gets the Web directory, as used for serving HTML files
