@@ -847,7 +847,7 @@ func WriteHwFiles(loader library.LibraryLoader) {
 	dateUpdated := time.Now().Format("2006-01-02")
 
 	// Prepare template
-	templFile := config.ProjectHome() + "/html/templates/headword-template.html"
+	templFile := config.TemplateDir() + "/headword-template.html"
 	fm := template.FuncMap{
 		"Deref":   func(sp *string) string { return *sp },
 		"DerefNe": func(sp *string, s string) bool { return *sp != s },
