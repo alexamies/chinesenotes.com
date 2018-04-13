@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59206430-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-59206430-1');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="img/png" href="/images/ios-desktop.png">
+    <meta name="description" 
+          content="Chinese-English dictionary and corpus">
+    <title>Chinese Notes</title>
+
+    <!-- Homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="/images/android-desktop.png">
+
+    <!-- Homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="/images/ios-desktop.png">
+
+    <link rel="shortcut icon" href="/images/ios-desktop.png">
+ 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="material.blue_grey-light_blue.min.css" />
+    <link rel="stylesheet" href="/styles.css">
+    <script type="application/ld+json">
+     {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Chinese Notes",
+      "url": "http://chinesenotes.com/"
+    }
+    </script>
+  </head>
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title"> &nbsp;  &nbsp;Chinese Notes</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+              <a class="mdl-navigation__link" href="/">Home</a>
+              <a class="mdl-navigation__link" href="/texts.html">Texts</a>
+              <a class="mdl-navigation__link" href="/tools.html">Tools</a>
+              <a class="mdl-navigation__link" href="/reference.html">Reference</a>
+            </nav>
+          </div>
+        </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Chinese Notes</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="/">Home</a>
+          <a class="mdl-navigation__link" href="/texts.html">Texts</a>
+          <a class="mdl-navigation__link" href="/tools.html">Tools</a>
+          <a class="mdl-navigation__link" href="/reference.html">Reference</a>
+        </nav>
+      </div>
+
+    <main class="mdl-layout__content">
+
+      <h2>{{.Title}}</h2>
+
+      <h3>Contents</h3>
+      <ol>
+        {{ if .TopKeywords }}<li><a href="#keywords">Keywords</a></li>{{ end }}
+        {{ if .ProperNouns }}<li><a href="#propernouns">Proper Nouns</a></li>{{ end }}
+        <li><a href="#glossary">Glossary</a></li>
+      </ol>
+
+      {{ if .TopKeywords }}
+      <h3 id="propernouns">Keywords</h3>
+      <p>Top keywords ordered by frequency in comparison to occurrence across the entire corpus</p> 
+      <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">Simplified</th>
+          <th class="mdl-data-table__cell--non-numeric">Traditional</th>
+          <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
+          <th class="mdl-data-table__cell--non-numeric">English</th>
+       </tr>
+        {{ range $hw := .TopKeywords }}
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric"><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
+            <td class="mdl-data-table__cell--non-numeric">{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
+            <td class="mdl-data-table__cell--non-numeric">
+              {{if $hw.WordSenses}}{{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.Pinyin}}</li>{{ end }}</ol>
+              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.Pinyin}}{{ end }} {{ end }}{{end}}
+            </td>
+            <td class="mdl-data-table__cell--non-numeric">
+              {{if $hw.WordSenses}}{{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
+              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.English}}{{ end }} {{ end }}{{end}}
+            </td>
+          </tr>
+        {{ end }}
+      </table>
+      {{ end }}
+
+      {{ if .ProperNouns }}
+      <h3 id="propernouns">People, places</h3>
+      <p>and other proper nouns</p> 
+      <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">Simplified</th>
+          <th class="mdl-data-table__cell--non-numeric">Traditional</th>
+          <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
+          <th class="mdl-data-table__cell--non-numeric">English</th>
+        </tr>
+        {{ range $hw := .ProperNouns }}
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric"><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
+            <td class="mdl-data-table__cell--non-numeric">{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
+            <td class="mdl-data-table__cell--non-numeric">{{ index $hw.Pinyin 0}}</td>
+            <td class="mdl-data-table__cell--non-numeric">
+              {{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
+              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.English}}{{ end }} {{ end }}
+            </td>
+          </tr>
+        {{ end }}
+      </table>
+      {{ end }}
+
+      {{ if .DocumentGlossary }}
+      <h3 id="glossary">Glossary</h3>
+      <p>
+        Buddhist terminology, except the proper nouns listed above. Number of
+        terms: {{len .DocumentGlossary.Words}}.</p>
+      <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">Simplified</th>
+          <th class="mdl-data-table__cell--non-numeric">Traditional</th>
+          <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
+          <th class="mdl-data-table__cell--non-numeric">English</th>
+        </tr>
+        {{ range $hw := .DocumentGlossary.Words }}
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric"><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
+            <td class="mdl-data-table__cell--non-numeric">{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
+            <td class="mdl-data-table__cell--non-numeric">{{ index $hw.Pinyin 0}}</td>
+            <td class="mdl-data-table__cell--non-numeric">
+              {{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
+              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.English}}{{ end }} {{ end }}
+            </td>
+          </tr>
+        {{ end }}
+      </table>
+      {{ end }}
+
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer__left-section">
+            <div>Copyright Fo Guang Shan 佛光山 2013-2018</div>
+            <div>This work is licensed under a
+              <a rel="license"
+              href="http://creativecommons.org/licenses/by/4.0/">Creative
+              Commons Attribution 4.0 International License</a>.Please send
+              comments to alex@chinesenotes.com.
+            </div>
+            <div>Page updated on {{.DateUpdated}}</div>
+          </div>
+          <div class="mdl-mini-footer__right-section">
+            <div><a href="/about.html">Copyright</a></div>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <dialog id="VocabDialog" class="mdl-dialog">
+      <h4 id="DialogTitle" class="mdl-dialog__title"></h4>
+      <div class="mdl-dialog__content">
+        <p id="DialogDetail">
+          <div id="DialogPinyin"></div>
+          <div id="DialogEnglish"></div>
+        </p>
+        <p id="DialogLink">
+        </p>
+      </div>
+      <div class="mdl-dialog__actions">
+        <button type="button" class="mdl-button close">Close</button>
+      </div>
+    </dialog>
+    <script src="/script/jquery.min.js"></script>
+    <script src="/script/material.min.js"></script>
+    <!--<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>-->
+    <script src="/script/dialog-polyfill.js"></script>
+    <script src="/script/vocab.js"></script>
+    <script src="script/find.js"></script>
+  </body>
+</html>
