@@ -361,7 +361,7 @@ func writeAnalysisCorpus(results CollectionAResults,
 	docFreq index.DocumentFrequency) string {
 
 	// If the web/analysis directory does not exist, then skip the analysis
-	analysisDir := config.ProjectHome() + "/web/analysis/"
+	analysisDir := config.WebDir() + "/analysis/"
 	_, err := os.Stat(analysisDir)
 	if err != nil {
 		return ""
@@ -470,7 +470,7 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	docTitle string) string {
 
 	//log.Printf("analysis.writeAnalysis: enter")
-	analysisDir := config.ProjectHome() + "/web/analysis/"
+	analysisDir := config.WebDir() + "/analysis/"
 	_, err := os.Stat(analysisDir)
 	if err != nil {
 		return ""
@@ -669,8 +669,7 @@ func WriteCorpusAll(libLoader library.LibraryLoader) {
 	log.Printf("analysis.WriteCorpusAll: enter")
 	corpLoader := libLoader.GetCorpusLoader()
 	collections := corpLoader.LoadCorpus(corpus.COLLECTIONS_FILE)
-	baseDir := config.ProjectHome() + "/web"
-	WriteCorpus(collections, baseDir, libLoader)
+	WriteCorpus(collections, config.WebDir(), libLoader)
 }
 
 // Writes a corpus document collection to HTML, including all the entries
@@ -685,8 +684,7 @@ func WriteCorpusCol(collectionFile string,
 	// df does not work without a full corpus analysis because df is not
 	// persisted
 	df := index.DocumentFrequency{}
-	baseDir := config.ProjectHome() + "/web"
-	writeCollection(collectionEntry, df, baseDir, libLoader)
+	writeCollection(collectionEntry, df, config.WebDir(), libLoader)
 }
 
 // Writes a corpus document with markup for the array of tokens
@@ -925,7 +923,7 @@ func WriteHwFiles(loader library.LibraryLoader) {
 			UsageArr:     hlUsageArr,
 			DateUpdated:  dateUpdated,
 		}
-		filename := fmt.Sprintf("%s%s%d%s", config.ProjectHome(), "/web/words/",
+		filename := fmt.Sprintf("%s%s%d%s", config.WebDir(), "/words/",
 			hw.Id, ".html")
 		f, err := os.Create(filename)
 		if err != nil {
@@ -980,7 +978,7 @@ func writeLibraryFile(lib library.Library, corpora []library.CorpusData,
 // in the library
 func WriteLibraryFiles(lib library.Library) {
 	corpora := lib.Loader.LoadLibrary()
-	libraryOutFile := config.ProjectHome() + "/web/library.html"
+	libraryOutFile := config.WebDir() + "/library.html"
 	writeLibraryFile(lib, corpora, libraryOutFile)
 	portalDir := ""
 	if config.GetVar("GoStaticDir") != "" {
@@ -996,8 +994,8 @@ func WriteLibraryFiles(lib library.Library) {
 		outputFile := ""
 		baseDir := ""
 		if c.Status == "public" {
-			baseDir = config.ProjectHome() + "/web"
-			outputFile = fmt.Sprintf("%s/web/%s.html", config.ProjectHome(),
+			baseDir = config.WebDir()
+			outputFile = fmt.Sprintf("%s/%s.html", config.WebDir(),
 					c.ShortName)
 		} else if c.Status == "translator_portal" {
 			baseDir = portalDir
