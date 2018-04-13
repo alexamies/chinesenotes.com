@@ -93,6 +93,10 @@ $ ./cnreader -all
     overridden by setting an environment variale named TEMPLATE_HOME with the
     path relative to the project home.
 
+/html/material-templates
+  - Go templates for generation of HTML files using material design lite
+    styles.
+
 /web
  - HTML and PHP files. Many but not all files are generated with the Go command 
   line tool cnreader. HTML files are written in HTML 5 (See <a 
@@ -114,6 +118,9 @@ $ ./cnreader -all
 
  /web/erya, /web/laoshe, etc
   - corpus files (generated)
+
+/web-staging
+ - The bin/cnreadher.sh script places the generated files in this directory.
 
 ## Containerization
 Containerization is new, under development, and not yet deployed to prod.
@@ -308,10 +315,10 @@ docker tag cn-app-image gcr.io/$PROJECT/cn-app-image:$TAG
 gcloud docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
 ```
 
-### Experimental Web Front End
-The experimental web front end is not used in the chinesenotes.com web site. It
+### Web Front End
+The development web front end is not used in the chinesenotes.com web site. It
 is used for testing the cnweb Go web application and as a prototype for a
-future version of chinesenotes.com. It is an Apache web server that serves 
+development versions of chinesenotes.com. It is an Apache web server that serves 
 static content and proxies dynamic requests to the Go app via Javascript AJAX
 code.
 
@@ -323,7 +330,7 @@ docker build -f docker/web/Dockerfile -t cn-web-image .
 # Test it locally
 
 docker run -itd --rm -p 80:80 --name cn-web --link cn-app \
-  --mount type=bind,source="$(pwd)"/web/words,target=/usr/local/apache2/htdocs/words \
+  --mount type=bind,source="$(pwd)"/$WEB_DIR,target=/usr/local/apache2/htdocs \
   cn-web-image
 
 #Attach to a local image for debugging, if needed
@@ -335,41 +342,6 @@ Push to Google Container Registry
 ```
 docker tag hsingyundl-web-image gcr.io/$PROJECT/hsingyundl-web-image:$TAG
 gcloud docker -- push gcr.io/$PROJECT/hsingyundl-web-image:$TAG
-
-```
-
-### PHP Web Front End
-[Example Project PHP Documentation](https://cloud.google.com/container-engine/docs/tutorials/guestbook)
-
-The PHP web front end is currently used on the chinesenotes.com web site.
-
-Make the web front end PHP Docker image
-
-The web front end is an Apache web server that serves static content and 
-uses PHP to serve dynamic requests.
-
-```
-docker build -f docker/php/Dockerfile -t chinesenotes-web-image .
-
-# Test it locally
-First, export environment variables `DBUSER` and `DBPASSWORD` to connect to the 
-database, as per unit tests above.
-
-```
-docker run -itd --rm -p 80:80 --name chinesenotes-web --link mariadb -e DBUSER=$DBUSER -e DBPASSWORD=$DBPASSWORD chinesenotes-web-image
-```
-
-# Attach to a local image for debugging, if needed
-docker exec -it chinesenotes-web bash
-```
-
-Push to Google Container Registry
-[Google Container Registry Quickstart](https://cloud.google.com/container-registry/docs/quickstart)
-
-```
-TAG=prototype19
-docker tag chinesenotes-web-image gcr.io/$PROJECT/chinesenotes-web-image:$TAG
-gcloud docker -- push gcr.io/$PROJECT/chinesenotes-web-image:$TAG
 
 ```
 
