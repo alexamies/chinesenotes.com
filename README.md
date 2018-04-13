@@ -6,11 +6,18 @@ web pages for learning grammar and such, a collection of texts, and a system for
 looking up the words in the texts by mouse over and popover by clicking on the
 words.
 
+The software and dictionary power three web sites with different corpora:
+
+1. chinesenotes.com - for literary Chinese documents and a small amount of modern
+   Chinese
+2. ntireader.org - for the Taisho version of the Chinese Buddhist Canon
+3. hbreader.org - for Venerable Master Hsing Yun's collected writings
+
 ## Acknowldegement
-The dictionary is based on the the [CC-CEDICT Chinese - English dictionary]
-(http://cc-cedict.org/wiki/), shared under the 
-[Creative Commons Attribution-Share Alike 3.0 License]
-(http://creativecommons.org/licenses/by-sa/3.0/).
+The dictionary includes many words from the [CC-CEDICT Chinese - English 
+dictionary](http://cc-cedict.org/wiki/), shared under the 
+[Creative Commons Attribution-Share Alike 3.0
+License](http://creativecommons.org/licenses/by-sa/3.0/).
 
 ## Installing the Chinese Notes web site
 
@@ -316,9 +323,17 @@ gcloud docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
 ```
 
 ### Web Front End
-The development web front end is not used in the chinesenotes.com web site. It
-is used for testing the cnweb Go web application and as a prototype for a
-development versions of chinesenotes.com. It is an Apache web server that serves 
+To generate all HTML files, from the top level project directory
+```
+export CNREADER_HOME=`pwd`
+export DEV_HOME=`pwd`
+bin/cnreader.sh
+```
+
+For production, copy the files to the storage system.
+
+For development, use the web Docker container. It for developming versions of 
+the chinesenotes.com web front end. It is an Apache web server that serves 
 static content and proxies dynamic requests to the Go app via Javascript AJAX
 code.
 
