@@ -8,10 +8,10 @@ words.
 
 The software and dictionary power three web sites with different corpora:
 
-1. chinesenotes.com - for literary Chinese documents and a small amount of modern
+1. http://chinesenotes.com - for literary Chinese documents and a small amount of modern
    Chinese
-2. ntireader.org - for the Taisho version of the Chinese Buddhist Canon
-3. hbreader.org - for Venerable Master Hsing Yun's collected writings
+2. http://ntireader.org - for the Taisho version of the Chinese Buddhist Canon
+3. http://hbreader.org - for Venerable Master Hsing Yun's collected writings
 
 ## Acknowldegement
 The dictionary includes many words from the [CC-CEDICT Chinese - English 
