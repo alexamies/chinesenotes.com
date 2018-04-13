@@ -839,12 +839,14 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 func WriteHwFiles(loader library.LibraryLoader) {
 	log.Printf("analysis.WriteHwFiles: Begin +++++++++++\n")
 	index.BuildIndex()
+	log.Printf("analysis.WriteHwFiles: Get headwords\n")
 	hwArray := dictionary.GetHeadwords()
 	usageMap, _, _, collocations := GetWordFrequencies(loader)
 	corpusEntryMap := loader.GetCorpusLoader().LoadAll(corpus.COLLECTIONS_FILE)
 	dateUpdated := time.Now().Format("2006-01-02")
 
 	// Prepare template
+	log.Printf("analysis.WriteHwFiles: Prepare template\n")
 	templFile := config.TemplateDir() + "/headword-template.html"
 	fm := template.FuncMap{
 		"Deref":   func(sp *string) string { return *sp },
