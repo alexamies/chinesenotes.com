@@ -17,6 +17,11 @@ body.article {
  	max-width: 1100px;
 }
 
+/* vocabulary */
+a.vocabulary {
+	vertical-align: top;
+}
+
 /* Image in right column */
 td.rcolumn {
 	vertical-align: top;

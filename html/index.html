@@ -4,89 +4,72 @@
           Paste Chinese text into the input field below to find each word and
           its meaning.
         </p>
-        <form name="textForm" role="form" class="simple-form" 
-              ng-submit="submit()">
-          <div class="form-group">
-            <label for="textInput" class="control-label">Text</label>
-            <input type="text" class="form-control" name="text" id="text" 
-                  ng-model="formData.text"
-                  placeholder="你好！" required/>
-          </div>
-          <p class="panel-group" id="accordion">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" 
-                     href="#collapseOne">
-                    Options
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseOne" class="panel-collapse collapse">
-                <div class="panel-body">
-                   <div class="form-group">
-                     Match type: 
-                     <input type="radio" ng-model="formData.matchtype" 
-                            name="matchtype" 
-                            id="matchtype-approx" value="approximate"/>
-                     <label for="matchtype-approx" 
-                          class="control-label">multi-line / approximate</label>
-                     <input type="radio" ng-model="formData.matchtype" 
-                            name="matchtype" 
-                            id="matchtype-partial" value="partial"/>
-                     <label for="matchtype-partial" 
-                            class="control-label">partial</label>
-                     <input type="radio" ng-model="formData.matchtype" 
-                            name="matchtype" 
-                            id="matchtype-exact" value="exact"/>
-                     <label for="matchtype-exact" 
-                            class="control-label">exact</label>
-                   </div>
-                </div>
-              </div>
+        <p>
+          <form name="findForm" id="findForm" action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+              <label for="findInput">Search for </label>
+              <input class="mdl-textfield__input" type="text" name="findInput" id="findInput" required/>
             </div>
-          </p>
-          <div class="form-group">
-            <button type="submit" class="btn btn-default">Search</button>
-          </div>
+            <button  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                 type="submit" id="findSubmit">Find</button>
+          </form>
+        </p>
+        <p>
           <span id="lookup-help-block" class="help-block">
             Search for words using Chinese text, English words, or analyze an
-            entire text block. Top searches: 语法, grammar, geometry, 幾何學, pronoun.
-            Try this longer example: 奥巴马总统说,
-            or on in traditional Chinese: 奧巴馬總統說.
+            entire text block. Top searches: 语法, grammar, geometry, 幾何學,
+            pronoun. Try this multi-word example in traditional Chinese:
+            謹而信 'earnest and truthful.'
           </span>
-        </form>
-        <p ng-if="results.msg">
-          {{results.msg}}
         </p>
-        <table class="table table-bordered table-hover" ng-if="results.words">
-          <caption>Dictionary Search Results</caption>
-          <thead>
-            <tr>
-              <th>Chinese Text</th>
-              <th><a href="/syllables_ipa.html" 
-                     title="Pinyin and IPA Representations" 
-                     target="_window2">Pinyin</a></th>
-              <th>English</th>
-              <th>Notes</th>
-          </tr>
-          </thead>
-          <tbody>
-            <tr ng-repeat="word in results.words">
-              <td ng-if="word.count == 0">{{word.text}}</td>
-              <td ng-if="word.count > 0"><a 
-                  href="words/{{word.headword}}.html">{{word.text}}</a></td>
-              <td>{{word.pinyin}}</td>
-              <td>{{word.english}}</td>
-              <td>
-                <span ng-if="word.count == 1">{{word.notes | limitTo: 100}}
-                  <a href="words/{{word.headword}}.html">... details</a>
-                </span>
-                <a ng-if="word.count>1"
-                   ng-href="words/{{word.headword}}.html">All {{word.count}} word senses</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div id="word-detail">&nbsp;</div>
+        <!--Decomposition of query terms entered by the user -->
+        <div id="queryTerms">
+          <h4 id="queryTermsTitle">Dictionary Looup</h4>
+          <table id="queryTermsTable"
+                 class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+            <thead>
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Chinese</th>
+                <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
+                <th class="mdl-data-table__cell--non-numeric">English</th>
+              </tr>
+            </thead>
+            <tbody id="queryTermsBody">
+            </tbody>
+          </table>
+        </div> <!--queryTerms-->
+
+        <div id="findResults">
+          <h4>Matching Results</h4>
+          <div>
+            Number of matching document collections: <span id="NumCollections"></span>
+          </div>
+          <div>
+            Number of matching documents: <span id="NumDocuments"></span>
+          </div>
+
+          <div id="colResultsDiv">
+            <h4 id="findResultsTitle">Document Collections</h4>
+            <table id="findResultsTable"
+                   class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+              <thead>
+                <tr><th class="mdl-data-table__cell--non-numeric">Title</th></tr>
+              </thead>
+              <tbody id="findResultsBody">
+              </tbody>
+            </table>
+          </div> <!-- colResultsDiv -->
+          <p id="findError"></p>
+
+          <div id="docResultsDiv">
+            <h4 id="findDocResultsTitle">Documents</h4>
+            <table id="findDocResultsTable"
+                   class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+              <thead>
+                <tr><th class="mdl-data-table__cell--non-numeric">Title</th></tr>
+              </thead>
+              <tbody id="findDocResultsBody">
+              </tbody>
+            </table>
+          </div> <!-- docResultsDiv -->
+        </div> <!--findResults-->

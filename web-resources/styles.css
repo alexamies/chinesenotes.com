@@ -1,0 +1,419 @@
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: large;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: medium;
+  font-weight: bold;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+ }
+
+ a:hover {
+  text-decoration: underline;
+ }
+
+.authenticated {
+  display: block;
+ }
+
+#translation_message {
+  display: none;
+}
+
+/* Dictionary Entry style */
+span.dict-entry-headword {
+    font-size: 200%;
+    font-weight: normal;
+}
+span.dict-entry-pinyin {
+    font-style: italic;
+    font-size: 120%;
+}
+
+span.dict-entry-grammar {
+    font-size: 120%;
+}
+
+span.dict-entry-definition {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+span.dict-entry-notes {
+    font-weight: bold;
+}
+
+/* Query terms decomposition table */
+.query-term {
+    font-size: 150%;
+    font-weight: normal;
+}
+
+span.notes-label {
+    font-style: italic;
+}
+
+/* Highlight for headword in usage */
+span.usage-highlight {
+    color: red;
+}
+
+/* Different color for proper nouns in texts */
+a.propernoun {
+    text-decoration: underline;
+    color: blue;
+}
+/* End Dictionary Entry style */
+
+/* Search Results */
+#findResults {
+  display: none;
+}
+
+#queryTerms {
+  display: none;
+}
+
+#findError {
+  display: none;
+}
+
+th {
+  font-weight: bold;
+}
+
+#DialogPinyin {
+  font-style: italic;
+}
+
+.mdl-layout__content {
+   margin: 5px;
+   padding: 5px;
+}
+
+.mdl-demo .mdl-layout__header-row {
+  padding-left: 40px;
+}
+.mdl-demo .mdl-layout.is-small-screen .mdl-layout__header-row h3 {
+  font-size: inherit;
+}
+.mdl-demo .mdl-layout__tab-bar-button {
+  display: none;
+}
+.mdl-demo .mdl-layout.is-small-screen .mdl-layout__tab-bar .mdl-button {
+  display: none;
+}
+.mdl-demo .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar,
+.mdl-demo .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar-container {
+  overflow: visible;
+}
+.mdl-demo .mdl-layout__tab-bar-container {
+  height: 64px;
+}
+.mdl-demo .mdl-layout__tab-bar {
+  padding: 0;
+  padding-left: 16px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+.mdl-demo .mdl-layout__tab-bar .mdl-layout__tab {
+  height: 64px;
+  line-height: 64px;
+}
+.mdl-demo .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
+  background-color: white;
+  height: 4px;
+}
+.mdl-demo main > .mdl-layout__tab-panel {
+  padding: 8px;
+  padding-top: 48px;
+}
+.mdl-demo .mdl-card {
+  height: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mdl-demo .mdl-card > * {
+  height: auto;
+}
+.mdl-demo .mdl-card .mdl-card__supporting-text {
+  margin: 40px;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0;
+  color: inherit;
+  width: calc(100% - 80px);
+}
+.mdl-demo.mdl-demo .mdl-card__supporting-text h4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.mdl-demo .mdl-card__actions {
+  margin: 0;
+  padding: 4px 40px;
+  color: inherit;
+}
+.mdl-demo .mdl-card__actions a {
+  color: #00BCD4;
+  margin: 0;
+}
+.mdl-demo .mdl-card__actions a:hover,
+.mdl-demo .mdl-card__actions a:active {
+  color: inherit;
+  background-color: transparent;
+}
+.mdl-demo .mdl-card__supporting-text + .mdl-card__actions {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+.mdl-demo #add {
+  position: absolute;
+  right: 40px;
+  top: 36px;
+  z-index: 999;
+}
+
+.mdl-demo .mdl-layout__content section:not(:last-of-type) {
+  position: relative;
+  margin-bottom: 48px;
+}
+.mdl-demo section.section--center {
+  max-width: 860px;
+}
+.mdl-demo #features section.section--center {
+  max-width: 620px;
+}
+.mdl-demo section > header{
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.mdl-demo section > .section__play-btn {
+  min-height: 200px;
+}
+.mdl-demo section > header > .material-icons {
+  font-size: 3rem;
+}
+.mdl-demo section > button {
+  position: absolute;
+  z-index: 99;
+  top: 8px;
+  right: 8px;
+}
+.mdl-demo section .section__circle {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -webkit-flex-shrink: 1;
+      -ms-flex-negative: 1;
+          flex-shrink: 1;
+}
+.mdl-demo section .section__text {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  padding-top: 8px;
+}
+.mdl-demo section .section__text h5 {
+  font-size: inherit;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+.mdl-demo section .section__text a {
+  text-decoration: none;
+}
+.mdl-demo section .section__circle-container > .section__circle-container__circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  margin: 8px 0;
+}
+.mdl-demo section.section--footer .section__circle--big {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 8px 32px;
+}
+.mdl-demo .is-small-screen section.section--footer .section__circle--big {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 8px 16px;
+}
+.mdl-demo section.section--footer {
+  padding: 64px 0;
+  margin: 0 -8px -8px -8px;
+}
+.mdl-demo section.section--center .section__text:not(:last-child) {
+  border-bottom: 1px solid rgba(0,0,0,.13);
+}
+.mdl-demo .mdl-card .mdl-card__supporting-text > h3:first-child {
+  margin-bottom: 24px;
+}
+.mdl-demo .mdl-layout__tab-panel:not(#overview) {
+  background-color: white;
+}
+.mdl-demo #features section {
+  margin-bottom: 72px;
+}
+.mdl-demo #features h4, #features h5 {
+  margin-bottom: 16px;
+}
+.mdl-demo .toc {
+  border-left: 4px solid #C1EEF4;
+  margin: 24px;
+  padding: 0;
+  padding-left: 8px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mdl-demo .toc h4 {
+  font-size: 0.9rem;
+  margin-top: 0;
+}
+.mdl-demo .toc a {
+  color: #4DD0E1;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 28px;
+  display: block;
+}
+.mdl-demo .mdl-menu__container {
+  z-index: 99;
+}
+
+/* About page
+ */
+ #about-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+/* Search bar at top of menu
+ * From https://codepen.io/SeanBannister/pen/BNVvVQ
+ */
+.mdh-expandable-search {
+  margin: 0 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mdh-expandable-search form {
+  max-width: 600px;
+}
+
+.mdh-expandable-search,
+.mdh-expandable-search form,
+.mdh-expandable-search input {
+  /* Cross browser flex-grow */
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.mdh-expandable-search,
+.mdh-expandable-search form {
+  /* Cross browser inline-flex */
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+/* Position search icon */
+.mdh-expandable-search .material-icons {
+  position: relative;
+  right: -40px;
+  margin-left: -24px; /* Remove the blank space left behind by the icon being relatively positioned */
+}
+
+.mdh-expandable-search input {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #78909C;
+  padding: 0px 35px 0px 70px;
+  height: 40px;
+  line-height: 40px; /* TODO: This was recommended for cross browser compatability of input height, check if its actually needed in modern browsers */
+  
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.mdh-expandable-search input::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #FFFFFF;
+}
+.mdh-expandable-search input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #FFFFFF;
+   opacity:  1; /* Firefox gives the placeholder a reduced opacity so we have to increase it */
+}
+.mdh-expandable-search input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #FFFFFF;
+   opacity:  1; /* Firefox gives the placeholder a reduced opacity so we have to increase it */
+}
+.mdh-expandable-search input:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #FFFFFF;
+}
+
+
+/* Bug fix: https://github.com/google/material-design-lite/issues/1078
+ * To much padding on the left of header when the menu button is hidden */
+@media screen and (min-width: 851px) {
+  .mdl-layout__header-row {
+    padding: 0 40px 0 40px;
+  }
+}
+
+/* Bug fix for badges being in the wrong location */
+.mdl-badge[data-badge]:after {
+  right: -7px;
+  top: -8px;
+}

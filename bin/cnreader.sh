@@ -41,6 +41,7 @@ if [ -n "$DEV_HOME" ]; then
   	./cnreader
     ./cnreader -hwfiles
     ./cnreader -html
+    cd $CNREADER_HOME
     cp web-resources/*.css $WEB_DIR/.
     cp web-resources/script/*.js $WEB_DIR/script/.
     cp web-resources/images/*.* $WEB_DIR/images/.
