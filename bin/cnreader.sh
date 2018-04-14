@@ -45,6 +45,7 @@ if [ -n "$DEV_HOME" ]; then
     cp web-resources/*.css $WEB_DIR/.
     cp web-resources/script/*.js $WEB_DIR/script/.
     cp web-resources/images/*.* $WEB_DIR/images/.
+    cp web-resources/mp3/*.* $WEB_DIR/mp3/.
     cp corpus/images/*.* $WEB_DIR/images/.
   else
     echo "CNREADER_HOME is not set"

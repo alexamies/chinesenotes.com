@@ -48,13 +48,17 @@
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <span class="mdl-layout-title"> &nbsp;  &nbsp;Chinese Notes</span>
+          <span class="mdl-layout-title"> &nbsp;  &nbsp;  &nbsp;<a href="/">Chinese Notes</a></span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation. We hide it in small screens. -->
             <nav class="mdl-navigation mdl-layout--large-screen-only">
-              <a class="mdl-navigation__link" href="/">Home</a>
-              <a class="mdl-navigation__link" href="/texts.html">Texts</a>
+              <div class="mdh-expandable-search mdl-cell--hide-phone">
+                <i class="material-icons">search</i>
+                <form id="searchBarForm" name="searchBarForm" action="#">
+                  <input id="searchInput" name="searchInput" type="text" placeholder="Search">
+                </form>
+              </div>
             </nav>
           </div>
         </header>
@@ -120,7 +124,7 @@
         </p>
       </div>
       <div class="mdl-dialog__actions">
-        <button type="button" class="mdl-button close">Close</button>
+        <button type="button" id="DialogCloseButton" class="mdl-button close">Close</button>
       </div>
     </dialog>
     <script src="/script/jquery-3.3.1.min.js"></script>
