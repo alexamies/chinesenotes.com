@@ -3,19 +3,49 @@
 // and documents.
 (function() {
   var httpRequest;
-  document.getElementById("findForm").onsubmit = function() {
-  	query = document.getElementById("findInput").value
-  	url = '/find/?query=' + query
-  	makeRequest(url);
-  	return false
+  var findForm = document.getElementById("findForm");
+  if (findForm) {
+    document.getElementById("findForm").onsubmit = function() {
+  	  var query = document.getElementById("findInput").value;
+  	  var url = '/find/?query=' + query;
+  	  makeRequest(url);
+  	  return false;
+    };
+  }
+
+  // If the search is initiated from the search bar on the main page
+  // then execute the search directly
+  var searcForm = document.getElementById("searchForm");
+  if (searcForm) {
+    searcForm.onsubmit = function() {
+      var query = document.getElementById("searchInput").value;
+      var url = '/find/?query=' + query;
+      makeRequest(url);
+      return false;
+    }
   };
 
-  document.getElementById("searchForm").onsubmit = function() {
-    query = document.getElementById("searchInput").value
-    url = '/find/?query=' + query
+  // If the search is initiated from the search bar, other than the main page
+  // then redirect to the main page with the query after the hash
+  var searchBarForm = document.getElementById("searchBarForm");
+  if (searchBarForm) {
+    searchBarForm.onsubmit = function() {
+      var query = document.getElementById("searchInput").value;
+      var url = '/#?text=' + query;
+      window.location.href = url;
+      return false;
+    }
+  };
+
+  // Function for sending and displaying search results for words 
+  // based on the URL of the main page
+  var href = window.location.href;
+  if (href.includes('/#?text=')) {
+    var q = href.split('=');
+    var url = '/find/?query=' + q[1];
     makeRequest(url);
     return false
-  };
+  }
 
   function makeRequest(url) {
     httpRequest = new XMLHttpRequest();

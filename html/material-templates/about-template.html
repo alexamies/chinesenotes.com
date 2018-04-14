@@ -53,8 +53,12 @@
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation. We hide it in small screens. -->
             <nav class="mdl-navigation mdl-layout--large-screen-only">
-              <a class="mdl-navigation__link" href="/">Home</a>
-              <a class="mdl-navigation__link" href="/texts.html">Texts</a>
+              <div class="mdh-expandable-search mdl-cell--hide-phone">
+                <i class="material-icons">search</i>
+                <form id="searchBarForm" name="searchBarForm" action="#">
+                  <input id="searchInput" name="searchInput" type="text" placeholder="Search">
+                </form>
+              </div>
             </nav>
           </div>
         </header>
