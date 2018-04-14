@@ -55,11 +55,13 @@ LIMIT 1`)
 
 // Looks up media metadata by object ID
 func FindMedia(objectId string) (MediaMetadata, error) {
+	applog.Info("FindMedia: objectId (len) ", objectId, len(objectId))
 	mediaMeta := MediaMetadata{}
 	ctx := context.Background()
 	results, err := findMediaStmt.QueryContext(ctx, objectId)
 	results.Next()
-	results.Scan(&mediaMeta)
+	var medium, titleZhCn, titleEn, author, license sql.NullString
+	results.Scan(&medium, &titleZhCn, &titleEn, &author, &license)
 	if err != nil {
 		applog.Error("FindMedia: Error for query: ", objectId, err)
 		// Retry
@@ -67,11 +69,30 @@ func FindMedia(objectId string) (MediaMetadata, error) {
 		initQuery()
 		results, err = findMediaStmt.QueryContext(ctx, objectId)
 		results.Next()
-		results.Scan(&mediaMeta)
+		results.Scan(&medium, &titleZhCn, &titleEn, &author, &license)
 		if err != nil {
 			applog.Error("FindMedia: Retry failed: ", objectId, err)
 		}
 	}
 	results.Close()
+	if medium.Valid {
+		mediaMeta.ObjectId = medium.String
+		applog.Info("FindMedia: medium: ", medium)
+	} else {
+		applog.Error("FindMedia: ObjectId is not valid")
+	}
+	if titleZhCn.Valid {
+		mediaMeta.TitleZhCn = titleZhCn.String
+	}
+	if titleEn.Valid {
+		mediaMeta.TitleEn = titleEn.String
+	}
+	if author.Valid {
+		mediaMeta.Author = author.String
+	}
+	if license.Valid {
+		mediaMeta.License = license.String
+	}
+	applog.Info("FindMedia: mediaMeta ", mediaMeta)
 	return mediaMeta, nil
 }

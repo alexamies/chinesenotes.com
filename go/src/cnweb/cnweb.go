@@ -252,9 +252,9 @@ func logoutHandler(w http.ResponseWriter, r *http.Request) {
 
 // Retrieves detail about media objects
 func mediaDetailHandler(response http.ResponseWriter, request *http.Request) {
-	url := request.URL
-	queryString := url.Query()
+	queryString := request.URL.Query()
 	query := queryString["mediumResolution"]
+	applog.Info("mediaDetailHandler: query: ", query)
 	q := "No Query"
 	if len(query) > 0 {
 		q = query[0]
