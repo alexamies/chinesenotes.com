@@ -1,0 +1,37 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: cnweb-app
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: go
+        tier: backend
+    spec:
+      containers:
+      - image: gcr.io/hbreader-162018/cn-app-image:r30
+        name: cnweb-app
+        resources:
+          limits:
+            cpu: "100m"
+          requests:
+            cpu: "20m"
+        env:
+          - name: SITEDOMAIN
+            value: chinesenotes.com
+          - name: DBHOST
+            value: mariadb
+          - name: DATABASE
+            value: cse_dict
+          - name: DBUSER
+            value: app_user
+          - name: DBPASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: mysql
+                key: DBPASSWORD
+        ports:
+        - containerPort: 8080
+          protocol: TCP

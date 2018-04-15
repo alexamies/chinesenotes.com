@@ -38,3 +38,5 @@ VALUES
 SELECT * FROM topics WHERE grammar not in (SELECT english FROM grammar);
 
 SELECT * FROM synonyms WHERE simplified1 not in (SELECT simplified FROM words);
+
+SELECT medium_resolution, title_zh_cn, title_en, author, license FROM illustrations WHERE medium_resolution = 'pottery_string_majiayao400.jpg';

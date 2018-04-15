@@ -64,9 +64,8 @@ Generates markup for HTML page popovers
 
 Install go (see https://golang.org/doc/install)
 
-### Go command line tool
 For more details on the corpus organization and command line tool to process
-it see corpus/CORPUS-README.md and go/src/cnreader/README-go.md.
+it see corpus/CORPUS-README.md and go/src/cnreader/README-go.md. Basic use:
 
 ```
 $ cd go/src/cnreader
@@ -352,24 +351,37 @@ docker run -itd --rm -p 80:80 --name cn-web --link cn-app \
 docker exec -it cn-web bash
 ```
 
-Push to Google Container Registry
+This is not pushed to container registry, rather the web files are stored in
+Google Cloud Storage.
 
 ```
-docker tag hsingyundl-web-image gcr.io/$PROJECT/hsingyundl-web-image:$TAG
-gcloud docker -- push gcr.io/$PROJECT/hsingyundl-web-image:$TAG
-
+export BUCKET={your bucket}
+# First time
+gsutil mb gs://$BUCKET
+bin/push.sh
 ```
+
+Set the load balancer up after creating the Kubernetes cluster
 
 ### Set Up Kubernetes Cluster and Deployment
 [Container Engine Quickstart](https://cloud.google.com/container-engine/docs/quickstart)
-The digital library runs in a Kubernetes cluster using Google Container Engine.
+The dynamic part of the app run in a Kubernetes cluster using Google Kubernetes Engine.
 The Maria DB runs on a persistent volume. The password for the root user and 
 application user for the database are stored in Kubernetes secrets.
 
 ```
-gcloud container clusters create $CLUSTER --zone=$ZONE --disk-size=500 --machine-type=n1-standard-1 --num-nodes=1 --enable-cloud-monitoring
+gcloud config set project $PROJECT
+gcloud config set compute/zone $ZONE
+gcloud container clusters create $CLUSTER \
+  --zone=$ZONE \
+  --disk-size=500 \
+  --machine-type=n1-standard-1 \
+  --num-nodes=1 \
+  --enable-cloud-monitoring
 
-gcloud compute disks create --size 200GB mariadb-disk
+gcloud compute disks create --size 200GB cnotesdb-disk
+
+gcloud container clusters get-credentials $CLUSTER --zone=$ZONE
 
 kubectl create secret generic mysqlroot --from-literal=MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
 kubectl create secret generic mysql --from-literal=DBPASSWORD=$DBPASSWORD
@@ -383,7 +395,21 @@ some manual configuration to achieve.
 
 ```
 kubectl get pods
-kubectl exec -it {POD_NAME} bash
+POD_NAME=
+tar -zcf  cndata.tar.gz data
+kubectl cp cndata.tar.gz $POD_NAME:.
+kubectl exec -it $POD_NAME bash
+rm -rf data
+rm -rf cndata/*
+tar -zxf cndata.tar.gz
+#mkdir cndata
+mv data/* cndata/.
+cd cndata
+mysql --local-infile=1 -h localhost -u root -p
+source notes.ddl
+source corpus_index.ddl
+source load_data.sql
+source load_index.sql
 ```
 
 Execute the database configuration steps above and continue to configure the
@@ -394,15 +420,53 @@ app and web tiers.
 kubectl apply -f kubernetes/app-deployment.yaml 
 kubectl apply -f kubernetes/app-service.yaml
 
-# Deploy the web tier
-kubectl apply -f kubernetes/web-deployment.yaml
-kubectl expose deployment hsingyundl-web --target-port=80  --type=NodePort
-
-# Check that the service is available
-kubectl get service hsingyundl-web
-
 # Configure public ingress
 kubectl apply -f kubernetes/web-ingress.yaml
+```
+
+Find the name of the forwarding-rule and url-map created with the ingress object
+```
+gcloud compute instance-groups list
+gcloud compute forwarding-rules list
+gcloud compute url-maps list
+gcloud compute url-maps describe URL_MAP
+```
+
+Create and configure the load balancer
+```
+# find the VM IP address and use a CIDR calculator
+gcloud compute firewall-rules create cnotes-app-rule \
+    --allow tcp:30080 \
+    --source-ranges 35.188.56.0/22
+gcloud compute health-checks create http cnotes-app-check --port=30080 \
+     --request-path=/healthcheck/
+gcloud compute backend-services create cnotes-service \
+     --protocol HTTP \
+     --health-checks cnotes-app-check \
+     --global
+INSTANCE_GROUP=gke-cnotes-cluster-default-pool-42ceda90-grp
+gcloud compute backend-services add-backend cnotes-service \
+    --balancing-mode UTILIZATION \
+    --max-utilization 0.8 \
+    --capacity-scaler 1 \
+    --instance-group $INSTANCE_GROUP \
+    --instance-group-zone $ZONE \
+    --global
+gcloud compute backend-buckets create cnotes-web-bucket --gcs-bucket-name $BUCKET
+gcloud compute url-maps create cnotes-map \
+    --default-backend-bucket cnotes-web-bucket
+gcloud compute url-maps add-path-matcher cnotes-map \
+    --default-backend-bucket cnotes-web-bucket \
+    --path-matcher-name cnotes-matcher \
+    --path-rules="/find/*=cnotes-service,/findmedia/*=cnotes-service"
+gcloud compute target-http-proxies create cnotes-lb-proxy \
+    --url-map cnotes-map
+gcloud compute addresses create cnotes-web --global
+gcloud compute forwarding-rules create cnotes-content-rule \
+    --address cnotes-web \
+    --global \
+    --target-http-proxy cnotes-lb-proxy \
+    --ports 80
 ```
 
 ### Update App in Kubernetes Cluster

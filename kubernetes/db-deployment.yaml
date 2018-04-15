@@ -1,0 +1,41 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: mariadb
+  labels:
+    app: mariadb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mariadb
+  template:
+    metadata:
+      labels:
+        app: mariadb
+    spec:
+      containers:
+        - image: mariadb:10.3
+          name: mariadb
+          resources:
+            limits:
+              cpu: "100m"
+            requests:
+              cpu: "20m"
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mysqlroot
+                  key: MYSQL_ROOT_PASSWORD
+          ports:
+            - containerPort: 3306
+              name: mysql
+          volumeMounts:
+            - name: cnotesdb-disk
+              mountPath: /var/lib/mysql
+      volumes:
+        - name: cnotesdb-disk
+          gcePersistentDisk:
+            pdName: cnotesdb-disk
+            fsType: ext4
