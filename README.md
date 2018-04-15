@@ -351,14 +351,16 @@ docker run -itd --rm -p 80:80 --name cn-web --link cn-app \
 docker exec -it cn-web bash
 ```
 
-This is not pushed to container registry, rather the web files are stored in
-Google Cloud Storage.
+This is not stored to a container, rather the web files are uploaded to
+Google Cloud Storage. These command will run faster if executed from a build
+server in the cloud
 
 ```
 export BUCKET={your bucket}
 # First time
 gsutil mb gs://$BUCKET
 bin/push.sh
+gsutil web set -m index.html -e 404.html gs://$BUCKET
 ```
 
 Set the load balancer up after creating the Kubernetes cluster
@@ -410,6 +412,7 @@ source notes.ddl
 source corpus_index.ddl
 source load_data.sql
 source load_index.sql
+source library/digital_library.sql
 ```
 
 Execute the database configuration steps above and continue to configure the
@@ -434,10 +437,10 @@ gcloud compute url-maps describe URL_MAP
 
 Create and configure the load balancer
 ```
-# find the VM IP address and use a CIDR calculator
+# Allow the load balancer to reach the VM
 gcloud compute firewall-rules create cnotes-app-rule \
     --allow tcp:30080 \
-    --source-ranges 35.188.56.0/22
+    --source-ranges 130.211.0.0/22,35.191.0.0/16
 gcloud compute health-checks create http cnotes-app-check --port=30080 \
      --request-path=/healthcheck/
 gcloud compute backend-services create cnotes-service \
@@ -468,6 +471,21 @@ gcloud compute forwarding-rules create cnotes-content-rule \
     --target-http-proxy cnotes-lb-proxy \
     --ports 80
 ```
+
+Setting a named port may take manual editing in the cloud console since the
+GKE cluster does not create a named port for the instance group.
+
+### Troubleshooting
+SSH to another VM and try sending a HTTP request via curl to the internal IP
+of the VM hosting the GKE cluster:
+```
+INTERNAL_IP={The IP}
+curl http://$INTERNAL_IP:30080/find/?query=hello
+```
+
+Check that the instance group has a named port, so that the load balancer can
+send traffic to it, and that the port name in the LB configuration matches
+the instance group port name.
 
 ### Update App in Kubernetes Cluster
 

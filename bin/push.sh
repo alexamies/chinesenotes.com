@@ -65,43 +65,15 @@ if [ -n "$BUCKET" ]; then
   gsutil -m cp $WEB_DIR/zhuangzi/*.html gs://$BUCKET/zhuangzi/
   gsutil -m acl ch -u AllUsers:R gs://$BUCKET/zhuangzi/*.html
 
-  gsutil -m cp $WEB_DIR/words/10*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/10*.html
-  gsutil -m cp $WEB_DIR/words/11*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/11*.html
-  gsutil -m cp $WEB_DIR/words/12*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/12*.html
-  gsutil -m cp $WEB_DIR/words/13*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/13*.html
-  gsutil -m cp $WEB_DIR/words/14*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/14*.html
-  gsutil -m cp $WEB_DIR/words/15*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/15*.html
-  gsutil -m cp $WEB_DIR/words/16*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/16*.html
-  gsutil -m cp $WEB_DIR/words/17*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/17*.html
-  gsutil -m cp $WEB_DIR/words/18*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/18*.html
-  gsutil -m cp $WEB_DIR/words/19*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/19*.html
-  
-  gsutil -m cp $WEB_DIR/words/2*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/2*.html
-  gsutil -m cp $WEB_DIR/words/3*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/3*.html
-  gsutil -m cp $WEB_DIR/words/4*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/4*.html
-  gsutil -m cp $WEB_DIR/words/5*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/5*.html
-  gsutil -m cp $WEB_DIR/words/6*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/6*.html
-  gsutil -m cp $WEB_DIR/words/7*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/7*.html
-  gsutil -m cp $WEB_DIR/words/8*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/8*.html
-  gsutil -m cp $WEB_DIR/words/9*.html gs://$BUCKET/words/
-  gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/9*.html
+  for i in `seq 1 9`;
+  do
+    for j in `seq 0 9`;
+    do
+      gsutil -m cp $WEB_DIR/words/$i$j*.html gs://$BUCKET/words/
+      gsutil -m acl ch -u AllUsers:R gs://$BUCKET/words/$i$j*.html
+    done
+  done
+
 else
   echo "Failed: BUCKET not set, please set it to the GCS bucket name"
   exit 1

@@ -296,12 +296,14 @@
       } else {
       	msg = 'There was a problem with the request.';
         console.log(msg);
-        elem = document.getElementById("findResults");
-        elem.style.display = "none";
-        elem = document.getElementById("findError");
-        elem.innerHTML = msg;
-        elem.style.display = "block";
+        var elem1 = document.getElementById("findResults");
+        elem1.style.display = "none";
+        var elem3 = document.getElementById("findError");
+        elem3.innerHTML = msg;
+        elem3.style.display = "block";
       }
+      var elem2 = document.getElementById("lookup-help-block");
+      elem2.style.display = "none";
     }
   }
 })();
