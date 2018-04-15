@@ -19,7 +19,7 @@ It is also nice to have a felt desk pad (书画毡 or 画垫) to provide a nice 
 This for working with ink and water to work it into the brush and prevent it from spilling.
 
       <div class="picture">
-        <a href='illustrations_use.php?mediumResolution=calligraphy_materials_high.jpg'><img class='use'   src='images/calligraphy_materials_high.jpg' alt='Calligraphy Materials'   title='Calligraphy Materials'/></a>
+        <a href='/mediadetail.html#mediumResolution=calligraphy_materials_high.jpg'><img class='use'   src='images/calligraphy_materials_high.jpg' alt='Calligraphy Materials'   title='Calligraphy Materials'/></a>
         <div>
          书法文具 Calligraphy Materials
         </div>
