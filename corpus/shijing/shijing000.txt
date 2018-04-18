@@ -1,8 +1,8 @@
-<p>Source: Wikisource, accessed <a href="https://zh.wikisource.org/wiki/詩經">https://zh.wikisource.org/wiki/詩經</a> </p>
+<p>Source: Wikisource, accessed 2018-04-15 <a href="https://zh.wikisource.org/wiki/詩經">https://zh.wikisource.org/wiki/詩經</a> </p>
 
 <h4>English translations<h4>
 <ol>
-  <li>Legge, James 1865, <i>Sacred Books of the East</i>, Vol. III, A translation of the Book of Documents, Classic of History, or Shujing, <a href="https://en.wikisource.org/wiki/The_Sh%C3%BB_King">https://en.wikisource.org/wiki/The_Sh%C3%BB_King</a></li>
+  <li>Legge, James 1865, <i>Sacred Books of the East</i>, Vol. III, A translation of the Book of Documents, Classic of History, or Shujing, <a href="https://ctext.org/book-of-poetry">https://ctext.org/book-of-poetry</a></li>
   <li>Waley, Arthur 2012, <i>The Book of Songs</i>, originally published 1937, Routledge.</li>
 </ol>
 
