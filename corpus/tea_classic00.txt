@@ -1,12 +1,13 @@
-Classic of Tea 《茶經》 by Lu Yu 陆羽
+<p>Source: Wikisource, accessed 2018-04-15, <a href="https://zh.wikisource.org/wiki/茶經">https://zh.wikisource.org/wiki/茶經</a></p>
 
-Source: <a href="https://zh.wikisource.org/wiki/茶經">https://zh.wikisource.org/wiki/茶經</a>
+<h4>English translations<h4>
+<ol>
+  <li>Yu Lu and Carpenter, Francis Ross 1974, <i>The Classic of Tea: Origins & Rituals</i>, Hopewell, N.J. : Ecco Press.</li>
+  <li>Yu Lu and Pratt, James Norwood 2015, <i>Tea Sutra</i>, Global Tea Hut, September, pp. 27-64, <a href="http://globalteahut.org/resources/sept15elec.pdf">http://globalteahut.org/resources/sept15elec.pdf</a>.</li>
+</ol>
 
-English translations: 
-1. Yu Lu and Carpenter, Francis Ross 1974, <i>The Classic of Tea: Origins & Rituals</i>, Hopewell, N.J. : Ecco Press.
-2. Yu Lu and Pratt, James Norwood 2015, <i>Tea Sutra</i>, Global Tea Hut, September, pp. 27-64, <a href="http://globalteahut.org/resources/sept15elec.pdf">http://globalteahut.org/resources/sept15elec.pdf</a>.
+<p>Discussion: Yu, Ye. 2011. 《中国茶》: <i>Chinese Tea</i>. Zhongguo hong: Chinese red. Hefei: Huang shan shu she.</p>
 
-Commentary: Yu, Ye. 2011. 《中国茶》: <i>Chinese Tea</i>. Zhongguo hong: Chinese red. Hefei: Huang shan shu she.
-
-From Wikisource:
-《茶經》三卷，〈浙江鮑士恭家藏本。〉唐陸羽撰。羽字鴻漸，一名疾，字季疵，號桑苧翁，復州竟陵人。上元初，隱於苕溪，徵拜太子文學。又徙太常寺太祝，竝不就職。貞元初卒。事蹟具《唐書‧隱逸傳》。稱羽嗜茶，著經三篇。《藝文志》載之小說家，作三卷，與今本同。陳師道《後山集》有《茶經序》曰︰「陸羽《茶經》家書一卷。」畢氏、王氏書三卷，張氏書四卷，內外書十有一卷。其文繁簡不同。王、畢氏書繁雜，意其舊本；張書簡明，與家書合，而多脫誤。家書近古，可考正，曰七之事以下。其文乃合三書以成之，錄爲二篇，藏於家。此本三卷，其王氏、畢氏之書歟？抑《後山集》傳寫多譌，誤三篇爲二篇也？其書分十類，曰：一之源、二之具、三之造、四之器、五之煮、六之飲、七之事、八之出、九之略、十之圖。其曰具者，皆採製之用。其曰器者，皆煎飲之用。故二者異部。其曰圖者，乃謂統上九類，寫以絹素張之，非別有圖。其類十，其文實九也。言茶者莫精於羽，其文亦朴雅有古意。七之事所引多古書，如司馬相如《凡將篇》一條三十八字，爲他書所無，亦㲤資考辨之一端矣
+<p>From Wikisource:</p>
+<p>《茶經》三卷，〈浙江鮑士恭家藏本。〉唐陸羽撰。羽字鴻漸，一名疾，字季疵，號桑苧翁，復州竟陵人。上元初，隱於苕溪，徵拜太子文學。又徙太常寺太祝，竝不就職。貞元初卒。事蹟具《唐書‧隱逸傳》。稱羽嗜茶，著經三篇。《藝文志》載之小說家，作三卷，與今本同。陳師道《後山集》有《茶經序》曰︰「陸羽《茶經》家書一卷。」畢氏、王氏書三卷，張氏書四卷，內外書十有一卷。其文繁簡不同。王、畢氏書繁雜，意其舊本；張書簡明，與家書合，而多脫誤。家書近古，可考正，曰七之事以下。其文乃合三書以成之，錄爲二篇，藏於家。此本三卷，其王氏、畢氏之書歟？抑《後山集》傳寫多譌，誤三篇爲二篇也？其書分十類，曰：一之源、二之具、三之造、四之器、五之煮、六之飲、七之事、八之出、九之略、十之圖。其曰具者，皆採製之用。其曰器者，皆煎飲之用。故二者異部。其曰圖者，乃謂統上九類，寫以絹素張之，非別有圖。其類十，其文實九也。言茶者莫精於羽，其文亦朴雅有古意。七之事所引多古書，如司馬相如《凡將篇》一條三十八字，爲他書所無，亦㲤資考辨之一端矣
+</p>
