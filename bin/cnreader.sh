@@ -11,6 +11,7 @@ mkdir $WEB_DIR/analysis/erya
 mkdir $WEB_DIR/analysis/laoshe
 mkdir $WEB_DIR/analysis/liji
 mkdir $WEB_DIR/analysis/lunyu
+mkdir $WEB_DIR/analysis/shangshu
 mkdir $WEB_DIR/analysis/shiji
 mkdir $WEB_DIR/analysis/shijing
 mkdir $WEB_DIR/analysis/shuowen
@@ -25,6 +26,7 @@ mkdir $WEB_DIR/liji
 mkdir $WEB_DIR/lunyu
 mkdir $WEB_DIR/mp3
 mkdir $WEB_DIR/script
+mkdir $WEB_DIR/shangshu
 mkdir $WEB_DIR/shiji
 mkdir $WEB_DIR/shijing
 mkdir $WEB_DIR/shuowen
