@@ -5,7 +5,7 @@
 WEB_DIR=web-staging
 if [ -n "$BUCKET" ]; then
   echo "Copying to GCS bucket $BUCKET"
-  gsutil -m -h "Cache-Control:public,max-age=3600" cp -a public-read -r $WEB_DIR gs://$BUCKET
+  gsutil -m -h "Cache-Control:public,max-age=3600" rsync -a public-read -d -r $WEB_DIR gs://$BUCKET
   gsutil -m setmeta -h "Content-Type:text/html" gs://$BUCKET/*.php 
 
 else
