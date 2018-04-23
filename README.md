@@ -14,7 +14,8 @@ The software and dictionary power three web sites with different corpora:
 3. http://hbreader.org - for Venerable Master Hsing Yun's collected writings
 
 ## Acknowldegements
-The dictionary includes many words from the 
+Major sources used directly in the dictionary whose professional and freely
+shared work is gratefully acknowledged include:
 
 - [CC-CEDICT Chinese - English dictionary](http://cc-cedict.org/wiki/), shared
 under the [Creative Commons Attribution-Share Alike 3.0 
