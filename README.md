@@ -13,11 +13,19 @@ The software and dictionary power three web sites with different corpora:
 2. http://ntireader.org - for the Taisho version of the Chinese Buddhist Canon
 3. http://hbreader.org - for Venerable Master Hsing Yun's collected writings
 
-## Acknowldegement
-The dictionary includes many words from the [CC-CEDICT Chinese - English 
-dictionary](http://cc-cedict.org/wiki/), shared under the 
-[Creative Commons Attribution-Share Alike 3.0
-License](http://creativecommons.org/licenses/by-sa/3.0/).
+## Acknowldegements
+The dictionary includes many words from the 
+
+- [CC-CEDICT Chinese - English dictionary](http://cc-cedict.org/wiki/), shared
+under the [Creative Commons Attribution-Share Alike 3.0 
+License](http://creativecommons.org/licenses/by-sa/3.0/)
+- [Chinese Wikisource](https://zh.wikisource.org/wiki/Wikisource) from the
+Wikimedia Foundation, aslo under a Creative Commons license
+- [Unihan Database](http://www.unicode.org/charts/unihan.html) from the Unicode
+Consortium under a freely reusable license
+- [教育部國語辭典](http://resources.publicense.moe.edu.tw/dict_reviseddict_download.html)
+Republic of China Ministry of Education Standard Chinese Dicionary, aslo under a
+Creative Commons license
 
 ## Installing the Chinese Notes web site
 
