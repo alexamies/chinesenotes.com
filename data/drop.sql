@@ -3,10 +3,10 @@
 */
 use cse_dict;
 
-drop table words;
-drop table topics;
-drop table illustrations;
-drop table licenses;
-drop table authors;
-drop table grammar;
-drop table phonetics;
+DELETE FROM words;
+DELETE FROM topics;
+DELETE FROM illustrations;
+DELETE FROM licenses;
+DELETE FROM authors;
+DELETE FROM grammar;
+DELETE FROM phonetics;

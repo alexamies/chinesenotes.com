@@ -1,12 +1,9 @@
 /**
- * Database script to drop tables for corpus index.
+ * Database script to DELETE FROMs for corpus index.
  */
 CREATE IF NOT EXISTS DATABASE cse_dict
 USE cse_dict;
 
-DROP TABLE collection;
-DROP TABLE document;
-DROP TABLE words;
-DROP TABLE topics;
-DROP TABLE grammar;
+DELETE FROM collection;
+DELETE FROM document;
 SHOW WARNINGS;
