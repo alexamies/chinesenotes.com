@@ -18,6 +18,7 @@ mkdir $WEB_DIR/analysis/shuowen
 mkdir $WEB_DIR/analysis/sishuzhangju
 mkdir $WEB_DIR/analysis/yeshengtao
 mkdir $WEB_DIR/analysis/zhuangzi
+mkdir $WEB_DIR/analysis/zuozhuan
 mkdir $WEB_DIR/articles
 mkdir $WEB_DIR/erya
 mkdir $WEB_DIR/images
@@ -34,6 +35,7 @@ mkdir $WEB_DIR/sishuzhangju
 mkdir $WEB_DIR/words
 mkdir $WEB_DIR/yeshengtao
 mkdir $WEB_DIR/zhuangzi
+mkdir $WEB_DIR/zuozhuan
 
 if [ -n "$DEV_HOME" ]; then
   echo "Running from $DEV_HOME"
