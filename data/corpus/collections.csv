@@ -3,6 +3,7 @@
 shijing.csv	shijing.html	The Book of Songs 《詩經》	An early collection of Chinese poems, with English translation by James Legge	shijing/shijing000.txt	Literary Chinese	Bilingual	c. 1000 to 600 BCE	Verse
 shangshu.csv	shangshu.html	Book of Documents 《尚書》	An early collection of proclamations and instructions attributed to the founders of the Zhou dynasty, with English translation by James Legge	shangshu/shangshu000.txt	Literary Chinese	Bilingual	Pre-Han	Non-fiction
 zuozhuan.csv	zuozhuan.html	The Commentary of Zuo on the Spring and Autumn Annals 《春秋左氏傳》	A chronicle of the State of Lu from 722 to 481 BCE by 左丘明 Zuo Qiuming	zuozhuan/zuozhuan000.txt	Literary Chinese	Prose	Pre-Han	Non-fiction
+gongyang.csv	gongyang.html	Gongyang's Commentary on Spring and Autumn Annals 《春秋公羊傳》	A chronicle of the State of Lu by 公羊高 Gong Yanggao	gongyang/gongyang000.txt	Literary Chinese	Prose	Pre-Han	Non-fiction
 lunyu.csv	lunyu.html	The Analects of Confucius 《論語》	Also known as Lunyu, with English translation by James Legge	lunyu/lunyu000.txt	Literary Chinese	Prose	c. 479—221 BCE	Confucian
 liji.csv	liji.html	The Book of Rites 《禮記》	Also known as the Liji, a Warring States Confucian Text with English translation by James Legge	liji/liji000.txt	Literary Chinese	Prose	475 - 221 BCE	Confucian
 zhuangzi.csv	zhuangzi.html	Zhuangzi 《莊子》	With English translation by James Legge 1891, <i>The Writings of Chuang Tzu</i> Text	\N	Literary Chinese	Prose	Warring States	Taoist
