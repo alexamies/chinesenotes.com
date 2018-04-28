@@ -8,9 +8,15 @@
 </p>
 
 <h4>Discussion<h4>
-<p>
-  Schaberg, David 2017, 'Chapter 12: Classics (Jing 經),' in 
-  Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
-  Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, New York: 
-  Oxford University Press, p. 178.
-</p>
+<ol>
+  <li>
+    Nylan, Michael 2001, <i>The Five “confucian” classics</i>, New Haven:
+    Yale University Press, pp. 191-195.
+  </li>
+  <li>
+    Schaberg, David 2017, 'Chapter 12: Classics (Jing 經),' in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, New York: 
+    Oxford University Press, p. 178.
+  </li>
+</ol>
