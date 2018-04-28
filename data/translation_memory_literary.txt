@@ -17,3 +17,5 @@
 3000017	畏敬	\N	wèi jìng	awe and respect	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 畏 'awe' + 敬 'respect' from 《大学》 'Great Learning' (Plaks 2015, pp. 73-74)	3000017
 3000018	敖惰	\N	áo duò	arrogance and indifference	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 敖 'arrogance' + 惰 'indifference'; from 《大学》 'Great Learning' (Plaks 2015, pp. 73-74)	3000018
 3000019	知者	\N	zhī zhě	the wise	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 知 'know' + 者 nominalizer; from 《論語》 'Analects of Confucius', book 6 (Plaks 2015, p. 79)	3000019
+3000020	是何祥也	是何祥也	shì hé xiángy ě	What do these portend?	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 是 this + 何 what + 祥 omen + 也 particle; from 《春秋左氏傳》 <i>The Commentary of Zuo on the Spring and Autumn Annals</i> (Durrant, Li, and Schaberg 2016, p 331)	3000020
+3000021	吉凶焉在	\N	jíxiōng yān zài	Where will the auspicious and the inauspicious events occur?	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 吉凶 omen + 焉 where + 在 at; from 《春秋左氏傳》 <i>The Commentary of Zuo on the Spring and Autumn Annals</i> (Durrant, Li, and Schaberg 2016, p 331)	3000021

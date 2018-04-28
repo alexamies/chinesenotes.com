@@ -30,7 +30,6 @@
 舞蹈	Dance	\N	\N
 危险	Danger	\N	\N
 方言	Dialect	\N	\N
-灾难	Disaster	\N	\N
 戏剧	Drama	\N	\N
 地球科学	Earth Sciences	\N	\N
 经济	Economics	\N	\N
