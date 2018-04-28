@@ -1,0 +1,21 @@
+<h4>Source<h4>
+<p>Wikisource, accessed 2018-04-28 <a href="https://zh.wikisource.org/wiki/周禮">https://zh.wikisource.org/wiki/周禮</a> </p>
+
+<h4>English translations<h4>
+<p>
+  None
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Nylan, Michael 2001, <i>The Five “confucian” classics</i>, New Haven:
+    Yale University Press, pp. 195-199.
+  </li>
+  <li>
+    Schaberg, David 2017, 'Chapter 12: Classics (Jing 經),' in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, New York: 
+    Oxford University Press, pp. 178-179.
+  </li>
+</ol>

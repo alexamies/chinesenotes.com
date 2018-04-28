@@ -20,7 +20,8 @@ mkdir $WEB_DIR/analysis/shuowen
 mkdir $WEB_DIR/analysis/sishuzhangju
 mkdir $WEB_DIR/analysis/yeshengtao
 mkdir $WEB_DIR/analysis/yili
-mkdir $WEB_DIR/analysis/zhuangzi
+mkdir $WEB_DIR/analysis/zhouli
+mkdir $WEB_DIR/analysis/zuozhuan
 mkdir $WEB_DIR/analysis/zuozhuan
 mkdir $WEB_DIR/articles
 mkdir $WEB_DIR/erya
@@ -41,6 +42,7 @@ mkdir $WEB_DIR/words
 mkdir $WEB_DIR/yeshengtao
 mkdir $WEB_DIR/yili
 mkdir $WEB_DIR/zhuangzi
+mkdir $WEB_DIR/zhouli
 mkdir $WEB_DIR/zuozhuan
 
 if [ -n "$DEV_HOME" ]; then

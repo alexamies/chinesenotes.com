@@ -8,7 +8,8 @@ guliang.csv	guliang.html	Gongyang's Commentary on the Spring and Autumn Annals �
 lunyu.csv	lunyu.html	The Analects of Confucius 《論語》	Also known as Lunyu, with English translation by James Legge	lunyu/lunyu000.txt	Literary Chinese	Prose	c. 479—221 BCE	Confucian
 zhuangzi.csv	zhuangzi.html	Zhuangzi 《莊子》	With English translation by James Legge 1891, <i>The Writings of Chuang Tzu</i> Text	\N	Literary Chinese	Prose	Warring States	Taoist
 liji.csv	liji.html	The Book of Rites 《禮記》	Also known as the Liji, a Warring States Confucian Text with English translation by James Legge	liji/liji000.txt	Literary Chinese	Prose	475 - 221 BCE	Confucian
-yili.csv	yili.html	The Book of Etiquette and Ceremonial 《儀禮》	Also known as the Yili, a classic Confucian Text	yili/yili000.txt	Literary Chinese	Prose	Pre-Han	Confucian
+yili.csv	yili.html	The Book of Etiquette and Ceremonial 《儀禮》	Also known as the Yili, a classic Confucian text describing details of ceremonies	yili/yili000.txt	Literary Chinese	Prose	Pre-Han	Confucian
+zhouli.csv	zhouli.html	Rites of Zhou 《周禮》	Also known as the Zhouli, a classic Confucian text describing the court structure nd official positions	zhouli/zhouli000.txt	Literary Chinese	Prose	Pre-Han	Confucian
 literary_chinese_prose.csv	literary_chinese_prose.html	Selections of Literary Chinese Prose	A collection of historic texts from well known writers	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical	anthology
 erya.csv	erya_collection.html	Er Ya 《爾雅》	The earliest Chinese dictionary	erya00.txt	Literary Chinese	Prose	Han	historic dictionary
 shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By Sima Qian, the first of the official Chinese histories	\N	Literary Chinese	Prose	109-91 BCE	historic
