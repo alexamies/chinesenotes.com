@@ -31,8 +31,7 @@ Creative Commons license
 ## Installing the Chinese Notes web site
 
 ### Environment
-Installation instructions are for Debian LAMP. The web site will work on any
-environment that runs PHP.
+Installation instructions are for Debian.
 
 ### Install git on the host and checkout the code base
 ```
@@ -49,24 +48,6 @@ git clone git://github.com/alexamies/chinesenotes.com $CN_HOME/chinesenotes.com
 cd $CN_HOME/chinesenotes.com
 export CNREADER_HOME=`pwd`
 ```
-
-### Database Setup
-```
-sudo apt-get -y install mysql-server mysql-client
-```
-
-Follow instructions in dictionary-readme.txt to set up the database
-
-### Web Server Setup
-```
-$ sudo apt-get install -y apache2 php5 php5-mysql
-
-Set the Apache home directory to the web directory for the project
-
-$ sudo vi /etc/apache2/sites-enabled/000-default
-```
-
-$ sudo apachectl restart
 
 ### Go command line tool
 Generates markup for HTML page popovers
@@ -85,6 +66,10 @@ $ ./cnreader -all
 ```
 
 ### Project Organization
+
+/bin
+ - Wrappers for command line Go programs, sich as the bin/cnreadher.sh script
+
 /corpus
  - raw text files for making up the text corpus
 
@@ -112,33 +97,26 @@ $ ./cnreader -all
   - Go templates for generation of HTML files using material design lite
     styles.
 
-/web
- - HTML and PHP files. Many but not all files are generated with the Go command 
-  line tool cnreader. HTML files are written in HTML 5 (See <a 
-  href='https://developers.google.com/web/fundamentals/'>Web Fundamentals</a>).
-  This is a default that can be overridden by setting an environment variale 
-  named WEB_DIR with the path relative to the project home.
+/index
+ - Output from corpus analysis
 
- /web/script
-  - JavaScript files
+/kubernetes
+ - For production deployment
 
- /web/analysis
-  - Corpus analysis files (generated)
-
- /web/images
- - static images
-
-/web/inc
- - PHP includes
-
- /web/erya, /web/laoshe, etc
-  - corpus files (generated)
+/web-resources
+ - Static resources, including CSS, JavaScript, image, and sound files
 
 /web-staging
- - The bin/cnreadher.sh script places the generated files in this directory.
+ - Generate HTML files. Many but not all files are generated with the Go command 
+  line tool cnreader. HTML files are written in HTML 5 (See <a 
+  href='https://developers.google.com/web/fundamentals/'>Web Fundamentals</a>).
+  This is a default that can be overridden by setting an environment varialbe 
+  named WEB_DIR with the path relative to the project home.
+
 
 ## Containerization
-Containerization is new, under development, and not yet deployed to prod.
+Containerization has now replaced the old system of deployment directly on a
+virtual machine.
 
 ### Local Development Environment or Build Machine
 
@@ -417,8 +395,10 @@ tar -zxf cndata.tar.gz
 mv data/* cndata/.
 cd cndata
 mysql --local-infile=1 -h localhost -u root -p
-source notes.ddl
-source corpus_index.ddl
+#source notes.ddl
+#source corpus_index.ddl
+source drop.sql
+source drop_index.sql
 source load_data.sql
 source load_index.sql
 source library/digital_library.sql
