@@ -11,6 +11,7 @@ liji.csv	liji.html	The Book of Rites 《禮記》	Also known as the Liji, a Warr
 yili.csv	yili.html	The Book of Etiquette and Ceremonial 《儀禮》	Also known as the Yili, a classic Confucian text describing details of ceremonies	yili/yili000.txt	Literary Chinese	Prose	Pre-Han	Confucian
 zhouli.csv	zhouli.html	Rites of Zhou 《周禮》	Also known as the Zhouli, a classic Confucian text describing the court structure and official positions	zhouli/zhouli000.txt	Literary Chinese	Prose	Pre-Han	Confucian
 yijing.csv	yijing.html	Book of Changes 《易經》	Also known as the I Ching or 周易 Zhouyi, an early classic Chinese text on divination with English translation by James Legge	yijing/yijing000.txt	Literary Chinese	Prose	Pre-Han	Confucian
+mengzi.csv	mengzi.html	Mencius 《孟子》	Also known as Mengzi, with English translation by James Legge	mengzi/mengzi000.txt	Literary Chinese	Prose	c. 372-289 BCE	Confucian
 literary_chinese_prose.csv	literary_chinese_prose.html	Selections of Literary Chinese Prose	A collection of historic texts from well known writers	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical	anthology
 erya.csv	erya_collection.html	Er Ya 《爾雅》	The earliest Chinese dictionary	erya00.txt	Literary Chinese	Prose	Han	historic dictionary
 shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By Sima Qian, the first of the official Chinese histories	\N	Literary Chinese	Prose	109-91 BCE	historic
