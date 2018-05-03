@@ -1,0 +1,24 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-02, <a href="https://zh.wikisource.org/wiki/今文孝經"
+  >https://zh.wikisource.org/wiki/今文孝經</a>
+</p>
+
+<h4>English translation<h4>
+<ol>
+  <li>
+    Legge, James 1879, 'The Hsiâo King,' In <i>Sacred Books of the East</i>,
+    Vol. III, Oxford: Oxford University Press, 
+    <a href='https://ctext.org/xiao-jing'
+    >https://ctext.org/xiao-jing</a>.
+  </li>
+</ol>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Lu, Miaw-Fen 2017, “The Reception of the Classic of Fillial Piety from
+    Medieval to Late Imperial China,” In Paul R Goldin, <i>A Concise Companion
+    to Confucius</i>, Oxford: John Wiley & Sons, pp. 267-285.
+  </li>
+</ol>
