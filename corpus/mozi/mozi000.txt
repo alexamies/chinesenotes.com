@@ -1,0 +1,37 @@
+<h4>Sources<h4>
+<p>
+  Partial translation: Wikisource, accessed 2018-05-03, <a href="https://en.wikisource.org/wiki/Translation:Mozi"
+  >https://en.wikisource.org/wiki/Translation:Mozi</a>, translation shared under
+  the Creative Commons Attribution-ShareAlike 2.0 license.
+</p>
+<p>
+  Wikisource, accessed 2018-05-03, <a href="https://zh.wikisource.org/wiki/墨子"
+  >https://zh.wikisource.org/wiki/墨子</a>.
+</p>
+<p>
+  Section titles from CText n.d., <i>墨子 - Mozi</i>,' at 
+    <a href='https://ctext.org/mozi'>https://ctext.org/mozi</a>.
+</p>
+
+<h4>Other English translations<h4>
+<ol>
+  <li>
+    Graham, Angus Charles 1978, <i>Later Mohist Logic, Ethics, and Science</i>, 
+    Chinese University Press.
+  </li>
+  <li>
+    Mei, W. P.  1929, 'The Ethical and Political Works of Motse,' In 
+    <i>Probsthain's Oriental series</i>, vol. XIX
+    Arthur Probsthain.
+  </li>
+</ol>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Denecke, Wiebke 2017, 'Chapter 14: Masters (Zi 子),' in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, New York: 
+    Oxford University Press, pp. 202-203.
+  </li>
+</ol>
