@@ -22,6 +22,7 @@ mkdir $WEB_DIR/analysis/shijing
 mkdir $WEB_DIR/analysis/shuowen
 mkdir $WEB_DIR/analysis/sishuzhangju
 mkdir $WEB_DIR/analysis/xiaojing
+mkdir $WEB_DIR/analysis/xunzi
 mkdir $WEB_DIR/analysis/yeshengtao
 mkdir $WEB_DIR/analysis/yijing
 mkdir $WEB_DIR/analysis/yili
@@ -48,6 +49,7 @@ mkdir $WEB_DIR/shuowen
 mkdir $WEB_DIR/sishuzhangju
 mkdir $WEB_DIR/words
 mkdir $WEB_DIR/xiaojing
+mkdir $WEB_DIR/xunzi
 mkdir $WEB_DIR/yeshengtao
 mkdir $WEB_DIR/yijing
 mkdir $WEB_DIR/yili

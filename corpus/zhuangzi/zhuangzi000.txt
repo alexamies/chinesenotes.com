@@ -1,0 +1,14 @@
+<h4>Source<h4>
+<p>
+  Chinese Text Project <a href="http://ctext.org/zhuangzi">http://ctext.org/zhuangzi</a>, English translation: 'The Writings of Chuang Tzu', James Legge, 1891
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Denecke, Wiebke 2017, 'Chapter 14: Masters (Zi 子),' in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, New York: 
+    Oxford University Press, pp. 188-189.
+  </li>
+</ol>
