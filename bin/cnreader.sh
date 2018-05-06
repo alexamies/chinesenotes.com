@@ -11,6 +11,7 @@ mkdir $WEB_DIR/analysis/erya
 mkdir $WEB_DIR/analysis/gongyang
 mkdir $WEB_DIR/analysis/guliang
 mkdir $WEB_DIR/analysis/hanfeizi
+mkdir $WEB_DIR/analysis/huainanzi
 mkdir $WEB_DIR/analysis/laoshe
 mkdir $WEB_DIR/analysis/liji
 mkdir $WEB_DIR/analysis/lunyu
@@ -34,6 +35,7 @@ mkdir $WEB_DIR/erya
 mkdir $WEB_DIR/gongyang
 mkdir $WEB_DIR/guliang
 mkdir $WEB_DIR/hanfeizi
+mkdir $WEB_DIR/huainanzi
 mkdir $WEB_DIR/images
 mkdir $WEB_DIR/laoshe
 mkdir $WEB_DIR/liji

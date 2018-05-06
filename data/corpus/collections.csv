@@ -14,6 +14,7 @@ yijing.csv	yijing.html	Book of Changes 《易經》	Also known as the I Ching or
 mengzi.csv	mengzi.html	Mencius 《孟子》	Also known as Mengzi, with English translation by James Legge	mengzi/mengzi000.txt	Literary Chinese	Prose	c. 372-289 BCE	Confucian
 xiaojing.csv	xiaojing.html	The Classic of Filial Piety 《孝經》	Also known as the Xiao Jing, with English translation by James Legge	xiaojing/xiaojing000.txt	Literary Chinese	Prose	c. 4th century BCE	Confucian
 mozi.csv	mozi.html	Mozi 《墨子》	An early master with text of the same name	mozi/mozi000.txt	Literary Chinese	Prose	c. 4th century BCE	Masters Literature
+huainanzi.csv	huainanzi.html	Huainanzi 《淮南子》	An early collection of debates in the court of 劉安 Liu An	huainanzi/huainanzi000.txt	Literary Chinese	Prose	Before 139 BCE	Masters Literature
 hanfeizi.csv	hanfeizi.html	Han Feizi 《韓非子》	An early master with text of the same name	hanfeizi/hanfeizi000.txt	Literary Chinese	Prose	c. 280-233 BCE	Masters Literature
 xunzi.csv	xunzi.html	Xunzi 《荀子》	An early master with text of the same name	xunzi/xunzi000.txt	Literary Chinese	Prose	- c. 237 BCE	Masters Literature
 literary_chinese_prose.csv	literary_chinese_prose.html	Selections of Literary Chinese Prose	A collection of historic texts from well known writers	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical	anthology

@@ -1,0 +1,24 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-05, <a href="https://zh.wikisource.org/wiki/淮南子"
+  >https://zh.wikisource.org/wiki/淮南子</a>.
+</p>
+
+<h4>English translations<h4>
+<ol>
+  <li>
+    Major, John S, Sarah A Queen, Andrew Seth Meyer and Harold D Roth 2012, 
+    <i>The Essential Huainanzi: Liu an, King of Huainan</i>, e-book, 
+    New York: Columbia University Press.
+  </li>
+</ol>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Denecke, Wiebke 2017, 'Chapter 14: Masters (Zi 子),' in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, New York: 
+    Oxford University Press, p. 214.
+  </li>
+</ol>
