@@ -1,28 +1,50 @@
 <h3>Introduction</h3>
+<p>
 The Er Ya 《爾雅》, aslo known as the Ready Guide, was written c. 200 BCE is regarded the first Chinese dictionary. (Yong and Peng, 2008, pp. 1-2) It is a thesaurus style dictionary and was historically used to explain words in the ancient classics. The meaning of the title is unclear but is related to interpretation of the character as acurately as possible and then explain its use. The Er Ya probably took early form between the Zhou and the Qin and took its final form in the Han. (Yong and Peng, 2008, p. 60-61) The authorship of the Er Ya is not known. The enntries are ordered by logical grouping. For example, there is a scroll on fish and a scroll on birds.
-
+</p>
+<p>
 Two important commentaries on the Er Ya are the Commentary on the Er Ya《爾雅注疏》 written in the Jin by Guo Pu 郭璞 and Notes on the Er Ya《爾雅疏》 by an unknown author.
-
+</p>
+<p>
 The format of the Er Ya is a set of entries with a head word and an explanation. The definitions usually end in the character 也 yě but not always. The explanation is usually very brief and may just one synonym. For example,
-
+</p>
+<p>
 蟒，王蛇。 'boa: king snake.' (Ey Ya, Shi Yu 《爾雅‧釋魚》, translation from Yong and Peng, 2008, p. 63)
-
+</p>
+<p>
 Sometimes there are multiple head words in a single entry. For example,
-
+</p>
+<p>
 初，哉，首，基，肇，祖，元，胎，俶，落，權，輿，始也。 'Chū, zāi, shǒu, jī, zhào, zǔ, yuán, tāi, chù, luò, quán, and yú all mean to start.' (Ey Ya, Shi Chong 《爾雅‧釋詁》)
-
+</p>
+<p>
 The Er Ya is divided up into logical categories. Sometimes there is explanation on the categories, typically near the end of a scroll. For example,
-
+</p>
+<p>
 有足謂之蟲。 'If the creature has feet, then it is an insect (蟲);' 
 無足謂之豸。 'and if it does not, then it is a worm (豸).'
 (Ey Ya, Shi Chong 《爾雅‧釋蟲》, translation from Yong and Peng, 2008, p. 62)
-
+</p>
+<p>
 There are some quotes from the Book of Songs in the Er Ya. For example, quoting a passage from Ge Tan 《詩經‧葛覃》,
-
+</p>
+<p>
 是刈是濩，濩，煮之也。 “In 'shì fú shì huò', huò means to boil.”  (Ey Ya, Shi Xun 《爾雅‧釋訓》, translation from Yong and Peng, 2008, p. 71)
+</p>
 
 <h4>Source</h4>
+<p>
 Er Ya 《爾雅》, 1739, from 爾雅注疏 《武英殿十三經注疏》本 by Guo Puzhi and Xing Bingshu (Eds), published by Guangdong Publishing Bureau 廣東書局, downloaded from the Chinese Text Project <a href='http://ctext.org/er-ya'>http://ctext.org/er-ya</a> on 2015-09-21.
+</p>
 
-<h4>Reference</h4>
-Yong, H., Peng, J., 2008. Chinese Lexicography: A History from 1046 BC to AD1911. Oxford University Press, Oxford.
+<h4>References</h4>
+<ol>
+  <li>
+    O’Neill, Timothy Michael 2016, <i>Ideography and Chinese Language Theory:
+    A History</i>, Berlin/Boston: De Gruyter Mouton, pp. 202-235.
+  </li>
+  <li>
+    Yong, H and Peng, J 2008, <i>Chinese Lexicography: A History from 1046 BC to
+    AD 1911</i>, Oxford: Oxford University Press.
+  </li>
+</ol>

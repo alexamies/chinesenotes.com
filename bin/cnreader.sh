@@ -10,6 +10,7 @@ mkdir $WEB_DIR/analysis/articles
 mkdir $WEB_DIR/analysis/erya
 mkdir $WEB_DIR/analysis/gongyang
 mkdir $WEB_DIR/analysis/guliang
+mkdir $WEB_DIR/analysis/guanzi
 mkdir $WEB_DIR/analysis/hanfeizi
 mkdir $WEB_DIR/analysis/huainanzi
 mkdir $WEB_DIR/analysis/laoshe
@@ -33,6 +34,7 @@ mkdir $WEB_DIR/analysis/zuozhuan
 mkdir $WEB_DIR/articles
 mkdir $WEB_DIR/erya
 mkdir $WEB_DIR/gongyang
+mkdir $WEB_DIR/guanzi
 mkdir $WEB_DIR/guliang
 mkdir $WEB_DIR/hanfeizi
 mkdir $WEB_DIR/huainanzi

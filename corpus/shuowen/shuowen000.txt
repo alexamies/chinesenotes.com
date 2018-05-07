@@ -1,0 +1,16 @@
+<h4>Source</h4>
+<p>
+   <a href="http://ctext.org/shuo-wen-jie-zi">http://ctext.org/shuo-wen-jie-zi</a>
+</p>
+
+<h4>References</h4>
+<ol>
+  <li>
+    O’Neill, Timothy Michael 2016, <i>Ideography and Chinese Language Theory:
+    A History</i>, Berlin/Boston: De Gruyter Mouton, pp. 236-273.
+  </li>
+  <li>
+    Yong, H and Peng, J 2008, <i>Chinese Lexicography: A History from 1046 BC to
+    AD 1911</i>, Oxford: Oxford University Press.
+  </li>
+</ol>

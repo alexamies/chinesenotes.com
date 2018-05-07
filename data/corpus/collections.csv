@@ -14,13 +14,14 @@ yijing.csv	yijing.html	Book of Changes 《易經》	Also known as the I Ching or
 mengzi.csv	mengzi.html	Mencius 《孟子》	Also known as Mengzi, with English translation by James Legge	mengzi/mengzi000.txt	Literary Chinese	Prose	c. 372-289 BCE	Confucian
 xiaojing.csv	xiaojing.html	The Classic of Filial Piety 《孝經》	Also known as the Xiao Jing, with English translation by James Legge	xiaojing/xiaojing000.txt	Literary Chinese	Prose	c. 4th century BCE	Confucian
 mozi.csv	mozi.html	Mozi 《墨子》	An early master with text of the same name	mozi/mozi000.txt	Literary Chinese	Prose	c. 4th century BCE	Masters Literature
+guanzi.csv	guanzi.html	Guanzi 《管子》	Traditionally attributed to statesman 管仲 Zhan Zhong	guanzi/guanzi000.txt	Literary Chinese	Prose	Pre-Qin	Masters Literature
 huainanzi.csv	huainanzi.html	Huainanzi 《淮南子》	An early collection of debates in the court of 劉安 Liu An	huainanzi/huainanzi000.txt	Literary Chinese	Prose	Before 139 BCE	Masters Literature
 hanfeizi.csv	hanfeizi.html	Han Feizi 《韓非子》	An early master with text of the same name	hanfeizi/hanfeizi000.txt	Literary Chinese	Prose	c. 280-233 BCE	Masters Literature
 xunzi.csv	xunzi.html	Xunzi 《荀子》	An early master with text of the same name	xunzi/xunzi000.txt	Literary Chinese	Prose	- c. 237 BCE	Masters Literature
 literary_chinese_prose.csv	literary_chinese_prose.html	Selections of Literary Chinese Prose	A collection of historic texts from well known writers	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical	anthology
 erya.csv	erya_collection.html	Er Ya 《爾雅》	The earliest Chinese dictionary	erya00.txt	Literary Chinese	Prose	Han	historic dictionary
 shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By Sima Qian, the first of the official Chinese histories	\N	Literary Chinese	Prose	109-91 BCE	historic
-shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	\N	Literary Chinese	Prose	Northern and Southern Dynasties	historic dictionary
+shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	shuowen/shuowen000.txt	Literary Chinese	Prose	Northern and Southern Dynasties	historic dictionary
 tang_poetry.csv	\N	Selections of Tang Poetry	\N	\N	Literary Chinese	Poetry	Tang	poetry
 sishuzhangju.csv	sishuzhangju.html	Commentaries on the Four Books by Zhu Xi 朱熹《四書章句集注》	\N	sishuzhangju/sishuzhangju.txt	Literary Chinese	Prose	Circa 1200	Confucian
 tea_classic.csv	tea_classic.html	The Classic of Tea 《茶經》	Written by 陆羽 Lu Yu	tea_classic00.txt	Literary Chinese	Prose	760-780	non-fiction

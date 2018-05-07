@@ -1,0 +1,29 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-05, <a href="https://zh.wikisource.org/wiki/管子"
+  >https://zh.wikisource.org/wiki/管子</a>.
+</p>
+
+<h4>Other English translations<h4>
+<ol>
+  <li>
+      Guanzi; Xiang Liu, and W Allyn Rickett 1985,
+      <i>Guanzi : political, economic, and philosophical essays from early
+      China</i>, two volumes, Princeton: Princeton University Press.
+  </li>
+</ol>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Denecke, Wiebke 2017, 'Chapter 14: Masters (Zi 子),' in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, New York: 
+    Oxford University Press, p. 202.
+  </li>
+  <li>
+    Pines, Yuri, Paul Goldin, and Martin Kern 2015, 
+    <i>Ideology of Power andPower of Ideology in Early China</i>, 
+    Brill, p. 235-239.
+  </li>
+</ol>
