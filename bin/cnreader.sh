@@ -28,8 +28,9 @@ mkdir $WEB_DIR/analysis/xunzi
 mkdir $WEB_DIR/analysis/yeshengtao
 mkdir $WEB_DIR/analysis/yijing
 mkdir $WEB_DIR/analysis/yili
+mkdir $WEB_DIR/analysis/zhanguoce
 mkdir $WEB_DIR/analysis/zhouli
-mkdir $WEB_DIR/analysis/zuozhuan
+mkdir $WEB_DIR/analysis/zhuangzi
 mkdir $WEB_DIR/analysis/zuozhuan
 mkdir $WEB_DIR/articles
 mkdir $WEB_DIR/erya
@@ -57,8 +58,9 @@ mkdir $WEB_DIR/xunzi
 mkdir $WEB_DIR/yeshengtao
 mkdir $WEB_DIR/yijing
 mkdir $WEB_DIR/yili
-mkdir $WEB_DIR/zhuangzi
+mkdir $WEB_DIR/zhanguoce
 mkdir $WEB_DIR/zhouli
+mkdir $WEB_DIR/zhuangzi
 mkdir $WEB_DIR/zuozhuan
 
 if [ -n "$DEV_HOME" ]; then
