@@ -25,11 +25,12 @@
   <li>
     Denecke, Wiebke 2017, 'Chapter 14: Masters (Zi 子),' in 
     Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
-    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, New York: 
-    Oxford University Press, p. 213.
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, 
+    e-book, New York: Oxford University Press, p. 213.
   </li>
   <li>
-    Loewe, Michael (ed.) 1993, <i>Early Chinese Texts: A Bibliographical
-    Guide</i>, Berkeley: Society for the Study of Early China, pp. 115-124.
+    Levi, Jean 1993, “Han Fei Tzu 韓非子,” In
+    Michael Loewe, (ed.) <i>Early Chinese Texts: A Bibliographical Guide</i>, 
+    Berkeley: Society for the Study of Early China, pp. 115-124.
   </li>
 </ol>

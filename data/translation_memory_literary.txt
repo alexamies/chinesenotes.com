@@ -34,3 +34,16 @@
 3000034	先生施教	\N	xiānshēng shījiāo	As the master bestows his teachings	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 先生 master + 施教 give a teaching; from 《管子·弟子職》 <i>Guanzi</>, Duties of a Disciple (Schaberg 2015, p. 93)	3000034
 3000035	见善	見善	jiàn shàn	seeing good	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 見 see + 善 good; from 《管子·弟子職》 <i>Guanzi</>, Duties of a Disciple (Schaberg 2015, p. 93)	3000035
 3000036	闻义	聞義	wén yì	hearing right	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 聞 hear + 義 right; from 《管子·弟子職》 <i>Guanzi</>, Duties of a Disciple (Schaberg 2015, p. 93)	3000036
+3000037	明君	\N	míngjūn	enlightened ruler	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 明 wise + 君 ruler; from 《韓非子·主道》 <i>Han Feizi</i>, : The Way of the Ruler (Watson 1964, p. 28)	3000037
+3000038	善败之端	善敗之端	shàn bài zhī duān	the source of good and bad	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 善 good + 敗 bad + 之 possessive + 端 carry; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 28)	3000038
+3000039	竦惧	竦懼	sǒng jù	tremble with fear	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 竦 horrified + 懼 fear; from  《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler)	3000039
+3000040	断事	斷事	duàn shì	decides his affairs	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 斷 judge + 事 affair; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 29)	3000040
+3000041	贤者师	賢者師	xiánzhě shī	leader of the worthy	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 賢者 worthy person + 師 leader; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 30)	3000041
+3000042	智者正	\N	zhìzhě zhèng	corrector of the wise	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 智者 wise person + 正 correct; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 30)	3000042
+3000043	贤主	賢主	xián zhǔ	worthy ruler	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 賢 worthy + 主 ruler; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 30)	3000043
+3000044	见疵	見疵	jiàn cī	observe defects	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 見 observe + 疵 defect; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 30)	3000044
+3000045	固其门	固其門	gù qí mén	make fast the gate	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 固 secure + 其 that + 門 gate; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 31)	3000045
+3000046	闭其门	閉其門	bì qí mén	shut the gate	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 閉 shut + 其 that + 門 gate; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 31)	3000046
+3000047	静退	靜退	jìng tuì	stillness and reserve	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 靜 stillness + 退 reserve; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 31)	3000047
+3000048	操事	\N	cāo shì	handling affairs	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 操 handle + 事 affair; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 31)	3000048
+3000049	善应	善應	shàn yīng	good answers	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 善 good + 應 answer; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 31)	3000049

@@ -4,7 +4,7 @@
   >https://zh.wikisource.org/wiki/管子</a>.
 </p>
 
-<h4>Other English translations<h4>
+<h4>English translations<h4>
 <ol>
   <li>
       Guanzi; Xiang Liu, and W Allyn Rickett 1985,
@@ -23,7 +23,7 @@
   </li>
   <li>
     Pines, Yuri, Paul Goldin, and Martin Kern 2015, 
-    <i>Ideology of Power andPower of Ideology in Early China</i>, 
+    <i>Ideology of Power and Power of Ideology in Early China</i>, 
     Brill, p. 235-239.
   </li>
 </ol>
