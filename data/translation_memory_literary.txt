@@ -47,3 +47,10 @@
 3000047	静退	靜退	jìng tuì	stillness and reserve	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 靜 stillness + 退 reserve; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 31)	3000047
 3000048	操事	\N	cāo shì	handling affairs	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 操 handle + 事 affair; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 31)	3000048
 3000049	善应	善應	shàn yīng	good answers	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 善 good + 應 answer; from 《韓非子·主道》 <i>Han Feizi</i>, The Way of the Ruler (Watson 1964, p. 31)	3000049
+3000050	天帝命	\N	tiāndì mìng	Heavenly Emperor's command	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 天帝 Heavenly Emperor + 命 command; from 《战国策·楚一》 <i>Stratagems of the Warring States</i>, Chu I (Fuller 2004, p. 89)	3000050
+3000051	爱臣	愛臣	ài chén	favored ministers	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 愛 favored + 臣 ministers; from 《韓非子·愛臣》 <i>Han Feizi</i>, Favored Ministers (Plaks 2015, p. 76)	3000051
+3000052	太亲	太親	tài qīn	too much affection	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 太 too  + 親 affection; from 《韓非子·愛臣》 <i>Han Feizi</i>, Favored Ministers (Plaks 2015, p. 76)	3000052
+3000053	主位	\N	zhǔ wèi	ruler's position	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 主 ruler + 位 position; from 《韓非子·愛臣》 <i>Han Feizi</i>, Favored Ministers (Plaks 2015, p. 76)	3000053
+3000054	主妾	\N	zhǔ qiè	a ruler and his consort	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 主 ruler + 妾 consort; from 《韓非子·愛臣》 <i>Han Feizi</i>, Favored Ministers (Plaks 2015, p. 76)	3000054
+3000055	危死	\N	wēi sǐ	risk death	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 危 risk + 死 death; from 《韓非子·有度》 <i>Han Feizi</i>, Having Standards (Plaks 2015, p. 77)	3000055
+3000056	奸臣	姦臣	jiānchén	evil minister	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 姦 evil + 臣 minister; from 《韓非子·有度》 <i>Han Feizi</i>, Having Standards (Plaks 2015, p. 78)	3000056

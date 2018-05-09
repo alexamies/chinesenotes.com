@@ -18,6 +18,7 @@ guanzi.csv	guanzi.html	Guanzi 《管子》	Traditionally attributed to statesman
 huainanzi.csv	huainanzi.html	Huainanzi 《淮南子》	An early collection of debates in the court of 劉安 Liu An	huainanzi/huainanzi000.txt	Literary Chinese	Prose	Before 139 BCE	Masters Literature
 hanfeizi.csv	hanfeizi.html	Han Feizi 《韓非子》	An early master with text of the same name	hanfeizi/hanfeizi000.txt	Literary Chinese	Prose	c. 280-233 BCE	Masters Literature
 xunzi.csv	xunzi.html	Xunzi 《荀子》	An early master with text of the same name	xunzi/xunzi000.txt	Literary Chinese	Prose	- c. 237 BCE	Masters Literature
+guoyu.csv	guoyu.html	Guoyu 《國語》	Also known as Discourses of the States, attributed to 左丘明 Zuo Qiuming, covering the Spring and Autumn period	guoyu/guoyu000.txt	Literary Chinese	Prose	Pre-Qin	historic
 zhanguoce.csv	zhanguoce.html	Stratagems of the Warring States 《戰國策》	An early collection of stories and dialogs, attributed to 刘向 Liu Xiang	zhanguoce/zhanguoce000.txt	Literary Chinese	Prose	Pre-Han	historic
 shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By Sima Qian, the first of the official Chinese histories	\N	Literary Chinese	Prose	109-91 BCE	historic
 literary_chinese_prose.csv	literary_chinese_prose.html	Selections of Literary Chinese Prose	A collection of historic texts from well known writers	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical	anthology
