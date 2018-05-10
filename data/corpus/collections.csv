@@ -19,7 +19,8 @@ huainanzi.csv	huainanzi.html	Huainanzi 《淮南子》	An early collection of de
 hanfeizi.csv	hanfeizi.html	Han Feizi 《韓非子》	An early master with text of the same name	hanfeizi/hanfeizi000.txt	Literary Chinese	Prose	c. 280-233 BCE	Masters Literature
 xunzi.csv	xunzi.html	Xunzi 《荀子》	An early master with text of the same name	xunzi/xunzi000.txt	Literary Chinese	Prose	- c. 237 BCE	Masters Literature
 guoyu.csv	guoyu.html	Guoyu 《國語》	Also known as Discourses of the States, attributed to 左丘明 Zuo Qiuming, covering the Spring and Autumn period	guoyu/guoyu000.txt	Literary Chinese	Prose	Pre-Qin	historic
-zhanguoce.csv	zhanguoce.html	Stratagems of the Warring States 《戰國策》	An early collection of stories and dialogs, attributed to 刘向 Liu Xiang	zhanguoce/zhanguoce000.txt	Literary Chinese	Prose	Pre-Han	historic
+zhanguoce.csv	zhanguoce.html	Stratagems of the Warring States 《戰國策》	An early collection of dialogs describing important events of the Warring States, compiled by 刘向 Liu Xiang Liu Xiang	zhanguoce/zhanguoce000.txt	Literary Chinese	Prose	Pre-Han	historic
+shuoyuan.csv	shuoyuan.html	Garden of Stories 《說苑》	An early collection of stories compiled by 刘向 Liu Xiang Liu Xiang	shuoyuan/shuoyuan000.txt	Literary Chinese	Prose	Pre-Han	historic
 shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By Sima Qian, the first of the official Chinese histories	\N	Literary Chinese	Prose	109-91 BCE	historic
 literary_chinese_prose.csv	literary_chinese_prose.html	Selections of Literary Chinese Prose	A collection of historic texts from well known writers	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical	anthology
 erya.csv	erya_collection.html	Er Ya 《爾雅》	The earliest Chinese dictionary	erya00.txt	Literary Chinese	Prose	Han	historic dictionary
