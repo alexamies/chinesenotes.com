@@ -6,7 +6,6 @@ zuozhuan.csv	zuozhuan.html	The Commentary of Zuo on the Spring and Autumn Annals
 gongyang.csv	gongyang.html	Gongyang's Commentary on the Spring and Autumn Annals 《春秋公羊傳》	A commentary on a chronicle of the State of Lu by 公羊高 Gong Yanggao	gongyang/gongyang000.txt	Literary Chinese	Prose	Pre-Han	Non-fiction
 guliang.csv	guliang.html	Gongyang's Commentary on the Spring and Autumn Annals 《春秋公羊傳》	A commentary on a chronicle of the State of Lu by 穀梁 Guliang	guliang/guliang000.txt	Literary Chinese	Prose	Pre-Han	Non-fiction
 lunyu.csv	lunyu.html	The Analects of Confucius 《論語》	Also known as Lunyu, with English translation by James Legge	lunyu/lunyu000.txt	Literary Chinese	Prose	c. 479—221 BCE	Confucian
-zhuangzi.csv	zhuangzi.html	Zhuangzi 《莊子》	With English translation by James Legge 1891, <i>The Writings of Chuang Tzu</i> Text	zhuangzi/zhuangzi000.txt	Literary Chinese	Prose	Warring States	Taoist
 liji.csv	liji.html	The Book of Rites 《禮記》	Also known as the Liji, a Warring States Confucian Text with English translation by James Legge	liji/liji000.txt	Literary Chinese	Prose	475 - 221 BCE	Confucian
 yili.csv	yili.html	The Book of Etiquette and Ceremonial 《儀禮》	Also known as the Yili, a classic Confucian text describing details of ceremonies	yili/yili000.txt	Literary Chinese	Prose	Pre-Han	Confucian
 zhouli.csv	zhouli.html	Rites of Zhou 《周禮》	Also known as the Zhouli, a classic Confucian text describing the court structure and official positions	zhouli/zhouli000.txt	Literary Chinese	Prose	Pre-Han	Confucian
@@ -21,6 +20,8 @@ xunzi.csv	xunzi.html	Xunzi 《荀子》	An early master with text of the same na
 guoyu.csv	guoyu.html	Guoyu 《國語》	Also known as Discourses of the States, attributed to 左丘明 Zuo Qiuming, covering the Spring and Autumn period	guoyu/guoyu000.txt	Literary Chinese	Prose	Pre-Qin	historic
 zhanguoce.csv	zhanguoce.html	Stratagems of the Warring States 《戰國策》	An early collection of dialogs describing important events of the Warring States, compiled by 刘向 Liu Xiang Liu Xiang	zhanguoce/zhanguoce000.txt	Literary Chinese	Prose	Pre-Han	historic
 shuoyuan.csv	shuoyuan.html	Garden of Stories 《說苑》	An early collection of stories compiled by 刘向 Liu Xiang Liu Xiang	shuoyuan/shuoyuan000.txt	Literary Chinese	Prose	Pre-Han	historic
+daodejing.csv	daodejing.html	Daode Jing 《道德經》	With commentary by 王弼 Wang Bi	daodejing/daodejing000.txt	Literary Chinese	Prose	Warring States	Taoist
+zhuangzi.csv	zhuangzi.html	Zhuangzi 《莊子》	With English translation by James Legge 1891, <i>The Writings of Chuang Tzu</i> Text	zhuangzi/zhuangzi000.txt	Literary Chinese	Prose	Warring States	Taoist
 shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By Sima Qian, the first of the official Chinese histories	\N	Literary Chinese	Prose	109-91 BCE	historic
 literary_chinese_prose.csv	literary_chinese_prose.html	Selections of Literary Chinese Prose	A collection of historic texts from well known writers	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical	anthology
 erya.csv	erya_collection.html	Er Ya 《爾雅》	The earliest Chinese dictionary	erya00.txt	Literary Chinese	Prose	Han	historic dictionary
