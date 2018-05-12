@@ -54,3 +54,14 @@
 3000054	主妾	\N	zhǔ qiè	a ruler and his consort	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 主 ruler + 妾 consort; from 《韓非子·愛臣》 <i>Han Feizi</i>, Favored Ministers (Plaks 2015, p. 76)	3000054
 3000055	危死	\N	wēi sǐ	risk death	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 危 risk + 死 death; from 《韓非子·有度》 <i>Han Feizi</i>, Having Standards (Plaks 2015, p. 77)	3000055
 3000056	奸臣	姦臣	jiānchén	evil minister	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 姦 evil + 臣 minister; from 《韓非子·有度》 <i>Han Feizi</i>, Having Standards (Plaks 2015, p. 78)	3000056
+3000057	化化	\N	huà huà	continue to evolve	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 化 evolve + 化 evolve; from 《列子·天瑞》 <i>Liezi</i>, Heaven's Gifts (Melvyn 2012, p. 389)	3000057
+3000058	常化	\N	cháng huà	constant evolution	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 常 constant + 化 evolve; from 《列子·天瑞》 <i>Liezi</i>, Heaven's Gifts (Melvyn 2012, p. 389)	3000058
+3000059	养正命	養正命	yǎng zhèngmìng	careful of his physical well-being	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 養 nourish+ 正命 live a normal life span; from 《列子·黃帝》 <i>Liezi</i>, The Yellow Emperor (Melvyn 2012, p. 405)	3000059
+3000060	娱耳目	娛耳目	yú ěr mù	sought pleasure for his eyes and ears	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 娛 seek pleasure + 耳目 eyes and ears; from 《列子·黃帝》 <i>Liezi</i>, The Yellow Emperor (Melvyn 2012, p. 405)	3000060
+3000061	鼻口	\N	bíkǒu	senses of smell and taste	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 鼻 smell + 口 taste; from 《列子·黃帝》 <i>Liezi</i>, The Yellow Emperor (Melvyn 2012, p. 405)	3000061
+3000062	营百姓	營百姓	yíng bǎixìng	rule the people	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 營 rule + 百姓 people; from 《列子·黃帝》 <i>Liezi</i>, The Yellow Emperor (Melvyn 2012, p. 405)	3000062
+3000063	寿之大齐	壽之大齊	shòu zhī dàqí	limit of a long life	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 壽 long life + 之 possessive + 大齊 upper limit; from 《列子·楊朱》 <i>Liezi</i>, Yang Zhu (Chan 1963, p. 310)	3000063
+3000064	昏老	\N	hūnlǎo	feeble old age	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 昏 muddle-headed + 老 old; from 《列子·楊朱》 <i>Liezi</i>, Yang Zhu (Chan 1963, p. 310)	3000064
+3000065	夜眠	\N	yè mián	sleep at night	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 夜 night + 眠 sleep; from 《列子·楊朱》 <i>Liezi</i>, Yang Zhu (Chan 1963, p. 310)	3000065
+3000066	昼觉	晝覺	zhòu jué	waking hours of the daytime	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 晝 daytime + 覺 awake; from 《列子·楊朱》 <i>Liezi</i>, Yang Zhu (Chan 1963, p. 310)	3000066
+3000067	痛疾哀苦	\N	tòng jí āi kǔ	pain and sickness, sorrow andsuffering	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 痛 pain + 疾 sickness + 哀 sorrow + 苦 suffering; from 《列子·楊朱》 <i>Liezi</i>, Yang Zhu (Chan 1963, p. 310)	3000067
