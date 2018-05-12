@@ -1,0 +1,28 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-11, <a href="https://zh.wikisource.org/wiki/法言"
+  >https://zh.wikisource.org/wiki/法言</a>.
+</p>
+
+<h4>English translations<h4>
+<ol>
+  <li>
+    Yang Xiong and Michael Nylan 2013, <i>Exemplary Figures: Fayan 法言</i>,
+    Seattle: University of Washington Press.
+  </li>
+</ol>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Barrett, T H 1993, “Liezi 列子,” In
+    Michael Loewe, (ed.) <i>Early Chinese Texts: A Bibliographical Guide</i>, 
+    Berkeley: Society for the Study of Early China, pp. 298-308.
+  </li>
+  <li>
+    Denecke, Wiebke 2017, 'Chapter 14: Masters (Zi 子),' in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, New York: 
+    Oxford University Press, p. 215.
+  </li>
+</ol>

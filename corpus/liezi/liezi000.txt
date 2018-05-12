@@ -7,6 +7,11 @@
 <h4>English translations<h4>
 <ol>
   <li>
+    Chan, Wing-tsit 1963, <i>A Source Book in Chinese Philosophy</i>,
+    Princeton, New Jersey: Princeton University Press, pp. 309-313. 
+    [partial translation]
+  </li>
+  <li>
     Melvyn, Roy 2012, <i>The Four Taoist Classics – Daodejing, Huahujing,
     Zhuangzi and Liezi</i>, e-book, Lulu Press, Inc.
   </li>
@@ -18,5 +23,14 @@
     Barrett, T H 1993, “Liezi 列子,” In
     Michael Loewe, (ed.) <i>Early Chinese Texts: A Bibliographical Guide</i>, 
     Berkeley: Society for the Study of Early China, pp. 298-308.
+  </li>
+  <li>
+    Barrett, T H 1993, “Liezi 列子,” In
+    Michael Loewe, (ed.) <i>Early Chinese Texts: A Bibliographical Guide</i>, 
+    Berkeley: Society for the Study of Early China, pp. 298-308.
+  </li>
+  <li>
+    Idema, W L and Haft, L 1997, <i>A Guide to Chinese Literature</i>, 
+    Ann Arbor: Center for Chinese Studies, University of Michigan, p.90, 162.
   </li>
 </ol>

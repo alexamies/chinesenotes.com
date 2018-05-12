@@ -17,9 +17,10 @@ guanzi.csv	guanzi.html	Guanzi 《管子》	Traditionally attributed to statesman
 huainanzi.csv	huainanzi.html	Huainanzi 《淮南子》	An early collection of debates in the court of 劉安 Liu An	huainanzi/huainanzi000.txt	Literary Chinese	Prose	Before 139 BCE	Masters Literature
 hanfeizi.csv	hanfeizi.html	Han Feizi 《韓非子》	An early master with text of the same name	hanfeizi/hanfeizi000.txt	Literary Chinese	Prose	c. 280-233 BCE	Masters Literature
 xunzi.csv	xunzi.html	Xunzi 《荀子》	An early master with text of the same name	xunzi/xunzi000.txt	Literary Chinese	Prose	- c. 237 BCE	Masters Literature
+shuoyuan.csv	shuoyuan.html	Garden of Stories 《說苑》	An early collection of stories compiled by 刘向 Liu Xiang	shuoyuan/shuoyuan000.txt	Literary Chinese	Prose	Pre-Han	historic
+fayan.csv	fayan.html	Exemplary Figures 《法言》	Composed by Han scholar 扬雄 Yang Xiong	fayan/fayan000.txt	Literary Chinese	Prose	Han	Literature
 guoyu.csv	guoyu.html	Guoyu 《國語》	Also known as Discourses of the States, attributed to 左丘明 Zuo Qiuming, covering the Spring and Autumn period	guoyu/guoyu000.txt	Literary Chinese	Prose	Pre-Qin	historic
 zhanguoce.csv	zhanguoce.html	Stratagems of the Warring States 《戰國策》	An early collection of dialogs describing important events of the Warring States, compiled by 刘向 Liu Xiang Liu Xiang	zhanguoce/zhanguoce000.txt	Literary Chinese	Prose	Pre-Han	historic
-shuoyuan.csv	shuoyuan.html	Garden of Stories 《說苑》	An early collection of stories compiled by 刘向 Liu Xiang Liu Xiang	shuoyuan/shuoyuan000.txt	Literary Chinese	Prose	Pre-Han	historic
 daodejing.csv	daodejing.html	Daode Jing 《道德經》	With commentary by 王弼 Wang Bi	daodejing/daodejing000.txt	Literary Chinese	Prose	Warring States	Taoist
 liezi.csv	liezi.html	Liezi 《列子》	Attributed to 杨朱 Yang Zhu	liezi/liezi000.txt	Literary Chinese	Prose	Warring States	Taoist
 zhuangzi.csv	zhuangzi.html	Zhuangzi 《莊子》	With English translation by James Legge 1891, <i>The Writings of Chuang Tzu</i> Text	zhuangzi/zhuangzi000.txt	Literary Chinese	Prose	Warring States	Taoist
