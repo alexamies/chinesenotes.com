@@ -1,0 +1,22 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-01, <a href="https://zh.wikisource.org/wiki/列子"
+  >https://zh.wikisource.org/wiki/列子</a>.
+</p>
+
+<h4>English translations<h4>
+<ol>
+  <li>
+    Melvyn, Roy 2012, <i>The Four Taoist Classics – Daodejing, Huahujing,
+    Zhuangzi and Liezi</i>, e-book, Lulu Press, Inc.
+  </li>
+</ol>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Barrett, T H 1993, “Liezi 列子,” In
+    Michael Loewe, (ed.) <i>Early Chinese Texts: A Bibliographical Guide</i>, 
+    Berkeley: Society for the Study of Early China, pp. 298-308.
+  </li>
+</ol>
