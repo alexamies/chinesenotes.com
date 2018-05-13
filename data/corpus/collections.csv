@@ -20,6 +20,7 @@ xunzi.csv	xunzi.html	Xunzi 《荀子》	An early master with text of the same na
 shuoyuan.csv	shuoyuan.html	Garden of Stories 《說苑》	An early collection of stories compiled by 刘向 Liu Xiang	shuoyuan/shuoyuan000.txt	Literary Chinese	Prose	Pre-Han	historic
 taixuanjing.csv	taixuanjing.html	Canon of Supreme Mystery 《太玄經》	A text on divination by Han scholar 扬雄 Yang Xiong	taixuanjing/taixuanjing000.txt	Literary Chinese	Prose	Han	Literature
 fayan.csv	fayan.html	Exemplary Figures 《法言》	Composed by Han scholar 扬雄 Yang Xiong	fayan/fayan000.txt	Literary Chinese	Prose	Han	Literature
+zhushujinian.csv	zhushujinian.html	Bamboo Annals 《竹書紀年》	Based on the court annals of 魏 the State of Wei	zhushujinian/zhushujinian000.txt	Literary Chinese	Prose	Pre-Qin	historic
 guoyu.csv	guoyu.html	Guoyu 《國語》	Also known as Discourses of the States, attributed to 左丘明 Zuo Qiuming, covering the Spring and Autumn period	guoyu/guoyu000.txt	Literary Chinese	Prose	Pre-Qin	historic
 zhanguoce.csv	zhanguoce.html	Stratagems of the Warring States 《戰國策》	An early collection of dialogs describing important events of the Warring States, compiled by 刘向 Liu Xiang Liu Xiang	zhanguoce/zhanguoce000.txt	Literary Chinese	Prose	Pre-Han	historic
 daodejing.csv	daodejing.html	Daode Jing 《道德經》	With commentary by 王弼 Wang Bi	daodejing/daodejing000.txt	Literary Chinese	Prose	Warring States	Taoist

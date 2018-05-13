@@ -1,0 +1,33 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-13, <a
+   href="https://zh.wikisource.org/wiki/古本竹書紀年"
+  >https://zh.wikisource.org/wiki/古本竹書紀年</a>.
+</p>
+
+<h4>English translations<h4>
+<ol>
+  <li>
+      Legge, James 1865,
+      “The Annals of the Bamboo Books,”
+    <i>The Chinese Classics</i>, volume 3, part 1, pp. 105–188,
+    Internet Archives,
+    <a href='https://archive.org/stream/chineseclassics07legggoog#page/n123/mode/1up'
+    >https://archive.org/stream/chineseclassics07legggoog#page/n123/mode/1up</a>
+  </li>
+</ol>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Dudbridge, Glen 2017, 
+    'Chapter 11: Libraries, Book Catalogues, Lost Writings,' in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, 
+    e-book, New York: Oxford University Press, p. 215.
+  </li>
+  <li>
+    Wilkinson, E P 2015, <i>Chinese History: a New Manual</i>, 
+    Harvard University Asia Center, Cambridge and London.
+  </li>
+</ol>
