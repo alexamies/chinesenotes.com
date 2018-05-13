@@ -25,9 +25,15 @@
 <ol>
   <li>
     Cheng Yu-Yu 2017,  “Chapter 9: Text and Commetary in the Medieval Period,” in 
-    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
-    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, New York: 
-    Oxford University Press, p. 125.
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), 
+    <i>The Oxford Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, 
+    e-book, New York: Oxford University Press, p. 125.
+  </li>
+  <li>
+    Tian, Xiaofei 2017,  “Chapter 15: Collections (集),” in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), 
+    <i>The Oxford Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, 
+    e-book, New York: Oxford University Press, p. 219.
   </li>
   <li>
     Idema, W L and Haft, L 1997, <i>A Guide to Chinese Literature</i>, 

@@ -1,0 +1,31 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-11, <a href="https://zh.wikisource.org/wiki/太玄經"
+  >https://zh.wikisource.org/wiki/太玄經</a>.
+</p>
+
+<h4>English translations<h4>
+<ol>
+  <li>
+      Xiong Yang and Michael Nylan, 1993,
+    <i>The Canon of Supreme Mystery : a Translation with Commentary of the 
+     Tʹai hsüan ching</i>,
+    Albany: State University of New York Pres.
+  </li>
+  <i>
+    Yuan, Qu  and David Hawkes ed. and tr. 1985, 
+    <i>The Songs of the South: An Anthology of Ancient Chinese Poems by Qu Yuan
+    and Other Poets</i>,
+    Harmondsworth, Middlesex, England ; New York, N.Y., U.S.A: Penguin Classics.
+  </i>
+</ol>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Denecke, Wiebke 2017, 'Chapter 14: Masters (Zi 子),' in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, New York: 
+    Oxford University Press, p. 215.
+  </li>
+</ol>
