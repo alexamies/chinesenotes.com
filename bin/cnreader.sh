@@ -7,6 +7,7 @@ export TEMPLATE_HOME=html/material-templates
 mkdir $WEB_DIR
 mkdir $WEB_DIR/analysis
 mkdir $WEB_DIR/analysis/articles
+mkdir $WEB_DIR/analysis/chuci
 mkdir $WEB_DIR/analysis/daodejing
 mkdir $WEB_DIR/analysis/erya
 mkdir $WEB_DIR/analysis/fayan
@@ -38,6 +39,7 @@ mkdir $WEB_DIR/analysis/zhouli
 mkdir $WEB_DIR/analysis/zhuangzi
 mkdir $WEB_DIR/analysis/zuozhuan
 mkdir $WEB_DIR/articles
+mkdir $WEB_DIR/chuci
 mkdir $WEB_DIR/daodejing
 mkdir $WEB_DIR/erya
 mkdir $WEB_DIR/fayan

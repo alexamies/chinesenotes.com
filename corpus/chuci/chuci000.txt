@@ -1,0 +1,36 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-11, <a href="https://zh.wikisource.org/wiki/楚辭"
+  >https://zh.wikisource.org/wiki/楚辭</a>.
+</p>
+
+<h4>English translations<h4>
+<ol>
+  <li>
+    Yuan, Qu and David Hawkes tr., 2000, 
+    “Chapter 5. The Songs of the South: Shammanism and Poetry” in
+    John Minford and Joseph S M Lau eds.
+    <i>Classical Chinese Literature: From Antiquity to the Tang Dynasty</i>,
+    New York: Columbia University Press, p 237-265.
+  </li>
+  <i>
+    Yuan, Qu  and David Hawkes ed. and tr. 1985, 
+    <i>The Songs of the South: An Anthology of Ancient Chinese Poems by Qu Yuan
+    and Other Poets</i>,
+    Harmondsworth, Middlesex, England ; New York, N.Y., U.S.A: Penguin Classics.
+  </i>
+</ol>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Cheng Yu-Yu 2017,  “Chapter 9: Text and Commetary in the Medieval Period,” in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, New York: 
+    Oxford University Press, p. 125.
+  </li>
+  <li>
+    Idema, W L and Haft, L 1997, <i>A Guide to Chinese Literature</i>, 
+    Ann Arbor: Center for Chinese Studies, University of Michigan, pp. 95-97.
+  </li>
+</ol>
