@@ -1,0 +1,43 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-13, <a
+   href="https://zh.wikisource.org/wiki/漢書"
+  >https://zh.wikisource.org/wiki/漢書</a>.
+</p>
+
+<h4>English translations (partial)<h4>
+<ol>
+  <li>
+    Dubs, Homer H trans. 1938-55,
+    <i>The History of the Former Han Dynasty</i>,
+    3 vols. Baltimore: Waverly,
+    <a href='http://www2.iath.virginia.edu/saxon/servlet/SaxonServlet?source=xwomen/texts/hanshu.xml&style=xwomen/xsl/dynaxml.xsl&chunk.id=tpage&doc.view=tocc&doc.lang=bilingual'
+    >Digitized text</a>, accessed 2018-05-13.
+  </li>
+  <li>
+    Watson, Burton, trans. 1974,
+    <i>Courtier and Commoner in Ancient China. Selections from the History of
+    the Former Han</i>,
+    New York: Columbia University Press.
+    A translation of 10 chapters.
+  </li>
+</ol>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Durrant, Stephen 2017, 'Chapter 13: Histories (Shi 史),' in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, 
+    e-book, New York: Oxford University Press, pp. 193-194.
+  </li>
+  <li>
+    Hulsewe, A F P 1993, “Han Shu 漢書,” In
+    Michael Loewe, (ed.) <i>Early Chinese Texts: A Bibliographical Guide</i>, 
+    Berkeley: Society for the Study of Early China, pp. 129-136.
+  </li>
+  <li>
+    Wilkinson, E P 2015, <i>Chinese History: a New Manual</i>, 
+    Harvard University Asia Center, Cambridge and London, p. 711-713.
+  </li>
+</ol>

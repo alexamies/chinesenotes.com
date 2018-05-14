@@ -1,0 +1,35 @@
+<h4>Source<h4>
+<p>
+  <a href="http://ctext.org/shiji"
+  >http://ctext.org/shiji</a>.
+</p>
+
+<h4>English translations<h4>
+<ol>
+  <li>
+    Allen， Herbert J trans. 1894,
+    <i>Ssŭma Ch'ien's Historical Records</i>,
+    Royal Asiatic Society,
+    <a href='http://ctext.org/shiji'
+    >http://ctext.org/shiji</a>.
+  </li>
+  <li>
+    Watson, Burton, trans. 1961,
+    <i>Records of the Grand Historian of China</i>,
+    New York: Columbia University Press.
+  </li>
+</ol>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Durrant, Stephen 2017, 'Chapter 13: Histories (Shi 史),' in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, 
+    e-book, New York: Oxford University Press, pp. 190-192.
+  </li>
+  <li>
+    Wilkinson, E P 2015, <i>Chinese History: a New Manual</i>, 
+    Harvard University Asia Center, Cambridge and London, p. 704-711.
+  </li>
+</ol>

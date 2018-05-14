@@ -20,13 +20,14 @@ xunzi.csv	xunzi.html	Xunzi 《荀子》	An early master with text of the same na
 shuoyuan.csv	shuoyuan.html	Garden of Stories 《說苑》	An early collection of stories compiled by 刘向 Liu Xiang	shuoyuan/shuoyuan000.txt	Literary Chinese	Prose	Pre-Han	historic
 taixuanjing.csv	taixuanjing.html	Canon of Supreme Mystery 《太玄經》	A text on divination by Han scholar 扬雄 Yang Xiong	taixuanjing/taixuanjing000.txt	Literary Chinese	Prose	Han	Literature
 fayan.csv	fayan.html	Exemplary Figures 《法言》	Composed by Han scholar 扬雄 Yang Xiong	fayan/fayan000.txt	Literary Chinese	Prose	Han	Literature
+shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By 司馬遷 Sima Qian, the first of the official Chinese histories	shiji/shiji000.txt	Literary Chinese	Prose	109-91 BCE	historic
+hanshu.csv	hanshu.html	Book of Han 《漢書》	The second of the official Chinese histories by 班固 Ban Gu with others, covering the 西漢 Western [Former] Han dynasty	hanshu/hanshu000.txt	Literary Chinese	Prose	111 CE	historic
 zhushujinian.csv	zhushujinian.html	Bamboo Annals 《竹書紀年》	Based on the court annals of 魏 the State of Wei	zhushujinian/zhushujinian000.txt	Literary Chinese	Prose	Pre-Qin	historic
 guoyu.csv	guoyu.html	Guoyu 《國語》	Also known as Discourses of the States, attributed to 左丘明 Zuo Qiuming, covering the Spring and Autumn period	guoyu/guoyu000.txt	Literary Chinese	Prose	Pre-Qin	historic
 zhanguoce.csv	zhanguoce.html	Stratagems of the Warring States 《戰國策》	An early collection of dialogs describing important events of the Warring States, compiled by 刘向 Liu Xiang Liu Xiang	zhanguoce/zhanguoce000.txt	Literary Chinese	Prose	Pre-Han	historic
 daodejing.csv	daodejing.html	Daode Jing 《道德經》	With commentary by 王弼 Wang Bi	daodejing/daodejing000.txt	Literary Chinese	Prose	Warring States	Taoist
 liezi.csv	liezi.html	Liezi 《列子》	Attributed to 杨朱 Yang Zhu	liezi/liezi000.txt	Literary Chinese	Prose	Warring States	Taoist
 zhuangzi.csv	zhuangzi.html	Zhuangzi 《莊子》	With English translation by James Legge 1891, <i>The Writings of Chuang Tzu</i> Text	zhuangzi/zhuangzi000.txt	Literary Chinese	Prose	Warring States	Taoist
-shiji.csv	shiji.html	Records of the Grand Historian 《史記》	By Sima Qian, the first of the official Chinese histories	\N	Literary Chinese	Prose	109-91 BCE	historic
 literary_chinese_prose.csv	literary_chinese_prose.html	Selections of Literary Chinese Prose	A collection of historic texts from well known writers	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical	anthology
 erya.csv	erya_collection.html	Er Ya 《爾雅》	The earliest Chinese dictionary	erya00.txt	Literary Chinese	Prose	Han	historic dictionary
 shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	shuowen/shuowen000.txt	Literary Chinese	Prose	Northern and Southern Dynasties	historic dictionary
