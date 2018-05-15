@@ -24,6 +24,7 @@ mkdir $WEB_DIR/analysis/liji
 mkdir $WEB_DIR/analysis/lunyu
 mkdir $WEB_DIR/analysis/mengzi
 mkdir $WEB_DIR/analysis/mozi
+mkdir $WEB_DIR/analysis/shanhaijing
 mkdir $WEB_DIR/analysis/shangshu
 mkdir $WEB_DIR/analysis/shiji
 mkdir $WEB_DIR/analysis/shijing
@@ -62,6 +63,7 @@ mkdir $WEB_DIR/mengzi
 mkdir $WEB_DIR/mozi
 mkdir $WEB_DIR/mp3
 mkdir $WEB_DIR/script
+mkdir $WEB_DIR/shanhaijing
 mkdir $WEB_DIR/shangshu
 mkdir $WEB_DIR/shiji
 mkdir $WEB_DIR/shijing

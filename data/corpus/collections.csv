@@ -25,6 +25,7 @@ hanshu.csv	hanshu.html	Book of Han 《漢書》	The second of the official Chine
 zhushujinian.csv	zhushujinian.html	Bamboo Annals 《竹書紀年》	Based on the court annals of 魏 the State of Wei	zhushujinian/zhushujinian000.txt	Literary Chinese	Prose	Pre-Qin	historic
 guoyu.csv	guoyu.html	Guoyu 《國語》	Also known as Discourses of the States, attributed to 左丘明 Zuo Qiuming, covering the Spring and Autumn period	guoyu/guoyu000.txt	Literary Chinese	Prose	Pre-Qin	historic
 zhanguoce.csv	zhanguoce.html	Stratagems of the Warring States 《戰國策》	An early collection of dialogs describing important events of the Warring States, compiled by 刘向 Liu Xiang Liu Xiang	zhanguoce/zhanguoce000.txt	Literary Chinese	Prose	Pre-Han	historic
+shanhaijing.csv	shanhaijing.html	Classic of Mountains and Seas 《山海經》	An early text on geography	shanhaijing/shanhaijing000.txt	Literary Chinese	Prose	Pre-Qin	historic
 daodejing.csv	daodejing.html	Daode Jing 《道德經》	With commentary by 王弼 Wang Bi	daodejing/daodejing000.txt	Literary Chinese	Prose	Warring States	Taoist
 liezi.csv	liezi.html	Liezi 《列子》	Attributed to 杨朱 Yang Zhu	liezi/liezi000.txt	Literary Chinese	Prose	Warring States	Taoist
 zhuangzi.csv	zhuangzi.html	Zhuangzi 《莊子》	With English translation by James Legge 1891, <i>The Writings of Chuang Tzu</i> Text	zhuangzi/zhuangzi000.txt	Literary Chinese	Prose	Warring States	Taoist
