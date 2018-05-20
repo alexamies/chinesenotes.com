@@ -5,13 +5,22 @@
   >https://zh.wikisource.org/wiki/三國志</a>.
 </p>
 
-<h4>English translations<h4>
+<h4>English translation (partial)<h4>
 <p>
-  None
+  Chen Shou, Pei Songzhi, Robert Joe Cutter and William Gordon Crowell 1999,
+  <i>Empresses and Consorts: Selections from Chen Shou's Records of the Three
+  States With Pei Songzhi's Commentary</i>,
+  Honolulu: University of Hawaii Press.
 </p>
 
 <h4>Discussion<h4>
 <ol>
+  <li>
+    Chen Shou, Songzhi Pei, Robert Joe Cutter and William Gordon Crowell 1999,
+    <i>Empresses and Consorts: Selections from Chen Shou's Records of the Three
+    States With Pei Songzhi's Commentary</i>,
+    Honolulu: University of Hawaii Press, pp. 61-81.
+  </li>
   <li>
     Durrant, Stephen 2017, 'Chapter 13: Histories (Shi 史),' in 
     Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford

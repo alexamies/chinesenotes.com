@@ -1,0 +1,43 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-16, <a
+   href="https://zh.wikisource.org/wiki/晉書"
+  >https://zh.wikisource.org/wiki/晉書</a>.
+</p>
+
+<h4>English translations<h4>
+<p>
+  <li>
+    Choo, Jessey Jiun-Chyi trans. 2014, 
+    “Return to the North? The Debate on Moving the Capital back to Luoyang,” 
+    In Wendy Swartz et al eds 
+    <i>Early Medieval China: A Sourcebook</i>, 
+    e-book, New York: Columbia University Press, pp. 47-56. 
+    This chapter contains the memorial to 桓溫 Huan Wen in volumne 98 and the
+    memorial to 孫綽 Sun Chuo in volume 56.
+  </li>
+  <li>
+    Knapp, Keith N trans. 2014, 
+    “Confucian Views on the Supernatural,” 
+    In Wendy Swartz et al eds 
+    <i>Early Medieval China: A Sourcebook</i>, 
+    e-book, New York: Columbia University Press, pp. 665-676. 
+    This chapter contains the biographies of 劉殷 Liu Yin in volume 88 and 
+    皇甫謐 Huangfu Mi in volume 51.
+  </li>
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Durrant, Stephen 2017, 'Chapter 13: Histories (Shi 史),' in 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
+    Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, 
+    e-book, New York: Oxford University Press, p. 196.
+  </li>
+  <li>
+    Twitchett, Denis 2009, 
+    <i>Writing of Official History under the T'ang</i>, 
+    Cambridge: Cambridge University Press, p. 61.
+  </li>
+</ol>

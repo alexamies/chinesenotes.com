@@ -19,6 +19,7 @@ mkdir $WEB_DIR/analysis/hanfeizi
 mkdir $WEB_DIR/analysis/hanshu
 mkdir $WEB_DIR/analysis/houhanshu
 mkdir $WEB_DIR/analysis/huainanzi
+mkdir $WEB_DIR/analysis/jinshu
 mkdir $WEB_DIR/analysis/laoshe
 mkdir $WEB_DIR/analysis/liezi
 mkdir $WEB_DIR/analysis/liji
@@ -58,6 +59,7 @@ mkdir $WEB_DIR/hanshu
 mkdir $WEB_DIR/houhanshu
 mkdir $WEB_DIR/huainanzi
 mkdir $WEB_DIR/images
+mkdir $WEB_DIR/jinshu
 mkdir $WEB_DIR/laoshe
 mkdir $WEB_DIR/liezi
 mkdir $WEB_DIR/liji
