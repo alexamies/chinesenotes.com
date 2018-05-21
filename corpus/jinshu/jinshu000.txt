@@ -5,7 +5,7 @@
   >https://zh.wikisource.org/wiki/晉書</a>.
 </p>
 
-<h4>English translations<h4>
+<h4>English translations</h4>
 <p>
   <li>
     Choo, Jessey Jiun-Chyi trans. 2014, 
@@ -13,8 +13,8 @@
     In Wendy Swartz et al eds 
     <i>Early Medieval China: A Sourcebook</i>, 
     e-book, New York: Columbia University Press, pp. 47-56. 
-    This chapter contains the memorial to 桓溫 Huan Wen in volumne 98 and the
-    memorial to 孫綽 Sun Chuo in volume 56.
+    This chapter contains partial biographies of 桓溫 Huan Wen in volume 98 and
+    孫綽 Sun Chuo in volume 56.
   </li>
   <li>
     Knapp, Keith N trans. 2014, 
@@ -22,7 +22,7 @@
     In Wendy Swartz et al eds 
     <i>Early Medieval China: A Sourcebook</i>, 
     e-book, New York: Columbia University Press, pp. 665-676. 
-    This chapter contains the biographies of 劉殷 Liu Yin in volume 88 and 
+    This chapter contains partial biographies of 劉殷 Liu Yin in volume 88 and 
     皇甫謐 Huangfu Mi in volume 51.
   </li>
 </p>

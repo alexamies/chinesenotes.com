@@ -98,3 +98,23 @@
 3000098	轻狡	輕狡	qīng jiǎo	frivolity and craftiness	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 輕 frivolity + 狡 craftiness; from 《三國志·妃嬪傳》 <i>Records of the Three Kingdoms</i>, Biographies of concubines and ladies (Chen et al. 1999, p. 122)	3000098
 3000099	取祸	取禍	qǔ huò	to court trouble	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 取 fetch + 禍 misfortune; from 《三國志·妃嬪傳》 <i>Records of the Three Kingdoms</i>, Biographies of concubines and ladies (Chen et al. 1999, p. 122)	3000099
 3000100	许为婚	許為婚	xǔ wèi hūn	consented to the marriage	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 許 permit + 為 for + 婚 marriage; from 《三國志·妃嬪傳》 <i>Records of the Three Kingdoms</i>, Biographies of concubines and ladies (Chen et al. 1999, p. 122)	3000100
+3000101	寇逼	\N	kòu bī	invaders threatened	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 寇 enemy + 逼 invade; from 《晉書·卷九十八》 <i>Book of Jin</i>, volume 98 (Choo 2014, p. 48)	3000101
+3000102	冠军将军	冠軍將軍	guānjūn jiāngjūn	general commanding the troops	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 冠軍 distinguished military commander + 將軍 general; from 《晉書·卷九十八》 <i>Book of Jin</i>, volume 98 (Choo 2014, p. 48)	3000102
+3000103	还都	還都	huán dū	move the capital	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 還 + 都; from 《晉書·卷九十八》 <i>Book of Jin</i>, volume 98 (Choo 2014, p. 48)	3000103
+3000104	逆胡	\N	nì hú	offending barbarians	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 逆 oppose + 胡 foreign; from 《晉書·卷九十八》 <i>Book of Jin</i>, volume 98 (Choo 2014, p. 48)	3000104
+3000105	屡丧	屢喪	lǚ sàng	repeatedly been disrupted	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 屢 repeatedly + 喪 disrupt; from 《晉書·卷九十八》 <i>Book of Jin</i>, volume 98 (Choo 2014, p. 48)	3000105
+3000106	悲惶	\N	bēi huáng	anguished and distressed	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 悲 anguished + 惶 scared; from 《晉書·卷九十八》 <i>Book of Jin</i>, volume 98 (Choo 2014, p. 48)	3000106
+3000107	龙飞	龍飛	lóng fēi	a dragon soaring	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 龍 dragon + 飛 fly; from 《晉書·卷九十八》 <i>Book of Jin</i>, volume 98 (Choo 2014, p. 48)	3000107
+3000108	云罗	雲羅	yún luó	reaches the clouds	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 雲 cloud + 羅 reach; from 《晉書·卷九十八》 <i>Book of Jin</i>, volume 98 (Choo 2014, p. 48)	3000108
+3000109	远图	遠圖	yuǎn tú	a long term plan	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 遠 distant + 圖 plan; from 《晉書·卷九十八》 <i>Book of Jin</i>, volume 98 (Choo 2014, p. 48)	3000109
+3000110	大存经略	大存經略	dà cún jīnglüè	extensive operations	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 大 large + 存 accumulate + 經略 operations; from 《晉書·卷九十八》 <i>Book of Jin</i>, volume 98 (Choo 2014, p. 48)	3000110
+3000111	丁艰罚	丁艱罰	dīngjiān fá	the punishment of my parents' death	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 丁艱 parents' death + 罰 punishment; from 《晉書·卷八十八》 <i>Book of Jin</i>, volume 88 (Knapp 2014, p. 668)	3000111
+3000112	视地	視地	shì dì	looked at the ground	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 視 look + 地 ground; from 《晉書·卷八十八》 <i>Book of Jin</i>, volume 88 (Knapp 2014, p. 668)	3000112
+3000113	订制	訂製	dìngzhì	fixed rules	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	TM: 訂 fix + 製 rules; from 《晉書·卷五十一》 <i>Book of Jin</i>, volume 51 (Knapp 2014, p. 672)	4098
+3000114	人理	\N	rén lǐ	human reason	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 人 human + 理 reason; from 《晉書·卷五十一》 <i>Book of Jin</i>, volume 51 (Knapp 2014, p. 672)	3000114
+3000115	以素	\N	yǐ sù	to use simplicity	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 以 use + 素 simple; from 《晉書·卷五十一》 <i>Book of Jin</i>, volume 51 (Knapp 2014, p. 672)	3000115
+3000116	婴疢	嬰疢	yīng chèn	childhood afflictions	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 嬰 child + 疢 affliction; from 《晉書·卷五十一》 <i>Book of Jin</i>, volume 51 (Knapp 2014, p. 672)	3000116
+3000117	遭丧	遭喪	zāo sàng	suffer hardships	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 遭 meet + 喪 hardship; from 《晉書·卷五十一》 <i>Book of Jin</i>, volume 51 (Knapp 2014, p. 672)	3000117
+3000118	损劣	損劣	sǔn liè	diminished and grow weak	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 損 diminish + 劣 weak; from 《晉書·卷五十一》 <i>Book of Jin</i>, volume 51 (Knapp 2014, p. 672)	3000118
+3000119	常惧	常懼	cháng jù	always fear	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 常 always + 懼 always; from 《晉書·卷五十一》 <i>Book of Jin</i>, volume 51 (Knapp 2014, p. 672)	3000119
+3000120	夭陨	夭隕	yāo yǔn	premature death	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 夭 + 隕; from 《晉書·卷五十一》 <i>Book of Jin</i>, volume 51 (Knapp 2014, p. 672)	3000120
