@@ -1,0 +1,37 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-20, <a
+   href="https://zh.wikisource.org/wiki/宋書"
+  >https://zh.wikisource.org/wiki/宋書</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  <li>
+    Dien, Albert E 2014, 
+    “The Disputation at Pengcheng: Accounts from the Wei Shu and Song Shu,” 
+    In Wendy Swartz et al eds 
+    <i>Early Medieval China: A Sourcebook</i>, 
+    e-book, New York: Columbia University Press, pp. 57-84. 
+    This chapter contains parts of volume 59 and the corresponding passages
+    from the Book of Wei.
+  </li>
+  <li>
+    Holcombe, Charles 2014, 
+    “On Land and Wealth: Liu Zishang's "Petition on Closing off Mountains and Lakes" and Yang Xi's "Discussion on Abolishing Old Regulations Regarding Mountains and Marshes",” 
+    In Wendy Swartz et al eds 
+    <i>Early Medieval China: A Sourcebook</i>, 
+    e-book, New York: Columbia University Press, pp. 172-180. 
+    This chapter contains part of volume 54.
+  </li>
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Knechtges, David R and Taiping Cheng (eds.) 2014, 
+    <i>Ancient and Early Medieval Chinese Literature (Vol. 2):
+    A Reference Guide, Part Two</i>, 
+    Leiden; Boston: Leiden Brill Academic Publishers, pp. 1003-1005. 
+  </li>
+</ol>
