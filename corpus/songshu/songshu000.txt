@@ -18,7 +18,9 @@
   </li>
   <li>
     Holcombe, Charles 2014, 
-    “On Land and Wealth: Liu Zishang's "Petition on Closing off Mountains and Lakes" and Yang Xi's "Discussion on Abolishing Old Regulations Regarding Mountains and Marshes",” 
+    “On Land and Wealth: Liu Zishang's "Petition on Closing off Mountains and
+    Lakes" and Yang Xi's "Discussion on Abolishing Old Regulations Regarding
+    Mountains and Marshes",” 
     In Wendy Swartz et al eds 
     <i>Early Medieval China: A Sourcebook</i>, 
     e-book, New York: Columbia University Press, pp. 172-180. 
@@ -28,6 +30,14 @@
 
 <h4>Discussion<h4>
 <ol>
+  <li>
+    Chittick, Andrew 2015, “Song shu 宋書,”
+    In <i>Early Medieval Chinese Texts: A Bibliographical Guide</i>,
+    edited by Albert E Dien, Cynthia Louise Chennault, Keith Nathaniel Knapp,
+    and Alan J Berkowitz, 
+    Berkeley: Institute of East Asian Studies University of California,
+    pp. 320–323.
+  </li>
   <li>
     Knechtges, David R and Taiping Cheng (eds.) 2014, 
     <i>Ancient and Early Medieval Chinese Literature (Vol. 2):

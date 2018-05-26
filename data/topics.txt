@@ -1,6 +1,5 @@
 声学	Acoustics	\N	\N
 管理	Administration	\N	\N
-附类	Affixes	\N	\N
 农业	Agriculture	\N	\N
 人类学	Anthropology	\N	\N
 考古学	Archaeology	\N	\N
@@ -42,7 +41,6 @@
 财会	Finance and Accounting	\N	\N
 饮食	Food and Drink	\N	\N
 外语	Foreign Language	\N	\N
-常用词汇	Frequently Used Words	\N	\N
 友谊	Friendship	\N	\N
 家具	Furniture	\N	\N
 世系	Genealogy	\N	\N
@@ -66,7 +64,6 @@
 语言学	Linguistics	\N	\N
 文学	Literature	\N	\N
 逻辑	Logic	\N	\N
-运气	Luck	\N	\N
 法术	Magic	\N	\N
 制造业	Manufacturing	\N	\N
 武术	Martial Arts	\N	\N

@@ -1,0 +1,41 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-24, <a
+   href="https://zh.wikisource.org/wiki/南齊書"
+  >https://zh.wikisource.org/wiki/南齊書</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  <li>
+    Tian, Xiaofei 2007,
+    <i>Beacon Fire and Shooting Star: The Literary Culture of the Liang
+    (502-557)</i>,
+    Harvard University Asia Center.
+    Contains a partial translation of 'Biographies of Men of Letters' in 
+    volume 52.
+  </li>
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Crowell, William Gordon 2015, Nan Qi shu 南齊書,”
+    In <i>Early Medieval Chinese Texts: A Bibliographical Guide</i>,
+    edited by Albert E Dien, Cynthia Louise Chennault, Keith Nathaniel Knapp,
+    and Alan J Berkowitz, 
+    Berkeley: Institute of East Asian Studies University of California,
+    pp. 202-208.
+  </li>
+  <li>
+    Knechtges, David R and Taiping Cheng (eds.) 2014, 
+    <i>Ancient and Early Medieval Chinese Literature:
+    A Reference Guide, Parts Three and Four</i>, 
+    Leiden; Boston: Leiden Brill Academic Publishers, pp. 1560-1563. 
+  </li>
+  <li>
+    Wu, Huaiqi and Chi Zhen 2018,
+    <i>An Historical Sketch of Chinese Historiography</i>i>, 
+    E-Book. Berlin: Springer, p. 234.
+  </li>
+</ol>

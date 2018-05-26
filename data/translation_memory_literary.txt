@@ -118,3 +118,13 @@
 3000118	损劣	損劣	sǔn liè	diminished and grow weak	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 損 diminish + 劣 weak; from 《晉書·卷五十一》 <i>Book of Jin</i>, volume 51 (Knapp 2014, p. 672)	3000118
 3000119	常惧	常懼	cháng jù	always fear	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 常 always + 懼 always; from 《晉書·卷五十一》 <i>Book of Jin</i>, volume 51 (Knapp 2014, p. 672)	3000119
 3000120	夭陨	夭隕	yāo yǔn	premature death	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 夭 + 隕; from 《晉書·卷五十一》 <i>Book of Jin</i>, volume 51 (Knapp 2014, p. 672)	3000120
+3000121	安北	\N	ān běi	pacifying the north	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 安 peace + 北 north; from 《宋書·卷五十九 》 <i>Book of Song</i>, volume 59 (Dien 2014, p. 65)	3000121
+3000122	南侵	\N	nán qīn	invaded the south	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 南 south + 侵 invade; from 《宋書·卷五十九 》 <i>Book of Song</i>, volume 59 (Dien 2014, p. 65)	3000122
+3000123	诸军	諸軍	zhū jūn	various armies	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 諸 various + 軍 army; from 《宋書·卷五十九 》 <i>Book of Song</i>, volume 59 (Dien 2014, p. 65)	3000123
+3000124	亲率	親率	qīn lǜ	personally led	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 親 personally + 率 to lead; from 《宋書·卷五十九 》 <i>Book of Song</i>, volume 59 (Dien 2014, p. 65)	3000124
+3000125	军食	軍食	jūn shí	military supplies	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 軍 military + 食 food; from 《宋書·卷五十九 》 <i>Book of Song</i>, volume 59 (Dien 2014, p. 65)	3000125
+3000126	欲弃	欲棄	yù qì	wanted to abandon	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 欲 desire + 棄 abandon; from 《宋書·卷五十九 》 <i>Book of Song</i>, volume 59 (Dien 2014, p. 65)	3000126
+3000127	南归	南歸	nán guī	return south	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 南 south + 歸 return; from 《宋書·卷五十九 》 <i>Book of Song</i>, volume 59 (Dien 2014, p. 65)	3000127
+3000128	弥日	彌日	mí rì	lasted a whole day	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 彌 fill + 日 day; from 《宋書·卷五十九 》 <i>Book of Song</i>, volume 59 (Dien 2014, p. 65)	3000128
+3000129	车营	車營	chē yíng	vehicle encampment	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 車 vehicle + 營 camp; from 《宋書·卷五十九 》 <i>Book of Song</i>, volume 59 (Dien 2014, p. 65)	3000129
+3000130	外翼	\N	wài yì	outer wings	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 外 outer + 翼 wing; from 《宋書·卷五十九 》 <i>Book of Song</i>, volume 59 (Dien 2014, p. 65)	3000130
