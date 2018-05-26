@@ -1,0 +1,28 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-26, <a
+   href="https://zh.wikisource.org/wiki/陳書"
+  >https://zh.wikisource.org/wiki/陳書</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  None
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Chaussende, Damien 2015, Chen shu 陳書,”
+    In <i>Early Medieval Chinese Texts: A Bibliographical Guide</i>,
+    edited by Albert E Dien, Cynthia Louise Chennault, Keith Nathaniel Knapp,
+    and Alan J Berkowitz, 
+    Berkeley: Institute of East Asian Studies University of California,
+    pp. 44-47.
+  </li>
+  <li>
+    Wu, Huaiqi and Chi Zhen 2018,
+    <i>An Historical Sketch of Chinese Historiography</i>i>, 
+    E-Book. Berlin: Springer, pp. 276-277.
+  </li>
+</ol>
