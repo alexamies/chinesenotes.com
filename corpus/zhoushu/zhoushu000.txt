@@ -1,0 +1,43 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-05-28, <a
+   href="https://zh.wikisource.org/wiki/周書"
+  >https://zh.wikisource.org/wiki/周書</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  <li>
+    Linghu, Defen and Albert E Dien 1962,
+    <i>Biography of Yü-Wen Hu</i>,
+    Volume 9 of East Asia Studies, Institute of International Studies,
+    University of California. Chinese Dynastic Histories Translations. 
+    Berkeley, CA: University of California Press.
+    A translation of volume 11.
+  </li>
+  <li>
+    Linghu, Defen and Roy Andrew Miller 1959,
+    <i>Accounts of Western Nations in the History of the Northern Chou Dynasty
+    [Chou Shu 50. 10b-17b]</i>,
+    Issue 6 of Chinese Dynastic Histories Translations,
+    Berkeley, CA: University of California Press.
+    A translation of volume 50.
+  </li>
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Pearce, Scott 2015, Zhou shu 周書,”
+    In <i>Early Medieval Chinese Texts: A Bibliographical Guide</i>,
+    edited by Albert E Dien, Cynthia Louise Chennault, Keith Nathaniel Knapp,
+    and Alan J Berkowitz, 
+    Berkeley: Institute of East Asian Studies University of California,
+    pp. 510-513.
+  </li>
+  <li>
+    Wu, Huaiqi and Chi Zhen 2018,
+    <i>An Historical Sketch of Chinese Historiography</i>i>, 
+    E-Book. Berlin: Springer, pp. 233-235.
+  </li>
+</ol>

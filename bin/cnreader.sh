@@ -48,6 +48,7 @@ mkdir $WEB_DIR/analysis/yijing
 mkdir $WEB_DIR/analysis/yili
 mkdir $WEB_DIR/analysis/zhanguoce
 mkdir $WEB_DIR/analysis/zhouli
+mkdir $WEB_DIR/analysis/zhoushu
 mkdir $WEB_DIR/analysis/zhuangzi
 mkdir $WEB_DIR/analysis/zhushujinian
 mkdir $WEB_DIR/analysis/zuozhuan
@@ -97,6 +98,7 @@ mkdir $WEB_DIR/yijing
 mkdir $WEB_DIR/yili
 mkdir $WEB_DIR/zhanguoce
 mkdir $WEB_DIR/zhouli
+mkdir $WEB_DIR/zhoushu
 mkdir $WEB_DIR/zhuangzi
 mkdir $WEB_DIR/zhushujinian
 mkdir $WEB_DIR/zuozhuan
