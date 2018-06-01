@@ -39,6 +39,7 @@ mkdir $WEB_DIR/analysis/shuowen
 mkdir $WEB_DIR/analysis/shuoyuan
 mkdir $WEB_DIR/analysis/sishuzhangju
 mkdir $WEB_DIR/analysis/songshu
+mkdir $WEB_DIR/analysis/suishu
 mkdir $WEB_DIR/analysis/taixuanjing
 mkdir $WEB_DIR/analysis/weishu
 mkdir $WEB_DIR/analysis/xiaojing
@@ -88,6 +89,7 @@ mkdir $WEB_DIR/shuowen
 mkdir $WEB_DIR/shuoyuan
 mkdir $WEB_DIR/sishuzhangju
 mkdir $WEB_DIR/songshu
+mkdir $WEB_DIR/suishu
 mkdir $WEB_DIR/taixuanjing
 mkdir $WEB_DIR/weishu
 mkdir $WEB_DIR/words

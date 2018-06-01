@@ -148,3 +148,13 @@
 3000148	治天下	\N	zhì tiānxià	to rule all under Heaven	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 治 rule + 天下 the world; from 《魏書·卷一百一十一 》 <i>Book of Wei</i>, volume 101 (Lee 2014,  p. 186)	3000148
 3000149	喜怒	\N	xǐ nù	favor or anger	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 喜 favor + 怒 anger; from 《魏書·卷一百一十一 》 <i>Book of Wei</i>, volume 101 (Lee 2014,  p. 187)	3000149
 3000150	亲疏改易	親疏改易	qīnshū gǎiyì	altered by affinity or distance	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 親疏 affinity or distance + 改易 alter; from 《魏書·卷一百一十一 》 <i>Book of Wei</i>, volume 101 (Lee 2014,  p. 187)	3000150
+3000151	自署	\N	zì shǔ	both established themselves	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 自 self + 署 establish; from 《周書·卷五十》 <i>Book of Zhou</i>, volume 50 (Linghu and Miller 1959,  p. 5)	3000151
+3000152	其弟	\N	qí dì	his younger brother	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 其 his + 弟 younger brother; from 《周書·卷五十》 <i>Book of Zhou</i>, volume 50 (Linghu and Miller 1959,  p. 5)	3000152
+3000153	相继王	相繼王	xiāngjì wáng	ruled in succession as kings	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 相繼 one after another + 王 king; from 《周書·卷五十》 <i>Book of Zhou</i>, volume 50 (Linghu and Miller 1959,  p. 5)	3000153
+3000154	推立	\N	tuī lì	chose and established	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 推 proposed + 立 established; from 《周書·卷五十》 <i>Book of Zhou</i>, volume 50 (Linghu and Miller 1959,  p. 5)	3000154
+3000155	祠部	\N	cí bù	Board of Sacrifice	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 祠 sacrifice + 部 ministry; from 《周書·卷五十》 <i>Book of Zhou</i>, volume 50 (Linghu and Miller 1959,  p. 6)	3000155
+3000156	民部	\N	mín bù	Board of the Populace	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 民 populace + 部 ministry; from 《周書·卷五十》 <i>Book of Zhou</i>, volume 50 (Linghu and Miller 1959,  p. 6)	3000156
+3000157	分掌诸事	分掌諸事	fēnzhǎng zhū shì	they divide their duties between them	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 分掌 assign work + 諸 all + 事 duties; from 《周書·卷五十》 <i>Book of Zhou</i>, volume 50 (Linghu and Miller 1959,  p. 6)	3000157
+3000158	决之于王	決之於王	jué zhī yú wáng	decided by the king	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 決 decide + 之 possessive + 於 by + 王 king; from 《周書·卷五十》 <i>Book of Zhou</i>, volume 50 (Linghu and Miller 1959,  p. 6)	3000158
+3000159	随状	隨狀	suí zhuàng	according to the circumstances	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 隨 according with + 狀 circumstances; from 《周書·卷五十》 <i>Book of Zhou</i>, volume 50 (Linghu and Miller 1959,  p. 6)	3000159
+3000160	断决	斷決	duàn jué	make decisions	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 斷 judge + 決 decide; from 《周書·卷五十》 <i>Book of Zhou</i>, volume 50 (Linghu and Miller 1959,  p. 6)	3000160
