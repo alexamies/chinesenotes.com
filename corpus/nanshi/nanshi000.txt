@@ -1,0 +1,36 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-06-02, <a
+   href="https://zh.wikisource.org/wiki/南史"
+  >https://zh.wikisource.org/wiki/南史</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  <li>
+    Knapp, Keith N trans. 2014, 
+    “Confucian Views on the Supernatural,” 
+    In Wendy Swartz et al eds 
+    <i>Early Medieval China: A Sourcebook</i>, 
+    e-book, New York: Columbia University Press, pp. 665-676. 
+    This chapter contains a translation of the biography of 蕭叡明 Xiao Ruming in
+    volume 73.
+  </li>
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Wu, Huaiqi and Chi Zhen 2018,
+    <i>An Historical Sketch of Chinese Historiography</i>i>, 
+    E-Book. Berlin: Springer, p. 406.
+  </li>
+  <li>
+    Strange, Mark and Jakub Hruby 2015, Nan shi 南史,”
+    In <i>Early Medieval Chinese Texts: A Bibliographical Guide</i>,
+    edited by Albert E Dien, Cynthia Louise Chennault, Keith Nathaniel Knapp,
+    and Alan J Berkowitz, 
+    Berkeley: Institute of East Asian Studies University of California,
+    pp. 209-216.
+  </li>
+</ol>
