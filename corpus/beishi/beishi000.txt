@@ -1,0 +1,28 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-06-02, <a
+   href="https://zh.wikisource.org/wiki/北史"
+  >https://zh.wikisource.org/wiki/北史</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  None
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Graff, David 2015, Bei shi 北史,”
+    In <i>Early Medieval Chinese Texts: A Bibliographical Guide</i>,
+    edited by Albert E Dien, Cynthia Louise Chennault, Keith Nathaniel Knapp,
+    and Alan J Berkowitz, 
+    Berkeley: Institute of East Asian Studies University of California,
+    pp. 18-23.
+  </li>
+  <li>
+    Wu, Huaiqi and Chi Zhen 2018,
+    <i>An Historical Sketch of Chinese Historiography</i>i>, 
+    E-Book. Berlin: Springer, p.406.
+  </li>
+</ol>

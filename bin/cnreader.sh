@@ -8,6 +8,7 @@ mkdir $WEB_DIR
 mkdir $WEB_DIR/analysis
 mkdir $WEB_DIR/analysis/articles
 mkdir $WEB_DIR/analysis/beiqishu
+mkdir $WEB_DIR/analysis/beishi
 mkdir $WEB_DIR/analysis/chenshu
 mkdir $WEB_DIR/analysis/chuci
 mkdir $WEB_DIR/analysis/daodejing
@@ -56,6 +57,7 @@ mkdir $WEB_DIR/analysis/zhushujinian
 mkdir $WEB_DIR/analysis/zuozhuan
 mkdir $WEB_DIR/articles
 mkdir $WEB_DIR/beiqishu
+mkdir $WEB_DIR/beishi
 mkdir $WEB_DIR/chenshu
 mkdir $WEB_DIR/chuci
 mkdir $WEB_DIR/daodejing

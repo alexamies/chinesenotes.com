@@ -1,7 +1,7 @@
 # Chinese Notes Project
 ## About the project
-This is a project for study of modern and literary Chinese language. It includes
-a Chinese-English dictionary, a corpus management system written in Go, 
+This is a project for the study of modern and literary Chinese language. It
+includes a Chinese-English dictionary, a corpus management system written in Go, 
 web pages for learning grammar and such, a collection of texts, and a system for
 looking up the words in the texts by mouse over and popover by clicking on the
 words.
@@ -395,7 +395,7 @@ kubectl exec -it $POD_NAME bash
 rm -rf data
 rm -rf cndata/*
 tar -zxf cndata.tar.gz
-#mkdir cndata
+mkdir cndata
 mv data/* cndata/.
 cd cndata
 mysql --local-infile=1 -h localhost -u root -p

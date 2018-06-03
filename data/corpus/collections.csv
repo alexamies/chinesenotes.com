@@ -34,6 +34,9 @@ beiqishu.csv	beiqishu.html	Book of Northern Qi 《北齊書》	The eleventh of t
 zhoushu.csv	zhoushu.html	Book of Zhou 《周書》	The twelfth of the standard Chinese histories, compiled by 令狐德棻 Linghu Defen, covering the Northern Zhou dynasty (557-581)	zhoushu/zhoushu000.txt	Literary Chinese	Prose	636	historic
 suishu.csv	suishu.html	Book of Sui 《隋書》	The thirteenth of the standard Chinese histories, compiled by 魏徵 Wei Zheng, 令狐德棻 Linghu Defen, and 長孫無忌 Zhangsun Wuji covering the Sui dynasty (581-618)	suishu/suishu000.txt	Literary Chinese	Prose	636	historic
 nanshi.csv	nanshi.html	History of the Southern Dynasties 《南史》	The fourteenth of the standard Chinese histories, compiled by 李延壽 Li Yanshou, covering the Liu Song, Southern Qi, Liang, and Chen dynasties	nanshi/nanshi000.txt	Literary Chinese	Prose	659	historic
+
+beishi.csv	beishi.html	History of the Northern Dynasties 《北史》	 The fifteenth of the standard Chinese histories, compiled by 李延壽 Li Yanshou, covering the Northern Wei, Western Wei, Eastern Wei, Northern Zhou, Northern Qi, and Sui dynasties	beishi/beishi000.txt	Literary Chinese	Prose	659	historic
+
 zhushujinian.csv	zhushujinian.html	Bamboo Annals 《竹書紀年》	Based on the court annals of 魏 the State of Wei	zhushujinian/zhushujinian000.txt	Literary Chinese	Prose	Pre-Qin	historic
 guoyu.csv	guoyu.html	Guoyu 《國語》	Also known as Discourses of the States, attributed to 左丘明 Zuo Qiuming, covering the Spring and Autumn period	guoyu/guoyu000.txt	Literary Chinese	Prose	Pre-Qin	historic
 zhanguoce.csv	zhanguoce.html	Stratagems of the Warring States 《戰國策》	An early collection of dialogs describing important events of the Warring States, compiled by 刘向 Liu Xiang Liu Xiang	zhanguoce/zhanguoce000.txt	Literary Chinese	Prose	Pre-Han	historic

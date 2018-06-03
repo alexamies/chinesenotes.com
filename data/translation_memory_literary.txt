@@ -158,3 +158,13 @@
 3000158	决之于王	決之於王	jué zhī yú wáng	decided by the king	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 決 decide + 之 possessive + 於 by + 王 king; from 《周書·卷五十》 <i>Book of Zhou</i>, volume 50 (Linghu and Miller 1959,  p. 6)	3000158
 3000159	随状	隨狀	suí zhuàng	according to the circumstances	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 隨 according with + 狀 circumstances; from 《周書·卷五十》 <i>Book of Zhou</i>, volume 50 (Linghu and Miller 1959,  p. 6)	3000159
 3000160	断决	斷決	duàn jué	make decisions	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 斷 judge + 決 decide; from 《周書·卷五十》 <i>Book of Zhou</i>, volume 50 (Linghu and Miller 1959,  p. 6)	3000160
+3000161	沈卧	沈臥	shěn wò	bedridden	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 沈 sink + 臥 lie down; from 《南史·卷七十三》 <i>History of the Southern Dynasties</i>, volume 73 (Knapp 2014,  p. 669)	3000161
+3000162	时寒	時寒	shí hán	when the weather turned cold	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 時 season + 寒 cold; from 《南史·卷七十三》 <i>History of the Southern Dynasties</i>, volume 73 (Knapp 2014,  p. 669)	3000162
+3000163	下泪	下淚	xià lèi	tears that he shed	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 下 fall + 淚 tears; from 《南史·卷七十三》 <i>History of the Southern Dynasties</i>, volume 73 (Knapp 2014,  p. 669)	3000163
+3000164	跪受	\N	guì shòu	knelt and received	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 跪 kneel + 受 receive; from 《南史·卷七十三》 <i>History of the Southern Dynasties</i>, volume 73 (Knapp 2014,  p. 670)	3000164
+3000165	奉母	\N	fèng mǔ	gave it to his mother	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 奉 to give + 母 mother; from 《南史·卷七十三》 <i>History of the Southern Dynasties</i>, volume 73 (Knapp 2014,  p. 670)	3000165
+3000166	函中	\N	hán zhōng	inside the box	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 函 box + 中 inside; from 《南史·卷七十三》 <i>History of the Southern Dynasties</i>, volume 73 (Knapp 2014,  p. 670)	3000166
+3000167	丹书	丹書	dān shū	written in cinnabar	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 丹 cinnabar + 書 write; from 《南史·卷七十三》 <i>History of the Southern Dynasties</i>, volume 73 (Knapp 2014,  p. 670)	3000167
+3000168	于时	于時	yú shí	at that time	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 于 at + 時 time; from 《南史·卷七十三》 <i>History of the Southern Dynasties</i>, volume 73 (Knapp 2014,  p. 670)	3000168
+3000169	病积年	病積年	bìng jī nián	ill for many years	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 病 ill + 積年 many years; from 《南史·卷七十三》 <i>History of the Southern Dynasties</i>, volume 73 (Knapp 2014,  p. 670)	3000169
+3000170	到市	\N	dào shì	went to the market	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 到 arrive + 市 market; from 《南史·卷七十三》 <i>History of the Southern Dynasties</i>, volume 73 (Knapp 2014,  p. 670)	3000170
