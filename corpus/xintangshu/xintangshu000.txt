@@ -1,0 +1,29 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-06-04, <a
+   href="https://zh.wikisource.org/wiki/新唐書"
+  >https://zh.wikisource.org/wiki/新唐書</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  None
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    De Bary, Wm. Theodore, Irene Bloom, and Wing-tsit Chan 1999, 
+    <i>Sources of Chinese Tradition</i>,
+    Second Ed., Vol. One, New York: Columbia University Press, pp. 652-653.
+  </li>
+  <li>
+    Twitchett, Denis 2009, <i>Writing of Official History under the T’ang</i>.
+    Cambridge, GBR: Cambridge University Press, p. 60, 89.
+  </li>
+  <li>
+    Wu, Huaiqi and Chi Zhen 2018,
+    <i>An Historical Sketch of Chinese Historiography</i>i>, 
+    E-Book. Berlin: Springer, p. 34.
+  </li>
+</ol>
