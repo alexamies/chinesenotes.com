@@ -133,7 +133,6 @@ func GetHeadword(chinese string) (hw HeadwordDef, ok bool) {
 // Return a sorted array of headwords
 func GetHeadwords() []HeadwordDef {
 	//log.Printf("dictionary.GetHeadwords: Enter\n")
-	wsMap := readWSMap(config.LUFileNames())
 
 	// Read lexical units
 	hwmap := make(map[int][]*WordSenseEntry)
@@ -167,28 +166,32 @@ func GetHeadwords() []HeadwordDef {
 			//		hwId, ws.HeadwordId)
 			//}
 		}
+		simplified := &senses[0].Simplified
+		traditional := &senses[0].Traditional
 		sort.Ints(wsIds)
 		hwIdArray = append(hwIdArray, hwId)
 		wsArray := make([]WordSenseEntry, 0)
-		for _, wsId := range wsIds {
-			wsArray = append(wsArray, wsMap[wsId])
+		for _, sense := range wdict[*simplified] {
+			wsArray = append(wsArray, *sense)
 		}
 		pinyinArr := []string{}
 		for pinyin, _ := range pinyinMap {
 			pinyinArr = append(pinyinArr, pinyin)
 		}
-		simplified := &senses[0].Simplified
-		traditional := &senses[0].Traditional
 		// In case the simplified form maps to multiple traditional variants
-		for _, sense := range senses {
-			if sense.HeadwordId == hwId {
-				traditional = &sense.Traditional
-				break
-			}
-		}
+		//for _, sense := range senses {
+		//	if sense.HeadwordId == hwId {
+		//		traditional = &sense.Traditional
+		//		break
+		//	}
+		//}
 		hw := HeadwordDef{hwId, simplified, traditional,
 			pinyinArr, &wsArray}
 		hwIdMap[hwId] = hw
+		//if hwId == 821 {
+		//	fmt.Printf("dictionary.GetHeadwords: %s, %s, %d\n", *simplified,
+		//			*traditional, len(wsArray))
+		//}
 	}
 
 	// Write the headwords to the output file
@@ -286,7 +289,7 @@ func (ws *WordSenseEntry) IsProperNoun() bool {
 // files.
 // Parameters:
 //   wsfilename The name of the word sense file
-func ReadDict(wsFilenames []string) {
+func ReadDict(wsFilenames []string) []HeadwordDef {
 	wdict = make(map[string][]*WordSenseEntry)
 	for _, wsfilename := range wsFilenames {
 		log.Printf("dictionary.ReadDict: wsfilename: %s\n", wsfilename)
@@ -351,9 +354,15 @@ func ReadDict(wsFilenames []string) {
 			if trad != "\\N" && trad != simp {
 				wSenses, ok := wdict[trad]
 				if !ok {
-					wsSlice := make([]*WordSenseEntry, 1)
-					wsSlice[0] = newWs
-					wdict[trad] = wsSlice
+					// Multiple mappings for simplified to traditional
+					wSenses1, ok1 := wdict[simp]
+					if !ok1 {
+						wsSlice := make([]*WordSenseEntry, 1)
+						wsSlice[0] = newWs
+					 	wdict[trad] = wsSlice
+					} else {
+						wdict[trad] = append(wSenses1, newWs)
+					}
 				} else {
 					wdict[trad] = append(wSenses, newWs)
 				}
@@ -364,14 +373,15 @@ func ReadDict(wsFilenames []string) {
 				wsSlice[0] = newWs
 				wdict[simp] = wsSlice
 			} else {
-				//if int(int(hwId)) == 9806 {
-					//fmt.Printf("ReadDict: found simp %s in dict\n", simp)
-				//}
 				wdict[simp] = append(wSenses, newWs)
 			}
+			//if int(hwId) == 821 {
+			//	fmt.Printf("ReadDict: %d found simp %s in dict, len %d\n",
+			//		id, simp, len(wdict[simp]))
+			//}
 		}
 	}
-	GetHeadwords()
+	return GetHeadwords()
 }
 
 // Reads the Chinese-English lexical units into memory from the words.txt file

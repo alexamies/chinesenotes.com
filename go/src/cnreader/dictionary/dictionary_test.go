@@ -88,6 +88,20 @@ func TestFilterByDomain0(t *testing.T) {
 	FilterByDomain([]HeadwordDef{}, "")
 }
 
+// Test for 1:* simplified to traditional mapping with 台
+func TestGetHeadwords(t *testing.T) {
+	fmt.Printf("TestGetHeadwords: Begin unit test\n")
+	ReadDict(config.LUFileNames())
+	taiHW := hwIdMap[821]
+	numSenses := len(*taiHW.WordSenses)
+	numSensesExpected := 13
+	if numSensesExpected != numSenses {
+		t.Error("dictionary.TestGetHeadwords: Expected numSenses ",
+			numSensesExpected, ", got", numSenses, " for ", *taiHW.Simplified, 
+			", ", *taiHW.Traditional)
+	}
+}
+
 func TestGetHwMap1(t *testing.T) {
 	GetHeadwords()
 	hwIdMap := GetHwMap()
