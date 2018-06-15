@@ -8,7 +8,7 @@
 <h4>English translations</h4>
 <p>
   <li>
-    Xiu, Ouyang and Richard L Davis 2004,
+    Ouyang, Xiu and Richard L Davis 2004,
     <i>Historical Records of the Five Dynasties</i>,
     E-Book, New York: Columbia University Press.
   </li>
