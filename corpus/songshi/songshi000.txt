@@ -1,0 +1,38 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-06-16, <a
+   href="https://zh.wikisource.org/wiki/宋史"
+  >https://zh.wikisource.org/wiki/宋史</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  <li>
+    Chien, Cecilia Lee-fang 2004,
+    <i>Salt and State: An Annotated Translation of the Songshi Salt Monopoly
+    Treatise</i>,
+    Michigan: Center for Chinese Studies, University of Michigan.
+    This book contains a translation of one volume of the History of Song.
+  </li>
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Chan, Hok-lam 2014, 
+    “Chinese Official History at the Yuan Court: The Compilation of the Liao,
+    Chin, and Sung Histories,” 
+    in <i>China Under Mongol Rule</i>, edited by John D Langlois, e-book,
+    Princeton: Princeton University Press, pp. 56–106. 
+  </li>
+  <li>
+    Wilkinson, Endymion Porter 2015, 
+    <i>Chinese History: a New Manual</i>,
+    Cambridge and London: Harvard University Asia Center, pp. 756-757.
+  </li>
+  <li>
+    Wu, Huaiqi and Chi Zhen 2018,
+    <i>An Historical Sketch of Chinese Historiography</i>i>, 
+    E-Book. Berlin: Springer, p. 324.
+  </li>
+</ol>
