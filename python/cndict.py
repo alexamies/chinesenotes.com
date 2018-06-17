@@ -65,15 +65,21 @@ def PersonName(wdict, trad):
     t = trad[i]
     if t in wdict:
       entry = wdict[t]
-      english.append(entry["pinyin"])
-      for key in ACCENT_MAP:
-        english[i] = english[i].replace(key, ACCENT_MAP[key])
+      #print "%d, %s" % (i, t)
+      if "pinyin" in entry:
+        english.append(entry["pinyin"])
+        #print "%d, len english %d" % (i, len(english))
+        for key in ACCENT_MAP:
+          english[i] = english[i].replace(key, ACCENT_MAP[key])
+      else:
+        english.append(t)
     else:
-      print "%s not in dictionary"
-      english.append(pinyin)
+      #print "%s not in dictionary" % t
+      english.append(t)
 
   english[0] = english[0].title()
-  english[1] = english[1].title()
+  if len(english) > 1:
+    english[1] = english[1].title()
   engStr = english[0] + " "
   for j in range (1, len(english)):
     engStr += english[j]
