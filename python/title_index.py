@@ -10,25 +10,29 @@ public domain worldwide because the author died at least 100 years ago.
 
 def write_titles():
   dname = '../corpus/'
-  prefix = 'nanqishu'
+  prefix = 'songshi'
   with codecs.open('titles.txt', 'r', "utf-8") as title_file:
     with codecs.open('temp.txt', 'w', "utf-8") as f:
       i = 1
       j = 1
       k = 1
+      l = 1
       for line in title_file:
         tokens = line.split()
-        print(tokens)
+        #print(tokens)
         fname = ''
         english = u'Volume %d' % i
-        if tokens[2].startswith(u'本紀'):
+        if len(tokens) > 2 and tokens[1].startswith(u'本紀'):
           english += ' Annals %d' % i
-        elif tokens[2].startswith(u'志第'):
+        elif len(tokens) > 2 and tokens[1].startswith(u'志'):
           english += ' Treatises %d' % j
           j += 1
-        elif tokens[2].startswith(u'列傳'):
+        elif len(tokens) > 2 and u'列傳' in tokens[1]:
           english += ' Biographies %d' % k
           k += 1
+        elif len(tokens) > 2 and tokens[1].startswith(u'表'):
+          english += ' Tables %d' % l
+          l += 1
         line = line.strip()
         title = u'\t%s %s: \n' % (line, english)
         if i < 10:
