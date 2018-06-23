@@ -27,6 +27,7 @@ mkdir $WEB_DIR/analysis/jiutangshu
 mkdir $WEB_DIR/analysis/jiuwudaishi
 mkdir $WEB_DIR/analysis/laoshe
 mkdir $WEB_DIR/analysis/liangshu
+mkdir $WEB_DIR/analysis/liaoshi
 mkdir $WEB_DIR/analysis/liezi
 mkdir $WEB_DIR/analysis/liji
 mkdir $WEB_DIR/analysis/lunyu
@@ -82,6 +83,7 @@ mkdir $WEB_DIR/jiutangshu
 mkdir $WEB_DIR/jiuwudaishi
 mkdir $WEB_DIR/laoshe
 mkdir $WEB_DIR/liangshu
+mkdir $WEB_DIR/liaoshi
 mkdir $WEB_DIR/liezi
 mkdir $WEB_DIR/liji
 mkdir $WEB_DIR/lunyu

@@ -36,7 +36,6 @@
 电机工程学	Electrical Engineering	\N	\N
 娱乐	Entertainment	\N	\N
 环境	Environment	\N	\N
-日常生活	Everyday Life	\N	\N
 设备	Facilities	\N	\N
 财会	Finance and Accounting	\N	\N
 饮食	Food and Drink	\N	\N
