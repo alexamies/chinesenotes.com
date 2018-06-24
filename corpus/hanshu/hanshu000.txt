@@ -8,6 +8,14 @@
 <h4>English translations (partial)<h4>
 <ol>
   <li>
+    Cullen, Christopher 2017,
+    <i>Foundations of Celestial Reckoning - Three Ancient Chinese Astronomical
+    Systems<i>,
+    E-Book=, London and New York: Routledge.
+    This book contains translations of some  passages relating to 
+    astronomy and calendrics.
+  </li>
+  <li>
     Dubs, Homer H trans. 1938-55,
     <i>The History of the Former Han Dynasty</i>,
     3 vols. Baltimore: Waverly,

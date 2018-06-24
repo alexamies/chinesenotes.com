@@ -7,7 +7,13 @@
 
 <h4>English translations<h4>
 <p>
-  None
+  <li>
+    Cullen, Christopher 2018,
+    <i>Heavenly Numbers: Astronomy and Authority in Early Imperial China</i>,
+    Oxford: Oxford University Press.
+    This book contains translations of some short passages relating to 
+    astronomy and calendrics.
+  </li>
 </p>
 
 <h4>Discussion<h4>
@@ -16,6 +22,6 @@
     Durrant, Stephen 2017, 'Chapter 13: Histories (Shi 史),' in 
     Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
     Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, 
-    e-book, New York: Oxford University Press, p. 187.
+    e-book, New York: Oxford University Press, pp. 187-196.
   </li>
 </ol>
