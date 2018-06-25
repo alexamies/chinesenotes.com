@@ -1,0 +1,33 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-06-24, <a
+   href="https://zh.wikisource.org/wiki/金史"
+  >https://zh.wikisource.org/wiki/金史</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  <li>
+    Chan, Hok-lam 1985,   
+    <i>Legitimation in Imperial China: Discussions Under the Jurchen-Chin
+    Dynasty y (1115–1234)</i>,
+    Seattle, London: Washington University Press.
+    This book contains translations of numerous sections.
+  </li>
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Chan, Hok-lam 2014, 
+    “Chinese Official History at the Yuan Court: The Compilation of the Liao,
+    Chin, and Sung Histories,” 
+    in <i>China Under Mongol Rule</i>, edited by John D Langlois, e-book,
+    Princeton: Princeton University Press, pp. 56–106. 
+  </li>
+  <li>
+    Wilkinson, Endymion Porter 2015, 
+    <i>Chinese History: a New Manual</i>,
+    Cambridge and London: Harvard University Asia Center, p. 771.
+  </li>
+</ol>

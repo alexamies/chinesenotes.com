@@ -22,6 +22,7 @@ mkdir $WEB_DIR/analysis/hanfeizi
 mkdir $WEB_DIR/analysis/hanshu
 mkdir $WEB_DIR/analysis/houhanshu
 mkdir $WEB_DIR/analysis/huainanzi
+mkdir $WEB_DIR/analysis/jinshi
 mkdir $WEB_DIR/analysis/jinshu
 mkdir $WEB_DIR/analysis/jiutangshu
 mkdir $WEB_DIR/analysis/jiuwudaishi
@@ -78,6 +79,7 @@ mkdir $WEB_DIR/hanshu
 mkdir $WEB_DIR/houhanshu
 mkdir $WEB_DIR/huainanzi
 mkdir $WEB_DIR/images
+mkdir $WEB_DIR/jinshi
 mkdir $WEB_DIR/jinshu
 mkdir $WEB_DIR/jiutangshu
 mkdir $WEB_DIR/jiuwudaishi
