@@ -12,7 +12,9 @@
     <i>Salt and State: An Annotated Translation of the Songshi Salt Monopoly
     Treatise</i>,
     Michigan: Center for Chinese Studies, University of Michigan.
-    This book contains a translation of one volume of the History of Song.
+    This book contains a translation of volumes 181-183 of the History of Song.
+    Maps corresponding to the main roads described in the volumes on geagraphy
+    (85-90) are also included.
   </li>
 </p>
 
