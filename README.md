@@ -1,6 +1,7 @@
 # Chinese Notes Project
 ## About the project
-This is a project for the study of modern and literary Chinese language. It
+Chinese-English dictionary and digital library of literary Chinese classic
+and historic texts for English speakers. It
 includes a Chinese-English dictionary, a corpus management system written in Go, 
 web pages for learning grammar and such, a collection of texts, and a system for
 looking up the words in the texts by mouse over and popover by clicking on the

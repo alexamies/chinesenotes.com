@@ -193,3 +193,17 @@
 3000193	砺镞	礪鏃	lì zú	sharpen a javelin	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 礪 sharpen + 鏃 arrowhead; from 《新五代史·卷五》 <i>New History of the Five Dynasties</i>, volume 6 (Ouyang and Davis 2004, p. 51)	3000193
 3000194	莫测	莫測	mòcè	failed to notice	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 莫 not + 測 observe; from 《新五代史·卷五》 <i>New History of the Five Dynasties</i>, volume 6 (Ouyang and Davis 2004, p. 51)	3000194
 3000195	赐药	賜藥	cì yào	offering medicines	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 賜 offer + 藥 medicine; from 《新五代史·卷五》 <i>New History of the Five Dynasties</i>, volume 6 (Ouyang and Davis 2004, p. 51)	3000195
+3000196	吾亦怯	\N	wúyìqiè	scare even me	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 吾 me + 亦 also + 怯 afraid; from 《新五代史·卷五》 <i>New History of the Five Dynasties</i>, volume 6 (Ouyang and Davis 2004, p. 51)	3000196
+3000197	右臂	\N	yòu bì	right arm	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 右 right + 臂 arm; from 《新五代史·卷五》 <i>New History of the Five Dynasties</i>, volume 6 (Ouyang and Davis 2004, p. 52)	3000197
+3000198	当之	當之	dāng zhī	handle the matter	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 當 bear + 之 it; from 《新五代史·卷五》 <i>New History of the Five Dynasties</i>, volume 6 (Ouyang and Davis 2004, p. 52)	3000198
+3000199	无备	無備	wú bèi	unprepared	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 無 without + 備 preparation; from 《新五代史·卷五》 <i>New History of the Five Dynasties</i>, volume 6 (Ouyang and Davis 2004, p. 52)	3000199
+3000200	悉军	悉軍	xī jūn	entire army	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 悉 entire + 軍 army; from 《新五代史·卷五》 <i>New History of the Five Dynasties</i>, volume 6 (Ouyang and Davis 2004, p. 53)	3000200
+3000201	之类	之類	zhī lèi	types of	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 之 of + 類 type; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 93)	6694
+3000202	引池	\N	yǐn chí	drawn from ponds	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 引 draw + 池 pond; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 93)	3000202
+3000203	鬻海	\N	yù hǎi	produced from sea brine	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 鬻 produce + 海 sea; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 93)	3000203
+3000204	削平诸国	削平諸國	xuèpíng zhū guó	unified the kingdoms	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 削平 pacify + 諸 all + 國 kingdom; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, pp. 93-94)	3000204
+3000205	变革不常	變革不常	biàngé bù cháng	changed frequently	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 變革 change + 不 not + 常 constant; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 94)	3000205
+3000206	尤重	\N	yóu zhòng	consistently emphasized	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 尤 especially + 重 important; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 94)	3000206
+3000207	私贩之禁	私販之禁	sīfàn zhī jìn	prohibition of private sales	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 私販 sell privately + 之 + possessive 禁 prohibition; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 94)	3000207
+3000209	水耗	\N	shuǐ hào	water evaporated	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 水 water + 耗 consumed; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 95)	3000209
+3000210	巡逻之兵	巡邏之兵	xúnluó zhī bīng	patrolmen	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 巡邏 patrol + 之 attribute + 兵 soldier; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 96)	3000210
