@@ -205,5 +205,17 @@
 3000205	变革不常	變革不常	biàngé bù cháng	changed frequently	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 變革 change + 不 not + 常 constant; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 94)	3000205
 3000206	尤重	\N	yóu zhòng	consistently emphasized	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 尤 especially + 重 important; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 94)	3000206
 3000207	私贩之禁	私販之禁	sīfàn zhī jìn	prohibition of private sales	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 私販 sell privately + 之 + possessive 禁 prohibition; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 94)	3000207
+3000208	池水	\N	chí shuǐ	pond water	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 池 pond + 水 water; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 95)	3000208
 3000209	水耗	\N	shuǐ hào	water evaporated	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 水 water + 耗 consumed; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 95)	3000209
 3000210	巡逻之兵	巡邏之兵	xúnluó zhī bīng	patrolmen	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 巡邏 patrol + 之 attribute + 兵 soldier; from 《宋史·卷一百八十一》 <i>History of Song</i>, volume 181 (Chien 2004, p. 96)	3000210
+3000211	北行	\N	běixíng	going northward	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 北 north + 行 travel; from 《遼史·卷三十》 <i>History of Liao</i>, volume 30 (Biran 2005, p. 26)	3000211
+3000212	艰难创业	艱難創業	jiānnán chuàngyè	endure many trials	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 艱難 difficult + 創業 undertaking; from 《遼史·卷三十》 <i>History of Liao</i>, volume 30 (Biran 2005, p. 29)	3000212
+3000213	残我黎庶	殘我黎庶	cánwǒlíshù	massacre our people	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 殘 massacre + 我 our + 黎庶 people; from 《遼史·卷三十》 <i>History of Liao</i>, volume 30 (Biran 2005, p. 29)	3000213
+3000214	欲借力	\N	yù jiè lì	ask your assistance	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 欲 desire + 借 borrow + 力 strength; from 《遼史·卷三十》 <i>History of Liao</i>, volume 30 (Biran 2005, p. 29)	3000214
+3000215	翦我仇敌	翦我仇敵	jiǎn wǒ chóudí	eliminate our common enemy	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 翦 eliminate + 我 our + 仇敵 enemy; from 《遼史·卷三十》 <i>History of Liao</i>, volume 30 (Biran 2005, p. 29)	3000215
+3000216	复我疆宇	復我疆宇	fù wǒ jiāngyǔ	reestablishment of our empire	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 復 reestablish + 我 our + 疆宇 territory; from 《遼史·卷三十》 <i>History of Liao</i>, volume 30 (Biran 2005, p. 29)	3000216
+3000217	民于难	民於難	mín yú nán	misery of our people	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 民 people + 於 in + 難 difficulty; from 《遼史·卷三十》 <i>History of Liao</i>, volume 30 (Biran 2005, p. 29)	3000217
+3000218	觇我军	覘我軍	chān wǒ jūn	scouting against our army	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 覘 spy + 我 our + 軍 army; from 《遼史·卷八十一》 <i>History of Liao</i>, volume 81 (Standen 2007, p. 159)	3000218
+3000219	获之	獲之	huò zhī	captured him	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 獲 capture + 之 him; from 《遼史·卷八十一》 <i>History of Liao</i>, volume 81 (Standen 2007, p. 159)	3000219
+3000220	自临大位	自臨大位	zì lín dàwèi	you yourself are in a high position	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 自 oneself + 臨 overlook + 大位 high position; from 《遼史·卷八十一》 <i>History of Liao</i>, volume 81 (Standen 2007, p. 166)	3000220
+3000221	密言	\N	mì yán	secretly report	phrase	\N	\N	古文	Classical Chinese	\N	\N	\N	\N	TM: 密 secret + 言 say; from 《遼史·卷八十一》 <i>History of Liao</i>, volume 81 (Standen 2007, p. 166)	43981

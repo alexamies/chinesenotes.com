@@ -7,7 +7,12 @@
 
 <h4>English translations</h4>
 <p>
-  None
+  <li>
+    Standen, Naomi 2007,
+    <i>Unbounded Loyalty: Frontier Crossing in Liao China</i>,
+    E-Book. Honolulu: University of Hawaii Press.
+    Contains translations of fragments.
+  </li>
 </p>
 
 <h4>Discussion<h4>
