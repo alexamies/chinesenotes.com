@@ -56,6 +56,7 @@ mkdir $WEB_DIR/analysis/xunzi
 mkdir $WEB_DIR/analysis/yeshengtao
 mkdir $WEB_DIR/analysis/yijing
 mkdir $WEB_DIR/analysis/yili
+mkdir $WEB_DIR/analysis/yuanshi
 mkdir $WEB_DIR/analysis/zhanguoce
 mkdir $WEB_DIR/analysis/zhouli
 mkdir $WEB_DIR/analysis/zhoushu
@@ -116,6 +117,7 @@ mkdir $WEB_DIR/xunzi
 mkdir $WEB_DIR/yeshengtao
 mkdir $WEB_DIR/yijing
 mkdir $WEB_DIR/yili
+mkdir $WEB_DIR/yuanshi
 mkdir $WEB_DIR/zhanguoce
 mkdir $WEB_DIR/zhouli
 mkdir $WEB_DIR/zhoushu
