@@ -1,8 +1,8 @@
 <h4>Source<h4>
 <p>
   Wikisource, accessed 2018-07-04, <a
-   href="https://zh.wikisource.org/wiki/金史"
-  >https://zh.wikisource.org/wiki/金史</a>.
+   href="https://zh.wikisource.org/wiki/元史"
+  >https://zh.wikisource.org/wiki/元史</a>.
 </p>
 
 <h4>English translations</h4>
@@ -24,12 +24,21 @@
 <h4>Discussion<h4>
 <ol>
   <li>
-    Farquhar, David M, 
+    Farquhar, David M 2014, 
     “Structure and Function in the Yuan Imperial Government,” 
     in <i>China Under Mongol Rule</i>, edited by John D Langlois,
     E-Book, Princeton: Princeton University Press, pp. 25–55.
     This chapters explains much of the terminology used in volumes 85-92 on 
     official posts.
+  </li>
+  <li>
+    Lao, Yan-Shuan 2014, 
+    “Southern Chinese Scholars and Educational Institutions in Early Yuan: Some
+    Preliminary Remarks,” 
+    in <i>China Under Mongol Rule</i>, edited by John D Langlois,
+    E-Book, Princeton: Princeton University Press, pp. 107-134.
+    This chapters explains much of the terminology used in volumes 81-84 on 
+    selection of officials.
   </li>
   <li>
     Wilkinson, Endymion Porter 2015, 
