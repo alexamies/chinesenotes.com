@@ -33,6 +33,7 @@ mkdir $WEB_DIR/analysis/liezi
 mkdir $WEB_DIR/analysis/liji
 mkdir $WEB_DIR/analysis/lunyu
 mkdir $WEB_DIR/analysis/mengzi
+mkdir $WEB_DIR/analysis/mingshi
 mkdir $WEB_DIR/analysis/mozi
 mkdir $WEB_DIR/analysis/nanqishu
 mkdir $WEB_DIR/analysis/nanshi
@@ -91,6 +92,7 @@ mkdir $WEB_DIR/liezi
 mkdir $WEB_DIR/liji
 mkdir $WEB_DIR/lunyu
 mkdir $WEB_DIR/mengzi
+mkdir $WEB_DIR/mingshi
 mkdir $WEB_DIR/mozi
 mkdir $WEB_DIR/mp3
 mkdir $WEB_DIR/nanqishu
