@@ -6,20 +6,32 @@
 
 <h4>English translations<h4>
 <p>
-  None
+  <li>
+    Csikszentmihalyi, Mark 2006,
+    <i>Readings in Han Chinese Thought</i>,
+    Indianapolis (Ind.): Hackett,
+    pp. 127-137.
+    This text includes a partial translation of 
+    卷十八 辨物 Chapter 18: Distinguishes Things.
+  </li>
 </p>
 
 <h4>Discussion<h4>
 <ol>
   <li>
+    Knechtges, David R 1993, Shuo yüan 說苑,” In
+    Michael Loewe, (ed.) <i>Early Chinese Texts: A Bibliographical Guide</i>, 
+    Berkeley: Society for the Study of Early China, pp. 443-445.
+  </li>
+  <li>
+    Rouzer, Paul F 2007, <i>A New Practical Primer of Literary Chinese</i>,
+    Cambridge, Mass.: Harvard University Asia Center: Distributed by
+    Harvard University Press, pp. 3-106
+  </li>
+  <li>
     Tian, Xiaofei 2017, 'Chapter 10: Literary Leaning: Encyclopedias and Epitomes,'
     in  Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), 
     <i>The Oxford Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, 
     e-book, New York: Oxford University Press, p. 142.
-  </li>
-  <li>
-    Knechtges, David R 1993, Shuo yüan 說苑,” In
-    Michael Loewe, (ed.) <i>Early Chinese Texts: A Bibliographical Guide</i>, 
-    Berkeley: Society for the Study of Early China, pp. 443-445.
   </li>
 </ol>
