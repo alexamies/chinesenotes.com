@@ -20,7 +20,7 @@
     “Crime and Punishment: the Case of Liu Hui in the Wei Shu,” 
     In Wendy Swartz et al eds 
     <i>Early Medieval China: A Sourcebook</i>, 
-    e-book, New York: Columbia University Press, pp. 181-84. 
+    e-book, New York: Columbia University Press, pp. 181-184. 
     This chapter contains parts of volume 111.
   </li>
 </p>
@@ -28,7 +28,7 @@
 <h4>Discussion<h4>
 <ol>
   <li>
-    Klein, Kenneth 2015, Wei shu 魏書,”
+    Klein, Kenneth 2015, “Wei shu 魏書,”
     In <i>Early Medieval Chinese Texts: A Bibliographical Guide</i>,
     edited by Albert E Dien, Cynthia Louise Chennault, Keith Nathaniel Knapp,
     and Alan J Berkowitz, 

@@ -56,6 +56,7 @@ erya.csv	erya_collection.html	Er Ya 《爾雅》	The earliest Chinese dictionary
 shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	shuowen/shuowen000.txt	Literary Chinese	Prose	Northern and Southern Dynasties	historic dictionary
 chuci.csv	chuci.html	Songs of Chu 《楚辭》	An early collection of Warring States poemsby 屈原 Qu Yuan, compiled by Liu Xiang 劉向 in the Han	chuci/chuci000.txt	Literary Chinese	Poetry	Warring States	poetry
 tang_poetry.csv	poetry.html	Selections of Tang Poetry	\N	\N	Literary Chinese	Poetry	Tang	poetry
+wenxin.csv	wenxin.html	The Literary Mind and the Carving of Dragons 《文心雕龍》	 An early Chinese text in literature theory by 劉勰 Liu Xie	wenxin/wenxin000.txt	Literary Chinese	Prose	465－520	literature
 sishuzhangju.csv	sishuzhangju.html	Commentaries on the Four Books by Zhu Xi 朱熹《四書章句集注》	\N	sishuzhangju/sishuzhangju.txt	Literary Chinese	Prose	Circa 1200	Confucian
 tea_classic.csv	tea_classic.html	The Classic of Tea 《茶經》	Written by 陆羽 Lu Yu	tea_classic00.txt	Literary Chinese	Prose	760-780	non-fiction
 modern_articles.csv	media_articles.html	Media articles	\N	\N	Modern Chinese	Prose	Modern	non-fiction
