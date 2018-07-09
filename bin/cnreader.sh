@@ -1,7 +1,11 @@
 #!/bin/bash
 ## Generates the HTML pages for the web site
+## Run this from the top level directory of the chinesenotes.com 
+## directory tree
 ## DEV_HOME should be set to the location of the Go lang software
 ## CNREADER_HOME should be set to the location of the staging system
+export DEV_HOME=`pwd`
+export CNREADER_HOME=`pwd`
 export WEB_DIR=web-staging
 export TEMPLATE_HOME=html/material-templates
 mkdir $WEB_DIR
