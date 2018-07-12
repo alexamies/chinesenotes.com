@@ -2,8 +2,21 @@
 
 <h4>English translations<h4>
 <ol>
-  <li>Legge, James 1898, <i>Sacred Books of the East</i>, The Chinese Classics, volume 4, <a href="https://ctext.org/book-of-poetry">https://ctext.org/book-of-poetry</a></li>
-  <li>Waley, Arthur 2012, <i>The Book of Songs</i>, originally published 1937, Routledge.</li>
+  <li>
+    Legge, James 1898, <i>Sacred Books of the East</i>, The Chinese Classics,
+    volume 4, <a href="https://ctext.org/book-of-poetry"
+    >https://ctext.org/book-of-poetry</a>
+  </li>
+  <li>
+    Owen, Stephen 1997 <i>An Anthology of Chinese Literature: Beginnings to
+    1911</i>, 
+    New York: W.W. Norton, pp. 11-57.
+    Partial translation.
+  </li>
+  <li>
+    Waley, Arthur 2012, <i>The Book of Songs</i>, originally published 1937,
+    Routledge.
+  </li>
 </ol>
 
 <h4>Discussion<h4>

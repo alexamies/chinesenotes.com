@@ -12,6 +12,12 @@
     Tso Chuen, <a href="https://en.wikisource.org/wiki/The_Ch%27un_Ts%27ew">https://en.wikisource.org/wiki/The_Ch'un Ts'ew</a>
   </li>
   <li>
+    Owen, Stephen 1997 <i>An Anthology of Chinese Literature: Beginnings to
+    1911</i>, 
+    New York: W.W. Norton, pp. 77-101.
+    Partial translation.
+  </li>
+  <li>
     Watson, Burton 1989, <i>The Tso chuan: Selections from China's Oldest
     Narrative History</i>, New York: Columbia University Press.
   </li>

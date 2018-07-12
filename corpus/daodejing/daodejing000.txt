@@ -13,7 +13,13 @@
   </li>
   <li>
     Melvyn, Roy 2012, <i>The Four Taoist Classics – Daodejing, Huahujing,
-    Zhuangzi and Liezi</i>, e-book, Lulu Press, Inc.
+    Zhuangzi and Liezi</i>, E-Book, Lulu Press, Inc.
+  </li>
+  <li>
+    Wagner, Rudolf G 2003, 
+    <i>Chinese Reading of the Daodejing, A: Wang Bi's Commentary on the Laozi 
+    with Critical Text and Translation</i>, 
+    E-Book, New York, SUNY Press.
   </li>
 </ol>
 
@@ -29,5 +35,10 @@
     in  Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), 
     <i>The Oxford Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, 
     e-book, New York: Oxford University Press, p. 119.
+  </li>
+  <li>
+    Wagner, Rudolf G 2000, 
+    <i>The Craft of a Chinese Commentator: Wang Bi on the Laozi</i>, 
+    E-Book, New York, SUNY Press.
   </li>
 </ol>

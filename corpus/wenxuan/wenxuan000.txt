@@ -1,0 +1,59 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-07-10, <a href="https://zh.wikisource.org/wiki/昭明文選"
+  >https://zh.wikisource.org/wiki/昭明文選</a>.
+</p>
+
+<h4>English translations<h4>
+<p>
+  <li>
+    Knechtges, David R 1982,
+    <i>Wen Xuan Or Selections of Refined Literature: Rhapsodies on Metropolises
+    and Capitals</i>,
+    Princeton: Princeton University Press.
+  </li>
+  <li>
+    Knechtges, David R 1987,
+    <i>Wen Xuan or Selections of Refined Literature, Volume 2: Rhapsodies on
+    Sacrifices, Hunting, Travel, Sightseeing, Palaces and Halls, Rivers and
+    Seas</i>,
+    Princeton: Princeton University Press.
+  </li>
+  <li>
+    Knechtges, David R 1996,
+    <i>Wen Xuan or Selections of Refined Literature, Volume 3: Rhapsodies on
+    Natural Phenomena, Birds and Animals, Aspirations and Feelings, Sorrowful
+    Laments, Literature, Music, and Passions</i>,
+    Princeton: Princeton University Press.
+  </li>
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Idema, W L and Haft, L 1997, <i>A Guide to Chinese Literature</i>, 
+    Ann Arbor: Center for Chinese Studies, University of Michigan,
+    p. 112.
+  </li>
+  <li>
+    Knechtges, David R 1995, 'Problems of Translation: The Wen hsuan in English,'
+    in <i>Translating Chinese Literature</i>, Chen Ou-yang (ed.),
+    Bloomington and Indianapolis: Indiana University Press, 
+    pp. 41-56.
+  </li>
+  <li>
+    Knechtges, David R 2017, 'Chapter 19: Pre-Tang Anthologies and Anthologization,'
+    in <i>The Oxford Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, 
+    Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), 
+    New York: Oxford University Press,
+    pp. 295-301.
+  </li>
+  <li>
+    Knechtges, David R 2015, “Wen xuan 文選,”
+    In <i>Early Medieval Chinese Texts: A Bibliographical Guide</i>,
+    edited by Albert E Dien, Cynthia Louise Chennault, Keith Nathaniel Knapp,
+    and Alan J Berkowitz, 
+    Berkeley: Institute of East Asian Studies University of California,
+    pp. 381-388.
+  </li>
+</ol>

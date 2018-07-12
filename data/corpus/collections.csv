@@ -51,10 +51,11 @@ shanhaijing.csv	shanhaijing.html	Classic of Mountains and Seas 《山海經》	A
 daodejing.csv	daodejing.html	Daode Jing 《道德經》	With commentary by 王弼 Wang Bi	daodejing/daodejing000.txt	Literary Chinese	Prose	Warring States	Taoist
 liezi.csv	liezi.html	Liezi 《列子》	Attributed to 杨朱 Yang Zhu	liezi/liezi000.txt	Literary Chinese	Prose	Warring States	Taoist
 zhuangzi.csv	zhuangzi.html	Zhuangzi 《莊子》	With English translation by James Legge 1891, <i>The Writings of Chuang Tzu</i> Text	zhuangzi/zhuangzi000.txt	Literary Chinese	Prose	Warring States	Taoist
-literary_chinese_prose.csv	literary_chinese_prose.html	A short introduction to literary Chinese and a selection of Literary Chinese Introduction	A collection of historic texts from well known writers	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical	anthology
+literary_chinese_prose.csv	literary_chinese_prose.html	Notes on Literary Chinese	A short introduction to literary Chinese and a selection of Literary Chinese Introduction	literary_chinese_prose00.txt	Literary Chinese	Prose	Classical	anthology
 erya.csv	erya_collection.html	Er Ya 《爾雅》	The earliest Chinese dictionary	erya00.txt	Literary Chinese	Prose	Han	historic dictionary
 shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	shuowen/shuowen000.txt	Literary Chinese	Prose	Northern and Southern Dynasties	historic dictionary
-chuci.csv	chuci.html	Songs of Chu 《楚辭》	An early collection of Warring States poemsby 屈原 Qu Yuan, compiled by Liu Xiang 劉向 in the Han	chuci/chuci000.txt	Literary Chinese	Poetry	Warring States	poetry
+chuci.csv	chuci.html	Songs of Chu 《楚辭》	An early collection of Warring States poemsby 屈原 Qu Yuan, compiled by Liu Xiang 劉向 in the Han	chuci/chuci000.txt	Literary Chinese	Poetry	Han	poetry
+wenxuan.csv	wenxuan.html	Wenxuan 《文選》	An  anthology of poetry covering the Warring States to c. 500 by 萧统 Xiao Tong (501-531) with commentary by 李善 Li Shan (630-689)	wenxuan/wenxuan000.txt	Literary Chinese	Poetry	520-530	poetry
 tang_poetry.csv	poetry.html	Selections of Tang Poetry	\N	\N	Literary Chinese	Poetry	Tang	poetry
 wenxin.csv	wenxin.html	The Literary Mind and the Carving of Dragons 《文心雕龍》	 An early Chinese text in literature theory by 劉勰 Liu Xie	wenxin/wenxin000.txt	Literary Chinese	Prose	465－520	literature
 sishuzhangju.csv	sishuzhangju.html	Commentaries on the Four Books by Zhu Xi 朱熹《四書章句集注》	\N	sishuzhangju/sishuzhangju.txt	Literary Chinese	Prose	Circa 1200	Confucian

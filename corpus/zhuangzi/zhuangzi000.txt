@@ -1,6 +1,16 @@
 <h4>Source<h4>
 <p>
-  Chinese Text Project <a href="http://ctext.org/zhuangzi">http://ctext.org/zhuangzi</a>, English translation: 'The Writings of Chuang Tzu', James Legge, 1891
+  <li>
+    Chinese Text Project <a href="http://ctext.org/zhuangzi"
+    >http://ctext.org/zhuangzi</a>, 
+    'The Writings of Chuang Tzu', James Legge, 1891
+  </li>
+  <li>
+    Owen, Stephen 1997 <i>An Anthology of Chinese Literature: Beginnings to
+    1911</i>, 
+    New York: W.W. Norton, pp. 104-123.
+    Partial translation.
+  </li>
 </p>
 
 <h4>Discussion<h4>
