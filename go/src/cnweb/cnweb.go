@@ -156,6 +156,11 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 	q := "No Query"
 	if len(query) > 0 {
 		q = query[0]
+	} else {
+		query := queryString["text"]
+		if len(query) > 0 {
+			q = query[0]
+		}
 	}
 	results, err := find.FindDocuments(parser, q)
 	if err != nil {
@@ -413,6 +418,7 @@ func sessionHandler(w http.ResponseWriter, r *http.Request) {
 //Entry point for the web application
 func main() {
 	applog.Info("cnweb.main Starting cnweb")
+	http.HandleFunc("/#", findHandler)
 	http.HandleFunc("/find/", findHandler)
 	http.HandleFunc("/findmedia", mediaDetailHandler)
 	http.HandleFunc("/healthcheck/", healthcheck)
