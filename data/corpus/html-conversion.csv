@@ -1,5 +1,6 @@
 # HTML files outside the corpus to be converted with HTML templates
 # Raw file, Output file, Template
+../html/404.html	404.html	index-template.html	false
 ../html/abbreviations-raw.html	abbreviations.html	about-template.html	false
 ../html/about-raw.html	about.html	about-template.html	false
 ../corpus/poetry-raw.html	poetry.html	reference-template.html	true

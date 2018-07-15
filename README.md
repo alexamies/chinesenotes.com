@@ -416,9 +416,6 @@ app and web tiers.
 # Deploy the app tier
 kubectl apply -f kubernetes/app-deployment.yaml 
 kubectl apply -f kubernetes/app-service.yaml
-
-# Configure public ingress
-kubectl apply -f kubernetes/web-ingress.yaml
 ```
 
 Find the name of the forwarding-rule and url-map created with the ingress object
@@ -441,7 +438,6 @@ gcloud compute backend-services create cnotes-service \
      --protocol HTTP \
      --health-checks cnotes-app-check \
      --global
-INSTANCE_GROUP=gke-cnotes-cluster-default-pool-42ceda90-grp
 gcloud compute backend-services add-backend cnotes-service \
     --balancing-mode UTILIZATION \
     --max-utilization 0.8 \
@@ -486,19 +482,9 @@ the instance group port name.
 To update an existing deployment using the GCP Container Registry
 
 ```
-TAG=prototype19
-kubectl set image deployment/hsingyundl-web hsingyundl-web=gcr.io/$PROJECT/hsingyundl-web-image:$TAG
-kubectl set image deployment/hsingyundl-app hsingyundl-app=gcr.io/$PROJECT/hsingyundl-app-image:$TAG
-
-# If configuration changes outside image are needed:
-kubectl get deployment hsingyundl-web -o yaml > kubernetes/web-deployment.yaml
-kubectl get deployment hsingyundl-app -o yaml > kubernetes/app-deployment.yaml
-
 # Make edits
 kubectl apply -f kubernetes/db-deployment.yaml
 kubectl apply -f kubernetes/db-service.yaml
 kubectl apply -f kubernetes/app-deployment.yaml
 kubectl apply -f kubernetes/app-service.yaml
-kubectl apply -f kubernetes/web-deployment.yaml
-kubectl apply -f kubernetes/web-ingress.yaml
 ```

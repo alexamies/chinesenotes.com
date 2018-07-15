@@ -15,6 +15,7 @@ import (
 	"html/template"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -436,5 +437,6 @@ func main() {
 	http.HandleFunc("/loggedin/reset_password_submit", resetPasswordHandler)
 	http.HandleFunc("/loggedin/submitcpwd", changePasswordHandler)
 	http.HandleFunc("/", displayHome)
-	http.ListenAndServe(":8080", nil)
+	portStr := ":" + strconv.Itoa(webconfig.GetPort())
+	http.ListenAndServe(portStr, nil)
 }

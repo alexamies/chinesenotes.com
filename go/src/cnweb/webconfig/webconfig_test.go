@@ -11,7 +11,15 @@ func TestInit(t *testing.T) {
 	log.Printf("TestInit: Begin unit tests\n")
 }
 
-// Test check login method
+// Test default serving port
+func TestGetPort(t *testing.T) {
+	port := GetPort()
+	if port != 8080 {
+		t.Error("TestGetPort: port = ", port)
+	}
+}
+
+// Test site domain
 func TestGetSiteDomain(t *testing.T) {
 	domain := GetSiteDomain()
 	if domain != "localhost" {

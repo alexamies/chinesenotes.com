@@ -9,6 +9,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -74,6 +75,19 @@ func GetPasswordResetURL() string {
 		passwordResetURL = GetVar("PasswordResetURL")
 	}
 	return passwordResetURL
+}
+
+// Get environment variable for serving port
+func GetPort() int {
+	portString := os.Getenv("PORT")
+	if portString == "" {
+		portString = "8080"
+	}
+	port, err := strconv.Atoi(portString)
+	if err != nil {
+		port = 8080
+	}
+	return port
 }
 
 // Get the domain name of the site
