@@ -13,8 +13,8 @@ Fields
 - count
 - frequency per 10,000 words
 
-word_frequencies.txt
-Frequencies per document
+word_freq_doc.txt
+Frequencies in each document of the corpus
 Fields:
 - Chinese word (either simplified or traditional)
 - count
