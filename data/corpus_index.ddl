@@ -41,3 +41,16 @@ CREATE TABLE document (
     CHARACTER SET UTF8
     COLLATE utf8_general_ci
 ;
+
+/*
+ * Table for word frequencies in documents
+ */
+CREATE TABLE word_freq_doc (
+	word VARCHAR(256) NOT NULL,
+	frequency INT UNSIGNED NOT NULL,
+	rate FLOAT NOT NULL,
+    document VARCHAR(256) NOT NULL
+	)
+    CHARACTER SET UTF8
+    COLLATE utf8_general_ci
+;
