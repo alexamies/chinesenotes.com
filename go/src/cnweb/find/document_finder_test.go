@@ -2,13 +2,14 @@
 package find
 
 import (
-	"log"
+	"fmt"
+	"sort"
 	"testing"
 )
 
 // Test package initialization, which requires a database connection
 func TestInit(t *testing.T) {
-	log.Printf("TestInit: Begin unit tests\n")
+	fmt.Printf("TestInit: Begin unit tests\n")
 }
 
 func TestFindDocuments1(t *testing.T) {
@@ -54,7 +55,7 @@ func TestFindInBody0(t *testing.T) {
 		t.Error("TestFindInBody0: expected an error, ", err)
 		return
 	}
-	log.Printf("TestFindInBody0, len(docSimilarity) = %d", len(docSimilarity))
+	fmt.Printf("TestFindInBody0, len(docSimilarity) = %d", len(docSimilarity))
 }
 
 func TestFindInBody1(t *testing.T) {
@@ -64,7 +65,7 @@ func TestFindInBody1(t *testing.T) {
 		t.Error("TestFindInBody0: expected an error, ", err)
 		return
 	}
-	log.Printf("TestFindInBody1, len(docSimilarity) = %d", len(docSimilarity))
+	fmt.Printf("TestFindInBody1, len(docSimilarity) = %d", len(docSimilarity))
 }
 
 func TestFindInBody2(t *testing.T) {
@@ -73,7 +74,7 @@ func TestFindInBody2(t *testing.T) {
 	if err != nil {
 		t.Error("TestFindInBody: got error, ", err)
 	}
-	log.Printf("TestFindInBody2, len(docSimilarity) = %d", len(docSimilarity))
+	fmt.Printf("TestFindInBody2, len(docSimilarity) = %d", len(docSimilarity))
 }
 
 func TestFindInBody3(t *testing.T) {
@@ -82,7 +83,7 @@ func TestFindInBody3(t *testing.T) {
 	if err != nil {
 		t.Error("TestFindInBody: got error, ", err)
 	}
-	log.Printf("TestFindInBody3, len(docSimilarity) = %d", len(docSimilarity))
+	fmt.Printf("TestFindInBody3, len(docSimilarity) = %d", len(docSimilarity))
 }
 
 func TestFindInBody4(t *testing.T) {
@@ -91,7 +92,7 @@ func TestFindInBody4(t *testing.T) {
 	if err != nil {
 		t.Error("TestFindInBody: got error, ", err)
 	}
-	log.Printf("TestFindInBody4, len(docSimilarity) = %d", len(docSimilarity))
+	fmt.Printf("TestFindInBody4, len(docSimilarity) = %d", len(docSimilarity))
 }
 
 func TestFindWords1(t *testing.T) {
@@ -112,5 +113,29 @@ func TestFindWords2(t *testing.T) {
 	if len(words) != 1 {
 		t.Error("TestFindWords2: len(words) != 1, ", len(words))
 	}
+}
+
+func TestSimilarDocSorting(t *testing.T) {
+	doc1 := SimilarDoc{
+		GlossFile: "f1.html",
+		Title: "Good doc",
+		Similarity: 1.0,
+	}
+	doc2 := SimilarDoc{
+		GlossFile: "f2.html",
+		Title: "Very Good doc",
+		Similarity: 1.5,
+	}
+	doc3 := SimilarDoc{
+		GlossFile: "f3.html",
+		Title: "Reasonable doc",
+		Similarity: 0.5,
+	}
+	docs := []SimilarDoc{doc1, doc2, doc3}
+	sort.Slice(docs, func(i, j int) bool {
+		return docs[i].Similarity > docs[j].Similarity
+	})
+	fmt.Println(docs)
+
 }
 

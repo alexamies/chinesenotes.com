@@ -9,6 +9,7 @@ import (
 	"context"
 	"errors"
 	_ "github.com/go-sql-driver/mysql"
+	"sort"
 	"time"
 	"cnweb/webconfig"
 )
@@ -39,6 +40,12 @@ type QueryResults struct {
 	Collections []Collection
 	Documents []Document
 	Terms []TextSegment
+}
+
+// Structure remembering how similar a document is to another
+type SimilarDoc struct {
+	GlossFile, Title string
+	Similarity float64
 }
 
 // Open database connection and prepare statements
@@ -93,19 +100,6 @@ func countCollections(query string) int {
 	return count
 }
 
-func countDocuments(query string) int {
-	var count int
-	ctx := context.Background()
-	results, err := countDocStmt.QueryContext(ctx, "%" + query + "%")
-	results.Next()
-	results.Scan(&count)
-	if err != nil {
-		applog.Error("countDocuments: Error for query: ", query, err)
-	}
-	results.Close()
-	return count
-}
-
 func findCollections(query string) []Collection {
 	ctx := context.Background()
 	results, err := findColStmt.QueryContext(ctx, "%" + query + "%")
@@ -144,7 +138,9 @@ func findDocsByTitle(query string) ([]Document, error) {
 
 // Find documents by both title and contents, and merge the lists
 func findDocuments(query string, terms []TextSegment) ([]Document, error) {
+	applog.Info("findDocuments, terms: ", terms)
 	docs, err := findDocsByTitle(query)
+	applog.Info("findDocuments, len(docs): ", len(docs))
 	if err != nil {
 		return nil, err
 	}
@@ -154,18 +150,12 @@ func findDocuments(query string, terms []TextSegment) ([]Document, error) {
 	queryTerms := []string{}
 	for _, term := range terms {
 		queryTerms = append(queryTerms, term.QueryText)
-	} 
-	simDocs, err := findInBody(queryTerms)
-	for _, simDoc := range simDocs {
-		title, ok := docMap[simDoc.Document]
-		if ok {
-			doc := Document{simDoc.Document, title}
-			docs = append(docs, doc)
-		} else {
-			applog.Info("findDocuments, doc not found: ", simDoc.Document)
-		}
 	}
-	return docs, nil
+	// For more than one term find docs that are similar body and merge
+	docMap := toSimilarDocMap(docs) // similarity = 1.0
+	simDocs, err := findInBody(queryTerms)
+	applog.Info("findDocuments, len(simDocs): ", len(simDocs))
+	return mergeBySimilarity(docMap, simDocs), nil
 }
 
 // Returns a QueryResults object containing matching collections, documents,
@@ -192,9 +182,9 @@ func FindDocuments(parser QueryParser, query string) (QueryResults, error) {
 		}
 	}
 	nCol := countCollections(query)
-	nDoc := countDocuments(query)
 	collections := findCollections(query)
 	documents, err := findDocuments(query, terms)
+	nDoc := len(documents)
 	if err != nil {
 		// Got an error, see if we can connect and try again
 		if hello() {
@@ -344,7 +334,7 @@ func initStatements() error {
 
     // For a query with two terms in the query string decomposition
 	sim2Stmt, err := database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) AS similarity, document FROM  word_freq_doc " +
+		"SELECT COUNT(frequency)/2.0 AS similarity, document FROM  word_freq_doc " +
 		"WHERE word = ? OR word = ? GROUP BY document " +
 		"ORDER BY similarity DESC LIMIT 20")
     if err != nil {
@@ -355,7 +345,7 @@ func initStatements() error {
 
     // For a query with three terms in the query string decomposition
 	sim3Stmt, err := database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) AS similarity, document FROM  word_freq_doc " +
+		"SELECT COUNT(frequency)/3.0 AS similarity, document FROM  word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? GROUP BY document " +
 		"ORDER BY similarity DESC LIMIT 20")
     if err != nil {
@@ -366,7 +356,7 @@ func initStatements() error {
 
     // For a query with four terms in the query string decomposition
 	sim4Stmt, err := database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) AS similarity, document FROM  word_freq_doc " +
+		"SELECT COUNT(frequency)/4.0 AS similarity, document FROM  word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? OR word = ? GROUP BY document" +
 		" ORDER BY similarity DESC LIMIT 20")
     if err != nil {
@@ -385,4 +375,55 @@ func initStatements() error {
     findAllTitlesStmt = fAllTitlesStmt
 
     return nil
+}
+
+// Merge a list of documents with map of similar docs, adding the similarity
+// for docs that are in both lists
+func mergeBySimilarity(simDocMap map[string]SimilarDoc, docList []DocSimilarity) []Document {
+	for _, simDoc := range docList {
+		sDoc, ok := simDocMap[simDoc.Document]
+		if ok {
+			sDoc.Similarity += simDoc.Similarity
+		} else {
+			title, ok := docMap[simDoc.Document]
+			if ok {
+				doc := SimilarDoc{simDoc.Document, title, simDoc.Similarity}
+				simDocMap[simDoc.Document] = doc
+			} else {
+				applog.Info("mergeBySimilarity, doc not found: ", simDoc.Document)
+			}
+		}
+	}
+	return toSortedDocList(simDocMap)
+}
+
+// Convert list to a map of similar docs with similarity set to 1.0
+func toSimilarDocMap(docs []Document) map[string]SimilarDoc {
+	similarDocMap := map[string]SimilarDoc{}
+	for _, doc  := range docs {
+		simDoc := SimilarDoc{
+			GlossFile: doc.GlossFile,
+			Title: doc.Title,
+			Similarity: 1.0,
+		}
+		similarDocMap[doc.GlossFile] = simDoc
+	}
+	return similarDocMap
+}
+
+// Convert a map of similar docs into a sorted list
+func toSortedDocList(similarDocMap map[string]SimilarDoc) []Document {
+	similarDocs := []SimilarDoc{}
+	for _, similarDoc  := range similarDocMap {
+		similarDocs = append(similarDocs, similarDoc)
+	}
+	sort.Slice(similarDocs, func(i, j int) bool {
+		return similarDocs[i].Similarity > similarDocs[j].Similarity
+	})
+	docs := []Document{}
+	for _, similarDoc := range similarDocs {
+		doc := Document{similarDoc.GlossFile, similarDoc.Title}
+		docs = append(docs, doc)
+	}
+	return docs
 }
