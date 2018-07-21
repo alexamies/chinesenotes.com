@@ -166,7 +166,7 @@
                 a.setAttribute("title", pinyin);
               }
               a.appendChild(textNode1);
-              var textNode2 = document.createTextNode("、");
+              var textNode2 = document.createTextNode(" ");
               span.appendChild(textNode2);
               qBody.appendChild(span);
            }
