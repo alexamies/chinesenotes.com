@@ -391,19 +391,21 @@ some manual configuration to achieve.
 ```
 kubectl get pods
 POD_NAME=
+cp index/word_freq_doc.txt data/corpus/.
 tar -zcf  cndata.tar.gz data
 kubectl cp cndata.tar.gz $POD_NAME:.
 kubectl exec -it $POD_NAME bash
 rm -rf data
 rm -rf cndata/*
 tar -zxf cndata.tar.gz
+mkdir cndata
 mv data/* cndata/.
 cd cndata
 mysql --local-infile=1 -h localhost -u root -p
 #source notes.ddl
 #source corpus_index.ddl
-source drop.sql
-source drop_index.sql
+#source drop.sql
+source delete_index.sql
 source load_data.sql
 source load_index.sql
 source library/digital_library.sql

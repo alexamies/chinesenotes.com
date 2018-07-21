@@ -8,7 +8,7 @@
     document.getElementById("findForm").onsubmit = function() {
   	  var query = document.getElementById("findInput").value;
       var action = "/find";
-      if (findForm.action != "#") {
+      if (!findForm.action.endsWith("#")) {
         action = findForm.action;
       }
   	  var url = action + "/?query=" + query;

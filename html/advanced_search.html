@@ -1,8 +1,9 @@
       <div>
         </p>
-        <h2>Advanced Document Search</h2>
+        <h2>Advanced Text Search</h2>
         <p>
-          Search for documents by matching terms in either the title or body.
+          EXPERIMENTAL FEATURE: This feature is experimental, may not work
+          as expected, and will change.
         </p>
         <p>
           <form name="findForm" id="findForm" action="findadvanced">
@@ -23,44 +24,19 @@
         </p>
         <!--Decomposition of query terms entered by the user -->
         <div id="queryTerms">
-          <h4 id="queryTermsTitle">Dictionary Looup</h4>
-          <table id="queryTermsTable"
-                 class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-            <thead>
-              <tr>
-                <th class="mdl-data-table__cell--non-numeric">Chinese</th>
-                <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
-                <th class="mdl-data-table__cell--non-numeric">English</th>
-              </tr>
-            </thead>
-            <tbody id="queryTermsBody">
-            </tbody>
-          </table>
+          <h4 id="queryTermsTitle">Query Decomposition</h4>
+          <p id="queryTermsP">
+            <span id="queryTermsBody">
+            </span>
+          </p>
         </div> <!--queryTerms-->
 
         <div id="findResults">
-          <h4>Matching Results</h4>
-          <div>
-            Number of matching document collections: <span id="NumCollections"></span>
-          </div>
-          <div>
-            Number of matching documents: <span id="NumDocuments"></span>
-          </div>
-
-          <div id="colResultsDiv">
-            <h4 id="findResultsTitle">Document Collections</h4>
-            <table id="findResultsTable"
-                   class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-              <thead>
-                <tr><th class="mdl-data-table__cell--non-numeric">Title</th></tr>
-              </thead>
-              <tbody id="findResultsBody">
-              </tbody>
-            </table>
-          </div> <!-- colResultsDiv -->
-
           <div id="docResultsDiv">
-            <h4 id="findDocResultsTitle">Documents</h4>
+            <h4 id="findDocResultsTitle">Matching Documents</h4>
+            <div>
+              Number of matching documents: <span id="NumDocuments"></span>
+            </div>
             <table id="findDocResultsTable"
                    class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
               <thead>
