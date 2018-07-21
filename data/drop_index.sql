@@ -3,7 +3,7 @@
  */
 USE cse_dict;
 
-DELETE FROM collection;
-DELETE FROM document;
-DELETE FROM word_freq_doc;
+DROP TABLE collection;
+DROP TABLE document;
+DROP TABLE word_freq_doc;
 SHOW WARNINGS;

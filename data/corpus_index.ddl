@@ -9,7 +9,6 @@
  * Execute from same directory:
  * > source hbreader.ddl
  */
-CREATE IF NOT EXISTS DATABASE cse_dict
 use cse_dict;
 
 /*
@@ -24,7 +23,8 @@ CREATE TABLE collection (
 	corpus_name VARCHAR(256) NOT NULL,
 	format VARCHAR(256),
     period VARCHAR(256),
-    genre VARCHAR(256)
+    genre VARCHAR(256),
+    PRIMARY KEY (`gloss_file`)
 	)
     CHARACTER SET UTF8
     COLLATE utf8_general_ci
@@ -36,7 +36,8 @@ CREATE TABLE collection (
 CREATE TABLE document (
 	source_file VARCHAR(256) NOT NULL,
     gloss_file VARCHAR(256) NOT NULL,
-	title mediumtext NOT NULL
+	title mediumtext NOT NULL,
+    PRIMARY KEY (`gloss_file`)
 	)
     CHARACTER SET UTF8
     COLLATE utf8_general_ci
@@ -49,7 +50,8 @@ CREATE TABLE word_freq_doc (
 	word VARCHAR(256) NOT NULL,
 	frequency INT UNSIGNED NOT NULL,
 	rate FLOAT NOT NULL,
-    document VARCHAR(256) NOT NULL
+    document VARCHAR(256) NOT NULL,
+    PRIMARY KEY (`word`)
 	)
     CHARACTER SET UTF8
     COLLATE utf8_general_ci

@@ -19,7 +19,7 @@ spec:
           name: mariadb
           resources:
             limits:
-              cpu: "100m"
+              cpu: "200m"
             requests:
               cpu: "20m"
           env:

@@ -150,7 +150,7 @@ func enforceValidSession(w http.ResponseWriter, r *http.Request) identity.Sessio
 }
 
 // Finds documents matching the given query
-func findHandler(response http.ResponseWriter, request *http.Request) {
+func findDocs(response http.ResponseWriter, request *http.Request, advanced bool) {
 	url := request.URL
 	queryString := url.Query()
 	query := queryString["query"]
@@ -163,23 +163,33 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 			q = query[0]
 		}
 	}
-	results, err := find.FindDocuments(parser, q)
+	results, err := find.FindDocuments(parser, q, advanced)
 	if err != nil {
-		applog.Error("main.findHandler Error searching docs, ", err)
+		applog.Error("main.find Error searching docs, ", err)
 		http.Error(response, "Error searching docs",
 			http.StatusInternalServerError)
 		return
 	}
 	resultsJson, err := json.Marshal(results)
 	if err != nil {
-		applog.Error("main.findHandler error marshalling JSON, ", err)
+		applog.Error("main.find error marshalling JSON, ", err)
 		http.Error(response, "Error marshalling results",
 			http.StatusInternalServerError)
 	} else {
-		//applog.Info("handler, results returned: ", string(resultsJson))
+		applog.Info("main.find, results returned: ", string(resultsJson))
 		response.Header().Set("Content-Type", "application/json; charset=utf-8")
 		fmt.Fprintf(response, string(resultsJson))
 	}
+}
+
+// Finds documents matching the given query
+func findAdvanced(response http.ResponseWriter, request *http.Request) {
+	findDocs(response, request, true)
+}
+
+// Finds documents matching the given query
+func findHandler(response http.ResponseWriter, request *http.Request) {
+	findDocs(response, request, false)
 }
 
 // Health check for monitoring or load balancing system, checks reachability
@@ -421,6 +431,7 @@ func main() {
 	applog.Info("cnweb.main Starting cnweb")
 	http.HandleFunc("/#", findHandler)
 	http.HandleFunc("/find/", findHandler)
+	http.HandleFunc("/findadvanced/", findAdvanced)
 	http.HandleFunc("/findmedia", mediaDetailHandler)
 	http.HandleFunc("/healthcheck/", healthcheck)
 	http.HandleFunc("/loggedin/admin", adminHandler)

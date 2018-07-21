@@ -137,7 +137,7 @@ func findDocsByTitle(query string) ([]Document, error) {
 }
 
 // Find documents by both title and contents, and merge the lists
-func findDocuments(query string, terms []TextSegment) ([]Document, error) {
+func findDocuments(query string, terms []TextSegment, advanced bool) ([]Document, error) {
 	applog.Info("findDocuments, terms: ", terms)
 	docs, err := findDocsByTitle(query)
 	applog.Info("findDocuments, len(docs): ", len(docs))
@@ -151,6 +151,10 @@ func findDocuments(query string, terms []TextSegment) ([]Document, error) {
 	for _, term := range terms {
 		queryTerms = append(queryTerms, term.QueryText)
 	}
+	if (!advanced) {
+		return docs, nil
+	}
+
 	// For more than one term find docs that are similar body and merge
 	docMap := toSimilarDocMap(docs) // similarity = 1.0
 	simDocs, err := findInBody(queryTerms)
@@ -165,7 +169,7 @@ func findDocuments(query string, terms []TextSegment) ([]Document, error) {
 // Chinese words in the dictionary. If there are no Chinese words in the query
 // then the Chinese word senses matching the English or Pinyin will be included
 // in the TextSegment.Senses field.
-func FindDocuments(parser QueryParser, query string) (QueryResults, error) {
+func FindDocuments(parser QueryParser, query string, advanced bool) (QueryResults, error) {
 	if query == "" {
 		applog.Error("FindDocuments, Empty query string")
 		return QueryResults{}, errors.New("Empty query string")
@@ -183,12 +187,12 @@ func FindDocuments(parser QueryParser, query string) (QueryResults, error) {
 	}
 	nCol := countCollections(query)
 	collections := findCollections(query)
-	documents, err := findDocuments(query, terms)
+	documents, err := findDocuments(query, terms, advanced)
 	nDoc := len(documents)
 	if err != nil {
 		// Got an error, see if we can connect and try again
 		if hello() {
-			documents, err = findDocuments(query, terms)
+			documents, err = findDocuments(query, terms, advanced)
 		} // else do not try again, giveup and return the error
 	}
 	applog.Info("FindDocuments, query, nTerms, collection, doc count: ", query,

@@ -11,11 +11,11 @@ spec:
         tier: backend
     spec:
       containers:
-      - image: gcr.io/hbreader-162018/cn-app-image:r30
+      - image: gcr.io/hbreader-162018/cn-app-image:r33
         name: cnweb-app
         resources:
           limits:
-            cpu: "100m"
+            cpu: "200m"
           requests:
             cpu: "20m"
         env:

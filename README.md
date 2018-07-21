@@ -211,7 +211,8 @@ mysql --local-infile=1 -h localhost -u root -p
 # In the mysql client
 # Edit password in the script
 # source first_time_setup.sql
-source drop.sql
+# source drop.sql
+source delete_index.sql
 source notes.ddl
 source load_data.sql
 source corpus_index.ddl
@@ -266,7 +267,7 @@ cd go/src/cnweb/identity
 go test
 ```
 
-### Email configuration
+### Email configuration (Optional)
 Email is sent with [SendGrid](https://sendgrid.com). 
 [SendGrid Go Client Library Documentation](https://github.com/sendgrid/sendgrid-go)
 
@@ -334,7 +335,7 @@ To build the docker image:
 docker build -f docker/web/Dockerfile -t cn-web-image .
 
 # Test it locally
-
+WEB_DIR=web-staging
 docker run -itd --rm -p 80:80 --name cn-web --link cn-app \
   --mount type=bind,source="$(pwd)"/$WEB_DIR,target=/usr/local/apache2/htdocs \
   cn-web-image
@@ -380,8 +381,8 @@ gcloud container clusters get-credentials $CLUSTER --zone=$ZONE
 kubectl create secret generic mysqlroot --from-literal=MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
 kubectl create secret generic mysql --from-literal=DBPASSWORD=$DBPASSWORD
 
-kubectl create --save-config -f kubernetes/db-deployment.yaml
-kubectl create --save-config -f kubernetes/db-service.yaml
+kubectl apply -f kubernetes/db-deployment.yaml
+kubectl apply -f kubernetes/db-service.yaml
 ```
 
 The application tier is dependent on an operational database, which takes
@@ -396,7 +397,6 @@ kubectl exec -it $POD_NAME bash
 rm -rf data
 rm -rf cndata/*
 tar -zxf cndata.tar.gz
-mkdir cndata
 mv data/* cndata/.
 cd cndata
 mysql --local-infile=1 -h localhost -u root -p

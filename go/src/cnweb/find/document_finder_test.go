@@ -15,7 +15,7 @@ func TestInit(t *testing.T) {
 func TestFindDocuments1(t *testing.T) {
 	dict := map[string]Word{}
 	parser := DictQueryParser{dict}
-	qr, err := FindDocuments(parser, "Assembly")
+	qr, err := FindDocuments(parser, "Assembly", false)
 	if err != nil {
 		t.Error("TestFindDocuments1: got error, ", err)
 	}
@@ -27,7 +27,7 @@ func TestFindDocuments1(t *testing.T) {
 func TestFindDocuments2(t *testing.T) {
 	dict := map[string]Word{}
 	parser := DictQueryParser{dict}
-	_, err := FindDocuments(parser, "")
+	_, err := FindDocuments(parser, "", false)
 	if err == nil {
 		t.Error("TestFindDocuments2: expected error for empty string")
 	}
@@ -36,7 +36,7 @@ func TestFindDocuments2(t *testing.T) {
 func TestFindDocuments3(t *testing.T) {
 	dict := map[string]Word{}
 	parser := DictQueryParser{dict}
-	qr, err := FindDocuments(parser, "hello")
+	qr, err := FindDocuments(parser, "hello", false)
 	if err != nil {
 		t.Error("TestFindDocuments3: got error, ", err)
 	}
