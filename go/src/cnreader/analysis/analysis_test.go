@@ -362,6 +362,7 @@ func TestWriteAnalysis(t *testing.T) {
 	term := "繁"
 	_, results := ParseText(term, "", corpus.NewCorpusEntry())
 	srcFile := "test.txt"
+	glossFile := "test.html"
 	vocab := map[string]int{
 		term: 1,
 	}
@@ -369,7 +370,7 @@ func TestWriteAnalysis(t *testing.T) {
 	df.AddVocabulary(vocab)
 	df.WriteToFile()
 	index.ReadDocumentFrequency()
-	writeAnalysis(results, srcFile, "Test Collection", "Test Doc")
+	writeAnalysis(results, srcFile, glossFile, "Test Collection", "Test Doc")
 	log.Printf("analysis.TestWriteAnalysis: End +++++++++++\n")
 }
 

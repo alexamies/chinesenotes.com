@@ -14,7 +14,6 @@ import (
 	"os"
 	"sort"
 	"strconv"
-	"strings"
 )
 
 // File name for keyword index
@@ -230,7 +229,7 @@ func WriteWFCorpus(sortedWords, sortedUnknownWords []SortedWordItem,
 }
 
 // Append document analysis to a plain text file in the index directory
-func WriteWFDoc(sortedWords []SortedWordItem, srcFile string, wc int) {
+func WriteWFDoc(sortedWords []SortedWordItem, glossFile string, wc int) {
 
 	dir := config.IndexDir()
 
@@ -243,14 +242,13 @@ func WriteWFDoc(sortedWords []SortedWordItem, srcFile string, wc int) {
 	}
 	defer wfFile.Close()
 	wfWriter := bufio.NewWriter(wfFile)
-	destFile := strings.Replace(srcFile, ".txt", ".html", 1)
 	for _, wordItem := range sortedWords {
 		rel_freq := 0.0
 		if wc > 0 {
 			rel_freq = float64(wordItem.Freq) * 10000.0 / float64(wc)
 		}
 		fmt.Fprintf(wfWriter, "%s\t%d\t%f\t%s\n", wordItem.Word, wordItem.Freq,
-			rel_freq, destFile)
+			rel_freq, glossFile)
 	}
 	wfWriter.Flush()
 }

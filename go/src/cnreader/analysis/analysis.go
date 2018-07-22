@@ -466,7 +466,7 @@ func writeAnalysisCorpus(results CollectionAResults,
 // collectionTitle: The title of the whole colleciton
 // docTitle: The title of this specific document
 // Returns the name of the file written to
-func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
+func writeAnalysis(results CollectionAResults, srcFile, glossFile, collectionTitle,
 	docTitle string) string {
 
 	//log.Printf("analysis.writeAnalysis: enter")
@@ -488,7 +488,7 @@ func writeAnalysis(results CollectionAResults, srcFile, collectionTitle,
 	//	srcFile, len(sortedWords))
 
 	// Write results to a plain text file
-	index.WriteWFDoc(sortedWords, srcFile, results.WC)
+	index.WriteWFDoc(sortedWords, glossFile, results.WC)
 
 	wfResults := results.GetWordFreq(sortedWords)
 	maxWf := len(wfResults)
@@ -622,8 +622,8 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 		text := corpLoader.ReadText(src)
 		tokens, results := ParseText(text, collectionEntry.Title, &entry)
 		docFreq.AddVocabulary(results.Vocab)
-		aFile := writeAnalysis(results, entry.RawFile, collectionEntry.Title,
-			entry.Title)
+		aFile := writeAnalysis(results, entry.RawFile, collectionEntry.GlossFile,
+			collectionEntry.Title, entry.Title)
 		sourceFormat := "TEXT"
 		if strings.HasSuffix(entry.RawFile, ".html") {
 			sourceFormat = "HTML"
@@ -633,7 +633,7 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 		aResults.AddResults(results)
 	}
 	aFile := writeAnalysis(aResults, collectionEntry.CollectionFile,
-		collectionEntry.Title, "")
+		collectionEntry.GlossFile, collectionEntry.Title, "")
 	corpus.WriteCollectionFile(collectionEntry, aFile, baseDir)
 	//log.Printf("analysis.writeCollection: exit\n")
 	return aResults
