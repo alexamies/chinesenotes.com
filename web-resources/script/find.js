@@ -44,8 +44,13 @@
   // Function for sending and displaying search results for words 
   // based on the URL of the main page
   var href = window.location.href;
-  if (href.includes('/#?text=')) {
-    var q = href.split('=');
+  if (href.includes('#?text=')) {
+    var path = decodeURI(href);
+    var q = path.split('=');
+    var findInput = document.getElementById("findInput");
+    if (findInput) {
+      findInput.value = q[1];
+    }
     var url = '/find/?query=' + q[1];
     makeRequest(url);
     return false

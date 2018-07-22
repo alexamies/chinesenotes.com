@@ -420,52 +420,104 @@ kubectl apply -f kubernetes/app-deployment.yaml
 kubectl apply -f kubernetes/app-service.yaml
 ```
 
-Find the name of the forwarding-rule and url-map created with the ingress object
+The load balancer connects to the Kubernetes NodePort with a managed instance
+group named port. To get the list of named ports use the command
 ```
 gcloud compute instance-groups list
-gcloud compute forwarding-rules list
-gcloud compute url-maps list
-gcloud compute url-maps describe URL_MAP
+MIG=[your managed instance group]
+gcloud compute instance-groups managed get-named-ports $MIG
 ```
 
-Create and configure the load balancer
+To add a new named port use the command
 ```
-# Allow the load balancer to reach the VM
-gcloud compute firewall-rules create cnotes-app-rule \
-    --allow tcp:30080 \
+PORTNAME=cnotesport
+PORT=30080
+gcloud compute instance-groups managed set-named-ports $MIG \
+  --named-ports="$PORTNAME:$PORT" \
+  --zone=$ZONE
+```
+Be careful with this command that you do not accidentally clear the already
+existing named ports that other apps in the cluster may be depending on.
+
+### Create and configure the load balancer
+
+Add a firewall rule to allow the load balancer to reach the managed instance
+group.
+```
+FW_RULE_NAME=cnotes-allow-lb
+gcloud compute firewall-rules create $FW_RULE_NAME \
+    --allow tcp:$PORT \
     --source-ranges 130.211.0.0/22,35.191.0.0/16
-gcloud compute health-checks create http cnotes-app-check --port=30080 \
+```
+
+Add a health check
+```
+HEALTH_CHECK_NAME=cnotes-app-check
+gcloud compute health-checks create http $HEALTH_CHECK_NAME --port=$PORT \
      --request-path=/healthcheck/
-gcloud compute backend-services create cnotes-service \
+```
+
+Configure the load balancer backend service
+```
+
+BACKEND_NAME=cnotes-backend
+gcloud compute backend-services create $BACKEND_NAME \
      --protocol HTTP \
-     --health-checks cnotes-app-check \
+     --health-checks $HEALTH_CHECK_NAME \
      --global
-gcloud compute backend-services add-backend cnotes-service \
+gcloud compute backend-services add-backend $BACKEND_NAME \
     --balancing-mode UTILIZATION \
     --max-utilization 0.8 \
     --capacity-scaler 1 \
-    --instance-group $INSTANCE_GROUP \
+    --instance-group $MIG \
     --instance-group-zone $ZONE \
     --global
-gcloud compute backend-buckets create cnotes-web-bucket --gcs-bucket-name $BUCKET
-gcloud compute url-maps create cnotes-map \
-    --default-backend-bucket cnotes-web-bucket
-gcloud compute url-maps add-path-matcher cnotes-map \
-    --default-backend-bucket cnotes-web-bucket \
-    --path-matcher-name cnotes-matcher \
-    --path-rules="/find/*=cnotes-service,/findmedia/*=cnotes-service"
-gcloud compute target-http-proxies create cnotes-lb-proxy \
-    --url-map cnotes-map
-gcloud compute addresses create cnotes-web --global
-gcloud compute forwarding-rules create cnotes-content-rule \
-    --address cnotes-web \
+```
+
+Configure the backend bucket
+
+```
+BACKEND_BUCKET=cnotes-web-bucket
+gcloud compute backend-buckets create $BACKEND_BUCKET --gcs-bucket-name $BUCKET
+
+```
+
+Configure the load balancer
+```
+URL_MAP=[your url-map]
+gcloud compute url-maps create $URL_MAP \
+    --default-backend-bucket $BACKEND_BUCKET
+MATCHER_NAME=cnotes-url-matcher
+gcloud compute url-maps add-path-matcher $URL_MAP \
+    --default-backend-bucket $BACKEND_BUCKET \
+    --path-matcher-name $MATCHER_NAME \
+    --path-rules="/find/*=$BACKEND_NAME,/findadvanced/*=$BACKEND_NAME,/findmedia/*=$BACKEND_NAME"
+
+TARGET_PROXY=cnotes-lb-proxy
+gcloud compute target-http-proxies create $TARGET_PROXY \
+    --url-map $URL_MAP
+
+STATIC_IP=cnotes-web
+gcloud compute addresses create $STATIC_IP --global
+
+FORWARDING_RULE=cnotes-content-rule
+gcloud compute forwarding-rules create $FORWARDING_RULE \
+    --address $STATIC_IP \
     --global \
-    --target-http-proxy cnotes-lb-proxy \
+    --target-http-proxy $TARGET_PROXY \
     --ports 80
+
 ```
 
 Setting a named port may take manual editing in the cloud console since the
 GKE cluster does not create a named port for the instance group.
+
+Check the name of the forwarding-rule and url-map
+```
+gcloud compute forwarding-rules list
+gcloud compute url-maps list
+gcloud compute url-maps describe $URL_MAP
+```
 
 ### Troubleshooting
 SSH to another VM and try sending a HTTP request via curl to the internal IP
