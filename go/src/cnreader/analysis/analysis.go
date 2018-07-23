@@ -622,7 +622,7 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 		text := corpLoader.ReadText(src)
 		tokens, results := ParseText(text, collectionEntry.Title, &entry)
 		docFreq.AddVocabulary(results.Vocab)
-		aFile := writeAnalysis(results, entry.RawFile, collectionEntry.GlossFile,
+		aFile := writeAnalysis(results, entry.RawFile, entry.GlossFile,
 			collectionEntry.Title, entry.Title)
 		sourceFormat := "TEXT"
 		if strings.HasSuffix(entry.RawFile, ".html") {
