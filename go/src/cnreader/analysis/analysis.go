@@ -70,6 +70,19 @@ type DictEntry struct {
 	DateUpdated  string
 }
 
+// HTML content for template
+type HTMLContent struct {
+	Content, DateUpdated, Title, FileName string
+}
+
+// Bundles up vocabulary analysis
+type VocabAnalysis struct {
+	UsageMap map[string]*[]WordUsage
+	WFTotal map[*index.CorpusWord]index.CorpusWordFreq
+	WCTotal map[string]int
+	Collocations ngram.CollocationMap
+}
+
 // Word usage
 type WordUsage struct {
 	Freq                                      int
@@ -81,11 +94,6 @@ type WordUsage struct {
 type WFResult struct {
 	Freq, HeadwordId                int
 	Chinese, Pinyin, English, Usage string
-}
-
-// HTML content for template
-type HTMLContent struct {
-	Content, DateUpdated, Title, FileName string
 }
 
 /* Break usage example text into links with highlight on headword
@@ -145,9 +153,7 @@ func GetChunks(text string) list.List {
 }
 
 // Compute word frequencies, collocations, and usage for the entire corpus
-func GetWordFrequencies(libLoader library.LibraryLoader) (map[string]*[]WordUsage,
-	map[*index.CorpusWord]index.CorpusWordFreq, map[string]int,
-	ngram.CollocationMap) {
+func GetWordFrequencies(libLoader library.LibraryLoader) VocabAnalysis {
 
 	log.Printf("analysis.GetWordFrequencies: enter")
 
@@ -208,7 +214,7 @@ func GetWordFrequencies(libLoader library.LibraryLoader) (map[string]*[]WordUsag
 	log.Printf("WordFrequencies: len(collocations) = %d\n", len(collocations))
 	log.Printf("WordFrequencies: character count = %d\n", ccount)
 
-	return usageMap, wfTotal, wcTotal, collocations
+	return VocabAnalysis{usageMap, wfTotal, wcTotal, collocations}
 }
 
 // Constructs a hyperlink for a headword, including Pinyin and English in the
@@ -233,12 +239,12 @@ func hyperlink(entries []*dictionary.WordSenseEntry, text string) string {
 
 // Parses a Chinese text into words
 // Parameters:
-// text: the string to parse
-// ColTitle: Optional parameter used for tracing collocation usage
-// document: Optional parameter used for tracing collocation usage
+//   text: the string to parse
+//   ColTitle: Optional parameter used for tracing collocation usage
+//   document: Optional parameter used for tracing collocation usage
 // Returns:
-// tokens: the tokens for the parsed text
-// results: vocabulary analysis results
+//   tokens: the tokens for the parsed text
+//   results: vocabulary analysis results
 func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	tokens list.List, results CollectionAResults) {
 	vocab := map[string]int{}
@@ -841,7 +847,9 @@ func WriteHwFiles(loader library.LibraryLoader) {
 	index.BuildIndex()
 	log.Printf("analysis.WriteHwFiles: Get headwords\n")
 	hwArray := dictionary.GetHeadwords()
-	usageMap, _, _, collocations := GetWordFrequencies(loader)
+	vocabAnalysis := GetWordFrequencies(loader)
+	usageMap := vocabAnalysis.UsageMap
+	collocations := vocabAnalysis.Collocations
 	corpusEntryMap := loader.GetCorpusLoader().LoadAll(corpus.COLLECTIONS_FILE)
 	dateUpdated := time.Now().Format("2006-01-02")
 
