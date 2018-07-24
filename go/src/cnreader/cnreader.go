@@ -10,11 +10,9 @@ import (
 	"cnreader/corpus"
 	"cnreader/dictionary"
 	"cnreader/library"
-	"cnreader/replace"
 	"log"
 	"os"
 	"runtime/pprof"
-	"strings"
 	"time"
 )
 
@@ -25,8 +23,6 @@ func main() {
 	var collectionFile = flag.String("collection", "", 
 		"Enhance HTML markup and do vocabulary analysis for all the files " +
 		"listed in given collection.")
-	var findandreplace = flag.String("findandreplace", "",
-		"Find occurrences matching a given string in the library.")
 	var headwords = flag.Bool("headwords", false,
 		"Compute headword definitions " +
 		" for all lexical units listed in data/words.txt, writing to the " +
@@ -48,45 +44,10 @@ func main() {
 	// Setup loader for library
 	fname := config.ProjectHome() + "/" + library.LibraryFile
 	fileLibraryLoader := library.FileLibraryLoader{fname}
-	//corpusMap := fileLibraryLoader.GetCorpusLoader().LoadAll(corpus.COLLECTIONS_FILE)
-	dateUpdated := time.Now().Format("2006-01-02")
-	lib := library.Library{
-		Title: "Library",
-		Summary: "Top level collection in the Library",
-		DateUpdated: dateUpdated,
-		TargetStatus: "public",
-		Loader: fileLibraryLoader,
-	}
 
 	if (*collectionFile != "") {
 		log.Printf("main: Analyzing collection %s\n", *collectionFile)
 		analysis.WriteCorpusCol(*collectionFile, fileLibraryLoader)
-	} else if (*findandreplace != "") {
-		// try unmarshalling the argument as json
-		var expressions []replace.Expression
-		if strings.HasSuffix(*findandreplace, ".tsv") {
-			log.Printf("main: Finding occurences listed in file %s\n",
-					*findandreplace)
-			exp, err := replace.ReadExp(*findandreplace)
-			if err != nil {
-				log.Fatal(err)
-			}
-			expressions = exp
-		} else {
-			exprObj, err := replace.UnmarshalExp(*findandreplace)
-			if err != nil {
-				log.Printf("main: Finding occurences based on string %s\n",
-						*findandreplace)
-				expr := replace.Expression{*findandreplace, "", false}
-				expressions = []replace.Expression{expr}
-			} else {
-				log.Printf("main: Finding occurences based on JSON %s\n",
-						*findandreplace)
-				expressions = exprObj.Expressions
-			}
-		}
-		results := replace.FindAndReplace(expressions, lib)
-		replace.WriteReport(results)
 	} else if *html {
 		log.Printf("main: Converting all HTML files\n")
 		conversions := config.GetHTMLConversions()
