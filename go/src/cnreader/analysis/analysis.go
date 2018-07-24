@@ -52,7 +52,6 @@ type AnalysisResults struct {
 	UnkownnChars            []index.SortedWordItem
 	DateUpdated             string
 	MaxWFOutput             int
-	ByGenre                 []SortedByGenre
 }
 
 // The content for a corpus entry
@@ -400,20 +399,6 @@ func writeAnalysisCorpus(results CollectionAResults,
 		maxBFOutput = MAX_WF_OUTPUT
 	}
 
-	// Results by genre, also sorted and truncated
-	sortedGenre := []SortedByGenre{}
-	for _, wf := range results.ByGenre {
-		sortedWF := results.GetLexicalWordFreq(index.SortedFreq(wf.WF))
-		maxGenreOutput := len(sortedWF)
-		if maxGenreOutput > MAX_WF_OUTPUT {
-			maxGenreOutput = MAX_WF_OUTPUT
-		}
-		sortedGenre = append(sortedGenre, SortedByGenre{wf.Genre,
-			sortedWF[:maxGenreOutput]})
-		//log.Printf("analysis.writeAnalysisCorpus: Genre: '%s', max: %d\n",
-		//	wf.Genre, maxGenreOutput)
-	}
-
 	dateUpdated := time.Now().Format("2006-01-02")
 	title := "Terminology Extraction and Vocabulary Analysis"
 	aResults := AnalysisResults{
@@ -430,7 +415,6 @@ func writeAnalysisCorpus(results CollectionAResults,
 		UnkownnChars:     sortedUnknownWords[:maxUnknown],
 		DateUpdated:      dateUpdated,
 		MaxWFOutput:      len(wfResults),
-		ByGenre:          sortedGenre,
 	}
 	tmplFile := config.TemplateDir() + "/corpus-summary-analysis-template.html"
 	funcs := template.FuncMap{
@@ -654,17 +638,10 @@ func WriteCorpus(collections []corpus.CollectionEntry, baseDir string,
 	index.Reset()
 	docFreq := index.NewDocumentFrequency() // used to accumulate the frequencies
 	aResults := NewCollectionAResults()
-	wfArrayByGenre := WFArrayByGenre{}
 	for _, collectionEntry := range collections {
-		//log.Printf("analysis.WriteCorpusAll: entry: '%s' has genre '%s'\n",
-		//	collectionEntry.Title, collectionEntry.Genre)
 		results := writeCollection(collectionEntry, docFreq, baseDir, libLoader)
-		byGenre := NewWordFreqByGenre(collectionEntry.Genre)
-		byGenre.WF = results.Vocab
-		wfArrayByGenre = MergeByGenre(wfArrayByGenre, byGenre)
 		aResults.AddResults(results)
 	}
-	aResults.ByGenre = wfArrayByGenre
 	writeAnalysisCorpus(aResults, docFreq)
 	docFreq.WriteToFile()
 	index.BuildIndex()
