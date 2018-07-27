@@ -12,13 +12,13 @@ import (
 
 // A struct to hold the analysis results for the collection
 type CollectionAResults struct {
-	Vocab             map[string]int
-	Usage             map[string]string
-	BigramFrequencies ngram.BigramFreqMap
-	Collocations      ngram.CollocationMap
-	WC, CCount        int
-	UnknownChars      map[string]int
-	ByGenre           WFArrayByGenre
+	Vocab				map[string]int
+	Usage				map[string]string
+	BigramFrequencies	ngram.BigramFreqMap
+	Collocations		ngram.CollocationMap
+	WC, CCount			int
+	UnknownChars		map[string]int
+	WFDocMap			index.WordFreqDocMap
 }
 
 // Add more results to this set of results
@@ -42,7 +42,6 @@ func (results *CollectionAResults) AddResults(more CollectionAResults) {
 	for k, v := range more.UnknownChars {
 		results.UnknownChars[k] += v
 	}
-
 }
 
 // Returns the subset of words that are lexical (content) words
@@ -98,12 +97,12 @@ func (results *CollectionAResults) GetWordFreq(sortedWords []index.SortedWordIte
 // Constructor for empty CollectionAResults
 func NewCollectionAResults() CollectionAResults {
 	return CollectionAResults{
-		Vocab:             map[string]int{},
-		Usage:             map[string]string{},
-		BigramFrequencies: ngram.BigramFreqMap{},
-		Collocations:      ngram.CollocationMap{},
-		WC:                0,
-		UnknownChars:      map[string]int{},
-		ByGenre:           WFArrayByGenre{},
+		Vocab:				map[string]int{},
+		Usage:				map[string]string{},
+		BigramFrequencies:	ngram.BigramFreqMap{},
+		Collocations:		ngram.CollocationMap{},
+		WC:					0,
+		UnknownChars:		map[string]int{},
+		WFDocMap:			index.WordFreqDocMap{},
 	}
 }

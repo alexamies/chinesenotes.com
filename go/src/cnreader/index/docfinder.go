@@ -63,7 +63,7 @@ func FindDocsForKeyword(keyword dictionary.HeadwordDef,
 func FindForKeyword(keyword string) []WFDocEntry {
 	if !keywordIndexReady {
 		log.Printf("index.FindForKeyword, Warning: index not yet ready")
-		entry := WFDocEntry{"Index not ready", 0, 0.0}
+		entry := WFDocEntry{"Index not ready", 0}
 		return []WFDocEntry{entry}
 	}
 	return wfdoc[keyword]

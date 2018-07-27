@@ -15,7 +15,7 @@ func TestSort0(t *testing.T) {
 
 // Simple test of sorting of word frequencies
 func TestSort1(t *testing.T) {
-	item1 := WFDocEntry{"test.txt", 2, 3.0}
+	item1 := WFDocEntry{"test.txt", 2}
 	items := []WFDocEntry{item1}
 	sort.Sort(ByFrequencyDoc(items))
 	fmt.Println(items)
@@ -23,9 +23,9 @@ func TestSort1(t *testing.T) {
 
 // Easy test of sorting of word frequencies
 func TestSort2(t *testing.T) {
-	item1 := WFDocEntry{"test.txt", 3, 3.0}
-	item2 := WFDocEntry{"test2.txt", 4, 4.0}
-	item3 := WFDocEntry{"test3.txt", 5, 5.0}
+	item1 := WFDocEntry{"test.txt", 3}
+	item2 := WFDocEntry{"test2.txt", 4}
+	item3 := WFDocEntry{"test3.txt", 5}
 	items := []WFDocEntry{item1, item2, item3}
 	sort.Sort(ByFrequencyDoc(items))
 	fmt.Println(items)

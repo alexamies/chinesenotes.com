@@ -11,11 +11,10 @@ import (
 type WFDocEntry struct {
 	Filename string
 	Count    int
-	Freq    float64 // frequency per 10,000 words
 }
 
 func (item WFDocEntry) String() string {
-	return fmt.Sprintf("%s %f", item.Filename, item.Freq)
+	return fmt.Sprintf("%s %f", item.Filename)
 }
 
 type ByFrequencyDoc []WFDocEntry

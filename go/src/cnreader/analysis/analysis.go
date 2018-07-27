@@ -245,7 +245,7 @@ func hyperlink(entries []*dictionary.WordSenseEntry, text string) string {
 //   tokens: the tokens for the parsed text
 //   results: vocabulary analysis results
 func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
-	tokens list.List, results CollectionAResults) {
+		tokens list.List, results CollectionAResults) {
 	vocab := map[string]int{}
 	bigramMap := ngram.BigramFreqMap{}
 	collocations := ngram.CollocationMap{}
@@ -456,8 +456,8 @@ func writeAnalysisCorpus(results CollectionAResults,
 // collectionTitle: The title of the whole colleciton
 // docTitle: The title of this specific document
 // Returns the name of the file written to
-func writeAnalysis(results CollectionAResults, srcFile, glossFile, collectionTitle,
-	docTitle string) string {
+func writeAnalysis(results CollectionAResults, srcFile, glossFile,
+		collectionTitle, docTitle string) string {
 
 	//log.Printf("analysis.writeAnalysis: enter")
 	analysisDir := config.WebDir() + "/analysis/"
@@ -476,9 +476,6 @@ func writeAnalysis(results CollectionAResults, srcFile, glossFile, collectionTit
 	sortedWords := index.SortedFreq(results.Vocab)
 	//log.Printf("analysis.writeAnalysis: found sortedWords for %s, count %d\n",
 	//	srcFile, len(sortedWords))
-
-	// Write results to a plain text file
-	index.WriteWFDoc(sortedWords, glossFile, results.WC)
 
 	wfResults := results.GetWordFreq(sortedWords)
 	maxWf := len(wfResults)
@@ -591,8 +588,7 @@ func writeAnalysis(results CollectionAResults, srcFile, glossFile, collectionTit
 // contained in the collection
 // collectionEntry: the CollectionEntry struct
 // baseDir: The base directory to use
-func writeCollection(collectionEntry corpus.CollectionEntry,
-		docFreq index.DocumentFrequency, baseDir string,
+func writeCollection(collectionEntry corpus.CollectionEntry,baseDir string,
 		libLoader library.LibraryLoader) CollectionAResults {
 
 	//log.Printf("analysis.writeCollection: enter CollectionFile =" +
@@ -611,7 +607,6 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 		//}
 		text := corpLoader.ReadText(src)
 		tokens, results := ParseText(text, collectionEntry.Title, &entry)
-		docFreq.AddVocabulary(results.Vocab)
 		aFile := writeAnalysis(results, entry.RawFile, entry.GlossFile,
 			collectionEntry.Title, entry.Title)
 		sourceFormat := "TEXT"
@@ -621,6 +616,7 @@ func writeCollection(collectionEntry corpus.CollectionEntry,
 		writeCorpusDoc(tokens, results.Vocab, dest, collectionEntry.GlossFile,
 			collectionEntry.Title, entry.Title,  aFile, sourceFormat)
 		aResults.AddResults(results)
+		aResults.WFDocMap.AddWF(results.Vocab, entry.GlossFile)
 	}
 	aFile := writeAnalysis(aResults, collectionEntry.CollectionFile,
 		collectionEntry.GlossFile, collectionEntry.Title, "")
@@ -636,15 +632,20 @@ func WriteCorpus(collections []corpus.CollectionEntry, baseDir string,
 		libLoader library.LibraryLoader) {
 	log.Printf("analysis.WriteCorpus: enter")
 	index.Reset()
+	wfDocMap := index.WordFreqDocMap{}
 	docFreq := index.NewDocumentFrequency() // used to accumulate the frequencies
 	aResults := NewCollectionAResults()
 	for _, collectionEntry := range collections {
-		results := writeCollection(collectionEntry, docFreq, baseDir, libLoader)
+		results := writeCollection(collectionEntry, baseDir, libLoader)
 		aResults.AddResults(results)
+		docFreq.AddVocabulary(results.Vocab)
+		wfDocMap.Merge(results.WFDocMap)
 	}
 	writeAnalysisCorpus(aResults, docFreq)
 	docFreq.WriteToFile()
+	wfDocMap.WriteToFile()
 	index.BuildIndex()
+	log.Printf("analysis.WriteCorpus: exit")
 }
 
 // Write all the collections in the default corpus (collections.csv file)
@@ -664,10 +665,7 @@ func WriteCorpusCol(collectionFile string,
 	if err != nil {
 		log.Fatalf("analysis.WriteCorpusCol: fatal error %v", err)
 	}
-	// df does not work without a full corpus analysis because df is not
-	// persisted
-	df := index.DocumentFrequency{}
-	writeCollection(collectionEntry, df, config.WebDir(), libLoader)
+	writeCollection(collectionEntry, config.WebDir(), libLoader)
 }
 
 // Writes a corpus document with markup for the array of tokens

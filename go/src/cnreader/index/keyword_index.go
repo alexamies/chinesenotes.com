@@ -28,9 +28,6 @@ const UNKNOWN_FILE = "unknown.txt"
 // Word frequencies for corpus
 const WF_CORPUS_FILE = "word_frequencies.txt"
 
-// Word frequencies for each document
-const WF_DOC_FILE = "word_freq_doc.txt"
-
 // ngram frequencies for corpus
 const NGRAM_CORPUS_FILE = "ngram_frequencies.txt"
 
@@ -38,7 +35,6 @@ const NGRAM_CORPUS_FILE = "ngram_frequencies.txt"
 type WFEntry struct {
 	Chinese string
 	Count   int
-	Freq    float64 // frequency per 10,000 words
 }
 
 // Keep corpus-wide word frequency map in memory
@@ -64,7 +60,7 @@ func readWFCorpus() {
 	wf = make(map[string]WFEntry)
 	dir := config.IndexDir()
 	fname := dir + "/" + WF_CORPUS_FILE
-	log.Printf("index.ReadWFCorpus: reading %s\n", fname)
+	log.Printf("index.readWFCorpus: reading %s\n", fname)
 	wffile, err := os.Open(fname)
 	if err != nil {
 		log.Fatal("index.ReadWFCorpus, error opening word freq file: ", err)
@@ -83,14 +79,9 @@ func readWFCorpus() {
 		if err != nil {
 			log.Fatal("Could not parse word count ", i, err)
 		}
-		freq, err := strconv.ParseFloat(row[2], 64)
-		if err != nil {
-			log.Fatal("Could not parse word freq ", i, err)
-		}
 		wfentry := WFEntry{
 			Chinese: w,
 			Count:   int(count),
-			Freq:    freq,
 		}
 		wf[w] = wfentry
 	}
@@ -120,12 +111,8 @@ func readWFDoc() {
 		if err != nil {
 			log.Fatal("Could not parse word count ", i, err)
 		}
-		freq, err := strconv.ParseFloat(row[2], 64)
-		if err != nil {
-			log.Fatal("Could not parse word freq ", i, err)
-		}
-		filename := row[3]
-		entry := WFDocEntry{filename, int(count), freq}
+		filename := row[2]
+		entry := WFDocEntry{filename, int(count)}
 		if entryarr, ok := wfdoc[w]; !ok {
 			wfslice := make([]WFDocEntry, 1)
 			wfslice[0] = entry
@@ -139,8 +126,11 @@ func readWFDoc() {
 // Resets the document analysis plain text file
 func Reset() {
 	dir := config.IndexDir()
-	fname := dir + "/word_freq_doc.txt"
-	wfFile, _ := os.Create(fname)
+	fname := dir + "/" + WF_DOC_FILE
+	wfFile, err := os.Create(fname)
+	if err != nil {
+		log.Fatal("index.Reset: Could not reset file", err)
+	}
 	wfFile.Close()
 	keywordIndexReady = false
 }
@@ -171,14 +161,16 @@ func writeKeywordIndex() {
 
 // Write corpus analysis to plain text files in the index directory
 func WriteWFCorpus(sortedWords, sortedUnknownWords []SortedWordItem,
-	bFreq []ngram.BigramFreq, wc int) {
+		bFreq []ngram.BigramFreq, wc int) {
+
+	log.Printf("index.WriteWFCorpus: enter")
 
 	// Word frequencies
 	dir := config.IndexDir()
 	fname := dir + "/" + WF_CORPUS_FILE
 	wfFile, err := os.Create(fname)
 	if err != nil {
-		log.Printf("Could not open write wfFile", err)
+		log.Fatal("Could not open write wfFile", err)
 		return
 	}
 	defer wfFile.Close()
@@ -226,29 +218,4 @@ func WriteWFCorpus(sortedWords, sortedUnknownWords []SortedWordItem,
 			ngramItem.Frequency,	rel_freq)
 	}
 	nWriter.Flush()
-}
-
-// Append document analysis to a plain text file in the index directory
-func WriteWFDoc(sortedWords []SortedWordItem, glossFile string, wc int) {
-
-	dir := config.IndexDir()
-
-	// Word frequencies
-	fname := dir + "/" + WF_DOC_FILE
-	wfFile, err := os.OpenFile(fname, os.O_APPEND|os.O_WRONLY, 0600)
-	if err != nil {
-		log.Printf("Could not open write wfFile", err)
-		return
-	}
-	defer wfFile.Close()
-	wfWriter := bufio.NewWriter(wfFile)
-	for _, wordItem := range sortedWords {
-		rel_freq := 0.0
-		if wc > 0 {
-			rel_freq = float64(wordItem.Freq) * 10000.0 / float64(wc)
-		}
-		fmt.Fprintf(wfWriter, "%s\t%d\t%f\t%s\n", wordItem.Word, wordItem.Freq,
-			rel_freq, glossFile)
-	}
-	wfWriter.Flush()
 }

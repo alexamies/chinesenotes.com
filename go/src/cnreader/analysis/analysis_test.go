@@ -9,11 +9,27 @@ import (
 	"cnreader/dictionary"
 	"cnreader/index"
 	"cnreader/library"
+	"container/list"
+	"fmt"
 	"log"
 	"strings"
 	"testing"
 	"time"
 )
+
+func listToString(l list.List) string {
+	text := ""
+	for e := l.Front(); e != nil; e = e.Next() {
+		text += e.Value.(string)
+	}
+	return text
+}
+
+func printList(l list.List) {
+	for e := l.Front(); e != nil; e = e.Next() {
+		fmt.Print(e.Value)
+	}
+}
 
 func TestDecodeUsageExample1(t *testing.T) {
 	s1 := "海"
@@ -132,7 +148,7 @@ func TestReadText1(t *testing.T) {
 	//log.Printf("TestReadText1: Begin ******** \n")
 	corpusLoader := corpus.FileCorpusLoader{"File"}
 	text := corpusLoader.ReadText("../testdata/sampletest.txt")
-	expected := "繁體中文\n"
+	expected := "繁體中文"
 	//log.Printf("TestReadText1: Expected  '%s', got '%s'\n", expected, text)
 	if text != expected {
 		t.Error("Expected ", expected, ", got ", text)
@@ -169,7 +185,7 @@ func TestParseText1(t *testing.T) {
 		t.Error("Expected to get wc = 2, got ", results.WC)
 	}
 	if results.CCount != 4 {
-		t.Error("Expected to get wc = 2, got ", results.WC)
+		t.Error("Expected to get cc = 4, got ", results.CCount)
 	}
 	//log.Printf("TestParseText1: End ******** \n")
 }
@@ -184,6 +200,10 @@ func TestParseText2(t *testing.T) {
 	}
 	if results.WC != 2 {
 		t.Error("Expected to get wc 2, got ", results.WC)
+	}
+	if results.CCount != 4 {
+		t.Error("Expected to get char count 4, got ", results.CCount)
+		return
 	}
 	first := tokens.Front().Value.(string)
 	if first != "a" {
@@ -208,6 +228,10 @@ func TestParseText3(t *testing.T) {
 		t.Error("Expected to get wc 3, got ", results.WC)
 		return
 	}
+	if results.CCount != 5 {
+		t.Error("Expected to get char count 5, got ", results.CCount)
+		return
+	}
 	expected := []string{"前", "不见", "古人"}
 	i := 0
 	for e := tokens.Front(); e != nil; e = e.Next() {
@@ -222,18 +246,38 @@ func TestParseText3(t *testing.T) {
 
 func TestParseText4(t *testing.T) {
 	dictionary.ReadDict(config.LUFileNames())
+	text := "夫起信論者，乃是至極大乘甚深祕典，開示如理緣起之義。"
+	tokens, results := ParseText(text, "", corpus.NewCorpusEntry())
+	tokenText := listToString(tokens)
+	if len(text) != len(tokenText) {
+		t.Error("Expected to string length ", len(text), ", got ",
+			len(tokenText))
+		printList(tokens)
+	}
+	if results.CCount != 23 {
+		t.Error("Expected to get char count 23, got ", results.CCount)
+		return
+	}
+}
+
+func TestParseText5(t *testing.T) {
+	dictionary.ReadDict(config.LUFileNames())
 	corpusLoader := corpus.FileCorpusLoader{"File"}
 	text := corpusLoader.ReadText("../testdata/test-trad.html")
 	tokens, results := ParseText(text, "", corpus.NewCorpusEntry())
-	if tokens.Len() != 48 {
-		t.Error("Expected to get length 48, got ", tokens.Len())
+	tokenText := listToString(tokens)
+	if len(text) != len(tokenText) {
+		t.Error("Expected to string length ", len(text), ", got ",
+			len(tokenText))
+		printList(tokens)
 	}
 	if results.CCount != 49 {
-		t.Error("Expected to get cc 49, got ", results.CCount)
+		t.Error("Expected to get char count 49, got ", results.CCount)
 		return
 	}
-	if len(results.Vocab) != 37 {
-		t.Error("Expected to get Vocab 37, got ", len(results.Vocab), results.Vocab)
+	if len(results.Vocab) != 36 {
+		t.Error("Expected to get Vocab 37, got ", len(results.Vocab),
+			results.Vocab)
 		return
 	}
 }
