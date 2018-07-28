@@ -34,6 +34,32 @@ func TestFindDocsForKeyword0(t *testing.T) {
 	}
 	fileLoader := corpus.FileCorpusLoader{"File"}
 	corpusEntryMap := fileLoader.LoadAll(corpus.COLLECTIONS_FILE)
-	documents := FindDocsForKeyword(hw, corpusEntryMap)
-	fmt.Println("index.TestFindDocsForKeyword0 ", documents)
+	outfileMap := corpus.GetOutfileMap(corpusEntryMap)
+	documents := FindDocsForKeyword(hw, outfileMap)
+	if len(documents) != 0 {
+		t.Error("index.TestFindDocsForKeyword0: expectedd no documents")
+	}
+}
+
+// Trivial test for loading index
+func TestFindDocsForKeyword1(t *testing.T) {
+	BuildIndex()
+	s1 := "铁"
+	s2 := "鐵"
+	hw := dictionary.HeadwordDef{
+		Id:          1,
+		Simplified:  &s1,
+		Traditional: &s2,
+		Pinyin:      []string{"tiě"},
+		WordSenses:  &[]dictionary.WordSenseEntry{},
+	}
+	fileLoader := corpus.FileCorpusLoader{"File"}
+	corpusEntryMap := fileLoader.LoadAll(corpus.COLLECTIONS_FILE)
+	outfileMap := corpus.GetOutfileMap(corpusEntryMap)
+	documents := FindDocsForKeyword(hw, outfileMap)
+	expected := 1
+	if len(documents) != expected {
+		t.Errorf("index.TestFindDocsForKeyword1: expected %d found %d",
+			expected, len(documents))
+	}
 }

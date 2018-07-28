@@ -40,12 +40,15 @@ func FindDocsForKeyword(keyword dictionary.HeadwordDef,
 		kw = *keyword.Traditional
 	}
 	i := 0
+	//log.Printf("index.FindForKeyword, wfdoc[kw] %v\n", wfdoc[kw])
+	//log.Printf("index.FindForKeyword, len(wfdoc[kw]) %d\n", len(wfdoc[kw]))
 	for _, raw := range wfdoc[kw] {
+		//log.Printf("index.FindForKeyword, raw.Filename %s\n", raw.Filename)
 		if i < MAX_DOCS_DISPLAYED {
 			corpusEntry, ok := corpusEntryMap[raw.Filename]
 			if !ok {
-				//log.Printf("index.FindForKeyword, no title for %s\n",
-				//		raw.Filename)
+				log.Printf("index.FindForKeyword, no entry for %s\n",
+					raw.Filename)
 				continue
 			}
 			item := RetrievalResult{corpusEntry.GlossFile, corpusEntry.Title,
@@ -56,6 +59,7 @@ func FindDocsForKeyword(keyword dictionary.HeadwordDef,
 			break
 		}
 	}
+	//log.Printf("index.FindForKeyword, len(docs) = %d", len(docs))
 	return docs
 }
 

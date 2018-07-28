@@ -14,7 +14,7 @@ type WFDocEntry struct {
 }
 
 func (item WFDocEntry) String() string {
-	return fmt.Sprintf("%s %f", item.Filename)
+	return fmt.Sprintf("%s %d", item.Filename, item.Count)
 }
 
 type ByFrequencyDoc []WFDocEntry

@@ -826,6 +826,7 @@ func WriteHwFiles(loader library.LibraryLoader) {
 	usageMap := vocabAnalysis.UsageMap
 	collocations := vocabAnalysis.Collocations
 	corpusEntryMap := loader.GetCorpusLoader().LoadAll(corpus.COLLECTIONS_FILE)
+	outfileMap := corpus.GetOutfileMap(corpusEntryMap)
 	dateUpdated := time.Now().Format("2006-01-02")
 
 	// Prepare template
@@ -902,7 +903,7 @@ func WriteHwFiles(loader library.LibraryLoader) {
 
 		dictEntry := DictEntry {
 			Headword:     hw,
-			RelevantDocs: index.FindDocsForKeyword(hw, corpusEntryMap),
+			RelevantDocs: index.FindDocsForKeyword(hw, outfileMap),
 			Contains:     contains,
 			Collocations: wordCollocations,
 			UsageArr:     hlUsageArr,

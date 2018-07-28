@@ -107,6 +107,19 @@ func getCollectionEntry(collectionFile string) (CollectionEntry, error)  {
 		collectionFile)
 }
 
+// Method to get a a map of entries with keys being output (HTML) file names
+// Param:
+//   sourceMap: A map by source (plain) text file name
+// Returns
+//   map with keys being the output file names
+func GetOutfileMap(sourceMap map[string]CorpusEntry) map[string]CorpusEntry {
+	outMap := map[string]CorpusEntry{}
+	for _, entry := range sourceMap {
+		outMap[entry.GlossFile] = entry
+	}
+	return outMap
+}
+
 // Load all corpus entries and keep them in a hash map
 func loadAll(loader CorpusLoader, fName string) (map[string]CorpusEntry) {
 	corpusEntryMap := map[string]CorpusEntry{}

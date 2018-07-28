@@ -121,6 +121,7 @@ func readWFDoc() {
 			wfdoc[w] = append(entryarr, entry)
 		}
 	}
+	log.Printf("index.ReadWFDoc: read %d records\n", len(wfdoc))
 }
 
 // Resets the document analysis plain text file
