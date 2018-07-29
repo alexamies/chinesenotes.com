@@ -643,7 +643,7 @@ func WriteCorpus(collections []corpus.CollectionEntry, baseDir string,
 	}
 	writeAnalysisCorpus(aResults, docFreq)
 	docFreq.WriteToFile()
-	wfDocMap.WriteToFile()
+	wfDocMap.WriteToFile(docFreq)
 	index.BuildIndex()
 	log.Printf("analysis.WriteCorpus: exit")
 }

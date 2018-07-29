@@ -45,16 +45,11 @@ func TestIDF1(t *testing.T) {
 		term: 1,
 	}
 	df.AddVocabulary(vocab)
-	val, ok := df.IDF(term)
+	_, ok := df.IDF(term)
 	okExpected := true
 	if ok != okExpected {
 		t.Error("index.TestIDF1: okExpected ", okExpected, " got ",
 			ok)
-	}
-	valExpected := 0.0
-	if val != valExpected {
-		t.Error("index.TestIDF1: valExpected ", valExpected, " got ",
-			val)
 	}
 }
 
@@ -80,16 +75,11 @@ func TestIDF2(t *testing.T) {
 		terms[3]: 17,
 	}
 	df.AddVocabulary(vocab3)
-	val0, ok0 := df.IDF(terms[0])
+	_, ok0 := df.IDF(terms[0])
 	okExpected0 := true
 	if ok0 != okExpected0 {
 		t.Error("index.TestIDF2: okExpected0 ", okExpected0, " got ",
 			ok0)
-	}
-	valExpected0 := 0.0
-	if val0 != valExpected0 {
-		t.Error("index.TestIDF2: valExpected0 ", valExpected0, " got ",
-			val0, ", df: ", df)
 	}
 }
 

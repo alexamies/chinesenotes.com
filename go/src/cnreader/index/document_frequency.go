@@ -64,7 +64,7 @@ func (df *DocumentFrequency) AddVocabulary(vocab map[string]int) {
 func (df *DocumentFrequency) IDF(term string) (val float64, ok bool) {
 	ndocs, ok := df.DocFreq[term]
 	if ok && ndocs > 0 {
-		val = math.Log10(float64(*df.N) / float64(ndocs))
+		val = math.Log10(float64(*df.N + 1) / float64(ndocs))
 	//log.Println("index.IDF: term, val, df.n, ", term, val, df.N)
 	} 
 	return val, ok

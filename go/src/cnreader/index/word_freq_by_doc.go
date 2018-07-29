@@ -55,7 +55,7 @@ func (wfDocMap WordFreqDocMap) Put(record WordFreqDocRecord) {
 }
 
 // Append document analysis to a plain text file in the index directory
-func (wordFreqDocMap WordFreqDocMap) WriteToFile() {
+func (wordFreqDocMap WordFreqDocMap) WriteToFile(df DocumentFrequency) {
 	log.Printf("index.WriteToFile: enter, %d", len(wordFreqDocMap))
 	dir := config.IndexDir()
 	fname := dir + "/" + WF_DOC_FILE
@@ -67,8 +67,14 @@ func (wordFreqDocMap WordFreqDocMap) WriteToFile() {
 	defer wfFile.Close()
 	wfWriter := bufio.NewWriter(wfFile)
 	for _, record := range wordFreqDocMap {
-		fmt.Fprintf(wfWriter, "%s\t%d\t%s\n", record.Word, record.Freq,
-			record.GlossFile)
+		docFreq, ok := df.IDF(record.Word)
+		if !ok {
+			log.Printf("Could not compute document frequency for %s\n",
+				record.Word)
+			docFreq = 0.0
+		}
+		fmt.Fprintf(wfWriter, "%s\t%d\t%s\t%.4f\n", record.Word, record.Freq,
+			record.GlossFile, docFreq)
 	}
 	wfWriter.Flush()
 }
