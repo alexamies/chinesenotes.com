@@ -100,7 +100,7 @@ func readWFDoc() {
 	defer wffile.Close()
 	reader := csv.NewReader(wffile)
 	reader.FieldsPerRecord = -1
-	reader.Comma = rune('\t')
+	reader.Comma = rune(',')
 	rawCSVdata, err := reader.ReadAll()
 	if err != nil {
 		log.Fatal("index.ReadWFDoc: Could not wf file ", err)

@@ -73,7 +73,7 @@ func (wordFreqDocMap WordFreqDocMap) WriteToFile(df DocumentFrequency) {
 				record.Word)
 			docFreq = 0.0
 		}
-		fmt.Fprintf(wfWriter, "%s\t%d\t%s\t%.4f\n", record.Word, record.Freq,
+		fmt.Fprintf(wfWriter, "%s,%d,%s,%.4f\n", record.Word, record.Freq,
 			record.GlossFile, docFreq)
 	}
 	wfWriter.Flush()
