@@ -87,6 +87,7 @@ mkdir $WEB_DIR/hanshu
 mkdir $WEB_DIR/houhanshu
 mkdir $WEB_DIR/huainanzi
 mkdir $WEB_DIR/images
+mkdir $WEB_DIR/index
 mkdir $WEB_DIR/jinshi
 mkdir $WEB_DIR/jinshu
 mkdir $WEB_DIR/jiutangshu
@@ -135,27 +136,15 @@ mkdir $WEB_DIR/zhuangzi
 mkdir $WEB_DIR/zhushujinian
 mkdir $WEB_DIR/zuozhuan
 
-if [ -n "$DEV_HOME" ]; then
-  echo "Running from $DEV_HOME"
-  if [ -n "$CNREADER_HOME" ]; then
-    cd $CNREADER_HOME
-    cd $DEV_HOME/go
-    source 'path.bash.inc'
-    cd src/cnreader
-  	./cnreader
-    ./cnreader -hwfiles
-    ./cnreader -html
-    cd $CNREADER_HOME
-    cp web-resources/*.css $WEB_DIR/.
-    cp web-resources/script/*.js $WEB_DIR/script/.
-    cp web-resources/images/*.* $WEB_DIR/images/.
-    cp web-resources/mp3/*.* $WEB_DIR/mp3/.
-    cp corpus/images/*.* $WEB_DIR/images/.
-  else
-    echo "CNREADER_HOME is not set"
-    exit 1
-  fi
-else
-  echo "DEV_HOME is not set"
-  exit 1
-fi
+cd $DEV_HOME/go
+source 'path.bash.inc'
+cd src/cnreader
+./cnreader
+./cnreader -hwfiles
+./cnreader -html
+cd $CNREADER_HOME
+cp web-resources/*.css $WEB_DIR/.
+cp web-resources/script/*.js $WEB_DIR/script/.
+cp web-resources/images/*.* $WEB_DIR/images/.
+cp web-resources/mp3/*.* $WEB_DIR/mp3/.
+cp corpus/images/*.* $WEB_DIR/images/.
