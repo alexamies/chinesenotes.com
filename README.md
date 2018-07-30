@@ -202,6 +202,7 @@ docker run -itd --rm --name mysql-client --link mariadb \
   --mount type=bind,source="$(pwd)"/data,target=/cndata \
   mysql-client-image
 
+cp index/word_freq_doc.txt data/.
 docker exec -it mariadb bash
 
 # In the container command line
@@ -358,66 +359,86 @@ gsutil web set -m index.html -e 404.html gs://$BUCKET
 
 Set the load balancer up after creating the Kubernetes cluster
 
+## Deploying to Production
+### Set up a Cloud SQL Database
+New: Replacing management of the Mariadb database in a Kubernetes cluster
+Follow instructions in 
+[Cloud SQL Quickstart](https://cloud.google.com/sql/docs/mysql/quickstart) using
+the Cloud Console.
+
+Connect to the instance from the Cloud Shell
+```
+INSTANCE=cnotes
+gcloud sql connect $INSTANCE --user=root
+```
+
+Execute statements in first_time_setup.sql and corpus_index.ddl to define
+database and tables.
+
+Upload word_freq_doc.txt via GCS
+```
+DATA_BUCKET=[your bucket]
+gsutil mb gs://$DATA_BUCKET
+gsutil cp index/word_freq_doc.txt gs://$DATA_BUCKET
+```
+
+Import the data for table word_freq_doc via the Cloud Console using the import
+function. The other tables can be imported using the MySQL client (much faster):
+```
+INSTANCE=cnotes
+gcloud sql connect $INSTANCE --user=root
+#source data/notes.ddl
+#source data/corpus_index.ddl
+#source data/drop.sql
+#source data/delete_index.sql
+source data/load_data.sql
+source data/load_index.sql
+source index/load_word_freq.sql
+#source data/library/digital_library.sql
+```
+
 ### Set Up Kubernetes Cluster and Deployment
 [Container Engine Quickstart](https://cloud.google.com/container-engine/docs/quickstart)
 The dynamic part of the app run in a Kubernetes cluster using Google Kubernetes Engine.
-The Maria DB runs on a persistent volume. The password for the root user and 
-application user for the database are stored in Kubernetes secrets.
+
+Configure access to Cloud SQL using instructions in
+[Connecting from Kubernetes Engine](https://cloud.google.com/sql/docs/mysql/connect-kubernetes-engine).
+Save the JSON key file. Create the proxy user:
 
 ```
-gcloud config set project $PROJECT
-gcloud config set compute/zone $ZONE
-gcloud container clusters create $CLUSTER \
-  --zone=$ZONE \
-  --disk-size=500 \
-  --machine-type=n1-standard-1 \
-  --num-nodes=1 \
-  --enable-cloud-monitoring
-
-gcloud compute disks create --size 200GB cnotesdb-disk
-
-gcloud container clusters get-credentials $CLUSTER --zone=$ZONE
-
-kubectl create secret generic mysqlroot --from-literal=MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
-kubectl create secret generic mysql --from-literal=DBPASSWORD=$DBPASSWORD
-
-kubectl apply -f kubernetes/db-deployment.yaml
-kubectl apply -f kubernetes/db-service.yaml
+PROXY_PASSWORD=[Your value]
+gcloud sql users create proxyuser cloudsqlproxy~% --instance=$INSTANCE \
+  --password=$PROXY_PASSWORD
 ```
 
-The application tier is dependent on an operational database, which takes
-some manual configuration to achieve. 
-
+Get the instance connection name:
 ```
-kubectl get pods
-POD_NAME=
-cp index/word_freq_doc.txt data/corpus/.
-tar -zcf  cndata.tar.gz data
-kubectl cp cndata.tar.gz $POD_NAME:.
-kubectl exec -it $POD_NAME bash
-rm -rf data
-rm -rf cndata/*
-tar -zxf cndata.tar.gz
-mkdir cndata
-mv data/* cndata/.
-cd cndata
-mysql --local-infile=1 -h localhost -u root -p
-#source notes.ddl
-#source corpus_index.ddl
-#source drop.sql
-source delete_index.sql
-source load_data.sql
-source load_index.sql
-source library/digital_library.sql
+gcloud sql instances describe $INSTANCE
 ```
 
-Execute the database configuration steps above and continue to configure the
-app and web tiers.
-
+Create secrets
 ```
-# Deploy the app tier
+PROXY_KEY_FILE_PATH=[JSON file]
+kubectl create secret generic cloudsql-instance-credentials \
+    --from-file=credentials.json=$PROXY_KEY_FILE_PATH
+kubectl create secret generic cloudsql-db-credentials \
+    --from-literal=username=proxyuser --from-literal=password=$PROXY_PASSWORD
+```
+
+Deploy the app tier
+```
 kubectl apply -f kubernetes/app-deployment.yaml 
 kubectl apply -f kubernetes/app-service.yaml
+```
+
+Test from the command line
+```
+kubectl get pods
+POD_NAME=[your pod name]
+kubectl exec -it $POD_NAME bash
+apt-get update
+apt-get install curl
+curl http://localhost:8080/find/?query=hello
 ```
 
 The load balancer connects to the Kubernetes NodePort with a managed instance

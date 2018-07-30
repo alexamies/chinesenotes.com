@@ -11,8 +11,8 @@ spec:
         tier: backend
     spec:
       containers:
-      - image: gcr.io/hbreader-162018/cn-app-image:r33
-        name: cnweb-app
+      - name: cnweb-app
+        image: gcr.io/hbreader-162018/cn-app-image:r38
         resources:
           limits:
             cpu: "200m"
@@ -22,16 +22,32 @@ spec:
           - name: SITEDOMAIN
             value: chinesenotes.com
           - name: DBHOST
-            value: mariadb
+            value: 127.0.0.1
           - name: DATABASE
             value: cse_dict
           - name: DBUSER
-            value: app_user
+            valueFrom:
+              secretKeyRef:
+                name: cloudsql-db-credentials
+                key: username
           - name: DBPASSWORD
             valueFrom:
               secretKeyRef:
-                name: mysql
-                key: DBPASSWORD
+                name: cloudsql-db-credentials
+                key: password
         ports:
         - containerPort: 8080
           protocol: TCP
+      - name: cloudsql-proxy
+        image: gcr.io/cloudsql-docker/gce-proxy:1.11
+        command: ["/cloud_sql_proxy",
+                  "-instances=hbreader-162018:us-central1:cnotes=tcp:3306",
+                  "-credential_file=/secrets/cloudsql/credentials.json"]
+        volumeMounts:
+         - name: cloudsql-instance-credentials
+           mountPath: /secrets/cloudsql
+           readOnly: true
+      volumes:
+      - name: cloudsql-instance-credentials
+        secret:
+          secretName: cloudsql-instance-credentials               
