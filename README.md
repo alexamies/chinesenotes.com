@@ -399,7 +399,17 @@ source index/load_word_freq.sql
 
 ### Set Up Kubernetes Cluster and Deployment
 [Container Engine Quickstart](https://cloud.google.com/container-engine/docs/quickstart)
-The dynamic part of the app run in a Kubernetes cluster using Google Kubernetes Engine.
+The dynamic part of the app run in a Kubernetes cluster using Google
+Kubernetes Engine. To create the cluster and authenticate to it:
+```
+gcloud container clusters create $CLUSTER \
+  --zone=$ZONE \
+  --disk-size=500 \
+  --machine-type=n1-standard-1 \
+  --num-nodes=1 \
+  --enable-cloud-monitoring
+gcloud container clusters get-credentials $CLUSTER --zone=$ZONE
+```
 
 Configure access to Cloud SQL using instructions in
 [Connecting from Kubernetes Engine](https://cloud.google.com/sql/docs/mysql/connect-kubernetes-engine).

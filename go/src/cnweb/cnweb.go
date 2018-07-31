@@ -110,8 +110,8 @@ func displayPage(w http.ResponseWriter, templateName string, content interface{}
 	}	
 }
 
-// HTML redirect to the index.html page, for healthchecks that use /
-// Do not expect a user to hit this
+// HTML redirect to the index.html page, for healthchecks used by the load balancer.
+// Do not expect a user to hit this.
 func displayHome(w http.ResponseWriter, r *http.Request) {
 	page := `<!DOCTYPE html>
 <html>
@@ -182,13 +182,15 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 	}
 }
 
-// Finds documents matching the given query
+// Finds documents matching the given query with search in text body
 func findAdvanced(response http.ResponseWriter, request *http.Request) {
+	applog.Info("main.findAdvanced, enter")
 	findDocs(response, request, true)
 }
 
 // Finds documents matching the given query
 func findHandler(response http.ResponseWriter, request *http.Request) {
+	applog.Info("main.findHandler, enter")
 	findDocs(response, request, false)
 }
 

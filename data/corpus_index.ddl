@@ -45,14 +45,19 @@ CREATE TABLE document (
 
 /*
  * Table for word frequencies in documents
+ * word - Chinese text for the word
+ * frequency - the count of words in the document
+ * document - the filename of the HTML Chinese text document
+ * idf - inverse document frequency log[(M + 1) / df(w)]
  */
 CREATE TABLE word_freq_doc (
-	word VARCHAR(256) NOT NULL,
-	frequency INT UNSIGNED NOT NULL,
-	rate FLOAT NOT NULL,
-    document VARCHAR(256) NOT NULL,
-    PRIMARY KEY (`word`)
-	)
-    CHARACTER SET UTF8
-    COLLATE utf8_general_ci
+  word VARCHAR(256) NOT NULL,
+  frequency INT UNSIGNED NOT NULL,
+  document VARCHAR(256) NOT NULL,
+  idf FLOAT NOT NULL,
+  PRIMARY KEY (`word`, `document`)
+  )
+  CHARACTER SET UTF8
+  COLLATE utf8_general_ci
 ;
+
