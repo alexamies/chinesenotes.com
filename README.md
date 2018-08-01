@@ -261,7 +261,7 @@ For Go unit tests set in a local development environment first export environmen
 variables
 
 ```
-export DBDBHOST=localhost
+export DBHOST=localhost
 export DBUSER={database user}
 export DBPASSWORD={the password}
 cd go/src/cnweb/identity
@@ -290,12 +290,12 @@ docker build -f docker/go/Dockerfile -t cn-app-image .
 
 Run it locally
 ```
-export DBDBHOST=mariadb
+export DBHOST=mariadb
 export DBUSER=app_user
 export DBPASSWORD="***"
 export DATABASE=cse_dict
 docker run -itd --rm -p 8080:8080 --name cn-app --link mariadb \
-  -e DBDBHOST=$DBDBHOST \
+  -e DBHOST=$DBHOST \
   -e DBUSER=$DBUSER \
   -e DBPASSWORD=$DBPASSWORD \
   -e DATABASE=$DATABASE \

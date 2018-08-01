@@ -1,10 +1,10 @@
-<h4>Source<h4>
+<h4>Source</h4>
 <p>
   Wikisource, accessed 2018-07-08, <a href="https://zh.wikisource.org/wiki/文心雕龍"
   >https://zh.wikisource.org/wiki/文心雕龍</a>.
 </p>
 
-<h4>English translations<h4>
+<h4>English translations</h4>
 <p>
   <li>
     Liu, Xie and Youzhong Shi 2015,
@@ -14,7 +14,7 @@
   </li>
 </p>
 
-<h4>Discussion<h4>
+<h4>Discussion</h4>
 <ol>
   <li>
     Idema, W L and Lloyd Haft 1997,

@@ -62,37 +62,79 @@ func TestFindBodyBitVector1(t *testing.T) {
 	terms := []string{"后妃"}
 	docSimilarity, err := findBodyBitVector(terms)
 	if err == nil {
-		t.Error("TestFindInBody0: expected an error, ", err)
+		t.Error("TestFindBodyBitVector1: expected an error, ", err)
 		return
 	}
-	fmt.Printf("TestFindInBody1, len(docSimilarity) = %d", len(docSimilarity))
+	fmt.Printf("TestFindBodyBitVector1, len(docSimilarity) = %d",
+		len(docSimilarity))
 }
 
 func TestFindBodyBitVector2(t *testing.T) {
 	terms := []string{"后妃", "之"}
 	docSimilarity, err := findBodyBitVector(terms)
 	if err != nil {
-		t.Error("TestFindInBody: got error, ", err)
+		t.Error("TestFindBodyBitVector2: got error, ", err)
 	}
-	fmt.Printf("TestFindInBody2, len(docSimilarity) = %d", len(docSimilarity))
+	fmt.Printf("TestFindBodyBitVector2, len(docSimilarity) = %d",
+		len(docSimilarity))
 }
 
 func TestFindBodyBitVector3(t *testing.T) {
 	terms := []string{"后妃", "之", "德"}
 	docSimilarity, err := findBodyBitVector(terms)
 	if err != nil {
-		t.Error("TestFindInBody: got error, ", err)
+		t.Error("TestFindBodyBitVector3: got error, ", err)
 	}
-	fmt.Printf("TestFindInBody3, len(docSimilarity) = %d", len(docSimilarity))
+	fmt.Printf("TestFindBodyBitVector3, len(docSimilarity) = %d",
+		len(docSimilarity))
 }
 
 func TestFindBodyBitVector4(t *testing.T) {
 	terms := []string{"后妃", "之", "德", "也"}
 	docSimilarity, err := findBodyBitVector(terms)
 	if err != nil {
-		t.Error("TestFindInBody: got error, ", err)
+		t.Error("TestFindBodyBitVector4: got error, ", err)
 	}
-	fmt.Printf("TestFindInBody4, len(docSimilarity) = %d", len(docSimilarity))
+	fmt.Printf("TestFindBodyBitVector4, len(docSimilarity) = %d",
+		len(docSimilarity))
+}
+
+func TestfindBodyBM251(t *testing.T) {
+	terms := []string{"后妃"}
+	docSimilarity, err := findBodyBM25(terms)
+	if err == nil {
+		t.Error("TestfindBodyBM251: expected an error, ", err)
+		return
+	}
+	fmt.Printf("TestfindBodyBM251, len(docSimilarity) = %d",
+		len(docSimilarity))
+}
+
+func TestfindBodyBM252(t *testing.T) {
+	terms := []string{"后妃", "之"}
+	docSimilarity, err := findBodyBM25(terms)
+	if err != nil {
+		t.Error("TestfindBodyBM251: got error, ", err)
+	}
+	fmt.Printf("TestfindBodyBM252, len(docSimilarity) = %d", len(docSimilarity))
+}
+
+func TestfindBodyBM253(t *testing.T) {
+	terms := []string{"后妃", "之", "德"}
+	docSimilarity, err := findBodyBM25(terms)
+	if err != nil {
+		t.Error("TestfindBodyBM251: got error, ", err)
+	}
+	fmt.Printf("TestfindBodyBM251, len(docSimilarity) = %d", len(docSimilarity))
+}
+
+func TestfindBodyBM254(t *testing.T) {
+	terms := []string{"后妃", "之", "德", "也"}
+	docSimilarity, err := findBodyBM25(terms)
+	if err != nil {
+		t.Error("TestfindBodyBM254: got error, ", err)
+	}
+	fmt.Printf("TestfindBodyBM254, len(docSimilarity) = %d", len(docSimilarity))
 }
 
 func TestFindWords1(t *testing.T) {
