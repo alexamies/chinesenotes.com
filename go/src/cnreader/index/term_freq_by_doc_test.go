@@ -6,16 +6,16 @@ import (
 
 // Trivial test for document index writing
 func TestWriteWFDoc0(t *testing.T) {
-	wfMap := WordFreqDocMap{}
+	wfMap := TermFreqDocMap{}
 	df := DocumentFrequency{}
-	wfMap.WriteToFile(df)
+	wfMap.WriteToFile(df, "terms_doc_test.txt")
 }
 
 // Simple test for document index writing
 func TestWriteWFDoc1(t *testing.T) {
-	wfRec := WordFreqDocRecord{"鐵", 1, "test.html"}
-	wfMap := WordFreqDocMap{}
+	wfRec := TermFreqDocRecord{"鐵", 1, "test.html", "testDoc.html"}
+	wfMap := TermFreqDocMap{}
 	wfMap.Put(wfRec)
 	df := DocumentFrequency{}
-	wfMap.WriteToFile(df)
+	wfMap.WriteToFile(df, "terms_doc_test.txt")
 }

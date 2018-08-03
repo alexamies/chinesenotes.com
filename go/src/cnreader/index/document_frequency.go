@@ -5,21 +5,24 @@ package index
 
 import (
 	"bufio"
-	"cnreader/config"
-	"encoding/json"
-	"io/ioutil"
+	"encoding/csv"
+	"fmt"
 	"log"
 	"math"
 	"os"
+	"strconv"
+
+	"cnreader/config"
 )
 
 // File name for document index
-const DOC_FREQ_FILE = "doc_freq.json"
+const DOC_FREQ_FILE = "doc_freq.txt"
+const BIGRAM_DOC_FREQ_FILE = "bigram_doc_freq.txt"
 
 // Map from term to number of documents referencing the term
 type DocumentFrequency struct {
 	DocFreq map[string]int
-	N       *int // total number of documents
+	N       int // total number of documents
 }
 
 // Loaded from disk in contrast to partially ready and still accumulating data
@@ -35,10 +38,9 @@ func init () {
 
 // Initializes a DocumentFrequency struct
 func NewDocumentFrequency() DocumentFrequency {
-	zero := 0
 	return DocumentFrequency{
 		DocFreq: map[string]int{},
-		N: &zero,
+		N: 0,
 	}
 }
 
@@ -55,7 +57,23 @@ func (df *DocumentFrequency) AddVocabulary(vocab map[string]int) {
 			df.DocFreq[k] = 1
 		}
 	}
-	*df.N += 1
+	df.N += 1
+}
+
+// Merges the given document frequency to the map and increments the counts
+// Param:
+//   vocab - word frequencies are ignored, only the presence of the term is 
+//           important
+func (df *DocumentFrequency) AddDocFreq(otherDF DocumentFrequency) {
+	for k, v := range otherDF.DocFreq {
+		count, ok := df.DocFreq[k]
+		if ok {
+			df.DocFreq[k] = count + v
+		} else {
+			df.DocFreq[k] = 1
+		}
+	}
+	df.N += otherDF.N
 }
 
 // Computes the inverse document frequency for the given term
@@ -64,7 +82,7 @@ func (df *DocumentFrequency) AddVocabulary(vocab map[string]int) {
 func (df *DocumentFrequency) IDF(term string) (val float64, ok bool) {
 	ndocs, ok := df.DocFreq[term]
 	if ok && ndocs > 0 {
-		val = math.Log10(float64(*df.N + 1) / float64(ndocs))
+		val = math.Log10(float64(df.N + 1) / float64(ndocs))
 	//log.Println("index.IDF: term, val, df.n, ", term, val, df.N)
 	} 
 	return val, ok
@@ -75,12 +93,29 @@ func ReadDocumentFrequency() (df DocumentFrequency, e error) {
 	dir := config.IndexDir()
 
 	fname := dir + "/" + DOC_FREQ_FILE
-	bytes, err := ioutil.ReadFile(fname)
+	dfFile, err := os.Open(fname)
 	if err != nil {
-		log.Println("index.ReadDocumentFrequency: error, ", err)
-		return df, err
+		log.Fatal("index.ReadDocumentFrequency, error opening word freq file: ",
+			err)
 	}
-	json.Unmarshal(bytes, &df)
+	defer dfFile.Close()
+	reader := csv.NewReader(dfFile)
+	reader.FieldsPerRecord = -1
+	reader.Comma = rune('\t')
+	rawCSVdata, err := reader.ReadAll()
+	if err != nil {
+		log.Fatal("index.ReadDocumentFrequency: Could not wf file ", err)
+	}
+	dfMap := map[string]int{}
+	for i, row := range rawCSVdata {
+		w := row[0] // Chinese text for word
+		count, err := strconv.ParseInt(row[1], 10, 0)
+		if err != nil {
+			log.Fatal("Could not parse word count ", i, err)
+		}
+		dfMap[w] = int(count)
+	}
+	df = DocumentFrequency{dfMap, -1}
 	return df, err
 }
 
@@ -100,18 +135,20 @@ func tfIdf(term string, count int) (val float64, ok bool) {
 }
 
 // Writes the document frequency to json file
-func (df *DocumentFrequency) WriteToFile() {
+func (df *DocumentFrequency) WriteToFile(filename string) {
 	dir := config.IndexDir()
+	fname := dir + "/" + filename
 	log.Println("index.DocumentFrequency.WriteToFile: N, ", df.N)
-	fname := dir + "/" + DOC_FREQ_FILE
 	f, err := os.Create(fname)
 	if err != nil {
 		log.Println("index.DocumentFrequency.WriteToFile: error, ", err)
 		return
 	}
 	defer f.Close()
-	w := bufio.NewWriter(f)
-	encoder := json.NewEncoder(w)
-	encoder.Encode(*df)
-	w.Flush()
+
+	writer := bufio.NewWriter(f)
+	for k, v := range df.DocFreq {
+		fmt.Fprintf(writer, "%s\t%d\n", k, v)
+	}
+	writer.Flush()
 }

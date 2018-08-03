@@ -13,12 +13,16 @@ import (
 // A struct to hold the analysis results for the collection
 type CollectionAResults struct {
 	Vocab				map[string]int
+	Bigrams				map[string]int
 	Usage				map[string]string
 	BigramFrequencies	ngram.BigramFreqMap
 	Collocations		ngram.CollocationMap
 	WC, CCount			int
 	UnknownChars		map[string]int
-	WFDocMap			index.WordFreqDocMap
+	WFDocMap			index.TermFreqDocMap
+	BigramDocMap		index.TermFreqDocMap
+	DocFreq				index.DocumentFrequency
+	BigramDF			index.DocumentFrequency
 }
 
 // Add more results to this set of results
@@ -26,6 +30,10 @@ func (results *CollectionAResults) AddResults(more CollectionAResults) {
 
 	for k, v := range more.Vocab {
 		results.Vocab[k] += v
+	}
+
+	for k, v := range more.Bigrams {
+		results.Bigrams[k] += v
 	}
 
 	for k, v := range more.Usage {
@@ -98,11 +106,15 @@ func (results *CollectionAResults) GetWordFreq(sortedWords []index.SortedWordIte
 func NewCollectionAResults() CollectionAResults {
 	return CollectionAResults{
 		Vocab:				map[string]int{},
+		Bigrams:				map[string]int{},
 		Usage:				map[string]string{},
 		BigramFrequencies:	ngram.BigramFreqMap{},
 		Collocations:		ngram.CollocationMap{},
 		WC:					0,
 		UnknownChars:		map[string]int{},
-		WFDocMap:			index.WordFreqDocMap{},
+		WFDocMap:			index.TermFreqDocMap{},
+		BigramDocMap:		index.TermFreqDocMap{},
+		DocFreq:			index.NewDocumentFrequency(),
+		BigramDF:			index.NewDocumentFrequency(),
 	}
 }

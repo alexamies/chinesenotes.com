@@ -12,7 +12,7 @@ import (
 func TestFindForKeyword0(t *testing.T) {
 	BuildIndex()
 	documents := FindForKeyword("你")
-	//fmt.Println("index.TestFindForKeyword0 ", documents)
+	fmt.Println("index.TestFindForKeyword0 ", documents)
 }
 
 // Trivial test for loading index

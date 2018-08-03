@@ -412,7 +412,7 @@ func TestWriteAnalysis(t *testing.T) {
 	}
 	df := index.NewDocumentFrequency()
 	df.AddVocabulary(vocab)
-	df.WriteToFile()
+	df.WriteToFile("analysis_df_test.txt")
 	index.ReadDocumentFrequency()
 	writeAnalysis(results, srcFile, glossFile, "Test Collection", "Test Doc")
 	log.Printf("analysis.TestWriteAnalysis: End +++++++++++\n")

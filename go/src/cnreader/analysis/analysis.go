@@ -247,6 +247,7 @@ func hyperlink(entries []*dictionary.WordSenseEntry, text string) string {
 func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 		tokens list.List, results CollectionAResults) {
 	vocab := map[string]int{}
+	bigrams := map[string]int{}
 	bigramMap := ngram.BigramFreqMap{}
 	collocations := ngram.CollocationMap{}
 	unknownChars := map[string]int{}
@@ -258,6 +259,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	hwIdMap := dictionary.GetHwMap()
 	lastHWPtr := new(dictionary.HeadwordDef)
 	lastHW := *lastHWPtr
+	lastHWText := ""
 	//fmt.Printf("ParseText: For text %s got %d chunks\n", text, chunks.Len())
 	for e := chunks.Front(); e != nil; e = e.Next() {
 		chunk := e.Value.(string)
@@ -267,6 +269,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 			tokens.PushBack(chunk)
 			lastHWPtr = new(dictionary.HeadwordDef)
 			lastHW = *lastHWPtr
+			lastHWText = ""
 			continue
 		}
 		for i := 0; i < len(characters); i++ {
@@ -282,6 +285,11 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 						wc++
 						cc += utf8.RuneCountInString(w)
 						vocab[w]++
+						if lastHWText != "" {
+							bg := lastHWText + w
+							bigrams[bg]++
+						}
+						lastHWText = w
 						if _, ok := usage[w]; !ok {
 							usage[w] = chunk
 						}
@@ -317,13 +325,14 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	//log.Printf("analysis.ParseText: %s found character count %d, vocab %d\n",
 	//	document.RawFile, cc, len(vocab))
 	results = CollectionAResults{
-		Vocab:             vocab,
-		Usage:             usage,
-		BigramFrequencies: bigramMap,
-		Collocations:      collocations,
-		WC:                wc,
-		CCount:			   cc,
-		UnknownChars:      unknownChars,
+		Vocab:				vocab,
+		Bigrams:			bigrams,
+		Usage:				usage,
+		BigramFrequencies:	bigramMap,
+		Collocations:		collocations,
+		WC:					wc,
+		CCount:				cc,
+		UnknownChars:		unknownChars,
 	}
 	return tokens, results
 }
@@ -588,7 +597,7 @@ func writeAnalysis(results CollectionAResults, srcFile, glossFile,
 // contained in the collection
 // collectionEntry: the CollectionEntry struct
 // baseDir: The base directory to use
-func writeCollection(collectionEntry corpus.CollectionEntry,baseDir string,
+func writeCollection(collectionEntry corpus.CollectionEntry, baseDir string,
 		libLoader library.LibraryLoader) CollectionAResults {
 
 	//log.Printf("analysis.writeCollection: enter CollectionFile =" +
@@ -616,7 +625,12 @@ func writeCollection(collectionEntry corpus.CollectionEntry,baseDir string,
 		writeCorpusDoc(tokens, results.Vocab, dest, collectionEntry.GlossFile,
 			collectionEntry.Title, entry.Title,  aFile, sourceFormat)
 		aResults.AddResults(results)
-		aResults.WFDocMap.AddWF(results.Vocab, entry.GlossFile)
+		aResults.DocFreq.AddVocabulary(results.Vocab)
+		aResults.BigramDF.AddVocabulary(results.Bigrams)
+		aResults.WFDocMap.AddWF(results.Vocab, collectionEntry.GlossFile,
+			entry.GlossFile)
+		aResults.BigramDocMap.AddWF(results.Bigrams, collectionEntry.GlossFile,
+			entry.GlossFile)
 	}
 	aFile := writeAnalysis(aResults, collectionEntry.CollectionFile,
 		collectionEntry.GlossFile, collectionEntry.Title, "")
@@ -632,18 +646,24 @@ func WriteCorpus(collections []corpus.CollectionEntry, baseDir string,
 		libLoader library.LibraryLoader) {
 	log.Printf("analysis.WriteCorpus: enter")
 	index.Reset()
-	wfDocMap := index.WordFreqDocMap{}
-	docFreq := index.NewDocumentFrequency() // used to accumulate the frequencies
+	wfDocMap := index.TermFreqDocMap{}
+	bigramDocMap := index.TermFreqDocMap{}
+	docFreq := index.NewDocumentFrequency() // used to accumulate doc frequencies
+	bigramDF := index.NewDocumentFrequency()
 	aResults := NewCollectionAResults()
 	for _, collectionEntry := range collections {
 		results := writeCollection(collectionEntry, baseDir, libLoader)
 		aResults.AddResults(results)
-		docFreq.AddVocabulary(results.Vocab)
+		docFreq.AddDocFreq(results.DocFreq)
+		bigramDF.AddDocFreq(results.BigramDF)
 		wfDocMap.Merge(results.WFDocMap)
+		bigramDocMap.Merge(results.BigramDocMap)
 	}
 	writeAnalysisCorpus(aResults, docFreq)
-	docFreq.WriteToFile()
-	wfDocMap.WriteToFile(docFreq)
+	docFreq.WriteToFile(index.DOC_FREQ_FILE)
+	bigramDF.WriteToFile(index.BIGRAM_DOC_FREQ_FILE)
+	wfDocMap.WriteToFile(docFreq, index.WF_DOC_FILE)
+	bigramDocMap.WriteToFile(bigramDF, index.BF_DOC_FILE)
 	index.BuildIndex()
 	log.Printf("analysis.WriteCorpus: exit")
 }

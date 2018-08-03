@@ -100,7 +100,7 @@ func readWFDoc() {
 	defer wffile.Close()
 	reader := csv.NewReader(wffile)
 	reader.FieldsPerRecord = -1
-	reader.Comma = rune(',')
+	reader.Comma = rune('\t')
 	rawCSVdata, err := reader.ReadAll()
 	if err != nil {
 		log.Fatal("index.ReadWFDoc: Could not wf file ", err)
@@ -111,7 +111,7 @@ func readWFDoc() {
 		if err != nil {
 			log.Fatal("Could not parse word count ", i, err)
 		}
-		filename := row[2]
+		filename := row[3]
 		entry := WFDocEntry{filename, int(count)}
 		if entryarr, ok := wfdoc[w]; !ok {
 			wfslice := make([]WFDocEntry, 1)
