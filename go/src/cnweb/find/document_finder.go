@@ -240,7 +240,7 @@ func findBodyBigram(terms []string) ([]DocSimilarity, error) {
 		bigram3 := terms[2] + terms[3]
 		bigram4 := terms[3] + terms[4]
 		bigram5 := terms[4] + terms[5]
-		results, err = simBigram4Stmt.QueryContext(ctx, bigram1, bigram2,
+		results, err = simBigram5Stmt.QueryContext(ctx, bigram1, bigram2,
 			bigram3, bigram4, bigram5)
 	}
 	if err != nil {

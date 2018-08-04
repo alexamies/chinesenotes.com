@@ -109,7 +109,7 @@ func TestFindBodyBitVector4(t *testing.T) {
 		len(docSimilarity))
 }
 
-func TestfindBodyBM251(t *testing.T) {
+func TestFindBodyBM251(t *testing.T) {
 	terms := []string{"后妃"}
 	docSimilarity, err := findBodyBM25(terms)
 	if err == nil {
@@ -120,7 +120,7 @@ func TestfindBodyBM251(t *testing.T) {
 		len(docSimilarity))
 }
 
-func TestfindBodyBM252(t *testing.T) {
+func TestFindBodyBM252(t *testing.T) {
 	terms := []string{"后妃", "之"}
 	docSimilarity, err := findBodyBM25(terms)
 	if err != nil {
@@ -129,7 +129,7 @@ func TestfindBodyBM252(t *testing.T) {
 	fmt.Printf("TestfindBodyBM252, len(docSimilarity) = %d", len(docSimilarity))
 }
 
-func TestfindBodyBM253(t *testing.T) {
+func TestFindBodyBM253(t *testing.T) {
 	terms := []string{"后妃", "之", "德"}
 	docSimilarity, err := findBodyBM25(terms)
 	if err != nil {
@@ -138,13 +138,75 @@ func TestfindBodyBM253(t *testing.T) {
 	fmt.Printf("TestfindBodyBM251, len(docSimilarity) = %d", len(docSimilarity))
 }
 
-func TestfindBodyBM254(t *testing.T) {
+func TestFindBodyBM254(t *testing.T) {
 	terms := []string{"后妃", "之", "德", "也"}
 	docSimilarity, err := findBodyBM25(terms)
 	if err != nil {
 		t.Error("TestfindBodyBM254: got error, ", err)
 	}
-	fmt.Printf("TestfindBodyBM254, len(docSimilarity) = %d", len(docSimilarity))
+	fmt.Printf("TestfindBodyBM254, len(docSimilarity) = %d",
+		len(docSimilarity))
+}
+
+func TestFindBodyBigram1(t *testing.T) {
+	terms := []string{"后妃"}
+	docSimilarity, err := findBodyBigram(terms)
+	if err == nil {
+		t.Error("TestFindBodyBigram1: expected an error, ", err)
+		return
+	}
+	fmt.Printf("TestFindBodyBigram1, len(docSimilarity) = %d",
+		len(docSimilarity))
+}
+
+func TestFindBodyBigram2(t *testing.T) {
+	terms := []string{"后妃", "之"}
+	docSimilarity, err := findBodyBigram(terms)
+	if err != nil {
+		t.Error("TestFindBodyBigram2: got error, ", err)
+	}
+	fmt.Printf("TestFindBodyBigram2, len(docSimilarity) = %d",
+		len(docSimilarity))
+}
+
+func TestFindBodyBigram3(t *testing.T) {
+	terms := []string{"后妃", "之", "德"}
+	docSimilarity, err := findBodyBigram(terms)
+	if err != nil {
+		t.Error("TestFindBodyBigram2: got error, ", err)
+	}
+	fmt.Printf("TestFindBodyBigram2, len(docSimilarity) = %d",
+		len(docSimilarity))
+}
+
+func TestFindBodyBigram4(t *testing.T) {
+	terms := []string{"后妃", "之", "德", "也"}
+	docSimilarity, err := findBodyBigram(terms)
+	if err != nil {
+		t.Error("TestFindBodyBigram4: got error, ", err)
+	}
+	fmt.Printf("TestFindBodyBigram4, len(docSimilarity) = %d",
+		len(docSimilarity))
+}
+
+func TestFindBodyBigram5(t *testing.T) {
+	terms := []string{"箴", "也", "所以", "攻", "疾"}
+	docSimilarity, err := findBodyBigram(terms)
+	if err != nil {
+		t.Error("TestFindBodyBigram5: got error, ", err)
+	}
+	fmt.Printf("TestFindBodyBigram5, len(docSimilarity) = %d",
+		len(docSimilarity))
+}
+
+func TestFindBodyBigram6(t *testing.T) {
+	terms := []string{"箴", "也", "所以", "攻", "疾", "防患"}
+	docSimilarity, err := findBodyBigram(terms)
+	if err != nil {
+		t.Error("TestFindBodyBigram6: got error, ", err)
+	}
+	fmt.Printf("TestFindBodyBigram6, len(docSimilarity) = %d",
+		len(docSimilarity))
 }
 
 func TestFindWords1(t *testing.T) {
