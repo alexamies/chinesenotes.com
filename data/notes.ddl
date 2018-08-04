@@ -1,4 +1,3 @@
-CREATE DATABASE IF NOT EXISTS cse_dict;
 USE cse_dict;
 
 /*

@@ -171,22 +171,31 @@ docker run hello-world
 The application uses a Mariadb database. 
 
 ### Mariadb Docker Image
-[Mariadb Image Documentation](https://hub.docker.com/r/library/mariadb/)
+See the documentation at [Mariadb Image 
+Documentation](https://hub.docker.com/_/mariadb/) and [Installing and using 
+MariaDB via Docker](https://mariadb.com/kb/en/library/installing-and-using-mariadb-via-docker/).
 
 To start a Docker container with Mariadb and connect to it from a MySQL command
 line client execute the command below. First, set environment variable 
-`MYSQL_ROOT_PASSWORD`.
+`MYSQL_ROOT_PASSWORD`. Also, create a directory outside the container to use as a
+permanent Docker volume for the database files. In addition, mount volumes for
+the tabe separated data to be loaded into Mariadb. See 
+[Manage data in Docker](https://docs.docker.com/storage/) and 
+[Use volumes](https://docs.docker.com/storage/volumes/) for details on volume
+and mount management with Docker.
 
 ```
+MYSQL_ROOT_PASSWORD=[your password]
+mkdir mariadb-data
 docker run --name mariadb -p 3306:3306 \
   -e MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD -d \
+  -v "$(pwd)"/mariadb-data:/var/lib/mysql \
   --mount type=bind,source="$(pwd)"/data,target=/cndata \
+  --mount type=bind,source="$(pwd)"/index,target=/cnindex \
   mariadb:10.3
-docker exec -it mariadb bash
-mysql --local-infile=1 -h localhost -u root -p
 ```
 
-The data in the database is persistent unless the container is deleted. To
+The data in the database is persistent even if the container is deleted. To
 restart the database use the command
 
 ```
@@ -195,22 +204,19 @@ docker restart  mariadb
 
 To load data from other sources connect to the database container
 or start up a mysql-client
-
 ```
-docker build -f docker/client/Dockerfile -t mysql-client-image .
-docker run -itd --rm --name mysql-client --link mariadb \
-  --mount type=bind,source="$(pwd)"/data,target=/cndata \
-  mysql-client-image
-
-cp index/word_freq_doc.txt data/.
 docker exec -it mariadb bash
+```
 
-# In the container command line
+In the container command line
+```
 cd cndata
 mysql --local-infile=1 -h localhost -u root -p
+```
 
-# In the mysql client
-# Edit password in the script
+In the mysql client
+Edit password in the script
+```
 # source first_time_setup.sql
 # source drop.sql
 source delete_index.sql
@@ -219,7 +225,16 @@ source load_data.sql
 source corpus_index.ddl
 source load_index.sql
 source library/digital_library.sql
-
+quit
+```
+The word frequency index files are large and may take a long time to load.
+Exit MySQL and change to the index directory for loading the word and bigram
+frequency files
+```
+cd ../index
+mysql --local-infile=1 -h localhost -u root -p
+source delete_word_freq.sql
+source load_word_freq.sql
 ```
 
 ### Go Application
@@ -266,6 +281,20 @@ export DBUSER={database user}
 export DBPASSWORD={the password}
 cd go/src/cnweb/identity
 go test
+```
+
+Run locally:
+```
+export DBHOST=localhost
+export DBUSER=app_user
+export DBPASSWORD="***"
+export DATABASE=cse_dict
+./cnweb
+```
+
+In another window  send a HTTP request:
+```
+curl http://localhost:8080/find/?query=hello
 ```
 
 ### Email configuration (Optional)

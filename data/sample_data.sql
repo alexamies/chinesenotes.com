@@ -1,13 +1,10 @@
-USE alexami_zhongwenbiji;
+USE ce_dict;
 
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/grammar.txt' INTO TABLE grammar CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/topics.txt' INTO TABLE topics CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/words.txt' INTO TABLE words CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/licenses.txt' INTO TABLE licenses CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/authors.txt' INTO TABLE authors CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
-LOAD DATA LOCAL INFILE '~/chinesenotes/web/private/data/illustrations.txt' INTO TABLE illustrations CHARACTER SET utf8 LINES TERMINATED BY '\r\n';
+SELECT id FROM words WHERE grammar not in (SELECT english FROM grammar) LIMIT 20;
+SELECT id, english, grammar FROM words WHERE id = 2;
+SELECT english FROM grammar WHERE english = 'proper noun';
 
-SHOW WARNINGS;
+SELECT title from collection WHERE gloss_file = 'wenji/fojiaocongshu09.html';
 
 SELECT * INTO OUTFILE '/temp/words.txt' FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\r\n' FROM words;
 SELECT * INTO OUTFILE '/temp/topics.txt' FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\r\n' FROM topics;
@@ -35,7 +32,6 @@ INSERT INTO illustrations (medium_resolution, title_zh_cn, title_en, author, lic
 VALUES
 (
 
-SELECT * FROM topics WHERE grammar not in (SELECT english FROM grammar);
 
 SELECT * FROM synonyms WHERE simplified1 not in (SELECT simplified FROM words);
 
