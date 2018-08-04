@@ -12,6 +12,16 @@ func TestInit(t *testing.T) {
 	fmt.Printf("TestInit: Begin unit tests\n")
 }
 
+// Test package initialization, which requires a database connection
+func TestCacheColDetails(t *testing.T) {
+	cMap := cacheColDetails()
+	title := cMap["wenxuan.html"]
+	if title == "" {
+		t.Error("TestCacheColDetails: got empty title, map size, ",
+			len(cMap))
+	}
+}
+
 func TestFindDocuments1(t *testing.T) {
 	dict := map[string]Word{}
 	parser := DictQueryParser{dict}
