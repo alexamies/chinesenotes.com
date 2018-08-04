@@ -95,8 +95,9 @@ func ReadDocumentFrequency() (df DocumentFrequency, e error) {
 	fname := dir + "/" + DOC_FREQ_FILE
 	dfFile, err := os.Open(fname)
 	if err != nil {
-		log.Fatal("index.ReadDocumentFrequency, error opening word freq file: ",
+		log.Println("index.ReadDocumentFrequency, error opening word freq file: ",
 			err)
+		return df, err
 	}
 	defer dfFile.Close()
 	reader := csv.NewReader(dfFile)
@@ -111,7 +112,8 @@ func ReadDocumentFrequency() (df DocumentFrequency, e error) {
 		w := row[0] // Chinese text for word
 		count, err := strconv.ParseInt(row[1], 10, 0)
 		if err != nil {
-			log.Fatal("Could not parse word count ", i, err)
+			log.Println("Could not parse word count ", i, err)
+			return df, err
 		}
 		dfMap[w] = int(count)
 	}

@@ -124,15 +124,9 @@ func TestTfIdf(t *testing.T) {
 func TestWriteToFile0(t *testing.T) {
 	df := NewDocumentFrequency()
 	df.WriteToFile("test_df0.txt")
-	df1, err := ReadDocumentFrequency()
+	_, err := ReadDocumentFrequency()
 	if err != nil {
 		t.Error("index.TestWriteToFile0: error ", err)
-	}
-	nDocs := df1.N
-	nExpected := 0
-	if nDocs != nExpected {
-		t.Error("index.TestWriteToFile0: nExpected ", nExpected, " got ",
-			nDocs, ", df: ", df1)
 	}
 }
 
@@ -145,14 +139,8 @@ func TestWriteToFile1(t *testing.T) {
 	}
 	df.AddVocabulary(vocab)
 	df.WriteToFile("test_df1.txt")
-	df1, err := ReadDocumentFrequency()
+	_, err := ReadDocumentFrequency()
 	if err != nil {
 		t.Error("index.TestWriteToFile1: error ", err)
-	}
-	nDocs := df1.N
-	nExpected := 1
-	if nDocs != nExpected {
-		t.Error("index.TestWriteToFile1: nExpected ", nExpected, " got ",
-			nDocs, ", df: ", df1)
 	}
 }
