@@ -3,17 +3,20 @@
 """
 Utility to compile a list of documents and their titles for loading into the
 index database. The details of all the documents will be written to the file
-PROJECT_HOME/data/corpus/documents.csv"
+CNREADER_HOME/data/corpus/documents.csv"
 """
 
 import codecs
+import os
 
-CORPUS_DATA_DIR = "../data/corpus"
+
+# Location of corpus metadata files, relative to project home
+CORPUS_DATA_DIR = "/data/corpus"
 
 
-def get_collection(collection_file):
+def get_collection(projectHome, collection_file):
   # print("get_collection, file: ", collection_file)
-  filename = CORPUS_DATA_DIR + "/" + collection_file
+  filename = projectHome + CORPUS_DATA_DIR + "/" + collection_file
   with codecs.open(filename, 'r', "utf-8") as collection:
     col_entries = [line.rstrip() for line in collection if not line.startswith("#")]
     documents = []
@@ -29,9 +32,9 @@ def get_collection(collection_file):
     return documents
 
 
-def get_corpus(corpus_file):
+def get_corpus(projectHome, corpus_file):
   print("get_corpus, file: ", corpus_file)
-  filename = CORPUS_DATA_DIR + "/" + corpus_file
+  filename = projectHome + CORPUS_DATA_DIR + "/" + corpus_file
   with codecs.open(filename, 'r', "utf-8") as corpus:
     corpus_entries = [line.rstrip() for line in corpus if not line.startswith("#")]
     collections = []
@@ -49,10 +52,10 @@ def get_corpus(corpus_file):
 
 
 # Writes the details of all the documents in the library to fi
-def write_documents():
+def write_documents(projectHome):
   print("write_documents enter")
-  library_file = CORPUS_DATA_DIR + "/library.csv"
-  documents_fname = CORPUS_DATA_DIR + "/documents.csv"
+  library_file = projectHome + CORPUS_DATA_DIR + "/library.csv"
+  documents_fname = projectHome + CORPUS_DATA_DIR + "/documents.csv"
   with codecs.open(library_file, 'r', "utf-8") as library:
     with codecs.open(documents_fname, 'w', "utf-8") as df:
       lib_entries = [line.rstrip() for line in library if not line.startswith("#")]
@@ -61,11 +64,11 @@ def write_documents():
         if len(tokens) != 4:
           print("Not enough tokens in library, line %s" % line)
           continue
-        corpus = get_corpus(tokens[3])
+        corpus = get_corpus(projectHome, tokens[3])
         for collection in corpus:
           col_gloss_file = collection["gloss_file"]
           col_title = collection["title"]
-      	  documents = get_collection(collection["collection_file"])
+      	  documents = get_collection(projectHome, collection["collection_file"])
       	  for document in documents:
       	    gloss_file = document["gloss_file"]
       	    title = document["title"]
@@ -74,7 +77,8 @@ def write_documents():
 
 
 def main():
-  write_documents()
+  projectHome = os.environ['CNREADER_HOME']
+  write_documents(projectHome)
 
 
 if __name__ == "__main__":
