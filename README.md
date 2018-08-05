@@ -9,10 +9,23 @@ words.
 
 The software and dictionary power three web sites with different corpora:
 
-1. http://chinesenotes.com - for literary Chinese documents and a small amount of modern
-   Chinese
+1. http://chinesenotes.com - for literary Chinese documents and a small amount
+   of modern Chinese
 2. http://ntireader.org - for the Taisho version of the Chinese Buddhist Canon
 3. http://hbreader.org - for Venerable Master Hsing Yun's collected writings
+
+The Chinese Notes software includes several components:
+
+1. *cnreader* - a Go program to analyze the library corpus, performing text
+   segmentation, matching Chinese text to dictionary entries, indexing the text,
+   and generating HTML files for reading the texts. This utility is something
+   like the [Sphinx Python documentation 
+   generator](http://www.sphinx-doc.org/en/master/).
+2. *cnweb* - a Go web application for reading and searching the texts and
+   looking up dictionary entries. Dictionary data, library metadata, and a 
+   text retrieval index is loaded into a SQL database to support the web site.
+
+There are also some Python ulitities for processing text
 
 ## Acknowldegements
 Major sources used directly in the dictionary whose professional and freely
@@ -70,6 +83,9 @@ $ ./cnreader -all
 
 /bin
  - Wrappers for command line Go programs, sich as the bin/cnreadher.sh script
+
+/colab
+- Colab notebooks for exploring the library text data
 
 /corpus
  - raw text files for making up the text corpus
