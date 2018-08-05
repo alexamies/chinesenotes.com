@@ -218,6 +218,12 @@ restart the database use the command
 docker restart  mariadb
 ```
 
+Compile the library document files and tiles into a tab separated file for
+loading into the database with the Python program
+```
+python python/doc_list.py
+```
+
 To load data from other sources connect to the database container
 or start up a mysql-client
 ```

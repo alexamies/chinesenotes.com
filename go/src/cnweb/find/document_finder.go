@@ -18,7 +18,7 @@ var (
 	countColStmt, countDocStmt *sql.Stmt
 	database *sql.DB
 	colMap map[string]string
-	docMap map[string]string
+	docMap map[string]Document
 	findAllTitlesStmt, findAllColTitlesStmt  *sql.Stmt
 	findColStmt, findDocStmt, findWordStmt  *sql.Stmt
 	simBitVector2Stmt, simBitVector3Stmt, simBitVector4Stmt *sql.Stmt
@@ -38,7 +38,7 @@ type DocSimilarity struct {
 }
 
 type Document struct {
-	GlossFile, Title string
+	GlossFile, Title, CollectionFile, CollectionTitle string
 }
 
 type QueryResults struct {
@@ -82,7 +82,7 @@ func cacheColDetails() map[string]string {
 	results, err := findAllColTitlesStmt.QueryContext(ctx)
 	if err != nil {
 		applog.Error("cacheColDetails, Error for query: ", err)
-		return docMap
+		return colMap
 	}
 	defer results.Close()
 
@@ -95,8 +95,8 @@ func cacheColDetails() map[string]string {
 }
 
 // Cache the details of all documents by target file name
-func cacheDocDetails() map[string]string {
-	docMap = map[string]string{}
+func cacheDocDetails() map[string]Document {
+	docMap = map[string]Document{}
 	ctx := context.Background()
 	results, err := findAllTitlesStmt.QueryContext(ctx)
 	if err != nil {
@@ -106,10 +106,12 @@ func cacheDocDetails() map[string]string {
 	defer results.Close()
 
 	for results.Next() {
-		var gloss_file, title string
-		results.Scan(&gloss_file, &title)
-		docMap[gloss_file] = title
+		var gloss_file, title, col_gloss_file, col_title string
+		results.Scan(&gloss_file, &title, &col_gloss_file, &col_title)
+		document := Document{gloss_file, title, col_gloss_file, col_title}
+		docMap[gloss_file] = document
 	}
+	applog.Info("cacheDocDetails, len(docMap) = ", len(docMap))
 	return docMap
 }
 
@@ -482,7 +484,9 @@ func initStatements() error {
     countColStmt = cstmt
 
 	dstmt, err := database.PrepareContext(ctx,
-		"SELECT title, gloss_file FROM document WHERE title LIKE ? LIMIT 50")
+		"SELECT title, gloss_file " +
+		"FROM document " +
+		"WHERE col_plus_doc_title LIKE ? LIMIT 50")
     if err != nil {
         applog.Error("find.initStatements() Error preparing dstmt: ", err)
         return err
@@ -726,7 +730,8 @@ func initStatements() error {
 
     // Find the titles of all documents
 	fAllTitlesStmt, err := database.PrepareContext(ctx, 
-		"SELECT gloss_file, title FROM document LIMIT 1000000")
+		"SELECT gloss_file, title, col_gloss_file, col_title " +
+		"FROM document LIMIT 1000000")
     if err != nil {
         applog.Error("find.initStatements() Error preparing findAllTitlesStmt: ",
         	err)
@@ -756,9 +761,10 @@ func mergeBySimilarity(simDocMap map[string]SimilarDoc, docList []DocSimilarity)
 			sDoc.Similarity += simDoc.Similarity
 		} else {
 			colTitle, ok1 := colMap[simDoc.Collection]
-			title, ok2 := docMap[simDoc.Document]
+			document, ok2 := docMap[simDoc.Document]
 			if (ok1 && ok2) {
-				doc := SimilarDoc{simDoc.Collection, colTitle, simDoc.Document, title, simDoc.Similarity}
+				doc := SimilarDoc{simDoc.Collection, colTitle, simDoc.Document,
+					document.Title, simDoc.Similarity}
 				simDocMap[simDoc.Document] = doc
 			} else {
 				applog.Info("mergeBySimilarity, col or doc title not found: ",
@@ -794,7 +800,8 @@ func toSortedDocList(similarDocMap map[string]SimilarDoc) []Document {
 	})
 	docs := []Document{}
 	for _, similarDoc := range similarDocs {
-		doc := Document{similarDoc.GlossFile, similarDoc.Title}
+		doc := Document{similarDoc.GlossFile, similarDoc.Title,
+			similarDoc.CollectionFile, similarDoc.CollectionTitle}
 		docs = append(docs, doc)
 	}
 	return docs

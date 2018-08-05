@@ -34,9 +34,11 @@ CREATE TABLE collection (
  * Table for document titles
  */
 CREATE TABLE document (
-	source_file VARCHAR(256) NOT NULL,
   gloss_file VARCHAR(256) NOT NULL,
-	title mediumtext NOT NULL,
+  title mediumtext NOT NULL,
+  col_gloss_file VARCHAR(256) NOT NULL,
+  col_title mediumtext NOT NULL,
+  col_plus_doc_title mediumtext NOT NULL,
   PRIMARY KEY (`gloss_file`)
 	)
   CHARACTER SET UTF8
