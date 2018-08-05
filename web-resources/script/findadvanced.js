@@ -1,3 +1,5 @@
+MAX_TITLE_LEN = 50;
+
 // JavaScript function for sending and displaying search results for words in
 // either the title or body of documents.
 (function() {
@@ -91,18 +93,42 @@
             var dTbody = document.createElement('tbody');
             var numDoc = documents.length;
             for (i = 0; i < numDoc; i++) {
-              if ("Title" in documents[i]) {
+              if ("Title" in documents[i] && documents[i].Title) {
           	    var title = documents[i].Title;
-          	    var gloss_file = documents[i].GlossFile
+          	    var gloss_file = documents[i].GlossFile;
           	    var tr = document.createElement('tr');
           	    var td = document.createElement('td');
           	    td.setAttribute("class", "mdl-data-table__cell--non-numeric");
           	    tr.appendChild(td);
+                var textNode1 = document.createTextNode("Title: ");
+                td.appendChild(textNode1);
                 var a = document.createElement('a');
                 a.setAttribute("href", gloss_file);
-                var textNode = document.createTextNode(title);
+                var titleText = title;
+                if (titleText.length > MAX_TITLE_LEN) {
+                  titleText = titleText.substring(0, MAX_TITLE_LEN - 1) + "...";
+                }
+                var textNode = document.createTextNode(titleText);
                 a.appendChild(textNode);
                 td.appendChild(a);
+                var br = document.createElement('br');
+                td.appendChild(br);
+                if ("CollectionTitle" in documents[i] && documents[i].CollectionTitle) {
+                  var colTitle = documents[i].CollectionTitle;
+                  var colFile = documents[i].CollectionFile;
+                  var tn1 = document.createTextNode("Collection: ");
+                  td.appendChild(tn1);
+                  var a1 = document.createElement('a');
+                  a1.setAttribute("href", colFile);
+                  var colTitleText = colTitle;
+                  if (colTitleText.length > MAX_TITLE_LEN) {
+                    colTitleText = colTitleText.substring(0, MAX_TITLE_LEN - 1) +
+                      "...";
+                  }
+                  var tn2 = document.createTextNode(colTitleText);
+                  a1.appendChild(tn2);
+                  td.appendChild(a1);
+                }
                 dTbody.appendChild(tr);
               } else {
                 console.log("alertContents: no title for document " + i);

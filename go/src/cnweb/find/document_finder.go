@@ -106,10 +106,10 @@ func cacheDocDetails() map[string]Document {
 	defer results.Close()
 
 	for results.Next() {
-		var gloss_file, title, col_gloss_file, col_title string
-		results.Scan(&gloss_file, &title, &col_gloss_file, &col_title)
-		document := Document{gloss_file, title, col_gloss_file, col_title}
-		docMap[gloss_file] = document
+		doc := Document{}
+		results.Scan(&doc.GlossFile, &doc.Title, &doc.CollectionFile,
+			&doc.CollectionTitle)
+		docMap[doc.GlossFile] = doc
 	}
 	applog.Info("cacheDocDetails, len(docMap) = ", len(docMap))
 	return docMap
@@ -325,7 +325,8 @@ func findDocsByTitle(query string) ([]Document, error) {
 	documents := []Document{}
 	for results.Next() {
 		doc := Document{}
-		results.Scan(&doc.Title, &doc.GlossFile)
+		results.Scan(&doc.Title, &doc.GlossFile, &doc.CollectionFile,
+			&doc.CollectionTitle)
 		documents = append(documents, doc)
 	}
 	return documents, nil
@@ -484,7 +485,7 @@ func initStatements() error {
     countColStmt = cstmt
 
 	dstmt, err := database.PrepareContext(ctx,
-		"SELECT title, gloss_file " +
+		"SELECT title, gloss_file, col_gloss_file, col_title " +
 		"FROM document " +
 		"WHERE col_plus_doc_title LIKE ? LIMIT 50")
     if err != nil {
@@ -766,9 +767,17 @@ func mergeBySimilarity(simDocMap map[string]SimilarDoc, docList []DocSimilarity)
 				doc := SimilarDoc{simDoc.Collection, colTitle, simDoc.Document,
 					document.Title, simDoc.Similarity}
 				simDocMap[simDoc.Document] = doc
+			} else if ok2 {
+				applog.Info("mergeBySimilarity, collection title not found: ",
+					simDoc.Collection, simDoc.Document)
+				doc := SimilarDoc{
+					GlossFile: simDoc.Document,
+					Title: document.Title,
+				}
+				simDocMap[simDoc.Document] = doc
 			} else {
-				applog.Info("mergeBySimilarity, col or doc title not found: ",
-					ok1, ok2, simDoc.Collection,simDoc.Document)
+				applog.Info("mergeBySimilarity, doc title not found: ",
+					simDoc.Collection, simDoc.Document)
 			}
 		}
 	}
@@ -782,6 +791,8 @@ func toSimilarDocMap(docs []Document) map[string]SimilarDoc {
 		simDoc := SimilarDoc{
 			GlossFile: doc.GlossFile,
 			Title: doc.Title,
+			CollectionFile: doc.CollectionFile,
+			CollectionTitle: doc.CollectionTitle,
 			Similarity: 1.0,
 		}
 		similarDocMap[doc.GlossFile] = simDoc
