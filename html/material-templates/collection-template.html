@@ -49,7 +49,8 @@
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <span class="mdl-layout-title"> &nbsp;  &nbsp;  &nbsp;<a href="/">Chinese Notes</a></span>
+          <span class="mdl-layout-title"> &nbsp;  &nbsp;  &nbsp;
+            <a href="/">Chinese Notes</a></span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation. We hide it in small screens. -->
@@ -57,7 +58,8 @@
               <div class="mdh-expandable-search mdl-cell--hide-phone">
                 <i class="material-icons">search</i>
                 <form id="searchBarForm" name="searchBarForm" action="#">
-                  <input id="searchInput" name="searchInput" type="text" placeholder="Search">
+                  <input id="searchInput" name="searchInput" type="text" 
+                         placeholder="Search">
                 </form>
               </div>
             </nav>
@@ -75,10 +77,11 @@
       <h2>{{.Title}}</h2>
       <p>{{.Summary}}</p>
       <p>
-        <form name="findAdvancedForm" id="findAdvancedForm" action="findadvanced">
+        <form name="findAdvancedForm" id="findAdvancedForm"
+              action="/advanced_search.html#">
           <div class="mdl-textfield mdl-js-textfield">
             <label for="findInput">Search within collection for </label>
-            <input class="mdl-textfield__input" type="text" name="findInput"
+            <input class="mdl-textfield__input" type="text" name="text"
                    id="findInput" required/>
             <input type="hidden" name="collection" id="findInCollection"
                    value="{{.GlossFile}}"/>

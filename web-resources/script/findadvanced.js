@@ -7,12 +7,39 @@ MAX_TITLE_LEN = 80;
   var findForm = document.getElementById("findAdvancedForm");
   if (findForm) {
     document.getElementById("findAdvancedForm").onsubmit = function() {
-  	  var query = document.getElementById("findInput").value;
-      var action = "/find";
+
+      var query = document.getElementById("findInput").value;
+      var col = "";
+      var collectionInput = document.getElementById("findInCollection")
+      if (collectionInput) {
+        // Then searching from a collection page, redirect to advanced search
+        col = collectionInput.value;
+        var url = '/advanced_search.html#?text=' + query + "&collection=" + col;
+        window.location.href = url;
+        return false;
+      }
+  
+      if (href.includes('&')) {
+        var path = decodeURI(href);
+        var queryStr = path.split('&');
+        var q = queryStr[0].split('=');
+        var findInput = document.getElementById("findInput");
+        if (findInput) {
+          findInput.value = q[1];
+        }
+        query = q[1];
+        var c = queryStr[1].split('=');
+        col = c[1];
+      }
+
+      var action = "/findadvanced";
       if (!findForm.action.endsWith("#")) {
         action = findForm.action;
       }
   	  var url = action + "/?query=" + query;
+      if (col != "") {
+        url = action + "/?query=" + query + "&collection=" + col;
+      }
   	  makeSearchRequest(url);
   	  return false;
     };
