@@ -1,56 +1,32 @@
-MAX_TITLE_LEN = 50;
+MAX_TITLE_LEN = 80;
 
 // JavaScript function for sending and displaying search results for words in
 // either the title or body of documents.
 (function() {
   var httpRequest;
-  var findForm = document.getElementById("findForm");
+  var findForm = document.getElementById("findAdvancedForm");
   if (findForm) {
-    document.getElementById("findForm").onsubmit = function() {
+    document.getElementById("findAdvancedForm").onsubmit = function() {
   	  var query = document.getElementById("findInput").value;
       var action = "/find";
       if (!findForm.action.endsWith("#")) {
         action = findForm.action;
       }
   	  var url = action + "/?query=" + query;
-  	  makeRequest(url);
+  	  makeSearchRequest(url);
   	  return false;
     };
   }
 
-  // If the search is initiated from the search bar on the main page
-  // then execute the search directly
-  var searcForm = document.getElementById("searchForm");
-  if (searcForm) {
-    searcForm.onsubmit = function() {
-      var query = document.getElementById("searchInput").value;
-      var url = '/find/?query=' + query;
-      makeRequest(url);
-      return false;
-    }
-  };
-
-  // If the search is initiated from the search bar, other than the main page
-  // then redirect to the main page with the query after the hash
-  var searchBarForm = document.getElementById("searchBarForm");
-  if (searchBarForm) {
-    searchBarForm.onsubmit = function() {
-      var query = document.getElementById("searchInput").value;
-      var url = '/#?text=' + query;
-      window.location.href = url;
-      return false;
-    }
-  };
-
-  function makeRequest(url) {
-    console.log("makeRequest: url = " + url);
+  function makeSearchRequest(url) {
+    console.log("makeSearchRequest: url = " + url);
     httpRequest = new XMLHttpRequest();
 
     if (!httpRequest) {
       alert('Giving up :( Cannot create an XMLHTTP instance');
       return false;
     }
-    httpRequest.onreadystatechange = alertContents;
+    httpRequest.onreadystatechange = alertSearchContents;
     httpRequest.open('GET', url);
     httpRequest.send();
     var helpBlock = document.getElementById("lookup-help-block")
@@ -62,7 +38,7 @@ MAX_TITLE_LEN = 50;
     console.log("makeRequest: Sent request");
   }
 
-  function alertContents() {
+  function alertSearchContents() {
     if (httpRequest.readyState === XMLHttpRequest.DONE) {
       if (httpRequest.status === 200) {
         console.log("alertContents: Got a successful response");

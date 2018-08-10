@@ -4,7 +4,7 @@
   >https://zh.wikisource.org/wiki/昭明文選</a>.
 </p>
 
-<h4>English translations<h4>
+<h4>English translations</h4>
 <p>
   <li>
     Knechtges, David R 1982,
@@ -28,7 +28,7 @@
   </li>
 </p>
 
-<h4>Discussion<h4>
+<h4>Discussion</h4>
 <ol>
   <li>
     Idema, W L and Haft, L 1997, <i>A Guide to Chinese Literature</i>, 

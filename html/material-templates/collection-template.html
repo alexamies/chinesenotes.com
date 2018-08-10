@@ -74,6 +74,25 @@
 
       <h2>{{.Title}}</h2>
       <p>{{.Summary}}</p>
+      <p>
+        <form name="findAdvancedForm" id="findAdvancedForm" action="findadvanced">
+          <div class="mdl-textfield mdl-js-textfield">
+            <label for="findInput">Search within collection for </label>
+            <input class="mdl-textfield__input" type="text" name="findInput"
+                   id="findInput" required/>
+            <input type="hidden" name="collection" id="findInCollection"
+                   value="{{.GlossFile}}"/>
+          </div>
+          <button  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                   type="submit" id="findSubmit">Find Documents</button>
+        </form>
+      </p>
+      <p>
+        <span id="lookup-help-block" class="help-block">
+          Search for documents using partial or full Chinese or English terms
+          in either the title or body.
+        </span>
+      </p>
       
       <div class="mdl-grid">
         {{ range $element := .CorpusEntries }}
@@ -128,5 +147,6 @@
     <script src="/script/dialog-polyfill.js"></script>
     <script src="/script/vocab.js"></script>
     <script src="/script/find.js"></script>
+    <script src="/script/findadvanced.js"></script>
   </body>
 </html>

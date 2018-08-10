@@ -184,7 +184,7 @@ docker run hello-world
 ## Database
 [Mariadb Documentation](https://mariadb.org/)
 
-The application uses a Mariadb database. 
+The local development environment uses a Mariadb database. 
 
 ### Mariadb Docker Image
 See the documentation at [Mariadb Image 
@@ -259,7 +259,7 @@ source delete_word_freq.sql
 source load_word_freq.sql
 ```
 
-### Go Application
+### Go Applications
 [Go Documentation](https://golang.org)
 
 The indexing command tool and new generation of the web application are written
@@ -320,6 +320,8 @@ curl http://localhost:8080/find/?query=hello
 ```
 
 ### Email configuration (Optional)
+Optional, used for password recovery in translation portal.
+
 Email is sent with [SendGrid](https://sendgrid.com). 
 [SendGrid Go Client Library Documentation](https://github.com/sendgrid/sendgrid-go)
 
@@ -391,8 +393,11 @@ WEB_DIR=web-staging
 docker run -itd --rm -p 80:80 --name cn-web --link cn-app \
   --mount type=bind,source="$(pwd)"/$WEB_DIR,target=/usr/local/apache2/htdocs \
   cn-web-image
+```
 
-#Attach to a local image for debugging, if needed
+To attach to a local image for debugging, if needed:
+
+```
 docker exec -it cn-web bash
 ```
 
@@ -619,8 +624,6 @@ To update an existing deployment using the GCP Container Registry
 
 ```
 # Make edits
-kubectl apply -f kubernetes/db-deployment.yaml
-kubectl apply -f kubernetes/db-service.yaml
 kubectl apply -f kubernetes/app-deployment.yaml
 kubectl apply -f kubernetes/app-service.yaml
 ```

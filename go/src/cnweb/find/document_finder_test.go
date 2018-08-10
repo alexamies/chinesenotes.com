@@ -209,6 +209,87 @@ func TestFindBodyBigram6(t *testing.T) {
 		len(docSimilarity))
 }
 
+func TestFindDocumentsInCol0(t *testing.T) {
+	dict := map[string]Word{}
+	parser := DictQueryParser{dict}
+	_, err := FindDocumentsInCol(parser, "", "wenxuan.html")
+	if err == nil {
+		t.Error("TestFindDocumentsInCol2: expected error for empty string")
+	}
+}
+
+func TestFindDocumentsInCol1(t *testing.T) {
+	dict := map[string]Word{}
+	parser := DictQueryParser{dict}
+	qr, err := FindDocumentsInCol(parser, "箴", "wenxuan.html")
+	if err != nil {
+		t.Error("TestFindDocumentsInCol1: got error, ", err)
+	}
+	if len(qr.Terms) != 1 {
+		t.Error("TestFindDocumentsInCol1: len(qr.Terms) != 1, ", qr)
+	}
+}
+
+func TestFindDocumentsInCol2(t *testing.T) {
+	dict := map[string]Word{}
+	parser := DictQueryParser{dict}
+	qr, err := FindDocumentsInCol(parser, "箴也", "wenxuan.html")
+	if err != nil {
+		t.Error("TestFindDocumentsInCol2: got error, ", err)
+	}
+	if len(qr.Terms) != 2 {
+		t.Error("TestFindDocumentsInCol2: len(qr.Terms) != 2, ", qr)
+	}
+}
+
+func TestFindDocumentsInCol3(t *testing.T) {
+	dict := map[string]Word{}
+	parser := DictQueryParser{dict}
+	qr, err := FindDocumentsInCol(parser, "箴也所", "wenxuan.html")
+	if err != nil {
+		t.Error("TestFindDocumentsInCol3: got error, ", err)
+	}
+	if len(qr.Terms) != 3 {
+		t.Error("TestFindDocumentsInCol3: len(qr.Terms) != 3, ", qr)
+	}
+}
+
+func TestFindDocumentsInCol4(t *testing.T) {
+	dict := map[string]Word{}
+	parser := DictQueryParser{dict}
+	qr, err := FindDocumentsInCol(parser, "箴也所以", "wenxuan.html")
+	if err != nil {
+		t.Error("TestFindDocumentsInCol4: got error, ", err)
+	}
+	if len(qr.Terms) != 4 {
+		t.Error("TestFindDocumentsInCol4: len(qr.Terms) != 4, ", qr)
+	}
+}
+
+func TestFindDocumentsInCol5(t *testing.T) {
+	dict := map[string]Word{}
+	parser := DictQueryParser{dict} // 箴也所以攻疾防患
+	qr, err := FindDocumentsInCol(parser, "箴也所以攻", "wenxuan.html")
+	if err != nil {
+		t.Error("TestFindDocumentsInCol5: got error, ", err)
+	}
+	if len(qr.Terms) != 5 {
+		t.Error("TestFindDocumentsInCol5: len(qr.Terms) != 4, ", qr)
+	}
+}
+
+func TestFindDocumentsInCol6(t *testing.T) {
+	dict := map[string]Word{}
+	parser := DictQueryParser{dict}
+	qr, err := FindDocumentsInCol(parser, "箴也所以攻疾", "wenxuan.html")
+	if err != nil {
+		t.Error("TestFindDocumentsInCol6: got error, ", err)
+	}
+	if len(qr.Terms) != 6 {
+		t.Error("TestFindDocumentsInCol6: len(qr.Terms) != 6, ", qr)
+	}
+}
+
 func TestFindWords1(t *testing.T) {
 	words, err := findWords("Assembly")
 	if err != nil {

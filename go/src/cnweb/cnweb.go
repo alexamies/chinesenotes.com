@@ -163,7 +163,17 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 			q = query[0]
 		}
 	}
-	results, err := find.FindDocuments(parser, q, advanced)
+
+	var results find.QueryResults
+	var err error
+
+	c := queryString["collection"]
+	if (len(c) > 0) && (c[0] != "") {
+		results, err = find.FindDocumentsInCol(parser, q, c[0])
+	} else {
+		results, err = find.FindDocuments(parser, q, advanced)
+	}
+
 	if err != nil {
 		applog.Error("main.find Error searching docs, ", err)
 		http.Error(response, "Error searching docs",

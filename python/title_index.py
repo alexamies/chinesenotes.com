@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+# Utility for building a title list for a standard history from Wikisource.
 import codecs
 
 

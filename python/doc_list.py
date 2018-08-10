@@ -3,7 +3,7 @@
 """
 Utility to compile a list of documents and their titles for loading into the
 index database. The details of all the documents will be written to the file
-CNREADER_HOME/data/corpus/documents.csv"
+CNREADER_HOME/data/corpus/documents.csv
 """
 
 import codecs
