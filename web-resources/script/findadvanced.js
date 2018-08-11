@@ -52,7 +52,6 @@ MAX_TITLE_LEN = 80;
   }
 
 
-
   function makeSearchRequest(url) {
     console.log("makeSearchRequest: url = " + url);
     httpRequest = new XMLHttpRequest();
