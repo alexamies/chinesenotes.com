@@ -30,6 +30,8 @@ var (
 	simBigram5Stmt *sql.Stmt
 	simBgCol1Stmt, simBgCol2Stmt, simBgCol3Stmt, simBgCol4Stmt *sql.Stmt
 	simBgCol5Stmt *sql.Stmt
+	MAX_RETURNED = 50
+	WEIGHT = []float64{0.2, 0.2, 0.6} // title, word frequency, bigram freq
 )
 
 type Collection struct {
@@ -43,6 +45,7 @@ type DocSimilarity struct {
 
 type Document struct {
 	GlossFile, Title, CollectionFile, CollectionTitle string
+	SimTitle, SimWords, SimBigram, Similarity float64
 }
 
 type QueryResults struct {
@@ -50,12 +53,6 @@ type QueryResults struct {
 	Collections []Collection
 	Documents []Document
 	Terms []TextSegment
-}
-
-// Structure remembering how similar a document is to another
-type SimilarDoc struct {
-	CollectionFile, CollectionTitle, GlossFile, Title string
-	Similarity float64
 }
 
 // Open database connection and prepare statements
@@ -120,6 +117,13 @@ func cacheDocDetails() map[string]Document {
 	return docMap
 }
 
+// Combine tHE similarity of title, word frequency, and bigrams into a single
+// weighted measure
+func combineByWeight(doc Document) {
+	doc.Similarity = WEIGHT[0]*doc.SimTitle + WEIGHT[1]*doc.SimWords +
+		WEIGHT[2]*doc.SimBigram
+}
+
 func countCollections(query string) int {
 	var count int
 	ctx := context.Background()
@@ -135,14 +139,14 @@ func countCollections(query string) int {
 
 // Search the corpus for document bodies using bit vector similarity.
 //  Param: terms - The decomposed query string with 1 < num elements < 5
-func findBodyBitVector(terms []string) ([]DocSimilarity, error) {
+func findBodyBitVector(terms []string) ([]Document, error) {
 	applog.Info("findBitVector, terms = ", terms)
 	ctx := context.Background()
 	var results *sql.Rows
 	var err error
 	if len(terms) < 2 {
 		applog.Error("findBodyBitVector, len(terms) < 2", len(terms))
-		return []DocSimilarity{}, errors.New("Too few arguments")
+		return []Document{}, errors.New("Too few arguments")
 	} else if len(terms) == 2 {
 		results, err = simBitVector2Stmt.QueryContext(ctx, terms[0], terms[1])
 	} else if len(terms) == 3 {
@@ -155,14 +159,13 @@ func findBodyBitVector(terms []string) ([]DocSimilarity, error) {
 	}
 	if err != nil {
 		applog.Error("findBodyBitVector, Error for query: ", terms, err)
-		return []DocSimilarity{}, err
+		return []Document{}, err
 	}
-	simSlice := []DocSimilarity{}
+	simSlice := []Document{}
 	for results.Next() {
-		docSim := DocSimilarity{}
-		results.Scan(&docSim.Similarity, &docSim.Collection, &docSim.Document)
-		applog.Info("findBodyBitVector, Similarity, Document = ",
-			docSim.Similarity, docSim.Collection, docSim.Document)
+		docSim := Document{}
+		results.Scan(&docSim.SimWords, &docSim.CollectionFile, &docSim.GlossFile)
+		applog.Info("findBodyBitVector, Similarity, Document = ",docSim)
 		simSlice = append(simSlice, docSim)
 	}
 	return simSlice, nil
@@ -170,14 +173,14 @@ func findBodyBitVector(terms []string) ([]DocSimilarity, error) {
 
 // Search the corpus for document bodies most similar using a BM25 model.
 //  Param: terms - The decomposed query string with 1 < num elements < 7
-func findBodyBM25(terms []string) ([]DocSimilarity, error) {
+func findBodyBM25(terms []string) ([]Document, error) {
 	applog.Info("findBodyBM25, terms = ", terms)
 	ctx := context.Background()
 	var results *sql.Rows
 	var err error
 	if len(terms) < 2 {
 		applog.Error("findBodyBM25, len(terms) < 2", len(terms))
-		return []DocSimilarity{}, errors.New("Too few arguments")
+		return []Document{}, errors.New("Too few arguments")
 	} else if len(terms) == 2 {
 		results, err = simBM252Stmt.QueryContext(ctx, terms[0], terms[1])
 	} else if len(terms) == 3 {
@@ -196,14 +199,13 @@ func findBodyBM25(terms []string) ([]DocSimilarity, error) {
 	}
 	if err != nil {
 		applog.Error("findBodyBM25, Error for query: ", terms, err)
-		return []DocSimilarity{}, err
+		return []Document{}, err
 	}
-	simSlice := []DocSimilarity{}
+	simSlice := []Document{}
 	for results.Next() {
-		docSim := DocSimilarity{}
-		results.Scan(&docSim.Similarity, &docSim.Collection, &docSim.Document)
-		applog.Info("findBodyBM25, Similarity, Document = ", docSim.Similarity,
-			docSim.Collection, docSim.Document)
+		docSim := Document{}
+		results.Scan(&docSim.SimWords, &docSim.CollectionFile, &docSim.GlossFile)
+		applog.Info("findBodyBM25, Similarity, Document = ", docSim)
 		simSlice = append(simSlice, docSim)
 	}
 	return simSlice, nil
@@ -213,7 +215,7 @@ func findBodyBM25(terms []string) ([]DocSimilarity, error) {
 // specific collection.
 //  Param: terms - The decomposed query string with 1 < num elements < 7
 func findBodyBM25InCol(terms []string,
-		col_gloss_file string) ([]DocSimilarity, error) {
+		col_gloss_file string) ([]Document, error) {
 	applog.Info("findBodyBM25InCol, terms = ", terms)
 	ctx := context.Background()
 	var results *sql.Rows
@@ -239,14 +241,14 @@ func findBodyBM25InCol(terms []string,
 	}
 	if err != nil {
 		applog.Error("findBodyBM25InCol, Error for query: ", terms, err)
-		return []DocSimilarity{}, err
+		return []Document{}, err
 	}
-	simSlice := []DocSimilarity{}
+	simSlice := []Document{}
 	for results.Next() {
-		docSim := DocSimilarity{}
-		results.Scan(&docSim.Similarity, &docSim.Collection, &docSim.Document)
-		applog.Info("findBodyBM25InCol, Similarity, Document = ", docSim.Similarity,
-			docSim.Collection, docSim.Document)
+		docSim := Document{}
+		docSim.CollectionFile = col_gloss_file
+		results.Scan(&docSim.SimWords, &docSim.GlossFile)
+		applog.Info("findBodyBM25InCol, Similarity, Document = ", docSim)
 		simSlice = append(simSlice, docSim)
 	}
 	return simSlice, nil
@@ -255,14 +257,14 @@ func findBodyBM25InCol(terms []string,
 // Search the corpus for document bodies most similar using bigrams with a BM25
 // model.
 //  Param: terms - The decomposed query string with 1 < num elements < 7
-func findBodyBigram(terms []string) ([]DocSimilarity, error) {
+func findBodyBigram(terms []string) ([]Document, error) {
 	applog.Info("findBodyBigram, terms = ", terms)
 	ctx := context.Background()
 	var results *sql.Rows
 	var err error
 	if len(terms) < 2 {
 		applog.Error("findBodyBigram, len(terms) < 2", len(terms))
-		return []DocSimilarity{}, errors.New("Too few arguments")
+		return []Document{}, errors.New("Too few arguments")
 	} else if len(terms) == 2 {
 		bigram1 := terms[0] + terms[1]
 		results, err = simBigram1Stmt.QueryContext(ctx, bigram1)
@@ -295,14 +297,13 @@ func findBodyBigram(terms []string) ([]DocSimilarity, error) {
 	}
 	if err != nil {
 		applog.Error("findBodyBigram, Error for query: ", terms, err)
-		return []DocSimilarity{}, err
+		return []Document{}, err
 	}
-	simSlice := []DocSimilarity{}
+	simSlice := []Document{}
 	for results.Next() {
-		docSim := DocSimilarity{}
-		results.Scan(&docSim.Similarity, &docSim.Collection, &docSim.Document)
-		applog.Info("findBodyBigram, Similarity, Document = ", docSim.Similarity,
-			docSim.Collection, docSim.Document)
+		docSim := Document{}
+		results.Scan(&docSim.SimBigram, &docSim.CollectionFile, &docSim.GlossFile)
+		applog.Info("findBodyBigram, Similarity, Document = ", docSim)
 		simSlice = append(simSlice, docSim)
 	}
 	return simSlice, nil
@@ -312,14 +313,14 @@ func findBodyBigram(terms []string) ([]DocSimilarity, error) {
 // model within a specific collection
 //  Param: terms - The decomposed query string with 1 < num elements < 7
 func findBodyBgInCol(terms []string,
-		col_gloss_file string) ([]DocSimilarity, error) {
+		col_gloss_file string) ([]Document, error) {
 	applog.Info("findBodyBgInCol, terms = ", terms)
 	ctx := context.Background()
 	var results *sql.Rows
 	var err error
 	if len(terms) < 2 {
 		applog.Error("findBodyBgInCol, len(terms) < 2", len(terms))
-		return []DocSimilarity{}, errors.New("Too few arguments")
+		return []Document{}, errors.New("Too few arguments")
 	} else if len(terms) == 2 {
 		bigram1 := terms[0] + terms[1]
 		results, err = simBgCol1Stmt.QueryContext(ctx, bigram1, col_gloss_file)
@@ -353,14 +354,14 @@ func findBodyBgInCol(terms []string,
 	}
 	if err != nil {
 		applog.Error("findBodyBgInCol, Error for query: ", terms, err)
-		return []DocSimilarity{}, err
+		return []Document{}, err
 	}
-	simSlice := []DocSimilarity{}
+	simSlice := []Document{}
 	for results.Next() {
-		docSim := DocSimilarity{}
-		results.Scan(&docSim.Similarity, &docSim.Collection, &docSim.Document)
-		applog.Info("findBodyBgInCol, Similarity, Document = ",
-			docSim.Similarity, docSim.Collection, docSim.Document)
+		docSim := Document{}
+		docSim.CollectionFile = col_gloss_file
+		results.Scan(&docSim.SimBigram, &docSim.GlossFile)
+		applog.Info("findBodyBgInCol, Similarity, Document = ", docSim)
 		simSlice = append(simSlice, docSim)
 	}
 	return simSlice, nil
@@ -398,6 +399,7 @@ func findDocsByTitle(query string) ([]Document, error) {
 		doc := Document{}
 		results.Scan(&doc.Title, &doc.GlossFile, &doc.CollectionFile,
 			&doc.CollectionTitle)
+		doc.SimTitle = 1.0
 		documents = append(documents, doc)
 	}
 	return documents, nil
@@ -419,6 +421,7 @@ func findDocsByTitleInCol(query, col_gloss_file string) ([]Document, error) {
 		doc := Document{}
 		results.Scan(&doc.Title, &doc.GlossFile, &col_gloss_file,
 			&doc.CollectionTitle)
+		doc.SimTitle = 1.0
 		documents = append(documents, doc)
 	}
 	return documents, nil
@@ -452,25 +455,25 @@ func findDocuments(query string, terms []TextSegment,
 	if err != nil {
 		return nil, err
 	}
-	mergedDocs := mergeBySimilarity(docMap, simDocs)
+	mergeDocList(docMap, simDocs)
 	moreDocs, err := findBodyBigram(queryTerms)
 	if err != nil {
 		return nil, err
 	}
-	mergedDocsMap := toSimilarDocMap(mergedDocs) // similarity = 1.0
-	allMergedDocs := mergeBySimilarity(mergedDocsMap, moreDocs)
-	// findBodyBigram
-	applog.Info("findDocuments, len(allMergedDocs): ", len(allMergedDocs))
-	return allMergedDocs, nil
+	mergeDocList(docMap, moreDocs)
+	sortedDocs := toSortedDocList(docMap)
+	applog.Info("findDocuments, len(sortedDocs): ", len(sortedDocs))
+	return sortedDocs, nil
 }
 
 // Find documents in a specific collection by both title and contents, and
 // merge the lists
 func findDocumentsInCol(query string, terms []TextSegment,
 		col_gloss_file string) ([]Document, error) {
-	applog.Info("findDocumentsInCol, terms: ", terms)
+	applog.Info("findDocumentsInCol, col_gloss_file, terms: ", col_gloss_file,
+		terms)
 	docs, err := findDocsByTitleInCol(query, col_gloss_file)
-	applog.Info("findDocumentsInCol, len(docs): ", len(docs))
+	applog.Info("findDocumentsInCol, len(docs) by title: ", len(docs))
 	if err != nil {
 		return nil, err
 	}
@@ -482,26 +485,26 @@ func findDocumentsInCol(query string, terms []TextSegment,
 	// For more than one term find docs that are similar body and merge
 	docMap := toSimilarDocMap(docs) // similarity = 1.0
 	//simDocs, err := findBodyBitVector(queryTerms)
-	//simDocs, err := findBodyTFIDF(queryTerms)
 	simDocs, err := findBodyBM25InCol(queryTerms, col_gloss_file)
+	applog.Info("findDocumentsInCol, len(simDocs) by word freq: ", len(simDocs))
 	if err != nil {
 		return nil, err
 	}
-	mergedDocs := mergeBySimilarity(docMap, simDocs)
-	if len(terms) < 2 {
-		return mergedDocs, nil
+	mergeDocList(docMap, simDocs)
+	if len(terms) > 1 {
+		// If there are 2 or more terms then check bigrams
+		simBGDocs, err := findBodyBgInCol(queryTerms, col_gloss_file)
+		applog.Info("findDocumentsInCol, len(simBGDocs) by bigram: ",
+			len(simBGDocs))
+		if err != nil {
+			applog.Info("findDocumentsInCol, findBodyBgInCol error: ", err)
+			return nil, err
+		}
+		mergeDocList(docMap, simBGDocs)
 	}
-
-	// If there are 2 or more terms then check bigrams
-	moreDocs, err := findBodyBgInCol(queryTerms, col_gloss_file)
-	if err != nil {
-		return nil, err
-	}
-	mergedDocsMap := toSimilarDocMap(mergedDocs) // similarity = 1.0
-	allMergedDocs := mergeBySimilarity(mergedDocsMap, moreDocs)
-	// findBodyBigram
-	applog.Info("findDocuments, len(allMergedDocs): ", len(allMergedDocs))
-	return allMergedDocs, nil
+	sortedDocs := toSortedDocList(docMap)
+	applog.Info("findDocumentsInCol, len(sortedDocs): ", len(sortedDocs))
+	return sortedDocs, nil
 }
 
 // Returns a QueryResults object containing matching collections, documents,
@@ -1055,65 +1058,78 @@ func initStatements() error {
 
 // Merge a list of documents with map of similar docs, adding the similarity
 // for docs that are in both lists
-func mergeBySimilarity(simDocMap map[string]SimilarDoc, docList []DocSimilarity) []Document {
+func mergeDocList(simDocMap map[string]Document, docList []Document) {
 	for _, simDoc := range docList {
-		sDoc, ok := simDocMap[simDoc.Document]
+		sDoc, ok := simDocMap[simDoc.GlossFile]
 		if ok {
-			sDoc.Similarity += simDoc.Similarity
+			sDoc.SimTitle += simDoc.SimTitle
+			sDoc.SimWords += simDoc.SimWords
+			sDoc.SimBigram += simDoc.SimBigram
 		} else {
-			colTitle, ok1 := colMap[simDoc.Collection]
-			document, ok2 := docMap[simDoc.Document]
+			colTitle, ok1 := colMap[simDoc.CollectionFile]
+			document, ok2 := docMap[simDoc.GlossFile]
 			if (ok1 && ok2) {
-				doc := SimilarDoc{simDoc.Collection, colTitle, simDoc.Document,
-					document.Title, simDoc.Similarity}
-				simDocMap[simDoc.Document] = doc
+				doc := Document{CollectionFile: simDoc.CollectionFile,
+								CollectionTitle: colTitle, 
+								GlossFile: simDoc.GlossFile,
+								Title: document.Title, 
+								SimTitle: simDoc.SimTitle,
+								SimWords: simDoc.SimWords,
+								SimBigram: simDoc.SimBigram,
+								Similarity: simDoc.Similarity,
+							}
+				simDocMap[simDoc.GlossFile] = doc
 			} else if ok2 {
-				applog.Info("mergeBySimilarity, collection title not found: ",
-					simDoc.Collection, simDoc.Document)
-				doc := SimilarDoc{
-					GlossFile: simDoc.Document,
-					Title: document.Title,
-				}
-				simDocMap[simDoc.Document] = doc
+				applog.Info("mergeDocList, collection title not found: ",
+					simDoc)
+				doc := Document{CollectionFile: "",
+								CollectionTitle: "", 
+								GlossFile: simDoc.GlossFile,
+								Title: document.Title, 
+								SimTitle: simDoc.SimTitle,
+								SimWords: simDoc.SimWords,
+								SimBigram: simDoc.SimBigram,
+								Similarity: simDoc.Similarity,
+							}
+				simDocMap[simDoc.GlossFile] = doc
 			} else {
-				applog.Info("mergeBySimilarity, doc title not found: ",
-					simDoc.Collection, simDoc.Document)
+				applog.Info("mergeDocList, doc title not found: ", simDoc)
 			}
 		}
 	}
-	return toSortedDocList(simDocMap)
 }
 
 // Convert list to a map of similar docs with similarity set to 1.0
-func toSimilarDocMap(docs []Document) map[string]SimilarDoc {
-	similarDocMap := map[string]SimilarDoc{}
+func toSimilarDocMap(docs []Document) map[string]Document {
+	similarDocMap := map[string]Document{}
 	for _, doc  := range docs {
-		simDoc := SimilarDoc{
+		simDoc := Document{
 			GlossFile: doc.GlossFile,
 			Title: doc.Title,
 			CollectionFile: doc.CollectionFile,
 			CollectionTitle: doc.CollectionTitle,
-			Similarity: 1.0,
+			SimTitle: doc.SimTitle,
+			SimWords: doc.SimWords,
+			SimBigram: doc.SimBigram,
+			Similarity: doc.Similarity,
 		}
 		similarDocMap[doc.GlossFile] = simDoc
 	}
 	return similarDocMap
 }
 
-// Convert a map of similar docs into a sorted list
-func toSortedDocList(similarDocMap map[string]SimilarDoc) []Document {
-	similarDocs := []SimilarDoc{}
-	for _, similarDoc  := range similarDocMap {
-		similarDocs = append(similarDocs, similarDoc)
-	}
-	sort.Slice(similarDocs, func(i, j int) bool {
-		return similarDocs[i].Similarity > similarDocs[j].Similarity
-	})
+// Convert a map of similar docs into a sorted list, and truncate
+func toSortedDocList(similarDocMap map[string]Document) []Document {
 	docs := []Document{}
-	for _, similarDoc := range similarDocs {
-		doc := Document{similarDoc.GlossFile, similarDoc.Title,
-			similarDoc.CollectionFile, similarDoc.CollectionTitle}
-		docs = append(docs, doc)
+	for _, similarDoc  := range similarDocMap {
+		combineByWeight(similarDoc)
+		docs = append(docs, similarDoc)
+	}
+	sort.Slice(docs, func(i, j int) bool {
+		return docs[i].Similarity > docs[j].Similarity
+	})
+	if len(docs) > MAX_RETURNED {
+		return docs[:MAX_RETURNED]
 	}
 	return docs
 }

@@ -311,22 +311,22 @@ func TestFindWords2(t *testing.T) {
 }
 
 func TestSimilarDocSorting(t *testing.T) {
-	doc1 := SimilarDoc{
+	doc1 := Document{
 		GlossFile: "f1.html",
 		Title: "Good doc",
 		Similarity: 1.0,
 	}
-	doc2 := SimilarDoc{
+	doc2 := Document{
 		GlossFile: "f2.html",
 		Title: "Very Good doc",
 		Similarity: 1.5,
 	}
-	doc3 := SimilarDoc{
+	doc3 := Document{
 		GlossFile: "f3.html",
 		Title: "Reasonable doc",
 		Similarity: 0.5,
 	}
-	docs := []SimilarDoc{doc1, doc2, doc3}
+	docs := []Document{doc1, doc2, doc3}
 	sort.Slice(docs, func(i, j int) bool {
 		return docs[i].Similarity > docs[j].Similarity
 	})

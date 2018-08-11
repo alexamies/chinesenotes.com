@@ -44,7 +44,7 @@
   // Function for sending and displaying search results for words 
   // based on the URL of the main page
   var href = window.location.href;
-  if (href.includes('#?text=')) {
+  if (href.includes('#?text=') && !href.includes('collection=')) {
     var path = decodeURI(href);
     var q = path.split('=');
     var findInput = document.getElementById("findInput");

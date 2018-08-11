@@ -6,7 +6,7 @@ MAX_TITLE_LEN = 80;
   var httpRequest;
   var findForm = document.getElementById("findAdvancedForm");
   if (findForm) {
-    document.getElementById("findAdvancedForm").onsubmit = function() {
+    findForm.onsubmit = function() {
 
       var query = document.getElementById("findInput").value;
       var col = "";
@@ -19,31 +19,39 @@ MAX_TITLE_LEN = 80;
         return false;
       }
   
-      if (href.includes('&')) {
-        var path = decodeURI(href);
-        var queryStr = path.split('&');
-        var q = queryStr[0].split('=');
-        var findInput = document.getElementById("findInput");
-        if (findInput) {
-          findInput.value = q[1];
-        }
-        query = q[1];
-        var c = queryStr[1].split('=');
-        col = c[1];
-      }
-
       var action = "/findadvanced";
       if (!findForm.action.endsWith("#")) {
         action = findForm.action;
       }
   	  var url = action + "/?query=" + query;
-      if (col != "") {
-        url = action + "/?query=" + query + "&collection=" + col;
-      }
   	  makeSearchRequest(url);
   	  return false;
     };
   }
+
+  // Function for sending and displaying search results, redirected from
+  // collection pages
+  var href = window.location.href;
+  if (href.includes('&')) {
+    query = getHrefVariable(href, 'text');
+    var findInput = document.getElementById("findInput");
+    if (findInput) {
+      findInput.value = query
+    }
+    col = getHrefVariable(href, 'collection');
+    var action = "/findadvanced";
+    if (!findForm.action.endsWith("#")) {
+      action = findForm.action;
+    }
+    var url = action + "/?query=" + query;
+    if (col != "") {
+      url = action + "/?query=" + query + "&collection=" + col;
+    }
+    makeSearchRequest(url);
+    return false;
+  }
+
+
 
   function makeSearchRequest(url) {
     console.log("makeSearchRequest: url = " + url);
@@ -227,3 +235,19 @@ MAX_TITLE_LEN = 80;
     }
   }
 })();
+
+function getHrefVariable(href, name) {
+  if (!href.includes("?")) {
+    console.log('getHrefVariable: href does not include ? ', href);
+    return;
+  }
+  var path = href.split('?');
+  var parts = path[1].split('&');
+  for (var i = 0; i < parts.length; i++) {
+    var p = parts[i].split('=');
+    if (decodeURIComponent(p[0]) == name) {
+      return decodeURIComponent(p[1]);
+    }
+  }
+  console.log('getHrefVariable: %s not found', name);
+}
