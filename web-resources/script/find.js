@@ -90,7 +90,8 @@
         var numDocuments = obj.NumDocuments;
         var collections = obj.Collections;
         var documents = obj.Documents;
-        if (numCollections + numDocuments == 1) {
+        var href = window.location.href;
+        if ((numCollections + numDocuments == 1) && !href.includes('collection=')) {
           if (numCollections == 1) {
             window.location = "/" + collections[0].GlossFile;
           } else {

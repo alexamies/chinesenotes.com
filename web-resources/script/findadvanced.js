@@ -51,7 +51,7 @@ MAX_TITLE_LEN = 80;
     return false;
   }
 
-
+  // Sends AJAX request to server
   function makeSearchRequest(url) {
     console.log("makeSearchRequest: url = " + url);
     httpRequest = new XMLHttpRequest();
@@ -162,16 +162,8 @@ MAX_TITLE_LEN = 80;
           elem.style.display = "block";
         }
 
-        var terms = obj.Terms;
-        if (terms && terms.length == 1 && terms[0].DictEntry && terms[0].DictEntry.HeadwordId > 0) {
-          console.log("Single matching word, redirect to it");
-          hwId = terms[0].DictEntry.HeadwordId;
-          wordURL = "/words/" + hwId + ".html";
-          window.location = wordURL;
-          return;
-        }
-
         // Display dictionary lookup for the segmented query terms in a table
+        var terms = obj.Terms;
         if (terms) {
           console.log("alertContents: detailed results for dictionary lookup");
           var qPara = document.getElementById("queryTermsP");
