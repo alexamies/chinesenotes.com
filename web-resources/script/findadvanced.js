@@ -89,7 +89,11 @@ MAX_TITLE_LEN = 80;
           // Report summary reults
           console.log("alertContents: processing summary reults");
           var spand = document.getElementById("NumDocuments");
-          spand.innerHTML = numDocuments;
+          if (spand && (numDocuments == 50)) {
+            spand.innerHTML = "limited to " + numDocuments;
+          } else if (spand) {
+            spand.innerHTML = numDocuments;
+          }
           componentHandler.upgradeElement(spand);
 
           // Add detailed results for documents
