@@ -186,7 +186,7 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 		http.Error(response, "Error marshalling results",
 			http.StatusInternalServerError)
 	} else {
-		if q != "hello" {
+		if (q != "hello" && q != "Eight" ) { // Health check monitoring probe
 			applog.Info("main.findDocs, results: ", string(resultsJson))
 		}
 		response.Header().Set("Content-Type", "application/json; charset=utf-8")

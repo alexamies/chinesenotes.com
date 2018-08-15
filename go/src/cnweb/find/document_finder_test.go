@@ -3,7 +3,6 @@ package find
 
 import (
 	"fmt"
-	"sort"
 	"testing"
 )
 
@@ -19,6 +18,30 @@ func TestCacheColDetails(t *testing.T) {
 	if title == "" {
 		t.Error("TestCacheColDetails: got empty title, map size, ",
 			len(cMap))
+	}
+}
+
+func TestCombineByWeight(t *testing.T) {
+	doc := Document{
+		GlossFile: "f2.html",
+		Title: "Very Good doc",
+		SimTitle: 1.0,
+		SimWords: 0.5,
+		SimBigram: 1.5,
+	}
+	simDoc := combineByWeight(doc)
+	if simDoc.Similarity == 0.0 {
+		t.Error("TestCombineByWeight: simDoc.Similarity == 0.0")
+	}
+	fmt.Printf("TestCacheColDetails: simDoc %v\n", simDoc)
+	similarity := WEIGHT[0] * doc.SimTitle + WEIGHT[1] * doc.SimWords +
+		WEIGHT[2] * doc.SimBigram
+	expectedMin := 0.99 * similarity
+	expectedMax := 1.01 * similarity
+	if ((expectedMin > simDoc.Similarity) || 
+		(simDoc.Similarity > expectedMax)) {
+		t.Error("TestCombineByWeight: result out of expected range %v\n",
+			simDoc)
 	}
 }
 
@@ -112,9 +135,8 @@ func TestFindBodyBitVector4(t *testing.T) {
 func TestFindBodyBM251(t *testing.T) {
 	terms := []string{"后妃"}
 	docSimilarity, err := findBodyBM25(terms)
-	if err == nil {
-		t.Error("TestfindBodyBM251: expected an error, ", err)
-		return
+	if err != nil {
+		t.Error("TestfindBodyBM251: got an error, ", err)
 	}
 	fmt.Printf("TestfindBodyBM251, len(docSimilarity) = %d",
 		len(docSimilarity))
@@ -310,27 +332,133 @@ func TestFindWords2(t *testing.T) {
 	}
 }
 
-func TestSimilarDocSorting(t *testing.T) {
+func TestMergeDocList1(t *testing.T) {
+	simDocMap := map[string]Document{}
+	docList := []Document{}
 	doc1 := Document{
 		GlossFile: "f1.html",
-		Title: "Good doc",
-		Similarity: 1.0,
+		Title: "Good doc by title",
+		SimTitle: 1.0,
 	}
+	simDocMap[doc1.GlossFile] = doc1
 	doc2 := Document{
 		GlossFile: "f2.html",
 		Title: "Very Good doc",
-		Similarity: 1.5,
+		SimWords: 0.5,
+		SimBigram: 1.5,
 	}
+	docList = append(docList, doc2)
+	mergeDocList(simDocMap, docList)
+	if len(simDocMap) != 2 {
+		t.Error("TestMergeDocList1: len(simDocMap) != 2, ", len(simDocMap))
+	}
+	docs := toSortedDocList(simDocMap)
+	if len(docs) != 2 {
+		t.Error("TestMergeDocList1: len(docs) != 2, ", len(docs))
+	}
+	expected := doc2.GlossFile
+	result := docs[0]
+	if result.GlossFile != expected {
+		t.Errorf("TestMergeDocList1: expected %s, got, %v, docs: %v", expected,
+			result, docs)
+	}
+}
+
+func TestMergeDocList2(t *testing.T) {
+	simDocMap := map[string]Document{}
+	docList := []Document{}
+	doc1 := Document{
+		GlossFile: "f1.html",
+		Title: "SAme Very Good doc",
+		SimTitle: 1.0,
+	}
+	simDocMap[doc1.GlossFile] = doc1
+	doc2 := Document{
+		GlossFile: "f2.html",
+		Title: "Reasonable by word frequ",
+		SimWords: 1.6,
+	}
+	doc3 := Document{
+		GlossFile: "f1.html",
+		Title: "Same Very Good doc",
+		SimWords: 1.5,
+		SimBigram: 1.5,
+	}
+	docList = append(docList, doc2)
+	docList = append(docList, doc3)
+	mergeDocList(simDocMap, docList)
+	if len(simDocMap) != 2 {
+		t.Error("TestMergeDocList2: len(simDocMap) != 2, ", len(simDocMap))
+	}
+	docs := toSortedDocList(simDocMap)
+	if len(docs) != 2 {
+		t.Error("TestMergeDocList2: len(docs) != 2, ", len(docs))
+	}
+	expected := doc1.GlossFile
+	result := docs[0]
+	if result.GlossFile != expected {
+		t.Errorf("TestMergeDocList2: expected %s, got, %v, docs: %v", expected,
+			result, docs)
+	}
+}
+
+func TestToSortedDocList1(t *testing.T) {
+	similarDocMap := map[string]Document{}
+	doc1 := Document{
+		GlossFile: "f1.html",
+		Title: "Good doc",
+		SimWords: 1.0,
+	}
+	similarDocMap[doc1.GlossFile] = doc1
+	doc2 := Document{
+		GlossFile: "f2.html",
+		Title: "Very Good doc",
+		SimWords: 1.5,
+	}
+	similarDocMap[doc2.GlossFile] = doc2
 	doc3 := Document{
 		GlossFile: "f3.html",
 		Title: "Reasonable doc",
-		Similarity: 0.5,
+		SimWords: 0.5,
 	}
-	docs := []Document{doc1, doc2, doc3}
-	sort.Slice(docs, func(i, j int) bool {
-		return docs[i].Similarity > docs[j].Similarity
-	})
-	fmt.Println(docs)
+	similarDocMap[doc3.GlossFile] = doc3
+	docs := toSortedDocList(similarDocMap)
+	expected := doc2.GlossFile
+	result := docs[0]
+	if result.Similarity == 0.0 {
+		t.Error("TestToSortedDocList1: result.Similarity == 0.0")
+	}
+	if result.GlossFile != expected {
+		t.Errorf("TestToSortedDocList1: expected %s, got, %v", expected, result)
+	}
+}
 
+func TestToSortedDocList2(t *testing.T) {
+	similarDocMap := map[string]Document{}
+	doc1 := Document{
+		GlossFile: "f1.html",
+		Title: "Good doc by title",
+		SimTitle: 1.0,
+	}
+	similarDocMap[doc1.GlossFile] = doc1
+	doc2 := Document{
+		GlossFile: "f2.html",
+		Title: "Very Good doc",
+		SimWords: 0.5,
+		SimBigram: 1.5,
+	}
+	similarDocMap[doc2.GlossFile] = doc2
+	doc3 := Document{
+		GlossFile: "f3.html",
+		Title: "Reasonable doc",
+		SimWords: 0.5,
+	}
+	similarDocMap[doc3.GlossFile] = doc3
+	docs := toSortedDocList(similarDocMap)
+	expected := doc2.GlossFile
+	result := docs[0]
+	if result.GlossFile != expected {
+		t.Error("TestToSortedDocList2: expected %s, got, %v", expected, result)
+	}
 }
 
