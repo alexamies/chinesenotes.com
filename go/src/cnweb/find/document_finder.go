@@ -15,6 +15,11 @@ import (
 	"cnweb/webconfig"
 )
 
+const (
+	MAX_RETURNED = 50
+	MIN_SIMILARITY = 0.25
+)
+
 var (
 	countColStmt *sql.Stmt
 	database *sql.DB
@@ -22,7 +27,10 @@ var (
 	docMap map[string]Document
 	findAllTitlesStmt, findAllColTitlesStmt  *sql.Stmt
 	findColStmt, findDocStmt, findDocInColStmt, findWordStmt  *sql.Stmt
-	simBitVector2Stmt, simBitVector3Stmt, simBitVector4Stmt *sql.Stmt
+	simBitVector1Stmt, simBitVector2Stmt, simBitVector3Stmt *sql.Stmt
+	simBitVector4Stmt, simBitVector5Stmt, simBitVector6Stmt *sql.Stmt
+	simBitVecCol1Stmt, simBitVecCol2Stmt, simBitVecCol3Stmt *sql.Stmt
+	simBitVecCol4Stmt, simBitVecCol5Stmt, simBitVecCol6Stmt *sql.Stmt
 	simBM251Stmt, simBM252Stmt, simBM253Stmt, simBM254Stmt *sql.Stmt
 	simBM255Stmt, simBM256Stmt *sql.Stmt
 	simBM25Col1Stmt, simBM25Col2Stmt, simBM25Col3Stmt, simBM25Col4Stmt *sql.Stmt
@@ -31,7 +39,6 @@ var (
 	simBigram5Stmt *sql.Stmt
 	simBgCol1Stmt, simBgCol2Stmt, simBgCol3Stmt, simBgCol4Stmt *sql.Stmt
 	simBgCol5Stmt *sql.Stmt
-	MAX_RETURNED = 50
 	WEIGHT = []float64{0.2, 0.2, 0.6} // title, word frequency, bigram freq
 )
 
@@ -41,7 +48,7 @@ type Collection struct {
 
 type Document struct {
 	GlossFile, Title, CollectionFile, CollectionTitle string
-	SimTitle, SimWords, SimBigram, Similarity float64
+	SimTitle, SimWords, SimBigram, SimBitVector, Similarity float64
 }
 
 type QueryResults struct {
@@ -155,24 +162,32 @@ func countCollections(query string) int {
 }
 
 // Search the corpus for document bodies using bit vector similarity.
-//  Param: terms - The decomposed query string with 1 < num elements < 5
+//  Param: terms - The decomposed query string
 func findBodyBitVector(terms []string) ([]Document, error) {
-	applog.Info("findBitVector, terms = ", terms)
+	applog.Info("findBodyBitVector, terms = ", terms)
 	ctx := context.Background()
 	var results *sql.Rows
 	var err error
-	if len(terms) < 2 {
-		applog.Error("findBodyBitVector, len(terms) < 2", len(terms))
-		return []Document{}, errors.New("Too few arguments")
+	if len(terms) == 0 {
+		err := errors.New("Empty query terms")
+		return []Document{}, err
+	} else if len(terms) == 1 {
+		results, err = simBitVector1Stmt.QueryContext(ctx, terms[0])
 	} else if len(terms) == 2 {
 		results, err = simBitVector2Stmt.QueryContext(ctx, terms[0], terms[1])
 	} else if len(terms) == 3 {
 		results, err = simBitVector3Stmt.QueryContext(ctx, terms[0], terms[1],
 			terms[2])
-	}  else {
-		// Ignore arguments beyond the first four
+	} else if len(terms) == 4 {
 		results, err = simBitVector4Stmt.QueryContext(ctx, terms[0], terms[1],
 			terms[2], terms[3])
+	} else if len(terms) == 5 {
+		results, err = simBitVector5Stmt.QueryContext(ctx, terms[0], terms[1],
+			terms[2], terms[3], terms[4])
+	}  else  if len(terms) > 5{
+		// Ignore arguments beyond the first six
+		results, err = simBitVector6Stmt.QueryContext(ctx, terms[0], terms[1],
+			terms[2], terms[3], terms[4], terms[5])
 	}
 	if err != nil {
 		applog.Error("findBodyBitVector, Error for query: ", terms, err)
@@ -181,8 +196,56 @@ func findBodyBitVector(terms []string) ([]Document, error) {
 	simSlice := []Document{}
 	for results.Next() {
 		docSim := Document{}
-		results.Scan(&docSim.SimWords, &docSim.CollectionFile, &docSim.GlossFile)
-		applog.Info("findBodyBitVector, Similarity, Document = ",docSim)
+		results.Scan(&docSim.SimBitVector, &docSim.CollectionFile,
+			&docSim.GlossFile)
+		//applog.Info("findBodyBitVector, Similarity, Document = ",docSim)
+		simSlice = append(simSlice, docSim)
+	}
+	return simSlice, nil
+}
+
+// Search the corpus for document bodies using bit vector similarity, scoped
+// by collection
+//  Param: terms - The decomposed query string
+func findBodyBitVectorCol(terms []string, 
+		col_gloss_file string) ([]Document, error) {
+	applog.Info("findBodyBitVectorCol, terms = ", terms)
+	ctx := context.Background()
+	var results *sql.Rows
+	var err error
+	if len(terms) == 0 {
+		err := errors.New("Empty query terms")
+		return []Document{}, err
+	} else if len(terms) == 1 {
+		results, err = simBitVecCol2Stmt.QueryContext(ctx, terms[0],
+			col_gloss_file)
+	} else if len(terms) == 2 {
+		results, err = simBitVecCol2Stmt.QueryContext(ctx, terms[0], terms[1],
+			col_gloss_file)
+	} else if len(terms) == 3 {
+		results, err = simBitVecCol3Stmt.QueryContext(ctx, terms[0], terms[1],
+			terms[2], col_gloss_file)
+	} else if len(terms) == 4 {
+		results, err = simBitVecCol4Stmt.QueryContext(ctx, terms[0], terms[1],
+			terms[2], terms[3], col_gloss_file)
+	} else if len(terms) == 5 {
+		results, err = simBitVecCol5Stmt.QueryContext(ctx, terms[0], terms[1],
+			terms[2], terms[3], terms[4], col_gloss_file)
+	}  else  {
+		// Ignore arguments beyond the first six
+		results, err = simBitVecCol6Stmt.QueryContext(ctx, terms[0], terms[1],
+			terms[2], terms[3], terms[4], terms[5], col_gloss_file)
+	}
+	if err != nil {
+		applog.Error("findBodyBitVectorCol, Error for query: ", terms, err)
+		return []Document{}, err
+	}
+	simSlice := []Document{}
+	for results.Next() {
+		docSim := Document{}
+		results.Scan(&docSim.SimBitVector, &docSim.CollectionFile,
+			&docSim.GlossFile)
+		//applog.Info("findBodyBitVectorCol, Similarity, Document = ",docSim)
 		simSlice = append(simSlice, docSim)
 	}
 	return simSlice, nil
@@ -221,7 +284,7 @@ func findBodyBM25(terms []string) ([]Document, error) {
 	for results.Next() {
 		docSim := Document{}
 		results.Scan(&docSim.SimWords, &docSim.CollectionFile, &docSim.GlossFile)
-		applog.Info("findBodyBM25, Similarity, Document = ", docSim)
+		//applog.Info("findBodyBM25, Similarity, Document = ", docSim)
 		simSlice = append(simSlice, docSim)
 	}
 	return simSlice, nil
@@ -264,7 +327,7 @@ func findBodyBM25InCol(terms []string,
 		docSim := Document{}
 		docSim.CollectionFile = col_gloss_file
 		results.Scan(&docSim.SimWords, &docSim.GlossFile)
-		applog.Info("findBodyBM25InCol, Similarity, Document = ", docSim)
+		//applog.Info("findBodyBM25InCol, Similarity, Document = ", docSim)
 		simSlice = append(simSlice, docSim)
 	}
 	return simSlice, nil
@@ -319,7 +382,7 @@ func findBodyBigram(terms []string) ([]Document, error) {
 	for results.Next() {
 		docSim := Document{}
 		results.Scan(&docSim.SimBigram, &docSim.CollectionFile, &docSim.GlossFile)
-		applog.Info("findBodyBigram, Similarity, Document = ", docSim)
+		//applog.Info("findBodyBigram, Similarity, Document = ", docSim)
 		simSlice = append(simSlice, docSim)
 	}
 	return simSlice, nil
@@ -377,7 +440,7 @@ func findBodyBgInCol(terms []string,
 		docSim := Document{}
 		docSim.CollectionFile = col_gloss_file
 		results.Scan(&docSim.SimBigram, &docSim.GlossFile)
-		applog.Info("findBodyBgInCol, Similarity, Document = ", docSim)
+		//applog.Info("findBodyBgInCol, Similarity, Document = ", docSim)
 		simSlice = append(simSlice, docSim)
 	}
 	return simSlice, nil
@@ -464,12 +527,19 @@ func findDocuments(query string, terms []TextSegment,
 	// For more than one term find docs that are similar body and merge
 	docMap := toSimilarDocMap(docs) // similarity = 1.0
 	applog.Info("findDocuments, len(docMap): ", query, len(docMap))
-	//simDocs, err := findBodyBitVector(queryTerms)
 	simDocs, err := findBodyBM25(queryTerms)
 	if err != nil {
 		return nil, err
 	}
 	mergeDocList(docMap, simDocs)
+
+	// Also check on similarity by bit vector dot product
+	simDocs, err = findBodyBitVector(queryTerms)
+	if err != nil {
+		applog.Error("findDocuments, bit vector dot product error: ", err)
+	}
+	mergeDocList(docMap, simDocs)
+
 	if len(terms) < 2 {
 		sortedDocs := toSortedDocList(docMap)
 		applog.Info("findDocuments, < 2 len(sortedDocs): ", query, 
@@ -483,7 +553,9 @@ func findDocuments(query string, terms []TextSegment,
 	mergeDocList(docMap, moreDocs)
 	sortedDocs := toSortedDocList(docMap)
 	applog.Info("findDocuments, len(sortedDocs): ", query, len(sortedDocs))
-	return sortedDocs, nil
+	relevantDocs := toRelevantDocList(sortedDocs)
+	applog.Info("findDocuments, len(relevantDocs): ", query, len(relevantDocs))
+	return relevantDocs, nil
 }
 
 // Find documents in a specific collection by both title and contents, and
@@ -512,6 +584,14 @@ func findDocumentsInCol(query string, terms []TextSegment,
 	}
 	//applog.Info("findDocumentsInCol, len(simDocs) by word freq: ", len(simDocs))
 	mergeDocList(docMap, simDocs)
+
+	// Also check on similarity by bit vector dot product
+	simDocs, err = findBodyBitVectorCol(queryTerms, col_gloss_file)
+	if err != nil {
+		applog.Error("findDocumentsInCol, bit vector dot product error: ", err)
+	}
+	mergeDocList(docMap, simDocs)
+
 	if len(terms) > 1 {
 		// If there are 2 or more terms then check bigrams
 		simBGDocs, err := findBodyBgInCol(queryTerms, col_gloss_file)
@@ -524,7 +604,9 @@ func findDocumentsInCol(query string, terms []TextSegment,
 	}
 	sortedDocs := toSortedDocList(docMap)
 	applog.Info("findDocumentsInCol, len(sortedDocs): ", len(sortedDocs))
-	return sortedDocs, nil
+	relevantDocs := toRelevantDocList(sortedDocs)
+	applog.Info("findDocuments, len(relevantDocs): ", query, len(relevantDocs))
+	return relevantDocs, nil
 }
 
 // Returns a QueryResults object containing matching collections, documents,
@@ -662,25 +744,23 @@ func initStatements() error {
 	database = db
 
 	ctx := context.Background()
-	stmt, err := database.PrepareContext(ctx,
+	findColStmt, err = database.PrepareContext(ctx,
 		"SELECT title, gloss_file FROM collection WHERE title LIKE ? LIMIT 50")
     if err != nil {
         applog.Error("find.initStatements() Error preparing collection stmt: ",
         	err)
         return err
     }
-    findColStmt = stmt
 
-	cstmt, err := database.PrepareContext(ctx,
+	countColStmt, err = database.PrepareContext(ctx,
 		"SELECT count(title) FROM collection WHERE title LIKE ?")
     if err != nil {
         applog.Error("find.initStatements() Error preparing cstmt: ",err)
         return err
     }
-    countColStmt = cstmt
 
     // Search documents by title substring
-	dstmt, err := database.PrepareContext(ctx,
+	findDocStmt, err = database.PrepareContext(ctx,
 		"SELECT title, gloss_file, col_gloss_file, col_title " +
 		"FROM document " +
 		"WHERE col_plus_doc_title LIKE ? LIMIT 50")
@@ -688,10 +768,9 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing dstmt: ", err)
         return err
     }
-    findDocStmt = dstmt
 
     // Search documents by title substring within a collection
-	dColstmt, err := database.PrepareContext(ctx,
+	findDocInColStmt, err = database.PrepareContext(ctx,
 		"SELECT title, gloss_file, col_title " +
 		"FROM document " +
 		"WHERE col_plus_doc_title LIKE ? " +
@@ -701,19 +780,30 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing dstmt: ", err)
         return err
     }
-    findDocInColStmt = dColstmt
 
-	fwstmt, err := database.PrepareContext(ctx, 
+	findWordStmt, err = database.PrepareContext(ctx, 
 		"SELECT simplified, traditional, pinyin, headword FROM words WHERE " +
 		"simplified = ? OR traditional = ? LIMIT 1")
     if err != nil {
         applog.Error("find.init() Error preparing fwstmt: ", err)
         return err
     }
-    findWordStmt = fwstmt
+
+    // Bit vector doc product with no scope
+	simBitVector1Stmt, err = database.PrepareContext(ctx, 
+		"SELECT COUNT(frequency) / 2.0 AS similarity, collection, document " +
+		"FROM  word_freq_doc " +
+		"WHERE word = ? " +
+		"GROUP BY collection, document " +
+		"ORDER BY similarity DESC LIMIT 50")
+    if err != nil {
+        applog.Error("find.initStatements() Error preparing simBitVector1Stmt: ",
+        	err)
+        return err
+    }
 
     // For a query with two terms in the query string decomposition
-	sim2Stmt, err := database.PrepareContext(ctx, 
+	simBitVector2Stmt, err = database.PrepareContext(ctx, 
 		"SELECT COUNT(frequency) / 2.0 AS similarity, collection, document " +
 		"FROM  word_freq_doc " +
 		"WHERE word = ? OR word = ? " +
@@ -724,10 +814,9 @@ func initStatements() error {
         	err)
         return err
     }
-    simBitVector2Stmt = sim2Stmt
 
     // For a query with three terms in the query string decomposition
-	sim3Stmt, err := database.PrepareContext(ctx, 
+	simBitVector3Stmt, err = database.PrepareContext(ctx, 
 		"SELECT COUNT(frequency) / 3.0 AS similarity, collection, document " +
 		"FROM  word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? " +
@@ -738,10 +827,9 @@ func initStatements() error {
         	err)
         return err
     }
-    simBitVector3Stmt = sim3Stmt
 
     // For a query with four terms in the query string decomposition
-	sim4Stmt, err := database.PrepareContext(ctx, 
+	simBitVector4Stmt, err = database.PrepareContext(ctx, 
 		"SELECT COUNT(frequency) / 4.0 AS similarity, collection, document " +
 		"FROM  word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? OR word = ? " +
@@ -752,10 +840,128 @@ func initStatements() error {
         	err)
         return err
     }
-    simBitVector4Stmt = sim4Stmt
+
+    // For a query with five terms in the query string decomposition
+	simBitVector5Stmt, err = database.PrepareContext(ctx, 
+		"SELECT COUNT(frequency) / 5.0 AS similarity, collection, document " +
+		"FROM  word_freq_doc " +
+		"WHERE word = ? OR word = ? OR word = ? OR word = ?  OR word = ? " +
+		"GROUP BY collection, document " +
+		"ORDER BY similarity DESC LIMIT 50")
+    if err != nil {
+        applog.Error("find.initStatements() Error preparing simBitVector5Stmt: ",
+        	err)
+        return err
+    }
+
+    // For a query with six terms in the query string decomposition
+	simBitVector6Stmt, err = database.PrepareContext(ctx, 
+		"SELECT COUNT(frequency) / 4.0 AS similarity, collection, document " +
+		"FROM  word_freq_doc " +
+		"WHERE " +
+		"  word = ? OR word = ? OR word = ? OR word = ? OR word = ? " +
+		"  OR word = ? " +
+		"GROUP BY collection, document " +
+		"ORDER BY similarity DESC LIMIT 50")
+    if err != nil {
+        applog.Error("find.initStatements() Error preparing simBitVector6Stmt: ",
+        	err)
+        return err
+    }
+
+    // Bit vector doc product with scope from collection
+	simBitVecCol1Stmt, err = database.PrepareContext(ctx, 
+		"SELECT COUNT(frequency) / 2.0 AS similarity, document " +
+		"FROM  word_freq_doc " +
+		"WHERE " +
+		" word = ? " +
+		" AND collection = ? " +
+		"GROUP BY document " +
+		"ORDER BY similarity DESC LIMIT 50")
+    if err != nil {
+        applog.Error("find.initStatements() Error preparing simBitVecCol1Stmt: ",
+        	err)
+        return err
+    }
+
+    // For a query with two terms in the query string decomposition
+	simBitVecCol2Stmt, err = database.PrepareContext(ctx, 
+		"SELECT COUNT(frequency) / 2.0 AS similarity, document " +
+		"FROM  word_freq_doc " +
+		"WHERE " +
+		" (word = ? OR word = ?) " +
+		" AND collection = ? " +
+		"GROUP BY document " +
+		"ORDER BY similarity DESC LIMIT 50")
+    if err != nil {
+        applog.Error("find.initStatements() Error preparing simBitVecCol2Stmt: ",
+        	err)
+        return err
+    }
+
+    // For a query with three terms in the query string decomposition
+	simBitVecCol3Stmt, err = database.PrepareContext(ctx, 
+		"SELECT COUNT(frequency) / 3.0 AS similarity, document " +
+		"FROM  word_freq_doc " +
+		"WHERE " +
+		" (word = ? OR word = ? OR word = ?) " +
+		" AND collection = ? " +
+		"GROUP BY document " +
+		"ORDER BY similarity DESC LIMIT 50")
+    if err != nil {
+        applog.Error("find.initStatements() Error preparing simBitVecCol3Stmt: ",
+        	err)
+        return err
+    }
+
+    // For a query with four terms in the query string decomposition
+	simBitVecCol4Stmt, err = database.PrepareContext(ctx, 
+		"SELECT COUNT(frequency) / 4.0 AS similarity, document " +
+		"FROM  word_freq_doc " +
+		"WHERE " +
+		" (word = ? OR word = ? OR word = ? OR word = ?) " +
+		" AND collection = ? " +
+		"GROUP BY document " +
+		"ORDER BY similarity DESC LIMIT 50")
+    if err != nil {
+        applog.Error("find.initStatements() Error preparing simBitVecCol4Stmt: ",
+        	err)
+        return err
+    }
+
+    // For a query with five terms in the query string decomposition
+	simBitVecCol5Stmt, err = database.PrepareContext(ctx, 
+		"SELECT COUNT(frequency) / 5.0 AS similarity, document " +
+		"FROM  word_freq_doc " +
+		"WHERE " +
+		" (word = ? OR word = ? OR word = ? OR word = ? OR word = ?) " +
+		" AND collection = ? " +
+		"GROUP BY document " +
+		"ORDER BY similarity DESC LIMIT 50")
+    if err != nil {
+        applog.Error("find.initStatements() Error preparing simBitVecCol5Stmt: ",
+        	err)
+        return err
+    }
+
+    // For a query with six terms in the query string decomposition
+	simBitVecCol6Stmt, err = database.PrepareContext(ctx, 
+		"SELECT COUNT(frequency) / 4.0 AS similarity, document " +
+		"FROM  word_freq_doc " +
+		"WHERE " +
+		" (word = ? OR word = ? OR word = ? OR word = ? OR word = ? " +
+		" OR word = ? )" +
+		" AND collection = ? " +
+		"GROUP BY document " +
+		"ORDER BY similarity DESC LIMIT 50")
+    if err != nil {
+        applog.Error("find.initStatements() Error preparing simBitVecCol6Stmt: ",
+        	err)
+        return err
+    }
 
     // Document similarity with BM25 using 1-6 terms, k = 1.5, b = 0
-	simBM1Stmt, err := database.PrepareContext(ctx, 
+	simBM251Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"collection, document " +
 		"FROM word_freq_doc " +
@@ -766,9 +972,8 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBM251Stmt: ", err)
         return err
     }
-    simBM251Stmt = simBM1Stmt
 
-	simBM2Stmt, err := database.PrepareContext(ctx, 
+	simBM252Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"collection, document " +
 		"FROM word_freq_doc " +
@@ -779,9 +984,8 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBM252Stmt: ", err)
         return err
     }
-    simBM252Stmt = simBM2Stmt
 
-	simBM3Stmt, err := database.PrepareContext(ctx, 
+	simBM253Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"collection, document FROM word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? " +
@@ -791,9 +995,8 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBM253Stmt: ", err)
         return err
     }
-    simBM253Stmt = simBM3Stmt
 
-	simBM4Stmt, err := database.PrepareContext(ctx, 
+	simBM254Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"collection, document FROM word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? OR word = ? " +
@@ -803,10 +1006,9 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBM254Stmt: ", err)
         return err
     }
-    simBM254Stmt = simBM4Stmt
 
 
-	simBM5Stmt, err := database.PrepareContext(ctx, 
+	simBM255Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"collection, document FROM word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? OR word = ? OR word = ? " +
@@ -816,9 +1018,8 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBM255Stmt: ", err)
         return err
     }
-    simBM255Stmt = simBM5Stmt
 
-	simBM6Stmt, err := database.PrepareContext(ctx, 
+	simBM256Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"collection, document FROM word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? OR word = ? OR word = ? " +
@@ -829,10 +1030,9 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBM256Stmt: ", err)
         return err
     }
-    simBM256Stmt = simBM6Stmt
 
     // Document similarity with BM25 using 2-6 terms, for a specific collection
-	simBMCol1Stmt, err := database.PrepareContext(ctx, 
+	simBM25Col1Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
 		"SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		" document " +
@@ -845,9 +1045,8 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBM25Col1Stmt: ", err)
         return err
     }
-    simBM25Col1Stmt = simBMCol1Stmt
 
-	simBMCol2Stmt, err := database.PrepareContext(ctx, 
+	simBM25Col2Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"document FROM word_freq_doc " +
 		"WHERE (word = ? OR word = ?) " +
@@ -858,9 +1057,8 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBM252Stmt: ", err)
         return err
     }
-    simBM25Col2Stmt = simBMCol2Stmt
 
-	simBM3ColStmt, err := database.PrepareContext(ctx, 
+	simBM25Col3Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"document FROM word_freq_doc " +
 		"WHERE (word = ? OR word = ? OR word = ?) " +
@@ -871,9 +1069,8 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBM253Stmt: ", err)
         return err
     }
-    simBM25Col3Stmt = simBM3ColStmt
 
-	simBMCol4Stmt, err := database.PrepareContext(ctx, 
+	simBM25Col4Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"document FROM word_freq_doc " +
 		"WHERE (word = ? OR word = ? OR word = ? OR word = ?) " +
@@ -884,9 +1081,8 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBM254Stmt: ", err)
         return err
     }
-    simBM25Col4Stmt = simBMCol4Stmt
 
-	simBM5ColStmt, err := database.PrepareContext(ctx, 
+	simBM25Col5Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"document FROM word_freq_doc " +
 		"WHERE (word = ? OR word = ? OR word = ? OR word = ? OR word = ?) " +
@@ -897,9 +1093,8 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBM255Stmt: ", err)
         return err
     }
-    simBM25Col5Stmt = simBM5ColStmt
 
-	simBM6ColStmt, err := database.PrepareContext(ctx, 
+	simBM25Col6Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"collection, document FROM word_freq_doc " +
 		"WHERE (word = ? OR word = ? OR word = ? OR word = ? OR word = ? " +
@@ -911,10 +1106,9 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBM256Stmt: ", err)
         return err
     }
-    simBM25Col6Stmt = simBM6ColStmt
 
     // Document similarity with Bigram using 1-6 bigrams, k = 1.5, b = 0
-	simBg1Stmt, err := database.PrepareContext(ctx, 
+	simBigram1Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"collection, document " +
 		"FROM bigram_freq_doc " +
@@ -926,9 +1120,8 @@ func initStatements() error {
         	err)
         return err
     }
-    simBigram1Stmt = simBg1Stmt
 
-	simBg2Stmt, err := database.PrepareContext(ctx, 
+	simBigram2Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"collection, document " +
 		"FROM bigram_freq_doc " +
@@ -938,9 +1131,8 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBM252Stmt: ", err)
         return err
     }
-    simBigram2Stmt = simBg2Stmt
 
-	simBg3Stmt, err := database.PrepareContext(ctx, 
+	simBigram3Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"collection, document " +
 		"FROM bigram_freq_doc " +
@@ -952,9 +1144,8 @@ func initStatements() error {
         	err)
         return err
     }
-    simBigram3Stmt = simBg3Stmt
 
-	simBg4Stmt, err := database.PrepareContext(ctx, 
+	simBigram4Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"collection, document " +
 		"FROM bigram_freq_doc " +
@@ -966,9 +1157,8 @@ func initStatements() error {
         	err)
         return err
     }
-    simBigram4Stmt = simBg4Stmt
 
-	simBg5Stmt, err := database.PrepareContext(ctx, 
+	simBigram5Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"collection, document " +
 		"FROM bigram_freq_doc " +
@@ -981,11 +1171,10 @@ func initStatements() error {
         	err)
         return err
     }
-    simBigram5Stmt = simBg5Stmt
 
     // Document similarity with Bigram using 1-6 bigrams, within a specific
     // collection
-	simBg1CStmt, err := database.PrepareContext(ctx, 
+	simBgCol1Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"document " +
 		"FROM bigram_freq_doc " +
@@ -998,9 +1187,8 @@ func initStatements() error {
         	err)
         return err
     }
-    simBgCol1Stmt = simBg1CStmt
 
-	simBgC2Stmt, err := database.PrepareContext(ctx, 
+	simBgCol2Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"document " +
 		"FROM bigram_freq_doc " +
@@ -1012,9 +1200,8 @@ func initStatements() error {
         applog.Error("find.initStatements() Error preparing simBgCol2Stmt: ", err)
         return err
     }
-    simBgCol2Stmt = simBgC2Stmt
 
-	simBgC3Stmt, err := database.PrepareContext(ctx, 
+	simBgCol3Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"document " +
 		"FROM bigram_freq_doc " +
@@ -1027,9 +1214,8 @@ func initStatements() error {
         	err)
         return err
     }
-    simBgCol3Stmt = simBgC3Stmt
 
-	simBgC4Stmt, err := database.PrepareContext(ctx, 
+	simBgCol4Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"document " +
 		"FROM bigram_freq_doc " +
@@ -1042,9 +1228,8 @@ func initStatements() error {
         	err)
         return err
     }
-    simBgCol4Stmt = simBgC4Stmt
 
-	simBgC5Stmt, err := database.PrepareContext(ctx, 
+	simBgCol5Stmt, err = database.PrepareContext(ctx, 
 		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
 		"document " +
 		"FROM bigram_freq_doc " +
@@ -1058,10 +1243,9 @@ func initStatements() error {
         	err)
         return err
     }
-    simBgCol5Stmt = simBgC5Stmt
 
     // Find the titles of all documents
-	fAllTitlesStmt, err := database.PrepareContext(ctx, 
+	findAllTitlesStmt, err = database.PrepareContext(ctx, 
 		"SELECT gloss_file, title, col_gloss_file, col_title " +
 		"FROM document LIMIT 1000000")
     if err != nil {
@@ -1069,17 +1253,15 @@ func initStatements() error {
         	err)
         return err
     }
-    findAllTitlesStmt = fAllTitlesStmt
 
     // Find the titles of all documents
-	fAllColTitlesStmt, err := database.PrepareContext(ctx, 
+	findAllColTitlesStmt, err = database.PrepareContext(ctx, 
 		"SELECT gloss_file, title FROM collection LIMIT 100000")
     if err != nil {
         applog.Error("find.initStatements() Error preparing findAllColTitlesStmt: ",
         	err)
         return err
     }
-    findAllColTitlesStmt = fAllColTitlesStmt
 
     return nil
 }
@@ -1093,6 +1275,7 @@ func mergeDocList(simDocMap map[string]Document, docList []Document) {
 			sDoc.SimTitle += simDoc.SimTitle
 			sDoc.SimWords += simDoc.SimWords
 			sDoc.SimBigram += simDoc.SimBigram
+			sDoc.SimBitVector += simDoc.SimBitVector
 			simDocMap[simDoc.GlossFile] = sDoc
 		} else {
 			colTitle, ok1 := colMap[simDoc.CollectionFile]
@@ -1105,6 +1288,7 @@ func mergeDocList(simDocMap map[string]Document, docList []Document) {
 								SimTitle: simDoc.SimTitle,
 								SimWords: simDoc.SimWords,
 								SimBigram: simDoc.SimBigram,
+								SimBitVector: simDoc.SimBitVector,
 								Similarity: simDoc.Similarity,
 							}
 				simDocMap[simDoc.GlossFile] = doc
@@ -1118,6 +1302,7 @@ func mergeDocList(simDocMap map[string]Document, docList []Document) {
 								SimTitle: simDoc.SimTitle,
 								SimWords: simDoc.SimWords,
 								SimBigram: simDoc.SimBigram,
+								SimBitVector: simDoc.SimBitVector,
 								Similarity: simDoc.Similarity,
 							}
 				simDocMap[simDoc.GlossFile] = doc
@@ -1127,6 +1312,24 @@ func mergeDocList(simDocMap map[string]Document, docList []Document) {
 			}
 		}
 	}
+}
+
+// Filter documents that are not similar
+func toRelevantDocList(docs []Document) []Document {
+	if len(docs) == 1 {
+		return docs
+	}
+	max := docs[0].Similarity
+	relDocs := []Document{}
+	for _, doc  := range docs {
+		scaledSimilarity := doc.Similarity / max
+		// If doc is less than min scaled similarity then we are done
+		if scaledSimilarity < MIN_SIMILARITY {
+			return docs
+		}
+		relDocs = append(relDocs, doc)
+	}
+	return docs
 }
 
 // Convert list to a map of similar docs with similarity set to 1.0

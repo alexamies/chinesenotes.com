@@ -94,8 +94,8 @@ func TestFindInBody0(t *testing.T) {
 func TestFindBodyBitVector1(t *testing.T) {
 	terms := []string{"后妃"}
 	docSimilarity, err := findBodyBitVector(terms)
-	if err == nil {
-		t.Error("TestFindBodyBitVector1: expected an error, ", err)
+	if err != nil {
+		t.Error("TestFindBodyBitVector1: got an error, ", err)
 		return
 	}
 	fmt.Printf("TestFindBodyBitVector1, len(docSimilarity) = %d",
@@ -399,6 +399,36 @@ func TestMergeDocList2(t *testing.T) {
 	if result.GlossFile != expected {
 		t.Errorf("TestMergeDocList2: expected %s, got, %v, docs: %v", expected,
 			result, docs)
+	}
+}
+
+func TestToRelevantDocList(t *testing.T) {
+	similarDocMap := map[string]Document{}
+	doc1 := Document{
+		GlossFile: "f1.html",
+		Title: "Good doc",
+		Similarity: 1.0,
+	}
+	similarDocMap[doc1.GlossFile] = doc1
+	doc2 := Document{
+		GlossFile: "f2.html",
+		Title: "Very Good doc",
+		Similarity: 1.5,
+	}
+	similarDocMap[doc2.GlossFile] = doc2
+	doc3 := Document{
+		GlossFile: "f3.html",
+		Title: "Irrelevant doc",
+		Similarity: 0.2,
+	}
+	similarDocMap[doc3.GlossFile] = doc3
+	docs := toSortedDocList(similarDocMap)
+	docs = toRelevantDocList(docs)
+	expected := 2
+	result := len(docs)
+	if result == expected {
+		t.Errorf("TestToRelevantDocList: expected %s, got, %v", expected,
+			result)
 	}
 }
 
