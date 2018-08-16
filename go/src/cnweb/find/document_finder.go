@@ -17,7 +17,7 @@ import (
 
 const (
 	MAX_RETURNED = 50
-	MIN_SIMILARITY = 0.25
+	MIN_SIMILARITY = 0.40
 )
 
 var (
@@ -198,7 +198,7 @@ func findBodyBitVector(terms []string) ([]Document, error) {
 		docSim := Document{}
 		results.Scan(&docSim.SimBitVector, &docSim.CollectionFile,
 			&docSim.GlossFile)
-		//applog.Info("findBodyBitVector, Similarity, Document = ",docSim)
+		applog.Info("findBodyBitVector, Similarity, Document = ",docSim)
 		simSlice = append(simSlice, docSim)
 	}
 	return simSlice, nil
@@ -243,8 +243,8 @@ func findBodyBitVectorCol(terms []string,
 	simSlice := []Document{}
 	for results.Next() {
 		docSim := Document{}
-		results.Scan(&docSim.SimBitVector, &docSim.CollectionFile,
-			&docSim.GlossFile)
+		docSim.CollectionFile = col_gloss_file
+		results.Scan(&docSim.SimBitVector, &docSim.GlossFile)
 		//applog.Info("findBodyBitVectorCol, Similarity, Document = ",docSim)
 		simSlice = append(simSlice, docSim)
 	}
@@ -1324,8 +1324,10 @@ func toRelevantDocList(docs []Document) []Document {
 	for _, doc  := range docs {
 		scaledSimilarity := doc.Similarity / max
 		// If doc is less than min scaled similarity then we are done
+		applog.Info("toRelevantDocList, check: ", scaledSimilarity, 
+			MIN_SIMILARITY)
 		if scaledSimilarity < MIN_SIMILARITY {
-			return docs
+			return relDocs
 		}
 		relDocs = append(relDocs, doc)
 	}

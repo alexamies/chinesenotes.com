@@ -106,6 +106,16 @@ MAX_TITLE_LEN = 80;
             dTable.removeChild(dOldBody)
             var dTbody = document.createElement('tbody');
             var numDoc = documents.length;
+
+            // Find factor to scale document similarity by
+            topSimBigram = 1000.0; 
+            if (numDoc > 0) {
+              if ("SimBigram" in documents[0]) {
+                topSimBigram = parseFloat(documents[0].SimBigram);
+              }
+            }
+
+            // Iterate over all documents
             for (i = 0; i < numDoc; i++) {
               if ("Title" in documents[i] && documents[i].Title) {
           	    var title = documents[i].Title;
@@ -143,6 +153,32 @@ MAX_TITLE_LEN = 80;
                   a1.appendChild(tn2);
                   td.appendChild(a1);
                 }
+                var br = document.createElement('br');
+                td.appendChild(br);
+                relevance = "";
+                if ("SimTitle" in documents[i]) {
+                  if (parseFloat(documents[i].SimTitle) == 1.0) {
+                    relevance += "similar title; ";
+                  }
+                }
+                if ("SimBitVector" in documents[i]) {
+                  if (parseFloat(documents[i].SimBitVector) == 1.0) {
+                    relevance += "contains all query terms; ";
+                  }
+                }
+                if ("SimBigram" in documents[i]) {
+                  simBigram = parseFloat(documents[i].SimBigram);
+                  if (simBigram / topSimBigram > 0.5) {
+                    relevance += "query terms close together";
+                  }
+                }
+                relevance = relevance.replace(/;([^;]*)$/,'$1');
+                if (relevance == "") {
+                  relevance = "contains some query terms";
+                }
+                relevance = "Relevance: " + relevance;
+                var tnRelevance = document.createTextNode(relevance);
+                td.appendChild(tnRelevance);
                 dTbody.appendChild(tr);
               } else {
                 console.log("alertContents: no title for document " + i);
@@ -198,8 +234,10 @@ MAX_TITLE_LEN = 80;
                 a.setAttribute("title", pinyin);
               }
               a.appendChild(textNode1);
-              var textNode2 = document.createTextNode(" ");
-              span.appendChild(textNode2);
+              if (i < (terms.length - 1)) {
+                var textNode2 = document.createTextNode("、");
+                span.appendChild(textNode2);
+              }
               qBody.appendChild(span);
            }
           } else {
