@@ -172,7 +172,7 @@ MAX_TITLE_LEN = 80;
                     relevance += "query terms close together";
                   }
                 }
-                relevance = relevance.replace(/;([^;]*)$/,'$1');
+                relevance = relevance.replace(/; $/,'');
                 if (relevance == "") {
                   relevance = "contains some query terms";
                 }
