@@ -86,6 +86,7 @@ func (doc Document) String() string {
     	", SimTitle " + fmt.Sprintf("%f", doc.SimTitle) + 
     	", SimWords " + fmt.Sprintf("%f", doc.SimWords) + 
     	", SimBigram " + fmt.Sprintf("%f", doc.SimBigram) + 
+    	", SimBitVector " + fmt.Sprintf("%f", doc.SimBitVector) + 
     	", Similarity " + fmt.Sprintf("%f", doc.Similarity)
  }
 
@@ -143,6 +144,7 @@ func combineByWeight(doc Document) Document {
 		SimTitle: doc.SimTitle,
 		SimWords: doc.SimWords,
 		SimBigram: doc.SimBigram,
+		SimBitVector: doc.SimBitVector,
 		Similarity: similarity,
 	}
 	return simDoc
@@ -1346,6 +1348,7 @@ func toSimilarDocMap(docs []Document) map[string]Document {
 			SimTitle: doc.SimTitle,
 			SimWords: doc.SimWords,
 			SimBigram: doc.SimBigram,
+			SimBitVector: doc.SimBitVector,
 			Similarity: doc.Similarity,
 		}
 		similarDocMap[doc.GlossFile] = simDoc
