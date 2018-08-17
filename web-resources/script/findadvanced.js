@@ -155,7 +155,7 @@ MAX_TITLE_LEN = 80;
                 }
                 var br = document.createElement('br');
                 td.appendChild(br);
-                relevance = "";
+                var relevance = "";
                 if ("SimTitle" in documents[i]) {
                   if (parseFloat(documents[i].SimTitle) == 1.0) {
                     relevance += "similar title; ";
