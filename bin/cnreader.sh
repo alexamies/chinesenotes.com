@@ -41,6 +41,7 @@ mkdir $WEB_DIR/analysis/mingshi
 mkdir $WEB_DIR/analysis/mozi
 mkdir $WEB_DIR/analysis/nanqishu
 mkdir $WEB_DIR/analysis/nanshi
+mkdir $WEB_DIR/analysis/rulinwaishi
 mkdir $WEB_DIR/analysis/sanguozhi
 mkdir $WEB_DIR/analysis/shanhaijing
 mkdir $WEB_DIR/analysis/shangshu

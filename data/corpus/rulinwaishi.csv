@@ -1,0 +1,60 @@
+# Literary Chinese prose corpus
+# Paths are relative to the web directory
+# Input file, output file, title
+rulinwaishi/rulinwaishi000i.txt	rulinwaishi/rulinwaishi000i.html	Introduction
+rulinwaishi/rulinwaishi001.txt	rulinwaishi/rulinwaishi001.html	第一回 Chapter 1
+rulinwaishi/rulinwaishi002.txt	rulinwaishi/rulinwaishi002.html	第二回 Chapter 2
+rulinwaishi/rulinwaishi003.txt	rulinwaishi/rulinwaishi003.html	第三回 Chapter 3
+rulinwaishi/rulinwaishi004.txt	rulinwaishi/rulinwaishi004.html	第四回 Chapter 4
+rulinwaishi/rulinwaishi005.txt	rulinwaishi/rulinwaishi005.html	第五回 Chapter 5
+rulinwaishi/rulinwaishi006.txt	rulinwaishi/rulinwaishi006.html	第六回 Chapter 6
+rulinwaishi/rulinwaishi007.txt	rulinwaishi/rulinwaishi007.html	第七回 Chapter 7
+rulinwaishi/rulinwaishi008.txt	rulinwaishi/rulinwaishi008.html	第八回 Chapter 8
+rulinwaishi/rulinwaishi009.txt	rulinwaishi/rulinwaishi009.html	第九回 Chapter 9
+rulinwaishi/rulinwaishi010.txt	rulinwaishi/rulinwaishi010.html	第十回 Chapter 10
+rulinwaishi/rulinwaishi011.txt	rulinwaishi/rulinwaishi011.html	第十一回 Chapter 11
+rulinwaishi/rulinwaishi012.txt	rulinwaishi/rulinwaishi012.html	第十二回 Chapter 12
+rulinwaishi/rulinwaishi013.txt	rulinwaishi/rulinwaishi013.html	第十三回 Chapter 13
+rulinwaishi/rulinwaishi014.txt	rulinwaishi/rulinwaishi014.html	第十四回 Chapter 14
+rulinwaishi/rulinwaishi015.txt	rulinwaishi/rulinwaishi015.html	第十五回 Chapter 15
+rulinwaishi/rulinwaishi016.txt	rulinwaishi/rulinwaishi016.html	第十六回 Chapter 16
+rulinwaishi/rulinwaishi017.txt	rulinwaishi/rulinwaishi017.html	第十七回
+rulinwaishi/rulinwaishi018.txt	rulinwaishi/rulinwaishi018.html	第十八回
+rulinwaishi/rulinwaishi019.txt	rulinwaishi/rulinwaishi019.html	第十九回
+rulinwaishi/rulinwaishi020.txt	rulinwaishi/rulinwaishi020.html	第二十回
+rulinwaishi/rulinwaishi021.txt	rulinwaishi/rulinwaishi021.html	第二十一回
+rulinwaishi/rulinwaishi022.txt	rulinwaishi/rulinwaishi022.html	第二十二回
+rulinwaishi/rulinwaishi023.txt	rulinwaishi/rulinwaishi023.html	第二十三回
+rulinwaishi/rulinwaishi024.txt	rulinwaishi/rulinwaishi024.html	第二十四回
+rulinwaishi/rulinwaishi025.txt	rulinwaishi/rulinwaishi025.html	第二十五回
+rulinwaishi/rulinwaishi026.txt	rulinwaishi/rulinwaishi026.html	第二十六回
+rulinwaishi/rulinwaishi027.txt	rulinwaishi/rulinwaishi027.html	第二十七回
+rulinwaishi/rulinwaishi028.txt	rulinwaishi/rulinwaishi028.html	第二十八回
+rulinwaishi/rulinwaishi029.txt	rulinwaishi/rulinwaishi029.html	第二十九回
+rulinwaishi/rulinwaishi030.txt	rulinwaishi/rulinwaishi030.html	第三十回
+rulinwaishi/rulinwaishi031.txt	rulinwaishi/rulinwaishi031.html	第三十一回
+rulinwaishi/rulinwaishi032.txt	rulinwaishi/rulinwaishi032.html	第三十二回
+rulinwaishi/rulinwaishi033.txt	rulinwaishi/rulinwaishi033.html	第三十三回
+rulinwaishi/rulinwaishi034.txt	rulinwaishi/rulinwaishi034.html	第三十四回
+rulinwaishi/rulinwaishi035.txt	rulinwaishi/rulinwaishi035.html	第三十五回
+rulinwaishi/rulinwaishi036.txt	rulinwaishi/rulinwaishi036.html	第三十六回
+rulinwaishi/rulinwaishi037.txt	rulinwaishi/rulinwaishi037.html	第三十七回
+rulinwaishi/rulinwaishi038.txt	rulinwaishi/rulinwaishi038.html	第三十八回
+rulinwaishi/rulinwaishi039.txt	rulinwaishi/rulinwaishi039.html	第三十九回
+rulinwaishi/rulinwaishi040.txt	rulinwaishi/rulinwaishi040.html	第四十回
+rulinwaishi/rulinwaishi041.txt	rulinwaishi/rulinwaishi041.html	第四十一回
+rulinwaishi/rulinwaishi042.txt	rulinwaishi/rulinwaishi042.html	第四十二回
+rulinwaishi/rulinwaishi043.txt	rulinwaishi/rulinwaishi043.html	第四十三回
+rulinwaishi/rulinwaishi044.txt	rulinwaishi/rulinwaishi044.html	第四十四回
+rulinwaishi/rulinwaishi045.txt	rulinwaishi/rulinwaishi045.html	第四十五回
+rulinwaishi/rulinwaishi046.txt	rulinwaishi/rulinwaishi046.html	第四十六回
+rulinwaishi/rulinwaishi047.txt	rulinwaishi/rulinwaishi047.html	第四十七回
+rulinwaishi/rulinwaishi048.txt	rulinwaishi/rulinwaishi048.html	第四十八回
+rulinwaishi/rulinwaishi049.txt	rulinwaishi/rulinwaishi049.html	第四十九回
+rulinwaishi/rulinwaishi050.txt	rulinwaishi/rulinwaishi050.html	第五十回
+rulinwaishi/rulinwaishi051.txt	rulinwaishi/rulinwaishi051.html	第五十一回
+rulinwaishi/rulinwaishi052.txt	rulinwaishi/rulinwaishi052.html	第五十二回
+rulinwaishi/rulinwaishi053.txt	rulinwaishi/rulinwaishi053.html	第五十三回
+rulinwaishi/rulinwaishi054.txt	rulinwaishi/rulinwaishi054.html	第五十四回
+rulinwaishi/rulinwaishi055.txt	rulinwaishi/rulinwaishi055.html	第五十五回
+rulinwaishi/rulinwaishi056.txt	rulinwaishi/rulinwaishi056.html	第五十六回

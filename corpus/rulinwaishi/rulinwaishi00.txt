@@ -1,0 +1,29 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2018-08-19, <a href="https://zh.wikisource.org/wiki/儒林外史"
+  >https://zh.wikisource.org/wiki/儒林外史</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  <li>
+    Wu, Ching-tzu 1992, <i>The Scholars</i>, 
+    Translated by Hsien-yi Yang and Gladys Yang,
+    Columbia University Press.
+  </li>
+</p>
+
+<h4>Discussion</h4>
+<ol>
+  <li>
+    Idema, W L and Haft, L 1997, <i>A Guide to Chinese Literature</i>, 
+    Ann Arbor: Center for Chinese Studies, University of Michigan,
+    pp. 221-222.
+  </li>
+  <li>
+    Chang, Kang-i Sun, and Stephen Owen, eds. 2010,
+    <i>The Cambridge History of Chinese Literature: From 1375</i>,
+    Cambridge: Cambridge University Press.
+    pp. 274-283.
+  </li>
+</ol>
