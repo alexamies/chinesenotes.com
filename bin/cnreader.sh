@@ -105,6 +105,7 @@ mkdir $WEB_DIR/mozi
 mkdir $WEB_DIR/mp3
 mkdir $WEB_DIR/nanqishu
 mkdir $WEB_DIR/nanshi
+mkdir $WEB_DIR/rulinwaishi
 mkdir $WEB_DIR/sanguozhi
 mkdir $WEB_DIR/script
 mkdir $WEB_DIR/shanhaijing
