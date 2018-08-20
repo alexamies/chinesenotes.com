@@ -221,7 +221,7 @@ docker restart  mariadb
 Compile the library document files and tiles into a tab separated file for
 loading into the database with the Python program
 ```
-python python/doc_list.py
+bin/doc_list.sh
 ```
 
 To load data from other sources connect to the database container
@@ -431,11 +431,9 @@ gcloud sql connect $INSTANCE --user=root
 Execute statements in first_time_setup.sql and corpus_index.ddl to define
 database and tables.
 
-Upload word_freq_doc.txt via GCS
+Consolidate the document titles into a single file
 ```
-DATA_BUCKET=[your bucket]
-gsutil mb gs://$DATA_BUCKET
-gsutil cp index/word_freq_doc.txt gs://$DATA_BUCKET
+bin/doc_list.sh 
 ```
 
 Import the data for table word_freq_doc via the Cloud Console using the import
