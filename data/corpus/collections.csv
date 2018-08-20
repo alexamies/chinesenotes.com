@@ -60,7 +60,7 @@ tang_poetry.csv	poetry.html	Selections of Tang Poetry	\N	\N	Literary Chinese	Poe
 wenxin.csv	wenxin.html	The Literary Mind and the Carving of Dragons 《文心雕龍》	 An early Chinese text in literature theory by 劉勰 Liu Xie	wenxin/wenxin000.txt	Literary Chinese	Prose	465－520	literature
 sishuzhangju.csv	sishuzhangju.html	Commentaries on the Four Books by Zhu Xi 朱熹《四書章句集注》	\N	sishuzhangju/sishuzhangju.txt	Literary Chinese	Prose	Circa 1200	Confucian
 tea_classic.csv	tea_classic.html	The Classic of Tea 《茶經》	Written by 陆羽 Lu Yu	tea_classic00.txt	Literary Chinese	Prose	760-780	non-fiction
-rulinwaishi.csv	rulinwaishi.html	The Scholars 《儒林外史》	Also known as <i>Unofficial History of the Scholars</i>, a satirical novel by 吴敬梓 Wu Jingzi 1701—1754	rulinwaishi00.txt	Literary Chinese	Prose	1750	fiction
+rulinwaishi.csv	rulinwaishi.html	The Scholars 《儒林外史》	Also known as <i>Unofficial History of the Scholars</i>, a satirical novel by 吴敬梓 Wu Jingzi 1701—1754	rulinwaishi/rulinwaishi00.txt	Literary Chinese	Prose	1750	fiction
 modern_articles.csv	media_articles.html	Media articles	\N	\N	Modern Chinese	Prose	Modern	non-fiction
 laoshe.csv	laoshe.html	A small number of phrases from the writings of Lao She	\N	\N	Modern Chinese	Prose	Modern	fiction
 yeshengtao.csv	yeshengtao.html	A small number of phrases from the writings of Ye Shengtao	\N	\N	Modern Chinese	Prose	Modern	fiction
