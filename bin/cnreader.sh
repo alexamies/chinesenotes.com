@@ -8,6 +8,7 @@ export DEV_HOME=`pwd`
 export CNREADER_HOME=`pwd`
 export WEB_DIR=web-staging
 export TEMPLATE_HOME=html/material-templates
+python $DEV_HOME/python/doc_list.py
 mkdir $WEB_DIR
 mkdir $WEB_DIR/analysis
 mkdir $WEB_DIR/analysis/articles
@@ -61,6 +62,7 @@ mkdir $WEB_DIR/analysis/xiaojing
 mkdir $WEB_DIR/analysis/xintangshu
 mkdir $WEB_DIR/analysis/xinwudaishi
 mkdir $WEB_DIR/analysis/xunzi
+mkdir $WEB_DIR/analysis/yanshijiaxun
 mkdir $WEB_DIR/analysis/yeshengtao
 mkdir $WEB_DIR/analysis/yijing
 mkdir $WEB_DIR/analysis/yili
@@ -127,6 +129,7 @@ mkdir $WEB_DIR/xiaojing
 mkdir $WEB_DIR/xintangshu
 mkdir $WEB_DIR/xinwudaishi
 mkdir $WEB_DIR/xunzi
+mkdir $WEB_DIR/yanshijiaxun
 mkdir $WEB_DIR/yeshengtao
 mkdir $WEB_DIR/yijing
 mkdir $WEB_DIR/yili

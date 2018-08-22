@@ -1,0 +1,11 @@
+# Literary Chinese prose corpus
+# Paths are relative to the web directory
+# Input file, output file, title
+yanshijiaxun/yanshijiaxun000i.txt	yanshijiaxun/yanshijiaxun000i.html	Introduction
+yanshijiaxun/yanshijiaxun001.txt	yanshijiaxun/yanshijiaxun001.html	卷第一 序致 教子 兄弟 後娶 治家 Scroll 1: Preface, Educating Children, Brothers, Husband and Wife, Managing the Household
+yanshijiaxun/yanshijiaxun002.txt	yanshijiaxun/yanshijiaxun002.html	卷第二 風操 慕賢 Scroll 2: Character and Personal Integrity, Admire of Virtue
+yanshijiaxun/yanshijiaxun003.txt	yanshijiaxun/yanshijiaxun003.html	卷第三 勉學 Scroll 3: Exhortation to Study
+yanshijiaxun/yanshijiaxun004.txt	yanshijiaxun/yanshijiaxun004.html	卷第四 文章 名實 涉務 Scroll 4: Articles, Names Reality, and Managing Affairs
+yanshijiaxun/yanshijiaxun005.txt	yanshijiaxun/yanshijiaxun005.html	卷第五 省事 止足 誡兵 養生 歸心 Scroll 5: Moderation, Refrain from use of Arms, Good Health, Religious Faith
+yanshijiaxun/yanshijiaxun006.txt	yanshijiaxun/yanshijiaxun006.html	卷第六 書證 Scroll 6: Writing
+yanshijiaxun/yanshijiaxun007.txt	yanshijiaxun/yanshijiaxun007.html	卷第七 音辭 雜藝 終制 Scroll 7: Good Speech, Various Arts, Conclusion
