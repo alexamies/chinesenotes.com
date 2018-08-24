@@ -27,10 +27,6 @@ var (
 	docMap map[string]Document
 	findAllTitlesStmt, findAllColTitlesStmt  *sql.Stmt
 	findColStmt, findDocStmt, findDocInColStmt, findWordStmt  *sql.Stmt
-	simBitVector1Stmt, simBitVector2Stmt, simBitVector3Stmt *sql.Stmt
-	simBitVector4Stmt, simBitVector5Stmt, simBitVector6Stmt *sql.Stmt
-	simBitVecCol1Stmt, simBitVecCol2Stmt, simBitVecCol3Stmt *sql.Stmt
-	simBitVecCol4Stmt, simBitVecCol5Stmt, simBitVecCol6Stmt *sql.Stmt
 	simBM251Stmt, simBM252Stmt, simBM253Stmt, simBM254Stmt *sql.Stmt
 	simBM255Stmt, simBM256Stmt *sql.Stmt
 	simBM25Col1Stmt, simBM25Col2Stmt, simBM25Col3Stmt, simBM25Col4Stmt *sql.Stmt
@@ -163,96 +159,6 @@ func countCollections(query string) int {
 	return count
 }
 
-// Search the corpus for document bodies using bit vector similarity.
-//  Param: terms - The decomposed query string
-func findBodyBitVector(terms []string) ([]Document, error) {
-	applog.Info("findBodyBitVector, terms = ", terms)
-	ctx := context.Background()
-	var results *sql.Rows
-	var err error
-	if len(terms) == 0 {
-		err := errors.New("Empty query terms")
-		return []Document{}, err
-	} else if len(terms) == 1 {
-		results, err = simBitVector1Stmt.QueryContext(ctx, terms[0])
-	} else if len(terms) == 2 {
-		results, err = simBitVector2Stmt.QueryContext(ctx, terms[0], terms[1])
-	} else if len(terms) == 3 {
-		results, err = simBitVector3Stmt.QueryContext(ctx, terms[0], terms[1],
-			terms[2])
-	} else if len(terms) == 4 {
-		results, err = simBitVector4Stmt.QueryContext(ctx, terms[0], terms[1],
-			terms[2], terms[3])
-	} else if len(terms) == 5 {
-		results, err = simBitVector5Stmt.QueryContext(ctx, terms[0], terms[1],
-			terms[2], terms[3], terms[4])
-	}  else  if len(terms) > 5{
-		// Ignore arguments beyond the first six
-		results, err = simBitVector6Stmt.QueryContext(ctx, terms[0], terms[1],
-			terms[2], terms[3], terms[4], terms[5])
-	}
-	if err != nil {
-		applog.Error("findBodyBitVector, Error for query: ", terms, err)
-		return []Document{}, err
-	}
-	simSlice := []Document{}
-	for results.Next() {
-		docSim := Document{}
-		results.Scan(&docSim.SimBitVector, &docSim.CollectionFile,
-			&docSim.GlossFile)
-		applog.Info("findBodyBitVector, Similarity, Document = ",docSim)
-		simSlice = append(simSlice, docSim)
-	}
-	return simSlice, nil
-}
-
-// Search the corpus for document bodies using bit vector similarity, scoped
-// by collection
-//  Param: terms - The decomposed query string
-func findBodyBitVectorCol(terms []string, 
-		col_gloss_file string) ([]Document, error) {
-	applog.Info("findBodyBitVectorCol, terms = ", terms)
-	ctx := context.Background()
-	var results *sql.Rows
-	var err error
-	if len(terms) == 0 {
-		err := errors.New("Empty query terms")
-		return []Document{}, err
-	} else if len(terms) == 1 {
-		results, err = simBitVecCol2Stmt.QueryContext(ctx, terms[0],
-			col_gloss_file)
-	} else if len(terms) == 2 {
-		results, err = simBitVecCol2Stmt.QueryContext(ctx, terms[0], terms[1],
-			col_gloss_file)
-	} else if len(terms) == 3 {
-		results, err = simBitVecCol3Stmt.QueryContext(ctx, terms[0], terms[1],
-			terms[2], col_gloss_file)
-	} else if len(terms) == 4 {
-		results, err = simBitVecCol4Stmt.QueryContext(ctx, terms[0], terms[1],
-			terms[2], terms[3], col_gloss_file)
-	} else if len(terms) == 5 {
-		results, err = simBitVecCol5Stmt.QueryContext(ctx, terms[0], terms[1],
-			terms[2], terms[3], terms[4], col_gloss_file)
-	}  else  {
-		// Ignore arguments beyond the first six
-		results, err = simBitVecCol6Stmt.QueryContext(ctx, terms[0], terms[1],
-			terms[2], terms[3], terms[4], terms[5], col_gloss_file)
-	}
-	if err != nil {
-		applog.Error("findBodyBitVectorCol, Error for query: ", terms, err)
-		return []Document{}, err
-	}
-	simSlice := []Document{}
-	for results.Next() {
-		docSim := Document{}
-		docSim.CollectionFile = col_gloss_file
-		results.Scan(&docSim.SimBitVector, &docSim.GlossFile)
-		//applog.Info("findBodyBitVectorCol, Similarity, Document = ",docSim)
-		simSlice = append(simSlice, docSim)
-	}
-	return simSlice, nil
-}
-
 // Search the corpus for document bodies most similar using a BM25 model.
 //  Param: terms - The decomposed query string with 0 < num elements < 7
 func findBodyBM25(terms []string) ([]Document, error) {
@@ -285,7 +191,8 @@ func findBodyBM25(terms []string) ([]Document, error) {
 	simSlice := []Document{}
 	for results.Next() {
 		docSim := Document{}
-		results.Scan(&docSim.SimWords, &docSim.CollectionFile, &docSim.GlossFile)
+		results.Scan(&docSim.SimWords, &docSim.SimBitVector,
+			&docSim.CollectionFile, &docSim.GlossFile)
 		//applog.Info("findBodyBM25, Similarity, Document = ", docSim)
 		simSlice = append(simSlice, docSim)
 	}
@@ -328,7 +235,7 @@ func findBodyBM25InCol(terms []string,
 	for results.Next() {
 		docSim := Document{}
 		docSim.CollectionFile = col_gloss_file
-		results.Scan(&docSim.SimWords, &docSim.GlossFile)
+		results.Scan(&docSim.SimWords, &docSim.SimBitVector, &docSim.GlossFile)
 		//applog.Info("findBodyBM25InCol, Similarity, Document = ", docSim)
 		simSlice = append(simSlice, docSim)
 	}
@@ -535,13 +442,7 @@ func findDocuments(query string, terms []TextSegment,
 	}
 	mergeDocList(docMap, simDocs)
 
-	// Also check on similarity by bit vector dot product
-	simDocs, err = findBodyBitVector(queryTerms)
-	if err != nil {
-		applog.Error("findDocuments, bit vector dot product error: ", err)
-	}
-	mergeDocList(docMap, simDocs)
-
+	// If less than 2 terms then do not need to check bigrams
 	if len(terms) < 2 {
 		sortedDocs := toSortedDocList(docMap)
 		applog.Info("findDocuments, < 2 len(sortedDocs): ", query, 
@@ -585,13 +486,6 @@ func findDocumentsInCol(query string, terms []TextSegment,
 		return nil, err
 	}
 	//applog.Info("findDocumentsInCol, len(simDocs) by word freq: ", len(simDocs))
-	mergeDocList(docMap, simDocs)
-
-	// Also check on similarity by bit vector dot product
-	simDocs, err = findBodyBitVectorCol(queryTerms, col_gloss_file)
-	if err != nil {
-		applog.Error("findDocumentsInCol, bit vector dot product error: ", err)
-	}
 	mergeDocList(docMap, simDocs)
 
 	if len(terms) > 1 {
@@ -791,321 +685,162 @@ func initStatements() error {
         return err
     }
 
-    // Bit vector doc product with no scope
-	simBitVector1Stmt, err = database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) / 2.0 AS similarity, collection, document " +
-		"FROM  word_freq_doc " +
-		"WHERE word = ? " +
-		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 200")
-    if err != nil {
-        applog.Error("find.initStatements() Error preparing simBitVector1Stmt: ",
-        	err)
-        return err
-    }
-
-    // For a query with two terms in the query string decomposition
-	simBitVector2Stmt, err = database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) / 2.0 AS similarity, collection, document " +
-		"FROM  word_freq_doc " +
-		"WHERE word = ? OR word = ? " +
-		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 200")
-    if err != nil {
-        applog.Error("find.initStatements() Error preparing simBitVector2Stmt: ",
-        	err)
-        return err
-    }
-
-    // For a query with three terms in the query string decomposition
-	simBitVector3Stmt, err = database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) / 3.0 AS similarity, collection, document " +
-		"FROM  word_freq_doc " +
-		"WHERE word = ? OR word = ? OR word = ? " +
-		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 200")
-    if err != nil {
-        applog.Error("find.initStatements() Error preparing simBitVector3Stmt: ",
-        	err)
-        return err
-    }
-
-    // For a query with four terms in the query string decomposition
-	simBitVector4Stmt, err = database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) / 4.0 AS similarity, collection, document " +
-		"FROM  word_freq_doc " +
-		"WHERE word = ? OR word = ? OR word = ? OR word = ? " +
-		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 200")
-    if err != nil {
-        applog.Error("find.initStatements() Error preparing simBitVector4Stmt: ",
-        	err)
-        return err
-    }
-
-    // For a query with five terms in the query string decomposition
-	simBitVector5Stmt, err = database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) / 5.0 AS similarity, collection, document " +
-		"FROM  word_freq_doc " +
-		"WHERE word = ? OR word = ? OR word = ? OR word = ?  OR word = ? " +
-		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 200")
-    if err != nil {
-        applog.Error("find.initStatements() Error preparing simBitVector5Stmt: ",
-        	err)
-        return err
-    }
-
-    // For a query with six terms in the query string decomposition
-	simBitVector6Stmt, err = database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) / 4.0 AS similarity, collection, document " +
-		"FROM  word_freq_doc " +
-		"WHERE " +
-		"  word = ? OR word = ? OR word = ? OR word = ? OR word = ? " +
-		"  OR word = ? " +
-		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 200")
-    if err != nil {
-        applog.Error("find.initStatements() Error preparing simBitVector6Stmt: ",
-        	err)
-        return err
-    }
-
-    // Bit vector doc product with scope from collection
-	simBitVecCol1Stmt, err = database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) / 2.0 AS similarity, document " +
-		"FROM  word_freq_doc " +
-		"WHERE " +
-		" word = ? " +
-		" AND collection = ? " +
-		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 200")
-    if err != nil {
-        applog.Error("find.initStatements() Error preparing simBitVecCol1Stmt: ",
-        	err)
-        return err
-    }
-
-    // For a query with two terms in the query string decomposition
-	simBitVecCol2Stmt, err = database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) / 2.0 AS similarity, document " +
-		"FROM  word_freq_doc " +
-		"WHERE " +
-		" (word = ? OR word = ?) " +
-		" AND collection = ? " +
-		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 200")
-    if err != nil {
-        applog.Error("find.initStatements() Error preparing simBitVecCol2Stmt: ",
-        	err)
-        return err
-    }
-
-    // For a query with three terms in the query string decomposition
-	simBitVecCol3Stmt, err = database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) / 3.0 AS similarity, document " +
-		"FROM  word_freq_doc " +
-		"WHERE " +
-		" (word = ? OR word = ? OR word = ?) " +
-		" AND collection = ? " +
-		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 200")
-    if err != nil {
-        applog.Error("find.initStatements() Error preparing simBitVecCol3Stmt: ",
-        	err)
-        return err
-    }
-
-    // For a query with four terms in the query string decomposition
-	simBitVecCol4Stmt, err = database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) / 4.0 AS similarity, document " +
-		"FROM  word_freq_doc " +
-		"WHERE " +
-		" (word = ? OR word = ? OR word = ? OR word = ?) " +
-		" AND collection = ? " +
-		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 200")
-    if err != nil {
-        applog.Error("find.initStatements() Error preparing simBitVecCol4Stmt: ",
-        	err)
-        return err
-    }
-
-    // For a query with five terms in the query string decomposition
-	simBitVecCol5Stmt, err = database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) / 5.0 AS similarity, document " +
-		"FROM  word_freq_doc " +
-		"WHERE " +
-		" (word = ? OR word = ? OR word = ? OR word = ? OR word = ?) " +
-		" AND collection = ? " +
-		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 200")
-    if err != nil {
-        applog.Error("find.initStatements() Error preparing simBitVecCol5Stmt: ",
-        	err)
-        return err
-    }
-
-    // For a query with six terms in the query string decomposition
-	simBitVecCol6Stmt, err = database.PrepareContext(ctx, 
-		"SELECT COUNT(frequency) / 4.0 AS similarity, document " +
-		"FROM  word_freq_doc " +
-		"WHERE " +
-		" (word = ? OR word = ? OR word = ? OR word = ? OR word = ? " +
-		" OR word = ? )" +
-		" AND collection = ? " +
-		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 200")
-    if err != nil {
-        applog.Error("find.initStatements() Error preparing simBitVecCol6Stmt: ",
-        	err)
-        return err
-    }
-
     // Document similarity with BM25 using 1-6 terms, k = 1.5, b = 0
 	simBM251Stmt, err = database.PrepareContext(ctx, 
-		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
+		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS bm25, " +
+		"COUNT(frequency) AS bitvector, " +
 		"collection, document " +
 		"FROM word_freq_doc " +
 		"WHERE word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 200")
+		"ORDER BY bm25 DESC LIMIT 200")
     if err != nil {
-        applog.Error("find.initStatements() Error preparing simBM251Stmt: ", err)
+        applog.Error("find.initStatements() Error for simBM251Stmt: ", err)
         return err
     }
 
 	simBM252Stmt, err = database.PrepareContext(ctx, 
-		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
+		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS bm25, " +
+		"COUNT(frequency) / 2.0 AS bitvector, " +
 		"collection, document " +
 		"FROM word_freq_doc " +
 		"WHERE word = ? OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 200")
+		"ORDER BY bm25 DESC LIMIT 200")
     if err != nil {
-        applog.Error("find.initStatements() Error preparing simBM252Stmt: ", err)
+        applog.Error("find.initStatements() Error for simBM252Stmt: ", err)
         return err
     }
 
 	simBM253Stmt, err = database.PrepareContext(ctx, 
-		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
+		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS bm25, " +
+		"COUNT(frequency) / 3.0 AS bitvector, " +
 		"collection, document FROM word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 200")
+		"ORDER BY bm25 DESC LIMIT 200")
     if err != nil {
-        applog.Error("find.initStatements() Error preparing simBM253Stmt: ", err)
+        applog.Error("find.initStatements() Error for simBM253Stmt: ", err)
         return err
     }
 
 	simBM254Stmt, err = database.PrepareContext(ctx, 
-		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
+		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS bm25, " +
+		"COUNT(frequency) / 4.0 AS bitvector, " +
 		"collection, document FROM word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 200")
+		"ORDER BY bm25 DESC LIMIT 200")
     if err != nil {
-        applog.Error("find.initStatements() Error preparing simBM254Stmt: ", err)
+        applog.Error("find.initStatements() Error for simBM254Stmt: ", err)
         return err
     }
 
 
 	simBM255Stmt, err = database.PrepareContext(ctx, 
-		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
+		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS bm25, " +
+		"COUNT(frequency) / 5.0 AS bitvector, " +
 		"collection, document FROM word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? OR word = ? OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 200")
+		"ORDER BY bm25 DESC LIMIT 200")
     if err != nil {
-        applog.Error("find.initStatements() Error preparing simBM255Stmt: ", err)
+        applog.Error("find.initStatements() Error for simBM255Stmt: ", err)
         return err
     }
 
 	simBM256Stmt, err = database.PrepareContext(ctx, 
-		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
+		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS bm25, " +
+		"COUNT(frequency) / 5.0 AS bitvector, " +
 		"collection, document FROM word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? OR word = ? OR word = ? " +
 		"OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 200")
+		"ORDER BY bm25 DESC LIMIT 200")
     if err != nil {
-        applog.Error("find.initStatements() Error preparing simBM256Stmt: ", err)
+        applog.Error("find.initStatements() Error for simBM256Stmt: ", err)
         return err
     }
 
     // Document similarity with BM25 using 2-6 terms, for a specific collection
 	simBM25Col1Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		"SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
-		" document " +
+		"SUM(2.5 * frequency * idf / (frequency + 1.5)) AS bm25, " +
+		"COUNT(frequency) / 1.0 AS bitvector, " +
+		"document " +
 		"FROM word_freq_doc " +
 		"WHERE " +
 		" (word = ?) AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 200")
+		"ORDER BY bm25 DESC LIMIT 200")
     if err != nil {
-        applog.Error("find.initStatements() Error preparing simBM25Col1Stmt: ", err)
+        applog.Error("find.initStatements() Error for simBM25Col1Stmt: ", err)
         return err
     }
 
 	simBM25Col2Stmt, err = database.PrepareContext(ctx, 
-		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
+		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS bm25, " +
+		"COUNT(frequency) / 2.0 AS bitvector, " +
 		"document FROM word_freq_doc " +
 		"WHERE (word = ? OR word = ?) " +
 		"AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 200")
+		"ORDER BY bm25 DESC LIMIT 200")
     if err != nil {
-        applog.Error("find.initStatements() Error preparing simBM252Stmt: ", err)
+        applog.Error("find.initStatements() Error for simBM252Stmt: ", err)
         return err
     }
 
 	simBM25Col3Stmt, err = database.PrepareContext(ctx, 
-		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
+		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS bm25, " +
+		"COUNT(frequency) / 3.0 AS bitvector, " +
 		"document FROM word_freq_doc " +
 		"WHERE (word = ? OR word = ? OR word = ?) " +
 		"AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 200")
+		"ORDER BY bm25 DESC LIMIT 200")
     if err != nil {
-        applog.Error("find.initStatements() Error preparing simBM253Stmt: ", err)
+        applog.Error("find.initStatements() Error for simBM253Stmt: ", err)
         return err
     }
 
 	simBM25Col4Stmt, err = database.PrepareContext(ctx, 
-		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
+		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS bm25, " +
+		"COUNT(frequency) / 4.0 AS bitvector, " +
 		"document FROM word_freq_doc " +
 		"WHERE (word = ? OR word = ? OR word = ? OR word = ?) " +
 		"AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 200")
+		"ORDER BY bm25 DESC LIMIT 200")
     if err != nil {
-        applog.Error("find.initStatements() Error preparing simBM254Stmt: ", err)
+        applog.Error("find.initStatements() Error for simBM254Stmt: ", err)
         return err
     }
 
 	simBM25Col5Stmt, err = database.PrepareContext(ctx, 
-		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
+		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS bm25, " +
+		"COUNT(frequency) / 5.0 AS bitvector, " +
 		"document FROM word_freq_doc " +
 		"WHERE (word = ? OR word = ? OR word = ? OR word = ? OR word = ?) " +
 		"AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 200")
+		"ORDER BY bm25 DESC LIMIT 200")
     if err != nil {
-        applog.Error("find.initStatements() Error preparing simBM255Stmt: ", err)
+        applog.Error("find.initStatements() Error for simBM255Stmt: ", err)
         return err
     }
 
 	simBM25Col6Stmt, err = database.PrepareContext(ctx, 
-		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS similarity, " +
-		"collection, document FROM word_freq_doc " +
+		"SELECT SUM(2.5 * frequency * idf / (frequency + 1.5)) AS bm25, " +
+		"COUNT(frequency) / 5.0 AS bitvector, " +
+		"document FROM word_freq_doc " +
 		"WHERE (word = ? OR word = ? OR word = ? OR word = ? OR word = ? " +
 		"OR word = ?) " +
 		"AND collection = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 200")
+		"ORDER BY bm25 DESC LIMIT 200")
     if err != nil {
-        applog.Error("find.initStatements() Error preparing simBM256Stmt: ", err)
+        applog.Error("find.initStatements() Error for simBM256Stmt: ", err)
         return err
     }
 
