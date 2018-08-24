@@ -9,3 +9,5 @@ DELETE FROM illustrations;
 DELETE FROM licenses;
 DELETE FROM authors;
 DELETE FROM grammar;
+DELETE FROM collection;
+DELETE FROM document;

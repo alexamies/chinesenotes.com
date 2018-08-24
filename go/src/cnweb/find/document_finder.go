@@ -747,7 +747,7 @@ func initStatements() error {
 
 	ctx := context.Background()
 	findColStmt, err = database.PrepareContext(ctx,
-		"SELECT title, gloss_file FROM collection WHERE title LIKE ? LIMIT 100")
+		"SELECT title, gloss_file FROM collection WHERE title LIKE ? LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing collection stmt: ",
         	err)
@@ -765,7 +765,7 @@ func initStatements() error {
 	findDocStmt, err = database.PrepareContext(ctx,
 		"SELECT title, gloss_file, col_gloss_file, col_title " +
 		"FROM document " +
-		"WHERE col_plus_doc_title LIKE ? LIMIT 100")
+		"WHERE col_plus_doc_title LIKE ? LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing dstmt: ", err)
         return err
@@ -777,7 +777,7 @@ func initStatements() error {
 		"FROM document " +
 		"WHERE col_plus_doc_title LIKE ? " +
 		"AND col_gloss_file = ? " +
-		"LIMIT 100")
+		"LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing dstmt: ", err)
         return err
@@ -797,7 +797,7 @@ func initStatements() error {
 		"FROM  word_freq_doc " +
 		"WHERE word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBitVector1Stmt: ",
         	err)
@@ -810,7 +810,7 @@ func initStatements() error {
 		"FROM  word_freq_doc " +
 		"WHERE word = ? OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBitVector2Stmt: ",
         	err)
@@ -823,7 +823,7 @@ func initStatements() error {
 		"FROM  word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBitVector3Stmt: ",
         	err)
@@ -836,7 +836,7 @@ func initStatements() error {
 		"FROM  word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBitVector4Stmt: ",
         	err)
@@ -849,7 +849,7 @@ func initStatements() error {
 		"FROM  word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? OR word = ?  OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBitVector5Stmt: ",
         	err)
@@ -864,7 +864,7 @@ func initStatements() error {
 		"  word = ? OR word = ? OR word = ? OR word = ? OR word = ? " +
 		"  OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBitVector6Stmt: ",
         	err)
@@ -879,7 +879,7 @@ func initStatements() error {
 		" word = ? " +
 		" AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBitVecCol1Stmt: ",
         	err)
@@ -894,7 +894,7 @@ func initStatements() error {
 		" (word = ? OR word = ?) " +
 		" AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBitVecCol2Stmt: ",
         	err)
@@ -909,7 +909,7 @@ func initStatements() error {
 		" (word = ? OR word = ? OR word = ?) " +
 		" AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBitVecCol3Stmt: ",
         	err)
@@ -924,7 +924,7 @@ func initStatements() error {
 		" (word = ? OR word = ? OR word = ? OR word = ?) " +
 		" AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBitVecCol4Stmt: ",
         	err)
@@ -939,7 +939,7 @@ func initStatements() error {
 		" (word = ? OR word = ? OR word = ? OR word = ? OR word = ?) " +
 		" AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBitVecCol5Stmt: ",
         	err)
@@ -955,7 +955,7 @@ func initStatements() error {
 		" OR word = ? )" +
 		" AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBitVecCol6Stmt: ",
         	err)
@@ -969,7 +969,7 @@ func initStatements() error {
 		"FROM word_freq_doc " +
 		"WHERE word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBM251Stmt: ", err)
         return err
@@ -981,7 +981,7 @@ func initStatements() error {
 		"FROM word_freq_doc " +
 		"WHERE word = ? OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBM252Stmt: ", err)
         return err
@@ -992,7 +992,7 @@ func initStatements() error {
 		"collection, document FROM word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBM253Stmt: ", err)
         return err
@@ -1003,7 +1003,7 @@ func initStatements() error {
 		"collection, document FROM word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBM254Stmt: ", err)
         return err
@@ -1015,7 +1015,7 @@ func initStatements() error {
 		"collection, document FROM word_freq_doc " +
 		"WHERE word = ? OR word = ? OR word = ? OR word = ? OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBM255Stmt: ", err)
         return err
@@ -1027,7 +1027,7 @@ func initStatements() error {
 		"WHERE word = ? OR word = ? OR word = ? OR word = ? OR word = ? " +
 		"OR word = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBM256Stmt: ", err)
         return err
@@ -1042,7 +1042,7 @@ func initStatements() error {
 		"WHERE " +
 		" (word = ?) AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBM25Col1Stmt: ", err)
         return err
@@ -1054,7 +1054,7 @@ func initStatements() error {
 		"WHERE (word = ? OR word = ?) " +
 		"AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBM252Stmt: ", err)
         return err
@@ -1066,7 +1066,7 @@ func initStatements() error {
 		"WHERE (word = ? OR word = ? OR word = ?) " +
 		"AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBM253Stmt: ", err)
         return err
@@ -1078,7 +1078,7 @@ func initStatements() error {
 		"WHERE (word = ? OR word = ? OR word = ? OR word = ?) " +
 		"AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBM254Stmt: ", err)
         return err
@@ -1090,7 +1090,7 @@ func initStatements() error {
 		"WHERE (word = ? OR word = ? OR word = ? OR word = ? OR word = ?) " +
 		"AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBM255Stmt: ", err)
         return err
@@ -1103,7 +1103,7 @@ func initStatements() error {
 		"OR word = ?) " +
 		"AND collection = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBM256Stmt: ", err)
         return err
@@ -1116,7 +1116,7 @@ func initStatements() error {
 		"FROM bigram_freq_doc " +
 		"WHERE bigram = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBigram1Stmt: ",
         	err)
@@ -1128,7 +1128,7 @@ func initStatements() error {
 		"collection, document " +
 		"FROM bigram_freq_doc " +
 		"WHERE bigram = ? OR bigram = ? GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBM252Stmt: ", err)
         return err
@@ -1140,7 +1140,7 @@ func initStatements() error {
 		"FROM bigram_freq_doc " +
 		"WHERE bigram = ? OR bigram = ? OR bigram = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBigram3Stmt: ",
         	err)
@@ -1153,7 +1153,7 @@ func initStatements() error {
 		"FROM bigram_freq_doc " +
 		"WHERE bigram = ? OR bigram = ? OR bigram = ? OR bigram = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBigram4Stmt: ",
         	err)
@@ -1167,7 +1167,7 @@ func initStatements() error {
 		"WHERE bigram = ? OR bigram = ? OR bigram = ? OR bigram = ? " +
 		"OR bigram = ? " +
 		"GROUP BY collection, document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBigram5Stmt: ",
         	err)
@@ -1183,7 +1183,7 @@ func initStatements() error {
 		"WHERE bigram = ? " +
 		"AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBgCol1Stmt: ",
         	err)
@@ -1197,7 +1197,7 @@ func initStatements() error {
 		"WHERE (bigram = ? OR bigram = ?) " +
 		"AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBgCol2Stmt: ", err)
         return err
@@ -1210,7 +1210,7 @@ func initStatements() error {
 		"WHERE bigram = ? OR bigram = ? OR bigram = ? " +
 		"AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBgCol3Stmt: ",
         	err)
@@ -1224,7 +1224,7 @@ func initStatements() error {
 		"WHERE (bigram = ? OR bigram = ? OR bigram = ? OR bigram = ?) " +
 		"AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBgCol4Stmt: ",
         	err)
@@ -1239,7 +1239,7 @@ func initStatements() error {
 		"OR bigram = ?) " +
 		"AND collection = ? " +
 		"GROUP BY document " +
-		"ORDER BY similarity DESC LIMIT 100")
+		"ORDER BY similarity DESC LIMIT 200")
     if err != nil {
         applog.Error("find.initStatements() Error preparing simBgCol5Stmt: ",
         	err)
@@ -1249,7 +1249,7 @@ func initStatements() error {
     // Find the titles of all documents
 	findAllTitlesStmt, err = database.PrepareContext(ctx, 
 		"SELECT gloss_file, title, col_gloss_file, col_title " +
-		"FROM document LIMIT 1000000")
+		"FROM document LIMIT 2000000")
     if err != nil {
         applog.Error("find.initStatements() Error preparing findAllTitlesStmt: ",
         	err)
@@ -1258,7 +1258,7 @@ func initStatements() error {
 
     // Find the titles of all documents
 	findAllColTitlesStmt, err = database.PrepareContext(ctx, 
-		"SELECT gloss_file, title FROM collection LIMIT 100000")
+		"SELECT gloss_file, title FROM collection LIMIT 200000")
     if err != nil {
         applog.Error("find.initStatements() Error preparing findAllColTitlesStmt: ",
         	err)
