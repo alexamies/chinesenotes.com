@@ -81,23 +81,25 @@ func TestFindDocuments3(t *testing.T) {
 	}
 }
 
+func testFindBodyBM25(terms []string, t *testing.T) {
+	docs, err := findBodyBM25(terms)
+	if err != nil {
+		t.Errorf("testFindBodyBM25: %s got an error, %v\n", terms, err)
+	}
+	fmt.Printf("testFindBodyBM25, len(docs) = %d\n", len(docs))
+	if len(docs) > 0 {
+		fmt.Printf("testFindBodyBM25, docs[0] = %v\n", docs[0])
+	}
+}
+
 func TestFindBodyBM251(t *testing.T) {
 	terms := []string{"后妃"}
-	docSimilarity, err := findBodyBM25(terms)
-	if err != nil {
-		t.Error("TestfindBodyBM251: got an error, ", err)
-	}
-	fmt.Printf("TestfindBodyBM251, len(docSimilarity) = %d",
-		len(docSimilarity))
+	testFindBodyBM25(terms, t)
 }
 
 func TestFindBodyBM252(t *testing.T) {
 	terms := []string{"后妃", "之"}
-	docSimilarity, err := findBodyBM25(terms)
-	if err != nil {
-		t.Error("TestfindBodyBM251: got error, ", err)
-	}
-	fmt.Printf("TestfindBodyBM252, len(docSimilarity) = %d", len(docSimilarity))
+	testFindBodyBM25(terms, t)
 }
 
 func TestFindBodyBM253(t *testing.T) {
@@ -351,6 +353,97 @@ func TestMergeDocList2(t *testing.T) {
 	}
 }
 
+func TestSetContainsTerms1(t *testing.T) {
+	terms := []string{"后妃"}
+	doc := Document{
+		ContainsWords: "后妃",
+	}
+	doc = setContainsTerms(doc, terms)
+	expected0 := "后妃"
+	result := doc.ContainsTerms
+	if (len(result) != 1) {
+		t.Errorf("TestSetContainsTerms1: expected len = 1, got, %d\n",
+			len(result))
+		return
+	}
+	if result[0] != expected0 {
+		t.Errorf("TestSetContainsTerms1: expected %s, got, %v\n", expected0,
+			result)
+	}
+}
+
+func TestSetContainsTerms2(t *testing.T) {
+	terms := []string{"后妃", "之"}
+	doc := Document{
+		ContainsWords: "之,后妃",
+	}
+	doc = setContainsTerms(doc, terms)
+	expected0 := "后妃"
+	expected1 := "之"
+	result := doc.ContainsTerms
+	if (len(result) != 2) {
+		t.Errorf("TestSetContainsTerms2: expected len = 2, got, %d\n",
+			len(result))
+		return
+	}
+	if result[0] != expected0 {
+		t.Errorf("TestSetContainsTerms2: expected0 %s, got, %s\n", expected0,
+			result[0])
+	}
+	if result[1] != expected1 {
+		t.Errorf("TestSetContainsTerms2: expected1 %s, got, %s\n", expected1,
+			result[1])
+	}
+	fmt.Println("TestSetContainsTerms2: ", result)
+}
+
+func TestSetContainsTerms3(t *testing.T) {
+	terms := []string{"后妃", "之"}
+	doc := Document{
+		ContainsWords: "之,后妃",
+		ContainsBigrams: "后妃之",
+	}
+	doc = setContainsTerms(doc, terms)
+	expected0 := "后妃之"
+	result := doc.ContainsTerms
+	if (len(result) != 1) {
+		t.Errorf("TestSetContainsTerms3: expected len = 1, got, %d\n",
+			len(result))
+		return
+	}
+	if result[0] != expected0 {
+		t.Errorf("TestSetContainsTerms3: expected0 %s, got, %s\n", expected0,
+			result[0])
+	}
+	fmt.Println("TestSetContainsTerms3: ", result)
+}
+
+func TestSetContainsTerms4(t *testing.T) {
+	terms := []string{"十年", "之", "計"}
+	doc := Document{
+		ContainsWords: "十年,之,計",
+		ContainsBigrams: "十年之,之計",
+	}
+	doc = setContainsTerms(doc, terms)
+	expected0 := "十年之"
+	expected1 := "之計"
+	result := doc.ContainsTerms
+	if (len(result) != 2) {
+		t.Errorf("TestSetContainsTerms4: expected len = 2, got, %d\n",
+			len(result))
+		return
+	}
+	if result[0] != expected0 {
+		t.Errorf("TestSetContainsTerms4: expected0 %s, got, %s\n", expected0,
+			result[0])
+	}
+	if result[1] != expected1 {
+		t.Errorf("TestSetContainsTerms4: expected0 %s, got, %s\n", expected1,
+			result[1])
+	}
+	fmt.Println("TestSetContainsTerms4: ", result)
+}
+
 func TestToRelevantDocList(t *testing.T) {
 	similarDocMap := map[string]Document{}
 	doc1 := Document{
@@ -372,7 +465,8 @@ func TestToRelevantDocList(t *testing.T) {
 	}
 	similarDocMap[doc3.GlossFile] = doc3
 	docs := toSortedDocList(similarDocMap)
-	docs = toRelevantDocList(docs)
+	queryTerms := []string{}
+	docs = toRelevantDocList(docs, queryTerms)
 	expected := 2
 	result := len(docs)
 	if result == expected {

@@ -108,3 +108,11 @@ func (parser DictQueryParser) parse_chinese(text string) []TextSegment {
 	}
 	return terms
 }
+
+func toQueryTerms(terms []TextSegment) []string {
+	queryTerms := []string{}
+	for _, term := range terms {
+		queryTerms = append(queryTerms, term.QueryText)
+	}
+	return queryTerms
+}
