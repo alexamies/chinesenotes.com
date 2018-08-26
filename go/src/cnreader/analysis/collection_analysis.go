@@ -23,6 +23,7 @@ type CollectionAResults struct {
 	BigramDocMap		index.TermFreqDocMap
 	DocFreq				index.DocumentFrequency
 	BigramDF			index.DocumentFrequency
+	DocLengthArray		[]index.DocLength
 }
 
 // Add more results to this set of results
@@ -49,6 +50,9 @@ func (results *CollectionAResults) AddResults(more CollectionAResults) {
 
 	for k, v := range more.UnknownChars {
 		results.UnknownChars[k] += v
+	}
+	for _, dl := range more.DocLengthArray {
+		results.DocLengthArray = append(results.DocLengthArray, dl)
 	}
 }
 
@@ -116,5 +120,10 @@ func NewCollectionAResults() CollectionAResults {
 		BigramDocMap:		index.TermFreqDocMap{},
 		DocFreq:			index.NewDocumentFrequency(),
 		BigramDF:			index.NewDocumentFrequency(),
+		DocLengthArray:		[]index.DocLength{},
 	}
+}
+
+func setDocLength(wfDocMap index.TermFreqDocMap, wc int) {
+
 }

@@ -20,7 +20,7 @@ const BF_DOC_FILE = "bigram_freq_doc.txt"
 // Remembers the word frequency for each term for each document in the corpus
 type TermFreqDocRecord struct {
 	Word string
-	Freq int
+	Freq, DocLength int
 	CollectionFile string
 	GlossFile string
 }
@@ -29,10 +29,16 @@ type TermFreqDocRecord struct {
 type TermFreqDocMap map[string]TermFreqDocRecord
 
 // Ads a map of word frequencies for a given document to the map
-func (wfDocMap TermFreqDocMap) AddWF(vocab map[string]int, corpusFile, glossFile string) {
+func (wfDocMap TermFreqDocMap) AddWF(vocab map[string]int, corpusFile,
+		glossFile string, wc int) {
 	//log.Printf("index.AddWF: enter %d, %d", len(wfDocMap), len(vocab))
 	for word, count := range vocab {
-		record := TermFreqDocRecord{word, count, corpusFile, glossFile}
+		record := TermFreqDocRecord{
+			Word:			word, 
+			Freq:			count, 
+			DocLength:		wc,
+			CollectionFile:	corpusFile, 
+			GlossFile:		glossFile}
 		wfDocMap.Put(record)
 	}
 	//log.Printf("index.AddWF: exit %d", len(wfDocMap))
@@ -72,6 +78,7 @@ func (termFreqDocMap TermFreqDocMap) WriteToFile(df DocumentFrequency,
 	}
 	defer wfFile.Close()
 	wfWriter := bufio.NewWriter(wfFile)
+	i := 0
 	for _, record := range termFreqDocMap {
 		idf, ok := df.IDF(record.Word)
 		if !ok {
@@ -79,8 +86,13 @@ func (termFreqDocMap TermFreqDocMap) WriteToFile(df DocumentFrequency,
 				"for %s\n", fileName, record.Word)
 			idf = 0.0
 		}
-		fmt.Fprintf(wfWriter, "%s\t%d\t%s\t%s\t%.4f\n", record.Word, record.Freq,
-			record.CollectionFile, record.GlossFile, idf)
+		if i < 3 {
+			log.Printf("WriteToFile, %s: document length %d\n", fileName,
+				record.DocLength)
+		}
+		i++
+		fmt.Fprintf(wfWriter, "%s\t%d\t%s\t%s\t%.4f\t%d\n", record.Word, record.Freq,
+			record.CollectionFile, record.GlossFile, idf, record.DocLength)
 	}
 	wfWriter.Flush()
 }

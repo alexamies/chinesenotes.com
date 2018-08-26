@@ -324,6 +324,8 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	}
 	//log.Printf("analysis.ParseText: %s found character count %d, vocab %d\n",
 	//	document.RawFile, cc, len(vocab))
+	dl := index.DocLength{document.GlossFile, wc}
+	dlArray := []index.DocLength{dl}
 	results = CollectionAResults{
 		Vocab:				vocab,
 		Bigrams:			bigrams,
@@ -333,6 +335,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 		WC:					wc,
 		CCount:				cc,
 		UnknownChars:		unknownChars,
+		DocLengthArray:		dlArray,
 	}
 	return tokens, results
 }
@@ -628,9 +631,9 @@ func writeCollection(collectionEntry corpus.CollectionEntry, baseDir string,
 		aResults.DocFreq.AddVocabulary(results.Vocab)
 		aResults.BigramDF.AddVocabulary(results.Bigrams)
 		aResults.WFDocMap.AddWF(results.Vocab, collectionEntry.GlossFile,
-			entry.GlossFile)
+			entry.GlossFile, results.WC)
 		aResults.BigramDocMap.AddWF(results.Bigrams, collectionEntry.GlossFile,
-			entry.GlossFile)
+			entry.GlossFile, results.WC)
 	}
 	aFile := writeAnalysis(aResults, collectionEntry.CollectionFile,
 		collectionEntry.GlossFile, collectionEntry.Title, "")
@@ -664,6 +667,7 @@ func WriteCorpus(collections []corpus.CollectionEntry, baseDir string,
 	bigramDF.WriteToFile(index.BIGRAM_DOC_FREQ_FILE)
 	wfDocMap.WriteToFile(docFreq, index.WF_DOC_FILE)
 	bigramDocMap.WriteToFile(bigramDF, index.BF_DOC_FILE)
+	index.WriteDocLengthToFile(aResults.DocLengthArray, index.DOC_LENGTH_FILE)
 	index.BuildIndex()
 	log.Printf("analysis.WriteCorpus: exit")
 }
