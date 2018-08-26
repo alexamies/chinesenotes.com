@@ -48,6 +48,7 @@ type Document struct {
 	ContainsBigrams string
 	SimTitle, SimWords, SimBigram, SimBitVector, Similarity float64
 	ContainsTerms []string
+	ExactMatch bool
 }
 
 type QueryResults struct {
@@ -82,10 +83,11 @@ func init() {
 // For printing out retrieved document metadata
 func (doc Document) String() string {
     return fmt.Sprintf("%s, %s, SimTitle %f, SimWords %f, SimBigram %f, " +
-    	"SimBitVector %f, Similarity %f, ContainsWords %s, ContainsBigrams %s", 
+    	"SimBitVector %f, Similarity %f, ContainsWords %s, ContainsBigrams %s" +
+    	", ExactMatch %v", 
     	doc.GlossFile, doc.CollectionFile, doc.SimTitle, doc.SimWords,
     	doc.SimBigram, doc.SimBitVector, doc.Similarity, doc.ContainsWords,
-    	doc.ContainsBigrams)
+    	doc.ContainsBigrams, doc.ExactMatch)
  }
 
 // Cache the details of all collecitons by target file name
@@ -144,6 +146,10 @@ func combineByWeight(doc Document) Document {
 		SimBigram: doc.SimBigram,
 		SimBitVector: doc.SimBitVector,
 		Similarity: similarity,
+		ContainsWords: doc.ContainsWords,
+		ContainsBigrams: doc.ContainsBigrams,
+		ContainsTerms: doc.ContainsTerms,
+		ExactMatch: doc.ExactMatch,
 	}
 	return simDoc
 }
@@ -1096,7 +1102,7 @@ func setContainsTerms(doc Document, terms []string) Document {
 		if (i > 0) && strings.Contains(doc.ContainsBigrams, bigram) {
 			j := len(containsTems)
 			if (j > 0) && strings.Contains(bigram, containsTems[j - 1]) {
-				containsTems[i-1] = bigram
+				containsTems[j-1] = bigram
 			} else {
 				containsTems = append(containsTems, bigram)
 			}
@@ -1104,7 +1110,14 @@ func setContainsTerms(doc Document, terms []string) Document {
 			containsTems = append(containsTems, term)
 		}
 	}
+
 	doc.ContainsTerms = containsTems
+	if (len(terms) == 1) && (len(containsTems) == 1) {
+		doc.ExactMatch = true
+	} else if (len(terms) == 2) && (len(containsTems) == 1) {
+		doc.ExactMatch = true
+	}
+
 	return doc
 }
 
