@@ -59,6 +59,7 @@ CREATE TABLE word_freq_doc (
   collection VARCHAR(256) NOT NULL,
   document VARCHAR(256) NOT NULL,
   idf FLOAT NOT NULL,
+  doc_len INT UNSIGNED NOT NULL,
   PRIMARY KEY (`word`, `document`)
   )
   CHARACTER SET UTF8
@@ -79,6 +80,7 @@ CREATE TABLE bigram_freq_doc (
   collection VARCHAR(256) NOT NULL,
   document VARCHAR(256) NOT NULL,
   idf FLOAT NOT NULL,
+  doc_len INT UNSIGNED NOT NULL,
   PRIMARY KEY (`bigram`, `document`)
   )
   CHARACTER SET UTF8

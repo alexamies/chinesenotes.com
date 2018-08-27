@@ -68,6 +68,17 @@ func GetFromEmail() string {
 	return fromEmail
 }
 
+func GetEnvIntValue(key string, defValue int) int {
+    if val, ok := os.LookupEnv(key); ok {
+    	value, err := strconv.Atoi(val)
+		if err != nil {
+			return defValue
+		}
+        return value
+    }
+    return defValue
+}
+
 // Get the domain name of the site
 func GetPasswordResetURL() string {
 	passwordResetURL := os.Getenv("PASSWORD_RESET_URL")

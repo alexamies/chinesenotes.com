@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: cnweb-app
-        image: gcr.io/hbreader-162018/cn-app-image:r38
+        image: gcr.io/hbreader-162018/cn-app-image:r77
         resources:
           limits:
             cpu: "200m"
@@ -35,6 +35,8 @@ spec:
               secretKeyRef:
                 name: cloudsql-db-credentials
                 key: password
+          - name: AVG_DOC_LEN
+            value: "4497"
         ports:
         - containerPort: 8080
           protocol: TCP
