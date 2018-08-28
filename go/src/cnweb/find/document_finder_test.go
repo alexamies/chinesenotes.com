@@ -358,7 +358,7 @@ func TestSetContainsTerms1(t *testing.T) {
 	doc := Document{
 		ContainsWords: "后妃",
 	}
-	doc = setContainsTerms(doc, terms)
+	doc = setMatchDetails(doc, terms)
 	expected0 := "后妃"
 	result := doc.ContainsTerms
 	if (len(result) != 1) {
@@ -377,7 +377,7 @@ func TestSetContainsTerms2(t *testing.T) {
 	doc := Document{
 		ContainsWords: "之,后妃",
 	}
-	doc = setContainsTerms(doc, terms)
+	doc = setMatchDetails(doc, terms)
 	expected0 := "后妃"
 	expected1 := "之"
 	result := doc.ContainsTerms
@@ -403,7 +403,7 @@ func TestSetContainsTerms3(t *testing.T) {
 		ContainsWords: "之,后妃",
 		ContainsBigrams: "后妃之",
 	}
-	doc = setContainsTerms(doc, terms)
+	doc = setMatchDetails(doc, terms)
 	expected0 := "后妃之"
 	result := doc.ContainsTerms
 	if (len(result) != 1) {
@@ -424,7 +424,7 @@ func TestSetContainsTerms4(t *testing.T) {
 		ContainsWords: "十年,之,計",
 		ContainsBigrams: "十年之,之計",
 	}
-	doc = setContainsTerms(doc, terms)
+	doc = setMatchDetails(doc, terms)
 	expected0 := "十年之"
 	expected1 := "之計"
 	result := doc.ContainsTerms

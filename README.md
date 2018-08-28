@@ -331,6 +331,32 @@ echo "sendgrid.env" >> .gitignore
 source ./sendgrid.env
 go get github.com/sendgrid/sendgrid-go
 
+### Text Files for Full Text Search
+Copy the text files to an object store. If you prefer not to use GCS, then you
+can use the local file system on the application server. The instructions here
+are for GCS. See [Authenticating to Cloud Platform with Service
+Accounts](https://cloud.google.com/kubernetes-engine/docs/tutorials/authenticating-to-cloud-platform)
+for detailed instructions on authentication.
+
+```
+TEXT_BUCKET={your txt bucket}
+# First time
+gsutil mb gs://$TEXT_BUCKET
+gsutil -m rsync -d -r corpus gs://$TEXT_BUCKET
+```
+
+To enable the web application to access the storage system, create a service
+account with a GCS Storage Object Admin role and download the JSOn credentials
+file, as described in [Create service account
+credentials](https://cloud.google.com/kubernetes-engine/docs/tutorials/authenticating-to-cloud-platform).
+Assuming that you saved the file in the current working directory as 
+credentials.json, create a local environment variable for local testing
+```
+export GOOGLE_APPLICATION_CREDENTIALS=$PWD/credentials.json
+```
+
+go get -u cloud.google.com/go/storage
+
 #### Make and Save Go Application Image
 The Go app is not needed for chinesenotes.com at the moment but it is use for
 other sites (eg. hbreader.org).
@@ -343,16 +369,18 @@ docker build -f docker/go/Dockerfile -t cn-app-image .
 
 Run it locally
 ```
-export DBHOST=mariadb
-export DBUSER=app_user
-export DBPASSWORD="***"
-export DATABASE=cse_dict
+DBUSER=app_user
+DBPASSWORD="***"
+DATABASE=cse_dict
 docker run -itd --rm -p 8080:8080 --name cn-app --link mariadb \
-  -e DBHOST=$DBHOST \
+  -e DBHOST=mariadb \
   -e DBUSER=$DBUSER \
   -e DBPASSWORD=$DBPASSWORD \
   -e DATABASE=$DATABASE \
   -e SENDGRID_API_KEY="$SENDGRID_API_KEY" \
+  -e GOOGLE_APPLICATION_CREDENTIALS=/cnotes/credentials.json \
+  -e TEXT_BUCKET="$TEXT_BUCKET" \
+  --mount type=bind,source="$(pwd)",target=/cnotes \
   cn-app-image
 ```
 
@@ -400,7 +428,11 @@ To attach to a local image for debugging, if needed:
 ```
 docker exec -it cn-web bash
 ```
+Set the load balancer up after creating the Kubernetes cluster
 
+## Deploying to Production
+
+### Store HTML Files in Cloud Storage Bucket
 This is not stored to a container, rather the web files are uploaded to
 Google Cloud Storage. These command will run faster if executed from a build
 server in the cloud
@@ -413,9 +445,6 @@ bin/push.sh
 gsutil web set -m index.html -e 404.html gs://$BUCKET
 ```
 
-Set the load balancer up after creating the Kubernetes cluster
-
-## Deploying to Production
 ### Set up a Cloud SQL Database
 New: Replacing management of the Mariadb database in a Kubernetes cluster
 Follow instructions in 
@@ -603,6 +632,19 @@ gcloud compute forwarding-rules list
 gcloud compute url-maps list
 gcloud compute url-maps describe $URL_MAP
 ```
+
+### Service Account Access to Text Files for Full Text Search
+Save the credentials.json file created above to a Kubernetes secret with the
+command
+
+```
+kubectl create secret generic cnotes-app-key \
+  --from-file=key.json=credentials.json
+```
+
+This should match the ```GOOGLE_APPLICATION_CREDENTIALS``` environment variable
+and also the ```volumes``` and ```volumeMounts``` entries in the 
+app-deployment.yaml file.
 
 ### Troubleshooting
 SSH to another VM and try sending a HTTP request via curl to the internal IP

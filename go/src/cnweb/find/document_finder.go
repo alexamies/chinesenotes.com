@@ -13,6 +13,8 @@ import (
 	"sort"
 	"strings"
 	"time"
+
+	"cnweb/fulltext"
 	"cnweb/webconfig"
 )
 
@@ -50,7 +52,7 @@ type Document struct {
 	ContainsBigrams string
 	SimTitle, SimWords, SimBigram, SimBitVector, Similarity float64
 	ContainsTerms []string
-	ExactMatch bool
+	MatchDetails fulltext.MatchingText
 }
 
 type QueryResults struct {
@@ -88,10 +90,10 @@ func init() {
 func (doc Document) String() string {
     return fmt.Sprintf("%s, %s, SimTitle %f, SimWords %f, SimBigram %f, " +
     	"SimBitVector %f, Similarity %f, ContainsWords %s, ContainsBigrams %s" +
-    	", ExactMatch %v", 
+    	", MatchDetails %v", 
     	doc.GlossFile, doc.CollectionFile, doc.SimTitle, doc.SimWords,
     	doc.SimBigram, doc.SimBitVector, doc.Similarity, doc.ContainsWords,
-    	doc.ContainsBigrams, doc.ExactMatch)
+    	doc.ContainsBigrams, doc.MatchDetails)
  }
 
 // Cache the details of all collecitons by target file name
@@ -153,7 +155,7 @@ func combineByWeight(doc Document) Document {
 		ContainsWords: doc.ContainsWords,
 		ContainsBigrams: doc.ContainsBigrams,
 		ContainsTerms: doc.ContainsTerms,
-		ExactMatch: doc.ExactMatch,
+		MatchDetails: doc.MatchDetails,
 	}
 	return simDoc
 }
@@ -462,7 +464,8 @@ func findDocuments(query string, terms []TextSegment,
 		sortedDocs := toSortedDocList(docMap)
 		applog.Info("findDocuments, < 2 len(sortedDocs): ", query, 
 			len(sortedDocs))
-		return sortedDocs, nil
+		relevantDocs := toRelevantDocList(sortedDocs, queryTerms)
+		return relevantDocs, nil
 	}
 	moreDocs, err := findBodyBigram(queryTerms)
 	if err != nil {
@@ -1128,7 +1131,7 @@ func mergeDocList(simDocMap map[string]Document, docList []Document) {
 // doc.ContainsBigrams is a contained list of bigrams found in the query and doc
 // doc.ContainsTerms is a list of terms found both in the query and the doc
 // sorted in the same order as the query terms with words merged to bigrams
-func setContainsTerms(doc Document, terms []string) Document {
+func setMatchDetails(doc Document, terms []string) Document {
 	fmt.Println("sortContainsWords: ", terms)
 	containsTems := []string{}
 	for i, term := range terms {
@@ -1148,20 +1151,14 @@ func setContainsTerms(doc Document, terms []string) Document {
 			containsTems = append(containsTems, term)
 		}
 	}
-
 	doc.ContainsTerms = containsTems
-	if (len(terms) == 1) && (len(containsTems) == 1) {
-		doc.ExactMatch = true
-	} else if (len(terms) == 2) && (len(containsTems) == 1) {
-		doc.ExactMatch = true
-	}
-
+	doc.MatchDetails = fulltext.GetMatch(doc.GlossFile, terms)
 	return doc
 }
 
 // Filter documents that are not similar
 func toRelevantDocList(docs []Document, terms []string) []Document {
-	if len(docs) < 2 {
+	if len(docs) < 1 {
 		return docs
 	}
 	max := docs[0].Similarity
@@ -1171,13 +1168,13 @@ func toRelevantDocList(docs []Document, terms []string) []Document {
 		// If doc is less than min scaled similarity then we are done
 		applog.Info("toRelevantDocList, check: ", scaledSimilarity, 
 			MIN_SIMILARITY)
-		doc = setContainsTerms(doc, terms)
+		doc = setMatchDetails(doc, terms)
 		if scaledSimilarity < MIN_SIMILARITY {
 			return relDocs
 		}
 		relDocs = append(relDocs, doc)
 	}
-	return docs
+	return relDocs
 }
 
 // Convert list to a map of similar docs with similarity set to 1.0

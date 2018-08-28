@@ -25,7 +25,8 @@ def get_collection(projectHome, collection_file):
       if len(tokens) < 3:
         print("Not enough tokens in collection entry %s" % entry)
         continue
-      document = {"gloss_file": tokens[1],
+      document = {"text_file": tokens[0],
+                  "gloss_file": tokens[1],
                   "title": tokens[2]
                   }
       documents.append(document)
@@ -70,10 +71,13 @@ def write_documents(projectHome):
           col_title = collection["title"]
       	  documents = get_collection(projectHome, collection["collection_file"])
       	  for document in documents:
+            text_file = document["text_file"]
       	    gloss_file = document["gloss_file"]
       	    title = document["title"]
       	    col_plus_doc_title = col_title + " | " + title
-            df.write("%s\t%s\t%s\t%s\t%s\n" % (gloss_file, title, col_gloss_file, col_title, col_plus_doc_title))
+            df.write("%s\t%s\t%s\t%s\t%s\t%s\n" % (text_file, gloss_file, title,
+                     col_gloss_file, col_title, col_plus_doc_title))
+  print("Document details written to %s\n" % documents_fname)
 
 
 def main():

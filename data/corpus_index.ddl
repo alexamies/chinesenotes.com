@@ -32,8 +32,15 @@ CREATE TABLE collection (
 
 /*
  * Table for document titles
+ * plain_text_file - file containing plain text of the document
+ * gloss_file - file containing HTML text of the document
+ * title - title of the document
+ * col_gloss_file - file containing HTML page for the containing collection
+ * col_title - title for the containing collection
+ * col_plus_doc_title - concatenated title
  */
 CREATE TABLE document (
+  plain_text_file VARCHAR(256) NOT NULL,
   gloss_file VARCHAR(256) NOT NULL,
   title mediumtext NOT NULL,
   col_gloss_file VARCHAR(256) NOT NULL,

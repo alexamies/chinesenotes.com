@@ -37,9 +37,14 @@ spec:
                 key: password
           - name: AVG_DOC_LEN
             value: "4497"
+          - name: GOOGLE_APPLICATION_CREDENTIALS
+            value: /var/secrets/google/key.json
         ports:
         - containerPort: 8080
           protocol: TCP
+        volumeMounts:
+        - name: google-cloud-key
+          mountPath: /var/secrets/google
       - name: cloudsql-proxy
         image: gcr.io/cloudsql-docker/gce-proxy:1.11
         command: ["/cloud_sql_proxy",
@@ -52,4 +57,7 @@ spec:
       volumes:
       - name: cloudsql-instance-credentials
         secret:
-          secretName: cloudsql-instance-credentials               
+          secretName: cloudsql-instance-credentials
+      - name: google-cloud-key
+        secret:
+          secretName: cnotes-app-key

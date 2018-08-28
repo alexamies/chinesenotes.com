@@ -155,6 +155,36 @@ MAX_TITLE_LEN = 80;
                 }
                 var br = document.createElement('br');
                 td.appendChild(br);
+
+                // Add snippet
+                if ("MatchDetails" in documents[i]) {
+                  md = documents[i].MatchDetails;
+                  if (md.Snippet) {
+                    var snippet = md.Snippet;
+                    var snippetSpan = document.createElement('span');
+                    var lm = md.LongestMatch;
+                    var starts = snippet.indexOf(lm);
+                    if (starts > -1) {
+                      snippetStart = snippet.substring(0, starts);
+                      var stn1 = document.createTextNode(snippetStart);
+                      snippetSpan.appendChild(stn1);
+                      highlightSpan = document.createElement('span');
+                      highlightSpan.classList.add("usage-highlight");
+                      var stn2 = document.createTextNode(lm);
+                      highlightSpan.appendChild(stn2);
+                      snippetSpan.appendChild(highlightSpan);
+                      ends = starts + lm.length;
+                      snippetEnd = snippet.substring(ends);
+                      var stn3 = document.createTextNode(snippetEnd);
+                      snippetSpan.appendChild(stn3);
+                      td.appendChild(snippetSpan);
+                      var br2 = document.createElement('br');
+                      td.appendChild(br2);
+                    }
+                  }
+                }
+
+                // Add explanation of relevance
                 var relevance = "";
                 if ("SimTitle" in documents[i]) {
                   if (parseFloat(documents[i].SimTitle) == 1.0) {
