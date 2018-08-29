@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: cnweb-app
-        image: gcr.io/hbreader-162018/cn-app-image:r77
+        image: gcr.io/hbreader-162018/cn-app-image:r78
         resources:
           limits:
             cpu: "200m"
@@ -37,6 +37,8 @@ spec:
                 key: password
           - name: AVG_DOC_LEN
             value: "4497"
+          - name: TEXT_BUCKET
+            value: "chinesenotes-text"
           - name: GOOGLE_APPLICATION_CREDENTIALS
             value: /var/secrets/google/key.json
         ports:

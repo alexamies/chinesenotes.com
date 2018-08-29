@@ -19,7 +19,7 @@ import (
 	"cnweb/webconfig"
 )
 const (
-	SNIPPET_LEN = 40
+	SNIPPET_LEN = 60
 )
 
 var (
@@ -136,14 +136,26 @@ func getMatch(txt string, queryTerms []string) MatchingText {
 	i := strings.Index(txt, query)
 	if i > -1 {
 		match = true
-		start := i - SNIPPET_LEN / 2
-		if start < 0 {
-			start = 0
+		s := i - SNIPPET_LEN / 2
+		if s < 0 {
+			s = 0
 		}
-		end := i + SNIPPET_LEN / 2
-		if end > (len(txt) - 1) {
-			end = len(txt) - 1
+		e := i + SNIPPET_LEN / 2
+		if e > (len(txt) - 1) {
+			e = len(txt) - 1
 		}
+		start := 0
+		end := e
+		// Make sure that snippet falls on a proper unicode boundary
+		for j, _ := range txt {
+			if (start == 0) && (j > s) {
+				start = j
+			}
+			if j > e {
+				end = j
+				break
+			}
+    	}
 		snippet = txt[start:end]
 	}
 	mt := MatchingText{
