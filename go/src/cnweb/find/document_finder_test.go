@@ -28,14 +28,15 @@ func TestCombineByWeight(t *testing.T) {
 		SimTitle: 1.0,
 		SimWords: 0.5,
 		SimBigram: 1.5,
+		SimBitVector: 1.0,
 	}
 	simDoc := combineByWeight(doc)
 	if simDoc.Similarity == 0.0 {
 		t.Error("TestCombineByWeight: simDoc.Similarity == 0.0")
 	}
 	fmt.Printf("TestCacheColDetails: simDoc %v\n", simDoc)
-	similarity := WEIGHT[0] * doc.SimTitle + WEIGHT[1] * doc.SimWords +
-		WEIGHT[2] * doc.SimBigram
+	similarity := INTERCEPT + WEIGHT[0] * doc.SimWords +
+		WEIGHT[1] * doc.SimBigram + WEIGHT[2] * doc.SimBitVector
 	expectedMin := 0.99 * similarity
 	expectedMax := 1.01 * similarity
 	if ((expectedMin > simDoc.Similarity) || 

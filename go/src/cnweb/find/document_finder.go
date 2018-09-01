@@ -20,8 +20,9 @@ import (
 
 const (
 	MAX_RETURNED = 50
-	MIN_SIMILARITY = 0.25
+	MIN_SIMILARITY = 0.07
 	AVG_DOC_LEN = 4497
+	INTERCEPT = -4.75 // From logistic regression
 )
 
 var (
@@ -39,7 +40,8 @@ var (
 	simBigram5Stmt *sql.Stmt
 	simBgCol1Stmt, simBgCol2Stmt, simBgCol3Stmt, simBgCol4Stmt *sql.Stmt
 	simBgCol5Stmt *sql.Stmt
-	WEIGHT = []float64{0.2, 0.2, 0.6} // title, word frequency, bigram freq
+	//  From logistic regression
+	WEIGHT = []float64{0.080, 2.327, 3.040} // [BM25 words, BM25 bigrams, bit vector]
     avdl int // The average document length
 )
 
@@ -140,8 +142,8 @@ func cacheDocDetails() map[string]Document {
 // Combine tHE similarity of title, word frequency, and bigrams into a single
 // weighted measure
 func combineByWeight(doc Document) Document {
-	similarity := WEIGHT[0] * doc.SimTitle + WEIGHT[1] * doc.SimWords +
-		WEIGHT[2] * doc.SimBigram
+	similarity := INTERCEPT + WEIGHT[0] * doc.SimWords +
+		WEIGHT[1] * doc.SimBigram + WEIGHT[2] * doc.SimBitVector
 	simDoc := Document{
 		GlossFile: doc.GlossFile,
 		Title: doc.Title,
@@ -703,7 +705,8 @@ func initStatements() error {
     // Document similarity with BM25 using 1-6 terms, k = 1.5, b = 0.65
 	simBM251Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" COUNT(frequency) AS bitvector, " +
 		" GROUP_CONCAT(word) AS contains_words, " +
 		" collection, document " +
@@ -718,7 +721,8 @@ func initStatements() error {
 
 	simBM252Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" COUNT(frequency) / 2.0 AS bitvector, " +
 		" GROUP_CONCAT(word) AS contains_words, " +
 		" collection, document " +
@@ -733,7 +737,8 @@ func initStatements() error {
 
 	simBM253Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" COUNT(frequency) / 3.0 AS bitvector, " +
 		" GROUP_CONCAT(word) AS contains_words, " +
 		" collection, document " +
@@ -748,7 +753,8 @@ func initStatements() error {
 
 	simBM254Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" COUNT(frequency) / 4.0 AS bitvector, " +
 		" GROUP_CONCAT(word) AS contains_words, " +
 		" collection, document " +
@@ -764,7 +770,8 @@ func initStatements() error {
 
 	simBM255Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" COUNT(frequency) / 5.0 AS bitvector, " +
 		" GROUP_CONCAT(word) AS contains_words, " +
 		" collection, document " +
@@ -779,7 +786,8 @@ func initStatements() error {
 
 	simBM256Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" COUNT(frequency) / 5.0 AS bitvector, " +
 		" GROUP_CONCAT(word) AS contains_words, " +
 		" collection, document " +
@@ -796,7 +804,8 @@ func initStatements() error {
     // Document similarity with BM25 using 2-6 terms, for a specific collection
 	simBM25Col1Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" SUM(2.5 * frequency * idf / (frequency + 1.5)) AS bm25, " +
 		" COUNT(frequency) / 1.0 AS bitvector, " +
 		" GROUP_CONCAT(word) AS contains_words, " +
@@ -813,7 +822,8 @@ func initStatements() error {
 
 	simBM25Col2Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" COUNT(frequency) / 2.0 AS bitvector, " +
 		" GROUP_CONCAT(word) AS contains_words, " +
 		" document " +
@@ -829,7 +839,8 @@ func initStatements() error {
 
 	simBM25Col3Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" COUNT(frequency) / 3.0 AS bitvector, " +
 		" GROUP_CONCAT(word) AS contains_words, " +
 		" document " +
@@ -845,7 +856,8 @@ func initStatements() error {
 
 	simBM25Col4Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" COUNT(frequency) / 4.0 AS bitvector, " +
 		" GROUP_CONCAT(word) AS contains_words, " +
 		" document " +
@@ -861,7 +873,8 @@ func initStatements() error {
 
 	simBM25Col5Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" COUNT(frequency) / 5.0 AS bitvector, " +
 		" GROUP_CONCAT(word) AS contains_words, " +
 		" document " +
@@ -877,7 +890,8 @@ func initStatements() error {
 
 	simBM25Col6Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" COUNT(frequency) / 5.0 AS bitvector, " +
 		" GROUP_CONCAT(word) AS contains_words, " +
 		" document " +
@@ -895,7 +909,8 @@ func initStatements() error {
     // Document similarity with Bigram using 1-6 bigrams, k = 1.5, b = 0
 	simBigram1Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" GROUP_CONCAT(bigram) AS contains_bigrams, " +
 		" collection, document " +
 		"FROM bigram_freq_doc " +
@@ -909,7 +924,8 @@ func initStatements() error {
 
 	simBigram2Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" GROUP_CONCAT(bigram) AS contains_bigrams, " +
 		" collection, document " +
 		"FROM bigram_freq_doc " +
@@ -922,7 +938,8 @@ func initStatements() error {
 
 	simBigram3Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" GROUP_CONCAT(bigram) AS contains_bigrams, " +
 		" collection, document " +
 		"FROM bigram_freq_doc " +
@@ -936,7 +953,8 @@ func initStatements() error {
 
 	simBigram4Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" GROUP_CONCAT(bigram) AS contains_bigrams, " +
 		" collection, document " +
 		"FROM bigram_freq_doc " +
@@ -950,7 +968,8 @@ func initStatements() error {
 
 	simBigram5Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" GROUP_CONCAT(bigram) AS contains_bigrams, " +
 		" collection, document " +
 		"FROM bigram_freq_doc " +
@@ -967,7 +986,8 @@ func initStatements() error {
     // collection
 	simBgCol1Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" GROUP_CONCAT(bigram) AS contains_bigrams, " +
 		" document " +
 		"FROM bigram_freq_doc " +
@@ -982,7 +1002,8 @@ func initStatements() error {
 
 	simBgCol2Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" GROUP_CONCAT(bigram) AS contains_bigrams, " +
 		" document " +
 		"FROM bigram_freq_doc " +
@@ -997,7 +1018,8 @@ func initStatements() error {
 
 	simBgCol3Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" GROUP_CONCAT(bigram) AS contains_bigrams, " +
 		" document " +
 		"FROM bigram_freq_doc " +
@@ -1012,7 +1034,8 @@ func initStatements() error {
 
 	simBgCol4Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" GROUP_CONCAT(bigram) AS contains_bigrams, " +
 		" document " +
 		"FROM bigram_freq_doc " +
@@ -1027,7 +1050,8 @@ func initStatements() error {
 
 	simBgCol5Stmt, err = database.PrepareContext(ctx, 
 		"SELECT " +
-		" SUM((1.5 + 1) * frequency * idf / (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
+		" SUM((1.5 + 1) * frequency * idf / " +
+		"  (frequency + 1.5 * (1 - 0.65 + 0.65 * (doc_len / ?)))) AS bm25, " +
 		" GROUP_CONCAT(bigram) AS contains_bigrams, " +
 		" document " +
 		"FROM bigram_freq_doc " +
