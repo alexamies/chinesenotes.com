@@ -1,8 +1,9 @@
-FROM golang:1.9-stretch
+FROM golang:1.11-stretch
 
 ADD /go/src/cnweb /go/src/cnweb
-RUN go get github.com/go-sql-driver/mysql
-RUN go get github.com/sendgrid/sendgrid-go
+RUN go get -u github.com/go-sql-driver/mysql
+RUN go get -u cloud.google.com/go/storage
+RUN go get -u github.com/sendgrid/sendgrid-go
 RUN go build cnweb
 RUN go install cnweb
 
