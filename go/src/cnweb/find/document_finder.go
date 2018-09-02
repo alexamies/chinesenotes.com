@@ -20,7 +20,7 @@ import (
 
 const (
 	MAX_RETURNED = 50
-	MIN_SIMILARITY = 0.07
+	MIN_SIMILARITY = -4.75
 	AVG_DOC_LEN = 4497
 	INTERCEPT = -4.75 // From logistic regression
 )
@@ -139,11 +139,17 @@ func cacheDocDetails() map[string]Document {
 	return docMap
 }
 
-// Combine tHE similarity of title, word frequency, and bigrams into a single
-// weighted measure
-func combineByWeight(doc Document) Document {
-	similarity := INTERCEPT + WEIGHT[0] * doc.SimWords +
-		WEIGHT[1] * doc.SimBigram + WEIGHT[2] * doc.SimBitVector
+// Compute the combined similarity based on logistic regression of document
+// relevance for BM25 for words, BM25 for bigrams, and bit vector dot product.
+// Raw BM25 values are scaled with 1.0 being the top value
+func combineByWeight(doc Document, maxSimWords, maxSimBigram float64) Document {
+	similarity := MIN_SIMILARITY
+	if maxSimWords != 0. && maxSimBigram != 0. {
+		similarity = INTERCEPT +
+			WEIGHT[0] * doc.SimWords / maxSimWords +
+			WEIGHT[1] * doc.SimBigram / maxSimBigram +
+			WEIGHT[2] * doc.SimBitVector
+	}
 	simDoc := Document{
 		GlossFile: doc.GlossFile,
 		Title: doc.Title,
@@ -1185,15 +1191,12 @@ func toRelevantDocList(docs []Document, terms []string) []Document {
 	if len(docs) < 1 {
 		return docs
 	}
-	max := docs[0].Similarity
 	relDocs := []Document{}
 	for _, doc  := range docs {
-		scaledSimilarity := doc.Similarity / max
-		// If doc is less than min scaled similarity then we are done
-		applog.Info("toRelevantDocList, check: ", scaledSimilarity, 
+		applog.Info("toRelevantDocList, check: ", doc.Similarity, 
 			MIN_SIMILARITY)
 		doc = setMatchDetails(doc, terms)
-		if scaledSimilarity < MIN_SIMILARITY {
+		if doc.Similarity < MIN_SIMILARITY {
 			return relDocs
 		}
 		relDocs = append(relDocs, doc)
@@ -1226,15 +1229,29 @@ func toSimilarDocMap(docs []Document) map[string]Document {
 // Convert a map of similar docs into a sorted list, and truncate
 func toSortedDocList(similarDocMap map[string]Document) []Document {
 	docs := []Document{}
+	if len(similarDocMap) < 1 {
+		return docs
+	}
 	for _, similarDoc  := range similarDocMap {
-		simDoc := combineByWeight(similarDoc)
-		docs = append(docs, simDoc)
+		docs = append(docs, similarDoc)
 	}
+	// First sort by BM25 bigrams
 	sort.Slice(docs, func(i, j int) bool {
-		return docs[i].Similarity > docs[j].Similarity
+		return docs[i].SimBigram > docs[j].SimBigram
 	})
-	if len(docs) > MAX_RETURNED {
-		return docs[:MAX_RETURNED]
+	maxSimWords := docs[0].SimWords
+	maxSimBigram := docs[0].SimBigram
+	simDocs := []Document{}
+	for _, doc  := range docs {
+		simDoc := combineByWeight(doc, maxSimWords, maxSimBigram)
+		simDocs = append(simDocs, simDoc)
 	}
-	return docs
+	// Sort again by combined similarity
+	sort.Slice(simDocs, func(i, j int) bool {
+		return simDocs[i].Similarity > simDocs[j].Similarity
+	})
+	if len(simDocs) > MAX_RETURNED {
+		return simDocs[:MAX_RETURNED]
+	}
+	return simDocs
 }

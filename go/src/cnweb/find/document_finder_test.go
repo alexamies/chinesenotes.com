@@ -30,13 +30,17 @@ func TestCombineByWeight(t *testing.T) {
 		SimBigram: 1.5,
 		SimBitVector: 1.0,
 	}
-	simDoc := combineByWeight(doc)
+	maxSimWords := doc.SimWords
+	maxBigram := doc.SimBigram
+	simDoc := combineByWeight(doc, maxSimWords, maxBigram)
 	if simDoc.Similarity == 0.0 {
 		t.Error("TestCombineByWeight: simDoc.Similarity == 0.0")
 	}
 	fmt.Printf("TestCacheColDetails: simDoc %v\n", simDoc)
-	similarity := INTERCEPT + WEIGHT[0] * doc.SimWords +
-		WEIGHT[1] * doc.SimBigram + WEIGHT[2] * doc.SimBitVector
+	similarity := INTERCEPT + 
+		WEIGHT[0] * doc.SimWords / maxSimWords +
+		WEIGHT[1] * doc.SimBigram / maxBigram +
+		WEIGHT[2] * doc.SimBitVector
 	expectedMin := 0.99 * similarity
 	expectedMax := 1.01 * similarity
 	if ((expectedMin > simDoc.Similarity) || 
@@ -303,10 +307,12 @@ func TestMergeDocList1(t *testing.T) {
 	mergeDocList(simDocMap, docList)
 	if len(simDocMap) != 2 {
 		t.Error("TestMergeDocList1: len(simDocMap) != 2, ", len(simDocMap))
+		return
 	}
 	docs := toSortedDocList(simDocMap)
 	if len(docs) != 2 {
 		t.Error("TestMergeDocList1: len(docs) != 2, ", len(docs))
+		return
 	}
 	expected := doc2.GlossFile
 	result := docs[0]
@@ -482,18 +488,21 @@ func TestToSortedDocList1(t *testing.T) {
 		GlossFile: "f1.html",
 		Title: "Good doc",
 		SimWords: 1.0,
+		SimBigram: 1.0,
 	}
 	similarDocMap[doc1.GlossFile] = doc1
 	doc2 := Document{
 		GlossFile: "f2.html",
 		Title: "Very Good doc",
 		SimWords: 1.5,
+		SimBigram: 1.5,
 	}
 	similarDocMap[doc2.GlossFile] = doc2
 	doc3 := Document{
 		GlossFile: "f3.html",
 		Title: "Reasonable doc",
 		SimWords: 0.5,
+		SimBigram: 0.5,
 	}
 	similarDocMap[doc3.GlossFile] = doc3
 	docs := toSortedDocList(similarDocMap)
@@ -511,8 +520,9 @@ func TestToSortedDocList2(t *testing.T) {
 	similarDocMap := map[string]Document{}
 	doc1 := Document{
 		GlossFile: "f1.html",
-		Title: "Good doc by title",
-		SimTitle: 1.0,
+		Title: "Good doc",
+		SimWords: 0.5,
+		SimBigram: 1.0,
 	}
 	similarDocMap[doc1.GlossFile] = doc1
 	doc2 := Document{
