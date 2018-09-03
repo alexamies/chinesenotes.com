@@ -5,28 +5,23 @@ package fulltext
 
 import (
 	"cnweb/applog"
-	"database/sql"
 	"context"
 	"io/ioutil"
 	"os"
 	"strings"
-	"time"
-
-	_ "github.com/go-sql-driver/mysql"
 
 	"cloud.google.com/go/storage"
-
-	"cnweb/webconfig"
 )
+
 const (
-	SNIPPET_LEN = 60
+	SNIPPET_LEN = 200
 )
 
-var (
-	database *sql.DB
-	docListStmt *sql.Stmt
-	docFileMap map[string]string
-)
+// Details of best matching text for the query terms
+type DocMatch struct{
+	PlainTextFile string
+	MT MatchingText
+}
 
 // Details of best matching text for the query terms
 type MatchingText struct{
@@ -45,43 +40,38 @@ type TextLoader interface {
 		queryTerms []string) (MatchingText, error)
 }
 
-// Cache the plain text file names
-func cacheDocFileMap() map[string]string {
-	docFileMap := map[string]string{}
-	ctx := context.Background()
-	results, err := docListStmt.QueryContext(ctx)
-	if err != nil {
-		applog.Error("cacheDocFileMap, Error for query: ", err)
-		return docFileMap
-	}
-	defer results.Close()
+// Implements the TextLoader interface, loads the text from a local file
+// mounted on the application server
+// Params:
+//   corpusDir - The top level directory for the plain text files
+type LocalTextLoader struct{corpusDir string}
 
-	for results.Next() {
-		plainTextFile := ""
-		glossFile := ""
-		results.Scan(&plainTextFile, &glossFile)
-		docFileMap[glossFile] = plainTextFile
+// Gets the matching text from a local file and find the best match
+func (loader LocalTextLoader) GetMatching(plainTextFile string,
+		queryTerms []string) (MatchingText, error) {
+	fullPath := loader.corpusDir + "/" + plainTextFile
+	bs, err := ioutil.ReadFile(fullPath)
+	if err != nil {
+		return MatchingText{}, err
 	}
-	return docFileMap
+	return getMatch(string(bs), queryTerms), nil
 }
 
 // Implements the TextLoader interface, loads the text from a Google Cloud
 // Storage.
 // Params:
 //   Bucket - The base URL for the location of the plain text files
-type GCSLoader struct{Bucket string}
+type GCSLoader struct{
+	bucket string
+	client *storage.Client
+}
 
 // Gets the matching text from a local file and find the best match
 func (loader GCSLoader) GetMatching(plainTextFile string,
 		queryTerms []string) (MatchingText, error) {
 	applog.Info("GCSLoader.GetMatching ", plainTextFile)
 	ctx := context.Background()
-	client, err := storage.NewClient(ctx)
-	if err != nil {
-    	applog.Info("GCSLoader.GetMatching error getting client ", err)
-    	return MatchingText{}, err 
-	}
-	r, err := client.Bucket(loader.Bucket).Object(plainTextFile).NewReader(ctx)
+	r, err := loader.client.Bucket(loader.bucket).Object(plainTextFile).NewReader(ctx)
 	if err != nil {
         return MatchingText{}, err
 	}
@@ -101,31 +91,19 @@ func (loader GCSLoader) GetMatching(plainTextFile string,
 func getLoader() TextLoader {
 	if _, ok := os.LookupEnv("GOOGLE_APPLICATION_CREDENTIALS"); ok {
 		if bucket, ok := os.LookupEnv("TEXT_BUCKET"); ok {
-			return GCSLoader{bucket}
+			loader, err := NewGCSLoader(bucket)
+			if err == nil {
+				applog.Info("fulltext.getLoader, using GCSLoader")
+				return loader
+			}
 		}
 	}
 	if corpusDir, ok := os.LookupEnv("CORPUS_DIR"); ok {
+		applog.Info("fulltext.getLoader, using LocalTextLoader, ", corpusDir)
 		return LocalTextLoader{corpusDir}
 	}
+	applog.Info("fulltext.getLoader, using LocalTextLoader,default corpusDir")
 	return LocalTextLoader{"../../../corpus"}
-}
-
-// Given the already retrieved text body, find the best match
-// Log errors and continue because it is not essential to user experience
-func GetMatch(glossFile string, queryTerms []string) MatchingText {
-	applog.Info("fulltext.GCSLoader.GetMatch enter ", glossFile)
-	loader := getLoader()
-	plainTextFile, ok := docFileMap[glossFile]
-	if !ok {
-		applog.Info("fulltext.GCSLoader.GetMatch could not find ", glossFile)
-		return MatchingText{}
-	}
-	mt, err := loader.GetMatching(plainTextFile, queryTerms)
-	if err != nil {
-		applog.Info("fulltext.GCSLoader.GetMatch error getting match ", err)
-	}
-	applog.Info("fulltext.GCSLoader.GetMatch snippet ", mt.Snippet)
-	return mt
 }
 
 // Given the already retrieved text body, find the best match
@@ -166,54 +144,14 @@ func getMatch(txt string, queryTerms []string) MatchingText {
 	return	mt
 }
 
-// Open database connection and prepare statement
-func init() {
-	err := initStatements()
-	if err != nil {
-		applog.Error("fulltext/init: error for database statements, retrying",
-			err)
-		time.Sleep(60000 * time.Millisecond)
-		err = initStatements()
-		conString := webconfig.DBConfig()
-		applog.Error("fulltext/init: error for database statements, giving up",
-			conString, err)
-	}
-	docFileMap = cacheDocFileMap()
-	applog.Info("fulltext.init len(docFileMap) ", len(docFileMap))
-}
-
-func initStatements() error {
-	conString := webconfig.DBConfig()
-	db, err := sql.Open("mysql", conString)
-	if err != nil {
-		return err
-	}
-	database = db
-
+// Creates and initiates a new GCSLoader object
+func NewGCSLoader(bucket string) (GCSLoader, error) {
+	applog.Info("fulltext.NewGCSLoader, ", bucket)
 	ctx := context.Background()
-	docListStmt, err = database.PrepareContext(ctx,
-		"SELECT plain_text_file, gloss_file " +
-		"FROM document")
-    if err != nil {
-        applog.Error("fulltext.initStatements() Error for doc stmt: ", err)
-        return err
-    }
-    return nil
-}
-
-// Implements the TextLoader interface, loads the text from a local file
-// mounted on the application server
-// Params:
-//   corpusDir - The top level directory for the plain text files
-type LocalTextLoader struct{corpusDir string}
-
-// Gets the matching text from a local file and find the best match
-func (loader LocalTextLoader) GetMatching(plainTextFile string,
-		queryTerms []string) (MatchingText, error) {
-	fullPath := loader.corpusDir + "/" + plainTextFile
-	bs, err := ioutil.ReadFile(fullPath)
+	client, err := storage.NewClient(ctx)
 	if err != nil {
-		return MatchingText{}, err
+    	applog.Info("fulltext.NewGCSLoader error getting client ", err)
+    	return GCSLoader{}, err 
 	}
-	return getMatch(string(bs), queryTerms), nil
+	return GCSLoader{bucket, client}, nil
 }

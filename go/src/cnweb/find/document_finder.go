@@ -30,6 +30,8 @@ var (
 	database *sql.DB
 	colMap map[string]string
 	docMap map[string]Document
+	docFileMap map[string]string
+	docListStmt *sql.Stmt
 	findAllTitlesStmt, findAllColTitlesStmt  *sql.Stmt
 	findColStmt, findDocStmt, findDocInColStmt, findWordStmt  *sql.Stmt
 	simBM251Stmt, simBM252Stmt, simBM253Stmt, simBM254Stmt *sql.Stmt
@@ -84,7 +86,7 @@ func init() {
 	}
 	docMap = cacheDocDetails()
 	colMap = cacheColDetails()
-
+	docFileMap = cacheDocFileMap()
 	avdl = webconfig.GetEnvIntValue("AVG_DOC_LEN", AVG_DOC_LEN)
 }
 
@@ -137,6 +139,26 @@ func cacheDocDetails() map[string]Document {
 	}
 	applog.Info("cacheDocDetails, len(docMap) = ", len(docMap))
 	return docMap
+}
+
+// Cache the plain text file names
+func cacheDocFileMap() map[string]string {
+	docFileMap := map[string]string{}
+	ctx := context.Background()
+	results, err := docListStmt.QueryContext(ctx)
+	if err != nil {
+		applog.Error("cacheDocFileMap, Error for query: ", err)
+		return docFileMap
+	}
+	defer results.Close()
+
+	for results.Next() {
+		plainTextFile := ""
+		glossFile := ""
+		results.Scan(&plainTextFile, &glossFile)
+		docFileMap[glossFile] = plainTextFile
+	}
+	return docFileMap
 }
 
 // Compute the combined similarity based on logistic regression of document
@@ -663,6 +685,15 @@ func initStatements() error {
 	database = db
 
 	ctx := context.Background()
+
+	docListStmt, err = database.PrepareContext(ctx,
+		"SELECT plain_text_file, gloss_file " +
+		"FROM document")
+    if err != nil {
+        applog.Error("find.initStatements() Error for docListStmt: ", err)
+        return err
+    }
+
 	findColStmt, err = database.PrepareContext(ctx,
 		"SELECT title, gloss_file FROM collection WHERE title LIKE ? LIMIT 500")
     if err != nil {
@@ -704,7 +735,7 @@ func initStatements() error {
 		"SELECT simplified, traditional, pinyin, headword FROM words WHERE " +
 		"simplified = ? OR traditional = ? LIMIT 1")
     if err != nil {
-        applog.Error("find.init() Error preparing fwstmt: ", err)
+        applog.Error("find.initStatements() Error preparing fwstmt: ", err)
         return err
     }
 
@@ -1161,7 +1192,7 @@ func mergeDocList(simDocMap map[string]Document, docList []Document) {
 // doc.ContainsBigrams is a contained list of bigrams found in the query and doc
 // doc.ContainsTerms is a list of terms found both in the query and the doc
 // sorted in the same order as the query terms with words merged to bigrams
-func setMatchDetails(doc Document, terms []string) Document {
+func setMatchDetails(doc Document, terms []string, docMatch fulltext.DocMatch) Document {
 	fmt.Println("sortContainsWords: ", terms)
 	containsTems := []string{}
 	for i, term := range terms {
@@ -1182,7 +1213,7 @@ func setMatchDetails(doc Document, terms []string) Document {
 		}
 	}
 	doc.ContainsTerms = containsTems
-	doc.MatchDetails = fulltext.GetMatch(doc.GlossFile, terms)
+	doc.MatchDetails = docMatch.MT
 	return doc
 }
 
@@ -1191,11 +1222,26 @@ func toRelevantDocList(docs []Document, terms []string) []Document {
 	if len(docs) < 1 {
 		return docs
 	}
+	keys := []string{}
+	for _, doc  := range docs {
+		plainTextFN, ok := docFileMap[doc.GlossFile]
+		if !ok {
+			applog.Info("find.toRelevantDocList could not find ", plainTextFN)
+			continue
+		}
+		keys = append(keys, plainTextFN)
+	}
+	docMatches := fulltext.GetMatches(keys, terms)
 	relDocs := []Document{}
 	for _, doc  := range docs {
 		applog.Info("toRelevantDocList, check: ", doc.Similarity, 
 			MIN_SIMILARITY)
-		doc = setMatchDetails(doc, terms)
+		plainTextFN, ok := docFileMap[doc.GlossFile]
+		if !ok {
+			applog.Info("find.toRelevantDocList 2 could not find ", plainTextFN)
+		}
+		docMatch := docMatches[plainTextFN]
+		doc = setMatchDetails(doc, terms, docMatch)
 		if doc.Similarity < MIN_SIMILARITY {
 			return relDocs
 		}

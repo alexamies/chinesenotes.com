@@ -4,6 +4,8 @@ package find
 import (
 	"fmt"
 	"testing"
+
+	"cnweb/fulltext"
 )
 
 // Test package initialization, which requires a database connection
@@ -45,7 +47,7 @@ func TestCombineByWeight(t *testing.T) {
 	expectedMax := 1.01 * similarity
 	if ((expectedMin > simDoc.Similarity) || 
 		(simDoc.Similarity > expectedMax)) {
-		t.Error("TestCombineByWeight: result out of expected range %v\n",
+		t.Errorf("TestCombineByWeight: result out of expected range %v\n",
 			simDoc)
 	}
 }
@@ -365,7 +367,8 @@ func TestSetContainsTerms1(t *testing.T) {
 	doc := Document{
 		ContainsWords: "后妃",
 	}
-	doc = setMatchDetails(doc, terms)
+	docMatch := fulltext.DocMatch{}
+	doc = setMatchDetails(doc, terms, docMatch)
 	expected0 := "后妃"
 	result := doc.ContainsTerms
 	if (len(result) != 1) {
@@ -384,7 +387,8 @@ func TestSetContainsTerms2(t *testing.T) {
 	doc := Document{
 		ContainsWords: "之,后妃",
 	}
-	doc = setMatchDetails(doc, terms)
+	docMatch := fulltext.DocMatch{}
+	doc = setMatchDetails(doc, terms, docMatch)
 	expected0 := "后妃"
 	expected1 := "之"
 	result := doc.ContainsTerms
@@ -410,7 +414,8 @@ func TestSetContainsTerms3(t *testing.T) {
 		ContainsWords: "之,后妃",
 		ContainsBigrams: "后妃之",
 	}
-	doc = setMatchDetails(doc, terms)
+	docMatch := fulltext.DocMatch{}
+	doc = setMatchDetails(doc, terms, docMatch)
 	expected0 := "后妃之"
 	result := doc.ContainsTerms
 	if (len(result) != 1) {
@@ -431,7 +436,8 @@ func TestSetContainsTerms4(t *testing.T) {
 		ContainsWords: "十年,之,計",
 		ContainsBigrams: "十年之,之計",
 	}
-	doc = setMatchDetails(doc, terms)
+	docMatch := fulltext.DocMatch{}
+	doc = setMatchDetails(doc, terms, docMatch)
 	expected0 := "十年之"
 	expected1 := "之計"
 	result := doc.ContainsTerms
@@ -477,7 +483,7 @@ func TestToRelevantDocList(t *testing.T) {
 	expected := 2
 	result := len(docs)
 	if result == expected {
-		t.Errorf("TestToRelevantDocList: expected %s, got, %v", expected,
+		t.Errorf("TestToRelevantDocList: expected %d, got, %d", expected,
 			result)
 	}
 }
@@ -542,7 +548,7 @@ func TestToSortedDocList2(t *testing.T) {
 	expected := doc2.GlossFile
 	result := docs[0]
 	if result.GlossFile != expected {
-		t.Error("TestToSortedDocList2: expected %s, got, %v", expected, result)
+		t.Errorf("TestToSortedDocList2: expected %s, got, %v", expected, result)
 	}
 }
 

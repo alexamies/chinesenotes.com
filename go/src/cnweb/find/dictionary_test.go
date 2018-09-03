@@ -38,7 +38,7 @@ func TestFindWordsByEnglish2(t *testing.T) {
 		t.Error("TestFindWordsByEnglish: len(senses[0].Pinyin) == 0",
 			senses[0].Pinyin)
 	}
-	log.Printf("TestFindWordsByEnglish2: senses\n", senses)
+	log.Printf("TestFindWordsByEnglish2: senses %v\n", senses)
 }
 
 
