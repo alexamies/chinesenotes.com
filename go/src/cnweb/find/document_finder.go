@@ -1247,6 +1247,12 @@ func toRelevantDocList(docs []Document, terms []string) []Document {
 		}
 		relDocs = append(relDocs, doc)
 	}
+	// Resort based on longest matching substring
+	sort.Slice(relDocs, func(i, j int) bool {
+		l1 := len(relDocs[i].MatchDetails.LongestMatch)
+		l2 := len(relDocs[j].MatchDetails.LongestMatch)
+		return l1 > l2
+	})
 	return relDocs
 }
 

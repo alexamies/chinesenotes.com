@@ -108,12 +108,45 @@ func getLoader() TextLoader {
 
 // Given the already retrieved text body, find the best match
 func getMatch(txt string, queryTerms []string) MatchingText {
+	if len(queryTerms) == 0 {
+		return MatchingText{}
+	}
 	query := strings.Join(queryTerms, "")
 	match := false
 	snippet := ""
+	longest := ""
 	i := strings.Index(txt, query)
 	if i > -1 {
+		longest = query
 		match = true
+	} else {
+		j := 1
+		l := len(queryTerms)
+		substr := ""
+		maxLen := 0
+		for ; j < l; j++ {
+			substr = strings.Join(queryTerms[j:l], "")
+			i = strings.Index(txt, substr)
+			if i > -1 {
+				longest = substr
+				maxLen = l - j
+				break
+			}
+		}
+		k := -1
+		for j = l - 1; j > 0; j-- {
+			substr = strings.Join(queryTerms[0:j], "")
+			k = strings.Index(txt, substr)
+			if k > -1 {
+				break
+			}
+		}
+		if j > maxLen {
+			i = k
+			longest = substr
+		}
+	}
+	if i > -1 {
 		s := i - SNIPPET_LEN / 2
 		if s < 0 {
 			s = 0
@@ -138,7 +171,7 @@ func getMatch(txt string, queryTerms []string) MatchingText {
 	}
 	mt := MatchingText{
 		Snippet: 		snippet,
-		LongestMatch:	query,
+		LongestMatch:	longest,
 		ExactMatch:		match,
 	}
 	return	mt
