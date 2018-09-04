@@ -18,6 +18,13 @@ MAX_TITLE_LEN = 80;
         window.location.href = url;
         return false;
       }
+      var redirectToFullText = document.getElementById("redirectToFullText")
+      if (redirectToFullText) {
+        // Then searching from a collection page, redirect to advanced search
+        var url = '/advanced_search.html#?text=' + query + "&fulltext=true" + col;
+        window.location.href = url;
+        return false;
+      }
   
       var action = "/findadvanced";
       if (!findForm.action.endsWith("#")) {
@@ -44,7 +51,7 @@ MAX_TITLE_LEN = 80;
       action = findForm.action;
     }
     var url = action + "/?query=" + query;
-    if (col != "") {
+    if (col) {
       url = action + "/?query=" + query + "&collection=" + col;
     }
     makeSearchRequest(url);
