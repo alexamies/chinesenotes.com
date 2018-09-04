@@ -71,6 +71,26 @@
       </div>
 
       <main class="mdl-layout__content authenticated">
+      <p>
+        <form name="findAdvancedForm" id="findAdvancedForm"
+              action="/advanced_search.html#">
+          <div class="mdl-textfield mdl-js-textfield">
+            <label for="findInput">Search for documents containing</label>
+            <input class="mdl-textfield__input" type="text" name="text"
+                   id="findInput" required/>
+            <input type="hidden" name="redirectToFullText" id="redirectToFullText"
+                   value="DoDirect"/>
+          </div>
+          <button  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                   type="submit" id="findSubmit">Find Documents</button>
+        </form>
+      </p>
+      <p>
+        <span id="lookup-help-block" class="help-block">
+          Search for documents using partial or full Chinese or English terms
+          in either the title or body.
+        </span>
+      </p>
 {{ .Content }}
         <footer class="mdl-mini-footer">
           <div class="mdl-mini-footer__left-section">
@@ -111,5 +131,6 @@
     <script src="/script/dialog-polyfill.js"></script>
     <script src="/script/vocab.js"></script>
     <script src="/script/find.js"></script>
+    <script src="/script/findadvanced.js"></script>
 </body>
 </html>
