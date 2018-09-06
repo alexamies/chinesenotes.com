@@ -1,0 +1,37 @@
+<html>
+ <head>
+  <title>Test page for find.js</title>
+  <script language="javascript" src="../jsunit/app/jsUnitCore.js"></script>
+  <script language="javascript" src="../script/find.js"></script>
+ </head>
+ <body>
+  <h1>Test page for find.js</h1>
+  <p>Run this from jsunit</p>
+  <script language="javascript">
+    function testcombineEnglish0() {
+      var senses = [];
+      var wordURL = "/words/1.html";
+      assertNotNull("Not null", combineEnglish(senses, wordURL));
+    }
+    function testcombineEnglish1() {
+      var sense1 = {"Id":33456,"HeadwordId":301,"Simplified":"一",
+                    "Traditional":"","Pinyin":"yī","English":"first",
+                    "Notes":"(Rouzer 2007; p. 14)"}
+      var senses = [sense1];
+      var wordURL = "/words/1.html";
+      assertNotNull("Not null", combineEnglish(senses, wordURL));
+    }
+    function testcombineEnglish2() {
+      var sense1 = {"Id":33456,"HeadwordId":301,"Simplified":"一",
+                    "Traditional":"","Pinyin":"yī","English":"first",
+                    "Notes":"(Rouzer 2007; p. 14)"}
+      var sense2 = {"Id":41141,"HeadwordId":301,"Simplified":"一",
+                    "Traditional":"","Pinyin":"yī","English":"the same",
+                    "Notes":"In the sense of 一样 (NCCED '一' 2)"}
+      var senses = [sense1, sense2];
+      var wordURL = "/words/1.html";
+      assertNotNull("Not null", combineEnglish(senses, wordURL));
+    }
+  </script>
+ </body>
+</html>

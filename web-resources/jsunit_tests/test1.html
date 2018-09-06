@@ -1,0 +1,17 @@
+<html>
+ <head>
+  <title>Test page for findadvanced.js</title>
+  <script language="javascript" src="../jsunit/app/jsUnitCore.js"></script>
+  <script language="javascript" src="../script/findadvanced.js"></script>
+ </head>
+ <body>
+  <h1>Test page for findadvanced.js</h1>
+  <p>Run this from jsunit</p>
+  <script language="javascript">
+    function testGetHrefVariable() {
+      var href = "http://domain.com/file.html#?text=something&collection=shijing.html";
+      assertEquals("Part of URL", "shijing.html", getHrefVariable(href, "collection"));
+    }
+  </script>
+ </body>
+</html>
