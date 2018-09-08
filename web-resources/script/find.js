@@ -383,7 +383,7 @@ function processAJAX(httpRequest) {
           var tbody = document.createElement("tbody");
           var numCol = collections.length;
           for (i = 0; i < numCollections; i += 1) {
-            addColToTable(collection, tbody);
+            addColToTable(collections[i], tbody);
           }
           table.appendChild(tbody);
           if (typeof componentHandler != "undefined") {
