@@ -12,6 +12,58 @@
       var href = "http://domain.com/file.html#?text=something&collection=shijing.html";
       assertEquals("Part of URL", "shijing.html", getHrefVariable(href, "collection"));
     }
+    function testAddMatchDetails0() {
+      var md = {};
+      var td = document.createElement("td");
+      assertNotNull("Not null", addMatchDetails(md, td));
+    }
+    function testAddMatchDetails1() {
+      var md = {"Snippet":"謂造為草斓也","LongestMatch":"為草","ExactMatch":true};
+      var td = document.createElement("td");
+      assertNotNull("Not null", addMatchDetails(md, td));
+    }
+    function testAddCollection() {
+      var doc = {"CollectionTitle":"Book of Chen 《陳書》","CollectionFile":"chenshu.html"};
+      var td = document.createElement("td");
+      assertNotNull("Not null", addCollection(doc, td));
+    }
+    function testAddRelevance0() {
+      var doc = {};
+      var td = document.createElement("td");
+      assertNotNull("Not null", addRelevance(doc, td));
+    }
+    function testAddRelevance1() {
+      var doc = {"SimTitle":0,"MatchDetails":{"ExactMatch":true}};
+      var td = document.createElement("td");
+      assertNotNull("Not null", addRelevance(doc, td));
+    }
+    function testAddDocument0() {
+      var doc = {};
+      var tbody = document.createElement("tbody");
+      assertNotNull("Not null", addDocument(doc, tbody));
+    }
+    function testAddDocument1() {
+      var doc = {"GlossFile":"jiutangshu/jiutangshu141.html",
+                 "Title":"卷一百三十七 列傳第八十七 Volume 137 Biographies 87"};
+      var tbody = document.createElement("tbody");
+      assertNotNull("Not null", addDocument(doc, tbody));
+    }
+    function testAddTerm0() {
+      var term = {};
+      var qBody = document.createElement("span");
+      assertNotNull("Not null", addDocument(term, 1, qBody));
+    }
+    function testAddTerm1() {
+      var term = {"Simplified":"为","Traditional":"為","Pinyin":"wèi",
+                  "HeadwordId":372,"Senses":[{"Id":373,"HeadwordId":372,
+                  "Simplified":"为","Traditional":"為","Pinyin":"wèi",
+                  "English":"because of","Notes":""},
+                  {"Id":13412,"HeadwordId":372,"Simplified":"为",
+                  "Traditional":"為","Pinyin":"wéi",
+                  "English":"to act as / to serve","Notes":""}]};
+      var qBody = document.createElement("span");
+      assertNotNull("Not null", addDocument(term, 1, qBody));
+    }
   </script>
  </body>
 </html>

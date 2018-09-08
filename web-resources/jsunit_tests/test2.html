@@ -2,18 +2,19 @@
  <head>
   <title>Test page for find.js</title>
   <script language="javascript" src="../jsunit/app/jsUnitCore.js"></script>
+  <script src="/script/jquery-3.3.1.min.js"></script>
   <script language="javascript" src="../script/find.js"></script>
  </head>
  <body>
   <h1>Test page for find.js</h1>
   <p>Run this from jsunit</p>
   <script language="javascript">
-    function testcombineEnglish0() {
+    function testCombineEnglish0() {
       var senses = [];
       var wordURL = "/words/1.html";
       assertNotNull("Not null", combineEnglish(senses, wordURL));
     }
-    function testcombineEnglish1() {
+    function testCombineEnglish1() {
       var sense1 = {"Id":33456,"HeadwordId":301,"Simplified":"一",
                     "Traditional":"","Pinyin":"yī","English":"first",
                     "Notes":"(Rouzer 2007; p. 14)"}
@@ -21,16 +22,37 @@
       var wordURL = "/words/1.html";
       assertNotNull("Not null", combineEnglish(senses, wordURL));
     }
-    function testcombineEnglish2() {
+    function testCombineEnglish2() {
       var sense1 = {"Id":33456,"HeadwordId":301,"Simplified":"一",
                     "Traditional":"","Pinyin":"yī","English":"first",
                     "Notes":"(Rouzer 2007; p. 14)"}
       var sense2 = {"Id":41141,"HeadwordId":301,"Simplified":"一",
                     "Traditional":"","Pinyin":"yī","English":"the same",
-                    "Notes":"In the sense of 一样 (NCCED '一' 2)"}
+                    "Notes":"In the sense of 一样 (NCCED '一' 2)"};
       var senses = [sense1, sense2];
       var wordURL = "/words/1.html";
       assertNotNull("Not null", combineEnglish(senses, wordURL));
+    }
+    function testAddColToTable() {
+      var col = {"GlossFile":"beishi.html",
+                 "Title":"History of the Northern Dynasties 《北史》"};
+      var tbody = document.createElement("tbody");
+      assertNotNull("Not null", addColToTable(col, tbody));
+    }
+    function testAddDocToTable() {
+      var doc = {"GlossFile":"beishi/beishi000i.html",
+                 "Title":"Introduction",
+                 "CollectionFile":"beishi.html",
+                 "CollectionTitle":"History of the Northern Dynasties 《北史》"};
+      var tbody = document.createElement("tbody");
+      assertNotNull("Not null", addDocToTable(doc, tbody));
+    }
+    function testAddWordSense() {
+      var sense = {"Id":0,"HeadwordId":49420, "Simplified":"高齐",
+                   "Traditional":"高齊","Pinyin":"Gāo Qí",
+                   "English":"Northern Qi Dynasty","Notes":"See 北齊"};
+      var tbody = document.createElement("tbody");
+      assertNotNull("Not null", addWordSense(sense, tbody));
     }
   </script>
  </body>
