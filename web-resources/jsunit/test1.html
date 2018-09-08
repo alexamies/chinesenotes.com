@@ -1,0 +1,25 @@
+<html>
+ <head>
+  <title>Test Page for multiplyAndAddFive(value1, value2)</title>
+  <script language="javascript" src="app/jsUnitCore.js"></script>
+  <script language="javascript" src="myJsScripts.js"></script>
+ </head>
+ <body>
+  <script language="javascript">
+    function testWithValidArgs() {
+        assertEquals("2 times 3 plus 5 is 11", 11, multiplyAndAddFive(2, 3));
+        assertEquals("Should work with negative numbers", -15, multiplyAndAddFive(-4, 5));
+    }
+    function testWithInvalidArgs() {
+        assertNull("A null argument should result in null", multiplyAndAddFive(2, null));
+        assertNull("A string argument should result in null", multiplyAndAddFive(2, "a string"));
+    }
+    function testStrictReturnType() {
+        assertNotEquals("Should return a number, not a string", "11", multiplyAndAddFive(2, 3));
+    }
+    function testWithUndefinedValue() {
+        assertNull("An undefined argument should result in null", multiplyAndAddFive(2, JSUNIT_UNDEFINED_VALUE));
+    }
+  </script>
+ </body>
+</html>

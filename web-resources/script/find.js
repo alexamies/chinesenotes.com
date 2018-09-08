@@ -123,26 +123,15 @@
             table.removeChild(oldBody)
             var tbody = document.createElement("tbody");
             var numCol = collections.length;
-            for (i = 0; i < numCollections; i++) {
-              var title = collections[i].Title;
-              var gloss_file = collections[i].GlossFile
-              var tr = document.createElement("tr");
-              var td = document.createElement("td");
-              td.setAttribute("class", "mdl-data-table__cell--non-numeric");
-              tr.appendChild(td);
-              var a = document.createElement("a");
-              a.setAttribute("href", gloss_file);
-              var textNode = document.createTextNode(title);
-              a.appendChild(textNode);
-              td.appendChild(a);
-              tbody.appendChild(tr);
+            for (i = 0; i < numCollections; i += 1) {
+              addColToTable(collection, tbody);
             }
             table.appendChild(tbody);
             componentHandler.upgradeElement(tbody);
             table.style.display = "block";
             var colResultsDiv = document.getElementById("colResultsDiv");
             colResultsDiv.style.display = "block";
-            oldBody = tbody
+            oldBody = tbody;
           }
 
           // Add detailed results for documents
@@ -152,33 +141,18 @@
             if (typeof dOldBody === "undefined") {
               dOldBody = document.getElementById("findDocResultsBody");
             }
-            dTable.removeChild(dOldBody)
+            dTable.removeChild(dOldBody);
             var dTbody = document.createElement("tbody");
             var numDoc = documents.length;
-            for (i = 0; i < numDoc; i++) {
-              if ("Title" in documents[i]) {
-                var title = documents[i].Title;
-                var gloss_file = documents[i].GlossFile
-                var tr = document.createElement("tr");
-                var td = document.createElement("td");
-                td.setAttribute("class", "mdl-data-table__cell--non-numeric");
-                tr.appendChild(td);
-                var a = document.createElement("a");
-                a.setAttribute("href", gloss_file);
-                var textNode = document.createTextNode(title);
-                a.appendChild(textNode);
-                td.appendChild(a);
-                dTbody.appendChild(tr);
-              } else {
-                console.log("alertContents: no title for document " + i);
-              }
+            for (i = 0; i < numDoc; i += 1) {
+              addDocToTable(documents[i], dTbody);
             }
             dTable.appendChild(dTbody);
             componentHandler.upgradeElement(dTbody);
             dTable.style.display = "block";
             var docResultsDiv = document.getElementById("docResultsDiv");
             docResultsDiv.style.display = "block";
-            dOldBody = dTbody
+            dOldBody = dTbody;
           }
 
           document.getElementById("findResults").style.display = "block";
@@ -208,7 +182,7 @@
           if (typeof qOldBody === "undefined") {
             qOldBody = document.getElementById("queryTermsBody");
           }
-          qTable.removeChild(qOldBody)
+          qTable.removeChild(qOldBody);
           var qTbody = document.createElement("tbody");
           if ((terms.length > 0) && terms[0].DictEntry && (!terms[0].Senses ||
               (terms[0].Senses.length == 0))) {
@@ -260,6 +234,7 @@
             console.log("alertContents: Query is English", terms[0].Senses)
             senses = terms[0].Senses
             for (i = 0; i < senses.length; i++) {
+              addWordSense(senses[i], qTbody);
               var tr = document.createElement("tr");
               var td1 = document.createElement("td");
               td1.setAttribute("class", "mdl-data-table__cell--non-numeric");
@@ -328,6 +303,95 @@
     }
   }
 })();
+
+// A a collection link to a table body
+// Parameters:
+//   collection - a collection object
+//   tbody - tbody HTML element
+// Returns a HTML element that the object is added to
+function addColToTable(collection, tbody) {
+  var title = collection.Title;
+  var gloss_file = collection.GlossFile
+  var tr = document.createElement("tr");
+  var td = document.createElement("td");
+  td.setAttribute("class", "mdl-data-table__cell--non-numeric");
+  tr.appendChild(td);
+  var a = document.createElement("a");
+  a.setAttribute("href", gloss_file);
+  var textNode = document.createTextNode(title);
+  a.appendChild(textNode);
+  td.appendChild(a);
+  tbody.appendChild(tr);
+  return tbody;
+}
+
+// Add a document link to a table body
+// Parameters:
+//   doc is a document object
+//   dTbody - tbody HTML element
+// Returns a HTML element that the object is added to
+function addDocToTable(doc, dTbody) {
+  if ("Title" in doc) {
+    var title = doc.Title;
+    var gloss_file = doc.GlossFile
+    var tr = document.createElement("tr");
+    var td = document.createElement("td");
+    td.setAttribute("class", "mdl-data-table__cell--non-numeric");
+    tr.appendChild(td);
+    var a = document.createElement("a");
+    a.setAttribute("href", gloss_file);
+    var textNode = document.createTextNode(title);
+    a.appendChild(textNode);
+    td.appendChild(a);
+    dTbody.appendChild(tr);
+  } else {
+    console.log("alertContents: no title for document");
+  }
+}
+
+// Add a word sense object to a query table body
+// Parameters:
+//   sense is a word sense object
+//   qTbody - tbody HTML element
+// Returns a HTML element that the object is added to
+function addWordSense(sense, qTbody) {
+  var tr = document.createElement("tr");
+  var td1 = document.createElement("td");
+  td1.setAttribute("class", "mdl-data-table__cell--non-numeric");
+  tr.appendChild(td1);
+  var chinese = sense.Simplified;
+  console.log("alertContents: chinese", chinese)
+  if (sense.Traditional) {
+    chinese += " (" + sense.Traditional + ")"
+  }
+  var textNode1 = document.createTextNode(chinese);
+  var pinyin = "";
+  var english = "";
+  var wordURL = ""
+  // Add link to word detail page
+  hwId = sense.HeadwordId;
+  wordURL = "/words/" + hwId + ".html";
+  var a = document.createElement("a");
+  a.setAttribute("href", wordURL);
+  a.setAttribute("title", "Details for word");
+  a.setAttribute("class", "query-term");
+  a.appendChild(textNode1);
+  td1.appendChild(a);
+  var td2 = document.createElement("td");
+  td2.setAttribute("class", "mdl-data-table__cell--non-numeric");
+  tr.appendChild(td2);
+  pinyin = sense.Pinyin;
+  var textNode2 = document.createTextNode(pinyin);
+  td2.appendChild(textNode2);
+  var td3 = document.createElement("td");
+  td3.setAttribute("class", "mdl-data-table__cell--non-numeric");
+  tr.appendChild(td3);
+  var wsArray = [sense];
+  englishSpan = combineEnglish(wsArray, wordURL)
+  td3.appendChild(englishSpan);
+  qTbody.appendChild(tr);
+  return qTbody;
+}
 
 // Combine and crop the list of English equivalents and notes to a limited
 // number of characters.
