@@ -457,6 +457,101 @@ func TestSetContainsTerms4(t *testing.T) {
 	fmt.Println("TestSetContainsTerms4: ", result)
 }
 
+// No substring, compare based on similarity
+func TestSortMatchingSubstr1(t *testing.T) {
+	doc1 := Document{
+		GlossFile: "f1.html",
+		Title: "Good doc",
+		Similarity: 1.0,
+	}
+	doc2 := Document{
+		GlossFile: "f2.html",
+		Title: "Very Good doc",
+		Similarity: 1.5,
+	}
+	doc3 := Document{
+		GlossFile: "f3.html",
+		Title: "Irrelevant doc",
+		Similarity: 0.2,
+	}
+	docs := []Document{doc1, doc2, doc3}
+	sortMatchingSubstr(docs)
+	expected := "f2.html"
+	result := docs[0].GlossFile
+	if result != expected {
+		t.Errorf("TestSortMatchingSubstr1: expected %s, got, %s", expected,
+			result)
+	}
+}
+
+// Use substring length
+func TestSortMatchingSubstr2(t *testing.T) {
+	md1 := fulltext.MatchingText{
+		Snippet: "",
+		LongestMatch: "好好好",
+		ExactMatch: false,
+	}
+	doc1 := Document{
+		GlossFile: "f1.html",
+		Title: "Good doc",
+		Similarity: 1.0,
+		MatchDetails: md1,
+	}
+	md2 := fulltext.MatchingText{
+		Snippet: "",
+		LongestMatch: "好好",
+		ExactMatch: false,
+	}
+	doc2 := Document{
+		GlossFile: "f2.html",
+		Title: "Very Good doc",
+		Similarity: 1.5,
+		MatchDetails: md2,
+	}
+	docs := []Document{doc1, doc2}
+	sortMatchingSubstr(docs)
+	expected := "f1.html"
+	result := docs[0].GlossFile
+	if result != expected {
+		t.Errorf("TestSortMatchingSubstr2: expected %s, got, %s", expected,
+			result)
+	}
+}
+
+// Equal substring length, use similarity
+func TestSortMatchingSubstr3(t *testing.T) {
+	md1 := fulltext.MatchingText{
+		Snippet: "",
+		LongestMatch: "好好",
+		ExactMatch: false,
+	}
+	doc1 := Document{
+		GlossFile: "f1.html",
+		Title: "Good doc",
+		Similarity: 1.0,
+		MatchDetails: md1,
+	}
+	md2 := fulltext.MatchingText{
+		Snippet: "",
+		LongestMatch: "好好",
+		ExactMatch: false,
+	}
+	doc2 := Document{
+		GlossFile: "f2.html",
+		Title: "Very Good doc",
+		Similarity: 1.5,
+		MatchDetails: md2,
+	}
+	docs := []Document{doc1, doc2}
+	sortMatchingSubstr(docs)
+	expected := "f2.html"
+	result := docs[0].GlossFile
+	if result != expected {
+		t.Errorf("TestSortMatchingSubstr2: expected %s, got, %s", expected,
+			result)
+	}
+}
+
 func TestToRelevantDocList(t *testing.T) {
 	similarDocMap := map[string]Document{}
 	doc1 := Document{

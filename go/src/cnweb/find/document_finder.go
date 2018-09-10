@@ -1217,6 +1217,18 @@ func setMatchDetails(doc Document, terms []string, docMatch fulltext.DocMatch) D
 	return doc
 }
 
+// Sort firstly based on longest matching substring, then on similarity
+func sortMatchingSubstr(docs []Document) {
+	sort.Slice(docs, func(i, j int) bool {
+		l1 := len(docs[i].MatchDetails.LongestMatch)
+		l2 := len(docs[j].MatchDetails.LongestMatch)
+		if l1 != l2 {
+			return l1 > l2
+		}
+		return docs[i].Similarity > docs[j].Similarity
+	})
+}
+
 // Filter documents that are not similar
 func toRelevantDocList(docs []Document, terms []string) []Document {
 	if len(docs) < 1 {
@@ -1247,12 +1259,7 @@ func toRelevantDocList(docs []Document, terms []string) []Document {
 		}
 		relDocs = append(relDocs, doc)
 	}
-	// Resort based on longest matching substring
-	sort.Slice(relDocs, func(i, j int) bool {
-		l1 := len(relDocs[i].MatchDetails.LongestMatch)
-		l2 := len(relDocs[j].MatchDetails.LongestMatch)
-		return l1 > l2
-	})
+	sortMatchingSubstr(relDocs)
 	return relDocs
 }
 
