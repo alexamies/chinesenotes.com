@@ -31,8 +31,8 @@ func loadExcluded() {
 	excludedFile := config.CorpusDataDir() + "/exclude.txt"
 	file, err := os.Open(excludedFile)
 	if err != nil {
-		log.Printf("corpus.loadExcluded: Error opening collection file, " +
-			"skipping excluded words: %v\n", err)
+		log.Printf("corpus.loadExcluded: Error opening excluded words file, " +
+			"skipping excluded words\n")
 		return
 	}
 	defer file.Close()

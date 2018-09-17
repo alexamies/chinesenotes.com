@@ -435,11 +435,10 @@ func writeAnalysisCorpus(results CollectionAResults,
 		"DerefNe": func(sp *string, s string) bool { return *sp != s },
 	}
 	tmpl, err := template.New("corpus-summary-analysis-template.html").Funcs(funcs).ParseFiles(tmplFile)
-	if err != nil {
-		panic(err)
-	}
-	if tmpl == nil {
-		log.Fatal("writeAnalysis: Template is nil", err)
+	if (err != nil || tmpl == nil) {
+		log.Printf("writeAnalysisCorpus: Skipping corpus analysis (%v)\n",
+			tmplFile)
+		return ""
 	}
 	basename := "corpus_analysis.html"
 	filename := analysisDir + basename
@@ -561,11 +560,10 @@ func writeAnalysis(results CollectionAResults, srcFile, glossFile,
 		},
 	}
 	tmpl, err := template.New("corpus-analysis-template.html").Funcs(funcs).ParseFiles(tmplFile)
-	if err != nil {
-		panic(err)
-	}
-	if tmpl == nil {
-		log.Fatal("writeAnalysis: Template is nil", err)
+	if (err != nil ||  tmpl == nil) {
+		log.Printf("analysiswriteAnalysis: Skipping document analysis (%v)\n",
+			tmplFile)
+		return ""
 	}
 
 	// Write output

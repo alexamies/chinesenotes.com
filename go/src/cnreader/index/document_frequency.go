@@ -31,7 +31,7 @@ var completeDF DocumentFrequency
 func init () {
 	df, err := ReadDocumentFrequency()
 	if err != nil {
-		log.Println("index.init Error reading document frequency: ", err)
+		log.Println("index.init Error reading document frequency continuing")
 	}
 	completeDF = df
 }
