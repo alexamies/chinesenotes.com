@@ -31,7 +31,9 @@ func loadExcluded() {
 	excludedFile := config.CorpusDataDir() + "/exclude.txt"
 	file, err := os.Open(excludedFile)
 	if err != nil {
-		log.Fatal("corpus.loadExcluded: Error opening collection file.", err)
+		log.Printf("corpus.loadExcluded: Error opening collection file, " +
+			"skipping excluded words: %v\n", err)
+		return
 	}
 	defer file.Close()
 	reader := csv.NewReader(file)

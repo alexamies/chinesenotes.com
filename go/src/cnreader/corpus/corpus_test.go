@@ -23,7 +23,6 @@ func TestLoadAll0(t *testing.T) {
 	}
 }
 
-
 // Easy test to load a collection file
 func TestLoadAll1(t *testing.T) {
 	fmt.Printf("corpus.TestLoadAll1: Begin unit test\n")
