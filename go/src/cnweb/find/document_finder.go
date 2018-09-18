@@ -695,7 +695,7 @@ func initStatements() error {
     }
 
 	findColStmt, err = database.PrepareContext(ctx,
-		"SELECT title, gloss_file FROM collection WHERE title LIKE ? LIMIT 500")
+		"SELECT title, gloss_file FROM collection WHERE title LIKE ? LIMIT 20")
     if err != nil {
         applog.Error("find.initStatements() Error preparing collection stmt: ",
         	err)
@@ -713,7 +713,7 @@ func initStatements() error {
 	findDocStmt, err = database.PrepareContext(ctx,
 		"SELECT title, gloss_file, col_gloss_file, col_title " +
 		"FROM document " +
-		"WHERE col_plus_doc_title LIKE ? LIMIT 500")
+		"WHERE col_plus_doc_title LIKE ? LIMIT 20")
     if err != nil {
         applog.Error("find.initStatements() Error preparing dstmt: ", err)
         return err

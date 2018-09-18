@@ -87,18 +87,20 @@
 //   tbody - tbody HTML element
 // Returns a HTML element that the object is added to
 function addColToTable(collection, tbody) {
-  var title = collection.Title;
-  var gloss_file = collection.GlossFile;
-  var tr = document.createElement("tr");
-  var td = document.createElement("td");
-  td.setAttribute("class", "mdl-data-table__cell--non-numeric");
-  tr.appendChild(td);
-  var a = document.createElement("a");
-  a.setAttribute("href", gloss_file);
-  var textNode = document.createTextNode(title);
-  a.appendChild(textNode);
-  td.appendChild(a);
-  tbody.appendChild(tr);
+  if ("Title" in collection) {
+    var title = collection.Title;
+    var gloss_file = collection.GlossFile;
+    var tr = document.createElement("tr");
+    var td = document.createElement("td");
+    td.setAttribute("class", "mdl-data-table__cell--non-numeric");
+    tr.appendChild(td);
+    var a = document.createElement("a");
+    a.setAttribute("href", gloss_file);
+    var textNode = document.createTextNode(title);
+    a.appendChild(textNode);
+    td.appendChild(a);
+    tbody.appendChild(tr);
+  }
   return tbody;
 }
 
@@ -382,7 +384,7 @@ function processAJAX(httpRequest) {
           table.removeChild(oldBody);
           var tbody = document.createElement("tbody");
           var numCol = collections.length;
-          for (i = 0; i < numCollections; i += 1) {
+          for (i = 0; i < numCol; i += 1) {
             addColToTable(collections[i], tbody);
           }
           table.appendChild(tbody);
