@@ -175,14 +175,14 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 	}
 
 	if err != nil {
-		applog.Error("main.find Error searching docs, ", err)
+		applog.Error("main.findDocs Error searching docs, ", err)
 		http.Error(response, "Error searching docs",
 			http.StatusInternalServerError)
 		return
 	}
 	resultsJson, err := json.Marshal(results)
 	if err != nil {
-		applog.Error("main.find error marshalling JSON, ", err)
+		applog.Error("main.findDocs error marshalling JSON, ", err)
 		http.Error(response, "Error marshalling results",
 			http.StatusInternalServerError)
 	} else {
