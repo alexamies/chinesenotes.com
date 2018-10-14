@@ -1,115 +1,44 @@
-声学	Acoustics	\N	\N
-管理	Administration	\N	\N
-农业	Agriculture	\N	\N
-人类学	Anthropology	\N	\N
-考古学	Archaeology	\N	\N
-建筑学	Architecture	\N	\N
 艺术	Art	\N	\N
-天文	Astronomy	\N	\N
-占星术	Astrology	\N	\N
-试行	Attempt	\N	\N
-航空	Aviation	\N	\N
 生物学	Biology	\N	\N
 植物学	Botany	\N	\N
 佛教	Buddhism	\N	\N
 书法	Calligraphy	\N	\N
 化学	Chemistry	\N	\N
-慈善会	Charity	\N	\N
 中医	Chinese Medicine	\N	\N
-土木	Civil Engineering	\N	\N
-服装	Clothing	\N	\N
 商务	Commerce	\N	\N
 俗语	Common Saying	\N	\N
-通讯	Communications	\N	\N
-比较	Comparison	\N	\N
 计算机科学	Computer Science	\N	\N
 儒家	Confucianism	\N	\N
-化妆品	Cosmetic	\N	\N
-舞蹈	Dance	\N	\N
-危险	Danger	\N	\N
 方言	Dialect	\N	\N
 戏剧	Drama	\N	\N
-地球科学	Earth Sciences	\N	\N
-经济	Economics	\N	\N
 教育	Education	\N	\N
-电机工程学	Electrical Engineering	\N	\N
-娱乐	Entertainment	\N	\N
-环境	Environment	\N	\N
-设备	Facilities	\N	\N
-财会	Finance and Accounting	\N	\N
-饮食	Food and Drink	\N	\N
 外语	Foreign Language	\N	\N
-友谊	Friendship	\N	\N
-家具	Furniture	\N	\N
-世系	Genealogy	\N	\N
-地理学	Geography	\N	\N
 地质	Geology	\N	\N
 政府	Government	\N	\N
-健康	Health	\N	\N
 历史	History	\N	\N
-荣誉	Honor	\N	\N
-家庭用品	Household Article	\N	\N
-人文学	Humanities
-幽默	Humor	\N	\N
 成语	Idiom	\N	\N
-产业	Industry	\N	\N
 信息技术	Information Technology	\N	\N
 信息学	Information Science	\N	\N
-叹词	Interjection	\N	\N
 日语	Japanese	\N	\N
-配饰	Jewelry	\N	\N
-法律	Law	\N	\N
 语言学	Linguistics	\N	\N
 文学	Literature	\N	\N
 文言文	Literary Chinese	\N	\N
-逻辑	Logic	\N	\N
-法术	Magic	\N	\N
-制造业	Manufacturing	\N	\N
-武术	Martial Arts	\N	\N
-材料科学	Materials Science	\N	\N
-数学	Mathematics	\N	\N
-测控	Measurement and Control	\N	\N
-机械	Mechanical	\N	\N
-机械工程	Mechanical Engineering	\N	\N
 媒体	Media	\N	\N
 医疗	Medicine	\N	\N
-冥想	Meditation	\N	\N
-冶金	Metallurgy	\N	\N
-比喻	Metaphor	\N	\N
-军事	Military	\N	\N
 现代汉语	Modern Chinese	\N	\N
-登山	Mountaineering	\N	\N
-音乐	Music	\N	\N
 神话	Mythology	\N	\N
 名字	Names	\N	\N
-光学	Optics	\N	\N
-表演艺术	Performing Arts	\N	\N
 哲学	Philosophy	\N	\N
-摄影术	Photography	\N	\N
 物理	Physics	\N	\N
 偏旁	Pianpang	\N	\N
 地方	Places	\N	\N
 诗	Poetry	\N	\N
 政治	Politics	\N	\N
 谚语	Proverb	\N	\N
-心理学	Psychology	\N	\N
-公安	Public Security	\N	\N
 出版	Publishing	\N	\N
 部首	Radicals	\N	\N
 宗教	Religion	\N	\N
-研究	Research	\N	\N
-科学	Science	\N	\N
-规模	Scale	\N	\N
-社会学	Social Science	\N	\N
-社会工作	Social Work	\N	\N
-航天	Space Flight	\N	\N
 体育运动	Sport	\N	\N
 口语	Spoken Language	\N	\N
 道教	Taoism	\N	\N
-技术	Technology	\N	\N
-旅游	Tourism	\N	\N
-用具	Utensil	\N	\N
-武器	Weapons	\N	\N
-异体字	Variant	\N	\N
-船	Watercraft	\N	\N
 动物学	Zoology	\N	\N
