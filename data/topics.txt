@@ -1,9 +1,5 @@
 艺术	Art	\N	\N
-生物学	Biology	\N	\N
-植物学	Botany	\N	\N
 佛教	Buddhism	\N	\N
-书法	Calligraphy	\N	\N
-化学	Chemistry	\N	\N
 中医	Chinese Medicine	\N	\N
 商务	Commerce	\N	\N
 俗语	Common Saying	\N	\N
@@ -13,32 +9,18 @@
 戏剧	Drama	\N	\N
 教育	Education	\N	\N
 外语	Foreign Language	\N	\N
-地质	Geology	\N	\N
-政府	Government	\N	\N
 历史	History	\N	\N
 成语	Idiom	\N	\N
-信息技术	Information Technology	\N	\N
-信息学	Information Science	\N	\N
 日语	Japanese	\N	\N
 语言学	Linguistics	\N	\N
-文学	Literature	\N	\N
 文言文	Literary Chinese	\N	\N
-媒体	Media	\N	\N
-医疗	Medicine	\N	\N
 现代汉语	Modern Chinese	\N	\N
 神话	Mythology	\N	\N
 名字	Names	\N	\N
 哲学	Philosophy	\N	\N
-物理	Physics	\N	\N
 偏旁	Pianpang	\N	\N
 地方	Places	\N	\N
-诗	Poetry	\N	\N
 政治	Politics	\N	\N
 谚语	Proverb	\N	\N
-出版	Publishing	\N	\N
 部首	Radicals	\N	\N
-宗教	Religion	\N	\N
-体育运动	Sport	\N	\N
-口语	Spoken Language	\N	\N
 道教	Taoism	\N	\N
-动物学	Zoology	\N	\N
