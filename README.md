@@ -451,8 +451,9 @@ Follow instructions in
 [Cloud SQL Quickstart](https://cloud.google.com/sql/docs/mysql/quickstart) using
 the Cloud Console.
 
-Connect to the instance from the Cloud Shell
+Connect to the instance from a VM
 ```
+cd data
 INSTANCE=cnotes
 gcloud sql connect $INSTANCE --user=root
 ```
