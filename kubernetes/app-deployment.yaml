@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: cnweb-app
-        image: gcr.io/hbreader-162018/cn-app-image:r78
+        image: gcr.io/hbreader-162018/cn-app-image:r91
         resources:
           limits:
             cpu: "200m"
