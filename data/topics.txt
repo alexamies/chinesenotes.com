@@ -1,26 +1,17 @@
 艺术	Art	\N	\N
 佛教	Buddhism	\N	\N
-中医	Chinese Medicine	\N	\N
 商务	Commerce	\N	\N
 俗语	Common Saying	\N	\N
 计算机科学	Computer Science	\N	\N
-儒家	Confucianism	\N	\N
-方言	Dialect	\N	\N
 戏剧	Drama	\N	\N
 教育	Education	\N	\N
-外语	Foreign Language	\N	\N
 历史	History	\N	\N
 成语	Idiom	\N	\N
 日语	Japanese	\N	\N
 语言学	Linguistics	\N	\N
 文言文	Literary Chinese	\N	\N
+文学	Literature	\N	\N
 现代汉语	Modern Chinese	\N	\N
-神话	Mythology	\N	\N
-名字	Names	\N	\N
-哲学	Philosophy	\N	\N
-偏旁	Pianpang	\N	\N
 地方	Places	\N	\N
 政治	Politics	\N	\N
 谚语	Proverb	\N	\N
-部首	Radicals	\N	\N
-道教	Taoism	\N	\N
