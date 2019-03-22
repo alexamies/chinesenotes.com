@@ -5,7 +5,9 @@ and historic texts for English speakers. It
 includes a Chinese-English dictionary, a corpus management system written in Go, 
 web pages for learning grammar and such, a collection of texts, and a system for
 looking up the words in the texts by mouse over and popover by clicking on the
-words.
+words. Please join the low volume email group
+[chinesenotes-announce](https://groups.google.com/forum/#!forum/chinesenotes-announce)
+for announcements of new features and other updates.
 
 The software and dictionary power three web sites with different corpora:
 
