@@ -1,33 +1,38 @@
 # Chinese Notes Project
 ## About the project
 Chinese-English dictionary and digital library of literary Chinese classic
-and historic texts for English speakers. It
-includes a Chinese-English dictionary, a corpus management system written in Go, 
+and historic texts for English speakers. It includes a framework that can be
+re-used for other corpora including a template system,
+a Chinese-English dictionary, a corpus management system written in Go, 
 web pages for learning grammar and such, a collection of texts, and a system for
 looking up the words in the texts by mouse over and popover by clicking on the
 words. Please join the low volume email group
 [chinesenotes-announce](https://groups.google.com/forum/#!forum/chinesenotes-announce)
 for announcements of new features and other updates.
 
-The software and dictionary power three web sites with different corpora:
+The software and dictionary powers several web sites with different corpora:
 
 1. http://chinesenotes.com - for literary Chinese documents and a small amount
    of modern Chinese
 2. http://ntireader.org - for the Taisho version of the Chinese Buddhist Canon
 3. http://hbreader.org - for Venerable Master Hsing Yun's collected writings
+4. http://www.primerbuddhism.org - A Primer in Chinese Buddhist Writings
 
 The Chinese Notes software includes several components:
 
 1. *cnreader* - a Go program to analyze the library corpus, performing text
    segmentation, matching Chinese text to dictionary entries, indexing the text,
    and generating HTML files for reading the texts. This utility is something
-   like the [Sphinx Python documentation 
+   like [Hugo](https://gohugo.io/) or the [Sphinx Python documentation 
    generator](http://www.sphinx-doc.org/en/master/).
 2. *cnweb* - a Go web application for reading and searching the texts and
    looking up dictionary entries. Dictionary data, library metadata, and a 
    text retrieval index is loaded into a SQL database to support the web site.
 
-There are also some Python ulitities for processing text
+There are also some Python ulitities for processing text.
+
+For a description of how the framework can be used for other corpora see
+[FRAMEWORK.md](FRAMEWORK.md).
 
 ## Acknowldegements
 Major sources used directly in the dictionary whose professional and freely
