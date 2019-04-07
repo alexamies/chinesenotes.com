@@ -1,9 +1,10 @@
-# Use of Chinese Notes as a Frameowork for other Corpora
+# Use of Chinese Notes as a Framework for other Corpora
 This page introduces the framework use by Chinese Notes, discussing how it
 can be used to generate web sites for other corpora. The detailed instructions
 for setting up the framework are in [README.md](README.md).
 
-The Chinese Notes template system uses Go HTML templates that can be used with a
+The Chinese Notes template system uses [Go HTML
+templates](https://golang.org/pkg/html/template/) that can be used with a
 new style that would be unique to your corpus with its own logo, colors, style,
 etc. The Chinese - English dictionary can be added and / or subtracted from, or
 left out as needed. The software is open source, so other developers can modify
@@ -14,11 +15,11 @@ run over multiple lines. The software does require a specific format to work
 with that is not a standard like TEI. The project structure is also described in
 the [README.md](README.md).
 
-The computing resources documented to run the sites on is a Kubernetes cluster
-and Cloud SQL database on Google Cloud. Other similar systems for serving static
-content and a Go application would do just as well. If you do not need text or
-dictionary search, then it does not need to go on the cluster. In that case it
-a site be hosted on a static storage system.
+The computing resources documented to run the sites on include a Kubernetes
+cluster, a cloud storage system, and Cloud SQL database on Google Cloud. Other
+similar systems for serving static content and a Go application would do just as
+well. If you do not need text or dictionary search, then it does not need to go
+on the cluster. In that case it a site be hosted on a static storage system.
 
 The  system is fairly easy to use and does not require software development
 skills for for management of static content. The files that the HTML templates
