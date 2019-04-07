@@ -71,7 +71,7 @@
       var span = document.createElement("span");
       assertNotNull("Not null", addEquivalent(sense, 50, span));
     }
-    function testProcessAJAX() {
+    function testProcessAJAX0() {
       var jsonStr = "{\"Query\":\"Northern Dynasties\"," +
                       "\"CollectionFile\":\"\",\"NumCollections\":0," +
                       "\"NumDocuments\":0,\"Collections\":[]," +
@@ -92,7 +92,35 @@
       var qTable = document.getElementById("queryTermsTable");
       assertNotNull("Not null", qTable);
     }
-    //testProcessAJAX();
+    function testProcessAJAX1() {
+      var jsonStr = "{\"Query\":\"一腳印\",\"NumCollections\":1," +
+                    "\"NumDocuments\":92," +
+                    "\"Collections\":[{\"GlossFile\":\"wenji/wanshi07.html\"," +
+                    "\"Title\":\"One Step, One Foot 《一步一腳印》\"}]," +
+                    "\"Documents\":[{" +
+                    "\"GlossFile\":\"wenji/miyun_shengming67.html\"," +
+                    "\"Title\":\"A Footprint with Every Step  一步一腳印\"," +
+                    "\"CollectionFile\":\"wenji/miyun_shengming.html\"," +
+                    "\"CollectionTitle\":\"A Life of Pluses and Minuses\"," +
+                    "\"ContainsWords\":\"\",\"ContainsBigrams\":\"\"," +
+                    "\"SimTitle\":1,\"SimWords\":0,\"SimBigram\":0," +
+                    "\"SimBitVector\":0,\"Similarity\":0," +
+                    "\"ContainsTerms\":null,\"MatchDetails\":null}]," +
+                    "\"Terms\":[{\"QueryText\":\"一\"," +
+                    "\"DictEntry\":{\"Simplified\":\"一\"," +
+                    "\"Traditional\":\"\",\"Pinyin\":\"yī\"," +
+                    "\"HeadwordId\":301,\"Senses\":[{" +
+                    "\"Id\":301,\"HeadwordId\":301,\"Simplified\":\"一\"," +
+                    "\"Traditional\":\"\",\"Pinyin\":\"yī\"," +
+                    "\"English\":\"one\",\"Notes\":\"\"}]}}]}";
+      console.log(jsonStr);
+      var httpRequest = {"readyState":XMLHttpRequest.DONE,"status":200,
+                         "responseText": jsonStr};
+      processAJAX(httpRequest);
+      var qTable = document.getElementById("queryTermsTable");
+      assertNotNull("Not null", qTable);
+    }
+    testProcessAJAX1()
   </script>
   <p>
   <span id="lookup-help-block" class="help-block">

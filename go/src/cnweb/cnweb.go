@@ -27,7 +27,7 @@ var (
 func init() {
 	wdict, err := find.LoadDict()
 	if err != nil {
-		applog.Error("main unable to load dictionary: ", err)
+		applog.Error("main.init() unable to load dictionary: ", err)
 	}
 	parser = find.DictQueryParser{wdict}
 }
@@ -43,19 +43,20 @@ func adminHandler(w http.ResponseWriter, r *http.Request) {
 		vars := webconfig.GetAll()
 		tmpl, err := template.New("admin_portal.html").ParseFiles("templates/admin_portal.html")
 		if err != nil {
-			applog.Error("adminHandler: error parsing template", err)
+			applog.Error("main.adminHandler: error parsing template", err)
 		}
 		if tmpl == nil {
-			applog.Error("adminHandler: Template is nil")
+			applog.Error("main.adminHandler: Template is nil")
 		}
 		if err != nil {
-			applog.Error("adminHandler: error parsing template", err)
+			applog.Error("main.adminHandler: error parsing template", err)
 		}
 		err = tmpl.Execute(w, vars)
 		if err != nil {
-			applog.Error("adminHandler: error rendering template", err)
+			applog.Error("main.adminHandler: error rendering template", err)
 		}
 	} else {
+		applog.Info("main.adminHandler, Not authorized: ", sessionInfo.User)
 		http.Error(w, "Not authorized", http.StatusForbidden)
 	}
 }

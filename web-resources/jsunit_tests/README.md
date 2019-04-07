@@ -10,4 +10,4 @@ docker run -itd --rm -p 80:80 --name jsunit  \
 
 Open URL http://localhost/jsunit/testRunner.html in a browser. Run tests with files like
 
-localhost/jsunit_tests/test1.html
+localhost/jsunit_tests/test2.html
