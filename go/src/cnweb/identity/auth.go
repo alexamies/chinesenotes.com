@@ -235,7 +235,7 @@ func CheckLogin(username, password string) ([]UserInfo, error) {
 	h := sha256.New()
 	h.Write([]byte(password))
 	hstr := fmt.Sprintf("%x", h.Sum(nil))
-	applog.Info("CheckLogin, username, hstr:", username, hstr)
+	//applog.Info("CheckLogin, username, hstr:", username, hstr)
 	ctx := context.Background()
 	results, err := loginStmt.QueryContext(ctx, username, hstr)
 	defer results.Close()
