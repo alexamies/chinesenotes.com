@@ -552,7 +552,7 @@ gcloud compute instance-groups managed get-named-ports $MIG
 
 To add a new named port use the command
 ```
-PORTNAME=cnotesport
+PORTNAME=hsingyunport
 PORT=30080
 gcloud compute instance-groups managed set-named-ports $MIG \
   --named-ports="$PORTNAME:$PORT" \
@@ -601,7 +601,6 @@ Configure the backend bucket
 ```
 BACKEND_BUCKET=cnotes-web-bucket
 gcloud compute backend-buckets create $BACKEND_BUCKET --gcs-bucket-name $BUCKET
-
 ```
 
 Configure the load balancer

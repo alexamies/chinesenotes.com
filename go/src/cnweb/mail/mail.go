@@ -15,7 +15,7 @@ func SendPasswordReset(toUser identity.UserInfo, token string) error {
 	from := mail.NewEmail("Do Not Reply", fromEmail)
 	subject := "Password Reset"
 	to := mail.NewEmail(toUser.FullName, toUser.Email)
-	passwordResetURL := webconfig.GetVar("PasswordResetURL")
+	passwordResetURL := webconfig.GetPasswordResetURL()
 	plainText := "To reset your password, please go to %s?token=%s . Your username is %s."
 	plainTextContent := fmt.Sprintf(plainText, passwordResetURL, token, toUser.UserName)
 	htmlText := "<p>To reset your password, please click <a href='%s?token=%s'>here</a>. Your username is %s.</p>"
@@ -27,7 +27,8 @@ func SendPasswordReset(toUser identity.UserInfo, token string) error {
 		applog.Info("SendPasswordReset: error, ", err)
 		return err
 	} else {
-		applog.Info("SendPasswordReset: sent email, ", response.StatusCode)
+		applog.Info("SendPasswordReset: sent email code:, url:",
+			response.StatusCode, passwordResetURL)
 	}
 	return nil
 }

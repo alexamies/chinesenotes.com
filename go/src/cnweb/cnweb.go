@@ -56,7 +56,7 @@ func adminHandler(w http.ResponseWriter, r *http.Request) {
 			applog.Error("main.adminHandler: error rendering template", err)
 		}
 	} else {
-		applog.Info("main.adminHandler, Not authorized: ", sessionInfo.User)
+		applog.Info("adminHandler, Not authorized: ", sessionInfo.User)
 		http.Error(w, "Not authorized", http.StatusForbidden)
 	}
 }
@@ -144,6 +144,7 @@ func enforceValidSession(w http.ResponseWriter, r *http.Request) identity.Sessio
 			return sessionInfo
 		}
 	} else {
+		applog.Info("enforceValidSession, Invalid session ", sessionInfo.User)
 		http.Error(w, "Not authorized", http.StatusForbidden)
 		return identity.InvalidSession()
 	}
@@ -315,10 +316,17 @@ func portalHandler(w http.ResponseWriter, r *http.Request) {
 	cookie, err := r.Cookie("session")
 	if err == nil {
 		sessionInfo = identity.CheckSession(cookie.Value)
+	} else {
+		applog.Info("portalHandler error getting cookie: ", err)
+		http.Error(w, "Server error", http.StatusInternalServerError)
+		return
 	}
-	if identity.IsAuthorized(sessionInfo.User, "translation_portal") {
+	user := sessionInfo.User
+	if identity.IsAuthorized(user, "translation_portal") {
 		displayPortalHome(w)
 	} else {
+		applog.Info("portalHandler with role not authorized for portal",
+			user.UserName, user.Role)
 		http.Error(w, "Not authorized", http.StatusForbidden)
 	}
 }
@@ -329,8 +337,13 @@ func portalLibraryHandler(w http.ResponseWriter, r *http.Request) {
 	cookie, err := r.Cookie("session")
 	if err == nil {
 		sessionInfo = identity.CheckSession(cookie.Value)
+	} else {
+		applog.Info("portalLibraryHandler error getting cookie: ", err)
+		http.Error(w, "Server error", http.StatusInternalServerError)
+		return
 	}
-	if identity.IsAuthorized(sessionInfo.User, "translation_portal") {
+	user := sessionInfo.User
+	if identity.IsAuthorized(user, "translation_portal") {
 		portalLibHome := os.Getenv("PORTAL_LIB_HOME")
 		filepart := r.URL.Path[len("/loggedin/portal_library/"):]
 		filename := portalLibHome + "/" + filepart
@@ -342,6 +355,8 @@ func portalLibraryHandler(w http.ResponseWriter, r *http.Request) {
 		applog.Info("portalLibraryHandler: serving file ", filename)
 		http.ServeFile(w, r, filename)
 	} else {
+		applog.Info("portalLibraryHandler with role not authorized",
+			user.UserName, user.Role)
 		http.Error(w, "Not authorized", http.StatusForbidden)
 	}
 }
@@ -383,6 +398,7 @@ func resetPasswordFormHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func resetPasswordHandler(w http.ResponseWriter, r *http.Request) {
+	applog.Info("resetPasswordHandler enter")
 	token := r.PostFormValue("Token")
 	newPassword := r.PostFormValue("NewPassword")
 	result := identity.ResetPassword(token, newPassword)
