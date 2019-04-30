@@ -1,3 +1,4 @@
 credentials.json
 sendgrid.env
 mariadb-data/
+web-staging/
