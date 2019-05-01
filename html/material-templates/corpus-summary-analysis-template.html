@@ -76,78 +76,9 @@
 
       <h3>Contents</h3>
       <ol>
-        {{ if .ProperNouns }}<li><a href="#propernouns">Proper Nouns</a></li>{{ end }}
-        <li><a href="#glossary">Glossary</a></li>
         <li><a href="#lexical">Frequencies of Lexical Words</a></li>
         <li><a href="#wf">Frequencies of all Words</a></li>
       </ol>
-
-      {{ if .ProperNouns }}
-      <h3 id="propernouns">People, places</h3>
-      <p>and other proper nouns</p> 
-      <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-        <thead>
-          <tr>
-            <th class="mdl-data-table__cell--non-numeric">Simplified</th>
-            <th class="mdl-data-table__cell--non-numeric">Traditional</th>
-            <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
-            <th class="mdl-data-table__cell--non-numeric">English</th>
-          </tr>
-        </thead>
-        <tbody>
-        {{ range $hw := .ProperNouns }}
-          <tr>
-            <td class="mdl-data-table__cell--non-numeric"><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
-            <td class="mdl-data-table__cell--non-numeric">{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
-            <td class="mdl-data-table__cell--non-numeric">{{ index $hw.Pinyin 0}}</td>
-            <td class="mdl-data-table__cell--non-numeric">
-              {{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
-              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.English}}{{ end }} {{ end }}
-            </td>
-            <td class="mdl-data-table__cell--non-numeric">
-              {{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{if ne $ws.Parent_en "\\N"}}{{ $ws.Notes}}{{ end }}</li>{{ end }}</ol>
-              {{ else }}{{ range $ws := $hw.WordSenses }}{{if ne $ws.Parent_en "\\N"}}{{ $ws.Notes}}{{ end }}{{ end }} {{ end }}
-            </td>
-          </tr>
-        {{ end }}
-        </tbody>
-      </table>
-      {{ end }}
-
-      {{ if .DocumentGlossary }}
-      <h3 id="glossary">Glossary</h3>
-      <p>
-        Buddhist terminology, except the proper nouns listed above. Number of
-        terms: {{len .DocumentGlossary.Words}}.</p>
-      <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-        <thead>
-          <tr>
-            <th class="mdl-data-table__cell--non-numeric">Simplified</th>
-            <th class="mdl-data-table__cell--non-numeric">Traditional</th>
-            <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
-            <th class="mdl-data-table__cell--non-numeric">English</th>
-            <th class="mdl-data-table__cell--non-numeric">Notes</th>
-          </tr>
-        </thead>
-        <tbody>
-        {{ range $hw := .DocumentGlossary.Words }}
-          <tr>
-            <td class="mdl-data-table__cell--non-numeric"><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
-            <td class="mdl-data-table__cell--non-numeric">{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
-            <td class="mdl-data-table__cell--non-numeric">{{ index $hw.Pinyin 0}}</td>
-            <td class="mdl-data-table__cell--non-numeric">
-              {{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
-              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.English}}{{ end }} {{ end }}
-            </td>
-            <td class="mdl-data-table__cell--non-numeric">
-              {{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{if ne $ws.Parent_en "\\N"}}{{ $ws.Notes}}{{ end }}</li>{{ end }}</ol>
-              {{ else }}{{ range $ws := $hw.WordSenses }}{{if ne $ws.Parent_en "\\N"}}{{ $ws.Notes}}{{ end }}{{ end }} {{ end }}
-            </td>
-          </tr>
-        {{ end }}
-        </tbody>
-      </table>
-      {{ end }}
 
       <h3 id="lexical">Frequencies of Lexical Words</h3>
       <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">

@@ -436,23 +436,24 @@ func writeAnalysisCorpus(results CollectionAResults,
 	}
 	tmpl, err := template.New("corpus-summary-analysis-template.html").Funcs(funcs).ParseFiles(tmplFile)
 	if (err != nil || tmpl == nil) {
-		log.Printf("writeAnalysisCorpus: Skipping corpus analysis (%v)\n",
-			tmplFile)
+		log.Printf("writeAnalysisCorpus: Error getting template %v)", tmplFile)
 		return ""
 	}
 	basename := "corpus_analysis.html"
 	filename := analysisDir + basename
 	f, err := os.Create(filename)
 	if err != nil {
-		log.Fatal(err)
+		log.Printf("writeAnalysisCorpus: error creating file %v", err)
+		return ""
 	}
 	defer f.Close()
 	w := bufio.NewWriter(f)
 	err = tmpl.Execute(w, aResults)
 	if err != nil {
-		panic(err)
+		log.Printf("writeAnalysisCorpus: error executing template%v", err)
 	}
 	w.Flush()
+	log.Printf("writeAnalysisCorpus: finished executing template%v", err)
 
 	// Write results to plain text files
 	index.WriteWFCorpus(sortedWords, sortedUnknownWords, bFreq, results.WC)
