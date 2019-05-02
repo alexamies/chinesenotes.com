@@ -349,6 +349,7 @@ func portalLibraryHandler(w http.ResponseWriter, r *http.Request) {
 		filename := portalLibHome + "/" + filepart
 		_, err := os.Stat(filename)
 		if err != nil {
+			applog.Info("portalLibraryHandler os.Stat error: ", err, filename)
 			custom404(w, r, filename)
 			return
 		}

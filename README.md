@@ -422,8 +422,9 @@ To build the docker image:
 
 ```
 docker build -f docker/web/Dockerfile -t cn-web-image .
-
-# Test it locally
+```
+Test it locally
+```
 WEB_DIR=web-staging
 docker run -itd --rm -p 80:80 --name cn-web --link cn-app \
   --mount type=bind,source="$(pwd)"/$WEB_DIR,target=/usr/local/apache2/htdocs \
