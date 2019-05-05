@@ -280,7 +280,7 @@ func CheckSession(sessionid string) SessionInfo {
 
 // Check session when the user requests a page
 func checkSessionStore(sessionid string) []SessionInfo {
-	applog.Info("CheckSession, sessionid: %s", sessionid)
+	applog.Info("CheckSession, sessionid: ", sessionid)
 	ctx := context.Background()
 	results, err := checkSessionStmt.QueryContext(ctx, sessionid)
 	if err != nil {

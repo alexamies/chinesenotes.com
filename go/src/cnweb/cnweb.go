@@ -333,6 +333,7 @@ func portalHandler(w http.ResponseWriter, r *http.Request) {
 
 // Static handler for pages in the Translation Portal Library
 func portalLibraryHandler(w http.ResponseWriter, r *http.Request) {
+	applog.Info("portalLibraryHandler: url ", r.URL)
 	sessionInfo := identity.InvalidSession()
 	cookie, err := r.Cookie("session")
 	if err == nil {
@@ -451,7 +452,7 @@ func sessionHandler(w http.ResponseWriter, r *http.Request) {
 			FullName: "",
 			Role: "",
 		}
-        identity.SaveSession(sessionid, userInfo, 0)
+    identity.SaveSession(sessionid, userInfo, 0)
 	}
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
 	resultsJson, err := json.Marshal(sessionInfo)
