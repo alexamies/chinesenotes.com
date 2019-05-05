@@ -75,13 +75,68 @@
 
       <h3>Contents</h3>
       <ol>
+        <li><a href="#lexical">Frequencies of Lexical Words</a></li>
+        <li><a href="#wf">Frequencies of all Words</a></li>
         {{ if .TopKeywords }}<li><a href="#keywords">Keywords</a></li>{{ end }}
         {{ if .ProperNouns }}<li><a href="#propernouns">Proper Nouns</a></li>{{ end }}
         <li><a href="#glossary">Glossary</a></li>
       </ol>
 
+      <h3 id="lexical">Frequencies of Lexical Words</h3>
+      <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+        <thead>
+          <tr>
+            <th class="mdl-data-table__cell--non-numeric">Rank</th>
+            <th class="mdl-data-table__cell--non-numeric">Frequency</th>
+            <th class="mdl-data-table__cell--non-numeric">Chinese</th>
+            <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
+            <th class="mdl-data-table__cell--non-numeric">English</th>
+            <th class="mdl-data-table__cell--non-numeric">Example Usage</th>
+          </tr>
+        </thead>
+        <tbody>
+        {{ range $index, $wf := .LexicalWordFreq }}
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">{{ add $index 1 }}</td>
+            <td class="mdl-data-table__cell--non-numeric">{{ $wf.Freq }}</td>
+            <td class="mdl-data-table__cell--non-numeric"><a href="/words/{{$wf.HeadwordId}}.html">{{$wf.Chinese}}</a></td>
+            <td class="mdl-data-table__cell--non-numeric">{{ $wf.Pinyin }}</td>
+            <td class="mdl-data-table__cell--non-numeric">{{ $wf.English }}</td>
+            <td class="mdl-data-table__cell--non-numeric">{{ $wf.Usage }}</td>
+          </tr>
+        {{ end }}
+        </tbody>
+      </table>
+
+      <h3 id="wf">Frequencies of all Words</h3>
+      <p>Top {{.MaxWFOutput}}</p>
+      <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+        <thead>
+          <tr>
+            <th class="mdl-data-table__cell--non-numeric">Rank</th>
+            <th class="mdl-data-table__cell--non-numeric">Frequency</th>
+            <th class="mdl-data-table__cell--non-numeric">Chinese</th>
+            <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
+            <th class="mdl-data-table__cell--non-numeric">English</th>
+            <th class="mdl-data-table__cell--non-numeric">Usage</th>
+          </tr>
+        </thead>
+        <tbody>
+        {{ range $index, $wf := .WordFrequencies }}
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">{{ add $index 1 }}</td>
+            <td class="mdl-data-table__cell--non-numeric">{{ $wf.Freq }}</td>
+            <td class="mdl-data-table__cell--non-numeric"><a href="/words/{{$wf.HeadwordId}}.html">{{$wf.Chinese}}</a></td>
+            <td class="mdl-data-table__cell--non-numeric">{{ $wf.Pinyin }}</td>
+            <td class="mdl-data-table__cell--non-numeric">{{ $wf.English }}</td>
+            <td class="mdl-data-table__cell--non-numeric">{{ $wf.Usage }}</td>
+          </tr>
+        {{ end }}
+        </tbody>
+      </table>
+
       {{ if .TopKeywords }}
-      <h3 id="propernouns">Keywords</h3>
+      <h3 id="keywords">Keywords</h3>
       <p>Top keywords ordered by frequency in comparison to occurrence across the entire corpus</p> 
       <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
         <tr>
