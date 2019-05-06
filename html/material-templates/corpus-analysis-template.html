@@ -79,7 +79,6 @@
         <li><a href="#wf">Frequencies of all Words</a></li>
         {{ if .TopKeywords }}<li><a href="#keywords">Keywords</a></li>{{ end }}
         {{ if .ProperNouns }}<li><a href="#propernouns">Proper Nouns</a></li>{{ end }}
-        <li><a href="#glossary">Glossary</a></li>
       </ol>
 
       <h3 id="lexical">Frequencies of Lexical Words</h3>
@@ -173,32 +172,6 @@
           <th class="mdl-data-table__cell--non-numeric">English</th>
         </tr>
         {{ range $hw := .ProperNouns }}
-          <tr>
-            <td class="mdl-data-table__cell--non-numeric"><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
-            <td class="mdl-data-table__cell--non-numeric">{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
-            <td class="mdl-data-table__cell--non-numeric">{{ index $hw.Pinyin 0}}</td>
-            <td class="mdl-data-table__cell--non-numeric">
-              {{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
-              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.English}}{{ end }} {{ end }}
-            </td>
-          </tr>
-        {{ end }}
-      </table>
-      {{ end }}
-
-      {{ if .DocumentGlossary }}
-      <h3 id="glossary">Glossary</h3>
-      <p>
-        Buddhist terminology, except the proper nouns listed above. Number of
-        terms: {{len .DocumentGlossary.Words}}.</p>
-      <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-        <tr>
-          <th class="mdl-data-table__cell--non-numeric">Simplified</th>
-          <th class="mdl-data-table__cell--non-numeric">Traditional</th>
-          <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
-          <th class="mdl-data-table__cell--non-numeric">English</th>
-        </tr>
-        {{ range $hw := .DocumentGlossary.Words }}
           <tr>
             <td class="mdl-data-table__cell--non-numeric"><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
             <td class="mdl-data-table__cell--non-numeric">{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
