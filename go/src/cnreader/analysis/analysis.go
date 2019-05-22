@@ -481,8 +481,8 @@ func writeAnalysis(results CollectionAResults, srcFile, glossFile,
 	// Parse template and organize template parameters
 	properNouns := makePNList(results.Vocab)
 
-	domain_label := config.GetVar("Domain")
-	//log.Printf("analysis.writeAnalysis: domain_label: %s\n", domain_label)
+	domain_label := config.Domain()
+	log.Printf("analysis.writeAnalysis: domain_label: %s\n", domain_label)
 	glossary := MakeGlossary(domain_label, results.GetHeadwords())
 
 	sortedWords := index.SortedFreq(results.Vocab)
@@ -513,7 +513,7 @@ func writeAnalysis(results CollectionAResults, srcFile, glossFile,
 		topKeywords = topKeywords[:maxKeywords]
 	}
 
-	//log.Printf("analysis.writeAnalysis: len topKeywords: %d\n", len(topKeywords))
+	log.Printf("analysis.writeAnalysis: len topKeywords: %d\n", len(topKeywords))
 
 	sortedUnknownWords := index.SortedFreq(results.UnknownChars)
 	maxUnknown := len(sortedUnknownWords)
