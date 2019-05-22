@@ -481,7 +481,7 @@ func writeAnalysis(results CollectionAResults, srcFile, glossFile,
 	// Parse template and organize template parameters
 	properNouns := makePNList(results.Vocab)
 
-	domain_label := config.Domain()
+	domain_label := config.GetVar("Domain")
 	log.Printf("analysis.writeAnalysis: domain_label: %s\n", domain_label)
 	glossary := MakeGlossary(domain_label, results.GetHeadwords())
 

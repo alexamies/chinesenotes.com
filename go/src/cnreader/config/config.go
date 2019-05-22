@@ -53,12 +53,6 @@ func DictionaryDir() string {
 	return projectHome + "/data"
 }
 
-// Gets the domain for keyword filtering
-func Domain() string {
-	domain := os.Getenv("DOMAIN")
-	return domain
-}
-
 // Gets the list of source and destination files for HTML conversion
 func GetHTMLConversions() []HTMLConversion {
 	log.Printf("GetHTMLConversions: projectHome: '%s'\n", projectHome)
