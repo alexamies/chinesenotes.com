@@ -482,12 +482,13 @@ func writeAnalysis(results CollectionAResults, srcFile, glossFile,
 	properNouns := makePNList(results.Vocab)
 
 	domain_label := config.GetVar("Domain")
-	log.Printf("analysis.writeAnalysis: domain_label: %s\n", domain_label)
-	glossary := MakeGlossary(domain_label, results.GetHeadwords())
+	//log.Printf("analysis.writeAnalysis: domain_label: %s\n", domain_label)
 
 	sortedWords := index.SortedFreq(results.Vocab)
 	//log.Printf("analysis.writeAnalysis: found sortedWords for %s, count %d\n",
 	//	srcFile, len(sortedWords))
+
+	glossary := MakeGlossary(domain_label, results.GetHeadwords())
 
 	wfResults := results.GetWordFreq(sortedWords)
 	maxWf := len(wfResults)
@@ -503,9 +504,10 @@ func writeAnalysis(results CollectionAResults, srcFile, glossFile,
 
 	topKeywords := []dictionary.HeadwordDef{}
 	if domain_label != "" {
-		keywords := index.SortByWeight(results.Vocab)
-		topKeywords = index.GetHeadwordArray(keywords)
-		topKeywords = dictionary.FilterByDomain(topKeywords, domain_label)
+		//keywords := index.SortByWeight(results.Vocab)
+		//topKeywords = index.GetHeadwordArray(keywords)
+		//topKeywords = dictionary.FilterByDomain(topKeywords, domain_label)
+		topKeywords = index.FilterByDomain(sortedWords, domain_label)
 		maxKeywords := len(topKeywords)
 		if maxKeywords > MAX_KEYWORDS {
 			maxKeywords = MAX_KEYWORDS
@@ -513,7 +515,8 @@ func writeAnalysis(results CollectionAResults, srcFile, glossFile,
 		topKeywords = topKeywords[:maxKeywords]
 	}
 
-	log.Printf("analysis.writeAnalysis: len topKeywords: %d\n", len(topKeywords))
+	//log.Printf("analysis.writeAnalysis: title: %s, len topKeywords: %d, " +
+	//	"domain_label: %s\n", docTitle, len(topKeywords), domain_label)
 
 	sortedUnknownWords := index.SortedFreq(results.UnknownChars)
 	maxUnknown := len(sortedUnknownWords)

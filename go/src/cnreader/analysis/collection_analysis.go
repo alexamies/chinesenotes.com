@@ -78,11 +78,11 @@ func (results *CollectionAResults) GetLexicalWordFreq(sortedWords []index.Sorted
 // Returns the subset of words that are lexical (content) words
 func (results *CollectionAResults) GetHeadwords() []dictionary.HeadwordDef {
 	headwords := make([]dictionary.HeadwordDef, 0, len(results.Vocab))
-    for k := range results.Vocab {
-    	hw, _ := dictionary.GetHeadword(k)
-        headwords = append(headwords, hw)
-    }
-    return headwords
+	for k := range results.Vocab {
+		hw, _ := dictionary.GetHeadword(k)
+		headwords = append(headwords, hw)
+	}
+	return headwords
 }
 
 // Returns the subset of words that are lexical (content) words

@@ -6,6 +6,7 @@ package index
 import (
 	"fmt"
 	"sort"
+	"cnreader/dictionary"
 )
 
 // A word with corpus entry label
@@ -46,6 +47,33 @@ func (sortedWF *SortedWF) Less(i, j int) bool {
 
 func (sortedWF *SortedWF) Swap(i, j int) {
 	sortedWF.w[i], sortedWF.w[j] = sortedWF.w[j], sortedWF.w[i]
+}
+
+/*
+ * Filters a slice of sorted words by domain label if any one of the word
+ * senses matches the label.
+ */
+func FilterByDomain(words []SortedWordItem,
+		domain_en string) []dictionary.HeadwordDef {
+	headwords := []dictionary.HeadwordDef{}
+	if domain_en == "" {
+		return headwords
+	}
+	for _, sw := range words {
+		hw, _ := dictionary.GetHeadword(sw.Word)
+		wsArr := []dictionary.WordSenseEntry{}
+		for _, ws := range *hw.WordSenses {
+			if ws.Topic_en == domain_en {
+				wsArr = append(wsArr, ws)
+			}
+		}
+		if len(wsArr) > 0 {
+			h := dictionary.CloneHeadword(hw)
+			h.WordSenses = &wsArr
+			headwords = append(headwords, h)
+		}
+	}
+	return headwords
 }
 
 /*
