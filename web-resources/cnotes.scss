@@ -1,0 +1,201 @@
+$mdc-theme-primary: #90a4ae; // grey-blue
+$mdc-theme-secondary: #6ec6ff; // light blue
+$mdc-theme-background: #FFF;
+$mdc-theme-on-primary: #FFF;
+
+@import "@material/typography/mdc-typography";
+@import "@material/dialog/mdc-dialog";
+@import "@material/button/mdc-button";
+@import "@material/top-app-bar/mdc-top-app-bar";
+@import "@material/drawer/mdc-drawer";
+@import "@material/list/mdc-list";
+
+html, body {
+  max-width: 1000px;
+}
+
+body {
+  display: flex;
+  font-family: 'Roboto';
+  padding: 0px 20px 20px 20px;
+}
+
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+  position: relative;
+}
+
+.main-content {
+  overflow: auto;
+}
+
+.app-bar {
+  position: absolute;
+}
+
+// Search query in top bar off for phones
+@media (max-width: 600px) {
+  #menu-search {
+    display: none;
+  }
+}
+
+a.vocabulary {
+  text-decoration: none;
+  color: darkslategray;
+}
+
+a.title--mdc-theme-on-primary {
+  color: #FFF;
+}
+
+.page-footer {
+  background: $mdc-theme-secondary;
+  margin-top: 10px;
+  padding: 15px;  
+  color: $mdc-theme-background;
+}
+
+.footer-link {
+  color: $mdc-theme-background;
+}
+
+.cnotes-header {
+  position: relative;
+  padding: 50px 4px 4px 4px;
+}
+
+.corpus-title {
+  text-align: center;
+}
+
+.collection-title {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.cnotes-footer {
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+div.collection-meta {
+  text-align: center;
+  padding: 20px;
+  margin: 10 x;
+}
+
+.find {
+  display: block;
+  width: 300px;
+  margin: 20px auto;
+}
+
+// Vocabulary dialog
+.cnnotes-pinyin {
+  font-style: italic;
+}
+
+.cnnotes-english-equiv {
+  font-weight: bold;
+}
+
+.cnnotes-footnotes {
+    font-size: smaller;
+}
+
+
+h2 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: large;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: medium;
+  font-weight: bold;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+ }
+
+ a:hover {
+  text-decoration: underline;
+ }
+
+#translation_message {
+  display: none;
+}
+
+/* Dictionary Entry style */
+span.dict-entry-headword {
+    font-size: 200%;
+    font-weight: normal;
+}
+
+span.dict-entry-pinyin {
+    font-style: italic;
+}
+
+/*
+span.dict-entry-grammar {
+    font-size: 120%;
+}
+*/
+
+span.dict-entry-definition {
+    font-weight: bold;
+}
+
+span.dict-entry-notes {
+    font-weight: bold;
+}
+
+/* Query terms decomposition table */
+.query-term {
+    font-size: 150%;
+    font-weight: normal;
+}
+
+span.notes-label {
+    font-style: italic;
+}
+
+/* Highlight for headword in usage */
+span.usage-highlight {
+    color: red;
+}
+
+/* Different color for proper nouns in texts */
+a.propernoun {
+    text-decoration: underline;
+    color: blue;
+}
+/* End Dictionary Entry style */
+
+/* Search Results */
+#findResults {
+  display: none;
+}
+
+#queryTerms {
+  display: none;
+}
+
+#findError {
+  display: none;
+}
+
+th {
+  font-weight: bold;
+}

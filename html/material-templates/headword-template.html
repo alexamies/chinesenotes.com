@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59206430-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-59206430-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag('config', 'UA-59206430-1');
-    </script>
+  gtag('config', 'UA-59206430-1');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,10 +30,9 @@
 
     <link rel="shortcut icon" href="/images/ios-desktop.png">
 
-    <link rel="stylesheet" type="text/css" href="/dialog-polyfill.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="/material.blue_grey-light_blue.min.css" />
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/cnotes.css">
     <script type="application/ld+json">
      {
       "@context": "http://schema.org",
@@ -43,33 +42,50 @@
     }
     </script>
   </head>
-  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-          <!-- Title -->
-          <span class="mdl-layout-title"> &nbsp;  &nbsp;  &nbsp;<a href="/">Chinese Notes</a></span>
-          <!-- Add spacer, to align navigation to the right -->
-          <div class="mdl-layout-spacer"></div>
-          <!-- Navigation. We hide it in small screens. -->
-            <nav class="mdl-navigation mdl-layout--large-screen-only">
-              <div class="mdh-expandable-search mdl-cell--hide-phone">
-                <i class="material-icons">search</i>
-                <form id="searchBarForm" name="searchBarForm" action="#">
-                  <input id="searchInput" name="searchInput" type="text" placeholder="Search">
-                </form>
-              </div>
-            </nav>
-          </div>
-        </header>
-      <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Chinese Notes</span>
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="/">Home</a>
-          <a class="mdl-navigation__link" href="/texts.html">Texts</a>
+  <body class="mdc-typography">
+    <aside class="mdc-drawer mdc-drawer--dismissible"> <!-- Menu drawer-->
+      <div class="mdc-drawer__content">
+        <nav class="mdc-list">
+          <a class="mdc-list-item" href="/">
+            <i class="material-icons mdc-list-item__graphic"
+              aria-hidden="true">home</i>
+            <span class="mdc-list-item__text">Home</span>
+          </a>
+          <a class="mdc-list-item" href="/texts.html">
+            <i class="material-icons mdc-list-item__graphic"
+              aria-hidden="true">library_books</i>
+            <span class="mdc-list-item__text">Texts</span>
+          </a>
         </nav>
       </div>
-    <main class="mdl-layout__content authenticated">
+    </aside>
+    <div class="mdc-drawer-app-content">
+      <!-- Top bar-->
+      <header class="mdc-top-app-bar app-bar mdc-top-app-bar--fixed" id="app-bar">
+        <div class="mdc-top-app-bar__row">
+          <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+            <a href="#"
+               class="demo-menu material-icons mdc-top-app-bar__navigation-icon"
+               >menu</a>
+            <a class="mdc-top-app-bar__title title--mdc-theme-on-primary" href="/"
+              >Chinese Notes</a>
+          </section>
+          <section 
+            id="menu-search"
+            class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end"
+            role="toolbar">
+            <i class="material-icons mdc-list-item__graphic"
+                aria-hidden="true">search</i>
+              <form id="searchBarForm" name="searchBarForm" action="/find.html">
+                <input id="searchInput" name="searchInput" type="text"
+                       class="mdc-text-field__input" placeholder="Search">
+              </form>
+          </section>
+        </div>
+      </header>  <!-- End top bar-->
+
+      <main class="main-content" id="main-content">
+        <div class="mdc-top-app-bar--fixed-adjust">
 
       <div id="word-detail">
         <h2><span class='dict-entry-headword'>{{if DerefNe .Headword.Simplified "\\N"}}{{ Deref .Headword.Simplified }}{{end}}
@@ -152,21 +168,22 @@
         </p>
 
         {{ if .RelevantDocs }}
-        <h3>Texts that the word is most frequently mentioned in</h3>
-        <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+        <h3>Word is mentioned most frequently in</h3>
+        <p>Truncated for common words</p>
+        <table>
           <thead>
             <tr>
-              <th class="mdl-data-table__cell--non-numeric">Collection</th>
-              <th class="mdl-data-table__cell--non-numeric">Document Title</th>
-              <th class="mdl-data-table__cell--non-numeric">Occurrences</th>
+              <th>Collection</th>
+              <th>Document Title</th>
+              <th>Occurrences</th>
             </tr>
           </thead>
           <tbody>
           {{ range $doc := .RelevantDocs }}
             <tr>
-              <td class="mdl-data-table__cell--non-numeric">{{ $doc.ColTitle }}</td>
-              <td class="mdl-data-table__cell--non-numeric"><a href='/{{$doc.HTMLFile}}'>{{ $doc.Title }}</a></td>
-              <td class="mdl-data-table__cell--non-numeric">{{ $doc.Count }}</td>
+              <td>{{ $doc.ColTitle }}</td>
+              <td><a href='/{{$doc.HTMLFile}}'>{{ $doc.Title }}</a></td>
+              <td>{{ $doc.Count }}</td>
             </tr>
           {{ end }}
           </tbody>
@@ -175,33 +192,33 @@
 
         {{ if .Collocations }}
         <h3>Collocations</h3>
-        <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+        <table>
           <thead>
             <tr>
-              <th class="mdl-data-table__cell--non-numeric">Simplified</th>
-              <th class="mdl-data-table__cell--non-numeric">Traditional</th>
-              <th class="mdl-data-table__cell--non-numeric">Example</th>
-              <th class="mdl-data-table__cell--non-numeric">Example Reference</th>
-              <th class="mdl-data-table__cell--non-numeric">Frequency</th>
+              <th>Simplified</th>
+              <th>Traditional</th>
+              <th>Example</th>
+              <th>Example Reference</th>
+              <th>Frequency</th>
             </tr>
           </thead>
           <tbody>
           {{ range $c := .Collocations }}
             <tr>
-              <td class="mdl-data-table__cell--non-numeric">
+              <td>
                 {{ $c.BigramVal.Simplified }}
               </td>
-              <td class="mdl-data-table__cell--non-numeric">
+              <td>
                 {{ $c.BigramVal.Traditional }} 
               </td>
-              <td class="mdl-data-table__cell--non-numeric">
+              <td>
                 {{ $c.BigramVal.Example }} 
               </td>
-              <td class="mdl-data-table__cell--non-numeric">
+              <td>
                  {{ $c.BigramVal.ExColTitle }}
                  <a href="/{{ $c.BigramVal.ExFile }}">{{ $c.BigramVal.ExDocTitle }}</a>
               </td>
-              <td class="mdl-data-table__cell--non-numeric">
+              <td>
                 {{ $c.Frequency }} 
               </td>
             </tr>
@@ -212,44 +229,62 @@
         
       </div> <!-- word-detail -->
 
-        <footer class="mdl-mini-footer">
-          <div class="mdl-mini-footer__left-section">
-            <div>Copyright Fo Guang Shan 佛光山 2013-2018. This work is licensed
-              under a <a rel="license"
-              href="http://creativecommons.org/licenses/by/4.0/">Creative
-              Commons Attribution 4.0 International License</a>.Please send
-              comments to alex@chinesenotes.com.
-            </div>
-            <div>Page updated on {{.DateUpdated}}</div>
-          </div>
-          <div class="mdl-mini-footer__right-section">
-            <div><a href="/abbreviations.html">Abbreviations</a></div>
-            <div><a href="/reference.html">Reference</a></div>
-            <div><a href="/help.html">Help</a></div>
-            <div><a href="/about.html">About</a></div>
-          </div>
-        </footer>
+        </div>
       </main>
+
+      <footer class="page-footer">
+        <div>Copyright Fo Guang Shan 佛光山 2013-2018. This work is licensed
+          under a <a rel="license"
+          href="http://creativecommons.org/licenses/by/4.0/">Creative
+          Commons Attribution 4.0 International License</a>.Please send
+          comments to alex@chinesenotes.com.
+        </div>
+        <div>Page updated on {{.DateUpdated}}</div>
+        <div class="mdl-mini-footer__right-section">
+          <div><a href="/abbreviations.html">Abbreviations</a></div>
+          <div><a href="/reference.html">Reference</a></div>
+          <div><a href="/help.html">Help</a></div>
+          <div><a href="/about.html">About</a></div>
+        </div>
+      </footer>
     </div>
-    <dialog id="VocabDialog" class="mdl-dialog">
-      <h4 id="DialogTitle" class="mdl-dialog__title"></h4>
-      <div class="mdl-dialog__content">
-        <p id="DialogDetail">
-          <div id="DialogPinyin"></div>
-          <div id="DialogEnglish"></div>
+  <div class="mdc-dialog"
+     id="CnotesVocabDialog"
+     role="alertdialog"
+     aria-modal="true"
+     aria-labelledby="my-dialog-title"
+     aria-describedby="my-dialog-content">
+    <div class="mdc-dialog__container">
+      <!-- Title cannot contain leading whitespace due to mdc-typography-baseline-top() -->
+      <div class="mdc-dialog__surface cnotes-primer-vocab-box">
+        <header class="mdc-dialog__header">
+          <h2 class="mdc-dialog__title" id="VocabDialogTitle"><!--
+         -->Chinese<!--
+       --></h2>
+        </header>
+        <section class="mdc-dialog__body">
+          <p><span class="cnnotes-pinyin" id="PinyinSpan">Pinyin</span> &nbsp;
+             <span class="cnnotes-english-equiv" id="EnglishSpan">English</span>
+          </p>
+          <p>
+            <span id="DialogLink"></span>
+            <button type="button" id="DialogCopyButton" class="mdc-button">
+              <i class="material-icons">content_copy</i>
+            </button>
         </p>
-        <p id="DialogLink">
-        </p>
+        </section>
+        <footer class="mdc-dialog__actions">
+          <button type="button"
+                  class="mdc-button mdc-dialog__button mdc-dialog__button--default"
+                  data-mdc-dialog-action="accept"
+                  >OK</button>
+        </footer>
       </div>
-      <div class="mdl-dialog__actions">
-        <button type="button" id="DialogCloseButton" class="mdl-button close">Close</button>
-      </div>
-    </dialog>
-    <script src="/script/jquery-3.3.1.min.js"></script>
-    <script src="/script/material.min.js"></script>
-    <!--<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>-->
-    <script src="/script/dialog-polyfill.js"></script>
-    <script src="/script/vocab.js"></script>
+    </div>
+    <div class="mdc-dialog__scrim"></div>
+  </div>
+    <script src="/cnotes-compiled.js" async></script>
     <script src="/script/find.js"></script>
+    <script src="/script/findadvanced.js"></script>
   </body>
 </html>

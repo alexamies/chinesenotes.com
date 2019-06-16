@@ -805,22 +805,3 @@ fieldset {
   background-color: #FF8;
   padding: 5px;
 }
-
-/* Chaguan / Teahouse*/
-/* Act header */
-h2.chaguan {
-  text-align: center;
-  color: #444;
-  font-weight: normal;
-}
-
-/* The name of the character speaking */
-.renwu {
-  font-style: italic;
-}
-
-/* The lines that the character reads */
-.line {
-  margin-left: 125px;
-  margin-top: -1em;
-}

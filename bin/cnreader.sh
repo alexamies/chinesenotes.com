@@ -149,6 +149,7 @@ cd src/cnreader
 ./cnreader -html
 cd $CNREADER_HOME
 cp web-resources/*.css $WEB_DIR/.
+cp web-resources/*.js $WEB_DIR/.
 cp web-resources/script/*.js $WEB_DIR/script/.
 cp web-resources/images/*.* $WEB_DIR/images/.
 cp web-resources/mp3/*.* $WEB_DIR/mp3/.

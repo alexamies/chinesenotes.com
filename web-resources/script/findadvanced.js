@@ -74,7 +74,6 @@ MAX_TITLE_LEN = 80;
     var helpBlock = document.getElementById("lookup-help-block");
     if (helpBlock) {
       helpBlock.innerHTML ="Searching ...";
-      componentHandler.upgradeElement(helpBlock);
     }
     console.log("makeRequest: Sent request");
   }
@@ -86,8 +85,10 @@ MAX_TITLE_LEN = 80;
         console.log(httpRequest.responseText);
         obj = JSON.parse(httpRequest.responseText);
 
-        $("#lookup-help-block").hide();
-
+        let helpBlock = document.getElementById("lookup-help-block")
+        if (helpBlock) {
+          helpBlock.style.display = 'none';
+        }
         var numDocuments = obj.NumDocuments;
         var documents = obj.Documents;
 
@@ -101,7 +102,6 @@ MAX_TITLE_LEN = 80;
           } else if (spand) {
             spand.innerHTML = numDocuments;
           }
-          componentHandler.upgradeElement(spand);
 
           // Add detailed results for documents
           if (numDocuments > 0) {
@@ -127,7 +127,6 @@ MAX_TITLE_LEN = 80;
               addDocument(documents[i], dTbody);
             }
             dTable.appendChild(dTbody);
-            componentHandler.upgradeElement(dTbody);
             dTable.style.display = "block";
             var docResultsDiv = document.getElementById("docResultsDiv");
             docResultsDiv.style.display = "block";
@@ -164,7 +163,6 @@ MAX_TITLE_LEN = 80;
             console.log("alertContents: not able to handle this case", terms);
           }
           qPara.appendChild(qBody);
-          componentHandler.upgradeElement(qPara);
           qPara.style.display = "block";
           var qTitle = document.getElementById("queryTermsTitle");
           qTitle.style.display = "block";

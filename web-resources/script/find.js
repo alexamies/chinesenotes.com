@@ -69,9 +69,6 @@
     var helpBlock = document.getElementById("lookup-help-block");
     if (helpBlock) {
       helpBlock.innerHTML ="Searching ...";
-      if (typeof componentHandler != "undefined") {
-        componentHandler.upgradeElement(helpBlock);
-      }
     }
     console.log("makeRequest: Sent request");
   }
@@ -92,7 +89,6 @@ function addColToTable(collection, tbody) {
     var gloss_file = collection.GlossFile;
     var tr = document.createElement("tr");
     var td = document.createElement("td");
-    td.setAttribute("class", "mdl-data-table__cell--non-numeric");
     tr.appendChild(td);
     var a = document.createElement("a");
     a.setAttribute("href", gloss_file);
@@ -115,7 +111,6 @@ function addDocToTable(doc, dTbody) {
     var gloss_file = doc.GlossFile;
     var tr = document.createElement("tr");
     var td = document.createElement("td");
-    td.setAttribute("class", "mdl-data-table__cell--non-numeric");
     tr.appendChild(td);
     var a = document.createElement("a");
     a.setAttribute("href", gloss_file);
@@ -167,7 +162,6 @@ function addEquivalent(ws, maxLen, englishSpan) {
 function addTermToTable(term, qTbody) {
   var tr = document.createElement("tr");
   var td1 = document.createElement("td");
-  td1.setAttribute("class", "mdl-data-table__cell--non-numeric");
   tr.appendChild(td1);
   var qText = term.QueryText;
   var pinyin = "";
@@ -190,12 +184,10 @@ function addTermToTable(term, qTbody) {
     td1.appendChild(textNode1);
   }
   var td2 = document.createElement("td");
-  td2.setAttribute("class", "mdl-data-table__cell--non-numeric");
   tr.appendChild(td2);
   var textNode2 = document.createTextNode(pinyin);
   td2.appendChild(textNode2);
   var td3 = document.createElement("td");
-  td3.setAttribute("class", "mdl-data-table__cell--non-numeric");
   tr.appendChild(td3);
   //console.log("terms.DictEntry: " + terms[i].DictEntry);
   if (term.DictEntry && term.DictEntry.Senses) {
@@ -213,7 +205,6 @@ function addTermToTable(term, qTbody) {
 function addWordSense(sense, qTbody) {
   var tr = document.createElement("tr");
   var td1 = document.createElement("td");
-  td1.setAttribute("class", "mdl-data-table__cell--non-numeric");
   tr.appendChild(td1);
   var chinese = sense.Simplified;
   console.log("alertContents: chinese", chinese);
@@ -234,13 +225,11 @@ function addWordSense(sense, qTbody) {
   a.appendChild(textNode1);
   td1.appendChild(a);
   var td2 = document.createElement("td");
-  td2.setAttribute("class", "mdl-data-table__cell--non-numeric");
   tr.appendChild(td2);
   pinyin = sense.Pinyin;
   var textNode2 = document.createTextNode(pinyin);
   td2.appendChild(textNode2);
   var td3 = document.createElement("td");
-  td3.setAttribute("class", "mdl-data-table__cell--non-numeric");
   tr.appendChild(td3);
   var wsArray = [sense];
   var englishSpan = combineEnglish(wsArray, wordURL)
@@ -342,7 +331,10 @@ function processAJAX(httpRequest) {
       console.log("alertContents: Got a successful response");
       console.log(httpRequest.responseText);
       var obj = JSON.parse(httpRequest.responseText);
-      $("#lookup-help-block").hide();
+      let helpBlock = document.getElementById("lookup-help-block")
+      if (helpBlock) {
+        helpBlock.style.display = 'none';
+      }
       // If there is only one result, redirect to it
       var numCollections = obj.NumCollections;
       var numDocuments = obj.NumDocuments;
@@ -365,14 +357,8 @@ function processAJAX(httpRequest) {
         console.log("alertContents: processing summary reults");
         var span = document.getElementById("NumCollections");
         span.innerHTML = numCollections;
-        if (typeof componentHandler != "undefined") {
-          componentHandler.upgradeElement(span);
-        }
         var spand = document.getElementById("NumDocuments");
         spand.innerHTML = numDocuments;
-        if (typeof componentHandler != "undefined") {
-          componentHandler.upgradeElement(spand);
-        }
 
         // Add detailed results for collections
         if (numCollections > 0) {
@@ -388,9 +374,6 @@ function processAJAX(httpRequest) {
             addColToTable(collections[i], tbody);
           }
           table.appendChild(tbody);
-          if (typeof componentHandler != "undefined") {
-            componentHandler.upgradeElement(tbody);
-          }
           table.style.display = "block";
           var colResultsDiv = document.getElementById("colResultsDiv");
           colResultsDiv.style.display = "block";
@@ -411,9 +394,6 @@ function processAJAX(httpRequest) {
             addDocToTable(documents[i], dTbody);
           }
           dTable.appendChild(dTbody);
-          if (typeof componentHandler != "undefined") {
-            componentHandler.upgradeElement(dTbody);
-          }
           dTable.style.display = "block";
           var docResultsDiv = document.getElementById("docResultsDiv");
           docResultsDiv.style.display = "block";
@@ -465,9 +445,6 @@ function processAJAX(httpRequest) {
           console.log("alertContents: not able to handle this case", terms)
         }
         qTable.appendChild(qTbody);
-        if (typeof componentHandler != "undefined") {
-          componentHandler.upgradeElement(qTbody);
-        }
         qTable.style.display = "block";
         var qTitle = document.getElementById("queryTermsTitle");
         qTitle.style.display = "block";

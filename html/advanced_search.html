@@ -1,17 +1,17 @@
       <div>
         </p>
-        <h2>Text Search</h2>
+        <h2>Full Text Search</h2>
         <p>
           Search for documents containing text.
         </p>
         <p>
-          <form name="findAdvancedForm" id="findAdvancedForm" action="findadvanced">
-            <div class="mdl-textfield mdl-js-textfield">
-              <label for="findInput">Search for </label>
-              <input class="mdl-textfield__input" type="text" name="text"
+          <form name="findForm" id="findAdvancedForm" action="findadvanced">
+            <div class="mdc-text-field">
+              <label class="mdc-floating-label" for="findInput" >Search for</label>
+              <input class="mdc-text-field__input" type="text" name="text"
                      id="findInput" required/>
             </div>
-            <button  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+            <button class="mdc-button"
                  type="submit" id="findSubmit">Find Documents</button>
           </form>
         </p>
@@ -36,10 +36,9 @@
             <div>
               Number of matching documents: <span id="NumDocuments"></span>
             </div>
-            <table id="findDocResultsTable"
-                   class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+            <table id="findDocResultsTable">
               <thead>
-                <tr><th class="mdl-data-table__cell--non-numeric">Title</th></tr>
+                <tr><th>Title</th></tr>
               </thead>
               <tbody id="findDocResultsBody">
               </tbody>
