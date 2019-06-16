@@ -10,12 +10,18 @@
         </p>
         <p>
           <form name="findForm" id="findForm" action="#">
-            <div class="mdl-textfield mdl-js-textfield">
-              <label for="findInput">Search for </label>
-              <input class="mdl-textfield__input" type="text" name="findInput" id="findInput" required/>
+            <div class="mdc-text-field">
+              <label class="mdc-floating-label" for="findInput">
+                Search for
+              </label>
+              <input class="mdc-text-field__input" type="text" name="findInput"
+                   id="findInput" required/>
+              <div class="mdc-line-ripple"></div>
             </div>
-            <button  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-                 type="submit" id="findSubmit">Find</button>
+            <div>
+            <button class="mdc-button"
+                  type="submit" id="findSubmit">Find</button>
+            </div>
           </form>
         </p>
         <p>
@@ -30,13 +36,12 @@
         <!--Decomposition of query terms entered by the user -->
         <div id="queryTerms">
           <h4 id="queryTermsTitle">Dictionary Looup</h4>
-          <table id="queryTermsTable"
-                 class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+          <table id="queryTermsTable">
             <thead>
               <tr>
-                <th class="mdl-data-table__cell--non-numeric">Chinese</th>
-                <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
-                <th class="mdl-data-table__cell--non-numeric">English</th>
+                <th>Chinese</th>
+                <th>Pinyin</th>
+                <ths>English</th>
               </tr>
             </thead>
             <tbody id="queryTermsBody">
@@ -55,10 +60,9 @@
 
           <div id="colResultsDiv">
             <h4 id="findResultsTitle">Document Collections</h4>
-            <table id="findResultsTable"
-                   class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+            <table id="findResultsTable">
               <thead>
-                <tr><th class="mdl-data-table__cell--non-numeric">Title</th></tr>
+                <tr><th >Title</th></tr>
               </thead>
               <tbody id="findResultsBody">
               </tbody>
@@ -67,10 +71,9 @@
 
           <div id="docResultsDiv">
             <h4 id="findDocResultsTitle">Documents</h4>
-            <table id="findDocResultsTable"
-                   class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+            <table id="findDocResultsTable">
               <thead>
-                <tr><th class="mdl-data-table__cell--non-numeric">Title</th></tr>
+                <tr><th>Title</th></tr>
               </thead>
               <tbody id="findDocResultsBody">
               </tbody>
