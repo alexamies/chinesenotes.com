@@ -578,6 +578,7 @@ func FindDocuments(parser QueryParser, query string,
 	collections := findCollections(query)
 	documents, err := findDocuments(query, terms, advanced)
 	if err != nil {
+		applog.Error("FindDocuments, error from findDocuments: ", err)
 		// Got an error, see if we can connect and try again
 		if hello() {
 			documents, err = findDocuments(query, terms, advanced)

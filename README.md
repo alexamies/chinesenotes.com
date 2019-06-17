@@ -623,6 +623,8 @@ gcloud compute backend-services add-backend $BACKEND_NAME \
     --instance-group $MIG \
     --instance-group-zone $ZONE \
     --global
+gcloud compute backend-services update $BACKEND_NAME \
+    --port-name=$PORTNAME
 ```
 
 Configure the backend bucket
