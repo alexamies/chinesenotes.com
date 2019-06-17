@@ -581,7 +581,7 @@ gcloud compute instance-groups managed get-named-ports $MIG
 
 To add a new named port use the command
 ```
-PORTNAME=hsingyunport
+PORTNAME=cnotesport
 PORT=30080
 gcloud compute instance-groups managed set-named-ports $MIG \
   --named-ports="$PORTNAME:$PORT" \
@@ -611,7 +611,7 @@ gcloud compute health-checks create http $HEALTH_CHECK_NAME --port=$PORT \
 Configure the load balancer backend service
 ```
 
-BACKEND_NAME=cnotes-backend
+BACKEND_NAME=cnotes-backend-prod
 gcloud compute backend-services create $BACKEND_NAME \
      --protocol HTTP \
      --health-checks $HEALTH_CHECK_NAME \
@@ -628,35 +628,34 @@ gcloud compute backend-services add-backend $BACKEND_NAME \
 Configure the backend bucket
 
 ```
-BACKEND_BUCKET=cnotes-web-bucket
+BACKEND_BUCKET=cnotes-web-bucket-prod
 gcloud compute backend-buckets create $BACKEND_BUCKET --gcs-bucket-name $BUCKET
 ```
 
 Configure the load balancer
 ```
-URL_MAP=[your url-map]
+URL_MAP=cnotes-map-prod
 gcloud compute url-maps create $URL_MAP \
     --default-backend-bucket $BACKEND_BUCKET
-MATCHER_NAME=cnotes-url-matcher
+MATCHER_NAME=cnotes-url-matcher-prod
 gcloud compute url-maps add-path-matcher $URL_MAP \
     --default-backend-bucket $BACKEND_BUCKET \
     --path-matcher-name $MATCHER_NAME \
     --path-rules="/find/*=$BACKEND_NAME,/findadvanced/*=$BACKEND_NAME,/findmedia/*=$BACKEND_NAME"
 
-TARGET_PROXY=cnotes-lb-proxy
+TARGET_PROXY=cnotes-lb-proxy-prod
 gcloud compute target-http-proxies create $TARGET_PROXY \
     --url-map $URL_MAP
 
-STATIC_IP=cnotes-web
+STATIC_IP=cnotes-web-prod
 gcloud compute addresses create $STATIC_IP --global
 
-FORWARDING_RULE=cnotes-content-rule
+FORWARDING_RULE=cnotes-content-rule-prod
 gcloud compute forwarding-rules create $FORWARDING_RULE \
     --address $STATIC_IP \
     --global \
     --target-http-proxy $TARGET_PROXY \
     --ports 80
-
 ```
 
 Setting a named port may take manual editing in the cloud console since the
