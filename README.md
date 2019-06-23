@@ -704,3 +704,29 @@ To update an existing deployment using the GCP Container Registry
 kubectl apply -f kubernetes/app-deployment.yaml
 kubectl apply -f kubernetes/app-service.yaml
 ```
+### HTTPS SEtup
+Create an SSL cert
+```
+SSL_CERTIFICATE_NAME=cnotes-cert
+DOMAIN=chinesenotes.com
+gcloud beta compute ssl-certificates create $SSL_CERTIFICATE_NAME \
+    --domains $DOMAIN
+```
+
+Create a target proxy
+```
+SSL_TARGET_PROXY=cnotes-target-proxy-ssl
+gcloud compute target-https-proxies create $SSL_TARGET_PROXY \
+    --url-map=$URL_MAP \
+    --ssl-certificates=$SSL_CERTIFICATE_NAME
+```
+
+Create a forwarding rule
+```
+SSL_FORWARDING_RULE=cnotes-forwarding-rule-prod-ssl
+gcloud compute forwarding-rules create $SSL_FORWARDING_RULE \
+    --address $STATIC_IP \
+    --ports=443 \
+    --global \
+    --target-https-proxy $SSL_TARGET_PROXY
+```
