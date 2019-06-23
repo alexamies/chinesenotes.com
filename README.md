@@ -408,7 +408,7 @@ gcloud docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
 
 ### Web Front End
 
-### Material Design Web
+#### Material Design Web
 Check whether you have nodejs installed
 ```
 node -v
@@ -431,7 +431,7 @@ To compile the JavaScript source run
 npm run build
 ```
 
-### HTML File Generation
+#### HTML File Generation
 To generate all HTML files, from the top level project directory
 ```
 export CNREADER_HOME=`pwd`
