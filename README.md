@@ -657,7 +657,7 @@ gcloud compute forwarding-rules create $FORWARDING_RULE \
     --address $STATIC_IP \
     --global \
     --target-http-proxy $TARGET_PROXY \
-    --ports 80
+    --ports 80,443
 ```
 
 Setting a named port may take manual editing in the cloud console since the

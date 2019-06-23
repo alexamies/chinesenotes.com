@@ -89,15 +89,18 @@
       <p>
         <form name="findAdvancedForm" id="findAdvancedForm"
               action="/advanced_search.html#">
-          <div class="mdl-textfield mdl-js-textfield">
-            <label for="findInput">Search for documents containing</label>
-            <input class="mdl-textfield__input" type="text" name="text"
-                   id="findInput" required/>
+          <div class="mdc-text-field">
+            <label class="mdc-floating-label" for="findInput"
+              >Search within collection for</label>
+            <input type="text" id="findInput" name="text"
+                   size="40" class="mdc-text-field__input">
+            <div class="mdc-line-ripple"></div>
             <input type="hidden" name="redirectToFullText" id="redirectToFullText"
                    value="DoDirect"/>
           </div>
-          <button  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-                   type="submit" id="findSubmit">Find Documents</button>
+          <button class="mdc-button" type="submit" id="findSubmit">
+            <span class="mdc-button__label">Find Documents</span>
+          </button>
         </form>
       </p>
       <p>
