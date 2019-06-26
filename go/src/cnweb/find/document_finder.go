@@ -69,20 +69,21 @@ type QueryResults struct {
 
 // Open database connection and prepare statements
 func init() {
+	applog.Info("find.init Initializing document_finder")
 	err := initStatements()
 	if err != nil {
-		applog.Error("find/init: error preparing database statements, retrying",
+		applog.Error("find.init: error preparing database statements, retrying",
 			err)
 		time.Sleep(60000 * time.Millisecond)
 		err = initStatements()
 		conString := webconfig.DBConfig()
-		applog.Fatal("find/init: error preparing database statements, giving up",
+		applog.Fatal("find.init: error preparing database statements, giving up",
 			conString, err)
 	}
 	result := hello() 
 	if !result {
 		conString := webconfig.DBConfig()
-		applog.Fatal("find/init: got error with findWords ", conString, err)
+		applog.Fatal("find.init: got error with findWords ", conString, err)
 	}
 	docMap = cacheDocDetails()
 	colMap = cacheColDetails()

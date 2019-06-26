@@ -44,7 +44,7 @@ FROM words
 WHERE pinyin = ? OR english LIKE ?
 LIMIT 20`)
     if err != nil {
-        applog.Error("find.init() Error preparing fwstmt: ", err)
+        applog.Error("find.initQueries() Error preparing fwstmt: ", err)
         return err
     }
     findEnglishStmt = fwstmt
@@ -102,6 +102,7 @@ func findWordsByEnglish(query string) ([]WordSense, error) {
 
 // Loads all words from the database
 func LoadDict() (map[string]Word, error) {
+	start := time.Now()
 	wdict := map[string]Word{}
 	conString := webconfig.DBConfig()
 	database, err := sql.Open("mysql", conString)
@@ -174,5 +175,6 @@ func LoadDict() (map[string]Word, error) {
 			}
 		}
 	}
+	applog.Info("LoadDict, loading time: ", time.Since(start))
 	return wdict, nil
 }

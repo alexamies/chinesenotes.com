@@ -62,7 +62,7 @@ func init() {
 		time.Sleep(60000 * time.Millisecond)
 		err = initStatements()
 		conString := webconfig.DBConfig()
-		applog.Fatal("identity/init: error preparing database statements, giving up",
+		applog.Error("identity/init: error preparing database statements, giving up",
 			conString, err)
 	}
 	applog.Info("identity/init: Ready to go, ")
@@ -73,9 +73,9 @@ func initStatements() error {
 	conString := webconfig.DBConfig()
 	db, err := sql.Open("mysql", conString)
 	if err != nil {
-		applog.Fatal("FATAL: could not connect to the database, ",
+		applog.Error("FATAL: could not connect to the database, ",
 			err)
-		panic(err.Error())
+		//panic(err.Error())
 	}
 	database = db
 

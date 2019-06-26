@@ -25,6 +25,7 @@ var (
 )
 
 func init() {
+	applog.Info("cnweb.main.init Initializing cnweb")
 	wdict, err := find.LoadDict()
 	if err != nil {
 		applog.Error("main.init() unable to load dictionary: ", err)

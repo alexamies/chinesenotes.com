@@ -21,6 +21,7 @@ type MediaMetadata struct {
 
 // Open database connection and prepare query
 func init() {
+	applog.Info("media.init Initializing mediameta")
 	err := initQuery()
 	if err != nil {
 		applog.Error("media/init: error preparing database statements, retrying",
@@ -28,7 +29,7 @@ func init() {
 		time.Sleep(60000 * time.Millisecond)
 		err = initQuery()
 		conString := webconfig.DBConfig()
-		applog.Fatal("media/init: error preparing database statements, giving up",
+		applog.Error("media/init: error preparing database statements, giving up",
 			conString, err)
 	}
 }

@@ -19,6 +19,7 @@ var (
 )
 
 func init() {
+	applog.Info("webconfig.init Initializing webconfig")
 	localhost := "localhost"
 	domain = &localhost
 	site_domain := os.Getenv("SITEDOMAIN")
