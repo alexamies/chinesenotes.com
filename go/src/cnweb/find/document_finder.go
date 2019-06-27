@@ -70,25 +70,21 @@ type QueryResults struct {
 // Open database connection and prepare statements
 func init() {
 	applog.Info("find.init Initializing document_finder")
+	avdl = webconfig.GetEnvIntValue("AVG_DOC_LEN", AVG_DOC_LEN)
 	err := initStatements()
 	if err != nil {
-		applog.Error("find.init: error preparing database statements, retrying",
-			err)
-		time.Sleep(60000 * time.Millisecond)
-		err = initStatements()
-		conString := webconfig.DBConfig()
-		applog.Fatal("find.init: error preparing database statements, giving up",
-			conString, err)
+		applog.Error("find.init: error preparing database statements, running in" +
+				"degraded mode", err)
+		return
 	}
 	result := hello() 
 	if !result {
 		conString := webconfig.DBConfig()
-		applog.Fatal("find.init: got error with findWords ", conString, err)
+		applog.Error("find.init: got error with findWords ", conString, err)
 	}
 	docMap = cacheDocDetails()
 	colMap = cacheColDetails()
 	docFileMap = cacheDocFileMap()
-	avdl = webconfig.GetEnvIntValue("AVG_DOC_LEN", AVG_DOC_LEN)
 }
 
 // For printing out retrieved document metadata
@@ -103,6 +99,9 @@ func (doc Document) String() string {
 
 // Cache the details of all collecitons by target file name
 func cacheColDetails() map[string]string {
+	if findAllColTitlesStmt == nil {
+		return map[string]string{}
+	}
 	colMap = map[string]string{}
 	ctx := context.Background()
 	results, err := findAllColTitlesStmt.QueryContext(ctx)
@@ -192,6 +191,9 @@ func combineByWeight(doc Document, maxSimWords, maxSimBigram float64) Document {
 }
 
 func countCollections(query string) int {
+	if countColStmt == nil {
+		return -1
+	}
 	var count int
 	ctx := context.Background()
 	results, err := countColStmt.QueryContext(ctx, "%" + query + "%")
@@ -208,6 +210,9 @@ func countCollections(query string) int {
 //  Param: terms - The decomposed query string with 0 < num elements < 7
 func findBodyBM25(terms []string) ([]Document, error) {
 	applog.Info("findBodyBM25, terms = ", terms)
+	if simBM251Stmt == nil {
+		return []Document{}, nil
+	}
 	ctx := context.Background()
 	var results *sql.Rows
 	var err error
@@ -250,6 +255,9 @@ func findBodyBM25(terms []string) ([]Document, error) {
 func findBodyBM25InCol(terms []string,
 		col_gloss_file string) ([]Document, error) {
 	applog.Info("findBodyBM25InCol, terms = ", terms)
+	if simBM25Col1Stmt == nil {
+		return []Document{}, nil
+	}
 	ctx := context.Background()
 	var results *sql.Rows
 	var err error
@@ -295,6 +303,9 @@ func findBodyBM25InCol(terms []string,
 //  Param: terms - The decomposed query string with 1 < num elements < 7
 func findBodyBigram(terms []string) ([]Document, error) {
 	applog.Info("findBodyBigram, terms = ", terms)
+	if simBigram1Stmt == nil {
+		return []Document{}, nil
+	}
 	ctx := context.Background()
 	var results *sql.Rows
 	var err error
@@ -359,21 +370,33 @@ func findBodyBgInCol(terms []string,
 		applog.Error("findBodyBgInCol, len(terms) < 2", len(terms))
 		return []Document{}, errors.New("Too few arguments")
 	} else if len(terms) == 2 {
+		if simBgCol1Stmt == nil {
+			return []Document{}, nil
+		}
 		bigram1 := terms[0] + terms[1]
 		results, err = simBgCol1Stmt.QueryContext(ctx, avdl, bigram1,
 			col_gloss_file)
 	} else if len(terms) == 3 {
+		if simBgCol2Stmt == nil {
+			return []Document{}, nil
+		}
 		bigram1 := terms[0] + terms[1]
 		bigram2 := terms[1] + terms[2]
 		results, err = simBgCol2Stmt.QueryContext(ctx, avdl, bigram1, bigram2,
 			col_gloss_file)
 	}  else if len(terms) == 4 {
+		if simBgCol3Stmt == nil {
+			return []Document{}, nil
+		}
 		bigram1 := terms[0] + terms[1]
 		bigram2 := terms[1] + terms[2]
 		bigram3 := terms[2] + terms[3]
 		results, err = simBgCol3Stmt.QueryContext(ctx, avdl, bigram1, bigram2,
 			bigram3, col_gloss_file)
 	}  else if len(terms) == 5 {
+		if simBgCol4Stmt == nil {
+			return []Document{}, nil
+		}
 		bigram1 := terms[0] + terms[1]
 		bigram2 := terms[1] + terms[2]
 		bigram3 := terms[2] + terms[3]
@@ -382,6 +405,9 @@ func findBodyBgInCol(terms []string,
 			bigram3, bigram4, col_gloss_file)
 	}  else {
 		// Ignore arguments beyond the first six
+		if simBgCol5Stmt == nil {
+			return []Document{}, nil
+		}
 		bigram1 := terms[0] + terms[1]
 		bigram2 := terms[1] + terms[2]
 		bigram3 := terms[2] + terms[3]
@@ -407,6 +433,9 @@ func findBodyBgInCol(terms []string,
 }
 
 func findCollections(query string) []Collection {
+	if findColStmt == nil {
+		return []Collection{}
+	}
 	ctx := context.Background()
 	results, err := findColStmt.QueryContext(ctx, "%" + query + "%")
 	if err != nil {
@@ -425,6 +454,9 @@ func findCollections(query string) []Collection {
 
 // Find documents based on a match in title
 func findDocsByTitle(query string) ([]Document, error) {
+	if findDocStmt == nil {
+		return []Document{}, nil
+	}
 	ctx := context.Background()
 	results, err := findDocStmt.QueryContext(ctx, "%" + query + "%")
 	if err != nil {
@@ -446,6 +478,9 @@ func findDocsByTitle(query string) ([]Document, error) {
 
 // Find documents based on a match in title within a specific collection
 func findDocsByTitleInCol(query, col_gloss_file string) ([]Document, error) {
+	if findDocInColStmt == nil {
+		return []Document{}, nil
+	}
 	ctx := context.Background()
 	results, err := findDocInColStmt.QueryContext(ctx, "%" + query + "%",
 		col_gloss_file)
@@ -632,6 +667,9 @@ func FindDocumentsInCol(parser QueryParser, query,
 // Returns the headword words in the query (only a single word based on Chinese
 // query)
 func findWords(query string) ([]Word, error) {
+	if findWordStmt == nil {
+		return []Word{}, nil
+	}
 	ctx := context.Background()
 	results, err := findWordStmt.QueryContext(ctx, query, query)
 	if err != nil {

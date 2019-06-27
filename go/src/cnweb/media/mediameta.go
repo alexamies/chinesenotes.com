@@ -24,13 +24,8 @@ func init() {
 	applog.Info("media.init Initializing mediameta")
 	err := initQuery()
 	if err != nil {
-		applog.Error("media/init: error preparing database statements, retrying",
-			err)
-		time.Sleep(60000 * time.Millisecond)
-		err = initQuery()
-		conString := webconfig.DBConfig()
-		applog.Error("media/init: error preparing database statements, giving up",
-			conString, err)
+		applog.Error("media/init: error preparing database statements, running " +
+			"in degraded mode", err)
 	}
 }
 

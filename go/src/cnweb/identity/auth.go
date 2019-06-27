@@ -57,13 +57,9 @@ type UserInfo struct {
 func init() {
 	err := initStatements()
 	if err != nil {
-		applog.Error("identity/init: error preparing database statements, retrying",
-			err)
-		time.Sleep(60000 * time.Millisecond)
-		err = initStatements()
-		conString := webconfig.DBConfig()
-		applog.Error("identity/init: error preparing database statements, giving up",
-			conString, err)
+		applog.Error("identity/init: error preparing database statements, running" +
+			"in degraded mode", err)
+		return
 	}
 	applog.Info("identity/init: Ready to go, ")
 }
@@ -232,6 +228,9 @@ func ChangePassword(userInfo UserInfo, oldPassword, password string) ChangePassw
 
 // Check password when the user logs in
 func CheckLogin(username, password string) ([]UserInfo, error) {
+	if loginStmt == nil {
+		return []UserInfo{}, nil
+	}
 	h := sha256.New()
 	h.Write([]byte(password))
 	hstr := fmt.Sprintf("%x", h.Sum(nil))
@@ -281,6 +280,9 @@ func CheckSession(sessionid string) SessionInfo {
 // Check session when the user requests a page
 func checkSessionStore(sessionid string) []SessionInfo {
 	applog.Info("CheckSession, sessionid: ", sessionid)
+	if checkSessionStmt == nil {
+		return []SessionInfo{}
+	}
 	ctx := context.Background()
 	results, err := checkSessionStmt.QueryContext(ctx, sessionid)
 	if err != nil {
@@ -305,6 +307,9 @@ func checkSessionStore(sessionid string) []SessionInfo {
 // Get the user information
 func GetUser(username string) ([]UserInfo, error) {
 	applog.Info("getUser, username:", username)
+	if getUserStmt == nil {
+		return []UserInfo{}, nil
+	}
 	ctx := context.Background()
 	results, err := getUserStmt.QueryContext(ctx, username)
 	defer results.Close()
@@ -360,6 +365,9 @@ func IsAuthorized(user UserInfo, permission string) bool {
 
 // Log the user out of the current session
 func Logout(sessionid string) {
+	if logoutStmt == nil {
+		return
+	}
 	ctx := context.Background()
 	result, err := logoutStmt.ExecContext(ctx, sessionid)
 	if err != nil {
@@ -407,6 +415,9 @@ func RequestPasswordReset(email string) RequestResetResult {
 		return RequestResetResult{true, false, true, InvalidUser(), ""}
 	}
 	ctx := context.Background()
+	if getUserByEmailStmt == nil {
+		return RequestResetResult{}
+	}
 	results, err := getUserByEmailStmt.QueryContext(ctx, email)
 	defer results.Close()
 	if err != nil {
@@ -439,6 +450,9 @@ func RequestPasswordReset(email string) RequestResetResult {
 // Reset a password
 func ResetPassword(token, password string) bool {
 	applog.Info("ResetPassword, token:", token)
+	if getResetRequestStmt == nil {
+		return false
+	}
 	ctx := context.Background()
 	results, err := getResetRequestStmt.QueryContext(ctx, token)
 	defer results.Close()
@@ -484,6 +498,9 @@ func ResetPassword(token, password string) bool {
 // Save an authenticated session to the database
 func SaveSession(sessionid string, userInfo UserInfo, authenticated int) SessionInfo {
 	applog.Info("SaveSession, sessionid:", sessionid)
+	if saveSessionStmt == nil {
+		return SessionInfo{}
+	}
 	ctx := context.Background()
 	result, err := saveSessionStmt.ExecContext(ctx, sessionid, userInfo.UserID,
 		authenticated)

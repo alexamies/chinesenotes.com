@@ -7,9 +7,13 @@ import (
 	"context"
 	"cnweb/applog"
 	"database/sql"
+	"encoding/csv"
 	_ "github.com/go-sql-driver/mysql"
-	"cnweb/webconfig"
+	"os"
+	"strconv"
 	"time"
+
+	"cnweb/webconfig"
 )
 
 var (
@@ -55,7 +59,7 @@ LIMIT 20`)
 // Returns the word senses with English approximate or Pinyin exact match
 func findWordsByEnglish(query string) ([]WordSense, error) {
 	if findEnglishStmt == nil {
-		initQueries()
+		return []WordSense{}, nil
 	}
 	ctx := context.Background()
 	likeEnglish := "%" + query + "%"
@@ -106,21 +110,21 @@ func LoadDict() (map[string]Word, error) {
 	wdict := map[string]Word{}
 	conString := webconfig.DBConfig()
 	database, err := sql.Open("mysql", conString)
-    if err != nil {
+  if err != nil {
         applog.Error("find.load_dict connecting to database: ", err)
-        return wdict, err
+        return loadDictFile()
 	}
 	ctx := context.Background()
 	stmt, err := database.PrepareContext(ctx, 
 		"SELECT id, simplified, traditional, pinyin, english, notes, headword FROM words")
     if err != nil {
         applog.Error("find.load_dict Error preparing stmt: ", err)
-        return wdict, err
+        return loadDictFile()
     }
 	results, err := stmt.QueryContext(ctx)
 	if err != nil {
 		applog.Error("find.load_dict, Error for query: ", err)
-        return wdict, err
+        return loadDictFile()
 	}
 	for results.Next() {
 		ws := WordSense{}
@@ -176,5 +180,100 @@ func LoadDict() (map[string]Word, error) {
 		}
 	}
 	applog.Info("LoadDict, loading time: ", time.Since(start))
+	return wdict, nil
+}
+
+// Loads all words from a static file included in the Docker image
+func loadDictFile() (map[string]Word, error) {
+	applog.Info("loadDictFile, enter")
+	start := time.Now()
+	wdict := map[string]Word{}
+	wsFilenames := []string{"data/words.txt"}
+	for _, wsfilename := range wsFilenames {
+		applog.Info("dictionary.loadDictFile: wsfilename: ", wsfilename)
+		wsfile, err := os.Open(wsfilename)
+		if err != nil {
+			applog.Error("dictionary.loadDictFile, error: ", err)
+			return wdict, err
+		}
+		defer wsfile.Close()
+		reader := csv.NewReader(wsfile)
+		reader.FieldsPerRecord = -1
+		reader.Comma = rune('\t')
+		reader.Comment = '#'
+		rawCSVdata, err := reader.ReadAll()
+		if err != nil {
+			applog.Error("Could not parse lexical units file", err)
+			return wdict, err
+		}
+		for i, row := range rawCSVdata {
+			id, err := strconv.ParseInt(row[0], 10, 0)
+			if err != nil {
+				applog.Error("Could not parse word id for word ", i, err)
+				return wdict, err
+			}
+			simp := row[1]
+			trad := row[2]
+			pinyin := row[3]
+			english := row[4]
+			grammar := row[5]
+			notes := row[14]
+			hwId := 0
+			if len(row) == 16 {
+				hwIdInt, err := strconv.ParseInt(row[15], 10, 0)
+				if err != nil {
+					applog.Info("loadDictFile, id: %d, simp: %s, trad: %s, " + 
+						"pinyin: %s, english: %s, grammar: %s\n",
+						id, simp, trad, pinyin, english, grammar,)
+					applog.Error("loadDictFile: Could not parse headword id for word ",
+						id, err)
+				}
+				hwId = int(hwIdInt)
+			} else {
+				applog.Info("loadDictFile, No. cols: %d\n",len(row))
+				applog.Info("loadDictFile, id: %d, simp: %s, trad: %s, pinyin: %s, " +
+					"english: %s, grammar: %s\n",
+					id, simp, trad, pinyin, english, grammar)
+				applog.Error("loadDictFile wrong number of columns ", id, err)
+			}
+			ws := WordSense{}
+			ws.Id = hwId
+			ws.Simplified =simp
+			ws.HeadwordId = hwId
+			ws.Traditional = trad
+			ws.Pinyin = pinyin
+			ws.English = english
+			ws.Notes = notes
+			word, ok := wdict[ws.Simplified]
+			if ok {
+				word.Senses = append(word.Senses, ws)
+				wdict[word.Simplified] = word
+			} else {
+				word = Word{}
+				word.Simplified = ws.Simplified
+				word.Traditional = ws.Traditional
+				word.Pinyin = ws.Pinyin
+				word.HeadwordId = ws.HeadwordId
+				word.Senses = []WordSense{ws}
+				wdict[word.Simplified] = word
+			}
+			if trad != "\\N" {
+				word1, ok1 := wdict[trad]
+				if ok1 {
+					word1.Senses = append(word1.Senses, ws)
+					wdict[word1.Traditional] = word1
+				} else {
+					word1 = Word{}
+					word1.Simplified = ws.Simplified
+					word1.Traditional = ws.Traditional
+					word1.Pinyin = ws.Pinyin
+					word1.HeadwordId = ws.HeadwordId
+					word1.Senses = []WordSense{ws}
+					wdict[word1.Traditional] = word1
+				}
+			}
+		}
+	}
+	applog.Info("loadDictFile, loading time: ", time.Since(start))
 	return wdict, nil
 }

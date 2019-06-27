@@ -128,9 +128,8 @@ func readConfig() map[string]string {
 	fileName := fmt.Sprintf("%s/webconfig.yaml", cnwebHome)
 	configFile, err := os.Open(fileName)
 	if err != nil {
-		if err != nil {
-			applog.Fatal("config.init fatal error: ", err)
-		}
+		applog.Error("config.init serious error, cannot load config: ", err)
+		return map[string]string{}
 	}
 	defer configFile.Close()
 	reader := bufio.NewReader(configFile)

@@ -16,6 +16,7 @@ func TestFindWordsByEnglish1(t *testing.T) {
 	}
 	if len(senses) == 0 {
 		t.Error("TestFindWordsByEnglish1: len(senses) == 0")
+		return
 	}
 	if len(senses[0].Pinyin) == 0 {
 		t.Error("TestFindWordsByEnglish1: len(senses[0].Pinyin) == 0",
@@ -33,6 +34,7 @@ func TestFindWordsByEnglish2(t *testing.T) {
 	}
 	if len(senses) == 0 {
 		t.Error("TestFindWordsByEnglish2: len(senses) == 0")
+		return
 	}
 	if len(senses[0].Pinyin) == 0 {
 		t.Error("TestFindWordsByEnglish: len(senses[0].Pinyin) == 0",

@@ -377,7 +377,14 @@ Build the Docker image for the Go application:
 docker build -f docker/go/Dockerfile -t cn-app-image .
 ```
 
-Run it locally
+Run it locally with minimal features (C-E dictionary lookp only) enabled
+```
+docker run -it --rm -p 8080:8080 --name cn-app \
+  --mount type=bind,source="$(pwd)",target=/cnotes \
+  cn-app-image
+```
+
+Run it locally with all features enabled
 ```
 DBUSER=app_user
 DBPASSWORD="***"
