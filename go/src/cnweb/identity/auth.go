@@ -281,6 +281,7 @@ func CheckSession(sessionid string) SessionInfo {
 func checkSessionStore(sessionid string) []SessionInfo {
 	applog.Info("CheckSession, sessionid: ", sessionid)
 	if checkSessionStmt == nil {
+		applog.Info("CheckSession, checkSessionStmt == nil")
 		return []SessionInfo{}
 	}
 	ctx := context.Background()
@@ -451,6 +452,7 @@ func RequestPasswordReset(email string) RequestResetResult {
 func ResetPassword(token, password string) bool {
 	applog.Info("ResetPassword, token:", token)
 	if getResetRequestStmt == nil {
+		applog.Error("ResetPassword, getResetRequestStmt == nil")
 		return false
 	}
 	ctx := context.Background()
