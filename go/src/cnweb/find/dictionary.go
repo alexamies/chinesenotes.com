@@ -218,6 +218,9 @@ func loadDictFile() (map[string]Word, error) {
 			english := row[4]
 			grammar := row[5]
 			notes := row[14]
+			if notes == "\\N" {
+				notes = ""
+			}
 			hwId := 0
 			if len(row) == 16 {
 				hwIdInt, err := strconv.ParseInt(row[15], 10, 0)
