@@ -16,6 +16,7 @@ func TestParseChinese0(t *testing.T) {
 	terms := parser.parse_chinese(query)
 	if len(terms) != 1 {
 		t.Error("TestParseChinese0: len(terms) != 1: ", terms)
+		return
 	}
 	if terms[0].QueryText != s1 {
 		t.Error("TestParseChinese0: terms[0] != s1: ", s1, terms)
@@ -34,6 +35,7 @@ func TestParseChinese1(t *testing.T) {
 	terms := parser.parse_chinese(query)
 	if len(terms) != 2 {
 		t.Error("TestParseChinese1: len(terms) != 2: ", terms)
+		return
 	}
 	if terms[0].QueryText != s1 {
 		t.Error("TestParseChinese1: terms[0] != s1: ", s1, terms)
@@ -62,6 +64,7 @@ func TestParseChinese2(t *testing.T) {
 	terms := parser.parse_chinese(query)
 	if len(terms) != 2 {
 		t.Error("TestParseChinese2: len(terms) != 2: ", terms)
+		return
 	}
 	if terms[0].QueryText != s1 {
 		t.Error("TestParseChinese2: terms[0] != s1: ", s1, terms)
@@ -91,6 +94,7 @@ func TestParseChinese3(t *testing.T) {
 	terms := parser.parse_chinese(query)
 	if len(terms) != 3 {
 		t.Error("TestParseChinese2: len(terms) != 2: ", terms)
+		return
 	}
 	if terms[0].QueryText != s1 {
 		t.Error("TestParseChinese2: terms[0] != s1: ", s1, terms)
@@ -122,6 +126,7 @@ func TestParseChinese4(t *testing.T) {
 	terms := parser.parse_chinese(query)
 	if len(terms) != 5 {
 		t.Error("TestParseChinese2: len(terms) != 2: ", terms)
+		return
 	}
 	if terms[0].QueryText != s1 {
 		t.Error("TestParseChinese2: terms[0] != s1: ", s1, terms)

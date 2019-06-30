@@ -60,6 +60,26 @@ func GetAll() map[string]string {
 	return configVars
 }
 
+// The home directory of the Chinese Notes project
+func GetCnReaderHome() string {
+	cnReaderHome := os.Getenv("CNREADER_HOME")
+	if cnReaderHome == "" {
+		applog.Info("config.readConfig: CNREADER_HOME is not defined")
+		cnReaderHome = "."
+	}
+	return cnReaderHome
+}
+
+// The home directory of the web application
+func GetCnWebHome() string {
+	cnWebHome := os.Getenv("CNWEB_HOME")
+	if cnWebHome == "" {
+		applog.Info("config.readConfig: CNWEB_HOME is not defined")
+		cnWebHome = "."
+	}
+	return cnWebHome
+}
+
 // Get environment variable for sending email from
 func GetFromEmail() string {
 	fromEmail := os.Getenv("FROM_EMAIL")
@@ -120,11 +140,7 @@ func GetVar(key string) string {
 // Reads the configuration file with project variables
 func readConfig() map[string]string {
 	vars := make(map[string]string)
-	cnwebHome := os.Getenv("CNWEB_HOME")
-	if cnwebHome == "" {
-		applog.Error("config.readConfig: CNWEB_HOME is not defined")
-		cnwebHome = "."
-	}
+	cnwebHome := GetCnWebHome()
 	fileName := fmt.Sprintf("%s/webconfig.yaml", cnwebHome)
 	configFile, err := os.Open(fileName)
 	if err != nil {

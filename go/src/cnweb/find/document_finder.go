@@ -26,6 +26,7 @@ const (
 )
 
 var (
+	lastInitialized  time.Time
 	countColStmt *sql.Stmt
 	database *sql.DB
 	colMap map[string]string
@@ -67,24 +68,9 @@ type QueryResults struct {
 	Terms []TextSegment
 }
 
-// Open database connection and prepare statements
+// Initialize the package
 func init() {
-	applog.Info("find.init Initializing document_finder")
-	avdl = webconfig.GetEnvIntValue("AVG_DOC_LEN", AVG_DOC_LEN)
-	err := initStatements()
-	if err != nil {
-		applog.Error("find.init: error preparing database statements, running in" +
-				"degraded mode", err)
-		return
-	}
-	result := hello() 
-	if !result {
-		conString := webconfig.DBConfig()
-		applog.Error("find.init: got error with findWords ", conString, err)
-	}
-	docMap = cacheDocDetails()
-	colMap = cacheColDetails()
-	docFileMap = cacheDocFileMap()
+	initFind()
 }
 
 // For printing out retrieved document metadata
@@ -716,6 +702,33 @@ func hello() bool {
 	return true
 }
 
+// Open database connection and prepare statements. Allows for re-initialization
+// at most every minute
+func initFind() {
+	if time.Since(lastInitialized).Seconds() < 60 {
+		applog.Info("find.initFind Not initializing document_finder")
+		return
+	}
+	applog.Info("find.initFind Initializing document_finder, ",
+		time.Since(lastInitialized).Seconds(), " seconds")
+	avdl = webconfig.GetEnvIntValue("AVG_DOC_LEN", AVG_DOC_LEN)
+	err := initStatements()
+	if err != nil {
+		applog.Error("find.initFind: error preparing database statements, running in" +
+				"degraded mode", err)
+		return
+	}
+	result := hello() 
+	if !result {
+		conString := webconfig.DBConfig()
+		applog.Error("find.initFind: got error with findWords ", conString, err)
+	}
+	docMap = cacheDocDetails()
+	colMap = cacheColDetails()
+	docFileMap = cacheDocFileMap()
+	lastInitialized = time.Now()
+}
+
 func initStatements() error {
 	conString := webconfig.DBConfig()
 	db, err := sql.Open("mysql", conString)
@@ -726,11 +739,14 @@ func initStatements() error {
 
 	ctx := context.Background()
 
+	initEnglishQuery()
+
 	docListStmt, err = database.PrepareContext(ctx,
 		"SELECT plain_text_file, gloss_file " +
 		"FROM document")
     if err != nil {
         applog.Error("find.initStatements() Error for docListStmt: ", err)
+    	  applog.Info("find.initStatements() conString: ", conString)
         return err
     }
 

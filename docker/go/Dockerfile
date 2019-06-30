@@ -1,4 +1,4 @@
-FROM golang:1.11-stretch
+FROM golang:1.12-stretch
 
 ADD /go/src/cnweb /go/src/cnweb
 ADD /data/words.txt /data/words.txt

@@ -79,9 +79,11 @@ func TestFindDocuments3(t *testing.T) {
 	qr, err := FindDocuments(parser, "hello", false)
 	if err != nil {
 		t.Error("TestFindDocuments3: got error, ", err)
+		return
 	}
 	if len(qr.Terms) != 1 {
 		t.Error("TestFindDocuments3: len(qr.Terms) != 1, ", qr)
+		return
 	}
 	if len(qr.Terms[0].Senses) == 0 {
 		t.Error("TestFindDocuments3: len(qr.Terms.Senses) == 0, ", qr)

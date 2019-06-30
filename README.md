@@ -384,6 +384,11 @@ docker run -it --rm -p 8080:8080 --name cn-app \
   cn-app-image
 ```
 
+Test basic lookup with curl
+```
+curl http://localhost:8080/find/?query=妳好
+```
+
 Run it locally with all features enabled
 ```
 DBUSER=app_user

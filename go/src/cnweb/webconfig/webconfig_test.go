@@ -26,3 +26,11 @@ func TestGetSiteDomain(t *testing.T) {
 		t.Error("TestGetSiteDomain: domain = ", domain)
 	}
 }
+
+// Test get app home directory
+func TestGetCnWebHome(t *testing.T) {
+	cnwebHome := GetCnWebHome()
+	if cnwebHome == "" {
+		t.Error("TestGetCnWebHome: cnwebHome is empty")
+	}
+}

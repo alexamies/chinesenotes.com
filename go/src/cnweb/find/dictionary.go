@@ -16,6 +16,8 @@ import (
 	"cnweb/webconfig"
 )
 
+const DICT_FILE string = "data/words.txt"
+
 var (
 	findEnglishStmt *sql.Stmt
 )
@@ -33,7 +35,7 @@ type WordSense struct {
 	Simplified, Traditional, Pinyin, English, Notes string
 }
 
-func initQueries() error {
+func initEnglishQuery() error {
 	conString := webconfig.DBConfig()
 	db, err := sql.Open("mysql", conString)
 	if err != nil {
@@ -48,7 +50,7 @@ FROM words
 WHERE pinyin = ? OR english LIKE ?
 LIMIT 20`)
     if err != nil {
-        applog.Error("find.initQueries() Error preparing fwstmt: ", err)
+        applog.Error("find.initEnglishQuery() Error preparing fwstmt: ", err)
         return err
     }
     findEnglishStmt = fwstmt
@@ -58,17 +60,19 @@ LIMIT 20`)
 
 // Returns the word senses with English approximate or Pinyin exact match
 func findWordsByEnglish(query string) ([]WordSense, error) {
+	applog.Info("findWordsByEnglish, query = ", query)
 	if findEnglishStmt == nil {
-		return []WordSense{}, nil
+		applog.Error("findWordsByEnglish, findEnglishStmt == nil")
+		// Re-initialize the app
+		initFind()
 	}
 	ctx := context.Background()
 	likeEnglish := "%" + query + "%"
 	results, err := findEnglishStmt.QueryContext(ctx, query, likeEnglish)
 	if err != nil {
 		applog.Error("findWordsByEnglish, Error for query: ", query, err)
-		// Sleep for a while, reinitialize, and retry
-		time.Sleep(2000 * time.Millisecond)
-		initQueries()
+		// Re-initialize the app
+		initFind()
 		results, err = findEnglishStmt.QueryContext(ctx, query, query)
 		if err != nil {
 			applog.Error("findWordsByEnglish, Give up after retry: ", query, err)
@@ -188,10 +192,12 @@ func loadDictFile() (map[string]Word, error) {
 	applog.Info("loadDictFile, enter")
 	start := time.Now()
 	wdict := map[string]Word{}
-	wsFilenames := []string{"data/words.txt"}
+	wsFilenames := []string{DICT_FILE}
+	cnReaderHome := webconfig.GetCnReaderHome()
 	for _, wsfilename := range wsFilenames {
-		applog.Info("dictionary.loadDictFile: wsfilename: ", wsfilename)
-		wsfile, err := os.Open(wsfilename)
+		fName := cnReaderHome + "/" + wsfilename
+		applog.Info("dictionary.loadDictFile: fName: ", fName)
+		wsfile, err := os.Open(fName)
 		if err != nil {
 			applog.Error("dictionary.loadDictFile, error: ", err)
 			return wdict, err
