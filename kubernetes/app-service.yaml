@@ -3,8 +3,7 @@ kind: Service
 metadata:
   name: cnweb-app
   labels:
-    app: go
-    tier: backend
+    app: cnweb-app
 spec:
   type: NodePort
   ports:
@@ -13,5 +12,4 @@ spec:
     nodePort: 30080
     name: http
   selector:
-    app: go
-    tier: backend
+    run: cnweb-app

@@ -4,15 +4,17 @@ metadata:
   name: cnweb-app
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      run: cnweb-app
   template:
     metadata:
       labels:
-        app: go
-        tier: backend
+        run: cnweb-app
     spec:
       containers:
       - name: cnweb-app
-        image: gcr.io/hbreader-162018/cn-app-image:r101
+        image: gcr.io/hbreader-162018/cn-app-image:r106
         resources:
           limits:
             cpu: "200m"
