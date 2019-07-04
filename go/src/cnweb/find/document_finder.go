@@ -197,7 +197,13 @@ func countCollections(query string) int {
 func findBodyBM25(terms []string) ([]Document, error) {
 	applog.Info("findBodyBM25, terms = ", terms)
 	if simBM251Stmt == nil {
-		return []Document{}, nil
+		applog.Error("findBodyBM25, simBM251Stmt == nil")
+		// Re-initialize
+		initFind()
+		if simBM251Stmt == nil {
+			applog.Error("findBodyBM25, still simBM251Stmt == nil")
+		  return []Document{}, nil
+		}
 	}
 	ctx := context.Background()
 	var results *sql.Rows
@@ -496,7 +502,7 @@ func findDocuments(query string, terms []TextSegment,
 	if err != nil {
 		return nil, err
 	}
-	applog.Info("findDocuments, len(docs): ", query, len(docs))
+	applog.Info("findDocuments, by title len(docs): ", query, len(docs))
 	queryTerms := toQueryTerms(terms)
 	if (!advanced) {
 		return docs, nil

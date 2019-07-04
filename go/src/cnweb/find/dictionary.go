@@ -63,8 +63,12 @@ func findWordsByEnglish(query string) ([]WordSense, error) {
 	applog.Info("findWordsByEnglish, query = ", query)
 	if findEnglishStmt == nil {
 		applog.Error("findWordsByEnglish, findEnglishStmt == nil")
-		// Re-initialize the app
+		// Re-initialize
 		initFind()
+		if simBM251Stmt == nil {
+			applog.Error("findBodyBM25, still simBM251Stmt == nil")
+		  return []WordSense{}, nil
+		}
 	}
 	ctx := context.Background()
 	likeEnglish := "%" + query + "%"
