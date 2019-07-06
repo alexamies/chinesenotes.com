@@ -1,32 +1,34 @@
+import {Dictionary} from "./dictionary";
+import {Term} from "./term";
+
 /**
  * Helps users find Chinese words and multiword expressions and the English
  * equivalents.
  */
 export class WordFinder {
-  private query: string;
+  private dict: Dictionary;
 
   /**
    * Construct a WordFinder object
    *
-   * @param {!string} query - The query to use to look for matching expressions
+   * @param {!Dictionary} query - The query to use to look for matching expressions
    */
-  constructor(query: string) {
-    this.query = query;
-  }
-
-  /**
-   * The query supplied in the constructor
-   * @return {!string} The original query
-   */
-  public getQuery() {
-    return this.query;
+  constructor(dict: Dictionary) {
+    this.dict = dict;
   }
 
   /**
    * The decomposition of the query into individual terms
-   * @return {!Array<string>} The terms comprising the query
+   * @param {!string} query - The query to use to look for matching expressions
+   * @return {!Array<Term>} The terms comprising the query
    */
-  public getTerms() {
-    return this.query.split("");
+  public getTerms(query: string) {
+    const tokens = query.split("");
+    const terms = new Array<Term>();
+    for (const token of tokens) {
+      const term = this.dict.getTerm(token);
+      terms.push(term);
+    }
+    return terms;
   }
 }

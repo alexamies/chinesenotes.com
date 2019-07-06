@@ -1,1 +1,62 @@
-!function(e){var r={};function t(n){if(r[n])return r[n].exports;var o=r[n]={i:n,l:!1,exports:{}};return e[n].call(o.exports,o,o.exports,t),o.l=!0,o.exports}t.m=e,t.c=r,t.d=function(e,r,n){t.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:n})},t.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},t.t=function(e,r){if(1&r&&(e=t(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(t.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var o in e)t.d(n,o,function(r){return e[r]}.bind(null,o));return n},t.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(r,"a",r),r},t.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},t.p="",t(t.s=0)}([function(e,r,t){e.exports=t.p+"src/wordfinder.scss$/"}]);
+export class WordFinder {
+    constructor(dict) {
+        this.dict = dict;
+    }
+    getTerms(query) {
+        const tokens = query.split("");
+        const terms = new Array();
+        for (const token in tokens) {
+            const term = this.dict.getTerm(token);
+            terms.push(term);
+        }
+        return terms;
+    }
+}
+export class TestBuilder {
+    buildDictionary() {
+        const t1 = new Term("你", "you");
+        const t2 = new Term("好", "good");
+        const t3 = new Term("世", "world");
+        const t4 = new Term("界", "realm");
+        const t5 = new Term("！", "!");
+        const terms = new Array();
+        terms.push(t1);
+        terms.push(t2);
+        terms.push(t3);
+        terms.push(t4);
+        terms.push(t5);
+        const dict = new Dictionary();
+        dict.loadDictionary(terms);
+        return dict;
+    }
+}
+export class Dictionary {
+    constructor() {
+        this.headwords = new Map();
+    }
+    getTerm(chinese) {
+        const t = this.headwords.get(chinese);
+        if (t == undefined) {
+            return new Term(chinese, "Not found");
+        }
+        return t;
+    }
+    loadDictionary(terms) {
+        for (const entry of terms) {
+            this.headwords.set(entry.getChinese(), entry);
+        }
+    }
+}
+export class Term {
+    constructor(chinese, english) {
+        this.chinese = chinese;
+        this.english = english;
+    }
+    getChinese() {
+        return this.chinese;
+    }
+    getEnglish() {
+        return this.english;
+    }
+}
+//# sourceMappingURL=wordfinder.js.map

@@ -29,7 +29,13 @@ module.exports = [
     },
   },
   {
-    entry: "./cnotes.js",
+    //mode: 'development',
+    entry:  {
+      app: [
+        './cnotes.js',
+        './script/find.js'
+      ]
+    },
     output: {
       filename: "./cnotes-compiled.js",
     },

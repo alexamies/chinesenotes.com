@@ -9,7 +9,7 @@
         "strict": true,
         "sourceMap": true
     },
-    "files": [
-        "src/wordfinder.ts"
+    "include": [
+        "src"
     ]
 }

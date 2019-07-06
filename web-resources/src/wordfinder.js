@@ -1,12 +1,15 @@
 export class WordFinder {
-    constructor(query) {
-        this.query = query;
+    constructor(dict) {
+        this.dict = dict;
     }
-    getQuery() {
-        return this.query;
-    }
-    getTerms() {
-        return this.query.split("");
+    getTerms(query) {
+        const tokens = query.split("");
+        const terms = new Array();
+        for (const token of tokens) {
+            const term = this.dict.getTerm(token);
+            terms.push(term);
+        }
+        return terms;
     }
 }
 //# sourceMappingURL=wordfinder.js.map

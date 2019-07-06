@@ -39,7 +39,14 @@ module.exports = [
 {
   mode: 'development',
   entry: {
-    app: ['./src/wordfinder.js', './src/test.js']
+    app: [
+      './src/dictionary.js',
+      './src/idictionarybuilder.js',
+      './src/term.js',
+      './src/test.js',
+      './src/testbuilder.js',
+      './src/wordfinder.js'
+      ]
   },
   devtool: 'inline-source-map',
   devServer: {
