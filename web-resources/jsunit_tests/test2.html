@@ -2,8 +2,7 @@
  <head>
   <title>Test page for find.js</title>
   <script language="javascript" src="../jsunit/app/jsUnitCore.js"></script>
-  <script src="/script/jquery-3.3.1.min.js"></script>
-  <script language="javascript" src="../script/find.js"></script>
+  <script language="javascript" src="../dist/cnotes-compiled.js"></script>
  </head>
  <body>
   <h1>Test page for find.js</h1>
@@ -134,18 +133,10 @@
         <!--Decomposition of query terms entered by the user -->
         <div id="queryTerms">
           <h4 id="queryTermsTitle">Dictionary Looup</h4>
-          <table id="queryTermsTable"
-                 class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-            <thead>
-              <tr>
-                <th class="mdl-data-table__cell--non-numeric">Chinese</th>
-                <th class="mdl-data-table__cell--non-numeric">Pinyin</th>
-                <th class="mdl-data-table__cell--non-numeric">English</th>
-              </tr>
-            </thead>
-            <tbody id="queryTermsBody">
-            </tbody>
-          </table>
+          <div id="queryTermsDiv">
+            <ul id="queryTermsList" class="mdc-list mdc-list--two-line">
+            </ul>
+          </div>
         </div> <!--queryTerms-->
 
         <div id="findResults">
