@@ -421,27 +421,8 @@ gcloud docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
 ### Web Front End
 
 #### Material Design Web
-Check whether you have nodejs installed
-```
-node -v
-```
-
-If needed install [nodejs](https://nodejs.org/en/).
-
-```
-cd web-resources
-```
-
-To install the MD Web components and dependencies:
-```
-npm install
-npm install --save-dev babel-core babel-loader babel-preset-es2015
-```
-
-To compile the JavaScript source run 
-```
-npm run build
-```
+See the section web-resources/README.md for compiling and testing JavaScript
+and CSS files, including ther Material Design resources.
 
 #### HTML File Generation
 To generate all HTML files, from the top level project directory

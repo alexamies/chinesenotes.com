@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "lib": ["es6"],
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "target": "es6",
+        "strict": true,
+        "sourceMap": true
+    },
+    "files": [
+        "src/wordfinder.ts"
+    ]
+}
