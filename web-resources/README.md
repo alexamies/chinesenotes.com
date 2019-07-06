@@ -18,7 +18,7 @@ cd web-resources
 To install the MD Web components and dependencies:
 ```
 npm install
-npm install --save-dev babel-core babel-loader babel-preset-es2015
+npm install --save-dev babel-core babel-loader babel-preset-es2015 dart-sass fibers
 ```
 
 To compile the JavaScript source run 
@@ -76,6 +76,7 @@ npm run compile_dev
 
 Run the Webpack dev-server
 ```
+cp src/wordfinder.css dist/.
 cp src/wordfinder.js dist/.
 npm run start_dev
 ```
