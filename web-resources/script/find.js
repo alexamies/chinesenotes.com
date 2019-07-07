@@ -220,12 +220,13 @@ function addWordSense(sense, qList) {
   span.className = "mdc-list-item__text";
   li.appendChild(span);
   const spanL1 = document.createElement("span");
+  spanL1.className = "mdc-list-item__primary-text";
   let chinese = sense.Simplified;
   console.log("alertContents: chinese", chinese);
   if (sense.Traditional) {
     chinese += " (" + sense.Traditional + ")";
   }
-  let textNode1 = document.createTextNode(chinese);
+  let tNode1 = document.createTextNode(chinese);
   let pinyin = "";
   let english = "";
   // Add link to word detail page
@@ -235,8 +236,9 @@ function addWordSense(sense, qList) {
   a.setAttribute("href", wordURL);
   a.setAttribute("title", "Details for word");
   a.setAttribute("class", "query-term");
-  a.appendChild(textNode1);
+  a.appendChild(tNode1);
   spanL1.appendChild(a);
+  span.appendChild(spanL1);
 
   // Secondary text is the other details
   const spanL2 = document.createElement("span");
@@ -441,7 +443,7 @@ function processAJAX(httpRequest) {
         console.log("alertContents: detailed results for dictionary lookup");
         const queryTermsDiv = document.getElementById("queryTermsDiv");
         let qOldList = document.getElementById("queryTermsList");
-        if ((typeof qOldList === "undefined") && qOldList.parentNode) {
+        if (qOldList && qOldList.parentNode) {
           qOldList.parentNode.removeChild(qOldList);
         }
  
