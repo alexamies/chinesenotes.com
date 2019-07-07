@@ -401,11 +401,12 @@ function processAJAX(httpRequest) {
         // Add detailed results for documents
         if (numDocuments > 0) {
           console.log("alertContents: detailed results for documents");
-          var dTable = document.getElementById("findDocResultsTable");
-          if (typeof dOldBody === "undefined") {
-            dOldBody = document.getElementById("findDocResultsBody");
+          let dTable = document.getElementById("findDocResultsTable");
+          let dOldBody = document.getElementById("findDocResultsBody");
+          if (dOldBody && dOldBody.parentNode) {
+            dOldBody.parentNode.removeChild(dOldBody);
           }
-          dTable.removeChild(dOldBody);
+
           var dTbody = document.createElement("tbody");
           var numDoc = documents.length;
           for (let i = 0; i < numDoc; i += 1) {
@@ -415,7 +416,6 @@ function processAJAX(httpRequest) {
           dTable.style.display = "block";
           var docResultsDiv = document.getElementById("docResultsDiv");
           docResultsDiv.style.display = "block";
-          dOldBody = dTbody;
         }
 
         document.getElementById("findResults").style.display = "block";
