@@ -132,7 +132,7 @@ function addDocToTable(doc, dTbody) {
 //   maxLen - the maximum length of text to add to the span
 //   englishSpan - span HTML element
 // Returns a HTML element that the object is added to
-function addEquivalent(ws, maxLen, englishSpan) {
+function addEquivalent(ws, maxLen, englishSpan, j) {
   var equivalent = " " + (j + 1) + ". " + ws.English;
   var textLen2 = equivalent.length;
   var equivSpan = document.createElement("span");
@@ -293,7 +293,7 @@ function combineEnglish(senses, wordURL) {
     // For a list of two, give the enumeration with equivalents and notes
     console.log("WordSense " + senses.length);
     for (let j = 0; j < senses.length; j += 1) {
-      addEquivalent(senses[j], maxLen, englishSpan);
+      addEquivalent(senses[j], maxLen, englishSpan, j);
     }
   } else if (senses.length > 2) {
     // For longer lists, give the enumeration with equivalents only
