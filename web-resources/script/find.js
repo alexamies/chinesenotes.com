@@ -220,7 +220,7 @@ function addWordSense(sense, qList) {
   span.className = "mdc-list-item__text";
   li.appendChild(span);
   const spanL1 = document.createElement("span");
-  const chinese = sense.Simplified;
+  let chinese = sense.Simplified;
   console.log("alertContents: chinese", chinese);
   if (sense.Traditional) {
     chinese += " (" + sense.Traditional + ")";
@@ -229,9 +229,9 @@ function addWordSense(sense, qList) {
   let pinyin = "";
   let english = "";
   // Add link to word detail page
-  var hwId = sense.HeadwordId;
+  let hwId = sense.HeadwordId;
   const wordURL = "/words/" + hwId + ".html";
-  var a = document.createElement("a");
+  let a = document.createElement("a");
   a.setAttribute("href", wordURL);
   a.setAttribute("title", "Details for word");
   a.setAttribute("class", "query-term");
@@ -245,8 +245,8 @@ function addWordSense(sense, qList) {
   const tNode2 = document.createTextNode(pinyin + " ");
   spanL2.appendChild(tNode2);
   span.appendChild(spanL2);
-  var wsArray = [sense];
-  var englishSpan = combineEnglish(wsArray, wordURL)
+  let wsArray = [sense];
+  const englishSpan = combineEnglish(wsArray, wordURL)
   spanL2.appendChild(englishSpan);
 
   li.appendChild(span);
