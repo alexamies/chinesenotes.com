@@ -225,13 +225,12 @@ function addWordSense(sense, qList) {
   if (sense.Traditional) {
     chinese += " (" + sense.Traditional + ")";
   }
-  var textNode1 = document.createTextNode(chinese);
-  var pinyin = "";
-  var english = "";
-  var wordURL = "";
+  let textNode1 = document.createTextNode(chinese);
+  let pinyin = "";
+  let english = "";
   // Add link to word detail page
   var hwId = sense.HeadwordId;
-  wordURL = "/words/" + hwId + ".html";
+  const wordURL = "/words/" + hwId + ".html";
   var a = document.createElement("a");
   a.setAttribute("href", wordURL);
   a.setAttribute("title", "Details for word");
@@ -457,7 +456,7 @@ function processAJAX(httpRequest) {
           }
         } else if ((terms.length == 1) && terms[0].Senses) {
           console.log("alertContents: Query is English", terms[0].Senses)
-          senses = terms[0].Senses;
+          const senses = terms[0].Senses;
           for (let i = 0; i < senses.length; i++) {
             addWordSense(senses[i], qList);
           }
