@@ -29,7 +29,7 @@ module.exports = [
     },
   },
   {
-    //mode: 'development',
+    mode: 'development',
     entry:  {
       app: [
         './cnotes.js',
