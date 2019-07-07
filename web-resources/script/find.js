@@ -196,7 +196,7 @@ function addTermToList(term, qList) {
   const spanL2 = document.createElement("span");
   spanL2.className = "mdc-list-item__secondary-text";
   const textNode2 = document.createTextNode(pinyin + " ");
-  td2.appendChild(textNode2);
+  spanL2.appendChild(textNode2);
   //console.log("terms.DictEntry: " + terms[i].DictEntry);
   if (term.DictEntry && term.DictEntry.Senses) {
     spanL2.appendChild(combineEnglish(term.DictEntry.Senses, wordURL));
