@@ -442,9 +442,10 @@ function processAJAX(httpRequest) {
         console.log("alertContents: detailed results for dictionary lookup");
         const queryTermsDiv = document.getElementById("queryTermsDiv");
         if (typeof qOldList === "undefined") {
-          qOldList = document.getElementById("findResultsBody");
+          qOldList = document.getElementById("queryTermsList");
+        } else {
+          queryTermsDiv.removeChild(qOldList);
         }
-        queryTermsDiv.removeChild(qOldList);
  
         const qList = document.createElement("ul");
         qList.className = "mdc-list mdc-list--two-line";
