@@ -291,14 +291,14 @@ function combineEnglish(senses, wordURL) {
   } else if (senses.length == 2) {
     // For a list of two, give the enumeration with equivalents and notes
     console.log("WordSense " + senses.length);
-    for (j = 0; j < senses.length; j += 1) {
+    for (let j = 0; j < senses.length; j += 1) {
       addEquivalent(senses[j], maxLen, englishSpan);
     }
   } else if (senses.length > 2) {
     // For longer lists, give the enumeration with equivalents only
     //console.log("WordSense " + senses.length);
     var equiv = "";
-    for (j = 0; j < senses.length; j++) {
+    for (let j = 0; j < senses.length; j++) {
       equiv += (j + 1) + ". " + senses[j].English + "; ";
       if (equiv.length > maxLen) {
         equiv + " ...";
@@ -387,7 +387,7 @@ function processAJAX(httpRequest) {
           table.removeChild(oldBody);
           var tbody = document.createElement("tbody");
           var numCol = collections.length;
-          for (i = 0; i < numCol; i += 1) {
+          for (let i = 0; i < numCol; i += 1) {
             addColToTable(collections[i], tbody);
           }
           table.appendChild(tbody);
@@ -407,7 +407,7 @@ function processAJAX(httpRequest) {
           dTable.removeChild(dOldBody);
           var dTbody = document.createElement("tbody");
           var numDoc = documents.length;
-          for (i = 0; i < numDoc; i += 1) {
+          for (let i = 0; i < numDoc; i += 1) {
             addDocToTable(documents[i], dTbody);
           }
           dTable.appendChild(dTbody);
@@ -441,24 +441,24 @@ function processAJAX(httpRequest) {
       if (terms) {
         console.log("alertContents: detailed results for dictionary lookup");
         const queryTermsDiv = document.getElementById("queryTermsDiv");
-        if (typeof qOldList === "undefined") {
-          qOldList = document.getElementById("queryTermsList");
-        } else {
-          queryTermsDiv.removeChild(qOldList);
+        let qOldList = document.getElementById("queryTermsList");
+        if ((typeof qOldList === "undefined") && qOldList.parentNode) {
+          qOldList.parentNode.removeChild(qOldList);
         }
  
         const qList = document.createElement("ul");
+        qList.id = "queryTermsList";
         qList.className = "mdc-list mdc-list--two-line";
         if ((terms.length > 0) && terms[0].DictEntry && (!terms[0].Senses ||
               (terms[0].Senses.length == 0))) {
           console.log("alertContents: Query contain Chinese words", terms)
-          for (i = 0; i < terms.length; i += 1) {
+          for (let i = 0; i < terms.length; i += 1) {
             addTermToList(terms[i], qList);
           }
         } else if ((terms.length == 1) && terms[0].Senses) {
           console.log("alertContents: Query is English", terms[0].Senses)
           senses = terms[0].Senses;
-          for (i = 0; i < senses.length; i++) {
+          for (let i = 0; i < senses.length; i++) {
             addWordSense(senses[i], qList);
           }
         } else {
@@ -469,7 +469,6 @@ function processAJAX(httpRequest) {
         var qTitle = document.getElementById("queryTermsTitle");
         qTitle.style.display = "block";
         const list = new MDCList(qList);
-        qOldList = list;
         document.getElementById("queryTerms").style.display = "block";
       } else {
         console.log("alertContents: not able to load dictionary terms", terms)
