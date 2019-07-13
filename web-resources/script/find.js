@@ -419,12 +419,16 @@ function processAJAX(httpRequest) {
 
         document.getElementById("findResults").style.display = "block";
       } else {
-        var msg = "No matching titles found in document collection";
-        var elem = document.getElementById("findResults");
-        elem.style.display = "none";
-        elem = document.getElementById("findError");
-        elem.innerHTML = msg;
-        elem.style.display = "block";
+        const msg = "No matching titles found in document collection";
+        const elem = document.getElementById("findResults");
+        if (elem) {
+          elem.style.display = "none";
+        }
+        const elem2 = document.getElementById("findError");
+        if (elem2) {
+          elem2.innerHTML = msg;
+          elem2.style.display = "block";
+        }
       }
 
       var terms = obj.Terms;
