@@ -381,21 +381,20 @@ function processAJAX(httpRequest) {
         // Add detailed results for collections
         if (numCollections > 0) {
           console.log("alertContents: detailed results for collections");
-          var table = document.getElementById("findResultsTable");
-          if (typeof oldBody === "undefined") {
-            oldBody = document.getElementById("findResultsBody");
+          let table = document.getElementById("findResultsTable");
+          let oldBody = document.getElementById("findResultsBody");
+          if (oldBody && oldBody.parentNode) {
+            oldBody.parentNode.removeChild(oldBody);
           }
-          table.removeChild(oldBody);
-          var tbody = document.createElement("tbody");
-          var numCol = collections.length;
+          let tbody = document.createElement("tbody");
+          let numCol = collections.length;
           for (let i = 0; i < numCol; i += 1) {
             addColToTable(collections[i], tbody);
           }
           table.appendChild(tbody);
           table.style.display = "block";
-          var colResultsDiv = document.getElementById("colResultsDiv");
+          let colResultsDiv = document.getElementById("colResultsDiv");
           colResultsDiv.style.display = "block";
-          oldBody = tbody;
         }
 
         // Add detailed results for documents
