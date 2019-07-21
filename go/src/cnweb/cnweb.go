@@ -5,6 +5,7 @@ package main
 
 import (
 	"cnweb/applog"
+	"cnweb/dictionary"
 	"cnweb/find"
 	"cnweb/identity"
 	"cnweb/mail"
@@ -21,12 +22,13 @@ import (
 
 var (
 	parser find.QueryParser
-	wdict map[string]find.Word
+	wdict map[string]dictionary.Word
 )
 
 func init() {
 	applog.Info("cnweb.main.init Initializing cnweb")
-	wdict, err := find.LoadDict()
+	var err error
+	wdict, err = dictionary.LoadDict()
 	if err != nil {
 		applog.Error("main.init() unable to load dictionary: ", err)
 	}
@@ -115,6 +117,7 @@ func displayPage(w http.ResponseWriter, templateName string, content interface{}
 // HTML redirect to the index.html page, for healthchecks used by the load balancer.
 // Do not expect a user to hit this.
 func displayHome(w http.ResponseWriter, r *http.Request) {
+	applog.Error("displayHome: r.URL", r.URL)
 	page := `<!DOCTYPE html>
 <html>
   <head>
@@ -150,6 +153,12 @@ func enforceValidSession(w http.ResponseWriter, r *http.Request) identity.Sessio
 		return identity.InvalidSession()
 	}
 	return sessionInfo
+}
+
+// Finds documents matching the given query with search in text body
+func findAdvanced(response http.ResponseWriter, request *http.Request) {
+	applog.Info("main.findAdvanced, enter")
+	findDocs(response, request, true)
 }
 
 // Finds documents matching the given query
@@ -197,16 +206,43 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 	}
 }
 
-// Finds documents matching the given query with search in text body
-func findAdvanced(response http.ResponseWriter, request *http.Request) {
-	applog.Info("main.findAdvanced, enter")
-	findDocs(response, request, true)
-}
-
 // Finds documents matching the given query
 func findHandler(response http.ResponseWriter, request *http.Request) {
 	applog.Info("main.findHandler, enter")
 	findDocs(response, request, false)
+}
+
+// Finds terms matching the given query with a substring match
+func findSubstring(response http.ResponseWriter, request *http.Request) {
+	applog.Info("main.findSubstring, enter")
+	url := request.URL
+	queryString := url.Query()
+	query := queryString["query"]
+	q := ""
+	if len(query) > 0 {
+		q = query[0]
+	}
+	topic := queryString["topic"]
+	t := ""
+	if len(topic) > 0 {
+		t = topic[0]
+	}
+	results, err := dictionary.LookupSubstr(q, t)
+	if err != nil {
+		applog.Error("main.findSubstring Error looking up term, ", err)
+		http.Error(response, "Error looking up term",
+			http.StatusInternalServerError)
+		return
+	}
+	resultsJson, err := json.Marshal(results)
+	if err != nil {
+		applog.Error("main.findSubstring error marshalling JSON, ", err)
+		http.Error(response, "Error marshalling results",
+			http.StatusInternalServerError)
+	} else {
+		response.Header().Set("Content-Type", "application/json; charset=utf-8")
+		fmt.Fprintf(response, string(resultsJson))
+	}
 }
 
 // Health check for monitoring or load balancing system, checks reachability
@@ -467,6 +503,7 @@ func main() {
 	http.HandleFunc("/find/", findHandler)
 	http.HandleFunc("/findadvanced/", findAdvanced)
 	http.HandleFunc("/findmedia", mediaDetailHandler)
+	http.HandleFunc("/findsubstring", findSubstring)
 	http.HandleFunc("/healthcheck/", healthcheck)
 	http.HandleFunc("/loggedin/admin", adminHandler)
 	http.HandleFunc("/loggedin/changepassword", changePasswordFormHandler)

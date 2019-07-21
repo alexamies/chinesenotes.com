@@ -5,6 +5,7 @@ package find
 
 import (
 	"cnweb/applog"
+	"cnweb/dictionary"
 	"database/sql"
 	"context"
 	"errors"
@@ -595,7 +596,7 @@ func FindDocuments(parser QueryParser, query string,
 	if (len(terms) == 1) && (terms[0].DictEntry.HeadwordId == 0) {
 	    applog.Info("FindDocuments,Query does not contain Chinese, look for " +
 	    	"English and Pinyin matches: ", query)
-		senses, err := findWordsByEnglish(terms[0].QueryText)
+		senses, err := dictionary.FindWordsByEnglish(terms[0].QueryText)
 		if err != nil {
 			return QueryResults{}, err
 		} else {
@@ -636,7 +637,7 @@ func FindDocumentsInCol(parser QueryParser, query,
 	if (len(terms) == 1) && (terms[0].DictEntry.HeadwordId == 0) {
 	    applog.Info("FindDocumentsInCol, Query does not contain Chinese, " +
 	    	"look for English and Pinyin matches: ", query)
-		senses, err := findWordsByEnglish(terms[0].QueryText)
+		senses, err := dictionary.FindWordsByEnglish(terms[0].QueryText)
 		if err != nil {
 			return QueryResults{}, err
 		} else {
@@ -658,9 +659,9 @@ func FindDocumentsInCol(parser QueryParser, query,
 
 // Returns the headword words in the query (only a single word based on Chinese
 // query)
-func findWords(query string) ([]Word, error) {
+func findWords(query string) ([]dictionary.Word, error) {
 	if findWordStmt == nil {
-		return []Word{}, nil
+		return []dictionary.Word{}, nil
 	}
 	ctx := context.Background()
 	results, err := findWordStmt.QueryContext(ctx, query, query)
@@ -672,12 +673,12 @@ func findWords(query string) ([]Word, error) {
 		results, err = findWordStmt.QueryContext(ctx, query, query)
 		if err != nil {
 			applog.Error("findWords, Give up after retry: ", query, err)
-			return []Word{}, err
+			return []dictionary.Word{}, err
 		}
 	}
-	words := []Word{}
+	words := []dictionary.Word{}
 	for results.Next() {
-		word := Word{}
+		word := dictionary.Word{}
 		var hw sql.NullInt64
 		var trad sql.NullString
 		results.Scan(&word.Simplified, &trad, &word.Pinyin, &hw)
@@ -744,8 +745,6 @@ func initStatements() error {
 	database = db
 
 	ctx := context.Background()
-
-	initEnglishQuery()
 
 	docListStmt, err = database.PrepareContext(ctx,
 		"SELECT plain_text_file, gloss_file " +

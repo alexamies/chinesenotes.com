@@ -1,26 +1,31 @@
 /* 
 Functions to load Chinese-English dictionary from database
 */
-package find
+package dictionary
 
 import (
 	"context"
 	"cnweb/applog"
+	"cnweb/webconfig"
 	"database/sql"
 	"encoding/csv"
 	_ "github.com/go-sql-driver/mysql"
 	"os"
 	"strconv"
 	"time"
-
-	"cnweb/webconfig"
 )
 
 const DICT_FILE string = "data/words.txt"
 
 var (
+	database *sql.DB
 	findEnglishStmt *sql.Stmt
 )
+
+// Initialize the package
+func init() {
+	initDictionary()
+}
 
 // A top level word structure that may include multiple word senses
 type Word struct {
@@ -35,14 +40,28 @@ type WordSense struct {
 	Simplified, Traditional, Pinyin, English, Notes string
 }
 
-func initEnglishQuery() error {
+// Initialize the package
+func initDictionary() {
+	err := initDBCon()
+	if err != nil {
+	applog.Info("initDictionary, err: ", err)
+		return
+	}
+	initEnglishQuery()
+	initSubtrQuery()
+}
+
+func initDBCon() error {
 	conString := webconfig.DBConfig()
 	db, err := sql.Open("mysql", conString)
 	if err != nil {
 		return err
 	}
 	database = db
+	return nil
+}
 
+func initEnglishQuery() error {
 	ctx := context.Background()
 	fwstmt, err := database.PrepareContext(ctx, 
 `SELECT simplified, traditional, pinyin, english, notes, headword
@@ -50,23 +69,22 @@ FROM words
 WHERE pinyin = ? OR english LIKE ?
 LIMIT 20`)
     if err != nil {
-        applog.Error("find.initEnglishQuery() Error preparing fwstmt: ", err)
+        applog.Error("dictionary.initEnglishQuery() Error preparing fwstmt: ", err)
         return err
     }
     findEnglishStmt = fwstmt
-
     return nil
 }
 
 // Returns the word senses with English approximate or Pinyin exact match
-func findWordsByEnglish(query string) ([]WordSense, error) {
+func FindWordsByEnglish(query string) ([]WordSense, error) {
 	applog.Info("findWordsByEnglish, query = ", query)
 	if findEnglishStmt == nil {
-		applog.Error("findWordsByEnglish, findEnglishStmt == nil")
+		applog.Error("FindWordsByEnglish, findEnglishStmt == nil")
 		// Re-initialize
-		initFind()
-		if simBM251Stmt == nil {
-			applog.Error("findBodyBM25, still simBM251Stmt == nil")
+		initDictionary()
+		if findEnglishStmt == nil {
+			applog.Error("FindWordsByEnglish, still findEnglishStmt == nil")
 		  return []WordSense{}, nil
 		}
 	}
@@ -74,12 +92,12 @@ func findWordsByEnglish(query string) ([]WordSense, error) {
 	likeEnglish := "%" + query + "%"
 	results, err := findEnglishStmt.QueryContext(ctx, query, likeEnglish)
 	if err != nil {
-		applog.Error("findWordsByEnglish, Error for query: ", query, err)
+		applog.Error("FindWordsByEnglish, Error for query: ", query, err)
 		// Re-initialize the app
-		initFind()
+		initDictionary()
 		results, err = findEnglishStmt.QueryContext(ctx, query, query)
 		if err != nil {
-			applog.Error("findWordsByEnglish, Give up after retry: ", query, err)
+			applog.Error("FindWordsByEnglish, Give up after retry: ", query, err)
 			return []WordSense{}, err
 		}
 	}
@@ -89,7 +107,7 @@ func findWordsByEnglish(query string) ([]WordSense, error) {
 		var hw sql.NullInt64
 		var trad, pinyin, english, notes sql.NullString
 		results.Scan(&ws.Simplified, &trad, &pinyin, &english, &notes, &hw)
-		applog.Info("findWordsByEnglish, simplified, headword = ",
+		applog.Info("FindWordsByEnglish, simplified, headword = ",
 			ws.Simplified, hw)
 		if trad.Valid {
 			ws.Traditional = trad.String
@@ -108,7 +126,7 @@ func findWordsByEnglish(query string) ([]WordSense, error) {
 		}
 		senses = append(senses, ws)
 	}
-	applog.Info("findWordsByEnglish, len(senses): ", len(senses))
+	applog.Info("FindWordsByEnglish, len(senses): ", len(senses))
 	return senses, nil
 }
 

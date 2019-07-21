@@ -4,6 +4,7 @@ Functions for parsing a search query
 package find
 
 import (
+	"cnweb/dictionary"
 	"log"
 	"strings"
 	"unicode"
@@ -15,7 +16,7 @@ type QueryParser interface {
 	ParseQuery(query string) []TextSegment
 }
 
-type DictQueryParser struct{WDict map[string]Word}
+type DictQueryParser struct{WDict map[string]dictionary.Word}
 
 // A text segment contains the QueryText searched for and possibly a matching
 // dictionary entry. There will only be matching dictionary entries for 
@@ -24,8 +25,8 @@ type DictQueryParser struct{WDict map[string]Word}
 // included in the Senses field.
 type TextSegment struct{
 	QueryText string
-	DictEntry Word
-	Senses []WordSense
+	DictEntry dictionary.Word
+	Senses []dictionary.WordSense
 }
 
 // The method for parsing the query text in this function is based on dictionary
@@ -93,7 +94,7 @@ func (parser DictQueryParser) parse_chinese(text string) []TextSegment {
 		for j := len(characters); j > 0; j-- {
 			w := strings.Join(characters[i:j], "")
 			if entry, ok := parser.WDict[w]; ok {
-				seg := TextSegment{w, entry, []WordSense{}}
+				seg := TextSegment{w, entry, []dictionary.WordSense{}}
 				terms = append(terms, seg)
 				i = j - 1
 				j = 0

@@ -1,5 +1,5 @@
 // Unit tests for query parsing functions
-package find
+package dictionary
 
 import (
 	"log"
@@ -9,7 +9,7 @@ import (
 // Test trivial query with empty dictionary
 func TestFindWordsByEnglish(t *testing.T) {
 	log.Printf("TestFindWordsByEnglish1: Begin unit tests\n")
-	senses, error := findWordsByEnglish("hello")
+	senses, error := FindWordsByEnglish("hello")
 	log.Printf("TestFindWordsByEnglish1: senses: %v, error: %v\n", senses, error)
 }
 

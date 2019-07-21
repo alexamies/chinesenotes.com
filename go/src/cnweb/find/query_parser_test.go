@@ -2,6 +2,7 @@
 package find
 
 import (
+	"cnweb/dictionary"
 	"log"
 	"testing"
 )
@@ -9,7 +10,7 @@ import (
 // Test trivial query with empty dictionary
 func TestParseChinese0(t *testing.T) {
 	log.Printf("TestParseChinese: Begin unit tests\n")
-	dict := map[string]Word{}
+	dict := map[string]dictionary.Word{}
 	parser := DictQueryParser{dict}
 	s1 := "小"
 	query := s1
@@ -27,7 +28,7 @@ func TestParseChinese0(t *testing.T) {
 // Test simple query with empty dictionary
 func TestParseChinese1(t *testing.T) {
 	log.Printf("TestParseChinese: Begin unit tests\n")
-	dict := map[string]Word{}
+	dict := map[string]dictionary.Word{}
 	parser := DictQueryParser{dict}
 	s1 := "小"
 	s2 := "王"
@@ -50,9 +51,9 @@ func TestParseChinese1(t *testing.T) {
 // Test simple query with non-empty dictionary
 func TestParseChinese2(t *testing.T) {
 	log.Printf("TestParseChinese: Begin unit tests\n")
-	dict := map[string]Word{}
+	dict := map[string]dictionary.Word{}
 	s1 := "小"
-	w := Word{}
+	w := dictionary.Word{}
 	w.Simplified = s1
 	w.Traditional = "\\N"
 	w.Pinyin = "xiǎo"
@@ -79,9 +80,9 @@ func TestParseChinese2(t *testing.T) {
 // Test less simple query with non-empty dictionary
 func TestParseChinese3(t *testing.T) {
 	log.Printf("TestParseChinese: Begin unit tests\n")
-	dict := map[string]Word{}
+	dict := map[string]dictionary.Word{}
 	s1 := "你好"
-	w := Word{}
+	w := dictionary.Word{}
 	w.Simplified = s1
 	w.Traditional = "\\N"
 	w.Pinyin = "nǐhǎo"
@@ -109,9 +110,9 @@ func TestParseChinese3(t *testing.T) {
 // Test less simple query, including punctuation, with non-empty dictionary
 func TestParseChinese4(t *testing.T) {
 	log.Printf("TestParseChinese: Begin unit tests\n")
-	dict := map[string]Word{}
+	dict := map[string]dictionary.Word{}
 	s1 := "你好"
-	w := Word{}
+	w := dictionary.Word{}
 	w.Simplified = s1
 	w.Traditional = "\\N"
 	w.Pinyin = "nǐhǎo"
@@ -140,7 +141,7 @@ func TestParseChinese4(t *testing.T) {
 
 // Test empty query
 func TestParseQuery0(t *testing.T) {
-	dict := map[string]Word{}
+	dict := map[string]dictionary.Word{}
 	parser := DictQueryParser{dict}
 	terms := parser.ParseQuery("")
 	if len(terms) != 0 {
@@ -151,7 +152,7 @@ func TestParseQuery0(t *testing.T) {
 // Test simple English query
 func TestParseQuery1(t *testing.T) {
 	query := "hello"
-	dict := map[string]Word{}
+	dict := map[string]dictionary.Word{}
 	parser := DictQueryParser{dict}
 	terms := parser.ParseQuery(query)
 	if len(terms) != 1 {
@@ -169,7 +170,7 @@ func TestParseQuery2(t *testing.T) {
 	s1 := "Hello"
 	s2 := "王"
 	query := s1 + s2
-	dict := map[string]Word{}
+	dict := map[string]dictionary.Word{}
 	parser := DictQueryParser{dict}
 	terms := parser.ParseQuery(query)
 	if len(terms) != 2 {
@@ -192,7 +193,7 @@ func TestParseQuery3(t *testing.T) {
 	s2 := "小"
 	s3 := "王"
 	query := s1 + s2 + s3
-	dict := map[string]Word{}
+	dict := map[string]dictionary.Word{}
 	parser := DictQueryParser{dict}
 	terms := parser.ParseQuery(query)
 	if len(terms) != 3 {
