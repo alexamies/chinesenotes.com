@@ -4,6 +4,10 @@ import {WordFinder} from "./wordfinder.js"
 
 function addResults() {
   const div = document.querySelector("#QueryDiv");
+  if (!div) {
+    console.log("#QueryDiv not found")
+    return;
+  }
   const q = "你好世界！";
   const builder = new TestBuilder();
   const dict = builder.buildDictionary();

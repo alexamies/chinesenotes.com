@@ -41,6 +41,7 @@ module.exports = [
   entry: {
     app: [
       './src/dictionary.js',
+      './src/events.js',
       './src/idictionarybuilder.js',
       './src/term.js',
       './src/test.js',

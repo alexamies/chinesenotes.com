@@ -3,6 +3,8 @@ This is a development directory for storing and generating artifacts that will
 be moved to the user-facing HTML directories, copied from the web-staging
 directory to the production storage system by bin/push.sh.
 
+Run the following commands from this directory.
+
 ## Material Design Web
 Check whether you have nodejs installed
 ```
@@ -41,6 +43,14 @@ Compile to JavaScript
 ```
 npm run compile_ts
 ```
+
+## RxJS
+Install RxJS
+```
+npm install rxjs
+```
+
+
 
 ## Mocha Testing
 Install Mocha

@@ -1,0 +1,33 @@
+      <div id="contentDiv">
+        <h2>Search for Chinese idioms</h2>
+        <p>
+          Type a part of the idiom and click Find.
+        </p>
+        <p>
+          <form name="lookupForm" id="lookupForm" action="#">
+            <div class="mdc-text-field">
+              <label class="mdc-floating-label" for="lookupInput">
+                Search for
+              </label>
+              <input class="mdc-text-field__input" type="text" name="lookupInput"
+                   id="lookupInput" size="40" required/>
+              <div class="mdc-line-ripple"></div>
+              <button class="mdc-button mdc-button--raised" type="submit"
+                    id="lookupSubmit">
+              <span class="mdc-button__label">Find</span>
+            </button>
+            </div>
+          </form>
+        </p>
+        <p>
+          <span id="lookup-help-block" class="help-block">
+            What is a Chinese idiom?
+          </span>
+        </p>
+        <div id="lookupResultsDiv">
+          <h4>Matching Results</h4>
+          <div id="resultsDiv">
+          </div> <!--resultsDiv-->
+        </div> <!--lookupResultsDiv-->
+        <p id="lookupError"></p>
+      </div> <!--contentDiv-->

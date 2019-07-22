@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-59206430-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-59206430-1');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="img/png" href="/images/ios-desktop.png">
+    <meta name="description" 
+          content="Chinese-English dictionary and corpus">
+    <title>Chinese Notes</title>
+
+    <!-- Homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="/images/android-desktop.png">
+
+    <!-- Homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Chinese Notes">
+    <link rel="apple-touch-icon-precomposed" href="/images/ios-desktop.png">
+
+    <link rel="shortcut icon" href="/images/ios-desktop.png">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/dist/cnotes.css">
+    <script type="application/ld+json">
+     {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Chinese-English dictionary and digital library",
+      "alternateName": "Chinese Notes",
+      "url": "http://chinesenotes.com"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+        "@id": "http://chinesenotes.com",
+        "name": "Chinese-English Dictionary"
+        }
+      }]
+    }
+    </script>
+  </head>
+  <body class="mdc-typography">
+    <aside class="mdc-drawer mdc-drawer--dismissible"> <!-- Menu drawer-->
+      <div class="mdc-drawer__content">
+        <nav class="mdc-list">
+          <a class="mdc-list-item" href="/">
+            <i class="material-icons mdc-list-item__graphic"
+              aria-hidden="true">home</i>
+            <span class="mdc-list-item__text">Home</span>
+          </a>
+          <a class="mdc-list-item" href="/texts.html">
+            <i class="material-icons mdc-list-item__graphic"
+              aria-hidden="true">library_books</i>
+            <span class="mdc-list-item__text">Texts</span>
+          </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="mdc-drawer-app-content">
+      <!-- Top bar-->
+      <header class="mdc-top-app-bar app-bar mdc-top-app-bar--fixed" id="app-bar">
+        <div class="mdc-top-app-bar__row">
+          <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+            <a href="#"
+               class="demo-menu material-icons mdc-top-app-bar__navigation-icon"
+               >menu</a>
+            <a class="mdc-top-app-bar__title title--mdc-theme-on-primary" href="/"
+              >Chinese Notes</a>
+          </section>
+          <section 
+            id="menu-search"
+            class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end"
+            role="toolbar">
+            <i class="material-icons mdc-list-item__graphic"
+                aria-hidden="true">search</i>
+              <form id="searchForm" name="searchForm" action="#">
+                <input id="searchInput" name="searchInput" type="text"
+                       class="mdc-text-field__input" placeholder="Search">
+              </form>
+          </section>
+        </div>
+      </header>  <!-- End top bar-->
+
+      <main class="main-content" id="main-content">
+        <div class="mdc-top-app-bar--fixed-adjust">
+{{ .Content }}
+        </div>
+      </main>
+      <footer class="page-footer">
+        <div>Copyright Fo Guang Shan 佛光山 2013-2019. This work is licensed
+          under a <a rel="license"
+          href="http://creativecommons.org/licenses/by/4.0/">Creative
+          Commons Attribution 4.0 International License</a>.Please send
+          comments to alex@chinesenotes.com.
+        </div>
+        <div>Page updated on {{.DateUpdated}}</div>
+        <div>
+          <div><a href="/abbreviations.html">Abbreviations</a></div>
+          <div><a href="/reference.html">Reference</a></div>
+          <div><a href="/help.html">Help</a></div>
+          <div><a href="/about.html">About</a></div>
+        </div>
+      </footer>
+    </div> <!-- mdc-drawer-app-content-->
+    <script src="/dist/app.bundle.js" async></script>
+    <script src="/dist/cnotes-compiled.js" async></script>
+  </body>
+</html>
