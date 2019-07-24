@@ -15,6 +15,12 @@ var (
 	findSubstrStmt *sql.Stmt
 )
 
+
+// Encapsulates term lookup recults
+type Results struct {
+	Words []Word
+}
+
 // Used for grouping word senses by similar headwords in result sets
 func addWordSense2Map(wmap map[string]Word, ws WordSense) {
 	//applog.Info("dictionary.addWordSense2Map() ", ws.Simplified, ws.Traditional)
@@ -50,7 +56,7 @@ LIMIT 20`)
 }
 
 // Lookup a term based on a substring and a topic
-func LookupSubstr(query, topic_en string) (*[]Word, error) {
+func LookupSubstr(query, topic_en string) (*Results, error) {
 	if query == "" {
 		return nil, errors.New("Query string is empty")
 	}
@@ -61,7 +67,7 @@ func LookupSubstr(query, topic_en string) (*[]Word, error) {
 		initDictionary()
 		if findSubstrStmt == nil {
 			applog.Error("LookupSubstr, still findSubstr == nil")
-		  return &[]Word{}, nil
+		  return &Results{[]Word{}}, errors.New("Unable to look up term")
 		}
 	}
 	ctx := context.Background()
@@ -74,7 +80,7 @@ func LookupSubstr(query, topic_en string) (*[]Word, error) {
 		results, err = findSubstrStmt.QueryContext(ctx, likeTerm, likeTerm, topic_en)
 		if err != nil {
 			applog.Error("LookupSubstr, Give up after retry: ", query, err)
-			return &[]Word{}, err
+			return &Results{[]Word{}}, err
 		}
 	}
 	wmap := map[string]Word{}
@@ -103,7 +109,7 @@ func LookupSubstr(query, topic_en string) (*[]Word, error) {
 	}
 	applog.Info("LookupSubstr, len(wmap): ", len(wmap))
 	words := wordMap2Array(wmap)
-	return &words, nil
+	return &Results{words}, nil
 }
 
 func wordMap2Array(wmap map[string]Word) []Word {

@@ -1,10 +1,11 @@
       <div id="contentDiv">
+        <h2>Prototype - for testing purposes</h2>
         <h2>Search for Chinese idioms</h2>
         <p>
           Type a part of the idiom and click Find.
         </p>
         <p>
-          <form name="lookupForm" id="lookupForm" action="#">
+          <form name="lookupForm" id="lookupForm" action="/findsubstring">
             <div class="mdc-text-field">
               <label class="mdc-floating-label" for="lookupInput">
                 Search for
@@ -12,8 +13,10 @@
               <input class="mdc-text-field__input" type="text" name="lookupInput"
                    id="lookupInput" size="40" required/>
               <div class="mdc-line-ripple"></div>
+              <input type="hidden" name="lookupTopic"
+                     id="lookupTopic" value="Idiom"/>
               <button class="mdc-button mdc-button--raised" type="submit"
-                    id="lookupSubmit">
+                    id="lookupButton">
               <span class="mdc-button__label">Find</span>
             </button>
             </div>

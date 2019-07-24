@@ -86,8 +86,6 @@ npm run compile_dev
 
 Run the Webpack dev-server
 ```
-cp src/wordfinder.css dist/.
-cp src/wordfinder.js dist/.
 npm run start_dev
 ```
 

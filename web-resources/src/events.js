@@ -1,3 +1,61 @@
-import { fromEvent } from 'rxjs';
+import { fromEvent, of, pipe } from 'rxjs';
+import { ajax } from 'rxjs/ajax';
+import { catchError, map } from 'rxjs/operators';
 
-fromEvent(document, 'click').subscribe(() => console.log('Clicked!'));
+// Important DOM elements
+const lookupForm = document.getElementById('lookupForm');
+const lookupInput = document.getElementById('lookupInput');
+const lookupButton = document.getElementById('lookupButton');
+const lookupTopic = document.getElementById('lookupTopic');
+const lookupError = document.getElementById('lookupError');
+
+// JSON data source, a backend API serving JSON unless testing
+function makeDataSource(urlString) {
+	if (!urlString) {
+    return testDataSource;
+	}
+	return ajax.getJSON(urlString).pipe(
+    map(jsonObj => {
+    	showResults(jsonObj);
+    }),
+    catchError(error => {
+    	showError(error)
+      return of(error);
+    })
+  );
+}
+
+// Wire the lookup form to the data source and function for showing results
+function wireObservers() {
+  fromEvent(lookupForm, 'submit').subscribe({
+    next: event => {
+    	event.preventDefault();
+    	const urlStr = lookupForm.action;
+    	if (lookupInput.value && !urlStr.endsWith('.json')) {
+    		urlStr += '?query=' + lookupInput.value;
+        if (lookupTopic.value) {
+        	urlStr += '&topic=' + lookupTopic.value;
+        }
+    	}
+    	console.log('urlStr: ' + urlStr);
+  	  makeDataSource(urlStr).subscribe();
+    },
+    error: error => console.log(error),
+    complete: () => false
+  });  
+}
+wireObservers();
+
+// Show an error to the user
+function showError(error) {
+  console.log('error: ', error);
+  if (lookupError) {
+  	lookupError.innerHTML = 'Sorry, we could not process your request right now.';
+  }
+}
+
+// Show the results to the user
+function showResults(jsonObj) {
+  const words = jsonObj['Words']
+  console.log('No. words: ' + words.length)
+}
