@@ -22,31 +22,41 @@ function getStyleUse(bundleFilename) {
 }
 
 module.exports = [
-{
-  entry: "./src/wordfinder.scss",
-  output: {
-    // This is necessary for webpack to compile, but we never reference this js file.
-    filename: 'styles-wordfinder.js',
-    path: path.resolve(__dirname, 'src')
+  {
+    entry: "./cnotes.scss",
+    output: {
+      filename: "style-cnotes.js",
+    },
+    module: {
+      rules: [{
+        test: /\.scss$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'cnotes.css',
+            },
+          },
+          { loader: 'extract-loader' },
+          { loader: 'css-loader' },
+          {
+            loader: 'sass-loader',
+            options: {
+              includePaths: ['./node_modules']
+            },
+          },
+        ]
+      }],
+    },
   },
-  module: {
-    rules: [{
-      test: /wordfinder.scss/,
-      use: getStyleUse('wordfinder.css')
-    }]
-  }
-},
 {
   mode: 'development',
   entry: {
     app: [
-      './src/dictionary.js',
+      './src/dictionaryentry.js',
       './src/events.js',
-      './src/idictionarybuilder.js',
-      './src/term.js',
-      './src/test.js',
-      './src/testbuilder.js',
-      './src/wordfinder.js'
+      './src/resultparser.js',
+      './src/wordsense.js'
       ]
   },
   devtool: 'inline-source-map',

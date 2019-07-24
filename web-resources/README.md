@@ -44,14 +44,6 @@ Compile to JavaScript
 npm run compile_ts
 ```
 
-## RxJS
-Install RxJS
-```
-npm install rxjs
-```
-
-
-
 ## Mocha Testing
 Install Mocha
 ```

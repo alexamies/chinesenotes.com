@@ -1,6 +1,8 @@
 import { fromEvent, of, pipe } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
 import { catchError, map } from 'rxjs/operators';
+import { MDCList } from '@material/list';
+import { ResultsParser } from './resultparser.js';
 
 // Important DOM elements
 const lookupForm = document.getElementById('lookupForm');
@@ -56,6 +58,38 @@ function showError(error) {
 
 // Show the results to the user
 function showResults(jsonObj) {
-  const words = jsonObj['Words']
-  console.log('No. words: ' + words.length)
+  const parser = new ResultsParser();
+  const entries = parser.parseResults(jsonObj);
+  console.log('No. entries: ' + entries.length);
+  const div = document.querySelector('#resultsDiv');
+  if (!div) {
+    showError('#resultsDiv not found');
+    return;
+  }
+  const ul = document.querySelector('#TermList');
+  entries.forEach(function(entry) {
+    const li = document.createElement('li');
+    li.className = 'mdc-list-item';
+    const span = document.createElement('span');
+    span.className = 'mdc-list-item__text';
+    li.appendChild(span);
+    const spanL1 = document.createElement('span');
+    spanL1.className = 'mdc-list-item__primary-text';
+    const tNode1 = document.createTextNode(entry.geSimplified());
+    spanL1.appendChild(tNode1);
+    span.appendChild(spanL1);
+    const spanL2 = document.createElement('span');
+    spanL2.className = 'mdc-list-item__secondary-text';
+    const senses = entry.getWordSenses();
+    let termDetail = "";
+    senses.forEach(function(ws) {
+      termDetail += ws.getEnglish() + " ";
+    });
+    const tNode2 = document.createTextNode(termDetail);
+    spanL2.appendChild(tNode2);
+    span.appendChild(spanL2);
+    li.appendChild(span);
+    ul.appendChild(li);
+  });
+  const list = new MDCList(ul);
 }
