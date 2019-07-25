@@ -10,7 +10,7 @@ export class ResultsParser {
    * Creates and initializes a test Dictionary.
    * @param {!object} jsonObj - JSON object received from the server
    */
-  public parseResults(jsonObj: any): Array<DictionaryEntry> {
+  public static parseResults(jsonObj: any): Array<DictionaryEntry> {
     const results = jsonObj['Words'];
     const entries = new Array<DictionaryEntry>();
     results.forEach(function(w: any) {
@@ -25,7 +25,6 @@ export class ResultsParser {
         const t = ws['Traditional'];
         const p = ws['Pinyin'];
         const e = ws['English'];
-        console.log('English: ' + e);
         const n = ws['Notes'];
         const sense = new WordSense(s, t, p, e, "", n);
         senses.push(sense);

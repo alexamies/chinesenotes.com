@@ -1,7 +1,7 @@
 import { DictionaryEntry } from "./dictionaryentry";
 import { WordSense } from "./wordsense";
 export class ResultsParser {
-    parseResults(jsonObj) {
+    static parseResults(jsonObj) {
         const results = jsonObj['Words'];
         const entries = new Array();
         results.forEach(function (w) {
@@ -16,7 +16,6 @@ export class ResultsParser {
                 const t = ws['Traditional'];
                 const p = ws['Pinyin'];
                 const e = ws['English'];
-                console.log('English: ' + e);
                 const n = ws['Notes'];
                 const sense = new WordSense(s, t, p, e, "", n);
                 senses.push(sense);

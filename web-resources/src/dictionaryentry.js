@@ -3,6 +3,7 @@ export class DictionaryEntry {
         this.simplified = simplified;
         this.traditional = traditional;
         this.pinyin = pinyin;
+        console.log(`DictionaryEntry this.pinyin ${this.pinyin}`);
         this.senses = senses;
         this.headwordId = headwordId;
     }
@@ -24,7 +25,8 @@ export class DictionaryEntry {
         return this.headwordId;
     }
     getPinyin() {
-        this.pinyin;
+        console.log(`DictionaryEntry getPinyin this.pinyin ${this.pinyin}`);
+        return this.pinyin;
     }
     geSimplified() {
         return this.simplified;

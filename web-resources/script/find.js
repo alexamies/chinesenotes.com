@@ -195,8 +195,11 @@ function addTermToList(term, qList) {
   // Secondary text is the Pinyin, English equivalent, and notes
   const spanL2 = document.createElement("span");
   spanL2.className = "mdc-list-item__secondary-text";
+  const spanPinyin = document.createElement("span");
+  spanPinyin.className = "dict-entry-pinyin";
   const textNode2 = document.createTextNode(pinyin + " ");
-  spanL2.appendChild(textNode2);
+  spanPinyin.appendChild(textNode2);
+  spanL2.appendChild(spanPinyin);
   //console.log("terms.DictEntry: " + terms[i].DictEntry);
   if (term.DictEntry && term.DictEntry.Senses) {
     spanL2.appendChild(combineEnglish(term.DictEntry.Senses, wordURL));

@@ -27,6 +27,7 @@ export class WordSense {
     this.simplified = simplified;
     this.traditional = traditional;
     this.pinyin = pinyin;
+    console.log(`WordSense Pinyin is ${pinyin}`);
     this.english = english;
     this.grammar = grammar;
     this.notes = notes;
