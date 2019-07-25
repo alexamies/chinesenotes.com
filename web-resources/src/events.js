@@ -33,7 +33,7 @@ function wireObservers() {
   fromEvent(lookupForm, 'submit').subscribe({
     next: event => {
     	event.preventDefault();
-    	const urlStr = lookupForm.action;
+    	let urlStr = lookupForm.action;
     	if (lookupInput.value && !urlStr.endsWith('.json')) {
     		urlStr += '?query=' + lookupInput.value;
         if (lookupTopic.value) {
