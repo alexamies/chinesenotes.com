@@ -29,7 +29,6 @@ export class ResultsView {
             a.setAttribute("class", "query-term");
             a.appendChild(tNode1);
             spanL1.appendChild(a);
-            spanL1.appendChild(tNode1);
             span.appendChild(spanL1);
             const spanL2 = document.createElement("span");
             spanL2.className = "mdc-list-item__secondary-text";
