@@ -44,8 +44,10 @@ func initSubtrQuery() error {
 	stmt, err := database.PrepareContext(ctx, 
 `SELECT simplified, traditional, pinyin, english, notes, headword 
 FROM words 
-WHERE simplified LIKE ? OR traditional LIKE ? 
-  AND topic_en = ? 
+WHERE
+  (simplified LIKE ? OR traditional LIKE ?)
+  AND 
+  topic_en = ? 
 LIMIT 20`)
     if err != nil {
         applog.Error("dictionary.initSubtrQuery() Error preparing fwstmt: ", err)
@@ -60,7 +62,7 @@ func LookupSubstr(query, topic_en string) (*Results, error) {
 	if query == "" {
 		return nil, errors.New("Query string is empty")
 	}
-	applog.Info("LookupSubstr, query = ", query)
+	applog.Info("LookupSubstr, query, topic = ", query, topic_en)
 	if findSubstrStmt == nil {
 		applog.Error("LookupSubstr, findSubstr == nil")
 		// Re-initialize
@@ -89,7 +91,7 @@ func LookupSubstr(query, topic_en string) (*Results, error) {
 		var hw sql.NullInt64
 		var trad, pinyin, english, notes sql.NullString
 		results.Scan(&ws.Simplified, &trad, &pinyin, &english, &notes, &hw)
-		applog.Info("LookupSubstr, simplified, headword = ", ws.Simplified, hw)
+		//applog.Info("LookupSubstr, simplified, headword = ", ws.Simplified, hw)
 		if trad.Valid {
 			ws.Traditional = trad.String
 		}

@@ -387,6 +387,7 @@ docker run -it --rm -p 8080:8080 --name cn-app \
 Test basic lookup with curl
 ```
 curl http://localhost:8080/find/?query=妳好
+curl http://localhost:8080/findsubstring?query=男&topic=Idiom
 ```
 
 Run it locally with all features enabled

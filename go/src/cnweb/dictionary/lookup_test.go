@@ -35,22 +35,43 @@ func TestLookupSubstrEmpty(t *testing.T) {
 
 // Query expecting empty list
 func TestLookupEmptyResult(t *testing.T) {
-	words, err := LookupSubstr("我還不知道", "")
+	results, err := LookupSubstr("我還不知道", "")
 	if err != nil {
 		t.Error("TestLookupEmptyResult: unexpected error, ", err)
+		return
 	}
-	if len(*words) != 0 {
-		t.Error("TestLookupEmptyResult: unexpected result length, ", len(*words))
+	if len(results.Words) != 0 {
+		t.Error("TestLookupEmptyResult: unexpected result length, ",
+			      len(results.Words))
 	}
 }
 
 // Query expecting empty list
 func TestLookupOneResult(t *testing.T) {
-	words, err := LookupSubstr("男扮", "Idiom")
+	results, err := LookupSubstr("男扮", "Idiom")
 	if err != nil {
 		log.Print("TestLookupOneResult: unexpected error, ", err)
+		return
 	}
-	if len(*words) != 1 {
-		log.Print("TestLookupOneResult: unexpected result length, ", len(*words))
+	if len(results.Words) != 1 {
+		log.Print("TestLookupOneResult: unexpected result length, ",
+			        len(results.Words))
+		return
 	}
+	log.Print("TestLookupOneResult: got expected result length of 1")
+}
+
+// Query expecting empty list
+func TestLookupNanResult(t *testing.T) {
+	results, err := LookupSubstr("男", "Idiom")
+	if err != nil {
+		log.Print("TestLookupNanResult: unexpected error, ", err)
+		return
+	}
+	if len(results.Words) != 1 {
+		log.Print("TestLookupNanResult: unexpected result length, ",
+			        len(results.Words))
+		return
+	}
+	log.Print("TestLookupNanResult: got expected result length of 1")
 }
