@@ -50,7 +50,7 @@ wireObservers();
 
 // Show an error to the user
 function hideHelp() {
-const helpSpan = document.getElementById('lookup-help-bloc');
+const helpSpan = document.getElementById('lookup-help-block');
   if (helpSpan) {
     helpSpan.innerHTML = '';
   }
@@ -75,4 +75,5 @@ function showResults(jsonObj) {
     return;
   }
   ResultsView.buildDOM(results, '#TermList', '#lookupError');
+  hideHelp()
 }

@@ -265,3 +265,6 @@
 3000265	遭横事	遭橫事	zāo héngshì	runs into trouble	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 遭 meet + 橫事 an accidental death; from 《儒林外史·第四回》, translation in <i>The Scholars</i> (Wu Jingzi, Yang Hsien-i tr., and Yang Gladys tr. 1992, p. 48)	3000265
 3000266	报师恩	報師恩	bàoshīēn	repay his patron's kindness	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 報 repay + 師 master + 恩 kindness; from 《儒林外史·第七回》, translation in <i>The Scholars</i> (Wu Jingzi, Yang Hsien-i tr., and Yang Gladys tr. 1992, p. 88)	3000266
 3000267	朝敦友谊	朝敦友誼	cháo dūn yǒuyì	shows kindness to a friend	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 朝 to + 敦 sincere + 友誼 friend; from 《儒林外史·第七回》, translation in <i>The Scholars</i> (Wu Jingzi, Yang Hsien-i tr., and Yang Gladys tr. 1992, p. 88)	3000267
+3000268	他说得出来做得出来	他說得出來做得出來	tā shuō de chū lái zuò de chū lái	he acts up to his words	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	3000268
+3000269	你在添上几个	你在添上幾個	nǐ zài tiān shàng jǐ gè	add on a few more	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	3000269
+3000270	你在添上几个	你在添上幾個	nǐzàitiānshàngjǐge	give him one more dollar	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	3000270
