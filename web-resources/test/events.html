@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Events Test</title>
+    <link rel="stylesheet" href="../dist/cnotes.css">
+  </head>
+  <body>
+    <div id="contentDiv">
+      <h2>Prototype - for testing purposes</h2>
+      <h2>Search for Chinese idioms</h2>
+      <p>
+        Type a part of the idiom and click Find.
+      </p>
+      <p>
+        <form name="lookupForm" id="lookupForm" action="test_idioms.json">
+          <div class="mdc-text-field">
+            <label class="mdc-floating-label" for="lookupInput">
+              Search for
+            </label>
+            <input class="mdc-text-field__input" type="text" name="lookupInput"
+                 id="lookupInput" size="40" required/>
+            <div class="mdc-line-ripple"></div>
+            <input type="hidden" name="lookupTopic"
+                 id="lookupTopic" value="Idiom"/>
+            <button class="mdc-button mdc-button--raised" type="submit"
+                  id="lookupButton">
+              <span class="mdc-button__label">Find</span>
+            </button>
+          </div>
+        </form>
+      </p>
+      <p>
+        <span id="lookup-help-block" class="help-block">
+          What is a Chinese idiom?
+        </span>
+      </p>
+      <div id="lookupResultsDiv">
+        <h4>Matching Results</h4>
+        <div id="resultsDiv">
+          <ul id="TermList" class="mdc-list mdc-list--two-line"/>
+        </div> <!--resultsDiv-->
+      </div> <!--lookupResultsDiv-->
+      <p id="lookupError"></p>
+    </div> <!--contentDiv-->
+    <script type="module" src="../dist/app.bundle.js"></script>
+  </body>
+</html>

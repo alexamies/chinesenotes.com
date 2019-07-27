@@ -17,7 +17,8 @@ export class ResultsView {
    * @param {!Array<DictionaryEntry} results - The results to display
    * @param {!string} ulSelector - The DOM id of a ul (unorder list) element
    */
-  public static buildDOM(results: Array<DictionaryEntry>, ulSelector: string) {
+  public static buildDOM(results: Array<DictionaryEntry>, ulSelector: string,
+      messageSelector: string) {
     const ul = document.querySelector(ulSelector);
     if (!ul) {
       console.log(`buildDOM selector ${ulSelector} not found`)
@@ -27,6 +28,13 @@ export class ResultsView {
     // Remove previous results
     while (ul.firstChild) {
       ul.firstChild.remove();
+    }
+
+    if (results.length == 0) {
+      const messageEl = document.querySelector(messageSelector);
+      if (messageEl) {
+        messageEl.innerHTML = "No results found";
+      }
     }
 
     // Add new results
@@ -52,7 +60,6 @@ export class ResultsView {
       a.setAttribute("class", "query-term");
       a.appendChild(tNode1);
       spanL1.appendChild(a);
-      spanL1.appendChild(tNode1);
       span.appendChild(spanL1);
 
       // Secondary text

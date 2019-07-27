@@ -1,6 +1,6 @@
 const { MDCList } = require('@material/list');
 export class ResultsView {
-    static buildDOM(results, ulSelector) {
+    static buildDOM(results, ulSelector, messageSelector) {
         const ul = document.querySelector(ulSelector);
         if (!ul) {
             console.log(`buildDOM selector ${ulSelector} not found`);
@@ -8,6 +8,12 @@ export class ResultsView {
         }
         while (ul.firstChild) {
             ul.firstChild.remove();
+        }
+        if (results.length == 0) {
+            const messageEl = document.querySelector(messageSelector);
+            if (messageEl) {
+                messageEl.innerHTML = "No results found";
+            }
         }
         results.forEach(function (entry) {
             const li = document.createElement("li");

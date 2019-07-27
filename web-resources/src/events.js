@@ -10,7 +10,6 @@ const lookupForm = document.getElementById('lookupForm');
 const lookupInput = document.getElementById('lookupInput');
 const lookupButton = document.getElementById('lookupButton');
 const lookupTopic = document.getElementById('lookupTopic');
-const lookupError = document.getElementById('lookupError');
 
 // JSON data source, a backend API serving JSON unless testing
 function makeDataSource(urlString) {
@@ -50,8 +49,17 @@ function wireObservers() {
 wireObservers();
 
 // Show an error to the user
+function hideHelp() {
+const helpSpan = document.getElementById('lookup-help-bloc');
+  if (helpSpan) {
+    helpSpan.innerHTML = '';
+  }
+}
+
+// Show an error to the user
 function showError(error) {
   console.log('error: ', error);
+  const lookupError = document.getElementById('lookupError');
   if (lookupError) {
   	lookupError.innerHTML = 'Sorry, we could not process your request right now.';
   }
@@ -66,5 +74,5 @@ function showResults(jsonObj) {
     showError('#resultsDiv not found');
     return;
   }
-  ResultsView.buildDOM(results, '#TermList');
+  ResultsView.buildDOM(results, '#TermList', '#lookupError');
 }
