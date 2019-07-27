@@ -48,6 +48,14 @@ function wireObservers() {
 }
 wireObservers();
 
+// Hide the error message
+function hideError() {
+  const lookupError = document.getElementById('lookupError');
+  if (lookupError) {
+    lookupError.innerHTML = '';
+  }
+}
+
 // Show an error to the user
 function hideHelp() {
 const helpSpan = document.getElementById('lookup-help-block');
@@ -75,5 +83,6 @@ function showResults(jsonObj) {
     return;
   }
   ResultsView.buildDOM(results, '#TermList', '#lookupError');
-  hideHelp()
+  hideHelp();
+  hideError();
 }
