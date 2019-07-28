@@ -50,6 +50,10 @@ wireObservers();
 function wireTestError() {
   const errorForm = document.getElementById('errorForm');
   const errorInput = document.getElementById('errorInput');
+  if (!errorForm || !errorInput) {
+    // Skip if not doing testing
+    return;
+  }
   fromEvent(errorForm, 'submit').subscribe({
     next: event => {
       event.preventDefault();
