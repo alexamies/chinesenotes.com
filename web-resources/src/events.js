@@ -58,9 +58,23 @@ function hideError() {
 
 // Show an error to the user
 function hideHelp() {
-const helpSpan = document.getElementById('lookup-help-block');
+  const helpSpan = document.getElementById('lookup-help-block');
   if (helpSpan) {
     helpSpan.innerHTML = '';
+  }
+}
+
+// Show an error to the user
+function hideResults() {
+  const ul = document.querySelector('#TermList');
+  if (ul) {
+    while (ul.firstChild) {
+      ul.firstChild.remove();
+    }
+  }
+  const lookupResultsTitle = document.querySelector('#lookupResultsTitle');
+  if (lookupResultsTitle) {
+    lookupResultsTitle.style.display = "none";
   }
 }
 
@@ -71,6 +85,7 @@ function showError(error) {
   if (lookupError) {
   	lookupError.innerHTML = 'Sorry, we could not process your request right now.';
   }
+  hideResults();
 }
 
 // Show the results to the user
@@ -81,6 +96,10 @@ function showResults(jsonObj) {
   if (!div) {
     showError('#resultsDiv not found');
     return;
+  }
+  const lookupResultsTitle = document.querySelector('#lookupResultsTitle');
+  if (lookupResultsTitle) {
+    lookupResultsTitle.style.display = "block";
   }
   ResultsView.buildDOM(results, '#TermList', '#lookupError');
   hideHelp();
