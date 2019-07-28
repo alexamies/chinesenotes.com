@@ -40,8 +40,15 @@ function wireObservers() {
     	console.log('urlStr: ' + urlStr);
   	  makeDataSource(urlStr).subscribe();
     },
-    error: error => console.log(error),
-    complete: () => false
+    error: error => {
+      event.preventDefault();
+      console.log(error);
+      return false;
+    },
+    complete: () => {
+      event.preventDefault();
+      return false;
+    }
   });  
 }
 wireObservers();
