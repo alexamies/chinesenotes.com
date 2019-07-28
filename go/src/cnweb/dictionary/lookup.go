@@ -48,7 +48,7 @@ WHERE
   (simplified LIKE ? OR traditional LIKE ?)
   AND 
   topic_en = ? 
-LIMIT 20`)
+LIMIT 100`)
     if err != nil {
         applog.Error("dictionary.initSubtrQuery() Error preparing fwstmt: ", err)
         return err

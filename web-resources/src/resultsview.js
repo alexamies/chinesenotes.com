@@ -7,14 +7,12 @@ export class ResultsView {
             console.log(`buildDOM selector ${ulSelector} not found`);
             return;
         }
-        while (ul.firstChild) {
-            ul.firstChild.remove();
-        }
         if (results.length == 0) {
             ResultsView.showError(ulSelector, messageSelector, resultsTitleSelector, "No matching results found.");
             return;
         }
         ResultsView.remveError(messageSelector);
+        ResultsView.removeResults(messageSelector);
         const titleEl = document.querySelector(resultsTitleSelector);
         if (titleEl) {
             const titleHTMLEl = titleEl;
@@ -69,6 +67,9 @@ export class ResultsView {
             const titleHTMLEl = titleEl;
             titleHTMLEl.style.display = "none";
         }
+        else {
+            console.log("showError, titleEl not found: " + resultsTitleSelector);
+        }
         ResultsView.removeResults(ulSelector);
     }
     static hideHelp(helpSelector) {
@@ -95,11 +96,6 @@ export class ResultsView {
             while (ul.firstChild) {
                 ul.firstChild.remove();
             }
-        }
-        const lookupResultsTitle = document.querySelector('#lookupResultsTitle');
-        if (lookupResultsTitle) {
-            const titleHTMLEl = lookupResultsTitle;
-            titleHTMLEl.style.display = "none";
         }
     }
     static addEquivalent(ws, englishSpan, j) {

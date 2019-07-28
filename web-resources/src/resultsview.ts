@@ -29,17 +29,15 @@ export class ResultsView {
       return;
     }
 
-    // Remove previous results
-    while (ul.firstChild) {
-      ul.firstChild.remove();
-    }
-
     if (results.length == 0) {
       ResultsView.showError(ulSelector, messageSelector,
           resultsTitleSelector, "No matching results found.");
       return;
     }
     ResultsView.remveError(messageSelector);
+
+    // Remove previous results
+    ResultsView.removeResults(messageSelector);
 
     // Show results title
     const titleEl = document.querySelector(resultsTitleSelector);
@@ -115,6 +113,8 @@ export class ResultsView {
     if (titleEl)  {
       const titleHTMLEl = <HTMLElement>titleEl;
       titleHTMLEl.style.display = "none";
+    } else {
+      console.log("showError, titleEl not found: " + resultsTitleSelector);
     }
     ResultsView.removeResults(ulSelector);
   }
@@ -148,11 +148,6 @@ export class ResultsView {
       while (ul.firstChild) {
         ul.firstChild.remove();
       }
-    }
-    const lookupResultsTitle = document.querySelector('#lookupResultsTitle');
-    if (lookupResultsTitle) {
-      const titleHTMLEl = <HTMLElement>lookupResultsTitle;
-      titleHTMLEl.style.display = "none";
     }
   }
 
