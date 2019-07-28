@@ -37,7 +37,7 @@ export class ResultsView {
     ResultsView.remveError(messageSelector);
 
     // Remove previous results
-    ResultsView.removeResults(messageSelector);
+    ResultsView.removeResults(ulSelector);
 
     // Show results title
     const titleEl = document.querySelector(resultsTitleSelector);
@@ -148,6 +148,8 @@ export class ResultsView {
       while (ul.firstChild) {
         ul.firstChild.remove();
       }
+    } else {
+      console.log("removeResults: ulSelector not found, " + ulSelector);
     }
   }
 

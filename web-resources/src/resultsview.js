@@ -12,7 +12,7 @@ export class ResultsView {
             return;
         }
         ResultsView.remveError(messageSelector);
-        ResultsView.removeResults(messageSelector);
+        ResultsView.removeResults(ulSelector);
         const titleEl = document.querySelector(resultsTitleSelector);
         if (titleEl) {
             const titleHTMLEl = titleEl;
@@ -96,6 +96,9 @@ export class ResultsView {
             while (ul.firstChild) {
                 ul.firstChild.remove();
             }
+        }
+        else {
+            console.log("removeResults: ulSelector not found, " + ulSelector);
         }
     }
     static addEquivalent(ws, englishSpan, j) {
