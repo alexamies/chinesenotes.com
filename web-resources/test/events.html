@@ -30,10 +30,28 @@
           </div>
         </form>
       </p>
+
+      <p>
+        <form name="errorForm" id="errorForm" action="#">
+          <div class="mdc-text-field">
+            <label class="mdc-floating-label" for="errorInput">
+              Error text:
+            </label>
+            <input class="mdc-text-field__input" type="text" name="errorInput"
+                 id="errorInput" size="40" required/>
+            <div class="mdc-line-ripple"></div>
+            <button class="mdc-button mdc-button--raised" type="submit"
+                  id="showErrorButton">
+              <span class="mdc-button__label">Show Error</span>
+            </button>
+          </div>
+        </form>
+      </p>
+
       <p id="lookupError"></p>
       <p>
         <span id="lookup-help-block" class="help-block">
-          What is a Chinese idiom?
+          Help! What is a Chinese idiom?
         </span>
       </p>
       <div id="lookupResultsDiv">

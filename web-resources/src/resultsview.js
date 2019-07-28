@@ -1,6 +1,7 @@
 const { MDCList } = require('@material/list');
 export class ResultsView {
-    static buildDOM(results, ulSelector, messageSelector) {
+    static showResults(results, ulSelector, messageSelector, resultsTitleSelector, helpSelector) {
+        console.log('No. entries: ' + results.length);
         const ul = document.querySelector(ulSelector);
         if (!ul) {
             console.log(`buildDOM selector ${ulSelector} not found`);
@@ -10,10 +11,14 @@ export class ResultsView {
             ul.firstChild.remove();
         }
         if (results.length == 0) {
-            const messageEl = document.querySelector(messageSelector);
-            if (messageEl) {
-                messageEl.innerHTML = "No results found";
-            }
+            ResultsView.showError(ulSelector, messageSelector, resultsTitleSelector, "No matching results found.");
+            return;
+        }
+        ResultsView.remveError(messageSelector);
+        const titleEl = document.querySelector(resultsTitleSelector);
+        if (titleEl) {
+            const titleHTMLEl = titleEl;
+            titleHTMLEl.style.display = "block";
         }
         results.forEach(function (entry) {
             const li = document.createElement("li");
@@ -51,6 +56,51 @@ export class ResultsView {
             ul.appendChild(li);
         });
         new MDCList(ul);
+        ResultsView.hideHelp(helpSelector);
+    }
+    static showError(ulSelector, messageSelector, resultsTitleSelector, msg) {
+        console.log('error: ', msg);
+        const messageEl = document.querySelector(messageSelector);
+        if (messageEl) {
+            messageEl.innerHTML = msg;
+        }
+        const titleEl = document.querySelector(resultsTitleSelector);
+        if (titleEl) {
+            const titleHTMLEl = titleEl;
+            titleHTMLEl.style.display = "none";
+        }
+        ResultsView.removeResults(ulSelector);
+    }
+    static hideHelp(helpSelector) {
+        console.log("hideHelp: ", helpSelector);
+        const helpSpan = document.querySelector(helpSelector);
+        if (helpSpan) {
+            const helpHTMLEl = helpSpan;
+            helpHTMLEl.innerHTML = '';
+        }
+        else {
+            console.log("hideHelp: count not find helpSpan");
+        }
+    }
+    static remveError(messageSelector) {
+        const lookupError = document.querySelector(messageSelector);
+        if (lookupError) {
+            const errorHTMLEl = lookupError;
+            errorHTMLEl.innerHTML = '';
+        }
+    }
+    static removeResults(ulSelector) {
+        const ul = document.querySelector(ulSelector);
+        if (ul) {
+            while (ul.firstChild) {
+                ul.firstChild.remove();
+            }
+        }
+        const lookupResultsTitle = document.querySelector('#lookupResultsTitle');
+        if (lookupResultsTitle) {
+            const titleHTMLEl = lookupResultsTitle;
+            titleHTMLEl.style.display = "none";
+        }
     }
     static addEquivalent(ws, englishSpan, j) {
         const equivalent = " " + (j + 1) + ". " + ws.getEnglish();

@@ -15,10 +15,14 @@ export class ResultsView {
    * https://material.io/develop/web/components/lists/
    *
    * @param {!Array<DictionaryEntry} results - The results to display
-   * @param {!string} ulSelector - The DOM id of a ul (unorder list) element
+   * @param {!string} ulSelector - The DOM id of a ul (unordered list) element
+   * @param {!string} messageSelector - The DOM id error message element
+   * @param {!string} resultsTitleSelector - The DOM id oftitle element
+   * @param {!string} helpSelector - The DOM id of a help block
    */
-  public static buildDOM(results: Array<DictionaryEntry>, ulSelector: string,
-      messageSelector: string) {
+  public static showResults(results: Array<DictionaryEntry>, ulSelector: string,
+      messageSelector: string, resultsTitleSelector: string, helpSelector: string) {
+    console.log('No. entries: ' + results.length);
     const ul = document.querySelector(ulSelector);
     if (!ul) {
       console.log(`buildDOM selector ${ulSelector} not found`)
@@ -31,10 +35,17 @@ export class ResultsView {
     }
 
     if (results.length == 0) {
-      const messageEl = document.querySelector(messageSelector);
-      if (messageEl) {
-        messageEl.innerHTML = "No results found";
-      }
+      ResultsView.showError(ulSelector, messageSelector,
+          resultsTitleSelector, "No matching results found.");
+      return;
+    }
+    ResultsView.remveError(messageSelector);
+
+    // Show results title
+    const titleEl = document.querySelector(resultsTitleSelector);
+    if (titleEl)  {
+      const titleHTMLEl = <HTMLElement>titleEl;
+      titleHTMLEl.style.display = "block";
     }
 
     // Add new results
@@ -79,6 +90,70 @@ export class ResultsView {
       ul.appendChild(li);
     });
     new MDCList(ul);
+    ResultsView.hideHelp(helpSelector);
+  }
+
+  /**
+   * Build a HTML DOM for the result set under the given list element.
+   *
+   * A Material Web two line list is used. See
+   * https://material.io/develop/web/components/lists/
+   *
+   * @param {!Array<DictionaryEntry} results - The results to display
+   * @param {!string} messageSelector - The DOM id of the message element
+   * @param {!string} resultsTitleSelector - The DOM id of the title element
+   * @param {!string} msg - The message to show
+   */
+  public static showError(ulSelector: string, messageSelector: string,
+      resultsTitleSelector: string, msg: string) {
+    console.log('error: ', msg);
+    const messageEl = document.querySelector(messageSelector);
+    if (messageEl) {
+      messageEl.innerHTML = msg;
+    }
+    const titleEl = document.querySelector(resultsTitleSelector);
+    if (titleEl)  {
+      const titleHTMLEl = <HTMLElement>titleEl;
+      titleHTMLEl.style.display = "none";
+    }
+    ResultsView.removeResults(ulSelector);
+  }
+
+
+  // Show an error to the user
+  private static hideHelp(helpSelector: string) {
+    console.log("hideHelp: ", helpSelector);
+    const helpSpan = document.querySelector(helpSelector);
+    if (helpSpan) {
+      const helpHTMLEl = <HTMLElement>helpSpan;
+      helpHTMLEl.innerHTML = '';
+    } else {
+      console.log("hideHelp: count not find helpSpan");
+    }
+  }
+
+  // Hide the error message
+  private static remveError(messageSelector: string) {
+    const lookupError = document.querySelector(messageSelector);
+    if (lookupError) {
+      const errorHTMLEl = <HTMLElement>lookupError;
+      errorHTMLEl.innerHTML = '';
+    }
+  }
+
+  // Show an error to the user
+  private static removeResults(ulSelector: string) {
+    const ul = document.querySelector(ulSelector);
+    if (ul) {
+      while (ul.firstChild) {
+        ul.firstChild.remove();
+      }
+    }
+    const lookupResultsTitle = document.querySelector('#lookupResultsTitle');
+    if (lookupResultsTitle) {
+      const titleHTMLEl = <HTMLElement>lookupResultsTitle;
+      titleHTMLEl.style.display = "none";
+    }
   }
 
   /** Add English equivalent to a HTML span element

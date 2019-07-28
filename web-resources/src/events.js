@@ -5,12 +5,6 @@ import { MDCList } from '@material/list';
 import { ResultsParser } from './resultparser.js';
 import { ResultsView } from './resultsview.js';
 
-// Important DOM elements
-const lookupForm = document.getElementById('lookupForm');
-const lookupInput = document.getElementById('lookupInput');
-const lookupButton = document.getElementById('lookupButton');
-const lookupTopic = document.getElementById('lookupTopic');
-
 // JSON data source, a backend API serving JSON unless testing
 function makeDataSource(urlString) {
 	if (!urlString) {
@@ -18,10 +12,10 @@ function makeDataSource(urlString) {
 	}
 	return ajax.getJSON(urlString).pipe(
     map(jsonObj => {
-    	showResults(jsonObj);
+    	displayResults(jsonObj);
     }),
     catchError(error => {
-    	showError(error)
+    	displayError(error)
       return of(error);
     })
   );
@@ -29,6 +23,10 @@ function makeDataSource(urlString) {
 
 // Wire the lookup form to the data source and function for showing results
 function wireObservers() {
+  const lookupForm = document.getElementById('lookupForm');
+  const lookupInput = document.getElementById('lookupInput');
+  const lookupButton = document.getElementById('lookupButton');
+  const lookupTopic = document.getElementById('lookupTopic');
   fromEvent(lookupForm, 'submit').subscribe({
     next: event => {
     	event.preventDefault();
@@ -48,60 +46,30 @@ function wireObservers() {
 }
 wireObservers();
 
-// Hide the error message
-function hideError() {
-  const lookupError = document.getElementById('lookupError');
-  if (lookupError) {
-    lookupError.innerHTML = '';
-  }
+// Test for showing an error
+function wireTestError() {
+  const errorForm = document.getElementById('errorForm');
+  const errorInput = document.getElementById('errorInput');
+  fromEvent(errorForm, 'submit').subscribe({
+    next: event => {
+      event.preventDefault();
+      displayError(errorInput.value);
+    },
+    error: error => console.log(error),
+    complete: () => false
+  });  
 }
+wireTestError();
 
 // Show an error to the user
-function hideHelp() {
-  const helpSpan = document.getElementById('lookup-help-block');
-  if (helpSpan) {
-    helpSpan.innerHTML = '';
-  }
-}
-
-// Show an error to the user
-function hideResults() {
-  const ul = document.querySelector('#TermList');
-  if (ul) {
-    while (ul.firstChild) {
-      ul.firstChild.remove();
-    }
-  }
-  const lookupResultsTitle = document.querySelector('#lookupResultsTitle');
-  if (lookupResultsTitle) {
-    lookupResultsTitle.style.display = "none";
-  }
-}
-
-// Show an error to the user
-function showError(error) {
-  console.log('error: ', error);
-  const lookupError = document.getElementById('lookupError');
-  if (lookupError) {
-  	lookupError.innerHTML = 'Sorry, we could not process your request right now.';
-  }
-  hideResults();
+function displayError(error) {
+  ResultsView.showError('#TermList', "#lookupError", "#lookupResultsTitle",
+      "Error displaying results.");
 }
 
 // Show the results to the user
-function showResults(jsonObj) {
+function displayResults(jsonObj) {
   const results = ResultsParser.parseResults(jsonObj);
-  console.log('No. entries: ' + results.length);
-  const div = document.querySelector('#resultsDiv');
-  if (!div) {
-    showError('#resultsDiv not found');
-    return;
-  }
-  const lookupResultsTitle = document.querySelector('#lookupResultsTitle');
-  if (lookupResultsTitle) {
-    lookupResultsTitle.style.display = "block";
-  }
-  ResultsView.buildDOM(results, '#TermList', '#lookupError');
-  hideHelp();
-  hideError();
+  ResultsView.showResults(results, '#TermList', '#lookupError',
+      '#lookupResultsTitle', '#lookup-help-block');
 }
