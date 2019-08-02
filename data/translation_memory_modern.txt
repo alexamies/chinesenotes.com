@@ -1,0 +1,3 @@
+5000001	他说得出来做得出来	他說得出來做得出來	tā shuō de chū lái zuò de chū lái	he acts up to his words	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	5000001
+5000002	你在添上几个	你在添上幾個	nǐ zài tiān shàng jǐ gè	add on a few more	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	5000002
+5000003	给他加上一块钱	給他加上一塊錢	gěi tā jiā shàng yī kuài qián	give him one a few moe dollars	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	5000003
