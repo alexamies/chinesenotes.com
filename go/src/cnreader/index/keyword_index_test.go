@@ -1,7 +1,7 @@
 package index
 
 import (
-	"cnreader/ngram"
+	"github.com/alexamies/cnreader/ngram"
 	"testing"
 )
 

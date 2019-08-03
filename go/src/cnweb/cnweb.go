@@ -4,15 +4,15 @@ Web application for finding documents in the corpus
 package main
 
 import (
-	"cnweb/applog"
-	"cnweb/dictionary"
-	"cnweb/find"
-	"cnweb/identity"
-	"cnweb/mail"
-	"cnweb/media"
-	"cnweb/webconfig"
 	"encoding/json"
 	"fmt"
+	"github.com/alexamies/cnweb/applog"
+	"github.com/alexamies/cnweb/dictionary"
+	"github.com/alexamies/cnweb/find"
+	"github.com/alexamies/cnweb/identity"
+	"github.com/alexamies/cnweb/mail"
+	"github.com/alexamies/cnweb/media"
+	"github.com/alexamies/cnweb/webconfig"
 	"html/template"
 	"net/http"
 	"os"
@@ -227,7 +227,12 @@ func findSubstring(response http.ResponseWriter, request *http.Request) {
 	if len(topic) > 0 {
 		t = topic[0]
 	}
-	results, err := dictionary.LookupSubstr(q, t)
+	subtopic := queryString["subtopic"]
+	st := "placeholder"
+	if len(subtopic) > 0 {
+		st = subtopic[0]
+	}
+	results, err := dictionary.LookupSubstr(q, t, st)
 	if err != nil {
 		applog.Error("main.findSubstring Error looking up term, ", err)
 		http.Error(response, "Error looking up term",

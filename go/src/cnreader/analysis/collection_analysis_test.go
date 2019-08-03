@@ -2,10 +2,10 @@
 package analysis
 
 import (
-	"cnreader/dictionary"
-	"cnreader/index"
-	"cnreader/ngram"
 	"fmt"
+	"github.com/alexamies/cnreader/dictionary"
+	"github.com/alexamies/cnreader/index"
+	"github.com/alexamies/cnreader/ngram"
 	"testing"
 )
 

@@ -3,9 +3,9 @@ package mail
 import (
 	"fmt"
 	"os"
-	"cnweb/applog"
-	"cnweb/identity"
-	"cnweb/webconfig"
+	"github.com/alexamies/cnweb/applog"
+	"github.com/alexamies/cnweb/identity"
+	"github.com/alexamies/cnweb/webconfig"
 	"github.com/sendgrid/sendgrid-go"
 	"github.com/sendgrid/sendgrid-go/helpers/mail"
 )

@@ -2,9 +2,9 @@
 package index
 
 import (
-	"cnreader/corpus"
-	"cnreader/dictionary"
 	"fmt"
+	"github.com/alexamies/cnreader/corpus"
+	"github.com/alexamies/cnreader/dictionary"
 	"testing"
 )
 

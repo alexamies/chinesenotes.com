@@ -5,7 +5,7 @@ package index
 
 import (
 	"bufio"
-	"cnreader/config"
+	"github.com/alexamies/cnreader/config"
 	"fmt"
 	"log"
 	"os"

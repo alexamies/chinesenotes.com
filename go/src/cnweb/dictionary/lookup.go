@@ -4,11 +4,11 @@
 package dictionary
 
 import (
-	"cnweb/applog"
 	"context"
 	"database/sql"
 	"errors"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/alexamies/cnweb/applog"
 )
 
 var (
@@ -47,7 +47,7 @@ FROM words
 WHERE
   (simplified LIKE ? OR traditional LIKE ?)
   AND 
-  topic_en = ? 
+  (topic_en = ? OR parent_en = ?)
 LIMIT 100`)
     if err != nil {
         applog.Error("dictionary.initSubtrQuery() Error preparing fwstmt: ", err)
@@ -58,7 +58,7 @@ LIMIT 100`)
 }
 
 // Lookup a term based on a substring and a topic
-func LookupSubstr(query, topic_en string) (*Results, error) {
+func LookupSubstr(query, topic_en, subtopic_en string) (*Results, error) {
 	if query == "" {
 		return nil, errors.New("Query string is empty")
 	}
@@ -74,7 +74,8 @@ func LookupSubstr(query, topic_en string) (*Results, error) {
 	}
 	ctx := context.Background()
 	likeTerm := "%" + query + "%"
-	results, err := findSubstrStmt.QueryContext(ctx, likeTerm, likeTerm, topic_en)
+	results, err := findSubstrStmt.QueryContext(ctx, likeTerm, likeTerm,
+		topic_en, subtopic_en)
 	if err != nil {
 		applog.Error("LookupSubstr, Error for query: ", query, err)
 		// Re-initialize the app

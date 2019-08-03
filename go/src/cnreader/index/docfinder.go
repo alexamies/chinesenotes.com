@@ -5,11 +5,11 @@ package index
 
 import (
 	"bufio"
-	"cnreader/corpus"
-	"cnreader/dictionary"
-	"cnreader/config"
-	"encoding/json"
 	"fmt"
+	"github.com/alexamies/cnreader/corpus"
+	"github.com/alexamies/cnreader/dictionary"
+	"github.com/alexamies/cnreader/config"
+	"encoding/json"
 	"io"
 	"log"
 	"os"

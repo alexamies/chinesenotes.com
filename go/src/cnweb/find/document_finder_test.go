@@ -2,11 +2,10 @@
 package find
 
 import (
-	"cnweb/dictionary"
 	"fmt"
+	"github.com/alexamies/cnweb/dictionary"
+	"github.com/alexamies/cnweb/fulltext"
 	"testing"
-
-	"cnweb/fulltext"
 )
 
 // Test package initialization, which requires a database connection

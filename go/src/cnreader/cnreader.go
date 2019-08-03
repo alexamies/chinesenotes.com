@@ -5,11 +5,11 @@ package main
 
 import (
 	"flag"
-	"cnreader/analysis"
-	"cnreader/config"
-	"cnreader/corpus"
-	"cnreader/dictionary"
-	"cnreader/library"
+	"github.com/alexamies/cnreader/analysis"
+	"github.com/alexamies/cnreader/config"
+	"github.com/alexamies/cnreader/corpus"
+	"github.com/alexamies/cnreader/dictionary"
+	"github.com/alexamies/cnreader/library"
 	"log"
 	"os"
 	"runtime/pprof"

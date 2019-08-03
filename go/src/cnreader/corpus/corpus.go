@@ -6,9 +6,9 @@ package corpus
 import (
 	"bufio"
 	"bytes"
-	"cnreader/config"
 	"encoding/csv"
 	"errors"
+	"github.com/alexamies/cnreader/config"
 	"io"
 	"io/ioutil"
 	"log"

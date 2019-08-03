@@ -6,7 +6,7 @@ package index
 import (
 	"fmt"
 	"sort"
-	"cnreader/dictionary"
+	"github.com/alexamies/cnreader/dictionary"
 )
 
 // A word with corpus entry label

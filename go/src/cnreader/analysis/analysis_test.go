@@ -4,13 +4,13 @@
 package analysis
 
 import (
-	"cnreader/config"
-	"cnreader/corpus"
-	"cnreader/dictionary"
-	"cnreader/index"
-	"cnreader/library"
-	"container/list"
 	"fmt"
+	"github.com/alexamies/cnreader/config"
+	"github.com/alexamies/cnreader/corpus"
+	"github.com/alexamies/cnreader/dictionary"
+	"github.com/alexamies/cnreader/index"
+	"github.com/alexamies/cnreader/library"
+	"github.com/alexamies/cnreader/list"
 	"log"
 	"strings"
 	"testing"

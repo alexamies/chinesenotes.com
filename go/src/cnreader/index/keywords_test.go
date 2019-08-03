@@ -2,8 +2,8 @@
 package index
 
 import (
-	"cnreader/config"
-	"cnreader/dictionary"
+	"github.com/alexamies/cnreader/config"
+	"github.com/alexamies/cnreader/dictionary"
 	"log"
 	"testing"
 )

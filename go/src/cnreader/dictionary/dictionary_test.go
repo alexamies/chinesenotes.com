@@ -2,7 +2,7 @@
 package dictionary
 
 import (
-	"cnreader/config"
+	"github.com/alexamies/cnreader/config"
 	"fmt"
 	"testing"
 )

@@ -4,7 +4,7 @@ Functions for parsing a search query
 package find
 
 import (
-	"cnweb/dictionary"
+	"github.com/alexamies/cnweb/dictionary"
 	"log"
 	"strings"
 	"unicode"

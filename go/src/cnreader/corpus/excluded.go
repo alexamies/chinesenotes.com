@@ -4,8 +4,8 @@ Excluded words, such as corpus footer copyright boilerplate
 package corpus
 
 import (
-	"cnreader/config"
 	"encoding/csv"
+	"github.com/alexamies/cnreader/config"
 	"log"
 	"os"
 )

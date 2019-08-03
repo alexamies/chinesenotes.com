@@ -2,7 +2,7 @@
 package find
 
 import (
-	"cnweb/dictionary"
+	"github.com/alexamies/cnweb/dictionary"
 	"log"
 	"testing"
 )

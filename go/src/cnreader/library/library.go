@@ -4,8 +4,8 @@ Package for scanning the corpora making up the library
 package library
 
 import (
-	"cnreader/corpus"
 	"encoding/csv"
+	"github.com/alexamies/cnreader/corpus"
 	"log"
 	"os"
 )

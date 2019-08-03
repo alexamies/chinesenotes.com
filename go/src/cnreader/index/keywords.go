@@ -2,7 +2,7 @@
 package index
 
 import (
-	"cnreader/dictionary"
+	"github.com/alexamies/cnreader/dictionary"
 	"log"
 	"sort"
 )

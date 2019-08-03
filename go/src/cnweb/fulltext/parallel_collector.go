@@ -5,7 +5,7 @@
 package fulltext
 
 import (
-	"cnweb/applog"
+	"github.com/alexamies/cnweb/applog"
 )
 
 type Job struct {

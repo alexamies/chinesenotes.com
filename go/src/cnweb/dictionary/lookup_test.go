@@ -4,6 +4,7 @@ package dictionary
 import (
 	"log"
 	"testing"
+	"os"
 )
 
 // Query expecting empty list
@@ -27,7 +28,7 @@ func TestAddWordSense2Map(t *testing.T) {
 // Test trivial query with empty query, expect error
 func TestLookupSubstrEmpty(t *testing.T) {
 	log.Printf("TestLookupSubstr: Begin unit tests\n")
-	_, err := LookupSubstr("", "")
+	_, err := LookupSubstr("", "", "")
 	if err == nil {
 		t.Error("TestLookupSubstrEmpty: expected error")
 	}
@@ -35,8 +36,12 @@ func TestLookupSubstrEmpty(t *testing.T) {
 
 // Query expecting empty list
 func TestLookupEmptyResult(t *testing.T) {
-	results, err := LookupSubstr("我還不知道", "")
+	results, err := LookupSubstr("我還不知道", "", "placeholder")
 	if err != nil {
+		dbhost := os.Getenv("DBHOST")
+		if dbhost == "" {
+			return
+		}
 		t.Error("TestLookupEmptyResult: unexpected error, ", err)
 		return
 	}
@@ -48,7 +53,7 @@ func TestLookupEmptyResult(t *testing.T) {
 
 // Query expecting empty list
 func TestLookupOneResult(t *testing.T) {
-	results, err := LookupSubstr("男扮", "Idiom")
+	results, err := LookupSubstr("男扮", "Idiom", "placeholder")
 	if err != nil {
 		log.Print("TestLookupOneResult: unexpected error, ", err)
 		return
@@ -63,7 +68,7 @@ func TestLookupOneResult(t *testing.T) {
 
 // Query expecting empty list
 func TestLookupNanResult(t *testing.T) {
-	results, err := LookupSubstr("男", "Idiom")
+	results, err := LookupSubstr("男", "Idiom", "placeholder")
 	if err != nil {
 		log.Print("TestLookupNanResult: unexpected error, ", err)
 		return

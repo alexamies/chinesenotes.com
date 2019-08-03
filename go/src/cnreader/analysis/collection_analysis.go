@@ -4,10 +4,9 @@ CollectionAResults type for vocabulary analysis of a collection of texts
 package analysis
 
 import (
-	//"cnreader/alignment"
-	"cnreader/dictionary"
-	"cnreader/index"
-	"cnreader/ngram"
+	"github.com/alexamies/cnreader/dictionary"
+	"github.com/alexamies/cnreader/index"
+	"github.com/alexamies/cnreader/ngram"
 )
 
 // A struct to hold the analysis results for the collection

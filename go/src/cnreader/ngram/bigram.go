@@ -4,8 +4,8 @@ Library for bigram type
 package ngram
 
 import (
-	"cnreader/dictionary"
 	"fmt"
+	"github.com/alexamies/cnreader/dictionary"
 	"log"
 )
 

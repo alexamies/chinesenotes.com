@@ -4,13 +4,12 @@ Package for working with the plain, full text of corpus documents
 package fulltext
 
 import (
-	"cnweb/applog"
+	"cloud.google.com/go/storage"
 	"context"
+	"github.com/alexamies/cnweb/applog"
 	"io/ioutil"
 	"os"
 	"strings"
-
-	"cloud.google.com/go/storage"
 )
 
 const (

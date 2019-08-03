@@ -5,11 +5,11 @@ package dictionary
 
 import (
 	"context"
-	"cnweb/applog"
-	"cnweb/webconfig"
 	"database/sql"
 	"encoding/csv"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/alexamies/cnweb/applog"
+	"github.com/alexamies/cnweb/webconfig"
 	"os"
 	"strconv"
 	"time"

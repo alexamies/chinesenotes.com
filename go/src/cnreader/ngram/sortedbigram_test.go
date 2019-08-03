@@ -2,7 +2,7 @@
 package ngram
 
 import (
-	"cnreader/dictionary"
+	"github.com/alexamies/cnreader/dictionary"
 	"fmt"
 	"testing"
 )

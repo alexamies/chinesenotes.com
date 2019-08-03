@@ -4,19 +4,18 @@ Functions for finding collections by partial match on collection title
 package find
 
 import (
-	"cnweb/applog"
-	"cnweb/dictionary"
 	"database/sql"
 	"context"
 	"errors"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/alexamies/cnweb/applog"
+	"github.com/alexamies/cnweb/dictionary"
+	"github.com/alexamies/cnweb/fulltext"
+	"github.com/alexamies/cnweb/webconfig"
 	"sort"
 	"strings"
 	"time"
-
-	"cnweb/fulltext"
-	"cnweb/webconfig"
 )
 
 const (

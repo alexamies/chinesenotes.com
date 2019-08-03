@@ -4,8 +4,8 @@
 package corpus
 
 import (
-	"cnreader/config"
 	"fmt"
+	"github.com/alexamies/cnreader/config"
 	"testing"
 )
 

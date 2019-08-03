@@ -5,9 +5,9 @@ package dictionary
 
 import (
 	"bufio"
-	"cnreader/config"
 	"encoding/csv"
 	"fmt"
+	"github.com/alexamies/cnreader/config"
 	"log"
 	"os"
 	"sort"

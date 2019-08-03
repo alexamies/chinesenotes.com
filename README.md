@@ -298,9 +298,7 @@ Build Software locally
 
 ```
 cd chinesenotes.com
-cd go
-source path.bash.inc
-cd src/cnweb
+cd go/src/cnweb
 go build
 ```
 
@@ -374,12 +372,12 @@ other sites (eg. hbreader.org).
 Build the Docker image for the Go application:
 
 ```
-docker build -f docker/go/Dockerfile -t cn-app-image .
+sudo docker build -f docker/go/Dockerfile -t cn-app-image .
 ```
 
 Run it locally with minimal features (C-E dictionary lookp only) enabled
 ```
-docker run -it --rm -p 8080:8080 --name cn-app \
+sudo docker run -it --rm -p 8080:8080 --name cn-app \
   --mount type=bind,source="$(pwd)",target=/cnotes \
   cn-app-image
 ```
@@ -409,14 +407,14 @@ docker run -itd --rm -p 8080:8080 --name cn-app --link mariadb \
 
 Debug
 ```
-docker exec -it cn-app bash 
+sudo docker exec -it cn-app bash 
 ```
 
 Push to Google Container Registry
 
 ```
-docker tag cn-app-image gcr.io/$PROJECT/cn-app-image:$TAG
-gcloud docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
+sudo docker tag cn-app-image gcr.io/$PROJECT/cn-app-image:$TAG
+sudo docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
 ```
 
 ### Web Front End

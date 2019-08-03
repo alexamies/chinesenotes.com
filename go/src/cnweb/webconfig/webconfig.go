@@ -5,8 +5,8 @@ package webconfig
 
 import (
 	"bufio"
-	"cnweb/applog"
 	"fmt"
+	"github.com/alexamies/cnweb/applog"
 	"io"
 	"os"
 	"strconv"

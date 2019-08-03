@@ -7,7 +7,7 @@ that match the given domain.
 package analysis
 
 import (
-	"cnreader/dictionary"
+	"github.com/alexamies/cnreader/dictionary"
 	"sort"
 )
 

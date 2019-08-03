@@ -5,11 +5,11 @@ package index
 
 import (
 	"bufio"
-	"cnreader/config"
-	"cnreader/ngram"
 	"encoding/csv"
 	"encoding/json"
 	"fmt"
+	"github.com/alexamies/cnreader/config"
+	"github.com/alexamies/cnreader/ngram"
 	"log"
 	"os"
 	"sort"

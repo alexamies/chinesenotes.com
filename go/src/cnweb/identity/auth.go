@@ -1,8 +1,6 @@
 package identity
 
 import (
-	"cnweb/applog"
-	"cnweb/webconfig"
 	"context"
 	"crypto/rand"
 	"crypto/sha256"
@@ -10,6 +8,8 @@ import (
 	"encoding/base64"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/alexamies/cnweb/applog"
+	"github.com/alexamies/cnweb/webconfig"
 	"time"
 )
 

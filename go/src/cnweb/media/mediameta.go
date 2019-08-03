@@ -3,10 +3,10 @@ package media
 
 import (
 	"context"
-	"cnweb/applog"
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
-	"cnweb/webconfig"
+	"github.com/alexamies/cnweb/applog"
+	"github.com/alexamies/cnweb/webconfig"
 	"time"
 )
 

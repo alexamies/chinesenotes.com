@@ -7,12 +7,11 @@ import (
 	"bufio"
 	"encoding/csv"
 	"fmt"
+	"github.com/alexamies/cnreader/config"
 	"log"
 	"math"
 	"os"
 	"strconv"
-
-	"cnreader/config"
 )
 
 // File name for document index

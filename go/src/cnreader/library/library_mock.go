@@ -4,7 +4,7 @@
 package library
 
 import (
-	"cnreader/corpus"
+	"github.com/alexamies/cnreader/corpus"
 )
 
 // Mock loader that has no data

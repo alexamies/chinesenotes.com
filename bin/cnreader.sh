@@ -141,9 +141,7 @@ mkdir $WEB_DIR/zhuangzi
 mkdir $WEB_DIR/zhushujinian
 mkdir $WEB_DIR/zuozhuan
 
-cd $DEV_HOME/go
-source 'path.bash.inc'
-cd src/cnreader
+cd $DEV_HOME/go/src/cnreader
 ./cnreader
 ./cnreader -hwfiles
 ./cnreader -html
