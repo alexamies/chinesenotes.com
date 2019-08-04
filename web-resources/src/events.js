@@ -34,10 +34,10 @@ function wireObservers() {
     	let urlStr = lookupForm.action;
     	if (lookupInput.value && !urlStr.endsWith('.json')) {
     		urlStr += '?query=' + lookupInput.value;
-        if (lookupTopic.value) {
+        if (lookupTopic && lookupTopic.value) {
         	urlStr += '&topic=' + lookupTopic.value;
         }
-        if (lookupSubTopic.value) {
+        if (lookupSubTopic && lookupSubTopic.value) {
           urlStr += '&subtopic=' + lookupSubTopic.value;
         }
     	}
