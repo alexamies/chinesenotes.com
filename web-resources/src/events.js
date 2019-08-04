@@ -27,6 +27,7 @@ function wireObservers() {
   const lookupInput = document.getElementById('lookupInput');
   const lookupButton = document.getElementById('lookupButton');
   const lookupTopic = document.getElementById('lookupTopic');
+  const lookupSubTopic = document.getElementById('lookupSubTopic');
   fromEvent(lookupForm, 'submit').subscribe({
     next: event => {
     	event.preventDefault();
@@ -36,9 +37,12 @@ function wireObservers() {
         if (lookupTopic.value) {
         	urlStr += '&topic=' + lookupTopic.value;
         }
+        if (lookupSubTopic.value) {
+          urlStr += '&subtopic=' + lookupSubTopic.value;
+        }
     	}
     	console.log('urlStr: ' + urlStr);
-  	  makeDataSource(urlStr).subscribe();
+  	  makeDataSource(encodeURI(urlStr)).subscribe();
     },
     error: error => {
       event.preventDefault();
