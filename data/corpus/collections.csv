@@ -62,6 +62,7 @@ yanshijiaxun.csv	yanshijiaxun.html	The Family Instructions of Master Yan 《顏�
 sishuzhangju.csv	sishuzhangju.html	Commentaries on the Four Books by Zhu Xi 朱熹《四書章句集注》	\N	sishuzhangju/sishuzhangju.txt	Literary Chinese	Prose	Circa 1200	Confucian
 tea_classic.csv	tea_classic.html	The Classic of Tea 《茶經》	Written by 陆羽 Lu Yu	tea_classic00.txt	Literary Chinese	Prose	760-780	non-fiction
 rulinwaishi.csv	rulinwaishi.html	The Scholars 《儒林外史》	Also known as <i>Unofficial History of the Scholars</i>, a satirical novel by 吴敬梓 Wu Jingzi 1701—1754	rulinwaishi/rulinwaishi00.txt	Literary Chinese	Prose	1750	fiction
+hongloumeng.csv	hongloumeng.html	Dream of the Red Chamber 《紅樓夢》	A novel by 曹雪芹 Cao Xueqin c. 1715-1763, one of the Four Great Classical Novels of Chinese literature	hongloumeng/hongloumeng000.txt	Vernacular Chinese	Prose	1791	fiction
 modern_articles.csv	media_articles.html	Media articles	\N	\N	Modern Chinese	Prose	Modern	non-fiction
 laoshe.csv	laoshe.html	A small number of phrases from the writings of Lao She	\N	\N	Modern Chinese	Prose	Modern	fiction
 yeshengtao.csv	yeshengtao.html	A small number of phrases from the writings of Ye Shengtao	\N	\N	Modern Chinese	Prose	Modern	fiction

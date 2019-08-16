@@ -1,0 +1,41 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2019-08-09, <a href="https://zh.wikisource.org/wiki/紅樓夢"
+  >https://zh.wikisource.org/wiki/紅樓夢</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  <li>
+    Cao Xueqin 1892-3, <i>The Dream of the Red Chamber</i>,
+    tr. by H Bencraft Joly, Hong Kong, Shanghai, Yokohama, and Singapore:
+    Kelly & Walsh, Books 1 and 2.
+  </li>
+  <li>
+    Cao Xueqin 1958, <i>The Dream of the Red Chamber</i>,
+    tr. by Franz Kuhn, Patheon Books.
+  </li>
+  <li>
+    Cao Xueqin 1958, <i>Dream of the Red Chamber</i>,
+    tr. by Chi-Chen Wang, New York: Doubleday Anchor.
+  </li>
+  <li>
+    Cao Xueqin 1994, <i>A Dream of Red Mansions</i>,
+    tr. by Hgo Kao, Foreign Languages Press, 3 volumes.
+  </li>
+  <li>
+    Cao Xueqin 2012, <i>The Red Chamber</i>,
+    tr. by Pauline Chen, Little, Brown Book Group.
+  </li>
+</p>
+
+<h4>Discussion</h4>
+<ol>
+  <li>
+    Wei, Shang. 2010. “The Literati Era and Its Demise (1723–1840),” 
+    in  <i>The Cambridge History of Chinese Literature: From 1375</i>,
+    edited by Kang-i Sun Chang and Stephen Owen, 
+    Cambridge: Cambridge University Press,
+    pp. 282-291.
+  </li>
+</ol>
