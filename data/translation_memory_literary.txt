@@ -265,3 +265,8 @@
 3000265	遭横事	遭橫事	zāo héngshì	runs into trouble	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 遭 meet + 橫事 an accidental death; from 《儒林外史·第四回》, translation in <i>The Scholars</i> (Wu Jingzi, Yang Hsien-i tr., and Yang Gladys tr. 1992, p. 48)	3000265
 3000266	报师恩	報師恩	bàoshīēn	repay his patron's kindness	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 報 repay + 師 master + 恩 kindness; from 《儒林外史·第七回》, translation in <i>The Scholars</i> (Wu Jingzi, Yang Hsien-i tr., and Yang Gladys tr. 1992, p. 88)	3000266
 3000267	朝敦友谊	朝敦友誼	cháo dūn yǒuyì	shows kindness to a friend	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 朝 to + 敦 sincere + 友誼 friend; from 《儒林外史·第七回》, translation in <i>The Scholars</i> (Wu Jingzi, Yang Hsien-i tr., and Yang Gladys tr. 1992, p. 88)	3000267
+3000268	祖德	\N	zǔ dé	virtue of my ancestors	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 祖 ancestors + 德 virtue (Cao Xueqin 1892, <i>Dream of the Red Chamber</i> tr. by Joly, p. 1)	3000268
+3000269	半生潦倒	\N	bànshēng lǎodǎo	reckless waste of half my lifetime	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 半生 half lifetime + 潦倒 reckless waste (Cao Xueqin 1892, <i>Dream of the Red Chamber</i> tr. by Joly, p. 2)	3000269
+3000270	风晨	風晨	fēng chén	morning breeze	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 风 breeze + 晨 morning (Cao Xueqin 1892, <i>Dream of the Red Chamber</i> tr. by Joly, p. 2)	3000270
+3000271	庭花	\N	tíng huā	flowers in the courtyard	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 风 breeze + 晨 morning (Cao Xueqin 1892, <i>Dream of the Red Chamber</i> tr. by Joly, p. 2)	3000271
+3000272	阅者	閱者	yuè zhě	readers	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 阅 read + 者 nominalizer (Cao Xueqin 1892, <i>Dream of the Red Chamber</i> tr. by Joly, p. 2)	3000272
