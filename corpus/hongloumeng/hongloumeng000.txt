@@ -7,9 +7,9 @@
 <h4>English translations</h4>
 <p>
   <li>
-    Cao Xueqin 1892-3, <i>The Dream of the Red Chamber</i>,
-    tr. by H Bencraft Joly, Hong Kong, Shanghai, Yokohama, and Singapore:
-    Kelly & Walsh, Books 1 and 2.
+    Cao Xueqin 1892-3, <i>Hung Lou Mêng: Or, The Dream of the Red Chamber;
+    a Chinese Novel</i>, tr. by H Bencraft Joly, Hong Kong, Shanghai, Yokohama,
+    and Singapore: Kelly & Walsh, Books 1 and 2.
   </li>
   <li>
     Cao Xueqin 1958, <i>The Dream of the Red Chamber</i>,
