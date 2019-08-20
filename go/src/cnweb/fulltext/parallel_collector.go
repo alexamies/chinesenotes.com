@@ -75,7 +75,7 @@ DONE:
 }
 
 func getDoc(done chan struct{}, loader TextLoader, key string, queryTerms []string, jobs <-chan Job) {
-	applog.Info("fulltext.getDoc %s\n", key)
+	//applog.Info("fulltext.getDoc:", key)
 	for job := range jobs {
 		job.Do(loader, queryTerms)
 	}
@@ -83,7 +83,7 @@ func getDoc(done chan struct{}, loader TextLoader, key string, queryTerms []stri
 }
 
 func GetMatches(keys []string, queryTerms []string) map[string]DocMatch {
-	applog.Info("GetDocs\n")
+	applog.Info("GetMatches")
 	loader := getLoader()
 	jobs := make(chan Job, len(keys))
 	results := make(chan Result, len(keys))

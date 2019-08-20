@@ -574,7 +574,7 @@ func findDocumentsInCol(query string, terms []TextSegment,
 	sortedDocs := toSortedDocList(docMap)
 	applog.Info("findDocumentsInCol, len(sortedDocs): ", len(sortedDocs))
 	relevantDocs := toRelevantDocList(sortedDocs, queryTerms)
-	applog.Info("findDocuments, len(relevantDocs): ", query, len(relevantDocs))
+	applog.Info("findDocumentsInCol, len(relevantDocs): ", query, len(relevantDocs))
 	return relevantDocs, nil
 }
 
@@ -1256,7 +1256,7 @@ func setMatchDetails(doc Document, terms []string, docMatch fulltext.DocMatch) D
 	fmt.Println("sortContainsWords: ", terms)
 	containsTems := []string{}
 	for i, term := range terms {
-		fmt.Printf("sortContainsWords: i = %d\n", i)
+		//fmt.Printf("sortContainsWords: i = %d\n", i)
 		bigram := ""
 		if (i > 0) {
 			bigram = terms[i - 1] + terms[i]
