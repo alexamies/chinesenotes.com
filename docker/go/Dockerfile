@@ -1,4 +1,4 @@
-FROM golang:1.12.9-stretch
+FROM golang:1.12-buster
 
 ENV GO111MODULE=on
 WORKDIR /cnweb
