@@ -24,6 +24,9 @@ function makeDataSource(urlString) {
 // Wire the lookup form to the data source and function for showing results
 function wireObservers() {
   const lookupForm = document.getElementById('lookupForm');
+  if (!lookupForm) {
+    return;
+  }
   const lookupInput = document.getElementById('lookupInput');
   const lookupButton = document.getElementById('lookupButton');
   const lookupTopic = document.getElementById('lookupTopic');
