@@ -372,19 +372,19 @@ other sites (eg. hbreader.org).
 Build the Docker image for the Go application:
 
 ```
-sudo docker build -f docker/go/Dockerfile -t cn-app-image .
+docker build -f docker/go/Dockerfile -t cn-app-image .
 ```
 
 Run it locally with minimal features (C-E dictionary lookp only) enabled
 ```
-sudo docker run -it --rm -p 8080:8080 --name cn-app \
+docker run -it --rm -p 8080:8080 --name cn-app \
   --mount type=bind,source="$(pwd)",target=/cnotes \
   cn-app-image
 ```
 
 Test basic lookup with curl
 ```
-curl http://localhost:8080/find/?query=妳好
+curl http://localhost:8080/find/?query=你好
 curl http://localhost:8080/findsubstring?query=男&topic=Idiom
 ```
 
@@ -407,14 +407,14 @@ docker run -itd --rm -p 8080:8080 --name cn-app --link mariadb \
 
 Debug
 ```
-sudo docker exec -it cn-app bash 
+docker exec -it cn-app bash 
 ```
 
 Push to Google Container Registry
 
 ```
-sudo docker tag cn-app-image gcr.io/$PROJECT/cn-app-image:$TAG
-sudo docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
+docker tag cn-app-image gcr.io/$PROJECT/cn-app-image:$TAG
+docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
 ```
 
 ### Web Front End
