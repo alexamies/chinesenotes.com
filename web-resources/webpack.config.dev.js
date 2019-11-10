@@ -53,10 +53,7 @@ module.exports = [
   mode: 'development',
   entry: {
     app: [
-      './src/dictionaryentry.js',
-      './src/events.js',
-      './src/resultparser.js',
-      './src/wordsense.js'
+      './src/cnotes.js'
       ]
   },
   devtool: 'inline-source-map',

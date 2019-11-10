@@ -36,12 +36,13 @@
     "sass-loader": "^7.1.0",
     "source-map": "^0.7.3",
     "tslint": "^5.18.0",
-    "typescript": "^3.5.2",
+    "typescript": "^3.7.2",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
+    "@alexamies/chinesedict-js": "^0.1.10",
     "@babel/polyfill": "^7.4.4",
     "rxjs": "^6.5.2"
   }

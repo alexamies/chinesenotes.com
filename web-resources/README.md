@@ -20,19 +20,15 @@ cd web-resources
 To install the MD Web components and dependencies:
 ```
 npm install
-npm install --save-dev babel-core babel-loader babel-preset-es2015 dart-sass fibers
 ```
 
-To compile the JavaScript source run 
+To resolve module dependencies and package the JavaScript source run 
 ```
 npm run build
 ```
 
 ## Compile TypeScript
-Install TypeScript and related utilities
-```
-npm install --save-dev typescript tslint @types/source-map@0.5.2
-```
+You should have TypeScript installed already from the `npm install` command above.
 
 Lint the TypeScript
 ```
@@ -81,7 +77,7 @@ Run the Webpack dev-server
 npm run start_dev
 ```
 
-This will open the page dist/index.html in your browser
+Navigate to the page http://localhost:8080/test/index.html
 
 ## JSUnit
 Older tests use JS Unit
