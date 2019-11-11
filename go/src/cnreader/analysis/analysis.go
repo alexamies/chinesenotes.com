@@ -252,7 +252,7 @@ func span(entries []*dictionary.WordSenseEntry, text string) string {
 		}
 		english = english[0:len(english)-2]
 	}
-	vocabFormat := `<span title="%s | %s" class="%s">%s</a>`
+	vocabFormat := `<span title="%s | %s" class="%s">%s</span>`
 	return fmt.Sprintf(vocabFormat, pinyin, english, classTxt, text)
 }
 

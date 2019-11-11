@@ -204,7 +204,7 @@ class CNotes {
   // Load the dictionary
   load() {
     const thisApp = this;
-    const source = new DictionarySource('ntireader.json',
+    const source = new DictionarySource('/dist/ntireader.json',
                                         'NTI Reader Dictionary',
                                         'Full NTI Reader dictionary');
     const loader = new DictionaryLoader([source]);

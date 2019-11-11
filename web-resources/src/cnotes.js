@@ -137,7 +137,7 @@ class CNotes {
     }
     load() {
         const thisApp = this;
-        const source = new DictionarySource('ntireader.json', 'NTI Reader Dictionary', 'Full NTI Reader dictionary');
+        const source = new DictionarySource('/dist/ntireader.json', 'NTI Reader Dictionary', 'Full NTI Reader dictionary');
         const loader = new DictionaryLoader([source]);
         const observable = loader.loadDictionaries();
         observable.subscribe({
