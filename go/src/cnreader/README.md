@@ -18,7 +18,6 @@ git clone https://github.com/alexamies/chinesenotes.com.git
 cd chinesenotes.com
 export CNREADER_HOME=`pwd`
 cd go
-source 'path.bash.inc'
 ```
 ###3 build the project
 ```

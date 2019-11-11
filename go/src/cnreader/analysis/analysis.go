@@ -236,6 +236,26 @@ func hyperlink(entries []*dictionary.WordSenseEntry, text string) string {
 		pinyin, english, classTxt, entries[0].HeadwordId, text)
 }
 
+// Constructs a hyperlink for a headword, including Pinyin and English in the
+// title attribute for the link mouseover
+func span(entries []*dictionary.WordSenseEntry, text string) string {
+	classTxt := "vocabulary"
+	if entries[0].IsProperNoun() {
+		classTxt = classTxt + " propernoun"
+	}
+	pinyin := entries[0].Pinyin
+	english := entries[0].English
+	if len(entries) > 1 {
+		english = ""
+		for i, entry := range entries {
+			english += fmt.Sprintf("%d. %s, ", i + 1, entry.English)
+		}
+		english = english[0:len(english)-2]
+	}
+	vocabFormat := `<span title="%s | %s" class="%s">%s</a>`
+	return fmt.Sprintf(vocabFormat, pinyin, english, classTxt, text)
+}
+
 // Parses a Chinese text into words
 // Parameters:
 //   text: the string to parse
@@ -723,7 +743,7 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 					wordIds = fmt.Sprintf("%s,%d", wordIds, ws.Id)
 				}
 			}
-			fmt.Fprintf(&b, hyperlink(entries, chunk))
+			fmt.Fprintf(&b, span(entries, chunk))
 		} else {
 			if sourceFormat != "HTML" {
 				chunk = replacer.Replace(chunk)

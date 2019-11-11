@@ -23,6 +23,7 @@ function getStyleUse(bundleFilename) {
 
 module.exports = [
   {
+    mode: 'development',
     entry: "./cnotes.scss",
     output: {
       filename: "style-cnotes.js",

@@ -1599,7 +1599,7 @@ body {
   #menu-search {
     display: none; } }
 
-a.vocabulary {
+.vocabulary {
   text-decoration: none;
   color: darkslategray; }
 
@@ -1705,7 +1705,7 @@ span.usage-highlight {
   color: red; }
 
 /* Different color for proper nouns in texts */
-a.propernoun {
+.propernoun {
   text-decoration: underline;
   color: blue; }
 
