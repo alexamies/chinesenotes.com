@@ -1,10 +1,13 @@
 import { MDCTopAppBar } from "@material/top-app-bar";
 import { MDCDrawer } from "@material/drawer";
 import { MDCDialog } from "@material/dialog";
-import { DictionaryLoader, DictionarySource, TextParser } from '@alexamies/chinesedict-js';
+import { DictionaryCollection } from '@alexamies/chinesedict-js';
+import { DictionaryLoader } from '@alexamies/chinesedict-js';
+import { DictionarySource } from '@alexamies/chinesedict-js';
+import { TextParser } from '@alexamies/chinesedict-js';
 class CNotes {
     constructor() {
-        this.headwords = new Map();
+        this.dictionaries = new DictionaryCollection();
         this.dialogDiv = document.querySelector("#CnotesVocabDialog");
         this.wordDialog = new MDCDialog(this.dialogDiv);
     }
@@ -141,7 +144,7 @@ class CNotes {
             error(err) { console.error(`load error:  + ${err}`); },
             complete() {
                 console.log('loading dictionary done');
-                thisApp.headwords = loader.getHeadwords();
+                thisApp.dictionaries = loader.getDictionaryCollection();
                 const loadingStatus = thisApp.querySelectorNonNull("#loadingStatus");
                 loadingStatus.innerHTML = "Dictionary loading status: loaded";
             }
@@ -182,7 +185,7 @@ class CNotes {
         const partsTitle = this.querySelectorNonNull("#partsTitle");
         if (chinese.length > 1) {
             partsTitle.style.display = "block";
-            const parser = new TextParser(this.headwords);
+            const parser = new TextParser(this.dictionaries);
             const terms = parser.segmentExludeWhole(chinese);
             console.log(`showVocabDialog got ${terms.length} terms`);
             const tList = document.createElement("ul");
@@ -195,7 +198,7 @@ class CNotes {
         else {
             partsTitle.style.display = "none";
         }
-        const term = this.headwords.get(chinese);
+        const term = this.dictionaries.lookup(chinese);
         if (term) {
             const entry = term.getEntries()[0];
             const notesSpan = this.querySelectorNonNull("#VocabNotesSpan");

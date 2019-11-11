@@ -14,11 +14,15 @@
  */
 
 import { fromEvent } from 'rxjs';
-import {MDCTopAppBar} from "@material/top-app-bar";
-import {MDCDrawer} from "@material/drawer";
+import { MDCTopAppBar } from "@material/top-app-bar";
+import { MDCDrawer } from "@material/drawer";
 import { MDCDialog } from "@material/dialog";
-import {MDCList} from '@material/list';
-import { DictionaryLoader, DictionarySource, Term, TextParser } from '@alexamies/chinesedict-js';
+import { MDCList } from '@material/list';
+import { DictionaryCollection } from '@alexamies/chinesedict-js';
+import { DictionaryLoader } from '@alexamies/chinesedict-js';
+import { DictionarySource } from '@alexamies/chinesedict-js';
+import { Term } from '@alexamies/chinesedict-js';
+import { TextParser } from '@alexamies/chinesedict-js';
 
 
 /**
@@ -27,12 +31,12 @@ import { DictionaryLoader, DictionarySource, Term, TextParser } from '@alexamies
 
 // class encapsulating the demo application
 class CNotes {
-  private headwords: Map<string, Term>;
+  private dictionaries: DictionaryCollection;
   private dialogDiv: HTMLElement;
   private wordDialog: MDCDialog;
 
   constructor() {
-    this.headwords = new Map<string, Term>();
+    this.dictionaries = new DictionaryCollection();
     this.dialogDiv = <HTMLElement>document.querySelector("#CnotesVocabDialog");
     this.wordDialog = new MDCDialog(this.dialogDiv);
   }
@@ -209,7 +213,7 @@ class CNotes {
       error(err) { console.error(`load error:  + ${ err }`); },
       complete() { 
         console.log('loading dictionary done');
-        thisApp.headwords = loader.getHeadwords();
+        thisApp.dictionaries = loader.getDictionaryCollection();
         const loadingStatus = thisApp.querySelectorNonNull("#loadingStatus");
         loadingStatus.innerHTML = "Dictionary loading status: loaded";
       }
@@ -256,7 +260,7 @@ class CNotes {
     const partsTitle = this.querySelectorNonNull("#partsTitle");
     if (chinese.length > 1) {
       partsTitle.style.display = "block";
-      const parser = new TextParser(this.headwords);
+      const parser = new TextParser(this.dictionaries);
       const terms = parser.segmentExludeWhole(chinese);
       console.log(`showVocabDialog got ${ terms.length } terms`);
       const tList = document.createElement("ul");
@@ -270,7 +274,7 @@ class CNotes {
     }
 
     // Show more details
-    const term = this.headwords.get(chinese);
+    const term = this.dictionaries.lookup(chinese);
     if (term) {
       const entry = term.getEntries()[0];
       const notesSpan = this.querySelectorNonNull("#VocabNotesSpan");
