@@ -54,7 +54,8 @@ module.exports = [
   mode: 'development',
   entry: {
     app: [
-      './src/cnotes.js'
+      './src/cnotes.js',
+      './script/find.js'
       ]
   },
   devtool: 'inline-source-map',
