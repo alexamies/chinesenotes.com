@@ -149,8 +149,9 @@ cd $DEV_HOME/go/src/cnreader
 ./cnreader -html
 cd $CNREADER_HOME
 mkdir $WEB_DIR/dist
-cp web-resources/dist/*.js $WEB_DIR/dist/.
 cp web-resources/dist/*.css $WEB_DIR/dist/.
+cp web-resources/dist/*.js $WEB_DIR/dist/.
+cp web-resources/dist/*.json $WEB_DIR/dist/.
 cp web-resources/*.css $WEB_DIR/.
 cp web-resources/*.js $WEB_DIR/.
 cp web-resources/script/*.js $WEB_DIR/script/.
