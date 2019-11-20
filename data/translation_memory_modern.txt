@@ -2,16 +2,21 @@
 5000002	你在添上几个	你在添上幾個	nǐ zài tiān shàng jǐ gè	add on a few more	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	5000002
 5000003	给他加上一块钱	給他加上一塊錢	gěi tā jiā shàng yī kuài qián	give him one a few moe dollars	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	5000003
 5000004	核心力量	\N	héxīn lìliang	the force at the core	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 2)	5000004
-5000005	战胜帝国主义	戰勝帝國主義	zhànshèng dìguózhǔyì	defeat imperialism	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 2)	5000005
+5000005	战胜帝国主义	戰勝帝國主義	zhànshèng dìguózhǔyì	defeat imperialism	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 2)	5000005
 5000006	领导核心	領導核心	lǐngdǎo héxīn	core of the leadership	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 4)	5000006
 5000007	战胜敌人	戰勝敵人	zhànshèng dírén	defeat the enemy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 6)	5000007
-5000008	革命运动	革命運動	gémìng yùndòng	revolutionary movement	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 6)	5000008
+5000008	革命运动	革命運動	gémìng yùndòng	revolutionary movement	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 6)	5000008
 5000009	实行政策	實行政策	shíxíng zhèngcè	carrying out a policy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 10)	5000009
 5000010	盲目行动	盲目行動	mángmù xíngdòng	act blindly	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 12)	5000010
 5000011	迷失方向	\N	míshī fāngxiàng	lose our bearings	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 12)	5000011
 5000012	左右摇摆	左右搖擺	zuǒyòu yáobǎi	vacillate to the left and the right	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 14)	5000012
-5000013	地主阶级	地主階級	dìzhǔ jiējí	landlord class	phrase	\N	\N	现代汉语	Modern Chinese	哲学	Philosophy	\N	\N	(Mao Zedong 1966, p. 18)	5000013
+5000013	地主阶级	地主階級	dìzhǔ jiējí	landlord class	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 18)	5000013
 5000014	历史舞台	歷史舞臺	lìshǐ wǔtái	the stage of history	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 22)	5000014
 5000015	寸土必争	寸土必爭	cùn tǔ bì zhēng	fight for every inch of land	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 22)	5000015
-5000016	革命斗争	革命鬥爭	gémìng dòuzhēng	revolutionary struggle	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 24)	5000016
-5000017	反革命派	\N	fǎngémìngpài	counter-revolutionary	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 26)	5000017
+5000016	革命斗争	革命鬥爭	gémìng dòuzhēng	revolutionary struggle	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 24)	5000016
+5000017	反革命派	\N	fǎngémìngpài	counter-revolutionary	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 26)	5000017
+5000018	提出问题	提出問題	tíchū wèntí	raise a problem	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 30)	5000018
+5000019	帝国主义者	帝國主義者	dìguózhǔyìzhě	imperialist	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 32)	5000019
+5000020	社会主义制度	社會主義制度	shèhuìzhǔyì zhìdù	socialist system	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 36)	5000020
+5000021	思想斗争	思想鬥爭	sīxiǎng dòuzhēng	ideological struggle	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 36)	5000021
+5000022	普遍真理	\N	pǔbiàn zhēnlǐ	universal truth	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 38)	5000022
