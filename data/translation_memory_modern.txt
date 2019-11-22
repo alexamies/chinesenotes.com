@@ -20,3 +20,7 @@
 5000020	社会主义制度	社會主義制度	shèhuìzhǔyì zhìdù	socialist system	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 36)	5000020
 5000021	思想斗争	思想鬥爭	sīxiǎng dòuzhēng	ideological struggle	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 36)	5000021
 5000022	普遍真理	\N	pǔbiàn zhēnlǐ	universal truth	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 38)	5000022
+5000023	资本主义制度	資本主義制度	zīběnzhǔyì zhìdù	capitalist system	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 46)	5000023
+5000024	经济战线	經濟戰線	jīngjì zhànxiàn	economic front	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 52)	5000024
+5000025	历史时期	歷史時期	lìshǐ shíqī	historic period	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 52)	5000025
+5000026	现代工业	現代工業	xiàndài gōngyè	modern industry	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 54)	5000026
