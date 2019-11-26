@@ -286,12 +286,14 @@ class CNotes {
       }
 
       // Link to full details of term
-      console.log(`showVocabDialog headword: ${ entry.getHeadwordId() }`);
-      const link = "/words/" + entry.getHeadwordId() + ".html"
-      const linkTag = "<a href='"+ link + "'>More details</a>";
-      const linkSpan = document.querySelector("#DialogLink");
-      if (linkSpan) {
-        linkSpan.innerHTML = linkTag;    
+      if (entry) {
+        console.log(`showVocabDialog headword: ${ entry.getHeadwordId() }`);
+        const link = "/words/" + entry.getHeadwordId() + ".html"
+        const linkTag = "<a href='"+ link + "'>More details</a>";
+        const linkSpan = document.querySelector("#DialogLink");
+        if (linkSpan) {
+         linkSpan.innerHTML = linkTag; 
+        }
       }
     }
 
