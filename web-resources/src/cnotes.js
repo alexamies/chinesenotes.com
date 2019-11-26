@@ -202,7 +202,7 @@ class CNotes {
         if (term) {
             const entry = term.getEntries()[0];
             const notesSpan = this.querySelectorNonNull("#VocabNotesSpan");
-            if (entry.getSenses().length == 1) {
+            if (entry && entry.getSenses().length == 1) {
                 const ws = entry.getSenses()[0];
                 notesSpan.innerHTML = ws.getNotes();
             }
