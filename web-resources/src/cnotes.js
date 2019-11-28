@@ -1,10 +1,10 @@
-import { MDCTopAppBar } from "@material/top-app-bar";
-import { MDCDrawer } from "@material/drawer";
 import { MDCDialog } from "@material/dialog";
-import { DictionaryCollection } from '@alexamies/chinesedict-js';
-import { DictionaryLoader } from '@alexamies/chinesedict-js';
-import { DictionarySource } from '@alexamies/chinesedict-js';
-import { TextParser } from '@alexamies/chinesedict-js';
+import { MDCDrawer } from "@material/drawer";
+import { MDCTopAppBar } from "@material/top-app-bar";
+import { DictionaryCollection } from "@alexamies/chinesedict-js";
+import { DictionaryLoader } from "@alexamies/chinesedict-js";
+import { DictionarySource } from "@alexamies/chinesedict-js";
+import { TextParser } from "@alexamies/chinesedict-js";
 class CNotes {
     constructor() {
         this.dictionaries = new DictionaryCollection();

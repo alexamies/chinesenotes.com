@@ -13,17 +13,16 @@
  * under the License.
  */
 
-import { fromEvent } from 'rxjs';
-import { MDCTopAppBar } from "@material/top-app-bar";
-import { MDCDrawer } from "@material/drawer";
+import { DictionaryCollection } from "@alexamies/chinesedict-js";
+import { DictionaryLoader } from "@alexamies/chinesedict-js";
+import { DictionarySource } from "@alexamies/chinesedict-js";
+import { Term } from "@alexamies/chinesedict-js";
+import { TextParser } from "@alexamies/chinesedict-js";
 import { MDCDialog } from "@material/dialog";
-import { MDCList } from '@material/list';
-import { DictionaryCollection } from '@alexamies/chinesedict-js';
-import { DictionaryLoader } from '@alexamies/chinesedict-js';
-import { DictionarySource } from '@alexamies/chinesedict-js';
-import { Term } from '@alexamies/chinesedict-js';
-import { TextParser } from '@alexamies/chinesedict-js';
-
+import { MDCDrawer } from "@material/drawer";
+import { MDCList } from "@material/list";
+import { MDCTopAppBar } from "@material/top-app-bar";
+import { fromEvent } from "rxjs";
 
 /**
  * A browser app that implements the Chinese-English dictionary web view.
@@ -35,19 +34,23 @@ class CNotes {
   private dialogDiv: HTMLElement;
   private wordDialog: MDCDialog;
 
+  /**
+   * @constructor
+   */
   constructor() {
     this.dictionaries = new DictionaryCollection();
-    this.dialogDiv = <HTMLElement>document.querySelector("#CnotesVocabDialog");
+    this.dialogDiv = document.querySelector("#CnotesVocabDialog") as HTMLElement;
     this.wordDialog = new MDCDialog(this.dialogDiv);
   }
 
-
-  // Add a term object to a list of terms
-  // Parameters:
-  //   term is a word object
-  //   tList - the term list
-  // Returns a HTML element that the object is added to
-  addTermToList(term: Term, tList: HTMLElement) {
+  /**
+   * Add a term object to a list of terms
+   * 
+   * @param {string} term - the term to add to the list
+   * @param {string} tList - the term list
+   * @return a HTML element that the object is added to
+   */
+  private addTermToList(term: Term, tList: HTMLElement) {
     const li = document.createElement("li");
     li.className = "mdc-list-item";
     const span = document.createElement("span");
@@ -77,12 +80,13 @@ class CNotes {
     return tList;
   }
 
-
-  // Combine and crop the list of English equivalents and notes to a limited
-  // number of characters.
-  // Parameters:
-  //   term: includes an array of DictionaryEntry objects with word senses
-  // Returns a HTML element that can be added to the list element
+  /**
+   * Combine and crop the list of English equivalents and notes to a limited
+   * number of characters.
+   * Parameters:
+   *   term: includes an array of DictionaryEntry objects with word senses
+   * Returns a HTML element that can be added to the list element
+   */
   combineEnglish(term: Term) {
     const maxLen = 120;
     const englishSpan = document.createElement("span");
