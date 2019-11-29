@@ -1,15 +1,29 @@
-import { MDCDialog } from "@material/dialog";
-import { MDCDrawer } from "@material/drawer";
-import { MDCTopAppBar } from "@material/top-app-bar";
 import { DictionaryCollection } from "@alexamies/chinesedict-js";
 import { DictionaryLoader } from "@alexamies/chinesedict-js";
 import { DictionarySource } from "@alexamies/chinesedict-js";
 import { TextParser } from "@alexamies/chinesedict-js";
+import { MDCDialog } from "@material/dialog";
+import { MDCDrawer } from "@material/drawer";
+import { MDCTopAppBar } from "@material/top-app-bar";
 class CNotes {
     constructor() {
         this.dictionaries = new DictionaryCollection();
         this.dialogDiv = document.querySelector("#CnotesVocabDialog");
         this.wordDialog = new MDCDialog(this.dialogDiv);
+    }
+    init() {
+        console.log("Initializing app");
+        const drawer = MDCDrawer.attachTo(this.querySelectorNonNull(".mdc-drawer"));
+        const topAppBar = MDCTopAppBar.attachTo(this.querySelectorNonNull("#app-bar"));
+        topAppBar.setScrollTarget(this.querySelectorNonNull("#main-content"));
+        topAppBar.listen("MDCTopAppBar:nav", () => {
+            drawer.open = !drawer.open;
+        });
+        const mainContentEl = this.querySelectorNonNull(".main-content");
+        mainContentEl.addEventListener('click', (event) => {
+            drawer.open = false;
+        });
+        this.initDialog();
     }
     addTermToList(term, tList) {
         const li = document.createElement("li");
@@ -40,7 +54,7 @@ class CNotes {
         const maxLen = 120;
         const englishSpan = document.createElement("span");
         const entries = term.getEntries();
-        if (entries && entries.length == 1) {
+        if (entries && entries.length === 1) {
             let textLen = 0;
             const equivSpan = document.createElement("span");
             equivSpan.setAttribute("class", "dict-entry-definition");
@@ -55,7 +69,7 @@ class CNotes {
             for (let j = 0; j < entries.length; j++) {
                 equiv += (j + 1) + ". " + entries[j].getEnglish() + "; ";
                 if (equiv.length > maxLen) {
-                    equiv + " ...";
+                    equiv += " ...";
                     break;
                 }
             }
@@ -75,27 +89,13 @@ class CNotes {
         return chinese;
     }
     getWordId(href) {
-        let i = href.lastIndexOf("/");
-        let j = href.lastIndexOf(".");
+        const i = href.lastIndexOf("/");
+        const j = href.lastIndexOf(".");
         if (i < 0 || j < 0) {
             console.log("getWordId, could not find word id " + href);
             return "";
         }
         return href.substring(i + 1, j);
-    }
-    init() {
-        console.log("Initializing app");
-        const drawer = MDCDrawer.attachTo(this.querySelectorNonNull('.mdc-drawer'));
-        const topAppBar = MDCTopAppBar.attachTo(this.querySelectorNonNull('#app-bar'));
-        topAppBar.setScrollTarget(this.querySelectorNonNull('#main-content'));
-        topAppBar.listen('MDCTopAppBar:nav', () => {
-            drawer.open = !drawer.open;
-        });
-        const mainContentEl = this.querySelectorNonNull('.main-content');
-        mainContentEl.addEventListener('click', (event) => {
-            drawer.open = false;
-        });
-        this.initDialog();
     }
     initDialog() {
         const dialogDiv = document.querySelector("#CnotesVocabDialog");
@@ -105,20 +105,19 @@ class CNotes {
             return;
         }
         const wordDialog = new MDCDialog(dialogDiv);
-        const thisApp = this;
         if (elements) {
             elements.forEach((elem) => {
-                elem.addEventListener("click", function (evt) {
+                elem.addEventListener("click", (evt) => {
                     evt.preventDefault();
-                    thisApp.showVocabDialog(elem);
+                    this.showVocabDialog(elem);
                     return false;
                 });
             });
         }
         const copyButton = document.getElementById("DialogCopyButton");
         if (copyButton) {
-            copyButton.addEventListener("click", function () {
-                const englishElem = thisApp.querySelectorNonNull("#EnglishSpan");
+            copyButton.addEventListener("click", () => {
+                const englishElem = this.querySelectorNonNull("#EnglishSpan");
                 const range = document.createRange();
                 range.selectNode(englishElem);
                 const sel = window.getSelection();
@@ -191,7 +190,10 @@ class CNotes {
             const tList = document.createElement("ul");
             tList.className = "mdc-list mdc-list--two-line";
             terms.forEach((t) => {
-                this.addTermToList(t, tList);
+                const entries = t.getEntries();
+                if (entries && entries.length > 0) {
+                    this.addTermToList(t, tList);
+                }
             });
             partsDiv.appendChild(tList);
         }
