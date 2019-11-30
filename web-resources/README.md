@@ -74,7 +74,7 @@ npm run compile_dev
 
 Run the Webpack dev-server
 ```
-npm run start_dev
+npm run start
 ```
 
 Navigate to the page http://localhost:8080/test/index.html

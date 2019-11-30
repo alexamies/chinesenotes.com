@@ -20,10 +20,21 @@ class CNotes {
             drawer.open = !drawer.open;
         });
         const mainContentEl = this.querySelectorNonNull(".main-content");
-        mainContentEl.addEventListener('click', (event) => {
+        mainContentEl.addEventListener("click", (event) => {
             drawer.open = false;
         });
         this.initDialog();
+    }
+    load() {
+        const source = new DictionarySource("/dist/ntireader.json", "NTI Reader Dictionary", "Full NTI Reader dictionary");
+        const dictionaries = new DictionaryCollection();
+        const loader = new DictionaryLoader([source], dictionaries);
+        const observable = loader.loadDictionaries();
+        observable.subscribe(() => {
+            console.log("loading dictionary done");
+            const loadingStatus = this.querySelectorNonNull("#loadingStatus");
+            loadingStatus.innerHTML = "Dictionary loading status: loaded";
+        }, (err) => { console.error(`load error:  + ${err}`); });
     }
     addTermToList(term, tList) {
         const li = document.createElement("li");
@@ -124,30 +135,15 @@ class CNotes {
                 if (sel != null) {
                     sel.addRange(range);
                     try {
-                        const result = document.execCommand('copy');
-                        console.log('Copy to clipboard result ' + result);
+                        const result = document.execCommand("copy");
+                        console.log(`Copy to clipboard result: ${result}`);
                     }
                     catch (err) {
-                        console.log('Unable to copy to clipboard');
+                        console.log(`Unable to copy to clipboard: ${err}`);
                     }
                 }
             });
         }
-    }
-    load() {
-        const thisApp = this;
-        const source = new DictionarySource('/dist/ntireader.json', 'NTI Reader Dictionary', 'Full NTI Reader dictionary');
-        const loader = new DictionaryLoader([source]);
-        const observable = loader.loadDictionaries();
-        observable.subscribe({
-            error(err) { console.error(`load error:  + ${err}`); },
-            complete() {
-                console.log('loading dictionary done');
-                thisApp.dictionaries = loader.getDictionaryCollection();
-                const loadingStatus = thisApp.querySelectorNonNull("#loadingStatus");
-                loadingStatus.innerHTML = "Dictionary loading status: loaded";
-            }
-        });
     }
     querySelectorNonNull(selector) {
         const elem = document.querySelector(selector);
@@ -204,7 +200,7 @@ class CNotes {
         if (term) {
             const entry = term.getEntries()[0];
             const notesSpan = this.querySelectorNonNull("#VocabNotesSpan");
-            if (entry && entry.getSenses().length == 1) {
+            if (entry && entry.getSenses().length === 1) {
                 const ws = entry.getSenses()[0];
                 notesSpan.innerHTML = ws.getNotes();
             }

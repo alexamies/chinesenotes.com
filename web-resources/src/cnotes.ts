@@ -69,17 +69,17 @@ class CNotes {
     const source = new DictionarySource("/dist/ntireader.json",
                                         "NTI Reader Dictionary",
                                         "Full NTI Reader dictionary");
-    const loader = new DictionaryLoader([source]);
+    const dictionaries = new DictionaryCollection();
+    const loader = new DictionaryLoader([source], dictionaries);
     const observable = loader.loadDictionaries();
-    observable.subscribe({
-      error(err) { console.error(`load error:  + ${ err }`); },
-      complete() {
+    observable.subscribe(
+      () => {
         console.log("loading dictionary done");
-        thisApp.dictionaries = loader.getDictionaryCollection();
         const loadingStatus = this.querySelectorNonNull("#loadingStatus");
         loadingStatus.innerHTML = "Dictionary loading status: loaded";
       },
-    });
+      (err) => { console.error(`load error:  + ${ err }`); }
+    );
   }
 
   /**
