@@ -482,11 +482,11 @@ function processAJAX(httpRequest) {
       }
 
     } else {
-      var msg1 = "There was a problem with the request.";
-      console.log(msg);
-      var elem1 = document.getElementById("findResults");
+      const msg1 = "There was a problem with the request.";
+      console.log(msg1);
+      const elem1 = document.getElementById("findResults");
       elem1.style.display = "none";
-      var elem3 = document.getElementById("findError");
+      const elem3 = document.getElementById("findError");
       elem3.innerHTML = msg1;
       elem3.style.display = "block";
     }
