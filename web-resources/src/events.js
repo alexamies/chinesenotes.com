@@ -44,32 +44,34 @@ function wireObservers() {
   const lookupButton = document.getElementById('lookupButton');
   const lookupTopic = document.getElementById('lookupTopic');
   const lookupSubTopic = document.getElementById('lookupSubTopic');
-  fromEvent(lookupForm, 'submit').subscribe({
-    next: event => {
-      event.preventDefault();
-      console.log(`wireObservers next: ${event}`);
-      let urlStr = lookupForm.action;
-      if (lookupInput.value && !urlStr.endsWith('.json')) {
-        urlStr += '?query=' + lookupInput.value;
-        if (lookupTopic && lookupTopic.value) {
-          urlStr += '&topic=' + lookupTopic.value;
+  if (lookupForm) {
+    fromEvent(lookupForm, 'submit').subscribe({
+      next: event => {
+        event.preventDefault();
+        console.log(`wireObservers next: ${event}`);
+        let urlStr = lookupForm.action;
+        if (lookupInput.value && !urlStr.endsWith('.json')) {
+          urlStr += '?query=' + lookupInput.value;
+          if (lookupTopic && lookupTopic.value) {
+            urlStr += '&topic=' + lookupTopic.value;
+          }
+          if (lookupSubTopic && lookupSubTopic.value) {
+            urlStr += '&subtopic=' + lookupSubTopic.value;
+          }
         }
-        if (lookupSubTopic && lookupSubTopic.value) {
-          urlStr += '&subtopic=' + lookupSubTopic.value;
-        }
+        console.log('urlStr: ' + urlStr);
+        makeDataSource(encodeURI(urlStr)).subscribe();
+        return false;
+      },
+      error: error => {
+        console.log(`wireObservers Error processing event form: ${error}`);
+        return false;
+      },
+      complete: () => {
+        return false;
       }
-      console.log('urlStr: ' + urlStr);
-      makeDataSource(encodeURI(urlStr)).subscribe();
-      return false;
-    },
-    error: error => {
-      console.log(`wireObservers Error processing event form: ${error}`);
-      return false;
-    },
-    complete: () => {
-      return false;
-    }
-  });  
+    });  
+  }
 }
 wireObservers();
 

@@ -33,8 +33,7 @@ class CNotes {
     }
     load() {
         const source = new DictionarySource("/dist/ntireader.json", "NTI Reader Dictionary", "Full NTI Reader dictionary");
-        const dictionaries = new DictionaryCollection();
-        const loader = new DictionaryLoader([source], dictionaries);
+        const loader = new DictionaryLoader([source], this.dictionaries);
         const observable = loader.loadDictionaries();
         observable.subscribe(() => {
             console.log("loading dictionary done");
@@ -197,6 +196,9 @@ class CNotes {
                 const entries = t.getEntries();
                 if (entries && entries.length > 0) {
                     this.addTermToList(t, tList);
+                }
+                else {
+                    console.log(`showVocabDialog term ${t.getChinese()} is empty`);
                 }
             });
             partsDiv.appendChild(tList);
