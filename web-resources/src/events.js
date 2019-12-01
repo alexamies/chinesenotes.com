@@ -63,12 +63,10 @@ function wireObservers() {
       return false;
     },
     error: error => {
-      event.preventDefault();
       console.log(`wireObservers Error processing event form: ${error}`);
       return false;
     },
     complete: () => {
-      event.preventDefault();
       return false;
     }
   });  
