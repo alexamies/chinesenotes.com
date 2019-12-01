@@ -65,11 +65,6 @@ npm run start
 
 Navigate to the page http://localhost:8080/test/index.html
 
-## End-to-End Testing
-
-Deploy on [Cloud Run](https://cloud.google.com/run/) and use the pages in the
-test folder to drive end to end tests.
-
 ## Mocha Testing
 Install Mocha
 

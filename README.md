@@ -433,10 +433,12 @@ bin/cnreader.sh
 
 For production, copy the files to the storage system.
 
-For development, use the web Docker container. It for developming versions of 
-the chinesenotes.com web front end. It is an Apache web server that serves 
-static content and proxies dynamic requests to the Go app via Javascript AJAX
-code.
+#### Development Testing
+For development, use the web Docker container described here. It includes 
+developing versions of the chinesenotes.com web front end. It is an Apache web
+server that serves static content and proxies dynamic requests to the Go app via
+Javascript AJAX code. This is useful for testing the interoperation of the Go
+web backend with the JavaScript client.
 
 To build the docker image:
 
@@ -457,6 +459,40 @@ To attach to a local image for debugging, if needed:
 docker exec -it cn-web bash
 ```
 Set the load balancer up after creating the Kubernetes cluster
+
+#### End-to-End Testing
+
+Deploy on [Cloud Run](https://cloud.google.com/run/) and use the pages in the
+test folder to drive end to end tests, as described here. This is intended for
+testing the JavaScript client with real web pages and mock data.
+
+```shell
+cd e2etest
+```
+
+Copy key files to the static directory
+
+```shell
+cp ../web-staging/*.html static/.
+cp ../web-staging/dist/*.css static/dist/.
+cp ../web-staging/dist/*.js static/dist/.
+cp ../web-staging/dist/*.json static/dist/.
+cp ../web-staging/images/*.png static/images/.
+```
+
+Build the Docker image for the test and push it to the registry
+
+```shell
+docker build -f Dockerfile -t e2etest .
+docker tag e2etest gcr.io/$PROJECT/e2etest:$TAG
+docker -- push gcr.io/$PROJECT/e2etest:$TAG
+```
+
+Deploy to Cloud Run
+
+```shell
+gcloud run deploy --image gcr.io/$PROJECT/e2etest:$TAG --platform managed
+```
 
 ## Deploying to Production
 
