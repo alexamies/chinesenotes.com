@@ -13,16 +13,22 @@ class CNotes {
     }
     init() {
         console.log("Initializing app");
-        const drawer = MDCDrawer.attachTo(this.querySelectorNonNull(".mdc-drawer"));
-        const topAppBar = MDCTopAppBar.attachTo(this.querySelectorNonNull("#app-bar"));
-        topAppBar.setScrollTarget(this.querySelectorNonNull("#main-content"));
-        topAppBar.listen("MDCTopAppBar:nav", () => {
-            drawer.open = !drawer.open;
-        });
-        const mainContentEl = this.querySelectorNonNull(".main-content");
-        mainContentEl.addEventListener("click", (event) => {
-            drawer.open = false;
-        });
+        const drawDiv = document.querySelector(".mdc-drawer");
+        if (drawDiv) {
+            const drawer = MDCDrawer.attachTo(drawDiv);
+            const topAppBar = MDCTopAppBar.attachTo(this.querySelectorNonNull("#app-bar"));
+            topAppBar.setScrollTarget(this.querySelectorNonNull("#main-content"));
+            topAppBar.listen("MDCTopAppBar:nav", () => {
+                drawer.open = !drawer.open;
+            });
+            const mainContentEl = this.querySelectorNonNull(".main-content");
+            mainContentEl.addEventListener("click", (event) => {
+                drawer.open = false;
+            });
+        }
+        else {
+            console.log("Initializing app no drawDiv");
+        }
         this.initDialog();
     }
     load() {
@@ -33,7 +39,9 @@ class CNotes {
         observable.subscribe(() => {
             console.log("loading dictionary done");
             const loadingStatus = this.querySelectorNonNull("#loadingStatus");
-            loadingStatus.innerHTML = "Dictionary loading status: loaded";
+            if (loadingStatus) {
+                loadingStatus.innerHTML = "Dictionary loading status: loaded";
+            }
         }, (err) => { console.error(`load error:  + ${err}`); });
     }
     addTermToList(term, tList) {

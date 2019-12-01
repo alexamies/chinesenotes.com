@@ -7,23 +7,26 @@ Run the following commands from this directory.
 
 ## Material Design Web
 Check whether you have nodejs installed
-```
+
+```shell
 node -v
 ```
 
 If needed install [nodejs](https://nodejs.org/en/).
 
-```
+```shell
 cd web-resources
 ```
 
 To install the MD Web components and dependencies:
-```
+
+```shell
 npm install
 ```
 
 To resolve module dependencies and package the JavaScript source run 
-```
+
+```shell
 npm run build
 ```
 
@@ -31,39 +34,21 @@ npm run build
 You should have TypeScript installed already from the `npm install` command above.
 
 Lint the TypeScript
-```
+
+```shell
 npm run lint
 ```
 
 Compile to JavaScript
-```
+
+```shell
 npm run compile_ts
-```
-
-## Mocha Testing
-Install Mocha
-```
-npm install --save-dev mocha
-```
-
-Install Chai for assertion testing
-```
-npm install --save-dev chai
-```
-
-Run the unit tests
-```
-npm test
-```
-
-For compatibility with ES6 modules, use the babel/register module
-```
-npm install --save-dev @babel/register
 ```
 
 ## Development Testing
 Development testing can be done with the Webpack dev-server. Install it
-```
+
+```shell
 npm install --save-dev webpack-dev-server
 ```
 
@@ -73,11 +58,41 @@ npm run compile_dev
 ```
 
 Run the Webpack dev-server
-```
+
+```shell
 npm run start
 ```
 
 Navigate to the page http://localhost:8080/test/index.html
+
+## End-to-End Testing
+
+Deploy on [Cloud Run](https://cloud.google.com/run/) and use the pages in the
+test folder to drive end to end tests.
+
+## Mocha Testing
+Install Mocha
+
+```shell
+npm install --save-dev mocha
+```
+
+Install Chai for assertion testing
+```
+npm install --save-dev chai
+```
+
+Run the unit tests
+
+```shell
+npm test
+```
+
+For compatibility with ES6 modules, use the babel/register module
+
+```shell
+npm install --save-dev @babel/register
+```
 
 ## JSUnit
 Older tests use JS Unit
