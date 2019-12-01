@@ -496,6 +496,7 @@ If running from a VM instance used as a build machine use Cloud Build
 
 ```shell
 gcloud builds submit --tag gcr.io/$PROJECT/e2etest:$TAG
+gcloud builds submit --config cloudbuild.yaml .
 ```
 
 Deploy to Cloud Run
