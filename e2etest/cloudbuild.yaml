@@ -1,5 +1,9 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/e2etest', '.' ]
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/e2etest']
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['beta', 'run', 'deploy', 'e2etest', '--image', 'gcr.io/$PROJECT_ID/e2etest', '--region', 'us-central1', '--platform', 'managed']
 images:
 - 'gcr.io/$PROJECT_ID/e2etest'

@@ -470,30 +470,14 @@ testing the JavaScript client with real web pages and mock data.
 cd e2etest
 ```
 
-Copy key files to the static directory
+Copy important files to the static directory
 
 ```shell
-mkdir static
-cp ../web-staging/*.html static/.
-mkdir static/dist
-cp ../web-staging/dist/*.css static/dist/.
-cp ../web-staging/dist/*.js static/dist/.
-cp ../web-staging/dist/*.json static/dist/.
-mkdir static/images
-cp ../web-staging/images/*.png static/images/.
-tar -czf static.tar.gz static/
+./e2ecopy.sh
 ```
 
-If running from a development environment, build the Docker image for the test
-and push it to the registry
-
-```shell
-docker build -f Dockerfile -t e2etest .
-docker tag e2etest gcr.io/$PROJECT/e2etest
-docker -- push gcr.io/$PROJECT/e2etest
-```
-
-If running from a VM instance used as a build machine use Cloud Build
+Build the Docker image for the test and push it to the registry using
+Cloud Build
 
 ```shell
 gcloud builds submit --config cloudbuild.yaml .
