@@ -23,6 +23,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/alexamies/cnweb/find"
+	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"
@@ -45,7 +46,7 @@ func main() {
 	log.Print("End-to-end test server started")
 	r := mux.NewRouter()
 	r.HandleFunc("/find/", findHandler)
-	r.Handle("/", http.FileServer(http.Dir(STATIC_DIR)))
+	r.Handle("/", handlers.ContentTypeHandler(http.FileServer(http.Dir(STATIC_DIR))))
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
