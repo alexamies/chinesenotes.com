@@ -21,3 +21,4 @@ tar -czf static.tar.gz static/
 # Copy module to within the Docker context
 mkdir tmp
 cp -r ../go/src/cnweb tmp
+tar -czf cnweb.tar.gz tmp
