@@ -23,12 +23,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/alexamies/cnweb/find"
-	"github.com/gorilla/handlers"
-	"github.com/gorilla/mux"
 	"log"
 	"net/http"
 	"os"
-	"time"
 )
 
 const STATIC_DIR string = "./static"
@@ -44,19 +41,12 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 
 func main() {
 	log.Print("End-to-end test server started")
-	r := mux.NewRouter()
-	r.HandleFunc("/find/", findHandler)
-	r.Handle("/", handlers.ContentTypeHandler(http.FileServer(http.Dir(STATIC_DIR))))
+	http.HandleFunc("/find/", findHandler)
+	http.Handle("/", http.FileServer(http.Dir(STATIC_DIR)))
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
 	}
 	addr := fmt.Sprintf(":%s", port)
-	srv := &http.Server{
-        Handler:      r,
-        Addr:         addr,
-        WriteTimeout: 60 * time.Second,
-        ReadTimeout:  60 * time.Second,
-    }
-	log.Fatal(srv.ListenAndServe())
+	log.Fatal(http.ListenAndServe(addr, nil))
 }
