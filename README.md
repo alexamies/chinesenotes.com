@@ -481,6 +481,7 @@ cp ../web-staging/dist/*.js static/dist/.
 cp ../web-staging/dist/*.json static/dist/.
 mkdir static/images
 cp ../web-staging/images/*.png static/images/.
+tar -czf static.tar.gz static/
 ```
 
 If running from a development environment, build the Docker image for the test
@@ -488,21 +489,20 @@ and push it to the registry
 
 ```shell
 docker build -f Dockerfile -t e2etest .
-docker tag e2etest gcr.io/$PROJECT/e2etest:$TAG
-docker -- push gcr.io/$PROJECT/e2etest:$TAG
+docker tag e2etest gcr.io/$PROJECT/e2etest
+docker -- push gcr.io/$PROJECT/e2etest
 ```
 
 If running from a VM instance used as a build machine use Cloud Build
 
 ```shell
-gcloud builds submit --tag gcr.io/$PROJECT/e2etest:$TAG
 gcloud builds submit --config cloudbuild.yaml .
 ```
 
 Deploy to Cloud Run
 
 ```shell
-gcloud run deploy --image gcr.io/$PROJECT/e2etest:$TAG --platform managed
+gcloud run deploy --image gcr.io/$PROJECT/e2etest --platform managed
 ```
 
 ## Deploying to Production
