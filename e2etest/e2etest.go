@@ -20,7 +20,9 @@ package main
  */
 
 import (
+	"encoding/json"
 	"fmt"
+	"github.com/alexamies/cnweb/find"
 	"log"
 	"net/http"
 	"os"
@@ -28,8 +30,18 @@ import (
 
 const STATIC_DIR string = "./static"
 
+// Finds documents matching the given query
+func findHandler(response http.ResponseWriter, request *http.Request) {
+	log.Print("main.findHandler, enter")
+	results := find.QueryResults{}
+	resultsJson, _ := json.Marshal(results)
+	response.Header().Set("Content-Type", "application/json; charset=utf-8")
+	fmt.Fprintf(response, string(resultsJson))
+}
+
 func main() {
 	log.Print("End-to-end test server started")
+	http.HandleFunc("/find/", findHandler)
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
