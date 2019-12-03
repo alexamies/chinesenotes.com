@@ -1,7 +1,6 @@
 # Literary Chinese prose corpus
 # Paths are relative to the web directory
 # Input file, output file, title
-sanguoyanyi/sanguoyanyi000i.txt	sanguoyanyi/sanguoyanyi000i.html	Introduction
 sanguoyanyi/sanguoyanyi001.txt	sanguoyanyi/sanguoyanyi001.html	第一回 Chapter 1
 sanguoyanyi/sanguoyanyi002.txt	sanguoyanyi/sanguoyanyi002.html	第二回 Chapter 2
 sanguoyanyi/sanguoyanyi003.txt	sanguoyanyi/sanguoyanyi003.html	第三回 Chapter 3
