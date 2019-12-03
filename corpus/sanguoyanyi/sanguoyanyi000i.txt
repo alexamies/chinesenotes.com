@@ -1,0 +1,25 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2019-12-02, <a
+  href="https://zh.wikisource.org/wiki/三國演義"
+  >https://zh.wikisource.org/wiki/三國演義</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  <li>
+    Luo Guanzhong 2002, <i>Romance of the Three Kingdoms</i>, 
+    Translated by Charles Henry Brewitt-Taylor,
+    Tuttle Publishing: Vermont. In three volumes, originally published 1925.
+  </li>
+  <li>
+    Luo Guanzhong 2006, <i>Three Kingdoms</i>, 
+    Translated by Moss Roberts,
+    Beijing: Foreign Languages Press.
+  </li>
+  <li>
+    Luo Guanzhong 2014, <i>Three Kingdoms</i>, 
+    Translated by Yu Sumei, edited by Ronald C. Iverson,
+    Singapore: Tuttle Publishing.
+  </li>
+</p>
