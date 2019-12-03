@@ -1,4 +1,4 @@
-#### End-to-End Testing
+# End-to-End Testing
 
 Deploy on [Cloud Run](https://cloud.google.com/run/) and use the pages in the
 test folder to drive end to end tests, as described here. This is intended for
@@ -14,15 +14,9 @@ Copy important files to the static directory
 ./e2ecopy.sh
 ```
 
-Build the Docker image for the test and push it to the registry using
+Build the Docker image for the test and deploy to Cloud Run using
 Cloud Build
 
 ```shell
 gcloud builds submit --config cloudbuild.yaml .
-```
-
-Deploy to Cloud Run
-
-```shell
-gcloud run deploy --image gcr.io/$PROJECT/e2etest --platform managed
 ```

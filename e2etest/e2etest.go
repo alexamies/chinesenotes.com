@@ -48,6 +48,7 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 	}
   col := []find.Collection{}
   doc := []find.Document{}
+	senses0 := []dictionary.WordSense{}
   terms0 := []find.TextSegment{}
 	results := find.QueryResults{q, "", 0, 0, col, doc, terms0}
 	sense1 := dictionary.WordSense{
@@ -68,9 +69,9 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 		Senses: senses1,
 	}
 	ts1 := find.TextSegment{
-		QueryText: q,
+		QueryText: "大哥大",
 		DictEntry: entry1,
-		Senses: senses1,
+		Senses: senses0,
 	}
 	terms1 := []find.TextSegment{ts1}
 	sense2 := dictionary.WordSense{
@@ -91,9 +92,9 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 		Senses: senses2,
 	}
 	ts2 := find.TextSegment{
-		QueryText: q,
+		QueryText: "舊",
 		DictEntry: entry2,
-		Senses: senses2,
+		Senses: senses0,
 	}
 	terms2 := []find.TextSegment{ts1, ts2}
 	if (q == "大哥大") {
