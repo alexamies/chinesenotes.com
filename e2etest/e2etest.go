@@ -22,6 +22,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/alexamies/cnweb/dictionary"
 	"github.com/alexamies/cnweb/find"
 	"log"
 	"net/http"
@@ -33,7 +34,49 @@ const STATIC_DIR string = "./static"
 // Finds documents matching the given query
 func findHandler(response http.ResponseWriter, request *http.Request) {
 	log.Print("main.findHandler, enter")
-	results := find.QueryResults{}
+	url := request.URL
+	queryString := url.Query()
+	query := queryString["query"]
+	q := "No Query"
+	if len(query) > 0 {
+		q = query[0]
+	} else {
+		query := queryString["text"]
+		if len(query) > 0 {
+			q = query[0]
+		}
+	}
+  col := []find.Collection{}
+  doc := []find.Document{}
+  terms0 := []find.TextSegment{}
+	results := find.QueryResults{q, "", 0, 0, col, doc, terms0}
+	if (q == "大哥大") {
+	  sense := dictionary.WordSense{
+			Id: 74517,
+			HeadwordId: 74517,
+			Simplified: "大哥大",
+			Traditional: "\\N",
+			Pinyin: "dàgēdà",
+			English: "cell phone",
+			Notes: "",
+		}
+		senses := []dictionary.WordSense{sense}
+		entry := dictionary.Word{
+			Simplified: "大哥大",
+			Traditional: "\\N",
+			Pinyin: "dàgēdà",
+			HeadwordId: 74517,
+			Senses: senses,
+		}
+		ts := find.TextSegment{
+			QueryText: q,
+			DictEntry: entry,
+			Senses: senses,
+		}
+		terms := []find.TextSegment{ts}
+	  results = find.QueryResults{q, "", 0, 0, col, doc, terms}
+	}
+
 	resultsJson, _ := json.Marshal(results)
 	response.Header().Set("Content-Type", "application/json; charset=utf-8")
 	fmt.Fprintf(response, string(resultsJson))

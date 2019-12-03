@@ -8,6 +8,8 @@ cp ../web-staging/hongloumeng.html static/.
 cp ../web-staging/*.css static/.
 mkdir static/hongloumeng
 cp ../web-staging/hongloumeng/hongloumeng001.html static/.
+mkdir static/words
+cp ../web-staging/words/74517.html static/words/.
 mkdir static/dist
 cp ../web-staging/dist/*.css static/dist/.
 cp ../web-staging/dist/*.js static/dist/.
