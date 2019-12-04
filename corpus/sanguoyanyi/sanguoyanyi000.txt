@@ -8,7 +8,7 @@
 <h4>English translations</h4>
 <p>
   <li>
-    Luo Guanzhong 2002, <i>Romance of the Three Kingdoms</i>, 
+    Lo Kuan-chong 2002, <i>Romance of the Three Kingdoms</i>, 
     Translated by Charles Henry Brewitt-Taylor,
     Tuttle Publishing: Vermont. In three volumes, originally published 1925.
   </li>
