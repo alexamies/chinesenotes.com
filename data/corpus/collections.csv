@@ -61,7 +61,8 @@ wenxin.csv	wenxin.html	The Literary Mind and the Carving of Dragons 《文心雕
 yanshijiaxun.csv	yanshijiaxun.html	The Family Instructions of Master Yan 《顏氏家訓》	 A text by 颜之推 Yan Zhitui (531 - c. 591), including a collection of essays on morality and philogical subjects	yanshijiaxun/yanshijiaxun000.txt	Literary Chinese	Prose	c. 591	literature
 sishuzhangju.csv	sishuzhangju.html	Commentaries on the Four Books by Zhu Xi 朱熹《四書章句集注》	\N	sishuzhangju/sishuzhangju.txt	Literary Chinese	Prose	Circa 1200	Confucian
 tea_classic.csv	tea_classic.html	The Classic of Tea 《茶經》	Written by 陆羽 Lu Yu	tea_classic00.txt	Literary Chinese	Prose	760-780	non-fiction
-sanguoyanyi.csv	sanguoyanyi.html	Romance of the Three Kingdoms 《三國演義》	By Luo Guanzhong 罗贯中, one of the Four Classic Novels of Chinese literature 四大名著	sanguoyanyi/sanguoyanyi000.txt	Literary Chinese	Prose	1400	fiction
+shuihuzhuan.csv	shuihuzhuan.html	Water Margin 《水滸傳》	c. 1372 by Shi Naian 施耐庵, also known as <i>Outlaws of the Marsh</i> and <i>The Marshes of Mount Liang</i>, one of the four great novels of Chinese literature 四大名著	shuihuzhuan/shuihuzhuan000.txt	Literary Chinese	Prose	1372	fiction
+sanguoyanyi.csv	sanguoyanyi.html	Romance of the Three Kingdoms 《三國演義》	By Luo Guanzhong 罗贯中, one of the four novels of Chinese literature 四大名著	sanguoyanyi/sanguoyanyi000.txt	Literary Chinese	Prose	1400	fiction
 rulinwaishi.csv	rulinwaishi.html	The Scholars 《儒林外史》	Also known as <i>Unofficial History of the Scholars</i>, a satirical novel by 吴敬梓 Wu Jingzi 1701—1754	rulinwaishi/rulinwaishi00.txt	Literary Chinese	Prose	1750	fiction
 hongloumeng.csv	hongloumeng.html	Dream of the Red Chamber 《紅樓夢》	A novel by 曹雪芹 Cao Xueqin c. 1715-1763, one of the Four Great Classical Novels of Chinese literature	hongloumeng/hongloumeng000.txt	Vernacular Chinese	Prose	1791	fiction
 modern_articles.csv	media_articles.html	Media articles	\N	\N	Modern Chinese	Prose	Modern	non-fiction

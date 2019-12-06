@@ -1,0 +1,21 @@
+<h4>Source</h4>
+<p>
+  Wikisource, accessed 2019-12-05, <a
+  href="https://zh.wikisource.org/wiki/水滸傳 (120回本)"
+  >https://zh.wikisource.org/wiki/水滸傳 (120回本)</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  <li>
+    Nai'an Shi, Guanzhong Luo, John Dent-Young, Alex Dent-Young 1994,
+    <i>The Marshes of Mount Liang</i>, 
+    Chinese University Press: Hong Kong. In five volumes.
+  </li>
+</p>
+
+<h4>Notes<h4>
+There are several versions of this work, known as the 70 chapter, 100 chapter,
+and 120 chapter versions. The version provided here is the 120 chapter version,
+which is also the version translated by John and Alex Dent-Young as 
+<i>The Marshes of Mount Liang</i>.
