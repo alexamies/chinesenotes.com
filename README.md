@@ -347,7 +347,7 @@ Accounts](https://cloud.google.com/kubernetes-engine/docs/tutorials/authenticati
 for detailed instructions on authentication.
 
 ```
-TEXT_BUCKET={your txt bucket}
+TEXT_BUCKET={your txt bucket}chinesenotes-text
 # First time
 gsutil mb gs://$TEXT_BUCKET
 gsutil -m rsync -d -r corpus gs://$TEXT_BUCKET

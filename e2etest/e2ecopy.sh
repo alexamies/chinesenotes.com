@@ -19,8 +19,3 @@ cp ../web-staging/images/*.png static/images/.
 mkdir static/script
 cp ../web-staging/script/*.js static/script/.
 tar -czf static.tar.gz static/
-
-# Copy module to within the Docker context
-mkdir tmp
-cp -r ../go/src/cnweb tmp
-tar -czf cnweb.tar.gz tmp

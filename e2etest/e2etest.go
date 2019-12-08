@@ -22,8 +22,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/alexamies/cnweb/dictionary"
-	"github.com/alexamies/cnweb/find"
+	"github.com/alexamies/chinesenotes-go/dictionary"
+	"github.com/alexamies/chinesenotes-go/find"
 	"log"
 	"net/http"
 	"os"

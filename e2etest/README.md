@@ -1,5 +1,8 @@
 # End-to-End Testing
 
+First follow the procedure in the main README.md to generate the HTML files for
+the site.
+
 Deploy on [Cloud Run](https://cloud.google.com/run/) and use the pages in the
 test folder to drive end to end tests, as described here. This is intended for
 testing the JavaScript client with real web pages and mock data.
