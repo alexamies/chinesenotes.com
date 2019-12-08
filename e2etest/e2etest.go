@@ -22,6 +22,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/alexamies/chinesenotes-go/applog"
 	"github.com/alexamies/chinesenotes-go/dictionary"
 	"github.com/alexamies/chinesenotes-go/find"
 	"log"
@@ -30,6 +31,72 @@ import (
 )
 
 const STATIC_DIR string = "./static"
+
+var (
+	parser find.QueryParser
+	wdict map[string]dictionary.Word
+)
+
+func init() {
+	applog.Info("cnweb.main.init Initializing cnweb")
+	var err error
+	wdict, err = dictionary.LoadDict()
+	if err != nil {
+		applog.Error("main.init() unable to load dictionary: ", err)
+	}
+	parser = find.DictQueryParser{wdict}
+}
+
+// Finds documents matching the given query with search in text body
+func findAdvanced(response http.ResponseWriter, request *http.Request) {
+	applog.Info("main.findAdvanced, enter")
+	findDocs(response, request, true)
+}
+
+// Finds documents matching the given query
+func findDocs(response http.ResponseWriter, request *http.Request, advanced bool) {
+	url := request.URL
+	queryString := url.Query()
+	query := queryString["query"]
+	q := "No Query"
+	if len(query) > 0 {
+		q = query[0]
+	} else {
+		query := queryString["text"]
+		if len(query) > 0 {
+			q = query[0]
+		}
+	}
+
+	var results find.QueryResults
+	var err error
+
+	c := queryString["collection"]
+	if (len(c) > 0) && (c[0] != "") {
+		results, err = find.FindDocumentsInCol(parser, q, c[0])
+	} else {
+		results, err = find.FindDocuments(parser, q, advanced)
+	}
+
+	if err != nil {
+		applog.Error("main.findDocs Error searching docs, ", err)
+		http.Error(response, "Error searching docs",
+			http.StatusInternalServerError)
+		return
+	}
+	resultsJson, err := json.Marshal(results)
+	if err != nil {
+		applog.Error("main.findDocs error marshalling JSON, ", err)
+		http.Error(response, "Error marshalling results",
+			http.StatusInternalServerError)
+	} else {
+		if (q != "hello" && q != "Eight" ) { // Health check monitoring probe
+			applog.Info("main.findDocs, results: ", string(resultsJson))
+		}
+		response.Header().Set("Content-Type", "application/json; charset=utf-8")
+		fmt.Fprintf(response, string(resultsJson))
+	}
+}
 
 // Finds documents matching the given query
 func findHandler(response http.ResponseWriter, request *http.Request) {
@@ -111,6 +178,7 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 func main() {
 	log.Print("End-to-end test server started")
 	http.HandleFunc("/find/", findHandler)
+	http.HandleFunc("/findadvanced/", findAdvanced)
 	http.Handle("/", http.FileServer(http.Dir(STATIC_DIR)))
 	port := os.Getenv("PORT")
 	if port == "" {

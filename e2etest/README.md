@@ -23,3 +23,6 @@ Cloud Build
 ```shell
 gcloud builds submit --config cloudbuild.yaml .
 ```
+
+Go to Cloud Run management page in the GCP Cloud Console to find the URL
+of the server.
