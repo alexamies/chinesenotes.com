@@ -4,34 +4,34 @@ MAX_TITLE_LEN = 80;
 // either the title or body of documents.
 (function() {
   var httpRequest;
-  var findForm = document.getElementById("findAdvancedForm");
+  const findForm = document.getElementById("findAdvancedForm");
   if (findForm) {
     findForm.onsubmit = function() {
 
-      var query = document.getElementById("findInput").value;
-      var col = "";
-      var collectionInput = document.getElementById("findInCollection");
+      const query = document.getElementById("findInput").value;
+      let col = "";
+      const collectionInput = document.getElementById("findInCollection");
       if (collectionInput) {
         // Then searching from a collection page, redirect to advanced search
         col = collectionInput.value;
-        var url = "/advanced_search.html#?text=" + query + "&collection=" + col;
+        const url = "/advanced_search.html#?text=" + query + "&collection=" + col;
         window.location.href = url;
         return false;
       }
-      var redirectToFullText = document.getElementById("redirectToFullText");
+      const redirectToFullText = document.getElementById("redirectToFullText");
       if (redirectToFullText) {
         // Then searching from a collection page, redirect to advanced search
-        var url1 = "/advanced_search.html#?text=" + query + "&fulltext=true" +
+        const url1 = "/advanced_search.html#?text=" + query + "&fulltext=true" +
                    col;
         window.location.href = url1;
         return false;
       }
 
-      var action = "/findadvanced";
+      let action = "/findadvanced";
       if (!findForm.action.endsWith("#")) {
         action = findForm.action;
       }
-      var url2 = action + "/?query=" + query;
+      const url2 = action + "/?query=" + query;
       makeSearchRequest(url2);
       return false;
     };
@@ -39,19 +39,19 @@ MAX_TITLE_LEN = 80;
 
   // Function for sending and displaying search results, redirected from
   // collection pages
-  var href = window.location.href;
+  const href = window.location.href;
   if (href.includes("&")) {
     query = getHrefVariable(href, "text");
-    var findInput = document.getElementById("findInput");
+    const findInput = document.getElementById("findInput");
     if (findInput) {
       findInput.value = query;
     }
     col = getHrefVariable(href, "collection");
-    var action = "/findadvanced";
+    let action = "/findadvanced";
     if (!findForm.action.endsWith("#")) {
       action = findForm.action;
     }
-    var url = action + "/?query=" + query;
+    let url = action + "/?query=" + query;
     if (col) {
       url = action + "/?query=" + query + "&collection=" + col;
     }
@@ -89,14 +89,14 @@ MAX_TITLE_LEN = 80;
         if (helpBlock) {
           helpBlock.style.display = 'none';
         }
-        var numDocuments = obj.NumDocuments;
-        var documents = obj.Documents;
+        const numDocuments = obj.NumDocuments;
+        const documents = obj.Documents;
 
         if (numDocuments > 0) {
 
           // Report summary reults
           console.log("alertContents: processing summary reults");
-          var spand = document.getElementById("NumDocuments");
+          const spand = document.getElementById("NumDocuments");
           if (spand && (numDocuments == 50)) {
             spand.innerHTML = "limited to " + numDocuments;
           } else if (spand) {
@@ -106,13 +106,13 @@ MAX_TITLE_LEN = 80;
           // Add detailed results for documents
           if (numDocuments > 0) {
             console.log("alertContents: detailed results for documents");
-            var dTable = document.getElementById("findDocResultsTable");
+            const dTable = document.getElementById("findDocResultsTable");
             if (typeof dOldBody === "undefined") {
               dOldBody = document.getElementById("findDocResultsBody");
             }
             dTable.removeChild(dOldBody);
-            var dTbody = document.createElement("tbody");
-            var numDoc = documents.length;
+            const dTbody = document.createElement("tbody");
+            const numDoc = documents.length;
 
             // Find factor to scale document similarity by
             topSimBigram = 1000.0;
@@ -144,7 +144,7 @@ MAX_TITLE_LEN = 80;
         }
 
         // Display dictionary lookup for the segmented query terms in a table
-        var terms = obj.Terms;
+        const terms = obj.Terms;
         if (terms) {
           console.log("alertContents: detailed results for dictionary lookup");
           var qPara = document.getElementById("queryTermsP");
@@ -164,7 +164,7 @@ MAX_TITLE_LEN = 80;
           }
           qPara.appendChild(qBody);
           qPara.style.display = "block";
-          var qTitle = document.getElementById("queryTermsTitle");
+          const qTitle = document.getElementById("queryTermsTitle");
           qTitle.style.display = "block";
           qOldBody = qBody;
           document.getElementById("queryTerms").style.display = "block";
@@ -178,11 +178,11 @@ MAX_TITLE_LEN = 80;
         console.log(msg);
         var elem1 = document.getElementById("findResults");
         elem1.style.display = "none";
-        var elem3 = document.getElementById("findError");
+        const elem3 = document.getElementById("findError");
         elem3.innerHTML = msg;
         elem3.style.display = "block";
       }
-      var elem2 = document.getElementById("lookup-help-block");
+      const elem2 = document.getElementById("lookup-help-block");
       elem2.style.display = "none";
     }
   }
@@ -193,17 +193,17 @@ MAX_TITLE_LEN = 80;
 //   doc - The Document object from the server
 //   td - the td HTML element to add the match details to
 function addCollection(doc, td) {
-  var colTitle = doc.CollectionTitle;
-  var colFile = doc.CollectionFile;
-  var tn1 = document.createTextNode("Collection: ");
+  const colTitle = doc.CollectionTitle;
+  const colFile = doc.CollectionFile;
+  const tn1 = document.createTextNode("Collection: ");
   td.appendChild(tn1);
-  var a1 = document.createElement("a");
+  const a1 = document.createElement("a");
   a1.setAttribute("href", colFile);
-  var colTitleText = colTitle;
+  const colTitleText = colTitle;
   if (colTitleText.length > MAX_TITLE_LEN) {
     colTitleText = colTitleText.substring(0, MAX_TITLE_LEN - 1) + "...";
   }
-  var tn2 = document.createTextNode(colTitleText);
+  const tn2 = document.createTextNode(colTitleText);
   a1.appendChild(tn2);
   td.appendChild(a1);
 }
@@ -214,21 +214,21 @@ function addCollection(doc, td) {
 //   dTbody - tbody HTML element to add the match details to
 function addDocument(doc, dTbody) {
   if ("Title" in doc && doc.Title) {
-    var title = doc.Title;
-    var gloss_file = doc.GlossFile;
-    var tr = document.createElement("tr");
-    var td = document.createElement("td");
+    const title = doc.Title;
+    const gloss_file = doc.GlossFile;
+    const tr = document.createElement("tr");
+    const td = document.createElement("td");
     td.setAttribute("class", "mdl-data-table__cell--non-numeric");
     tr.appendChild(td);
-    var textNode1 = document.createTextNode("Title: ");
+    const textNode1 = document.createTextNode("Title: ");
     td.appendChild(textNode1);
-    var a = document.createElement("a");
+    const a = document.createElement("a");
     a.setAttribute("href", gloss_file);
-    var titleText = title;
+    let titleText = title;
     if (titleText.length > MAX_TITLE_LEN) {
       titleText = titleText.substring(0, MAX_TITLE_LEN - 1) + "...";
     }
-    var textNode = document.createTextNode(titleText);
+    const textNode = document.createTextNode(titleText);
     a.appendChild(textNode);
     td.appendChild(a);
     var br = document.createElement("br");
@@ -236,7 +236,7 @@ function addDocument(doc, dTbody) {
     if ("CollectionTitle" in doc && doc.CollectionTitle) {
       addCollection(doc, td);
     }
-    var br1 = document.createElement("br");
+    const br1 = document.createElement("br");
     td.appendChild(br1);
 
     // Add snippet
@@ -257,25 +257,25 @@ function addDocument(doc, dTbody) {
 //   td - the td HTML element to add the match details to
 function addMatchDetails(md, td) {
   if (md.Snippet) {
-    var snippet = md.Snippet;
-    var snippetSpan = document.createElement("span");
-    var lm = md.LongestMatch;
-    var starts = snippet.indexOf(lm);
+    const snippet = md.Snippet;
+    const snippetSpan = document.createElement("span");
+    const lm = md.LongestMatch;
+    const starts = snippet.indexOf(lm);
     if (starts > -1) {
-      var snippetStart = snippet.substring(0, starts);
-      var stn1 = document.createTextNode(snippetStart);
+      const snippetStart = snippet.substring(0, starts);
+      const stn1 = document.createTextNode(snippetStart);
       snippetSpan.appendChild(stn1);
-      var highlightSpan = document.createElement("span");
+      const highlightSpan = document.createElement("span");
       highlightSpan.classList.add("usage-highlight");
-      var stn2 = document.createTextNode(lm);
+      const stn2 = document.createTextNode(lm);
       highlightSpan.appendChild(stn2);
       snippetSpan.appendChild(highlightSpan);
-      var ends = starts + lm.length;
-      var snippetEnd = snippet.substring(ends);
-      var stn3 = document.createTextNode(snippetEnd);
+      const ends = starts + lm.length;
+      const snippetEnd = snippet.substring(ends);
+      const stn3 = document.createTextNode(snippetEnd);
       snippetSpan.appendChild(stn3);
       td.appendChild(snippetSpan);
-      var br2 = document.createElement("br");
+      const br2 = document.createElement("br");
       td.appendChild(br2);
     }
   }
@@ -287,7 +287,7 @@ function addMatchDetails(md, td) {
 //   doc - The Document object from the server
 //   td - the td HTML element to add the match details to
 function addRelevance(doc, td) {
-  var relevance = "";
+  let relevance = "";
   if ("SimTitle" in doc) {
     if (parseFloat(doc.SimTitle) == 1.0) {
       relevance += "similar title; ";
@@ -313,7 +313,7 @@ function addRelevance(doc, td) {
     relevance = "contains some query terms";
   }
   relevance = "Relevance: " + relevance;
-  var tnRelevance = document.createTextNode(relevance);
+  const tnRelevance = document.createTextNode(relevance);
   td.appendChild(tnRelevance);
 }
 
@@ -323,15 +323,15 @@ function addRelevance(doc, td) {
 //   nTerms - The number of terms in the query
 //   qBody - A HTML span element for the query body
 function  addTerm(term, nTerms, qBody) {
-  var span = document.createElement("span");
-  var a = document.createElement("a");
+  const span = document.createElement("span");
+  const a = document.createElement("a");
   a.setAttribute("class", "vocabulary");
   span.appendChild(a);
-  var qText = term.QueryText;
-  var pinyin = "";
-  var english = "";
-  var wordURL = "";
-  var textNode1 = document.createTextNode(qText);
+  const qText = term.QueryText;
+  let pinyin = "";
+  let english = "";
+  let wordURL = "";
+  const textNode1 = document.createTextNode(qText);
   if (term.DictEntry && term.DictEntry.Senses) {
     pinyin = term.DictEntry.Pinyin;
     // Add link to word detail page
@@ -342,7 +342,7 @@ function  addTerm(term, nTerms, qBody) {
   }
   a.appendChild(textNode1);
   if (i < (nTerms - 1)) {
-    var textNode2 = document.createTextNode("、");
+    const textNode2 = document.createTextNode("、");
     span.appendChild(textNode2);
   }
   qBody.appendChild(span);
@@ -353,8 +353,8 @@ function getHrefVariable(href, name) {
     console.log("getHrefVariable: href does not include ? ", href);
     return;
   }
-  var path = href.split("?");
-  var parts = path[1].split("&");
+  const path = href.split("?");
+  const parts = path[1].split("&");
   for (var i = 0; i < parts.length; i += 1) {
     var p = parts[i].split("=");
     if (decodeURIComponent(p[0]) == name) {
