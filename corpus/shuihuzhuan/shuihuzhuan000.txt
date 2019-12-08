@@ -9,8 +9,33 @@
 <p>
   <li>
     Nai'an Shi, Guanzhong Luo, John Dent-Young, Alex Dent-Young 1994,
-    <i>The Marshes of Mount Liang</i>, 
-    Chinese University Press: Hong Kong. In five volumes.
+    <i>The Broken Seals: Part One of the Marshes of Mount Liang</i>
+    Chinese University Press: Hong Kong.
+  </li>
+  <li>
+    Nai'an Shi, Guanzhong Luo, John Dent-Young, Alex Dent-Young 1997,
+    <i>The Tiger Killers: Part Two of the  Marshes of Mount Liang</i>, 
+    Chinese University Press: Hong Kong.
+  </li>
+  <li>
+    Nai'an Shi, Guanzhong Luo, John Dent-Young, Alex Dent-Young 2001,
+    <i>The Gathering Company: Part Three of the  Marshes of Mount Liang</i>, 
+    Chinese University Press: Hong Kong.
+  </li>
+  <li>
+    Nai'an Shi, Guanzhong Luo, John Dent-Young, Alex Dent-Young 2002,
+    <i>Iron Ox: Part Four of the  Marshes of Mount Liang</i>, 
+    Chinese University Press: Hong Kong.
+  </li>
+  <li>
+    Nai'an Shi, Guanzhong Luo, John Dent-Young, Alex Dent-Young 2002,
+    <i>The Scattered Flock: Part Five of the  Marshes of Mount Liang</i>, 
+    Chinese University Press: Hong Kong.
+  </li>
+  <li>
+    Nai'an Shi, Guanzhong Luo, and Sidney Shapiro tr. 1999,
+    <i>Outlaws of the Marsh</i>, Foreign Languages Press: Beijing.
+    In five volumes.
   </li>
 </p>
 
@@ -18,4 +43,6 @@
 There are several versions of this work, known as the 70 chapter, 100 chapter,
 and 120 chapter versions. The version provided here is the 120 chapter version,
 which is also the version translated by John and Alex Dent-Young as 
-<i>The Marshes of Mount Liang</i>.
+Nai'an Shi, Guanzhong Luo, John Dent-Young, Alex Dent-Young 1994,
+<i>The Marshes of Mount Liang</i>, Chinese University Press: Hong Kong, inn five
+volumes.
