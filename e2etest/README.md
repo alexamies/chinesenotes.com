@@ -1,5 +1,12 @@
 # End-to-End Testing
 
+The end-to-end testing covers testing a selected set of web pages with
+JavaScript and a backend that is not connected to a Database. The web app
+provided allows serving static media, including HTML pages, from the same
+container that AJAX calls are made to. This is simplified from the full
+production setup with a load balancer fronting static media in GCS and
+AJAX calls from the web application.
+
 First follow the procedure in the main README.md to generate the HTML files for
 the site.
 

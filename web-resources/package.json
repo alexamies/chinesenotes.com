@@ -4,6 +4,7 @@
   "description": "HB Reader",
   "private": true,
   "scripts": {
+    "prebuild": "npx eslint script/find.js script/findadvanced.js",
     "build": "npx webpack --config webpack.config.js",
     "compile_dev": "npx webpack --config webpack.config.dev.js",
     "compile_ts": "./node_modules/.bin/tsc",
