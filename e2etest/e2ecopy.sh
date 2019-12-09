@@ -1,6 +1,7 @@
 #!/bin/sh
 # Copy and tar static files for end to end test
 mkdir static
+mkdir data
 cp ../data/words.txt data/.
 cp ../web-staging/advanced_search.html static/.
 cp ../web-staging/index.html static/.
