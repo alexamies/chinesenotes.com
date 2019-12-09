@@ -1,0 +1,18 @@
+<h4>Source</h4>
+<p>
+  Wikisource, accessed 2019-12-08, <a
+  href="https://zh.wikisource.org/wiki/西遊記"
+  >https://zh.wikisource.org/wiki/西遊記</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  <li>
+    Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>
+    University of Chicago Press: Chicago. Four volumes.
+  </li>
+  <li>
+    Wu Cheng'en and W.J.F. Jenner 2003, <i>Journey to the West</i>, 
+    Foreign Languages Press: Beijing. Four volumes.
+  </li>
+</p>
