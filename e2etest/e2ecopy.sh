@@ -7,10 +7,10 @@ cp ../web-staging/advanced_search.html static/.
 cp ../web-staging/index.html static/.
 cp ../web-staging/idioms.html static/.
 cp ../web-staging/texts.html static/.
-cp ../web-staging/hongloumeng.html static/.
+cp ../web-staging/xiyouji.html static/.
 cp ../web-staging/*.css static/.
-mkdir static/hongloumeng
-cp ../web-staging/hongloumeng/hongloumeng001.html static/.
+mkdir static/xiyouji
+cp ../web-staging/xiyouji/xiyouji001.html static/.
 mkdir static/words
 cp ../web-staging/words/74517.html static/words/.
 mkdir static/dist

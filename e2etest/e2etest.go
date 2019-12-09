@@ -25,6 +25,7 @@ import (
 	"github.com/alexamies/chinesenotes-go/applog"
 	"github.com/alexamies/chinesenotes-go/dictionary"
 	"github.com/alexamies/chinesenotes-go/find"
+	"github.com/alexamies/chinesenotes-go/fulltext"
 	"log"
 	"net/http"
 	"os"
@@ -72,7 +73,59 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 	var err error
 
 	c := queryString["collection"]
-	if (len(c) > 0) && (c[0] != "") {
+	if (len(c) > 0) && (c[0] != "xiyouji")  {
+		col0 := find.Collection{
+			GlossFile: "xiyouji.html",
+			Title: "Journey to the West 《西遊記》",
+		}
+		col := []find.Collection{col0}
+		ft := fulltext.MatchingText{
+			Snippet: "詩曰：",
+			LongestMatch: "曰",
+			ExactMatch: true,
+		}
+		doc0 := find.Document{
+			GlossFile: "xiyouji/xiyouji001.html",
+			Title: "第一回 Chapter 1",
+			CollectionFile: "xiyouji.html",
+			CollectionTitle: "Journey to the West 《西遊記》",
+			ContainsWords: "詩",
+			ContainsBigrams: "",
+			SimTitle: 0.0,
+			SimWords: 1.0,
+			SimBigram: 0.0,
+			SimBitVector: 1.0,
+			Similarity: 1.0,
+			ContainsTerms: []string{"詩"},
+			MatchDetails: ft,
+		}
+		doc := []find.Document{doc0}
+		senses0 := []dictionary.WordSense{}
+		sense1 := dictionary.WordSense{
+			Id: 5925,
+			HeadwordId: 5925,
+			Simplified: "诗",
+			Traditional: "詩",
+			Pinyin: "shī",
+			English: "poem",
+			Notes: "",
+		}
+		senses1 := []dictionary.WordSense{sense1}
+		entry1 := dictionary.Word{
+			Simplified: "诗",
+			Traditional: "詩",
+			Pinyin: "shī",
+			HeadwordId: 5925,
+			Senses: senses1,
+		}
+		ts1 := find.TextSegment{
+			QueryText: "詩",
+			DictEntry: entry1,
+			Senses: senses0,
+		}
+		terms1 := []find.TextSegment{ts1}
+		results = find.QueryResults{q, "", 0, 0, col, doc, terms1}
+	} else if (len(c) > 0) && (c[0] != "") {
 		results, err = find.FindDocumentsInCol(parser, q, c[0])
 	} else {
 		results, err = find.FindDocuments(parser, q, advanced)
