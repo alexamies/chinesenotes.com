@@ -125,10 +125,12 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 			Senses: senses0,
 		}
 		terms1 := []find.TextSegment{ts1}
-		results = find.QueryResults{q, "", 1, 1, col, doc, terms1}
+		results = find.QueryResults{q, "xiyouji.html", 1, 1, col, doc, terms1}
 	} else if (len(c) > 0) && (c[0] != "") {
+		applog.Error("main.findDocs finding docs for collection ", c[0])
 		results, err = find.FindDocumentsInCol(parser, q, c[0])
 	} else {
+		applog.Error("main.findDocs finding docs for all collections")
 		results, err = find.FindDocuments(parser, q, advanced)
 	}
 
