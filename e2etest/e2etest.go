@@ -74,7 +74,7 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 
 	c := queryString["collection"]
 	if (len(c) > 0) && (c[0] == "xiyouji")  {
-		applog.Error("main.findDocs mock data for xiyouji")
+		applog.Error("main.findDocs mock data for xiyouji.html")
 		col0 := find.Collection{
 			GlossFile: "xiyouji.html",
 			Title: "Journey to the West 《西遊記》",
@@ -82,7 +82,7 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 		col := []find.Collection{col0}
 		ft := fulltext.MatchingText{
 			Snippet: "詩曰：",
-			LongestMatch: "曰",
+			LongestMatch: "詩",
 			ExactMatch: true,
 		}
 		doc0 := find.Document{
