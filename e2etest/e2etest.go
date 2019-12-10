@@ -124,7 +124,7 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 			Senses: senses0,
 		}
 		terms1 := []find.TextSegment{ts1}
-		results = find.QueryResults{q, "", 0, 0, col, doc, terms1}
+		results = find.QueryResults{q, "", 1, 1, col, doc, terms1}
 	} else if (len(c) > 0) && (c[0] != "") {
 		results, err = find.FindDocumentsInCol(parser, q, c[0])
 	} else {
