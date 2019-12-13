@@ -285,4 +285,5 @@
 3000285	朱红牌	朱紅牌	zhūhóng pái	vermilion sign	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 朱紅 vermilion + 牌 sign (Nai'an Shi, Guanzhong Luo, and Sidney Shapiro tr. 1999, <i>Outlaws of the Marsh</i>, pp. 180-181, vol. 1)	3000285
 3000286	拔垂杨柳	拔垂楊柳	bá chuíyángliǔ	uproots a willow tree	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 拔 uproot + 垂楊柳 willow (Nai'an Shi, Guanzhong Luo, and Sidney Shapiro tr. 1999, <i>Outlaws of the Marsh</i>, pp. 180-181, vol. 1)	3000286
 3000287	源流出	\N	yuánliú chū	the source is revealed	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 源流 source + 出 out (Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>, p. 99, ch. 1)	3000287
-3000288	盖闻	蓋聞	gàiwén	we heard that	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 蓋 that + 聞 hear (Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>, p. 99, ch. 1)	3000288
+3000288	盖闻	蓋聞	gài wén	we heard that	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 蓋 that + 聞 hear (Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>, p. 99, ch. 1)	3000288
+3000289	到此	\N	dào cǐ	at this point	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 到 arrive + 此 here (Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>, p. 99, ch. 1)	3000289
