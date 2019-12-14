@@ -438,7 +438,7 @@ function processAJAX(httpRequest) {
 
         document.getElementById("findResults").style.display = "block";
       } else {
-        const msg = "No matching titles found in document collection";
+        const msg = "No matching results found";
         const elem = document.getElementById("findResults");
         if (elem) {
           elem.style.display = "none";
