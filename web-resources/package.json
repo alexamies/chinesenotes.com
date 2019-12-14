@@ -4,7 +4,7 @@
   "description": "HB Reader",
   "private": true,
   "scripts": {
-    "prebuild": "npx eslint script/find.js script/findadvanced.js",
+    "prebuild": "npx eslint script/findadvanced.js",
     "build": "npx webpack --config webpack.config.js",
     "compile_dev": "npx webpack --config webpack.config.dev.js",
     "compile_ts": "./node_modules/.bin/tsc",
@@ -36,8 +36,9 @@
     "rxjs-marbles": "^5.0.2",
     "sass-loader": "^7.1.0",
     "source-map": "^0.7.3",
+    "ts-loader": "^6.2.1",
     "tslint": "^5.18.0",
-    "typescript": "^3.7.2",
+    "typescript": "^3.7.3",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2"
