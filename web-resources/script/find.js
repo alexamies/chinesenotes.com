@@ -387,16 +387,6 @@ function processAJAX(httpRequest) {
       const numDocuments = obj.NumDocuments;
       const collections = obj.Collections;
       const documents = obj.Documents;
-      const href1 = window.location.href;
-      if ((numCollections + numDocuments == 1) &&
-           !href1.includes("collection=")) {
-        if (numCollections == 1) {
-          window.location = "/" + collections[0].GlossFile;
-        } else {
-          window.location = "/" + documents[0].GlossFile;
-        }
-        return;
-      }
 
       // Otherwise send the results to the client in JSON form
       if (numCollections > 0 || numDocuments > 0) {
