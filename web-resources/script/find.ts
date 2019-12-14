@@ -15,89 +15,129 @@
 
 import {MDCList} from "@material/list";
 
-// JavaScript function for sending and displaying search results for words and
-// phrases. The results may be a word or table of words and matching collections
-// and documents.
-(function() {
-  let httpRequest;
-  const findForm = document.getElementById("findForm");
-  if (findForm) {
-    document.getElementById("findForm").onsubmit = function() {
-      const findInput = document.getElementById("findInput");
-      if (findInput && findInput instanceof HTMLInputElement) {
-        const query = findInput.value;
-        let action = "/find";
-        if (findForm instanceof HTMLFormElement &&
-            !findForm.action.endsWith("#")) {
-          action = findForm.action;
+// Interface for JSON collection data loaded from AJAX call
+declare interface CNCollection {
+  GlossFile: string;
+  Title: string;
+}
+
+// Interface for JSON dictionary entry data loaded from AJAX call
+declare interface CNDictEntry {
+  Pinyin: string;
+  Senses: Array<CNWordSense>;
+}
+
+// Interface for JSON document data loaded from AJAX call
+declare interface CNDocument {
+  GlossFile: string;
+  Title: string;
+}
+
+// Interface for JSON query term data loaded from AJAX call
+declare interface CNTerm {
+  DictEntry: CNDictEntry;
+  QueryText: string;
+}
+
+// Interface for JSON WordSense data loaded from AJAX call
+declare interface CNWordSense {
+  English: string;
+  HeadwordId: string;
+  Notes: string;
+  Pinyin: string;
+  Simplified: string;
+  Traditional: string;
+}
+
+/**
+ * JavaScript function for sending and displaying search results for words and
+ * phrases. The results may be a word or table of words and matching collections
+ * and documents.
+ */
+ export class WordFinder {
+  private httpRequest: XMLHttpRequest;
+
+  constructor() {
+    this.httpRequest = new XMLHttpRequest();
+    const findForm = document.getElementById("findForm");
+    if (findForm) {
+      findForm.onsubmit = () => {
+        const findInput = document.getElementById("findInput");
+        if (findInput && findInput instanceof HTMLInputElement) {
+          const query = findInput.value;
+          let action = "/find";
+          if (findForm instanceof HTMLFormElement &&
+              !findForm.action.endsWith("#")) {
+            action = findForm.action;
+          }
+          const url = action + "/?query=" + query;
+          this.makeRequest(url);
+        } else {
+          console.log("find.js: findInput not in dom");
         }
-        const url = action + "/?query=" + query;
-        makeRequest(url);
-      } else {
-        console.log("find.js: findInput not in dom");
-      }
-      return false;
-    };
-  }
+        return false;
+      };
+     } else {
+       console.log("find.js No findForm in dom");
+     }
 
-  // If the search is initiated from the search bar on the main page
-  // then execute the search directly
-  const searcForm = document.getElementById("searchForm");
-  if (searcForm) {
-    searcForm.onsubmit = function() {
-      const searchInput = document.getElementById("searchInput");
-      if (searchInput && searchInput instanceof HTMLInputElement) {
-        const query = searchInput.value;
-        const url = "/find/?query=" + query;
-        makeRequest(url);
-      } else {
-        console.log("find.js searchInput has wrong type");
-      }
-      return false;
-    };
-  }
-
-  // If the search is initiated from the search bar, other than the main page
-  // then redirect to the main page with the query after the hash
-  const searchBarForm = document.getElementById("searchBarForm");
-  if (searchBarForm) {
-    searchBarForm.onsubmit = function() {
-      const redirectURL = getSearchBarQuery();
-      window.location.href = redirectURL;
-      return false;
-    };
-  }
-
-  // Function for sending and displaying search results for words
-  // based on the URL of the main page
-  const href = window.location.href;
-  if (href.includes("#?text=") && !href.includes("collection=")) {
-    const path = decodeURI(href);
-    const q = path.split("=");
-    const findInput = document.getElementById("findInput");
-    if (findInput && findInput instanceof HTMLFormElement) {
-      findInput.value = q[1];
+    // If the search is initiated from the search bar on the main page
+    // then execute the search directly
+    const searcForm = document.getElementById("searchForm");
+    if (searcForm) {
+      searcForm.onsubmit = () => {
+        const searchInput = document.getElementById("searchInput");
+        if (searchInput && searchInput instanceof HTMLInputElement) {
+          const query = searchInput.value;
+          const url = "/find/?query=" + query;
+          this.makeRequest(url);
+        } else {
+          console.log("find.js searchInput has wrong type");
+        }
+        return false;
+      };
     }
-    const url = "/find/?query=" + q[1];
-    makeRequest(url);
-    return false;
-  }
+
+    // If the search is initiated from the search bar, other than the main page
+    // then redirect to the main page with the query after the hash
+    const searchBarForm = document.getElementById("searchBarForm");
+    if (searchBarForm) {
+      searchBarForm.onsubmit = () => {
+        const redirectURL = getSearchBarQuery();
+        window.location.href = redirectURL;
+        return false;
+      };
+    }
+
+    // Function for sending and displaying search results for words
+    // based on the URL of the main page
+    const href = window.location.href;
+    if (href.includes("#?text=") && !href.includes("collection=")) {
+      const path = decodeURI(href);
+      const q = path.split("=");
+      const findInput = document.getElementById("findInput");
+      if (findInput && findInput instanceof HTMLFormElement) {
+        findInput.value = q[1];
+      }
+      const url = "/find/?query=" + q[1];
+      this.makeRequest(url);
+    }
+  }  
 
   /**
    * Send an AJAX request
    * @param {string} url - The URL to send the request to
    */
-  function makeRequest(url) {
+  private makeRequest(url: string) {
     console.log("makeRequest: url = " + url);
-    httpRequest = new XMLHttpRequest();
 
-    if (!httpRequest) {
+    if (!this.httpRequest) {
       console.log("Giving up :( Cannot create an XMLHTTP instance");
       return;
     }
-    httpRequest.onreadystatechange = alertContents;
-    httpRequest.open("GET", url);
-    httpRequest.send();
+    this.httpRequest.onreadystatechange = this.alertContents;
+    this.httpRequest.open("GET", url);
+    this.httpRequest.send();
     const helpBlock = document.getElementById("lookup-help-block");
     if (helpBlock) {
       helpBlock.innerHTML ="Searching ...";
@@ -108,10 +148,12 @@ import {MDCList} from "@material/list";
   /**
    * Process the results of an AJAX request
    */
-  function alertContents() {
-    processAJAX(httpRequest);
+  private alertContents() {
+    processAJAX(this.httpRequest);
   }
-})();
+}
+
+const wordFinder = new WordFinder();
 
 /**
  * A a collection link to a table body
@@ -119,8 +161,8 @@ import {MDCList} from "@material/list";
  * @param {object} tbody - tbody HTML element
  * @return {object} a HTML element that the object is added to
  */
-function addColToTable(collection, tbody) {
-  if ("Title" in collection) {
+function addColToTable(collection: CNCollection, tbody: HTMLElement) {
+  if (collection.Title) {
     const title = collection.Title;
     const glossFile = collection.GlossFile;
     const tr = document.createElement("tr");
@@ -142,7 +184,7 @@ function addColToTable(collection, tbody) {
  * @param {object} dTbody - tbody HTML element
  * @return {object} a HTML element that the object is added to
 */
-function addDocToTable(doc, dTbody) {
+function addDocToTable(doc: CNDocument, dTbody: HTMLElement) {
   if ("Title" in doc) {
     const title = doc.Title;
     const glossFile = doc.GlossFile;
@@ -169,7 +211,8 @@ function addDocToTable(doc, dTbody) {
  * @param {number} j - the order of the element
  * @return {object} a HTML element that the object is added to
  */
-function addEquivalent(ws, maxLen, englishSpan, j) {
+function addEquivalent(ws: CNWordSense, maxLen: number, englishSpan: HTMLElement,
+                       j: number) {
   const equivalent = " " + (j + 1) + ". " + ws.English;
   const textLen2 = equivalent.length;
   const equivSpan = document.createElement("span");
@@ -199,7 +242,7 @@ function addEquivalent(ws, maxLen, englishSpan, j) {
  * @param {object} qList - the word list
  * @return {object} a HTML element that the object is added to
  */
-function addTermToList(term, qList) {
+function addTermToList(term: CNTerm, qList: HTMLElement) {
   const li = document.createElement("li");
   li.className = "mdc-list-item";
   const span = document.createElement("span");
@@ -247,11 +290,11 @@ function addTermToList(term, qList) {
 
 /**
  * Add a word sense object to a query term list
- * @param {object} sense is a word sense object
- * @param {object} qList - tbody HTML element
- * @return {object} a HTML element that the object is added to
+ * @param {CNWordSense} sense is a word sense object
+ * @param {HTMLElement} qList - tbody HTML element
+ * @return {HTMLElement} a HTML element that the object is added to
 */
-function addWordSense(sense, qList) {
+function addWordSense(sense: CNWordSense, qList: HTMLElement) {
   const li = document.createElement("li");
   li.className = "mdc-list-item";
 
@@ -302,14 +345,16 @@ function addWordSense(sense, qList) {
  * @param {object} wordURL is the URL of detail page for the headword
  * @return {object} a HTML element that can be added to the list element
 */
-function combineEnglish(senses, wordURL) {
+function combineEnglish(senses: Array<CNWordSense>, wordURL: string) {
   const maxLen = 120;
   const englishSpan = document.createElement("span");
   if (senses.length == 1) {
     // For a single sense, give the equivalent and notes
     let textLen = 0;
     const equivSpan = document.createElement("span");
-    equivSpan.setAttribute("class", "dict-entry-definition");
+    if (equivSpan) {
+      equivSpan.setAttribute("class", "dict-entry-definition");
+    }
     const equivalent = senses[0].English;
     textLen += equivalent.length;
     const equivTN = document.createTextNode(equivalent);
@@ -389,7 +434,7 @@ function getSearchBarQuery() {
  * Processes the HTTP response of an AJAX request
  * @param {object} httpRequest - the XMLHttpRequest object
  */
-function processAJAX(httpRequest) {
+function processAJAX(httpRequest: XMLHttpRequest) {
   if (httpRequest.readyState === XMLHttpRequest.DONE) {
     if (httpRequest.status === 200) {
       console.log("alertContents: Got a successful response");
@@ -410,9 +455,13 @@ function processAJAX(httpRequest) {
         // Report summary reults
         console.log("alertContents: processing summary reults");
         const span = document.getElementById("NumCollections");
-        span.innerHTML = numCollections;
+        if (span) {
+          span.innerHTML = numCollections;
+        }
         const spand = document.getElementById("NumDocuments");
-        spand.innerHTML = numDocuments;
+        if (spand) {
+          spand.innerHTML = numDocuments;
+        }
 
         // Add detailed results for collections
         if (numCollections > 0) {
@@ -427,10 +476,14 @@ function processAJAX(httpRequest) {
           for (let i = 0; i < numCol; i += 1) {
             addColToTable(collections[i], tbody);
           }
-          table.appendChild(tbody);
-          table.style.display = "block";
+          if (table) {
+            table.appendChild(tbody);
+            table.style.display = "block";
+          }
           const colResultsDiv = document.getElementById("colResultsDiv");
-          colResultsDiv.style.display = "block";
+          if (colResultsDiv) {
+            colResultsDiv.style.display = "block";
+          }
         }
 
         // Add detailed results for documents
@@ -447,13 +500,19 @@ function processAJAX(httpRequest) {
           for (let i = 0; i < numDoc; i += 1) {
             addDocToTable(documents[i], dTbody);
           }
-          dTable.appendChild(dTbody);
-          dTable.style.display = "block";
+          if (dTable) {
+            dTable.appendChild(dTbody);
+            dTable.style.display = "block";
+          }
           const docResultsDiv = document.getElementById("docResultsDiv");
-          docResultsDiv.style.display = "block";
+          if (docResultsDiv) {
+            docResultsDiv.style.display = "block";
+          }
         }
-
-        document.getElementById("findResults").style.display = "block";
+        const findResults = document.getElementById("findResults");
+        if (findResults) {
+          findResults.style.display = "block";
+        }
       } else {
         const msg = "No matching results found";
         const elem = document.getElementById("findResults");
@@ -504,12 +563,19 @@ function processAJAX(httpRequest) {
         } else {
           console.log("alertContents: not able to handle this case", terms);
         }
-        queryTermsDiv.appendChild(qList);
-        queryTermsDiv.style.display = "block";
+        if (queryTermsDiv) {
+          queryTermsDiv.appendChild(qList);
+          queryTermsDiv.style.display = "block";
+        }
         const qTitle = document.getElementById("queryTermsTitle");
-        qTitle.style.display = "block";
+        if (qTitle) {
+          qTitle.style.display = "block";
+        }
         new MDCList(qList);
-        document.getElementById("queryTerms").style.display = "block";
+        const queryTerms =  document.getElementById("queryTerms");
+        if (queryTerms) {
+          queryTerms.style.display = "block";
+        }
       } else {
         console.log("alertContents: not able to load dictionary terms", terms);
       }
@@ -517,12 +583,18 @@ function processAJAX(httpRequest) {
       const msg1 = "There was a problem with the request.";
       console.log(msg1);
       const elem1 = document.getElementById("findResults");
-      elem1.style.display = "none";
+      if (elem1) {
+        elem1.style.display = "none";
+      }
       const elem3 = document.getElementById("findError");
-      elem3.innerHTML = msg1;
-      elem3.style.display = "block";
+      if (elem3) {
+        elem3.innerHTML = msg1;
+        elem3.style.display = "block";
+      }
     }
     const elem2 = document.getElementById("lookup-help-block");
-    elem2.style.display = "none";
+    if (elem2) {
+      elem2.style.display = "none";
+    }
   }
 }
