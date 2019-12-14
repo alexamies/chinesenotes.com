@@ -135,7 +135,9 @@ declare interface CNWordSense {
       console.log("Giving up :( Cannot create an XMLHTTP instance");
       return;
     }
-    this.httpRequest.onreadystatechange = this.alertContents;
+    this.httpRequest.onreadystatechange = () => {
+      this.alertContents(this.httpRequest);
+    }
     this.httpRequest.open("GET", url);
     this.httpRequest.send();
     const helpBlock = document.getElementById("lookup-help-block");
@@ -148,8 +150,8 @@ declare interface CNWordSense {
   /**
    * Process the results of an AJAX request
    */
-  private alertContents() {
-    processAJAX(this.httpRequest);
+  private alertContents(httpRequest: XMLHttpRequest) {
+    processAJAX(httpRequest);
   }
 }
 

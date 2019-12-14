@@ -10,6 +10,22 @@ AJAX calls from the web application.
 First follow the procedure in the main README.md to generate the HTML files for
 the site.
 
+## Run Locally
+
+To run locally, first copy important static files to the static directory
+
+```shell
+./e2ecopy.sh
+```
+
+Build the Go web app
+
+```shell
+go build
+```
+
+
+## Deploy to Cloud Run
 Deploy on [Cloud Run](https://cloud.google.com/run/) and use the pages in the
 test folder to drive end to end tests, as described here. This is intended for
 testing the JavaScript client with real web pages and mock data.

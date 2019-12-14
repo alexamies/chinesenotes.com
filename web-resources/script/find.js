@@ -66,7 +66,9 @@ export class WordFinder {
             console.log("Giving up :( Cannot create an XMLHTTP instance");
             return;
         }
-        this.httpRequest.onreadystatechange = this.alertContents;
+        this.httpRequest.onreadystatechange = () => {
+            this.alertContents(this.httpRequest);
+        };
         this.httpRequest.open("GET", url);
         this.httpRequest.send();
         const helpBlock = document.getElementById("lookup-help-block");
@@ -75,8 +77,8 @@ export class WordFinder {
         }
         console.log("makeRequest: Sent request");
     }
-    alertContents() {
-        processAJAX(this.httpRequest);
+    alertContents(httpRequest) {
+        processAJAX(httpRequest);
     }
 }
 const wordFinder = new WordFinder();

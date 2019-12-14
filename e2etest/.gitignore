@@ -1,2 +1,4 @@
 e2etest
+data/
 static/
+config.yaml

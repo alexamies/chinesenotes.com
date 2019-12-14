@@ -1,8 +1,11 @@
 #!/bin/sh
 # Copy and tar static files for end to end test
+cp ../config.yaml .
 mkdir static
 mkdir data
 cp ../data/words.txt data/.
+cp ../data/translation_memory_literary.txt data/.
+cp ../data/translation_memory_modern.txt data/.
 cp ../web-staging/advanced_search.html static/.
 cp ../web-staging/index.html static/.
 cp ../web-staging/idioms.html static/.
