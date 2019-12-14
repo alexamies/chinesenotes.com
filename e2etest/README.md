@@ -24,6 +24,11 @@ Build the Go web app
 go build
 ```
 
+Start the web app
+
+```shell
+./e2etest
+```
 
 ## Deploy to Cloud Run
 Deploy on [Cloud Run](https://cloud.google.com/run/) and use the pages in the

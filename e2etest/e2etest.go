@@ -156,79 +156,8 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 
 // Finds documents matching the given query
 func findHandler(response http.ResponseWriter, request *http.Request) {
-	log.Print("main.findHandler, enter")
-	url := request.URL
-	queryString := url.Query()
-	query := queryString["query"]
-	q := "No Query"
-	if len(query) > 0 {
-		q = query[0]
-	} else {
-		query := queryString["text"]
-		if len(query) > 0 {
-			q = query[0]
-		}
-	}
-  col := []find.Collection{}
-  doc := []find.Document{}
-	senses0 := []dictionary.WordSense{}
-  terms0 := []find.TextSegment{}
-	results := find.QueryResults{q, "", 0, 0, col, doc, terms0}
-	sense1 := dictionary.WordSense{
-		Id: 74517,
-		HeadwordId: 74517,
-		Simplified: "大哥大",
-		Traditional: "\\N",
-		Pinyin: "dàgēdà",
-		English: "cell phone",
-		Notes: "",
-	}
-	senses1 := []dictionary.WordSense{sense1}
-	entry1 := dictionary.Word{
-		Simplified: "大哥大",
-		Traditional: "\\N",
-		Pinyin: "dàgēdà",
-		HeadwordId: 74517,
-		Senses: senses1,
-	}
-	ts1 := find.TextSegment{
-		QueryText: "大哥大",
-		DictEntry: entry1,
-		Senses: senses0,
-	}
-	terms1 := []find.TextSegment{ts1}
-	sense2 := dictionary.WordSense{
-		Id: 3940,
-		HeadwordId: 3940,
-		Simplified: "旧",
-		Traditional: "舊",
-		Pinyin: "jiù",
-		English: "old",
-		Notes: "",
-	}
-	senses2 := []dictionary.WordSense{sense2}
-	entry2 := dictionary.Word{
-		Simplified: "旧",
-		Traditional: "舊",
-		Pinyin: "jiù",
-		HeadwordId: 3940,
-		Senses: senses2,
-	}
-	ts2 := find.TextSegment{
-		QueryText: "舊",
-		DictEntry: entry2,
-		Senses: senses0,
-	}
-	terms2 := []find.TextSegment{ts1, ts2}
-	if (q == "大哥大") {
-	  results = find.QueryResults{q, "", 0, 0, col, doc, terms1}
-	} else if (q == "大哥大舊") {
-	  results = find.QueryResults{q, "", 0, 0, col, doc, terms2}
-	}
-
-	resultsJson, _ := json.Marshal(results)
-	response.Header().Set("Content-Type", "application/json; charset=utf-8")
-	fmt.Fprintf(response, string(resultsJson))
+	applog.Info("main.findHandler, enter")
+	findDocs(response, request, false)
 }
 
 func main() {

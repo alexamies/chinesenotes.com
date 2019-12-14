@@ -16,31 +16,31 @@
 import {MDCList} from "@material/list";
 
 // Interface for JSON collection data loaded from AJAX call
-declare interface CNCollection {
+declare interface ICollection {
   GlossFile: string;
   Title: string;
 }
 
 // Interface for JSON dictionary entry data loaded from AJAX call
-declare interface CNDictEntry {
+declare interface IDictEntry {
   Pinyin: string;
-  Senses: Array<CNWordSense>;
+  Senses: IWordSense[];
 }
 
 // Interface for JSON document data loaded from AJAX call
-declare interface CNDocument {
+declare interface IDocument {
   GlossFile: string;
   Title: string;
 }
 
 // Interface for JSON query term data loaded from AJAX call
-declare interface CNTerm {
-  DictEntry: CNDictEntry;
+declare interface ITerm {
+  DictEntry: IDictEntry;
   QueryText: string;
 }
 
 // Interface for JSON WordSense data loaded from AJAX call
-declare interface CNWordSense {
+declare interface IWordSense {
   English: string;
   HeadwordId: string;
   Notes: string;
@@ -54,7 +54,7 @@ declare interface CNWordSense {
  * phrases. The results may be a word or table of words and matching collections
  * and documents.
  */
- export class WordFinder {
+export class WordFinder {
   private httpRequest: XMLHttpRequest;
 
   constructor() {
@@ -77,10 +77,9 @@ declare interface CNWordSense {
         }
         return false;
       };
-     } else {
-       console.log("find.js No findForm in dom");
-     }
-
+    } else {
+      console.log("find.js No findForm in dom");
+    }
     // If the search is initiated from the search bar on the main page
     // then execute the search directly
     const searcForm = document.getElementById("searchForm");
@@ -97,7 +96,6 @@ declare interface CNWordSense {
         return false;
       };
     }
-
     // If the search is initiated from the search bar, other than the main page
     // then redirect to the main page with the query after the hash
     const searchBarForm = document.getElementById("searchBarForm");
@@ -108,7 +106,6 @@ declare interface CNWordSense {
         return false;
       };
     }
-
     // Function for sending and displaying search results for words
     // based on the URL of the main page
     const href = window.location.href;
@@ -122,7 +119,7 @@ declare interface CNWordSense {
       const url = "/find/?query=" + q[1];
       this.makeRequest(url);
     }
-  }  
+  }
 
   /**
    * Send an AJAX request
@@ -130,19 +127,18 @@ declare interface CNWordSense {
    */
   private makeRequest(url: string) {
     console.log("makeRequest: url = " + url);
-
     if (!this.httpRequest) {
       console.log("Giving up :( Cannot create an XMLHTTP instance");
       return;
     }
     this.httpRequest.onreadystatechange = () => {
       this.alertContents(this.httpRequest);
-    }
+    };
     this.httpRequest.open("GET", url);
     this.httpRequest.send();
     const helpBlock = document.getElementById("lookup-help-block");
     if (helpBlock) {
-      helpBlock.innerHTML ="Searching ...";
+      helpBlock.innerHTML = "Searching ...";
     }
     console.log("makeRequest: Sent request");
   }
@@ -163,7 +159,7 @@ const wordFinder = new WordFinder();
  * @param {object} tbody - tbody HTML element
  * @return {object} a HTML element that the object is added to
  */
-function addColToTable(collection: CNCollection, tbody: HTMLElement) {
+function addColToTable(collection: ICollection, tbody: HTMLElement) {
   if (collection.Title) {
     const title = collection.Title;
     const glossFile = collection.GlossFile;
@@ -185,8 +181,8 @@ function addColToTable(collection: CNCollection, tbody: HTMLElement) {
  * @param {object} doc is a document object
  * @param {object} dTbody - tbody HTML element
  * @return {object} a HTML element that the object is added to
-*/
-function addDocToTable(doc: CNDocument, dTbody: HTMLElement) {
+ */
+function addDocToTable(doc: IDocument, dTbody: HTMLElement) {
   if ("Title" in doc) {
     const title = doc.Title;
     const glossFile = doc.GlossFile;
@@ -213,7 +209,7 @@ function addDocToTable(doc: CNDocument, dTbody: HTMLElement) {
  * @param {number} j - the order of the element
  * @return {object} a HTML element that the object is added to
  */
-function addEquivalent(ws: CNWordSense, maxLen: number, englishSpan: HTMLElement,
+function addEquivalent(ws: IWordSense, maxLen: number, englishSpan: HTMLElement,
                        j: number) {
   const equivalent = " " + (j + 1) + ". " + ws.English;
   const textLen2 = equivalent.length;
@@ -244,7 +240,7 @@ function addEquivalent(ws: CNWordSense, maxLen: number, englishSpan: HTMLElement
  * @param {object} qList - the word list
  * @return {object} a HTML element that the object is added to
  */
-function addTermToList(term: CNTerm, qList: HTMLElement) {
+function addTermToList(term: ITerm, qList: HTMLElement) {
   const li = document.createElement("li");
   li.className = "mdc-list-item";
   const span = document.createElement("span");
@@ -292,11 +288,11 @@ function addTermToList(term: CNTerm, qList: HTMLElement) {
 
 /**
  * Add a word sense object to a query term list
- * @param {CNWordSense} sense is a word sense object
+ * @param {IWordSense} sense is a word sense object
  * @param {HTMLElement} qList - tbody HTML element
  * @return {HTMLElement} a HTML element that the object is added to
-*/
-function addWordSense(sense: CNWordSense, qList: HTMLElement) {
+ */
+function addWordSense(sense: IWordSense, qList: HTMLElement) {
   const li = document.createElement("li");
   li.className = "mdc-list-item";
 
@@ -346,11 +342,11 @@ function addWordSense(sense: CNWordSense, qList: HTMLElement) {
  * @param {object} senses is an array of WordSense objects
  * @param {object} wordURL is the URL of detail page for the headword
  * @return {object} a HTML element that can be added to the list element
-*/
-function combineEnglish(senses: Array<CNWordSense>, wordURL: string) {
+ */
+function combineEnglish(senses: IWordSense[], wordURL: string) {
   const maxLen = 120;
   const englishSpan = document.createElement("span");
-  if (senses.length == 1) {
+  if (senses.length === 1) {
     // For a single sense, give the equivalent and notes
     let textLen = 0;
     const equivSpan = document.createElement("span");
@@ -376,7 +372,7 @@ function combineEnglish(senses: Array<CNWordSense>, wordURL: string) {
       const notesTN = document.createTextNode(notesTxt);
       englishSpan.appendChild(notesTN);
     }
-  } else if (senses.length == 2) {
+  } else if (senses.length === 2) {
     // For a list of two, give the enumeration with equivalents and notes
     console.log("WordSense " + senses.length);
     for (let j = 0; j < senses.length; j += 1) {
@@ -388,7 +384,7 @@ function combineEnglish(senses: Array<CNWordSense>, wordURL: string) {
     for (let j = 0; j < senses.length; j++) {
       equiv += (j + 1) + ". " + senses[j].English + "; ";
       if (equiv.length > maxLen) {
-        equiv + " ...";
+        equiv += " ...";
         break;
       }
     }
@@ -417,7 +413,7 @@ function combineEnglish(senses: Array<CNWordSense>, wordURL: string) {
  */
 function getSearchBarQuery() {
   const searchInput = document.getElementById("searchInput");
-  const searchBarForm = document.getElementById("searchBarForm")
+  const searchBarForm = document.getElementById("searchBarForm");
   if (searchInput && searchInput instanceof HTMLInputElement &&
       searchBarForm && searchBarForm instanceof HTMLFormElement) {
     const query = searchInput.value;
@@ -521,15 +517,15 @@ function processAJAX(httpRequest: XMLHttpRequest) {
         if (elem) {
           elem.style.display = "none";
         }
-        const elem2 = document.getElementById("findError");
-        if (elem2) {
-          elem2.innerHTML = msg;
-          elem2.style.display = "block";
+        const findError = document.getElementById("findError");
+        if (findError) {
+          findError.innerHTML = msg;
+          findError.style.display = "block";
         }
       }
 
       const terms = obj.Terms;
-      if (terms && terms.length == 1 && terms[0].DictEntry &&
+      if (terms && terms.length === 1 && terms[0].DictEntry &&
         terms[0].DictEntry.HeadwordId > 0) {
         console.log("Single matching word, redirect to it");
         const hwId = terms[0].DictEntry.HeadwordId;
@@ -551,16 +547,16 @@ function processAJAX(httpRequest: XMLHttpRequest) {
         qList.id = "queryTermsList";
         qList.className = "mdc-list mdc-list--two-line";
         if ((terms.length > 0) && terms[0].DictEntry && (!terms[0].Senses ||
-              (terms[0].Senses.length == 0))) {
+              (terms[0].Senses.length === 0))) {
           console.log("alertContents: Query contain Chinese words", terms);
-          for (let i = 0; i < terms.length; i += 1) {
-            addTermToList(terms[i], qList);
+          for (const term of terms) {
+            addTermToList(term, qList);
           }
-        } else if ((terms.length == 1) && terms[0].Senses) {
+        } else if ((terms.length === 1) && terms[0].Senses) {
           console.log("alertContents: Query is English", terms[0].Senses);
           const senses = terms[0].Senses;
-          for (let i = 0; i < senses.length; i++) {
-            addWordSense(senses[i], qList);
+          for (const sense of senses) {
+            addWordSense(sense, qList);
           }
         } else {
           console.log("alertContents: not able to handle this case", terms);
@@ -573,7 +569,6 @@ function processAJAX(httpRequest: XMLHttpRequest) {
         if (qTitle) {
           qTitle.style.display = "block";
         }
-        new MDCList(qList);
         const queryTerms =  document.getElementById("queryTerms");
         if (queryTerms) {
           queryTerms.style.display = "block";
