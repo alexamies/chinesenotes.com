@@ -222,7 +222,7 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 	terms2 := []find.TextSegment{ts1, ts2}
 	if (q == "大哥大") {
 	  results = find.QueryResults{q, "", 0, 0, col, doc, terms1}
-	} else if (q == "舊大哥大") {
+	} else if (q == "大哥大舊") {
 	  results = find.QueryResults{q, "", 0, 0, col, doc, terms2}
 	}
 
