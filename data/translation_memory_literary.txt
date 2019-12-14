@@ -287,3 +287,4 @@
 3000287	源流出	\N	yuánliú chū	the source is revealed	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 源流 source + 出 out (Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>, p. 99, ch. 1)	3000287
 3000288	盖闻	蓋聞	gài wén	we heard that	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 蓋 that + 聞 hear (Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>, p. 99, ch. 1)	3000288
 3000289	到此	\N	dào cǐ	at this point	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 到 arrive + 此 here (Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>, p. 99, ch. 1)	3000289
+3000290	归本	歸本	guī běn	return to the root	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	TM: 歸 return + 本 root (Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>, p. 116, ch. 2)	114353
