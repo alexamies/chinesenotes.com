@@ -33,20 +33,24 @@ module.exports = [
     entry:  {
       app: [
         './cnotes.js',
-        './script/find.js'
+        './script/find.ts',
+        './script/findadvanced.ts'
       ]
     },
     output: {
       filename: "./cnotes-compiled.js",
     },
     module: {
-      rules: [{
-        test: /\.js$/,
-        loader: "babel-loader",
-        query: {
-          presets: ["@babel/preset-env"],
+      rules: [
+        {
+          test: /\.tsx?$/,
+          use: 'ts-loader',
+          exclude: /node_modules/,
         },
-      }],
+      ],
+    },
+    resolve: {
+      extensions: [ '.tsx', '.ts', '.js' ],
     },
   },
 ];
