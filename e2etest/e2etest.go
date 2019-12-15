@@ -59,6 +59,7 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 	url := request.URL
 	queryString := url.Query()
 	query := queryString["query"]
+	applog.Info("main.findHandler, query: ", query)
 	q := "No Query"
 	if len(query) > 0 {
 		q = query[0]
@@ -156,7 +157,13 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 
 // Finds documents matching the given query
 func findHandler(response http.ResponseWriter, request *http.Request) {
-	applog.Info("main.findHandler, enter")
+	applog.Info("main.findHandler, enter:")
+	findDocs(response, request, false)
+}
+
+// Finds terms matching the given query with a substring match
+func findSubstring(response http.ResponseWriter, request *http.Request) {
+	applog.Info("main.findSubstring, enter")
 	findDocs(response, request, false)
 }
 
@@ -164,6 +171,7 @@ func main() {
 	log.Print("End-to-end test server started")
 	http.HandleFunc("/find/", findHandler)
 	http.HandleFunc("/findadvanced/", findAdvanced)
+	http.HandleFunc("/findsubstring", findSubstring)
 	http.Handle("/", http.FileServer(http.Dir(STATIC_DIR)))
 	port := os.Getenv("PORT")
 	if port == "" {

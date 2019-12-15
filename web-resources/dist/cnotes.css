@@ -1603,6 +1603,9 @@ body {
   text-decoration: none;
   color: darkslategray; }
 
+.cnotes-primer-vocab-box {
+  padding: 5px; }
+
 a.title--mdc-theme-on-primary {
   color: #FFF; }
 

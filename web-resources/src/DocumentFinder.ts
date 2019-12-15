@@ -281,7 +281,8 @@ export class DocumentFinder {
       const textNode1 = document.createTextNode("Title: ");
       td.appendChild(textNode1);
       const a = document.createElement("a");
-      a.setAttribute("href", glossFile);
+      const url = `${glossFile}?highlight=${doc.MatchDetails.LongestMatch}`;
+      a.setAttribute("href", url);
       let titleText = title;
       if (titleText.length > this.MAX_TITLE_LEN) {
         titleText = titleText.substring(0, this.MAX_TITLE_LEN - 1) + "...";

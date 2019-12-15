@@ -13,7 +13,7 @@ cp ../web-staging/texts.html static/.
 cp ../web-staging/xiyouji.html static/.
 cp ../web-staging/*.css static/.
 mkdir static/xiyouji
-cp ../web-staging/xiyouji/xiyouji001.html static/.
+cp ../web-staging/xiyouji/xiyouji001.html static/xiyouji/.
 mkdir static/words
 cp ../web-staging/words/74517.html static/words/.
 mkdir static/dist
