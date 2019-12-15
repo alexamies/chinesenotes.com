@@ -30,6 +30,9 @@ export class WordFinder {
 
   constructor() {
     this.httpRequest = new XMLHttpRequest();
+  }
+
+  public init() {
     const findForm = document.getElementById("findForm");
     if (findForm) {
       findForm.onsubmit = () => {
@@ -124,8 +127,6 @@ export class WordFinder {
     processAJAX(httpRequest);
   }
 }
-
-const wordFinder = new WordFinder();
 
 /**
  * A a collection link to a table body

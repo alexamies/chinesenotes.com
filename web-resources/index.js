@@ -1,6 +1,27 @@
-import {MDCDialog} from "@material/dialog";
-import {MDCTopAppBar} from "@material/top-app-bar";
-import {MDCDrawer} from "@material/drawer";
+/**
+ * Licensed  under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+import { MDCDialog } from "@material/dialog";
+import { MDCTopAppBar } from "@material/top-app-bar";
+import { MDCDrawer } from "@material/drawer";
+import { DocumentFinder } from "./src/DocumentFinder"
+import { WordFinder } from "./src/WordFinder"
+
+/**
+ * Entry point for JavaScript in main pages.
+ */
 
 // Menu draw events
 const drawer = MDCDrawer.attachTo(document.querySelector('.mdc-drawer'));
@@ -14,6 +35,10 @@ mainContentEl.addEventListener('click', (event) => {
   drawer.open = false;
 });
 
+const wordFinder = new WordFinder();
+wordFinder.init();
+const docFinder = new DocumentFinder();
+docFinder.init();
 
 /** Initialize dialog so that it can be shown when user clicks on a Chinese
  *  word.

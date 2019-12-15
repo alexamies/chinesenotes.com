@@ -54,3 +54,12 @@ gcloud builds submit --config cloudbuild.yaml .
 
 Go to Cloud Run management page in the GCP Cloud Console to find the URL
 of the server.
+
+To deploy Cloud Run with a connection to Cloud SQL:
+
+```shell
+PROJECT_ID=[Your project]
+IMAGE=gcr.io/$PROJECT_ID/e2etest
+CONNECTION=[Your connection]
+gcloud run deploy --image $IMAGE --add-cloudsql-instances $CONNECTION --set-env-vars INSTANCE-CONNECTION-NAME="$CONNECTION"
+```

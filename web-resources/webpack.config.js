@@ -32,9 +32,9 @@ module.exports = [
     mode: 'development',
     entry:  {
       app: [
-        './cnotes.js',
-        './script/find.ts',
-        './script/findadvanced.ts'
+        './index.js',
+        './src/DocumentFinder.ts',
+        './src/WordFinder.ts'
       ]
     },
     output: {

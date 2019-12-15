@@ -29,6 +29,9 @@ export class DocumentFinder {
 
   constructor() {
     this.httpRequest = new XMLHttpRequest();
+  }
+
+  public init() {
     const findForm = document.getElementById("findAdvancedForm");
     const findInput = document.getElementById("findInput");
     let query = "";
@@ -156,7 +159,7 @@ export class DocumentFinder {
             }
             // Iterate over all documents
             for (const doc of documents) {
-              addDocument(doc, dTbody, topSimBigram);
+              this.addDocument(doc, dTbody, topSimBigram);
             }
             if (dTable) {
               dTable.appendChild(dTbody);
@@ -239,68 +242,67 @@ export class DocumentFinder {
       }
     }
   }
-}
-const docFinder = new DocumentFinder();
 
-/**
- * Add the collection title and link to the td element
- * @param {IDocument} doc - The Document object from the server
- * @param {HTMLElement} td - the td HTML element to add the match details to
- */
-function addCollection(doc: IDocument, td: HTMLElement) {
-  const colTitle = doc.CollectionTitle;
-  const colFile = doc.CollectionFile;
-  const tn1 = document.createTextNode("Collection: ");
-  td.appendChild(tn1);
-  const a1 = document.createElement("a");
-  a1.setAttribute("href", colFile);
-  let colTitleText = colTitle;
-  if (colTitleText.length > docFinder.MAX_TITLE_LEN) {
-    colTitleText = colTitleText.substring(0, docFinder.MAX_TITLE_LEN - 1) + "...";
+  /**
+   * Add the collection title and link to the td element
+   * @param {IDocument} doc - The Document object from the server
+   * @param {HTMLElement} td - the td HTML element to add the match details to
+   */
+  private addCollection(doc: IDocument, td: HTMLElement) {
+    const colTitle = doc.CollectionTitle;
+    const colFile = doc.CollectionFile;
+    const tn1 = document.createTextNode("Collection: ");
+    td.appendChild(tn1);
+    const a1 = document.createElement("a");
+    a1.setAttribute("href", colFile);
+    let colTitleText = colTitle;
+    if (colTitleText.length > this.MAX_TITLE_LEN) {
+      colTitleText = colTitleText.substring(0, this.MAX_TITLE_LEN - 1) + "...";
+    }
+    const tn2 = document.createTextNode(colTitleText);
+    a1.appendChild(tn2);
+    td.appendChild(a1);
   }
-  const tn2 = document.createTextNode(colTitleText);
-  a1.appendChild(tn2);
-  td.appendChild(a1);
-}
 
-/**
- * Adds a document matching the query to the HTML table body
- * @param {IDocument} doc - The Document object from the server
- * @param {HTMLElement} dTbody - tbody HTML element to add the match details to
- */
-function addDocument(doc: IDocument, dTbody: HTMLElement,
-    topSimBigram: number) {
-  if ("Title" in doc && doc.Title) {
-    const title = doc.Title;
-    const glossFile = doc.GlossFile;
-    const tr = document.createElement("tr");
-    const td = document.createElement("td");
-    td.setAttribute("class", "mdl-data-table__cell--non-numeric");
-    tr.appendChild(td);
-    const textNode1 = document.createTextNode("Title: ");
-    td.appendChild(textNode1);
-    const a = document.createElement("a");
-    a.setAttribute("href", glossFile);
-    let titleText = title;
-    if (titleText.length > docFinder.MAX_TITLE_LEN) {
-      titleText = titleText.substring(0, docFinder.MAX_TITLE_LEN - 1) + "...";
+  /**
+   * Adds a document matching the query to the HTML table body
+   * @param {IDocument} doc - The Document object from the server
+   * @param {HTMLElement} dTbody - tbody HTML element to add the match details to
+   */
+  private addDocument(doc: IDocument, dTbody: HTMLElement,
+      topSimBigram: number) {
+    if ("Title" in doc && doc.Title) {
+      const title = doc.Title;
+      const glossFile = doc.GlossFile;
+      const tr = document.createElement("tr");
+      const td = document.createElement("td");
+      td.setAttribute("class", "mdl-data-table__cell--non-numeric");
+      tr.appendChild(td);
+      const textNode1 = document.createTextNode("Title: ");
+      td.appendChild(textNode1);
+      const a = document.createElement("a");
+      a.setAttribute("href", glossFile);
+      let titleText = title;
+      if (titleText.length > this.MAX_TITLE_LEN) {
+        titleText = titleText.substring(0, this.MAX_TITLE_LEN - 1) + "...";
+      }
+      const textNode = document.createTextNode(titleText);
+      a.appendChild(textNode);
+      td.appendChild(a);
+      const br = document.createElement("br");
+      td.appendChild(br);
+      if (doc.CollectionTitle) {
+        this.addCollection(doc, td);
+      }
+      const br1 = document.createElement("br");
+      td.appendChild(br1);
+      // Add snippet
+      addMatchDetails(doc.MatchDetails, td);
+      addRelevance(doc, td, topSimBigram);
+      dTbody.appendChild(tr);
+    } else {
+      console.log("addDocument: no title for document ");
     }
-    const textNode = document.createTextNode(titleText);
-    a.appendChild(textNode);
-    td.appendChild(a);
-    const br = document.createElement("br");
-    td.appendChild(br);
-    if (doc.CollectionTitle) {
-      addCollection(doc, td);
-    }
-    const br1 = document.createElement("br");
-    td.appendChild(br1);
-    // Add snippet
-    addMatchDetails(doc.MatchDetails, td);
-    addRelevance(doc, td, topSimBigram);
-    dTbody.appendChild(tr);
-  } else {
-    console.log("addDocument: no title for document ");
   }
 }
 
