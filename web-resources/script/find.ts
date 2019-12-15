@@ -13,41 +13,12 @@
  * under the License.
  */
 
-import {MDCList} from "@material/list";
-
-// Interface for JSON collection data loaded from AJAX call
-declare interface ICollection {
-  GlossFile: string;
-  Title: string;
-}
-
-// Interface for JSON dictionary entry data loaded from AJAX call
-declare interface IDictEntry {
-  Pinyin: string;
-  Senses: IWordSense[];
-}
-
-// Interface for JSON document data loaded from AJAX call
-declare interface IDocument {
-  GlossFile: string;
-  Title: string;
-}
-
-// Interface for JSON query term data loaded from AJAX call
-declare interface ITerm {
-  DictEntry: IDictEntry;
-  QueryText: string;
-}
-
-// Interface for JSON WordSense data loaded from AJAX call
-declare interface IWordSense {
-  English: string;
-  HeadwordId: string;
-  Notes: string;
-  Pinyin: string;
-  Simplified: string;
-  Traditional: string;
-}
+import { MDCList } from "@material/list";
+import { ICollection,
+         IDictEntry,
+         IDocument,
+         ITerm,
+         IWordSense } from "./CNInterfaces"
 
 /**
  * JavaScript function for sending and displaying search results for words and
@@ -128,8 +99,11 @@ export class WordFinder {
   private makeRequest(url: string) {
     console.log("makeRequest: url = " + url);
     if (!this.httpRequest) {
-      console.log("Giving up :( Cannot create an XMLHTTP instance");
-      return;
+      this.httpRequest = new XMLHttpRequest();
+      if (!this.httpRequest) {
+        console.log("Giving up :( Cannot create an XMLHTTP instance");
+        return;
+      }
     }
     this.httpRequest.onreadystatechange = () => {
       this.alertContents(this.httpRequest);

@@ -1,4 +1,3 @@
-import { MDCList } from "@material/list";
 export class WordFinder {
     constructor() {
         this.httpRequest = new XMLHttpRequest();
@@ -63,8 +62,11 @@ export class WordFinder {
     makeRequest(url) {
         console.log("makeRequest: url = " + url);
         if (!this.httpRequest) {
-            console.log("Giving up :( Cannot create an XMLHTTP instance");
-            return;
+            this.httpRequest = new XMLHttpRequest();
+            if (!this.httpRequest) {
+                console.log("Giving up :( Cannot create an XMLHTTP instance");
+                return;
+            }
         }
         this.httpRequest.onreadystatechange = () => {
             this.alertContents(this.httpRequest);
@@ -220,7 +222,7 @@ function addWordSense(sense, qList) {
 function combineEnglish(senses, wordURL) {
     const maxLen = 120;
     const englishSpan = document.createElement("span");
-    if (senses.length == 1) {
+    if (senses.length === 1) {
         let textLen = 0;
         const equivSpan = document.createElement("span");
         if (equivSpan) {
@@ -246,7 +248,7 @@ function combineEnglish(senses, wordURL) {
             englishSpan.appendChild(notesTN);
         }
     }
-    else if (senses.length == 2) {
+    else if (senses.length === 2) {
         console.log("WordSense " + senses.length);
         for (let j = 0; j < senses.length; j += 1) {
             addEquivalent(senses[j], maxLen, englishSpan, j);
@@ -257,7 +259,7 @@ function combineEnglish(senses, wordURL) {
         for (let j = 0; j < senses.length; j++) {
             equiv += (j + 1) + ". " + senses[j].English + "; ";
             if (equiv.length > maxLen) {
-                equiv + " ...";
+                equiv += " ...";
                 break;
             }
         }
@@ -372,14 +374,14 @@ function processAJAX(httpRequest) {
                 if (elem) {
                     elem.style.display = "none";
                 }
-                const elem2 = document.getElementById("findError");
-                if (elem2) {
-                    elem2.innerHTML = msg;
-                    elem2.style.display = "block";
+                const findError = document.getElementById("findError");
+                if (findError) {
+                    findError.innerHTML = msg;
+                    findError.style.display = "block";
                 }
             }
             const terms = obj.Terms;
-            if (terms && terms.length == 1 && terms[0].DictEntry &&
+            if (terms && terms.length === 1 && terms[0].DictEntry &&
                 terms[0].DictEntry.HeadwordId > 0) {
                 console.log("Single matching word, redirect to it");
                 const hwId = terms[0].DictEntry.HeadwordId;
@@ -398,17 +400,17 @@ function processAJAX(httpRequest) {
                 qList.id = "queryTermsList";
                 qList.className = "mdc-list mdc-list--two-line";
                 if ((terms.length > 0) && terms[0].DictEntry && (!terms[0].Senses ||
-                    (terms[0].Senses.length == 0))) {
+                    (terms[0].Senses.length === 0))) {
                     console.log("alertContents: Query contain Chinese words", terms);
-                    for (let i = 0; i < terms.length; i += 1) {
-                        addTermToList(terms[i], qList);
+                    for (const term of terms) {
+                        addTermToList(term, qList);
                     }
                 }
-                else if ((terms.length == 1) && terms[0].Senses) {
+                else if ((terms.length === 1) && terms[0].Senses) {
                     console.log("alertContents: Query is English", terms[0].Senses);
                     const senses = terms[0].Senses;
-                    for (let i = 0; i < senses.length; i++) {
-                        addWordSense(senses[i], qList);
+                    for (const sense of senses) {
+                        addWordSense(sense, qList);
                     }
                 }
                 else {
@@ -422,7 +424,6 @@ function processAJAX(httpRequest) {
                 if (qTitle) {
                     qTitle.style.display = "block";
                 }
-                new MDCList(qList);
                 const queryTerms = document.getElementById("queryTerms");
                 if (queryTerms) {
                     queryTerms.style.display = "block";

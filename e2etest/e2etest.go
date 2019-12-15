@@ -73,7 +73,7 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 	var err error
 
 	c := queryString["collection"]
-	if (len(c) > 0) && (c[0] == "xiyouji")  {
+	if (len(c) > 0) && (c[0] == "xiyouji.html")  {
 		applog.Error("main.findDocs mock data for xiyouji.html")
 		col0 := find.Collection{
 			GlossFile: "xiyouji.html",
