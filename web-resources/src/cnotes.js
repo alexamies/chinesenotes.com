@@ -39,7 +39,7 @@ class CNotes {
             const keyword = parser.getHrefVariable(window.location.href, "highlight");
             if (keyword) {
                 const m = new CorpusDocView();
-                m.mark(corpusText, keyword);
+                m.mark(corpusText, keyword, this.dictionaries);
             }
         }
     }

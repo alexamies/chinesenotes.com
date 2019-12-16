@@ -7,15 +7,16 @@ export class DocumentFinder {
     init() {
         const findForm = document.getElementById("findAdvancedForm");
         const findInput = document.getElementById("findInput");
-        let query = "";
-        let col = "";
-        if (findInput && findInput instanceof HTMLInputElement) {
-            query = findInput.value;
-        }
         if (findForm && findInput) {
             findForm.onsubmit = () => {
+                let query = "";
+                if (findInput && findInput instanceof HTMLInputElement) {
+                    query = findInput.value;
+                }
+                console.log(`DocumentFinder.init query: ${query}`);
                 const collectionInput = document.getElementById("findInCollection");
                 if (collectionInput && collectionInput instanceof HTMLInputElement) {
+                    let col = "";
                     col = collectionInput.value;
                     const url = "/advanced_search.html#?text=" + query +
                         "&collection=" + col;
@@ -24,10 +25,12 @@ export class DocumentFinder {
                 }
                 const redirectToFull = document.getElementById("redirectToFullText");
                 if (redirectToFull) {
-                    const url1 = "/advanced_search.html#?text=" + query +
-                        "&fulltext=true" + col;
-                    window.location.href = url1;
-                    return false;
+                    if (collectionInput && collectionInput instanceof HTMLInputElement) {
+                        const url1 = "/advanced_search.html#?text=" + query +
+                            "&fulltext=true" + collectionInput.value;
+                        window.location.href = url1;
+                        return false;
+                    }
                 }
                 let action = "/findadvanced";
                 if (findForm && findForm instanceof HTMLFormElement &&
@@ -42,11 +45,11 @@ export class DocumentFinder {
         const href = window.location.href;
         const parser = new HrefVariableParser();
         if (href.includes("&")) {
-            query = parser.getHrefVariable(href, "text");
+            const query = parser.getHrefVariable(href, "text");
             if (findInput && findInput instanceof HTMLInputElement) {
                 findInput.value = query;
             }
-            col = parser.getHrefVariable(href, "collection");
+            const col = parser.getHrefVariable(href, "collection");
             let action = "/findadvanced";
             if (findForm && findForm instanceof HTMLFormElement &&
                 !findForm.action.endsWith("#")) {

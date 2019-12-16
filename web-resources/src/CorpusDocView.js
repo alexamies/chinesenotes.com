@@ -1,5 +1,18 @@
 export class CorpusDocView {
-    mark(containerDiv, toHighlight) {
+    mark(containerDiv, toHighlight, dictionaries) {
+        if (dictionaries.has(toHighlight)) {
+            const term = dictionaries.lookup(toHighlight);
+            const entries = term.getEntries();
+            if (entries.length > 0) {
+                const hId = entries[0].getHeadwordId();
+                const elems = document.querySelectorAll(`"span[value='${hId}]`);
+                elems.forEach((elem) => {
+                    if (elem instanceof HTMLElement) {
+                        elem.classList.add("cnmark");
+                    }
+                });
+            }
+        }
         if (window.find) {
             window.find(toHighlight);
         }

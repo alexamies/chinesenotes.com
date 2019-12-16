@@ -236,8 +236,9 @@ func hyperlink(entries []*dictionary.WordSenseEntry, text string) string {
 		pinyin, english, classTxt, entries[0].HeadwordId, text)
 }
 
-// Constructs a hyperlink for a headword, including Pinyin and English in the
-// title attribute for the link mouseover
+// Constructs a HTML span element for a headword, including Pinyin and English
+// in the title attribute for the mouseover and headword id in the microdata
+// 'data' attrbute.
 func span(entries []*dictionary.WordSenseEntry, text string) string {
 	classTxt := "vocabulary"
 	if entries[0].IsProperNoun() {
@@ -252,8 +253,9 @@ func span(entries []*dictionary.WordSenseEntry, text string) string {
 		}
 		english = english[0:len(english)-2]
 	}
-	vocabFormat := `<span title="%s | %s" class="%s">%s</span>`
-	return fmt.Sprintf(vocabFormat, pinyin, english, classTxt, text)
+	vocabFormat := `<span title="%s | %s" class="%s" itemprop="HeadwordId" value="%d">%s</span>`
+	return fmt.Sprintf(vocabFormat, pinyin, english, classTxt,
+			entries[0].HeadwordId, text)
 }
 
 // Parses a Chinese text into words
@@ -735,14 +737,6 @@ func writeCorpusDoc(tokens list.List, vocab map[string]int, filename string,
 		chunk := e.Value.(string)
 		//fmt.Printf("WriteDoc: Word %s\n", word)
 		if entries, ok := dictionary.GetWord(chunk); ok && !corpus.IsExcluded(chunk) {
-			wordIds := ""
-			for _, ws := range entries {
-				if wordIds == "" {
-					wordIds = fmt.Sprintf("%d", ws.Id)
-				} else {
-					wordIds = fmt.Sprintf("%s,%d", wordIds, ws.Id)
-				}
-			}
 			fmt.Fprintf(&b, span(entries, chunk))
 		} else {
 			if sourceFormat != "HTML" {

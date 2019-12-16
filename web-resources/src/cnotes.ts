@@ -74,7 +74,7 @@ class CNotes {
                                                  "highlight");
       if (keyword) {
         const m = new CorpusDocView();
-        m.mark(corpusText, keyword);
+        m.mark(corpusText, keyword, this.dictionaries);
       }
     }
   }

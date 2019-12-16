@@ -54,7 +54,7 @@ export class WordFinder {
             const path = decodeURI(href);
             const q = path.split("=");
             const findInput = document.getElementById("findInput");
-            if (findInput && findInput instanceof HTMLFormElement) {
+            if (findInput && findInput instanceof HTMLInputElement) {
                 findInput.value = q[1];
             }
             const url = "/find/?query=" + q[1];
