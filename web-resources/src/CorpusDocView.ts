@@ -42,18 +42,17 @@ export class CorpusDocView {
       const entries = term.getEntries();
       if (entries.length > 0) {
         const hId = entries[0].getHeadwordId();
-        const elems = document.querySelectorAll(`"span[value='${hId}]`);
+        const elems = document.querySelectorAll(`span[value='${hId}']`);
         elems.forEach( (elem) => {
           if (elem instanceof HTMLElement) {
             elem.classList.add("cnmark");
           }
         });
       }
-    }
-    if (window.find) {
+    } else if (window.find) {
       window.find(toHighlight);
     } else {
-      console.log("CorpusDocView: unable to highlight text");      
+      console.log(`CorpusDocView: unable to highlight text ${toHighlight}`);    
     }
   }
 }

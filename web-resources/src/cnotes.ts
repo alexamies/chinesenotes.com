@@ -65,18 +65,6 @@ class CNotes {
       console.log("Initializing app no drawDiv");
     }
     this.initDialog();
-    // If coming from a search page to a corpus document then highlight the
-    // search term
-    const corpusText = document.getElementById("CorpusText");
-    if (corpusText) {
-      const parser = new HrefVariableParser();
-      const keyword = parser.getHrefVariable(window.location.href,
-                                                 "highlight");
-      if (keyword) {
-        const m = new CorpusDocView();
-        m.mark(corpusText, keyword, this.dictionaries);
-      }
-    }
   }
 
   /**
@@ -94,6 +82,18 @@ class CNotes {
         const loadingStatus = this.querySelectorNonNull("#loadingStatus");
         if (loadingStatus) {
           loadingStatus.innerHTML = "Dictionary loading status: loaded";
+        }
+        // If coming from a search page to a corpus document then highlight the
+        // search term
+        const corpusText = document.getElementById("CorpusText");
+        if (corpusText) {
+          const parser = new HrefVariableParser();
+          const keyword = parser.getHrefVariable(window.location.href,
+                                                 "highlight");
+          if (keyword) {
+            const m = new CorpusDocView();
+            m.mark(corpusText, keyword, this.dictionaries);
+          }
         }
       },
       (err) => { console.error(`load error:  + ${ err }`); }

@@ -33,15 +33,6 @@ class CNotes {
             console.log("Initializing app no drawDiv");
         }
         this.initDialog();
-        const corpusText = document.getElementById("CorpusText");
-        if (corpusText) {
-            const parser = new HrefVariableParser();
-            const keyword = parser.getHrefVariable(window.location.href, "highlight");
-            if (keyword) {
-                const m = new CorpusDocView();
-                m.mark(corpusText, keyword, this.dictionaries);
-            }
-        }
     }
     load() {
         const source = new DictionarySource("/dist/ntireader.json", "NTI Reader Dictionary", "Full NTI Reader dictionary");
@@ -52,6 +43,15 @@ class CNotes {
             const loadingStatus = this.querySelectorNonNull("#loadingStatus");
             if (loadingStatus) {
                 loadingStatus.innerHTML = "Dictionary loading status: loaded";
+            }
+            const corpusText = document.getElementById("CorpusText");
+            if (corpusText) {
+                const parser = new HrefVariableParser();
+                const keyword = parser.getHrefVariable(window.location.href, "highlight");
+                if (keyword) {
+                    const m = new CorpusDocView();
+                    m.mark(corpusText, keyword, this.dictionaries);
+                }
             }
         }, (err) => { console.error(`load error:  + ${err}`); });
     }
