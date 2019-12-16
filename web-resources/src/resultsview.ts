@@ -119,7 +119,7 @@ export class ResultsView {
    */
   public static showError(ulSelector: string, messageSelector: string,
       resultsTitleSelector: string, msg: string) {
-    console.log('error: ', msg);
+    console.log('ResultsView.showError msg: ', msg);
     const messageEl = document.querySelector(messageSelector);
     if (messageEl) {
       messageEl.innerHTML = msg;

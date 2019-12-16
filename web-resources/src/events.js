@@ -98,11 +98,12 @@ wireTestError();
 // Show an error to the user
 function displayError(error) {
   ResultsView.showError('#TermList', "#lookupError", "#lookupResultsTitle",
-      "Error displaying results.");
+      `Error displaying results: ${error}`);
 }
 
 // Show the results to the user
 function displayResults(jsonObj) {
+  console.log(`displayResults jsonObj: ${jsonObj}`);
   const results = ResultsParser.parseResults(jsonObj);
   ResultsView.showResults(results, '#TermList', '#lookupError',
       '#lookupResultsTitle', '#lookup-help-block');

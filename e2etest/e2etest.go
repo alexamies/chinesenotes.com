@@ -164,7 +164,34 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 // Finds terms matching the given query with a substring match
 func findSubstring(response http.ResponseWriter, request *http.Request) {
 	applog.Info("main.findSubstring, enter")
-	findDocs(response, request, false)
+	sense := dictionary.WordSense{
+			Id: 62084,
+			HeadwordId: 62084,
+			Simplified: "同床异梦",
+			Traditional: "同床異夢",
+			Pinyin: "tóng chuáng yì mèng",
+			English: "to share the same bed with different dreams",
+			Notes: "",
+	}
+	senses := []dictionary.WordSense{sense}
+	word := dictionary.Word{
+		Simplified: "同床异梦",
+		Traditional: "同床異夢",
+		Pinyin: "tóng chuáng yì mèng",
+		HeadwordId: 62084,
+		Senses: senses,
+	}
+	words := []dictionary.Word{word}
+	results := dictionary.Results{words}
+	resultsJson, err := json.Marshal(results)
+	if err != nil {
+		applog.Error("main.findSubstring error marshalling JSON, ", err)
+		http.Error(response, "Error marshalling results",
+			http.StatusInternalServerError)
+	} else {
+		response.Header().Set("Content-Type", "application/json; charset=utf-8")
+		fmt.Fprintf(response, string(resultsJson))
+	}
 }
 
 func main() {

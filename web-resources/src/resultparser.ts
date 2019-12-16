@@ -26,9 +26,11 @@ export class ResultsParser {
    * @param {!object} jsonObj - JSON object received from the server
    */
   public static parseResults(jsonObj: any): Array<CNDictionaryEntry> {
+    console.log(`ResultsParser, jsonObj: ${jsonObj}`);
     const results = jsonObj['Words'];
     const entries = new Array<CNDictionaryEntry>();
     results.forEach(function(w: any) {
+      console.log(`ResultsParser, w: ${w}`);
       const simplified = w['Simplified'];
       const traditional = w['Traditional'];
       const pinyin = w['Pinyin'];
@@ -36,6 +38,7 @@ export class ResultsParser {
       const senses = new Array<CNWordSense>();
       const sensesObj = w['Senses'];
       sensesObj.forEach(function(ws: any) {
+        console.log(`ResultsParser, ws: ${ws}`);
         const s = ws['Simplified'];
         const t = ws['Traditional'];
         const p = ws['Pinyin'];

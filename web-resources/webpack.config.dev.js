@@ -55,8 +55,7 @@ module.exports = [
   entry: {
     app: [
       './src/cnotes.js',
-      './src/events.js',
-      './script/find.js'
+      './src/events.js'
       ]
   },
   devtool: 'inline-source-map',

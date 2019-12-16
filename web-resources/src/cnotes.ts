@@ -23,6 +23,7 @@ import { MDCDrawer } from "@material/drawer";
 import { MDCList } from "@material/list";
 import { MDCTopAppBar } from "@material/top-app-bar";
 import { fromEvent } from "rxjs";
+import { WordFinder } from "./WordFinder"
 
 /**
  * A browser app that implements the Chinese-English dictionary web view.
@@ -319,3 +320,6 @@ class CNotes {
 const app = new CNotes();
 app.init();
 app.load();
+const wordFinder = new WordFinder();
+wordFinder.init();
+
