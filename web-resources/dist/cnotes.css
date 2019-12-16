@@ -1603,6 +1603,9 @@ body {
   text-decoration: none;
   color: darkslategray; }
 
+.mark {
+  background: yellow; }
+
 .cnotes-primer-vocab-box {
   padding: 5px; }
 

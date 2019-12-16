@@ -19,6 +19,7 @@
     "@babel/node": "^7.5.0",
     "@babel/preset-env": "^7.5.0",
     "@babel/register": "^7.4.4",
+    "@types/mark.js": "^8.11.5",
     "@types/source-map": "^0.5.2",
     "autoprefixer": "^9.6.0",
     "babel-loader": "^8.0.6",

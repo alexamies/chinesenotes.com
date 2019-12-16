@@ -23,13 +23,13 @@ import { MDCDrawer } from "@material/drawer";
 import { MDCList } from "@material/list";
 import { MDCTopAppBar } from "@material/top-app-bar";
 import { fromEvent } from "rxjs";
+import { CorpusDocView } from "./CorpusDocView";
+import { HrefVariableParser } from "./HrefVariableParser";
 import { WordFinder } from "./WordFinder"
 
 /**
  * A browser app that implements the Chinese-English dictionary web view.
  */
-
-// class encapsulating the demo application
 class CNotes {
   private dictionaries: DictionaryCollection;
   private dialogDiv: HTMLElement;
@@ -64,8 +64,19 @@ class CNotes {
     } else {
       console.log("Initializing app no drawDiv");
     }
-
     this.initDialog();
+    // If coming from a search page to a corpus document then highlight the
+    // search term
+    const corpusText = document.getElementById("CorpusText");
+    if (corpusText) {
+      const parser = new HrefVariableParser();
+      const keyword = parser.getHrefVariable(window.location.href,
+                                                 "highlight");
+      if (keyword) {
+        const m = new CorpusDocView();
+        m.mark(corpusText, keyword);
+      }
+    }
   }
 
   /**

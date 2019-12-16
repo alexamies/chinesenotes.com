@@ -57,7 +57,7 @@ export class ResultsView {
         ResultsView.hideHelp(helpSelector);
     }
     static showError(ulSelector, messageSelector, resultsTitleSelector, msg) {
-        console.log('error: ', msg);
+        console.log('ResultsView.showError msg: ', msg);
         const messageEl = document.querySelector(messageSelector);
         if (messageEl) {
             messageEl.innerHTML = msg;

@@ -13,15 +13,17 @@
  * under the License.
  */
 
-// JavaScript function for sending and displaying search results for words in
-// either the title or body of documents.
-
+/**
+ * JavaScript function for sending and displaying search results for words in
+ * either the title or body of documents.
+ */
 import { ICollection,
          IDictEntry,
          IDocument,
          IMatchDetails,
          ITerm,
-         IWordSense } from "./CNInterfaces"
+         IWordSense } from "./CNInterfaces";
+import { HrefVariableParser } from "./HrefVariableParser";
 
 export class DocumentFinder {
   readonly MAX_TITLE_LEN: number = 80;
@@ -71,12 +73,13 @@ export class DocumentFinder {
     // Function for sending and displaying search results, redirected from
     // collection pages
     const href = window.location.href;
+    const parser = new HrefVariableParser();
     if (href.includes("&")) {
-      query = getHrefVariable(href, "text");
+      query = parser.getHrefVariable(href, "text");
       if (findInput && findInput instanceof HTMLInputElement) {
         findInput.value = query;
       }
-      col = getHrefVariable(href, "collection");
+      col = parser.getHrefVariable(href, "collection");
       let action = "/findadvanced";
       if (findForm && findForm instanceof HTMLFormElement &&
           !findForm.action.endsWith("#")) {
@@ -401,27 +404,4 @@ function addTerm(term: ITerm, nTerms: number, qBody: HTMLElement, i: number) {
     span.appendChild(textNode2);
   }
   qBody.appendChild(span);
-}
-
-/**
- * Get the value of a variable from the URL string
- * @param {string} href - The link to search in
- * @param {string} name - The name of the variable
- * @return {string} The value of the variable
- */
-function getHrefVariable(href: string, name: string): string {
-  if (!href.includes("?")) {
-    console.log("getHrefVariable: href does not include ? ", href);
-    return "";
-  }
-  const path = href.split("?");
-  const parts = path[1].split("&");
-  for (let i = 0; i < parts.length; i += 1) {
-    const p = parts[i].split("=");
-    if (decodeURIComponent(p[0]) == name) {
-      return decodeURIComponent(p[1]);
-    }
-  }
-  console.log(`getHrefVariable: ${name} not found`);
-  return "";
 }

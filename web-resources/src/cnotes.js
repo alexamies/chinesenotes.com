@@ -5,6 +5,9 @@ import { TextParser } from "@alexamies/chinesedict-js";
 import { MDCDialog } from "@material/dialog";
 import { MDCDrawer } from "@material/drawer";
 import { MDCTopAppBar } from "@material/top-app-bar";
+import { CorpusDocView } from "./CorpusDocView";
+import { HrefVariableParser } from "./HrefVariableParser";
+import { WordFinder } from "./WordFinder";
 class CNotes {
     constructor() {
         this.dictionaries = new DictionaryCollection();
@@ -30,6 +33,15 @@ class CNotes {
             console.log("Initializing app no drawDiv");
         }
         this.initDialog();
+        const corpusText = document.getElementById("CorpusText");
+        if (corpusText) {
+            const parser = new HrefVariableParser();
+            const keyword = parser.getHrefVariable(window.location.href, "highlight");
+            if (keyword) {
+                const m = new CorpusDocView();
+                m.mark(corpusText, keyword);
+            }
+        }
     }
     load() {
         const source = new DictionarySource("/dist/ntireader.json", "NTI Reader Dictionary", "Full NTI Reader dictionary");
@@ -233,4 +245,6 @@ class CNotes {
 const app = new CNotes();
 app.init();
 app.load();
+const wordFinder = new WordFinder();
+wordFinder.init();
 //# sourceMappingURL=cnotes.js.map
