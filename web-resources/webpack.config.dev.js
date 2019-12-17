@@ -50,21 +50,34 @@ module.exports = [
       }],
     },
   },
-{
-  mode: 'development',
-  entry: {
-    app: [
-      './src/cnotes.js',
-      './src/events.js'
+  {
+    mode: 'development',
+    devtool: 'inline-source-map',
+    devServer: {
+      contentBase: './dist'
+    },
+    entry:  {
+      app: [
+        './src/CNotes.ts',
+        './src/events.ts'
       ]
-  },
-  devtool: 'inline-source-map',
-  devServer: {
-     contentBase: './dist'
-  },
-  output: {
-    filename: '[name].bundle.js',
-    jsonpScriptType: 'module',
-    path: path.resolve(__dirname, 'dist')
+    },
+    output: {
+      filename: '[name].bundle.js',
+      jsonpScriptType: 'module',
+      path: path.resolve(__dirname, 'dist')
+    },
+    module: {
+      rules: [
+        {
+          test: /\.tsx?$/,
+          use: 'ts-loader',
+          exclude: /node_modules/,
+        },
+      ],
+    },
+    resolve: {
+      extensions: [ '.tsx', '.ts', '.js' ],
+    },
   }
-}];
+];

@@ -74,7 +74,7 @@ class CNotes {
     const source = new DictionarySource("/dist/ntireader.json",
                                         "NTI Reader Dictionary",
                                         "Full NTI Reader dictionary");
-    const loader = new DictionaryLoader([source], this.dictionaries);
+    const loader = new DictionaryLoader([source], this.dictionaries, true);
     const observable = loader.loadDictionaries();
     observable.subscribe(
       () => {
@@ -90,9 +90,14 @@ class CNotes {
           const parser = new HrefVariableParser();
           const keyword = parser.getHrefVariable(window.location.href,
                                                  "highlight");
+          const highlightId = parser.getHrefVariable(window.location.href,
+                                                 "highlightId");
           if (keyword) {
             const m = new CorpusDocView();
             m.mark(corpusText, keyword, this.dictionaries);
+          } else if (highlightId) {
+            const m = new CorpusDocView();
+            m.markId(corpusText, highlightId, this.dictionaries);
           }
         }
       },

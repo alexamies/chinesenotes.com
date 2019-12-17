@@ -6,8 +6,7 @@
   "scripts": {
     "build": "npx webpack --config webpack.config.js",
     "compile_dev": "npx webpack --config webpack.config.dev.js",
-    "compile_ts": "./node_modules/.bin/tsc",
-    "lint": "./node_modules/.bin/tslint -c tslint.json 'src/**/*.ts'",
+    "prebuild": "./node_modules/.bin/tslint -c tslint.json 'src/**/*.ts'",
     "start": "webpack-dev-server --config webpack.config.dev.js",
     "test": "./node_modules/.bin/mocha --require @babel/register"
   },
@@ -42,7 +41,7 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
-    "@alexamies/chinesedict-js": "^0.1.18",
+    "@alexamies/chinesedict-js": "^0.1.20",
     "@babel/polyfill": "^7.4.4",
     "material-components-web": "^1.1.1",
     "rxjs": "^6.5.2"

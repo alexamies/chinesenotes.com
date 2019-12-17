@@ -17,17 +17,14 @@ import { fromEvent, of, pipe } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
 import { catchError, map } from 'rxjs/operators';
 import { MDCList } from '@material/list';
-import { ResultsParser } from './resultparser.js';
-import { ResultsView } from './resultsview.js';
+import { ResultsParser } from './resultparser';
+import { ResultsView } from './resultsview';
 
 // JSON data source, a backend API serving JSON unless testing
-function makeDataSource(urlString) {
-  if (!urlString) {
-    return testDataSource;
-  }
+function makeDataSource(urlString: string) {
   return ajax.getJSON(urlString).pipe(
     map(jsonObj => {
-      displayResults(jsonObj);
+      displayResults(jsonObj as object);
     }),
     catchError(error => {
       displayError(error)
@@ -44,18 +41,21 @@ function wireObservers() {
   const lookupButton = document.getElementById('lookupButton');
   const lookupTopic = document.getElementById('lookupTopic');
   const lookupSubTopic = document.getElementById('lookupSubTopic');
-  if (lookupForm) {
+  if (lookupForm && lookupForm instanceof HTMLFormElement) {
     fromEvent(lookupForm, 'submit').subscribe({
       next: event => {
         event.preventDefault();
         console.log(`wireObservers next: ${event}`);
         let urlStr = lookupForm.action;
-        if (lookupInput.value && !urlStr.endsWith('.json')) {
+        if (lookupInput instanceof HTMLInputElement && lookupInput!.value &&
+            !urlStr.endsWith('.json')) {
           urlStr += '?query=' + lookupInput.value;
-          if (lookupTopic && lookupTopic.value) {
+          if (lookupTopic && lookupTopic instanceof HTMLInputElement &&
+              lookupTopic.value) {
             urlStr += '&topic=' + lookupTopic.value;
           }
-          if (lookupSubTopic && lookupSubTopic.value) {
+          if (lookupSubTopic && lookupSubTopic instanceof HTMLInputElement &&
+              lookupSubTopic.value) {
             urlStr += '&subtopic=' + lookupSubTopic.value;
           }
         }
@@ -86,7 +86,9 @@ function wireTestError() {
   fromEvent(errorForm, 'submit').subscribe({
     next: event => {
       event.preventDefault();
-      displayError(errorInput.value);
+      if (errorInput instanceof HTMLInputElement) {
+        displayError(errorInput.value);
+      }
       return false;
     },
     error: error => console.log(error),
@@ -96,13 +98,13 @@ function wireTestError() {
 wireTestError();
 
 // Show an error to the user
-function displayError(error) {
+function displayError(error: string) {
   ResultsView.showError('#TermList', "#lookupError", "#lookupResultsTitle",
       `Error displaying results: ${error}`);
 }
 
 // Show the results to the user
-function displayResults(jsonObj) {
+function displayResults(jsonObj: object) {
   console.log(`displayResults jsonObj: ${jsonObj}`);
   const results = ResultsParser.parseResults(jsonObj);
   ResultsView.showResults(results, '#TermList', '#lookupError',

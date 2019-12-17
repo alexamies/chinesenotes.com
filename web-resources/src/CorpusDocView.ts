@@ -33,6 +33,7 @@ export class CorpusDocView {
    * a number of reasons.
    * @param {HTMLElement} containerDiv - The containing element
    * @param {string} toHighlight - The phrase to highlight
+   * @param {DictionaryCollection} dictionaries - To search in
    */
   public mark(containerDiv: HTMLElement,
               toHighlight: string,
@@ -42,7 +43,7 @@ export class CorpusDocView {
       const entries = term.getEntries();
       if (entries.length > 0) {
         const hId = entries[0].getHeadwordId();
-        const elems = document.querySelectorAll(`span[value='${hId}']`);
+        const elems = document.querySelectorAll(`[value='${hId}']`);
         elems.forEach( (elem) => {
           if (elem instanceof HTMLElement) {
             elem.classList.add("cnmark");
@@ -54,5 +55,25 @@ export class CorpusDocView {
     } else {
       console.log(`CorpusDocView: unable to highlight text ${toHighlight}`);    
     }
+  }
+
+  /**
+   * Hightlights a dictionary term in the document.
+   *
+   * The value HTML element attribite should match the highlightId given
+   * 
+   * @param {HTMLElement} containerDiv - The containing element
+   * @param {string} hId - The id of the term to highlight
+   * @param {DictionaryCollection} dictionaries - To search in
+   */
+  public markId(containerDiv: HTMLElement,
+                hId: string,
+                dictionaries: DictionaryCollection) {
+    const elems = document.querySelectorAll(`[value='${hId}']`);
+    elems.forEach( (elem) => {
+      if (elem instanceof HTMLElement) {
+        elem.classList.add("cnmark");
+      }
+    });
   }
 }
