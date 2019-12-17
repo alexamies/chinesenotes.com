@@ -179,9 +179,7 @@
             <li class="mdc-list-item">
               <span class="mdc-list-item__text">
                 <span class="mdc-list-item__primary-text">
-                  <a href='/{{$doc.HTMLFile}}#?highlight={{if DerefNe .Headword.Traditional "\\N"}}
-                                                         ({{Deref .Headword.Traditional}})
-                                                         {{end}}'>{{ $doc.Title }}</a>
+                  <a href='/{{$doc.HTMLFile}}#?highlightId={{.Headword.Id}}'>{{ $doc.Title }}</a>
                 </span>
                 <span class="mdc-list-item__secondary-text">
                   {{ $doc.ColTitle }} &mdash; count: {{ $doc.Count }}
