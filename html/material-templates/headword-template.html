@@ -174,11 +174,14 @@
         <h3>Word is mentioned most frequently in</h3>
         <p>Truncated for common words</p>
         <ul class="mdc-list mdc-list--two-line">
+          $traditional := 
           {{ range $doc := .RelevantDocs }}
             <li class="mdc-list-item">
               <span class="mdc-list-item__text">
                 <span class="mdc-list-item__primary-text">
-                  <a href='/{{$doc.HTMLFile}}'>{{ $doc.Title }}</a>
+                  <a href='/{{$doc.HTMLFile}}#?highlight={{if DerefNe .Headword.Traditional "\\N"}}
+                                                         ({{Deref .Headword.Traditional}})
+                                                         {{end}}'>{{ $doc.Title }}</a>
                 </span>
                 <span class="mdc-list-item__secondary-text">
                   {{ $doc.ColTitle }} &mdash; count: {{ $doc.Count }}
