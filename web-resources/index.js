@@ -13,9 +13,7 @@
  * under the License.
  */
 
-import { MDCDialog } from "@material/dialog";
-import { MDCTopAppBar } from "@material/top-app-bar";
-import { MDCDrawer } from "@material/drawer";
+import { CNotesMenu } from "./src/CNotesMenu"
 import { DocumentFinder } from "./src/DocumentFinder"
 import { WordFinder } from "./src/WordFinder"
 
@@ -23,24 +21,15 @@ import { WordFinder } from "./src/WordFinder"
  * Entry point for JavaScript in main pages.
  */
 
-// Menu draw events
-const drawer = MDCDrawer.attachTo(document.querySelector('.mdc-drawer'));
-const topAppBar = MDCTopAppBar.attachTo(document.getElementById('app-bar'));
-topAppBar.setScrollTarget(document.getElementById('main-content'));
-topAppBar.listen('MDCTopAppBar:nav', () => {
-  drawer.open = !drawer.open;
-});
-const mainContentEl = document.querySelector('.main-content');
-mainContentEl.addEventListener('click', (event) => {
-  drawer.open = false;
-});
-
+const menu = new CNotesMenu();
+menu.init();
 const wordFinder = new WordFinder();
 wordFinder.init();
 const docFinder = new DocumentFinder();
 docFinder.init();
 
-/** Initialize dialog so that it can be shown when user clicks on a Chinese
+/** 
+ * Initialize dialog so that it can be shown when user clicks on a Chinese
  *  word.
  */
 function initDialog() {

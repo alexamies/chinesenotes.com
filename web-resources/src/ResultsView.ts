@@ -13,15 +13,14 @@
  * under the License.
  */
 
-const {MDCList} = require('@material/list');
-import {CNDictionaryEntry} from "./CNDictionaryEntry";
-import {CNWordSense} from "./CNWordSense";
+import { CNDictionaryEntry } from "./CNDictionaryEntry";
+import { CNWordSense } from "./CNWordSense";
 
 /**
  * Construct a HTML DOM for a result set using Material Web.
  */
 export class ResultsView {
-  static readonly MAX_TEXT_LEN = 120;
+  public static readonly MAX_TEXT_LEN = 120;
 
   /**
    * Build a HTML DOM for the result set under the given list element.
@@ -35,16 +34,16 @@ export class ResultsView {
    * @param {!string} resultsTitleSelector - The DOM id oftitle element
    * @param {!string} helpSelector - The DOM id of a help block
    */
-  public static showResults(results: Array<CNDictionaryEntry>, ulSelector: string,
-      messageSelector: string, resultsTitleSelector: string, helpSelector: string) {
-    console.log('No. entries: ' + results.length);
+  public static showResults(results: CNDictionaryEntry[], ulSelector: string,
+                            messageSelector: string, resultsTitleSelector: string, helpSelector: string) {
+    console.log("No. entries: " + results.length);
     const ul = document.querySelector(ulSelector);
     if (!ul) {
-      console.log(`buildDOM selector ${ulSelector} not found`)
+      console.log(`buildDOM selector ${ulSelector} not found`);
       return;
     }
 
-    if (results.length == 0) {
+    if (results.length === 0) {
       ResultsView.showError(ulSelector, messageSelector,
           resultsTitleSelector, "No matching results found.");
       return;
@@ -57,12 +56,12 @@ export class ResultsView {
     // Show results title
     const titleEl = document.querySelector(resultsTitleSelector);
     if (titleEl)  {
-      const titleHTMLEl = <HTMLElement>titleEl;
+      const titleHTMLEl = titleEl as HTMLElement;
       titleHTMLEl.style.display = "block";
     }
 
     // Add new results
-    results.forEach(function(entry) {
+    results.forEach((entry) => {
       const li = document.createElement("li");
       li.className = "mdc-list-item";
       const span = document.createElement("span");
@@ -74,7 +73,7 @@ export class ResultsView {
       spanL1.className = "mdc-list-item__primary-text";
       let line1Text = entry.geSimplified();
       if (entry.getTraditional()) {
-        line1Text += "（" + entry.getTraditional() + "）"
+        line1Text += "（" + entry.getTraditional() + "）";
       }
       const tNode1 = document.createTextNode(line1Text);
       const wordURL = "/words/" + entry.getHeadwordId() + ".html";
@@ -102,7 +101,6 @@ export class ResultsView {
       li.appendChild(span);
       ul.appendChild(li);
     });
-    new MDCList(ul);
     ResultsView.hideHelp(helpSelector);
   }
 
@@ -118,15 +116,15 @@ export class ResultsView {
    * @param {!string} msg - The message to show
    */
   public static showError(ulSelector: string, messageSelector: string,
-      resultsTitleSelector: string, msg: string) {
-    console.log('ResultsView.showError msg: ', msg);
+                          resultsTitleSelector: string, msg: string) {
+    console.log("ResultsView.showError msg: ", msg);
     const messageEl = document.querySelector(messageSelector);
     if (messageEl) {
       messageEl.innerHTML = msg;
     }
     const titleEl = document.querySelector(resultsTitleSelector);
     if (titleEl)  {
-      const titleHTMLEl = <HTMLElement>titleEl;
+      const titleHTMLEl = titleEl as HTMLElement;
       titleHTMLEl.style.display = "none";
     } else {
       console.log("showError, titleEl not found: " + resultsTitleSelector);
@@ -134,14 +132,13 @@ export class ResultsView {
     ResultsView.removeResults(ulSelector);
   }
 
-
   // Show an error to the user
   private static hideHelp(helpSelector: string) {
     console.log("hideHelp: ", helpSelector);
     const helpSpan = document.querySelector(helpSelector);
     if (helpSpan) {
-      const helpHTMLEl = <HTMLElement>helpSpan;
-      helpHTMLEl.innerHTML = '';
+      const helpHTMLEl = helpSpan as HTMLElement;
+      helpHTMLEl.innerHTML = "";
     } else {
       console.log("hideHelp: count not find helpSpan");
     }
@@ -151,8 +148,8 @@ export class ResultsView {
   private static remveError(messageSelector: string) {
     const lookupError = document.querySelector(messageSelector);
     if (lookupError) {
-      const errorHTMLEl = <HTMLElement>lookupError;
-      errorHTMLEl.innerHTML = '';
+      const errorHTMLEl = lookupError as HTMLElement;
+      errorHTMLEl.innerHTML = "";
     }
   }
 
@@ -178,7 +175,7 @@ export class ResultsView {
    * @param {!number} j - the position in the list for an enumeated list
    */
   private static addEquivalent(ws: CNWordSense, englishSpan: HTMLSpanElement,
-      j: number) {
+                               j: number) {
     const equivalent = " " + (j + 1) + ". " + ws.getEnglish();
     const textLen2 = equivalent.length;
     const equivSpan = document.createElement("span");
@@ -201,11 +198,11 @@ export class ResultsView {
     }
   }
 
-  private static combineEnglish(senses: Array<CNWordSense>,
-      wordURL: string): HTMLSpanElement {
+  private static combineEnglish(senses: CNWordSense[],
+                                wordURL: string): HTMLSpanElement {
     console.log("CNWordSense " + senses.length);
     const englishSpan = document.createElement("span");
-    if (senses.length == 1) {
+    if (senses.length === 1) {
       const sense = senses[0];
       // For a single sense, give the equivalent and notes
       let textLen = 0;
@@ -241,7 +238,7 @@ export class ResultsView {
       for (let j = 0; j < senses.length; j++) {
         equiv += (j + 1) + ". " + senses[j].getEnglish() + "; ";
         if (equiv.length > ResultsView.MAX_TEXT_LEN) {
-          equiv + " ...";
+          equiv += " ...";
           break;
         }
       }

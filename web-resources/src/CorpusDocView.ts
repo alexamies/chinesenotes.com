@@ -15,21 +15,21 @@
 
 import { DictionaryCollection } from "@alexamies/chinesedict-js";
 
-interface AWindow extends Window {
+interface IWindow extends Window {
     find(aString: string): void;
 }
 
-declare var window: AWindow;
+declare var window: IWindow;
 
 export class CorpusDocView {
 
   /**
    * Hightlights the target text in the document.
-   * 
+   *
    * Performance is important for large documents, so this implementation either
    * 1. If the expression to highlight is a single term in the dictionary all
    * the spans with that term are highlighted.
-   * 2. Otherwise, the browser find() method is used, which is not ideal for 
+   * 2. Otherwise, the browser find() method is used, which is not ideal for
    * a number of reasons.
    * @param {HTMLElement} containerDiv - The containing element
    * @param {string} toHighlight - The phrase to highlight
@@ -53,7 +53,7 @@ export class CorpusDocView {
     } else if (window.find) {
       window.find(toHighlight);
     } else {
-      console.log(`CorpusDocView: unable to highlight text ${toHighlight}`);    
+      console.log(`CorpusDocView: unable to highlight text ${toHighlight}`);
     }
   }
 
@@ -61,7 +61,7 @@ export class CorpusDocView {
    * Hightlights a dictionary term in the document.
    *
    * The value HTML element attribite should match the highlightId given
-   * 
+   *
    * @param {HTMLElement} containerDiv - The containing element
    * @param {string} hId - The id of the term to highlight
    * @param {DictionaryCollection} dictionaries - To search in

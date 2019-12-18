@@ -25,7 +25,7 @@ import { MDCTopAppBar } from "@material/top-app-bar";
 import { fromEvent } from "rxjs";
 import { CorpusDocView } from "./CorpusDocView";
 import { HrefVariableParser } from "./HrefVariableParser";
-import { WordFinder } from "./WordFinder"
+import { WordFinder } from "./WordFinder";
 
 /**
  * A browser app that implements the Chinese-English dictionary web view.
@@ -101,7 +101,7 @@ class CNotes {
           }
         }
       },
-      (err) => { console.error(`load error:  + ${ err }`); }
+      (err) => { console.error(`load error:  + ${ err }`); },
     );
   }
 
@@ -327,7 +327,6 @@ class CNotes {
         }
       }
     }
-
     this.wordDialog.open();
   }
 }
@@ -338,4 +337,3 @@ app.init();
 app.load();
 const wordFinder = new WordFinder();
 wordFinder.init();
-

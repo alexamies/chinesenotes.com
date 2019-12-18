@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx webpack --config webpack.config.js",
     "compile_dev": "npx webpack --config webpack.config.dev.js",
-    "prebuild": "./node_modules/.bin/tslint -c tslint.json 'src/**/*.ts'",
+    "prebuild": "./node_modules/.bin/tslint -c tslint.json --fix 'src/**/*.ts'",
     "start": "webpack-dev-server --config webpack.config.dev.js",
     "test": "./node_modules/.bin/mocha --require @babel/register"
   },

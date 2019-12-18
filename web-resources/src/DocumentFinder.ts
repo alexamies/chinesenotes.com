@@ -26,7 +26,7 @@ import { ICollection,
 import { HrefVariableParser } from "./HrefVariableParser";
 
 export class DocumentFinder {
-  readonly MAX_TITLE_LEN: number = 80;
+  public readonly MAX_TITLE_LEN: number = 80;
   private httpRequest: XMLHttpRequest;
 
   constructor() {
@@ -45,7 +45,7 @@ export class DocumentFinder {
         console.log(`DocumentFinder.init query: ${query}`);
         const collectionInput = document.getElementById("findInCollection");
         if (collectionInput && collectionInput instanceof HTMLInputElement) {
-          //Searching from a collection page, redirect to advanced search
+          // Searching from a collection page, redirect to advanced search
           let col = "";
           col = collectionInput.value;
           const url = "/advanced_search.html#?text=" + query +
@@ -104,19 +104,19 @@ export class DocumentFinder {
     console.log("makeSearchRequest: url = " + url);
     if (!this.httpRequest) {
       this.httpRequest = new XMLHttpRequest();
-        if (!this.httpRequest) {
+      if (!this.httpRequest) {
         console.log("Giving up :( Cannot create an XMLHTTP instance");
         return;
       }
     }
     this.httpRequest.onreadystatechange = () => {
       this.alertSearchContents(this.httpRequest);
-    }
+    };
     this.httpRequest.open("GET", url);
     this.httpRequest.send();
     const helpBlock = document.getElementById("lookup-help-block");
     if (helpBlock) {
-      helpBlock.innerHTML ="Searching ...";
+      helpBlock.innerHTML = "Searching ...";
     }
     console.log("makeRequest: Sent request");
   }
@@ -141,7 +141,7 @@ export class DocumentFinder {
           // Report summary reults
           console.log("alertContents: processing summary reults");
           const spand = document.getElementById("NumDocuments");
-          if (spand && (numDocuments == 50)) {
+          if (spand && (numDocuments === 50)) {
             spand.innerHTML = "limited to " + numDocuments;
           } else if (spand) {
             spand.innerHTML = numDocuments;
@@ -186,10 +186,10 @@ export class DocumentFinder {
           if (elem) {
             elem.style.display = "none";
           }
-          const elem2 = document.getElementById("findError");
-          if (elem2) {
-            elem2.innerHTML = msg;
-            elem2.style.display = "block";
+          const elem3 = document.getElementById("findError");
+          if (elem3) {
+            elem3.innerHTML = msg;
+            elem3.style.display = "block";
           }
         }
         // Display dictionary lookup for the segmented query terms in a table
@@ -203,7 +203,7 @@ export class DocumentFinder {
           }
           const qBody = document.createElement("span");
           if ((terms.length > 0) && terms[0].DictEntry &&
-               (!terms[0].Senses || (terms[0].Senses.length == 0))) {
+               (!terms[0].Senses || (terms[0].Senses.length === 0))) {
             console.log("alertContents: Query contains Chinese words", terms);
             let i = 0;
             for (const term of terms) {
@@ -276,7 +276,7 @@ export class DocumentFinder {
    * @param {HTMLElement} dTbody - tbody HTML element to add the match details to
    */
   private addDocument(doc: IDocument, dTbody: HTMLElement,
-      topSimBigram: number) {
+                      topSimBigram: number) {
     if ("Title" in doc && doc.Title) {
       const title = doc.Title;
       const glossFile = doc.GlossFile;
@@ -352,14 +352,14 @@ function addMatchDetails(md: IMatchDetails, td: HTMLElement) {
  */
 function addRelevance(doc: IDocument, td: HTMLElement, topSimBigram: number) {
   let relevance = "";
-  if (parseFloat(doc.SimTitle) == 1.0) {
+  if (parseFloat(doc.SimTitle) === 1.0) {
     relevance += "similar title; ";
   }
   if (doc.MatchDetails.ExactMatch) {
     relevance += "exact match; ";
   } else {
     if (doc.SimBitVector) {
-      if (parseFloat(doc.SimBitVector) == 1.0) {
+      if (parseFloat(doc.SimBitVector) === 1.0) {
         relevance += "contains all query terms; ";
       }
     }
@@ -371,7 +371,7 @@ function addRelevance(doc: IDocument, td: HTMLElement, topSimBigram: number) {
     }
   }
   relevance = relevance.replace(/; $/, "");
-  if (relevance == "") {
+  if (relevance === "") {
     relevance = "contains some query terms";
   }
   relevance = "Relevance: " + relevance;

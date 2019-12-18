@@ -15,14 +15,14 @@
 
 import {CNWordSense} from "./CNWordSense";
 
-/** 
+/**
  * An entry in a dictionary
  */
 export class CNDictionaryEntry {
   private simplified: string;
   private traditional: string;
   private pinyin: string;
-  private senses: Array<CNWordSense>;
+  private senses: CNWordSense[];
   private headwordId: string;
 
   /**
@@ -35,7 +35,7 @@ export class CNDictionaryEntry {
   constructor(simplified: string,
               traditional: string,
               pinyin: string,
-              senses: Array<CNWordSense>,
+              senses: CNWordSense[],
               headwordId: string) {
     this.simplified = simplified;
     this.traditional = traditional;
@@ -50,7 +50,7 @@ export class CNDictionaryEntry {
    * into a single string with a ';' delimiter
    * @return {string} English equivalents for the term
    */
-  addWordSense(ws: CNWordSense) {
+  public addWordSense(ws: CNWordSense) {
     this.senses.push(ws);
   }
 
@@ -59,24 +59,23 @@ export class CNDictionaryEntry {
    * into a single string with a ';' delimiter
    * @return {string} English equivalents for the term
    */
-  getEnglish() {
+  public getEnglish() {
     let english = "";
-    for (let sense of this.senses) {
+    for (const sense of this.senses) {
       let eng = sense.getEnglish();
-      //console.log(`getEnglish before ${ eng }`);
-      const r = new RegExp(' / ', 'g');
-      eng = eng.replace(r, ', ');
-      english += eng + '; ';
+      const r = new RegExp(" / ", "g");
+      eng = eng.replace(r, ", ");
+      english += eng + "; ";
     }
-    const re = new RegExp('; $');  // remove trailing semicolon
-    return english.replace(re, '');
+    const re = new RegExp("; $");  // remove trailing semicolon
+    return english.replace(re, "");
   }
 
   /**
    * Gets the headword_id for the term
    * @return {string} headword_id - The headword id
    */
-  getHeadwordId(): string {
+  public getHeadwordId(): string {
     return this.headwordId;
   }
 
@@ -84,7 +83,7 @@ export class CNDictionaryEntry {
    * A convenience method that flattens the part of pinyin for the term.
    * @return {string} Mandarin pronunciation
    */
-  getPinyin() {
+  public getPinyin() {
     console.log(`DictionaryEntry getPinyin this.pinyin ${this.pinyin}`);
     return this.pinyin;
   }
@@ -93,7 +92,7 @@ export class CNDictionaryEntry {
    * Gets the simplified for the entry
    * @return {string} simplified - The simplified form
    */
-  geSimplified(): string {
+  public geSimplified(): string {
     return this.simplified;
   }
 
@@ -101,7 +100,7 @@ export class CNDictionaryEntry {
    * Gets the traditional for the entry
    * @return {string} traditional - The traditional form
    */
-  getTraditional(): string {
+  public getTraditional(): string {
     return this.traditional;
   }
 
@@ -109,7 +108,7 @@ export class CNDictionaryEntry {
    * Gets the word senses
    * @return {!Array<CNWordSense>} the word senses
    */
-  getWordSenses(): Array<CNWordSense> {
+  public getWordSenses(): CNWordSense[] {
     return this.senses;
-  }  
+  }
 }

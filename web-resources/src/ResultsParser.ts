@@ -25,25 +25,25 @@ export class ResultsParser {
    * Creates and initializes a test Dictionary.
    * @param {!object} jsonObj - JSON object received from the server
    */
-  public static parseResults(jsonObj: any): Array<CNDictionaryEntry> {
+  public static parseResults(jsonObj: any): CNDictionaryEntry[] {
     console.log(`ResultsParser, jsonObj: ${jsonObj}`);
-    const results = jsonObj['Words'];
+    const results = jsonObj.Words;
     const entries = new Array<CNDictionaryEntry>();
-    results.forEach(function(w: any) {
+    results.forEach((w: any) => {
       console.log(`ResultsParser, w: ${w}`);
-      const simplified = w['Simplified'];
-      const traditional = w['Traditional'];
-      const pinyin = w['Pinyin'];
-      const headwordId = w['HeadwordId'];
+      const simplified = w.Simplified;
+      const traditional = w.Traditional;
+      const pinyin = w.Pinyin;
+      const headwordId = w.HeadwordId;
       const senses = new Array<CNWordSense>();
-      const sensesObj = w['Senses'];
-      sensesObj.forEach(function(ws: any) {
+      const sensesObj = w.Senses;
+      sensesObj.forEach((ws: any) => {
         console.log(`ResultsParser, ws: ${ws}`);
-        const s = ws['Simplified'];
-        const t = ws['Traditional'];
-        const p = ws['Pinyin'];
-        const e = ws['English'];
-        const n = ws['Notes'];
+        const s = ws.Simplified;
+        const t = ws.Traditional;
+        const p = ws.Pinyin;
+        const e = ws.English;
+        const n = ws.Notes;
         const sense = new CNWordSense(s, t, p, e, "", n);
         senses.push(sense);
       });

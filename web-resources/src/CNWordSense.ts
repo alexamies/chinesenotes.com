@@ -52,7 +52,7 @@ export class CNWordSense {
    * Gets the English equivalent for the sense
    * @return {string} English equivalent for the sense
    */
-  getEnglish() {
+  public getEnglish() {
     return this.english;
   }
 
@@ -60,7 +60,7 @@ export class CNWordSense {
    * Gets the part of speech for the sense
    * @return {string} part of speech for the sense
    */
-  getGrammar() {
+  public getGrammar() {
     return this.grammar;
   }
 
@@ -68,7 +68,7 @@ export class CNWordSense {
    * Gets the Mandarin pronunciation for the sense
    * @return {string} Mandarin pronunciation
    */
-  getPinyin() {
+  public getPinyin() {
     return this.pinyin;
   }
 
@@ -76,7 +76,7 @@ export class CNWordSense {
    * Gets the notes field
    * @return {string} freeform notes
    */
-  getNotes() {
+  public getNotes() {
     return this.notes;
   }
 
@@ -84,7 +84,7 @@ export class CNWordSense {
    * Gets the simplified Chinese text for the sense
    * @return {!string} The simplified Chinese text for the sense
    */
-  getSimplified() {
+  public getSimplified() {
     return this.simplified;
   }
 
@@ -92,7 +92,7 @@ export class CNWordSense {
    * Gets the traditional Chinese for the sense
    * @return {string} traditional Chinese
    */
-  getTraditional() {
+  public getTraditional() {
     return this.traditional;
   }
 }

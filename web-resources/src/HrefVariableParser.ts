@@ -28,9 +28,9 @@ export class HrefVariableParser {
     }
     const path = href.split("?");
     const parts = path[1].split("&");
-    for (let i = 0; i < parts.length; i += 1) {
-      const p = parts[i].split("=");
-      if (decodeURIComponent(p[0]) == name) {
+    for (const part of parts) {
+      const p = part.split("=");
+      if (decodeURIComponent(p[0]) === name) {
         return decodeURIComponent(p[1]);
       }
     }

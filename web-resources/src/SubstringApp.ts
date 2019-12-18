@@ -13,12 +13,12 @@
  * under the License.
  */
 
-import { fromEvent, of, pipe } from 'rxjs';
-import { ajax } from 'rxjs/ajax';
-import { catchError, map } from 'rxjs/operators';
-import { MDCList } from '@material/list';
-import { ResultsParser } from './ResultsParser';
-import { ResultsView } from './ResultsView';
+import { MDCList } from "@material/list";
+import { fromEvent, of, pipe } from "rxjs";
+import { ajax } from "rxjs/ajax";
+import { catchError, map } from "rxjs/operators";
+import { ResultsParser } from "./ResultsParser";
+import { ResultsView } from "./ResultsView";
 
 /**
  * An app that does substring searches.
@@ -30,68 +30,91 @@ export class SubstringApp {
   }
 
   /**
-   * JSON data source, a backend API serving JSON unless testing
-   */
-  private makeDataSource(urlString: string) {
-    return ajax.getJSON(urlString).pipe(
-      map(jsonObj => {
-        this.displayResults(jsonObj as object);
-      }),
-      catchError(error => {
-        this.displayError(error)
-        return of(error);
-      })
-    );
-  }
-
-  /**
    * Wire the lookup form to the data source and function for showing results
    */
   public wireObservers() {
     console.log("wireObservers enter");
-    const lookupForm = document.getElementById('lookupForm');
-    const lookupInput = document.getElementById('lookupInput');
-    const lookupButton = document.getElementById('lookupButton');
-    const lookupTopic = document.getElementById('lookupTopic');
-    const lookupSubTopic = document.getElementById('lookupSubTopic');
+    const lookupForm = document.getElementById("lookupForm");
+    const lookupInput = document.getElementById("lookupInput");
+    const lookupButton = document.getElementById("lookupButton");
+    const lookupTopic = document.getElementById("lookupTopic");
+    const lookupSubTopic = document.getElementById("lookupSubTopic");
     if (lookupForm && lookupForm instanceof HTMLFormElement) {
-      fromEvent(lookupForm, 'submit').subscribe({
-        next: event => {
+      fromEvent(lookupForm, "submit").subscribe(
+        (event) => {
           event.preventDefault();
           console.log(`wireObservers next: ${event}`);
           let urlStr = lookupForm.action;
           if (lookupInput instanceof HTMLInputElement && lookupInput!.value &&
-              !urlStr.endsWith('.json')) {
-            urlStr += '?query=' + lookupInput.value;
+              !urlStr.endsWith(".json")) {
+            urlStr += "?query=" + lookupInput.value;
             if (lookupTopic && lookupTopic instanceof HTMLInputElement &&
                 lookupTopic.value) {
-              urlStr += '&topic=' + lookupTopic.value;
+              urlStr += "&topic=" + lookupTopic.value;
             }
             if (lookupSubTopic && lookupSubTopic instanceof HTMLInputElement &&
                 lookupSubTopic.value) {
-              urlStr += '&subtopic=' + lookupSubTopic.value;
+              urlStr += "&subtopic=" + lookupSubTopic.value;
             }
           }
-          console.log('urlStr: ' + urlStr);
+          console.log("urlStr: " + urlStr);
           this.makeDataSource(encodeURI(urlStr)).subscribe();
           return false;
         },
-        error: error => {
+        (error) => {
           console.log(`wireObservers Error processing event form: ${error}`);
           return false;
         },
-        complete: () => {
+        () => {
           return false;
-        }
-      });  
+        },
+      );
     }
+  }
+
+  /**
+   * Test for showing an error
+   */
+  public wireTestError() {
+    const errorForm = document.getElementById("errorForm");
+    const errorInput = document.getElementById("errorInput");
+    if (!errorForm || !errorInput) {
+      // Skip if not doing testing
+      return;
+    }
+    fromEvent(errorForm, "submit").subscribe(
+      (event) => {
+        event.preventDefault();
+        if (errorInput instanceof HTMLInputElement) {
+          this.displayError(errorInput.value);
+        }
+        return false;
+      },
+      (error) => console.log(error),
+      () => false,
+    );
+  }
+
+  /**
+   * JSON data source, a backend API serving JSON unless testing
+   */
+  private makeDataSource(urlString: string) {
+    return ajax.getJSON(urlString).pipe(
+      map((jsonObj) => {
+        this.displayResults(jsonObj as object);
+      }),
+      catchError((error) => {
+        this.displayError(error);
+        return of(error);
+      }),
+    );
   }
 
   /**
    * Show an error to the user
    */
   private displayError(error: string) {
-    ResultsView.showError('#TermList', "#lookupError", "#lookupResultsTitle",
+    ResultsView.showError("#TermList", "#lookupError", "#lookupResultsTitle",
         `Error displaying results: ${error}`);
   }
 
@@ -101,33 +124,10 @@ export class SubstringApp {
   private displayResults(jsonObj: object) {
     console.log(`displayResults jsonObj: ${jsonObj}`);
     const results = ResultsParser.parseResults(jsonObj);
-    ResultsView.showResults(results, '#TermList', '#lookupError',
-        '#lookupResultsTitle', '#lookup-help-block');
-  }  
-
-  /**
-   * Test for showing an error
-   */
-  public wireTestError() {
-    const errorForm = document.getElementById('errorForm');
-    const errorInput = document.getElementById('errorInput');
-    if (!errorForm || !errorInput) {
-      // Skip if not doing testing
-      return;
-    }
-    fromEvent(errorForm, 'submit').subscribe({
-      next: event => {
-        event.preventDefault();
-        if (errorInput instanceof HTMLInputElement) {
-          this.displayError(errorInput.value);
-        }
-        return false;
-      },
-      error: error => console.log(error),
-      complete: () => false
-    });  
-  }  
+    ResultsView.showResults(results, "#TermList", "#lookupError",
+        "#lookupResultsTitle", "#lookup-help-block");
+  }
 }
-const substringApp = new SubstringApp()
+const substringApp = new SubstringApp();
 substringApp.wireObservers();
 substringApp.wireTestError();

@@ -18,7 +18,7 @@ import { ICollection,
          IDictEntry,
          IDocument,
          ITerm,
-         IWordSense } from "./CNInterfaces"
+         IWordSense } from "./CNInterfaces";
 
 /**
  * JavaScript function for sending and displaying search results for words and
