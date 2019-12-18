@@ -30,7 +30,7 @@ import { WordFinder } from "./WordFinder";
 /**
  * A browser app that implements the Chinese-English dictionary web view.
  */
-class CNotes {
+export class CNotes {
   private dictionaries: DictionaryCollection;
   private dialogDiv: HTMLElement;
   private wordDialog: MDCDialog;
@@ -46,24 +46,7 @@ class CNotes {
 
   // View setup is here
   public init() {
-    console.log("Initializing app");
-
-    // Menu events
-    const drawDiv = document.querySelector(".mdc-drawer");
-    if (drawDiv) {
-      const drawer = MDCDrawer.attachTo(drawDiv);
-      const topAppBar = MDCTopAppBar.attachTo(this.querySelectorNonNull("#app-bar"));
-      topAppBar.setScrollTarget(this.querySelectorNonNull("#main-content"));
-      topAppBar.listen("MDCTopAppBar:nav", () => {
-        drawer.open = !drawer.open;
-      });
-      const mainContentEl = this.querySelectorNonNull(".main-content");
-      mainContentEl.addEventListener("click", (event) => {
-        drawer.open = false;
-      });
-    } else {
-      console.log("Initializing app no drawDiv");
-    }
+    console.log("CNotes.init");
     this.initDialog();
   }
 
@@ -330,10 +313,3 @@ class CNotes {
     this.wordDialog.open();
   }
 }
-
-// Crete the app, initialize it, and load the dictionary
-const app = new CNotes();
-app.init();
-app.load();
-const wordFinder = new WordFinder();
-wordFinder.init();

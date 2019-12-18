@@ -32,9 +32,7 @@ module.exports = [
     mode: 'development',
     entry:  {
       app: [
-        './index.js',
-        './src/DocumentFinder.ts',
-        './src/WordFinder.ts'
+        './src/index.ts',
       ]
     },
     output: {
