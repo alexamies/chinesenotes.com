@@ -59,7 +59,7 @@ module.exports = [
     entry:  {
       app: [
         './src/CNotes.ts',
-        './src/events.ts'
+        './src/SubstringApp.ts'
       ]
     },
     output: {
