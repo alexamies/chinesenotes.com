@@ -13,6 +13,7 @@
  * under the License.
  */
 
+import { MDCDialog } from "@material/dialog";
 import { CNotesMenu } from "./src/CNotesMenu"
 import { DocumentFinder } from "./src/DocumentFinder"
 import { WordFinder } from "./src/WordFinder"

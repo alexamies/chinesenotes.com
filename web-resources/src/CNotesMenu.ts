@@ -13,7 +13,6 @@
  * under the License.
  */
 
-import { MDCDialog } from "@material/dialog";
 import { MDCDrawer } from "@material/drawer";
 import { MDCTopAppBar } from "@material/top-app-bar";
 
