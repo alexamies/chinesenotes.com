@@ -1,5 +1,5 @@
 import { expect } from "chai"
-import { ResultsParser } from "../src/resultparser"
+import { ResultsParser } from "../dist/cnotes-compiled"
 
 const jsonObj = {"Words":[
                  {

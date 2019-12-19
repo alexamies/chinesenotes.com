@@ -40,11 +40,24 @@ export class CNotes {
    */
   constructor() {
     this.dictionaries = new DictionaryCollection();
-    this.dialogDiv = document.querySelector("#CnotesVocabDialog") as HTMLElement;
-    this.wordDialog = new MDCDialog(this.dialogDiv);
+    const dialogDiv = document.querySelector("#CnotesVocabDialog");
+    if (dialogDiv && dialogDiv instanceof HTMLElement) {
+      this.dialogDiv = dialogDiv;
+      this.wordDialog = new MDCDialog(dialogDiv);
+    } else {
+      console.log("Missing #CnotesVocabDialog from DOM");
+      this.dialogDiv = document.createElement("div");
+      this.wordDialog = new MDCDialog(this.dialogDiv);
+    }
   }
 
-  // View setup is here
+  public getDictionaries() {
+    return this.dictionaries;
+  }
+
+  /**
+   * View setup is here
+   */
   public init() {
     console.log("CNotes.init");
     this.initDialog();
@@ -62,7 +75,7 @@ export class CNotes {
     observable.subscribe(
       () => {
         console.log("loading dictionary done");
-        const loadingStatus = this.querySelectorNonNull("#loadingStatus");
+        const loadingStatus = this.querySelectorOrNull("#loadingStatus");
         if (loadingStatus) {
           loadingStatus.innerHTML = "Dictionary loading status: loaded";
         }
@@ -212,17 +225,19 @@ export class CNotes {
     const copyButton = document.getElementById("DialogCopyButton");
     if (copyButton) {
       copyButton.addEventListener("click", () => {
-        const englishElem = this.querySelectorNonNull("#EnglishSpan");
+        const englishElem = this.querySelectorOrNull("#EnglishSpan");
         const range = document.createRange();
-        range.selectNode(englishElem);
-        const sel = window.getSelection();
-        if (sel != null) {
-          sel.addRange(range);
-          try {
-            const result = document.execCommand("copy");
-            console.log(`Copy to clipboard result: ${result}`);
-          } catch (err) {
-            console.log(`Unable to copy to clipboard: ${err}`);
+        if (englishElem) {
+          range.selectNode(englishElem);
+          const sel = window.getSelection();
+          if (sel != null) {
+            sel.addRange(range);
+            try {
+              const result = document.execCommand("copy");
+              console.log(`Copy to clipboard result: ${result}`);
+            } catch (err) {
+              console.log(`Unable to copy to clipboard: ${err}`);
+            }
           }
         }
       });
@@ -230,10 +245,11 @@ export class CNotes {
   }
 
   // Looks up an element checking for null
-  private querySelectorNonNull(selector: string): HTMLElement {
+  private querySelectorOrNull(selector: string): HTMLElement | null {
     const elem = document.querySelector(selector);
     if (elem === null) {
       console.log(`Unexpected missing HTML element ${ selector }`);
+      return null;
     }
     return elem as HTMLElement;
   }
@@ -241,7 +257,7 @@ export class CNotes {
   // Shows the vocabular dialog with details of the given word
   private showVocabDialog(elem: HTMLElement) {
     // Show Chinese, pinyin, and English
-    const titleElem = this.querySelectorNonNull("#VocabDialogTitle");
+    const titleElem = this.querySelectorOrNull("#VocabDialogTitle");
     const s = elem.title;
     const n = s.indexOf("|");
     const pinyin = s.substring(0, n);
@@ -251,24 +267,34 @@ export class CNotes {
     }
     const chinese = this.getTextNonNull(elem);
     console.log(`Value: ${chinese}`);
-    const pinyinSpan = this.querySelectorNonNull("#PinyinSpan");
-    const englishSpan = this.querySelectorNonNull("#EnglishSpan");
-    titleElem.innerHTML = chinese;
-    pinyinSpan.innerHTML = pinyin;
-    if (english) {
-      englishSpan.innerHTML = english;
-    } else {
-      englishSpan.innerHTML = "";
+    const pinyinSpan = this.querySelectorOrNull("#PinyinSpan");
+    const englishSpan = this.querySelectorOrNull("#EnglishSpan");
+    if (titleElem) {
+      titleElem.innerHTML = chinese;
+    }
+    if (pinyinSpan) {
+      pinyinSpan.innerHTML = pinyin;
+    }
+    if (englishSpan) {
+      if (english) {
+        englishSpan.innerHTML = english;
+      } else {
+        englishSpan.innerHTML = "";
+      }
     }
 
     // Show parts of the term for multi-character terms
-    const partsDiv = this.querySelectorNonNull("#parts");
-    while (partsDiv.firstChild) {
-      partsDiv.removeChild(partsDiv.firstChild);
+    const partsDiv = this.querySelectorOrNull("#parts");
+    if (partsDiv) {
+      while (partsDiv.firstChild) {
+        partsDiv.removeChild(partsDiv.firstChild);
+      }
     }
-    const partsTitle = this.querySelectorNonNull("#partsTitle");
+    const partsTitle = this.querySelectorOrNull("#partsTitle");
     if (chinese.length > 1) {
-      partsTitle.style.display = "block";
+      if (partsTitle) {
+        partsTitle.style.display = "block";
+      }
       const parser = new TextParser(this.dictionaries);
       const terms = parser.segmentExludeWhole(chinese);
       console.log(`showVocabDialog got ${ terms.length } terms`);
@@ -282,20 +308,26 @@ export class CNotes {
           console.log(`showVocabDialog term ${ t.getChinese() } is empty`);
         }
       });
-      partsDiv.appendChild(tList);
+      if (partsDiv) {
+        partsDiv.appendChild(tList);
+      }
     } else {
-      partsTitle.style.display = "none";
+      if (partsTitle) {
+        partsTitle.style.display = "none";
+      }
     }
 
     // Show more details
     const term = this.dictionaries.lookup(chinese);
     if (term) {
       const entry = term.getEntries()[0];
-      const notesSpan = this.querySelectorNonNull("#VocabNotesSpan");
+      const notesSpan = this.querySelectorOrNull("#VocabNotesSpan");
       if (entry && entry.getSenses().length === 1) {
         const ws = entry.getSenses()[0];
-        notesSpan.innerHTML = ws.getNotes();
-      } else {
+        if (notesSpan) {
+          notesSpan.innerHTML = ws.getNotes();
+        }
+      } else if (notesSpan) {
         notesSpan.innerHTML = "";
       }
 

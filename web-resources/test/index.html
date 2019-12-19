@@ -1,149 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="img/png" href="/images/ios-desktop.png">
-    <meta name="description" 
-          content="Chinese-English dictionary and corpus">
-    <title>Development Test</title>
-
-    <!-- Homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="/images/android-desktop.png">
-
-    <!-- Homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Chinese Notes">
-    <link rel="apple-touch-icon-precomposed" href="/images/ios-desktop.png">
-
-    <link rel="shortcut icon" href="/images/ios-desktop.png">
-
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="../dist/cnotes.css">
+    <meta charset="utf-8" />
+    <title>Mocha Tests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
   </head>
-  <body class="mdc-typography">
-    <aside class="mdc-drawer mdc-drawer--dismissible"> <!-- Menu drawer-->
-      <div class="mdc-drawer__content">
-        <nav class="mdc-list">
-          <a class="mdc-list-item" href="/">
-            <i class="material-icons mdc-list-item__graphic"
-              aria-hidden="true">home</i>
-            <span class="mdc-list-item__text">Home</span>
-          </a>
-          <a class="mdc-list-item" href="/texts.html">
-            <i class="material-icons mdc-list-item__graphic"
-              aria-hidden="true">library_books</i>
-            <span class="mdc-list-item__text">Texts</span>
-          </a>
-          <a class="mdc-list-item" href="/idioms.html">
-            <span class="mdc-list-item__text">Idioms</span>
-          </a>
-        </nav>
-      </div>
-    </aside>
-    <div class="mdc-drawer-app-content">
-      <!-- Top bar-->
-      <header class="mdc-top-app-bar app-bar mdc-top-app-bar--fixed" id="app-bar">
-        <div class="mdc-top-app-bar__row">
-          <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-            <a href="#"
-               class="demo-menu material-icons mdc-top-app-bar__navigation-icon"
-               >menu</a>
-            <a class="mdc-top-app-bar__title title--mdc-theme-on-primary" href="/"
-              >Chinese Notes</a>
-          </section>
-          <section 
-            id="menu-search"
-            class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end"
-            role="toolbar">
-            <i class="material-icons mdc-list-item__graphic"
-                aria-hidden="true">search</i>
-              <form id="searchBarForm" name="searchBarForm" action="#">
-                <input id="searchInput" name="searchInput" type="text"
-                       class="mdc-text-field__input" placeholder="Search">
-              </form>
-          </section>
-        </div>
-      </header>  <!-- End top bar-->
-
-      <main class="main-content" id="main-content">
-        <div class="mdc-top-app-bar--fixed-adjust">
-          <p><a href='#'>Back to collection</a></p>
-          <header>
-            <h2>Development Test</h2>
-            <h3>紅樓夢 <i>The Dream of the Red Chamber</i></h3>
-          </header>
-
-          <p>
-            <span title="zhēn shìyǐn | Zhen Shiyin" class="vocabulary propernoun"
-            >甄士隱</span><span title="mènghuàn | a dream" class="vocabulary"
-            >夢幻</span><span title="shí | knowledge / to know / to remember" class="vocabulary"
-            >識</span><span title="tōnglíng | to communicate with the spirits / psychic" class="vocabulary">通靈</span>
-          </p>
-          <p id="loadingStatus">Dictionary loading status: not loaded</p>
-          <div>
-            <div id="QueryDiv"></div>
-            <ul id="TermList" class="mdc-list mdc-list--two-line"/>
-          </div>
-
-        </div>
-      </main>
-
-      <footer class="page-footer">
-        <div>
-          Footer
-        </div>
-      </footer>
-
-    </div>
-    <div class="mdc-dialog"
-       id="CnotesVocabDialog"
-       role="alertdialog"
-       aria-modal="true"
-       aria-labelledby="my-dialog-title"
-       aria-describedby="my-dialog-content">
-      <div class="mdc-dialog__container">
-        <!-- Title cannot contain leading whitespace due to mdc-typography-baseline-top() -->
-        <div class="mdc-dialog__surface cnotes-primer-vocab-box">
-          <header class="mdc-dialog__header">
-            <h2 class="mdc-dialog__title" id="VocabDialogTitle"><!--
-           -->Chinese<!--
-         --></h2>
-          </header>
-          <section class="mdc-dialog__body">
-            <p><span class="cnnotes-pinyin" id="PinyinSpan">Pinyin</span> &nbsp;
-              <span class="cnnotes-english-equiv" id="EnglishSpan">English</span>
-            </p>
-            <p>
-              <span id="DialogLink"></span>
-              <button type="button" id="DialogCopyButton" class="mdc-button">
-                <i class="material-icons">content_copy</i>
-              </button>
-            </p>
-            <div>
-              <div id='partsTitle'>Parts</div>
-              <div id='parts'></div>
-            </div>
-            <div>
-              <span class="dict-entry-notes">Notes </span>
-              <span id="VocabNotesSpan"></span>
-            </div>
-          </section>
-          <footer class="mdc-dialog__actions">
-            <button type="button"
-                    class="mdc-button mdc-dialog__button mdc-dialog__button--default"
-                    data-mdc-dialog-action="accept"
-                    >OK</button>
-          </footer>
-        </div>
-      </div>
-      <div class="mdc-dialog__scrim"></div>
-    </div>
-    <!--<script src="/dist/cnotes-compiled.js" async></script>-->
-    <script type="module" src="/dist/app.bundle.js"></script>
+  <body>
+    <div id="mocha"></div>
+    <script src="/node_modules/mocha/mocha.js"></script>
+    <script class="mocha-init">
+      mocha.setup('bdd');
+    </script>
+    <script type="module" src="test-compiled.js"></script>
+    <script class="mocha-exec">
+      mocha.run();
+      console.log("Done running unit tests");
+    </script>
   </body>
 </html>

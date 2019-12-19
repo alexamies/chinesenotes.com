@@ -131,6 +131,49 @@
         </div>
       </footer>
     </div> <!-- mdc-drawer-app-content-->
+    <div class="mdc-dialog"
+       id="CnotesVocabDialog"
+       role="alertdialog"
+       aria-modal="true"
+       aria-labelledby="my-dialog-title"
+       aria-describedby="my-dialog-content">
+      <div class="mdc-dialog__container">
+        <!-- Title cannot contain leading whitespace due to mdc-typography-baseline-top() -->
+        <div class="mdc-dialog__surface cnotes-primer-vocab-box">
+          <header class="mdc-dialog__header">
+            <h2 class="mdc-dialog__title" id="VocabDialogTitle"><!--
+           -->Chinese<!--
+         --></h2>
+          </header>
+          <section class="mdc-dialog__body">
+            <p><span class="cnnotes-pinyin" id="PinyinSpan">Pinyin</span> &nbsp;
+              <span class="cnnotes-english-equiv" id="EnglishSpan">English</span>
+            </p>
+            <p>
+              <span id="DialogLink"></span>
+              <button type="button" id="DialogCopyButton" class="mdc-button">
+                <i class="material-icons">content_copy</i>
+              </button>
+            </p>
+            <div>
+              <div id='partsTitle'>Parts</div>
+              <div id='parts'></div>
+            </div>
+            <div>
+              <span class="dict-entry-notes">Notes </span>
+              <span id="VocabNotesSpan"></span>
+            </div>
+          </section>
+          <footer class="mdc-dialog__actions">
+            <button type="button"
+                  class="mdc-button mdc-dialog__button mdc-dialog__button--default"
+                  data-mdc-dialog-action="accept"
+                    >OK</button>
+          </footer>
+        </div>
+      </div>
+      <div class="mdc-dialog__scrim"></div>
+    </div> <!-- Dialog -->
     <script type="module" src="/dist/cnotes-compiled.js" async></script>
   </body>
 </html>

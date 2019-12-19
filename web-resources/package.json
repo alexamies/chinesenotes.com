@@ -5,10 +5,9 @@
   "private": true,
   "scripts": {
     "build": "npx webpack --config webpack.config.js",
-    "compile_dev": "npx webpack --config webpack.config.dev.js",
     "prebuild": "./node_modules/.bin/tslint -c tslint.json --fix 'src/**/*.ts'",
-    "start": "webpack-dev-server --config webpack.config.dev.js",
-    "test": "./node_modules/.bin/mocha --require @babel/register"
+    "buildtest": "webpack --config webpack.config.test.js --open-page 'test/index.html'",
+    "test": "webpack-dev-server --config webpack.config.test.js --open-page 'test/index.html'"
   },
   "author": "alexamies",
   "license": "ISC",
