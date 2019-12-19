@@ -34,3 +34,6 @@ docFinder.init();
 const app = new CNotes();
 app.init();
 app.load();
+// substring search
+const subApp = new SubstringApp();
+subApp.wireObservers();
