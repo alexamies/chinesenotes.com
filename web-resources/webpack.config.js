@@ -1,4 +1,5 @@
 const autoprefixer = require('autoprefixer');
+const webpack = require('webpack');
 
 module.exports = [
   {
@@ -47,6 +48,11 @@ module.exports = [
         },
       ],
     },
+    plugins: [
+      new webpack.DefinePlugin({
+        __VERSION__: JSON.stringify(require("./package.json").version)
+      })
+    ],
     resolve: {
       extensions: [ '.tsx', '.ts', '.js' ],
     },

@@ -527,7 +527,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var chai__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! chai */ \"./node_modules/chai/index.js\");\n/* harmony import */ var chai__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(chai__WEBPACK_IMPORTED_MODULE_0__);\n\n\ndescribe('Array', function() {\n  describe('#indexOf()', function() {\n    it('should return -1 when the value is not present', function() {\n      chai__WEBPACK_IMPORTED_MODULE_0__[\"assert\"].equal([1, 2, 3].indexOf(4), -1);\n    });\n  });\n});\n\n//# sourceURL=webpack:///./test/test.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var chai__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! chai */ \"./node_modules/chai/index.js\");\n/* harmony import */ var chai__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(chai__WEBPACK_IMPORTED_MODULE_0__);\n\n\nconsole.log(\"Starting unit tests\");\n\ndescribe('Array', function() {\n  describe('#indexOf()', function() {\n    it('should return -1 when the value is not present', function() {\n    \tconsole.log(\"First unit test\")\n      chai__WEBPACK_IMPORTED_MODULE_0__[\"assert\"].equal([1, 2, 3].indexOf(4), -1);\n    });\n  });\n});\n\n\n//# sourceURL=webpack:///./test/test.js?");
 
 /***/ }),
 

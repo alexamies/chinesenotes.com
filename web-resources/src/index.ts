@@ -19,9 +19,12 @@ import { DocumentFinder } from "./DocumentFinder";
 import { SubstringApp } from "./SubstringApp";
 import { WordFinder } from "./WordFinder";
 
+declare const __VERSION__: string;
+
 /**
  * Entry point for all pages.
  */
+console.log(`Running App version ${ __VERSION__ }`);
 const menu = new CNotesMenu();
 menu.init();
 // Dictionary search

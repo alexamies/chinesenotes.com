@@ -11,11 +11,11 @@
     <script src="/node_modules/mocha/mocha.js"></script>
     <script class="mocha-init">
       mocha.setup('bdd');
+      mocha.checkLeaks();
     </script>
-    <script type="module" src="test-compiled.js"></script>
     <script class="mocha-exec">
       mocha.run();
-      console.log("Done running unit tests");
     </script>
+    <script src="test-compiled.js"></script>
   </body>
 </html>
