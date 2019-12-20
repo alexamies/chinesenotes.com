@@ -46,7 +46,11 @@ export class CNotes {
       this.wordDialog = new MDCDialog(dialogDiv);
     } else {
       console.log("Missing #CnotesVocabDialog from DOM");
+      const dialogContainer = document.createElement("div");
+      dialogContainer.className = "mdc-dialog__container";
       this.dialogDiv = document.createElement("div");
+      this.dialogDiv.className = "mdc-dialog";
+      this.dialogDiv.appendChild(dialogContainer);
       this.wordDialog = new MDCDialog(this.dialogDiv);
     }
   }

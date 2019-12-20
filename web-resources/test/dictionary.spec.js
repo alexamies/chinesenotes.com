@@ -1,4 +1,3 @@
-import { expect } from "chai"
 import {CNotes} from "../dist/cnotes-compiled"
 
 const q = "你";
@@ -10,7 +9,7 @@ describe("WordFinder tests", () => {
       app.load();
       const dictionaries = app.getDictionaries();
       const term = dictionaries.getTerm(q);
-      expect(term.getChinese()).to.equal("你");
+      assert.equal(term.getChinese(), "你");
     })
   })
 })
