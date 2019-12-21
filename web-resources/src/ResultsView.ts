@@ -36,7 +36,7 @@ export class ResultsView {
    */
   public static showResults(results: CNDictionaryEntry[], ulSelector: string,
                             messageSelector: string, resultsTitleSelector: string, helpSelector: string) {
-    console.log("No. entries: " + results.length);
+    console.log("ResultsView.showResults No. entries: " + results.length);
     const ul = document.querySelector(ulSelector);
     if (!ul) {
       console.log(`buildDOM selector ${ulSelector} not found`);

@@ -1,5 +1,4 @@
-import { expect } from "chai"
-import { ResultsParser } from "../dist/cnotes-compiled"
+import { ResultsParser } from "../src/ResultsParser"
 
 const jsonObj = {"Words":[
                  {
@@ -25,10 +24,10 @@ describe("ResultsParser tests", () => {
   describe("parseResults function", () => {
     it("should say " + pinyin, () => {
     	const results = ResultsParser.parseResults(jsonObj);
-      expect(results.length).to.equal(1);
+      expect(results.length).toBe(1);
       const senses = results[0].getWordSenses();
-      expect(senses.length).to.equal(1);
-      expect(senses[0].getPinyin()).to.equal(pinyin);
+      expect(senses.length).toBe(1);
+      expect(senses[0].getPinyin()).toBe(pinyin);
     })
   })
 })

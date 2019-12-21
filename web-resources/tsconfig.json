@@ -1,17 +1,15 @@
 {
   "compilerOptions": {
-    "module": "es6",
+    "module": "es2015",
     "moduleResolution": "node",
-    "lib": ["es6", "dom"],
+    "lib": ["es2015", "dom"],
     "noImplicitAny": true,
-    "removeComments": true,
     "preserveConstEnums": true,
-    "target": "es6",
+    "target": "es2015",
     "strict": true,
     "sourceMap": true
   },
   "include": [
-    "script",
     "src"
   ]
 }

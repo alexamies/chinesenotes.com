@@ -7,54 +7,52 @@ module.exports = function(config) {
     // base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '',
 
-
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['chai', 'mocha'],
-
+    frameworks: ["jasmine", "karma-typescript"],
 
     // list of files / patterns to load in the browser
     files: [
-      { pattern: './dist/cnotes-compiled.js', type: 'module', watched: false
+      //{ pattern: "src/*.ts" },
+      { pattern: "src/CNDictionaryEntry.ts" },
+      { pattern: "src/CNWordSense.ts" },
+      { pattern: "src/HrefVariableParser.ts" },
+      { pattern: "src/ResultsParser.ts" },
+      { pattern: "src/ResultsView.ts" },
+      { pattern: "test/*.spec.ts" }
+    ],
+
+    karmaTypescriptConfig: {
+      compilerOptions: {
+        emitDecoratorMetadata: true,
+        experimentalDecorators: true,
+        module: "commonjs",
+        sourceMap: true,
+        target: "ES6"
       },
-      { pattern: './test/dictionary.spec.js', type: 'module', watched: false
-      }
-    ],
-
-
-    // list of files / patterns to exclude
-    exclude: [
-    ],
-
+      exclude: ["node_modules"]
+    },
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      './test/test.js': ['babel'],
+      "**/*.ts": ["karma-typescript"]
     },
-
-
-    plugins: ['karma-babel-preprocessor', 'karma-chai', 'karma-chrome-launcher', 'karma-mocha', 'karma-webpack'],
-
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress'],
-
+    reporters: ["dots", "karma-typescript"],
 
     // web server port
     port: 9876,
 
-
     // enable / disable colors in the output (reporters and logs)
     colors: true,
-
 
     // level of logging
     // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
     logLevel: config.LOG_INFO,
-
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
