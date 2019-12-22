@@ -1,11 +1,11 @@
 {
   "name": "cnreader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "HB Reader",
   "private": true,
   "scripts": {
     "build": "npx webpack --config webpack.config.js",
-    "prebuild": "./node_modules/.bin/tslint -c tslint.json --fix 'src/**/*.ts'",
+    "prebuild": "./node_modules/.bin/tslint -c tslint.json --fix 'src/**/*.ts' 'test/**/*.ts'",
     "test": "karma start karma.conf.js"
   },
   "author": "alexamies",

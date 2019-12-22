@@ -1,34 +1,53 @@
-import { ResultsParser } from "../src/ResultsParser"
-import { ResultsView } from "../src/ResultsView"
+/*
+ * Licensed  under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
 
-const jsonObj = {"Words":[
+ /**
+  * @fileoverview Unit tests for ResultsView
+  */
+
+import { ResultsParser } from "../src/ResultsParser";
+import { ResultsView } from "../src/ResultsView";
+
+const jsonObj = {Words: [
                  {
-                   "Simplified":"男扮女装",
-                   "Traditional":"男扮女裝",
-                   "Pinyin":"nán bàn nǘ zhuāng",
-                   "HeadwordId":421,
-                   "Senses":[
+                   HeadwordId: 421,
+                   Pinyin: "nán bàn nǘ zhuāng",
+                   Senses: [
                      {
-                         "Id":0,
-                         "HeadwordId":421,
-                         "Simplified":"男扮女装",
-                         "Traditional":"男扮女裝",
-                         "Pinyin":"nán bàn nǘ zhuāng",
-                         "English":"man wearing a woman's clothes",
-                         "Notes":"(CC-CEDICT '男扮女裝')"
-                       }]
-                    }]
+                           English: "man wearing a woman's clothes",
+                           HeadwordId: 421,
+                           Id: 0,
+                           Notes: "(CC-CEDICT '男扮女裝')",
+                           Pinyin: "nán bàn nǘ zhuāng",
+                           Simplified: "男扮女装",
+                           Traditional: "男扮女裝",
+                         }],
+                   Simplified: "男扮女装",
+                   Traditional: "男扮女裝",
+                    }],
                   };
 
 describe("ResultsView", () => {
   describe("#showResults", () => {
-    beforeEach(function() {
+    beforeEach(() => {
       const fixture = "<div id='fixture'><ul id='TermList'/></div>";
       document.body.insertAdjacentHTML(
-      'afterbegin', 
+      "afterbegin",
       fixture);
     });
-    afterEach(function() {
+    afterEach(() => {
       document.body.removeChild(document.getElementById("fixture"));
     });
     it("should append a result to the list", () => {

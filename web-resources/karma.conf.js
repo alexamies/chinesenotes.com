@@ -16,6 +16,9 @@ module.exports = function(config) {
       //{ pattern: "src/*.ts" },
       { pattern: "src/CNDictionaryEntry.ts" },
       { pattern: "src/CNWordSense.ts" },
+      //{ pattern: "src/CorpusDocView.ts" },
+      { pattern: "src/DocumentFinder.ts" },
+      { pattern: "src/DocumentFinderView.ts" },
       { pattern: "src/HrefVariableParser.ts" },
       { pattern: "src/ResultsParser.ts" },
       { pattern: "src/ResultsView.ts" },
@@ -25,6 +28,7 @@ module.exports = function(config) {
     karmaTypescriptConfig: {
       compilerOptions: {
         emitDecoratorMetadata: true,
+        esModuleInterop: true,
         experimentalDecorators: true,
         module: "commonjs",
         sourceMap: true,

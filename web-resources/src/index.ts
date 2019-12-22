@@ -13,6 +13,7 @@
  * under the License.
  */
 
+import { DocumentFinderView } from "../src/DocumentFinderView";
 import { CNotes } from "./CNotes";
 import { CNotesMenu } from "./CNotesMenu";
 import { DocumentFinder } from "./DocumentFinder";
@@ -31,7 +32,8 @@ menu.init();
 const wordFinder = new WordFinder();
 wordFinder.init();
 // Initialize full text search
-const docFinder = new DocumentFinder();
+const docFinderView = new DocumentFinderView();
+const docFinder = new DocumentFinder(docFinderView);
 docFinder.init();
 // Load the dictionary and vocab dialog
 const app = new CNotes();

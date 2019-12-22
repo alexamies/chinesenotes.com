@@ -1,4 +1,4 @@
-/**
+/*
  * Licensed  under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
@@ -14,13 +14,20 @@
  */
 
 /**
- * Interface definitions for objects read remotely.
+ *  @fileoverview  Interface definitions for objects read remotely.
  */
 
 // Interface for JSON collection data loaded from AJAX call
 export interface ICollection {
   GlossFile: string;
   Title: string;
+}
+
+// Interface for results loaded from AJAX call
+export interface IDocSearchRestults {
+  NumDocuments: number;
+  Documents: IDocument[];
+  Terms: ITerm[];
 }
 
 // Interface for JSON document data loaded from AJAX call
@@ -52,6 +59,7 @@ export interface IMatchDetails {
 export interface ITerm {
   DictEntry: IDictEntry;
   QueryText: string;
+  Senses: IWordSense[];
 }
 
 // Interface for JSON WordSense data loaded from AJAX call
