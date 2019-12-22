@@ -64,7 +64,7 @@ export class DocumentFinderView {
     let topSimBigram = 1000.0;
     const numDocuments = results.NumDocuments;
     const documents = results.Documents;
-    console.log("addSearchResults: numDocuments: ${numDocuments}");
+    console.log(`addSearchResults: numDocuments: ${numDocuments}`);
     if (numDocuments > 0) {
       // Report summary reults
       console.log("addSearchResults: processing summary reults");
@@ -202,6 +202,7 @@ export class DocumentFinderView {
       if (titleText.length > this.MAX_TITLE_LEN) {
         titleText = titleText.substring(0, this.MAX_TITLE_LEN - 1) + "...";
       }
+      // console.log("addDocument.DocumentFinderView title: titleText")
       const textNode = document.createTextNode(titleText);
       a.appendChild(textNode);
       td.appendChild(a);

@@ -17,13 +17,16 @@
  *  @fileoverview  JavaScript functions for sending and displaying search
  * results for words in either the title or body of documents.
  */
-import { DocumentFinderView } from "../src/DocumentFinderView";
+import { fromEvent } from "rxjs";
+import { ajax } from "rxjs/ajax";
+import { catchError, map, retry } from "rxjs/operators";
+import { IDocSearchRestults } from "./CNInterfaces";
+import { DocumentFinderView } from "./DocumentFinderView";
 import { HrefVariableParser } from "./HrefVariableParser";
 
 export class DocumentFinder {
   public readonly NO_INPUT_MSG = "Please enter search criteria";
   private view: DocumentFinderView;
-  private httpRequest: XMLHttpRequest;
 
   /**
    * Initialize the app to accept document search form events
@@ -31,7 +34,6 @@ export class DocumentFinder {
    */
   constructor(view: DocumentFinderView) {
     this.view = view;
-    this.httpRequest = new XMLHttpRequest();
   }
 
   /**
@@ -42,9 +44,10 @@ export class DocumentFinder {
     const findForm = document.getElementById("findAdvancedForm");
     const findInput = document.getElementById("findInput");
     if (findForm && findInput) {
-      findForm.onsubmit = (event) => {
+      fromEvent(findForm, "submit").subscribe(
+      (event) => {
         this.submitSearchRequest(event);
-      };
+      });
     }
     // Function for sending and displaying search results, redirected from
     // collection pages
@@ -65,29 +68,30 @@ export class DocumentFinder {
       if (col) {
         url = action + "/?query=" + query + "&collection=" + col;
       }
-      this.makeSearchRequest(url);
+      this.makeDataSource(url);
     }
   }
 
   /**
-   * Sends AJAX request to server
-   * @param {string} url - The URL to send the request to
+   * JSON data source, a backend API serving JSON unless testing
    */
-  private makeSearchRequest(url: string) {
-    console.log("makeSearchRequest: url = " + url);
-    if (!this.httpRequest) {
-      this.httpRequest = new XMLHttpRequest();
-      if (!this.httpRequest) {
-        this.view.showMessage("Cannot connect to the server");
-        return;
-      }
-    }
-    this.httpRequest.onreadystatechange = () => {
-      this.alertSearchContents(this.httpRequest);
-    };
-    this.httpRequest.open("GET", url);
-    this.httpRequest.send();
-    this.view.showMessage("Searching ...");
+  private makeDataSource(urlString: string) {
+    ajax.getJSON(urlString).pipe(
+      map(
+        (jsonObj) => {
+          this.view.addSearchResults(jsonObj as IDocSearchRestults);
+        }),
+      catchError(
+        (error) => {
+          this.view.showMessage("There was an error. Retrying ...");
+          console.log(`DocumentFinder.makeDataSource errors ${error}`);
+          return retry(2);
+        }),
+    ).subscribe(
+      (x) => {
+        console.log(`makeDataSource ${x}`);
+      },
+    );
   }
 
   /**
@@ -133,23 +137,7 @@ export class DocumentFinder {
       action = findForm.action;
     }
     const url2 = action + "/?query=" + query;
-    this.makeSearchRequest(url2);
+    this.makeDataSource(url2);
     return false;
-  }
-
-  /**
-   * Process the results of an AJAX request
-   */
-  private alertSearchContents(httpRequest: XMLHttpRequest) {
-    if (httpRequest.readyState === XMLHttpRequest.DONE) {
-      if (httpRequest.status === 200) {
-        console.log("DocumentFinger. alertSearchContents: successful response");
-        // console.log(httpRequest.responseText);
-        const obj = JSON.parse(httpRequest.responseText);
-        this.view.addSearchResults(obj);
-      }
-    } else {
-      this.view.showMessage("There was a problem with the request");
-    }
   }
 }
