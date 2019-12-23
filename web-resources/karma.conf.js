@@ -22,6 +22,8 @@ module.exports = function(config) {
       { pattern: "src/HrefVariableParser.ts" },
       { pattern: "src/ResultsParser.ts" },
       { pattern: "src/ResultsView.ts" },
+      { pattern: "src/WordFinder.ts" },
+      { pattern: "src/WordFinderView.ts" },
       { pattern: "test/*.spec.ts" }
     ],
 

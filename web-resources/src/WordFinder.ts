@@ -14,31 +14,35 @@
  */
 
 import { MDCList } from "@material/list";
-import { ICollection,
-         IDictEntry,
-         IDocument,
-         ITerm,
-         IWordSense } from "./CNInterfaces";
+import { WordFinderView } from "./WordFinderView";
 
 /**
- * JavaScript function for sending and displaying search results for words and
+ * JavaScript functions for sending and displaying search results for words and
  * phrases. The results may be a word or table of words and matching collections
  * and documents.
  */
 export class WordFinder {
+  public readonly NO_INPUT_MSG = "Please enter something to lookup";
   private httpRequest: XMLHttpRequest;
+  private view: WordFinderView;
 
-  constructor() {
+  constructor(view: WordFinderView) {
+    this.view = view;
     this.httpRequest = new XMLHttpRequest();
   }
 
   public init() {
     const findForm = document.getElementById("findForm");
     if (findForm) {
-      findForm.onsubmit = () => {
+      findForm.onsubmit = (event: Event) => {
+        event.preventDefault();
         const findInput = document.getElementById("findInput");
         if (findInput && findInput instanceof HTMLInputElement) {
           const query = findInput.value;
+          if (query === "") {
+            this.view.showMessage(this.NO_INPUT_MSG);
+            return false;
+          }
           let action = "/find";
           if (findForm instanceof HTMLFormElement &&
               !findForm.action.endsWith("#")) {
@@ -47,25 +51,26 @@ export class WordFinder {
           const url = action + "/?query=" + query;
           this.makeRequest(url);
         } else {
-          console.log("find.js: findInput not in dom");
+          console.log("WordFinder.init: findInput not in dom");
         }
         return false;
       };
     } else {
-      console.log("find.js No findForm in dom");
+      console.log("WordFinder.init No findForm in dom");
     }
     // If the search is initiated from the search bar on the main page
     // then execute the search directly
     const searcForm = document.getElementById("searchForm");
     if (searcForm) {
-      searcForm.onsubmit = () => {
+      searcForm.onsubmit = (event: Event) => {
+        event.preventDefault();
         const searchInput = document.getElementById("searchInput");
         if (searchInput && searchInput instanceof HTMLInputElement) {
           const query = searchInput.value;
           const url = "/find/?query=" + query;
           this.makeRequest(url);
         } else {
-          console.log("find.js searchInput has wrong type");
+          console.log("WordFinder.init searchInput has wrong type");
         }
         return false;
       };
@@ -74,7 +79,8 @@ export class WordFinder {
     // then redirect to the main page with the query after the hash
     const searchBarForm = document.getElementById("searchBarForm");
     if (searchBarForm) {
-      searchBarForm.onsubmit = () => {
+      searchBarForm.onsubmit = (event: Event) => {
+        event.preventDefault();
         const redirectURL = getSearchBarQuery();
         window.location.href = redirectURL;
         return false;
@@ -113,10 +119,7 @@ export class WordFinder {
     };
     this.httpRequest.open("GET", url);
     this.httpRequest.send();
-    const helpBlock = document.getElementById("lookup-help-block");
-    if (helpBlock) {
-      helpBlock.innerHTML = "Searching ...";
-    }
+    this.view.showMessage("Searching ...");
     console.log("makeRequest: Sent request");
   }
 
@@ -124,262 +127,25 @@ export class WordFinder {
    * Process the results of an AJAX request
    */
   private alertContents(httpRequest: XMLHttpRequest) {
-    processAJAX(httpRequest);
+    this.processAJAX(httpRequest);
   }
-}
 
-/**
- * A a collection link to a table body
- * @param {object}  collection - a collection object
- * @param {object} tbody - tbody HTML element
- * @return {object} a HTML element that the object is added to
- */
-function addColToTable(collection: ICollection, tbody: HTMLElement) {
-  if (collection.Title) {
-    const title = collection.Title;
-    const glossFile = collection.GlossFile;
-    const tr = document.createElement("tr");
-    const td = document.createElement("td");
-    tr.appendChild(td);
-    const a = document.createElement("a");
-    a.setAttribute("href", glossFile);
-    const textNode = document.createTextNode(title);
-    a.appendChild(textNode);
-    td.appendChild(a);
-    tbody.appendChild(tr);
-  }
-  return tbody;
-}
-
-/**
- * Add a document link to a table body
- * @param {object} doc is a document object
- * @param {object} dTbody - tbody HTML element
- * @return {object} a HTML element that the object is added to
- */
-function addDocToTable(doc: IDocument, dTbody: HTMLElement) {
-  if ("Title" in doc) {
-    const title = doc.Title;
-    const glossFile = doc.GlossFile;
-    const tr = document.createElement("tr");
-    const td = document.createElement("td");
-    tr.appendChild(td);
-    const a = document.createElement("a");
-    a.setAttribute("href", glossFile);
-    const textNode = document.createTextNode(title);
-    a.appendChild(textNode);
-    td.appendChild(a);
-    dTbody.appendChild(tr);
-  } else {
-    console.log("alertContents: no title for document");
-  }
-  return dTbody;
-}
-
-/**
- * Add English equivalent to a HTML span element
- * @param {object} ws - a word sense object
- * @param {object} maxLen - the maximum length of text to add to the span
- * @param {object} englishSpan - span HTML element
- * @param {number} j - the order of the element
- * @return {object} a HTML element that the object is added to
- */
-function addEquivalent(ws: IWordSense, maxLen: number, englishSpan: HTMLElement,
-                       j: number) {
-  const equivalent = " " + (j + 1) + ". " + ws.English;
-  const textLen2 = equivalent.length;
-  const equivSpan = document.createElement("span");
-  equivSpan.setAttribute("class", "dict-entry-definition");
-  const equivTN = document.createTextNode(equivalent);
-  equivSpan.appendChild(equivTN);
-  englishSpan.appendChild(equivSpan);
-  if (ws.Notes) {
-    const notesSpan = document.createElement("span");
-    notesSpan.setAttribute("class", "notes-label");
-    const noteTN = document.createTextNode("  Notes");
-    notesSpan.appendChild(noteTN);
-    englishSpan.appendChild(notesSpan);
-    let notesTxt = ": " + ws.Notes + "; ";
-    if (textLen2 > maxLen) {
-      notesTxt = notesTxt.substr(0, maxLen) + " ...";
-    }
-    const notesTN = document.createTextNode(notesTxt);
-    englishSpan.appendChild(notesTN);
-  }
-  return englishSpan;
-}
-
-/**
- * Add a term object to a query term list
- * @param {object} term is a word object
- * @param {object} qList - the word list
- * @return {object} a HTML element that the object is added to
- */
-function addTermToList(term: ITerm, qList: HTMLElement) {
-  const li = document.createElement("li");
-  li.className = "mdc-list-item";
-  const span = document.createElement("span");
-  span.className = "mdc-list-item__text";
-  li.appendChild(span);
-  const spanL1 = document.createElement("span");
-
-  // Primary text is the query term (Chinese)
-  spanL1.className = "mdc-list-item__primary-text";
-  const tNode1 = document.createTextNode(term.QueryText);
-  let pinyin = "";
-  let wordURL = "";
-  if (term.DictEntry && term.DictEntry.Senses) {
-    pinyin = term.DictEntry.Pinyin;
-    // Add link to word detail page
-    const hwId = term.DictEntry.Senses[0].HeadwordId;
-    wordURL = "/words/" + hwId + ".html";
-    const a = document.createElement("a");
-    a.setAttribute("href", wordURL);
-    a.setAttribute("title", "Details for word");
-    a.setAttribute("class", "query-term");
-    a.appendChild(tNode1);
-    spanL1.appendChild(a);
-  } else {
-    // No link to a detailed word page
-    spanL1.appendChild(tNode1);
-  }
-  span.appendChild(spanL1);
-
-  // Secondary text is the Pinyin, English equivalent, and notes
-  const spanL2 = document.createElement("span");
-  spanL2.className = "mdc-list-item__secondary-text";
-  const spanPinyin = document.createElement("span");
-  spanPinyin.className = "dict-entry-pinyin";
-  const textNode2 = document.createTextNode(pinyin + " ");
-  spanPinyin.appendChild(textNode2);
-  spanL2.appendChild(spanPinyin);
-  if (term.DictEntry && term.DictEntry.Senses) {
-    spanL2.appendChild(combineEnglish(term.DictEntry.Senses, wordURL));
-  }
-  span.appendChild(spanL2);
-  qList.appendChild(li);
-  return qList;
-}
-
-/**
- * Add a word sense object to a query term list
- * @param {IWordSense} sense is a word sense object
- * @param {HTMLElement} qList - tbody HTML element
- * @return {HTMLElement} a HTML element that the object is added to
- */
-function addWordSense(sense: IWordSense, qList: HTMLElement) {
-  const li = document.createElement("li");
-  li.className = "mdc-list-item";
-
-  // Primar text is Chinese
-  const span = document.createElement("span");
-  span.className = "mdc-list-item__text";
-  li.appendChild(span);
-  const spanL1 = document.createElement("span");
-  spanL1.className = "mdc-list-item__primary-text";
-  let chinese = sense.Simplified;
-  console.log("alertContents: chinese", chinese);
-  if (sense.Traditional) {
-    chinese += " (" + sense.Traditional + ")";
-  }
-  const tNode1 = document.createTextNode(chinese);
-  let pinyin = "";
-  // Add link to word detail page
-  const hwId = sense.HeadwordId;
-  const wordURL = "/words/" + hwId + ".html";
-  const a = document.createElement("a");
-  a.setAttribute("href", wordURL);
-  a.setAttribute("title", "Details for word");
-  a.setAttribute("class", "query-term");
-  a.appendChild(tNode1);
-  spanL1.appendChild(a);
-  span.appendChild(spanL1);
-
-  // Secondary text is the other details
-  const spanL2 = document.createElement("span");
-  spanL2.className = "mdc-list-item__secondary-text";
-  pinyin = sense.Pinyin;
-  const tNode2 = document.createTextNode(pinyin + " ");
-  spanL2.appendChild(tNode2);
-  span.appendChild(spanL2);
-  const wsArray = [sense];
-  const englishSpan = combineEnglish(wsArray, wordURL);
-  spanL2.appendChild(englishSpan);
-
-  li.appendChild(span);
-  qList.appendChild(li);
-  return qList;
-}
-
-/**
- * Combine and crop the list of English equivalents and notes to a limited
- * number of characters.
- * @param {object} senses is an array of WordSense objects
- * @param {object} wordURL is the URL of detail page for the headword
- * @return {object} a HTML element that can be added to the list element
- */
-function combineEnglish(senses: IWordSense[], wordURL: string) {
-  const maxLen = 120;
-  const englishSpan = document.createElement("span");
-  if (senses.length === 1) {
-    // For a single sense, give the equivalent and notes
-    let textLen = 0;
-    const equivSpan = document.createElement("span");
-    if (equivSpan) {
-      equivSpan.setAttribute("class", "dict-entry-definition");
-    }
-    const equivalent = senses[0].English;
-    textLen += equivalent.length;
-    const equivTN = document.createTextNode(equivalent);
-    equivSpan.appendChild(equivTN);
-    englishSpan.appendChild(equivSpan);
-    if (senses[0].Notes) {
-      const notesSpan = document.createElement("span");
-      notesSpan.setAttribute("class", "notes-label");
-      const noteTN = document.createTextNode("  Notes");
-      notesSpan.appendChild(noteTN);
-      englishSpan.appendChild(notesSpan);
-      let notesTxt = ": " + senses[0].Notes;
-      textLen += notesTxt.length;
-      if (textLen > maxLen) {
-        notesTxt = notesTxt.substr(0, maxLen) + " ...";
-      }
-      const notesTN = document.createTextNode(notesTxt);
-      englishSpan.appendChild(notesTN);
-    }
-  } else if (senses.length === 2) {
-    // For a list of two, give the enumeration with equivalents and notes
-    console.log("WordSense " + senses.length);
-    for (let j = 0; j < senses.length; j += 1) {
-      addEquivalent(senses[j], maxLen, englishSpan, j);
-    }
-  } else if (senses.length > 2) {
-    // For longer lists, give the enumeration with equivalents only
-    let equiv = "";
-    for (let j = 0; j < senses.length; j++) {
-      equiv += (j + 1) + ". " + senses[j].English + "; ";
-      if (equiv.length > maxLen) {
-        equiv += " ...";
-        break;
+  /**
+   * Processes the HTTP response of an AJAX request
+   * @param {object} httpRequest - the XMLHttpRequest object
+   */
+  private processAJAX(httpRequest: XMLHttpRequest) {
+    if (httpRequest.readyState === XMLHttpRequest.DONE) {
+      if (httpRequest.status === 200) {
+        console.log("processAJAX: Got a successful response");
+        console.log(httpRequest.responseText);
+        const obj = JSON.parse(httpRequest.responseText);
+        this.view.showResults(obj);
+      } else {
+        this.view.showMessage("There was a problem with the request.");
       }
     }
-    const equivSpan = document.createElement("span");
-    equivSpan.setAttribute("class", "dict-entry-definition");
-    const equivTN1 = document.createTextNode(equiv);
-    equivSpan.appendChild(equivTN1);
-    englishSpan.appendChild(equivSpan);
   }
-  const link = document.createElement("a");
-  link.setAttribute("href", wordURL);
-  link.setAttribute("title", "Details for word");
-  const linkText = document.createTextNode("Details");
-  link.appendChild(linkText);
-  const tn1 = document.createTextNode("  [");
-  englishSpan.appendChild(tn1);
-  englishSpan.appendChild(link);
-  const tn2 = document.createTextNode("]");
-  englishSpan.appendChild(tn2);
-  return englishSpan;
 }
 
 /**
@@ -401,172 +167,4 @@ function getSearchBarQuery() {
   }
   console.log("find.js searchInput or searchBarForm not in dom");
   return "";
-}
-
-/**
- * Processes the HTTP response of an AJAX request
- * @param {object} httpRequest - the XMLHttpRequest object
- */
-function processAJAX(httpRequest: XMLHttpRequest) {
-  if (httpRequest.readyState === XMLHttpRequest.DONE) {
-    if (httpRequest.status === 200) {
-      console.log("alertContents: Got a successful response");
-      console.log(httpRequest.responseText);
-      const obj = JSON.parse(httpRequest.responseText);
-      const helpBlock = document.getElementById("lookup-help-block");
-      if (helpBlock) {
-        helpBlock.style.display = "none";
-      }
-      // If there is only one result, redirect to it
-      const numCollections = obj.NumCollections;
-      const numDocuments = obj.NumDocuments;
-      const collections = obj.Collections;
-      const documents = obj.Documents;
-
-      // Otherwise send the results to the client in JSON form
-      if (numCollections > 0 || numDocuments > 0) {
-        // Report summary reults
-        console.log("alertContents: processing summary reults");
-        const span = document.getElementById("NumCollections");
-        if (span) {
-          span.innerHTML = numCollections;
-        }
-        const spand = document.getElementById("NumDocuments");
-        if (spand) {
-          spand.innerHTML = numDocuments;
-        }
-
-        // Add detailed results for collections
-        if (numCollections > 0) {
-          console.log("alertContents: detailed results for collections");
-          const table = document.getElementById("findResultsTable");
-          const oldBody = document.getElementById("findResultsBody");
-          if (oldBody && oldBody.parentNode) {
-            oldBody.parentNode.removeChild(oldBody);
-          }
-          const tbody = document.createElement("tbody");
-          const numCol = collections.length;
-          for (let i = 0; i < numCol; i += 1) {
-            addColToTable(collections[i], tbody);
-          }
-          if (table) {
-            table.appendChild(tbody);
-            table.style.display = "block";
-          }
-          const colResultsDiv = document.getElementById("colResultsDiv");
-          if (colResultsDiv) {
-            colResultsDiv.style.display = "block";
-          }
-        }
-
-        // Add detailed results for documents
-        if (numDocuments > 0) {
-          console.log("alertContents: detailed results for documents");
-          const dTable = document.getElementById("findDocResultsTable");
-          const dOldBody = document.getElementById("findDocResultsBody");
-          if (dOldBody && dOldBody.parentNode) {
-            dOldBody.parentNode.removeChild(dOldBody);
-          }
-
-          const dTbody = document.createElement("tbody");
-          const numDoc = documents.length;
-          for (let i = 0; i < numDoc; i += 1) {
-            addDocToTable(documents[i], dTbody);
-          }
-          if (dTable) {
-            dTable.appendChild(dTbody);
-            dTable.style.display = "block";
-          }
-          const docResultsDiv = document.getElementById("docResultsDiv");
-          if (docResultsDiv) {
-            docResultsDiv.style.display = "block";
-          }
-        }
-        const findResults = document.getElementById("findResults");
-        if (findResults) {
-          findResults.style.display = "block";
-        }
-      } else {
-        const msg = "No matching results found";
-        const elem = document.getElementById("findResults");
-        if (elem) {
-          elem.style.display = "none";
-        }
-        const findError = document.getElementById("findError");
-        if (findError) {
-          findError.innerHTML = msg;
-          findError.style.display = "block";
-        }
-      }
-
-      const terms = obj.Terms;
-      if (terms && terms.length === 1 && terms[0].DictEntry &&
-        terms[0].DictEntry.HeadwordId > 0) {
-        console.log("Single matching word, redirect to it");
-        const hwId = terms[0].DictEntry.HeadwordId;
-        const wordURL = "/words/" + hwId + ".html";
-        location.assign(wordURL);
-        return;
-      }
-
-      // Display dictionary lookup for the segmented query terms in a table
-      if (terms) {
-        console.log("alertContents: detailed results for dictionary lookup");
-        const queryTermsDiv = document.getElementById("queryTermsDiv");
-        const qOldList = document.getElementById("queryTermsList");
-        if (qOldList && qOldList.parentNode) {
-          qOldList.parentNode.removeChild(qOldList);
-        }
-
-        const qList = document.createElement("ul");
-        qList.id = "queryTermsList";
-        qList.className = "mdc-list mdc-list--two-line";
-        if ((terms.length > 0) && terms[0].DictEntry && (!terms[0].Senses ||
-              (terms[0].Senses.length === 0))) {
-          console.log("alertContents: Query contain Chinese words", terms);
-          for (const term of terms) {
-            addTermToList(term, qList);
-          }
-        } else if ((terms.length === 1) && terms[0].Senses) {
-          console.log("alertContents: Query is English", terms[0].Senses);
-          const senses = terms[0].Senses;
-          for (const sense of senses) {
-            addWordSense(sense, qList);
-          }
-        } else {
-          console.log("alertContents: not able to handle this case", terms);
-        }
-        if (queryTermsDiv) {
-          queryTermsDiv.appendChild(qList);
-          queryTermsDiv.style.display = "block";
-        }
-        const qTitle = document.getElementById("queryTermsTitle");
-        if (qTitle) {
-          qTitle.style.display = "block";
-        }
-        const queryTerms =  document.getElementById("queryTerms");
-        if (queryTerms) {
-          queryTerms.style.display = "block";
-        }
-      } else {
-        console.log("alertContents: not able to load dictionary terms", terms);
-      }
-    } else {
-      const msg1 = "There was a problem with the request.";
-      console.log(msg1);
-      const elem1 = document.getElementById("findResults");
-      if (elem1) {
-        elem1.style.display = "none";
-      }
-      const elem3 = document.getElementById("findError");
-      if (elem3) {
-        elem3.innerHTML = msg1;
-        elem3.style.display = "block";
-      }
-    }
-    const elem2 = document.getElementById("lookup-help-block");
-    if (elem2) {
-      elem2.style.display = "none";
-    }
-  }
 }

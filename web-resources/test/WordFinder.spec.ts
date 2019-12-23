@@ -17,20 +17,27 @@
   * @fileoverview Unit tests for DocumentFinder
   */
 
-import { DocumentFinder } from "../src/DocumentFinder";
-import { DocumentFinderView } from "../src/DocumentFinderView";
+import { WordFinder } from "../src/WordFinder";
+import { WordFinderView } from "../src/WordFinderView";
 
 const fixture =
 `
 <div id='fixture'>
-  <form name="findForm" id="findAdvancedForm" action="findadvanced">
-    <input type="text" name="text" id="findInput"/>
+  <form name="findForm" id="findForm" action="#">
+    <input type="text" name="findInput" id="findInput"/>
   </form>
-  <span id="lookup-help-block" class="help-block"/>
+  <span id="lookup-help-block"/>
+  <div id="queryTerms">
+    <h4 id="queryTermsTitle">Dictionary Lookup</h4>
+    <div id="queryTermsDiv">
+       <ul id="queryTermsList" class="mdc-list mdc-list--two-line">
+       </ul>
+    </div>
+  </div>
 </div>
 `;
 
-describe("DocumentFinder", () => {
+describe("WordFinder", () => {
   describe("#init", () => {
     beforeEach(() => {
       document.body.insertAdjacentHTML("afterbegin", fixture);
@@ -38,17 +45,17 @@ describe("DocumentFinder", () => {
     afterEach(() => {
       document.body.removeChild(document.getElementById("fixture"));
     });
-    it("should show error message", () => {
+    it("should show error message on empty form submit", () => {
       const query = "你好";
-      const urlStr = `/advanced_search.html#?text=${ query }&fulltext=true`;
-      const view = new DocumentFinderView();
-      const docFinder = new DocumentFinder(view);
-      docFinder.init();
-      const findAdvancedForm = document.getElementById("findAdvancedForm");
+      const urlStr = `/find?query=${ query }`;
+      const view = new WordFinderView();
+      const wordFinder = new WordFinder(view);
+      wordFinder.init();
+      const findForm = document.getElementById("findForm");
       const event = new Event("submit");
-      findAdvancedForm.dispatchEvent(event);
+      findForm.dispatchEvent(event);
       const helpBlock = document.getElementById("lookup-help-block");
-      expect(helpBlock!.innerHTML).toBe(docFinder.NO_INPUT_MSG);
+      expect(helpBlock!.innerHTML).toBe(wordFinder.NO_INPUT_MSG);
     });
   });
 });

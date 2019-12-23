@@ -25,8 +25,10 @@ export interface ICollection {
 
 // Interface for results loaded from AJAX call
 export interface IDocSearchRestults {
-  NumDocuments: number;
+  Collections: ICollection[];
   Documents: IDocument[];
+  NumCollections: number;
+  NumDocuments: number;
   Terms: ITerm[];
 }
 
@@ -44,6 +46,7 @@ export interface IDocument {
 
 // Interface for JSON dictionary entry data loaded from AJAX call
 export interface IDictEntry {
+  HeadwordId: number;
   Pinyin: string;
   Senses: IWordSense[];
 }

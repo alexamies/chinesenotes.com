@@ -19,6 +19,7 @@ import { CNotesMenu } from "./CNotesMenu";
 import { DocumentFinder } from "./DocumentFinder";
 import { SubstringApp } from "./SubstringApp";
 import { WordFinder } from "./WordFinder";
+import { WordFinderView } from "./WordFinderView";
 
 declare const __VERSION__: string;
 
@@ -29,7 +30,8 @@ console.log(`Running App version ${ __VERSION__ }`);
 const menu = new CNotesMenu();
 menu.init();
 // Dictionary search
-const wordFinder = new WordFinder();
+const wordFinderView = new WordFinderView();
+const wordFinder = new WordFinder(wordFinderView);
 wordFinder.init();
 // Initialize full text search
 const docFinderView = new DocumentFinderView();

@@ -56,7 +56,9 @@ describe("DocumentFinderView", () => {
     });
     it("should show a message about no terms", () => {
       const emptyResults = {
+        Collections: [],
         Documents: [],
+        NumCollections: 0,
         NumDocuments: 0,
         Terms: [],
       };
@@ -67,6 +69,7 @@ describe("DocumentFinderView", () => {
     });
     it("should show one document", () => {
       const oneResult = {
+        Collections: [],
         Documents: [{
            CollectionFile: "xiyouji.html",
            CollectionTitle: "Journey to the West 《西遊記》",
@@ -86,11 +89,12 @@ describe("DocumentFinderView", () => {
            Similarity: "-4.75",
            Title: "第二十一回 Chapter 21",
         }],
+        NumCollections: 0,
         NumDocuments: 1,
         Query: "悟空",
         Terms: [{
           DictEntry: {
-            HeadwordId: "64177",
+            HeadwordId: 64177,
             Pinyin: "wùkōng",
             Senses: [{
               English: "Sun Wukong",
