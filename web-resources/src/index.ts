@@ -29,18 +29,19 @@ declare const __VERSION__: string;
 console.log(`Running App version ${ __VERSION__ }`);
 const menu = new CNotesMenu();
 menu.init();
+// Initialize the dictionary
+const app = new CNotes();
+app.init();
 // Dictionary search
 const wordFinderView = new WordFinderView();
-const wordFinder = new WordFinder(wordFinderView);
+const wordFinder = new WordFinder(wordFinderView, app.getDictionaries());
 wordFinder.init();
 // Initialize full text search
 const docFinderView = new DocumentFinderView();
 const docFinder = new DocumentFinder(docFinderView);
 docFinder.init();
-// Load the dictionary and vocab dialog
-const app = new CNotes();
-app.init();
-app.load();
 // substring search
 const subApp = new SubstringApp();
 subApp.wireObservers();
+// Lastly, load the dictionary data, which might take time
+app.load();

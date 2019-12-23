@@ -16,14 +16,14 @@ module.exports = function(config) {
       //{ pattern: "src/*.ts" },
       { pattern: "src/CNDictionaryEntry.ts" },
       { pattern: "src/CNWordSense.ts" },
-      //{ pattern: "src/CorpusDocView.ts" },  / Crashes Karma
+      // { pattern: "src/CorpusDocView.ts" },  // Crashes Karma
       { pattern: "src/DocumentFinder.ts" },
       { pattern: "src/DocumentFinderView.ts" },
       { pattern: "src/HrefVariableParser.ts" },
       { pattern: "src/ResultsParser.ts" },
       { pattern: "src/ResultsView.ts" },
-      { pattern: "src/WordFinder.ts" },
-      { pattern: "src/WordFinderView.ts" },
+      // { pattern: "src/WordFinder.ts" }, // Crashes Karma
+      // { pattern: "src/WordFinderView.ts" }, // Crashes Karma
       { pattern: "test/*.spec.ts" }
     ],
 

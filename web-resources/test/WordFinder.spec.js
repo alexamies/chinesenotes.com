@@ -17,12 +17,16 @@
   * @fileoverview Unit tests for DocumentFinder
   */
 
+import { DictionaryCollection } from "@alexamies/chinesedict-js";
 import { WordFinder } from "../src/WordFinder";
 import { WordFinderView } from "../src/WordFinderView";
 
 const fixture =
 `
 <div id='fixture'>
+  <form id="searchForm" name="searchForm" action="#">
+    <input id="searchInput" name="searchInput" type="text">
+  </form>
   <form name="findForm" id="findForm" action="#">
     <input type="text" name="findInput" id="findInput"/>
   </form>
@@ -45,13 +49,27 @@ describe("WordFinder", () => {
     afterEach(() => {
       document.body.removeChild(document.getElementById("fixture"));
     });
-    it("should show error message on empty form submit", () => {
+    it("should show error message on empty findForm submit", () => {
       const query = "你好";
       const urlStr = `/find?query=${ query }`;
       const view = new WordFinderView();
-      const wordFinder = new WordFinder(view);
+      const dictionaries = new DictionaryCollection();
+      const wordFinder = new WordFinder(view, dictionaries);
       wordFinder.init();
       const findForm = document.getElementById("findForm");
+      const event = new Event("submit");
+      findForm.dispatchEvent(event);
+      const helpBlock = document.getElementById("lookup-help-block");
+      expect(helpBlock!.innerHTML).toBe(wordFinder.NO_INPUT_MSG);
+    });
+    it("should show error message on empty searchForm submit", () => {
+      const query = "你好";
+      const urlStr = `/find?query=${ query }`;
+      const view = new WordFinderView();
+      const dictionaries = new DictionaryCollection();
+      const wordFinder = new WordFinder(view, dictionaries);
+      wordFinder.init();
+      const findForm = document.getElementById("searchForm");
       const event = new Event("submit");
       findForm.dispatchEvent(event);
       const helpBlock = document.getElementById("lookup-help-block");

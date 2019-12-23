@@ -37,9 +37,11 @@ const fixture =
 describe("WordFinderView", () => {
   describe("#showResults", () => {
     beforeEach(() => {
+      console.log("WordFinderView#showResults beforeEach");
       document.body.insertAdjacentHTML("afterbegin", fixture);
     });
     afterEach(() => {
+      console.log("WordFinderView#showResults afterEach");
       document.body.removeChild(document.getElementById("fixture"));
     });
     it("should show a message about no results", () => {
@@ -55,7 +57,13 @@ describe("WordFinderView", () => {
       const helpBlock = document.getElementById("lookup-help-block");
       expect(helpBlock!.innerHTML).toBe(view.NO_RESULTS_MSG);
     });
-    xit("should show two words", () => {
+    beforeEach(() => {
+      document.body.insertAdjacentHTML("afterbegin", fixture);
+    });
+    afterEach(() => {
+      document.body.removeChild(document.getElementById("fixture"));
+    });
+    it("should show two words", () => {
       const twoResults = {
         Collections: [],
         Documents: [],
@@ -102,6 +110,8 @@ describe("WordFinderView", () => {
       };
       const view = new WordFinderView();
       view.showResults(twoResults);
+      const queryTermsDiv = document.getElementById("queryTermsDiv");
+      console.log(`WordFinderView.spec, queryTermsDiv: ${queryTermsDiv}`);
       const list = document.getElementById("queryTermsList") as HTMLElement;
       expect(list!.childNodes.length).toBe(2);
     });

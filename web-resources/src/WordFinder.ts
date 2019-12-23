@@ -13,7 +13,13 @@
  * under the License.
  */
 
+import { DictionaryCollection } from "@alexamies/chinesedict-js";
+import { TextParser } from "@alexamies/chinesedict-js";
 import { MDCList } from "@material/list";
+import { fromEvent, of } from "rxjs";
+import { ajax } from "rxjs/ajax";
+import { catchError, map, retry } from "rxjs/operators";
+import { IDocSearchRestults } from "./CNInterfaces";
 import { WordFinderView } from "./WordFinderView";
 
 /**
@@ -23,18 +29,26 @@ import { WordFinderView } from "./WordFinderView";
  */
 export class WordFinder {
   public readonly NO_INPUT_MSG = "Please enter something to lookup";
-  private httpRequest: XMLHttpRequest;
   private view: WordFinderView;
+  private dictionaries: DictionaryCollection;
 
-  constructor(view: WordFinderView) {
+  /**
+   * Create a WordFinder instance
+   * @param {WordFinderView} view - To present the results
+   * @param {DictionaryCollection} dictionaries - As a source of word data
+   */
+  constructor(view: WordFinderView, dictionaries: DictionaryCollection) {
     this.view = view;
-    this.httpRequest = new XMLHttpRequest();
+    this.dictionaries = dictionaries;
   }
 
+  /**
+   * Wire event listeners
+   */
   public init() {
     const findForm = document.getElementById("findForm");
     if (findForm) {
-      findForm.onsubmit = (event: Event) => {
+      fromEvent(findForm, "submit").subscribe( (event: Event) => {
         event.preventDefault();
         const findInput = document.getElementById("findInput");
         if (findInput && findInput instanceof HTMLInputElement) {
@@ -49,12 +63,12 @@ export class WordFinder {
             action = findForm.action;
           }
           const url = action + "/?query=" + query;
-          this.makeRequest(url);
+          this.makeRequest(url, query);
         } else {
           console.log("WordFinder.init: findInput not in dom");
         }
         return false;
-      };
+      });
     } else {
       console.log("WordFinder.init No findForm in dom");
     }
@@ -62,29 +76,33 @@ export class WordFinder {
     // then execute the search directly
     const searcForm = document.getElementById("searchForm");
     if (searcForm) {
-      searcForm.onsubmit = (event: Event) => {
+      fromEvent(searcForm, "submit").subscribe( (event: Event) => {
         event.preventDefault();
         const searchInput = document.getElementById("searchInput");
         if (searchInput && searchInput instanceof HTMLInputElement) {
           const query = searchInput.value;
+          if (query === "") {
+            this.view.showMessage(this.NO_INPUT_MSG);
+            return false;
+          }
           const url = "/find/?query=" + query;
-          this.makeRequest(url);
+          this.makeRequest(url, query);
         } else {
           console.log("WordFinder.init searchInput has wrong type");
         }
         return false;
-      };
+      });
     }
     // If the search is initiated from the search bar, other than the main page
     // then redirect to the main page with the query after the hash
     const searchBarForm = document.getElementById("searchBarForm");
     if (searchBarForm) {
-      searchBarForm.onsubmit = (event: Event) => {
+      fromEvent(searchBarForm, "submit").subscribe( (event: Event) => {
         event.preventDefault();
-        const redirectURL = getSearchBarQuery();
+        const redirectURL = this.getSearchBarQuery();
         window.location.href = redirectURL;
         return false;
-      };
+      });
     }
     // Function for sending and displaying search results for words
     // based on the URL of the main page
@@ -97,74 +115,61 @@ export class WordFinder {
         findInput.value = q[1];
       }
       const url = "/find/?query=" + q[1];
-      this.makeRequest(url);
+      this.makeRequest(url, q[1]);
     }
   }
 
   /**
    * Send an AJAX request
    * @param {string} url - The URL to send the request to
+   * @param {string} chinese - The chinese text to lookup
    */
-  private makeRequest(url: string) {
-    console.log("makeRequest: url = " + url);
-    if (!this.httpRequest) {
-      this.httpRequest = new XMLHttpRequest();
-      if (!this.httpRequest) {
-        console.log("Giving up :( Cannot create an XMLHTTP instance");
-        return;
-      }
-    }
-    this.httpRequest.onreadystatechange = () => {
-      this.alertContents(this.httpRequest);
-    };
-    this.httpRequest.open("GET", url);
-    this.httpRequest.send();
+  private makeRequest(urlString: string, chinese: string) {
+    console.log(`makeRequest: urlString = ${urlString}`);
     this.view.showMessage("Searching ...");
-    console.log("makeRequest: Sent request");
+    ajax.getJSON(urlString).pipe(
+      map(
+        (jsonObj) => {
+          this.view.showResults(jsonObj as IDocSearchRestults);
+        }),
+      catchError(
+        (error) => {
+          this.view.showMessage("There was an error. Retrying ...");
+          console.log(`DocumentFinder.makeDataSource errors ${error}`);
+          if (this.dictionaries.isLoaded()) {
+            // Try to use locally loaded data
+            const parser = new TextParser(this.dictionaries);
+            const terms = parser.segmentText(chinese);
+            this.view.showTerms(terms);
+            return of("Loading from local cache");
+          } else {
+            return retry(2);
+          }
+        }),
+    ).subscribe(
+      (x) => {
+        console.log(`makeDataSource ${x}`);
+      },
+    );
   }
 
   /**
-   * Process the results of an AJAX request
+   * Find the word search query
    */
-  private alertContents(httpRequest: XMLHttpRequest) {
-    this.processAJAX(httpRequest);
-  }
-
-  /**
-   * Processes the HTTP response of an AJAX request
-   * @param {object} httpRequest - the XMLHttpRequest object
-   */
-  private processAJAX(httpRequest: XMLHttpRequest) {
-    if (httpRequest.readyState === XMLHttpRequest.DONE) {
-      if (httpRequest.status === 200) {
-        console.log("processAJAX: Got a successful response");
-        console.log(httpRequest.responseText);
-        const obj = JSON.parse(httpRequest.responseText);
-        this.view.showResults(obj);
-      } else {
-        this.view.showMessage("There was a problem with the request.");
+  private getSearchBarQuery() {
+    const searchInput = document.getElementById("searchInput");
+    const searchBarForm = document.getElementById("searchBarForm");
+    if (searchInput && searchInput instanceof HTMLInputElement &&
+        searchBarForm && searchBarForm instanceof HTMLFormElement) {
+      const query = searchInput.value;
+      const action = searchBarForm.action;
+      let url = "/#?text=" + query;
+      if (!action.endsWith("#")) {
+        url = action + "#?text=" + query;
       }
+      return url;
     }
+    console.log("WordFinder searchInput or searchBarForm not in dom");
+    return "";
   }
-}
-
-/**
- * Processes the HTTP response of an AJAX request
- * @return {string}  The URL to redirect to
- */
-function getSearchBarQuery() {
-  const searchInput = document.getElementById("searchInput");
-  const searchBarForm = document.getElementById("searchBarForm");
-  if (searchInput && searchInput instanceof HTMLInputElement &&
-      searchBarForm && searchBarForm instanceof HTMLFormElement) {
-    const query = searchInput.value;
-    const action = searchBarForm.action;
-    let url = "/#?text=" + query;
-    if (!action.endsWith("#")) {
-      url = action + "#?text=" + query;
-    }
-    return url;
-  }
-  console.log("find.js searchInput or searchBarForm not in dom");
-  return "";
 }

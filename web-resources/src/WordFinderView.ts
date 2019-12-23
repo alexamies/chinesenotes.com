@@ -13,6 +13,7 @@
  * under the License.
  */
 
+import { Term } from "@alexamies/chinesedict-js";
 import { ICollection,
          IDictEntry,
          IDocSearchRestults,
@@ -139,56 +140,106 @@ export class WordFinderView {
     }
     // Display dictionary lookup for the segmented query terms in a table
     if (terms) {
-      console.log("showResults: detailed results for dictionary lookup");
-      const queryTermsDiv = document.getElementById("queryTermsDiv");
-      const qList = document.getElementById("queryTermsList");
-      if (qList) {
-        while (qList.hasChildNodes()) {
-          if (qList.firstChild) {
-            qList.removeChild(qList.firstChild);
-          }
-        }
-      } else {
-        console.log("showResults: queryTermsList not in DOM");
-      }
-      if ((terms.length > 0) && terms[0].DictEntry && (!terms[0].Senses ||
-            (terms[0].Senses.length === 0))) {
-        console.log(`showResults: Query has ${terms.length} Chinese words`);
-        for (const term of terms) {
-          if (qList) {
-            this.addTermToList(term, qList);
-          }
-        }
-      } else if ((terms.length === 1) && terms[0].Senses) {
-        console.log("showResults: Query is English", terms[0].Senses);
-        const senses = terms[0].Senses;
-        for (const sense of senses) {
-          if (qList) {
-            this.addWordSense(sense, qList);
-          }
-        }
-      } else {
-        console.log("showResults: not able to handle this case", terms);
-      }
-      if (queryTermsDiv) {
-        queryTermsDiv.style.display = "block";
-      }
-      const qTitle = document.getElementById("queryTermsTitle");
-      if (qTitle) {
-        qTitle.style.display = "block";
-      }
-      const queryTerms =  document.getElementById("queryTerms");
-      if (queryTerms) {
-        queryTerms.style.display = "block";
-      }
-      this.hideMessage();
+      this.addTerms(terms);
     } else {
       console.log("showResults: not able to load dictionary terms", terms);
     }
   }
 
   /**
-   * A a collection link to a table body
+   * Add terms to the page
+   * @param {Term[]}  terms - the terms to add
+   */
+  public showTerms(terms: Term[]) {
+    // Adapt to the different data model
+    const iTerms: ITerm[] = new Array();
+    for (const t of terms) {
+      const entries = t.getEntries();
+      if (entries && entries.length > 0) {
+        const iSenses: IWordSense[] = new Array();
+        const senses = entries[0].getSenses();
+        const hid = parseInt(entries[0].getHeadwordId(), 10);
+        if (senses && senses.length > 0) {
+          const iWS = {
+            English: senses[0].getEnglish(),
+            HeadwordId: entries[0].getHeadwordId(),
+            Notes: senses[0].getNotes(),
+            Pinyin: senses[0].getPinyin(),
+            Simplified: senses[0].getSimplified(),
+            Traditional: senses[0].getTraditional(),
+          };
+          iSenses.push(iWS);
+        }
+        const iEntry = {
+          HeadwordId: hid,
+          Pinyin: entries[0].getPinyin(),
+          Senses: iSenses,
+        };
+        const iTerm = {
+          DictEntry: iEntry,
+          QueryText: t.getChinese(),
+          Senses: [],
+        };
+        iTerms.push(iTerm);
+      } else {
+        console.log(`WordViewFinder.showTerms no entry for ${t.getChinese()}`);
+      }
+    }
+    this.addTerms(iTerms);
+  }
+
+  /**
+   * Add terms to the page
+   * @param {ITerm[]}  terms - the terms to add
+   */
+  private addTerms(terms: ITerm[]) {
+    console.log("showResults: detailed results for dictionary lookup");
+    const qList = document.getElementById("queryTermsList");
+    if (qList) {
+      while (qList.hasChildNodes()) {
+        if (qList.firstChild) {
+          qList.removeChild(qList.firstChild);
+        }
+      }
+    } else {
+      console.log("showResults: queryTermsList not in DOM");
+    }
+    if ((terms.length > 0) && terms[0].DictEntry && (!terms[0].Senses ||
+          (terms[0].Senses.length === 0))) {
+      console.log(`showResults: Query has ${terms.length} Chinese words`);
+      for (const term of terms) {
+        if (qList) {
+          this.addTermToList(term, qList);
+        }
+      }
+    } else if ((terms.length === 1) && terms[0].Senses) {
+      console.log("showResults: Query is English", terms[0].Senses);
+      const senses = terms[0].Senses;
+      for (const sense of senses) {
+        if (qList) {
+          this.addWordSense(sense, qList);
+        }
+      }
+    } else {
+      console.log("showResults: not able to handle this case", terms);
+    }
+    const queryTermsDiv = document.getElementById("queryTermsDiv");
+    if (queryTermsDiv) {
+      queryTermsDiv.style.display = "block";
+    }
+    const qTitle = document.getElementById("queryTermsTitle");
+    if (qTitle) {
+      qTitle.style.display = "block";
+    }
+    const queryTerms =  document.getElementById("queryTerms");
+    if (queryTerms) {
+      queryTerms.style.display = "block";
+    }
+    this.hideMessage();
+  }
+
+  /**
+   * Add a collection link to a table body
    * @param {object}  collection - a collection object
    * @param {object} tbody - tbody HTML element
    * @return {object} a HTML element that the object is added to
