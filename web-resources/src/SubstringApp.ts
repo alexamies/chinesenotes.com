@@ -21,7 +21,8 @@ import { ResultsParser } from "./ResultsParser";
 import { ResultsView } from "./ResultsView";
 
 /**
- * An app that does substring searches.
+ * An app that does substring searches, suitable for discovering multiword
+ * expressions.
  */
 export class SubstringApp {
 

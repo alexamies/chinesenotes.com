@@ -1,6 +1,6 @@
 {
   "name": "cnreader",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "HB Reader",
   "private": true,
   "scripts": {
@@ -44,7 +44,7 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "@alexamies/chinesedict-js": "^0.1.20",
+    "@alexamies/chinesedict-js": "^0.1.21",
     "@babel/polyfill": "^7.7.0",
     "babel-register": "^6.26.0",
     "material-components-web": "^1.1.1",

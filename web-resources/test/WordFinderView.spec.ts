@@ -17,6 +17,8 @@
   * @fileoverview Unit tests for WordFinderView
   */
 
+import { IDocSearchRestults } from "../src/CNInterfaces";
+import { WordFinderNavigation } from "../src/WordFinderNavigation";
 import { WordFinderView } from "../src/WordFinderView";
 
 const fixture =
@@ -52,8 +54,11 @@ describe("WordFinderView", () => {
         NumDocuments: 0,
         Terms: [],
       };
+      const jsonObj = emptyResults as IDocSearchRestults;
+      const terms = jsonObj.Terms;
       const view = new WordFinderView();
-      view.showResults(emptyResults);
+      const navHelper = new WordFinderNavigation(false);
+      view.showResults(terms, navHelper);
       const helpBlock = document.getElementById("lookup-help-block");
       expect(helpBlock!.innerHTML).toBe(view.NO_RESULTS_MSG);
     });
@@ -109,7 +114,10 @@ describe("WordFinderView", () => {
         }],
       };
       const view = new WordFinderView();
-      view.showResults(twoResults);
+      const navHelper = new WordFinderNavigation(false);
+      const jsonObj = twoResults as IDocSearchRestults;
+      const termsFound = jsonObj.Terms;
+      view.showResults(termsFound, navHelper);
       const queryTermsDiv = document.getElementById("queryTermsDiv");
       console.log(`WordFinderView.spec, queryTermsDiv: ${queryTermsDiv}`);
       const list = document.getElementById("queryTermsList") as HTMLElement;

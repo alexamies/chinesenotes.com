@@ -13,16 +13,15 @@
  * under the License.
  */
 
-import { Term } from "@alexamies/chinesedict-js";
 import { ICollection,
          IDictEntry,
-         IDocSearchRestults,
          IDocument,
          ITerm,
          IWordSense } from "./CNInterfaces";
+import { WordFinderNavigation } from "./WordFinderNavigation";
 
 /**
- * JavaScript displaying word lookup.
+ * Displays results of word lookup.
  */
 export class WordFinderView {
   public readonly NO_RESULTS_MSG = "No matching terms found";
@@ -56,136 +55,19 @@ export class WordFinderView {
   }
 
   /**
-   * Display word lookup results in the HTML document
-   * @param {object} obj - the parsed response
+   * Display term lookup results in the HTML document
+   * @param {ITerm[]} termsFound - the terms to display
    */
-  public showResults(obj: IDocSearchRestults) {
-    // If there is only one result, redirect to it
-    const numCollections = obj.NumCollections;
-    const numDocuments = obj.NumDocuments;
-    const collections = obj.Collections;
-    const documents = obj.Documents;
-    // Otherwise send the results to the client in JSON form
-    if (numCollections > 0 || numDocuments > 0) {
-      // Report summary reults
-      console.log("showResults: processing summary reults");
-      const span = document.getElementById("NumCollections");
-      if (span) {
-        span.innerHTML = `${numCollections}`;
-      }
-      const spand = document.getElementById("NumDocuments");
-      if (spand) {
-        spand.innerHTML = `${numDocuments}`;
-      }
-      // Add detailed results for collections
-      if (numCollections > 0) {
-        console.log("showResults: detailed results for collections");
-        const table = document.getElementById("findResultsTable");
-        const oldBody = document.getElementById("findResultsBody");
-        if (oldBody && oldBody.parentNode) {
-          oldBody.parentNode.removeChild(oldBody);
-        }
-        const tbody = document.createElement("tbody");
-        const numCol = collections.length;
-        for (let i = 0; i < numCol; i += 1) {
-          this.addColToTable(collections[i], tbody);
-        }
-        if (table) {
-          table.appendChild(tbody);
-          table.style.display = "block";
-        }
-        const colResultsDiv = document.getElementById("colResultsDiv");
-        if (colResultsDiv) {
-          colResultsDiv.style.display = "block";
-        }
-      }
-      // Add detailed results for documents
-      if (numDocuments > 0) {
-        console.log("showResults: detailed results for documents");
-        const dTable = document.getElementById("findDocResultsTable");
-        const dOldBody = document.getElementById("findDocResultsBody");
-        if (dOldBody && dOldBody.parentNode) {
-          dOldBody.parentNode.removeChild(dOldBody);
-        }
-        const dTbody = document.createElement("tbody");
-        const numDoc = documents.length;
-        for (let i = 0; i < numDoc; i += 1) {
-          this.addDocToTable(documents[i], dTbody);
-        }
-        if (dTable) {
-          dTable.appendChild(dTbody);
-          dTable.style.display = "block";
-        }
-        const docResultsDiv = document.getElementById("docResultsDiv");
-        if (docResultsDiv) {
-          docResultsDiv.style.display = "block";
-        }
-      }
-      const findResults = document.getElementById("findResults");
-      if (findResults) {
-        findResults.style.display = "block";
-      }
-      this.hideMessage();
+  public showResults(termsFound: ITerm[], navHelper: WordFinderNavigation) {
+    if (termsFound && termsFound.length > 0) {
+      const obs = navHelper.newResults(termsFound);
+      obs.subscribe((terms) => {
+        // Display dictionary lookup for the segmented query terms in a table
+        this.addTerms(terms as ITerm[]);
+      });
     } else {
       this.showMessage(this.NO_RESULTS_MSG);
     }
-    const terms = obj.Terms;
-    if (terms && terms.length === 1 && terms[0].DictEntry &&
-      terms[0].DictEntry.HeadwordId > 0) {
-      console.log("Single matching word, redirect to it");
-      const hwId = terms[0].DictEntry.HeadwordId;
-      const wordURL = "/words/" + hwId + ".html";
-      location.assign(wordURL);
-      return;
-    }
-    // Display dictionary lookup for the segmented query terms in a table
-    if (terms) {
-      this.addTerms(terms);
-    } else {
-      console.log("showResults: not able to load dictionary terms", terms);
-    }
-  }
-
-  /**
-   * Add terms to the page
-   * @param {Term[]}  terms - the terms to add
-   */
-  public showTerms(terms: Term[]) {
-    // Adapt to the different data model
-    const iTerms: ITerm[] = new Array();
-    for (const t of terms) {
-      const entries = t.getEntries();
-      if (entries && entries.length > 0) {
-        const iSenses: IWordSense[] = new Array();
-        const senses = entries[0].getSenses();
-        const hid = parseInt(entries[0].getHeadwordId(), 10);
-        if (senses && senses.length > 0) {
-          const iWS = {
-            English: senses[0].getEnglish(),
-            HeadwordId: entries[0].getHeadwordId(),
-            Notes: senses[0].getNotes(),
-            Pinyin: senses[0].getPinyin(),
-            Simplified: senses[0].getSimplified(),
-            Traditional: senses[0].getTraditional(),
-          };
-          iSenses.push(iWS);
-        }
-        const iEntry = {
-          HeadwordId: hid,
-          Pinyin: entries[0].getPinyin(),
-          Senses: iSenses,
-        };
-        const iTerm = {
-          DictEntry: iEntry,
-          QueryText: t.getChinese(),
-          Senses: [],
-        };
-        iTerms.push(iTerm);
-      } else {
-        console.log(`WordViewFinder.showTerms no entry for ${t.getChinese()}`);
-      }
-    }
-    this.addTerms(iTerms);
   }
 
   /**

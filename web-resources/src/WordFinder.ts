@@ -20,6 +20,8 @@ import { fromEvent, of } from "rxjs";
 import { ajax } from "rxjs/ajax";
 import { catchError, map, retry } from "rxjs/operators";
 import { IDocSearchRestults } from "./CNInterfaces";
+import { WordFinderAdapter } from "./WordFinderAdapter";
+import { WordFinderNavigation } from "./WordFinderNavigation";
 import { WordFinderView } from "./WordFinderView";
 
 /**
@@ -129,8 +131,11 @@ export class WordFinder {
     this.view.showMessage("Searching ...");
     ajax.getJSON(urlString).pipe(
       map(
-        (jsonObj) => {
-          this.view.showResults(jsonObj as IDocSearchRestults);
+        (data) => {
+          const navHelper = new WordFinderNavigation(true);
+          const jsonObj = data as IDocSearchRestults;
+          const termsFound = jsonObj.Terms;
+          this.view.showResults(termsFound, navHelper);
         }),
       catchError(
         (error) => {
@@ -140,7 +145,10 @@ export class WordFinder {
             // Try to use locally loaded data
             const parser = new TextParser(this.dictionaries);
             const terms = parser.segmentText(chinese);
-            this.view.showTerms(terms);
+            const adapter = new WordFinderAdapter();
+            const aTerms = adapter.transform(terms);
+            const navHelper = new WordFinderNavigation(false);
+            this.view.showResults(aTerms, navHelper);
             return of("Loading from local cache");
           } else {
             return retry(2);

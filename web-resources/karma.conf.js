@@ -15,15 +15,21 @@ module.exports = function(config) {
     files: [
       //{ pattern: "src/*.ts" },
       { pattern: "src/CNDictionaryEntry.ts" },
+      { pattern: "src/CNInterfaces.ts" },
+      // { pattern: "src/CNotes.ts" },  // Crashes Karma
+      { pattern: "src/CNotesMenu.ts" },
       { pattern: "src/CNWordSense.ts" },
-      // { pattern: "src/CorpusDocView.ts" },  // Crashes Karma
+      //{ pattern: "src/CorpusDocView.ts" }, // Crashes Karma
       { pattern: "src/DocumentFinder.ts" },
       { pattern: "src/DocumentFinderView.ts" },
       { pattern: "src/HrefVariableParser.ts" },
       { pattern: "src/ResultsParser.ts" },
       { pattern: "src/ResultsView.ts" },
+      { pattern: "src/SubstringApp.ts" },
       // { pattern: "src/WordFinder.ts" }, // Crashes Karma
-      // { pattern: "src/WordFinderView.ts" }, // Crashes Karma
+      // { pattern: "src/WordFinderAdapter.ts" }, // Crashes Karma
+      { pattern: "src/WordFinderNavigation.ts" },
+      { pattern: "src/WordFinderView.ts" },
       { pattern: "test/*.spec.ts" }
     ],
 
