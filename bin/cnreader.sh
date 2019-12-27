@@ -159,7 +159,7 @@ cp web-resources/dist/*.css $WEB_DIR/dist/.
 cp web-resources/dist/*.js $WEB_DIR/dist/.
 cp web-resources/dist/*.json $WEB_DIR/dist/.
 cp web-resources/*.css $WEB_DIR/.
-cp web-resources/*.js $WEB_DIR/.
+cp web-resources/*.appcache $WEB_DIR/.
 cp web-resources/script/*.js $WEB_DIR/script/.
 cp web-resources/images/*.* $WEB_DIR/images/.
 cp web-resources/mp3/*.* $WEB_DIR/mp3/.
