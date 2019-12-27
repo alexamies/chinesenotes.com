@@ -1,6 +1,6 @@
 {
   "name": "cnreader",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "HB Reader",
   "private": true,
   "scripts": {

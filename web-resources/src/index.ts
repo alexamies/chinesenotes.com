@@ -26,7 +26,7 @@ declare const __VERSION__: string;
 /**
  * Entry point for all pages.
  */
-console.log(`Version: ${ __VERSION__ }, cache: ${window.applicationCache}`);
+console.log(`App version: ${ __VERSION__ }, online: ${ navigator.onLine }`);
 const menu = new CNotesMenu();
 menu.init();
 // Initialize the dictionary
