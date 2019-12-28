@@ -406,15 +406,21 @@ docker run -itd --rm -p 8080:8080 --name cn-app --link mariadb \
 ```
 
 Debug
-```
+```shell
 docker exec -it cn-app bash 
 ```
 
 Push to Google Container Registry
 
-```
+```shell
 docker tag cn-app-image gcr.io/$PROJECT/cn-app-image:$TAG
 docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
+```
+
+Or use Cloud Build
+
+```shell
+gcloud builds submit --config cloudbuild.yaml .
 ```
 
 ### Web Front End
