@@ -1,5 +1,7 @@
 corpus/
 index/
+mariadb-data/
 python/
 web/
 web-resources/
+web-staging/
