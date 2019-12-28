@@ -105,7 +105,19 @@ export class CNotes {
           }
         }
       },
-      (err) => { console.error(`load error:  + ${ err }`); },
+      (err) => {
+        console.error(`load error:  + ${ err }`);
+        const helpBlock = document.getElementById("lookup-help-block");
+        if (helpBlock && !navigator.onLine) {
+          helpBlock.innerHTML = "You are offline and the offline dictionary " +
+                                "is not loaded. You will not be able to " +
+                                "search for words.";
+        }
+        const loadingStatusDiv = document.getElementById("#loadingStatus");
+        if (loadingStatusDiv) {
+          loadingStatusDiv.innerHTML = "Dictionary loading status: error";
+        }
+      },
     );
   }
 
