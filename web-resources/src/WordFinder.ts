@@ -139,10 +139,10 @@ export class WordFinder {
         }),
       catchError(
         (error) => {
-          this.view.showMessage("There was an error. Retrying ...");
           console.log(`DocumentFinder.makeDataSource errors ${error}`);
           if (this.dictionaries.isLoaded()) {
-            // Try to use locally loaded data
+            // Try to use locally cached data
+            this.view.showMessage("Using locally cached data");
             const parser = new TextParser(this.dictionaries);
             const terms = parser.segmentText(chinese);
             const adapter = new WordFinderAdapter();
@@ -151,9 +151,24 @@ export class WordFinder {
             this.view.showResults(aTerms, navHelper);
             return of("Loading from local cache");
           } else {
-            return retry(2);
+            // Retry
+            this.view.showMessage("Error fetching data, retrying ...");
+            const retriable = ajax.getJSON(urlString).pipe(retry(5));
+            retriable.subscribe(
+              (data1) => {
+                const navHelper1 = new WordFinderNavigation(true);
+                const jsonObj1 = data1 as IDocSearchRestults;
+                const termsFound1 = jsonObj1.Terms;
+                this.view.showResults(termsFound1, navHelper1);
+              },
+              (err) => {
+                console.log(`makeRequest, failed after retries: ${err}`);
+                this.view.showMessage("Unable to fetch data, giving up");
+              },
+            );
+            return of("Completed retries");
           }
-        }),
+      }),
     ).subscribe(
       (x) => {
         console.log(`makeDataSource ${x}`);
