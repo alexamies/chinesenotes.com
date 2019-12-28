@@ -1,9 +1,15 @@
-FROM golang:1.13-buster
-
-ENV GO111MODULE=on
-WORKDIR /app
-COPY . .
+# Docker file for chinesenotes.com web app
+FROM golang:1.13 as builder
+RUN git clone https://github.com/alexamies/chinesenotes-go
+WORKDIR /go/chinesenotes-go
+COPY config.yaml .
+COPY data/*.txt data/
 RUN go build
-RUN apt-get update
-RUN apt-get install -y ca-certificates
-CMD ["./chinesenotes-go"]
+ENV GO111MODULE=on
+RUN CGO_ENABLED=0 GOOS=linux go build -mod=readonly -v -o cnweb
+FROM alpine:3
+RUN apk add --no-cache ca-certificates
+COPY --from=builder /go/chinesenotes-go/cnweb /cnweb
+COPY --from=builder /go/chinesenotes-go/config.yaml /config.yaml
+COPY --from=builder /go/chinesenotes-go/data/*.txt /data/
+CMD ["./cnweb"]

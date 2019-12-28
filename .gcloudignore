@@ -1,4 +1,5 @@
 corpus/
+go/
 index/
 mariadb-data/
 python/
