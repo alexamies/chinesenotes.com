@@ -372,7 +372,7 @@ other sites (eg. hbreader.org).
 Build the Docker image for the Go application:
 
 ```
-docker build -f docker/go/Dockerfile -t cn-app-image .
+docker build -t cn-app-image .
 ```
 
 Run it locally with minimal features (C-E dictionary lookp only) enabled
@@ -420,6 +420,7 @@ docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
 Or use Cloud Build
 
 ```shell
+export BUILD_ID=r130
 gcloud builds submit --config cloudbuild.yaml .
 ```
 

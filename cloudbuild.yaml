@@ -1,7 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/cn-app-image:r130', '-f', 'docker/go/Dockerfile']
+  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/cn-app-image:$BUILD_ID', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/$PROJECT_ID/cn-app-image:r130']
+  args: ['push', 'gcr.io/$PROJECT_ID/cn-app-image:$BUILD_ID']
 images:
-- 'gcr.io/$PROJECT_ID/cn-app-image:r130'
+- 'gcr.io/$PROJECT_ID/cn-app-image:$BUILD_ID'
