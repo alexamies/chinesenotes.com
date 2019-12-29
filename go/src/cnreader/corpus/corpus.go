@@ -187,8 +187,8 @@ func loadCorpusCollections(cFile string) []CollectionEntry {
 			genre = row[8]
 		}
 		corpusEntries := make([]CorpusEntry, 0)
-		log.Printf("corpus.Collections: Read collection %s in corpus %s\n",
-			collectionFile, corpus)
+		// log.Printf("corpus.Collections: Read collection %s in corpus %s\n",
+		//	collectionFile, corpus)
 		collections = append(collections, CollectionEntry{collectionFile,
 			row[1], title, summary, introFile, "", corpus, corpusEntries, "",
 			format, date, genre})

@@ -21,9 +21,9 @@ cp ../web-staging/words/74517.html static/words/.
 mkdir static/dist
 cp ../web-staging/dist/*.css static/dist/.
 cp ../web-staging/dist/*.js static/dist/.
-cp ../web-staging/dist/*.tar.gz static/dist/.
+cp ../web-staging/dist/*.json static/dist/.
 mkdir static/images
 cp ../web-staging/images/*.png static/images/.
 mkdir static/script
 cp ../web-staging/script/*.js static/script/.
-tar -czf static.tar.gz static/
+

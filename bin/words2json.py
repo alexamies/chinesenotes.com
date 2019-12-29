@@ -78,7 +78,7 @@ def main():
   words = OpenDictionary(filenames)
   jsfile = JSON_FILE_NAME
   if len(sys.argv[0]) > 2:
-    dictfile = sys.argv[2]
+    jsfile = sys.argv[2]
   elif os.environ.get("JSON_FILE_NAME") is not None:
     jsfile = os.environ["JSON_FILE_NAME"]
   print("Writing to ", jsfile);
