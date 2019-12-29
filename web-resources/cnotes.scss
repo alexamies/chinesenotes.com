@@ -192,6 +192,7 @@ span.usage-highlight {
 /* End Dictionary Entry style */
 
 /* Search Results */
+
 #findResults {
   display: none;
 }
@@ -206,4 +207,14 @@ span.usage-highlight {
 
 th {
   font-weight: bold;
+}
+
+/* Index page*/
+#FullTextSearch {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#loadingStatus {
+    font-size: smaller;
 }

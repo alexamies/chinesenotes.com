@@ -85,7 +85,7 @@ export class CNotes {
         console.log("loading dictionary done");
         const loadingStatus = this.querySelectorOrNull("#loadingStatus");
         if (loadingStatus) {
-          loadingStatus.innerHTML = "Dictionary loading status: loaded";
+          loadingStatus.innerHTML = "Dictionary cache status: loaded";
         }
         // If coming from a search page to a corpus document then highlight the
         // search term
@@ -113,9 +113,9 @@ export class CNotes {
                                 "is not loaded. You will not be able to " +
                                 "search for words.";
         }
-        const loadingStatusDiv = document.getElementById("#loadingStatus");
+        const loadingStatusDiv = document.getElementById("loadingStatus");
         if (loadingStatusDiv) {
-          loadingStatusDiv.innerHTML = "Dictionary loading status: error";
+          loadingStatusDiv.innerHTML = "Dictionary cache loading status: error";
         }
       },
     );
