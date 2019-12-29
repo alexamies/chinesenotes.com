@@ -55,6 +55,8 @@ def WriteJS(words, jsfile):
       f.write(u"{\"s\": \"%s\", " % w["simplified"])
       if w["traditional"] != "\\N":
         f.write(u"\"t\": \"%s\", " % w["traditional"])
+      else:
+        f.write(u"\"t\": \"%s\", " % w["simplified"])
       f.write(u"\"p\": \"%s\", \"e\": \"%s\"," % (w["pinyin"],
               w["english"]))
       if w["notes"] != "\\N":
