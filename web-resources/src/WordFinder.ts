@@ -18,7 +18,7 @@ import { TextParser } from "@alexamies/chinesedict-js";
 import { MDCList } from "@material/list";
 import { fromEvent, of } from "rxjs";
 import { ajax } from "rxjs/ajax";
-import { catchError, map, retry } from "rxjs/operators";
+import { catchError, delay, map, retry } from "rxjs/operators";
 import { IDocSearchRestults } from "./CNInterfaces";
 import { WordFinderAdapter } from "./WordFinderAdapter";
 import { WordFinderNavigation } from "./WordFinderNavigation";
@@ -151,9 +151,10 @@ export class WordFinder {
             this.view.showResults(aTerms, navHelper);
             return of("Loading from local cache");
           } else {
-            // Retry
+            // Retry with a delay
             this.view.showMessage("Error fetching data, retrying ...");
-            const retriable = ajax.getJSON(urlString).pipe(retry(5));
+            const retriable = ajax.getJSON(urlString).pipe(delay(5000),
+                                                           retry(5));
             retriable.subscribe(
               (data1) => {
                 const navHelper1 = new WordFinderNavigation(true);

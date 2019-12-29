@@ -208,7 +208,7 @@ export class WordFinderView {
    * @return {object} a HTML element that the object is added to
    */
   private addTermToList(term: ITerm, qList: HTMLElement) {
-    console.log(`WordFinderView.addTermToList QueryText: ${term.QueryText}`);
+    // console.log(`WordFinderView.addTermToList QueryText: ${term.QueryText}`);
     const li = document.createElement("li");
     li.className = "mdc-list-item";
     const span = document.createElement("span");
