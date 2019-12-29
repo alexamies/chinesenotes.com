@@ -68,7 +68,7 @@
 3000068	类我	類我	lèi wǒ	be like me	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 類 like + 我 me; from 《法言·學行》 <i>Exemplary Figures</i>, Study and Practice (Yang and Nylan 2013, pp. 6-7)	3000068
 3000069	修性	\N	xiū xìng	to cultivate one's nature	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 修 cultivate + 性 nature; from 《法言·學行》 <i>Exemplary Figures</i>, Study and Practice (Yang and Nylan 2013, pp. 10-11)	102146
 3000070	逐得	\N	zhú dé	pursued and captured	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 逐 pursue + 得 obtain; from 《漢書·卷五十四 李廣蘇建傳》 <i>Book of Han</i>, Volume 54: Li Guang and Su Jian (Watson 1974, p. 12)	3000070
-3000071	良家子	\N	liángjiā zǐ	son of a noble family	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: \ + N; from 《漢書·卷五十四 李廣蘇建傳》 <i>Book of Han</i>, Volume 54: Li Guang and Su Jian (Watson 1974, p. 12)	3000071
+3000071	良家子	\N	liángjiā zǐ	son of a noble family	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 良 noble + 家 family + 子 son; from 《漢書·卷五十四 李廣蘇建傳》 <i>Book of Han</i>, Volume 54: Li Guang and Su Jian (Watson 1974, p. 12)	3000071
 3000072	击胡	擊胡	jī hú	attack on the barbarians	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 擊 attack + 胡 barbarian; from 《漢書·卷五十四 李廣蘇建傳》 <i>Book of Han</i>, Volume 54: Li Guang and Su Jian (Watson 1974, p. 12)	3000072
 3000073	善射	\N	shàn shè	a skillful archer	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 善 skilled + 射; from 《漢書·卷五十四 李廣蘇建傳》 <i>Book of Han</i>, Volume 54: Li Guang and Su Jian (Watson 1974, p. 12)	3000073
 3000074	格杀猛兽	格殺猛獸	gé shā měngshòu	striking down the most ferocious beasts	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 格 strike + 殺 kill + 猛獸 ferocious beast; from 《漢書·卷五十四 李廣蘇建傳》 <i>Book of Han</i>, Volume 54: Li Guang and Su Jian (Watson 1974, p. 13)	3000074

@@ -52,18 +52,20 @@ def WriteJS(words, jsfile):
     l = len(words)
     for i in range(l):
       w = words[i]
-      f.write(u"{\"s\": \"%s\", " % w["simplified"])
+      f.write(u"{\"s\":\"%s\"," % w["simplified"])
       if w["traditional"] != "\\N":
-        f.write(u"\"t\": \"%s\", " % w["traditional"])
+        f.write(u"\"t\":\"%s\"," % w["traditional"])
       else:
-        f.write(u"\"t\": \"%s\", " % w["simplified"])
-      f.write(u"\"p\": \"%s\", \"e\": \"%s\"," % (w["pinyin"],
-              w["english"]))
+        f.write(u"\"t\":\"%s\"," % w["simplified"])
+      if w["pinyin"] != "\\N":
+        f.write(u"\"p\":\"%s\"," % w["pinyin"])
+      if w["english"] != "\\N":
+        f.write(u"\"e\": \"%s\"," % w["english"])
       if w["grammar"] != "\\N":
-        f.write(u"\"g\": \"%s\", " % w["grammar"])
+        f.write(u"\"g\":\"%s\"," % w["grammar"])
       if w["notes"] != "\\N":
-        f.write(u"\"n\": \"%s\"," % w["notes"])
-      f.write(u"\"h\": \"%s\"}" % w["id"])
+        f.write(u"\"n\":\"%s\"," % w["notes"])
+      f.write(u"\"h\":\"%s\"}" % w["id"])
       if i < l - 1:
         f.write(u",\n")
     f.write(u"]")
