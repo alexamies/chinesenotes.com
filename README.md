@@ -421,7 +421,14 @@ Or use Cloud Build
 
 ```shell
 export BUILD_ID=r130
-gcloud builds submit --config cloudbuild.yaml .
+gcloud builds submit --config cloudbuild.yaml . \
+  --substitutions=+IMAGE_TAG="0.0.4"
+```
+
+Check that the expected image has been added with the command
+
+```shell
+gcloud container images list-tags gcr.io/$PROJECT_ID/nti-image
 ```
 
 ### Web Front End
