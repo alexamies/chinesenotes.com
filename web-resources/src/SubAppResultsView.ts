@@ -17,9 +17,9 @@ import { CNDictionaryEntry } from "./CNDictionaryEntry";
 import { CNWordSense } from "./CNWordSense";
 
 /**
- * Construct a HTML DOM for a result set using Material Web.
+ * Construct a HTML DOM for a substring search app lookup
  */
-export class ResultsView {
+export class SubAppResultsView {
   public static readonly MAX_TEXT_LEN = 120;
 
   /**
@@ -44,14 +44,14 @@ export class ResultsView {
     }
 
     if (results.length === 0) {
-      ResultsView.showError(ulSelector, messageSelector,
+      SubAppResultsView.showError(ulSelector, messageSelector,
           resultsTitleSelector, "No matching results found.");
       return;
     }
-    ResultsView.remveError(messageSelector);
+    SubAppResultsView.remveError(messageSelector);
 
     // Remove previous results
-    ResultsView.removeResults(ulSelector);
+    SubAppResultsView.removeResults(ulSelector);
 
     // Show results title
     const titleEl = document.querySelector(resultsTitleSelector);
@@ -94,14 +94,15 @@ export class ResultsView {
       spanPinyin.appendChild(textNode2);
       spanL2.appendChild(spanPinyin);
       if (entry.getWordSenses()) {
-        spanL2.appendChild(ResultsView.combineEnglish(entry.getWordSenses(),
-          wordURL));
+        spanL2.appendChild(SubAppResultsView.combineEnglish(
+            entry.getWordSenses(),
+            wordURL));
       }
       span.appendChild(spanL2);
       li.appendChild(span);
       ul.appendChild(li);
     });
-    ResultsView.hideHelp(helpSelector);
+    SubAppResultsView.hideHelp(helpSelector);
   }
 
   /**
@@ -129,7 +130,7 @@ export class ResultsView {
     } else {
       console.log("showError, titleEl not found: " + resultsTitleSelector);
     }
-    ResultsView.removeResults(ulSelector);
+    SubAppResultsView.removeResults(ulSelector);
   }
 
   // Show an error to the user
@@ -190,8 +191,8 @@ export class ResultsView {
       notesSpan.appendChild(noteTN);
       englishSpan.appendChild(notesSpan);
       let notesTxt = ": " + ws.getNotes() + "; ";
-      if (textLen2 > ResultsView.MAX_TEXT_LEN) {
-        notesTxt = notesTxt.substr(0, ResultsView.MAX_TEXT_LEN) + " ...";
+      if (textLen2 > SubAppResultsView.MAX_TEXT_LEN) {
+        notesTxt = notesTxt.substr(0, SubAppResultsView.MAX_TEXT_LEN) + " ...";
       }
       const notesTN = document.createTextNode(notesTxt);
       englishSpan.appendChild(notesTN);
@@ -221,8 +222,9 @@ export class ResultsView {
         englishSpan.appendChild(notesSpan);
         let notesTxt = ": " + sense.getNotes();
         textLen += notesTxt.length;
-        if (textLen > ResultsView.MAX_TEXT_LEN) {
-          notesTxt = notesTxt.substr(0, ResultsView.MAX_TEXT_LEN) + " ...";
+        if (textLen > SubAppResultsView.MAX_TEXT_LEN) {
+          notesTxt = notesTxt.substr(0,
+                                     SubAppResultsView.MAX_TEXT_LEN) + " ...";
         }
         const notesTN = document.createTextNode(notesTxt);
         englishSpan.appendChild(notesTN);
@@ -230,14 +232,14 @@ export class ResultsView {
     } else if (senses.length < 4) {
       // For a list of 2 or 3, give the enumeration with equivalents and notes
       for (let j = 0; j < senses.length; j += 1) {
-        ResultsView.addEquivalent(senses[j], englishSpan, j);
+        SubAppResultsView.addEquivalent(senses[j], englishSpan, j);
       }
     } else {
       // For longer lists, give the enumeration with equivalents only
       let equiv = "";
       for (let j = 0; j < senses.length; j++) {
         equiv += (j + 1) + ". " + senses[j].getEnglish() + "; ";
-        if (equiv.length > ResultsView.MAX_TEXT_LEN) {
+        if (equiv.length > SubAppResultsView.MAX_TEXT_LEN) {
           equiv += " ...";
           break;
         }

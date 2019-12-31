@@ -20,6 +20,7 @@ import { fromEvent, of } from "rxjs";
 import { ajax } from "rxjs/ajax";
 import { catchError, delay, map, retry } from "rxjs/operators";
 import { IDocSearchRestults } from "./CNInterfaces";
+import { CNotes } from "./CNotes";
 import { WordFinderAdapter } from "./WordFinderAdapter";
 import { WordFinderNavigation } from "./WordFinderNavigation";
 import { WordFinderView } from "./WordFinderView";
@@ -32,16 +33,16 @@ import { WordFinderView } from "./WordFinderView";
 export class WordFinder {
   public readonly NO_INPUT_MSG = "Please enter something to lookup";
   private view: WordFinderView;
-  private dictionaries: DictionaryCollection;
+  private vocabApp: CNotes;
 
   /**
    * Create a WordFinder instance
    * @param {WordFinderView} view - To present the results
    * @param {DictionaryCollection} dictionaries - As a source of word data
    */
-  constructor(view: WordFinderView, dictionaries: DictionaryCollection) {
+  constructor(view: WordFinderView, vocabApp: CNotes) {
     this.view = view;
-    this.dictionaries = dictionaries;
+    this.vocabApp = vocabApp;
   }
 
   /**
@@ -140,10 +141,11 @@ export class WordFinder {
       catchError(
         (error) => {
           console.log(`DocumentFinder.makeDataSource errors ${error}`);
-          if (this.dictionaries.isLoaded()) {
+          const dictionaries = this.vocabApp.getDictionaries();
+          if (dictionaries.isLoaded()) {
             // Try to use locally cached data
             this.view.showMessage("Using locally cached data");
-            const parser = new TextParser(this.dictionaries);
+            const parser = new TextParser(dictionaries);
             const terms = parser.segmentText(chinese);
             const adapter = new WordFinderAdapter();
             const aTerms = adapter.transform(terms);

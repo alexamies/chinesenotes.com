@@ -17,9 +17,9 @@ import {CNDictionaryEntry} from "./CNDictionaryEntry";
 import {CNWordSense} from "./CNWordSense";
 
 /**
- * Parses JSON results from a dictionary lookup into a typed result set.
+ * Parses JSON results from a substring search app lookup into a result set.
  */
-export class ResultsParser {
+export class SubAppResultsParser {
 
   /**
    * Creates and initializes a test Dictionary.

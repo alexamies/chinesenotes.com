@@ -14,7 +14,7 @@
  */
 
 /**
- *  @fileoverview  Entry point for the browser app
+ *  @fileoverview  Entry point for the dictionary browser app
  */
 
 import { DictionaryCollection } from "@alexamies/chinesedict-js";
@@ -26,15 +26,15 @@ import { MDCDialog } from "@material/dialog";
 import { MDCDrawer } from "@material/drawer";
 import { MDCList } from "@material/list";
 import { MDCTopAppBar } from "@material/top-app-bar";
-import { fromEvent } from "rxjs";
 import { CorpusDocView } from "./CorpusDocView";
 import { HrefVariableParser } from "./HrefVariableParser";
+import { ICNotes } from "./ICNotes";
 import { WordFinder } from "./WordFinder";
 
 /**
  * A browser app that implements the Chinese-English dictionary web view.
  */
-export class CNotes {
+export class CNotes implements ICNotes {
   private dictionaries: DictionaryCollection;
   private dialogDiv: HTMLElement;
   private wordDialog: MDCDialog;
@@ -69,6 +69,13 @@ export class CNotes {
   public init() {
     console.log("CNotes.init");
     this.initDialog();
+  }
+
+  /**
+   * View setup is here
+   */
+  public isLoaded(): boolean {
+    return this.dictionaries.isLoaded();
   }
 
   /**
@@ -119,6 +126,105 @@ export class CNotes {
         }
       },
     );
+  }
+
+  /**
+   * Shows the vocabular dialog with details of the given word
+   * @param {HTMLElement} elem - the element to display the dialog for
+   * @param {string} chineseText - text of the headword to display. If not
+   *                 provided, the text from the element will be used.
+   */
+  public showVocabDialog(elem: HTMLElement, chineseText = "") {
+    // Show Chinese, pinyin, and English
+    const titleElem = this.querySelectorOrNull("#VocabDialogTitle");
+    const s = elem.title;
+    const n = s.indexOf("|");
+    const pinyin = s.substring(0, n);
+    let english = "";
+    if (n < s.length) {
+      english = s.substring(n + 1, s.length);
+    }
+    let chinese = this.getTextNonNull(elem);
+    if (chineseText !== "") {
+      chinese = chineseText;
+    }
+    console.log(`Value: ${chinese}`);
+    const pinyinSpan = this.querySelectorOrNull("#PinyinSpan");
+    const englishSpan = this.querySelectorOrNull("#EnglishSpan");
+    if (titleElem) {
+      titleElem.innerHTML = chinese;
+    }
+    if (pinyinSpan) {
+      pinyinSpan.innerHTML = pinyin;
+    }
+    if (englishSpan) {
+      if (english) {
+        englishSpan.innerHTML = english;
+      } else {
+        englishSpan.innerHTML = "";
+      }
+    }
+
+    // Show parts of the term for multi-character terms
+    const partsDiv = this.querySelectorOrNull("#parts");
+    if (partsDiv) {
+      while (partsDiv.firstChild) {
+        partsDiv.removeChild(partsDiv.firstChild);
+      }
+    }
+    const partsTitle = this.querySelectorOrNull("#partsTitle");
+    if (chinese.length > 1) {
+      if (partsTitle) {
+        partsTitle.style.display = "block";
+      }
+      const parser = new TextParser(this.dictionaries);
+      const terms = parser.segmentExludeWhole(chinese);
+      console.log(`showVocabDialog got ${ terms.length } terms`);
+      const tList = document.createElement("ul");
+      tList.className = "mdc-list mdc-list--two-line";
+      terms.forEach((t) => {
+        const entries = t.getEntries();
+        if (entries && entries.length > 0) {
+          this.addTermToList(t, tList);
+        } else {
+          console.log(`showVocabDialog term ${ t.getChinese() } is empty`);
+        }
+      });
+      if (partsDiv) {
+        partsDiv.appendChild(tList);
+      }
+    } else {
+      if (partsTitle) {
+        partsTitle.style.display = "none";
+      }
+    }
+
+    // Show more details
+    const term = this.dictionaries.lookup(chinese);
+    if (term) {
+      const entry = term.getEntries()[0];
+      const notesSpan = this.querySelectorOrNull("#VocabNotesSpan");
+      if (entry && entry.getSenses().length === 1) {
+        const ws = entry.getSenses()[0];
+        if (notesSpan) {
+          notesSpan.innerHTML = ws.getNotes();
+        }
+      } else if (notesSpan) {
+        notesSpan.innerHTML = "";
+      }
+
+      // Link to full details of term
+      if (entry) {
+        console.log(`showVocabDialog headword: ${ entry.getHeadwordId() }`);
+        const link = "/words/" + entry.getHeadwordId() + ".html";
+        const linkTag = "<a href='" + link + "'>More details</a>";
+        const linkSpan = document.querySelector("#DialogLink");
+        if (linkSpan) {
+         linkSpan.innerHTML = linkTag;
+        }
+      }
+    }
+    this.wordDialog.open();
   }
 
   /**
@@ -272,96 +378,5 @@ export class CNotes {
       return null;
     }
     return elem as HTMLElement;
-  }
-
-  // Shows the vocabular dialog with details of the given word
-  private showVocabDialog(elem: HTMLElement) {
-    // Show Chinese, pinyin, and English
-    const titleElem = this.querySelectorOrNull("#VocabDialogTitle");
-    const s = elem.title;
-    const n = s.indexOf("|");
-    const pinyin = s.substring(0, n);
-    let english = "";
-    if (n < s.length) {
-      english = s.substring(n + 1, s.length);
-    }
-    const chinese = this.getTextNonNull(elem);
-    console.log(`Value: ${chinese}`);
-    const pinyinSpan = this.querySelectorOrNull("#PinyinSpan");
-    const englishSpan = this.querySelectorOrNull("#EnglishSpan");
-    if (titleElem) {
-      titleElem.innerHTML = chinese;
-    }
-    if (pinyinSpan) {
-      pinyinSpan.innerHTML = pinyin;
-    }
-    if (englishSpan) {
-      if (english) {
-        englishSpan.innerHTML = english;
-      } else {
-        englishSpan.innerHTML = "";
-      }
-    }
-
-    // Show parts of the term for multi-character terms
-    const partsDiv = this.querySelectorOrNull("#parts");
-    if (partsDiv) {
-      while (partsDiv.firstChild) {
-        partsDiv.removeChild(partsDiv.firstChild);
-      }
-    }
-    const partsTitle = this.querySelectorOrNull("#partsTitle");
-    if (chinese.length > 1) {
-      if (partsTitle) {
-        partsTitle.style.display = "block";
-      }
-      const parser = new TextParser(this.dictionaries);
-      const terms = parser.segmentExludeWhole(chinese);
-      console.log(`showVocabDialog got ${ terms.length } terms`);
-      const tList = document.createElement("ul");
-      tList.className = "mdc-list mdc-list--two-line";
-      terms.forEach((t) => {
-        const entries = t.getEntries();
-        if (entries && entries.length > 0) {
-          this.addTermToList(t, tList);
-        } else {
-          console.log(`showVocabDialog term ${ t.getChinese() } is empty`);
-        }
-      });
-      if (partsDiv) {
-        partsDiv.appendChild(tList);
-      }
-    } else {
-      if (partsTitle) {
-        partsTitle.style.display = "none";
-      }
-    }
-
-    // Show more details
-    const term = this.dictionaries.lookup(chinese);
-    if (term) {
-      const entry = term.getEntries()[0];
-      const notesSpan = this.querySelectorOrNull("#VocabNotesSpan");
-      if (entry && entry.getSenses().length === 1) {
-        const ws = entry.getSenses()[0];
-        if (notesSpan) {
-          notesSpan.innerHTML = ws.getNotes();
-        }
-      } else if (notesSpan) {
-        notesSpan.innerHTML = "";
-      }
-
-      // Link to full details of term
-      if (entry) {
-        console.log(`showVocabDialog headword: ${ entry.getHeadwordId() }`);
-        const link = "/words/" + entry.getHeadwordId() + ".html";
-        const linkTag = "<a href='" + link + "'>More details</a>";
-        const linkSpan = document.querySelector("#DialogLink");
-        if (linkSpan) {
-         linkSpan.innerHTML = linkTag;
-        }
-      }
-    }
-    this.wordDialog.open();
   }
 }

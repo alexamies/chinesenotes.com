@@ -14,11 +14,10 @@
  */
 
  /**
-  * @fileoverview Unit tests for ResultsView
+  * @fileoverview Unit tests for ResultsParser
   */
 
-import { ResultsParser } from "../src/ResultsParser";
-import { ResultsView } from "../src/ResultsView";
+import { SubAppResultsParser } from "../src/SubAppResultsParser";
 
 const jsonObj = {Words: [
                  {
@@ -39,23 +38,15 @@ const jsonObj = {Words: [
                     }],
                   };
 
-describe("ResultsView", () => {
-  describe("#showResults", () => {
-    beforeEach(() => {
-      const fixture = "<div id='fixture'><ul id='TermList'/></div>";
-      document.body.insertAdjacentHTML(
-      "afterbegin",
-      fixture);
-    });
-    afterEach(() => {
-      document.body.removeChild(document.getElementById("fixture"));
-    });
-    it("should append a result to the list", () => {
-      const results = ResultsParser.parseResults(jsonObj);
-      ResultsView.showResults(results, "#TermList", "#lookupError",
-        "#lookupResultsTitle", "#lookup-help-block");
-      const termList = document.getElementById("TermList");
-      expect(termList!.childNodes.length).toBe(1);
+const pinyin = "nán bàn nǘ zhuāng";
+describe("SubAppResultsParser tests", () => {
+  describe("parseResults function", () => {
+    it("should say " + pinyin, () => {
+        const results = SubAppResultsParser.parseResults(jsonObj);
+        expect(results.length).toBe(1);
+        const senses = results[0].getWordSenses();
+        expect(senses.length).toBe(1);
+        expect(senses[0].getPinyin()).toBe(pinyin);
     });
   });
 });

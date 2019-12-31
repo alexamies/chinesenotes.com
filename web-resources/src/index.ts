@@ -33,8 +33,8 @@ menu.init();
 const app = new CNotes();
 app.init();
 // Dictionary search
-const wordFinderView = new WordFinderView();
-const wordFinder = new WordFinder(wordFinderView, app.getDictionaries());
+const wordFinderView = new WordFinderView(app);
+const wordFinder = new WordFinder(wordFinderView, app);
 wordFinder.init();
 // Initialize full text search
 const docFinderView = new DocumentFinderView();

@@ -20,6 +20,7 @@
 import { IDocSearchRestults } from "../src/CNInterfaces";
 import { WordFinderNavigation } from "../src/WordFinderNavigation";
 import { WordFinderView } from "../src/WordFinderView";
+import { MockCNotes } from "./MockCNotes";
 
 const fixture =
 `
@@ -56,17 +57,53 @@ describe("WordFinderView", () => {
       };
       const jsonObj = emptyResults as IDocSearchRestults;
       const terms = jsonObj.Terms;
-      const view = new WordFinderView();
+      const app = new MockCNotes();
+      app.init();
+      const view = new WordFinderView(app);
       const navHelper = new WordFinderNavigation(false);
       view.showResults(terms, navHelper);
       const helpBlock = document.getElementById("lookup-help-block");
       expect(helpBlock!.innerHTML).toBe(view.NO_RESULTS_MSG);
     });
-    beforeEach(() => {
-      document.body.insertAdjacentHTML("afterbegin", fixture);
-    });
-    afterEach(() => {
-      document.body.removeChild(document.getElementById("fixture"));
+    it("should show one word", () => {
+      const twoResults = {
+        Collections: [],
+        Documents: [],
+        NumCollections: 0,
+        NumDocuments: 0,
+        Query: "悟空",
+        Terms: [{
+          DictEntry: {
+            HeadwordId: 64177,
+            Pinyin: "wùkōng",
+            Senses: [{
+              English: "Sun Wukong",
+              HeadwordId: "64177",
+              Id: 64177,
+              Notes: "The Monkey King",
+              Pinyin: "wùkōng",
+              Simplified: "悟空",
+              Traditional: "\\N",
+            }],
+            Simplified: "悟空",
+            Traditional: "\\N",
+          },
+          QueryText: "悟空",
+          Senses: [],
+        }],
+      };
+      const app = new MockCNotes();
+      app.init();
+      app.load();
+      const view = new WordFinderView(app);
+      const navHelper = new WordFinderNavigation(false);
+      const jsonObj = twoResults as IDocSearchRestults;
+      const termsFound = jsonObj.Terms;
+      view.showResults(termsFound, navHelper);
+      const queryTermsDiv = document.getElementById("queryTermsDiv");
+      console.log(`WordFinderView.spec, queryTermsDiv: ${queryTermsDiv}`);
+      const list = document.getElementById("queryTermsList") as HTMLElement;
+      expect(list!.childNodes.length).toBe(1);
     });
     it("should show two words", () => {
       const twoResults = {
@@ -113,7 +150,9 @@ describe("WordFinderView", () => {
           Senses: [],
         }],
       };
-      const view = new WordFinderView();
+      const app = new MockCNotes();
+      app.init();
+      const view = new WordFinderView(app);
       const navHelper = new WordFinderNavigation(false);
       const jsonObj = twoResults as IDocSearchRestults;
       const termsFound = jsonObj.Terms;

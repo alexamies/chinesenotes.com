@@ -14,10 +14,11 @@
  */
 
  /**
-  * @fileoverview Unit tests for ResultsParser
+  * @fileoverview Unit tests for ResultsView
   */
 
-import { ResultsParser } from "../src/ResultsParser";
+import { SubAppResultsParser } from "../src/SubAppResultsParser";
+import { SubAppResultsView } from "../src/SubAppResultsView";
 
 const jsonObj = {Words: [
                  {
@@ -38,15 +39,23 @@ const jsonObj = {Words: [
                     }],
                   };
 
-const pinyin = "nán bàn nǘ zhuāng";
-describe("ResultsParser tests", () => {
-  describe("parseResults function", () => {
-    it("should say " + pinyin, () => {
-        const results = ResultsParser.parseResults(jsonObj);
-        expect(results.length).toBe(1);
-        const senses = results[0].getWordSenses();
-        expect(senses.length).toBe(1);
-        expect(senses[0].getPinyin()).toBe(pinyin);
+describe("SubAppResultsView", () => {
+  describe("#showResults", () => {
+    beforeEach(() => {
+      const fixture = "<div id='fixture'><ul id='TermList'/></div>";
+      document.body.insertAdjacentHTML(
+      "afterbegin",
+      fixture);
+    });
+    afterEach(() => {
+      document.body.removeChild(document.getElementById("fixture"));
+    });
+    it("should append a result to the list", () => {
+      const results = SubAppResultsParser.parseResults(jsonObj);
+      SubAppResultsView.showResults(results, "#TermList", "#lookupError",
+        "#lookupResultsTitle", "#lookup-help-block");
+      const termList = document.getElementById("TermList");
+      expect(termList!.childNodes.length).toBe(1);
     });
   });
 });

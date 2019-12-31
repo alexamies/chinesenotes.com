@@ -13,11 +13,13 @@
  * under the License.
  */
 
+import { fromEvent } from "rxjs";
 import { ICollection,
          IDictEntry,
          IDocument,
          ITerm,
          IWordSense } from "./CNInterfaces";
+import { ICNotes } from "./ICNotes";
 import { WordFinderNavigation } from "./WordFinderNavigation";
 
 /**
@@ -26,9 +28,11 @@ import { WordFinderNavigation } from "./WordFinderNavigation";
 export class WordFinderView {
   public readonly NO_RESULTS_MSG = "No matching terms found";
   private helpBlock: HTMLElement | null;
+  private vocabApp: ICNotes;
 
-  constructor() {
+  constructor(vocabApp: ICNotes) {
     this.helpBlock = document.getElementById("lookup-help-block");
+    this.vocabApp = vocabApp;
   }
 
   /**
@@ -144,31 +148,6 @@ export class WordFinderView {
   }
 
   /**
-   * Add a document link to a table body
-   * @param {object} doc is a document object
-   * @param {object} dTbody - tbody HTML element
-   * @return {object} a HTML element that the object is added to
-   */
-  private addDocToTable(doc: IDocument, dTbody: HTMLElement) {
-    if ("Title" in doc) {
-      const title = doc.Title;
-      const glossFile = doc.GlossFile;
-      const tr = document.createElement("tr");
-      const td = document.createElement("td");
-      tr.appendChild(td);
-      const a = document.createElement("a");
-      a.setAttribute("href", glossFile);
-      const textNode = document.createTextNode(title);
-      a.appendChild(textNode);
-      td.appendChild(a);
-      dTbody.appendChild(tr);
-    } else {
-      console.log("alertContents: no title for document");
-    }
-    return dTbody;
-  }
-
-  /**
    * Add English equivalent to a HTML span element
    * @param {object} ws - a word sense object
    * @param {object} maxLen - the maximum length of text to add to the span
@@ -245,7 +224,9 @@ export class WordFinderView {
     spanPinyin.appendChild(textNode2);
     spanL2.appendChild(spanPinyin);
     if (term.DictEntry && term.DictEntry.Senses) {
-      spanL2.appendChild(this.combineEnglish(term.DictEntry.Senses, wordURL));
+      spanL2.appendChild(this.combineEnglish(term.DictEntry.Senses,
+                                             wordURL,
+                                             term.QueryText));
     }
     span.appendChild(spanL2);
     qList.appendChild(li);
@@ -292,7 +273,7 @@ export class WordFinderView {
     spanL2.appendChild(tNode2);
     span.appendChild(spanL2);
     const wsArray = [sense];
-    const englishSpan = this.combineEnglish(wsArray, wordURL);
+    const englishSpan = this.combineEnglish(wsArray, wordURL, sense.Simplified);
     spanL2.appendChild(englishSpan);
     li.appendChild(span);
     qList.appendChild(li);
@@ -302,11 +283,14 @@ export class WordFinderView {
   /**
    * Combine and crop the list of English equivalents and notes to a limited
    * number of characters.
-   * @param {object} senses is an array of WordSense objects
-   * @param {object} wordURL is the URL of detail page for the headword
+   * @param {IWordSense[]} senses - an array of WordSense objects
+   * @param {string} wordURL - the URL of detail page for the headword
+   * @param {string} chinese - the Chinese text of the headword
    * @return {object} a HTML element that can be added to the list element
    */
-  private combineEnglish(senses: IWordSense[], wordURL: string) {
+  private combineEnglish(senses: IWordSense[],
+                         wordURL: string,
+                         chinese: string) {
     const maxLen = 120;
     const englishSpan = document.createElement("span");
     if (senses.length === 1) {
@@ -357,6 +341,7 @@ export class WordFinderView {
       equivSpan.appendChild(equivTN1);
       englishSpan.appendChild(equivSpan);
     }
+    // Link for details of word
     const link = document.createElement("a");
     link.setAttribute("href", wordURL);
     link.setAttribute("title", "Details for word");
@@ -367,6 +352,20 @@ export class WordFinderView {
     englishSpan.appendChild(link);
     const tn2 = document.createTextNode("]");
     englishSpan.appendChild(tn2);
+    // Link to pop up dialog for word split
+    if (this.vocabApp.isLoaded() && chinese.length > 1) {
+      const splitSp = document.createElement("span");
+      splitSp.className = "cnotes-split-span";
+      splitSp.setAttribute("title", "Split word into parts");
+      const splitText = document.createTextNode("[Split]");
+      fromEvent(splitSp, "click").subscribe( (evt) => {
+        evt.preventDefault();
+        this.vocabApp.showVocabDialog(splitSp, chinese);
+        return false;
+      });
+      splitSp.appendChild(splitText);
+      englishSpan.appendChild(splitSp);
+    }
     return englishSpan;
   }
 }

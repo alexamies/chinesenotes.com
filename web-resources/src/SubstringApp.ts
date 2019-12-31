@@ -17,8 +17,8 @@ import { MDCList } from "@material/list";
 import { fromEvent, of, pipe } from "rxjs";
 import { ajax } from "rxjs/ajax";
 import { catchError, map } from "rxjs/operators";
-import { ResultsParser } from "./ResultsParser";
-import { ResultsView } from "./ResultsView";
+import { SubAppResultsParser } from "./SubAppResultsParser";
+import { SubAppResultsView } from "./SubAppResultsView";
 
 /**
  * An app that does substring searches, suitable for discovering multiword
@@ -115,7 +115,7 @@ export class SubstringApp {
    * Show an error to the user
    */
   private displayError(error: string) {
-    ResultsView.showError("#TermList", "#lookupError", "#lookupResultsTitle",
+    SubAppResultsView.showError("#TermList", "#lookupError", "#lookupResultsTitle",
         `Error displaying results: ${error}`);
   }
 
@@ -124,8 +124,8 @@ export class SubstringApp {
    */
   private displayResults(jsonObj: object) {
     console.log(`displayResults jsonObj: ${jsonObj}`);
-    const results = ResultsParser.parseResults(jsonObj);
-    ResultsView.showResults(results, "#TermList", "#lookupError",
+    const results = SubAppResultsParser.parseResults(jsonObj);
+    SubAppResultsView.showResults(results, "#TermList", "#lookupError",
         "#lookupResultsTitle", "#lookup-help-block");
   }
 }

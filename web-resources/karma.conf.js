@@ -23,14 +23,14 @@ module.exports = function(config) {
       { pattern: "src/DocumentFinder.ts" },
       { pattern: "src/DocumentFinderView.ts" },
       { pattern: "src/HrefVariableParser.ts" },
-      { pattern: "src/ResultsParser.ts" },
-      { pattern: "src/ResultsView.ts" },
+      { pattern: "src/SubAppResultsParser.ts" },
+      { pattern: "src/SubAppResultsView.ts" },
       { pattern: "src/SubstringApp.ts" },
       // { pattern: "src/WordFinder.ts" }, // Crashes Karma
       // { pattern: "src/WordFinderAdapter.ts" }, // Crashes Karma
       { pattern: "src/WordFinderNavigation.ts" },
       { pattern: "src/WordFinderView.ts" },
-      { pattern: "test/*.spec.ts" }
+      { pattern: "test/*.ts" }
     ],
 
     karmaTypescriptConfig: {
