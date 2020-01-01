@@ -291,7 +291,7 @@ export class WordFinderView {
   private combineEnglish(senses: IWordSense[],
                          wordURL: string,
                          chinese: string) {
-    const maxLen = 120;
+    const maxLen = 100;
     const englishSpan = document.createElement("span");
     if (senses.length === 1) {
       // For a single sense, give the equivalent and notes
@@ -356,7 +356,7 @@ export class WordFinderView {
     if (this.vocabApp.isLoaded() && chinese.length > 1) {
       const splitSp = document.createElement("span");
       splitSp.className = "cnotes-split-span";
-      splitSp.setAttribute("title", "Split word into parts");
+      splitSp.setAttribute("title", "Split term into parts");
       const splitText = document.createTextNode("[Split]");
       fromEvent(splitSp, "click").subscribe( (evt) => {
         evt.preventDefault();
