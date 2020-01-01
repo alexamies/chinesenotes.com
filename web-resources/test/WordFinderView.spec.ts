@@ -104,6 +104,8 @@ describe("WordFinderView", () => {
       console.log(`WordFinderView.spec, queryTermsDiv: ${queryTermsDiv}`);
       const list = document.getElementById("queryTermsList") as HTMLElement;
       expect(list!.childNodes.length).toBe(1);
+      const splitSpan = document.querySelector(".cnotes-split-span");
+      expect(splitSpan).toBeDefined();
     });
     it("should show two words", () => {
       const twoResults = {
