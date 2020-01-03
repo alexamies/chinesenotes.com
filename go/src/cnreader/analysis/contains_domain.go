@@ -9,17 +9,22 @@ import (
 	"strings"
 )
 
+// Max number of words to display for contained in
+const MAX_CONTAINED_BY = 50
+
 // Filters the list of headwords to only those in the configured domain
 func ContainsByDomain(contains []dictionary.HeadwordDef) []dictionary.HeadwordDef {
 	domains := config.GetVar("ContainsByDomain")
 	containsBy := []dictionary.HeadwordDef{}
 	containsSet := make(map[int]bool)
+	count := 0
 	for _, hw := range contains {
 		for _, ws := range *hw.WordSenses {
 		  _, ok := containsSet[hw.Id]
-			if !ok && strings.Contains(domains, ws.Topic_en) {
+			if !ok && count < MAX_CONTAINED_BY && strings.Contains(domains, ws.Topic_en) {
 				containsBy = append(containsBy, hw)
 				containsSet[hw.Id] = true  // Do not add it twice
+				count++ // don't go over max number
 			}
 		}
 	}
