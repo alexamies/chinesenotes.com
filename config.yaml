@@ -28,3 +28,6 @@ VocabFormat: <a title="%s | %s" class="%s" href="/words/%d.html">%s</a>
 
 # Directory for Go lang static files to be served by the cnweb app
 GoStaticDir: go/static
+
+# Domains to list translations for in the Contained in section of headword pages
+ContainsByDomain: Idiom,Literary Chinese,Modern Chinese,Proverb

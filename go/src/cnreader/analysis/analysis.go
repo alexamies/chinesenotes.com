@@ -63,6 +63,7 @@ type CorpusEntryContent struct {
 type DictEntry struct {
 	Headword     dictionary.HeadwordDef
 	RelevantDocs []index.RetrievalResult
+	ContainsByDomain []dictionary.HeadwordDef
 	Contains     []dictionary.HeadwordDef
 	Collocations []ngram.BigramFreq
 	UsageArr     []WordUsage
@@ -902,6 +903,10 @@ func WriteHwFiles(loader library.LibraryLoader) {
 		// Words that contain this word
 		contains := dictionary.ContainsWord(*hw.Simplified, hwArray)
 
+		// Filter contains words by domain
+		containsByDomain := ContainsByDomain(contains)
+		contains = Subtract(contains, containsByDomain)
+
 		// Sorted array of collocations
 		wordCollocations := collocations.SortedCollocations(hw.Id)
 
@@ -944,6 +949,7 @@ func WriteHwFiles(loader library.LibraryLoader) {
 		dictEntry := DictEntry {
 			Headword:     hw,
 			RelevantDocs: index.FindDocsForKeyword(hw, outfileMap),
+			ContainsByDomain: containsByDomain,
 			Contains:     contains,
 			Collocations: wordCollocations,
 			UsageArr:     hlUsageArr,

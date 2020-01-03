@@ -157,8 +157,33 @@
           </p>
         {{ end }}
 
-        {{ if .Contains }}
+        {{ if .ContainsByDomain }}
         <h3>Contained in</h3>
+        <p>
+          <ul class="mdc-list mdc-list--two-line">
+          {{ range $index, $w := .ContainsByDomain }}
+            {{if $index}}、{{end}}
+            <li class="mdc-list-item">
+              <span class="mdc-list-item__text">
+                <span class="mdc-list-item__primary-text">
+                  <a href='/words/{{$w.Id}}.html'
+                     class = 'vocabulary'
+                     title='{{if DerefNe .Traditional "\\N"}}{{Deref .Traditional | }}{{end}} {{ range $p := $w.Pinyin }} {{ $p }} {{ end }} | {{ range $i, $ws := $w.WordSenses }} {{if $i}}; {{end}} {{ $ws.English }} {{ end }}'
+                  >{{ $w.Simplified }} ({{if DerefNe .Traditional "\\N"}}{{Deref .Traditional | }}{{end}})</a>
+                </span>
+                <span class="mdc-list-item__secondary-text">
+                  <span class='dict-entry-pinyin'>{{ range $p := $w.Pinyin }} {{ $p }} {{ end }}</span><br/>
+                  {{ range $i, $ws := $w.WordSenses }} {{if $i}}; {{end}} {{ $ws.English }} {{ end }}
+                </span>
+              </span>
+            </li>
+          {{ end }}
+        {{ end }}
+        </ul>
+        </p>
+
+        {{ if .Contains }}
+        <h3>Also contained in</h3>
         <p>
           {{ range $index, $w := .Contains }}
             {{if $index}}、{{end}}
