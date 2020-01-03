@@ -37,4 +37,3 @@ func Subtract(headwords, subtract []dictionary.HeadwordDef) []dictionary.Headwor
 	}
 	return subtracted
 }
-

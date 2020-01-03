@@ -162,14 +162,13 @@
         <p>
           <ul class="mdc-list mdc-list--two-line">
           {{ range $index, $w := .ContainsByDomain }}
-            {{if $index}}、{{end}}
             <li class="mdc-list-item">
               <span class="mdc-list-item__text">
                 <span class="mdc-list-item__primary-text">
                   <a href='/words/{{$w.Id}}.html'
                      class = 'vocabulary'
                      title='{{if DerefNe .Traditional "\\N"}}{{Deref .Traditional | }}{{end}} {{ range $p := $w.Pinyin }} {{ $p }} {{ end }} | {{ range $i, $ws := $w.WordSenses }} {{if $i}}; {{end}} {{ $ws.English }} {{ end }}'
-                  >{{ $w.Simplified }} ({{if DerefNe .Traditional "\\N"}}{{Deref .Traditional | }}{{end}})</a>
+                  >{{ $w.Simplified }} {{if DerefNe .Traditional "\\N"}}({{Deref .Traditional}}){{end}}</a>
                 </span>
                 <span class="mdc-list-item__secondary-text">
                   <span class='dict-entry-pinyin'>{{ range $p := $w.Pinyin }} {{ $p }} {{ end }}</span><br/>
@@ -178,8 +177,7 @@
               </span>
             </li>
           {{ end }}
-        {{ end }}
-        </ul>
+          </ul>
         </p>
 
         {{ if .Contains }}
