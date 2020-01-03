@@ -166,11 +166,10 @@
                 <span class="mdc-list-item__text">
                   <span class="mdc-list-item__primary-text">
                     <a href='/words/{{$w.Id}}.html'
-                       title='Full details'
-                    >{{ $w.Simplified }} {{if DerefNe .Traditional "\\N"}}({{Deref .Traditional | }}){{end}}</a>
+                       title='{{ range $p := $w.Pinyin }} {{ $p }} {{ end }}'
+                    >{{ $w.Simplified }}{{if DerefNe .Traditional "\\N"}}({{Deref .Traditional}}){{end}}</a>
                   </span>
                   <span class="mdc-list-item__secondary-text">
-                    <span class='dict-entry-pinyin'>{{ range $p := $w.Pinyin }} {{ $p }} {{ end }}</span><br/>
                     {{ range $i, $ws := $w.WordSenses }} {{if $i}}; {{end}} {{ $ws.English }} {{ end }}
                   </span>
                 </span>
