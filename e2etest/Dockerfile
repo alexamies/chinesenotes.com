@@ -10,6 +10,6 @@ FROM alpine:3
 RUN apk add --no-cache ca-certificates
 COPY --from=builder /app/server /server
 COPY --from=builder /app/data/*.txt /data/
-COPY --from=builder /app/static.tar.gz /static.tar.gz
+COPY --from=builder /app/static /static
 RUN tar -xzf static.tar.gz
 CMD ["/server"]

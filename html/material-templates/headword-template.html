@@ -170,7 +170,7 @@
                     >{{ $w.Simplified }}{{if DerefNe .Traditional "\\N"}}({{Deref .Traditional}}){{end}}</a>
                   </span>
                   <span class="mdc-list-item__secondary-text">
-                    {{ range $i, $ws := $w.WordSenses }} {{if $i}}; {{end}} {{ $ws.English }} {{ end }}
+                    {{ range $i, $ws := $w.WordSenses }}{{if $i}}; {{end}} {{ $ws.English }} {{ end }}
                   </span>
                 </span>
               </li>

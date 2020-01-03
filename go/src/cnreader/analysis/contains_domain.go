@@ -13,10 +13,13 @@ import (
 func ContainsByDomain(contains []dictionary.HeadwordDef) []dictionary.HeadwordDef {
 	domains := config.GetVar("ContainsByDomain")
 	containsBy := []dictionary.HeadwordDef{}
+	containsSet := make(map[int]bool)
 	for _, hw := range contains {
 		for _, ws := range *hw.WordSenses {
-			if strings.Contains(domains, ws.Topic_en) {
+		  _, ok := containsSet[hw.Id]
+			if !ok && strings.Contains(domains, ws.Topic_en) {
 				containsBy = append(containsBy, hw)
+				containsSet[hw.Id] = true  // Do not add it twice
 			}
 		}
 	}
@@ -31,7 +34,7 @@ func Subtract(headwords, subtract []dictionary.HeadwordDef) []dictionary.Headwor
     subtractSet[hw.Id] = true
 	}
 	for _, hw := range headwords {
-		if _, ok := subtractSet[hw.Id]; ok {
+		if _, ok := subtractSet[hw.Id]; !ok {
 			subtracted = append(subtracted, hw)
 		}
 	}
