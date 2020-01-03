@@ -176,9 +176,9 @@
                 </span>
               </li>
             {{ end }}
-          {{ end }}
           </ul>
         </p>
+        {{ end }}
 
         {{ if .Contains }}
         <h3>Also contained in</h3>
@@ -190,8 +190,8 @@
                title='{{if DerefNe .Traditional "\\N"}}{{Deref .Traditional | }}{{end}} {{ range $p := $w.Pinyin }} {{ $p }} {{ end }} | {{ range $i, $ws := $w.WordSenses }} {{if $i}}; {{end}} {{ $ws.English }} {{ end }}'
                >{{ $w.Simplified }}</a>
           {{ end }}
-        {{ end }}
         </p>
+        {{ end }}
 
         {{ if .RelevantDocs }}
         <h3>Word is mentioned most frequently in</h3>
