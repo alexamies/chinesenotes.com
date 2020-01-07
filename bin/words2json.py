@@ -89,6 +89,7 @@ def main():
     jsfile = os.environ["JSON_FILE_NAME"]
   print("Writing to ", jsfile);
   WriteJS(words, jsfile)
+  print("Done");
 
 
 if __name__ == "__main__":

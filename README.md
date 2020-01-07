@@ -422,7 +422,7 @@ Or use Cloud Build
 ```shell
 export BUILD_ID=r130
 gcloud builds submit --config cloudbuild.yaml . \
-  --substitutions=+IMAGE_TAG="0.0.4"
+  --substitutions=_IMAGE_TAG="0.0.4"
 ```
 
 Check that the expected image has been added with the command
