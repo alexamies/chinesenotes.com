@@ -56,17 +56,9 @@ Installation instructions are for Debian.
 
 ### Install git on the host and checkout the code base
 ```
-sudo apt-get update
-sudo apt-get install -y git
+git clone git://github.com/alexamies/chinesenotes.com
 
-cd $HOME/chinesenotes.com
--- Substitute for your own location and user name
-export CN_HOME=/disk1
-sudo mkdir $CN_HOME/chinesenotes.com
-sudo chown alex:alex $CN_HOME/chinesenotes.com
-git clone git://github.com/alexamies/chinesenotes.com $CN_HOME/chinesenotes.com
-
-cd $CN_HOME/chinesenotes.com
+cd chinesenotes.com
 export CNREADER_HOME=`pwd`
 ```
 
