@@ -65,29 +65,10 @@ npm run start
 
 Navigate to the page http://localhost:8080/test/index.html
 
-## Mocha Testing
-Install Mocha
-
-```shell
-npm install --save-dev mocha
-```
-
-Install Chai for assertion testing
-```
-npm install --save-dev chai
-```
+## Unit Testing
 
 Run the unit tests
 
 ```shell
 npm test
 ```
-
-For compatibility with ES6 modules, use the babel/register module
-
-```shell
-npm install --save-dev @babel/register
-```
-
-## JSUnit
-Older tests use JS Unit
