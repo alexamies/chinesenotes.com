@@ -17,15 +17,19 @@
  *  @fileoverview  Entry point for the dictionary browser app
  */
 
+import { fromEvent } from "rxjs";
+
 import { DictionaryCollection } from "@alexamies/chinesedict-js";
 import { DictionaryLoader } from "@alexamies/chinesedict-js";
 import { DictionarySource } from "@alexamies/chinesedict-js";
 import { Term } from "@alexamies/chinesedict-js";
 import { TextParser } from "@alexamies/chinesedict-js";
+
 import { MDCDialog } from "@material/dialog";
 import { MDCDrawer } from "@material/drawer";
 import { MDCList } from "@material/list";
 import { MDCTopAppBar } from "@material/top-app-bar";
+
 import { CorpusDocView } from "./CorpusDocView";
 import { HrefVariableParser } from "./HrefVariableParser";
 import { ICNotes } from "./ICNotes";
@@ -332,22 +336,21 @@ export class CNotes implements ICNotes {
    */
   private initDialog() {
     const dialogDiv = document.querySelector("#CnotesVocabDialog");
-    const elements = document.querySelectorAll(".vocabulary");
     if (!dialogDiv) {
       console.log("initDialog no dialogDiv");
       return;
     }
-    const wordDialog = new MDCDialog(dialogDiv);
-    if (elements) {
-      elements.forEach((elem) => {
-        elem.addEventListener("click", (evt) => {
-          evt.preventDefault();
-          // wordDialog.lastFocusedTarget = evt.target;
-          this.showVocabDialog(elem as HTMLElement);
+    const clicks = fromEvent(document, "click");
+    clicks.subscribe((e) => {
+      if (e.target && e.target instanceof HTMLElement) {
+        const t = e.target as HTMLElement;
+        if (t.matches(".vocabulary")) {
+          e.preventDefault();
+          this.showVocabDialog(t);
           return false;
-        });
-      });
-    }
+        }
+      }
+    });
     const copyButton = document.getElementById("DialogCopyButton");
     if (copyButton) {
       copyButton.addEventListener("click", () => {
