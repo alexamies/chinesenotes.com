@@ -51,3 +51,54 @@
 6000051	日电	日電	rìdiàn	NEC (Nippon Electronic Company)	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	An abbreviation for 日本电子 (CC-CEDICT '日電')	6000051
 6000052	好时	好時	hǎoshí	Hershey's	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '好時')	6000052
 6000053	福特	\N	fúté	Ford	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	US car maker (CC-CEDICT '福特')	74274
+6000054	淘宝	淘寶	táobǎo	Taobao	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	Online retail company, web site: <a href='http://www.taobao.com/'>www.taobao.com</a> (Wikipedia '淘宝网')	6000054
+6000055	文鼎	\N	Wén Dǐng	Arphic	proper noun	公司	Company	商务	Commerce	台湾	Taiwan	\N	\N	Web site: <a href='http://www.arphic.com/cn/home.html'>www.arphic.com</a> (Wikipedia '文鼎科技')	6000055
+6000056	方正	\N	fāngzhèng	Founder	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Web site: <a href='http://www.founder.com/'>www.founder.com</a>; Wikipedia '方正集團')	24483
+6000057	金山	\N	jīnshān	Kingsoft	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	A Chinese software vendor (Wikipedia '金山软件')	22935
+6000058	腾讯	騰訊	Téngxùn	Tencent	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '騰訊')	6000058
+6000059	大宇	\N	dàyǔ	Daewoo	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Korean conglomerate (CC-CEDICT '大宇')	6000059
+6000060	脸书	臉書	liǎnshū	Facebook	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia 'Facebook')	6000060
+6000061	推特	\N	tuīté	Twitter	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Microblogging service (Wikipedia 'Twitter')	6000061
+6000062	领英	領英	lǐngyīng	LinkedIn	proper noun	公司	Company	商务	Commerce	社交媒体	Social Media	\N	\N	Professional networking website (Wikipedia '領英')	6000062
+6000063	丰田	豐田	fēngtián	Toyota	proper noun	公司	Company	制造业	Manufacturing	日本	Japan	\N	\N	See 丰田汽车 (Wikipedia '丰田汽车')	6000063
+6000064	富士	\N	fùshì	Fuji	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese company (CC-CEDICT '富士')	6000064
+6000065	雷诺	雷諾	léinuò	Renault	noun	公司	Company	商务	Commerce	\N	\N	\N	\N	French car company (CC-CEDICT '雷諾')	76211
+6000066	中金	\N	zhōng jīn	China International Capital	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	An abbreviation for 中国国际金融 (Wikipedia '中国国际金融股份')	6000066
+6000067	飞鸽	飛鴿	fēigē	Flying Pigeon	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	A famous bicycle brand, made in Tianjin since 1936 (CC-CEDICT '飛鴿')	6000067
+6000068	日航	\N	rìháng	Japan Airlines (JAL)	proper noun	公司	Company	商务	Commerce	交通	Transportation	\N	\N	Abbreviation for 日本航空 (CC-CEDICT '日航')	6000068
+6000069	凯悦	凱悅	kǎiyuè	Hyatt	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Name of hotel chain and company (CC-CEDICT '凱悅'; Wikipedia '凱悅酒店')	6000069
+6000070	日产	日產	rìchǎn	Nissan	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Japanese car make; also transliterated 尼桑 (CC-CEDICT '日產')	6000070
+6000071	万代	萬代	wàndài	Bandai toy company	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '萬代')	83182
+6000072	全录	全錄	quánlù	Xerox	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Taiwanese use (CC-CEDICT '全錄')	6000072
+6000073	夏普	\N	xiàpǔ	Sharp Corporation	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '夏普')	6000073
+6000074	路透	\N	lùtòu	Reuters	proper noun	公司	Company	商务	Commerce	媒体	Media	\N	\N	News agency (CC-CEDICT '路透')	6000074
+6000075	宜家	\N	yíjiā	IKEA	proper noun	公司	Company	现代汉语	Modern Chinese	家具	Furniture	\N	\N	Swedish furniture retailer (CC-CEDICT '宜家')	86177
+6000076	奇瑞	\N	qíruì	Chery	proper noun	公司	Company	现代汉语	Modern Chinese	产业	Industry	\N	\N	Car manufacturer (CC-CEDICT '奇瑞')	6000076
+6000077	华润	華潤	huàrùn	China Resources	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '華潤')	6000077
+6000078	华硕	華碩	huàshuò	Asus	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Computer manufacturer (CC-CEDICT '華碩')	6000078
+6000079	惠普	\N	huìpǔ	Hewlett-Packard	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '惠普')	6000079
+6000080	桂格	\N	guìgé	Quaker	proper noun	公司	Company	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '桂格')	6000080
+6000081	中远	中遠	zhōngyuǎn	COSCO (China Ocean Shipping Company)	proper noun	公司	Company	产业	Industry	交通	Transportation	\N	\N	Abbreviation for 中远集团 (CC-CEDICT '中遠')	6000081
+6000082	施乐	施樂	shīlè	Xerox	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '施樂')	6000082
+6000083	三井	\N	sānjǐng	Mitsui	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese company (CC-CEDICT '三井')	6000083
+6000084	喜力	\N	xǐlì	Heineken	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Dutch brewing company; see also 海尼根 (CC-CEDICT '喜力')	6000084
+6000085	红环	紅環	hónghuán	Rotring	proper noun	公司	Company	商务	Commerce	德国	Germany	\N	\N	(CC-CEDICT '紅環'; Wikipedia '紅環')	6000085
+6000086	国美	國美	guóměi	Guo mei / Gome electronics chain	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '國美')	6000086
+6000087	理光	\N	lǐguāng	Ricoh	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese imaging and electronics company (CC-CEDICT '理光')	6000087
+6000088	易趣	\N	yìqù	eBay	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Internet auction company (CC-CEDICT '易趣')	6000088
+6000089	高盛	\N	gāochéng	Goldman Sachs	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '高盛'; Wikipedia '高盛')	6000089
+6000090	微星	\N	wēixīng	Micro-Star International (MSI)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Taiwanese computer hardware company (CC-CEDICT '微星')	6000090
+6000091	夏利	\N	xiàlì	Xiali	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	Car brand by Tianjin FAW Xiali Motor Company (CC-CEDICT '夏利')	6000091
+6000092	麦道	麥道	màidào	McDonnell Douglas	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Plane company (CC-CEDICT '麥道')	6000092
+6000093	贝宝	貝寶	bèibǎo	PayPal	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Internet payment and money transfer company (CC-CEDICT '貝寶')	6000093
+6000094	住友	\N	zhùyǒu	Sumitomo	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese company (CC-CEDICT '住友')	6000094
+6000095	萨博	薩博	sàbó	Saab	proper noun	公司	Company	商务	Commerce	交通	Transportation	\N	\N	(CC-CEDICT '薩博')	6000095
+6000096	吉列	\N	jíliè	Gillette	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '吉列')	94546
+6000097	网通	網通	wǎngtōng	China Network Communications (CNC) Group Corporation	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	One of China's large telephone companies (CC-CEDICT '網通')	6000097
+6000098	敢达	敢達	gǎndá	Gundam	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese animation franchise (CC-CEDICT '敢達')	6000098
+6000099	维密	維密	wéimì	Victoria's Secret	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '維密')	6000099
+6000100	台视	台視	tái shì	Taiwan Television	proper noun	公司	Company	现代汉语	Modern Chinese	媒体	Media	\N	\N	See 臺灣電視公司 (Wikipedia '臺灣電視公司')	6000100
+6000101	杜邦	\N	dùbāng	DuPont	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '杜邦'; Wikipedia '杜邦')	6000101
+6000102	宏达	宏達	hóngdá	HTC (High-Tech Computer Corporation)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(Wikipedia '宏達國際電子')	6000102
+6000103	博通	\N	bótōng	Broadcom	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Baidu Baike '博通')	6000103
+6000104	迅销	迅銷	xùnxiāo	Fast Retailing	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese retail chain (Wikipedia '迅銷')	6000104
