@@ -1,0 +1,53 @@
+6000001	华为	華為	huáwèi	Huawei	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '华为')	6000001
+6000002	华为技术有限公司	華為技術有限公司	huáwèi jìshù yǒuxiàn gōngsī	Huawei	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '华为')	6000002
+6000003	爱问	愛問	àiwèn	iAsk.com	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	The search engine of Sina 新浪 (CC-CEDICT '愛問'; Wikipedia '爱问知识人')	6000003
+6000004	英特尔	英特爾	yīngtéěr	Intel	proper noun	公司	Company	商务	Commerce	美国	United States	\N	ying1te2er3.mp3	(Wikipedia '英特爾')	6000004
+6000005	新闻集团	新聞集團	xīnwén jítuán	News Corporation	proper noun	公司	Company	商务	Commerce	美国	United States	\N	xin1wen2ji2tuan2.mp3	(Wikipedia '新闻集团')	6000005
+6000006	雅虎	\N	yǎhǔ	Yahoo!	proper noun	公司	Company	商务	Commerce	美国	United States	\N	ya3hu3.mp3	(Wikipedia '雅虎')	6000006
+6000007	谷歌	穀歌	gǔgē	Google	proper noun	公司	Company	商务	Commerce	美国	United States	\N	gu3ge1.mp3	(CC-CEDICT '穀歌')	6000007
+6000008	摩托罗拉	摩托羅拉	mótuōluólā	Motorola	proper noun	公司	Company	商务	Commerce	美国	United States	\N	mo2tuo1luo2la1.mp3	(Wikipedia '摩托罗拉')	6000008
+6000009	搜狐	\N	sōuhú	Sohu web portal	proper noun	公司	Company	商务	Commerce	媒体	Media	\N	\N	Web site is at <a href='http://www.sohu.com/'>www.sohu.com</a> (Wikipedia '搜狐')	6000009
+6000010	宏碁	\N	hóngqí	Acer	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Taiwanese PC manufacturer (Wikipedia '宏碁')	6000010
+6000011	联想	聯想	liánxiǎng	Lenovo	proper noun	公司	Company	商务	Commerce	\N	\N	\N	lian2xiang3.mp3	Chinese PC manufacturer (Wikipedia '联想集团')	15433
+6000012	微软	微軟	wéiruǎn	Microsoft	proper noun	公司	Company	商务	Commerce	美国	United States	\N	wei2ruan3.mp3	(Wikipedia '微软')	6000012
+6000013	微软公司	微軟公司	wéiruǎn gōngsī	Microsoft Corporation	proper noun	公司	Company	商务	Commerce	美国	United States	\N	wei2ruan3gong1si1.mp3	(Wikipedia '微软')	6000013
+6000014	戴尔	戴爾	dàiěr	Dell	proper noun	公司	Company	商务	Commerce	美国	United States	\N	dai4er3.mp3	(Wikipedia '戴爾')	6000014
+6000015	赛门铁克	賽門鐵剋	sàiméntiěkè	Symantec	proper noun	公司	Company	商务	Commerce	美国	United States	\N	sai4men2tie3ke4.mp3	(Wikipedia '赛门铁克')	6000015
+6000016	有线电视新闻国际公司	有線電視新聞國際公司	Yǒuxiàn Diànshì Xīnwén Guójì Gōngsī	Cable News Network (CNN)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	cnn.mp3	(Wikipedia '有线电视新闻网')	6000016
+6000017	中国移动	中國移動	zhōngguó yídòng	China Mobile	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '中国移动')	6000017
+6000018	苹果公司	蘋果公司	Píngguǒ Gōngsī	Apple Inc.	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '蘋果公司')	6000018
+6000019	阿里巴巴	\N	Ālǐbābā	Alibaba Group	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	A Chinese software company (Wikipedia '阿里巴巴集团')	6278
+6000020	奔驰	奔馳	bēnchí	Mercedes-Benz	proper noun	公司	Company	商务	Commerce	交通	Transportation	\N	\N	(CC-CEDICT '奔馳'; Wikipedia '梅賽德斯-賓士')	13999
+6000021	三鹿	\N	Sān Lù	San Lu	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	The principal dairy company involved in the PRC melamine scandal of 2008 (Wikipedia '三鹿集团')	6000021
+6000022	三元	\N	sān yuán	San Yuan	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '三元集团')	17375
+6000023	保时捷	保時捷	bǎoshíjié	Porsche	proper noun	公司	Company	商务	Commerce	德国	Germany	\N	\N	(Wikipedia '保时捷')	6000023
+6000024	中国石油	中國石油	zhōngguó shíyóu	China National Petroleum Corporation (CNPC) / PetroChina	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	CNPC is the parent company of PetroChina (Wikipedia '中国石油')	6000024
+6000025	中国神华	中國神華	Zhōngguó Shén Huà	China Shenhua	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '中国神华能源')	6000025
+6000026	比亚迪	比亞迪	Bǐyàdí	BYD	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '比亚迪')	6000026
+6000027	思科	\N	sīkē	Cisco Systems Company	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '思科系统')	6000027
+6000028	波音	\N	bōyīn	Boeing	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '波音')	6000028
+6000029	柯达	柯達	kēdá	Kodak	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '伊士曼柯达公司')	6000029
+6000030	美国广播公司	美國廣播公司	Měiguó Guǎngbō Gōngsī	ABC (American Broadcasting Corporation)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '美国广播公司')	6000030
+6000031	现代	現代	xiàndài	Hyundai	proper noun	公司	Company	商务	Commerce	韩国	South Korea	\N	xian4dai4.mp3	(CC-CEDICT '現代')	7665
+6000032	可口可乐	可口可樂	kěkǒu kělè	Coca-Cola	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Sun 2006, loc. 1585)	6000032
+6000033	瑞星	\N	Ruìxīng	Rixing	proper noun	公司	Company	计算机科学	Computer Science	\N	\N	\N	\N	A Chinese software vendor, web site: <a href='http://www.rising.com.cn/'>www.rising.com.cn</a> (Wikipedia '瑞星')	6000033
+6000034	三星	\N	sānxīng	Samsung	proper noun	公司	Company	商务	Commerce	韩国	Korea	\N	\N	(Wikipedia '三星集团')	23004
+6000035	新浪	\N	xīnlàng	Sina	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	web site: <a href='http://www.sina.com.cn/'>www.sina.com.cn</a> (Wikipedia '新浪')	6000035
+6000036	华康	華康	Huà Kāng	DynaComware	proper noun	公司	Company	商务	Commerce	香港	Hong Kong	\N	\N	Web site: <a href='http://eng.dynacw.com.hk/'>eng.dynacw.com.hk</a> (Wikipedia '威鋒數位')	6000036
+6000037	京东	京東	jīngdōng	Jingdong	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	Chinese company (Baidu Baike '京东'; Wikipedia '京東 (網站)')	6000037
+6000038	中油	\N	Zhōng Yóu	China National Petroleum Corporation (CNPC) / PetroChina	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	An abbreviation for 中国石油. CNPC is the parent company of PetroChina (Wikipedia '中国石油')	6000038
+6000039	宝马	寶馬	Bǎomǎ	BMW	proper noun	公司	Company	商务	Commerce	德国	Germany	\N	\N	Auto manufacturer (Wikipedia 'BMW')	42049
+6000040	百度	\N	bǎidù	Baidu	noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '百度')	42482
+6000041	宝洁	寶潔	bǎo jié	Procter & Gamble	proper noun	公司	Company	制造业	Manufacturing	\N	\N	\N	\N	(CC-CEDICT '寶潔'; Wikipedia '宝洁')	6000041
+6000042	辉瑞	輝瑞	Huīruì	Pfizer	proper noun	公司	Company	制造业	Manufacturing	\N	\N	\N	\N	(CC-CEDICT '輝瑞'; Wikipedia '辉瑞')	6000042
+6000043	三菱	\N	sānlíng	Mitsubishi	proper noun	公司	Company	制造业	Manufacturing	日本	Japan	\N	\N	(CC-CEDICT '三菱')	6000043
+6000044	索尼	\N	suǒní	Sony	proper noun	公司	Company	制造业	Manufacturing	日本	Japan	\N	\N	(CC-CEDICT '索尼'; Wikipedia '索尼')	6000044
+6000045	佳能	\N	jiānéng	Canon	proper noun	公司	Company	制造业	Manufacturing	日本	Japan	\N	\N	(CC-CEDICT '佳能'; Guoyu '佳能'; Wikipedia '佳能')	6000045
+6000046	百事	\N	bǎishì	Pepsi	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '百事'; Wikipedia '百事可樂')	65970
+6000047	日立	\N	rìlì	Hitachi, Ltd.	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '日立')	6000047
+6000048	安利	\N	ānlì	Amway	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '安利')	6000048
+6000049	世爵	\N	shìjué	Spyker	proper noun	公司	Company	商务	Commerce	荷兰	Holland	\N	\N	A Dutch car manufacturer (CC-CEDICT '世爵')	6000049
+6000050	罗氏	羅氏	luóshì	Roche	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	F. Hoffmann-La Roche Ltd (CC-CEDICT '羅氏')	6000050
+6000051	日电	日電	rìdiàn	NEC (Nippon Electronic Company)	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	An abbreviation for 日本电子 (CC-CEDICT '日電')	6000051
+6000052	好时	好時	hǎoshí	Hershey's	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '好時')	6000052
+6000053	福特	\N	fúté	Ford	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	US car maker (CC-CEDICT '福特')	74274
