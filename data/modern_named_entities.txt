@@ -102,3 +102,8 @@
 6000102	宏达	宏達	hóngdá	HTC (High-Tech Computer Corporation)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(Wikipedia '宏達國際電子')	6000102
 6000103	博通	\N	bótōng	Broadcom	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Baidu Baike '博通')	6000103
 6000104	迅销	迅銷	xùnxiāo	Fast Retailing	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese retail chain (Wikipedia '迅銷')	6000104
+6000105	阿尔及利亚	阿爾及利亞	Āěrjílìyà	Algeria	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The People's Republic of Algeria (SDC, p. 117; XHZD, p. 702)	6000105
+6000106	汤加	湯加	Tāngjiā	Tonga	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The Kingdom of Tonga (SDC, p. 174; XHZD, p. 705)	6000106
+6000107	阿富汗	\N	Āfùhàn	Afghanistan	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	a1fu4han4.mp3	The Islamic Republic of Afghanistan (MPRC; SDC 36; XHZD, p. 699)	6000107
+6000108	安道尔	安道爾	Āndàoěr	Andorra	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	The Principality of Andorra (SDC, p. 88; XHZD, p. 701)	6000108
+6000109	安哥拉	\N	Āngēlā	Angola	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Angola (SDC, p. 147; XHZD, p. 703)	6000109
