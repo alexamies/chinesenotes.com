@@ -8,6 +8,8 @@ import (
 	"bytes"
 	"container/list"
 	"fmt"
+	"github.com/alexamies/chinesenotes-go/fileloader"
+	"github.com/alexamies/chinesenotes-go/tokenizer"
 	"github.com/alexamies/cnreader/config"
 	"github.com/alexamies/cnreader/corpus"
 	"github.com/alexamies/cnreader/dictionary"
@@ -278,7 +280,12 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	wc := 0
 	cc := 0
 	chunks := GetChunks(text)
-	wdict := dictionary.GetWDict()
+	wdict, err := fileloader.LoadDictFile(config.LUFileNames())
+	if err != nil {
+		log.Fatal("Error opening dictionary, ", err)
+		os.Exit(1)
+	}
+	dictTokenizer := tokenizer.DictTokenizer{wdict}
 	hwIdMap := dictionary.GetHwMap()
 	lastHWPtr := new(dictionary.HeadwordDef)
 	lastHW := *lastHWPtr
@@ -295,53 +302,39 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 			lastHWText = ""
 			continue
 		}
-		for i := 0; i < len(characters); i++ {
-			for j := len(characters); j > 0; j-- {
-				w := strings.Join(characters[i:j], "")
-				//log.Printf("analysis.ParseText: i = %d, j = %d, w = %s\n", i, j, w)
-				if wsArray, ok := wdict[w]; ok {
-					//log.Printf("analysis.ParseText: found word %s, i = %d\n", w, i)
-					tokens.PushBack(w)
-					i = j - 1
-					j = 0
-					if !corpus.IsExcluded(w) {
-						wc++
-						cc += utf8.RuneCountInString(w)
-						vocab[w]++
-						if lastHWText != "" {
-							bg := lastHWText + w
-							bigrams[bg]++
-						}
-						lastHWText = w
-						if _, ok := usage[w]; !ok {
-							usage[w] = chunk
-						}
-						hwid := wsArray[0].HeadwordId
-						hw := hwIdMap[hwid]
-						if lastHW.Id != 0 {
-							if hw.WordSenses == nil {
-								log.Printf("ParseText: WordSenses nil for %s "+
+		tokens := dictTokenizer.Tokenize(chunk)
+		for _, token := range tokens {
+			w := token.Token
+			if !corpus.IsExcluded(w) {
+				wc++
+				cc += utf8.RuneCountInString(w)
+				vocab[w]++
+				if lastHWText != "" {
+					bg := lastHWText + w
+					bigrams[bg]++
+				}
+				lastHWText = w
+				if _, ok := usage[w]; !ok {
+					usage[w] = chunk
+				}
+				hwid := token.DictEntry.HeadwordId
+				hw := hwIdMap[hwid]
+				if lastHW.Id != 0 {
+					if hw.WordSenses == nil {
+						log.Printf("ParseText: WordSenses nil for %s "+
 									", id = %d, in %s, %s\n", w, hwid,
 									document.Title, colTitle)
-							}
-							bigram, ok := bigramMap.GetBigramVal(lastHW.Id,
-								wsArray[0].HeadwordId)
-							if !ok {
-								bigram = ngram.NewBigram(lastHW, hw, chunk,
-									document.GlossFile, document.Title, colTitle)
-							}
-							bigramMap.PutBigram(bigram)
-							collocations.PutBigram(bigram.HeadwordDef1.Id, bigram)
-							collocations.PutBigram(bigram.HeadwordDef2.Id, bigram)
-						}
-						lastHW = hw
 					}
-				} else if utf8.RuneCountInString(w) == 1 {
-					//log.Printf("ParseText: found unknown character %s\n", w)
-					unknownChars[w]++
-					tokens.PushBack(w)
-					break
+					bigram, ok := bigramMap.GetBigramVal(lastHW.Id, hwid)
+					if !ok {
+						bigram = ngram.NewBigram(lastHW, hw, chunk,
+								document.GlossFile, document.Title, colTitle)
+					}
+					bigramMap.PutBigram(bigram)
+					collocations.PutBigram(bigram.HeadwordDef1.Id, bigram)
+					collocations.PutBigram(bigram.HeadwordDef2.Id, bigram)
 				}
+				lastHW = hw
 			}
 		}
 	}

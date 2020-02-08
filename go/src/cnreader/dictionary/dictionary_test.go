@@ -105,12 +105,12 @@ func TestGetHeadwords(t *testing.T) {
 func TestGetHwMap1(t *testing.T) {
 	GetHeadwords()
 	hwIdMap := GetHwMap()
-	hw, ok := hwIdMap[2]
+	hw, ok := hwIdMap[5]
 	if !ok {
 		t.Error("dictionary.TestGetHwMap1: not ok")
 		return
 	}
-	expected := "阿爾及利亞"
+	expected := "改竄"
 	if *hw.Traditional != expected {
 		t.Error("dictionary.TestGetHwMap1: expected ", expected, ", got ",
 			*hw.Traditional)

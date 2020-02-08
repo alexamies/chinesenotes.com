@@ -233,7 +233,7 @@ func GetWordSense(chinese string) (WordSenseEntry, bool) {
 	return *ws, ok
 }
 
-// Gets the dictionary, loads it if it is not loaded already
+// Gets the dictionary, 
 func GetWDict() map[string][]*WordSenseEntry {
 	return wdict
 }
@@ -407,15 +407,14 @@ func readWSMap(wsFilenames []string) map[int]WordSenseEntry {
 		for _, row := range rawCSVdata {
 			id, error := strconv.ParseInt(row[0], 10, 0)
 			if error != nil {
-				log.Fatal("readWSMap: Could not parse word id for row %s\n",
+				log.Fatal("readWSMap: Could not parse word id for row \n",
 					row[0])
 			}
 			simp := row[1]
 			trad := row[2]
 			hwId, error := strconv.ParseInt(row[15], 10, 0)
 			if error != nil {
-				log.Fatal("readWSMap: Could not parse hwId for row %s\n",
-					row[0])
+				log.Fatal("readWSMap: Could not parse hwId for row \n", row[0])
 			}
 			ws := WordSenseEntry{Id: int(id), Simplified: simp,
 				Traditional: trad, Pinyin: row[3], English: row[4],
@@ -462,8 +461,8 @@ func WriteHeadwords() {
 				pinyinStr = fmt.Sprintf("%s, %s", pinyinStr, pinyin)
 			}
 		}
-		fmt.Fprintf(w, "%d\t%s\t%s\t%s\t%s\n", hw.Id, hw.Simplified,
-			hw.Traditional, pinyinStr, wsNumStr)
+		fmt.Fprintf(w, "%d\t%s\t%s\t%s\t%s\n", hw.Id, *hw.Simplified,
+			*hw.Traditional, pinyinStr, wsNumStr)
 	}
 	w.Flush()
 }
