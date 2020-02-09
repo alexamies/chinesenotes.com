@@ -107,3 +107,32 @@
 6000107	阿富汗	\N	Āfùhàn	Afghanistan	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	a1fu4han4.mp3	The Islamic Republic of Afghanistan (MPRC; SDC 36; XHZD, p. 699)	6000107
 6000108	安道尔	安道爾	Āndàoěr	Andorra	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	The Principality of Andorra (SDC, p. 88; XHZD, p. 701)	6000108
 6000109	安哥拉	\N	Āngēlā	Angola	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Angola (SDC, p. 147; XHZD, p. 703)	6000109
+6000110	安提瓜和巴布达	安提瓜和巴布達	Āntíguā hé Bābùdá	Antigua and Barbuda	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 197; XHZD, p. 706)	6000110
+6000111	阿根廷	\N	Āgēntíng	Argentina	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	Argentine Republic (SDC, p. 215; XHZD, p. 707)	6000111
+6000112	澳大利亚	澳大利亞	Àodàlìyà	Australia	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	ao4da4li4ya4.mp3	The Commonwealth of Australia (SDC, p. 164; XHZD, p. 704)	6000112
+6000113	巴巴多斯	\N	Bābāduōsī	Barbados	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(Mathews 1931 '澳大利亚', p. 7; SDC, p. 197; Wikipedia '澳大利亚'; XHZD, p. 706)	6000113
+6000114	巴哈马	巴哈馬	Bāhāmǎ	Bahamas	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Commonwealth of the Bahamas (SDC, p. 191; XHZD, p. 706)	6000114
+6000115	巴基斯坦	\N	Bājīsītǎn	Pakistan	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	ba1ji1si1tan3.mp3	Pakistan is often abbreviated to 巴 in the news media, especially in headlines to save space (MPRC; SDC, p. 33; XHZD, p. 699)	6000115
+6000116	巴拉圭	\N	bālāguī	Paraguay	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 210; XHZD, p. 707)	6000116
+6000117	柏林	\N	bólín	Berlin	proper noun	城市	City	地方	Places	德国	Germany	\N	bo2lin2.mp3	\N	6000117
+6000118	巴林	\N	bālín	Bahrain	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 52; XHZD, p. 699)	6000118
+6000119	巴西	\N	bāxī	Brazil	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 214; XHZD, p. 707)	6000119
+6000120	保加利亚	保加利亞	bǎojiālìyà	Bulgaria	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 100; XHZD, p. 701)	6000120
+6000121	杰西	傑西	jiéxī	Jessie	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '傑西')	6000121
+6000122	欧文斯	歐文斯	Ōuwénsī	Owens	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	ou1wen2si1.mp3	(CC-CEDICT '歐文斯')	6000122
+6000123	杰西·欧文斯	傑西·歐文斯	Jiéxī Ōuwénsī	Jessie Owens	proper noun	人	Person	历史	History	\N	\N	\N	\N	(Wikipedia '杰西·欧文斯')	6000123
+6000124	亚特兰大	亞特蘭大	yàtèlándà	Atlanta	proper noun	城市	City	地方	Places	美国	United States	\N	ya4te4lan2da4.mp3	(CC-CEDICT '亞特蘭大'; Guoyu '亞特蘭大'; Wikipedia '亚特兰大')	6000124
+6000125	贝宁	貝寧	bèiníng	Benin	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Benin, officially the Republic of Benin, is a country in West Africa (SDC, p. 121; XHZD, p. 702)	6000125
+6000126	秘鲁	秘魯	bìlǔ	Peru	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 207; XHZD, p. 707)	6000126
+6000127	冰岛	冰島	bīngdǎo	Iceland	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 58; XHZD, p. 700)	6000127
+6000128	波兰	波蘭	bōlán	Poland	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Short form is 波 (SDC, p. 74; XHZD, p. 700)	6000128
+6000129	玻利维亚	玻利維亞	bōlìwéiyà	Bolivia	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 210; XHZD, p. 707)	6000129
+6000130	博茨瓦纳	博茨瓦納	bócíwǎnà	Botswana	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Botswana (SDC, p. 156; XHZD, p. 704)	6000130
+6000131	伯利兹	伯利茲	bólìzī	Belize	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 186; XHZD, p. 705)	6000131
+6000132	不丹	\N	bùdān	Bhutan	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	The Kingdom of Bhutan (SDC, p. 32; XHZD, p. 699)	6000132
+6000133	布隆迪	\N	bùlóngdí	Burundi	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Burundi (SDC, p. 141; XHZD, p. 703)	6000133
+6000134	赤道几内亚	赤道幾內亞	chìdàojīnèiyà	Equatorial Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 128; XHZD, p. 702)	6000134
+6000135	多米尼加共和国	多米尼加共和國	duōmǐníjiā Gònghéguó	Dominican Republic	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 196)	6000135
+6000136	厄瓜多尔	厄瓜多爾	èguāduōěr	Ecuador	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 207; XHZD, p. 707)	6000136
+6000137	萨马兰奇	薩馬蘭奇	Sàmǎlánqí	Juan Antonio Samaranch	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	1920-; Spanish olympic official, President of International Olympic Committee 1980-2001 (Wikipedia '胡安·安东尼奥·萨马兰奇')	6000137
+6000138	法属波利尼西亚	法屬波利尼西亞	fǎshǔ pōlìníxīyà	French Polynesia	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The largest island in French Polynesia is Tahiti 大溪地 (SDC, p. 173; XHZD, p. 705)	6000138

@@ -5,6 +5,8 @@ package main
 
 import (
 	"flag"
+	"github.com/alexamies/chinesenotes-go/fileloader"
+	"github.com/alexamies/chinesenotes-go/tokenizer"
 	"github.com/alexamies/cnreader/analysis"
 	"github.com/alexamies/cnreader/config"
 	"github.com/alexamies/cnreader/corpus"
@@ -61,8 +63,14 @@ func main() {
 			log.Printf("main: input file: %s, output file: %s, template: %s\n",
 				src, dest, templateFile)
 			text := fileLibraryLoader.GetCorpusLoader().ReadText(src)
+			wdict, err := fileloader.LoadDictFile(config.LUFileNames())
+			if err != nil {
+				log.Fatal("Error opening dictionary, ", err)
+				os.Exit(1)
+			}
+			dictTokenizer := tokenizer.DictTokenizer{wdict}
 			tokens, results := analysis.ParseText(text, "",
-				corpus.NewCorpusEntry())
+				corpus.NewCorpusEntry(), dictTokenizer)
 			analysis.WriteDoc(tokens, results.Vocab, dest, conversion.Template,
 				templateFile, conversion.GlossChinese, conversion.Title)
 		}

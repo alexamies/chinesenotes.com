@@ -106,7 +106,14 @@ type WFResult struct {
       marked up text with links and highlight
 */
 func decodeUsageExample(usageText string, headword dictionary.HeadwordDef) string {
-	tokens, _ := ParseText(usageText, "", corpus.NewCorpusEntry())
+	wdict, err := fileloader.LoadDictFile(config.LUFileNames())
+	if err != nil {
+		log.Fatal("Error opening dictionary, ", err)
+		os.Exit(1)
+	}
+	dictTokenizer := tokenizer.DictTokenizer{wdict}
+	tokens, _ := ParseText(usageText, "", corpus.NewCorpusEntry(),
+			dictTokenizer)
 	replacementText := ""
 	for e := tokens.Front(); e != nil; e = e.Next() {
 		word := e.Value.(string)
@@ -169,6 +176,12 @@ func GetWordFrequencies(libLoader library.LibraryLoader) VocabAnalysis {
 
 	corpLoader := libLoader.GetCorpusLoader()
 	collectionEntries := corpLoader.LoadCorpus(corpus.COLLECTIONS_FILE)
+	wdict, err := fileloader.LoadDictFile(config.LUFileNames())
+	if err != nil {
+		log.Fatal("Error opening dictionary, ", err)
+		os.Exit(1)
+	}
+	dictTokenizer := tokenizer.DictTokenizer{wdict}
 	for _, col := range collectionEntries {
 		colFile := col.CollectionFile
 		//log.Printf("GetWordFrequencies: input file: %s\n", colFile)
@@ -177,7 +190,7 @@ func GetWordFrequencies(libLoader library.LibraryLoader) VocabAnalysis {
 			src := corpusDir + entry.RawFile
 			text := corpLoader.ReadText(src)
 			ccount += utf8.RuneCountInString(text)
-			_, results := ParseText(text, col.Title, &entry)
+			_, results := ParseText(text, col.Title, &entry, dictTokenizer)
 			wcTotal[col.Corpus] += results.WC
 
 			// Process collocations
@@ -269,7 +282,8 @@ func span(entries []*dictionary.WordSenseEntry, text string) string {
 // Returns:
 //   tokens: the tokens for the parsed text
 //   results: vocabulary analysis results
-func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
+func ParseText(text string, colTitle string, document *corpus.CorpusEntry,
+		dictTokenizer tokenizer.Tokenizer) (
 		tokens list.List, results CollectionAResults) {
 	vocab := map[string]int{}
 	bigrams := map[string]int{}
@@ -280,12 +294,6 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry) (
 	wc := 0
 	cc := 0
 	chunks := GetChunks(text)
-	wdict, err := fileloader.LoadDictFile(config.LUFileNames())
-	if err != nil {
-		log.Fatal("Error opening dictionary, ", err)
-		os.Exit(1)
-	}
-	dictTokenizer := tokenizer.DictTokenizer{wdict}
 	hwIdMap := dictionary.GetHwMap()
 	lastHWPtr := new(dictionary.HeadwordDef)
 	lastHW := *lastHWPtr
@@ -619,7 +627,8 @@ func writeAnalysis(results CollectionAResults, srcFile, glossFile,
 // collectionEntry: the CollectionEntry struct
 // baseDir: The base directory to use
 func writeCollection(collectionEntry corpus.CollectionEntry, baseDir string,
-		libLoader library.LibraryLoader) CollectionAResults {
+		libLoader library.LibraryLoader,
+		dictTokenizer tokenizer.DictTokenizer) CollectionAResults {
 
 	//log.Printf("analysis.writeCollection: enter CollectionFile =" +
 	//		collectionEntry.CollectionFile)
@@ -636,7 +645,8 @@ func writeCollection(collectionEntry corpus.CollectionEntry, baseDir string,
 		//		"empty, input file: %s, output file: %s\n", src, dest)
 		//}
 		text := corpLoader.ReadText(src)
-		tokens, results := ParseText(text, collectionEntry.Title, &entry)
+		tokens, results := ParseText(text, collectionEntry.Title, &entry,
+				dictTokenizer)
 		aFile := writeAnalysis(results, entry.RawFile, entry.GlossFile,
 			collectionEntry.Title, entry.Title)
 		sourceFormat := "TEXT"
@@ -672,8 +682,15 @@ func WriteCorpus(collections []corpus.CollectionEntry, baseDir string,
 	docFreq := index.NewDocumentFrequency() // used to accumulate doc frequencies
 	bigramDF := index.NewDocumentFrequency()
 	aResults := NewCollectionAResults()
+	wdict, err := fileloader.LoadDictFile(config.LUFileNames())
+	if err != nil {
+		log.Fatal("Error opening dictionary, ", err)
+		os.Exit(1)
+	}
+	dictTokenizer := tokenizer.DictTokenizer{wdict}
 	for _, collectionEntry := range collections {
-		results := writeCollection(collectionEntry, baseDir, libLoader)
+		results := writeCollection(collectionEntry, baseDir, libLoader,
+				dictTokenizer)
 		aResults.AddResults(results)
 		docFreq.AddDocFreq(results.DocFreq)
 		bigramDF.AddDocFreq(results.BigramDF)
@@ -707,7 +724,13 @@ func WriteCorpusCol(collectionFile string,
 	if err != nil {
 		log.Fatalf("analysis.WriteCorpusCol: fatal error %v", err)
 	}
-	writeCollection(collectionEntry, config.WebDir(), libLoader)
+	wdict, err := fileloader.LoadDictFile(config.LUFileNames())
+	if err != nil {
+		log.Fatal("Error opening dictionary, ", err)
+		os.Exit(1)
+	}
+	dictTokenizer := tokenizer.DictTokenizer{wdict}
+	writeCollection(collectionEntry, config.WebDir(), libLoader, dictTokenizer)
 }
 
 // Writes a corpus document with markup for the array of tokens
