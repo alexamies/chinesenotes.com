@@ -136,3 +136,16 @@
 6000136	厄瓜多尔	厄瓜多爾	èguāduōěr	Ecuador	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 207; XHZD, p. 707)	6000136
 6000137	萨马兰奇	薩馬蘭奇	Sàmǎlánqí	Juan Antonio Samaranch	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	1920-; Spanish olympic official, President of International Olympic Committee 1980-2001 (Wikipedia '胡安·安东尼奥·萨马兰奇')	6000137
 6000138	法属波利尼西亚	法屬波利尼西亞	fǎshǔ pōlìníxīyà	French Polynesia	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The largest island in French Polynesia is Tahiti 大溪地 (SDC, p. 173; XHZD, p. 705)	6000138
+6000139	菲律宾	菲律賓	fēilǜbīn	Philippines	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(MPRC; SDC, p. 24; XHZD, p. 698)	6000139
+6000140	斐济	斐濟	fěijǐ	Fiji	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The Republic of Fiji (SDC, p. 175; XHZD, p. 704)	6000140
+6000141	佛得角	\N	fódéjiǎo	Cape Verde	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 109; XHZD, p. 702)	6000141
+6000142	冈比亚	岡比亞	gāngbǐyà	Gambia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 130; XHZD, p. 702)	6000142
+6000143	哥伦比亚	哥倫比亞	gēlúnbǐyà	Colombia	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	The Republic of Colombia (SDC, p. 206; XHZD, p. 707)	6000143
+6000144	加拿大	\N	jiānádà	Canada	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	Abbreviation is 加 (SDC, p. 176; XHZD, p. 705)	6000144
+6000145	哥斯达黎加	哥斯達黎加	gēsīdálíjiā	Costa Rica	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Republic of Costa Rica (SDC, p. 190; XHZD, p. 706)	6000145
+6000146	圭亚那	圭亞那	guīyànà	Guyana	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	The Republic of Guyana (SDC, p. 210; XHZD, p. 707)	6000146
+6000147	海地	\N	hǎidì	Haiti	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Republic of Haiti (SDC, p. 195; XHZD, p. 706)	6000147
+6000148	吉布提	\N	jíbùtí	Djibouti	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 139; XHZD, p. 702)	6000148
+6000149	洪都拉斯	\N	hóngdūlāsī	Honduras	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Republic of Honduras (SDC, p. 187; XHZD, p. 706)	6000149
+6000150	几内亚	幾內亞	jīnèiyà	Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 130; XHZD, p. 702)	6000150
+6000151	加纳	加納	jiānà	Ghana	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 122; XHZD, p. 702)	6000151
