@@ -149,3 +149,26 @@
 6000149	洪都拉斯	\N	hóngdūlāsī	Honduras	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Republic of Honduras (SDC, p. 187; XHZD, p. 706)	6000149
 6000150	几内亚	幾內亞	jīnèiyà	Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 130; XHZD, p. 702)	6000150
 6000151	加纳	加納	jiānà	Ghana	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 122; XHZD, p. 702)	6000151
+6000152	埃及	\N	aījí	Egypt	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	ai1ji2.mp3	(SDC, p. 112; XHZD, p. 702)	6000152
+6000153	埃塞俄比亚	埃塞俄比亞	aīsàiébǐyà	Ethiopia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 132)	6000153
+6000154	柬埔寨	\N	jiǎnpǔzhài	Cambodia	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 20; XHZD, p. 698)	6000154
+6000155	捷克	捷剋	jiékè	Czech	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Full name is 捷克共和国 (SDC, p. 82; XHZD, p. 700)	6000155
+6000156	津巴布韦	津巴布韋	jīnbābùwéi	Zimbabwe	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Zimbabwe (SDC, p. 156; XHZD, p. 703)	6000156
+6000157	卡塔尔	卡塔爾	kǎtǎěr	Qatar	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 52; XHZD, p. 699)	6000157
+6000158	开曼群岛	開曼群島	kāimàn qúndǎo	Cayman Islands	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 194; XHZD, p. 706)	6000158
+6000159	科威特	\N	kēwēitè	Kuwait	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 45; XHZD, p. 699)	6000159
+6000160	肯尼亚	肯尼亞	kěnníyà	Kenya	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 141; XHZD, p. 703)	6000160
+6000161	老挝	老撾	lǎowō	Laos	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 18; XHZD, p. 698)	6000161
+6000162	黎巴嫩	\N	líbānèn	Lebanon	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Short form is 黎 (SDC, p. 48; XHZD, p. 699)	6000162
+6000163	利比里亚	利比裡亞	lìbǐlǐyà	Liberia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 123; XHZD, p. 702)	6000163
+6000164	利比亚	利比亞	lìbǐyà	Libya	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 116; XHZD, p. 702)	6000164
+6000165	卢旺达	盧旺達	lúwàngdá	Rwanda	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Rwanda (SDC, p. 140; XHZD, p. 703)	6000165
+6000166	罗马尼亚	羅馬尼亞	luómǎníyà	Romania	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 100; XHZD, p. 701)	6000166
+6000167	马达加斯加	馬達加斯加	mǎdájiāsījiā	Madagascar	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Madagascar (SDC, p. 152; XHZD, p. 703)	6000167
+6000168	马耳他	馬耳他	mǎěrtā	Malta	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 89; XHZD, p. 701)	6000168
+6000169	马尔代夫	馬爾代夫	mǎěrdàifū	Maldives	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	The Republic of Maldives (SDC, p. 32; XHZD, p. 699)	6000169
+6000170	福克兰群岛	福克蘭群島	fúkèlán qúndǎo	Falkland Islands	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	The Falkland Islands are also known as  马尔维纳斯群岛 (Mǎěrwéinàsī qúndǎo or Malvinas Islands)	6000170
+6000171	马拉维	馬拉維	mǎlāwéi	Malawi	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Malawi (SDC, p. 150; XHZD, p. 703)	6000171
+6000172	毛里求斯	毛裡求斯	máolǐqiúsī	Mauritius	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Mauritius (SDC, p. 152; XHZD, p. 703)	6000172
+6000173	毛里塔尼亚	毛裡塔尼亞	máolǐtǎníyà	Mauritania	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 128; XHZD, p. 702)	6000173
+6000174	欧洲联盟	歐洲聯盟	Ōuzhōu Liánméng	European Union	proper noun	联盟	Political Union	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Abbreviation is 欧盟	6000174
