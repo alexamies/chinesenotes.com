@@ -24,6 +24,7 @@ import (
 	"fmt"
 	"github.com/alexamies/chinesenotes-go/applog"
 	"github.com/alexamies/chinesenotes-go/dictionary"
+	"github.com/alexamies/chinesenotes-go/dicttypes"
 	"github.com/alexamies/chinesenotes-go/find"
 	"github.com/alexamies/chinesenotes-go/fulltext"
 	"log"
@@ -35,7 +36,7 @@ const STATIC_DIR string = "./static"
 
 var (
 	parser find.QueryParser
-	wdict map[string]dictionary.Word
+	wdict map[string]dicttypes.Word
 )
 
 func init() {
@@ -45,7 +46,7 @@ func init() {
 	if err != nil {
 		applog.Error("main.init() unable to load dictionary: ", err)
 	}
-	parser = find.DictQueryParser{wdict}
+	parser = find.MakeQueryParser(wdict)
 }
 
 // Finds documents matching the given query with search in text body
@@ -102,8 +103,8 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 			MatchDetails: ft,
 		}
 		doc := []find.Document{doc0}
-		senses0 := []dictionary.WordSense{}
-		sense1 := dictionary.WordSense{
+		senses0 := []dicttypes.WordSense{}
+		sense1 := dicttypes.WordSense{
 			Id: 5925,
 			HeadwordId: 5925,
 			Simplified: "诗",
@@ -112,8 +113,8 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 			English: "poem",
 			Notes: "",
 		}
-		senses1 := []dictionary.WordSense{sense1}
-		entry1 := dictionary.Word{
+		senses1 := []dicttypes.WordSense{sense1}
+		entry1 := dicttypes.Word{
 			Simplified: "诗",
 			Traditional: "詩",
 			Pinyin: "shī",
@@ -164,7 +165,7 @@ func findHandler(response http.ResponseWriter, request *http.Request) {
 // Finds terms matching the given query with a substring match
 func findSubstring(response http.ResponseWriter, request *http.Request) {
 	applog.Info("main.findSubstring, enter")
-	sense := dictionary.WordSense{
+	sense := dicttypes.WordSense{
 			Id: 62084,
 			HeadwordId: 62084,
 			Simplified: "同床异梦",
@@ -173,15 +174,15 @@ func findSubstring(response http.ResponseWriter, request *http.Request) {
 			English: "to share the same bed with different dreams",
 			Notes: "",
 	}
-	senses := []dictionary.WordSense{sense}
-	word := dictionary.Word{
+	senses := []dicttypes.WordSense{sense}
+	word := dicttypes.Word{
 		Simplified: "同床异梦",
 		Traditional: "同床異夢",
 		Pinyin: "tóng chuáng yì mèng",
 		HeadwordId: 62084,
 		Senses: senses,
 	}
-	words := []dictionary.Word{word}
+	words := []dicttypes.Word{word}
 	results := dictionary.Results{words}
 	resultsJson, err := json.Marshal(results)
 	if err != nil {

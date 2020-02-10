@@ -47,6 +47,13 @@ func main() {
 	fname := config.ProjectHome() + "/" + library.LibraryFile
 	fileLibraryLoader := library.FileLibraryLoader{fname}
 
+	wdict, err := fileloader.LoadDictFile(config.LUFileNames())
+	if err != nil {
+		log.Fatal("Error opening dictionary, ", err)
+		os.Exit(1)
+	}
+	dictTokenizer := tokenizer.DictTokenizer{wdict}
+
 	if (*collectionFile != "") {
 		log.Printf("main: Analyzing collection %s\n", *collectionFile)
 		analysis.WriteCorpusCol(*collectionFile, fileLibraryLoader)
@@ -63,12 +70,6 @@ func main() {
 			log.Printf("main: input file: %s, output file: %s, template: %s\n",
 				src, dest, templateFile)
 			text := fileLibraryLoader.GetCorpusLoader().ReadText(src)
-			wdict, err := fileloader.LoadDictFile(config.LUFileNames())
-			if err != nil {
-				log.Fatal("Error opening dictionary, ", err)
-				os.Exit(1)
-			}
-			dictTokenizer := tokenizer.DictTokenizer{wdict}
 			tokens, results := analysis.ParseText(text, "",
 				corpus.NewCorpusEntry(), dictTokenizer)
 			analysis.WriteDoc(tokens, results.Vocab, dest, conversion.Template,
@@ -79,7 +80,7 @@ func main() {
 		dictionary.WriteHeadwords()
 	} else if *hwFiles {
 		log.Printf("main: Writing word entries for headwords\n")
-		analysis.WriteHwFiles(fileLibraryLoader)
+		analysis.WriteHwFiles(fileLibraryLoader, dictTokenizer)
 	} else if *librarymeta {
 		log.Printf("main: Writing digital library metadata\n")
 		fname := config.ProjectHome() + "/" + library.LibraryFile

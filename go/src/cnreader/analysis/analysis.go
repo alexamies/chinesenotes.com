@@ -105,13 +105,8 @@ type WFResult struct {
    Return
       marked up text with links and highlight
 */
-func decodeUsageExample(usageText string, headword dictionary.HeadwordDef) string {
-	wdict, err := fileloader.LoadDictFile(config.LUFileNames())
-	if err != nil {
-		log.Fatal("Error opening dictionary, ", err)
-		os.Exit(1)
-	}
-	dictTokenizer := tokenizer.DictTokenizer{wdict}
+func decodeUsageExample(usageText string, headword dictionary.HeadwordDef,
+		dictTokenizer tokenizer.Tokenizer) string {
 	tokens, _ := ParseText(usageText, "", corpus.NewCorpusEntry(),
 			dictTokenizer)
 	replacementText := ""
@@ -874,7 +869,8 @@ func writeHTMLDoc(tokens list.List, vocab map[string]int, filename,
 }
 
 // Writes dictionary headword entries
-func WriteHwFiles(loader library.LibraryLoader) {
+func WriteHwFiles(loader library.LibraryLoader,
+		dictTokenizer tokenizer.Tokenizer) {
 	log.Printf("analysis.WriteHwFiles: Begin +++++++++++\n")
 	index.BuildIndex()
 	log.Printf("analysis.WriteHwFiles: Get headwords\n")
@@ -949,7 +945,7 @@ func WriteHwFiles(loader library.LibraryLoader) {
 		// Decorate useage text
 		hlUsageArr := []WordUsage{}
 		for _, wu := range *usageArrPtr {
-			hlText := decodeUsageExample(wu.Example, hw)
+			hlText := decodeUsageExample(wu.Example, hw, dictTokenizer)
 			hlWU := WordUsage{
 				Freq:       wu.Freq,
 				RelFreq:    wu.RelFreq,

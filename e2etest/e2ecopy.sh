@@ -6,6 +6,7 @@ mkdir data
 cp ../data/words.txt data/.
 cp ../data/translation_memory_literary.txt data/.
 cp ../data/translation_memory_modern.txt data/.
+cp ../data/modern_named_entities.txt data/.
 cp ../web-staging/advanced_search.html static/.
 cp ../web-staging/index.html static/.
 cp ../web-staging/idioms.html static/.
