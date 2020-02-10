@@ -172,3 +172,14 @@
 6000172	毛里求斯	毛裡求斯	máolǐqiúsī	Mauritius	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Mauritius (SDC, p. 152; XHZD, p. 703)	6000172
 6000173	毛里塔尼亚	毛裡塔尼亞	máolǐtǎníyà	Mauritania	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 128; XHZD, p. 702)	6000173
 6000174	欧洲联盟	歐洲聯盟	Ōuzhōu Liánméng	European Union	proper noun	联盟	Political Union	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Abbreviation is 欧盟	6000174
+6000175	爱尔兰	愛爾蘭	aìěrlán	Ireland	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 86; XHZD, p. 701)	6000175
+6000176	马来西亚	馬來西亞	mǎláixīyà	Malaysia	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	ma3lai2xi1ya4.mp3	Short form is 马 (SDC, p. 24; XHZD, p. 698)	6000176
+6000177	孟加拉国	孟加拉國	mèngjiālāguó	Bangladesh	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Full name is 孟加拉共和国 'Republic of Bangladesh' (SDC, p. 33; XHZD, p. 699)	6000177
+6000178	摩洛哥	\N	móluògē	Morocco	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Kingdom of Morocco (SDC, p. 117; XHZD, p. 702)	6000178
+6000179	莫桑比克	\N	mòsāngbǐkè	Mozambique	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Mozambique (SDC, p. 151; XHZD, p. 703)	6000179
+6000180	墨西哥	\N	mòxīgē	Mexico	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	Short form is 墨 (SDC, p. 183; XHZD, p. 705)	6000180
+6000181	尼泊尔	尼泊爾	níbóěr	Nepal	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	The Federal Democratic Republic of Nepal (SDC, p. 32; XHZD, p. 698)	6000181
+6000182	尼加拉瓜	\N	níjiālāguā	Nicaragua	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Republic of Nicaragua (SDC, p. 187; XHZD, p. 706)	6000182
+6000183	尼日利亚	尼日利亞	nírìlìyà	Nigeria	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 126; XHZD, p. 702)	6000183
+6000184	挪威	\N	nuówēi	Norway	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 62; XHZD, p. 700)	6000184
+6000185	瑞典	\N	ruìdiǎn	Sweden	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 62; XHZD, p. 700)	6000185
