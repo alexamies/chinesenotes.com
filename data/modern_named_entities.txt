@@ -183,3 +183,11 @@
 6000183	尼日利亚	尼日利亞	nírìlìyà	Nigeria	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 126; XHZD, p. 702)	6000183
 6000184	挪威	\N	nuówēi	Norway	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 62; XHZD, p. 700)	6000184
 6000185	瑞典	\N	ruìdiǎn	Sweden	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 62; XHZD, p. 700)	6000185
+6000186	瑞士	\N	ruìshì	Switzerland	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 78; XHZD, p. 700)	6000186
+6000187	阿曼	\N	Āmàn	Oman	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 53; XHZD, p. 699)	6000187
+6000188	荷属安的列斯	荷屬安的列斯	Héshǔ Āndelièsī	Netherlands Antilles	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	A former Dutch territory (XHZD, p. 707)	6000188
+6000189	萨尔瓦多	薩爾瓦多	sàěrwǎduō	El Salvador	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Republic of El Salvador (SDC, p. 186; XHZD, p. 705)	6000189
+6000190	塞拉利昂	\N	sàilālìáng	Sierra Leone	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 131; XHZD, p. 702)	6000190
+6000191	塞浦路斯	\N	sàipǔlùsī	Cyprus	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 55; XHZD, p. 702)	6000191
+6000192	塞舌尔	塞舌爾	sāishéěr	Seychelles	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Republic of Seychelles (SDC, p. 152; XHZD, p. 703)	6000192
+6000193	沙特阿拉伯	\N	shātè ālābó	Saudi Arabia	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Short form is 沙特 (SDC, p. 49; XHZD, p. 699)	6000193

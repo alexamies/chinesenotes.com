@@ -56,7 +56,8 @@ func main() {
 
 	if (*collectionFile != "") {
 		log.Printf("main: Analyzing collection %s\n", *collectionFile)
-		analysis.WriteCorpusCol(*collectionFile, fileLibraryLoader)
+		analysis.WriteCorpusCol(*collectionFile, fileLibraryLoader,
+				dictTokenizer)
 	} else if *html {
 		log.Printf("main: Converting all HTML files\n")
 		conversions := config.GetHTMLConversions()
@@ -93,10 +94,10 @@ func main() {
 			TargetStatus: "public",
 			Loader: fileLibraryLoader,
 		}
-		analysis.WriteLibraryFiles(lib)
+		analysis.WriteLibraryFiles(lib, dictTokenizer)
 	} else {
 		log.Printf("main: Writing out entire corpus\n")
-		analysis.WriteCorpusAll(fileLibraryLoader)
+		analysis.WriteCorpusAll(fileLibraryLoader, dictTokenizer)
 	}
 
 	// Memory profiling

@@ -8,7 +8,6 @@ import (
 	"bytes"
 	"container/list"
 	"fmt"
-	"github.com/alexamies/chinesenotes-go/fileloader"
 	"github.com/alexamies/chinesenotes-go/tokenizer"
 	"github.com/alexamies/cnreader/config"
 	"github.com/alexamies/cnreader/corpus"
@@ -157,7 +156,8 @@ func GetChunks(text string) list.List {
 }
 
 // Compute word frequencies, collocations, and usage for the entire corpus
-func GetWordFrequencies(libLoader library.LibraryLoader) VocabAnalysis {
+func GetWordFrequencies(libLoader library.LibraryLoader,
+		dictTokenizer tokenizer.Tokenizer) VocabAnalysis {
 
 	log.Printf("analysis.GetWordFrequencies: enter")
 
@@ -171,12 +171,6 @@ func GetWordFrequencies(libLoader library.LibraryLoader) VocabAnalysis {
 
 	corpLoader := libLoader.GetCorpusLoader()
 	collectionEntries := corpLoader.LoadCorpus(corpus.COLLECTIONS_FILE)
-	wdict, err := fileloader.LoadDictFile(config.LUFileNames())
-	if err != nil {
-		log.Fatal("Error opening dictionary, ", err)
-		os.Exit(1)
-	}
-	dictTokenizer := tokenizer.DictTokenizer{wdict}
 	for _, col := range collectionEntries {
 		colFile := col.CollectionFile
 		//log.Printf("GetWordFrequencies: input file: %s\n", colFile)
@@ -293,7 +287,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry,
 	lastHWPtr := new(dictionary.HeadwordDef)
 	lastHW := *lastHWPtr
 	lastHWText := ""
-	//fmt.Printf("ParseText: For text %s got %d chunks\n", text, chunks.Len())
+	//fmt.Printf("ParseText: For text %s got %d chunks\n", colTitle, chunks.Len())
 	for e := chunks.Front(); e != nil; e = e.Next() {
 		chunk := e.Value.(string)
 		//fmt.Printf("ParseText: chunk %s\n", chunk)
@@ -306,6 +300,7 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry,
 			continue
 		}
 		tokens := dictTokenizer.Tokenize(chunk)
+		//fmt.Printf("ParseText: len(tokens) %d\n", len(tokens))
 		for _, token := range tokens {
 			w := token.Token
 			if !corpus.IsExcluded(w) {
@@ -623,10 +618,10 @@ func writeAnalysis(results CollectionAResults, srcFile, glossFile,
 // baseDir: The base directory to use
 func writeCollection(collectionEntry corpus.CollectionEntry, baseDir string,
 		libLoader library.LibraryLoader,
-		dictTokenizer tokenizer.DictTokenizer) CollectionAResults {
+		dictTokenizer tokenizer.Tokenizer) CollectionAResults {
 
-	//log.Printf("analysis.writeCollection: enter CollectionFile =" +
-	//		collectionEntry.CollectionFile)
+	log.Printf("analysis.writeCollection: enter CollectionFile =" +
+			collectionEntry.CollectionFile)
 	corpLoader := libLoader.GetCorpusLoader()
 	corpusEntries := corpLoader.LoadCollection(collectionEntry.CollectionFile,
 		collectionEntry.Title)
@@ -669,7 +664,7 @@ func writeCollection(collectionEntry corpus.CollectionEntry, baseDir string,
 // collections: The set of collections to write to HTML
 // baseDir: The base directory to use to write the files
 func WriteCorpus(collections []corpus.CollectionEntry, baseDir string,
-		libLoader library.LibraryLoader) {
+		libLoader library.LibraryLoader, dictTokenizer tokenizer.Tokenizer) {
 	log.Printf("analysis.WriteCorpus: enter")
 	index.Reset()
 	wfDocMap := index.TermFreqDocMap{}
@@ -677,12 +672,6 @@ func WriteCorpus(collections []corpus.CollectionEntry, baseDir string,
 	docFreq := index.NewDocumentFrequency() // used to accumulate doc frequencies
 	bigramDF := index.NewDocumentFrequency()
 	aResults := NewCollectionAResults()
-	wdict, err := fileloader.LoadDictFile(config.LUFileNames())
-	if err != nil {
-		log.Fatal("Error opening dictionary, ", err)
-		os.Exit(1)
-	}
-	dictTokenizer := tokenizer.DictTokenizer{wdict}
 	for _, collectionEntry := range collections {
 		results := writeCollection(collectionEntry, baseDir, libLoader,
 				dictTokenizer)
@@ -703,28 +692,24 @@ func WriteCorpus(collections []corpus.CollectionEntry, baseDir string,
 }
 
 // Write all the collections in the default corpus (collections.csv file)
-func WriteCorpusAll(libLoader library.LibraryLoader) {
+func WriteCorpusAll(libLoader library.LibraryLoader,
+		dictTokenizer tokenizer.Tokenizer) {
 	log.Printf("analysis.WriteCorpusAll: enter")
 	corpLoader := libLoader.GetCorpusLoader()
 	collections := corpLoader.LoadCorpus(corpus.COLLECTIONS_FILE)
-	WriteCorpus(collections, config.WebDir(), libLoader)
+	WriteCorpus(collections, config.WebDir(), libLoader, dictTokenizer)
 }
 
 // Writes a corpus document collection to HTML, including all the entries
 // contained in the collection
 // collectionFile: the name of the collection file
 func WriteCorpusCol(collectionFile string,
-			libLoader library.LibraryLoader) {
+			libLoader library.LibraryLoader,
+			dictTokenizer tokenizer.Tokenizer) {
 	collectionEntry, err := libLoader.GetCorpusLoader().GetCollectionEntry(collectionFile)
 	if err != nil {
 		log.Fatalf("analysis.WriteCorpusCol: fatal error %v", err)
 	}
-	wdict, err := fileloader.LoadDictFile(config.LUFileNames())
-	if err != nil {
-		log.Fatal("Error opening dictionary, ", err)
-		os.Exit(1)
-	}
-	dictTokenizer := tokenizer.DictTokenizer{wdict}
 	writeCollection(collectionEntry, config.WebDir(), libLoader, dictTokenizer)
 }
 
@@ -875,7 +860,7 @@ func WriteHwFiles(loader library.LibraryLoader,
 	index.BuildIndex()
 	log.Printf("analysis.WriteHwFiles: Get headwords\n")
 	hwArray := dictionary.GetHeadwords()
-	vocabAnalysis := GetWordFrequencies(loader)
+	vocabAnalysis := GetWordFrequencies(loader, dictTokenizer)
 	usageMap := vocabAnalysis.UsageMap
 	collocations := vocabAnalysis.Collocations
 	corpusEntryMap := loader.GetCorpusLoader().LoadAll(corpus.COLLECTIONS_FILE)
@@ -1020,7 +1005,7 @@ func writeLibraryFile(lib library.Library, corpora []library.CorpusData,
 
 // Writes a HTML file describing the corpora in the library and for each corpus
 // in the library
-func WriteLibraryFiles(lib library.Library) {
+func WriteLibraryFiles(lib library.Library, dictTokenizer tokenizer.Tokenizer) {
 	corpora := lib.Loader.LoadLibrary()
 	libraryOutFile := config.WebDir() + "/library.html"
 	writeLibraryFile(lib, corpora, libraryOutFile)
@@ -1052,7 +1037,7 @@ func WriteLibraryFiles(lib library.Library) {
 		}
 		fName := fmt.Sprintf(c.FileName)
 		collections := lib.Loader.GetCorpusLoader().LoadCorpus(fName)
-		WriteCorpus(collections, baseDir, lib.Loader)
+		WriteCorpus(collections, baseDir, lib.Loader, dictTokenizer)
 		corpus := library.Corpus{c.Title, "", lib.DateUpdated, collections}
 		f, err := os.Create(outputFile)
 		if err != nil {
