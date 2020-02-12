@@ -299,11 +299,12 @@ func ParseText(text string, colTitle string, document *corpus.CorpusEntry,
 			lastHWText = ""
 			continue
 		}
-		tokens := dictTokenizer.Tokenize(chunk)
+		textTokens := dictTokenizer.Tokenize(chunk)
 		//fmt.Printf("ParseText: len(tokens) %d\n", len(tokens))
-		for _, token := range tokens {
+		for _, token := range textTokens {
 			w := token.Token
 			if !corpus.IsExcluded(w) {
+				tokens.PushBack(w)
 				wc++
 				cc += utf8.RuneCountInString(w)
 				vocab[w]++
