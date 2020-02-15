@@ -191,3 +191,36 @@
 6000191	塞浦路斯	\N	sàipǔlùsī	Cyprus	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 55; XHZD, p. 702)	6000191
 6000192	塞舌尔	塞舌爾	sāishéěr	Seychelles	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Republic of Seychelles (SDC, p. 152; XHZD, p. 703)	6000192
 6000193	沙特阿拉伯	\N	shātè ālābó	Saudi Arabia	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Short form is 沙特 (SDC, p. 49; XHZD, p. 699)	6000193
+6000194	斯里兰卡	斯里蘭卡	sīlǐlánkǎ	Sri Lanka	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 29; XHZD, p. 699)	6000194
+6000195	斯威士兰	斯威士蘭	sīwēishìlán	Swaziland	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Kingdom of Swaziland (SDC, p. 157; XHZD, p. 703)	6000195
+6000196	苏丹	蘇丹	sūdān	Sudan	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 112; XHZD, p. 702)	6000196
+6000197	苏里南	蘇裡南	sūlǐnán	Suriname	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 211; XHZD, p. 707)	6000197
+6000198	索马里	索馬裡	suǒmǎlǐ	Somalia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 136)	6000198
+6000199	特立尼达和多巴哥	特立尼達和多巴哥	tèlìnídá hé Duōbāgē	Trinidad and Tobago	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	A Caribbean island nation (SDC, p. 200; XHZD, p. 707)	6000199
+6000200	突尼斯	\N	tūnísī	Tunisia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Tunisia (SDC, p. 116; XHZD, p. 702)	6000200
+6000201	土耳其	\N	tǔ'ěrqí	Turkey	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 57; XHZD, p. 699)	6000201
+6000202	危地马拉	危地馬拉	Wēidìmǎlā	Guatemala	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Republic of Guatemala (SDC, p. 186; XHZD, p. 705)	6000202
+6000203	委内瑞拉	委內瑞拉	wěinèiruìlā	Venezuela	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 206; XHZD, p. 707)	6000203
+6000204	乌干达	烏干達	wūgāndá	Uganda	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Uganda (SDC, p. 140; XHZD, p. 703)	6000204
+6000205	乌拉圭	烏拉圭	wūlāguī	Uruguay	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 215; XHZD, p. 707)	6000205
+6000206	新西兰	新西蘭	xīnxīlán	New Zealand	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	Term used in Mainland China (SDC, p. 165; XHZD, p. 704)	6000206
+6000207	巴布亚新几内亚	巴布亞新幾內亞	bābùyà xīn jǐnèiyà	Papua New Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	The Independent State of Papua New Ginea (SDC, p. 164; XHZD, p. 704)	6000207
+6000208	俄罗斯	俄羅斯	Éluósī	Russia	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	e2luo2si1.mp3	Short form is 俄 (MPRC; SDC, p. 68; XHZD, p. 700)	6000208
+6000209	南非	\N	nánfēi	South Africa	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of South Africa (SDC, p. 156; XHZD, p. 703)	6000209
+6000210	北韩	北韓	běihán	North Korea	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Full form is 朝鲜民主主义人民共和国 People's Democratic Republic of Korea (CC-CEDICT '北韓'; Guoyu '北韓')	6000210
+6000211	萨摩亚	薩摩亞	Sàmóyà	Samoa	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The Independent State of Samoa (SDC, p. 172; XHZD, p. 704)	6000211
+6000212	阿拉伯联合酋长国	阿拉伯聯合酋長國	Ālābó Liánhé Qiúchángguó	United Arab Emirates	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Short form is 阿联酋 (SDC, p. 52; XHZD, p. 699)	6000212
+6000213	匈牙利	\N	xiōngyálì	Hungary	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Short form is 匈 (SDC 82; XHZD, p. 700)	6000213
+6000214	也门	也門	Yěmén	Yemen	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 53; XHZD, p. 699)	6000214
+6000215	伊拉克	\N	yīlākè	Iraq	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	yi1la1ke4.mp3	Often abbreviated to 伊 (SDC, p. 45; XHZD, p. 699)	6000215
+6000216	伊朗	\N	yīlǎng	Iran	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Often abbreviated to 伊 (SDC, p. 29; XHZD, p. 699)	6000216
+6000217	印度尼西亚	印度尼西亞	yìndùníxīyà	Indonesia	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	yin4du4ni2xi1ya4.mp3	Often abbreviated to 印尼 (SDC 28; XHZD, p. 698)	6000217
+6000218	约旦	約旦	yuēdàn	Jordan	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 57; XHZD, p. 699)	6000218
+6000219	赞比亚	贊比亞	zànbǐyà	Zambia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Zambia (SDC, p. 150; XHZD, p. 703)	6000219
+6000220	扎伊尔	扎伊爾	zhāyīěr	Zaire	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Now known as the Democratic Republic of the Congo. See 刚果民主共和国 (TGN 'Democratic Republic of the Congo')	6000220
+6000221	智利	\N	zhìlì	Chile	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 214; XHZD, p. 707)	6000221
+6000222	古巴	\N	gǔbā	Cuba	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 190; XHZD, p. 706)	6000222
+6000223	巴拿马	巴拿馬	bānámǎ	Panama	noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 190; XHZD, p. 706)	6000223
+6000224	列克	列剋	lièkè	Lek	noun	货币	Currency	现代汉语	Modern Chinese	阿尔巴尼亚	Albania	\N	\N	Unit of currency in Albania (Wikipedia 'ISO_4217')	6000224
+6000225	阿尔及利亚第纳尔	阿爾及利亞第納爾	Āěrjílìyà dìnàěr	Algerian dinar	noun	货币	Currency	现代汉语	Modern Chinese	阿尔及利亚	Algeria	\N	\N	Unit of currency in Algeria (Wikipedia 'ISO_4217')	6000225
+6000226	阿富汗尼	\N	Āfùhànní	Afghani	noun	货币	Currency	现代汉语	Modern Chinese	阿富汗	Afghanistan	\N	\N	Unit of currency in Afghanistan (Wikipedia 'ISO_4217')	6000226
