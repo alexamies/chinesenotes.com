@@ -224,3 +224,15 @@
 6000224	列克	列剋	lièkè	Lek	noun	货币	Currency	现代汉语	Modern Chinese	阿尔巴尼亚	Albania	\N	\N	Unit of currency in Albania (Wikipedia 'ISO_4217')	6000224
 6000225	阿尔及利亚第纳尔	阿爾及利亞第納爾	Āěrjílìyà dìnàěr	Algerian dinar	noun	货币	Currency	现代汉语	Modern Chinese	阿尔及利亚	Algeria	\N	\N	Unit of currency in Algeria (Wikipedia 'ISO_4217')	6000225
 6000226	阿富汗尼	\N	Āfùhànní	Afghani	noun	货币	Currency	现代汉语	Modern Chinese	阿富汗	Afghanistan	\N	\N	Unit of currency in Afghanistan (Wikipedia 'ISO_4217')	6000226
+6000227	欧元	歐元	Ōuyuán	Euro	noun	货币	Currency	现代汉语	Modern Chinese	欧洲联盟	European Union	\N	\N	Unit of currency in the European Union (Wikipedia 'ISO_4217')	6000227
+6000228	阿根廷比索	\N	agēntíng bǐsuǒ	Argentine peso	noun	货币	Currency	现代汉语	Modern Chinese	阿根廷	Argentina	\N	\N	Unit of currency in Argentina (Wikipedia 'ISO_4217')	6000228
+6000229	澳大利亚元	澳大利亞元	Àodàlìyà yuán	Australian dollar	noun	货币	Currency	现代汉语	Modern Chinese	澳大利亚	Australia	\N	\N	Unit of currency in Australia (Wikipedia 'ISO_4217')	6000229
+6000230	加拿大元	\N	jiānádà yuán	Canadian dollar	noun	货币	Currency	现代汉语	Modern Chinese	加拿大	Canada	\N	\N	Unit of currency in Canada (Wikipedia 'ISO_4217')	6000230
+6000231	古巴比索	\N	Gǔbā bǐsuǒ	Cuban peso	noun	货币	Currency	现代汉语	Modern Chinese	古巴	Cuba	\N	\N	Unit of currency in Cuba (Wikipedia 'ISO_4217')	6000231
+6000232	埃及镑	埃及鎊	aījíbàng	Egyptian pound	noun	货币	Currency	现代汉语	Modern Chinese	埃及	Egypt	\N	\N	Unit of currency in Egypt (Wikipedia 'ISO_4217')	6000232
+6000233	印度卢比	印度盧比	yìndù lúbǐ	Indian rupee	noun	货币	Currency	现代汉语	Modern Chinese	印度	India	\N	\N	Unit of currency in India (Wikipedia 'ISO_4217')	6000233
+6000234	日元	\N	rìyuán	yen	noun	货币	Currency	现代汉语	Modern Chinese	日本	Japan	\N	\N	Unit of currency in Japan (Wikipedia 'ISO_4217')	6000234
+6000235	马来西亚令吉	馬來西亞令吉	mǎláixīyà lìngjí	ringgit	noun	货币	Currency	现代汉语	Modern Chinese	马来西亚	Malaysia	\N	\N	Unit of currency in Malaysia (Wikipedia 'ISO_4217')	6000235
+6000236	图格里克	圖格裡剋	túgélǐkè	tugrik	noun	货币	Currency	现代汉语	Modern Chinese	蒙古	Mongolia	\N	\N	Unit of currency in Mongolia (Wikipedia 'ISO_4217')	6000236
+6000237	尼泊尔卢比	尼泊尔盧比	níbóěr lúbǐ	Nepalese rupee	noun	货币	Currency	现代汉语	Modern Chinese	尼泊尔	Nepal	\N	\N	Unit of currency in Nepal (Wikipedia 'ISO_4217')	6000237
+6000238	荷属安的列斯盾	荷屬安的列斯盾	Héshǔ Āndelièsī dùn	Antillean guilder	noun	货币	Currency	现代汉语	Modern Chinese	荷属安的列斯	Netherlands Antilles	\N	\N	Unit of currency in Netherlands Antilles (Wikipedia 'ISO_4217')	6000238
