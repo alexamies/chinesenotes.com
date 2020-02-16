@@ -236,3 +236,16 @@
 6000236	图格里克	圖格裡剋	túgélǐkè	tugrik	noun	货币	Currency	现代汉语	Modern Chinese	蒙古	Mongolia	\N	\N	Unit of currency in Mongolia (Wikipedia 'ISO_4217')	6000236
 6000237	尼泊尔卢比	尼泊尔盧比	níbóěr lúbǐ	Nepalese rupee	noun	货币	Currency	现代汉语	Modern Chinese	尼泊尔	Nepal	\N	\N	Unit of currency in Nepal (Wikipedia 'ISO_4217')	6000237
 6000238	荷属安的列斯盾	荷屬安的列斯盾	Héshǔ Āndelièsī dùn	Antillean guilder	noun	货币	Currency	现代汉语	Modern Chinese	荷属安的列斯	Netherlands Antilles	\N	\N	Unit of currency in Netherlands Antilles (Wikipedia 'ISO_4217')	6000238
+6000239	新西兰元	新西蘭元	xīnxīlán yuán	New Zealand dollar	noun	货币	Currency	现代汉语	Modern Chinese	新西兰	New Zealand	\N	\N	Unit of currency in New Zealand (Wikipedia 'ISO_4217')	6000239
+6000240	阿曼里亚尔	裡亞爾	Āmàn lǐyàěr	Omani rial	noun	货币	Currency	现代汉语	Modern Chinese	阿曼	Oman	\N	\N	Unit of currency in Oman (Wikipedia 'ISO_4217')	6000240
+6000241	新加坡元	\N	xīnjiāpō yuán	Singapore dollar	noun	货币	Currency	现代汉语	Modern Chinese	新加坡	Singapore	\N	\N	Unit of currency in Singapore (Wikipedia 'ISO_4217')	6000241
+6000242	南非兰特	南非蘭特	nánfēi lántè	South African rand	noun	货币	Currency	现代汉语	Modern Chinese	南非	South Africa	\N	\N	Unit of currency in South Africa (Wikipedia 'ISO_4217')	6000242
+6000243	泰铢	泰銖	Tàizhū	Thai baht	noun	货币	Currency	现代汉语	Modern Chinese	泰国	Thailand	\N	\N	Unit of currency in Thailand (Wikipedia 'ISO_4217')	6000243
+6000244	迪拉姆	\N	dílāmǔ	dirham	noun	货币	Currency	现代汉语	Modern Chinese	阿拉伯联合酋长国	United Arab Emirates	\N	\N	Unit of currency in the United Arab Emirates (Wikipedia 'ISO_4217')	6000244
+6000245	埃塞俄比亚比尔	埃塞俄比亞比爾	Aīsàiébǐyàbǐěr	Ethiopian birr	noun	货币	Currency	现代汉语	Modern Chinese	埃塞俄比亚	Ethiopia	\N	\N	Unit of currency in Ethiopia (Wikipedia 'ISO_4217')	6000245
+6000246	宽扎	寬扎	kuānzā	kwanza	noun	货币	Currency	现代汉语	Modern Chinese	安哥拉	Angola	\N	\N	Unit of currency in the Angola (Wikipedia 'ISO_4217')	6000246
+6000247	东加勒比元	東加勒比元	dōng jiālèbǐ yuán	East Caribbean dollar	noun	货币	Currency	现代汉语	Modern Chinese	安提瓜和巴布达	Antigua and Barbuda	\N	\N	Unit of currency in Antigua, Dominica, Monterserrat, and Granada (Wikipedia 'ISO_4217')	6000247
+6000248	巴巴多斯元	\N	bābāduōsī yuán	Barbados dollar	noun	货币	Currency	现代汉语	Modern Chinese	巴巴多斯	Barbados	\N	\N	Unit of currency in Barbados (Wikipedia 'ISO_4217')	6000248
+6000249	基那	\N	jīnà	Kina	noun	货币	Currency	现代汉语	Modern Chinese	巴布亚新几内亚	Papua New Guinea	\N	\N	Unit of currency in Papua New Guinea (Wikipedia 'ISO_4217')	6000249
+6000250	巴哈马元	巴哈馬元	bāhāmǎ yuán	Bahamanian dollar	noun	货币	Currency	现代汉语	Modern Chinese	巴哈马	Bahamas	\N	\N	Unit of currency in the Bahamas (Wikipedia 'ISO_4217')	6000250
+6000251	巴基斯坦卢比	巴基斯坦盧比	bājīsītǎn lúbǐ	Pakistani rupee	noun	货币	Currency	现代汉语	Modern Chinese	巴基斯坦	Pakistan	\N	\N	Unit of currency in Pakistan (Wikipedia 'ISO_4217')	6000251

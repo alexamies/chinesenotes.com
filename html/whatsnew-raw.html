@@ -3,6 +3,35 @@
         An update to recent changes on this site.
       </p>
       <p>
+        <strong>2020-02-10</strong>:<br/>
+        A new text tokenizer was introduced that scans both left to right and
+        right to left then compares the two. The scan with the least number of terms
+        will be selected. The tokenization method used is similar in principle
+        to previously. It is a greedy method that scans a chunk of text
+        using the dictionary to tokenize text selecting the set of tokens that
+        gives the least number of tokens. Since it is greedy, it is not always
+        optimal. Previously, this was done with only left to right scanning.
+        The change introduced right to left scanning in addition. The left to
+        right scan is compared to the right to left scan and the one with the
+        least number of tokens wins. This rarely happens but it can be confusing
+        for readers when it does. For example, consider the phrase <br/>
+        武裝的士兵 an armored soldier<br/>
+        The left to right tokenizer will select<br/>
+        武裝、的士、兵<br/>
+        The right left tokenizer will select<br/>
+        武裝、的、士兵<br/>
+        The right to left tokenizer is correct but it takes a human to figure
+        that out. In this case the number of tokens is the same and the left
+        will be returned, so the result is ambiguous. This is part of an ongoing
+        effort to improve the accuracy of the tokenizer. More work is required
+        to help users in ambiguous cases like this.
+      </p>
+      <p>
+        The vocabulary has been updated with new words, corrections, and
+        references. Please let me know if you see any problems
+        by emailing alex@chinesenotes.com.
+      </p>
+      <p>
         <strong>2020-01-04</strong>: Added contained in with translation to
         headword pages.
       </p>
