@@ -37,13 +37,13 @@
 6000037	京东	京東	jīngdōng	Jingdong	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	Chinese company (Baidu Baike '京东'; Wikipedia '京東 (網站)')	6000037
 6000038	中油	\N	Zhōng Yóu	China National Petroleum Corporation (CNPC) / PetroChina	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	An abbreviation for 中国石油. CNPC is the parent company of PetroChina (Wikipedia '中国石油')	6000038
 6000039	宝马	寶馬	Bǎomǎ	BMW	proper noun	公司	Company	商务	Commerce	德国	Germany	\N	\N	Auto manufacturer (Wikipedia 'BMW')	42049
-6000040	百度	\N	bǎidù	Baidu	noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '百度')	42482
+6000040	百度	\N	bǎidù	Baidu	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '百度')	42482
 6000041	宝洁	寶潔	bǎo jié	Procter & Gamble	proper noun	公司	Company	制造业	Manufacturing	\N	\N	\N	\N	(CC-CEDICT '寶潔'; Wikipedia '宝洁')	6000041
 6000042	辉瑞	輝瑞	Huīruì	Pfizer	proper noun	公司	Company	制造业	Manufacturing	\N	\N	\N	\N	(CC-CEDICT '輝瑞'; Wikipedia '辉瑞')	6000042
 6000043	三菱	\N	sānlíng	Mitsubishi	proper noun	公司	Company	制造业	Manufacturing	日本	Japan	\N	\N	(CC-CEDICT '三菱')	6000043
 6000044	索尼	\N	suǒní	Sony	proper noun	公司	Company	制造业	Manufacturing	日本	Japan	\N	\N	(CC-CEDICT '索尼'; Wikipedia '索尼')	6000044
 6000045	佳能	\N	jiānéng	Canon	proper noun	公司	Company	制造业	Manufacturing	日本	Japan	\N	\N	(CC-CEDICT '佳能'; Guoyu '佳能'; Wikipedia '佳能')	6000045
-6000046	百事	\N	bǎishì	Pepsi	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '百事'; Wikipedia '百事可樂')	65970
+6000046	百事	\N	bǎishì	Pepsi	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '百事'; Wikipedia '百事可樂')	65970
 6000047	日立	\N	rìlì	Hitachi, Ltd.	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '日立')	6000047
 6000048	安利	\N	ānlì	Amway	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '安利')	6000048
 6000049	世爵	\N	shìjué	Spyker	proper noun	公司	Company	商务	Commerce	荷兰	Holland	\N	\N	A Dutch car manufacturer (CC-CEDICT '世爵')	6000049
@@ -62,7 +62,7 @@
 6000062	领英	領英	lǐngyīng	LinkedIn	proper noun	公司	Company	商务	Commerce	社交媒体	Social Media	\N	\N	Professional networking website (Wikipedia '領英')	6000062
 6000063	丰田	豐田	fēngtián	Toyota	proper noun	公司	Company	制造业	Manufacturing	日本	Japan	\N	\N	See 丰田汽车 (Wikipedia '丰田汽车')	6000063
 6000064	富士	\N	fùshì	Fuji	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese company (CC-CEDICT '富士')	6000064
-6000065	雷诺	雷諾	léinuò	Renault	noun	公司	Company	商务	Commerce	\N	\N	\N	\N	French car company (CC-CEDICT '雷諾')	76211
+6000065	雷诺	雷諾	léinuò	Renault	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	French car company (CC-CEDICT '雷諾')	76211
 6000066	中金	\N	zhōng jīn	China International Capital	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	An abbreviation for 中国国际金融 (Wikipedia '中国国际金融股份')	6000066
 6000067	飞鸽	飛鴿	fēigē	Flying Pigeon	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	A famous bicycle brand, made in Tianjin since 1936 (CC-CEDICT '飛鴿')	6000067
 6000068	日航	\N	rìháng	Japan Airlines (JAL)	proper noun	公司	Company	商务	Commerce	交通	Transportation	\N	\N	Abbreviation for 日本航空 (CC-CEDICT '日航')	6000068
@@ -220,32 +220,46 @@
 6000220	扎伊尔	扎伊爾	zhāyīěr	Zaire	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Now known as the Democratic Republic of the Congo. See 刚果民主共和国 (TGN 'Democratic Republic of the Congo')	6000220
 6000221	智利	\N	zhìlì	Chile	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 214; XHZD, p. 707)	6000221
 6000222	古巴	\N	gǔbā	Cuba	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 190; XHZD, p. 706)	6000222
-6000223	巴拿马	巴拿馬	bānámǎ	Panama	noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 190; XHZD, p. 706)	6000223
-6000224	列克	列剋	lièkè	Lek	noun	货币	Currency	现代汉语	Modern Chinese	阿尔巴尼亚	Albania	\N	\N	Unit of currency in Albania (Wikipedia 'ISO_4217')	6000224
-6000225	阿尔及利亚第纳尔	阿爾及利亞第納爾	Āěrjílìyà dìnàěr	Algerian dinar	noun	货币	Currency	现代汉语	Modern Chinese	阿尔及利亚	Algeria	\N	\N	Unit of currency in Algeria (Wikipedia 'ISO_4217')	6000225
-6000226	阿富汗尼	\N	Āfùhànní	Afghani	noun	货币	Currency	现代汉语	Modern Chinese	阿富汗	Afghanistan	\N	\N	Unit of currency in Afghanistan (Wikipedia 'ISO_4217')	6000226
-6000227	欧元	歐元	Ōuyuán	Euro	noun	货币	Currency	现代汉语	Modern Chinese	欧洲联盟	European Union	\N	\N	Unit of currency in the European Union (Wikipedia 'ISO_4217')	6000227
-6000228	阿根廷比索	\N	agēntíng bǐsuǒ	Argentine peso	noun	货币	Currency	现代汉语	Modern Chinese	阿根廷	Argentina	\N	\N	Unit of currency in Argentina (Wikipedia 'ISO_4217')	6000228
-6000229	澳大利亚元	澳大利亞元	Àodàlìyà yuán	Australian dollar	noun	货币	Currency	现代汉语	Modern Chinese	澳大利亚	Australia	\N	\N	Unit of currency in Australia (Wikipedia 'ISO_4217')	6000229
-6000230	加拿大元	\N	jiānádà yuán	Canadian dollar	noun	货币	Currency	现代汉语	Modern Chinese	加拿大	Canada	\N	\N	Unit of currency in Canada (Wikipedia 'ISO_4217')	6000230
-6000231	古巴比索	\N	Gǔbā bǐsuǒ	Cuban peso	noun	货币	Currency	现代汉语	Modern Chinese	古巴	Cuba	\N	\N	Unit of currency in Cuba (Wikipedia 'ISO_4217')	6000231
-6000232	埃及镑	埃及鎊	aījíbàng	Egyptian pound	noun	货币	Currency	现代汉语	Modern Chinese	埃及	Egypt	\N	\N	Unit of currency in Egypt (Wikipedia 'ISO_4217')	6000232
-6000233	印度卢比	印度盧比	yìndù lúbǐ	Indian rupee	noun	货币	Currency	现代汉语	Modern Chinese	印度	India	\N	\N	Unit of currency in India (Wikipedia 'ISO_4217')	6000233
-6000234	日元	\N	rìyuán	yen	noun	货币	Currency	现代汉语	Modern Chinese	日本	Japan	\N	\N	Unit of currency in Japan (Wikipedia 'ISO_4217')	6000234
-6000235	马来西亚令吉	馬來西亞令吉	mǎláixīyà lìngjí	ringgit	noun	货币	Currency	现代汉语	Modern Chinese	马来西亚	Malaysia	\N	\N	Unit of currency in Malaysia (Wikipedia 'ISO_4217')	6000235
-6000236	图格里克	圖格裡剋	túgélǐkè	tugrik	noun	货币	Currency	现代汉语	Modern Chinese	蒙古	Mongolia	\N	\N	Unit of currency in Mongolia (Wikipedia 'ISO_4217')	6000236
-6000237	尼泊尔卢比	尼泊尔盧比	níbóěr lúbǐ	Nepalese rupee	noun	货币	Currency	现代汉语	Modern Chinese	尼泊尔	Nepal	\N	\N	Unit of currency in Nepal (Wikipedia 'ISO_4217')	6000237
-6000238	荷属安的列斯盾	荷屬安的列斯盾	Héshǔ Āndelièsī dùn	Antillean guilder	noun	货币	Currency	现代汉语	Modern Chinese	荷属安的列斯	Netherlands Antilles	\N	\N	Unit of currency in Netherlands Antilles (Wikipedia 'ISO_4217')	6000238
-6000239	新西兰元	新西蘭元	xīnxīlán yuán	New Zealand dollar	noun	货币	Currency	现代汉语	Modern Chinese	新西兰	New Zealand	\N	\N	Unit of currency in New Zealand (Wikipedia 'ISO_4217')	6000239
-6000240	阿曼里亚尔	裡亞爾	Āmàn lǐyàěr	Omani rial	noun	货币	Currency	现代汉语	Modern Chinese	阿曼	Oman	\N	\N	Unit of currency in Oman (Wikipedia 'ISO_4217')	6000240
-6000241	新加坡元	\N	xīnjiāpō yuán	Singapore dollar	noun	货币	Currency	现代汉语	Modern Chinese	新加坡	Singapore	\N	\N	Unit of currency in Singapore (Wikipedia 'ISO_4217')	6000241
-6000242	南非兰特	南非蘭特	nánfēi lántè	South African rand	noun	货币	Currency	现代汉语	Modern Chinese	南非	South Africa	\N	\N	Unit of currency in South Africa (Wikipedia 'ISO_4217')	6000242
-6000243	泰铢	泰銖	Tàizhū	Thai baht	noun	货币	Currency	现代汉语	Modern Chinese	泰国	Thailand	\N	\N	Unit of currency in Thailand (Wikipedia 'ISO_4217')	6000243
-6000244	迪拉姆	\N	dílāmǔ	dirham	noun	货币	Currency	现代汉语	Modern Chinese	阿拉伯联合酋长国	United Arab Emirates	\N	\N	Unit of currency in the United Arab Emirates (Wikipedia 'ISO_4217')	6000244
-6000245	埃塞俄比亚比尔	埃塞俄比亞比爾	Aīsàiébǐyàbǐěr	Ethiopian birr	noun	货币	Currency	现代汉语	Modern Chinese	埃塞俄比亚	Ethiopia	\N	\N	Unit of currency in Ethiopia (Wikipedia 'ISO_4217')	6000245
-6000246	宽扎	寬扎	kuānzā	kwanza	noun	货币	Currency	现代汉语	Modern Chinese	安哥拉	Angola	\N	\N	Unit of currency in the Angola (Wikipedia 'ISO_4217')	6000246
-6000247	东加勒比元	東加勒比元	dōng jiālèbǐ yuán	East Caribbean dollar	noun	货币	Currency	现代汉语	Modern Chinese	安提瓜和巴布达	Antigua and Barbuda	\N	\N	Unit of currency in Antigua, Dominica, Monterserrat, and Granada (Wikipedia 'ISO_4217')	6000247
-6000248	巴巴多斯元	\N	bābāduōsī yuán	Barbados dollar	noun	货币	Currency	现代汉语	Modern Chinese	巴巴多斯	Barbados	\N	\N	Unit of currency in Barbados (Wikipedia 'ISO_4217')	6000248
-6000249	基那	\N	jīnà	Kina	noun	货币	Currency	现代汉语	Modern Chinese	巴布亚新几内亚	Papua New Guinea	\N	\N	Unit of currency in Papua New Guinea (Wikipedia 'ISO_4217')	6000249
-6000250	巴哈马元	巴哈馬元	bāhāmǎ yuán	Bahamanian dollar	noun	货币	Currency	现代汉语	Modern Chinese	巴哈马	Bahamas	\N	\N	Unit of currency in the Bahamas (Wikipedia 'ISO_4217')	6000250
-6000251	巴基斯坦卢比	巴基斯坦盧比	bājīsītǎn lúbǐ	Pakistani rupee	noun	货币	Currency	现代汉语	Modern Chinese	巴基斯坦	Pakistan	\N	\N	Unit of currency in Pakistan (Wikipedia 'ISO_4217')	6000251
+6000223	巴拿马	巴拿馬	bānámǎ	Panama	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 190; XHZD, p. 706)	6000223
+6000224	列克	列剋	lièkè	Lek	proper noun	货币	Currency	现代汉语	Modern Chinese	阿尔巴尼亚	Albania	\N	\N	Unit of currency in Albania (Wikipedia 'ISO_4217')	6000224
+6000225	阿尔及利亚第纳尔	阿爾及利亞第納爾	Āěrjílìyà dìnàěr	Algerian dinar	proper noun	货币	Currency	现代汉语	Modern Chinese	阿尔及利亚	Algeria	\N	\N	Unit of currency in Algeria (Wikipedia 'ISO_4217')	6000225
+6000226	阿富汗尼	\N	Āfùhànní	Afghani	proper noun	货币	Currency	现代汉语	Modern Chinese	阿富汗	Afghanistan	\N	\N	Unit of currency in Afghanistan (Wikipedia 'ISO_4217')	6000226
+6000227	欧元	歐元	Ōuyuán	Euro	proper noun	货币	Currency	现代汉语	Modern Chinese	欧洲联盟	European Union	\N	\N	Unit of currency in the European Union (Wikipedia 'ISO_4217')	6000227
+6000228	阿根廷比索	\N	agēntíng bǐsuǒ	Argentine peso	proper noun	货币	Currency	现代汉语	Modern Chinese	阿根廷	Argentina	\N	\N	Unit of currency in Argentina (Wikipedia 'ISO_4217')	6000228
+6000229	澳大利亚元	澳大利亞元	Àodàlìyà yuán	Australian dollar	proper noun	货币	Currency	现代汉语	Modern Chinese	澳大利亚	Australia	\N	\N	Unit of currency in Australia (Wikipedia 'ISO_4217')	6000229
+6000230	加拿大元	\N	jiānádà yuán	Canadian dollar	proper noun	货币	Currency	现代汉语	Modern Chinese	加拿大	Canada	\N	\N	Unit of currency in Canada (Wikipedia 'ISO_4217')	6000230
+6000231	古巴比索	\N	Gǔbā bǐsuǒ	Cuban peso	proper noun	货币	Currency	现代汉语	Modern Chinese	古巴	Cuba	\N	\N	Unit of currency in Cuba (Wikipedia 'ISO_4217')	6000231
+6000232	埃及镑	埃及鎊	aījíbàng	Egyptian pound	proper noun	货币	Currency	现代汉语	Modern Chinese	埃及	Egypt	\N	\N	Unit of currency in Egypt (Wikipedia 'ISO_4217')	6000232
+6000233	印度卢比	印度盧比	yìndù lúbǐ	Indian rupee	proper noun	货币	Currency	现代汉语	Modern Chinese	印度	India	\N	\N	Unit of currency in India (Wikipedia 'ISO_4217')	6000233
+6000234	日元	\N	rìyuán	yen	proper noun	货币	Currency	现代汉语	Modern Chinese	日本	Japan	\N	\N	Unit of currency in Japan (Wikipedia 'ISO_4217')	6000234
+6000235	马来西亚令吉	馬來西亞令吉	mǎláixīyà lìngjí	ringgit	proper noun	货币	Currency	现代汉语	Modern Chinese	马来西亚	Malaysia	\N	\N	Unit of currency in Malaysia (Wikipedia 'ISO_4217')	6000235
+6000236	图格里克	圖格裡剋	túgélǐkè	tugrik	proper noun	货币	Currency	现代汉语	Modern Chinese	蒙古	Mongolia	\N	\N	Unit of currency in Mongolia (Wikipedia 'ISO_4217')	6000236
+6000237	尼泊尔卢比	尼泊尔盧比	níbóěr lúbǐ	Nepalese rupee	proper noun	货币	Currency	现代汉语	Modern Chinese	尼泊尔	Nepal	\N	\N	Unit of currency in Nepal (Wikipedia 'ISO_4217')	6000237
+6000238	荷属安的列斯盾	荷屬安的列斯盾	Héshǔ Āndelièsī dùn	Antillean guilder	proper noun	货币	Currency	现代汉语	Modern Chinese	荷属安的列斯	Netherlands Antilles	\N	\N	Unit of currency in Netherlands Antilles (Wikipedia 'ISO_4217')	6000238
+6000239	新西兰元	新西蘭元	xīnxīlán yuán	New Zealand dollar	proper noun	货币	Currency	现代汉语	Modern Chinese	新西兰	New Zealand	\N	\N	Unit of currency in New Zealand (Wikipedia 'ISO_4217')	6000239
+6000240	阿曼里亚尔	裡亞爾	Āmàn lǐyàěr	Omani rial	proper noun	货币	Currency	现代汉语	Modern Chinese	阿曼	Oman	\N	\N	Unit of currency in Oman (Wikipedia 'ISO_4217')	6000240
+6000241	新加坡元	\N	xīnjiāpō yuán	Singapore dollar	proper noun	货币	Currency	现代汉语	Modern Chinese	新加坡	Singapore	\N	\N	Unit of currency in Singapore (Wikipedia 'ISO_4217')	6000241
+6000242	南非兰特	南非蘭特	nánfēi lántè	South African rand	proper noun	货币	Currency	现代汉语	Modern Chinese	南非	South Africa	\N	\N	Unit of currency in South Africa (Wikipedia 'ISO_4217')	6000242
+6000243	泰铢	泰銖	Tàizhū	Thai baht	proper noun	货币	Currency	现代汉语	Modern Chinese	泰国	Thailand	\N	\N	Unit of currency in Thailand (Wikipedia 'ISO_4217')	6000243
+6000244	迪拉姆	\N	dílāmǔ	dirham	proper noun	货币	Currency	现代汉语	Modern Chinese	阿拉伯联合酋长国	United Arab Emirates	\N	\N	Unit of currency in the United Arab Emirates (Wikipedia 'ISO_4217')	6000244
+6000245	埃塞俄比亚比尔	埃塞俄比亞比爾	Aīsàiébǐyàbǐěr	Ethiopian birr	proper noun	货币	Currency	现代汉语	Modern Chinese	埃塞俄比亚	Ethiopia	\N	\N	Unit of currency in Ethiopia (Wikipedia 'ISO_4217')	6000245
+6000246	宽扎	寬扎	kuānzā	kwanza	proper noun	货币	Currency	现代汉语	Modern Chinese	安哥拉	Angola	\N	\N	Unit of currency in the Angola (Wikipedia 'ISO_4217')	6000246
+6000247	东加勒比元	東加勒比元	dōng jiālèbǐ yuán	East Caribbean dollar	proper noun	货币	Currency	现代汉语	Modern Chinese	安提瓜和巴布达	Antigua and Barbuda	\N	\N	Unit of currency in Antigua, Dominica, Monterserrat, and Granada (Wikipedia 'ISO_4217')	6000247
+6000248	巴巴多斯元	\N	bābāduōsī yuán	Barbados dollar	proper noun	货币	Currency	现代汉语	Modern Chinese	巴巴多斯	Barbados	\N	\N	Unit of currency in Barbados (Wikipedia 'ISO_4217')	6000248
+6000249	基那	\N	jīnà	Kina	proper noun	货币	Currency	现代汉语	Modern Chinese	巴布亚新几内亚	Papua New Guinea	\N	\N	Unit of currency in Papua New Guinea (Wikipedia 'ISO_4217')	6000249
+6000250	巴哈马元	巴哈馬元	bāhāmǎ yuán	Bahamanian dollar	proper noun	货币	Currency	现代汉语	Modern Chinese	巴哈马	Bahamas	\N	\N	Unit of currency in the Bahamas (Wikipedia 'ISO_4217')	6000250
+6000251	巴基斯坦卢比	巴基斯坦盧比	bājīsītǎn lúbǐ	Pakistani rupee	proper noun	货币	Currency	现代汉语	Modern Chinese	巴基斯坦	Pakistan	\N	\N	Unit of currency in Pakistan (Wikipedia 'ISO_4217')	6000251
+6000252	巴拉圭瓜拉尼	\N	bālāguī guālāní	Paraguay guarani	proper noun	货币	Currency	现代汉语	Modern Chinese	巴拉圭	Paraguay	\N	\N	Unit of currency in Paraguay (Wikipedia 'ISO_4217')	6000252
+6000253	巴林第纳尔	巴林第納爾	bālín dìnàěr	Bahrain dinar	proper noun	货币	Currency	现代汉语	Modern Chinese	巴林	Bahrain	\N	\N	Unit of currency in Bahrain (Wikipedia 'ISO_4217')	6000253
+6000254	巴拿马巴波亚	巴拿馬巴波亞	bānámǎ bābōyà	Panamanian balboa	noun	货币	Currency	现代汉语	Modern Chinese	巴拿马	Panama	\N	\N	Unit of currency in Panama (Wikipedia 'ISO_4217')	6000254
+6000255	巴西克鲁塞罗	巴西剋魯塞羅	bāxī kèlǔsàiluō	Brazilian real	noun	货币	Currency	现代汉语	Modern Chinese	巴西	Brazil	\N	\N	Unit of currency in Brazil (Wikipedia 'ISO_4217')	6000255
+6000256	百慕大元	\N	bǎimùdà yuán	Bermuda dollar	noun	货币	Currency	现代汉语	Modern Chinese	百摹大群岛	Bermuda	\N	\N	Unit of currency in Bermuda (Wikipedia 'ISO_4217')	6000256
+6000257	列弗	\N	lièfú	lev	noun	货币	Currency	现代汉语	Modern Chinese	保加利亚	Bulgaria	\N	\N	Unit of currency in Bulgaria. The lev is expected to be replaced by the euro on 1 January 2010 (Wikipedia 'ISO_4217')	6000257
+6000258	素尔	素爾	sù'ěr	sol	noun	货币	Currency	现代汉语	Modern Chinese	秘鲁	Peru	\N	\N	Unit of currency in Peru (Wikipedia '素爾')	6000258
+6000259	古德	\N	gǔdé	gourde	noun	货币	Currency	现代汉语	Modern Chinese	海地	Haiti	\N	\N	Unit of currency in Haiti (Wikipedia 'ISO_4217')	189
+6000260	冰岛克朗	冰島剋朗	bīngdǎo kèlǎng	Iceland krona	noun	货币	Currency	现代汉语	Modern Chinese	冰岛	Iceland	\N	\N	Unit of currency in Iceland (Wikipedia 'ISO_4217')	6000260
+6000261	茲罗提	兹羅提	zīluōtí	złoty	noun	货币	Currency	现代汉语	Modern Chinese	波兰	Poland	\N	\N	Unit of currency in Poland (Wikipedia '波兰兹罗提')	6000261
+6000262	玻利维亚比索	玻利維亞比索	Bōlìwéiyà bǐsuǒ	boliviano	noun	货币	Currency	现代汉语	Modern Chinese	玻利维亚	Bolivia	\N	\N	Unit of currency in Bolivia (Wikipedia 'ISO_4217')	6000262
+6000263	普拉	\N	pǔlā	Pula	noun	货币	Currency	现代汉语	Modern Chinese	博茨瓦纳	Botswana	\N	\N	Unit of currency in Botswana (Wikipedia 'ISO_4217')	6000263
+6000264	伯利兹元	伯利茲元	bólìzī yuán	Belize dollar	noun	货币	Currency	现代汉语	Modern Chinese	伯利兹	Belize	\N	\N	Unit of currency in Belize (Wikipedia 'ISO_4217')	6000264
+6000265	努尔特鲁	努爾特魯	nǔěrtèlǔ	Ngultrum	noun	货币	Currency	现代汉语	Modern Chinese	不丹	Bhutan	\N	\N	Unit of currency in Bhutan (Wikipedia 'ISO_4217')	6000265
