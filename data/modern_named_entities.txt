@@ -263,3 +263,8 @@
 6000263	普拉	\N	pǔlā	Pula	noun	货币	Currency	现代汉语	Modern Chinese	博茨瓦纳	Botswana	\N	\N	Unit of currency in Botswana (Wikipedia 'ISO_4217')	6000263
 6000264	伯利兹元	伯利茲元	bólìzī yuán	Belize dollar	noun	货币	Currency	现代汉语	Modern Chinese	伯利兹	Belize	\N	\N	Unit of currency in Belize (Wikipedia 'ISO_4217')	6000264
 6000265	努尔特鲁	努爾特魯	nǔěrtèlǔ	Ngultrum	noun	货币	Currency	现代汉语	Modern Chinese	不丹	Bhutan	\N	\N	Unit of currency in Bhutan (Wikipedia 'ISO_4217')	6000265
+6000266	布隆迪法郎	\N	bùlóngdí fǎláng	Burundi franc	noun	货币	Currency	现代汉语	Modern Chinese	布隆迪	Burundi	\N	\N	Unit of currency in Burundi (Wikipedia 'ISO_4217')	6000266
+6000267	多米尼加比索	\N	duōmǐníjiā bǐsuǒ	Dominican peso	noun	货币	Currency	现代汉语	Modern Chinese	多米尼加共和国	Dominican Republic	\N	\N	Unit of currency in Equatorial Guinea (Wikipedia 'ISO_4217')	6000267
+6000268	太平洋法郎	\N	tàipíngyáng fǎláng	CFP franc	noun	货币	Currency	现代汉语	Modern Chinese	法属波利尼西亚	French Polynesia	\N	\N	Unit of currency in French Polynesia and New Caledonia (Wikipedia 'ISO_4217')	6000268
+6000269	菲律宾披索	菲律賓披索	fēilǜbīn pīsuǒ	Philippine peso	noun	货币	Currency	现代汉语	Modern Chinese	菲律宾	Philippines	\N	\N	Unit of currency in the Philippines (Wikipedia 'ISO_4217')	6000269
+6000270	斐济元	斐濟元	fěijǐ yuán	Fiji dollar	noun	货币	Currency	现代汉语	Modern Chinese	斐济	Fiji	\N	\N	Unit of currency in the Fiji (Wikipedia 'ISO_4217')	6000270
