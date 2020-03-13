@@ -73,7 +73,7 @@
 3000073	善射	\N	shàn shè	a skillful archer	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 善 skilled + 射; from 《漢書·卷五十四 李廣蘇建傳》 <i>Book of Han</i>, Volume 54: Li Guang and Su Jian (Watson 1974, p. 12)	3000073
 3000074	格杀猛兽	格殺猛獸	gé shā měngshòu	striking down the most ferocious beasts	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 格 strike + 殺 kill + 猛獸 ferocious beast; from 《漢書·卷五十四 李廣蘇建傳》 <i>Book of Han</i>, Volume 54: Li Guang and Su Jian (Watson 1974, p. 13)	3000074
 3000075	骑郎将	騎郎將	qí lángjiāng	general of palace horsemen	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 騎 ride + 郎將 palace general; from 《漢書·卷五十四 李廣蘇建傳》 <i>Book of Han</i>, Volume 54: Li Guang and Su Jian (Watson 1974, p. 13)	3000075
-3000076	哲王	\N	zhé wáng	wise kings	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 哲 wise + 王 king; from 《三國志·后妃傳》 <i>Records of the Three Kingdoms</i>, Biographies of Empresses and Concubines (Chen et al. 1999, p. 89)	3000076
+3000076	归本	歸本	guī běn	return to the root	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	TM: 歸 return + 本 root (Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>, p. 116, ch. 2)	3000076
 3000077	古先	\N	gǔ xiān	bygone days	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 古 old + 先 before; from 《三國志·后妃傳》 <i>Records of the Three Kingdoms</i>, Biographies of Empresses and Concubines (Chen et al. 1999, p. 89)	3000077
 3000078	废兴	廢興	fèi xīng	rises or falls	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 廢 fall + 興 flourish; from 《三國志·后妃傳》 <i>Records of the Three Kingdoms</i>, Biographies of Empresses and Concubines (Chen et al. 1999, p. 89)	3000078
 3000079	奢纵	奢縱	shē zōng	extravagant and undisciplined	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 奢 extravagant + 縱 undisciplined; from 《三國志·后妃傳》 <i>Records of the Three Kingdoms</i>, Biographies of Empresses and Concubines (Chen et al. 1999, p. 89)	3000079
@@ -287,4 +287,3 @@
 3000287	源流出	\N	yuánliú chū	the source is revealed	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 源流 source + 出 out (Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>, p. 99, ch. 1)	3000287
 3000288	盖闻	蓋聞	gài wén	we heard that	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 蓋 that + 聞 hear (Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>, p. 99, ch. 1)	3000288
 3000289	到此	\N	dào cǐ	at this point	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 到 arrive + 此 here (Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>, p. 99, ch. 1)	3000289
-3000290	归本	歸本	guī běn	return to the root	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	TM: 歸 return + 本 root (Yu, Anthony C. tr. 2012, <i>The Journey to the West</i>, p. 116, ch. 2)	114353
