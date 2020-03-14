@@ -8,7 +8,7 @@ export DEV_HOME=`pwd`
 export CNREADER_HOME=`pwd`
 export WEB_DIR=web-staging
 export TEMPLATE_HOME=html/material-templates
-python $DEV_HOME/python/doc_list.py
+python doc_list.py
 mkdir $WEB_DIR
 mkdir $WEB_DIR/analysis
 mkdir $WEB_DIR/analysis/articles

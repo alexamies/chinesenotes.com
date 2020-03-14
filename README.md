@@ -119,10 +119,6 @@ $ ./cnreader -all
 /kubernetes
  - For production deployment
 
-/python
- - Jupyter notebooks and Python utilities for additional of new terms to the
-   dictionary.
-
 /web-resources
  - Static resources, including CSS, JavaScript, image, and sound files
 
