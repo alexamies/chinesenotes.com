@@ -268,3 +268,4 @@
 6000268	太平洋法郎	\N	tàipíngyáng fǎláng	CFP franc	noun	货币	Currency	现代汉语	Modern Chinese	法属波利尼西亚	French Polynesia	\N	\N	Unit of currency in French Polynesia and New Caledonia (Wikipedia 'ISO_4217')	6000268
 6000269	菲律宾披索	菲律賓披索	fēilǜbīn pīsuǒ	Philippine peso	noun	货币	Currency	现代汉语	Modern Chinese	菲律宾	Philippines	\N	\N	Unit of currency in the Philippines (Wikipedia 'ISO_4217')	6000269
 6000270	斐济元	斐濟元	fěijǐ yuán	Fiji dollar	noun	货币	Currency	现代汉语	Modern Chinese	斐济	Fiji	\N	\N	Unit of currency in the Fiji (Wikipedia 'ISO_4217')	6000270
+6000271	三井	三井	sānjǐng	Mitsui	proper noun	公司	Company	制造业	Manufacturing	日本	Japan	\N	\N	(CC-CEDICT '三井')	6000271
