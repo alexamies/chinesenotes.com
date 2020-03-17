@@ -40,10 +40,10 @@
 6000040	百度	\N	bǎidù	Baidu	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '百度')	42482
 6000041	宝洁	寶潔	bǎo jié	Procter & Gamble	proper noun	公司	Company	制造业	Manufacturing	\N	\N	\N	\N	(CC-CEDICT '寶潔'; Wikipedia '宝洁')	6000041
 6000042	辉瑞	輝瑞	Huīruì	Pfizer	proper noun	公司	Company	制造业	Manufacturing	\N	\N	\N	\N	(CC-CEDICT '輝瑞'; Wikipedia '辉瑞')	6000042
-6000043	三菱	\N	sānlíng	Mitsubishi	proper noun	公司	Company	制造业	Manufacturing	日本	Japan	\N	\N	(CC-CEDICT '三菱')	6000043
-6000044	索尼	\N	suǒní	Sony	proper noun	公司	Company	制造业	Manufacturing	日本	Japan	\N	\N	(CC-CEDICT '索尼'; Wikipedia '索尼')	6000044
-6000045	佳能	\N	jiānéng	Canon	proper noun	公司	Company	制造业	Manufacturing	日本	Japan	\N	\N	(CC-CEDICT '佳能'; Guoyu '佳能'; Wikipedia '佳能')	6000045
-6000046	百事	\N	bǎishì	Pepsi	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '百事'; Wikipedia '百事可樂')	65970
+6000043	三菱	\N	sānlíng	Mitsubishi	roper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '三菱')	6000043
+6000044	索尼	\N	suǒní	Sony	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '索尼'; Wikipedia '索尼')	6000044
+6000045	佳能	\N	jiānéng	Canon	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '佳能'; Guoyu '佳能'; Wikipedia '佳能')	6000045
+6000046	百事	\N	bǎishì	Pepsi	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '百事'; Wikipedia '百事可樂')	65970
 6000047	日立	\N	rìlì	Hitachi, Ltd.	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '日立')	6000047
 6000048	安利	\N	ānlì	Amway	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '安利')	6000048
 6000049	世爵	\N	shìjué	Spyker	proper noun	公司	Company	商务	Commerce	荷兰	Holland	\N	\N	A Dutch car manufacturer (CC-CEDICT '世爵')	6000049
@@ -268,3 +268,13 @@
 6000268	太平洋法郎	\N	tàipíngyáng fǎláng	CFP franc	noun	货币	Currency	现代汉语	Modern Chinese	法属波利尼西亚	French Polynesia	\N	\N	Unit of currency in French Polynesia and New Caledonia (Wikipedia 'ISO_4217')	6000268
 6000269	菲律宾披索	菲律賓披索	fēilǜbīn pīsuǒ	Philippine peso	noun	货币	Currency	现代汉语	Modern Chinese	菲律宾	Philippines	\N	\N	Unit of currency in the Philippines (Wikipedia 'ISO_4217')	6000269
 6000270	斐济元	斐濟元	fěijǐ yuán	Fiji dollar	noun	货币	Currency	现代汉语	Modern Chinese	斐济	Fiji	\N	\N	Unit of currency in the Fiji (Wikipedia 'ISO_4217')	6000270
+6000271	三星集团	三星集團	sān xīng jí tuán	Samsung Group	roper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '三星集團')	6000271
+6000272	上海大剧院	上海大劇院	shànghǎi dà jùyuàn	Shanghai Grand Theater	proper noun	\N	\N	地方	Places	中国	China	\N	\N	(CC-CEDICT '上海大劇院')	6000272
+6000273	上海宝钢集团公司	上海寶鋼集團公司	shànghǎi bǎogāng jítuán gōngsī	Baosteel	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '上海寶鋼集團公司')	6000273
+6000274	上海戏剧学院	上海戲劇學院	shànghǎi xìjù xuéyuàn	Shanghai Theatrical Institute	proper noun	\N	\N	戏剧	Drama	中国	China	\N	\N	(CC-CEDICT '上海戲劇學院')	6000274
+6000275	上海文广新闻传媒集团	上海文廣新聞傳媒集團	shànghǎi wénguǎng xīnwén chuánméi jítuán	Shanghai Media Group	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '上海文廣新聞傳媒集團')	6000275
+6000276	上海证券交易所	上海證券交易所	shànghǎi zhèngquàn jiāoyìsuǒ	Shanghai Stock Exchange (SSE)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '上海證券交易所')	6000276
+6000277	上海医科大学	上海醫科大學	shànghǎi yīkē dàxué	Shanghai Medical University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '上海醫科大學')	6000277
+6000278	上海音乐学院	上海音樂學院	shànghǎi yīnyuè xuéyuàn	Shanghai Conservatory of Music	proper noun	音乐学院	Conservatory	教育	Education	中国	China	\N	\N	(CC-CEDICT '上海音樂學院')	6000278
+6000279	上海体育场	上海體育場	shànghǎi tǐyùchǎng	Shanghai Stadium	proper noun	\N	\N	地方	Places	中国	China	\N	\N	(CC-CEDICT '上海體育場')	6000279
+6000280	上艾瑟尔	上艾瑟爾	shàng ài sè ěr	Overijssel	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	A place in Holand (CC-CEDICT '上艾瑟爾')	6000280
