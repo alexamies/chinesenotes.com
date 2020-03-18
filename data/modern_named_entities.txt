@@ -105,7 +105,7 @@
 6000105	阿尔及利亚	阿爾及利亞	Āěrjílìyà	Algeria	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The People's Republic of Algeria (SDC, p. 117; XHZD, p. 702)	6000105
 6000106	汤加	湯加	Tāngjiā	Tonga	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The Kingdom of Tonga (SDC, p. 174; XHZD, p. 705)	6000106
 6000107	阿富汗	\N	Āfùhàn	Afghanistan	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	a1fu4han4.mp3	The Islamic Republic of Afghanistan (MPRC; SDC 36; XHZD, p. 699)	6000107
-6000108	安道尔	安道爾	Āndàoěr	Andorra	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	The Principality of Andorra (SDC, p. 88; XHZD, p. 701)	6000108
+6000108	安道尔	安道爾	Āndàoěr	Andorra	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	The Principality of Andorra (SDC, p. 88; XHZD, p. 701)	6000108
 6000109	安哥拉	\N	Āngēlā	Angola	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Angola (SDC, p. 147; XHZD, p. 703)	6000109
 6000110	安提瓜和巴布达	安提瓜和巴布達	Āntíguā hé Bābùdá	Antigua and Barbuda	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 197; XHZD, p. 706)	6000110
 6000111	阿根廷	\N	Āgēntíng	Argentina	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	Argentine Republic (SDC, p. 215; XHZD, p. 707)	6000111
@@ -278,3 +278,28 @@
 6000278	上海音乐学院	上海音樂學院	shànghǎi yīnyuè xuéyuàn	Shanghai Conservatory of Music	proper noun	音乐学院	Conservatory	教育	Education	中国	China	\N	\N	(CC-CEDICT '上海音樂學院')	6000278
 6000279	上海体育场	上海體育場	shànghǎi tǐyùchǎng	Shanghai Stadium	proper noun	\N	\N	地方	Places	中国	China	\N	\N	(CC-CEDICT '上海體育場')	6000279
 6000280	上艾瑟尔	上艾瑟爾	shàng ài sè ěr	Overijssel	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	A place in Holand (CC-CEDICT '上艾瑟爾')	6000280
+6000281	麦迪逊	麥迪遜	màidíxùn	Madison	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(Wikipedia '麦迪逊')	6000281
+6000282	佛得角埃斯库多	佛得角埃斯庫多	fódéjiǎo āisīkùduō	Cape Verde escudo	noun	货币	Currency	现代汉语	Modern Chinese	佛得角	Cape Verde	\N	\N	Unit of currency in Cape Verde (Wikipedia 'ISO_4217')	6000282
+6000283	达拉西	達拉西	dálāxī	Dalasi	noun	货币	Currency	现代汉语	Modern Chinese	冈比亚	Gambia	\N	\N	Unit of currency in Gambia (Wikipedia 'ISO_4217')	6000283
+6000284	哥伦比亚比索	哥倫比亞比索	gēlúnbǐyà bǐsuǒ	Colombian peso	noun	货币	Currency	现代汉语	Modern Chinese	哥伦比亚	Colombia	\N	\N	Unit of currency in Colombia (Wikipedia 'ISO_4217')	6000284
+6000285	哥斯达黎加科郎	哥斯達黎加科郎	Gēsīdálíjiā kēláng	Costa Rican colon	noun	货币	Currency	现代汉语	Modern Chinese	哥斯达黎加	Costa Rica	\N	\N	Unit of currency in Costa Rica (Wikipedia 'ISO_4217')	6000285
+6000286	圭亚那元	圭亞那元	Guīyànà yuán	Guyana dollar	noun	货币	Currency	现代汉语	Modern Chinese	圭亚那	Guyana	\N	\N	Unit of currency in Guyana (Wikipedia 'ISO_4217')	6000286
+6000287	伦皮拉	倫皮拉	lúnpílā	lempira	noun	货币	Currency	现代汉语	Modern Chinese	洪都拉斯	Honduras	\N	\N	Unit of currency in Honduras (Wikipedia 'ISO_4217')	6000287
+6000288	吉布提法郎	\N	Jíbùtí fǎláng	Djibouti franc	noun	货币	Currency	现代汉语	Modern Chinese	吉布提	Djibouti	\N	\N	Unit of currency in Djibouti (Wikipedia 'ISO_4217')	6000288
+6000289	几内亚法郎	幾內亞法郎	Jǐnèiyà fǎláng	Guinean franc	noun	货币	Currency	现代汉语	Modern Chinese	几内亚	Guinea	\N	\N	Unit of currency in Guinea (Wikipedia 'ISO_4217')	6000289
+6000290	瑞尔	瑞爾	ruì'ěr	riel	noun	货币	Currency	现代汉语	Modern Chinese	柬埔寨	Cambodia	\N	\N	Unit of currency in Cambodia (Wikipedia 'ISO_4217')	6000290
+6000291	克朗	剋朗	kèlǎng	koruna	noun	货币	Currency	现代汉语	Modern Chinese	捷克	Czech	\N	\N	Unit of currency in Czech Republic (Wikipedia 'ISO_4217')	6000291
+6000292	津巴布韦元	津巴布韋元	jīnbābùwéi yuán	Zimbabwe dollar	noun	货币	Currency	现代汉语	Modern Chinese	津巴布韦	Zimbabwe	\N	\N	Unit of currency in Zimbabwe (Wikipedia 'ISO_4217')	6000292
+6000293	卡塔尔里亚尔	卡塔爾裡亞爾	Kǎtǎěr lǐyàěr	Qatar riyal	noun	货币	Currency	现代汉语	Modern Chinese	卡塔尔	Qatar	\N	\N	Unit of currency in Qatar (Wikipedia 'ISO_4217')	6000293
+6000294	不来梅	不來梅	bùláiméi	Bremen (city)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '不來梅')	6000294
+6000295	不来梅港	不來梅港	bù lái méi gǎng	Bremerhaven, German port	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '不來梅港')	6000295
+6000296	开曼群岛元	開曼群島元	Kāimàn Qúndǎo yuán	Cayman Islands dollar	noun	货币	Currency	现代汉语	Modern Chinese	开曼群岛	Cayman Islands	\N	\N	Unit of currency in the Cayman Islands (Wikipedia 'ISO_4217')	6000296
+6000297	科威特第纳尔	科威特第納爾	Kēwēitè dìnàěr	Kuwaiti dinar	noun	货币	Currency	现代汉语	Modern Chinese	科威特	Kuwait	\N	\N	Unit of currency in Kuwait (Wikipedia 'ISO_4217')	6000297
+6000298	肯尼亚先令	肯尼亞先令	Kěnníyà xiānlìng	Kenya shilling	noun	货币	Currency	现代汉语	Modern Chinese	肯尼亚	Kenya	\N	\N	Unit of currency in Kenya (Wikipedia 'ISO_4217')	6000298
+6000299	基普	\N	jīpǔ	kip	noun	货币	Currency	现代汉语	Modern Chinese	老挝	Laos	\N	\N	Unit of currency in Laos (Wikipedia 'ISO_4217')	6000299
+6000300	黎巴嫩镑	黎巴嫩鎊	Líbānèn bàng	Lebanon pound (lira)	noun	货币	Currency	现代汉语	Modern Chinese	黎巴嫩	Lebanon	\N	\N	Unit of currency in Lebanon (Wikipedia 'ISO_4217')	6000300
+6000301	利比里亚元	利比裡亞元	lìbǐlǐyà yuán	Liberian dollar	noun	货币	Currency	现代汉语	Modern Chinese	利比里亚	Liberia	\N	\N	Unit of currency in Liberia (Wikipedia 'ISO_4217')	6000301
+6000302	利比亚第纳尔	利比亞第納爾	lìbǐyà dìnàěr	Libyan dinar	noun	货币	Currency	现代汉语	Modern Chinese	利比亚	Libya	\N	\N	Unit of currency in Libya (Wikipedia 'ISO_4217')	6000302
+6000303	卢旺达法郎	盧旺達法郎	lúwàngdá fǎláng	Rwanda franc	noun	货币	Currency	现代汉语	Modern Chinese	卢旺达	Rwanda	\N	\N	Unit of currency in Rwanda (Wikipedia 'ISO_4217')	6000303
+6000304	列伊	\N	lièyī	Leu	noun	货币	Currency	现代汉语	Modern Chinese	罗马尼亚	Romania	\N	\N	Unit of currency in Romania (Wikipedia 'ISO_4217')	6000304
+6000305	马达加斯加法郎	馬達加斯加法郎	mǎdájiāsījiā fǎláng	Malagasy franc	noun	货币	Currency	现代汉语	Modern Chinese	马达加斯加	Madagascar	\N	\N	Unit of currency in Madagascar (Wikipedia 'ISO_4217')	6000305
