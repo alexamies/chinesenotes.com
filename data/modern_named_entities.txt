@@ -303,3 +303,31 @@
 6000303	卢旺达法郎	盧旺達法郎	lúwàngdá fǎláng	Rwanda franc	noun	货币	Currency	现代汉语	Modern Chinese	卢旺达	Rwanda	\N	\N	Unit of currency in Rwanda (Wikipedia 'ISO_4217')	6000303
 6000304	列伊	\N	lièyī	Leu	noun	货币	Currency	现代汉语	Modern Chinese	罗马尼亚	Romania	\N	\N	Unit of currency in Romania (Wikipedia 'ISO_4217')	6000304
 6000305	马达加斯加法郎	馬達加斯加法郎	mǎdájiāsījiā fǎláng	Malagasy franc	noun	货币	Currency	现代汉语	Modern Chinese	马达加斯加	Madagascar	\N	\N	Unit of currency in Madagascar (Wikipedia 'ISO_4217')	6000305
+6000306	马尔代夫卢比	馬爾代夫盧比	Mǎěrdàifū lúbǐ	Maldivian rufiyaa	noun	货币	Currency	现代汉语	Modern Chinese	马尔代夫	Maldives	\N	\N	Unit of currency in the Maldives (Wikipedia 'ISO_4217')	6000306
+6000307	马耳他里拉	馬耳他里拉	mǎ'ěrtā lǐlā	Maltese lira	noun	货币	Currency	现代汉语	Modern Chinese	马耳他	Malta	\N	\N	Unit of currency in Malta before 2007 (Wikipedia '马耳他里拉')	6000307
+6000308	福克兰镑	福克蘭鎊	fúkèlán bàng	Falkland pound	noun	货币	Currency	现代汉语	Modern Chinese	福克兰群岛	Falkland Islands	\N	\N	Unit of currency in the Falkland Islands (Wikipedia 'ISO_4217')	6000308
+6000309	马拉维克瓦查	馬拉維剋瓦查	mǎlāwéi kèwǎchá	Malawian kwacha	noun	货币	Currency	现代汉语	Modern Chinese	马拉维	Malawi	\N	\N	Unit of currency in Malawi (Wikipedia 'ISO_4217')	6000309
+6000310	毛里求斯卢比	毛裡求斯盧比	máolǐqiúsī lúbǐ	Mauritian rupee	noun	货币	Currency	现代汉语	Modern Chinese	毛里求斯	Mauritius	\N	\N	Unit of currency in Mauritius (Wikipedia 'ISO_4217')	6000310
+6000311	乌吉亚	烏吉亞	wūjíyà	ouguiya	noun	货币	Currency	现代汉语	Modern Chinese	毛里塔尼亚	Mauritania	\N	\N	Unit of currency in Mauritania (Wikipedia 'ISO_4217')	6000311
+6000312	塔卡	\N	tǎkǎ	taka	noun	货币	Currency	现代汉语	Modern Chinese	孟加拉国	Bangladesh	\N	\N	Unit of currency in Bangladesh (Wikipedia 'ISO_4217')	6000312
+6000313	缅元	緬元	miǎnyuán	kyat	noun	货币	Currency	现代汉语	Modern Chinese	缅甸	Myanmar	\N	\N	Unit of currency in Myanmar (Wikipedia 'ISO_4217')	6000313
+6000314	摩洛哥迪尔汗	摩洛哥迪爾汗	móluògē dí'ěrhàn	Moroccan dirham	noun	货币	Currency	现代汉语	Modern Chinese	摩洛哥	Morocco	\N	\N	Unit of currency in Morocco (Wikipedia 'ISO_4217')	6000314
+6000315	莫桑比克梅蒂卡尔	莫桑比克梅蒂卡爾	mòsāngbǐkè méidìkǎ'ěr	Mozambique metical	noun	货币	Currency	现代汉语	Modern Chinese	摩洛哥	Mozambique	\N	\N	Unit of currency in Mozambique (Wikipedia 'ISO_4217')	6000315
+6000316	墨西哥比索	墨西哥比索	mòxīgē bǐsuǒ	Mexican peso	noun	货币	Currency	现代汉语	Modern Chinese	墨西哥	Mexico	\N	\N	Unit of currency in Mexico (Wikipedia 'ISO_4217')	6000316
+6000317	科多巴	\N	kēduōbā	córdoba	noun	货币	Currency	现代汉语	Modern Chinese	尼加拉瓜	Nicaragua	\N	\N	Unit of currency in Nicaragua (Wikipedia 'ISO_4217')	6000317
+6000318	奈拉	\N	nàilā	naila	noun	货币	Currency	现代汉语	Modern Chinese	尼日利亚	Nigeria	\N	\N	Unit of currency in Nigeria (Wikipedia 'ISO_4217')	6000318
+6000319	挪威克朗	挪威剋朗	nuówēi kèlǎng	Norwegian krone	noun	货币	Currency	现代汉语	Modern Chinese	挪威	Norway	\N	\N	Unit of currency in Norway (Wikipedia 'ISO_4217')	6000319
+6000320	瑞典克朗	瑞典克朗	ruìdiǎn kèlǎng	Swedish krona	noun	货币	Currency	现代汉语	Modern Chinese	瑞典	Sweden	\N	\N	Unit of currency in Sweden (Wikipedia 'ISO_4217')	6000320
+6000321	瑞士法郎	瑞士法郎	ruìshì fǎláng	Swiss franc	noun	货币	Currency	现代汉语	Modern Chinese	瑞士	Switzerland	\N	\N	Unit of currency in Switzerland (Wikipedia 'ISO_4217')	6000321
+6000322	利昂	\N	lì'áng	Leone	noun	货币	Currency	现代汉语	Modern Chinese	塞拉利昂	Sierra Leone	\N	\N	Unit of currency in Sierra Leone (Wikipedia 'ISO_4217')	6000322
+6000323	塞浦路斯镑	塞浦路斯鎊	 bàng	Cypriot pound	noun	货币	Currency	现代汉语	Modern Chinese	塞浦路斯	Cyprus	\N	\N	Unit of currency in Cyprus	6000323
+6000324	塞舌尔卢比	塞舌爾盧比	Sāishéěr lúbǐ	Seychelles rupee	noun	货币	Currency	现代汉语	Modern Chinese	塞舌尔	Seychelles	\N	\N	Unit of currency in Seychelles (Wikipedia 'ISO_4217')	6000324
+6000325	不莱梅	不萊梅	bùláiméi	Bremen (city in Germany)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '不萊梅')	6000325
+6000326	世界小姐选美	世界小姐選美	shì jiè xiǎo jiě xuǎn měi	Miss World Beauty Pageant	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世界小姐選美')	6000326
+6000327	世界海关组织	世界海關組織	shì jiè hǎi guān zǔ zhī	World Customs Organization	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世界海關組織')	6000327
+6000328	世界维吾尔代表大会	世界維吾爾代表大會	shì jiè wéi wú ěr dài biǎo dà huì	World Uighur Congress	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世界維吾爾代表大會')	6000328
+6000329	世界自然基金会	世界自然基金會	shì jiè zì rán jī jīn huì	World Wildlife Fund WWF	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世界自然基金會')	6000329
+6000330	世界卫生大会	世界衛生大會	shì jiè wèi shēng dà huì	World Health Assembly	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世界衛生大會')	6000330
+6000331	世界野生生物基金会	世界野生生物基金會	shì jiè yě shēng shēng wù jī jīn huì	World Wildlife Fund (WWF)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世界野生生物基金會')	6000331
+6000332	世贸大厦	世貿大廈	shì mào dà shà	World Trade Center	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世貿大廈')	6000332
+6000333	世足	\N	shìzú	World Cup (soccer)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	 Taiwanese usage (CC-CEDICT '世足')	6000333
