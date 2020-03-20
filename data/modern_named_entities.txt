@@ -331,3 +331,33 @@
 6000331	世界野生生物基金会	世界野生生物基金會	shì jiè yě shēng shēng wù jī jīn huì	World Wildlife Fund (WWF)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世界野生生物基金會')	6000331
 6000332	世贸大厦	世貿大廈	shì mào dà shà	World Trade Center	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世貿大廈')	6000332
 6000333	世足	\N	shìzú	World Cup (soccer)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	 Taiwanese usage (CC-CEDICT '世足')	6000333
+6000334	沙特里亚尔	沙特里亞爾	Shātè lǐyàěr	Saudi riyal	noun	货币	Currency	现代汉语	Modern Chinese	沙特阿拉伯	Saudi Arabia	\N	\N	Unit of currency in Saudi Arabia (Wikipedia 'ISO_4217')	6000334
+6000335	斯里兰卡卢比	斯里蘭卡盧比	Sīlǐlánkǎ lúbǐ	Sri Lankan rupee	noun	货币	Currency	现代汉语	Modern Chinese	斯里兰卡	Sri Lanka	\N	\N	Unit of currency in Sri Lanka (Wikipedia 'ISO_4217')	6000335
+6000336	里兰吉尼	里蘭吉尼	lǐlánjíní	Lilangeni	noun	货币	Currency	现代汉语	Modern Chinese	斯威士兰	Swaziland	\N	\N	Unit of currency in Swaziland (Wikipedia 'ISO_4217')	6000336
+6000337	苏丹镑	蘇丹鎊	Sūdān bàng	Sudanese pound	noun	货币	Currency	现代汉语	Modern Chinese	苏丹	Sudan	\N	\N	Unit of currency in Sudan (Wikipedia 'ISO_4217')	6000337
+6000338	苏里南盾	蘇裡南盾	Sūlǐnán dùn	Suriname guilder	noun	货币	Currency	现代汉语	Modern Chinese	苏里南	Suriname	\N	\N	Unit of currency in Suriname (Wikipedia 'ISO_4217').	6000338
+6000339	索马里先令	索馬裡先令	Suǒmǎlǐ xiānlìng	Somali shilling	noun	货币	Currency	现代汉语	Modern Chinese	索马里	Somalia	\N	\N	Unit of currency in Somalia (Wikipedia 'ISO_4217')	6000339
+6000340	潘加	\N	pānjiā	paanga	noun	货币	Currency	现代汉语	Modern Chinese	汤加	Tonga	\N	\N	Unit of currency in Tonga (Wikipedia 'ISO_4217')	6000340
+6000341	特立尼达和多巴哥元	特立尼達和多巴哥元	Tèlìnídá hé Duōbāgē yuán	Trinidad and Tobago dollar	noun	货币	Currency	现代汉语	Modern Chinese	特立尼达和多巴哥	Trinidad and Tobago	\N	\N	Unit of currency in Trinidad and Tobago (Wikipedia 'ISO_4217')	6000341
+6000342	中国国际航空公司	中國國際航空公司	zhōngguó guójì hángkōng gōngsī	Air China Ltd.	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國國際航空公司')	6000342
+6000343	中国地球物理学会	中國地球物理學會	zhōngguó dìqiú wùlǐ xuéhuì	Chinese Geophysical Society	proper noun	学会	Academic Society	教育	Education	中国	China	\N	\N	(CC-CEDICT '中國地球物理學會')	6000343
+6000344	中国工程院	中國工程院	zhōngguó gōngchéng yuàn	Chinese Academy of Engineering	proper noun	学会	Academic Society	教育	Education	中国	China	\N	\N	(CC-CEDICT '中國工程院')	6000344
+6000345	中国建设银行	中國建設銀行	zhōngguó jiànshè yínháng	China Construction Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國建設銀行')	6000345
+6000346	中国新闻社	中國新聞社	zhōngguó xīnwénshè	China News Service	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國新聞社')	6000346
+6000347	中国东方航空	中國東方航空	zhōngguó dōngfāng hángkōng	China Eastern Airlines	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國東方航空')	6000347
+6000348	中国民主同盟	中國民主同盟	zhōngguó mínzhǔ tóngméng	China Democratic League	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國民主同盟')	6000348
+6000349	中国法学会	中國法學會	zhōngguó fǎ xuéhuì	China Law Society	proper noun	学会	Academic Society	教育	Education	中国	China	\N	\N	(CC-CEDICT '中國法學會')	6000349
+6000350	中国海事局	中國海事局	zhōngguó hǎishì jú	PRC Maritime Safety Agency	proper noun	局	Agency	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國海事局')	6000350
+6000351	中国联合航空	中國聯合航空	zhōngguó liánhé hángkōng	China United Airlines	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國聯合航空')	6000351
+6000352	中国联通	中國聯通	zhōngguó liántōng	China Unicom	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國聯通')	6000352
+6000353	中国证券报	中國證券報	zhōngguó zhèngquàn bào	China Securities Journal	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國證券報')	6000353
+6000354	中国农业银行	中國農業銀行	zhōngguó nóngyè yínháng	Agricultural Bank of China	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國農業銀行')	6000354
+6000355	中国鸟类学会	中國鳥類學會	zhōngguó niǎolèi xuéhuì	China Ornithological Society	proper noun	学会	Academic Society	教育	Education	中国	China	\N	\N	(CC-CEDICT '中國鳥類學會')	6000355
+6000356	突尼斯第纳尔	突尼斯第納爾	Tūnísī dìnà'ěr	Tunisian dinar	noun	货币	Currency	现代汉语	Modern Chinese	突尼斯	Tunisia	\N	\N	Unit of currency in Tunisia (Wikipedia 'ISO_4217')	6000356
+6000357	中央执行委员会	中央執行委員會	zhōngyāng zhíxíng wěiyuánhuì	Central Executive Committee	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中央執行委員會')	6000357
+6000358	土耳其里拉	\N	Tǔěrqí lǐlā	Turkish lira	noun	货币	Currency	现代汉语	Modern Chinese	土耳其	Turkey	\N	\N	Unit of currency in Turkey (Wikipedia 'ISO_4217')	6000358
+6000359	中央戏剧学院	中央戲劇學院	zhōngyāng xìjù xuéyuàn	Central Academy of Drama	proper noun	学院	Academy	教育	Education	中国	China	\N	\N	(CC-CEDICT '中央戲劇學院')	6000359
+6000360	博利瓦	\N	bólìwà	bolívar	noun	货币	Currency	现代汉语	Modern Chinese	委内瑞拉	Venezuela	\N	\N	name of a city and unit of currency in Venezuela (Wikipedia '博利瓦')	6000360
+6000362	乌干达先令	烏干達先令	wūgāndá xiānlìng	Uganda shilling	noun	货币	Currency	现代汉语	Modern Chinese	乌干达	Uganda	\N	\N	Unit of currency in Uganda (Wikipedia '烏干達先令')	6000362
+6000363	港元	\N	gǎng yuán	Hong Kong dollar	noun	货币	Currency	现代汉语	Modern Chinese	香港	Hong Kong	\N	\N	Unit of currency in Hong Kong, also called 港币 (Wikipedia 'ISO_4217')	6000363
+6000364	新台币	新台幣	xīntáibì	New Taiwan dollar	noun	货币	Currency	现代汉语	Modern Chinese	台湾	Taiwan	\N	\N	Unit of currency in Taiwan (Wikipedia 'ISO_4217')	6000364

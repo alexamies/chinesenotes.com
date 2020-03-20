@@ -5,6 +5,7 @@
 计算机科学	Computer Science	\N	\N
 戏剧	Drama	\N	\N
 教育	Education	\N	\N
+政府	Government	\N	\N
 历史	History	\N	\N
 成语	Idiom	\N	\N
 日语	Japanese	\N	\N
