@@ -373,3 +373,18 @@
 6000373	赞比亚克瓦查	贊比亞剋瓦查	Zànbǐyà kèwǎchá	Zambian Kwacha	noun	货币	Currency	现代汉语	Modern Chinese	赞比亚	Zambia	\N	\N	Unit of currency in Zambia (Wikipedia 'ISO_4217')	6000373
 6000374	扎伊尔	扎伊爾	Zhāyīěr	Zaire	noun	货币	Currency	现代汉语	Modern Chinese	扎伊尔	Zaire	\N	\N	Unit of currency in the country Zaire (Wikipedia 'ISO_4217')	6000374
 6000375	智利比索	\N	zhìlì bǐsuǒ	Chilean peso	noun	货币	Currency	现代汉语	Modern Chinese	智利	Chile	\N	\N	Unit of currency in Chile (Wikipedia 'ISO_4217')	6000375
+6000376	中田英寿	中田英壽	zhōng tián yīng shòu	Hidetoshi Nakata	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中田英壽'; Wikipedia '中田英壽')	6000376
+6000377	中美文化研究中心	\N	zhōng měi wénhuà yánjiū zhōngxīn	Hopkins-Nanjing Center	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中美文化研究中心')	6000377
+6000378	中华全国体育总会	中華全國體育總會	Zhōnghuá quánguó tǐyù zǒnghuì	All-China Sports Federation	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中華全國體育總會')	6000378
+6000379	中远香港集团	中遠香港集團	zhōngyuǎn xiānggǎng jítuán	COSCO Hong Kong Group	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中遠香港集團')	6000379
+6000380	中非共和国	中非共和國	Zhōng Fēi gònghéguó	Central African Republic	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '中非共和國')	6000380
+6000381	丹尼斯	\N	dānní sī	Dennis (name)	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '丹尼斯')	6000381
+6000382	丹布朗	\N	dān bùlǎng	Dan Brown	proper noun	作者	Author	文学	Literature	美国	United States	\N	\N	 American novelist (CC-CEDICT '丹布朗')	6000382
+6000383	乍得	\N	Zhàdé	Chad	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 134; XHZD, p. 702)	6000383
+6000384	乍得湖	\N	zhàdé hú	Lake Chad	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '乍得湖'; Wikipedia '乍得湖')	6000384
+6000385	乞力马扎罗山	乞力馬扎羅山	qǐ lì mǎ zhā luóshān	Mt Kilimanjaro	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	In Tanzania(CC-CEDICT '乞力馬扎羅山')	6000385
+6000386	乱世佳人	亂世佳人	luànshìjiārén	Gone with the Wind (film)	proper noun	电影	Movie	戏剧	Drama	美国	United States	\N	\N	(CC-CEDICT '亂世佳人')	6000386
+6000387	阿凡达	阿凡達	Āfándá	Avatar	proper noun	电影	Movie	戏剧	Drama	美国	United States	\N	\N	(Wikipedia '阿凡达')	6000387
+6000388	新世界	\N	xīnshìjiè	new world	proper noun	电视剧	TV Series	戏剧	Drama	中国	China	\N	\N	2020 Mainland Chinese series among others of the same name (Wikipedia '新世界')	101701
+6000389	康熙王朝	\N	Kāngxī wángcháo	Kangxi Dynasty	proper noun	电视剧	TV Series	戏剧	Drama	中国	China	\N	\N	Chinese television series first released in 2001 (Wikipedia '康熙王朝')	6000389
+6000390	康熙帝国	康熙帝國	Kāngxī dìguó	Kangxi Empire	proper noun	电视剧	TV Series	戏剧	Drama	中国	China	\N	\N	See 康熙王朝 (Wikipedia '康熙王朝')	6000390
