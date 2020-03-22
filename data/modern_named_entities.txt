@@ -40,7 +40,7 @@
 6000040	百度	\N	bǎidù	Baidu	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '百度')	42482
 6000041	宝洁	寶潔	bǎo jié	Procter & Gamble	proper noun	公司	Company	制造业	Manufacturing	\N	\N	\N	\N	(CC-CEDICT '寶潔'; Wikipedia '宝洁')	6000041
 6000042	辉瑞	輝瑞	Huīruì	Pfizer	proper noun	公司	Company	制造业	Manufacturing	\N	\N	\N	\N	(CC-CEDICT '輝瑞'; Wikipedia '辉瑞')	6000042
-6000043	三菱	\N	sānlíng	Mitsubishi	roper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '三菱')	6000043
+6000043	三菱	\N	sānlíng	Mitsubishi	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '三菱')	6000043
 6000044	索尼	\N	suǒní	Sony	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '索尼'; Wikipedia '索尼')	6000044
 6000045	佳能	\N	jiānéng	Canon	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '佳能'; Guoyu '佳能'; Wikipedia '佳能')	6000045
 6000046	百事	\N	bǎishì	Pepsi	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '百事'; Wikipedia '百事可樂')	65970
@@ -388,3 +388,25 @@
 6000388	新世界	\N	xīnshìjiè	new world	proper noun	电视剧	TV Series	戏剧	Drama	中国	China	\N	\N	2020 Mainland Chinese series among others of the same name (Wikipedia '新世界')	101701
 6000389	康熙王朝	\N	Kāngxī wángcháo	Kangxi Dynasty	proper noun	电视剧	TV Series	戏剧	Drama	中国	China	\N	\N	Chinese television series first released in 2001 (Wikipedia '康熙王朝')	6000389
 6000390	康熙帝国	康熙帝國	Kāngxī dìguó	Kangxi Empire	proper noun	电视剧	TV Series	戏剧	Drama	中国	China	\N	\N	See 康熙王朝 (Wikipedia '康熙王朝')	6000390
+6000391	五十铃	五十鈴	wǔshílíng	Isuzu	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '五十鈴'; Wikipedia '五十鈴')	6000391
+6000392	亚丁	亞丁	yàdīng	Aden	proper noun	地名	Place Name	地方	Places	中东	Middle East	\N	\N	In Yemen (CC-CEDICT '亞丁'; Wikipedia '亞丁')	6000392
+6000393	亚利安娜	亞利安娜	yàlìānnà	Ariane	proper noun	\N	\N	现代汉语	Modern Chinese	产业	Industry	\N	\N	French space rocket (CC-CEDICT '亞利安娜')	6000393
+6000394	亚利桑纳州	亞利桑納州	yàlìsāngnà zhōu	state of Arizona	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '亞利桑納州')	6000394
+6000395	亚喀巴	亞喀巴	yàkābā	Aqaba	proper noun	城市	City	地方	Places	中东	Middle East	\N	\N	A port city in Jordan (CC-CEDICT '亞喀巴')	6000395
+6000396	亚塞拜然	亞塞拜然	yàsāibàirán	Azerbaijan	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	Taiwanese usage (CC-CEDICT '亞塞拜然')	6000396
+6000397	亚太经合组织	亞太經合組織	Yà Tài jīnghé zǔzhī	APEC	proper noun	\N	\N	组织	Organizations	\N	\N	\N	\N	(CC-CEDICT '亞太經合組織')	6000397
+6000398	亚达薛西	亞達薛西	yàdáxuēxī	Artaxerxes	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	Persian name (CC-CEDICT '亞達薛西')	6000398
+6000399	亚速尔群岛	亞速爾群島	yà sù ěr qúndǎo	Azores Islands	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '亞速爾群島')	6000399
+6000400	亚巴郎	亞巴郎	yàbāláng	Abraham (name)	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '亞巴郎')	6000400
+6000401	亚该亚	亞該亞	yàgāiyà	Achaia	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '亞該亞')	6000401
+6000402	亚平宁	亞平寧	yàpíngníng	Apennine (Mountains)	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '亞平寧')	6000402
+6000403	亚美利加	亞美利加	yàměilìjiā	America	proper noun	\N	\N	地方	Places	美国	United States	\N	\N	(CC-CEDICT '亞美利加')	6000403
+6000404	亚细安	亞細安	yàxìān	ASEAN	proper noun	\N	\N	政府	Government	亚洲	Asia	\N	\N	(CC-CEDICT '亞細安')	6000404
+6000405	亚细亚	亞細亞	yàxìyà	Asia	proper noun	\N	\N	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '亞細亞')	6000405
+6000406	亚细亚洲	亞細亞洲	yàxìyàzhōu	Asia	proper noun	\N	\N	地方	Places	亚洲	Asia	\N	\N	Abbr. 亚洲 (CC-CEDICT '亞細亞洲')	6000406
+6000407	亚弗烈	亞弗烈	yàfúliè	Alfred (name)	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '亞弗烈')	6000407
+6000408	亚拉巴马	亞拉巴馬	yàlābāmǎ	Alabama, US state	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '亞拉巴馬')	6000408
+6000409	亚拉巴马州	亞拉巴馬州	yà lā bā Mǎ Zhōu	Alabama, US state	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '亞拉巴馬州')	6000409
+6000410	亚松森	亞松森	yàsōngsēn	Asunción	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	The capital of Paraguay (CC-CEDICT '亞松森')	6000410
+6000411	亚比利尼	亞比利尼	yàbìlìní	Abilene	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '亞比利尼')	6000411
+6000412	亚洲足球联合会	亞洲足球聯合會	yàzhōu zúqiú liánhéhuì	Asian Football Confederation	proper noun	\N	\N	组织	Organizations	体育	Sport	\N	\N	(CC-CEDICT '亞洲足球聯合會')	6000412
