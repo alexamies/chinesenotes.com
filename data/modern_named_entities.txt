@@ -410,3 +410,8 @@
 6000410	亚松森	亞松森	yàsōngsēn	Asunción	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	The capital of Paraguay (CC-CEDICT '亞松森')	6000410
 6000411	亚比利尼	亞比利尼	yàbìlìní	Abilene	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '亞比利尼')	6000411
 6000412	亚洲足球联合会	亞洲足球聯合會	yàzhōu zúqiú liánhéhuì	Asian Football Confederation	proper noun	\N	\N	组织	Organizations	体育	Sport	\N	\N	(CC-CEDICT '亞洲足球聯合會')	6000412
+6000413	交通银行	交通銀行	jiāotōng yínháng	Bank of Communications	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '交通銀行')	6000413
+6000414	亨特	\N	hēngté	Hunter	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '亨特')	6000414
+6000415	人民广场	人民廣場	rénmínguǎngchǎng	People's Squareproper noun	地名	Place Name	地方	Places	中国	China	\N	\N	In Shanghai	(CC-CEDICT '人民廣場')	6000415
+6000416	人民日报	人民日報	rénmínrìbào	People's Daily (PRC newspaper)	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '人民日報')	6000416
+6000417	人鱼小姐	人魚小姐	rényúxiǎojie	mermaid / the Little Mermaid	proper noun	电影	Movie	戏剧	Drama	美国	United States	\N	\N	(CC-CEDICT '人魚小姐')	6000417
