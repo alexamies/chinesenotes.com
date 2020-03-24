@@ -394,7 +394,7 @@
 6000394	亚利桑纳州	亞利桑納州	yàlìsāngnà zhōu	state of Arizona	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '亞利桑納州')	6000394
 6000395	亚喀巴	亞喀巴	yàkābā	Aqaba	proper noun	城市	City	地方	Places	中东	Middle East	\N	\N	A port city in Jordan (CC-CEDICT '亞喀巴')	6000395
 6000396	亚塞拜然	亞塞拜然	yàsāibàirán	Azerbaijan	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	Taiwanese usage (CC-CEDICT '亞塞拜然')	6000396
-6000397	亚太经合组织	亞太經合組織	Yà Tài jīnghé zǔzhī	APEC	proper noun	\N	\N	组织	Organizations	\N	\N	\N	\N	(CC-CEDICT '亞太經合組織')	6000397
+6000397	亚太经合组织	亞太經合組織	Yà Tài jīnghé zǔzhī	APEC	proper noun	\N	\N	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '亞太經合組織')	6000397
 6000398	亚达薛西	亞達薛西	yàdáxuēxī	Artaxerxes	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	Persian name (CC-CEDICT '亞達薛西')	6000398
 6000399	亚速尔群岛	亞速爾群島	yà sù ěr qúndǎo	Azores Islands	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '亞速爾群島')	6000399
 6000400	亚巴郎	亞巴郎	yàbāláng	Abraham (name)	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '亞巴郎')	6000400
@@ -409,9 +409,27 @@
 6000409	亚拉巴马州	亞拉巴馬州	yà lā bā Mǎ Zhōu	Alabama, US state	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '亞拉巴馬州')	6000409
 6000410	亚松森	亞松森	yàsōngsēn	Asunción	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	The capital of Paraguay (CC-CEDICT '亞松森')	6000410
 6000411	亚比利尼	亞比利尼	yàbìlìní	Abilene	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '亞比利尼')	6000411
-6000412	亚洲足球联合会	亞洲足球聯合會	yàzhōu zúqiú liánhéhuì	Asian Football Confederation	proper noun	\N	\N	组织	Organizations	体育	Sport	\N	\N	(CC-CEDICT '亞洲足球聯合會')	6000412
+6000412	亚洲足球联合会	亞洲足球聯合會	yàzhōu zúqiú liánhéhuì	Asian Football Confederation	proper noun	联合会	Confederation	体育	Sport	\N	\N	\N	\N	(CC-CEDICT '亞洲足球聯合會')	6000412
 6000413	交通银行	交通銀行	jiāotōng yínháng	Bank of Communications	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '交通銀行')	6000413
 6000414	亨特	\N	hēngté	Hunter	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '亨特')	6000414
 6000415	人民广场	人民廣場	rénmínguǎngchǎng	People's Squareproper noun	地名	Place Name	地方	Places	中国	China	\N	\N	In Shanghai	(CC-CEDICT '人民廣場')	6000415
 6000416	人民日报	人民日報	rénmínrìbào	People's Daily (PRC newspaper)	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '人民日報')	6000416
 6000417	人鱼小姐	人魚小姐	rényúxiǎojie	mermaid / the Little Mermaid	proper noun	电影	Movie	戏剧	Drama	美国	United States	\N	\N	(CC-CEDICT '人魚小姐')	6000417
+6000418	代顿	代頓	dàidùn	Dayton	proper noun	城市	City	地方	Places	美国	United States	\N	\N	A city in Ohio (CC-CEDICT '代頓')	6000418
+6000419	伊斯坦堡	\N	yīsītǎnbǎo	Istanbul	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	 Taiwanese usage (CC-CEDICT '伊斯坦堡')	6000419
+6000420	伊戈尔斯	伊戈爾斯	yīgēěrsī	Eagles	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '伊戈爾斯')	6000420
+6000421	伊戈尔	伊戈爾	yīgē'ěr	Igor	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '伊戈爾')	6000421
+6000422	以太坊	\N	yǐtàifāng	Ethereum	proper noun	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(CC-CEDICT '以太坊')	6000422
+6000423	以斯帖	\N	yǐsītiè	Esther	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '以斯帖')	6000423
+6000424	伊娃	\N	yīwá	Eva	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '伊娃')	6000424
+6000425	伊塞克湖	\N	yīsāikèhú	Lake Issyk Kul in Kyrgyzstan	proper noun	湖	Lake	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '伊塞克湖')	6000425
+6000426	以马内利	以馬內利	yǐmǎnèilì	Emanuel	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '以馬內利')	6000426
+6000427	伊利诺州	伊利諾州	yīlìnuòzhōu	Illinois, US state	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '伊利諾州')	6000427
+6000428	伊利诺伊	伊利諾伊	yīlìnuòyī	Illinois, US state	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '伊利諾伊')	6000428
+6000429	伊利诺	伊利諾	yīlìnuò	Illinois, US state	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '伊利諾')	6000429
+6000430	伊利埃斯库	伊利埃斯庫	yīlì'āisīkù	Iliescu	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	Romainian name (CC-CEDICT '伊利埃斯庫')	6000430
+6000431	任天堂	\N	rèntiāntáng	Nintendo	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '任天堂')	6000431
+6000432	天骄	天驕	tiānjiāo	model of personal computer	proper noun	产品	Product	商务	Commerce	中国	China	\N	tian1jiao1.mp3	Manufactured by Lenovo (Wikipedia '天骄')	6000432
+6000433	龙芯	龍芯	lóngxīn	Loongson	proper noun	产品	Product	商务	Commerce	中国	China	\N	long2xin1.mp3	 Name of a chip (Wikipedia '龍芯')	6000433
+6000434	奔腾	奔騰	bēnténg	Pentium	proper noun	产品	Product	计算机科学	Computer Science	英特尔	Intel	\N	ben1teng2.mp3	The CPU produced by Intel (CC-CEDICT '奔騰'; Wikipedia '奔騰')	6000434
+6000435	随身听	隨身聽	suíshēntīng	Walkman	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '隨身聽')	6000435

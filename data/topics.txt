@@ -13,7 +13,7 @@
 文言文	Literary Chinese	\N	\N
 文学	Literature	\N	\N
 现代汉语	Modern Chinese	\N	\N
-组织	Organizations	\N	\N
 地方	Places	\N	\N
 政治	Politics	\N	\N
 谚语	Proverb	\N	\N
+体育	Sport	\N	\N
