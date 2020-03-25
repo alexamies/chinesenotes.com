@@ -431,5 +431,35 @@
 6000431	任天堂	\N	rèntiāntáng	Nintendo	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '任天堂')	6000431
 6000432	天骄	天驕	tiānjiāo	model of personal computer	proper noun	产品	Product	商务	Commerce	中国	China	\N	tian1jiao1.mp3	Manufactured by Lenovo (Wikipedia '天骄')	6000432
 6000433	龙芯	龍芯	lóngxīn	Loongson	proper noun	产品	Product	商务	Commerce	中国	China	\N	long2xin1.mp3	 Name of a chip (Wikipedia '龍芯')	6000433
-6000434	奔腾	奔騰	bēnténg	Pentium	proper noun	产品	Product	计算机科学	Computer Science	英特尔	Intel	\N	ben1teng2.mp3	The CPU produced by Intel (CC-CEDICT '奔騰'; Wikipedia '奔騰')	6000434
+6000434	奔腾	奔騰	bēnténg	Pentium	proper noun	产品	Product	计算机科学	Computer Science	美国	United States	\N	ben1teng2.mp3	The CPU produced by Intel (CC-CEDICT '奔騰'; Wikipedia '奔騰')	6000434
 6000435	随身听	隨身聽	suíshēntīng	Walkman	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '隨身聽')	6000435
+6000436	布什	\N	bùshí	Bush	proper noun	美国总统	US President	政治	Politics	美国	United States	\N	bu4shi2.mp3	Often referring to either of the two US presidents (Sun 2006, loc. 1595; VIAF http://viaf.org/viaf/71559485)	6000436
+6000437	硅谷	\N	Guīgǔ	Silicon Valley	proper noun	地区	Area	地方	Places	美国	United States	\N	\N	(CC-CEDICT '硅谷')	6000437
+6000438	加州	\N	jiāzhōu	California	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '加州')	6000438
+6000439	洛杉矶	洛杉磯	luòshānjī	Los Angeles	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '洛杉磯')	6000439
+6000440	哈仙达岗	哈仙達崗	hāxiāndágǎng	Hacienda Heights	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	A city in the Los Angeles metropolitan area (Wikipedia '哈仙達崗')	6000440
+6000441	伊利诺伊州	伊利諾伊州	yīlìnuòyī zhōu	Illinois	proper noun	州	State	地方	Places	美国	United States	\N	\N	 US state (CC-CEDICT '伊利諾伊州')	6000441
+6000442	伊斯特	\N	yīsīté	Istres	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	French town (CC-CEDICT '伊斯特')	6000442
+6000443	伊尔库茨克	伊爾庫茨克	yī'ěrkùcíkè	Irkutsk	proper noun	地名	Place Name	俄罗斯	Russia	\N	\N	\N	\N	(CC-CEDICT '伊爾庫茨克')	6000443
+6000444	卢布	盧布	lúbù	ruble	noun	货币	Currency	现代汉语	Modern Chinese	俄罗斯	Russia	\N	\N	Unit of currency in Russia  (Wikipedia 'ISO_4217')	6000444
+6000445	伊犁河	\N	yīlíhé	Ili River in central Asia	proper noun	水名	River	地方	Places	俄罗斯	Russia	\N	\N	(CC-CEDICT '伊犁河')	6000445
+6000446	伊留申	\N	yīliúshēn	Ilyushin, Russian plane maker	proper noun	公司	Company	商务	Commerce	俄罗斯	Russia	\N	\N	(CC-CEDICT '伊留申')	6000446
+6000447	伊万卡	伊萬卡	yīwànkǎ	Ivanka	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '伊萬卡')	6000447
+6000448	伊党	伊黨	yīdǎng	Pan-Malaysian Islamic Party	proper noun	党	Party	政治	Politics	亚洲	Asia	\N	\N	(CC-CEDICT '伊黨')	6000448
+6000449	伍德豪斯	\N	wǔdéháosī	Woodhouse or Wodehouse	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '伍德豪斯')	6000449
+6000450	伏地魔	\N	fúdìmó	Lord Voldemort (Harry Potter)	proper noun	主角	Character	文学	Literature	英国	England	\N	\N	(CC-CEDICT '伏地魔')	6000450
+6000451	休伊特	\N	xiūyīté	Hewitt	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '休伊特')	6000451
+6000452	休士顿	休士頓	xiūshìdùn	Houston, Texas	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '休士頓')	6000452
+6000453	休斯敦	\N	xiūsīdūn	Houston, Texas	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '休斯敦')	6000453
+6000454	休斯顿	休斯頓	xiūsīdùn	Houston	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '休斯頓')	6000454
+6000455	伯恩茅斯	\N	bóēnmáosī	Bournemouth, UK	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '伯恩茅斯')	6000455
+6000456	伯明翰	\N	bómínghàn	Birmingham	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '伯明翰')	6000456
+6000457	伯尔尼	伯爾尼	bóěrní	Bern, capital of Switzerland	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '伯爾尼')	6000457
+6000458	伯特兰	伯特蘭	bótélán	Bertrand	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '伯特蘭')	6000458
+6000459	伯特兰德	伯特蘭德	bótélándé	Bertrand	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '伯特蘭德')	6000459
+6000460	伯莎	\N	bósuō	Bertha	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '伯莎')	6000460
+6000461	伽利略探测器	伽利略探測器	Jiālìlüè tàncè qì	Galileo probe	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	(CC-CEDICT '伽利略探測器')	6000461
+6000462	佛罗伦斯	佛羅倫斯	fóluólúnsī	Florence	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	A city in Italy; Taiwanese usage (CC-CEDICT '佛羅倫斯')	6000462
+6000463	佩奇	\N	pèiqí	Peppa	proper noun	\N	\N	戏剧	Drama	\N	\N	\N	\N	From Peppa Pig cartoon (CC-CEDICT '佩奇')	6000463
+6000464	佩皮尼昂	\N	pèipíníáng	Perpignan	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	A city in France (CC-CEDICT '佩皮尼昂')	6000464
+6000465	佩鲁贾	佩魯賈	pèilǔjiǎ	Perugia	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	A city in Italy (CC-CEDICT '佩魯賈')	6000465
