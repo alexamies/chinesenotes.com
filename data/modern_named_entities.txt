@@ -463,3 +463,10 @@
 6000463	佩奇	\N	pèiqí	Peppa	proper noun	\N	\N	戏剧	Drama	\N	\N	\N	\N	From Peppa Pig cartoon (CC-CEDICT '佩奇')	6000463
 6000464	佩皮尼昂	\N	pèipíníáng	Perpignan	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	A city in France (CC-CEDICT '佩皮尼昂')	6000464
 6000465	佩鲁贾	佩魯賈	pèilǔjiǎ	Perugia	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	A city in Italy (CC-CEDICT '佩魯賈')	6000465
+6000466	依撒意亚	依撒意亞	yīsǎyìyà	Isaiah	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '依撒意亞')	6000466
+6000467	俄克拉何马城	俄克拉何馬城	ékèlāhémǎ chéng	Oklahoma City	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '俄克拉何馬城')	6000467
+6000468	俄联邦	俄聯邦	éliánbāng	Russian Federation, RSFSR	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '俄聯邦')	6000468
+6000469	俞天白	\N	yútiānbái	Yu Tianbai	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1937-; novelist (CC-CEDICT '俞天白')	6000469
+6000470	伦敦证券交易所	倫敦證券交易所	Lúndūn zhèngquàn jiāoyìsuǒ	London Stock Exchange (LSE)	proper noun	\N	\N	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '倫敦證券交易所')	6000470
+6000471	伟哥	偉哥	wěigē	Viagra (male impotence drug)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '偉哥')	6000471
+6000472	伟士牌	偉士牌	wěishìpái	Vespa (scooter)	proper noun	产品	Product	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '偉士牌')	6000472
