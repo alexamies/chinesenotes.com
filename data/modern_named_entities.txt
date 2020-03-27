@@ -378,7 +378,7 @@
 6000378	中华全国体育总会	中華全國體育總會	Zhōnghuá quánguó tǐyù zǒnghuì	All-China Sports Federation	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中華全國體育總會')	6000378
 6000379	中远香港集团	中遠香港集團	zhōngyuǎn xiānggǎng jítuán	COSCO Hong Kong Group	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中遠香港集團')	6000379
 6000380	中非共和国	中非共和國	Zhōng Fēi gònghéguó	Central African Republic	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '中非共和國')	6000380
-6000381	丹尼斯	\N	dānní sī	Dennis (name)	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '丹尼斯')	6000381
+6000381	丹尼斯	\N	dānní sī	Dennis	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '丹尼斯')	6000381
 6000382	丹布朗	\N	dān bùlǎng	Dan Brown	proper noun	作者	Author	文学	Literature	美国	United States	\N	\N	 American novelist (CC-CEDICT '丹布朗')	6000382
 6000383	乍得	\N	Zhàdé	Chad	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 134; XHZD, p. 702)	6000383
 6000384	乍得湖	\N	zhàdé hú	Lake Chad	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '乍得湖'; Wikipedia '乍得湖')	6000384
@@ -470,3 +470,21 @@
 6000470	伦敦证券交易所	倫敦證券交易所	Lúndūn zhèngquàn jiāoyìsuǒ	London Stock Exchange (LSE)	proper noun	\N	\N	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '倫敦證券交易所')	6000470
 6000471	伟哥	偉哥	wěigē	Viagra (male impotence drug)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '偉哥')	6000471
 6000472	伟士牌	偉士牌	wěishìpái	Vespa (scooter)	proper noun	产品	Product	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '偉士牌')	6000472
+6000473	健怡可乐	健怡可樂	jiànyí kělè	Diet Coke / Coca-Cola Light	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '健怡可樂')	6000473
+6000474	杰弗逊	傑弗遜	jiéfúxùn	Jefferson	proper noun	城市	City	地方	Places	美国	United States	\N	\N	Capital of Missouri (CC-CEDICT '傑弗遜')	6000474
+6000475	杰米	傑米	jiémǐ	Jamie / Jim	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '傑米')	6000475
+6000476	杰里科	傑里科	jiélǐkē	Jericho (town in West Bank)	proper noun	地名	Place Name	地方	Places	中东	Middle East	\N	\N	(CC-CEDICT '傑里科')	6000476
+6000477	芬兰	芬蘭	fēnlán	Finland	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	fen1lan2.mp3	(SDC 63; XHZD, p. 700)	6000477
+6000478	克劳福德	克勞福德	kèláofúdé	Crawford	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	Town in Texas) (CC-CEDICT '克勞福德')	6000478
+6000479	克拉斯诺亚尔斯克	克拉斯諾亞爾斯克	kèlāsīnuòyà'ěrsīkè	Krasnoyarsk	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '克拉斯諾亞爾斯克')	6000479
+6000480	克拉斯诺达尔	克拉斯諾達爾	kè lā sī nuò dá ěr	Krasnodar (city in Russia)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '克拉斯諾達爾')	6000480
+6000481	克拉科夫	\N	kèlākēfū	Krakow	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '克拉科夫')	6000481
+6000482	克朗代克	\N	kèlǎngdàikè	Klondike in northwest Canada	proper noun	地名	Place Name	地方	Places	北美	North America	\N	\N	(CC-CEDICT '克朗代克')	6000482
+6000483	克流感	\N	kèliúgǎn	oseltamivir / Tamiflu	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '克流感')	6000483
+6000484	克罗地亚共和国	克羅地亞共和國	kèluódìyà gònghéguó	Republic of Croatia	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '克羅地亞共和國')	6000484
+6000485	克罗埃西亚	克羅埃西亞	kè luó āi Xī Yà	Croatia	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Taiwanese usage (CC-CEDICT '克羅埃西亞')	6000485
+6000486	克莱斯勒汽车公司	克萊斯勒汽車公司	kèláisīlè qìchē gōngsī	Chrysler	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '克萊斯勒汽車公司')	6000486
+6000487	克虏伯	克虜伯	kèlǔbó	Krupp	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '克虜伯')	6000487
+6000488	克里斯托弗	\N	Kèlǐsītuōfú	Christopher	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '克里斯托弗')	6000488
+6000489	克里斯蒂安松	\N	Kèlǐsīdì'ānsōng	Kristiansund	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Norway (CC-CEDICT '克里斯蒂安松')	6000489
+6000490	克雷伯氏菌属	克雷伯氏菌屬	kèléibóshìjūnshǔ	Klebsiella	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '克雷伯氏菌屬')	6000490
