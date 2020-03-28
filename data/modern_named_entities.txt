@@ -490,3 +490,10 @@
 6000490	克雷伯氏菌属	克雷伯氏菌屬	kèléibóshìjūnshǔ	Klebsiella	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '克雷伯氏菌屬')	6000490
 6000491	全日空	\N	quánrìkōng	All Nippon Airways (ANA)	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '全日空')	6000491
 6000492	八佰伴	\N	bābǎibàn	Yaohan retail group	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '八佰伴')	6000492
+6000493	宋楚瑜	\N	Sòng Chǔyú	James Soong	proper noun	人	Person	政治	Politics	台湾	Taiwan	\N	\N	1942-; Taiwanese politician expelled from Guomindang in 2000 when he founded People First Party 亲民党 (Wikipedia '宋楚瑜')	6000493
+6000494	冒纳罗亚	冒納羅亞	màonàluóyà	Moanalua, Hawaiian volcano	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '冒納羅亞')	6000494
+6000495	白俄罗斯	白俄羅斯	báiéluósī	Belarus	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	bai2e2luo2si1.mp3	(SDC 67; XHZD, p. 700)	6000495
+6000496	凡尔赛	凡爾賽	fáněrsài	Versailles	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Near Paris (CC-CEDICT '凡爾賽')	6000496
+6000497	凡赛斯	凡賽斯	fánsàisī	Versace	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	Fashion brand; Taiwanese usage (CC-CEDICT '凡賽斯')	6000497
+6000498	凯迪拉克	凱迪拉克	kǎidílākè	Cadillac	proper noun	产品	Product	商务	Commerc	美国	United States	\N	\N	(CC-CEDICT '凱迪拉克')	6000498
+6000499	约翰逊	約翰遜	yuēhànxùn	Johnson	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '約翰遜')	6000499
