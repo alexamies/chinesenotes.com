@@ -488,3 +488,5 @@
 6000488	克里斯托弗	\N	Kèlǐsītuōfú	Christopher	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '克里斯托弗')	6000488
 6000489	克里斯蒂安松	\N	Kèlǐsīdì'ānsōng	Kristiansund	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Norway (CC-CEDICT '克里斯蒂安松')	6000489
 6000490	克雷伯氏菌属	克雷伯氏菌屬	kèléibóshìjūnshǔ	Klebsiella	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '克雷伯氏菌屬')	6000490
+6000491	全日空	\N	quánrìkōng	All Nippon Airways (ANA)	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '全日空')	6000491
+6000492	八佰伴	\N	bābǎibàn	Yaohan retail group	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '八佰伴')	6000492
