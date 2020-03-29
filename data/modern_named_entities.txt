@@ -468,7 +468,7 @@
 6000468	俄联邦	俄聯邦	éliánbāng	Russian Federation, RSFSR	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '俄聯邦')	6000468
 6000469	俞天白	\N	yútiānbái	Yu Tianbai	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1937-; novelist (CC-CEDICT '俞天白')	6000469
 6000470	伦敦证券交易所	倫敦證券交易所	Lúndūn zhèngquàn jiāoyìsuǒ	London Stock Exchange (LSE)	proper noun	\N	\N	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '倫敦證券交易所')	6000470
-6000471	伟哥	偉哥	wěigē	Viagra (male impotence drug)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '偉哥')	6000471
+6000471	伟哥	偉哥	wěigē	Viagra (male impotence drug)	proper noun	药品	Medication	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '偉哥')	6000471
 6000472	伟士牌	偉士牌	wěishìpái	Vespa (scooter)	proper noun	产品	Product	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '偉士牌')	6000472
 6000473	健怡可乐	健怡可樂	jiànyí kělè	Diet Coke / Coca-Cola Light	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '健怡可樂')	6000473
 6000474	杰弗逊	傑弗遜	jiéfúxùn	Jefferson	proper noun	城市	City	地方	Places	美国	United States	\N	\N	Capital of Missouri (CC-CEDICT '傑弗遜')	6000474
@@ -480,7 +480,7 @@
 6000480	克拉斯诺达尔	克拉斯諾達爾	kè lā sī nuò dá ěr	Krasnodar (city in Russia)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '克拉斯諾達爾')	6000480
 6000481	克拉科夫	\N	kèlākēfū	Krakow	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '克拉科夫')	6000481
 6000482	克朗代克	\N	kèlǎngdàikè	Klondike in northwest Canada	proper noun	地名	Place Name	地方	Places	北美	North America	\N	\N	(CC-CEDICT '克朗代克')	6000482
-6000483	克流感	\N	kèliúgǎn	oseltamivir / Tamiflu	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '克流感')	6000483
+6000483	克流感	\N	kèliúgǎn	oseltamivir / Tamiflu	proper noun	药品	Medication	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '克流感')	6000483
 6000484	克罗地亚共和国	克羅地亞共和國	kèluódìyà gònghéguó	Republic of Croatia	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '克羅地亞共和國')	6000484
 6000485	克罗埃西亚	克羅埃西亞	kè luó āi Xī Yà	Croatia	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Taiwanese usage (CC-CEDICT '克羅埃西亞')	6000485
 6000486	克莱斯勒汽车公司	克萊斯勒汽車公司	kèláisīlè qìchē gōngsī	Chrysler	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '克萊斯勒汽車公司')	6000486
@@ -520,3 +520,4 @@
 6000520	勒哈费尔	勒哈費爾	lēihāfèiěr	Le Havre	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	French town (CC-CEDICT '勒哈費爾')	6000520
 6000521	努克	\N	nǔkè	Nuuk, capital of Greenland	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '努克')	6000521
 6000522	努库阿洛法	努庫阿洛法	nǔ kù ā luò fǎ	Nuku'alofa, capital of Tonga	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '努庫阿洛法')	6000522
+6000523	劳拉西泮	勞拉西泮	láolāxīpàn	Lorazepam	proper noun	药品	Medication	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '勞拉西泮')	6000523
