@@ -495,5 +495,28 @@
 6000495	白俄罗斯	白俄羅斯	báiéluósī	Belarus	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	bai2e2luo2si1.mp3	(SDC 67; XHZD, p. 700)	6000495
 6000496	凡尔赛	凡爾賽	fáněrsài	Versailles	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Near Paris (CC-CEDICT '凡爾賽')	6000496
 6000497	凡赛斯	凡賽斯	fánsàisī	Versace	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	Fashion brand; Taiwanese usage (CC-CEDICT '凡賽斯')	6000497
-6000498	凯迪拉克	凱迪拉克	kǎidílākè	Cadillac	proper noun	产品	Product	商务	Commerc	美国	United States	\N	\N	(CC-CEDICT '凱迪拉克')	6000498
+6000498	凯迪拉克	凱迪拉克	kǎidílākè	Cadillac	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '凱迪拉克')	6000498
 6000499	约翰逊	約翰遜	yuēhànxùn	Johnson	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '約翰遜')	6000499
+6000500	切尔诺贝利	切爾諾貝利	qiē'ěrnuòbèilì	Chernobyl	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '切爾諾貝利')	6000500
+6000501	列克星顿	列克星頓	lièkèxīngdùn	Lexington, Massachusetts	proper noun	地名	Place Name	美国	United States	\N	\N	\N	\N	(CC-CEDICT '列克星頓')	6000501
+6000502	列支敦斯登	\N	lièzhīdūnsīdēng	Liechtenstein 	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Taiwanese iusage (CC-CEDICT '列支敦斯登')	6000502
+6000503	别克	別克	biékè	Buick	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '別克')	6000503
+6000504	利比里亚	利比里亞	lìbìlǐyà	Liberia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '利比里亞')	6000504
+6000505	利马索尔	利馬索爾	lìmǎsuǒěr	Limassol / Lemesos	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	In Cyprus (CC-CEDICT '利馬索爾')	6000505
+6000506	利隆圭	\N	lìlóngguī	Lilongwe	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	The capital of Malawi (CC-CEDICT '利隆圭')	6000506
+6000507	利贴	利貼	lìtiē	Post-It note (3M trademark)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '利貼')	6000507
+6000508	利宾纳	利賓納	lìbīnnà	Ribena	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '利賓納')	6000508
+6000509	刘心武	劉心武	liúxīnwǔ	Liu Xinwu	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1942-; novelist (CC-CEDICT '劉心武')	6000509
+6000510	加彭	\N	jiāpéng	Gabon	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese uage (CC-CEDICT '加彭')	6000510
+6000511	加德西	\N	jiādéxī	Gardasil (HPV vaccine)	proper noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '加德西')	6000511
+6000512	加拉巴哥斯	\N	jiālābāgēsī	Galapagos	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加拉巴哥斯')	6000512
+6000513	加拉巴哥斯群岛	加拉巴哥斯群島	jiā lā bā gē sī qúndǎo	Galapagos Islands	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加拉巴哥斯群島')	6000513
+6000514	加拉帕戈斯群岛	加拉帕戈斯群島	jiā lā pà gē sī qúndǎo	Galapagos Islands	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加拉帕戈斯群島')	6000514
+6000515	加泰罗尼亚	加泰羅尼亞	jiā tài luó ní yà	Catalonia	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '加泰羅尼亞')	6000515
+6000516	加的夫	\N	jiādefū	Cardiff	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '加的夫')	6000516
+6000517	加罗林群岛	加羅林群島	jiāluólín qúndǎo	Caroline Islands	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加羅林群島')	6000517
+6000518	加那利群岛	加那利群島	jiānàlì qúndǎo	Canary Islands	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加那利群島')	6000518
+6000519	加里宁格勒州	加里寧格勒州	jiālǐnínggélēi zhōu	Kaliningrad Oblast	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '加里寧格勒州')	6000519
+6000520	勒哈费尔	勒哈費爾	lēihāfèiěr	Le Havre	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	French town (CC-CEDICT '勒哈費爾')	6000520
+6000521	努克	\N	nǔkè	Nuuk, capital of Greenland	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '努克')	6000521
+6000522	努库阿洛法	努庫阿洛法	nǔ kù ā luò fǎ	Nuku'alofa, capital of Tonga	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '努庫阿洛法')	6000522
