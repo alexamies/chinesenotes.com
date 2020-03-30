@@ -513,7 +513,7 @@
 6000513	加拉巴哥斯群岛	加拉巴哥斯群島	jiā lā bā gē sī qúndǎo	Galapagos Islands	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加拉巴哥斯群島')	6000513
 6000514	加拉帕戈斯群岛	加拉帕戈斯群島	jiā lā pà gē sī qúndǎo	Galapagos Islands	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加拉帕戈斯群島')	6000514
 6000515	加泰罗尼亚	加泰羅尼亞	jiā tài luó ní yà	Catalonia	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '加泰羅尼亞')	6000515
-6000516	加的夫	\N	jiādefū	Cardiff	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '加的夫')	6000516
+6000516	加的夫	\N	jiādefū	Cardiff	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '加的夫')	6000516
 6000517	加罗林群岛	加羅林群島	jiāluólín qúndǎo	Caroline Islands	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加羅林群島')	6000517
 6000518	加那利群岛	加那利群島	jiānàlì qúndǎo	Canary Islands	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加那利群島')	6000518
 6000519	加里宁格勒州	加里寧格勒州	jiālǐnínggélēi zhōu	Kaliningrad Oblast	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '加里寧格勒州')	6000519
@@ -521,3 +521,19 @@
 6000521	努克	\N	nǔkè	Nuuk, capital of Greenland	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '努克')	6000521
 6000522	努库阿洛法	努庫阿洛法	nǔ kù ā luò fǎ	Nuku'alofa, capital of Tonga	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '努庫阿洛法')	6000522
 6000523	劳拉西泮	勞拉西泮	láolāxīpàn	Lorazepam	proper noun	药品	Medication	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '勞拉西泮')	6000523
+6000524	匣枪	匣槍	xiáqiāng	Mauser pistol (C96 type)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '匣槍')	6000524
+6000525	陆永	陸永	Lù Yǒng	Lu Yong	proper noun	人	Person	体育运动	Sport	中国	China	\N	\N	Weightlifter (Wikipedia '陸永 (舉重運動員)')	6000525
+6000526	卑尔根	卑爾根	bēiěrgēn	Bergen	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Norway (CC-CEDICT '卑爾根'; Wikipedia '卑爾根')	6000526
+6000527	卓越网	卓越網	zhuóyuèwǎng	Joyo.com	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '卓越網')	6000527
+6000528	南希	\N	nánxī	Nancy	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '南希')	6000528
+6000529	南朝鲜	南朝鮮	Nán Cháoxiān	South Korea	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(CC-CEDICT '南朝鮮')	6000529
+6000530	博蒙特	\N	bómēngté	Beaumont	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '博蒙特')	6000530
+6000531	卜卜米	\N	bǔbǔmǐ	Rice Krispies	proper noun	产品	Product	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '卜卜米')	6000531
+6000532	卡仙尼	\N	kǎxiānní	Cassini space probe	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '卡仙尼')	6000532
+6000533	卡洛驰	卡洛馳	kǎluòchí	Crocs, Inc.	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '卡洛馳')	6000533
+6000534	卡尔顿	卡爾頓	Kǎ'ěrdùn	Carleton	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '卡爾頓')	6000534
+6000535	卡达	卡達	kǎdá	Qatar	proper noun	国家	Country	地方	Places	中东	Middle East	\N	\N	Taiwanese usage (CC-CEDICT '卡達')	6000535
+6000536	卡骆驰	卡駱馳	kǎluòchí	Crocs, Inc.	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '卡駱馳')	6000536
+6000537	原南斯拉夫	\N	yuán nánsīlāfū	former Yugoslavia	phrase	国家	Country	历史	History	欧洲	Europe	\N	\N	1945-1992 (CC-CEDICT '原南斯拉夫')	6000537
+6000538	原苏联	原蘇聯	yuánsūlián	former Soviet Union	phrase	国家	Country	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '原蘇聯')	6000538
+6000539	参两院	參兩院	cānliǎng yuàn	both houses of US Congress	phrase	\N	\N	政府	Government	美国	United States	\N	\N	(CC-CEDICT '參兩院')	6000539
