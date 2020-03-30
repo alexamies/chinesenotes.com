@@ -537,3 +537,7 @@
 6000537	原南斯拉夫	\N	yuán nánsīlāfū	former Yugoslavia	phrase	国家	Country	历史	History	欧洲	Europe	\N	\N	1945-1992 (CC-CEDICT '原南斯拉夫')	6000537
 6000538	原苏联	原蘇聯	yuánsūlián	former Soviet Union	phrase	国家	Country	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '原蘇聯')	6000538
 6000539	参两院	參兩院	cānliǎng yuàn	both houses of US Congress	phrase	\N	\N	政府	Government	美国	United States	\N	\N	(CC-CEDICT '參兩院')	6000539
+6000540	可可米	\N	kěkěmǐ	Cocoa Krispies	proper noun	产品	Product	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '可可米')	6000540
+6000541	吃豆人	\N	chīdòurén	Pac-Man (computer game)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	 (CC-CEDICT '吃豆人')	6000541
+6000542	吉佳利	\N	jíjiālì	Kigali	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Rwanda; Taiwanese usage (CC-CEDICT '吉佳利')	6000542
+6000541	吉布地	\N	jíbùdì	Djibouti	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '吉布地')	6000541
