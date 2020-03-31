@@ -114,7 +114,7 @@
 6000114	巴哈马	巴哈馬	Bāhāmǎ	Bahamas	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Commonwealth of the Bahamas (SDC, p. 191; XHZD, p. 706)	6000114
 6000115	巴基斯坦	\N	Bājīsītǎn	Pakistan	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	ba1ji1si1tan3.mp3	Pakistan is often abbreviated to 巴 in the news media, especially in headlines to save space (MPRC; SDC, p. 33; XHZD, p. 699)	6000115
 6000116	巴拉圭	\N	bālāguī	Paraguay	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 210; XHZD, p. 707)	6000116
-6000117	柏林	\N	bólín	Berlin	proper noun	城市	City	地方	Places	德国	Germany	\N	bo2lin2.mp3	\N	6000117
+6000117	柏林	\N	bólín	Berlin	proper noun	城市	City	地方	Places	欧洲	Europe	\N	bo2lin2.mp3	\N	6000117
 6000118	巴林	\N	bālín	Bahrain	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 52; XHZD, p. 699)	6000118
 6000119	巴西	\N	bāxī	Brazil	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 214; XHZD, p. 707)	6000119
 6000120	保加利亚	保加利亞	bǎojiālìyà	Bulgaria	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 100; XHZD, p. 701)	6000120
@@ -509,13 +509,13 @@
 6000509	刘心武	劉心武	liúxīnwǔ	Liu Xinwu	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1942-; novelist (CC-CEDICT '劉心武')	6000509
 6000510	加彭	\N	jiāpéng	Gabon	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese uage (CC-CEDICT '加彭')	6000510
 6000511	加德西	\N	jiādéxī	Gardasil (HPV vaccine)	proper noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '加德西')	6000511
-6000512	加拉巴哥斯	\N	jiālābāgēsī	Galapagos	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加拉巴哥斯')	6000512
-6000513	加拉巴哥斯群岛	加拉巴哥斯群島	jiā lā bā gē sī qúndǎo	Galapagos Islands	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加拉巴哥斯群島')	6000513
-6000514	加拉帕戈斯群岛	加拉帕戈斯群島	jiā lā pà gē sī qúndǎo	Galapagos Islands	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加拉帕戈斯群島')	6000514
+6000512	加拉巴哥斯	\N	jiālābāgēsī	Galapagos	proper noun	群岛	Archipelago	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加拉巴哥斯')	6000512
+6000513	加拉巴哥斯群岛	加拉巴哥斯群島	jiā lā bā gē sī qúndǎo	Galapagos Islands	proper noun	群岛	Archipelago	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加拉巴哥斯群島')	6000513
+6000514	加拉帕戈斯群岛	加拉帕戈斯群島	jiā lā pà gē sī qúndǎo	Galapagos Islands	proper noun	群岛	Archipelago	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加拉帕戈斯群島')	6000514
 6000515	加泰罗尼亚	加泰羅尼亞	jiā tài luó ní yà	Catalonia	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '加泰羅尼亞')	6000515
 6000516	加的夫	\N	jiādefū	Cardiff	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '加的夫')	6000516
-6000517	加罗林群岛	加羅林群島	jiāluólín qúndǎo	Caroline Islands	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加羅林群島')	6000517
-6000518	加那利群岛	加那利群島	jiānàlì qúndǎo	Canary Islands	proper noun	群岛	Islands	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加那利群島')	6000518
+6000517	加罗林群岛	加羅林群島	jiāluólín qúndǎo	Caroline Islands	proper noun	群岛	Archipelago	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加羅林群島')	6000517
+6000518	加那利群岛	加那利群島	jiānàlì qúndǎo	Canary Islands	proper noun	群岛	Archipelago	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '加那利群島')	6000518
 6000519	加里宁格勒州	加里寧格勒州	jiālǐnínggélēi zhōu	Kaliningrad Oblast	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '加里寧格勒州')	6000519
 6000520	勒哈费尔	勒哈費爾	lēihāfèiěr	Le Havre	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	French town (CC-CEDICT '勒哈費爾')	6000520
 6000521	努克	\N	nǔkè	Nuuk, capital of Greenland	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '努克')	6000521
@@ -540,4 +540,8 @@
 6000540	可可米	\N	kěkěmǐ	Cocoa Krispies	proper noun	产品	Product	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '可可米')	6000540
 6000541	吃豆人	\N	chīdòurén	Pac-Man (computer game)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	 (CC-CEDICT '吃豆人')	6000541
 6000542	吉佳利	\N	jíjiālì	Kigali	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Rwanda; Taiwanese usage (CC-CEDICT '吉佳利')	6000542
-6000541	吉布地	\N	jíbùdì	Djibouti	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '吉布地')	6000541
+6000543	吉布地	\N	jíbùdì	Djibouti	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '吉布地')	6000543
+6000544	哥吉拉	\N	gējílā	Godzilla	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	Taiwanese usage (CC-CEDICT '哥吉拉')	6000544
+6000545	哥斯拉	\N	gēsīlā	Godzilla	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	 (CC-CEDICT '哥斯拉')	6000545
+6000546	哥林多	\N	gēlínduō	Corinth	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	 (CC-CEDICT '哥林多')	6000546
+6000547	唐老鸭	唐老鴨	tánglǎoyā	Donald Duck	proper noun	主角	Character	戏剧	Drama	美国	United States	\N	\N	 (CC-CEDICT '唐老鴨')	6000547
