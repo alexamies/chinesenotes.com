@@ -538,10 +538,14 @@
 6000538	原苏联	原蘇聯	yuánsūlián	former Soviet Union	phrase	国家	Country	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '原蘇聯')	6000538
 6000539	参两院	參兩院	cānliǎng yuàn	both houses of US Congress	phrase	\N	\N	政府	Government	美国	United States	\N	\N	(CC-CEDICT '參兩院')	6000539
 6000540	可可米	\N	kěkěmǐ	Cocoa Krispies	proper noun	产品	Product	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '可可米')	6000540
-6000541	吃豆人	\N	chīdòurén	Pac-Man (computer game)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	 (CC-CEDICT '吃豆人')	6000541
+6000541	吃豆人	\N	chīdòurén	Pac-Man (computer game)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '吃豆人')	6000541
 6000542	吉佳利	\N	jíjiālì	Kigali	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Rwanda; Taiwanese usage (CC-CEDICT '吉佳利')	6000542
 6000543	吉布地	\N	jíbùdì	Djibouti	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '吉布地')	6000543
 6000544	哥吉拉	\N	gējílā	Godzilla	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	Taiwanese usage (CC-CEDICT '哥吉拉')	6000544
-6000545	哥斯拉	\N	gēsīlā	Godzilla	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	 (CC-CEDICT '哥斯拉')	6000545
-6000546	哥林多	\N	gēlínduō	Corinth	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	 (CC-CEDICT '哥林多')	6000546
-6000547	唐老鸭	唐老鴨	tánglǎoyā	Donald Duck	proper noun	主角	Character	戏剧	Drama	美国	United States	\N	\N	 (CC-CEDICT '唐老鴨')	6000547
+6000545	哥斯拉	\N	gēsīlā	Godzilla	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	(CC-CEDICT '哥斯拉')	6000545
+6000546	哥林多	\N	gēlínduō	Corinth	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '哥林多')	6000546
+6000547	唐老鸭	唐老鴨	tánglǎoyā	Donald Duck	proper noun	主角	Character	戏剧	Drama	美国	United States	\N	\N	(CC-CEDICT '唐老鴨')	6000547
+6000548	啤酒节	啤酒節	píjiǔjié	Beer Festival	proper noun	\N	\N	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '啤酒節')	6000548
+6000549	喜来登	喜來登	xǐláidēng	Sheraton (hotel chain)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '喜來登')	6000549
+6000550	乔治敦	喬治敦	qiáozhìdūn	Georgetown	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '喬治敦')	6000550
+6000551	嘉士伯	\N	jiāshìbó	Carlsberg	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '嘉士伯')	6000551
