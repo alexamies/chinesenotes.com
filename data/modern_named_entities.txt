@@ -549,3 +549,20 @@
 6000549	喜来登	喜來登	xǐláidēng	Sheraton (hotel chain)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '喜來登')	6000549
 6000550	乔治敦	喬治敦	qiáozhìdūn	Georgetown	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '喬治敦')	6000550
 6000551	嘉士伯	\N	jiāshìbó	Carlsberg	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '嘉士伯')	6000551
+6000552	亚运会	亞運會	Yà Yùn Huì	Asian Games	proper noun	\N	\N	体育运动	Sport	亚洲	Asia	\N	ya4yun4hui4.mp3	(CC-CEDICT '亞運會'; Wikipedia '亚洲运动会')	6000552
+6000553	国侦局	國偵局	guózhēnjú	National Reconnaissance Office (NRO)	proper noun	局	Agency	政府	Government	美国	United States	\N	\N	Abbreviation for 美國國家偵察局|美国国家侦察局 (CC-CEDICT '國偵局'; Wikipedia '美国国家侦察局')	6000553
+6000554	国家社会主义	國家社會主義	guójiā shèhuì zhǔyì	national socialism / Nazism	set phrase	\N	\N	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '國家社會主義')	6000554
+6000555	国会山	國會山	guóhuìshān	Capitol Hill	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	Washington, D.C. (CC-CEDICT '國會山')	6000555
+6000556	国际和平基金会	國際和平基金會	guójì hépíng jījīnhuì	International Peace Foundation	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際和平基金會')	6000556
+6000557	图恩	圖恩	túēn	Thun	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	In Switzerland (CC-CEDICT '圖恩')	6000557
+6000558	图尔库	圖爾庫	túěrkù	Turku (city in Finland)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '圖爾庫')	6000558
+6000559	图片报	圖片報	túpiànbào	Bild-Zeitung	proper noun	报纸	Newspaper	媒体	Media	欧洲	Europe	\N	\N	(CC-CEDICT '圖片報')	6000559
+6000560	图灵奖	圖靈獎	túlíngjiǎng	Turing Award	proper noun	奖	Award	计算机科学	Computer Science	美国	United States	\N	\N	(CC-CEDICT '圖靈獎')	6000560
+6000561	坎帕拉	\N	kǎnpàlā	Kampala, capital of Uganda	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '坎帕拉')	6000561
+6000562	坎昆	\N	kǎnkūn	Cancún	proper noun	城市	City	现代汉语	Modern Chinese	北美	North America	\N	\N	(CC-CEDICT '坎昆')	6000562
+6000563	埃德	\N	āidé	Ed (name - Eduard)	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '埃德')	6000563
+6000564	埃叙	埃敘	āixù	Egypt-Syria	proper noun	\N	\N	现代汉语	Modern Chinese	中东	Middle East	\N	\N	(CC-CEDICT '埃敘')	6000564
+6000565	埃文	\N	āiwén	Evan / Avon / Ivan	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '埃文')	6000565
+6000566	埃文斯	\N	āiwénsī	Evans / Ivins / Ivens	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '埃文斯')	6000566
+6000567	基民党	基民黨	jīmíndǎng	Christian democratic party	proper noun	\N	\N	政治	Politics	\N	\N	\N	\N	(CC-CEDICT '基民黨')	6000567
+6000568	塞席尔	塞席爾	sāixí'ěr	the Seychelles	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '塞席爾'; Wikipedia '塞舌尔')	6000568
