@@ -566,3 +566,9 @@
 6000566	埃文斯	\N	āiwénsī	Evans / Ivins / Ivens	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '埃文斯')	6000566
 6000567	基民党	基民黨	jīmíndǎng	Christian democratic party	proper noun	\N	\N	政治	Politics	\N	\N	\N	\N	(CC-CEDICT '基民黨')	6000567
 6000568	塞席尔	塞席爾	sāixí'ěr	the Seychelles	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '塞席爾'; Wikipedia '塞舌尔')	6000568
+6000569	墨西拿	\N	mòxīná	Messina, Sicilian city	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '墨西拿')	6000569
+6000570	士力架	\N	shìlìjià	Snickers (candy bar)	proper noun	产品	Product	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '士力架')	6000570
+6000571	多佛尔	多佛爾	duōfóěr	Dover	proper noun	城市	City	地方	Places	英国	England	\N	\N	(CC-CEDICT '多佛爾')	6000571
+6000572	大本钟	大本鐘	dàběnzhōng	Big Ben	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '大本鐘')	6000572
+6000573	大润发	大潤發	dàrùnfà	RT Mart (supermarket chain)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	A hypermarket chain based in Taiwan (CC-CEDICT '大潤發'; Wikipedia '大潤發')	6000573
+6000574	太阳神计划	太陽神計劃	tàiyáng shén jìhuà	Apollo program	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '太陽神計劃'; Wikipedia '阿波罗计划')	6000574
