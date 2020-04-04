@@ -390,7 +390,7 @@
 6000390	康熙帝国	康熙帝國	Kāngxī dìguó	Kangxi Empire	proper noun	电视剧	TV Series	戏剧	Drama	中国	China	\N	\N	See 康熙王朝 (Wikipedia '康熙王朝')	6000390
 6000391	五十铃	五十鈴	wǔshílíng	Isuzu	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '五十鈴'; Wikipedia '五十鈴')	6000391
 6000392	亚丁	亞丁	yàdīng	Aden	proper noun	地名	Place Name	地方	Places	中东	Middle East	\N	\N	In Yemen (CC-CEDICT '亞丁'; Wikipedia '亞丁')	6000392
-6000393	亚利安娜	亞利安娜	yàlìānnà	Ariane	proper noun	\N	\N	现代汉语	Modern Chinese	产业	Industry	\N	\N	French space rocket (CC-CEDICT '亞利安娜')	6000393
+6000393	亚利安娜	亞利安娜	yàlìānnà	Ariane	proper noun	\N	\N	现代汉语	Modern Chinese	航天	Space Flight	\N	\N	French space rocket (CC-CEDICT '亞利安娜')	6000393
 6000394	亚利桑纳州	亞利桑納州	yàlìsāngnà zhōu	state of Arizona	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '亞利桑納州')	6000394
 6000395	亚喀巴	亞喀巴	yàkābā	Aqaba	proper noun	城市	City	地方	Places	中东	Middle East	\N	\N	A port city in Jordan (CC-CEDICT '亞喀巴')	6000395
 6000396	亚塞拜然	亞塞拜然	yàsāibàirán	Azerbaijan	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	Taiwanese usage (CC-CEDICT '亞塞拜然')	6000396
@@ -572,3 +572,21 @@
 6000572	大本钟	大本鐘	dàběnzhōng	Big Ben	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '大本鐘')	6000572
 6000573	大润发	大潤發	dàrùnfà	RT Mart (supermarket chain)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	A hypermarket chain based in Taiwan (CC-CEDICT '大潤發'; Wikipedia '大潤發')	6000573
 6000574	太阳神计划	太陽神計劃	tàiyáng shén jìhuà	Apollo program	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '太陽神計劃'; Wikipedia '阿波罗计划')	6000574
+6000575	奇努克	\N	qínǔkè	Chinook (helicopter)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '奇努克')	6000575
+6000576	奈洛比	\N	nàiluòbì	Nairobi	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Taiwanese usage; capital of Kenya (CC-CEDICT '奈洛比')	6000576
+6000577	奥利奥	奧利奧	àolìào	Oreo cookies	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '奧利奧')	6000577
+6000578	奥塞梯	奧塞梯	àosāitī	Ossetia	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	A Caucasian republic (CC-CEDICT '奧塞梯')	6000578
+6000579	奥委会	奧委會	àowěihuì	Olympic committee	proper noun	委会	Committee	现代汉语	Modern Chinese	体育	Sport	\N	\N	(CC-CEDICT '奧委會')	6000579
+6000580	奥托	奧托	àotuō	Otto	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '奧托')	6000580
+6000581	奥尔良	奧爾良	àoěrliáng	Orléans	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '奧爾良')	6000581
+6000582	奥胡斯	奧胡斯	àoHúsī	Aarhus	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Denmark (CC-CEDICT '奧胡斯')	6000582
+6000583	奥赖恩	奧賴恩	àolàiēn	Orion	proper noun	\N	\N	政府	Government	航天	Space Flight	\N	\N	NASA spacecraft (CC-CEDICT '奧賴恩')	6000583
+6000584	奥迪	奧迪	àodí	Audi	proper noun	产品	Product	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '奧迪')	6000584
+6000585	奥马哈	奧馬哈	àomǎhā	Omaha	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '奧馬哈')	6000585
+6000586	奥黛丽	奧黛麗	àodàilì	Audrey	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '奧黛麗')	6000586
+6000587	奋进号	奮進號	fènjìnhào	Space Shuttle Endeavor	proper noun	\N	\N	政府	Government	航天	Space Flight	\N	\N	(CC-CEDICT '奮進號')	6000587
+6000588	好市多	\N	hǎoshìduō	Costco (warehouse club chain)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '好市多')	6000588
+6000589	威而钢	威而鋼	wēiérgāng	Viagra (male impotence drug)	proper noun	药品	Medication	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '威而鋼')	6000589
+6000590	密特朗	\N	mìtélǎng	Mitterrand	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '密特朗')	6000590
+6000591	密苏里	密蘇里	mìsūlǐ	Missouri	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '密蘇里')	6000591
+6000592	富士通	\N	fùshìtōng	Fujitsu	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '富士通')	6000592
