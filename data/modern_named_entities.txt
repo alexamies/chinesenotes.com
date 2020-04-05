@@ -605,3 +605,11 @@
 6000605	帕萨特	帕薩特	pàsàté	Passat (automobile)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '帕薩特')	6000605
 6000606	帕兰卡	帕蘭卡	pàlánkǎ	Palanka	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '帕蘭卡')	6000606
 6000607	帛琉	\N	bóliú	Palau	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(CC-CEDICT '帛琉')	6000607
+6000608	座头市	座頭市	zuòtóushì	Zatoichi	proper noun	电影	Movie	戏剧	Drama	日本	Japan	\N	\N	(CC-CEDICT '座頭市'; wikipedia '座頭市')	6000608
+6000609	库拉索	庫拉索	kùlāsuǒ	Curaçao	proper noun	国家	Country	现代汉语	Modern Chinese	\N	\N	\N	\N	An island country in the southern Caribbean Sea (CC-CEDICT '庫拉索')	6000609
+6000610	库页岛	庫頁島	kùyèdǎo	Sakhalin	proper noun	岛	Island	地方	Places	日本	Japan	\N	\N	(CC-CEDICT '庫頁島'; Wikipedia '库页岛')	6000610
+6000611	彭勃	\N	péngbó	Peng Bo	proper noun	人	Person	体育	Sport	中国	China	\N	\N	1981-; Diver (CC-CEDICT '彭勃')	6000611
+6000612	彭博社	\N	péngbóshè	Bloomberg News	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '彭博社')	6000612
+6000613	复兴党	復興黨	fùxīngdǎng	Baath Party	proper noun	党	Party	政治	Politics	中东	Middle East	\N	\N	Of Syria (CC-CEDICT '復興黨'; wikipedia '阿拉伯復興社會黨')	6000613
+6000614	必胜客	必勝客	bìshèngkè	Pizza Hut	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '必勝客')	6000614
+6000615	必应	必應	bìyīng	Bing (search engine)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '必應')	6000615
