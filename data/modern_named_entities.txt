@@ -629,3 +629,12 @@
 6000629	披头士	披頭士	pītóushì	the Beatles (music band)	proper noun	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	\N	(CC-CEDICT '披頭士')	6000629
 6000630	抱抱团	抱抱團	bàobàotuán	Free Hugs Campaign	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '抱抱團')	6000630
 6000631	拍立得	\N	pāilìde	Polaroid	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	Taiwanese usage (CC-CEDICT '拍立得')	6000631
+6000632	拉冈	拉岡	lāgāng	Lacan (psychoanalyst)	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '拉岡')	6000632
+6000633	拉斐尔	拉斐爾	lāfěiěr	Raphael	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '拉斐爾')	6000633
+6000634	拉斐特	\N	lāfěité	Lafayette	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '拉斐特')	6000634
+6000635	拿骚	拿騷	násāo	Nassau	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Capital of The Bahamas (CC-CEDICT '拿騷')	6000635
+6000636	挪亚	挪亞	nuóyà	Noah	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '挪亞')	6000636
+6000637	推友	\N	tuīyǒu	Twitter user	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '推友')	6000637
+6000638	提摩太	\N	tímótài	Timothy	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '提摩太')	6000638
+6000639	提尔	提爾	tíěr	Tyre (Lebanon)	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '提爾')	6000639
+6000640	提尔市	提爾市	tíěrshì	Tyre (Lebanon)	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '提爾市')	6000640
