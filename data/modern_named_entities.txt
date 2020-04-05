@@ -590,3 +590,6 @@
 6000590	密特朗	\N	mìtélǎng	Mitterrand	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '密特朗')	6000590
 6000591	密苏里	密蘇里	mìsūlǐ	Missouri	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '密蘇里')	6000591
 6000592	富士通	\N	fùshìtōng	Fujitsu	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '富士通')	6000592
+6000593	宝可梦	寶可夢	bǎokěmèng	Pokémon	proper noun	产品	Product	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '寶可夢')	6000593
+6000594	宝丽来	寶麗來	bǎolìlái	Polaroid	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '寶麗來')	6000594
+6000595	宝丽金	寶麗金	bǎolìjīn	PolyGram (record label)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '寶麗金')	6000595
