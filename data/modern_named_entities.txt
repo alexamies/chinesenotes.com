@@ -613,3 +613,19 @@
 6000613	复兴党	復興黨	fùxīngdǎng	Baath Party	proper noun	党	Party	政治	Politics	中东	Middle East	\N	\N	Of Syria (CC-CEDICT '復興黨'; wikipedia '阿拉伯復興社會黨')	6000613
 6000614	必胜客	必勝客	bìshèngkè	Pizza Hut	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '必勝客')	6000614
 6000615	必应	必應	bìyīng	Bing (search engine)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '必應')	6000615
+6000616	思乐冰	思樂冰	sīlèbīng	Slurpee (drink)	proper noun	产品	Product	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '思樂冰')	6000616
+6000617	惠誉	惠譽	huìyù	Fitch	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Credit rating agency (CC-CEDICT '惠譽')	6000617
+6000618	爱丁堡	愛丁堡	àidīngbǎo	Edinburgh	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Capital of Scotland (CC-CEDICT '愛丁堡')	6000618
+6000619	爱彼迎	愛彼迎	àibǐyíng	Airbnb	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '愛彼迎')	6000619
+6000620	爱疯	愛瘋	àifēng	iPhone	noun	产品	Product	商务	Commerce	美国	United States	\N	\N	Slang (CC-CEDICT '愛瘋')	6000620
+6000621	爱耳日	愛耳日	àiěrrì	Ear Care Day	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	March 3 (CC-CEDICT '愛耳日')	6000621
+6000622	戴维营	戴維營	dàiwéiyíng	Camp David	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '戴維營')	6000622
+6000623	所多	\N	suǒduō	Soto	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '所多')	6000623
+6000624	托利党	托利黨	tuōlìdǎng	Tory Party	proper noun	党	Party	政治	Politics	英国	England	\N	\N	(CC-CEDICT '托利黨')	6000624
+6000625	扭扭乐	扭扭樂	niǔniǔlè	Twister (game)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '扭扭樂')	6000625
+6000626	扶轮社	扶輪社	fúlúnshè	Rotary Club	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '扶輪社')	6000626
+6000627	技嘉	\N	jìjiā	GIGABYTE Technology Co., Ltd.	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '技嘉')	6000627
+6000628	披头四乐团	披頭四樂團	pī tóu sì yuè tuán	the Beatles	proper noun	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	\N	(CC-CEDICT '披頭四樂團')	6000628
+6000629	披头士	披頭士	pītóushì	the Beatles (music band)	proper noun	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	\N	(CC-CEDICT '披頭士')	6000629
+6000630	抱抱团	抱抱團	bàobàotuán	Free Hugs Campaign	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '抱抱團')	6000630
+6000631	拍立得	\N	pāilìde	Polaroid	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	Taiwanese usage (CC-CEDICT '拍立得')	6000631
