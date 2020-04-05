@@ -120,7 +120,7 @@
 6000120	保加利亚	保加利亞	bǎojiālìyà	Bulgaria	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 100; XHZD, p. 701)	6000120
 6000121	杰西	傑西	jiéxī	Jessie	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '傑西')	6000121
 6000122	欧文斯	歐文斯	Ōuwénsī	Owens	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	ou1wen2si1.mp3	(CC-CEDICT '歐文斯')	6000122
-6000123	杰西·欧文斯	傑西·歐文斯	Jiéxī Ōuwénsī	Jessie Owens	proper noun	人	Person	历史	History	\N	\N	\N	\N	(Wikipedia '杰西·欧文斯')	6000123
+6000123	杰西·欧文斯	傑西·歐文斯	Jiéxī Ōuwénsī	Jessie Owens	proper noun	人	Person	历史	History	美国	United States	\N	\N	(Wikipedia '杰西·欧文斯')	6000123
 6000124	亚特兰大	亞特蘭大	yàtèlándà	Atlanta	proper noun	城市	City	地方	Places	美国	United States	\N	ya4te4lan2da4.mp3	(CC-CEDICT '亞特蘭大'; Guoyu '亞特蘭大'; Wikipedia '亚特兰大')	6000124
 6000125	贝宁	貝寧	bèiníng	Benin	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Benin, officially the Republic of Benin, is a country in West Africa (SDC, p. 121; XHZD, p. 702)	6000125
 6000126	秘鲁	秘魯	bìlǔ	Peru	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 207; XHZD, p. 707)	6000126
@@ -593,3 +593,15 @@
 6000593	宝可梦	寶可夢	bǎokěmèng	Pokémon	proper noun	产品	Product	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '寶可夢')	6000593
 6000594	宝丽来	寶麗來	bǎolìlái	Polaroid	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '寶麗來')	6000594
 6000595	宝丽金	寶麗金	bǎolìjīn	PolyGram (record label)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '寶麗金')	6000595
+6000596	山达基	山達基	shāndájī	Scientology	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '山達基')	6000596
+6000597	巴斯	\N	bāsī	Bath	proper noun	城市	City	地方	Places	英国	England	\N	\N	City in southwest England (CC-CEDICT '巴斯')	6000597
+6000598	巴氏	\N	bāshì	Pasteur	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '巴氏')	6000598
+6000599	巴尔干	巴爾幹	bāěrgān	Balkan	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '巴爾幹')	6000599
+6000600	巴莫	\N	bāmò	Ba Maw	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	Historic Burmese figure (CC-CEDICT '巴莫'; Wikipedia '巴莫')	6000600
+6000601	巴马科	巴馬科	bāmǎkē	Bamako	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	The capital of Mali (CC-CEDICT '巴馬科')	6000601
+6000602	布希鞋	\N	bùxīxié	Crocs (sandals)	proper noun	产品	Product	商务	Commerce	服装	Clothing	\N	\N	Taiwanese usage (CC-CEDICT '布希鞋')	6000602
+6000603	希特勒	\N	xītélēi	Adolf Hitler (1889-1945)	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '希特勒')	6000603
+6000604	帕福斯	\N	pàfúsī	Paphos	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	In Cyprus (CC-CEDICT '帕福斯')	6000604
+6000605	帕萨特	帕薩特	pàsàté	Passat (automobile)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '帕薩特')	6000605
+6000606	帕兰卡	帕蘭卡	pàlánkǎ	Palanka	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '帕蘭卡')	6000606
+6000607	帛琉	\N	bóliú	Palau	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(CC-CEDICT '帛琉')	6000607
