@@ -653,3 +653,12 @@
 6000653	星冰乐	星冰樂	xīngbīnglè	Frappuccino	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '星冰樂')	6000653
 6000654	普契尼	\N	pǔqìní	Puccini	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '普契尼')	6000654
 6000655	普拉亚	普拉亞	pǔlāyà	Praia	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Cape Verde (CC-CEDICT '普拉亞')	6000655
+6000656	曼城队	曼城隊	Mànchéngduì	Manchester City football team	proper noun	城市	City	地方	Places	体育	Sport	\N	\N	(CC-CEDICT '曼城隊')	6000656
+6000657	木子美	\N	mùzǐměi	Mu Zimei	proper noun	人	Person	现代汉语	Modern Chinese	中国	China	\N	\N	Chinese celebrity (CC-CEDICT '木子美')	6000657
+6000658	本尼迪	\N	běnnídí	Benedictus	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '本尼迪')	6000658
+6000659	李亚鹏	李亞鵬	lǐyàpéng	Li Yapeng	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1971- PRC actor (CC-CEDICT '李亞鵬')	6000659
+6000660	李铁	李鐵	lǐtiě	Li Tie	proper noun	人	Person	体育	Sport	中国	China	\N	\N	1977- Footballer (CC-CEDICT '李鐵')	6000660
+6000661	杜比	\N	dùbì	Dolby	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Audio technology (CC-CEDICT '杜比')	6000661
+6000662	林奈	\N	línnài	Carl Linnaeus / Carl Linné	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '林奈')	6000662
+6000663	林茨	\N	líncí	Linz (city in Austria)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '林茨')	6000663
+6000664	果粉	\N	guǒfěn	fan of Apple products	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '果粉')	6000664
