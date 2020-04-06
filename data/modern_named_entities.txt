@@ -638,3 +638,18 @@
 6000638	提摩太	\N	tímótài	Timothy	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '提摩太')	6000638
 6000639	提尔	提爾	tíěr	Tyre (Lebanon)	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '提爾')	6000639
 6000640	提尔市	提爾市	tíěrshì	Tyre (Lebanon)	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '提爾市')	6000640
+6000641	撒丁岛	撒丁島	sǎdīngdǎo	Sardinia	proper noun	岛	Island	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '撒丁島')	6000641
+6000642	撒哈拉以南	\N	Sǎhālā yǐnán	sub-Saharan	proper noun	\N	\N	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '撒哈拉以南')	6000642
+6000643	撒哈拉以南非洲	\N	Sǎhālā yǐnán fēizhōu	sub-Saharan Africa	proper noun	\N	\N	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '撒哈拉以南非洲')	6000643
+6000644	支努干	\N	zhīnǔgān	Chinook (helicopter)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '支努干')	6000644
+6000645	教堂山	\N	jiàotángshān	Chapel Hill	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	In North Carolina (CC-CEDICT '教堂山')	6000645
+6000646	斐济岛	斐濟島	fěijǐdǎo	Fiji	proper noun	岛	Island	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '斐濟島')	6000646
+6000647	斐理伯	\N	fěilǐbó	Philip	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '斐理伯')	6000647
+6000648	斯巴鲁	斯巴魯	sībālǔ	Subaru	proper noun	产品	Product	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '斯巴魯')	6000648
+6000649	方便贴	方便貼	fāngbiàntiē	Post-it note / sticky note	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '方便貼')	6000649
+6000650	明斯克	\N	míngsīkè	Minsk	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Capital of Belarus (CC-CEDICT '明斯克')	6000650
+6000651	易北河	\N	yìběihé	Elbe River	proper noun	水名	River	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '易北河')	6000651
+6000652	易洛魁	\N	yìluòkuí	Iroquois	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Native American peoples (CC-CEDICT '易洛魁'; Wikipedia '易洛魁聯盟')	6000652
+6000653	星冰乐	星冰樂	xīngbīnglè	Frappuccino	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '星冰樂')	6000653
+6000654	普契尼	\N	pǔqìní	Puccini	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '普契尼')	6000654
+6000655	普拉亚	普拉亞	pǔlāyà	Praia	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Cape Verde (CC-CEDICT '普拉亞')	6000655
