@@ -662,3 +662,12 @@
 6000662	林奈	\N	línnài	Carl Linnaeus / Carl Linné	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '林奈')	6000662
 6000663	林茨	\N	líncí	Linz (city in Austria)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '林茨')	6000663
 6000664	果粉	\N	guǒfěn	fan of Apple products	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '果粉')	6000664
+6000665	柏林墙	柏林牆	bólínqiáng	Berlin Wall	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '柏林牆')	6000665
+6000666	查韦斯	查韋斯	cháwéisī	Chavez	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	Spanish name (CC-CEDICT '查韋斯')	6000666
+6000667	柳青	\N	liǔqīng	Liu Qing	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1916-1978; writer (CC-CEDICT '柳青')	6000667
+6000668	根西岛	根西島	gēnxīdǎo	Guernsey	proper noun	群岛	Islands	地方	Places	地理	Geography	\N	\N	In the Channel Islands (CC-CEDICT '根西島')	6000668
+6000669	格林尼治本初子午线	格林尼治本初子午線	gélín ní zhìběn chū zǐwǔxiàn	the Greenwich meridian	proper noun	\N	\N	现代汉语	Modern Chinese	地理	Geography	\N	\N	(CC-CEDICT '格林尼治本初子午線')	6000669
+6000670	梯也尔	梯也爾	tīyěěr	Adolphe Thiers	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1797-1877; French statesman (CC-CEDICT '梯也爾'; Wikipedia '阿道夫·梯也爾')	6000670
+6000671	棒约翰	棒約翰	bàngYuēhàn	Papa John's (pizza chain)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '棒約翰')	6000671
+6000672	杨百翰	楊百翰	yángbǎihàn	Brigham Young	proper noun	人	Person	历史	History	美国	United States	\N	\N	1801-1877 (CC-CEDICT '楊百翰'; Wikipedia '楊百翰')	6000672
+6000673	树莓派	樹莓派	shùméipài	Raspberry Pi	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '樹莓派')	6000673
