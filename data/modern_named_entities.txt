@@ -671,3 +671,25 @@
 6000671	棒约翰	棒約翰	bàngYuēhàn	Papa John's (pizza chain)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '棒約翰')	6000671
 6000672	杨百翰	楊百翰	yángbǎihàn	Brigham Young	proper noun	人	Person	历史	History	美国	United States	\N	\N	1801-1877 (CC-CEDICT '楊百翰'; Wikipedia '楊百翰')	6000672
 6000673	树莓派	樹莓派	shùméipài	Raspberry Pi	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '樹莓派')	6000673
+6000674	欧伯林	歐伯林	ōubólín	Oberlin	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '歐伯林')	6000674
+6000675	欧元区	歐元區	Ōuyuánqū	Eurozone	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '歐元區')	6000675
+6000676	欧冠	歐冠	ōuguān	UEFA Champions League	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	(CC-CEDICT '歐冠')	6000676
+6000677	欧分	歐分	ōufēn	Euro cent	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐分')	6000677
+6000678	欧朋	歐朋	ōupéng	Opera (web browser)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '歐朋')	6000678
+6000679	欧柏林	歐柏林	ōubólín	Oberlin	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '歐柏林')	6000679
+6000680	欧氏	歐氏	ōushì	Euclid	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	Abbreviation for 欧几里得 (CC-CEDICT '歐氏')	6000680
+6000681	正义党	正義黨	zhèngyìdǎng	Justicialist Party	proper noun	党	Party	政治	Politics	南美	South America	\N	\N	Of Argentina (CC-CEDICT '正義黨'; wikipedia '正义党 (阿根廷)')	6000681
+6000682	民主党人	民主黨人	Mínzhǔ dǎng rén	a Democratic party member	set phrase	\N	\N	政治	Politics	\N	\N	\N	\N	(CC-CEDICT '民主黨人')	6000682
+6000683	民族社会主义	民族社會主義	mínzú shèhuì zhǔyì	national socialism / Nazism	proper noun	\N	\N	政治	Politics	\N	\N	\N	\N	(CC-CEDICT '民族社會主義')	6000683
+6000684	沃尔玛	沃爾瑪	wòěrmǎ	Wal-Mart, Walmart (retailer)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '沃爾瑪')	6000684
+6000685	沙那	\N	shānà	Sana'a	proper noun	城市	City	地方	Places	中东	Middle East	\N	\N	Capital of Yemen, Taiwanese usage (CC-CEDICT '沙那')	6000685
+6000686	河鼓二	\N	hégǔèr	Altair (star)	proper noun	人	Person	现代汉语	Modern Chinese	美国	United States	\N	\N	(CC-CEDICT '河鼓二')	6000686
+6000687	法兰克福车展	法蘭克福車展	Fǎlánkèfú chē zhǎn	the Frankfurt Motor Show	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '法蘭克福車展')	6000687
+6000688	法赫德	\N	fǎHèdé	King Fahd of Saudi Arabia	proper noun	人	Person	现代汉语	Modern Chinese	中东	Middle East	\N	\N	(CC-CEDICT '法赫德')	6000688
+6000689	泛美	\N	fànměi	Pan American	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '泛美')	6000689
+6000690	波札那	\N	bōzhánà	Botswana	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '波札那')	6000690
+6000691	波尔多	波爾多	bōěrduō	Bordeaux	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '波爾多')	6000691
+6000692	波罗的	波羅的	Bōluóde	Baltic	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '波羅的')	6000692
+6000693	泰瑟枪	泰瑟槍	tàisèqiāng	Taser (electroshock weapon)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '泰瑟槍')	6000693
+6000694	泰瑟	\N	tàisè	Taser (electroshock weapon)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '泰瑟')	6000694
+6000695	泰象啤	\N	tàixiàngpí	Chang Beer	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '泰象啤')	6000695
