@@ -693,3 +693,21 @@
 6000693	泰瑟枪	泰瑟槍	tàisèqiāng	Taser (electroshock weapon)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '泰瑟槍')	6000693
 6000694	泰瑟	\N	tàisè	Taser (electroshock weapon)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '泰瑟')	6000694
 6000695	泰象啤	\N	tàixiàngpí	Chang Beer	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '泰象啤')	6000695
+6000696	印尼盾	\N	Yìnnídùn	Indonesian rupiah	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '印尼盾')	6000696
+6000697	洛矶山	洛磯山	luòjīshān	Rocky Mountains	proper noun	\N	\N	地方	Places	美国	United States	\N	\N	(CC-CEDICT '洛磯山')	6000697
+6000698	洛美	\N	luòměi	Lomé / Lome, capital of Togo	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '洛美')	6000698
+6000699	派力奥	派力奧	pàilìào	Fiat Palio	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '派力奧')	6000699
+6000700	海事局	\N	hǎishìjú	PRC Maritime Safety Agency	proper noun	局	Agency	政府	Government	中国	China	\N	\N	(CC-CEDICT '海事局')	6000700
+6000701	海事处	海事處	hǎishìchù	Marine Department (Hong Kong)	proper noun	局	Agency	政府	Government	中国	China	\N	\N	(CC-CEDICT '海事處')	6000701
+6000702	海斯	\N	hǎisī	Hayes (Microcomputer)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '海斯')	6000702
+6000703	海湾战争	海灣戰爭	hǎiwān zhànzhēng	(Persian) Gulf War	proper noun	战争	War	历史	History	中东	Middle East	\N	\N	(CC-CEDICT '海灣戰爭')	6000703
+6000704	海警局	\N	hǎijǐngjú	China Coast Guard	proper noun	局	Agency	政府	Government	中国	China	\N	\N	(CC-CEDICT '海警局')	6000704
+6000705	海贼王	海賊王	hǎizéiwáng	One Piece (manga and anime)	proper noun	\N	\N	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '海賊王')	6000705
+6000706	游戏王	遊戲王	yóuxìwáng	Yu-Gi-Oh!	proper noun	\N	\N	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '遊戲王')	6000706
+6000707	涂尔干	涂爾干	túěrgān	Durkheim	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '涂爾干')	6000707
+6000708	温布顿	溫布頓	wēnbùdùn	Wimbledon	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '溫布頓')	6000708
+6000709	汉诺威	漢諾威	hànnuòwēi	Hanover	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '漢諾威')	6000709
+6000710	潘通	\N	pāntōng	Pantone color system	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '潘通')	6000710
+6000711	泽西岛	澤西島	zéxīdǎo	Jersey (Channel Islands)	proper noun	群岛	Islands	地方	Places	英国	England	\N	\N	(CC-CEDICT '澤西島')	6000711
+6000712	澳元	\N	àoyuán	Australian dollar	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '澳元')	6000712
+6000713	火狐	\N	huǒhú	Firefox (web browser)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '火狐')	6000713
