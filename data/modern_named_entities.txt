@@ -711,3 +711,18 @@
 6000711	泽西岛	澤西島	zéxīdǎo	Jersey (Channel Islands)	proper noun	群岛	Islands	地方	Places	英国	England	\N	\N	(CC-CEDICT '澤西島')	6000711
 6000712	澳元	\N	àoyuán	Australian dollar	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '澳元')	6000712
 6000713	火狐	\N	huǒhú	Firefox (web browser)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '火狐')	6000713
+6000714	热那亚	熱那亞	rènàyà	Genoa	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '熱那亞')	6000714
+6000715	牛桥	牛橋	niúqiáo	Oxbridge / Cambridge and Oxford	phrase	\N	\N	地方	Places	英国	England	\N	\N	(CC-CEDICT '牛橋')	6000715
+6000716	特伦顿	特倫頓	télúndùn	Trenton	proper noun	城市	City	地方	Places	美国	United States	\N	\N	Capital of New Jersey (CC-CEDICT '特倫頓')	6000716
+6000717	特奥会	特奧會	téàohuì	Special Olympics	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '特奧會')	6000717
+6000718	特富龙	特富龍	téfùlóng	Teflon (PRC)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '特富龍')	6000718
+6000719	特敏福	\N	témǐnfú	oseltamivir / Tamiflu	noun	药品	Medication	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '特敏福')	6000719
+6000720	犹他	猶他	yóutā	Utah	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '猶他')	6000720
+6000721	犹他州	猶他州	yóutāzhōu	Utah	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '猶他州')	6000721
+6000722	独立报	獨立報	dúlìbào	The Independent	proper noun	报纸	Newspaper	媒体	Media	英国	England	\N	\N	(CC-CEDICT '獨立報'; wikipedia '獨立報')	6000722
+6000723	瑞波币	瑞波幣	ruìbōbì	Ripple (digital currency)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '瑞波幣')	6000723
+6000724	玛律	瑪律	mǎlǜ	Malé	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Capital of Maldives; Taiwanese usage (CC-CEDICT '瑪律')	6000724
+6000725	瓦尔特	瓦爾特	wǎěrté	Walter	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '瓦爾特')	6000725
+6000726	瓦尔纳	瓦爾納	wǎěrnà	Varna	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Eity in Bulgaria (CC-CEDICT '瓦爾納')	6000726
+6000727	瓦莱塔	瓦萊塔	wǎláitǎ	Valletta	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Capital of Malta (CC-CEDICT '瓦萊塔')	6000727
+6000728	田纳西	田納西	tiánnàxī	Tennessee	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '田納西')	6000728
