@@ -726,3 +726,13 @@
 6000726	瓦尔纳	瓦爾納	wǎěrnà	Varna	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Eity in Bulgaria (CC-CEDICT '瓦爾納')	6000726
 6000727	瓦莱塔	瓦萊塔	wǎláitǎ	Valletta	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Capital of Malta (CC-CEDICT '瓦萊塔')	6000727
 6000728	田纳西	田納西	tiánnàxī	Tennessee	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '田納西')	6000728
+6000729	甲虫车	甲蟲車	jiǎchóngchē	Volkswagen Beetle	proper noun	产品	Product	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '甲蟲車')	6000729
+6000730	毕卡索	畢卡索	bìkǎsuǒ	Picasso	proper noun	人	Person	历史	History	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '畢卡索')	6000730
+6000731	瘸帮	瘸幫	québāng	Crips (gang)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '瘸幫')	6000731
+6000732	发现号	發現號	fāxiànhào	Space Shuttle Discovery	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	(CC-CEDICT '發現號')	6000732
+6000733	百威	\N	bǎiwēi	Budweiser (beer)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '百威')	6000733
+6000734	皇堡	\N	huángbǎo	Burger King Whopper	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '皇堡')	6000734
+6000735	百思买	百思買	bǎisīmǎi	Best Buy (retailer)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '百思買')	6000735
+6000736	百慕达	百慕達	bǎimùdá	Bermuda	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	Taiwanese usage (CC-CEDICT '百慕達')	6000736
+6000737	皮克斯	\N	píkèsī	Pixar Animation Studios	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '皮克斯')	6000737
+6000738	卢卡	盧卡	lúkǎ	Lucca	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Tuscany (CC-CEDICT '盧卡')	6000738
