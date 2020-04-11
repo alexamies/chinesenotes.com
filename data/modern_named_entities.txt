@@ -736,3 +736,4 @@
 6000736	百慕达	百慕達	bǎimùdá	Bermuda	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	Taiwanese usage (CC-CEDICT '百慕達')	6000736
 6000737	皮克斯	\N	píkèsī	Pixar Animation Studios	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '皮克斯')	6000737
 6000738	卢卡	盧卡	lúkǎ	Lucca	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Tuscany (CC-CEDICT '盧卡')	6000738
+6000739	睡美人	\N	shuìměirén	Sleeping Beauty	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '睡美人')	6000739
