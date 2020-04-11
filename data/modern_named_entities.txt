@@ -745,3 +745,38 @@
 6000745	科罗娜	科羅娜	kēluónà	Corona (beer)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '科羅娜')	6000745
 6000746	科罗纳	科羅納	kēluónà	Corona / Colonna	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '科羅納')	6000746
 6000747	立体派	立體派	lìtǐpài	Cubism	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '立體派')	6000747
+6000748	笔会	筆會	bǐhuì	PEN (association of writers)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '筆會'; Wikipedia '国际笔会')	6000748
+6000749	米老鼠	\N	mǐlǎoshǔ	Mickey Mouse	proper noun	\N	\N	戏剧	Drama	美国	United States	\N	\N	(CC-CEDICT '米老鼠')	6000749
+6000750	米该亚	米該亞	mǐgāiyà	Micah	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '米該亞')	6000750
+6000751	粉车	粉車	fěnchē	(Mary Kay Cosmetics) pink car	noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '粉車')	6000751
+6000752	精灵文	精靈文	jīnglíngwén	Elvish (language of elves)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '精靈文')	6000752
+6000753	约旦河	約旦河	yuēdànhé	Jordan River	proper noun	水名	River	地方	Places	中东	Middle East	\N	\N	(CC-CEDICT '約旦河')	6000753
+6000754	约纳	約納	yuēnà	Jonah	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '約納')	6000754
+6000755	红新月	紅新月	hóngxīnyuè	Red Crescent	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '紅新月'; Wikipedia '国际红十字与红新月运动')	6000755
+6000756	红牛	紅牛	hóngniú	Red Bull (energy drink)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '紅牛')	6000756
+6000757	纳瓦萨	納瓦薩	nàwǎsà	Navassa	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '納瓦薩')	6000757
+6000758	纳鸿	納鴻	nàhóng	Nahum	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '納鴻')	6000758
+6000759	纽卡素	紐卡素	niǔkǎsù	Newcastle	proper noun	城市	City	地方	Places	英国	England	\N	\N	(CC-CEDICT '紐卡素')	6000759
+6000760	纽奥良	紐奧良	niǔàoliáng	New Orleans	proper noun	城市	City	地方	Places	美国	United States	\N	\N	Louisiana (CC-CEDICT '紐奧良')	6000760
+6000761	纽瓦克	紐瓦克	niǔwǎkè	Newark	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '紐瓦克')	6000761
+6000762	索杰纳	索傑納	suǒjiénà	Sojourner (Martian land rover)	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	(CC-CEDICT '索傑納')	6000762
+6000763	索尔	索爾	suǒ'ěr	Thor	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Norse god of thunder (CC-CEDICT '索爾')	6000763
+6000764	索菲亚	索菲亞	suǒfēiyà	Sofia (capital of Bulgaria)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '索菲亞')	6000764
+6000765	索非亚	索非亞	suǒfēiyà	Sofia, capital of Bulgaria	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '索非亞')	6000765
+6000766	索马里	索馬里	suǒMǎlǐ	Somalia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '索馬里')	6000766
+6000767	绿区	綠區	lǜqū	(Baghdad) green zone	noun	\N	\N	地方	Places	\N	\N	\N	\N	(CC-CEDICT '綠區')	6000767
+6000768	维尼熊	維尼熊	wéiníxióng	Winnie the Pooh	proper noun	书名	Book Title	文学	Literature	美国	United States	\N	\N	(CC-CEDICT '維尼熊')	6000768
+6000769	维德角	維德角	wéidéjiǎo	Cape Verde	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '維德角'; Wikipedia '佛得角')	6000769
+6000770	维拉港	維拉港	wéilāgǎng	Port Vila	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	The capital of Vanuatu (CC-CEDICT '維拉港')	6000770
+6000771	维罗纳	維羅納	wéiluónà	Verona	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '維羅納')	6000771
+6000772	维萨	維薩	wéisà	Visa (credit card)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '維薩')	6000772
+6000773	维达	維達	wéidá	Vidar (Norse deity)	proper noun	\N	\N	现代汉语	Modern Chinese	神话	Mythology	\N	\N	(CC-CEDICT '維達')	6000773
+6000774	网易	網易	wǎngyì	NetEase	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '網易')	6000774
+6000775	网景	網景	wǎngjǐng	Netscape	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '網景')	6000775
+6000776	缪斯	繆斯	miàosī	Muse (Greek mythology)	proper noun	\N	\N	现代汉语	Modern Chinese	神话	Mythology	\N	\N	(CC-CEDICT '繆斯')	6000776
+6000777	罗伯茨	羅伯茨	luóbócí	Roberts	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '羅伯茨')	6000777
+6000778	罗杰斯	羅傑斯	luójiésī	Rogers	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '羅傑斯')	6000778
+6000779	罗安达	羅安達	luóāndá	Luanda	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Angola (CC-CEDICT '羅安達')	6000779
+6000780	美汁源	\N	měizhīyuán	Minute Maid	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '美汁源')	6000780
+6000781	美泉宫	美泉宮	měiquángōng	Schönbrunn Palace	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	In Vienna (CC-CEDICT '美泉宮')	6000781
+6000782	美网	美網	měiwǎng	US Open (tennis tournament)	proper noun	\N	\N	体育	Sport	美国	United States	\N	\N	(CC-CEDICT '美網')	6000782
