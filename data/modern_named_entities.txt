@@ -737,3 +737,11 @@
 6000737	皮克斯	\N	píkèsī	Pixar Animation Studios	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '皮克斯')	6000737
 6000738	卢卡	盧卡	lúkǎ	Lucca	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Tuscany (CC-CEDICT '盧卡')	6000738
 6000739	睡美人	\N	shuìměirén	Sleeping Beauty	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '睡美人')	6000739
+6000740	社民党	社民黨	shèmíndǎng	Social Democratic party	proper noun	党	Party	政治	Politics	\N	\N	\N	\N	A term used by parties in many countries (CC-CEDICT '社民黨'; Wikipedia '社会民主党')	6000740
+6000741	祖鲁人	祖魯人	zǔlǔrén	Zulu people	proper noun	\N	\N	现代汉语	Modern Chinese	人类学	Anthropology	\N	\N	(CC-CEDICT '祖魯人')	6000741
+6000742	科佩尔	科佩爾	kēpèiěr	Koper	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Port city of Slovenia (CC-CEDICT '科佩爾')	6000742
+6000743	科托努	\N	kētuōnǔ	Cotonou	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	City in Benin (CC-CEDICT '科托努')	6000743
+6000744	科摩洛	\N	kēmóluò	Comoros	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	An island country (CC-CEDICT '科摩洛')	6000744
+6000745	科罗娜	科羅娜	kēluónà	Corona (beer)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '科羅娜')	6000745
+6000746	科罗纳	科羅納	kēluónà	Corona / Colonna	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '科羅納')	6000746
+6000747	立体派	立體派	lìtǐpài	Cubism	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '立體派')	6000747
