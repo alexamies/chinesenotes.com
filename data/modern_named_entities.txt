@@ -6,7 +6,7 @@
 6000006	雅虎	\N	yǎhǔ	Yahoo!	proper noun	公司	Company	商务	Commerce	美国	United States	\N	ya3hu3.mp3	(Wikipedia '雅虎')	6000006
 6000007	谷歌	穀歌	gǔgē	Google	proper noun	公司	Company	商务	Commerce	美国	United States	\N	gu3ge1.mp3	(CC-CEDICT '穀歌')	6000007
 6000008	摩托罗拉	摩托羅拉	mótuōluólā	Motorola	proper noun	公司	Company	商务	Commerce	美国	United States	\N	mo2tuo1luo2la1.mp3	(Wikipedia '摩托罗拉')	6000008
-6000009	搜狐	\N	sōuhú	Sohu web portal	proper noun	公司	Company	商务	Commerce	媒体	Media	\N	\N	Web site is at <a href='http://www.sohu.com/'>www.sohu.com</a> (Wikipedia '搜狐')	6000009
+6000009	搜狐	\N	sōuhú	Sohu web portal	proper noun	公司	Company	媒体	Media	中国	China	\N	\N	Web site is at <a href='http://www.sohu.com/'>www.sohu.com</a> (Wikipedia '搜狐')	6000009
 6000010	宏碁	\N	hóngqí	Acer	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Taiwanese PC manufacturer (Wikipedia '宏碁')	6000010
 6000011	联想	聯想	liánxiǎng	Lenovo	proper noun	公司	Company	商务	Commerce	\N	\N	\N	lian2xiang3.mp3	Chinese PC manufacturer (Wikipedia '联想集团')	15433
 6000012	微软	微軟	wéiruǎn	Microsoft	proper noun	公司	Company	商务	Commerce	美国	United States	\N	wei2ruan3.mp3	(Wikipedia '微软')	6000012
@@ -787,3 +787,43 @@
 6000787	圣马洛	聖馬洛	shèngmǎluò	St Malo	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	A town in Normandy (CC-CEDICT '聖馬洛')	6000787
 6000788	胡燕妮	\N	hú yānnī	Jenny Hu	proper noun	人	Person	戏剧	Drama	\N	\N	\N	\N	1945- (CC-CEDICT '胡燕妮'; Wikipedia '胡燕妮')	6000788
 6000789	脆谷乐	脆穀樂	cuìgǔlè	Cheerios (breakfast cereal)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '脆穀樂')	6000789
+6000790	腓立比	\N	féilìbì	Philip / Philippi	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '腓立比')	6000790
+6000791	艾美奖	艾美獎	àiměijiǎng	Emmy Award	proper noun	\N	\N	戏剧	Drama	美国	United States	\N	\N	(CC-CEDICT '艾美獎')	6000791
+6000792	芭比	\N	bābì	Barbie	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '芭比')	6000792
+6000793	若瑟	\N	ruòsè	Joseph	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '若瑟')	6000793
+6000794	英代尔	英代爾	yīngdàiěr	Intel	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '英代爾')	6000794
+6000795	范思哲	\N	fànsīzhé	Versace (fashion designer)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '范思哲')	6000795
+6000796	茶碱	茶鹼	chájiǎn	Theophylline	proper noun	药品	Medication	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '茶鹼'; Wikipedia '茶碱')	6000796
+6000797	荆楚网	荊楚網	jīngchǔwǎng	IPTV (PRC media network)	proper noun	公司	Company	媒体	Media	中国	China	\N	\N	(CC-CEDICT '荊楚網')	6000797
+6000798	莫吉托	\N	mòjítuō	Mojito	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	A cocktail (CC-CEDICT '莫吉托')	6000798
+6000799	莫罗尼	莫羅尼	mòluóní	Moroni	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Comoros (CC-CEDICT '莫羅尼')	6000799
+6000800	华侨报	華僑報	huáqiáobào	Va Kio Daily	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	Published in Macao (CC-CEDICT '華僑報'; Wikipedia '華僑報')	6000800
+6000801	菲亚特	菲亞特	fēiyàté	Fiat	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '菲亞特')	6000801
+6000802	莱特币	萊特幣	láitébì	Litecoin (cryptocurrency)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '萊特幣')	6000802
+6000803	莱索托	萊索托	láisuǒtuō	Lesotho	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '萊索托')	6000803
+6000804	莱茵河	萊茵河	láiyīnhé	Rhine River	proper noun	水名	River	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '萊茵河')	6000804
+6000805	万事达	萬事達	wànshìdá	MasterCard	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '萬事達')	6000805
+6000806	万博省	萬博省	wànbóshěng	Huambo province of Angola	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '萬博省')	6000806
+6000807	万国宫	萬國宮	wàn guógōng	Palais des Nations	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '萬國宮')	6000807
+6000808	万宝路	萬寶路	wànbǎolù	Marlboro (cigarette)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '萬寶路')	6000808
+6000809	万艾可	萬艾可	wànàikě	Viagra	proper noun	药品	Medication	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '萬艾可')	6000809
+6000810	叶江川	葉江川	yè jiāngchuān	Ye Jiangchuan	proper noun	人	Person	现代汉语	Modern Chinese	中国	China	\N	\N	1960-; Chess Grandmaster, (CC-CEDICT '葉江川'; Wikipedia '叶江川')	6000810
+6000811	葛优	葛優	gěyōu	Ge You	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1957-; Chinese actor (CC-CEDICT '葛優')	6000811
+6000812	蒙巴萨	蒙巴薩	mēngbāsà	Mombasa	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	City in Kenya (CC-CEDICT '蒙巴薩')	6000812
+6000813	蒲隆地	\N	púlóngdì	Burundi	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '蒲隆地'; Wikipedia '蒲隆地')	6000813
+6000814	蔗露	\N	zhèlù	Jello	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '蔗露')	6000814
+6000815	萧邦	蕭邦	xiāobāng	Frédéric Chopin (Composer)	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '蕭邦')	6000815
+6000816	萨哈诺夫	薩哈諾夫	sàhānuòfū	(Andrei) Sakharov	set phrase	人	Person	历史	History	欧洲	Europe	\N	\N	1921-1989 (CC-CEDICT '薩哈諾夫')	6000816
+6000817	萨拉丁	薩拉丁	sàlādīng	Saladin	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	C. 1138-1193 (CC-CEDICT '薩拉丁')	6000817
+6000818	萨尔	薩爾	sàěr	Saarland	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '薩爾')	6000818
+6000819	萨达姆	薩達姆	sàdámǔ	Saddam	proper noun	人	Person	历史	History	中东	Middle East	\N	\N	(CC-CEDICT '薩達姆')	6000819
+6000820	萨达特	薩達特	sàdáté	Anwar Al Sadat	proper noun	人	Person	历史	History	中东	Middle East	\N	\N	(CC-CEDICT '薩達特')	6000820
+6000821	萨那	薩那	sànà	Sana'a	proper noun	城市	City	地方	Places	中东	Middle East	\N	\N	Capital of Yemen (CC-CEDICT '薩那')	6000821
+6000822	蓝色剂	藍色劑	lánsèjì	Agent Blue	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '藍色劑')	6000822
+6000823	蓝色小精灵	藍色小精靈	lánsè xiǎojīnglíng	the Smurfs / Smurf	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '藍色小精靈')	6000823
+6000824	苏富比	蘇富比	sūfùbì	Sotheby's auction house	proper noun	公司	Company	商务	Commerce	英国	England	\N	\N	(CC-CEDICT '蘇富比')	6000824
+6000825	苏瓦	蘇瓦	sūwǎ	Suva, capital of Fiji	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '蘇瓦')	6000825
+6000826	苏里南	蘇里南	sūlǐnán	Suriname	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(CC-CEDICT '蘇里南'; Wikipedia '蘇利南')	6000826
+6000827	兰辛	蘭辛	lánxīn	Lansing, capital of Michigan	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '蘭辛')	6000827
+6000828	萝莉	蘿莉	luólì	Lolita	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '蘿莉')	6000828
+6000829	虎牌	\N	hǔpái	Tiger Brand (beer)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '虎牌')	6000829

@@ -53,7 +53,7 @@
 3000053	主位	\N	zhǔ wèi	ruler's position	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 主 ruler + 位 position; from 《韓非子·愛臣》 <i>Han Feizi</i>, Favored Ministers (Plaks 2015, p. 76)	3000053
 3000054	主妾	\N	zhǔ qiè	a ruler and his consort	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 主 ruler + 妾 consort; from 《韓非子·愛臣》 <i>Han Feizi</i>, Favored Ministers (Plaks 2015, p. 76)	3000054
 3000055	危死	\N	wēi sǐ	risk death	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 危 risk + 死 death; from 《韓非子·有度》 <i>Han Feizi</i>, Having Standards (Plaks 2015, p. 77)	3000055
-3000056	奸臣	姦臣	jiānchén	evil minister	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 姦 evil + 臣 minister; from 《韓非子·有度》 <i>Han Feizi</i>, Having Standards (Plaks 2015, p. 78)	3000056
+3000056	家的	\N	jiāde	belonging to the family	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	TM: 家 family + 的 possessive (Cao Xueqin, <i>Dream of the Red Chamber</i>, ch. 6)	122646
 3000057	化化	\N	huà huà	continue to evolve	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 化 evolve + 化 evolve; from 《列子·天瑞》 <i>Liezi</i>, Heaven's Gifts (Melvyn 2012, p. 389)	3000057
 3000058	常化	\N	cháng huà	constant evolution	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 常 constant + 化 evolve; from 《列子·天瑞》 <i>Liezi</i>, Heaven's Gifts (Melvyn 2012, p. 389)	3000058
 3000059	养正命	養正命	yǎng zhèngmìng	careful of his physical well-being	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 養 nourish+ 正命 live a normal life span; from 《列子·黃帝》 <i>Liezi</i>, The Yellow Emperor (Melvyn 2012, p. 405)	3000059
@@ -290,4 +290,3 @@
 3000290	三天	\N	sān tiān	three days	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	TM: 三 three + 天 days (Cao Xueqin 1892, <i>Dream of the Red Chamber</i> tr. by Joly, ch. 7, p. 185)	68223
 3000291	奶奶的	\N	nǎinaide	grandmother's	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	TM: 奶奶 grandmother + 的 possessive (Cao Xueqin, <i>Dream of the Red Chamber</i>, ch. 7)	122197
 3000292	娘的	\N	niáng de	mother's	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	TM: 娘 mother + 的 possessive (Cao Xueqin, <i>Dream of the Red Chamber</i>, ch. 10)	122317
-3000293	家的	\N	jiāde	belonging to the family	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	TM: 家 family + 的 possessive (Cao Xueqin, <i>Dream of the Red Chamber</i>, ch. 6)	122646
