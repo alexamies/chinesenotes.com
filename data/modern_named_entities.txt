@@ -827,3 +827,11 @@
 6000827	兰辛	蘭辛	lánxīn	Lansing, capital of Michigan	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '蘭辛')	6000827
 6000828	萝莉	蘿莉	luólì	Lolita	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '蘿莉')	6000828
 6000829	虎牌	\N	hǔpái	Tiger Brand (beer)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '虎牌')	6000829
+6000830	血帮	血幫	xuèbāng	Bloods	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Street gang in USA (CC-CEDICT '血幫')	6000830
+6000831	卫报	衛報	wèibào	The Guardian	proper noun	报纸	Newspaper	媒体	Media	英国	England	\N	\N	U.K. newspaper (CC-CEDICT '衛報')	6000831
+6000832	裴济	裴濟	péijì	Fiji	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	Island of Oceania (CC-CEDICT '裴濟')	6000832
+6000833	西乃	\N	xīnǎi	Sinai	proper noun	地名	Place Name	地方	Places	中东	Middle East	\N	\N	(CC-CEDICT '西乃')	6000833
+6000834	西乃山	\N	xīnǎishān	Mount Sinai	proper noun	地名	Place Name	地方	Places	中东	Middle East	\N	\N	(CC-CEDICT '西乃山')	6000834
+6000835	西哈努克	\N	xīhānǔkè	(King) Sihanouk	set phrase	人	Person	政治	Politics	亚洲	Asia	\N	\N	Of Cambodia (CC-CEDICT '西哈努克')	6000835
+6000836	西奈	\N	xīnài	Sinai Peninsula	proper noun	地名	Place Name	地方	Places	中东	Middle East	\N	\N	(CC-CEDICT '西奈')	6000836
+6000837	西耶那	\N	xīyénà	Fiat Siena	proper noun	产品	Product	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '西耶那')	6000837
