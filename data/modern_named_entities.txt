@@ -780,3 +780,10 @@
 6000780	美汁源	\N	měizhīyuán	Minute Maid	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '美汁源')	6000780
 6000781	美泉宫	美泉宮	měiquángōng	Schönbrunn Palace	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	In Vienna (CC-CEDICT '美泉宮')	6000781
 6000782	美网	美網	měiwǎng	US Open (tennis tournament)	proper noun	\N	\N	体育	Sport	美国	United States	\N	\N	(CC-CEDICT '美網')	6000782
+6000783	美制	美製	měizhì	American made	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '美製')	6000783
+6000784	耐克	\N	nàikè	Nike, Inc.	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '耐克')	6000784
+6000785	圣大非	聖大非	shèngdàfēi	Santa Fe	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '聖大非')	6000785
+6000786	圣菲	聖菲	shèngfēi	Santa Fe	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '聖菲')	6000786
+6000787	圣马洛	聖馬洛	shèngmǎluò	St Malo	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	A town in Normandy (CC-CEDICT '聖馬洛')	6000787
+6000788	胡燕妮	\N	hú yānnī	Jenny Hu	proper noun	人	Person	戏剧	Drama	\N	\N	\N	\N	1945- (CC-CEDICT '胡燕妮'; Wikipedia '胡燕妮')	6000788
+6000789	脆谷乐	脆穀樂	cuìgǔlè	Cheerios (breakfast cereal)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '脆穀樂')	6000789
