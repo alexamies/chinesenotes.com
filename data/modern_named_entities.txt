@@ -863,3 +863,29 @@
 6000863	迈凯轮	邁凱輪	màikǎilún	McLaren / MacLaren	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '邁凱輪')	6000863
 6000864	迈阿密	邁阿密	màiāmì	Miami	proper noun	城市	City	地方	Places	美国	United States	\N	\N	In Florida (CC-CEDICT '邁阿密')	6000864
 6000865	邪恶轴心	邪惡軸心	xié è zhóuxīn	Axis of Evil	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '邪惡軸心')	6000865
+6000866	哈佛	\N	hāfó	Harvard University	proper noun	大学	University	教育	Education	美国	United States	\N	\N	(CC-CEDICT '哈佛')	6000866
+6000867	耶鲁	耶魯	yēlǔ	Yale	proper noun	大学	University	教育	Education	美国	United States	\N	\N	(CC-CEDICT '耶魯')	6000867
+6000868	复旦大学	复旦大學	fùdàn dàxué	Fudan University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(Wikipedia '复旦大学')	6000868
+6000869	华盛顿	華盛頓	Huáshèngdùn	Washington D.C.	proper noun	城市	City	地方	Places	美国	United States	\N	hua2sheng4dun4.mp3	(CC-CEDICT '華盛頓'; Guoyu '華盛頓' 2; Wikipedia '华盛顿哥伦比亚特区')	6000869
+6000870	中央情报局	中央情報局	Zhōngyāng Qíngbào Jú	Central Intelligence Agency (CIA)	proper noun	\N	\N	政治	Politics	美国	United States	\N	zhong1yang1qing2bao4ju4.mp3	(CC-CEDICT '中央情報局')	6000870
+6000871	马萨诸塞州	馬薩諸塞州	Mǎsàzhūsāi Zhōu	Massachusetts	proper noun	州	State	地方	Places	美国	United States	\N	\N	(Wikipedia '麻薩諸塞州')	6000871
+6000872	马州	馬州	Mǎ Zhōu	Massachusetts	proper noun	州	State	地方	Places	美国	United States	\N	ma3zhou1.mp3	Abbreviation for 马萨诸塞州 (Wikipedia '麻薩諸塞州')	6000872
+6000873	五角大楼	五角大樓	wǔjiǎo dàlóu	the Pentagon	proper noun	\N	\N	政治	Politics	美国	United States	\N	wu3jiao3da4lou2.mp3	Headquarters of the US Department of Defence (CC-CEDICT '五角大樓')	6000873
+6000874	优胜美地	優勝美地	yōushèngměidì	Yosemite	proper noun	国家公园	National Park	地方	Places	美国	United States	\N	\N	(Wikipedia '優勝美地國家公園')	6000874
+6000875	康多莉扎赖斯	康多莉扎賴斯	Kāngduōlìzhā Làisī	Condoleezza Rice	proper noun	人	Person	政治	Politics	美国	United States	\N	\N	Former U.S. Secretary of State (Wikipedia '康多莉扎·赖斯')	6000875
+6000876	芝加哥	\N	zhījiāgē	Chicago	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '芝加哥'; Guoyu '芝加哥'; Wikipedia '芝加哥')	6000876
+6000877	纽约	紐約	niǔyuē	New York	proper noun	州	State	地方	Places	美国	United States	\N	\N	State and city in the US (Wikipedia '纽约')	6000877
+6000878	纽约证券交易所	紐約證券交易所	niǔyuē Zhèngquàn Jiāoyì Suǒ	New York Stock Exchange	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '纽约证券交易所')	6000878
+6000879	旧金山	舊金山	jiùjīnshān	San Francisco	proper noun	城市	City	地方	Places	美国	United States	\N	\N	In California (CC-CEDICT '舊金山')	6000879
+6000880	里加	\N	lǐjiā	Riga	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Capital of Latvia (CC-CEDICT '里加')	6000880
+6000881	金曲奖	金曲獎	jīnqǔjiǎng	Golden Melody Awards	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '金曲獎')	6000881
+6000882	金沙萨	金沙薩	jīnshāsà	Kinshasa	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Zaire (CC-CEDICT '金沙薩')	6000882
+6000883	金球奖	金球獎	jīnqiújiǎng	Golden Globe Award	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '金球獎')	6000883
+6000884	金里奇	\N	jīnlǐqí	(Newt) Gingrich	noun	人	Person	政治	Politics	美国	United States	\N	\N	(CC-CEDICT '金里奇')	6000884
+6000885	金县	金縣	jīnxiàn	King County	proper noun	县	County	地方	Places	\N	\N	\N	\N	(CC-CEDICT '金縣')	6000885
+6000886	金龟车	金龜車	jīnguīchē	Volkswagen Beetle	proper noun	产品	Product	商务	Commerce	欧洲	Europe	\N	\N	Taiwanese usage (CC-CEDICT '金龜車')	6000886
+6000887	银联	銀聯	yínlián	UnionPay / CUP	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '銀聯')	6000887
+6000888	锥形瓶	錐形瓶	zhuīxíngpíng	Erlenmeyer flask	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '錐形瓶')	6000888
+6000889	钱三强	錢三強	qián sānqiáng	Qian Sanqiang	proper noun	人	Person	历史	History	中国	China	\N	\N	1913-1922 (CC-CEDICT '錢三強'; Wikipedia '錢三強')	6000889
+6000890	锡瓦	錫瓦	xīwǎ	Siwa	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	Egypt (CC-CEDICT '錫瓦')	6000890
+6000891	道琼斯指数	道瓊斯指數	Dào Qióngsī Zhǐshù	Dow Jones Industrial Average (DJIA)	proper noun	指数	Index	经济	Economics	美国	United States	\N	\N	See 道琼工业平均指数 (CC-CEDICT '道瓊斯指數')	6000891
