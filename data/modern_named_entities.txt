@@ -853,3 +853,13 @@
 6000853	轩尼诗	軒尼詩	xuānníshī	Hennessy (cognac)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '軒尼詩')	6000853
 6000854	辉格党	輝格黨	huīgédǎng	Whig Party	proper noun	党	Party	政治	Politics	英国	England	\N	\N	(CC-CEDICT '輝格黨')	6000854
 6000855	辣酱油	辣醬油	làjiàngyóu	Worcestershire sauce	proper noun	产品	Product	商务	Commerce	饮食	Food and Drink	\N	\N	(CC-CEDICT '辣醬油')	6000855
+6000856	迦纳	迦納	jiānà	Ghana	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '迦納')	6000856
+6000857	迪拜	\N	díbài	Dubai	proper noun	城市	City	地方	Places	中东	Middle East	\N	\N	In the United Arab Emirates (CC-CEDICT '迪拜'; Wikipedia '杜拜')	6000857
+6000858	道琼斯	道瓊斯	dào qióngsī	Dow Jones (stock market index)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '道瓊斯')	6000858
+6000859	达喀尔	達喀爾	dákāěr	Dakar	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Senegal (CC-CEDICT '達喀爾')	6000859
+6000860	达尼亚	達尼亞	dáníyà	Dania / Tania etc	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '達尼亞')	6000860
+6000861	达拉斯	達拉斯	dálāsī	Dallas	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '達拉斯')	6000861
+6000862	达菲	達菲	dáfēi	oseltamivir / Tamiflu	proper noun	药品	Medication	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '達菲')	6000862
+6000863	迈凯轮	邁凱輪	màikǎilún	McLaren / MacLaren	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '邁凱輪')	6000863
+6000864	迈阿密	邁阿密	màiāmì	Miami	proper noun	城市	City	地方	Places	美国	United States	\N	\N	In Florida (CC-CEDICT '邁阿密')	6000864
+6000865	邪恶轴心	邪惡軸心	xié è zhóuxīn	Axis of Evil	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '邪惡軸心')	6000865
