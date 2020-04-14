@@ -847,3 +847,9 @@
 6000847	赛百味	賽百味	sàibǎi wèi	Subway	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Fast food restaurant (CC-CEDICT '賽百味')	6000847
 6000848	赞西佩	贊西佩	zànxīpèi	Xanthippe	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	Socrates' wife (CC-CEDICT '贊西佩')	6000848
 6000849	起亚	起亞	qǐyà	Kia (Motors)	proper noun	公司	Company	商务	Commerce	亚洲	Asia	\N	\N	(CC-CEDICT '起亞')	6000849
+6000850	路虎	\N	lùhǔ	Land Rover	proper noun	公司	Company	商务	Commerce	英国	England	\N	\N	(CC-CEDICT '路虎')	6000850
+6000851	路透社	\N	lùtòushè	Reuters News Agency	proper noun	公司	Company	媒体	Media	英国	England	\N	\N	(CC-CEDICT '路透社')	6000851
+6000852	跳跳糖	\N	tiàotiàotáng	Pop Rocks / popping candy	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '跳跳糖')	6000852
+6000853	轩尼诗	軒尼詩	xuānníshī	Hennessy (cognac)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '軒尼詩')	6000853
+6000854	辉格党	輝格黨	huīgédǎng	Whig Party	proper noun	党	Party	政治	Politics	英国	England	\N	\N	(CC-CEDICT '輝格黨')	6000854
+6000855	辣酱油	辣醬油	làjiàngyóu	Worcestershire sauce	proper noun	产品	Product	商务	Commerce	饮食	Food and Drink	\N	\N	(CC-CEDICT '辣醬油')	6000855
