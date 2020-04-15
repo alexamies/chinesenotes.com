@@ -889,3 +889,24 @@
 6000889	钱三强	錢三強	qián sānqiáng	Qian Sanqiang	proper noun	人	Person	历史	History	中国	China	\N	\N	1913-1922 (CC-CEDICT '錢三強'; Wikipedia '錢三強')	6000889
 6000890	锡瓦	錫瓦	xīwǎ	Siwa	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	Egypt (CC-CEDICT '錫瓦')	6000890
 6000891	道琼斯指数	道瓊斯指數	Dào Qióngsī Zhǐshù	Dow Jones Industrial Average (DJIA)	proper noun	指数	Index	经济	Economics	美国	United States	\N	\N	See 道琼工业平均指数 (CC-CEDICT '道瓊斯指數')	6000891
+6000892	阿克拉	\N	ākèlā	Accra	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Ghana (CC-CEDICT '阿克拉')	6000892
+6000893	阿波罗	阿波羅	ābōluó	Apollo	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Loanword (CC-CEDICT '阿波羅')	6000893
+6000894	阿森斯	\N	āsēnsī	Athens	proper noun	城市	City	地方	Places	美国	United States	\N	\N	In Ohio (CC-CEDICT '阿森斯')	6000894
+6000895	阿森纳	阿森納	āsēnnà	Arsenal Football Club	proper noun	\N	\N	现代汉语	Modern Chinese	体育	Sport	\N	\N	(CC-CEDICT '阿森納')	6000895
+6000896	阿比让	阿比讓	ābìràng	Abidjan	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	City in Ivory Coast (CC-CEDICT '阿比讓')	6000896
+6000897	阿拉摩	\N	ālāmó	Alamo	proper noun	城市	City	现代汉语	Modern Chinese	美国	United States	\N	\N	City in United States (CC-CEDICT '阿拉摩')	6000897
+6000898	阿拉瓦	\N	ālāwǎ	Araba / Álava	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '阿拉瓦')	6000898
+6000899	阿斯旺	\N	āsīwàng	Aswan	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	Town in south Egypt (CC-CEDICT '阿斯旺')	6000899
+6000900	阿斯旺高坝	阿斯旺高壩	āsīwàng gāobà	the Aswan dam in south Egypt	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '阿斯旺高壩')	6000900
+6000901	阿明	\N	āmíng	Al-Amin	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '阿明')	6000901
+6000902	阿洛菲	\N	āluòfēi	Alofi	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	Capital of Niue (CC-CEDICT '阿洛菲')	6000902
+6000903	阿尔盖达	阿爾蓋達	ā'ěrgàidá	al-Qaeda	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '阿爾蓋達')	6000903
+6000904	阿瑟县	阿瑟縣	āsèxiàn	Arthur County, Nebraska	proper noun	县	County	地方	Places	美国	United States	\N	\N	(CC-CEDICT '阿瑟縣')	6000904
+6000905	阿玛尼	阿瑪尼	āmǎní	Armani (fashion designer)	proper noun	人	Person	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '阿瑪尼')	6000905
+6000906	阿莱曼	阿萊曼	āláimàn	El Alamein, town in Egypt	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '阿萊曼')	6000906
+6000907	阿盖达	阿蓋達	āgàidá	al-Qaeda	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '阿蓋達')	6000907
+6000908	阿萨德	阿薩德	āsàdé	Assad (Arabic name)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '阿薩德')	6000908
+6000909	阿鲁巴	阿魯巴	alǔbā	Aruba	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(CC-CEDICT '阿魯巴')	6000909
+6000910	陈可雄	陳可雄	chén kěxióng	Chen Kexiong	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1950-; novelist (CC-CEDICT '陳可雄')	6000910
+6000911	雀儿喜	雀兒喜	què'érxǐ	Chelsea	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '雀兒喜')	6000911
+6000912	雀巢	\N	quècháo	Nestlé	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '雀巢')	6000912
