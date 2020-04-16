@@ -914,4 +914,10 @@
 6000914	雅马哈	雅馬哈	yǎmǎhā	Yamaha	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '雅馬哈')	6000914
 6000915	雪佛莱	雪佛萊	xuěfólái	Chevrolet	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	US car make (CC-CEDICT '雪佛萊')	6000915
 6000916	雪佛兰	雪佛蘭	xuěfólán	Chevrolet	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	US car make (CC-CEDICT '雪佛蘭')	6000916
-6000917	雪城	\N	xuěchéng	Syracuse	proper noun	城市	City	地方	Places	\N	\N	\N	\N	In New York (CC-CEDICT '雪城')	6000917
+6000917	雪城	\N	xuěchéng	Syracuse	proper noun	城市	City	地方	Places	美国	United States	\N	\N	In New York (CC-CEDICT '雪城')	6000917
+6000918	韦科	韋科	wéikē	Waco	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '韋科')	6000918
+6000919	马天尼	馬天尼	mǎtiānní	Martini	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	A cocktail (CC-CEDICT '馬天尼')	6000919
+6000920	马尔他	馬爾他	mǎěrtā	Malta	proper noun	岛	Island	地方	Places	欧洲	Europe	\N	\N	Taiwanese usage (CC-CEDICT '馬爾他')	6000920
+6000921	马里	馬里	mǎlǐ	Mali	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '馬里'; Wikipedia '马里')	6000921
+6000922	魏玛	魏瑪	wèimǎ	Weimar	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	In Germany (CC-CEDICT '魏瑪')	6000922
+6000923	凤凰号	鳳凰號	fènghuánghào	Phoenix	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	NASA Mars explorer (CC-CEDICT '鳳凰號')	6000923
