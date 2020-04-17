@@ -14,6 +14,7 @@
 文学	Literature	\N	\N
 媒体	Media	\N	\N
 现代汉语	Modern Chinese	\N	\N
+音乐	Music	\N	\N
 地方	Places	\N	\N
 政治	Politics	\N	\N
 谚语	Proverb	\N	\N

@@ -625,8 +625,8 @@
 6000625	扭扭乐	扭扭樂	niǔniǔlè	Twister (game)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '扭扭樂')	6000625
 6000626	扶轮社	扶輪社	fúlúnshè	Rotary Club	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '扶輪社')	6000626
 6000627	技嘉	\N	jìjiā	GIGABYTE Technology Co., Ltd.	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '技嘉')	6000627
-6000628	披头四乐团	披頭四樂團	pī tóu sì yuè tuán	the Beatles	proper noun	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	\N	(CC-CEDICT '披頭四樂團')	6000628
-6000629	披头士	披頭士	pītóushì	the Beatles (music band)	proper noun	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	\N	(CC-CEDICT '披頭士')	6000629
+6000628	披头四乐团	披頭四樂團	pī tóu sì yuè tuán	the Beatles	proper noun	\N	\N	音乐	Music	英国	England	\N	\N	(CC-CEDICT '披頭四樂團')	6000628
+6000629	披头士	披頭士	pītóushì	the Beatles (music band)	proper noun	\N	\N	音乐	Music	英国	England	\N	\N	(CC-CEDICT '披頭士')	6000629
 6000630	抱抱团	抱抱團	bàobàotuán	Free Hugs Campaign	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '抱抱團')	6000630
 6000631	拍立得	\N	pāilìde	Polaroid	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	Taiwanese usage (CC-CEDICT '拍立得')	6000631
 6000632	拉冈	拉岡	lāgāng	Lacan (psychoanalyst)	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '拉岡')	6000632
@@ -921,3 +921,13 @@
 6000921	马里	馬里	mǎlǐ	Mali	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '馬里'; Wikipedia '马里')	6000921
 6000922	魏玛	魏瑪	wèimǎ	Weimar	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	In Germany (CC-CEDICT '魏瑪')	6000922
 6000923	凤凰号	鳳凰號	fènghuánghào	Phoenix	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	NASA Mars explorer (CC-CEDICT '鳳凰號')	6000923
+6000924	麦克维	麥克維	màikèwéi	(Timothy) McVeigh	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1968-2001; Perpetrated the 1995 Oklahoma City bombing (CC-CEDICT '麥克維'; Wikipedia '提摩太·占士·麥克維')	6000924
+6000925	麦地那	麥地那	màidìnà	Medina	proper noun	城市	City	地方	Places	中东	Middle East	\N	\N	In Saudi Arabia (CC-CEDICT '麥地那')	6000925
+6000926	麦德林	麥德林	màidélín	Medellín	proper noun	城市	City	地方	Places	南美	South America	\N	\N	City in Colombia (CC-CEDICT '麥德林')	6000926
+6000927	麦当娜	麥當娜	màidāngnà	Madonna	proper noun	人	Person	音乐	Music	美国	United States	\N	\N	1958-; US pop singer (CC-CEDICT '麥當娜')	6000927
+6000928	麦肯锡	麥肯錫	màikěnxī	MacKenzie / McKinsey	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '麥肯錫')	6000928
+6000929	黄页	黃頁	huángyè	Yellow Pages	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '黃頁')	6000929
+6000930	黑五	\N	hēiwǔ	Black Friday	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '黑五')	6000930
+6000931	三八节	三八節	sānbājié	International Women's Day (March 8)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '三八節')	6000931
+6000932	伯多禄	伯多祿	bóduōlù	Peter	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '伯多祿')	6000932
+6000933	吴清源	吳清源	wú qīngyuán	Go Seigen	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1914-2014; Go player (CC-CEDICT '吳清源')	6000933
