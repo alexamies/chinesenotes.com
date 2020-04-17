@@ -931,3 +931,19 @@
 6000931	三八节	三八節	sānbājié	International Women's Day (March 8)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '三八節')	6000931
 6000932	伯多禄	伯多祿	bóduōlù	Peter	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '伯多祿')	6000932
 6000933	吴清源	吳清源	wú qīngyuán	Go Seigen	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1914-2014; Go player (CC-CEDICT '吳清源')	6000933
+6000934	塔州	\N	tǎzhōu	Tasmania	proper noun	州	State	地方	Places	澳大利亚	Australia	\N	\N	Abbreviation for 塔斯曼尼亚州 (CC-CEDICT '塔州')	6000934
+6000935	墨巴本	\N	mòbāběn	Mbabane	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Swaziland; Taiwanese usage (CC-CEDICT '墨巴本')	6000935
+6000936	大麦克	大麥克	dàmàikè	Big Mac	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	McDonald's hamburger; Taiwanese usage (CC-CEDICT '大麥克')	6000936
+6000937	太子港	\N	tàizǐgǎng	Port-au-Prince	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Capital of Haiti (CC-CEDICT '太子港')	6000937
+6000938	威克岛	威克島	wēikèdǎo	Wake Island	proper noun	岛	Island	地方	Places	地理	Geography	\N	\N	North Pacific Ocean (CC-CEDICT '威克島')	6000938
+6000939	威尔士	威爾士	wēiěrshì	Wales	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Constituent nation of UK (CC-CEDICT '威爾士')	6000939
+6000940	安全理事会	安全理事會	ānquán lǐshìhuì	(United Nations) Security Council	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '安全理事會')	6000940
+6000941	安德肋	\N	āndélèi	Andrew	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	Catholic transliteration (CC-CEDICT '安德肋')	6000941
+6000942	安理会	安理會	ānlǐhuì	(United Nations) Security Council	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '安理會')	6000942
+6000943	小薰	\N	xiǎoxūn	Xiao Xun	proper noun	人	Person	戏剧	Drama	\N	\N	\N	\N	1989-; Actress, Taiwan (CC-CEDICT '小薰')	6000943
+6000944	张静初	張靜初	zhāng jìngchū	Zhang Jingchu	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1980-; PRC actress (CC-CEDICT '張靜初')	6000944
+6000945	布希	\N	bùxī	Bush	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	Taiwan equivalent of 布什 (CC-CEDICT '布希')	6000945
+6000946	弗里敦	\N	fúlǐdūn	Freetown	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Sierra Leone (CC-CEDICT '弗里敦')	6000946
+6000947	张高丽	張高麗	zhāngGāolì	Zhang Gaoli	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1946-; PRC politician (CC-CEDICT '張高麗')	6000947
+6000948	待乙妥	\N	dàiyǐtuǒ	DEET (insect repellent)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	Loanword (CC-CEDICT '待乙妥')	6000948
+6000949	战略防御倡议	戰略防御倡議	zhànlüè fángyù chàngyì	Strategic Defense Initiative (SDI)	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	(CC-CEDICT '戰略防御倡議')	6000949
