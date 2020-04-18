@@ -959,3 +959,5 @@
 6000959	比绍	比紹	bìshào	Bissau	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Guinea-Bissau (CC-CEDICT '比紹')	6000959
 6000960	沈从文	沈從文	shěn cóngwén	Shen Congwen	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1902-1988; novelist (CC-CEDICT '沈從文')	6000960
 6000961	汉堡王	漢堡王	hànbǎowáng	Burger King	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Fast food restaurant (CC-CEDICT '漢堡王')	6000961
+6000962	炎亚纶	炎亞綸	yányàlún	Aaron Yan	proper noun	人	Person	音乐	Music	\N	\N	\N	\N	1986-; ese singer, Taiwan (CC-CEDICT '炎亞綸')	6000962
+6000963	米底亚	米底亞	mǐdǐyà	Media	proper noun	\N	\N	历史	History	中东	Middle East	\N	\N	Ancient Middle east region (CC-CEDICT '米底亞')	6000963
