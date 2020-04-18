@@ -947,3 +947,15 @@
 6000947	张高丽	張高麗	zhāngGāolì	Zhang Gaoli	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1946-; PRC politician (CC-CEDICT '張高麗')	6000947
 6000948	待乙妥	\N	dàiyǐtuǒ	DEET (insect repellent)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	Loanword (CC-CEDICT '待乙妥')	6000948
 6000949	战略防御倡议	戰略防御倡議	zhànlüè fángyù chàngyì	Strategic Defense Initiative (SDI)	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	(CC-CEDICT '戰略防御倡議')	6000949
+6000950	捷达	捷達	jiédá	Jetta	proper noun	产品	Product	商务	Commerce	欧洲	Europe	\N	\N	Car produced by Volkswagen (CC-CEDICT '捷達')	6000950
+6000951	易游网	易遊網	yìyóuwǎng	ezTravelese travel agency	proper noun	公司	Company	商务	Commerce	亚洲	Asia	\N	\N	In Taiwan (CC-CEDICT '易遊網')	6000951
+6000952	普拉提	\N	pǔlātí	Pilates (physical fitness system)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '普拉提')	6000952
+6000953	曹禺	\N	cáoǒu	Cao Yu	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1910-1997; PRC dramatist (CC-CEDICT '曹禺')	6000953
+6000954	李劼人	\N	lǐjiérén	Li Jieren	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1891-1962; novelist (CC-CEDICT '李劼人')	6000954
+6000955	李岚清	李嵐清	lǐlánqīng	Li Lanqing	proper noun	人	Person	现代汉语	Modern Chinese	中国	China	\N	\N	1932-; PRC politician (CC-CEDICT '李嵐清')	6000955
+6000956	李敏勇	\N	lǐmǐnyǒng	Li Minyong	proper noun	人	Person	文学	Literature	\N	\N	\N	\N	1947-; ese poet; Taiwan (CC-CEDICT '李敏勇')	6000956
+6000957	李雪健	\N	lǐxuějiàn	Li Xuejian	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1954-; Chinese actor (CC-CEDICT '李雪健')	6000957
+6000958	荣归主	榮歸主	róngguīzhǔ	Gloria (section of Catholic mass)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '榮歸主')	6000958
+6000959	比绍	比紹	bìshào	Bissau	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Guinea-Bissau (CC-CEDICT '比紹')	6000959
+6000960	沈从文	沈從文	shěn cóngwén	Shen Congwen	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1902-1988; novelist (CC-CEDICT '沈從文')	6000960
+6000961	汉堡王	漢堡王	hànbǎowáng	Burger King	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Fast food restaurant (CC-CEDICT '漢堡王')	6000961
