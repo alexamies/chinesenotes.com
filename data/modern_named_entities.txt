@@ -953,11 +953,18 @@
 6000953	曹禺	\N	cáoǒu	Cao Yu	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1910-1997; PRC dramatist (CC-CEDICT '曹禺')	6000953
 6000954	李劼人	\N	lǐjiérén	Li Jieren	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1891-1962; novelist (CC-CEDICT '李劼人')	6000954
 6000955	李岚清	李嵐清	lǐlánqīng	Li Lanqing	proper noun	人	Person	现代汉语	Modern Chinese	中国	China	\N	\N	1932-; PRC politician (CC-CEDICT '李嵐清')	6000955
-6000956	李敏勇	\N	lǐmǐnyǒng	Li Minyong	proper noun	人	Person	文学	Literature	\N	\N	\N	\N	1947-; ese poet; Taiwan (CC-CEDICT '李敏勇')	6000956
+6000956	李敏勇	\N	lǐmǐnyǒng	Li Minyong	proper noun	人	Person	文学	Literature	\N	\N	\N	\N	1947-; Taiwanese poet (CC-CEDICT '李敏勇')	6000956
 6000957	李雪健	\N	lǐxuějiàn	Li Xuejian	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1954-; Chinese actor (CC-CEDICT '李雪健')	6000957
 6000958	荣归主	榮歸主	róngguīzhǔ	Gloria (section of Catholic mass)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '榮歸主')	6000958
 6000959	比绍	比紹	bìshào	Bissau	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Guinea-Bissau (CC-CEDICT '比紹')	6000959
 6000960	沈从文	沈從文	shěn cóngwén	Shen Congwen	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1902-1988; novelist (CC-CEDICT '沈從文')	6000960
 6000961	汉堡王	漢堡王	hànbǎowáng	Burger King	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Fast food restaurant (CC-CEDICT '漢堡王')	6000961
-6000962	炎亚纶	炎亞綸	yányàlún	Aaron Yan	proper noun	人	Person	音乐	Music	\N	\N	\N	\N	1986-; ese singer, Taiwan (CC-CEDICT '炎亞綸')	6000962
+6000962	炎亚纶	炎亞綸	yányàlún	Aaron Yan	proper noun	人	Person	音乐	Music	\N	\N	\N	\N	1986-; Taiwanese singer (CC-CEDICT '炎亞綸')	6000962
 6000963	米底亚	米底亞	mǐdǐyà	Media	proper noun	\N	\N	历史	History	中东	Middle East	\N	\N	Ancient Middle east region (CC-CEDICT '米底亞')	6000963
+6000964	艾青	\N	àiqīng	Ai Qing	proper noun	人	Person	文学	Literature	中国	China	\N	\N	1910-1996; Chinese poet (CC-CEDICT '艾青')	6000964
+6000965	范志毅	\N	fàn zhìyì	Fan Zhiyi	proper noun	人	Person	体育	Sport	中国	China	\N	\N	1969-; Soccer player (CC-CEDICT '范志毅')	6000965
+6000966	莫内	莫內	mònèi	Monet	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	Taiwan equivalent of 莫奈 (CC-CEDICT '莫內')	6000966
+6000967	叶伟文	葉偉文	yè wěiwén	Raymond Yip	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	Alias of 叶伟民 (CC-CEDICT '葉偉文')	6000967
+6000968	萨哈罗夫人权奖	薩哈羅夫人權獎	sà hāluó fūren quán jiǎng	the EU Sakharov Human Rights Prize	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '薩哈羅夫人權獎')	6000968
+6000969	谭盾	譚盾	tándùn	Tan Dun	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1957-; Chinese composer (CC-CEDICT '譚盾')	6000969
+6000970	贺军翔	賀軍翔	hè jūnxiáng	Mike He	proper noun	人	Person	戏剧	Drama	\N	\N	\N	\N	1983-; Taiwanese actor (CC-CEDICT '賀軍翔')	6000970
