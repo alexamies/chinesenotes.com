@@ -968,3 +968,7 @@
 6000968	萨哈罗夫人权奖	薩哈羅夫人權獎	sà hāluó fūren quán jiǎng	the EU Sakharov Human Rights Prize	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '薩哈羅夫人權獎')	6000968
 6000969	谭盾	譚盾	tándùn	Tan Dun	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1957-; Chinese composer (CC-CEDICT '譚盾')	6000969
 6000970	贺军翔	賀軍翔	hè jūnxiáng	Mike He	proper noun	人	Person	戏剧	Drama	\N	\N	\N	\N	1983-; Taiwanese actor (CC-CEDICT '賀軍翔')	6000970
+6000971	邓紫棋	鄧紫棋	dèng zǐqí	G.E.M.	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1991-; Chinese pop star (CC-CEDICT '鄧紫棋')	6000971
+6000972	开普敦	開普敦	kāipǔdūn	Cape Town	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	City in South Africa (CC-CEDICT '開普敦')	6000972
+6000973	阿斯兰	阿斯蘭	āsīlán	Aslan	proper noun	主角	Character	文学	Literature	英国	England	\N	\N	From the Narnia chronicles (CC-CEDICT '阿斯蘭')	6000973
+6000974	首都剧场	首都劇場	shǒudū jùchǎng	the Capital Theater	set phrase	地名	Place Name	地方	Places	中国	China	\N	\N	In Beijing (CC-CEDICT '首都劇場')	6000974
