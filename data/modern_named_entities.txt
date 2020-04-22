@@ -984,3 +984,5 @@
 6000984	克格勃	\N	kègébó	KGB (Soviet secret police)	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '克格勃')	6000984
 6000985	凌志	\N	língzhì	Lexus	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	See 雷克萨斯 (CC-CEDICT '凌志')	6000985
 6000986	出入境检验检疫局	出入境檢驗檢疫局	chūrù jìng jiǎnyàn jiǎnyì jú	Entry-Exit Inspection and Quarantine Bureau	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '出入境檢驗檢疫局')	6000986
+6000987	刘青云	劉青雲	liú qīngyún	Lau Ching-Wan	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1964-; Hong Kong actor (CC-CEDICT '劉青雲')	6000987
+6000988	卡乐星	卡樂星	kǎlèxīng	Carl's Jr.	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Fast-food restaurant chain (CC-CEDICT '卡樂星')	6000988
