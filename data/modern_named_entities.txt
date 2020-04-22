@@ -976,3 +976,11 @@
 6000976	默西河	\N	mòxīhé	Mersey River	proper noun	水名	River	地方	Places	英国	England	\N	\N	Through Liverpool (CC-CEDICT '默西河')	6000976
 6000977	丁克	\N	dīngkè	Dual Income, No Kids (DINK)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Loanword (CC-CEDICT '丁克')	6000977
 6000978	中海油	\N	zhōnghǎiyóu	China National Offshore Oil Corporation	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中海油')	6000978
+6000979	全聚德	\N	quánjùdé	Quanjude	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	Chinese restaurant chain specializing in Beijing duck (CC-CEDICT '全聚德')	6000979
+6000980	冀朝铸	冀朝鑄	jìcháozhù	Ji Chaozhu	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1929-; Chinese diplomat (CC-CEDICT '冀朝鑄')	6000980
+6000981	九巴	\N	jiǔbā	Kowloon Motor Bus (KMB)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 九龙巴士 (CC-CEDICT '九巴')	6000981
+6000982	伍廷芳	\N	wǔ tíngfāng	Wu Tingfang	proper noun	人	Person	历史	History	中国	China	\N	\N	1842-1922; diplomat and lawyer (CC-CEDICT '伍廷芳')	6000982
+6000983	伏明霞	\N	fú míngxiá	Fu Mingxia	proper noun	人	Person	体育	Sport	中国	China	\N	\N	1978-; Chinese diving champion (CC-CEDICT '伏明霞')	6000983
+6000984	克格勃	\N	kègébó	KGB (Soviet secret police)	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '克格勃')	6000984
+6000985	凌志	\N	língzhì	Lexus	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	See 雷克萨斯 (CC-CEDICT '凌志')	6000985
+6000986	出入境检验检疫局	出入境檢驗檢疫局	chūrù jìng jiǎnyàn jiǎnyì jú	Entry-Exit Inspection and Quarantine Bureau	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '出入境檢驗檢疫局')	6000986
