@@ -986,3 +986,8 @@
 6000986	出入境检验检疫局	出入境檢驗檢疫局	chūrù jìng jiǎnyàn jiǎnyì jú	Entry-Exit Inspection and Quarantine Bureau	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '出入境檢驗檢疫局')	6000986
 6000987	刘青云	劉青雲	liú qīngyún	Lau Ching-Wan	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1964-; Hong Kong actor (CC-CEDICT '劉青雲')	6000987
 6000988	卡乐星	卡樂星	kǎlèxīng	Carl's Jr.	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Fast-food restaurant chain (CC-CEDICT '卡樂星')	6000988
+6000989	吐瓦鲁	吐瓦魯	tùwǎlǔ	Tuvalu	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	An island country in the SW Pacific; Taiwanese usage (CC-CEDICT '吐瓦魯')	6000989
+6000990	吴镇宇	吳鎮宇	wú zhènyǔ	Francis Ng Chun-Yu	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1961-; Hong Kong actor (CC-CEDICT '吳鎮宇')	6000990
+6000991	周总理	周總理	zhōu zǒnglǐ	Premier Zhou Enlai	proper noun	人	Person	历史	History	中国	China	\N	\N	See 周恩来 (CC-CEDICT '周總理')	6000991
+6000992	哈比人	\N	hābìrén	Hobbit	proper noun	主角	Character	文学	Literature	英国	England	\N	\N	See also 霍比特人 (CC-CEDICT '哈比人')	6000992
+6000993	唐家璇	\N	táng jiāxuán	Tang Jiaxuan	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1938-; Politician and diplomat (CC-CEDICT '唐家璇')	6000993
