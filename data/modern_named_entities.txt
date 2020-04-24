@@ -991,3 +991,6 @@
 6000991	周总理	周總理	zhōu zǒnglǐ	Premier Zhou Enlai	proper noun	人	Person	历史	History	中国	China	\N	\N	See 周恩来 (CC-CEDICT '周總理')	6000991
 6000992	哈比人	\N	hābìrén	Hobbit	proper noun	主角	Character	文学	Literature	英国	England	\N	\N	See also 霍比特人 (CC-CEDICT '哈比人')	6000992
 6000993	唐家璇	\N	táng jiāxuán	Tang Jiaxuan	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1938-; Politician and diplomat (CC-CEDICT '唐家璇')	6000993
+6000994	坚戈	堅戈	jiāngē	Tenge	proper noun	货币	Currency	现代汉语	Modern Chinese	\N	\N	\N	\N	Kazakhstan currency; loanword (CC-CEDICT '堅戈')	6000994
+6000995	奥黛莉	奧黛莉	àodàilì	Audrey	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	A variant of 奥黛丽 (CC-CEDICT '奧黛莉')	6000995
+6000996	好立克	\N	hǎolìkè	Horlicks milk drink	proper noun	产品	Product	商务	Commerce	饮食	Food and Drink	\N	\N	Popular in Hong Kong (CC-CEDICT '好立克')	6000996
