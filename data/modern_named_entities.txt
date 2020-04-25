@@ -994,3 +994,9 @@
 6000994	坚戈	堅戈	jiāngē	Tenge	proper noun	货币	Currency	现代汉语	Modern Chinese	\N	\N	\N	\N	Kazakhstan currency; loanword (CC-CEDICT '堅戈')	6000994
 6000995	奥黛莉	奧黛莉	àodàilì	Audrey	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	A variant of 奥黛丽 (CC-CEDICT '奧黛莉')	6000995
 6000996	好立克	\N	hǎolìkè	Horlicks milk drink	proper noun	产品	Product	商务	Commerce	饮食	Food and Drink	\N	\N	Popular in Hong Kong (CC-CEDICT '好立克')	6000996
+6000997	宝钢	寶鋼	bǎogāng	Baosteel	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	China's largest steel maker (CC-CEDICT '寶鋼')	6000997
+6000998	工人党	工人黨	gōngréndǎng	Workers' Party	proper noun	党	Party	政治	Politics	亚洲	Asia	\N	\N	Singapore opposition party (CC-CEDICT '工人黨')	6000998
+6000999	布洛芬	\N	bùluòfēn	Ibuprofen / Nurofen	proper noun	药品	Medication	商务	Commerce	\N	\N	\N	\N	Also called 异丁苯丙酸 (CC-CEDICT '布洛芬')	6000999
+6001000	希拉蕊	\N	xīlāruǐ	 Hillary	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	Taiwan equivalent of 希拉里 (CC-CEDICT '希拉蕊')	6001000
+6001001	康桥	康橋	kāngqiáo	Cambridge	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	City from a poem by Xu Zhimo 徐志摩 (CC-CEDICT '康橋')	6001001
+6001002	弗拉芒	\N	fúlāmáng	Flemish	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Inhabitant of Flanders, Belgium (CC-CEDICT '弗拉芒')	6001002
