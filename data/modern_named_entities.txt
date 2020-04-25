@@ -1008,3 +1008,16 @@
 6001008	海伦	海倫	hǎilún	Helen	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '海倫')	6001008
 6001009	扣扣	\N	kòukòu	QQ instant messenger	proper noun	产品	Product	商务	Commerce	俚语	Slang	\N	\N	Internet slang (CC-CEDICT '扣扣')	6001009
 6001010	拉里	\N	lālǐ	lari	noun	货币	Currency	现代汉语	Modern Chinese	\N	\N	\N	\N	Currency of Georgia; loanword (CC-CEDICT '拉里')	6001010
+6001011	明德镇	明德鎮	míngdézhèn	Middlebury	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	Name of town in Vermont (CC-CEDICT '明德鎮')	6001011
+6001012	景福宫	景福宮	jǐngfúgōng	Gyeongbokgung palace	proper noun	地名	Place Name	地方	Places	亚洲	Asia	\N	\N	In central Seoul (CC-CEDICT '景福宮')	6001012
+6001013	时间简史	時間簡史	shíjiān jiǎnshǐ	A Brief History of Time	proper noun	书名	Book Title	文学	Literature	英国	England	\N	\N	By Stephen Hawking (CC-CEDICT '時間簡史')	6001013
+6001014	曾荫权	曾蔭權	céng yìnquán	Sir Donald Tsang or Tsang Yam-Kuen	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1944- (CC-CEDICT '曾蔭權')	6001014
+6001015	杨丞琳	楊丞琳	yáng chénglín	Rainie Yang	proper noun	人	Person	媒体	Media	\N	\N	\N	\N	1984-; Taiwanese entertainer (CC-CEDICT '楊丞琳')	6001015
+6001016	朱孝天	\N	zhūxiàotiān	Ken Zhu	proper noun	人	Person	现代汉语	Modern Chinese	音乐	Music	\N	\N	1979-; Taiwanese singer / actor (CC-CEDICT '朱孝天')	6001016
+6001017	朱立伦	朱立倫	zhūlìlún	Eric Chu	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1961-; Taiwanese KMT politician (CC-CEDICT '朱立倫')	6001017
+6001018	朱自清	\N	zhūzìqīng	Zhu Ziqing	proper noun	人	Person	文学	Literature	中国	China	\N	\N	1898-1948; poet and essayist (CC-CEDICT '朱自清')	6001018
+6001019	李富春	\N	lǐ fùchūn	Li Fuchun	proper noun	人	Person	现代汉语	Modern Chinese	中国	China	\N	\N	1900-1975; communist politician (CC-CEDICT '李富春')	6001019
+6001020	李成江	\N	lǐ chéngjiāng	Li Chengjiang	proper noun	人	Person	现代汉语	Modern Chinese	中国	China	\N	\N	1979-; Chinese figure skater (CC-CEDICT '李成江')	6001020
+6001021	李瑞环	李瑞環	lǐ ruìhuán	Li Ruihuan	proper noun	人	Person	现代汉语	Modern Chinese	中国	China	\N	\N	1934-; former Chinese politician (CC-CEDICT '李瑞環')	6001021
+6001022	杜琪峰	\N	dùqífēng	Johnnie To	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1955-; Hong Kong film director (CC-CEDICT '杜琪峰')	6001022
+6001023	梅西	\N	méixī	Lionel Messi	proper noun	人	Person	现代汉语	Modern Chinese	体育	Sport	\N	\N	1987-; Argentine footballer (CC-CEDICT '梅西')	6001023
