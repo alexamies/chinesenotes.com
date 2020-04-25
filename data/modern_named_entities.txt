@@ -1000,3 +1000,11 @@
 6001000	希拉蕊	\N	xīlāruǐ	 Hillary	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	Taiwan equivalent of 希拉里 (CC-CEDICT '希拉蕊')	6001000
 6001001	康桥	康橋	kāngqiáo	Cambridge	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	City from a poem by Xu Zhimo 徐志摩 (CC-CEDICT '康橋')	6001001
 6001002	弗拉芒	\N	fúlāmáng	Flemish	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Inhabitant of Flanders, Belgium (CC-CEDICT '弗拉芒')	6001002
+6001003	张丹	張丹	zhāngdān	Zhang Dan	proper noun	人	Person	体育	Sport	中国	China	\N	\N	1985-; Chinese figure skater (CC-CEDICT '張丹')	6001003
+6001004	张震	張震	zhāngzhèn	Chang Chen	proper noun	人	Person	戏剧	Drama	\N	\N	\N	\N	1976-; Taiwanese film actor (CC-CEDICT '張震')	6001004
+6001005	徐志摩	\N	xúzhìmó	Xu Zhimo	proper noun	人	Person	文学	Literature	中国	China	\N	\N	1897-1931; writer and poet (CC-CEDICT '徐志摩')	6001005
+6001006	德里达	德里達	Délǐdá	Jacques Derrida	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1930-2004; philosopher (CC-CEDICT '德里達'; Wikipedia '雅克·德里达')	6001006
+6001007	快手	\N	kuàishǒu	Kuaishou	proper noun	产品	Product	商务	Commerce	中国	China	\N	\N	Chinese social video sharing app (CC-CEDICT '快手')	6001007
+6001008	海伦	海倫	hǎilún	Helen	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '海倫')	6001008
+6001009	扣扣	\N	kòukòu	QQ instant messenger	proper noun	产品	Product	商务	Commerce	俚语	Slang	\N	\N	Internet slang (CC-CEDICT '扣扣')	6001009
+6001010	拉里	\N	lālǐ	lari	noun	货币	Currency	现代汉语	Modern Chinese	\N	\N	\N	\N	Currency of Georgia; loanword (CC-CEDICT '拉里')	6001010
