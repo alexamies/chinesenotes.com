@@ -1031,3 +1031,15 @@
 6001031	港交所	\N	gǎngjiāosuǒ	Hong Kong Stock Exchange	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 香港交易所 (CC-CEDICT '港交所')	6001031
 6001032	港铁	港鐵	gǎngtiě	MTR (Mass Transit Railway)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In Hong Kong (CC-CEDICT '港鐵')	6001032
 6001033	沪综指	滬綜指	hùzōngzhǐ	Shanghai composite index (stock market index)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '滬綜指')	6001033
+6001034	熊倪	\N	xióngní	Xiong Ni	proper noun	人	Person	体育	Sport	中国	China	\N	\N	1974-; Chinese diving athlete (CC-CEDICT '熊倪')	6001034
+6001035	狼图腾	狼圖騰	láng túténg	Wolf Totem	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	Novel by Lü Jiamin aka Jiang Rong (CC-CEDICT '狼圖騰')	6001035
+6001036	王家卫	王家衛	wáng jiāwèi	Wong Kar-wai	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1956-; Hong Kong film director (CC-CEDICT '王家衛')	6001036
+6001037	甜菊糖	\N	tiánjútáng	Stevia extract	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	Used as a sugar substitute (CC-CEDICT '甜菊糖')	6001037
+6001038	痞子蔡	\N	pǐ zǐcài	Rowdy Cai	proper noun	人	Person	文学	Literature	\N	\N	\N	\N	1969-; Taiwanese Internet writer (CC-CEDICT '痞子蔡')	6001038
+6001039	白晓燕	白曉燕	báixiǎoyān	Pai Hsiao-yen	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	Daughter of Pai Ping-ping (CC-CEDICT '白曉燕'; Wikipedia '白曉燕命案')	6001039
+6001040	皇马	皇馬	huángmǎ	Real Madrid soccer team	proper noun	\N	\N	体育	Sport	欧洲	Europe	\N	\N	Abbreviation for 皇家马德里 (CC-CEDICT '皇馬')	6001040
+6001041	真纳	真納	zhēnnà	(Mohammad Ali) Jinnah	noun	人	Person	历史	History	亚洲	Asia	\N	\N	Founder of Pakistan (CC-CEDICT '真納')	6001041
+6001042	社科院	\N	shèkēyuàn	(Chinese) Academy of Social Sciences (CASS)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '社科院')	6001042
+6001043	科奈	\N	kēnài	Kenai	proper noun	湖	Lake	地方	Places	美国	United States	\N	\N	Peninsula, Lake, and Mountains in Alaska (CC-CEDICT '科奈')	6001043
+6001044	章孝严	章孝嚴	zhāng xiàoyán	John Chang	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	Taiwan Foreign Minister (CC-CEDICT '章孝嚴')	6001044
+6001045	第二性	\N	dì èr xìng	The Second Sex	proper noun	书名	Book Title	文学	Literature	\N	\N	\N	\N	Book by Simone de Beauvoir (CC-CEDICT '第二性')	6001045
