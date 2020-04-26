@@ -18,4 +18,5 @@
 地方	Places	\N	\N
 政治	Politics	\N	\N
 谚语	Proverb	\N	\N
+机科学	Science	\N	\N
 体育	Sport	\N	\N
