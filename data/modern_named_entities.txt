@@ -1052,3 +1052,5 @@
 6001052	聂卫平	聶衛平	niè wèipíng	Nie Weiping	proper noun	人	Person	现代汉语	Modern Chinese	中国	China	\N	\N	1952-; professional Go player (CC-CEDICT '聶衛平')	6001052
 6001053	臧克家	\N	zāng kèjiā	Zang Kejia	proper noun	人	Person	文学	Literature	中国	China	\N	\N	1905-2004; Chinese poet (CC-CEDICT '臧克家')	6001053
 6001054	台大	臺大	táidà	National Taiwan University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	Abbreviation for 台湾大学 (CC-CEDICT '臺大')	6001054
+6001055	叶永烈	葉永烈	yè yǒngliè	Ye Yonglie	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1940-; popular science writer (CC-CEDICT '葉永烈')	6001055
+6001056	蔡依林	\N	càiyīlín	Jolin Tsai	proper noun	人	Person	音乐	Music	\N	\N	\N	\N	1980-; Taiwanese singer (CC-CEDICT '蔡依林')	6001056
