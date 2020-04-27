@@ -1043,3 +1043,12 @@
 6001043	科奈	\N	kēnài	Kenai	proper noun	湖	Lake	地方	Places	美国	United States	\N	\N	Peninsula, Lake, and Mountains in Alaska (CC-CEDICT '科奈')	6001043
 6001044	章孝严	章孝嚴	zhāng xiàoyán	John Chang	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	Taiwan Foreign Minister (CC-CEDICT '章孝嚴')	6001044
 6001045	第二性	\N	dì èr xìng	The Second Sex	proper noun	书名	Book Title	文学	Literature	\N	\N	\N	\N	Book by Simone de Beauvoir (CC-CEDICT '第二性')	6001045
+6001046	罗保铭	羅保銘	luó bǎomíng	Luo Baoming	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1952-; sixth governor of Hainan (CC-CEDICT '羅保銘')	6001046
+6001047	罗嘉良	羅嘉良	luójiāliáng	Gallen Lo	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1962-; Hong Kong actor and singer (CC-CEDICT '羅嘉良')	6001047
+6001048	罗家英	羅家英	luó jiāyīng	Law Kar-Ying	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1946-; Hong Kong actor (CC-CEDICT '羅家英')	6001048
+6001049	美禄	美祿	měilù	Nestlé Milo	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	Milk drink popular in Hong Kong (CC-CEDICT '美祿')	6001049
+6001050	翟志刚	翟志剛	dízhìgāng	Zhai Zhigang	proper noun	人	Person	机科学	Science	中国	China	\N	\N	1966-; Chinese astronaut (CC-CEDICT '翟志剛')	6001050
+6001051	圣诞颂	聖誕頌	shèngdàn sòng	A Christmas Carol	proper noun	书名	Book Title	文学	Literature	英国	England	\N	\N	By Charles Dickens (CC-CEDICT '聖誕頌')	6001051
+6001052	聂卫平	聶衛平	niè wèipíng	Nie Weiping	proper noun	人	Person	现代汉语	Modern Chinese	中国	China	\N	\N	1952-; professional Go player (CC-CEDICT '聶衛平')	6001052
+6001053	臧克家	\N	zāng kèjiā	Zang Kejia	proper noun	人	Person	文学	Literature	中国	China	\N	\N	1905-2004; Chinese poet (CC-CEDICT '臧克家')	6001053
+6001054	台大	臺大	táidà	National Taiwan University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	Abbreviation for 台湾大学 (CC-CEDICT '臺大')	6001054
