@@ -1060,3 +1060,9 @@
 6001060	诺塞斯	諾塞斯	nuòsāisī	Knossos	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(inoan palace at Iraklion, Crete (CC-CEDICT '諾塞斯')	6001060
 6001061	诺格	諾格	nuògé	Northrop Grumman	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Aerospace arm of Boeing (CC-CEDICT '諾格')	6001061
 6001062	证券委员会	證券委員會	zhèngquàn wěiyuánhuì	Securities Commission	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Of the State Council (CC-CEDICT '證券委員會')	6001062
+6001063	费孝通	費孝通	fèi xiàotōng	Fei Xiaotong	proper noun	人	Person	机科学	Science	中国	China	\N	\N	1910-2005; Chinese sociologist (CC-CEDICT '費孝通')	6001063
+6001064	贾平凹	賈平凹	jiǎpíngāo	Jia Pingwa	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1952-; Chinese novelist (CC-CEDICT '賈平凹')	6001064
+6001065	赵树理	趙樹理	zhào shùlǐ	Zhao Shuli	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1906-1970; proletarian novelist (CC-CEDICT '趙樹理')	6001065
+6001066	亨利	\N	Hēnglì	Henry	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '亨利'; Guoyu '亨利')	23164
+6001067	郁达夫	郁達夫	yùdáfū	Yu Dafu	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1896-1945; poet and novelist (CC-CEDICT '郁達夫')	6001067
+6001068	郎朗	\N	lánglǎng	Lang Lang	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1982-; Chinese concert pianist (CC-CEDICT '郎朗')	6001068
