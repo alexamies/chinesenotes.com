@@ -1066,3 +1066,5 @@
 6001066	亨利	\N	Hēnglì	Henry	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '亨利'; Guoyu '亨利')	23164
 6001067	郁达夫	郁達夫	yùdáfū	Yu Dafu	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1896-1945; poet and novelist (CC-CEDICT '郁達夫')	6001067
 6001068	郎朗	\N	lánglǎng	Lang Lang	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1982-; Chinese concert pianist (CC-CEDICT '郎朗')	6001068
+6001069	阿卡提	\N	ākǎtí	Arcadia	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Greek prefecture on the Peloponnese (CC-CEDICT '阿卡提')	6001069
+6001070	阿卢巴	阿盧巴	ālúbā	Aruba	proper noun	地名	Place Name	地方	Places	南美	South America	\N	\N	Variant of 阿鲁巴 (CC-CEDICT '阿盧巴'; Wikipedia '阿魯巴')	6001070
