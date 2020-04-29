@@ -1068,3 +1068,8 @@
 6001068	郎朗	\N	lánglǎng	Lang Lang	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1982-; Chinese concert pianist (CC-CEDICT '郎朗')	6001068
 6001069	阿卡提	\N	ākǎtí	Arcadia	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Greek prefecture on the Peloponnese (CC-CEDICT '阿卡提')	6001069
 6001070	阿卢巴	阿盧巴	ālúbā	Aruba	proper noun	地名	Place Name	地方	Places	南美	South America	\N	\N	Variant of 阿鲁巴 (CC-CEDICT '阿盧巴'; Wikipedia '阿魯巴')	6001070
+6001071	非物质文化遗产	非物質文化遺產	fēi wùzhì wénhuà yíchǎn	(UNESCO) Intangible Cultural Heritage	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '非物質文化遺產')	6001071
+6001072	非盟	\N	fēiméng	African Union (AU)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	abbreviation for 非洲联盟 (CC-CEDICT '非盟')	6001072
+6001073	飞轮海	飛輪海	fēilúnhǎi	Fahrenheit	proper noun	人	Person	音乐	Music	\N	\N	\N	\N	Taiwan pop group, from 2005 (CC-CEDICT '飛輪海')	6001073
+6001074	马三立	馬三立	mǎsānlì	Ma Sanli	proper noun	人	Person	媒体	Media	中国	China	\N	\N	1914-2003; Chinese comedian (CC-CEDICT '馬三立')	6001074
+6001075	马俊仁	馬俊仁	mǎjùnrén	Ma Junren	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1944-; Chinese track coach (CC-CEDICT '馬俊仁')	6001075
