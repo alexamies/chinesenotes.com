@@ -1075,3 +1075,5 @@
 6001075	马俊仁	馬俊仁	mǎjùnrén	Ma Junren	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1944-; Chinese track coach (CC-CEDICT '馬俊仁')	6001075
 6001076	一卡通	\N	yīkǎtōng	Yikatong (Beijing public transport smart card)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '一卡通')	6001076
 6001077	中新社	\N	zhōngxīnshè	China News Service (CNS)	proper noun	公司	Company	媒体	Media	中国	China	\N	\N	Abbreviation for 中国新闻社 (CC-CEDICT '中新社')	6001077
+6001078	伊利湖	\N	yīlìhú	Lake Erie	proper noun	湖	Lake	地方	Places	美国	United States	\N	\N	One of the Great Lakes 五大湖 (CC-CEDICT '伊利湖')	6001078
+6001079	何应钦	何應欽	hé yīngqīn	He Yingqin	proper noun	人	Person	历史	History	中国	China	\N	\N	1890-1987; senior Guomindang general (CC-CEDICT '何應欽')	6001079
