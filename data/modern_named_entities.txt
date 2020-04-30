@@ -1073,3 +1073,5 @@
 6001073	飞轮海	飛輪海	fēilúnhǎi	Fahrenheit	proper noun	人	Person	音乐	Music	\N	\N	\N	\N	Taiwan pop group, from 2005 (CC-CEDICT '飛輪海')	6001073
 6001074	马三立	馬三立	mǎsānlì	Ma Sanli	proper noun	人	Person	媒体	Media	中国	China	\N	\N	1914-2003; Chinese comedian (CC-CEDICT '馬三立')	6001074
 6001075	马俊仁	馬俊仁	mǎjùnrén	Ma Junren	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1944-; Chinese track coach (CC-CEDICT '馬俊仁')	6001075
+6001076	一卡通	\N	yīkǎtōng	Yikatong (Beijing public transport smart card)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '一卡通')	6001076
+6001077	中新社	\N	zhōngxīnshè	China News Service (CNS)	proper noun	公司	Company	媒体	Media	中国	China	\N	\N	Abbreviation for 中国新闻社 (CC-CEDICT '中新社')	6001077
