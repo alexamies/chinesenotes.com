@@ -1082,3 +1082,8 @@
 6001082	刘慈欣	劉慈欣	liú cíxīn	Liu Cixin	proper noun	人	Person	文学	Literature	中国	China	\N	\N	1963-; Chinese science fiction writer (CC-CEDICT '劉慈欣')	6001082
 6001083	周传瑛	周傳瑛	zhōu chuányīng	Zhou Chuanying	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1912-1988; Kunqu 昆曲 opera actor (CC-CEDICT '周傳瑛')	6001083
 6001084	周树人	周樹人	zhōu shùrén	Zhou Shuren	proper noun	人	Person	文学	Literature	中国	China	\N	\N	The real name of author Lu Xun 鲁迅 (CC-CEDICT '周樹人')	6001084
+6001085	乔治城	喬治城	qiáozhìchéng	Georgetown	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	The spelling 乔治敦 is more common (CC-CEDICT '喬治城')	6001085
+6001086	国安局	國安局	guóānjú	National Security Bureau (NSB)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation for 国家安全局 (CC-CEDICT '國安局')	6001086
+6001087	土地利用规划	土地利用規劃	tǔdì lìyòng guīhuà	Land Use Plan	proper noun	\N	\N	政府	Government	中国	China	\N	\N	An official P.R.C. government term (CC-CEDICT '土地利用規劃')	6001087
+6001088	城运会	城運會	chéngyùnhuì	National Intercity Games	proper noun	\N	\N	体育	Sport	中国	China	\N	\N	Abbreviation for 城市运动会 (CC-CEDICT '城運會')	6001088
+6001089	基奈	\N	jīnài	Kenai	proper noun	湖	Lake	地方	Places	美国	United States	\N	\N	Peninsula, Lake, and Mountains in Alaska; Taiwanese usage (CC-CEDICT '基奈')	6001089
