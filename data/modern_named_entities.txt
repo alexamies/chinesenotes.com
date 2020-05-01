@@ -1076,4 +1076,9 @@
 6001076	一卡通	\N	yīkǎtōng	Yikatong (Beijing public transport smart card)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '一卡通')	6001076
 6001077	中新社	\N	zhōngxīnshè	China News Service (CNS)	proper noun	公司	Company	媒体	Media	中国	China	\N	\N	Abbreviation for 中国新闻社 (CC-CEDICT '中新社')	6001077
 6001078	伊利湖	\N	yīlìhú	Lake Erie	proper noun	湖	Lake	地方	Places	美国	United States	\N	\N	One of the Great Lakes 五大湖 (CC-CEDICT '伊利湖')	6001078
-6001079	何应钦	何應欽	hé yīngqīn	He Yingqin	proper noun	人	Person	历史	History	中国	China	\N	\N	1890-1987; senior Guomindang general (CC-CEDICT '何應欽')	6001079
+6001079	何应钦	何應欽	hé yīngqīn	He Yingqin	proper noun	人	Person	历史	History	中国	China	\N	\N	1890-1987; Senior Guomindang general (CC-CEDICT '何應欽')	6001079
+6001080	全运会	全運會	quányùnhuì	National Games	proper noun	\N	\N	体育	Sport	中国	China	\N	\N	Abbreviation for 全国运动会 (CC-CEDICT '全運會')	6001080
+6001081	刘剑峰	劉劍峰	liújiànfēng	Liu Jianfeng	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1936-; second governor of Hainan (CC-CEDICT '劉劍峰')	6001081
+6001082	刘慈欣	劉慈欣	liú cíxīn	Liu Cixin	proper noun	人	Person	文学	Literature	中国	China	\N	\N	1963-; Chinese science fiction writer (CC-CEDICT '劉慈欣')	6001082
+6001083	周传瑛	周傳瑛	zhōu chuányīng	Zhou Chuanying	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1912-1988; Kunqu 昆曲 opera actor (CC-CEDICT '周傳瑛')	6001083
+6001084	周树人	周樹人	zhōu shùrén	Zhou Shuren	proper noun	人	Person	文学	Literature	中国	China	\N	\N	The real name of author Lu Xun 鲁迅 (CC-CEDICT '周樹人')	6001084
