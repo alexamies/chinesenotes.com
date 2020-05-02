@@ -1102,3 +1102,16 @@
 6001102	汪啸风	汪嘯風	wāng xiàofēng	Wang Xiaofeng	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1944-; Fourth governor of Hainan (CC-CEDICT '汪嘯風')	6001102
 6001103	波德申	\N	bōdéshēn	Port Dickson	proper noun	地名	Place Name	地方	Places	亚洲	Asia	\N	\N	A holiday destination in Malaysia (CC-CEDICT '波德申')	6001103
 6001104	涅瓦	\N	nièwǎ	the Nyeva / Neva river	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Through St Petersburg (CC-CEDICT '涅瓦')	6001104
+6001105	猎杀红色十月号	獵殺紅色十月號	lièshā hóngsè shíyuè hào	The Hunt for Red October	proper noun	书名	Book Title	文学	Literature	\N	\N	\N	\N	A novel by Tom Clancy (CC-CEDICT '獵殺紅色十月號')	6001105
+6001106	皮尔森	皮爾森	píěrsēn	Pearson	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	A family name as well as various places (CC-CEDICT '皮爾森')	6001106
+6001107	王心凌	\N	wángxīnlíng	Wang Xinling	proper noun	人	Person	媒体	Media	中国	China	\N	\N	Stage name of Cyndi Wang; see 王君如 (CC-CEDICT '王心凌')	6001107
+6001108	王军霞	王軍霞	wáng jūnxiá	Wang Junxia	proper noun	人	Person	体育	Sport	中国	China	\N	\N	1973-; Chinese long-distance runner (CC-CEDICT '王軍霞')	6001108
+6001109	百花奖	百花獎	bǎi huājiǎng	Hundred flowers film prize	proper noun	\N	\N	戏剧	Drama	\N	\N	\N	\N	Awarded since 1962 (CC-CEDICT '百花獎')	6001109
+6001110	米罗	米羅	mǐluó	Joan Miró	proper noun	人	Person	艺术	Art	欧洲	Europe	\N	\N	1893-1983; Spanish surrealist painter (CC-CEDICT '米羅')	6001110
+6001111	红五星旗	紅五星旗	hóng wǔxīng qí	Five-Starred Red Flag	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Name of the flag of the People's Republic of China (CC-CEDICT '紅五星旗'; Wikipedia '中华人民共和国国旗')	6001111
+6001112	罗一秀	羅一秀	luó yīxiù	Luo Yixiu	proper noun	人	Person	历史	History	中国	China	\N	\N	1889-1910; Mao Zedong's first wife (CC-CEDICT '羅一秀')	6001112
+6001113	红星照耀中国	紅星照耀中國	hóngxīng zhàoyào zhōngguó	Red Star Over China	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	Book by Edgar Snow (Wikipedia '红星照耀中国')	6001113
+6001114	西行漫记	西行漫記	xīxíngmànjì	Red Star Over China	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	(Wikipedia '红星照耀中国')	6001114
+6001115	叶挺	葉挺	yètǐng	Ye Ting	proper noun	人	Person	历史	History	中国	China	\N	\N	1896-1946; communist military leader (CC-CEDICT '葉挺')	6001115
+6001116	卫留成	衛留成	wèi liúchéng	Wei Liucheng	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	1946-; fifth governor of Hainan (CC-CEDICT '衛留成')	6001116
+6001117	谢辛	謝辛	xièxīn	Chea Sim	proper noun	人	Person	政治	Politics	亚洲	Asia	\N	\N	President of Cambodian National Assembly (CC-CEDICT '謝辛')	6001117
