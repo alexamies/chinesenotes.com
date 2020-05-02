@@ -1087,3 +1087,8 @@
 6001087	土地利用规划	土地利用規劃	tǔdì lìyòng guīhuà	Land Use Plan	proper noun	\N	\N	政府	Government	中国	China	\N	\N	An official P.R.C. government term (CC-CEDICT '土地利用規劃')	6001087
 6001088	城运会	城運會	chéngyùnhuì	National Intercity Games	proper noun	\N	\N	体育	Sport	中国	China	\N	\N	Abbreviation for 城市运动会 (CC-CEDICT '城運會')	6001088
 6001089	基奈	\N	jīnài	Kenai	proper noun	湖	Lake	地方	Places	美国	United States	\N	\N	Peninsula, Lake, and Mountains in Alaska; Taiwanese usage (CC-CEDICT '基奈')	6001089
+6001090	瑞德西韦	瑞德西韋	ruìdéxīwéi	Remdesivir	proper noun	药品	Medication	商务	Commerce	\N	\N	\N	\N	Developed by Gilead Sciences (Wikipedia '瑞德西韦')	6001090
+6001091	宋祖英	\N	sòngzǔyīng	Song Zuying	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1966-; Chinese folk music singer (CC-CEDICT '宋祖英')	6001091
+6001092	崔健	\N	cuījiàn	Cui Jian	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1961-; father of Chinese rock music (CC-CEDICT '崔健')	6001092
+6001093	帕累托	\N	pàlèituō	Vilfredo Pareto	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1848-1923; Italian economist (CC-CEDICT '帕累托')	6001093
+6001094	忽鲁谟斯	忽魯謨斯	hūlǔmósī	Hormuz	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Now called 霍尔木兹 (CC-CEDICT '忽魯謨斯')	6001094
