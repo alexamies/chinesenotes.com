@@ -134,7 +134,7 @@
 6000134	赤道几内亚	赤道幾內亞	chìdàojīnèiyà	Equatorial Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 128; XHZD, p. 702)	6000134
 6000135	多米尼加共和国	多米尼加共和國	duōmǐníjiā Gònghéguó	Dominican Republic	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 196)	6000135
 6000136	厄瓜多尔	厄瓜多爾	èguāduōěr	Ecuador	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 207; XHZD, p. 707)	6000136
-6000137	萨马兰奇	薩馬蘭奇	Sàmǎlánqí	Juan Antonio Samaranch	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	1920-; Spanish olympic official, President of International Olympic Committee 1980-2001 (Wikipedia '胡安·安东尼奥·萨马兰奇')	6000137
+6000137	萨马兰奇	薩馬蘭奇	Sàmǎlánqí	Juan Antonio Samaranch	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	1920-; Spanish olympic official, President of International Olympic Committee 1980-2001 (Wikipedia '胡安·安东尼奥·萨马兰奇')	6000137
 6000138	法属波利尼西亚	法屬波利尼西亞	fǎshǔ pōlìníxīyà	French Polynesia	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The largest island in French Polynesia is Tahiti 大溪地 (SDC, p. 173; XHZD, p. 705)	6000138
 6000139	菲律宾	菲律賓	fēilǜbīn	Philippines	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(MPRC; SDC, p. 24; XHZD, p. 698)	6000139
 6000140	斐济	斐濟	fěijǐ	Fiji	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The Republic of Fiji (SDC, p. 175; XHZD, p. 704)	6000140
@@ -1092,3 +1092,13 @@
 6001092	崔健	\N	cuījiàn	Cui Jian	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1961-; father of Chinese rock music (CC-CEDICT '崔健')	6001092
 6001093	帕累托	\N	pàlèituō	Vilfredo Pareto	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1848-1923; Italian economist (CC-CEDICT '帕累托')	6001093
 6001094	忽鲁谟斯	忽魯謨斯	hūlǔmósī	Hormuz	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Now called 霍尔木兹 (CC-CEDICT '忽魯謨斯')	6001094
+6001095	捷兔	\N	jiétù	Hash House Harriers (international running club)	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	(CC-CEDICT '捷兔')	6001095
+6001096	探路者	\N	tànlùzhě	Pathfinder	proper noun	\N	\N	府	Government	美国	United States	\N	\N	NASA spacecraft sent to Mars in 1977 (CC-CEDICT '探路者')	6001096
+6001097	李嘉诚	李嘉誠	lǐ jiāchéng	Sir Li Ka-shing	proper noun	人	Person	商务	Commerce	中国	China	\N	\N	1928-; Hong Kong businessman (CC-CEDICT '李嘉誠')	6001097
+6001098	东协	東協	dōngxié	ASEAN (Association of Southeast Asian Nations)	proper noun	\N	\N	政府	Government	亚洲	Asia	\N	\N	abbr. for 东南亚国协 (CC-CEDICT '東協')	6001098
+6001099	梵帝冈	梵帝岡	fàndìgāng	the Vatican	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Variant of 梵蒂冈 (CC-CEDICT '梵帝岡')	6001099
+6001100	杨开慧	楊開慧	yáng kāihuì	Yang Kaihui	proper noun	人	Person	历史	History	中国	China	\N	\N	1901-1930; Mao Zedong's second wife (CC-CEDICT '楊開慧')	6001100
+6001101	比尔博	比爾博	bìěrbó	Bilbo	proper noun	\N	\N	文学	Literature	英国	England	\N	\N	Bilbo Baggins, hero of Tolkien's The Hobbit 霍比特人 (CC-CEDICT '比爾博')	6001101
+6001102	汪啸风	汪嘯風	wāng xiàofēng	Wang Xiaofeng	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1944-; Fourth governor of Hainan (CC-CEDICT '汪嘯風')	6001102
+6001103	波德申	\N	bōdéshēn	Port Dickson	proper noun	地名	Place Name	地方	Places	亚洲	Asia	\N	\N	A holiday destination in Malaysia (CC-CEDICT '波德申')	6001103
+6001104	涅瓦	\N	nièwǎ	the Nyeva / Neva river	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Through St Petersburg (CC-CEDICT '涅瓦')	6001104
