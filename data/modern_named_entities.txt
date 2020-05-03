@@ -1126,3 +1126,9 @@
 6001126	音集协	音集協	yīnjíxié	China Audio-Video Copyright Association (CAVCA)	proper noun	\N	\N	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '音集協')	6001126
 6001127	马南邨	馬南邨	mǎnáncūn	Ma Nancun	proper noun	人	Person	历史	History	中国	China	\N	\N	1912-1966; pen name of Deng Tuo 邓拓 (CC-CEDICT '馬南邨'; Wikipedia '邓拓')	6001127
 6001128	驯悍记	馴悍記	xùnhànjì	Taming of the Shrew	proper noun	\N	\N	文学	Literature	英国	England	\N	\N	Play by William Shakespeare (CC-CEDICT '馴悍記')	6001128
+6001129	世银	世銀	shìyín	World Bank	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	Abbreviation for 世界银行[ (CC-CEDICT '世銀')	6001129
+6001130	参卡尔	參卡爾	cānKǎ'ěr	Ivan Cankar	proper noun	人	Person	文学	Literature	欧洲	Europe	\N	\N	1876-1918; Slovenian modernist writer (CC-CEDICT '參卡爾')	6001130
+6001131	反袁斗争	反袁鬥爭	fǎn yuán dòuzhēng	War against Yuan Shikai	proper noun 	\N	\N	历史	History	中国	China	\N	\N	Of 1915 (CC-CEDICT '反袁鬥爭')	6001131
+6001132	吉迪恩	\N	jídíēn	Gideon	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	Also written 基甸 (CC-CEDICT '吉迪恩')	6001132
+6001133	周华健	周華健	zhōuhuájiàn	Wakin Chau	proper noun	人	Person	音乐	Music	\N	\N	\N	\N	1960-; HK-born Taiwanese singer and actor (CC-CEDICT '周華健')	6001133
+6001134	基甸	\N	jīdiàn	Gideon	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	Also written 吉迪恩 (CC-CEDICT '基甸')	6001134
