@@ -1132,3 +1132,6 @@
 6001132	吉迪恩	\N	jídíēn	Gideon	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	Also written 基甸 (CC-CEDICT '吉迪恩')	6001132
 6001133	周华健	周華健	zhōuhuájiàn	Wakin Chau	proper noun	人	Person	音乐	Music	\N	\N	\N	\N	1960-; HK-born Taiwanese singer and actor (CC-CEDICT '周華健')	6001133
 6001134	基甸	\N	jīdiàn	Gideon	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	Also written 吉迪恩 (CC-CEDICT '基甸')	6001134
+6001135	奥塞罗	奧塞羅	àosāiluó	Othello	proper noun	\N	\N	文学	Literature	英国	England	\N	\N	1604 tragedy by William Shakespeare 莎士比亚 (CC-CEDICT '奧塞羅')	6001135
+6001136	季羡林	季羨林	jìxiànlín	Ji Xianlin	proper noun	人	Person	机科学	Science	中国	China	\N	\N	1911-2009; Chinese linguist and Indologist (CC-CEDICT '季羨林')	6001136
+6001137	张国荣	張國榮	zhāngguóróng	Leslie Cheung	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1956-2003; Hong Kong singer and actor (CC-CEDICT '張國榮')	6001137
