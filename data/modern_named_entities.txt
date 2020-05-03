@@ -1087,7 +1087,7 @@
 6001087	土地利用规划	土地利用規劃	tǔdì lìyòng guīhuà	Land Use Plan	proper noun	\N	\N	政府	Government	中国	China	\N	\N	An official P.R.C. government term (CC-CEDICT '土地利用規劃')	6001087
 6001088	城运会	城運會	chéngyùnhuì	National Intercity Games	proper noun	\N	\N	体育	Sport	中国	China	\N	\N	Abbreviation for 城市运动会 (CC-CEDICT '城運會')	6001088
 6001089	基奈	\N	jīnài	Kenai	proper noun	湖	Lake	地方	Places	美国	United States	\N	\N	Peninsula, Lake, and Mountains in Alaska; Taiwanese usage (CC-CEDICT '基奈')	6001089
-6001090	瑞德西韦	瑞德西韋	ruìdéxīwéi	Remdesivir	proper noun	药品	Medication	商务	Commerce	\N	\N	\N	\N	Developed by Gilead Sciences (Wikipedia '瑞德西韦')	6001090
+6001090	瑞德西韦	瑞德西韋	ruìdéxīwéi	Remdesivir	proper noun	药品	Medication	商务	Commerce	\N	\N	\N	\N	An antiviral drug developed by Gilead Sciences (Wikipedia '瑞德西韦')	6001090
 6001091	宋祖英	\N	sòngzǔyīng	Song Zuying	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1966-; Chinese folk music singer (CC-CEDICT '宋祖英')	6001091
 6001092	崔健	\N	cuījiàn	Cui Jian	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1961-; father of Chinese rock music (CC-CEDICT '崔健')	6001092
 6001093	帕累托	\N	pàlèituō	Vilfredo Pareto	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1848-1923; Italian economist (CC-CEDICT '帕累托')	6001093
@@ -1115,3 +1115,14 @@
 6001115	叶挺	葉挺	yètǐng	Ye Ting	proper noun	人	Person	历史	History	中国	China	\N	\N	1896-1946; communist military leader (CC-CEDICT '葉挺')	6001115
 6001116	卫留成	衛留成	wèi liúchéng	Wei Liucheng	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	1946-; fifth governor of Hainan (CC-CEDICT '衛留成')	6001116
 6001117	谢辛	謝辛	xièxīn	Chea Sim	proper noun	人	Person	政治	Politics	亚洲	Asia	\N	\N	President of Cambodian National Assembly (CC-CEDICT '謝辛')	6001117
+6001118	贺子珍	賀子珍	hèzǐzhēn	He Zizhen	proper noun	人	Person	历史	History	中国	China	\N	\N	1910-1984; Mao Zedong's third wife (CC-CEDICT '賀子珍')	6001118
+6001119	金元券	\N	jīnyuánquàn	Jiayuanquan	proper noun	\N	\N	历史	History	中国	China	\N	\N	Currency issued by Nationalist Government in 1948 (CC-CEDICT '金元券')	6001119
+6001120	金圆券	金圓券	jīnyuánquàn	Jiayuanquan	noun	\N	\N	历史	History	中国	China	\N	\N	Currency issued by Nationalist Government in 1948 (CC-CEDICT '金圓券')	6001120
+6001121	金正云	金正雲	jīnzhèngyún	Jin Zhenyun	proper noun	人	Person	政治	Politics	亚洲	Asia	\N	\N	Erroneous form of Kim Jong-un 金正恩 (CC-CEDICT '金正雲')	6001121
+6001122	阮崇武	\N	ruǎn chóngwǔ	Ruan Chongwu	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1933-; Third governor of Hainan (CC-CEDICT '阮崇武')	6001122
+6001123	阿昔洛韦	阿昔洛韋	āxīluòwéi	Aciclovir / Acyclovir	proper noun	药品	Medication	商务	Commerce	\N	\N	\N	\N	An antiviral drug (CC-CEDICT '阿昔洛韋'; Wikipedia '阿昔洛韦')	6001123
+6001124	陈冠希	陳冠希	chén guānxī	Edison Chen	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1980-; Hong Kong singer and actor (CC-CEDICT '陳冠希')	6001124
+6001125	陈景润	陳景潤	chén jǐngrùn	Chen Jingrun	proper noun	人	Person	机科学	Science	中国	China	\N	\N	1933-1996; Chinese number theorist (CC-CEDICT '陳景潤')	6001125
+6001126	音集协	音集協	yīnjíxié	China Audio-Video Copyright Association (CAVCA)	proper noun	\N	\N	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '音集協')	6001126
+6001127	马南邨	馬南邨	mǎnáncūn	Ma Nancun	proper noun	人	Person	历史	History	中国	China	\N	\N	1912-1966; pen name of Deng Tuo 邓拓 (CC-CEDICT '馬南邨'; Wikipedia '邓拓')	6001127
+6001128	驯悍记	馴悍記	xùnhànjì	Taming of the Shrew	proper noun	\N	\N	文学	Literature	英国	England	\N	\N	Play by William Shakespeare (CC-CEDICT '馴悍記')	6001128
