@@ -17,7 +17,7 @@
 6000017	中国移动	中國移動	zhōngguó yídòng	China Mobile	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '中国移动')	6000017
 6000018	苹果公司	蘋果公司	Píngguǒ Gōngsī	Apple Inc.	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '蘋果公司')	6000018
 6000019	阿里巴巴	\N	Ālǐbābā	Alibaba Group	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	A Chinese software company (Wikipedia '阿里巴巴集团')	6278
-6000020	奔驰	奔馳	bēnchí	Mercedes-Benz	proper noun	公司	Company	商务	Commerce	交通	Transportation	\N	\N	(CC-CEDICT '奔馳'; Wikipedia '梅賽德斯-賓士')	13999
+6000020	奔驰	奔馳	bēnchí	Mercedes-Benz	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '奔馳'; Wikipedia '梅賽德斯-賓士')	13999
 6000021	三鹿	\N	Sān Lù	San Lu	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	The principal dairy company involved in the PRC melamine scandal of 2008 (Wikipedia '三鹿集团')	6000021
 6000022	三元	\N	sān yuán	San Yuan	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '三元集团')	17375
 6000023	保时捷	保時捷	bǎoshíjié	Porsche	proper noun	公司	Company	商务	Commerce	德国	Germany	\N	\N	(Wikipedia '保时捷')	6000023
@@ -1135,3 +1135,12 @@
 6001135	奥塞罗	奧塞羅	àosāiluó	Othello	proper noun	\N	\N	文学	Literature	英国	England	\N	\N	1604 tragedy by William Shakespeare 莎士比亚 (CC-CEDICT '奧塞羅')	6001135
 6001136	季羡林	季羨林	jìxiànlín	Ji Xianlin	proper noun	人	Person	机科学	Science	中国	China	\N	\N	1911-2009; Chinese linguist and Indologist (CC-CEDICT '季羨林')	6001136
 6001137	张国荣	張國榮	zhāngguóróng	Leslie Cheung	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1956-2003; Hong Kong singer and actor (CC-CEDICT '張國榮')	6001137
+6001138	新民主主义革命	新民主主義革命	xīnmín zhǔ zhǔyì gémìng	(Maoism) New Democracy (aka New Democratic Revolution)	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '新民主主義革命')	6001138
+6001139	林来疯	林來瘋	línláifēng	Linsanity / craze over Jeremy Lin	proper noun	\N	\N	媒体	Media	中国	China	\N	\N	See Jeremy Lin 林书豪 (CC-CEDICT '林來瘋')	6001139
+6001140	梅派	\N	méipài	Mei Lanfang School	proper noun	\N	\N	音乐	Music	中国	China	\N	\N	See 梅兰芳 (CC-CEDICT '梅派')	6001140
+6001141	杨澄中	楊澄中	yáng chéngzhōng	Yang Chengzhong	proper noun	人	Person	机科学	Science	中国	China	\N	\N	1913-1987; Chinese nuclear physicist (CC-CEDICT '楊澄中')	6001141
+6001142	洪森	\N	hóngsēn	Hun Sen	proper noun	人	Person	政治	Politics	亚洲	Asia	\N	\N	1952-; prime minister of Cambodia since 1985 (CC-CEDICT '洪森')	6001142
+6001143	乌节路	烏節路	wūjiélù	Orchard Road	proper noun	地名	Place Name	地方	Places	亚洲	Asia	\N	\N	In Singapore, shopping and tourist area (CC-CEDICT '烏節路')	6001143
+6001144	白冰冰	\N	báibīngbīng	Pai Ping-ping	proper noun	人	Person	音乐	Music	\N	\N	\N	\N	A well-known Taiwan performing artist (CC-CEDICT '白冰冰')	6001144
+6001145	空客	\N	kōngkè	Airbus	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	Abbreviation for 空中客车 (CC-CEDICT '空客')	6001145
+6001146	茹志鹃	茹誌鵑	rú zhìjuān	Ru Zhijuan	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1925-1998; female novelist and politician (CC-CEDICT '茹誌鵑')	6001146
