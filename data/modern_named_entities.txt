@@ -1144,3 +1144,5 @@
 6001144	白冰冰	\N	báibīngbīng	Pai Ping-ping	proper noun	人	Person	音乐	Music	\N	\N	\N	\N	A well-known Taiwan performing artist (CC-CEDICT '白冰冰')	6001144
 6001145	空客	\N	kōngkè	Airbus	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	Abbreviation for 空中客车 (CC-CEDICT '空客')	6001145
 6001146	茹志鹃	茹誌鵑	rú zhìjuān	Ru Zhijuan	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1925-1998; female novelist and politician (CC-CEDICT '茹誌鵑')	6001146
+6001147	诺奖	諾獎	nuòjiǎng	Nobel Prize	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for  诺贝尔奖 (CC-CEDICT '諾獎')	6001147
+6001148	足协杯	足協杯	zúxiébēi	Chinese Football Association Cup	proper noun	\N	\N	体育	Sport	中国	China	\N	\N	(CC-CEDICT '足協杯')	6001148
