@@ -1146,3 +1146,10 @@
 6001146	茹志鹃	茹誌鵑	rú zhìjuān	Ru Zhijuan	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1925-1998; female novelist and politician (CC-CEDICT '茹誌鵑')	6001146
 6001147	诺奖	諾獎	nuòjiǎng	Nobel Prize	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for  诺贝尔奖 (CC-CEDICT '諾獎')	6001147
 6001148	足协杯	足協杯	zúxiébēi	Chinese Football Association Cup	proper noun	\N	\N	体育	Sport	中国	China	\N	\N	(CC-CEDICT '足協杯')	6001148
+6001149	金正银	金正銀	jīn zhèngyín	Jin Zhengyin	proper noun	人	Person	政治	Politics	亚洲	Asia	\N	\N	Former spelling of Kim Jong-un 金正恩 (CC-CEDICT '金正銀')	6001149
+6001150	钱其琛	錢其琛	qián qíchēn	Qian Qichen	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1928-2017; former Chinese vice premier (CC-CEDICT '錢其琛')	6001150
+6001151	陈德良	陳德良	chén déliáng	Tran Duc Luong	proper noun	人	Person	政治	Politics	亚洲	Asia	\N	\N	1937-; former president of Vietnam (CC-CEDICT '陳德良')	6001151
+6001152	高畑勋	高畑勛	gāo tiánxūn	Isao Takahata	proper noun	人	Person	戏剧	Drama	日本	Japan	\N	\N	1935-2018; co-founder of Studio Ghibli (CC-CEDICT '高畑勛')	6001152
+6001153	鲁汶	魯汶	lǔWèn	Leuven	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Town in Belgium famous for its university (CC-CEDICT '魯汶')	6001153
+6001154	黄富平	黃富平	huáng fùpíng	Huang Fuping	noun	人	Person	历史	History	中国	China	\N	\N	Pen name of Deng Xiaoping during his 1992 southern tour (CC-CEDICT '黃富平')	6001154
+6001155	八达通	八達通	bādátōng	Octopus card	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	Hong Kong smart card for electronic payments (CC-CEDICT '八達通')	6001155
