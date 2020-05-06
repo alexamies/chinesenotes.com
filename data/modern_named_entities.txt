@@ -1160,4 +1160,5 @@
 6001160	妇女主任	婦女主任	fùnǚ zhǔrèn	director of the local committee of the Women's Federation	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '婦女主任')	6001160
 6001161	宋美龄	宋美齡	sòng měilíng	Soong Mei-ling	proper noun	人	Person	历史	History	中国	China	\N	\N	1898-2003; Chiang Kai-shek's second wife (CC-CEDICT '宋美齡')	6001161
 6001162	广交会	廣交會	guǎngjiāohuì	China Export Commodities Fair	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	Also known as the Canton Fair (CC-CEDICT '廣交會')	6001162
-6001163	德乌帕	德烏帕	déwūpà	Sher Bahadur Deuba	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1946-; former prime minister of Nepal (CC-CEDICT '德烏帕')	6001163
+6001163	德乌帕	德烏帕	déwūpà	Sher Bahadur Deuba	proper noun	人	Person	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	1946-; former prime minister of Nepal (CC-CEDICT '德烏帕')	6001163
+6001164	采珠人	採珠人	cǎizhūrén	The Pearl Fishers	proper noun	\N	\N	戏剧	Drama	\N	\N	\N	\N	1863 opera by Georges Bizet 比才(CC-CEDICT '採珠人')	6001164
