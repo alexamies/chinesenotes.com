@@ -1153,3 +1153,11 @@
 6001153	鲁汶	魯汶	lǔWèn	Leuven	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Town in Belgium famous for its university (CC-CEDICT '魯汶')	6001153
 6001154	黄富平	黃富平	huáng fùpíng	Huang Fuping	noun	人	Person	历史	History	中国	China	\N	\N	Pen name of Deng Xiaoping during his 1992 southern tour (CC-CEDICT '黃富平')	6001154
 6001155	八达通	八達通	bādátōng	Octopus card	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	Hong Kong smart card for electronic payments (CC-CEDICT '八達通')	6001155
+6001156	协约国	協約國	xiéyuēguó	Allies / entente	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	I.e. Western powers allied to China in WW1 (CC-CEDICT '協約國')	6001156
+6001157	夏正民	\N	xià zhèngmín	Justice Michael Hartmann	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	1944-; Hong Kong High Court judge (CC-CEDICT '夏正民')	6001157
+6001158	天后站	\N	tiānhòuzhàn	Tin Hau MTR station	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	Eastern District, Hong Kong Island (CC-CEDICT '天后站')	6001158
+6001159	契卡	\N	qìkǎ	Cheka	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	A Soviet secret police agency, forerunner of the KGB (CC-CEDICT '契卡')	6001159
+6001160	妇女主任	婦女主任	fùnǚ zhǔrèn	director of the local committee of the Women's Federation	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '婦女主任')	6001160
+6001161	宋美龄	宋美齡	sòng měilíng	Soong Mei-ling	proper noun	人	Person	历史	History	中国	China	\N	\N	1898-2003; Chiang Kai-shek's second wife (CC-CEDICT '宋美齡')	6001161
+6001162	广交会	廣交會	guǎngjiāohuì	China Export Commodities Fair	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	Also known as the Canton Fair (CC-CEDICT '廣交會')	6001162
+6001163	德乌帕	德烏帕	déwūpà	Sher Bahadur Deuba	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1946-; former prime minister of Nepal (CC-CEDICT '德烏帕')	6001163
