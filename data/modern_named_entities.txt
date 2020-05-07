@@ -1162,3 +1162,9 @@
 6001162	广交会	廣交會	guǎngjiāohuì	China Export Commodities Fair	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	Also known as the Canton Fair (CC-CEDICT '廣交會')	6001162
 6001163	德乌帕	德烏帕	déwūpà	Sher Bahadur Deuba	proper noun	人	Person	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	1946-; former prime minister of Nepal (CC-CEDICT '德烏帕')	6001163
 6001164	采珠人	採珠人	cǎizhūrén	The Pearl Fishers	proper noun	\N	\N	戏剧	Drama	\N	\N	\N	\N	1863 opera by Georges Bizet 比才(CC-CEDICT '採珠人')	6001164
+6001165	李尔王	李爾王	lǐěrwáng	King Lear	proper noun	\N	\N	文学	Literature	英国	England	\N	\N	1605 tragedy by William Shakespeare 莎士比亚 (CC-CEDICT '李爾王')	6001165
+6001166	晒黑族	曬黑族	shàihēizú	Shaihei	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	Internet-based consumer protection alliance (CC-CEDICT '曬黑族')	6001166
+6001167	李泽楷	李澤楷	lǐ zékǎi	Richard Li	proper noun	人	Person	商务	Commerce	中国	China	\N	\N	1966-; Hong Kong businessman and philanthropist (CC-CEDICT '李澤楷')	6001167
+6001168	朦胧诗	朦朧詩	ménglóngshī	Misty Poetry	proper noun	\N	\N	文学	Literature	中国	China	\N	\N	A post-Cultural Revolution poetry movement (CC-CEDICT '朦朧詩')	6001168
+6001169	樱桃园	櫻桃園	yīngtáoyuán	The Cherry Orchard	proper noun	\N	\N	文学	Literature	欧洲	Europe	\N	\N	A play by Chekhov 契诃夫 (CC-CEDICT '櫻桃園')	6001169
+6001170	残奥	殘奧	cánào	Paralympics	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	Same as Paralympic Games 残奥会 (CC-CEDICT '殘奧')	6001170
