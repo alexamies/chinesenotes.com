@@ -1168,3 +1168,5 @@
 6001168	朦胧诗	朦朧詩	ménglóngshī	Misty Poetry	proper noun	\N	\N	文学	Literature	中国	China	\N	\N	A post-Cultural Revolution poetry movement (CC-CEDICT '朦朧詩')	6001168
 6001169	樱桃园	櫻桃園	yīngtáoyuán	The Cherry Orchard	proper noun	\N	\N	文学	Literature	欧洲	Europe	\N	\N	A play by Chekhov 契诃夫 (CC-CEDICT '櫻桃園')	6001169
 6001170	残奥	殘奧	cánào	Paralympics	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	Same as Paralympic Games 残奥会 (CC-CEDICT '殘奧')	6001170
+6001171	纳尼亚	納尼亞	nàníyà	Narnia	proper noun	书名	Book Title	文学	Literature	英国	England	\N	\N	A children's fantasy world in stories by C.S. Lewis (CC-CEDICT '納尼亞')	6001171
+6001172	习大大	習大大	xídàdà	Papa Xi	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	A nickname for Xi Jinping 习近平 (CC-CEDICT '習大大')	6001172
