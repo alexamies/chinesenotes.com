@@ -1170,3 +1170,22 @@
 6001170	残奥	殘奧	cánào	Paralympics	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	Same as Paralympic Games 残奥会 (CC-CEDICT '殘奧')	6001170
 6001171	纳尼亚	納尼亞	nàníyà	Narnia	proper noun	书名	Book Title	文学	Literature	英国	England	\N	\N	A children's fantasy world in stories by C.S. Lewis (CC-CEDICT '納尼亞')	6001171
 6001172	习大大	習大大	xídàdà	Papa Xi	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	A nickname for Xi Jinping 习近平 (CC-CEDICT '習大大')	6001172
+6001173	台股	\N	táigǔ	Taipei Stock Exchange	proper noun	\N	\N	商务	Commerce	\N	\N	\N	\N	Abbreviation for 臺北股市 (CC-CEDICT '台股')	6001173
+6001174	噗浪	\N	pūlàng	Plurk	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Taiwanese social networking and microblogging service (CC-CEDICT '噗浪')	6001174
+6001175	中华书局	中華書局	Zhōnghuá shūjú	Zhonghua Book Company	proper noun	出版社	Publisher	出版	Publishing	中国	China	\N	\N	(Wikipedia '中华书局')	6001175
+6001176	飞利浦	飛利浦	fēilìpǔ	Philips	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	Dutch company (Wikipedia '飛利浦')	6001176
+6001177	学测	學測	xuécè	General Scholastic Ability Test	proper noun	\N	\N	教育	Education	\N	\N	\N	\N	College entrance exam in Taiwan; abbreviation for 大學學科能力測驗 (CC-CEDICT '學測')	6001177
+6001178	孟山都	\N	Mèngshāndōu	Monsanto	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '孟山都')	6001178
+6001179	彭麻麻	\N	péng mámá	Mommy Peng	proper noun	人	Person	政治	Politics	中国	China	\N	\N	Nickname for Peng Liyuan 彭丽媛 (CC-CEDICT '彭麻麻')	6001179
+6001180	高露洁	高露潔	gāolùJié	Colgate	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(Sun 2006, loc. 1585)	6001180
+6001181	七喜	\N	qīxǐ	7up	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(Sun 2006, loc. 1585)	6001181
+6001182	意甲	\N	yìjiǎ	Italy Series A	proper noun	\N	\N	体育	Sport	欧洲	Europe	\N	\N	The top division of the Italian football league system (CC-CEDICT '意甲')	6001182
+6001183	百事可乐	百事可樂	bǎishìkělè	Pepsi Cola	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Sun 2006, loc. 1585)	6001183
+6001184	柯林顿	柯林頓	kēlíndùn	Clinton	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	See 克林顿 (Sun 2006, loc. 1595)	6001184
+6001185	南西	\N	nánxī	Nancy	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(Sun 2006, loc. 1595)	6001185
+6001186	文汇报	文彙報	wénhuìbào	Wen Wei Po (Hong Kong newspaper)	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '文彙報')	6001186
+6001187	文汇报	文彙報	wénhuìbào	Wen Wei Po Wenhui News (Shanghai newspaper)	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '文彙報')	6001186
+6001188	英伟达	英偉達	yīngwěidá	NVIDIA	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Chip manufacturer (CC-CEDICT '英偉達'; Wikipedia '英伟达')	6001188
+6001189	通用汽车	通用汽車	tōngyòng qìchē	General Motors	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '通用汽車'; Wikipedia '通用汽车')	6001189
+6001190	通用电气	通用電氣	tōngyòng diànqì	General Electric	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '通用電氣'; Wikipedia '通用电气')	6001190
+6001191	宝洁公司	寶潔公司	bǎo jié gōngsī	Procter & Gamble	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	See 宝洁 (Wikipedia '宝洁')	6001191
