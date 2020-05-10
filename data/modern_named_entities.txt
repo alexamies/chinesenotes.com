@@ -1189,3 +1189,16 @@
 6001189	通用汽车	通用汽車	tōngyòng qìchē	General Motors	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '通用汽車'; Wikipedia '通用汽车')	6001189
 6001190	通用电气	通用電氣	tōngyòng diànqì	General Electric	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '通用電氣'; Wikipedia '通用电气')	6001190
 6001191	宝洁公司	寶潔公司	bǎo jié gōngsī	Procter & Gamble	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	See 宝洁 (Wikipedia '宝洁')	6001191
+6001192	西门子	西門子	Xīménzǐ	Siemens	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	See 西门子公司 (Wikipedia '西门子公司')	6001192
+6001193	西门子公司	西門子公司	Xīménzǐgōngsī	Siemens	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '西門子公司'; Wikipedia '西门子公司')	6001193
+6001194	米其林	\N	mǐqílín	Michelin	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '米其林'; Wikipedia '米其林')	6001194
+6001195	三菱重工业	三菱重工業	sānlíng zhònggōngyè	Mitsubishi Heavy Industries	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(Wikipedia '三菱重工业')	6001195
+6001196	丰田汽车	豐田汽車	fēngtián qìchē	Toyota Motor Corporation	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(Wikipedia '丰田汽车')	6001196
+6001197	科比	\N	kēbì	Kobe Bryant	proper noun	人	Person	体育	Sport	美国	United States	\N	\N	Abbreviation for 科比·布莱恩特 (CC-CEDICT '科比')	6001197
+6001198	纽交所	紐交所	niǔjiāosuǒ	New York Stock Exchange (NYSE)	proper noun	交易所	Stock Exchange	商务	Commerce	美国	United States	\N	\N	Abbreviation for 纽约证券交易所 (CC-CEDICT '紐交所')	6001198
+6001199	中国电视	中國電視	zhōngguó diànshì	China Television	proper noun	公司	Company	媒体	Media	中国	China	\N	\N	Taiwanese broadcaster (Wikipedia '中國電視公司')	6001199
+6001200	中国国际金融	中國國際金融	zhōngguó guójì jīnróng	China International Capital	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '中国国际金融股份')	6001200
+6001201	日本航空	\N	rìběn hángkōng	Japan Airlines (JAL)	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '日本航空')	6001201
+6001202	联经出版事业公司	聯經出版事業公司	lián jīng chūbǎn shìyè gōngsī	Linking Publishing Company	proper noun	出版者	Publisher	商务	Commerce	出版	Publishing	\N	\N	Based on Taiwan (Wikipedia '聯經出版')	6001202
+6001203	联经出版	聯經出版	lián jīng chūbǎn	Linking Publishing Company	proper noun	出版者	Publisher	商务	Commerce	出版	Publishing	\N	\N	See 联经出版事业公司	6001203
+6001204	若翰	\N	ruòhàn	John	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	Less common form of 若望 or 约翰) (CC-CEDICT '若翰')	6001204
