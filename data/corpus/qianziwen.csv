@@ -1,0 +1,4 @@
+# Thousand Character Classic 《千字文》
+# Paths are relative to the web directory
+# Input file, output file, title
+qianziwen/qianziwen001.txt	qianziwen/qianziwen001.html	Full text
