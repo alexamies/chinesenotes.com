@@ -1202,3 +1202,7 @@
 6001202	联经出版事业公司	聯經出版事業公司	lián jīng chūbǎn shìyè gōngsī	Linking Publishing Company	proper noun	出版者	Publisher	商务	Commerce	出版	Publishing	\N	\N	Based on Taiwan (Wikipedia '聯經出版')	6001202
 6001203	联经出版	聯經出版	lián jīng chūbǎn	Linking Publishing Company	proper noun	出版者	Publisher	商务	Commerce	出版	Publishing	\N	\N	See 联经出版事业公司	6001203
 6001204	若翰	\N	ruòhàn	John	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	Less common form of 若望 or 约翰) (CC-CEDICT '若翰')	6001204
+6001205	西甲	\N	xījiǎ	La Liga	proper noun	\N	\N	体育	Sport	欧洲	Europe	\N	\N	The top division of the Spanish football league system (CC-CEDICT '西甲')	6001205
+6001206	宏碁集团	宏碁集團	hóngqí jítuán	Acer	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Taiwanese PC company (CC-CEDICT '宏碁集團')	6001206
+6001207	劳力士	勞力士	láolìshì	Rolex	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	Swiss wristwatch brand (CC-CEDICT '勞力士'; Wikipedia '勞力士')	6001207
+6001208	福特汽车	福特汽車	fúté qìchē	Ford Motor Company	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '福特汽車')	6001208
