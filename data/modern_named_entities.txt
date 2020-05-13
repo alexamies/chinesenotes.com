@@ -1206,3 +1206,9 @@
 6001206	宏碁集团	宏碁集團	hóngqí jítuán	Acer	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Taiwanese PC company (CC-CEDICT '宏碁集團')	6001206
 6001207	劳力士	勞力士	láolìshì	Rolex	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	Swiss wristwatch brand (CC-CEDICT '勞力士'; Wikipedia '勞力士')	6001207
 6001208	福特汽车	福特汽車	fúté qìchē	Ford Motor Company	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '福特汽車')	6001208
+6001209	阿扁	\N	ābiǎn	A-bian	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	Nickname of Chen Shui-bian 陳水扁 (CC-CEDICT '阿扁')	6001209
+6001210	法拉利	\N	fǎlālì	Ferrari	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '法拉利')	6001210
+6001211	中远集团	中遠集團	zhōngyuǎn jítuán	COSCO (China Ocean Shipping Company)	proper noun	公司	Company	产业	Industry	交通	Transportation	\N	\N	(CC-CEDICT '中遠集團'; Wikipedia '中遠集團')	6001211
+6001212	中国远洋运输	中國遠洋運輸	Zhōngguó yuǎnyáng yùnshū	COSCO (China Ocean Shipping Company)	proper noun	公司	Company	产业	Industry	交通	Transportation	\N	\N	See 中远集团 (Wikipedia '中远集团')	6001212
+6001213	海尼根	\N	hǎinígēn	Heineken	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	Dutch brewing company; see also 喜力 (CC-CEDICT '海尼根'; Wikipedia '海尼根')	6001213
+6001214	台湾电视公司	臺灣電視公司	Táiwān diànshì gōngsī	Taiwan Television Enterprise, Ltd	proper noun	公司	Company	商务	Commerce	媒体	Media	\N	\N	(Wikipedia '臺灣電視公司')	6001214
