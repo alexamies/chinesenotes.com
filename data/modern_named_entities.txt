@@ -1214,3 +1214,6 @@
 6001214	台湾电视公司	臺灣電視公司	Táiwān diànshì gōngsī	Taiwan Television Enterprise, Ltd	proper noun	公司	Company	商务	Commerce	媒体	Media	\N	\N	(Wikipedia '臺灣電視公司')	6001214
 6001215	人民网	人民網	rénmínwǎng	Peopl'e Daily online	noun	\N	\N	媒体	Media	中国	China	\N	\N	Version of the People's Daily, 人民日报 (CC-CEDICT '人民網')	6001215
 6001216	宏达国际电子	宏達國際電子	hóngdá guójì diànzi	High Tech Computer Corporation (HTC)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(Wikipedia '宏達國際電子')	6001216
+6001217	特朗普集团	特朗普集團	télǎngpǔ jítuán	Trump Organization	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '特朗普集團')	6001217
+6001218	克苏鲁	克蘇魯	kèsūlǔ	Cthulhu	proper noun	\N	\N	文学	Literature	\N	\N	\N	\N	A fictional cosmic entity created by writer H. P. Lovecraft (CC-CEDICT '克蘇魯')	6001218
+6001219	全球通	\N	quánqiútōng	Global System for Mobile Communications (GSM)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Telecommunications (CC-CEDICT '全球通')	6001219
