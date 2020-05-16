@@ -1223,3 +1223,7 @@
 6001223	斯诺	斯諾	sīnuò	Snow	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	As in 埃德加·斯诺 Edgar Snow (CC-CEDICT '斯諾')	6001223
 6001224	京东集团	京東集團	Jīngdōng jítuán	JD Group	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	See 京东 (Baidu Baike '京东')	6001224
 6001225	忍者龟	忍者龜	rěnzhěguī	Teenage Mutant Ninja Turtles	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage; see 忍者神龟 (CC-CEDICT '忍者龜')	6001225
+6001226	新青年	\N	Xīn Qīngnián	Xin Qingnian / New Youth	proper noun	杂志	Magazine	历史	History	中国	China	\N	\N	Influential Chinese magazine in the 1910s and 1920s (Sun 2006, loc. 337; Wikipedia '新青年')	6001226
+6001227	贝尔实验室	貝爾實驗室	bèi'ěr shíyànshì	Bell Laboratories	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '貝爾實驗室'; Guoyu '貝爾實驗室')	6001227
+6001228	暴走鞋	\N	bàozǒuxié	Heelys	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	Brand of roller shoes with wheels protruding slightly from the heel (CC-CEDICT '暴走鞋')	6001228
+6001229	沃达丰	沃達豐	wòdáfēng	Vodafone	proper noun	公司	Company	商务	Commerce	英国	England	\N	\N	(CC-CEDICT '沃達豐')	6001229
