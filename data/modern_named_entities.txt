@@ -1227,3 +1227,7 @@
 6001227	贝尔实验室	貝爾實驗室	bèi'ěr shíyànshì	Bell Laboratories	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '貝爾實驗室'; Guoyu '貝爾實驗室')	6001227
 6001228	暴走鞋	\N	bàozǒuxié	Heelys	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	Brand of roller shoes with wheels protruding slightly from the heel (CC-CEDICT '暴走鞋')	6001228
 6001229	沃达丰	沃達豐	wòdáfēng	Vodafone	proper noun	公司	Company	商务	Commerce	英国	England	\N	\N	(CC-CEDICT '沃達豐')	6001229
+6001230	理查德	\N	lǐchádé	Richard	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '理查德')	6001230
+6001231	美光科技	\N	měiguāng kējì	Micron Technology	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Baidu Baike '美光科技')	6001231
+6001232	赛灵思	賽靈思	sàilíngsī	Xilinx	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Baidu Baike '賽靈思')	6001232
+6001233	孟晚舟	\N	mèng wǎnzhōu	Meng Wanzhou / Cathy Meng	proper noun	人	Person	商务	Commerce	中国	China	\N	\N	CFO of Huawei (Baidu Baike '孟晚舟'; Wikipedia '孟晚舟')	6001233
