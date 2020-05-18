@@ -1231,3 +1231,17 @@
 6001231	美光科技	\N	měiguāng kējì	Micron Technology	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Baidu Baike '美光科技')	6001231
 6001232	赛灵思	賽靈思	sàilíngsī	Xilinx	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Baidu Baike '賽靈思')	6001232
 6001233	孟晚舟	\N	mèng wǎnzhōu	Meng Wanzhou / Cathy Meng	proper noun	人	Person	商务	Commerce	中国	China	\N	\N	CFO of Huawei (Baidu Baike '孟晚舟'; Wikipedia '孟晚舟')	6001233
+6001234	迅销公司	迅銷公司	xùnxiāo gōngsī	Fast Retailing Co., Ltd.	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	See (Wikipedia '迅銷')	6001234
+6001235	东京证券交易所	東京證券交易所	dōngjīng zhèngquàn jiāoyìsuǒ	Tokyo Stock Exchange	proper noun	\N	\N	商务	Commerce	日本	Japan	\N	\N	(Wikipedia '東京證券交易所')	6001235
+6001236	有线电视新闻网国际新闻网络	有線電視新聞網國際新聞網絡	yǒuxiàn diànshì xīnwén wǎng guójì xīnwén wǎngluò	CNN International (CNNI)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '有線電視新聞網國際新聞網絡')	6001236
+6001237	有线电视新闻网	有線電視新聞網	yǒuxiàn diànshì xīnwénwǎng	Cable News Network (CNN)	proper noun	公司	Company	商务	Commerce	媒体	Media	\N	\N	(Wikipedia '有线电视新闻网')	6001237
+6001238	凯悦酒店	凱悅酒店	kǎiyuè jiǔdiàn	Hyatt Hotel	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Hotel chain (Wikipedia '凱悅酒店')	6001238
+6001239	陈纳德	陳納德	chénnàdé	(Claire) Chennault	proper noun	人	Person	历史	History	美国	United States	\N	\N	Commander of Flying Tigers during World War II (CC-CEDICT '陳納德')	6001239
+6001240	青囊经	青囊經	qīngnáng jīng	Qingnang Jing	roper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	A book on medical practice written by 华佗 (CC-CEDICT '青囊經')	6001240
+6001241	标准石油	標準石油	biāozhǔn shíyóu	Standard Oil	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '标准石油')	6001241
+6001242	阿里巴巴集团	阿里巴巴集團	Ālǐbābājítuán	Alibaba Group	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '阿里巴巴集团')	6001242
+6001243	招商局	\N	zhāoshāngjú	China Merchants Steamship Company / China Merchants Steam Navigation Company	proper noun	公司	Company	历史	History	中国	China	\N	\N	Abbreviation for 轮船招商局 (Guoyu '招商局'; Mathews 1931 '招商局', p. 27; Wikipedia '輪船招商局')	6001243
+6001244	轮船招商局	輪船招商局	lúnchuán zhāo shāng jú	China Merchants Steam Navigation Company	proper noun	公司	Company	历史	History	中国	China	\N	\N	Established 1873 (Wikipedia '輪船招商局')	6001244
+6001245	曼哈顿	曼哈頓	Mànhādùn	Manhattan	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '曼哈頓'; Guoyu '曼哈頓')	6001245
+6001246	白宫	白宮	Bái Gōng	White House	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(Wikipedia '白宮')	6001246
+6001247	剑桥	劍橋	jiànqiáo	Cambridge	proper noun	城市	City	地方	Places	英国	England	\N	jian4qiao2.mp3	Located in England and also the place of the same name in Massachusetts, United States (CC-CEDICT '劍橋'; Guoyu '劍橋'; Wikipedia '劍橋')	6001247
