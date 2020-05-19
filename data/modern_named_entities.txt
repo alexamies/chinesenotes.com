@@ -1245,3 +1245,18 @@
 6001245	曼哈顿	曼哈頓	Mànhādùn	Manhattan	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '曼哈頓'; Guoyu '曼哈頓')	6001245
 6001246	白宫	白宮	Bái Gōng	White House	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(Wikipedia '白宮')	6001246
 6001247	剑桥	劍橋	jiànqiáo	Cambridge	proper noun	城市	City	地方	Places	英国	England	\N	jian4qiao2.mp3	Located in England and also the place of the same name in Massachusetts, United States (CC-CEDICT '劍橋'; Guoyu '劍橋'; Wikipedia '劍橋')	6001247
+6001248	美国最高法院	美國最高法院	měiguó zuìgāo fǎyuàn	Supreme Court of the United States	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	(CC-CEDICT '美國最高法院')	6001248
+6001249	佛罗里达州	佛羅里達州	fóluólǐdá zhōu	Florida	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '佛羅里達州')	6001249
+6001250	中情局	\N	Zhōng Qíng Jú	US Central Intelligence Agency (CIA)	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	\N	6001250
+6001251	加利福尼亚	加利福尼亞	jiālìfúníyà	California	proper noun	州	State	地方	Places	美国	United States	\N	\N	See 加利福尼亚州 (Wikipedia '加利福尼亚州')	6001251
+6001252	加利福尼亚州	加利福尼亞州	jiālìfúníyà zhōu	State of California	proper noun	州	State	地方	Places	美国	United States	\N	\N	(Guoyu '加利福尼亞州'; Wikipedia '加利福尼亞州')	6001252
+6001253	诸神之战	諸神之戰	Zhū Shén zhī Zhàn	Clash of the Titans	proper noun	电影	Movie	戏剧	Drama	美国	United States	\N	\N	(Wikipedia '超世紀封神榜')	6001253
+6001254	基辛格	\N	jīxīngé	Kissinger	proper noun	人	Person	历史	History	美国	United States	\N	\N	1923－; Henry Kissinger, US academic and politician, Secretary of State 1973－1977	6001254
+6001255	佛州	\N	Fó Zhōu	Florida	proper noun	州	State	地方	Places	美国	United States	\N	\N	(Wikipedia '佛罗里达州')	6001255
+6001256	世博会	世博會	Shìbóhuì	World Exposition	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 世界博览会, World Expo (CC-CEDICT '世博會')	6001256
+6001257	世维会	世維會	shìwéihuì	World Uighur Congress	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世維會')	6001257
+6001258	中国教育网	中國教育網	zhōngguó jiàoyù wǎng	China Education and Research Network (CERNET)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國教育網')	6001258
+6001259	中国文联	中國文聯	zhōngguó wén lián	China Federation of Literary and Art Circles (CFLAC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國文聯')	6001259
+6001260	中宣部	\N	zhōngxuānbù	Central Propaganda Section	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中宣部')	6001260
+6001261	中科院	\N	zhōngkēyuàn	Chinese Academy of Sciences (CAS)	noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中科院')	6001261
+6001262	中组部	中組部	zhōngzǔbù	Organization Department	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation for 中共中央组织部 (CC-CEDICT '中組部')	6001262
