@@ -1260,3 +1260,8 @@
 6001260	中宣部	\N	zhōngxuānbù	Central Propaganda Section	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中宣部')	6001260
 6001261	中科院	\N	zhōngkēyuàn	Chinese Academy of Sciences (CAS)	noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中科院')	6001261
 6001262	中组部	中組部	zhōngzǔbù	Organization Department	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation for 中共中央组织部 (CC-CEDICT '中組部')	6001262
+6001263	北卡	\N	Běikǎ	North Carolina	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the USA (Wikipedia '北卡罗来纳州')	6001263
+6001264	圣何塞	聖何塞	Shènghésāi	San Jose	proper noun	城市	City	地方	Places	美国	United States	\N	\N	A city in California and cities of the same name elsewhere (Wikipedia '圣何塞')	6001264
+6001265	美国司法部	美國司法部	Měiguó Sīfǎ Bù	United States Department of Justice	proper noun	部门	Department	政府	Government	美国	United States	\N	\N	(Wikipedia '美国司法部')	6001265
+6001266	美国司法部长	美國司法部長	Měiguó Sīfǎ Bùzhǎng	United States Attorney General	proper noun	部长	Head of Department	政府	Government	美国	United States	\N	\N	(Wikipedia '美國司法部長')	6001266
+6001267	克利夫兰	克利夫蘭	Kèlìfūlán	Cleveland	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(Wikipedia '克利夫兰')	6001267
