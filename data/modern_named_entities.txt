@@ -1265,3 +1265,10 @@
 6001265	美国司法部	美國司法部	Měiguó Sīfǎ Bù	United States Department of Justice	proper noun	部门	Department	政府	Government	美国	United States	\N	\N	(Wikipedia '美国司法部')	6001265
 6001266	美国司法部长	美國司法部長	Měiguó Sīfǎ Bùzhǎng	United States Attorney General	proper noun	部长	Head of Department	政府	Government	美国	United States	\N	\N	(Wikipedia '美國司法部長')	6001266
 6001267	克利夫兰	克利夫蘭	Kèlìfūlán	Cleveland	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(Wikipedia '克利夫兰')	6001267
+6001268	价原	價原	jiàyuán	Kagen / Origin of Value	proper noun	\N	\N	现代汉语	Modern Chinese	经济	Economics	\N	\N	By MIURA Baien 三浦梅园, pioneering study of economics comparable to Adam Smith's The Wealth of Nations 国富论 (CC-CEDICT '價原')	6001268
+6001269	俄亥俄	\N	Éhàié	Ohio	proper noun	州	State	地方	Places	美国	United States	\N	\N	(Wikipedia '俄亥俄州')	6001269
+6001270	奥兰多	奧蘭多	Àolánduō	Orlando	proper noun	城市	City	地方	Places	美国	United States	\N	\N	City in Florida (Wikipedia '奥兰多 (佛罗里达州)')	6001270
+6001271	北二外	\N	běièrwài	Bei Er Wai	proper noun	\N	\N	教育	Education	中国	China	\N	\N	Abbreviation for 北京第二外国语学院 (CC-CEDICT '北二外')	6001271
+6001272	北汽	\N	běiqì	Beijing Automobile Works (BAW)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	Abbreviation for 北京汽车制造厂有限公司 (CC-CEDICT '北汽')	6001272
+6001273	佛罗里达	佛羅里達	Fóluólǐdá	Florida	proper noun	州	State	地方	Places	美国	United States	\N	\N	(Wikipedia '佛罗里达州')	6001273
+6001274	台胞证	台胞證	táibāozhèng	Mainland Travel Permit for Taiwan Residents / Taiwan Compatriot Entry Permit	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 台湾居民来往大陆通行证 (CC-CEDICT '台胞證')	6001274
