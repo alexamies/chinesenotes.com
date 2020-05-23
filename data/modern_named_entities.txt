@@ -1272,3 +1272,27 @@
 6001272	北汽	\N	běiqì	Beijing Automobile Works (BAW)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	Abbreviation for 北京汽车制造厂有限公司 (CC-CEDICT '北汽')	6001272
 6001273	佛罗里达	佛羅里達	Fóluólǐdá	Florida	proper noun	州	State	地方	Places	美国	United States	\N	\N	(Wikipedia '佛罗里达州')	6001273
 6001274	台胞证	台胞證	táibāozhèng	Mainland Travel Permit for Taiwan Residents / Taiwan Compatriot Entry Permit	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 台湾居民来往大陆通行证 (CC-CEDICT '台胞證')	6001274
+6001275	长岛	長島	Cháng Dǎo	Long Island	proper noun	岛	Island	地方	Places	美国	United States	\N	\N	In New York (Wikipedia '長島')	6001275
+6001276	哈佛大学	哈佛大學	hāfó dàxué	Harvard University	proper noun	大学	University	教育	Education	美国	United States	\N	\N	(Wikipedia '哈佛大学')	6001276
+6001277	威斯康星	\N	Wēisīkāngxīng	Wisconsin	proper noun	州	State	地方	Places	美国	United States	\N	\N	(Wikipedia '威斯康辛州')	6001277
+6001278	乔姆斯基	喬姆斯基	qiáomǔsījī	Chomsky	proper noun	语言学家	Linguist	语言学	Linguistics	美国	United States	\N	\N	(wikipedia '诺姆·乔姆斯基')	6001278
+6001279	司法部长	司法部長	Sīfǎ Bùzhǎng	Attorney General	proper noun	部长	Head of Department	政治	Politics	美国	United States	\N	\N	(Wikipedia '美國司法部長')	6001279
+6001280	联邦调查局	聯邦調查局	liánbāng diàochá jú	Federal Bureau of Investigation (FBI)	proper noun	部门	Department	政府	Government	美国	United States	\N	\N	(Wikipedia '联邦调查局')	6001280
+6001281	林奇	\N	línqí	Lynch	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	For example, 大卫·林奇 David Lynch (Wikipedia '大卫·林奇')	6001281
+6001282	国家情报总监	國家情報總監	guójiā qíngbào zǒngjiàn	Director of National Intelligence	proper noun	\N	\N	政治	Politics	美国	United States	\N	\N	(Wikipedia '國家情報總監')	6001282
+6001283	奥巴马总统	奧巴馬總統	Àobāmǎ zǒngtǒng	President Barack Obama	proper noun	总统	President	政治	Politics	美国	United States	\N	\N	(Wikipedia '贝拉克·奥巴马')	6001283
+6001284	呒虾米	嘸蝦米	wǔxiāmǐ	Boshiamy	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Input method for Chinese (CC-CEDICT '嘸蝦米')	6001284
+6001285	国富论	國富論	guófùlùn	The Wealth of Nations	proper noun	书名	Book Title	文学	Literature	美国	United States	\N	\N	1776 by Adam Smith 亚当·斯密 (CC-CEDICT '國富論')	6001285
+6001286	国航	國航	guóháng	Air China	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	Abbreviation for 中国国际航空公司 (CC-CEDICT '國航')	6001286
+6001287	国际足联	國際足聯	guójì zú lián	FIFA, international federation of football associations	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	Abbreviation for 国际足球联合会 (CC-CEDICT '國際足聯')	6001287
+6001288	孟菲斯	\N	mèngfēisī	Memphis	proper noun	城市	City	地方	Places	美国	United States	\N	\N	City in Egypt and Tennessee (Wikipedia '孟菲斯 (田納西州)')	6001288
+6001289	美国信息交换标准代码	美國信息交換標準代碼	měiguó xìnxī jiāohuàn biāozhǔn dàimǎ	ASCII (American Standard Code for Information Interchange)	proper noun	\N	\N	计算机科学	Computer Science	数据	Data	\N	\N	(Wikipedia 'ASCII')	6001289
+6001290	民主党	民主黨	Mínzhǔ dǎng	Democratic Party	proper noun	党	Party	政治	Politics	美国	United States	\N	\N	Name of a political party the United States and other countries (Wikipedia '民主党')	6001290
+6001291	佛蒙特	\N	fómēngté	Vermont	proper noun	州	State	地方	Places	美国	United States	\N	\N	A US state (Wikipedia '佛蒙特州')	6001291
+6001292	马里兰	馬里蘭	Mǎlǐlán	Maryland	proper noun	州	State	地方	Places	美国	United States	\N	\N	US state (Wikipedia '马里兰州')	6001292
+6001293	马里兰州	馬里蘭州	Mǎlǐlán zhōu	the state of Maryland	proper noun	州	State	地方	Places	美国	United States	\N	\N	US state (Wikipedia '马里兰州')	6001293
+6001294	查尔斯顿	查爾斯頓	Chá'ěrsīdùn	Charleston	proper noun	城市	City	地方	Places	美国	United States	\N	\N	City in the United States (Wikipedia '查尔斯顿 (南卡罗来纳州)')	6001294
+6001295	埃塔	\N	āitǎ	ETA (Euskadi Ta Askatasuna or Basque homeland and freedom)	proper noun	\N	\N	政治	Politics	欧洲	Europe	\N	\N	Basque armed separatist group (CC-CEDICT '埃塔')	6001295
+6001296	塞韦里诺	塞韋里諾	sāiwéilǐnuò	(Jean-Michel) Severino	proper noun	人	Person	政治	Politics	欧洲	Europe	\N	\N	CEO of the Agence Française de Développement, AFD (CC-CEDICT '塞韋里諾')	6001296
+6001297	梦罗园	夢羅園	mèngluó yuán	Menlo Park	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	New Jersey, the home of Thomas Edison's research laboratory (CC-CEDICT '夢羅園')	6001297
+6001298	南卡	\N	nánkǎ	South Carolina	proper noun	州	State	地方	Places	美国	United States	\N	\N	A US state (Wikipedia '南卡罗来纳州')	6001298
