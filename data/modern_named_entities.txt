@@ -1296,3 +1296,12 @@
 6001296	塞韦里诺	塞韋里諾	sāiwéilǐnuò	(Jean-Michel) Severino	proper noun	人	Person	政治	Politics	欧洲	Europe	\N	\N	CEO of the Agence Française de Développement, AFD (CC-CEDICT '塞韋里諾')	6001296
 6001297	梦罗园	夢羅園	mèngluó yuán	Menlo Park	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	New Jersey, the home of Thomas Edison's research laboratory (CC-CEDICT '夢羅園')	6001297
 6001298	南卡	\N	nánkǎ	South Carolina	proper noun	州	State	地方	Places	美国	United States	\N	\N	A US state (Wikipedia '南卡罗来纳州')	6001298
+6001299	大场鸫	大場鶇	dàchǎngdōng	OHBA Tsugumi	proper noun	\N	\N	文学	Literature	日本	Japan	\N	\N	Pen-name for author of cult series Death Note 死亡笔记 (CC-CEDICT '大場鶇')	6001299
+6001300	全国步枪协会	全國步槍協會	Quánguó Bùqiāng Xiéhuì	National Rifle Association (NRA)	proper noun	协会	Association	政治	Politics	美国	United States	\N	\N	In the United States (Wikipedia '美国全国步枪协会')	6001300
+6001301	维吉尼亚州	維吉尼亞州	Wéijíníyà	State of Virginia	proper noun	州	State	地方	Places	美国	United States	\N	\N	A US state (Wikipedia '弗吉尼亚州')	6001301
+6001302	小应用程序	小應用程序	xiǎo yìngyòng chéngxù	Applet	proper noun	\N	\N	计算机科学	Computer Science	图形用户界面	Graphical User Interface	\N	\N	(Wikipedia 'Java')	6001302
+6001303	小畑健	\N	xiǎotiánjiàn	OBATA Takeshi	proper noun	人	Person	艺术	Art	日本	Japan	\N	\N	Manga artist, illustrator of cult series Death Note 死亡笔记 (CC-CEDICT '小畑健')	6001303
+6001304	密西根	\N	Mìxīgēn	Michigan	proper noun	州	State	地方	Places	美国	United States	\N	\N	A US state (Wikipedia '密歇根州')	6001304
+6001305	巴新	\N	bāxīn	Papua New Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Abbreviation for 巴布亚新几内亚 (CC-CEDICT '巴新')	6001305
+6001306	巴纽	巴紐	bāniǔ	Papua New Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Abbreviation for Papua New Guinea 巴布亚纽几内亚; Taiwanese usage (CC-CEDICT '巴紐')	6001306
+6001307	密西根州	\N	Mìxīgēn zhōu	State of Michigan	proper noun	州	State	地方	Places	美国	United States	\N	\N	A US state (Wikipedia '密歇根州')	6001307
