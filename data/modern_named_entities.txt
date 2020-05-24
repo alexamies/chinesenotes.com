@@ -1305,3 +1305,20 @@
 6001305	巴新	\N	bāxīn	Papua New Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Abbreviation for 巴布亚新几内亚 (CC-CEDICT '巴新')	6001305
 6001306	巴纽	巴紐	bāniǔ	Papua New Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Abbreviation for Papua New Guinea 巴布亚纽几内亚; Taiwanese usage (CC-CEDICT '巴紐')	6001306
 6001307	密西根州	\N	Mìxīgēn zhōu	State of Michigan	proper noun	州	State	地方	Places	美国	United States	\N	\N	A US state (Wikipedia '密歇根州')	6001307
+6001308	底特律	\N	Dǐtélǜ	Detroit	proper noun	城市	City	地方	Places	美国	United States	\N	\N	City in the Michigan (Guoyu '底特律'; Wikipedia '底特律')	6001308
+6001309	共和党	共和黨	Gònghé dǎng	Republican Party	proper noun	党	Party	政治	Politics	美国	United States	\N	\N	(Wikipedia '共和黨 (美國)')	6001309
+6001310	麦凯恩	麥凱恩	màikǎi'ēn	McCain / John McCain	proper noun	参议员	Senator	政治	Politics	美国	United States	\N	\N	(Wikipedia '約翰·麥凱恩')	6001310
+6001311	美国参议院	美國參議院	měiguó cānyìyuàn	United States Senate	proper noun	\N	\N	政治	Politics	美国	United States	\N	\N	(Wikipedia '美国参议院')	6001311
+6001312	批踢踢	\N	pītītī	PTT	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	The largest terminal-based bulletin board system in Taiwan, full name 批踢踢實業坊 (CC-CEDICT '批踢踢')	6001312
+6001313	抱抱装	抱抱裝	bàobàozhuāng	hug shirt	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Worn by members of the Free Hugs Campaign 包包团 (CC-CEDICT '抱抱裝')	6001313
+6001314	擒人节	擒人節	qínrénjié	(jocularly) Valentine's Day	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Referring to the rising number of extramarrital affairs being discovered on that day (CC-CEDICT '擒人節')	6001314
+6001315	政府大学院	政府大學院	zhèngfǔ dàxué yuàn	Academia Sinica	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	The name of 中央研究院 when it was founded (CC-CEDICT '政府大學院')	6001315
+6001316	政训处	政訓處	zhèngxùnchù	Political Training Office	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	During Chinese revolution, since renamed political division 政治部 (CC-CEDICT '政訓處')	6001316
+6001317	美国国务卿	美國國務卿	Měiguó Guó Wù Qīng	United States Secretary of State	proper noun	国务卿	Secretary of State	政治	Politics	美国	United States	\N	\N	(Wikipedia '美国国务卿')	6001317
+6001318	易卜生	\N	yìbǔshēng	Henrik Ibsen	proper noun	作者	Author	文学	Literature	欧洲	Europe	\N	\N	1828-1906; Norwegian dramatist, author of Doll's House 玩偶之家 (CC-CEDICT '易卜生')	6001318
+6001319	春岑	\N	chūncén	Hill of Spring	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Derivation of Tel Aviv 特拉维夫 from the book of Ezekiel 以西结书 (CC-CEDICT '春岑')	6001319
+6001320	朋友圈	\N	péngyouquān	Moments	proper noun	产品	Product	商务	Commerce	中国	China	\N	\N	Social networking function of smartphone app WeChat 微信 (CC-CEDICT '朋友圈')	6001320
+6001321	木栅线	木柵線	mùzhàxiàn	Taipei Metro Muzha Line	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	Former name of the Wenshan Line 文山線(CC-CEDICT '木柵線')	6001321
+6001322	东伊运	東伊運	dōngyīyùn	East Turkestan Islamic Movement (ETIM)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '東伊運')	6001322
+6001323	东突	東突	dōngtū	East Turkestan Liberation Organization (ETLO)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 东突厥斯坦解放组织 (CC-CEDICT '東突')	6001323
+6001324	东突组织	東突組織	dōng tū zǔzhī	East Turkestan Liberation Organization (ETLO)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '東突組織')	6001324
