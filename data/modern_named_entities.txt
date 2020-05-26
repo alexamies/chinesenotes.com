@@ -1332,3 +1332,5 @@
 6001332	北卡罗莱纳	北卡羅萊納	Běi Kǎluóláinà	North Carolina	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the United States (Wikipedia '北卡罗来纳州')	6001332
 6001333	瓦良格	\N	wǎliánggé	Varyag	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Former Soviet aircraft carrier purchased by China and renamed 辽宁号 (CC-CEDICT '瓦良格')	6001333
 6001334	北卡罗莱纳州	北卡羅萊納州	Běi Kǎluóláinà zhōu	State of North Carolina	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the United States (Wikipedia '北卡罗来纳州')	6001334
+6001335	北卡罗莱纳州州立大学	北卡羅萊納州州立大學	Běi Kǎluóláinà zhōu zhōu lì dàxué	North Carolina State University	proper noun	大学	University	教育	Education	美国	United States	\N	\N	A college in the North Carolina (Wikipedia '北卡罗来纳州立大学')	6001335
+6001336	精灵宝钻	精靈寶鑽	jīnglíng bǎo zuān	Silmarillion	proper noun	书名	Book Title	文学	Literature	英国	England	\N	\N	By J.R.R. Tolkien 托尔金 (CC-CEDICT '精靈寶鑽')	6001336
