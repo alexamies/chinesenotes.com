@@ -428,7 +428,7 @@
 6000428	伊利诺伊	伊利諾伊	yīlìnuòyī	Illinois, US state	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '伊利諾伊')	6000428
 6000429	伊利诺	伊利諾	yīlìnuò	Illinois, US state	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '伊利諾')	6000429
 6000430	伊利埃斯库	伊利埃斯庫	yīlì'āisīkù	Iliescu	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	Romainian name (CC-CEDICT '伊利埃斯庫')	6000430
-6000431	任天堂	\N	rèntiāntáng	Nintendo	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '任天堂')	6000431
+6000431	任天堂	\N	rèntiāntáng	Nintendo	proper noun	产品	Product	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '任天堂')	6000431
 6000432	天骄	天驕	tiānjiāo	model of personal computer	proper noun	产品	Product	商务	Commerce	中国	China	\N	tian1jiao1.mp3	Manufactured by Lenovo (Wikipedia '天骄')	6000432
 6000433	龙芯	龍芯	lóngxīn	Loongson	proper noun	产品	Product	商务	Commerce	中国	China	\N	long2xin1.mp3	 Name of a chip (Wikipedia '龍芯')	6000433
 6000434	奔腾	奔騰	bēnténg	Pentium	proper noun	产品	Product	计算机科学	Computer Science	美国	United States	\N	ben1teng2.mp3	The CPU produced by Intel (CC-CEDICT '奔騰'; Wikipedia '奔騰')	6000434
@@ -1322,3 +1322,13 @@
 6001322	东伊运	東伊運	dōngyīyùn	East Turkestan Islamic Movement (ETIM)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '東伊運')	6001322
 6001323	东突	東突	dōngtū	East Turkestan Liberation Organization (ETLO)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 东突厥斯坦解放组织 (CC-CEDICT '東突')	6001323
 6001324	东突组织	東突組織	dōng tū zǔzhī	East Turkestan Liberation Organization (ETLO)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '東突組織')	6001324
+6001325	大五码	大五碼	dàwǔmǎ	Big-5 / Big5	proper noun	字码	Encoding	计算机科学	Computer Science	\N	\N	\N	\N	A character encoding system (CC-CEDICT '大五碼')	6001325
+6001326	美国食品药品管理局	美國食品藥品管理局	Měiguó shípǐn yàopǐn guǎnlǐ jú	Food and Drug Administration (FDA or USFDA)	proper noun	政府机构	Government Department	政治	Politics	美国	United States	\N	\N	(Wikipedia '美国食品药品监督管理局')	6001326
+6001327	五大码	五大碼	wǔdàmǎ	Big-5 / Big5	proper noun	字码	Encoding	计算机科学	Computer Science	\N	\N	\N	\N	A character encoding system; Taiwanese term (Wikipedia '大五碼')	6001327
+6001328	消基会	消基會	xiāo jī huì	Consumers' Foundation, Chinese Taipei (CFCT)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 中华民国消费者文教基金会 (CC-CEDICT '消基會')	6001328
+6001329	卡托研究所	卡託研究所	Kǎtuō Yánjiū suǒ	Cato Institute	proper noun	智库	Think Tank	政治	Politics	美国	United States	\N	\N	(Wikipedia '加图研究所')	6001329
+6001330	美国环保署	美国环保署	měiguó huánbǎo shǔ	United States Environmental Protection Agency (EPA)	proper noun	政府机构	Government Department	政治	Politics	美国	United States	\N	\N	(Wikipedia '美国国家环境保护局')	6001330
+6001331	牡丹卡	\N	mǔdānkǎ	Peony Card	proper noun	产品	Product	商务	Commerce	中国	China	\N	\N	Credit card issued by Industrial and Commercial Bank of China (CC-CEDICT '牡丹卡')	6001331
+6001332	北卡罗莱纳	北卡羅萊納	Běi Kǎluóláinà	North Carolina	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the United States (Wikipedia '北卡罗来纳州')	6001332
+6001333	瓦良格	\N	wǎliánggé	Varyag	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Former Soviet aircraft carrier purchased by China and renamed 辽宁号 (CC-CEDICT '瓦良格')	6001333
+6001334	北卡罗莱纳州	北卡羅萊納州	Běi Kǎluóláinà zhōu	State of North Carolina	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the United States (Wikipedia '北卡罗来纳州')	6001334
