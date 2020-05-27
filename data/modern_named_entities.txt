@@ -1334,3 +1334,8 @@
 6001334	北卡罗莱纳州	北卡羅萊納州	Běi Kǎluóláinà zhōu	State of North Carolina	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the United States (Wikipedia '北卡罗来纳州')	6001334
 6001335	北卡罗莱纳州州立大学	北卡羅萊納州州立大學	Běi Kǎluóláinà zhōu zhōu lì dàxué	North Carolina State University	proper noun	大学	University	教育	Education	美国	United States	\N	\N	A college in the North Carolina (Wikipedia '北卡罗来纳州立大学')	6001335
 6001336	精灵宝钻	精靈寶鑽	jīnglíng bǎo zuān	Silmarillion	proper noun	书名	Book Title	文学	Literature	英国	England	\N	\N	By J.R.R. Tolkien 托尔金 (CC-CEDICT '精靈寶鑽')	6001336
+6001337	美国东岸	美國東岸	Měiguó Dōng àn	United States East Coast	proper noun	\N	\N	地方	Places	美国	United States	\N	\N	(Wikipedia '美國東岸')	6001337
+6001338	首都华盛顿	首都華盛頓	shǒudū Huáshèngdùn	Washington D.C.	proper noun	\N	\N	地方	Places	美国	United States	\N	\N	(Wikipedia '华盛顿')	6001338
+6001339	乔治亚	喬治亞	Qiáozhìyà	Georgia	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the United States (Wikipedia '喬治亞州')	6001339
+6001340	乔治亚州	喬治亞州	Qiáozhìyà zhōu	State of Georgia	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the United States (Wikipedia '喬治亞州')	6001340
+6001341	新英格兰	新英格蘭	Xīn Yīnggélán	New England	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the United States (Wikipedia '新英格蘭')	6001341
