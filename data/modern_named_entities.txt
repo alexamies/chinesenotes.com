@@ -1339,3 +1339,8 @@
 6001339	乔治亚	喬治亞	Qiáozhìyà	Georgia	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the United States (Wikipedia '喬治亞州')	6001339
 6001340	乔治亚州	喬治亞州	Qiáozhìyà zhōu	State of Georgia	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the United States (Wikipedia '喬治亞州')	6001340
 6001341	新英格兰	新英格蘭	Xīn Yīnggélán	New England	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the United States (Wikipedia '新英格蘭')	6001341
+6001342	花呗	花唄	huābài	Ant Check Later	proper noun	\N	\N	商务	Commerce	\N	\N	\N	\N	Consumer credit service offered by Ant Financial Services 蚂蚁金服 (CC-CEDICT '花唄')	6001342
+6001343	肯塔基	\N	Kěntǎjī	Kentucky	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the United States (Wikipedia '肯塔基州')	6001343
+6001344	肯塔基州	\N	Kěntǎjī zhōu	Kentucky	proper noun	州	State	地方	Places	美国	United States	\N	\N	A state in the United States (Wikipedia '肯塔基州')	6001344
+6001345	小米	\N	xiǎomǐ	Xiaomi Corporation	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '小米'; Wikipedia '小米集團')	10328
+6001346	小米集团	小米集團	xiǎomǐ jítuán	Xiaomi Corporation	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '小米'; Wikipedia '小米集團')	6001346
