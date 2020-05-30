@@ -1348,3 +1348,5 @@
 6001348	纽约市	紐約市	Niǔ Yuē Shì	New York City	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(Wikipedia '纽约市')	6001348
 6001349	金银岛	金銀島	jīn yíndǎo	Treasure Island	proper noun	书名	Book Title	文学	Literature	欧洲	Europe	\N	\N	By Scottish author R.L. Stevenson 罗伯特·路易斯·斯蒂文森 (CC-CEDICT '金銀島'; Wikipedia '金銀島')	6001349
 6001350	爱奥华	愛奧華	Àiàohuà	Iowa	proper noun	州	State	地方	Places	美国	United States	\N	\N	US state (CC-CEDICT '艾奥瓦州'; Wikipedia '艾奥瓦州')	6001350
+6001351	爱奥华州	愛奧華州	Àiàohuà zhōu	the state of Iowa	proper noun	州	State	地方	Places	美国	United States	\N	\N	US state (Wikipedia '艾奥瓦州')	6001351
+6001352	麦香堡	麥香堡	màixiāngbǎo	Big Mac hamburger	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	Taiwanese usage (CC-CEDICT '麥香堡')	6001351
