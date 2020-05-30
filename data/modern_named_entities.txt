@@ -1346,3 +1346,5 @@
 6001346	小米集团	小米集團	xiǎomǐ jítuán	Xiaomi Corporation	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '小米'; Wikipedia '小米集團')	6001346
 6001347	哥伦比亚特区	哥倫比亞特區	Gēlúnbǐyà téqū	District of Columbia	proper noun	特区	District	地方	Places	美国	United States	\N	\N	Surrounding Washington, DC (Wikipedia '华盛顿哥伦比亚特区')	6001347
 6001348	纽约市	紐約市	Niǔ Yuē Shì	New York City	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(Wikipedia '纽约市')	6001348
+6001349	金银岛	金銀島	jīn yíndǎo	Treasure Island	proper noun	书名	Book Title	文学	Literature	欧洲	Europe	\N	\N	By Scottish author R.L. Stevenson 罗伯特·路易斯·斯蒂文森 (CC-CEDICT '金銀島'; Wikipedia '金銀島')	6001349
+6001350	爱奥华	愛奧華	Àiàohuà	Iowa	proper noun	州	State	地方	Places	美国	United States	\N	\N	US state (CC-CEDICT '艾奥瓦州'; Wikipedia '艾奥瓦州')	6001350
