@@ -44,6 +44,7 @@ mkdir $WEB_DIR/analysis/mozi
 mkdir $WEB_DIR/analysis/nanqishu
 mkdir $WEB_DIR/analysis/nanshi
 mkdir $WEB_DIR/analysis/rulinwaishi
+mkdir $WEB_DIR/analysis/qianziwen
 mkdir $WEB_DIR/analysis/sanguoyanyi
 mkdir $WEB_DIR/analysis/sanguozhi
 mkdir $WEB_DIR/analysis/shanhaijing
@@ -112,6 +113,7 @@ mkdir $WEB_DIR/mozi
 mkdir $WEB_DIR/mp3
 mkdir $WEB_DIR/nanqishu
 mkdir $WEB_DIR/nanshi
+mkdir $WEB_DIR/qianziwen
 mkdir $WEB_DIR/rulinwaishi
 mkdir $WEB_DIR/sanguoyanyi
 mkdir $WEB_DIR/sanguozhi
