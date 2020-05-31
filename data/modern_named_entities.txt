@@ -1350,3 +1350,5 @@
 6001350	爱奥华	愛奧華	Àiàohuà	Iowa	proper noun	州	State	地方	Places	美国	United States	\N	\N	US state (CC-CEDICT '艾奥瓦州'; Wikipedia '艾奥瓦州')	6001350
 6001351	爱奥华州	愛奧華州	Àiàohuà zhōu	the state of Iowa	proper noun	州	State	地方	Places	美国	United States	\N	\N	US state (Wikipedia '艾奥瓦州')	6001351
 6001352	麦香堡	麥香堡	màixiāngbǎo	Big Mac hamburger	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	Taiwanese usage (CC-CEDICT '麥香堡')	6001351
+6001353	加利福尼亚理工学院	加利福尼亞理工學院	Jiālìfúníyà lǐgōng xuéyuàn	California Institute of Technology (Caltech)	proper noun	大学	University	教育	Education	美国	United States	\N	\N	(Wikipedia '加州理工學院')	6001353
+6001354	加州理工学院	加州理工學院	Jiāzhōu lǐgōng xuéyuàn	California Institute of Technology (Caltech)	proper noun	大学	University	教育	Education	美国	United States	\N	\N	(Wikipedia '加州理工學院')	6001354
