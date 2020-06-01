@@ -1352,3 +1352,25 @@
 6001352	麦香堡	麥香堡	màixiāngbǎo	Big Mac hamburger	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	Taiwanese usage (CC-CEDICT '麥香堡')	6001351
 6001353	加利福尼亚理工学院	加利福尼亞理工學院	Jiālìfúníyà lǐgōng xuéyuàn	California Institute of Technology (Caltech)	proper noun	大学	University	教育	Education	美国	United States	\N	\N	(Wikipedia '加州理工學院')	6001353
 6001354	加州理工学院	加州理工學院	Jiāzhōu lǐgōng xuéyuàn	California Institute of Technology (Caltech)	proper noun	大学	University	教育	Education	美国	United States	\N	\N	(Wikipedia '加州理工學院')	6001354
+6001355	伊势丹	伊勢丹	yīshìdān	Isetan	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese department store (CC-CEDICT '伊勢丹')	6001355
+6001356	卡美拉	\N	kǎměilā	Gamera, Japanese movie monster	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	Japanese ガメラ Gamera (CC-CEDICT '卡美拉')	6001356
+6001357	吉野家	\N	jíyějiā	Yoshinoya	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese fast food chain (CC-CEDICT '吉野家')	6001357
+6001358	奥特曼	奧特曼	àotémàn	Ultraman	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	Japanese science fiction superhero (CC-CEDICT '奧特曼')	6001358
+6001359	尼桑	\N	nísāng	Nissan	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese car make, derived from 日產 (CC-CEDICT '尼桑')	6001359
+6001360	拉顿	拉頓	lādùn	Rodan	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	Japanese ラドン Radon, Japanese movie monster (CC-CEDICT '拉頓')	6001360
+6001361	摩斯拉	\N	mósīlā	Mothra	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	Japanese モスラ Mosura, Japanese movie monster (CC-CEDICT '摩斯拉')	6001361
+6001362	全国广播公司	全國廣播公司	quánguó guǎngbō gōngsī	National Broadcasting Company (NBC)	proper noun	公司	Company	媒体	Media	美国	United States	\N	\N	(Wikipedia '全国广播公司')	6001362
+6001363	光明星	\N	guāngmíngxīng	Kwangmyŏngsŏng	proper noun	\N	\N	政府	Government	朝鲜	North Korea	\N	\N	(CC-CEDICT '光明星')	6001363
+6001364	大长今	大長今	dàzhǎngjīn	Dae Chang Kum	proper noun	\N	\N	戏剧	Drama	韩国	South Korea	\N	\N	A Korean Drama (CC-CEDICT '大長今')	6001364
+6001365	东仓里	東倉里	dōngcānglǐ	Dongchang-ni	proper noun	\N	\N	政府	Government	朝鲜	North Korea	\N	\N	North Korean missile launch site on Yellow Sea, 70 km from Chinese border (CC-CEDICT '東倉里')	6001365
+6001366	机甲	機甲	jījiǎ	mecha	proper noun	\N	\N	文学	Literature	日本	Japan	\N	\N	Human-operated robots in Japanese manga (CC-CEDICT '機甲')	6001366
+6001367	茉莉花开	茉莉花開	mòlihuā kāi	Jasmine Women	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	2004 Film starring 章子怡 Zhang Ziyi and 陈冲 Joan Chen (Wikipedia '茉莉花開')	6001367
+6001368	章子怡	\N	zhāng zǐyí	Zhang Ziyi	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	(CC-CEDICT '章子怡'; Wikipedia '章子怡')	6001368
+6001369	陈冲	陳沖	chén chōng	Joan Chen	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	(Wikipedia '陳沖')	6001369
+6001370	统汉字	統漢字	tǒngHànzì	Unihan / China Japan Korea (CJK) unified ideographs	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 中日韩统一表意文字 (CC-CEDICT '統漢字')	6001370
+6001371	芭拉芭拉	\N	bālā bālā	para para	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	A Eurobeat dance originating in Japan, with synchronized upper body movements; loanword from Japanese (CC-CEDICT '芭拉芭拉')	6001371
+6001372	芦洞	蘆洞	lúdòng	Rodong / Nodong	proper noun	\N	\N	政府	Government	朝鲜	North Korea	\N	\N	Series of North Korean medium-range missiles (CC-CEDICT '蘆洞')	6001372
+6001373	警察厅	警察廳	jǐngchátīng	National Police Agency (Japan)	proper noun	\N	\N	政府	Government	日本	Japan	\N	\N	(CC-CEDICT '警察廳')	6001373
+6001374	丰溪里	豐溪里	fēngxīlǐ	P'unggye	proper noun	县	County	地方	Places	朝鲜	North Korea	\N	\N	In Kilju county, North Hamgyeong province, the North Korean nuclear test site (CC-CEDICT '豐溪里')	6001374
+6001375	酷斯拉	\N	kùsīlā	Godzilla	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	Japanese: ゴジラ Gojira; see also 哥斯拉 (CC-CEDICT '酷斯拉')	6001375
+6001376	钢弹	鋼彈	gāngtán	Gundam, Japanese animation franchise	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '鋼彈')	6001376

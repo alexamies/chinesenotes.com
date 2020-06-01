@@ -1,0 +1,8 @@
+7000001	全国佛教运动联合	全國佛教運動聯合	quánguó fójiào yùndòng liánhé	National Buddhist Movement Alliance	proper noun	团体	Organization	佛教	Buddhism	韩国	Korea	\N	\N	Korean alliance of citizen Buddhist movements (FGDB '全國佛教運動聯合')	7000001
+7000002	证严	證嚴	zhèng yán	Cheng Yen	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 釋證嚴 (Wikipedia '釋證嚴')	7000002
+7000003	释证严	釋證嚴	shì zhèngyán	Cheng Yen	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1937- ; Taiwanese Buddhist nun and founder of the 慈濟功德會 Buddhist Compassion Relief Tzu Chi Foundation (Wikipedia '釋證嚴')	7000003
+7000004	慈济	慈濟	cíjì	Tzu-Chi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Abbreviation of 慈濟基金會 Buddhist Compassion Relief Tzu Chi Foundation (Wikipedia '慈濟基金會')	7000004
+7000005	慈济基金会	慈濟基金會	cíjì jījīnhuì	Buddhist Compassion Relief Tzu Chi Foundation	proper noun	基金会	Foundation	佛教	Buddhism	中国佛教	Chinese Buddhism	\N	\N	Founded by Taiwanese Buddhist nun Master Cheng Yen in 1966 as a Buddhist humanitarian organization (FGDB '慈濟功德會'; Guoyu '慈濟功德會'; Wikipedia '慈濟基金會')	7000005
+7000006	慈济功德会	慈濟功德會	cíjì gōngdé huì	Buddhist Compassion Relief Tzu Chi Foundation	proper noun	寺院	Temple	佛教	Buddhism	中国佛教	Chinese Buddhism	\N	\N	See 慈濟基金會 (Wikipedia '慈濟基金會')	7000006
+7000007	荣睿	榮睿	róngruì	Eiei	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	Japanese: 栄叡;  d. 749 (FGDB '榮睿'; Wikipedia '榮叡')	7000007
+7000008	荣叡	榮叡	róngruì	Eiei	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 榮睿 (FGDB '榮睿')	7000008

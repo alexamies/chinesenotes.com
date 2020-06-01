@@ -24,3 +24,4 @@
 5000024	经济战线	經濟戰線	jīngjì zhànxiàn	economic front	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 52)	5000024
 5000025	历史时期	歷史時期	lìshǐ shíqī	historic period	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 52)	5000025
 5000026	现代工业	現代工業	xiàndài gōngyè	modern industry	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 54)	5000026
+5000027	一个幽灵在欧洲游荡	一個幽靈在歐洲遊蕩	yī gè yōulíng zài Ōuzhōu yóudàng	Ein Gespenst geht um in Europa.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	The opening sentence of Marx and Engels' Communist Manifesto (CC-CEDICT '一個幽靈在歐洲遊蕩')	5000027
