@@ -1374,3 +1374,7 @@
 6001374	丰溪里	豐溪里	fēngxīlǐ	P'unggye	proper noun	县	County	地方	Places	朝鲜	North Korea	\N	\N	In Kilju county, North Hamgyeong province, the North Korean nuclear test site (CC-CEDICT '豐溪里')	6001374
 6001375	酷斯拉	\N	kùsīlā	Godzilla	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	Japanese: ゴジラ Gojira; see also 哥斯拉 (CC-CEDICT '酷斯拉')	6001375
 6001376	钢弹	鋼彈	gāngtán	Gundam, Japanese animation franchise	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '鋼彈')	6001376
+6001377	青瓦台	青瓦臺	qīngwǎtái	Blue House / Cheong Wa Dae	proper noun	地名	Place Name	地方	Places	韩国	South Korea	\N	\N	Residence of the president of South Korea in Seoul (CC-CEDICT '青瓦臺')	6001377
+6001378	韩联社	韓聯社	hánliánshè	Yonhap	proper noun	公司	Company	媒体	Media	韩国	South Korea	\N	\N	South Korean news agency (CC-CEDICT '韓聯社')	6001378
+6001379	马自达	馬自達	mǎzìdá	Mazda	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese car make, derived from name Matsuda 松田, also known as 万事得 (CC-CEDICT '馬自達')	6001379
+6001380	鸟叔	鳥叔	niǎoshū	nickname of Korean singer PSY	proper noun	人	Person	音乐	Music	韩国	South Korea	\N	\N	(CC-CEDICT '鳥叔')	6001380

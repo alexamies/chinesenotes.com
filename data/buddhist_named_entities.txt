@@ -6,3 +6,10 @@
 7000006	慈济功德会	慈濟功德會	cíjì gōngdé huì	Buddhist Compassion Relief Tzu Chi Foundation	proper noun	寺院	Temple	佛教	Buddhism	中国佛教	Chinese Buddhism	\N	\N	See 慈濟基金會 (Wikipedia '慈濟基金會')	7000006
 7000007	荣睿	榮睿	róngruì	Eiei	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	Japanese: 栄叡;  d. 749 (FGDB '榮睿'; Wikipedia '榮叡')	7000007
 7000008	荣叡	榮叡	róngruì	Eiei	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 榮睿 (FGDB '榮睿')	7000008
+7000009	大谷探险队	大谷探險隊	dàgǔ tànxiǎnduì	Otani Expedition Team	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	(FGDB '大谷探險隊'; Yongyou Shi 2010, p. 67)	7000009
+7000010	西本愿寺	西本願寺	xīběnyuànsì	Nishi Hongan-ji	proper noun	寺院	Temple	佛教	Buddhism	日本	Japan	\N	\N	Temple in in Kyoto (Wikipedia '西本願寺')	7000010
+7000011	东本愿寺	東本願寺	dōngběnyuànsì	Higashi Hongan-ji	proper noun	寺院	Temple	佛教	Buddhism	日本	Japan	\N	\N	(Wikipedia '東本願寺')	7000011
+7000012	石山本愿寺	石山本願寺	shíshān běnyuànsì	Ishiyama Hongan-ji	proper noun	寺院	Temple	佛教	Buddhism	日本	Japan	\N	\N	(Wikipedia '石山本願寺')	7000012
+7000013	净土真宗	淨土真宗	jìngtǔ zhēnzōng	Jōdo Shinshū	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	A Japanese school of Pure Land Buddhism (Wikipedia '淨土真宗')	7000013
+7000014	大谷光瑞	\N	dàgǔ guāngruì	Ōtani Kōzui	proper noun	人	Person	佛教	Buddhism	日本	Japan	\N	\N	(Wikipedia '大谷光瑞')	7000014
+7000015	橘瑞超	\N	júruìchāo	Zuicho Tachibana	proper noun	人	Person	佛教	Buddhism	日本	Japan	\N	\N	(Wikipedia '橘瑞超')	7000015
