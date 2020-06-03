@@ -1378,3 +1378,6 @@
 6001378	韩联社	韓聯社	hánliánshè	Yonhap	proper noun	公司	Company	媒体	Media	韩国	South Korea	\N	\N	South Korean news agency (CC-CEDICT '韓聯社')	6001378
 6001379	马自达	馬自達	mǎzìdá	Mazda	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese car make, derived from name Matsuda 松田, also known as 万事得 (CC-CEDICT '馬自達')	6001379
 6001380	鸟叔	鳥叔	niǎoshū	nickname of Korean singer PSY	proper noun	人	Person	音乐	Music	韩国	South Korea	\N	\N	(CC-CEDICT '鳥叔')	6001380
+6001381	德克萨斯州	德克薩斯州	dékèsàsī zhōu	state of Texas	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '德克薩斯州')	6001381
+6001382	皮猜	\N	Pícāi	Sundar Pichai	proper noun	人	Person	商务	Commerce	美国	United States	\N	\N	Google CEO (Wikipedia '桑达·皮采')	6001382
+6001383	食品药品监督局	食品藥品監督局	shípǐn yàopǐn jiāndū jú	state food and drug administration (SDA)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '食品藥品監督局')	6001383
