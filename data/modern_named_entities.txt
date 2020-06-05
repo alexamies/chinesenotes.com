@@ -1381,3 +1381,29 @@
 6001381	德克萨斯州	德克薩斯州	dékèsàsī zhōu	state of Texas	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '德克薩斯州')	6001381
 6001382	皮猜	\N	Pícāi	Sundar Pichai	proper noun	人	Person	商务	Commerce	美国	United States	\N	\N	Google CEO (Wikipedia '桑达·皮采')	6001382
 6001383	食品药品监督局	食品藥品監督局	shípǐn yàopǐn jiāndū jú	state food and drug administration (SDA)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '食品藥品監督局')	6001383
+6001384	一中原则	一中原則	yīzhōng yuánzé	One-China principle	proper noun	\N	\N	政府	Government	中国	China	\N	\N	The official doctrine that Taiwan is a province of China (CC-CEDICT '一中原則')	6001384
+6001385	一二八事变	一二八事變	yīèr bā shìbiàn	Shanghai Incident of 28th January 1932	proper noun	\N	\N	历史	History	中国	China	\N	\N	Chinese uprising against Japanese quarters of Shanghai (CC-CEDICT '一二八事變')	6001385
+6001386	一国两制	一國兩制	yī guó liǎng zhì	one country, two systems (PRC proposal regarding Hong Kong, Macau and Taiwan)	set phrase	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '一國兩制')	6001386
+6001387	一带一路	一帶一路	yìdài yīlù	Belt and Road Initiative	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Chinese government plan to provide finance and engineering expertise to build infrastructure across Eurasia and northeast Africa, unveiled in 2013 (CC-CEDICT '一帶一路')	6001387
+6001388	丁巳复辟	丁巳復辟	Dīngsì fùbì	Manchu Restoration	proper noun	\N	\N	历史	History	中国	China	\N	\N	Of 1917, see 张勋复辟 (CC-CEDICT '丁巳復辟')	6001388
+6001389	丁玲	\N	dīnglíng	Ding Ling	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1904-1986; female novelist, author of novel The Sun Shines over the Sanggan River 太阳照在桑干河上, attacked during the 1950s as anti-Party (CC-CEDICT '丁玲')	6001389
+6001390	杨致远	楊致遠	Yáng Zhìyuǎn	Jerry Yang	proper noun	人	Person	商务	Commerce	美国	United States	\N	\N	(1968-) Taiwan-US millionaire and creator of Yahoo (Wikipedia '楊致遠')	6001390
+6001391	丁磊	\N	dīnglěi	Ding Lei	proper noun	人	Person	商务	Commerce	\N	\N	\N	\N	1971-; Founder and CEO of NetEase 网易 (CC-CEDICT '丁磊')	6001391
+6001392	丁肇中	\N	dīngzhàozhōng	Samuel C. C. Ting	proper noun	人	Person	机科学	Science	美国	United States	\N	\N	1936-; American physicist, 1976 Nobel Prize laureate in physics (CC-CEDICT '丁肇中')	6001392
+6001393	丁韪良	丁韙良	dīngwěiliáng	William A.P. Martin	proper noun	人	Person	教育	Education	中国	China	\N	\N	1827-1916; American missionary who lived 62 years in China between 1850 and 1916, and helped found many Chinese colleges, first president of Peking University (CC-CEDICT '丁韙良')	6001393
+6001394	七七事变	七七事變	qī qī shì biàn	Marco Polo Bridge Incident of 7th July 1937	proper noun	\N	\N	历史	History	中国	China	\N	\N	Regarded as the beginning of the Second Sino-Japanese War 抗日战争 (CC-CEDICT '七七事變')	6001394
+6001395	七十七国集团	七十七國集團	qīshíqī guó jítuán	Group of 77	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	Loose alliance of developing countries, founded in 1964 (CC-CEDICT '七十七國集團')	6001395
+6001396	七号电池	七號電池	qī hào diànchí	AAA battery (PRC)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	Taiwan equivalent: 四號電池 (CC-CEDICT '七號電池')	6001396
+6001397	七国集团	七國集團	qīguó jítuán	G7	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	The group of 7 industrialized countries: US, Japan, Britain, Germany, France, Italy and Canada (CC-CEDICT '七國集團')	6001397
+6001398	七大工业国集团	七大工業國集團	qī dà gōngyèguó jítuán	G7	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	The group of 7 industrialized countries: US, Japan, Britain, Germany, France, Italy and Canada (CC-CEDICT '七大工業國集團')	6001398
+6001399	斯坦福	\N	Sītǎnfú	Stanford (University)	proper noun	大学	University	教育	Education	美国	United States	\N	\N	(CC-CEDICT '斯坦福'; Wikipedia '史丹佛大學')	6001399
+6001400	唐纳川普	唐納川普	Tángnà Chuānpǔ	Donald Trump	proper noun	人	Person	政治	Politics	美国	United States	\N	\N	1946-; US president (Wikipedia '唐納·川普')	6001400
+6001401	七龙珠	七龍珠	qīlóngzhū	Dragon Ball, Japanese manga and anime series	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	(CC-CEDICT '七龍珠')	6001401
+6001402	三七开定论	三七開定論	sānqīkāi dìng lùn	thirty percent failure, seventy percent success, the official PRC verdict on Mao Zedong	phrase	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '三七開定論')	6001402
+6001403	三中全会	三中全會	sān zhōng quánhuì	third plenum of a national congress of the Chinese Communist Party	set phrase	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '三中全會')	6001403
+6001404	三公经费	三公經費	Sān Gōng jīngfèi	three public expenditures of the PRC government, i.e. air travel, food and entertainment, and public vehicles	set phrase	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '三公經費')	6001404
+6001405	三侠五义	三俠五義	sān xiá wǔ yì	Sanxia wuyi / Three knight-errants and five righteous ones	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	Novel edited from stories of late Qing dynasty pinghua 评话 master storyteller Shi Yukun 石玉昆 (CC-CEDICT '三俠五義')	6001405
+6001406	三个世界	三個世界	sān ge shìjiè	the Three Worlds (as proposed by Mao Zedong), i.e. the superpowers (USA and USSR), other wealthy countries (UK, France, Japan etc), and the developing countries of Asia, Africa and Latin America	set phrase	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '三個世界')	6001406
+6001407	三个代表	三個代表	sān ge dàibiǎo	the Three Represents enunciated by Jiang Zemin as the duty of the Chinese Communist party in 2001, namely: to represent productivity of an advanced society, forward progress of advanced culture and the fundamental interests of the people	set phrase	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '三個代表')	6001407
+6001408	三光政策	\N	sān guāng zhèngcè	Three Alls Policy (kill all, burn all, loot all), Japanese policy in China during WWII	proper noun	\N	\N	历史	History	日本	Japan	\N	\N	(CC-CEDICT '三光政策')	6001408
+6001409	三八大盖	三八大蓋	sānbā dà gài	Arisaka Type 38 rifle (Japanese army rifle used 1905-1945)	set phrase	\N	\N	历史	History	日本	Japan	\N	\N	(CC-CEDICT '三八大蓋')	6001409
