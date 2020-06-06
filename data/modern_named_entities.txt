@@ -1407,3 +1407,18 @@
 6001407	三个代表	三個代表	sān ge dàibiǎo	the Three Represents enunciated by Jiang Zemin as the duty of the Chinese Communist party in 2001, namely: to represent productivity of an advanced society, forward progress of advanced culture and the fundamental interests of the people	set phrase	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '三個代表')	6001407
 6001408	三光政策	\N	sān guāng zhèngcè	Three Alls Policy (kill all, burn all, loot all), Japanese policy in China during WWII	proper noun	\N	\N	历史	History	日本	Japan	\N	\N	(CC-CEDICT '三光政策')	6001408
 6001409	三八大盖	三八大蓋	sānbā dà gài	Arisaka Type 38 rifle (Japanese army rifle used 1905-1945)	set phrase	\N	\N	历史	History	日本	Japan	\N	\N	(CC-CEDICT '三八大蓋')	6001409
+6001410	伯克利	\N	Bókèlì	Berkeley / University of California, Berkeley	proper noun	大学	University	教育	Education	美国	United States	\N	\N	City and university in California (Wikipedia '伯克利 (加利福尼亞州)')	6001410
+6001411	三北防护林	三北防護林	sān běi fánghù lín	Green Wall of China	proper noun	\N	\N	政府	Government	中国	China	\N	\N	A massive afforestation program on the eastern margin of the Gobi Desert aimed at stopping the desert's expansion, started in 1978 and planned to be completed by 2050 (CC-CEDICT '三北防護林')	6001411
+6001412	三反运动	三反運動	sān fǎn yùndòng	Three Anti campaign (anti-corruption, anti-waste, anti-bureaucracy), early PRC purge of 1951-52	set phrase	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '三反運動')	6001412
+6001413	三大纪律八项注意	三大紀律八項注意	sān dà jìlǜ bā xiàng zhùyì	the Three Rules of Discipline and Eight Points for Attention	phrase	\N	\N	历史	History	中国	China	\N	\N	A military doctrine issued in 1928 by Mao Zedong for the Red Army, which included a number of injunctions demanding high standards of behavior and respect for civilians during wartime (CC-CEDICT '三大紀律八項注意')	6001413
+6001414	三岛由纪夫	三島由紀夫	sān dǎo yóu jì fū	Mishima Yukio	proper noun	作者	Author	文学	Literature	日本	Japan	\N	\N	1925-1970; Japanese author, pen name of 平冈公威 Hiraoka Kimitake (CC-CEDICT '三島由紀夫')	6001414
+6001415	三峡大坝	三峽大壩	Sān Xiá dàbà	Three Gorges Dam on the Yangtze River	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '三峽大壩')	6001415
+6001416	三峡水库	三峽水庫	Sān Xiá shuǐkù	Three Gorges Reservoir on the Changjiang or Yangtze	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '三峽水庫')	6001416
+6001417	三得利	\N	sāndelì	Suntory	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese beverage company (CC-CEDICT '三得利')	6001417
+6001418	三江并流	三江並流	sān jiāng bìng liú	Three Parallel Rivers National Park	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '三江並流')	6001418
+6001419	三江平原	\N	sān jiāng píngyuán	Sanjiang or Three rivers plain in Heilongjiang	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '三江平原')	6001419
+6001420	美国本土外小岛屿	美國本土外小島嶼	Měiguó běntǔ wài xiǎo Iǎoyǔ	United States Minor Outlying Islands	proper noun	领地	Territory	现代汉语	Modern Chinese	地理学	Geography	\N	\N	Islands in the Pacific Ocean and Caribbean, United States territory (XHZD, p. 705)	6001420
+6001421	美属维尔京群岛	美屬維爾京群島	Měi shǔ Wéi'ěrjīng Qúndǎo	United States Virgin Islands	proper noun	领地	Territory	地理学	Geography	北美	North America	\N	\N	A US territory (SDC, p. 195; XHZD, p. 705)	6001421
+6001422	俄勒冈州	俄勒岡州	élēigāng zhōu	Oregon	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '俄勒岡州'; Wikipedia '俄勒冈州')	6001422
+6001423	俄勒冈	俄勒岡	élēigāng	Oregon	proper noun	州	State	地方	Places	美国	United States	\N	\N	See 俄勒冈州 (Wikipedia '俄勒冈州')	6001423
+6001424	波特兰	波特蘭	bōtélán	Portland	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '波特蘭'; Wikipedia '波特兰')	6001424
