@@ -301,3 +301,4 @@
 3000301	金生丽水	金生麗水	jīnshēnglìshuǐ	gold is born in the River Li	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 金 gold + 生 produced from + 麗水 Li River; from 千字文 <i>Thousand Character Classic</i> (tr. Sturman, n.d.)	3000301
 3000302	玉出崑冈	玉出崑岡	yù chū kūn gāng	jade comes from Kunlun's vault	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 玉 jade + 出 from + 崑 Kunlun + 岡 mountain; from 千字文 <i>Thousand Character Classic</i> (tr. Sturman, n.d.)	3000302
 3000303	果珍李柰	\N	guǒ zhēn lǐ nài	dearest fruit are pears and apples	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 果 fruit + 珍 treasure + 李 pear + 柰 apple; from 千字文 <i>Thousand Character Classic</i> (tr. Sturman, n.d.)	3000303
+3000304	用军	用軍	yòng jūn	commanded their armies	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 千字文 <i>Thousand Character Classic</i> (Wu and Tee 2015, loc. 2096)	3000304

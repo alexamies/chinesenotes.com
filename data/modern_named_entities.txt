@@ -1574,3 +1574,9 @@
 6001574	五七一代	\N	wǔqī yīdài	generation of 1957 / refers to Mao's anti-rightist purge of 1957	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '五七一代')	6001574
 6001575	五七干校	五七幹校	wǔqī gānxiào	May 7 Cadre School (forcing educated people into re-education and peasant labor during Cultural Revolution)	proper noun	\N	\N	历史	History	中国	China	\N	\N	Abbreviation for 五七干部学校 (CC-CEDICT '五七幹校')	6001575
 6001576	五七干部学校	五七幹部學校	wǔqī gànbù xuéxiào	May 7 Cadre School (forcing educated people into re-education and peasant labor during Cultural Revolution)	proper noun	\N	\N	历史	History	中国	China	\N	\N	Abbreviation to 五七干校 (CC-CEDICT '五七幹部學校')	6001576
+6001577	美属萨摩亚	美屬薩摩亞	Měi Shǔ Sàmóyà	American Samoa	proper noun	领地	Territory	现代汉语	Modern Chinese	地理学	Geography	\N	\N	A United States territory (SDC, p. 172; XHZD, p. 705)	6001577
+6001578	尤里斯·伊文思	\N	yóu lǐ sī yī wénsī	Joris Ivens	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1898-1989; Dutch documentary filmmaker and committed communist (CC-CEDICT '尤里斯·伊文思')	6001578
+6001579	尹潽善	\N	yǐnpūshàn	Yun Poseon	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1897-1990; South Korean Democratic party politician, mayor of Seoul from 1948, president 1960-1962 (CC-CEDICT '尹潽善')	6001579
+6001580	伊斯曼	\N	yīsīmàn	George Eastman	proper noun	人	Person	历史	History	美国	United States	\N	\N	1854-1932; US inventor and founder of Kodak 柯达 (CC-CEDICT '伊斯曼')	6001580
+6001581	伊斯曼	\N	yīsīmàn	Max F. Eastman	proper noun	人	Person	历史	History	美国	United States	\N	\N	1883-1969; US socialist writer, subsequently severe critic of USSR (CC-CEDICT '伊斯曼')	6001581
+6001582	美国总统国家安全事务助理	美國总统國家安全事務助理	měiguó zǒngtǒng guójiā ānquán shìwù zhùlǐ	National Security Advisor	proper noun	官名	Official Title	政治	Politics	美国	United States	\N	\N	(Wikipedia '总统国家安全事务助理')	6001582
