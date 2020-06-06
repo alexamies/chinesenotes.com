@@ -1422,3 +1422,155 @@
 6001422	俄勒冈州	俄勒岡州	élēigāng zhōu	Oregon	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '俄勒岡州'; Wikipedia '俄勒冈州')	6001422
 6001423	俄勒冈	俄勒岡	élēigāng	Oregon	proper noun	州	State	地方	Places	美国	United States	\N	\N	See 俄勒冈州 (Wikipedia '俄勒冈州')	6001423
 6001424	波特兰	波特蘭	bōtélán	Portland	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '波特蘭'; Wikipedia '波特兰')	6001424
+6001425	三江生态旅游区	三江生態旅遊區	sān jiāng shēngtài lǚyóu qū	Sanjiang ecological tourist area in Wenchuan county 汶川县, northwest Sichuan	proper noun	县	County	地方	Places	中国	China	\N	\N	(CC-CEDICT '三江生態旅遊區')	6001425
+6001426	三洋	\N	sānyáng	Sanyō, Japanese electronics company	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '三洋')	6001426
+6001427	三浦	\N	sānpǔ	Miura (Japanese surname and place name)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '三浦')	6001427
+6001428	三联书店	三聯書店	sān lián shūdiàn	Joint Publishing, bookstore chain and publisher, founded in Hong Kong	proper noun	公司	Company	媒体	Media	中国	China	\N	\N	(CC-CEDICT '三聯書店')	6001428
+6001429	三自爱国教会	三自愛國教會	sānzì àiguó jiàohuì	Three-Self Patriotic Movement, PRC government-sanctioned Protestant church from 1949	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '三自愛國教會')	6001429
+6001430	三自教会	三自教會	sānzì jiàohuì	Three-Self Patriotic Movement, PRC government-sanctioned Protestant church from 1949	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '三自教會')	6001430
+6001431	三号电池	三號電池	sān hào diànchí	C size battery (PRC) / AA battery (Taiwan)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '三號電池')	6001431
+6001432	三鹿集团	三鹿集團	Sān Lù jítuán	Sanlu Group, Chinese state-owned dairy products company involved in the 2008 melamine poisoning scandal	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '三鹿集團')	6001432
+6001433	上合组织	上合組織	shànghé zǔzhī	Shanghai Cooperation Organisation (SCO)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '上合組織')	6001433
+6001434	上海商务印书馆	上海商務印書館	Shànghǎi Shāngwù yìnshū Guǎn	Commercial Press (from 1897)	proper noun	公司	Company	媒体	Media	中国	China	\N	\N	(CC-CEDICT '上海商務印書館')	6001434
+6001435	上海外国语大学	上海外國語大學	Shànghǎi wàiguó yǔ dàxué	Shanghai International Studies University (SISU)	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '上海外國語大學')	6001435
+6001436	上海振华港口机械	上海振華港口機械	Shànghǎi zhèn huá gǎngkǒu jīxiè	Shanghai Zhenhua Port Machinery Company	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '上海振華港口機械')	6001436
+6001437	上海汽车工业	上海汽車工業	Shànghǎi qìchē gōngyè	Shanghai Automotive Industry Corp. (SAIC)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '上海汽車工業')	6001437
+6001438	上海汽车工业集团	上海汽車工業集團	Shànghǎi qìchē gōngyè jítuán	Shanghai Automotive Industry Corp. (SAIC)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '上海汽車工業集團')	6001438
+6001439	上海环球金融中心	上海環球金融中心	Shànghǎi huánqiú jīnróng zhōngxīn	Shanghai World Financial Center (SWFC), skyscraper	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '上海環球金融中心')	6001439
+6001440	上海第二医科大学	上海第二醫科大學	Shànghǎi dì èr yīkē dàxué	Shanghai Second Medical University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '上海第二醫科大學')	6001440
+6001441	上海证券交易所综合股价指	上海證券交易所綜合股價指	shànghǎi zhèngquàn jiāoyìsuǒ zōnghé gǔjià zhǐ	Shanghai Stock Exchange (SSE) Composite Index	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '上海證券交易所綜合股價指')	6001441
+6001442	上海财经大学	上海財經大學	Shànghǎi cái jīng dàxué	Shanghai University of Finance and Economics (SUFE)	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '上海財經大學')	6001442
+6001443	上证综合指数	上證綜合指數	shàngzhèng zōnghé zhǐshù	SSE (Shanghai Stock Exchange) Composite Index	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '上證綜合指數')	6001443
+6001444	下议院议员	下議院議員	xiàyìyuàn yìyuán	Member of Parliament (MP) (UK Politics)	proper noun	\N	\N	地方	Places	英国	England	\N	\N	(CC-CEDICT '下議院議員')	6001444
+6001445	不列颠战役	不列顛戰役	bùlièdiān zhànyì	Battle of Britain (Jul-Oct 1940)	proper noun	\N	\N	历史	History	英国	England	\N	\N	(CC-CEDICT '不列顛戰役')	6001445
+6001446	不扩散核武器条约	不擴散核武器條約	bù kuòsàn héwǔqì tiáoyuē	Treaty on the Non-Proliferation of Nuclear Weapons	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '不擴散核武器條約')	6001446
+6001447	世界人权宣言	世界人權宣言	shìjiè rénquán xuānyán	Universal Declaration of Human Rights	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世界人權宣言')	6001447
+6001448	世界旅游组织	世界旅遊組織	shìjiè lǚyóu zǔzhī	World Tourism Organization (UNWTO)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世界旅遊組織')	6001448
+6001449	世界气象组织	世界氣象組織	shìjiè qìxiàng zǔzhī	World Meteorological Organization (WMO)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世界氣象組織')	6001449
+6001450	世界知识产权组织	世界知識產權組織	shìjiè zhīshi chǎnquán zǔzhī	World Intellectual Property Organization	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世界知識產權組織')	6001450
+6001451	世界粮食署	世界糧食署	shìjiè liángshi shǔ	World food program (United Nations aid agency)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '世界糧食署')	6001451
+6001452	世界金融中心	\N	shìjiè jīnróng zhōngxīn	World Financial Center (New York City)	proper noun	\N	\N	地方	Places	美国	United States	\N	\N	(CC-CEDICT '世界金融中心')	6001452
+6001453	世贸中心大楼	世貿中心大樓	shìmào zhōngxīn dàlóu	World Trade Center (the twin towers destroyed by the 9-11 terrorists)	proper noun	\N	\N	地方	Places	美国	United States	\N	\N	(CC-CEDICT '世貿中心大樓')	6001453
+6001454	丘成桐	\N	qiūchéngtóng	Shing-Tung Yau	proper noun	人	Person	机科学	Science	中国	China	\N	\N	1949-; Chinese-American mathematician, Fields medalist in 1982 (CC-CEDICT '丘成桐')	6001454
+6001455	丘尔金	丘爾金	qiūěrjīn	Churkin (name) / Vitaly I. Churkin	proper noun	人	Person	政治	Politics	欧洲	Europe	\N	\N	1952-; Russian diplomat, Ambassador to UN from 2006 (CC-CEDICT '丘爾金')	6001455
+6001456	丘逢甲	\N	qiūféngjiǎ	Qiu Fengjia / Ch'iu Feng-chia	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1864-1912; Taiwanese Hakkanese poet (CC-CEDICT '丘逢甲')	6001456
+6001457	中俄边界协议	中俄邊界協議	zhōngé biānjiè xiéyì	Sino-Russian Border Agreement of 1991	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中俄邊界協議')	6001457
+6001458	中共中央宣传部	中共中央宣傳部	Zhōnggòng Zhōngyāng xuānchuán bù	Propaganda Department of the Central Committee of the Communist Party of China	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中共中央宣傳部')	6001458
+6001459	中共中央纪律检查委员会	中共中央紀律檢查委員會	Zhōnggòng Zhōngyāng Jìlǜ jiǎnchá wěiyuánhuì	Disciplinary Committee of Chinese Communist Party	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中共中央紀律檢查委員會')	6001459
+6001460	中共中央组织部	中共中央組織部	Zhōnggòng Zhōngyāng zǔzhī bù	Organization Department of the Communist Party of China Central Committee, which oversees appointments of Party members to official positions throughout China	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation to 中组部 (CC-CEDICT '中共中央組織部')	6001460
+6001461	中共中央办公厅	中共中央辦公廳	Zhōnggòng Zhōngyāng bàngōngtīng	General Office of the Central Committee of the CPC, responsible for technical and logistical matters relating to the Central Committee	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	Abbreviation to 中办 (CC-CEDICT '中共中央辦公廳')	6001461
+6001462	中共九大	\N	Zhōnggòng jiǔ dà	Chinese Communist Party 9th congress in 1969	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中共九大')	6001462
+6001463	中北大学	中北大學	zhōng Běi Dà xué	North University of China (Shanxi)	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '中北大學')	6001463
+6001464	中国交通建设	中國交通建設	zhōngguó jiāotōng jiànshè	China Communications Construction Company	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國交通建設')	6001464
+6001465	中国交通运输协会	中國交通運輸協會	zhōngguó jiāotōng yùnshū xiéhuì	China Communications and Transportation Association (CCTA)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國交通運輸協會')	6001465
+6001466	中国人大	中國人大	Zhōngguórén dà	China National People's Congress	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國人大')	6001466
+6001467	中国人权民运信息中心	中國人權民運信息中心	Zhōngguórén quán mínyùn xìnxī zhōngxīn	Information Center for Human Rights and Democracy, Hong Kong	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國人權民運信息中心')	6001467
+6001468	中国人权组织	中國人權組織	Zhōngguórén quán zǔzhī	Human Rights in China (New York-based expatriate PRC organization)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國人權組織')	6001468
+6001469	中国人民对外友好协会	中國人民對外友好協會	Zhōngguórén mín duìwài yǒuhǎo xiéhuì	Chinese People's Association for Friendship with Foreign Countries (CPAFFC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國人民對外友好協會')	6001469
+6001470	中国人民政治协商会议	中國人民政治協商會議	Zhōngguórén mínzhèng zhì xiéshāng huìyì	CPPCC (Chinese People's Political Consultative Conference)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國人民政治協商會議')	6001470
+6001471	中国人民武装警察部队	中國人民武裝警察部隊	Zhōngguórén mín wǔzhuāng jǐngchá bùduì	Chinese People's Armed Police Force (CAPF)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國人民武裝警察部隊')	6001471
+6001472	中国人民解放军	中國人民解放軍	Zhōngguórén mín Jiěfàng Jūn	Chinese People's Liberation Army (PLA)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國人民解放軍')	6001472
+6001473	中国人民解放军海军	中國人民解放軍海軍	Zhōngguórén mín Jiěfàng Jūn hǎijūn	Chinese People's Liberation Army Navy (PLAN)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國人民解放軍海軍')	6001473
+6001474	中国人民解放军空军	中國人民解放軍空軍	Zhōngguórén mín Jiěfàng Jūn kōngjūn	People's Liberation Army Air Force (PLAAF)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國人民解放軍空軍')	6001474
+6001475	中国伊斯兰教协会	中國伊斯蘭教協會	zhōngguó Yīsīlán Jiào xiéhuì	Chinese Patriotic Islamic Association	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國伊斯蘭教協會')	6001475
+6001476	中国作协	中國作協	zhōngguó zuò xié	China Writers Association (CWA)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation for 中国作家协会 (CC-CEDICT '中國作協')	6001476
+6001477	中国保险监督管理委员会	中國保險監督管理委員會	zhōngguó bǎoxiǎn jiāndū guǎnlǐ wěiyuánhuì	China Insurance Regulatory Commission (CIRC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國保險監督管理委員會')	6001477
+6001478	中国传媒大学	中國傳媒大學	zhōngguó chuánméi dàxué	Communication University of China (CUC), the highest institute of radio, film and television education in China	proper noun	大学	University	戏剧	Drama	中国	China	\N	\N	(CC-CEDICT '中國傳媒大學')	6001478
+6001479	中国共产党中央委员会	中國共產黨中央委員會	Zhōngguó Gòngchǎn Dǎng zhōngyāng wěiyuánhuì	Central Committee of the Communist Party of China	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation to 中共中央 (CC-CEDICT '中國共產黨中央委員會')	6001479
+6001480	中国共产党中央委员会宣传部	中國共產黨中央委員會宣傳部	Zhōngguó Gòngchǎn Dǎng zhōngyāng wěiyuánhuì xuānchuán bù	Propaganda Department of the Communist Party of China	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國共產黨中央委員會宣傳部')	6001480
+6001481	中国北方工业公司	中國北方工業公司	zhōngguó běifāng gōngyè gōngsī	China North Industries Corporation (Norinco)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國北方工業公司')	6001481
+6001482	中国国家原子能机构	中國國家原子能機構	zhōngguó guójiā yuánzǐ néng jīgòu	China Atomic Energy Agency (CAEA)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國國家原子能機構')	6001482
+6001483	中国国家地震局	中國國家地震局	zhōngguó guójiā dìzhènjú	China earthquake administration (CEA) / State seismological bureau	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國國家地震局')	6001483
+6001484	中国国家环保局	中國國家環保局	zhōngguó guójiā huánbǎojú	PRC State Environmental Protection Administration (SEPA)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國國家環保局')	6001484
+6001485	中国国家环境保护总局	中國國家環境保護總局	zhōngguó guójiā huánjìng bǎohù zǒngjú	PRC State Environmental Protection Administration (SEPA)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國國家環境保護總局')	6001485
+6001486	中国国家航天局	中國國家航天局	zhōngguó guójiā hángtiānjú	China National Space Administration (CNSA)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國國家航天局')	6001486
+6001487	中国国民党革命委员会	中國國民黨革命委員會	Zhōngguó Guómín Dǎng gémìng wěiyuánhuì	Revolutionary Committee of the Kuomintang	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國國民黨革命委員會')	6001487
+6001488	中国国防科技信息中心	中國國防科技信息中心	zhōngguó guófáng kējì xìnxī zhōngxīn	China Defense Science and Technology Information Center (CDSTIC)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國國防科技信息中心')	6001488
+6001489	中国国际信托投资公司	中國國際信托投資公司	zhōngguó guójì xìntuō tóuzī gōngsī	CITIC / Chinese International Trust and Investment Company	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國國際信托投資公司')	6001489
+6001490	中国国际贸易促进委员会	中國國際貿易促進委員會	zhōngguó guójìmàoyì cùjìn wěiyuánhuì	China Council for the Promotion of International Trade (CCPIT)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國國際貿易促進委員會')	6001490
+6001491	中国地质大学	中國地質大學	zhōngguó dìzhì dàxué	China University of Geosciences	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '中國地質大學')	6001491
+6001492	中国地震台	中國地震台	zhōngguó dìzhèn tái	China earthquake administration (CEA) / State seismological bureau	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國地震台')	6001492
+6001493	中国地震局	中國地震局	zhōngguó dìzhènjú	China earthquake administration (CEA) / State seismological bureau	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國地震局')	6001493
+6001494	中国大百科全书出版社	中國大百科全書出版社	zhōngguó dà bǎikē quánshū chūbǎn shè	Encyclopedia of China Publishing House	proper noun	公司	Company	媒体	Media	中国	China	\N	\N	(CC-CEDICT '中國大百科全書出版社')	6001494
+6001495	中国天主教爱国会	中國天主教愛國會	zhōngguó Tiānzhǔ Jiào àiguó huì	Chinese Patriotic Catholic Association	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國天主教愛國會')	6001495
+6001496	中国好声音	中國好聲音	zhōngguó hǎo shēngyīn	The Voice of China, PRC reality talent show	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國好聲音')	6001496
+6001497	中国小说史略	中國小說史略	zhōngguó xiǎoshuō shǐ lüè	Concise History of the Chinese Novel	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	By Lu Xun 鲁迅 (CC-CEDICT '中國小說史略')	6001497
+6001498	中国工商银行	中國工商銀行	zhōngguó Gōngshāng Yínháng	Industrial and Commercial Bank of China (ICBC)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國工商銀行')	6001498
+6001499	中国左翼作家联盟	中國左翼作家聯盟	zhōngguó zuǒyì zuòjiā liánméng	the League of the Left-Wing Writers, an organization of writers formed in China in 1930	phrase	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國左翼作家聯盟')	6001499
+6001500	中国广播公司	中國廣播公司	zhōngguó guǎngbō gōngsī	Broadcasting Corporation of China (BCC)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國廣播公司')	6001500
+6001501	中国政法大学	中國政法大學	zhōngguó zhèngfǎ dàxué	China University of Political Science and Law	proper noun	大学	University	教育	Education	中国	China	\N	\N	In Beijing, with undergraduate campus at Changping 昌平, and graduate campus in Haidian district 海淀区 (CC-CEDICT '中國政法大學')	6001501
+6001502	中国教育和科研计算机网	中國教育和科研計算機網	zhōngguó jiàoyù hé kēyán jìsuànjī wǎng	China Education and Research Network (CERNET)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation to 中国教育网 (CC-CEDICT '中國教育和科研計算機網')	6001502
+6001503	中国文学艺术界联合会	中國文學藝術界聯合會	zhōngguó wénxué yìshù jiè liánhéhuì	China Federation of Literary and Art Circles (CFLAC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation to 文联 (CC-CEDICT '中國文學藝術界聯合會')	6001503
+6001504	中国新民党	中國新民黨	zhōngguó xīnmín dǎng	New People's Party of China	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國新民黨')	6001504
+6001505	中国核能总公司	中國核能總公司	zhōngguó hénéng zǒnggōngsī	China National Nuclear Corporation (CNNC)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國核能總公司')	6001505
+6001506	中国残疾人联合会	中國殘疾人聯合會	zhōngguó cánjí rén liánhéhuì	China Disabled Persons' Federation	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國殘疾人聯合會')	6001506
+6001507	中国残联	中國殘聯	zhōngguó cán lián	China Disabled Persons' Federation	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	Abbreviation for 中国残疾人联合会) (CC-CEDICT '中國殘聯')	6001507
+6001508	中国民主促进会	中國民主促進會	zhōngguó mínzhǔ cùjìn huì	China Association for Promoting Democracy	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國民主促進會')	6001508
+6001509	中国民主建国会	中國民主建國會	zhōngguó mínzhǔ jiànguó huì	China Democratic National Construction Association	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國民主建國會')	6001509
+6001510	中国民用航空局	中國民用航空局	zhōngguó mínyòng hángkōngjú	Civil Aviation Administration of China (CAAC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國民用航空局')	6001510
+6001511	中国气象局	中國氣象局	zhōngguó Qìxiàng Jú	China Meteorological Administration (CMA)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國氣象局')	6001511
+6001512	中国海洋石油总公司	中國海洋石油總公司	zhōngguóhǎi yáng shíyóu zǒnggōngsī	CNOOC / China National Offshore Oil Corporation	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國海洋石油總公司')	6001512
+6001513	中国消费者协会	中國消費者協會	zhōngguó xiāofèizhě xiéhuì	China Consumers' Association (CCA)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國消費者協會')	6001513
+6001514	中国无线电频谱管理和监测	中國無線電頻譜管理和監測	zhōngguó wú xiàn diàn pínpǔ guǎnlǐ hé jiāncè	China state radio regulation committee SRRC	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國無線電頻譜管理和監測')	6001514
+6001515	中国石化	中國石化	zhōngguó shí huà	China Petroleum and Chemical Corporation, Sinopec	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國石化')	6001515
+6001516	中国石油化工股份有限公司	中國石油化工股份有限公司	zhōngguó shíyóu huàgōng gǔfèn yǒuxiàn gōngsī	China Petroleum and Chemical Corporation, Sinopec	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	Abbreviation to 中石化 (CC-CEDICT '中國石油化工股份有限公司')	6001516
+6001517	中国石油和化学工业协会	中國石油和化學工業協會	zhōngguó shíyóu hé huàxué gōngyè xiéhuì	China Petrol and Chemical Industry Association (CPCIA)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國石油和化學工業協會')	6001517
+6001518	中国石油天然气集团公司	中國石油天然氣集團公司	zhōngguó shíyóu tiānránqì jítuán gōngsī	China National Petroleum Corporation	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國石油天然氣集團公司')	6001518
+6001519	中国移动通信	中國移動通信	zhōngguó yídòng tōngxìn	China Mobile (PRC state telecommunications company)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國移動通信')	6001519
+6001520	中国精密机械进出口公司	中國精密機械進出口公司	zhōngguó jīngmì jīxiè jìnchūkǒu gōngsī	China Precision Machinery Import-Export Corporation (CPMIEC)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國精密機械進出口公司')	6001520
+6001521	中国经营报	中國經營報	zhōngguó jīngyíng bào	China Business (a Beijing newspaper)	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '中國經營報')	6001521
+6001522	中国致公党	中國致公黨	zhōngguó zhì gōng dǎng	China Party for Public Interest	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國致公黨')	6001522
+6001523	中国航天工业公司	中國航天工業公司	zhōngguó hángtiān gōngyè gōngsī	China Aerospace Corporation, forerunner of China Aerospace Science and Technology Corporation (CASC) 中國航天科技集團公司|中国航天科技集团公司	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國航天工業公司')	6001523
+6001524	中国航海日	中國航海日	zhōngguó hánghǎi rì	Maritime Day (July 11th) commemorating the first voyage of Zheng He 鄭和|郑和 in 1405 AD	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中國航海日')	6001524
+6001525	中国航空工业公司	中國航空工業公司	zhōngguó hángkōng gōngyè gōngsī	Aviation Industries of China (AVIC)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國航空工業公司')	6001525
+6001526	中国航空运输协会	中國航空運輸協會	zhōngguó hángkōng yùnshū xiéhuì	China Air Transport Association (CATA)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國航空運輸協會')	6001526
+6001527	中国船舶工业集团	中國船舶工業集團	zhōngguó chuánbó gōngyè jítuán	China State Shipbuilding Corporation (CSSC)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國船舶工業集團')	6001527
+6001528	中国船舶贸易公司	中國船舶貿易公司	zhōngguó chuánbó màoyì gōngsī	China Shipbuilding Trading Corporation (CSTC)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國船舶貿易公司')	6001528
+6001529	中国船舶重工集团公司	中國船舶重工集團公司	zhōngguó chuánbó zhònggōng jítuán gōngsī	China Ship Scientific Research Center (CSSRC)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國船舶重工集團公司')	6001529
+6001530	中国证券监督管理委员会	中國證券監督管理委員會	zhōngguó zhèngquàn jiāndū guǎnlǐ wěiyuánhuì	China Securities Regulatory Commission (CSRC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation to 证监会 (CC-CEDICT '中國證券監督管理委員會')	6001530
+6001531	中国证监会	中國證監會	zhōngguó zhèng jiān huì	China Securities Regulatory Commission (CSRC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation for 中国证券监督管理委员会 (CC-CEDICT '中國證監會')	6001531
+6001532	中国进出口银行	中國進出口銀行	zhōngguó jìnchūkǒu yínháng	The Export-Import Bank of China (state-owned bank)	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國進出口銀行')	6001532
+6001533	中国游艺机游乐园协会	中國遊藝機遊樂園協會	zhōngguó yóuyì jī yóulè yuán xiéhuì	China Association of Amusement Parks and Attractions (CAAPA)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國遊藝機遊樂園協會')	6001533
+6001534	中国邮政	中國郵政	zhōngguó yóuzhèng	China Post (Chinese postal service)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國郵政')	6001534
+6001535	中国银联	中國銀聯	zhōngguó yínlián	China UnionPay (CUP), China's only domestic bank card organization	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中國銀聯')	6001535
+6001536	中国银行业监督管理委员会	中國銀行業監督管理委員會	Zhōngguó Yínháng yè jiāndū guǎnlǐ wěiyuánhuì	China Banking Regulatory Commission (CBRC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中國銀行業監督管理委員會')	6001536
+6001537	中国长城工业公司	中國長城工業公司	zhōngguó chángchéng gōngyè gōngsī	China Great Wall Industry Corporation (CGWIC)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中國長城工業公司')	6001537
+6001538	中央人民政府驻香港特别行政区联络办公室	中央人民政府駐香港特別行政區聯絡辦公室	zhōngyāng rénmínzhèngfǔ zhù xiānggǎng Tèbié Xíngzhèng Qū liánluò bàngōngshì	Liaison Office of the Central People's Government in the Hong Kong Special Administrative Region	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '中央人民政府駐香港特別行政區聯絡辦公室')	6001538
+6001539	中央宣传部	中央宣傳部	zhōngyāng xuānchuán bù	Central Propaganda Department	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	Abbreviation for 中国共产党中央委员会宣传部) (CC-CEDICT '中央宣傳部')	6001539
+6001540	中央民族大学	中央民族大學	zhōngyāng mínzú dàxué	Central University for Nationalities	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '中央民族大學')	6001540
+6001541	中央军事委员会	中央軍事委員會	zhōngyāng jūnshì wěiyuánhuì	(PRC) Central Military Commission	phrase	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中央軍事委員會')	6001541
+6001542	中央军委	中央軍委	zhōngyāng jūn wěi	Central Military Committee (CMC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中央軍委')	6001542
+6001543	中山成彬	\N	zhōngshān chéngbīn	Nakayama Nariaki	proper noun	人	Person	政治	Politics	日本	Japan	\N	\N	1943-; right-wing Japanese cabinet minister and prominent denier of Japanese war crimes (CC-CEDICT '中山成彬')	6001543
+6001544	中山狼传	中山狼傳	zhōngshān láng chuán	The Wolf of Zhongshan	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	Fable by Ma Zhongxi 马中锡 (CC-CEDICT '中山狼傳')	6001544
+6001545	中复电讯	中復電訊	zhōng fù diànxùn	Zoomflight Telecom (Chinese company)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中復電訊')	6001545
+6001546	中旅社	\N	Zhōng Lǚshè	China Travel Service (CTS), state-owned travel company	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中旅社')	6001546
+6001547	中沙群岛	中沙群島	zhōng shā qúndǎo	Macclesfield Bank, series of reefs in the South China Sea southeast of Hainan Island	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中沙群島')	6001547
+6001548	中石化	\N	zhōngshí huà	China Petroleum and Chemical Corporation, Sinopec	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	Abbreviation for 中国石油化工股份有限公司 (CC-CEDICT '中石化')	6001548
+6001549	中石油川东钻探公司	中石油川東鑽探公司	zhōng shíyóu chuān dōng zuāntàn gōngsī	Chuandong Oil Drilling & Exploration Company (CODEC)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '中石油川東鑽探公司')	6001549
+6001550	中联航	中聯航	zhōngliánháng	China United Airlines	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	Abbreviation for 中国联合航空 (CC-CEDICT '中聯航')	6001550
+6001551	中航技进出口有限责任公司	中航技進出口有限責任公司	zhōng háng jì jìnchūkǒu yǒuxiàn zérèn gōngsī	China National Aero-Technology Import & Export Corporation (CATIC)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中航技進出口有限責任公司')	6001551
+6001552	中华全国妇女联合会	中華全國婦女聯合會	Zhōnghuá quánguó fùnǚ liánhéhuì	All-China Women's Federation (PRC, established 1949)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中華全國婦女聯合會')	6001552
+6001553	中华全国总工会	中華全國總工會	Zhōnghuá quánguó zǒng gōnghuì	All-China Federation of Trade Unions (ACFTU)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中華全國總工會')	6001553
+6001554	中华字海	中華字海	Zhōnghuá zì hǎi	Zhonghua Zihai	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	Comprehensive Chinese character dictionary with 85,568 entries, compiled in 1994 (CC-CEDICT '中華字海')	6001554
+6001555	中华台北	中華臺北	Zhōnghuá Táiběi	Chinese Taipei, name for Taiwan to which the PRC and Taiwan agreed for the purpose of participation in international events	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '中華臺北')	6001555
+6001556	中华苏维埃共和国	中華蘇維埃共和國	Zhōnghuá sūwéi'āi gònghéguó	Chinese Soviet Republic	proper noun	\N	\N	历史	History	中国	China	\N	\N	1931-1937 (CC-CEDICT '中華蘇維埃共和國')	6001556
+6001557	中苏解决悬案大纲协定	中蘇解決懸案大綱協定	zhōng sū jiějué xuán'àn dàgāng xiédìng	the treaty of 1923 normalizing relations between the Soviet Union and the Northern Warlord government of China	phrase	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '中蘇解決懸案大綱協定')	6001557
+6001558	中译语通	中譯語通	zhōng yìyǔ tōng	Global Tone Communication Technology Co., Ltd (GTCOM), Chinese big data and AI company	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中譯語通')	6001558
+6001559	中越战争	中越戰爭	zhōng Yuè Zhàn zhēng	the Sino-Vietnamese War, fought between the PRC and Vietnam in 1979	set phrase	\N	\N	历史	History	亚洲	Asia	\N	\N	(CC-CEDICT '中越戰爭')	6001559
+6001560	中远太平洋	中遠太平洋	zhōngyuǎn Tàipíng Yáng	COSCO Pacific Limited, major freight company	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中遠太平洋')	6001560
+6001561	中远太平洋有限公司	中遠太平洋有限公司	zhōngyuǎn Tàipíng Yáng yǒuxiàn gōngsī	COSCO Pacific Limited, major freight company	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中遠太平洋有限公司')	6001561
+6001562	丹瑞	\N	dānruì	General Than Shwe	proper noun	人	Person	地方	Places	亚洲	Asia	\N	\N	1933-; Myanmar army officer and politician, leader of the military junta 1992-2011 (CC-CEDICT '丹瑞')	6001562
+6001563	丹瑞大将	丹瑞大將	dān ruì dàjiāng	Than Shwe	proper noun	人	Person	地方	Places	亚洲	Asia	\N	\N	1933-; Myanmar general and politician, president of Myanmar 1992-2011 (CC-CEDICT '丹瑞大將')	6001563
+6001564	主体思想	主體思想	zhǔtǐ sīxiǎng	Juche Idea (North Korean ideology of political, economic and military independence)	proper noun	\N	\N	政治	Politics	亚洲	Asia	\N	\N	(CC-CEDICT '主體思想')	6001564
+6001565	乃堆拉山口	\N	nǎiduīlā Shānkǒu	Nathu La (Himalayan pass on Silk Road between Tibet and Indian Sikkim)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '乃堆拉山口')	6001565
+6001566	九三学社	九三學社	jiǔ sān xué shè	Jiusan Society, one of the eight political parties of the CPC	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	(CC-CEDICT '九三學社')	6001566
+6001567	九二共识	九二共識	jiǔ èr gòngshí	1992 Consensus, statement issued after 1992 talks between PRC and Taiwan representatives, asserting that there is only one China	set phrase	\N	\N	政治	Politics	中国	China	\N	\N	(CC-CEDICT '九二共識')	6001567
+6001568	九寨沟风景名胜区	九寨溝風景名勝區	jiǔzhàigōu fēngjǐng míngshèng qū	Jiuzhaigou Valley Scenic and Historical Interest Area, Sichuan	proper noun	\N	\N	地方	Places	中国	China	\N	\N	(CC-CEDICT '九寨溝風景名勝區')	6001568
+6001569	九校联盟	九校聯盟	jiǔ xiào liánméng	C9 League	proper noun	\N	\N	政府	Government	中国	China	\N	\N	alliance of nine prestigious Chinese universities, established in 1998 (CC-CEDICT '九校聯盟')	6001569
+6001570	二十一条	二十一條	èrshíyī tiáo	the Japanese Twenty-One Demands of 1915	set phrase	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '二十一條')	6001570
+6001571	二十年目睹之怪现状	二十年目睹之怪現狀	èrshí nián mùdǔ zhī guài xiànzhuàng	The Strange State of the World Witnessed Over 20 Years	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	Novel by late Qing novelist Wu Jianren 吴趼人 (CC-CEDICT '二十年目睹之怪現狀')	6001571
+6001572	二号电池	二號電池	èr hào diànchí	C size battery	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	Taiwanese usage; PRC equivalent: 三号电池 (CC-CEDICT '二號電池')	6001572
+6001573	于丹	\N	yúdān	Yu Dan (1965-), female scholar, writer, educator and TV presenter	proper noun	\N	\N	媒体	Media	中国	China	\N	\N	(CC-CEDICT '于丹')	6001573
+6001574	五七一代	\N	wǔqī yīdài	generation of 1957 / refers to Mao's anti-rightist purge of 1957	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '五七一代')	6001574
+6001575	五七干校	五七幹校	wǔqī gānxiào	May 7 Cadre School (forcing educated people into re-education and peasant labor during Cultural Revolution)	proper noun	\N	\N	历史	History	中国	China	\N	\N	Abbreviation for 五七干部学校 (CC-CEDICT '五七幹校')	6001575
+6001576	五七干部学校	五七幹部學校	wǔqī gànbù xuéxiào	May 7 Cadre School (forcing educated people into re-education and peasant labor during Cultural Revolution)	proper noun	\N	\N	历史	History	中国	China	\N	\N	Abbreviation to 五七干校 (CC-CEDICT '五七幹部學校')	6001576
