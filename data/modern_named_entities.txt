@@ -1585,9 +1585,59 @@
 6001585	美国永久居民	美國永久居民	Měiguó yǒngjiǔ jūmín	United States permanent resident	set phrase	\N	\N	政府	Government	美国	United States	\N	\N	(Wikipedia '美国永久居民')	6001585
 6001586	湖人	\N	húrén	Los Angeles Lakers	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	An Abbreviation for 洛杉矶湖人(CC-CEDICT '湖人')	6001586
 6001587	五卅	\N	wǔsà	abbr. for 五卅運動|五卅运动, The May Thirtieth Movement	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1925 (CC-CEDICT '五卅')	6001587
-6001588	五卅运动	五卅運動	wǔ sà yùndòng	anti-imperialist movement of 30th May 1925, involving general strike esp. in Shanghai, Guangzhou, Hong Kong etc	set phrase	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '五卅運動')	6001588
+6001588	五卅运动	五卅運動	wǔ sà yùndòng	anti-imperialist movement of 30th May 1925, involving general strike esp. in Shanghai, Guangzhou, Hong Kong etc	set phrase	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '五卅運動')	6001588
 6001589	五四爱国运动	五四愛國運動	wǔsì àiguó yùndòng	May Fourth Movement	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '五四愛國運動')	6001589
 6001590	五大湖	\N	wǔ dàhú	Great Lakes / the five north American Great Lakes	proper noun	湖	Lake	地方	Places	美国	United States	\N	\N	(CC-CEDICT '五大湖')	6001590
 6001591	五号电池	五號電池	wǔhào diànchí	AA battery (PRC)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwan equivalent: 三号电池 (CC-CEDICT '五號電池')	6001591
 6001592	亚伦	亞倫	yàlún	Yaren	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	capital of Nauru (CC-CEDICT '亞倫')	164877
 6001593	雷根	\N	léigēn	Ronald Reagan	proper noun	总统	President	政治	Politics	美国	United States	\N	\N	 1911-2004, US president for period 1981-1989 (CC-CEDICT '雷根')	6001593
+6001594	亚努科维奇	亞努科維奇	yà nǔ kē wéiqí	Viktor Feyedov Yanukovych	proper noun	人	Person	政治	Politics	欧洲	Europe	\N	\N	1950-;  Ukrainian politician (CC-CEDICT '亞努科維奇')	6001594
+6001595	亚哈	亞哈	yàhā	Ahab	proper noun	\N	\N	历史	History	\N	\N	\N	\N	(9th c. BCE; King of Israel, son of Omri and husband of Jezebel, prominent figure in 1 Kings 16-22 (CC-CEDICT '亞哈')	6001595
+6001596	亚太经合会	亞太經合會	Yà Tài jīnghé huì	APEC (Asia Pacific economic cooperation)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '亞太經合會')	6001596
+6001597	亚太经济合作组织	亞太經濟合作組織	Yà Tài jīngjì hézuò zǔzhī	Asian-Pacific Economic Cooperation organization (APEC)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '亞太經濟合作組織')	6001597
+6001598	亚洲周刊	亞洲周刊	yàzhōu zhōukān	Asiaweek (current affairs magazine)	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '亞洲周刊')	6001598
+6001599	博洛尼亚	博洛尼亞	bóluòníyà	Bologna	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '博洛尼亞')	6001599
+6001600	京郊日报	京郊日報	Jīngjiāo rìbào	Beijing Suburbs Daily	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '京郊日報')	6001600
+6001601	今日头条	今日頭條	jīnrì tóutiáo	Toutiao, personalized content recommendation app	proper noun	产品	Product	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '今日頭條')	6001601
+6001602	光明日报	光明日報	guāngmíng rìbào	Guangming Daily, a Beijing newspaper	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '光明日報')	6001602
+6001603	八国集团	八國集團	bā guó jítuán	G8 (group of eight major industrialized nations)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '八國集團')	6001603
+6001604	八月之光	\N	bāyuè zhī guāng	Light in August	proper noun	书名	Book Title	文学	Literature	\N	\N	\N	\N	Novel by William Faulkner 威廉·福克纳 (CC-CEDICT '八月之光')	6001604
+6001605	南海舰队	南海艦隊	Nán Hǎi jiànduì	South Sea Fleet	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '南海艦隊')	6001605
+6001606	劳动新闻	勞動新聞	láodòng xīnwén	Rodong Sinmun (Workers' news)	proper noun	报纸	Newspaper	媒体	Media	亚洲	Asia	\N	\N	The official newspaper of the North Korean WPK's Central Committee (CC-CEDICT '勞動新聞')	6001606
+6001607	劳斯莱斯	勞斯萊斯	láosī láisī	Rolls-Royce	proper noun	公司	Company	商务	Commerce	英国	England	\N	\N	(CC-CEDICT '勞斯萊斯')	6001607
+6001608	北京日报	北京日報	Běijīng rìbào	Beijing Daily	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	Newspaper www.bjd.com.cn (CC-CEDICT '北京日報')	6001608
+6001609	南方周末	\N	Nánfāng zhōumò	Southern Weekend	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '南方周末')	6001609
+6001610	北京晚报	北京晚報	Běijīng wǎnbào	Beijing Evening News	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '北京晚報')	6001610
+6001611	北京晨报	北京晨報	Běijīng chénbào	Beijing Morning Post	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	www.morningpost.com.cn (CC-CEDICT '北京晨報')	6001611
+6001612	北京周报	北京週報	Běijīng zhōubào	Beijing Review	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '北京週報')	6001612
+6001613	汇业银行	匯業銀行	huì yè yínháng	Banco Delta Asia S.A.R.L., Macau	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '匯業銀行')	6001613
+6001614	协和飞机	協和飛機	xiéhé fēijī	Concorde, supersonic passenger airliner	proper noun	\N	\N	商务	Commerce	英国	England	\N	\N	(CC-CEDICT '協和飛機')	6001614
+6001615	耶鲁大学	耶魯大學	yélǔ dàxué	Yale University	proper noun	大学	Unversity	教育	Education	美国	United States	\N	\N	(CC-CEDICT '耶魯大學')	6001615
+6001616	丹佛	\N	dānfó	Denver	proper noun	城市	City	地方	Places	美国	United States	\N	\N	Located in Colorado (CC-CEDICT '丹佛')	6001616
+6001617	博尔赫斯	博爾赫斯	bó ěr hè sī	Jorge Luis Borges	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '博爾赫斯')	6001617
+6001618	博茨瓦那	\N	bó cí wǎ nà	Botswana	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '博茨瓦那')	6001618
+6001619	卡利亚里	卡利亞里	kǎlìyàlǐ	Cagliari, Sardinia	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '卡利亞里')	6001619
+6001620	卡利卡特	\N	kǎ lì kǎté	Calicut, town on Arabian sea in Kerala, India	proper noun	地名	Place Name	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '卡利卡特')	6001620
+6001621	卡塔尼亚	卡塔尼亞	kǎ tǎ ní yà	Catania, Sicily	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '卡塔尼亞')	6001621
+6001622	卡塔赫纳	卡塔赫納	kǎ tǎ hè nà	Cartagena	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '卡塔赫納')	6001622
+6001623	卡拉奇那	\N	kǎlāqí nà	Krajina (former Yugoslavia)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '卡拉奇那')	6001623
+6001624	卡波耶拉	\N	kǎ bō yé lā	Capoeira	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '卡波耶拉')	6001624
+6001625	卡尔德龙	卡爾德龍	Kǎ'ěr dé lóng	Calderon (Hispanic name)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '卡爾德龍')	6001625
+6001626	卡纳达语	卡納達語	kǎ nà dá yǔ	Kannada	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '卡納達語')	6001626
+6001627	印度斯坦	\N	yìndù sī tǎn	Hindustan	proper noun	地名	Place Name	历史	History	亚洲	Asia	\N	\N	(CC-CEDICT '印度斯坦')	6001627
+6001628	印度时报	印度時報	yìndù shíbào	India Times	proper noun	报纸	Newspaper	媒体	Media	亚洲	Asia	\N	\N	(CC-CEDICT '印度時報')	6001628
+6001629	印度音乐	印度音樂	yìndù yīnyuè	Bhangra, Indian music (music genre)	proper noun	\N	\N	音乐	Music	亚洲	Asia	\N	\N	(CC-CEDICT '印度音樂')	6001629
+6001630	厄利垂亚	厄利垂亞	èlìchuíyà	Eritrea	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '厄利垂亞')	6001630
+6001631	口袋妖怪	\N	kǒudài yāoguài	Pokémon (Japanese media franchise)	proper noun	产品	Product	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '口袋妖怪')	6001631
+6001632	古墓丽影	古墓麗影	gǔmù lì yǐng	Tomb Raider (computer game)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '古墓麗影')	6001632
+6001633	史普尼克	\N	shǐ pǔ ní kè	Sputnik, Soviet artificial Earth satellite	proper noun	\N	\N	政府	Government	欧洲	Europe	\N	\N	Also written 斯普特尼克 (CC-CEDICT '史普尼克')	6001633
+6001634	史瓦济兰	史瓦濟蘭	shǐ wǎ jì lán	Swaziland	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '史瓦濟蘭')	6001634
+6001635	史瓦辛格	\N	shǐ wǎ xīn gé	Arnold Schwarzenegger	proper noun	人	Person	媒体	Media	美国	United States	\N	\N	Also written 阿诺德·施瓦辛格 (CC-CEDICT '史瓦辛格')	6001635
+6001636	史蒂文斯	\N	shǐ dì wén sī	Stephens / Stevens	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '史蒂文斯')	6001636
+6001637	凤凰城	鳳凰城	fènghuángchéng	Phoenix	proper noun	城市	City	地方	Places	美国	United States	\N	\N	State capital of Arizona, also 菲尼克斯 (CC-CEDICT '鳳凰城')	6001637
+6001638	费城	費城	fèichéng	Philadelphia	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	Pennsylvania; abbreviation for 费拉德尔菲亚 (CC-CEDICT '費城')	6001638
+6001639	和记黄埔	和記黃埔	hé jì Huángpǔ	Hutchison Whampoa	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '和記黃埔')	6001639
+6001640	咖啡伴侣	咖啡伴侶	kāfēi bànlǚ	Coffee-mate (non-dairy creamer manufactured by Nestlé)	proper noun	产品	Product	商务	Commerce	饮食	Food and Drink	\N	\N	(CC-CEDICT '咖啡伴侶')	6001640
+6001641	哈根达斯	哈根達斯	hā gēn dá sī	Häagen-Dazs	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '哈根達斯')	6001641
+6001642	哈特福德	\N	hā té fúdé	Hartford	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈特福德')	6001642
+6001643	加州大学	加州大學	jiāzhōu dàxué	University of California	proper noun	大学	University	教育	Education	美国	United States	\N	\N	An abbreviation for 加利福尼亚大学 (CC-CEDICT '加州大學')	6001643
