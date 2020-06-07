@@ -1580,3 +1580,14 @@
 6001580	伊斯曼	\N	yīsīmàn	George Eastman	proper noun	人	Person	历史	History	美国	United States	\N	\N	1854-1932; US inventor and founder of Kodak 柯达 (CC-CEDICT '伊斯曼')	6001580
 6001581	伊斯曼	\N	yīsīmàn	Max F. Eastman	proper noun	人	Person	历史	History	美国	United States	\N	\N	1883-1969; US socialist writer, subsequently severe critic of USSR (CC-CEDICT '伊斯曼')	6001581
 6001582	美国总统国家安全事务助理	美國总统國家安全事務助理	měiguó zǒngtǒng guójiā ānquán shìwù zhùlǐ	National Security Advisor	proper noun	官名	Official Title	政治	Politics	美国	United States	\N	\N	(Wikipedia '总统国家安全事务助理')	6001582
+6001583	蛇河	\N	shéhé	Snake River	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	(Wikipedia '斯内克河')	6001583
+6001584	绿卡	綠卡	lǜkǎ	green card	noun	\N	\N	政府	Government	美国	United States	\N	\N	Issued to United States permanent residents (CC-CEDICT '綠卡'; Wikipedia '美国永久居民')	6001584
+6001585	美国永久居民	美國永久居民	Měiguó yǒngjiǔ jūmín	United States permanent resident	set phrase	\N	\N	政府	Government	美国	United States	\N	\N	(Wikipedia '美国永久居民')	6001585
+6001586	湖人	\N	húrén	Los Angeles Lakers	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	An Abbreviation for 洛杉矶湖人(CC-CEDICT '湖人')	6001586
+6001587	五卅	\N	wǔsà	abbr. for 五卅運動|五卅运动, The May Thirtieth Movement	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1925 (CC-CEDICT '五卅')	6001587
+6001588	五卅运动	五卅運動	wǔ sà yùndòng	anti-imperialist movement of 30th May 1925, involving general strike esp. in Shanghai, Guangzhou, Hong Kong etc	set phrase	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '五卅運動')	6001588
+6001589	五四爱国运动	五四愛國運動	wǔsì àiguó yùndòng	May Fourth Movement	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '五四愛國運動')	6001589
+6001590	五大湖	\N	wǔ dàhú	Great Lakes / the five north American Great Lakes	proper noun	湖	Lake	地方	Places	美国	United States	\N	\N	(CC-CEDICT '五大湖')	6001590
+6001591	五号电池	五號電池	wǔhào diànchí	AA battery (PRC)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwan equivalent: 三号电池 (CC-CEDICT '五號電池')	6001591
+6001592	亚伦	亞倫	yàlún	Yaren	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	capital of Nauru (CC-CEDICT '亞倫')	164877
+6001593	雷根	\N	léigēn	Ronald Reagan	proper noun	总统	President	政治	Politics	美国	United States	\N	\N	 1911-2004, US president for period 1981-1989 (CC-CEDICT '雷根')	6001593
