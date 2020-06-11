@@ -1641,3 +1641,37 @@
 6001641	哈根达斯	哈根達斯	hā gēn dá sī	Häagen-Dazs	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '哈根達斯')	6001641
 6001642	哈特福德	\N	hā té fúdé	Hartford	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈特福德')	6001642
 6001643	加州大学	加州大學	jiāzhōu dàxué	University of California	proper noun	大学	University	教育	Education	美国	United States	\N	\N	An abbreviation for 加利福尼亚大学 (CC-CEDICT '加州大學')	6001643
+6001644	哈里发塔	哈里發塔	Hālǐfà tǎ	Burj Khalifa	proper noun	地名	Place Name	地方	Places	中东	Middle East	\N	\N	Skyscraper in Dubai, 830 m high (CC-CEDICT '哈里發塔')	6001644
+6001645	唐恩都乐	唐恩都樂	táng ēn dōu lè	Dunkin' Donuts	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '唐恩都樂')	6001645
+6001646	四川日报	四川日報	Sìchuān rìbào	Sichuan Daily	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '四川日報')	6001646
+6001647	国务次卿	國務次卿	guówù cì qīng	Under Secretary of State	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國務次卿')	6001647
+6001648	国际商会	國際商會	guójì shānghuì	International Chamber of Commerce (ICC)	proper noun	\N	\N	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '國際商會')	6001648
+6001649	国际大赦	國際大赦	guójì dàshè	Amnesty International	proper noun	\N	\N	政治	Politics	\N	\N	\N	\N	Same as 大赦國際 (CC-CEDICT '國際大赦')	6001649
+6001650	国际棋联	國際棋聯	guójì qí lián	International Chess Federation	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際棋聯')	6001650
+6001651	国际田联	國際田聯	guójì tián lián	International Association of Athletics Federations (IAAF)	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	Abbreviation for 国际田径联合会 (CC-CEDICT '國際田聯')	6001651
+6001652	国际笔会	國際筆會	guójì bǐhuì	International PEN	proper noun	\N	\N	文学	Literature	\N	\N	\N	\N	(CC-CEDICT '國際筆會')	6001652
+6001653	国际米兰	國際米蘭	guójì Mǐlán	FC Internazionale Milano (football club)	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	Abbreviation for 国际米兰足球俱乐部 (CC-CEDICT '國際米蘭')	6001653
+6001654	图木舒克	圖木舒克	tú mù shū kè	Tumxuk shehiri (Tumshuq city) or Túmùshūkè sub	proper noun	城市	City	地方	Places	中国	China	\N	\N	Prefecture level city in west Xinjiang (CC-CEDICT '圖木舒克')	6001654
+6001655	图阿雷格	圖阿雷格	tú'āléigé	Tuareg (nomadic people of the Sahara)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '圖阿雷格')	6001655
+6001656	团结工会	團結工會	tuánjié gōnghuì	Solidarity (Polish worker's union)	proper noun	\N	\N	政治	Politics	欧洲	Europe	\N	\N	(CC-CEDICT '團結工會')	6001656
+6001657	坎特伯雷	\N	kǎn té bó léi	Canterbury	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '坎特伯雷')	6001657
+6001658	埃夫伯里	\N	āi fū bó lǐ	Avebury (stone circle near Stonehenge)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '埃夫伯里')	6001658
+6001659	埃涅阿斯	\N	āi niè ā sī	Aeneas, hero of Virgil's Aeneid	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '埃涅阿斯')	6001659
+6001660	埃尔帕索	埃爾帕索	āi ěr pà suǒ	El Paso (Texas)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '埃爾帕索')	6001660
+6001661	埃尔朗根	埃爾朗根	āi ěr lǎng gēn	Erlangen (	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Town in Bavaria) (CC-CEDICT '埃爾朗根')	6001661
+6001662	基地组织	基地組織	jīdì zǔzhī	Al-Qaeda	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '基地組織')	6001662
+6001663	基桑加尼	\N	jī sāng jiā ní	Kisangani (city in the Democratic Republic of the Congo)	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '基桑加尼')	6001663
+6001664	塔斯科拉	\N	tǎ sī kē lā	Tuscola (	proper noun	县	County	地方	Places	\N	\N	\N	\N	County in Michigan) (CC-CEDICT '塔斯科拉')	6001664
+6001665	大公国际	大公國際	dàgōngguó jì	Dagong Global Credit Rating, credit rating agency based in China	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '大公國際')	6001665
+6001666	大力神杯	\N	dàlìshén bēi	FIFA World Cup trophy	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '大力神杯')	6001666
+6001667	大呼拉尔	大呼拉爾	dà hū lā ěr	State Great Khural or Great State Assembly, Mongolian parliament	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '大呼拉爾')	6001667
+6001668	大国家党	大國家黨	dàguó jiā dǎng	South Korean Grand national party	proper noun	\N	\N	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(CC-CEDICT '大國家黨')	6001668
+6001669	大地之歌	\N	dàdì zhī gē	Song of the Earth / Das Lied von der Erde	proper noun	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	\N	(CC-CEDICT '大地之歌')	6001669
+6001670	大众汽车	大眾汽車	dàzhòng qìchē	Volkswagen	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '大眾汽車')	6001670
+6001671	大赦国际	大赦國際	dàshè guójì	Amnesty International	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '大赦國際')	6001671
+6001672	大韩航空	大韓航空	dà hán hángkōng	Korean Air, South Korea's main airline	proper noun	公司	Company	商务	Commerce	亚洲	Asia	\N	\N	(CC-CEDICT '大韓航空')	6001672
+6001673	奥斯威辛	奧斯威辛	ào sī wēi xīn	Auschwitz (concentration camp)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '奧斯威辛')	6001673
+6001674	奥斯维辛	奧斯維辛	ào sī wéi xīn	Auschwitz (concentration camp)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '奧斯維辛')	6001674
+6001675	妙探寻凶	妙探尋兇	miào tànxún xiōng	Cluedo (board game)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '妙探尋兇')	6001675
+6001676	威廉斯堡	\N	Wēilián sī bǎo	Williamsburg, Virginia	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '威廉斯堡')	6001676
+6001677	威斯康辛	\N	wēi sī kāng xīn	Wisconsin	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '威斯康辛')	6001677
