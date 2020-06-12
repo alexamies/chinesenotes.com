@@ -134,7 +134,7 @@
 6000134	赤道几内亚	赤道幾內亞	chìdàojīnèiyà	Equatorial Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 128; XHZD, p. 702)	6000134
 6000135	多米尼加共和国	多米尼加共和國	duōmǐníjiā Gònghéguó	Dominican Republic	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 196)	6000135
 6000136	厄瓜多尔	厄瓜多爾	èguāduōěr	Ecuador	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 207; XHZD, p. 707)	6000136
-6000137	萨马兰奇	薩馬蘭奇	Sàmǎlánqí	Juan Antonio Samaranch	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	1920-; Spanish olympic official, President of International Olympic Committee 1980-2001 (Wikipedia '胡安·安东尼奥·萨马兰奇')	6000137
+6000137	萨马兰奇	薩馬蘭奇	Sàmǎlánqí	Juan Antonio Samaranch	proper noun	人	Person	体育	Sport	欧洲	Europe	\N	\N	1920-; Spanish olympic official, President of International Olympic Committee 1980-2001 (Wikipedia '胡安·安东尼奥·萨马兰奇')	6000137
 6000138	法属波利尼西亚	法屬波利尼西亞	fǎshǔ pōlìníxīyà	French Polynesia	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The largest island in French Polynesia is Tahiti 大溪地 (SDC, p. 173; XHZD, p. 705)	6000138
 6000139	菲律宾	菲律賓	fēilǜbīn	Philippines	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(MPRC; SDC, p. 24; XHZD, p. 698)	6000139
 6000140	斐济	斐濟	fěijǐ	Fiji	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The Republic of Fiji (SDC, p. 175; XHZD, p. 704)	6000140
@@ -1650,7 +1650,7 @@
 6001650	国际棋联	國際棋聯	guójì qí lián	International Chess Federation	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際棋聯')	6001650
 6001651	国际田联	國際田聯	guójì tián lián	International Association of Athletics Federations (IAAF)	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	Abbreviation for 国际田径联合会 (CC-CEDICT '國際田聯')	6001651
 6001652	国际笔会	國際筆會	guójì bǐhuì	International PEN	proper noun	\N	\N	文学	Literature	\N	\N	\N	\N	(CC-CEDICT '國際筆會')	6001652
-6001653	国际米兰	國際米蘭	guójì Mǐlán	FC Internazionale Milano (football club)	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	Abbreviation for 国际米兰足球俱乐部 (CC-CEDICT '國際米蘭')	6001653
+6001653	国际米兰	國際米蘭	guójì Mǐlán	FC Internazionale Milano (football club)	proper noun	\N	\N	体育	Sport	欧洲	Europe	\N	\N	Abbreviation for 国际米兰足球俱乐部 (CC-CEDICT '國際米蘭')	6001653
 6001654	图木舒克	圖木舒克	tú mù shū kè	Tumxuk shehiri (Tumshuq city) or Túmùshūkè sub	proper noun	城市	City	地方	Places	中国	China	\N	\N	Prefecture level city in west Xinjiang (CC-CEDICT '圖木舒克')	6001654
 6001655	图阿雷格	圖阿雷格	tú'āléigé	Tuareg (nomadic people of the Sahara)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '圖阿雷格')	6001655
 6001656	团结工会	團結工會	tuánjié gōnghuì	Solidarity (Polish worker's union)	proper noun	\N	\N	政治	Politics	欧洲	Europe	\N	\N	(CC-CEDICT '團結工會')	6001656
@@ -1675,3 +1675,67 @@
 6001675	妙探寻凶	妙探尋兇	miào tànxún xiōng	Cluedo (board game)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '妙探尋兇')	6001675
 6001676	威廉斯堡	\N	Wēilián sī bǎo	Williamsburg, Virginia	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '威廉斯堡')	6001676
 6001677	威斯康辛	\N	wēi sī kāng xīn	Wisconsin	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '威斯康辛')	6001677
+6001678	安克拉治	\N	ān kèlā zhì	Anchorage (Alaska)	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '安克拉治')	6001678
+6001679	安克雷奇	\N	ān kè léi qí	Anchorage (city in Alaska)	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '安克雷奇')	6001679
+6001680	安大略湖	\N	āndàlüè hú	Lake Ontario, one of the Great Lakes 五大湖	proper noun	湖	Lake	地方	Places	美国	United States	\N	\N	(CC-CEDICT '安大略湖')	6001680
+6001681	密歇根湖	\N	mì xiē gēn hú	Lake Michigan, one of the Great Lakes 五大湖	proper noun	湖	Lake	地方	Places	\N	\N	\N	\N	(CC-CEDICT '密歇根湖')	6001681
+6001682	密尔沃基	密爾沃基	mì ěr wò jī	Milwaukee (city)	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '密爾沃基')	6001682
+6001683	密苏里州	密蘇里州	mìsūlǐ zhōu	Missouri	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '密蘇里州')	6001683
+6001684	密西西比	\N	mì xīxī bì	Mississippi	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '密西西比')	6001684
+6001685	寇比力克	寇比力剋	kòu bì lìkè	Kubrick (Stanley)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '寇比力剋')	6001685
+6001686	富布赖特	富布賴特	fù bù làité	Fulbright (scholarship)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '富布賴特')	6001686
+6001687	宝钢集团	寶鋼集團	bǎogāng jítuán	Baosteel, China's largest steel maker	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '寶鋼集團')	6001687
+6001688	尤文图斯	尤文圖斯	yóu wén tú sī	Juventus, Italian football team	proper noun	\N	\N	体育	Sport	欧洲	Europe	\N	\N	(CC-CEDICT '尤文圖斯')	6001688
+6001689	工人日报	工人日報	gōngrén rìbào	Workers' Daily	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '工人日報')	6001689
+6001690	布列斯特	\N	bùliè sī té	Brest,	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Town in Belarus (CC-CEDICT '布列斯特')	6001690
+6001691	布干维尔	布干維爾	bù gān wéi ěr	Bougainville, Papua New Guinea	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '布干維爾')	6001691
+6001692	布拉索夫	\N	bù lā suǒ fū	Braşov, Romania	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '布拉索夫')	6001692
+6001693	布莱克本	布萊克本	bù lái kè běn	Blackburn	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '布萊克本')	6001693
+6001694	布莱德湖	布萊德湖	bù lái dé hú	Lake Bled, glacial lake amid the Julian Alps in Slovenia	proper noun	湖	Lake	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '布萊德湖')	6001694
+6001695	布里斯托	\N	bù lǐ sī tuō	Bristol	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '布里斯托')	6001695
+6001696	布隆方丹	\N	bù lóng fāng dān	Bloemfontein	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '布隆方丹')	6001696
+6001697	库布里克	庫布里克	kù bù lǐ kè	Kubrick	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '庫布里克')	6001697
+6001698	库德斯坦	庫德斯坦	kùdé sī tǎn	Kurdistan	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '庫德斯坦')	6001698
+6001699	库尔德人	庫爾德人	kùěrdé rén	Kurdish person or people	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '庫爾德人')	6001699
+6001700	库尔斯克	庫爾斯克	kù ěr sī kè	Kursk (city)	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '庫爾斯克')	6001700
+6001701	康斯坦察	\N	kāng sī tǎn chá	Constanta (city in Romania)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '康斯坦察')	6001701
+6001702	广州日报	廣州日報	Guǎngzhōu rìbào	Guangzhou Daily	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '廣州日報')	6001702
+6001703	廷巴克图	廷巴克圖	tíng bā kè tú	Timbuktoo (town and historical cultural center in Mali, a World Heritage site)	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '廷巴克圖')	6001703
+6001704	弗里斯兰	弗里斯蘭	fú lǐ sī lán	Friesland	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '弗里斯蘭')	6001704
+6001705	强生公司	強生公司	qiángshēng gōngsī	Johnson and Johnson	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '強生公司')	6001705
+6001706	德克萨斯	德克薩斯	dé kè sàsī	Texas	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '德克薩斯')	6001706
+6001707	德州仪器	德州儀器	dézhōu yíqì	Texas Instruments	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '德州儀器')	6001707
+6001708	恒生指数	恒生指數	héngshēng zhǐshù	Hang Seng index ( stock market)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '恒生指數')	6001708
+6001709	恒生银行	恒生銀行	héngshēng yínháng	Hang Seng Bank, Hong Kong	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '恒生銀行')	6001709
+6001710	恰帕斯州	\N	qià pà sī zhōu	Chiapas, state in Mexico	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '恰帕斯州')	6001710
+6001711	惠普公司	\N	huìpǔ gōngsī	Hewlett-Packard / HP	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '惠普公司')	6001711
+6001712	慈福行动	慈福行動	cí fúxíng dòng	Operation Blessing (charitable relief organization)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '慈福行動')	6001712
+6001713	戴维斯杯	戴維斯杯	dàiwéisī bēi	Davis Cup (international tennis team competition)	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	(CC-CEDICT '戴維斯杯')	6001713
+6001714	挑战者号	挑戰者號	tiǎozhànzhě hào	Space Shuttle Challenger	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	(CC-CEDICT '挑戰者號')	6001714
+6001715	撒哈拉人	\N	Sǎhālā rén	Sahrawi (person)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '撒哈拉人')	6001715
+6001716	教育电视	教育電視	jiàoyù diànshì	Educational Television (Hong Kong)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '教育電視')	6001716
+6001717	敦豪快递	敦豪快遞	dūn háo kuàidì	DHL	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '敦豪快遞')	6001717
+6001718	斯台普斯	\N	sī tái pǔ sī	Staples (Center), sports arena in Los Angeles	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '斯台普斯')	6001718
+6001719	斯拉夫语	斯拉夫語	Sīlāfū yǔ	Slavic language	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '斯拉夫語')	6001719
+6001720	斯瓦希里	\N	sī wǎ xī lǐ	Swahili	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '斯瓦希里')	6001720
+6001721	新城电台	新城電台	xīnchéng diàntái	Metro Radio Hong Kong	proper noun	\N	\N	媒体	Media	中国	China	\N	\N	(CC-CEDICT '新城電台')	6001721
+6001722	新民晚报	新民晚報	xīnmín wǎnbào	Xinmin Evening News	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '新民晚報')	6001722
+6001723	新闻周刊	新聞周刊	xīnwén zhōukān	Newsweek magazine	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '新聞周刊')	6001723
+6001724	新华日报	新華日報	Xīnhuá rìbào	Xinhua Daily newspaper	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '新華日報')	6001724
+6001725	新华书店	新華書店	Xīnhuá shūdiàn	Xinhua Bookstore, China's largest bookstore chain	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '新華書店')	6001725
+6001726	日本黑道	\N	rìběn hēidào	Yakuza (Japanese mafia)	proper noun	\N	\N	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '日本黑道')	6001726
+6001727	日经平均	日經平均	rìjīng píngjūn	Nikkei 225 stock market index	proper noun	\N	\N	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '日經平均')	6001727
+6001728	明德学院	明德學院	míngdé xuéyuàn	Middlebury College, private liberal arts college in Middlebury, Vermont	proper noun	\N	\N	教育	Education	美国	United States	\N	\N	(CC-CEDICT '明德學院')	6001728
+6001729	易初莲花	易初蓮花	yì chū liánhuā	Lotus (department store chain)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '易初蓮花')	6001729
+6001730	星球大战	星球大戰	xīngqiú dàzhàn	Star Wars	proper noun	电影	Movie	戏剧	Drama	美国	United States	\N	\N	(CC-CEDICT '星球大戰')	6001730
+6001731	普利策奖	普利策獎	pǔ lì cè jiǎng	Pulitzer Prize	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '普利策獎')	6001731
+6001732	普利茅斯	\N	pǔ lì máo sī	Plymouth	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '普利茅斯')	6001732
+6001733	普林斯吨	普林斯噸	pǔ lín sī dūn	Princeton, New Jersey	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '普林斯噸')	6001733
+6001734	普立兹奖	普立茲獎	pǔ lì zī jiǎng	Pulitzer Prize	proper noun	\N	\N	文学	Literature	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '普立茲獎')	6001734
+6001735	普罗扎克	普羅扎克	pǔluó zhā kè	Prozac (also marketed as Fluoxetine)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '普羅扎克')	6001735
+6001736	普罗提诺	普羅提諾	pǔluó tí nuò	Plotinus	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	204-270; Neoplatonism philosopher (CC-CEDICT '普羅提諾')	6001736
+6001737	普兰店市	普蘭店市	pǔlándiàn shì	Pulandian	proper noun	城市	City	地方	Places	中国	China	\N	\N	County level city in Dalian 大连, Liaoning (CC-CEDICT '普蘭店市')	6001737
+6001738	普雷斯堡	\N	pǔléisībǎo	Pressburg (Slovakia)	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '普雷斯堡')	6001738
+6001739	曼切斯特	\N	màn qiē sī té	Manchester	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	Also written 曼彻斯特 (CC-CEDICT '曼切斯特')	6001739
+6001740	曼彻斯特	曼徹斯特	màn chè sī té	Manchester	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '曼徹斯特')	6001740
+6001741	会奖旅游	會獎旅遊	huì jiǎng lǚyóu	MICE tourism (acronym for meetings, incentives, conventions and exhibitions), aka meetings industry or events industry	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '會獎旅遊')	6001741
