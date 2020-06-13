@@ -1739,3 +1739,67 @@
 6001739	曼切斯特	\N	màn qiē sī té	Manchester	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	Also written 曼彻斯特 (CC-CEDICT '曼切斯特')	6001739
 6001740	曼彻斯特	曼徹斯特	màn chè sī té	Manchester	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '曼徹斯特')	6001740
 6001741	会奖旅游	會獎旅遊	huì jiǎng lǚyóu	MICE tourism (acronym for meetings, incentives, conventions and exhibitions), aka meetings industry or events industry	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '會獎旅遊')	6001741
+6001742	德州	\N	dézhōu	Texas	proper noun	州	State	地方	Places	美国	United States	\N	\N	An abbreviation for 德克萨斯州 (CC-CEDICT '德州')	6001742
+6001743	朝鲜日报	朝鮮日報	cháoxiǎn rìbào	Chosun Ilbo, a South Korean newspaper	proper noun	报纸	Newspaper	媒体	Media	亚洲	Asia	\N	\N	(CC-CEDICT '朝鮮日報')	6001743
+6001744	杜嘉班纳	杜嘉班納	dù jiā bān nà	Dolce & Gabbana (fashion)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '杜嘉班納')	6001744
+6001745	东亚峰会	東亞峰會	Dōng Yà fēnghuì	East Asia Summit, annual meeting of leading Asian states	proper noun	\N	\N	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(CC-CEDICT '東亞峰會')	6001745
+6001746	东亚银行	東亞銀行	Dōng Yà yínháng	Bank of East Asia	proper noun	银行	Bank	商务	Commerce	亚洲	Asia	\N	\N	(CC-CEDICT '東亞銀行')	6001746
+6001747	东部时间	東部時間	dōngbù shíjiān	Eastern Standard Time (EST)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '東部時間')	6001747
+6001748	松下公司	\N	sōng xià gōngsī	Matsushita Electric Industrial Co. / Panasonic	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '松下公司')	6001748
+6001749	格恩西岛	格恩西島	gé ēn xī dǎo	Guernsey (Channel Islands)	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '格恩西島')	6001749
+6001750	格林威治	\N	gélín wēi zhì	Greenwich	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '格林威治')	6001750
+6001751	格林尼治	\N	gélín ní zhì	Greenwich (former location of Greenwich observatory, at zero longitude)	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '格林尼治')	6001751
+6001752	格陵兰岛	格陵蘭島	Gélínglán dǎo	Greenland	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '格陵蘭島')	6001752
+6001753	模里西斯	\N	mó lǐ xī sī	Mauritius	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '模里西斯')	6001753
+6001754	橙色战剂	橙色戰劑	chéngsè zhàn jì	Agent Orange (herbicide)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '橙色戰劑')	6001754
+6001755	机械战警	機械戰警	jīxiè zhàn jǐng	RoboCop (movie)	proper noun	电影	Movie	戏剧	Drama	美国	United States	\N	\N	(CC-CEDICT '機械戰警')	6001755
+6001756	欧洲之星	歐洲之星	Ōuzhōu zhī xīng	Eurostar (train line)	proper noun	公司	Company	商务	Commercee	欧洲	Europe	\N	\N	(CC-CEDICT '歐洲之星')	6001756
+6001757	武警部队	武警部隊	wǔjǐng bùduì	People's Armed Police	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '武警部隊')	6001757
+6001758	死亡笔记	死亡筆記	sǐwáng bǐjì	Death note	proper noun	\N	\N	媒体	Media	日本	Japan	\N	\N	Japanese: デスノート; translation of cult manga series by author ŌBA Tsugumi 大场鸫 (pen-name) and illustrator Obata Takeshi 小畑健  (CC-CEDICT '死亡筆記')	6001758
+6001759	死海古卷	\N	sǐ hǎi gǔ juǎn	Dead Sea Scrolls	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '死海古卷')	6001759
+6001760	死海经卷	死海經卷	sǐ hǎi jīngjuǎn	Dead Sea Scrolls	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '死海經卷')	6001760
+6001761	每日快报	每日快報	měirì kuàibào	Daily Express (newspaper)	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '每日快報')	6001761
+6001762	每日新闻	每日新聞	měirì xīnwén	Mainichi Shimbun, a Japanese daily newspaper	proper noun	报纸	Newspaper	媒体	Media	日本	Japan	\N	\N	(CC-CEDICT '每日新聞')	6001762
+6001763	每日邮报	每日郵報	měirì yóubào	Daily Mail (newspaper)	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '每日郵報')	6001763
+6001764	每日镜报	每日鏡報	měirì jìng bào	Daily Mirror (newspaper)	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '每日鏡報')	6001764
+6001765	比佛利山	\N	bì fó lì shān	Beverly Hills	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '比佛利山')	6001765
+6001766	比利牛斯	\N	bìlì niú sī	Pyrenees mountains	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '比利牛斯')	6001766
+6001767	比斯开湾	比斯開灣	bìsīkāi wān	Bay of Biscay	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '比斯開灣')	6001767
+6001768	沙加缅度	沙加緬度	shā jiā Miǎn dù	Sacramento	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '沙加緬度')	6001768
+6001769	沙漠之狐	\N	shāmò zhī hú	Desert Fox	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '沙漠之狐')	6001769
+6001770	河北日报	河北日報	héběi rìbào	Hebei Daily	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '河北日報')	6001770
+6001771	法兹鲁拉	法茲魯拉	fǎ zī lǔ lā	Maulana Fazlullah, Pakistan Taleban leader	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	(CC-CEDICT '法茲魯拉')	6001771
+6001772	法兰德斯	法蘭德斯	fǎlán dé sī	Flanders, region (state) of Belgium	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '法蘭德斯')	6001772
+6001773	波斯尼亚	波斯尼亞	Bōsī ní yà	Bosnia	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '波斯尼亞')	6001773
+6001774	波尔多液	波爾多液	bōěrduō yè	Bordeaux mixture	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '波爾多液')	6001774
+6001775	波特兰市	波特蘭市	bōtélán shì	Portland (city)	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '波特蘭市')	6001775
+6001776	波罗的海	波羅的海	Bōluóde hǎi	Baltic Sea	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '波羅的海')	6001776
+6001777	洛矶山脉	洛磯山脈	luòjīshān mài	Rocky Mountains	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '洛磯山脈')	6001777
+6001778	洛锡安区	洛錫安區	luò xīān qū	Lothian, Scottish region around Edinburgh	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '洛錫安區')	6001778
+6001779	浦东机场	浦東機場	Pǔdōng jīcháng	Pudong Airport (Shanghai)	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '浦東機場')	6001779
+6001780	海峡群岛	海峽群島	hǎixiá qúndǎo	Channel Islands	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '海峽群島')	6001780
+6001781	海德尔堡	海德爾堡	hǎidé ěr bǎo	Heidelberg	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Also written 海德堡 (CC-CEDICT '海德爾堡')	6001781
+6001782	渣打银行	渣打銀行	zhā dǎ yínháng	Standard Chartered Bank	proper noun	银行	Bank	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '渣打銀行')	6001782
+6001783	汤加群岛	湯加群島	Tāngjiā qúndǎo	Tonga	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '湯加群島')	6001783
+6001784	汤姆斯杯	湯姆斯杯	tāngmǔ sī bēi	Thomas Cup (international badminton team competition)	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	(CC-CEDICT '湯姆斯杯')	6001784
+6001785	温布尔顿	溫布爾頓	wēn bù ěr dùn	Wimbledon	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '溫布爾頓')	6001785
+6001786	泽布吕赫	澤布呂赫	zébùlǚhè	Zeebrugge (port city in Belgium)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '澤布呂赫')	6001786
+6001787	火星快车	火星快車	Huǒxīng kuàichē	Mars express, EU spacecraft	proper noun	\N	\N	政府	Government	欧洲	Europe	\N	\N	(CC-CEDICT '火星快車')	6001787
+6001788	乌德勒支	烏德勒支	wūdélēizhī	Utrecht	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '烏德勒支')	6001788
+6001789	乌普萨拉	烏普薩拉	wūpǔsàlā	Uppsala, Swedish university city just north of Stockholm	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '烏普薩拉')	6001789
+6001790	猛龙怪客	猛龍怪客	měng lóng guài kè	Death wish	proper noun	电影	Movie	戏剧	Drama	美国	United States	\N	\N	Movie series with Charles Bronson (CC-CEDICT '猛龍怪客')	6001790
+6001791	玛莎拉蒂	瑪莎拉蒂	mǎ shālā dì	Maserati	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '瑪莎拉蒂')	6001791
+6001792	环球唱片	環球唱片	huánqiú chàngpiàn	Universal Records	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '環球唱片')	6001792
+6001793	环球时报	環球時報	huánqiú shíbào	Global Times	proper noun	报纸	Newspaper	政府	Government	中国	China	\N	\N	Weekly digest of international news from People's Daily 人民日报 (CC-CEDICT '環球時報')	6001793
+6001794	瓜地马拉	瓜地馬拉	guā dì mǎlā	Guatemala	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '瓜地馬拉')	6001794
+6001795	瓜达拉马	瓜達拉馬	guā dá lā mǎ	Sierra de Guadarrama (mountain range across Iberia, passing north of Madrid)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '瓜達拉馬')	6001795
+6001796	瓜达尔港	瓜達爾港	guādáěr gǎng	Gwadar Port on Arabian Sea in Pakistani province of Baluchistan	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '瓜達爾港')	6001796
+6001797	加利福尼亚大学	加利福尼亞大學	jiālìfúníyà dàxué	University of California	proper noun	大学	University	教育	Education	美国	United States	\N	\N	(CC-CEDICT '加利福尼亞大學')	6001797
+6001798	疾控中心	\N	jí kòng zhōngxīn	Centers for Disease Control and Prevention (CDC)	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	Abbreviation for 疾病预防控制中心 (CC-CEDICT '疾控中心')	6001798
+6001799	白色战剂	白色戰劑	báisè zhàn jì	Agent White	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '白色戰劑')	6001799
+6001800	白金汉宫	白金漢宮	báijīn hàn gōng	Buckingham Palace	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '白金漢宮')	6001800
+6001801	百事轻怡	百事輕怡	bǎishì qīng yí	Diet Pepsi / Pepsi Light	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '百事輕怡')	6001801
+6001802	百胜餐饮	百勝餐飲	bǎishèng cānyǐn	Tricon Global Restaurants (incl. Pizza Hut and KFC)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '百勝餐飲')	6001802
+6001803	百威啤酒	\N	bǎiwēi píjiǔ	Budweiser beer	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '百威啤酒')	6001803
+6001804	百度百科	\N	bǎidù bǎikē	Baidu online encyclopedia	proper noun	产品	Product	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '百度百科')	6001804
+6001805	百度知道	\N	bǎidù zhīdào	Baidu Knows, online Q & A forum	proper noun	产品	Product	商务	Commerce	中国	China	\N	\N	zhidao.baidu.com (CC-CEDICT '百度知道')	6001805
