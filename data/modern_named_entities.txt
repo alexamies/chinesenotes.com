@@ -1803,3 +1803,29 @@
 6001803	百威啤酒	\N	bǎiwēi píjiǔ	Budweiser beer	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '百威啤酒')	6001803
 6001804	百度百科	\N	bǎidù bǎikē	Baidu online encyclopedia	proper noun	产品	Product	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '百度百科')	6001804
 6001805	百度知道	\N	bǎidù zhīdào	Baidu Knows, online Q & A forum	proper noun	产品	Product	商务	Commerce	中国	China	\N	\N	zhidao.baidu.com (CC-CEDICT '百度知道')	6001805
+6001806	苏乞儿	蘇乞兒	Sū Qǐ'ér	True Legend	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Another mame for the Chinese folk hero 蘇燦 So Chan and 2010 movie, directed by Woo-ping Yuen (Wikipedia '蘇燦')	6001806
+6001807	新少林寺	\N	Xīn Shǎolín Sì	The New Shaolin Temple	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	2010, directed by Benny Chan (Wikipedia '新少林寺')	6001807
+6001808	刘德华	劉德華	Liú Déhuá	Andy Lau	proper noun	演员	Actor	戏剧	Drama	\N	\N	\N	\N	1961; Hong Kong born actor (Wikipeia '劉德華')	20725
+6001809	成龙	成龍	Chéng Lóng	Jackie Chan	proper noun	演员	Actor	戏剧	Drama	\N	\N	\N	\N	1954-; (Wikipedia '成龍')	6001809
+6001810	陈木胜	陳木勝	Chén Mùshèng	Benny Chan	proper noun	导演	Director	戏剧	Drama	\N	\N	\N	\N	1969-; Hong Korn born film director (Wikipedia '陳木勝')	6001810
+6001811	锦衣卫	錦衣衛	Jǐn Yī Wèi	Fourteen Blades	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Film based on the Imperial Guard in the late years of the Ming Dynasty (Wikipedia '錦衣衛 (2010年電影)')	6001811
+6001812	特工强档	特工強檔	Tègōng Qiángdàng	My Girlfriend Is an Agent / Secret Couple	proper noun	电影	Movie	戏剧	Drama	\N	\N	\N	\N	Korean movie (Wikipedia '七级公务员')	6001812
+6001813	皇冠出版	\N	huángguān chūbǎn	Crown publishers, Hong Kong	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '皇冠出版')	6001813
+6001814	矮脚罗伞	矮腳羅傘	ǎi jiǎo luó sǎn	Ardisia villosa	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '矮腳羅傘')	6001814
+6001815	简·爱	簡·愛	jiǎnài	Jane Eyre	proper noun	书名	Book Title	文学	Literature	英国	England	\N	\N	Novel by Charlotte Brontë 夏洛特·勃良特 (CC-CEDICT '簡·愛')	6001815
+6001816	米奇老鼠	\N	mǐ qí lǎoshǔ	Mickey Mouse	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '米奇老鼠')	6001816
+6001817	米纳尔迪	米納爾迪	mǐ nà ěr dí	Minardi, Formula 1 racing team	proper noun	\N	\N	体育	Sport	欧洲	Europe	\N	\N	(CC-CEDICT '米納爾迪')	6001817
+6001818	红色高棉	紅色高棉	hóngsè gāomián	Khmer Rouge, Cambodian political party	proper noun	\N	\N	政治	Politics	亚洲	Asia	\N	\N	(CC-CEDICT '紅色高棉')	6001818
+6001819	纳粹主义	納粹主義	nàcuì zhǔyì	Nazism	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '納粹主義')	6001819
+6001820	纳粹分子	納粹份子	nàcuì fènzǐ	Nazi	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '納粹份子')	6001820
+6001821	纽卡斯尔	紐卡斯爾	niǔ kǎ sī ěr	Newcastle (place name)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '紐卡斯爾')	6001821
+6001822	纽几内亚	紐幾內亞	niǔ jīnèiyà	New Guinea / Papua-New Guinea	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '紐幾內亞')	6001822
+6001823	索马利亚	索馬利亞	suǒ mǎlì yà	Somalia	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '索馬利亞')	6001823
+6001824	经合组织	經合組織	jīnghé zǔzhī	Organization for Economic Cooperation and Development, OECD	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	Abbreviation for 经济合作与发展组织 (CC-CEDICT '經合組織')	6001824
+6001825	经济学人	經濟學人	jīngjì xué rén	The Economist (magazine)	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '經濟學人')	6001825
+6001826	维基数据	維基數據	wéijī shùjù	Wikistats	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	stats.wikimedia.org, online tool providing statistics for Wikimedia projects (CC-CEDICT '維基數據')	6001826
+6001827	维基物种	維基物種	wéijī wùzhǒng	Wikispecies	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	species.wikimedia.org, online project to catalog all known species (CC-CEDICT '維基物種')	6001827
+6001828	维基词典	維基詞典	wéijī cídiǎn	Wiktionary (online dictionary)	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '維基詞典')	6001828
+6001829	越光宝盒	越光寶盒	Yuè Guāng Bǎo Hé	Just Another Pandora's Box / Koshihikari Treasure Box	proper noun	电影	Movie	戏剧	Drama	恶搞	Spoof	\N	\N	Comedy by 刘镇伟 Liu Zhenwei (Wikipedia '越光寶盒')	6001829
+6001830	天地逃生	\N	Tiān Dì Táo Shēng	Gamer	proper noun	电影	Movie	戏剧	Drama	美国	United States	\N	\N	US movie released in 2010 (Wikipedia '天地逃生')	6001830
+6001831	迷魂陷阱	\N	Míhún Xiànjǐng	The Candidate / Kandidaten	proper noun	电影	Movie	戏剧	Drama	欧洲	Europe	\N	\N	Danish movie released in 2010 (Wikipedia 'The Candidate (2008 film)')	6001831
