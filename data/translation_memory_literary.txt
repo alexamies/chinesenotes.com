@@ -304,3 +304,4 @@
 3000304	用军	用軍	yòng jūn	commanded their armies	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 千字文 <i>Thousand Character Classic</i> (Wu and Tee 2015, loc. 2096)	3000304
 3000305	敦素	\N	dūnsù	honest and simple	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 千字文 <i>Thousand Character Classic</i> (Wu and Tee 2015, loc. 2310)	3000305
 3000306	欢招	歡招	huān zhāo	lead to happiness	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 千字文 <i>Thousand Character Classic</i> (Wu and Tee 2015, loc. 2510)	3000306
+3000307	矫手顿足	矯手頓足	jiǎo shǒu dùn zú	dance about	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 千字文 <i>Thousand Character Classic</i> (Wu and Tee 2015, loc. 3350)	3000307

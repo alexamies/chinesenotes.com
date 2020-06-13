@@ -1829,3 +1829,45 @@
 6001829	越光宝盒	越光寶盒	Yuè Guāng Bǎo Hé	Just Another Pandora's Box / Koshihikari Treasure Box	proper noun	电影	Movie	戏剧	Drama	恶搞	Spoof	\N	\N	Comedy by 刘镇伟 Liu Zhenwei (Wikipedia '越光寶盒')	6001829
 6001830	天地逃生	\N	Tiān Dì Táo Shēng	Gamer	proper noun	电影	Movie	戏剧	Drama	美国	United States	\N	\N	US movie released in 2010 (Wikipedia '天地逃生')	6001830
 6001831	迷魂陷阱	\N	Míhún Xiànjǐng	The Candidate / Kandidaten	proper noun	电影	Movie	戏剧	Drama	欧洲	Europe	\N	\N	Danish movie released in 2010 (Wikipedia 'The Candidate (2008 film)')	6001831
+6001832	火龙对决	火龍對決	Huǒlóng Duìjué	Fire of Conscience	proper noun	电影	Movie	戏剧	Drama	香港	Hong Kong	\N	\N	Hong Kong cops and robbers action movie released in 2010, directed by Lin Chaoxian (Wikipedia '火龍 (2010年電影)')	6001832
+6001833	罗切斯特	羅切斯特	luóqiēsīté	Rochester	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '羅切斯特')	6001833
+6001834	罗得斯岛	羅得斯島	luódesī dǎo	Rhodes, Mediterranean island	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '羅得斯島')	6001834
+6001835	罗彻斯特	羅徹斯特	luóchèsīté	Rochester	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '羅徹斯特')	6001835
+6001836	美林集团	美林集團	měilín jítuán	Merrill Lynch	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '美林集團')	6001836
+6001837	圣哈辛托	聖哈辛托	shèng hā xīn tuō	San Jacinto	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '聖哈辛托')	6001837
+6001838	圣安德鲁	聖安德魯	shèng āndélǔ	St Andrew	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '聖安德魯')	6001838
+6001839	圣母教堂	聖母教堂	Shèng Mǔ jiàotáng	Church of Our Lady / Frauenkirche	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '聖母教堂')	6001839
+6001840	圣神降临	聖神降臨	shèngshén jiànglín	Whit Sunday (Christian Festival celebrating the Holy Spirit)	proper noun	\N	\N	现代汉语	Modern Chinese	基督教	Christianity	\N	\N	(CC-CEDICT '聖神降臨')	6001840
+6001841	圣路易斯	聖路易斯	shèng Lùyì sī	St Louis, large city in eastern Missouri	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '聖路易斯')	6001841
+6001842	联邦快递	聯邦快遞	liánbāng kuàidì	FedEx	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '聯邦快遞')	6001842
+6001843	兴业银行	興業銀行	xīngyè yínháng	Société Générale	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '興業銀行')	6001843
+6001844	华夏银行	華夏銀行	Huáxià yínháng	Huaxia Bank	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '華夏銀行')	6001844
+6001845	华纳兄弟	華納兄弟	huánà xiōngdì	Warner Brothers	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '華納兄弟')	6001845
+6001846	万国邮联	萬國郵聯	wànguó yóulián	Universal Postal Union (UPU)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '萬國郵聯')	6001846
+6001847	蒙地卡罗	蒙地卡羅	mēng dì kǎ luó	Monte-Carlo (Monaco)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Taiwanese usage (CC-CEDICT '蒙地卡羅')	6001847
+6001848	蒙娜丽莎	蒙娜麗莎	mēngnà lìsuō	Mona Lisa	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '蒙娜麗莎')	6001848
+6001849	蒙托罗拉	蒙托羅拉	mēng tuō luólā	Motorola	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '蒙托羅拉')	6001849
+6001850	蒙特卡洛	\N	mēng té kǎ luò	Monte-Carlo (Monaco)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '蒙特卡洛')	6001850
+6001851	杜拉拉	\N	dùlālā	Go Lala	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Chinese film released in 2010 (Wikipedia '杜拉拉升職記 (電影)')	6001851
+6001852	萨尔茨堡	薩爾茨堡	sàěr cí bǎo	Salzburg	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '薩爾茨堡')	6001852
+6001853	萨赫蛋糕	薩赫蛋糕	sà hè dàngāo	Sachertorte, Viennese chocolate cake	proper noun	\N	\N	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '薩赫蛋糕')	6001853
+6001854	蓝光光盘	藍光光盤	Lánguāng guāngpán	Blu-ray disk, Sony high definition DVD disk	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '藍光光盤')	6001854
+6001855	苏姆盖特	蘇姆蓋特	sū mǔ gài té	Sumgayit, city in Azerbaijan	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '蘇姆蓋特')	6001855
+6001856	苏迪曼杯	蘇迪曼杯	sū dí màn bēi	Sudirman Cup (world badminton team competition)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '蘇迪曼杯')	6001856
+6001857	苏里南河	蘇里南河	sūlǐnán hé	Suriname River	proper noun	水名	River	地方	Places	\N	\N	\N	\N	(CC-CEDICT '蘇里南河')	6001857
+6001858	苹果手机	蘋果手機	píngguǒ shǒujī	Apple phone / iPhone	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '蘋果手機')	6001858
+6001859	苹果电脑	蘋果電腦	píngguǒ diànnǎo	Apple computer / Mac / Macintosh	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '蘋果電腦')	6001859
+6001860	血腥玛丽	血腥瑪麗	xuè xīng Mǎlì	Bloody Mary	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '血腥瑪麗')	6001860
+6001861	西松建设	西松建設	xī sōng jiànshè	Nishimatsu Construction Co.	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '西松建設')	6001861
+6001862	解放日报	解放日報	jiěfàng rìbào	Liberation Daily	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '解放日報')	6001862
+6001863	读卖新闻	讀賣新聞	dú mài xīnwén	Yomiuri Shimbun (Japanese newspaper)	proper noun	报纸	Newspaper	媒体	Media	日本	Japan	\N	\N	(CC-CEDICT '讀賣新聞')	6001863
+6001864	变形金刚	變形金剛	biànxíng jīngāng	Transformers (franchise)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '變形金剛')	6001864
+6001865	象牙海岸	\N	xiàngyá hǎi àn	Côte d'Ivoire or Ivory Coast	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '象牙海岸')	6001865
+6001866	贝利卡登	貝利卡登	bèi lì kǎ dēng	Ballycotton	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '貝利卡登')	6001866
+6001867	贵州日报	貴州日報	Guìzhōu rìbào	Guizhou Daily	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '貴州日報')	6001867
+6001868	路透集团	路透集團	lùtòu jítuán	Reuters group plc	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '路透集團')	6001868
+6001869	辛辛那提	\N	xīn xīn Nàtí	Cincinnati, Ohio	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '辛辛那提')	6001869
+6001870	通用电器	通用電器	tōngyòng diànqì	General Electric / GE	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '通用電器')	6001870
+6001871	达特茅斯	達特茅斯	dá té máo sī	Dartmouth (place name)	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '達特茅斯')	6001871
+6001872	达美航空	達美航空	dá měi hángkōng	Delta Air Lines, Inc.	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '達美航空')	6001872
+6001873	杜拉拉升职记	杜拉拉昇職記	dùlālā shēngzhí jì	Go Lala	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Chinese film released in 2010 (Wikipedia '杜拉拉升職記 (電影)')	6001873
