@@ -102,125 +102,125 @@
 6000102	宏达	宏達	hóngdá	HTC (High-Tech Computer Corporation)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(Wikipedia '宏達國際電子')	6000102
 6000103	博通	\N	bótōng	Broadcom	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Baidu Baike '博通')	6000103
 6000104	迅销	迅銷	xùnxiāo	Fast Retailing	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese retail chain (Wikipedia '迅銷')	6000104
-6000105	阿尔及利亚	阿爾及利亞	Āěrjílìyà	Algeria	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The People's Republic of Algeria (SDC, p. 117; XHZD, p. 702)	6000105
-6000106	汤加	湯加	Tāngjiā	Tonga	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The Kingdom of Tonga (SDC, p. 174; XHZD, p. 705)	6000106
-6000107	阿富汗	\N	Āfùhàn	Afghanistan	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	a1fu4han4.mp3	The Islamic Republic of Afghanistan (MPRC; SDC 36; XHZD, p. 699)	6000107
+6000105	阿尔及利亚	阿爾及利亞	Āěrjílìyà	Algeria	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The People's Republic of Algeria (SDC, p. 117; XHZD, p. 702)	6000105
+6000106	汤加	湯加	Tāngjiā	Tonga	proper noun	国家	Country	地方	Places	大洋洲	Oceania	\N	\N	The Kingdom of Tonga (SDC, p. 174; XHZD, p. 705)	6000106
+6000107	阿富汗	\N	Āfùhàn	Afghanistan	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	a1fu4han4.mp3	The Islamic Republic of Afghanistan (MPRC; SDC 36; XHZD, p. 699)	6000107
 6000108	安道尔	安道爾	Āndàoěr	Andorra	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	The Principality of Andorra (SDC, p. 88; XHZD, p. 701)	6000108
-6000109	安哥拉	\N	Āngēlā	Angola	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Angola (SDC, p. 147; XHZD, p. 703)	6000109
-6000110	安提瓜和巴布达	安提瓜和巴布達	Āntíguā hé Bābùdá	Antigua and Barbuda	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 197; XHZD, p. 706)	6000110
-6000111	阿根廷	\N	Āgēntíng	Argentina	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	Argentine Republic (SDC, p. 215; XHZD, p. 707)	6000111
-6000112	澳大利亚	澳大利亞	Àodàlìyà	Australia	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	ao4da4li4ya4.mp3	The Commonwealth of Australia (SDC, p. 164; XHZD, p. 704)	6000112
-6000113	巴巴多斯	\N	Bābāduōsī	Barbados	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(Mathews 1931 '澳大利亚', p. 7; SDC, p. 197; Wikipedia '澳大利亚'; XHZD, p. 706)	6000113
-6000114	巴哈马	巴哈馬	Bāhāmǎ	Bahamas	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Commonwealth of the Bahamas (SDC, p. 191; XHZD, p. 706)	6000114
-6000115	巴基斯坦	\N	Bājīsītǎn	Pakistan	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	ba1ji1si1tan3.mp3	Pakistan is often abbreviated to 巴 in the news media, especially in headlines to save space (MPRC; SDC, p. 33; XHZD, p. 699)	6000115
-6000116	巴拉圭	\N	bālāguī	Paraguay	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 210; XHZD, p. 707)	6000116
+6000109	安哥拉	\N	Āngēlā	Angola	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Angola (SDC, p. 147; XHZD, p. 703)	6000109
+6000110	安提瓜和巴布达	安提瓜和巴布達	Āntíguā hé Bābùdá	Antigua and Barbuda	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	(SDC, p. 197; XHZD, p. 706)	6000110
+6000111	阿根廷	\N	Āgēntíng	Argentina	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	Argentine Republic (SDC, p. 215; XHZD, p. 707)	6000111
+6000112	澳大利亚	澳大利亞	Àodàlìyà	Australia	proper noun	国家	Country	地方	Places	大洋洲	Oceania	\N	ao4da4li4ya4.mp3	The Commonwealth of Australia (SDC, p. 164; XHZD, p. 704)	6000112
+6000113	巴巴多斯	\N	Bābāduōsī	Barbados	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	(Mathews 1931 '澳大利亚', p. 7; SDC, p. 197; Wikipedia '澳大利亚'; XHZD, p. 706)	6000113
+6000114	巴哈马	巴哈馬	Bāhāmǎ	Bahamas	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	The Commonwealth of the Bahamas (SDC, p. 191; XHZD, p. 706)	6000114
+6000115	巴基斯坦	\N	Bājīsītǎn	Pakistan	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	ba1ji1si1tan3.mp3	Pakistan is often abbreviated to 巴 in the news media, especially in headlines to save space (MPRC; SDC, p. 33; XHZD, p. 699)	6000115
+6000116	巴拉圭	\N	bālāguī	Paraguay	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	(SDC, p. 210; XHZD, p. 707)	6000116
 6000117	柏林	\N	bólín	Berlin	proper noun	城市	City	地方	Places	欧洲	Europe	\N	bo2lin2.mp3	\N	6000117
-6000118	巴林	\N	bālín	Bahrain	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 52; XHZD, p. 699)	6000118
-6000119	巴西	\N	bāxī	Brazil	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 214; XHZD, p. 707)	6000119
-6000120	保加利亚	保加利亞	bǎojiālìyà	Bulgaria	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 100; XHZD, p. 701)	6000120
+6000118	巴林	\N	bālín	Bahrain	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 52; XHZD, p. 699)	6000118
+6000119	巴西	\N	bāxī	Brazil	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	(SDC, p. 214; XHZD, p. 707)	6000119
+6000120	保加利亚	保加利亞	bǎojiālìyà	Bulgaria	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 100; XHZD, p. 701)	6000120
 6000121	杰西	傑西	jiéxī	Jessie	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '傑西')	6000121
 6000122	欧文斯	歐文斯	Ōuwénsī	Owens	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	ou1wen2si1.mp3	(CC-CEDICT '歐文斯')	6000122
 6000123	杰西·欧文斯	傑西·歐文斯	Jiéxī Ōuwénsī	Jessie Owens	proper noun	人	Person	历史	History	美国	United States	\N	\N	(Wikipedia '杰西·欧文斯')	6000123
 6000124	亚特兰大	亞特蘭大	yàtèlándà	Atlanta	proper noun	城市	City	地方	Places	美国	United States	\N	ya4te4lan2da4.mp3	(CC-CEDICT '亞特蘭大'; Guoyu '亞特蘭大'; Wikipedia '亚特兰大')	6000124
-6000125	贝宁	貝寧	bèiníng	Benin	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Benin, officially the Republic of Benin, is a country in West Africa (SDC, p. 121; XHZD, p. 702)	6000125
-6000126	秘鲁	秘魯	bìlǔ	Peru	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 207; XHZD, p. 707)	6000126
-6000127	冰岛	冰島	bīngdǎo	Iceland	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 58; XHZD, p. 700)	6000127
-6000128	波兰	波蘭	bōlán	Poland	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Short form is 波 (SDC, p. 74; XHZD, p. 700)	6000128
-6000129	玻利维亚	玻利維亞	bōlìwéiyà	Bolivia	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 210; XHZD, p. 707)	6000129
-6000130	博茨瓦纳	博茨瓦納	bócíwǎnà	Botswana	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Botswana (SDC, p. 156; XHZD, p. 704)	6000130
-6000131	伯利兹	伯利茲	bólìzī	Belize	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 186; XHZD, p. 705)	6000131
-6000132	不丹	\N	bùdān	Bhutan	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	The Kingdom of Bhutan (SDC, p. 32; XHZD, p. 699)	6000132
-6000133	布隆迪	\N	bùlóngdí	Burundi	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Burundi (SDC, p. 141; XHZD, p. 703)	6000133
-6000134	赤道几内亚	赤道幾內亞	chìdàojīnèiyà	Equatorial Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 128; XHZD, p. 702)	6000134
-6000135	多米尼加共和国	多米尼加共和國	duōmǐníjiā Gònghéguó	Dominican Republic	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 196)	6000135
-6000136	厄瓜多尔	厄瓜多爾	èguāduōěr	Ecuador	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 207; XHZD, p. 707)	6000136
+6000125	贝宁	貝寧	bèiníng	Benin	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Benin, officially the Republic of Benin, is a country in West Africa (SDC, p. 121; XHZD, p. 702)	6000125
+6000126	秘鲁	秘魯	bìlǔ	Peru	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	(SDC, p. 207; XHZD, p. 707)	6000126
+6000127	冰岛	冰島	bīngdǎo	Iceland	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 58; XHZD, p. 700)	6000127
+6000128	波兰	波蘭	bōlán	Poland	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	Short form is 波 (SDC, p. 74; XHZD, p. 700)	6000128
+6000129	玻利维亚	玻利維亞	bōlìwéiyà	Bolivia	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	(SDC, p. 210; XHZD, p. 707)	6000129
+6000130	博茨瓦纳	博茨瓦納	bócíwǎnà	Botswana	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Botswana (SDC, p. 156; XHZD, p. 704)	6000130
+6000131	伯利兹	伯利茲	bólìzī	Belize	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	(SDC, p. 186; XHZD, p. 705)	6000131
+6000132	不丹	\N	bùdān	Bhutan	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	The Kingdom of Bhutan (SDC, p. 32; XHZD, p. 699)	6000132
+6000133	布隆迪	\N	bùlóngdí	Burundi	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Burundi (SDC, p. 141; XHZD, p. 703)	6000133
+6000134	赤道几内亚	赤道幾內亞	chìdàojīnèiyà	Equatorial Guinea	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 128; XHZD, p. 702)	6000134
+6000135	多米尼加共和国	多米尼加共和國	duōmǐníjiā Gònghéguó	Dominican Republic	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	(SDC, p. 196)	6000135
+6000136	厄瓜多尔	厄瓜多爾	èguāduōěr	Ecuador	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	(SDC, p. 207; XHZD, p. 707)	6000136
 6000137	萨马兰奇	薩馬蘭奇	Sàmǎlánqí	Juan Antonio Samaranch	proper noun	人	Person	体育	Sport	欧洲	Europe	\N	\N	1920-; Spanish olympic official, President of International Olympic Committee 1980-2001 (Wikipedia '胡安·安东尼奥·萨马兰奇')	6000137
-6000138	法属波利尼西亚	法屬波利尼西亞	fǎshǔ pōlìníxīyà	French Polynesia	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The largest island in French Polynesia is Tahiti 大溪地 (SDC, p. 173; XHZD, p. 705)	6000138
-6000139	菲律宾	菲律賓	fēilǜbīn	Philippines	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(MPRC; SDC, p. 24; XHZD, p. 698)	6000139
-6000140	斐济	斐濟	fěijǐ	Fiji	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The Republic of Fiji (SDC, p. 175; XHZD, p. 704)	6000140
-6000141	佛得角	\N	fódéjiǎo	Cape Verde	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 109; XHZD, p. 702)	6000141
-6000142	冈比亚	岡比亞	gāngbǐyà	Gambia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 130; XHZD, p. 702)	6000142
-6000143	哥伦比亚	哥倫比亞	gēlúnbǐyà	Colombia	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	The Republic of Colombia (SDC, p. 206; XHZD, p. 707)	6000143
-6000144	加拿大	\N	jiānádà	Canada	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	Abbreviation is 加 (SDC, p. 176; XHZD, p. 705)	6000144
-6000145	哥斯达黎加	哥斯達黎加	gēsīdálíjiā	Costa Rica	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Republic of Costa Rica (SDC, p. 190; XHZD, p. 706)	6000145
-6000146	圭亚那	圭亞那	guīyànà	Guyana	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	The Republic of Guyana (SDC, p. 210; XHZD, p. 707)	6000146
-6000147	海地	\N	hǎidì	Haiti	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Republic of Haiti (SDC, p. 195; XHZD, p. 706)	6000147
-6000148	吉布提	\N	jíbùtí	Djibouti	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 139; XHZD, p. 702)	6000148
-6000149	洪都拉斯	\N	hóngdūlāsī	Honduras	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Republic of Honduras (SDC, p. 187; XHZD, p. 706)	6000149
-6000150	几内亚	幾內亞	jīnèiyà	Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 130; XHZD, p. 702)	6000150
-6000151	加纳	加納	jiānà	Ghana	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 122; XHZD, p. 702)	6000151
-6000152	埃及	\N	aījí	Egypt	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	ai1ji2.mp3	(SDC, p. 112; XHZD, p. 702)	6000152
-6000153	埃塞俄比亚	埃塞俄比亞	aīsàiébǐyà	Ethiopia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 132)	6000153
-6000154	柬埔寨	\N	jiǎnpǔzhài	Cambodia	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 20; XHZD, p. 698)	6000154
-6000155	捷克	捷剋	jiékè	Czech	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Full name is 捷克共和国 (SDC, p. 82; XHZD, p. 700)	6000155
-6000156	津巴布韦	津巴布韋	jīnbābùwéi	Zimbabwe	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Zimbabwe (SDC, p. 156; XHZD, p. 703)	6000156
-6000157	卡塔尔	卡塔爾	kǎtǎěr	Qatar	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 52; XHZD, p. 699)	6000157
-6000158	开曼群岛	開曼群島	kāimàn qúndǎo	Cayman Islands	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 194; XHZD, p. 706)	6000158
-6000159	科威特	\N	kēwēitè	Kuwait	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 45; XHZD, p. 699)	6000159
-6000160	肯尼亚	肯尼亞	kěnníyà	Kenya	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 141; XHZD, p. 703)	6000160
-6000161	老挝	老撾	lǎowō	Laos	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 18; XHZD, p. 698)	6000161
-6000162	黎巴嫩	\N	líbānèn	Lebanon	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Short form is 黎 (SDC, p. 48; XHZD, p. 699)	6000162
-6000163	利比里亚	利比裡亞	lìbǐlǐyà	Liberia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 123; XHZD, p. 702)	6000163
-6000164	利比亚	利比亞	lìbǐyà	Libya	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 116; XHZD, p. 702)	6000164
-6000165	卢旺达	盧旺達	lúwàngdá	Rwanda	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Rwanda (SDC, p. 140; XHZD, p. 703)	6000165
-6000166	罗马尼亚	羅馬尼亞	luómǎníyà	Romania	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 100; XHZD, p. 701)	6000166
-6000167	马达加斯加	馬達加斯加	mǎdájiāsījiā	Madagascar	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Madagascar (SDC, p. 152; XHZD, p. 703)	6000167
-6000168	马耳他	馬耳他	mǎěrtā	Malta	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 89; XHZD, p. 701)	6000168
-6000169	马尔代夫	馬爾代夫	mǎěrdàifū	Maldives	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	The Republic of Maldives (SDC, p. 32; XHZD, p. 699)	6000169
-6000170	福克兰群岛	福克蘭群島	fúkèlán qúndǎo	Falkland Islands	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	The Falkland Islands are also known as  马尔维纳斯群岛 (Mǎěrwéinàsī qúndǎo or Malvinas Islands)	6000170
-6000171	马拉维	馬拉維	mǎlāwéi	Malawi	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Malawi (SDC, p. 150; XHZD, p. 703)	6000171
-6000172	毛里求斯	毛裡求斯	máolǐqiúsī	Mauritius	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Mauritius (SDC, p. 152; XHZD, p. 703)	6000172
-6000173	毛里塔尼亚	毛裡塔尼亞	máolǐtǎníyà	Mauritania	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 128; XHZD, p. 702)	6000173
+6000138	法属波利尼西亚	法屬波利尼西亞	fǎshǔ pōlìníxīyà	French Polynesia	proper noun	国家	Country	地方	Places	大洋洲	Oceania	\N	\N	The largest island in French Polynesia is Tahiti 大溪地 (SDC, p. 173; XHZD, p. 705)	6000138
+6000139	菲律宾	菲律賓	fēilǜbīn	Philippines	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(MPRC; SDC, p. 24; XHZD, p. 698)	6000139
+6000140	斐济	斐濟	fěijǐ	Fiji	proper noun	国家	Country	地方	Places	大洋洲	Oceania	\N	\N	The Republic of Fiji (SDC, p. 175; XHZD, p. 704)	6000140
+6000141	佛得角	\N	fódéjiǎo	Cape Verde	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 109; XHZD, p. 702)	6000141
+6000142	冈比亚	岡比亞	gāngbǐyà	Gambia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 130; XHZD, p. 702)	6000142
+6000143	哥伦比亚	哥倫比亞	gēlúnbǐyà	Colombia	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	The Republic of Colombia (SDC, p. 206; XHZD, p. 707)	6000143
+6000144	加拿大	\N	jiānádà	Canada	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	Abbreviation is 加 (SDC, p. 176; XHZD, p. 705)	6000144
+6000145	哥斯达黎加	哥斯達黎加	gēsīdálíjiā	Costa Rica	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	The Republic of Costa Rica (SDC, p. 190; XHZD, p. 706)	6000145
+6000146	圭亚那	圭亞那	guīyànà	Guyana	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	The Republic of Guyana (SDC, p. 210; XHZD, p. 707)	6000146
+6000147	海地	\N	hǎidì	Haiti	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	The Republic of Haiti (SDC, p. 195; XHZD, p. 706)	6000147
+6000148	吉布提	\N	jíbùtí	Djibouti	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 139; XHZD, p. 702)	6000148
+6000149	洪都拉斯	\N	hóngdūlāsī	Honduras	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	The Republic of Honduras (SDC, p. 187; XHZD, p. 706)	6000149
+6000150	几内亚	幾內亞	jīnèiyà	Guinea	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 130; XHZD, p. 702)	6000150
+6000151	加纳	加納	jiānà	Ghana	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 122; XHZD, p. 702)	6000151
+6000152	埃及	\N	aījí	Egypt	proper noun	国家	Country	地方	Places	非洲	Africa	\N	ai1ji2.mp3	(SDC, p. 112; XHZD, p. 702)	6000152
+6000153	埃塞俄比亚	埃塞俄比亞	aīsàiébǐyà	Ethiopia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 132)	6000153
+6000154	柬埔寨	\N	jiǎnpǔzhài	Cambodia	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 20; XHZD, p. 698)	6000154
+6000155	捷克	捷剋	jiékè	Czech	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	Full name is 捷克共和国 (SDC, p. 82; XHZD, p. 700)	6000155
+6000156	津巴布韦	津巴布韋	jīnbābùwéi	Zimbabwe	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Zimbabwe (SDC, p. 156; XHZD, p. 703)	6000156
+6000157	卡塔尔	卡塔爾	kǎtǎěr	Qatar	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 52; XHZD, p. 699)	6000157
+6000158	开曼群岛	開曼群島	kāimàn qúndǎo	Cayman Islands	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	(SDC, p. 194; XHZD, p. 706)	6000158
+6000159	科威特	\N	kēwēitè	Kuwait	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 45; XHZD, p. 699)	6000159
+6000160	肯尼亚	肯尼亞	kěnníyà	Kenya	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 141; XHZD, p. 703)	6000160
+6000161	老挝	老撾	lǎowō	Laos	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 18; XHZD, p. 698)	6000161
+6000162	黎巴嫩	\N	líbānèn	Lebanon	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	Short form is 黎 (SDC, p. 48; XHZD, p. 699)	6000162
+6000163	利比里亚	利比裡亞	lìbǐlǐyà	Liberia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 123; XHZD, p. 702)	6000163
+6000164	利比亚	利比亞	lìbǐyà	Libya	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 116; XHZD, p. 702)	6000164
+6000165	卢旺达	盧旺達	lúwàngdá	Rwanda	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Rwanda (SDC, p. 140; XHZD, p. 703)	6000165
+6000166	罗马尼亚	羅馬尼亞	luómǎníyà	Romania	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 100; XHZD, p. 701)	6000166
+6000167	马达加斯加	馬達加斯加	mǎdájiāsījiā	Madagascar	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Madagascar (SDC, p. 152; XHZD, p. 703)	6000167
+6000168	马耳他	馬耳他	mǎěrtā	Malta	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 89; XHZD, p. 701)	6000168
+6000169	马尔代夫	馬爾代夫	mǎěrdàifū	Maldives	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	The Republic of Maldives (SDC, p. 32; XHZD, p. 699)	6000169
+6000170	福克兰群岛	福克蘭群島	fúkèlán qúndǎo	Falkland Islands	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	The Falkland Islands are also known as  马尔维纳斯群岛 (Mǎěrwéinàsī qúndǎo or Malvinas Islands)	6000170
+6000171	马拉维	馬拉維	mǎlāwéi	Malawi	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Malawi (SDC, p. 150; XHZD, p. 703)	6000171
+6000172	毛里求斯	毛裡求斯	máolǐqiúsī	Mauritius	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Mauritius (SDC, p. 152; XHZD, p. 703)	6000172
+6000173	毛里塔尼亚	毛裡塔尼亞	máolǐtǎníyà	Mauritania	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 128; XHZD, p. 702)	6000173
 6000174	欧洲联盟	歐洲聯盟	Ōuzhōu Liánméng	European Union	proper noun	联盟	Political Union	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Abbreviation is 欧盟	6000174
-6000175	爱尔兰	愛爾蘭	aìěrlán	Ireland	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 86; XHZD, p. 701)	6000175
-6000176	马来西亚	馬來西亞	mǎláixīyà	Malaysia	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	ma3lai2xi1ya4.mp3	Short form is 马 (SDC, p. 24; XHZD, p. 698)	6000176
-6000177	孟加拉国	孟加拉國	mèngjiālāguó	Bangladesh	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Full name is 孟加拉共和国 'Republic of Bangladesh' (SDC, p. 33; XHZD, p. 699)	6000177
-6000178	摩洛哥	\N	móluògē	Morocco	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Kingdom of Morocco (SDC, p. 117; XHZD, p. 702)	6000178
-6000179	莫桑比克	\N	mòsāngbǐkè	Mozambique	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Mozambique (SDC, p. 151; XHZD, p. 703)	6000179
-6000180	墨西哥	\N	mòxīgē	Mexico	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	Short form is 墨 (SDC, p. 183; XHZD, p. 705)	6000180
-6000181	尼泊尔	尼泊爾	níbóěr	Nepal	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	The Federal Democratic Republic of Nepal (SDC, p. 32; XHZD, p. 698)	6000181
-6000182	尼加拉瓜	\N	níjiālāguā	Nicaragua	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Republic of Nicaragua (SDC, p. 187; XHZD, p. 706)	6000182
-6000183	尼日利亚	尼日利亞	nírìlìyà	Nigeria	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 126; XHZD, p. 702)	6000183
-6000184	挪威	\N	nuówēi	Norway	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 62; XHZD, p. 700)	6000184
-6000185	瑞典	\N	ruìdiǎn	Sweden	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 62; XHZD, p. 700)	6000185
-6000186	瑞士	\N	ruìshì	Switzerland	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 78; XHZD, p. 700)	6000186
-6000187	阿曼	\N	Āmàn	Oman	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 53; XHZD, p. 699)	6000187
-6000188	荷属安的列斯	荷屬安的列斯	Héshǔ Āndelièsī	Netherlands Antilles	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	A former Dutch territory (XHZD, p. 707)	6000188
-6000189	萨尔瓦多	薩爾瓦多	sàěrwǎduō	El Salvador	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Republic of El Salvador (SDC, p. 186; XHZD, p. 705)	6000189
-6000190	塞拉利昂	\N	sàilālìáng	Sierra Leone	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 131; XHZD, p. 702)	6000190
-6000191	塞浦路斯	\N	sàipǔlùsī	Cyprus	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 55; XHZD, p. 702)	6000191
-6000192	塞舌尔	塞舌爾	sāishéěr	Seychelles	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Republic of Seychelles (SDC, p. 152; XHZD, p. 703)	6000192
-6000193	沙特阿拉伯	\N	shātè ālābó	Saudi Arabia	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Short form is 沙特 (SDC, p. 49; XHZD, p. 699)	6000193
-6000194	斯里兰卡	斯里蘭卡	sīlǐlánkǎ	Sri Lanka	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 29; XHZD, p. 699)	6000194
-6000195	斯威士兰	斯威士蘭	sīwēishìlán	Swaziland	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Kingdom of Swaziland (SDC, p. 157; XHZD, p. 703)	6000195
-6000196	苏丹	蘇丹	sūdān	Sudan	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 112; XHZD, p. 702)	6000196
-6000197	苏里南	蘇裡南	sūlǐnán	Suriname	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 211; XHZD, p. 707)	6000197
-6000198	索马里	索馬裡	suǒmǎlǐ	Somalia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 136)	6000198
-6000199	特立尼达和多巴哥	特立尼達和多巴哥	tèlìnídá hé Duōbāgē	Trinidad and Tobago	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	A Caribbean island nation (SDC, p. 200; XHZD, p. 707)	6000199
-6000200	突尼斯	\N	tūnísī	Tunisia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Tunisia (SDC, p. 116; XHZD, p. 702)	6000200
-6000201	土耳其	\N	tǔ'ěrqí	Turkey	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(SDC, p. 57; XHZD, p. 699)	6000201
-6000202	危地马拉	危地馬拉	Wēidìmǎlā	Guatemala	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	The Republic of Guatemala (SDC, p. 186; XHZD, p. 705)	6000202
-6000203	委内瑞拉	委內瑞拉	wěinèiruìlā	Venezuela	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 206; XHZD, p. 707)	6000203
-6000204	乌干达	烏干達	wūgāndá	Uganda	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Uganda (SDC, p. 140; XHZD, p. 703)	6000204
-6000205	乌拉圭	烏拉圭	wūlāguī	Uruguay	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(SDC, p. 215; XHZD, p. 707)	6000205
-6000206	新西兰	新西蘭	xīnxīlán	New Zealand	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	Term used in Mainland China (SDC, p. 165; XHZD, p. 704)	6000206
-6000207	巴布亚新几内亚	巴布亞新幾內亞	bābùyà xīn jǐnèiyà	Papua New Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	The Independent State of Papua New Ginea (SDC, p. 164; XHZD, p. 704)	6000207
-6000208	俄罗斯	俄羅斯	Éluósī	Russia	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	e2luo2si1.mp3	Short form is 俄 (MPRC; SDC, p. 68; XHZD, p. 700)	6000208
-6000209	南非	\N	nánfēi	South Africa	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of South Africa (SDC, p. 156; XHZD, p. 703)	6000209
-6000210	北韩	北韓	běihán	North Korea	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Full form is 朝鲜民主主义人民共和国 People's Democratic Republic of Korea (CC-CEDICT '北韓'; Guoyu '北韓')	6000210
-6000211	萨摩亚	薩摩亞	Sàmóyà	Samoa	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	The Independent State of Samoa (SDC, p. 172; XHZD, p. 704)	6000211
-6000212	阿拉伯联合酋长国	阿拉伯聯合酋長國	Ālābó Liánhé Qiúchángguó	United Arab Emirates	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Short form is 阿联酋 (SDC, p. 52; XHZD, p. 699)	6000212
-6000213	匈牙利	\N	xiōngyálì	Hungary	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Short form is 匈 (SDC 82; XHZD, p. 700)	6000213
-6000214	也门	也門	Yěmén	Yemen	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 53; XHZD, p. 699)	6000214
-6000215	伊拉克	\N	yīlākè	Iraq	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	yi1la1ke4.mp3	Often abbreviated to 伊 (SDC, p. 45; XHZD, p. 699)	6000215
-6000216	伊朗	\N	yīlǎng	Iran	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Often abbreviated to 伊 (SDC, p. 29; XHZD, p. 699)	6000216
-6000217	印度尼西亚	印度尼西亞	yìndùníxīyà	Indonesia	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	yin4du4ni2xi1ya4.mp3	Often abbreviated to 印尼 (SDC 28; XHZD, p. 698)	6000217
-6000218	约旦	約旦	yuēdàn	Jordan	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 57; XHZD, p. 699)	6000218
-6000219	赞比亚	贊比亞	zànbǐyà	Zambia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	The Republic of Zambia (SDC, p. 150; XHZD, p. 703)	6000219
-6000220	扎伊尔	扎伊爾	zhāyīěr	Zaire	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Now known as the Democratic Republic of the Congo. See 刚果民主共和国 (TGN 'Democratic Republic of the Congo')	6000220
-6000221	智利	\N	zhìlì	Chile	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(SDC, p. 214; XHZD, p. 707)	6000221
-6000222	古巴	\N	gǔbā	Cuba	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 190; XHZD, p. 706)	6000222
-6000223	巴拿马	巴拿馬	bānámǎ	Panama	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	(SDC, p. 190; XHZD, p. 706)	6000223
+6000175	爱尔兰	愛爾蘭	aìěrlán	Ireland	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 86; XHZD, p. 701)	6000175
+6000176	马来西亚	馬來西亞	mǎláixīyà	Malaysia	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	ma3lai2xi1ya4.mp3	Short form is 马 (SDC, p. 24; XHZD, p. 698)	6000176
+6000177	孟加拉国	孟加拉國	mèngjiālāguó	Bangladesh	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	Full name is 孟加拉共和国 'Republic of Bangladesh' (SDC, p. 33; XHZD, p. 699)	6000177
+6000178	摩洛哥	\N	móluògē	Morocco	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Kingdom of Morocco (SDC, p. 117; XHZD, p. 702)	6000178
+6000179	莫桑比克	\N	mòsāngbǐkè	Mozambique	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Mozambique (SDC, p. 151; XHZD, p. 703)	6000179
+6000180	墨西哥	\N	mòxīgē	Mexico	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	Short form is 墨 (SDC, p. 183; XHZD, p. 705)	6000180
+6000181	尼泊尔	尼泊爾	níbóěr	Nepal	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	The Federal Democratic Republic of Nepal (SDC, p. 32; XHZD, p. 698)	6000181
+6000182	尼加拉瓜	\N	níjiālāguā	Nicaragua	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	The Republic of Nicaragua (SDC, p. 187; XHZD, p. 706)	6000182
+6000183	尼日利亚	尼日利亞	nírìlìyà	Nigeria	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 126; XHZD, p. 702)	6000183
+6000184	挪威	\N	nuówēi	Norway	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 62; XHZD, p. 700)	6000184
+6000185	瑞典	\N	ruìdiǎn	Sweden	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 62; XHZD, p. 700)	6000185
+6000186	瑞士	\N	ruìshì	Switzerland	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 78; XHZD, p. 700)	6000186
+6000187	阿曼	\N	Āmàn	Oman	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 53; XHZD, p. 699)	6000187
+6000188	荷属安的列斯	荷屬安的列斯	Héshǔ Āndelièsī	Netherlands Antilles	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	A former Dutch territory (XHZD, p. 707)	6000188
+6000189	萨尔瓦多	薩爾瓦多	sàěrwǎduō	El Salvador	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	The Republic of El Salvador (SDC, p. 186; XHZD, p. 705)	6000189
+6000190	塞拉利昂	\N	sàilālìáng	Sierra Leone	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 131; XHZD, p. 702)	6000190
+6000191	塞浦路斯	\N	sàipǔlùsī	Cyprus	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 55; XHZD, p. 702)	6000191
+6000192	塞舌尔	塞舌爾	sāishéěr	Seychelles	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Republic of Seychelles (SDC, p. 152; XHZD, p. 703)	6000192
+6000193	沙特阿拉伯	\N	shātè ālābó	Saudi Arabia	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	Short form is 沙特 (SDC, p. 49; XHZD, p. 699)	6000193
+6000194	斯里兰卡	斯里蘭卡	sīlǐlánkǎ	Sri Lanka	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 29; XHZD, p. 699)	6000194
+6000195	斯威士兰	斯威士蘭	sīwēishìlán	Swaziland	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Kingdom of Swaziland (SDC, p. 157; XHZD, p. 703)	6000195
+6000196	苏丹	蘇丹	sūdān	Sudan	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 112; XHZD, p. 702)	6000196
+6000197	苏里南	蘇裡南	sūlǐnán	Suriname	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	(SDC, p. 211; XHZD, p. 707)	6000197
+6000198	索马里	索馬裡	suǒmǎlǐ	Somalia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 136)	6000198
+6000199	特立尼达和多巴哥	特立尼達和多巴哥	tèlìnídá hé Duōbāgē	Trinidad and Tobago	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	A Caribbean island nation (SDC, p. 200; XHZD, p. 707)	6000199
+6000200	突尼斯	\N	tūnísī	Tunisia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Tunisia (SDC, p. 116; XHZD, p. 702)	6000200
+6000201	土耳其	\N	tǔ'ěrqí	Turkey	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 57; XHZD, p. 699)	6000201
+6000202	危地马拉	危地馬拉	Wēidìmǎlā	Guatemala	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	The Republic of Guatemala (SDC, p. 186; XHZD, p. 705)	6000202
+6000203	委内瑞拉	委內瑞拉	wěinèiruìlā	Venezuela	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	(SDC, p. 206; XHZD, p. 707)	6000203
+6000204	乌干达	烏干達	wūgāndá	Uganda	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Uganda (SDC, p. 140; XHZD, p. 703)	6000204
+6000205	乌拉圭	烏拉圭	wūlāguī	Uruguay	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	(SDC, p. 215; XHZD, p. 707)	6000205
+6000206	新西兰	新西蘭	xīnxīlán	New Zealand	proper noun	国家	Country	地方	Places	大洋洲	Oceania	\N	\N	Term used in Mainland China (SDC, p. 165; XHZD, p. 704)	6000206
+6000207	巴布亚新几内亚	巴布亞新幾內亞	bābùyà xīn jǐnèiyà	Papua New Guinea	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	The Independent State of Papua New Ginea (SDC, p. 164; XHZD, p. 704)	6000207
+6000208	俄罗斯	俄羅斯	Éluósī	Russia	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	e2luo2si1.mp3	Short form is 俄 (MPRC; SDC, p. 68; XHZD, p. 700)	6000208
+6000209	南非	\N	nánfēi	South Africa	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of South Africa (SDC, p. 156; XHZD, p. 703)	6000209
+6000210	北韩	北韓	běihán	North Korea	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	Full form is 朝鲜民主主义人民共和国 People's Democratic Republic of Korea (CC-CEDICT '北韓'; Guoyu '北韓')	6000210
+6000211	萨摩亚	薩摩亞	Sàmóyà	Samoa	proper noun	国家	Country	地方	Places	大洋洲	Oceania	\N	\N	The Independent State of Samoa (SDC, p. 172; XHZD, p. 704)	6000211
+6000212	阿拉伯联合酋长国	阿拉伯聯合酋長國	Ālābó Liánhé Qiúchángguó	United Arab Emirates	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	Short form is 阿联酋 (SDC, p. 52; XHZD, p. 699)	6000212
+6000213	匈牙利	\N	xiōngyálì	Hungary	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	Short form is 匈 (SDC 82; XHZD, p. 700)	6000213
+6000214	也门	也門	Yěmén	Yemen	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 53; XHZD, p. 699)	6000214
+6000215	伊拉克	\N	yīlākè	Iraq	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	yi1la1ke4.mp3	Often abbreviated to 伊 (SDC, p. 45; XHZD, p. 699)	6000215
+6000216	伊朗	\N	yīlǎng	Iran	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	Often abbreviated to 伊 (SDC, p. 29; XHZD, p. 699)	6000216
+6000217	印度尼西亚	印度尼西亞	yìndùníxīyà	Indonesia	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	yin4du4ni2xi1ya4.mp3	Often abbreviated to 印尼 (SDC 28; XHZD, p. 698)	6000217
+6000218	约旦	約旦	yuēdàn	Jordan	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 57; XHZD, p. 699)	6000218
+6000219	赞比亚	贊比亞	zànbǐyà	Zambia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Zambia (SDC, p. 150; XHZD, p. 703)	6000219
+6000220	扎伊尔	扎伊爾	zhāyīěr	Zaire	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Now known as the Democratic Republic of the Congo. See 刚果民主共和国 (TGN 'Democratic Republic of the Congo')	6000220
+6000221	智利	\N	zhìlì	Chile	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 214; XHZD, p. 707)	6000221
+6000222	古巴	\N	gǔbā	Cuba	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	(SDC, p. 190; XHZD, p. 706)	6000222
+6000223	巴拿马	巴拿馬	bānámǎ	Panama	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	(SDC, p. 190; XHZD, p. 706)	6000223
 6000224	列克	列剋	lièkè	Lek	proper noun	货币	Currency	现代汉语	Modern Chinese	阿尔巴尼亚	Albania	\N	\N	Unit of currency in Albania (Wikipedia 'ISO_4217')	6000224
 6000225	阿尔及利亚第纳尔	阿爾及利亞第納爾	Āěrjílìyà dìnàěr	Algerian dinar	proper noun	货币	Currency	现代汉语	Modern Chinese	阿尔及利亚	Algeria	\N	\N	Unit of currency in Algeria (Wikipedia 'ISO_4217')	6000225
 6000226	阿富汗尼	\N	Āfùhànní	Afghani	proper noun	货币	Currency	现代汉语	Modern Chinese	阿富汗	Afghanistan	\N	\N	Unit of currency in Afghanistan (Wikipedia 'ISO_4217')	6000226
@@ -377,10 +377,10 @@
 6000377	中美文化研究中心	\N	zhōng měi wénhuà yánjiū zhōngxīn	Hopkins-Nanjing Center	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中美文化研究中心')	6000377
 6000378	中华全国体育总会	中華全國體育總會	Zhōnghuá quánguó tǐyù zǒnghuì	All-China Sports Federation	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中華全國體育總會')	6000378
 6000379	中远香港集团	中遠香港集團	zhōngyuǎn xiānggǎng jítuán	COSCO Hong Kong Group	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中遠香港集團')	6000379
-6000380	中非共和国	中非共和國	Zhōng Fēi gònghéguó	Central African Republic	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '中非共和國')	6000380
+6000380	中非共和国	中非共和國	Zhōng Fēi gònghéguó	Central African Republic	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '中非共和國')	6000380
 6000381	丹尼斯	\N	dānní sī	Dennis	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '丹尼斯')	6000381
 6000382	丹布朗	\N	dān bùlǎng	Dan Brown	proper noun	作者	Author	文学	Literature	美国	United States	\N	\N	 American novelist (CC-CEDICT '丹布朗')	6000382
-6000383	乍得	\N	Zhàdé	Chad	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(SDC, p. 134; XHZD, p. 702)	6000383
+6000383	乍得	\N	Zhàdé	Chad	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 134; XHZD, p. 702)	6000383
 6000384	乍得湖	\N	zhàdé hú	Lake Chad	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '乍得湖'; Wikipedia '乍得湖')	6000384
 6000385	乞力马扎罗山	乞力馬扎羅山	qǐ lì mǎ zhā luóshān	Mt Kilimanjaro	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	In Tanzania(CC-CEDICT '乞力馬扎羅山')	6000385
 6000386	乱世佳人	亂世佳人	luànshìjiārén	Gone with the Wind (film)	proper noun	电影	Movie	戏剧	Drama	美国	United States	\N	\N	(CC-CEDICT '亂世佳人')	6000386
@@ -465,7 +465,7 @@
 6000465	佩鲁贾	佩魯賈	pèilǔjiǎ	Perugia	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	A city in Italy (CC-CEDICT '佩魯賈')	6000465
 6000466	依撒意亚	依撒意亞	yīsǎyìyà	Isaiah	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '依撒意亞')	6000466
 6000467	俄克拉何马城	俄克拉何馬城	ékèlāhémǎ chéng	Oklahoma City	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '俄克拉何馬城')	6000467
-6000468	俄联邦	俄聯邦	éliánbāng	Russian Federation, RSFSR	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '俄聯邦')	6000468
+6000468	俄联邦	俄聯邦	éliánbāng	Russian Federation, RSFSR	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '俄聯邦')	6000468
 6000469	俞天白	\N	yútiānbái	Yu Tianbai	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1937-; novelist (CC-CEDICT '俞天白')	6000469
 6000470	伦敦证券交易所	倫敦證券交易所	Lúndūn zhèngquàn jiāoyìsuǒ	London Stock Exchange (LSE)	proper noun	\N	\N	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '倫敦證券交易所')	6000470
 6000471	伟哥	偉哥	wěigē	Viagra (male impotence drug)	proper noun	药品	Medication	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '偉哥')	6000471
@@ -474,15 +474,15 @@
 6000474	杰弗逊	傑弗遜	jiéfúxùn	Jefferson	proper noun	城市	City	地方	Places	美国	United States	\N	\N	Capital of Missouri (CC-CEDICT '傑弗遜')	6000474
 6000475	杰米	傑米	jiémǐ	Jamie / Jim	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '傑米')	6000475
 6000476	杰里科	傑里科	jiélǐkē	Jericho (town in West Bank)	proper noun	地名	Place Name	地方	Places	中东	Middle East	\N	\N	(CC-CEDICT '傑里科')	6000476
-6000477	芬兰	芬蘭	fēnlán	Finland	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	fen1lan2.mp3	(SDC 63; XHZD, p. 700)	6000477
+6000477	芬兰	芬蘭	fēnlán	Finland	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	fen1lan2.mp3	(SDC 63; XHZD, p. 700)	6000477
 6000478	克劳福德	克勞福德	kèláofúdé	Crawford	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	Town in Texas) (CC-CEDICT '克勞福德')	6000478
 6000479	克拉斯诺亚尔斯克	克拉斯諾亞爾斯克	kèlāsīnuòyà'ěrsīkè	Krasnoyarsk	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '克拉斯諾亞爾斯克')	6000479
 6000480	克拉斯诺达尔	克拉斯諾達爾	kè lā sī nuò dá ěr	Krasnodar (city in Russia)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '克拉斯諾達爾')	6000480
 6000481	克拉科夫	\N	kèlākēfū	Krakow	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '克拉科夫')	6000481
 6000482	克朗代克	\N	kèlǎngdàikè	Klondike in northwest Canada	proper noun	地名	Place Name	地方	Places	北美	North America	\N	\N	(CC-CEDICT '克朗代克')	6000482
 6000483	克流感	\N	kèliúgǎn	oseltamivir / Tamiflu	proper noun	药品	Medication	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '克流感')	6000483
-6000484	克罗地亚共和国	克羅地亞共和國	kèluódìyà gònghéguó	Republic of Croatia	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '克羅地亞共和國')	6000484
-6000485	克罗埃西亚	克羅埃西亞	kè luó āi Xī Yà	Croatia	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Taiwanese usage (CC-CEDICT '克羅埃西亞')	6000485
+6000484	克罗地亚共和国	克羅地亞共和國	kèluódìyà gònghéguó	Republic of Croatia	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '克羅地亞共和國')	6000484
+6000485	克罗埃西亚	克羅埃西亞	kè luó āi Xī Yà	Croatia	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	Taiwanese usage (CC-CEDICT '克羅埃西亞')	6000485
 6000486	克莱斯勒汽车公司	克萊斯勒汽車公司	kèláisīlè qìchē gōngsī	Chrysler	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '克萊斯勒汽車公司')	6000486
 6000487	克虏伯	克虜伯	kèlǔbó	Krupp	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '克虜伯')	6000487
 6000488	克里斯托弗	\N	Kèlǐsītuōfú	Christopher	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '克里斯托弗')	6000488
@@ -492,16 +492,16 @@
 6000492	八佰伴	\N	bābǎibàn	Yaohan retail group	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '八佰伴')	6000492
 6000493	宋楚瑜	\N	Sòng Chǔyú	James Soong	proper noun	人	Person	政治	Politics	台湾	Taiwan	\N	\N	1942-; Taiwanese politician expelled from Guomindang in 2000 when he founded People First Party 亲民党 (Wikipedia '宋楚瑜')	6000493
 6000494	冒纳罗亚	冒納羅亞	màonàluóyà	Moanalua, Hawaiian volcano	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '冒納羅亞')	6000494
-6000495	白俄罗斯	白俄羅斯	báiéluósī	Belarus	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	bai2e2luo2si1.mp3	(SDC 67; XHZD, p. 700)	6000495
+6000495	白俄罗斯	白俄羅斯	báiéluósī	Belarus	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	bai2e2luo2si1.mp3	(SDC 67; XHZD, p. 700)	6000495
 6000496	凡尔赛	凡爾賽	fáněrsài	Versailles	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Near Paris (CC-CEDICT '凡爾賽')	6000496
 6000497	凡赛斯	凡賽斯	fánsàisī	Versace	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	Fashion brand; Taiwanese usage (CC-CEDICT '凡賽斯')	6000497
 6000498	凯迪拉克	凱迪拉克	kǎidílākè	Cadillac	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '凱迪拉克')	6000498
 6000499	约翰逊	約翰遜	yuēhànxùn	Johnson	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '約翰遜')	6000499
 6000500	切尔诺贝利	切爾諾貝利	qiē'ěrnuòbèilì	Chernobyl	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '切爾諾貝利')	6000500
 6000501	列克星顿	列克星頓	lièkèxīngdùn	Lexington, Massachusetts	proper noun	地名	Place Name	美国	United States	\N	\N	\N	\N	(CC-CEDICT '列克星頓')	6000501
-6000502	列支敦斯登	\N	lièzhīdūnsīdēng	Liechtenstein 	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Taiwanese iusage (CC-CEDICT '列支敦斯登')	6000502
+6000502	列支敦斯登	\N	lièzhīdūnsīdēng	Liechtenstein 	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	Taiwanese iusage (CC-CEDICT '列支敦斯登')	6000502
 6000503	别克	別克	biékè	Buick	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '別克')	6000503
-6000504	利比里亚	利比里亞	lìbìlǐyà	Liberia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '利比里亞')	6000504
+6000504	利比里亚	利比里亞	lìbìlǐyà	Liberia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '利比里亞')	6000504
 6000505	利马索尔	利馬索爾	lìmǎsuǒěr	Limassol / Lemesos	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	In Cyprus (CC-CEDICT '利馬索爾')	6000505
 6000506	利隆圭	\N	lìlóngguī	Lilongwe	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	The capital of Malawi (CC-CEDICT '利隆圭')	6000506
 6000507	利贴	利貼	lìtiē	Post-It note (3M trademark)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '利貼')	6000507
@@ -526,7 +526,7 @@
 6000526	卑尔根	卑爾根	bēiěrgēn	Bergen	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Norway (CC-CEDICT '卑爾根'; Wikipedia '卑爾根')	6000526
 6000527	卓越网	卓越網	zhuóyuèwǎng	Joyo.com	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '卓越網')	6000527
 6000528	南希	\N	nánxī	Nancy	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '南希')	6000528
-6000529	南朝鲜	南朝鮮	Nán Cháoxiān	South Korea	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(CC-CEDICT '南朝鮮')	6000529
+6000529	南朝鲜	南朝鮮	Nán Cháoxiān	South Korea	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '南朝鮮')	6000529
 6000530	博蒙特	\N	bómēngté	Beaumont	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '博蒙特')	6000530
 6000531	卜卜米	\N	bǔbǔmǐ	Rice Krispies	proper noun	产品	Product	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '卜卜米')	6000531
 6000532	卡仙尼	\N	kǎxiānní	Cassini space probe	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '卡仙尼')	6000532
@@ -565,7 +565,7 @@
 6000565	埃文	\N	āiwén	Evan / Avon / Ivan	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '埃文')	6000565
 6000566	埃文斯	\N	āiwénsī	Evans / Ivins / Ivens	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '埃文斯')	6000566
 6000567	基民党	基民黨	jīmíndǎng	Christian democratic party	proper noun	\N	\N	政治	Politics	\N	\N	\N	\N	(CC-CEDICT '基民黨')	6000567
-6000568	塞席尔	塞席爾	sāixí'ěr	the Seychelles	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '塞席爾'; Wikipedia '塞舌尔')	6000568
+6000568	塞席尔	塞席爾	sāixí'ěr	the Seychelles	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '塞席爾'; Wikipedia '塞舌尔')	6000568
 6000569	墨西拿	\N	mòxīná	Messina, Sicilian city	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '墨西拿')	6000569
 6000570	士力架	\N	shìlìjià	Snickers (candy bar)	proper noun	产品	Product	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '士力架')	6000570
 6000571	多佛尔	多佛爾	duōfóěr	Dover	proper noun	城市	City	地方	Places	英国	England	\N	\N	(CC-CEDICT '多佛爾')	6000571
@@ -575,7 +575,7 @@
 6000575	奇努克	\N	qínǔkè	Chinook (helicopter)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '奇努克')	6000575
 6000576	奈洛比	\N	nàiluòbì	Nairobi	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Taiwanese usage; capital of Kenya (CC-CEDICT '奈洛比')	6000576
 6000577	奥利奥	奧利奧	àolìào	Oreo cookies	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '奧利奧')	6000577
-6000578	奥塞梯	奧塞梯	àosāitī	Ossetia	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	A Caucasian republic (CC-CEDICT '奧塞梯')	6000578
+6000578	奥塞梯	奧塞梯	àosāitī	Ossetia	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	A Caucasian republic (CC-CEDICT '奧塞梯')	6000578
 6000579	奥委会	奧委會	àowěihuì	Olympic committee	proper noun	委会	Committee	现代汉语	Modern Chinese	体育	Sport	\N	\N	(CC-CEDICT '奧委會')	6000579
 6000580	奥托	奧托	àotuō	Otto	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '奧托')	6000580
 6000581	奥尔良	奧爾良	àoěrliáng	Orléans	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '奧爾良')	6000581
@@ -604,9 +604,9 @@
 6000604	帕福斯	\N	pàfúsī	Paphos	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	In Cyprus (CC-CEDICT '帕福斯')	6000604
 6000605	帕萨特	帕薩特	pàsàté	Passat (automobile)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '帕薩特')	6000605
 6000606	帕兰卡	帕蘭卡	pàlánkǎ	Palanka	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '帕蘭卡')	6000606
-6000607	帛琉	\N	bóliú	Palau	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(CC-CEDICT '帛琉')	6000607
+6000607	帛琉	\N	bóliú	Palau	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '帛琉')	6000607
 6000608	座头市	座頭市	zuòtóushì	Zatoichi	proper noun	电影	Movie	戏剧	Drama	日本	Japan	\N	\N	(CC-CEDICT '座頭市'; wikipedia '座頭市')	6000608
-6000609	库拉索	庫拉索	kùlāsuǒ	Curaçao	proper noun	国家	Country	现代汉语	Modern Chinese	\N	\N	\N	\N	An island country in the southern Caribbean Sea (CC-CEDICT '庫拉索')	6000609
+6000609	库拉索	庫拉索	kùlāsuǒ	Curaçao	proper noun	国家	Country	地方	Places	\N	\N	\N	\N	An island country in the southern Caribbean Sea (CC-CEDICT '庫拉索')	6000609
 6000610	库页岛	庫頁島	kùyèdǎo	Sakhalin	proper noun	岛	Island	地方	Places	日本	Japan	\N	\N	(CC-CEDICT '庫頁島'; Wikipedia '库页岛')	6000610
 6000611	彭勃	\N	péngbó	Peng Bo	proper noun	人	Person	体育	Sport	中国	China	\N	\N	1981-; Diver (CC-CEDICT '彭勃')	6000611
 6000612	彭博社	\N	péngbóshè	Bloomberg News	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '彭博社')	6000612
@@ -687,7 +687,7 @@
 6000687	法兰克福车展	法蘭克福車展	Fǎlánkèfú chē zhǎn	the Frankfurt Motor Show	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '法蘭克福車展')	6000687
 6000688	法赫德	\N	fǎHèdé	King Fahd of Saudi Arabia	proper noun	人	Person	现代汉语	Modern Chinese	中东	Middle East	\N	\N	(CC-CEDICT '法赫德')	6000688
 6000689	泛美	\N	fànměi	Pan American	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '泛美')	6000689
-6000690	波札那	\N	bōzhánà	Botswana	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '波札那')	6000690
+6000690	波札那	\N	bōzhánà	Botswana	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '波札那')	6000690
 6000691	波尔多	波爾多	bōěrduō	Bordeaux	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '波爾多')	6000691
 6000692	波罗的	波羅的	Bōluóde	Baltic	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '波羅的')	6000692
 6000693	泰瑟枪	泰瑟槍	tàisèqiāng	Taser (electroshock weapon)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '泰瑟槍')	6000693
@@ -733,7 +733,7 @@
 6000733	百威	\N	bǎiwēi	Budweiser (beer)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '百威')	6000733
 6000734	皇堡	\N	huángbǎo	Burger King Whopper	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '皇堡')	6000734
 6000735	百思买	百思買	bǎisīmǎi	Best Buy (retailer)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '百思買')	6000735
-6000736	百慕达	百慕達	bǎimùdá	Bermuda	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	Taiwanese usage (CC-CEDICT '百慕達')	6000736
+6000736	百慕达	百慕達	bǎimùdá	Bermuda	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	Taiwanese usage (CC-CEDICT '百慕達')	6000736
 6000737	皮克斯	\N	píkèsī	Pixar Animation Studios	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '皮克斯')	6000737
 6000738	卢卡	盧卡	lúkǎ	Lucca	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Tuscany (CC-CEDICT '盧卡')	6000738
 6000739	睡美人	\N	shuìměirén	Sleeping Beauty	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '睡美人')	6000739
@@ -741,7 +741,7 @@
 6000741	祖鲁人	祖魯人	zǔlǔrén	Zulu people	proper noun	\N	\N	现代汉语	Modern Chinese	人类学	Anthropology	\N	\N	(CC-CEDICT '祖魯人')	6000741
 6000742	科佩尔	科佩爾	kēpèiěr	Koper	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Port city of Slovenia (CC-CEDICT '科佩爾')	6000742
 6000743	科托努	\N	kētuōnǔ	Cotonou	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	City in Benin (CC-CEDICT '科托努')	6000743
-6000744	科摩洛	\N	kēmóluò	Comoros	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	An island country (CC-CEDICT '科摩洛')	6000744
+6000744	科摩洛	\N	kēmóluò	Comoros	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	An island country (CC-CEDICT '科摩洛')	6000744
 6000745	科罗娜	科羅娜	kēluónà	Corona (beer)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '科羅娜')	6000745
 6000746	科罗纳	科羅納	kēluónà	Corona / Colonna	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '科羅納')	6000746
 6000747	立体派	立體派	lìtǐpài	Cubism	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '立體派')	6000747
@@ -763,10 +763,10 @@
 6000763	索尔	索爾	suǒ'ěr	Thor	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Norse god of thunder (CC-CEDICT '索爾')	6000763
 6000764	索菲亚	索菲亞	suǒfēiyà	Sofia (capital of Bulgaria)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '索菲亞')	6000764
 6000765	索非亚	索非亞	suǒfēiyà	Sofia, capital of Bulgaria	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '索非亞')	6000765
-6000766	索马里	索馬里	suǒMǎlǐ	Somalia	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '索馬里')	6000766
+6000766	索马里	索馬里	suǒMǎlǐ	Somalia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '索馬里')	6000766
 6000767	绿区	綠區	lǜqū	(Baghdad) green zone	noun	\N	\N	地方	Places	\N	\N	\N	\N	(CC-CEDICT '綠區')	6000767
 6000768	维尼熊	維尼熊	wéiníxióng	Winnie the Pooh	proper noun	书名	Book Title	文学	Literature	美国	United States	\N	\N	(CC-CEDICT '維尼熊')	6000768
-6000769	维德角	維德角	wéidéjiǎo	Cape Verde	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '維德角'; Wikipedia '佛得角')	6000769
+6000769	维德角	維德角	wéidéjiǎo	Cape Verde	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '維德角'; Wikipedia '佛得角')	6000769
 6000770	维拉港	維拉港	wéilāgǎng	Port Vila	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	The capital of Vanuatu (CC-CEDICT '維拉港')	6000770
 6000771	维罗纳	維羅納	wéiluónà	Verona	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '維羅納')	6000771
 6000772	维萨	維薩	wéisà	Visa (credit card)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '維薩')	6000772
@@ -800,7 +800,7 @@
 6000800	华侨报	華僑報	huáqiáobào	Va Kio Daily	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	Published in Macao (CC-CEDICT '華僑報'; Wikipedia '華僑報')	6000800
 6000801	菲亚特	菲亞特	fēiyàté	Fiat	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '菲亞特')	6000801
 6000802	莱特币	萊特幣	láitébì	Litecoin (cryptocurrency)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '萊特幣')	6000802
-6000803	莱索托	萊索托	láisuǒtuō	Lesotho	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '萊索托')	6000803
+6000803	莱索托	萊索托	láisuǒtuō	Lesotho	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '萊索托')	6000803
 6000804	莱茵河	萊茵河	láiyīnhé	Rhine River	proper noun	水名	River	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '萊茵河')	6000804
 6000805	万事达	萬事達	wànshìdá	MasterCard	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '萬事達')	6000805
 6000806	万博省	萬博省	wànbóshěng	Huambo province of Angola	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '萬博省')	6000806
@@ -810,7 +810,7 @@
 6000810	叶江川	葉江川	yè jiāngchuān	Ye Jiangchuan	proper noun	人	Person	现代汉语	Modern Chinese	中国	China	\N	\N	1960-; Chess Grandmaster, (CC-CEDICT '葉江川'; Wikipedia '叶江川')	6000810
 6000811	葛优	葛優	gěyōu	Ge You	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1957-; Chinese actor (CC-CEDICT '葛優')	6000811
 6000812	蒙巴萨	蒙巴薩	mēngbāsà	Mombasa	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	City in Kenya (CC-CEDICT '蒙巴薩')	6000812
-6000813	蒲隆地	\N	púlóngdì	Burundi	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '蒲隆地'; Wikipedia '蒲隆地')	6000813
+6000813	蒲隆地	\N	púlóngdì	Burundi	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '蒲隆地'; Wikipedia '蒲隆地')	6000813
 6000814	蔗露	\N	zhèlù	Jello	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '蔗露')	6000814
 6000815	萧邦	蕭邦	xiāobāng	Frédéric Chopin (Composer)	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '蕭邦')	6000815
 6000816	萨哈诺夫	薩哈諾夫	sàhānuòfū	(Andrei) Sakharov	set phrase	人	Person	历史	History	欧洲	Europe	\N	\N	1921-1989 (CC-CEDICT '薩哈諾夫')	6000816
@@ -823,26 +823,26 @@
 6000823	蓝色小精灵	藍色小精靈	lánsè xiǎojīnglíng	the Smurfs / Smurf	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '藍色小精靈')	6000823
 6000824	苏富比	蘇富比	sūfùbì	Sotheby's auction house	proper noun	公司	Company	商务	Commerce	英国	England	\N	\N	(CC-CEDICT '蘇富比')	6000824
 6000825	苏瓦	蘇瓦	sūwǎ	Suva, capital of Fiji	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '蘇瓦')	6000825
-6000826	苏里南	蘇里南	sūlǐnán	Suriname	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(CC-CEDICT '蘇里南'; Wikipedia '蘇利南')	6000826
+6000826	苏里南	蘇里南	sūlǐnán	Suriname	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	(CC-CEDICT '蘇里南'; Wikipedia '蘇利南')	6000826
 6000827	兰辛	蘭辛	lánxīn	Lansing, capital of Michigan	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '蘭辛')	6000827
 6000828	萝莉	蘿莉	luólì	Lolita	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '蘿莉')	6000828
 6000829	虎牌	\N	hǔpái	Tiger Brand (beer)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '虎牌')	6000829
 6000830	血帮	血幫	xuèbāng	Bloods	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Street gang in USA (CC-CEDICT '血幫')	6000830
 6000831	卫报	衛報	wèibào	The Guardian	proper noun	报纸	Newspaper	媒体	Media	英国	England	\N	\N	U.K. newspaper (CC-CEDICT '衛報')	6000831
-6000832	裴济	裴濟	péijì	Fiji	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	Island of Oceania (CC-CEDICT '裴濟')	6000832
+6000832	裴济	裴濟	péijì	Fiji	proper noun	国家	Country	地方	Places	大洋洲	Oceania	\N	\N	Island of Oceania (CC-CEDICT '裴濟')	6000832
 6000833	西乃	\N	xīnǎi	Sinai	proper noun	地名	Place Name	地方	Places	中东	Middle East	\N	\N	(CC-CEDICT '西乃')	6000833
 6000834	西乃山	\N	xīnǎishān	Mount Sinai	proper noun	地名	Place Name	地方	Places	中东	Middle East	\N	\N	(CC-CEDICT '西乃山')	6000834
 6000835	西哈努克	\N	xīhānǔkè	(King) Sihanouk	set phrase	人	Person	政治	Politics	亚洲	Asia	\N	\N	Of Cambodia (CC-CEDICT '西哈努克')	6000835
 6000836	西奈	\N	xīnài	Sinai Peninsula	proper noun	地名	Place Name	地方	Places	中东	Middle East	\N	\N	(CC-CEDICT '西奈')	6000836
 6000837	西耶那	\N	xīyénà	Fiat Siena	proper noun	产品	Product	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '西耶那')	6000837
 6000838	贝九	貝九	bèijiǔ	Beethoven's Ninth	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '貝九')	6000838
-6000839	贝南	貝南	bèinán	Benin	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '貝南'; Wikipedia '贝宁')	6000839
+6000839	贝南	貝南	bèinán	Benin	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '貝南'; Wikipedia '贝宁')	6000839
 6000840	贝拉	貝拉	bèilā	Beira	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Mozambique (CC-CEDICT '貝拉')	6000840
 6000841	贝拉米	貝拉米	bèilāmǐ	Bellamy	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '貝拉米')	6000841
-6000842	贝里斯	貝里斯	bèilǐsī	Belize	proper noun	国家	Country	现代汉语	Modern Chinese	北美	North America	\N	\N	Taiwanese usage (CC-CEDICT '貝里斯'; Wikipedia '伯利兹')	6000842
+6000842	贝里斯	貝里斯	bèilǐsī	Belize	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	Taiwanese usage (CC-CEDICT '貝里斯'; Wikipedia '伯利兹')	6000842
 6000843	费边社	費邊社	fèibiānshè	Fabian Society	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '費邊社')	6000843
 6000844	宾利	賓利	bīnlì	Bentley	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '賓利')	6000844
-6000845	赖索托	賴索托	làisuǒtuō	Lesotho	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '賴索托')	6000845
+6000845	赖索托	賴索托	làisuǒtuō	Lesotho	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '賴索托')	6000845
 6000846	赛格威	賽格威	sàigéwēi	Segway PT	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '賽格威')	6000846
 6000847	赛百味	賽百味	sàibǎi wèi	Subway	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Fast food restaurant (CC-CEDICT '賽百味')	6000847
 6000848	赞西佩	贊西佩	zànxīpèi	Xanthippe	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	Socrates' wife (CC-CEDICT '贊西佩')	6000848
@@ -853,7 +853,7 @@
 6000853	轩尼诗	軒尼詩	xuānníshī	Hennessy (cognac)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '軒尼詩')	6000853
 6000854	辉格党	輝格黨	huīgédǎng	Whig Party	proper noun	党	Party	政治	Politics	英国	England	\N	\N	(CC-CEDICT '輝格黨')	6000854
 6000855	辣酱油	辣醬油	làjiàngyóu	Worcestershire sauce	proper noun	产品	Product	商务	Commerce	饮食	Food and Drink	\N	\N	(CC-CEDICT '辣醬油')	6000855
-6000856	迦纳	迦納	jiānà	Ghana	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '迦納')	6000856
+6000856	迦纳	迦納	jiānà	Ghana	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '迦納')	6000856
 6000857	迪拜	\N	díbài	Dubai	proper noun	城市	City	地方	Places	中东	Middle East	\N	\N	In the United Arab Emirates (CC-CEDICT '迪拜'; Wikipedia '杜拜')	6000857
 6000858	道琼斯	道瓊斯	dào qióngsī	Dow Jones (stock market index)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '道瓊斯')	6000858
 6000859	达喀尔	達喀爾	dákāěr	Dakar	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Senegal (CC-CEDICT '達喀爾')	6000859
@@ -906,7 +906,7 @@
 6000906	阿莱曼	阿萊曼	āláimàn	El Alamein, town in Egypt	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '阿萊曼')	6000906
 6000907	阿盖达	阿蓋達	āgàidá	al-Qaeda	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '阿蓋達')	6000907
 6000908	阿萨德	阿薩德	āsàdé	Assad (Arabic name)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '阿薩德')	6000908
-6000909	阿鲁巴	阿魯巴	alǔbā	Aruba	proper noun	国家	Country	现代汉语	Modern Chinese	南美	South America	\N	\N	(CC-CEDICT '阿魯巴')	6000909
+6000909	阿鲁巴	阿魯巴	alǔbā	Aruba	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	(CC-CEDICT '阿魯巴')	6000909
 6000910	陈可雄	陳可雄	chén kěxióng	Chen Kexiong	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1950-; novelist (CC-CEDICT '陳可雄')	6000910
 6000911	雀儿喜	雀兒喜	què'érxǐ	Chelsea	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '雀兒喜')	6000911
 6000912	雀巢	\N	quècháo	Nestlé	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '雀巢')	6000912
@@ -918,7 +918,7 @@
 6000918	韦科	韋科	wéikē	Waco	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '韋科')	6000918
 6000919	马天尼	馬天尼	mǎtiānní	Martini	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	A cocktail (CC-CEDICT '馬天尼')	6000919
 6000920	马尔他	馬爾他	mǎěrtā	Malta	proper noun	岛	Island	地方	Places	欧洲	Europe	\N	\N	Taiwanese usage (CC-CEDICT '馬爾他')	6000920
-6000921	马里	馬里	mǎlǐ	Mali	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '馬里'; Wikipedia '马里')	6000921
+6000921	马里	馬里	mǎlǐ	Mali	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '馬里'; Wikipedia '马里')	6000921
 6000922	魏玛	魏瑪	wèimǎ	Weimar	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	In Germany (CC-CEDICT '魏瑪')	6000922
 6000923	凤凰号	鳳凰號	fènghuánghào	Phoenix	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	NASA Mars explorer (CC-CEDICT '鳳凰號')	6000923
 6000924	麦克维	麥克維	màikèwéi	(Timothy) McVeigh	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1968-2001; Perpetrated the 1995 Oklahoma City bombing (CC-CEDICT '麥克維'; Wikipedia '提摩太·占士·麥克維')	6000924
@@ -986,7 +986,7 @@
 6000986	出入境检验检疫局	出入境檢驗檢疫局	chūrù jìng jiǎnyàn jiǎnyì jú	Entry-Exit Inspection and Quarantine Bureau	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '出入境檢驗檢疫局')	6000986
 6000987	刘青云	劉青雲	liú qīngyún	Lau Ching-Wan	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1964-; Hong Kong actor (CC-CEDICT '劉青雲')	6000987
 6000988	卡乐星	卡樂星	kǎlèxīng	Carl's Jr.	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Fast-food restaurant chain (CC-CEDICT '卡樂星')	6000988
-6000989	吐瓦鲁	吐瓦魯	tùwǎlǔ	Tuvalu	proper noun	国家	Country	现代汉语	Modern Chinese	大洋洲	Oceania	\N	\N	An island country in the SW Pacific; Taiwanese usage (CC-CEDICT '吐瓦魯')	6000989
+6000989	吐瓦鲁	吐瓦魯	tùwǎlǔ	Tuvalu	proper noun	国家	Country	地方	Places	大洋洲	Oceania	\N	\N	An island country in the SW Pacific; Taiwanese usage (CC-CEDICT '吐瓦魯')	6000989
 6000990	吴镇宇	吳鎮宇	wú zhènyǔ	Francis Ng Chun-Yu	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1961-; Hong Kong actor (CC-CEDICT '吳鎮宇')	6000990
 6000991	周总理	周總理	zhōu zǒnglǐ	Premier Zhou Enlai	proper noun	人	Person	历史	History	中国	China	\N	\N	See 周恩来 (CC-CEDICT '周總理')	6000991
 6000992	哈比人	\N	hābìrén	Hobbit	proper noun	主角	Character	文学	Literature	英国	England	\N	\N	See also 霍比特人 (CC-CEDICT '哈比人')	6000992
@@ -1096,7 +1096,7 @@
 6001096	探路者	\N	tànlùzhě	Pathfinder	proper noun	\N	\N	府	Government	美国	United States	\N	\N	NASA spacecraft sent to Mars in 1977 (CC-CEDICT '探路者')	6001096
 6001097	李嘉诚	李嘉誠	lǐ jiāchéng	Sir Li Ka-shing	proper noun	人	Person	商务	Commerce	中国	China	\N	\N	1928-; Hong Kong businessman (CC-CEDICT '李嘉誠')	6001097
 6001098	东协	東協	dōngxié	ASEAN (Association of Southeast Asian Nations)	proper noun	\N	\N	政府	Government	亚洲	Asia	\N	\N	abbr. for 东南亚国协 (CC-CEDICT '東協')	6001098
-6001099	梵帝冈	梵帝岡	fàndìgāng	the Vatican	proper noun	国家	Country	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Variant of 梵蒂冈 (CC-CEDICT '梵帝岡')	6001099
+6001099	梵帝冈	梵帝岡	fàndìgāng	the Vatican	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	Variant of 梵蒂冈 (CC-CEDICT '梵帝岡')	6001099
 6001100	杨开慧	楊開慧	yáng kāihuì	Yang Kaihui	proper noun	人	Person	历史	History	中国	China	\N	\N	1901-1930; Mao Zedong's second wife (CC-CEDICT '楊開慧')	6001100
 6001101	比尔博	比爾博	bìěrbó	Bilbo	proper noun	\N	\N	文学	Literature	英国	England	\N	\N	Bilbo Baggins, hero of Tolkien's The Hobbit 霍比特人 (CC-CEDICT '比爾博')	6001101
 6001102	汪啸风	汪嘯風	wāng xiàofēng	Wang Xiaofeng	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1944-; Fourth governor of Hainan (CC-CEDICT '汪嘯風')	6001102
@@ -1302,8 +1302,8 @@
 6001302	小应用程序	小應用程序	xiǎo yìngyòng chéngxù	Applet	proper noun	\N	\N	计算机科学	Computer Science	图形用户界面	Graphical User Interface	\N	\N	(Wikipedia 'Java')	6001302
 6001303	小畑健	\N	xiǎotiánjiàn	OBATA Takeshi	proper noun	人	Person	艺术	Art	日本	Japan	\N	\N	Manga artist, illustrator of cult series Death Note 死亡笔记 (CC-CEDICT '小畑健')	6001303
 6001304	密西根	\N	Mìxīgēn	Michigan	proper noun	州	State	地方	Places	美国	United States	\N	\N	A US state (Wikipedia '密歇根州')	6001304
-6001305	巴新	\N	bāxīn	Papua New Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Abbreviation for 巴布亚新几内亚 (CC-CEDICT '巴新')	6001305
-6001306	巴纽	巴紐	bāniǔ	Papua New Guinea	proper noun	国家	Country	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Abbreviation for Papua New Guinea 巴布亚纽几内亚; Taiwanese usage (CC-CEDICT '巴紐')	6001306
+6001305	巴新	\N	bāxīn	Papua New Guinea	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	Abbreviation for 巴布亚新几内亚 (CC-CEDICT '巴新')	6001305
+6001306	巴纽	巴紐	bāniǔ	Papua New Guinea	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	Abbreviation for Papua New Guinea 巴布亚纽几内亚; Taiwanese usage (CC-CEDICT '巴紐')	6001306
 6001307	密西根州	\N	Mìxīgēn zhōu	State of Michigan	proper noun	州	State	地方	Places	美国	United States	\N	\N	A US state (Wikipedia '密歇根州')	6001307
 6001308	底特律	\N	Dǐtélǜ	Detroit	proper noun	城市	City	地方	Places	美国	United States	\N	\N	City in the Michigan (Guoyu '底特律'; Wikipedia '底特律')	6001308
 6001309	共和党	共和黨	Gònghé dǎng	Republican Party	proper noun	党	Party	政治	Politics	美国	United States	\N	\N	(Wikipedia '共和黨 (美國)')	6001309
@@ -1615,7 +1615,7 @@
 6001615	耶鲁大学	耶魯大學	yélǔ dàxué	Yale University	proper noun	大学	Unversity	教育	Education	美国	United States	\N	\N	(CC-CEDICT '耶魯大學')	6001615
 6001616	丹佛	\N	dānfó	Denver	proper noun	城市	City	地方	Places	美国	United States	\N	\N	Located in Colorado (CC-CEDICT '丹佛')	6001616
 6001617	博尔赫斯	博爾赫斯	bó ěr hè sī	Jorge Luis Borges	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '博爾赫斯')	6001617
-6001618	博茨瓦那	\N	bó cí wǎ nà	Botswana	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '博茨瓦那')	6001618
+6001618	博茨瓦那	\N	bó cí wǎ nà	Botswana	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '博茨瓦那')	6001618
 6001619	卡利亚里	卡利亞里	kǎlìyàlǐ	Cagliari, Sardinia	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '卡利亞里')	6001619
 6001620	卡利卡特	\N	kǎ lì kǎté	Calicut, town on Arabian sea in Kerala, India	proper noun	地名	Place Name	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '卡利卡特')	6001620
 6001621	卡塔尼亚	卡塔尼亞	kǎ tǎ ní yà	Catania, Sicily	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '卡塔尼亞')	6001621
@@ -1627,11 +1627,11 @@
 6001627	印度斯坦	\N	yìndù sī tǎn	Hindustan	proper noun	地名	Place Name	历史	History	亚洲	Asia	\N	\N	(CC-CEDICT '印度斯坦')	6001627
 6001628	印度时报	印度時報	yìndù shíbào	India Times	proper noun	报纸	Newspaper	媒体	Media	亚洲	Asia	\N	\N	(CC-CEDICT '印度時報')	6001628
 6001629	印度音乐	印度音樂	yìndù yīnyuè	Bhangra, Indian music (music genre)	proper noun	\N	\N	音乐	Music	亚洲	Asia	\N	\N	(CC-CEDICT '印度音樂')	6001629
-6001630	厄利垂亚	厄利垂亞	èlìchuíyà	Eritrea	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '厄利垂亞')	6001630
+6001630	厄利垂亚	厄利垂亞	èlìchuíyà	Eritrea	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '厄利垂亞')	6001630
 6001631	口袋妖怪	\N	kǒudài yāoguài	Pokémon (Japanese media franchise)	proper noun	产品	Product	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '口袋妖怪')	6001631
 6001632	古墓丽影	古墓麗影	gǔmù lì yǐng	Tomb Raider (computer game)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '古墓麗影')	6001632
 6001633	史普尼克	\N	shǐ pǔ ní kè	Sputnik, Soviet artificial Earth satellite	proper noun	\N	\N	政府	Government	欧洲	Europe	\N	\N	Also written 斯普特尼克 (CC-CEDICT '史普尼克')	6001633
-6001634	史瓦济兰	史瓦濟蘭	shǐ wǎ jì lán	Swaziland	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '史瓦濟蘭')	6001634
+6001634	史瓦济兰	史瓦濟蘭	shǐ wǎ jì lán	Swaziland	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '史瓦濟蘭')	6001634
 6001635	史瓦辛格	\N	shǐ wǎ xīn gé	Arnold Schwarzenegger	proper noun	人	Person	媒体	Media	美国	United States	\N	\N	Also written 阿诺德·施瓦辛格 (CC-CEDICT '史瓦辛格')	6001635
 6001636	史蒂文斯	\N	shǐ dì wén sī	Stephens / Stevens	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '史蒂文斯')	6001636
 6001637	凤凰城	鳳凰城	fènghuángchéng	Phoenix	proper noun	城市	City	地方	Places	美国	United States	\N	\N	State capital of Arizona, also 菲尼克斯 (CC-CEDICT '鳳凰城')	6001637
@@ -1750,7 +1750,7 @@
 6001750	格林威治	\N	gélín wēi zhì	Greenwich	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '格林威治')	6001750
 6001751	格林尼治	\N	gélín ní zhì	Greenwich (former location of Greenwich observatory, at zero longitude)	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '格林尼治')	6001751
 6001752	格陵兰岛	格陵蘭島	Gélínglán dǎo	Greenland	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '格陵蘭島')	6001752
-6001753	模里西斯	\N	mó lǐ xī sī	Mauritius	proper noun	国家	Country	现代汉语	Modern Chinese	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '模里西斯')	6001753
+6001753	模里西斯	\N	mó lǐ xī sī	Mauritius	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '模里西斯')	6001753
 6001754	橙色战剂	橙色戰劑	chéngsè zhàn jì	Agent Orange (herbicide)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '橙色戰劑')	6001754
 6001755	机械战警	機械戰警	jīxiè zhàn jǐng	RoboCop (movie)	proper noun	电影	Movie	戏剧	Drama	美国	United States	\N	\N	(CC-CEDICT '機械戰警')	6001755
 6001756	欧洲之星	歐洲之星	Ōuzhōu zhī xīng	Eurostar (train line)	proper noun	公司	Company	商务	Commercee	欧洲	Europe	\N	\N	(CC-CEDICT '歐洲之星')	6001756
@@ -1908,3 +1908,132 @@
 6001908	人民联盟党	人民聯盟黨	rénmín liánméng dǎng	People's alliance party / Bengali Awami league	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '人民聯盟黨')	6001908
 6001909	保安局局长	保安局局長	bǎo'ān jú júzhǎng	Secretary for Security (Hong Kong)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '保安局局長')	6001909
 6001910	倚天屠龙记	倚天屠龍記	yǐ tiān tú lóng jì	Heaven Sword and Dragon Saber	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	wuxia 武侠, martial arts chivalry novel by Jin Yong 金庸 and its screen adaptations (CC-CEDICT '倚天屠龍記')	6001910
+6001911	末代皇帝	\N	mòdài huángdì	The Last Emperor	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Biopic of Pu Yi 溥仪 by Bernardo Bertolucci (CC-CEDICT '末代皇帝')	6001911
+6001912	侠盗联盟	俠盜聯盟	xiádào liánméng	The Adventurers	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	2017 movie starring 刘德华 Liu Dehua and 舒淇 Shu Qi (Wikipedia '俠盜聯盟')	6001912
+6001913	悟空传	悟空傳	wùkōng zhuàn	Wu Kong	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	2017 action adventure movie (Wikipedia '悟空傳')	6001913
+6001914	杰夫·金尼	傑夫·金尼	jiéfū jīnní	Jeff Kinney	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '傑夫·金尼')	6001914
+6001915	杰瑞·宋飞	傑瑞·宋飛	jiéruì sòngfēi	Jerry Seinfeld	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '傑瑞·宋飛')	6001915
+6001916	傲慢与偏见	傲慢與偏見	àomàn yǔ piānjiàn	Pride and prejudice	proper noun	书名	Book Title	文学	Literature	英国	England	\N	\N	novel by Jane Austen 珍·奥斯汀 (CC-CEDICT '傲慢與偏見')	6001916
+6001917	创业板上市	創業板上市	chuàngyè bǎn shàngshì	Growth Enterprise Markets (GEM)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '創業板上市')	6001917
+6001918	北京青年报	北京青年報	běijīng qīngnián bào	Beijing Youth Daily	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	bjyouth.ynet.com (CC-CEDICT '北京青年報')	6001918
+6001919	半岛电视台	半島電視台	bàndǎo diànshì tái	Al Jazeera (Arabic news network)	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '半島電視台')	6001919
+6001920	协和式客机	協和式客機	xiéhéshì kèjī	Concorde, supersonic passenger airliner	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '協和式客機')	6001920
+6001921	卡利多尼亚	卡利多尼亞	kǎlìduōníyà	Caledonia	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '卡利多尼亞')	6001921
+6001922	卡拉布里亚	卡拉布里亞	kǎlā bù lǐ yà	Calabria, southernmost Italian province	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '卡拉布里亞')	6001922
+6001923	卡斯特利翁	\N	kǎ sī télì wēng	Castellón	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '卡斯特利翁')	6001923
+6001924	卡斯蒂利亚	卡斯蒂利亞	kǎ sī dì lì yà	Castilla, old Spanish kingdom / modern Spanish provinces of Castilla-Leon and Castilla-La Mancha	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '卡斯蒂利亞')	6001924
+6001925	卡纳维尔角	卡納維爾角	kǎnàwéi'ěr jiǎo	Cape Canaveral, Florida	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '卡納維爾角')	6001925
+6001926	印度国大党	印度國大黨	yìndù guódàdǎng	Indian Congress party	proper noun	\N	\N	政治	Politics	亚洲	Asia	\N	\N	(CC-CEDICT '印度國大黨')	6001926
+6001927	厄尔布鲁士	厄爾布魯士	è'ěrbùlǔshì	Mt Elbrus, the highest peak of the Caucasus Mountains	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '厄爾布魯士')	6001927
+6001928	古腾堡计划	古騰堡計劃	gǔ téng bǎo jìhuà	Project Gutenberg	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '古騰堡計劃')	6001928
+6001929	合众国际社	合眾國際社	hézhòngguó jì shè	United Press International (UPI)	proper noun	公司	Company	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '合眾國際社')	6001929
+6001930	哥斯大黎加	\N	gēsīdà líjiā	Costa Rica	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '哥斯大黎加')	6001930
+6001931	喧哗与骚动	喧嘩與騷動	xuānhuá yǔ sāodòng	The Sound and the Fury	proper noun	书名	Book Title	文学	Literature	\N	\N	\N	\N	Novel by William Faulkner 威廉·福克纳 (CC-CEDICT '喧嘩與騷動')	6001931
+6001932	国土安全局	國土安全局	guótǔ ānquán jú	Department of Homeland Security (DHS)	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	(CC-CEDICT '國土安全局')	6001932
+6001933	国家地震局	國家地震局	guójiā dìzhènjú	China earthquake administration (CEA) / State seismological bureau	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家地震局')	6001933
+6001934	国立显忠院	國立顯忠院	guólì xiǎn zhōng yuàn	Korean national memorial cemetery at Dongjak-dong, Seoul	proper noun	\N	\N	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(CC-CEDICT '國立顯忠院')	6001934
+6001935	国际儿童节	國際兒童節	guójì értóng jié	International Children's Day (June 1)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際兒童節')	6001935
+6001936	国际妇女节	國際婦女節	guójì fùnǚ jié	International Women's Day (March 8)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際婦女節')	6001936
+6001937	国际米兰队	國際米蘭隊	guójì Mǐlán duì	FC Internazionale Milano (football club)	proper noun	\N	\N	现代汉语	Modern Chinese	体育	Sport	\N	\N	Abbreviation for 国际米兰足球俱乐部 (CC-CEDICT '國際米蘭隊')	6001937
+6001938	青少年哪吒	\N	qīngshàonián nézhā	Rebels of the Neon God	proper noun	电影	Movie	戏剧	Drama	\N	\N	\N	\N	1992 film from Taiwan (Wikipedia '青少年哪吒')	6001938
+6001939	坎塔布连海	坎塔布連海	kǎn tǎ bù lián hǎi	Bay of Biscay (Spanish: Mare Cantabrico)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '坎塔布連海')	6001939
+6001940	坎塔布里亚	坎塔布里亞	kǎn tǎ bù lǐ yà	Cantabria, Spanish autonomous region, capital Santander 桑坦德	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '坎塔布里亞')	6001940
+6001941	坦噶尼喀湖	\N	tǎngéníkā hú	Lake Tanganyika in East Africa	proper noun	湖	Lake	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '坦噶尼喀湖')	6001941
+6001942	塔斯曼尼亚	塔斯曼尼亞	tǎsīmànníyà	Tasmania	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '塔斯曼尼亞')	6001942
+6001943	墨西拿海峡	墨西拿海峽	mòxīná hǎixiá	Strait of Messina between Calabria and Sicily	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '墨西拿海峽')	6001943
+6001944	大加那利岛	大加那利島	dàjiānàlì dǎo	Gran Canaria (in the Canary Islands)	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '大加那利島')	6001944
+6001945	契沙比克湾	契沙比克灣	qìshābìkè wān	Chesapeake Bay	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '契沙比克灣')	6001945
+6001946	奥克斯纳德	奧克斯納德	àokèsīnàdé	Oxnard, California	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '奧克斯納德')	6001946
+6001947	奥斯瓦尔德	奧斯瓦爾德	ào sī wǎ ěrdé	Oswald	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '奧斯瓦爾德')	6001947
+6001948	奥尔德尼岛	奧爾德尼島	ào ěrdé ní dǎo	Alderney (Channel Islands)	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '奧爾德尼島')	6001948
+6001949	客西马尼园	客西馬尼園	kèxīmǎní yuán	Garden of Gethsemane	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '客西馬尼園')	6001949
+6001950	密西西比河	\N	mìxīxībì hé	Mississippi River	proper noun	水名	River	地方	Places	美国	United States	\N	\N	(CC-CEDICT '密西西比河')	6001950
+6001951	安纳波利斯	安納波利斯	ān nà bōlì sī	Annapolis (place name)	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '安納波利斯')	6001951
+6001952	射雕英雄传	射鵰英雄傳	shè diāo yīngxióng chuán	Legend of the Condor Heroes	proper noun	书名	Book Title	文学	Literature	\N	\N	\N	\N	Wuxia 武侠, martial arts chivalry novel by Jin Yong 金庸 and its screen adaptations (CC-CEDICT '射鵰英雄傳')	6001952
+6001953	对外联络部	對外聯絡部	duìwài liánluò bù	CPC central committee's external affairs department (i.e. Chinese communist party's foreign office)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '對外聯絡部')	6001953
+6001954	少年先锋队	少年先鋒隊	shàonián xiānfēngduì	Young Pioneers of China (primary school league, a preparation for Communist Youth League)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation to 少先队 (CC-CEDICT '少年先鋒隊')	6001954
+6001955	尤卡坦半岛	尤卡坦半島	yóukǎtǎn bàndǎo	Yucatan Peninsula (Mexico)	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '尤卡坦半島')	6001955
+6001956	就业安定费	就業安定費	jiùyè āndìng fèi	Employment Stability Fee (Taiwan), a minimum monthly fee for employing foreign workers	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '就業安定費')	6001956
+6001957	尼加拉瀑布	\N	ní jiā lā pùbù	Niagara Falls	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	Taiwanese usage (CC-CEDICT '尼加拉瀑布')	6001957
+6001958	巴克莱银行	巴克萊銀行	bākèlái yínháng	Barclays Bank	proper noun	银行	Bank	商务	Commerce	英国	England	\N	\N	(CC-CEDICT '巴克萊銀行')	6001958
+6001959	巴尼亚卢卡	巴尼亞盧卡	bāníyà lúkǎ	Banja Luka (city in Bosnia)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '巴尼亞盧卡')	6001959
+6001960	巴尔多禄茂	巴爾多祿茂	bāěrduōlùmào	Bartholomew	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '巴爾多祿茂')	6001960
+6001961	巴尔干半岛	巴爾幹半島	bāěrgān bàndǎo	Balkan Peninsula	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '巴爾幹半島')	6001961
+6001962	布尔什维克	布爾什維克	bù'ěrshénwéikè	Bolshevik	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '布爾什維克')	6001962
+6001963	布痕瓦尔德	布痕瓦爾德	bùhénwǎ'ěrdé	Buchenwald	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '布痕瓦爾德')	6001963
+6001964	弗罗茨瓦夫	弗羅茨瓦夫	fú luó cí wǎ fū	Wroclaw, Polish city	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '弗羅茨瓦夫')	6001964
+6001965	广东医学院	廣東醫學院	Guǎngdōng yīxuéyuàn	Guangdong Medical College	proper noun	\N	\N	教育	Education	中国	China	\N	\N	(CC-CEDICT '廣東醫學院')	6001965
+6001966	弗拉基米尔	弗拉基米爾	fúlājīmǐ'ěr	Vladimir	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '弗拉基米爾')	6001966
+6001967	彭博新闻社	彭博新聞社	péngbó xīnwén shè	Bloomberg News	proper noun	公司	Company	媒体	Media	美国	United States	\N	\N	(CC-CEDICT '彭博新聞社')	6001967
+6001968	德意志银行	德意志銀行	Déyìzhì yínháng	Deutsche Bank	proper noun	银行	Bank	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '德意志銀行')	6001968
+6001969	德拉克罗瓦	德拉克羅瓦	dé lā kè luó wǎ	Delacroix (painter)	proper noun	人	Person	艺术	Art	欧洲	Europe	\N	\N	(CC-CEDICT '德拉克羅瓦')	6001969
+6001970	道士下山	\N	dàoshì xià shān	Monk Comes Down the Mountain	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Movie released in 2015, directed by 陈凯歌 Chen Kaige (Wikipedia '道士下山')	6001970
+6001971	妖猫传	妖貓傳	yāo māo zhuàn	Legend of the Demon Cat	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Movie released in 2017, directed by 陈凯歌 Chen Kaige (Wikipedia '妖貓傳')	6001971
+6001972	陈凯歌	陳凱歌	chén kǎigē	Chen Kaige	proper noun	导演	Director	戏剧	Drama	中国	China	\N	\N	Directed 妖猫传 'Legend of the Demon Cat' and 道士下山 'Monk Comes Down the Mountain' among other films (Wikipedia '陳凱歌')	6001972
+6001973	爱莫利维尔	愛莫利維爾	ài mò lì wéi ěr	Emeryville, town on San Fransico bay, California	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '愛莫利維爾')	6001973
+6001974	战争与和平	戰爭與和平	zhànzhēng yǔ hépíng	War and Peace	proper noun	书名	Book Title	文学	Literature	欧洲	Europe	\N	\N	By Tolstoy 托尔斯泰 (CC-CEDICT '戰爭與和平')	6001974
+6001975	拉什莫尔山	拉什莫爾山	lā shén mò ěr shān	Mt Rushmore National Memorial, South Dakota	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '拉什莫爾山')	6001975
+6001976	拉夫桑贾尼	拉夫桑賈尼	lāfūsāngjiǎní	Akbar Hashemi Rafsanjani	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '拉夫桑賈尼')	6001976
+6001977	教科文组织	教科文組織	jiāokēwén zǔzhī	UNESCO, United Nations Educational, Scientific and Cultural Organization	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '教科文組織')	6001977
+6001978	斯大林主义	斯大林主義	Sīdàlín zhǔyì	Stalinism	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '斯大林主義')	6001978
+6001979	斯普特尼克	\N	sī pǔ té ní kè	Sputnik, Soviet artificial Earth satellite	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '斯普特尼克')	6001979
+6001980	斯洛维尼亚	斯洛維尼亞	sīluòwéiníyà	Slovenia	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	Taiwanese usage (CC-CEDICT '斯洛維尼亞')	6001980
+6001981	斯特拉斯堡	\N	sī té lā sī bǎo	Strasbourg	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '斯特拉斯堡')	6001981
+6001982	斯瓦特谷地	\N	Sīwǎté gǔdì	Swat valley in Pakistani Northwest Frontier	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '斯瓦特谷地')	6001982
+6001983	新不列颠岛	新不列顛島	xīn bùlièdiān dǎo	New Britain, island of northeast Papua New Guinea	proper noun	\N	\N	地方	Places	英国	England	\N	\N	(CC-CEDICT '新不列顛島')	6001983
+6001984	新民主主义	新民主主義	xīnmín zhǔ zhǔyì	New Democracy	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '新民主主義')	6001984
+6001985	新海峡时报	新海峽時報	xīn hǎixiá shíbào	New Strait Times (newspaper)	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '新海峽時報')	6001985
+6001986	新艺综合体	新藝綜合體	xīn yì zōnghé tǐ	CinemaScope	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '新藝綜合體')	6001986
+6001987	日本共同社	\N	rìběn gòngtóngshè	Kyōdō, Japanese news agency	proper noun	\N	\N	媒体	Media	日本	Japan	\N	\N	(CC-CEDICT '日本共同社')	6001987
+6001988	明尼苏达州	明尼蘇達州	míng nísū dázhōu	Minnesota	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '明尼蘇達州')	6001988
+6001989	昭披耶帕康	\N	zhāo pī yé pà kāng	Chao Phraya Phra Klang (Royal Finance and External Affairs Minister)	proper noun	\N	\N	历史	History	亚洲	Asia	\N	\N	(CC-CEDICT '昭披耶帕康')	6001989
+6001990	普罗夫迪夫	普羅夫迪夫	pǔluó fū dí fū	Plovdiv, city in Bulgaria	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '普羅夫迪夫')	6001990
+6001991	曼荷莲学院	曼荷蓮學院	màn hé lián xuéyuàn	Mount Holyoke College (South Hadley, Massachusetts)	proper noun	\N	\N	教育	Education	美国	United States	\N	\N	(CC-CEDICT '曼荷蓮學院')	6001991
+6001992	有线新闻网	有線新聞網	yǒuxiàn xīnwén wǎng	Cable Network News (CNN)	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '有線新聞網')	6001992
+6001993	东亚运动会	東亞運動會	Dōng Yà yùndòng huì	East Asian Games	proper noun	\N	\N	体育	Sport	亚洲	Asia	\N	\N	(CC-CEDICT '東亞運動會')	6001993
+6001994	东南亚国协	東南亞國協	Dōngnán Yà guó xié	ASEAN (Association of Southeast Asian Nations)	proper noun	\N	\N	政府	Government	亚洲	Asia	\N	\N	Taiwanese usage (CC-CEDICT '東南亞國協')	6001994
+6001995	东南亚联盟	東南亞聯盟	Dōngnán Yà liánméng	ASEAN (Association of Southeast Asian Nations)	proper noun	\N	\N	政府	Government	亚洲	Asia	\N	\N	Same as 东南亚国家联盟 (CC-CEDICT '東南亞聯盟')	6001995
+6001996	东方明珠塔	東方明珠塔	dōngfāng míngzhū tǎ	Oriental Pearl Tower	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '東方明珠塔')	6001996
+6001997	东非共同体	東非共同體	Dōng Fēi gòngtóngtǐ	East African Community	proper noun	\N	\N	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '東非共同體')	6001997
+6001998	格林威治村	\N	gélín wēi zhì cūn	Greenwich	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '格林威治村')	6001998
+6001999	格尔夫波特	格爾夫波特	gé'ěrfū bōté	Gulf Port (Florida or Mississippi)	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '格爾夫波特')	6001999
+6002000	桑托里尼岛	桑托里尼島	sāngtuōlǐní dǎo	Santorini (volcanic island in the Aegean sea)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '桑托里尼島')	6002000
+6002001	歌剧院魅影	歌劇院魅影	gējù yuàn mèiyǐng	The Phantom of the Opera by Andrew Lloyd Webber	proper noun	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	\N	(CC-CEDICT '歌劇院魅影')	6002001
+6002002	每日电讯报	每日電訊報	měirì diànxùn bào	Daily Telegraph (newspaper)	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '每日電訊報')	6002002
+6002003	比利牛斯山	\N	bìlì niú sī shān	Pyrenees mountains	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '比利牛斯山')	6002003
+6002004	毛里塔尼亚	毛里塔尼亞	máolǐtǎníyà	Mauritania	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '毛里塔尼亞')	6002004
+6002005	赵氏孤儿	趙氏孤兒	zhào shì gū'ér	Sacrifice	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	2010 movie directed by by 陈凯歌 Chen Kaige (Wikipedia '趙氏孤兒 (電影)')	6002005
+6002006	沃尔夫斯堡	沃爾夫斯堡	wò'ěrfūsībǎo	Wolfsburg	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '沃爾夫斯堡')	6002006
+6002007	波士顿红袜	波士頓紅襪	bōshìdùn hóng wà	Boston Red Sox (baseball) team	proper noun	\N	\N	体育	Sport	美国	United States	\N	\N	(CC-CEDICT '波士頓紅襪')	6002007
+6002008	波托马克河	波托馬克河	bōtuōmǎkè hé	Potomac River	proper noun	水名	River	地方	Places	美国	United States	\N	\N	(CC-CEDICT '波托馬克河')	6002008
+6002009	波美拉尼亚	波美拉尼亞	bō měi lā ní yà	Pomerania, a historical region on the south shore of the Baltic Sea	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '波美拉尼亞')	6002009
+6002010	波茨坦公告	\N	bō cí tǎn gōnggào	Potsdam Declaration	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '波茨坦公告')	6002010
+6002011	浮士德博士	\N	fúshìdé bóshì	Dr Faustus	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '浮士德博士')	6002011
+6002012	海淀图书城	海澱圖書城	Hǎidiàn túshū chéng	Haidian Book City, Beijing bookstore	proper noun	城市	City	地方	Places	中国	China	\N	\N	(CC-CEDICT '海澱圖書城')	6002012
+6002013	深圳交易所	\N	Shēnzhèn jiāoyìsuǒ	Shenzhen Stock Exchange SZSE	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '深圳交易所')	6002013
+6002014	深圳健力宝	深圳健力寶	Shēnzhèn jiàn lì bǎo	Shenzhen Jianlibao (soccer team)	proper noun	\N	\N	体育	Sport	中国	China	\N	\N	(CC-CEDICT '深圳健力寶')	6002014
+6002015	澳新军团日	澳新軍團日	àoxīnjūn tuánrì	Anzac Day	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '澳新軍團日')	6002015
+6002016	无国界记者	無國界記者	wú guó jiè jìzhě	Reporters Without Borders (pressure group)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '無國界記者')	6002016
+6002017	无国界医生	無國界醫生	wú guó jiè yīshēng	Médecins Sans Frontières (MSF charity) / Doctors Without Borders	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '無國界醫生')	6002017
+6002018	燕赵都市报	燕趙都市報	yānzhào dūshì bào	Yanzhao Metropolis Daily	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '燕趙都市報')	6002018
+6002019	特别任务连	特別任務連	tèbié rènwu lián	Special Duties Unit, Hong Kong special police	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '特別任務連')	6002019
+6002020	特拉法尔加	特拉法爾加	télāfǎ'ěrjiā	Trafalgar	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '特拉法爾加')	6002020
+6002021	特种空勤团	特種空勤團	tézhǒng kōng qín tuán	Special Air Service (SAS)	proper noun	\N	\N	政府	Government	英国	England	\N	\N	(CC-CEDICT '特種空勤團')	6002021
+6002022	特许半导体	特許半導體	téxǔ bàndǎotǐ	Chartered Semiconductor	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '特許半導體')	6002022
+6002023	理性与感性	理性與感性	lǐxìng yǔ gǎnxìng	Sense and Sensibility	proper noun	书名	Book Title	文学	Literature	英国	England	\N	\N	Novel by Jane Austen 珍·奥斯汀 (CC-CEDICT '理性與感性')	6002023
+6002024	瓜达拉哈拉	瓜達拉哈拉	guā dá lā hālā	Guadalajara	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '瓜達拉哈拉')	6002024
+6002025	瓜达拉马山	瓜達拉馬山	guā dá lā mǎ shān	Sierra de Guadarrama (mountain range across Iberia, passing north of Madrid)	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '瓜達拉馬山')	6002025
+6002026	百慕大三角	\N	Bǎimùdà sānjiǎo	Bermuda Triangle	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '百慕大三角')	6002026
+6002027	皇家马德里	皇家馬德里	huáng jiā Mǎdélǐ	Real Madrid (soccer team)	proper noun	\N	\N	体育	Sport	欧洲	Europe	\N	\N	(CC-CEDICT '皇家馬德里')	6002027
+6002028	神舟号飞船	神舟號飛船	shénzhōu hào fēichuán	Shenzhou (spacecraft)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '神舟號飛船')	6002028
+6002029	税捐稽征处	稅捐稽征處	shuì juān jī zhēng chù	Taipei Revenue Service (tax office)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '稅捐稽征處')	6002029
+6002030	第勒尼安海	\N	dìlēiní'ān hǎi	Tyrrhenian Sea between Sardinia and the Italian mainland	proper noun	地名	Place Name	地方	Places Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '第勒尼安海')	6002030
+6002031	米德尔伯里	米德爾伯里	mǐ dé ěr bó lǐ	Middlebury (College)	proper noun	\N	\N	教育	Education	\N	\N	\N	\N	(CC-CEDICT '米德爾伯里')	6002031
+6002032	红色娘子军	紅色孃子軍	hóngsè niángzi jūn	Red Detachment of Women	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '紅色孃子軍')	6002032
+6002033	纳尼亚传奇	納尼亞傳奇	nàníyà chuánqí	The Chronicles of Narnia	proper noun	书名	Book Title	文学	Literature	英国	England	\N	\N	Children's stories by C.S. Lewis (CC-CEDICT '納尼亞傳奇')	6002033
+6002034	纳瓦特尔语	納瓦特爾語	nà wǎté ěr yǔ	Nahuatl	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '納瓦特爾語')	6002034
+6002035	紫坪铺大坝	紫坪鋪大壩	zǐpíngpū dàbà	Zipingpu reservoir, Sichuan	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '紫坪鋪大壩')	6002035
+6002036	紫坪铺水库	紫坪鋪水庫	zǐpíngpū shuǐkù	Zipingpu Reservoir, Sichuan	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '紫坪鋪水庫')	6002036
+6002037	经济增加值	經濟增加值	jīngjì zēngjiāzhí	Economic value added, EVA	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '經濟增加值')	6002037
+6002038	维多利亚港	維多利亞港	wéiduōlìyà gǎng	Victoria Harbor, Hong Kong	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '維多利亞港')	6002038
+6002039	罗塞塔石碑	羅塞塔石碑	luósāitǎ shíbēi	Rosetta Stone	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '羅塞塔石碑')	6002039
