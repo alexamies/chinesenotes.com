@@ -1871,3 +1871,40 @@
 6001871	达特茅斯	達特茅斯	dá té máo sī	Dartmouth (place name)	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '達特茅斯')	6001871
 6001872	达美航空	達美航空	dá měi hángkōng	Delta Air Lines, Inc.	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '達美航空')	6001872
 6001873	杜拉拉升职记	杜拉拉昇職記	dùlālā shēngzhí jì	Go Lala	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Chinese film released in 2010 (Wikipedia '杜拉拉升職記 (電影)')	6001873
+6001874	那斯达克	那斯達克	nà sī dá kè	NASDAQ (stock exchange)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '那斯達克')	6001874
+6001875	里弗赛德	里弗賽德	lǐ fú sài dé	Riverside	proper noun	水名	River	地方	Places	\N	\N	\N	\N	(CC-CEDICT '里弗賽德')	6001875
+6001876	里瓦尔多	里瓦爾多	lǐ wǎ ěr duō	Rivaldo	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '里瓦爾多')	6001876
+6001877	金盾工程	\N	jīn dùn gōngchéng	Golden Shield Project	proper noun	\N	\N	现政府	Government	中国	China	\N	\N	(CC-CEDICT '金盾工程')	6001877
+6001878	金茂大厦	金茂大廈	jīnmào dàshà	Jin Mao Tower, skyscraper in Shanghai	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '金茂大廈')	6001878
+6001879	金华火腿	金華火腿	jīnhuà huǒtuǐ	Jinhua ham	proper noun	产品	Product	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '金華火腿')	6001879
+6001880	金融时报	金融時報	jīnróng shíbào	Financial Times	proper noun	报纸	Newspaper	媒体	Media	英国	England	\N	\N	(CC-CEDICT '金融時報')	6001880
+6001881	锡拉库萨	錫拉庫薩	xī lā kù sà	Syracuse, Sicily	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '錫拉庫薩')	6001881
+6001882	钟楼怪人	鐘樓怪人	Zhōng lóu guàirén	The Hunchback of Notre-Dame	proper noun	书名	Book Title	文学	Literature	英国	England	\N	\N	By Victor Hugo 维克多·雨果 (CC-CEDICT '鐘樓怪人')	6001882
+6001883	长城饭店	長城飯店	chángchéng fàndiàn	Great Wall Hotel	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	Beijing Sheraton 喜来登 (CC-CEDICT '長城飯店')	6001883
+6001884	长岛冰茶	長島冰茶	Cháng Dǎo bīng chá	Long Island Iced Tea	proper noun	\N	\N	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '長島冰茶')	6001884
+6001885	长荣海运	長榮海運	chángróng hǎiyùn	Evergreen Marine Corp. (Taiwan shipping line)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '長榮海運')	6001885
+6001886	长荣航空	長榮航空	chángróng hángkōng	EVA Air, Taiwanese international airline	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '長榮航空')	6001886
+6001887	阿甘正传	阿甘正傳	āgān zhèngchuán	Forrest Gump	proper noun	电影	Movie	戏剧	Drama	美国	United States	\N	\N	(CC-CEDICT '阿甘正傳')	6001887
+6001888	阿兹特克	阿茲特克	āzītékè	Aztec	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '阿茲特克')	6001888
+6001889	雅礼协会	雅禮協會	yǎ lǐ xiéhuì	Yale-China Association, independent organization founded in 1901	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '雅禮協會')	6001889
+6001890	雷克萨斯	雷克薩斯	léi kè sàsī	Lexus	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	See also 凌志 (CC-CEDICT '雷克薩斯')	6001890
+6001891	春蚕	春蠶	chūncán	Silkworms in Spring	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	1933; Chinese silent movie in socialist realist style, based on novel by Mao Dun 茅盾 (CC-CEDICT '春蠶')	6001891
+6001892	雷曼兄弟	\N	léimàn xiōngdì	Lehman Brothers, investment bank	proper noun	银行	Bank	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '雷曼兄弟')	6001892
+6001893	雷阿尔城	雷阿爾城	léi ā ěr chéng	Ciudad Real	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '雷阿爾城')	6001893
+6001894	霍克海姆	\N	huò kè hǎi mǔ	Horkheimer	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '霍克海姆')	6001894
+6001895	霍比特人	\N	huòbǐtè rén	The Hobbit	proper noun	书名	Book Title	文学	Literature	英国	England	\N	\N	By J.R.R. Tolkien 托尔金 (CC-CEDICT '霍比特人')	6001895
+6001896	非死不可	\N	fēisǐ bùkě	Facebook	proper noun	\N	\N	现代汉语	Modern Chinese	俚语	Slang	\N	\N	Internet slang, pun reading you must die (CC-CEDICT '非死不可')	6001896
+6001897	非洲联盟	非洲聯盟	fēizhōu liánméng	African Union	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '非洲聯盟')	6001897
+6001898	青岛啤酒	青島啤酒	Qīngdǎo píjiǔ	Tsingtao Beer	proper noun	产品	Product	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '青島啤酒')	6001898
+6001899	韩国银行	韓國銀行	hánguó yínháng	Bank of Korea	proper noun	银行	Bank	商务	Commerce	亚洲	Asia	\N	\N	(CC-CEDICT '韓國銀行')	6001899
+6001900	首都机场	首都機場	shǒudū jīcháng	Beijing Airport (PEK)	proper noun	地名	Place Name	现代汉语	Modern Chinese	中国	China	\N	\N	Also translated as Capital Airport (CC-CEDICT '首都機場')	6001900
+6001901	马丘比丘	馬丘比丘	mǎqiū bǐqiū	Machu Picchu	proper noun	地名	Place Name	地方	Places	南美	South America	\N	\N	(CC-CEDICT '馬丘比丘')	6001901
+6001902	马拉开波	馬拉開波	mǎlā kāi bō	Maracaibo, Venezuela	proper noun	地名	Place Name	地方	Places	南美	South America	\N	\N	(CC-CEDICT '馬拉開波')	6001902
+6001903	马里博尔	馬里博爾	mǎlǐ bó ěr	Maribor, 2nd biggest city in Slovenia	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '馬里博爾')	6001903
+6001904	体育之窗	體育之窗	tǐyù zhī chuāng	Window on Sports	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '體育之窗')	6001904
+6001905	高通公司	\N	gāo tōng gōngsī	Qualcomm	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '高通公司')	6001905
+6001906	魔术方块	魔術方塊	móshù fāngkuài	Rubik's cube / magic cube	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '魔術方塊')	6001906
+6001907	亚穆苏克罗	亞穆蘇克羅	yà mù sū kè luó	Yamoussoukro (city in the Ivory Coast)	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '亞穆蘇克羅')	6001907
+6001908	人民联盟党	人民聯盟黨	rénmín liánméng dǎng	People's alliance party / Bengali Awami league	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '人民聯盟黨')	6001908
+6001909	保安局局长	保安局局長	bǎo'ān jú júzhǎng	Secretary for Security (Hong Kong)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '保安局局長')	6001909
+6001910	倚天屠龙记	倚天屠龍記	yǐ tiān tú lóng jì	Heaven Sword and Dragon Saber	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	wuxia 武侠, martial arts chivalry novel by Jin Yong 金庸 and its screen adaptations (CC-CEDICT '倚天屠龍記')	6001910
