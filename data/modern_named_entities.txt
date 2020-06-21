@@ -2037,3 +2037,72 @@
 6002037	经济增加值	經濟增加值	jīngjì zēngjiāzhí	Economic value added, EVA	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '經濟增加值')	6002037
 6002038	维多利亚港	維多利亞港	wéiduōlìyà gǎng	Victoria Harbor, Hong Kong	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '維多利亞港')	6002038
 6002039	罗塞塔石碑	羅塞塔石碑	luósāitǎ shíbēi	Rosetta Stone	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '羅塞塔石碑')	6002039
+6002040	白蛇传说之法海	白蛇傳說之法海	Bái Shé chuánshuō zhī Fǎhǎi	The Sorcerer and the White Snake	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	See 白蛇传说 (Wikipedia '白蛇传说')	6002040
+6002041	美丽新世界	美麗新世界	měilì xīnshìjiè	Brave New World	proper noun	书名	Book Title	文学	Literature	\N	\N	\N	\N	Novel by Aldous Huxley 阿道司·赫胥黎 (CC-CEDICT '美麗新世界')	6002041
+6002042	圣克鲁斯岛	聖克魯斯島	shèng kèlǔsī dǎo	Santa Cruz Island, off the California coast	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '聖克魯斯島')	6002042
+6002043	圣安东尼奥	聖安東尼奧	shèng āndōngní'ào	San Antonio, Texas	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '聖安東尼奧')	6002043
+6002044	圣神降临周	聖神降臨週	shèngshén jiànglínzhōu	Whitsuntide	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '聖神降臨週')	6002044
+6002045	联合国宪章	聯合國憲章	liánhéguó xiànzhāng	United Nations charter	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '聯合國憲章')	6002045
+6002046	肯德基炸鸡	肯德基炸雞	Kěndéjī zhájī	Kentucky Fried Chicken (KFC)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '肯德基炸雞')	6002046
+6002047	华盛顿时报	華盛頓時報	Huáshèngdùn shíbào	Washington Times (newspaper)	proper noun	报纸	Newspaper	媒体	Media	美国	United States	\N	\N	(CC-CEDICT '華盛頓時報')	6002047
+6002048	萨丁尼亚岛	薩丁尼亞島	sàdīngníyà dǎo	Sardinia	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '薩丁尼亞島')	6002048
+6002049	蒙特内哥罗	蒙特內哥羅	mēngténèigēluó	Montenegro	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Taiwanese usage (CC-CEDICT '蒙特內哥羅')	6002049
+6002050	萨克拉门托	薩克拉門托	sàkèlāméntuō	Sacramento	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '薩克拉門托')	6002050
+6002051	苏台德地区	蘇台德地區	sūtáidédìqū	Sudetenland	proper noun	\N	\N	地方	Places	\N	\N	\N	\N	(CC-CEDICT '蘇台德地區')	6002051
+6002052	蒂森克虏伯	蒂森克虜伯	dìsēn kèlǔbó	ThyssenKrupp	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '蒂森克虜伯')	6002052
+6002053	苏必利尔湖	蘇必利爾湖	sūbìlì'ěr hú	Lake Superior, one of the Great Lakes 五大湖	proper noun	湖	Lake	地方	Places	美国	United States	\N	\N	(CC-CEDICT '蘇必利爾湖')	6002053
+6002054	苏联之友社	蘇聯之友社	sūlián zhī yǒu shè	Soviet Union friendly society	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '蘇聯之友社')	6002054
+6002055	兰郑长管道	蘭鄭長管道	lán zhèng zhǎng guǎndào	Lanzhou-Zhengzhou-Changsha oil pipeline	proper noun	\N	\N	地方	Places	\N	\N	\N	\N	(CC-CEDICT '蘭鄭長管道')	6002055
+6002056	记者无国界	記者無國界	jìzhě wú guójiè	Reporters Without Borders	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '記者無國界')	6002056
+6002057	诺曼底半岛	諾曼底半島	Nuòmàndǐ bàndǎo	Normandy peninsula	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '諾曼底半島')	6002057
+6002058	赫塞哥维纳	赫塞哥維納	hè sāi gē wéi nà	Herzegovina	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '赫塞哥維納')	6002058
+6002059	设得兰群岛	設得蘭群島	shè de lán qúndǎo	Shetland Islands	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '設得蘭群島')	6002059
+6002060	迪斯尼乐园	迪斯尼樂園	dísīní lèyuán	Disneyland	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	Also written 迪士尼乐园 (CC-CEDICT '迪斯尼樂園')	6002060
+6002061	退伍军人节	退伍軍人節	tuìwǔ jūnrén jié	Veterans' Day	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '退伍軍人節')	6002061
+6002062	达沃斯论坛	達沃斯論壇	Dáwòsī lùntán	Davos world economic forum (WEF)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '達沃斯論壇')	6002062
+6002063	里奥格兰德	里奧格蘭德	lǐ'ào gélándé	Rio Grande (Brasil)	proper noun	地名	Place Name	地方	Places	南美	South America	\N	\N	(CC-CEDICT '里奧格蘭德')	6002063
+6002064	里约热内卢	里約熱內盧	lǐyuē rènèilú	Rio de Janeiro	proper noun	地名	Place Name	地方	Places	南美	South America	\N	\N	(CC-CEDICT '里約熱內盧')	6002064
+6002065	野格力娇酒	野格力嬌酒	yěgélìjiāojiǔ	Jägermeister (alcoholic drink)	proper noun	\N	\N	现代汉语	Modern Chinese	化学	Chemistry	\N	\N	(CC-CEDICT '野格力嬌酒')	6002065
+6002066	长江经济带	長江經濟帶	chángjiāng jīngjì dài	Yangtze River Economic Belt	proper noun	地名	Place Name	政府	Government	中国	China	\N	\N	(CC-CEDICT '長江經濟帶')	6002066
+6002067	开膛手杰克	開膛手傑克	kāitáng shǒu jiékè	Jack the Ripper	proper noun	人	Person	历史	History	英国	England	\N	\N	(CC-CEDICT '開膛手傑克')	6002067
+6002068	阿卡普尔科	阿卡普爾科	ākǎpǔ'ěrkē	Acapulco, city in Mexico	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '阿卡普爾科')	6002068
+6002069	阿布沙耶夫	\N	ābù shāyéfū	Abu Sayyaf, militant Islamist separatist group also known as al-Harakat al-Islamiyya	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '阿布沙耶夫')	6002069
+6002070	黄圣依	黃聖依	huáng shèngyī	Eva Huang	proper noun	女演员	Actress	戏剧	Drama	中国	China	\N	\N	1983-; Acted in 《白蛇传说之法海》 'The Sorcerer and the White Snake' and other movies (Wikipedia '黄圣依')	6002070
+6002071	白蛇传说	白蛇傳說	Bái Shé chuánshuō	The Sorcerer and the White Snake	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Released in 2011, directed by 程小东 Ching Siu-tung (Wikipedia '白蛇传说')	6002071
+6002072	阿法罗密欧	阿法羅密歐	āfǎluómì'ōu	Alfa Romeo	proper noun	产品	Product	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '阿法羅密歐')	6002072
+6002073	阿联酋航空	阿聯酋航空	Ā Lián Qiú hángkōng	Emirates (airline)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '阿聯酋航空')	6002073
+6002074	阿联酋长国	阿聯酋長國	Ā Lián Qiú zhǎng guó	United Arab Emirates	proper noun	国家	Country	地方	Places	\N	\N	\N	\N	Abbreviation for 阿拉伯联合酋长国 (CC-CEDICT '阿聯酋長國')	6002074
+6002075	香港交易所	\N	xiānggǎng jiāoyìsuǒ	Hong Kong Stock Exchange	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '香港交易所')	6002075
+6002076	马克沁机枪	馬克沁機槍	mǎkèqìn jīqiāng	Maxim machine gun	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '馬克沁機槍')	6002076
+6002077	高加索山脉	高加索山脈	Gāojiāsuǒ shānmài	Caucasus Mountains	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '高加索山脈')	6002077
+6002078	高桥留美子	高橋留美子	gāoqiáo liú měi zǐ	Takahashi Rumiko, Japanese manga artist	proper noun	人	Person	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '高橋留美子')	6002078
+6002079	斗牛士之歌	鬥牛士之歌	dòuniúshì zhī gē	Toreador Song (Votre toast, je peux vous le rendre), famous aria from opera Carmen	proper noun	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	\N	(CC-CEDICT '鬥牛士之歌')	6002079
+6002080	鲁毕克方块	魯畢克方塊	lǔ bì kè fāngkuài	Rubik's cube / magic cube	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '魯畢克方塊')	6002080
+6002081	麦当劳叔叔	麥當勞叔叔	màidāngláo shūshu	Ronald McDonald	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '麥當勞叔叔')	6002081
+6002082	黑塞哥维那	黑塞哥維那	hēi sāi gē wéinà	Herzegovina	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '黑塞哥維那')	6002082
+6002083	黑奴吁天录	黑奴籲天錄	hēi nú yù tiān lù	Uncle Tom's Cabin	proper noun	书名	Book Title	文学	Literature	\N	\N	\N	\N	Translated and adapted by Lin Shu 林纾 (CC-CEDICT '黑奴籲天錄')	6002083
+6002084	儿童权利公约	兒童權利公約	értóng quánlì gōngyuē	Convention on the Rights of the Child (CRC)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '兒童權利公約')	6002084
+6002085	全国人大会议	全國人大會議	Quánguó Réndà huìyì	National People's Congress (NPC)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '全國人大會議')	6002085
+6002086	全国民主联盟	全國民主聯盟	quánguó mínzhǔ liánméng	Myanmar or Burma National league for democracy (NLD)	proper noun	\N	\N	政府	Government	亚洲	Asia	\N	\N	(CC-CEDICT '全國民主聯盟')	6002086
+6002087	全球发展中心	全球發展中心	quánqiú fāzhǎnzhōng xīn	Center for Global Development (an environmental think tank)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '全球發展中心')	6002087
+6002088	刘涓子鬼遗方	劉涓子鬼遺方	liújuānzǐ guǐ yí fāng	Liu Juanzi's medical recipes bequeathed by the ghost Huang Fugui 黃父鬼|黄父鬼	proper noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '劉涓子鬼遺方')	6002088
+6002089	加州技术学院	加州技術學院	jiāzhōu jìshù xuéyuàn	California Institute of Technology (Caltech)	proper noun	大学	University	教育	Education	美国	United States	\N	\N	Also written 加州理工学院 (CC-CEDICT '加州技術學院')	6002089
+6002090	北京南苑机场	北京南苑機場	Běijīng Nányuàn Jīcháng	Beijing Nanyuan Airport, military air base and secondary civil airport	proper noun	地名	Place Name	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '北京南苑機場')	6002090
+6002091	北京广播学院	北京廣播學院	Běijīng guǎngbō xuéyuàn	Beijing Broadcasting Institute	proper noun	地名	Place Name	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '北京廣播學院')	6002091
+6002092	北京教育学院	北京教育學院	Běijīng jiāoyùxué yuàn	Beijing Institute of Education	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '北京教育學院')	6002092
+6002093	北京理工大学	北京理工大學	Běijīng lǐgōng dàxué	Beijing Institute of Technology	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '北京理工大學')	6002093
+6002094	北京舞蹈学院	北京舞蹈學院	Běijīng wǔdǎo xuéyuàn	Beijing Dance Academy	proper noun	学院	Academy	教育	Education	中国	China	\N	\N	(CC-CEDICT '北京舞蹈學院')	6002094
+6002095	北京航空学院	北京航空學院	Běijīng hángkōngxué yuàn	Beijing Aeronautical and Astronautical Institute	proper noun	地名	Place Name	现代汉语	Modern Chinese	中国	China	\N	\N	Abbreviation to 北航院) (CC-CEDICT '北京航空學院')	6002095
+6002096	北京艺术学院	北京藝術學院	Běijīng yìshù xuéyuàn	Beijing Academy of Fine Arts	proper noun	学院	Academy	教育	Education	中国	China	\N	\N	(CC-CEDICT '北京藝術學院')	6002096
+6002097	北京电影学院	北京電影學院	Běijīng diànyǐng xuéyuàn	Beijing Film Academy	proper noun	学院	Academy	教育	Education	中国	China	\N	\N	(CC-CEDICT '北京電影學院')	6002097
+6002098	半岛国际学校	半島國際學校	bàndǎo guójì xuéxiào	International School of the Penninsula	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '半島國際學校')	6002098
+6002099	博德利图书馆	博德利圖書館	bódé lì túshūguǎn	Bodleian Library (Oxford)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '博德利圖書館')	6002099
+6002100	卡拉什尼科夫	\N	kǎlā shén ní kē fū	Kalashnikov (the AK-47 assault rifle)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '卡拉什尼科夫')	6002100
+6002101	卡波西氏肉瘤	\N	kǎ bō xī shì ròuliú	Kaposi's sarcoma	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '卡波西氏肉瘤')	6002101
+6002102	卡特彼勒公司	\N	kǎté bǐ lēi gōngsī	Caterpillar Inc.	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '卡特彼勒公司')	6002102
+6002103	卡纳维拉尔角	卡納維拉爾角	kǎ nà wéilā ěr jiǎo	Cape Canaveral, Florida	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '卡納維拉爾角')	6002103
+6002104	印度航空公司	\N	yìndù hángkōng gōngsī	Air India	proper noun	公司	Company	商务	Commerce	亚洲	Asia	\N	\N	(CC-CEDICT '印度航空公司')	6002104
+6002105	吉卜力工作室	\N	jí bǔ lì gōngzuòshì	Studio Ghibli, Japanese film studio	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	(CC-CEDICT '吉卜力工作室')	6002105
+6002106	吉尔伯特群岛	吉爾伯特群島	jí ěr bó té qúndǎo	Gilbert Islands	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '吉爾伯特群島')	6002106
+6002107	同济医科大学	同濟醫科大學	tóngjì yīkē dàxué	Tongji Medical College	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '同濟醫科大學')	6002107
+6002108	喀喇昆仑公路	喀喇崑崙公路	kā lǎ kūnlún gōnglù	Karakorum Highway, linking Pakistan and Xinjiang	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '喀喇崑崙公路')	6002108
