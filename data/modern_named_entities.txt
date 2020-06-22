@@ -2106,3 +2106,7 @@
 6002106	吉尔伯特群岛	吉爾伯特群島	jí ěr bó té qúndǎo	Gilbert Islands	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '吉爾伯特群島')	6002106
 6002107	同济医科大学	同濟醫科大學	tóngjì yīkē dàxué	Tongji Medical College	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '同濟醫科大學')	6002107
 6002108	喀喇昆仑公路	喀喇崑崙公路	kā lǎ kūnlún gōnglù	Karakorum Highway, linking Pakistan and Xinjiang	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '喀喇崑崙公路')	6002108
+6002109	关云长	關雲長	guān yúncháng	The Lost Bladesman	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Movie released in 2011 based on the historic story of 關羽 Guan Yu in the 《三國演義》 <i>Romance of the Three Kingdoms</i>, starring 甄子丹 Donnie Yen (Wikipedia '關雲長')	6002109
+6002110	让子弹飞	讓子彈飛	ràng zǐdàn fēi	Let the Bullets Fly	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Directed by 姜文 Jiang Wen, released in 2010 (Wikipedia '讓子彈飛')	6002110
+6002111	霸王别姬	霸王別姬	bàwáng bié jī	Farewell My Concubine (movie)	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Name of a movie released in 1993 directed by 陈凯歌 Chen Kaige (Wikipedia '霸王別姬 (電影)')	6002111
+6002112	十面埋伏	\N	shímiàn máifú	House of Flying Daggers	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	A movie released in 2004 (CC-CEDICT '十面埋伏'; Wikipedia '十面埋伏 (2004年电影)')	6002112
