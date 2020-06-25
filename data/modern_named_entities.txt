@@ -2110,3 +2110,76 @@
 6002110	让子弹飞	讓子彈飛	ràng zǐdàn fēi	Let the Bullets Fly	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Directed by 姜文 Jiang Wen, released in 2010 (Wikipedia '讓子彈飛')	6002110
 6002111	霸王别姬	霸王別姬	bàwáng bié jī	Farewell My Concubine (movie)	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Name of a movie released in 1993 directed by 陈凯歌 Chen Kaige (Wikipedia '霸王別姬 (電影)')	6002111
 6002112	十面埋伏	\N	shímiàn máifú	House of Flying Daggers	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	A movie released in 2004 (CC-CEDICT '十面埋伏'; Wikipedia '十面埋伏 (2004年电影)')	6002112
+6002113	白发魔女传之明月天国	白髮魔女傳之明月天國	báifà mónǚ zhuàn zhī míngyuè tiānguó	The White Haired Witch of Lunar Kingdom	proper noun	电影	Movie	戏剧	Drama	\N	\N	\N	\N	(Wikipedia '白发魔女传之明月天国')	6002113
+6002114	呒虾米输入法	嘸蝦米輸入法	wǔxiāmǐ shūrùfǎ	Boshiamy (Hoklo: 無甚物 it's nothing) input method for Chinese	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '嘸蝦米輸入法')	6002114
+6002115	国家开发银行	國家開發銀行	guójiā kāifā yínháng	China Development Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '國家開發銀行')	6002115
+6002116	国际刑警组织	國際刑警組織	guójì xíngjǐng zǔzhī	Interpol (International Criminal Police Organization)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際刑警組織')	6002116
+6002117	国际劳工组织	國際勞工組織	guójì láogōng zǔzhī	International Labor Organization	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際勞工組織')	6002117
+6002118	国际数学联盟	國際數學聯盟	guójì shùxué liánméng	International Mathematical Union	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際數學聯盟')	6002118
+6002119	国际民航组织	國際民航組織	guójì mínháng zǔzhī	International Civil Aviation Organization (ICAO)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際民航組織')	6002119
+6002120	国际海事组织	國際海事組織	guójì hǎishì zǔzhī	International Maritime Organization	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際海事組織')	6002120
+6002121	国际清算银行	國際清算銀行	guójì qīngsuàn yínháng	Bank for International Settlements	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '國際清算銀行')	6002121
+6002122	国际货币基金	國際貨幣基金	guójì huòbì jījīn	International Monetary Fund (IMF)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際貨幣基金')	6002122
+6002123	国际医疗中心	國際醫療中心	guójì yīliáo zhōngxīn	International Medical Center	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際醫療中心')	6002123
+6002124	图像互换格式	圖像互換格式	túxiàng hùhuàn géshì	GIF / graphic interchange format	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '圖像互換格式')	6002124
+6002125	埃塞俄比亚语	埃塞俄比亞語	aīsàiébǐyà yǔ	Ethiopic	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '埃塞俄比亞語')	6002125
+6002126	基地恐怖组织	基地恐怖組織	jīdì kǒngbù zǔzhī	Al-Qaeda	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Same as 基地组织 (CC-CEDICT '基地恐怖組織')	6002126
+6002127	基督教科学派	基督教科學派	jīdūjiào kēxué pài	Christian Science	proper noun	\N	\N	现代汉语	Modern Chinese	基督教	Christianity	\N	\N	(CC-CEDICT '基督教科學派')	6002127
+6002128	塔斯曼尼亚岛	塔斯曼尼亞島	tǎsīmànníyà dǎo	Tasmania	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '塔斯曼尼亞島')	6002128
+6002129	塞瓦斯托波尔	塞瓦斯托波爾	sāiwǎsītuōbō'ěr	Sevastopol	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '塞瓦斯托波爾')	6002129
+6002130	妙妙熊历险记	妙妙熊歷險記	miàomiào xiónglìxiǎn jì	Adventures of the Gummi Bears (Disney animated series)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '妙妙熊歷險記')	6002130
+6002131	安道尔共和国	安道爾共和國	Āndàoěr gònghéguó	Republic of Andorra	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '安道爾共和國')	6002131
+6002132	尼亚加拉瀑布	尼亞加拉瀑布	ní yà jiā lā pùbù	Niagara Falls	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '尼亞加拉瀑布')	6002132
+6002133	巡回分析端口	巡迴分析端口	xúnhuí fēnxī duānkǒu	Roving Analysis Port / RAP	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '巡迴分析端口')	6002133
+6002134	巴控克什米尔	巴控克什米爾	bā kòng kèshénmǐěr	Pakistan administered Kashmir	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '巴控克什米爾')	6002134
+6002135	布拉迪斯拉发	布拉迪斯拉發	bù lā dí sī lā fà	Bratislava	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '布拉迪斯拉發')	6002135
+6002136	布鲁克林大桥	布魯克林大橋	bùlǔkèlín dàqiáo	Brooklyn Bridge	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '布魯克林大橋')	6002136
+6002137	广州美术学院	廣州美術學院	Guǎngzhōu měishù xuéyuàn	Guangzhou Academy of Fine Arts	proper noun	学院	Academy	教育	Education	\N	\N	\N	\N	(CC-CEDICT '廣州美術學院')	6002137
+6002138	快速以太网络	快速以太網絡	kuàisù yǐtàiwǎngluò	Fast Ethernet	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '快速以太網絡')	6002138
+6002139	爱尔兰共和军	愛爾蘭共和軍	aìěrlán gònghé jūn	Irish Republican Army	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '愛爾蘭共和軍')	6002139
+6002140	批踢踢实业坊	批踢踢實業坊	pītītī shíyè fāng	PTT Bulletin Board System	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '批踢踢實業坊')	6002140
+6002141	抗日救亡团体	抗日救亡團體	kàng Rì jiùwáng tuántǐ	Save the Nation anti-Japanese organization	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '抗日救亡團體')	6002141
+6002142	敦豪快递公司	敦豪快遞公司	dūn háo kuàidì gōngsī	DHL	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '敦豪快遞公司')	6002142
+6002143	文档对象模型	文檔對象模型	wéndàng duìxiàng móxíng	Document Object Model (DOM)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '文檔對象模型')	6002143
+6002144	斯堪地纳维亚	斯堪地納維亞	sī kān dì nà wéi yà	Scandinavia	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '斯堪地納維亞')	6002144
+6002145	斯堪的纳维亚	斯堪的納維亞	sī kān de nà wéi yà	Scandinavia	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '斯堪的納維亞')	6002145
+6002146	斯托肯立石圈	\N	sītuōkěn lìshí quān	Stonehenge stone circle	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '斯托肯立石圈')	6002146
+6002147	斯普林菲尔德	斯普林菲爾德	sī pǔ lín fēi ěrdé	Springfield	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '斯普林菲爾德')	6002147
+6002148	斯洛文尼亚语	斯洛文尼亞語	Sīluòwénníyà yǔ	Slovenian	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '斯洛文尼亞語')	6002148
+6002149	斯通亨治石栏	斯通亨治石欄	sī tōng hēng zhì shí lán	Stonehenge stone circle	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '斯通亨治石欄')	6002149
+6002150	斯雷布雷尼察	斯雷佈雷尼察	sī léi bùléi ní chá	Srebrenica, Bosnia-Herzegovina	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '斯雷佈雷尼察')	6002150
+6002151	服务广告协议	服務廣告協議	fúwù guǎnggào xiéyì	Service Advertisement Protocol / SAP	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '服務廣告協議')	6002151
+6002152	本地管理界面	\N	běndì guǎnlǐ jièmiàn	LMI / local management interface (telecommunications)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '本地管理界面')	6002152
+6002153	松下电气工业	松下電氣工業	sōng xià diànqì gōngyè	Matsushita Electronics Industry	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '松下電氣工業')	6002153
+6002154	板门店停战村	板門店停戰村	bǎnméndiàn tíngzhàn cūn	Panmunjom village on the DMZ between North and South Korea	proper noun	\N	\N	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(CC-CEDICT '板門店停戰村')	6002154
+6002155	柏油脚跟之州	柏油腳跟之州	bǎiyóu jiǎogēn zhī zhōu	Tar Heel state	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '柏油腳跟之州')	6002155
+6002156	查尔斯·格雷	查爾斯·格雷	Chá'ěrsī géléi	Charles Grey	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '查爾斯·格雷')	6002156
+6002157	格雷氏解剖学	格雷氏解剖學	géléi shì jiěpōu xué	Gray's Anatomy (medical reference book)	proper noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '格雷氏解剖學')	6002157
+6002158	梅塞德斯奔驰	梅塞德斯奔馳	méisāidésī bēnchí	Mercedes Benz	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation to 奔驰 (CC-CEDICT '梅塞德斯奔馳')	6002158
+6002159	椭圆形办公室	橢圓形辦公室	tuǒyuánxíng bàngōngshì	Oval office (in the White House)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '橢圓形辦公室')	6002159
+6002160	档案传输协定	檔案傳輸協定	dàng àn chuánshū xiédìng	File Transfer Protocol (FTP)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '檔案傳輸協定')	6002160
+6002161	欧洲歌唱大赛	歐洲歌唱大賽	Ōuzhōu gēchàng dà sài	Eurovision Song Contest	proper noun	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	\N	(CC-CEDICT '歐洲歌唱大賽')	6002161
+6002162	武汉钢铁公司	武漢鋼鐵公司	wǔhàn gāngtiě gōngsī	Wuhan Iron and Steel	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '武漢鋼鐵公司')	6002162
+6002163	历朝通俗演义	歷朝通俗演義	lì cháo tōngsú yǎnyì	Dramatized history of successive dynasties (from Han to Republican China) by Cai Dongfan 蔡東藩|蔡东藩	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '歷朝通俗演義')	6002163
+6002164	法兰克福汇报	法蘭克福匯報	Fǎlánkèfú huìbào	Frankfurter Allgemeine Zeitung	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '法蘭克福匯報')	6002164
+6002165	法兰克福学派	法蘭克福學派	Fǎlánkèfú xuépài	Frankfurt School	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '法蘭克福學派')	6002165
+6002166	泰米尔纳德邦	泰米爾納德邦	tàimǐěr nà dé bāng	Tamil Nadu, southeast Indian state, capital Chennai 欽奈|钦奈[Qin1 nai4]	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '泰米爾納德邦')	6002166
+6002167	浮力调整背心	浮力調整背心	fúlì tiáozhěng bèixīn	BCD / Buoyancy Compensation Device (diving)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '浮力調整背心')	6002167
+6002168	浮力调整装置	浮力調整裝置	fúlì tiáozhěng zhuāngzhì	BCD / Buoyancy Compensation Device (diving)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '浮力調整裝置')	6002168
+6002169	澳门国际机场	澳門國際機場	aòmén guójì jīchǎng	Macau International Airport	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '澳門國際機場')	6002169
+6002170	独立中文笔会	獨立中文筆會	dúlì Zhōngwén bǐhuì	Independent Chinese PEN center	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '獨立中文筆會')	6002170
+6002171	瓜达卡纳尔岛	瓜達卡納爾島	guā dákǎ nà ěr dǎo	Guadalcanal Island	proper noun	\N	\N	地方	Places	\N	\N	\N	\N	(CC-CEDICT '瓜達卡納爾島')	6002171
+6002172	疾病控制中心	\N	jíbìng kòngzhì zhōngxīn	Centers for Disease Control (CDC)	proper noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '疾病控制中心')	6002172
+6002173	百胜餐饮集团	百勝餐飲集團	bǎishèng cānyǐn jítuán	Tricon Global Restaurants (incl. Pizza Hut and KFC)	proper noun	\N	\N	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '百勝餐飲集團')	6002173
+6002174	皇冠出版集团	皇冠出版集團	huángguān chūbǎn jítuán	Crown publishing group, Hong Kong	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '皇冠出版集團')	6002174
+6002175	直布罗陀海峡	直布羅陀海峽	Zhíbùluótuó hǎixiá	Strait of Gibraltar	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '直布羅陀海峽')	6002175
+6002176	相互保证毁灭	相互保證毀滅	xiānghù bǎozhèng huǐmiè	Mutual Assured Destruction	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '相互保證毀滅')	6002176
+6002177	简氏防务周刊	簡氏防務週刊	jiǎn shì fángwù zhōukān	Jane's defense weekly	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '簡氏防務週刊')	6002177
+6002178	纽约帝国大厦	紐約帝國大廈	niǔyuē dìguó dàshà	Empire State Building	proper noun	\N	\N	历史	History	\N	\N	\N	\N	(CC-CEDICT '紐約帝國大廈')	6002178
+6002179	紫金山天文台	\N	zǐjīn shān tiānwéntái	Purple Mountain Observatory	proper noun	\N	\N	现代汉语	Modern Chinese	天文	Astronomy	\N	\N	(CC-CEDICT '紫金山天文台')	6002179
+6002180	维多利亚公园	維多利亞公園	wéiduōlìyà gōngyuán	Victoria Park, Hong Kong	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '維多利亞公園')	6002180
+6002181	紧凑渺子线圈	緊湊渺子線圈	jǐncòu miǎozǐ xiànquān	Compact Muon Solenoid (CMS)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '緊湊渺子線圈')	6002181
+6002182	耶和华见证人	耶和華見證人	yéhéHuà jiànzhèngrén	Jehovah's Witnesses	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '耶和華見證人')	6002182
+6002183	圣伯多禄大殿	聖伯多祿大殿	shèng bóduōlù dà diàn	St Peter's Basilica, Vatican City	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '聖伯多祿大殿')	6002183
+6002184	聚合资讯订阅	聚合資訊訂閱	jùhé zīxùn dìngyuè	RSS (news feeds)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '聚合資訊訂閱')	6002184
+6002185	联通红筹公司	聯通紅籌公司	liántōng hóng chóu gōngsī	Unicom Red Chip	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '聯通紅籌公司')	6002185

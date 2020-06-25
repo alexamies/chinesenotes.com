@@ -331,8 +331,9 @@ func ReadDict(wsFilenames []string) []HeadwordDef {
 			} else {
 				log.Printf("ReadDict, No. cols: %d\n",len(row))
 				log.Printf("ReadDict, id: %d, simp: %s, trad: %s, pinyin: %s, " +
-					"english: %s, grammar: %s, conceptCn: %s\n",
-					id, simp, trad, pinyin, english, grammar, conceptCn)
+					"english: %s, grammar: %s, conceptCn: %s, rest: %s\n",
+					id, simp, trad, pinyin, english, grammar, conceptCn,
+					strings.Join(row, ";"))
 				log.Fatal("ReadDict wrong number of columns ", id, err)
 			}
 			newWs := &WordSenseEntry{Id: int(id),
