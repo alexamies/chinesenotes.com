@@ -683,7 +683,7 @@
 6000683	民族社会主义	民族社會主義	mínzú shèhuì zhǔyì	national socialism / Nazism	proper noun	\N	\N	政治	Politics	\N	\N	\N	\N	(CC-CEDICT '民族社會主義')	6000683
 6000684	沃尔玛	沃爾瑪	wòěrmǎ	Wal-Mart, Walmart (retailer)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '沃爾瑪')	6000684
 6000685	沙那	\N	shānà	Sana'a	proper noun	城市	City	地方	Places	中东	Middle East	\N	\N	Capital of Yemen, Taiwanese usage (CC-CEDICT '沙那')	6000685
-6000686	河鼓二	\N	hégǔèr	Altair (star)	proper noun	人	Person	现代汉语	Modern Chinese	美国	United States	\N	\N	(CC-CEDICT '河鼓二')	6000686
+6000686	河鼓二	\N	hégǔèr	Altair (star)	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '河鼓二')	6000686
 6000687	法兰克福车展	法蘭克福車展	Fǎlánkèfú chē zhǎn	the Frankfurt Motor Show	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '法蘭克福車展')	6000687
 6000688	法赫德	\N	fǎHèdé	King Fahd of Saudi Arabia	proper noun	人	Person	现代汉语	Modern Chinese	中东	Middle East	\N	\N	(CC-CEDICT '法赫德')	6000688
 6000689	泛美	\N	fànměi	Pan American	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '泛美')	6000689
@@ -894,7 +894,7 @@
 6000894	阿森斯	\N	āsēnsī	Athens	proper noun	城市	City	地方	Places	美国	United States	\N	\N	In Ohio (CC-CEDICT '阿森斯')	6000894
 6000895	阿森纳	阿森納	āsēnnà	Arsenal Football Club	proper noun	\N	\N	现代汉语	Modern Chinese	体育	Sport	\N	\N	(CC-CEDICT '阿森納')	6000895
 6000896	阿比让	阿比讓	ābìràng	Abidjan	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	City in Ivory Coast (CC-CEDICT '阿比讓')	6000896
-6000897	阿拉摩	\N	ālāmó	Alamo	proper noun	城市	City	现代汉语	Modern Chinese	美国	United States	\N	\N	City in United States (CC-CEDICT '阿拉摩')	6000897
+6000897	阿拉摩	\N	ālāmó	Alamo	proper noun	城市	City	现代汉语	Modern Chinese	\N	\N	\N	\N	City in United States (CC-CEDICT '阿拉摩')	6000897
 6000898	阿拉瓦	\N	ālāwǎ	Araba / Álava	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '阿拉瓦')	6000898
 6000899	阿斯旺	\N	āsīwàng	Aswan	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	Town in south Egypt (CC-CEDICT '阿斯旺')	6000899
 6000900	阿斯旺高坝	阿斯旺高壩	āsīwàng gāobà	the Aswan dam in south Egypt	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '阿斯旺高壩')	6000900
@@ -1580,10 +1580,10 @@
 6001580	伊斯曼	\N	yīsīmàn	George Eastman	proper noun	人	Person	历史	History	美国	United States	\N	\N	1854-1932; US inventor and founder of Kodak 柯达 (CC-CEDICT '伊斯曼')	6001580
 6001581	伊斯曼	\N	yīsīmàn	Max F. Eastman	proper noun	人	Person	历史	History	美国	United States	\N	\N	1883-1969; US socialist writer, subsequently severe critic of USSR (CC-CEDICT '伊斯曼')	6001581
 6001582	美国总统国家安全事务助理	美國总统國家安全事務助理	měiguó zǒngtǒng guójiā ānquán shìwù zhùlǐ	National Security Advisor	proper noun	官名	Official Title	政治	Politics	美国	United States	\N	\N	(Wikipedia '总统国家安全事务助理')	6001582
-6001583	蛇河	\N	shéhé	Snake River	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	(Wikipedia '斯内克河')	6001583
+6001583	蛇河	\N	shéhé	Snake River	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '斯内克河')	6001583
 6001584	绿卡	綠卡	lǜkǎ	green card	noun	\N	\N	政府	Government	美国	United States	\N	\N	Issued to United States permanent residents (CC-CEDICT '綠卡'; Wikipedia '美国永久居民')	6001584
 6001585	美国永久居民	美國永久居民	Měiguó yǒngjiǔ jūmín	United States permanent resident	set phrase	\N	\N	政府	Government	美国	United States	\N	\N	(Wikipedia '美国永久居民')	6001585
-6001586	湖人	\N	húrén	Los Angeles Lakers	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	An Abbreviation for 洛杉矶湖人(CC-CEDICT '湖人')	6001586
+6001586	湖人	\N	húrén	Los Angeles Lakers	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	An Abbreviation for 洛杉矶湖人(CC-CEDICT '湖人')	6001586
 6001587	五卅	\N	wǔsà	abbr. for 五卅運動|五卅运动, The May Thirtieth Movement	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1925 (CC-CEDICT '五卅')	6001587
 6001588	五卅运动	五卅運動	wǔ sà yùndòng	anti-imperialist movement of 30th May 1925, involving general strike esp. in Shanghai, Guangzhou, Hong Kong etc	set phrase	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '五卅運動')	6001588
 6001589	五四爱国运动	五四愛國運動	wǔsì àiguó yùndòng	May Fourth Movement	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '五四愛國運動')	6001589
@@ -2183,3 +2183,58 @@
 6002183	圣伯多禄大殿	聖伯多祿大殿	shèng bóduōlù dà diàn	St Peter's Basilica, Vatican City	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '聖伯多祿大殿')	6002183
 6002184	聚合资讯订阅	聚合資訊訂閱	jùhé zīxùn dìngyuè	RSS (news feeds)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '聚合資訊訂閱')	6002184
 6002185	联通红筹公司	聯通紅籌公司	liántōng hóng chóu gōngsī	Unicom Red Chip	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '聯通紅籌公司')	6002185
+6002186	自由亚洲电台	自由亞洲電台	zìyóu yàzhōu diàntái	Radio Free Asia	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '自由亞洲電台')	6002186
+6002187	自由素食主义	自由素食主義	zìyóu sùshí zhǔyì	Freeganism	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '自由素食主義')	6002187
+6002188	艾哈迈达巴德	艾哈邁達巴德	ài hā mài dá bā dé	Ahmedabad, largest city in west Indian state Gujarat 古吉拉特	proper noun	\N	\N	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '艾哈邁達巴德')	6002188
+6002189	英国皇家学会	英國皇家學會	Yīngguó huáng jiā xuéhuì	Royal Society	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '英國皇家學會')	6002189
+6002190	万国邮政联盟	萬國郵政聯盟	wàn guó yóuzhèng liánméng	Universal Postal Union	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '萬國郵政聯盟')	6002190
+6002191	万维天罗地网	萬維天羅地網	wàn wéi tiān luó dì wǎng	World Wide Web (WWW) / ten-thousand dimensional net covering heaven and earth	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '萬維天羅地網')	6002191
+6002192	万维网联合体	萬維網聯合體	Wàn Wéi Wǎng liánhé tǐ	W3C, global Internet steering committee	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '萬維網聯合體')	6002192
+6002193	蒙特卡罗方法	蒙特卡羅方法	mēng té kǎ luó fāngfǎ	Monte Carlo method	proper noun	\N	\N	现代汉语	Modern Chinese	数学	Mathematics	\N	\N	(CC-CEDICT '蒙特卡羅方法')	6002193
+6002194	苏格兰折耳猫	蘇格蘭摺耳貓	Sūgélán zhé ěr māo	Scottish Fold	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '蘇格蘭摺耳貓')	6002194
+6002195	评审团特别奖	評審團特別獎	píngshěn tuán tèbié jiǎng	Special Jury Prize	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '評審團特別獎')	6002195
+6002196	詹姆斯·庞德	詹姆斯·龐德	zhān mǔ sī pángdé	James Bond	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '詹姆斯·龐德')	6002196
+6002197	路透金融词典	路透金融詞典	lùtòu jīnróng cídiǎn	Reuter's Financial Glossary	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '路透金融詞典')	6002197
+6002198	追寻现代中国	追尋現代中國	zhuīxún xiàndài zhōngguó	In search of Modern China by Jonathan D Spence 史景遷|史景迁	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '追尋現代中國')	6002198
+6002199	通用汽车公司	通用汽車公司	tōngyòng qìchē gōngsī	General Motors	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '通用汽車公司')	6002199
+6002200	达特茅斯学院	達特茅斯學院	dá té máo sī xuéyuàn	Dartmouth College	proper noun	\N	\N	教育	Education	\N	\N	\N	\N	(CC-CEDICT '達特茅斯學院')	6002200
+6002201	达达尼尔海峡	達達尼爾海峽	dá dá ní ěr hǎixiá	Dardanelles Strait / Turkish: Çanakkale Boğazı	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '達達尼爾海峽')	6002201
+6002202	鄂伦春自治旗	鄂倫春自治旗	èlúnchūn zìzhìqí	Oroqin Autonomous Banner in Hulunbuir 呼倫貝爾|呼伦贝尔, Inner Mongolia	proper noun	\N	\N	地方	Places	中国	China	\N	\N	(CC-CEDICT '鄂倫春自治旗')	6002202
+6002203	金融时报指数	金融時報指數	jīnróng shíbào zhǐshù	Financial Times stock exchange index	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	FTSE 100 or footsie (CC-CEDICT '金融時報指數')	6002203
+6002204	长三角经济区	長三角經濟區	Cháng Sānjiǎo jīngjì qū	Yangtze River Delta Economic Zone (economic region including Shanghai, Zhejiang and Jiangsu)	proper noun	水名	River	地方	Places	中国	China	\N	\N	(CC-CEDICT '長三角經濟區')	6002204
+6002205	阿史那骨咄禄	阿史那骨咄祿	ā shǐ nà gǔ duō lù	Ashina Qutlugh	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '阿史那骨咄祿')	6002205
+6002206	阿斯图里亚斯	阿斯圖里亞斯	ā sī tú lǐ yà sī	Asturias, northwest Spanish autonomous principality on the bay of Biscay	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '阿斯圖里亞斯')	6002206
+6002207	阿斯顿·马丁	阿斯頓·馬丁	ā sī dùn Mǎdīng	Aston Martin	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '阿斯頓·馬丁')	6002207
+6002208	阿比西尼亚人	阿比西尼亞人	ābìxīníyà rén	Abyssinian (person)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '阿比西尼亞人')	6002208
+6002209	非洲统一组织	非洲統一組織	fēizhōu tǒngyī zǔzhī	Organization of African Unity	proper noun	\N	\N	政府	Government	非洲	Africa	\N	\N	(CC-CEDICT '非洲統一組織')	6002209
+6002210	非洲开发银行	非洲開發銀行	fēizhōu kāifā yínháng	African Development Bank	proper noun	银行	Bank	政府	Government	非洲	Africa	\N	\N	(CC-CEDICT '非洲開發銀行')	6002210
+6002211	香榭丽舍大街	香榭麗舍大街	xiāngxièlìshě dàjiē	Avenue des Champs-Élysées	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '香榭麗舍大街')	6002211
+6002212	香港文化中心	\N	xiānggǎng wénhuà zhōngxīn	Hong Kong Cultural Center	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '香港文化中心')	6002212
+6002213	香港湿地公园	香港濕地公園	xiānggǎng shīdì gōngyuán	Hong Kong Wetland Park, in Yuen Long, New Territories	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '香港濕地公園')	6002213
+6002214	香港红十字会	香港紅十字會	xiānggǎng hóngshízì huì	Hong Kong Red Cross	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '香港紅十字會')	6002214
+6002215	香港足球总会	香港足球總會	xiānggǎng zúqiú zǒnghuì	Hong Kong Football Association	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '香港足球總會')	6002215
+6002216	香港银行公会	香港銀行公會	xiānggǎng yínháng gōnghuì	Hong Kong Association of Banks	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '香港銀行公會')	6002216
+6002217	马其顿共和国	馬其頓共和國	Mǎqídùn gònghéguó	Republic of Macedonia (former Yugoslav republic)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '馬其頓共和國')	6002217
+6002218	马利亚纳海沟	馬利亞納海溝	mǎlì yà nà hǎigōu	Mariana Trench (or Marianas Trench)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '馬利亞納海溝')	6002218
+6002219	马利亚纳群岛	馬利亞納群島	mǎlìyànà qúndǎo	Mariana Islands in the Pacific	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '馬利亞納群島')	6002219
+6002220	马可·奥勒留	馬可·奧勒留	mǎkě àolēiliú	Marcus Aurelius	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	121-180; Roman Emperor (CC-CEDICT '馬可·奧勒留')	6002220
+6002221	马斯特里赫特	馬斯特里赫特	mǎsītélǐhèté	Maastricht	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '馬斯特里赫特')	6002221
+6002222	麻省理工学院	麻省理工學院	má shěng lǐgōng xuéyuàn	Massachusetts Institute of Technology (MIT)	proper noun	大学	University	教育	Education	美国	United States	\N	\N	(CC-CEDICT '麻省理工學院')	6002222
+6002223	亚欧大陆桥	亞歐大陸橋	yàōudàlù qiáo	Eurasian land bridge (rail line linking China and Europe)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '亞歐大陸橋')	6002223
+6002224	亚历山大·杜布切克	亞歷山大·杜布切克	Yàlìshāndà dù bù qiē kè	Alexander Dubček (1921-1992), leader of Czechoslovakia	proper noun	人	Person	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	1968-1969 (CC-CEDICT '亞歷山大·杜布切克')	6002224
+6002225	亚琛	亞琛	yàchēn	Aachen, city in Nordrhein-Westfalen, Germany / Aix-la-Chapelle	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '亞琛')	6002225
+6002226	亚瑟士	亞瑟士	yàsèshì	ASICS (Japanese footwear brand)	proper noun	产品	Product	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '亞瑟士')	6002226
+6002227	亚当斯敦	亞當斯敦	yàdāngsī dūn	Adamstown, capital of the Pitcairn Islands	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '亞當斯敦')	6002227
+6002228	亚的斯亚贝巴	亞的斯亞貝巴	yà de sī yà bèi bā	Addis Ababa, capital of Ethiopia	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '亞的斯亞貝巴')	6002228
+6002229	亚罗士打	亞羅士打	yà luó shì dǎ	Alor Star city, capital of Kedah state in northwest Malaysia	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '亞羅士打')	6002229
+6002230	亚美利加洲	亞美利加洲	yàměilìjiā zhōu	America	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation to 美洲 (CC-CEDICT '亞美利加洲')	6002230
+6002231	亚西尔·阿拉法特	亞西爾·阿拉法特	yà xī ěr ā lā fǎ té	Mohammed Abdel Rahman Abdel Raouf Arafat al-Qudwa al-Husseini	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	1929-2004; Palestinian leader, popularly known as Yasser Arafat (CC-CEDICT '亞西爾·阿拉法特')	6002231
+6002232	亡兵纪念日	亡兵紀念日	wáng bīng jìniànrì	Memorial Day (American holiday)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '亡兵紀念日')	6002232
+6002233	交换码	交換碼	jiāohuànmǎ	interchange code / computer coding for characters, including Chinese	noun	\N	\N	计算机科学	Computer Science	中国	China	\N	\N	(CC-CEDICT '交換碼')	6002233
+6002234	交通运输部	交通運輸部	jiāotōng yùnshū bù	PRC Ministry of Transport (MOT)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '交通運輸部')	6002234
+6002235	亨利五世	\N	Hēnglì wǔshì	Henry V	proper noun	\N	\N	现代汉语	Modern Chinese	英国	England	\N	\N	1387-1422; English warrior king, victor of Agincourt/History of Henry V by William Shakespeare 莎士比亚 (CC-CEDICT '亨利五世')	6002235
+6002236	亨格洛	\N	hēnggéluò	Hengelo, city in the Netherlands	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '亨格洛')	6002236
+6002237	亨氏	\N	hēngshì	Heinz (name) / Heinz, US food processing company	proper noun	公司	Company	商务	Commerce	名字	Names	\N	\N	(CC-CEDICT '亨氏')	6002237
+6002238	京都念慈菴	\N	Jīngdū niàn cí ān	King-to Nin Jiom, or just Nin Jiom	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	 Manufacturer of 枇杷膏 cough medicine (CC-CEDICT '京都念慈菴')	6002238
+6002239	京斯敦	\N	jīngsīdūn	Kingstown, capital of Saint Vincent and the Grenadines / Kingston, capital of Jamaica	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '京斯敦')	6002239
+6002240	京沪高铁	京滬高鐵	jīnghù gāotiě	Beijing-Shanghai High-Speed Railway, completed in 2010	proper noun	地名	Place Name	现代汉语	Modern Chinese	中国	China	\N	\N	Abbreviation for 京沪高速铁路 (CC-CEDICT '京滬高鐵')	6002240
