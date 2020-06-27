@@ -2238,3 +2238,83 @@
 6002238	京都念慈菴	\N	Jīngdū niàn cí ān	King-to Nin Jiom, or just Nin Jiom	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	 Manufacturer of 枇杷膏 cough medicine (CC-CEDICT '京都念慈菴')	6002238
 6002239	京斯敦	\N	jīngsīdūn	Kingstown, capital of Saint Vincent and the Grenadines / Kingston, capital of Jamaica	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '京斯敦')	6002239
 6002240	京沪高铁	京滬高鐵	jīnghù gāotiě	Beijing-Shanghai High-Speed Railway, completed in 2010	proper noun	地名	Place Name	现代汉语	Modern Chinese	中国	China	\N	\N	Abbreviation for 京沪高速铁路 (CC-CEDICT '京滬高鐵')	6002240
+6002241	江湖儿女	江湖兒女	jiānghú érnǚ	Ash Is Purest White	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	2018 Chinese film starring 廖凡 Liao Fan and 赵涛 Zhao Tao (Wikipedia '江湖兒女')	6002241
+6002242	赵涛	趙濤	zhào tāo	Zhao Tao	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1977-; Chinese actress (Wikipedia '赵涛')	6002242
+6002243	七武士	\N	qī wǔ shì	Seven Samurai (movie)	proper noun	电影	Movie	戏剧	Drama	日本	Japan	\N	\N	(CC-CEDICT '七武士')	6002243
+6002244	人人网	人人網	rénrénwǎng	Renren (Chinese social networking website)	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '人人網')	6002244
+6002245	人权观察	人權觀察	rénquán guānchá	Human Rights Watch (HRW), New York-based non-governmental organization	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '人權觀察')	6002245
+6002246	人民行动党	人民行動黨	rénmín xíngdòng dǎng	People's Action Party (ruling party in Singapore)	proper noun	\N	\N	政府	Government	亚洲	Asia	\N	\N	(CC-CEDICT '人民行動黨')	6002246
+6002247	人相学	人相學	rén xiāngxué	physiognomy (judgment of a person's fate, character etc, based on facial features)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '人相學')	6002247
+6002248	人社部	\N	rénshèbù	Ministry of Human Resources and Social Security (PRC)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	Abbreviation for 人力资源和社会保障部 (CC-CEDICT '人社部')	6002248
+6002249	人设	人設	rénshè	the design of a character (in games, manga etc)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 人物设定)/(fig.) (a celebrity or other public figure's) image in the eyes of the public/public persona (CC-CEDICT '人設')	6002249
+6002250	人间喜剧	人間喜劇	rénjiān xǐjù	La Comédie humaine, series of novels by 19th century French novelist Honoré de Balzac	proper noun	作者	Author	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '人間喜劇')	6002250
+6002251	他信	\N	tāxìn	Thaksin Shinawatra	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1949-; Thai businessman and politician, prime minister 2001-2006 (CC-CEDICT '他信')	6002251
+6002252	代利斯	\N	dàilìsī	Dallys, Algerian seaport and naval base	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '代利斯')	6002252
+6002253	代尔夫特	代爾夫特	dài ěr fū té	Delft, Zuid-Holland, the Netherlands	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '代爾夫特')	6002253
+6002254	任达华	任達華	rèn dáhuá	Simon Yam Tat-Wah	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1955-; Hong Kong actor and film producer (CC-CEDICT '任達華')	6002254
+6002255	企管硕士	企管碩士	qǐ guǎn shuòshì	Master of Business Administration (MBA)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '企管碩士')	6002255
+6002256	伊伦	伊倫	yīlún	Irun (city in Basque region of Spain)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '伊倫')	6002256
+6002257	伊利格瑞	\N	yī lì gé ruì	Luce Irigaray	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	1930-; French psychoanalyst and feminist (CC-CEDICT '伊利格瑞')	6002257
+6002258	伊壁鸠鲁	伊壁鳩魯	yī bì jiū lǔ	Epicurus	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	341-270 BC; Ancient Greek philosopher (CC-CEDICT '伊壁鳩魯')	6002258
+6002259	伊士曼柯达公司	伊士曼柯達公司	yī shì màn kēdá gōngsī	Eastman Kodak Company (US film company)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '伊士曼柯達公司')	6002259
+6002260	伊娃·门德斯	伊娃·門德斯	yīwá mén dé sī	Eva Mendes, American actress	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	(CC-CEDICT '伊娃·門德斯')	6002260
+6002261	伊思迈尔	伊思邁爾	yī sī mài ěr	Ismail (name) / Shāh Ismāil I	proper noun	人	Person	历史	History	名字	Names	\N	\N	1487-1524; Founder of Persian Safavid dynasty, reigned 1501-1524 (CC-CEDICT '伊思邁爾')	6002261
+6002262	伊斯帕尼奥拉	伊斯帕尼奧拉	yī sī pà ní ào lā	Hispaniola (Caribbean island including Haiti and the Dominican Republic)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '伊斯帕尼奧拉')	6002262
+6002263	伊斯法罕	\N	yī sī fǎ hǎn	Isfahan or Eşfahān, province and city in central Iran	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '伊斯法罕')	6002263
+6002264	伊斯兰会议组织	伊斯蘭會議組織	Yīsīlán huìyì zǔzhī	Organization of the Islamic Conference	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '伊斯蘭會議組織')	6002264
+6002265	伊斯兰圣战组织	伊斯蘭聖戰組織	Yīsīlán shèngzhàn zǔzhī	Islamic Jihad (Palestinian armed faction)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '伊斯蘭聖戰組織')	6002265
+6002266	伊斯兰马巴德	伊斯蘭馬巴德	Yīsīlán mǎ bā dé	Islamabad, capital of Pakistan	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '伊斯蘭馬巴德')	6002266
+6002267	伊朗宪监会	伊朗憲監會	yīlǎng xiàn jiān huì	Guardian Council of the Constitution of Iran	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '伊朗憲監會')	6002267
+6002268	伊莉萨白	伊莉薩白	yī lì sà bái	Elizabeth (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	Also written 伊丽莎白 (CC-CEDICT '伊莉薩白')	6002268
+6002269	伊莱克斯	伊萊克斯	yī lái kè sī	Electrolux (Swedish manufacturer of home appliances)	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '伊萊克斯')	6002269
+6002270	伊萨卡	伊薩卡	yīsàkǎ	Ithaca, Island state of Greece, the home of Odysseus	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '伊薩卡')	6002270
+6002271	伊隆·马斯克	伊隆·馬斯克	yī lóng mǎ sī kè	Elon Musk	proper noun	人	Person	商务	Commerce	\N	\N	\N	\N	1971-; Founder and CEO of SpaceX, co-founder and CEO of Tesla Motors (CC-CEDICT '伊隆·馬斯克')	6002271
+6002272	伊顿公学	伊頓公學	yī dùn gōng xué	Eton public school (English elite school)	proper noun	\N	\N	现代汉语	Modern Chinese	英国	England	\N	\N	(CC-CEDICT '伊頓公學')	6002272
+6002273	伏尔加格勒	伏爾加格勒	fú ěr jiā gélēi	Volgograd, Russian city on the Volga River 伏爾加河|伏尔加河	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '伏爾加格勒')	6002273
+6002274	伯杰	伯傑	bójié	(name) Berger / Samuel Berger, former US National Security Advisor under President Carter	noun	人	Person	政府	Government	美国	United States	\N	\N	(CC-CEDICT '伯傑')	6002274
+6002275	伯南克	\N	bónánkè	Bernanke (name) / Ben Shalom Bernanke	proper noun	人	Person	政府	Government	美国	United States	\N	\N	1953-; US economist, Chairman of Fed from 2006 (CC-CEDICT '伯南克')	6002275
+6002276	伯恩斯	\N	bóēnsī	Burns (name) / Nicholas Burns	proper noun	人	Person	政府	Government	美国	United States	\N	\N	1956-; US diplomat, Under-secretary at US State Department from 2005 (CC-CEDICT '伯恩斯')	6002276
+6002277	伯拉第斯拉瓦	\N	bólādìsīlāwǎ	Bratislava, capital of Slovakia	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '伯拉第斯拉瓦')	6002277
+6002278	伯纳斯·李	伯納斯·李	bónàsīlǐ	Sir Tim Berners-Lee	proper noun	人	Person	计算机科学	Computer Science	英国	England	\N	\N	1955-; British computer scientist and co-creator of the World Wide Web (CC-CEDICT '伯納斯·李')	6002278
+6002279	伴侣号	伴侶號	bànlǚhào	HMS Consort, Royal Navy destroyer involved in 1949 Amethyst incident on Changjiang	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '伴侶號')	6002279
+6002280	布列塔尼	佈列塔尼	bùliètǎní	Brittany or Bretagne, area of western France	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '佈列塔尼')	6002280
+6002281	布莱特妮·墨菲	佈萊特妮·墨菲	bù láité nī mò fēi	Brittany Murphy	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	1977-2009; American actress (CC-CEDICT '佈萊特妮·墨菲')	6002281
+6002282	布兰森	佈蘭森	bùlánsēn	Branson or Brandsen (name) / Sir Richard Branson	proper noun	人	Person	现代汉语	Modern Chinese	英国	England	\N	\N	1950-; British millionaire and founder of Virgin (CC-CEDICT '佈蘭森')	6002282
+6002283	布雷顿森林	佈雷頓森林	bùléi dùn sēnlín	Bretton woods conference in 1944 of allied powers, regulating world exchange rates and setting up IMF and world bank	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '佈雷頓森林')	6002283
+6002284	住建部	\N	zhùjiànbù	Ministry of Housing and Urban-Rural Development of the PRC (MOHURD)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	Abbreviation for 住房和城乡建设部 (CC-CEDICT '住建部')	6002284
+6002285	住房和城乡建设部	住房和城鄉建設部	zhùfáng hé chéngxiāng jiànshè bù	Ministry of Housing and Urban-Rural Development of the PRC (MOHURD)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	Abbreviation to 住建部 (CC-CEDICT '住房和城鄉建設部')	6002285
+6002286	住棚节	住棚節	zhùpéngjié	Sukkot or Succoth, Jewish holiday	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '住棚節')	6002286
+6002287	佐丹奴	\N	zuǒdānnú	Giordano (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '佐丹奴')	6002287
+6002288	佐佐木	\N	zuǒzuǒmù	Sasaki (Japanese surname)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '佐佐木')	6002288
+6002289	佐格比国际	佐格比國際	zuǒ gé bì guójì	Zogby International (polling company)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '佐格比國際')	6002289
+6002290	佐治亚	佐治亞	zuǒzhìyà	Georgia, US state	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	(CC-CEDICT '佐治亞')	6002290
+6002291	佐治亚州	佐治亞州	zuǒzhìyà zhōu	Georgia, US state	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	(CC-CEDICT '佐治亞州')	6002291
+6002292	佐科威	\N	zuǒkēwēi	Joko Widodo (1961-), Indonesian politician, president of Indonesia	proper noun	人	Person	地方	Places	亚洲	Asia	\N	\N	2014- (CC-CEDICT '佐科威')	6002292
+6002293	占中	佔中	zhānzhōng	Occupy Central, Hong Kong civil disobedience movement	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	September 2014 - (CC-CEDICT '佔中')	6002293
+6002294	何厚铧	何厚鏵	héhòuhuá	He Houhua	proper noun	人	Person	地方	Places	中国	China	\N	\N	1955-; Macau financier and politician, first magistrate from 1999 (CC-CEDICT '何厚鏵')	6002294
+6002295	佛吉尼亚	佛吉尼亞	fó jí ní yà	Virginia, US state	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	(CC-CEDICT '佛吉尼亞')	6002295
+6002296	佛洛斯特	\N	fóluòsīté	Frost (surname)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '佛洛斯特')	6002296
+6002297	佛蒙特州	\N	fómēngté zhōu	Vermont, US state	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	(CC-CEDICT '佛蒙特州')	6002297
+6002298	佩洛西	\N	pèiluòxī	Nancy Pelosi	proper noun	人	Person	政治	Politics	美国	United States	\N	\N	1940-; US Democrat politician from California, speaker of US House of Representatives from 2007 (CC-CEDICT '佩洛西')	6002298
+6002299	佳世客	\N	jiāshìkè	JUSCO, Japanese chain of hypermarkets	proper noun	\N	\N	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '佳世客')	6002299
+6002300	佳得乐	佳得樂	jiādelè	Gatorade (brand)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '佳得樂')	6002300
+6002301	佳木斯大学	佳木斯大學	Jiāmùsī dàxué	Jiamusi University (Heilongjiang)	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '佳木斯大學')	6002301
+6002302	佳洁士	佳潔士	jiājiéshì	Crest (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '佳潔士')	6002302
+6002303	侏罗	侏羅	zhūluó	Jura mountains of eastern France and extending into Switzerland	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '侏羅')	6002303
+6002304	依撒依亚	依撒依亞	yī sǎ yī yà	Isaiah (Catholic transliteration)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '依撒依亞')	6002304
+6002305	依撒格	\N	yīsǎgé	Issac (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '依撒格')	6002305
+6002306	依云	依雲	yīyún	Evian, mineral water company / Évian-les-Bains, resort and spa	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	Town in south-eastern France (CC-CEDICT '依雲')	6002306
+6002307	侯赛因	侯賽因	hóusàiyīn	Husain or Hussein (name) / Hussein (c. 626-680), Muslim leader whose martyrdom is commemorated at Ashura	proper noun	人	Person	现代汉语	Modern Chinese	名字	Names	\N	\N	1937-2006; Dictator of Iraq 1979-2003 (CC-CEDICT '侯賽因')	6002307
+6002308	俄克拉何马	俄克拉何馬	ékèlāhémǎ	Oklahoma, US state	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	(CC-CEDICT '俄克拉何馬')	6002308
+6002309	俄克拉何马州	俄克拉何馬州	ékèlāhémǎ zhōu	Oklahoma, US state	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	(CC-CEDICT '俄克拉何馬州')	6002309
+6002310	俄塔社	\N	étǎshè	Information Telegraph Agency of Russia (ITAR-TASS), Russian news agency	proper noun	\N	\N	政府	Government	欧洲	Europe	\N	\N	(CC-CEDICT '俄塔社')	6002310
+6002311	俄罗斯方块	俄羅斯方塊	Éluósī fāngkuài	Tetris (video game)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '俄羅斯方塊')	6002311
+6002312	保利科技有限公司	\N	bǎo lì kējì yǒuxiàn gōngsī	Poly Technologies (defense manufacturing company)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '保利科技有限公司')	6002312
+6002313	保尔森	保爾森	Pǎo'ěrsēn	Paulson or Powellson (name) / Henry (Hank) Paulson	proper noun	人	Person	现代汉语	Modern Chinese	名字	Names	\N	\N	1946-; US banker, US Treasury Secretary from 2006 (CC-CEDICT '保爾森')	6002313
+6002314	保监会	保監會	bǎojiānhuì	China Insurance Regulatory Commission (CIRC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation for 中国保险监督管理委员会 (CC-CEDICT '保監會')	6002314
+6002315	俞正声	俞正聲	yúzhèngshēng	Yu Zhengsheng	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1945-; PRC politician (CC-CEDICT '俞正聲')	6002315
+6002316	侠盗猎车手	俠盜獵車手	xiá dàoliè chē shǒu	Grand Theft Auto (video game series)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '俠盜獵車手')	6002316
+6002317	侠盗飞车	俠盜飛車	xiá dào fēi chē	Grand Theft Auto (video game series)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '俠盜飛車')	6002317
+6002318	信报财经新闻	信報財經新聞	xìnbào cái jīng xīnwén	Hong Kong Economic Journal	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '信報財經新聞')	6002318
+6002319	修昔底德	\N	xiū xī dǐ dé	Thucydides	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	c. 455 - c. 400 BC; Greek historian, author of the History of the Peloponnesian War (CC-CEDICT '修昔底德')	6002319
+6002320	俾路支	\N	bǐlùzhī	Balochi (ethnic group of Iran, Pakistan and Afghanistan)	proper noun	民族	Ethnic Group	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '俾路支')	6002320

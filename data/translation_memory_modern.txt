@@ -27,3 +27,5 @@
 5000027	一个幽灵在欧洲游荡	一個幽靈在歐洲遊蕩	yī gè yōulíng zài Ōuzhōu yóudàng	Ein Gespenst geht um in Europa.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	The opening sentence of Marx and Engels' Communist Manifesto (CC-CEDICT '一個幽靈在歐洲遊蕩')	5000027
 5000028	都什么年代了	都什麼年代了	dōu shénme niándài le	What decade are you living in? / That's so out-of-date!	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '都什麼年代了')	5000028
 5000029	钱是万恶之源	錢是萬惡之源	qián shì wànè zhī yuán	Money is the root of all evil.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '錢是萬惡之源')	5000029
+5000030	人生短暂，学术无涯	人生短暫，學術無涯	rénshēng duǎnzàn, xuéshù wú yá	Life is short, learning is limitless / Ars longa, vita brevis	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '人生短暫，學術無涯')	5000030
+5000031	人非生而知之者，孰能无惑	人非生而知之者，孰能無惑	rén fēi shēng ér zhī zhī zhě, shú néng wú huò	Knowledge is not innate to man, how can we overcome doubt?	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '人非生而知之者，孰能無惑')	5000031
