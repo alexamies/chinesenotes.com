@@ -2563,3 +2563,93 @@
 6002563	博鳌亚洲论坛	博鰲亞洲論壇	bó áo yàzhōu lùntán	Bo'ao Forum for Asia	proper noun	\N	\N	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	since 2001 (CC-CEDICT '博鰲亞洲論壇')	6002563
 6002564	卡内基梅隆大学	卡內基梅隆大學	kǎnèijī méi lóng dàxué	Carnegie Mellon University, Pittsburgh	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '卡內基梅隆大學')	6002564
 6002565	卡地亚	卡地亞	kǎdìyà	Cartier (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '卡地亞')	6002565
+6002566	崔嵬	\N	cuīwéi	Cui Wei	proper noun	人	Person	戏剧	Drama	\N	\N	\N	\N	1912-1979; actor, dramatist and movie director (CC-CEDICT '崔嵬')	6002566
+6002567	夏衍	\N	xiàyǎn	Xia Yan	proper noun	作家	Writer	文学	Literature	中国	China	\N	\N	1900-1995 Chinese writer, playwright, socialist critic and movie pioneer (CC-CEDICT '夏衍')	6002567
+6002568	卡夫	\N	kǎfū	Kraft, US food company	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '卡夫')	6002568
+6002569	卡宴	\N	kǎyàn	Cayenne, capital of French Guiana	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '卡宴')	6002569
+6002570	卡巴斯基	\N	kǎ bāsī jī	Kaspersky (computer security product brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '卡巴斯基')	6002570
+6002571	卡拉卡斯	\N	kǎlā kǎ sī	Caracas, capital of Venezuela	proper noun	城市	City	地方	Places	南美	South America	\N	\N	Taiwanese usage (CC-CEDICT '卡拉卡斯')	6002571
+6002572	卡拉姆昌德	\N	kǎlā mǔ chāng dé	Karamchand (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '卡拉姆昌德')	6002572
+6002573	卡拉季奇	\N	kǎlā jì qí	Radovan Karadžić	proper noun	人	Person	历史	History	\N	\N	\N	\N	1945-; Former Bosnian Serb leader and war criminal (CC-CEDICT '卡拉季奇')	6002573
+6002574	卡拉比拉	\N	kǎlā bì lā	Karabilah (Iraqi city)	proper noun	城市	City	地方	Places	中东	Middle East	\N	\N	(CC-CEDICT '卡拉比拉')	6002574
+6002575	卡拉马佐夫兄弟	卡拉馬佐夫兄弟	kǎlā mǎ zuǒ fū xiōngdì	Brothers Karamazov by Dostoevsky	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '卡拉馬佐夫兄弟')	6002575
+6002576	卡斯特罗	卡斯特羅	kǎ sī té luó	Castro (name) / Fidel Castro or Fidel Alejandro Castro Ruz	proper noun	人	Person	历史	History	\N	\N	\N	\N	1926-; Cuban revolutionary leader, prime minister 1959-1976, president 1976-2008 (CC-CEDICT '卡斯特羅')	6002576
+6002577	卡斯特里	\N	kǎ sī té lǐ	Castries, capital of Saint Lucia	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '卡斯特里')	6002577
+6002578	卡斯翠	\N	kǎsīcuì	Castries, capital of Saint Lucia	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '卡斯翠')	6002578
+6002579	卡斯蒂利亚·莱昂	卡斯蒂利亞·萊昂	kǎ sī dì lì yà lái áng	Castilla-Leon, north Spanish province	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '卡斯蒂利亞·萊昂')	6002579
+6002580	卡昂	\N	kǎáng	Caen (French town)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '卡昂')	6002580
+6002581	卡桑德拉	\N	kǎ sāng dé lā	Cassandra (given name) / Cassandra (character in Greek mythology)	proper noun	\N	\N	现代汉语	Modern Chinese	神话	Mythology	\N	\N	(CC-CEDICT '卡桑德拉')	6002581
+6002582	卡梅伦	卡梅倫	kǎméilún	Cameron (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '卡梅倫')	6002582
+6002583	卡森城	\N	kǎsēnchéng	Carson City, capital of Nevada	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '卡森城')	6002583
+6002584	卡洛斯	\N	kǎluòsī	Carlos (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '卡洛斯')	6002584
+6002585	卡尔加里	卡爾加里	Kǎ'ěr jiā lǐ	Calgary, largest city of Alberta, Canada	proper noun	城市	City	地方	Places	北美	North America	\N	\N	(CC-CEDICT '卡爾加里')	6002585
+6002586	卡尔巴拉	卡爾巴拉	Kǎ'ěr bā lā	Karbala (city in Iraq)	proper noun	城市	City	地方	Places	中东	Middle East	\N	\N	(CC-CEDICT '卡爾巴拉')	6002586
+6002587	卡尔文克莱因	卡爾文克萊因	kǎěrwén kèláiyīn	Calvin Klein CK (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '卡爾文克萊因')	6002587
+6002588	卡尔斯鲁厄	卡爾斯魯厄	Kǎ'ěr sī lǔ è	Karlsruhe (city in Germany)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '卡爾斯魯厄')	6002588
+6002589	卡尔扎伊	卡爾紮伊	Kǎ'ěr zhā yī	Hamid Karzai	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1957-; Afghan politician, president 2004-2014 (CC-CEDICT '卡爾紮伊')	6002589
+6002590	卡珊德拉	\N	kǎ shān dé lā	Cassandra (given name) / Cassandra (character in Greek mythology)	proper noun	\N	\N	现代汉语	Modern Chinese	神话	Mythology	\N	\N	(CC-CEDICT '卡珊德拉')	6002590
+6002591	卡秋莎	\N	kǎqiūsuō	Katyusha (name) / name of a Russian wartime song	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Also written 喀秋莎 (CC-CEDICT '卡秋莎')	6002591
+6002592	卡纳蕾	卡納蕾	kǎnàlěi	canelé (a French pastry)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Loanword; Loanword (CC-CEDICT '卡納蕾')	6002592
+6002593	卡罗利纳	卡羅利納	kǎ luólì nà	Carolina (Puerto Rico)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '卡羅利納')	6002593
+6002594	卡萨布兰卡	卡薩布蘭卡	kǎ sà bù lán kǎ	Casablanca (Morocco's economic capital)	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '卡薩布蘭卡')	6002594
+6002595	卡西尼	\N	kǎxīní	Cassini (proper name)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '卡西尼')	6002595
+6002596	卡西莫夫	\N	kǎ xī mò fū	Kasimov	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Town in Russia (CC-CEDICT '卡西莫夫')	6002596
+6002597	印古什	\N	yìngǔshén	Ingushetia, republic in southwestern Russia	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '印古什')	6002597
+6002598	印地安纳	印地安納	yìndìān nà	Indiana, US state	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '印地安納')	6002598
+6002599	印地安纳州	印地安納州	yìndìān nà zhōu	Indiana, US state	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '印地安納州')	6002599
+6002600	印度人民党	印度人民黨	Yìndùrén mín dǎng	Bharatiya Janata Party	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '印度人民黨')	6002600
+6002601	印江土家族苗族自治县	印江土家族苗族自治縣	yìnjiāng Tǔjiā zú Miáo Zú zìzhìxiàn	Yinjiang Tujia and Hmong autonomous	proper noun	县	County	地方	Places	中国	China	\N	\N	County in Tongren prefecture 铜仁地区, Guizhou (CC-CEDICT '印江土家族苗族自治縣')	6002601
+6002602	印第安纳州	印第安納州	yìndìānnà zhōu	Indiana, US state	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '印第安納州')	6002602
+6002603	印第安纳波利斯	印第安納波利斯	yìndìānnà bōlì sī	Indianapolis, Indiana	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '印第安納波利斯')	6002603
+6002604	厄什塔	\N	èshéntǎ	Ørsta (city in Norway)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '厄什塔')	6002604
+6002605	厄勒布鲁	厄勒布魯	è lēi bù lǔ	Örebro (city in Sweden)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '厄勒布魯')	6002605
+6002606	厄勒海峡	厄勒海峽	è lēi hǎixiá	Øresund / The Sound (strait between Denmark and Sweden)	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '厄勒海峽')	6002606
+6002607	厚生劳动省	厚生勞動省	hòu shēng láodòng shěng	Ministry of Health, Labor and Welfare (Japan)	proper noun	\N	\N	政府	Government	日本	Japan	\N	\N	(CC-CEDICT '厚生勞動省')	6002607
+6002608	厚生相	\N	hòushēng xiāng	minister of health (of Japan, UK etc)	noun	人	Person	地方	Places	英国	England	\N	\N	(CC-CEDICT '厚生相')	6002608
+6002609	厚生省	\N	hòushēngshěng	Ministry of Health and Welfare (Japan)	proper noun	\N	\N	政府	Government	日本	Japan	\N	\N	replaced in 2001 by 厚生劳动省 (CC-CEDICT '厚生省')	6002609
+6002610	原子科学家通报	原子科學家通報	yuánzǐ kēxuéjiā tōngbào	Journal of Atomic Scientists	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '原子科學家通報')	6002610
+6002611	去台	去臺	qùtái	to go to Taiwan / refers to those who left China for Taiwan before the founding of PRC in 1949	verb	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '去臺')	6002611
+6002612	去台人员	去臺人員	qù tái rényuán	those who left China for Taiwan before the founding of PRC in 1949	set phrase	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '去臺人員')	6002612
+6002613	参考消息	參考消息	cānkǎo xiāoxi	Reference News (PRC limited-distribution daily newspaper)	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '參考消息')	6002613
+6002614	友谊商店	友誼商店	yǒuyì shāngdiàn	Friendship Store, PRC state-run store originally intended for foreigners, diplomats etc, specializing in selling imported Western goods and quality Chinese crafts	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '友誼商店')	6002614
+6002615	友邦保险公司	友邦保險公司	yǒubāng bǎoxiǎn gōngsī	American International Group (AIG), insurance company	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '友邦保險公司')	6002615
+6002616	反分裂法	\N	fǎn fēnliè fǎ	anti-secession law of 2005 (whereby PRC claims the right to invade Taiwan)	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '反分裂法')	6002616
+6002617	反右运动	反右運動	fǎnyòu yùndòng	Anti-Rightist Movement, Mao's purge of rightists after the Hundred Flowers Campaign ended in 1957	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '反右運動')	6002617
+6002618	反围剿	反圍剿	fǎnwéijiǎo	communist attack against the Guomindang's encircle and annihilate campaign	noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '反圍剿')	6002618
+6002619	反袁	\N	fǎnyuán	opposing Yuan Shikai in War of national protection 1915-1916	noun	\N	\N	历史	History	中国	China	\N	\N	Same as 反袁斗争 (CC-CEDICT '反袁')	6002619
+6002620	反袁运动	反袁運動	fǎn yuán yùndòng	opposing Yuan Shikai	set phrase	\N	\N	历史	History	中国	China	\N	\N	Same as 反袁斗争 (CC-CEDICT '反袁運動')	6002620
+6002621	反酷刑折磨公约	反酷刑折磨公約	fǎn kùxíng zhémó gōngyuē	UN convention against torture and cruel treatment	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	ratified by PRC in 1988 (CC-CEDICT '反酷刑折磨公約')	6002621
+6002622	取保候审	取保候審	qǔ bǎo hòushěn	release from custody, subject to provision of a surety, pending investigation (PRC)	set phrase	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '取保候審')	6002622
+6002623	受命于天	\N	shòumìng yú tiān	to become Emperor by the grace of Heaven	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '受命于天')	6002623
+6002624	古杰拉尔	古傑拉爾	gǔ jiélā ěr	Gujral (name) / Inder Kumar Gujral	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1919-2012; Indian Janata politician, prime minister 1997-1998 (CC-CEDICT '古傑拉爾')	6002624
+6002625	古奇	\N	gǔqí	Gucci (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '古奇')	6002625
+6002626	古斯塔夫·施特雷泽曼	古斯塔夫·施特雷澤曼	gǔsītǎfū shīté'éizémàn	Gustav Stresemann (Chancellor and Foreign Minister during the Weimar Republic)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '古斯塔夫·施特雷澤曼')	6002626
+6002627	古根海姆	\N	gǔ gēn hǎi mǔ	Guggenheim (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '古根海姆')	6002627
+6002628	古根罕	\N	gǔgēnhǎn	Guggenheim (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '古根罕')	6002628
+6002629	古根罕喷气推进研究中心	古根罕噴氣推進研究中心	gǔ gēn hǎn pēnqì tuījìn yánjiū zhōngxīn	Guggenheim Aeronautical Laboratory at the California Institute of Technology (GALCIT, from 1926)	proper noun	大学	University	教育	Education	美国	United States	\N	\N	from 1943 (CC-CEDICT '古根罕噴氣推進研究中心')	6002629
+6002630	古特雷斯	\N	gǔ té léi sī	António Guterres (1949-), secretary-general of the United Nations (2017-), prime minister of Portugal	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1995-2002 (CC-CEDICT '古特雷斯')	6002630
+6002631	古驰	古馳	gǔchí	Gucci (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '古馳')	6002631
+6002632	可口可乐公司	可口可樂公司	kěkǒu kělè gōngsī	The Coca-Cola Company	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '可口可樂公司')	6002632
+6002633	可擦写可编程只读存储器	可擦寫可編程只讀存儲器	kě cā xiě kěbiānchéng zhǐdú cúnchǔqì	EPROM (erasable programmable read-only memory)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '可擦寫可編程只讀存儲器')	6002633
+6002634	可变渗透性模型	可變滲透性模型	kěbiàn shèntòu xìng móxíng	Varying Permeability Model (VPM), (used to calculate decompression schedules in diving)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '可變滲透性模型')	6002634
+6002635	台伯河	\N	táibóhé	Tiber (river in Italy, the main watercourse of Rome)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '台伯河')	6002635
+6002636	台北金马影展	台北金馬影展	Táiběi jīn mǎ yǐngzhǎn	Taipei Golden Horse Film Festival	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '台北金馬影展')	6002636
+6002637	台湾民主自治同盟	台灣民主自治同盟	Táiwān mínzhǔ zìzhì tóngméng	Taiwan Democratic Self-Government League	proper noun	\N	\N	地方	Places	\N	\N	\N	\N	(CC-CEDICT '台灣民主自治同盟')	6002637
+6002638	台湾关系法	台灣關係法	Táiwān guānxi fǎ	Taiwan Relations Act	proper noun	\N	\N	地方	Places	美国	United States	\N	\N	of US Congress, 1979 (CC-CEDICT '台灣關係法')	6002638
+6002639	史丹福大学	史丹福大學	shǐ dān fú dàxué	Stanford University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '史丹福大學')	6002639
+6002640	史丹顿岛	史丹頓島	shǐ dān dùn dǎo	Staten Island, borough of New York City	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '史丹頓島')	6002640
+6002641	史努比	\N	shǐnǔbì	Snoopy (comic strip pet dog)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '史努比')	6002641
+6002642	史卓	\N	shǐzhuó	Straw (name) / Jack Straw	proper noun	人	Person	历史	History	英国	England	\N	\N	1946-; UK Labour Party politician, foreign secretary 2001-2006 (CC-CEDICT '史卓')	6002642
+6002643	史奴比	\N	shǐnúbì	Snoopy (comic strip pet dog)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '史奴比')	6002643
+6002644	史威士	\N	shǐwēishì	Schweppes (soft drinks company)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '史威士')	6002644
+6002645	史密斯	\N	shǐmìsī	Smith (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '史密斯')	6002645
+6002646	史提夫·贾伯斯	史提夫·賈伯斯	shǐtífū jiǎbósī	Steve Jobs	proper noun	\N	\N	商务	Commerce	美国	United States	\N	\N	1955-2011; US co-founder and CEO of Apple, Inc. (CC-CEDICT '史提夫·賈伯斯')	6002646
+6002647	史景迁	史景遷	shǐjǐngqiān	Jonathan D Spence	proper noun	人	Person	历史	History	中国	China	\N	\N	1936-; Distinguished British US historian of China, author of The search for modern China 追寻现代中国 (CC-CEDICT '史景遷')	6002647
+6002648	史泰博	\N	shǐtàibó	Staples Inc., US office supply store	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '史泰博')	6002648
+6002649	史特龙	史特龍	shǐtélóng	Stallone (name) / Sylvester Stallone	proper noun	人	Person	历史	History	名字	Names	\N	\N	1946-; American actor (CC-CEDICT '史特龍')	6002649
+6002650	史蒂夫	\N	shǐdìfū	Steve (male name)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '史蒂夫')	6002650
+6002651	史蒂夫·乔布斯	史蒂夫·喬布斯	shǐ dì fū qiáo bù sī	Steve Jobs	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	1955-2011; US co-founder and CEO of Apple, Inc. (CC-CEDICT '史蒂夫·喬布斯')	6002651
+6002652	史蒂文	\N	shǐdìwén	Steven, Stephen (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '史蒂文')	6002652
+6002653	史高比耶	\N	shǐ gāo bì yé	Skopje, capital of North Macedonia	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '史高比耶')	6002653
+6002654	史黛西	\N	shǐdàixī	Stacy (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '史黛西')	6002654
+6002655	司马辽太郎	司馬遼太郎	sīmǎ liáo tài láng	SHIBA Ryotarō	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1923-1996; Japanese author of historical novels (CC-CEDICT '司馬遼太郎')	6002655
