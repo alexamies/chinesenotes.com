@@ -307,3 +307,4 @@
 3000307	矫手顿足	矯手頓足	jiǎo shǒu dùn zú	dance about	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 千字文 <i>Thousand Character Classic</i> (Wu and Tee 2015, loc. 3350)	3000307
 3000308	修祜	\N	xiū hù	blessings for a long time	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 千字文 <i>Thousand Character Classic</i> (Wu and Tee 2015, loc. 3221)	3000308
 3000309	脩祜	\N	xiū hù	blessings for a long time	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 千字文 <i>Thousand Character Classic</i> (Wu and Tee 2015, loc. 3221)	3000309
+3000310	先天下之忧而忧，后天下之乐而乐	先天下之憂而憂，後天下之樂而樂	xiāntiān xià zhī yōu ér yōu, hòutiān xià zhī lè ér lè	The first concern is affairs of state, enjoying the pleasure comes later. 	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quotation from essay On Yueyang Tower 岳阳楼记 by Song writer Fan Zhongyan 范仲淹 (CC-CEDICT '先天下之憂而憂，後天下之樂而樂')	3000310
