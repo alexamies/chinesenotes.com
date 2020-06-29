@@ -2653,3 +2653,86 @@
 6002653	史高比耶	\N	shǐ gāo bì yé	Skopje, capital of North Macedonia	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '史高比耶')	6002653
 6002654	史黛西	\N	shǐdàixī	Stacy (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '史黛西')	6002654
 6002655	司马辽太郎	司馬遼太郎	sīmǎ liáo tài láng	SHIBA Ryotarō	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1923-1996; Japanese author of historical novels (CC-CEDICT '司馬遼太郎')	6002655
+6002656	大峡谷	大峽谷	dàxiágǔ	Grand Canyon	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	Of Colorado River (CC-CEDICT '大峽谷')	6002656
+6002657	纽约大学	紐約大學	niǔyuē dàxué	New York University	proper noun	大学	University	教育	Education	美国	United States	\N	\N	(CC-CEDICT '紐約大學')	6002657
+6002658	吃鸡	吃雞	chījī	(video games) PlayerUnknown's Battlegrounds (PUBG) / battle royale game / last-man-standing game / to play PUBG (or similar game)	noun	\N	\N	历史	History	\N	\N	\N	\N	(CC-CEDICT '吃雞')	6002658
+6002659	合众银行	合眾銀行	hézhòng yínháng	Bancorp, a US bank	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	(CC-CEDICT '合眾銀行')	6002659
+6002660	吉之岛	吉之島	jízhīdǎo	JUSCO, Japanese chain of hypermarkets	proper noun	\N	\N	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '吉之島')	6002660
+6002661	吉亚卡摩	吉亞卡摩	jí yà kǎ mó	Giacomo (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '吉亞卡摩')	6002661
+6002662	吉伯特氏症候群	\N	jí bó té shì zhènghòuqún	Gilbert's syndrome	proper noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '吉伯特氏症候群')	6002662
+6002663	吉拉尼	\N	jílāní	Syed Yousuf Raza Gilani	proper noun	人	Person	历史	History	\N	\N	\N	\N	1952-; Pakistan People's Party politician, prime minister 2008-2012 (CC-CEDICT '吉拉尼')	6002663
+6002664	吉拉德	\N	jílādé	Gillard (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '吉拉德')	6002664
+6002665	吉普斯夸	\N	Jípǔ sī kuā	Gipuzkoa or Guipúzcoa, one of the seven Basque provinces in north Spain	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '吉普斯夸')	6002665
+6002666	吉本斯	\N	jíběnsī	Gibbons (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '吉本斯')	6002666
+6002667	吉尔伯特	吉爾伯特	jí ěr bó té	Gilbert (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '吉爾伯特')	6002667
+6002668	吉尔吉斯	吉爾吉斯	jí ěr jí sī	Kyrgyz / Kyrgyzstan	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '吉爾吉斯')	6002668
+6002669	吉尔吉斯坦	吉爾吉斯坦	jí ěr jí sī tǎn	Kyrgyzstan	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '吉爾吉斯坦')	6002669
+6002670	吉百利	\N	jíbǎilì	Cadbury (name) / Cadbury (brand)	proper noun	产品	Product	商务	Commerce	名字	Names	\N	\N	(CC-CEDICT '吉百利')	6002670
+6002671	吉米	\N	jímǐ	Jimmy, Jimmie or Jimi (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '吉米')	6002671
+6002672	吉里巴斯	\N	Jílǐ bāsī	Kiribati (formerly the Gilbert Islands)	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '吉里巴斯')	6002672
+6002673	同仁堂	\N	tóngréntáng	Tongrentang, Chinese pharmaceutical company (TCM)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '同仁堂')	6002673
+6002674	名爵	\N	míngjué	MG Motor (car manufacturer)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '名爵')	6002674
+6002675	向巴平措	\N	xiàng bā píng cuò	Qiangba Puncog	proper noun	\N	\N	历史	History	中国	China	\N	\N	1947-), chairman of government of Tibet (i.e. governor (CC-CEDICT '向巴平措')	6002675
+6002676	君悦	君悅	jūnyuè	Grand Hyatt (hotel brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '君悅')	6002676
+6002677	吴仁宝	吳仁寶	wúrénbǎo	Wu Renbao	proper noun	\N	\N	历史	History	中国	China	\N	\N	1928-2013; Former CPC chief of Huaxi Village 华西村, responsible for turning it into a modern rich community (CC-CEDICT '吳仁寶')	6002677
+6002678	吴作栋	吳作棟	wúzuòdòng	Goh Chok Tong	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1941-; Singapore businessman and politician, prime minister 1990-2004 (CC-CEDICT '吳作棟')	6002678
+6002679	吴天明	吳天明	wútiānmíng	Wu Tianming	proper noun	\N	\N	戏剧	Drama	中国	China	\N	\N	1939-; PRC film director (CC-CEDICT '吳天明')	6002679
+6002680	吴孟超	吳孟超	wúmèngchāo	Wu Mengchao	proper noun	人	Person	历史	History	中国	China	\N	\N	1922-; Chinese medical scientist and surgeon specializing in liver and gallbladder disorders (CC-CEDICT '吳孟超')	6002680
+6002681	吴官正	吳官正	wúguānzhèng	Wu Guanzheng	proper noun	人	Person	历史	History	中国	China	\N	\N	1938-; Former CPC Secretary of the Central Commission for Discipline Inspection (CC-CEDICT '吳官正')	6002681
+6002682	吴建豪	吳建豪	wújiànháo	Wu Jianhao or Vanness Wu	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	1978-; Taiwan pop star and actor, F4 band member (CC-CEDICT '吳建豪')	6002682
+6002683	吴晗	吳晗	wúhán	Wu Han	proper noun	人	Person	历史	History	中国	China	\N	\N	1909-1969; Historian, author of biography of Zhu Yuanzhang 朱元璋, hounded to his death together with several members of his family during the cultural revolution (CC-CEDICT '吳晗')	6002683
+6002684	吴永刚	吳永剛	wúyǒnggāng	Wu Yonggang	proper noun	\N	\N	戏剧	Drama	中国	China	\N	\N	1907-1982; Chinese film director (CC-CEDICT '吳永剛')	6002684
+6002685	吾尔开希	吾爾開希	wú'ěrkāixī	Örkesh Dölet	proper noun	人	Person	现代汉语	Modern Chinese	中国	China	\N	\N	1968-; One of the main leaders of the Beijing student democracy movement of 1989 (CC-CEDICT '吾爾開希')	6002685
+6002686	吕塞尔斯海姆	呂塞爾斯海姆	lǚsāi'ěrsīhǎimǔ	Rüsselsheim, city in Germany	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '呂塞爾斯海姆')	6002686
+6002687	吕贝克	呂貝克	lǚBèikè	Lübeck, Germany	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '呂貝克')	6002687
+6002688	周一岳	周一嶽	Zhōuyīyuè	York Chow or Chow Yat-ngok	proper noun	人	Person	历史	History	中国	China	\N	\N	1947-; Hong Kong doctor and politician, Secretary for Health, Welfare and Food since 2004 (CC-CEDICT '周一嶽')	6002688
+6002689	周小川	\N	zhōuxiǎochuān	Zhou Xiaochuan	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	1948-; PRC banker and politician, governor of People's Bank of China 中国人民银行 from 2002 (CC-CEDICT '周小川')	6002689
+6002690	周扒皮	\N	zhōubāpí	Zhou the exploiter, archetypal character in short story 半夜雞叫|半夜鸡叫	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '周扒皮')	6002690
+6002691	周星驰	周星馳	zhōuxīngchí	Stephen Chow	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1962-; Hong Kong actor, comedian, screenwriter and film director, known for his mo lei tau 无厘头 movies (CC-CEDICT '周星馳')	6002691
+6002692	周有光	\N	zhōuyǒuguāng	Zhou Youguang	proper noun	\N	\N	历史	History	中国	China	\N	\N	1906-2017; PRC linguist, considered the father of Hanyu Pinyin 汉语拼音 (CC-CEDICT '周有光')	6002692
+6002693	周杰伦	周杰倫	zhōujiélún	Jay Chou	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1979-; Taiwanese pop star (CC-CEDICT '周杰倫')	6002693
+6002694	周梁淑怡	\N	zhōu liáng shū yí	Selina Chow (Chow Liang Shuk-yee)	proper noun	人	Person	历史	History	中国	China	\N	\N	1945-; Hong Kong politician (CC-CEDICT '周梁淑怡')	6002694
+6002695	周渝民	\N	zhōuyúmín	Zhou Yumin or Vic Zhou	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	1981-; Taiwan singer and actor, member of pop group F4 (CC-CEDICT '周渝民')	6002695
+6002696	周润发	周潤發	zhōurùnfà	Chow Yun-Fat	proper noun	\N	\N	戏剧	Drama	中国	China	\N	\N	1955-; Hong Kong TV and film star (CC-CEDICT '周潤發')	6002696
+6002697	周立波	\N	zhōulìbō	Zhou Libo (1908-1979), left-wing journalist, translator and novelist / Zhou Libo	proper noun	作者	Author	历史	History	中国	China	\N	\N	1967-; Chinese stand-up comedian (CC-CEDICT '周立波')	6002697
+6002698	味之素	\N	wèizhīsù	Ajinomoto, Japanese food and chemical corporation	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '味之素')	6002698
+6002699	和平队	和平隊	hépíngduì	(U.S.) Peace Corps	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '和平隊')	6002699
+6002700	和达清夫	和達清夫	hé dá qīng fū	Wadati Kiyoō	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1902-1995; Pioneer Japanese seismologist (CC-CEDICT '和達清夫')	6002700
+6002701	品客	\N	pǐnkè	Pringles (snack food brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '品客')	6002701
+6002702	品川区	品川區	pǐnchuānqū	Shinagawa	proper noun	地区	District	地方	Places	\N	\N	\N	\N	District of Tokyo (CC-CEDICT '品川區')	6002702
+6002703	品趣志	\N	pǐnqùzhì	Pinterest (photo-sharing website)	proper noun	\N	\N	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '品趣志')	6002703
+6002704	哈伯太空望远镜	哈伯太空望遠鏡	hābó tàikōng wàngyuǎnjìng	Hubble Space Telescope	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈伯太空望遠鏡')	6002704
+6002705	哈伯玛斯	哈伯瑪斯	hābó mǎ sī	Jürgen Habermas	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1929-; German social philosopher (CC-CEDICT '哈伯瑪斯')	6002705
+6002706	哈克贝利·芬历险记	哈克貝利·芬歷險記	hā kè bèi lì fēn lìxiǎn jì	Adventures of Huckleberry Finn by Mark Twain 馬克·吐溫|马克·吐温	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈克貝利·芬歷險記')	6002706
+6002707	哈利·波特	\N	Hālì bō té	Harry Potter, boy wizard in the novels by J.K. Rowling 羅琳|罗琳	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈利·波特')	6002707
+6002708	哈利伯顿	哈利伯頓	Hālì bó dùn	Halliburton (US construction company)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '哈利伯頓')	6002708
+6002709	哈利迪亚	哈利迪亞	Hālì dí yà	Habbaniyah (Iraqi city)	proper noun	城市	City	地方	Places	中东	Middle East	\N	\N	(CC-CEDICT '哈利迪亞')	6002709
+6002710	哈努卡	\N	hānǔkǎ	Hanukkah (Chanukah), 8 day Jewish holiday starting on the 25th day of Kislev (can occur from late Nov up to late Dec on Gregorian calendar)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈努卡')	6002710
+6002711	哈努卡节	哈努卡節	hā nǔ kǎ jié	Hanukkah (Chanukah), 8 day Jewish holiday starting on the 25th day of Kislev (can occur from late Nov up to late Dec on Gregorian calendar)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈努卡節')	6002711
+6002712	哈博罗内	哈博羅內	hā bóluó nèi	Gaborone, capital of Botswana	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '哈博羅內')	6002712
+6002713	哈罗德	哈囉德	hāluódé	Harold, Harald, Harrod (name) / Harrods (department store etc)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '哈囉德')	6002713
+6002714	哈季奇	\N	hājìqí	Goran Hadžić	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1958-; Croatian Serb leader until 1994, indicted war criminal (CC-CEDICT '哈季奇')	6002714
+6002715	哈巴罗夫斯克	哈巴羅夫斯克	hā bā luó fū sī kè	Khabarovsk, far eastern Russian city and province on the border with Heilongjiang province of China	proper noun	城市	City	地方	Places	中国	China	\N	\N	(CC-CEDICT '哈巴羅夫斯克')	6002715
+6002716	哈恩	\N	hāēn	Jaén, Spain	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈恩')	6002716
+6002717	哈拉尔五世	哈拉爾五世	hālā ěr wǔshì	Harald V of Norway	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈拉爾五世')	6002717
+6002718	哈拉雷	\N	hālāléi	Harare, capital of Zimbabwe	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '哈拉雷')	6002718
+6002719	哈梅内伊	哈梅內伊	hā méi nèi yī	Khamenei, Ayatollah Aly	proper noun	\N	\N	历史	History	中东	Middle East	\N	\N	1939-; Supreme Leader of Iran, aka Ali Khamenei (CC-CEDICT '哈梅內伊')	6002719
+6002720	哈尔斯塔	哈爾斯塔	hā ěr sī tǎ	Harstad (city in Norway)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '哈爾斯塔')	6002720
+6002721	哈尔滨工业大学	哈爾濱工業大學	Hā'ěrbīn gōngyè dàxué	Harbin Institute of Technology	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '哈爾濱工業大學')	6002721
+6002722	哈尔滨市	哈爾濱市	Hā'ěrbīn shì	Harbin, subprovincial city and capital of Heilongjiang province 黑龍江|黑龙江 in northeast China	proper noun	城市	City	地方	Places	中国	China	\N	\N	(CC-CEDICT '哈爾濱市')	6002722
+6002723	哈尔登	哈爾登	hāěrdēng	Halden (city in Norway)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '哈爾登')	6002723
+6002724	哈珀	\N	hāpò	Harper (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	See also 斯蒂芬·哈珀 (CC-CEDICT '哈珀')	6002724
+6002725	哈瓦那	\N	hāwǎnà	Havana, capital of Cuba	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '哈瓦那')	6002725
+6002726	哈莉·贝瑞	哈莉·貝瑞	hā lì bèi ruì	Halle Berry	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	1966-; US actress (CC-CEDICT '哈莉·貝瑞')	6002726
+6002727	哈莱姆	哈萊姆	hāláimǔ	Harlem	proper noun	地区	District	地方	Places	美国	United States	\N	\N	District of Manhattan (CC-CEDICT '哈萊姆')	6002727
+6002728	哈蒙德	\N	hāmēngdé	Hammond (surname)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈蒙德')	6002728
+6002729	哈苏	哈蘇	hāsū	Hasselblad (camera manufacturer)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈蘇')	6002729
+6002730	哈西纳	哈西納	hāxīnà	Ms Sheikh Hasina	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1947-; Bangladesh politician, prime minister 1996-2001 and from 2009 (CC-CEDICT '哈西納')	6002730
+6002731	哈贝尔	哈貝爾	hābèiěr	Habel, Haber or Hubbell (name) / Harbel (	proper noun	地名	Place Name	地方	Places	名字	Names	\N	\N	Town in Liberia) (CC-CEDICT '哈貝爾')	6002731
+6002732	哈贝马斯	哈貝馬斯	hā bèi mǎ sī	Jürgen Habermas	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1929-; German social philosopher (CC-CEDICT '哈貝馬斯')	6002732
+6002733	哈迷	\N	hāmí	Harry Potter fan	proper noun	\N	\N	现代汉语	Modern Chinese	俚语	Slang	\N	\N	(CC-CEDICT '哈迷')	6002733
+6002734	哈里斯堡	\N	Hālǐ sī bǎo	Harrisburg, Pennsylvania	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	(CC-CEDICT '哈里斯堡')	6002734
+6002735	哈里森·施密特	\N	Hālǐsēn shīmìté	Harrison Schmitt (Apollo 17 astronaut)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈里森·施密特')	6002735
+6002736	哈灵根	哈靈根	hālínggēn	Harlingen, the Netherlands	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈靈根')	6002736
+6002737	哈马斯	哈馬斯	hāmǎsī	Hamas (radical Palestinian group)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈馬斯')	6002737
+6002738	哈马尔	哈馬爾	hāmǎěr	Hamar	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Town in Norway (CC-CEDICT '哈馬爾')	6002738

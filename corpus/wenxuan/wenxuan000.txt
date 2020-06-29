@@ -26,6 +26,11 @@
     Laments, Literature, Music, and Passions</i>,
     Princeton: Princeton University Press.
   </li>
+  <li>
+    Pollard, David 2002, <i>The Chinese Essay: An Anthology</i>,
+    New York: Columbia University Press, pp. 25-27. Includes a translation of
+    出師表 <i>To Lead out the Army</i> by Zhuge Liang in Scroll 37.
+  </li>
 </p>
 
 <h4>Discussion</h4>
