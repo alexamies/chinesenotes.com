@@ -2736,3 +2736,93 @@
 6002736	哈灵根	哈靈根	hālínggēn	Harlingen, the Netherlands	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈靈根')	6002736
 6002737	哈马斯	哈馬斯	hāmǎsī	Hamas (radical Palestinian group)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哈馬斯')	6002737
 6002738	哈马尔	哈馬爾	hāmǎěr	Hamar	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Town in Norway (CC-CEDICT '哈馬爾')	6002738
+6002739	哥伦布	哥倫布	gēlúnbù	Cristóbal Colón or Christopher Columbus	proper noun	城市	City	地方	Places	\N	\N	\N	\N	1451-1506; /Columbus, capital of Ohio (CC-CEDICT '哥倫布')	6002739
+6002740	哥伦比亚广播公司	哥倫比亞廣播公司	gēlúnbǐyà guǎngbō gōngsī	Columbia Broadcasting System (CBS)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哥倫比亞廣播公司')	6002740
+6002741	哥尼斯堡	\N	gē ní sī bǎo	(until WWII) Königsberg, capital of East Prussia on the Baltic	set phrase	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '哥尼斯堡')	6002741
+6002742	哥德堡	\N	gēdébǎo	Gothenburg (city in Sweden)	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '哥德堡')	6002742
+6002743	哥打巴鲁	哥打巴魯	gē dǎ bā lǔ	Kota Bharu, city in Malaysia on border with Thailand, capital of Kelantan sultanate	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '哥打巴魯')	6002743
+6002744	哥本哈根	\N	gē běn hā gēn	Copenhagen or København, capital of Denmark	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '哥本哈根')	6002744
+6002745	唐宁街	唐寧街	tángníngjiē	Downing Street (London)	proper noun	\N	\N	现代汉语	Modern Chinese	英国	England	\N	\N	(CC-CEDICT '唐寧街')	6002745
+6002746	唐山大地震	\N	tángshān dàdì zhèn	Great Tangshan Earthquake	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1976 (CC-CEDICT '唐山大地震')	6002746
+6002747	唐纳·川普	唐納·川普	Tángnà Chuānpǔ	Donald Trump	phrase	人	Person	历史	History	美国	United States	\N	\N	Taiwanese usage; 1946-; American business magnate, US president 2017- (CC-CEDICT '唐納·川普')	6002747
+6002748	商务汉语考试	商務漢語考試	shāngwù hànyǔ kǎoshì	Business Chinese Test (BCT)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '商務漢語考試')	6002748
+6002749	商汤科技	商湯科技	shāngtāng kējì	SenseTime, artificial intelligence company focused on computer vision and deep learning technologies, founded in Hong Kong in 2014	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '商湯科技')	6002749
+6002750	商科集团	商科集團	shāngkē jítuán	Shangke Corporation, PRC IT company	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	since 1994 (CC-CEDICT '商科集團')	6002750
+6002751	启德机场	啟德機場	qǐ dé jīcháng	Kai Tak Airport, international airport  from 1925 to 1998	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '啟德機場')	6002751
+6002752	启应祈祷	啟應祈禱	qǐ yīng qídǎo	Introitus (section of Catholic mass)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '啟應祈禱')	6002752
+6002753	喀土穆	\N	kātǔmù	Khartoum, capital of Sudan	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '喀土穆')	6002753
+6002754	喀奴特	\N	kānúté	Knuth or Canute (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '喀奴特')	6002754
+6002755	喀尔巴阡山脉	喀爾巴阡山脈	kā ěr bā qiān shānmài	Carpathian Mountains, 1500-km mountain range in Central and Eastern Europe	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '喀爾巴阡山脈')	6002755
+6002756	喀秋莎	\N	kāqiūsuō	Katyusha (name) / name of a Russian wartime song	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '喀秋莎')	6002756
+6002757	善存	\N	shàncún	Centrum (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '善存')	6002757
+6002758	善后借款	善後借款	shànhòu jièkuǎn	reconstruction loan provided by Great Powers to Yuan Shikai in 1913	set phrase	\N	\N	历史	History	\N	\N	\N	\N	(CC-CEDICT '善後借款')	6002758
+6002759	乔冠华	喬冠華	qiáoguānhuá	Qiao Guanhua	proper noun	人	Person	历史	History	中国	China	\N	\N	1913-1973; PRC politician and diplomat (CC-CEDICT '喬冠華')	6002759
+6002760	乔叟	喬叟	qiáosǒu	Geoffrey Chaucer	proper noun	人	Person	现代汉语	Modern Chinese	英国	England	\N	\N	1343-1400; English poet, author of The Canterbury Tales 坎特伯雷故事集 (CC-CEDICT '喬叟')	6002760
+6002761	乔布斯	喬布斯	qiáobùsī	Jobs (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	See also 史蒂夫·乔布斯, Steve Jobs (CC-CEDICT '喬布斯')	6002761
+6002762	乔希	喬希	qiáoxī	Josh or Joshi (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '喬希')	6002762
+6002763	乔治·奥威尔	喬治·奧威爾	qiáozhì ào wēi ěr	George Orwell	proper noun	作者	Author	历史	History	英国	England	\N	\N	1903-1950; British novelist, author of Animal Farm 动物农场 and 1984 (CC-CEDICT '喬治·奧威爾')	6002763
+6002764	乔治·索罗斯	喬治·索羅斯	qiáozhì suǒ luó sī	George Soros or György Schwartz	proper noun	\N	\N	历史	History	美国	United States	\N	\N	1930-; Hungarian American financial speculator and millionaire philanthropist (CC-CEDICT '喬治·索羅斯')	6002764
+6002765	乔治城大学	喬治城大學	qiáozhìchéng dàxué	Georgetown University in Washington D.C., famous as quality Jesuit university and for its basketball team	proper noun	地名	Place Name	教育	Education	体育	Sport	\N	\N	(CC-CEDICT '喬治城大學')	6002765
+6002766	乔红	喬紅	qiáohóng	Qiao Hong	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	1968-; Former PRC female table tennis player (CC-CEDICT '喬紅')	6002766
+6002767	乔纳森	喬納森	qiáonàsēn	Jonathan (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '喬納森')	6002767
+6002768	嘉应大学	嘉應大學	jiā yīng dàxué	Jiaying University (Guangdong)	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '嘉應大學')	6002768
+6002769	嘉柏隆里	\N	jiā bǎi lóng lǐ	Gaborone, capital of Botswana	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '嘉柏隆里')	6002769
+6002770	嘉尔曼	嘉爾曼	jiāěrmàn	Carmen (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '嘉爾曼')	6002770
+6002771	嘎嘎小姐	\N	gá gá xiǎojie	Lady Gaga	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1986-; US pop singer (CC-CEDICT '嘎嘎小姐')	6002771
+6002772	喷气推进实验室	噴氣推進實驗室	pēnqì tuījìn shíyàn shì	Jet Propulsion Laboratory, R&D center in Pasadena, California	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '噴氣推進實驗室')	6002772
+6002773	噶拉·多杰·仁波切	噶拉·多傑·仁波切	gélā duō jié rénbōqiē	Garab Dorje Rinpoche, succession of Buthanese religious leaders	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '噶拉·多傑·仁波切')	6002773
+6002774	囒吨	囒噸	lándūn	old form of London, capital of United Kingdom	noun	城市	City	地方	Places	英国	England	\N	\N	(CC-CEDICT '囒噸')	6002774
+6002775	四一二事变	四一二事變	sìyīèr shìbiàn	the coup of 12th Mar 1927, an attempt by Chiang Kai-shek to suppress the communists	phrase	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '四一二事變')	6002775
+6002776	四一二反革命政变	四一二反革命政變	sìyīèr fǎn gémìng zhèngbiàn	counterrevolutionary coup of 12th April 1927, Chiang Kai-shek's coup against the communists in Shanghai	phrase	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '四一二反革命政變')	6002776
+6002777	四一二惨案	四一二慘案	sìyīèr cǎnàn	the massacre of 12th Mar 1927	phrase	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '四一二慘案')	6002777
+6002778	四个全面	四個全面	sì ge quánmiàn	Four Comprehensives	proper noun	\N	\N	政治	Politics	政治	Politics	\N	\N	political guidelines announced by President Xi Jinping, 2015 (CC-CEDICT '四個全面')	6002778
+6002779	四个现代化	四個現代化	sì ge xiàndàihuà	Deng Xiaoping's four modernizations practiced from the 1980s (possibly planned together with Zhou Enlai), namely: modernization of industry, agriculture, national defense and science and technology	proper noun	\N	\N	现代汉语	Modern Chinese	农业	Agriculture	\N	\N	Abbreviation to 四化 (CC-CEDICT '四個現代化')	6002779
+6002780	四分卫	四分衛	sìfēnwèi	quarterback (QB) (American football)	noun	\N	\N	现代汉语	Modern Chinese	体育	Sport	\N	\N	(CC-CEDICT '四分衛')	6002780
+6002781	四川外国语大学	四川外國語大學	Sìchuān wàiguó yǔ dàxué	Sichuan International Studies University (SISU)	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '四川外國語大學')	6002781
+6002782	四川大地震	\N	Sìchuān dàdì zhèn	Great Sichuan Earthquake	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	2008 (CC-CEDICT '四川大地震')	6002782
+6002783	四清运动	四清運動	sìqīng yùndòng	the Four Cleanups Movement	set phrase	\N	\N	政府	Government	\N	\N	\N	\N	1963-66; Which aimed to cleanse the politics, economy, organization and ideology of the Communist Party (CC-CEDICT '四清運動')	6002783
+6002784	四号电池	四號電池	sì hào diànchí	AAA battery / PRC equivalent: 七號電池|七号电池	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	Taiwanese usage (CC-CEDICT '四號電池')	6002784
+6002785	四项基本原则	四項基本原則	sì xiàng jīběn yuánzé	the Four Cardinal Principles enunciated by Deng Xiaoping 鄧小平|邓小平 in 1979: to uphold the socialist road, the dictatorship of the proletariat, the leadership of the CPC, and Maoism and Marxism-Leninism	phrase	人	Person	政府	Government	中国	China	\N	\N	(CC-CEDICT '四項基本原則')	6002785
+6002786	回良玉	\N	huíliángyù	Hui Liangyu	proper noun	人	Person	历史	History	中国	China	\N	\N	1944-;  PRC Hui national career politician from Guilin, background in economics, politburo member from 2002, deputy chair of State Council from 2003 (CC-CEDICT '回良玉')	6002786
+6002787	因斯布鲁克	因斯布魯克	yīn sī bù lǔ kè	Innsbruck, city in Austria	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '因斯布魯克')	6002787
+6002788	国共	國共	guógòng	Chinese Nationalist Party and Chinese Communist Party	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國共')	6002788
+6002789	国共两党	國共兩黨	guó gòng liǎng dǎng	Guomindang and Chinese Communist Party	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國共兩黨')	6002789
+6002790	国务院国有资产监督管理委员会	國務院國有資產監督管理委員會	Guówù Yuàn Guóyǒu Zīchǎn Jiāndū Guǎnlǐ Wěiyuánhuì	State-owned Assets Supervision and Administration Commission of State Council (SASAC)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	Abbreviation to 国资委 (CC-CEDICT '國務院國有資產監督管理委員會')	6002790
+6002791	国务院新闻办公室	國務院新聞辦公室	Guówù Yuàn xīnwén bàngōngshì	State Council Information Office of the People's Republic of China	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國務院新聞辦公室')	6002791
+6002792	国务院法制局	國務院法制局	Guówù Yuàn fǎzhì jú	State Council Legislative Affairs Bureau (PRC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國務院法制局')	6002792
+6002793	国务院港澳事务办公室	國務院港澳事務辦公室	Guówù Yuàn gǎngào shìwù bàngōngshì	Hong Kong and Macao Affairs Office (State Council, of PRC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國務院港澳事務辦公室')	6002793
+6002794	国土安全部	國土安全部	guótǔ ānquán bù	(US) Department of Homeland Security	phrase	\N	\N	政府	Government	美国	United States	\N	\N	(CC-CEDICT '國土安全部')	6002794
+6002795	国土资源部	國土資源部	guótǔ zīyuán bù	Ministry of Land and Resources (MLR), formed in 1998	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國土資源部')	6002795
+6002796	国安部	國安部	guóānbù	PRC Ministry of State Security	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation for 国家安全部 (CC-CEDICT '國安部')	6002796
+6002797	国家互联网信息办公室	國家互聯網信息辦公室	guójiā Hùliánwǎng xìnxī bàngōngshì	Cyberspace Administration of China (CAC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家互聯網信息辦公室')	6002797
+6002798	国家外汇管理局	國家外匯管理局	guójiā wàihuì guǎnlǐ jú	State Administration of Foreign Exchange (SAFE)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國家外匯管理局')	6002798
+6002799	国家安全局	國家安全局	guójiā ānquán jú	National Security Bureau (NSB) / National Security Agency (NSA) (USA)	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	Taiwanese usage (CC-CEDICT '國家安全局')	6002799
+6002800	国家安全部	國家安全部	guójiā ānquán bù	PRC Ministry of State Security	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家安全部')	6002800
+6002801	国家文物委员会	國家文物委員會	guójiā wénwù wěiyuánhuì	National Committee of Cultural Heritage	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國家文物委員會')	6002801
+6002802	国家文物鉴定委员会	國家文物鑒定委員會	guójiā wénwù jiàndìng wěiyuánhuì	National Commission for the Identification of Cultural Heritage	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國家文物鑒定委員會')	6002802
+6002803	国家新闻出版广电总局	國家新聞出版廣電總局	guójiā xīnwén chūbǎn guǎngdiàn zǒngjú	State Administration for Press, Publication, Radio, Film and Television (SAPPRFT)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	Abbreviation to 广电总局 (CC-CEDICT '國家新聞出版廣電總局')	6002803
+6002804	国家旅游度假区	國家旅遊度假區	guójiā lǚyóu dùjiàqū	National Resort District (PRC)	proper noun	地区	District	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家旅遊度假區')	6002804
+6002805	国家标准化管理委员会	國家標準化管理委員會	Guójiā Biāozhǔn huà guǎnlǐ wěiyuánhuì	Standardization Administration of PRC (SAC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家標準化管理委員會')	6002805
+6002806	国家海洋局	國家海洋局	guójiā hǎiyáng jú	State Oceanic Administration (PRC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家海洋局')	6002806
+6002807	国家汉办	國家漢辦	guójiā hàn bàn	Office of Chinese Language Council International (known colloquially as Hanban), an organ of the PRC government which develops Chinese language and culture teaching resources worldwide, and has established Confucius Institutes  internationally	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation to 汉办 (CC-CEDICT '國家漢辦')	6002807
+6002808	国家火山公园	國家火山公園	guójiā huǒshān gōngyuán	Volcanoes National Park, Hawaii	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國家火山公園')	6002808
+6002809	国家留学基金管理委员会	國家留學基金管理委員會	guójiā liúxué jījīn guǎnlǐ wěiyuánhuì	China Scholarship Council (CSC)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '國家留學基金管理委員會')	6002809
+6002810	国家发展和改革委员会	國家發展和改革委員會	guójiā fāzhǎn hé gǎigé wěiyuánhuì	PRC National Development and Reform Commission (NDRC), formed in 2003	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家發展和改革委員會')	6002810
+6002811	国家发展计划委员会	國家發展計劃委員會	guójiā fāzhǎn jìhuà wěiyuánhuì	PRC State Development and Planning Committee, set up 1998 to replace State Planning Committee 國家計劃委員會|国家计划委员会, replaced in 2003 by National Development and Reform Commission 國家發展和改革委員會|国家发展和改革委员会	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家發展計劃委員會')	6002811
+6002812	国家监察委员会	國家監察委員會	guójiā jiānchá wěiyuánhuì	National Supervision Commission of the PRC, anti-corruption agency established in 2018	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家監察委員會')	6002812
+6002813	国家经济贸易委员会	國家經濟貿易委員會	guójiā jīngjì màoyì wěiyuánhuì	State Economic and Trade Commission (SETC)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國家經濟貿易委員會')	6002813
+6002814	国家航天局	國家航天局	guójiā hángtiānjú	China National Space Administration (CNSA)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家航天局')	6002814
+6002815	国家计划委员会	國家計劃委員會	guójiā jìhuà wěiyuánhuì	PRC State Planning Committee, set up in 1952, replaced in 1998 by State Development and Planning Committee 國家發展計劃委員會|国家发展计划委员会[Guo2 jia1 Fa1 zhan3 Ji4 hua4 Wei3 yuan2 hui4] then in 2003 by National Development and Reform Commission 國家發展和改革委員會|国家发展和改革委员会	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '國家計劃委員會')	6002815
+6002816	国家计委	國家計委	guójiā jì wěi	PRC State Planning Committee	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation for 国家计划委员会 (CC-CEDICT '國家計委')	6002816
+6002817	国家质量监督检验检疫总局	國家質量監督檢驗檢疫總局	guójiā zhìliàng jiāndū jiǎnyàn jiǎnyì zǒngjú	AQSIQ / PRC State Administration of Quality Supervision, Inspection and Quarantine	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家質量監督檢驗檢疫總局')	6002817
+6002818	国家军品贸易局	國家軍品貿易局	guójiā jūnpǐn màoyì jú	State Bureau of Military Products Trade (SBMPT)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國家軍品貿易局')	6002818
+6002819	国家军品贸易管理委员会	國家軍品貿易管理委員會	guójiā jūnpǐn màoyì guǎnlǐ wěiyuánhuì	State Administration Committee on Military Products Trade (SACMPT)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國家軍品貿易管理委員會')	6002819
+6002820	国家重点学科	國家重點學科	guójiā zhòngdiǎn xuékē	National Key Disciplines (disciplines recognized as important and supported by PRC central government, including medicine, science, chemistry, engineering, commerce and law)	proper noun	人	Person	政府	Government	化学	Chemistry	\N	\N	(CC-CEDICT '國家重點學科')	6002820
+6002821	国家重点实验室	國家重點實驗室	guójiā zhòngdiǎn shíyàn shì	State Key Laboratories (university laboratories in PRC supported by the central government)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家重點實驗室')	6002821
+6002822	国家电力监管委员会	國家電力監管委員會	guójiā diànlì jiānguǎn wěiyuánhuì	State Electricity Regulatory Commission (PRC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家電力監管委員會')	6002822
+6002823	国家电网公司	國家電網公司	guójiā diànwǎng gōngsī	State Grid Corporation of China	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '國家電網公司')	6002823
+6002824	国家体委	國家體委	guójiā tǐ wěi	PRC sports and physical culture commission	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '國家體委')	6002824
+6002825	国情咨文	國情咨文	guóqíng zīwén	State of the Union Address (US)	proper noun	\N	\N	现代汉语	Modern Chinese	美国	United States	\N	\N	(CC-CEDICT '國情咨文')	6002825
+6002826	国新办	國新辦	guóxīnbàn	State Council Information Office of the People's Republic of China	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation for 国务院新闻办公室 (CC-CEDICT '國新辦')	6002826
+6002827	国民警卫队	國民警衛隊	guómín jǐngwèi duì	National Guard (United States)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國民警衛隊')	6002827
+6002828	宾州	賓州	bīnzhōu	Pennsylvania	proper noun	州	State	地方	Places	美国	United States	\N	\N	An abbreviation for 宾夕法尼亚州 (CC-CEDICT '賓州')	6002828

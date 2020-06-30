@@ -38,3 +38,4 @@
 5000038	同一个世界，同一个梦想	同一個世界，同一個夢想	tóngyī ge shìjiè, tóngyī ge mèngxiǎng	One world - one dream, motto of 2008 Beijing Olympic games	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '同一個世界，同一個夢想')	5000038
 5000039	吾生也有涯，而知也无涯	吾生也有涯，而知也無涯	wú shēng yě yǒu yá, ér zhī yě wú yá	Life is short, learning is limitless / Ars longa, vita brevis	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '吾生也有涯，而知也無涯')	5000039
 5000040	和平共处五项原则	和平共處五項原則	hépíng gòng chǔ wǔ xiàng yuánzé	Zhou Enlai's Five Principles of Peaceful Coexistence	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '和平共處五項原則')	5000040
+5000041	善有善报，恶有恶报，若然不报时晨未到	善有善報，惡有惡報，若然不報時晨未到	shàn yǒu shàn bào, è yǒu è bào, ruòrán bù bàoshí chén wèi dào	Good has its reward and evil has its recompense. The payback is just a matter of time	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '善有善報，惡有惡報，若然不報時晨未到')	5000041
