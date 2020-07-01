@@ -308,4 +308,5 @@
 3000308	修祜	\N	xiū hù	blessings for a long time	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 千字文 <i>Thousand Character Classic</i> (Wu and Tee 2015, loc. 3221)	3000308
 3000309	脩祜	\N	xiū hù	blessings for a long time	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 千字文 <i>Thousand Character Classic</i> (Wu and Tee 2015, loc. 3221)	3000309
 3000310	先天下之忧而忧，后天下之乐而乐	先天下之憂而憂，後天下之樂而樂	xiāntiān xià zhī yōu ér yōu, hòutiān xià zhī lè ér lè	The first concern is affairs of state, enjoying the pleasure comes later. 	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quotation from essay On Yueyang Tower 岳阳楼记 by Song writer Fan Zhongyan 范仲淹 (CC-CEDICT '先天下之憂而憂，後天下之樂而樂')	3000310
-3000311	未半	\N	wèi bàn	less than half	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, pp. 25-26)	3000311
+3000311	未半	\N	wèi bàn	less than half	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, pp. 25-26)	3000311
+3000312	忠志	\N	zhōng zhì	loyal and principled	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000312

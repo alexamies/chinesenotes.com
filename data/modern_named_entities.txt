@@ -2826,3 +2826,83 @@
 6002826	国新办	國新辦	guóxīnbàn	State Council Information Office of the People's Republic of China	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation for 国务院新闻办公室 (CC-CEDICT '國新辦')	6002826
 6002827	国民警卫队	國民警衛隊	guómín jǐngwèi duì	National Guard (United States)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國民警衛隊')	6002827
 6002828	宾州	賓州	bīnzhōu	Pennsylvania	proper noun	州	State	地方	Places	美国	United States	\N	\N	An abbreviation for 宾夕法尼亚州 (CC-CEDICT '賓州')	6002828
+6002829	纽约州	紐約州	niǔyuē zhōu	New York state	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '紐約州')	6002829
+6002830	新泽西	新澤西	xīnzéxī	New Jersey	proper noun	州	State	地方	Places	美国	United States	\N	\N	US state (CC-CEDICT '新澤西')	6002830
+6002831	国民议会	國民議會	guómín yìhuì	Assemblée nationale (French lower chamber) / national parliament	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '國民議會')	6002831
+6002832	国漫	國漫	guómàn	Chinese comics	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '國漫')	6002832
+6002833	国立台北科技大学	國立臺北科技大學	guólì Táiběi kējì dàxué	National Taipei University of Technology	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '國立臺北科技大學')	6002833
+6002834	国立台湾技术大学	國立臺灣技術大學	guólì Táiwān jìshù dàxué	National Taiwan University of Science and Technology	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '國立臺灣技術大學')	6002834
+6002835	国立西南联合大学	國立西南聯合大學	guólì xīnán liánhé dàxué	National Southwest Combined University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	Peking, Tsinghua and Nankai Universities in exile in Kunming 1937-1945 (CC-CEDICT '國立西南聯合大學')	6002835
+6002836	国立首尔大学	國立首爾大學	guólì Shǒu'ěr dàxué	Seoul National University SNU	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '國立首爾大學')	6002836
+6002837	国美电器	國美電器	guóměi diànqì	GOME Electrical Appliances	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	founded in Beijing, 1987 (CC-CEDICT '國美電器')	6002837
+6002838	国联	國聯	guólián	League of Nations	noun	\N	\N	历史	History	\N	\N	\N	\N	1920-1946; Based in Geneva, precursor of the UN; abbr. for 国际联盟,  (CC-CEDICT '國聯')	6002838
+6002839	国关	國關	guóguān	abbr. for 國際關係學院|国际关系学院, University of International Relations, Beijing	adjective	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '國關')	6002839
+6002840	国防科学技术工业委员会	國防科學技術工業委員會	guófáng kēxué jìshù gōngyè wěiyuánhuì	Commission for Science, Technology and Industry for National Defense (COSTIND)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	Abbreviation to 国防科工委 (CC-CEDICT '國防科學技術工業委員會')	6002840
+6002841	国防语言学院	國防語言學院	guófáng yǔyánxué yuàn	US Defense Language Institute	proper noun	\N	\N	历史	History	美国	United States	\N	\N	founded 1941 (CC-CEDICT '國防語言學院')	6002841
+6002842	国际先驱论坛报	國際先驅論壇報	guójì xiānqū lùntánbào	International Herald Tribune	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際先驅論壇報')	6002842
+6002843	国际共产主义运动	國際共產主義運動	guójì gòngchǎn zhǔyì yùndòng	Comintern / the international communist movement	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際共產主義運動')	6002843
+6002844	国际刑事警察组织	國際刑事警察組織	guójì xíngshì jǐngchá zǔzhī	International Criminal Police Organization (Interpol)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際刑事警察組織')	6002844
+6002845	国际原子能机构	國際原子能機構	guójì yuánzǐ néng jīgòu	International Atomic Energy Agency (IAEA)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國際原子能機構')	6002845
+6002846	国际商业机器	國際商業機器	guójì shāngyè jīqì	International Business Machines / IBM	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際商業機器')	6002846
+6002847	国际战争罪法庭	國際戰爭罪法庭	guójì zhànzhēngzuì fǎtíng	International war crimes tribunal	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際戰爭罪法庭')	6002847
+6002848	国际文传通讯社	國際文傳通訊社	guójì wén chuán tōngxùn shè	Interfax News Agency	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國際文傳通訊社')	6002848
+6002849	国际文传电讯社	國際文傳電訊社	guójì wén chuán diànxùn shè	Interfax, Russian non-governmental news agency	proper noun	\N	\N	政府	Government	欧洲	Europe	\N	\N	(CC-CEDICT '國際文傳電訊社')	6002849
+6002850	国际标准化组织	國際標準化組織	guójì biāozhǔnhuà zǔzhī	International Organization for Standardization (ISO)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際標準化組織')	6002850
+6002851	国际田径联合会	國際田徑聯合會	guójì tiánjìng liánhéhuì	International Association of Athletics Federations (IAAF)	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	Abbreviation to 国际田联 (CC-CEDICT '國際田徑聯合會')	6002851
+6002852	国际米兰足球俱乐部	國際米蘭足球俱樂部	guójì Mǐlán zúqiú jùlèbù	FC Internazionale Milano (football club)	proper noun	\N	\N	现代汉语	Modern Chinese	体育	Sport	\N	\N	(CC-CEDICT '國際米蘭足球俱樂部')	6002852
+6002853	国际羽毛球联合会	國際羽毛球聯合會	guójì yǔmáo qiú liánhéhuì	International Badminton Federation	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際羽毛球聯合會')	6002853
+6002854	国际肿瘤研究机构	國際腫瘤研究機構	guójì zhǒngliú yánjiūjīgòu	International Agency for Research on Cancer (IARC)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國際腫瘤研究機構')	6002854
+6002855	国际航空联合会	國際航空聯合會	guójì hángkōng liánhéhuì	Fédération Aéronautique Internationale (FAI), world body of gliding and aeronautic sports	proper noun	\N	\N	现代汉语	Modern Chinese	体育	Sport	\N	\N	(CC-CEDICT '國際航空聯合會')	6002855
+6002856	国际航空运输协会	國際航空運輸協會	guójì hángkōng yùnshū xiéhuì	International Air Transport Association (IATA)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際航空運輸協會')	6002856
+6002857	国际货币基金组织	國際貨幣基金組織	guójì huòbì jījīn zǔzhī	International Monetary Fund (IMF)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際貨幣基金組織')	6002857
+6002858	国际足球联合会	國際足球聯合會	guójì zúqiú liánhéhuì	FIFA / International Federation of Association Football	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際足球聯合會')	6002858
+6002859	国际金融公司	國際金融公司	guójì jīnróng gōngsī	International Finance Corporation	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '國際金融公司')	6002859
+6002860	国际电报电话咨询委员会	國際電報電話咨詢委員會	guójì diànbào diànhuà zīxúnwěiyuán huì	International Telegraph and Telephone Consultative Committee (CCITT)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國際電報電話咨詢委員會')	6002860
+6002861	国际体操联合会	國際體操聯合會	guójì tǐcāo liánhéhuì	Fédération Internationale de Gymnastique	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際體操聯合會')	6002861
+6002862	图坦卡门	圖坦卡門	tú tǎn kǎmén	Tutankhamen, king of ancient Egypt 1333-1323 BC	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '圖坦卡門')	6002862
+6002863	图林根	圖林根	túlíngēn	Thuringia (state in Germany)	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '圖林根')	6002863
+6002864	图波列夫	圖波列夫	tú bō liè fū	Tupolev, Russian plane maker	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '圖波列夫')	6002864
+6002865	图尔	圖爾	túěr	Tours (city in France)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '圖爾')	6002865
+6002866	图卢斯	圖盧斯	túlúsī	Toulouse (France)	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '圖盧斯')	6002866
+6002867	图卢兹	圖盧茲	túlúzī	Toulouse (city in France)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '圖盧茲')	6002867
+6002868	图西族	圖西族	túxīzú	Tutsi, an ethnic group in Rwanda and Burundi	proper noun	民族	Ethnic Group	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '圖西族')	6002868
+6002869	土伦	土倫	tǔlún	Toulon (city in France)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '土倫')	6002869
+6002870	土库曼	土庫曼	tǔkùmàn	Turkmenistan / Republic of Turkmenistan, former Soviet republic adjoining Iran	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '土庫曼')	6002870
+6002871	土澳	\N	tǔào	Australia (slang term reflecting a perception of Australia as something of a backwater)	proper noun	\N	\N	现代汉语	Modern Chinese	俚语	Slang	\N	\N	(CC-CEDICT '土澳')	6002871
+6002872	土耳其旋转烤肉	土耳其旋轉烤肉	tǔ'ěrqí xuánzhuǎn kǎoròu	Turkish döner kebab	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '土耳其旋轉烤肉')	6002872
+6002873	土豆网	土豆網	tǔdòuwǎng	Tudou, a Chinese video-sharing website	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '土豆網')	6002873
+6002874	地拉那	\N	dìlānà	Tirana, capital of Albania	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '地拉那')	6002874
+6002875	地产大亨	地產大亨	dìchǎn dàhēng	Monopoly (game) / known as 大富翁 in PRC	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '地產大亨')	6002875
+6002876	坂井	\N	bǎnjǐng	Sakai (Japanese surname and place name)	proper noun	地名	Place Name	地方	Places	日本	Japan	\N	\N	(CC-CEDICT '坂井')	6002876
+6002877	坂本	\N	bǎnběn	Sakamoto (Japanese surname)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '坂本')	6002877
+6002878	坎塔布连	坎塔布連	kǎntǎbùlián	Cantabria in north Spain	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '坎塔布連')	6002878
+6002879	坎塔布连山脉	坎塔布連山脈	kǎntǎbùlián shānmài	Cantabrian mountain range in north Spain dividing Asturias from Castilla-Leon	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '坎塔布連山脈')	6002879
+6002880	坎大哈	\N	kǎndàhā	Kandahar (	proper noun	地名	Place Name	地方	Places	亚洲	Asia	\N	\N	Town in Southern Afghanistan) (CC-CEDICT '坎大哈')	6002880
+6002881	坎大哈省	\N	kǎn dà hā shěng	Kandahar province of Afghanistan	proper noun	地名	Place Name	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '坎大哈省')	6002881
+6002882	坎特伯雷故事集	\N	kǎn té bó léi gùshi jí	The Canterbury Tales, collection of stories by Geoffrey Chaucer 喬叟|乔叟	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '坎特伯雷故事集')	6002882
+6002883	坎贝尔	坎貝爾	kǎnbèiěr	Campbell (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '坎貝爾')	6002883
+6002884	坦佩雷	\N	tǎnpèiléi	Tampere (Swedish Tammerfors), Finland's second city	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '坦佩雷')	6002884
+6002885	坦噶尼喀	\N	tǎn gé ní kā	Tanganyika on continent of West Africa, one component of Tanzania	proper noun	\N	\N	现代汉语	Modern Chinese	非洲	Africa	\N	\N	(CC-CEDICT '坦噶尼喀')	6002885
+6002886	坦尚尼亚	坦尚尼亞	tǎn shàng ní yà	Tanzania	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '坦尚尼亞')	6002886
+6002887	埃克托	\N	āikètuō	Hector (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '埃克托')	6002887
+6002888	埃加迪群岛	埃加迪群島	āi jiā dí qúndǎo	Aegadian Islands near Sicily, Italy	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '埃加迪群島')	6002888
+6002889	埃及古物学	埃及古物學	aījí gǔwù xué	Egyptology	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '埃及古物學')	6002889
+6002890	埃及古物学者	埃及古物學者	aījí gǔwù xuézhě	Egyptologist	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '埃及古物學者')	6002890
+6002891	埃因霍温	埃因霍溫	āi yīn huò wēn	Eindhoven (city in the Netherlands)	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '埃因霍溫')	6002891
+6002892	埃塞俄比亚界	埃塞俄比亞界	aīsàiébǐyà jiè	Ethiopian Zone, aka Afrotropical realm	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '埃塞俄比亞界')	6002892
+6002893	埃奥罗斯	埃奧羅斯	āi ào luó sī	Aeolus, Greek God of winds	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '埃奧羅斯')	6002893
+6002894	埃居	\N	āijū	écu (French coin, discontinued by the end of the 18th century)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '埃居')	6002894
+6002895	埃布罗	埃布羅	āibùluó	Ebro river (in northeast Spain)	proper noun	水名	River	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '埃布羅')	6002895
+6002896	埃布罗河	埃布羅河	āibùluóhé	Ebro River (in northeast Spain)	proper noun	水名	River	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '埃布羅河')	6002896
+6002897	埃弗顿	埃弗頓	āifúdùn	Everton (	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Town in northwest England (CC-CEDICT '埃弗頓')	6002897
+6002898	埃德·米利班德	\N	āidé mǐlìbāndé	Ed Milliband, UK labor politician, opposition leader from 2010	proper noun	人	Person	政治	Politics	英国	England	\N	\N	(CC-CEDICT '埃德·米利班德')	6002898
+6002899	埃德蒙顿	埃德蒙頓	āidé mēng dùn	Edmonton, capital of Alberta, Canada	proper noun	城市	City	地方	Places	北美	North America	\N	\N	(CC-CEDICT '埃德蒙頓')	6002899
+6002900	埃拉托塞尼斯	\N	āi lā tuō sāi ní sī	Eratosthenes of Cyrene	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	c. 276-c. 195 BC; Ancient Greek mathematician and inventor (CC-CEDICT '埃拉托塞尼斯')	6002900
+6002901	埃拉特	\N	āilāté	Eilat, Israeli port and resort on the Red sea	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '埃拉特')	6002901
+6002902	埃文河畔斯特拉特福	\N	āiwén hépàn sī té lā té fú	Stratford-upon-Avon	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '埃文河畔斯特拉特福')	6002902
+6002903	埃文茅斯	\N	āiwén máo sī	Avonmouth in southwest England	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Same as the Bristol channel 布里斯托尔海峡 (CC-CEDICT '埃文茅斯')	6002903
+6002904	埃斯库多	埃斯庫多	āi sī kù duō	escudo (Spanish and Portugese: shield), former currency of Portugal and other countries	set phrase	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '埃斯庫多')	6002904
+6002905	埃斯库罗斯	埃斯庫羅斯	āi sī kù luó sī	Aeschylus	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	c. 524 BC -c. 455 BC; Greek tragedian, author of The Persians, Seven against Thebes etc (CC-CEDICT '埃斯庫羅斯')	6002905
+6002906	埃斯特哈齐	埃斯特哈齊	āisītéhāqí	Esterhazy (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '埃斯特哈齊')	6002906
+6002907	埃格尔松	埃格爾松	āigé'ěrsōng	Egersund (city in Norway)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '埃格爾松')	6002907
+6002908	埃森	\N	āisēn	Essen, city in the Ruhr Germany	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '埃森')	6002908

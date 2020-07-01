@@ -39,3 +39,6 @@
 5000039	吾生也有涯，而知也无涯	吾生也有涯，而知也無涯	wú shēng yě yǒu yá, ér zhī yě wú yá	Life is short, learning is limitless / Ars longa, vita brevis	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '吾生也有涯，而知也無涯')	5000039
 5000040	和平共处五项原则	和平共處五項原則	hépíng gòng chǔ wǔ xiàng yuánzé	Zhou Enlai's Five Principles of Peaceful Coexistence	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '和平共處五項原則')	5000040
 5000041	善有善报，恶有恶报，若然不报时晨未到	善有善報，惡有惡報，若然不報時晨未到	shàn yǒu shàn bào, è yǒu è bào, ruòrán bù bàoshí chén wèi dào	Good has its reward and evil has its recompense. The payback is just a matter of time	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '善有善報，惡有惡報，若然不報時晨未到')	5000041
+5000042	图样图森破	圖樣圖森破	túyàng túsēn pò	to have a simplistic view of sth	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Internet slang (CC-CEDICT '圖樣圖森破')	5000042
+5000043	团结就是力量	團結就是力量	tuánjié jiùshì lìliang	unity is strength	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	revolutionary slogan and popular song of 1943 (CC-CEDICT '團結就是力量')	5000043
+5000044	在天愿做比翼鸟，在地愿做连理枝	在天願做比翼鳥，在地願做連理枝	zài tiān yuàn zuò bìyì niǎo, zàidì yuàn zuò liánlǐ zhī	In the sky to be two birds flying wing to wing, on earth to be two trees with branches intertwined	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '在天願做比翼鳥，在地願做連理枝')	5000044
