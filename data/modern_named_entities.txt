@@ -2906,3 +2906,90 @@
 6002906	埃斯特哈齐	埃斯特哈齊	āisītéhāqí	Esterhazy (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '埃斯特哈齊')	6002906
 6002907	埃格尔松	埃格爾松	āigé'ěrsōng	Egersund (city in Norway)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '埃格爾松')	6002907
 6002908	埃森	\N	āisēn	Essen, city in the Ruhr Germany	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '埃森')	6002908
+6002909	宾夕法法亚州	賓夕法法亞州	bīnxīfǎfǎyà zhōu	Pennsylvania	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '賓夕法法亞州')	6002909
+6002910	埃森哲	\N	āisēnzhé	Accenture (company)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '埃森哲')	6002910
+6002911	埃森纳赫	埃森納赫	āisēnnàhè	Eisenach (German city)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '埃森納赫')	6002911
+6002912	埃尔南德斯	埃爾南德斯	āi'ěrnándésī	Hernández (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '埃爾南德斯')	6002912
+6002913	埃尔多安	埃爾多安	āi;ěrduō'ān	Erdogan (name) / Recep Tayyip Erdoğan	proper noun	人	Person	历史	History	名字	Names	\N	\N	1954-; Turkish politician, prime minister from 2003 (CC-CEDICT '埃爾多安')	6002913
+6002914	埃尔福特	埃爾福特	āi'ěrfúté	Erfurt (German city)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '埃爾福特')	6002914
+6002915	埃尔维斯·普雷斯利	埃爾維斯·普雷斯利	āi'ěrwéisī pǔléisīlì	Elvis Presley	proper noun	人	Person	戏剧	Drama	美国	United States	\N	\N	1935-1977; US pop singer and film star (CC-CEDICT '埃爾維斯·普雷斯利')	6002915
+6002916	埃特纳火山	埃特納火山	āiténà huǒshān	Mt Etna, volcano in Italy	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '埃特納火山')	6002916
+6002917	埃琳娜	\N	āilínnà	Elena (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '埃琳娜')	6002917
+6002918	埃里温	埃里溫	āilǐwēn	Yerevan, capital of Armenia 亞美尼亞|亚美尼亚	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '埃里溫')	6002918
+6002919	埃隆·马斯克	埃隆·馬斯克	āilóng mǎsīkè	Elon Musk	proper noun	人	Person	商务	Commerce	\N	\N	\N	\N	1971-; Founder and CEO of SpaceX, co-founder and CEO of Tesla Motors (CC-CEDICT '埃隆·馬斯克')	6002919
+6002920	城市管理行政执法局	城市管理行政執法局	chéngshì guǎnlǐ xíngzhèng zhífǎ jú	City Urban Administrative and Law Enforcement Bureau (PRC)	proper noun	城市	City	地方	Places	中国	China	\N	\N	(CC-CEDICT '城市管理行政執法局')	6002920
+6002921	城市运动会	城市運動會	chéngshì yùndòng huì	National Intercity Games, Chinese athletics competition, organized every four years since 1988	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '城市運動會')	6002921
+6002922	培亚	培亞	péiyà	Praia, capital of Cape Verde	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '培亞')	6002922
+6002923	培勒兹	培勒茲	péilēizī	Perez (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '培勒茲')	6002923
+6002924	基加利	\N	jījiālì	Kigali, capital of Rwanda	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '基加利')	6002924
+6002925	基希讷乌	基希訥烏	jī xī nè wū	Chişinău or Chisinau, capital of Moldova	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '基希訥烏')	6002925
+6002926	基拉韦厄	基拉韋厄	jīlāwéi'è	Kilauea, Hawaii	proper noun	\N	\N	地方	Places	美国	United States	\N	\N	(CC-CEDICT '基拉韋厄')	6002926
+6002927	基尔	基爾	jīěr	Kiel (German city)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '基爾')	6002927
+6002928	基督教民主联盟	基督教民主聯盟	jīdūjiào mínzhǔ liánméng	Christian Democratic Union (German political party)	proper noun	\N	\N	政治	Politics	基督教	Christianity	\N	\N	(CC-CEDICT '基督教民主聯盟')	6002928
+6002929	基督圣体节	基督聖體節	jīdū shèngtǐ jié	Corpus Christi (Catholic festival on second Thursday after Whit Sunday)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '基督聖體節')	6002929
+6002930	基西纽	基西紐	jīxīniǔ	Chișinău (aka Kishinev), capital of Moldova	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '基西紐')	6002930
+6002931	基辅	基輔	jīfǔ	Kiev, capital of Ukraine	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '基輔')	6002931
+6002932	堪察加	\N	kānchájiā	Kamchatka (peninsula in far eastern Russia)	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '堪察加')	6002932
+6002933	堪察加半岛	堪察加半島	kān chá jiā bàndǎo	Kamchatka Peninsula, far-eastern Russia	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '堪察加半島')	6002933
+6002934	堪萨斯	堪薩斯	kānsàsī	Kansas, US state	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '堪薩斯')	6002934
+6002935	堪萨斯州	堪薩斯州	kān sàsī zhōu	Kansas, US state	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '堪薩斯州')	6002935
+6002936	塔希提	\N	tǎxītí	Tahiti, island of the Society Islands group in French Polynesia	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '塔希提')	6002936
+6002937	塔扎	\N	tǎzhā	Taza (a city in northern Morocco)	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '塔扎')	6002937
+6002938	塔拉哈西	\N	tǎlā hā xī	Tallahassee, capital of Florida	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '塔拉哈西')	6002938
+6002939	塔拉瓦	\N	tǎlāwǎ	Tarawa, capital of Kiribati	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '塔拉瓦')	6002939
+6002940	塔斯社	\N	tǎsīshè	TASS / Information Telegraph Agency of Russia	proper noun	\N	\N	政府	Government	欧洲	Europe	\N	\N	(CC-CEDICT '塔斯社')	6002940
+6002941	塔玛尔	塔瑪爾	tǎmǎěr	Tamar (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '塔瑪爾')	6002941
+6002942	塔瓦斯科	\N	tǎ wǎsī kē	Tabasco (south Mexican state)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '塔瓦斯科')	6002942
+6002943	塔迪奇	\N	tǎdíqí	Tadich (name) / Boris Tadić	proper noun	人	Person	历史	History	名字	Names	\N	\N	1958-; Serbian politician, president from 2004 (CC-CEDICT '塔迪奇')	6002943
+6002944	塔那那利佛	\N	tǎ nà nà lì fó	Antananarivo, capital of Madagascar	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '塔那那利佛')	6002944
+6002945	塞勒姆	\N	sāilēimǔ	Salem, capital of Oregon / Salem, city in Massachusets / Salem, city in India	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '塞勒姆')	6002945
+6002946	塞哥维亚	塞哥維亞	sāi gē wéi yà	Segovia, Spain	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '塞哥維亞')	6002946
+6002947	塞巴斯蒂安	\N	sāi bāsī dì ān	Sebastian (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '塞巴斯蒂安')	6002947
+6002948	塞拉耶佛	\N	sāi lā yé fó	Sarajevo, capital of Bosnia and Herzegovina	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '塞拉耶佛')	6002948
+6002949	塞斯纳	塞斯納	sāisīnà	Cessna (US aviation company)	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '塞斯納')	6002949
+6002950	塞尔南	塞爾南	sāiěrnán	Eugene Cernan	proper noun	\N	\N	历史	History	美国	United States	\N	\N	1934-; US astronaut in Apollo 10 and Apollo 17 missions, last man on the moon (CC-CEDICT '塞爾南')	6002950
+6002951	塞尔维亚克罗地亚语	塞爾維亞克羅地亞語	Sāi'ěrwéiyà Kèluódìyà yǔ	Serbo-Croatian	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '塞爾維亞克羅地亞語')	6002951
+6002952	塞尔维亚和黑山	塞爾維亞和黑山	Sāi'ěrwéiyà hé Hēishān	Serbia and Montenegro	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	after break-up of Yugoslavia in 1992 (CC-CEDICT '塞爾維亞和黑山')	6002952
+6002953	塞尔达	塞爾達	sāiěrdá	Zelda (in Legend of Zelda video game)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '塞爾達')	6002953
+6002954	塞维利亚	塞維利亞	sāi wéi lì yà	Sevilla, Spain	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '塞維利亞')	6002954
+6002955	塞缪尔	塞繆爾	sāimiàoěr	Samuel (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '塞繆爾')	6002955
+6002956	墨累	\N	mòlèi	Murray (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '墨累')	6002956
+6002957	墨累达令流域	墨累達令流域	mò lèi dálìng liúyù	Murray-Darling river system in the southeast of Australia	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '墨累達令流域')	6002957
+6002958	墨西哥城	\N	mòxīgē chéng	Mexico City, capital of Mexico	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '墨西哥城')	6002958
+6002959	垒固	壘固	lěigù	Loi-kaw, capital of Kaya state, Myanmar	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '壘固')	6002959
+6002960	士丹利	\N	shìdānlì	Stanley (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '士丹利')	6002960
+6002961	寿保险公司	壽保險公司	shòu bǎoxiǎn gōngsī	life insurance company	phrase	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '壽保險公司')	6002961
+6002962	夏威夷	\N	xiàwēiyí	Hawaii, US state	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '夏威夷')	6002962
+6002963	夏威夷岛	夏威夷島	xiàwēiyí dǎo	Hawaii island	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '夏威夷島')	6002963
+6002964	夏威夷州	\N	xiàwēiyí zhōu	Hawaii, US state	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '夏威夷州')	6002964
+6002965	夏威夷火山国家公园	夏威夷火山國家公園	xiàwēiyí huǒshān guójiā gōngyuán	Hawaii Volcanoes National Park	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '夏威夷火山國家公園')	6002965
+6002966	夏延	\N	xiàyán	Cheyenne, capital of Wyoming	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '夏延')	6002966
+6002967	夏洛克	\N	xiàluòkè	Shylock (in Shakespeare's Merchant of Venice) / Sherlock (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '夏洛克')	6002967
+6002968	夏洛特	\N	xiàluòté	Charlotte (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '夏洛特')	6002968
+6002969	夏洛特敦	\N	xià luò té dūn	Charlottetown, capital of Prince Edward Island, Canada	proper noun	城市	City	地方	Places	北美	North America	\N	\N	(CC-CEDICT '夏洛特敦')	6002969
+6002970	夏洛特阿马利亚	夏洛特阿馬利亞	xià luò té ā mǎlì yà	Charlotte Amalie, capital of the United States Virgin Islands (USVI)	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '夏洛特阿馬利亞')	6002970
+6002971	外交大臣	\N	wàijiāo dàchén	Foreign Secretary / (UK) Secretary of State for Foreign and Commonwealth Affairs	proper noun	人	Person	政府	Government	英国	England	\N	\N	(CC-CEDICT '外交大臣')	6002971
+6002972	外交学院	外交學院	wàijiāo xuéyuàn	China Foreign Affairs University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '外交學院')	6002972
+6002973	外交关系理事会	外交關係理事會	wàijiāo guānxì lǐshìhuì	Council on Foreign Relations (US policy think tank)	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	(CC-CEDICT '外交關係理事會')	6002973
+6002974	外务部	外務部	wàiwùbù	Ministry of Foreign Affairs in Qing Dynasty	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '外務部')	6002974
+6002975	外贸协会	外貿協會	wàimào xiéhuì	Taiwan External Trade Development Council (TAITRA)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 中华民国对外贸易发展协会 (CC-CEDICT '外貿協會')	6002975
+6002976	外部链接	外部鏈接	wàibù liànjiē	external link (on website)	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '外部鏈接')	6002976
+6002977	多伊尔	多伊爾	duōyīěr	Doyle (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '多伊爾')	6002977
+6002978	多力多滋	\N	duōlìduōzī	Doritos (brand of tortilla chips)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '多力多滋')	6002978
+6002979	多哈	\N	duōhā	Doha, capital of Qatar	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '多哈')	6002979
+6002980	多哈回合	\N	duōhā huíhé	Doha Round	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	world trade talks that began in Doha, Qatar in 2001 (CC-CEDICT '多哈回合')	6002980
+6002981	多多马	多多馬	duōduōmǎ	Dodoma, capital of Tanzania	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '多多馬')	6002981
+6002982	多明尼加	\N	duōmíngníjiā	Dominica / Dominican Republic	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '多明尼加')	6002982
+6002983	多明尼加共和国	多明尼加共和國	duōmíngníjiā gònghéguó	Dominican Republic	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '多明尼加共和國')	6002983
+6002984	多明尼加联邦	多明尼加聯邦	duōmíngníjiā liánbāng	the Commonwealth of Dominica	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '多明尼加聯邦')	6002984
+6002985	多普勒	\N	duōpǔlēi	Christian Johann Doppler, Austrian physicist who discovered the Doppler effect	proper noun	人	Person	机科学	Science	\N	\N	\N	\N	(CC-CEDICT '多普勒')	6002985
+6002986	多普达	多普達	duōpǔdá	Dopod (company name)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '多普達')	6002986
+6002987	多尔	多爾	duōěr	Dole (name) / Bob Dole	proper noun	人	Person	历史	History	名字	Names	\N	\N	1923-; US Republican politician, Kansas senator 1969-1996 (CC-CEDICT '多爾')	6002987
+6002988	多特蒙德	\N	duō té mēng dé	Dortmund, city in the Ruhr 魯爾區|鲁尔区, Germany	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '多特蒙德')	6002988
+6002989	多米尼加联邦	多米尼加聯邦	Duōmǐníjiā liánbāng	the Commonwealth of Dominica	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '多米尼加聯邦')	6002989
+6002990	多芬	\N	duōfēn	Dove (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '多芬')	6002990
+6002991	梦露	夢露	mènglù	Marilyn Monroe	proper noun	\N	\N	历史	History	美国	United States	\N	\N	1926-1962; American actress (CC-CEDICT '夢露')	6002991
+6002992	大不里士	\N	dà bù lǐ shì	Tabriz city in northwest Iran, capital of Iranian East Azerbaijan	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '大不里士')	6002992
+6002993	大久保	\N	dàjiǔbǎo	Japanese surname and place name Oukubo	proper noun	地名	Place Name	地方	Places	日本	Japan	\N	\N	(CC-CEDICT '大久保')	6002993
+6002994	大伦敦地区	大倫敦地區	dà Lúndūn dìqū	Greater London / London region, England	proper noun	\N	\N	地方	Places	英国	England	\N	\N	(CC-CEDICT '大倫敦地區')	6002994
+6002995	大分界岭	大分界嶺	dà fēnjiè lǐng	Great Dividing Range, mountain range along the east coast of Australia	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '大分界嶺')	6002995

@@ -42,3 +42,4 @@
 5000042	图样图森破	圖樣圖森破	túyàng túsēn pò	to have a simplistic view of sth	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Internet slang (CC-CEDICT '圖樣圖森破')	5000042
 5000043	团结就是力量	團結就是力量	tuánjié jiùshì lìliang	unity is strength	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	revolutionary slogan and popular song of 1943 (CC-CEDICT '團結就是力量')	5000043
 5000044	在天愿做比翼鸟，在地愿做连理枝	在天願做比翼鳥，在地願做連理枝	zài tiān yuàn zuò bìyì niǎo, zàidì yuàn zuò liánlǐ zhī	In the sky to be two birds flying wing to wing, on earth to be two trees with branches intertwined	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '在天願做比翼鳥，在地願做連理枝')	5000044
+5000045	大丈夫能屈能伸	\N	dà zhàngfu néng qū néng shēn	A leader can submit or can stand tall as required. / ready to give and take / flexible	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '大丈夫能屈能伸')	5000045
