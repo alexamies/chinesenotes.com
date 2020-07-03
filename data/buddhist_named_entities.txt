@@ -13,3 +13,11 @@
 7000013	净土真宗	淨土真宗	jìngtǔ zhēnzōng	Jōdo Shinshū	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	A Japanese school of Pure Land Buddhism (Wikipedia '淨土真宗')	7000013
 7000014	大谷光瑞	\N	dàgǔ guāngruì	Ōtani Kōzui	proper noun	人	Person	佛教	Buddhism	日本	Japan	\N	\N	(Wikipedia '大谷光瑞')	7000014
 7000015	橘瑞超	\N	júruìchāo	Zuicho Tachibana	proper noun	人	Person	佛教	Buddhism	日本	Japan	\N	\N	(Wikipedia '橘瑞超')	7000015
+7000016	金南泉	\N	jīn nánquán	Kim Namcheon	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1868-1936; Korean monastic (FGDB '金南泉')	7000016
+7000017	帝心尊者	\N	dìxīn zūnzhě	Elder Dixin	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	557-640; Founder of the Huayan School, also known as Du shun 杜順 (FGDB '帝心尊者')	7000017
+7000018	帝心杜顺	帝心杜順	dìxīn dùshùn	Dixin Dushun	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Also known as Du shun 杜順 (Wikipedia '帝心杜順')	7000018
+7000019	传灯大法师	傳燈大法師	chuándēng dà fǎshī	Venerable Master Chuandeng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	687-763; Also known as 鑑真大師 Venerable Master Jiazhen; see 鑑真 (FGDB '傳燈大法師')	7000019
+7000020	松布六世	\N	sōngbù liùshì	Sumpa the 6th	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	(FGDB '松布六世')	7000020
+7000021	金陵俞道婆	\N	Jīnlíng yúdào pó	Yu Daopo of Jinling	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	Song dynasty lay person (FGDB '金陵俞道婆')	7000021
+7000022	火烧红莲寺	火燒紅蓮寺	huǒ shāo hónglián sì	The Burning of the Red Lotus Temple	proper noun	電影	Film	佛教	Buddhism	\N	\N	\N	\N	Chinese silent film serial (Wikipedia '火燒紅蓮寺')	7000022
+7000023	库木吐拉千佛洞	庫木吐拉千佛洞	kùmùtùlā qiān Fó dòng	Kumutula thousand-Buddha grotto	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	In Kuqa, Xinjiang (CC-CEDICT '庫木吐拉千佛洞')	7000023

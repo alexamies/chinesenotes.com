@@ -43,3 +43,10 @@
 5000043	团结就是力量	團結就是力量	tuánjié jiùshì lìliang	unity is strength	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	revolutionary slogan and popular song of 1943 (CC-CEDICT '團結就是力量')	5000043
 5000044	在天愿做比翼鸟，在地愿做连理枝	在天願做比翼鳥，在地願做連理枝	zài tiān yuàn zuò bìyì niǎo, zàidì yuàn zuò liánlǐ zhī	In the sky to be two birds flying wing to wing, on earth to be two trees with branches intertwined	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '在天願做比翼鳥，在地願做連理枝')	5000044
 5000045	大丈夫能屈能伸	\N	dà zhàngfu néng qū néng shēn	A leader can submit or can stand tall as required. / ready to give and take / flexible	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '大丈夫能屈能伸')	5000045
+5000046	失败是成功之母	失敗是成功之母	shībài shì chénggōng zhī mǔ	Failure is the mother of success.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '失敗是成功之母')	5000046
+5000047	好故事百听不厌	好故事百聽不厭	hǎo gùshi bǎi tīng bù yàn	The story is so good it's worth hearing a hundred times. / One never tires of hearing good new.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '好故事百聽不厭')	5000047
+5000048	妇女能顶半边天	婦女能頂半邊天	fùnǚ néng dǐng bàn biān tiān	Woman can hold up half the sky / nowadays, women have an equal part to play in society	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '婦女能頂半邊天')	5000048
+5000049	学如逆水行舟，不进则退	學如逆水行舟，不進則退	xué rú nìshuǐ xíng zhōu, bù jìn zé tuì	Study is like rowing upstream: no advance is to drop back	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '學如逆水行舟，不進則退')	5000049
+5000050	小洞不堵沉大船	\N	xiǎo dòng bù dǔ chén dà chuán	A small hole not plugged will sink a great ship.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '小洞不堵沉大船')	5000050
+5000051	带着希望去旅行，比到达终点更美好	帶著希望去旅行，比到達終點更美好	dài zhe xīwàng qù lǚxíng, bì dàodá zhōngdiǎn gèng měihǎo	It is better to travel hopefully than to arrive.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '帶著希望去旅行，比到達終點更美好')	5000051
+5000052	平生不做亏心事，半夜敲门心不惊	平生不做虧心事，半夜敲門心不驚	píngshēng bù zuò kuīxīnshì, bànyè qiāomén xīn bù jīng	He who never wrongs others does not fear the knock in the night. / Rest with a clear conscience.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '平生不做虧心事，半夜敲門心不驚')	5000052

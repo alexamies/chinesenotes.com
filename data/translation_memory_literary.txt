@@ -310,3 +310,8 @@
 3000310	先天下之忧而忧，后天下之乐而乐	先天下之憂而憂，後天下之樂而樂	xiāntiān xià zhī yōu ér yōu, hòutiān xià zhī lè ér lè	The first concern is affairs of state, enjoying the pleasure comes later. 	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quotation from essay On Yueyang Tower 岳阳楼记 by Song writer Fan Zhongyan 范仲淹 (CC-CEDICT '先天下之憂而憂，後天下之樂而樂')	3000310
 3000311	未半	\N	wèi bàn	less than half	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, pp. 25-26)	3000311
 3000312	忠志	\N	zhōng zhì	loyal and principled	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000312
+3000313	塞忠谏	塞忠諫	sāi zhōngjiàn	stop loyal remonstration	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000313
+3000314	争存	爭存	zhēng cún	to struggle for survival	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '爭存', p. 46)	3000314
+3000315	争家产	爭家產	zhēng jiāchǎn	to argue over family inheritance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '爭家產', p. 46)	3000315
+3000316	争强较力	爭強較力	zhēng qiáng jiào lì	to compete for mastery	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '爭強較力', p. 47)	3000316
+3000317	学而不思则罔，思而不学则殆	學而不思則罔，思而不學則殆	xué ér bù sī zé wǎng, sī ér bù xué zé dài	To learn without thinking is confusing, to think without learning is dangerous (Confucius)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '學而不思則罔，思而不學則殆')	3000317
