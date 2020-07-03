@@ -50,3 +50,5 @@
 5000050	小洞不堵沉大船	\N	xiǎo dòng bù dǔ chén dà chuán	A small hole not plugged will sink a great ship.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '小洞不堵沉大船')	5000050
 5000051	带着希望去旅行，比到达终点更美好	帶著希望去旅行，比到達終點更美好	dài zhe xīwàng qù lǚxíng, bì dàodá zhōngdiǎn gèng měihǎo	It is better to travel hopefully than to arrive.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '帶著希望去旅行，比到達終點更美好')	5000051
 5000052	平生不做亏心事，半夜敲门心不惊	平生不做虧心事，半夜敲門心不驚	píngshēng bù zuò kuīxīnshì, bànyè qiāomén xīn bù jīng	He who never wrongs others does not fear the knock in the night. / Rest with a clear conscience.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '平生不做虧心事，半夜敲門心不驚')	5000052
+5000053	戴表	\N	dài biǎo	to wear a watch	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	A homophone for 代表 (CC-CEDICT '戴表')	5000053
+5000054	抗美援朝	\N	kàng měi yuán cháo	Resist US, help North Korea	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1950s slogan (CC-CEDICT '抗美援朝')	5000054

@@ -315,3 +315,9 @@
 3000315	争家产	爭家產	zhēng jiāchǎn	to argue over family inheritance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '爭家產', p. 46)	3000315
 3000316	争强较力	爭強較力	zhēng qiáng jiào lì	to compete for mastery	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '爭強較力', p. 47)	3000316
 3000317	学而不思则罔，思而不学则殆	學而不思則罔，思而不學則殆	xué ér bù sī zé wǎng, sī ér bù xué zé dài	To learn without thinking is confusing, to think without learning is dangerous (Confucius)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '學而不思則罔，思而不學則殆')	3000317
+3000318	良实	良實	liáng shí	honest and true	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000318
+3000319	愚以为	愚以為	yú yǐwéi	in my humble opinion	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000319
+3000320	悉以咨之	\N	xī yǐ zī zhī	consulted on all matters	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000320
+3000321	有所广益	有所廣益	yǒu suǒ guǎng yì	for the greater good	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000321
+3000322	晓畅军事	曉暢軍事	xiǎochàngjūnshì	a thorough understanding of military affairs	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000322
+3000323	争民施夺	爭民施奪	zhēng mín shī duó	to argue with people and teach them to steal	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '爭民施奪', p. 47)	3000323
