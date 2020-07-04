@@ -321,3 +321,10 @@
 3000321	有所广益	有所廣益	yǒu suǒ guǎng yì	for the greater good	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000321
 3000322	晓畅军事	曉暢軍事	xiǎochàngjūnshì	a thorough understanding of military affairs	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000322
 3000323	争民施夺	爭民施奪	zhēng mín shī duó	to argue with people and teach them to steal	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '爭民施奪', p. 47)	3000323
+3000324	营中之事	營中之事	yíng zhōng zhī shì	matters concerning the garrison	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000324
+3000325	阵和穆	陣和穆	zhèn hé mù	harmony amongst the ranks	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000325
+3000326	优劣得所	優劣得所	yōu liè dé suǒ	able and less able officers will be asisgned to their proper place	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000326
+3000327	争能	爭能	zhēng néng	to compete for mastery	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '爭能', p. 47)	3000327
+3000328	亲贤臣	親賢臣	qīn xiánchén	wise and moral counsellors were made welcome	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000328
+3000329	远小人	遠小人	yuǎn xiǎorén	mean and petty men kept at a distance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000329
+3000330	争行夺市	爭行奪市	zhēng háng duó shì	market competition	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '爭行奪市', p. 47)	3000330

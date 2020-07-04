@@ -52,3 +52,7 @@
 5000052	平生不做亏心事，半夜敲门心不惊	平生不做虧心事，半夜敲門心不驚	píngshēng bù zuò kuīxīnshì, bànyè qiāomén xīn bù jīng	He who never wrongs others does not fear the knock in the night. / Rest with a clear conscience.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '平生不做虧心事，半夜敲門心不驚')	5000052
 5000053	戴表	\N	dài biǎo	to wear a watch	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	A homophone for 代表 (CC-CEDICT '戴表')	5000053
 5000054	抗美援朝	\N	kàng měi yuán cháo	Resist US, help North Korea	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1950s slogan (CC-CEDICT '抗美援朝')	5000054
+5000055	拍拍屁股走人	\N	pāi pāi pìgu zǒurén	to make oneself scarce / to slip away / to take French leave	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '拍拍屁股走人')	5000055
+5000056	提笔忘字	提筆忘字	tíbǐ wàng zì	to have difficulty remembering how to write Chinese characters	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '提筆忘字')	5000056
+5000057	摇摆州	搖擺州	yáobǎi zhōu	swing state (US politics)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '搖擺州')	5000057
+5000058	本省人	\N	běn shěngrén	people of this province	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '本省人')	5000058
