@@ -21,3 +21,4 @@
 7000021	金陵俞道婆	\N	Jīnlíng yúdào pó	Yu Daopo of Jinling	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	Song dynasty lay person (FGDB '金陵俞道婆')	7000021
 7000022	火烧红莲寺	火燒紅蓮寺	huǒ shāo hónglián sì	The Burning of the Red Lotus Temple	proper noun	電影	Film	佛教	Buddhism	\N	\N	\N	\N	Chinese silent film serial (Wikipedia '火燒紅蓮寺')	7000022
 7000023	库木吐拉千佛洞	庫木吐拉千佛洞	kùmùtùlā qiān Fó dòng	Kumutula thousand-Buddha grotto	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	In Kuqa, Xinjiang (CC-CEDICT '庫木吐拉千佛洞')	7000023
+7000024	柏克里克千佛洞	\N	bǎiKèlǐkè qiān Fó dòng	Paziklike thousand-Buddha grotto in the Turpan basin, Xinjiang	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	(CC-CEDICT '柏克里克千佛洞')	7000024

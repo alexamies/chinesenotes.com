@@ -3829,3 +3829,212 @@
 6003829	李约瑟	李約瑟	lǐyuēsè	Joseph Needham	proper noun	人	Person	历史	History	中国	China	\N	\N	1900-1995; British biochemist and author of Science and Civilization in China (CC-CEDICT '李約瑟')	6003829
 6003830	李维史陀	李維史陀	lǐwéi shǐ tuó	Claude Lévi-Strauss	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	1908-2009; French social anthropologist (CC-CEDICT '李維史陀')	6003830
 6003831	李维斯	李維斯	lǐwéisī	Levi's (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '李維斯')	6003831
+6003832	麻州	\N	mázhōu	Massachusetts	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '麻州')	6003832
+6003833	俄亥俄州	\N	éhàié zhōu	Ohio	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '俄亥俄州')	6003833
+6003834	新政	\N	xīnzhèng	New Deal	proper noun	\N	\N	历史	History	美国	United States	\N	\N	Roosevelt's 1933 policy to deal with the Great Depression (CC-CEDICT '新政')	6003834
+6003835	罗斯福	羅斯福	luósīfú	Theodore Roosevelt	proper noun	政治家	Politician	历史	History	美国	United States	\N	\N	(CC-CEDICT '羅斯福'; Wikipedia '西奥多·罗斯福')	6003835
+6003836	新泽西州	新澤西州	xīnzéxī zhōu	New Jersey	proper noun	州	State	地方	Places	美国	United States	\N	\N	US state (CC-CEDICT '新澤西州')	6003836
+6003837	华府	華府	huàfǔ	Washington, D.C. / the US federal government	proper noun	\N	\N	地方	Places	美国	United States	\N	\N	(CC-CEDICT '華府')	6003837
+6003838	帝国大厦	帝國大廈	dìguó dàshà	Empire State Building	proper noun	\N	\N	地方	Places	美国	United States	\N	\N	New York City (CC-CEDICT '帝國大廈')	6003838
+6003839	李缨	李纓	lǐyīng	Li Ying	proper noun	\N	\N	戏剧	Drama	中国	China	\N	\N	1963-; Japanese-educated Chinese documentary film director (CC-CEDICT '李纓')	6003839
+6003840	李肇星	\N	lǐzhàoxīng	Li Zhaoxing	proper noun	人	Person	历史	History	中国	China	\N	\N	1940-; Former PRC foreign minister (CC-CEDICT '李肇星')	6003840
+6003841	李英儒	\N	lǐyīngrú	Li Yingru	proper noun	人	Person	历史	History	中国	China	\N	\N	1913-1989; Calligrapher and writer, author of many novels about the war as seen by the communists (CC-CEDICT '李英儒')	6003841
+6003842	李诚恩	李誠恩	lǐchéngēn	Euna Li, US-Korean woman journalist imprisoned as spy by North Korea in 2009	proper noun	人	Person	媒体	Media	亚洲	Asia	\N	\N	(CC-CEDICT '李誠恩')	6003842
+6003843	李连杰	李連杰	lǐliánjié	Li Lianjie or Jet Li	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1963-; Martial arts sportsman, subsequently film star and director (CC-CEDICT '李連杰')	6003843
+6003844	李远哲	李遠哲	lǐyuǎnzhé	Yuan T. Lee	proper noun	人	Person	历史	History	\N	\N	\N	\N	1936-; Taiwanese-born Chemist and Nobel Prize winner in 1986 (CC-CEDICT '李遠哲')	6003844
+6003845	李长春	李長春	lǐchángchūn	Li Changchun	proper noun	人	Person	历史	History	中国	China	\N	\N	1944-; PRC politician (CC-CEDICT '李長春')	6003845
+6003846	李云娜	李雲娜	lǐyúnnà	Euna Lee (phonetic transcription), US woman journalist imprisoned as spy by North Korea in 2009	proper noun	\N	\N	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	Also written 李诚恩 (CC-CEDICT '李雲娜')	6003846
+6003847	李显龙	李顯龍	Lǐ Xiǎnlóng	Lee Hsien Loong	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1952-; Singapore PAP politician, eldest son of Lee Kuan Yew 李光耀, prime minister from 2004 (CC-CEDICT '李顯龍')	6003847
+6003848	李丽珊	李麗珊	lǐ lìshān	Lee Lai-Shan	proper noun	\N	\N	体育	Sport	中国	China	\N	\N	1970-; Former windsurfing world champion from Hong Kong (CC-CEDICT '李麗珊')	6003848
+6003849	村上春树	村上春樹	cūnshàng chūn shù	Murakami Haruki	proper noun	作者	Author	历史	History	日本	Japan	\N	\N	1949-; Japanese novelist and translator (CC-CEDICT '村上春樹')	6003849
+6003850	村上隆	\N	cūnshànglóng	Murakami Takashi	proper noun	人	Person	现代汉语	Modern Chinese	日本	Japan	\N	\N	1963-; Japanese artist (CC-CEDICT '村上隆')	6003850
+6003851	村山富市	\N	cūn shān fù shì	Tomiichi Murayama	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1924-; Former prime minister of Japan (CC-CEDICT '村山富市')	6003851
+6003852	杜伊斯堡	\N	dù yī sī bǎo	Duisburg, city in the Ruhr 魯爾區|鲁尔区, Germany	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '杜伊斯堡')	6003852
+6003853	杜哈	\N	dùhā	Doha, capital of Qatar	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '杜哈')	6003853
+6003854	杜塞尔多夫	杜塞爾多夫	dùsāi ěr duō fū	Düsseldorf (Germany)	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '杜塞爾多夫')	6003854
+6003855	杜塞道夫	\N	dùsāi dào fū	Düsseldorf (Germany)	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	Also written 杜塞尔多夫 (CC-CEDICT '杜塞道夫')	6003855
+6003856	杜布罗夫尼克	杜布羅夫尼克	dù bù luó fū níkè	Dubrovnik (city in Croatia)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '杜布羅夫尼克')	6003856
+6003857	杜本内	杜本內	dùběnnèi	Dubonnet (name) / Dubonnet (red vermouth aperitif wine)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '杜本內')	6003857
+6003858	杜瓦利埃	\N	dù wǎlì āi	Duvalier (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '杜瓦利埃')	6003858
+6003859	杜笃玛	杜篤瑪	dùdǔmǎ	Dodoma, capital of Tanzania	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '杜篤瑪')	6003859
+6003860	杜蕾斯	\N	dùlěisī	Durex, a condom brand name	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '杜蕾斯')	6003860
+6003861	杜马	杜馬	dùmǎ	Duma, lower chamber of Russian parliament	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '杜馬')	6003861
+6003862	东京塔	東京塔	Dōngjīngtǎ	Tokyo Tower	proper noun	地名	Place Name	地方	Places	日本	Japan	\N	\N	(CC-CEDICT '東京塔')	6003862
+6003863	东京帝国大学	東京帝國大學	Dōngjīng dìguó dàxué	Tokyo Imperial University	proper noun	大学	University	教育	Education	日本	Japan	\N	\N	renamed Tokyo University after 1945 (CC-CEDICT '東京帝國大學')	6003863
+6003864	东南亚国家联盟	東南亞國家聯盟	Dōngnán Yà guó jiā liánméng	ASEAN (Association of Southeast Asian Nations)	proper noun	\N	\N	政府	Government	亚洲	Asia	\N	\N	(CC-CEDICT '東南亞國家聯盟')	6003864
+6003865	东南大学	東南大學	dōngnán dàxué	Southeast University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '東南大學')	6003865
+6003866	东印度公司	東印度公司	dōng yìndù gōngsī	East India Company	proper noun	公司	Company	商务	Commerce	亚洲	Asia	\N	\N	(CC-CEDICT '東印度公司')	6003866
+6003867	东密德兰	東密德蘭	dōngmì dé lán	East Midlands, English county	proper noun	县	County	地方	Places	英国	England	\N	\N	(CC-CEDICT '東密德蘭')	6003867
+6003868	东方明珠电视塔	東方明珠電視塔	dōngfāng míngzhū diànshìtǎ	Oriental Pearl Television Tower	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '東方明珠電視塔')	6003868
+6003869	东突厥斯坦伊斯兰运动	東突厥斯坦伊斯蘭運動	dōngtū jué sī tǎn Yīsīlán yùndòng	East Turkestan Islamic Movement (ETIM)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '東突厥斯坦伊斯蘭運動')	6003869
+6003870	东突厥斯坦解放组织	東突厥斯坦解放組織	dōngtū jué sī tǎn jiěfàng zǔzhī	East Turkestan Liberation Organization (ETLO), Xinjiang dissident group	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '東突厥斯坦解放組織')	6003870
+6003871	东芝	東芝	dōngzhī	Toshiba, Japanese electronics company	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '東芝')	6003871
+6003872	东华三院	東華三院	dōng huá sān yuàn	Tung Wah Group of Hospitals (Hong Kong)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '東華三院')	6003872
+6003873	松下	\N	sōngxià	Matsushita (name) / Panasonic (brand)	proper noun	产品	Product	商务	Commerce	名字	Names	\N	\N	Abbreviation for 松下电器 (CC-CEDICT '松下')	6003873
+6003874	松下电器	松下電器	sōng xià diànqì	Panasonic Corporation (formerly Matsushita Electric Industrial Co.)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '松下電器')	6003874
+6003875	松井	\N	sōngjǐng	Matsui (Japanese surname)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '松井')	6003875
+6003876	松尾	\N	sōngwěi	Matsuo (Japanese surname and place name)	proper noun	地名	Place Name	地方	Places	日本	Japan	\N	\N	(CC-CEDICT '松尾')	6003876
+6003877	松岛	松島	sōngdǎo	Matsushima (name) / Matsushima town and national park in Miyagi prefecture, Japan	proper noun	地名	Place Name	地方	Places	日本	Japan	\N	\N	(CC-CEDICT '松島')	6003877
+6003878	松本	\N	sōngběn	Matsumoto (Japanese surname and place name)	proper noun	地名	Place Name	地方	Places	日本	Japan	\N	\N	(CC-CEDICT '松本')	6003878
+6003879	松田	\N	sōngtián	Matsuda (Japanese surname)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '松田')	6003879
+6003880	林克平大学	林克平大學	lín kè píng dàxué	Linköping University, Sweden	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '林克平大學')	6003880
+6003881	林堡	\N	línbǎo	Limburg, Netherlands / Limbourg, Belgium	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '林堡')	6003881
+6003882	林家翘	林家翹	línjiāqiào	Lin Chia-Chiao	proper noun	人	Person	历史	History	中国	China	\N	\N	1916-2013; Chinese-American physicist, astronomer and applied mathematician (CC-CEDICT '林家翹')	6003882
+6003883	林德布拉德	\N	lín dé bù lādé	Lindeblatt (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '林德布拉德')	6003883
+6003884	林心如	\N	lín xīnrú	Ruby Lin	proper noun	人	Person	音乐	Music	\N	\N	\N	\N	1976-; Taiwanese actress and pop singer (CC-CEDICT '林心如')	6003884
+6003885	林志玲	\N	lín zhìlíng	Lin Chi-ling	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1974-; Taiwanese model and actress (CC-CEDICT '林志玲')	6003885
+6003886	林忆莲	林憶蓮	lín yìlián	Sandy Lam	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1966-; Hong Kong pop singer (CC-CEDICT '林憶蓮')	6003886
+6003887	林怀民	林懷民	lín huáimín	Lin Hwai-Min	proper noun	人	Person	音乐	Music	\N	\N	\N	\N	1947-; Taiwanese choreographer and dancer (CC-CEDICT '林懷民')	6003887
+6003888	林书豪	林書豪	línshūháo	Jeremy Lin	proper noun	\N	\N	现代汉语	Modern Chinese	体育	Sport	\N	\N	1988-), Taiwanese-American professional basketball player (NBA (CC-CEDICT '林書豪')	6003888
+6003889	林肯郡	\N	línkěnjùn	Lincolnshire (English county)	proper noun	县	County	地方	Places	英国	England	\N	\N	(CC-CEDICT '林肯郡')	6003889
+6003890	林丰正	林豐正	línfēngzhèng	Lin Fong-cheng	proper noun	人	Person	历史	History	\N	\N	\N	\N	1940-; Taiwanese politician (CC-CEDICT '林豐正')	6003890
+6003891	林郑	林鄭	línzhèng	Carrie Lam	proper noun	\N	\N	历史	History	中国	China	\N	\N	1957-; Chief executive of Hong Kong 2017-, full name 林郑月娥 Carrie Lam Cheng Yuet-ngor (CC-CEDICT '林鄭')	6003891
+6003892	林雪平	\N	línxuěpíng	Linköping, city in southeast Sweden	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '林雪平')	6003892
+6003893	林青霞	\N	línqīngxiá	Brigitte Lin	proper noun	\N	\N	历史	History	\N	\N	\N	\N	1954-; Taiwanese actress (CC-CEDICT '林青霞')	6003893
+6003894	果倍爽	\N	guǒbèishuǎng	Capri-Sun, juice drink brand	proper noun	产品	Product	商务	Commerce	饮食	Food and Drink	\N	\N	(CC-CEDICT '果倍爽')	6003894
+6003895	柏克郡	\N	bǎikèjùn	Berkshire (English county)	proper noun	县	County	地方	Places	英国	England	\N	\N	(CC-CEDICT '柏克郡')	6003895
+6003896	柏崎	\N	bǎiqí	Kashiwazaki (Japanese surname) / Kashiwazaki,	proper noun	地名	Place Name	地方	Places	日本	Japan	\N	\N	Town in Niigata prefecture, Japan/Kashiwazaki, title of a Noh play (CC-CEDICT '柏崎')	6003896
+6003897	柏悦	柏悅	bǎiyuè	Park Hyatt (hotel brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '柏悅')	6003897
+6003898	柏林工业大学	柏林工業大學	bólín gōngyè dàxué	Technical University of Berlin, Germany (Technische Universitaet zu Berlin)	proper noun	大学	University	教育	Education	欧洲	Europe	\N	\N	(CC-CEDICT '柏林工業大學')	6003898
+6003899	查克·诺里斯	查克·諾里斯	chá kè nuò lǐ sī	Chuck Norris	proper noun	人	Person	戏剧	Drama	美国	United States	\N	\N	1940-; American martial artist and actor (CC-CEDICT '查克·諾里斯')	6003899
+6003900	查加斯病	\N	chá jiā sī bìng	Chagas disease / American trypanosomiasis	proper noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '查加斯病')	6003900
+6003901	查普曼	\N	chápǔmàn	Chapman (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '查普曼')	6003901
+6003902	查理周刊	查理週刊	chá lǐ zhōukān	Charlie Hebdo (French magazine)	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '查理週刊')	6003902
+6003903	柯文哲	\N	kēwénzhé	Ko Wen-je	proper noun	城市	City	历史	History	\N	\N	\N	\N	1959-; Taiwanese independent politician, Mayor of Taipei City from 2014 (CC-CEDICT '柯文哲')	6003903
+6003904	柯林斯	\N	kēlínsī	Collins (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '柯林斯')	6003904
+6003905	柯棣华	柯棣華	kēdìhuá	Dwarkanath Kotnis	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1910-1942; One of five Indian doctors sent to China to provide medical assistance during the Second Sino-Japanese War (CC-CEDICT '柯棣華')	6003905
+6003906	柯那克里	\N	kē nà Kèlǐ	Conakry, capital of Guinea	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '柯那克里')	6003906
+6003907	柳条湖事件	柳條湖事件	liǔtiáo hú shìjiàn	the Mukden or Manchurian Railway Incident of 18th September 1931 used by the Japanese as a pretext to annex Manchuria	phrase	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '柳條湖事件')	6003907
+6003908	株式会社	株式會社	zhū shì huìshè	Japanese limited company / corporation / public company / Ltd / p.l.c. / Corp	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '株式會社')	6003908
+6003909	核工业部	核工業部	hégōngyè bù	Ministry of Nuclear Industry	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '核工業部')	6003909
+6003910	格但斯克	\N	gé dàn sī kè	Gdansk, city on Baltic in north Poland	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '格但斯克')	6003910
+6003911	格力	\N	gélì	Gree (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '格力')	6003911
+6003912	格勒诺布尔	格勒諾布爾	gélēi nuò bù ěr	Grenoble (French town)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '格勒諾布爾')	6003912
+6003913	格拉斯哥	\N	gélā sī gē	Glasgow, Scotland	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '格拉斯哥')	6003913
+6003914	格拉汉姆	格拉漢姆	gélā hàn mǔ	Graham or Graeme (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '格拉漢姆')	6003914
+6003915	格拉纳达	格拉納達	gélā nà dá	Granada, Spain	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '格拉納達')	6003915
+6003916	格拉茨	\N	gélācí	Graz (city in Austria)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '格拉茨')	6003916
+6003917	格林奈尔大学	格林奈爾大學	gélín nài ěr dàxué	Grinnell College (private liberal arts college in Grinnell, Iowa, USA)	proper noun	\N	\N	教育	Education	美国	United States	\N	\N	(CC-CEDICT '格林奈爾大學')	6003917
+6003918	格林威治标准时间	格林威治標準時間	gélín wēi zhì biāozhǔnshí jiān	Greenwich Mean Time / GMT	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '格林威治標準時間')	6003918
+6003919	格林尼治标准时间	格林尼治標準時間	gélín ní zhì biāozhǔnshí jiān	Greenwich Mean Time (GMT)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '格林尼治標準時間')	6003919
+6003920	格林斯班	\N	gélín sī bān	Alan Greenspan	proper noun	人	Person	历史	History	美国	United States	\N	\N	1926-; US economist (CC-CEDICT '格林斯班')	6003920
+6003921	格洛斯特	\N	gé luò sī té	Gloucester city in southwest England	proper noun	城市	City	地方	Places	英国	England	\N	\N	(CC-CEDICT '格洛斯特')	6003921
+6003922	格洛斯特郡	\N	gé luò sī té jùn	Gloucestershire	proper noun	县	County	地方	Places	英国	England	\N	\N	County in southwest England (CC-CEDICT '格洛斯特郡')	6003922
+6003923	格洛纳斯	格洛納斯	gé luò nà sī	GLONASS (Globalnaya Navigatsionaya Satelitnaya Sistema or Global Navigation Satellite System), the Russian equivalent of GPS	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '格洛納斯')	6003923
+6003924	格瑞那达	格瑞那達	gé ruì nà dá	Grenada, island country in the Caribbean Sea	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '格瑞那達')	6003924
+6003925	格罗宁根	格羅寧根	gé luó níng gēn	Groningen, province and city in the Netherlands	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '格羅寧根')	6003925
+6003926	格罗兹尼	格羅茲尼	gé luó zī ní	Grozny, capital of Chechen Republic, Russia	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '格羅茲尼')	6003926
+6003927	格莱美奖	格萊美獎	géláiměi jiǎng	Grammy Award (US prize for music recording)	proper noun	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	\N	Also written 葛莱美奖 (CC-CEDICT '格萊美獎')	6003927
+6003928	格兰特	格蘭特	gélánté	Grant (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '格蘭特')	6003928
+6003929	格兰芬多	格蘭芬多	gé lán fēn duō	Gryffindor (Harry Potter)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '格蘭芬多')	6003929
+6003930	格里姆斯塔	\N	gé lǐ mǔ sī tǎ	Grimstad (city in Agder, Norway)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '格里姆斯塔')	6003930
+6003931	格里高利	\N	gé lǐ gāolì	Gregory or Grigory (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '格里高利')	6003931
+6003932	格雷茅斯	\N	géléi máo sī	Greymouth,	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	Town in New Zealand/also written 格雷默斯; Also written 格雷默斯 (CC-CEDICT '格雷茅斯')	6003932
+6003933	桂林医学院	桂林醫學院	Guìlín yīxuéyuàn	Guilin Medical University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '桂林醫學院')	6003933
+6003934	桂系军阀	桂系軍閥	guì xì jūnfá	Guangxi warlord faction, from 1911-1930	proper noun	人	Person	历史	History	中国	China	\N	\N	(CC-CEDICT '桂系軍閥')	6003934
+6003935	桂纶镁	桂綸鎂	guìlúnměi	Guey Lun-mei	proper noun	人	Person	戏剧	Drama	\N	\N	\N	\N	1983-; Taiwanese actress (CC-CEDICT '桂綸鎂')	6003935
+6003936	桃莉羊	\N	táolìyáng	Dolly	proper noun	\N	\N	机科学	Science	\N	\N	\N	\N	Taiwanese usage; 1996-2003; Female sheep, first mammal to be cloned from an adult somatic cell (CC-CEDICT '桃莉羊')	6003936
+6003937	桑内斯	桑內斯	sāngnèisī	Sandnes (city in Rogaland, Norway)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '桑內斯')	6003937
+6003938	檀香山	\N	tánxiāngshān	Honolulu	proper noun	城市	City	地方	Places	美国	United States	\N	\N	The capital of Hawaii; also transliterated as 火奴鲁鲁 (CC-CEDICT '檀香山')	6003938
+6003939	水门事件	水門事件	shuǐmén shìjiàn	Watergate scandal	set phrase	\N	\N	历史	History	美国	United States	\N	\N	(CC-CEDICT '水門事件')	6003939
+6003940	桑地诺民族解放阵线	桑地諾民族解放陣線	sāng dì nuò mínzú jiěfàng zhènxiàn	Sandinista National Liberation Front	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '桑地諾民族解放陣線')	6003940
+6003941	桑坦德	\N	sāngtǎndé	Santander, capital of Spanish autonomous region Cantabria 坎塔布里亞|坎塔布里亚	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '桑坦德')	6003941
+6003942	桑塔纳	桑塔納	sāngtǎnà	Santana (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '桑塔納')	6003942
+6003943	桑帕约	桑帕約	sāngpàyuē	Sampaio (name) / Jorge Sampaio	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	Town in Brazil; 1939-; Portuguese lawyer and politician, president of Portugal 1996-2006/Sampaio, town in Brazil (CC-CEDICT '桑帕約')	6003943
+6003944	桑德拉	\N	sāngdélā	Sandra (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '桑德拉')	6003944
+6003945	桑德尔福德	桑德爾福德	sāng dé ěr fúdé	Sandefjord (city in Vestfold, Norway)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '桑德爾福德')	6003945
+6003946	桓仁满族自治县	桓仁滿族自治縣	huánrén mǎnzú zìzhìxiàn	Huanren Manchu autonomous	proper noun	县	County	地方	Places	中国	China	\N	\N	County in Benxi 本溪, Liaoning (CC-CEDICT '桓仁滿族自治縣')	6003946
+6003947	梁山伯与祝英台	梁山伯與祝英台	Liáng Shān bó yǔ zhù yīng tái	The Butterfly Lovers, Chinese folktale of the tragic love between Liang Shanbo and Zhu Yingtai	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '梁山伯與祝英台')	6003947
+6003948	梁振英	\N	liángzhènyīng	Leung Chun-ying	proper noun	\N	\N	历史	History	中国	China	\N	\N	1954-; 3rd Chief Executive of Hong Kong (CC-CEDICT '梁振英')	6003948
+6003949	梁赞	梁贊	liángzàn	Ryazan, Russian town	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '梁贊')	6003949
+6003950	梁静茹	梁靜茹	liángjìngrú	Fish Leong	proper noun	人	Person	音乐	Music	亚洲	Asia	\N	\N	1978-; Malaysian pop singer/also Leong Chui Peng or Jasmine Leong (CC-CEDICT '梁靜茹')	6003950
+6003951	梅德韦杰夫	梅德韋傑夫	méi dé wéi jiéfū	Medvedyev (name) / Dmitry Anatolyevich Medvedev	proper noun	人	Person	政治	Politics	欧洲	Europe	\N	\N	1965-; Russian lawyer and politician, president of Russian Federation from 2008 (CC-CEDICT '梅德韋傑夫')	6003951
+6003952	梅斯	\N	méisī	Metz (city in France)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '梅斯')	6003952
+6003953	梅瑟	\N	méisè	Moses (Catholic translation) / also 摩西 (Protestant translation)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '梅瑟')	6003953
+6003954	梅纳德	梅納德	méinàdé	Maynard (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '梅納德')	6003954
+6003955	梅里亚姆·韦伯斯特	梅里亞姆·韋伯斯特	méi lǐ yà mǔ wéibó sī té	Merriam-Webster (dictionary)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '梅里亞姆·韋伯斯特')	6003955
+6003956	梅里斯达斡尔族区	梅里斯達斡爾族區	méilǐsī Dáwò'ěr Zú qū	Meilisi Daur	proper noun	地区	District	地方	Places	中国	China	\N	\N	District of Qiqihar city 齐齐哈尔, Heilongjiang (CC-CEDICT '梅里斯達斡爾族區')	6003956
+6003957	梵克雅宝	梵克雅寶	fàn kè yǎ bǎo	Van Cleef & Arpels (French luxury jewelry company)	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '梵克雅寶')	6003957
+6003958	梵蒂冈城	梵蒂岡城	Fàndìgāng chéng	Vatican City, capital of Holy See	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '梵蒂岡城')	6003958
+6003959	棉兰老岛	棉蘭老島	Miánlán lǎo dǎo	Mindanao (island in the Philippines)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '棉蘭老島')	6003959
+6003960	杨守仁	楊守仁	yáng shǒurén	Yang Shouren	proper noun	人	Person	历史	History	中国	China	\N	\N	1912-2005; PRC agricultural scientist (CC-CEDICT '楊守仁')	6003960
+6003961	森喜朗	\N	sēnxǐlǎng	Mori Yoshirō	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1937-; Japanese rugby player and politician, prime minister 2000-2001, famous for numerous gaffes (CC-CEDICT '森喜朗')	6003961
+6003962	森海塞尔	森海塞爾	sēn hǎi sāi ěr	Sennheiser (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '森海塞爾')	6003962
+6003963	杨利伟	楊利偉	yáng lìwěi	Yang Liwei	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	1965-; Astronaut, first Chinese citizen in space (CC-CEDICT '楊利偉')	6003963
+6003964	杨宝森	楊寶森	yángbǎosēn	Yang Baosen	proper noun	\N	\N	历史	History	中国	China	\N	\N	1909-1958; Beijing opera star, one of the Four great beards 四大须生 (CC-CEDICT '楊寶森')	6003964
+6003965	杨建利	楊建利	yángjiànlì	Yang JianLi, PRC human rights activist	proper noun	人	Person	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '楊建利')	6003965
+6003966	杨斌	楊斌	yángbīn	Yang Bin	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	1963-; Chinese-Dutch businessman (CC-CEDICT '楊斌')	6003966
+6003967	杨月清	楊月清	yángyuèqīng	Yang Yueqing, Chinese-Canadian woman documentary film director	proper noun	\N	\N	戏剧	Drama	中国	China	\N	\N	(CC-CEDICT '楊月清')	6003967
+6003968	杨澜	楊瀾	yánglán	Yang Lan	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	1968-; Chinese media proprietor, journalist, and talk show hostess (CC-CEDICT '楊瀾')	6003968
+6003969	杨百翰大学	楊百翰大學	yángbǎihàn dàxué	Brigham Young University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '楊百翰大學')	6003969
+6003970	杨采妮	楊采妮	yángcǎinī	Charlie Young	proper noun	\N	\N	戏剧	Drama	中国	China	\N	\N	1974-; Hong Kong actress and singer (CC-CEDICT '楊采妮')	6003970
+6003971	楚雄市	\N	Chǔxióngshì	Chuxiong	proper noun	城市	City	地方	Places	中国	China	\N	\N	County level city, capital of Chuxiong Yi autonomous prefecture 楚雄彝族自治州 in central Yunnan (CC-CEDICT '楚雄市')	6003971
+6003972	楠格哈尔省	楠格哈爾省	nán gé hā ěr shěng	Nangarhar province of Afghanistan	proper noun	地名	Place Name	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '楠格哈爾省')	6003972
+6003973	荣威	榮威	róngwēi	Roewe (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '榮威')	6003973
+6003974	荣毅仁	榮毅仁	róngyìrén	Rong Yiren	proper noun	\N	\N	历史	History	中国	China	\N	\N	1916-2005; PRC Vice President from 1993-1998, played an important role in opening Chinese economy to Western investors (CC-CEDICT '榮毅仁')	6003974
+6003975	乐之	樂之	lèzhī	Ritz (cracker brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '樂之')	6003975
+6003976	乐羊羊	樂羊羊	lèyángyáng	Happy sheep (group of five cartoon sheep), mascot of 2010 Guangzhou Asian games 廣州亞運會|广州亚运会	proper noun	\N	\N	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(CC-CEDICT '樂羊羊')	6003976
+6003977	乐华梅兰	樂華梅蘭	lè huá méi lán	Leroy Merlin (PRC DIY chain)	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '樂華梅蘭')	6003977
+6003978	乐蜀	樂蜀	lèshǔ	Luxor, city in Egypt (Cantonese transliteration)	proper noun	城市	City	地方	Places	方言	Dialect	\N	\N	(CC-CEDICT '樂蜀')	6003978
+6003979	乐购	樂購	lègòu	Tesco, UK-based supermarket chain	proper noun	\N	\N	地方	Places	英国	England	\N	\N	(CC-CEDICT '樂購')	6003979
+6003980	标准普尔	標準普爾	biāozhǔn pǔ ěr	Standard and Poor's (S&P), company specializing in financial market ratings / S&P financial index	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '標準普爾')	6003980
+6003981	朴次茅斯	樸次茅斯	pǔ cì máo sī	Portsmouth, southern English seaport	proper noun	\N	\N	现代汉语	Modern Chinese	英国	England	\N	\N	(CC-CEDICT '樸次茅斯')	6003981
+6003982	树葡萄	樹葡萄	shùpútáo	jaboticaba / Brazilian grape tree	noun	\N	\N	现代汉语	Modern Chinese	南美	South America	\N	\N	(CC-CEDICT '樹葡萄')	6003982
+6003983	桥本	橋本	qiáoběn	Hashimoto (Japanese surname and place name)	proper noun	地名	Place Name	地方	Places	日本	Japan	\N	\N	(CC-CEDICT '橋本')	6003983
+6003984	桥本龙太郎	橋本龍太郎	qiáoběn lóng tài láng	Hashimoto Ryūtarō	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1937-2006; Japanese politician, prime minister 1996-1998 (CC-CEDICT '橋本龍太郎')	6003984
+6003985	桥镇	橋鎮	qiáozhèn	Bridgetown, capital of Barbados	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '橋鎮')	6003985
+6003986	横须贺	橫須賀	héngxūhè	Yokosuka (port and navy base in the Tokyo bay)	proper noun	\N	\N	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '橫須賀')	6003986
+6003987	横须贺市	橫須賀市	héng xū hè shì	Yokosuka city and US naval base to the west of Yokohama, Japan	proper noun	城市	City	地方	Places	日本	Japan	\N	\N	(CC-CEDICT '橫須賀市')	6003987
+6003988	档案转送存取及管理	檔案轉送存取及管理	dàng àn zhuǎnsòng cúnqǔ jí guǎnlǐ	File Transfer, Access and Management / FTAM	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '檔案轉送存取及管理')	6003988
+6003989	樱井	櫻井	yīngjǐng	Sakurai (Japanese surname and place name)	proper noun	地名	Place Name	地方	Places	日本	Japan	\N	\N	(CC-CEDICT '櫻井')	6003989
+6003990	权力的游戏	權力的遊戲	quánlì de yóuxì	Game of Thrones (TV series)	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '權力的遊戲')	6003990
+6003991	权游	權遊	quányóu	Game of Thrones (TV series)	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	Abbreviation for 权力的游戏 (CC-CEDICT '權遊')	6003991
+6003992	欣弗	\N	xīnfú	brand name of an antibiotic injection blamed for a number of deaths in 2006	noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '欣弗')	6003992
+6003993	钦奈	欽奈	qīnnài	Chennai, capital of southeast Indian state Tamil Nadu 泰米爾納德邦|泰米尔纳德邦[Tai4 mi3 er3 Na4 de2 bang1]	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '欽奈')	6003993
+6003994	歇洛克·福尔摩斯	歇洛克·福爾摩斯	xiē luò kè Fúěrmósī	Sherlock Holmes	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歇洛克·福爾摩斯')	6003994
+6003995	歌诗达邮轮	歌詩達郵輪	gē shī dá yóulún	Costa Cruises (brand)	proper noun	产品	Product	商务	Commerce	音乐	Music	\N	\N	(CC-CEDICT '歌詩達郵輪')	6003995
+6003996	欧亚鸲	歐亞鴝	ōuyàgān	European robin (Erithacus rubecula)	noun	鸟	Bird	现代汉语	Modern Chinese	中国	China	\N	\N	Bird species of China (CC-CEDICT '歐亞鴝')	6003996
+6003997	欧仁	歐仁	ōurén	Eugene (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '歐仁')	6003997
+6003998	欧共体	歐共體	ōugòngtǐ	European Community (old term for the EU, European Union)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbr. for 欧洲共同体 (CC-CEDICT '歐共體')	6003998
+6003999	欧姆龙	歐姆龍	ōumǔlóng	Omron Corporation (Japanese electronics company)	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '歐姆龍')	6003999
+6004000	欧安组织	歐安組織	ōu ān zǔzhī	Organization for Security and Cooperation in Europe (OSCE)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 欧洲安全与合作组织 (CC-CEDICT '歐安組織')	6004000
+6004001	欧宝	歐寶	ōubǎo	Opel (car brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '歐寶')	6004001
+6004002	欧巴马	歐巴馬	ōubāmǎ	Barack Obama	proper noun	人	Person	政治	Politics	美国	United States	\N	\N	1961-; US Democrat politician, president 2009-2017; Taiwanese variant of 奥巴马 (CC-CEDICT '歐巴馬')	6004002
+6004003	欧几里德	歐幾里德	ōu jǐ lǐ dé	Euclid of Alexandria	proper noun	人	Person	文学	Literature	\N	\N	\N	\N	c. 300 BC; Greek geometer and author of Elements 几何原本 (CC-CEDICT '歐幾里德')	6004003
+6004004	欧洲中央银行	歐洲中央銀行	Ōuzhōu zhōngyāng yínháng	European Central Bank	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '歐洲中央銀行')	6004004
+6004005	欧洲共同市场	歐洲共同市場	Ōuzhōu gòngtóng shìchǎng	European common market (old term for EU, European Union)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐洲共同市場')	6004005
+6004006	欧洲刑警组织	歐洲刑警組織	Ōuzhōu xíngjǐng zǔzhī	Europol (European Police Office)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐洲刑警組織')	6004006
+6004007	欧洲原子能联营	歐洲原子能聯營	Ōuzhōu yuánzǐ néng liányíng	Euratom	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐洲原子能聯營')	6004007
+6004008	欧洲安全和合作组织	歐洲安全和合作組織	Ōuzhōu ānquán héhé zuò zǔzhī	Organization for Security and Cooperation in Europe (OSCE)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐洲安全和合作組織')	6004008
+6004009	欧洲安全与合作组织	歐洲安全與合作組織	Ōuzhōu ānquán yǔ hézuò zǔzhī	Organization for Security and Cooperation in Europe (OSCE)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐洲安全與合作組織')	6004009
+6004010	欧洲核子中心	歐洲核子中心	Ōuzhōu hézǐ zhōngxīn	European Organization for Nuclear Research CERN, at Geneva	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐洲核子中心')	6004010
+6004011	欧洲核子研究中心	歐洲核子研究中心	Ōuzhōu hézǐ yánjiū zhōngxīn	European Organization for Nuclear Research CERN, at Geneva	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐洲核子研究中心')	6004011
+6004012	欧洲法院	歐洲法院	Ōuzhōu fǎyuàn	European Court of Justice	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐洲法院')	6004012
+6004013	盐湖城	鹽湖城	yánhú chéng	Salt Lake City	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '鹽湖城')	6004013
+6004014	欧洲理事会	歐洲理事會	Ōuzhōu lǐshìhuì	European Council	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐洲理事會')	6004014
+6004015	欧洲自由贸易联盟	歐洲自由貿易聯盟	Ōuzhōu zìyóu màoyì liánméng	European Free Trade Association	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐洲自由貿易聯盟')	6004015
+6004016	欧洲航天局	歐洲航天局	Ōuzhōu hángtiānjú	European Space Agency (ESA)	proper noun	\N	\N	政府	Government	航天	Space Flight	\N	\N	(CC-CEDICT '歐洲航天局')	6004016
+6004017	欧洲议会	歐洲議會	Ōuzhōu yìhuì	European Parliament	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐洲議會')	6004017
+6004018	欧洲货币	歐洲貨幣	Ōuzhōu huòbì	Euro / European currency	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐洲貨幣')	6004018
+6004019	欧洲电视	歐洲電視	Ōuzhōu diànshì	European TV / Eurovision	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '歐洲電視')	6004019
+6004020	欧盟委员会	歐盟委員會	Ōuméng wěiyuánhuì	Commission of European Union	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '歐盟委員會')	6004020
+6004021	欧米茄表公司	歐米茄錶公司	ōu mǐ qié biǎo gōngsī	Omega SA, Swiss luxury watchmaker	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歐米茄錶公司')	6004021
+6004022	欧莱雅	歐萊雅	ōuláiyǎ	L'Oréal (French cosmetics company)	proper noun	公司	Company	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '歐萊雅')	6004022
+6004023	欧里庇得斯	歐里庇得斯	ōu lǐ bì de sī	Euripides	proper noun	人	Person	文学	Literature	\N	\N	\N	\N	c. 480-406 BC; Greek tragedian, author of Medea, Trojan Women etc (CC-CEDICT '歐里庇得斯')	6004023
+6004024	正电子发射计算机断层	正電子發射計算機斷層	zhèngdiànzǐ fāshè jìsuànjī duàncéng	PET, positron emission tomography (medical imaging method)	proper noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '正電子發射計算機斷層')	6004024
+6004025	正电子发射体层	正電子發射體層	zhèngdiànzǐ fāshè tǐ céng	PET, positron emission tomography (medical imaging method)	proper noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '正電子發射體層')	6004025
+6004026	武昌起义	武昌起義	Wǔchāng qǐyì	Wuchang Uprising of October 10th, 1911, which led to Sun Yat-sen's Xinhai Revolution and the fall of the Qing dynasty	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '武昌起義')	6004026
+6004027	壳牌公司	殼牌公司	ké pái gōngsī	Shell (oil company)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '殼牌公司')	6004027
+6004028	比亚迪汽车	比亞迪汽車	Bǐyàdí qìchē	BYD Auto, PRC car company	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '比亞迪汽車')	6004028
+6004029	比亚韦斯托克	比亞韋斯托克	bìyà wéi sī tuō kè	Białystok, city in Poland	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '比亞韋斯托克')	6004029
+6004030	比什凯克	比什凱克	bì shén kǎi kè	Bishkek, capital of Kyrgyzstan	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '比什凱克')	6004030
+6004031	比勒费尔德	比勒費爾德	bì lēi fèi ěrdé	Bielefeld (city in Germany)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '比勒費爾德')	6004031
+6004032	比勒陀利亚	比勒陀利亞	bì lēi tuó lì yà	Pretoria, capital of South Africa	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '比勒陀利亞')	6004032
+6004033	比基尼岛	比基尼島	bìjīní dǎo	Bikini atoll, French nuclear test site in South Pacific	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '比基尼島')	6004033
+6004034	比尔·盖茨	比爾·蓋茨	bìěr gàicí	Bill Gates	proper noun	人	Person	历史	History	\N	\N	\N	\N	1955-; Co-founder of Microsoft (CC-CEDICT '比爾·蓋茨')	6004034
+6004035	比特纳	比特納	bǐtènà	(surname) Bittner or Büttner	noun	姓氏	Surname	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '比特納')	6004035
+6004036	毛子国	毛子國	máozǐguó	Russia	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Derogatory (CC-CEDICT '毛子國')	6004036
+6004037	毛泽东·鲜为人知的故事	毛澤東·鮮為人知的故事	Máo Zédōng xiān wéirén zhī de gùshi	Mao: The Unknown Story by Jung Chang 張戎|张戎 and Jon Halliday	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '毛澤東·鮮為人知的故事')	6004037
+6004038	民主建港协进联盟	民主建港協進聯盟	mínzhǔ jiàn gǎng xié jìn liánméng	Democratic alliance for the betterment  (DAB), Hong Kong pro-Beijing party	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '民主建港協進聯盟')	6004038
+6004039	民主墙	民主牆	mínzhǔqiáng	Democracy Wall	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	1978-1989; Esp. during the Beijing Spring democracy movement (CC-CEDICT '民主牆')	6004039
+6004040	民国通俗演义	民國通俗演義	mínguó tōngsú yǎnyì	Dramatized history of Republican China until 1927 by Cai Dongfan, and later chapters by Xu Qinfu	proper noun	\N	\N	文学	Literature	中国	China	\N	\N	(CC-CEDICT '民國通俗演義')	6004040

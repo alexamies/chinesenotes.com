@@ -328,3 +328,4 @@
 3000328	亲贤臣	親賢臣	qīn xiánchén	wise and moral counsellors were made welcome	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000328
 3000329	远小人	遠小人	yuǎn xiǎorén	mean and petty men kept at a distance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000329
 3000330	争行夺市	爭行奪市	zhēng háng duó shì	market competition	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '爭行奪市', p. 47)	3000330
+3000331	汉室	漢室	hàn shì	house of Han	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000331

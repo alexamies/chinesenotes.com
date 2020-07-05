@@ -56,3 +56,9 @@
 5000056	提笔忘字	提筆忘字	tíbǐ wàng zì	to have difficulty remembering how to write Chinese characters	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '提筆忘字')	5000056
 5000057	摇摆州	搖擺州	yáobǎi zhōu	swing state (US politics)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '搖擺州')	5000057
 5000058	本省人	\N	běn shěngrén	people of this province	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '本省人')	5000058
+5000059	荣辱观	榮辱觀	róng rǔ guān	precepts regarding what is honorable and what is shameful	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 社会主义荣辱观/also known as the Eight Honors and Eight Shames 八荣八耻, PRC official moral principles promulgated from 2006 (CC-CEDICT '榮辱觀')	5000059
+5000060	正确处理人民内部矛盾	正確處理人民內部矛盾	zhèngquè chǔlǐ rénmín nèibù máodùn	On the correct handling of internal contradictions among the people, Mao Zedong's tract of 1957	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '正確處理人民內部矛盾')	5000060
+5000061	杀人不过头点地	殺人不過頭點地	shārén bùguò tóu diǎn dì	It's all exaggeration, you don't need to take it seriously / a fuss about nothing	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '殺人不過頭點地')	5000061
+5000062	毒唯	\N	dúwěi	fan of one particular member of a pop idol band who denigrates and defames the other members	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '毒唯')	5000062
+5000063	毒奶	\N	dúnǎi	poisoned milk / contaminated milk	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '毒奶')	5000063
+5000064	毒奶粉	\N	dúnǎifěn	poisoned milk powder	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '毒奶粉')	5000064
