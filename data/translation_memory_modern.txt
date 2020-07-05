@@ -1,4 +1,4 @@
-5000001	他说得出来做得出来	他說得出來做得出來	tā shuō de chū lái zuò de chū lái	he acts up to his words	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	5000001
+# Copyright Fo Guang Shan 佛光山 2013-2020. May be reused under the Creative Commons Attribution-Share Alike 3.0 License (CCASE 3.0), https://creativecommons.org/licenses/by-sa/3.0/
 5000002	你在添上几个	你在添上幾個	nǐ zài tiān shàng jǐ gè	add on a few more	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	5000002
 5000003	给他加上一块钱	給他加上一塊錢	gěi tā jiā shàng yī kuài qián	give him one a few moe dollars	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	5000003
 5000004	核心力量	\N	héxīn lìliang	the force at the core	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 2)	5000004
@@ -62,3 +62,11 @@
 5000062	毒唯	\N	dúwěi	fan of one particular member of a pop idol band who denigrates and defames the other members	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '毒唯')	5000062
 5000063	毒奶	\N	dúnǎi	poisoned milk / contaminated milk	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '毒奶')	5000063
 5000064	毒奶粉	\N	dúnǎifěn	poisoned milk powder	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '毒奶粉')	5000064
+5000065	永不生锈的螺丝钉	永不生銹的螺絲釘	yǒng bù shēngxiù de luósīdīng	a screw that never rusts — sb who selflessly and wholeheartedly serves the Communist Party, like Lei Feng 雷锋, to whom the metaphor is attributed	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '永不生銹的螺絲釘')	5000065
+5000066	他说得出来做得出来	他說得出來做得出來	tā shuō de chū lái zuò de chū lái	he acts up to his words	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	5000066
+5000067	求死愿望	求死願望	qiú sǐ yuànwàng	death wish	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '求死願望')	5000067
+5000068	江山易改禀性难移	江山易改稟性難移	jiāngshān yì gǎi bǐngxìng nán yí	rivers and mountains are easy to change, man's character much harder	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '江山易改稟性難移')	5000068
+5000069	没人味	沒人味	méirén wèi	to be lacking in human character	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '沒人味')	5000069
+5000070	法网灰灰，疏而不漏	法網灰灰，疏而不漏	fǎwǎng huī huī, shū ér bù lòu	The net of justice is wide, but no-one escapes.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '法網灰灰，疏而不漏')	5000070
+5000071	活久见	活久見	huójiǔjiàn	if you live long enough, you'll see everything	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	neologism c. 2006 (CC-CEDICT '活久見')	5000071
+5000072	流量明星	\N	liúliàng míngxīng	celebrity with a huge, devoted fan base	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	neologism c. 2014 (CC-CEDICT '流量明星')	5000072
