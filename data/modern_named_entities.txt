@@ -4344,3 +4344,65 @@
 6004344	新奥尔良	新奧爾良	xīn ào'ěrliáng	New Orleans	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '新奧爾良'; Guoyu '新奧爾良'; Wikipedia '新奧爾良')	6004344
 6004345	三藩市	\N	sān fān shì	San Francisco	proper noun	城市	City	地方	Places	美国	United States	\N	\N	In California (CC-CEDICT '三藩市')	6004345
 6004346	中途岛战役	中途島戰役	zhōngtú dǎo zhànyì	Battle of Midway, June 1942	proper noun	\N	\N	历史	History	美国	United States	\N	\N	(CC-CEDICT '中途島戰役')	6004346
+6004347	甘巴里	\N	gānbālǐ	Professor Ibrahim Gambari	proper noun	人	Person	历史	History	\N	\N	\N	\N	1944-; Nigerian scholar and diplomat, ambassador to UN 1990-1999, UN envoy to Burma from 2007 (CC-CEDICT '甘巴里')	6004347
+6004348	甘托克	\N	gāntuōkè	Gantok, capital of Sikkim, India	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '甘托克')	6004348
+6004349	甘比亚	甘比亞	gānbìyà	Gambia	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '甘比亞')	6004349
+6004350	甘迺迪	\N	gānnǎidí	Kennedy (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	Taiwanese usage (CC-CEDICT '甘迺迪')	6004350
+6004351	产经新闻	產經新聞	chǎn jīng xīnwén	Business News / Sankei Shimbun (Tokyo daily)	proper noun	\N	\N	媒体	Media	日本	Japan	\N	\N	(CC-CEDICT '產經新聞')	6004351
+6004352	田中角荣	田中角榮	tiánzhōng jiǎo róng	Tanaka Kakuei	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1918-1993; Japanese politician, prime minister 1972-1974 (CC-CEDICT '田中角榮')	6004352
+6004353	田亮	\N	tiánliàng	Tian Liang	proper noun	\N	\N	体育	Sport	中国	China	\N	\N	1979-; Former male Chinese diver, Olympic medalist (CC-CEDICT '田亮')	6004353
+6004354	田长霖	田長霖	tiánzhǎnglín	Chang-lin Tien	proper noun	大学	University	教育	Education	中国	China	\N	\N	1935-2002; Chinese-American professor and chancellor of the University of California, Berkeley 1990-1997 (CC-CEDICT '田長霖')	6004354
+6004355	申根区	申根區	shēngēnqū	the Schengen area, a passport-free zone in Europe	noun	\N	\N	地方	Places	\N	\N	\N	\N	(CC-CEDICT '申根區')	6004355
+6004356	申通	\N	shēntōng	STO Express, courier service headquartered in Shanghai, founded in 1993	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '申通')	6004356
+6004357	留尼旺	\N	liúníwàng	Réunion (island in Indian Ocean, a French overseas department)	proper noun	\N	\N	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '留尼旺')	6004357
+6004358	留尼汪	\N	liúníwāng	Réunion (island in Indian Ocean, a French overseas department)	proper noun	\N	\N	地方	Places	\N	\N	\N	\N	(CC-CEDICT '留尼汪')	6004358
+6004359	毕尔巴鄂	畢爾巴鄂	bì ěr bā è	Bilbao (city in Spain)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '畢爾巴鄂')	6004359
+6004360	疾病预防中心	疾病預防中心	jíbìng yùfáng zhōngxīn	Center for Disease Control (US)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '疾病預防中心')	6004360
+6004361	登徒子	\N	dēngtúzǐ	Dengtu Zi, famous lecherous character / lecher / skirt-chaser	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '登徒子')	6004361
+6004362	发展研究中心	發展研究中心	fāzhǎn yánjiū zhōngxīn	Development Research Center (PRC State Council institution)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '發展研究中心')	6004362
+6004363	白先勇	\N	báixiānyǒng	Bai Xianyong	proper noun	作者	Author	历史	History	中国	China	\N	\N	1937-; Chinese-Taiwanese-US novelist of Hui descent (CC-CEDICT '白先勇')	6004363
+6004364	白区	白區	báiqū	White area	proper noun	\N	\N	历史	History	\N	\N	\N	\N	area controlled by the KMT during the Second Revolutionary War 1927-1937 (CC-CEDICT '白區')	6004364
+6004365	白宫群英	白宮群英	Bái Gōng qúnyīng	The West Wing (US TV series)	proper noun	\N	\N	媒体	Media	美国	United States	\N	\N	(CC-CEDICT '白宮群英')	6004365
+6004366	白毛女	\N	báimáonǚ	The White Haired Girl	proper noun	\N	\N	戏剧	Drama	中国	China	\N	\N	1950; One of the first PRC films (CC-CEDICT '白毛女')	6004366
+6004367	白水江自然保护区	白水江自然保護區	báishuǐ jiāng zìrán bǎohù qū	Baishuijiang Nature Reserve, Gansu	proper noun	\N	\N	地方	Places	中国	China	\N	\N	(CC-CEDICT '白水江自然保護區')	6004367
+6004368	白羊朝	\N	báiyángcháo	Ak Koyunlu or Aq Qoyunlu Turkoman confederation of eastern Iran	proper noun	\N	\N	现代汉语	Modern Chinese	中东	Middle East	\N	\N	c. 1378-c. 1500 (CC-CEDICT '白羊朝')	6004368
+6004369	白军	白軍	báijūn	White Guard or White Movement, anti-communist troops fighting against the Bolsheviks during the Russian Civil War	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	1917-1922 (CC-CEDICT '白軍')	6004369
+6004370	白金汉郡	白金漢郡	báijīn hàn jùn	Buckinghamshire (English county)	proper noun	县	County	地方	Places	英国	England	\N	\N	(CC-CEDICT '白金漢郡')	6004370
+6004371	白鹭湾湿地公园	白鷺灣濕地公園	báilù wān shīdì gōngyuán	Bailuwan Wetland Park, Chengdu	proper noun	\N	\N	地方	Places	中国	China	\N	\N	(CC-CEDICT '白鷺灣濕地公園')	6004371
+6004372	百利甜	\N	bǎilìtián	Baileys Irish Cream (brand of alcoholic drink)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	See also 百利甜酒 (CC-CEDICT '百利甜')	6004372
+6004373	百利甜酒	\N	bǎi lì tiánjiǔ	Baileys Irish Cream (brand of alcoholic drink)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '百利甜酒')	6004373
+6004374	百合子	\N	bǎihézǐ	Yuriko, Japanese female given name	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '百合子')	6004374
+6004375	百团大战	百團大戰	bǎi tuán dàzhàn	Hundred Regiments offensive of August-December 1940, a large scale offensive against the Japanese by the communists	proper noun	\N	\N	历史	History	日本	Japan	\N	\N	(CC-CEDICT '百團大戰')	6004375
+6004376	百度币	百度幣	bǎidùbì	virtual currency created by Baidu for use on its websites	noun	\N	\N	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '百度幣')	6004376
+6004377	百花园	百花園	bǎi huāyuán	Garden of Many Flowers (name) / Baihua garden in Hongmiao village, Shandong	proper noun	\N	\N	地方	Places	中国	China	\N	\N	(CC-CEDICT '百花園')	6004377
+6004378	百花运动	百花運動	bǎi huā yùndòng	Hundred Flowers Campaign	proper noun	\N	\N	历史	History	中国	China	\N	\N	PRC, 1956-57; In which Mao called for the taboo on discussing mistakes of the CCP to be lifted (CC-CEDICT '百花運動')	6004378
+6004379	百里	\N	bǎilǐ	two-character surname Baili	noun	姓氏	Surname	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '百里')	6004379
+6004380	的里雅斯特	\N	de lǐ yǎ sī té	Trieste, port city in Italy	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '的里雅斯特')	6004380
+6004381	的黎波里	\N	de lí bō lǐ	Tripoli, capital of Libya / Tripoli, city in north Lebanon	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '的黎波里')	6004381
+6004382	皇冠假日酒店	\N	huángguān jiàrì jiǔdiàn	Crowne Plaza (hotel chain)	proper noun	\N	\N	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	(CC-CEDICT '皇冠假日酒店')	6004382
+6004383	皇后镇	皇后鎮	huánghòuzhèn	Queenstown,	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	Town in New Zealand (CC-CEDICT '皇后鎮')	6004383
+6004384	皇家加勒比海游轮公司	皇家加勒比海遊輪公司	huáng jiā Jiālēibì hǎi yóulún gōngsī	Royal Caribbean Cruise Lines	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '皇家加勒比海遊輪公司')	6004384
+6004385	皇家学会	皇家學會	huáng jiā xuéhuì	the Royal Society (UK scientific academy)	set phrase	\N	\N	机科学	Science	英国	England	\N	\N	(CC-CEDICT '皇家學會')	6004385
+6004386	皇家海军	皇家海軍	huáng jiā hǎijūn	Royal Navy (UK)	proper noun	\N	\N	军事	Military	英国	England	\N	\N	(CC-CEDICT '皇家海軍')	6004386
+6004387	皇家香港警察	\N	huáng jiā xiānggǎng jǐngchá	Royal Hong Kong Police Force	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1969-1997 (CC-CEDICT '皇家香港警察')	6004387
+6004388	皇家骑警	皇家騎警	huáng jiā qíjǐng	Royal Canadian Mounted Police (RCMP), Canadian federal and national police force / Mounties	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '皇家騎警')	6004388
+6004389	皇族内阁	皇族內閣	huángzú nèigé	Qing emergency cabinet set up in May 1911 to confront the Xinhai rebels	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '皇族內閣')	6004389
+6004390	皖南事变	皖南事變	wǎn nán shìbiàn	New Fourth Army Incident of 1940, involving fighting between the Nationalists and Communists	proper noun	\N	\N	历史	History	\N	\N	\N	\N	(CC-CEDICT '皖南事變')	6004390
+6004391	皖系战败	皖系戰敗	Wǎn Xì zhànbài	Anhui faction of Northern Warlords	proper noun	\N	\N	历史	History	中国	China	\N	\N	1912-c. 1920; Led by Duan Qirui 段祺瑞 with Japanese support (CC-CEDICT '皖系戰敗')	6004391
+6004392	皖系军阀	皖系軍閥	Wǎn Xì jūnfá	Anhui faction of Northern Warlords 1911-c.1929	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '皖系軍閥')	6004392
+6004393	皮克林	\N	píkèlín	Pickering (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '皮克林')	6004393
+6004394	皮卡尔	皮卡爾	píkǎěr	Picard (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '皮卡爾')	6004394
+6004395	皮尔	皮爾	píěr	Pierre, capital of South Dakota	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '皮爾')	6004395
+6004396	皮特拉克	\N	pí té lā kè	Petrarch / Francesco Petrarca	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1304-1374; Italian scholar and lyric poet, famous for sonnets (CC-CEDICT '皮特拉克')	6004396
+6004397	皮诺切特	皮諾切特	pí nuò qiē té	General Augusto Pinochet	proper noun	人	Person	历史	History	\N	\N	\N	\N	1915-2006; Chilean dictator (CC-CEDICT '皮諾切特')	6004397
+6004398	盗版党	盜版黨	dàobǎndǎng	Pirate Party, political movement whose main goal is to reform copyright law in line with the Internet era	proper noun	\N	\N	政治	Politics	政治	Politics	\N	\N	(CC-CEDICT '盜版黨')	6004398
+6004399	卢卡斯	盧卡斯	lúkǎsī	Lucas (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '盧卡斯')	6004399
+6004400	卢卡申科	盧卡申科	lúkǎ shēn kē	Aleksandr Grigoryevich Lukachenko, president of Belarus from 1994	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '盧卡申科')	6004400
+6004401	卢塞恩	盧塞恩	lúsāiēn	Lucerne, Switzerland	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '盧塞恩')	6004401
+6004402	卢布尔雅那	盧布爾雅那	lúbù Ěryǎ nà	Ljubljana, capital of Slovenia	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '盧布爾雅那')	6004402
+6004403	卢武铉	盧武鉉	lúwǔxuàn	Roh Moo-hyun	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1946-2009; South Korean lawyer and politician, president 2003-2008 (CC-CEDICT '盧武鉉')	6004403
+6004404	卢比安纳	盧比安納	lúbì ān nà	Ljubljana, capital of Slovenia	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '盧比安納')	6004404
+6004405	卢泰愚	盧泰愚	lútàiyú	Roh Tae-woo	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1932-; South Korean politician, president 1988-1993 (CC-CEDICT '盧泰愚')	6004405
+6004406	卢瓦尔河	盧瓦爾河	lúwǎ'ěr hé	Loire River, France	proper noun	水名	River	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '盧瓦爾河')	6004406
+6004407	卢萨卡	盧薩卡	lúsàkǎ	Lusaka, capital of Zambia	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '盧薩卡')	6004407
+6004408	西北航空公司	\N	xīběi hángkōng gōngsī	Northwest Airlines	proper noun	航空公司	Airline	航空	Aviation	美国	United States	\N	\N	(CC-CEDICT '西北航空公司')	6004408
