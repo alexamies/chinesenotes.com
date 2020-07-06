@@ -1,4 +1,4 @@
-3000001	秋风	秋風	qiū fēng	autumn wind	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 秋 autumn + 風 wind (Barnes 2007, p. 35; Guoyu '秋風')	3000001
+# Copyright Fo Guang Shan 佛光山 2013-2020. May be reused under the Creative Commons Attribution-Share Alike 3.0 License (CCASE 3.0), https://creativecommons.org/licenses/by-sa/3.0/
 3000002	春林	\N	chūn lín	the forest in springtime	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 春 spring + 林 woods (Barnes 2007, p. 35; Guoyu '春林')	3000002
 3000003	春鸟	春鳥	chūn niǎo	birds in springtime	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 春 spring + 鳥 birds (Barnes 2007, p. 35)	3000003
 3000004	夜风	夜風	yè fēng	the night wind	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 夜 night + 風 wind (Barnes 2007, p. 35)	3000004
@@ -329,3 +329,8 @@
 3000329	远小人	遠小人	yuǎn xiǎorén	mean and petty men kept at a distance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 26)	3000329
 3000330	争行夺市	爭行奪市	zhēng háng duó shì	market competition	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '爭行奪市', p. 47)	3000330
 3000331	汉室	漢室	hàn shì	house of Han	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000331
+3000332	争论不定	爭論不定	zhēnglùn bùdìng	not able to agree	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '爭論不定', p. 47)	3000332
+3000333	苟全性命	\N	gǒuquánxìngmìng	sought only to stay alive	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000333
+3000334	秋风	秋風	qiū fēng	autumn wind	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 秋 autumn + 風 wind (Barnes 2007, p. 35; Guoyu '秋風')	3000334
+3000335	无一事而不学，无一时而不学，无一处而不得	無一事而不學，無一時而不學，無一處而不得	wú yī shì ér bù xué, wú yīshí ér bù xué, wú yī chù ér bùdé	Study everything, at all times, everywhere.	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From Zhu Xi 朱熹 (CC-CEDICT '無一事而不學，無一時而不學，無一處而不得')	3000335
+3000336	无限风光在险峰	無限風光在險峰	wúxiàn fēngguāng zài xiǎnfēng	The boundless vista is at the perilous peak / exhilaration follows a hard-won victory	phrase	\N	\N	谚语	Proverb	\N	\N	\N	\N	(CC-CEDICT '無限風光在險峰')	3000336

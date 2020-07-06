@@ -70,3 +70,9 @@
 5000070	法网灰灰，疏而不漏	法網灰灰，疏而不漏	fǎwǎng huī huī, shū ér bù lòu	The net of justice is wide, but no-one escapes.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '法網灰灰，疏而不漏')	5000070
 5000071	活久见	活久見	huójiǔjiàn	if you live long enough, you'll see everything	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	neologism c. 2006 (CC-CEDICT '活久見')	5000071
 5000072	流量明星	\N	liúliàng míngxīng	celebrity with a huge, devoted fan base	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	neologism c. 2014 (CC-CEDICT '流量明星')	5000072
+5000073	汉姓	漢姓	hàn xìng	Han surname	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '漢姓')	5000073
+5000074	汉字查字法	漢字查字法	Hànzì cházìfǎ	look-up method for Chinese characters	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '漢字查字法')	5000074
+5000075	汉英互译	漢英互譯	Hàn Yīng hùyì	Chinese and English two-way translation	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '漢英互譯')	5000075
+5000076	物质文明和精神文明	物質文明和精神文明	wùzhì wénmíng hé jīngshén wénmíng	material and spiritual culture / matter and mind / material progress, ideology and culture	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Philosophic slogan, adopted into Deng Xiaoping theory from 1978 (CC-CEDICT '物質文明和精神文明')	5000076
+5000077	特征联合	特徵聯合	tèzhēng liánhé	characteristic binding	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '特徵聯合')	5000077
+5000078	现在是过去钥匙	現在是過去鑰匙	xiànzài shì guòqù yàoshi	Today is the key to the past.	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '現在是過去鑰匙')	5000078
