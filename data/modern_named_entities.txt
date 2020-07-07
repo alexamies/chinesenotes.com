@@ -4406,3 +4406,7 @@
 6004406	卢瓦尔河	盧瓦爾河	lúwǎ'ěr hé	Loire River, France	proper noun	水名	River	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '盧瓦爾河')	6004406
 6004407	卢萨卡	盧薩卡	lúsàkǎ	Lusaka, capital of Zambia	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '盧薩卡')	6004407
 6004408	西北航空公司	\N	xīběi hángkōng gōngsī	Northwest Airlines	proper noun	航空公司	Airline	航空	Aviation	美国	United States	\N	\N	(CC-CEDICT '西北航空公司')	6004408
+6004409	新墨西哥州	\N	xīnmòxīgē zhōu	New Mexico	proper noun	州	State	地方	Places	美国	United States	\N	\N	US state (CC-CEDICT '新墨西哥州')	6004409
+6004410	普林斯顿大学	普林斯頓大學	pǔlínsīdùn dàxué	Princeton University	proper noun	大学	University	教育	Education	美国	United States	\N	\N	(CC-CEDICT '普林斯頓大學')	6004410
+6004411	印第安纳	印第安納	yìndìānnà	Indiana	proper noun	州	State	地方	Places	美国	United States	\N	\N	US state (CC-CEDICT '印第安納')	6004411
+6004412	珍珠港	\N	zhēnzhū gǎng	Pearl Harbor	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	In Hawaii (CC-CEDICT '珍珠港')	6004412

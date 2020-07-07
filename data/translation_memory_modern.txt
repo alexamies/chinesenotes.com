@@ -76,3 +76,4 @@
 5000076	物质文明和精神文明	物質文明和精神文明	wùzhì wénmíng hé jīngshén wénmíng	material and spiritual culture / matter and mind / material progress, ideology and culture	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Philosophic slogan, adopted into Deng Xiaoping theory from 1978 (CC-CEDICT '物質文明和精神文明')	5000076
 5000077	特征联合	特徵聯合	tèzhēng liánhé	characteristic binding	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '特徵聯合')	5000077
 5000078	现在是过去钥匙	現在是過去鑰匙	xiànzài shì guòqù yàoshi	Today is the key to the past.	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '現在是過去鑰匙')	5000078
+5000079	共和党人	共和黨人	gònghé dǎng rén	a Republican party member	set phrase	\N	\N	政治	Politics	美国	United States	\N	\N	(CC-CEDICT '共和黨人')	5000079
