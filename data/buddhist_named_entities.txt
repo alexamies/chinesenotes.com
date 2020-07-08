@@ -24,3 +24,5 @@
 7000024	柏克里克千佛洞	\N	bǎiKèlǐkè qiān Fó dòng	Paziklike thousand-Buddha grotto in the Turpan basin, Xinjiang	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	(CC-CEDICT '柏克里克千佛洞')	7000024
 7000025	不动	不動	bùdòng	Budong	proper noun	师父	Monastic	佛教	Buddhism	中国佛教	Chinese Buddhism	\N	\N	Song dynasaty monastic (FGDB '不動')	19410
 7000025	五会法师	五會法師	wǔhuì fǎshī	Venerable Wuhui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Another name for 法照 Fazhao(FGDB '五會法師')	167131
+7000026	吽迦啰身	吽迦囉身	hōngjiāluóshēn	Hūṃkāra	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	A manifestation of Samantabhadra (DDB '吽迦囉身')	7000026
+7000027	吽哈啰悉利	吽哈囉悉利	hōnghāluóxīlì	Honghaluoxili	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Indian monk who travelled to China in the Song dynasty (BSAD '吽哈囉悉利'; FGDB '吽哈囉悉利')	7000027
