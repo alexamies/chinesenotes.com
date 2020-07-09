@@ -337,3 +337,5 @@
 3000337	由是感激	\N	yóushì gǎnjī	out of gratitude	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000337
 3000338	败军之际	敗軍之際	bàijūn zhījì	the aftermath of defeat	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000338
 3000339	临崩	臨崩	lín bēng	on his deathbed	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000339
+3000340	受命以来	受命以來	shòumìng yǐlái	after I received my orders	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000340
+3000341	夙夜忧叹	夙夜憂嘆	sùyè yōu tàn	my nights were all sleepless	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000341

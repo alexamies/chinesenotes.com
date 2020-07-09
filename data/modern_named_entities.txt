@@ -4410,3 +4410,5 @@
 6004410	普林斯顿大学	普林斯頓大學	pǔlínsīdùn dàxué	Princeton University	proper noun	大学	University	教育	Education	美国	United States	\N	\N	(CC-CEDICT '普林斯頓大學')	6004410
 6004411	印第安纳	印第安納	yìndìānnà	Indiana	proper noun	州	State	地方	Places	美国	United States	\N	\N	US state (CC-CEDICT '印第安納')	6004411
 6004412	珍珠港	\N	zhēnzhū gǎng	Pearl Harbor	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	In Hawaii (CC-CEDICT '珍珠港')	6004412
+6004413	花旗	\N	huāqí	Citibank	proper noun	银行	Bank	商务	Commerce	美国	United States	\N	\N	Abbreviation for 花旗银行 (CC-CEDICT '花旗')	6004413
+6004414	花旗银行	花旗銀行	huāqí yínháng	Citibank	proper noun	银行	Bank	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '花旗銀行')	6004414
