@@ -4412,3 +4412,76 @@
 6004412	珍珠港	\N	zhēnzhū gǎng	Pearl Harbor	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	In Hawaii (CC-CEDICT '珍珠港')	6004412
 6004413	花旗	\N	huāqí	Citibank	proper noun	银行	Bank	商务	Commerce	美国	United States	\N	\N	Abbreviation for 花旗银行 (CC-CEDICT '花旗')	6004413
 6004414	花旗银行	花旗銀行	huāqí yínháng	Citibank	proper noun	银行	Bank	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '花旗銀行')	6004414
+6004415	史沫特莱	史沫特萊	shǐ mò té lái	Agnes Smedley	proper noun	人	Person	历史	History	美国	United States	\N	\N	1892-1950; US journalist and activist, reported on China, especially the communist side (CC-CEDICT '史沫特萊')	6004415
+6004416	直皖战争	直皖戰爭	zhí wǎn zhànzhēng	war of 1920 between Northern Warlords, in which the Zhili faction beat the Anhui faction and took over the Beijing government	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '直皖戰爭')	6004416
+6004417	真主党	真主黨	zhēnzhǔdǎng	Hezbollah (Lebanon Islamic group)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '真主黨')	6004417
+6004418	真心话大冒险	真心話大冒險	zhēnxīn huà dà màoxiǎn	The Moment of Truth (TV show) / Truth or Dare (game)	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '真心話大冒險')	6004418
+6004419	真理部	\N	zhēnlǐbù	Ministry of Truth	proper noun	\N	\N	文学	Literature	\N	\N	\N	\N	A fictional ministry from George Orwell's novel Nineteen Eighty-Four (CC-CEDICT '真理部')	6004419
+6004420	知乎	\N	zhīhū	Zhihu	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	Chinese Q&A website modeled on Quora, at zhihu.com, launched in Jan 2011 (CC-CEDICT '知乎')	6004420
+6004421	石原慎太郎	\N	shíyuán shèntàiláng	Ishihara Jintarō	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1932-; Japanese author and politician, governor of Tokyo since 1999 (CC-CEDICT '石原慎太郎')	6004421
+6004422	石油换食品项目	石油換食品項目	shíyóu huàn shípǐn xiàngmù	Iraq Oil for Food Program	proper noun	\N	\N	现代汉语	Modern Chinese	中东	Middle East	\N	\N	(CC-CEDICT '石油換食品項目')	6004422
+6004423	石油输出国组织	石油輸出國組織	shíyóu shūchū guó zǔzhī	Organization of Petroleum Exporting Countries (OPEC)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '石油輸出國組織')	6004423
+6004424	石田芳夫	\N	shítián fāng fū	Ishida Yoshio	proper noun	\N	\N	历史	History	日本	Japan	\N	\N	1948-; Japanese Go player (CC-CEDICT '石田芳夫')	6004424
+6004425	研华	研華	yánhuá	Advantech, technology company	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '研華')	6004425
+6004426	碧昂丝	碧昂絲	bìángsī	Beyoncé	proper noun	人	Person	音乐	Music	美国	United States	\N	\N	1981-; American pop singer (CC-CEDICT '碧昂絲')	6004426
+6004427	碧欧泉	碧歐泉	bìōuquán	Biotherm (brand name)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '碧歐泉')	6004427
+6004428	社会主义教育运动	社會主義教育運動	shèhuì zhǔyì jiàoyù yùndòng	Socialist Education Movement	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	1963-66; Formal name of the Four Cleanups Movement 四清运动 (CC-CEDICT '社會主義教育運動')	6004428
+6004429	社会民主党	社會民主黨	shèhuì mínzhǔ dǎng	Social Democratic Party	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '社會民主黨')	6004429
+6004430	祖国和平统一委员会	祖國和平統一委員會	zǔguó hépíng tǒngyī wěiyuánhuì	Committee for Peaceful Reunification of the Fatherland (North Korean)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '祖國和平統一委員會')	6004430
+6004431	祖马	祖馬	zǔmǎ	Zuma (name) / Jacob Zuma	proper noun	人	Person	历史	History	非洲	Africa	\N	\N	1942-; South African ANC politician, vice-president 1999-2005, president from 2009 (CC-CEDICT '祖馬')	6004431
+6004432	神奇宝贝	神奇寶貝	shénqí bǎobèi	Pokémon or Pocket Monsters, popular Japanese video game, anime and manga	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '神奇寶貝')	6004432
+6004433	神圣周	神聖週	shénshèngzhōu	Holy week / Easter week (esp. Catholic)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '神聖週')	6004433
+6004434	神舟	\N	shénzhōu	Shenzhou (spacecraft) / Hasee (computer manufacturer)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '神舟')	6004434
+6004435	神舟电脑	神舟電腦	shén zhōu diànnǎo	Hasee (computer manufacturer)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '神舟電腦')	6004435
+6004436	神雕侠侣	神雕俠侶	shén diāo xiá lǚ	The Return of the Condor Heroes	proper noun	\N	\N	戏剧	Drama	\N	\N	\N	\N	Classic wuxia martial arts TV films of 1998 and 2006 based on novel by Jinyong 金庸; /variant of 神雕侠侣 (CC-CEDICT '神雕俠侶')	6004436
+6004437	神雕侠侣	神鵰俠侶	shén diāo xiá lǚ	The Return of the Condor Heroes	proper noun	\N	\N	戏剧	Drama	\N	\N	\N	\N	Classic wuxia martial arts TV films of 1998 and 2006 based on novel by Jinyong 金庸 (CC-CEDICT '神鵰俠侶')	6004437
+6004438	神龙汽车	神龍汽車	shénlóng qìchē	Dongfeng Peugeot Citroën Automobile Company Ltd	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '神龍汽車')	6004438
+6004439	福克	\N	fúkè	Fock or Foch (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '福克')	6004439
+6004440	福克斯	\N	fúkèsī	Fox (media company) / Focus (car manufactured by Ford)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '福克斯')	6004440
+6004441	福斯	\N	fúsī	Volkswagen (car manufacturer) / Fox Entertainment Group	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '福斯')	6004441
+6004442	福斯塔夫	\N	fú sī tǎ fū	Falstaff (Shakespearian character)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '福斯塔夫')	6004442
+6004443	福柯	\N	fúkē	Michel Foucault	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1926-1984; French philosopher (CC-CEDICT '福柯')	6004443
+6004444	福田康夫	\N	fútián kāng fū	Fukada Yasuo	proper noun	人	Person	历史	History	英国	England	\N	\N	1936-; Japanese LDP politician, prime minister 2007-2008 (CC-CEDICT '福田康夫')	6004444
+6004445	福科	\N	fúkē	Michel Foucault	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	Also written 福柯; 1926-1984; French philosopher/also written 福柯 (CC-CEDICT '福科')	6004445
+6004446	福维克	福維克	fúwéikè	Vorwerk (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '福維克')	6004446
+6004447	禧玛诺	禧瑪諾	xǐmǎnuò	Shimano (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '禧瑪諾')	6004447
+6004448	礼炮号	禮炮號	lǐpàohào	Salyut (salute), Russian spacecraft series	proper noun	\N	\N	政府	Government	欧洲	Europe	\N	\N	(CC-CEDICT '禮炮號')	6004448
+6004449	秋收起义	秋收起義	qiūshōu qǐyì	Autumn Harvest Uprising	proper noun	地名	Place Name	历史	History	中国	China	\N	\N	1927; Insurrection in Hunan and Jiangxi provinces led by Mao Zedong (CC-CEDICT '秋收起義')	6004449
+6004450	秋叶原	秋葉原	qiūyèyuán	Akihabara, region of downtown Tokyo famous for electronics stores	proper noun	地名	Place Name	地方	Places	日本	Japan	\N	\N	(CC-CEDICT '秋葉原')	6004450
+6004451	科什图尼察	科什圖尼察	kē shén tú ní chá	Kostunica / Vojislav Kostunica	proper noun	人	Person	历史	History	\N	\N	\N	\N	1944-; Serbian politician, prime minister from 2004 (CC-CEDICT '科什圖尼察')	6004451
+6004452	科尼赛克	科尼賽克	kē ní sài kè	Koenigsegg (car manufacturer)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '科尼賽克')	6004452
+6004453	科恩	\N	kēēn	Cohen (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '科恩')	6004453
+6004454	科普特人	\N	kēpǔ té rén	the Copts, major ethnoreligious group of Egyptian Christians	set phrase	\N	\N	现代汉语	Modern Chinese	基督教	Christianity	\N	\N	(CC-CEDICT '科普特人')	6004454
+6004455	科尔多瓦	科爾多瓦	kē'ěrduōwǎ	Córdoba, Spain	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '科爾多瓦')	6004455
+6004456	科林·弗思	\N	kēlín fú sī	Colin Firth, English actor	proper noun	人	Person	戏剧	Drama	英国	England	\N	\N	1960- (CC-CEDICT '科林·弗思')	6004456
+6004457	科比·布莱恩特	科比·布萊恩特	kēbì bùláiēn té	Kobe Bryant	proper noun	人	Person	体育	Sport	\N	\N	\N	\N	1978-2020; Los Angeles Lakers NBA star (CC-CEDICT '科比·布萊恩特')	6004457
+6004458	科特布斯	\N	kētébùsī	Cottbus (city in Germany)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '科特布斯')	6004458
+6004459	科特迪瓦共和国	科特迪瓦共和國	Kētédíwǎ gònghéguó	Republic of Côte d'Ivoire	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '科特迪瓦共和國')	6004459
+6004460	科纳克里	科納克里	kēnàkèlǐ	Conakry, capital of Guinea	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '科納克里')	6004460
+6004461	科罗拉多	科羅拉多	kēluólāduō	Colorado	proper noun	\N	\N	地方	Places	美国	United States	\N	\N	(CC-CEDICT '科羅拉多')	6004461
+6004462	科罗拉多大峡谷	科羅拉多大峽谷	kēluólāduōdà xiágǔ	the Grand Canyon (Colorado)	proper noun	\N	\N	地方	Places	美国	United States	\N	\N	(CC-CEDICT '科羅拉多大峽谷')	6004462
+6004463	科罗拉多州	科羅拉多州	kēluólāduō zhōu	Colorado	proper noun	\N	\N	地方	Places	美国	United States	\N	\N	(CC-CEDICT '科羅拉多州')	6004463
+6004464	科茨沃尔德	科茨沃爾德	kēcíwò'ěrdé	the Cotswolds (England)	phrase	\N	\N	现代汉语	Modern Chinese	英国	England	\N	\N	(CC-CEDICT '科茨沃爾德')	6004464
+6004465	科西嘉岛	科西嘉島	kēxījiā dǎo	Corsica (Island located west of Italy and southeast of France)	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '科西嘉島')	6004465
+6004466	科迪勒拉	\N	kēdílēilā	Cordillera, series of mountain ranges stretching from Patagonia in South America through to Alaska and Aleutian Islands	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '科迪勒拉')	6004466
+6004467	科迪勒拉山系	\N	kēdílēilā shān xì	Cordillera, series of mountain ranges stretching from Patagonia in South America through to Alaska and Aleutian islands	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '科迪勒拉山系')	6004467
+6004468	程砚秋	程硯秋	chéngyànqiū	Cheng Yanqiu	proper noun	\N	\N	历史	History	中国	China	\N	\N	1904-1958; Famous Beijing opera star, second only to 梅兰芳 (CC-CEDICT '程硯秋')	6004468
+6004469	穆加贝	穆加貝	mùjiābèi	Robert Mugabe	proper noun	人	Person	历史	History	非洲	Africa	\N	\N	1924-; Zimbabwean ZANU-PF politician, president of Zimbabwe 1987-2017 (CC-CEDICT '穆加貝')	6004469
+6004470	穆巴拉克	\N	mù bālākè	Hosni Mubarak	proper noun	\N	\N	历史	History	\N	\N	\N	\N	1928-; Former Egyptian President and military commander (CC-CEDICT '穆巴拉克')	6004470
+6004471	穆尔西	穆爾西	mùěrxī	Morsi, Mursi or Morsy (name) / Mohamed Morsi	proper noun	人	Person	历史	History	名字	Names	\N	\N	1951-; Egyptian Muslim Brotherhood politician, president of Egypt 2012-2013 (CC-CEDICT '穆爾西')	6004471
+6004472	穆罕默德·欧玛	穆罕默德·歐瑪	Mùhǎnmòdé ōu mǎ	Mullah Mohammad Omar	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1959-; Taliban leader, Afghan head of state 1996-2001 (CC-CEDICT '穆罕默德·歐瑪')	6004472
+6004473	穆罕默德六世	\N	Mùhǎnmòdé liù shì	King Mohammed VI (King of Morocco)	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '穆罕默德六世')	6004473
+6004474	穆萨维	穆薩維	mùsàwéi	Moussavi, Mir Hussein	proper noun	\N	\N	历史	History	中东	Middle East	\N	\N	1941-; Candidate in Iran's disputed 2009 elections (CC-CEDICT '穆薩維')	6004474
+6004475	穆迪	\N	mùdí	Moody's, company specializing in financial market ratings	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '穆迪')	6004475
+6004476	空中客车	空中客車	kōngzhōng kèchē	Airbus (aerospace company)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '空中客車')	6004476
+6004477	突尼斯市	\N	tūnísī shì	Tunis, capital of Tunisia	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '突尼斯市')	6004477
+6004478	立顿	立頓	lìdùn	Lipton (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '立頓')	6004478
+6004479	符腾堡	符騰堡	fúténgbǎo	Württemberg, region of southwest Germany, former state around Stuttgart 斯圖加特|斯图加特	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '符騰堡')	6004479
+6004480	第三帝国	第三帝國	dì sān dìguó	Third Reich, Nazi regime	proper noun	\N	\N	历史	History	\N	\N	\N	\N	1933-1945 (CC-CEDICT '第三帝國')	6004480
+6004481	第二次汉字简化方案	第二次漢字簡化方案	dì èrcì Hànzì jiǎnhuà fāngàn	Second Chinese Character Simplification Scheme	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	Abbreviation to 二简; second round of simplified Chinese characters, proposed in 1977 and retracted in 1986; /abbr. to 二简 (CC-CEDICT '第二次漢字簡化方案')	6004481
+6004482	第戎	\N	dìróng	Dijon (France)	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '第戎')	6004482
+6004483	第比利斯	\N	dì bìlì sī	T'bilisi, capital of Georgia	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '第比利斯')	6004483
+6004484	罗利	羅利	luólì	Raleigh	proper noun	城市	City	地方	Places	美国	United States	\N	\N	State capital of North Carolina (CC-CEDICT '羅利')	6004484
+6004485	道琼	道瓊	dào qióng	Dow Jones / Dow Jones Industrial Average (DJIA)	proper noun	指数	Index	商务	Commerce	美国	United States	\N	\N	See 道琼工业平均指数 (CC-CEDICT '道瓊')	6004485
+6004486	爱州	愛州	àizhōu	Iowa	proper noun	州	State	地方	Places	美国	United States	\N	\N	US state; abbreviation for 爱奥华州 (CC-CEDICT '愛州')	6004486
+6004487	道琼工业平均指数	道瓊工業平均指數	dào qióng gōngyè píngjūn zhǐshǔ	Dow Jones Industrial Average (DJIA)	proper noun	指数	Index	商务	Commerce	美国	United States	\N	\N	(Wikipedia '道瓊工業平均指數'; Guoyu '道瓊工業指數')	6004487

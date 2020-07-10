@@ -339,3 +339,7 @@
 3000339	临崩	臨崩	lín bēng	on his deathbed	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000339
 3000340	受命以来	受命以來	shòumìng yǐlái	after I received my orders	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000340
 3000341	夙夜忧叹	夙夜憂嘆	sùyè yōu tàn	my nights were all sleepless	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000341
+3000342	深入不毛	\N	shēnrù bùmáo	deep into the wilderness	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000342
+3000343	争点	爭點	zhēng diǎn	a point of debate	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '爭點', p. 47)	3000343
+3000344	好争	好爭	hǎo zhēng	argumentative	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '好爭', p. 47)	3000344
+3000345	纸上争论	紙上爭論	zhǐ shàng zhēnglùn	paper warfare	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '紙上爭論', p. 47)	3000345

@@ -77,3 +77,7 @@
 5000077	特征联合	特徵聯合	tèzhēng liánhé	characteristic binding	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '特徵聯合')	5000077
 5000078	现在是过去钥匙	現在是過去鑰匙	xiànzài shì guòqù yàoshi	Today is the key to the past.	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '現在是過去鑰匙')	5000078
 5000079	共和党人	共和黨人	gònghé dǎng rén	a Republican party member	set phrase	\N	\N	政治	Politics	美国	United States	\N	\N	(CC-CEDICT '共和黨人')	5000079
+5000080	科学技术是第一生产力	科學技術是第一生產力	kēxué jìshù shì dì yī shēngchǎn lì	Science and technology is the number one productive force	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	From 1978 speech by Deng Xiaoping 邓小平 introducing the Four Modernizations 四个现代化 (CC-CEDICT '科學技術是第一生產力')	5000080
+5000081	科学发展观	科學發展觀	kēxué fāzhǎn guān	Scientific Outlook on Development	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	A guiding principle for the CPC attributed to Hu Jintao 胡锦涛, incorporated into the Constitution of the CPC in 2007 (CC-CEDICT '科學發展觀')	5000081
+5000082	穷二代	窮二代	qióng èr dài	those who did not benefit from the Chinese economic reforms of the 1980s	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	See also 富二代 (CC-CEDICT '窮二代')	5000082
+5000083	第四台	第四臺	dì sìtái	fourth channel / (in Taiwan) cable TV, FTV	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '第四臺')	5000083

@@ -23,7 +23,6 @@
 7000023	库木吐拉千佛洞	庫木吐拉千佛洞	kùmùtùlā qiān Fó dòng	Kumutula thousand-Buddha grotto	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	In Kuqa, Xinjiang (CC-CEDICT '庫木吐拉千佛洞')	7000023
 7000024	柏克里克千佛洞	\N	bǎiKèlǐkè qiān Fó dòng	Paziklike thousand-Buddha grotto in the Turpan basin, Xinjiang	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	(CC-CEDICT '柏克里克千佛洞')	7000024
 7000025	不动	不動	bùdòng	 [Venerable] Akshobya	proper noun	师父	Monastic	佛教	Buddhism	中国佛教	Chinese Buddhism	\N	\N	Song dynasaty monastic from India (FGDB '不動')	19410
-7000025	五会法师	五會法師	wǔhuì fǎshī	Venerable Wuhui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Another name for 法照 Fazhao(FGDB '五會法師')	167131
 7000026	吽迦啰身	吽迦囉身	hōngjiāluóshēn	Hūṃkāra	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	A manifestation of Samantabhadra (DDB '吽迦囉身')	7000026
 7000027	吽哈啰悉利	吽哈囉悉利	hōnghāluóxīlì	Honghaluoxili	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Indian monk who travelled to China in the Song dynasty, Sanskrit name unknown (BSAD '吽哈囉悉利'; FGDB '吽哈囉悉利')	7000027
 7000028	哞哈啰悉利	哞哈囉悉利	mōuhāluóxīlì	Mouhaluoxili	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	12th century Indian monk, Sanskrit name unknwon (BSAD '哞哈囉悉利')	7000028
@@ -32,7 +31,38 @@
 7000031	喇玛尼耶威哈利长老	喇瑪尼耶威哈利長老	lǎmǎníyéwēihālì zhǎnglǎo	Ramaṇīyavihārin	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Pali: Ramaṇīyavihārin; Indian monastic (BSAD '喇瑪尼耶威哈利長老')	7000031
 7000032	三磨耶悉利	\N	sānmóyéxīlì	Sanmoyexili	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit name unknwon, came to China with 吽哈囉悉利 Honghaluoxili in the Song (BSAD '三磨耶悉利')	7000032
 7000033	康仓竹嘉	康倉竹嘉	kāngcāngzhújiā	Kangcangzhujia	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1908-1984; Tibetan monastic (FGDB '康倉竹嘉')	7000033
-7000034	敏珠林寺	\N	mǐnzhūlín sì	Mindollin / Mindrolling Monastery	proper noun	寺院	Temple	佛教	Buddhism	\N	\N	\N	\N	A major monastery of the Nyingma school, located in Tibet (FGDB '敏珠林寺'; Wikipedia '敏珠林寺')	7000034
-7000035	帕摩竹巴	\N	pàmózhúbā	Phagmo Drupa Dorje Gyalpo	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Tibetan monastic (CC-CEDICT '帕摩竹巴'; Guoyu '帕摩竹巴'; Wikipedia '帕摩竹巴')	7000035
-7000036	佐钦寺	佐欽寺	zuǒqīn sì	Dzogchen Monastery	proper noun	寺院	Temple	佛教	Buddhism	\N	\N	\N	\N	 A major monastery of the Nyingma tradition, located in Tibet; also known as 竹慶寺 (FGDB '佐欽寺'; Wikipedia '佐钦寺')	7000036
-7000037	竹庆寺	竹慶寺	zhúqìng sì	Dzogchen Monastery	proper noun	寺院	Temple	佛教	Buddhism	\N	\N	\N	\N	Also known as 佐欽寺 (FGDB '竹慶寺'; Wikipedia '佐钦寺')	7000037
+7000034	敏珠林寺	\N	mǐnzhūlín sì	Mindollin / Mindrolling Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	A major monastery of the Nyingma school, located in Tibet (FGDB '敏珠林寺'; Wikipedia '敏珠林寺')	7000034
+7000035	帕摩竹巴	\N	pàmózhúbā	Phagmo Drupa Dorje Gyalpo	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Tibetan monastic (CC-CEDICT '帕摩竹巴'; Guoyu '帕摩竹巴'; Wikipedia '帕摩竹巴')	7000035
+7000036	佐钦寺	佐欽寺	zuǒqīn sì	Dzogchen Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	 A major monastery of the Nyingma tradition, located in Tibet; also known as 竹慶寺 (FGDB '佐欽寺'; Wikipedia '佐钦寺')	7000036
+7000037	竹庆寺	竹慶寺	zhúqìng sì	Dzogchen Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Also known as 佐欽寺 (FGDB '竹慶寺'; Wikipedia '佐钦寺')	7000037
+7000038	白玉寺	\N	báiyù sì	Palyul Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '白玉寺')	7000038
+7000039	雪谦寺	雪謙寺	xuěqiān sì	Shechen Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '雪謙寺')	7000039
+7000040	直贡梯寺	直貢梯寺	zhígòngtī sì	Drigung Thil Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '直贡梯寺')	7000040
+7000041	八邦寺	\N	bābāng sì	Palpung Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '八邦寺')	7000041
+7000042	大司徒仁波切	\N	dàsītú rénbōqiē	Tai Situpa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	A lineage of Tibetan Buddhism (Wikipedia '大司徒仁波切')	7000042
+7000043	热隆寺	熱隆寺	rèlóng sì	Ralung Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '热隆寺')	7000043
+7000044	竹钦活佛	竹欽活佛	zhúqīn huófó	Gyalwang Drukpa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Title of the head of the Drukpa Lineage (Wikipedia '竹钦活佛')	7000044
+7000045	五会法师	五會法師	wǔhuì fǎshī	Venerable Wuhui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Another name for 法照 Fazhao (FGDB '五會法師')	7000045
+7000046	楚布寺	\N	chǔbùsì	Tsurphu Monastery / Tölung Tsurphu	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '楚布寺')	7000046
+7000047	嘉华噶玛巴	嘉華噶瑪巴	jiāhuágémǎbā	Gyalwang Karmapa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 噶瑪巴 (Wikipedia '噶玛巴')	7000047
+7000048	俄尔寺	俄爾寺	éěrsì	Ngor	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '俄尔寺')	7000048
+7000049	萨迦寺	薩迦寺	sàjiā sì	Sakya Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '萨迦寺')	7000049
+7000050	萨迦法王	薩迦法王	sàjiā fǎwáng	Sakya Trizin	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	 Title of the head of the Sakya school of Tibetan Buddhism (Wikipedia '薩迦法王')	7000050
+7000051	噶登寺	\N	gédēng sì	Ganden monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 甘丹寺 (FGDB '甘丹寺')	7000051
+7000052	噶尔丹寺	噶爾丹寺	gé'ěrdān sì	Ganden monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 甘丹寺 (FGDB '甘丹寺')	7000052
+7000053	噶勒丹寺	\N	gélēidān sì	Ganden monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 甘丹寺 (FGDB '甘丹寺')	7000053
+7000054	甘丹赤巴	\N	gāndān chìbā	Ganden Tripa / Gaden Tripa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	 Title of the spiritual leader of the Gelug school of Tibetan Buddhism (Wikipedia '甘丹赤巴')	7000054
+7000055	甘单赤巴	甘單赤巴	gāndān chìbā	Ganden Tripa / Gaden Tripa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 甘丹赤巴 (Wikipedia '甘丹赤巴')	7000055
+7000056	噶丹赤巴	\N	gédān chìbā	Ganden Tripa / Gaden Tripa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 甘丹赤巴 (Wikipedia '甘丹赤巴')	7000056
+7000057	扎什伦布寺	扎什倫布寺	zhāshénlúnbù sì	Tashi Lhunpo Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '扎什伦布寺')	7000057
+7000058	罗桑益西	羅桑益西	luósāngyìxī	Blo-bzaṅ ye-śes	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	1663-1737; The 5th incarnation of the Panchen (FGDB '羅桑益西')	7000058
+7000059	格西	\N	géxī	Geshe	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	An academic degree for Tibetan monastics (FGDB '格西'; Wikipedia '格西')	7000059
+7000060	金瓦寺	\N	jīnwǎ sì	Kumbum Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 塔爾寺 (FGDB '塔爾寺')	7000060
+7000061	塔儿寺	塔兒寺	tǎ'ér sì	Kumbum Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 塔爾寺 (FGDB '塔爾寺')	7000061
+7000062	康僧铠	康僧鎧	kāngsēngkǎi	Saṃghavarman	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Indian monastic from the Three Kingdoms period (BSAD '康僧鎧'; FGDB '康僧鎧')	7000062
+7000063	僧伽跋摩	\N	sēngjiābámó	Saṃghavarman	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	See 康僧鎧 (FGDB '康僧鎧')	7000063
+7000064	康僧凯	康僧凱	kāngsēngkǎi	Saṃghavarman	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	See 康僧鎧 (BSAD '康僧鎧')	7000064
+7000065	康婆陈那长老	康婆陳那長老	kāngpóchénnàzhǎnglǎo	Kaṅhadinna	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Monastic from India (BSAD '康婆陳那長老')	7000065
+7000066	康达须摩那长老	康達須摩那長老	kāngdáxūmónà zhǎnglǎo	Khaṇḍasumana	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Pali: khaṇḍasumana; monastic from India (BSAD '康達須摩那長老')	7000066
+7000067	创古仁波切	創古仁波切	chuànggǔ rénbōqiē	Thrangu Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1933-; Prominent in the Kagyu school of Tibetan Buddhism s(Wikipedia '創古仁波切')	7000067
+7000068	阿贡仁波切	阿貢仁波切	āgòng rénbōqiē	Akong Rinpoche / Chöje Akong Tulku Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1939-2013; Tibetan monastic (Wikipedia '阿贡仁波切')	7000068
