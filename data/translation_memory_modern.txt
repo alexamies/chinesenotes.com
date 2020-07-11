@@ -81,3 +81,21 @@
 5000081	科学发展观	科學發展觀	kēxué fāzhǎn guān	Scientific Outlook on Development	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	A guiding principle for the CPC attributed to Hu Jintao 胡锦涛, incorporated into the Constitution of the CPC in 2007 (CC-CEDICT '科學發展觀')	5000081
 5000082	穷二代	窮二代	qióng èr dài	those who did not benefit from the Chinese economic reforms of the 1980s	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	See also 富二代 (CC-CEDICT '窮二代')	5000082
 5000083	第四台	第四臺	dì sìtái	fourth channel / (in Taiwan) cable TV, FTV	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '第四臺')	5000083
+5000084	糖弹	糖彈	táng dàn	sugar-coated bullets	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 糖衣炮弹; term used by Mao, originally in 1949, to refer to corrupting bourgeois influences (CC-CEDICT '糖彈')	5000084
+5000085	糖衣炮弹	糖衣炮彈	tángyī pàodàn	sugar-coated bullets	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Term used by Mao, originally in 1949;  to refer to corrupting bourgeois influences (CC-CEDICT '糖衣炮彈')	5000085
+5000086	美剧	美劇	měijù	American TV series	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Abbreviation for 美国电视剧 (CC-CEDICT '美劇')	5000086
+5000087	美国军人	美國軍人	Měiguó jūnrén	American serviceman / US soldier	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '美國軍人')	5000087
+5000088	美巴	\N	měi bā	America and Pakistan / America and Brazil / America and Panama	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '美巴')	5000088
+5000089	美欧	美歐	měi ōu	US and EU / America-Europe	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '美歐')	5000089
+5000090	美朝	\N	měi cháo	US and North Korea	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '美朝')	5000090
+5000091	群众路线	群眾路線	qúnzhòng lùxiàn	the mass line	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	CPC term for Party policy aimed at broadening and cultivating contacts with the masses (CC-CEDICT '群眾路線')	5000091
+5000092	群体性事件	群體性事件	qúntǐ xìngshì jiàn	mass incident (PRC term for incidents of social unrest, including rioting, melees and petition campaigns)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '群體性事件')	5000092
+5000093	老三色	\N	lǎosānsè	the three plain colors used for clothing in the PRC in the 1960s: black, gray and blue	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '老三色')	5000093
+5000094	老子英雄儿好汉，老子反动儿混蛋	老子英雄兒好漢，老子反動兒混蛋	lǎozǐ yīngxióng ér hǎohàn, lǎozǐ fǎndòng ér húndàn	If the father is a hero, the son is a real man. If the father is a reactionary, the son is a bastard. (Cultural Revolution slogan)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '老子英雄兒好漢，老子反動兒混蛋')	5000094
+5000095	亲美	親美	qīn měi	pro-United States	set phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(CC-CEDICT '親美')	5000095
+5000096	纸老虎	紙老虎	zhǐ lǎohǔ	paper tiger	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	A term used by 毛泽东 Mao Zedong to refer to the United States (Sullivan and Hearst 1997, 'PAPER TIGER')	5000096
+5000097	联俄	聯俄	liáné	alliance with Russia (e.g. of early Chinese communists)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '聯俄')	5000097
+5000098	联产到户	聯產到戶	liánchǎn dào hù	household responsibility system	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Introduced in the early 1980s, under which each rural household could freely decide what to produce and how to sell, as long as it fulfilled its quota of products to the state (CC-CEDICT '聯產到戶')	5000098
+5000099	脱亚入欧	脫亞入歐	tuō yà rù ōu	to abandon the old (Asian) ways and learn from Europe	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '脫亞入歐')	5000099
+5000100	脱星	脫星	tuōxīng	actress or actor known for having been photographed in the nude or for appearing in sexy scenes	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '脫星')	5000100
+5000101	腐国	腐國	fǔguó	UK (slang term reflecting a perception of UK as decadent for its attitudes toward homosexuality)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '腐國')	5000101
