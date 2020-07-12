@@ -140,3 +140,9 @@
 5000140	办货	辦貨	bànhuò	to purchase goods (for a company etc)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '辦貨')	5000140
 5000141	农村家庭联产承包责任制	農村家庭聯產承包責任制	nóngcūn jiātíng liánchǎn chéngbāo zérènzhì	rural household contract responsibility system, PRC government policy linking rural income to productivity	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '農村家庭聯產承包責任制')	5000141
 5000142	追剧	追劇	zhuī jù	to watch a TV series etc regularly / to binge-watch	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '追劇')	5000142
+5000143	过程比终点更美	過程比終點更美	guòchéng bì zhōngdiǎn gèng měi	The process is more beautiful than the outcome. / It is better to travel hopefully than to arrive.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '過程比終點更美')	5000143
+5000144	鄙视链	鄙視鏈	bǐ shì liàn	a ranking of items in a particular category, with the most highly regarded on top	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Neologism c. 2012, coined by analogy with 食物链, food chain (CC-CEDICT '鄙視鏈')	5000144
+5000145	医药分离	醫藥分離	yīyào fēnlí	separating medical consultation from dispensing drugs	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Proposed policy to counteract perceived PRC problem of drugs serving to nourish doctors 以药养医 (CC-CEDICT '醫藥分離')	5000145
+5000146	医闹	醫鬧	yī nào	organized disruption of healthcare facilities	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Neologism c. 2013; or verbal and physical abuse of medical staff, by an aggrieved patient or proxies such as family members or hired thugs, typically aimed at obtaining compensation (CC-CEDICT '醫鬧')	5000146
+5000147	重玩	\N	 chóng wán	to replay (a video game)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '重玩')	5000147
+5000148	镰刀斧头	鐮刀斧頭	liándāo fǔtóu	the hammer and sickle	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Flag of USSR, symbolizing rural and proletarian labor (CC-CEDICT '鐮刀斧頭')	5000148

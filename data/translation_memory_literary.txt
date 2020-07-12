@@ -346,3 +346,9 @@
 3000346	兵甲已足	\N	bīng jiǎ yǐ zú	our weapons and armour are adequate	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000346
 3000347	庶竭驽钝	庶竭駑鈍	shù jié núdùn	I will exhaust my poor skills	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000347
 3000348	攘除姦凶	\N	rǎngchú jiān xiōng	expel their cruel and traitorous overlords	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000348
+3000349	兴复	興復	xīng fù	to restore	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000349
+3000350	忠陛下	\N	zhōng bìxià	loyally serve your majesty	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000350
+3000351	道之所存，师之所存	道之所存，師之所存	dào zhī suǒ cún, shī zhī suǒ cún	If sb has grasped the truth before you, take him as your teacher	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Tang dynasty essayist Han Yu 韩愈 (CC-CEDICT '道之所存，師之所存')	3000351
+3000352	道所存者，乃师所存者	道所存者，乃師所存者	dào suǒ cún zhě, nǎi shī suǒ cún zhě	If sb has grasped the truth before you, take him as your teacher	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Tang dynasty essayist Han Yu 韩愈 (CC-CEDICT '道所存者，乃師所存者')	3000352
+3000353	深追	\N	shēn zhuī	deeply study	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000353
+3000354	铮铮有声	錚錚有聲	zhēng zhēng yǒu shēng	clanging sounds	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '錚錚有聲', p. 47)	3000354

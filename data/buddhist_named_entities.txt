@@ -121,3 +121,11 @@
 7000121	国际观音禅院	國際觀音禪院	guójìG uānyīn Chányuàn	Kwan Um School of Zen	proper noun	\N	\N	佛教	Buddhism	韩国	Korea	\N	\N	A modern Korean Buddhist order (Wikipedia '國際觀音禪院')	7000121
 7000122	普贤寺	普賢寺	pǔxiánsì	Pohyonsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Korea (Wikipedia '普贤寺 (朝鲜)')	7000122
 7000123	性彻	性徹	xìngchè	Seongcheol / Sŏngch'ŏl	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1912-1993; Korean monastic (DDB '性徹'; FGDB '性徹'; Wikipedia '性徹')	7000123
+7000124	阿佐太子	\N	āzuǒ tàizǐ	Prince Asa	proper noun	人	Person	佛教	Buddhism	韩国	Korea	\N	\N	572 – 645; Korean royal lay person (Wikipedia '阿佐太子')	7000124
+7000125	昙征	曇徵	tánzhēng	Damjing	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	579-631; Korean: Damjing, Japanese: Donchō; Korean monk, also travelled to Japan (FGDB '曇徵'; Wikipedia '曇徵')	7000125
+7000126	慧灌	\N	huìguàn	Hyegwan	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	Korean: Hyegwan, Japanese: Ekan; Korean monk, also travelled to Japan  in the Asuka period (DDB '慧灌'; FGDB '慧灌'; Wikipedia '慧灌')	7000126
+7000127	慧观	慧觀	huìguān	Hyegwan	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	Variant writing of 慧灌 (FGDB '慧灌')	7000127
+7000128	慧灌	\N	huìguàn	Hyegwan	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	Variant writing of 慧灌 (FGDB '慧灌')	7000128
+7000129	惠慈	\N	huìcí	Hyeja / Eji	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	Korean monk, travelled to Japan in the Asuka period c. 595 (Wikipedia '惠慈')	7000129
+7000130	辛旽	\N	xīntùn	Sin Don	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1322~1371; Korean monk (Wikipedia '辛旽')	7000130
+7000131	越海一玉	\N	yuèhǎi yīyù	Wolhae Ilok	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	Korean monk (BSAD '越海一玉')	7000131

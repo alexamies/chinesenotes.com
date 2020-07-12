@@ -1538,8 +1538,8 @@
 6001538	中央人民政府驻香港特别行政区联络办公室	中央人民政府駐香港特別行政區聯絡辦公室	zhōngyāng rénmínzhèngfǔ zhù xiānggǎng Tèbié Xíngzhèng Qū liánluò bàngōngshì	Liaison Office of the Central People's Government in the Hong Kong Special Administrative Region	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '中央人民政府駐香港特別行政區聯絡辦公室')	6001538
 6001539	中央宣传部	中央宣傳部	zhōngyāng xuānchuán bù	Central Propaganda Department	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	Abbreviation for 中国共产党中央委员会宣传部) (CC-CEDICT '中央宣傳部')	6001539
 6001540	中央民族大学	中央民族大學	zhōngyāng mínzú dàxué	Central University for Nationalities	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '中央民族大學')	6001540
-6001541	中央军事委员会	中央軍事委員會	zhōngyāng jūnshì wěiyuánhuì	(PRC) Central Military Commission	phrase	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中央軍事委員會')	6001541
-6001542	中央军委	中央軍委	zhōngyāng jūn wěi	Central Military Committee (CMC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '中央軍委')	6001542
+6001541	中央军事委员会	中央軍事委員會	zhōngyāng jūnshì wěiyuánhuì	(PRC) Central Military Commission	phrase	\N	\N	军事	Military	中国	China	\N	\N	(CC-CEDICT '中央軍事委員會')	6001541
+6001542	中央军委	中央軍委	zhōngyāng jūn wěi	Central Military Committee (CMC)	proper noun	\N	\N	军事	Military	中国	China	\N	\N	(CC-CEDICT '中央軍委')	6001542
 6001543	中山成彬	\N	zhōngshān chéngbīn	Nakayama Nariaki	proper noun	人	Person	政治	Politics	日本	Japan	\N	\N	1943-; right-wing Japanese cabinet minister and prominent denier of Japanese war crimes (CC-CEDICT '中山成彬')	6001543
 6001544	中山狼传	中山狼傳	zhōngshān láng chuán	The Wolf of Zhongshan	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	Fable by Ma Zhongxi 马中锡 (CC-CEDICT '中山狼傳')	6001544
 6001545	中复电讯	中復電訊	zhōng fù diànxùn	Zoomflight Telecom (Chinese company)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '中復電訊')	6001545
@@ -2815,8 +2815,8 @@
 6002815	国家计划委员会	國家計劃委員會	guójiā jìhuà wěiyuánhuì	PRC State Planning Committee, set up in 1952, replaced in 1998 by State Development and Planning Committee 國家發展計劃委員會|国家发展计划委员会[Guo2 jia1 Fa1 zhan3 Ji4 hua4 Wei3 yuan2 hui4] then in 2003 by National Development and Reform Commission 國家發展和改革委員會|国家发展和改革委员会	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '國家計劃委員會')	6002815
 6002816	国家计委	國家計委	guójiā jì wěi	PRC State Planning Committee	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation for 国家计划委员会 (CC-CEDICT '國家計委')	6002816
 6002817	国家质量监督检验检疫总局	國家質量監督檢驗檢疫總局	guójiā zhìliàng jiāndū jiǎnyàn jiǎnyì zǒngjú	AQSIQ / PRC State Administration of Quality Supervision, Inspection and Quarantine	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家質量監督檢驗檢疫總局')	6002817
-6002818	国家军品贸易局	國家軍品貿易局	guójiā jūnpǐn màoyì jú	State Bureau of Military Products Trade (SBMPT)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國家軍品貿易局')	6002818
-6002819	国家军品贸易管理委员会	國家軍品貿易管理委員會	guójiā jūnpǐn màoyì guǎnlǐ wěiyuánhuì	State Administration Committee on Military Products Trade (SACMPT)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '國家軍品貿易管理委員會')	6002819
+6002818	国家军品贸易局	國家軍品貿易局	guójiā jūnpǐn màoyì jú	State Bureau of Military Products Trade (SBMPT)	proper noun	\N	\N	军事	Military	\N	\N	\N	\N	(CC-CEDICT '國家軍品貿易局')	6002818
+6002819	国家军品贸易管理委员会	國家軍品貿易管理委員會	guójiā jūnpǐn màoyì guǎnlǐ wěiyuánhuì	State Administration Committee on Military Products Trade (SACMPT)	proper noun	\N	\N	军事	Military	\N	\N	\N	\N	(CC-CEDICT '國家軍品貿易管理委員會')	6002819
 6002820	国家重点学科	國家重點學科	guójiā zhòngdiǎn xuékē	National Key Disciplines (disciplines recognized as important and supported by PRC central government, including medicine, science, chemistry, engineering, commerce and law)	proper noun	人	Person	政府	Government	化学	Chemistry	\N	\N	(CC-CEDICT '國家重點學科')	6002820
 6002821	国家重点实验室	國家重點實驗室	guójiā zhòngdiǎn shíyàn shì	State Key Laboratories (university laboratories in PRC supported by the central government)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家重點實驗室')	6002821
 6002822	国家电力监管委员会	國家電力監管委員會	guójiā diànlì jiānguǎn wěiyuánhuì	State Electricity Regulatory Commission (PRC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '國家電力監管委員會')	6002822
@@ -5180,10 +5180,10 @@
 6005180	路西法	\N	lùxīfǎ	Lucifer (Satan's name before his fall in Jewish and Christian mythology)	proper noun	\N	\N	现代汉语	Modern Chinese	基督教	Christianity	\N	\N	(CC-CEDICT '路西法')	6005180
 6005181	本杰明·富兰克林	本傑明·富蘭克林	běnjiémíng fùlánkèlín	Benjamin Franklin	proper noun	人	Person	历史	History	美国	United States	\N	\N	1706-1790; American writer, scientist, inventor, politician and diplomat (CC-CEDICT '本傑明·富蘭克林')	6005181
 6005182	车尔尼雪夫斯基	車爾尼雪夫斯基	chē ěr ní xuě fū sī jī	Nikolai Chernyshevsky	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '車爾尼雪夫斯基')	6005182
-6005183	军委	軍委	jūnwěi	Military Commission of the Communist Party Central Committee	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '軍委')	6005183
-6005184	军委会	軍委會	jūnwěihuì	Military Commission of the Communist Party Central Committee	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	Same as 军委 (CC-CEDICT '軍委會')	6005184
+6005183	军委	軍委	jūnwěi	Military Commission of the Communist Party Central Committee	proper noun	\N	\N	军事	Military	\N	\N	\N	\N	(CC-CEDICT '軍委')	6005183
+6005184	军委会	軍委會	jūnwěihuì	Military Commission of the Communist Party Central Committee	proper noun	\N	\N	军事	Military	\N	\N	\N	\N	Same as 军委 (CC-CEDICT '軍委會')	6005184
 6005185	军情五处	軍情五處	jūnqíng wǔ chù	MI5 (British military counterintelligence office)	proper noun	\N	\N	政府	Government	英国	England	\N	\N	(CC-CEDICT '軍情五處')	6005185
-6005186	军情六处	軍情六處	jūnqíng liù chù	MI6 (British military intelligence agency)	proper noun	\N	\N	政府	Government	英国	England	\N	\N	(CC-CEDICT '軍情六處')	6005186
+6005186	军情六处	軍情六處	jūnqíng liù chù	MI6 (British military intelligence agency)	proper noun	\N	\N	军事	Military	英国	England	\N	\N	(CC-CEDICT '軍情六處')	6005186
 6005187	沃尔特·惠特曼	沃爾特·惠特曼	wò ěr té huìtémàn	Walt Whitman	proper noun	人	Person	历史	History	美国	United States	\N	\N	1819-1892; American poet, essayist and journalist (CC-CEDICT '沃爾特·惠特曼')	6005187
 6005188	软库	軟庫	ruǎnkù	Softbank corporation, Japanese e-commerce firm	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '軟庫')	6005188
 6005189	载伯德	載伯德	zàibódé	Zebedee (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '載伯德')	6005189
@@ -5207,3 +5207,145 @@
 6005207	迪戈·加西亚岛	迪戈·加西亞島	dí gē jiāxī yà dǎo	Diego Garcia tropical island and US military base in the Indian Ocean, main island of Chago archipelago 查戈斯群島|查戈斯群岛	proper noun	\N	\N	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	(CC-CEDICT '迪戈·加西亞島')	6005207
 6005208	迪斯尼	\N	dísīní	Disney (company name, surname)	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Also written 迪士尼 (CC-CEDICT '迪斯尼')	6005208
 6005209	迪庄	迪莊	dízhuāng	Dijon (French town)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '迪莊')	6005209
+6005210	海明威	\N	hǎimíngwēi	Ernest Hemingway	proper noun	作者	Author	文学	Literature	美国	United States	\N	\N	1899-1961; American novelist and journalist (CC-CEDICT '海明威')	6005210
+6005211	海顿	海頓	hǎidùn	Haydn (name) / Franz Joseph Haydn	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1732-1809; Austrian classical composer (CC-CEDICT '海頓')	6005211
+6005212	福克纳	福克納	fúkènà	William Faulkner	proper noun	作者	Author	历史	History	美国	United States	\N	\N	1897-1962; American novelist and poet (CC-CEDICT '福克納')	6005212
+6005213	连战	連戰	liánzhàn	Lien Chan	proper noun	人	Person	历史	History	\N	\N	\N	\N	1936-; Taiwanese politician, former vice-president and chairman of Guomintang (CC-CEDICT '連戰')	6005213
+6005214	纳撒尼尔·霍桑	納撒尼爾·霍桑	nà sǎ ní ěr huò sāng	Nathaniel Hawthorne	proper noun	作者	Author	文学	Literature	美国	United States	\N	\N	1804-1864; American novelist and short story writer (CC-CEDICT '納撒尼爾·霍桑')	6005214
+6005215	罗伯特·佛洛斯特	羅伯特·佛洛斯特	Luóbóté fó luò sī té	Robert Frost	proper noun	人	Person	文学	Literature	美国	United States	\N	\N	1874-1963; American poet (CC-CEDICT '羅伯特·佛洛斯特')	6005215
+6005216	美国独立战争	美國獨立戰爭	měiguó dúlì zhànzhēng	American War of Independence	proper noun	\N	\N	历史	History	美国	United States	\N	\N	1775-1783 (CC-CEDICT '美國獨立戰爭')	6005216
+6005217	道格拉斯	\N	dào gélā sī	Douglas (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '道格拉斯')	6005217
+6005218	达克龙	達克龍	dákèlóng	Dacron (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '達克龍')	6005218
+6005219	达味	達味	dáwèi	David (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '達味')	6005219
+6005220	达德利	達德利	dádélì	Dudley (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '達德利')	6005220
+6005221	达尔福尔	達爾福爾	dá ěr fúěr	Darfur (western province of Sudan)	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '達爾福爾')	6005221
+6005222	胡佛	\N	húfó	Hoover (name) / Herbert Hoover (1874-1964) US mining engineer and Republican politician, president	proper noun	人	Person	历史	History	美国	United States	\N	\N	1929-1933 (CC-CEDICT '胡佛')	6005222
+6005223	达尔马提亚	達爾馬提亞	dá ěr mǎ tí yà	Dalmatia, Croatian region on the eastern coast of Adriatic Sea	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '達爾馬提亞')	6005223
+6005224	达科塔·芬妮	達科塔·芬妮	dá kē tǎ fēn nī	Dakota Fanning, American actress	proper noun	\N	\N	戏剧	Drama	美国	United States	\N	\N	(CC-CEDICT '達科塔·芬妮')	6005224
+6005225	达累斯萨拉姆	達累斯薩拉姆	dá lèi sī sà lā mǔ	Dar es Salaam (former capital of Tanzania)	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '達累斯薩拉姆')	6005225
+6005226	远藤	遠藤	yuǎnténg	Endō (Japanese surname)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '遠藤')	6005226
+6005227	迟浩田	遲浩田	chíhàotián	Chi Haotian	proper noun	\N	\N	历史	History	中国	China	\N	\N	1929-; Chinese Minister of National Defense 1993-2003 (CC-CEDICT '遲浩田')	6005227
+6005228	遵义会议	遵義會議	zūnyì huìyì	Zunyi conference of January 1935 before the Long March	proper noun	\N	\N	历史	History	\N	\N	\N	\N	(CC-CEDICT '遵義會議')	6005228
+6005229	选举人团	選舉人團	xuǎnjǔrén tuán	Electoral College (of the United States)	proper noun	\N	\N	教育	Education	美国	United States	\N	\N	(CC-CEDICT '選舉人團')	6005229
+6005230	选举团	選舉團	xuǎnjǔtuán	Electoral College (of the United States)	proper noun	\N	\N	教育	Education	美国	United States	\N	\N	(CC-CEDICT '選舉團')	6005230
+6005231	辽宁大学	遼寧大學	liáoníng dàxué	Liaoning University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '遼寧大學')	6005231
+6005232	辽宁号	遼寧號	liáonínghào	Liaoning, the first aircraft carrier commissioned into the PLA Navy	proper noun	\N	\N	军事	Military	中国	China	\N	\N	commissioned in 2012 (CC-CEDICT '遼寧號')	6005232
+6005233	迈克尔	邁克爾	màikèěr	Michael (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '邁克爾')	6005233
+6005234	迈克尔·杰克逊	邁克爾·傑克遜	Màikèěr Jiékèxùn	Michael Jackson	proper noun	\N	\N	历史	History	音乐	Music	\N	\N	1958-2009; American musician and entertainer (CC-CEDICT '邁克爾·傑克遜')	6005234
+6005235	迈克尔·克莱顿	邁克爾·克萊頓	Màikèěr kèláidùn	Michael Crichton	proper noun	人	Person	历史	History	美国	United States	\N	\N	1942-; US techno-thriller writer, author of Jurassic Park (CC-CEDICT '邁克爾·克萊頓')	6005235
+6005236	迈克尔·乔丹	邁克爾·喬丹	Màikèěr qiáodān	Michael Jordan	proper noun	\N	\N	体育	Sport	体育	Sport	\N	\N	1963-;  US basketball player (CC-CEDICT '邁克爾·喬丹')	6005236
+6005237	迈凯伊	邁凱伊	màikǎiyī	McKay or Mackay (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '邁凱伊')	6005237
+6005238	迈巴赫	邁巴赫	màibāhè	Maybach, German car brand	proper noun	产品	Product	商务	Commerce	欧洲	Europe	\N	\N	(CC-CEDICT '邁巴赫')	6005238
+6005239	迈杜古里	邁杜古裡	mài dù gǔ lǐ	Maiduguri, city in north Nigeria	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '邁杜古裡')	6005239
+6005240	迈赫迪军	邁赫迪軍	màihèdí jūn	Mahdi army, Iraqi Shia armed militia led by Moqtada Sadr	proper noun	\N	\N	现代汉语	Modern Chinese	中东	Middle East	\N	\N	(CC-CEDICT '邁赫迪軍')	6005240
+6005241	边疆区	邊疆區	biānjiāngqū	krai (Russian administrative territory)	noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '邊疆區')	6005241
+6005242	那不勒斯	\N	nàbùlēisī	Napoli, capital of Campania region of Italy / Naples	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '那不勒斯')	6005242
+6005243	那木巴尔·恩赫巴亚尔	那木巴爾·恩赫巴亞爾	nàmùbāěr'ēn hèbāyà'ěr	Nambaryn Enkhbayar	proper noun	人	Person	历史	History	\N	\N	\N	\N	1958-; Mongolian People's Revolutionary Party politician, president of Mongolia 2005-2009 (CC-CEDICT '那木巴爾·恩赫巴亞爾')	6005243
+6005244	那维克	那維克	nàwéikè	Narvik (city in Nordland, Norway)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '那維克')	6005244
+6005245	邦迪	\N	bāngdí	Bondi (name) / Band-Aid	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	Loanword; Loanword (CC-CEDICT '邦迪')	6005245
+6005246	邵逸夫	\N	shàoyìfū	Run Run Shaw	proper noun	\N	\N	历史	History	中国	China	\N	\N	1907-2014; Hong Kong movie and television tycoon (CC-CEDICT '邵逸夫')	6005246
+6005247	郎之万	郎之萬	lángzhīwàn	Langevin (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '郎之萬')	6005247
+6005248	郎平	\N	lángpíng	Jenny Lang Ping	proper noun	\N	\N	体育	Sport	中国	China	\N	\N	1960-; Chinese volleyball player, coach of USA women's national team since 2005 (CC-CEDICT '郎平')	6005248
+6005249	艾森豪威尔	艾森豪威爾	àisēn háowēi'ěr	Dwight D. Eisenhower	proper noun	人	Person	历史	History	美国	United States	\N	\N	1890-1969; US army general and politician, Supreme Allied Commander in Europe during World War II, US President 1953-1961 (CC-CEDICT '艾森豪威爾')	6005249
+6005250	郭台铭	郭台銘	guōtáimíng	Guo Terry Taiming	proper noun	人	Person	商务	Commerce	\N	\N	\N	\N	1950-; Prominent Taiwanese businessman, founder of Foxconn (CC-CEDICT '郭台銘')	6005250
+6005251	郭小川	\N	guōxiǎochuān	Guo Xiaochuan	proper noun	人	Person	历史	History	中国	China	\N	\N	1919-1976; PRC communist poet, hero in the war with Japan, died after long persecution during Cultural Revolution (CC-CEDICT '郭小川')	6005251
+6005252	郭敬明	\N	guōjìngmíng	Guo Jingming	proper noun	人	Person	文学	Literature	中国	China	\N	\N	1983-; Chinese young-adult fiction writer and teen pop idol (CC-CEDICT '郭敬明')	6005252
+6005253	郭晶晶	\N	guōjīngjīng	Guo Jingjing	proper noun	人	Person	体育	Sport	中国	China	\N	\N	1981-; Chinese female diver and Olympic gold medalist (CC-CEDICT '郭晶晶')	6005253
+6005254	郭泉	\N	guōquán	Guo Quan	proper noun	大学	University	教育	Education	中国	China	\N	\N	Formerly Professor of Nanjing Normal University (CC-CEDICT '郭泉')	6005254
+6005255	赫曼·麦尔维尔	赫曼·麥爾維爾	hèmàn mài'ěrwéi'ěr	Herman Melville	proper noun	作者	Author	文学	Literature	美国	United States	\N	\N	1819-1891; US novelist, author of Moby Dick 白鲸 (CC-CEDICT '赫曼·麥爾維爾')	6005255
+6005256	马克·吐温	馬克·吐溫	Mǎkè tùwēn	Mark Twain	proper noun	作者	Author	文学	Literature	美国	United States	\N	\N	Samuel Langhorne Clemens 1835-1910; US writer, novelist and humorist, author of Adventures of Huckleberry Finn 哈克贝利·芬历险记 (CC-CEDICT '馬克·吐溫')	6005256
+6005257	都伯林	\N	dōubólín	Dublin, capital of Ireland	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Also written 都柏林 (CC-CEDICT '都伯林')	6005257
+6005258	都拉斯	\N	dōulāsī	Durrës (city in Albania)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '都拉斯')	6005258
+6005259	都灵	都靈	dōulíng	Torino / Turin (Italy)	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '都靈')	6005259
+6005260	南北战争	南北戰爭	Nán Běi Zhànzhēng	American Civil War	proper noun	战争	War	历史	History	美国	United States	\N	\N	1849－1865 (Guoyu '南北戰爭'; Wikipedia '南北战争')	6005260
+6005261	邓亚萍	鄧亞萍	dèngyàpíng	Deng Yaping	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	1973-; Table tennis player, several times world and Olympic winner (CC-CEDICT '鄧亞萍')	6005261
+6005262	邓亮洪	鄧亮洪	dèngliànghóng	Tang Liang Hong	proper noun	\N	\N	历史	History	亚洲	Asia	\N	\N	Opposition candidate in Jan 1996 Singapore elections (CC-CEDICT '鄧亮洪')	6005262
+6005263	邓加	鄧加	dèngjiā	Dunga	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	1963-; Former Brazilian soccer player (CC-CEDICT '鄧加')	6005263
+6005264	邓小平理论	鄧小平理論	Dèng Xiǎopíng lǐlùn	Deng Xiaoping Theory / Dengism	proper noun	城市	City	历史	History	中国	China	\N	\N	(CC-CEDICT '鄧小平理論')	6005264
+6005265	邓拓	鄧拓	dèngtuò	Deng Tuo	proper noun	人	Person	历史	History	中国	China	\N	\N	1912-1966; Sociologist and journalist, died under persecution at the start of the Cultural Revolution/wrote under the pen name Ma Nancun 马南邨 (CC-CEDICT '鄧拓')	6005265
+6005266	邓颖超	鄧穎超	dèngyǐngchāo	Deng Yingchao	proper noun	人	Person	历史	History	中国	China	\N	\N	1904-1992; Chinese communist leader, wife of Zhou Enlai 周恩来 (CC-CEDICT '鄧穎超')	6005266
+6005267	邓迪	鄧迪	dèngdí	Dundee, Scotland	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鄧迪')	6005267
+6005268	邓丽君	鄧麗君	dènglìjūn	Teresa Teng	proper noun	\N	\N	历史	History	\N	\N	\N	\N	1953-1995; Taiwanese pop idol (CC-CEDICT '鄧麗君')	6005268
+6005269	郑伊健	鄭伊健	zhèngyījiàn	Ekin Cheng	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1967-; Hong Kong actor and pop singer (CC-CEDICT '鄭伊健')	6005269
+6005270	郑梦准	鄭夢準	zhèngmèngzhǔn	Chung Mongjoon	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1951-; Korean magnate and the founder of Hyundai 現代 (CC-CEDICT '鄭夢準')	6005270
+6005271	郑州大学	鄭州大學	Zhēngzhōu dàxué	Zhengzhou University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '鄭州大學')	6005271
+6005272	郑幸娟	鄭幸娟	zhèngxìngjuān	Zheng Xingjuan	proper noun	\N	\N	体育	Sport	中国	China	\N	\N	1989-; Chinese athlete, lady high jumper (CC-CEDICT '鄭幸娟')	6005272
+6005273	郑易里	鄭易里	zhèngyìlǐ	Zheng Yili	proper noun	\N	\N	历史	History	\N	\N	\N	\N	1906-2002; Translator, editor and lexicographer, creator of the Zheng coding (CC-CEDICT '鄭易里')	6005273
+6005274	麦克阿瑟	麥克阿瑟	mài kè ā sè	General Douglas MacArthur	proper noun	人	Person	历史	History	美国	United States	\N	\N	1880-1964; US commander in Pacific during WW2, sacked in 1951 by President Truman for exceeding orders during the Korean war (CC-CEDICT '麥克阿瑟')	6005274
+6005275	郑裕玲	鄭裕玲	zhèngyùlíng	Carol Dodo Cheng Yu-Ling	proper noun	\N	\N	戏剧	Drama	中国	China	\N	\N	1957-; Hong Kong actress and TV host (CC-CEDICT '鄭裕玲')	6005275
+6005276	酒鬼酒	\N	jiǔguǐjiǔ	Jiugui Liquor, liquor company from 吉首	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '酒鬼酒')	6005276
+6005277	酷派	\N	kùpài	Coolpad Group Ltd, Chinese company	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '酷派')	6005277
+6005278	里克特	\N	lǐkèté	Richter (name) / Charles Francis Richter	proper noun	人	Person	历史	History	名字	Names	\N	\N	1900-1985; US physicist and seismologist, after whom the Richter scale is named (CC-CEDICT '里克特')	6005278
+6005279	里士满	里士滿	lǐshìmǎn	Richmond (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '里士滿')	6005279
+6005280	里奇蒙	\N	lǐqímēng	Richmond (place name or surname)	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '里奇蒙')	6005280
+6005281	里奥斯	里奧斯	lǐàosī	Ríos (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '里奧斯')	6005281
+6005282	麦尔维尔	麥爾維爾	mài ěr wéi ěr	Melville (name) / Herman Melville	proper noun	作者	Author	文学	Literature	美国	United States	\N	\N	1819-1891; US novelist, author of Moby Dick 白鲸 (CC-CEDICT '麥爾維爾')	6005282
+6005283	堪培拉	\N	kānpéilā	Canberra	proper noun	首都	Capital	地方	Places	澳大利亚	Australia	\N	\N	Capital of Australia (SDC, p. 161; XHZD, p. 704)	6005283
+6005284	卢浮宫	盧浮宮	lúfú gōng	The Louvre	proper noun	博物馆	Museum	历史	History	欧洲	Europe	\N	lu4fu2gong1.mp3	(CC-CEDICT '卢浮宫'; Wikipedia '卢浮宫')	6005284
+6005285	老舍纪念馆	老舍紀念館	Lǎo Shě Jìniàn Guǎn	Lao She Commemorative Museum	proper noun	名胜古迹	Historical Sites and Scenic Places	历史	History	中国	China	\N	\N	Located at 46 Houhai Bei'an (Wikipedia '北京老舍故居')	6005285
+6005286	塔克西拉考古博物馆	塔克西拉考古博物館	Tǎkèxīlā Kǎogǔ Bówùguǎn	Taxila Archaeological Museum	proper noun	博物馆	Museum	历史	History	巴斯基斯坦	Pakistan	\N	\N	Located in Taxila, Punjab, Pakistan (Wikipedia 'Taxila Museum')	6005286
+6005287	艾尔米塔什	艾爾米塔什	Ài'ěrmǐtǎshí	Hermitage	proper noun	博物馆	Museum	艺术	Art	欧洲	Europe	\N	\N	(Wikipedia '埃尔米塔日博物馆')	6005287
+6005288	国立博物馆	國立博物館	Guólì Bówùguǎn	National Museum	proper noun	博物馆	Museum	历史	History	中国	China	\N	\N	(Wikipedia '國立歷史博物館')	6005288
+6005289	里昂	\N	lǐáng	Lyon, French city on the Rhône	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '里昂')	6005289
+6005290	里朗威	\N	lǐlǎngwēi	Lilongwe, capital of Malawi	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '里朗威')	6005290
+6005291	里根	\N	lǐgēn	Reagan (name) / Ronald Reagan	proper noun	人	Person	历史	History	名字	Names	\N	\N	1911-2004; US president 1981-1989 (CC-CEDICT '里根')	6005291
+6005292	里尔	里爾	lǐěr	Lille (city in France)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '里爾')	6005292
+6005293	里贾纳	里賈納	lǐjiǎnà	Regina city, capital of Saskatchewan province, Canada	proper noun	城市	City	地方	Places	北美	North America	\N	\N	(CC-CEDICT '里賈納')	6005293
+6005294	重庆大学	重慶大學	chóngqìng dàxué	Chongqing University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '重慶大學')	6005294
+6005295	五岛美术馆	五島美術館	Wǔ Dǎo Měishùguǎn	The Gotoh Museum	proper noun	博物馆	Museum	地方	Places	\N	\N	\N	\N	Located in Tokyo (Wikipedia '五島美術館')	6005295
+6005296	重庆科技学院	重慶科技學院	chóngqìng kējì xuéyuàn	Chongqing Science and Technology University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '重慶科技學院')	6005296
+6005297	重整奥思定会	重整奧思定會	zhòng zhěng ào sī dìng huì	Order of Augustinian Recollects, a mendicant Catholic religious order of friars and nuns	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '重整奧思定會')	6005297
+6005298	故宮博物院	\N	Gùgōng Bówùyuàn	Palace Museum / National Palace Museum, Taipei	proper noun	博物馆	Museum	地方	Places	\N	\N	\N	\N	(Wikipedia '故宫博物院')	6005298
+6005299	大英博物馆	大英博物館	dàyīng bówùguǎn	British museum	proper noun	博物馆	Museum	地方	Places	英国	England	\N	\N	(CC-CEDICT '大英博物館')	6005299
+6005300	野口	\N	yěkǒu	Noguchi (Japanese surname)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '野口')	6005300
+6005301	野天鹅	野天鵝	yětiāné	Wild Swans, family autobiography by British-Chinese writer Jung Chang	proper noun	人	Person	文学	Literature	中国	China	\N	\N	(CC-CEDICT '野天鵝')	6005301
+6005302	冬宫	冬宮	dōnggōng	Winter Palace / Hermitage Museum	proper noun	名胜古迹	Historical sites and scenic places	历史	History	俄罗斯	Russia	\N	\N	St Petersburg (CC-CEDICT '冬宮')	6005302
+6005303	野生生物基金会	野生生物基金會	yěshēng shēngwù jījīnhuì	World Wildlife Fund (WWF)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '野生生物基金會')	6005303
+6005304	野田佳彦	野田佳彥	yě tián jiā yàn	Noda Yoshihiko, Prime Minister of Japan	proper noun	\N	\N	现代汉语	Modern Chinese	日本	Japan	\N	\N	2 September 2011 ~ (CC-CEDICT '野田佳彥')	6005304
+6005305	金刚狼	金剛狼	jīngāngláng	Wolverine, comic book superhero	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '金剛狼')	6005305
+6005306	金夏沙	\N	jīnxiàshā	Kinshasa, capital of the Democratic Republic of the Congo	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '金夏沙')	6005306
+6005307	金宇中	\N	jīnyǔzhōng	Kim Woo-jung	proper noun	人	Person	商务	Commerce	亚洲	Asia	\N	\N	1936-; Korean businessman and founder of the Daewoo Group (CC-CEDICT '金宇中')	6005307
+6005308	中国国家博物馆	中國國家博物館	Zhōngguó guójiā bówùguǎn	National Museum of China	proper noun	博物馆	Museum	艺术	Art	中国	China	\N	\N	(Wikipedia '中国国家博物馆')	6005308
+6005309	金斯敦	\N	jīnsīdūn	Kingstown, capital of Saint Vincent and the Grenadines / Kingston, capital of Jamaica	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '金斯敦')	6005309
+6005310	金日成	\N	jīnrìchéng	Kim Il Sung	proper noun	\N	\N	历史	History	亚洲	Asia	\N	\N	1912-1994;  Great Leader of North Korea (CC-CEDICT '金日成')	6005310
+6005311	金成	金晟	jīnchéng	Sung Kim, US diplomat and director of US State Department's Korea office	proper noun	人	Person	政府	Government	亚洲	Asia	\N	\N	(CC-CEDICT '金晟')	6005311
+6005312	金桂冠	\N	jīnguìguān	Kim KyeGwan	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1943-; North Korean diplomat, vice-foreign minister of (CC-CEDICT '金桂冠')	6005312
+6005313	金正男	\N	jīnzhèngnán	Kim Jong-nam	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1971-2017; The eldest son of Kim Jong-il 金正日 (CC-CEDICT '金正男')	6005313
+6005314	金永南	\N	jīnyǒngnán	Kim Yong-nam	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1928-), North Korean politician, foreign minister 1983-1998 and president of Supreme people's assembly from 1998 (nominal head of state and described as deputy leader (CC-CEDICT '金永南')	6005314
+6005315	金泳三	\N	jīnyǒngsān	Kim Young-sam	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1927-; South Korean politician, president 1993-1998 (CC-CEDICT '金泳三')	6005315
+6005316	金熊奖	金熊獎	jīnxióngjiǎng	Golden Bear, award at the Berlin International Film Festival	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '金熊獎')	6005316
+6005317	金狮奖	金獅獎	jīnshījiǎng	Golden Lion, award at the Venice Film Festival	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '金獅獎')	6005317
+6005318	金瓜石	\N	jīnguāshí	Jinguashi,	proper noun	地区	District	历史	History	日本	Japan	\N	\N	Town in Ruifang District, New Taipei City, Taiwan, noted for its historic gold and copper mines, used as a prisoner-of-war camp by the Japanese (1942-1945); 1942-1945 (CC-CEDICT '金瓜石')	6005318
+6005319	金砖四国	金磚四國	jīnzhuān sìguó	Brazil, Russia, India and China (BRIC)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '金磚四國')	6005319
+6005320	金陵大学	金陵大學	Jīnlíng dàxué	University of Nanking	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '金陵大學')	6005320
+6005321	金霸王	\N	jīnbà wáng	Duracell (US brand of batteries etc)	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '金霸王')	6005321
+6005322	银熊奖	銀熊獎	yínxióngjiǎng	Silver Bear, award at the Berlin International Film Festival	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '銀熊獎')	6005322
+6005323	银狮奖	銀獅獎	yínshījiǎng	Silver Lion, award at the Venice Film Festival	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '銀獅獎')	6005323
+6005324	银监会	銀監會	yínjiānhuì	China Banking Regulatory Commission (CBRC)	proper noun	\N	\N	政府	Government	中国	China	\N	\N	Abbreviation for 中国银行业监督管理委员会 (CC-CEDICT '銀監會')	6005324
+6005325	铨叙部	銓敘部	quánxùbù	Ministry of Civil Service, Taiwan	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '銓敘部')	6005325
+6005326	铭瑄	銘瑄	míngxuān	MaxSun, PRC company specializing in video and computer display	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '銘瑄')	6005326
+6005327	锐步	銳步	ruìbù	Reebok (sportswear manufacturer)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '銳步')	6005327
+6005328	钢铁侠	鋼鐵俠	gāngtiěxiá	Iron Man, comic book superhero	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鋼鐵俠')	6005328
+6005329	钢铁学院	鋼鐵學院	gāngtiě xuéyuàn	Beijing Steel and Iron Institute (the former name of 北京科技大學|北京科技大学, University of Science and Technology Beijing)	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '鋼鐵學院')	6005329
+6005330	钱学森	錢學森	qiánxuésēn	Qian Xuesen	proper noun	人	Person	历史	History	中国	China	\N	\N	1911-2009; Chinese scientist and aeronautical engineer (CC-CEDICT '錢學森')	6005330
+6005331	钱永健	錢永健	qiányǒngjiàn	Roger Yonchien Tsien	proper noun	人	Person	历史	History	中国	China	\N	\N	1952-; US Chinese chemist and 2008 Nobel laureate (CC-CEDICT '錢永健')	6005331
+6005332	钱皮	錢皮	qiánpí	Carlo Azeglio Ciampi	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1920-; President of Italy from 1999 to 2006 (CC-CEDICT '錢皮')	6005332
+6005333	钱钟书	錢鐘書	qiánzhōngshū	Qian Zhongshu	proper noun	作者	Author	历史	History	\N	\N	\N	\N	1910-1998; Literary academic and novelist, author of the 1947 novel Fortress Beseiged 围城 (CC-CEDICT '錢鐘書')	6005333
+6005334	锡霍特	錫霍特	xīhuòté	Sichote-Alin mountain range in Russian far east opposite Sakhalin Island	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '錫霍特')	6005334
+6005335	锡霍特·阿林	錫霍特·阿林	xīhuòté ā lín	Sichote-Alin mountain range in Russian far east opposite Sakhalin Island	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '錫霍特·阿林')	6005335
+6005336	锡霍特·阿林山脉	錫霍特·阿林山脈	xīhuòté ā lín shānmài	Sichote-Alin mountain range in Russian far east opposite Sakhalin Island	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '錫霍特·阿林山脈')	6005336
+6005337	锡霍特山脉	錫霍特山脈	xīhuòté shānmài	Sichote-Alin mountain range in Russian far east opposite Sakhalin Island	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '錫霍特山脈')	6005337
+6005338	钟万学	鍾萬學	zhōngwànxué	Basuki Tjahaja Purnama (1966-), Indonesian politician, governor of Jakarta	proper noun	人	Person	地方	Places	亚洲	Asia	\N	\N	2014- (CC-CEDICT '鍾萬學')	6005338
+6005339	中国历史博物馆	中國歷史博物館	zhōngguó lìshǐ bówùguǎn	Museum of Chinese History	proper noun	博物馆	Museum	历史	History	中国	China	\N	\N	(CC-CEDICT '中國歷史博物館')	6005339
+6005340	沈阳路	瀋陽路	Shěnyáng lù	Shenyang Road	proper noun	\N	\N	地方	Places	中国	China	\N	\N	The name of a road near Shenyang Palace Museum (Baidu Baike '沈阳路')	6005340
+6005341	钟楚红	鐘楚紅	zhōngchǔhóng	Cherie Chung	proper noun	\N	\N	戏剧	Drama	中国	China	\N	\N	1960-; Hong Kong actress (CC-CEDICT '鐘楚紅')	6005341
+6005342	铁达尼号	鐵達尼號	tiě dá ní hào	RMS Titanic, British passenger liner that sank in 1912	proper noun	\N	\N	历史	History	\N	\N	\N	\N	Taiwanese usage; PRC equivalent: 泰坦尼克号 (CC-CEDICT '鐵達尼號')	6005342
+6005343	沈阳故宫	瀋陽故宮	Shěnyáng Gùgōng	Mukden Palace / Shenyang Palace Museum	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '沈阳故宮'; Guoyu '瀋陽故宮')	6005343
+6005344	罗浮宫	羅浮宮	luófúgōng	The Louvre	proper noun	博物馆	Museum	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '羅浮宮')	6005344
+6005345	达尔文港	達爾文港	Dá'ěrwéngǎng	Darwin	proper noun	城市	City	地方	Places	澳大利亚	Australia	\N	\N	The capital of the Northern Territory, Australia (Wikipedia '达尔文 (澳大利亚)')	6005345
+6005346	长安大学	長安大學	Cháng'ān dàxué	Chang'an University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '長安大學')	6005346
+6005347	长荣	長榮	zhǎngróng	Evergreen (Group), Taiwan-based shipping and transportation conglomerate	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '長榮')	6005347
+6005348	长江三角洲经济区	長江三角洲經濟區	Chángjiāng Sānjiǎo Zhōu jīngjì qū	Yangtze River Delta Economic Zone (economic region including Shanghai, Zhejiang and Jiangsu)	proper noun	水名	River	地方	Places	中国	China	\N	\N	(CC-CEDICT '長江三角洲經濟區')	6005348
+6005349	达尔文	達爾文	Dá'ěrwén	Darwin	proper noun	城市	City	地方	Places	澳大利亚	Australia	\N	\N	The capital of the Northern Territory, Australia (Wikipedia '达尔文 (澳大利亚)')	6005349
+6005350	长虹	長虹	zhǎnghóng	Changhong (brand)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '長虹')	6005350
+6005351	长谷川	長谷川	zhǎnggǔchuān	Hasegawa (Japanese surname)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '長谷川')	6005351
