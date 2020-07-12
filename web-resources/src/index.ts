@@ -18,6 +18,8 @@ import { CNotes } from "./CNotes";
 import { CNotesMenu } from "./CNotesMenu";
 import { DocumentFinder } from "./DocumentFinder";
 import { SubstringApp } from "./SubstringApp";
+import { TranslationMemoryView } from "./TranslationMemoryView";
+import { TranslationMemory } from "./TranslationMemory"
 import { WordFinder } from "./WordFinder";
 import { WordFinderView } from "./WordFinderView";
 
@@ -40,6 +42,10 @@ wordFinder.init();
 const docFinderView = new DocumentFinderView();
 const docFinder = new DocumentFinder(docFinderView);
 docFinder.init();
+// Initialize translation memory search
+const transMemView = new TranslationMemoryView();
+const transMem = new TranslationMemory(transMemView);
+transMem.init();
 // substring search
 const subApp = new SubstringApp();
 subApp.wireObservers();

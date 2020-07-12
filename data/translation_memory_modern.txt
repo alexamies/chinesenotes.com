@@ -115,3 +115,28 @@
 5000115	血债要用血来偿	血債要用血來償	xuèzhài yào yòng xuè lái cháng	A debt of blood must be paid in blood. / Blood calls for blood.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '血債要用血來償')	5000115
 5000116	血债要用血来还	血債要用血來還	xuèzhài yào yòng xuè lái hái	A debt of blood must be paid in blood. / Blood calls for blood.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '血債要用血來還')	5000116
 5000117	行不更名，坐不改姓	\N	xíng bù gèngmíng, zuò bù gǎi xìng	I am who I am (and I'm not ashamed) / to be proud of one's name and stand by one's actions	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '行不更名，坐不改姓')	5000117
+5000118	裸官	\N	luǒguān	Communist Party official whose wife and children have left China to reside in a foreign country	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '裸官')	5000118
+5000119	制药企业	製藥企業	zhìyào qǐyè	pharmaceutical company	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '製藥企業')	5000119
+5000120	制药厂	製藥廠	zhì yào chǎng	pharmaceutical company / drugs manufacturing factory	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '製藥廠')	5000120
+5000121	美分	\N	měi fēn	one cent (United States coin)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '美分')	5000121
+5000122	全美	\N	quán měi	throughout the United States / the whole of America	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '全美')	5000122
+5000123	谁笑到最后，谁笑得最好	誰笑到最後，誰笑得最好	shéi xiào dào zuìhòu, shéi xiào de zuìhǎo	He laughs best who laughs last.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '誰笑到最後，誰笑得最好')	5000123
+5000124	谁笑在最后，谁笑得最好	誰笑在最後，誰笑得最好	shéi xiào zài zuìhòu, shéi xiào de zuìhǎo	He laughs best who laughs last.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '誰笑在最後，誰笑得最好')	5000124
+5000125	谋智	謀智	móuzhì	intelligence and wisdom	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '謀智')	5000125
+5000126	贫下中农	貧下中農	pín xià zhōng nóng	(category defined by the Communist Party) poor and lower-middle peasants: farmers who, before land reform, possessed little or no land (poor peasants) and those who were barely able to support themselves with their own land (lower-middle peasants)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '貧下中農')	5000126
+5000127	贪婪是万恶之源	貪婪是萬惡之源	tānlán shì wànè zhī yuán	Greed is the root of all evil.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '貪婪是萬惡之源')	5000127
+5000128	贵公司	貴公司	guìgōngsī	your company	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '貴公司')	5000128
+5000129	贵司	貴司	guìsī	your company (polite)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '貴司')	5000129
+5000130	贵圈真乱	貴圈真亂	guì quān zhēn luàn	the things you and your friends get up to leave me shaking my head	phrase	\N	\N	现代汉语	Modern Chinese	俚语	Slang	\N	\N	Slang, jocular, neologism c. 2006 (CC-CEDICT '貴圈真亂')	5000130
+5000131	资产阶级右派	資產階級右派	zīchǎn jiējí yòupài	bourgeois rightist faction	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	esp. during anti-rightist movement of 1957-58 (CC-CEDICT '資產階級右派')	5000131
+5000132	赤匪	\N	chì fěi	red bandit, i.e. PLA soldier during the civil war or Chinese communist	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '赤匪')	5000132
+5000133	走你	\N	zǒunǐ	Let’s do this!	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Neologism (CC-CEDICT '走你')	5000133
+5000134	走自己的路，让人家去说	走自己的路，讓人家去說	zǒu zìjǐ de lù, ràng rénjia qù shuō	Go your own way, let others say what they like. (popular modern cliche) / Do it my way.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '走自己的路，讓人家去說')	5000134
+5000135	赶英超美	趕英超美	gǎn yīng chāo měi	to catch up with England and surpass the USA (economic goal)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '趕英超美')	5000135
+5000136	赵家人	趙家人	zhàojiārén	the Zhao family	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Neologism, derogatory term for those who hold power in the PRC (CC-CEDICT '趙家人')	5000136
+5000137	路上比终点更有意义	路上比終點更有意義	lùshang bì zhōngdiǎn gèng yǒuyìyì	The road means more than the destination. / It is better to travel hopefully than to arrive.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '路上比終點更有意義')	5000137
+5000138	军火公司	軍火公司	jūnhuǒ gōngsī	arms company	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '軍火公司')	5000138
+5000139	软件企业	軟件企業	ruǎnjiàn qǐyè	software company	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '軟件企業')	5000139
+5000140	办货	辦貨	bànhuò	to purchase goods (for a company etc)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '辦貨')	5000140
+5000141	农村家庭联产承包责任制	農村家庭聯產承包責任制	nóngcūn jiātíng liánchǎn chéngbāo zérènzhì	rural household contract responsibility system, PRC government policy linking rural income to productivity	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '農村家庭聯產承包責任制')	5000141
+5000142	追剧	追劇	zhuī jù	to watch a TV series etc regularly / to binge-watch	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '追劇')	5000142

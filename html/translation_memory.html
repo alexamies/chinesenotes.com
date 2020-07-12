@@ -1,0 +1,63 @@
+      <div>
+        <p>
+          Search for translated phrases, names of people and places, and other
+          items with an approximate search
+        </p>
+        <h2>Translation Memory (Experimental)</h2>
+        <p>
+          Paste Chinese text into the input field below to find approximate
+          matches. This is an experimental feature, still under development.
+        </p>
+        <p>
+          <form name="findTMForm" id="findTMForm" action="#">
+            <div class="mdc-text-field">
+              <label class="mdc-floating-label" for="findTMInput">
+                Search for
+              </label>
+              <input class="mdc-text-field__input" type="text" name="findTMInput"
+                   id="findTMInput" size="40" required/>
+              <div class="mdc-line-ripple"></div>
+              <button class="mdc-button mdc-button--raised" type="submit"
+                    id="findSubmit">
+              <span class="mdc-button__label">Find</span>
+            </button>
+            </div>
+          </form>
+        </p>
+        <p>
+          <span id="lookup-help-block" class="help-block">
+            Search using the full text string that you are translating or only
+            a part.
+          </span>
+        </p>
+        <div id="queryTerms">
+          <h4 id="queryTermsTitle">Results</h4>
+          <div id="queryTermsDiv">
+            <ul id="queryTermsList" class="mdc-list mdc-list--two-line">
+            </ul>
+          </div>
+        </div> <!--queryTerms-->
+
+        <div id="findResults">
+          <h4>Matching Results</h4>
+          <div>
+            Number of results: <span id="NumResults"></span>
+          </div>
+
+          <div id="colResultsDiv">
+            <h4 id="findResultsTitle">Results</h4>
+            <table id="findResultsTable">
+              <thead>
+                <tr><th >Chinese</th><th >English</th></tr>
+              </thead>
+              <tbody id="findResultsBody">
+              </tbody>
+            </table>
+          </div> <!-- colResultsDiv -->
+        <p id="findError"></p>
+        <p>
+          <a href="/advanced_search.html" id="#FullTextSearch">
+            Full Text Search
+          </a>
+        </p>
+      </div>

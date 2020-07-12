@@ -33,4 +33,5 @@
 ../html/syllables_ipa.html	syllables_ipa.html	reference-template.html	true
 ../html/texts-raw.html	texts.html	texts-template.html	false
 ../html/tools.html	tools.html	tools-template.html	false
+../html/translation_memory.html	translation_memory.html	index-template.html	false
 ../html/whatsnew-raw.html	whatsnew.html	about-template.html	false
