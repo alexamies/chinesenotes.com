@@ -108,4 +108,16 @@
 7000108	大韩佛教曹溪宗	\N	dàhán fójiào cáo xī zōng	Jogye Order of Korean Buddhism	proper noun	\N	\N	佛教	Buddhism	韩国	Korea	\N	\N	(Wikipedia '大韩佛教曹溪宗')	7000108
 7000109	太古宗	\N	tàigǔzōng	Taego Order / Taego-jong	proper noun	\N	\N	佛教	Buddhism	韩国	Korea	\N	\N	Order of Korean Buddhism (Wikipedia '太古宗')	7000109
 7000110	圆佛教	圓佛教	yuán fójiào	Wŏn Buddhism	proper noun	\N	\N	佛教	Buddhism	韩国	Korea	\N	\N	(Wikipedia '圆佛教')	7000110
-167165	慈藏律师	慈藏律師	cícáng lǜshī	Jajang / Jajang Yulsa	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	(Wikipedia 'Jajang')	167165
+7000111	慈藏律师	慈藏律師	cícáng lǜshī	Jajang / Jajang Yulsa	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	(Wikipedia 'Jajang')	7000111
+7000112	佛国寺	佛國寺	fó guó sì	Bulguksa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in Korea (Wikipedia '佛国寺')	7000112
+7000113	石窟庵	\N	shíkūān	Seokguram	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Hermitage in Korea (CC-CEDICT '石窟庵'; Guoyu '石窟庵'; Wikipedia '石窟庵')	7000113
+7000114	金乔觉	金喬覺	jīn qiáojué	Kim Gyo-gak	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	696-794; Korean monastic who travelled to China (Wikipedia '金喬覺')	7000114
+7000115	松广寺	松廣寺	sōngguǎng sì	Songgwangsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '松廣寺'; Wikipedia '松廣寺')	7000115
+7000116	太古普愚	\N	tàigǔpǔyú	Taego Bou / T'aego Po'u	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1301–1382; Korean monastic (DDB '太古普愚'; Wikipedia 'Taego Bou')	7000116
+7000117	己和	\N	jǐhé	Gihwa / Kihwa	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1376-1433; Korean monastic (DDB '己和'; FGDB '己和'; Wikipedia 'Gihwa')	7000117
+7000118	休静	休靜	xiūjìng	Hyujeong / Hyujŏng	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1520-1604; Korean monastic (DDB '休靜'; FGDB '休靜'; Wikipedia 'Hyujeong')	7000118
+7000119	惟政	\N	wéizhèng	Yujeong / Yujŏng	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1544–1610; Korean monastic (DDB '惟政'; FGDB '松雲'; Wikipedia '惟政')	7000119
+7000120	松云	松雲	sōngyún	Songun	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	Another name for 惟政 Yujeong (Guoyu '松雲')	7000120
+7000121	国际观音禅院	國際觀音禪院	guójìG uānyīn Chányuàn	Kwan Um School of Zen	proper noun	\N	\N	佛教	Buddhism	韩国	Korea	\N	\N	A modern Korean Buddhist order (Wikipedia '國際觀音禪院')	7000121
+7000122	普贤寺	普賢寺	pǔxiánsì	Pohyonsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Korea (Wikipedia '普贤寺 (朝鲜)')	7000122
+7000123	性彻	性徹	xìngchè	Seongcheol / Sŏngch'ŏl	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1912-1993; Korean monastic (DDB '性徹'; FGDB '性徹'; Wikipedia '性徹')	7000123

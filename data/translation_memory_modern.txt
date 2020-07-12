@@ -99,3 +99,19 @@
 5000099	脱亚入欧	脫亞入歐	tuō yà rù ōu	to abandon the old (Asian) ways and learn from Europe	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '脫亞入歐')	5000099
 5000100	脱星	脫星	tuōxīng	actress or actor known for having been photographed in the nude or for appearing in sexy scenes	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '脫星')	5000100
 5000101	腐国	腐國	fǔguó	UK (slang term reflecting a perception of UK as decadent for its attitudes toward homosexuality)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '腐國')	5000101
+5000102	航徽	\N	háng huī	airline emblem / travel company seal	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '航徽')	5000102
+5000103	色字头上一把刀	色字頭上一把刀	sè zìtóu shàng yī bǎ dāo	there is a knife above the character for lust	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '色字頭上一把刀')	5000103
+5000104	花旗国	花旗國	huā qí guó	USA (land of the stars and stripes)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '花旗國')	5000104
+5000105	英汉	英漢	yīng hàn	English-Chinese	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '英漢')	5000105
+5000106	英汉对译	英漢對譯	yīng hàn duì yì	English-Chinese parallel text	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '英漢對譯')	5000106
+5000107	英语热	英語熱	yīngyǔ rè	English language fan / enthusiasm for English	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '英語熱')	5000107
+5000108	英语角	英語角	yīngyǔ jiǎo	English corner / spoken English practice group	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '英語角')	5000108
+5000109	菜市仔名	\N	càishì zǐ míng	popular given name (one that will turn many heads if you shout it at a marketplace)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '菜市仔名')	5000109
+5000110	菜市场名	菜市場名	càishìchǎng míng	popular given name (one that will turn many heads if you shout it at a marketplace)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '菜市場名')	5000110
+5000111	睁着一只眼	睜著一隻眼	zhēng zhe yī zhī yǎn	to keep one eye open	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '睜著一隻眼', p. 47)	5000111
+5000112	万元户	萬元戶	wànyuánhù	household with savings or annual income of 10,000 yuan or more	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Considered a large amount in the 1970s, when the term became established (CC-CEDICT '萬元戶')	5000112
+5000113	睁开眼睛	睜開眼睛	zhēngkāi yǎnjing	to open your eyes	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '睜開眼睛', p. 47)	5000113
+5000114	虚心使人进步，骄傲使人落后	虛心使人進步，驕傲使人落後	xūxīn shǐ rén jìnbù, jiāoào shǐ rén luòhòu	Modesty leads to progress, arrogance makes you drop behind (favorite slogan of Mao Zedong)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '虛心使人進步，驕傲使人落後')	5000114
+5000115	血债要用血来偿	血債要用血來償	xuèzhài yào yòng xuè lái cháng	A debt of blood must be paid in blood. / Blood calls for blood.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '血債要用血來償')	5000115
+5000116	血债要用血来还	血債要用血來還	xuèzhài yào yòng xuè lái hái	A debt of blood must be paid in blood. / Blood calls for blood.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '血債要用血來還')	5000116
+5000117	行不更名，坐不改姓	\N	xíng bù gèngmíng, zuò bù gǎi xìng	I am who I am (and I'm not ashamed) / to be proud of one's name and stand by one's actions	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '行不更名，坐不改姓')	5000117
