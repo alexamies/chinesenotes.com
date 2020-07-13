@@ -291,6 +291,7 @@ func (ws *WordSenseEntry) IsProperNoun() bool {
 //   wsfilename The name of the word sense file
 func ReadDict(wsFilenames []string) []HeadwordDef {
 	wdict = make(map[string][]*WordSenseEntry)
+	avoidSub := config.AvoidSubDomains()
 	for _, wsfilename := range wsFilenames {
 		log.Printf("dictionary.ReadDict: wsfilename: %s\n", wsfilename)
 		wsfile, err := os.Open(wsfilename)
@@ -336,6 +337,11 @@ func ReadDict(wsFilenames []string) []HeadwordDef {
 					strings.Join(row, ";"))
 				log.Fatal("ReadDict wrong number of columns ", id, err)
 			}
+			parent_en :=  row[11]
+			// If subdomain, aka parent, should be avoided, then skip
+			if _, ok := avoidSub[parent_en]; ok {
+				continue
+			}
 			newWs := &WordSenseEntry{Id: int(id),
 				HeadwordId: int(hwId),
 				Simplified: simp,
@@ -348,7 +354,7 @@ func ReadDict(wsFilenames []string) []HeadwordDef {
 				Topic_cn: row[8],
 				Topic_en: row[9],
 				Parent_cn: row[10],
-				Parent_en: row[11],
+				Parent_en: parent_en,
 				Image: row[12],
 				Mp3: row[13],
 				Notes: row[14]}

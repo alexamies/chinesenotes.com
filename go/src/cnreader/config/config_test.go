@@ -7,8 +7,17 @@ import (
 )
 
 // Test reading of files for HTML conversion
+func TestAvoidSubDomains(t *testing.T) {
+	log.Printf("AvoidSubDomains: Begin unit tests\n")
+	avoidSub := AvoidSubDomains()
+	expect := 0
+	if len(avoidSub) != expect {
+		t.Errorf("TestAvoidSubDomains: Got %d, expcted %d", len(avoidSub), expect)
+	}
+}
+
+// Test reading of files for HTML conversion
 func TestGenres(t *testing.T) {
-	log.Printf("TestGenres: Begin unit tests\n")
 	vars := readConfig()
 	log.Printf("TestReadConfig: len(vars): %d\n", len(vars))
 	if len(vars) == 0 {
@@ -18,9 +27,7 @@ func TestGenres(t *testing.T) {
 
 // Test reading of files for HTML conversion
 func TestReadConfig(t *testing.T) {
-	log.Printf("TestReadConfig: Begin unit tests\n")
 	vars := readConfig()
-	log.Printf("TestReadConfig: len(vars): %d\n", len(vars))
 	if len(vars) == 0 {
 		t.Error("TestReadConfig: No vars found")
 	}

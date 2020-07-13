@@ -34,6 +34,18 @@ func init() {
 	configVars = readConfig()
 }
 
+// Subdomains to avoid whne loading the dictionary, default: empty
+func AvoidSubDomains() map[string]bool {
+  avoidSub := make(map[string]bool)
+	if val, ok := configVars["AvoidSubDomains"]; ok {
+		values := strings.Split(",", val)
+		for _, value := range values {
+			avoidSub[value] = true
+		}
+	}
+	return avoidSub
+}
+
 // Returns the directory where the corpus metadata is stored
 func CorpusDataDir() string {
 	return projectHome + "/data/corpus"
