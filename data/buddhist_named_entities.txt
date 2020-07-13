@@ -129,3 +129,11 @@
 7000129	惠慈	\N	huìcí	Hyeja / Eji	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	Korean monk, travelled to Japan in the Asuka period c. 595 (Wikipedia '惠慈')	7000129
 7000130	辛旽	\N	xīntùn	Sin Don	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1322~1371; Korean monk (Wikipedia '辛旽')	7000130
 7000131	越海一玉	\N	yuèhǎi yīyù	Wolhae Ilok	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	Korean monk (BSAD '越海一玉')	7000131
+7000132	南天大学	南天大學	Nán Tiān Dàxué	Nan Tien Institute	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	A Buddhist educational institution located in Australia (Wikipedia '南天寺')	7000132
+7000133	南天寺	\N	Nántiān Sì	Nan Tien Temple	proper noun	寺院	Monastery	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	In Australia (FoguangPedia; Wikipedia '南天寺')	7000133
+7000134	韩龙云	韓龍雲	hán lóngyún	Han Yong-un	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1879-1944; Korean monk and writer (FGDB '韓龍雲'; Wikipedia '韓龍雲')	7000134
+7000135	观勒	觀勒	guānlēi	Gwalleuk	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	7th century Korean monk (FGDB '觀勒'; Wikipedia '觀勒')	7000135
+7000136	崇山行愿	崇山行願	chóngshān héngyuàn	Seungsahn Haengwon	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1927-2004; Korean Seon master of the Jogye Order (FGDB '崇山行願'; Wikipedia '崇山行願')	7000136
+7000137	玄讷大学	玄奘大學	xuánzhuǎng dàxué	Hsuan Chuang University	proper noun	大学	University	佛教	Buddhism	\N	\N	\N	\N	A Buddhist university in Taiwan (Wikipedia '玄讷大学')	7000137
+7000138	平川彰	\N	píng chuānzhāng	Akira Hirakawa	proper noun	人	Person	佛教	Buddhism	日本	Japan	\N	\N	1915-2002; Japanese Buddhist scholar (Wikipedia '平川彰'; WorldCat '平川彰')	7000138
+7000139	冈布理奇	岡布理奇	gāngbùlǐqí	Richard Gombrich	proper noun	学者	Scholar	佛教	Buddhism	英国	England	\N	\N	1937 - ; British Buddhist scholar (Wikipedia 'Richard Gombrich')	7000139

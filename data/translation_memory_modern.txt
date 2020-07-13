@@ -146,3 +146,19 @@
 5000146	医闹	醫鬧	yī nào	organized disruption of healthcare facilities	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Neologism c. 2013; or verbal and physical abuse of medical staff, by an aggrieved patient or proxies such as family members or hired thugs, typically aimed at obtaining compensation (CC-CEDICT '醫鬧')	5000146
 5000147	重玩	\N	 chóng wán	to replay (a video game)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '重玩')	5000147
 5000148	镰刀斧头	鐮刀斧頭	liándāo fǔtóu	the hammer and sickle	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Flag of USSR, symbolizing rural and proletarian labor (CC-CEDICT '鐮刀斧頭')	5000148
+5000149	门户开放	門戶開放	ménhù kāifàng	open door policy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '門戶開放')	5000149
+5000150	澳纽	澳紐	ào niǔ	Australia and New Zealand	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '澳紐')	5000150
+5000151	中澳	\N	zhōng ào	China-Australia (relations)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中澳')	5000152
+5000152	陪唱小姐	\N	péi chàng xiǎojie	KTV hostess	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '陪唱小姐')	6005513
+5000153	陪聊	\N	péi liáo	to keep company for a chat / (esp.) to be a paid escort	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '陪聊')	5000153
+5000154	陪读	陪讀	péi dú	to accompany one's child or spouse who is studying overseas	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '陪讀')	5000154
+5000155	陶冶情操	\N	táoyě qíngcāo	to cultivate one's mind / to build character	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '陶冶情操')	5000155
+5000156	陆港矛盾	陸港矛盾	lùgǎng máodùn	tensions between mainland China and Hong Kong	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	since 1997 (CC-CEDICT '陸港矛盾')	5000156
+5000157	电脑企业	電腦企業	diànnǎo qǐyè	computer company / computer firm	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '電腦企業')	5000157
+5000158	需要是发明之母	需要是發明之母	xūyào shì fāmíng zhī mǔ	Necessity is the mother of invention (European proverb).	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '需要是發明之母')	5000158
+5000159	非拉丁字符	\N	fēi Lādīng zìfú	non-Latin characters	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '非拉丁字符')	5000159
+5000160	韩澳	韓澳	hán ào	South Korea and Australia	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '韓澳')	5000160
+5000161	韩美	韓美	hán měi	South Korean-US	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '韓美')	5000161
+5000162	领盒饭	領盒飯	lǐng hé fàn	(of an actor with a bit part) to receive a boxed meal when one's job is done (phrase used e.g. by movie viewers when a character dies)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '領盒飯')	5000162
+5000163	领证	領證	lǐng zhèng	to obtain a certificate or license etc / (PRC) to obtain a marriage license / to marry	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '領證')	5000163
+5000164	颓废派	頹廢派	tuí fèi pài	decadents of the Decadent movement [of late 19th century Europe]	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '頹廢派')	5000164
