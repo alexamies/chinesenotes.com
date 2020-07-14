@@ -161,4 +161,8 @@
 5000161	韩美	韓美	hán měi	South Korean-US	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '韓美')	5000161
 5000162	领盒饭	領盒飯	lǐng hé fàn	(of an actor with a bit part) to receive a boxed meal when one's job is done (phrase used e.g. by movie viewers when a character dies)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '領盒飯')	5000162
 5000163	领证	領證	lǐng zhèng	to obtain a certificate or license etc / (PRC) to obtain a marriage license / to marry	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '領證')	5000163
-5000164	颓废派	頹廢派	tuí fèi pài	decadents of the Decadent movement [of late 19th century Europe]	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '頹廢派')	5000164
+5000164	颓废派	頹廢派	tuífèi pài	decadents [of the Decadent movement of late 19th century Europe]	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '頹廢派')	5000164
+5000165	驻大陆	駐大陸	zhùdàlù	stationed on the continent (i.e. PRC)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '駐大陸')	5000165
+5000166	魔性	\N	mó xìng	irresistibly quirky/compelling in its wackiness	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Neologism c. 2014 (CC-CEDICT '魔性')	5000166
+5000167	鸟眼纹	鳥眼紋	niǎo yǎn wén	bird's eye	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鳥眼紋')	5000167
+5000168	黑砖窑	黑磚窯	hēi zhuān yáo	black brick kiln	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Factories that acquired notoriety in 2007 for slave labor (CC-CEDICT '黑磚窯')	5000168

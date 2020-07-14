@@ -137,3 +137,5 @@
 7000137	玄讷大学	玄奘大學	xuánzhuǎng dàxué	Hsuan Chuang University	proper noun	大学	University	佛教	Buddhism	\N	\N	\N	\N	A Buddhist university in Taiwan (Wikipedia '玄讷大学')	7000137
 7000138	平川彰	\N	píng chuānzhāng	Akira Hirakawa	proper noun	人	Person	佛教	Buddhism	日本	Japan	\N	\N	1915-2002; Japanese Buddhist scholar (Wikipedia '平川彰'; WorldCat '平川彰')	7000138
 7000139	冈布理奇	岡布理奇	gāngbùlǐqí	Richard Gombrich	proper noun	学者	Scholar	佛教	Buddhism	英国	England	\N	\N	1937 - ; British Buddhist scholar (Wikipedia 'Richard Gombrich')	7000139
+7000140	凤停寺	鳳停寺	fèngtíngsì	Bongjeongsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Korean temple in North Gyeongsang Province (FGDB '鳳停寺'; Wikipedia '鳳停寺')	7000140
+7000141	高丽八万大藏经	高麗八萬大藏經	Gāolì Bā Wàn Dà Zàng Jīng	Tripitaka Koreana	proper noun	\N	\N	佛教	Buddhism	韩国	Korea	\N	\N	Buddhist scriptures carved on 81,340 wooden tablets and housed in Haeinsa 海印寺 in South Gyeongsang province of South Korea (CC-CEDICT '高麗八萬大藏經')	7000141

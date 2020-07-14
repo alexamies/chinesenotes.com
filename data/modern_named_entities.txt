@@ -5705,3 +5705,99 @@
 6005705	托尔金	托爾金	tuōěrjīn	J.R.R. Tolkien	proper noun	人	Person	历史	History	英国	England	\N	\N	1892-1973; British philologist and author of fantasy fiction such as Lord of the Rings 魔戒 (CC-CEDICT '托爾金')	6005705
 6005706	托马斯·斯特恩斯·艾略特	托馬斯·斯特恩斯·艾略特	tuōmǎsī sītéēnsī àilüèté	T. S. Eliot	proper noun	人	Person	历史	History	英国	England	\N	\N	1888-1965; English poet (CC-CEDICT '托馬斯·斯特恩斯·艾略特')	6005706
 6005707	英国国教会	英國國教會	Yīngguó guójiāo huì	Church of England	proper noun	\N	\N	现代汉语	Modern Chinese	基督教	Christianity	\N	\N	(Wikipedia '英格蘭教會')	6005707
+6005708	牛津	\N	niújīn	Oxford	proper noun	城市	City	地方	Places	英国	England	\N	\N	City in England (CC-CEDICT '牛津')	6005708
+6005709	牛津大学	牛津大學	Niújīn Dàxué	Oxford University	proper noun	大学	University	教育	Education	英国	England	\N	\N	(Wikipedia '牛津大学')	6005709
+6005710	剑桥大学	劍橋大學	Jiànqiáo Dàxué	Cambridge University	proper noun	大学	University	教育	Education	英国	England	\N	\N	(Wikipedia '剑桥大学')	6005710
+6005711	工业革命	工業革命	Gōngyè Gémìng	Industrial Revolution	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	C. 1750-1830 in England (CC-CEDICT  '工业革命'; Wikipedia '第一次工业革命') 	6005711
+6005712	英格兰圣公会	英格蘭聖公會	yīnggélán shènggōnghuì	Church of England	proper noun	\N	\N	现代汉语	Modern Chinese	基督教	Christianity	\N	\N	(Wikipedia '英格蘭教會')	6005712
+6005713	李斯特	\N	Lǐ Sīté	Ferenc (Franz) Liszt / Joseph Lister	proper noun	人	Person	历史	History	英国	England	\N	\N	(CC-CEDICT '李斯特')	6005713
+6005714	柯南·道尔	柯南·道爾	kē nán dào ěr	Sir Arthur Conan Doyle	proper noun	人	Person	历史	History	英国	England	\N	\N	1859-1930; Author of the Sherlock Holmes stories 歇洛克·福尔摩斯 (CC-CEDICT '柯南·道爾')	6005714
+6005715	约翰·霍金斯	約翰·霍金斯	yuēhàn huòjīnsī	John Hawkins / Johns Hopkins	proper noun	\N	\N	历史	History	英国	England	\N	\N	(CC-CEDICT '約翰·霍金斯')	6005715
+6005716	肖伯纳	肖伯納	xiàobónà	Bernard Shaw	proper noun	\N	\N	历史	History	英国	England	\N	\N	1856-1950; Irish-born British playwright (CC-CEDICT '肖伯納')	6005716
+6005717	救世军	救世軍	jiùshìjūn	Salvation Army	proper noun	\N	\N	历史	History	英国	England	\N	\N	Protestant philanthropic organization founded in London in 1865 (CC-CEDICT '救世軍')	6005717
+6005718	马尔扎赫	馬爾扎赫	mǎ ěr zhā hè	Marjah,	proper noun	地名	Place Name	地方	Places	亚洲	Asia	\N	\N	Town in Helmand province, Afghanistan (CC-CEDICT '馬爾扎赫')	6005718
+6005719	马尔谷	馬爾谷	mǎěrgǔ	Mark / St Mark the evangelist	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Less common variant of 马克 preferred by the Catholic Church (CC-CEDICT '馬爾谷')	6005719
+6005720	马尔贾	馬爾賈	mǎěrjiǎ	Marja (also spelled Marjah or Marjeh), agricultural	proper noun	地区	District	现代汉语	Modern Chinese	亚洲	Asia	\N	\N	District in Nad Ali District, Helmand Province, Afghanistan (CC-CEDICT '馬爾賈')	6005720
+6005721	马尔默	馬爾默	mǎěrmò	Malmo (Malmo city, of Sweden)	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '馬爾默')	6005721
+6005722	马瑙斯	馬瑙斯	mǎnǎosī	Manaus (city in Brazil)	proper noun	城市	City	地方	Places	南美	South America	\N	\N	(CC-CEDICT '馬瑙斯')	6005722
+6005723	马略卡	馬略卡	mǎlüèkǎ	Majorca (island of Spain)	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '馬略卡')	6005723
+6005724	马约卡	馬約卡	mǎyuēkǎ	Majorca (island of Spain)	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '馬約卡')	6005724
+6005725	马约特	馬約特	mǎyuēté	Mayotte, island between NW Madagascar and Mozambique	proper noun	\N	\N	地方	Places	\N	\N	\N	\N	(CC-CEDICT '馬約特')	6005725
+6005726	马纳马	馬納馬	mǎnàmǎ	Manama, capital of Bahrain	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '馬納馬')	6005726
+6005727	马航	馬航	mǎháng	Malaysia Airlines	proper noun	公司	Company	商务	Commerce	亚洲	Asia	\N	\N	(CC-CEDICT '馬航')	6005727
+6005728	马莎	馬莎	mǎsuō	Marks and Spencers, UK retail chain / Martha (name)	proper noun	公司	Company	商务	Commerce	英国	England	\N	\N	(CC-CEDICT '馬莎')	6005728
+6005729	马萨诸塞	馬薩諸塞	mǎsàzhūsāi	Massachusetts, US state	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '馬薩諸塞')	6005729
+6005730	马苏德	馬蘇德	mǎsūdé	Massoud (name) / Ahmed Shah Massoud	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1953-2001; Tajik Afghan engineer, military man and anti-Taleban leader (CC-CEDICT '馬蘇德')	6005730
+6005731	马托格罗索	馬託格羅索	mǎtuō géluósuǒ	Mato Grosso, western province of Brazil	proper noun	地名	Place Name	地方	Places	南美	South America	\N	\N	(CC-CEDICT '馬託格羅索')	6005731
+6005732	赫胥黎	\N	hèxūlí	Huxley	proper noun	作者	Author	文学	Literature	英国	England	\N	\N	1894-1963; British novelist (CC-CEDICT '赫胥黎')	6005732
+6005733	阿道司·赫胥黎	\N	ā dào sī hè xū lí	Aldous Huxley	proper noun	作者	Author	文学	Literature	英国	England	\N	\N	1894-1963; British novelist and author of Brave New World 美丽新世界 (CC-CEDICT '阿道司·赫胥黎')	6005733
+6005734	麦克米兰	麥克米蘭	màikèmǐlán	McMillan or MacMillan (name) / Harold Macmillan	proper noun	人	Person	历史	History	英国	England	\N	\N	1894-1986; UK conservative politician, prime minister 1957-1963 (CC-CEDICT '麥克米蘭')	6005734
+6005735	马那瓜	馬那瓜	mǎnàguā	Managua, capital of Nicaragua	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '馬那瓜')	6005735
+6005736	马里奥	馬里奧	mǎlǐào	Mario (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '馬里奧')	6005736
+6005737	冯内果	馮內果	féngnèiguǒ	Kurt Vonnegut, Jr.	proper noun	人	Person	历史	History	饮食	Food and Drink	\N	\N	1922-2007; US writer (CC-CEDICT '馮內果')	6005737
+6005738	冯德英	馮德英	féngdéyīng	Feng Deying (1935-), socialist realist novelist, author of Bitter cauliflower 苦菜花	proper noun	作者	Author	历史	History	\N	\N	\N	\N	1954 (CC-CEDICT '馮德英')	6005738
+6005739	冯德莱恩	馮德萊恩	féng dé lái ēn	Ursula von der Leyen	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1958-; German politician, president of the European Commission from 2019 (CC-CEDICT '馮德萊恩')	6005739
+6005740	冯骥才	馮驥才	féngjìcái	Feng Jicai	proper noun	作者	Author	历史	History	中国	China	\N	\N	1942-; Novelist from Tianjin, author of Extraordinary people in our ordinary world 俗世奇人 (CC-CEDICT '馮驥才')	6005740
+6005741	腾讯控股有限公司	騰訊控股有限公司	Téngxùn kònggǔ yǒuxiàn gōngsī	Tencent Holdings Limited (developers of the QQ instant messaging platform)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '騰訊控股有限公司')	6005741
+6005742	托马斯·哈代	托馬斯·哈代	tuōmǎsī hādài	Thomas Hardy	proper noun	人	Person	历史	History	英国	England	\N	\N	1840-1928; English author (CC-CEDICT '托馬斯·哈代')	6005742
+6005743	高德纳	高德納	gāodénà	the Chinese name of American computer scientist Donald Knuth	noun	人	Person	计算机科学	Computer Science	中国	China	\N	\N	1938-; Adopted prior to his visit to China in 1977 (CC-CEDICT '高德納')	6005743
+6005744	高村正彦	高村正彥	gāocūn zhèngyàn	Komura Masahiko	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1942-; Japanese politician, foreign minister from 1998, minister of defense from 2007 (CC-CEDICT '高村正彥')	6005744
+6005745	蒙哥马利	蒙哥馬利	mēnggē mǎlì	Bernard Montgomery (Montie)	proper noun	人	Person	历史	History	英国	England	\N	\N	1887-1976; Second World War British field marshal, also Montgomery or Montgomerie surname (CC-CEDICT '蒙哥馬利')	6005745
+6005746	高空俱乐部	高空俱樂部	gāokōng jùlèbù	Mile High Club	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '高空俱樂部')	6005746
+6005747	高罗佩	高羅珮	gāoluópèi	Gao Luopei or R.H. van Gulik	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1910-1967; Dutch sinologist, diplomat and writer (CC-CEDICT '高羅珮')	6005747
+6005748	高行健	\N	gāoxíngjiàn	Gao Xingjian	proper noun	作者	Author	历史	History	中国	China	\N	\N	1940-; Chinese novelist and Nobel laureate, author of Soul Mountain 灵山 (CC-CEDICT '高行健')	6005748
+6005749	魏京生	\N	wèijīngshēng	Wei Jingsheng	proper noun	\N	\N	历史	History	中国	China	\N	\N	1950-; Beijing-based Chinese dissident, imprisoned 1978-1993 and 1995-1997, released to the US in 1997 (CC-CEDICT '魏京生')	6005749
+6005750	魏巍	\N	wèiwēi	Wei Wei	proper noun	作者	Author	历史	History	亚洲	Asia	\N	\N	1920-2008; Novelist and poet, author of award-winning novel The East 东方 about the Korean war (CC-CEDICT '魏巍')	6005750
+6005751	魔宫传奇	魔宮傳奇	mógōng chuánqí	The Name of the Rose, 1986 movie based on the novel by Umberto Eco	proper noun	书名	Book Title	文学	Literature	\N	\N	\N	\N	(CC-CEDICT '魔宮傳奇')	6005751
+6005752	魔兽世界	魔獸世界	mó shòu shìjiè	World of Warcraft (video game)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '魔獸世界')	6005752
+6005753	魔鬼岛	魔鬼島	móguǐdǎo	Devil's Island, notorious French prison off the coast of French Guyana	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '魔鬼島')	6005753
+6005754	鲁德维格	魯德維格	lǔ dé wéi gé	Ludwig (name) / Ludovic (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '魯德維格')	6005754
+6005755	鲁昂	魯昂	lǔáng	Rouen (France)	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '魯昂')	6005755
+6005756	鲁尔区	魯爾區	lǔěrqū	the Ruhr, region in Germany	noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '魯爾區')	6005756
+6005757	鲁尔河	魯爾河	lǔěrhé	Ruhr River, a tributary of the Rhine in Germany	proper noun	水名	River	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '魯爾河')	6005757
+6005758	鲍勃·伍德沃德	鮑勃·伍德沃德	bàobó wǔ dé Wòdé	Bob Woodward (Washington Post journalist)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鮑勃·伍德沃德')	6005758
+6005759	鲍勃·马利	鮑勃·馬利	bàobó mǎlì	Bob Marley	proper noun	人	Person	历史	History	音乐	Music	\N	\N	1945-1981; Jamaican reggae musician and activist (CC-CEDICT '鮑勃·馬利')	6005759
+6005760	鲍德里亚	鮑德里亞	bào Délǐ yà	Jean Baudrillard	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1929-2007; French cultural theorist and philosopher (CC-CEDICT '鮑德里亞')	6005760
+6005761	鲜橙多	鮮橙多	xiānchéngduō	Xianchengduo, Chinese brand of orange-flavored soft drink	proper noun	产品	Product	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '鮮橙多')	6005761
+6005762	阿普尔顿	阿普爾頓	āpǔ'ěrdùn	Appleton (name) / Sir Edward Appleton	proper noun	人	Person	历史	History	英国	England	\N	\N	1892-1965; British physicist, Nobel laureate who discovered the ionosphere (CC-CEDICT '阿普爾頓')	6005762
+6005763	马克斯威尔	馬克斯威爾	mǎkèsīwēi'ěr	James Clerk Maxwell	proper noun	人	Person	历史	History	英国	England	\N	\N	1831-1879 (CC-CEDICT '馬克斯威爾')	6005763
+6005764	鸠山由纪夫	鳩山由紀夫	jiūshān yóu jì fū	Hatoyama Yukio	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1947-; Japanese Democratic Party politician, prime minister 2009-2010 (CC-CEDICT '鳩山由紀夫')	6005764
+6005765	凤凰古城	鳳凰古城	fènghuáng gǔchéng	Fenghuang Ancient Town, in Fenghuang County, Xiangxi Prefecture, Hunan, added to the UNESCO World Heritage Tentative List in 2008 in the Cultural category	proper noun	县	County	地方	Places	中国	China	\N	\N	(CC-CEDICT '鳳凰古城')	6005765
+6005766	鸿海	鴻海	hónghǎi	Hon Hai Precision Industry Company, Taiwan technology company, aka Foxconn	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '鴻海')	6005766
+6005767	马克沁	馬克沁	Mǎkèqìn	Sir Hiram Maxim	proper noun	人	Person	历史	History	英国	England	\N	\N	1840-1916; American British inventor of the Maxim machine gun (CC-CEDICT '馬克沁')	6005767
+6005768	鹿特丹	\N	lùtédān	Rotterdam, port city in the Netherlands	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '鹿特丹')	6005768
+6005769	丽佳娜	麗佳娜	lìjiānà	Regina (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '麗佳娜')	6005769
+6005770	法拉第	\N	fǎlādì	Faraday (name) / Michael Faraday	proper noun	人	Person	历史	History	英国	England	\N	\N	1791-1867; British experimental physicist prominent in the development of electricity (CC-CEDICT '法拉第')	6005770
+6005771	海德格尔	海德格爾	hǎidé gé ěr	Martin Heidegger	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1889-1976; German philosopher (CC-CEDICT '海德格爾')	6005771
+6005772	丽池卡登	麗池卡登	lì chí kǎ dēng	Ritz-Carlton (hotel chain)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '麗池卡登')	6005772
+6005773	丽致	麗緻	lìzhì	Ritz (hotel chain)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '麗緻')	6005773
+6005774	麦克德莫特	麥克德莫特	mài kè dé mò té	McDermott (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '麥克德莫特')	6005774
+6005775	麦德蒙	麥德蒙	màidémēng	McDermott (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '麥德蒙')	6005775
+6005776	麦德龙	麥德龍	màidélóng	Metro supermarket chain (originally German)	proper noun	\N	\N	现代汉语	Modern Chinese	欧洲	Europe	\N	\N	(CC-CEDICT '麥德龍')	6005776
+6005777	麦当劳	麥當勞	màidāngláo	MacDonald or McDonald (name) / McDonald's (fast food company)	proper noun	公司	Company	商务	Commerce	名字	Names	\N	\N	(CC-CEDICT '麥當勞')	6005777
+6005778	麦纳玛	麥納瑪	màinàmǎ	Manama, capital of Bahrain	proper noun	城市	City	地方	Places	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '麥納瑪')	6005778
+6005779	麦纳麦	麥納麥	màinàmài	Manama, capital city of Bahrain	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '麥納麥')	6005779
+6005780	麦迪	麥迪	màidí	Tracy McGrady	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1979-; Former NBA player (CC-CEDICT '麥迪')	6005780
+6005781	麦迪逊广场花园	麥迪遜廣場花園	màidíxùn guǎngchǎng huāyuán	Madison Square Garden	proper noun	\N	\N	地方	Places	\N	\N	\N	\N	(CC-CEDICT '麥迪遜廣場花園')	6005781
+6005782	麦迪逊花园广场	麥迪遜花園廣場	màidíxùn huāyuán guǎngchǎng	Madison Square Garden	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '麥迪遜花園廣場')	6005782
+6005783	麦金塔电脑	麥金塔電腦	mài jīntǎ diànnǎo	Macintosh (brand of computers made by Apple) / Mac	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '麥金塔電腦')	6005783
+6005784	麻生太郎	\N	máshēng tài láng	Asō Tarō	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1940-; Japanese entrepreneur and LDP politician, prime minister from 2008 (CC-CEDICT '麻生太郎')	6005784
+6005785	卢因	盧因	lúyīn	Lewin (name) / Kurt Lewing	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1890-1944; German American psychologist of the Gestalt school, the author of Field Theory (CC-CEDICT '盧因')	6005785
+6005786	黄以静	黃以靜	huángyǐjìng	Wong Yee Ching or Flossie Wong-Staal	proper noun	\N	\N	历史	History	中国	China	\N	\N	1947-;  Hong Kong American virologist, joint discoverer of the HIV AIDS virus (CC-CEDICT '黃以靜')	6005786
+6005787	黄光裕	黃光裕	huángguāngyù	Huang Guangyu	proper noun	人	Person	商务	Commerce	中国	China	\N	\N	1969-; PRC entrepreneur and millionaire, founder of GOME Electrical 国美电器 (CC-CEDICT '黃光裕')	6005787
+6005788	黄克强	黃克強	huángkèqiáng	Huang Keqiang	proper noun	人	Person	历史	History	中国	China	\N	\N	Pseudonym of Huang Xing 黄兴, one of the heroes of the 1911 Xinhai Revolution 辛亥革命 (CC-CEDICT '黃克強')	6005788
+6005789	卢瑟福	盧瑟福	lúsèfú	Rutherford (name) / Ernest Rutherford	proper noun	人	Person	历史	History	\N	\N	\N	\N	1871-1937; Early nuclear physicist from New Zealand (CC-CEDICT '盧瑟福')	6005789
+6005790	约翰·拉贝	約翰·拉貝	Yuēhàn lā bèi	John Rabe	proper noun	人	Person	历史	History	\N	\N	\N	\N	1882-1950; German who helped protect Chinese during the Nanking massacre period (CC-CEDICT '約翰·拉貝')	6005790
+6005791	黄建南	黃建南	huángjiànnán	John Huang	proper noun	\N	\N	政治	Politics	\N	\N	\N	\N	1945-; Democratic Party fundraiser (CC-CEDICT '黃建南')	6005791
+6005792	维尔斯特拉斯	維爾斯特拉斯	wéi'ěrsītélāsī	Karl Weierstrass	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1815-1897; German mathematician (CC-CEDICT '維爾斯特拉斯')	6005792
+6005793	黄花岗七十二烈士	黃花崗七十二烈士	huánghuāgǎng qīshíèr lièshì	the seventy two martyrs of the Huanghuagang uprising of 23rd April 1911	phrase	人	Person	历史	History	\N	\N	\N	\N	(CC-CEDICT '黃花崗七十二烈士')	6005793
+6005794	黄花岗起义	黃花崗起義	huánghuāgǎng qǐyì	Huanghuagang uprising of 23rd April 1911 in Guangzhou, one a long series of unsuccessful uprisings of Sun Yat-sen's revolutionary party	proper noun	\N	\N	历史	History	\N	\N	\N	\N	(CC-CEDICT '黃花崗起義')	6005794
+6005795	黄金辉	黃金輝	huángjīnhuī	Wee Kim Wee (1915-2005), president of Singapore	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1985-1993 (CC-CEDICT '黃金輝')	6005795
+6005796	黄长烨	黃長燁	huángzhǎngyè	Hwang Jang-yop	proper noun	人	Person	政治	Politics	亚洲	Asia	\N	\N	1923-2010; North Korean politician known for defecting to South Korea (CC-CEDICT '黃長燁')	6005796
+6005797	蔡元培	\N	cài yuánpéi	Cai Yuanpei	proper noun	人	Person	教育	Education	中国	China	\N	\N	1868-1940; Liberal educationalist, studied in Germany, president of Peking University 1917-19, minister of education for Guomindang (CC-CEDICT '蔡元培')	6005797
+6005798	尼采	尼採	Nícǎi	Friedrich Nietzsche	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	(1846-1900), German philosopher	6005798
+6005799	黑客帝国	黑客帝國	hēikè dìguó	The Matrix	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1999 movie (CC-CEDICT '黑客帝國')	6005799
+6005800	黑泽明	黑澤明	hēizémíng	Kurosawa Akira	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	1910-1998;  Japanese movie director (CC-CEDICT '黑澤明')	6005800
+6005801	黑道家族	\N	hēidào jiāzú	The Sopranos (US TV series)	proper noun	\N	\N	媒体	Media	美国	United States	\N	\N	(CC-CEDICT '黑道家族')	6005801
+6005802	弗里德里希·尼采	弗里德里希·尼採	Fúlǐdélǐxī Nícǎi	Friedrich Nietzsche	proper noun	\N	\N	现代汉语	Modern Chinese	哲学	Philosophy	\N	\N	1846-1900; German philosopher (Wikipedia '弗里德里希·尼采')	6005802
+6005803	法兰克福	法蘭克福	Fǎlánkèfú	Frankfurt	proper noun	城市	city	地方	Places	德国	Germany	\N	\N	(Wikipedia '美因河畔法兰克福')	6005803
