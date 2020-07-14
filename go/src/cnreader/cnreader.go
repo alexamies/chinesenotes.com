@@ -4,7 +4,9 @@ Command line utility to mark up HTML files with Chinese notes.
 package main
 
 import (
+	"bufio"
 	"flag"
+	"fmt"
 	"github.com/alexamies/chinesenotes-go/fileloader"
 	"github.com/alexamies/chinesenotes-go/tokenizer"
 	"github.com/alexamies/cnreader/analysis"
@@ -12,6 +14,7 @@ import (
 	"github.com/alexamies/cnreader/corpus"
 	"github.com/alexamies/cnreader/dictionary"
 	"github.com/alexamies/cnreader/library"
+	"github.com/alexamies/cnreader/tmindex"
 	"log"
 	"os"
 	"runtime/pprof"
@@ -34,6 +37,8 @@ func main() {
 	var hwFiles = flag.Bool("hwfiles", false, "Compute and write " +
 		"HTML entries for each headword, writing the files to the "+
 		"web/words directory.")
+	var writeTMIndex = flag.Bool("tmindex", false, "Compute and write " +
+		"translation memory index.")
 	var librarymeta = flag.Bool("librarymeta", false, "Top level " +
 		"collection entries for the digital library.")
 	var memprofile = flag.String("memprofile", "", "write memory profile to " +
@@ -95,8 +100,20 @@ func main() {
 			Loader: fileLibraryLoader,
 		}
 		analysis.WriteLibraryFiles(lib, dictTokenizer)
+	} else if *writeTMIndex {
+		log.Println("main: Writing translation memory index")
+		dir := config.IndexDir()
+		fname := "tmindex.tsv"
+		path := fmt.Sprintf("%s/%s", dir, fname)
+		f, err := os.Create(path)
+		defer f.Close()
+		if err != nil {
+			log.Fatal("Could not create index file: ", err)
+		}
+		w := bufio.NewWriter(f)
+		tmindex.BuildIndex(w, wdict)
 	} else {
-		log.Printf("main: Writing out entire corpus\n")
+		log.Println("main: Writing out entire corpus")
 		analysis.WriteCorpusAll(fileLibraryLoader, dictTokenizer)
 	}
 

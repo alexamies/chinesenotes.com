@@ -155,6 +155,7 @@ cd $DEV_HOME/go/src/cnreader
 ./cnreader
 ./cnreader -hwfiles
 ./cnreader -html
+./cnreader -tmindex
 cd $CNREADER_HOME
 mkdir $WEB_DIR/dist
 cp web-resources/dist/*.css $WEB_DIR/dist/.

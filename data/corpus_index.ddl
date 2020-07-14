@@ -94,3 +94,18 @@ CREATE TABLE bigram_freq_doc (
   COLLATE utf8_general_ci
 ;
 
+/*
+ * Table for translation memory index by contained character
+ * character - Chinese contained in word
+ * word - Chinese text for the word
+ * frequency - the count of characters in the word
+ */
+CREATE TABLE tmindex (
+  character VARCHAR(256) NOT NULL,
+  word VARCHAR(256) NOT NULL,
+  frequency INT UNSIGNED NOT NULL,
+  PRIMARY KEY (`character`, `word`)
+  )
+  CHARACTER SET UTF8
+  COLLATE utf8_general_ci
+;
