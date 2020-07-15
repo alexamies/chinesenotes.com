@@ -44,7 +44,7 @@ export class TranslationMemory {
     if (findForm && findInput) {
       fromEvent(findForm, "submit").subscribe(
       () => {
-        this.makeRequest("/translation_memory", findInput.value);
+        this.makeRequest("/findtm", findInput.value);
       });
     }
   }

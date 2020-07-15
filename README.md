@@ -206,7 +206,7 @@ docker run --name mariadb -p 3306:3306 \
   -v "$(pwd)"/mariadb-data:/var/lib/mysql \
   --mount type=bind,source="$(pwd)"/data,target=/cndata \
   --mount type=bind,source="$(pwd)"/index,target=/cnindex \
-  mariadb:10.3
+  mariadb:10
 ```
 
 The data in the database is persistent even if the container is deleted. To
@@ -396,6 +396,18 @@ docker run -itd --rm -p 8080:8080 --name cn-app --link mariadb \
 Debug
 ```shell
 docker exec -it cn-app bash 
+```
+
+Test locally by sending a Curl command. Home page
+
+```shell
+curl http://localhost:8080
+```
+
+Translation memory:
+
+```shell
+curl http://localhost:8080/findtm?query=結實
 ```
 
 Push to Google Container Registry

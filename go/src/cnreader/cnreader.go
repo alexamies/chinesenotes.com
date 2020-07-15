@@ -103,7 +103,7 @@ func main() {
 	} else if *writeTMIndex {
 		log.Println("main: Writing translation memory index")
 		dir := config.IndexDir()
-		fname := "tmindex.tsv"
+		fname := "tmindex_unigram.tsv"
 		path := fmt.Sprintf("%s/%s", dir, fname)
 		f, err := os.Create(path)
 		defer f.Close()

@@ -57,11 +57,11 @@ func TestBuildIndex(t *testing.T) {
 	var buf bytes.Buffer
 	BuildIndex(&buf, wdict)
 	expected := 
-`结	结实	1
-实	结实	1
-結	結實	1
-實	結實	1
-倿	倿	1
+`结	结实
+实	结实
+結	結實
+實	結實
+倿	倿
 `
 	result := buf.String()
 	if len(result) != len(expected) {

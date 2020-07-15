@@ -17,7 +17,6 @@ import (
 	"fmt"
 	"github.com/alexamies/chinesenotes-go/dicttypes"
 	"io"
-	"strings"
 )
 
 type indexEntry struct {
@@ -30,8 +29,7 @@ type indexEntry struct {
 func BuildIndex(w io.Writer, wdict map[string]dicttypes.Word) {
 	for term, _ := range wdict {
 		for _, c := range term {
-			count := strings.Count(term, string(c))
-		  line := fmt.Sprintf("%c\t%s\t%d\n", c, term, count)
+		  line := fmt.Sprintf("%c\t%s\n", c, term)
 		  io.WriteString(w, line)
 		}
 	}
