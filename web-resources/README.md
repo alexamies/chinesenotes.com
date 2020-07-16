@@ -45,26 +45,6 @@ Compile to JavaScript
 npm run compile_ts
 ```
 
-## Development Testing
-Development testing can be done with the Webpack dev-server. Install it
-
-```shell
-npm install --save-dev webpack-dev-server
-```
-
-Generate development testing code
-```
-npm run compile_dev
-```
-
-Run the Webpack dev-server
-
-```shell
-npm run start
-```
-
-Navigate to the page http://localhost:8080/test/index.html
-
 ## Unit Testing
 
 Run the unit tests

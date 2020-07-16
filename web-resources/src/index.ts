@@ -18,8 +18,8 @@ import { CNotes } from "./CNotes";
 import { CNotesMenu } from "./CNotesMenu";
 import { DocumentFinder } from "./DocumentFinder";
 import { SubstringApp } from "./SubstringApp";
+import { TranslationMemory } from "./TranslationMemory";
 import { TranslationMemoryView } from "./TranslationMemoryView";
-import { TranslationMemory } from "./TranslationMemory"
 import { WordFinder } from "./WordFinder";
 import { WordFinderView } from "./WordFinderView";
 

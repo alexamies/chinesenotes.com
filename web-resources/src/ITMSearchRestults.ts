@@ -18,11 +18,9 @@
  *  remotely.
  */
 
-import { IDictEntry,
-         ITerm,
-         IWordSense } from "./CNInterfaces";
+import { IWordSense } from "./CNInterfaces";
 
 // Interface for results loaded from AJAX call
-export interface ITranslationSearchRestults {
-  terms: ITerm[];
+export interface ITMSearchRestults {
+  Words: IWordSense[];
 }

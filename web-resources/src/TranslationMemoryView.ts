@@ -18,10 +18,8 @@
  */
 
 import { Observable } from "rxjs";
-import { IDictEntry,
-         ITerm,
-         IWordSense } from "./CNInterfaces";
-import { ITranslationSearchRestults } from "./ITranslationSearchRestults";
+import { IWordSense } from "./CNInterfaces";
+import { ICNotes } from "./ICNotes";
 
 /**
  * Displays results of word lookup.
@@ -29,11 +27,9 @@ import { ITranslationSearchRestults } from "./ITranslationSearchRestults";
 export class TranslationMemoryView {
   public readonly NO_RESULTS_MSG = "No matching terms found";
   private helpBlock: HTMLElement | null;
-  private vocabApp: ICNotes;
 
-  constructor(vocabApp: ICNotes) {
+  constructor() {
     this.helpBlock = document.getElementById("lookup-help-block");
-    this.vocabApp = vocabApp;
   }
 
   /**
@@ -61,24 +57,10 @@ export class TranslationMemoryView {
 
   /**
    * Display term lookup results in the HTML document
-   * @param {ITerm[]} termsFound - the terms to display
+   * @param {IWordSense[]} termsFound - the terms to display
    */
-  public showResults(obs: Observable) {
-      obs.subscribe((data) => {
-        results = data as ITranslationSearchRestults;
-        this.addTerms(results.terms);
-      });
-    } else {
-      this.showMessage(this.NO_RESULTS_MSG);
-    }
-  }
-
-  /**
-   * Add terms to the page
-   * @param {ITerm[]}  terms - the terms to add
-   */
-  private addTerms(terms: ITerm[]) {
-    console.log("showResults: detailed results for dictionary lookup");
+  public showResults(words: IWordSense[]) {
+    console.log("showResults: detailed results");
     const qList = document.getElementById("queryTermsList");
     if (qList) {
       while (qList.hasChildNodes()) {
@@ -89,24 +71,15 @@ export class TranslationMemoryView {
     } else {
       console.log("showResults: queryTermsList not in DOM");
     }
-    if ((terms.length > 0) && terms[0].DictEntry && (!terms[0].Senses ||
-          (terms[0].Senses.length === 0))) {
-      console.log(`showResults: Query has ${terms.length} Chinese words`);
-      for (const term of terms) {
+    if (words.length > 0) {
+      console.log(`showResults: Query has ${words.length} words`);
+      for (const word of words) {
         if (qList) {
-          this.addTermToList(term, qList);
-        }
-      }
-    } else if ((terms.length === 1) && terms[0].Senses) {
-      console.log("showResults: Query is English", terms[0].Senses);
-      const senses = terms[0].Senses;
-      for (const sense of senses) {
-        if (qList) {
-          this.addWordSense(sense, qList);
+          this.addTermToList(word, qList);
         }
       }
     } else {
-      console.log("showResults: not able to handle this case", terms);
+      console.log("showResults: not able to handle this case", words);
     }
     const queryTermsDiv = document.getElementById("queryTermsDiv");
     if (queryTermsDiv) {
@@ -158,11 +131,10 @@ export class TranslationMemoryView {
 
   /**
    * Add a term object to a query term list
-   * @param {object} term is a word object
-   * @param {object} qList - the word list
-   * @return {object} a HTML element that the object is added to
+   * @param {IWordSense} word is a word object
+   * @param {HTMLElement} qList - the word list
    */
-  private addTermToList(term: ITerm, qList: HTMLElement) {
+  private addTermToList(word: IWordSense, qList: HTMLElement) {
     // console.log(`WordFinderView.addTermToList QueryText: ${term.QueryText}`);
     const li = document.createElement("li");
     li.className = "mdc-list-item";
@@ -172,24 +144,19 @@ export class TranslationMemoryView {
     const spanL1 = document.createElement("span");
     // Primary text is the query term (Chinese)
     spanL1.className = "mdc-list-item__primary-text";
-    const tNode1 = document.createTextNode(term.QueryText);
+    const tNode1 = document.createTextNode(word.Simplified);
     let pinyin = "";
     let wordURL = "";
-    if (term.DictEntry && term.DictEntry.Senses) {
-      pinyin = term.DictEntry.Pinyin;
-      // Add link to word detail page
-      const hwId = term.DictEntry.Senses[0].HeadwordId;
-      wordURL = "/words/" + hwId + ".html";
-      const a = document.createElement("a");
-      a.setAttribute("href", wordURL);
-      a.setAttribute("title", "Details for word");
-      a.setAttribute("class", "query-term");
-      a.appendChild(tNode1);
-      spanL1.appendChild(a);
-    } else {
-      // No link to a detailed word page
-      spanL1.appendChild(tNode1);
-    }
+    pinyin = word.Pinyin;
+    // Add link to word detail page
+    const hwId = word.HeadwordId;
+    wordURL = "/words/" + hwId + ".html";
+    const a = document.createElement("a");
+    a.setAttribute("href", wordURL);
+    a.setAttribute("title", "Details for word");
+    a.setAttribute("class", "query-term");
+    a.appendChild(tNode1);
+    spanL1.appendChild(a);
     span.appendChild(spanL1);
     // Secondary text is the Pinyin, English equivalent, and notes
     const spanL2 = document.createElement("span");
@@ -199,149 +166,10 @@ export class TranslationMemoryView {
     const textNode2 = document.createTextNode(pinyin + " ");
     spanPinyin.appendChild(textNode2);
     spanL2.appendChild(spanPinyin);
-    if (term.DictEntry && term.DictEntry.Senses) {
-      spanL2.appendChild(this.combineEnglish(term.DictEntry.Senses,
-                                             wordURL,
-                                             term.QueryText));
-    }
+    const tNode3 = document.createTextNode(word.English);
+    spanL2.appendChild(tNode3);
     span.appendChild(spanL2);
     qList.appendChild(li);
     return qList;
-  }
-
-  /**
-   * Add a word sense object to a query term list
-   * @param {IWordSense} sense is a word sense object
-   * @param {HTMLElement} qList - tbody HTML element
-   * @return {HTMLElement} a HTML element that the object is added to
-   */
-  private addWordSense(sense: IWordSense, qList: HTMLElement) {
-    const li = document.createElement("li");
-    li.className = "mdc-list-item";
-    // Primar text is Chinese
-    const span = document.createElement("span");
-    span.className = "mdc-list-item__text";
-    li.appendChild(span);
-    const spanL1 = document.createElement("span");
-    spanL1.className = "mdc-list-item__primary-text";
-    let chinese = sense.Simplified;
-    console.log("alertContents: chinese", chinese);
-    if (sense.Traditional) {
-      chinese += " (" + sense.Traditional + ")";
-    }
-    const tNode1 = document.createTextNode(chinese);
-    let pinyin = "";
-    // Add link to word detail page
-    const hwId = sense.HeadwordId;
-    const wordURL = "/words/" + hwId + ".html";
-    const a = document.createElement("a");
-    a.setAttribute("href", wordURL);
-    a.setAttribute("title", "Details for word");
-    a.setAttribute("class", "query-term");
-    a.appendChild(tNode1);
-    spanL1.appendChild(a);
-    span.appendChild(spanL1);
-    // Secondary text is the other details
-    const spanL2 = document.createElement("span");
-    spanL2.className = "mdc-list-item__secondary-text";
-    pinyin = sense.Pinyin;
-    const tNode2 = document.createTextNode(pinyin + " ");
-    spanL2.appendChild(tNode2);
-    span.appendChild(spanL2);
-    const wsArray = [sense];
-    const englishSpan = this.combineEnglish(wsArray, wordURL, sense.Simplified);
-    spanL2.appendChild(englishSpan);
-    li.appendChild(span);
-    qList.appendChild(li);
-    return qList;
-  }
-
-  /**
-   * Combine and crop the list of English equivalents and notes to a limited
-   * number of characters.
-   * @param {IWordSense[]} senses - an array of WordSense objects
-   * @param {string} wordURL - the URL of detail page for the headword
-   * @param {string} chinese - the Chinese text of the headword
-   * @return {object} a HTML element that can be added to the list element
-   */
-  private combineEnglish(senses: IWordSense[],
-                         wordURL: string,
-                         chinese: string) {
-    const maxLen = 100;
-    const englishSpan = document.createElement("span");
-    if (senses.length === 1) {
-      // For a single sense, give the equivalent and notes
-      let textLen = 0;
-      const equivSpan = document.createElement("span");
-      if (equivSpan) {
-        equivSpan.setAttribute("class", "dict-entry-definition");
-      }
-      const equivalent = senses[0].English;
-      textLen += equivalent.length;
-      const equivTN = document.createTextNode(equivalent);
-      equivSpan.appendChild(equivTN);
-      englishSpan.appendChild(equivSpan);
-      if (senses[0].Notes) {
-        const notesSpan = document.createElement("span");
-        notesSpan.setAttribute("class", "notes-label");
-        const noteTN = document.createTextNode("  Notes");
-        notesSpan.appendChild(noteTN);
-        englishSpan.appendChild(notesSpan);
-        let notesTxt = ": " + senses[0].Notes;
-        textLen += notesTxt.length;
-        if (textLen > maxLen) {
-          notesTxt = notesTxt.substr(0, maxLen) + " ...";
-        }
-        const notesTN = document.createTextNode(notesTxt);
-        englishSpan.appendChild(notesTN);
-      }
-    } else if (senses.length === 2) {
-      // For a list of two, give the enumeration with equivalents and notes
-      console.log("WordSense " + senses.length);
-      for (let j = 0; j < senses.length; j += 1) {
-        this.addEquivalent(senses[j], maxLen, englishSpan, j);
-      }
-    } else if (senses.length > 2) {
-      // For longer lists, give the enumeration with equivalents only
-      let equiv = "";
-      for (let j = 0; j < senses.length; j++) {
-        equiv += (j + 1) + ". " + senses[j].English + "; ";
-        if (equiv.length > maxLen) {
-          equiv += " ...";
-          break;
-        }
-      }
-      const equivSpan = document.createElement("span");
-      equivSpan.setAttribute("class", "dict-entry-definition");
-      const equivTN1 = document.createTextNode(equiv);
-      equivSpan.appendChild(equivTN1);
-      englishSpan.appendChild(equivSpan);
-    }
-    // Link for details of word
-    const link = document.createElement("a");
-    link.setAttribute("href", wordURL);
-    link.setAttribute("title", "Details for word");
-    const linkText = document.createTextNode("Details");
-    link.appendChild(linkText);
-    const tn1 = document.createTextNode("  [");
-    englishSpan.appendChild(tn1);
-    englishSpan.appendChild(link);
-    const tn2 = document.createTextNode("]");
-    englishSpan.appendChild(tn2);
-    // Link to pop up dialog for word split
-    if (this.vocabApp.isLoaded() && chinese.length > 1) {
-      const splitSp = document.createElement("span");
-      splitSp.className = "cnotes-split-span";
-      splitSp.setAttribute("title", "Split term into parts");
-      const splitText = document.createTextNode("[Split]");
-      fromEvent(splitSp, "click").subscribe( (evt) => {
-        evt.preventDefault();
-        this.vocabApp.showVocabDialog(splitSp, chinese);
-        return false;
-      });
-      splitSp.appendChild(splitText);
-      englishSpan.appendChild(splitSp);
-    }
-    return englishSpan;
   }
 }

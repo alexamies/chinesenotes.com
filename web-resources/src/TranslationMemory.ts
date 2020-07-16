@@ -17,9 +17,10 @@
  *  @fileoverview  JavaScript functions for sending and displaying search
  * results for the translation memory feature.
  */
-import { fromEvent } from "rxjs";
+import { fromEvent, of } from "rxjs";
 import { ajax } from "rxjs/ajax";
-import { catchError, map, retry } from "rxjs/operators";
+import { catchError, delay, map, retry } from "rxjs/operators";
+import { ITMSearchRestults } from "./ITMSearchRestults";
 import { TranslationMemoryView } from "./TranslationMemoryView";
 
 export class TranslationMemory {
@@ -44,7 +45,11 @@ export class TranslationMemory {
     if (findForm && findInput) {
       fromEvent(findForm, "submit").subscribe(
       () => {
-        this.makeRequest("/findtm", findInput.value);
+        if (findInput && findInput instanceof HTMLInputElement) {
+          this.makeRequest("/findtm", findInput.value);
+        } else {
+          console.log(`Unexpected error for ${findInput}`);
+        }
       });
     }
   }
@@ -60,30 +65,29 @@ export class TranslationMemory {
     ajax.getJSON(urlString).pipe(
       map(
         (data) => {
-          const jsonObj = data as IDocSearchRestults;
-          const termsFound = jsonObj.Terms;
-          this.view.showResults(termsFound, navHelper);
+          const jsonObj = data as ITMSearchRestults;
+          const words = jsonObj.Words;
+          this.view.showResults(words);
         }),
       catchError(
         (error) => {
           console.log(`TranslationMemory.makeDataSource errors ${error}`);
-            // Retry with a delay
-            this.view.showMessage("Error fetching data, retrying ...");
-            const retriable = ajax.getJSON(urlString).pipe(delay(5000),
-                                                           retry(5));
-            retriable.subscribe(
-              (data1) => {
-                const jsonObj1 = data1 as IDocSearchRestults;
-                const termsFound1 = jsonObj1.Terms;
-                this.view.showResults(termsFound1);
-              },
-              (err) => {
-                console.log(`makeRequest, failed after retries: ${err}`);
-                this.view.showMessage("Unable to fetch data, giving up");
+          // Retry with a delay
+          this.view.showMessage("Error fetching data, retrying ...");
+          const retriable = ajax.getJSON(urlString).pipe(delay(5000),
+                                                         retry(5));
+          retriable.subscribe(
+            (data1) => {
+          const jsonObj = data1 as ITMSearchRestults;
+          const words = jsonObj.Words;
+          this.view.showResults(words);
+            },
+            (err) => {
+              console.log(`makeRequest, failed after retries: ${err}`);
+              this.view.showMessage("Unable to fetch data, giving up");
               },
             );
-            return of("Completed retries");
-          }
+          return of("Completed retries");
       }),
     ).subscribe(
       (x) => {
@@ -91,3 +95,4 @@ export class TranslationMemory {
       },
     );
   }
+}
