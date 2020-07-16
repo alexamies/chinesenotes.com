@@ -352,3 +352,11 @@
 3000352	道所存者，乃师所存者	道所存者，乃師所存者	dào suǒ cún zhě, nǎi shī suǒ cún zhě	If sb has grasped the truth before you, take him as your teacher	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Tang dynasty essayist Han Yu 韩愈 (CC-CEDICT '道所存者，乃師所存者')	3000352
 3000353	深追	\N	shēn zhuī	deeply study	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (Pollard 2002, p. 27)	3000353
 3000354	铮铮有声	錚錚有聲	zhēng zhēng yǒu shēng	clanging sounds	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '錚錚有聲', p. 47)	3000354
+3000355	呈保	\N	chéng bǎo	to submit a guarantee	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈保', p. 47)	3000355
+3000356	呈具	\N	chéng jù	to submit a statement	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈具', p. 47)	3000356
+3000357	呈出	\N	chéng chū	to produce on request	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈出', p. 47)	3000357
+3000358	呈告	\N	chéng gào	to submit an accusation	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈告', p. 47)	3000358
+3000359	呈叩	\N	chéng kòu	to entreat	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈叩', p. 47)	3000359
+3000360	呈存	\N	chéng cún	to give for safekeeping	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈存', p. 47)	3000360
+3000361	呈官	\N	chéng guān	to give to the authorities	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈官', p. 47)	3000361
+3000362	呈控	\N	chéng kòng	to make an accusation against	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈控', p. 47)	3000362
