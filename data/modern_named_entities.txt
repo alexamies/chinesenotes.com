@@ -5756,7 +5756,7 @@
 6005756	鲁尔区	魯爾區	lǔěrqū	the Ruhr, region in Germany	noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '魯爾區')	6005756
 6005757	鲁尔河	魯爾河	lǔěrhé	Ruhr River, a tributary of the Rhine in Germany	proper noun	水名	River	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '魯爾河')	6005757
 6005758	鲍勃·伍德沃德	鮑勃·伍德沃德	bàobó wǔ dé Wòdé	Bob Woodward (Washington Post journalist)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鮑勃·伍德沃德')	6005758
-6005759	鲍勃·马利	鮑勃·馬利	bàobó mǎlì	Bob Marley	proper noun	人	Person	历史	History	音乐	Music	\N	\N	1945-1981; Jamaican reggae musician and activist (CC-CEDICT '鮑勃·馬利')	6005759
+6005759	鲍勃·马利	鮑勃·馬利	bàobó mǎlì	Bob Marley	proper noun	人	Person	音乐	Music	\N	\N	\N	\N	1945-1981; Jamaican reggae musician and activist (CC-CEDICT '鮑勃·馬利')	6005759
 6005760	鲍德里亚	鮑德里亞	bào Délǐ yà	Jean Baudrillard	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1929-2007; French cultural theorist and philosopher (CC-CEDICT '鮑德里亞')	6005760
 6005761	鲜橙多	鮮橙多	xiānchéngduō	Xianchengduo, Chinese brand of orange-flavored soft drink	proper noun	产品	Product	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '鮮橙多')	6005761
 6005762	阿普尔顿	阿普爾頓	āpǔ'ěrdùn	Appleton (name) / Sir Edward Appleton	proper noun	人	Person	历史	History	英国	England	\N	\N	1892-1965; British physicist, Nobel laureate who discovered the ionosphere (CC-CEDICT '阿普爾頓')	6005762
@@ -5806,3 +5806,86 @@
 6005806	东德	東德	dōngdé	East Germany	proper noun	国家	Country	历史	History	欧洲	Europe	\N	\N	1945-1990; German Democratic Republic 德意志民主共和国 (CC-CEDICT '東德')	6005806
 6005807	格拉	\N	gélā	Gera	proper noun	城市	City	地方	Places	德国	Germany	\N	\N	City in Germany (CC-CEDICT '格拉')	6005807
 6005808	冯特	馮特	féngté	Wilhelm Wundt	noun	心理学家	Psychologist	心理学	Psychology	\N	\N	\N	\N	1832-1920; a German psychologist (Wikipedia '威廉·冯特')	6005808
+6005809	威廉冯特	威廉馮特	wēilián féngté	Wilhelm Wundt	proper noun	心理学家	Psychologist	心理学	Psychology	\N	\N	\N	\N	1832-1920; A German psychologist (Wikipedia '威廉·冯特')	6005809
+6005810	莱比锡	萊比錫	láibìxī	Leipzig	proper noun	城市	City	地方	Places	德国	Germany	\N	\N	The capital of Saxony, Germany (Wikipedia '莱比锡')	6005810
+6005811	莱比锡大学	萊比錫大學	Láibìxī Dàxué	University of Leipzig	proper noun	大学	University	教育	Education	德国	Germany	\N	\N	(Wikipedia '莱比锡大学')	6005811
+6005812	默克尔	默克爾	mòkèěr	Angela Merkel	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1954-; German CDU politician, chancellor from 2005 (CC-CEDICT '默克爾')	6005812
+6005813	默多克	\N	mòduōkè	Murdoch (name) / Rupert Murdoch	proper noun	\N	\N	历史	History	名字	Names	\N	\N	1931-; Media magnate (CC-CEDICT '默多克')	6005813
+6005814	齐内丁·齐达内	齊內丁·齊達內	qí nèi dīng qí dá nèi	Zinedine Zidane (Zizou), a past French soccer player	proper noun	\N	\N	体育	Sport	欧洲	Europe	\N	\N	(CC-CEDICT '齊內丁·齊達內')	6005814
+6005815	齐格菲防线	齊格菲防線	qí gé fēi fángxiàn	Siegfried Line	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	Line of German military defenses during WWI and WWII (CC-CEDICT '齊格菲防線')	6005815
+6005816	斋藤	齋藤	zhāiténg	Saitō (Japanese surname)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '齋藤')	6005816
+6005817	慕尼黑	\N	mùníhēi	München / Munich	proper noun	城市	City	地方	Places	德国	Germany	\N	\N	A city in Germany, state capital of Bavaria 巴伐利亚 (Wikipedia '慕尼黑')	6005817
+6005818	巴伐利亚	巴伐利亞	Bāfálìyà	Bavaria	proper noun	邦	State	地方	Places	德国	Germany	\N	\N	A state in Germany (Wikipedia '巴伐利亚') 	6005818
+6005819	路德维希	路德維希	Lùdéwéixī	Ludwig	proper noun	名字	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	German given name (CC-CEDICT '路德維希')	6005819
+6005820	毕加索	畢加索	bìjiāsuǒ	Picasso	proper noun	画家	Artist	艺术	Art	\N	\N	\N	\N	(CC-CEDICT '畢加索')	6005820
+6005821	汉堡大学	漢堡大學	hànbǎo dàxué	University of Hamburg	proper noun	大学	University	教育	Education	德国	Germany	\N	\N	(Wikipedia '汉堡大学')	6005821
+6005822	龙猫	龍貓	lóngmāo	chinchilla / Totoro (anime character)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '龍貓')	6005822
+6005823	庞德街	龐德街	pángdéjiē	Bond Street (London, England)	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '龐德街')	6005823
+6005824	庞兹	龐茲	pángzī	Ponzi (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '龐茲')	6005824
+6005825	龚古尔	龔古爾	gōnggǔěr	Goncourt (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '龔古爾')	6005825
+6005826	龟甲万	龜甲萬	guījiǎwàn	Kikkoman, Japanese brand of soy sauce, food seasonings etc	proper noun	产品	Product	商务	Commerce	饮食	Food and Drink	\N	\N	(CC-CEDICT '龜甲萬')	6005826
+6005827	丁基	\N	dīngjī	1. Ding Ji	proper noun	人	Person	历史	History	中国	China	\N	\N	1917-1944; Real name Li Baicen 李百岑, journalist based in Yanan (CC-CEDICT '丁基')	80596
+6005828	波昂	\N	bōáng	Bonn	proper noun	城市	City	地方	Places	德国	Germany	\N	\N	City in Germany; Taiwanese usage, same as 波恩 (CC-CEDICT '波昂')	6005828
+6005829	科隆	\N	kēlóng	Cologne	proper noun	地名	Place Name	地方	Places	德国	Germany	\N	\N	(CC-CEDICT '科隆')	6005829
+6005830	波恩	\N	bōēn	Bonn	proper noun	城市	City	地方	Places	德国	Germany	\N	\N	(CC-CEDICT '波恩'; Wikipedia '波恩')	6005830
+6005831	海德堡	\N	hǎidébǎo	Heidelberg	proper noun	城市	City	地方	Places	德国	Germany	\N	\N	(CC-CEDICT '海德堡'; Wikipedia '海德堡)	6005831
+6005832	黑森林	\N	hēisēnlín	Black Forest / Schwarzwald	proper noun	山脉	Mountain Range	地理学	Geography	德国	Germany	\N	\N	(CC-CEDICT '黑森林')	6005832
+6005833	纳粹党	納粹黨	nàcuì dǎng	Nazi Party / Nationalsozialistische Deutsche Arbeiterpartei (NSDAP)	proper noun	\N	\N	历史	History	德国	Germany	\N	\N	(CC-CEDICT '納粹黨')	6005833
+6005834	克莱因	克萊因	kèláiyīn	Klein or Kline (name) / Felix Klein	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1849-1925; German mathematician (CC-CEDICT '克萊因')	6005834
+6005835	哈伯	\N	hābó	Edwin Hubble (1889-1953), US astronomer / Fritz Haber	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1868-1934; German chemist (CC-CEDICT '哈伯')	6005835
+6005836	哈勃	\N	hābó	Hubble (name) / Edwin Hubble	proper noun	人	Person	历史	History	名字	Names	\N	\N	1889-1953; US astronomer (CC-CEDICT '哈勃')	6005836
+6005837	哈姆雷特	\N	hāmǔléité	Hamlet (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '哈姆雷特')	6005837
+6005838	希尔伯特	希爾伯特	xī'ěrbóté	David Hilbert	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1862-1943; German mathematician (CC-CEDICT '希爾伯特')	6005838
+6005839	希耳伯特	\N	xī'ěrbóté	David Hilbert	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1862-1943; German mathematician (CC-CEDICT '希耳伯特')	6005839
+6005840	康托尔	康託爾	kāngtuōěr	Cantor (name) / Georg Cantor	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1845-1918; German mathematician, founder of set theory 集合论 (CC-CEDICT '康託爾')	6005840
+6005841	戈培尔	戈培爾	gēpéiěr	Joseph Goebbels	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1897-1945; German Nazi leader and politician (CC-CEDICT '戈培爾')	6005841
+6005842	戴高乐	戴高樂	dàigāolè	Charles De Gaulle	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1890-1970; French general and politician, leader of the Free French during World War II and president of the Republic 1959-1969 (CC-CEDICT '戴高樂')	6005842
+6005843	托尔斯泰	托爾斯泰	tuō'ěrsītài	Tolstoy (name) / Count Lev Nikolayevich Tostoy	proper noun	作者	Author	历史	History	欧洲	Europe	\N	\N	1828-1910; Great Russian novelist, author of War and Peace 战争与和平 (CC-CEDICT '托爾斯泰')	6005843
+6005844	施特劳斯	施特勞斯	shītéláosī	Strauss (name) / Johann Strauss (1825-1899), Austrian composer / Richard Strauss	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1864-1949; German composer (CC-CEDICT '施特勞斯')	6005844
+6005845	普朗克	\N	pǔlǎngkè	Max Planck	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1858-1947; German physicist (CC-CEDICT '普朗克')	6005845
+6005846	剑走偏锋	劍走偏鋒	jiàn zǒu piānfēng	Jian Zoupianfeng	proper noun	作者	Author	文学	Literature	\N	\N	\N	\N	Pseudonym of prolific modern novelist (CC-CEDICT '劍走偏鋒')	6005846
+6005847	德国马克	德國馬克	déguó mǎkè	German mark	proper noun	货币	Currency	现代汉语	Modern Chinese	德国	Germany	\N	\N	(CC-CEDICT '德國馬克')	6005847
+6005848	加里	\N	jiālǐ	Gary (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	Loanword; Loanword (CC-CEDICT '加里')	164607
+6005849	李卜克内西	李卜克內西	lǐbǔkènèixī	Wilhelm Liebknecht	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1826-1900; Political activist and founding member of the German Socialist Party SPD (CC-CEDICT '李卜克內西')	164607
+6005850	本因坊	\N	běnyīnfāng	Honinbo, major school of Go in Japan	proper noun	\N	\N	现代汉语	Modern Chinese	日本	Japan	\N	\N	(CC-CEDICT '本因坊')	6005850
+6005851	本因坊秀策	\N	běnyīnfāng xiùcè	Honinbo Shusaku	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1829-1862; Japanese Go player (CC-CEDICT '本因坊秀策')	6005851
+6005852	本茨	\N	běncí	Benz (name) / Karl Benz	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1844-1929; Motor car pioneer (CC-CEDICT '本茨')	6005852
+6005853	李四光	\N	lǐsìguāng	Li Siguang	proper noun	\N	\N	历史	History	中国	China	\N	\N	1889-1971; Mongol-born, Japanese trained geologist, prominent in early PRC oil exploration (CC-CEDICT '李四光')	6005853
+6005854	李大钊	李大釗	lǐ dàzhāo	Li Dazhao	proper noun	\N	\N	历史	History	中国	China	\N	\N	1889-1927; Early Chinese Marxist and founding member of the communist party (CC-CEDICT '李大釗')	6005854
+6005855	李希霍芬	\N	lǐ xī huò fēn	Ferdinand von Richthofen	proper noun	人	Person	历史	History	中国	China	\N	\N	1833-1905; German geologist and explorer who published a major foundational study of the geology of China in 1887 and first introduced the term Silk Road 丝绸之路 (CC-CEDICT '李希霍芬')	6005855
+6005856	李承晚	\N	lǐchéngwǎn	Syngman Rhee	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1875-1965; US trained Korean politician and dictator, president of Republic of Korea 1948-1960 (CC-CEDICT '李承晚')	6005856
+6005857	杜月笙	\N	dùyuèshēng	Du Yuesheng	proper noun	人	Person	历史	History	中国	China	\N	\N	1888-1951; Shanghai secret-society leader, banker, industrialist (CC-CEDICT '杜月笙')	6005857
+6005858	东条英机	東條英機	dōng tiáo yīng jī	Tojo Hideki	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1884-1948; Japanese military leader hanged as war criminal in 1948 (CC-CEDICT '東條英機')	6005858
+6005859	林纾	林紓	línshū	Lin Shu	proper noun	人	Person	历史	History	中国	China	\N	\N	1852-1924; Writer and influential translator and adaptor of vast swathes of Western literature into Classical Chinese (CC-CEDICT '林紓')	6005859
+6005860	果戈里	\N	guǒgēlǐ	Nikolai Gogol	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1809-1852; Russian author and dramatist (CC-CEDICT '果戈里')	6005860
+6005861	四世同堂	\N	sì shì tóng táng	Four Generations Under One Roof	set phrase	书名	Book Title	文学	Literature	\N	\N	\N	\N	 Novel by Lao She 老舍 (CC-CEDICT '四世同堂')	164758
+6005862	诺特	諾特	nuòté	Noether (name) / Emmy Noether	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	1882-1935; famous German female algebraist (CC-CEDICT '諾特')	6005862
+6005863	地面零点	地面零點	dìmiàn língdiǎn	Ground Zero	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Refers to the site of the World Trade Center destroyed in 9-11-2001 attack (CC-CEDICT '地面零點')	5000177
+6005864	马赛族	馬賽族	mǎsàizú	Maasai	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	People of Kenya (CC-CEDICT '馬賽族')	164767
+6005865	里希特霍芬	\N	lǐ xī té huò fēn	Ferdinand von Richthofen	proper noun	人	Person	历史	History	中国	China	\N	\N	1833-1905; German geologist and explorer who published a major foundational study of the geology of China in 1887 and first introduced the term Silk Road 丝绸之路 (CC-CEDICT '里希特霍芬')	6005865
+6005866	阿尔茨海默	阿爾茨海默	ā'ěrcíhǎimò	Alois Alzheimer	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1864-1915; German psychiatrist and neuropathologist (CC-CEDICT '阿爾茨海默')	6005866
+6005867	马连良	馬連良	mǎliánliáng	Ma Lianliang	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1901-1966; Beijing opera star, one of the Four great beards 四大须生 (CC-CEDICT '馬連良')	6005867
+6005868	尘埃落定	塵埃落定	chén āi luò dìng	Red Poppies	proper noun	书名	Book Title	文学	Literature	\N	\N	\N	\N	Novel by 阿来 A Lai (CC-CEDICT '塵埃落定')	164797
+6005869	韦格纳	韋格納	wéigénà	Alfred Wegener	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	Also written 魏格纳; 1880-1930; German meteorologist and geophysicist, the originator of the theory of continental drift, also written 魏格纳 (CC-CEDICT '韋格納')	6005869
+6005870	韩世昌	韓世昌	hán shìchāng	Han Shichang	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1897-1977; Actor specializing in Kunqu opera 昆曲 (CC-CEDICT '韓世昌')	6005870
+6005871	韩复榘	韓復榘	hánfùjǔ	Han Fuju	proper noun	\N	\N	历史	History	中国	China	\N	\N	1890-1938; Nationalist Kuomintang, army general and governor of Shandong, executed by Chiang Kai-shek 蒋介石 after he abandoned Jinan to the Japanese (CC-CEDICT '韓復榘')	6005871
+6005872	项英	項英	xiàngyīng	Xiang Ying	proper noun	人	Person	历史	History	中国	China	\N	\N	1898-1941; Communist general involved in forming the New Fourth Army 新四軍, killed in 1941 during the New Fourth Army incident 皖南事变 (CC-CEDICT '項英')	6005872
+6005873	马克斯·普朗克	馬克斯·普朗克	mǎkèsī pǔlǎngkè	Max Planck	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1858-1947; German physicist who first postulated quantization of energy (CC-CEDICT '馬克斯·普朗克')	6005873
+6005874	马赫	馬赫	mǎhè	Mach (name) / Ernst Mach	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1838-1916; German physicist or Mach number named after the same person (CC-CEDICT '馬赫')	6005874
+6005875	马雅可夫斯基	馬雅可夫斯基	mǎyǎkěfūsījī	Vladimir Mayakovsky	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1893-1930; Russian poet and dramatist (CC-CEDICT '馬雅可夫斯基')	6005875
+6005876	冯玉祥	馮玉祥	féngyùxiáng	Feng Yuxiang	proper noun	人	Person	历史	History	中国	China	\N	\N	1882-1948; Warlord during Republic of China, strongly critical of Chiang Kai-shek (CC-CEDICT '馮玉祥')	6005876
+6005877	高本汉	高本漢	gāoběnhàn	Bernhard Karlgren	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1889-1978; Distinguished Swedish linguist and sinologist (CC-CEDICT '高本漢')	6005877
+6005878	高尔基	高爾基	gāoěrjī	Gorkii (name) / Maxim Gorkii	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1868-1936; Russian proletarian writer and propagandist (CC-CEDICT '高爾基')	6005878
+6005879	高尔察克	高爾察克	gāo ěr chá kè	Aleksandr Kolchak	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1874-1920; Russian naval commander, head of anti-Bolshevik White forces (CC-CEDICT '高爾察克')	6005879
+6005880	魏德迈	魏德邁	wèidémài	Wedemeyer (name) / Albert Coady Wedemeyer	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1897-1989; US Army commander (CC-CEDICT '魏德邁')	6005880
+6005881	魏格纳	魏格納	wèigénà	Alfred Wegener	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1880-1930; German meteorologist and geophysicist, the originator of the theory of continental drift (CC-CEDICT '魏格納')	6005881
+6005882	奔三	\N	bēnsān	1. Pentium III microprocessor	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	Abbreviation for 奔腾三 (CC-CEDICT '奔三')	5000178
+6005883	闵科夫斯基	閔科夫斯基	mǐnkēfūsījī	Minkowski (name) / Hermann Minkowski	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1864-1909; German mathematician (CC-CEDICT '閔科夫斯基')	6005883
+6005884	门捷列夫	門捷列夫	ménjiélièfū	Dmitri Ivanovich Mendeleev	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1834-1907; Russian chemist who introduced the periodic table (CC-CEDICT '門捷列夫')	6005884
+6005885	小淘气	小淘氣	xiǎotáoqì	1. Rogue, Marvel Comics superhero	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '小淘氣')	6005885
+6005886	老舍	\N	Lǎo Shě	Lao She	proper noun	作家	Author	文学	Literature	中国	China	\N	\N	1899-1966; A modern Chinese writer, whose works include Tea House茶馆 and Luotuo Xiangzi 骆驼祥子 (Wikipedia '老舍')	6005886
+6005887	巨无霸	巨無霸	jùwúbà	Big Mac (McDonald's hamburger)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '巨無霸')	17474
+6005888	大萧条	大蕭條	Dà Xiāotiáo	The Great Depression	proper noun	\N	\N	现代汉语	Modern Chinese	经济	Economics	\N	\N	1929-1939 (Wikipedia '大萧条')	6005888
+6005889	宋庆龄	宋慶齡	Sòng Qìnglíng	Song Qingling / Rosemonde Soong	proper noun	人	Person	历史	History	中国	China	\N	\N	1893-1981; Dr Sun Yat-Sen's wife (Wikipedia '宋庆龄')	6005889
+6005890	宋庆龄故居	宋慶齡故居	Sòng Qìnglíng Gùjū	Song Qingling's Former Residence	proper noun	名胜古迹	Historical Sites and Scenic Places	历史	History	中国	China	\N	\N	Located at 46 Houhai Bei an (Wikipedia '宋庆龄故居')	6005890
+6005891	康有为	康有為	Kāng Yǒuwéi	Kang Youwei	proper noun	人	Person	历史	History	中国	China	\N	\N	1858-1927; Confucian intellectual, educator and would-be reformer, main leader of the failed reform movement of 1898 (Wikipedia '康有为')	6005891

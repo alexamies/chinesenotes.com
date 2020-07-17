@@ -146,3 +146,14 @@
 7000146	居次顿	居次頓	jūcìdùn	Geochadon	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	See 異次頓 (Wikipedia '居次頓')	7000146
 7000147	慧超	\N	Huì Chāo	Hyecho	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	704–787; Korean: hyecho; Tang dynasty Korean Buddhist monastic credited with compiling 遊方記抄, included in the Chinese Buddhist canon (T 2089; Wikipedia '慧超')	7000144
 7000148	圆光	圓光	yuánguāng	Won Gwang	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	D. 630; Korean monastic (FGDB '圓光'; Wikipedia 'Won Gwang')	7000148
+7000149	廉居	\N	liánjū	Yeomgeo	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	D. 844 (Wikipedia 'Yeomgeo')	7000149
+7000150	法顶	法頂	fǎdǐng	Bopjong / Beopjeong	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1932-2010; Korean monk and author (BSAD '法頂'; FGDB '法頂'; Wikipedia 'Bopjong')	7000150
+7000151	崔太敏	\N	cuītàimǐn	Choi Tae-min	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	(Wikipedia '崔太敏')	7000151
+7000152	春城	\N	chūnchéng	Chunseong	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1891-1977; Korean monk (Wikipedia '春城 (朝鮮人)')	7000152
+7000153	镜峰	鏡峰	jìngfēng	Gyeongbong	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1885-1969; Korean monk (FGDB '鏡峰'; Wikipedia 'Gyeongbong')	7000153
+7000154	慧敏	\N	huìmǐn	Haemin	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1973-; Korean monk (Wikipedia 'Haemin (sunim)')	7000154
+7000155	满空	滿空	mǎnkōng	Mangong	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1871–1946; Korean monk (BSAD '滿空'; Wikipedia 'Mangong')	7000155
+7000156	法轮	法輪	fǎlún	Pomnyun	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1953-; Korean monk (Wikipedia 'Pomnyun')	17768
+7000157	义湘	義湘	Yì Xiāng	Uisang	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	625-702; Korean Buddhist monastic, founder of the Hua Yan School in Korea (BSAD '義湘'; FGDB '義湘'; T 1887A; Wikipedia '義湘')	7000157
+7000158	汉巖重远	漢巖重遠	hànyán zhòngyuǎn	Hanam Jungwon	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1876–1951; Korean monk (Wikipedia 'Hanam Jungwon')	7000158
+7000159	金一叶	金一葉	jīnyīyè	Kim Iryeop	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1896 - 28 May 1971; Korean nun and writer (Wikipedia '金一葉')	7000159

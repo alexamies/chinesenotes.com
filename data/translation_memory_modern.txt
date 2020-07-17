@@ -167,3 +167,12 @@
 5000167	鸟眼纹	鳥眼紋	niǎo yǎn wén	bird's eye	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鳥眼紋')	5000167
 5000168	黑砖窑	黑磚窯	hēi zhuān yáo	black brick kiln	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Factories that acquired notoriety in 2007 for slave labor (CC-CEDICT '黑磚窯')	5000168
 5000169	东西德	東西德	dōng xī dé	East and West Germany	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Refers to German democratic republic (East Germany) and the Federal Republic of Germany - West Germany (CC-CEDICT '東西德')	5000169
+5000170	点阅率	點閱率	diǎn yuè lǜ	click-through rate	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	For websites or online advertisements (CC-CEDICT '點閱率')	5000170
+5000171	党代会	黨代會	dǎngdàihuì	party congress (of the Communist Party of China)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '黨代會')	5000171
+5000172	党八股	黨八股	dǎng bā gǔ	drab, stereotypical Communist Party writing style	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '黨八股')	5000172
+5000173	党政机关	黨政機關	dǎngzhèng jīguān	(Communist) Party and government organizations	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '黨政機關')	5000173
+5000174	两德	兩德	liǎngdé	two Germanies	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Refers to German Democratic Republic, East Germany, and the Federal Republic of Germany, West Germany (CC-CEDICT '兩德')	5000174
+5000175	中德诊所	中德診所	zhōng dé zhěnsuǒ	Sino-German clinic	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中德診所')	5000175
+5000176	剑走偏锋	劍走偏鋒	jiàn zǒu piān fēng	the sword moves with side stroke / unexpected winning move	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '劍走偏鋒')	164758
+5000177	地面零点	地面零點	dìmiàn língdiǎn	ground zero	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '地面零點')	5000177
+5000178	奔三	\N	bēnsān	to be pushing 30 years old	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '奔三')	5000178
