@@ -1,8 +1,10 @@
+bin/
 corpus/
+docker/
+e2etest/
 go/
 index/
 mariadb-data/
-python/
 web/
 web-resources/
 web-staging/
