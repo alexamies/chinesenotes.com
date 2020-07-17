@@ -166,3 +166,4 @@
 5000166	魔性	\N	mó xìng	irresistibly quirky/compelling in its wackiness	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Neologism c. 2014 (CC-CEDICT '魔性')	5000166
 5000167	鸟眼纹	鳥眼紋	niǎo yǎn wén	bird's eye	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鳥眼紋')	5000167
 5000168	黑砖窑	黑磚窯	hēi zhuān yáo	black brick kiln	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Factories that acquired notoriety in 2007 for slave labor (CC-CEDICT '黑磚窯')	5000168
+5000169	东西德	東西德	dōng xī dé	East and West Germany	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Refers to German democratic republic (East Germany) and the Federal Republic of Germany - West Germany (CC-CEDICT '東西德')	5000169
