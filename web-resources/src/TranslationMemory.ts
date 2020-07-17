@@ -46,7 +46,7 @@ export class TranslationMemory {
       fromEvent(findForm, "submit").subscribe(
       () => {
         if (findInput && findInput instanceof HTMLInputElement) {
-          const urlString = `/findtm?query=${findInput.value}`;
+          const urlString = "/findtm?query=" + findInput.value;
           this.makeRequest(urlString);
         } else {
           console.log(`Unexpected error for ${findInput}`);
@@ -60,7 +60,7 @@ export class TranslationMemory {
    * @param {string} url - The URL to send the request to
    */
   private makeRequest(urlString: string) {
-    console.log(`makeRequest: urlString = ${urlString}`);
+    console.log(`makeRequest: urlString: ${urlString}`);
     this.view.showMessage("Searching ...");
     ajax.getJSON(urlString).pipe(
       map(

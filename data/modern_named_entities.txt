@@ -5800,8 +5800,9 @@
 6005800	黑泽明	黑澤明	hēizémíng	Kurosawa Akira	proper noun	\N	\N	戏剧	Drama	日本	Japan	\N	\N	1910-1998;  Japanese movie director (CC-CEDICT '黑澤明')	6005800
 6005801	黑道家族	\N	hēidào jiāzú	The Sopranos (US TV series)	proper noun	\N	\N	媒体	Media	美国	United States	\N	\N	(CC-CEDICT '黑道家族')	6005801
 6005802	弗里德里希·尼采	弗里德里希·尼採	Fúlǐdélǐxī Nícǎi	Friedrich Nietzsche	proper noun	\N	\N	现代汉语	Modern Chinese	哲学	Philosophy	\N	\N	1846-1900; German philosopher (Wikipedia '弗里德里希·尼采')	6005802
-6005803	法兰克福	法蘭克福	Fǎlánkèfú	Frankfurt	proper noun	城市	city	地方	Places	德国	Germany	\N	\N	(Wikipedia '美因河畔法兰克福')	6005803
+6005803	法兰克福	法蘭克福	fǎlánkèfú	Frankfurt	proper noun	城市	city	地方	Places	德国	Germany	\N	\N	(Wikipedia '美因河畔法兰克福')	6005803
 6005804	西德	\N	xī dé	West Germany	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	Abbreviation for German Federal Republic 德意志联邦共和国 (CC-CEDICT '西德')	6005804
 6005805	波鸿	波鴻	bōhóng	Bochum	proper noun	城市	City	地方	Places	德国	Germany	\N	\N	A city in Germany (CC-CEDICT '波鴻')	6005805
 6005806	东德	東德	dōngdé	East Germany	proper noun	国家	Country	历史	History	欧洲	Europe	\N	\N	1945-1990; German Democratic Republic 德意志民主共和国 (CC-CEDICT '東德')	6005806
 6005807	格拉	\N	gélā	Gera	proper noun	城市	City	地方	Places	德国	Germany	\N	\N	City in Germany (CC-CEDICT '格拉')	6005807
+6005808	冯特	馮特	féngté	Wilhelm Wundt	noun	心理学家	Psychologist	心理学	Psychology	\N	\N	\N	\N	1832-1920; a German psychologist (Wikipedia '威廉·冯特')	6005808
