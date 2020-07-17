@@ -47,6 +47,8 @@ export interface IDocument {
 // Interface for JSON dictionary entry data loaded from AJAX call
 export interface IDictEntry {
   HeadwordId: number;
+  Simplified: string;
+  Traditional: string;
   Pinyin: string;
   Senses: IWordSense[];
 }

@@ -655,7 +655,7 @@ MATCHER_NAME=cnotes-url-matcher-prod
 gcloud compute url-maps add-path-matcher $URL_MAP \
     --default-backend-bucket $BACKEND_BUCKET \
     --path-matcher-name $MATCHER_NAME \
-    --path-rules="/find/*=$BACKEND_NAME,/findadvanced/*=$BACKEND_NAME,/findmedia/*=$BACKEND_NAME"
+    --path-rules="/find/*=$BACKEND_NAME,/findadvanced/*=$BACKEND_NAME,/findmedia/*=$BACKEND_NAME,/findsubstring=$BACKEND_NAME,/findtm=$BACKEND_NAME"
 
 TARGET_PROXY=cnotes-lb-proxy-prod
 gcloud compute target-http-proxies create $TARGET_PROXY \

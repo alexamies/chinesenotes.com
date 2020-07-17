@@ -18,14 +18,15 @@
  */
 
 import { Observable } from "rxjs";
-import { IWordSense } from "./CNInterfaces";
+import { IDictEntry, IWordSense } from "./CNInterfaces";
 import { ICNotes } from "./ICNotes";
 
 /**
  * Displays results of word lookup.
  */
 export class TranslationMemoryView {
-  public readonly NO_RESULTS_MSG = "No matching terms found";
+  private static readonly MAX_TEXT_LEN = 120;
+  private readonly NO_RESULTS_MSG = "No matching terms found";
   private helpBlock: HTMLElement | null;
 
   constructor() {
@@ -59,7 +60,7 @@ export class TranslationMemoryView {
    * Display term lookup results in the HTML document
    * @param {IWordSense[]} termsFound - the terms to display
    */
-  public showResults(words: IWordSense[]) {
+  public showResults(words: IDictEntry[]) {
     console.log("showResults: detailed results");
     const qList = document.getElementById("queryTermsList");
     if (qList) {
@@ -99,13 +100,11 @@ export class TranslationMemoryView {
   /**
    * Add English equivalent to a HTML span element
    * @param {object} ws - a word sense object
-   * @param {object} maxLen - the maximum length of text to add to the span
    * @param {object} englishSpan - span HTML element
    * @param {number} j - the order of the element
    * @return {object} a HTML element that the object is added to
    */
-  private addEquivalent(ws: IWordSense, maxLen: number,
-                        englishSpan: HTMLElement, j: number) {
+  private addEquivalent(ws: IWordSense, englishSpan: HTMLElement, j: number) {
     const equivalent = " " + (j + 1) + ". " + ws.English;
     const textLen2 = equivalent.length;
     const equivSpan = document.createElement("span");
@@ -120,8 +119,9 @@ export class TranslationMemoryView {
       notesSpan.appendChild(noteTN);
       englishSpan.appendChild(notesSpan);
       let notesTxt = ": " + ws.Notes + "; ";
-      if (textLen2 > maxLen) {
-        notesTxt = notesTxt.substr(0, maxLen) + " ...";
+      if (textLen2 > TranslationMemoryView.MAX_TEXT_LEN) {
+        notesTxt = notesTxt.substr(0, TranslationMemoryView.MAX_TEXT_LEN) +
+                       " ...";
       }
       const notesTN = document.createTextNode(notesTxt);
       englishSpan.appendChild(notesTN);
@@ -134,8 +134,8 @@ export class TranslationMemoryView {
    * @param {IWordSense} word is a word object
    * @param {HTMLElement} qList - the word list
    */
-  private addTermToList(word: IWordSense, qList: HTMLElement) {
-    // console.log(`WordFinderView.addTermToList QueryText: ${term.QueryText}`);
+  private addTermToList(entry: IDictEntry, qList: HTMLElement) {
+    console.log(`addTermToList.addTermToList entry: ${entry.Simplified}`);
     const li = document.createElement("li");
     li.className = "mdc-list-item";
     const span = document.createElement("span");
@@ -144,13 +144,15 @@ export class TranslationMemoryView {
     const spanL1 = document.createElement("span");
     // Primary text is the query term (Chinese)
     spanL1.className = "mdc-list-item__primary-text";
-    const tNode1 = document.createTextNode(word.Simplified);
-    let pinyin = "";
-    let wordURL = "";
-    pinyin = word.Pinyin;
+    let chinese = entry.Simplified;
+    if (entry.Traditional) {
+      chinese += " (" + entry.Traditional + "";
+    }
+    const tNode1 = document.createTextNode(chinese);
+    const pinyin = entry.Pinyin;
     // Add link to word detail page
-    const hwId = word.HeadwordId;
-    wordURL = "/words/" + hwId + ".html";
+    const hwId = entry.HeadwordId;
+    const wordURL = "/words/" + entry.HeadwordId + ".html";
     const a = document.createElement("a");
     a.setAttribute("href", wordURL);
     a.setAttribute("title", "Details for word");
@@ -166,10 +168,79 @@ export class TranslationMemoryView {
     const textNode2 = document.createTextNode(pinyin + " ");
     spanPinyin.appendChild(textNode2);
     spanL2.appendChild(spanPinyin);
-    const tNode3 = document.createTextNode(word.English);
-    spanL2.appendChild(tNode3);
+    if (entry.Senses) {
+      spanL2.appendChild(this.combineEnglish(
+          entry.Senses,
+          wordURL));
+    }
     span.appendChild(spanL2);
     qList.appendChild(li);
     return qList;
   }
+
+  private combineEnglish(senses: IWordSense[],
+                         wordURL: string): HTMLSpanElement {
+    console.log("TranslationMemoryView " + senses.length);
+    const englishSpan = document.createElement("span");
+    if (senses.length === 1) {
+      const sense = senses[0];
+      // For a single sense, give the equivalent and notes
+      let textLen = 0;
+      const equivSpan = document.createElement("span");
+      equivSpan.setAttribute("class", "dict-entry-definition");
+      const equivalent = sense.English;
+      textLen += equivalent.length;
+      const equivTN = document.createTextNode(equivalent);
+      equivSpan.appendChild(equivTN);
+      englishSpan.appendChild(equivSpan);
+      if (sense.Notes) {
+        const notesSpan = document.createElement("span");
+        notesSpan.setAttribute("class", "notes-label");
+        const noteTN = document.createTextNode("  Notes");
+        notesSpan.appendChild(noteTN);
+        englishSpan.appendChild(notesSpan);
+        let notesTxt = ": " + sense.Notes;
+        textLen += notesTxt.length;
+        if (textLen > TranslationMemoryView.MAX_TEXT_LEN) {
+          notesTxt = notesTxt.substr(0,
+                                     TranslationMemoryView.MAX_TEXT_LEN) +
+                     " ...";
+        }
+        const notesTN = document.createTextNode(notesTxt);
+        englishSpan.appendChild(notesTN);
+      }
+    } else if (senses.length < 4) {
+      // For a list of 2 or 3, give the enumeration with equivalents and notes
+      for (let j = 0; j < senses.length; j += 1) {
+        this.addEquivalent(senses[j], englishSpan, j);
+      }
+    } else {
+      // For longer lists, give the enumeration with equivalents only
+      let equiv = "";
+      for (let j = 0; j < senses.length; j++) {
+        equiv += (j + 1) + ". " + senses[j].English + "; ";
+        if (equiv.length > TranslationMemoryView.MAX_TEXT_LEN) {
+          equiv += " ...";
+          break;
+        }
+      }
+      const equivSpan = document.createElement("span");
+      equivSpan.setAttribute("class", "dict-entry-definition");
+      const equivTN1 = document.createTextNode(equiv);
+      equivSpan.appendChild(equivTN1);
+      englishSpan.appendChild(equivSpan);
+    }
+    const link = document.createElement("a");
+    link.setAttribute("href", wordURL);
+    link.setAttribute("title", "Details for word");
+    const linkText = document.createTextNode("Details");
+    link.appendChild(linkText);
+    const tn1 = document.createTextNode("  [");
+    englishSpan.appendChild(tn1);
+    englishSpan.appendChild(link);
+    const tn2 = document.createTextNode("]");
+    englishSpan.appendChild(tn2);
+    return englishSpan;
+  }
+
 }

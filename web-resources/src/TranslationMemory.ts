@@ -42,11 +42,18 @@ export class TranslationMemory {
     console.log("TranslationMemory constructor");
     const findForm = document.getElementById("findTMForm");
     const findInput = document.getElementById("findTMInput");
+    const lookupTopic = document.getElementById("lookupTopic");
     if (findForm && findInput) {
       fromEvent(findForm, "submit").subscribe(
       () => {
         if (findInput && findInput instanceof HTMLInputElement) {
-          const urlString = "/findtm?query=" + findInput.value;
+          let urlString = "/findtm?query=" + findInput.value;
+          if (lookupTopic && lookupTopic instanceof HTMLInputElement) {
+            const domain = lookupTopic.value;
+            if (domain) {
+              urlString += "&domain=" + domain;
+            }
+          }
           this.makeRequest(urlString);
         } else {
           console.log(`Unexpected error for ${findInput}`);
@@ -66,8 +73,7 @@ export class TranslationMemory {
       map(
         (data) => {
           const jsonObj = data as ITMSearchRestults;
-          const words = jsonObj.Words;
-          this.view.showResults(words);
+          this.view.showResults(jsonObj.Words);
         }),
       catchError(
         (error) => {

@@ -50,6 +50,8 @@ export class WordFinderAdapter {
           HeadwordId: hid,
           Pinyin: entries[0].getPinyin(),
           Senses: iSenses,
+          Simplified: "",
+          Traditional: "",
         };
         const iTerm = {
           DictEntry: iEntry,
