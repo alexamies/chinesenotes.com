@@ -5889,3 +5889,47 @@
 6005889	宋庆龄	宋慶齡	Sòng Qìnglíng	Song Qingling / Rosemonde Soong	proper noun	人	Person	历史	History	中国	China	\N	\N	1893-1981; Dr Sun Yat-Sen's wife (Wikipedia '宋庆龄')	6005889
 6005890	宋庆龄故居	宋慶齡故居	Sòng Qìnglíng Gùjū	Song Qingling's Former Residence	proper noun	名胜古迹	Historical Sites and Scenic Places	历史	History	中国	China	\N	\N	Located at 46 Houhai Bei an (Wikipedia '宋庆龄故居')	6005890
 6005891	康有为	康有為	Kāng Yǒuwéi	Kang Youwei	proper noun	人	Person	历史	History	中国	China	\N	\N	1858-1927; Confucian intellectual, educator and would-be reformer, main leader of the failed reform movement of 1898 (Wikipedia '康有为')	6005891
+6005892	袁世凯	袁世凱	Yuán Shìkǎi	Yuan Shikai	proper noun	人	Person	历史	History	中国	China	\N	\N	1859-1916; Senior general of late Qing, subsequently warlord and self-proclaimed emperor of China (Wikipedia '袁世凯')	6005892
+6005893	王明	\N	Wáng Míng	Wang Ming	proper noun	人	Person	历史	History	中国	China	\N	\N	(1904-1974), Soviet trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956 (Wikipedia '王明')	6005893
+6005894	爱国者	愛國者	àiguózhě	MIM-104 Patriot surface-to-air missile	proper noun	\N	\N	军事	Military	美国	United States	\N	\N	(CC-CEDICT '愛國者')	6005894
+6005895	托特	\N	tuōté	1. Thoth (ancient Egyptian deity)	proper noun	\N	\N	现代汉语	Modern Chinese	神话	Mythology	\N	\N	(CC-CEDICT '托特')	6005895
+6005896	抗日战争	抗日戰爭	Kàng Rì Zhànzhēng	War of Resistance against Japan	proper noun	\N	\N	历史	History	中国	China	\N	\N	1937-1945 (Wikipedia '中国抗日战争')	6005896
+6005897	鲁迅	魯迅	Lǔ xùn	Lu Xun	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1881-1936; one of the earliest and best-known modern Chinese writers (Wikipedia '鲁迅')	6005897
+6005898	周树人	週樹人	Zhōu Shùrén	Zhou Shuren	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	Pen name of Lu Xun (Wikipedia '鲁迅')	6005898
+6005899	摩尔	摩爾	móěr	1. Moore or Moor (name)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '摩爾')	22066
+6005900	泰戈尔	泰戈爾	Tàigē'ěr	Rabindranath Tagore	proper noun	作者	Writer	历史	History	印度	India	\N	\N	1861-1941, Indian poet and writer (Wikipedia '罗宾德拉纳特·泰戈尔')	6005900
+6005901	哈洛	\N	Hāluò	Harlow	proper noun	地名	Place Name	地方	Placesy	英国	England	\N	\N	(Wikipedia '哈洛')	6005901
+6005902	米尔格拉姆	米爾格拉姆	Mǐ'ěrgélāmǔ	Stanley Milgram	proper noun	心理学家	Psychologist	心理学	Psychology	\N	\N	\N	\N	1933-1984 American psychologist (Wikipedia '斯坦利·米尔格拉姆')	6005902
+6005903	荣格	榮格	Rónggé	Carl Gustav Jung	proper noun	心理学家	Psychologist	心理学	Psychology	\N	\N	\N	\N	1875-1961, Swiss psychiatrist (Wikipedia '卡尔·荣格')	6005903
+6005904	翁同龢	\N	Wēng Tónghé	Weng Tonghe	proper noun	书法家	Calligrapher	书法	Calligraphy	清朝	Qing Dynasty	\N	\N	1830-1904; Qing scholar and imperial tutor (Wikipedia '翁同龢')	6005904
+6005905	卡尔荣格	卡爾榮格	Kǎ'ěr Rónggé	Carl Gustav Jung	proper noun	心理学家	Psychologist	心理学	Psychology	\N	\N	\N	\N	1875-1961, Swiss psychiatrist (Wikipedia '卡尔·荣格')	6005905
+6005906	徐世昌	\N	Xú Shìchāng	Xu Shichang	proper noun	总统	President	历史	History	中国	China	\N	\N	1855-1939; politician associated with the Northern Warlords, president of China in 1921 (Wikipedia '徐世昌')	6005906
+6005907	冼星海	\N	Xiǎn Xīnghǎi	Xian Xinghai	proper noun	作曲家	Composer	现代汉语	Modern Chinese	音乐	Music	\N	\N	1905-1945; Composer known for composing the music for the Yellow River Cantata 黄河大合唱 (Wikipedia '冼星海')	6005907
+6005908	冯友兰	馮友蘭	Féng Yǒulán	Feng Youlan / Feng Yu-lan/ Fung Yu-lan	proper noun	哲学家	Philosopher	历史	History	中国	China	\N	\N	1895-1990; Well known modern Confucian scholar, author of <i>A History of Chinese Philosophy</i> (Yao 2000, p. 5)	6005908
+6005909	叶圣陶	葉聖陶	Yè Shèngtáo	Ye Shengtao	proper noun	作家	Writer	文学	Literature	中国	China	\N	\N	1894-1988; Ye Shengtao was a modern Chinese writer and educator. He promoted use of vernacular Chinese in writing. He co-founded the newspaper The Truth Daily 《公理日报》 and was author of The Scarecrow 《稻草人》, and other workds (Wikipedia '叶圣陶')	6005909
+6005910	公理日报	公理日報	Gōnglǐ Rìbào	The Truth Daily	proper noun	日报	Daily Newspaper	现代汉语	Modern Chinese	媒体	Media	\N	\N	A historic Chinese daily newspaper founded by Ye Shengtao 叶圣陶 (1894-1988), Zheng Zhenduo, and Hu Yuzhi 胡愈之 in 1925 (Wikipedia '叶圣陶')	6005910
+6005911	胡愈之	\N	Hú Yùzhī	Hu Yuzhi	proper noun	\N	\N	文学	Literature	中国	China	\N	\N	1896-1986; Co-founded the newspaper The Truth Daily 公理日报 (Wikipedia '胡愈之')	6005911
+6005912	稻草人	\N	Dàocǎo Rén	The Scarecrow	proper noun	书	Book	文学	Literature	中国	China	\N	\N	Book by Ye Shengtao 叶圣陶 (1894-1988)	6005912
+6005913	夏丏尊	\N	Xià Miǎnzūn	Xia Mianzun	proper noun	作家	Writer	文学	Literature	中国	China	\N	\N	1886-1946; Chinese author, wrote 《平屋杂文》 Ping wu za wen (WorldCat, '平屋雜文')	6005913
+6005914	平屋杂文	平屋雜文	Píngwū Záwén	Ping wu za wen	proper noun	书	Book	文学	Literature	中国	China	\N	\N	Book by Xia Mianzun 夏丏尊 1886-1946, published in 1993 (WorldCat, '平屋雜文')	6005914
+6005915	余秋雨	餘秋雨	yú Qiūyǔ	Yu Qiuyu	proper noun	作家	Writer	文学	Literature	中国	China	\N	\N	1946-; Chinese author, wrote 《文化苦旅》 <i>Quest for Chinese Culture</i> (WorldCat, '文化苦旅')	6005915
+6005916	文化苦旅	\N	Wénhuà kǔ lǚ	Quest for Chinese culture / A Bitter Journey Through Culture	proper noun	书	Book	文学	Literature	中国	China	\N	\N	Book by Yu Qiuyu 余秋雨 (1946-) published 1992 (WorldCat, '文化苦旅')	6005916
+6005917	黄宾虹	黃賓虹	Huáng Bīnhóng	Huang Binhong	proper noun	画家	Artist	艺术	Art	中国	China	\N	\N	(1865-1955) art historian and literati painter	6005917
+6005918	齐白石	齊白石	Qí Báishí	Qi Baishi	proper noun	画家	Artist	艺术	Art	中国	China	\N	\N	1864-1957; Well known Chinese painter (Wikipedia '齐白石')	6005918
+6005919	张百熙	張百熙	zhāng bǎixī	Zhang Baixi	proper noun	学家	Scholar	历史	History	中国	China	\N	\N	1847-1907, Chinese scholar (Wikipedia '张百熙')	6005919
+6005920	徐悲鸿	徐悲鴻	Xú Bēihóng	Xu Beihong	proper noun	画家	Artist	艺术	Art	中国	China	\N	\N	1895-1953; Well known European trained painter and influential art teacher (Wikipedia '徐悲鸿')	6005920
+6005921	胡适	胡適	Hú Shì	Hu Shi	proper noun	作家	Writer	文学	Literature	中国	China	\N	\N	1891-1962; Hu Shi was an early proponent of writing in colloquial Chinese 白话文 and a former president of Beijing University 北京大学. He also participated in the 1919 May Fourth Movement 五四运动. Author of 白話文學史 'History of Vernacular Literature' (Wikipedia '胡適')	6005921
+6005922	严复	嚴復	Yán Fù	Yan Fu	proper noun	作家	Writer	文学	Literature	中国	China	\N	\N	(1854-1921) scholar and translator, the first principal of Beijing University 北京大学. He later became a royalist, supporting Yuan Shikai 袁世凯 and Zhang Xun 张勋 (Wikipedia '嚴復')	6005922
+6005923	波特	\N	bōté	Potter / Porter	proper noun	姓氏	Surname	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '波特')	42440
+6005924	张勋	張勛	zhāng Xūn	Zhang Xun	proper noun	将军	General	历史	History	中国	China	\N	\N	1854-1923; A Chinese general who supported Yuan Shikai 袁世凯 (Wikipedia '張勳')	6005924
+6005925	波西米亚	波西米亞	bōxīmǐyà	Bohemia	set phrase	地名	Place Name	历史	History	欧洲	Europe	\N	\N	Historical country of central Europe (CC-CEDICT '波西米亞')	6005925
+6005926	五四运动	五四運動	Wǔ Sì Yùndòng	May Fourth Movement	proper noun	政治运动	Political Movement	历史	History	中国	China	\N	\N	An anti-imperialist movement in Beijing on May 4, 1919 (Wikipedia '五四运动')	6005926
+6005927	特斯拉	\N	tésīlā	Nikola Tesla	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1856-1943; Serbian inventor and engineer (Wikipedia '尼古拉·特斯拉')	42658
+6005928	连横	連橫	Lián Héng	Lian Heng	proper noun	作家	Writer	文学	Literature	中国	China	\N	\N	1878-1936; Chinese writer (Guoyu '連橫' 2)	42658
+6005929	文物出版社	\N	Wénwù Chūbǎnshè	Cultural Relics Press	proper noun	出版社	Publisher	出版	Publishing	中国	China	\N	\N	(ASS, p. 33)	6005929
+6005930	中国地图出版社	中國地圖出版社	zhōngguó dìtú chūbǎnshè	Sino Maps Press	proper noun	出版社	Publisher	出版	Publishing	中国	China	\N	\N	Web site: www.chinamap.com (Wikipedia '中国地图出版集团')	6005930
+6005931	北京师范大学出版社	北京師範大學出版社	Běijīng Shīfàn Dàxué Chūbǎnshè	Beijing Normal University Publishing House	proper noun	出版社	Publisher	现代汉语	Modern Chinese	出版	Publishing	\N	\N	Web site: bnup.com.cn (ASS, p. 33)	6005931
+6005932	北京师范大学	北京師範大學	Běijīng Shīfàn Dàxué	Beijing Normal University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(ASS, p. 33)	6005932
+6005933	中华人民共和国地图	中華人民共和國地圖	Zhōnghuá Rénmín Gònghéguó Dìtú	Map of the People's Republic of China	proper noun	地图	Map	地理学	Geography	中国	China	\N	\N	(MPRC)	6005933
+6005934	牛顿	牛頓	niúdùn	1. Newton (name) / Sir Isaac Newton	noun	人	Person	历史	History	英国	England	\N	\N	1642-1727; British mathematician and physicist (CC-CEDICT '牛頓')	44795
+6005935	章炳麟	\N	zhāng Bǐnglín	Zhang Binglin / Zhang Taiyan	proper noun	\N	\N	文学	Literature	\N	\N	\N	\N	1868-1936; Chinese scholar (Wikipedia '章太炎')	6005935

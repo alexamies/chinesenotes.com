@@ -360,3 +360,15 @@
 3000360	呈存	\N	chéng cún	to give for safekeeping	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈存', p. 47)	3000360
 3000361	呈官	\N	chéng guān	to give to the authorities	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈官', p. 47)	3000361
 3000362	呈控	\N	chéng kòng	to make an accusation against	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈控', p. 47)	3000362
+3000363	呈期	\N	chéng qī	a selected set of days for which accusations may be filed	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈期', p. 47)	3000363
+3000364	呈核	\N	chéng hé	to submit as a reference	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈核', p. 47)	3000364
+3000365	呈照	\N	chéng zhào	to submit [documents] for inspection	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈照', p. 47)	3000365
+3000366	呈称	呈稱	chéng chēng	to make a statemet [to a superior]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈稱', p. 47)	3000366
+3000367	呈荷	\N	chéng hé	to solicit and accept	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈荷', p. 47)	3000367
+3000368	呈讼	呈訟	chéng sòng	to file a legal complaint	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈訟', p. 47)	3000368
+3000369	呈诉	呈訴	chéng sù	to file a statement	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈訴', p. 47)	3000369
+3000370	呈阅	呈閱	chéng yuè	to submit for inspection	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈閱', p. 47)	3000370
+3000371	呈验	呈驗	chéng yàn	to submit for customs examination	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈驗', p. 47)	3000371
+3000372	呈关	呈關	chéng guān	to submit for customs examination	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈關', p. 47)	3000372
+3000373	呈瑞	\N	chéng ruì	to manifest an auspicious sign	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈瑞', p. 47)	3000373
+3000374	呈祥	\N	chéng xiáng	to manifest an auspicious sign	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈祥', p. 47)	3000374
