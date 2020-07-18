@@ -53,7 +53,7 @@ export class DocumentFinder {
     // collection pages
     const href = window.location.href;
     const parser = new HrefVariableParser();
-    if (href.includes("&")) {
+    if (href.includes("advanced_search.html") && href.includes("&")) {
       const query = parser.getHrefVariable(href, "text");
       if (findInput && findInput instanceof HTMLInputElement) {
         findInput.value = query;

@@ -85,8 +85,7 @@ export class TranslationMemory {
           retriable.subscribe(
             (data1) => {
           const jsonObj = data1 as ITMSearchRestults;
-          const words = jsonObj.Words;
-          this.view.showResults(words);
+          this.view.showResults(jsonObj.Words);
             },
             (err) => {
               console.log(`makeRequest, failed after retries: ${err}`);
