@@ -318,24 +318,31 @@ func ReadDict(wsFilenames []string) []HeadwordDef {
 			english := row[4]
 			grammar := row[5]
 			conceptCn := row[6]
+			conceptEn := row[7]
+			topicCn := row[8]
+			topicEn := row[9]
 			hwId := 0
 			if len(row) == 16 {
 				hwIdInt, err := strconv.ParseInt(row[15], 10, 0)
 				if err != nil {
 					log.Printf("ReadDict, id: %d, simp: %s, trad: %s, " + 
-						"pinyin: %s, english: %s, grammar: %s, conceptCn: %s\n",
-						id, simp, trad, pinyin, english, grammar, conceptCn)
+						"pinyin: %s, english: %s, grammar: %s, conceptCn: %s" +
+						", conceptEn: %s, topicCn: %s, topicEn: %s\n",
+						id, simp, trad, pinyin, english, grammar, conceptCn,
+						conceptEn, topicCn, topicEn)
 					log.Fatal("ReadDict: Could not parse headword id for word ",
 						id, err)
 				}
 				hwId = int(hwIdInt)
 			} else {
 				log.Printf("ReadDict, No. cols: %d\n",len(row))
-				log.Printf("ReadDict, id: %d, simp: %s, trad: %s, pinyin: %s, " +
-					"english: %s, grammar: %s, conceptCn: %s, rest: %s\n",
-					id, simp, trad, pinyin, english, grammar, conceptCn,
-					strings.Join(row, ";"))
-				log.Fatal("ReadDict wrong number of columns ", id, err)
+					log.Printf("ReadDict, id: %d, simp: %s, trad: %s, " + 
+						"pinyin: %s, english: %s, grammar: %s, conceptCn: %s" +
+						", conceptEn: %s, topicCn: %s, topicEn: %s\n",
+						id, simp, trad, pinyin, english, grammar, conceptCn,
+						conceptEn, topicCn, topicEn)
+				log.Printf("ReadDict, Line: %s\n", strings.Join(row, ";"))
+				log.Fatalf("ReadDict, line %d, wrong number of columns: %d", id, len(row))
 			}
 			parent_en :=  row[11]
 			// If subdomain, aka parent, should be avoided, then skip
@@ -350,9 +357,9 @@ func ReadDict(wsFilenames []string) []HeadwordDef {
 				English: english,
 				Grammar: grammar,
 				Concept_cn: conceptCn,
-				Concept_en: row[7], 
-				Topic_cn: row[8],
-				Topic_en: row[9],
+				Concept_en: conceptEn, 
+				Topic_cn: topicCn,
+				Topic_en: topicEn,
 				Parent_cn: row[10],
 				Parent_en: parent_en,
 				Image: row[12],

@@ -1,8 +1,8 @@
 USE ce_dict;
 
-SELECT id FROM words WHERE grammar not in (SELECT english FROM grammar) LIMIT 20;
-SELECT id FROM words WHERE topic_cn not in (SELECT simplified FROM topics) LIMIT 20;
-SELECT id FROM words WHERE topic_en not in (SELECT english FROM topics) LIMIT 20;
+SELECT id, grammar FROM words WHERE grammar not in (SELECT english FROM grammar) LIMIT 20;
+SELECT id, topic_cn FROM words WHERE topic_cn not in (SELECT simplified FROM topics) LIMIT 20;
+SELECT id, topic_en FROM words WHERE topic_en not in (SELECT english FROM topics) LIMIT 20;
 
 
 SELECT id, english, grammar FROM words WHERE id = 2;
