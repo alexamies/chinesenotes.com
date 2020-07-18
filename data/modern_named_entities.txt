@@ -268,7 +268,7 @@
 6000268	太平洋法郎	\N	tàipíngyáng fǎláng	CFP franc	proper noun	货币	Currency	现代汉语	Modern Chinese	法属波利尼西亚	French Polynesia	\N	\N	Unit of currency in French Polynesia and New Caledonia (Wikipedia 'ISO_4217')	6000268
 6000269	菲律宾披索	菲律賓披索	fēilǜbīn pīsuǒ	Philippine peso	proper noun	货币	Currency	现代汉语	Modern Chinese	菲律宾	Philippines	\N	\N	Unit of currency in the Philippines (Wikipedia 'ISO_4217')	6000269
 6000270	斐济元	斐濟元	fěijǐ yuán	Fiji dollar	proper noun	货币	Currency	现代汉语	Modern Chinese	斐济	Fiji	\N	\N	Unit of currency in the Fiji (Wikipedia 'ISO_4217')	6000270
-6000271	三星集团	三星集團	sān xīng jí tuán	Samsung Group	roper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '三星集團')	6000271
+6000271	三星集团	三星集團	sān xīng jí tuán	Samsung Group	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '三星集團')	6000271
 6000272	上海大剧院	上海大劇院	shànghǎi dà jùyuàn	Shanghai Grand Theater	proper noun	\N	\N	地方	Places	中国	China	\N	\N	(CC-CEDICT '上海大劇院')	6000272
 6000273	上海宝钢集团公司	上海寶鋼集團公司	shànghǎi bǎogāng jítuán gōngsī	Baosteel	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '上海寶鋼集團公司')	6000273
 6000274	上海戏剧学院	上海戲劇學院	shànghǎi xìjù xuéyuàn	Shanghai Theatrical Institute	proper noun	\N	\N	戏剧	Drama	中国	China	\N	\N	(CC-CEDICT '上海戲劇學院')	6000274
@@ -440,8 +440,8 @@
 6000440	哈仙达岗	哈仙達崗	hāxiāndágǎng	Hacienda Heights	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	A city in the Los Angeles metropolitan area (Wikipedia '哈仙達崗')	6000440
 6000441	伊利诺伊州	伊利諾伊州	yīlìnuòyī zhōu	Illinois	proper noun	州	State	地方	Places	美国	United States	\N	\N	 US state (CC-CEDICT '伊利諾伊州')	6000441
 6000442	伊斯特	\N	yīsīté	Istres	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	French town (CC-CEDICT '伊斯特')	6000442
-6000443	伊尔库茨克	伊爾庫茨克	yī'ěrkùcíkè	Irkutsk	proper noun	地名	Place Name	俄罗斯	Russia	\N	\N	\N	\N	(CC-CEDICT '伊爾庫茨克')	6000443
-6000444	卢布	盧布	lúbù	ruble	noun	货币	Currency	现代汉语	Modern Chinese	俄罗斯	Russia	\N	\N	Unit of currency in Russia  (Wikipedia 'ISO_4217')	6000444
+6000443	伊尔库茨克	伊爾庫茨克	yī'ěrkùcíkè	Irkutsk	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '伊爾庫茨克')	6000443
+6000444	卢布	盧布	lúbù	ruble	noun	货币	Currency	现代汉语	Modern Chinese	\N	\N	\N	\N	Unit of currency in Russia  (Wikipedia 'ISO_4217')	6000444
 6000445	伊犁河	\N	yīlíhé	Ili River in central Asia	proper noun	水名	River	地方	Places	俄罗斯	Russia	\N	\N	(CC-CEDICT '伊犁河')	6000445
 6000446	伊留申	\N	yīliúshēn	Ilyushin, Russian plane maker	proper noun	公司	Company	商务	Commerce	俄罗斯	Russia	\N	\N	(CC-CEDICT '伊留申')	6000446
 6000447	伊万卡	伊萬卡	yīwànkǎ	Ivanka	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '伊萬卡')	6000447
@@ -498,7 +498,7 @@
 6000498	凯迪拉克	凱迪拉克	kǎidílākè	Cadillac	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '凱迪拉克')	6000498
 6000499	约翰逊	約翰遜	yuēhànxùn	Johnson	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '約翰遜')	6000499
 6000500	切尔诺贝利	切爾諾貝利	qiē'ěrnuòbèilì	Chernobyl	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '切爾諾貝利')	6000500
-6000501	列克星顿	列克星頓	lièkèxīngdùn	Lexington, Massachusetts	proper noun	地名	Place Name	美国	United States	\N	\N	\N	\N	(CC-CEDICT '列克星頓')	6000501
+6000501	列克星顿	列克星頓	lièkèxīngdùn	Lexington, Massachusetts	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '列克星頓')	6000501
 6000502	列支敦斯登	\N	lièzhīdūnsīdēng	Liechtenstein 	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	Taiwanese iusage (CC-CEDICT '列支敦斯登')	6000502
 6000503	别克	別克	biékè	Buick	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '別克')	6000503
 6000504	利比里亚	利比里亞	lìbìlǐyà	Liberia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '利比里亞')	6000504
@@ -522,7 +522,7 @@
 6000522	努库阿洛法	努庫阿洛法	nǔ kù ā luò fǎ	Nuku'alofa, capital of Tonga	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '努庫阿洛法')	6000522
 6000523	劳拉西泮	勞拉西泮	láolāxīpàn	Lorazepam	proper noun	药品	Medication	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '勞拉西泮')	6000523
 6000524	匣枪	匣槍	xiáqiāng	Mauser pistol (C96 type)	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '匣槍')	6000524
-6000525	陆永	陸永	Lù Yǒng	Lu Yong	proper noun	人	Person	体育运动	Sport	中国	China	\N	\N	Weightlifter (Wikipedia '陸永 (舉重運動員)')	6000525
+6000525	陆永	陸永	Lù Yǒng	Lu Yong	proper noun	人	Person	体育	Sport	中国	China	\N	\N	Weightlifter (Wikipedia '陸永 (舉重運動員)')	6000525
 6000526	卑尔根	卑爾根	bēiěrgēn	Bergen	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Norway (CC-CEDICT '卑爾根'; Wikipedia '卑爾根')	6000526
 6000527	卓越网	卓越網	zhuóyuèwǎng	Joyo.com	proper noun	\N	\N	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '卓越網')	6000527
 6000528	南希	\N	nánxī	Nancy	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '南希')	6000528
@@ -5592,7 +5592,7 @@
 6005592	肯特	\N	kěnté	Kent	proper noun	县	County	地方	Places	英国	England	\N	\N	English county (CC-CEDICT '肯特')	6005592
 6005593	拜伦	拜倫	bàilún	Byron	proper noun	诗人	Poet	文学	Literature	英国	England	\N	\N	George Byron 1788-1824; English poet (CC-CEDICT '拜倫')	6005593
 6005594	泰晤士	\N	Tàiwùshì	River Thames	proper noun	\N	\N	现代汉语	Modern Chinese	英国	England	\N	\N	Through London (CC-CEDICT '泰晤士')	6005594
-6005595	多佛	\N	duōfó	Dover	roper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '多佛')	6005595
+6005595	多佛	\N	duōfó	Dover	proper noun	地名	Place Name	地方	Places	英国	England	\N	\N	(CC-CEDICT '多佛')	6005595
 6005596	泰晤士河	\N	tàiwùshì hé	River Thames	proper noun	\N	\N	地方	Places	英国	England	\N	\N	(CC-CEDICT '泰晤士河')	6005596
 6005597	戴安娜王妃	\N	dàiānnà wángfēi	Diana, Princess of Wales	proper noun	人	Person	历史	History	英国	England	\N	\N	1961-1997 (CC-CEDICT '戴安娜王妃')	6005597
 6005598	霍尔木兹	霍爾木茲	huòěr mù zī	Hormuz, Iran, at the mouth of the Persian Gulf	proper noun	\N	\N	现代汉语	Modern Chinese	中东	Middle East	\N	\N	(CC-CEDICT '霍爾木茲')	6005598
