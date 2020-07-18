@@ -27,10 +27,18 @@ type indexEntry struct {
 
 // Builds a translation memory index
 func BuildIndex(w io.Writer, wdict map[string]dicttypes.Word) {
-	for term, _ := range wdict {
-		for _, c := range term {
-		  line := fmt.Sprintf("%c\t%s\n", c, term)
-		  io.WriteString(w, line)
+	tmindexUni := make(map[string]bool)
+	for term, word := range wdict {
+		for _, sense := range word.Senses {
+			domain := sense.Domain
+			for _, c := range term {
+		  	line := fmt.Sprintf("%c\t%s\t%s\n", c, term, domain)
+				if _, ok := tmindexUni[line]; ok {
+					continue
+				}
+		  	io.WriteString(w, line)
+		  	tmindexUni[line] = true
+			}
 		}
 	}
 }

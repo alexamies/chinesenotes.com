@@ -230,7 +230,6 @@ docker exec -it mariadb bash
 
 In the container command line
 ```
-cd cndata
 mysql --local-infile=1 -h localhost -u root -p
 ```
 

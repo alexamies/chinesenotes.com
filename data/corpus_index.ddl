@@ -102,7 +102,8 @@ CREATE TABLE bigram_freq_doc (
 CREATE TABLE tmindex_unigram (
   ch VARCHAR(256) NOT NULL,
   word VARCHAR(256) NOT NULL,
-  PRIMARY KEY (`ch`, `word`)
+  domain VARCHAR(256) NOT NULL,
+  PRIMARY KEY (`ch`, `word`, `domain`)
   )
   CHARACTER SET UTF8
   COLLATE utf8_general_ci
