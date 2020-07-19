@@ -20,7 +20,7 @@
 import { fromEvent, of } from "rxjs";
 import { ajax } from "rxjs/ajax";
 import { catchError, delay, map, retry } from "rxjs/operators";
-import { ITMSearchRestults } from "./ITMSearchRestults";
+import { TMRestultsParser } from "./TMRestultsParser";
 import { TranslationMemoryView } from "./TranslationMemoryView";
 
 export class TranslationMemory {
@@ -72,8 +72,8 @@ export class TranslationMemory {
     ajax.getJSON(urlString).pipe(
       map(
         (data) => {
-          const jsonObj = data as ITMSearchRestults;
-          this.view.showResults(jsonObj.Words);
+          const words = TMRestultsParser.parse(data);
+          this.view.showResults(words);
         }),
       catchError(
         (error) => {
@@ -84,8 +84,8 @@ export class TranslationMemory {
                                                          retry(5));
           retriable.subscribe(
             (data1) => {
-          const jsonObj = data1 as ITMSearchRestults;
-          this.view.showResults(jsonObj.Words);
+          const words = TMRestultsParser.parse(data1);
+          this.view.showResults(words);
             },
             (err) => {
               console.log(`makeRequest, failed after retries: ${err}`);

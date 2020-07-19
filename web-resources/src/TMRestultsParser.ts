@@ -14,13 +14,31 @@
  */
 
 /**
- *  @fileoverview  Interface definitions for translation memory objects read
- *  remotely.
+ *  @fileoverview  Parses JSON object for translation memory search.
  */
 
 import { IDictEntry } from "./CNInterfaces";
 
 // Interface for results loaded from AJAX call
-export interface ITMSearchRestults {
+interface ITMSearchRestults {
   Words: IDictEntry[];
+}
+
+// Class to parse results loaded from AJAX call
+export class TMRestultsParser {
+
+  /**
+   * Parses dictionary entries from JSON object
+   * @param {!object} jsonObj - JSON object received from the server
+   */
+  public static parse(jsonObj: any): IDictEntry[] {
+    console.log(`TMRestultsParser, jsonObj: ${jsonObj}`);
+    const data = jsonObj as ITMSearchRestults;
+    for (const word of data.Words) {
+      if (word.Traditional === "\\N") {
+        word.Traditional = "";
+      }
+    }
+    return data.Words;
+  }
 }

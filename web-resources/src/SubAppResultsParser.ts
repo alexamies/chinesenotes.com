@@ -22,7 +22,7 @@ import {CNWordSense} from "./CNWordSense";
 export class SubAppResultsParser {
 
   /**
-   * Creates and initializes a test Dictionary.
+   * Parses dictionary entries from JSON object
    * @param {!object} jsonObj - JSON object received from the server
    */
   public static parseResults(jsonObj: any): CNDictionaryEntry[] {

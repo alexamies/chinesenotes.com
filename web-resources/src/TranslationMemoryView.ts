@@ -146,7 +146,7 @@ export class TranslationMemoryView {
     spanL1.className = "mdc-list-item__primary-text";
     let chinese = entry.Simplified;
     if (entry.Traditional) {
-      chinese += " (" + entry.Traditional + "";
+      chinese += " (" + entry.Traditional + ")";
     }
     const tNode1 = document.createTextNode(chinese);
     const pinyin = entry.Pinyin;
