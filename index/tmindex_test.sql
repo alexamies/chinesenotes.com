@@ -29,3 +29,15 @@ WHERE
   domain LIKE 'Buddhism'
 GROUP BY word
 ORDER BY count DESC LIMIT 50;
+
+SELECT
+  word,
+  count(*) as count
+FROM tmindex_unigram
+WHERE 
+  (ch = '方' or ch = '方')
+  AND
+  domain LIKE ''
+GROUP BY word
+ORDER BY count DESC LIMIT 50;
+

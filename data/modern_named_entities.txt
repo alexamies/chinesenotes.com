@@ -5933,3 +5933,4 @@
 6005933	中华人民共和国地图	中華人民共和國地圖	Zhōnghuá Rénmín Gònghéguó Dìtú	Map of the People's Republic of China	proper noun	地图	Map	地方	Places	中国	China	\N	\N	(MPRC)	6005933
 6005934	牛顿	牛頓	niúdùn	1. Newton (name) / Sir Isaac Newton	noun	人	Person	历史	History	英国	England	\N	\N	1642-1727; British mathematician and physicist (CC-CEDICT '牛頓')	44795
 6005935	章炳麟	\N	zhāng Bǐnglín	Zhang Binglin / Zhang Taiyan	proper noun	\N	\N	文学	Literature	\N	\N	\N	\N	1868-1936; Chinese scholar (Wikipedia '章太炎')	6005935
+6005936	李鹏	李鵬	lǐpéng	Li Peng	proper noun	人	Person	历史	History	中国	China	\N	\N	1928-; Leading Prc Politician, Prime Minister 1987-1998 (CC-CEDICT '李鵬')	6005936
