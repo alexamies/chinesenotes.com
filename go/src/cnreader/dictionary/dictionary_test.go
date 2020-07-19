@@ -7,11 +7,16 @@ import (
 	"testing"
 )
 
+type mockValidator struct {}
+
+func (mock mockValidator) Validate(pos, domain string) error {
+	return nil
+}
+
 // Trival test to make sure that method does not explode
 func TestContainsWord0(t *testing.T) {
-	//fmt.Printf("TestContainsWord0: Begin unit tests\n")
 	c := "hello"
-	ReadDict(config.LUFileNames())
+	ReadDict(config.LUFileNames(), mockValidator{})
 	headwords := GetHeadwords()
 	contains := ContainsWord(c, headwords)
 	result := len(contains)
@@ -24,7 +29,7 @@ func TestContainsWord0(t *testing.T) {
 // Basic test to make sure that method does something correct
 func TestContainsWord1(t *testing.T) {
 	fmt.Printf("TestContainsWord1: Begin unit tests\n")
-	ReadDict(config.LUFileNames())
+	ReadDict(config.LUFileNames(), mockValidator{})
 	c := "中"
 	headwords := GetHeadwords()
 	contains := ContainsWord(c, headwords)
@@ -39,7 +44,7 @@ func TestContainsWord1(t *testing.T) {
 // Basic test to make sure that method does something correct
 func TestContainsWord2(t *testing.T) {
 	fmt.Printf("TestContainsWord2: Begin unit test\n")
-	ReadDict(config.LUFileNames())
+	ReadDict(config.LUFileNames(), mockValidator{})
 	c := "不见"
 	headwords := GetHeadwords()
 	contains := ContainsWord(c, headwords)
@@ -54,7 +59,7 @@ func TestContainsWord2(t *testing.T) {
 // Basic test to make sure that method does something correct
 func TestContainsWord3(t *testing.T) {
 	fmt.Printf("TestContainsWord3: Begin unit test\n")
-	ReadDict(config.LUFileNames())
+	ReadDict(config.LUFileNames(), mockValidator{})
 	c := "不"
 	headwords := GetHeadwords()
 	contains := ContainsWord(c, headwords)
@@ -70,7 +75,7 @@ func TestContainsWord3(t *testing.T) {
 // Basic test to make sure that method does something correct
 func TestContainsWord4(t *testing.T) {
 	fmt.Printf("TestContainsWord4: Begin unit test\n")
-	ReadDict(config.LUFileNames())
+	ReadDict(config.LUFileNames(), mockValidator{})
 	c := "见"
 	headwords := GetHeadwords()
 	contains := ContainsWord(c, headwords)
@@ -91,7 +96,7 @@ func TestFilterByDomain0(t *testing.T) {
 // Test for 1:* simplified to traditional mapping with 台
 func TestGetHeadwords(t *testing.T) {
 	fmt.Printf("TestGetHeadwords: Begin unit test\n")
-	ReadDict(config.LUFileNames())
+	ReadDict(config.LUFileNames(), mockValidator{})
 	taiHW := hwIdMap[821]
 	numSenses := len(*taiHW.WordSenses)
 	numSensesExpected := 13
@@ -320,13 +325,13 @@ func TestIsProperNoun2(t *testing.T) {
 
 func TestWriteHeadwords(t *testing.T) {
 	fmt.Printf("TestWriteHeadwords: Begin +++++++++++\n")
-	ReadDict(config.LUFileNames())
+	ReadDict(config.LUFileNames(), mockValidator{})
 	//WriteHeadwords()
 }
 
 func TestReadDict1(t *testing.T) {
 	fileNames := []string{"../testdata/testwords.txt"}
-	ReadDict(fileNames)
+	ReadDict(fileNames, mockValidator{})
 	ws, ok := GetWordSense("中文")
 	if !ok {
 		t.Error("Expected true, got ", ok)
@@ -355,10 +360,10 @@ func TestReadDict1(t *testing.T) {
 	if ws.Concept_en != "\\N" {
 		t.Error("Expected \\N, got ", ws.Concept_en)
 	}
-	if ws.Topic_cn != "语言" {
+	if ws.Topic_cn != "现代汉语" {
 		t.Error("Expected 语言, got ", ws.Topic_cn)
 	}
-	if ws.Topic_en != "Language" {
+	if ws.Topic_en != "Modern Chinese" {
 		t.Error("Expected Language, got ", ws.Topic_en)
 	}
 	if ws.Parent_cn != "\\N" {
@@ -380,7 +385,7 @@ func TestReadDict1(t *testing.T) {
 
 func TestGetWord1(t *testing.T) {
 	fileNames := []string{"../testdata/testwords.txt"}
-	ReadDict(fileNames)
+	ReadDict(fileNames, mockValidator{})
 	word, ok := GetWord("中")
 	if !ok {
 		t.Error("TestGetWord1, Expected true, got ", ok)
@@ -391,7 +396,7 @@ func TestGetWord1(t *testing.T) {
 }
 
 func TestGetWord2(t *testing.T) {
-	ReadDict(config.LUFileNames())
+	ReadDict(config.LUFileNames(), mockValidator{})
 	word, ok := GetWord("倿")
 	if !ok {
 		t.Error("TestGetWord2, Expected true, got ", ok)

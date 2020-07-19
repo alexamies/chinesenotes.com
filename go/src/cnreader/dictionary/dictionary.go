@@ -1,6 +1,17 @@
-/*
-Package for command line tool configuration
-*/
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//    http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+// Package for dictionary definitions and loading
+
 package dictionary
 
 import (
@@ -289,7 +300,7 @@ func (ws *WordSenseEntry) IsProperNoun() bool {
 // files.
 // Parameters:
 //   wsfilename The name of the word sense file
-func ReadDict(wsFilenames []string) []HeadwordDef {
+func ReadDict(wsFilenames []string, validator Validator) ([]HeadwordDef, error) {
 	wdict = make(map[string][]*WordSenseEntry)
 	avoidSub := config.AvoidSubDomains()
 	for _, wsfilename := range wsFilenames {
@@ -305,12 +316,12 @@ func ReadDict(wsFilenames []string) []HeadwordDef {
 		reader.Comment = '#'
 		rawCSVdata, err := reader.ReadAll()
 		if err != nil {
-			log.Fatal("Could not parse lexical units file", err)
+			return nil, fmt.Errorf("Could not parse lexical units file: %v", err)
 		}
 		for i, row := range rawCSVdata {
 			id, err := strconv.ParseInt(row[0], 10, 0)
 			if err != nil {
-				log.Fatal("Could not parse word id for word ", i, err)
+				return nil, fmt.Errorf("Could not parse word id %d: %v", i, err)
 			}
 			simp := row[1]
 			trad := row[2]
@@ -330,7 +341,7 @@ func ReadDict(wsFilenames []string) []HeadwordDef {
 						", conceptEn: %s, topicCn: %s, topicEn: %s\n",
 						id, simp, trad, pinyin, english, grammar, conceptCn,
 						conceptEn, topicCn, topicEn)
-					log.Fatal("ReadDict: Could not parse headword id for word ",
+					return nil, fmt.Errorf("ReadDict: Could not parse headword id %d: %v",
 						id, err)
 				}
 				hwId = int(hwIdInt)
@@ -342,7 +353,12 @@ func ReadDict(wsFilenames []string) []HeadwordDef {
 						id, simp, trad, pinyin, english, grammar, conceptCn,
 						conceptEn, topicCn, topicEn)
 				log.Printf("ReadDict, Line: %s\n", strings.Join(row, ";"))
-				log.Fatalf("ReadDict, line %d, wrong number of columns: %d", id, len(row))
+				return nil, fmt.Errorf("ReadDict, line %d, wrong number of columns: %d",
+					id, len(row))
+			}
+			if err := validator.Validate(grammar, topicEn); err != nil {
+				log.Printf("ReadDict, Line: %s\n", strings.Join(row, ";"))
+				return nil, fmt.Errorf("Invalid entry %s, %d: %v", simp, i, err)
 			}
 			parent_en :=  row[11]
 			// If subdomain, aka parent, should be avoided, then skip
@@ -395,7 +411,7 @@ func ReadDict(wsFilenames []string) []HeadwordDef {
 			//}
 		}
 	}
-	return GetHeadwords()
+	return GetHeadwords(), nil
 }
 
 // Reads the Chinese-English lexical units into memory from the words.txt file

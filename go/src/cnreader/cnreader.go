@@ -45,8 +45,28 @@ func main() {
 				"this file")
 	flag.Parse()
 
-	// Read in dictionary
-	dictionary.ReadDict(config.LUFileNames())
+	// Read headwords and validate
+	posFName := fmt.Sprintf("%s/%s", config.DictionaryDir(), "grammar.txt")
+	posFile, err := os.Open(posFName)
+	if err != nil {
+		log.Fatalf("creating opening pos file %s, %v", posFName, err)
+	}
+	defer posFile.Close()
+	posReader := bufio.NewReader(posFile)
+	domainFName := fmt.Sprintf("%s/%s", config.DictionaryDir(), "topics.txt")
+	domainFile, err := os.Open(domainFName)
+	if err != nil {
+		log.Fatalf("creating opening domain file %s, %v", domainFName, err)
+	}
+	domainReader := bufio.NewReader(domainFile)
+	validator, err := dictionary.NewValidator(posReader, domainReader)
+	if err != nil {
+		log.Fatalf("creatting dictionary validator, ", err)
+	}
+	_, err = dictionary.ReadDict(config.LUFileNames(), validator)
+	if err != nil {
+		log.Fatalf("main: unexpected error reading headwords, %v", err)
+	}
 
 	// Setup loader for library
 	fname := config.ProjectHome() + "/" + library.LibraryFile
@@ -54,8 +74,7 @@ func main() {
 
 	wdict, err := fileloader.LoadDictFile(config.LUFileNames())
 	if err != nil {
-		log.Fatal("Error opening dictionary, ", err)
-		os.Exit(1)
+		log.Fatalf("Error opening dictionary, ", err)
 	}
 	dictTokenizer := tokenizer.DictTokenizer{wdict}
 
