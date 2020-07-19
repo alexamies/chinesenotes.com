@@ -1,4 +1,4 @@
-7000001	全国佛教运动联合	全國佛教運動聯合	quánguó fójiào yùndòng liánhé	National Buddhist Movement Alliance	proper noun	团体	Organization	佛教	Buddhism	韩国	Korea	\N	\N	Korean alliance of citizen Buddhist movements (FGDB '全國佛教運動聯合')	7000001
+# Copyright Fo Guang Shan 佛光山 2013-2020. May be reused under the Creative Commons Attribution-Share Alike 3.0 License (CCASE 3.0), https://creativecommons.org/licenses/by-sa/3.0/
 7000002	证严	證嚴	zhèng yán	Cheng Yen	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 釋證嚴 (Wikipedia '釋證嚴')	7000002
 7000003	释证严	釋證嚴	shì zhèngyán	Cheng Yen	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1937- ; Taiwanese Buddhist nun and founder of the 慈濟功德會 Buddhist Compassion Relief Tzu Chi Foundation (Wikipedia '釋證嚴')	7000003
 7000004	慈济	慈濟	cíjì	Tzu-Chi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Abbreviation of 慈濟基金會 Buddhist Compassion Relief Tzu Chi Foundation (Wikipedia '慈濟基金會')	7000004
@@ -137,7 +137,7 @@
 7000137	玄讷大学	玄奘大學	xuánzhuǎng dàxué	Hsuan Chuang University	proper noun	大学	University	佛教	Buddhism	\N	\N	\N	\N	A Buddhist university in Taiwan (Wikipedia '玄讷大学')	7000137
 7000138	平川彰	\N	píng chuānzhāng	Akira Hirakawa	proper noun	人	Person	佛教	Buddhism	日本	Japan	\N	\N	1915-2002; Japanese Buddhist scholar (Wikipedia '平川彰'; WorldCat '平川彰')	7000138
 7000139	冈布理奇	岡布理奇	gāngbùlǐqí	Richard Gombrich	proper noun	学者	Scholar	佛教	Buddhism	英国	England	\N	\N	1937 - ; British Buddhist scholar (Wikipedia 'Richard Gombrich')	7000139
-7000140	凤停寺	鳳停寺	fèngtíngsì	Bongjeongsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Korean temple in North Gyeongsang Province (FGDB '鳳停寺'; Wikipedia '鳳停寺')	7000140
+7000140	凤停寺	鳳停寺	fèngtíngsì	Bongjeongsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Korean temple in North Gyeongsang Province (FGDB '鳳停寺'; Wikipedia 'Bongjeongsa')	7000140
 7000141	高丽八万大藏经	高麗八萬大藏經	Gāolì Bā Wàn Dà Zàng Jīng	Tripitaka Koreana	proper noun	\N	\N	佛教	Buddhism	韩国	Korea	\N	\N	Buddhist scriptures carved on 81,340 wooden tablets and housed in Haeinsa 海印寺 in South Gyeongsang province of South Korea (CC-CEDICT '高麗八萬大藏經')	7000141
 7000142	道琛	\N	dàochēn	Dochim	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	(BSAD '道琛'; FGDB '道琛'; Wikipedia 'Dochim')	7000142
 7000143	慧聪	慧聰	huìcōng	Hyechong / Esō	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	Japanese: Esō; Korean monk who travelled to Japan (BSAD '慧聰'; Wikipedia '慧聰')	7000143
@@ -175,3 +175,33 @@
 7000175	耶贳䩭	耶貰䩭	yéshì	Śāṇaka	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	See 商那和修 (FGDB '商那和修')	7000175
 7000176	奢搦迦	\N	shēnuòjiā	Śāṇaka	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	See 商那和修 (FGDB '商那和修')	7000176
 7000177	佛学大辞典	佛學大辭典	Fóxué Dà Cídiǎn	Dictionary of Buddhist Studies	proper noun	辞典	Dictionary	佛教	Buddhism	中国佛教	Chinese Buddhism	\N	\N	Compiled by 丁福保 Ding Fubao, 1874-1952 (FGDB '丁福保'; Hsing Yun and Miao Guang trans. 2016, p. 371; WorldCat '佛學大辭典')	7000177
+7000178	曺五铉	曺五鉉	cáowǔxuàn	Cho Oh-hyun	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1932-2018; Korean monk (Wikipedia 'Cho Oh-hyun')	7000178
+7000179	大圆	大圓	dàyuán	Daewon	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1936-; Zen Master Daewon Moon Jae-hyeon (Wikipedia 'Daewon')	74700
+7000180	大圆	大圓	dàyuán	Daewon	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	Korean monastic from the Silla dynasty (BSAD '大圓', ID No A000063)	74700
+7000181	秀峰无等	秀峰無等	xiùfēng wúděng	Subong	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1943-1994; Korean monk (Wikipedia '秀峰無等')	7000181
+7000182	龙城震钟	龍城震鍾	lóngchéng zhènzhōng	Yongseong Jinjong	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	(Wikipedia 'Yongseong')	7000182
+7000183	庆国寺	慶國寺	qìngguósì	Gyeongguksa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Buddhist temple in Seoul (Wikipedia 'Korean_Buddhist_temples')	7000183
+7000184	庆国寺	慶國寺	qìngguósì	Qingguo Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	An alternative name for 太平興國寺 Taiping Xingguo Temple, located in 臨汾 Linfen, Shanxi (BSPAD '慶國寺' PL000000005742)	7000183
+7000185	太平兴国寺	太平興國寺	tàipíng xīngguó sì	Taiping Xingguo Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	A temple name in at least five locatoins, including former 蔣山 Jiangshan in Jiangsu province, 翼城縣 Yicheng county in Shanxi, 袁州 Yanzhou in Jiangxi, 五臺山 Wutai Shan (BSPAD '太平興國寺' PL000000023300; FGDB '太平興國寺'; Wikipedia '太平兴国寺塔')	7000185
+7000186	全国佛教运动联合	全國佛教運動聯合	quánguó fójiào yùndòng liánhé	National Buddhist Movement Alliance	proper noun	团体	Organization	佛教	Buddhism	韩国	Korea	\N	\N	Korean alliance of citizen Buddhist movements (FGDB '全國佛教運動聯合')	7000186
+7000187	观音寺	觀音寺	guānyīnsì	Guanyin Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Numerous temples with the same name, for example in 奉化市 Fenghua in Ningbo, Zhejiang province (BSPAD '觀音寺', PL000000012155; FGDB '觀音寺'; Wikipedia '觀音寺')	7000187
+7000188	观音寺	觀音寺	guānyīnsì	Kwanumsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Kaesŏng, Korea (FGDB '觀音寺'; Wikipedia '觀音寺 (開城)')	7000187
+7000189	观音寺	觀音寺	guānyīnsì	Gwaneumsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (Wikipedia 'Gwaneumsa (Seoul)')	7000187
+7000190	观音庙	觀音廟	Guānyīn miào	Guanyin Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 觀音寺 (Wikipedia '觀音廟')	7000190
+7000191	观音亭	觀音亭	Guānyīntíng	Guanyin Shrine	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 觀音寺 (Wikipedia '觀音廟')	7000191
+7000192	道诜寺	道詵寺	dàoshēnsì	Doseonsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (Guoyu '道詵寺'; Wikipedia 'Korean_Buddhist_temples')	7000192
+7000193	奉恩寺	\N	fèngēnsì	Bongeunsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (FGDB '奉恩寺'; Wikipedia '奉恩寺')	7000193
+7000194	奉恩寺	\N	fèngēnsì	Feng'en Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Xi'an, Shaanxi and a second temple located in 平頂山 Pingdingshan in Henan (BSPAD '奉恩寺', PL000000042297)	7000193
+7000195	奉元寺	\N	fèngyuánsì	Bongwonsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '奉元寺'; Wikipedia 'Bongwonsa')	7000195
+7000196	永华寺	永華寺	yǒnghuásì	Yeonghwasa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (Wikipedia 'Korean_Buddhist_temples')	7000196
+7000197	永华寺	永華寺	yǒnghuásì	Yonghua Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Jiujiang, Jiangxi province (BSPAD '永華寺', PL000000018827)	7000196
+7000198	曹溪寺	\N	cáoxīsì	Caoqi Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Several, located in each of Shaaanxi, Yunnan, and Anhui (BSPAD '曹溪寺', PL000000058651)	7000198
+7000199	曹溪寺	\N	cáoxīsì	Jogyesa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (FGDB '曹溪寺'; Wikipedia 'Jogyesa')	7000198
+7000200	津宽寺	津寬寺	jīnkuānsì	Jingwansa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (Guoyu '津寬寺'; Wikipedia 'Korean_Buddhist_temples')	7000200
+7000201	传灯寺	傳燈寺	chuándēngsì	Jeondeungsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Incheon, Korea (FGDB '傳燈寺'; Wikipedia 'Jeondeungsa')	7000201
+7000202	传灯寺	傳燈寺	chuándēngsì	Chuandeng Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Several, located in each of Sichuan, Yunnan, and Zhejiang (BSPAD '傳燈寺', PL000000041049)	7000201
+7000203	奉先寺	\N	fèngxiānsì	Fengxian Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Several, located in each of Henan and Jiangsu (BSPAD '奉先寺', PL000000023649; FGDB '奉先寺')	7000203
+7000204	奉先寺	\N	fèngxiānsì	Bongseonsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '奉先寺'; Wikipedia 'Bongseonsa')	7000203
+7000205	神勒寺	\N	shénlēisì	Shilleuksa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in in Gyeonggi Province, Korea (FGDB '神勒寺'; Wikipedia 'Shilleuksa')	7000205
+7000206	龙珠寺	龍珠寺	lóngzhūsì	Longzhu Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in 泰州 Taizhou, Jiangsu (BSPAD '龍珠寺', PL000000011141)	7000206
+7000207	龙珠寺	龍珠寺	lóngzhūsì	Yongjusa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '龍珠寺'; Wikipedia '龍珠寺')	7000206
