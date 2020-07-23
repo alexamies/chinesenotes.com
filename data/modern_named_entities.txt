@@ -5934,3 +5934,15 @@
 6005934	牛顿	牛頓	niúdùn	1. Newton (name) / Sir Isaac Newton	noun	人	Person	历史	History	英国	England	\N	\N	1642-1727; British mathematician and physicist (CC-CEDICT '牛頓')	44795
 6005935	章炳麟	\N	zhāng Bǐnglín	Zhang Binglin / Zhang Taiyan	proper noun	\N	\N	文学	Literature	\N	\N	\N	\N	1868-1936; Chinese scholar (Wikipedia '章太炎')	6005935
 6005936	李鹏	李鵬	lǐpéng	Li Peng	proper noun	人	Person	历史	History	中国	China	\N	\N	1928-; Leading Prc Politician, Prime Minister 1987-1998 (CC-CEDICT '李鵬')	6005936
+6005937	伊斯曼	\N	yīsīmàn	Eastman	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	1883-1969; US socialist writer, subsequently severe critic of USSR (CC-CEDICT '伊斯曼')	6005937
+6005938	伏罗希洛夫	伏羅希洛夫	fúluóxīluòfū	Kliment Voroshilov	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1881-1969; Soviet politician and military commander (CC-CEDICT '伏羅希洛夫')	6005938
+6005939	何鲁晓夫	何魯曉夫	hé lǔ xiǎo fū	Nikita Khrushchev	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	1894-1971; Also written 赫鲁晓夫, Secretary-general of Soviet communist party 1953-1964 (CC-CEDICT '何魯曉夫')	6005939
+6005940	佛朗哥	\N	fólǎnggē	Franco (name) / Generalissimo Francisco Franco Bahamonde	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1892-1975; Spanish dictator and head of state 1939-1975 (CC-CEDICT '佛朗哥')	6005940
+6005941	倪嗣冲	倪嗣沖	ní sìchōng	Ni Sichong	proper noun	\N	\N	历史	History	\N	\N	\N	\N	1868-1924; General closely linked to Yuan Shikai 袁世凯 during his unsuccessful 1915 bid for Empire (CC-CEDICT '倪嗣沖')	6005941
+6005942	倪桂珍	\N	níguìzhēn	Ni Guizhen or Ni Kwei-Tseng	proper noun	\N	\N	历史	History	\N	\N	\N	\N	1869 - 1931; Mother of Song Ailing 宋蔼龄, Song Qingling 宋庆龄 and Song Meiling 宋美龄 (CC-CEDICT '倪桂珍')	6005942
+6005943	傅作义	傅作義	fùzuòyì	Fu Zuoyi	proper noun	人	Person	历史	History	中国	China	\N	\N	1895-1974; Guomindang general, subsequently PRC top general and politician (CC-CEDICT '傅作義')	6005943
+6005944	傅立叶	傅立葉	fùlìyè	Charles Fourier	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	French sociologist and socialist, 1772-1837 (CC-CEDICT '傅立葉')	6005944
+6005945	儒勒·凡尔纳	儒勒·凡爾納	rúlēi fán'ěrnà	Jules Verne	proper noun	作者	Author	历史	History	欧洲	Europe	\N	\N	1828-1905; French novelist specializing in science fiction and adventure stories, author of Around the World in Eighty Days 八十天环绕地球 (CC-CEDICT '儒勒·凡爾納')	6005945
+6005946	王国维	王國維	Wáng Guówéi	Wang Guowei	proper noun	学者	Scholar	历史	History	中国	China	\N	\N	1877-1927 (CC-CEDICT '王國維')	6005946
+6005947	吕碧城	呂碧城	lǚ bìchéng	Lü Bicheng	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1883-1943; female writer and activist from Taiyuan, Shanxi (FGDB '呂碧城'; Wikipedia '呂碧城')	6005947
+6005948	戴季陶	\N	dài jìtáo	Dai Jitao / Tai Chi-t'ao	proper noun	政治家	Politician	历史	History	中国	China	\N	\N	1891–1949; Important political figure in the Republic of China (Wikipedia '戴季陶')	6005948

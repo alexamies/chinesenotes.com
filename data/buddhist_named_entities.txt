@@ -205,3 +205,18 @@
 7000205	神勒寺	\N	shénlēisì	Shilleuksa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in in Gyeonggi Province, Korea (FGDB '神勒寺'; Wikipedia 'Shilleuksa')	7000205
 7000206	龙珠寺	龍珠寺	lóngzhūsì	Longzhu Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in 泰州 Taizhou, Jiangsu (BSPAD '龍珠寺', PL000000011141)	7000206
 7000207	龙珠寺	龍珠寺	lóngzhūsì	Yongjusa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '龍珠寺'; Wikipedia '龍珠寺')	7000206
+7000208	百潭寺	\N	bǎitánsì	Baekdamsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon province (Wikipedia 'Baekdamsa')	7000208
+7000209	洛山寺	\N	luòshānsì	Naksansa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon, Korea (Wikipedia 'Korean_Buddhist_temples')	7000209
+7000210	三和寺	\N	sānhésì	Samhwasa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon, Korea (Wikipedia 'Samhwasa')	7000210
+7000211	神兴寺	神興寺	shénxīngsì	Sinheungsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon, Korea (FGDB '神興寺'; Wikipedia 'Korean_Buddhist_temples')	7000211
+7000212	新兴寺	新興寺	xīnxīngsì	Xinxing Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Anhui (BSPAD '新興寺', PL000000016937)	7000212
+7000213	新兴寺	新興寺	xīnxīngsì	Sinheungsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Same as 神興寺 (Wikipedia 'Sinheungsa')	7000212
+7000214	五岁庵	五歲庵	wǔsuìān	Oseam / Oseam Temple	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon, Korea (Wikipedia 'Oseam')	7000214
+7000215	法住寺	\N	fǎzhùsì	Beopjusa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in North Chungcheong, Korea (FGDB '法住寺'; Wikipedia 'Korean_Buddhist_temples')	7000215
+7000216	法住寺	\N	fǎzhùsì	Fazhu Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Shanxi (BSPAD '法住寺', PL000000004114)	7000215
+7000217	法住寺	\N	fǎzhùsì	Hōjūjidono	proper noun	寺院	Temple	佛教	Buddhism	日本	Japan	\N	\N	Located in Kyoto, Japan (FGDB '法住寺'; Wikipedia '法住寺')	7000215
+7000218	救仁寺	\N	jiùrénsì	Guinsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in North Chungcheong, Korea (FGDB '救仁寺'; Wikipedia 'Guinsa')	7000218
+7000219	修德寺	\N	xiūdésì	Sudeoksa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in South Chungcheong, Korea (BSPAD '修德寺', PL000000048618; FGDB '修德寺'; Wikipedia 'Sudeoksa')	7000219
+7000220	桐华寺	桐華寺	tónghuásì	Donghwasa / Donghwa Temple	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in North Gyeongsang, Korea (Guoyu '桐華寺'; Wikipedia 'Donghwasa')	7000220
+7000221	把溪寺	\N	bǎxīsì	Pagyesa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in North Gyeongsang, Korea (FGDB '把溪寺'; Wikipedia 'Korean_Buddhist_temples')	7000221
+7000222	杷溪寺	\N	páxīsì	Pagyesa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Same as 把溪寺 (FGDB '杷溪寺')	7000222
