@@ -45,7 +45,8 @@ export class TranslationMemory {
     const lookupTopic = document.getElementById("lookupTopic");
     if (findForm && findInput) {
       fromEvent(findForm, "submit").subscribe(
-      () => {
+      (event: Event) => {
+        event.preventDefault();
         if (findInput && findInput instanceof HTMLInputElement) {
           let urlString = "/findtm?query=" + findInput.value;
           if (lookupTopic && lookupTopic instanceof HTMLInputElement) {
@@ -58,6 +59,7 @@ export class TranslationMemory {
         } else {
           console.log(`Unexpected error for ${findInput}`);
         }
+        return false;
       });
     }
   }
