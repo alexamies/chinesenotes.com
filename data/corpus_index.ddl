@@ -96,14 +96,30 @@ CREATE TABLE bigram_freq_doc (
 
 /*
  * Table for translation memory index unigrams by character
+ * and domain
+ * character - Chinese contained in word
+ * word - Chinese text for the word
+ * domain - The subject domain (concept_en)
+ */
+CREATE TABLE tmindex_uni_domain (
+  ch VARCHAR(256) NOT NULL,
+  word VARCHAR(256) NOT NULL,
+  domain VARCHAR(256) NOT NULL,
+  PRIMARY KEY (`ch`, `word`, `domain`)
+  )
+  CHARACTER SET UTF8
+  COLLATE utf8_general_ci
+;
+
+/*
+ * Table for translation memory index unigrams by character
  * character - Chinese contained in word
  * word - Chinese text for the word
  */
 CREATE TABLE tmindex_unigram (
   ch VARCHAR(256) NOT NULL,
   word VARCHAR(256) NOT NULL,
-  domain VARCHAR(256) NOT NULL,
-  PRIMARY KEY (`ch`, `word`, `domain`)
+  PRIMARY KEY (`ch`, `word`)
   )
   CHARACTER SET UTF8
   COLLATE utf8_general_ci
