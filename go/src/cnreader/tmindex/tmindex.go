@@ -14,9 +14,16 @@
 package tmindex
 
 import (
+	"bufio"
 	"fmt"
 	"github.com/alexamies/chinesenotes-go/dicttypes"
 	"io"
+	"os"
+)
+
+const (
+	fnameUni = "tmindex_unigram.tsv"
+	fnameDomain = "tmindex_uni_domain.tsv"
 )
 
 type indexEntry struct {
@@ -25,8 +32,36 @@ type indexEntry struct {
 	count int
 }
 
-// Builds a translation memory index
-func BuildIndex(w io.Writer, wdict map[string]dicttypes.Word) {
+// Builds a unigram index with domain
+func BuildIndexes(indexDir string, wdict map[string]dicttypes.Word) error {
+	pathUni := fmt.Sprintf("%s/%s", indexDir, fnameUni)
+	fUni, err := os.Create(pathUni)
+	defer fUni.Close()
+	if err != nil {
+		return fmt.Errorf("Could not create index file %s, err: %v\n", fnameUni, err)
+	}
+	wUni := bufio.NewWriter(fUni)
+	err = buildUnigramIndex(wUni, wdict)
+	if err != nil {
+		return fmt.Errorf("could not write to index file %s, err: %v\n", fnameUni, err)
+	}
+
+	pathDomain := fmt.Sprintf("%s/%s", indexDir, fnameDomain)
+	fDomain, err := os.Create(pathDomain)
+	defer fDomain.Close()
+	if err != nil {
+		return fmt.Errorf("could not create index file %s, err: %v\n", fnameDomain, err)
+	}
+	wDomain := bufio.NewWriter(fDomain)
+	err = buildUniDomainIndex(wDomain, wdict)
+	if err != nil {
+		return fmt.Errorf("could not write to index file %s, err: %v\n", fnameDomain, err)
+	}
+	return nil
+}
+
+// Builds a unigram index with domain
+func buildUniDomainIndex(w io.Writer, wdict map[string]dicttypes.Word) error {
 	tmindexUni := make(map[string]bool)
 	for term, word := range wdict {
 		for _, sense := range word.Senses {
@@ -36,9 +71,32 @@ func BuildIndex(w io.Writer, wdict map[string]dicttypes.Word) {
 				if _, ok := tmindexUni[line]; ok {
 					continue
 				}
-		  	io.WriteString(w, line)
+		  	_, err := io.WriteString(w, line)
+		  	if err != nil {
+		  		return err
+		  	}
 		  	tmindexUni[line] = true
 			}
 		}
 	}
+	return nil
+}
+
+// Builds a unigram index
+func buildUnigramIndex(w io.Writer, wdict map[string]dicttypes.Word) error {
+	tmindexUni := make(map[string]bool)
+	for term := range wdict {
+		for _, c := range term {
+	  	line := fmt.Sprintf("%c\t%s\n", c, term)
+			if _, ok := tmindexUni[line]; ok {
+				continue
+			}
+	  	_, err := io.WriteString(w, line)
+	  	if err != nil {
+	  		return err
+	  	}
+	  	tmindexUni[line] = true
+		}
+	}
+	return nil
 }

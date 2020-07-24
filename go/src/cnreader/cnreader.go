@@ -120,17 +120,13 @@ func main() {
 		}
 		analysis.WriteLibraryFiles(lib, dictTokenizer)
 	} else if *writeTMIndex {
+
 		log.Println("main: Writing translation memory index")
 		dir := config.IndexDir()
-		fname := "tmindex_unigram.tsv"
-		path := fmt.Sprintf("%s/%s", dir, fname)
-		f, err := os.Create(path)
-		defer f.Close()
+		err := tmindex.BuildIndexes(dir, wdict)
 		if err != nil {
-			log.Fatal("Could not create index file: ", err)
+			log.Fatalf("Could not create to index file, err: %v\n", err)
 		}
-		w := bufio.NewWriter(f)
-		tmindex.BuildIndex(w, wdict)
 	} else {
 		log.Println("main: Writing out entire corpus")
 		analysis.WriteCorpusAll(fileLibraryLoader, dictTokenizer)

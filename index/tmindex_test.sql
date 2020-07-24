@@ -5,9 +5,18 @@ SELECT
   count(*) as count
 FROM tmindex_unigram
 WHERE 
-  ch = '結' or ch = '實'
+  ch = '結' OR ch = '實' OR ch = '實' OR ch = '實'
 GROUP BY word
-ORDER BY count DESC LIMIT 50;
+ORDER BY count DESC LIMIT 10;
+
+SELECT
+  ch,
+  word,
+  domain
+FROM tmindex_unigram
+WHERE 
+  ch = '結' AND word = '結'
+LIMIT 10;
 
 
 SELECT

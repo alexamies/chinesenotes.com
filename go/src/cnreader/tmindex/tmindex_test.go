@@ -23,39 +23,78 @@ import (
 func mockDictionary() map[string]dicttypes.Word {
 	s1 := "结实"
 	t1 := "結實"
-	pinyin := "jiēshi "
+	p1 := "jiēshi"
+	ws1 := dicttypes.WordSense{
+		HeadwordId: 1,
+		Simplified: s1,
+		Traditional: t1,
+		Pinyin: p1,
+		English: "solid",
+		Domain: "Modern Chinese",
+	}
 	hw1 := dicttypes.Word{
 		Simplified: s1, 
 		Traditional: t1,
-		Pinyin: pinyin,
-		Senses: []dicttypes.WordSense{},
+		Pinyin: p1,
+		Senses: []dicttypes.WordSense{ws1},
 	}
 	s2 := "倿"
 	t2 := "\\N"
+	p2 := "nìng"
+	ws2 := dicttypes.WordSense{
+		HeadwordId: 2,
+		Simplified: s2,
+		Traditional: t2,
+		Pinyin: p2,
+		English: "",
+		Domain: "Literary Chinese",
+	}
 	hw2 := dicttypes.Word{
 		Simplified: s2, 
 		Traditional: t2,
-		Pinyin: pinyin,
-		Senses: []dicttypes.WordSense{},
+		Pinyin: p2,
+		Senses: []dicttypes.WordSense{ws2},
 	}
   headwords := []dicttypes.Word{hw1, hw2}
   wdict := make(map[string]dicttypes.Word)
   for _, hw := range headwords {
-  	wdict[hw.Simplified] = dicttypes.Word{}
+  	wdict[hw.Simplified] = hw
   	trad := hw.Traditional
   	if trad != "\\N" {
-  		wdict[trad] = dicttypes.Word{}
+  		wdict[trad] = hw
   	}
   }
   return wdict
 }
 
 // Test basic BuildIndex functions
-func TestBuildIndex(t *testing.T) {
+func TestBuildUniDomainIndex(t *testing.T) {
 	fmt.Printf("TestBuildIndex: Begin unit test\n")
 	wdict := mockDictionary()
 	var buf bytes.Buffer
-	BuildIndex(&buf, wdict)
+	err := buildUniDomainIndex(&buf, wdict)
+	expected := 
+`结	结实	Modern Chinese
+实	结实	Modern Chinese
+結	結實	Modern Chinese
+實	結實	Modern Chinese
+倿	倿	Literary Chinese
+`
+	if err != nil {
+		t.Fatalf("unexpected error: %v", err)
+	}
+	result := buf.String()
+	if len(result) != len(expected) {
+		t.Errorf("expected: %d, got: %d", len(expected), len(result))
+	}
+}
+
+// Test basic BuildIndex functions
+func TestBuildUnigramIndex(t *testing.T) {
+	fmt.Printf("TestBuildIndex: Begin unit test\n")
+	wdict := mockDictionary()
+	var buf bytes.Buffer
+	err := buildUnigramIndex(&buf, wdict)
 	expected := 
 `结	结实
 实	结实
@@ -63,8 +102,11 @@ func TestBuildIndex(t *testing.T) {
 實	結實
 倿	倿
 `
+	if err != nil {
+		t.Fatalf("unexpected error: %v", err)
+	}
 	result := buf.String()
 	if len(result) != len(expected) {
-		t.Errorf("TestBuildIndex, expected: %d, got: %d", len(expected), len(result))
+		t.Errorf("expected: %d, got: %d", len(expected), len(result))
 	}
 }
