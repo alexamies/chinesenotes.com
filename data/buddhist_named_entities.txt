@@ -244,21 +244,57 @@
 7000244	念救	\N	niànjiù	Nengu	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	Japanese monastic who travelled to China in the Song dynasaty (Fogel 2013, p. 67)	7000244
 7000245	成寻	成尋	chéngxún	Jōjin	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1011-1081; Japanese monastic who travelled to China in the Song dynasaty (FGDB '成尋'; Fogel 2013, p. 67; Wikipedia '成尋')	7000245
 7000246	兴禅护国论	興禪護國論	xīng chán hùguó lùn	Gō-Zen gokoku ron	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	Composed by Eisai 榮西 1141-1215 (FGDB '興禪護國論'; Fogel 2013, p. 67)	7000246
-7000247	俊芿	\N	jùnrèng	Shunjō	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1166-1227; Japanese monk to travelled to China in the Song (BSPAD '俊芿'; FGDB '俊芿'; Fogel 2013, p. 67)	7000247
-7000248	明全	\N	míngquán	Myōzen	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1184-1225; Japanese monk who travelled to China with 道元 Dōgen (BSPAD '明全', ID A021448; DDB '佛樹明全'; Fogel 2013, p. 67)	7000248
+7000247	俊芿	\N	jùnrèng	Shunjō	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1166-1227; Japanese monk to travelled to China in the Song (BSAD '俊芿'; FGDB '俊芿'; Fogel 2013, p. 67)	7000247
+7000248	明全	\N	míngquán	Myōzen	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1184-1225; Japanese monk who travelled to China with 道元 Dōgen (BSAD '明全', ID A021448; DDB '佛樹明全'; Fogel 2013, p. 67)	7000248
 7000249	继灯录	繼燈錄	jìdēnglù	Jideng lu	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	A text compiled by 永覺元賢 Yongyue Yuanxian 1578～1657 (FGDB '繼燈錄'; Fogel 2013, p. 67)	7000249
-7000250	永觉元贤	永覺元賢	yǒngjué yuánxián	Yongyue Yuanxian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1578-1657; Chinese monastic, also known as 鼓山元賢 Gushan Yuanxian (BSPAD '鼓山元賢'; FGDB '永覺元賢')	7000250
-7000251	鼓山元贤	鼓山元賢	gǔshān yuánxián	Gushan Yuanxian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 永覺元賢 (BSPAD '鼓山元賢', ID A000135; FGDB '永覺元賢')	7000251
+7000250	永觉元贤	永覺元賢	yǒngjué yuánxián	Yongyue Yuanxian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1578-1657; Chinese monastic, also known as 鼓山元賢 Gushan Yuanxian (BSAD '鼓山元賢'; FGDB '永覺元賢')	7000250
+7000251	鼓山元贤	鼓山元賢	gǔshān yuánxián	Gushan Yuanxian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 永覺元賢 (BSAD '鼓山元賢', ID A000135; FGDB '永覺元賢')	7000251
 7000252	元贤	元賢	yuánxián	Yuanxian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 永覺元賢 (FGDB '元賢')	7000252
-7000253	圆尔	圓爾	yuáněr	Ben’en	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1202-1280; Japanese monastic who travelled to China in the Song (BSPAD '圓爾', ID A001419; FGDB '圓爾'; Fogel 2013, p. 67)	7000253
-7000254	辩圆	辯圓	biànyuán	Ben’en	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 圓爾 (BSPAD '圓爾', ID A001419; Fogel 2013, p. 67)	7000254
-7000255	円尔弁円	円爾弁円	yuán'ěr biànyuán	Enni Ben’en	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	Japanese writing, see 圓爾 (BSPAD '圓爾', ID A001419)	7000255
-7000256	圆尔辨圆	圓爾辨圓	yuán'ěr biànyuán	Enni Ben’en	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 圓爾 (BSPAD '圓爾', ID A001419)	7000256
-7000257	荣尊	榮尊	róngzūn	Eison	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1195-1273; Japanese monk who travelled to China in the Song (BSPAD '神子榮尊', ID A02769; Fogel 2013, p. 67)	7000257
-7000258	神子荣尊	神子榮尊	shénzǐ róngzūn	Jinshi-eison	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 榮尊 (BSPAD '神子榮尊', ID A02769)	7000258
+7000253	圆尔	圓爾	yuáněr	Ben’en	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1202-1280; Japanese monastic who travelled to China in the Song (BSAD '圓爾', ID A001419; FGDB '圓爾'; Fogel 2013, p. 67)	7000253
+7000254	辩圆	辯圓	biànyuán	Ben’en	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 圓爾 (BSAD '圓爾', ID A001419; Fogel 2013, p. 67)	7000254
+7000255	円尔弁円	円爾弁円	yuán'ěr biànyuán	Enni Ben’en	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	Japanese writing, see 圓爾 (BSAD '圓爾', ID A001419)	7000255
+7000256	圆尔辨圆	圓爾辨圓	yuán'ěr biànyuán	Enni Ben’en	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 圓爾 (BSAD '圓爾', ID A001419)	7000256
+7000257	荣尊	榮尊	róngzūn	Eison	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1195-1273; Japanese monk who travelled to China in the Song (BSAD '神子榮尊', ID A02769; Fogel 2013, p. 67)	7000257
+7000258	神子荣尊	神子榮尊	shénzǐ róngzūn	Jinshi-eison	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 榮尊 (BSAD '神子榮尊', ID A02769)	7000258
 7000259	持松法师	持松法師	chísōng fǎshī	Venerable Chisong	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1894-1972; Buddhist monastic and writer (FGDB '持松法師'; Wikipedia '持松法師')	7000259
 7000260	持松	\N	chísōng	Chisong	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 持松法師 (FGDB '持松法師')	7000260
-7000261	觉心	覺心	juéxīn	Juexin	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Song dynasty Chinese monastic (BSPAD '覺心', ID A021587)	96407
-7000262	觉心	覺心	juéxīn	Kakushin	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1207-1298; Japanese monk who travelled to China (BSPAD '覺心', IDA025188; FGDB '覺心'; Fogel 2013, p. 68)	96407
+7000261	觉心	覺心	juéxīn	Juexin	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Song dynasty Chinese monastic (BSAD '覺心', ID A021587)	96407
+7000262	觉心	覺心	juéxīn	Kakushin	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1207-1298; Japanese monk who travelled to China (BSPAD '覺心', ID A025188; FGDB '覺心'; Fogel 2013, p. 68)	96407
 7000263	汤用彤	湯用彤	tāng yòngtóng	Tang Yongtong	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	1893-1964; Buddhist scholar (FGDB '湯用彤'; Wikipedia '汤用彤')	7000263
 7000264	瑞兴	瑞興	ruìxīng	Zuikō	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	14th century Japanese monk who travelled to China (Fogel 2013, p. 68)	7000264
+7000265	性海灵见	性海靈見	xìnghǎilíngjiàn	Shōkai Ryōken	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1315-1396; Japanese monk who travelled to China (BSPAD '性海靈見', ID A027671; Fogel 2013, p. 68)	7000265
+7000266	天龙寺	天龍寺	tiānlóngsì	Tenryūji	proper noun	寺院	Temple	佛教	Buddhism	日本	Japan	\N	\N	Head temple of the Tenryū-ji branch of the Rinzai Zen sect, located in Kyoto (BSPAD '天龍寺', PL000000057070; DDB '天龍寺'; FGDB '天龍寺'; Fogel 2013, p. 68; Wikipedia '天龍寺')	7000266
+7000267	天龙寺	天龍寺	tiānlóngsì	Tianlong Temple [Shanxi]	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Taiyuan, Shanxi (FGDB '天龍寺')	7000266
+7000268	天龙寺	天龍寺	tiānlóngsì	Tianlong Temple [Taiwan]	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Jia, Taiwan (BSPAD '天龍寺', PL000000053321)	7000266
+7000269	杨仁山	楊仁山	Yáng Rénshān	Yang Renshan	proper noun	学者	Scholar	佛教	Buddhism	中国	China	\N	\N	1837-1911, Chinese Buddhist scholar (FGDB '楊仁山'; Hsing Yun 2016, p. 13)	7000269
+7000270	欧阳竟无	歐陽竟無	Ōuyáng Jìngwú	Ou Yangjian  / Ouyang Jingwu	proper noun	学者	Scholar	佛教	Buddhism	中国	China	\N	\N	See 歐陽漸 (FGDB '歐陽漸')	7000270
+7000271	本朝高僧传	本朝高僧傳	běncháo gāosēng  zhuàn	Honchō kōsō den	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	Title of a Japanese text compiled circa 1702 (FGDB '本朝高僧傳'; Fogel 2013, p. 68)	7000271
+7000272	善邻国宝记	善鄰國寶記	shàn lín guó bǎojì	Zenrin kokuhō ki	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	Japanese text describing cultural exchange between Japan, China, and Korea, compiled c. 1392 (FGDB '善鄰國寶記'; Fogel 2013, p. 68; Wikipedia '善邻国宝记')	7000272
+7000273	佛教大藏经	佛教大藏經	Fójiào Dà Zàng Jīng	Fojian Canon	proper noun	大藏經	Buddhist Canon	佛教	Buddhism	中国	China	\N	\N	Literally meaning 'Buddhist Canon', this is the name of a version of the Chinese Buddhist canon compiled over the period 1977-1983 in Taiwan (FGDB '佛教大藏經')	7000273
+7000274	望月信亨	\N	wàngyuè xìnhēng	Shinkō Mochizuki	proper noun	学者	Scholar	佛教	Buddhism	日本	Japan	\N	\N	1869-1948; Japanese Buddhist scholar (FGDB '望月信亨'; Worldcat Identities '望月信亨')	7000274
+7000275	善妙	\N	shànmiào	Zenmyō	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	Japanese monk who travelled to China in the Ming dynasty (Fogel 2013, p. 68)	7000275
+7000276	善妙	\N	shànmiào	Shan Miao	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Tang dynasty monk (BSPAD '善妙', ID A009227)	7000275
+7000277	铃木大拙	鈴木大拙	língmù dàzhuō	Daisetz Teitaro Suzuki	proper noun	学者	Scholar	佛教	Buddhism	日本	Japan	\N	\N	1870-1966; Japanese Buddhist scholar (FGDB '鈴木大拙'; Worldcat Identities '铃木大拙')	7000277
+7000278	重源	\N	zhòngyuán	Chōgen	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1121-1206; Japanese monk who travelled to China (FGDB '重源'; Fogel 2013, p. 68)	7000278
+7000279	友山士偲	\N	yǒushān shìcāi	Yūzan Shisai	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	[1301-1370; Japanese monastic who travelled to China (BSPAD '友山士偲', ID A027858; Fogel 2013, p. 70)	7000279
+7000280	印光	\N	yìnguāng	Yingguang	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1862-1940 (FGDB '印光'; Hsing Yun 2010; Wikipedia '释印光')	7000280
+7000281	此山妙在	\N	cǐshān miàozài	Shisan Myōzai	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1296-1377; Japanese monk who travelled to China (BSPAD '此山妙在', ID A028038; FGDB '此山妙在'; Fogel 2013, p. 70)	7000281
+7000282	龙山德见	龍山德見	lóngshān déjiàn	Ryūzan Tokken	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1284-1358; Japanese monk who travelled to China (BSPAD '龍山德見', ID A021408; Fogel 2013, p. 71)	7000282
+7000283	无梦一清	無夢一清	wúmèng yīqīng	Mubō Issei	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1294-1368; Japanese monk who travelled to China (BSPAD '無夢一清', ID A027874; Fogel 2013, p. 71)	7000283
+7000284	愚中周及	\N	yúzhōng zhōují	Guchū Shūkyū	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1323-1409; Japanese monk who travelled to China (BSPAD '愚中周及', ID A001426; DDB '愚中周及'; FGDB '愚中周及'; Fogel 2013, p. 71)	7000284
+7000285	日本大藏经	日本大藏經	Rìběn Dà Zàng Jīng	Japanese Canon	proper noun	大藏經	Buddhist Canon	佛教	Buddhism	日本	Japan	\N	\N	The name of a specific edition of the Japanese Buddhist canon, produced in the period 1919-1921 (FGDB '中文大藏經')	7000285
+7000286	丁福保	\N	Dīng Fúbǎo	Ding Fubao	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	1874-1952, a lay Chinese Buddhist, compiled 《佛學大辭典》 Foxue Da Cidian 'Comprehensive Buddhist Dictionary' (FGDB '丁福保')	7000286
+7000287	雪舟	\N	xuězhōu	Sesshū	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1420-1506; Japanese monk who travelled to China (BSPAD '雪舟等揚', ID A021481; Fogel 2013, p. 71; Wikipedia '雪舟')	7000287
+7000288	雪舟等扬	雪舟等揚	xuězhōu děngyáng	Sesshū Tōyō	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 雪舟 (BSPAD '雪舟等揚', ID A021481)	7000288
+7000289	修慧	\N	xiūhuì	Xiuhui	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1908-1999 Monastic from Taiwan (FGDB '修慧')	7000289
+7000290	修慧	\N	xiūhuì	Xiuhui	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1917-2002 Monastic from Nanjing (FGDB '修慧')	7000289
+7000291	梵鱼寺	梵魚寺	fànyúsì	Beomeosa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in South Gyeongsang, Korea (FGDB '梵魚寺'; Wikipedia '梵鱼寺')	7000291
+7000292	银水寺	銀水寺	yínshuǐsì	Eunsusa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Wikipedia 'Eunsusa')	7000292
+7000293	金塘寺	\N	jīntángsì	Geumdangsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Wikipedia 'Geumdangsa')	7000293
+7000294	金山寺	\N	jīnshānsì	Jinshan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Former name of 江天禅寺 Jiangtian Chan Temple on the Yangtze River in the town of Zhenjiang 鎮江 (FGDB '金山寺'; Wikipedia '江天禅寺')	7000294
+7000295	金山寺	\N	jīnshānsì	Geumsansa	proper noun	寺	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (BSPAD '金山寺', PL000000048620; FGDB '金山寺'; Wikipedia 'Geumsansa')	7000294
+7000296	弥勒寺	彌勒寺	mílèsì	Mireuksa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Guoyu '彌勒寺'; Wikipedia '彌勒寺 (益山)')	7000296
+7000297	弥勒寺	彌勒寺	mílèsì	Mile Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Jiangsu (BSPAD '彌勒寺', PL000000010076)	7000296
+7000298	禅云寺	禪雲寺	chányúnsì	Seonunsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (BSPAD '禪雲寺', PL000000053376; FGDB '禪雲寺'; Wikipedia 'Seonunsa')	7000298
+7000299	实相寺	實相寺	shíxiāngsì	Shixiang Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Suzhou (BSPAD '實相寺', PL000000058068)	7000299
+7000300	实相寺	實相寺	shíxiāngsì	Silsangsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Guoyu '實相寺'; Wikipedia 'Silsangsa')	7000299

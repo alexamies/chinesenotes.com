@@ -372,3 +372,4 @@
 3000372	呈关	呈關	chéng guān	to submit for customs examination	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈關', p. 47)	3000372
 3000373	呈瑞	\N	chéng ruì	to manifest an auspicious sign	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈瑞', p. 47)	3000373
 3000374	呈祥	\N	chéng xiáng	to manifest an auspicious sign	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈祥', p. 47)	3000374
+3000375	油埕	\N	yóu chéng	earthen vat for storing oil	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈祥', p. 47)	3000375
