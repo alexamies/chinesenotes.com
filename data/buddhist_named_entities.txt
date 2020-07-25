@@ -319,13 +319,13 @@
 7000319	迦尔修派	迦爾修派	jiāěrxiū pài	Kagyu	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 噶舉派 (FGDB '迦爾居派')	7000319
 7000320	喀尔修派	喀爾修派	kāěrxiū pài	Kagyu	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	ee 噶舉派 (FGDB '迦爾居派')	7000320
 7000321	米拉日巴	\N	mǐlārìbā	Milarepa	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	See 密勒日巴 (Wikipedia '密勒日巴脫巴噶')	7000321
-7000322	密拉脱巴噶	密拉脫巴噶	mìlātuōbāgé	Mila Töbäga (Milarepa)	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 密勒日巴 (Wikipedia '密勒日巴脫巴噶')	7000322
-7000323	甘丹派	\N	gāndānpài	Kadam	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 噶當派 (FGDB '甘丹派')	7000323
-7000324	新噶当派	新噶當派	xīngédāngpài	Kadam	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 噶當派 (FGDB '甘丹派')	7000324
-7000325	噶当	噶當	gédāng	Kadam / Bkar-dgam-pa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 噶當派 (DDB '噶當')	7000325
+7000322	密拉脱巴噶	密拉脫巴噶	mìlātuōbāgé	Mila Töbäga (Milarepa)	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	See 密勒日巴 (Wikipedia '密勒日巴脫巴噶')	7000322
+7000323	甘丹派	\N	gāndānpài	Kadam	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 噶當派 (FGDB '甘丹派')	7000323
+7000324	新噶当派	新噶當派	xīngédāngpài	Kadam	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 噶當派 (FGDB '甘丹派')	7000324
+7000325	噶当	噶當	gédāng	Kadam / Bkar-dgam-pa	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 噶當派 (DDB '噶當')	7000325
 7000326	大兴寺	大興寺	dàxīngsì	Daeheungsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in South Jeolla, Korea (FGDB '大興寺'; Wikipedia 'Daeheungsa')	7000326
 7000327	大兴寺	大興寺	dàxīngsì	Daxing Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Daiding, Hebei (BSPAD '大興寺', PL000000002368)	7000326
-7000328	噶当新派	噶當新派	gédāng xīnpài	Kadam / Bkar-dgam-pa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 噶當派 (DDB '噶當新派')	7000328
+7000328	噶当新派	噶當新派	gédāng xīnpài	Kadam / Bkar-dgam-pa	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 噶當派 (DDB '噶當新派')	7000328
 7000329	金塔寺	\N	jīntǎsì	Jinta Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	There are several temples with this name in each of Gansu, Shaanxi, and Jiangsu (BSPAD '金塔寺', PL000000045616; Wikipedia '金塔寺')	7000329
 7000330	金塔寺	\N	jīntǎsì	Geumtapsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in South Jeolla, Korea (FGDB '金塔寺'; Wikipedia 'Korean_Buddhist_temples')	7000329
 7000331	说假部	說假部	shuōjiàbù	Prajñaptivāda	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: prajñaptivāda, Pali: paññattivādā, Japanese: Setsukebu; Indian school, literally meaning, the Teaching of Designations (BL 'Prajñaptivāda'; DDB '說假部'; FGDB '說假部'; Wikipedia '說假部')	7000331
@@ -344,3 +344,54 @@
 7000344	究究罗部	究究羅部	jiūjiūluóbù	Kaukkuṭika / Gokulika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 雞胤部 (FGDB '雞胤部')	7000344
 7000345	窟居部	\N	kūjūbù	Kaukkuṭika / Gokulika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 雞胤部 (FGDB '雞胤部')	7000345
 7000346	灰山住部	\N	huīshānzhùbù	Kaukkuṭika / Gokulika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 雞胤部 (FGDB '雞胤部')	7000346
+7000347	贤胄部	賢胄部	xiánzhòubù	Bhadrayānika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: Bhadrayānika or *Bhadrayānīya, Pali: Bhaddayānika; an Indian Buddhist school (DDB '賢胄部'; FGDB '賢胄部')	7000347
+7000348	跋陀与尼与	跋陀與尼與	bátuóyǔníyǔ	Bhadrayānika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 賢胄部 (FGDB '賢胄部')	7000348
+7000349	跋陀罗耶尼	跋陀羅耶尼	bátuóluóyéní	Bhadrayānika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 賢胄部 (FGDB '賢胄部')	7000349
+7000350	多梨罗耶尼	多梨羅耶尼	duōlíluóyéní	Bhadrayānika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 賢胄部 (FGDB '賢胄部')	7000350
+7000351	贤乘	賢乘	xiánshèng	Bhadrayānika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 賢胄部 (FGDB '賢胄部')	7000351
+7000352	証心寺	\N	zhèngxīnsì	Jeungsimsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in South Jeolla, Korea (Wikipedia 'Korean_Buddhist_temples')	7000352
+7000353	法上部	\N	fǎshàngbù	Dharmôttarīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: Dharmôttarīya, Pali: Dhammuttariya; an Indian Buddhist school (DDB '法上部'; FGDB '法上部'; Wikipedia '法上部')	7000353
+7000354	昙摩尉多利迦	曇摩尉多利迦	tánmówèiduōlìjiā	Dharmôttarīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法上部 (FGDB '法上部')	7000354
+7000355	达谟多梨与	達謨多梨與	dámóduōlíyǔ	Dharmôttarīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法上部 (FGDB '法上部')	7000355
+7000356	达摩欝多梨	達摩欝多梨	dámóyùduōlí	Dharmôttarīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法上部 (FGDB '法上部')	7000356
+7000357	法胜部	法勝部	fǎshèngbù	Dharmôttarīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法上部 (FGDB '法上部')	7000357
+7000358	法盛部	\N	fǎchéngbù	Dharmôttarīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法上部 (FGDB '法上部')	7000358
+7000359	法尚部	\N	fǎshàngbù	Dharmôttarīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法上部 (FGDB '法上部')	7000359
+7000360	美黄寺	美黃寺	měihuángsì	Mihwangsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in South Jeolla, Korea (Wikipedia 'Mihwangsa')	7000360
+7000361	法藏部	\N	fǎcángbù	Dharmaguptaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: dharmaguptaka, Japanese: Hōzōbu; Indian Buddhist school (BL 'Dharmaguptaka'; DDB '法藏部'; FGDB '法藏部'; Wikipedia '法藏部')	7000361
+7000362	昙无屈多迦	曇無屈多迦	tánwúqūduōjiā	Dharmaguptaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法藏部 (FGDB '法藏部')	7000362
+7000363	昙摩崛多	曇摩崛多	tánmójuéduō	Dharmaguptaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法藏部 (FGDB '法藏部')	7000363
+7000364	昙摩崛多	曇摩崛多	tánmójuéduō 	Dharmagupta	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 達摩笈多 (FGDB '達摩笈多')	49408
+7000365	达摩及多	達摩及多	dámójíduō	Dharmaguptaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法藏部 (FGDB '法藏部')	7000365
+7000366	昙无德部	曇無德部	tánwúdébù	Dharmaguptaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法藏部 (FGDB '法藏部')	7000366
+7000367	法护部	法護部	fǎhùbù	Dharmaguptaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法藏部 (FGDB '法藏部')	7000367
+7000368	法密部	\N	fǎmìbù	Dharmaguptaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法藏部 (FGDB '法藏部')	7000368
+7000369	法正部	\N	fǎzhèngbù	Dharmaguptaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法藏部 (FGDB '法藏部')	7000369
+7000370	法镜部	法鏡部	fǎjìngbù	Dharmaguptaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法藏部 (FGDB '法藏部')	7000370
+7000371	云住寺	雲住寺	yúnzhùsì	 Unjusa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in South Jeolla, Korea (Wikipedia '雲住寺')	7000371
+7000372	格鲁	格魯	gélǔ	Geluk	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 格魯派 (FGDB '格魯派')	7000372
+7000373	额尔德	額爾德	é'ěrdé	Geluk	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 格魯派 (FGDB '格魯派')	7000373
+7000374	格鲁巴派	格魯巴派	gélǔbā pài	Geluk School	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 格魯派 (Wikipedia '格鲁派')	7000374
+7000375	噶丹派	\N	gédān pài	Ganden (Geluk) School	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 格魯派 (Wikipedia '格鲁派')	7000375
+7000376	额尔德派	額爾德派	é'ěrdé pài	Dge lugs (Geluk) School	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 格魯派 (FGDB '額爾德派'; Wikipedia '格鲁派')	7000376
+7000377	兜率教派	\N	dōushuàijiāo pài	Tuṣita (Geluk) School	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 格魯派 (FGDB '額爾德派')	7000377
+7000378	德行派	\N	déxíng pài	Geluk School	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 格魯派 (FGDB '額爾德派')	7000378
+7000379	新甘丹派	\N	xīngāndānpài	Bkaḥ-gdams gsar-ma-pa (Geluk School)	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 格魯派 (FGDB '額爾德派')	7000379
+7000380	黄帽派	黃帽派	huángmào pài	Yellow Hap (Geluk) School	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 格魯派 (FGDB '額爾德派')	7000380
+7000381	阿提沙	\N	ātíshā	Atiśa	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	See 阿底峽 (FGDB '阿提沙')	7000381
+7000382	阿底沙	\N	ādǐshā	Atiśa	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	See 阿底峽 (FGDB '阿提沙')	7000382
+7000383	阿通沙	\N	ātōngshā	Atiśa	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	See 阿底峽 (FGDB '阿提沙')	7000383
+7000384	仲敦巴	\N	zhòngdūnbā	Dromtön	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1005-1064; Tibetan monastic; direct disciple of Atiśa and founder of the Kadam school (FGDB '仲敦巴'; Wikipedia '仲敦巴')	7000384
+7000385	仲敦甲哇琼乃	仲敦甲哇瓊乃	zhòngdūnjiǎwāqióngnǎi	Dromtönpa Gyelwé Jungné (Dromtön)	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	See 仲敦巴 (FGDB '仲敦巴'; Wikipedia '仲敦巴')	7000385
+7000386	观空	觀空	guān kōng	Guan Kong	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1903-1989; Chinese monastic (FGDB '觀空')	7000386
+7000387	热振寺	\N	rèzhènsì	Reting Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	A historic monastery in Lhasa (Wikipedia '热振寺')	7000387
+7000388	贾曹·达玛玛仁钦	賈曹·達瑪仁欽	jiǎcáo dámǎmǎ rénqīn	Rgyal tshab Dar ma rin chen / Gy altsap Darma Rinchen	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1364-1432; Tibetan: Rgyal tshab Dar ma rin chen; head of the Geluk school after the passing of founder Tsongkhapa (BL 'Rgyal tshab Dar ma rin chen'; FGDB '達爾麻仁欽'; Wikipedia '賈曹·達瑪仁欽')	7000388
+7000389	达尔麻仁钦	達爾麻仁欽	dá'ěrmá rénqīn	Dharma Rinchen	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	See 賈曹·達瑪仁欽 (FGDB '達爾麻仁欽')	7000389
+7000390	嘉曹杰	嘉曹傑	jiācáojié	Gyaltsab (Dharma Rinchen)	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	See 賈曹·達瑪仁欽 (FGDB '達爾麻仁欽')	7000390
+7000391	第一世班禅额尔德尼	第一世班禪額爾德尼	dìyīshìbānchánéěrdéní	Khedrup Gelek Pelzang, 1st Panchen Lama / Khedrup Je	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	1385–1438; Tibetan: Mkhas grub Dge legs dpal bzang (BL 'Mkhas grub Dge legs dpal bzang'; FGDB '凱珠'; Wikipedia '第一世班禪額爾德尼')	7000391
+7000392	凯珠	凱珠	kǎizhū	Mkhas grub (1st Panchen Lama)	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 第一世班禪額爾德尼 (FGDB '凱珠')	7000392
+7000393	凯珠哥鲁巴桑保	凱珠哥魯巴桑保	kǎizhūgēlǔbāsāngbǎo	Mkhas grub Dge legs dpal bzang (1st Panchen Lama)	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 第一世班禪額爾德尼 (FGDB '凱珠')	7000393
+7000394	开鲁克主杰	開魯克主傑	kāilǔkèzhǔjié	Mkhas grub Dge legs dpal bzang (1st Panchen Lama)	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 第一世班禪額爾德尼 (FGDB '凱珠')	7000394
+7000395	白居寺	\N	báijūsì	Palcho Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Located in China (Wikipedia '白居寺')	7000395
+7000396	云住寺	雲住寺	yúnzhùsì	Yakcheonsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in South Jeolla, Korea (Wikipedia 'Korean_Buddhist_temples')	7000396
+7000397	药泉寺	藥泉寺	yàoquánsì	Yakcheonsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Jeju Island, Korea (Wikipedia 'Korean_Buddhist_temples')	7000397
