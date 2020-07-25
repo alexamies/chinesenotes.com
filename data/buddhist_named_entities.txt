@@ -3,13 +3,13 @@
 7000003	释证严	釋證嚴	shì zhèngyán	Cheng Yen	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1937- ; Taiwanese Buddhist nun and founder of the 慈濟功德會 Buddhist Compassion Relief Tzu Chi Foundation (Wikipedia '釋證嚴')	7000003
 7000004	慈济	慈濟	cíjì	Tzu-Chi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Abbreviation of 慈濟基金會 Buddhist Compassion Relief Tzu Chi Foundation (Wikipedia '慈濟基金會')	7000004
 7000005	慈济基金会	慈濟基金會	cíjì jījīnhuì	Buddhist Compassion Relief Tzu Chi Foundation	proper noun	基金会	Foundation	佛教	Buddhism	中国	China	\N	\N	Founded by Taiwanese Buddhist nun Master Cheng Yen in 1966 as a Buddhist humanitarian organization (FGDB '慈濟功德會'; Guoyu '慈濟功德會'; Wikipedia '慈濟基金會')	7000005
-7000006	慈济功德会	慈濟功德會	cíjì gōngdé huì	Buddhist Compassion Relief Tzu Chi Foundation	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 慈濟基金會 (Wikipedia '慈濟基金會')	7000006
+7000006	慈济功德会	慈濟功德會	cíjì gōngdé huì	Buddhist Compassion Relief Tzu Chi Foundation	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	See 慈濟基金會 (Wikipedia '慈濟基金會')	7000006
 7000007	荣睿	榮睿	róngruì	Eiei	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	Japanese: 栄叡;  d. 749 (FGDB '榮睿'; Wikipedia '榮叡')	7000007
 7000008	荣叡	榮叡	róngruì	Eiei	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 榮睿 (FGDB '榮睿')	7000008
 7000009	大谷探险队	大谷探險隊	dàgǔ tànxiǎnduì	Otani Expedition Team	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	(FGDB '大谷探險隊'; Yongyou Shi 2010, p. 67)	7000009
-7000010	西本愿寺	西本願寺	xīběnyuànsì	Nishi Hongan-ji	proper noun	寺院	Temple	佛教	Buddhism	日本	Japan	\N	\N	Temple in in Kyoto (Wikipedia '西本願寺')	7000010
-7000011	东本愿寺	東本願寺	dōngběnyuànsì	Higashi Hongan-ji	proper noun	寺院	Temple	佛教	Buddhism	日本	Japan	\N	\N	(Wikipedia '東本願寺')	7000011
-7000012	石山本愿寺	石山本願寺	shíshān běnyuànsì	Ishiyama Hongan-ji	proper noun	寺院	Temple	佛教	Buddhism	日本	Japan	\N	\N	(Wikipedia '石山本願寺')	7000012
+7000010	西本愿寺	西本願寺	xīběnyuànsì	Nishi Hongan-ji	proper noun	寺院	Monastery	佛教	Buddhism	日本	Japan	\N	\N	Temple in in Kyoto (Wikipedia '西本願寺')	7000010
+7000011	东本愿寺	東本願寺	dōngběnyuànsì	Higashi Hongan-ji	proper noun	寺院	Monastery	佛教	Buddhism	日本	Japan	\N	\N	(Wikipedia '東本願寺')	7000011
+7000012	石山本愿寺	石山本願寺	shíshān běnyuànsì	Ishiyama Hongan-ji	proper noun	寺院	Monastery	佛教	Buddhism	日本	Japan	\N	\N	(Wikipedia '石山本願寺')	7000012
 7000013	净土真宗	淨土真宗	jìngtǔ zhēnzōng	Jōdo Shinshū	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	A Japanese school of Pure Land Buddhism (Wikipedia '淨土真宗')	7000013
 7000014	大谷光瑞	\N	dàgǔ guāngruì	Ōtani Kōzui	proper noun	人	Person	佛教	Buddhism	日本	Japan	\N	\N	(Wikipedia '大谷光瑞')	7000014
 7000015	橘瑞超	\N	júruìchāo	Zuicho Tachibana	proper noun	人	Person	佛教	Buddhism	日本	Japan	\N	\N	(Wikipedia '橘瑞超')	7000015
@@ -30,96 +30,96 @@
 7000030	哈利达长老	哈利達長老	hālìdázhǎnglǎo	Hārita	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Pali: Hārita; Indian monastic  (BSAD '哈利達長老')	7000030
 7000031	喇玛尼耶威哈利长老	喇瑪尼耶威哈利長老	lǎmǎníyéwēihālì zhǎnglǎo	Ramaṇīyavihārin	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Pali: Ramaṇīyavihārin; Indian monastic (BSAD '喇瑪尼耶威哈利長老')	7000031
 7000032	三磨耶悉利	\N	sānmóyéxīlì	Sanmoyexili	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit name unknwon, came to China with 吽哈囉悉利 Honghaluoxili in the Song (BSAD '三磨耶悉利')	7000032
-7000033	康仓竹嘉	康倉竹嘉	kāngcāngzhújiā	Kangcangzhujia	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1908-1984; Tibetan monastic (FGDB '康倉竹嘉')	7000033
-7000034	敏珠林寺	\N	mǐnzhūlín sì	Mindollin / Mindrolling Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	A major monastery of the Nyingma school, located in Tibet (FGDB '敏珠林寺'; Wikipedia '敏珠林寺')	7000034
-7000035	帕摩竹巴	\N	pàmózhúbā	Phagmo Drupa Dorje Gyalpo	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Tibetan monastic (CC-CEDICT '帕摩竹巴'; Guoyu '帕摩竹巴'; Wikipedia '帕摩竹巴')	7000035
-7000036	佐钦寺	佐欽寺	zuǒqīn sì	Dzogchen Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	 A major monastery of the Nyingma tradition, located in Tibet; also known as 竹慶寺 (FGDB '佐欽寺'; Wikipedia '佐钦寺')	7000036
-7000037	竹庆寺	竹慶寺	zhúqìng sì	Dzogchen Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Also known as 佐欽寺 (FGDB '竹慶寺'; Wikipedia '佐钦寺')	7000037
-7000038	白玉寺	\N	báiyù sì	Palyul Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '白玉寺')	7000038
-7000039	雪谦寺	雪謙寺	xuěqiān sì	Shechen Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '雪謙寺')	7000039
-7000040	直贡梯寺	直貢梯寺	zhígòngtī sì	Drigung Thil Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '直贡梯寺')	7000040
-7000041	八邦寺	\N	bābāng sì	Palpung Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '八邦寺')	7000041
-7000042	大司徒仁波切	\N	dàsītú rénbōqiē	Tai Situpa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	A lineage of Tibetan Buddhism (Wikipedia '大司徒仁波切')	7000042
-7000043	热隆寺	熱隆寺	rèlóng sì	Ralung Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '热隆寺')	7000043
-7000044	竹钦活佛	竹欽活佛	zhúqīn huófó	Gyalwang Drukpa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Title of the head of the Drukpa Lineage (Wikipedia '竹钦活佛')	7000044
+7000033	康仓竹嘉	康倉竹嘉	kāngcāngzhújiā	Kangcangzhujia	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1908-1984; Tibetan monastic (FGDB '康倉竹嘉')	7000033
+7000034	敏珠林寺	\N	mǐnzhūlín sì	Mindollin / Mindrolling Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	A major monastery of the Nyingma school, located in Tibet (FGDB '敏珠林寺'; Wikipedia '敏珠林寺')	7000034
+7000035	帕摩竹巴	\N	pàmózhúbā	Phagmo Drupa Dorje Gyalpo	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan monastic (CC-CEDICT '帕摩竹巴'; Guoyu '帕摩竹巴'; Wikipedia '帕摩竹巴')	7000035
+7000036	佐钦寺	佐欽寺	zuǒqīn sì	Dzogchen Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	 A major monastery of the Nyingma tradition, located in Tibet; also known as 竹慶寺 (FGDB '佐欽寺'; Wikipedia '佐钦寺')	7000036
+7000037	竹庆寺	竹慶寺	zhúqìng sì	Dzogchen Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Also known as 佐欽寺 (FGDB '竹慶寺'; Wikipedia '佐钦寺')	7000037
+7000038	白玉寺	\N	báiyù sì	Palyul Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Temple in Tibet (Wikipedia '白玉寺')	7000038
+7000039	雪谦寺	雪謙寺	xuěqiān sì	Shechen Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Temple in Tibet (Wikipedia '雪謙寺')	7000039
+7000040	直贡梯寺	直貢梯寺	zhígòngtī sì	Drigung Thil Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Temple in Tibet (Wikipedia '直贡梯寺')	7000040
+7000041	八邦寺	\N	bābāng sì	Palpung Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Temple in Tibet (Wikipedia '八邦寺')	7000041
+7000042	大司徒仁波切	\N	dàsītú rénbōqiē	Tai Situpa	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	A lineage of Tibetan Buddhism (Wikipedia '大司徒仁波切')	7000042
+7000043	热隆寺	熱隆寺	rèlóng sì	Ralung Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Temple in Tibet (Wikipedia '热隆寺')	7000043
+7000044	竹钦活佛	竹欽活佛	zhúqīn huófó	Gyalwang Drukpa	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	Title of the head of the Drukpa Lineage (Wikipedia '竹钦活佛')	7000044
 7000045	五会法师	五會法師	wǔhuì fǎshī	Venerable Wuhui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Another name for 法照 Fazhao (FGDB '五會法師')	7000045
-7000046	楚布寺	\N	chǔbùsì	Tsurphu Monastery / Tölung Tsurphu	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '楚布寺')	7000046
+7000046	楚布寺	\N	chǔbùsì	Tsurphu Monastery / Tölung Tsurphu	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Temple in Tibet (Wikipedia '楚布寺')	7000046
 7000047	嘉华噶玛巴	嘉華噶瑪巴	jiāhuágémǎbā	Gyalwang Karmapa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 噶瑪巴 (Wikipedia '噶玛巴')	7000047
-7000048	俄尔寺	俄爾寺	éěrsì	Ngor	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '俄尔寺')	7000048
-7000049	萨迦寺	薩迦寺	sàjiā sì	Sakya Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '萨迦寺')	7000049
-7000050	萨迦法王	薩迦法王	sàjiā fǎwáng	Sakya Trizin	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	 Title of the head of the Sakya school of Tibetan Buddhism (Wikipedia '薩迦法王')	7000050
-7000051	噶登寺	\N	gédēng sì	Ganden monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 甘丹寺 (FGDB '甘丹寺')	7000051
-7000052	噶尔丹寺	噶爾丹寺	gé'ěrdān sì	Ganden monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 甘丹寺 (FGDB '甘丹寺')	7000052
-7000053	噶勒丹寺	\N	gélēidān sì	Ganden monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 甘丹寺 (FGDB '甘丹寺')	7000053
-7000054	甘丹赤巴	\N	gāndān chìbā	Ganden Tripa / Gaden Tripa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	 Title of the spiritual leader of the Gelug school of Tibetan Buddhism (Wikipedia '甘丹赤巴')	7000054
+7000048	俄尔寺	俄爾寺	éěrsì	Ngor	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '俄尔寺')	7000048
+7000049	萨迦寺	薩迦寺	sàjiā sì	Sakya Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Temple in Tibet (Wikipedia '萨迦寺')	7000049
+7000050	萨迦法王	薩迦法王	sàjiā fǎwáng	Sakya Trizin	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	 Title of the head of the Sakya school of Tibetan Buddhism (Wikipedia '薩迦法王')	7000050
+7000051	噶登寺	\N	gédēng sì	Ganden monastery	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	See 甘丹寺 (FGDB '甘丹寺')	7000051
+7000052	噶尔丹寺	噶爾丹寺	gé'ěrdān sì	Ganden monastery	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	See 甘丹寺 (FGDB '甘丹寺')	7000052
+7000053	噶勒丹寺	\N	gélēidān sì	Ganden monastery	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	See 甘丹寺 (FGDB '甘丹寺')	7000053
+7000054	甘丹赤巴	\N	gāndān chìbā	Ganden Tripa / Gaden Tripa	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	 Title of the spiritual leader of the Gelug school of Tibetan Buddhism (Wikipedia '甘丹赤巴')	7000054
 7000055	甘单赤巴	甘單赤巴	gāndān chìbā	Ganden Tripa / Gaden Tripa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 甘丹赤巴 (Wikipedia '甘丹赤巴')	7000055
 7000056	噶丹赤巴	\N	gédān chìbā	Ganden Tripa / Gaden Tripa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 甘丹赤巴 (Wikipedia '甘丹赤巴')	7000056
-7000057	扎什伦布寺	扎什倫布寺	zhāshénlúnbù sì	Tashi Lhunpo Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tibet (Wikipedia '扎什伦布寺')	7000057
+7000057	扎什伦布寺	扎什倫布寺	zhāshénlúnbù sì	Tashi Lhunpo Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Temple in Tibet (Wikipedia '扎什伦布寺')	7000057
 7000058	罗桑益西	羅桑益西	luósāngyìxī	Blo-bzaṅ ye-śes	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	1663-1737; The 5th incarnation of the Panchen (FGDB '羅桑益西')	7000058
-7000059	格西	\N	géxī	Geshe	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	An academic degree for Tibetan monastics (FGDB '格西'; Wikipedia '格西')	7000059
-7000060	金瓦寺	\N	jīnwǎ sì	Kumbum Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 塔爾寺 (FGDB '塔爾寺')	7000060
-7000061	塔儿寺	塔兒寺	tǎ'ér sì	Kumbum Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 塔爾寺 (FGDB '塔爾寺')	7000061
+7000059	格西	\N	géxī	Geshe	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	An academic degree for Tibetan monastics (FGDB '格西'; Wikipedia '格西')	7000059
+7000060	金瓦寺	\N	jīnwǎ sì	Kumbum Monastery	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	See 塔爾寺 (FGDB '塔爾寺')	7000060
+7000061	塔儿寺	塔兒寺	tǎ'ér sì	Kumbum Monastery	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	See 塔爾寺 (FGDB '塔爾寺')	7000061
 7000062	康僧铠	康僧鎧	kāngsēngkǎi	Saṃghavarman	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Indian monastic from the Three Kingdoms period (BSAD '康僧鎧'; FGDB '康僧鎧')	7000062
 7000063	僧伽跋摩	\N	sēngjiābámó	Saṃghavarman	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	See 康僧鎧 (FGDB '康僧鎧')	7000063
 7000064	康僧凯	康僧凱	kāngsēngkǎi	Saṃghavarman	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	See 康僧鎧 (BSAD '康僧鎧')	7000064
 7000065	康婆陈那长老	康婆陳那長老	kāngpóchénnàzhǎnglǎo	Kaṅhadinna	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Monastic from India (BSAD '康婆陳那長老')	7000065
 7000066	康达须摩那长老	康達須摩那長老	kāngdáxūmónà zhǎnglǎo	Khaṇḍasumana	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Pali: khaṇḍasumana; monastic from India (BSAD '康達須摩那長老')	7000066
-7000067	创古仁波切	創古仁波切	chuànggǔ rénbōqiē	Thrangu Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1933-; Prominent in the Kagyu school of Tibetan Buddhism s(Wikipedia '創古仁波切')	7000067
-7000068	阿贡仁波切	阿貢仁波切	āgòng rénbōqiē	Akong Rinpoche / Chöje Akong Tulku Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1939-2013; Tibetan monastic (Wikipedia '阿贡仁波切')	7000068
-7000069	恰扎·强巴赤列	恰扎·強巴赤列	qiàzhāqiáng bāchìliè	Chadrel Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1940-; Tibetan monastic (Wikipedia '恰扎·强巴赤列')	7000069
-7000070	涅顿秋林仁波切	涅頓秋林仁波切	nièdùn qiūlín rénbōqiē	Neten Chokling Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1973-; Tibetan monastic (Wikipedia '涅顿秋林仁波切')	7000070
-7000071	丹增德勒仁波切	\N	dānzēngdélēi rénbōqiē	Tenzin Delek Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1950 – 2015; Tibetan monastic (Wikipedia '丹增德勒仁波切')	7000071
-7000072	第十七世噶玛巴·伍金赤列多吉	第十七世噶瑪巴·伍金赤列多吉	dìshíqīshì gémǎbāwǔ jīnchìlièduōjí	Ogyen Trinley Dorje	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1985; Tibetan monastic (Wikipedia '第十七世噶玛巴·伍金赤列多吉')	7000072
-7000073	第十七世噶玛巴·赤列塔耶多吉	第十七世噶瑪巴·赤列塔耶多吉	dìshíqīshì gémǎbāchìliètǎyé duōjí	Trinley Thaye Dorje	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1983-; Tibetan monastic (Wikipedia '第十七世噶瑪巴·赤列塔耶多吉')	7000073
-7000074	竹庆本乐仁波切	竹慶本樂仁波切	zhúqìng běnlè rénbōqiē	Dzogchen Ponlop Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1965-; Tibetan monastic (Wikipedia '竹慶本樂仁波切')	7000074
-7000075	噶千仁波切	\N	géqiān rénbōqiē	Garchen Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1936-; Tibetan monastic (Wikipedia '噶千仁波切')	7000075
-7000076	阿旺杰丹格列朗杰	阿旺傑丹格列朗傑	āwàng jiédān géliè lǎngjié	Gelek Rimpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1939-2017; Tibetan monastic (Wikipedia '阿旺杰丹格列朗杰')	7000076
-7000077	国师嘉察巴	國師嘉察巴	guóshī jiāchábā	Goshir Gyaltsab	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	An incarnate lama (Wikipedia '國師嘉察巴')	7000077
-7000078	热振·图旦绛白益西丹巴坚赞	熱振圖旦絳白益西丹巴堅讚	rèzhèntúdàn jiàngbáiyìxīdānbā jiānzàn	Jamphel Yeshe Gyaltsen	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1910-1947; Tibetan monastic (Wikipedia '热振·图旦绛白益西丹巴坚赞')	7000078
-7000079	甲日·洛迪	\N	jiǎrì luòdí	Lodi Gyari / Gyari Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1949-2018; Tibetan monastic and politician (Wikipedia '甲日洛迪')	7000079
-7000080	米庞仁波切	米龐仁波切	mǐpáng rénbōqiē	Jamgön Ju Mipham Gyatso	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1846–1912; Tibetan monastic (Wikipedia '米龐仁波切')	7000080
-7000081	热振单增晋美土多旺秋	熱振單增晉美土多旺秋	rèzhèn dānzēngjìnměitǔduōwàngqiū	Tenzin Jigme	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1948-1997; Tibetan monastic (Wikipedia '热振·单增晋美土多旺秋')	7000081
-7000082	卡卢仁波切	卡盧仁波切	kǎlú rénbōqiē	Kalu Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1905-1989; Tibetan monastic (FGDB '卡盧'; Wikipedia '卡盧仁波切')	7000082
-7000083	卡卢	卡盧	kǎlú	Kalu	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 卡盧仁波切 (FGDB '卡盧')	7000083
-7000084	迦卢宁波切	迦盧寧波切	jiālú níngbōqiē	Kalu Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 卡盧仁波切 (FGDB '卡盧')	7000084
-7000085	顶果钦哲	頂果欽哲	dǐngguǒ qīnzhé	Dilgo Khyentse	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1910-1991; Tibetan monastic (Wikipedia '頂果欽哲')	7000085
-7000086	巴库拉仁波切	巴庫拉仁波切	bākùlā rénbōqiē	Kushok Bakula Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Head of Pethup Gompa in Ladakh, India (Wikipedia '巴庫拉仁波切')	7000086
-7000087	第十九世巴库拉仁波切	第十九世巴庫拉仁波切	dìshíjiǔ shì bākùlā rénbōqiē	Ngawang Lobzang Thupstan Chognor / 19th Kushok Bakula Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1918-2003; Tibetan monastic (Wikipedia '第十九世巴库拉仁波切')	7000087
-7000088	明就仁波切	\N	míngjiù rénbōqiē	Yongey Mingyur Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1975-; Tibetan monastic (Wikipedia '明就仁波切')	7000088
-7000089	萨姜米庞仁波切	薩姜米龐仁波切	sàjiāng mǐpáng rénbōqiē	Sakyong Mipham	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	(Wikipedia '萨姜米庞仁波切')	7000089
-7000090	丹增南达	丹增南達	dānzēngnándá	Lopön Tenzin Namdak	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1926-; Tibetan monastic (Wikipedia '丹增南达')	7000090
-7000091	土登晋美诺布	土登晉美諾布	tǔdēngjìnměi nuòbù	Thubten Jigme Norbu	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1922-2008; Tibetan monastic (Wikipedia '土登晉美諾布')	7000091
-7000092	帕绷喀仁波切	帕繃喀仁波切	pàbēngkā rénbōqiē	Pabongkhapa Déchen Nyingpo	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1878–1941; Tibetan monastic (Wikipedia '帕繃喀仁波切')	7000092
-7000093	巴楚仁波切	\N	bāchǔ rénbōqiē	Patrul Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1808–1887; Tibetan monastic (Wikipedia '巴楚仁波切')	7000093
-7000094	贝诺法王	貝諾法王	bèinuò fǎwáng	Penor Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1932-2009; Tibetan monastic, full name: Kyabjé Drubwang Padma Norbu Rinpoche (FGDB '貝瑪諾布三世'; Wikipedia '貝諾法王')	7000094
+7000067	创古仁波切	創古仁波切	chuànggǔ rénbōqiē	Thrangu Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1933-; Prominent in the Kagyu school of Tibetan Buddhism s(Wikipedia '創古仁波切')	7000067
+7000068	阿贡仁波切	阿貢仁波切	āgòng rénbōqiē	Akong Rinpoche / Chöje Akong Tulku Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1939-2013; Tibetan monastic (Wikipedia '阿贡仁波切')	7000068
+7000069	恰扎·强巴赤列	恰扎·強巴赤列	qiàzhāqiáng bāchìliè	Chadrel Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1940-; Tibetan monastic (Wikipedia '恰扎·强巴赤列')	7000069
+7000070	涅顿秋林仁波切	涅頓秋林仁波切	nièdùn qiūlín rénbōqiē	Neten Chokling Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1973-; Tibetan monastic (Wikipedia '涅顿秋林仁波切')	7000070
+7000071	丹增德勒仁波切	\N	dānzēngdélēi rénbōqiē	Tenzin Delek Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1950 – 2015; Tibetan monastic (Wikipedia '丹增德勒仁波切')	7000071
+7000072	第十七世噶玛巴·伍金赤列多吉	第十七世噶瑪巴·伍金赤列多吉	dìshíqīshì gémǎbāwǔ jīnchìlièduōjí	Ogyen Trinley Dorje	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1985; Tibetan monastic (Wikipedia '第十七世噶玛巴·伍金赤列多吉')	7000072
+7000073	第十七世噶玛巴·赤列塔耶多吉	第十七世噶瑪巴·赤列塔耶多吉	dìshíqīshì gémǎbāchìliètǎyé duōjí	Trinley Thaye Dorje	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1983-; Tibetan monastic (Wikipedia '第十七世噶瑪巴·赤列塔耶多吉')	7000073
+7000074	竹庆本乐仁波切	竹慶本樂仁波切	zhúqìng běnlè rénbōqiē	Dzogchen Ponlop Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1965-; Tibetan monastic (Wikipedia '竹慶本樂仁波切')	7000074
+7000075	噶千仁波切	\N	géqiān rénbōqiē	Garchen Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1936-; Tibetan monastic (Wikipedia '噶千仁波切')	7000075
+7000076	阿旺杰丹格列朗杰	阿旺傑丹格列朗傑	āwàng jiédān géliè lǎngjié	Gelek Rimpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1939-2017; Tibetan monastic (Wikipedia '阿旺杰丹格列朗杰')	7000076
+7000077	国师嘉察巴	國師嘉察巴	guóshī jiāchábā	Goshir Gyaltsab	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	An incarnate lama (Wikipedia '國師嘉察巴')	7000077
+7000078	热振·图旦绛白益西丹巴坚赞	熱振圖旦絳白益西丹巴堅讚	rèzhèntúdàn jiàngbáiyìxīdānbā jiānzàn	Jamphel Yeshe Gyaltsen	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1910-1947; Tibetan monastic (Wikipedia '热振·图旦绛白益西丹巴坚赞')	7000078
+7000079	甲日·洛迪	\N	jiǎrì luòdí	Lodi Gyari / Gyari Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1949-2018; Tibetan monastic and politician (Wikipedia '甲日洛迪')	7000079
+7000080	米庞仁波切	米龐仁波切	mǐpáng rénbōqiē	Jamgön Ju Mipham Gyatso	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1846–1912; Tibetan monastic (Wikipedia '米龐仁波切')	7000080
+7000081	热振单增晋美土多旺秋	熱振單增晉美土多旺秋	rèzhèn dānzēngjìnměitǔduōwàngqiū	Tenzin Jigme	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1948-1997; Tibetan monastic (Wikipedia '热振·单增晋美土多旺秋')	7000081
+7000082	卡卢仁波切	卡盧仁波切	kǎlú rénbōqiē	Kalu Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1905-1989; Tibetan monastic (FGDB '卡盧'; Wikipedia '卡盧仁波切')	7000082
+7000083	卡卢	卡盧	kǎlú	Kalu	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	See 卡盧仁波切 (FGDB '卡盧')	7000083
+7000084	迦卢宁波切	迦盧寧波切	jiālú níngbōqiē	Kalu Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	See 卡盧仁波切 (FGDB '卡盧')	7000084
+7000085	顶果钦哲	頂果欽哲	dǐngguǒ qīnzhé	Dilgo Khyentse	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1910-1991; Tibetan monastic (Wikipedia '頂果欽哲')	7000085
+7000086	巴库拉仁波切	巴庫拉仁波切	bākùlā rénbōqiē	Kushok Bakula Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	Head of Pethup Gompa in Ladakh, India (Wikipedia '巴庫拉仁波切')	7000086
+7000087	第十九世巴库拉仁波切	第十九世巴庫拉仁波切	dìshíjiǔ shì bākùlā rénbōqiē	Ngawang Lobzang Thupstan Chognor / 19th Kushok Bakula Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1918-2003; Tibetan monastic (Wikipedia '第十九世巴库拉仁波切')	7000087
+7000088	明就仁波切	\N	míngjiù rénbōqiē	Yongey Mingyur Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1975-; Tibetan monastic (Wikipedia '明就仁波切')	7000088
+7000089	萨姜米庞仁波切	薩姜米龐仁波切	sàjiāng mǐpáng rénbōqiē	Sakyong Mipham	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	(Wikipedia '萨姜米庞仁波切')	7000089
+7000090	丹增南达	丹增南達	dānzēngnándá	Lopön Tenzin Namdak	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1926-; Tibetan monastic (Wikipedia '丹增南达')	7000090
+7000091	土登晋美诺布	土登晉美諾布	tǔdēngjìnměi nuòbù	Thubten Jigme Norbu	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1922-2008; Tibetan monastic (Wikipedia '土登晉美諾布')	7000091
+7000092	帕绷喀仁波切	帕繃喀仁波切	pàbēngkā rénbōqiē	Pabongkhapa Déchen Nyingpo	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1878–1941; Tibetan monastic (Wikipedia '帕繃喀仁波切')	7000092
+7000093	巴楚仁波切	\N	bāchǔ rénbōqiē	Patrul Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1808–1887; Tibetan monastic (Wikipedia '巴楚仁波切')	7000093
+7000094	贝诺法王	貝諾法王	bèinuò fǎwáng	Penor Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1932-2009; Tibetan monastic, full name: Kyabjé Drubwang Padma Norbu Rinpoche (FGDB '貝瑪諾布三世'; Wikipedia '貝諾法王')	7000094
 7000095	贝玛诺三世	貝瑪諾三世	bèimǎnuò sān shì	Penor Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 貝諾法王 (FGDB '貝瑪諾布三世')	7000095
-7000096	桑顶·多吉帕帕姆活佛	桑頂·多吉帕帕姆活佛	sāngdǐng duōjí pàpàmǔ huó fó	Samding Dorje Phagmo	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	The highest female incarnation in Tibet (Wikipedia '桑顶·多吉帕姆活佛')	7000096
-7000097	夏札桑吉多杰仁波切	夏札桑吉多傑仁波切	xiàzhá sāngjí duōjié rénbōqiē	Chatral Sangye Dorje	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1913-2015; Tibetan monastic (Wikipedia '夏札桑吉多傑仁波切')	7000097
-7000098	夏玛巴	夏瑪巴	xiàmǎbā	Shamarpa	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	A lineage holder of the Karma Kagyu school of Tibetan Buddhism (Wikipedia '夏瑪巴')	7000098
-7000099	索甲仁波切	\N	suǒjiǎ rénbōqiē	Sogyal Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1947-2019; Tibetan monastic (Wikipedia '索甲仁波切')	7000099
-7000100	洛桑丹增	\N	luòsāngdānzēng	Lobsang Tenzin	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1937-; Tibetan monastic and politician (Wikipedia '洛桑丹增')	7000100
-7000101	赤绛仁波切	赤絳仁波切	chìJiàng rénbōqiē	Trijang Lobsang Yeshe Tenzin Gyatso	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1901–1981; Tibetan monastic (Wikipedia '赤絳仁波切')	7000101
-7000102	丘扬创巴	丘揚創巴	qiūyáng chuàngbā	Chögyam Trungpa	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1939-1987; Tibetan monastic (Wikipedia '丘揚創巴')	7000102
-7000103	竹清嘉措仁波切	\N	zhúqīngjiācuò rénbōqiē	Khenpo Tsultrim Gyamtso Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1934-; Tibetan monastic (Wikipedia '竹清嘉措仁波切')	7000103
-7000104	祖古乌金仁波切	祖古烏金仁波切	zǔgǔwūjīn rénbōqiē	Tulku Urgyen Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1920-1996; Tibetan monastic (Wikipedia '祖古烏金仁波切')	7000104
-7000105	蒋扬钦哲旺波	蔣揚欽哲旺波	jiǎngyángqīnzhéwàngbō	amyang Khyentse Wangpo	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1820–1892; Tibetan monastic (Wikipedia '蔣揚欽哲旺波')	7000105
-7000106	蒋贡康楚	蔣貢康楚	jiǎnggòngkāngchǔ	'Jam-mgon kong-sprul	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1813-1899; Tibetan monastic (FGDB '蔣貢康楚')	7000106
+7000096	桑顶·多吉帕帕姆活佛	桑頂·多吉帕帕姆活佛	sāngdǐng duōjí pàpàmǔ huó fó	Samding Dorje Phagmo	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	The highest female incarnation in Tibet (Wikipedia '桑顶·多吉帕姆活佛')	7000096
+7000097	夏札桑吉多杰仁波切	夏札桑吉多傑仁波切	xiàzhá sāngjí duōjié rénbōqiē	Chatral Sangye Dorje	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1913-2015; Tibetan monastic (Wikipedia '夏札桑吉多傑仁波切')	7000097
+7000098	夏玛巴	夏瑪巴	xiàmǎbā	Shamarpa	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	A lineage holder of the Karma Kagyu school of Tibetan Buddhism (Wikipedia '夏瑪巴')	7000098
+7000099	索甲仁波切	\N	suǒjiǎ rénbōqiē	Sogyal Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1947-2019; Tibetan monastic (Wikipedia '索甲仁波切')	7000099
+7000100	洛桑丹增	\N	luòsāngdānzēng	Lobsang Tenzin	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1937-; Tibetan monastic and politician (Wikipedia '洛桑丹增')	7000100
+7000101	赤绛仁波切	赤絳仁波切	chìJiàng rénbōqiē	Trijang Lobsang Yeshe Tenzin Gyatso	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1901–1981; Tibetan monastic (Wikipedia '赤絳仁波切')	7000101
+7000102	丘扬创巴	丘揚創巴	qiūyáng chuàngbā	Chögyam Trungpa	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1939-1987; Tibetan monastic (Wikipedia '丘揚創巴')	7000102
+7000103	竹清嘉措仁波切	\N	zhúqīngjiācuò rénbōqiē	Khenpo Tsultrim Gyamtso Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1934-; Tibetan monastic (Wikipedia '竹清嘉措仁波切')	7000103
+7000104	祖古乌金仁波切	祖古烏金仁波切	zǔgǔwūjīn rénbōqiē	Tulku Urgyen Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1920-1996; Tibetan monastic (Wikipedia '祖古烏金仁波切')	7000104
+7000105	蒋扬钦哲旺波	蔣揚欽哲旺波	jiǎngyángqīnzhéwàngbō	amyang Khyentse Wangpo	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1820–1892; Tibetan monastic (Wikipedia '蔣揚欽哲旺波')	7000105
+7000106	蒋贡康楚	蔣貢康楚	jiǎnggòngkāngchǔ	'Jam-mgon kong-sprul	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1813-1899; Tibetan monastic (FGDB '蔣貢康楚')	7000106
 7000107	一玉	\N	yīyù	Ilok	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1563-1635; Korean monastic (FGDB '一玉')	7000107
 7000108	大韩佛教曹溪宗	\N	dàhán fójiào cáo xī zōng	Jogye Order of Korean Buddhism	proper noun	\N	\N	佛教	Buddhism	韩国	Korea	\N	\N	(Wikipedia '大韩佛教曹溪宗')	7000108
 7000109	太古宗	\N	tàigǔzōng	Taego Order / Taego-jong	proper noun	\N	\N	佛教	Buddhism	韩国	Korea	\N	\N	Order of Korean Buddhism (Wikipedia '太古宗')	7000109
 7000110	圆佛教	圓佛教	yuán fójiào	Wŏn Buddhism	proper noun	\N	\N	佛教	Buddhism	韩国	Korea	\N	\N	(Wikipedia '圆佛教')	7000110
 7000111	慈藏律师	慈藏律師	cícáng lǜshī	Jajang / Jajang Yulsa	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	(Wikipedia 'Jajang')	7000111
-7000112	佛国寺	佛國寺	fó guó sì	Bulguksa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in Korea (Wikipedia '佛国寺')	7000112
-7000113	石窟庵	\N	shíkūān	Seokguram	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Hermitage in Korea (CC-CEDICT '石窟庵'; Guoyu '石窟庵'; Wikipedia '石窟庵')	7000113
+7000112	佛国寺	佛國寺	fó guó sì	Bulguksa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in Korea (Wikipedia '佛国寺')	7000112
+7000113	石窟庵	\N	shíkūān	Seokguram	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Hermitage in Korea (CC-CEDICT '石窟庵'; Guoyu '石窟庵'; Wikipedia '石窟庵')	7000113
 7000114	金乔觉	金喬覺	jīn qiáojué	Kim Gyo-gak	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	696-794; Korean monastic who travelled to China (Wikipedia '金喬覺')	7000114
-7000115	松广寺	松廣寺	sōngguǎng sì	Songgwangsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '松廣寺'; Wikipedia '松廣寺')	7000115
+7000115	松广寺	松廣寺	sōngguǎng sì	Songgwangsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '松廣寺'; Wikipedia '松廣寺')	7000115
 7000116	太古普愚	\N	tàigǔpǔyú	Taego Bou / T'aego Po'u	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1301–1382; Korean monastic (DDB '太古普愚'; Wikipedia 'Taego Bou')	7000116
 7000117	己和	\N	jǐhé	Gihwa / Kihwa	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1376-1433; Korean monastic (DDB '己和'; FGDB '己和'; Wikipedia 'Gihwa')	7000117
 7000118	休静	休靜	xiūjìng	Hyujeong / Hyujŏng	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1520-1604; Korean monastic (DDB '休靜'; FGDB '休靜'; Wikipedia 'Hyujeong')	7000118
 7000119	惟政	\N	wéizhèng	Yujeong / Yujŏng	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1544–1610; Korean monastic (DDB '惟政'; FGDB '松雲'; Wikipedia '惟政')	7000119
 7000120	松云	松雲	sōngyún	Songun	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	Another name for 惟政 Yujeong (Guoyu '松雲')	7000120
 7000121	国际观音禅院	國際觀音禪院	guójìG uānyīn Chányuàn	Kwan Um School of Zen	proper noun	\N	\N	佛教	Buddhism	韩国	Korea	\N	\N	A modern Korean Buddhist order (Wikipedia '國際觀音禪院')	7000121
-7000122	普贤寺	普賢寺	pǔxiánsì	Pohyonsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Korea (Wikipedia '普贤寺 (朝鲜)')	7000122
+7000122	普贤寺	普賢寺	pǔxiánsì	Pohyonsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Korea (Wikipedia '普贤寺 (朝鲜)')	7000122
 7000123	性彻	性徹	xìngchè	Seongcheol / Sŏngch'ŏl	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1912-1993; Korean monastic (DDB '性徹'; FGDB '性徹'; Wikipedia '性徹')	7000123
 7000124	阿佐太子	\N	āzuǒ tàizǐ	Prince Asa	proper noun	人	Person	佛教	Buddhism	韩国	Korea	\N	\N	572 – 645; Korean royal lay person (Wikipedia '阿佐太子')	7000124
 7000125	昙征	曇徵	tánzhēng	Damjing	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	579-631; Korean: Damjing, Japanese: Donchō; Korean monk, also travelled to Japan (FGDB '曇徵'; Wikipedia '曇徵')	7000125
@@ -137,7 +137,7 @@
 7000137	玄讷大学	玄奘大學	xuánzhuǎng dàxué	Hsuan Chuang University	proper noun	大学	University	佛教	Buddhism	\N	\N	\N	\N	A Buddhist university in Taiwan (Wikipedia '玄讷大学')	7000137
 7000138	平川彰	\N	píng chuānzhāng	Akira Hirakawa	proper noun	人	Person	佛教	Buddhism	日本	Japan	\N	\N	1915-2002; Japanese Buddhist scholar (Wikipedia '平川彰'; WorldCat '平川彰')	7000138
 7000139	冈布理奇	岡布理奇	gāngbùlǐqí	Richard Gombrich	proper noun	学者	Scholar	佛教	Buddhism	英国	England	\N	\N	1937 - ; British Buddhist scholar (Wikipedia 'Richard Gombrich')	7000139
-7000140	凤停寺	鳳停寺	fèngtíngsì	Bongjeongsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Korean temple in North Gyeongsang Province (FGDB '鳳停寺'; Wikipedia 'Bongjeongsa')	7000140
+7000140	凤停寺	鳳停寺	fèngtíngsì	Bongjeongsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Korean temple in North Gyeongsang Province (FGDB '鳳停寺'; Wikipedia 'Bongjeongsa')	7000140
 7000141	高丽八万大藏经	高麗八萬大藏經	Gāolì Bā Wàn Dà Zàng Jīng	Tripitaka Koreana	proper noun	\N	\N	佛教	Buddhism	韩国	Korea	\N	\N	Buddhist scriptures carved on 81,340 wooden tablets and housed in Haeinsa 海印寺 in South Gyeongsang province of South Korea (CC-CEDICT '高麗八萬大藏經')	7000141
 7000142	道琛	\N	dàochēn	Dochim	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	(BSAD '道琛'; FGDB '道琛'; Wikipedia 'Dochim')	7000142
 7000143	慧聪	慧聰	huìcōng	Hyechong / Esō	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	Japanese: Esō; Korean monk who travelled to Japan (BSAD '慧聰'; Wikipedia '慧聰')	7000143
@@ -180,52 +180,52 @@
 7000180	大圆	大圓	dàyuán	Daewon	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	Korean monastic from the Silla dynasty (BSAD '大圓', ID No A000063)	74700
 7000181	秀峰无等	秀峰無等	xiùfēng wúděng	Subong	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1943-1994; Korean monk (Wikipedia '秀峰無等')	7000181
 7000182	龙城震钟	龍城震鍾	lóngchéng zhènzhōng	Yongseong Jinjong	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	(Wikipedia 'Yongseong')	7000182
-7000183	庆国寺	慶國寺	qìngguósì	Gyeongguksa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Buddhist temple in Seoul (Wikipedia 'Korean_Buddhist_temples')	7000183
-7000184	庆国寺	慶國寺	qìngguósì	Qingguo Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	An alternative name for 太平興國寺 Taiping Xingguo Temple, located in 臨汾 Linfen, Shanxi (BSPAD '慶國寺' PL000000005742)	7000183
-7000185	太平兴国寺	太平興國寺	tàipíng xīngguó sì	Taiping Xingguo Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	A temple name in at least five locatoins, including former 蔣山 Jiangshan in Jiangsu province, 翼城縣 Yicheng county in Shanxi, 袁州 Yanzhou in Jiangxi, 五臺山 Wutai Shan (BSPAD '太平興國寺' PL000000023300; FGDB '太平興國寺'; Wikipedia '太平兴国寺塔')	7000185
+7000183	庆国寺	慶國寺	qìngguósì	Gyeongguksa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Buddhist temple in Seoul (Wikipedia 'Korean_Buddhist_temples')	7000183
+7000184	庆国寺	慶國寺	qìngguósì	Qingguo Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	An alternative name for 太平興國寺 Taiping Xingguo Temple, located in 臨汾 Linfen, Shanxi (BSPAD '慶國寺' PL000000005742)	7000183
+7000185	太平兴国寺	太平興國寺	tàipíng xīngguó sì	Taiping Xingguo Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	A temple name in at least five locatoins, including former 蔣山 Jiangshan in Jiangsu province, 翼城縣 Yicheng county in Shanxi, 袁州 Yanzhou in Jiangxi, 五臺山 Wutai Shan (BSPAD '太平興國寺' PL000000023300; FGDB '太平興國寺'; Wikipedia '太平兴国寺塔')	7000185
 7000186	全国佛教运动联合	全國佛教運動聯合	quánguó fójiào yùndòng liánhé	National Buddhist Movement Alliance	proper noun	团体	Organization	佛教	Buddhism	韩国	Korea	\N	\N	Korean alliance of citizen Buddhist movements (FGDB '全國佛教運動聯合')	7000186
-7000187	观音寺	觀音寺	guānyīnsì	Guanyin Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Numerous temples with the same name, for example in 奉化市 Fenghua in Ningbo, Zhejiang province (BSPAD '觀音寺', PL000000012155; FGDB '觀音寺'; Wikipedia '觀音寺')	7000187
-7000188	观音寺	觀音寺	guānyīnsì	Kwanumsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Kaesŏng, Korea (FGDB '觀音寺'; Wikipedia '觀音寺 (開城)')	7000187
-7000189	观音寺	觀音寺	guānyīnsì	Gwaneumsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (Wikipedia 'Gwaneumsa (Seoul)')	7000187
-7000190	观音庙	觀音廟	Guānyīn miào	Guanyin Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 觀音寺 (Wikipedia '觀音廟')	7000190
-7000191	观音亭	觀音亭	Guānyīntíng	Guanyin Shrine	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See 觀音寺 (Wikipedia '觀音廟')	7000191
-7000192	道诜寺	道詵寺	dàoshēnsì	Doseonsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (Guoyu '道詵寺'; Wikipedia 'Korean_Buddhist_temples')	7000192
-7000193	奉恩寺	\N	fèngēnsì	Bongeunsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (FGDB '奉恩寺'; Wikipedia '奉恩寺')	7000193
-7000194	奉恩寺	\N	fèngēnsì	Feng'en Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Xi'an, Shaanxi and a second temple located in 平頂山 Pingdingshan in Henan (BSPAD '奉恩寺', PL000000042297)	7000193
-7000195	奉元寺	\N	fèngyuánsì	Bongwonsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '奉元寺'; Wikipedia 'Bongwonsa')	7000195
-7000196	永华寺	永華寺	yǒnghuásì	Yeonghwasa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (Wikipedia 'Korean_Buddhist_temples')	7000196
-7000197	永华寺	永華寺	yǒnghuásì	Yonghua Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Jiujiang, Jiangxi province (BSPAD '永華寺', PL000000018827)	7000196
-7000198	曹溪寺	\N	cáoxīsì	Caoqi Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Several, located in each of Shaaanxi, Yunnan, and Anhui (BSPAD '曹溪寺', PL000000058651)	7000198
-7000199	曹溪寺	\N	cáoxīsì	Jogyesa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (FGDB '曹溪寺'; Wikipedia 'Jogyesa')	7000198
-7000200	津宽寺	津寬寺	jīnkuānsì	Jingwansa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (Guoyu '津寬寺'; Wikipedia 'Korean_Buddhist_temples')	7000200
-7000201	传灯寺	傳燈寺	chuándēngsì	Jeondeungsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Incheon, Korea (FGDB '傳燈寺'; Wikipedia 'Jeondeungsa')	7000201
-7000202	传灯寺	傳燈寺	chuándēngsì	Chuandeng Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Several, located in each of Sichuan, Yunnan, and Zhejiang (BSPAD '傳燈寺', PL000000041049)	7000201
-7000203	奉先寺	\N	fèngxiānsì	Fengxian Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Several, located in each of Henan and Jiangsu (BSPAD '奉先寺', PL000000023649; FGDB '奉先寺')	7000203
-7000204	奉先寺	\N	fèngxiānsì	Bongseonsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '奉先寺'; Wikipedia 'Bongseonsa')	7000203
-7000205	神勒寺	\N	shénlēisì	Shilleuksa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in in Gyeonggi Province, Korea (FGDB '神勒寺'; Wikipedia 'Shilleuksa')	7000205
-7000206	龙珠寺	龍珠寺	lóngzhūsì	Longzhu Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in 泰州 Taizhou, Jiangsu (BSPAD '龍珠寺', PL000000011141)	7000206
-7000207	龙珠寺	龍珠寺	lóngzhūsì	Yongjusa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '龍珠寺'; Wikipedia '龍珠寺')	7000206
-7000208	百潭寺	\N	bǎitánsì	Baekdamsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon province (Wikipedia 'Baekdamsa')	7000208
-7000209	洛山寺	\N	luòshānsì	Naksansa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon, Korea (Wikipedia 'Korean_Buddhist_temples')	7000209
-7000210	三和寺	\N	sānhésì	Samhwasa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon, Korea (Wikipedia 'Samhwasa')	7000210
-7000211	神兴寺	神興寺	shénxīngsì	Sinheungsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon, Korea (FGDB '神興寺'; Wikipedia 'Korean_Buddhist_temples')	7000211
-7000212	新兴寺	新興寺	xīnxīngsì	Xinxing Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Anhui (BSPAD '新興寺', PL000000016937)	7000212
-7000213	新兴寺	新興寺	xīnxīngsì	Sinheungsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Same as 神興寺 (Wikipedia 'Sinheungsa')	7000212
-7000214	五岁庵	五歲庵	wǔsuìān	Oseam / Oseam Temple	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon, Korea (Wikipedia 'Oseam')	7000214
-7000215	法住寺	\N	fǎzhùsì	Beopjusa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in North Chungcheong, Korea (FGDB '法住寺'; Wikipedia 'Korean_Buddhist_temples')	7000215
-7000216	法住寺	\N	fǎzhùsì	Fazhu Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Shanxi (BSPAD '法住寺', PL000000004114)	7000215
-7000217	法住寺	\N	fǎzhùsì	Hōjūjidono	proper noun	寺院	Temple	佛教	Buddhism	日本	Japan	\N	\N	Located in Kyoto, Japan (FGDB '法住寺'; Wikipedia '法住寺')	7000215
-7000218	救仁寺	\N	jiùrénsì	Guinsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in North Chungcheong, Korea (FGDB '救仁寺'; Wikipedia 'Guinsa')	7000218
-7000219	修德寺	\N	xiūdésì	Sudeoksa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in South Chungcheong, Korea (BSPAD '修德寺', PL000000048618; FGDB '修德寺'; Wikipedia 'Sudeoksa')	7000219
-7000220	桐华寺	桐華寺	tónghuásì	Donghwasa / Donghwa Temple	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in North Gyeongsang, Korea (Guoyu '桐華寺'; Wikipedia 'Donghwasa')	7000220
-7000221	把溪寺	\N	bǎxīsì	Pagyesa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Located in North Gyeongsang, Korea (FGDB '把溪寺'; Wikipedia 'Korean_Buddhist_temples')	7000221
-7000222	杷溪寺	\N	páxīsì	Pagyesa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Same as 把溪寺 (FGDB '杷溪寺')	7000222
-7000223	骨窟寺	\N	gǔkūsì	Golgulsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Gyeongsang, Korea (Wikipedia '骨窟寺')	7000223
-7000224	祇林寺	\N	zhǐlínsì	Girimsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Gyeongsang, Korea (FGDB '祇林寺'; Wikipedia 'Girimsa')	7000224
-7000225	栢栗寺	\N	bǎilìsì	Baengnyulsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Gyeongsang, Korea (Wikipedia 'Baengnyulsa')	7000225
-7000226	皇龙寺	皇龍寺	huánglóngsì	Hwangnyongsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	(BSPAD '皇龍寺', PL000000048627; Guoyu '皇龍寺'; Wikipedia '皇龙寺')	7000226
-7000227	法尊	\N	Fǎzūn	Fazun	proper noun	师父	Monastic	佛教	Buddhism	中國佛教	Chinese Buddhism	\N	\N	1902-1980, Chinese monastic, student of 太虛 Taixu, scholar of Tantric Buddhism, and translator of Tibetan texts to Chinese  (BL 'Fazun'; FGDB '法尊')	7000227
-7000228	海东龙宫寺	海東龍宮寺	hǎidōng lónggōng sì	Haedong Yonggungsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	(CC-CEDICT '海東龍宮寺'; Guoyu '海東龍宮寺'; Wikipedia '海东龙宫寺')	7000228
+7000187	观音寺	觀音寺	guānyīnsì	Guanyin Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Numerous temples with the same name, for example in 奉化市 Fenghua in Ningbo, Zhejiang province (BSPAD '觀音寺', PL000000012155; FGDB '觀音寺'; Wikipedia '觀音寺')	7000187
+7000188	观音寺	觀音寺	guānyīnsì	Kwanumsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Kaesŏng, Korea (FGDB '觀音寺'; Wikipedia '觀音寺 (開城)')	7000187
+7000189	观音寺	觀音寺	guānyīnsì	Gwaneumsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (Wikipedia 'Gwaneumsa (Seoul)')	7000187
+7000190	观音庙	觀音廟	Guānyīn miào	Guanyin Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	See 觀音寺 (Wikipedia '觀音廟')	7000190
+7000191	观音亭	觀音亭	Guānyīntíng	Guanyin Shrine	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	See 觀音寺 (Wikipedia '觀音廟')	7000191
+7000192	道诜寺	道詵寺	dàoshēnsì	Doseonsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (Guoyu '道詵寺'; Wikipedia 'Korean_Buddhist_temples')	7000192
+7000193	奉恩寺	\N	fèngēnsì	Bongeunsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (FGDB '奉恩寺'; Wikipedia '奉恩寺')	7000193
+7000194	奉恩寺	\N	fèngēnsì	Feng'en Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Xi'an, Shaanxi and a second temple located in 平頂山 Pingdingshan in Henan (BSPAD '奉恩寺', PL000000042297)	7000193
+7000195	奉元寺	\N	fèngyuánsì	Bongwonsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '奉元寺'; Wikipedia 'Bongwonsa')	7000195
+7000196	永华寺	永華寺	yǒnghuásì	Yeonghwasa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (Wikipedia 'Korean_Buddhist_temples')	7000196
+7000197	永华寺	永華寺	yǒnghuásì	Yonghua Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Jiujiang, Jiangxi province (BSPAD '永華寺', PL000000018827)	7000196
+7000198	曹溪寺	\N	cáoxīsì	Caoqi Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Several, located in each of Shaaanxi, Yunnan, and Anhui (BSPAD '曹溪寺', PL000000058651)	7000198
+7000199	曹溪寺	\N	cáoxīsì	Jogyesa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (FGDB '曹溪寺'; Wikipedia 'Jogyesa')	7000198
+7000200	津宽寺	津寬寺	jīnkuānsì	Jingwansa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Seoul, Korea (Guoyu '津寬寺'; Wikipedia 'Korean_Buddhist_temples')	7000200
+7000201	传灯寺	傳燈寺	chuándēngsì	Jeondeungsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Incheon, Korea (FGDB '傳燈寺'; Wikipedia 'Jeondeungsa')	7000201
+7000202	传灯寺	傳燈寺	chuándēngsì	Chuandeng Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Several, located in each of Sichuan, Yunnan, and Zhejiang (BSPAD '傳燈寺', PL000000041049)	7000201
+7000203	奉先寺	\N	fèngxiānsì	Fengxian Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Several, located in each of Henan and Jiangsu (BSPAD '奉先寺', PL000000023649; FGDB '奉先寺')	7000203
+7000204	奉先寺	\N	fèngxiānsì	Bongseonsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '奉先寺'; Wikipedia 'Bongseonsa')	7000203
+7000205	神勒寺	\N	shénlēisì	Shilleuksa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in in Gyeonggi Province, Korea (FGDB '神勒寺'; Wikipedia 'Shilleuksa')	7000205
+7000206	龙珠寺	龍珠寺	lóngzhūsì	Longzhu Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in 泰州 Taizhou, Jiangsu (BSPAD '龍珠寺', PL000000011141)	7000206
+7000207	龙珠寺	龍珠寺	lóngzhūsì	Yongjusa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '龍珠寺'; Wikipedia '龍珠寺')	7000206
+7000208	百潭寺	\N	bǎitánsì	Baekdamsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon province (Wikipedia 'Baekdamsa')	7000208
+7000209	洛山寺	\N	luòshānsì	Naksansa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon, Korea (Wikipedia 'Korean_Buddhist_temples')	7000209
+7000210	三和寺	\N	sānhésì	Samhwasa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon, Korea (Wikipedia 'Samhwasa')	7000210
+7000211	神兴寺	神興寺	shénxīngsì	Sinheungsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon, Korea (FGDB '神興寺'; Wikipedia 'Korean_Buddhist_temples')	7000211
+7000212	新兴寺	新興寺	xīnxīngsì	Xinxing Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Anhui (BSPAD '新興寺', PL000000016937)	7000212
+7000213	新兴寺	新興寺	xīnxīngsì	Sinheungsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Same as 神興寺 (Wikipedia 'Sinheungsa')	7000212
+7000214	五岁庵	五歲庵	wǔsuìān	Oseam / Oseam Temple	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Gangwon, Korea (Wikipedia 'Oseam')	7000214
+7000215	法住寺	\N	fǎzhùsì	Beopjusa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in North Chungcheong, Korea (FGDB '法住寺'; Wikipedia 'Korean_Buddhist_temples')	7000215
+7000216	法住寺	\N	fǎzhùsì	Fazhu Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Shanxi (BSPAD '法住寺', PL000000004114)	7000215
+7000217	法住寺	\N	fǎzhùsì	Hōjūjidono	proper noun	寺院	Monastery	佛教	Buddhism	日本	Japan	\N	\N	Located in Kyoto, Japan (FGDB '法住寺'; Wikipedia '法住寺')	7000215
+7000218	救仁寺	\N	jiùrénsì	Guinsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in North Chungcheong, Korea (FGDB '救仁寺'; Wikipedia 'Guinsa')	7000218
+7000219	修德寺	\N	xiūdésì	Sudeoksa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in South Chungcheong, Korea (BSPAD '修德寺', PL000000048618; FGDB '修德寺'; Wikipedia 'Sudeoksa')	7000219
+7000220	桐华寺	桐華寺	tónghuásì	Donghwasa / Donghwa Temple	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in North Gyeongsang, Korea (Guoyu '桐華寺'; Wikipedia 'Donghwasa')	7000220
+7000221	把溪寺	\N	bǎxīsì	Pagyesa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in North Gyeongsang, Korea (FGDB '把溪寺'; Wikipedia 'Korean_Buddhist_temples')	7000221
+7000222	杷溪寺	\N	páxīsì	Pagyesa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Same as 把溪寺 (FGDB '杷溪寺')	7000222
+7000223	骨窟寺	\N	gǔkūsì	Golgulsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Gyeongsang, Korea (Wikipedia '骨窟寺')	7000223
+7000224	祇林寺	\N	zhǐlínsì	Girimsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Gyeongsang, Korea (FGDB '祇林寺'; Wikipedia 'Girimsa')	7000224
+7000225	栢栗寺	\N	bǎilìsì	Baengnyulsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Gyeongsang, Korea (Wikipedia 'Baengnyulsa')	7000225
+7000226	皇龙寺	皇龍寺	huánglóngsì	Hwangnyongsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	(BSPAD '皇龍寺', PL000000048627; Guoyu '皇龍寺'; Wikipedia '皇龙寺')	7000226
+7000227	法尊	\N	Fǎzūn	Fazun	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1902-1980, Chinese monastic, student of 太虛 Taixu, scholar of Tantric Buddhism, and translator of Tibetan texts to Chinese  (BL 'Fazun'; FGDB '法尊')	7000227
+7000228	海东龙宫寺	海東龍宮寺	hǎidōng lónggōng sì	Haedong Yonggungsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	(CC-CEDICT '海東龍宮寺'; Guoyu '海東龍宮寺'; Wikipedia '海东龙宫寺')	7000228
 7000229	欧阳渐	歐陽漸	Ōu Yáng Jìngwú	Ou Yangjian  / Ouyang Jingwu	proper noun	学者	Scholar	佛教	Buddhism	中国	China	\N	\N	1871-1943, Chinese Buddhist scholar from Jiangxi (FGDB '歐陽漸'; Hsing Yun 2016, p. 13)	7000229
 7000230	煮云	煮雲	zhǔyún	Zhu Yun	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1919-1986; Chinese Buddhist monastic from Jiangsu (FGDB '煮雲'; Wikipedia '煮雲')	7000230
 7000231	吕澄	呂澂	lǚ chéng	Lu Cheng	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	1896-1989; Buddhist scholar and author of 佛教研究法 'Methodology of Buddhist Studies' (FGDB '呂澂'; Wikipedia '呂澂')	7000231
@@ -263,9 +263,9 @@
 7000263	汤用彤	湯用彤	tāng yòngtóng	Tang Yongtong	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	1893-1964; Buddhist scholar (FGDB '湯用彤'; Wikipedia '汤用彤')	7000263
 7000264	瑞兴	瑞興	ruìxīng	Zuikō	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	14th century Japanese monk who travelled to China (Fogel 2013, p. 68)	7000264
 7000265	性海灵见	性海靈見	xìnghǎilíngjiàn	Shōkai Ryōken	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1315-1396; Japanese monk who travelled to China (BSPAD '性海靈見', ID A027671; Fogel 2013, p. 68)	7000265
-7000266	天龙寺	天龍寺	tiānlóngsì	Tenryūji	proper noun	寺院	Temple	佛教	Buddhism	日本	Japan	\N	\N	Head temple of the Tenryū-ji branch of the Rinzai Zen sect, located in Kyoto (BSPAD '天龍寺', PL000000057070; DDB '天龍寺'; FGDB '天龍寺'; Fogel 2013, p. 68; Wikipedia '天龍寺')	7000266
-7000267	天龙寺	天龍寺	tiānlóngsì	Tianlong Temple [Shanxi]	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Taiyuan, Shanxi (FGDB '天龍寺')	7000266
-7000268	天龙寺	天龍寺	tiānlóngsì	Tianlong Temple [Taiwan]	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Jia, Taiwan (BSPAD '天龍寺', PL000000053321)	7000266
+7000266	天龙寺	天龍寺	tiānlóngsì	Tenryūji	proper noun	寺院	Monastery	佛教	Buddhism	日本	Japan	\N	\N	Head temple of the Tenryū-ji branch of the Rinzai Zen sect, located in Kyoto (BSPAD '天龍寺', PL000000057070; DDB '天龍寺'; FGDB '天龍寺'; Fogel 2013, p. 68; Wikipedia '天龍寺')	7000266
+7000267	天龙寺	天龍寺	tiānlóngsì	Tianlong Temple [Shanxi]	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Taiyuan, Shanxi (FGDB '天龍寺')	7000266
+7000268	天龙寺	天龍寺	tiānlóngsì	Tianlong Temple [Taiwan]	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Jia, Taiwan (BSPAD '天龍寺', PL000000053321)	7000266
 7000269	杨仁山	楊仁山	Yáng Rénshān	Yang Renshan	proper noun	学者	Scholar	佛教	Buddhism	中国	China	\N	\N	1837-1911, Chinese Buddhist scholar (FGDB '楊仁山'; Hsing Yun 2016, p. 13)	7000269
 7000270	欧阳竟无	歐陽竟無	Ōuyáng Jìngwú	Ou Yangjian  / Ouyang Jingwu	proper noun	学者	Scholar	佛教	Buddhism	中国	China	\N	\N	See 歐陽漸 (FGDB '歐陽漸')	7000270
 7000271	本朝高僧传	本朝高僧傳	běncháo gāosēng  zhuàn	Honchō kōsō den	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	Title of a Japanese text compiled circa 1702 (FGDB '本朝高僧傳'; Fogel 2013, p. 68)	7000271
@@ -288,13 +288,59 @@
 7000288	雪舟等扬	雪舟等揚	xuězhōu děngyáng	Sesshū Tōyō	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 雪舟 (BSPAD '雪舟等揚', ID A021481)	7000288
 7000289	修慧	\N	xiūhuì	Xiuhui	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1908-1999 Monastic from Taiwan (FGDB '修慧')	7000289
 7000290	修慧	\N	xiūhuì	Xiuhui	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1917-2002 Monastic from Nanjing (FGDB '修慧')	7000289
-7000291	梵鱼寺	梵魚寺	fànyúsì	Beomeosa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in South Gyeongsang, Korea (FGDB '梵魚寺'; Wikipedia '梵鱼寺')	7000291
-7000292	银水寺	銀水寺	yínshuǐsì	Eunsusa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Wikipedia 'Eunsusa')	7000292
-7000293	金塘寺	\N	jīntángsì	Geumdangsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Wikipedia 'Geumdangsa')	7000293
+7000291	梵鱼寺	梵魚寺	fànyúsì	Beomeosa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in South Gyeongsang, Korea (FGDB '梵魚寺'; Wikipedia '梵鱼寺')	7000291
+7000292	银水寺	銀水寺	yínshuǐsì	Eunsusa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Wikipedia 'Eunsusa')	7000292
+7000293	金塘寺	\N	jīntángsì	Geumdangsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Wikipedia 'Geumdangsa')	7000293
 7000294	金山寺	\N	jīnshānsì	Jinshan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Former name of 江天禅寺 Jiangtian Chan Temple on the Yangtze River in the town of Zhenjiang 鎮江 (FGDB '金山寺'; Wikipedia '江天禅寺')	7000294
 7000295	金山寺	\N	jīnshānsì	Geumsansa	proper noun	寺	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (BSPAD '金山寺', PL000000048620; FGDB '金山寺'; Wikipedia 'Geumsansa')	7000294
-7000296	弥勒寺	彌勒寺	mílèsì	Mireuksa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Guoyu '彌勒寺'; Wikipedia '彌勒寺 (益山)')	7000296
-7000297	弥勒寺	彌勒寺	mílèsì	Mile Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Jiangsu (BSPAD '彌勒寺', PL000000010076)	7000296
-7000298	禅云寺	禪雲寺	chányúnsì	Seonunsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (BSPAD '禪雲寺', PL000000053376; FGDB '禪雲寺'; Wikipedia 'Seonunsa')	7000298
-7000299	实相寺	實相寺	shíxiāngsì	Shixiang Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Suzhou (BSPAD '實相寺', PL000000058068)	7000299
-7000300	实相寺	實相寺	shíxiāngsì	Silsangsa	proper noun	寺院	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Guoyu '實相寺'; Wikipedia 'Silsangsa')	7000299
+7000296	弥勒寺	彌勒寺	mílèsì	Mireuksa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Guoyu '彌勒寺'; Wikipedia '彌勒寺 (益山)')	7000296
+7000297	弥勒寺	彌勒寺	mílèsì	Mile Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Jiangsu (BSPAD '彌勒寺', PL000000010076)	7000296
+7000298	禅云寺	禪雲寺	chányúnsì	Seonunsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (BSPAD '禪雲寺', PL000000053376; FGDB '禪雲寺'; Wikipedia 'Seonunsa')	7000298
+7000299	实相寺	實相寺	shíxiāngsì	Shixiang Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Suzhou (BSPAD '實相寺', PL000000058068)	7000299
+7000300	实相寺	實相寺	shíxiāngsì	Silsangsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Guoyu '實相寺'; Wikipedia 'Silsangsa')	7000299
+7000301	巴绒噶擧派	巴絨噶擧派	bārónggéjǔ pài	’Ba’ rom bKa’ rgyu	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan school (DDB '巴絨噶擧派')	7000301
+7000302	直贡噶擧派	直貢噶擧派	zhígònggéjǔ pài	Drikung Kagyu / ’Bri gung bKa’ brgyud	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	A lineage of the Kagyu school of Tibetan Buddhism; see 直貢噶舉 (DDB '直貢噶擧派'; Wikipedia '直貢噶舉')	7000302
+7000303	直贡噶擧	直貢噶擧	zhígònggéjǔ	Drikung Kagyu / ’Bri gung bKa’ brgyud	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 直貢噶舉 (Wikipedia '直貢噶舉')	7000303
+7000304	止贡噶举	止貢噶舉	zhǐgònggéjǔ	Drikung Kagyu	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 直貢噶舉 (Wikipedia '直貢噶舉')	7000304
+7000305	颇瓦	頗瓦	pǒwǎ	Phowa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	 A Vajrayana Buddhist meditation practice (Wikipedia '頗瓦')	7000305
+7000306	三义	三義	sānyì	Sanyi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1907-1996; a monastic from Inner Mongolia (CC-CEDICT '三義')	7000306
+7000307	澈赞法王	澈贊法王	chèzàn fǎwáng	Chetsang Rinpoche	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	One of the heads of the 直貢噶舉 Drikung Kagyu lineage (Wikipedia '直貢噶舉')	7000307
+7000308	琼赞法王	瓊贊法王	qióngzàn fǎwáng	Chungtsang Rinpoche	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	One of the heads of the 直貢噶舉 Drikung Kagyu lineage (Wikipedia '直貢噶舉')	7000308
+7000309	夏仲阿旺朗杰	\N	xiàzhòngāwànglǎngjié	Ngawang Namgyal	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1594–1651; Tibetan lama (Wikipedia '夏仲阿旺朗杰')	7000309
+7000310	马耳山塔寺	馬耳山塔寺	mǎ'ěrshān tǎsì	Tapsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple located in North Jeolla, Korea (Wikipedia 'Tapsa')	7000310
+7000311	竹巴噶擧	\N	zhúbāgéjǔ	’Brug pa bKa’ brgyud	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan lineage (DDB '竹巴噶擧')	7000311
+7000312	白羊寺	\N	báiyángsì	Baegyangsa / Baekyangsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple located in South Jeolla, Korea (Wikipedia '白羊寺')	7000312
+7000313	嘉木样协巴	嘉木樣協巴	jiāmùyàngxiébā	Jamyang Zhepa / ’Jam dbyangs bzhad pa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	A Tibetan lineage (DDB '嘉木樣協巴'; Wikipedia '嘉木样活佛')	7000313
+7000314	白莲寺	白蓮寺	báiliánsì	Bailian Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Numerous temples of the same name, for example, located in Jiangsu (BSPAD '白蓮寺', PL000000014874; FGDB '白蓮寺')	7000314
+7000315	白莲寺	白蓮寺	báiliánsì	Baengnyeonsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in South Jeolla, Korea (Wikipedia 'Baengnyeonsa')	7000314
+7000316	噶擧派	\N	géjǔpài	Kagyu	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan school; see 噶舉派 (DDB '噶擧派'; Wikipedia '噶擧派')	7000316
+7000317	噶擧	\N	géjǔ	Kagyu	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan school; see 噶舉派 (DDB '噶擧派'; Wikipedia '噶擧派')	7000317
+7000318	迦尔居派	迦爾居派	jiāěrjū pài	Kagyu	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 噶舉派 (FGDB '迦爾居派')	7000318
+7000319	迦尔修派	迦爾修派	jiāěrxiū pài	Kagyu	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 噶舉派 (FGDB '迦爾居派')	7000319
+7000320	喀尔修派	喀爾修派	kāěrxiū pài	Kagyu	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	ee 噶舉派 (FGDB '迦爾居派')	7000320
+7000321	米拉日巴	\N	mǐlārìbā	Milarepa	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	See 密勒日巴 (Wikipedia '密勒日巴脫巴噶')	7000321
+7000322	密拉脱巴噶	密拉脫巴噶	mìlātuōbāgé	Mila Töbäga (Milarepa)	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 密勒日巴 (Wikipedia '密勒日巴脫巴噶')	7000322
+7000323	甘丹派	\N	gāndānpài	Kadam	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 噶當派 (FGDB '甘丹派')	7000323
+7000324	新噶当派	新噶當派	xīngédāngpài	Kadam	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 噶當派 (FGDB '甘丹派')	7000324
+7000325	噶当	噶當	gédāng	Kadam / Bkar-dgam-pa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 噶當派 (DDB '噶當')	7000325
+7000326	大兴寺	大興寺	dàxīngsì	Daeheungsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in South Jeolla, Korea (FGDB '大興寺'; Wikipedia 'Daeheungsa')	7000326
+7000327	大兴寺	大興寺	dàxīngsì	Daxing Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Daiding, Hebei (BSPAD '大興寺', PL000000002368)	7000326
+7000328	噶当新派	噶當新派	gédāng xīnpài	Kadam / Bkar-dgam-pa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 噶當派 (DDB '噶當新派')	7000328
+7000329	金塔寺	\N	jīntǎsì	Jinta Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	There are several temples with this name in each of Gansu, Shaanxi, and Jiangsu (BSPAD '金塔寺', PL000000045616; Wikipedia '金塔寺')	7000329
+7000330	金塔寺	\N	jīntǎsì	Geumtapsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in South Jeolla, Korea (FGDB '金塔寺'; Wikipedia 'Korean_Buddhist_temples')	7000329
+7000331	说假部	說假部	shuōjiàbù	Prajñaptivāda	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: prajñaptivāda, Pali: paññattivādā, Japanese: Setsukebu; Indian school, literally meaning, the Teaching of Designations (BL 'Prajñaptivāda'; DDB '說假部'; FGDB '說假部'; Wikipedia '說假部')	7000331
+7000332	钵蜡若帝婆耶那	鉢蠟若帝婆耶那	bōlàruòdìpóyénà	Prajñaptivāda	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 說假部 (FGDB '說假部')	7000332
+7000333	波罗若底婆拖	波羅若底婆拖	bōluóruòdǐpótuō	Prajñaptivāda	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 說假部 (FGDB '說假部')	7000333
+7000334	施设论部	施設論部	shīshèlùnbù	Prajñaptivāda	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 說假部 (FGDB '說假部')	7000334
+7000335	假说部	假說部	jiàshuōbù	Prajñaptivāda	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 說假部 (FGDB '說假部')	7000335
+7000336	假名部	\N	jiàmíngbù	Prajñaptivāda	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 說假部 (FGDB '說假部')	7000336
+7000337	多闻分别部	多聞分別部	duōwénfēnbiébù	Prajñaptivāda	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 說假部 (FGDB '說假部')	7000337
+7000338	华严寺	華嚴寺	huàyánsì	Hua Yan Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Datong, northern Shanxi and other locations in China (BSPAD '華嚴寺', PL000000058168; Wikipedia '华严寺')	7000338
+7000339	华严寺	華嚴寺	huàyánsì	Hwaeomsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in South Jeolla, Korea (Wikipedia '华严寺 (韩国)')	7000338
+7000340	鸡胤部	雞胤部	jīyìnbù	Kaukkuṭika / Gokulika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: kaukkuṭika, Japanese: Keiinbu;; one of the main groups of the Mahāsāṃghika Indian school of Buddhism (BL 'Kaukkuṭika'; FGDB '雞胤部'; Wikipedia '雞胤部')	7000340
+7000341	憍矩胝部	\N	jiāojǔzhībù	Kaukkuṭika / Gokulika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 雞胤部 (FGDB '雞胤部')	7000341
+7000342	高拘梨诃部	高拘梨訶部	gāojūlíhēbù	Kaukkuṭika / Gokulika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 雞胤部 (FGDB '雞胤部')	7000342
+7000343	拘拘罗部	拘拘羅部	jūjūluóbù	Kaukkuṭika / Gokulika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 雞胤部 (FGDB '雞胤部')	7000343
+7000344	究究罗部	究究羅部	jiūjiūluóbù	Kaukkuṭika / Gokulika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 雞胤部 (FGDB '雞胤部')	7000344
+7000345	窟居部	\N	kūjūbù	Kaukkuṭika / Gokulika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 雞胤部 (FGDB '雞胤部')	7000345
+7000346	灰山住部	\N	huīshānzhùbù	Kaukkuṭika / Gokulika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 雞胤部 (FGDB '雞胤部')	7000346
