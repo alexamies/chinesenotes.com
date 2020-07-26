@@ -48,6 +48,7 @@ export class TranslationMemory {
       (event: Event) => {
         event.preventDefault();
         if (findInput && findInput instanceof HTMLInputElement) {
+          const query = findInput.value;
           let urlString = "/findtm?query=" + findInput.value;
           if (lookupTopic && lookupTopic instanceof HTMLInputElement) {
             const domain = lookupTopic.value;
@@ -55,7 +56,7 @@ export class TranslationMemory {
               urlString += "&domain=" + domain;
             }
           }
-          this.makeRequest(urlString);
+          this.makeRequest(urlString, query);
         } else {
           console.log(`Unexpected error for ${findInput}`);
         }
@@ -67,15 +68,16 @@ export class TranslationMemory {
   /**
    * Send an AJAX request
    * @param {string} url - The URL to send the request to
+   * @param {string} query - The query string, for later highlighting
    */
-  private makeRequest(urlString: string) {
+  private makeRequest(urlString: string, query: string) {
     console.log(`makeRequest: urlString: ${urlString}`);
     this.view.showMessage("Searching ...");
     ajax.getJSON(urlString).pipe(
       map(
         (data) => {
           const words = TMRestultsParser.parse(data);
-          this.view.showResults(words);
+          this.view.showResults(words, query);
         }),
       catchError(
         (error) => {
@@ -87,7 +89,7 @@ export class TranslationMemory {
           retriable.subscribe(
             (data1) => {
           const words = TMRestultsParser.parse(data1);
-          this.view.showResults(words);
+          this.view.showResults(words, query);
             },
             (err) => {
               console.log(`makeRequest, failed after retries: ${err}`);

@@ -60,7 +60,7 @@ export class TranslationMemoryView {
    * Display term lookup results in the HTML document
    * @param {IWordSense[]} termsFound - the terms to display
    */
-  public showResults(words: IDictEntry[]) {
+  public showResults(words: IDictEntry[], query: string) {
     console.log("showResults: detailed results");
     const qList = document.getElementById("queryTermsList");
     if (qList) {
@@ -76,7 +76,7 @@ export class TranslationMemoryView {
       console.log(`showResults: Query has ${words.length} words`);
       for (const word of words) {
         if (qList) {
-          this.addTermToList(word, qList);
+          this.addTermToList(word, qList, query);
         }
       }
     } else {
@@ -134,7 +134,7 @@ export class TranslationMemoryView {
    * @param {IWordSense} word is a word object
    * @param {HTMLElement} qList - the word list
    */
-  private addTermToList(entry: IDictEntry, qList: HTMLElement) {
+  private addTermToList(entry: IDictEntry, qList: HTMLElement, query: string) {
     console.log(`addTermToList.addTermToList entry: ${entry.Simplified}`);
     const li = document.createElement("li");
     li.className = "mdc-list-item";
@@ -148,16 +148,18 @@ export class TranslationMemoryView {
     if (entry.Traditional) {
       chinese += " (" + entry.Traditional + ")";
     }
-    const tNode1 = document.createTextNode(chinese);
+    const chineseSpan = this.highlightedSpan(chinese, query);
+    spanL1.appendChild(chineseSpan);
+    const tNode1 = document.createTextNode(" [Details]");
     const pinyin = entry.Pinyin;
     // Add link to word detail page
     const hwId = entry.HeadwordId;
     const wordURL = "/words/" + entry.HeadwordId + ".html";
     const a = document.createElement("a");
     a.setAttribute("href", wordURL);
-    a.setAttribute("title", "Details for word");
+    a.setAttribute("title", "Details for " + chinese);
     a.setAttribute("class", "query-term");
-    a.appendChild(tNode1);
+    a.appendChild(chineseSpan);
     spanL1.appendChild(a);
     span.appendChild(spanL1);
     // Secondary text is the Pinyin, English equivalent, and notes
@@ -241,6 +243,50 @@ export class TranslationMemoryView {
     const tn2 = document.createTextNode("]");
     englishSpan.appendChild(tn2);
     return englishSpan;
+  }
+
+  // Create a span with characters matching the query highlighted
+  private highlightedSpan(chinese: string, query: string): HTMLElement {
+    const span = document.createElement("span");
+    let hl = "";
+    let nohl = "";
+    for (const ch of chinese) {
+      if (query.includes(ch)) {
+        hl += ch;
+        if (nohl.length === 0) {
+          continue;
+        }
+        const noHLSpan = document.createElement("span");
+        const tNode = document.createTextNode(nohl);
+        noHLSpan.appendChild(tNode);
+        span.appendChild(noHLSpan);
+        nohl = "";
+        continue;
+      }
+      nohl += ch;
+      if (hl.length === 0) {
+        continue;
+      }
+      const hLSpan = document.createElement("span");
+      hLSpan.setAttribute("class", "usage-highlight");
+      const tn = document.createTextNode(hl);
+      hLSpan.appendChild(tn);
+      span.appendChild(hLSpan);
+      hl = "";
+    }
+    if (nohl.length > 0) {
+      const noHLSpan = document.createElement("span");
+      const tn = document.createTextNode(nohl);
+      noHLSpan.appendChild(tn);
+      span.appendChild(noHLSpan);
+    }
+    if (hl.length > 0) {
+      const hLSpan = document.createElement("span");
+      const tn = document.createTextNode(hl);
+      hLSpan.appendChild(tn);
+      span.appendChild(hLSpan);
+    }
+    return span;
   }
 
 }
