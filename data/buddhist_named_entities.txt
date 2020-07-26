@@ -395,3 +395,17 @@
 7000395	白居寺	\N	báijūsì	Palcho Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Located in China (Wikipedia '白居寺')	7000395
 7000396	云住寺	雲住寺	yúnzhùsì	Yakcheonsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in South Jeolla, Korea (Wikipedia 'Korean_Buddhist_temples')	7000396
 7000397	药泉寺	藥泉寺	yàoquánsì	Yakcheonsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Located in Jeju Island, Korea (Wikipedia 'Korean_Buddhist_temples')	7000397
+7000398	根敦珠巴	\N	gēndūn zhūbā	Gendün Drup	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1391–1474; The first Dalai Lama 第一世达赖喇嘛 (BL 'Dalai Lama'; FGDB '根敦珠巴'; Wikipedia '第一世达赖喇嘛')	7000398
+7000399	第一世达赖喇嘛	第一世達賴喇嘛	dìyī shì dálài lǎma	First Dalai Lama (Gendün Drup)	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 根敦珠巴 (Wikipedia '第一世达赖喇嘛')	7000399
+7000400	第三世达赖喇嘛	第三世達賴喇嘛	dìsān shì dálài lǎma	Third Dalai Lama (Sönam Gyatso)	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 索諾木嘉穆錯 (BL 'Sönam Gyatso'; Wikipedia '第三世達賴喇嘛')	7000400
+7000401	索南嘉措	\N	suǒnán jiācuò	Sönam Gyatso	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 索諾木嘉穆錯 (Wikipedia '第三世达赖喇嘛')	7000401
+7000402	锁南坚措	鎖南堅措	suǒnán jiāncuò	Sönam Gyatso	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 索諾木嘉穆錯 (Wikipedia '第三世达赖喇嘛')	7000402
+7000403	索诺木嘉穆错	索諾木嘉穆錯	suǒnuòmù jiāmùcuò	Sönam Gyatso	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	1543-1588; Tibetan: Bsod nams rgya mtsho; the Third Dalai Lama 第三世達賴喇嘛 (BL 'Bsod nams rgya mtsho'; FGDB '索諾木嘉穆錯'; Wikipedia '第三世达赖喇嘛')	7000403
+7000404	琐朗嘉穆错	瑣朗嘉穆錯	suǒlǎng jiāmùcuò	Sönam Gyatso	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 索諾木嘉穆錯 (FGDB '索諾木嘉穆錯')	7000404
+7000405	札什伦布寺	札什倫布寺	zháshénlúnbù sì	Tashi Lhunpo Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Located in Shigatse, established in 1447 by the First Dalai Lama (FGDB '札什倫布寺'; Wikipedia '扎什伦布寺')	7000405
+7000406	秘密道次第论	祕密道次第論	mìmìdàocìdìlùn	Ngak rim chenmo / Great Exposition of the Stages of Mantra	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan: Sngags rim chen mo; esoteric text composed by Tsongkhapa 1357–1419 (BL 'Sngags rim chen mo'; FGDB '祕密道次第論'; Wikipedia '密宗道次第廣論')	7000406
+7000407	秘密道次第广论	祕密道次第廣論	mìmì dào cìdì guǎnglùn	Ngak rim chenmo / Great Exposition of the Stages of Mantra	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 祕密道次第論 (Wikipedia '祕密道次第廣論')	7000407
+7000408	普遍大金刚持道次第	普遍大金剛持道次第	pǔbiàn dà jīngāng chí dào cìdì	Ngak rim chenmo / Great Exposition of the Stages of Mantra	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 祕密道次第論 (FGDB '祕密道次第論')	7000408
+7000409	一切秘密精要开显	一切祕密精要開顯	yīqiè mìmì jīngyào kāixiǎn	Ngak rim chenmo / Great Exposition of the Stages of Mantra	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 祕密道次第論 (FGDB '祕密道次第論')	7000409
+7000410	祖古	\N	zǔgǔ	sprul sku / tulku	noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	(BL 'sprul sku', p. 847; Wikipedia '祖古')	7000410
+7000411	桑顶多吉帕姆活佛	桑頂多吉帕姆活佛	sāngdǐng duōjí pàmǔ huófó	Samding Dorje Phagmo	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	A lineage of incarnations in Tibetan Buddhism (Wikipedia '桑顶·多吉帕姆活佛')	7000411
