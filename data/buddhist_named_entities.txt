@@ -409,3 +409,34 @@
 7000409	一切秘密精要开显	一切祕密精要開顯	yīqiè mìmì jīngyào kāixiǎn	Ngak rim chenmo / Great Exposition of the Stages of Mantra	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 祕密道次第論 (FGDB '祕密道次第論')	7000409
 7000410	祖古	\N	zǔgǔ	sprul sku / tulku	noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	(BL 'sprul sku', p. 847; Wikipedia '祖古')	7000410
 7000411	桑顶多吉帕姆活佛	桑頂多吉帕姆活佛	sāngdǐng duōjí pàmǔ huófó	Samding Dorje Phagmo	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	A lineage of incarnations in Tibetan Buddhism (Wikipedia '桑顶·多吉帕姆活佛')	7000411
+7000412	优昙	優曇	yōután	Youtan	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1908-1993 Chinese monastic (FGDB '優曇')	7000412
+7000413	妙理	\N	miào lǐ	Miaoli	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1879-1954; Chinese monastic (FGDB '妙理')	7000413
+7000414	融通	\N	róngtōng	Rongtong	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1866-1928 Chinese monastic from Wuyi, Jiangsu (FGDB '融通')	7000414
+7000415	佛化	\N	fóhuà	Fohua	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1834-1913 Chinese monastic from Fujian (FGDB '佛化')	7000415
+7000416	圆瑛	圓瑛	yuányīng	Yuan Ying	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1878-1953 Buddhist monastic (FGDB '圓瑛'; Wikipedia '釋圓瑛')	7000416
+7000417	苏曼殊	蘇曼殊	Sūmànshū	Su Manshu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1884-1918 Chinese writer, journalist, Buddhist monk, participant in the revolutionary movement (FGDB '蘇曼殊')	7000417
+7000418	一觉	一覺	yī jué	Yi Jue	proper noun	法师	Monastic	佛教	Buddhism	Chinese Buddhism	\N	\N	\N	1917-1982, Chinese Monastic (FGDB '一覺')	7000418
+7000419	义存	義存	yìcún	Yicun	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1884-1947, Chinese monastic from Taiwan (FGDB '義存' 2)	7000419
+7000420	华山	華山	huàshān	Huashan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1870-1918, Chinese monastic (FGDB '華山')	7000420
+7000421	杨文会	楊文會	yáng wénhuì	Yang Wenhui	proper noun	学者	Scholar	佛教	Buddhism	\N	\N	\N	\N	1837-1911; Chinese Buddhist scholar; see 楊仁山 (FGDB '楊文會')	7000421
+7000422	道阶	道階	dàojiē	Daojie	proper noun	法師	Monastic	佛教	Buddhism	中国	China	\N	\N	1866-1932, Chinese monastic, influential figure in the early Republican China (FGDB '道階')	7000422
+7000423	栖云	棲雲	qīyún	Qiyun	proper noun	法師	Monastic	佛教	Buddhism	\N	\N	\N	\N	Chinese revolutionary monk (Anarchy in the Pure Land. Reinventing the Cult of Maitreya in Modern Chinese Buddhism, Justin Ritzinger, 2017)	7000423
+7000424	谛闲	諦閑	dìxián	Dixian	proper noun	法師	Monastic	佛教	Buddhism	\N	\N	\N	\N	1858-1932; Chinese monastic (FGDB '諦閑')	7000424
+7000425	度厄	\N	dùè	Du'e	proper noun	法師	Monastic	佛教	Buddhism	\N	\N	\N	\N	(民國高僧傳續編, p.348)	7000425
+7000426	中国佛教会	中國佛教會	zhōngguó fójiāohuì	Buddhist Association of the Republic of China	proper noun	\N	\N	佛教	Buddhism	台灣	Taiwan	\N	\N	Established in 1911 and known as 中華佛教總會. Its name was changed to 中國佛教協會 in 1928, and then to 中國佛教會 in 1929. Relocated to Taiwan in 1949. Abbreviated BAROC (FGDB '中國佛教會'; Wikipedia '中國佛教會').	7000426
+7000427	中华佛教总会	中華佛教總會	zhōnghuà fójiāo zǒnghuì	Chinese General Buddhist Association	proper noun	\N	\N	历史	History	辛亥革命時期	Chinese Revolution Period	\N	\N	Established in 1911 at Beijing, China. See 中國佛教會 (FGDB '中國佛教會'').	7000427
+7000428	中国佛教协会	中國佛教協會	zhōngguó fójiāo xiéhuì	Chinese Buddhist Association	proper noun	\N	\N	历史	History	國共內戰時期	Chinese Civil War Period	\N	\N	Former name 中華佛教總會. See 中國佛教會  (Modern Chinese Religion II: 1850 - 2015, Vincent Goossaert, p. 750; Wikipedia '中国佛教协会')	7000428
+7000429	中国佛教协会	中國佛教協會	zhōngguó fójiāo xiéhuì	Buddhist Association of China	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	Established in 1953. (Wikipedia '中國佛教協會')	7000429
+7000430	佛教协进会	佛教協進會	fójiāo xiéjìnhuì	Association for the Advancement of Buddhism	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	Established in January 1912 by Taixu at Pilu Temple 毘盧寺 in Nanjing.  (Modern Chinese Religion II: 1850 - 2015, Vincent Goossaert, p. 750)	7000430
+7000431	李翊灼	\N	lǐyìzhuó	Li Yizhuo	proper noun	学者	Scholar	佛教	Buddhism	中国	China	\N	\N	1881-1952; Established the Chinese Buddhist Association with Ouyang Jian. (Modern Chinese Religion II: 1850 - 2015, Vincent Goossaert, p. 750)	7000431
+7000432	玄光	\N	xuánguāng	Xuanguang	proper noun	法師	Monastic	佛教	Buddhism	台灣	Taiwan	\N	\N	1903-1997 (FGDB '靜修禪院'; 《海潮音雜誌》七十八卷十期，八十六年十月)	7000432
+7000433	达心	達心	dáxīn	Daxin	proper noun	法師	Monastic	佛教	Buddhism	台灣	Taiwan	\N	\N	1898-1956, (FGDB '靜修禪院')	7000433
+7000434	静修禅院	靜修禪院	jìngxiū chányuàn	Jingxiu Chan Monastery	proper noun	寺	Temple 	佛教	Buddhism	台灣	Taiwan	\N	\N	Established in 1911 by 蘇爾民 (FGDB '靜修禪院')	7000434
+7000435	弥勒内院	彌勒內院	mílēinèi yuàn	Maitreya Inner Hall	proper noun	寺	Temple 	佛教	Buddhism	台灣	Taiwan	\N	\N	Established by Cihang (Buddhism in Taiwan: Religion and the State, 1660-1990, Charles Brewer Jones, p.109)	7000435
+7000436	我法倶有宗	\N	wǒfǎjùyǒuzōng	Vātsīputrīya school	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 犢子部 (SH '我法倶有宗', p. 238)	7000436
+7000437	江浙佛教联合会	江浙佛教聯合會	jiāngzhè fójiāo liánhéhuì	United Buddhist Association of Jiangsu and Zhejiang	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	Established in 1928 (Making Saints in Modern China, David Ownby, p.31)	7000437
+7000438	上海佛教协会	上海佛教協會	shànghǎi fójiāo xiéhuì	Shanghai Buddhist Association	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	(The Cultural Practices of Modern Chinese Buddhism: Attuning the Dharma, Francesca Tarocco, p.132)	7000438
+7000439	上海佛教净业社	上海佛教淨業社	shànghǎi fójiāo jìngyèshè	Shanghai Buddhist Pure Karma Society	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	Established in 1922 (Religion in China and Its Modern Fate, Paul R. Katz, p.125)	7000439
+7000440	中国佛学院	中國佛學院	zhōngguó fóxuéyuàn	Buddhist Academy of China	proper noun	學院	Institute	佛教	Buddhism	中国	China	\N	\N	Established in 1956 at Fayuan Temple 法源寺 in Beijing. http://www.zgfxy.cn (Wikipedia '中國佛學院')	7000440
+7000441	中国藏语系高级佛学院	中國藏語系高級佛學院	zhōngguó cángyǔxì gāojí fóxuéyuàn	High-level Tibetan Buddhism College of China	proper noun	學院	Institute	佛教	Buddhism	中国	China	\N	\N	Established in September 1, 1987 at Lhakang Sêrbo 西黃寺 in Beijing (FGDB '中國藏語系高級佛學院'; http://zyxgjfxy.cn)	7000441
+7000442	日本佛教传道协会	日本佛教傳道協會	rìběn fójiāo chuándào xiéhuì	Bukkyō Dendō Kyōkai (The Society for the Promotion of Buddhism)	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	Established in 1965 in Japan by the late Rev. Dr. Yehan Numata (FGDB '日本佛教傳道協會')	7000442

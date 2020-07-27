@@ -5946,3 +5946,12 @@
 6005946	王国维	王國維	Wáng Guówéi	Wang Guowei	proper noun	学者	Scholar	历史	History	中国	China	\N	\N	1877-1927 (CC-CEDICT '王國維')	6005946
 6005947	吕碧城	呂碧城	lǚ bìchéng	Lü Bicheng	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1883-1943; female writer and activist from Taiyuan, Shanxi (FGDB '呂碧城'; Wikipedia '呂碧城')	6005947
 6005948	戴季陶	\N	dài jìtáo	Dai Jitao / Tai Chi-t'ao	proper noun	政治家	Politician	历史	History	中国	China	\N	\N	1891–1949; Important political figure in the Republic of China (Wikipedia '戴季陶')	6005948
+6005949	金天翮	\N	jīn tiānhé	Jin Tianhe	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1873-1947; Known for the novel 孽海花 <i>A Flower in a Sinful Sea</i> (Wikipedia '金天翮')	6005949
+6005950	孽海花	\N	niè hǎi huā	A Flower in a Sinful Sea	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	A novel by 金天翮 Jin Tianhe 1873-1947 (Wikipedia '孽海花')	6005950
+6005951	彭涛	彭濤	péng tāo	Peng Tao	proper noun	人	Person	历史	History	中国	China	\N	\N	1913-1961; Communist figure from Jiangxi (Wikipedia '彭濤')	6005951
+6005952	李德	\N	lǐdé	Otto Braun	proper noun	人	Person	历史	History	\N	\N	\N	\N	1900-1974 Comintern adviser to the Chinese communist party 1932-1939 (CC-CEDICT '李德')	6005952
+6005953	王力	\N	wánglì	Wang Li	proper noun	人	Person	语言学	Linguistics	\N	\N	\N	\N	1900-1986; one of the pioneers of modern Chinese linguistics (CC-CEDICT '王力')	6005953
+6005954	国民政府	國民政府	guómín zhèngfǔ	Nationalist government	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the 1920s-1949 under Chiang Kai-shek 蒋介石 (CC-CEDICT '國民政府')	6005954
+6005955	金庸	\N	jīnyōng	Jin Yong / Louis Cha	proper noun	作者	Writer	文学	Literature	中国	China	\N	\N	(1924-), famous Wuxia writer, author of 1957-1961 Condor Hero trilogy (CC-CEDICT '金庸')	6005955
+6005956	马勒	馬勒	mǎlēi	Mahler	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	A name, may refer to Gustav Mahler 1860-1911; Austrian composer (CC-CEDICT '馬勒')	6005956
+6005957	铁幕	鐵幕	tiěmù	Iron Curtain	proper noun	\N	\N	历史	History	\N	\N	\N	\N	1945-1991; in Taiwan, 鐵幕 was used to refer to both the Iron Curtain and the Bamboo Curtain (CC-CEDICT '鐵幕')	6005957

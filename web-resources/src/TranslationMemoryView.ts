@@ -150,7 +150,6 @@ export class TranslationMemoryView {
     }
     const chineseSpan = this.highlightedSpan(chinese, query);
     spanL1.appendChild(chineseSpan);
-    const tNode1 = document.createTextNode(" [Details]");
     const pinyin = entry.Pinyin;
     // Add link to word detail page
     const hwId = entry.HeadwordId;

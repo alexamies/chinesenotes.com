@@ -419,7 +419,7 @@ docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
 Or use Cloud Build
 
 ```shell
-export BUILD_ID=r152
+export BUILD_ID=r153
 gcloud builds submit --config cloudbuild.yaml . \
   --substitutions=_IMAGE_TAG="$BUILD_ID"
 ```
