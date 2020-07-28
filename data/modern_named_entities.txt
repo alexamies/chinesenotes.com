@@ -5955,3 +5955,18 @@
 6005955	金庸	\N	jīnyōng	Jin Yong / Louis Cha	proper noun	作者	Writer	文学	Literature	中国	China	\N	\N	(1924-), famous Wuxia writer, author of 1957-1961 Condor Hero trilogy (CC-CEDICT '金庸')	6005955
 6005956	马勒	馬勒	mǎlēi	Mahler	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	A name, may refer to Gustav Mahler 1860-1911; Austrian composer (CC-CEDICT '馬勒')	6005956
 6005957	铁幕	鐵幕	tiěmù	Iron Curtain	proper noun	\N	\N	历史	History	\N	\N	\N	\N	1945-1991; in Taiwan, 鐵幕 was used to refer to both the Iron Curtain and the Bamboo Curtain (CC-CEDICT '鐵幕')	6005957
+6005958	瞿秋白	\N	jùqiūbái	Qu Qiubai	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	1899-1935; Chinese politician (Wikipedia '瞿秋白')	6005958
+6005959	中国哲学史	中國哲學史	zhōngguó zhéxuéshǐ	History of Chinese Philosophy	proper noun	書	Book	历史	History	中国	China	\N	\N	(WorldCat '中国哲学史')	6005959
+6005960	胡适文集	胡適文集	húshì wénjí	Selected Works of Hu Shih / Collected Works of Hu Shi	proper noun	書	Book	历史	History	中国	China	\N	\N	By 胡适 1891-1962 (Wikipedia '胡適')	6005960
+6005961	胡适全集	胡適全集	húshì quánjí	Complete Works of Hu Shih	proper noun	書	Book	历史	History	中国	China	\N	\N	(Wikipedia '胡適')	6005961
+6005962	陈独秀选集	陳獨秀選集	chén dúxiù xuǎnjí	Selected Works of Chen Duxiu	proper noun	書	Book	政治	Politics	中国	China	\N	\N	(Wikipedia '陈独秀')	6005962
+6005963	瞿秋白选集	瞿秋白選集	jù qiūbái xuǎnjí	Selected Works of Qu Qiubai	proper noun	書	Book	政治	Politics	中国	China	\N	\N	(Wikipedia '瞿秋白')	6005963
+6005964	毛泽东选集	毛澤東選集	máo zédōng xuǎnjí	Selected Works of Mao Zedong	proper noun	書	Book	政治	Politics	中国	China	\N	\N	(Wikipedia '毛泽东')	6005964
+6005965	周建人	\N	zhōu jiànrén	Zhou Jianren	proper noun	\N	\N	政治	Politics	中国	China	人	Person	1888-1984, Chinese politician (Wikipedia '周建人')	6005965
+6005966	南斯拉夫	\N	nánsīlāfū	Yugoslavia	proper noun	国家	Country	历史	History	\N	\N	\N	\N	1943-1992 (CC-CEDICT '南斯拉夫')	6005966
+6005967	冰心	\N	bīngxīn	Bing Xin	proper noun	作者	Writer	文学	Literature	中国	China	\N	\N	1900-1999; Female Poet And Children'S Writer (CC-CEDICT '冰心')	6005967
+6005968	红卫兵	紅衛兵	hóng wèibīng	Red Guards	proper noun	\N	\N	历史	History	中国	China	\N	\N	During the Cultural Revolution, 1966-1976 (CC-CEDICT '紅衛兵')	6005968
+6005969	白色恐怖	\N	báisè kǒngbù	White Terror	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	1947-1987; period of suppression of dissent in Taiwan (CC-CEDICT '白色恐怖'; Wikipedia '臺灣白色恐怖時期')	6005969
+6005970	博古	\N	bógǔ	Bo Gu	noun	人	Person	历史	History	中国	China	\N	\N	1907-1946; Soviet-trained Chinese Communist, journalist and propagandist, 1930s Left adventurist, subsequently rehabilitated, killed in air crash (CC-CEDICT '博古')	6005970
+6005971	居礼夫人	居禮夫人	jūlǐfūrén	Maria Skłodowska-Curie / Marie Curie	proper noun	\N	\N	现代汉语	Modern Chinese	物理	Physics	\N	\N	1867-1934; double Nobel prize-winner in Physics 1903 and Chemistry 1911 (CC-CEDICT '居禮夫人')	6005971
+6005972	李天禄	李天祿	lǐtiānlù	Li Tianlu	proper noun	人	Person	现代汉语	Modern Chinese	表演艺术	Performing Arts	\N	\N	1910-1998; Taiwanese master puppeteer (CC-CEDICT '李天祿')	6005972

@@ -440,3 +440,7 @@
 7000440	中国佛学院	中國佛學院	zhōngguó fóxuéyuàn	Buddhist Academy of China	proper noun	學院	Institute	佛教	Buddhism	中国	China	\N	\N	Established in 1956 at Fayuan Temple 法源寺 in Beijing. http://www.zgfxy.cn (Wikipedia '中國佛學院')	7000440
 7000441	中国藏语系高级佛学院	中國藏語系高級佛學院	zhōngguó cángyǔxì gāojí fóxuéyuàn	High-level Tibetan Buddhism College of China	proper noun	學院	Institute	佛教	Buddhism	中国	China	\N	\N	Established in September 1, 1987 at Lhakang Sêrbo 西黃寺 in Beijing (FGDB '中國藏語系高級佛學院'; http://zyxgjfxy.cn)	7000441
 7000442	日本佛教传道协会	日本佛教傳道協會	rìběn fójiāo chuándào xiéhuì	Bukkyō Dendō Kyōkai (The Society for the Promotion of Buddhism)	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	Established in 1965 in Japan by the late Rev. Dr. Yehan Numata (FGDB '日本佛教傳道協會')	7000442
+7000443	日本佛教大学	日本佛教大學	rìběn fójiāo dàxué	Bukkyo University	proper noun	大学	University 	佛教	Buddhism	日本	Japan	\N	\N	Private university in Kyoto, Japan (Wikipedia '佛教大学')	7000443
+7000444	末奴是若飒缚罗	末奴是若颯縛羅	mònúshìruòsàfúluó	Manojñasvara	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanwkrit equivalent: manojñasvara; king of the gandharvas(SH '末奴是若颯縛羅', p. 191)	7000444
+7000445	伴陀罗缚子尼	伴陀羅縛子尼	bàntuóluófúzǐní	Pāṇḍaravāsinī / White Robed Guanyin	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Pāṇḍaravāsinī, Japanese: Byakue kannon (BL 'Baiyi Guanyin', p. 93; SH '伴陀羅縛子尼', p. 223)	7000445
+7000446	陀缚尼	陀縛尼	tuófúní	Pāṇḍaravāsinī	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 伴陀羅縛子尼 (SH '伴陀羅縛子尼', p. 223)	7000446
