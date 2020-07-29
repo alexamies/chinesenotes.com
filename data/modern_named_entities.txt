@@ -5970,3 +5970,7 @@
 6005970	博古	\N	bógǔ	Bo Gu	noun	人	Person	历史	History	中国	China	\N	\N	1907-1946; Soviet-trained Chinese Communist, journalist and propagandist, 1930s Left adventurist, subsequently rehabilitated, killed in air crash (CC-CEDICT '博古')	6005970
 6005971	居礼夫人	居禮夫人	jūlǐfūrén	Maria Skłodowska-Curie / Marie Curie	proper noun	\N	\N	现代汉语	Modern Chinese	物理	Physics	\N	\N	1867-1934; double Nobel prize-winner in Physics 1903 and Chemistry 1911 (CC-CEDICT '居禮夫人')	6005971
 6005972	李天禄	李天祿	lǐtiānlù	Li Tianlu	proper noun	人	Person	现代汉语	Modern Chinese	表演艺术	Performing Arts	\N	\N	1910-1998; Taiwanese master puppeteer (CC-CEDICT '李天祿')	6005972
+6005973	布托	\N	bùtuō	Bhutto	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	May refer to Zulfikar Ali Bhutto 1928-1979, president of Pakistan or Benazzir Bhutto 1953-2007, twice president of Pakistan (CC-CEDICT '布托')	6005973
+6005974	韦利	韋利	wéilì	Waley / Whaley	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	May refer to Arthur Waley 1889-1966, pioneer British sinologist (CC-CEDICT '韋利')	6005974
+6005975	伊藤博文	\N	yīténgbówén	Itō Hirobumi	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1841-1909; Japanese Meiji restoration politician, prime minister on four occasions, influential in Japanese expansionism in Korea, assassinated in Harbin (CC-CEDICT '伊藤博文')	6005975
+6005976	尼赫鲁	尼赫魯	níhèlǔ	Nehru	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	Jawaharlal Nehru 1889-1964 Indian politician, first prime minister 1947-1964 (CC-CEDICT '尼赫魯')	6005976

@@ -444,3 +444,8 @@
 7000444	末奴是若飒缚罗	末奴是若颯縛羅	mònúshìruòsàfúluó	Manojñasvara	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanwkrit equivalent: manojñasvara; king of the gandharvas(SH '末奴是若颯縛羅', p. 191)	7000444
 7000445	伴陀罗缚子尼	伴陀羅縛子尼	bàntuóluófúzǐní	Pāṇḍaravāsinī / White Robed Guanyin	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Pāṇḍaravāsinī, Japanese: Byakue kannon (BL 'Baiyi Guanyin', p. 93; SH '伴陀羅縛子尼', p. 223)	7000445
 7000446	陀缚尼	陀縛尼	tuófúní	Pāṇḍaravāsinī	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 伴陀羅縛子尼 (SH '伴陀羅縛子尼', p. 223)	7000446
+7000447	思益	思益	sīyì	Brahmaviśeṣacintīparipṛcchā [Sūtra]	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	See 思益梵天所問經 (FGDB '思益梵天所問經')	7000447
+7000448	金光明经	金光明經	Jīn Guāngmíng 	Suvarṇaprabhāsauttamarāja [sūtra] / Golden Light [Sūtra]	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 金光明經 (FGDB '金光明經')	7000448
+7000449	摩诃般若经	摩訶般若經	móhēbōrě jīng	Mahāprajñā Sūtra	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	(FGDB '摩訶般若經'; SH '摩般若經', p. 339)	7000449
+7000450	光赞般若	光讚般若	guāngzàn bōrě	Guang Zan Bore [sūtra]	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 光讚般若波羅蜜經 (FGDB '光讚般若波羅蜜經')	7000450
+7000451	大品般若	大品般若	Dà Pǐn Bōruò	Dapin Bore [Sutra]	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	See 大品般若經 (FGDB '大品般若經'; SH '大品般若經', p. 86)	7000451
