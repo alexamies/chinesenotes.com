@@ -178,4 +178,5 @@
 5000178	奔三	\N	bēnsān	to be pushing 30 years old	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '奔三')	5000178
 5000179	港警	\N	gǎng jǐng	Hong Kong police	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '港警')	5000179
 5000180	港警	\N	gǎng jǐng	port police	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '港警')	5000179
-5000181	平津	\N	píng jīn	Beiping and Tianjin	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '平津')	5000181
+5000181	平津	\N	píng jīn	Beiping and Tianjin	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '平津')	5000181
+5000182	清政府	\N	qīng zhèngfǔ	Qing government	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1644-1911 (CC-CEDICT '清政府')	5000182

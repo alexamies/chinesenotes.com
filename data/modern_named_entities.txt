@@ -5974,3 +5974,13 @@
 6005974	韦利	韋利	wéilì	Waley / Whaley	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	May refer to Arthur Waley 1889-1966, pioneer British sinologist (CC-CEDICT '韋利')	6005974
 6005975	伊藤博文	\N	yīténgbówén	Itō Hirobumi	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1841-1909; Japanese Meiji restoration politician, prime minister on four occasions, influential in Japanese expansionism in Korea, assassinated in Harbin (CC-CEDICT '伊藤博文')	6005975
 6005976	尼赫鲁	尼赫魯	níhèlǔ	Nehru	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	Jawaharlal Nehru 1889-1964 Indian politician, first prime minister 1947-1964 (CC-CEDICT '尼赫魯')	6005976
+6005977	茅盾	\N	máo dùn	Mao Dun	proper noun	作者	Writer	文学	Literature	中国	China	\N	\N	1896-1981; Chinese novelist (CC-CEDICT '茅盾')	6005977
+6005978	詹天佑	\N	zhān tiānyòu	Zhan Tianyou	proper noun	人	Person	历史	History	中国	China	\N	\N	1861-1919; Chinese railroad engineer (CC-CEDICT '詹天佑')	6005978
+6005979	昂山	\N	ángshān	Aung San	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1915-1947; Burmese general and politician, hero of Myanmar independence movement and father of Aung San Su Kyi 昂山素季 (CC-CEDICT '昂山')	6005979
+6005980	昂山素季	\N	ángshānsùjì	Aung San Suu Kyi	proper noun	人	Person	政治	Politics	亚洲	Asia	\N	\N	1945-; Myanmar opposition leader and 1991 Nobel Peace laureate (CC-CEDICT '昂山素季'; Guoyu '昂山素季'; Wikipedia '昂山素季')	6005980
+6005981	方毅	\N	fāngyì	Fang Yi	proper noun	人	Person	历史	History	中国	China	\N	\N	1916-1997; senior party apparatchik (CC-CEDICT '方毅')	6005981
+6005982	秦土协定	秦土協定	qín tǔ xiédìng	Chin–Doihara Agreement	proper noun	\N	\N	历史	History	中国	China	\N	\N	Signed between China and Japan on 27 June 1935 (Wikipedia '秦土協定')	6005982
+6005983	王震	\N	wángzhèn	Wang Zhen	proper noun	人	Person	历史	History	中国	China	\N	\N	1908-1993; Chinese Political Figure (CC-CEDICT '王震')	6005983
+6005984	宋哲元	\N	sòng zhéyuán	Song Zheyuan	proper noun	人	Person	历史	History	中国	China	\N	\N	1885-1940; Chinese general (Wikipedia '宋哲元')	6005984
+6005985	冀察政务委员会	冀察政務委員會	jì chá zhèngwù wěiyuánhuì	Hebei–Chahar Political Council	proper noun	\N	\N	历史	History	中国	China	\N	\N	Established in Beijing under Song Zheyuan in 1935 (Wikipedia '冀察政务委员会')	6005985
+6005986	宪兵队	憲兵隊	xiànbīngduì	the Kempeitai or Japanese Military Police	proper noun	\N	\N	历史	History	日本	Japan	\N	\N	 1881-1945; Japanese counterpart of the Gestapo during WWII (CC-CEDICT '憲兵隊')	6005986

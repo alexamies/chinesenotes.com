@@ -449,3 +449,6 @@
 7000449	摩诃般若经	摩訶般若經	móhēbōrě jīng	Mahāprajñā Sūtra	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	(FGDB '摩訶般若經'; SH '摩般若經', p. 339)	7000449
 7000450	光赞般若	光讚般若	guāngzàn bōrě	Guang Zan Bore [sūtra]	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 光讚般若波羅蜜經 (FGDB '光讚般若波羅蜜經')	7000450
 7000451	大品般若	大品般若	Dà Pǐn Bōruò	Dapin Bore [Sutra]	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	See 大品般若經 (FGDB '大品般若經'; SH '大品般若經', p. 86)	7000451
+7000452	法舫	\N	fǎfǎng	Fa Fang	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1904-1951; Chinese monastic from Hebei (FGDB '法舫')	7000452
+7000453	顾净缘	顧淨緣	gù jìngyuán	Gu Jingyuan	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	1889-1973; lay Buddhist from Jiangsu (FGDB '顧淨緣')	7000453
+7000454	李炳南	\N	lǐ bǐngnán	Li Bingnan	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	1891-1986; Chinese lay Buddhist from Jinan, Shandong; known for bringing the Yinguang Pureland movement to Taiwan (FGDB '李炳南'; Wikipedia '李炳南'; Ownby, David, Vincent Goossaert, and Zhe Ji 2017, <i>Making Saints in Modern China</i>, Oxford University Press, p. 44)	7000454
