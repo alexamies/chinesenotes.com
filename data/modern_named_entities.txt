@@ -5984,3 +5984,13 @@
 6005984	宋哲元	\N	sòng zhéyuán	Song Zheyuan	proper noun	人	Person	历史	History	中国	China	\N	\N	1885-1940; Chinese general (Wikipedia '宋哲元')	6005984
 6005985	冀察政务委员会	冀察政務委員會	jì chá zhèngwù wěiyuánhuì	Hebei–Chahar Political Council	proper noun	\N	\N	历史	History	中国	China	\N	\N	Established in Beijing under Song Zheyuan in 1935 (Wikipedia '冀察政务委员会')	6005985
 6005986	宪兵队	憲兵隊	xiànbīngduì	the Kempeitai or Japanese Military Police	proper noun	\N	\N	历史	History	日本	Japan	\N	\N	 1881-1945; Japanese counterpart of the Gestapo during WWII (CC-CEDICT '憲兵隊')	6005986
+6005987	中国工农红军	中國工農紅軍	Zhōngguó gōngnóng Hóng Jūn	Chinese Workers' and Peasants' Red Army	proper noun	\N	\N	历史	History	中国	China	\N	\N	Later renamed 中国人民红军 Chinese People's Red Army (Wikipedia '中国工农红军')	6005987
+6005988	中央革命根据地	中央革命根據地	zhōngyāng gémìng gēnjùdì	Jiangxi–Fujian Soviet	proper noun	\N	\N	历史	History	中国	China	\N	\N	Also known as the Jiangxi Soviet, established in 1931 was the largest part of the 中华苏维埃共和国 Chinese Soviet Republic (Wikipedia '中央革命根据地')	6005988
+6005989	罗明	羅明	luó míng	Luo Ming	proper noun	人	Person	历史	History	中国	China	\N	\N	1901-1987; Historic figure in the Communist rise to power, including the 长征 Long March (CC-CEDICT '羅明'; Wikipedia '罗明 (1901年)')	6005989
+6005990	李光耀	\N	lǐguāngyào	Lee Kuan Yew	proper noun	人	Person	历史	History	新加坡	Singapore	\N	\N	1923-2015; founding father of modern Singapore, prime minister 1959-1990 (CC-CEDICT '李光耀')	6005990
+6005991	张鼎丞	張鼎丞	zhāng dǐngchéng	Zhang Dingcheng	proper noun	人	Person	历史	History	中国	China	\N	\N	1898-1981; Historic figure in the Communist rise to power, including the 长征 Long March  (Wikipedia '张鼎丞')	6005991
+6005992	毛泽覃	毛澤覃	máo zétán	Mao Zetan	proper noun	人	Person	历史	History	中国	China	\N	\N	1905-1935; Younger brother of Mao Zedong, captured and executed by the Kuomintang (Wikipedia '毛泽覃')	6005992
+6005993	谢维俊	謝維俊	xiè wéijùn	Xie Weijun	proper noun	人	Person	历史	History	中国	China	\N	\N	1908-1935; Early Chinese Communist revolutionary, participated in the 长征 Long March (Wikipedia '谢维俊')	6005993
+6005994	古柏	\N	gǔ bǎi	Gu Bai	proper noun	人	Person	历史	History	中国	China	\N	\N	1906-1935; Early Chinese Communist revolutionary, participated in the 长征 Long March (Wikipedia '古柏')	6005994
+6005995	何叔衡	\N	hé shūhéng	He Shuheng	proper noun	人	Person	历史	History	中国	China	\N	\N	1876-1935; Early Chinese Communist revolutionary, participated in the 长征 Long March (Wikipedia '何叔衡')	6005995
+6005996	陈铭枢	陳銘樞	chén míngshū	Chen Mingshu	proper noun	人	Person	历史	History	中国	China	\N	\N	1889-1965; General and politician (Wikipedia '陳銘樞')	6005996

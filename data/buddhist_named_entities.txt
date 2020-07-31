@@ -452,3 +452,7 @@
 7000452	法舫	\N	fǎfǎng	Fa Fang	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1904-1951; Chinese monastic from Hebei (FGDB '法舫')	7000452
 7000453	顾净缘	顧淨緣	gù jìngyuán	Gu Jingyuan	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	1889-1973; lay Buddhist from Jiangsu (FGDB '顧淨緣')	7000453
 7000454	李炳南	\N	lǐ bǐngnán	Li Bingnan	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	1891-1986; Chinese lay Buddhist from Jinan, Shandong; known for bringing the Yinguang Pureland movement to Taiwan (FGDB '李炳南'; Wikipedia '李炳南'; Ownby, David, Vincent Goossaert, and Zhe Ji 2017, <i>Making Saints in Modern China</i>, Oxford University Press, p. 44)	7000454
+7000455	有部	\N	yǒubù	Sarvāstivāda 	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 說一切有部 (FGDB '有部'; SH '有相宗', p. 214)	7000455
+7000456	昙无德	曇無德	tánwúdé	Dharmaguptaka 	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法藏部 (FGDB '五部律')	7000456
+7000457	昙摩毱多	曇摩毱多	tánmójúduō	Dharmaguptaka 	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法藏部 (FGDB '五部律')	7000457
+7000458	萨婆谛婆	薩婆諦婆	sàpódìpó	Sarvāstivāda 	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 說一切有部 (FGDB '五部律')	7000458
