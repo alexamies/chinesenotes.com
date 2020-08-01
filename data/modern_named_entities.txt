@@ -6011,3 +6011,12 @@
 6006011	霞飞	霞飛	xiáfēi	Joffre	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	May refer to Joseph Joffre 1852-1931, leading French general at the start of World War One (CC-CEDICT '霞飛')	6006011
 6006012	蔡锷	蔡鍔	càiè	Cai E	proper noun	人	Person	历史	History	中国	China	\N	\N	1882-1916; originator of the National protection army of 1915 (CC-CEDICT '蔡鍔')	6006012
 6006013	林森	\N	línsēn	Lin Sen	proper noun	人	Person	历史	History	中国	China	\N	\N	1868-1943; revolutionary politician, colleague of Sun Yat-sen, chairman of the Chinese nationalist government 1928-1932 (CC-CEDICT '林森')	6006013
+6006014	梁湘	\N	liángxiāng	Liang Xiang	proper noun	人	Person	历史	History	中国	China	\N	\N	1919-1989;  first governor of Hainan(CC-CEDICT '梁湘')	6006014
+6006015	彭真	\N	Péngzhēn	Peng Zhen	proper noun	人	Person	历史	History	中国	China	\N	\N	1902-1997; Chinese communist leader (CC-CEDICT '彭真'; Wikipedia '彭真')	6006015
+6006016	杨尚昆	楊尚昆	yáng shàngkūn	Yang Shangkun	proper noun	人	Person	历史	History	中国	China	\N	\N	1907-1998; former president of PRC and military leader (CC-CEDICT '楊尚昆'; Wikipedia '楊尚昆')	6006016
+6006017	王小波	\N	wáng xiǎobō	Wang Xiaobo	proper noun	作者	Writer	文学	Literature	中国	China	\N	\N	1952-1997; scholar and novelist (CC-CEDICT '王小波')	6006017
+6006018	图灵	圖靈	túlíng	Turing	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	May refer to Alan Turing 1912-1954, English mathematician (CC-CEDICT '圖靈')	6006018
+6006019	古龙	古龍	gǔlóng	Gu Long	proper noun	作者	Writer	文学	Literature	中国	China	\N	\N	1938-1985; Taiwanese wuxia novelist and screenwriter (CC-CEDICT '古龍')	6006019
+6006020	陈厚	陳厚	chénhòu	Peter Chen Ho	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1931-1970; Chinese actor (CC-CEDICT '陳厚')	6006020
+6006021	林语堂	林語堂	línyǔtáng	Lin Yutang	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1895-1976; Writer and translator (Guoyu '林語堂'; Wikipedia '林語堂')	6006021
+6006022	丰子恺	豐子愷	fēng zǐkǎi	Feng Zikai	proper noun	艺术家	Artist	艺术	Art	中国	China	\N	\N	1898-1975; Chinese artist from Zhejiang (Wikipedia '豐子愷')	6006022

@@ -528,3 +528,19 @@
 7000528	东弗婆提	東弗婆提	dōngfúpótí	Pūrvavideha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶; used in 天台四教儀 “A Guide to the Tiantai Fourfold Teachings,” by 諦觀 Chegwan in the Tang (Ichishima and Chappell 2013, p. 174; T 1931)	7000528
 7000529	西瞿耶尼	\N	xī jùyéní	Aparagodānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼; used in 天台四教儀 “A Guide to the Tiantai Fourfold Teachings,” by 諦觀 Chegwan in the Tang (Ichishima and Chappell 2013, p. 174; T 1931)	7000529
 7000530	北欝单越	北欝單越	běiyùdānyuè	Uttarakuru	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 鬱單越; used in 天台四教儀 “A Guide to the Tiantai Fourfold Teachings,” by 諦觀 Chegwan in the Tang (Ichishima and Chappell 2013, p. 174; T 1931)	7000530
+7000531	归元镜	歸元鏡	guī yuán jìng	The Mirror of Origin	proper noun	戏曲	Opera	佛教	Buddhism	中国	China	\N	\N	A Buddhist opera (Baidu Baike '归元镜'; Hsing Yun and Miao Guang trans. 2016, p. 374)	7000531
+7000532	频伽大藏经	頻伽大藏經	pínjiā dà zàng jīng	The Pinjia Canon	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	(Baidu Baike '频伽大藏经'; Hsing Yun and Miao Guang trans. 2016, p. 374)	7000532
+7000533	佛教科学观	佛教科學觀	fójiāo kēxué guān	The Science of Buddhism	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	Book by 尢智表 Wang Zhibiao (Hsing Yun and Miao Guang trans. 2016, p. 374; SH '佛教科學觀')	7000533
+7000534	尢智表	\N	wāng zhìbiǎo	Wang Zhibiao	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	1901-; Known for writing 佛教科學觀 'The Science of Buddhism' (Baidu '尢智表')	7000534
+7000535	世界佛教居士林林刊	\N	shìjiè fójiào jūshìlín línkān	The World Buddhist Lay Association Magazine	proper noun	佛教期刊	Buddhist Periodical	佛教	Buddhism	\N	\N	\N	\N	(Hsing Yun and Miao Guang trans. 2016, p. 374)	7000535
+7000536	虚云和尚年谱	虛雲和尚年譜	xūyún héshàng niánpǔ	The Xuyun Almanac	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	(Baidu Baike '虚云和尚年谱'; Hsing Yun and Miao Guang trans. 2016, p. 374)	7000536
+7000537	千手观音	千手觀音	qiān shǒu guānyīn	Thousand-Hand Guanyin / Thousand-Hand Avalokiteśvara	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	A classic image, the title of a book and dance performance (FGDB '千手觀音'; Hsing Yun and Miao Guang trans. 2016, p. 374)	7000537
+7000538	千手千眼观音	千手千眼觀音	qiān shǒu qiān yǎn guānyīn	Thousand-Hand Thousand-Eye Guanyin / Thousand-Hand Thousand-Eye Avalokiteśvara	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 千手觀音 (FGDB '千手觀音')	7000538
+7000539	千手千眼观自在	千手千眼觀自在	qiān shǒu qiān yǎn guānzìzài	Thousand-Hand Thousand-Eye Guanyin / Thousand-Hand Thousand-Eye Avalokiteśvara	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 千手觀音 (FGDB '千手觀音')	7000539
+7000540	千眼千臂观音	千眼千臂觀音	qiān yǎn qiān bì guānyīn	Thousand-Hand Thousand-Eye Guanyin / Thousand-Hand Thousand-Eye Avalokiteśvara	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 千手觀音 (FGDB '千手觀音')	7000540
+7000541	千手圣观自在	千手聖觀自在	qiān shǒu shèng guānzìzài	Thousand-Hand Thousand-Eye Guanyin / Thousand-Hand Thousand-Eye Avalokiteśvara	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 千手觀音 (FGDB '千手觀音')	7000541
+7000542	千臂观音	千臂觀音	qiān bì guānyīn	Thousand-Hand Thousand-Eye Guanyin / Thousand-Hand Thousand-Eye Avalokiteśvara	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 千手觀音 (FGDB '千手觀音')	7000542
+7000543	千光观自在	千光觀自在	qiān guāng guānzìzài	Thousand-Hand Thousand-Eye Guanyin / Thousand-Hand Thousand-Eye Avalokiteśvara	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 千手觀音 (FGDB '千手觀音')	7000543
+7000544	解二谛义	解二諦義	jiě èr dì yì	Understanding the Two Truths	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	(Hsing Yun and Miao Guang trans. 2016, p. 374)	7000544
+7000545	普门学报	普門學報	pǔmén xuébào	Universal Gate Buddhist Journal	proper noun	佛教期刊	Buddhist Periodical	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	(FGDB '普門學報'; Hsing Yun and Miao Guang trans. 2016, p. 374)	7000545
+7000546	慧炬	\N	huìjù	Wisdom Torch	proper noun	佛教期刊	Buddhist Periodical	佛教	Buddhism	中国	China	\N	\N	(FGDB '慧炬'; Hsing Yun and Miao Guang trans. 2016, p. 374)	7000546
