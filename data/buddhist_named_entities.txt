@@ -456,3 +456,60 @@
 7000456	昙无德	曇無德	tánwúdé	Dharmaguptaka 	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法藏部 (FGDB '五部律')	7000456
 7000457	昙摩毱多	曇摩毱多	tánmójúduō	Dharmaguptaka 	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 法藏部 (FGDB '五部律')	7000457
 7000458	萨婆谛婆	薩婆諦婆	sàpódìpó	Sarvāstivāda 	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 說一切有部 (FGDB '五部律')	7000458
+7000459	毘提诃	毘提訶	pítíhē	Videha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: videha, Pali: videha, Japanese: bidaika; one of the 四大部洲 'four island continents' in Buddhist cosmology (BL 'videha'; FGBD '毘提訶洲'; SH '毘提訶洲', p. 305)	7000459
+7000460	毘提诃洲	毘提訶洲	pítíhē zhōu	Pūrvavideha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶 (FGBD '毘提訶洲')	7000460
+7000461	弗婆毘提诃洲	弗婆毘提訶洲	fúpópítíhē zhōu	Videha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶 (FGBD '毘提訶洲')	7000461
+7000462	东毘提诃洲	東毘提訶洲	dōng pítíhē zhōu	East Videha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶 (FGBD '毘提訶洲')	7000462
+7000463	逋利婆鼻提贺洲	逋利婆鼻提賀洲	būlìpóbítíhèzhōu	Pūrvavideha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶 (FGBD '毘提訶洲')	7000463
+7000464	弗婆提洲	\N	fúpótízhōu	Pūrvavideha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶 (FGBD '毘提訶洲')	7000464
+7000465	弗于逮洲	\N	fúyúdǎizhōu	Pūrvavideha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶 (FGBD '毘提訶洲')	7000465
+7000466	东种种身洲	東種種身洲	dōng zhǒngzhǒngshēn zhōu	East Videha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶 (FGBD '毘提訶洲')	7000466
+7000467	东种种与洲	東種種與洲	dōng zhǒngzhǒngyǔ zhōu	East Videha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶 (FGBD '毘提訶洲')	7000467
+7000468	前离体洲	前離體洲	qiánlítǐzhōu	Videha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶 (FGBD '毘提訶洲')	7000468
+7000469	瞿陀尼	\N	jùtuóní	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: godānīya, Pali: goyāniya, Japanese: kudani; one of the 四大部洲 'four island continents' in Buddhist cosmology (BL 'godānīya'; FGDB '瞿陀尼洲'; SH '牛貨洲', p. 163)	7000469
+7000470	瞿陀尼洲	\N	jùtuóní zhōu	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼 (FGDB '瞿陀尼洲')	7000470
+7000471	瞿耶尼洲	\N	jùyénízhōu	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼 (FGDB '瞿陀尼洲')	7000471
+7000472	瞿耶尼	\N	jùyéní	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼 (FGDB '瞿陀尼洲')	7000472
+7000473	瞿陀尼耶洲	\N	jùtuóníyé zhōu	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼 (FGDB '瞿陀尼洲')	7000473
+7000474	瞿陀尼耶	\N	jùtuóníyéz	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼 (FGDB '瞿陀尼洲')	7000474
+7000475	瞿夜尼洲	\N	jùyèní zhōu	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼 (FGDB '瞿陀尼洲')	7000475
+7000476	瞿夜尼	\N	jùyèní	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼 (FGDB '瞿陀尼洲')	7000476
+7000477	瞿伽尼洲	\N	jùjiāní zhōu	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼 (FGDB '瞿陀尼洲')	7000477
+7000478	瞿伽尼	\N	jùjiāní	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼 (FGDB '瞿陀尼洲')	7000478
+7000479	劬伽尼洲	\N	qújiāní zhōu	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼 (FGDB '瞿陀尼洲')	7000479
+7000480	劬伽尼	\N	qújiāní	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼 (FGDB '瞿陀尼洲')	7000480
+7000481	牛货洲	牛貨洲	niúhuò zhōu	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼 (FGDB '瞿陀尼洲')	7000481
+7000482	牛施洲	\N	niúshī zhōu	Godānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼 (FGDB '瞿陀尼洲')	7000482
+7000483	阎浮利	閻浮利	yánfúlì	Jambudvīpa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 閻浮提 (FGDB '閻浮提')	7000483
+7000484	赡部提	贍部提	shànbùtí	Jambudvīpa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 閻浮提 (FGDB '閻浮提')	7000484
+7000485	阎浮提鞞波	閻浮提鞞波	Yǎnfútíbǐngbō	Jambudvīpa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 閻浮提 (FGDB '閻浮提')	7000485
+7000486	南瞻部洲	\N	Nán Zhān Bù Zhōu	Jambudvīpa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 閻浮提 (FGDB '閻浮提')	7000486
+7000487	琰浮洲	\N	Yǎn Fú Zhōu	Jambudvīpa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 閻浮提 (FGDB '閻浮提')	7000487
+7000488	炎摩天	\N	yánmótiān	Yama Heaven / Yamadeva	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 夜摩天 (FGDB '夜摩天')	7000488
+7000489	苏夜摩天	蘇夜摩天	sūyèmótiān	Yama Heaven / Yamadeva	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 夜摩天 (FGDB '夜摩天')	7000489
+7000490	须夜摩天	須夜摩天	xūyèmótiān	Yama Heaven / Yamadeva	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 夜摩天 (FGDB '夜摩天')	7000490
+7000491	须炎天	須炎天	xūyántiān	Yama Heaven / Yamadeva	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 夜摩天 (FGDB '夜摩天')	7000491
+7000492	离诤天	離諍天	lízhèngtiān	Yama Heaven / Yamadeva	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 夜摩天 (FGDB '夜摩天')	7000492
+7000493	知足天	\N	zhīzútiān	Tuṣita Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 兜率天 (FGDB '兜率天')	7000493
+7000494	妙足天	\N	miàozútiān	Tuṣita Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 兜率天 (FGDB '兜率天')	7000494
+7000495	喜足天	\N	xǐzútiān	Tuṣita Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 兜率天 (FGDB '兜率天')	7000495
+7000496	喜乐天	喜樂天	xǐlètiān	Tuṣita Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 兜率天 (FGDB '兜率天')	7000496
+7000497	尼摩罗天	尼摩羅天	nímóluótiān	Nirmanarati Heaven / Nirmāṇarati Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 化樂天 (FGDB '化樂天')	7000497
+7000498	维那罗泥天	維那羅泥天	wéinàluónítiān	Nirmanarati Heaven / Nirmāṇarati Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 化樂天 (FGDB '化樂天')	7000498
+7000499	化自在天	\N	huàzìzàitiān	Nirmanarati Heaven / Nirmāṇarati Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 化樂天 (FGDB '化樂天')	7000499
+7000500	化自乐天	化自樂天	huàzìlètiān	Nirmanarati Heaven / Nirmāṇarati Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 化樂天 (FGDB '化樂天')	7000500
+7000501	不憍乐天	不憍樂天	bùjiāolètiān	Nirmanarati Heaven / Nirmāṇarati Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 化樂天 (FGDB '化樂天')	7000501
+7000502	乐无慢天	樂無慢天	lèwúmàntiān	Nirmanarati Heaven / Nirmāṇarati Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 化樂天 (FGDB '化樂天')	7000502
+7000503	无贡高天	無貢高天	wúgònggāotiān	Nirmanarati Heaven / Nirmāṇarati Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 化樂天 (FGDB '化樂天')	7000503
+7000504	乐变化天	樂變化天	lèbiànhuàtiān	Nirmanarati Heaven / Nirmāṇarati Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 化樂天 (FGDB '化樂天')	7000504
+7000505	波罗尼蜜和耶越致	波羅尼蜜和耶越致	bōluónímìhéyéyuèzhì	Paranirmita-Vasavartin Heaven / paranirmitavaśavartin	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 他化自在天 (FGDB '他化自在天')	7000505
+7000506	波罗尼蜜	波羅尼蜜	bōluónímì	Paranirmita-Vasavartin Heaven / paranirmitavaśavartin	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 他化自在天 (FGDB '他化自在天')	7000506
+7000507	波罗维摩婆奢	波羅維摩婆奢	bōluówéimópóshē	Paranirmita-Vasavartin Heaven / paranirmitavaśavartin	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 他化自在天 (FGDB '他化自在天')	7000507
+7000508	娑舍跋提	\N	suōshěbátí	Paranirmita-Vasavartin Heaven / paranirmitavaśavartin	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 他化自在天 (FGDB '他化自在天')	7000508
+7000509	他化乐天	他化樂天	tāhuàlètiān	Paranirmita-Vasavartin Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 他化自在天 (FGDB '他化自在天')	7000509
+7000510	他化自转天	他化自轉天	tāhuàzìzhuǎntiān	Paranirmita-Vasavartin Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 他化自在天 (FGDB '他化自在天')	7000510
+7000511	化应声天	化應聲天	huàyīngshēngtiān	Paranirmita-Vasavartin Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 他化自在天 (FGDB '他化自在天')	7000511
+7000512	他化天	\N	tāhuàtiān	Paranirmita-Vasavartin Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 他化自在天 (FGDB '他化自在天')	7000512
+7000513	化他天	\N	huàtātiān	Paranirmita-Vasavartin Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 他化自在天 (FGDB '他化自在天')	7000513
+7000514	摩诃梵	摩訶梵	móhēfàn	Mahābrahmā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 大梵天 (FGDB '大梵天')	7000514
+7000515	梵摩三钵	梵摩三鉢	Fànmósānbō	Mahābrahmā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 大梵天 (FGDB '大梵天')	7000515

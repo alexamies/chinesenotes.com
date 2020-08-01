@@ -5994,3 +5994,4 @@
 6005994	古柏	\N	gǔ bǎi	Gu Bai	proper noun	人	Person	历史	History	中国	China	\N	\N	1906-1935; Early Chinese Communist revolutionary, participated in the 长征 Long March (Wikipedia '古柏')	6005994
 6005995	何叔衡	\N	hé shūhéng	He Shuheng	proper noun	人	Person	历史	History	中国	China	\N	\N	1876-1935; Early Chinese Communist revolutionary, participated in the 长征 Long March (Wikipedia '何叔衡')	6005995
 6005996	陈铭枢	陳銘樞	chén míngshū	Chen Mingshu	proper noun	人	Person	历史	History	中国	China	\N	\N	1889-1965; General and politician (Wikipedia '陳銘樞')	6005996
+6005997	施明德	\N	shī míngdé	Shih Ming-te	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1941-; Taiwanese politician, imprisoned 1962-1977 and 1980-1990 under the Guomindang, subsequently a leader of DPP 民进党 (CC-CEDICT '施明德')	6005997
