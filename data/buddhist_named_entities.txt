@@ -513,3 +513,18 @@
 7000513	化他天	\N	huàtātiān	Paranirmita-Vasavartin Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 他化自在天 (FGDB '他化自在天')	7000513
 7000514	摩诃梵	摩訶梵	móhēfàn	Mahābrahmā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 大梵天 (FGDB '大梵天')	7000514
 7000515	梵摩三钵	梵摩三鉢	Fànmósānbō	Mahābrahmā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 大梵天 (FGDB '大梵天')	7000515
+7000516	三禅定	三禪定	sān chándìng	third dhyāna	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 三禪 (FGDB '三禪')	7000516
+7000517	阿竭禅天	阿竭禪天	ājiéchántiān	Ākāśānantyāyatana Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 空無邊處 (FGDB '空無邊處')	7000517
+7000518	虚空知天	虛空知天	xūkōngzhītiān	Ākāśānantyāyatana Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 空無邊處 (FGDB '空無邊處')	7000518
+7000519	空知天	\N	kōngzhītiān	Ākāśānantyāyatana Heaven	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 空無邊處 (FGDB '空無邊處')	7000519
+7000520	识处	識處	shíchù	Limitless Consciousness	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 識無邊處天 (FGDB '識無邊處天')	7000520
+7000521	非非想天	\N	fēi fēi xiǎng tiān	Heaven of Neither Thought nor Non-Thought	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 非想非非想處天 (FGDB '非想非非想處天')	7000521
+7000522	无思想亦无无想天	無思想亦無無想天	wú sīxiǎng yì wú wúxiǎng tiān	Heaven of Neither Thought nor Non-Thought	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 非想非非想處天 (FGDB '非想非非想處天')	7000522
+7000523	有想无想智天	有想無想智天	yǒuxiǎng wú xiǎngzhì tiān	Heaven of Neither Thought nor Non-Thought	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 非想非非想處天 (FGDB '非想非非想處天')	7000523
+7000524	非想非非想天	\N	fēi xiǎng fēi fēixiǎng tiān	Heaven of Neither Thought nor Non-Thought	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 非想非非想處天 (FGDB '非想非非想處天')	7000524
+7000525	非有想非无想处天	非有想非無想處天	fēi yǒuxiǎng fēi wúxiǎng chù tiān	Heaven of Neither Thought nor Non-Thought	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 非想非非想處天 (FGDB '非想非非想處天')	7000525
+7000526	南条文雄	南條文雄	nántiáo wénxióng	Nanjo Bunyu / Bunyiu Nanjio	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1849-1927; Japanese monastic and Buddhist scholar (Wikipedia 'Nanjo Bunyu'; FGDB '南條文雄')	7000526
+7000527	饿鬼趣	餓鬼趣	è guǐ qù	Hungry Ghost Realm	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 餓鬼道 (FGDB '餓鬼道')	7000527
+7000528	东弗婆提	東弗婆提	dōngfúpótí	Pūrvavideha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶; used in 天台四教儀 “A Guide to the Tiantai Fourfold Teachings,” by 諦觀 Chegwan in the Tang (Ichishima and Chappell 2013, p. 174; T 1931)	7000528
+7000529	西瞿耶尼	\N	xī jùyéní	Aparagodānīya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 瞿陀尼; used in 天台四教儀 “A Guide to the Tiantai Fourfold Teachings,” by 諦觀 Chegwan in the Tang (Ichishima and Chappell 2013, p. 174; T 1931)	7000529
+7000530	北欝单越	北欝單越	běiyùdānyuè	Uttarakuru	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 鬱單越; used in 天台四教儀 “A Guide to the Tiantai Fourfold Teachings,” by 諦觀 Chegwan in the Tang (Ichishima and Chappell 2013, p. 174; T 1931)	7000530
