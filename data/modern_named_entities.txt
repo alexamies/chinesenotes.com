@@ -6020,3 +6020,7 @@
 6006020	陈厚	陳厚	chénhòu	Peter Chen Ho	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1931-1970; Chinese actor (CC-CEDICT '陳厚')	6006020
 6006021	林语堂	林語堂	línyǔtáng	Lin Yutang	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1895-1976; Writer and translator (Guoyu '林語堂'; Wikipedia '林語堂')	6006021
 6006022	丰子恺	豐子愷	fēng zǐkǎi	Feng Zikai	proper noun	艺术家	Artist	艺术	Art	中国	China	\N	\N	1898-1975; Chinese artist from Zhejiang (Wikipedia '豐子愷')	6006022
+6006023	郝柏村	\N	Hǎo bǎicūn	Hau Pei-tsun	proper noun	政治家	Politician	政治	Politics	\N	\N	\N	\N	1919-; 13th Premier of the Republic of China 1990-1993 (Wikipedia '郝柏村')	6006023
+6006024	孙仲能	孫仲能	sūn zhòngnéng	Sun Chung-neng / Sun Li-jen	proper noun	人	Person	历史	History	中国	China	\N	\N	See 孙立人 (Wikipedia '孫立人')	6006024
+6006025	孙立人	孫立人	sūn lìrén	Sun Li-jen	proper noun	人	Person	历史	History	中国	China	\N	\N	1900-1990; a KMT general (Wikipedia '孫立人')	6006025
+6006026	陆铿	陸鏗	lù kēng	Lu Keng	proper noun	人	Person	历史	History	中国	China	\N	\N	1919-2008; Controversial Chinese reporter (Wikipedia '陸鏗')	6006026

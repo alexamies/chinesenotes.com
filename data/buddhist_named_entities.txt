@@ -575,3 +575,15 @@
 7000575	提沙佛	\N	tíshāfó	Puṣya Buddha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 底沙佛 (FGDB '底砂佛')	7000575
 7000576	补砂佛	補砂佛	bǔshāfó	Puṣya Buddha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 底沙佛 (FGDB '底砂佛')	7000576
 7000577	弗沙佛	\N	fúshāfó	Puṣya Buddha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 底沙佛 (FGDB '底砂佛')	7000577
+7000578	东初	東初	dōngchū	Dongchu / Shi Dongchu	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1908-1977; Monastic from Jiangsu (FGDB '東初'; Wikipedia '釋東初')	7000578
+7000579	玉琳琇	\N	yùlín xiù	Yulin Xiu / National Master Yulin	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 玉林通琇 (FGDB '玉林通琇')	7000579
+7000580	玉林通琇	\N	yùlín tōngxiù	Yulin Tongxiu / National Master Yulin	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1614-1675; Monastic from Jiangsu (Ding '玉琳國師'; FGDB '玉林通琇'; FoguangPedia '玉琳國師'; Wikipedia '玉林通琇')	7000580
+7000581	觉群	覺群	jué qún	Awaken the Masses Weekly	proper noun	佛教期刊	Buddhist Periodical 	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	See 覺群週報 (Hammerstrom, Erik J. 2015, <i>The Science of Chinese Buddhism: Early Twentieth-Century Engagements</i>; Hsing Yun and Miao Guang trans. 2016, p. 370)	7000581
+7000582	觉生	覺生	jué shēng	Awakening Living Beings Magazine	proper noun	佛教期刊	Buddhist Periodical	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	(Hsing Yun and Miao Guang trans. 2016, p. 370)	7000582
+7000583	献给旅行者日中华文化佛教宝典	獻給旅行者365 日─中華文化佛教寶典	xiàn gěi lǚxíngzhě rì zhōnghuà wénhuà fójiāo bǎodiǎn	365 Days For Travelers: Wisdom from Chinese Literary and Buddhist Classics	proper noun	书名	Book Title	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	(Hsing Yun and Miao Guang trans. 2016, p. 370)	7000583
+7000584	佛教故事大全	\N	fójiāo gùshì dà quán	A Complete Collection of Stories on Buddhism	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	(Baidu Baike '佛教故事大全'; Hsing Yun and Miao Guang trans. 2016, p. 370)	7000584
+7000585	诗品	詩品	shīpǐn	A Critique of Poetry	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	(Hsing Yun and Miao Guang trans. 2016, p. 370; Wikipedia '詩品')	7000585
+7000586	觉世报	覺世報	jué shì bào	Awakening the World News	proper noun	佛教期刊	Buddhist Periodical	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	(Hsing Yun and Miao Guang trans. 2016, p. 370)	7000586
+7000587	中英对照佛学丛书	中英對照佛學叢書	zhōng yīng duìzhào fóxué cóngshū	Bilingual Buddhist Series: Sutras and Scriptures Doctrines of Buddhism	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	(Hsing Yun and Miao Guang trans. 2016, p. 370)	7000587
+7000588	台湾佛教	台灣佛教	táiwān fójiāo	Taiwanese Buddhism	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '台灣佛教')	7000588
+7000589	台湾佛教	台灣佛教	táiwān fójiāo	Buddhism in Taiwan	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	(Hsing Yun and Miao Guang trans. 2016, p. 370)	7000588
