@@ -544,3 +544,34 @@
 7000544	解二谛义	解二諦義	jiě èr dì yì	Understanding the Two Truths	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	(Hsing Yun and Miao Guang trans. 2016, p. 374)	7000544
 7000545	普门学报	普門學報	pǔmén xuébào	Universal Gate Buddhist Journal	proper noun	佛教期刊	Buddhist Periodical	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	(FGDB '普門學報'; Hsing Yun and Miao Guang trans. 2016, p. 374)	7000545
 7000546	慧炬	\N	huìjù	Wisdom Torch	proper noun	佛教期刊	Buddhist Periodical	佛教	Buddhism	中国	China	\N	\N	(FGDB '慧炬'; Hsing Yun and Miao Guang trans. 2016, p. 374)	7000546
+7000547	大醒	\N	dàxǐng	Daxing	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	(FGDB '大醒')	7000547
+7000548	斌宗	\N	bīnzōng	Binzong	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1911-1958; Monastic from Taiwan, known for his poetry, which is collected in (FGDB '斌宗')	7000548
+7000549	斌宗法师	斌宗法師	bīnzōng fǎshī	Venerable Binzong	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 斌宗 (FGDB '斌宗')	7000549
+7000550	孙张清扬	孫張清揚	sūn zhāng qīngyáng	Sun-Zhang Qingyang	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	1913-1992; Female Buddhist layperson from Hunan (FGDB '孫張清揚')	7000550
+7000551	高楠顺次郎	高楠順次郎	gāonánshùncìláng	Takakusu Junjirō	proper noun	学者	Scholar	佛教	Buddhism	日本	Japan	\N	\N	1866-1945; Japanese Buddhist scholar (FGDB '高楠順次郎'; Wikipedia '高楠順次郎')	7000551
+7000552	均如	\N	jūnrú	Kyunyeo / Kyunyŏ	proper noun	师父	Monastic	佛教	Buddhism	韓國	Korea	\N	\N	917-973; Korean monk (DDB '均如'; FGDB '均如'; Wikipedia 'Kyunyeo')	7000552
+7000553	隐元	隱元	yǐnyuán	Ingen / Ingen Ryūki	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 隠元隆琦 (Wikipedia '隱元隆琦')	7000553
+7000554	隐元隆琦	隠元隆琦	yǐnyuán lóngqí	Ingen Ryūki	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1592–1673 (Matsuo 2007, p. 214; Wikipedia '隱元隆琦')	7000554
+7000555	宗仰	\N	zōngyǎng	Zongyang	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1865-1921; monastic from Jiangsu (FGDB '宗仰'; Wikipedia '黄宗仰')	7000555
+7000556	曼殊	\N	mànshū	Manshu	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1884-1918; Monastic from Guangdong (FGDB '曼殊')	7000556
+7000557	释敬安	\N	shìjìngān	Shi Jing An / Bazhu Toutuo	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 八指頭陀 (FGDB '八指頭陀')	7000557
+7000558	八指头陀	八指頭陀	bāzhǐ tóutuó	Bazhu Toutuo / Jing An	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	(FGDB '八指頭陀'; Wikipedia '释敬安')	7000558
+7000559	敬安	\N	jìngān	Jing An / Bazhu Toutuo	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 八指頭陀 (FGDB '八指頭陀')	7000559
+7000560	释东初	釋東初	shì dōngchū	Dongchu / Shi Dongchu	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 東初 (FGDB '東初')	7000560
+7000561	尸毘王	\N	shīpí wáng	King Sivi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	The name of Śākyamuni Buddha in a former life when he gave his body to a hungry eagle to save a pigeon (FGDB '尸毘王'; Ichishima and Chappell 2013, p. 185; T 1931)	7000561
+7000562	湿鞞王	濕鞞王	shībǐng wáng	King Sivi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 尸毘王 (FGDB '尸毘王')	7000562
+7000563	尸毘迦王	\N	shīpíjiā wáng	King Sivi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 尸毘王 (FGDB '尸毘王')	7000563
+7000564	须陀素弥王	須陀素彌王	xūtuósùmí wáng	King Srutasoma / King Śrutasoma	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	The name of Śākyamuni Buddha in a former life when he sacrificed his country (FGDB '須陀素彌王'; Ichishima and Chappell 2013, p. 185; T 1931)	7000564
+7000565	修陀素弥王	修陀素彌王	xiūtuósùmí wáng	King Srutasoma	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 須陀素彌王 (FGDB '須陀素彌王')	7000565
+7000566	须陀须摩王	須陀須摩王	xūtuóxūmó wáng	King Srutasoma	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 須陀素彌王 (FGDB '須陀素彌王')	7000566
+7000567	须陀摩王	須陀摩王	xūtuómó wáng	King Srutasoma	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 須陀素彌王 (FGDB '須陀素彌王')	7000567
+7000568	普明王	\N	pǔmíng wáng	King Srutasoma	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 須陀素彌王 (FGDB '須陀素彌王')	7000568
+7000569	能施太子	\N	néngshī tàizi	Prince Mahādāna	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Śākyamuni Buddha in a previous life (FGDB '能施太子'; Ichishima and Chappell 2013, p. 185; SH '大施太子', p. 90; T 1931)	7000569
+7000570	大施太子	\N	dàshī tàizi	Prince Mahādāna	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 能施太子 (FGDB '能施太子')	7000570
+7000571	普施太子	\N	pǔshī tàizi	Prince Mahādāna	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 能施太子 (FGDB '能施太子')	7000571
+7000572	底沙佛	\N	dǐshāfó	Puṣya Buddha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	(FGDB '底沙佛'; Ichishima and Chappell 2013, p. 185; T 1931; SH '弗沙佛', p. 188)	7000572
+7000573	底砂佛	\N	dǐshāfó	Puṣya Buddha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 底沙佛 (FGDB '底砂佛')	7000573
+7000574	帝沙佛	\N	dìshāfó	Puṣya Buddha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 底沙佛 (FGDB '底砂佛')	7000574
+7000575	提沙佛	\N	tíshāfó	Puṣya Buddha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 底沙佛 (FGDB '底砂佛')	7000575
+7000576	补砂佛	補砂佛	bǔshāfó	Puṣya Buddha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 底沙佛 (FGDB '底砂佛')	7000576
+7000577	弗沙佛	\N	fúshāfó	Puṣya Buddha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 底沙佛 (FGDB '底砂佛')	7000577
