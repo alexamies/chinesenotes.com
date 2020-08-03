@@ -6024,3 +6024,8 @@
 6006024	孙仲能	孫仲能	sūn zhòngnéng	Sun Chung-neng / Sun Li-jen	proper noun	人	Person	历史	History	中国	China	\N	\N	See 孙立人 (Wikipedia '孫立人')	6006024
 6006025	孙立人	孫立人	sūn lìrén	Sun Li-jen	proper noun	人	Person	历史	History	中国	China	\N	\N	1900-1990; a KMT general (Wikipedia '孫立人')	6006025
 6006026	陆铿	陸鏗	lù kēng	Lu Keng	proper noun	人	Person	历史	History	中国	China	\N	\N	1919-2008; Controversial Chinese reporter (Wikipedia '陸鏗')	6006026
+6006027	吴宓	吳宓	wúmì	Wu Mi	proper noun	学者	Scholar	文学	Literature	中国	China	\N	\N	1894-1978; A Chinese scholar of literary criticism (Wikipedia '吳宓')	6006027
+6006028	金九	\N	jīn jiǔ	Kim Koo	proper noun	人	Person	历史	History	\N	\N	\N	\N	1876-1949; Korean nationalist, also known as Baekbeom (Wikipedia '金九')	6006028
+6006029	金正成	\N	jīn zhèngchéng	Kim Il-sung	proper noun	人	Person	历史	History	\N	\N	\N	\N	1912-1994; first leader of North Korea (咽喉Wikipedia '金正成')	6006029
+6006030	李济深	李濟深	lǐ jìshēn	Li Jishen	proper noun	人	Person	历史	History	中国	China	\N	\N	1885-1959; Military commander and statesman (Wikipedia '李濟深')	6006030
+6006031	陈公培	陳公培	chén gōngpéi	Chen Gongpei	proper noun	人	Person	历史	History	中国	China	\N	\N	1901-1968; Historic military figure (Wikipedia '陈公培')	6006031

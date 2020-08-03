@@ -52,7 +52,7 @@ export class TranslationMemory {
           let urlString = "/findtm?query=" + findInput.value;
           if (lookupTopic && lookupTopic instanceof HTMLInputElement) {
             const domain = lookupTopic.value;
-            if (domain) {
+            if (lookupTopic.checked && domain) {
               urlString += "&domain=" + domain;
             }
           }

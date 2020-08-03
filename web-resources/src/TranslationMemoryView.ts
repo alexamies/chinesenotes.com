@@ -135,7 +135,6 @@ export class TranslationMemoryView {
    * @param {HTMLElement} qList - the word list
    */
   private addTermToList(entry: IDictEntry, qList: HTMLElement, query: string) {
-    console.log(`addTermToList.addTermToList entry: ${entry.Simplified}`);
     const li = document.createElement("li");
     li.className = "mdc-list-item";
     const span = document.createElement("span");

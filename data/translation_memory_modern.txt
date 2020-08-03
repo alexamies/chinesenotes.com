@@ -180,3 +180,6 @@
 5000180	港警	\N	gǎng jǐng	port police	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '港警')	5000179
 5000181	平津	\N	píng jīn	Beiping and Tianjin	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '平津')	5000181
 5000182	清政府	\N	qīng zhèngfǔ	Qing government	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1644-1911 (CC-CEDICT '清政府')	5000182
+5000183	麻批	\N	má pī	a strand of hemp	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '批')	5000183
+5000184	一批旅客	\N	yī pī lǚkè	a group of tourists	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '批')	5000184
+5000185	批木材	\N	pī mùcái	a pile of timber	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '批')	5000185
