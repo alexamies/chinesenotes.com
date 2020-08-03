@@ -6029,3 +6029,13 @@
 6006029	金正成	\N	jīn zhèngchéng	Kim Il-sung	proper noun	人	Person	历史	History	\N	\N	\N	\N	1912-1994; first leader of North Korea (咽喉Wikipedia '金正成')	6006029
 6006030	李济深	李濟深	lǐ jìshēn	Li Jishen	proper noun	人	Person	历史	History	中国	China	\N	\N	1885-1959; Military commander and statesman (Wikipedia '李濟深')	6006030
 6006031	陈公培	陳公培	chén gōngpéi	Chen Gongpei	proper noun	人	Person	历史	History	中国	China	\N	\N	1901-1968; Historic military figure (Wikipedia '陈公培')	6006031
+6006032	蒋光鼐	蔣光鼐	jiǎng guāngnài	Jiang Guangnai	proper noun	人	Person	历史	History	中国	China	\N	\N	1888-1967; general and politician (Wikipedia '蔣光鼐')	6006032
+6006033	彭德怀	彭德懷	péng déhuái	Peng Dehuai	proper noun	人	Person	历史	History	中国	China	\N	\N	1898-1974; Communist military leader (CC-CEDICT '彭德懷'; Wikipedia '彭德怀')	6006033
+6006034	蔡廷锴	蔡廷鍇	cài tíngkǎi	Cai Tingkai	proper noun	人	Person	历史	History	中国	China	\N	\N	1892-1968; Chinese general (Wikipedia '蔡廷锴')	6006034
+6006035	何键	何鍵	hé jiàn	He Jian	proper noun	人	Person	历史	History	中国	China	\N	\N	1887-1956; Nationalist general and politician (Wikipedia '何鍵')	6006035
+6006036	陈济棠	陳濟棠	chén jìtáng	Chen Jitang	proper noun	人	Person	历史	History	中国	China	\N	\N	1890-1954; Historic military figure (Wikipedia '陳濟棠')	6006036
+6006037	蒋鼎文	蔣鼎文	jiǎng dǐngwén	Jiang Dingwen	proper noun	人	Person	历史	History	中国	China	\N	\N	1893-1974; Nationalist general (Wikipedia '蔣鼎文')	6006037
+6006038	张闻天	張聞天	zhāng wéntiān	Zhang Wentian	proper noun	人	Person	历史	History	中国	China	\N	\N	1899-1976; Communist Party leader (Wikipedia '张闻天')	6006038
+6006039	列夫·托尔斯泰	列夫·托爾斯泰	lièfū tuō'ěrsītài	Tolstoy (name) / Count Lev Nikolayevich Tostoy	proper noun	作者	Author	历史	History	欧洲	Europe	\N	\N	1828-1910; Great Russian novelist, author of War and Peace 战争与和平 (CC-CEDICT '列夫·托爾斯泰')	6006039
+6006040	刘果	劉果	liúguǒ	Liu Guo	proper noun	学者	Scholar	历史	History	中国	China	\N	\N	1855-1914; Chinese scholar (Wikipedia '劉果 (光緒進士)')	6006040
+6006041	陈垣	陳垣	chényuán	Chen Yuan	proper noun	学者	Scholar	历史	History	中国	China	\N	\N	1880-1971 (Wikipedia '陈垣')	6006041

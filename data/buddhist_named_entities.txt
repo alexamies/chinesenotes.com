@@ -587,3 +587,11 @@
 7000587	中英对照佛学丛书	中英對照佛學叢書	zhōng yīng duìzhào fóxué cóngshū	Bilingual Buddhist Series: Sutras and Scriptures Doctrines of Buddhism	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	(Hsing Yun and Miao Guang trans. 2016, p. 370)	7000587
 7000588	台湾佛教	台灣佛教	táiwān fójiāo	Taiwanese Buddhism	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '台灣佛教')	7000588
 7000589	台湾佛教	台灣佛教	táiwān fójiāo	Buddhism in Taiwan	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	(Hsing Yun and Miao Guang trans. 2016, p. 370)	7000588
+7000590	今日佛教	\N	jīnrì fójiāo	Buddhism Today	proper noun	佛教期刊	Buddhist Periodical	佛教	Buddhism	中国	China	\N	\N	(Hsing Yun and Miao Guang trans. 2016, p. 370)	7000590
+7000591	圜悟佛果禅师语录	圜悟佛果禪師語錄	yuánwù fóguǒ chánshī yǔlù	Quotations from Chan Master Yuanwu Foguo	proper noun	典籍	Canonical Text	佛教	Buddhism	禅宗	Chan School	\N	\N	Variant of 圓悟佛果禪師語錄 (FGDB '圜悟佛果禪師語錄'; T 1997)	7000591
+7000592	真常	\N	zhēn cháng	Zhen Chang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1900-1946; Chinese monastic from Taiwan (FGDB '真常')	7000592
+7000593	大村西崖	\N	dàcūnxīyá	Omura Seigai	proper noun	学者	Scholar	佛教	Buddhism	日本	Japan	\N	\N	1868-1927; Japanese scholar on art history (FGDB '大村西崖'; Wikipedia '大村西崖')	7000593
+7000594	太虚	太虛	tàixū	Taixu	proper noun	师父	Monastic	佛教	Buddhism	中國佛教	Chinese Buddhism	\N	\N	1890-1947, Chinese monastic, important figure in the Chinese Buddhist revival in the early 20th century (BL 'Taixu'; FGDB '太虛'; Pittman, Don Alvin 2001, <i>Toward a Modern Chinese Buddhism: Taixu’s Reforms</i>, University of Hawaii Press, p. 2; Wikipedia '释太虚')	7000594
+7000595	朴汉永	朴漢永	pǔhànyǒng	Hanyeong Bak	proper noun	师父	Monastic	佛教	Buddhism	韓國	Korea	\N	\N	1870-1948 Korean Buddhist scholar and monastic (Bak 2017, p. 25; FGDB '朴漢永')	7000595
+7000596	崇宁清规	崇寧清規	chóngníng qīngguī	Monastic Rules by Chong Ning	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	An alternate name for 禪苑清規 (FGDB '禪苑清規')	7000596
+7000597	禅规	禪規	chánguī	Monastic Rules [Chanyuan Qinggui]	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	An abbreviation for 禪苑清規 (FGDB '禪苑清規')	7000597
