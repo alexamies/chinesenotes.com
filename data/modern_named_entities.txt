@@ -5997,7 +5997,7 @@
 6005997	施明德	\N	shī míngdé	Shih Ming-te	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1941-; Taiwanese politician, imprisoned 1962-1977 and 1980-1990 under the Guomindang, subsequently a leader of DPP 民进党 (CC-CEDICT '施明德')	6005997
 6005998	列宁格勒	列寧格勒	liènínggélēi	Leningrad	proper noun	城市	City	地方	Places	俄罗斯	Russia	\N	\N	Name of Russian city of Saint Petersburg 圣彼得堡 1923-1991 (CC-CEDICT '列寧格勒')	6005998
 6005999	赵紫阳	趙紫陽	zhàozǐyáng	Zhao Ziyang	proper noun	人	Person	历史	History	中国	China	\N	\N	1919-2005; PRC reforming politician, general secretary of Chinese Communist Party 1987-1989, held under house arrest from 1989 to his death (CC-CEDICT '趙紫陽')	6005999
-6006000	居里夫人	\N	jūlǐ fūren	Marie Curie	proper noun	科学家	Scientist	现代汉语	Modern Chinese	物理	Physics	\N	\N	1867-1934; Maria Skłodowska-Curie or Marie Curie, double Nobel prize-winner in Physics 1903 and Chemistry 1911 (CC-CEDICT '居里夫人'; Guoyu '居里夫人'; Wikipedia '瑪麗·居禮')	6006000
+6006000	居里夫人	\N	jūlǐ fūren	Marie Curie	proper noun	科学家	Scientist	科学	Science	物理	Physics	\N	\N	1867-1934; Maria Skłodowska-Curie or Marie Curie, double Nobel prize-winner in Physics 1903 and Chemistry 1911 (CC-CEDICT '居里夫人'; Guoyu '居里夫人'; Wikipedia '瑪麗·居禮')	6006000
 6006001	督军	督軍	dūjūn	Du Jun	proper noun	\N	\N	历史	History	中国	China	\N	\N	Provincial military governor during the early Republic of China era, 1911-1949 (CC-CEDICT '督軍')	6006001
 6006002	太平洋战争	太平洋戰爭	tàipíngyáng zhànzhēng	Pacific War	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Between Japan and the US, 1941-1945 (CC-CEDICT '太平洋戰爭')	6006002
 6006003	陈毅	陳毅	chényì	Chen Yi	proper noun	人	Person	历史	History	中国	China	\N	\N	1901-1972; communist general and politician, marshal of PLA from 1955, mayor of Shanghai In 1950S, PRC foreign minister 1958-1972 (CC-CEDICT '陳毅')	6006003
@@ -6039,3 +6039,35 @@
 6006039	列夫·托尔斯泰	列夫·托爾斯泰	lièfū tuō'ěrsītài	Tolstoy (name) / Count Lev Nikolayevich Tostoy	proper noun	作者	Author	历史	History	欧洲	Europe	\N	\N	1828-1910; Great Russian novelist, author of War and Peace 战争与和平 (CC-CEDICT '列夫·托爾斯泰')	6006039
 6006040	刘果	劉果	liúguǒ	Liu Guo	proper noun	学者	Scholar	历史	History	中国	China	\N	\N	1855-1914; Chinese scholar (Wikipedia '劉果 (光緒進士)')	6006040
 6006041	陈垣	陳垣	chényuán	Chen Yuan	proper noun	学者	Scholar	历史	History	中国	China	\N	\N	1880-1971 (Wikipedia '陈垣')	6006041
+6006042	两伊战争	兩伊戰爭	liǎngyī zhànzhēng	Iran-Iraq War (1980-1988)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '兩伊戰爭')	6006042
+6006043	全民健康保险	全民健康保險	quánmín jiànkāng bǎoxiǎn	National Health Insurance (Tw)	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	(CC-CEDICT '全民健康保險')	6006043
+6006044	曾朴	曾樸	céngpǔ	Zheng Pu	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1872-1935; novelist and publisher (CC-CEDICT '曾樸')	6006044
+6006045	谭鑫培	譚鑫培	tánxīnpéi	Tan Xinpei	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1847-1917 noted opera actor (CC-CEDICT '譚鑫培')	6006045
+6006046	阎锡山	閻錫山	yánxīshān	Yan Xishan	proper noun	人	Person	历史	History	中国	China	\N	\N	1883-1960; warlord in Shanxi (CC-CEDICT '閻錫山')	6006046
+6006047	唐绍仪	唐紹儀	táng shàoyí	Tang Shaoyi	proper noun	人	Person	历史	History	中国	China	\N	\N	1862-1939; Politician and diplomat (CC-CEDICT '唐紹儀')	6006047
+6006048	曹锟	曹錕	cáokūn	Cao Kun	proper noun	人	Person	历史	History	中国	China	\N	\N	1862-1938; One of the Northern Warlords (CC-CEDICT '曹錕')	6006048
+6006049	秦牧	\N	qínmù	Qin Mu	proper noun	人	Person	文学	Literature	中国	China	\N	\N	1919-1992; educator and prolific writer (CC-CEDICT '秦牧')	6006049
+6006050	华罗庚	華羅庚	huá luógēng	Hua Luogeng	proper noun	人	Person	科学	Science	中国	China	\N	\N	1910-1985; Chinese number theorist (CC-CEDICT '華羅庚')	6006050
+6006051	郭永怀	郭永懷	guō yǒnghuái	Guo Yonghuai	proper noun	人	Person	科学	Science	中国	China	\N	\N	1909-1968; Chinese aviation pioneer (CC-CEDICT '郭永懷')	6006051
+6006052	刘天华	劉天華	liútiān huà	Liu Tianhua	proper noun	人	Person	音乐	Music	中国	China	\N	\N	1895-1932; Chinese musician and composer (CC-CEDICT '劉天華')	6006052
+6006053	陶行知	\N	táoxíngzhī	Tao Xingzhi	proper noun	人	Person	历史	History	中国	China	\N	\N	1891-1946; Chinese educator and reformer (CC-CEDICT '陶行知')	6006053
+6006054	黎笋	黎筍	lísǔn	Le Duan	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1907-1986; Vietnamese communist politician (CC-CEDICT '黎筍')	6006054
+6006055	李宗仁	\N	lǐ zōngrén	Li Zongren	proper noun	人	Person	历史	History	中国	China	\N	\N	1891-1969; Leader of Guangxi warlord faction(CC-CEDICT '李宗仁')	6006055
+6006056	张之洞	張之洞	zhāng zhīdòng	Zhang Zhidong	proper noun	人	Person	历史	History	中国	China	\N	\N	1837-1909; prominent politician in late Qing (CC-CEDICT '張之洞')	6006056
+6006057	别赫捷列夫	別赫捷列夫	biéhèjiélièfū	Vladimir Mikhailovich Bekhterev	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1857-1927; Russian neurologist and psychiatrist (CC-CEDICT '別赫捷列夫')	6006057
+6006058	刘师培	劉師培	liúshīpéi	Liu Shipei	proper noun	人	Person	历史	History	中国	China	\N	\N	1884-1919; Chinese anarchist and revolutionary activist (CC-CEDICT '劉師培')	6006058
+6006059	加拉罕	\N	jiālāhǎn	Leo Karakhan	proper noun	人	Person	历史	History	中国	China	\N	\N	1889-1937; Soviet ambassador to China 1921-26, executed in Stalin's 1937 purge (CC-CEDICT '加拉罕')	6006059
+6006060	加特林	\N	jiātélín	Gatling (name) / Richard J. Gatling	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1818-1903; Inventor of the Gatling gun (CC-CEDICT '加特林')	6006060
+6006061	墨索里尼	\N	mòsuǒlǐní	Benito Mussolini	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1883-1945; Italian fascist dictator, 'Il Duce', president 1922-1943 (CC-CEDICT '墨索里尼')	6006061
+6006062	陈天华	陳天華	chéntiān huà	Chen Tianhua	proper noun	人	Person	历史	History	中国	China	\N	\N	1875-1905; Anti-Qing revolutionary from Hunan, drowned himself in Japan in 1905 (CC-CEDICT '陳天華')	6006062
+6006063	黄遵宪	黃遵憲	huángzūnxiàn	Huang Zunxian	proper noun	人	Person	历史	History	中国	China	\N	\N	1848-1905; Qing dynasty poet and diplomat, author of A Record of Japan 日本国志, an extended analysis of Meiji Japan (CC-CEDICT '黃遵憲')	6006063
+6006064	卡夫卡	\N	kǎfūkǎ	Franz Kafka	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1883-1924; Czech Jewish writer (CC-CEDICT '卡夫卡')	6006064
+6006065	古诺	古諾	gǔnuò	Gounod (name) / Charles Gounod	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1818-1893; French musician and opera composer (CC-CEDICT '古諾')	6006065
+6006066	吴玉章	吳玉章	wúyùzhāng	Wu Yuzhang	proper noun	人	Person	历史	History	中国	China	\N	\N	1878-1966; Writer, educator and communist politician (CC-CEDICT '吳玉章')	6006066
+6006067	周作人	\N	zhōuzuò rén	Zhou Zuoren	proper noun	人	Person	历史	History	中国	China	\N	\N	1885-1967; Brother of Lu Xun 鲁迅, academic in Japanese and Greek studies, briefly imprisoned after the war as Japanese collaborator, persecuted and died of unknown causes during the Cultural Revolution (CC-CEDICT '周作人')	6006067
+6006068	周瘦鹃	周瘦鵑	zhōushòujuān	Zhou Shoujuan	proper noun	人	Person	历史	History	中国	China	\N	\N	1895-1968; Writer, translator and art collector in Suzhou, a victim of the Cultural Revolution (CC-CEDICT '周瘦鵑')	6006068
+6006069	国家标准中文交换码	國家標準中文交換碼	Guójiā Biāozhǔn Zhōngwén jiāohuàn mǎ	CNS 11643, Chinese character coding adopted in Taiwan, 1986-1992	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國家標準中文交換碼')	6006069
+6006070	埃克托·柏辽兹	埃克托·柏遼茲	āikètuō bǎiliáozī	Hector Berlioz	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1803-1869; French romantic composer, author of Symphonie Fantastique (CC-CEDICT '埃克托·柏遼茲')	6006070
+6006071	夏目漱石	\N	xiàmù shùshí	Natsume Sōseki	proper noun	作者	Author	历史	History	日本	Japan	\N	\N	1867-1916; One of the first modern Japanese novelists (CC-CEDICT '夏目漱石')	6006071
+6006072	大仲马	大仲馬	dàzhòngmǎ	Alexandre Dumas, père	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1802-1870; French writer (CC-CEDICT '大仲馬')	6006072
+6006073	大久保利通	\N	dàjiǔbǎo lìtōng	Oukubo Toshimichi	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1830-1878; Japanese politician (CC-CEDICT '大久保利通')	6006073
