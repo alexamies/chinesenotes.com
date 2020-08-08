@@ -373,3 +373,21 @@
 3000373	呈瑞	\N	chéng ruì	to manifest an auspicious sign	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈瑞', p. 47)	3000373
 3000374	呈祥	\N	chéng xiáng	to manifest an auspicious sign	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈祥', p. 47)	3000374
 3000375	油埕	\N	yóu chéng	earthen vat for storing oil	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '呈祥', p. 47)	3000375
+3000376	逞欲	\N	chěngyù	to indulge one's desires	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '逞')	3000376
+3000377	逞仗	\N	chěngzhàng	to depend on	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '逞仗', p. 48)	3000377
+3000378	逞傲	\N	chěng ào	arrogance and presumption	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '逞傲', p. 48)	3000378
+3000379	逞勇	\N	chěng yǒng	to act bravely	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '逞勇', p. 48)	3000379
+3000380	逞功能	\N	chěng gōngnéng	overly self confident	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '逞功能', p. 48)	3000380
+3000381	逞威势	逞威勢	chěng wēishì	to intimidate with physical force	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '逞威勢', p. 48)	3000381
+3000382	骋志	騁志	chěng zhì	to be satisfied in getting one's way	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '逞志')	3000382
+3000383	逞志弃信	逞志棄信	chěng zhì qì xìn	to abandon one's beliefs in order to get one's way	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '逞志棄信', p. 48)	3000383
+3000384	逞恶行劫	逞惡行劫	chěng è xíng jié	to plunder and pillage	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '逞惡行劫', p. 48)	3000384
+3000385	逞憾	\N	chěng hàn	to take revenge for a grievance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '逞憾', p. 48)	3000385
+3000386	自逞	\N	zì chěng	to boast about oneself	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '自逞', p. 48)	3000386
+3000387	逞蛮	逞蠻	chěng mán	to behave in an uncivilized manner	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '逞蠻', p. 48)	3000387
+3000388	逞心	\N	chěng xīn	to be relazed	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '逞心', p. 48)	3000388
+3000389	逞欲	\N	chěng yù	to act in a selfish way	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '逞欲', p. 48)	3000389
+3000390	逞颜色	逞顏色	chěng yánsè	to relax one's facial expression	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '逞顏色', p. 48)	3000390
+3000391	不可亿逞	不可億逞	bù kě yì chěng	unable to predict	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '不可億逞', p. 48)	3000391
+3000392	成了器	\N	chéng le qì	to be able to do something	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成了器', p. 48)	3000392
+3000393	成了客	\N	chéng le kè	to act like a visitor	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931  '成了客', p. 48)	3000393

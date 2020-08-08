@@ -6071,3 +6071,52 @@
 6006071	夏目漱石	\N	xiàmù shùshí	Natsume Sōseki	proper noun	作者	Author	历史	History	日本	Japan	\N	\N	1867-1916; One of the first modern Japanese novelists (CC-CEDICT '夏目漱石')	6006071
 6006072	大仲马	大仲馬	dàzhòngmǎ	Alexandre Dumas, père	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1802-1870; French writer (CC-CEDICT '大仲馬')	6006072
 6006073	大久保利通	\N	dàjiǔbǎo lìtōng	Oukubo Toshimichi	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1830-1878; Japanese politician (CC-CEDICT '大久保利通')	6006073
+6006074	契诃夫	契訶夫	qìhēfū	Anton Pavlovich Chekhov	proper noun	人	Person	文学	Literature	欧洲	Europe	\N	\N	1860-1904; Russian writer famous for his short stories and plays (CC-CEDICT '契訶夫')	6006074
+6006075	奥匈帝国	奧匈帝國	ào xiōng dìguó	Austro-Hungarian Empire 1867-1918	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '奧匈帝國')	6006075
+6006076	奥康内尔	奧康內爾	ào kāng nèi ěr	O'Connell (name) / Daniel O'Connell	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1775-1847; Irish nationalist and catholic activist (CC-CEDICT '奧康內爾')	6006076
+6006077	奥康纳	奧康納	àokāngnà	O'Connor (name) / Thomas Power O'Connor	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	1848-1929; Irish journalist and nationalist political leader (CC-CEDICT '奧康納')	6006077
+6006078	奥斯特洛夫斯基	奧斯特洛夫斯基	àosītéluòfūsījī	Alexander Ostrovsky	proper noun	人	Person	文学	Literature	欧洲	Europe	\N	\N	1823-1886; Russian playwright (CC-CEDICT '奧斯特洛夫斯基')	6006078
+6006079	戴安澜	戴安瀾	dài ānlán	Dai Anlan	proper noun	人	Person	历史	History	中国	China	\N	\N	1904-1942; General of the Republic of China army (Wikipedia '戴安澜')	6006079
+6006080	好兵帅克	好兵帥克	hǎo bīng shuài kè	The Good Soldier Švejk (Schweik)	proper noun	\N	\N	文学	Literature	欧洲	Europe	\N	\N	satirical novel by Czech author Jaroslav Hašek 1883-1923 (CC-CEDICT '好兵帥克')	6006080
+6006081	孙传芳	孫傳芳	sūnchuánfāng	Sun Chuanfang	proper noun	\N	\N	历史	History	中国	China	\N	\N	1885-1935; A northern warlord, murdered in Tianjin in 1935 (CC-CEDICT '孫傳芳')	6006081
+6006082	孙逸仙	孫逸仙	sūnyìxiān	Dr Sun Yat-sen	proper noun	人	Person	历史	History	中国	China	\N	\N	Same as 孙中山; 1866-1925; First president of the Republic of China and co-founder of the Kuomintang, same as 孙中山 (CC-CEDICT '孫逸仙')	6006082
+6006083	安东尼与克莉奥佩特拉	安東尼與克莉奧佩特拉	āndōngní yǔ kèlìàopèitélā	Anthony and Cleopatra	proper noun	\N	\N	历史	History	\N	\N	\N	\N	(CC-CEDICT '安東尼與克莉奧佩特拉')	6006083
+6006084	安重根	\N	ānzhònggēn	An Jung-geun or Ahn Joong-keun	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1879-1910; Korean independence activist, famous as assassin of Japanese prime minister ITŌ Hirobumi 伊藤博文 in 1909 (CC-CEDICT '安重根')	6006084
+6006085	宋教仁	\N	sòngjiāorén	Song Jiaoren	proper noun	人	Person	历史	History	中国	China	\N	\N	1882-1913; Politician of the revolutionary party involved in the 1911 Xinhai revolution, murdered in Shanghai in 1913 (CC-CEDICT '宋教仁')	6006085
+6006086	尼尔逊	尼爾遜	níěrxùn	Nelson or Nillson (name) / Horatio Nelson	proper noun	人	Person	历史	History	英国	England	\N	\N	1758-1805; British naval hero (CC-CEDICT '尼爾遜')	6006086
+6006087	屠格涅夫	\N	túgénièfū	Ivan Sergeevich Turgenev	proper noun	作者	Author	历史	History	欧洲	Europe	\N	\N	1818-1883; Russian novelist (CC-CEDICT '屠格涅夫')	6006087
+6006088	山本五十六	\N	shān běn wǔshíliù	Yamamoto Isoroku	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1884-1943; Japanese admiral (CC-CEDICT '山本五十六')	6006088
+6006089	左拉	\N	zuǒlā	Zola (name) / Émile Zola	proper noun	作者	Author	历史	History	欧洲	Europe	\N	\N	1840-1902; French naturalist novelist (CC-CEDICT '左拉')	6006089
+6006090	巴斯德	\N	bāsīdé	Louis Pasteur	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1822-1895; French chemist and microbiologist (CC-CEDICT '巴斯德')	6006090
+6006091	巴尔扎克	巴爾扎克	bāěr zhā kè	Honoré de Balzac	proper noun	作者	Author	历史	History	欧洲	Europe	\N	\N	1799-1850; French novelist, author of series La comédie humaine (CC-CEDICT '巴爾扎克')	6006091
+6006092	巴甫洛夫	\N	bāfǔluòfū	Pavlov (name) / Ivan Petrovich Pavlov	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1849-1936; Russian experimental psychologist (CC-CEDICT '巴甫洛夫')	6006092
+6006093	布哈林	\N	bùhālín	Nikolai Ivanovich Bukharin	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1888-1938; Soviet revolutionary theorist, executed after a show trial in 1937 (CC-CEDICT '布哈林')	6006093
+6006094	布莱叶	布萊葉	bùláiyè	Braille (name) / Louis Braille	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1809-1852; French educator who invented braille (CC-CEDICT '布萊葉')	6006094
+6006095	铁血宰相	鐵血宰相	tiě xuè zǎixiàng	Iron Chancellor	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	Refers to Otto von Bismarck 1815-1898 (CC-CEDICT '鐵血宰相')	6006095
+6006096	马克斯	馬克斯	mǎkèsī	Marx	proper noun	哲学家	Philosopher 	历史	History	德國	Germany	\N	\N	1818-1883; Karl Marx (Wikipedia '卡爾·馬克思')	6006096
+6006097	俾斯麦	俾斯麥	bǐsīmài	Bismarck (name) / Otto von Bismarck	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1815-1898; Prussian politician, Minister-President of Prussia 1862-1873, Chancellor of Germany 1871-1890 (CC-CEDICT '俾斯麥')	6006097
+6006098	法属南部领地 	法屬南部領地	Fǎ shǔ Nánbù Lǐngdì	French Southern and Antarctic Lands	proper noun	领地	Territory	现代汉语	Modern Chinese	地理学	Geography	\N	\N	A French territory near the Antarctic (XHZD, p. 704)	6006098
+6006099	英属印度洋领地	英屬印度洋領地	Yīng shǔ Yìndù Yáng Lǐngdì	British Indian Ocean Territory	proper noun	领地	Territory	地方	Places	非洲	Africa	\N	\N	English territory in the Indian Ocean (XHZD, p. 704)	6006099
+6006100	多哥	\N	duōgē	Togo	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Country in West Africa (SDC, p. 122; XHZD, p. 702)	6006100
+6006101	波士尼亚	波士尼亞	Bōshìníyà	Bosnia	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	Taiwanese written form, see also 波斯尼亚 (CC-CEDICT '波士尼亞')	6006101
+6006102	波斯尼亚	波斯尼亚	Bōsīníyà	Bosnia	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 105; XHZD, p. 701)	6006101
+6006103	黑格尔	黑格爾	hēigéěr	Hegel	proper noun	哲学家	Philosopher 	史	History	欧洲	Europe	\N	\N	1770-1831; Georg Wilhelm Friedrich Hegel (Wikipedia '格奧爾格·威廉·弗里德里希·黑格爾')	6006103
+6006104	自然辩证法	自然辯證法	zìrán biànzhèng fǎ	Dialectics of Nature	proper noun	書	Book	现代汉语	Modern Chinese	哲学	Philosophy	\N	\N	An unfinished work by Friedrich Engels (Wikipedia '自然辩证法')	6006104
+6006105	诺曼底	諾曼底	Nuòmàndǐ	Normandy	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(Wikipedia '诺曼底大区')	6006105
+6006106	塞尔维亚	塞爾維亞	Sāi'ěrwéiyà	Serbia	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC 101; XHZD, p. 701)	6006106
+6006107	萨拉米斯大海	薩拉米斯大海	sàlāmǐsī dàhǎi	Salamis Bay	proper noun	海湾	Gulf	地方	Places	欧洲	Europe	\N	\N	In Greece (Wikipedia '萨拉米斯')	6006107
+6006108	萨拉米斯	薩拉米斯	sàlāmǐsī	Salamis	proper noun	岛	Island	地方	Places	欧洲	Europe	\N	\N	In Greece (Wikipedia '萨拉米斯')	6006108
+6006109	法兰西共和国	法蘭西共和國	Fǎlánxī Gònghéguó	The Republic of France	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(Wikipedia '法国')	6006109
+6006110	大不列颠及北爱尔兰联合王国	大不列顛及北爱尔兰联合王国	Dàbùlièdiān jí Běi Aìěrlán Liánhé Wángguó	The United Kingdom of Great Britain and Northern Ireland	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(Wikipedia '英国')	6006110
+6006111	大不列颠	大不列顛	dà bùlièdiān	Great Britain	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '大不列顛')	6006111
+6006112	北爱尔兰	北愛爾蘭	Běi Aìěrlán	Northern Ireland	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(Wikipedia '北爱尔兰')	6006112
+6006113	联合王国	聯合王國	Liánhé Wángguó	The United Kingdom	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(Cc-CEDICT '聯合王國'; Wikipedia '英国')	6006113
+6006114	苏黎世	蘇黎世	sūlíshì	Zurich	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Switzerland (CC-CEDICT '苏黎世'; Wikipedia '苏黎世')	6006114
+6006115	法罗群岛	法羅群島	Fǎluó Qúndǎo	Faroe Islands	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	An island country in the North Atlantic Ocean (SDC, p. 58; XHZD, p. 700)	6006115
+6006116	俄罗斯联邦	俄羅斯聯邦	Érluósī Liánbāng	Russian Federation (RSFSR)	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	Short form is 俄 (SDC, p. 70; XHZD, p. 700)	6006116
+6006117	摩尔多瓦	摩爾多瓦	Mó'ěrduōwǎ	Moldova	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 74; XHZD, p. 700)	6006117
+6006118	时事新报	時事新報	shíshì xīnbào	Jiji shimpō	proper noun	報纸	Newspaper	现代汉语	Modern Chinese	媒体	Media	\N	\N	Literally Jiji News or Current Events, a leading newspaper in the Meiji and Taisho eras founded by Fukuzawa Yukichi 福澤諭吉 (Wikipedia '福泽谕吉')	6006118
+6006119	周世钊	周世釗	zhōushìzhāo	Zhou Shizhao	proper noun	人	Person	历史	History	中国	China	\N	\N	1897-1976; Chinese educator and associate of Mao Zedong (Wikipedia '周世釗')	6006119
+6006120	巴黎大学	巴黎大學	bālí dàxué	University of Paris / Sorbonne	proper noun	大学	University	教育	Education	欧洲	Europe	\N	\N	(Wikipedia '巴黎大学')	6006120
+6006121	埃菲尔铁塔	埃菲爾鐵塔	Āifēi'ěrtiě Tǎ	Eiffel Tower	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(Wikipedia '艾菲爾鐵塔')	6006121
+6006122	大英联合王国	大英聯合王國	Dàyīng Liánhé Wángguó	United Kingdom	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '大英聯合王國')	6006122

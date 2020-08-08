@@ -25,10 +25,31 @@
       <b>Find</b>. The closest matching term will be ranked at the top. Click
       on the Chinese text of the term or the [Details] link to find out more
       about the term. The matching characters for each result are shown in red.
-      An example for the phrase 扶惑潤生 is shown in the 
-      screenshot below. The top result is 留惑潤生 'to conserve defilements to
-      benefit beings' (from the <i>Glossary of Humanistic Buddhism</i>), which
-      has three characters in common.
+      An example for the place name 波斯尼亚 'Bosnia' is shown in the 
+      screenshot below. The top result is 波斯尼亚 and then a number of place
+      names related to Bosnia. 
     </p>
-    <img src="/images/trans_mem_search.png"
-         title="translation memory search screenshot"/>
+    <div class='picture'>
+      <img src="/images/trans_mem_search.png"
+           title="translation memory search screenshot"/>
+      <div class='caption'>Screenshot searching on Translation Memory</div>
+    </div>
+    <p>
+      As another example, try the phrase 白浪滔天 'sky-high white waves are
+      roaring' from the poem 浪淘沙·北戴河 Ripples Sifting Sand: The Seaside -
+      Beidaihe (Mao Zedong 2020, <i>Illustrated Poems of Mao Zedong</i>, trans.
+      by Xu Yuanchon, p. loc. 632). You should see a few closely related
+      idioms.
+    </p>
+    <h3 class='article'>How does Translation Memory Work?</h3>
+    <p>
+      Translation memory works by searching on an index of all the terms in
+      the dictionary, named entity databaes, and a bank of phrases. The terms
+      with the most characters included (unigrams) are retrieved in the search.
+      Terms with the same pinyin pronunciation are also retrieved and combined
+      with the previous set. Each term is examined to see if it is a part
+      (subtstring) of the term or vice-versa.
+      Then the deviation from the exact order of the query (Hamming distance) is
+      computed. 
+      All of these aspects are scored and the scores summed up and sorted.
+    </p>
