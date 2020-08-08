@@ -5014,7 +5014,7 @@
 6005014	西北农林科技大学	西北農林科技大學	xīběi nónglín kējì dàxué	Northwest Agriculture and Forestry University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '西北農林科技大學')	6005014
 6005015	西南交通大学	西南交通大學	xīnán jiāotōng dàxué	Southwest Jiaotong University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '西南交通大學')	6005015
 6005016	西南大学	西南大學	xīnán dàxué	Southwest University (Chongqing)	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '西南大學')	6005016
-6005017	西安事变	西安事變	Xī'ān shìbiàn	Xi'an Incident of 12th December 1936 (kidnap of Chiang Kai-shek)	proper noun	\N	\N	历史	History	中国	China	\N	\N	(CC-CEDICT '西安事變')	6005017
+6005017	西安事变	西安事變	Xī'ān shìbiàn	Xi'an Incident	proper noun	\N	\N	历史	History	中国	China	\N	\N	12th December 1936; kidnapping of Chiang Kai-shek (CC-CEDICT '西安事變'; Guoyu '西安事變'; Snow 1968, pp. 42-44; Wikipedia '西安事变')	6005017
 6005018	西安交通大学	西安交通大學	Xī'ān jiāotōng dàxué	Xi'an Jiaotong University (XJTU)	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '西安交通大學')	6005018
 6005019	西安电子科技大学	西安電子科技大學	Xī'ān diànzǐ kējì dàxué	Xidian University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '西安電子科技大學')	6005019
 6005020	西弗吉尼亚	西弗吉尼亞	xīfú jí ní yà	West Virginia, US state	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '西弗吉尼亞')	6005020
@@ -6120,3 +6120,10 @@
 6006120	巴黎大学	巴黎大學	bālí dàxué	University of Paris / Sorbonne	proper noun	大学	University	教育	Education	欧洲	Europe	\N	\N	(Wikipedia '巴黎大学')	6006120
 6006121	埃菲尔铁塔	埃菲爾鐵塔	Āifēi'ěrtiě Tǎ	Eiffel Tower	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(Wikipedia '艾菲爾鐵塔')	6006121
 6006122	大英联合王国	大英聯合王國	Dàyīng Liánhé Wángguó	United Kingdom	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '大英聯合王國')	6006122
+6006123	杨虎城	楊虎城	yáng hǔchéng	Yang Hucheng	proper noun	人	Person	历史	History	中国	China	\N	\N	1893-1949; Chinese warlord and Nationalist general, instigator of the 西安事变 Xi'an Incident involving the kidnapping of Chiang Kai-shek (CC-CEDICT '楊虎城'; Snow 1968, pp. 42-44; Wikipedia '楊虎城')	6006123
+6006124	张学良	張學良	zhāng Xuéliáng	Zhang Xueliang	proper noun	将军	General	历史	History	中国	China	\N	\N	1901-2001; Northern warlord, son of Fengtian clique warlord, then senior general for the Nationalists and subsequently for the People's Liberation Army (Snow 1968, pp. 46-48; Wikipedia '张学良')	6006124
+6006125	中国美术馆	中國美術館	zhōngguó měishù guǎn	National Art Museum of China	proper noun	美术馆	Art Gallery	艺术	Art	中国	China	\N	\N	(Wikipedia '中国美术馆')	6006125
+6006126	立陶宛	\N	lìtáowǎn	Lithuania	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 66; XHZD, p. 700)	6006126
+6006127	琉森	\N	liúsēn	Lucerne	proper noun	城市	city	地方	Places	欧洲	Europe	\N	\N	(Wikipedia '卢塞恩')	6006127
+6006128	日内瓦	日內瓦	rìnèiwǎ	Geneva	proper noun	城市	city	地方	Places	欧洲	Europe	\N	\N	(Wikipedia '日内瓦')	6006128
+6006129	爱沙尼亚	愛沙尼亞	àishāníyà	Estonia	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 63; XHZD, p. 700)	6006129

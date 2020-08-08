@@ -69,6 +69,11 @@
       intended for this.
     </li>
     <li>
+      As a translation database to find similar terms to a phrase that a user is
+      trying to translate. For this purpose many phrases and named entities
+      are stored.
+    </li>
+    <li>
       Do miscelaeous searches: The user may not know the exact Chinese word
       but know something about it, such as a part of the word, one of the 
       English matching words, the pinyin text, or navigate to the word through
@@ -98,6 +103,20 @@
       etymology, such as whether it was used in early texts.
     </li>
   </ul>
+</p>
+<p>
+  The dictionary includes a general Chinese-English dictionary,
+  a named-entity (people, places, publication titles, etc) database of
+  Chinese names with their English equivalents, and phrase memory
+  databank. The number of named entities that could potentially grow to
+  millions. For this reason they are managed separately from the general
+  dicitonary. The general dictionary is stored in the file 
+  <a href="https://github.com/alexamies/chinesenotes.com/blob/master/data/words.txt"
+  >words.txt</a>. The modern named entities are stored in the file
+  <a href="https://github.com/alexamies/chinesenotes.com/blob/master/data/modern_named_entities.txt"
+  >modern_named_entities.txt</a>.
+  There are other files for Buddhist named entities and translated phrases in
+  the same directory.
 </p>
 <h3>User Profiles and Assumed Skills</h3>
 <p>

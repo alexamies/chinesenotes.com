@@ -391,3 +391,5 @@
 3000391	不可亿逞	不可億逞	bù kě yì chěng	unable to predict	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '不可億逞', p. 48)	3000391
 3000392	成了器	\N	chéng le qì	to be able to do something	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成了器', p. 48)	3000392
 3000393	成了客	\N	chéng le kè	to act like a visitor	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931  '成了客', p. 48)	3000393
+3000394	成仇	\N	chéng chóu	to start a feud	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931  '成了客', p. 48)	3000394
+3000395	成位	\N	chéngwèi	to establish a position	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成位', p. 48)	3000395
