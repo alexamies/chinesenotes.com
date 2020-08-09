@@ -212,3 +212,7 @@
 5000212	一山飞峙大江边	一山飛峙大江邊	yī shān fēi shì dà jiāng biān	a mountain stands in mid-air by the riverside	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	From 七律·登庐山 Seven Character Regular Verse: Up Mount Lu (Mao Zedong 2020, <i>Illustrated Poems of Mao Zedong</i>, trans. by Xu Yuanchon, p. loc. 773)	5000212
 5000213	跃上葱茏四百旋	躍上蔥蘢四百旋	yuè shàng cōnglóng sìbǎi xuán	four hundred twists and turns lead to its crest green-dyed	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	From 七律·登庐山 Seven Character Regular Verse: Up Mount Lu (Mao Zedong 2020, <i>Illustrated Poems of Mao Zedong</i>, trans. by Xu Yuanchon, p. loc. 773)	5000213
 5000214	中欧	中歐	zhōng ōu	China-Europe	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	E.g. trading relations (CC-CEDICT '中歐')	5000214
+5000215	成单	成單	chéng dān	to place an order for goods	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '成單', p. 48)	5000215
+5000216	定单	定單	dìng dān	to place an order for goods	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '成單', p. 48)	5000216
+5000217	中非	\N	Zhōng Fēi	China-Africa (relations)	set phrase	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '中非')	6006167
+5000218	欧洲帝国	歐洲帝國	ōuzhōu dìguó	European empires	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '欧洲帝国')	5000218

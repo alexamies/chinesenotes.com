@@ -6145,3 +6145,35 @@
 6006145	巴黎公社	\N	bālí gōngshè	Paris Commune	proper noun	起义	Uprising	历史	History	欧洲	Europe	\N	\N	1871, an unsuccessful uprising against the French government (Wikipedia '巴黎公社') 	6006145
 6006146	斯德哥尔摩	斯德哥爾摩	Sīdégē'ěrmó	Stockholm	proper noun	城市	city	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '斯德哥爾摩')	6006146
 6006147	列支敦士登	\N	lièzhīdūnshìdēng	Liechtenstein	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 79; XHZD, p. 700)	6006147
+6006148	卢森堡	盧森堡	lúsēnbǎo	Luxembourg	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 83; XHZD, p. 701)	6006148
+6006149	直布罗陀	直布羅陀	zhíbùluótuó	Gibraltar	proper noun	英国海外领土	British Overseas Territory	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 58; XHZD, p. 701)	6006149
+6006150	玛德琳	瑪德琳	mǎdélín	Madeleine	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '瑪德琳')	44137
+6006151	摩纳哥	摩納哥	Mónàgē	Monaco	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 83; XHZD, p. 701)	6006151
+6006152	玛格丽特	瑪格麗特	mǎgélìté	Margaret	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '瑪格麗特')	44138
+6006153	梵蒂冈	梵蒂岡	fàndìgāng	Vatican City	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 89; XHZD, p. 701)	6006153
+6006154	甲壳虫	甲殼蟲	jiǎqiàochóng	the Beatles	proper noun	\N	\N	音乐	Music	英国	England	\N	\N	1960s UK pop group (CC-CEDICT '甲殼蟲')	44139
+6006155	圣马力诺	聖馬力諾	shèng mǎlìnuò	San Marino	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 88; XHZD, p. 701)	6006155
+6006156	克罗地亚	克羅地亞	kèluódìyà	Croatia	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 104; XHZD, p. 701)	6006156
+6006157	斯洛伐克	\N	sīluòfákè	Slovak republic / Slovakia	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 79; XHZD, p. 701)	6006157
+6006158	当当	當當	dāngdāng	Dangdang (online retailer)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '當當')	44142
+6006159	斯洛文尼亚	斯洛文尼亞	sīluòwénníyà	Slovenia	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 104; XHZD, p. 701)	6006159
+6006160	波斯尼亚和黑塞哥维那	波斯尼亞和黑塞哥維那	Bōsīníyà hé Hēisāigēwéinà	Bosnia and Herzegovina	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	Short form is 波黑 (SDC, p. 105; Wikipedia '波斯尼亚和黑塞哥维那'; XHZD, p. 701)	6006160
+6006161	波黑	\N	Bō Hēi	Bosnia and Herzegovina	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	See 波斯尼亚和黑塞哥维那 (Wikipedia '波斯尼亚和黑塞哥维那')	6006161
+6006162	黑山	\N	hēishān	Montenegro	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 101; XHZD, p. 701)	6006162
+6006163	塞内加尔	塞內加爾	Sāinèijiā'ěr	Senegal	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 129; XHZD, p. 702)	6006163
+6006164	几内亚比绍	幾內亞比紹	Jīnèiyà Bìshào	Guinea-Bissau	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 130; XHZD, p. 702)	6006164
+6006165	科特迪瓦	\N	kētédíwǎ	Côte d'Ivoire / Ivory Coast in West Africa	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 123; XHZD, p. 702)	6006165
+6006166	喀麦隆	喀麥隆	kāmàilóng	Cameroon	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Country in Central Africa (SDC, p. 127; XHZD, p. 702)	6006166
+6006167	中非	\N	Zhōng Fēi	Central African Republic	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Country in Central Africa (SDC, p. 134; XHZD, p. 703)	6006167
+6006168	中非	\N	Zhōng Fēi	Central Africa	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	Region in Central Africa (Wikipedia '中部非洲')	6006167
+6006169	阿尔卑斯	阿爾卑斯	a'ěrbēisī	Alps	proper noun	山脉	Mountain Range	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '阿爾卑斯'; Guoyu '阿爾卑斯')	6006169
+6006170	弗里德里希·恩格斯	\N	fúlǐdélǐxī ēngésī	Friedrich Engels	proper noun	哲学家	Philosopher 	史	History	欧洲	Europe	\N	\N	(Wikipedia '弗里德里希·恩格斯')	6006170
+6006171	恩格斯	\N	ēngésī	Friedrich Engels	proper noun	哲学家	Philosopher 	史	History	欧洲	Europe	\N	\N	See 弗里德里希·恩格斯 (Wikipedia '弗里德里希·恩格斯')	6006171
+6006172	歌德	\N	gēdé	Johann Wolfgang von Goethe	proper noun	人	Person	文学	Literature	欧洲	Europe	\N	\N	1749-1832; German poet and dramatist (CC-CEDICT '歌德')	6006172
+6006173	伯恩	\N	bóēn	Bern / Berne	proper noun	首都	Capital	地方	Places	欧洲	Europe	\N	\N	The capital of Switzerland; Taiwanese usage (CC-CEDICT '伯恩')	6006173
+6006174	比安	\N	bìān	Bienne	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '比安')	6006174
+6006175	马赛	馬賽	mǎsài	Marseille	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	A city in south France (CC-CEDICT '馬賽')	6006175
+6006176	普法战争	普法戰爭	pǔfǎ zhànzhēng	Franco-Prussian War	proper noun	战争	War	历史	History	欧洲	Europe	\N	\N	1870-1871 (CC-CEDICT '普法戰爭')	6006176
+6006177	庞贝	龐貝	pángbèi	Pompeii	proper noun	地名	Place Name	历史	History	欧洲	Europe	\N	\N	Ancient Roman town near Naples, Italy (CC-CEDICT '龐貝')	6006177
+6006178	隆河	\N	lónghé	Rhone	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	A river of Switzerland and France; also written 罗纳河 (CC-CEDICT '隆河')	6006178
+6006179	根特	\N	gēnté	Ghent	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Belgium (CC-CEDICT '根特')	6006179

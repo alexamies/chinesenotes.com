@@ -397,3 +397,9 @@
 3000397	天寒	\N	tiān hán	the weather is cold	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	For example, in the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (Guoyu '天寒'; tr. by Pollard 2002, p. 29)	3000397
 3000398	夜长	夜長	yè cháng	the nights [are] long	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	For example, in the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000398
 3000399	成势	成勢	chéng shì	to gain the advantage	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成勢', p. 48)	3000399
+3000400	岁惟	歲惟	suì wéi dīng mǎo	the year is the [...]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000400
+3000401	鸿雁于征	鴻雁於征	hóngyàn yú zhēng	Wild geese are on the wing	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000401
+3000402	草木黄落	草木黃落	cǎomù huángluò	plants yellow and die	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000402
+3000403	成城	\N	chéng chéng	to construct a rampart	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成城', p. 48)	3000403
+3000404	同祖	\N	tóng zǔ	kith and kin	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000404
+3000405	嘉蔬	\N	jiāshū	sacramental food	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	86817
