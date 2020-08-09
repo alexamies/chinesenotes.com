@@ -1,0 +1,30 @@
+<h4>Source<h4>
+<p>
+  Wikisource, accessed 2020-08-08, <a
+   href="https://zh.wikisource.org/wiki/陶淵明集"
+  >https://zh.wikisource.org/wiki/陶淵明集</a>.
+</p>
+
+<h4>English translations</h4>
+<p>
+  <li>
+    Pollard, David 2002, <i>The Chinese Essay: An Anthology</i>,
+    New York: Columbia University Press, pp. 29-30. Translation of poem
+    自祭文 Requiem for Myself.
+  </li>
+  <li>
+    Waley, Arthur 1919, <i>A Hundred and Seventy Chinese Poems</i>,
+    New York: Alfred Knopf,
+    <a href="https://en.wikisource.org/wiki/A_Hundred_and_Seventy_Chinese_Poems"
+    >https://en.wikisource.org/wiki/A_Hundred_and_Seventy_Chinese_Poems</a>.
+    Translation of selected poems.
+  </li>
+</p>
+
+<h4>Discussion<h4>
+<ol>
+  <li>
+    Idema, W L and Haft, L 1997, <i>A Guide to Chinese Literature</i>, 
+    Ann Arbor: Center for Chinese Studies, University of Michigan, p. 110.
+  </li>
+</ol>

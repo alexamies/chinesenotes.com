@@ -56,6 +56,7 @@ erya.csv	erya_collection.html	Er Ya 《爾雅》	The earliest Chinese dictionary
 shuowen.csv	shuowen.html	Shuo Wen Jie Zi 《說文解字》	An early Chinese dictionary	shuowen/shuowen000.txt	Literary Chinese	Prose	Northern and Southern Dynasties	historic dictionary
 chuci.csv	chuci.html	Songs of Chu 《楚辭》	An early collection of Warring States poemsby 屈原 Qu Yuan, compiled by Liu Xiang 劉向 in the Han	chuci/chuci000.txt	Literary Chinese	Poetry	Han	poetry
 wenxuan.csv	wenxuan.html	Wenxuan 《文選》	An  anthology of poetry covering the Warring States to c. 500 by 萧统 Xiao Tong (501-531) with commentary by 李善 Li Shan (630-689)	wenxuan/wenxuan000.txt	Literary Chinese	Poetry	520-530	poetry
+taoyuanmingji.csv	taoyuanmingji.html	Tao Yuanming Collected Poems 《陶淵明集》	The poetry of 陶潛 Tao Qian (365-427)	taoyuanmingji/taoyuanmingji000.txt	Literary Chinese	Poetry	365-427	poetry
 tang_poetry.csv	poetry.html	Selections of Tang Poetry	\N	\N	Literary Chinese	Poetry	Tang	poetry
 wenxin.csv	wenxin.html	The Literary Mind and the Carving of Dragons 《文心雕龍》	 An early Chinese text in literature theory by 劉勰 Liu Xie	wenxin/wenxin000.txt	Literary Chinese	Prose	465－520	literature
 qianziwen.csv	qianziwen.html	Thousand Character Classic 《千字文》	 A text reportedly commissioned by 周興嗣 Zhou Xingsi (470–521)	qianziwen/qianziwen000.txt	Literary Chinese	Prose	c. 521	literature

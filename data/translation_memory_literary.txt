@@ -393,3 +393,7 @@
 3000393	成了客	\N	chéng le kè	to act like a visitor	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931  '成了客', p. 48)	3000393
 3000394	成仇	\N	chéng chóu	to start a feud	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931  '成了客', p. 48)	3000394
 3000395	成位	\N	chéngwèi	to establish a position	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成位', p. 48)	3000395
+3000396	岁惟丁卯	歲惟丁卯	suì wéi dīng mǎo	the year is the fourth of the cycle	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000396
+3000397	天寒	\N	tiān hán	the weather is cold	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	For example, in the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (Guoyu '天寒'; tr. by Pollard 2002, p. 29)	3000397
+3000398	夜长	夜長	yè cháng	the nights [are] long	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	For example, in the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000398
+3000399	成势	成勢	chéng shì	to gain the advantage	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成勢', p. 48)	3000399

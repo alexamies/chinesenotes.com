@@ -6127,3 +6127,21 @@
 6006127	琉森	\N	liúsēn	Lucerne	proper noun	城市	city	地方	Places	欧洲	Europe	\N	\N	(Wikipedia '卢塞恩')	6006127
 6006128	日内瓦	日內瓦	rìnèiwǎ	Geneva	proper noun	城市	city	地方	Places	欧洲	Europe	\N	\N	(Wikipedia '日内瓦')	6006128
 6006129	爱沙尼亚	愛沙尼亞	àishāníyà	Estonia	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 63; XHZD, p. 700)	6006129
+6006130	爱琴	愛琴	Àiqín	Aegean	proper noun	海	Sea	地方	Places	欧洲	Europe	\N	\N	Sea between Greece and Turkey (Wikipedia '爱琴海')	6006130
+6006131	欧洲共同体	歐洲共同體	ōuzhōu gòngtóngtǐ	European Community	proper noun	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	An old term for EU, European Union 欧盟 (CC-CEDICT '歐洲共同體')	6006131
+6006132	柏林围墙	柏林圍牆	bǎilín wéiqiáng	Berlin Wall	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '柏林圍牆')	6006132
+6006133	伊万卡	\N	yīwànkǎ	Ivanka	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '伊万卡')	6006133
+6006134	欧洲杯	歐洲杯	Ōuzhōu bēi	European Cup	proper noun	\N	\N	体育	Sport	欧洲	Europe	\N	\N	The soccer tournament (CC-CEDICT '歐洲杯')	6006134
+6006135	克里特	\N	kèlǐté	Crete	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(Wikipedia '克里特')	6006135
+6006136	爱琴海	愛琴海	Àiqín Hǎi	Aegean Sea	proper noun	海	Sea	地方	Places	欧洲	Europe	\N	\N	(Wikipedia '爱琴海')	6006136
+6006137	拉脱维亚	拉脫維亞	lātuōwéiyà	Latvia	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 63; XHZD, p. 700)	6006137
+6006138	凡高	\N	fángāo	Vincent Van Gogh	proper noun	画家	Painter	艺术	Art	欧洲	Europe	\N	\N	1853-1890; Dutch post-Impressionist painter (CC-CEDICT '凡高')	6006138
+6006139	塔林	\N	tǎlín	Tallinn	proper noun	首都	Capital City	地方	Places	欧洲	Europe	\N	\N	Capital of Estonia (CC-CEDICT '塔林')	6006139
+6006140	坎城	\N	kǎnchéng	Cannes	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Taiwanse usage (CC-CEDICT '坎城')	6006140
+6006141	中化集团	中化集團	Zhōnghuà Jítuán	Sinochem Corporation (name of a group of companies)	proper noun	公司	Company	商务	Commerce	中国	China	\N	zhong1hua2ji2tuan2.mp3	(Wikipedia '中化集團')	6006141
+6006142	国家税务总局局	國家稅務總局	Guójiā Shuìwù Zǒngjú	State Administration of Taxation	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(Wikipedia '國家稅務總局')	6006142
+6006143	乌克兰	烏克蘭	wūkèlán	Ukraine	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	wu1ke4lan2.mp3	(SDC 71; XHZD, p. 700)	6006143
+6006144	巴士底	\N	Bāshìdǐ	the Bastille	proper noun	监狱	Prison	历史	History	欧洲	Europe	\N	\N	In Paris (CC-CEDICT '巴士底')	6006144
+6006145	巴黎公社	\N	bālí gōngshè	Paris Commune	proper noun	起义	Uprising	历史	History	欧洲	Europe	\N	\N	1871, an unsuccessful uprising against the French government (Wikipedia '巴黎公社') 	6006145
+6006146	斯德哥尔摩	斯德哥爾摩	Sīdégē'ěrmó	Stockholm	proper noun	城市	city	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '斯德哥爾摩')	6006146
+6006147	列支敦士登	\N	lièzhīdūnshìdēng	Liechtenstein	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 79; XHZD, p. 700)	6006147
