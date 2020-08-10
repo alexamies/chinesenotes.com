@@ -216,3 +216,13 @@
 5000216	定单	定單	dìng dān	to place an order for goods	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '成單', p. 48)	5000216
 5000217	中非	\N	Zhōng Fēi	China-Africa (relations)	set phrase	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '中非')	6006167
 5000218	欧洲帝国	歐洲帝國	ōuzhōu dìguó	European empires	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '欧洲帝国')	5000218
+5000219	老城区	老城區	lǎochéngqū	old city district / historical center	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '老城區')	91146
+5000220	成心作	\N	chéngxīn zuò	to do deliberately	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '成心作', p. 48)	5000220
+5000221	中南	\N	zhōng nán	China-South Africa	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中南')	70373
+5000222	足协	足協	zú xié	soccer association / soccer federation	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '足協')	5000222
+5000223	转台	轉台	zhuǎn tái	to change the channel (TV)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '轉台')	5000223
+5000224	转台	轉台	zhuǎn tái	rotating stage	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '轉台')	5000223
+5000225	迫降	\N	pòjiàng	to force to surrender	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '迫降')	95093
+5000226	亚非拉	亞非拉	yà fēi lā	Asia, Africa and Latin America	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '亞非拉')	5000226
+5000227	成样子	成樣子	chéng yàngzi	to appear well	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '成樣子', p. 48)	5000227
+5000228	成物	\N	chéngwù	a ready made product	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '成物', p. 49)	5000228

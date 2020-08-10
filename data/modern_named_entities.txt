@@ -6177,3 +6177,59 @@
 6006177	庞贝	龐貝	pángbèi	Pompeii	proper noun	地名	Place Name	历史	History	欧洲	Europe	\N	\N	Ancient Roman town near Naples, Italy (CC-CEDICT '龐貝')	6006177
 6006178	隆河	\N	lónghé	Rhone	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	A river of Switzerland and France; also written 罗纳河 (CC-CEDICT '隆河')	6006178
 6006179	根特	\N	gēnté	Ghent	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Belgium (CC-CEDICT '根特')	6006179
+6006180	洛桑	\N	luòsāng	Lausanne	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	City in Switzerland (CC-CEDICT '洛桑')	6006180
+6006181	英吉利海峡	英吉利海峽	yīngjílì hǎixiá	English Channel	proper noun	海峡	Channel	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '英吉利海峽')	6006181
+6006182	翼龙	翼龍	yìlóng	Dodge Nitro	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '翼龍')	90023
+6006183	阿尔巴尼亚	阿爾巴尼亞	Āěrbāníyà	Albania	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 96; XHZD, p. 701)	6006183
+6006184	沃州	\N	wòzhōu	Vaud	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Province of Switzerland (CC-CEDICT '沃州')	6006184
+6006185	罗纳	羅納	luónà	Rhone	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	River of Switzerland and France (CC-CEDICT '羅納')	6006185
+6006186	庇里牛斯山	\N	bìlǐniúsīshān	Pyrenees	proper noun	山脉	Mountain Range	地方	Places	欧洲	Europe	\N	\N	Mountain range in France and Spain (Guoyu '庇里牛斯山'; Wikipedia '庇里牛斯山')	6006186
+6006187	脸谱	臉譜	liǎnpǔ	Facebook 	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '臉譜')	114977
+6006188	塞纳河	塞納河	sāinàhé	Seine River	proper noun	河	River	地方	Places	欧洲	Europe	\N	\N	Located in France (Guoyu '塞納河'; Wikipedia '塞纳河')	6006188
+6006189	卧虎藏龙	臥虎藏龍	wòhǔ cáng lóng	Crouching Tiger, Hidden Dragon	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	Movie by Ang Lee 李安 (CC-CEDICT '臥虎藏龍')	114978
+6006190	塞纳	塞納	sāinà	Seine	proper noun	河	River	地方	Places	欧洲	Europe	\N	\N	River in France; see 塞纳河 (Guoyu '塞納河'; Wikipedia '塞纳河')	6006190
+6006191	巴塞隆纳	巴塞隆納	bāsāilóngnà	Barcelona	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Taiwanese writing (CC-CEDICT '巴塞隆納'; Guoyu '巴塞隆納'; Wikipedia '巴塞罗那')	6006191
+6006192	加泰隆尼亚	加泰隆尼亞	jiātàilóngníyà	Catalonia	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	An autonomous region of Spain (Wikipedia '加泰罗尼亚')	6006192
+6006193	伊比利亚半岛	伊比利亞半島	yībìlìyàbàndǎo	Iberian Peninsula	proper noun	半岛	Peninsula	地方	Places	欧洲	Europe	\N	\N	(Wikipedia '伊比利亚半岛')	6006193
+6006194	蓝精灵	藍精靈	lánjīnglíng	Smurf	proper noun	产品	Product	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '藍精靈')	6006194
+6006195	北荷兰	北荷蘭	běi hélán	North Holland	proper noun	\N	\N	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '北荷蘭')	6006195
+6006196	兰姆	蘭姆	lánmǔ	Lamb (name)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	Loanword; Loanword (CC-CEDICT '蘭姆')	6006196
+6006197	多瑙	\N	duōnǎo	the Danube	noun	水名	River	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '多瑙')	6006197
+6006198	多瑙河	\N	duōnǎohé	Danube	proper noun	水名	River	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '多瑙河')	6006198
+6006199	顿河	頓河	dùnhé	Don River	proper noun	水名	River	地方	Places	欧洲	Europe	\N	\N	In Russia (CC-CEDICT '頓河'; Wikipedia '頓河 (俄羅斯)')	6006199
+6006200	杰伊汉港	傑伊漢港	jiéyīhàngǎng	Ceyhan	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Turkish Mediterranean port (CC-CEDICT '傑伊漢港')	6006200
+6006201	彼得格勒	\N	bǐdegélēi	Petrograd (Saint Petersburg)	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '彼得格勒')	6006201
+6006202	艾尔米塔奇	艾爾米塔奇	ài'ěrmǐtǎqí	Ermitazh or Hermitage museum in St Peterburg	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '艾爾米塔奇')	6006202
+6006203	艾菲尔铁塔	艾菲爾鐵塔	ài fēi ěr tiě tǎ	Eiffel Tower	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '艾菲爾鐵塔')	6006203
+6006204	努比亚	努比亞	nǔbìyà	Nubia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(Wikipedia '努比亚')	6006204
+6006205	马格里布	馬格裡布	Mǎgélǐbù	Maghreb / Maghrib	proper noun	\N	\N	地方	Places	非洲	Africa	\N	\N	From the Arabic name for the North African countries of Morocco, Algeria, Tunisia, Libya, and Mauritania (Wikipedia '马格里布')	6006205
+6006206	马拉喀什	馬拉喀什	mǎlākāshí	Marrakech	proper noun	\N	\N	历史	History	非洲	Africa	\N	\N	Former imperial city in Morocco (Wikipedia '马拉喀什')	6006206
+6006207	马里	馬裡	mǎlǐ	Mali	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 120; XHZD, p. 702)	6006207
+6006208	万隆会议	萬隆會議	Wànlóng Huìyì	Bandung Conference / Asian–African Conference	proper noun	会议	Conference	历史	History	\N	\N	\N	\N	1955 meeting of Asian and African states (Wikipedia '萬隆會議') 	6006208
+6006209	泰晤士	\N	Tàiwùshì	the Times	proper noun	报纸	Newspaper	现代汉语	Modern Chinese	媒体	Media	\N	\N	(CC-CEDICT '泰晤士')	6006209
+6006210	阿非利加	\N	afēilìjiā	Africa	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '阿非利加')	6006210
+6006211	贝宁	貝寧	bèiníng	Benin	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '貝寧')	6006211
+6006212	金砖	金磚	jīnzhuān	BRIC / BRICS economic bloc	proper noun	\N	\N	政治	Politics	\N	\N	\N	\N	Brazil, Russia, India, China, South Africa (CC-CEDICT '金磚')	6006212
+6006213	肯亚	肯亞	kěnyà	Kenya	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwan usagel written as 肯尼亚 in PRC (CC-CEDICT '肯亞')	6006213
+6006214	马拉威	馬拉威	mǎlāwēi	Malawi	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage; same as 马拉维 (CC-CEDICT '馬拉威')	6006214
+6006215	同济	同濟	tóngjì	Tongji University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation of 同济大学 (CC-CEDICT '同濟')	6006215
+6006216	德班	\N	débān	Durban	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	City in South Africa (CC-CEDICT '德班')	6006216
+6006217	卢安达	盧安達	lúāndá	Rwanda	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage; written in mainland as 卢旺达 (CC-CEDICT '盧安達')	6006217
+6006218	几内亚比索	幾內亞比索	jǐnèiyà bìsuǒ	Guinea-Bissau	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage; same as 几内亚比绍 (CC-CEDICT '幾內亞比索')	6006218
+6006219	尼日	\N	nírì	Niger	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage, same as 尼日尔 (CC-CEDICT '尼日')	6006219
+6006220	马达加斯加岛	馬達加斯加島	mǎdájiāsījiā dǎo	Madagascar	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '馬達加斯加島'; Wikipedia '馬達加斯加地理)	6006220
+6006221	赫兹	赫茲	hèzī	Hertz (name)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '赫茲')	6006221
+6006222	赫兹	赫茲	hèzī	Heinrich Hertz	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1857-1894; German physicist and meteorologist, pioneer of electromagnetic radiation (CC-CEDICT '赫茲')	6006221
+6006223	足协	足協	zú xié	Chinese Football Association	proper noun	\N	\N	体育	Sport	中国	China	\N	\N	Abbreviation for 足球协会 (CC-CEDICT '足協')	5000222
+6006224	葛摩	\N	gěmó	Comoros	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwan use (CC-CEDICT '葛摩')	6006224
+6006225	丑小鸭	醜小鴨	chǒu xiǎoyā	The Ugly Duckling	proper noun	书名	Book Title	文学	Literature	\N	\N	\N	\N	By Hans Christian Andersen 安徒生 (CC-CEDICT '醜小鴨'; Guoyu '醜小鴨' 1)	6006225
+6006226	内罗毕	內羅畢	nèiluóbì	Nairobi	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '內羅畢'; Wikipedia '內羅畢')	6006226
+6006227	阿非利加洲	\N	afēilìjiā zhōu	Africa	proper noun	地名	Place Name	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '阿非利加洲')	6006227
+6006228	尼日尔	尼日爾	nírìěr 	Niger	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 126; XHZD, p. 702)	6006228
+6006229	科尔多凡	科爾多凡	kē'ěrduōfán 	Congo	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(Wikipedia '科爾多凡')	6006229
+6006230	开罗	開羅	Kāiluó	Cairo	proper noun	首都	Capital	地方	Places	非洲	Africa	\N	\N	(Wikipedia '开罗')	6006230
+6006231	素马里	素馬里	Sùmǎlǐ	Somalia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Country in Africa (SDC, p. 138; XHZD, p. 703)	6006231
+6006232	坦桑尼亚	坦桑尼亞	tǎnsāngníyà	Tanzania	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The United Republic of Tanzania (SDC, p. 144; XHZD, p. 703)	6006232
+6006233	刚果	剛果	gāngguǒ	Congo	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	May refer to either The Democratic Republic of the Congo 刚果民主共和国 or The Republic of Congo 刚果共和国 (SDC, pp. 145-146; XHZD, p. 703)	6006233
+6006234	刚果民主共和国	剛果民主共和國	Gāngguǒ Mínzhǔ Gònghéguó	Democratic Republic of the Congo	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Abbreviation: 刚果（金） (SDC, p. 144; XHZD, p. 703)	6006234
+6006235	亚历山大港	亞歷山大港	Yàlìshāndà gǎng	Alexandria	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	City and port in Egypt (Wikipedia '亚历山大港')	6006235
