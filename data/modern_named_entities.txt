@@ -8,7 +8,7 @@
 6000008	摩托罗拉	摩托羅拉	mótuōluólā	Motorola	proper noun	公司	Company	商务	Commerce	美国	United States	\N	mo2tuo1luo2la1.mp3	(Wikipedia '摩托罗拉')	6000008
 6000009	搜狐	\N	sōuhú	Sohu web portal	proper noun	公司	Company	媒体	Media	中国	China	\N	\N	Web site is at <a href='http://www.sohu.com/'>www.sohu.com</a> (Wikipedia '搜狐')	6000009
 6000010	宏碁	\N	hóngqí	Acer	proper noun	公司	Company	商务	Commerce	\N	\N	\N	\N	Taiwanese PC manufacturer (Wikipedia '宏碁')	6000010
-6000011	联想	聯想	liánxiǎng	Lenovo	proper noun	公司	Company	商务	Commerce	\N	\N	\N	lian2xiang3.mp3	Chinese PC manufacturer (Wikipedia '联想集团')	15433
+6000011	联想	聯想	liánxiǎng	Lenovo	proper noun	公司	Company	商务	Commerce	中国	China	\N	lian2xiang3.mp3	Chinese PC manufacturer (Wikipedia '联想集团')	15433
 6000012	微软	微軟	wéiruǎn	Microsoft	proper noun	公司	Company	商务	Commerce	美国	United States	\N	wei2ruan3.mp3	(Wikipedia '微软')	6000012
 6000013	微软公司	微軟公司	wéiruǎn gōngsī	Microsoft Corporation	proper noun	公司	Company	商务	Commerce	美国	United States	\N	wei2ruan3gong1si1.mp3	(Wikipedia '微软')	6000013
 6000014	戴尔	戴爾	dàiěr	Dell	proper noun	公司	Company	商务	Commerce	美国	United States	\N	dai4er3.mp3	(Wikipedia '戴爾')	6000014
@@ -6233,3 +6233,41 @@
 6006233	刚果	剛果	gāngguǒ	Congo	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	May refer to either The Democratic Republic of the Congo 刚果民主共和国 or The Republic of Congo 刚果共和国 (SDC, pp. 145-146; XHZD, p. 703)	6006233
 6006234	刚果民主共和国	剛果民主共和國	Gāngguǒ Mínzhǔ Gònghéguó	Democratic Republic of the Congo	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Abbreviation: 刚果（金） (SDC, p. 144; XHZD, p. 703)	6006234
 6006235	亚历山大港	亞歷山大港	Yàlìshāndà gǎng	Alexandria	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	City and port in Egypt (Wikipedia '亚历山大港')	6006235
+6006236	刚果共和国	剛果共和國	Gāngguǒ Gònghéguó	The Republic of Congo	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Abbreviation: 刚果 (SDC, p. 144; XHZD, p. 703)	6006236
+6006237	利伯维尔	利伯維爾	lìbówéiěr	Libreville	proper noun	首都	Capital	地方	Places	非洲	Africa	\N	\N	Capital of Gabon 加蓬 (SDC, pp. 144-145; XHZD, p. 703)	6006237
+6006238	加蓬	\N	jiāpéng	Gabon	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Gabonese Republic (SDC, p. 144; XHZD, p. 703)	6006238
+6006239	圣多美和普林西比	聖多美和普林西比	shèngduōměi hé pǔlínxībì	São Tomé and Príncipe	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Democratic Republic of São Tomé and Príncipe (SDC, p. 146; XHZD, p. 703)	6006239
+6006240	科摩罗	科摩羅	kēmóluó	Comoros	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Union of Comoros (SDC, p. 151; XHZD, p. 703)	6006240
+6006241	留尼注	\N	liúnízhù	Reunion Island	proper noun	岛	Island	地方	Places	非洲	Africa	\N	\N	French territory in Africa (SDC, p. 153; XHZD, p. 703)	6006241
+6006242	足球协会	足球協會	zúqiú xiéhuì	Chinese Football Association	proper noun	\N	\N	体育	Sport	中国	China	\N	\N	(CC-CEDICT '足球協會')	5000229
+6006243	里约	里約	lǐyuē	Rio	proper noun	\N	\N	地方	Places	南美	South America	\N	\N	Abbreviation for 里约热内卢 (CC-CEDICT '里約')	44166
+6006244	纳米比亚	納米比亞	nàmǐbìyà	Namibia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Namibia (SDC, p. 153; XHZD, p. 704)	6006244
+6006245	莱素托	萊素托	láisùtuō	Lesotho	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Kingdom of Lesotho (SDC, p. 157; XHZD, p. 704)	6006245
+6006246	圣赫勒拿	聖赫勒拿	shèng hèlēiná	Saint Helena	proper noun	岛	Island	地方	Places	非洲	Africa	\N	\N	English territory in the Altantic (SDC, p. 153; XHZD, p. 704)	6006246
+6006247	厄立特里亚	厄立特里亞	Èlìtélǐyà	Eritrea	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The nation of Eritrea (SDC, p. 138; XHZD, p. 704)	6006247
+6006248	星洲日报	星洲日報	xīngzhōu rìbào	Sin Chew Daily	proper noun	報纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '星洲日報')	6006248
+6006249	海峡时报	海峽時報	hǎixiá shíbào	The Straits Times	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '海峽時報')	6006249
+6006250	中国日报	中國日報	zhōngguó rìbào	China Daily	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	An English language newspaper (CC-CEDICT '中國日報')	6006250
+6006251	泰晤士报	泰晤士報	tàiwù shìbào	Times	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '泰晤士報')	6006251
+6006252	华尔街日报	華爾街日報	huà'ěr jiē rìbào	Wall Street Journal	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '華爾街日報')	6006252
+6006253	兰州大学	蘭州大學	lánzhōu dàxué	Lanzhou University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '蘭州大學')	6006253
+6006254	真理报	真理報	zhēnlǐ bào	Pravda	proper noun	報纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '真理報')	6006254
+6006255	太阳报	太陽報	tàiyáng bào	The Sun	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	The name of various newspapers, notably in the UK and in Hong Kong (CC-CEDICT '太陽報')	6006255
+6006256	中青	\N	zhōngqīng	China Youth Daily	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	An official newspaper; abbreviation for 中国青年报 (CC-CEDICT '中青'; Wikipedia '中國青年報')	6006256
+6006257	雄猫	雄貓	xióngmāo	F-14 Tomcat	proper noun	\N	\N	军事	Military	美国	United States	\N	\N	(CC-CEDICT '雄貓')	89944
+6006258	日经	日經	rìjīng	Nikkei / Nikkei Shimbun	proper noun	報纸	Newspaper	媒体	Media	日本	Japan	\N	\N	Abbreviation for Nikkei Shimbun 日本经济新闻, Japanese financial newspaper (CC-CEDICT '日經')	6006258
+6006259	日本经济新闻	日本經濟新聞	Rìběn jīngjì xīnwén	Nikkei Shimbun	proper noun	報纸	Newspaper	媒体	Media	日本	Japan	\N	\N	(CC-CEDICT '日本經濟新聞'; Wikipedia '日本經濟新聞')	6006259
+6006260	日经指数	日經指數	rì jīng zhǐshǔ	Nikkei 225	proper noun	\N	\N	商务	Commerce	日本	Japan	\N	\N	Stock market index (CC-CEDICT '日經指數'; Wikipedia '日經平均指數')	6006260
+6006261	中国新闻网	中國新聞網	zhōngguó xīnwén wǎng	China News Service website	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	chinanews.com (CC-CEDICT '中國新聞網')	6006261
+6006262	中时	中時	zhōngshí	China Times	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	An abbreviation for 中国时报 (CC-CEDICT '中時')	6006262
+6006263	法制晚报	法製晚報	fǎzhì wǎnbào	Lawcourt Evening News	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	An offshoot of 北京年青报 specialising in legal news, www.fawan.com (CC-CEDICT '法製晚報')	6006263
+6006264	中国时报	中國時報	zhōngguó shíbào	China Times	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '中國時報')	6006264
+6006265	联合报	聯合報	liánhé bào	United Daily News	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	Taiwan newspaper (CC-CEDICT '聯合報')	6006265
+6006266	中央日报	中央日報	zhōngyāng rìbào	Central Daily News	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '中央日報')	6006266
+6006267	世界日报	世界日報	shìjiè rìbào	World Journal	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	A US newspaper (CC-CEDICT '世界日報')	6006267
+6006268	新华	新華	xīnhuà	Xinhua	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	The Official Chinese News Agency (CC-CEDICT '新華')	6006268
+6006269	星岛日报	星島日報	xīngdǎo rìbào	Sing Tao Daily	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	Hong Kong newspaper (CC-CEDICT '星島日報')	6006269
+6006270	成报	成報	chéngbào	Sing Pao Daily News	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '成報')	6006270
+6006271	南华早报	南華早報	Nán Huà Zǎo Bào	South China Morning Post	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	A newspaper in Hong Kong (Wikipedia '南華早報')	6006271
+6006272	纽约时报	紐約時報	Niǔ Yuē Shíbào	New York Times	proper noun	日报	Daily Newspaper	媒体	Media	美国	United States	\N	\N	(Wikipedia '纽约时报')	6006272
+6006273	蔡英文	\N	Cài Yīngwén	Tsai Ing-wen	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	(956-; Taiwanese DPP politician, president of the Republic of China from 2016 (Wikipedia '蔡英文')	6006273

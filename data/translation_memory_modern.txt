@@ -226,3 +226,4 @@
 5000226	亚非拉	亞非拉	yà fēi lā	Asia, Africa and Latin America	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '亞非拉')	5000226
 5000227	成样子	成樣子	chéng yàngzi	to appear well	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '成樣子', p. 48)	5000227
 5000228	成物	\N	chéngwù	a ready made product	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '成物', p. 49)	5000228
+5000229	足球协会	足球協會	zúqiú xiéhuì	soccer association	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '足球協會')	5000229

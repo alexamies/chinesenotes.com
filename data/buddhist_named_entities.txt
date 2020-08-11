@@ -600,3 +600,20 @@
 7000600	八大人觉经十讲	八大人覺經十講	Bā Dà Rén Jué Jīng Shí Jiǎng	Ten Lectures on the Eight Realizations of a Bodhisattva Sutra	proper noun	书名	Book Title	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	Title of a book by Hsing Yun that forms the basis for the English translation (blpusacorp.com; WorldCat 'The Great realizations : a commentary on the Eight Realizations of a Bodhisattva Sutra')	7000600
 7000601	观世音菩萨普门品讲话	觀世音菩薩普門品講話	Guānshìyīn Púsà Pǔménpǐn Jiǎnghuà	A Commentary on Avalokitesvara's Universal Gate Sutra	proper noun	书名	Book Title	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	Title of a book by Hsing Yun (Hsing Yun and Miao Guang trans. 2016, p. 370; WorldCat 'The Universal gate : a commentary on Avalokitesvara's Universal gate sutra')	7000601
 7000602	海潮音	\N	hǎi cháo yīn	Ocean Waves Magazine / Sound of the Sea Tide	proper noun	佛教期刊	Buddhist Periodical 	佛教	Buddhism	\N	\N	\N	\N	Buddhist periodical (Humanistic Buddhism: Holding True to the Original Intents of Buddha, Hsing Yun, 2016, p. 373; Toward a Modern Chinese Buddhism: Taixu's Reforms, Don A. Pittman, 2001, p.100)	7000602
+7000603	佛法真义	佛法真義	fófǎzhēnyì	Buddha-Dharma: Pure and Simple	proper noun	书名	Book Title	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	(FoGuangPedia)	7000603
+7000604	对法宗	對法宗	duìfǎ zōng	Abhidharma school	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	(DDB '對法宗'; FGDB '阿毘達磨藏'; SH '對法宗', p. 423)	7000604
+7000605	六种苦行外道	六種苦行外道	liù zhǒng kǔxíng wàidào	six ascetic schools	phrase	\N	\N	佛教	Buddhism	印度	India	\N	\N	current in India at the time of the Buddha (FGDB '六種苦行外道'; SH '六種外道', p. 136)	7000605
+7000606	赵朴初	趙樸初	Zhào Pǔchū	Zhao Puchu	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	1907-2000, a Chinese lay Buddhist (FGDB '趙樸初'; Hsing Yun 2016, p. 13; Wikipedia '趙樸初')	7000606
+7000607	觉群周报	覺群週報	juéqún zhōubào	Awaken the Masses Weekly / Awakening the Multitude Weekly News	proper noun	佛教期刊	Buddhist Periodical 	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	(Hammerstrom, Erik J. 2015, <i>The Science of Chinese Buddhism: Early Twentieth-Century Engagements</i>; Hsing Yun and Miao Guang trans. 2016, p. 370)	7000607
+7000608	焦山佛学院	焦山佛學院	jiāoshān fóxué yuàn	Jiaoshan Buddhist College	proper noun	學院	Institute	佛教	Buddhism	中国	China	\N	\N	(Bright Star, Luminous Cloud: The Life of a Simple Monk, Fu Zhiying, 2008, p.43)	7000608
+7000609	释迦牟尼佛传	釋迦牟尼佛傳	shìjiāmóunífó zhuàn	The Biography of Sakyamuni Buddha	proper noun	書	Book	佛教	Buddhism	\N	\N	\N	\N	FGS Publication (FoguangPedia)	7000609
+7000610	不死矫乱论	不死矯亂論	bùsǐjiǎoluànlùn	Amarāvikkhepa	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	The doctrine or school or immortality based on analysis of attachment, an Indian school at the time of the Buddha (DDB '不死矯亂論'; FGDB '不死矯亂論')	7000610
+7000611	不死矫乱	不死矯亂	bùsǐjiǎoluàn	Amarāvikkhepa	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 不死矯亂論 (DDB '不死矯亂論'; FGDB '不死矯亂論')	7000611
+7000612	央掘	\N	yāngjué	Aṅgulimāla	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 鴦窶利摩羅 (SH '央掘摩羅', p. 184)	7000612
+7000613	央崛鬘	\N	yāngjuémán	Aṅgulimāla	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 鴦窶利摩羅 (SH '央掘摩羅', p. 184)	7000613
+7000614	盎崛利摩罗	盎崛利摩羅	àngjuélìmóluó	Aṅgulimāla	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 鴦窶利摩羅 (SH '央掘摩羅', p. 184)	7000614
+7000615	西山住部	\N	xīshānzhùbù	Aparaśaila	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: Aparaśaila; a subdivision of the Mahāsaṅghika school (DDB '西山住部'; FGDB '西山住部'; SH '西山住部', p. 222)	7000615
+7000616	西山	\N	xīshān	Aparaśaila	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 西山住部 (FGDB '西山住部')	69041
+7000617	阿伐罗势罗	阿伐羅勢羅	āfáluóshìluó	Aparaśaila	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 西山住部 (SH '西山住部', p. 222)	7000617
+7000618	阿罗说部	阿羅說部	āluóshuōbù	Aparaśaila	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 西山住部 (FGDB '西山住部')	7000618
+7000619	西山部	\N	xīshānbù	Aparaśaila	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 西山住部 (FGDB '西山住部')	7000619

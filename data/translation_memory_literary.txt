@@ -406,3 +406,6 @@
 3000406	成始成终	成始成終	chéng shǐ chéng zhōng	done well from start to finish	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成始成終', p .48)	3000406
 3000407	高旻	\N	gāo mín	high heaven	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000407
 3000408	成为一体	成為一體	chéng wéi yī tǐ	to form a complete whole	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成為一體', p. 48)	3000408
+3000409	成病	\N	chéngbìng	to become sick	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成病', p. 49)	3000409
+3000410	絺绤冬陈	絺绤冬陳	chīxì dōng chén	[my] plain hempen weave had to withstand the winter	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000410
+3000411	成空	\N	chéng kōng	to disapear into space	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成空', p. 49)	3000411
