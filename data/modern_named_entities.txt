@@ -6270,4 +6270,35 @@
 6006270	成报	成報	chéngbào	Sing Pao Daily News	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '成報')	6006270
 6006271	南华早报	南華早報	Nán Huà Zǎo Bào	South China Morning Post	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	A newspaper in Hong Kong (Wikipedia '南華早報')	6006271
 6006272	纽约时报	紐約時報	Niǔ Yuē Shíbào	New York Times	proper noun	日报	Daily Newspaper	媒体	Media	美国	United States	\N	\N	(Wikipedia '纽约时报')	6006272
-6006273	蔡英文	\N	Cài Yīngwén	Tsai Ing-wen	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	(956-; Taiwanese DPP politician, president of the Republic of China from 2016 (Wikipedia '蔡英文')	6006273
+6006273	蔡英文	\N	Cài Yīngwén	Tsai Ing-wen	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	956-; Taiwanese DPP politician, president of the Republic of China from 2016 (Wikipedia '蔡英文')	6006273
+6006274	新华社	新華社	xīnhuàshè	Xinhua News Agency	proper noun	\N	\N	媒体	Media	中国	China	\N	\N	(CC-CEDICT '新華社')	6006274
+6006275	朝日新闻	朝日新聞	cháorì xīnwén	Asahi Shimbun	proper noun	報纸	Newspaper	媒体	Media	日本	Japan	\N	\N	Japanese newspaper (CC-CEDICT '朝日新聞')	6006275
+6006276	明报	明報	míngbào	Ming Pao newspaper	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	Hong Kong (CC-CEDICT '明報')	6006276
+6006277	高斯	\N	gāosī	Carl Friedrich Gauss	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1777-1855; German mathematician (CC-CEDICT '高斯')	75307
+6006278	中央社	\N	zhōngyāng shè	Central News Agency	proper noun	\N	\N	媒体	Media	中国	China	\N	\N	In Taiwan (CC-CEDICT '中央社')	6006278
+6006279	麦克	麥克	màikè	Mike (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '麥克')	152170
+6006280	韦尔弗雷兹	韋爾弗雷茲	wéi ěr fúléi zī	(George) Wehrfritz	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	Beijing bureau chief of Newsweek (CC-CEDICT '韋爾弗雷茲')	6006280
+6006281	黄祸	黃禍	huánghuò	Yellow Peril	noun	书名	Book Title	文学	Literature	亚洲	Asia	\N	\N	Political novel by Wang Lixiong 王力雄 (CC-CEDICT '黃禍')	6006281
+6006282	韩素音	韓素音	hánsùyīn	Han Suyin	proper noun	人	Person	文学	Literature	\N	\N	\N	\N	1917-2012; Physician and author (CC-CEDICT '韓素音')	6006282
+6006283	中新网	中新網	Zhōng xīn wǎng	ChinaNews (China News Service)	proper noun	\N	\N	媒体	Media	中国	China	\N	\N	(Wikipedia '中国新闻社')	6006283
+6006284	东方日报	東方日報	dōngfāng rìbào	Oriental Daily News	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '東方日報')	6006284
+6006285	新报	新報	xīnbào	Hong Kong Daily News	proper noun	報纸	Newspaper	媒体	Media	中国	China	\N	\N	(Wikipedia '新報 (香港)')	6006285
+6006286	新报	新報	xīnbào	Novaya Gazeta	proper noun	報纸	Newspaper	媒体	Media	\N	\N	\N	\N	Russian newspaper (Wikipedia '新报 (俄罗斯)')	6006285
+6006287	洛杉矶时报	洛杉磯時報	luòshājī shíbào	Los Angeles Times	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '洛杉磯時報')	6006287
+6006288	大公报	大公報	dàgōngbào	Ta Kung Pao	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	Newspaper founded 1902 in Beijing, now published in Hong Kong (CC-CEDICT '大公報')	6006288
+6006289	观察家	觀察家	guānchájiā	The Observer	proper noun	報纸	Newspaper	媒体	Media	\N	\N	\N	\N	UK newspaper (CC-CEDICT '觀察家')	6006289
+6006290	华盛顿邮报	華盛頓郵報	huàchéngdùn yóubào	Washington Post	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	(CC-CEDICT '華盛頓郵報')	6006290
+6006291	新闻周刊	新聞週刊	xīnwén zhōukān	Newsweek magazine	proper noun	\N	\N	媒体	Media	\N	\N	\N	\N	Also written 新闻周刊 (CC-CEDICT '新聞週刊')	6006291
+6006292	南洋商报	南洋商報	nányáng shāngbào	Nanyang Siang Pau	proper noun	报纸	Newspaper	媒体	Media	\N	\N	\N	\N	Malaysia's oldest newspaper (CC-CEDICT '南洋商報')	6006292
+6006293	中国青年报	中國青年報	Zhōngguó Qīngnián Bào	China Youth Daily	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	(CC-CEDICT '中國青年報'; Wikipedia '中國青年報')	6006293
+6006294	新华网	新華網	xīnhuáwǎng	Xinhua News Network	proper noun	\N	\N	媒体	Media	中国	China	\N	xin1hua2wang3.mp3	(Wikipedia '新华网')	6006294
+6006295	京华时报	京華時報	Jīnghuá Shíbào	Beijing Times	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	Web site for the newspaper is called 京华网 Beijing Times Network (Wikipiedia '京华时报'; www.beijingtimes.com.cn)	6006295
+6006296	京华网	京華網	Jīnghuá Wǎng	Beijing Times Website	proper noun	报纸	Newspaper	媒体	Media	中国	China	\N	\N	Web site for the newspaper 京华时报 Beijing Times (www.beijingtimes.com.cn)	6006296
+6006297	新京报	新京報	Xīnjīng Bào	Beijing News	proper noun	报纸	Newspaper	现代汉语	Modern Chinese	媒体	Media	\N	\N	Web site is at <a href='http://www.thebeijingnews.com/'>www.thebeijingnews.com</a> (Wikipedia '新京报')	6006297
+6006298	中国人民大学	中國人民大學	Zhōngguó Rénmín Dàxué	Renmin University of China	proper noun	大学	University	教育	Education	中国	China	\N	zhong1guo2ren2min2da4xue2.mp3	(Baidu Baike '中国人民大学')	6006298
+6006299	人大	\N	Rén Dà	Renmin University of China	proper noun	大学	University	教育	Education	中国	China	\N	ren2da4.mp3	Abbreviation for Renmin University of China 中国人民大学 (CC-CEDICT '人大')	6006299
+6006300	上海交通大学	上海交通大學	Shànghǎi Jiāotōng Dàxué	Shanghai Jiaotong University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(Wikipedia '上海交通大學')	6006300
+6006301	碑林	\N	Bēilín	Bei Lin / Forest of Steles	proper noun	\N	\N	艺术	Art	中国	China	\N	\N	Museum in Xi'an with a large number of steles (Wikipedia '西安碑林')	6006301
+6006302	西直门	西直門	Xīzhímén	Xizhimen	proper noun	\N	\N	地方	Places	中国	China	\N	\N	A neighborhood of Beijing / Xizhimen, the main Beijing gate leading northwest; now a subway station on the way to Beijing and Tsinghua Universities (CC-CEDICT '西直門')	6006302
+6006303	首都师范大学	首都師範大學	Shǒudū Shīfàn Dàxué	Capital Normal University	proper noun	大学	University	教育	Education	中国	China	\N	\N	<a href='http://www.cnu.edu.cn/'>www.cnu.edu.cn</a> (Wikipedia '首都师范大学')	6006303
+6006304	中南大学	中南大學	Zhōngnán Dàxué	Central South University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Web site: <a href='http://www.csu.edu.cn/'>www.csu.edu.cn</a> (Wikipedia '中南大学')	6006304

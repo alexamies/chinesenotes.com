@@ -614,6 +614,31 @@
 7000614	盎崛利摩罗	盎崛利摩羅	àngjuélìmóluó	Aṅgulimāla	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 鴦窶利摩羅 (SH '央掘摩羅', p. 184)	7000614
 7000615	西山住部	\N	xīshānzhùbù	Aparaśaila	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: Aparaśaila; a subdivision of the Mahāsaṅghika school (DDB '西山住部'; FGDB '西山住部'; SH '西山住部', p. 222)	7000615
 7000616	西山	\N	xīshān	Aparaśaila	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 西山住部 (FGDB '西山住部')	69041
-7000617	阿伐罗势罗	阿伐羅勢羅	āfáluóshìluó	Aparaśaila	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 西山住部 (SH '西山住部', p. 222)	7000617
+7000617	阿伐罗势罗	阿伐羅勢羅	āfáluóshìluó	Aparaśaila	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: avraśāila, see 西山住部 (DDB '阿伐羅勢羅'; SH '阿伐羅勢羅', p. 285)	7000617
 7000618	阿罗说部	阿羅說部	āluóshuōbù	Aparaśaila	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 西山住部 (FGDB '西山住部')	7000618
 7000619	西山部	\N	xīshānbù	Aparaśaila	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 西山住部 (FGDB '西山住部')	7000619
+7000620	阿离耶暮攞萨婆悉底婆拖	阿離耶暮攞薩婆悉底婆拖	ālíyé mùluó sàpóxīdǐpótuō	Ārya-mūla-sarvâstivāda	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 說一切有部 (DDB '阿離耶暮攞薩婆悉底婆拖')	7000620
+7000621	不可弃部	不可棄部	bùkěqìbù	Āvantaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	The name of an Indian Buddhist school and its founder, who was abandoned by his mother and saved by his father; also known as 化地部 Mahīśāsaka (DDB '不可棄部'; FGDB '不可棄', SH '不可棄', p 105)	7000621
+7000622	不可弃	不可棄	bùkěqì	Āvantaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 不可棄部 (FGDB '不可棄')	7000621
+7000623	大不可弃	大不可棄	dàbùkěqì	Āvantikās	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 不可棄部 (SH '大不可棄', p. 83)	7000623
+7000624	化地部	\N	huàdìbù	Mahīśāsaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: mahīśāsaka or mahiṃśāsaka, Pali: mahiṃsāsaka, Japanese: Kejibu; an Indian Buddhist school, an offshoot from the Sarvāstivāda, one of the 小乘二十部 Twenty Hinayana schools (BL '化地部', p. 516; FGDB '化地部'; SH '化地部', p. 141)	7000624
+7000625	磨醯奢婆迦部	\N	móxīshēpójiābù	Mahīśāsaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 化地部 (SH '化地部', p. 141)	7000625
+7000626	弥喜舍婆阿	彌喜捨婆阿	míxǐshěpóā	Mahīśāsaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 化地部 (SH '化地部', p. 141)	7000626
+7000627	弥婆塞部	彌婆塞部	mípósāibù	Mahīśāsaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 化地部 (SH '化地部', p. 141)	7000627
+7000628	正地部	\N	zhèngdìbù	Mahīśāsaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 化地部 (SH '化地部', p. 141)	7000628
+7000629	弥沙塞部	彌沙塞部	míshāsāibù	Mahīśāsaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 化地部 (SH '化地部', p. 141)	7000629
+7000630	教地部	\N	jiāodìbù	Mahīśāsaka	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 化地部 (SH '化地部', p. 141)	7000630
+7000631	栖霞寺	棲霞寺	qīxiásì	Xixia Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Historic temple located in Nanjing (FGDB '棲霞寺')	7000631
+7000632	寂护	寂護	Jì Hù	Shantarakshita / Santaraksita	proper noun	论师	Pandit	佛教	Buddhism	印度	India	\N	\N	Śāntarakṣita, 8th Century Indian Buddhist pandit and abbot of Nalanda University (Wikipedia '寂護')	7000632
+7000633	普门品	普門品	pǔménpǐn	Universal Gate Sutra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	See 觀世音菩薩普門品 (FGDB '觀世音菩薩普門品')	7000633
+7000634	麦积山石窟	麥積山石窟	Màijī Shān Shíkū	Mount Maiji Grottoes	proper noun	石窟	Grottoes	佛教	Buddhism	甘肃	Gansu	\N	\N	Located near Tianshui, built from about 384 CE (Wikipedia '麦积山石窟')	7000634
+7000635	静安寺	靜安寺	Jìng ān Sì	Jing An Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	In Shanghai (Wikipedia '靜安寺')	7000635
+7000636	云冈石窟	雲岡石窟	yúngāng Shíkū	Yungang Grottoes	proper noun	石窟	Grottoes	佛教	Buddhism	中国	China	\N	\N	Historic site with Buddhist carvings located near Datong (Wikipedia '雲岡石窟')	7000636
+7000637	龙门石窟	龍門石窟	Lóngmén Shíkū	Longmen Grottoes	proper noun	石窟	Grottoes	佛教	Buddhism	中国	China	\N	\N	Well known site with Buddhist carvings located near Luoyang (BL 'Longmen')	7000637
+7000638	大足石窟	\N	Dàzú Shíkū	Dazu Grottoes	proper noun	石窟	Grottoes	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '大足石刻')	7000638
+7000639	九华山	九華山	Jiǔhuà Shān	Mount Jiuhua / Jiuhuashan	proper noun	佛教名山	Sacred Buddhist Mountain	佛教	Buddhism	安徽	Anhui	\N	\N	One of the four sacred Buddhist mountains in China, the home of Kṣitigarbha; FGS translation standard: Mount Jiuhua (BL 'Jiuhuashan'; Faxiang; FGDB '九華山')	7000639
+7000640	嘉兴藏	嘉興藏	Jiāxīng Zàng	Lengyan Temple Canon / Jiaxing Canon	proper noun	大藏經	Buddhist Canon	佛教	Buddhism	中国	China	\N	\N	See 楞嚴寺版 (Hsing Yun and Miao Guang trans. 2016, p. 372)	7000640
+7000641	多闻部	多聞部	DuōWénbù	Bahuśrutīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: bahuśrutīya, Pali: bahussutaka or bahulika, Japanese: Tamonbu; one of the 小乘二十部 twenty (or eighteen) schools of mainstream Indian Buddhism (BL 'Bahuśrutīya', p. 90; DDB '多聞部'; FGDB '多聞部'; SH '多聞部', p. 99)	7000641
+7000642	得多闻部	得多聞部	deDuōWénbù	Bahuśrutīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 多聞部 (FGDB '多聞部')	7000642
+7000643	波收娄多柯	波收婁多柯	bōshōulóuduōkē	Bahuśrutīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 多聞部 (FGDB '多聞部')	7000643
+7000644	婆吼输底柯	婆吼輸底柯	póhǒushūdǐkē	Bahuśrutīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 多聞部 (FGDB '多聞部')	7000644
