@@ -227,4 +227,5 @@
 5000227	成样子	成樣子	chéng yàngzi	to appear well	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '成樣子', p. 48)	5000227
 5000228	成物	\N	chéngwù	a ready made product	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '成物', p. 49)	5000228
 5000229	足球协会	足球協會	zúqiú xiéhuì	soccer association	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '足球協會')	5000229
-5000230	成立日	\N	chénglìrì	Founder's day	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成立日', p. 49)	5000230
+5000230	成立日	\N	chénglìrì	Founder's day	phrase	\N	\N	代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '成立日', p. 49)	5000230
+5000231	入团	入團	rù tuán	to enroll in the Communist Youth League	verb	\N	\N	代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '入團')	5000231

@@ -6302,3 +6302,22 @@
 6006302	西直门	西直門	Xīzhímén	Xizhimen	proper noun	\N	\N	地方	Places	中国	China	\N	\N	A neighborhood of Beijing / Xizhimen, the main Beijing gate leading northwest; now a subway station on the way to Beijing and Tsinghua Universities (CC-CEDICT '西直門')	6006302
 6006303	首都师范大学	首都師範大學	Shǒudū Shīfàn Dàxué	Capital Normal University	proper noun	大学	University	教育	Education	中国	China	\N	\N	<a href='http://www.cnu.edu.cn/'>www.cnu.edu.cn</a> (Wikipedia '首都师范大学')	6006303
 6006304	中南大学	中南大學	Zhōngnán Dàxué	Central South University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Web site: <a href='http://www.csu.edu.cn/'>www.csu.edu.cn</a> (Wikipedia '中南大学')	6006304
+6006305	邓发	\N	dèngfà	Deng Fa	proper noun	人	Person	历史	History	中国	China	\N	\N	1906-1946; Communist leader (Snow 1968, pp. 52-53; Wikipedia '邓发')	6006305
+6006306	香港中文大学	香港中文大學	xiānggǎng zhōngwén dàxué	The Chinese University of Hong Kong	proper noun	大学	University	教育	Education	香港	Hong Kong	\N	\N	(http://www.cuhk.edu.hk, Wikipedia '香港中文大學')	6006306
+6006307	香港大学	香港大學	xiānggǎng dàxué	the University of Hong Kong	proper noun	大学	University	教育	Education	香港	Hong Kong	\N	\N	(http://www.hku.hk, Wikipedia '香港大學')	6006307
+6006308	合肥工业大学	合肥工業大學	Héféi Gōngyè Dàxué	Hefei University of Technology	proper noun	大学	University	教育	Education	长沙	Changsha	\N	\N	Web site: <a href='http://www.hfut.edu.cn/ch/'>www.hfut.edu.cn/ch</a> (Baidu Baike '合肥工业大学')	6006308
+6006309	台湾大学	台灣大學	Táiwān Dàxué	University of Taiwan	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(Wikipedia '國立臺灣大學')	6006309
+6006310	维也纳大学	維也納大學	Qīnghuá Dàxué	University of Vienna	proper noun	大学	University	教育	Education	欧洲	Europe	\N	\N	(Wikipedia '维也纳大学')	6006310
+6006311	季羡林	\N	Jì Xiànlín	Ji Xianlin	proper noun	教授	Professor	教育	Education	中国	China	\N	\N	1911-2009, professor of Indian languages and history at Beijing University (Wikipedia '季羡林')	6006311
+6006312	香港理工大学	香港理工大學	Xiānggǎng Lǐgōng Dàxué	the Hong Kong Polytechnic University	proper noun	大学	University	教育	Education	香港	Hong Kong	\N	\N	(http://www51.polyu.edu.hk, Wikipedia '香港理工大學')	6006312
+6006313	清华大学	清華大學	Qīnghuá Dàxué	Qinghua University	proper noun	大学	University	教育	Education	中国	China	\N	qing1hua2da4xue2.mp3	(CC-CEDICT '清華大學')	6006313
+6006314	北大	\N	Běi Dà	Peking University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 北京大学 (Sullivan and Hearst 1997, 'BEIDA')	6006314
+6006315	美国大学出版社协会	美國大學出版社協會	Měiguó Dàxué Chūbǎnshè Xiéhuì	Association of American University Presses (AAUP)	proper noun	协会	Association	计算机科学	Computer Science	信息学	Information Science	\N	\N	(GLSIB, p. 1)	6006315
+6006316	浙江大学	浙江大學	Zhèjiāng Dàxué	Zhejiang University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '浙江大學')	6006316
+6006317	西北大学	西北大學	Xīběi Dàxué	Northwest University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '西北大學')	6006317
+6006318	南京大学	南京大學	Nánjīng Dàxué	Nanjing University, NJU	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '南京大學'; Wikipedia '南京大学')	6006318
+6006319	上海大学	上海大學	shànghǎi dàxué	Shanghai University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '上海大學'; Wikipedia '上海大学')	6006319
+6006320	吉林大学	吉林大學	jílín dàxué	Jilin University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '吉林大學')	6006320
+6006321	四川大学	四川大學	sìchuāndàxué	Sichuan University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '四川大學')	6006321
+6006322	东吴大学	東吳大學	Dōngwú Dàxué	Suzhou University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	Located in Suzhou (CC-CEDICT '東吳大學'; Wikipedia '东吴大学 (苏州)')	6006322
+6006323	哥伦比亚大学	哥倫比亞大學	Gēlúnbìyà dàxué	Columbia University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '哥倫比亞大學')	6006323

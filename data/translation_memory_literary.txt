@@ -412,3 +412,8 @@
 3000412	春秋代谢	春秋代謝	chūn qiū dài xiè	springs and summers	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000412
 3000413	务中园	務中園	wù zhōng yuán	laboured in the fields	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000413
 3000414	成竹	\N	chéngzhú	[imagine] a complete image of bamboo [before drawing it]	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成竹', p. 49)	3000414
+3000415	欣以素牍	欣以素牘	xīn yǐ sùdú	in a happy mood I turned to my books	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000415
+3000416	乐天委分	樂天委分	lè tiān wěi fēn	I was happy with my lot	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000416
+3000417	独迈	獨邁	dú mài	trod my own path	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000417
+3000418	穷庐	窮廬	qióng lú	poor dwelling	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 30)	3000418
+3000419	成圣	成聖	chéng shèng	to make holy	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成聖', p. 49)	3000419

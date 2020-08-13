@@ -642,3 +642,14 @@
 7000642	得多闻部	得多聞部	deDuōWénbù	Bahuśrutīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 多聞部 (FGDB '多聞部')	7000642
 7000643	波收娄多柯	波收婁多柯	bōshōulóuduōkē	Bahuśrutīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 多聞部 (FGDB '多聞部')	7000643
 7000644	婆吼输底柯	婆吼輸底柯	póhǒushūdǐkē	Bahuśrutīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 多聞部 (FGDB '多聞部')	7000644
+7000645	静命	靜命	Jìng Mìng	Shantarakshita / Santaraksita	proper noun	论师	Pandit	佛教	Buddhism	印度	India	\N	\N	See 寂護 (Wikipedia '寂護')	7000645
+7000646	禅怛罗乞答	禪怛羅乞答	Chán Dá Luó Qǐ Dá	Shantarakshita / Santaraksita	proper noun	论师	Pandit	佛教	Buddhism	印度	India	\N	\N	See 寂護 (FGDB ' 七覺士')	7000646
+7000647	西来大学	西來大學	Xīlái Dàxué	University of the West	proper noun	大学	University	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	A university in the Fo Guang Shan group located in California, USA (Wikipedia '西來大學')	7000647
+7000648	佛光大学	佛光大學	Fó Guāng Dàxué	Fo Guang University	proper noun	大学	University	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	A Buddhist university in Taiwan (FoguangPedia, Wikipedia '佛光大學')	7000648
+7000649	南华大学	南華大學	Nánhuá Dàxué	Nanhua University	proper noun	大学	University	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	A Buddhist university in Taiwan (FoguangPedia, Wikipedia '南華大學 (臺灣)')	7000649
+7000650	禅关策进	禪關策進	Chán Guān Cè Jìn	Whip for Spurring Students Onward Through the Chan Barrier Checkpoints / Changuan Cejin	proper noun	典籍	Canonical Text	佛教	Buddhism	中国	China	\N	\N	Japanese: Zenkan sakushin; the name of a text compiled by Zhu Hong included in the Chinese Buddhist canon. English translation: Broughton, Jeffrey L. 2014, <i>The Chan Whip Anthology: A Companion to Zen Practice</i>, Oxford University Press (T 2024; BL 'Changuan Cejin'; Ding '禪關策進'; FGDB '禪關策進')	7000650
+7000651	大衆部	\N	dàzhòngbù	Mahāsāṅghika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: mahāsāṅghika; an early Indian Buddhist school (DDB '大衆部'; SH '大衆部', p. 95)	7000651
+7000652	摩调僧祇部	摩調僧祇部	mótiáosēngzhǐbù	Mahāsāṅghika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 大衆部 (SH '大衆部', p. 95)	7000652
+7000653	贤乘部	賢乘部	xiánchéngbù	Bhadrayānīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: bhadrayānīya; an early Indian Buddhist school (DDB'賢乘部'; Guoyu '小乘二十部')	7000653
+7000654	贤部	賢部	xiánbù	Bhadrayānīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 賢乘部 (DDB '賢乘部')	7000654
+7000655	铺多	鋪多	pūduō	Bhūtāḥ	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	A non-Buddhist ascetic sect that smeared themselves with ashes (DDB '鋪多'; SH '鋪多', p. 445)	7000655
