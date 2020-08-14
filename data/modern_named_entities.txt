@@ -6320,4 +6320,29 @@
 6006320	吉林大学	吉林大學	jílín dàxué	Jilin University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '吉林大學')	6006320
 6006321	四川大学	四川大學	sìchuāndàxué	Sichuan University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '四川大學')	6006321
 6006322	东吴大学	東吳大學	Dōngwú Dàxué	Suzhou University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	Located in Suzhou (CC-CEDICT '東吳大學'; Wikipedia '东吴大学 (苏州)')	6006322
-6006323	哥伦比亚大学	哥倫比亞大學	Gēlúnbìyà dàxué	Columbia University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '哥倫比亞大學')	6006323
+6006323	哥伦比亚大学	哥倫比亞大學	gēlúnbìyà dàxué	Columbia University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '哥倫比亞大學')	6006323
+6006324	李克农	李克農	lǐ kènóng	Li Kenong	proper noun	人	Person	历史	History	印度	India	\N	\N	1899–1962; Communist leader (Snow, Edgar 1968, p. 477; Wikipedia '李克农')	6006324
+6006325	同文馆	同文館	tóngwénguǎn	the first modern Chinese library	noun	\N	\N	教育	Education	中国	China	\N	\N	Established in 1898 by William A.P. Martin 丁韪良, becoming the foundation for Peking University library (CC-CEDICT '同文館')	6006325
+6006326	乔治·布尔	喬治·布爾	qiáozhì bù ěr	George Boole	proper noun	人	Person	历史	History	英国	England	\N	\N	1815-1864; English mathematician, philosopher and logician, author of The Laws of Thought and the inventor of Boolean logic (CC-CEDICT '喬治·布爾')	6006326
+6006327	华梵大学	華梵大學	Huàfàn Dàxué	Huafan University	proper noun	大学	University	佛教	Buddhism	\N	\N	\N	\N	A Buddhist university located in Taiwan (FGDB '華梵大學'; Guoyu '華梵大學'; Wikipedia '華梵大學')	6006327
+6006328	上外	\N	shàngwài	Shanghai International Studies University (SISU)	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 上海外国语大学 (CC-CEDICT '上外')	6006328
+6006329	南大	\N	nán dà	Nanjing University (NJU)	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 南京大学 (CC-CEDICT '南大')	6006329
+6006330	中山大学	中山大學	zhōngshān dàxué	Sun Yat-sen University / Zhongshan University	proper noun	大学 	University 	教育	Education	廣東	Guangdong	\N	\N	Established in 1924, a Chinese public research university located in Guangdong, PRC. Abbreviated SYSU and colloquially known in Chinese as Zhongda (CC-CEDICT '中山大學'; Guoyu '中山大學')	6006330
+6006331	辅仁大学	輔仁大學	fǔrén dàxué	Fu Jen Catholic University of Peking	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '輔仁大學')	6006331
+6006332	中国计量大学	中國計量大學	Zhōngguó jìliàng dàxué	China Jiliang University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Located in Hangzhou (Wikipedia '中国计量大学')	6006332
+6006333	国大	國大	guódà	National Assembly of the Republic of China	proper noun	\N	\N	历史	History	中国	China	\N	\N	Abbr. for 国民大会, National Assembly of the Republic of China, extant during various periods between 1913 and 2005, also, Abbreviation for 新加坡国立大学, National University of Singapore NUS / 印度国民大会党, Indian National Congress INC; Abbreviation for 马来西亚印度国民大会党, Malaysian Indian Congress MIC (CC-CEDICT '國大')	6006333
+6006334	国立中山大学	國立中山大學	guólì zhōngshān dàxué	National Sun Yat-sen University	proper noun	大学 	University 	教育	Education	高雄	Kaohsiung	\N	\N	Established in 1980, a public university in Kaohsiung, Taiwan. Abbreviated NSYSU (Wikipedia '國立中山大學')	6006334
+6006335	天外	\N	tiān wài	Tianjin Foreign Studies University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 天津外国语大学 (CC-CEDICT '天外')	6006335
+6006336	天津外国语大学	天津外國語大學	Tiānjīn Wàiguóyǔ Dàxué	Tianjin Foreign Studies University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '天津外國語大學'; Wikipedia '天津外国语大学')	6006336
+6006337	东京大学	東京大學	dōngjīng dàxué	Tokyo University, Japan	proper noun	大学	University	教育	Education	日本	Japan	\N	\N	(CC-CEDICT '東京大學')	6006337
+6006338	台湾大学	臺灣大學	táiwān dàxué	National Taiwan University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	Abbreviation to 台大 (CC-CEDICT '臺灣大學')	6006338
+6006339	东海大学	東海大學	dōnghǎidàxué	Tunghai University	proper noun	大学	Unversity	教育	Education	\N	\N	\N	\N	In Taichung, Taiwan (CC-CEDICT '東海大學')	6006339
+6006340	交通大学	交通大學	jiāotōng dàxué	Jiao Tong University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 上海交通大学 Shanghai Jiao Tong University, 西安交通大学 Xia'an Jiaotong University, or 国立交通大学 National Chiao Tung University, Taiwan etc (CC-CEDICT '交通大學')	6006340
+6006341	立命馆大学	立命館大學	lìmìngguǎn dàxué	Ritsumeikan University	set phrase	大学	University	教育	Education	日本	Japan	\N	\N	(Wikipedia '立命馆大学')	6006341
+6006342	中兴大学	中興大學	zhōngxīng dàxué	National Chung Hsing University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	See 国立中兴大学 (Wikipedia '國立中興大學')	6006342
+6006343	国立中兴大学	國立中興大學	guólì zhōngxīng dàxué	National Chung Hsing University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	Located in Taichung, Taiwan (Wikipedia '國立中興大學')	6006343
+6006344	普法	\N	pǔfǎ	Pu Fa	proper noun	政治家	Politician	政治	Politics	中国	China	\N	\N	1962- ; Chinese politician (Wikipedia '普法')	6006344
+6006345	杭州大学	杭州大學	hángzhōu dàxué	Hangzhou University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(Wikipedia '杭州大学')	6006345
+6006346	史哲	\N	shǐzhé	Shih Che	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1969 - ; Taiwanese politician (Wikipedia '史哲')	6006346
+6006347	京大	\N	jīng dà	Kyoto University	proper noun	大学	University	教育	Education	日本	Japan	\N	\N	An abbreviation for 京都大学 (Wikipedia '京大')	6006347
+6006348	京都大学	京都大學	jīngdū dàxué	Kyoto University	proper noun	大学	University	教育	Education	日本	Japan	\N	\N	(Wikipedia '京都大学')	6006348

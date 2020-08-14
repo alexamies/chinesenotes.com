@@ -653,3 +653,15 @@
 7000653	贤乘部	賢乘部	xiánchéngbù	Bhadrayānīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: bhadrayānīya; an early Indian Buddhist school (DDB'賢乘部'; Guoyu '小乘二十部')	7000653
 7000654	贤部	賢部	xiánbù	Bhadrayānīya	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 賢乘部 (DDB '賢乘部')	7000654
 7000655	铺多	鋪多	pūduō	Bhūtāḥ	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	A non-Buddhist ascetic sect that smeared themselves with ashes (DDB '鋪多'; SH '鋪多', p. 445)	7000655
+7000656	大乘本生心地观经	大乘本生心地觀經	Dàshèng Běnshēng Xīn Dì Guān Jīng	Mayayana Sutra on Contemplation of the Mind-Ground of Essential Nature / Dasheng Bensheng Xin Di Guan Jing	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	A text in the Jātaka section of the Chinese Buddhist Canon (T 159; KDC 'K 1385'; Yixuan, and Thomas Yūhō Kirchner. 2009. <i>The Record of Linji</i>, University of Hawaii Press, p. 376)	7000656
+7000657	弥勒下生经	彌勒下生經	Mílè xià shēng jīng 	Sutra on Maitreya's Descent / Mile Xia Sheng Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Title of a text in the Chinese Buddhist canon (KDC 197; T 453; Ritzinger, J 2017. <i>Anarchy in the Pure Land: Reinventing the Cult of Maitreya in Modern Chinese Buddhism</i>. Oxford University Press)	7000657
+7000658	宝志	寶志	bǎozhì	Baozhi / Pao-chih	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 寶誌 (FGDB '寶誌')	7000658
+7000659	佛教大学	佛教大學	fójiāo dàxué	Bukkyo University	proper noun	大学	University	佛教	Buddhism	日本	Japan	\N	\N	See 日本佛教大学 (Wikipedia '佛教大学')	7000659
+7000660	制多山部	\N	zhìduōshānbù	Caitika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: caitya, caitika, or caityaśaila, Pali: cetiyavāda, Japanese: Seitasanbu or Seitasenbu; Indian Hinayana school (BL 'Caitya'; DDB '制多山部'; FGDB '制多山部'; SH '支提山部', p. 152)	7000660
+7000661	支提山部	\N	zhītíshānbù	Caitika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 制多山部 (SH '支提山部', p. 152)	7000661
+7000662	支提加部	\N	zhītíjiābù	Caitika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 制多山部 (SH '支提山部', p. 152)	7000662
+7000663	只底舸部	\N	zhīdǐgěbù	Caitika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 制多山部 (SH '支提山部', p. 152)	7000663
+7000664	制多部	\N	zhìduōbù	Caitika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 制多山部 (FGDB '制多山部')	7000664
+7000665	支提罗阿部	支提羅阿部	zhītíluóābù	Caitika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 制多山部 (FGDB '制多山部')	7000665
+7000666	遊迦部	\N	yóujiābù	Caitika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 制多山部 (FGDB '制多山部')	7000666
+7000667	摩诃提婆部	摩訶提婆部	móhētípóbù	Caitika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 制多山部 (FGDB '制多山部')	7000667

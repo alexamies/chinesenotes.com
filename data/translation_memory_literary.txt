@@ -417,3 +417,5 @@
 3000417	独迈	獨邁	dú mài	trod my own path	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 29)	3000417
 3000418	穷庐	窮廬	qióng lú	poor dwelling	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 30)	3000418
 3000419	成圣	成聖	chéng shèng	to make holy	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成聖', p. 49)	3000419
+3000420	葬之中野	\N	zàng zhī zhōngyě	buried in the wild	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 30)	3000420
+3000421	成衣店	\N	chéngyī diàn	a clothes store	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Where you could buy ready-made clothes, in contrast to a tailor who would make clothes to order (Mathews 1931 '成衣店', p. 49)	3000421
