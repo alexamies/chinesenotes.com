@@ -6346,3 +6346,35 @@
 6006346	史哲	\N	shǐzhé	Shih Che	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1969 - ; Taiwanese politician (Wikipedia '史哲')	6006346
 6006347	京大	\N	jīng dà	Kyoto University	proper noun	大学	University	教育	Education	日本	Japan	\N	\N	An abbreviation for 京都大学 (Wikipedia '京大')	6006347
 6006348	京都大学	京都大學	jīngdū dàxué	Kyoto University	proper noun	大学	University	教育	Education	日本	Japan	\N	\N	(Wikipedia '京都大学')	6006348
+6006349	东吴大学	東吳大學	Dōngwú Dàxué	Soochow University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	Located in Taipei, Taiwan since 1954 (CC-CEDICT '東吳大學'; Wikipedia '東吳大學 (臺灣)')	6006349
+6006350	任军	任軍	rèn jūn	Ren Jun	proper noun	演员	Actor	戏剧	Drama	中国	China	\N	\N	1968- ; Chinese actor (Wikipedia '任军')	6006350
+6006351	政治大学	政治大學	zhèngzhì dàxué	National Chengchi University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	Short form for 國立政治大學 (Wikipedia '國立政治大學')	6006351
+6006352	北京大学	北京大學	Běijīng Dàxué	Peking University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Located in Beijing, established in 1898 and renamed from the Imperial University in 1912 (Sullivan and Hearst 1997, 'BEIDA')	6006352
+6006353	清华	清華	qīnghuá	Qinghua	proper noun	大学	University	教育	Education	中国	China	\N	\N	Short for 清华大学 Qinghua University, in Beijing (CC-CEDICT '清華'; Guoyu '清華大學')	6006353
+6006354	国立政治大学	國立政治大學	guólì zhèngzhì dàxué	National Chengchi University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	Located in Taipei, Taiwan (Wikipedia '國立政治大學')	6006354
+6006355	辅大	輔大	fǔdà	Fu Jen Catholic University of Peking	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 辅仁大学 (CC-CEDICT '輔大')	6006355
+6006356	郡山女子大学	郡山女子大學	jùnshān nǚzi dàxué	Koriyama Women's University	proper noun	大学	University	教育	Education	日本	Japan	\N	\N	(Wikipedia '郡山女子大学')	6006356
+6006357	郡山大学	郡山大學	jùnshān nǚzi dàxué	Koriyama Women's University	proper noun	大学	University	教育	Education	日本	Japan	\N	\N	See 郡山女子大学 (Wikipedia '郡山女子大学')	6006357
+6006358	台北商业大学	台北商業大學	táiběi shāngyè dàxué	National Taipei University of Business	proper noun	大學	University	教育	Education	台灣	Taiwan	\N	\N	See 國立臺北商業大學 (Wikipedia '國立臺北商業大學')	6006358
+6006359	台湾省立农学院	臺灣省立農學院	táiwān shěnglì nóng xuéyuàn	Taiwan Provincial College of Agriculture	proper noun	學院	College	教育	Education	台灣	Taiwan	\N	\N	Renamed in 1946, former name of 國立中興大學, http://nchu.edu.tw/about/mid/22 (Wikipedia '國立中興大學')	6006359
+6006360	国立台北商业大学	國立臺北商業大學	guólì táiběi shāngyè dàxué	National Taipei University of Business	proper noun	大學	University	教育	Education	台灣	Taiwan	\N	\N	(http://www.ntub.edu.tw/bin/home.php, Wikipedia '國立臺北商業大學')	6006360
+6006361	台北州立商业学校	台北州立商業學校	táiběi zhōulì shāngyè xuéxiào	National Taipei University of Business [former name]	proper noun	大學	University	教育	Education	台灣	Taiwan	\N	\N	Renamed in 1921. See 國立臺北商業大學 (Wikipedia '國立臺北商業大學')	6006361
+6006362	州立台北商业学校	州立台北商業學校	zhōulì táiběi shāngyè xuéxiào	National Taipei University of Business [former name]	proper noun	大學	University	教育	Education	台灣	Taiwan	\N	\N	Renamed in 1922. See 國立臺北商業大學 (Wikipedia '國立臺北商業大學')	6006362
+6006363	州立台北第二商业学校	州立台北第二商業學校	zhōulì táiběi dìèr shāngyè xuéxiào	National Taipei University of Business [former campus name]	proper noun	大學	University	教育	Education	台灣	Taiwan	\N	\N	See 州立台北商業學校 (Wikipedia '國立臺北商業大學')	6006363
+6006364	台湾省立台北第一商业学校	台灣省立台北第一商業學校	táiwān shěnglì táiběi dìyī shāngyè xuéxiào	National Taipei University of Business [former name]	proper noun	大學	University	教育	Education	台灣	Taiwan	\N	\N	Renamed in 1945. See 國立臺北商業大學 (Wikipedia '國立臺北商業大學')	6006364
+6006365	台湾省立台北第二商业学校	台灣省立台北第二商業學校	táiwān shěnglì táiběi dìèr shāngyè xuéxiào	Taipei Second School of Business	proper noun	大學	University	教育	Education	台灣	Taiwan	\N	\N	See 台灣省立台北第一商業學校 (Wikipedia '國立臺北商業大學')	6006365
+6006366	台湾省立台北商业学校	台灣省立台北商業學校	táiwān shěnglì táiběi shāngyè xuéxiào	National Taipei University of Business [former name]	proper noun	大學	University	教育	Education	台灣	Taiwan	\N	\N	Renamed in 1949, abbreviated as 北商. See 國立臺北商業大學 (Wikipedia '國立臺北商業大學')	6006366
+6006367	台北市立高级商业职业学校	台北市立高級商業職業學校	táiběi shìlì gāojí shāngyè zhíyè xuéxiào	National Taipei University of Business [former name]	proper noun	大學	University	教育	Education	台灣	Taiwan	\N	\N	Renamed in July 1967. See 國立臺北商業大學 (Wikipedia '國立臺北商業大學')	6006367
+6006368	交大	\N	jiāodà	Jiaotong University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 交通大学 (CC-CEDICT '交大')	6006368
+6006369	台北市立商业专科学校	台北市立商業專科學校	táiběishìlìshāngyèzhuānkēxuéxiào	National Taipei University of Business [former name]	proper noun	大學	University	教育	Education	台灣	Taiwan	\N	\N	Renamed in August 1968. See 國立臺北商業大學 (Wikipedia '國立臺北商業大學')	6006369
+6006370	国立台北商业专科学校	國立台北商業專科學校	guólì táiběi shāngyè zhuānkē xuéxiào	National Taipei University of Business [former name]	proper noun	大學	University	教育	Education	台灣	Taiwan	\N	\N	Renamed in July 1982. See 國立臺北商業大學 (Wikipedia '國立臺北商業大學')	6006370
+6006371	国立台北商业技术学院	國立臺北商業技術學院	guólì táiběi shāngyè jìshù xuéyuàn	National Taipei College of Business	proper noun	大學	University	教育	Education	台灣	Taiwan	\N	\N	Renamed in August 1, 2001. See 國立臺北商業大學 (Wikipedia '國立臺北商業大學')	6006371
+6006372	国立台北商业大学	國立臺北商業大學	guólì táiběi shāngyè dàxué	National Taipei University of Business	proper noun	大學	University	教育	Education	台灣	Taiwan	\N	\N	Renamed in August 1, 2014. Abbreviated as NTUB. http://www.ntub.edu.tw (Wikipedia '國立臺北商業大學')	6006372
+6006373	中华民国行政院	中華民國行政院	zhōnghuà mínguó xíngzhèngyuàn	Executive Yuan, Republic of China	proper noun	\N	\N	政治	Politics	台灣	Taiwan	\N	\N	(Wikipedia '行政院')	6006373
+6006374	菲律宾大学	菲律賓大學	fēilǜbīn dàxué	University of the Philippines	proper noun	大学	University	教育	Education	亚洲	Asia	\N	\N	(CC-CEDICT '菲律賓大學')	6006374
+6006375	同济大学	同濟大學	tóngjì dàxué	Tongji University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '同濟大學')	6006375
+6006376	复旦大学	復旦大學	fùdàn dàxué	Fudan University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(Wikipedia '复旦大学')	6006376
+6006377	孔子学院	孔子學院	kǒngzi xuéyuàn	Confucius Institute	proper noun	\N	\N	教育	Education	中国	China	\N	\N	(Wikipedia '孔子学院')	6006377
+6006378	英属哥伦比亚大学	英屬哥倫比亞大學	Yīngshǔ Gēlúnbìyà dàxué	University of British Columbia	proper noun	大学	University	教育	Education	加拿大	Canada	\N	\N	(Wikipedia '英属哥伦比亚大学')	6006378
+6006379	宗教文化出版社	\N	zōngjiào wénhuà chūbǎnshè	China Religion Culture Publishing	proper noun	出版者	Publisher	商务	Commerce	中国	China	\N	\N	(<a href='http://www.sara.gov.cn/old/zzjg/zjwhcbs/index.htm'>http://www.sara.gov.cn/old/zzjg/zjwhcbs/index.htm</a>, Wikipedia '宗教文化出版社')	6006379
+6006380	戴维斯	戴維斯	dàiwéisī	Davis / Davies / Davids	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '戴維斯')	6006380

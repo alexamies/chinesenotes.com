@@ -665,3 +665,9 @@
 7000665	支提罗阿部	支提羅阿部	zhītíluóābù	Caitika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 制多山部 (FGDB '制多山部')	7000665
 7000666	遊迦部	\N	yóujiābù	Caitika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 制多山部 (FGDB '制多山部')	7000666
 7000667	摩诃提婆部	摩訶提婆部	móhētípóbù	Caitika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 制多山部 (FGDB '制多山部')	7000667
+7000668	中村元	\N	zhōngcūn yuán	Hajime Nakamura	proper noun	学者	Scholar	佛教	Buddhism	日本	Japan	\N	\N	1912-1999 a Japanese scholar of Vedic, Hindu and Buddhist scriptures (Wikipedia '中村元')	7000668
+7000669	譬喩师	譬喩師	pìyùshī	Dārṣṭāntika	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	Said to be the founder of the Indian 經量部 Sautrāntika school (DDB '譬喩師'; SH '譬喩師', p. 481)	7000669
+7000670	譬喩者	\N	pìyùzhě	Dārṣṭāntika	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 譬喩師 (DDB '譬喩師')	7000670
+7000671	譬喩论师	譬喩論師	pìyùlùnshī	Dārṣṭāntika	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 譬喩師 (DDB '譬喩師')	7000671
+7000672	譬喩部	\N	pìyùbù	Dārṣṭāntika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 譬喩師 (DDB '譬喩師')	7000672
+7000673	大理佛教	\N	dàlǐ fójiāo	Buddhism in Dali	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	Of the Dali people in Yunan (FGDB '大理佛教')	7000673

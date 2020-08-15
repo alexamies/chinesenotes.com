@@ -419,3 +419,9 @@
 3000419	成圣	成聖	chéng shèng	to make holy	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成聖', p. 49)	3000419
 3000420	葬之中野	\N	zàng zhī zhōngyě	buried in the wild	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 自祭文 “Requiem for Myself” by 陶潛 Tao Qian, Scroll 7 of 陶淵明集 Tao Yuanming Collected Poems (tr. by Pollard 2002, p. 30)	3000420
 3000421	成衣店	\N	chéngyī diàn	a clothes store	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Where you could buy ready-made clothes, in contrast to a tailor who would make clothes to order (Mathews 1931 '成衣店', p. 49)	3000421
+3000422	花腿	\N	huā tuǐ	blossoms fade	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the traditional poem 蝶恋花 “Butterly and Flowers” (tr. Wang 2019, pp. 2-3)	77469
+3000423	成帙	\N	chéng zhì	complete volume	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成帙', p. 49)	3000423
+3000424	墙外道	牆外道	qiáng wài dào	beyond the wall there is a trail	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the traditional poem 蝶恋花 “Butterly and Flowers” (tr. Wang 2019, pp. 2-3)	3000424
+3000425	墙外行人	牆外行人	qiáng wài xíng rén	beyond the wall a traveller passes	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the traditional poem 蝶恋花 “Butterly and Flowers” (tr. Wang 2019, pp. 2-3)	3000425
+3000426	声渐悄	聲漸悄	shēng jiàn qiǎo	the sound dies away	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the traditional poem 蝶恋花 “Butterly and Flowers” (tr. Wang 2019, pp. 2-3)	3000426
+3000427	成上	\N	chéng shàng	on top of the city wall	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成上', p. 49)	3000427
