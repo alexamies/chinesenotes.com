@@ -671,3 +671,14 @@
 7000671	譬喩论师	譬喩論師	pìyùlùnshī	Dārṣṭāntika	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 譬喩師 (DDB '譬喩師')	7000671
 7000672	譬喩部	\N	pìyùbù	Dārṣṭāntika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 譬喩師 (DDB '譬喩師')	7000672
 7000673	大理佛教	\N	dàlǐ fójiāo	Buddhism in Dali	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	Of the Dali people in Yunan (FGDB '大理佛教')	7000673
+7000674	一说部	一說部	yīshuōbù	Ekavyāvahārika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: Ekavyāvahārika; one of the 20 Hīnayāna schools (DDB '一說部'; FGDB '一說部'; SH '一說部', p. 9)	7000674
+7000675	诸法但名部	諸法但名部	zhūfǎdànmíngbù	Ekavyāvahārika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 一說部 (FGDB '一說部')	7000675
+7000676	猗柯毘部	\N	yīkēpíbù	Ekavyāvahārika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 一說部 (FGDB '一說部')	7000676
+7000677	婆诃利柯部	婆訶利柯部	póhēlìkēbù	Ekavyāvahārika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 一說部 (FGDB '一說部')	7000677
+7000678	鞞婆诃罗部	鞞婆訶羅部	bǐngpóhēluóbù	Ekavyāvahārika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 一說部 (FGDB '一說部')	7000678
+7000679	执一语言部	執一語言部	zhíyīyǔyánbù	Ekavyāvahārika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 一說部 (FGDB '一說部')	7000679
+7000680	鷄胤部	\N	jīyìnbù	Gokulika	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 雞胤部 (DDB '灰山住部')	7000680
+7000681	醯摩嚩多部	\N	xīmófúduōbù	Haimavatāḥ	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	An Indian Budhdist school, the school of the snow mountains (DDB '醯摩嚩多部'; SH '醯摩嚩多部', p. 475)	7000681
+7000682	雪山部	\N	xuěshānbù	Haimavatāḥ	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 醯摩嚩多部 (DDB '醯摩嚩多部')	7000682
+7000683	恶目鬼王	惡目鬼王	è mù guǐwáng	Ghost King Evil Eyes	proper noun	神	Deity	佛教	Buddhism	\N	\N	\N	\N	Mentioned in “Original Vows of Ksitigarbha Bodhisattva Sutra” (Tsai 2014 pp. 12-13; T 412, Scroll 1)	7000683
+7000684	摄毒鬼王	攝毒鬼王	shèdúguǐwáng	Ghost King Controlling Poisons	proper noun	神	Deity	佛教	Buddhism	\N	\N	\N	\N	Mentioned in “Original Vows of Ksitigarbha Bodhisattva Sutra” (Tsai 2014 pp. 12-13; T 412, Scroll 1)	7000684
