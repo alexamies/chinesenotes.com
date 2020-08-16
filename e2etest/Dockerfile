@@ -1,5 +1,5 @@
 # Docker file for chinesenotes.com end-to-end test
-FROM golang:1.13 as builder
+FROM golang:1.15 as builder
 
 WORKDIR /app
 

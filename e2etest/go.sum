@@ -23,6 +23,12 @@ github.com/alexamies/chinesenotes-go v0.0.2 h1:ZfYT653v6ZHuZE1v4+5n+o/43ucI/Heim
 github.com/alexamies/chinesenotes-go v0.0.2/go.mod h1:xdg4UNXw3YWPGmeovyPsb7X8zilnOLT5sJ4NzBcqtx4=
 github.com/alexamies/chinesenotes-go v0.0.3 h1:YN4R/G3L54RmsGZO8+Xbq+kGfOUdELCcT3xqtcCjV7Y=
 github.com/alexamies/chinesenotes-go v0.0.3/go.mod h1:xdg4UNXw3YWPGmeovyPsb7X8zilnOLT5sJ4NzBcqtx4=
+github.com/alexamies/chinesenotes-go v0.0.4 h1:mzkcrxPU4V8rwEVj0XqfF0C7fg5VUUZOqa6AjWU/1Zs=
+github.com/alexamies/chinesenotes-go v0.0.4/go.mod h1:xdg4UNXw3YWPGmeovyPsb7X8zilnOLT5sJ4NzBcqtx4=
+github.com/alexamies/chinesenotes-go v0.0.11 h1:jnPFkhx7UGJuTpnHHnFXeFhagy0TiYK/LsTJAd2Wq5U=
+github.com/alexamies/chinesenotes-go v0.0.11/go.mod h1:xdg4UNXw3YWPGmeovyPsb7X8zilnOLT5sJ4NzBcqtx4=
+github.com/alexamies/chinesenotes-go v0.0.12 h1:ua8GtgnbIfPg8DKzoSRnV2RIzT35ILnjqapVXXbY79g=
+github.com/alexamies/chinesenotes-go v0.0.12/go.mod h1:xdg4UNXw3YWPGmeovyPsb7X8zilnOLT5sJ4NzBcqtx4=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/go-sql-driver/mysql v1.4.1 h1:g24URVg0OFbNUTx9qqY1IRZ9D9z3iPyi5zKhQZpNwpA=

@@ -6378,3 +6378,10 @@
 6006378	英属哥伦比亚大学	英屬哥倫比亞大學	Yīngshǔ Gēlúnbìyà dàxué	University of British Columbia	proper noun	大学	University	教育	Education	加拿大	Canada	\N	\N	(Wikipedia '英属哥伦比亚大学')	6006378
 6006379	宗教文化出版社	\N	zōngjiào wénhuà chūbǎnshè	China Religion Culture Publishing	proper noun	出版者	Publisher	商务	Commerce	中国	China	\N	\N	(<a href='http://www.sara.gov.cn/old/zzjg/zjwhcbs/index.htm'>http://www.sara.gov.cn/old/zzjg/zjwhcbs/index.htm</a>, Wikipedia '宗教文化出版社')	6006379
 6006380	戴维斯	戴維斯	dàiwéisī	Davis / Davies / Davids	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '戴維斯')	6006380
+6006381	清华大学	清華大學	qīnghuá Dàxué	Qinghua University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '清華大學'; Guoyu '清華大學')	6006381
+6006382	武汉大学	武漢大學	wǔhàn dàxué	Wuhan University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '武漢大學')	6006382
+6006383	理工大学	理工大學	lǐgōng dàxué	University of Science and Engineering / Institute of Technology	set phrase	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '理工大學')	6006383
+6006384	湖南大学	湖南大學	húnán dàxué	Hunan University	proper noun	大學	University	教育	Education	中国	China	\N	\N	(Wikipedia '湖南大学'))	6006384
+6006385	华东师范大学	華東師範大學	huàdōng shīfàn dàxué	East China Normal University (ECNU)	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '華東師範大學')	6006385
+6006386	南开大学	南開大學	nánkāi dàxué	Nankai University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Located in Tianjin (CC-CEDICT '南開大學')	6006386
+6006387	北京科技大学	北京科技大學	běijīng kējì dàxué	University of Science and Technology Beijing	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '北京科技大學')	6006387

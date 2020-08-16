@@ -10,7 +10,7 @@ SET PASSWORD FOR 'root'@'localhost' = PASSWORD('***');
 CREATE DATABASE IF NOT EXISTS cse_dict CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
 
 CREATE user IF NOT EXISTS 'app_user' IDENTIFIED BY '***';
-GRANT SELECT, INSERT, UPDATE ON cse_dict.* TO 'app_user'@'%';
-GRANT SELECT, INSERT, UPDATE ON cse_dict.* TO 'proxyuser'@'%';
+GRANT SELECT ON cse_dict.* TO 'app_user'@'%';
+GRANT SELECT ON cse_dict.* TO 'proxyuser'@'%';
 
 USE cse_dict;

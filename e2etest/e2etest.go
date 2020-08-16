@@ -20,6 +20,8 @@ package main
  */
 
 import (
+	"context"
+	"database/sql"
 	"encoding/json"
 	"fmt"
 	"github.com/alexamies/chinesenotes-go/applog"
@@ -27,6 +29,7 @@ import (
 	"github.com/alexamies/chinesenotes-go/dicttypes"
 	"github.com/alexamies/chinesenotes-go/find"
 	"github.com/alexamies/chinesenotes-go/fulltext"
+	"github.com/alexamies/chinesenotes-go/webconfig"
 	"log"
 	"net/http"
 	"os"
@@ -35,18 +38,41 @@ import (
 const STATIC_DIR string = "./static"
 
 var (
+  database *sql.DB
+	dictSearcher *dictionary.Searcher
 	parser find.QueryParser
 	wdict map[string]dicttypes.Word
 )
 
 func init() {
-	applog.Info("cnweb.main.init Initializing cnweb")
+	appInit()
+}
+
+func appInit() {
+	applog.Info("e2etest.appInit Initializing e2etest")
 	var err error
-	wdict, err = dictionary.LoadDict()
+	database, err = initDBCon()
 	if err != nil {
-		applog.Error("main.init() unable to load dictionary: ", err)
+		applog.Errorf("e2etest.appInit unable to initialize databsae connection: %v", err)
+	}
+	ctx := context.Background()
+	dictSearcher = dictionary.NewSearcher(ctx, database)
+	applog.Errorf("e2etest.appInit dictSearcher.DatabaseInitialized(): %v",
+			dictSearcher.DatabaseInitialized())
+	wdict, err = dictionary.LoadDict(ctx, database)
+	if err != nil {
+		applog.Errorf("e2etest.appInit unable to load dictionary: %v", err)
 	}
 	parser = find.MakeQueryParser(wdict)
+}
+
+func initDBCon() (*sql.DB, error) {
+	conString := webconfig.DBConfig()
+	dbPool, err := sql.Open("mysql", conString)
+	if err != nil {
+		return nil, fmt.Errorf("sql.Open with with conn string %s: %v", conString, err)
+	}
+	return dbPool, nil
 }
 
 // Finds documents matching the given query with search in text body
@@ -60,7 +86,7 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 	url := request.URL
 	queryString := url.Query()
 	query := queryString["query"]
-	applog.Info("main.findHandler, query: ", query)
+	applog.Infof("e2etest.findDocs, query: %s", query)
 	q := "No Query"
 	if len(query) > 0 {
 		q = query[0]
@@ -71,10 +97,11 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 		}
 	}
 
-	var results find.QueryResults
+	var results *find.QueryResults
 	var err error
 
 	c := queryString["collection"]
+	ctx := context.Background()
 	if (len(c) > 0) && (c[0] == "xiyouji.html")  {
 		applog.Error("main.findDocs mock data for xiyouji.html")
 		col0 := find.Collection{
@@ -127,29 +154,29 @@ func findDocs(response http.ResponseWriter, request *http.Request, advanced bool
 			Senses: senses0,
 		}
 		terms1 := []find.TextSegment{ts1}
-		results = find.QueryResults{q, "xiyouji.html", 1, 1, col, doc, terms1}
+		results = &find.QueryResults{q, "xiyouji.html", 1, 1, col, doc, terms1}
 	} else if (len(c) > 0) && (c[0] != "") {
-		applog.Error("main.findDocs finding docs for collection ", c[0])
-		results, err = find.FindDocumentsInCol(parser, q, c[0])
+		applog.Infof("e2etest.findDocs finding docs for collection %s", c[0])
+		results, err = find.FindDocumentsInCol(ctx, dictSearcher, parser, q, c[0])
 	} else {
-		applog.Error("main.findDocs finding docs for all collections")
-		results, err = find.FindDocuments(parser, q, advanced)
+		applog.Infof("e2etest.findDocs find with advanced = %v ", advanced)
+		results, err = find.FindDocuments(ctx, dictSearcher, parser, q, advanced)
 	}
 
 	if err != nil {
-		applog.Error("main.findDocs Error searching docs, ", err)
+		applog.Errorf("e2etest.findDocs Error searching docs, %v", err)
 		http.Error(response, "Error searching docs",
 			http.StatusInternalServerError)
 		return
 	}
 	resultsJson, err := json.Marshal(results)
 	if err != nil {
-		applog.Error("main.findDocs error marshalling JSON, ", err)
+		applog.Error("e2etest.findDocs error marshalling JSON, ", err)
 		http.Error(response, "Error marshalling results",
 			http.StatusInternalServerError)
 	} else {
 		if (q != "hello" && q != "Eight" ) { // Health check monitoring probe
-			applog.Info("main.findDocs, results: ", string(resultsJson))
+			applog.Infof("e2etest.findDocs, results: %s", string(resultsJson))
 		}
 		response.Header().Set("Content-Type", "application/json; charset=utf-8")
 		fmt.Fprintf(response, string(resultsJson))
