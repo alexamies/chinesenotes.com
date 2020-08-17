@@ -6385,3 +6385,63 @@
 6006385	华东师范大学	華東師範大學	huàdōng shīfàn dàxué	East China Normal University (ECNU)	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '華東師範大學')	6006385
 6006386	南开大学	南開大學	nánkāi dàxué	Nankai University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Located in Tianjin (CC-CEDICT '南開大學')	6006386
 6006387	北京科技大学	北京科技大學	běijīng kējì dàxué	University of Science and Technology Beijing	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '北京科技大學')	6006387
+6006388	国际关系学院	國際關係學院	guójì guānxì xuéyuàn	University of International Relations	proper noun	大学	University	教育	Education	中国	China	\N	\N	Located in Beijing, established in 1949 (CC-CEDICT '國際關係學院')	6006388
+6006389	山东大学	山東大學	shāndōng dàxué	Shandong University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '山東大學')	6006389
+6006390	北京工业大学	北京工業大學	běijīng gōngyè dàxué	Beijing University of Technology	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '北京工業大學')	6006390
+6006391	燕京大学	燕京大學	yānjīng dàxué	Yanjing University / Yenching University	proper noun	大学	University	教育	Education	中国	China	\N	\N	A Christian university in Beijing founded in 1919 (CC-CEDICT '燕京大學')	6006391
+6006392	厦门大学	廈門大學	xiàmén dàxué	Xiamen University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '廈門大學')	6006392
+6006393	东北大学	東北大學	dōngběi dàxué	Northeastern University	proper noun	大学	University	教育	Education	中国	China	\N	\N	In Shenyang 沈阳市, Liaoning (CC-CEDICT '東北大學')	6006393
+6006394	民族大学	民族大學	mínzú dàxué	University for Nationalities	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '民族大學')	6006394
+6006395	中原大学	中原大學	zhōngyuán dàxué	Chung Yuan Christian University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	Located in Taiwan (CC-CEDICT '中原大學')	6006395
+6006396	东北大学	東北大學	dōngběi dàxué	Tōhoku University	proper noun	大学	University	教育	Education	日本	Japan	\N	\N	In Sendai, Japan (CC-CEDICT '東北大學')	6006396
+6006397	中财	中財	zhōngcái	Central University of Finance and Economics	proper noun	大学	University	教育	Education	中国	China	\N	\N	In Beijing; abbreviation for 中央财经大学 (CC-CEDICT '中財')	6006397
+6006398	中央财经大学	中央財經大學	zhōngyāng cáijīng dàxué	Central University of Finance and Economics	proper noun	大学	University	教育	Education	中国	China	\N	\N	In Beijing (CC-CEDICT '中央財經大學'; Wikipedia '中央財經大學')	6006398
+6006399	大外	\N	dàwài	Dalian University of Foreign Languages	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 大连外国语大学 (CC-CEDICT '大外')	6006399
+6006400	翦伯赞	翦伯贊	jiǎnbózàn	Jian Bozan	proper noun	人	Person	教育	Education	中国	China	\N	\N	1898-1968; Chinese Marxist historian and vice-president of Bejing University 1952-1968 (CC-CEDICT '翦伯贊')	6006400
+6006401	聂姆曹娃	聶姆曹娃	nièmǔcáowá	Božena Němcová	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1820-1862; Czech writer (CC-CEDICT '聶姆曹娃')	6006401
+6006402	胡鄂公	\N	hú ègōng	Hu Egong	proper noun	人	Person	历史	History	中国	China	\N	\N	1884-1951; Chinese revolutionary and politician (CC-CEDICT '胡鄂公')	6006402
+6006403	舒庆春	舒慶春	shūqìngchūn	Shu Qingchun	proper noun	人	Person	历史	History	中国	China	\N	\N	1899-1966; The real name of author Lao She 老舍 (CC-CEDICT '舒慶春')	6006403
+6006404	舒曼	\N	shūmàn	Schumann (name) / Robert Schumann	proper noun	人	Person	历史	History	名字	Names	\N	\N	1810-1856; Romantic composer (CC-CEDICT '舒曼')	6006404
+6006405	大连外国语大学	大連外國語大學	dàlián wàiguó yǔ dàxué	Dalian University of Foreign Languages	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '大連外國語大學'; Wikipedia '大連外國語大學')	6006405
+6006406	北外	\N	běiwài	Beijing Foreign Studies University (BFSU)	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 北京外国语大学 (CC-CEDICT '北外'; Wikipedia '北京外國語大學')	6006406
+6006407	西外	\N	xī wài	Xi'an International Studies University (XISU)	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 西安外国语大学 (CC-CEDICT '西外'; Wikipedia '西安外國語大學')	6006407
+6006408	北京外国语大学	北京外國語大學	Běijīng wàiguóyǔ dàxué	Beijing Foreign Studies University (BFSU)	proper noun	大学	University	教育	Education	中国	China	\N	\N	(Wikipedia '北京外國語大學')	6006408
+6006409	西安外国语大学	西安外國語大學	Xī'ān wàiguó yǔ dàxué	Xi'an International Studies University (XISU)	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '西安外國語大學'; Wikipedia '西安外国语大学')	6006409
+6006410	庞氏	龐氏	pángshì	Pond's	proper noun	品牌	Brand	商务	Commerce	\N	\N	\N	\N	Brand of skin care products, also written 旁氏 (CC-CEDICT '龐氏')	92091
+6006411	拉狄克	\N	lādíkè	Karl Berngardovich Radek	proper noun	人	Person	教育	Education	欧洲	Europe	\N	\N	1885-1939; Bolshevik and Comintern leader, first president of Moscow Sun Yat-sen University, died in prison during Stalin's purges (CC-CEDICT '拉狄克')	6006411
+6006412	斯克里亚宾	斯克里亞賓	sīkèlǐyàbīn	Alexander Scriabin	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1872-1915; Russian composer and pianist (CC-CEDICT '斯克里亞賓')	6006412
+6006413	斯坦福·莱佛士	斯坦福·萊佛士	Sītǎnfú láifóshì	Stamford Raffles	proper noun	城市	City	历史	History	英国	England	\N	\N	1781-1826; British statesman and founder of the city of Singapore (CC-CEDICT '斯坦福·萊佛士')	6006413
+6006414	广外	廣外	guǎngwài	Guangdong University of Foreign Studies	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 广东外语外贸大学 (CC-CEDICT '廣外')	6006414
+6006415	广东外语外贸大学	廣東外語外貿大學	Guǎngdōng wàiyǔ wàimào dàxué	Guangdong University of Foreign Studies	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '廣東外語外貿大學'; Wikipedia '廣東外語外貿大學')	6006415
+6006416	暨大	\N	jìdà	Jinan University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 暨南大学 (CC-CEDICT '暨大')	6006416
+6006417	暨南大学	暨南大學	jìnán dàxué	Jinan University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Located in Guangzhou (CC-CEDICT '暨南大學'; Wikipedia '暨南大學')	6006417
+6006418	西江大学	西江大學	Xījiāngdàxué	Sogang University	proper noun	大学	University	教育	Education	韩国	Korea	\N	\N	(Wikipedia '西江大學')	6006418
+6006419	合工大	\N	hégōngdà	Hefei University of Technology	proper noun	大学	University	教育	Education	中国	China	\N	\N	An abbreviation for 合肥工业大学 (Baidu Baike '合肥工业大学')	6006419
+6006420	中国海洋大学	中國海洋大學	zhōngguó hǎiyáng dàxué	Ocean University Of China	proper noun	大学	University	教育	Education	中国	China	\N	\N	Located in Qingdao, Shandong (Baidu Baike '中国海洋大学')	6006420
+6006421	联大	聯大	Lián Dà	National United University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	Abbreviation for 國立聯合大學 (Guoyu '聯大' 2; Wikipedia '國立聯合大學')	6006421
+6006422	国立联合大学	國立聯合大學	guólì liánhé dàxué	National United University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(Wikipedia '國立聯合大學')	6006422
+6006423	曹靖华	曹靖華	cáojìnghuá	Cao Jinghua	proper noun	\N	\N	教育	Education	欧洲	Europe	\N	\N	1897-1987; Translator from Russian, professor of Peking University and essayist (CC-CEDICT '曹靖華')	6006423
+6006424	曾孝谷	\N	zēng xiàogǔ	Zeng Xiaogu	proper noun	\N	\N	历史	History	中国	China	\N	\N	1873-1937; Actor and pioneer of Chinese drama in New Culture style (CC-CEDICT '曾孝谷')	6006424
+6006425	曾纪泽	曾紀澤	céngjìzé	Cang Jize or Tseng Chi-tse	proper noun	人	Person	历史	History	中国	China	\N	\N	1839-1890; pioneer diplomat of late Qing, serve as imperial commissioner, ambassador (CC-CEDICT '曾紀澤')	6006425
+6006426	福泽谕吉	福澤諭吉	fúzé yù jí	Fukuzawa Yukichi	proper noun	人	Person	教育	Education	日本	Japan	\N	\N	1835-1901; Prominent Japanese Westernizer, liberal educator and founder of Keio University (CC-CEDICT '福澤諭吉')	6006426
+6006427	福煦	\N	fúxù	Ferdinand Foch	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	1851-1929; Leading French general and commander-in-chief of allied forces in the latter stages of World War One (CC-CEDICT '福煦')	6006427
+6006428	福尔	福爾	fúěr	Félix Faure	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1841-1899; President of France 1895-1899 (CC-CEDICT '福爾')	6006428
+6006429	康生	\N	kāngshēng	Kang Sheng	proper noun	人	Person	历史	History	中国	China	\N	\N	1896-1975; Chinese communist leader, a politburo member during the Cultural Revolution and posthumously blamed for some of its excesses (CC-CEDICT '康生')	6006429
+6006430	弗里德里希·席勒	\N	Fúlǐdélǐxī xí lēi	Friedrich Schiller or Johann Christoph Friedrich von Schiller	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1759-1805; German poet and dramatist (CC-CEDICT '弗里德里希·席勒')	6006430
+6006431	张勋	張勳	zhāngxūn	Zhang Xun	proper noun	人	Person	历史	History	中国	China	\N	\N	1854-1923; Qing loyalist general who attempted to restore the abdicated emperor Puyi 溥仪 to the throne in the Manchu Restoration of 1917 张勋复辟 (CC-CEDICT '張勳')	6006431
+6006432	张国焘	張國燾	zhāngguódào	Zhang Guotao	proper noun	人	Person	历史	History	中国	China	\N	\N	1897-1979; Chinese communist leader in the 1920s and 1930s, defected to Guomindang in 1938 (CC-CEDICT '張國燾')	6006432
+6006433	张大千	張大千	zhāngdàqiān	Chang Dai-chien or Zhang Daqian	proper noun	人	Person	历史	History	中国	China	\N	\N	1899-1983; One of the greatest Chinese artists of the 20th century (CC-CEDICT '張大千')	6006433
+6006434	张太雷	張太雷	zhāngtàiléi	Zhang Tailei	proper noun	人	Person	历史	History	中国	China	\N	\N	1898-1927; Founding member of Chinese communist party (CC-CEDICT '張太雷')	6006434
+6006435	张治中	張治中	zhāngzhìzhōng	Zhang Zhizhong	proper noun	人	Person	历史	History	\N	\N	\N	\N	1890-1969; National Revolutionary Army general (CC-CEDICT '張治中')	6006435
+6006436	张自忠	張自忠	zhāngzìzhōng	Zhang Zizhong	proper noun	人	Person	历史	History	中国	China	\N	\N	1891-1940; Chinese National Revolutionary Army general during the Second Sino-Japanese War (CC-CEDICT '張自忠')	6006436
+6006437	张荫桓	張蔭桓	zhāngyìnhuán	Zhang Yinhuan	proper noun	人	Person	历史	History	中国	China	\N	\N	1837-1900; Late Qing politician and senior Chinese diplomat (CC-CEDICT '張蔭桓')	6006437
+6006438	德彪西	\N	débiāoxī	Claude Debussy	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1862-1918; French composer (CC-CEDICT '德彪西')	6006438
+6006439	德沃夏克	\N	déwòxiàkè	Antonin Dvořák	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1841-1904; Bohemian composer, author of nine symphonies including the New World symphony (CC-CEDICT '德沃夏克')	6006439
+6006440	德法年鉴	德法年鑒	dé fǎ niánjiàn	Deutsch-Französische Jahrbücher	proper noun	\N	\N	历史	History	\N	\N	\N	\N	Published once in 1844 by Karl Marx and bourgeois radical Arnold Ruge (CC-CEDICT '德法年鑒')	6006440
+6006441	德雷福斯	\N	déléifúsī	Dreyfus (name) / Alfred Dreyfus	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1859-1935; French artillery officer of Alsatian and Jewish background, infamously imprisoned 1894 in miscarriage of justice (CC-CEDICT '德雷福斯')	6006441
+6006442	德雷福斯案件	\N	déléifúsī ànjiàn	Dreyfus affair	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	1894-1906, Political scandal in France (CC-CEDICT '德雷福斯案件')	6006442
+6006443	恩格尔	恩格爾	ēngéěr	Engel (name) / Ernst Engel	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	1821-1896; German statistician (CC-CEDICT '恩格爾')	6006443
+6006444	恰亚诺夫	恰亞諾夫	qià yà nuò fū	Alexander Chayanov	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1888-1937; Soviet agrarian economist (CC-CEDICT '恰亞諾夫')	6006444
+6006445	妙清	\N	miàoqīng	Myocheong	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '妙清'; Wikipedia '妙清')	6006445
+6006446	爱德华·达拉第	愛德華·達拉第	Àidéhuá dá lā dì	Édouard Daladier	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1884-1970; French politician (CC-CEDICT '愛德華·達拉第')	6006446
+6006447	爱罗先珂	愛羅先珂	àiluóxiānkē	Vasili Eroshenko	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1890-1952; Russian writer and poet who wrote in Esperanto and Japanese (CC-CEDICT '愛羅先珂')	6006447

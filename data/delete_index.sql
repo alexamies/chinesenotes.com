@@ -3,7 +3,6 @@
  */
 USE cse_dict;
 
-DELETE FROM word_freq_doc;
 DELETE FROM collection;
 DELETE FROM document;
 DELETE FROM words;

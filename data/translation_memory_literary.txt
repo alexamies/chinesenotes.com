@@ -425,3 +425,13 @@
 3000425	墙外行人	牆外行人	qiáng wài xíng rén	beyond the wall a traveller passes	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 2-3)	3000425
 3000426	声渐悄	聲漸悄	shēng jiàn qiǎo	the sound dies away	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 2-3)	3000426
 3000427	成上	\N	chéng shàng	on top of the city wall	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '成上', p. 49)	3000427
+3000428	初会遇	初會遇	chū huì yù	first meeting	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 4-5)	3000428
+3000429	好梦惊回	好夢驚回	hǎomèngjīnghuí	startled from thta beautiful dream	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 4-5)	3000429
+3000430	低眼	\N	dīyǎn	[You] lowered your eyes	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 4-5)	3000430
+3000431	佯行	\N	yángxíng	pretended to leave	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 4-5)	3000431
+3000432	城坡	\N	chéng pō	a mound within the city walls	phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(Mathews 1931 '城坡', p. 49)	3000432
+3000433	山青	\N	shān qīng	blue mountain	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 6-7)	3000433
+3000434	横云	橫雲	héng yún	horizon clouds	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 6-7)	3000434
+3000435	路尽	路盡	lù jìn	[my] path ends	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 6-7)	3000435
+3000436	月暗	\N	yuè àn	dark moon	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 6-7)	3000436
+3000437	飞魂	飛魂	fēi hún	lost souls	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 6-7)	3000437

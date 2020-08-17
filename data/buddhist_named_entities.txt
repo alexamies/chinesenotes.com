@@ -682,3 +682,7 @@
 7000682	雪山部	\N	xuěshānbù	Haimavatāḥ	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 醯摩嚩多部 (DDB '醯摩嚩多部')	7000682
 7000683	恶目鬼王	惡目鬼王	è mù guǐwáng	Ghost King Evil Eyes	proper noun	神	Deity	佛教	Buddhism	\N	\N	\N	\N	Mentioned in “Original Vows of Ksitigarbha Bodhisattva Sutra” (Tsai 2014 pp. 12-13; T 412, Scroll 1)	7000683
 7000684	摄毒鬼王	攝毒鬼王	shèdúguǐwáng	Ghost King Controlling Poisons	proper noun	神	Deity	佛教	Buddhism	\N	\N	\N	\N	Mentioned in “Original Vows of Ksitigarbha Bodhisattva Sutra” (Tsai 2014 pp. 12-13; T 412, Scroll 1)	7000684
+7000685	醯兜婆拖部	\N	xīdōupótuō bù	Hetuvādapūrva Sthavirāḥ	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	A Indian Buddhist schoo, a school of the sthavirās (DDB '醯兜婆拖部'; SH '醯兜婆拖部', p. 474)	7000685
+7000686	说因部	說因部	shuōyīn bù	Hetuvādinaḥ	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Same as 說一切有部 Sarvāstivāda (DDB '說因部'; FGDB '說一切有部'; SH '說因部', p. 429)	7000686
+7000687	大日本佛教全书	大日本佛教全書	dà rìběn fójiāo quánshū	Dai Nippon Bukkyo zensho	proper noun	书名	Book Title	佛教	Buddhism	日本	Japan	\N	\N	Title of a book on Japanese Buddhism completed 1911-1922 by 南條文雄 Nanjo Bunyu, 高楠順次郎 Takakusu Junjirō, 大村西崖 Omura Seigai, and 望月信亨 Shinkō Mochizuki (FGDB '大日本佛教全書'; Sharf 2005, p. 301)	7000687
+7000688	李斯戴维斯	李斯戴維斯	lǐsī dàiwéisī	Rhys Davids	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	1857-1942; British scholar (FGDB '李斯戴維斯'; Wikipedia 'Caroline Rhys Davids')	7000688

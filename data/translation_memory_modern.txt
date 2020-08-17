@@ -229,3 +229,6 @@
 5000229	足球协会	足球協會	zúqiú xiéhuì	soccer association	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '足球協會')	5000229
 5000230	成立日	\N	chénglìrì	Founder's day	phrase	\N	\N	代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '成立日', p. 49)	5000230
 5000231	入团	入團	rù tuán	to enroll in the Communist Youth League	verb	\N	\N	代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '入團')	5000231
+5000232	城市生活	\N	chéngshì shēnghuó	city life	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '城市生活', p. 49)	5000232
+5000233	城里关外	城裡關外	chénglǐ guānwài	city and outside area	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '城裡關外', p. 49)	5000233
+5000234	城门口	城門口	chéngmén kǒu	city gate entrance	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '城門口', p. 49)	5000234
