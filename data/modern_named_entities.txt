@@ -5263,7 +5263,7 @@
 6005263	邓加	鄧加	dèngjiā	Dunga	proper noun	\N	\N	体育	Sport	\N	\N	\N	\N	1963-; Former Brazilian soccer player (CC-CEDICT '鄧加')	6005263
 6005264	邓小平理论	鄧小平理論	Dèng Xiǎopíng lǐlùn	Deng Xiaoping Theory / Dengism	proper noun	城市	City	历史	History	中国	China	\N	\N	(CC-CEDICT '鄧小平理論')	6005264
 6005265	邓拓	鄧拓	dèngtuò	Deng Tuo	proper noun	人	Person	历史	History	中国	China	\N	\N	1912-1966; Sociologist and journalist, died under persecution at the start of the Cultural Revolution/wrote under the pen name Ma Nancun 马南邨 (CC-CEDICT '鄧拓')	6005265
-6005266	邓颖超	鄧穎超	dèngyǐngchāo	Deng Yingchao	proper noun	人	Person	历史	History	中国	China	\N	\N	1904-1992; Chinese communist leader, wife of Zhou Enlai 周恩来 (CC-CEDICT '鄧穎超')	6005266
+6005266	邓颖超	鄧穎超	dèng yǐngchāo	Deng Yingchao	proper noun	人	Person	历史	History	中国	China	\N	\N	1904-1992; Chinese communist leader, wife of Zhou Enlai 周恩来 (CC-CEDICT '鄧穎超')	6005266
 6005267	邓迪	鄧迪	dèngdí	Dundee, Scotland	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鄧迪')	6005267
 6005268	邓丽君	鄧麗君	dènglìjūn	Teresa Teng	proper noun	\N	\N	历史	History	\N	\N	\N	\N	1953-1995; Taiwanese pop idol (CC-CEDICT '鄧麗君')	6005268
 6005269	郑伊健	鄭伊健	zhèngyījiàn	Ekin Cheng	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1967-; Hong Kong actor and pop singer (CC-CEDICT '鄭伊健')	6005269
@@ -6445,3 +6445,16 @@
 6006445	妙清	\N	miàoqīng	Myocheong	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	(FGDB '妙清'; Wikipedia '妙清')	6006445
 6006446	爱德华·达拉第	愛德華·達拉第	Àidéhuá dá lā dì	Édouard Daladier	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1884-1970; French politician (CC-CEDICT '愛德華·達拉第')	6006446
 6006447	爱罗先珂	愛羅先珂	àiluóxiānkē	Vasili Eroshenko	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1890-1952; Russian writer and poet who wrote in Esperanto and Japanese (CC-CEDICT '愛羅先珂')	6006447
+6006448	梁啓超	\N	liáng qǐchāo	Liang Qichao	proper noun	人	Person	历史	History	中国	China	\N	\N	1873-1929; Reform minded writer (Wikipedia '梁启超')	6006448
+6006449	严修	嚴修	yánxiū	Yan Xiu	proper noun	人	Person	历史	History	中国	China	\N	\N	1860-1929; Chinese scholar (Wikipedia '严修')	6006449
+6006450	张伯苓	張伯苓	zhāng bólíng	Chang Po-ling	proper noun	人	Person	历史	History	中国	China	\N	\N	1876-1951; Chinese educator and founder of Nankai University (Wikipedia '張伯苓')	6006450
+6006451	陈独秀	陳獨秀	chén dúxiù	Chen Duxiu	proper noun	人	Person	历史	History	中国	China	\N	\N	1879-1942; Chinese revolutionary (Wikipedia '陈独秀')	6006451
+6006452	张申府	張申府	zhāng shēnfǔ	Zhang Shenfu	proper noun	人	Person	历史	History	中国	China	\N	\N	1893–1986; Communist leader (Wikipedia '张申府')	6006452
+6006453	柯劭忞	\N	Kē Shào Mǐn	Ke Shao Min	proper noun	作者	Author	历史	History	中国	China	\N	\N	1848-1933; Chinese historian who compiled the 新元史 New History of the Yuan (Wikipedia '柯劭忞')	6006453
+6006454	邹容	鄒容	zōu róng	Zou Rong	proper noun	人	Person	历史	History	中国	China	\N	\N	1885-1905; Late Qing revolutionary (CC-CEDICT '鄒容'; Guoyu '鄒容'; Wikipedia '邹容')	6006454
+6006455	拉法格	\N	lāfǎgé	Lafargue (name) / Paul Lafargue	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1842-1911; French socialist and revolutionary activist, son-in-law of Karl Marx (CC-CEDICT '拉法格')	6006455
+6006456	拉兹莫夫斯基	拉茲莫夫斯基	lāzīmòfūsījī	Razumovsky (name) / Prince Andrey Kirillovich Razumovsky	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1752-1836; Russian diplomat (CC-CEDICT '拉茲莫夫斯基')	6006456
+6006457	周恩来	周恩來	Zhōu Ēnlái	Zhou Enlai	proper noun	人	Person	历史	History	中国	China	\N	\N	1898-1976; Chinese communist leader, Premier 1949－1976 (Snow 1968, pp. 69-76; Wikipedia '周恩来')	6006457
+6006458	北平故宫	北平故宮	Běipíng Gùgōng	Imperial Palace at Beiping	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '北平故宮')	6006458
+6006459	拉赫曼尼诺夫	拉赫曼尼諾夫	lāhèmànnínuòfū	Rachmaninoff or Rachmaninov (name) / Sergei Rachmaninoff	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1873-1943; Russian composer and pianist (CC-CEDICT '拉赫曼尼諾夫')	6006459
+6006460	斯文·海定	\N	sīwén hǎidìng	Sven Hedin	proper noun	人	Person	历史	History	\N	\N	\N	\N	Also written 斯文·赫定; 1865-1952; Famous Swedish adventurer and archaeologist, whose 1894-1900 Central Asian expeditions uncovered Kroraina or Loulan 楼兰/also written 斯文·赫定 (CC-CEDICT '斯文·海定')	6006460

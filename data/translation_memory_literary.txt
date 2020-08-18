@@ -435,3 +435,7 @@
 3000435	路尽	路盡	lù jìn	[my] path ends	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 6-7)	3000435
 3000436	月暗	\N	yuè àn	dark moon	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 6-7)	3000436
 3000437	飞魂	飛魂	fēi hún	lost souls	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 蝶恋花 “Butterly and Flowers” by Su Shi (tr. Wang 2019, pp. 6-7)	3000437
+3000438	城陷	\N	chéng xiàn	loss of the city to rebels	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '城陷', p. 49)	3000438
+3000439	因城	\N	yīn chéng	to lay siege to a city	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '城陷', p. 49)	3000439
+3000440	闭城	閉城	bì chéng	to close the city gates	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '城陷', p. 49)	3000440
+3000441	诚中形外	誠中形外	chéng zhōng xíng wài	inner sincerity will be manifested externally	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '城陷', p. 49)	3000441

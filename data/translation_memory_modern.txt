@@ -232,3 +232,10 @@
 5000232	城市生活	\N	chéngshì shēnghuó	city life	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '城市生活', p. 49)	5000232
 5000233	城里关外	城裡關外	chénglǐ guānwài	city and outside area	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '城裡關外', p. 49)	5000233
 5000234	城门口	城門口	chéngmén kǒu	city gate entrance	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '城門口', p. 49)	5000234
+5000235	从一开始	從一開始	cóng yī kāishǐ	from the very beginning	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 62-63)	5000235
+5000236	政治的斗争	政治的鬥爭	zhèngzhì de dòuzhēng	political struggle	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 62-63)	5000236
+5000237	城头	城頭	chéng tóu	top of the wall	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '城頭', p. 49)	5000237
+5000238	最近几年	最近幾年	zuìjìn jǐnián	the last few years / last several years / recent years	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '最近幾年')	5000238
+5000239	知识越多越反动	知識越多越反動	zhīshi yuè duō yuè fǎndòng	the more knowledgeable, the more reactionary	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	An anti-intellectual slogan attributed after the event to the Gang of Four 四人帮 (CC-CEDICT '知識越多越反動')	5000239
+5000240	到处出现	到處出現	dàochù chūxiàn	springing up everywhere	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 64-65)	5000240
+5000241	富裕中农	富裕中農	fùyù zhōngnóng	well to-do middle peasants	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 64-65)	5000241

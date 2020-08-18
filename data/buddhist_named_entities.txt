@@ -686,3 +686,7 @@
 7000686	说因部	說因部	shuōyīn bù	Hetuvādinaḥ	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Same as 說一切有部 Sarvāstivāda (DDB '說因部'; FGDB '說一切有部'; SH '說因部', p. 429)	7000686
 7000687	大日本佛教全书	大日本佛教全書	dà rìběn fójiāo quánshū	Dai Nippon Bukkyo zensho	proper noun	书名	Book Title	佛教	Buddhism	日本	Japan	\N	\N	Title of a book on Japanese Buddhism completed 1911-1922 by 南條文雄 Nanjo Bunyu, 高楠順次郎 Takakusu Junjirō, 大村西崖 Omura Seigai, and 望月信亨 Shinkō Mochizuki (FGDB '大日本佛教全書'; Sharf 2005, p. 301)	7000687
 7000688	李斯戴维斯	李斯戴維斯	lǐsī dàiwéisī	Rhys Davids	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	1857-1942; British scholar (FGDB '李斯戴維斯'; Wikipedia 'Caroline Rhys Davids')	7000688
+7000689	改邪钞	改邪鈔	gǎi xié chāo	Essay on Giving up Evil	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	Title of a text by Japanese monk 覺如 Kakunyo 1270-1351 (FGDB '改邪鈔')	7000689
+7000690	觉如	覺如	juérú	Kakunyo	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1270-1351; Japanese monk (BL 'Kakunyo', p. 406; DDB '覺如'; Wikipedia 'Kakunyo')	7000690
+7000691	覚如	\N	juérú	Kakunyo	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 覺如 (Wikipedia 'Kakunyo')	7000691
+7000692	胜林部	勝林部	shènglínbù	Jetavanīya / School of Jetṛvan	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	(DDB '勝林部'; SH '只底舸部', p. 169)	7000692
