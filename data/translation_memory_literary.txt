@@ -439,3 +439,7 @@
 3000439	因城	\N	yīn chéng	to lay siege to a city	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '城陷', p. 49)	3000439
 3000440	闭城	閉城	bì chéng	to close the city gates	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '城陷', p. 49)	3000440
 3000441	诚中形外	誠中形外	chéng zhōng xíng wài	inner sincerity will be manifested externally	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '城陷', p. 49)	3000441
+3000442	水连空	水連空	shuǐ lián kōng	water blends with sky	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 水調歌頭 “Water Song” by Su Shi (tr. Wang 2019, pp. 12-13)	3000442
+3000443	江南烟雨	江南煙雨	Jiāngnán yānyǔ	Yangtze delta rain	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 水調歌頭 “Water Song” by Su Shi (tr. Wang 2019, pp. 12-13)	3000443
+3000444	孤鸿	孤鴻	gū hóng	single goose	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From a version of the traditional poem 水調歌頭 “Water Song” by Su Shi (tr. Wang 2019, pp. 12-13)	3000444
+3000445	诚怕	誠怕	chéngpà	concerned that	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '誠怕'; Guoyu '誠怕'; Wikipedia '誠怕')	3000445

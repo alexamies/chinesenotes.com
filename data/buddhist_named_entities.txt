@@ -690,3 +690,7 @@
 7000690	觉如	覺如	juérú	Kakunyo	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1270-1351; Japanese monk (BL 'Kakunyo', p. 406; DDB '覺如'; Wikipedia 'Kakunyo')	7000690
 7000691	覚如	\N	juérú	Kakunyo	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 覺如 (Wikipedia 'Kakunyo')	7000691
 7000692	胜林部	勝林部	shènglínbù	Jetavanīya / School of Jetṛvan	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	(DDB '勝林部'; SH '只底舸部', p. 169)	7000692
+7000693	那洛巴	\N	nàluòbā	Naropa	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	 Indian monastic important in Tibetan Buddhism (Wikipedia '那洛巴')	7000693
+7000694	冈波巴	岡波巴	gāngbōbā	Gampopa	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1079–1153; Tibetan name: Sgam po pa Bsod nams rin chen (Gampopa Sönam Rinchen); Tibetan monastic in the Kagyu lineage (BL 'Sgam po pa Bsod nams rin chen'; FGDB '岡波巴'; Wikipedia '岡波巴')	7000694
+7000695	觉囊派	覺囊派	juénángpài	Jonang	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	A school of Tibetan Buddhism (Wikipedia '觉囊派')	7000695
+7000696	达拉岗布寺	達拉崗布寺	dálā gǎngbù sì	Daklha Gampo Monastery	proper noun	寺院	Temple	佛教	Buddhism	西藏	Tibet	\N	\N	(Wikipedia '达拉岗布寺')	7000696

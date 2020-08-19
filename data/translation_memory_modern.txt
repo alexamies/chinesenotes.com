@@ -239,3 +239,8 @@
 5000239	知识越多越反动	知識越多越反動	zhīshi yuè duō yuè fǎndòng	the more knowledgeable, the more reactionary	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	An anti-intellectual slogan attributed after the event to the Gang of Four 四人帮 (CC-CEDICT '知識越多越反動')	5000239
 5000240	到处出现	到處出現	dàochù chūxiàn	springing up everywhere	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 64-65)	5000240
 5000241	富裕中农	富裕中農	fùyù zhōngnóng	well to-do middle peasants	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 64-65)	5000241
+5000242	贫农	貧農	pín nóng	poor peasant	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '貧農'; Mao Zedong 1966, pp. 64-65)	5000242
+5000243	一天一天	\N	yī tiān yī tiān	day by day	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 64-65)	5000243
+5000244	解决困难	解決困難	jiějué kùnnan	overcome their difficulties	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 64-65)	5000244
+5000245	新的基础	新的基礎	xīn de jīchǔ	a new basis	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 66-67)	5000245
+5000246	工人和农民的联盟	工人和農民的聯盟	gōngrén hé nóngmín de liánméng	worker-peasant alliance	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 66-67)	5000246

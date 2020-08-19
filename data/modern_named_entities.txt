@@ -6458,3 +6458,20 @@
 6006458	北平故宫	北平故宮	Běipíng Gùgōng	Imperial Palace at Beiping	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '北平故宮')	6006458
 6006459	拉赫曼尼诺夫	拉赫曼尼諾夫	lāhèmànnínuòfū	Rachmaninoff or Rachmaninov (name) / Sergei Rachmaninoff	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1873-1943; Russian composer and pianist (CC-CEDICT '拉赫曼尼諾夫')	6006459
 6006460	斯文·海定	\N	sīwén hǎidìng	Sven Hedin	proper noun	人	Person	历史	History	\N	\N	\N	\N	Also written 斯文·赫定; 1865-1952; Famous Swedish adventurer and archaeologist, whose 1894-1900 Central Asian expeditions uncovered Kroraina or Loulan 楼兰/also written 斯文·赫定 (CC-CEDICT '斯文·海定')	6006460
+6006461	四人帮	四人幫	Sì Rén Bāng	Gang of Four	proper noun	\N	\N	历史	History	中国	China	\N	\N	A group of four radical leaders during the Cultural Revolution that were charged with crimes.  They included Jiang Qing 江青, Zhang Chunqiao 張春橋, Yao Wenyuan 姚文元, Wang Hongwen 王洪文 (Sullivan and Hearst 1997, 'GANG OF FOUR'; Wikipedia '四人帮')	6006461
+6006462	江青	\N	Jiāng Qīng	Jiang Qing	proper noun	人	Person	历史	History	中国	China	\N	\N	1914-1991; Mao Zedong's fourth wife and leader of the 四人帮 'Gang of Four' (Sullivan and Hearst 1997, 'JIANG QING'; Wikipedia '江青')	6006462
+6006463	张春桥	張春橋	zhāng chūnqiáo	Zhang Chunqiao	proper noun	人	Person	历史	History	中国	China	\N	\N	1917-2005; one of the 四人帮 Gang of Four (Wikipedia '张春桥')	6006463
+6006464	姚文元	\N	Yáo Wényuán	Yao Wenyuan	proper noun	人	Person	历史	History	中国	China	\N	\N	1931－2005; One of the 四人帮 Gang of Four (Wikipedia '姚文元')	6006464
+6006465	王洪文	\N	Wáng Hóngwén	Wang Hongwen	proper noun	人	Person	历史	History	中国	China	\N	\N	1935-1992; one of the 四人帮 Gang of Four (Wikipedia '王洪文')	6006465
+6006466	国光帮帮忙	國光幫幫忙	guóguāng bāngbāngmáng	The Gang of Kuo Kuan	proper noun	\N	\N	现代汉语	Modern Chinese	媒体	Media	\N	\N	A TV program produced by the Taiwanese 三立電視 Sanlih E-Television (Shei 2014, loc. 183; Wikipedia '國光幫幫忙')	6006466
+6006467	三立电视	三立電視	sān lì diànshì	Sanlih E-Television	proper noun	电视台	Broadcasting Station	现代汉语	Modern Chinese	媒体	Media	\N	\N	(Wikipedia '三立電視')	6006467
+6006468	鸿章	鴻章	hóngzhāng	Li Hung-chang / Li Hongzhang	proper noun	人	Person	历史	History	中国	China	\N	\N	1823-1901; Qing dynasty general, politician and diplomat (CC-CEDICT '鴻章')	6006468
+6006469	中国电视公司	中國電視公司	zhōngguó diànshì gōngsī	China TV (CTV)	proper noun	电视台	Television Station	现代汉语	Modern Chinese	媒体	Media	\N	\N	In Taiwan (CC-CEDICT '中國電視公司')	6006469
+6006470	邓小平	鄧小平	Dèng Xiǎopíng	Deng Xiaoping	proper noun	人	Person	历史	History	中国	China	\N	\N	1904-1997; Chinese communist leader, de facto leader of PRC 1978－1990 and creator of 'socialism with Chinese characteristics' (CV 'Deng Xiaoping; Sullivan and Hearst 1997, 'DENG XIAOPING'; Wikipedia '邓小平')	6006470
+6006471	林彪	\N	Lín Biāo	Lin Biao	proper noun	\N	\N	历史	History	中国	China	\N	\N	1907-1971; Communist leader and first Vice Chairman of the People's Republic of China, died in a plane crash after an apparent failed coup (Wikipedia '林彪')	6006471
+6006472	朱德	\N	Zhū Dé	Zhu De	proper noun	\N	\N	历史	History	中国	China	\N	\N	1886－1976; communist leader and founder of the People's Liberation Army (Wikipedia '朱德')	6006472
+6006473	两个凡是	兩個凡是	liǎng gè fánshì	Two Whatevers	proper noun	\N	\N	历史	History	中国	China	\N	\N	Unpopular policy of upholding whatever policy Chairman Mao proposed, by Hua Guofeng after Mao's death (Wikipedia '两个凡是')	6006473
+6006474	李鸿章	李鴻章	lǐhóngzhāng	Li Hung-chang / Li Hongzhang	proper noun	人	Person	历史	History	中国	China	\N	\N	1823-1901; Qing dynasty general, politician and diplomat (CC-CEDICT '李鴻章')	6006474
+6006475	吴趼人	吳趼人	wújiǎnrén	Wu Jianren	proper noun	作者	Author	历史	History	中国	China	\N	\N	1867-1910; Late Qing dynasty novelist, author of the strange state of the world witnessed over 20 years 二十年目睹之怪现状 (CC-CEDICT '吳趼人')	6006475
+6006476	斯文·赫定	\N	sīwén hè dìng	Sven Hedin	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1865-1952; Famous Swedish adventurer and archaeologist, whose 1894-1900 Central Asian expeditions uncovered Kroraina or Loulan 楼兰 (CC-CEDICT '斯文·赫定')	6006476
+6006477	拉玛五世	拉瑪五世	Lāmǎ Wǔ Shì	Rama V	proper noun	国王	King	历史	History	泰国	Thailand	\N	\N	1853-1910; Fifth monarch of Siam under the House of Chakri (Wikipedia '拉玛五世')	6006477
