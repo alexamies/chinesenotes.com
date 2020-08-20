@@ -694,3 +694,12 @@
 7000694	冈波巴	岡波巴	gāngbōbā	Gampopa	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1079–1153; Tibetan name: Sgam po pa Bsod nams rin chen (Gampopa Sönam Rinchen); Tibetan monastic in the Kagyu lineage (BL 'Sgam po pa Bsod nams rin chen'; FGDB '岡波巴'; Wikipedia '岡波巴')	7000694
 7000695	觉囊派	覺囊派	juénángpài	Jonang	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	A school of Tibetan Buddhism (Wikipedia '觉囊派')	7000695
 7000696	达拉岗布寺	達拉崗布寺	dálā gǎngbù sì	Daklha Gampo Monastery	proper noun	寺院	Temple	佛教	Buddhism	西藏	Tibet	\N	\N	(Wikipedia '达拉岗布寺')	7000696
+7000697	諸菩萨求佛本业经	諸菩薩求佛本業經	Zhū Púsà Qiú Fó Běn Yè Jīng	Zhu Pusa Qiu Fo Ben Ye Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 282; KDC 93)	7000697
+7000698	菩萨十住行道品	菩薩十住行道品	Púsà Shí Zhù Xíng Dào Jīng	Pusa Shi Zhu Xing Dao Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 283; KDC 92)	7000698
+7000699	僧会	僧會	Sēng Huì	Kang Seng Hui	proper noun	法师	Monk	佛教	Buddhism	\N	\N	\N	\N	See 康僧會 (FGDB '康僧會')	7000699
+7000700	菩萨本业经	菩薩本業經	Púsà Běn Yè Jīng	Pusa Ben Ye Jing	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	The name of a text in the Chinese Buddhist canon (T 281; KDC 94)	7000700
+7000701	菩萨十住品	菩薩十住經	Púsà Shí Zhù Jīng	Pusa Shi Zhu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 284; KDC 97)	7000701
+7000702	祇多蜜	\N	Zhǐduōmì	Gītamitra	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	A monastic from the Western Regions who travelled to China in the Eastern Jin, translated 《菩薩十住經》'Pusa Shi Zhu Jing' (FGDB '祇多蜜'; KDC 97; T 284)	7000702
+7000703	渐備一切智德经	漸備一切智德經	Jiàn Bèi Yīqiè Zhì Dé Jīng	Daśabhūmikasūtra / Jian Bei Yiqie Zhi De Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 285; KDC 89)	7000703
+7000704	十住经	十住經	Shí Zhù Jīng	Daśabhūmikasūtra / Shi Zhu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 286; KDC 98)	7000704
+7000705	佛说十住经	佛說十地經	Fóshuō Shí Zhù Jīng	Daśabhūmikasūtra / Foshuo Shi Zhu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 287; KDC 1388)	7000705

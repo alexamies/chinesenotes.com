@@ -8,8 +8,18 @@
 <h4>English translations</h4>
 <p>
   <li>
+    Davis A R 1983, <i>T'ao Yuan-ming: His works and their meaning</i>,
+    Cambridge University Press.
+  </li>
+  <li>
+    Minford, John and Joseph Lau (eds) 2000, <i>An Anthology of Translations:
+    Classical Chinese Literature</i>, Volume 1: From Antiquity to the Late Tang,
+    New York: Columbia University Press and Hong Kong: The Chinese University
+    Press, pp. 491-520.
+  </li>
+  <li>
     Pollard, David 2002, <i>The Chinese Essay: An Anthology</i>,
-    New York: Columbia University Press, pp. 29-30. Translation of poem
+    New York: Columbia University Press, pp. 29-30. Translation of
     自祭文 Requiem for Myself.
   </li>
   <li>
@@ -28,3 +38,126 @@
     Ann Arbor: Center for Chinese Studies, University of Michigan, p. 110.
   </li>
 </ol>
+
+<h4>English translations</h4>
+<ol>
+  <li>
+   序 Preface
+  </li>
+  <li>
+    卷之一　詩四言 Scroll 1: Four Character Form Poetry
+    <ol>
+    停雲
+    時運
+    停雲
+    贈長沙公
+    酬丁柴桑
+    答龐參軍
+    勸農
+    贈長沙公族祖
+    命子
+    歸鳥
+    </ol>
+  </li>
+  <li>
+    卷之二　詩 Scroll 2: Lyric Poetry
+    <ol>
+    形影神
+    形贈影
+    影答形
+    神釋
+    九日閑居
+    歸園田居
+    遊斜川
+    示周續之祖企謝景夷三郎
+    乞食
+    諸人共遊周家墓柏下
+    怨詩楚調示龐主簿鄧治中
+    答龐參軍|答龐參軍|答龐參軍
+    五月旦作和戴主簿
+    連雨獨飲
+    移居
+    和劉柴桑
+    和郭主簿
+    酬劉柴桑
+    於王撫軍座送客
+    與殷晉安別
+    贈羊長史
+    歲暮和張常侍
+    和胡西曹示顧賊曹
+    悲從弟仲德
+    </ol>
+  </li>
+  <li>
+    卷之三　詩五言 Scroll 3: Five Character Form Poetry
+    <ol>
+    始作鎮軍參軍經曲阿
+    庚子歲五月中從都還阻風於規林
+    辛丑歲七月赴假還江陵夜行塗口
+    癸卯歲始春懷古田舍
+    癸卯歲十二月中作與從弟敬遠
+    乙巳歲三月為建威參軍使都經錢溪
+    戊申歲六月中遇火
+    還舊居
+    己酉歲九月九日
+    庚戌歲九月中於西田穫早稻
+    丙辰歲八月中於下潠田舍穫
+    飲酒二十首
+    止酒
+    述酒
+    責子
+    有會而作
+    蜡日
+    </ol>
+  </li>
+  <li>
+    卷之四　詩五言 Scroll 4: Five Character Form Poetry
+    <ol>
+    擬古
+    雜詩
+    詠貧士
+    詠二疏
+    詠三良
+    詠荊軻
+    讀山海經
+    擬挽歌辭
+    聯句
+    </ol>
+  </li>
+  <li>
+    卷之五　賦辭 Scroll 5: Fu Poems
+    <ol>
+    感士不遇賦
+    閑情賦
+    歸去來兮辭
+   </ol>
+  </li>
+  <li>
+    卷之六　記傳贊述 Scroll 6: Narration on History and Biography
+    <ol>
+    桃花源記
+    晉故征西大將軍長史孟府君傳
+    五柳先生傳 Gentleman of the Five Willow Trees
+    扇上畫贊
+    尚長禽慶贊
+    讀史述九章
+    夷齊
+    箕子
+    管鮑
+    程杵
+    七十二弟子
+    屈賈
+    韓非
+    魯二儒
+    張長公
+    </ol>
+  </li>
+  <li>
+    卷之七　疏祭文  Scroll 7: Memorials
+    <ol>
+    與子儼等疏
+    祭程氏妹文
+    祭從弟敬遠文
+    自祭文 Requiem for Myself
+    </ol>
+  </li>

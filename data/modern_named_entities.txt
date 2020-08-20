@@ -6475,3 +6475,24 @@
 6006475	吴趼人	吳趼人	wújiǎnrén	Wu Jianren	proper noun	作者	Author	历史	History	中国	China	\N	\N	1867-1910; Late Qing dynasty novelist, author of the strange state of the world witnessed over 20 years 二十年目睹之怪现状 (CC-CEDICT '吳趼人')	6006475
 6006476	斯文·赫定	\N	sīwén hè dìng	Sven Hedin	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1865-1952; Famous Swedish adventurer and archaeologist, whose 1894-1900 Central Asian expeditions uncovered Kroraina or Loulan 楼兰 (CC-CEDICT '斯文·赫定')	6006476
 6006477	拉玛五世	拉瑪五世	Lāmǎ Wǔ Shì	Rama V	proper noun	国王	King	历史	History	泰国	Thailand	\N	\N	1853-1910; Fifth monarch of Siam under the House of Chakri (Wikipedia '拉玛五世')	6006477
+6006478	李伯元	\N	Lǐ Bóyuán	Li Boyuan / Li Baojia	proper noun	作家	Author	文学	Literature	中国	China	\N	\N	See 李宝嘉 (Wikipedia '李寶嘉')	6006478
+6006479	李宝嘉	李寶嘉	Lǐ Bǎojiā	Li Baojia	proper noun	作家	Author	文学	Literature	中国	China	\N	\N	1867-1906; Chinese author (Wikipedia '李寶嘉')	6006479
+6006480	文明小史	\N	wénmíng xiǎo shǐ	Modern Times / Short History of Civilization	proper noun	书	Book	文学	Literature	中国	China	\N	\N	Book by 李宝嘉 Li Baojia 1867-1906 (Wikipedia '文明小史')	6006480
+6006481	刘鹗	劉鶚	liúè	Liu E	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1857-1909; late Qing novelist, author of 老残游记 <i>The Travels of Lao Tsan</i> (CC-CEDICT '劉鶚'; Wikipedia '刘鹗')	6006481
+6006482	斯当东	斯當東	sīdāngdōng	Staunton (name)	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '斯當東')	6006482
+6006483	斯维尔德洛夫	斯維爾德洛夫	sī wéi ěrdé luò fū	Yakov Mikhailovich Sverdlov	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	1885-1919; Bolshevik organizer, ordered the murder of the Tsar's family in 1918, died of Spanish influenza (CC-CEDICT '斯維爾德洛夫')	6006483
+6006484	普希金	\N	pǔxījīn	Alexandr Sergeevich Pushkin	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1799-1837; Great Russian romantic poet (CC-CEDICT '普希金')	6006484
+6006485	普氏	\N	pǔshì	Nikolai Mikhailovich Przevalski	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1839-1888; Russian explorer who made four expeditions to Central Asian from 1870 (CC-CEDICT '普氏')	6006485
+6006486	普尔热瓦尔斯基	普爾熱瓦爾斯基	pǔěrrèwǎěrsījī	Nikolai Mikhailovich Przevalski	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	Abbreviation to 普氏; 1839-1888; Russian explorer who made four expeditions to Central Asian from 1870 (CC-CEDICT '普爾熱瓦爾斯基')	6006486
+6006487	普罗科菲夫	普羅科菲夫	pǔluókēfēifū	Sergei Prokofiev	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1891-1953; Russian composer (CC-CEDICT '普羅科菲夫')	6006487
+6006488	普鲁斯特	普魯斯特	pǔlǔsīté	Marcel Proust	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	1871-1922; French author (CC-CEDICT '普魯斯特')	6006488
+6006489	普鲁东	普魯東	pǔlǔdōng	Pierre-Joseph Proudhon	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1809-1865; French socialist philosopher (CC-CEDICT '普魯東')	6006489
+6006490	柏辽兹	柏遼茲	bǎiliáozī	Hector Berlioz	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1803-1869; French romantic composer, author of Symphonie Fantastique (CC-CEDICT '柏遼茲')	6006490
+6006491	查尔斯·狄更斯	查爾斯·狄更斯	chá'ěrsī dígèngsī	Charles Dickens	proper noun	作者	Author	历史	History	英国	England	\N	\N	1812-1870; Great English novelist (CC-CEDICT '查爾斯·狄更斯')	6006491
+6006492	柯西	\N	kēxī	Augustin-Louis Cauchy	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1789-1857; French mathematician (CC-CEDICT '柯西')	6006492
+6006493	柴科夫斯基	\N	cháikēfūsījī	Piotr Ilyich Tchaikowsky	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1840-1893; Russian composer, composer of 6 symphonies and the opera Eugene Onegin (CC-CEDICT '柴科夫斯基')	6006493
+6006494	梅斯梅尔	梅斯梅爾	méisīméi'ěr	Mesmer (name) / Franz Anton Mesmer	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1734-1815; Austrian doctor who introduced hypnosis (CC-CEDICT '梅斯梅爾')	6006494
+6006495	梅兰芳	梅蘭芳	méilánfāng	Mei Lanfang	proper noun	人	Person	历史	History	中国	China	\N	\N	1894-1961; Famous master of Beijing opera, specialist in female roles (CC-CEDICT '梅蘭芳')	6006495
+6006496	梅西耶	\N	méixīyé	Charles Messier	proper noun	人	Person	历史	History	天文	Astronomy	\N	\N	1730-1817; French astronomer who catalogued nebulas and galaxies (CC-CEDICT '梅西耶')	6006496
+6006497	梅西叶	梅西葉	méixīyè	Charles Messier	proper noun	星云	Nebula	历史	History	天文	Astronomy	\N	\N	1730-1817; French astronomer who catalogued nebulas and galaxies (CC-CEDICT '梅西葉')	6006497
+6006498	梅里美	\N	méilǐměi	Prosper Mérimée	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1803-1870; French scholar and writer, author of novel Carmen on which Bizet based his opera (CC-CEDICT '梅里美')	6006498
