@@ -6496,3 +6496,35 @@
 6006496	梅西耶	\N	méixīyé	Charles Messier	proper noun	人	Person	历史	History	天文	Astronomy	\N	\N	1730-1817; French astronomer who catalogued nebulas and galaxies (CC-CEDICT '梅西耶')	6006496
 6006497	梅西叶	梅西葉	méixīyè	Charles Messier	proper noun	星云	Nebula	历史	History	天文	Astronomy	\N	\N	1730-1817; French astronomer who catalogued nebulas and galaxies (CC-CEDICT '梅西葉')	6006497
 6006498	梅里美	\N	méilǐměi	Prosper Mérimée	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1803-1870; French scholar and writer, author of novel Carmen on which Bizet based his opera (CC-CEDICT '梅里美')	6006498
+6006499	欧阳予倩	歐陽予倩	ōuyáng yǔqiàn	Ouyang Yuqian	proper noun	人	Person	历史	History	中国	China	\N	\N	1889-1962; Chinese actor (CC-CEDICT '歐陽予倩')	6006499
+6006500	段祺瑞	\N	duànqíruì	Duan Qirui	proper noun	人	Person	历史	History	中国	China	\N	\N	1864-1936; Commander of Beiyang Army under Yuan Shikai, then politician and powerful warlord (CC-CEDICT '段祺瑞')	6006500
+6006501	比才	\N	bìcái	Bizet (name) / Georges Bizet	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1838-1875; French musician, composer of opera Carmen (CC-CEDICT '比才')	6006501
+6006502	泊松	\N	bósōng	S.D. Poisson	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1781-1840; French mathematician (CC-CEDICT '泊松')	6006502
+6006503	波兹曼	波茲曼	bōzīmàn	Ludwig Boltzmann	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1844-1906; Austrian physicist and philosopher (CC-CEDICT '波茲曼')	6006503
+6006504	洛伦茨	洛倫茨	luòlúncí	Lorentz (name) / Hendrik Lorentz	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1853-1928; Dutch physicist, 1902 Nobel laureate (CC-CEDICT '洛倫茨')	6006504
+6006505	港英政府	\N	gǎng yīng zhèngfǔ	Hong Kong British colonial administration	proper noun	\N	\N	历史	History	中国	China	\N	\N	1837-1941 and 1945-1997 (CC-CEDICT '港英政府')	6006505
+6006506	汤玉麟	湯玉麟	tāng yùlín	Tang Yulin	proper noun	人	Person	历史	History	中国	China	\N	\N	1871-1937; Minor warlord in northeast China, sometime governor of Chengde 承德, mostly poor in battle but very successful at accumulating personal wealth (CC-CEDICT '湯玉麟')	6006506
+6006507	熊成基	\N	xióngchéngjī	Xiong Chengji	proper noun	人	Person	历史	History	中国	China	\N	\N	1887-1910; Anti-Qing revolutionary and martyr (CC-CEDICT '熊成基')	6006507
+6006508	热尔韦	熱爾韋	rèěrwéi	Gervais (name) / Paul Gervais	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1816-1879; French geologist (CC-CEDICT '熱爾韋')	6006508
+6006509	玩偶之家	\N	wánǒu zhī jiā	Doll's House	proper noun	\N	\N	文学	Literature	欧洲	Europe	\N	\N	1879; Drama by Ibsen 易卜生 (CC-CEDICT '玩偶之家')	6006509
+6006510	玻尔兹曼	玻爾茲曼	bō'ěrzīmàn	Ludwig Boltzmann	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1844-1906; Austrian physicist and philosopher (CC-CEDICT '玻爾茲曼')	6006510
+6006511	珀西·比希·雪莱	珀西·比希·雪萊	pòxī bìxī xuělái	Percy Bysshe Shelley	proper noun	人	Person	历史	History	英国	England	\N	\N	1792-1822; English Romantic poet (CC-CEDICT '珀西·比希·雪萊')	6006511
+6006512	珍·奥斯汀	珍·奧斯汀	zhēn ào sī tīng	Jane Austen	proper noun	作者	Author	历史	History	英国	England	\N	\N	Also written 简·奥斯汀; 1775-1817; English novelist; also written 简·奥斯汀 (CC-CEDICT '珍·奧斯汀')	6006512
+6006513	维克多·雨果	維克多·雨果	wéikèduō yǔguǒ	Victor Hugo	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1802-1885; French writer (CC-CEDICT '維克多·雨果')	6006513
+6006514	瓦德西	\N	wǎdéxī	Waldersee (name) / Alfred Graf Von Waldersee	proper noun	\N	\N	历史	History	\N	\N	\N	\N	1832-1904; Commander-in-chief of the Eight-Nation Alliance 八国联军 (CC-CEDICT '瓦德西')	6006514
+6006515	田汉	田漢	tiánhàn	Tian Han	proper noun	人	Person	历史	History	中国	China	\N	\N	1898-1968; Author of the words of the PRC national anthem March of the Volunteer Army 义勇军进行曲 (CC-CEDICT '田漢')	6006515
+6006516	毕尼奥夫	畢尼奧夫	bìní'àofū	Hugo Benioff	proper noun	\N	\N	历史	History	\N	\N	\N	\N	1899-1968; Caltech seismologist (CC-CEDICT '畢尼奧夫')	6006516
+6006517	法兰西斯·斐迪南	法蘭西斯·斐迪南	Fǎlánxīsī fěidí án	Archduke Francis Ferdinand of Austria	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1863-1914; Heir to the Hapsburg throne, whose assassination in Sarajevo led to World War I (CC-CEDICT '法蘭西斯·斐迪南')	6006517
+6006518	白崇禧	\N	báichóngxǐ	Bai Chongxi	proper noun	人	Person	历史	History	中国	China	\N	\N	1893-1966; A leader of Guangxi warlord faction, top Nationalist general, played important role in Chiang Kaishek's campaigns 1926-1949 (CC-CEDICT '白崇禧')	6006518
+6006519	白求恩	\N	báiqiúēn	Norman Bethune	proper noun	人	Person	历史	History	中国	China	\N	\N	1890-1939; Canadian doctor, worked for communists in Spanish civil war and for Mao in Yan'an, where he died of blood poisoning (CC-CEDICT '白求恩')	6006519
+6006520	福斯特	\N	fúsīté	Foster or Forster (name) / Stephen Collins Foster	proper noun	人	Person	历史	History	\N	\N	\N	\N	1826-1864; American composer (CC-CEDICT '福斯特')	6006520
+6006521	福楼拜	福樓拜	fúlóubài	Gustave Flaubert	proper noun	作者	Author	历史	History	欧洲	Europe	\N	\N	1821-1880; French realist novelist, author of Madame Bovary (CC-CEDICT '福樓拜')	6006521
+6006522	福禄贝尔	福祿貝爾	fúlùbèiěr	surname Fröbel or Froebel / Friedrich Wilhelm August Fröbel	set phrase	姓氏	Surname	历史	History	欧洲	Europe	\N	\N	1782-1852; German pedagogue (CC-CEDICT '福祿貝爾')	6006522
+6006523	穆索尔斯基	穆索爾斯基	mùsuǒ'ěrsījī	Modest Mussorgsky	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1839-1881; Russian composer, composer of Pictures at an Exhibition (CC-CEDICT '穆索爾斯基')	6006523
+6006524	章士钊	章士釗	zhāngshìzhāo	Zhang Shizhao	proper noun	人	Person	历史	History	中国	China	\N	\N	1881-1973; Revolutionary journalist in Shanghai, then established writer (CC-CEDICT '章士釗')	6006524
+6006525	竺可桢	竺可楨	zhú kězhēn	Zhu Kezhen	proper noun	\N	\N	历史	History	中国	China	\N	\N	1890-1974; Chinese metereologist and geologist (CC-CEDICT '竺可楨')	6006525
+6006526	笛沙格	\N	díshāgé	Girard Desargues	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	1591-1661; French geometer (CC-CEDICT '笛沙格')	6006526
+6006527	第一国际	第一國際	dì yī guójì	First international	proper noun	\N	\N	历史	History	\N	\N	\N	\N	Organized by Karl Marx in Geneva in 1866 (CC-CEDICT '第一國際')	6006527
+6006528	米高扬	米高揚	mǐgāoyáng	Mikoyan (name) / Anastas Ivanonovich Mikoyan	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '米高揚')	6006528
+6006529	纪伯伦	紀伯倫	jìbólún	Khalil Gibran	proper noun	人	Person	历史	History	\N	\N	\N	\N	1883-1931; Lebanese poet, writer and artist (CC-CEDICT '紀伯倫')	6006529
+6006530	约瑟夫·斯大林	約瑟夫·斯大林	yuēsèfū Sīdàlín	Joseph Stalin	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1879-1953; Soviet dictator (CC-CEDICT '約瑟夫·斯大林')	6006530

@@ -244,3 +244,4 @@
 5000244	解决困难	解決困難	jiějué kùnnan	overcome their difficulties	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 64-65)	5000244
 5000245	新的基础	新的基礎	xīn de jīchǔ	a new basis	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 66-67)	5000245
 5000246	工人和农民的联盟	工人和農民的聯盟	gōngrén hé nóngmín de liánméng	worker-peasant alliance	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 66-67)	5000246
+5000247	毛塑像	\N	máo sùxiàng	statue of Mao	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	See 毛泽东 (CC-CEDICT '毛塑像')	5000247
