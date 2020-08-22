@@ -8,8 +8,34 @@
 <h4>English translations</h4>
 <p>
   <li>
+    Acker William trans. 1952, <i>T'ao the Hermit: Sixty Poems by T'ao
+    Ch'ien</i>, London: Thames and Hudson.
+  </li>
+  <li>
+    Acker William, “Nineteen Poems” in Minford, John
+    and Joseph Lau (eds) 2000, <i>An Anthology of Translations:
+    Classical Chinese Literature</i>, Volume 1: From Antiquity to the Late
+    Tang, New York: Columbia University Press and Hong Kong: The Chinese
+    University Press, pp. 495-512.
+  </li>
+  <li>
+    Chang H C ed and trans 1977, <i>Chinese Literature Vol. 2: Nature
+    Poetry</i>, Edinburgh: University of Edinburgh Press.
+  </li>
+  <li>
     Davis A R 1983, <i>T'ao Yuan-ming: His works and their meaning</i>,
     Cambridge University Press.
+  </li>
+  <li>
+    Hightower J R, 1970, <i>The Poetry of T'ao Ch'ien</i>, Oxford: Oxford
+    University Press.
+  </li>
+  <li>
+    Hightower J R, “Gentleman of the Five Willow Trees” in Minford, John
+    and Joseph Lau (eds) 2000, <i>An Anthology of Translations:
+    Classical Chinese Literature</i>, Volume 1: From Antiquity to the Late
+    Tang, New York: Columbia University Press and Hong Kong: The Chinese
+    University Press, pp. 493-495.
   </li>
   <li>
     Minford, John and Joseph Lau (eds) 2000, <i>An Anthology of Translations:
@@ -21,6 +47,10 @@
     Pollard, David 2002, <i>The Chinese Essay: An Anthology</i>,
     New York: Columbia University Press, pp. 29-30. Translation of
     自祭文 Requiem for Myself.
+  </li>
+  <li>
+    Yang , Gladys and Yang Xianyi, trans. 1993, <i>Tao Yuanming: Selected
+    Poems</i>, Beijing: Chinese Literature Press.
   </li>
   <li>
     Waley, Arthur 1919, <i>A Hundred and Seventy Chinese Poems</i>,
@@ -39,7 +69,7 @@
   </li>
 </ol>
 
-<h4>English translations</h4>
+<h4>Contents</h4>
 <ol>
   <li>
    序 Preface
@@ -47,117 +77,116 @@
   <li>
     卷之一　詩四言 Scroll 1: Four Character Form Poetry
     <ol>
-    停雲
-    時運
-    停雲
-    贈長沙公
-    酬丁柴桑
-    答龐參軍
-    勸農
-    贈長沙公族祖
-    命子
-    歸鳥
+      <li>停雲 Still Clouds</li>
+      <li>時運 Fate</li>
+      <li>停雲 Still Clouds/li>
+      <li>贈長沙公</li>
+      <li>酬丁柴桑</li>
+      <li>答龐參軍</li>
+      <li>勸農 In Praise of Farm Work</li>
+      <li>贈長沙公族祖</li>
+      <li>命子</li>
+      <li>歸鳥</li>
     </ol>
   </li>
   <li>
     卷之二　詩 Scroll 2: Lyric Poetry
     <ol>
-    形影神 Substance, Shadow, and Spirit
-    形贈影
-    影答形
-    神釋
-    九日閑居
-    歸園田居
-    遊斜川
-    示周續之祖企謝景夷三郎
-    乞食
-    諸人共遊周家墓柏下
-    怨詩楚調示龐主簿鄧治中
-    答龐參軍|答龐參軍|答龐參軍
-    五月旦作和戴主簿
-    連雨獨飲
-    移居
-    和劉柴桑
-    和郭主簿
-    酬劉柴桑
-    於王撫軍座送客
-    與殷晉安別
-    贈羊長史
-    歲暮和張常侍
-    和胡西曹示顧賊曹
-    悲從弟仲德
+      <li>形影神 Form, Shadow, and Spirit</li>
+      <li>形贈影 Form Confers with Shadow</li>
+      <li>影答形 Shadow Responds to Form</li>
+      <li>神釋 Spirit Explains</li>
+      <li>九日閑居 Nine Days of Rest</li>
+      <li>歸園田居 Returning to Live in the Countryside</li>
+      <li>遊斜川 Roaming by the Xie River</li>
+      <li>示周續之祖企謝景夷三郎</li>
+      <li>乞食 Begging for Food</li>
+      <li>諸人共遊周家墓柏下</li>
+      <li>怨詩楚調示龐主簿鄧治中</li>
+      <li>答龐參軍|答龐參軍|答龐參軍</li>
+      <li>五月旦作和戴主簿 Composed on the First Day of the Fifth Month</li>
+      <li>連雨獨飲 Drinking Alone on Rainy Days</li>
+      <li>移居 Moving Home</li>
+      <li>和劉柴桑 With Liu Chaisang</li>
+      <li>和郭主簿 With Imperial Official Guo</li>
+      <li>酬劉柴桑 In Response to Liu Chaisang</li>
+      <li>於王撫軍座送客 Visting Captain Wang and Seeing Off a Guest</li>
+      <li>與殷晉安別</li>
+      <li>贈羊長史</li>
+      <li>歲暮和張常侍</li>
+      <li>和胡西曹示顧賊曹</li>
+      <li>悲從弟仲德</li>
     </ol>
   </li>
   <li>
     卷之三　詩五言 Scroll 3: Five Character Form Poetry
     <ol>
-    始作鎮軍參軍經曲阿
-    庚子歲五月中從都還阻風於規林
-    辛丑歲七月赴假還江陵夜行塗口
-    癸卯歲始春懷古田舍
-    癸卯歲十二月中作與從弟敬遠
-    乙巳歲三月為建威參軍使都經錢溪
-    戊申歲六月中遇火
-    還舊居
-    己酉歲九月九日
-    庚戌歲九月中於西田穫早稻
-    丙辰歲八月中於下潠田舍穫
-    飲酒二十首
-    止酒
-    述酒
-    責子
-    有會而作
-    蜡日
+      <li>始作鎮軍參軍經曲阿</li>
+      <li>庚子歲五月中從都還阻風於規林</li>
+      <li>辛丑歲七月赴假還江陵夜行塗口</li>
+      <li>癸卯歲始春懷古田舍</li>
+      <li>癸卯歲十二月中作與從弟敬遠</li>
+      <li>乙巳歲三月為建威參軍使都經錢溪</li>
+      <li>戊申歲六月中遇火</li>
+      <li>還舊居 Returning to my Former Home</li>
+      <li>己酉歲九月九日 Composed on the Ninth Day of the Ninth Month of the Year Yiyou</li>
+      <li>庚丙辰歲八月中於下潠田舍穫</li>
+      <li>飲酒二十首 Twenty Poems about Drinking</li>
+      <li>止酒 Quitting Drinking</li>
+      <li>述酒 About Drinking</li>
+      <li>責子 Blaming his Sons</li>
+      <li>有會而作</li>
+      <li>蜡日</li>
     </ol>
   </li>
   <li>
     卷之四　詩五言 Scroll 4: Five Character Form Poetry
     <ol>
-    擬古
-    雜詩
-    詠貧士
-    詠二疏
-    詠三良
-    詠荊軻
-    讀山海經
-    擬挽歌辭
-    聯句
+      <li>擬古 Emulating a Classic</li>
+      <li>雜詩 Miscellaneous Poetry</li>
+      <li>詠貧士 Eulogy: A Poor Person</li>
+      <li>詠二疏</li>
+      <li>詠三良 Eulogy 3: Virtue</li>
+      <li>詠荊軻 Eulogy: Jing Ke</li>
+      <li>讀山海經 Reading the Classic of Mountains and Seas</li>
+      <li>擬挽歌辭</li>
+      <li>聯句 A String of Words</li>
     </ol>
   </li>
   <li>
     卷之五　賦辭 Scroll 5: Fu Poems
     <ol>
-    感士不遇賦
-    閑情賦
-    歸去來兮辭
+      <li>感士不遇賦</li>
+      <li>閑情賦</li>
+      <li>歸去來兮辭 Song of the Return Home</li>
    </ol>
   </li>
   <li>
     卷之六　記傳贊述 Scroll 6: Narration on History and Biography
     <ol>
-    桃花源記
-    晉故征西大將軍長史孟府君傳
-    五柳先生傳 Gentleman of the Five Willow Trees
-    扇上畫贊
-    尚長禽慶贊
-    讀史述九章
-    夷齊
-    箕子
-    管鮑
-    程杵
-    七十二弟子
-    屈賈
-    韓非
-    魯二儒
-    張長公
+      <li>桃花源記 Memories of Garden of the Peaches of Immortality</li>
+      <li>晉故征西大將軍長史孟府君傳</li>
+      <li>五柳先生傳 Gentleman of the Five Willow Trees</li>
+      <li>扇上畫贊</li>
+      <li>尚長禽慶贊</li>
+      <li>讀史述九章</li>
+      <li>夷齊 Bo Yi and Shu Qi</li>
+      <li>箕子  Jizi </li>
+      <li>管鮑 Guan Zhong and Bao Shuya</li>
+      <li>程杵</li>
+      <li>七十二弟子</li>
+      <li>屈賈</li>
+      <li>韓非 Han Fei</li>
+      <li>魯二儒</li>
+      <li>張長公</li>
     </ol>
   </li>
   <li>
     卷之七　疏祭文  Scroll 7: Memorials
     <ol>
-    與子儼等疏
-    祭程氏妹文
-    祭從弟敬遠文
-    自祭文 Requiem for Myself
+      <li>與子儼等疏</li>
+      <li>祭程氏妹文</li>
+      <li>祭從弟敬遠文</li>
+      <li>自祭文 Requiem for Myself</li>
     </ol>
   </li>

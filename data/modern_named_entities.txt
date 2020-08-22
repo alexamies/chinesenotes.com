@@ -6528,3 +6528,49 @@
 6006528	米高扬	米高揚	mǐgāoyáng	Mikoyan (name) / Anastas Ivanonovich Mikoyan	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '米高揚')	6006528
 6006529	纪伯伦	紀伯倫	jìbólún	Khalil Gibran	proper noun	人	Person	历史	History	\N	\N	\N	\N	1883-1931; Lebanese poet, writer and artist (CC-CEDICT '紀伯倫')	6006529
 6006530	约瑟夫·斯大林	約瑟夫·斯大林	yuēsèfū Sīdàlín	Joseph Stalin	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1879-1953; Soviet dictator (CC-CEDICT '約瑟夫·斯大林')	6006530
+6006531	闻一多	聞一多	wényīduō	Wen Yiduo	proper noun	人	Person	历史	History	\N	\N	\N	\N	1899-1946; Poet and patriotic fighter, executed by Guomindang in Kunming (CC-CEDICT '聞一多')	6006531
+6006532	艾格尼丝·史沫特莱	艾格尼絲·史沫特萊	àigénísī shǐmòtélái	Agnes Smedley	proper noun	\N	\N	历史	History	中国	China	\N	\N	1892-1950; US journalist who reported on China, especially the communist side (CC-CEDICT '艾格尼絲·史沫特萊')	6006532
+6006533	范德瓦耳斯	\N	fàndé wǎ'ěrsī	van der Waals / Johannes Diderik van der Waals	phrase	人	Person	历史	History	欧洲	Europe	\N	\N	1837-1923; Dutch physicist (CC-CEDICT '范德瓦耳斯')	6006533
+6006534	茅以升	\N	máoyǐshēng	Mao Yisheng	proper noun	人	Person	历史	History	中国	China	\N	\N	1896-1989; Chinese structural engineer and social activist (CC-CEDICT '茅以升')	6006534
+6006535	莫奈	\N	mònài	Claude Monet	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1840-1926; French impressionist painter (CC-CEDICT '莫奈')	6006535
+6006536	莫泊桑	\N	mòbósāng	Guy de Maupassant	proper noun	作者	Author	历史	History	欧洲	Europe	\N	\N	1850-1893; French novelist and short story writer (CC-CEDICT '莫泊桑')	6006536
+6006537	莫霍洛维奇	莫霍洛維奇	mòhuòluòwéiqí	Andrija Mohorovichich or Mohorovičić	proper noun	\N	\N	历史	History	\N	\N	\N	\N	1857-1936; Croatian geologist and seismologist who discovered the Mohorovichich discontinuity or Moho (CC-CEDICT '莫霍洛維奇')	6006537
+6006538	莱伊尔	萊伊爾	láiyīr	Lyell (name) / Sir Charles Lyell	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1797-1875; Scottish geologist (CC-CEDICT '萊伊爾')	6006538
+6006539	莱佛士	萊佛士	láifóshì	Stamford Raffles	proper noun	人	Person	历史	History	英国	England	\N	\N	1781-1826; British statesman and founder of the city of Singapore, surname Raffles (CC-CEDICT '萊佛士')	6006539
+6006540	董必武	\N	dǒng bìwǔ	Dong Biwu	proper noun	人	Person	历史	History	中国	China	\N	\N	1886-1975; One of the founders of the Chinese communist party (CC-CEDICT '董必武')	6006540
+6006541	蔡东藩	蔡東藩	cài dōngfān	Cai Dongfan	proper noun	作者	Author	历史	History	中国	China	\N	\N	1877-1945; Historian and historical novelist (CC-CEDICT '蔡東藩')	6006541
+6006542	萧伯纳	蕭伯納	xiāobónà	George Bernard Shaw	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1856-1950; Irish dramatist and writer (CC-CEDICT '蕭伯納')	6006542
+6006543	薛定谔	薛定諤	xuēdìngè	Erwin Schrödinger	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1887-1961; Austrian physicist (CC-CEDICT '薛定諤')	6006543
+6006544	兰克	蘭克	lánkè	Rank (name) / Leopold von Ranke	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	1795-1886; German historian (CC-CEDICT '蘭克')	6006544
+6006545	托洛茨基	託洛茨基	tuōluòcíjī	Leon Davidovich Trotsky	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1879-1940; Early Bolshevik leader, exiled by Stalin in 1929 and murdered in 1940 (CC-CEDICT '託洛茨基')	6006545
+6006546	许地山	許地山	xǔ dìshān	Xu Dishan	proper noun	作者	Author	历史	History	中国	China	\N	\N	1893-1941; Journalist, publisher and novelist (CC-CEDICT '許地山')	6006546
+6006547	许廑父	許廑父	xǔ jǐnfù	Xu Qinfu	proper noun	人	Person	历史	History	中国	China	\N	\N	1891-1953; Journalist and writer (CC-CEDICT '許廑父')	6006547
+6006548	詹姆斯·乔伊斯	詹姆斯·喬伊斯	zhānmǔsī qiáoyīsī	James Joyce	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1882-1941; Irish modernist writer, author of Ulysses and Finnegans Wake (CC-CEDICT '詹姆斯·喬伊斯')	6006548
+6006549	贝努力	貝努力	bèinǔlì	Bernoulli	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	(CC-CEDICT '貝努力')	6006549
+6006550	费尔巴哈	費爾巴哈	fèi'ěrbāhā	Ludwig Feuerbach	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1804-1872; Materialist philosopher (CC-CEDICT '費爾巴哈')	6006550
+6006551	贺龙	賀龍	hèlóng	He Long	proper noun	人	Person	历史	History	中国	China	\N	\N	1896-1969; Important communist military leader, died from persecution during the Cultural Revolution (CC-CEDICT '賀龍')	6006551
+6006552	赫鲁晓夫	赫魯曉夫	hèlǔxiǎofū	Nikita Khrushchev	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1894-1971; Secretary-general of Soviet Communist Party 1953-1964 (CC-CEDICT '赫魯曉夫')	6006552
+6006553	越飞	越飛	yuèfēi	Adolph Abramovich Joffe	proper noun	人	Person	历史	History	中国	China	\N	\N	1883-1927; Soviet and Comintern diplomat and spy in 1922-23 in Republican China (CC-CEDICT '越飛')	6006553
+6006554	赵元任	趙元任	zhào yuánrèn	Yuen Ren Chao	proper noun	人	Person	历史	History	中国	China	\N	\N	1892-1982; Chinese-American linguist (CC-CEDICT '趙元任')	6006554
+6006555	赵尔巽	趙爾巽	zhào ěrxùn	Zhao Erxun	proper noun	人	Person	历史	History	中国	China	\N	\N	1844-1927; Modern historian, compiled the Draft History of the Qing dynasty 清史稿 (CC-CEDICT '趙爾巽')	6006555
+6006556	载漪	載漪	zàiyī	Zai Yi	proper noun	人	Person	历史	History	中国	China	\N	\N	1856-1922; Manchu imperial prince and politician, disgraced after supporting the Boxers (CC-CEDICT '載漪')	6006556
+6006557	辜鸿铭	辜鴻銘	gū hóngmíng	Ku Hung-ming or Gu Hongming	proper noun	人	Person	历史	History	\N	\N	\N	\N	1857-1928; Malaysian man of letters, highly regarded for his literary works written mostly in English, and known for his monarchist views (CC-CEDICT '辜鴻銘')	6006557
+6006558	近卫文麿	近衛文麿	jìnwèi wénmo	Prince Konoe Fumimaro	proper noun	人	Person	历史	History	日本	Japan	\N	\N	1891-; Japanese nobleman and militarist politician, prime minister 1937-1939 and 1940-1941 (CC-CEDICT '近衛文麿')	6006558
+6006559	迪斯雷利	\N	dísīléilì	Benjamin Disraeli	proper noun	作者	Author	历史	History	英国	England	\N	\N	1804-1881; British conservative politician and novelist, prime minister 1868-1880 (CC-CEDICT '迪斯雷利')	6006559
+6006560	道格拉斯·麦克阿瑟	道格拉斯·麥克阿瑟	dàogélāsī màikè'āsè	General Douglas MacArthur	proper noun	人	Person	历史	History	亚洲	Asia	\N	\N	1880-1964; US commander in Pacific during WW2, sacked in 1951 by President Truman for exceeding orders during the Korean war (CC-CEDICT '道格拉斯·麥克阿瑟')	6006560
+6006561	道尔顿	道爾頓	dàoěrdùn	Dalton (name) / John Dalton	proper noun	人	Person	历史	History	英国	England	\N	\N	1766-1844; British scientist who contributed to atomic theory (CC-CEDICT '道爾頓')	6006561
+6006562	邵飘萍	邵飄萍	shàopiāopíng	Shao Piaoping	proper noun	人	Person	历史	History	中国	China	\N	\N	1884-1926; Pioneer of journalism and founder of newspaper Beijing Press 京报, executed in 1926 by warlord Zhang Zuolin 张作霖 (CC-CEDICT '邵飄萍')	6006562
+6006563	郭沫若	\N	guōmòruò	Guo Moruo	proper noun	人	Person	历史	History	中国	China	\N	\N	1892-1978; Writer, communist party intellectual and cultural apparatchik (CC-CEDICT '郭沫若')	6006563
+6006564	邹韬奋	鄒韜奮	zōutāofèn	Zou Taofen	proper noun	人	Person	历史	History	中国	China	\N	\N	1895-1944; Journalist, political theorist and publisher (CC-CEDICT '鄒韜奮')	6006564
+6006565	铁托	鐵托	tiětuō	Marshal Josip Broz Tito	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1892-1980; Yugoslav military and communist political leader, president of Yugoslavia 1945-1980 (CC-CEDICT '鐵托')	6006565
+6006566	阿伏伽德罗	阿伏伽德羅	āfújiādéluó	Amedeo Avogadro	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1776-1856; Italian scientist (CC-CEDICT '阿伏伽德羅')	6006566
+6006567	陀思妥也夫斯基	\N	tuósītuǒyěfūsījī	Fyodor Mikhailovich Dostoevsky	proper noun	作者	Author	历史	History	欧洲	Europe	\N	\N	Also written 陀思妥耶夫斯基; 1821-1881; Great Russian novelist, author of Crime and Punishment 罪与罚 (CC-CEDICT '陀思妥也夫斯基')	6006567
+6006568	郭松焘	郭松燾	guō sōngdào	Guo Songdao / Kuo Sun-tao	proper noun	人	Person	历史	History	中国	China	\N	\N	1818-1891; China's first imperial commissioner (CC-CEDICT '郭松燾')	6006568
+6006569	陀思妥耶夫斯基	\N	tuósītuǒyéfūsījī	Fyodor Mikhailovich Dostoevsky	proper noun	作者	Author	历史	History	欧洲	Europe	\N	\N	1821-1881; Great Russian novelist, author of Crime and Punishment 罪与罚 (CC-CEDICT '陀思妥耶夫斯基')	6006569
+6006570	陈炯明	陳炯明	chénjiǒngmíng	Chen Jiongming	proper noun	人	Person	历史	History	中国	China	\N	\N	1878-1933; A leading warlord of Guangdong faction, defeated in 1925 and fled to Hong Kong (CC-CEDICT '陳炯明')	6006570
+6006571	陆征祥	陸徵祥	lù zhēngxiáng	Lu Zhengxiang	proper noun	人	Person	历史	History	中国	China	\N	\N	1871-1949; Chinese diplomat and Catholic monk (CC-CEDICT '陸徵祥')	6006571
+6006572	陆荣廷	陸榮廷	lù róngtíng	Lu Rongting	proper noun	人	Person	历史	History	中国	China	\N	\N	1858-1928; Provincial governor of Guangxi under the Qing, subsequently leader of old Guangxi warlord faction (CC-CEDICT '陸榮廷')	6006572
+6006573	雷诺阿	雷諾阿	léinuòā	Renoir (name) / Pierre-Auguste Renoir	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1841-1919; French impressionist painter (CC-CEDICT '雷諾阿')	6006573
+6006574	霍夫曼	\N	huòfūmàn	Hofmann or Hoffman (name) / Dustin Hoffman	proper noun	人	Person	戏剧	Drama	欧洲	Europe	\N	\N	1937-; US film actor (CC-CEDICT '霍夫曼')	6006574
+6006575	鲍狄埃	鮑狄埃	bàodíāi	Eugène Edine Pottier	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1816-1887; French revolutionary socialist and poet (CC-CEDICT '鮑狄埃')	6006575
+6006576	鲍罗丁	鮑羅丁	bàoluódīng	Borodin (name) / Alexander Borodin	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1833-1887; Russian chemist and composer (CC-CEDICT '鮑羅丁')	6006576

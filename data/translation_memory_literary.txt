@@ -328,7 +328,7 @@
 3000328	亲贤臣	親賢臣	qīn xiánchén	wise and virtuous counsellors were made welcome	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (reworded from tr. by Pollard 2002, p. 26)	3000328
 3000329	远小人	遠小人	yuǎn xiǎorén	lowly men kept at a distance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (reworded from tr. by Pollard 2002, p. 26)	3000329
 3000330	争行夺市	爭行奪市	zhēng háng duó shì	market competition	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '爭行奪市', p. 47)	3000330
-3000331	取其心	\N	qǔ qí xīn	take this to heart	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 形影神 “Substance, Shadow, and Spirit” by 陶淵明 Tao Yuanming 365-427 in Scroll 2 of 陶淵明集 Tao Yuanming Collected Poems (reworded from tr. by Acker 2000, p. 495)	3000331
+3000331	取其心	\N	qǔ qí xīn	take this to heart	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 形影神 “Form, Shadow, and Spirit” by 陶淵明 Tao Yuanming 365-427 in Scroll 2 of 陶淵明集 Tao Yuanming Collected Poems (reworded from tr. by Acker 2000, p. 495)	3000331
 3000332	争论不定	爭論不定	zhēnglùn bùdìng	not able to agree	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '爭論不定', p. 47)	3000332
 3000333	苟全性命	\N	gǒuquánxìngmìng	sought only to remain alive	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 出师表 To Lead out the Army, by Zhuge Liang in Scroll 37 of 文選 <i>Wen Xuan</i> (reworded from tr. by Pollard 2002, p. 27)	3000333
 3000334	秋风	秋風	qiū fēng	fall wind	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	TM: 秋 autumn + 風 wind (reworded from tr. by Barnes 2007, p. 35; Guoyu '秋風')	3000334
@@ -453,3 +453,11 @@
 3000453	诚祷	誠禱	chéng dǎo	to sincerely pray	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '誠禱', p. 49)	3000453
 3000454	诚训	誠訓	chéng xùn	the true explanation	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '誠訓', p. 49)	3000454
 3000455	大宅	\N	dà zhái	a large mansion	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '巨室')	3000455
+3000456	天地长	天地長	tiān dì cháng	heaven and earth are everlasting	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 形影神 “Form Confers with Shadow” by 陶淵明 Tao Yuanming 365-427 in Scroll 2 of 陶淵明集 Tao Yuanming Collected Poems (reworded from tr. by Acker 2000, p. 495)	3000456
+3000457	奄去	\N	yǎn qù	to suddenly go	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 形影神 “Form Confers with Shadow” by 陶淵明 Tao Yuanming 365-427 in Scroll 2 of 陶淵明集 Tao Yuanming Collected Poems (reworded from tr. by Acker 2000, p. 495)	3000457
+3000458	亲识	親識	qīn shí	relatives and friends	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 形影神 “Form Confers with Shadow” by 陶淵明 Tao Yuanming 365-427 in Scroll 2 of 陶淵明集 Tao Yuanming Collected Poems (reworded from tr. by Acker 2000, p. 495)	3000458
+3000459	吾言	\N	wú yán	I said	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 形影神 “Form Confers with Shadow” by 陶淵明 Tao Yuanming 365-427 in Scroll 2 of 陶淵明集 Tao Yuanming Collected Poems (reworded from tr. by Acker 2000, p. 496)	3000459
+3000460	桃李	\N	táolǐ	peach tree and plumn tree	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 歸園田居 “Returning to Live in the Countryside” by 陶淵明 Tao Yuanming 365-427 in Scroll 2 of 陶淵明集 Tao Yuanming Collected Poems (reworded from tr. by Acker 2000, p. 499)	3000460
+3000461	夷齐	夷齊	yí qí	Bo Yi and Shu Qi	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	See 伯夷叔齊 (Guoyu '夷齊')	3000461
+3000462	伯夷叔齐	伯夷叔齊	bóyí shūqí	Bo Yi and Shu Qi	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	The two sons of legendary figure 孤竹君 Gu Zhujun (Guoyu '伯夷叔齊')	3000462
+3000463	管鲍	管鮑	guǎnbào	Guan Zhong and Bao Shuya	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	By analogy, two good friends, like the historic figures 管仲 Guan Yu and 鲍叔牙 Bao Shuya from the Spring and Autumn period (Guoyu '管鮑')	3000463
