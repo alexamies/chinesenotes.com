@@ -78,6 +78,7 @@ DBUSER=[Your database user]
 DBPASSWORD=[Your database password]
 DATABASE=[Your database name]
 MEMORY=400Mi
+DATA_BUCKET=[Your GCS bucket name for text files]
 gcloud run deploy --platform=managed $SERVICE \
 --image $IMAGE \
 --region=$REGION \
@@ -86,5 +87,6 @@ gcloud run deploy --platform=managed $SERVICE \
 --set-env-vars INSTANCE_CONNECTION_NAME="$INSTANCE_CONNECTION_NAME" \
 --set-env-vars DBUSER="$DBUSER" \
 --set-env-vars DBPASSWORD="$DBPASSWORD" \
---set-env-vars DATABASE="$DATABASE"
+--set-env-vars DATABASE="$DATABASE" \
+--set-env-vars DATA_BUCKET="$DATA_BUCKET"
 ```

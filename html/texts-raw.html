@@ -1,11 +1,12 @@
-      <h2>List of Chinese Texts</h2>
-      <p>
-        This page list a corpus of Chinese texts. Follow the link under each
-        entry title to a page that collects together similar texts. Each text
-        includes notes about the source and vocabulary. You can click on each
-        Chinese word for the English definition and other informaiton about the
-        word.
-      </p>
+<div id="textlist">
+  <h2>List of Chinese Texts</h2>
+  <p>
+    This page list a corpus of Chinese texts. Follow the link under each
+    entry title to a page that collects together similar texts. Each text
+    includes notes about the source and vocabulary. You can click on each
+    Chinese word for the English definition and other informaiton about the
+    word.
+  </p>
 
   <h3>經 Classics</h3>
   <ul class="mdc-list mdc-list--two-line">
@@ -879,6 +880,32 @@
     </li>
   </ul>
 
-      <p>
-        <a href="/analysis/corpus_analysis.html">Word frequencies for entire corpus</a>
-      </p>
+  <p>
+    <a href="/analysis/corpus_analysis.html">Word frequencies for entire corpus</a>
+  </p>
+</div>
+<!--Decomposition of query terms entered by the user -->
+<div id="queryTerms">
+  <h4 id="queryTermsTitle">Query Decomposition</h4>
+  <p id="queryTermsP">
+    <span id="queryTermsBody">
+    </span>
+  </p>
+</div> <!--queryTerms-->
+
+<div id="findResults">
+  <div id="docResultsDiv">
+    <h4 id="findDocResultsTitle">Matching Documents</h4>
+    <div>
+      Number of matching documents: <span id="NumDocuments"></span>
+    </div>
+    <table id="findDocResultsTable">
+      <thead>
+        <tr><th>Title</th></tr>
+      </thead>
+      <tbody id="findDocResultsBody">
+      </tbody>
+    </table>
+  </div> <!-- docResultsDiv -->
+</div> <!--findResults-->
+<p id="findError"></p>

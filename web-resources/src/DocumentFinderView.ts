@@ -164,6 +164,10 @@ export class DocumentFinderView {
     }  else {
       console.log(`lookup-help-block not found`);
     }
+    const textlist = document.getElementById("textlist");
+    if (textlist) {
+      textlist.style.display = "none";
+    }
   }
 
   /**
