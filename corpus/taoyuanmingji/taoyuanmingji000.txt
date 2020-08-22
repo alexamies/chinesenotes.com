@@ -92,9 +92,9 @@
   <li>
     卷之二　詩 Scroll 2: Lyric Poetry
     <ol>
-      <li>形影神 Form, Shadow, and Spirit</li>
-      <li>形贈影 Form Confers with Shadow</li>
-      <li>影答形 Shadow Responds to Form</li>
+      <li>形影神 Substance, Shadow, and Spirit</li>
+      <li>形贈影 Substance Confers with Shadow</li>
+      <li>影答形 Shadow Responds to Substance</li>
       <li>神釋 Spirit Explains</li>
       <li>九日閑居 Nine Days of Rest</li>
       <li>歸園田居 Returning to Live in the Countryside</li>
@@ -134,7 +134,7 @@
       <li>飲酒二十首 Twenty Poems about Drinking</li>
       <li>止酒 Quitting Drinking</li>
       <li>述酒 About Drinking</li>
-      <li>責子 Blaming his Sons</li>
+      <li>責子 Blaming Sons</li>
       <li>有會而作</li>
       <li>蜡日</li>
     </ol>

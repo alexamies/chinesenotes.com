@@ -6574,3 +6574,39 @@
 6006574	霍夫曼	\N	huòfūmàn	Hofmann or Hoffman (name) / Dustin Hoffman	proper noun	人	Person	戏剧	Drama	欧洲	Europe	\N	\N	1937-; US film actor (CC-CEDICT '霍夫曼')	6006574
 6006575	鲍狄埃	鮑狄埃	bàodíāi	Eugène Edine Pottier	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1816-1887; French revolutionary socialist and poet (CC-CEDICT '鮑狄埃')	6006575
 6006576	鲍罗丁	鮑羅丁	bàoluódīng	Borodin (name) / Alexander Borodin	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1833-1887; Russian chemist and composer (CC-CEDICT '鮑羅丁')	6006576
+6006577	鲍罗廷	鮑羅廷	bàoluótíng	Borodin (name) / Alexander Porfirevich Borodin	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1833-1887; Russian chemist and composer (CC-CEDICT '鮑羅廷')	6006577
+6006578	麦克斯韦	麥克斯韋	màikèsīwéi	Maxwell (name) / James Clerk Maxwell	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1831-1879; Scottish physicist and mathematician, the originator of Maxwell's laws of electromagnetism and electromagnetic waves (CC-CEDICT '麥克斯韋')	6006578
+6006579	黄飞鸿	黃飛鴻	huángfēi hóng	Wong Fei Hung	proper noun	人	Person	历史	History	中国	China	\N	\N	1847-1924; Famous martial artist and revolutionary (CC-CEDICT '黃飛鴻')	6006579
+6006580	额菲尔士	額菲爾士	éfēi'ěrshì	Everest (name) / Colonel Sir George Everest	proper noun	人	Person	历史	History	中国	China	\N	\N	1790-1866; British Surveyor-General of India 1830-1843 (CC-CEDICT '額菲爾士')	6006580
+6006581	马斯内	馬斯內	mǎsīnèi	Jules Massenet	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1842-1912; French composer (CC-CEDICT '馬斯內')	6006581
+6006582	孤拔	\N	gūbá	Amédée Courbet	proper noun	人	Person	历史	History	\N	\N	\N	\N	1826-1885; a French admiral who won a series of important land and naval victories during the Tonkin campaign and the Sino-French War (CC-CEDICT '孤拔')	6006582
+6006583	夏洛特·勃良特	\N	xiàluòté bóliángté	Charlotte Brontë	proper noun	作者	Author	历史	History	英国	England	\N	\N	1816-1855; English novelist, eldest of three Brontë sisters, author of Jane Eyre 简·爱 (CC-CEDICT '夏洛特·勃良特')	6006583
+6006584	威妥玛	威妥瑪	wēituǒmǎ	Sir Thomas Francis Wade	proper noun	人	Person	历史	History	中国	China	\N	\N	1818-1895; British diplomat and sinologist, originator of the Wade-Giles Chinese romanization system (CC-CEDICT '威妥瑪')	6006584
+6006585	岩仓使节团	岩倉使節團	yáncāng shǐjiétuán	the Iwakura mission	phrase	\N	\N	历史	History	日本	Japan	\N	\N	Japanese diplomatic and exploratory mission to US and Europe of 1871 (CC-CEDICT '岩倉使節團')	6006585
+6006586	帕格尼尼	\N	pàgéníní	Niccolò Paganini	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1782-1840; Italian violinist and composer (CC-CEDICT '帕格尼尼')	6006586
+6006587	拉普拉斯	\N	lāpǔlāsī	Pierre Simon Laplace	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1749-1827; French mathematician (CC-CEDICT '拉普拉斯')	6006587
+6006588	拉盖尔	拉蓋爾	lāgàiěr	Laguerre (name) / Edmond Laguerre	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1834-1886; French mathematician (CC-CEDICT '拉蓋爾')	6006588
+6006589	斯密约瑟	斯密約瑟	sīmìyuēsè	Joseph Smith, Jr.	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1805-1844; Founder of the Latter Day Saint movement (CC-CEDICT '斯密約瑟')	6006589
+6006590	琅威理	\N	lángwēilǐ	Captain William M Lang	proper noun	\N	\N	历史	History	中国	China	\N	\N	1843-; British adviser to the Qing north China navy 北洋水师 during the 1880s (CC-CEDICT '琅威理')	6006590
+6006591	翟理斯	\N	dílǐsī	Herbert Allen Giles	proper noun	人	Person	历史	History	中国	China	\N	\N	1845-1935; British diplomat and linguist, contributor to the Wade-Giles Chinese romanization system (CC-CEDICT '翟理斯')	6006591
+6006592	黎曼	\N	límàn	G.F.B. Riemann	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1826-1866; German geometer (CC-CEDICT '黎曼')	6006592
+6006593	韦德	韋德	wéidé	Wade (name) / Sir Thomas Francis Wade	proper noun	\N	\N	历史	History	名字	Names	\N	\N	1818-1895; Sinologist 威妥玛 (CC-CEDICT '韋德')	6006593
+6006594	齐柏林	齊柏林	qíbólín	Zeppelin (name) / Graf Ferdinand von Zeppelin	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1838-1917; Inventor of the Zeppelin dirigible airship (CC-CEDICT '齊柏林')	6006594
+6006595	庞加莱	龐加萊	pángjiālái	Henri Poincaré	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1854-1912; French mathematician, physician and philosopher (CC-CEDICT '龐加萊')	6006595
+6006596	贾庆林	賈慶林	Jiǎ Qìnglín	Jia Qinglin	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1940-; Chairman of the 政协 Chinese People's Political Consultative Conference National Comittee from 2008-2013 (CV '贾庆林')	6006596
+6006597	奥巴马	奧巴馬	Àobāmǎ	Barack Obama	proper noun	美国总统	US President	政治	Politics	\N	\N	\N	\N	1961-; US Democrat politician, Senator for Illinois from 2005, president from 2009-2017	6006597
+6006598	希拉里·克林顿	希拉裡・克林頓	Xīlālǐ · Kèlíndùn	Hillary Clinton	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	(1947-), US Democratic politician, First lady during Bill Clinton's presidency 1993-2001, Senator for New York since 2001, US Secretary of state from 2009	6006598
+6006599	克林顿	克林頓	kèlíndùn	Clinton	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(Sun 2006, loc. 1595)	6006599
+6006600	江泽民	江澤民	Jiāng Zémín	Jiang Zemin	proper noun	人	Person	政治	Politics	中国	China	\N	\N	(1926－) former President of PRC from 1993 to 2003 and Chairman of the CPC from 2002-2004 (CV '江泽民')	6006600
+6006601	华国锋	華國鋒	Huá Guófēng	Hua Guofeng	proper noun	人	Person	历史	History	中国	China	\N	\N	1921-2008; Leader of Chinese Communist Party after the cultural revolution from 1976－1978 after Mao and before Deng Xiaoping (Wikipedia '华国锋')	6006601
+6006602	尹雪曼	\N	yǐn xuěmàn	Yin Xueman	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1918-2008; Taiwanese politician, born in Henan (Wikipedia '尹雪曼')	6006602
+6006603	楚崧秋	\N	chǔ sōngqiū	Chu Songqiu	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1920-2017; Taiwanese politician (Wikipedia '楚崧秋')	6006603
+6006604	梁丹丰	\N	liáng dānfēng	Liang Danfeng	proper noun	人	Person	艺术	Art	\N	\N	\N	\N	1935-; Chinese artist (Wikipedia '梁丹丰')	6006604
+6006605	柏杨	柏楊	bǎi yáng	Bo Yang	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1920-2008 (Wikipedia '柏杨')	6006605
+6006606	张扬	張揚	zhāng yáng	Zhang Yang	proper noun	\N	\N	现代汉语	Modern Chinese	戏剧	Drama	\N	\N	1967-; (CC-CEDICT '張揚'; Wikipedia '张扬 (导演)')	6006606
+6006607	余陈月瑛	余陳月瑛	yúchén yuèyīng	Yu Chen Yueh-ying	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1926-2014 (Wikipedia '余陳月瑛')	6006607
+6006608	赵宁	趙寧	Zhào Níng	Zhao Ning	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1943-2008 (Wikipedia '趙寧')	6006608
+6006609	吴伯雄	吳伯雄	wú bóxióng	Wu Po-hsiung	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1939-; Chinese politician (Wikipedia '吴伯雄')	6006609
+6006610	郑石岩	鄭石岩	Zhèngshíyán	Zheng Shiyan	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1945- (Wikipedia '郑石岩')	6006610
+6006611	杨洁篪	楊潔篪	Yáng Jiéchí	Yang Jiechi	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	(1950-) Chinese politician and diplomat, foreign minister of PRC from 2008 (CV '杨洁篪'; Wikipedia '杨洁篪')	6006611
+6006612	马凯	馬凱	Mǎ Kǎi	Ma Kai	proper noun	人	Person	政治	Politics	中国	China	\N	ma3kai3.mp3	1946- (Wikipedia '马凯')	6006612

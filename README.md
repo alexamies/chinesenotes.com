@@ -419,7 +419,7 @@ docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
 Or use Cloud Build
 
 ```shell
-export BUILD_ID=r156
+export BUILD_ID=r157
 gcloud builds submit --config cloudbuild.yaml . \
   --substitutions=_IMAGE_TAG="$BUILD_ID"
 ```
@@ -506,11 +506,6 @@ gcloud sql connect $INSTANCE --user=root
 
 Execute statements in first_time_setup.sql and corpus_index.ddl to define
 database and tables.
-
-Consolidate the document titles into a single file
-```
-bin/doc_list.sh 
-```
 
 Import the data for table word_freq_doc via the Cloud Console using the import
 function. The other tables can be imported using the MySQL client (much faster):

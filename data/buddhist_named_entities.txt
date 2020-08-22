@@ -703,3 +703,10 @@
 7000703	渐備一切智德经	漸備一切智德經	Jiàn Bèi Yīqiè Zhì Dé Jīng	Daśabhūmikasūtra / Jian Bei Yiqie Zhi De Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 285; KDC 89)	7000703
 7000704	十住经	十住經	Shí Zhù Jīng	Daśabhūmikasūtra / Shi Zhu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 286; KDC 98)	7000704
 7000705	佛说十住经	佛說十地經	Fóshuō Shí Zhù Jīng	Daśabhūmikasūtra / Foshuo Shi Zhu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 287; KDC 1388)	7000705
+7000706	执金刚神	執金剛神	zhíjīngāngshén	Vajradhara	proper noun	佛	Buddha	佛教	Buddhism	\N	\N	\N	\N	The name of a Buddha in the Tibetan tradition (Wikipedia '執金剛神')	7000706
+7000707	慈恩寺	\N	Cí ēn Sì	Ci En Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Birthplace of the Ci'en School (Wikipedia '大慈恩寺')	7000707
+7000708	大慈恩寺	\N	Dà Cí ēn Sì	Ci En Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Birthplace of the Ci'en School (Wikipedia '大慈恩寺')	7000708
+7000709	大兴善寺	大興善寺	Dà Xīngshàn Sì	Great Xingshan Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Birthplace of the Han Esoteric School (Wikipedia '大兴善寺')	7000709
+7000710	卧龙寺	臥龍寺	Wòlóng Sì	Wolong Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '卧龙寺')	7000710
+7000711	兴教寺	興教寺	Xīngjiāo Sì	Xingjiao Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '兴教寺')	7000711
+7000712	草堂寺	\N	Cǎotáng Sì	Caotang Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '草堂寺')	7000712
