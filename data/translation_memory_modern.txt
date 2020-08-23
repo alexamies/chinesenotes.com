@@ -246,3 +246,4 @@
 5000246	工人和农民的联盟	工人和農民的聯盟	gōngrén hé nóngmín de liánméng	worker-peasant alliance	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 66-67)	5000246
 5000247	毛塑像	\N	máo sùxiàng	statue of Mao	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	See 毛泽东 (CC-CEDICT '毛塑像')	5000247
 5000248	秤到准	秤到準	chèng dào zhǔn	to weigh accurately	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '秤到準', p. 50)	5000248
+5000249	灰濛濛	\N	huī méngméng	gray mist	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '灰濛濛')	5000249

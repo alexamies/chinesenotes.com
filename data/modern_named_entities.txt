@@ -6613,3 +6613,20 @@
 6006613	谢伏瞻	謝伏瞻	Xiè Fúzhān	Fuzhan Xie	proper noun	人	Person	政治	Politics	中国	China	\N	xie4fu2zhan1.mp3	1954-; Chinese economist and politician (Wikipedia '谢伏瞻')	6006613
 6006614	陈德铭	陳德銘	Chén Démíng	Deming Chen	proper noun	人	Person	政治	Politics	中国	China	\N	chen2de2ming2.mp3	1949 - ; Chinese politician (Wikipedia '陈德铭')	6006614
 6006615	胡锦涛	胡錦濤	Hú Jǐntāo	Hu Jintao	proper noun	人	Person	政治	Politics	中国	China	\N	hu2jin3tao1.mp3	 1942-; Former Chinese President from 2003 to 2013, chairman of the CPC from 2007 to 2012 (CV '胡锦涛'; Wikipedia '胡锦涛')	6006615
+6006616	胡志强	胡志強	hú zhìqiáng	Jason Hu	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1948- (Wikipedia '胡志強')	6006616
+6006617	锺荣吉	鍾榮吉	zhōng róngjí	Zhong Rongji	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1943- ; judge from Kaohsiung (Wikipedia '鍾榮吉')	6006617
+6006618	洪冬桂	\N	Hóng Dōngguì	Hong Donggui	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1947- ; Taiwanese politician (Wikipedia '洪冬桂')	6006618
+6006619	潘维刚	潘維剛	pān wéigāng	Tina Pan	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1957-; Taiwanese politician (Wikipedia '潘維剛')	6006619
+6006620	乐茞军	樂茞軍	lè chénjūn	Le Chenjun	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1932- (Wikipedia '樂茞軍')	6006620
+6006621	薇薇夫人	\N	wēiwēi fūren	Le Chenjun / Lady Weiwei	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	See 乐茞军 (Wikipedia '樂茞軍')	6006621
+6006622	龚鹏程	龔鵬程	gōng péngchéng	Gong Pengcheng	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1956- (Wikipedia '龚鹏程')	6006622
+6006623	张亚中	張亞中	zhāng Yàzhōng	Ya-chung Chang	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1954- (Wikipedia '張亞中')	6006623
+6006624	柴松林	\N	chái sōnglín	Chai Songlin	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1934- (Wikipedia '柴松林')	6006624
+6006625	王清峰	\N	wáng qīngfēng	Wang Ching-feng	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1952-; Taiwanese politician (Wikipedia '王清峰')	6006625
+6006626	李锺桂	李鍾桂	lǐ zhōngguì	Li Zhonggui	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1938-; Taiwanese politician (Wikipedia '李鍾桂')	6006626
+6006627	简志忠	簡志忠	jiǎn zhìzhōng	Jian Zhizhong	proper noun	人	Person	媒体	Media	\N	\N	\N	\N	1955-; Taiwanese publisher (Wikipedia '简志忠')	6006627
+6006628	李金华	李金華	Lǐ Jīnhuá	Jinhua Li	proper noun	人	Person	政治	Politics	中国	China	\N	li3jin1hua2.mp3	1943 - ; Former government official (Wikipedia '李金華')	6006628
+6006629	陈清泰	陳清泰	Chén Qīngtài	Qingtai Chen	proper noun	人	Person	政治	Politics	中国	China	\N	chen2qing1tai4.mp3	1937 - ; Chinese politician (Wikipedia '1937')	6006629
+6006630	吴仪	吳儀	Wú Yí	Wu Yi	proper noun	人	Person	政治	Politics	中国	China	\N	wu2yi2.mp3	 1938-; Vice-premier of the PRC State Council from 2003 to 2008 (CV '吴仪'; Wikipedia '吴仪')	6006630
+6006631	乔森·吉拉尔	喬森·吉拉爾	qiáosēn jílāěr	Jason Kilar	proper noun	人	Person	政治	Politics	\N	\N	\N	qiao2sen1ji2la1er3.mp3	(Wikipedia 'Jason Kilar')	6006631
+6006632	王振堂	\N	Wáng Zhèntáng	Zhentang Wang	proper noun	人	Person	政治	Politics	\N	\N	\N	wang2zhen4tang2.mp3	CEO of 宏碁 Acer (Wikipedia '王振堂')	6006632

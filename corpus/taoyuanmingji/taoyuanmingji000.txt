@@ -77,7 +77,7 @@
   <li>
     卷之一　詩四言 Scroll 1: Four Character Form Poetry
     <ol>
-      <li>停雲 Still Clouds</li>
+      <li>停雲 Lingering Clouds</li>
       <li>時運 Fate</li>
       <li>停雲 Still Clouds/li>
       <li>贈長沙公</li>
