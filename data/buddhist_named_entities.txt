@@ -709,4 +709,9 @@
 7000709	大兴善寺	大興善寺	Dà Xīngshàn Sì	Great Xingshan Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Birthplace of the Han Esoteric School (Wikipedia '大兴善寺')	7000709
 7000710	卧龙寺	臥龍寺	Wòlóng Sì	Wolong Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '卧龙寺')	7000710
 7000711	兴教寺	興教寺	Xīngjiāo Sì	Xingjiao Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '兴教寺')	7000711
-7000712	草堂寺	\N	Cǎotáng Sì	Caotang Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '草堂寺')	7000712
+7000712	草堂寺	\N	cǎotáng sì	Caotang Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '草堂寺')	7000712
+7000713	鸯掘摩	鴦掘摩	yāngjuémó	Aṅgulimālīya / Aṅgulimāla / Angulimala	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	See 指鬘 (FGDB '央掘摩羅')	7000713
+7000714	盎堀摩罗	盎堀摩羅	Àngkūmóluó	Aṅgulimālīya / Aṅgulimāla / Angulimala	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	See 指鬘 (FGDB '央掘摩羅') 	7000714
+7000715	央掘魔罗	央掘魔羅	yāngjuémóluó	Aṅgulimālīya / Aṅgulimāla / Angulimala	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	See 指鬘 (FGDB '央掘摩羅') 	7000715
+7000716	鸯崛髻	鴦崛髻	yāngjuéjì	Aṅgulimālīya / Aṅgulimāla / Angulimala	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	See 指鬘 (FGDB '央掘摩羅') 	7000716
+7000717	鸯崛髻经	鴦崛髻經	yāngjuéjì Jīng	Yangjueji Jing / Aṅgulimālīyasūtra / Aṅgulimālasutta / Angulimala Sutta	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: aṅgulimālīyasūtra, Pāli: aṅgulimālasutta; a sūtra in the Āgama section of the Chinese Buddhist Canon, related to the Aṅgulimālasutta in the Pāli Canon (T 119; Lancaster 2004 'K 727'; Majjhima Nikāya 86)	7000717

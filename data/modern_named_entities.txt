@@ -6605,8 +6605,11 @@
 6006605	柏杨	柏楊	bǎi yáng	Bo Yang	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1920-2008 (Wikipedia '柏杨')	6006605
 6006606	张扬	張揚	zhāng yáng	Zhang Yang	proper noun	\N	\N	现代汉语	Modern Chinese	戏剧	Drama	\N	\N	1967-; (CC-CEDICT '張揚'; Wikipedia '张扬 (导演)')	6006606
 6006607	余陈月瑛	余陳月瑛	yúchén yuèyīng	Yu Chen Yueh-ying	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1926-2014 (Wikipedia '余陳月瑛')	6006607
-6006608	赵宁	趙寧	Zhào Níng	Zhao Ning	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1943-2008 (Wikipedia '趙寧')	6006608
-6006609	吴伯雄	吳伯雄	wú bóxióng	Wu Po-hsiung	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1939-; Chinese politician (Wikipedia '吴伯雄')	6006609
-6006610	郑石岩	鄭石岩	Zhèngshíyán	Zheng Shiyan	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1945- (Wikipedia '郑石岩')	6006610
-6006611	杨洁篪	楊潔篪	Yáng Jiéchí	Yang Jiechi	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	(1950-) Chinese politician and diplomat, foreign minister of PRC from 2008 (CV '杨洁篪'; Wikipedia '杨洁篪')	6006611
+6006608	赵宁	趙寧	Zhào Níng	Zhao Ning	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1943-2008 (Wikipedia '趙寧')	6006608
+6006609	吴伯雄	吳伯雄	wú bóxióng	Wu Po-hsiung	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1939-; Chinese politician (Wikipedia '吴伯雄')	6006609
+6006610	郑石岩	鄭石岩	Zhèngshíyán	Zheng Shiyan	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1945- (Wikipedia '郑石岩')	6006610
+6006611	杨洁篪	楊潔篪	Yáng Jiéchí	Yang Jiechi	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1950- Chinese politician and diplomat, foreign minister of PRC from 2008 (CV '杨洁篪'; Wikipedia '杨洁篪')	6006611
 6006612	马凯	馬凱	Mǎ Kǎi	Ma Kai	proper noun	人	Person	政治	Politics	中国	China	\N	ma3kai3.mp3	1946- (Wikipedia '马凯')	6006612
+6006613	谢伏瞻	謝伏瞻	Xiè Fúzhān	Fuzhan Xie	proper noun	人	Person	政治	Politics	中国	China	\N	xie4fu2zhan1.mp3	1954-; Chinese economist and politician (Wikipedia '谢伏瞻')	6006613
+6006614	陈德铭	陳德銘	Chén Démíng	Deming Chen	proper noun	人	Person	政治	Politics	中国	China	\N	chen2de2ming2.mp3	1949 - ; Chinese politician (Wikipedia '陈德铭')	6006614
+6006615	胡锦涛	胡錦濤	Hú Jǐntāo	Hu Jintao	proper noun	人	Person	政治	Politics	中国	China	\N	hu2jin3tao1.mp3	 1942-; Former Chinese President from 2003 to 2013, chairman of the CPC from 2007 to 2012 (CV '胡锦涛'; Wikipedia '胡锦涛')	6006615
