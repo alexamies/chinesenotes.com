@@ -6630,3 +6630,6 @@
 6006630	吴仪	吳儀	Wú Yí	Wu Yi	proper noun	人	Person	政治	Politics	中国	China	\N	wu2yi2.mp3	 1938-; Vice-premier of the PRC State Council from 2003 to 2008 (CV '吴仪'; Wikipedia '吴仪')	6006630
 6006631	乔森·吉拉尔	喬森·吉拉爾	qiáosēn jílāěr	Jason Kilar	proper noun	人	Person	政治	Politics	\N	\N	\N	qiao2sen1ji2la1er3.mp3	(Wikipedia 'Jason Kilar')	6006631
 6006632	王振堂	\N	Wáng Zhèntáng	Zhentang Wang	proper noun	人	Person	政治	Politics	\N	\N	\N	wang2zhen4tang2.mp3	CEO of 宏碁 Acer (Wikipedia '王振堂')	6006632
+6006633	拉鲁	拉魯	lālǔ	Lhalu Tsewang Dorje	proper noun	人	Person	历史	History	中国	China	\N	\N	1915-2011; Tibetan pro-Chinese politician; Lhalu suburb of Lhasa (CC-CEDICT '拉魯')	12946
+6006634	王平	\N	wáng píng	Wang Ping	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1962-2013; PRC crosstalk actor (CC-CEDICT '王平')	6006634
+6006635	僧群	\N	Sēngqún	Sengqun	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	6006635

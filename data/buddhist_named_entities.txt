@@ -715,3 +715,19 @@
 7000715	央掘魔罗	央掘魔羅	yāngjuémóluó	Aṅgulimālīya / Aṅgulimāla / Angulimala	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	See 指鬘 (FGDB '央掘摩羅') 	7000715
 7000716	鸯崛髻	鴦崛髻	yāngjuéjì	Aṅgulimālīya / Aṅgulimāla / Angulimala	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	See 指鬘 (FGDB '央掘摩羅') 	7000716
 7000717	鸯崛髻经	鴦崛髻經	yāngjuéjì Jīng	Yangjueji Jing / Aṅgulimālīyasūtra / Aṅgulimālasutta / Angulimala Sutta	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: aṅgulimālīyasūtra, Pāli: aṅgulimālasutta; a sūtra in the Āgama section of the Chinese Buddhist Canon, related to the Aṅgulimālasutta in the Pāli Canon (T 119; Lancaster 2004 'K 727'; Majjhima Nikāya 86)	7000717
+7000718	广兴	廣興	Guǎng Xīng	Guang Xing	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1922-2011, Chinese monastic from Jiangsu (FGDB '廣興')	7000718
+7000719	广兴	廣興	Guǎng Xīng	Guang Xing	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1962-; Chinese monastic from Inner Mongolia (FGDB '廣興')	7000719
+7000720	赖永海	賴永海	Lài Yǒnghǎi	Lai Yonghai	proper noun	学者	Scholar	佛教	Buddhism	中国	China	\N	\N	1949-; Chinese  Buddhist scholar (FGDB '賴永海')	7000720
+7000721	太虚大师	太虛大師	Tàixū Dàshī	Venerable Master Taixu	proper noun	师父	Monastic	佛教	Buddhism	中國佛教	Chinese Buddhism	\N	\N	See 太虛 (FGDB '太虛')	7000721
+7000722	普济	普濟	pǔ jì	Pu Ji	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1179-1253 Chinese monastic (FGDB '普濟')	7000722
+7000723	水野弘元	\N	shuǐyě hóngyuán	Kōgen Mizuno	proper noun	学者	Scholar	佛教	Buddhism	日本	Japan	\N	\N	1901-2006; Japanese Buddhist scholar (Wikipedia '水野弘元')	7000723
+7000724	慧达	慧達	Huìdá	Huida	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7000724
+7000725	慧元	\N	Huìyuán	Huiyuan	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7000725
+7000726	慧力	\N	huìlì	Huili	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7000726
+7000727	僧周	\N	Sēngzhōu	Sengzhou	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 11 梁高僧傳卷第十一 (T 2059).	7000727
+7000728	昙称	曇稱	tánchēng	Tancheng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000728
+7000729	法进	法進	fǎjìn	Fajin	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000729
+7000730	僧富	\N	sēngfù	Sengfu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000730
+7000731	法羽	\N	fǎyǔ	Fayu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000731
+7000732	慧绍	慧紹	huìshào	Huishao	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000732
+7000733	僧瑜	\N	sēngyú	Sengyu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000733

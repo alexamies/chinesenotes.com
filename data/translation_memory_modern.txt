@@ -247,3 +247,5 @@
 5000247	毛塑像	\N	máo sùxiàng	statue of Mao	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	See 毛泽东 (CC-CEDICT '毛塑像')	5000247
 5000248	秤到准	秤到準	chèng dào zhǔn	to weigh accurately	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '秤到準', p. 50)	5000248
 5000249	灰濛濛	\N	huī méngméng	gray mist	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '灰濛濛')	5000249
+5000250	路阻	\N	lù zǔ	a road barrier	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '路阻')	5000250
+5000251	巴金	\N	bājīn	Ba Jin	proper noun	作者	Writer	文学	Literature	中国	China	\N	\N	1904-2005; novelist, author of the trilogy 家, 春, 秋 (CC-CEDICT '巴金')	5000251

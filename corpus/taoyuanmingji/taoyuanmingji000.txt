@@ -78,8 +78,8 @@
     卷之一　詩四言 Scroll 1: Four Character Form Poetry
     <ol>
       <li>停雲 Lingering Clouds</li>
-      <li>時運 Fate</li>
-      <li>停雲 Still Clouds/li>
+      <li>時運 Time Passes By</li>
+      <li>停雲 Lingering Clouds/li>
       <li>贈長沙公</li>
       <li>酬丁柴桑</li>
       <li>答龐參軍</li>
@@ -171,7 +171,7 @@
       <li>尚長禽慶贊</li>
       <li>讀史述九章</li>
       <li>夷齊 Bo Yi and Shu Qi</li>
-      <li>箕子  Jizi </li>
+      <li>箕子 Jizi </li>
       <li>管鮑 Guan Zhong and Bao Shuya</li>
       <li>程杵</li>
       <li>七十二弟子</li>
