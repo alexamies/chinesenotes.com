@@ -6646,3 +6646,6 @@
 6006646	金正日	\N	jīn zhèngrì	Kim Jong-il	proper noun	人	Person	历史	History	\N	\N	\N	\N	1941-2011; second Supreme Leader of North Korea (Wikipedia '金正日')	6006646
 6006647	万里	萬里	wàn lǐ	Wan Li	proper noun	人	Person	历史	History	中国	China	\N	\N	1916-2015; Chinese Communist revolutionary and politician (CC-CEDICT '萬里'; Wikipedia '万里')	6006647
 6006648	孙犁	孫犁	sūnlí	Sun Li	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1913-2002; Novelist (CC-CEDICT '孫犁')	6006648
+6006649	额尔金	額爾金	éěrjīn	James Bruce, 8th Earl of Elgin	proper noun	人	Person	历史	History	中国	China	\N	\N	1811-1863; British High Commissioner to China who ordered the looting and destruction of the Old Winter Palace Yuanmingyuan 圆明园 in 1860 (CC-CEDICT '額爾金')	6006649
+6006650	纪律检查委员会	紀律檢查委員會	Jìlǜ jiǎnchá wěiyuánhuì	Central Commission for Discipline Inspection	phrase	\N	\N	政治	Politics	中国	China	\N	\N	Of the CCP (Wikipedia '中国共产党纪律检查机关')	6006650
+6006651	法轮功	法輪功	fǎlúngōng	Falun Gong	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	Regarded as a cult by the PRC government (CC-CEDICT '法輪功')	6006651

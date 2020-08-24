@@ -772,3 +772,15 @@
 7000772	龙树菩萨	龍樹菩薩	Lóng Shù Púsà	Nāgārjuna	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 龍樹 (FGDB '龍樹')	49265
 7000773	无着菩萨	無著菩薩	Wú Zhāo Púsà	Asaṅga	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 無著 (FGDB '無著')	7000773
 7000774	鸠摩罗佛提	鳩摩羅佛提	jiūmóluófótí 	Kumārabuddhi	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Buddhist monastic who translated texts in the Former Qin dynasty that are included in the Chinese Buddhist canon (FGDB '鳩摩羅佛提'; KDC 1019; T 1505)	7000774
+7000775	耆年迦叶	耆年迦葉	qínián jiāyè	Uruvilvā-kāśyapa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 優樓頻螺迦葉 (FGDB '優樓頻螺迦葉')	7000775
+7000776	廓庵师远	廓庵師遠	kuò'ān shīyuǎn	Kuo'an Shiyuan	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Northern Song Chan monastic (FGDB ' 廓庵師遠')	7000776
+7000777	西斋净土诗	西齋淨土詩	xī zhāi jìngtǔ shī	Poem to the Pure Land	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	By late Yuan - early Ming monastic 楚石梵琦 Chishi Fanqi, who called himself 西齋老人 (FGDB '西齋淨土詩')	7000777
+7000778	楚石梵琦	\N	chǔshí fànqí	Chushi Fanqi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1296～1370; late Yuan - early Ming monastic (FGDB '楚石梵琦')	7000778
+7000779	报恩法会	報恩法會	Bào'ēn fǎhuì	Gratitude Dharma Service	proper noun	法会	Dharma Service	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	(FoguangPedia)	7000779
+7000780	庐山慧远	廬山慧遠	Lúshān Huìyuǎn	Hui Yuan / Lushan Huiyuan	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	334-416; Chinese Buddhist monastic, founder of the Chinese Pure Land School (BL 'Lushan Huiyuan'; FGDB '慧遠')	7000780
+7000781	少康	\N	shǎoKāng	Shao Kang	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Tang dynasty Buddhist monastic (FGDB '少康')	7000781
+7000782	慧远	慧遠	Huìyuǎn	Jingying Huiyuan	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 淨影慧遠 (Wikipedia '慧遠 (隋朝)')	7000782
+7000783	净影慧远	淨影慧遠	jìngyǐngHuìYuǎn	Jingying Huiyuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	523-592; Sui dynasty monastic composed T 1843 《大乘起信論義疏》 (BL 'jìngyǐngHuìYuǎn'; FGDB '淨影慧遠')	7000783
+7000784	贤首	賢首	xiánshǒu	Sage Chief	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Also, another name for 法藏 Fazang (Ding '賢首'; FGDB '賢首'; SH '賢首')	7000784
+7000785	国一法师	國一法師	guóyī fǎshī	Dharma Master Guoyi / Fazang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 法藏 (FGDB '法藏')	7000785
+7000786	香象法师	香象法師	xiāngxiàng fǎshī	Dharma Master Xiangxiang / Fazang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 法藏 (FGDB '法藏')	7000786

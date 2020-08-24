@@ -547,3 +547,5 @@
 3000547	路超远	路超遠	lù chāo yuǎn	the way home is long	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000547
 3000548	终刚强	終剛強	zhōng gāngqiáng	steadfast to the end	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000548
 3000549	鬼雄	\N	guǐ xióng	heroes among the dead	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39; Guoyu '鬼雄')	3000549
+3000550	称尔戈	稱爾戈	chēng ěr gē	to raise arms against	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(rewored from Mathews 1931 '稱爾戈', p. 50)	3000550
+3000551	称人意	稱人意	chēng rényì	according with the expectations of others	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(rewored from Mathews 1931 '稱人意', p. 50)	3000551

@@ -252,3 +252,10 @@
 5000252	称一称	稱一稱	chēng yī chēng	to measure the weight	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱一稱', p. 50)	5000252
 5000253	统筹兼顾	統籌兼顧	tǒng chóu jiān gù	an overall plan taking into account all factors	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '統籌兼顧'; Mao Zedong 1966, pp. 68-69)	5000253
 5000254	千万不要	千萬不要	qiān wàn bú yào	we must never	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 68-69)	5000254
+5000255	称货	稱貨	chēng huò	to weigh goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱貨', p. 50)	5000255
+5000256	称进	稱進	chēng jìn	to weigh incoming goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱進', p. 50)	5000256
+5000257	称出	稱出	chēng chū	to weigh outgoing goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱出', p. 50)	5000257
+5000258	人多议论多	人多議論多	rén duō yìlùn duō	having more people leads to a greater ferment of ideas	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from tr. in Mao Zedong 1966, pp. 68-69)	5000258
+5000259	不彀称	不彀稱	bù gòu chēng	less than full weight	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '不彀稱', p. 50)	5000259
+5000260	没人味儿	沒人味兒	méi rén wèir	to be lacking in human character	phrase	\N	\N	现代汉语	Modern Chinese	方言	Dialect	\N	\N	Erhua variant of 没人味 (CC-CEDICT '沒人味兒')	5000260
+5000261	没有劲头儿	沒有勁頭兒	méiyǒu jìntóur	to have no strength	phrase	\N	\N	现代汉语	Modern Chinese	方言	Dialect	\N	\N	Erhua variant of 没有劲头 (CC-CEDICT '沒有勁頭兒')	5000261
