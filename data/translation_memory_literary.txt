@@ -524,3 +524,26 @@
 3000524	穆穆良朝	\N	mùmù liáng cháo	solemn the stillness of this fair morning	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 時運 “Time Passes By” by 陶淵明 Tao Yuanming 365-427 in Scroll 1 of 陶淵明集 Tao Yuanming Collected Poems (Waley 1919, p. 116)	3000524
 3000525	山涤	山滌	shān dí	mountain-stream	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 時運 “Time Passes By” by 陶淵明 Tao Yuanming 365-427 in Scroll 1 of 陶淵明集 Tao Yuanming Collected Poems (Waley 1919, p. 116)	3000525
 3000526	有风自南	有風自南	yǒu fēng zì nán	a wind blowing from the south	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 時運 “Time Passes By” by 陶淵明 Tao Yuanming 365-427 in Scroll 1 of 陶淵明集 Tao Yuanming Collected Poems (Waley 1919, p. 116)	3000526
+3000527	称叹	稱嘆	chēngtàn	to praise and admire	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱嘆', p. 50)	3000527
+3000528	操吴戈	操吳戈	cāo wú gē	we grasp our battle-spears	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000528
+3000529	被犀甲	\N	bèi xījiǎ	we don our breast-plates of hide	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000529
+3000530	车错毂	車錯轂	chē cuò gǔ	the axles of our chariots touch	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000530
+3000531	短兵接	\N	duǎn bīng jiē	our short swords meet	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000531
+3000532	旌蔽日	\N	jīng bì rì	standards obscure the sun	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000532
+3000533	敌若云	敵若雲	dí ruò yún	the foe roll up like clouds	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000533
+3000534	矢交坠	矢交墜	shǐ jiāo zhuì	arrows fall thick	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000534
+3000535	士争先	士爭先	shì zhēng xiān	warriors press forward	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000535
+3000536	凌余阵	凌余陣	líng yú zhèn	they menace our ranks	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000536
+3000537	躐余行	\N	liè yú háng	they menace our ranks	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000537
+3000538	左骖殪	左驂殪	zuǒ cān yì	the left-hand trace-horse is dead	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000538
+3000539	援玉枹	\N	yuán yù bāo	they grasp their jade drum-sticks	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000539
+3000540	击鸣鼓	擊鳴鼓	jī míng gǔ	beat the sounding drums	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000540
+3000541	喊杀	喊殺	hǎn shā	shout kill	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '喊殺')	3000541
+3000542	击鼓	擊鼓	jī gǔ	to strike a drum	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '擊鼓')	3000542
+3000543	天时怼	天時懟	tiān shí duì	[at that time] Heaven decrees their fall	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000543
+3000544	威灵怒	威靈怒	wēi líng nù	the mighty spirits are angry	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (reworded from Waley 1919, p. 39)	3000544
+3000545	严杀尽	嚴殺盡	yán shā jìn	the warriors are all dead	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000545
+3000546	往不反	\N	wǎng bù fǎn	they went but shall not return	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000546
+3000547	路超远	路超遠	lù chāo yuǎn	the way home is long	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000547
+3000548	终刚强	終剛強	zhōng gāngqiáng	steadfast to the end	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39)	3000548
+3000549	鬼雄	\N	guǐ xióng	heroes among the dead	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 國殤 “Battle” by 屈原 Qu Yuan 340—278 BCE in Scroll 2 of 楚辭 Songs of Chu (Waley 1919, p. 39; Guoyu '鬼雄')	3000549

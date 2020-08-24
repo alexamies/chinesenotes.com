@@ -731,3 +731,44 @@
 7000731	法羽	\N	fǎyǔ	Fayu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000731
 7000732	慧绍	慧紹	huìshào	Huishao	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000732
 7000733	僧瑜	\N	sēngyú	Sengyu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000733
+7000734	慧益	\N	huìyì	Huiyi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000734
+7000735	僧庆	僧慶	sēngqìng	Sengqing	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000735
+7000736	法光	\N	fǎguāng	Faguang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000736
+7000737	昙弘	曇弘	tánhóng	Tanhong	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000737
+7000738	僧群	\N	Sēngqún	Sengqun	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	7000738
+7000739	慧能	\N	Huìnéng	Huineng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	638–713; Chinese Chán monastic and the Sixth Patriarch of Chán Buddhism; considered the founder of the 南宗 Southern School of Chan (FGDB '慧能')	7000739
+7000740	惠能	\N	Huì Néng	Hui Neng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 慧能 (FGDB '慧能')	7000740
+7000741	弘忍	\N	Hóng Rěn	Hong Ren	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	(601 - 674), the Fifth Patriarch of the Chan tradition (Wikipedia '弘忍')	7000741
+7000742	通慧大师	通慧大師	Tōng Huì Dàshī	Master Tong Hui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Primary editor of Song Biographies of Eminent Monks; also known as 贊寧 (FGDB '通慧')	7000742
+7000743	赐紫沙门	賜紫沙門	Cì Zǐ Shāmén	Master Ci Zi	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	One of the editors of Song Biographies of Eminent Monks (T 2061)	7000743
+7000744	菩提流志	\N	Pútí Liú Zhì	Bodhiruci	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 菩提流支 (FGDB '菩提流支')	7000744
+7000745	达摩流支	達摩流支	Dámó Liú Zhī	Bodhiruci / Dharmaruci	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 菩提流支 (FGDB '菩提流支')	7000745
+7000746	张培耕	張培耕	zhāng péigēng	Zhang Peigeng	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	1926-2005; Buddhist lay person and writer (FGDB '張培耕')	7000746
+7000747	竺摩	\N	zhú mó	Zhu Mo	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1914-2002; Chinese monastic from Zhejiang (FGDB '竺摩')	7000747
+7000748	吴修齐	吳修齊	wú xiūqí	Wu Xuqi	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	1913-2005; Buddhist lay person from Tainan, Taiwan (FGDB '吳修齊'; Wikipedia '吳修齊')	7000748
+7000749	开证	開證	kāi zhèng	Kai Zheng	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1925-2001; Taiwanese monastic form Kaohsiung (FGDB '開證')	7000749
+7000750	道氤	\N	dàoyīn	Daoyin	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	668-740; Chinese monastic from 长安 (FGDB '道氤')	7000750
+7000751	安世高	\N	Ān Shì Gāo	An Shigao	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	(c. ?-168 CE) a prince of Parthia and Buddhist monk who travelled to China. An Shigao is known as an early translator of texts into Chinese (BL 'An Shigao'; FGDB '安世高')	7000751
+7000752	道安	\N	Dào Ān	Dao An	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	WG: Tao An, c. 312－385; also known as 釋道安 and 印手菩薩, well known translator, compiled 《綜理眾經目錄》 'Zongli Zhong Jing Mulu' the earliest known catalog of canonical texts, which is included in T 2145 《出三藏記集》 'Compilation of Notices on the Translation of the Tripiṭaka' (BL 'Dao'an'; CBD 'Tao An'; FGDB '道安')	7000752
+7000753	釋道安	釋道安	Shì Dào Ān	Shi Dao An	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 道安 (FGDB '道安')	7000753
+7000754	僧祐	\N	Sēng Yòu	Seng You	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	445-518 CE, well known translator from Jianye, present-day Nanjing, compiled the 《出三藏記集》 'Compilation of Notices on the Translation of the Tripiṭaka,' the earliest catalog of Buddhist canonical texts still in existence (BL 'Sengyou'; FGDB '僧祐')	7000754
+7000755	道宣	\N	Dào Xuān	Daoxuan	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Japanese: Dōsen; 596-667 CE, well known translator and patriarch of the Nanshan Vinaya School (BL 'Daoxuan'; FGDB '道宣')	7000755
+7000756	支娄迦谶	\N	zhīlóujiāchèn	Lokaksema	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	C. 147-? CE, well known translator (Wikipedia '支娄迦谶')	7000756
+7000757	鸠摩罗什	鳩摩羅什	Jiūmóluóshí	Kumarajiva / Kumārajīva	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	C. 334-413; Kumārajīva was born in Kucha 库车 (formerly Kezil 龟茲), according to hagiography. He was well known translator and credited with founding the 三論宗 San Lun Zong 'Three Treatises School'; FGS translation standard: Kumarajiva (BL 'Kumārajīva'; Faxiang; FGDB '鳩摩羅什')	7000757
+7000758	三藏鸠摩罗什	三藏鳩摩羅什	Sān Zàng Jiūmóluóshí	Kumārajīva	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	三藏 'Tripiṭaka' was a title deferred on Kumārajīva (FGDB '鳩摩羅什')	7000758
+7000759	天竺三藏求那跋陀罗	天竺三藏求那跋陀羅	Tiānzhú Sān Zàng Qiúnàbátuóluó	Guṇabhadra / Gunabhadra	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	(394-468) A monk from India, translated the Lankavatara Sutra to Chinese (FGDB '求那跋陀羅'; BL 'Guṇabhadra')	7000759
+7000760	毘尼多流支	\N	Píníduōliúzhī	Vinītaruci	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	?-594, monastic and translator of Buddhist texts from Sanskrit to Chinese  (FGDB '毘尼多流支'; KDC 148)	7000760
+7000761	不空	\N	Bù Kōng	Amoghavajra /	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: amoghavajra, Japanese: Fukū; c. 705-774 CE, Buddhist monastic who translated texts in the Tang included in the Chinese Buddhist canon; one of the 四大翻譯家 'four great translators', especially known for translating esoteric texts to Chinese; FGS translation standard: Amoghavajra (BL 'Amoghavajra'; FGDB '不空')	7000761
+7000762	灌顶	灌頂	Guàn Dǐng	Guanding	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Wade-Giles: Kuan-ting, 561—632; disciple of 智顗 Zhi Yi 538—597, key figure of the Tiantai school; Guan Ding wrote down the text of 摩訶止觀 <i>Great Concentration and Insight</i> based on Zhi Yi's lectures (Ding '灌頂'; FGDB '灌頂')	7000762
+7000763	慧文	\N	huì wén	Hui Wen	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Considered the second patriarch of the Tiantai school (FGDB '慧文')	7000763
+7000764	慧思	\N	Huì Sī	Hui Si / Nan Yue Hui Si	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	c. 515-557, considered the third patriarch of the Tiantai school and teacher of Zhi Yi 智顗 (FGDB '慧思')	7000764
+7000765	湛然	\N	zhàn rán	Zhanran / Chan-Jan	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Wade-Giles: Chan-Jan. 711—782, considered the ninth patriarch of the Tiantai school (FGDB '湛然')	7000765
+7000766	南岳	\N	Nán Yuè	Hui Si / Nan Yue Hui Si	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 慧思 (FGDB '湛然')	7000766
+7000767	弗若多罗	弗若多羅	fúruòduōluó	 Punyatāra	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Indian monk who travelled to China in the Later Qin (FGDB '弗若多羅')	7000767
+7000768	若多罗	若多羅	fúruòduōluó	 Punyatāra	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 弗若多羅 (FGDB '弗若多羅')	7000768
+7000769	昙摩流支	曇摩流支	tánmóliúzhī	Bodhiruci / Dharmaruci	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 菩提流支 (FGDB '菩提流支')	7000769
+7000770	卑摩罗叉	卑摩羅叉	bēimóluóchā	Vimalāksa	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	(FGDB '卑摩羅叉')	7000770
+7000771	昙摩伽陀耶舍	曇摩伽陀耶舍	tánmójiātuóyéshè	Dharmāgatayaśas	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	Indian monastic and translator of Buddhist texts from Sanskrit to Chinese  (FGDB '曇摩伽陀耶舍'; KDC 114)	7000771
+7000772	龙树菩萨	龍樹菩薩	Lóng Shù Púsà	Nāgārjuna	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 龍樹 (FGDB '龍樹')	49265
+7000773	无着菩萨	無著菩薩	Wú Zhāo Púsà	Asaṅga	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 無著 (FGDB '無著')	7000773
+7000774	鸠摩罗佛提	鳩摩羅佛提	jiūmóluófótí 	Kumārabuddhi	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Buddhist monastic who translated texts in the Former Qin dynasty that are included in the Chinese Buddhist canon (FGDB '鳩摩羅佛提'; KDC 1019; T 1505)	7000774

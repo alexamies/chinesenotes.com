@@ -1,4 +1,4 @@
-<h4>Source<h4>
+<h4>Source</h4>
 <p>
   Wikisource, accessed 2020-08-08, <a
    href="https://zh.wikisource.org/wiki/陶淵明集"
@@ -57,11 +57,11 @@
     New York: Alfred Knopf,
     <a href="https://en.wikisource.org/wiki/A_Hundred_and_Seventy_Chinese_Poems"
     >https://en.wikisource.org/wiki/A_Hundred_and_Seventy_Chinese_Poems</a>.
-    Translation of selected poems.
+    Translation of selected poems, pp. 103-116. Translation of selected poems.
   </li>
 </p>
 
-<h4>Discussion<h4>
+<h4>Discussion</h4>
 <ol>
   <li>
     Idema, W L and Haft, L 1997, <i>A Guide to Chinese Literature</i>, 

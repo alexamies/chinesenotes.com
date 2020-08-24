@@ -6632,4 +6632,17 @@
 6006632	王振堂	\N	Wáng Zhèntáng	Zhentang Wang	proper noun	人	Person	政治	Politics	\N	\N	\N	wang2zhen4tang2.mp3	CEO of 宏碁 Acer (Wikipedia '王振堂')	6006632
 6006633	拉鲁	拉魯	lālǔ	Lhalu Tsewang Dorje	proper noun	人	Person	历史	History	中国	China	\N	\N	1915-2011; Tibetan pro-Chinese politician; Lhalu suburb of Lhasa (CC-CEDICT '拉魯')	12946
 6006634	王平	\N	wáng píng	Wang Ping	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1962-2013; PRC crosstalk actor (CC-CEDICT '王平')	6006634
-6006635	僧群	\N	Sēngqún	Sengqun	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 12 梁高僧傳卷第十二 (T 2059).	6006635
+6006635	香山植物园	香山植物園	Xiāng Shān Zhíwù Yuán	Fragrant Hills Botanic Gardens	proper noun	名胜古迹	Historical Sites and Scenic Places	历史	History	中国	China	\N	\N	(Wikipedia '香山公园')	6006635
+6006636	巴金	\N	bājīn	Ba Jin	proper noun	作者	Writer	文学	Literature	中国	China	\N	\N	1904-2005; Novelist, author of the trilogy 家, 春, 秋 (CC-CEDICT '巴金')	6006636
+6006637	拉登	\N	lādēng	(Osama) bin Laden	proper noun	人	Person	历史	History	\N	\N	\N	\N	1957-2011; Leader of Al Qaeda (CC-CEDICT '拉登')	6006637
+6006638	李洪志	\N	lǐ hóngzhì	Li Hongzhi	proper noun	人	Person	历史	History	\N	\N	\N	\N	1951-; Founder of Falun Gong 法轮功 (CC-CEDICT '李洪志')	6006638
+6006639	金大中	\N	jīn dàzhōng	Kim Dae-jung	proper noun	政治家	Politician	政治	Politics	韩国	South Korea	\N	\N	1926-2009; South Korea politician, president 1998-2003, Nobel peace prize laureate 2000 (CC-CEDICT '金大中')	6006639
+6006640	姚明	\N	yáomíng	Yao Ming	proper noun	人	Person	体育	Sport	中国	China	\N	\N	1980-; retired Chinese basketball player, played for CBA Shanghai Sharks 1997-2002 and for NBA Houston Rockets 2002-2011 (CC-CEDICT '姚明')	6006640
+6006641	薄一波	\N	báoyībō	Bao Yibo	proper noun	人	Person	历史	History	中国	China	\N	\N	1908-2007; Ranking PRC politician, served on State Council from 1950s to 1980s as colleague of Deng Xiaoping (CC-CEDICT '薄一波'; Guoyu '薄一波')	6006641
+6006642	宋任穷	宋任窮	sòng rènqióng	Song Renqiong	proper noun	人	Person	历史	History	中国	China	\N	\N	1909-2005; general of the People's Liberation Army (CC-CEDICT '宋任窮'; Wikipedia '宋任窮')	6006642
+6006643	李先念	\N	Llǐ xiānniàn	Li Xiannian	proper noun	人	Person	历史	History	中国	China	\N	\N	1909-1992; PRC general and politician (CC-CEDICT '李先念'; Wikipedia '李先念')	6006643
+6006644	乔石	喬石	qiáo shí	Qiao Shi	proper noun	人	Person	政治	Politics	中国	China	\N	\N	1924-2015; Chinese political leader (CC-CEDICT '喬石')	6006644
+6006645	单国玺	單國璽	dānguóxǐ	Paul Shan Kuo-hsi	proper noun	神父	Priest	现代汉语	Modern Chinese	宗教	Religion	\N	\N	1923-2012; A cardinal in the Roman Catholic Church (Wikipedia '單國璽')	6006645
+6006646	金正日	\N	jīn zhèngrì	Kim Jong-il	proper noun	人	Person	历史	History	\N	\N	\N	\N	1941-2011; second Supreme Leader of North Korea (Wikipedia '金正日')	6006646
+6006647	万里	萬里	wàn lǐ	Wan Li	proper noun	人	Person	历史	History	中国	China	\N	\N	1916-2015; Chinese Communist revolutionary and politician (CC-CEDICT '萬里'; Wikipedia '万里')	6006647
+6006648	孙犁	孫犁	sūnlí	Sun Li	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1913-2002; Novelist (CC-CEDICT '孫犁')	6006648

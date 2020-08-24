@@ -1,15 +1,15 @@
-<h4>Source<h4>
+<h4>Source</h4>
 <p>
   Wikisource, accessed 2018-05-11, <a href="https://zh.wikisource.org/wiki/楚辭"
   >https://zh.wikisource.org/wiki/楚辭</a>.
 </p>
 
-<h4>English translations<h4>
+<h4>English translations</h4>
 <ol>
   <li>
     Yuan, Qu and David Hawkes tr., 2000, 
     “Chapter 5. The Songs of the South: Shammanism and Poetry” in
-    John Minford and Joseph S M Lau eds.
+    John Minford and Joseph S M Lau eds. in
     <i>Classical Chinese Literature: From Antiquity to the Tang Dynasty</i>,
     New York: Columbia University Press, p 237-265.
   </li>
@@ -19,6 +19,13 @@
     New York: W.W. Norton, pp. 155-175.
     Partial translation.
   </li>
+  <li>
+    Waley, Arthur 1919, <i>A Hundred and Seventy Chinese Poems</i>,
+    New York: Alfred Knopf,
+    <a href="https://en.wikisource.org/wiki/A_Hundred_and_Seventy_Chinese_Poems"
+    >https://en.wikisource.org/wiki/A_Hundred_and_Seventy_Chinese_Poems</a>.
+    Translation of selected poems, p. 39. Translation of 國殤 “Battle”.
+  </li>
   <i>
     Yuan, Qu  and David Hawkes ed. and tr. 1985, 
     <i>The Songs of the South: An Anthology of Ancient Chinese Poems by Qu Yuan
@@ -27,7 +34,7 @@
   </i>
 </ol>
 
-<h4>Discussion<h4>
+<h4>Discussion</h4>
 <ol>
   <li>
     Cheng Yu-Yu 2017,  “Chapter 9: Text and Commetary in the Medieval Period,” in 

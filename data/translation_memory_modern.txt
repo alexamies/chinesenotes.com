@@ -248,4 +248,7 @@
 5000248	秤到准	秤到準	chèng dào zhǔn	to weigh accurately	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '秤到準', p. 50)	5000248
 5000249	灰濛濛	\N	huī méngméng	gray mist	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '灰濛濛')	5000249
 5000250	路阻	\N	lù zǔ	a road barrier	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '路阻')	5000250
-5000251	巴金	\N	bājīn	Ba Jin	proper noun	作者	Writer	文学	Literature	中国	China	\N	\N	1904-2005; novelist, author of the trilogy 家, 春, 秋 (CC-CEDICT '巴金')	5000251
+5000251	称算	稱算	chēng suàn	to estimate the amount of	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱算', p.50)	5000251
+5000252	称一称	稱一稱	chēng yī chēng	to measure the weight	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱一稱', p. 50)	5000252
+5000253	统筹兼顾	統籌兼顧	tǒng chóu jiān gù	an overall plan taking into account all factors	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '統籌兼顧'; Mao Zedong 1966, pp. 68-69)	5000253
+5000254	千万不要	千萬不要	qiān wàn bú yào	we must never	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 68-69)	5000254
