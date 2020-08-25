@@ -784,3 +784,28 @@
 7000784	贤首	賢首	xiánshǒu	Sage Chief	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Also, another name for 法藏 Fazang (Ding '賢首'; FGDB '賢首'; SH '賢首')	7000784
 7000785	国一法师	國一法師	guóyī fǎshī	Dharma Master Guoyi / Fazang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 法藏 (FGDB '法藏')	7000785
 7000786	香象法师	香象法師	xiāngxiàng fǎshī	Dharma Master Xiangxiang / Fazang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 法藏 (FGDB '法藏')	7000786
+7000787	康藏法师	康藏法師	Kāngzàng fǎshī	Dharma Master Kangzang / Fazang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 法藏 (FGDB '法藏')	7000787
+7000788	百丈	\N	bǎizhàng	Baizhang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 百丈懷海 (Hsing Yun 2010)	7000788
+7000789	斋日	齋日	zhāirì	the Day of Purification	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	(FGDB '齋日'; Hundred Lessons, SH '齋日', p. 464)	7000789
+7000790	给孤	給孤	gěigū	Anāthapiṇḍada	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	See 須達 (FGDB '須達')	7000790
+7000791	龙猛	龍猛	Lóng Měng	Nagarjuna	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: nāgārjuna, (c. 150 - 250 CE) founder of the Madhyamaka school of Mahāyāna Buddhism (SH '龍猛', p. 455)	7000791
+7000792	迦叶摩腾	迦葉摩騰	Jiāyèmóténg	Kāśyapa-mātaṅga / Kasyapa Matanga	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	Sanskrit: kāśyapamātaṅga; one of the first Indian monks to travell to China, sometime in the Eastern Han (Ding '迦葉摩騰'; FGDB '迦葉摩騰')	7000792
+7000793	竺法兰	竺法蘭	zhúfǎlán	Dharmaratna / Gobharana	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	One of the first Indian monks to travell to China, sometime in the Eastern Han (FGDB '竺法蘭')	7000793
+7000794	大爱道	大愛道	dà'àidào	Maha-prajapti	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	(FGDB '大愛道比丘尼經')	7000794
+7000795	蔡愔	\N	Cài Yīn	Cai Yin	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	Travelled with Kasyapamatanga and Dharmaratna to Luo Yang during the early days of Buddhism in China (Wikipedia '蔡愔')	7000795
+7000796	法显	法顯	Fǎ Xiǎn	Faxian / Fa Hsien	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	(c. 337-422) Faxian was a monk who traveled to Nepal, India, and Sri Lanka to acquire Buddhist scriptures. Faxian's travels are recorded in the text 佛國記 'A Record of Buddhist Kingdoms' (BL 'Faxian'; FGDB '法顯').	7000796
+7000797	求那跋陀罗	求那跋陀羅	qiúnàbátuóluó	Guṇabhadra / Gunabhadra	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	(394-468) Sanskrit equivalent: guṇabhadra; a monk from India, translated the Lankavatara Sutra to Chinese (FGDB '求那跋陀羅'; BL 'Guṇabhadra').	7000797
+7000798	辨机	辨機	biàn jī	Bian Ji	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	619-?; A disciple of Xuanzang, he compiled 《大唐西域记》Tang Records on the Western Regions based on Xuanzang's oral account (Wikipedia '辨機')	7000798
+7000799	义净	義淨	Yì Jìng	Yijing	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	(635-713) Yijing was a Tang Dynasty monk who travelled to India. His travels notes are recorded in the text 南海寄歸內法傳 'A Record of the Buddhist Religion: As Practised in India and the Malay Archipelago.'; FGS translation standard: Yijing (BL 'Yijing'; Faxiang; FGDB '義淨')	7000799
+7000800	须提那	須提那	xūtínà	Sudinna	noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Notes: Son of Kalandaka 迦蘭陀; a monastic mentioned in the 四分律 <i>Four Part Vinaya</i> (Ding '須提那'; FGDB '須提那子'; Hsing Yun 2010, p. 3)	7000800
+7000801	光定	\N	guāngdìng	Kōjō	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	779-858 (FGDB '光定'; Matsuo 2007, p. 29)	7000801
+7000802	拘兰难陀	拘蘭難陀	jūlánnántuó	Paramārtha	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 真諦 (FGDB '真諦')	7000802
+7000803	智恺	智愷	zhì kǎi	Zhi Kai	noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	518-568; Chinese Buddhist Monastic (BSAD '智愷')	7000803
+7000804	慧恺	慧愷	huì kǎi	Zhi Kai / Hui Kai	noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 智愷 (BSAD '智愷')	7000804
+7000805	凯公	凱公	kǎi gōng	Zhi Kai / Kai Gong	noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 智愷 (BSAD '智愷')	7000805
+7000806	凯师	凱師	kǎishī	Zhi Kai / Kai Shi	noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 智愷 (BSAD '智愷')	7000806
+7000807	道法	\N	dào fǎ	Dao Fa	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	D. 474; name of a monastic from Dunhuang (FGDB '道法')	7000807
+7000808	六祖惠能	\N	Liù Zǔ Huìnéng	Huineng / the Sixth Patriarch Huineng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 慧能 (FGDB '慧能')	7000808
+7000809	神秀	\N	Shén Xiù	Shen Xiu	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Mentioned in the Platform Sutra (FGDB '神秀')	7000809
+7000810	五祖	\N	Wǔ Zǔ	Fifth Patriarch	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	601 - 674; Fifth Patriarch 弘忍 Hong Ren of the Chan tradition (FGDB '弘忍')	7000810
+7000811	莲花生	蓮花生	liánhuāshēng	Padmasambhava	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Said to have transmitted Tantric Buddhism to Bhutan and Tibet (Wikipedia '蓮花生')	7000811

@@ -29,7 +29,15 @@
   <li>
     Pollard, David 2002, <i>The Chinese Essay: An Anthology</i>,
     New York: Columbia University Press, pp. 25-27. Includes a translation of
-    出師表 <i>To Lead out the Army</i> by Zhuge Liang in Scroll 37.
+    出師表 “To Lead out the Army“ by Zhuge Liang in Scroll 37.
+  </li>
+  <li>
+    Waley, Arthur 1919, <i>A Hundred and Seventy Chinese Poems</i>,
+    New York: Alfred Knopf,
+    <a href="https://en.wikisource.org/wiki/A_Hundred_and_Seventy_Chinese_Poems"
+    >https://en.wikisource.org/wiki/A_Hundred_and_Seventy_Chinese_Poems</a>.
+    Translation of 風賦 “The Man-Wind and the Woman-Wind,“ pp. 41-42 in
+    Scroll 13.
   </li>
 </p>
 
