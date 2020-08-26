@@ -809,3 +809,49 @@
 7000809	神秀	\N	Shén Xiù	Shen Xiu	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Mentioned in the Platform Sutra (FGDB '神秀')	7000809
 7000810	五祖	\N	Wǔ Zǔ	Fifth Patriarch	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	601 - 674; Fifth Patriarch 弘忍 Hong Ren of the Chan tradition (FGDB '弘忍')	7000810
 7000811	莲花生	蓮花生	liánhuāshēng	Padmasambhava	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Said to have transmitted Tantric Buddhism to Bhutan and Tibet (Wikipedia '蓮花生')	7000811
+7000812	智顗	\N	Zhìyǐ	Zhi Yi / Chih-i	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Wade-Giles: Chih-i (538-597), fourth patriarch of the Tiantai School of Buddhism (Ding '智顗'; FGDB '智顗'; SH '智顗')	7000812
+7000813	吉藏	\N	Jí Zàng	Jizang	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	549-623 CE; founder of the Sanlun School of Buddhism (BL 'Jizang'; Ding '吉藏'; FGDB '吉藏')	7000813
+7000814	龙树	龍樹	lóng shù	Nāgārjuna	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: nāgārjuna (c. 150 - 250 CE) Indian monastic and philosopher, attributed with composing the 中論 'Fundamental Verses on the Middle Way' (BL 'nāgārjuna'; FGDB '龍樹')	7000814
+7000815	提婆	\N	típó	Āryadeva / Deva	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: āryadeva, 3rd Century CE Indian Buddhist, a disciple of Nagarjuna (BL 'Āryadeva'; FGDB '提婆')	7000815
+7000816	法藏	\N	fǎzàng	Fazang	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Japanese: Hōzō; 643-712 CE; the third patriarch of the 華嚴宗 Huayan School of Buddhism; given the title 國師 'State Preceptor'; composed 《大乘起信論義記》 <i>Notes on the Meaning of Treatise on the Awakening of Faith in the Mahāyāna</i> (BL 'Fazang'; FGDB '法藏')	7000816
+7000817	慈惠	\N	Cí Huì Fǎshī	Venerable Tzu Hui	proper noun	法师	Monastic	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	(FGDB '慈惠')	7000817
+7000818	印顺法师	印順法師	yìnshùn fǎshī	Yin Shun	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 印順 (Wikipedia '印顺法师')	7000818
+7000819	袾宏	\N	zhū hóng	Zhu Hong / Master of Yunqi	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	1535–1615 Chinese monastic and critic of the Jesuits (Ding '雲棲'; FGDB '袾宏'; Wikipedia '蓮池祩宏')	7000819
+7000820	金善宗	\N	jīn shàn zōng	Kim Seonjong	proper noun	师父	Monastic	佛教	Buddhism	韩国	South Korea	\N	mian4.mp3	Hangul: 김선종; 590-658, given name of Korean monk Jajang (Wikipedia 'Jajang')	7000820
+7000821	寂天	\N	Jìtiān	Shantideva / Śāntideva	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: śāntideva; an 8th-century Indian Buddhist scholar (FGDB '寂天'; Wikipedia '寂天')	7000821
+7000822	僧肇	\N	 Sēng Zhào	Seng Zhao	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	384-414; Eastern Jin monastic based in Chang'an, working under Kumārajīva. Seng Zhao is attributed with composing the 《寶藏論》 <i>Treasure Store Treatise</i> (T 1857) and 《金剛經註》 <i>Jingang Jing Zhu</i> (Ding '因緣生'; FGDB '因緣生'; Sharf 2005, p. 31)	7000822
+7000823	达磨笈多	達磨笈多	Dámó Jíduō	Dharmagupta	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 達摩笈多 (FGDB '達摩笈多')	7000823
+7000824	陈那	陳那	chénnà	Dignāga	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	480 – c. 540 Indian monk and scholar (Edelglass and Garfield 2009, p. 107; FGDB '陳那')	7000824
+7000825	慧锷	慧鍔	Huì È	Egaku / Hui E	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	9th century Japanese monk who was shipwrecked during the Tang Dynasty on Mount Puotuo when trying to transport a Avalokitesvara Bodhisattva statue to Japan (Wikipedia '慧锷')	7000825
+7000826	多宝塔	多寶塔	Duō Bǎo Tǎ	Prabhutaratna Stupa / Duobao Pagoda	proper noun	塔	Pagoda	佛教	Buddhism	中国	China	duobaota400.jpg	\N	Pagoda on Mount Putuo and other locations (Wikipedia '多寶塔')	7000826
+7000827	康僧铠	康僧鎧	Kāng Sēng Kǎi	Saṅghavarman / Sajghavarman / Saņghavarman	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	An Indian monk from the Kushan kingdom who travelled to China and lived at the White Horse Temple in Luoyang.  He translated the Infinite Life Sutra c. 252 CE. (FGDB '康僧鎧')	7000827
+7000828	摄摩腾	攝摩騰	Shèmóténg	Kasyapamatanga	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	One of the first Indian monks to travell to China, sometime in the Eastern Han (Wikipedia '迦叶摩腾')	7000828
+7000829	支楼迦谶	支樓迦讖	Zhīlóujiāchèn	Lokaksema	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: lokakṣema, c. 147 CE, monk from Gandhara, travelled to China and translated sutras (Wikipedia '支娄迦谶')	7000829
+7000830	维祇难	維祇難	wéizhǐnán	Vighna	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Indian monk that travelled to China circa 224, translated the Dharmapada 《法句經》to Chinese (FGDB '維祇難'; KDC 'K 1021'; T 210)	7000830
+7000831	帛远	帛遠	Bó Yuǎn	Bo Yuan	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Indian monk that stayed in China during the Wei and Jin dynasties (Wikipedia '帛遠')	7000831
+7000832	帛尸梨密	\N	bóshīlímì	 Śrīmitra	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 帛尸棃密多羅 (FGDB '帛尸棃密多羅')	7000832
+7000833	帛尸梨密多罗	帛尸棃密多羅	Bóshīlímìduōluó	 Śrīmitra	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Buddhist monastic who translated texts in the Tang included in the Chinese Buddhist canon (FGDB '帛尸棃密多羅'; KDC 174; Sharf 2005, p. 272； T 1331)	7000833
+7000834	僧伽跋澄	\N	sēngjiābáchéng	  Sajghabhūti	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Indian monk that stayed in China during the Eastern Jin dynasty 317-420, translated Sengjia Luocha Suo Ji Jing 《僧伽羅剎所集經》 (FGDB '僧伽跋澄'; T 194; KDC 'K 985').	7000834
+7000835	支昙籥	支曇籥	Zhī Tányuè	 Zhi Tanyue	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	A Tokharian monk who lived in Nanjing during the Jin dynasty, mentioned in Biographies of Eminent Monks, Scroll 13 (FGDB '支曇籥')	7000835
+7000836	恒景	\N	Héng Jǐng	Master Heng Jing	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	634-712; Tang dynasty monk (DDB '恒景')	7000836
+7000837	良价	\N	Liángjià	Dongshan Liangjia	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	807-869 Chan Master, founder of the Caodong School (DDB '良价')	7000837
+7000838	空海	\N	Kōng Hǎi	Venerable Master Kukai / Kūkai	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	774–835, Japanese monk and founder of the Shingon school of Buddhism (Wikipedia '空海')	7000838
+7000839	天亲	天親	Tiān Qīn	Vasubandhu / Vasubandu	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 世親 (Wikipedia '世親')	7000839
+7000840	大乘成业论	大乘成業論	Dàchéng Chéng Yè Lùn	Karmasiddhiprakaraṇa	proper noun	论	Sastra	佛教	Buddhism	大乘	Mahāyāna	\N	\N	A treatise by Vasubandhu (KDC 603; T 1609)	7000840
+7000841	护法	護法	hùfǎ	Dharmapāla	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sixth and seventh century Indian Buddhist philosopher and writer (BL 'Dharmapāla'; FGDB '護法')	7000841
+7000842	清辨	\N	qīng biàn	Bhāviveka	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	C. 500 – c. 578; Founder of the Svatantrika tradition (FGDB '清辨'; KDC 620; T 1578)	7000842
+7000843	明辩	明辯	Míng Biàn	Bhavyaviveka / Bhavya	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 清辨 (FGDB '清辨')	7000843
+7000844	论事	論事	lùnshì	Kathavatthu	proper noun	论	Sastra	佛教	Buddhism	南傳佛教	Theravada	\N	\N	Pāli: kathavatthu. Literally meaning 'Points of Controversy', a treatise in the Abhidhamma (FGDB '論事')	32759
+7000845	洞山良价	\N	Dòngshān Liángjià	Dongshan Liangjia	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	807-869 Chan Master, founder of the Caodong School (FGDB '洞山良价'; Sharf 2005, p. 189)	7000845
+7000846	守端	\N	Shǒuduān	Baiyun Shouduan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1025-1072, Chinese monk from the Linji Sect of the Chan School (FGDB '守端')	7000846
+7000847	白云守端	白雲守端	Báiyún Shǒuduān	Baiyun Shouduan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1025-1072, Chinese monk from the Linji Sect of the Chan School (FGDB '白雲守端')	7000847
+7000848	心培和尚	\N	Xīn Péi Héshang	Venerable Hsin Pei	proper noun	法师	Monastic	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	(FGDB ' 心保')	7000848
+7000849	慈庄法师	慈莊法師	Cí Zhuāng Fǎshī	Venerable Tzu Chuang	proper noun	法师	Monastic	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	(FGDB '慈莊')	7000849
+7000850	慈惠法师	慈惠法師	Cí Huì Fǎshī	Venerable Tzu Hui	proper noun	法师	Monastic	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	(FGDB '慈惠')	7000850
+7000851	宝唱	寶唱	Bǎo Chàng	Bao Chao	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	502–587; Liang dynasty monastic from Wu county in Jiangsu, compiled 《眾經目錄》 'Catalog of All Scriptures' (FGDB '寶唱')	7000851
+7000852	无罗叉	無羅叉	wúluóchā	Mokṣala	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Sanskrit: mokṣala, Western Jin Monastic (KDC 'K 2'; FGDB '無羅叉')	7000852
+7000853	昙摩蜱	曇摩蜱	tánmópí	Dharmapriya	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Sanskrit: dharmapriya, Kashmiri Monastic who came to China in the Former Qin Kingdom 351-395 and translated the 摩訶般若鈔經 'Da Ming Du Sūtra,' T 226  (KDC 'K 5'; FGDB '無羅叉').	7000853
+7000854	月婆首那	\N	yuèpóshǒunà	Upaśūnya	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Chen dynasty monastic, translated the Suvikrāntavikrāmiparipṛcchāprajñāpāramitāsūtra 勝天王般若波羅蜜經 T 231(FGDB '月婆首那'; KDC 'K 8')	7000854
+7000855	曼陀罗仙	曼陀羅仙	màntuóluóxiān	Mandra / Mandrasena	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	A Liang dynasty monk, translated Mañjuśrī speaks the Large Prajñāpāramitā Sūtra 《文殊師利所說摩訶般若波羅蜜經》 T 232 (KDC 'K 10'; FGDB '曼陀羅仙')	7000855
+7000856	翔公	\N	Xiáng Gōng	Xiang Gong	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	A Liu Song dynasty monk, translated Nāgaśrīpāripṛcchāsūtra 《佛說濡首菩薩無上清淨分衛經》 T 234 (KDC 'K 12')	7000856
+7000857	金刚能断般若波罗蜜经	金剛能斷般若波羅蜜經	Jīngāng Néng Duàn Bōrěbōluómì Jīng	Prajnaparamita Diamond Sutra / Prajñāpāramitā Diamond Sūtra / Diamond Sutra / Vajracchedikāprajñāpāramitāsūtra	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: vajracchedikāprajñāpāramitāsūtra, variant of the more common writing 金剛般若波羅蜜經, used for the translation by Dharmagupta 笈多 in the Sui (T 238). 	7000857
