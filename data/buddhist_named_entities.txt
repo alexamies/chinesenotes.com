@@ -855,3 +855,21 @@
 7000855	曼陀罗仙	曼陀羅仙	màntuóluóxiān	Mandra / Mandrasena	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	A Liang dynasty monk, translated Mañjuśrī speaks the Large Prajñāpāramitā Sūtra 《文殊師利所說摩訶般若波羅蜜經》 T 232 (KDC 'K 10'; FGDB '曼陀羅仙')	7000855
 7000856	翔公	\N	Xiáng Gōng	Xiang Gong	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	A Liu Song dynasty monk, translated Nāgaśrīpāripṛcchāsūtra 《佛說濡首菩薩無上清淨分衛經》 T 234 (KDC 'K 12')	7000856
 7000857	金刚能断般若波罗蜜经	金剛能斷般若波羅蜜經	Jīngāng Néng Duàn Bōrěbōluómì Jīng	Prajnaparamita Diamond Sutra / Prajñāpāramitā Diamond Sūtra / Diamond Sutra / Vajracchedikāprajñāpāramitāsūtra	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: vajracchedikāprajñāpāramitāsūtra, variant of the more common writing 金剛般若波羅蜜經, used for the translation by Dharmagupta 笈多 in the Sui (T 238). 	7000857
+7000858	慧可	\N	Huì Kě	Huike	proper noun	师父	Monastic	佛教	Buddhism	禅宗	Chan School	\N	\N	487-593; the Second Patriarch of the Chan School (BL 'Huike'; FGDB '慧可')	7000858
+7000859	南怀瑾	南懷瑾	Nán Huái Jǐn	Nan Huai Jin	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1917 – 2012, a well known Chinese monk (Wikipedia '南怀瑾')	7000859
+7000860	智俨	智儼	 Zhì Yǎn	Zhi Yan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Tang monk, author of a commentary on the Diamond Sutra, Jingang Bore Boluomi Lueshu 金刚般若波罗蜜经略疏 (Wikipedia '智俨')	7000860
+7000861	不空金刚	不空金剛	Bùkōngjīngāng	Amoghavajra	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 不空 (FGDB '不空')	7000861
+7000862	鉴真	鑒真	jiànzhēn	Jiazhen / Ganjin	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Japanese: Ganjin; c. 688-763 CE, a Chinese monk that taught in Japan, also written 鑑真 (BL 'Ganjin'; FGDB '鑑真'; Wikipedia '鑒真')	7000862
+7000863	僧璨	\N	sēng càn	Venerable Seng Can	proper noun	师父	Monastic	佛教	Buddhism	禅宗	Chan School	\N	\N	The Third Patriarch of the Chan School (Wikipedia '僧璨')	7000863
+7000864	广济寺	廣济寺	Guǎngjì Sì	Guangji Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	In the Beijing 西四 Xisi area (Wikipedia '广济寺 (北京市)')	7000864
+7000865	雍和宫	雍和宮	Yōnghégōng	Yonghegong / Lama Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	A Tibetan temple, located in the Changyang area of Beijing (Wikipedia '雍和宫')	7000865
+7000866	戒台寺	戒檯寺	jiètáisì	Jietai Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the western outskirts of Beijing (Wikipedia '戒台寺')	7000866
+7000867	潭柘寺	\N	Tánzhè Sì	Tanzhe Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the western outskirts of Beijing (<a href='http://www.tanzhesi.com.cn/'>www.tanzhesi.com.cn</a>, wikipedia '潭柘寺')	7000867
+7000868	法源寺	\N	Fǎyuán Sì	Fayuan Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the Xuanwu District of Beijing (Wikipedia '法源寺 (北京)')	7000868
+7000869	天宁寺	天寧寺	tiānníng Sì	Tianning Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the Guang'anmen area of Beijing (Wikipedia '天宁寺 (北京)')	7000869
+7000870	万佛寺	萬佛寺	Wàn Fó Sì	Wan Fo Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Ji County, Tianjin (Wikipedia '萬佛寺')	7000870
+7000871	妙应寺白塔	妙應寺白塔	Miàoyīng Sì Bái Tǎ	Miaoying Temple White Dagoba	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	A Tibetan temple in the Xisi area of Beijing (Wikipedia '妙应寺白塔')	7000871
+7000872	碧云寺	碧雲寺	bì Yún Sì	Azure Clouds Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Beijing Fragrant Hills area of Beijing (Wikipedia '碧云寺 (北京市)')	7000872
+7000873	报国寺	報國寺	Bào Guó Sì	Bao Guo Temple	proper noun	寺院	Monastery	地方	Places	中国	China	\N	\N	Located in Beijing, known for its antique market (Wikipedia '报国寺')	7000873
+7000874	大钟寺	大鐘寺	Dà Zhōng Sì	Dazhong Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the Haidian District of Beijing (Wikipedia '大钟寺')	7000874
+7000875	大梵寺	\N	Dàfàn Sì	Dafan Temple	proper noun	寺院	Monastery	佛教	Buddhism	\N	\N	\N	\N	The temple where Hui Neng delivered the Platform Sutra (Wikipedia '大梵寺')	7000875

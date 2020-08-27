@@ -577,3 +577,10 @@
 3000577	动沙堁	動沙堁	dòng shā kè	scatters the dust-heap	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 風賦 “The Man-Wind and the Woman-Wind” by 宋玉 Song Yu 298-263 BCE in Scroll 13 of 文選 Wen Xuan (Waley 1919, p. 42)	3000577
 3000578	吹死灰	\N	chuī sǐhuī	sends the cinders flying	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 風賦 “The Man-Wind and the Woman-Wind” by 宋玉 Song Yu 298-263 BCE in Scroll 13 of 文選 Wen Xuan (Waley 1919, p. 42)	3000578
 3000579	至于室庐	至於室廬	zhì yú shì lú	reaches the rooms of the cottage	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 風賦 “The Man-Wind and the Woman-Wind” by 宋玉 Song Yu 298-263 BCE in Scroll 13 of 文選 Wen Xuan (Waley 1919, p. 42)	3000579
+3000580	中心惨怛	中心慘怛	zhōng xīn cǎn dá	oppressing man's heart	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 風賦 “The Man-Wind and the Woman-Wind” by 宋玉 Song Yu 298-263 BCE in Scroll 13 of 文選 Wen Xuan (Waley 1919, p. 42)	3000580
+3000581	生病造热	生病造熱	shēng bìng zào rè	it brings fever to his body	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the poem 風賦 “The Man-Wind and the Woman-Wind” by 宋玉 Song Yu 298-263 BCE in Scroll 13 of 文選 Wen Xuan (Waley 1919, p. 42)	3000581
+3000582	称其位	稱其位	chēng qí wèi	equal in position	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱其位', p. 50)	3000582
+3000583	称旨	稱旨	chēng zhǐ	in accordance with imperial command	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱旨', p. 50)	3000583
+3000584	不称其识	不稱其識	bù chēng qí shí	not able to perform the requirements of a position	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '不稱其識', p. 50)	3000584
+3000585	称货	稱貨	chēnghuò	to loan	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱貨', p. 50)	3000585
+3000586	相去万余里	相去萬餘里	xiāng qù wàn yú lǐ	each in a different corner of the World	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From the 古詩十九首 “Collection of Nineteen Old Poems” by 枚乘 Mei Cheng d. 140 BCE in Scroll 29 of 文選 Wen Xuan (Waley 1919, p. 59)	3000586
