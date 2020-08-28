@@ -1,29 +1,29 @@
 # Copyright Fo Guang Shan 佛光山 2013-2020. May be reused under the Creative Commons Attribution-Share Alike 3.0 License (CCASE 3.0), https://creativecommons.org/licenses/by-sa/3.0/
 5000002	你在添上几个	你在添上幾個	nǐ zài tiān shàng jǐ gè	add on a few more	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	5000002
 5000003	给他加上一块钱	給他加上一塊錢	gěi tā jiā shàng yī kuài qián	give him one a few moe dollars	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Giles 1873, p. 1)	5000003
-5000004	核心力量	\N	héxīn lìliang	the force at the core	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 2)	5000004
-5000005	战胜帝国主义	戰勝帝國主義	zhànshèng dìguózhǔyì	defeat imperialism	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 2)	5000005
-5000006	领导核心	領導核心	lǐngdǎo héxīn	core of the leadership	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 4)	5000006
-5000007	战胜敌人	戰勝敵人	zhànshèng dírén	defeat the enemy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 6)	5000007
-5000008	革命运动	革命運動	gémìng yùndòng	revolutionary movement	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 6)	5000008
-5000009	实行政策	實行政策	shíxíng zhèngcè	carrying out a policy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 10)	5000009
-5000010	盲目行动	盲目行動	mángmù xíngdòng	act blindly	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 12)	5000010
-5000011	迷失方向	\N	míshī fāngxiàng	lose our bearings	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 12)	5000011
-5000012	左右摇摆	左右搖擺	zuǒyòu yáobǎi	vacillate to the left and the right	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 14)	5000012
-5000013	地主阶级	地主階級	dìzhǔ jiējí	landlord class	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 18)	5000013
-5000014	历史舞台	歷史舞臺	lìshǐ wǔtái	the stage of history	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 22)	5000014
-5000015	寸土必争	寸土必爭	cùn tǔ bì zhēng	fight for every inch of land	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 22)	5000015
-5000016	革命斗争	革命鬥爭	gémìng dòuzhēng	revolutionary struggle	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 24)	5000016
-5000017	反革命派	\N	fǎngémìngpài	counter-revolutionary	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 26)	5000017
-5000018	提出问题	提出問題	tíchū wèntí	raise a problem	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 30)	5000018
-5000019	帝国主义者	帝國主義者	dìguózhǔyìzhě	imperialist	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 32)	5000019
-5000020	社会主义制度	社會主義制度	shèhuìzhǔyì zhìdù	socialist system	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 36)	5000020
-5000021	思想斗争	思想鬥爭	sīxiǎng dòuzhēng	ideological struggle	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 36)	5000021
-5000022	普遍真理	\N	pǔbiàn zhēnlǐ	universal truth	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 38)	5000022
-5000023	资本主义制度	資本主義制度	zīběnzhǔyì zhìdù	capitalist system	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 46)	5000023
-5000024	经济战线	經濟戰線	jīngjì zhànxiàn	economic front	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Mao Zedong 1966, p. 52)	5000024
-5000025	历史时期	歷史時期	lìshǐ shíqī	historic period	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 52)	5000025
-5000026	现代工业	現代工業	xiàndài gōngyè	modern industry	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, p. 54)	5000026
+5000004	核心力量	\N	héxīn lìliang	the force at the core	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 2)	5000004
+5000005	战胜帝国主义	戰勝帝國主義	zhànshèng dìguózhǔyì	defeat imperialism	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 2)	5000005
+5000006	领导核心	領導核心	lǐngdǎo héxīn	core of the leadership	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 4)	5000006
+5000007	战胜敌人	戰勝敵人	zhànshèng dírén	defeat the enemy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 6)	5000007
+5000008	革命运动	革命運動	gémìng yùndòng	revolutionary movement	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 6)	5000008
+5000009	实行政策	實行政策	shíxíng zhèngcè	carrying out a policy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 10)	5000009
+5000010	盲目行动	盲目行動	mángmù xíngdòng	act blindly	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 12)	5000010
+5000011	迷失方向	\N	míshī fāngxiàng	lose our bearings	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 12)	5000011
+5000012	左右摇摆	左右搖擺	zuǒyòu yáobǎi	vacillate to the left and the right	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 14)	5000012
+5000013	地主阶级	地主階級	dìzhǔ jiējí	landlord class	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 18)	5000013
+5000014	历史舞台	歷史舞臺	lìshǐ wǔtái	the stage of history	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 22)	5000014
+5000015	寸土必争	寸土必爭	cùn tǔ bì zhēng	fight for every inch of land	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 22)	5000015
+5000016	革命斗争	革命鬥爭	gémìng dòuzhēng	revolutionary struggle	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 24)	5000016
+5000017	反革命派	\N	fǎngémìngpài	counter-revolutionary	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 26)	5000017
+5000018	提出问题	提出問題	tíchū wèntí	raise a problem	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 30)	5000018
+5000019	帝国主义者	帝國主義者	dìguózhǔyìzhě	imperialist	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 32)	5000019
+5000020	社会主义制度	社會主義制度	shèhuìzhǔyì zhìdù	socialist system	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 36)	5000020
+5000021	思想斗争	思想鬥爭	sīxiǎng dòuzhēng	ideological struggle	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 36)	5000021
+5000022	普遍真理	\N	pǔbiàn zhēnlǐ	universal truth	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 38)	5000022
+5000023	资本主义制度	資本主義制度	zīběnzhǔyì zhìdù	capitalist system	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 46)	5000023
+5000024	经济战线	經濟戰線	jīngjì zhànxiàn	economic front	phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 52)	5000024
+5000025	历史时期	歷史時期	lìshǐ shíqī	historic period	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 52)	5000025
+5000026	现代工业	現代工業	xiàndài gōngyè	modern industry	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, p. 54)	5000026
 5000027	一个幽灵在欧洲游荡	一個幽靈在歐洲遊蕩	yī gè yōulíng zài Ōuzhōu yóudàng	Ein Gespenst geht um in Europa.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	The opening sentence of Marx and Engels' Communist Manifesto (CC-CEDICT '一個幽靈在歐洲遊蕩')	5000027
 5000028	都什么年代了	都什麼年代了	dōu shénme niándài le	What decade are you living in? / That's so out-of-date!	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '都什麼年代了')	5000028
 5000029	钱是万恶之源	錢是萬惡之源	qián shì wànè zhī yuán	Money is the root of all evil.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '錢是萬惡之源')	5000029
@@ -183,10 +183,10 @@
 5000183	麻批	\N	má pī	a strand of hemp	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '批')	5000183
 5000184	一批旅客	\N	yī pī lǚkè	a group of tourists	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '批')	5000184
 5000185	批木材	\N	pī mùcái	a pile of timber	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '批')	5000185
-5000186	旧社会	舊社會	jiù shèhuì	old society	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 54-55)	5000186
-5000187	严重的问题	嚴重的問題	yánzhòng de wèntí	serious problem	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 56-57)	5000187
-5000188	党的领导下	黨的領導下	dǎng de lǐngdǎo xià	under the leadership of the Party	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 56-57)	5000188
-5000189	革命将要胜利	革命將要勝利	gémìng jiāngyào shènglì	approaching triumph of the revolution	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 60-61)	5000189
+5000186	旧社会	舊社會	jiù shèhuì	old society	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 54-55)	5000186
+5000187	严重的问题	嚴重的問題	yánzhòng de wèntí	serious problem	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 56-57)	5000187
+5000188	党的领导下	黨的領導下	dǎng de lǐngdǎo xià	under the leadership of the Party	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 56-57)	5000188
+5000189	革命将要胜利	革命將要勝利	gémìng jiāngyào shènglì	approaching triumph of the revolution	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 60-61)	5000189
 5000190	好前程	\N	hǎoqiánchéng	a bright future	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '好前程', p. 47)	5000190
 5000191	红军不怕远征难	紅軍不怕遠征難	Hóng Jūn bù pà yuǎn zhēng nán	of the trying long march the Red Army makes light	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	From 七律長征 Seven Character Regular Verse: The Long March (Mao Zedong 2020, <i>Illustrated Poems of Mao Zedong</i>, trans. by Xu Yuanchon, p. loc. 468)	5000191
 5000192	万水千山只等闲	萬水千山只等閒	wàn shuǐ qiān shān zhī děngxián	thousands of rivers and mountains are barriers slight	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 七律長征 Seven Character Regular Verse: The Long March (Mao Zedong 2020, <i>Illustrated Poems of Mao Zedong</i>, trans. by Xu Yuanchon, p. loc. 468)	5000192
@@ -232,18 +232,18 @@
 5000232	城市生活	\N	chéngshì shēnghuó	city life	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '城市生活', p. 49)	5000232
 5000233	城里关外	城裡關外	chénglǐ guānwài	city and outside area	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '城裡關外', p. 49)	5000233
 5000234	城门口	城門口	chéngmén kǒu	city gate entrance	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '城門口', p. 49)	5000234
-5000235	从一开始	從一開始	cóng yī kāishǐ	from the very beginning	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 62-63)	5000235
-5000236	政治的斗争	政治的鬥爭	zhèngzhì de dòuzhēng	political struggle	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 62-63)	5000236
+5000235	从一开始	從一開始	cóng yī kāishǐ	from the very beginning	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 62-63)	5000235
+5000236	政治的斗争	政治的鬥爭	zhèngzhì de dòuzhēng	political struggle	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 62-63)	5000236
 5000237	城头	城頭	chéng tóu	top of the wall	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '城頭', p. 49)	5000237
 5000238	最近几年	最近幾年	zuìjìn jǐnián	the last few years / last several years / recent years	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '最近幾年')	5000238
 5000239	知识越多越反动	知識越多越反動	zhīshi yuè duō yuè fǎndòng	the more knowledgeable, the more reactionary	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	An anti-intellectual slogan attributed after the event to the Gang of Four 四人帮 (CC-CEDICT '知識越多越反動')	5000239
-5000240	到处出现	到處出現	dàochù chūxiàn	springing up everywhere	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 64-65)	5000240
-5000241	富裕中农	富裕中農	fùyù zhōngnóng	well to-do middle peasants	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 64-65)	5000241
+5000240	到处出现	到處出現	dàochù chūxiàn	springing up everywhere	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 64-65)	5000240
+5000241	富裕中农	富裕中農	fùyù zhōngnóng	well to-do middle peasants	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 64-65)	5000241
 5000242	贫农	貧農	pín nóng	poor peasant	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '貧農'; Mao Zedong 1966, pp. 64-65)	5000242
-5000243	一天一天	\N	yī tiān yī tiān	day by day	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 64-65)	5000243
-5000244	解决困难	解決困難	jiějué kùnnan	overcome their difficulties	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 64-65)	5000244
-5000245	新的基础	新的基礎	xīn de jīchǔ	a new basis	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 66-67)	5000245
-5000246	工人和农民的联盟	工人和農民的聯盟	gōngrén hé nóngmín de liánméng	worker-peasant alliance	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 66-67)	5000246
+5000243	一天一天	\N	yī tiān yī tiān	day by day	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 64-65)	5000243
+5000244	解决困难	解決困難	jiějué kùnnan	overcome their difficulties	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 64-65)	5000244
+5000245	新的基础	新的基礎	xīn de jīchǔ	a new basis	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 66-67)	5000245
+5000246	工人和农民的联盟	工人和農民的聯盟	gōngrén hé nóngmín de liánméng	worker-peasant alliance	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 66-67)	5000246
 5000247	毛塑像	\N	máo sùxiàng	statue of Mao	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	See 毛泽东 (CC-CEDICT '毛塑像')	5000247
 5000248	秤到准	秤到準	chèng dào zhǔn	to weigh accurately	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '秤到準', p. 50)	5000248
 5000249	灰濛濛	\N	huī méngméng	gray mist	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '灰濛濛')	5000249
@@ -251,7 +251,7 @@
 5000251	称算	稱算	chēng suàn	to estimate the amount of	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱算', p.50)	5000251
 5000252	称一称	稱一稱	chēng yī chēng	to measure the weight	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱一稱', p. 50)	5000252
 5000253	统筹兼顾	統籌兼顧	tǒng chóu jiān gù	an overall plan taking into account all factors	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '統籌兼顧'; Mao Zedong 1966, pp. 68-69)	5000253
-5000254	千万不要	千萬不要	qiān wàn bú yào	we must never	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mao Zedong 1966, pp. 68-69)	5000254
+5000254	千万不要	千萬不要	qiān wàn bú yào	we must never	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 68-69)	5000254
 5000255	称货	稱貨	chēng huò	to weigh goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱貨', p. 50)	5000255
 5000256	称进	稱進	chēng jìn	to weigh incoming goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱進', p. 50)	5000256
 5000257	称出	稱出	chēng chū	to weigh outgoing goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱出', p. 50)	5000257
