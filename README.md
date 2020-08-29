@@ -599,7 +599,8 @@ existing named ports that other apps in the cluster may be depending on.
 
 Add a firewall rule to allow the load balancer to reach the managed instance
 group.
-```
+
+```shell
 FW_RULE_NAME=cnotes-allow-lb
 gcloud compute firewall-rules create $FW_RULE_NAME \
     --allow tcp:$PORT \
@@ -607,15 +608,16 @@ gcloud compute firewall-rules create $FW_RULE_NAME \
 ```
 
 Add a health check
-```
+
+```shell
 HEALTH_CHECK_NAME=cnotes-app-check
 gcloud compute health-checks create http $HEALTH_CHECK_NAME --port=$PORT \
      --request-path=/healthcheck/
 ```
 
 Configure the load balancer backend service
-```
 
+```shell
 BACKEND_NAME=cnotes-backend-prod
 gcloud compute backend-services create $BACKEND_NAME \
      --protocol HTTP \
@@ -632,15 +634,16 @@ gcloud compute backend-services update $BACKEND_NAME \
     --port-name=$PORTNAME
 ```
 
-Configure the backend bucket
+Configure a backend bucket
 
-```
+```shell
 BACKEND_BUCKET=cnotes-web-bucket-prod
 gcloud compute backend-buckets create $BACKEND_BUCKET --gcs-bucket-name $BUCKET
 ```
 
 Configure the load balancer
-```
+
+```shell
 URL_MAP=cnotes-map-prod
 gcloud compute url-maps create $URL_MAP \
     --default-backend-bucket $BACKEND_BUCKET

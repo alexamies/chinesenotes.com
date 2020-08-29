@@ -1,31 +1,4 @@
 #!/bin/sh
 # Copy and tar static files for end to end test
-cp ../config.yaml .
-mkdir static
-mkdir data
-cp ../data/words.txt data/.
-cp ../data/translation_memory_literary.txt data/.
-cp ../data/translation_memory_modern.txt data/.
-cp ../data/modern_named_entities.txt data/.
-cp ../web-staging/advanced_search.html static/.
-cp ../web-staging/index.html static/.
-cp ../web-staging/idioms.html static/.
-cp ../web-staging/texts.html static/.
-cp ../web-staging/xiyouji.html static/.
-cp ../web-staging/*.css static/.
-mkdir static/xiyouji
-cp ../web-staging/xiyouji/xiyouji001.html static/xiyouji/.
-mkdir static/words
-cp ../web-staging/words/555.html static/words/.
-cp ../web-staging/words/6396.html static/words/.
-cp ../web-staging/words/24883.html static/words/.
-cp ../web-staging/words/74517.html static/words/.
-mkdir static/dist
-cp ../web-staging/dist/*.css static/dist/.
-cp ../web-staging/dist/*.js static/dist/.
-cp ../web-staging/dist/*.json static/dist/.
-mkdir static/images
-cp ../web-staging/images/*.png static/images/.
-mkdir static/script
-cp ../web-staging/script/*.js static/script/.
-
+WEB_DIR=web-staging
+gsutil -m -h "Cache-Control:public,max-age=3600" rsync -a public-read -d -r $WEB_DIR gs://$BUCKET
