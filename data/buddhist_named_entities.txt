@@ -919,3 +919,23 @@
 7000919	释慧静	釋慧靜	Shì Huì Jìng	Hui Jing	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Eastern Jin monk from Shandong mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (FGDB '慧靜')	7000919
 7000920	智顺	智順	Zhìshùn	Zhishun / Shi Zhishun	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	A monastic mentioned in the Biographies of Eminent Monks, Scroll 08《高僧傳》卷第八 (FGDB '智順')	7000920
 7000921	僧盛	\N	Sēngshèng	Sengsheng / Shi Sengsheng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	A monastic mentioned in the Biographies of Eminent Monks, Scroll 08《高僧傳》卷第八 (FGDB '僧盛')	7000921
+7000922	婆素跋陀	\N	pósùbátuó 	Vasubhadra	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Buddhist monastic who translated texts  that are included in the Chinese Buddhist canon (KDC 1019; T 1505)	7000922
+7000923	惠远寺	惠遠寺	huìyuǎnsì	Huiyuan Monastery	proper noun	寺庙	Temple	佛教	Buddhism	中国	China	\N	\N	In Dawu County 道孚县, Garze Tibetan autonomous prefecture, Sichuan (CC-CEDICT '惠遠寺')	7000923
+7000924	西来寺	西來寺	Xīlái Sì	Hsilai Temple	proper noun	寺院	Monastery	佛教	Buddhism	佛光山	Fo Guang Shan	\N	\N	Web site: http://www.hsilai.org (FGDB '西來寺'; Wikipedia '西来寺 (美国)')	7000924
+7000925	红螺寺	紅螺寺	hóngluó sì	Hongluo Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	huangluo3_med.jpg	hong2luo2si4.mp3	Historic Pure Land temple located in the Huirou area of Beijing (Wikipedia '红螺寺')	7000925
+7000926	普陀	\N	pǔtuó	Putuo Mountain	proper noun	寺院	Monastery	佛教	Buddhism	\N	\N	\N	pu3tuo2.mp3	Short for 普陀山 (CC-CEDICT '普陀'; Guoyu '普陀')	7000926
+7000927	卧佛寺	臥佛寺	Wòfó Sì	Wofo Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the Haidian District, Beijing (Wikipedia '卧佛寺')	7000927
+7000928	慈善寺	\N	Císhàn Sì	Cishan Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the Shijingshan District, Beijing (Wikipedia '慈善寺 (北京)')	7000928
+7000929	灵光寺	靈光寺	Língguāng Sì	Lingguang Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the Western Hills, Beijing (Wikipedia '灵光寺 (北京)')	7000929
+7000930	龙华寺	龍華寺	Lónghuà Sì	Longhua Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the Longhua District, Shanghai (Wikipedia '龙华寺 (上海)')	7000930
+7000931	玉佛寺	\N	Yùfó Sì	Yufo Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the Putuo District of Shanghai (Wikipedia '玉佛寺 (上海)')	7000931
+7000932	大悲禅寺	大悲禪寺	Dàbēi Chán Sì	Dabei Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the Hebei District, Tianjin (Wikipedia '大悲禅院')	7000932
+7000933	独乐寺	獨樂寺	Dúlè Sì	Dule Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Ji County, Tianjin (Wikipedia '独乐寺')	7000933
+7000934	罗汉寺	羅漢寺	Luóhàn Sì	Luohan Temple / Arhat Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Chongqing (Wikipedia '罗汉寺 (重庆市)')	7000934
+7000935	慈云寺	慈雲寺	Cíyún Sì	Ciyun Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '慈雲寺')	7000935
+7000936	极乐寺	極樂寺	Jílè Sì	Jile Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '极乐寺')	7000936
+7000937	般若寺	般若寺	Bōruò Sì	Boruo Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '般若寺 (长春市)')	7000937
+7000938	警玄	\N	jǐngxuán	Jingxuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	943-1027; Monk from Hubei (BSAD '警玄', ID A004661; FGDB '警玄')	7000938
+7000939	大阳警玄	大陽警玄	dàyáng jǐngxuán	Dayang Jingxuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 警玄 (BSAD '警玄', ID A004661)	7000939
+7000940	大阳	大陽	dàyáng	Dayang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 警玄 (BSAD '警玄', ID A004661)	7000940
+7000941	招提寺	\N	Zhāotí Sì	Zhaoti Temple / White Horse Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	In Luoyang (FGDB '大招提')	7000941
