@@ -623,3 +623,5 @@
 3000623	遂迷	\N	suì mí	got lost	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the poem 桃花源記 “Peach Blossom Shangri-la” by 陶淵明 Tao Yuanming 365-427 in Scroll 6 of 陶淵明集 Tao Yuanming Collected Poems (Tao Yuan Ming, Davis, and Steelman tr. 2008)	3000623
 3000624	不复得路	不復得路	bù fù dé lù	never again found the way	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the poem 桃花源記 “Peach Blossom Shangri-la” by 陶淵明 Tao Yuanming 365-427 in Scroll 6 of 陶淵明集 Tao Yuanming Collected Poems (reworded from Tao Yuan Ming, Davis, and Steelman tr. 2008)	3000624
 3000625	高尚士	\N	gāoshàng shì	a noble person	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the poem 桃花源記 “Peach Blossom Shangri-la” by 陶淵明 Tao Yuanming 365-427 in Scroll 6 of 陶淵明集 Tao Yuanming Collected Poems (reworded from Tao Yuan Ming, Davis, and Steelman tr. 2008)	3000625
+3000626	惩戒案	懲戒案	chéngjiè àn	a case requiring discipline	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲戒案', p. 50)	3000626
+3000626	惩戒处分	懲戒處分	chéngjièchǔfèn	discipline of officials	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲戒處分', p. 50)	167282

@@ -949,14 +949,25 @@
 7000949	摩腾	摩騰	móténg	Kasyapamatanga	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	One of the first Indian monks to travell to China, sometime in the Eastern Han (BSAD '攝摩騰', ID A000883)	7000949
 7000950	鹫峰	鷲峰	Jiù Fēng	Gṛdhrakūtaparvata / Grdhrakuta / Gṛdhrakūṭa / Gijjha-kūta / Vulture Peak	proper noun	地名	Place Name	佛教	Buddhism	古印度	Ancient India	\N	\N	See 靈鷲山 (FGDB '耆闍崛山')	7000950
 7000951	灵鹫山	靈鷲山	Língjiù Shān	Gṛdhrakūtaparvata / Grdhrakuta / Gṛdhrakūṭa / Gijjha-kūta / Vulture Peak	proper noun	地名	Place Name	佛教	Buddhism	古印度	Ancient India	\N	\N	Sanskrit gṛdhrakūṭa / gṛdhrakūtaparvata, Pali Gijjhakūṭa / Gijjhakūṭapabbata, Japanese: Ryōjusen; literally gṛdhra 'vulture' + kūṭa 'peak'. A mountain range in Central India northeast of Rajgir, the capital of Magadha.  It is mentioned in Buddhist texts (BL, 'Gṛdhrakūtaparvata'; FGDB '靈鷲山'; FGDB '耆闍崛山'; MW 'gṛdhrakūṭa').	7000951
-7000952	查得欧寺	查得歐寺	Chá Dé Ōu Sì	Wat Chedi Chet Thaeo Temple	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in the Si Satchanalai Historical Park (Wikipedia '色果查姆寺')	7000952
-7000953	距昌隆寺	\N	Jùchānglóng Sì	Wat Chang Lom Temple	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in the Sukhothai Historical Park (Wikipedia '泰国寺庙列表')	7000953
-7000954	碧邁佛塔	碧迈佛塔	Bìmài Fótǎ	Prasat Hin Phimai Tower	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	(Wikipedia '披邁石宮')	7000954
-7000955	吴哥窟	吳哥窟	Wúgē kū	Angkor Wat	proper noun	寺院	Monastery	历史	History	柬埔寨	Cambodia	\N	\N	Temple complex in Cambodia (Wikipedia '吴哥窟')	7000955
-7000956	占萨末旦维寺	占薩末旦維寺	zhànsàmòdànwéi sì	Wat Chamathewi / Wat Ku Kut	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	\n	7000956
-7000957	库库特寺	庫庫特寺	kùkùté sì	Wat Chamathewi / Wat Ku Kut	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	\N	7000957
-7000958	帕侬荣寺	帕儂榮寺	pànóngróng sì	Prasat Phanom Rung	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	(Wikipedia '比里·帕侬荣')	7000958
+7000952	查得欧寺	查得歐寺	Chá Dé Ōu Sì	Wat Chedi Chet Thaeo Temple	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in the Si Satchanalai Historical Park (FGS Encyclopedia of Buddhist Arts; Wikipedia '色果查姆寺')	7000952
+7000953	距昌隆寺	\N	Jùchānglóng Sì	Wat Chang Lom Temple	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in the Sukhothai Historical Park (FGS Encyclopedia of Buddhist Arts; Wikipedia '泰国寺庙列表')	7000953
+7000954	碧邁佛塔	碧迈佛塔	Bìmài Fótǎ	Prasat Hin Phimai Tower	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	(FGS Encyclopedia of Buddhist Arts; Wikipedia '披邁石宮')	7000954
+7000955	吴哥窟	吳哥窟	Wúgē kū	Angkor Wat	proper noun	寺院	Monastery	历史	History	柬埔寨	Cambodia	\N	\N	Temple complex in Cambodia (FGS Encyclopedia of Buddhist Arts; Wikipedia '吴哥窟')	7000955
+7000956	占萨末旦维寺	占薩末旦維寺	zhànsàmòdànwéi sì	Wat Chamathewi / Wat Ku Kut	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	(FGS Encyclopedia of Buddhist Arts)	7000956
+7000957	库库特寺	庫庫特寺	kùkùté sì	Wat Chamathewi / Wat Ku Kut	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	(FGS Encyclopedia of Buddhist Arts)	7000957
+7000958	帕侬荣寺	帕儂榮寺	pànóngróng sì	Prasat Phanom Rung	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	(Wikipedia '比里·帕侬荣', FGS Encyclopedia of Buddhist Arts)	7000958
 7000959	宝通寺	寶通寺	bǎotōng sì	Baotong Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '宝通寺')	7000959
 7000960	开福寺	開福寺	Kāifú Sì	Kaifu Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '开福寺')	7000960
 7000961	麓山寺	\N	Lùshān Sì	Lushan Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '麓山寺')	7000961
-7000962	南华寺	南華寺	Nánhuà Sì	Nanhua Temple	proper noun	寺院	Monastery	佛教	Buddhism	广东	Guangdong	\N	\N	The birthplace of Chan Buddhism (Wikipedia '南華寺')	7000962
+7000962	南华寺	南華寺	Nánhuà Sì	Nanhua Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	The birthplace of Chan Buddhism (Wikipedia '南華寺')	7000962
+7000963	光孝寺	\N	Guāngxiào Sì	Guangxiao Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '光孝寺')	7000963
+7000964	六榕寺	\N	Liùróng Sì	Liurong Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '六榕寺')	7000964
+7000965	兴国禅寺	興國禪寺	Xīngguó Chán Sì	Xingguo Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	In Jinan (Wikipedia '兴国禅寺')	7000965
+7000966	湛山寺	\N	Zhànshān Sì	Zhanshan Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '湛山寺', FGS Encyclopedia of Buddhist Arts)	7000966
+7000967	帕萨克寺	帕薩克寺	Pàsàkè sì	Wat Pa Sak	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Chiang Saen (FGS Encyclopedia of Buddhist Arts) 	7000967
+7000968	菩喜罗他那玛哈泰寺	菩喜羅他那瑪哈泰寺	Pú Xǐ Luótānà Mǎhātài Sì	Wat Phra Si Rattana Mahathat	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	(FGS Encyclopedia of Buddhist Arts '菩喜羅他那瑪哈泰寺')	7000968
+7000969	般若流支	\N	bōrěliúzhī	Prajñāruci	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Sixth century monk from Southern India who travelled to China (FGDB '般若流支'; T 2060)	7000969
+7000970	资圣寺	資聖寺	Zīshèng Sì	Zisheng Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Chang'an during the Tang dynasty (Wikipedia '资圣寺')	7000970
+7000971	竺律炎	\N	Zhú Lǜyán	Zhu Luyan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	An Indian monk who traveled to China in the Wu Dynasty and translated texts included in the Chinese Buddhist canon (FGDB '竺律炎'; KDC 998; T 793) 	7000971
+7000972	建初寺	\N	Jiànchū Sì	Jianchu Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Nanjing (FGDB '建初寺')	7000972
+7000973	石涧寺	石澗寺	Shíjiàn Sì	Shijian Temple / Dongshan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Anhui (BSPAD '石澗寺', ID PL000000016333)	7000973

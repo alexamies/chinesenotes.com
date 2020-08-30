@@ -6652,3 +6652,4 @@
 6006652	香港体育馆	香港體育館	xiānggǎng tǐyùguǎn	Hong Kong Coliseum	noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	(Wikipedia '香港體育館')	6006652
 6006653	白日焰火	\N	báirì yànhuǒ	Black Coal, Thin Ice	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	A movie written and directed by 刁亦男 Diao Yinan  (Wikipedia '白日焰火')	6006653
 6006654	刁亦男	\N	diāo yìnán	Diao Yinan	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1968-; Chinese film director (Wikipedia '刁亦男')	6006654
+6006655	惩戒委员会	懲戒委員會	chéngjiè wěiyuánhuì	Board of Discipline	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲戒委員會', p. 50)	6006655

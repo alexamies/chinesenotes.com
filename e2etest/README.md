@@ -25,7 +25,7 @@ tail -f nohup.out
 Build the web app, as per the main README.md instructions
 
 ```shell
-export BUILD_ID=r158
+export BUILD_ID=r159
 gcloud builds submit --config cloudbuild.yaml . \
   --substitutions=_IMAGE_TAG="$BUILD_ID"
 ```
@@ -52,7 +52,8 @@ gcloud run deploy --platform=managed $SERVICE \
 --set-env-vars DBUSER="$DBUSER" \
 --set-env-vars DBPASSWORD="$DBPASSWORD" \
 --set-env-vars DATABASE="$DATABASE" \
---set-env-vars TEXT_BUCKET="$TEXT_BUCKET"
+--set-env-vars TEXT_BUCKET="$TEXT_BUCKET" \
+--set-env-vars CNREADER_HOME="/"
 ```
 
 The output will give the location of the URL that AJAX requests will be sent.
@@ -150,7 +151,7 @@ MATCHER_NAME=[your matcher name]
 gcloud compute url-maps add-path-matcher $URL_MAP \
     --default-backend-bucket $BACKEND_BUCKET \
     --path-matcher-name $MATCHER_NAME \
-    --path-rules="/find/*=$LB_SERVICE,/findadvanced/*=$LB_SERVICE,/findmedia/*=$LB_SERVICE,/findsubstring,/findtm=$LB_SERVICE,/findtm=$LB_SERVICE"
+    --path-rules="/find/*=$LB_SERVICE,/findadvanced/*=$LB_SERVICE,/findmedia/*=$LB_SERVICE,/findsubstring,/findtm=$LB_SERVICE"
 ```
 
 Create a target HTTPS proxy

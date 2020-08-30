@@ -76,28 +76,28 @@
 </ol>
 
 <h4>Contents</h4>
-<ol>
+<ul>
   <li>
    序 Preface
   </li>
   <li>
     卷之一　詩四言 Scroll 1: Four Character Form Poetry
-    <ol>
+    <ul>
       <li>停雲 Lingering Clouds</li>
-      <li>時運 Time Passes By</li>
+      <li>時運 The Passage of Time</li>
       <li>停雲 Lingering Clouds/li>
-      <li>贈長沙公</li>
-      <li>酬丁柴桑</li>
-      <li>答龐參軍</li>
+      <li>贈長沙公 Presented to the Duke of Changsha</li>
+      <li>酬丁柴桑 Toasting Ding Chaiseng</li>
+      <li>答龐參軍 Response to Miltary Aide Pang</li>
       <li>勸農 In Praise of Farm Work</li>
-      <li>贈長沙公族祖</li>
-      <li>命子</li>
-      <li>歸鳥</li>
-    </ol>
+      <li>贈長沙公族祖 To my Relative the Duke of Changsha</li>
+      <li>命子 Life</li>
+      <li>歸鳥 A Returning Bird</li>
+    </ul>
   </li>
   <li>
     卷之二　詩 Scroll 2: Lyric Poetry
-    <ol>
+    <ul>
       <li>形影神 Substance, Shadow, and Spirit</li>
       <li>形贈影 Substance Confers with Shadow</li>
       <li>影答形 Shadow Responds to Substance</li>
@@ -105,11 +105,13 @@
       <li>九日閑居 Nine Days of Rest</li>
       <li>歸園田居 Returning to Live in the Countryside</li>
       <li>遊斜川 Roaming by the Xie River</li>
-      <li>示周續之祖企謝景夷三郎</li>
+      <li>示周續之祖企謝景夷三郎 To the Three Officials Zhou, Xu, and Xie</li>
       <li>乞食 Begging for Food</li>
-      <li>諸人共遊周家墓柏下</li>
-      <li>怨詩楚調示龐主簿鄧治中</li>
-      <li>答龐參軍|答龐參軍|答龐參軍</li>
+      <li>諸人共遊周家墓柏下 Visiting the Graves of the Zhou Family under the
+        Cypress Trees</li>
+      <li>怨詩楚調示龐主簿鄧治中 A Poem in Chu Style Complaining to Registrar Pang
+        and Secretary Deng</li>
+      <li>答龐參軍|答龐參軍|答龐參軍 Response to Military Aide Pang </li>
       <li>五月旦作和戴主簿 Composed on the First Day of the Fifth Month</li>
       <li>連雨獨飲 Drinking Alone on Rainy Days</li>
       <li>移居 Moving House</li>
@@ -117,16 +119,17 @@
       <li>和郭主簿 With Imperial Official Guo</li>
       <li>酬劉柴桑 In Response to Liu Chaisang</li>
       <li>於王撫軍座送客 Visting Captain Wang and Seeing Off a Guest</li>
-      <li>與殷晉安別</li>
-      <li>贈羊長史</li>
-      <li>歲暮和張常侍</li>
-      <li>和胡西曹示顧賊曹</li>
-      <li>悲從弟仲德</li>
-    </ol>
+      <li>與殷晉安別 Farewell to Yin Jin'an</li>
+      <li>贈羊長史 To Chief Yang</li>
+      <li>歲暮和張常侍 Year End Poem to Attendant Zhang</li>
+      <li>和胡西曹示顧賊曹 Response to a Poem by Secretary Hu, Addressed to
+        Secretary Gu</li>
+      <li>悲從弟仲德 Grieving for my Younger Cousin Zhong De</li>
+    </ul>
   </li>
   <li>
     卷之三　詩五言 Scroll 3: Five Character Form Poetry
-    <ol>
+    <ul>
       <li>始作鎮軍參軍經曲阿</li>
       <li>庚子歲五月中從都還阻風於規林</li>
       <li>辛丑歲七月赴假還江陵夜行塗口</li>
@@ -143,11 +146,11 @@
       <li>責子 Blaming Sons</li>
       <li>有會而作</li>
       <li>蜡日</li>
-    </ol>
+    </ul>
   </li>
   <li>
     卷之四　詩五言 Scroll 4: Five Character Form Poetry
-    <ol>
+    <ul>
       <li>擬古 Emulating a Classic</li>
       <li>雜詩 Miscellaneous Poetry</li>
       <li>詠貧士 Eulogy: A Poor Person</li>
@@ -157,19 +160,19 @@
       <li>讀山海經 Reading the Classic of Mountains and Seas</li>
       <li>擬挽歌辭</li>
       <li>聯句 A String of Words</li>
-    </ol>
+    </ul>
   </li>
   <li>
     卷之五　賦辭 Scroll 5: Fu Poems
-    <ol>
+    <ul>
       <li>感士不遇賦</li>
       <li>閑情賦</li>
       <li>歸去來兮辭 Song of the Return Home</li>
-   </ol>
+   </ul>
   </li>
   <li>
     卷之六　記傳贊述 Scroll 6: Narration on History and Biography
-    <ol>
+    <ul>
       <li>桃花源記 Peach Blossom Shangri-la</li>
       <li>晉故征西大將軍長史孟府君傳</li>
       <li>五柳先生傳 Gentleman of the Five Willow Trees</li>
@@ -185,14 +188,15 @@
       <li>韓非 Han Fei</li>
       <li>魯二儒</li>
       <li>張長公</li>
-    </ol>
+    </ul>
   </li>
   <li>
     卷之七　疏祭文  Scroll 7: Memorials
-    <ol>
+    <ul>
       <li>與子儼等疏</li>
       <li>祭程氏妹文</li>
       <li>祭從弟敬遠文</li>
       <li>自祭文 Requiem for Myself</li>
-    </ol>
+    </ul>
   </li>
+</ul>
