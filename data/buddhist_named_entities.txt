@@ -939,3 +939,24 @@
 7000939	大阳警玄	大陽警玄	dàyáng jǐngxuán	Dayang Jingxuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 警玄 (BSAD '警玄', ID A004661)	7000939
 7000940	大阳	大陽	dàyáng	Dayang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 警玄 (BSAD '警玄', ID A004661)	7000940
 7000941	招提寺	\N	Zhāotí Sì	Zhaoti Temple / White Horse Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	In Luoyang (FGDB '大招提')	7000941
+7000942	慈恩寺	\N	Cí ēn Sì	Ci En Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '慈恩寺')	7000942
+7000943	隆兴寺	隆興寺	Lóngxīng Sì	Longxing Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '隆興寺')	7000943
+7000944	少林寺	\N	Shǎolín Sì	Shaolin Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '少林寺')	7000944
+7000945	相国寺	相國寺	xiāngguó Sì	Xiangguo Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the city of Kaifeng (Wikipedia '大相国寺')	7000945
+7000946	归元寺	歸元寺	Guīyuán Sì	Guiyuan Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '归元寺')	7000946
+7000947	归元禅寺	歸元禪寺	Guīyuán Chán Sì	Guiyuan Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '归元寺')	7000947
+7000948	宝通禅寺	寶通禪寺	Bǎotōng Chán Sì	Baotong Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '宝通寺')	7000948
+7000949	摩腾	摩騰	móténg	Kasyapamatanga	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	One of the first Indian monks to travell to China, sometime in the Eastern Han (BSAD '攝摩騰', ID A000883)	7000949
+7000950	鹫峰	鷲峰	Jiù Fēng	Gṛdhrakūtaparvata / Grdhrakuta / Gṛdhrakūṭa / Gijjha-kūta / Vulture Peak	proper noun	地名	Place Name	佛教	Buddhism	古印度	Ancient India	\N	\N	See 靈鷲山 (FGDB '耆闍崛山')	7000950
+7000951	灵鹫山	靈鷲山	Língjiù Shān	Gṛdhrakūtaparvata / Grdhrakuta / Gṛdhrakūṭa / Gijjha-kūta / Vulture Peak	proper noun	地名	Place Name	佛教	Buddhism	古印度	Ancient India	\N	\N	Sanskrit gṛdhrakūṭa / gṛdhrakūtaparvata, Pali Gijjhakūṭa / Gijjhakūṭapabbata, Japanese: Ryōjusen; literally gṛdhra 'vulture' + kūṭa 'peak'. A mountain range in Central India northeast of Rajgir, the capital of Magadha.  It is mentioned in Buddhist texts (BL, 'Gṛdhrakūtaparvata'; FGDB '靈鷲山'; FGDB '耆闍崛山'; MW 'gṛdhrakūṭa').	7000951
+7000952	查得欧寺	查得歐寺	Chá Dé Ōu Sì	Wat Chedi Chet Thaeo Temple	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in the Si Satchanalai Historical Park (Wikipedia '色果查姆寺')	7000952
+7000953	距昌隆寺	\N	Jùchānglóng Sì	Wat Chang Lom Temple	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in the Sukhothai Historical Park (Wikipedia '泰国寺庙列表')	7000953
+7000954	碧邁佛塔	碧迈佛塔	Bìmài Fótǎ	Prasat Hin Phimai Tower	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	(Wikipedia '披邁石宮')	7000954
+7000955	吴哥窟	吳哥窟	Wúgē kū	Angkor Wat	proper noun	寺院	Monastery	历史	History	柬埔寨	Cambodia	\N	\N	Temple complex in Cambodia (Wikipedia '吴哥窟')	7000955
+7000956	占萨末旦维寺	占薩末旦維寺	zhànsàmòdànwéi sì	Wat Chamathewi / Wat Ku Kut	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	\n	7000956
+7000957	库库特寺	庫庫特寺	kùkùté sì	Wat Chamathewi / Wat Ku Kut	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	\N	7000957
+7000958	帕侬荣寺	帕儂榮寺	pànóngróng sì	Prasat Phanom Rung	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	(Wikipedia '比里·帕侬荣')	7000958
+7000959	宝通寺	寶通寺	bǎotōng sì	Baotong Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '宝通寺')	7000959
+7000960	开福寺	開福寺	Kāifú Sì	Kaifu Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '开福寺')	7000960
+7000961	麓山寺	\N	Lùshān Sì	Lushan Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(Wikipedia '麓山寺')	7000961
+7000962	南华寺	南華寺	Nánhuà Sì	Nanhua Temple	proper noun	寺院	Monastery	佛教	Buddhism	广东	Guangdong	\N	\N	The birthplace of Chan Buddhism (Wikipedia '南華寺')	7000962

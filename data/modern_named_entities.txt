@@ -6650,3 +6650,5 @@
 6006650	纪律检查委员会	紀律檢查委員會	Jìlǜ jiǎnchá wěiyuánhuì	Central Commission for Discipline Inspection	phrase	\N	\N	政治	Politics	中国	China	\N	\N	Of the CCP (Wikipedia '中国共产党纪律检查机关')	6006650
 6006651	法轮功	法輪功	fǎlúngōng	Falun Gong	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	Regarded as a cult by the PRC government (CC-CEDICT '法輪功')	6006651
 6006652	香港体育馆	香港體育館	xiānggǎng tǐyùguǎn	Hong Kong Coliseum	noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	(Wikipedia '香港體育館')	6006652
+6006653	白日焰火	\N	báirì yànhuǒ	Black Coal, Thin Ice	proper noun	电影	Movie	戏剧	Drama	中国	China	\N	\N	A movie written and directed by 刁亦男 Diao Yinan  (Wikipedia '白日焰火')	6006653
+6006654	刁亦男	\N	diāo yìnán	Diao Yinan	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1968-; Chinese film director (Wikipedia '刁亦男')	6006654

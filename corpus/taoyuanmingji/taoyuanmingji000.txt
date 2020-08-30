@@ -6,7 +6,7 @@
 </p>
 
 <h4>English translations</h4>
-<p>
+<ol>
   <li>
     Acker William trans. 1952, <i>T'ao the Hermit: Sixty Poems by T'ao
     Ch'ien</i>, London: Thames and Hudson.
@@ -49,6 +49,12 @@
     自祭文 Requiem for Myself.
   </li>
   <li>
+    Tao Yuan Ming, Rick Davis, and David Steelman translators 2008,
+    <i>Peach Blossom Shangri-la</i>, Project Gutenburg, 
+    <a href='https://www.gutenberg.org/ebooks/2090'
+    >https://www.gutenberg.org/ebooks/2090</a>.
+  </li>
+  <li>
     Yang , Gladys and Yang Xianyi, trans. 1993, <i>Tao Yuanming: Selected
     Poems</i>, Beijing: Chinese Literature Press.
   </li>
@@ -59,7 +65,7 @@
     >https://en.wikisource.org/wiki/A_Hundred_and_Seventy_Chinese_Poems</a>.
     Translation of selected poems, pp. 103-116.
   </li>
-</p>
+</ol>
 
 <h4>Discussion</h4>
 <ol>
@@ -164,7 +170,7 @@
   <li>
     卷之六　記傳贊述 Scroll 6: Narration on History and Biography
     <ol>
-      <li>桃花源記 Memories of Garden of the Peaches of Immortality</li>
+      <li>桃花源記 Peach Blossom Shangri-la</li>
       <li>晉故征西大將軍長史孟府君傳</li>
       <li>五柳先生傳 Gentleman of the Five Willow Trees</li>
       <li>扇上畫贊</li>
