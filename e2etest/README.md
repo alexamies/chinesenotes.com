@@ -25,7 +25,7 @@ tail -f nohup.out
 Build the web app, as per the main README.md instructions
 
 ```shell
-export BUILD_ID=r159
+export BUILD_ID=r160
 gcloud builds submit --config cloudbuild.yaml . \
   --substitutions=_IMAGE_TAG="$BUILD_ID"
 ```

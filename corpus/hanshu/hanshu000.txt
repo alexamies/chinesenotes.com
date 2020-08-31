@@ -1,11 +1,12 @@
-<h4>Source<h4>
+<h4>Source</h4>
 <p>
+  漢書 Han Shu by Ban Gu at 
   Wikisource, accessed 2018-05-13, <a
    href="https://zh.wikisource.org/wiki/漢書"
   >https://zh.wikisource.org/wiki/漢書</a>.
 </p>
 
-<h4>English translations (partial)<h4>
+<h4>English translations (partial)</h4>
 <ol>
   <li>
     Cullen, Christopher 2017,
@@ -37,8 +38,11 @@
   </li>
 </ol>
 
-<h4>Discussion<h4>
+<h4>Discussion</h4>
 <ol>
+  <li>
+    Lin, C., Peach, T. and Fang, W. eds., 2019. The Political Economy of the Han Dynasty and Its Legacy. Routledge.
+  </li>
   <li>
     Durrant, Stephen 2017, 'Chapter 13: Histories (Shi 史),' in 
     Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford

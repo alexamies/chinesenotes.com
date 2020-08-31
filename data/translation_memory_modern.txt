@@ -259,4 +259,7 @@
 5000259	不彀称	不彀稱	bù gòu chēng	less than full weight	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '不彀稱', p. 50)	5000259
 5000260	没人味儿	沒人味兒	méi rén wèir	to be lacking in human character	phrase	\N	\N	现代汉语	Modern Chinese	方言	Dialect	\N	\N	Erhua variant of 没人味 (CC-CEDICT '沒人味兒')	5000260
 5000261	没有劲头儿	沒有勁頭兒	méiyǒu jìntóur	to have no strength	phrase	\N	\N	现代汉语	Modern Chinese	方言	Dialect	\N	\N	Erhua variant of 没有劲头 (CC-CEDICT '沒有勁頭兒')	5000261
-5000262	擂胸	\N	lèixiōng	to pound [your] chest	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '擂胸'; Guoyu '擂胸'; Wikipedia '擂胸')	5000262
+5000262	擂胸	\N	lèi xiōng	to pound [your] chest	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '擂胸')	5000262
+5000263	惩警	懲警	chéng jǐng	to give a disciplinary caution	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲警', p. 50)	5000263
+5000264	惩责	懲責	chéng zé	to caution	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲責', p. 50)	5000264
+5000265	人民利益	\N	rénmín lìyì	interests of the people	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 72-73; CC-CEDICT '人民利益')	5000265

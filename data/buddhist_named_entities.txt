@@ -866,7 +866,7 @@
 7000866	戒台寺	戒檯寺	jiètáisì	Jietai Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the western outskirts of Beijing (Wikipedia '戒台寺')	7000866
 7000867	潭柘寺	\N	Tánzhè Sì	Tanzhe Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the western outskirts of Beijing (<a href='http://www.tanzhesi.com.cn/'>www.tanzhesi.com.cn</a>, wikipedia '潭柘寺')	7000867
 7000868	法源寺	\N	Fǎyuán Sì	Fayuan Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the Xuanwu District of Beijing (Wikipedia '法源寺 (北京)')	7000868
-7000869	天宁寺	天寧寺	tiānníng Sì	Tianning Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the Guang'anmen area of Beijing (Wikipedia '天宁寺 (北京)')	7000869
+7000869	天宁寺	天寧寺	tiānníng Sì	Tianning Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the Guang'anmen area of Beijing as well as other locatoins (Wikipedia '天宁寺 (北京)')	7000869
 7000870	万佛寺	萬佛寺	Wàn Fó Sì	Wan Fo Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Ji County, Tianjin (Wikipedia '萬佛寺')	7000870
 7000871	妙应寺白塔	妙應寺白塔	Miàoyīng Sì Bái Tǎ	Miaoying Temple White Dagoba	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	A Tibetan temple in the Xisi area of Beijing (Wikipedia '妙应寺白塔')	7000871
 7000872	碧云寺	碧雲寺	bì Yún Sì	Azure Clouds Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Beijing Fragrant Hills area of Beijing (Wikipedia '碧云寺 (北京市)')	7000872
@@ -971,3 +971,28 @@
 7000971	竺律炎	\N	Zhú Lǜyán	Zhu Luyan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	An Indian monk who traveled to China in the Wu Dynasty and translated texts included in the Chinese Buddhist canon (FGDB '竺律炎'; KDC 998; T 793) 	7000971
 7000972	建初寺	\N	Jiànchū Sì	Jianchu Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Nanjing (FGDB '建初寺')	7000972
 7000973	石涧寺	石澗寺	Shíjiàn Sì	Shijian Temple / Dongshan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Anhui (BSPAD '石澗寺', ID PL000000016333)	7000973
+7000974	栖霞寺	\N	Qīxiá Sì	Qixia Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	See 棲霞寺 (FGDB '棲霞寺')	7000974
+7000975	隆昌寺	\N	Lóngchāng Sì	Longchang Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(FGDB '隆昌寺')	7000975
+7000976	江天寺	\N	Jiāngtiān Sì	Jiangtian Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	In the town of Zhenjiang (FGDB '江天寺')	7000976
+7000977	定慧寺	\N	Dìnghuì Sì	Dinghui Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(FGDB '定慧寺')	7000977
+7000978	大觉寺	大覺寺	Dàjué Sì	Dajue Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in the 宜兴 Yixing area (FGDB '大覺寺')	7000978
+7000979	国清寺	國清寺	Guóqīng Sì	Guoqing Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located south of Ningbo (FGDB '國清寺')	7000979
+7000980	灵隐寺	靈隱寺	Língyǐn Sì	Lingyin Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Hangzhou (FGDB '靈隱寺')	7000980
+7000981	净慈寺	淨慈寺	Jìngcí Sì	Jingci Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Hangzhou (FGDB '淨慈寺')	7000981
+7000982	七塔寺	\N	Qītǎ Sì	Seven-Pagoda Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Ningbo (FGDB '七塔寺')	7000982
+7000983	天童寺	\N	Tiāntóng Sì	Tiantong Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Yinxian County (FGDB '天童寺')	7000983
+7000984	明教寺	\N	Míngjiāo Sì	Mingjiao Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Hefei (FGDB '明教寺')	7000984
+7000985	青山禅院	青山禪院	qīngshān chányuàn	Tsing Shan Monastery	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Hong Kong (FGDB '青山禪院'; Wikipedia '青山禪院')	7000985
+7000986	青原山	\N	qīngyuán shān	Qingyuan Shan	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Historic temple, located in present day 吉安 Ji'an in 江西 Jiangxi (FGDB '青原山'; Wikipedia '净居寺 (青原)')	7000986
+7000987	行思	\N	xíngsī	Xingsi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	-740; Tang dynasty Chan master based in 青原山 Qingyuan Shan in 江西 Jiangxi (Ding '行思'; FGDB '行思')	7000987
+7000988	青原行思	\N	qīngyuán xíngsī	Qingyuan Xingsi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 行思 (FGDB '行思')	7000988
+7000989	桂琛	\N	guìchēn	Guichen	proper noun	师父	Monastic	佛教	Buddhism	禅宗	Chan School	\N	\N	867-928 Chan monastic (FGDB '桂琛')	7000989
+7000990	荆溪尊者	荊溪尊者	jīngxī zūnzhě	Elder Jingxi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	711-782; Tang monastic, a patriarch of the Tiantai School, also known as 湛然 (FGDB '荊溪尊者')	7000990
+7000991	憍陈那	憍陳那	jiāochénnà	Kauṇḍinya	proper noun	法师	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 憍陳如 (SH '憍陳如', p. 433)	7000991
+7000992	阿若拘邻	阿若拘鄰	āruò jūlín	Ājñāta Kauṇḍinya	proper noun	法师	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 憍陳如 (SH '憍陳如', p. 433)	7000992
+7000993	阿若憍陈那	阿若憍陳那	āruò jiāochénnà	Ājñāta Kauṇḍinya	proper noun	法师	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 憍陳如 (SH '憍陳如', p. 433)	7000993
+7000994	亲鸾	親鸞	qīnluán	Shinran	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1173–1262; founder of the Jōdo Shinshū sect (Matsuo 2007, p. 8)	7000994
+7000995	日莲	日蓮	rìlián	Nichiren	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1222–1282; founder of the Nichiren-shū sect (Matsuo 2007, p. 8)	7000995
+7000996	清那叻佛陀寺	\N	Qīng Nà Lè Fótuó Sì	Wat Phra Si Rattana Mahathat	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	(FGS Encyclopedia of Buddhist Arts)	7000996
+7000997	森林寺	\N	Sēnlín Sì	Wat Pa Lelai	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	(FGS Encyclopedia of Buddhist Arts)	7000997
+7000998	海珠寺	\N	Hǎizhū sì	Wat Phet Samut / Wat Sri Champa / Wat Ban Laem	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Samut Songkhram, central Thailand (FGS Encyclopedia of Buddhist Arts)	7000998

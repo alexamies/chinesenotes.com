@@ -5,7 +5,7 @@
   >https://zh.wikisource.org/wiki/後漢書</a>.
 </p>
 
-<h4>English translations<h4>
+<h4>English translations</h4>
 <p>
   <li>
     Cullen, Christopher 2018,
@@ -16,8 +16,12 @@
   </li>
 </p>
 
-<h4>Discussion<h4>
+<h4>Discussion</h4>
 <ol>
+  <li>
+    Beck, B M 1990, <i>The Treatises of Later Han: their Author, Sources,
+    Contents, and Place in Chinese Historiography<i>, two Volumes. Brill.
+  </li>
   <li>
     Durrant, Stephen 2017, 'Chapter 13: Histories (Shi 史),' in 
     Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
