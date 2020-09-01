@@ -1,11 +1,22 @@
 <p>Source: Wikisource, accessed 2018-04-21 <a href="https://zh.wikisource.org/wiki/尚書">https://zh.wikisource.org/wiki/尚書</a> </p>
 
-<h4>English translations<h4>
+<h4>English translations</h4>
 <ol>
-  <li>Legge, James 1865, <i>Sacred Books of the East</i>, Vol. III, A translation of the Book of Documents, Classic of History, or Shujing, <a href="https://ctext.org/shang-shu">https://ctext.org/shang-shu</a></li>
+  <li>
+    Legge, James 1865, <i>Sacred Books of the East</i>, Vol. III, A
+    Translation of the Book of Documents, Classic of History, or Shujing,
+    Hong Kong and London: Trubner and Co.,
+    Part I: 
+    <a href ="https://archive.org/details/chineseclassics07legggoog"
+    >https://archive.org/details/chineseclassics07legggoog</a>,
+    Part II:
+    <a href="https://archive.org/details/chineseclassics01minggoog"
+    >https://archive.org/details/chineseclassics01minggoog</a>,
+    also at <a href="https://ctext.org/shang-shu">https://ctext.org/shang-shu</a>
+  </li>
 </ol>
 
-<h4>Discussion<h4>
+<h4>Discussion</h4>
 <p>
   Schaberg, David 2017, 'Chapter 12: Classics (Jing 經),' in 
   Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford

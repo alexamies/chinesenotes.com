@@ -130,7 +130,7 @@
   <li>
     卷之三　詩五言 Scroll 3: Five Character Form Poetry
     <ul>
-      <li>始作鎮軍參軍經曲阿</li>
+      <li>始作鎮軍參軍經曲阿 Composed while Serving as Deputy to Army Adjutant and Passing Through Qu'a</li>
       <li>庚子歲五月中從都還阻風於規林</li>
       <li>辛丑歲七月赴假還江陵夜行塗口</li>
       <li>癸卯歲始春懷古田舍</li>

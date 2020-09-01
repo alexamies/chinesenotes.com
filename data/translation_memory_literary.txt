@@ -624,5 +624,11 @@
 3000624	不复得路	不復得路	bù fù dé lù	never again found the way	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the poem 桃花源記 “Peach Blossom Shangri-la” by 陶淵明 Tao Yuanming 365-427 in Scroll 6 of 陶淵明集 Tao Yuanming Collected Poems (reworded from Tao Yuan Ming, Davis, and Steelman tr. 2008)	3000624
 3000625	高尚士	\N	gāoshàng shì	a noble person	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the poem 桃花源記 “Peach Blossom Shangri-la” by 陶淵明 Tao Yuanming 365-427 in Scroll 6 of 陶淵明集 Tao Yuanming Collected Poems (reworded from Tao Yuan Ming, Davis, and Steelman tr. 2008)	3000625
 3000626	惩戒案	懲戒案	chéngjiè àn	a case requiring discipline	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲戒案', p. 50)	3000626
-3000626	惩戒处分	懲戒處分	chéngjiè chǔfèn	discipline of officials	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲戒處分', p. 50)	167282
-3000627	惩辩	懲辯	chéng biàn	to punish strictly	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲辯', p. 50)	3000627
+3000627	惩戒处分	懲戒處分	chéngjiè chǔfèn	discipline of officials	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲戒處分', p. 50)	167282
+3000628	惩辩	懲辯	chéng biàn	to punish strictly	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲辯', p. 50)	3000628
+3000629	天阴骘	天陰騭	tiān yīn zhì	Heaven, unseen	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (tr. by Legge 1865, Vol III, Part II, p. 320)	3000629
+3000630	鲧堙洪水	鯀堙洪水	gǔnyīnhóngshuǐ	Gun dammed up the inundating waters	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (tr. by Legge 1865, Vol III, Part II, p. 323)	3000630
+3000631	陈其五行	陳其五行	chén qí wǔ xíng	arrangement of the five elements	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (tr. by Legge 1865, Vol III, Part II, p. 323)	3000631
+3000632	帝乃震怒	\N	dì nǎi zhènnù	the supreme ruler was consequently roused to anger	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (reworded from tr. by Legge 1865, Vol III, Part II, p. 323)	3000632
+3000632	九畴	九疇	jiǔ chóu	nine divisions	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (tr. by Legge 1865, Vol III, Part II, p. 323)	3000632
+3000633	嗣兴	嗣興	sì xīng	kept a prisoner till his death	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (tr. by Legge 1865, Vol III, Part II, p. 323)	3000633
