@@ -1055,3 +1055,63 @@
 7001055	法和	\N	Fǎhé	Fahe	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk from Henan who lived in the Former Qin Kingdom, mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (FGDB '法和')	7001055
 7001056	竺僧朗	\N	Zhú Fǎlǎng	Zhu Falang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Jin dynasty monk from Jingtao 京兆, present-day Xi'an, mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (FGDB '竺僧朗')	7001056
 7001057	竺法汰	\N	Zhú Fǎtài	Zhu Fatai	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	320 - 387, Eastern Jin dynasty monk from Shandong, mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (FGDB '竺法汰')	7001057
+7001058	阿若憍怜	阿若憍憐	āruò jiāolián	Ājñāta Kauṇḍinya	proper noun	法师	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 憍陳如 (FGDB '憍陳如')	7001058
+7001059	居邻	居鄰	jūlín	Kauṇḍinya	proper noun	法师	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 憍陳如 (FGDB '憍陳如')	7001059
+7001060	居伦	居倫	jūlún	Kauṇḍinya	proper noun	法师	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 憍陳如 (FGDB '憍陳如')	7001060
+7001061	犊子比丘	犢子比丘	dúzǐ bǐqiū	Elder Vatsa	proper noun	法师	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Founder of the 犢子部 Vātsīputrīyas (FGDB '犢子比丘')	7001061
+7001062	恕中无愠	恕中無慍	shùzhōng wúyùn	Shuzhong Wuyun	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 無慍 (FGDB '恕中無慍')	7001062
+7001063	无愠	無慍	wúyùn	Wuyun	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1309-1386; Ming dynasty monastic; full name 恕中無慍 Shuzhong Wuyun (CC-CEDICT '無慍'; Guoyu '無慍'; Han Dian '无愠'; Wikipedia '無慍')	7001063
+7001064	東嶺円慈	\N	dōnglǐng yuáncí	Tōrei Enji	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1721-1792; Japanese Zen Buddhist monk of the Rinzai tradition; this is the Japanese writing of his name (Wikipedia 'Tōrei Enji')	7001064
+7001065	东岭圆慈	東嶺圓慈	dōnglǐng yuáncí	Tōrei Enji	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	This is the Chinese writing of his name; see 東嶺円慈 (FGDB '五家參詳要路門')	7001065
+7001066	能仁寺	\N	Néngrén Sì	Nengren Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Jiujiang (Wikipedia '能仁寺 (九江市)')	7001066
+7001067	能仁禅寺	能仁禪寺	Néngrén Chán Sì	Nengren Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Jiujiang (Wikipedia '能仁寺 (九江市)')	7001067
+7001068	南普陀寺	\N	Nán Pǔtuó Sì	Nan Putuo Temple / South Putuo Temple	proper noun	寺院	Monastery	佛教	Buddhism	福建	Fujian	\N	\N	Located in Xiamen (Wikipedia '南普陀寺')	7001068
+7001069	涌泉寺	\N	Yǒngquán Sì	Yongquan Temple	proper noun	寺院	Monastery	佛教	Buddhism	福建	Fujian	\N	\N	Located in Fuzhou (Wikipedia '涌泉寺 (福州)')	7001069
+7001070	黄慧音	黃慧音	Huánghuì Yīn	Imee Ooi	proper noun	歌手	Singer	佛教	Buddhism	\N	\N	\N	\N	Buddhist singer (Wikipedia 'Imee Ooi')	7001070
+7001071	文殊院	\N	Wénshū Yuàn	Manjusri Temple	proper noun	寺院	Monastery	佛教	Buddhism	四川	Sichuan	\N	\N	Located in Chengdu (Wikipedia '文殊院')	7001071
+7001072	宝光寺	寶光寺	Bǎoguāng Sì	Baoguang Temple	proper noun	寺院	Monastery	佛教	Buddhism	四川	Sichuan	\N	\N	Located near Chengdu (Wikipedia '宝光寺')	7001072
+7001073	弘福寺	\N	Hóngfú Sì	Hongfu Temple	proper noun	寺院	Monastery	佛教	Buddhism	贵州	Guizhou	\N	\N	Located in Guiyang (Wikipedia '宏福寺')	7001073
+7001074	圆通寺	圓通寺	Yuántōng Sì	Yuantong Temple	proper noun	寺院	Monastery	佛教	Buddhism	云南	Yunnan	\N	\N	Located in Kunming and other locations (Wikipedia '圓通寺')	7001074
+7001075	拉卜楞寺	\N	Lābǔléng Sì	Labrang Monastery	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Tibetan temple (FGDB '拉卜楞寺'; Wikipedia '拉卜楞寺')	7001075
+7001076	证严法师	證嚴法師	zhèngyán fǎshī	Cheng Yen	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 釋證嚴 (Wikipedia '釋證嚴')	7001076
+7001077	云栖	雲棲	yúnqī	Zhu Hong / Master of Yunqi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 袾宏 (FGDB '袾宏')	7001077
+7001078	云栖和尚	雲棲和尚	yúnqī héshàng	Zhu Hong / Master of Yunqi	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 袾宏 (FGDB '袾宏')	7001078
+7001079	印光大师	印光大師	yìnguāng dàshī	Venerable Master Yingguang	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 印光 (Wikipedia '印光大师')	7001079
+7001080	童寿	童壽	tóngshòu	Kumarajiva	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 鳩摩羅什 (FGDB '鳩摩羅什')	7001080
+7001081	星云	星雲	Xīng Yún	Hsing Yun / Venerable Master Hsing Yun	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1927-; Founder of Foguang Shan; born in Jiangsu, China (Wikipedia '釋星雲')	7001081
+7001082	八大人觉经	八大人覺經	Bā Dà Rén Jué Jīng	Sūtra on the Eight Realizations of the Great Beings	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 515; T 779; Hsing Yun and Miao Guang trans. 2016, p. 373)	7001082
+7001083	安清	\N	Ān qīng	An Qing / An Shi Gao	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 安世高 (FGDB '安世高')	7001083
+7001084	弘一	\N	Hóng Yī	Venerable Hong Yi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1880－1942; Chinese monastic (FGDB '弘一')	7001084
+7001085	虚云	虛雲	xū yún	Venerable Xu Yun	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1840－1959 (FGDB '虛雲')	7001085
+7001086	胜利寺	勝利寺	shènglì sì	Wat Chana Songkram	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Bangkok, Thailand (FGS Encyclopedia of Buddhist Arts)	7001086
+7001087	越菩寺	\N	Yuè Pú sì	Wat Pho / Wat Phra Chetuphon	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Thailand (FGS Encyclopedia of Buddhist Arts)	7001087
+7001088	涅盘寺	涅槃寺	Nièpán sì	Wat Pho / Wat Phra Chetuphon	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Thailand (FGS Encyclopedia of Buddhist Arts)	7001088
+7001089	菩提寺	\N	Pútí sì	Wat Pho / Wat Phra Chetuphon	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Thailand (FGS Encyclopedia of Buddhist Arts)	7001089
+7001090	大理石寺	\N	Dàlǐshí sì	Wat Benchamabophit	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Bangkok, Thailand (FGS Encyclopedia of Buddhist Arts)	7001090
+7001091	莱姆寺	萊姆寺	Láimǔ sì	Wat Lem	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Bangkok, Thailand (FGS Encyclopedia of Buddhist Arts)	7001091
+7001092	三峰塔寺	\N	Sān Fēng Tǎ sì	Wat Phra Prang Sam Yot	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Lopburi, Thailand (FGS Encyclopedia of Buddhist Arts)	7001092
+7001093	帕楠称寺	帕楠稱寺	Pà Nán Chēng sì	Wat Phanan Choeng	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Ayutthaya, Thailand (FGS Encyclopedia of Buddhist Arts)	7001093
+7001094	事师法五十颂释	事師法五十頌釋	ShìShīfǎWǔshíSòngshì	Explanation of Fifty Verses in the Service of Teachers	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Title of a Tibetan text by Tsongkhapa, which is a commentary on 事師法五十頌 Fifty Verses in the Service of Teachers (FGDB '事師法五十頌釋')	7001094
+7001095	事师法五十颂	事師法五十頌	Shì Shīfǎ Wǔshí Sòng	Gurupañcāśikā / Fifty Verses in the Service of Teachers	proper noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Gurupañcāśikā; the name of a text in the Chinese Buddhist canon (FGDB '事師法五十頌'; KDC 1493; T 1687)	7001095
+7001096	密迹力士大权神王经偈颂	密跡力士大權神王經偈頌	Mì Jì Lìshì Dà Quán Shén Wáng Jīng Jì Sòng	Mi Ji Lishi Da Quan Shen Wang Jing Ji Song	proper noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Gurupañcāśikā; the name of a text in the Chinese Buddhist canon (T 1688)	7001096
+7001097	法月	\N	Fǎyuè	Dharmacandra	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	(653-743) Indian monastic who travelled to China, translated an alternate version of the Heart Sūtra (FGDB '法月'; KDC 'K 20'; T 252) 	7001097
+7001098	法成	\N	Fǎ Chéng	Fa Cheng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Tang monastic who translated an alternate version of the Heart Sūtra (FGDB '法月'; T 254) 	7001098
+7001099	法成	\N	Fǎ Chéng	Fa Cheng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Song monastic (FGDB '法月') 	7001099
+7001100	唐梵翻对字音般若波罗蜜多心经	唐梵翻對字音般若波羅蜜多心經	Táng Fàn fān duì zìyīn Bōrěluómìduō Xīnjīng	Chinese-Sanskrit Phonetic Comparison for the Prajñāpāramitāhṛdayasūtra	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Compares Chinese text with transliteration of the Sanskrit, circa 602-664 (FGDB '唐梵翻對字音般若波羅蜜多心經'; T 256) 	7001100
+7001101	佛说圣佛母般若波罗蜜多心经	佛說聖佛母般若波羅蜜多經	Fó shuō shèng Fómǔ Bōrěluómìduō Jīng	Foshuo Sheng Fomu Boreboluomiduo Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Translated by Dānapāla 施護 in the Song (KDC 'K 1427'; T 257) 	7001101
+7001102	佛说圣佛母小字般若波罗蜜多心经	佛說聖佛母小字般若波羅蜜多經	Fó shuō shèng Fómǔ xiǎo zì Bōrěluómìduō Jīng	Foshuo Sheng Fomu Xiao Zi  Boreboluomiduo Jing / Alpākṣarāprajñāpāramitāsūtra	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Translated by Tian Xi Zai 天息災 in the Song (KDC 'K 1090'; T 258) 	7001102
+7001103	天息灾	天息災	Tiān Xī Zāi	Tian Xi Zai	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	D. 1000; Song monastic (FGDB '天息災') 	7001103
+7001104	佛说观想佛母般若波罗蜜多心经	佛說觀想佛母般若波羅蜜多菩薩經	Fó shuō guān xiǎng Fómǔ Bōrěluómìduō Jīng	Foshuo Guanxiang Fomu Boreboluomiduo Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Translated by Tian Xi Zai 天息災 in the Song (KDC 'K 1139'; T 259) 	7001104
+7001105	佛说开觉自性般若波罗蜜多心经	佛說開覺自性般若波羅蜜多經	Fó shuō kāi jué zìxìng Bōrěluómìduō Jīng	Foshuo Kai Jue Zixing Boreboluomiduo Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Translated by Wei Jing 惟淨 and others in 1032 (KDC 'K 1485'; T 260) 	7001105
+7001106	惟净	惟淨	Wéi Jìng	Wei Jing	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Northern Song monastic (FGDB '惟淨') 	7001106
+7001107	师子贤	師子賢	Shīzi Xián	Haribhadra	proper noun	法师	Monastic	佛教	Buddhism	印度	Indian Buddhism	\N	\N	8th century Indian monastic (BL 'Haribhadra'; FGDB '師子賢'; Wikipedia '師子賢') 	7001107
+7001108	佛驮耶舍	佛馱耶舍	Fóduòyēshè	   Buddhayaśas	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Monk from Kashmir that stayed in China during the Eastern Jin 317-420 (FGDB '佛陀耶舍')	7001108
+7001109	遊行经	遊行經	Yóu Xíng Jīng	Mahāparinibbāna Sutta	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	From Pāli: mahāparinibbānasutta, a Hīnayāna version of the Mahāparinibbāna Sutta (KDC 'K 647'; T 1, Scrolls 2-4; Dīgha Nikāya 16; FGDB '遊行經'; SH '大般涅槃經', p. 94)	7001109
+7001110	法天	\N	Fǎ Tiān	Fa Tian	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	?-1001; Song monastic (FGDB '法天')	7001110
+7001111	毘婆尸佛经	毘婆尸佛經	Pípóshī Fó Jīng	Vipaśyin Buddha Sūtra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	(KDC 'K 1177'; T 3)	7001111
+7001112	白法祖	\N	Bái Fǎ Zǔ	Bai Fa Zu	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Western Jin monastic who translated a version of the Nirvāṇa Sūtra (T 5)	7001112
+7001113	法贤	法賢	Fǎxián	Faxian	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Northern Song monastic who translated Ren Xian Jing 人仙經 in the Chinese Buddhist Canon (T 9; FGDB '法賢')	7001113
+7001114	支法度	\N	Zhī Fǎdù	Zhi Fadu	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	A monastic who lived in China in the Western Jin and translated Buddhist texts to Chinese (FGDB '支法度')	7001114
+7001115	佛功德经	信佛功德經	Xìn Fó Gōngdé Jīng	Xin Fo Gongde Jing	proper noun	经	Sutra	佛教	Buddhism	Theravāda	上座部佛教	\N	\N	Related to Sampadāniyasutta in the Pāli Canon (T 18; KDC 'K 1248'; Dīgha Nikāya 28)	7001115
+7001116	大三摩惹经	大三摩惹經	Dàsānmórě Jīng	Mahāsamājasūtra / The Great Meeting	proper noun	经	Sutra	佛教	Buddhism	Theravāda	上座部佛教	\N	\N	Sanskrit equivalent: mahāsamājasūtra, samāja means assembly, related to Dīgha Nikāya 28 in the Pāli Canon (T 19; KDC 'K 1179'; MW 'samAja'; Dīgha Nikāya 28)	7001116
+7001117	佛开解梵志阿颰经	佛開解梵志阿颰經	Fó Kāijiě Fànzhì Ābá Jīng	Fo Kaijie Fanzhi Aba Jing / Ambaṭṭhasutta / Ambaṭṭha	proper noun	经	Sutra	佛教	Buddhism	Theravāda	上座部佛教	\N	\N	From Pāli: ambaṭṭhasutta, related to Dīgha Nikāya 3 in the Pāli Canon (T 20; KDC 'K 657'; Dīgha Nikāya 3)	7001117

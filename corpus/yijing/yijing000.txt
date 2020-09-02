@@ -1,10 +1,10 @@
-<h4>Source<h4>
+<h4>Source</h4>
 <p>
   Wikisource, accessed 2018-04-28, <a href="https://zh.wikisource.org/wiki/周易"
   >https://zh.wikisource.org/wiki/周易</a>
 </p>
 
-<h4>English translations<h4>
+<h4>English translations</h4>
 <ol>
   <li>
     Legge, James 1882, 'The Yî King,' In <i>Sacred Books of the East</i>,
@@ -14,7 +14,7 @@
   </li>
 </ol>
 
-<h4>Discussion<h4>
+<h4>Discussion</h4>
 <ol>
   <li>
     Nylan, Michael 2001, <i>The Five “Confucian” classics</i>, New Haven:

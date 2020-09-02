@@ -632,3 +632,7 @@
 3000632	帝乃震怒	\N	dì nǎi zhènnù	the supreme ruler was consequently roused to anger	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (reworded from tr. by Legge 1865, Vol III, Part II, p. 323)	3000632
 3000632	九畴	九疇	jiǔ chóu	nine divisions	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (tr. by Legge 1865, Vol III, Part II, p. 323)	3000632
 3000633	嗣兴	嗣興	sì xīng	kept a prisoner till his death	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (tr. by Legge 1865, Vol III, Part II, p. 323)	3000633
+3000634	种殖	種殖	zhǒng zhí	to grow [crops]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '殖')	3000634
+3000635	承下尘	承下塵	chéng xià chén	to get the dust [at the rear of battle]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承下塵', p. 50)	3000635
+3000636	承享	\N	chéng xiǎng	to receive and benefit from use of	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承享', p. 50)	3000636
+3000637	承先	\N	chéngxiān	to continue ancestral traditions	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931  '承先', p. 50)	3000637

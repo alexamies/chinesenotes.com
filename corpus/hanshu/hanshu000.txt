@@ -21,7 +21,16 @@
     <i>The History of the Former Han Dynasty</i>,
     3 vols. Baltimore: Waverly,
     <a href='http://www2.iath.virginia.edu/saxon/servlet/SaxonServlet?source=xwomen/texts/hanshu.xml&style=xwomen/xsl/dynaxml.xsl&chunk.id=tpage&doc.view=tocc&doc.lang=bilingual'
-    >Digitized text</a>, accessed 2018-05-13.
+    >Digitized text</a>, accessed 2018-05-13. Includes volumes 1-12.
+  </li>
+  <li>
+    Hulsewe, A F P 1955, <i>Remnants of Han Law</i>, Leiden: Brill. Volumes
+    22 (partial) and 23.
+  </li>
+  <li>
+    Hulsewe, A F P and M A N Loewe 1979, <i>China in Central Asia; 
+    the Early Stage: 125 BC - AD 23: An Annotated Translation of Chapters
+    61 and 96 of the History of the Former Han Dynasty</i>, Leiden: Brill.
   </li>
   <li>
     Owen, Stephen 1997 <i>An Anthology of Chinese Literature: Beginnings to
@@ -30,18 +39,29 @@
     Partial translation.
   </li>
   <li>
+    Sargent, Clyde Bailey, <i>Wang Mang, a Translation of the Official Account
+    of his Rise to Power as Given in the History of the Former Han Dynasty</i>,
+    Shanghai: Graphic Art Book Co.
+  </li>
+  <li>
+    Swan, Nancy Lee 1950, <i>Food and Money in Ancient China: the Earliest
+    Economic History of China to AD 25</i>, Han Shu 24 with related texts 91
+    and Shi Ji 129, Princeton NJ: Princeton University Press, pp. 109-359.
+  </li>
+  <li>
     Watson, Burton, trans. 1974,
     <i>Courtier and Commoner in Ancient China. Selections from the History of
     the Former Han</i>,
     New York: Columbia University Press.
-    A translation of 10 chapters.
+    A translation of 10 chapters: 54, 63, 65, 67, 68, 71, 74, 78, 92, and 96.
   </li>
 </ol>
 
 <h4>Discussion</h4>
 <ol>
   <li>
-    Lin, C., Peach, T. and Fang, W. eds., 2019. The Political Economy of the Han Dynasty and Its Legacy. Routledge.
+    Lin, C., Peach, T. and Fang, W. eds. 2019, <i>The Political Economy of the
+    Han Dynasty and Its Legacy</i>. Routledge.
   </li>
   <li>
     Durrant, Stephen 2017, 'Chapter 13: Histories (Shi 史),' in 
