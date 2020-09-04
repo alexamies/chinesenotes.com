@@ -1141,3 +1141,17 @@
 7001141	昙摩难提	曇摩難提	tánmónántí	  Dharma-nandi	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Monk from the Western Regions that stayed in China circa 384 (FGDB '曇摩難提')	7001141
 7001142	竺佛念	\N	Zhú Fóniàn	  Zhu Fonian / Fo Nian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	317 - 420; Monk from 涼州 Liangzhou in present-day Gansu who stayed in China during the Eastern Jin and translated texts included in the Chinese Buddhist canon, including parts of the 阿含經 Āgama (BL 'Zhu Fonian'; FGDB '竺佛念'; Kieschnick and Wiles 2017, vol. 1, p. 1)	7001142
 7001143	昙摩耶舍	曇摩耶舍	Tánmóyēshè	  Dharmayaśas	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Monk from Kashmir that stayed in China during the Eastern Jin and translated texts included in the Chinese Buddhist canon (FGDB '曇摩耶舍'; KDC 205; T 566).	7001143
+7001144	释印光	\N	shìyìnguāng	Yingguang	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 印光 (Wikipedia '释印光')	7001144
+7001145	释圆瑛	釋圓瑛	shì yuányīng	Yuan Ying	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 圓瑛 (FGDB '圓瑛')	7001145
+7001146	法海	\N	Fǎ Hǎi	Fa Hai	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Name of a Tang dynasty monk from Qu Jiang / Guangdong (FGDB '法海')	7001146
+7001147	法海	\N	Fǎ Hǎi	Fa Hai	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Name of a Tang dynasty monk from Danyang (FGDB '法海')	7001147
+7001148	海八德经	海八德經	Hǎi Bā Dé Jīng	Hai Ba De Jing	proper noun	经	Sutra	佛教	Buddhism	Theravāda	上座部佛教	\N	\N	A sūtra in the Āgama section of the Chinese Buddhist Canon (T 35; KDC 'K 779')	7001148
+7001149	一乘极唱	一乘極唱	yī shèng jí chàng	utmost advocation of one vehicle	set phrase	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	(FGDB '一乘極唱')	7001149
+7001150	复礼	復禮	fù lǐ	Fu Li	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Tang dynasty Buddhist monastic credited with compiling 《十門辯惑論》, included in the Chinese Buddhist canon (FGDB '復禮'; KDC 1079; T 2111)	7001150
+7001151	无着	無著	wúzhāo	Asaṅga	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: asaṅga, Fourth century CE Indian Buddhist philosopher, regarded as one of the founders of the Yogacara School (BL 'Asaṅga'; FGDB '無著'; Guoyu '無著' 2)	7001151
+7001152	法善现	法善現	fǎshànxiàn	Dharmasubhūti	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	(Kieschnick and Wiles 2017, vol. 2, p. 28; T 1558)	7001152
+7001153	昙摩须菩提	曇摩須菩提	tánmóxūpútí	Dharmasubhūti	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 法善现 (Ding '琰魔')	7001153
+7001154	须提那子	須提那子	xūtínàzǐ	Sudinna	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 須提那 (FGDB '須提那子')	7001154
+7001155	光统	光統	guāngtǒng	Guang Tong	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	468-537; Northern Wei monastic; also known as 慧光 (Ding '光統'; FGDB '光統'; SH '光統')	7001155
+7001156	金佛寺	\N	Jīn Fó sì	Wat Traimit Witthayaram	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in the Thailand (FGS Encyclopedia of Buddhist Arts)	7001156
+7001157	竺昙无兰	竺曇無蘭	Zhú Tán Wúlán	Tan Wulan	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monastic from India, translated texts in the Chinese Buddhist Canon, including Sāmaññaphalasutta 寂志果經 in the Eastern Jin (T 22; KDC 'K 658')	7001157
