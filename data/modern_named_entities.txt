@@ -6654,3 +6654,5 @@
 6006654	刁亦男	\N	diāo yìnán	Diao Yinan	proper noun	人	Person	戏剧	Drama	中国	China	\N	\N	1968-; Chinese film director (Wikipedia '刁亦男')	6006654
 6006655	惩戒委员会	懲戒委員會	chéngjiè wěiyuánhuì	Board of Discipline	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲戒委員會', p. 50)	6006655
 6006656	简明中国历史地图集	簡明中國歷史地圖集	jiǎnmíng zhōngguó lìshǐ dìtújí	Concise Historical Atlas of China	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	Title of an atlas (Hong Genshou ed. 1996)	6006656
+6006657	世界宗教研究	\N	shìjiè zōngjiāo yánjiū	Studies in World Religions	proper noun	期刊	Periodical	现代汉语	Modern Chinese	宗教	Religion	\N	\N	Published in 1979, China (WorldCat '世界宗教研究')	6006657
+6006658	远见．天下文化事业群	遠見．天下文化事業群	yuǎnjiàntiānxiàwénhuàshìyèqún	Global Views - Commonwealth Publishing Group	proper noun	\N	\N	现代汉语	Modern Chinese	台灣	Taiwan	\N	\N	https://www.cwgv.com.tw/	6006658

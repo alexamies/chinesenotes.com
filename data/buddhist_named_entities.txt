@@ -1155,3 +1155,12 @@
 7001155	光统	光統	guāngtǒng	Guang Tong	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	468-537; Northern Wei monastic; also known as 慧光 (Ding '光統'; FGDB '光統'; SH '光統')	7001155
 7001156	金佛寺	\N	Jīn Fó sì	Wat Traimit Witthayaram	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in the Thailand (FGS Encyclopedia of Buddhist Arts)	7001156
 7001157	竺昙无兰	竺曇無蘭	Zhú Tán Wúlán	Tan Wulan	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monastic from India, translated texts in the Chinese Buddhist Canon, including Sāmaññaphalasutta 寂志果經 in the Eastern Jin (T 22; KDC 'K 658')	7001157
+7001158	毗卢寺	毘盧寺	pílúsì	Pilu Temple	proper noun	寺院	Monastery 	佛教	Buddhism	中国	China	\N	\N	Served as the headquarters for the local branch of the Chinese Socialist Party in Nanjing (Recovering Buddhism in Modern China, Jan Kiely)	7001158
+7001159	观音信仰的渊源与传播	觀音信仰的淵源與傳播	guānyīnxìnyǎngdeyuānyuányǔchuánbō	The Origin and Spread of Guanyin Belief	proper noun	書	Book	佛教	Buddhism	\N	\N	\N	\N	(http://buddhism.lib.ntu.edu.tw, WorldCat '觀音信仰的淵源與傳播')	7001159
+7001160	正知	\N	zhèngzhī	Zheng Zhi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1907- ; Chinese monastic from Liaoning (FGDB '正知')	7001160
+7001161	太虚法师	太虛法師	tàixū fǎshī	Taixu	proper noun	师父	Monastic	佛教	Buddhism	中國佛教	Chinese Buddhism	\N	\N	See 太虚 (Wikipedia '释太虚')	7001161
+7001162	释太虚	釋太虛	shì tàixū	Taixu	proper noun	师父	Monastic	佛教	Buddhism	中國佛教	Chinese Buddhism	\N	\N	See 太虛 (Wikipedia '释太虚')	7001162
+7001163	一行禅师	一行禪師	yīxíng chánshī	Thich Nhat Hanh / Thích Nhất Hạnh	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 釋一行 (Wikipedia '釋一行')	7001163
+7001164	释一行	釋一行	shì yīxíng	Thich Nhat Hanh / Thích Nhất Hạnh	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	1926-; Vietnamese Buddhist monk and peace activist (Wikipedia '釋一行')	7001164
+7001165	莲华生	蓮華生	liánhuà shēng	Padmasambhava / Guru Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	An 8th century Indian monastic who travelled to Tibet (Wikipedia '蓮花生')	7001165
+7001166	神会	神會	shénhuì	Shenhui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	668-760; Tang dynasty monastic (FGDB '神會')	7001166
