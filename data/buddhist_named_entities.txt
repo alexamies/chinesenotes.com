@@ -1208,3 +1208,11 @@
 7001208	巴邻城	巴鄰城	bālínchéng	Pāṭaliputra / Pāṭaliputta / Pāṭaligāma	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	See 華氏城 (FGDB '華氏城')	7001208
 7001209	波吒利弗	\N	bōzhàlìfú	Pāṭaliputra / Pāṭaliputta / Pāṭaligāma	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	See 華氏城 (FGDB '華氏城')	7001209
 7001210	波吒梨耶	\N	bōzhàlíyé	Pāṭaliputra / Pāṭaliputta / Pāṭaligāma	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	See 華氏城 (FGDB '華氏城')	7001210
+7001211	西昌寺	\N	Xī Chāng sì	Wat Si Chum	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in the Sukhothai Historical Park, Thailand (FGS Encyclopedia of Buddhist Arts)	7001211
+7001212	昌隆寺	\N	Chāng Lóng sì	Wat Chang Lom	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Sukhothai, Thailand (FGS Encyclopedia of Buddhist Arts)	7001212
+7001213	斋育德寺	齋育德寺	Zhāi Yù Dé sì	Wat Chet Yot	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Chiang Mai, Thailand (FGS Encyclopedia of Buddhist Arts)	7001213
+7001214	菩提伽耶	\N	pútíjiāyē	Bodh Gaya / Bodhgayā	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: Bodhgayā; location of the Buddha's enlightenment in India (BL 'Bodhgayā'; FGDB '菩提伽耶')	7001214
+7001215	大菩提寺	\N	Dà Pútí sì	Mahābodhi Temple	proper noun	寺院	Monastery	佛教	Buddhism	印度	India	\N	\N	Located at the Buddha's place of enlightenment, Bodh Gaya, India (BL 'Mahābodhi Temple')	7001215
+7001216	南邦銮寺	南邦鑾寺	Nán Bāng Luán sì	Wat Phra That Lampang Luang	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Lampang, Thailand (FGS Encyclopedia of Buddhist Arts)	7001216
+7001217	佛陀沙旺寺	\N	Fótuó Shā Wàng sì	Wat Phutthaisawan	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Ayutthaya Historical Park, Thailand (FGS Encyclopedia of Buddhist Arts)	7001217
+7001218	玛哈波塔	瑪哈波塔	Mǎhābō tǎ	Mahapol Chedi	proper noun	塔	Pagoda	佛教	Buddhism	泰国	Thailand	\N	\N	In Wat Ku Kut, Thailand (FGS Encyclopedia of Buddhist Arts)	7001218

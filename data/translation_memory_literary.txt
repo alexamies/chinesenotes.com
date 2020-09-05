@@ -635,9 +635,14 @@
 3000634	种殖	種殖	zhǒng zhí	to grow [crops]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '殖')	3000634
 3000635	承下尘	承下塵	chéng xià chén	to get the dust [at the rear of battle]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承下塵', p. 50)	3000635
 3000636	承享	\N	chéng xiǎng	to receive and benefit from use of	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承享', p. 50)	3000636
-3000637	承先	\N	chéngxiān	to continue ancestral traditions	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931  '承先', p. 50)	3000637
+3000637	承先	\N	chéngxiān	to continue ancestral traditions	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承先', p. 50)	3000637
 3000638	不能臣使	\N	bù néng chén shǐ	not able to bring into subjection	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 57)	3000638
 3000640	上书说上	上書說上	shàngshū shuōshàng	wrote in a memorial to the Imperial throne	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, pp. 57-58)	3000640
 3000641	地东西万余里	地東西萬餘里	dì dōng xī wàn yú lǐ	territory is over 10,000 li from east to west	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 58)	3000641
 3000642	名为外臣	名爲外臣	míng wèi wài chén	nominally a foreign vassal	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 58)	3000642
 3000643	一奇	\N	yī qí	taken by surprise	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 58)	3000643
+3000644	承函	\N	chéng hán	to receive correspondence	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承函', p. 50)	3000644
+3000645	承惠	\N	chénghuì	thank you for your kindness [polite expression]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承惠', p. 50)	3000645
+3000646	承业	承業	chéng yè	to receive an inheritance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承業', p. 50)	3000646
+3000647	承发	承發	chéng fā	to receive and forward [a message]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承發', p. 50)	3000647
+3000648	承示	\N	chéng shì	to receive a hint	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承示', p. 50)	3000648
