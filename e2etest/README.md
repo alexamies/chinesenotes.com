@@ -57,7 +57,7 @@ gcloud run deploy --platform=managed $SERVICE \
 ```
 
 The output will give the location of the URL that AJAX requests will be sent.
-You can test it withe the command
+You can test it with the command
 
 ```shell
 curl $URL/find/?query=你好
@@ -123,7 +123,7 @@ Create a serverless Network Endpoint Group
 
 ```shell
 NEG=[name of NEG]
-gcloud beta compute network-endpoint-groups create $NEG \
+gcloud compute network-endpoint-groups create $NEG \
     --region=us-central1 \
     --network-endpoint-type=serverless \
     --cloud-run-service=$SERVICE
@@ -146,12 +146,13 @@ gcloud beta compute backend-services add-backend $LB_SERVICE \
 ```
 
 Create a matcher for the NEG backend service
+
 ```shell
 MATCHER_NAME=[your matcher name]
 gcloud compute url-maps add-path-matcher $URL_MAP \
     --default-backend-bucket $BACKEND_BUCKET \
     --path-matcher-name $MATCHER_NAME \
-    --path-rules="/find/*=$LB_SERVICE,/findadvanced/*=$LB_SERVICE,/findmedia/*=$LB_SERVICE,/findsubstring,/findtm=$LB_SERVICE"
+    --path-rules="/find/*=$LB_SERVICE,/findadvanced/*=$LB_SERVICE,/findmedia/*=$LB_SERVICE,/findsubstring=$LB_SERVICE,/findtm=$LB_SERVICE"
 ```
 
 Create a target HTTPS proxy

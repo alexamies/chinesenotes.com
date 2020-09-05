@@ -419,7 +419,7 @@ docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
 Or use Cloud Build
 
 ```shell
-export BUILD_ID=r157
+export BUILD_ID=r161
 gcloud builds submit --config cloudbuild.yaml . \
   --substitutions=_IMAGE_TAG="$BUILD_ID"
 ```
@@ -446,34 +446,7 @@ bin/cnreader.sh
 
 For production, copy the files to the storage system.
 
-#### Development Testing
-For development, use the web Docker container described here. It includes 
-developing versions of the chinesenotes.com web front end. It is an Apache web
-server that serves static content and proxies dynamic requests to the Go app via
-Javascript AJAX code. This is useful for testing the interoperation of the Go
-web backend with the JavaScript client.
-
-To build the docker image:
-
-```
-docker build -f docker/web/Dockerfile -t cn-web-image .
-```
-Test it locally
-```
-WEB_DIR=web-staging
-docker run -itd --rm -p 80:80 --name cn-web --link cn-app \
-  --mount type=bind,source="$(pwd)"/$WEB_DIR,target=/usr/local/apache2/htdocs \
-  cn-web-image
-```
-
-To attach to a local image for debugging, if needed:
-
-```
-docker exec -it cn-web bash
-```
-Set the load balancer up after creating the Kubernetes cluster
-
-#### End-to-End Testing
+#### Testing
 
 See e2etest/README.md
 
@@ -522,7 +495,43 @@ source index/load_word_freq.sql
 #source data/library/digital_library.sql
 ```
 
-### Set Up Kubernetes Cluster and Deployment
+### Deploy to Cloud run
+
+Deploy the web app to Cloud Run
+
+```shell
+PROJECT_ID=[Your project]
+IMAGE=gcr.io/${PROJECT_ID}/cn-app-image:${BUILD_ID}
+SERVICE=cnreader
+REGION=us-central1
+INSTANCE_CONNECTION_NAME=[Your connection]
+DBUSER=[Your database user]
+DBPASSWORD=[Your database password]
+DATABASE=[Your database name]
+MEMORY=400Mi
+TEXT_BUCKET=[Your GCS bucket name for text files]
+gcloud run deploy --platform=managed $SERVICE \
+--image $IMAGE \
+--region=$REGION \
+--memory "$MEMORY" \
+--add-cloudsql-instances $INSTANCE_CONNECTION_NAME \
+--set-env-vars INSTANCE_CONNECTION_NAME="$INSTANCE_CONNECTION_NAME" \
+--set-env-vars DBUSER="$DBUSER" \
+--set-env-vars DBPASSWORD="$DBPASSWORD" \
+--set-env-vars DATABASE="$DATABASE" \
+--set-env-vars TEXT_BUCKET="$TEXT_BUCKET" \
+--set-env-vars CNREADER_HOME="/"
+```
+
+Test it with the command
+
+```shell
+curl $URL/find/?query=你好
+```
+
+You should see a JSON reply.
+
+### Set Up Kubernetes Cluster and Deployment - Deprecated
 [Container Engine Quickstart](https://cloud.google.com/container-engine/docs/quickstart)
 The dynamic part of the app run in a Kubernetes cluster using Google
 Kubernetes Engine. To create the cluster and authenticate to it:
@@ -597,49 +606,50 @@ existing named ports that other apps in the cluster may be depending on.
 
 ### Create and configure the load balancer
 
-Add a firewall rule to allow the load balancer to reach the managed instance
-group.
-
-```shell
-FW_RULE_NAME=cnotes-allow-lb
-gcloud compute firewall-rules create $FW_RULE_NAME \
-    --allow tcp:$PORT \
-    --source-ranges 130.211.0.0/22,35.191.0.0/16
-```
-
-Add a health check
-
-```shell
-HEALTH_CHECK_NAME=cnotes-app-check
-gcloud compute health-checks create http $HEALTH_CHECK_NAME --port=$PORT \
-     --request-path=/healthcheck/
-```
-
-Configure the load balancer backend service
-
-```shell
-BACKEND_NAME=cnotes-backend-prod
-gcloud compute backend-services create $BACKEND_NAME \
-     --protocol HTTP \
-     --health-checks $HEALTH_CHECK_NAME \
-     --global
-gcloud compute backend-services add-backend $BACKEND_NAME \
-    --balancing-mode UTILIZATION \
-    --max-utilization 0.8 \
-    --capacity-scaler 1 \
-    --instance-group $MIG \
-    --instance-group-zone $ZONE \
-    --global
-gcloud compute backend-services update $BACKEND_NAME \
-    --port-name=$PORTNAME
-```
-
 Configure a backend bucket
 
 ```shell
 BACKEND_BUCKET=cnotes-web-bucket-prod
 gcloud compute backend-buckets create $BACKEND_BUCKET --gcs-bucket-name $BUCKET
 ```
+
+Create a serverless Network Endpoint Group for the Cloud Run deployment
+
+```shell
+NEG=[name of NEG]
+gcloud compute network-endpoint-groups create $NEG \
+    --region=$REGION \
+    --network-endpoint-type=serverless \
+    --cloud-run-service=$SERVICE
+```
+
+Create an LB backend service
+
+```shell
+LB_SERVICE=[name of service]
+gcloud compute backend-services create $LB_SERVICE --global
+```
+
+Add the NEG to the backend service
+
+```shell
+gcloud beta compute backend-services add-backend $LB_SERVICE \
+    --global \
+    --network-endpoint-group=$NEG \
+    --network-endpoint-group-region=$REGION
+
+```
+
+Create a matcher for the NEG backend service
+
+```shell
+MATCHER_NAME=[your matcher name]
+gcloud compute url-maps add-path-matcher $URL_MAP \
+    --default-backend-bucket $BACKEND_BUCKET \
+    --path-matcher-name $MATCHER_NAME \
+    --path-rules="/find/*=$LB_SERVICE,/findadvanced/*=$LB_SERVICE,/findmedia/*=$LB_SERVICE,/findsubstring,/findtm=$LB_SERVICE"
+```
+
 
 Configure the load balancer
 
