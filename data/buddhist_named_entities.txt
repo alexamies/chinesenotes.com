@@ -1164,3 +1164,47 @@
 7001164	释一行	釋一行	shì yīxíng	Thich Nhat Hanh / Thích Nhất Hạnh	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	1926-; Vietnamese Buddhist monk and peace activist (Wikipedia '釋一行')	7001164
 7001165	莲华生	蓮華生	liánhuà shēng	Padmasambhava / Guru Rinpoche	proper noun	法师	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	An 8th century Indian monastic who travelled to Tibet (Wikipedia '蓮花生')	7001165
 7001166	神会	神會	shénhuì	Shenhui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	668-760; Tang dynasty monastic (FGDB '神會')	7001166
+7001167	印顺长老	印順長老	yìnshùn zhǎnglǎo	Yin Shun	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 印順 (Wikipedia '释印顺')	7001167
+7001168	百丈禅师	百丈禪師	bǎizhàng chánshī	Baizhang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 百丈懷海 (Wikipedia '百丈怀海')	7001168
+7001169	金刚经郢说	金剛經郢說	Jīngāng Jīng Yǐng Shuō	Jingang Jing Ying Shuo	proper noun	经疏	Sūtra Commentary	佛教	Buddhism	中国	China	\N	\N	Commentary on the Diamond Sūtra by Qing writer Qu Fa 徐发, Manji No. 0488 (FGDB '金剛經郢說')	7001169
+7001170	金刚经法眼悬判疏钞	金剛經法眼懸判疏鈔	Jīngāng Jīng Fǎyǎn Xuán Pàn Shū Chāo	Jingang Jing Fayan Xuan Pan Shu Chao	proper noun	经疏	Sūtra Commentary	佛教	Buddhism	中国	China	\N	\N	Commentary on the Diamond Sūtra by Qing writer Xing Qi 性起, Manji No. 0499 (FGDB '金剛經法眼懸判疏鈔')	7001170
+7001171	普济禅院	普濟禪院	Pǔjì Chán Yuàn	Puji Chan Monastery	proper noun	寺	Temple	佛教	Buddhism	\N	\N	\N	\N	(Wikipedia '普濟禪院')	7001171
+7001172	相国寺	相國寺	Xiāngguó Sì	Shokokuji	proper noun	寺院	Monastery	佛教	Buddhism	日本	Japan	\N	\N	Located in Kyoto, Japan (Wikipedia '相国寺 (日本)')	7001172
+7001173	释智秀	釋智秀	Shì Zhìxiù	 Shi Zhixiu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	A Chinese monk who lived in Nanjing during the Liang dynasty, mentioned in Biographies of Eminent Monks, Scroll 8 (FGDB '智秀')	7001173
+7001174	瞿昙法智	瞿曇法智	Qútán Fǎzhì	Gautama Dharmaprajña	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	(638–713) an Indian monastic who traveled to China in the Sui (FGDB '瞿曇法智')	7001174
+7001175	佛足寺	\N	Fó zú sì	Wat Phra Phutthabat	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in the Saraburi, Thailand (FGS Encyclopedia of Buddhist Arts)	7001175
+7001176	布翁尼维寺	布翁尼維寺	Bùwēngníwéi sì	Wat Bowonniwet	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in the Bangkok, Thailand (FGS Encyclopedia of Buddhist Arts)	7001176
+7001177	普拉拍銮寺	普拉拍鑾寺	Pǔ Lā Pāi Luán sì	Wat Phra Phai Luang	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in the Sukhothai Historical Park, Thailand (FGS Encyclopedia of Buddhist Arts)	7001177
+7001178	阿毗达磨识身足论	阿毗達磨識身足論	āpídámó shí shēn zú lùn	Abhidharma vijñāna kāya pāda śāstra	proper noun	论	Treatise	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 阿毘達磨識身足論 (Eitel 'Abhidharma vijñāna kāya pāda śāstra', p. 3)	7001178
+7001179	说一切有部识身足论	說一切有部識身足論	shuō yīqiē yǒubù shí shē nzú lùn	Abhidharma vijñāna kāya pāda śāstra	proper noun	论	Treatise	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 阿毘達磨識身足論 (FGDB '阿毘達磨識身足論')	7001179
+7001180	摩诃迦旃延	摩訶迦旃延	móhējiāzhānyán	Mahākātyāyana	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: mahākātyāyana, Pali: mahākaccāna, Japanese: Makakasen’en; one of the disciples of the Buddha (BL 'Mahākātyāyana'; FGDB '摩訶迦旃延')	7001180
+7001181	摩诃迦多衍那	摩訶迦多衍那	móhējiāduōyǎnnà	Mahakatyayana	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶迦旃延 (FGDB '摩訶迦旃延')	7001181
+7001182	摩诃迦底耶夜那	摩訶迦底耶夜那	móhējiādǐyéyènà	Mahakatyayana	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶迦旃延 (FGDB '摩訶迦旃延')	7001182
+7001183	摩诃迦毡延	摩訶迦氈延	móhējiāzhānyán	Mahakatyayana	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶迦旃延 (FGDB '摩訶迦旃延')	7001183
+7001184	劫宾那	劫賓那	jiébīnnà	Kapphiṇa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 摩訶劫賓那 (FGDB '摩訶劫賓那'; SH '劫賓那', p. 233)	7001184
+7001185	劫比拏王	\N	jiébìnáwáng	Kapphiṇa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶劫賓那 (SH '劫賓那', p. 233)	7001185
+7001186	安哥大寺	\N	Āngē Dà Sì	Angkor Wat	proper noun	寺院	Monastery	历史	History	柬埔寨	Cambodia	\N	\N	Temple complex in Cambodia (Wikipedia '吴哥窟')	7001186
+7001187	婆罗浮屠	婆羅浮屠	póluófútú	Borobudur	proper noun	寺院	Monastery	历史	History	亚洲	Asia	\N	\N	Temple complex in Indonesia (FGDB '婆羅浮屠')	7001187
+7001188	南岳思	南嶽思	Nán Yuè Sī	Hui Si / Nan Yue Hui Si	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	C. 515-557; considered the third patriarch of the Tiantai school and teacher of Zhi Yi 智顗 (BSAD '慧思', ID A001711)	7001188
+7001189	立誓愿文	立誓願文	Lìshì Yuàn Wén	Establishment of Vows	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	Attributed to Hui Si 慧思, c. 515-557 (T 1933)	7001189
+7001190	弘一大师	弘一大師	hóngyī dàshī	Hong Yi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 弘一 (Wikipedia '李叔同')	7001190
+7001191	沩山	溈山	wéishān	Weishan	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Names of a temple in Ningxian County, Hunan (Ding '溈山'; FGDB '溈山'; SH '溈山')	7001191
+7001192	德山	\N	déshān	Cuifeng Deshan / Deshan	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 翠峰德山 (FGDB '翠峰德山')	7001192
+7001193	三藏法师	三藏法師	Sān Zàng Fǎshī	Venerable Xuanzang / Tripiṭaka	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	602-664; Tang dynasty Buddhist monk and translator who traveled to India in 629-645 (FGDB '三藏法師').	7001193
+7001194	陈袆	陳褘	Chén Huī	Chen Hui / Venerable Xuanzang / Tripitaka	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 三藏法師 (FGDB '三藏法師')	7001194
+7001195	陈讳	陳諱	Chén Huì	Chen Hui / Venerable Xuanzang / Tripitaka	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 三藏法師 (FGDB '三藏法師')	7001195
+7001196	三藏法师义净	三藏法師義淨	Sān Zàng Fǎshī Yì Jìng	Venerable Yi Jing / Venerable Yijing	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 義淨 (FGDB '義淨')	7001196
+7001197	夹山寺	夾山寺	jiāshānsì	Jiashan Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Buddhist temple in Shimen 石门, Changde 常德, Hunan, the purported final home and burial place of late Ming peasant rebel leader Li Zicheng 李自成 (CC-CEDICT '夾山寺')	7001197
+7001198	荷泽寺	荷澤寺	hézé sì	Heze temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Located in Fuzhou, Fujian (CC-CEDICT '荷澤寺')	7001198
+7001199	敕修百丈清规	敕修百丈清規	Chì Xiū Bǎi Zhàng Qīng Guī	The Baizhang Zen Monastic Regulations	proper noun	典籍	Canonical Text	佛教	Buddhism	中国	China	\N	\N	See 勅修百丈清規 (Wikipedia '百丈清规')	7001199
+7001200	敕修清规	敕修清規	chì xiū qīngguī	The Baizhang Zen Monastic Regulations	proper noun	典籍	Canonical Text	佛教	Buddhism	中国	China	\N	\N	See 勅修百丈清規 (Wikipedia '百丈清规')	7001200
+7001201	东阳德辉	東陽德輝	dōngyáng déhuī	Dongyang dehui	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Yuan dynasty monastic, compiled 勅修百丈清規 ”Baizhang Zen Monastic Regulations” (FGDB '東陽德輝'; T 2025)	7001201
+7001202	西塔光穆	\N	xītǎguāngmù	Xita Guangmu / Guangmu	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 光穆 (FGDB '光穆')	7001202
+7001203	光穆	\N	guāngmù	Xita Guangmu / Guangmu	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Tang dynasty monastic (FGDB '光穆')	7001203
+7001204	泉州东西塔	泉州東西塔	quánzhōudōngxī tǎ	Kaiyuan Temple (Quanzhou)	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	(FGDB '泉州東西塔'; Wikipedia '開元寺 (泉州)')	7001204
+7001205	承天寺塔	\N	chéngtiān sìtǎ	Pagoda of Chengtian Temple	proper noun	佛塔	Pagoda	佛教	Buddhism	中国	China	\N	\N	(FGDB '承天寺塔'; Wikipedia '承天寺塔')	7001205
+7001206	波吒厘	波吒釐	bōzhàlí	Pāṭaliputra / Pāṭaliputta / Pāṭaligāma	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	See 華氏城 (FGDB '華氏城')	7001206
+7001207	波吒厘子城	波吒釐子城	bōzhàlízǐ chéng	Pāṭaliputra / Pāṭaliputta / Pāṭaligāma	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	See 華氏城 (FGDB '華氏城')	7001207
+7001208	巴邻城	巴鄰城	bālínchéng	Pāṭaliputra / Pāṭaliputta / Pāṭaligāma	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	See 華氏城 (FGDB '華氏城')	7001208
+7001209	波吒利弗	\N	bōzhàlìfú	Pāṭaliputra / Pāṭaliputta / Pāṭaligāma	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	See 華氏城 (FGDB '華氏城')	7001209
+7001210	波吒梨耶	\N	bōzhàlíyé	Pāṭaliputra / Pāṭaliputta / Pāṭaligāma	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	See 華氏城 (FGDB '華氏城')	7001210
