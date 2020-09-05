@@ -531,79 +531,6 @@ curl $URL/find/?query=你好
 
 You should see a JSON reply.
 
-### Set Up Kubernetes Cluster and Deployment - Deprecated
-[Container Engine Quickstart](https://cloud.google.com/container-engine/docs/quickstart)
-The dynamic part of the app run in a Kubernetes cluster using Google
-Kubernetes Engine. To create the cluster and authenticate to it:
-```
-gcloud container clusters create $CLUSTER \
-  --zone=$ZONE \
-  --disk-size=500 \
-  --machine-type=n1-standard-1 \
-  --num-nodes=1 \
-  --enable-cloud-monitoring
-gcloud container clusters get-credentials $CLUSTER --zone=$ZONE
-```
-
-Configure access to Cloud SQL using instructions in
-[Connecting from Kubernetes Engine](https://cloud.google.com/sql/docs/mysql/connect-kubernetes-engine).
-Save the JSON key file. Create the proxy user:
-
-```
-PROXY_PASSWORD=[Your value]
-gcloud sql users create proxyuser cloudsqlproxy~% --instance=$INSTANCE \
-  --password=$PROXY_PASSWORD
-```
-
-Get the instance connection name:
-```
-gcloud sql instances describe $INSTANCE
-```
-
-Create secrets
-```
-PROXY_KEY_FILE_PATH=[JSON file]
-kubectl create secret generic cloudsql-instance-credentials \
-    --from-file=credentials.json=$PROXY_KEY_FILE_PATH
-kubectl create secret generic cloudsql-db-credentials \
-    --from-literal=username=proxyuser --from-literal=password=$PROXY_PASSWORD
-```
-
-Deploy the app tier
-```
-kubectl apply -f kubernetes/app-deployment.yaml 
-kubectl apply -f kubernetes/app-service.yaml
-```
-
-Test from the command line
-```
-kubectl get pods
-POD_NAME=[your pod name]
-kubectl exec -it $POD_NAME bash
-apt-get update
-apt-get install curl
-curl http://localhost:8080/find/?query=hello
-```
-
-The load balancer connects to the Kubernetes NodePort with a managed instance
-group named port. To get the list of named ports use the command
-```
-gcloud compute instance-groups list
-MIG=[your managed instance group]
-gcloud compute instance-groups managed get-named-ports $MIG
-```
-
-To add a new named port use the command
-```
-PORTNAME=cnotesport
-PORT=30080
-gcloud compute instance-groups managed set-named-ports $MIG \
-  --named-ports="$PORTNAME:$PORT" \
-  --zone=$ZONE
-```
-Be careful with this command that you do not accidentally clear the already
-existing named ports that other apps in the cluster may be depending on.
-
 ### Create and configure the load balancer
 
 Configure a backend bucket
@@ -647,9 +574,8 @@ MATCHER_NAME=[your matcher name]
 gcloud compute url-maps add-path-matcher $URL_MAP \
     --default-backend-bucket $BACKEND_BUCKET \
     --path-matcher-name $MATCHER_NAME \
-    --path-rules="/find/*=$LB_SERVICE,/findadvanced/*=$LB_SERVICE,/findmedia/*=$LB_SERVICE,/findsubstring,/findtm=$LB_SERVICE"
+    --path-rules="/find/*=$LB_SERVICE,/findadvanced/*=$LB_SERVICE,/findmedia/*=$LB_SERVICE,/findsubstring=$LB_SERVICE,/findtm=$LB_SERVICE"
 ```
-
 
 Configure the load balancer
 

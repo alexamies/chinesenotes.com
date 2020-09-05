@@ -1216,3 +1216,21 @@
 7001216	南邦銮寺	南邦鑾寺	Nán Bāng Luán sì	Wat Phra That Lampang Luang	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Lampang, Thailand (FGS Encyclopedia of Buddhist Arts)	7001216
 7001217	佛陀沙旺寺	\N	Fótuó Shā Wàng sì	Wat Phutthaisawan	proper noun	寺院	Monastery	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Ayutthaya Historical Park, Thailand (FGS Encyclopedia of Buddhist Arts)	7001217
 7001218	玛哈波塔	瑪哈波塔	Mǎhābō tǎ	Mahapol Chedi	proper noun	塔	Pagoda	佛教	Buddhism	泰国	Thailand	\N	\N	In Wat Ku Kut, Thailand (FGS Encyclopedia of Buddhist Arts)	7001218
+7001219	莫拉莫拉杜寺	\N	Mòlā Mòlādù sì	Mohra Moradu	proper noun	寺院	Monastery	佛教	Buddhism	\N	\N	\N	\N	A Buddhist temple in Taxila in present day Punjab, Pakistan (FGS Encyclopedia of Buddhist Arts)	7001219
+7001220	皮帕拉寺	\N	Pípàlā sì	Pipala	proper noun	寺院	Monastery	佛教	Buddhism	\N	\N	\N	\N	A Buddhist temple in Taxila in present day Punjab, Pakistan (FGS Encyclopedia of Buddhist Arts)	7001220
+7001221	尧里安寺	堯里安寺	Yáolǐ'ān sì	Jaulian	proper noun	寺院	Monastery	佛教	Buddhism	\N	\N	\N	\N	A Buddhist temple in Taxila in present day Punjab, Pakistan (FGS Encyclopedia of Buddhist Arts)	7001221
+7001222	布哈马拉寺	布哈馬拉寺	bùhāmǎlā sì	Bhamala	proper noun	寺院	Monastery	佛教	Buddhism	\N	\N	\N	\N	A Buddhist temple in Taxila in present day Punjab, Pakistan (FGS Encyclopedia of Buddhist Arts)	7001222
+7001223	丰都基斯坦	豐都基斯坦	fēngdōujīsītǎn	Fondukistan	proper noun	寺院	Monastery	佛教	Buddhism	亚洲	Asia	\N	\N	A Buddhist temple in the Parvan, Hindu Kush, Afganistan (FGS Encyclopedia of Buddhist Arts)	7001223
+7001224	巴米扬	巴米揚	bāmǐyáng	Bamyan	proper noun	寺院	Monastery	佛教	Buddhism	亚洲	Asia	\N	\N	A Buddhist site in Parvan, Hindu Kush, Afganistan with caves and Buddha statues carved into the cliffs (Wikipedia '巴米扬')	7001224
+7001225	法门寺	法門寺	Fǎmén sì	Famen Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	(FGDB '法门寺')	7001225
+7001226	黑密寺	\N	Hēimì sì	Hemis Gompa	proper noun	寺院	Monastery	佛教	Buddhism	印度	India	\N	\N	Located in Ladakh, India (FGS Encyclopedia of Buddhist Arts) 	7001226
+7001227	巴方寺	\N	Bā Fāng sì	Baphuon	proper noun	寺院	Monastery	佛教	Buddhism	柬埔寨	Cambodia	\N	\N	Located in Cambodia (Baidu Baike '巴方寺')	7001227
+7001228	巴本寺	\N	Bā Běn sì	Baphuon	proper noun	寺院	Monastery	佛教	Buddhism	柬埔寨	Cambodia	\N	\N	Located in Cambodia (FGS Encyclopedia of Buddhist Arts) 	7001228
+7001229	巴普昂寺	\N	Bā Pǔ Áng sì	Baphuon	proper noun	寺院	Monastery	佛教	Buddhism	柬埔寨	Cambodia	\N	\N	Located in Cambodia (Wikipedia '巴普昂寺') 	7001229
+7001230	吴哥王城	吳哥王城	Wúgē Wáng chéng	Angkor Thom	proper noun	\N	\N	佛教	Buddhism	柬埔寨	Cambodia	\N	\N	Located in Cambodia (Wikipedia '大吳哥') 	7001230
+7001231	巴戎寺	\N	Bāróng sì	Bayon	proper noun	寺院	Monastery	佛教	Buddhism	柬埔寨	Cambodia	\N	\N	Located in Cambodia (Wikipedia '巴戎寺') 	7001231
+7001232	吴哥寺	吳哥寺	Wúgē sì	Angkor Wat	proper noun	寺院	Monastery	历史	History	柬埔寨	Cambodia	\N	\N	Temple complex in Cambodia (Wikipedia '吴哥窟')	7001232
+7001233	劫庀那	\N	jiépǐnà	Kapphiṇa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶劫賓那 (SH '劫賓那', p. 233)	7001233
+7001234	劫比那	\N	jiébìnà	Kapphiṇa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶劫賓那 (SH '劫賓那', p. 233)	7001234
+7001235	宁国寺	寧國寺	Níng Guó Sì	Nyeongguk-sa / Nyeongguk-sa Temple	proper noun	寺	Temple	佛教	Buddhism	韩国	South Korea	\N	\N	Hangul: 녕국사; Revised Romanization: Nyeongguk-sa; temple in Yeongdong County, North Chungcheong Province, South Korea (FGS Encyclopedia of Buddhist Arts)	7001235
+7001236	宁国寺	寧國寺	Níng Guó Sì	Ningguo Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Neijiang, Sichuan (Wikipedia '寧國寺')	7001235
