@@ -1234,3 +1234,22 @@
 7001234	劫比那	\N	jiébìnà	Kapphiṇa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶劫賓那 (SH '劫賓那', p. 233)	7001234
 7001235	宁国寺	寧國寺	Níng Guó Sì	Nyeongguk-sa / Nyeongguk-sa Temple	proper noun	寺	Temple	佛教	Buddhism	韩国	South Korea	\N	\N	Hangul: 녕국사; Revised Romanization: Nyeongguk-sa; temple in Yeongdong County, North Chungcheong Province, South Korea (FGS Encyclopedia of Buddhist Arts)	7001235
 7001236	宁国寺	寧國寺	Níng Guó Sì	Ningguo Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Neijiang, Sichuan (Wikipedia '寧國寺')	7001235
+7001237	窥基	窺基	 Kuī Jī	Kui Ji	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	632-682; Tang monk, author of a commentary on the Diamond Sutra, Jingang Bore Lun Huishi 金刚般若论会释 (Wikipedia '窺基')	7001237
+7001238	六祖慧能	\N	Liù Zǔ Huìnéng	Huineng / the Sixth Patriarch Huineng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 慧能 (Wikipedia '惠能')	7001238
+7001239	道川	\N	Dào Chuān	Dao Chuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Song monk, composed the commentary on the Diamond Sutra ”Jingang Jing Zhu” 金刚经注, Manji No. (BSAD '道川', ID A001498; FGDB '道川') 0461	7001239
+7001240	金刚经注疏	金剛經註疏	Jīngāng Jīng Zhù Shū	Jingang Jing Zhu Shu	proper noun	经疏	Sūtra Commentary	佛教	Buddhism	中国	China	\N	\N	Commentary on the Diamond Sūtra by Tang monk Hui Jing 慧净, Manji No. 0456	7001240
+7001241	慧净	慧淨	Huì Jìng	Hui Jing	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Tang monk, composed the commentary on the Diamond Sutra ”Jingang Jing Zhu Shu” 金刚经注疏, Manji No. 0456 (FGDB '金剛經註正訛')	7001241
+7001242	金刚经纂要刊定记	金剛經纂要刊定記	Jīngāng Jīng Zuǎn Yào Kān Dìng Jì	Jingang Jing Zuan Yao Kan Ding Ji	proper noun	经疏	Sūtra Commentary	佛教	Buddhism	中国	China	\N	\N	Commentary on the Diamond Sūtra by Song monk Zi Xuan 子璿 (T 1702)	7001242
+7001243	承远	承遠	chéngyuǎn	Cheng Yuan	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	712-802; Tang dynasty monastic (FGDB '承遠')	7001243
+7001244	大珠慧海	\N	dàzhū huìhǎi	Dazhu Huihai	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Tang dynasty monastic (FGDB '大珠慧海')	7001244
+7001245	慧海	\N	huìhǎi	Huihai	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	541-609; Sui dynasty monastic and the name of several other historic masters (FGDB '慧海')	7001245
+7001246	报恩寺	報恩寺	Bào ēn Sì	Bao En Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	The Bao En Temple in Suzhou is well known and there are other temples with the same name in other places (Ding '報恩寺'; FGDB '報恩寺')	7001246
+7001247	法雨寺	\N	Fǎyǔ Sì	Fayu Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple located in Mount Putuo (Wikipedia '法雨寺 (普陀山)')	7001247
+7001248	南普陀山	\N	Nán Pǔtuó Shān	Nan Putuoshan	proper noun	寺院	Monastery	佛教	Buddhism	福建	Fujian	pagoda_nanputuoshan1400.jpg	\N	Temple located in Xiamen (Wikipedia '南普陀寺')	7001248
+7001249	法雅茲丘	\N	Fǎ Yǎ Cí Qiū	Fayaz-tepe Monastery	proper noun	\N	\N	佛教	Buddhism	亚洲	Asia	\N	\N	In Usbekistan (FGS Encyclopedia of Buddhist Arts)	7001249
+7001250	昙无谶	曇無讖	Tán Wú Chèn	Dharmakṣema	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: dharmakṣema 385-433; a monk from India, translated sutras to Chinese in the Northern Liang (FGDB '曇無讖')	7001250
+7001251	昙无忏	曇無懺	Tán Wú Chàn	Dharmakṣema	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 曇無讖 (FGDB '曇無讖')	7001251
+7001252	佛陀耶舍	\N	Fótuóyēshè	   Buddhayaśas	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Monk from Kashmir that stayed in China during the Eastern Jin 317-420 (FGDB '佛陀耶舍')	7001252
+7001253	圆仁	圓仁	Yuán Rén	Ennin	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	793 or 794 – 864; Japanese monk who travelled to China (BL 'Ennin'; FGDB '圓仁'; Matsuo 2007, p. 37)	7001253
+7001254	天台智者	\N	Tiāntái zhìzhě	Sage of Tiantai	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	An epithet for 智顗 Zhi Yi (FGDB '智顗')	7001254
+7001255	栄西	\N	Róng Xī	Eisai / Myōan Eisai	noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1141-1215; Japanese monk who travelled to China. A Japanese variant of traditional 榮, simplified 荣 is used in his name (Wikipedia '荣西').	7001255

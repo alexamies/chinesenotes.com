@@ -646,3 +646,10 @@
 3000646	承业	承業	chéng yè	to receive an inheritance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承業', p. 50)	3000646
 3000647	承发	承發	chéng fā	to receive and forward [a message]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承發', p. 50)	3000647
 3000648	承示	\N	chéng shì	to receive a hint	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承示', p. 50)	3000648
+3000649	治道	\N	zhì dào	make a road	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 58)	3000649
+3000650	当是时	當是時	dāng shì shí	at this time	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 59)	3000650
+3000651	数岁	數歲	shǔ suì	a few years	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 59)	3000651
+3000652	道不通	\N	dào bù tōng	the road was not open	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 59)	3000652
+3000653	数反	數反	shǔ fǎn	several times rebelled	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 59)	3000653
+3000654	发兵兴击	發兵興擊	fā bīng xīng jī	troops were sent to suppress the uprising	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 59)	3000654
+3000655	专力	專力	zhuān lì	concentrate energy	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 59)	3000655
