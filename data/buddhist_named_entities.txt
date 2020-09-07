@@ -1253,3 +1253,20 @@
 7001253	圆仁	圓仁	Yuán Rén	Ennin	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	793 or 794 – 864; Japanese monk who travelled to China (BL 'Ennin'; FGDB '圓仁'; Matsuo 2007, p. 37)	7001253
 7001254	天台智者	\N	Tiāntái zhìzhě	Sage of Tiantai	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	An epithet for 智顗 Zhi Yi (FGDB '智顗')	7001254
 7001255	栄西	\N	Róng Xī	Eisai / Myōan Eisai	noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1141-1215; Japanese monk who travelled to China. A Japanese variant of traditional 榮, simplified 荣 is used in his name (Wikipedia '荣西').	7001255
+7001256	明菴栄西	\N	Míng Ān Róng Xī	Eisai / Myōan Eisai	noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	A Japanese variant of traditional 榮, simplified 荣 is used in his name, see 荣西 (Wikipedia '荣西')	7001256
+7001257	子璿	子璿	Zǐ Xuán	Zi Xuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Song monk, composed the commentary on the Diamond Sutra ”Jingang Jing Zuan Yao Kan Ding Ji” 金剛經纂要刊定記, Taisho Tripitaka No. 1702 (T 1702)	7001257
+7001258	金刚经注讲	金剛經註講	Jīngāng Jīng Zhù Jiǎng	Jingang Jing Zhu Jiang	proper noun	经疏	Sūtra Commentary	佛教	Buddhism	中国	China	\N	\N	Commentary on the Diamond Sūtra by Qing writer Xing Min 行敏, Manji No. 0502 (FGDB '金剛經註講')	7001258
+7001259	慈藏律师	慈藏律師	Cí Cáng Lǜ Shī	Jajang	proper noun	师父	Monastic	佛教	Buddhism	韩国	South Korea	\N	mian4.mp3	Hangul: 자장 율사; 590-658; a Korean monk (FGDB '慈藏')	7001259
+7001260	行敏	\N	Xíng Mǐn	Xing Min	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Qing writer, composed the commentary on the Diamond Sutra ”Jingang Jing Zhu Jiang” 金剛經註講, Manji No. 0502 (BSAD '行敏', ID A000417)	7001260
+7001261	昙牟谶	曇牟讖	Tán Wú Chèn	Dharmakṣema	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 曇無讖 (FGDB '曇無讖')	7001261
+7001262	神焕	神煥	Shén Huàn	Shen Huan	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	1131-1162; Song Dynasty monk from the Zhejiang area (FGDB '神煥')	7001262
+7001263	释常莹	釋常瑩	Shì Chángyíng	Shi Changying	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Eminent Ming Dynasty monk (T 2077)	7001263
+7001264	了菴清欲	\N	Liǎo'ān Qīngyù	Liao'an Qingyu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1288-1363; Eminent monk (FGDB '了菴清欲')	7001264
+7001265	古林清茂	\N	Gǔ Lín Qīng Mào	Gulin Qingmao / Kurin Seimo	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	An eminent monk (FGDB '古林清茂')	7001265
+7001266	月林道皎	\N	Yuè Lín Dào Jiǎo	Geturindoko	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	An eminent monk (BSAD '月林道皎', ID A027739)	7001266
+7001267	石室善玖	\N	Shí Shì Shàn Jiǔ	Sekishitsu Zenkyū	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1294-1389; an eminent monk (FGDB '石室善玖')	7001267
+7001268	行霆	\N	Xíng Tíng	Xing Ting	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	Song Dynasty writer (BSAD '行霆', ID A000424)	7001268
+7001269	实叉难陀	實叉難陀	Shí Chā Nán Tuó	Śiksānanda / Siksananda	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Śiksānanda, 652-710; Tang scholar and translator from Khotan (FGDB '實叉難陀')	7001269
+7001270	谛观	諦觀	dìguān	Chegwan	proper noun	师父	Monastic	佛教	Buddhism	韓國	Korea	\N	\N	Korean monk who lived in China during the Tang, compiled 《天台四教儀》 ”Outline of the Tiantai Fourfold Teachings” (Chegwan et. al. 1983, p. 21; Ding '諦觀'; FGDB '諦觀'; T 1931)	7001270
+7001271	施乞叉难陀	施乞叉難陀	Shī Qǐ Chā Nán Tuó	Siksananda	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 實叉難陀 (FGDB '實叉難陀')	7001271
+7001272	大方广佛华严经	大方廣佛華嚴經	Dàfang Guǎng Fó Huáyán Jīng	Avataṃsakasūtra / Avatamsaka Sutra / Flower Garland Sūtra / Flower Adornment Sutra / Dafang Guang Fo Huayan Jing / Huayan Jing	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: avataṃsakasūtra, Japanese: Kegongyō; also known as the buddhāvataṃsakasūtra, an influential text in East Asian Buddhism (BL 'avataṃsakasūtra'; FGDB '大方廣佛華嚴經'; T 278, 279; KDC 79, 80)	7001272

@@ -564,7 +564,6 @@ gcloud beta compute backend-services add-backend $LB_SERVICE \
     --global \
     --network-endpoint-group=$NEG \
     --network-endpoint-group-region=$REGION
-
 ```
 
 Create a matcher for the NEG backend service
