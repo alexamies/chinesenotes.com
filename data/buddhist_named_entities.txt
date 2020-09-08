@@ -1270,3 +1270,18 @@
 7001270	谛观	諦觀	dìguān	Chegwan	proper noun	师父	Monastic	佛教	Buddhism	韓國	Korea	\N	\N	Korean monk who lived in China during the Tang, compiled 《天台四教儀》 ”Outline of the Tiantai Fourfold Teachings” (Chegwan et. al. 1983, p. 21; Ding '諦觀'; FGDB '諦觀'; T 1931)	7001270
 7001271	施乞叉难陀	施乞叉難陀	Shī Qǐ Chā Nán Tuó	Siksananda	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 實叉難陀 (FGDB '實叉難陀')	7001271
 7001272	大方广佛华严经	大方廣佛華嚴經	Dàfang Guǎng Fó Huáyán Jīng	Avataṃsakasūtra / Avatamsaka Sutra / Flower Garland Sūtra / Flower Adornment Sutra / Dafang Guang Fo Huayan Jing / Huayan Jing	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: avataṃsakasūtra, Japanese: Kegongyō; also known as the buddhāvataṃsakasūtra, an influential text in East Asian Buddhism (BL 'avataṃsakasūtra'; FGDB '大方廣佛華嚴經'; T 278, 279; KDC 79, 80)	7001272
+7001273	斯瓦扬布寺	斯瓦揚布寺	Sīwǎyángbù Sì	Swayambhu	proper noun	寺院	Monastery	佛教	Buddhism	\N	\N	\N	\N	Also known as Monkey Temple, located in Kathmandu, Nepal (Wikipedia '斯瓦扬布纳特')	7001273
+7001274	托林寺	\N	Tuōlín Sì	Tholing Monastery	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	In Tibet (Wikipedia '托林寺')	7001274
+7001275	陈那论师	陳那論師	Chénnà Lùnshī	Dignaga / Dignāga	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	See 陳那 (Wikipedia '陳那')	7001275
+7001276	达磨阇那	達磨闍那	dámó shénà	Gautama Dharmaprajña	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 瞿昙法智 (BSAD '瞿昙法智', ID A001879)	7001276
+7001277	法智	\N	fǎzhì	Gautama Dharmaprajña	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 瞿昙法智 (BSAD '瞿昙法智', ID A001879)	7001277
+7001278	觉音	覺音	Juéyīn	Buddhaghoṣa / Buddhaghosa	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 佛音 *FGDB '佛音'	7001278
+7001279	岗布巴	崗布巴	Gǎng Bù Bā	Gampopa / Gampopa Sonam Rinchen	proper noun	师父	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1079–1153; Established the Kagyu school of Tibetan Buddhism (Wikipedia '岡波巴')	7001279
+7001280	密勒日巴	\N	mìlēirìbā	Milarepa / Milaraspa	proper noun	师父	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	(c. 1052—c. 1135 CE) one of Tibet's most famous yogis and poets (BL 'Milaraspa'; FGDB '密勒日巴'; Wikipedia '密勒日巴脫巴噶')	7001280
+7001281	瑜伽师地论	瑜伽師地論	yújiā Shī Dì Lùn	Yogācārabhūmiśāstra / Yogacarabhumi Sastra / Discourse on the Stages of Yogic Practice	proper noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The definitive text of the Yogācāra school of Buddhism, 300 and 350 CE (KDC 570; T 1579; Hsing Yun and Miao Guang trans. 2016, p. 374) 	7001281
+7001282	十七地论	十七地論	Shí Qī Dì Lùn	Yogācārabhūmiśāstra / Discourse on the Stages of Yogic Practice	proper noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The definitive text of the Yogācāra school of Buddhism, 300 and 350 CE (FGDB '十七地論')	7001282
+7001283	瑜伽论	瑜伽論	yújiā Lùn	Yogācārabhūmiśāstra / Discourse on the Stages of Yogic Practice	proper noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 瑜伽師地論 (FGDB '瑜伽師地論') 	7001283
+7001284	大乘庄严经论	大乘莊嚴經論	Dàchéng Zhuāngyán Jīnglùn	Mahāyānasūtralāṃkāraśāstra / The Adornment of Mahāyāna Sūtras	proper noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Mahāyānasūtralāṃkāraśāstra; a major work of Buddhist philosophy attributed to Asaṅga (KDC 586; T 1604) 	7001284
+7001285	竺仙梵仙	竺仙梵僊	Zhú Xiān Fàn Xiān	Jikusen Bonsen	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1292-1348; Japanese monk (Wikipedia '竺仙梵仙')	7001285
+7001286	达磨般若	達磨般若	dámóbōrě	Gautama Dharmaprajña	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 瞿昙法智 (BSAD '瞿昙法智', ID A001879)	7001286
+7001287	分别善恶报应经	分別善惡報應經	Fēnbié Shàn È Bào Yīng Jīng	Fenbie Shan E Bao Ying Jing / Śukasūtra	proper noun	经	Sutra	佛教	Buddhism	Theravāda	上座部佛教	\N	\N	Sanskrit equivalent: Śukasūtra; a sūtra in the Āgama section of the Chinese Buddhist Canon (T 81; KDC 'K 1098')	7001287

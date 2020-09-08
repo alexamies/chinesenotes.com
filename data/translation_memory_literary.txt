@@ -655,3 +655,6 @@
 3000655	专力	專力	zhuān lì	concentrate energy	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 59)	3000655
 3000656	承祖	\N	chéng zǔ	to receive an inheritance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承祖', p. 51)	3000656
 3000657	石承	\N	shí chéng	the base of a stone	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '石承', p. 51)	3000657
+3000658	竹杖	\N	zhú zhàng	a bamboo staff	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 59)	3000658
+3000659	隔其道	\N	gé qí dào	intercepted along the road	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 59)	3000659
+3000660	亡害	\N	wánghài	avoid harm	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 59)	3000660

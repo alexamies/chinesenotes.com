@@ -520,7 +520,8 @@ gcloud run deploy --platform=managed $SERVICE \
 --set-env-vars DBPASSWORD="$DBPASSWORD" \
 --set-env-vars DATABASE="$DATABASE" \
 --set-env-vars TEXT_BUCKET="$TEXT_BUCKET" \
---set-env-vars CNREADER_HOME="/"
+--set-env-vars CNREADER_HOME="/" \
+--set-env-vars AVG_DOC_LEN="4497"
 ```
 
 Test it with the command
@@ -566,6 +567,14 @@ gcloud beta compute backend-services add-backend $LB_SERVICE \
     --network-endpoint-group-region=$REGION
 ```
 
+Create a URL map
+
+```shell
+URL_MAP=[your url map name]
+gcloud compute url-maps create $URL_MAP \
+    --default-backend-bucket $BACKEND_BUCKET
+```
+
 Create a matcher for the NEG backend service
 
 ```shell
@@ -576,18 +585,9 @@ gcloud compute url-maps add-path-matcher $URL_MAP \
     --path-rules="/find/*=$LB_SERVICE,/findadvanced/*=$LB_SERVICE,/findmedia/*=$LB_SERVICE,/findsubstring=$LB_SERVICE,/findtm=$LB_SERVICE"
 ```
 
-Configure the load balancer
+Configure the target proxy
 
 ```shell
-URL_MAP=cnotes-map-prod
-gcloud compute url-maps create $URL_MAP \
-    --default-backend-bucket $BACKEND_BUCKET
-MATCHER_NAME=cnotes-url-matcher-prod
-gcloud compute url-maps add-path-matcher $URL_MAP \
-    --default-backend-bucket $BACKEND_BUCKET \
-    --path-matcher-name $MATCHER_NAME \
-    --path-rules="/find/*=$BACKEND_NAME,/findadvanced/*=$BACKEND_NAME,/findmedia/*=$BACKEND_NAME,/findsubstring,/findtm=$BACKEND_NAME,/findtm=$BACKEND_NAME"
-
 TARGET_PROXY=cnotes-lb-proxy-prod
 gcloud compute target-http-proxies create $TARGET_PROXY \
     --url-map $URL_MAP
@@ -613,60 +613,35 @@ gcloud compute url-maps list
 gcloud compute url-maps describe $URL_MAP
 ```
 
-### Service Account Access to Text Files for Full Text Search
-Save the credentials.json file created above to a Kubernetes secret with the
-command
+To update the load balancer
 
-```
-kubectl create secret generic cnotes-app-key \
-  --from-file=key.json=credentials.json
+```shell
+gcloud compute url-maps edit $URL_MAP
 ```
 
-This should match the ```GOOGLE_APPLICATION_CREDENTIALS``` environment variable
-and also the ```volumes``` and ```volumeMounts``` entries in the 
-app-deployment.yaml file.
+### HTTPS Setup
 
-### Troubleshooting
-SSH to another VM and try sending a HTTP request via curl to the internal IP
-of the VM hosting the GKE cluster:
-```
-INTERNAL_IP={The IP}
-curl http://$INTERNAL_IP:30080/find/?query=hello
-```
-
-Check that the instance group has a named port, so that the load balancer can
-send traffic to it, and that the port name in the LB configuration matches
-the instance group port name.
-
-### Update App in Kubernetes Cluster
-
-To update an existing deployment using the GCP Container Registry
-
-```
-# Make edits
-kubectl apply -f kubernetes/app-deployment.yaml
-kubectl apply -f kubernetes/app-service.yaml
-```
-### HTTPS SEtup
 Create an SSL cert
-```
-SSL_CERTIFICATE_NAME=cnotes-cert
-DOMAIN=chinesenotes.com
-gcloud beta compute ssl-certificates create $SSL_CERTIFICATE_NAME \
-    --domains $DOMAIN
+
+```shell
+SSL_CERTIFICATE_NAME=[your cert name]
+DOMAIN=[your domain]
+gcloud compute ssl-certificates create $SSL_CERTIFICATE_NAME --domains=$DOMAIN
 ```
 
 Create a target proxy
-```
-SSL_TARGET_PROXY=cnotes-target-proxy-ssl
+
+```shell
+SSL_TARGET_PROXY=[your proxy]
 gcloud compute target-https-proxies create $SSL_TARGET_PROXY \
     --url-map=$URL_MAP \
     --ssl-certificates=$SSL_CERTIFICATE_NAME
 ```
 
 Create a forwarding rule
-```
-SSL_FORWARDING_RULE=cnotes-forwarding-rule-prod-ssl
+
+```shell
+SSL_FORWARDING_RULE=[your forwarding rule]
 gcloud compute forwarding-rules create $SSL_FORWARDING_RULE \
     --address $STATIC_IP \
     --ports=443 \
