@@ -1293,3 +1293,6 @@
 7001293	月称	月稱	Yuè Chēng	Candrakirti	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: Candrakīrti an Indian scholar, a khenpo of Nālandā Mahāvihāra, and a disciple of Nāgārjuna (FGDB '月稱')	7001293
 7001294	那烂陀寺	那爛陀寺	Nàlàntuósì	Nālandā Temple	proper noun	寺院	Monastery	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: nālandā, Japanese: Narandaji; the temple and university that was an important Buddhist center in ancient India (BL 'Nālandā'; FGDB '那爛陀寺')	7001294
 7001295	经量部	經量部	Jīngliàngbù	Sautrāntika / Sautrantika	proper noun	\N	\N	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: sautrāntika, Japanese: Kyōryōbu; literally, 'followers of the sūtras', the Sautrāntika were an early Indian Buddhist school (BL 'Sautrāntika'; FGDB '經量部')	7001295
+7001296	法盛	\N	fǎshèng	Fasheng	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	A Chinese monk who lived during the Northern dynasties, translated some texts in the Chinese Buddhist canon (FGDB '法盛')	7001296
+7001297	清辩	清辯	Qīng Biàn	Bhāviveka	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 清辨 (FGDB '清辨')	7001297
+7001298	马鸣	馬鳴	Mǎ Míng	Aśvaghoṣa / Asvaghosa	proper noun	法师	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: Aśvaghoṣa, c. 80-150 CE an Indian philosopher-poet, known for composition of the 佛所行讚 Buddhacarita (BL 'Aśvaghoṣa'; KDC '980'; T 192).	7001298
