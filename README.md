@@ -419,7 +419,7 @@ docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
 Or use Cloud Build
 
 ```shell
-export BUILD_ID=r161
+export BUILD_ID=r162
 gcloud builds submit --config cloudbuild.yaml . \
   --substitutions=_IMAGE_TAG="$BUILD_ID"
 ```
@@ -473,8 +473,8 @@ the Cloud Console.
 
 Connect to the instance from a VM
 ```
-INSTANCE=cnotes
-gcloud sql connect $INSTANCE --user=root
+DB_INSTANCE=[your database instance]
+gcloud sql connect $DB_INSTANCE --user=root
 ```
 
 Execute statements in first_time_setup.sql and corpus_index.ddl to define
