@@ -1324,3 +1324,11 @@
 7001324	真谛	真諦	zhēndì	Paramartha / Paramartha / Paramārtha / Paramartha	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: paramārtha, c. 491-569 CE, well known translator (BL 'Paramārtha'; FGDB '真諦'); FGS translation standard: Paramartha / Paramartha (FGDB '真諦')	7001324
 7001325	夏鲁寺	夏魯寺	xiàlǔ sì	Shalu Monastery	proper noun	寺	Temple	佛教	Buddhism	西藏	Tibet	\N	\N	(Wikipedia '夏鲁寺')	7001325
 7001326	布敦	\N	Bù Dūn	Buton Rinchen Drub	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	1290-1364; important figure in Tibetan history (Wikipedia '布敦')	7001326
+7001327	桑耶寺	\N	Sāngyē Sì	Samye Monastery	proper noun	寺	Temple	佛教	Buddhism	西藏	Tibet	\N	\N	The first Buddhist monastery built in Tibet, originally built c. 775 (Wikipedia '桑耶寺')	7001327
+7001328	夏鲁	夏魯	xiàlǔ	Shalu Monastery	proper noun	寺	Temple	佛教	Buddhism	西藏	Tibet	\N	\N	(FGDB '夏魯寺')	7001328
+7001329	佛陀扇多	\N	fótuóshànduō	Buddhaśānta	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Indian monk who travelled to China in the Northern Wei (FGDB '佛陀扇多')	7001329
+7001330	金毗罗	金毗羅	jīnpíluó	Kapphiṇa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶劫賓那 (SH '劫賓那', p. 233)	7001330
+7001331	摩诃劫宾宁	摩訶劫賓寧	móhējiébīnníng	Mahākalpina	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶劫賓那 (FGDB '摩訶劫賓那')	7001331
+7001332	摩诃劫比拏	摩訶劫比拏	móhējiébìná	Mahākalpina	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶劫賓那 (FGDB '摩訶劫賓那')	7001332
+7001333	摩诃罽宾那	摩訶罽賓那	móhējìbīnnà	Mahākalpina	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶劫賓那 (FGDB '摩訶劫賓那')	7001333
+7001334	布顿仁钦珠	布頓仁欽珠	Bù Dùn Rén Qīn Zhū	Bu Ston Rin Chen Grub	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	(Wikipedia '仁欽桑布')	7001334

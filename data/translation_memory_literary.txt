@@ -659,3 +659,6 @@
 3000659	隔其道	\N	gé qí dào	intercepted along the road	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 59)	3000659
 3000660	亡害	\N	wánghài	avoid harm	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 59)	3000660
 3000661	王印	\N	wáng yìn	royal seal	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (Wylie 1880, p. 59)	3000661
+3000662	相攻	\N	xiāng gōng	at war with each other	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (Wylie 1880, p. 62)	3000662
+3000663	道远	道遠	dào yuǎn	great distance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (Wylie 1880, p. 62)	3000663
+3000664	木象	\N	mù xiàng	wooden image	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (Wylie 1880, p. 62)	3000664
