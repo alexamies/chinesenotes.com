@@ -662,3 +662,6 @@
 3000662	相攻	\N	xiāng gōng	at war with each other	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (Wylie 1880, p. 62)	3000662
 3000663	道远	道遠	dào yuǎn	great distance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (Wylie 1880, p. 62)	3000663
 3000664	木象	\N	mù xiàng	wooden image	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (Wylie 1880, p. 62)	3000664
+3000665	承交	\N	chéng jiāo	take over responsibility for a task	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承交', p. 51)	3000665
+3000666	承允	\N	chéng yǔn	to permit	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承允', p. 51)	3000666
+3000667	承典	\N	chéng diǎn	to take a loan	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承典', p. 51)	3000667

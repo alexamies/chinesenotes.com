@@ -6656,3 +6656,5 @@
 6006656	简明中国历史地图集	簡明中國歷史地圖集	jiǎnmíng zhōngguó lìshǐ dìtújí	Concise Historical Atlas of China	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	Title of an atlas (Hong Genshou ed. 1996)	6006656
 6006657	世界宗教研究	\N	shìjiè zōngjiāo yánjiū	Studies in World Religions	proper noun	期刊	Periodical	现代汉语	Modern Chinese	宗教	Religion	\N	\N	Published in 1979, China (WorldCat '世界宗教研究')	6006657
 6006658	远见．天下文化事业群	遠見．天下文化事業群	yuǎnjiàntiānxiàwénhuàshìyèqún	Global Views - Commonwealth Publishing Group	proper noun	\N	\N	现代汉语	Modern Chinese	台灣	Taiwan	\N	\N	https://www.cwgv.com.tw/	6006658
+6006659	中国共产党第十六次全国代表大会	中國共產黨第十六次全國代表大會	Zhōngguó Gòngchǎn Dǎng dì shíliù cì quánguó dàibiǎo dàhuì	16th National Congress of the Communist Party of China	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	(Wikipedia '中國共產黨第十六次全國代表大會')	6006659
+6006660	蒲美蓬	\N	púměipéng	Bhumibol Adulyadej	noun	君主	Monarch	历史	History	泰国	Thailand	\N	\N	1927-2016; King of Thailand (Wikipedia '蒲美蓬')	6006660

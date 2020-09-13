@@ -1277,7 +1277,7 @@
 7001277	法智	\N	fǎzhì	Gautama Dharmaprajña	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 瞿昙法智 (BSAD '瞿昙法智', ID A001879)	7001277
 7001278	觉音	覺音	Juéyīn	Buddhaghoṣa / Buddhaghosa	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 佛音 *FGDB '佛音'	7001278
 7001279	岗布巴	崗布巴	Gǎng Bù Bā	Gampopa / Gampopa Sonam Rinchen	proper noun	师父	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	1079–1153; Established the Kagyu school of Tibetan Buddhism (Wikipedia '岡波巴')	7001279
-7001280	密勒日巴	\N	mìlēirìbā	Milarepa / Milaraspa	proper noun	师父	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	(c. 1052—c. 1135 CE) one of Tibet's most famous yogis and poets (BL 'Milaraspa'; FGDB '密勒日巴'; Wikipedia '密勒日巴脫巴噶')	7001280
+7001280	密勒日巴	\N	mìlēirìbā	Milarepa / Milaraspa	proper noun	师父	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	C. 1052—c. 1135 CE; one of Tibet's most famous yogis and poets (BL 'Milaraspa'; FGDB '密勒日巴'; Wikipedia '密勒日巴脫巴噶')	7001280
 7001281	瑜伽师地论	瑜伽師地論	yújiā Shī Dì Lùn	Yogācārabhūmiśāstra / Yogacarabhumi Sastra / Discourse on the Stages of Yogic Practice	proper noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The definitive text of the Yogācāra school of Buddhism, 300 and 350 CE (KDC 570; T 1579; Hsing Yun and Miao Guang trans. 2016, p. 374) 	7001281
 7001282	十七地论	十七地論	Shí Qī Dì Lùn	Yogācārabhūmiśāstra / Discourse on the Stages of Yogic Practice	proper noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The definitive text of the Yogācāra school of Buddhism, 300 and 350 CE (FGDB '十七地論')	7001282
 7001283	瑜伽论	瑜伽論	yújiā Lùn	Yogācārabhūmiśāstra / Discourse on the Stages of Yogic Practice	proper noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 瑜伽師地論 (FGDB '瑜伽師地論') 	7001283
@@ -1313,8 +1313,8 @@
 7001313	菩提流支	\N	Pútíliúzhī	Bodhiruci	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	-727; Indian monk who travelled to China in the Northern Wei.  Translated the Shorter Sukhāvati Sutra and a version of the Diamond Sūtra (T 236a and T 236b) included in the Taishō Tripiṭaka (BL 'Bodhiruci'; FGDB '菩提流支').	7001313
 7001314	仁钦桑波	仁欽桑波	Rénqīn Sāngbù	Rinchen Zangpo	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	958–1055; Translator of Sanskrit Buddhist text to Tibetan (Wikipedia '仁欽桑布')	7001314
 7001315	林亲桑坡	林親桑坡	Línqīn Sāngpō	Rinchen Zangpo	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	958–1055; Translator of Sanskrit Buddhist text to Tibetan (FGDB '西藏佛教')	7001315
-7001316	仁钦藏卜	仁欽藏卜	rénqīn zàngbo	Rinchen Zangpo	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	(958–1055) translator of Sanskrit Buddhist text to Tibetan (FGDB '仁欽桑波'; Wikipedia '仁欽桑布')	7001316
-7001317	宝贤译师	寶賢譯師	Bǎo Xián Yì Shī	Rinchen Zangpo	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	(958–1055) translator of Sanskrit Buddhist text to Tibetan (FGDB '仁欽桑波')	7001317
+7001316	仁钦藏卜	仁欽藏卜	rénqīn zàngbo	Rinchen Zangpo	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	958–1055; Translator of Sanskrit Buddhist text to Tibetan (FGDB '仁欽桑波'; Wikipedia '仁欽桑布')	7001316
+7001317	宝贤译师	寶賢譯師	Bǎo Xián Yì Shī	Rinchen Zangpo	proper noun	法师	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	958–1055; translator of Sanskrit Buddhist text to Tibetan (FGDB '仁欽桑波')	7001317
 7001318	马尔巴	馬爾巴	Mǎ Ěr Bā 	Marpa Lotsawa / Marpa	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	1012–1097; Indian monk who travelled to Tibet (Wikipedia '馬爾巴')	7001318
 7001319	三藏沙门义净	三藏沙門義淨	Sān Zàng Shāmén Yì Jìng	Venerable Yi Jing / Venerable Yijing	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 義淨 (FGDB '義淨')	7001319
 7001320	宗喀吧	\N	zōngkābā	Tsongkhaba	proper noun	师父	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	Variant of 宗喀巴 (Wikipedia '宗喀巴')	7001320
@@ -1332,3 +1332,74 @@
 7001332	摩诃劫比拏	摩訶劫比拏	móhējiébìná	Mahākalpina	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶劫賓那 (FGDB '摩訶劫賓那')	7001332
 7001333	摩诃罽宾那	摩訶罽賓那	móhējìbīnnà	Mahākalpina	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶劫賓那 (FGDB '摩訶劫賓那')	7001333
 7001334	布顿仁钦珠	布頓仁欽珠	Bù Dùn Rén Qīn Zhū	Bu Ston Rin Chen Grub	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	(Wikipedia '仁欽桑布')	7001334
+7001335	大慧	\N	dàhuì	Dahui Zonggao / Zonggao	proper noun	法师	Monastic	佛教	Buddhism	禅宗	Chan	\N	\N	See 大慧宗杲 (Wikipedia '大慧宗杲')	7001335
+7001336	南羯罗主	南羯羅主	nánjiéluózhǔ	Samkarasvamin / śamkarasvāmin	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: śamkarasvāmin; 6th century Indian logician, a student of Dignāga and author of 《因明入正理論》 ”Nyāyapraveśa” 'Primer on Logic' (BL 'śamkarasvāmin'; FGDB '商羯羅主'; T 1630)	7001336
+7001337	商羯罗主	商羯羅主	shāngjiéluózhǔ	Samkarasvamin / śamkarasvāmin	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 南羯羅主 (FGDB '商羯羅主')	7001337
+7001338	入正理论	入正理論	rùzhènglǐ lùn	Nyāyapraveśa / Primer on Logic	proper noun	论	Treatise	佛教	Buddhism	印度	India	\N	\N	See 因明入正理論 (FGDB '入正理論')	7001338
+7001339	商羯罗塞缚弥	商羯羅塞縛彌	shāngjiéluósāifúmí	Samkarasvamin / śamkarasvāmin	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 南羯羅主 (FGDB '商羯羅主')	7001339
+7001340	骨鏁主	\N	gǔsuǒzhǔ	Samkarasvamin / śamkarasvāmin	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 南羯羅主 (FGDB '商羯羅主')	7001340
+7001341	文备	文備	wén bèi	Wen Bei	set phrase	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	926-985; Song dynasty monastic from Fujian (FGDB '文備')	7001341
+7001342	胜庄	勝莊	shèngzhuāng	Seungjang	proper noun	师父	Monastic	佛教	Buddhism	韓國	Korea	\N	\N	Korean monastic who travelled to China in the Tang (FGDB '勝莊'; Yeongsu, Gim. 2017. ”Sheaves of Korean Buddhist History: Joseon Bulgyosa-Go”, Seoul, Korea: Jogye Order of Korean Buddhism)	7001342
+7001343	吉达利	吉達利	jídálì	Jitari / Jetari	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Indian Monastic the 10-11th centuries (FGDB '吉達利')	7001343
+7001344	龙安寺	龍安寺	lóngānsì	Ryōanji temple	proper noun	寺院	Monastery	佛教	Buddhism	日本	Japan	\N	\N	In northwest Kyōto 京都, Japan with famous rock garden (CC-CEDICT '龍安寺'; Wikipedia '龍安寺')	7001344
+7001345	善化寺	\N	Shàn Huà Sì	Shan Hua Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Datong in northern Shanxi (Wikipedia '善化寺')	7001345
+7001346	佛宫寺	佛宮寺	Fó Gōng Sì	Fogong Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Ying County in northern Shanxi (FGDB '佛宮寺')	7001346
+7001347	佛宫寺释迦塔	佛宮寺釋迦塔	Fó gōng sì Shìjiā tǎ	Pagoda of Fogong Temple / Ying Xian Wooden Pagoda / Fogong Temple Sakyamuni Pagoda	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Pagoda in Ying County in northern Shanxi (FGDB '佛宫寺释迦塔')	7001347
+7001348	应县木塔	應縣木塔	Yīng Xiàn Mù Tǎ	Pagoda of Fogong Temple / Ying Xian Wooden Pagoda / Fogong Temple Sakyamuni Pagoda	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	See 佛宫寺释迦塔 (Wikipedia '佛宫寺释迦塔')	7001348
+7001349	无学	無學	wúxué	Muhak	proper noun	法师	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	1327~1405; Korean monk (Wikipedia '無學 (朝鮮)')	7001349
+7001350	羊土幻显殿	羊土幻顯殿	Yáng Tǔ Huàn Xiǎn Diàn	Jokhang Temple / Rasa Tulnang Tsuklakang	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	(FGS Encyclopedia of Buddhist Arts; Wikipedia '大昭寺')	7001350
+7001351	觉康	覺康	Juékāng	Jokhang Temple / Zuglagkang	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan pinyin: Qokang; Wylie: Jo-khang; Tibetan: ཇོ་ཁང།; temple in Lhasa (Wikipedia '大昭寺')	7001351
+7001352	祖拉康	\N	zǔlākāng	Jokhang Temple / Zuglagkang	proper noun	寺院	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan pinyin: Qokang; Wylie: Jo-khang; Tibetan: ཇོ་ཁང།; temple in Lhasa. This form is similar to the alternate Tibetan name Zuglagkang (Wikipedia '大昭寺')	7001352
+7001353	扎塘寺	\N	Zhātáng Sì	Grathang Monastery / Zhatang Temple	proper noun	寺	Monastery	佛教	Buddhism	西藏	Tibet	\N	\N	(Wikipedia '扎塘寺')	7001353
+7001354	摩诃迦匹那	摩訶迦匹那	móhējiāpǐnà	Mahākalpina	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶劫賓那 (FGDB '摩訶劫賓那')	7001354
+7001355	摩诃金毘罗	摩訶金毘羅	móhējīnpíluó	Mahākalpina	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶劫賓那 (FGDB '摩訶劫賓那')	7001355
+7001356	大劫宾那	大劫賓那	dàjiébīnnà	Mahākalpina	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 摩訶劫賓那 (FGDB '摩訶劫賓那')	7001356
+7001357	毕陵伽婆蹉	畢陵伽婆蹉	bìlíngjiāpócuō	Pilindavatsa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: pilindavatsa, Pali: pilindavaccha, Japanese: Hitsuryōgabasha; a direct disciple of the Buddha (BL 'Pilindavatsa'; FGDB '畢陵伽婆蹉'; SH '畢陵伽婆蹉', p. 361)	7001357
+7001358	毕陵伽筏蹉	畢陵伽筏蹉	bìlíngjiāfácuō	Pilindavatsa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 畢陵伽婆蹉 (FGDB '畢陵伽婆蹉')	7001358
+7001359	达摩笈多	達摩笈多	Dámó Jíduō	Dharmagupta	proper noun	师父	Monastic	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Indian monk and translator who travelled to China in the Sui Dynasty (BL 'Dharmagupta'; FGDB '達摩笈多')	7001359
+7001360	龙兴寺	龍興寺	Lóng Xīng Sì	Long Xing Temple	proper noun	寺	Monastery	佛教	Buddhism	\N	\N	\N	\N	Historic temple near Qingzhou, Shandong (Wikipedia '龙兴寺')	7001360
+7001361	憨山大师	憨山大師	Hānshān Dàshī	Hanshan / Master Hanshan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1546-1623; One of the four masters of the Ming Dynasty; FGS translation standard: Hanshan / Master Hanshan (Faxiang, p. 110)	7001361
+7001362	紫柏大师	紫柏大師	Zǐbó Dàshī	Master Zibo / Zibo Master	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1543-1603; One of the four masters of the Ming Dynasty; FGS translation standard: Master Zibo / Zibo Master (Faxiang, pp. 170-178)	7001362
+7001363	连池大师	連池大師	Liánchí Dàshī	Master Lianchi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1532-1612; One of the four masters of the Ming Dynasty (Faxiang, pp. 170-178)	7001363
+7001364	蕅益大师	蕅益大師	Ǒuyì Dàshī	Master Ouyi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1599-1655; One of the four masters of the Ming Dynasty; FGS translation standard: Master Ouyi (Faxiang, pp. 170-178)	7001364
+7001365	佛护	佛護	Fó Hù	Buddhapalita / Buddhapālita	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	C. 470 – 550; Buddhist monk (Wikipedid '佛護')	7001365
+7001366	施护	施護	Shī Hù	 Dānapāla / Danapala	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent:  dānapāla, Indian Buddhist monk who travelled to China during the Northern Song (BL 'Dānapāla'; FGDB '施護')	7001366
+7001367	瞿摩帝	\N	Qúmódì	Gomati Monastery	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Mentioned in Records of Buddhistic Kingdoms (BSPAD '瞿摩帝大寺', ID PL000000047980)	7001367
+7001368	佛馱跋陀罗	佛馱跋陀羅	fóduòbátuóluó	   Buddhabhadra	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Monk from India that stayed in China during the fourth century (FGDB '佛馱跋陀羅')	7001368
+7001369	释法显	釋法顯	Shì Fǎ Xiǎn	Fa Xian	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 法顯 (Wikipedia '法显')	7001369
+7001370	毕邻陀婆蹉	畢鄰陀婆蹉	bìlíntuópócuō	Pilindavatsa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 畢陵伽婆蹉 (FGDB '畢陵伽婆蹉')	7001370
+7001371	毕兰陀筏蹉	畢蘭陀筏蹉	bìlántuófácuō	Pilindavatsa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 畢陵伽婆蹉 (FGDB '畢陵伽婆蹉')	7001371
+7001372	比利陀婆遮	\N	bìlìtuópózhē	Pilindavatsa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 畢陵伽婆蹉 (FGDB '畢陵伽婆蹉')	7001372
+7001373	日莲	日蓮	rìlián	Nichiren	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1222 - 1282; Japanese monastic know for devotion to the Lotus Sutra (Ding '日蓮'; FGDB '日蓮'; SH '日蓮'; Wikipedia '日蓮')	7001373
+7001374	天隆寺	\N	tiānlóng sì	Tianlong Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Nanjing (BSPAD '天隆寺')	7001374
+7001375	法然	\N	fǎrán	Hōnen	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1133– 1212; considered the founder of the Jōdo sect (Matsuo 2007, p. 9)	7001375
+7001376	漆间势至丸	漆間勢至丸	qījiānshìzhìwán	Uruma Seishimaru	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	Secular name for 法然 Hōnen (Matsuo 2007, p. 9)	7001376
+7001377	源空	\N	yuánkōng	Genkū	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	Formal monastic name for 法然 Hōnen (Matsuo 2007, p. 9)	7001377
+7001378	行基	\N	xíngjī	Gyōki	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	668–749; Japanese monk (Matsuo 2007, p. 21)	7001378
+7001379	释昙无竭	釋曇無竭	Shì Tánwújié	   Dharmodgata	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk from Youzhou mentioned in the Liang Biographies of Eminent Monks, Scroll 3 梁高僧傳卷第三 (FGDB '曇無竭菩薩')	7001379
+7001380	昙无竭	曇無竭	tánwújié	Dharmodgata	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk from Youzhou mentioned in the Liang Biographies of Eminent Monks, Scroll 3 梁高僧傳卷第三 (T 2059; FGDB '曇無竭')	7001380
+7001381	浮陀跋摩	\N	Fútuóbámó	Buddhavarman	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk from the Western Regions who travelled to China c 437, mentioned in the Liang Biographies of Eminent Monks, Scroll 3 梁高僧傳卷第三, translated 《阿毘曇毘婆沙論》 Abhidharmavibhāṣāśāstra, which is included in the Chinese Buddhist canon (FGDB '浮陀跋摩'; KDC 951; T 1546)	7001381
+7001382	智严	智嚴	Zhì Yán	Zhi Yan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	350-427; Monk from Gansu who travelled to China in the Eastern Jin, mentioned in the Liang Biographies of Eminent Monks, Scroll 3 梁高僧傳卷第三 (FGDB '智嚴')	7001382
+7001383	宝云	寶雲	Bǎo Yún	Bao Yun	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	376-449; Monk from Gansu mentioned in the Liang Biographies of Eminent Monks, Scroll 3 Scroll 3 梁高僧傳卷第三 (FGDB '寶雲')	7001383
+7001384	地婆诃罗	地婆訶羅	Dìpóhēluó	Divākara	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: divākara. Divākara was an Indian monk who travelled to China in the Tang. He translated the lalitavistara (T 187; BL 'Lalitavistara'; FGDB '地婆訶羅'; KDC 'K 111').	7001384
+7001385	昙果	曇果	Tán Guǒ	Tan Guo	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	A monastic from the Western Regions wo travelled to China in the Eastern Jin; translated Zhong Benqi Jing 《中本起經》 (T 196; FGDB '曇果'; KDC 'K 664')	7001385
+7001386	药山惟俨	藥山惟儼	yàoshān wéiyǎn	Yaoshan Weiyan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	751-834; Chan master from Shanxi (FGDB '藥山惟儼')	7001386
+7001387	药山	藥山	yàoshān	Yaoshan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 藥山惟儼 (FGDB '藥山惟儼')	7001387
+7001388	兴起行经	興起行經	Xīngqǐ Xíng Jīng	Xingqi Xing Jing	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	A text in the Chinese Buddhist canon (T 197; KDC 'K 804')	7001388
+7001389	义足经	義足經	Yì Zú Jīng	Yi Zu Jing / Arthavargīyasūtra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Arthavargīyasūtra. A text in the Chinese Buddhist canon (T 198; KDC 'K 800')	7001389
+7001390	临济义玄	臨濟義玄	Línjì yìxuán	Linji Yixuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Japanese: Rinzai Gigen; ?-866; Founder of the Linji school of Chán Buddhism (BL 'Linji Yixuan', p. 476; FGDB '臨濟義玄')	7001390
+7001391	求那跋摩	\N	Qiúnàbámó	Guṇaśāla	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 功德直 (FGDB '功德直')	7001391
+7001392	僧伽跋摩	\N	Sēngjiābámó	Saṅghavarman / Sajghavarman	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk from India who travelled to China in the 劉宋 Liu Song, mentioned in the 梁高僧傳卷第三 Liang Biographies of Eminent Monks, Scroll 3 (FGDB '僧伽跋摩')	7001392
+7001393	昙摩密多	曇摩密多	tánmómìduō	Dharma-mitra	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	356-442; Monk from India who travelled to China in the Liu Song, mentioned in the Liang Biographies of Eminent Monks, Scroll 3 梁高僧傳卷第三 (FGDB '曇摩密多')	7001393
+7001394	智猛	\N	Zhì Měng	Zhi Meng	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Liu Song [420 - 479] monk from Shaanxi, mentioned in the Liang Biographies of Eminent Monks, Scroll 3 梁高僧傳卷第三 (FGDB '智猛')	7001394
+7001395	疆良耶舍	\N	jiāngliángyéshè	Kālayaśas	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	356-442; Monk from the Western Regions who travelled to China in the Liu Song, mentioned in the Liang Biographies of Eminent Monks, Scroll 3 梁高僧傳卷第三 (T 1754, Scroll 1)	7001395
+7001396	慧觉	慧覺	Huì Jué	Hui Jue	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	A monastic in the Northern dynasties who translated Buddhist texts, including Damamūka 《賢愚經》 (FGDB '慧覺'; T 202; KDC 'K 983')	7001396
+7001397	竺道生	\N	Zhú Dàoshēng	Zhu Daosheng / Daosheng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	355 - 434 Eastern Jin monk mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七, translated texts that are included in the Chinese Buddhist canon (FGDB '竺道生'; KDC 895; T 1421)	7001397
+7001398	慧叡	\N	Huì Ruì	Hui Rui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	355-439; Liu Song dynasty monk from Hebei mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (FGDB '慧叡')	7001398
+7001399	慧严	慧嚴	Huì Yán	Hui Yan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	363 - 443 Liu Song dynasty monk from Anhui mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (FGDB '慧嚴')	7001399
+7001400	日称	日稱	Rì Chēng	Ri Cheng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Indian monastic who travelled to China in the Northern Song, translated Pitāputrasamāgama / Fu Zi He Ji Jing 《父子合集經》 (FGDB '日稱'; T 320; KDC 1496)	7001400
+7001401	求那毘地	\N	Qiúnàpídì	Guṇavṛddhi / Gunavrddhi	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	? - 502, Monk from India who travelled to China, mentioned in the Liang Biographies of Eminent Monks, Scroll 3 梁高僧傳卷第三 (FGDB '求那毘地')	7001401
+7001402	释慧皎	釋慧皎	Shì Huìjiǎo	Hui Jiao	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 慧皎 (FGDB '慧皎')	7001402
+7001403	慧皎	\N	Huìjiǎo	Hui Jiao	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	497-554; Liang Monk from Shangyu (in present-day Zhejiang) who compiled the Biographies of Eminent Monks 高僧傳 (FGDB '慧皎')	7001403
+7001404	四朝高僧传	四朝高僧傳	Sì Cháo Gāo Sēng Zhuàn	Four Collections of Biographies of Eminent Monks	proper noun	传	Biography	佛教	Buddhism	中国	China	\N	\N	Starting with the original Biographies of Eminent Monks 高僧传 compiled in the Liang dynasty by Huijiao 慧皎, secondly the Continued Biographies of Eminent Monks 续高僧传 by Dao An in the Tang, thirdly the Song Biographies of Eminent Monks 宋高僧传, and finally the Ming Biographies of Eminent Monks 大明高僧传 (FGDB '四朝高僧傳').	7001404
+7001405	朱士行	\N	Zhū Shìxíng	Zhu Shixing	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	203-282; Wei dynasty monk, the first Chinese monk to travel to the Western Regions, mentioned in the Liang Biographies of Eminent Monks, Scroll 4 梁高僧傳卷第四 (FGDB '朱士行')	7001405

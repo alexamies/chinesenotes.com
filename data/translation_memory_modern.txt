@@ -265,3 +265,10 @@
 5000265	人民利益	\N	rénmín lìyì	interests of the people	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 72-73; CC-CEDICT '人民利益')	5000265
 5000266	承继人	承繼人	chéngjì rén	someone who has right of inheritance	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承繼人', p. 51)	5000266
 5000267	承继权	承繼權	chéngjì quán	the right to inherit	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承繼權', p. 51)	5000267
+5000268	反革命分子	\N	fǎngémìng fènzi	counter-revolutionaries	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 72-73)	5000268
+5000269	维护社会秩序	維護社會秩序	wéihù shèhuì zhìxù	maintain public order	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 74-75)	5000269
+5000270	颠覆活动	顛覆活動	diānfù huódòng	subversion	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 74-75)	5000270
+5000271	承不起	\N	chéng bù qǐ	not able to perform a task	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承不起', p. 51)	5000271
+5000272	泥坨子	\N	ní tuózi	a clump of mud	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '坨')	5000272
+5000273	两坨土	兩坨土	liǎng tuó tǔ	two lumps of dirt	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '坨')	5000273
+5000274	脾气大	脾氣大	píqì dà	very angry	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '脾氣')	5000274
