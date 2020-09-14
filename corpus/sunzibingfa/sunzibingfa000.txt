@@ -1,0 +1,24 @@
+<h4>Source</h4>
+<p>
+  Wikisource, accessed 2020-09-13, <a href="https://zh.wikisource.org/wiki/孫子兵法"
+  >https://zh.wikisource.org/wiki/孫子兵法</a>.
+</p>
+
+<h4>English translation</h4>
+<ol>
+  <li>
+    Giles, Lionel tr. 1910, <i>Sun Tzu on the Art of War</i>,
+    London: Luzac and Company,
+    <a href="https://en.wikisource.org/wiki/The_Art_of_War_(Sun)"
+    >https://en.wikisource.org/wiki/The_Art_of_War_(Sun)</a>
+  </li>
+</ol>
+
+<h4>Discussion</h4>
+<ol>
+  <li>
+    Krzysztof, G and Michael Lowe 1993, “Sun tzu ping fa 孫子兵法,” In
+    Michael Loewe, (ed.), Early Chinese Texts: A Bibliographical Guide,
+    Berkeley: Society for the Study of Early China, pp. 446-455.
+  </li>
+</ol>

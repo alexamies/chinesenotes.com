@@ -1,4 +1,4 @@
-<h4>Sources<h4>
+<h4>Sources</h4>
 <p>
   Partial translation: Wikisource, accessed 2018-05-03, <a href="https://en.wikisource.org/wiki/Translation:Mozi"
   >https://en.wikisource.org/wiki/Translation:Mozi</a>, translation shared under
@@ -13,7 +13,7 @@
     <a href='https://ctext.org/mozi'>https://ctext.org/mozi</a>.
 </p>
 
-<h4>Other English translations<h4>
+<h4>Other English translations</h4>
 <ol>
   <li>
     Graham, Angus Charles 1978, <i>Later Mohist Logic, Ethics, and Science</i>, 
@@ -26,7 +26,7 @@
   </li>
 </ol>
 
-<h4>Discussion<h4>
+<h4>Discussion</h4>
 <ol>
   <li>
     Denecke, Wiebke 2017, 'Chapter 14: Masters (Zi 子),' in 

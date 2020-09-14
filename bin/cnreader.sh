@@ -58,6 +58,7 @@ mkdir $WEB_DIR/analysis/sishuzhangju
 mkdir $WEB_DIR/analysis/songshi
 mkdir $WEB_DIR/analysis/songshu
 mkdir $WEB_DIR/analysis/suishu
+mkdir $WEB_DIR/analysis/sunzibingfa
 mkdir $WEB_DIR/analysis/taixuanjing
 mkdir $WEB_DIR/analysis/taoyuanmingji
 mkdir $WEB_DIR/analysis/weishu
@@ -130,6 +131,7 @@ mkdir $WEB_DIR/sishuzhangju
 mkdir $WEB_DIR/songshi
 mkdir $WEB_DIR/songshu
 mkdir $WEB_DIR/suishu
+mkdir $WEB_DIR/sunzibingfa
 mkdir $WEB_DIR/taixuanjing
 mkdir $WEB_DIR/taoyuanmingji
 mkdir $WEB_DIR/weishu
