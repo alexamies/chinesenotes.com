@@ -88,119 +88,779 @@ Now the general who wins a battle makes many calculations in his temple where th
 作戰第二
 Section II: Waging War
 
-孫子曰：凡用兵之法，馳車千駟，革車千乘，帶甲十萬，千里饋糧，則內外之費，賓客之用，膠漆之材，車甲之奉，日費千金，然後十萬之師舉矣。其用戰也貴勝，久則鈍兵挫銳，攻城則力屈，久暴師則國用不足。夫鈍兵挫銳，屈力殫貨，則諸侯乘其弊而起，雖有智者，不能善其後矣。故兵聞拙速，未睹巧之久也。夫兵久而國利者，未之有也。故不盡知用兵之害者，則不能盡知用兵之利也。
+孫子曰：凡用兵之法，馳車千駟，革車千乘，帶甲十萬，千里饋糧，則內外之費，賓客之用，膠漆之材，車甲之奉，日費千金，然後十萬之師舉矣。
+Sun Tzŭ said: In the operations of war, where there are in the field a thousand swift chariots, as many heavy chariots, and a hundred thousand mail-clad soldiers, 
+with provisions enough to carry them a thousand li, 
+the expenditure at home and at the front, including entertainment of guests, small items such as glue and paint, and sums spent on chariots and armour, will reach the total of a thousand ounces of silver per day. 
+Such is the cost of raising an army of 100,000 men. 
 
-善用兵者，役不再籍，糧不三載；取用於國，因糧於敵，故軍食可足也。
+其用戰也貴勝，久則鈍兵挫銳，攻城則力屈，
+When you engage in actual fighting, if victory is long in coming, then men's weapons will grow dull and their ardour will be damped. 
+If you lay siege to a town, you will exhaust your strength. 
 
-國之貧於師者遠輸，遠輸則百姓貧；近於師者貴賣，貴賣則百姓財竭，財竭則急於丘役。力屈財殫，中原內虛於家。百姓之費，十去其七；公家之費，破車罷馬，甲胄矢弩，戟楯蔽櫓，丘牛大車，十去其六。
+久暴師則國用不足。
+Again, if the campaign is protracted, the resources of the State will not be equal to the strain. 
+
+夫鈍兵挫銳，屈力殫貨，則諸侯乘其弊而起，雖有智者，不能善其後矣。
+Now, when your weapons are dulled, your ardour damped, your strength exhausted and your treasure spent, other chieftains will spring up to take advantage of your extremity. Then no man, however wise, will be able to avert the consequences that must ensue. 
+
+故兵聞拙速，未睹巧之久也。
+Thus, though we have heard of stupid haste in war, cleverness has never been seen associated with long delays. 
+
+夫兵久而國利者，未之有也。
+There is no instance of a country having benefited from prolonged warfare. 
+
+故不盡知用兵之害者，則不能盡知用兵之利也。
+It is only one who is thoroughly acquainted with the evils of war that can thoroughly understand the profitable way of carrying it on. 
+
+善用兵者，役不再籍，糧不三載；
+The skilful soldier does not raise a second levy, neither are his supply-wagons loaded more than twice. 
+
+取用於國，因糧於敵，故軍食可足也。
+Bring war material with you from home, but forage on the enemy. Thus the army will have food enough for its needs.
+
+國之貧於師者遠輸，遠輸則百姓貧；
+Poverty of the State exchequer causes an army to be maintained by contributions from a distance. Contributing to maintain an army at a distance causes the people to be impoverished. 
+
+近於師者貴賣，貴賣則百姓財竭，
+On the other hand, the proximity of an army causes prices to go up; and high prices cause the people's substance to be drained away. 
+
+財竭則急於丘役。
+When their substance is drained away, the peasantry will be afflicted by heavy exactions. 
+
+力屈財殫，中原內虛於家。百姓之費，十去其七；公家之費，破車罷馬，甲胄矢弩，戟楯蔽櫓，丘牛大車，十去其六。
+With this loss of substance and exhaustion of strength, the homes of the people will be stripped bare, and three-tenths of their income will be dissipated; 
+while Government expenses for broken chariots, worn-out horses, breast-plates and helmets, bows and arrows, spears and shields, protective mantles, draught-oxen and heavy wagons, will amount to four-tenths of its total revenue. 
 
 故智將務食於敵，食敵一鍾，當吾二十鍾；𦮼稈一石，當吾二十石。
+Hence a wise general makes a point of foraging on the enemy. One cartload of the enemy's provisions is equivalent to twenty of one's own, and likewise a single picul of his provender is equivalent to twenty from one's own store.
 
-故殺敵者，怒也；取敵之利者，貨也。故車戰，得車十乘以上，賞其先得者，而更其旌旗。車雜而乘之，卒善而養之，是謂勝敵而益強。
+故殺敵者，怒也；取敵之利者，貨也。
+Now in order to kill the enemy, our men must be roused to anger; that there may be advantage from defeating the enemy, they must have their rewards. 
 
-故兵貴勝，不貴久。故知兵之將，生民之司命，國家安危之主也。
+故車戰，得車十乘以上，賞其先得者，而更其旌旗。車雜而乘之，卒善而養之，
+Therefore in chariot fighting, when ten or more chariots have been taken, those should be rewarded who took the first. 
+
+是謂勝敵而益強。
+This is called, using the conquered foe to augment one's own strength. 
+
+故兵貴勝，不貴久。
+In war, then, let your great object be victory, not lengthy campaigns. 
+
+故知兵之將，生民之司命，國家安危之主也。
+Thus it may be known that the leader of armies is the arbiter of the people's fate, the man on whom it depends whether the nation shall be in peace or in peril. 
 
 謀攻第三
+Section III: Attack by Stratagem
 
-孫子曰：凡用兵之法，全國為上，破國次之；全軍為上，破軍次之；全旅為上，破旅次之；全卒為上，破卒次之；全伍為上，破伍次之。是故百戰百勝，非善之善者也；不戰而屈人之兵，善之善者也。
+孫子曰：凡用兵之法，全國為上，破國次之；全軍為上，破軍次之；全旅為上，破旅次之；全卒為上，破卒次之；全伍為上，破伍次之。
+Sun Tzŭ said: In the practical art of war, the best thing of all is to take the enemy's country whole and intact; to shatter and destroy it is not so good. So, too, it is better to recapture an army entire than to destroy it, to capture a regiment, a detachment or a company entire than to destroy them. 
 
-故上兵伐謀，其次伐交，其次伐兵，其下攻城。攻城之法，為不得已。修櫓轒轀，具器械，三月而後成；距闉，又三月而後已。將不勝其忿，而蟻附之，殺士三分之一，而城不拔者，此攻之災也。
+是故百戰百勝，非善之善者也；不戰而屈人之兵，善之善者也。
+Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy's resistance without fighting. 
 
-故善用兵者，屈人之兵而非戰也，拔人之城而非攻也，毀人之國而非久也，必以全爭於天下，故兵不頓而利可全，此謀攻之法也。
+故上兵伐謀，其次伐交，其次伐兵，其下攻城。
+Thus the highest form of generalship is to baulk the enemy's plans;
+the next best is to prevent the junction of the enemy's forces; 
+the next in order is to attack the enemy's army in the field; 
+and the worst policy of all is to besiege walled cities. 
 
-故用兵之法，十則圍之，五則攻之，倍則分之，敵則能戰之，少則能守之，不若則能避之。故小敵之堅，大敵之擒也。
+攻城之法，為不得已。修櫓轒轀，具器械，三月而後成；距闉，又三月而後已。
+The rule is, not to besiege walled cities if it can possibly be avoided. 
+The preparation of mantlets, movable shelters, and various implements of war, will take up three whole months; 
+and the piling up of mounds over against the walls will take three months more. 
+
+將不勝其忿，而蟻附之，殺士三分之一，而城不拔者，此攻之災也。
+The general, unable to control his irritation, will launch his men to the assault like swarming ants, 
+
+故善用兵者，屈人之兵而非戰也，拔人之城而非攻也，毀人之國而非久也，
+Therefore the skilful leader subdues the enemy's troops without any fighting; he captures their cities without laying siege to them; he overthrows their kingdom without lengthy operations in the field.
+
+必以全爭於天下，故兵不頓而利可全，此謀攻之法也。
+With his forces intact he will dispute the mastery of the Empire, and thus, without losing a man, his triumph will be complete. 
+
+故用兵之法，十則圍之，五則攻之，倍則分之，
+It is the rule in war, if our forces are ten to the enemy's one, to surround him; if five to one, to attack him; 
+if twice as numerous, to divide our army into two. 
+
+敵則能戰之，少則能守之，不若則能避之。
+If equally matched, we can offer battle; 
+if slightly inferior in numbers, we can avoid the enemy; 
+if quite unequal in every way, we can flee from him. 
+
+故小敵之堅，大敵之擒也。
+Hence, though an obstinate fight may be made by a small force, in the end it must be captured by the larger force. 
 
 夫將者，國之輔也。輔周則國必強，輔隙則國必弱。
+Now the general is the bulwark of the State; if the bulwark is complete at all points; the State will be strong; if the bulwark is defective, the State will be weak. 
 
-故君之所以患於軍者三：不知軍之不可以進，而謂之進，不知軍之不可以退，而謂之退，是為縻軍；不知三軍之事，而同三軍之政，則軍士惑矣；不知三軍之權，而同三軍之任，則軍士疑矣。三軍既惑且疑，則諸侯之難至矣，是謂亂軍引勝。
+故君之所以患於軍者三：
+There are three ways in which a ruler can bring misfortune upon his army: —
+
+不知軍之不可以進，而謂之進，不知軍之不可以退，而謂之退，是為縻軍；
+By commanding the army to advance or to retreat, being ignorant of the fact that it cannot obey. This is called hobbling the army. 
+
+不知三軍之事，而同三軍之政，則軍士惑矣；
+By attempting to govern an army in the same way as he administers a kingdom, being ignorant of the conditions which obtain in an army. This causes restlessness in the soldier's minds. 
+
+不知三軍之權，而同三軍之任，則軍士疑矣。
+By employing the officers of his army without discrimination, 
+
+三軍既惑且疑，則諸侯之難至矣，是謂亂軍引勝。
+But when the army is restless and distrustful, trouble is sure to come from the other feudal princes. This is simply bringing anarchy into the army, and flinging victory away. 
 
 故知勝有五：知可以戰與不可以戰者勝，識衆寡之用者勝，上下同欲者勝，以虞待不虞者勝，將能而君不御者勝。此五者，知勝之道也。
+Thus we may know that there are five essentials for victory: (1) He will win who knows when to fight and when not to fight. 
+(2) He will win who knows how to handle both superior and inferior forces. 
+(3) He will win whose army is animated by the same spirit throughout all its ranks. 
+(4) He will win who, prepared himself, waits to take the enemy unprepared. 
+(5) He will win who has military capacity and is not interfered with by the sovereign. 
+Victory lies in the knowledge of these five points. 
 
 故曰：知彼知己，百戰不殆；不知彼而知己，一勝一負；不知彼不知己，每戰必殆。
-↑返回頁首
+Hence the saying: If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. 
+If you know neither the enemy nor yourself, you will succumb in every battle. 
+
 軍形第四
+Section IV: Tactical Dispositions
 
-孫子曰：昔之善戰者，先為不可勝，以待敵之可勝。不可勝在己，可勝在敵。故善戰者，能為不可勝，不能使敵之必可勝。故曰：勝可知，而不可為。
+孫子曰：昔之善戰者，先為不可勝，
+Sun Tzŭ said: The good fighters of old first put themselves beyond the possibility of defeat, and then waited for an opportunity of defeating the enemy. 
 
-不可勝者，守也；可勝者，攻也。守則有餘，攻則不足。善守者，藏於九地之下；善攻者，動於九天之上，故能自保而全勝也。
+以待敵之可勝。不可勝在己，可勝在敵。
+To secure ourselves against defeat lies in our own hands, but the opportunity of defeating the enemy is provided by the enemy himself. 
 
-見勝不過衆人之所知，非善之善者也；戰勝而天下曰善，非善之善者也。故舉秋毫不為多力，見日月不為明目，聞雷霆不為聰耳。
+故善戰者，能為不可勝，不能使敵之必可勝。
+Thus the good fighter is able to secure himself against defeat, 
 
-古之所謂善戰者，勝於易勝者也。故善戰者之勝也，無智名，無勇功。故其戰勝不忒。不忒者，其所措必勝，勝已敗者也。故善戰者，立於不敗之地，而不失敵之敗也。是故勝兵先勝而後求戰，敗兵先戰而後求勝。善用兵者，修道而保法，故能為勝敗之政。
+故曰：勝可知，而不可為。
+Hence the saying: One may know how to conquer without being able to do it. 
 
-兵法：一曰度，二曰量，三曰數，四曰稱，五曰勝。地生度，度生量，量生數，數生稱，稱生勝。故勝兵若以鎰稱銖，敗兵若以銖稱鎰。勝者之戰民也，若決積水於千仞之溪者，形也。
-↑返回頁首
+不可勝者，守也；可勝者，攻也。
+Security against defeat implies defensive tactics; ability to defeat the enemy means taking the offensive. 
+
+守則有餘，攻則不足。
+Standing on the defensive indicates insufficient strength; attacking, a superabundance of strength. 
+
+善守者，藏於九地之下；善攻者，動於九天之上，故能自保而全勝也。
+The general who is skilled in defence hides in the most secret recesses of the earth; 
+he who is skilled in attack flashes forth from the topmost heights of heaven. 
+Thus on the one hand we have ability to protect ourselves; on the other, a victory that is complete. 
+
+見勝不過衆人之所知，非善之善者也；
+To see victory only when it is within the ken of the common herd is not the acme of excellence.
+
+戰勝而天下曰善，非善之善者也。
+Neither is it the acme of excellence if you fight and conquer and the whole Empire says, “Well done!” 
+
+故舉秋毫不為多力，見日月不為明目，聞雷霆不為聰耳。
+To lift an autumn hair is no sign of great strength; 
+to see the sun and moon is no sign of sharp sight; to hear the noise of thunder is no sign of a quick ear. 
+
+古之所謂善戰者，勝於易勝者也。
+What the ancients called a clever fighter is one who not only wins, but excels in winning with ease. 
+
+故善戰者之勝也，無智名，無勇功。
+Hence his victories bring him neither reputation for wisdom nor credit for courage. 
+
+故其戰勝不忒。不忒者，其所措必勝，勝已敗者也。
+He wins his battles by making no mistakes. 
+Making no mistakes is what establishes the certainty of victory, for it means conquering an enemy that is already defeated. 
+
+故善戰者，立於不敗之地，而不失敵之敗也。
+Hence the skilful fighter puts himself into a position which makes defeat impossible, and does not miss the moment for defeating the enemy. 
+
+是故勝兵先勝而後求戰，
+Thus it is that in war the victorious strategist only seeks battle after the victory has been won, whereas he who is destined to defeat first fights and afterwards looks for victory. 
+
+敗兵先戰而後求勝。善用兵者，修道而保法，故能為勝敗之政。
+The consummate leader cultivates the moral law, and strictly adheres to method and discipline; 
+
+兵法：一曰度，二曰量，三曰數，四曰稱，五曰勝。
+In respect of military method, we have, firstly, Measurement; secondly, Estimation of quantity; thirdly, Calculation; fourthly, Balancing of chances; fifthly, Victory. 
+
+地生度，度生量，量生數，數生稱，稱生勝。
+Measurement owes its existence to Earth; Estimation of quantity to Measurement; Calculation to Estimation of quantity; Balancing of chances to Calculation; and Victory to Balancing of chances. 
+
+故勝兵若以鎰稱銖，敗兵若以銖稱鎰。
+A victorious army opposed to a routed one, is as a pound's weight placed in the scale against a single grain. 
+
+勝者之戰民也，若決積水於千仞之溪者，形也。
+The onrush of a conquering force is like the bursting of pent-up waters into a chasm a thousand fathoms deep. So much for tactical dispositions. 
+
 兵勢第五
+Section V: Energy
 
-孫子曰：凡治衆如治寡，分數是也；鬥衆如鬥寡，形名是也；三軍之衆，可使必受敵而無敗者，奇正是也；兵之所加，如以碫投卵者，虛實是也。
+孫子曰：凡治衆如治寡，分數是也；
+Sun Tzŭ said: The control of a large force is the same principle as the control of a few men: it is merely a question of dividing up their numbers. 
 
-凡戰者，以正合，以奇勝。故善出奇者，無窮如天地，不竭如江海。終而復始，日月是也。死而復生，四時是也。聲不過五，五聲之變，不可勝聽也；色不過五，五色之變，不可勝觀也；味不過五，五味之變，不可勝嘗也；戰勢不過奇正，奇正之變，不可勝窮也。奇正相生，如循環之無端，孰能窮之哉？
+鬥衆如鬥寡，形名是也；
+Fighting with a large army under your command is nowise different from fighting with a small one: it is merely a question of instituting signs and signals. 
 
-激水之疾，至於漂石者，勢也；鷙鳥之疾，至於毀折者，節也。故善戰者，其勢險，其節短。勢如彍弩，節如發機。
+三軍之衆，可使必受敵而無敗者，奇正是也；
+To ensure that your whole host may withstand the brunt of the enemy's attack and remain unshaken — this is effected by manœuvres direct and indirect. 
 
-紛紛紜紜，鬥亂而不可亂也；渾渾沌沌，形圓而不可敗也。亂生於治，怯生於勇，弱生於強。治亂，數也；勇怯，勢也；強弱，形也。
+兵之所加，如以碫投卵者，虛實是也。
+That the impact of your army may be like a grindstone dashed against an egg — this is effected by the science of weak points and strong. 
 
-故善動敵者，形之，敵必從之；予之，敵必取之。以利動之，以實待之。
+凡戰者，以正合，以奇勝。
+In all fighting, the direct method may be used for joining battle, but indirect methods will be needed in order to secure victory. 
 
-故善戰者，求之於勢，不責於人，故能擇人而任勢。任勢者，其戰人也，如轉木石。木石之性，安則靜，危則動，方則止，圓則行。故善戰人之勢，如轉圓石於千仞之山者，勢也。
-↑返回頁首
+故善出奇者，無窮如天地，不竭如江海。終而復始，日月是也。死而復生，四時是也。
+Indirect tactics, efficiently applied, are inexhaustible as Heaven and Earth, unending as the flow of rivers and streams; 
+like the sun and moon, they end but to begin anew; like the four seasons, they pass away to return once more. 
+
+聲不過五，五聲之變，不可勝聽也；
+There are not more than five musical notes, 
+yet the combinations of these five give rise to more melodies than can ever be heard.
+
+色不過五，五色之變，不可勝觀也；
+There are not more than five primary colours, 
+yet in combination they produce more hues than can ever be seen. 
+
+味不過五，五味之變，不可勝嘗也；
+There are not more than five cardinal tastes, 
+yet combinations of them yield more flavors than can ever be tasted.
+
+戰勢不過奇正，奇正之變，不可勝窮也。
+In battle, there are not more than two methods of attack — the direct and the indirect; yet these two in combination give rise to an endless series of manœuvres. 
+
+奇正相生，如循環之無端，孰能窮之哉？
+The direct and the indirect lead on to each other in turn. It is like moving in a circle — you never come to an end. Who can exhaust the possibilities of their combination? 
+
+激水之疾，至於漂石者，勢也；
+The onset of troops is like the rush of a torrent which will even roll stones along in its course.
+
+鷙鳥之疾，至於毀折者，節也。
+The quality of decision is like the well-timed swoop of a falcon which enables it to strike and destroy its victim. 
+
+故善戰者，其勢險，其節短。
+Therefore the good fighter will be terrible in his onset, and prompt in his decision. 
+
+勢如彍弩，節如發機。
+Energy may be likened to the bending of a crossbow; decision, to the releasing of a trigger. 
+
+紛紛紜紜，鬥亂而不可亂也；渾渾沌沌，形圓而不可敗也。
+Amid the turmoil and tumult of battle, there may be seeming disorder and yet no real disorder at all; amid confusion and chaos, your array may be without head or tail, yet it will be proof against defeat. 
+
+亂生於治，怯生於勇，弱生於強。
+Simulated disorder postulates perfect discipline, simulated fear postulates courage; simulated weakness postulates strength. 
+
+治亂，數也；勇怯，勢也；強弱，形也。
+Hiding order beneath the cloak of disorder is simply a question of subdivision; 
+concealing courage under a show of timidity presupposes a fund of latent energy; 
+masking strength with weakness is to be effected by tactical dispositions. 
+
+故善動敵者，形之，敵必從之；予之，敵必取之。
+Thus one who is skilful at keeping the enemy on the move maintains deceitful appearances, according to which the enemy will act. 
+He sacrifices something, that the enemy may snatch at it. 
+
+以利動之，以實待之。
+By holding out baits, he keeps him on the march; then with a body of picked men he lies in wait for him. 
+
+故善戰者，求之於勢，不責於人，故能擇人而任勢。
+The clever combatant looks to the effect of combined energy, and does not require too much from individuals. 
+Hence his ability to pick out the right men and utilize combined energy. 
+
+任勢者，其戰人也，如轉木石。木石之性，安則靜，危則動，方則止，圓則行。
+When he utilizes combined energy, his fighting men become as it were like unto rolling logs or stones. For it is the nature of a log or stone to remain motionless on level ground, and to move when on a slope; if four-cornered, to come to a standstill, but if round-shaped, to go rolling down. 
+
+故善戰人之勢，如轉圓石於千仞之山者，勢也。
+Thus the energy developed by good fighting men is as the momentum of a round stone rolled down a mountain thousands of feet in height. So much on the subject of energy. 
+
 虛實第六
+Section VI: Weak Points and Strong
 
-孫子曰：凡先處戰地而待敵者佚，後處戰地而趨戰者勞。故善戰者，致人而不致於人。
+孫子曰：凡先處戰地而待敵者佚，後處戰地而趨戰者勞。
+Sun Tzŭ said: Whoever is first in the field and awaits the coming of the enemy, will be fresh for the fight; whoever is second in the field and has to hasten to battle will arrive exhausted. 
 
-能使敵自至者，利之也；能使敵不得至者，害之也。故敵佚能勞之，飽能饑之，安能動之。出其所不趨，趨其所不意。
+故善戰者，致人而不致於人。
+Therefore the clever combatant imposes his will on the enemy, but does not allow the enemy's will to be imposed on him. 
 
-行千里而不勞者，行於無人之地也。攻而必取者，攻其所不守也；守而必固者，守其所不攻也。故善攻者，敵不知其所守；善守者，敵不知其所攻。微乎微乎！至于無形；神乎神乎！至于無聲，故能為敵之司命。
+能使敵自至者，利之也；能使敵不得至者，害之也。
+By holding out advantages to him, he can cause the enemy to approach of his own accord; or, by inflicting damage, he can make it impossible for the enemy to draw near. 
 
-進而不可禦者，沖其虛也；退而不可追者，速而不可及也。故我欲戰，敵雖高壘深溝，不得不與我戰者，攻其所必救也；我不欲戰，雖畫地而守之，敵不得與我戰者，乖其所之也。
+故敵佚能勞之，飽能饑之，安能動之。
+If the enemy is taking his ease, he can harass him; 
+if well supplied with food, he can starve him out; 
+if quietly encamped, he can force him to move. 
 
-故形人而我無形，則我專而敵分。我專為一，敵分為十，是以十攻其一也，則我衆而敵寡。能以衆擊寡者，則吾之所與戰者，約矣。吾所與戰之地不可知，不可知，則敵所備者多，敵所備者多，則吾之所與戰者寡矣。故備前則後寡，備後則前寡，備左則右寡，備右則左寡，無所不備，則無所不寡。寡者，備人者也；衆者，使人備己者也。
+出其所不趨，趨其所不意。
+Appear at points which the enemy must hasten to defend; march swiftly to places where you are not expected. 
 
-故知戰之地，知戰之日，則可千里而會戰；不知戰之地，不知戰之日，則左不能救右，右不能救左，前不能救後，後不能救前，而況遠者數十里，近者數里乎！以吾度之，越人之兵雖多，亦奚益於勝敗哉！故曰：勝可擅也。敵雖衆，可使無鬪。
+行千里而不勞者，行於無人之地也。
+An army may march great distances without distress, if it marches through country where the enemy is not.
 
-故策之而知得失之計，作之而知動靜之理，形之而知死生之地，角之而知有餘不足之處。故形兵之極，至於無形。無形，則深間不能窺，智者不能謀。因形而措勝於衆，衆不能知。人皆知我所以勝之形，而莫知吾所以制勝之形。故其戰勝不復，而應形於無窮。
+攻而必取者，攻其所不守也；守而必固者，守其所不攻也。
+You can be sure of succeeding in your attacks if you only attack places which are undefended. 
+You can ensure the safety of your defence if you only hold positions that cannot be attacked. 
 
-夫兵形象水，水之行，避高而趨下；兵之勝，避實而擊虛。水因地而制行，兵因敵而制勝。故兵無成勢，無恒形，能因敵變化而取勝者，謂之神。故五行無常勝，四時無常位，日有短長，月有死生。
-↑返回頁首
+故善攻者，敵不知其所守；善守者，敵不知其所攻。
+Hence that general is skilful in attack whose opponent does not know what to defend; and he is skilful in defence whose opponent does not know what to attack. 
+
+微乎微乎！至于無形；神乎神乎！至于無聲，故能為敵之司命。
+O divine art of subtlety and secrecy! Through you we learn to be invisible, through you inaudible; 
+and hence we can hold the enemy's fate in our hands.
+
+進而不可禦者，沖其虛也；退而不可追者，速而不可及也。
+You may advance and be absolutely irresistible, if you make for the enemy's weak points; you may retire and be safe from pursuit if your movements are more rapid than those of the enemy. 
+
+故我欲戰，敵雖高壘深溝，不得不與我戰者，攻其所必救也；
+If we wish to fight, the enemy can be forced to an engagement even though he be sheltered behind a high rampart and a deep ditch. All we need do is attack some other place that he will be obliged to relieve. 
+
+我不欲戰，雖畫地而守之，敵不得與我戰者，乖其所之也。
+If we do not wish to fight, we can prevent the enemy from engaging us even though the lines of our encampment be merely traced out on the ground. All we need do is to throw something odd and unaccountable in his way. 
+
+故形人而我無形，則我專而敵分。
+By discovering the enemy’s dispositions and remaining invisible ourselves, we can keep our forces concentrated, while the enemy’s must be divided.
+
+我專為一，敵分為十，是以十攻其一也，則我衆而敵寡。
+We can form a single united body, while the enemy must split up into fractions. Hence there will be a whole pitted against separate parts of a whole, 
+which means that we shall be many to the enemy’s few. 
+
+能以衆擊寡者，則吾之所與戰者，約矣。
+And if we are able thus to attack an inferior force with a superior one, our opponents will be in dire straits. 
+
+吾所與戰之地不可知，不可知，則敵所備者多，敵所備者多，則吾之所與戰者寡矣。
+The spot where we intend to fight must not be made known; for then the enemy will have to prepare against a possible attack at several different points; 
+and his forces being thus distributed in many directions, the numbers we shall have to face at any given point will be proportionately few.
+
+故備前則後寡，備後則前寡，備左則右寡，備右則左寡，無所不備，則無所不寡。
+For should the enemy strengthen his van, he will weaken his rear; should he strengthen his rear, he will weaken his van; should he strengthen his left, he will weaken his right; should he strengthen his right, he will weaken his left. If he sends reinforcements everywhere, he will everywhere be weak. 
+
+寡者，備人者也；衆者，使人備己者也。
+Numerical weakness comes from having to prepare against possible attacks; numerical strength, from compelling our adversary to make these preparations against us. 
+
+故知戰之地，知戰之日，則可千里而會戰；
+Knowing the place and the time of the coming battle, we may concentrate from the greatest distances in order to fight. 
+
+不知戰之地，不知戰之日，則左不能救右，右不能救左，前不能救後，後不能救前，而況遠者數十里，近者數里乎！
+But if neither time nor place be known, then the left wing will be impotent to succour the right, the right equally impotent to succour the left, the van unable to relieve the rear, or the rear to support the van. How much more so if the furthest portions of the army are anything under a hundred li apart, and even the nearest are separated by several li! 
+
+以吾度之，越人之兵雖多，亦奚益於勝敗哉！故曰：勝可擅也。
+Though according to my estimate the soldiers of Yüeh exceed our own in number, that shall advantage them nothing in the matter of victory. 
+I say then that victory can be achieved. 
+
+敵雖衆，可使無鬪。
+故策之而知得失之計，
+Though the enemy be stronger in numbers, we may prevent him from fighting. 
+Scheme so as to discover his plans and the likelihood of their success. 
+
+作之而知動靜之理，形之而知死生之地，
+Rouse him, and learn the principle of his activity or inactivity. 
+Force him to reveal himself, so as to find out his vulnerable spots. 
+
+角之而知有餘不足之處。
+Carefully compare the opposing army with your own, 
+
+故形兵之極，至於無形。無形，則深間不能窺，智者不能謀。
+In making tactical dispositions, the highest pitch you can attain is to conceal them; 
+dispositions, and you will be safe from the prying of the subtlest spies, from the machinations of the wisest brains. 
+
+因形而措勝於衆，衆不能知。
+How victory may be produced for them out of the enemy’s own tactics — that is what the multitude cannot comprehend. 
+
+人皆知我所以勝之形，而莫知吾所以制勝之形。
+All men can see the tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved. 
+
+故其戰勝不復，而應形於無窮。
+Do not repeat the tactics which have gained you one victory, but let your methods be regulated by the infinite variety of circumstances. 
+
+夫兵形象水，水之行，避高而趨下；
+Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards. 
+
+兵之勝，避實而擊虛。
+So in war, the way is to avoid what is strong and to strike at what is weak. 
+
+水因地而制行，兵因敵而制勝。
+Water shapes its course according to the nature of the ground over which it flows; 
+
+故兵無成勢，無恒形，
+Therefore, just as water retains no constant shape, so in warfare there are no constant conditions. 
+
+能因敵變化而取勝者，謂之神。
+He who can modify his tactics in relation to his opponent and thereby succeed in winning, may be called a heaven-born captain.
+
+故五行無常勝，四時無常位，日有短長，月有死生。
+The five elements 
+are not always equally predominant; 
+the four seasons make way for each other in turn. 
+There are short days and long; the moon has its periods of waning and waxing. 
+
 軍爭第七
+Section VII: Maneuvering
 
-孫子曰：凡用兵之法，將受命於君，合軍聚衆，交和而舍，莫難於軍爭。軍爭之難者，以迂為直，以患為利。故迂其途，而誘之以利，後人發，先人至，此知迂直之計者也。
+孫子曰：凡用兵之法，將受命於君，
+Sun Tzu said: In war, the general receives his commands from the sovereign. 
 
-故軍爭為利，軍爭為危。舉軍而爭利，則不及；委軍而爭利，則輜重捐。是故卷甲而趨，日夜不處，倍道兼行，百里而爭利，則擒三軍將，勁者先，疲者後，其法十一而至；五十里而爭利，則蹶上軍將，其法半至；三十里而爭利，則三分之二至。是故軍無輜重則亡，無糧食則亡，無委積則亡。故不知諸侯之謀者，不能豫交；不知山林、險阻、沮澤之形者，不能行軍；不用鄉導者，不能得地利。
+合軍聚衆，交和而舍，
+Having collected an army and concentrated his forces, he must blend and harmonize the different elements thereof before pitching his camp. 
 
-故兵以詐立，以利動，以分合為變者也。故其疾如風，其徐如林，侵掠如火，不動如山，難知如陰，動如雷震。掠鄉分衆，廓地分利，懸權而動。先知迂直之計者勝，此軍爭之法也。
+莫難於軍爭。軍爭之難者，以迂為直，以患為利。
+After that, comes tactical manœuvring, than which there is nothing more difficult. 
+The difficulty of tactical manœuvring consists in turning the devious into the direct, and misfortune into gain.
 
-《軍政》曰：「言不相聞，故為金鼓；視不相見，故為旌旗。」夫金鼓旌旗者，所以一民之耳目也。民既專一，則勇者不得獨進，怯者不得獨退，此用衆之法也。故夜戰多金鼓，晝戰多旌旗，所以變人之耳目也。
+故迂其途，而誘之以利，後人發，先人至，此知迂直之計者也。
+Thus, to take a long and circuitous route, after enticing the enemy out of the way, and though starting after him, to contrive to reach the goal before him, shows knowledge of the artifice of deviation.
 
-三軍可奪氣，將軍可奪心。是故朝氣銳，晝氣惰，暮氣歸。故善用兵者，避其銳氣，擊其惰歸，此治氣者也；以治待亂，以靜待嘩，此治心者也；以近待遠，以佚待勞，以飽待饑，此治力者也；無邀正正之旗，無擊堂堂之陣，此治變者也。
+故軍爭為利，軍爭為危。
+Manœuvring with an army is advantageous; with an undisciplined multitude, most dangerous. 
 
-故用兵之法，高陵勿向，背丘勿逆，佯北勿從，銳卒勿攻，餌兵勿食，歸師勿遏，圍師必闕，窮寇勿迫，此用兵之法也。
-↑返回頁首
+舉軍而爭利，則不及；委軍而爭利，則輜重捐。
+If you set a fully equipped army in march in order to snatch an advantage, the chances are that you will be too late. 
+On the other hand, to detach a flying column for the purpose involves the sacrifice of its baggage and stores. 
+
+是故卷甲而趨，日夜不處，倍道兼行，百里而爭利，則擒三軍將，
+Thus, if you order your men to roll up their buff-coats, 
+without halting day or night, covering double the usual distance at a stretch, 
+doing a hundred li in order to wrest an advantage, the leaders of all your three divisions will fall into the hands of the enemy.
+
+勁者先，疲者後，其法十一而至；
+The stronger men will be in front, the jaded ones will fall behind, and on this plan only one-tenth of your army will reach its destination. 
+
+五十里而爭利，則蹶上軍將，其法半至；
+If you march fifty li in order to outmanœuvre the enemy, you will lose the leader of your first division, and only half your force will reach the goal. 
+
+三十里而爭利，則三分之二至。
+If you march thirty li with the same object, two-thirds of your army will arrive. 
+
+是故軍無輜重則亡，無糧食則亡，無委積則亡。
+We may take it then that an army without its baggage-train is lost; without provisions it is lost; without bases of supply it is lost. 
+
+故不知諸侯之謀者，不能豫交；
+We cannot enter into alliances until we are acquainted with the designs of our neighbours. 
+
+不知山林、險阻、沮澤之形者，不能行軍；
+We are not fit to lead an army on the march unless we are familiar with the face of the country — its mountains and forests, its pitfalls 
+and precipices, 
+its marshes 
+and swamps. 
+
+不用鄉導者，不能得地利。
+We shall be unable to turn natural advantage to account unless we make use of local guides. 
+
+故兵以詐立，以利動，
+In war, practice dissimulation, and you will succeed. 
+Move only if there is a real advantage to be gained. 
+
+以分合為變者也。
+Whether to concentrate or to divide your troops, must be decided by circumstances. 
+
+故其疾如風，其徐如林，
+Let your rapidity be that of the wind, 
+your compactness that of the forest. 
+
+侵掠如火，不動如山，
+In raiding and plundering be like fire, 
+in immovability like a mountain. 
+
+難知如陰，動如雷震。
+Let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt. 
+
+掠鄉分衆，廓地分利，
+When you plunder a countryside, let the spoil be divided amongst your men; 
+when you capture new territory, cut it up into allotments for the benefit of the soldiery. 
+
+懸權而動。
+Ponder and deliberate 
+
+先知迂直之計者勝，此軍爭之法也。
+He will conquer who has learnt the artifice of deviation. 
+Such is the art of manœuvring. 
+
+《軍政》曰：「言不相聞，故為金鼓；視不相見，故為旌旗。」
+The Book of Army Management says: 
+the spoken word does not carry far enough: hence the institution of gongs and drums. 
+Nor can ordinary objects be seen clearly enough: hence the institution of banners and flags.
+
+夫金鼓旌旗者，所以一民之耳目也。
+Gongs and drums, banners and flags, are means whereby the ears and eyes of the host 
+may be focused on one particular point. 
+
+民既專一，則勇者不得獨進，怯者不得獨退，此用衆之法也。
+The host thus forming a single united body, is it impossible either for the brave to advance alone, or for the cowardly to retreat alone. 
+This is the art of handling large masses of men.
+
+故夜戰多金鼓，晝戰多旌旗，所以變人之耳目也。
+ In night-fighting, then, make much use of signal-fires and drums, and in fighting by day, of flags and banners, as a means of influencing the ears and eyes of your army. 
+
+三軍可奪氣，將軍可奪心。
+A whole army may be robbed of its spirit; 
+a commander-in-chief may be robbed of his presence of mind. 
+
+是故朝氣銳，晝氣惰，暮氣歸。
+Now a soldier's spirit is keenest in the morning; 
+by noonday it has begun to flag; and in the evening, his mind is bent only on returning to camp. 
+
+故善用兵者，避其銳氣，擊其惰歸，此治氣者也；
+A clever general, therefore, 
+avoids an army when its spirit is keen, but attacks it when it is sluggish and inclined to return. This is the art of studying moods. 
+
+以治待亂，以靜待嘩，此治心者也；
+Disciplined and calm, to await the appearance of disorder and hubbub amongst the enemy: — this is the art of retaining self-possession. 
+
+以近待遠，以佚待勞，以飽待饑，此治力者也；
+To be near the goal while the enemy is still far from it, to wait at ease 
+while the enemy is toiling and struggling, to be well-fed while the enemy is famished: — this is the art of husbanding one's strength. 
+
+無邀正正之旗，無擊堂堂之陣，此治變者也。
+To refrain from intercepting 
+an enemy whose banners are in perfect order, to refrain from attacking an army drawn up in calm and confident array: 
+— this is the art of studying circumstances. 
+
+故用兵之法，高陵勿向，背丘勿逆，
+It is a military axiom not to advance uphill against the enemy, nor to oppose him when he comes downhill. 
+
+佯北勿從，銳卒勿攻，
+Do not pursue an enemy who simulates flight; do not attack soldiers whose temper is keen. 
+
+餌兵勿食，歸師勿遏，
+Do not swallow bait offered by the enemy.
+Do not interfere with an army that is returning home. 
+
+圍師必闕，窮寇勿迫，
+When you surround an army, leave an outlet free. 
+Do not press a desperate foe too hard. 
+
+此用兵之法也。
+Such is the art of warfare.
+
 九變第八
+Section VIII: Variation in Tactics
 
-孫子曰：凡用兵之法，將受命於君，合軍聚眾。圮地無舍，衢地合交，絕地無留，圍地則謀，死地則戰。途有所不由，軍有所不擊，城有所不攻，地有所不爭，君命有所不受。故將通於九變之利者，知用兵矣；將不通於九變之利，雖知地形，不能得地之利矣；治兵不知九變之術，雖知地利，不能得人之用矣。
+孫子曰：凡用兵之法，將受命於君，合軍聚眾。
+Sun Tzu said: In war, the general receives his commands from the sovereign, collects his army and concentrates his forces. 
 
-是故智者之慮，必雜於利害，雜於利而務可信也，雜於害而患可解也。是故屈諸侯者以害，役諸侯者以業，趨諸侯者以利。
+圮地無舍，衢地合交，絕地無留，圍地則謀，死地則戰。
+When in difficult country, do not encamp.
+In country where high roads intersect, join hands with your allies. 
+In hemmed-in situations, you must resort to stratagem. 
+In desperate position, you must fight. 
+
+途有所不由，軍有所不擊，城有所不攻，地有所不爭，君命有所不受。
+There are roads which must not be followed, 
+armies which must be not attacked, 
+towns which must not be besieged, 
+positions which must not be contested, commands of the sovereign which must not be obeyed. 
+
+故將通於九變之利者，知用兵矣；
+The general who thoroughly understands the advantages that accompany variation of tactics knows how to handle his troops. 
+
+將不通於九變之利，雖知地形，不能得地之利矣；
+ The general who does not understand these, may be well acquainted with the configuration of the country, yet he will not be able to turn his knowledge to practical account. 
+
+治兵不知九變之術，雖知地利，不能得人之用矣。
+So, the student of war who is unversed in the art of war of varying his plans, even though he be acquainted with the Five Advantages, will fail to make the best use of his men. 
+
+是故智者之慮，必雜於利害，
+Hence in the wise leader's plans, considerations of advantage and of disadvantage will be blended together. 
+
+雜於利而務可信也，
+If our expectation of advantage be tempered in this way, we may succeed in accomplishing the essential part of our schemes. 
+
+雜於害而患可解也。
+If, on the other hand, in the midst of difficulties we are always ready to seize an advantage, we may extricate ourselves from misfortune. 
+
+是故屈諸侯者以害，役諸侯者以業，趨諸侯者以利。
+Reduce the hostile chiefs by inflicting damage on them; 
+and make trouble for them, 
+and keep them constantly engaged; 
+hold out specious allurements, and make them rush to any given point. 
 
 故用兵之法，無恃其不來，恃吾有以待也；無恃其不攻，恃吾有所不可攻也。
+The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him; 
+not on the chance of his not attacking, but rather on the fact that we have made our position unassailable. 
 
-故將有五危︰必死，可殺也﹔必生，可虜也﹔忿速，可侮也﹔廉潔，可辱也﹔愛民，可煩也。凡此五者，將之過也，用兵之災也。覆軍殺將，必以五危，不可不察也。
-↑返回頁首
+故將有五危︰必死，可殺也﹔必生，可虜也﹔忿速，可侮也﹔廉潔，可辱也﹔愛民，可煩也。
+There are five dangerous faults which may affect a general: (1) Recklessness, which leads to destruction; 
+(2) cowardice, which leads to capture; 
+(3) a hasty temper, which can be provoked by insults; 
+(4) a delicacy of honour which is sensitive to shame; 
+(5) over-solicitude for his men, which exposes him to worry and trouble. 
+
+凡此五者，將之過也，用兵之災也。
+These are the five besetting sins of a general, ruinous to the conduct of war.
+
+覆軍殺將，必以五危，不可不察也。
+When an army is overthrown and its leader slain, the cause will surely be found among these five dangerous faults. Let them be a subject of meditation.
+
 行軍第九
+Section IX: The Army on the March
 
-孫子曰：凡處軍相敵，絕山依谷，視生處高，戰隆無登，此處山之軍也。絕水必遠水，客絕水而來，勿迎之于水內，令半渡而擊之，利；欲戰者，無附于水而迎客，視生處高，無迎水流，此處水上之軍也。絕斥澤，惟亟去無留，若交軍於斥澤之中，必依水草，而背衆樹，此處斥澤之軍也。平陸處易，而右背高，前死後生，此處平陸之軍也。凡此四軍之利，黃帝之所以勝四帝也。
+孫子曰：凡處軍相敵，絕山依谷，
+Sun Tzŭ said: We come now to the question of encamping the army, and observing signs of the enemy. 
+Pass quickly over mountains, 
+and keep in the neighbourhood of valleys. 
 
-凡軍好高而惡下，貴陽而賤陰，養生而處實，軍無百疾，是謂必勝。丘陵堤防，必處其陽，而右背之，此兵之利，地之助也。上雨，水沫至，欲涉者，待其定也。
+視生處高，戰隆無登，此處山之軍也。
+Camp in high places, 
+Do not climb heights in order to fight. 
+So much for mountain warfare. 
 
-凡地有絕澗，遇天井、天牢、天羅、天陷、天隙，必亟去之，勿近也。吾遠之，敵近之；吾迎之，敵背之。軍旁有險阻、潢井、葭葦、林木、蘙薈者，必謹覆索之，此伏奸之所處也。
+絕水必遠水，
+After crossing a river, you should get far away from it. 
 
-敵近而靜者，恃其險也；遠而挑戰者，欲人之進也；其所居易者，利也；衆樹動者，來也；衆草多障者，疑也；鳥起者，伏也；獸駭者，覆也；塵高而銳者，車來也；卑而廣者，徒來也；散而條達者，樵采也；少而往來者，營軍也；辭卑而益備者，進也；辭強而進驅者，退也；輕車先出，居其側者，陣也；無約而請和者，謀也；奔走而陳兵者，期也；半進半退者，誘也；杖而立者，饑也；汲而先飲者，渴也；見利而不進者，勞也；鳥集者，虛也；夜呼者，恐也；軍擾者，將不重也；旌旗動者，亂也；吏怒者，倦也；粟馬肉食，軍無懸缻，而不返其舍者，窮寇也；諄諄翕翕，徐與人言者，失衆也；數賞者，窘也；數罰者，困也；先暴而後畏其衆者，不精之至也；來委謝者，欲休息也。兵怒而相迎，久而不合，又不相去，必謹察之。
+客絕水而來，勿迎之于水內，令半渡而擊之，利；
+When an invading force crosses a river in its onward march, do not advance to meet it in mid-stream. It will be best to let half the army get across, and then deliver your attack. 
 
-故兵非貴益多也，惟無武進，足以併力、料敵、取人而已。夫惟無慮而易敵者，必擒於人。
+欲戰者，無附于水而迎客，
+If you are anxious to fight, you should not go to meet the invader near a river which he has to cross. 
 
-卒未親附而罰之，則不服，不服則難用也。卒已親附而罰不行，則不可用也。故合之以文，齊之以武，是謂必取。令素行以教其民，則民服；令素不行以教其民，則民不服。令素行者，與衆相得也。
-↑返回頁首
+視生處高，無迎水流，此處水上之軍也。
+Moor your craft higher up than the enemy, and facing the sun. 
+Do not move up-stream to meet the enemy. 
+So much for river warfare.
+
+絕斥澤，惟亟去無留，
+In crossing salt-marshes, your sole concern should be to get over them quickly, without any delay. 
+
+若交軍於斥澤之中，必依水草，而背衆樹，此處斥澤之軍也。
+If forced to fight in a salt-marsh, you should have water and grass near you, and get your back to a clump of trees. 
+So much for operations in salt-marshes. 
+
+平陸處易，而右背高，前死後生，此處平陸之軍也。
+In dry, level country, take up an easily accessible position 
+with rising ground to your right and on your rear,
+so that the danger may be in front, and safety lie behind. 
+So much for campaigning in flat country.
+
+凡此四軍之利，黃帝之所以勝四帝也。
+These are the four useful branches of military knowledge 
+which enabled the Yellow Emperor to vanquish four several sovereigns. 
+
+凡軍好高而惡下，貴陽而賤陰，
+All armies prefer high ground to low 
+and sunny places to dark.
+
+養生而處實，軍無百疾，是謂必勝。
+If you are careful of your men, 
+and camp on hard ground, 
+and this will spell victory.
+
+丘陵堤防，必處其陽，而右背之，此兵之利，地之助也。
+When you come to a hill or a bank, occupy the sunny side, with the slope on your right rear. Thus you will at once act for the benefit of your soldiers and utilize the natural advantages of the ground. 
+
+上雨，水沫至，欲涉者，待其定也。
+When, in consequence of heavy rains up-country, a river which you wish to ford is swollen and flecked with foam, you must wait until it subsides. 
+
+凡地有絕澗，遇天井、天牢、天羅、天陷、天隙，必亟去之，勿近也。
+Country in which there are precipitous cliffs with torrents running between, 
+deep natural hollows, 
+tangled thickets, 
+quagmires
+and crevasses, 
+should be left with all possible speed and not approached.
+
+吾遠之，敵近之；吾迎之，敵背之。
+While we keep away from such places, we should get the enemy to approach them; while we face them, we should let the enemy have them on his rear. 
+
+軍旁有險阻、潢井、葭葦、林木、蘙薈者，必謹覆索之，此伏奸之所處也。
+If in the neighbourhood of your camp
+there should be any hilly country, 
+ponds surrounded by aquatic grass, hollow basins filled with reeds, 
+or woods with thick undergrowth, 
+they must be carefully routed out and searched; for these are places where men in ambush or insidious spies are likely to be lurking. 
+
+敵近而靜者，恃其險也；
+When the enemy is close at hand and remains quiet, he is relying on the natural strength of his position.
+
+遠而挑戰者，欲人之進也；
+When he keeps aloof and tries to provoke a battle, he is anxious for the other side to advance. 
+
+
+其所居易者，利也；
+If his place of encampment is easy of access, he is tendering a bait. 
+
+衆樹動者，來也；衆草多障者，疑也；
+Movement amongst the trees of a forest shows that the enemy is advancing. 
+The appearance of a number of screens in the midst of thick grass means that the enemy wants to make us suspicious. 
+
+鳥起者，伏也；獸駭者，覆也；
+The rising of birds in their flight is the sign of an ambuscade. 
+Startled beasts indicate that a sudden attack is coming. 
+
+塵高而銳者，車來也；卑而廣者，徒來也；散而條達者，樵采也；少而往來者，營軍也；
+When there is dust rising in a high column, it is the sign of chariots advancing; when the dust is low, but spread over a wide area, it betokens the approach of infantry. 
+When it branches out in different directions, it shows that parties have been sent to collect firewood. A few clouds of dust moving to and fro signify that the army is encamping. 
+
+辭卑而益備者，進也；辭強而進驅者，退也；
+Humble words and increased preparations are signs that the enemy is about to advance. 
+Violent language and driving forward as if to the attack are signs that he will retreat. 
+
+輕車先出，居其側者，陣也；
+When the light chariots 
+come out first and take up a position on the wings, it is a sign that the enemy is forming for battle. 
+
+無約而請和者，謀也；
+Peace proposals unaccompanied by a sworn covenant indicate a plot. 
+
+奔走而陳兵者，期也；
+When there is much running about 
+and the soldiers fall into rank, 
+it means that the critical moment has come. 
+
+半進半退者，誘也；
+When some are seen advancing and some retreating, it is a lure. 
+
+杖而立者，饑也；
+If those who are sent to draw water begin by drinking themselves, the army is suffering from thirst. 
+
+汲而先飲者，渴也；見利而不進者，勞也；
+If the enemy sees an advantage to be gained
+and makes no effort to secure it, the soldiers are exhausted. 
+
+鳥集者，虛也；夜呼者，恐也；
+If birds gather on any spot, it is unoccupied. 
+Clamour by night betokens nervousness. 
+
+軍擾者，將不重也；旌旗動者，亂也；吏怒者，倦也；
+If there is disturbance in the camp, the general's authority is weak. If the banners and flags are shifted about, sedition is afoot. 
+
+粟馬肉食，軍無懸缻，而不返其舍者，窮寇也；
+When an army feeds its horses with grain and kills its cattle for food,
+and when the men do not hang their cooking-pots
+over the camp-fires, showing that they will not return to their tents, 
+you may know that they are determined to fight to the death. 
+
+諄諄翕翕，徐與人言者，失衆也；
+The sight of men whispering together 
+in small knots 
+points to disaffection amongst the rank and file. 
+
+數賞者，窘也；數罰者，困也；
+Too frequent rewards signify that the enemy is at the end of his resources; 
+too many punishments betray a condition of dire distress. 
+
+先暴而後畏其衆者，不精之至也；
+To begin by bluster, but afterwards to take fright at the enemy's numbers, shows a supreme lack of intelligence. 
+
+來委謝者，欲休息也。
+When envoys are sent with compliments in their mouths, it is a sign that the enemy wishes for a truce. 
+
+兵怒而相迎，久而不合，又不相去，必謹察之。
+If the enemy's troops march up angrily and remain facing ours for a long time without either joining battle or taking themselves off again, the situation is one that demands great vigilance and circumspection. 
+
+故兵非貴益多也，惟無武進，足以併力、料敵、取人而已。
+If our troops are no more in number than the enemy, that is amply sufficient; 
+it only means that no direct attack can be made. 
+What we can do is simply to concentrate all our available strength, keep a close watch on the enemy, and obtain reinforcements. 
+
+夫惟無慮而易敵者，必擒於人。
+He who exercises no forethought but makes light of his opponents is sure to be captured by them. 
+
+卒未親附而罰之，則不服，不服則難用也。
+If soldiers are punished before they have grown attached to you, they will not prove submissive; and, unless submissive, then will be practically useless. If, when the soldiers have become attached to you, punishments are not enforced, they will still be useless. 
+This is a certain road to victory. 
+
+卒已親附而罰不行，則不可用也。故合之以文，齊之以武，是謂必取。
+If in training soldiers commands are habitually enforced, the army will be well-disciplined; if not, its discipline will be bad. 
+
+令素行以教其民，則民服；令素不行以教其民，則民不服。令素行者，與衆相得也。
+If a general shows confidence in his men but always insists on his orders being obeyed, 
+the gain will be mutual. 
+
 地形第十
+Section X: Terrain
 
 孫子曰：凡地形有通者、有掛者、有支者、有隘者、有險者、有遠者。我可以往，彼可以來，曰通。通形者，先居高陽，利糧道，以戰則利。可以往，難以返，曰掛。掛形者，敵無備，出而勝之；敵若有備，出而不勝，難以返，不利。我出而不利，彼出而不利，曰支。支形者，敵雖利我，我無出也，引而去之，令敵半出而擊之，利。隘形者，我先居之，必盈之以待敵。若敵先居之，盈而勿從，不盈而從之。險形者，我先居之，必居高陽以待敵；若敵先居之，引而去之，勿從也。遠形者，勢均，難以挑戰，戰而不利。凡此六者，地之道也，將之至任，不可不察也。
 

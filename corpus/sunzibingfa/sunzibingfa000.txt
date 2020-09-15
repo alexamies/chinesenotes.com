@@ -5,6 +5,7 @@
 </p>
 
 <h4>English translation</h4>
+The parallel English text provided is from Giles (1910).
 <ol>
   <li>
     Giles, Lionel tr. 1910, <i>Sun Tzu on the Art of War</i>,
