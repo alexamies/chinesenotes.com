@@ -10,8 +10,8 @@ The parallel English text provided is from Giles (1910).
   <li>
     Giles, Lionel tr. 1910, <i>Sun Tzu on the Art of War</i>,
     London: Luzac and Company,
-    <a href="https://en.wikisource.org/wiki/The_Art_of_War_(Sun)"
-    >https://en.wikisource.org/wiki/The_Art_of_War_(Sun)</a>
+    <a href="https://www.sacred-texts.com/tao/aow/index.htm"
+    >https://www.sacred-texts.com/tao/aow/index.htm</a>
   </li>
 </ol>
 

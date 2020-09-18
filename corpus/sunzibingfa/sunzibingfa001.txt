@@ -862,55 +862,480 @@ the gain will be mutual.
 地形第十
 Section X: Terrain
 
-孫子曰：凡地形有通者、有掛者、有支者、有隘者、有險者、有遠者。我可以往，彼可以來，曰通。通形者，先居高陽，利糧道，以戰則利。可以往，難以返，曰掛。掛形者，敵無備，出而勝之；敵若有備，出而不勝，難以返，不利。我出而不利，彼出而不利，曰支。支形者，敵雖利我，我無出也，引而去之，令敵半出而擊之，利。隘形者，我先居之，必盈之以待敵。若敵先居之，盈而勿從，不盈而從之。險形者，我先居之，必居高陽以待敵；若敵先居之，引而去之，勿從也。遠形者，勢均，難以挑戰，戰而不利。凡此六者，地之道也，將之至任，不可不察也。
+孫子曰：凡地形有通者、有掛者、有支者、有隘者、有險者、有遠者。
+Sun Tzu said: We may distinguish six kinds of terrain, to wit: 
+(1) Accessible ground; 
+(2) entangling ground; 
+(3) temporizing ground; 
+(4) narrow passes; 
+(5) precipitous heights; 
+(6) positions at a great distance from the enemy.
 
-故兵有走者、有弛者、有陷者、有崩者、有亂者、有北者。凡此六者，非天之災，將之過也。夫勢均，以一擊十，曰走；卒强吏弱，曰弛；吏强卒弱，曰陷；大吏怒而不服，遇敵懟而自戰，將不知其能，曰崩；將弱不嚴，教道不明，吏卒無常，陳兵縱橫，曰亂；將不能料敵，以少合衆，以弱擊強，兵無選鋒，曰北。凡此六者，敗之道也，將之至任，不可不察也。
+我可以往，彼可以來，曰通。
+2. Ground which can be freely traversed by both sides is called accessible. 
 
-夫地形者，兵之助也。料敵制勝，計險厄遠近，上將之道也。知此而用戰者必勝，不知此而用戰者必敗。故戰道必勝，主曰無戰，必戰可也；戰道不勝，主曰必戰，無戰可也。是故進不求名，退不避罪，唯民是保，而利合於主，國之寶也。
+通形者，先居高陽，利糧道，以戰則利。
+With regard to ground of this nature, be before the enemy in occupying the raised and sunny spots, and carefully guard your line of supplies. Then you will be able to fight with advantage.
 
-視卒如嬰兒，故可以與之赴深溪；視卒如愛子，故可與之俱死。厚而不能使，愛而不能令，亂而不能治，譬若驕子，不可用也。
+可以往，難以返，曰掛。
+Ground which can be abandoned but is hard to re-occupy is called entangling. 
 
-知吾卒之可以擊，而不知敵之不可擊，勝之半也；知敵之可擊，而不知吾卒之不可以擊，勝之半也；知敵之可擊，知吾卒之可以擊，而不知地形之不可以戰，勝之半也。故知兵者，動而不迷，舉而不窮。故曰：知彼知己，勝乃不殆；知天知地，勝乃可全。
-↑返回頁首
+掛形者，敵無備，出而勝之；敵若有備，出而不勝，難以返，不利。
+From a position of this sort, if the enemy is unprepared, you may sally forth and defeat him. But if the enemy is prepared for your coming, and you fail to defeat him, then, return being impossible, disaster will ensue.
+
+我出而不利，彼出而不利，曰支。
+When the position is such that neither side will gain by making the first move, it is called temporizing ground. 
+
+支形者，敵雖利我，我無出也，引而去之，令敵半出而擊之，利。
+In a position of this sort, even though the enemy should offer us an attractive bait, it will be advisable not to stir forth, but rather to retreat, thus enticing the enemy in his turn; then, when part of his army has come out, we may deliver our attack with advantage.
+
+隘形者，我先居之，必盈之以待敵。
+With regard to narrow passes, if you can occupy them first, let them be strongly garrisoned and await the advent of the enemy. 
+
+若敵先居之，盈而勿從，不盈而從之。
+Should the army forestall you in occupying a pass, do not go after him if the pass is fully garrisoned, but only if it is weakly garrisoned. 
+
+險形者，我先居之，必居高陽以待敵；
+With regard to precipitous heights, if you are beforehand with your adversary, you should occupy the raised and sunny spots, and there wait for him to come up.
+
+若敵先居之，引而去之，勿從也。
+If the enemy has occupied them before you, do not follow him, but retreat and try to entice him away. 
+
+遠形者，勢均，難以挑戰，戰而不利。
+If you are situated at a great distance from the enemy, and the strength of the two armies is equal, it is not easy to provoke a battle, and fighting will be to your disadvantage. 
+
+凡此六者，地之道也，將之至任，不可不察也。
+These six are the principles connected with Earth. The general who has attained a responsible post must be careful to study them.
+
+故兵有走者、有弛者、有陷者、有崩者、有亂者、有北者。凡此六者，非天之災，將之過也。
+Now an army is exposed to six several calamities, not arising from natural causes, but from faults for which the general is responsible. These are: (1) Flight; (2) insubordination; (3) collapse; (4) ruin; (5) disorganization; (6) rout. 
+
+夫勢均，以一擊十，曰走；
+Other conditions being equal, if one force is hurled against another ten times its size, the result will be the flight of the former. 
+
+卒强吏弱，曰弛；吏强卒弱，曰陷；
+When the common soldiers are too strong and their officers too weak, the result is insubordination. When the officers are too strong and the common soldiers too weak, the result is collapse.
+
+大吏怒而不服，遇敵懟而自戰，將不知其能，曰崩；
+When the higher officers are angry and insubordinate, and on meeting the enemy give battle on their own account from a feeling of resentment, before the commander-in-chief can tell whether or not he is in a position to fight, the result is ruin.
+
+將弱不嚴，教道不明，吏卒無常，陳兵縱橫，曰亂；
+When the general is weak and without authority; when his orders are not clear and distinct; when there are no fixed duties assigned to officers and men, and the ranks are formed in a slovenly haphazard manner, the result is utter disorganization.
+
+將不能料敵，以少合衆，以弱擊強，兵無選鋒，曰北。
+When a general, unable to estimate the enemy's strength, allows an inferior force to engage a larger one, or hurls a weak detachment against a powerful one, and neglects to place picked soldiers in the front rank, the result must be rout.
+
+凡此六者，敗之道也，將之至任，不可不察也。
+These are six ways of courting defeat, which must be carefully noted by the general who has attained a responsible post.
+
+夫地形者，兵之助也。料敵制勝，計險厄遠近，上將之道也。
+The natural formation of the country is the soldier's best ally; but a power of estimating the adversary, of controlling the forces of victory, and of shrewdly calculating difficulties, dangers and distances, constitutes the test of a great general.
+
+知此而用戰者必勝，不知此而用戰者必敗。
+He who knows these things, and in fighting puts his knowledge into practice, will win his battles. He who knows them not, nor practices them, will surely be defeated. 
+
+故戰道必勝，主曰無戰，必戰可也；
+If fighting is sure to result in victory, then you must fight, even though the ruler forbid it; if fighting will not result in victory, then you must not fight even at the ruler's bidding.
+
+戰道不勝，主曰必戰，無戰可也。是故進不求名，退不避罪，唯民是保，而利合於主，國之寶也。
+The general who advances without coveting fame and retreats without fearing disgrace, whose only thought is to protect his country and do good service for his sovereign, is the jewel of the kingdom.
+
+視卒如嬰兒，故可以與之赴深溪；視卒如愛子，故可與之俱死。
+Regard your soldiers as your children, and they will follow you into the deepest valleys; look upon them as your own beloved sons, and they will stand by you even unto death.
+
+厚而不能使，愛而不能令，亂而不能治，譬若驕子，不可用也。
+If, however, you are indulgent, but unable to make your authority felt; kind-hearted, but unable to enforce your commands; and incapable, moreover, of quelling disorder: then your soldiers must be likened to spoilt children; they are useless for any practical purpose.
+
+知吾卒之可以擊，而不知敵之不可擊，勝之半也；
+If we know that our own men are in a condition to attack, but are unaware that the enemy is not open to attack, we have gone only halfway towards victory.
+
+知敵之可擊，而不知吾卒之不可以擊，勝之半也；
+If we know that the enemy is open to attack, but are unaware that our own men are not in a condition to attack, we have gone only halfway towards victory. 
+
+知敵之可擊，知吾卒之可以擊，而不知地形之不可以戰，勝之半也。
+If we know that the enemy is open to attack, and also know that our men are in a condition to attack, but are unaware that the nature of the ground makes fighting impracticable, we have still gone only halfway towards victory. 
+
+故知兵者，動而不迷，舉而不窮。
+Hence the experienced soldier, once in motion, is never bewildered; once he has broken camp, he is never at a loss. 
+
+故曰：知彼知己，勝乃不殆；知天知地，勝乃可全。
+Hence the saying: If you know the enemy and know yourself, your victory will not stand in doubt; if you know Heaven and know Earth, you may make your victory complete.
+
 九地第十一
+Section XI: The Nine Situations
 
-孫子曰：凡用兵之法，有散地，有輕地，有爭地，有交地，有衢地，有重地，有圮地，有圍地，有死地。諸侯自戰其地者，為散地；入人之地而不深者，為輕地；我得則利，彼得亦利者，為爭地；我可以往，彼可以來者，為交地；諸侯之地三屬，先至而得天下之衆者，為衢地；入人之地深，背城邑多者，為重地；山林、險阻、沮澤，凡難行之道者，為圮地；所由入者隘，所從歸者迂，彼寡可以擊吾之衆者，為圍地；疾戰則存，不疾戰則亡者，為死地。是故散地則無戰，輕地則無止，爭地則無攻，交地則無絕，衢地則合交，重地則掠，圮地則行，圍地則謀，死地則戰。
+孫子曰：凡用兵之法，有散地，有輕地，有爭地，有交地，有衢地，有重地，有圮地，有圍地，有死地。
+Sun Tzu said that the art of war recognizes nine varieties of ground: (1) Dispersive ground; (2) facile ground; (3) contentious ground; (4) open ground; (5) ground of intersecting highways; (6) serious ground; (7) difficult ground; (8) hemmed-in ground; (9) desperate ground. 
 
-所謂古之善用兵者，能使敵人前後不相及，衆寡不相恃，貴賤不相救，上下不相收，卒離而不集，兵合而不齊。合於利而動，不合於利而止。敢問︰「敵衆整而將來，待之若何？」曰：「先奪其所愛，則聽矣。」故兵之情主速，乘人之不及，由不虞之道，攻其所不戒也。
+諸侯自戰其地者，為散地；
+When a chieftain is fighting in his own territory, it is dispersive ground.
 
-凡為客之道，深入則專，主人不克。掠于饒野，三軍足食。謹養而勿勞，併氣積力，運兵計謀，為不可測。投之無所往，死且不北。死焉不得，士人盡力。兵士甚陷則不懼，無所往則固，深入則拘，不得已則鬥。是故其兵不修而戒，不求而得，不約而親，不令而信。禁祥去疑，至死無所之。吾士無餘財，非惡貨也；無餘命，非惡壽也。令發之日，士卒坐者涕沾襟，偃臥者淚交頤。投之無所往者，則諸、劌之勇也。
+入人之地而不深者，為輕地；
+When he has penetrated into hostile territory, but to no great distance, it is facile ground.
 
-故善用兵者，譬如率然。率然者，常山之蛇也。擊其首則尾至，擊其尾則首至，擊其中則首尾俱至。敢問︰「兵可使如率然乎？」曰︰「可。夫吳人與越人相惡也，當其同舟而濟。遇風，其相救也，如左右手。」是故方馬埋輪，未足恃也；齊勇如一，政之道也；剛柔皆得，地之理也。故善用兵者，攜手若使一人，不得已也。
+我得則利，彼得亦利者，為爭地；
+Ground the possession of which imports great advantage to either side, is contentious ground.
 
-將軍之事，靜以幽，正以治。能愚士卒之耳目，使之無知；易其事，革其謀，使人無識；易其居，迂其途，使人不得慮。帥與之期，如登高而去其梯；帥與之深入諸侯之地，而發其機，焚舟破釜，若驅群羊。驅而往，驅而來，莫知所之。聚三軍之衆，投之於險，此謂將軍之事也。九地之變，屈伸之利，人情之理，不可不察也。
+我可以往，彼可以來者，為交地；
+Ground on which each side has liberty of movement is open ground.
 
-凡為客之道，深則專，淺則散。去國越境而師者，絕地也；四達者，衢地也；入深者，重地也；入淺者，輕地也；背固前隘者，圍地也；無所往者，死地也。是故散地，吾將一其志；輕地，吾將使之屬；爭地，吾將趨其後；交地，吾將謹其守；衢地，吾將固其結；重地，吾將繼其食；圮地，吾將進其途；圍地，吾將塞其闕；死地，吾將示之以不活。故兵之情：圍則禦，不得已則鬥，過則從。
+諸侯之地三屬，先至而得天下之衆者，為衢地；
+Ground which forms the key to three contiguous states, so that he who occupies it first has most of the Empire at his command, is ground of intersecting highways.
 
-是故不知諸侯之謀者，不能豫交；不知山林、險阻、沮澤之形者，不能行軍；不用鄉導者，不能得地利。四五者，不知一，非霸王之兵也。夫霸王之兵，伐大國，則其衆不得聚；威加於敵，則其交不得合。是故不爭天下之交，不養天下之權，信己之私，威加於敵，則其城可拔，其國可隳。施無法之賞，懸無政之令。犯三軍之衆，若使一人。犯之以事，勿告以言；犯之以利，勿告以害。投之亡地然後存，陷之死地然後生。夫衆陷於害，然後能為勝敗。故為兵之事，在於佯順敵之意，併敵一向，千里殺將，是謂巧能成事者也。
+入人之地深，背城邑多者，為重地；
+When an army has penetrated into the heart of a hostile country, leaving a number of fortified cities in its rear, it is serious ground. 
 
-是故政舉之日，夷關折符，無通其使；厲於廊廟之上，以誅其事。敵人開闔，必亟入之，先其所愛，微與之期，踐墨隨敵，以決戰事。是故始如處女，敵人開戶；後如脫兔，敵不及拒。
-↑返回頁首
+山林、險阻、沮澤，凡難行之道者，為圮地；
+Mountain forests, rugged steeps, marshes and fens--all country that is hard to traverse: this is difficult ground. 
+
+所由入者隘，所從歸者迂，彼寡可以擊吾之衆者，為圍地；
+Ground which is reached through narrow gorges, and from which we can only retire by tortuous paths, so that a small number of the enemy would suffice to crush a large body of our men: this is hemmed in ground. 
+
+疾戰則存，不疾戰則亡者，為死地。
+Ground on which we can only be saved from destruction by fighting without delay, is desperate ground.
+
+是故散地則無戰，輕地則無止，爭地則無攻，
+On dispersive ground, therefore, fight not. On facile ground, halt not. On contentious ground, attack not.
+
+交地則無絕，衢地則合交，
+On open ground, do not try to block the enemy's way. On the ground of intersecting highways, join hands with your allies. 
+
+重地則掠，圮地則行，
+On serious ground, gather in plunder. In difficult ground, keep steadily on the march.
+
+圍地則謀，死地則戰。
+On hemmed-in ground, resort to stratagem. On desperate ground, fight. 
+
+所謂古之善用兵者，能使敵人前後不相及，衆寡不相恃，貴賤不相救，上下不相收，
+Those who were called skilful leaders of old knew how to drive a wedge between the enemy's front and rear;
+to prevent co-operation between his large and small divisions; to hinder the good troops from rescuing the bad, the officers from rallying their men.
+
+卒離而不集，兵合而不齊。
+When the enemy's men were united, they managed to keep them in disorder. 
+
+合於利而動，不合於利而止。
+When it was to their advantage, they made a forward move; when otherwise, they stopped still. 
+
+敢問︰「敵衆整而將來，待之若何？」曰：「先奪其所愛，則聽矣。」
+If asked how to cope with a great host of the enemy in orderly array and on the point of marching to the attack, I should say: “Begin by seizing something which your opponent holds dear; then he will be amenable to your will.”
+
+故兵之情主速，乘人之不及，由不虞之道，攻其所不戒也。
+Rapidity is the essence of war: take advantage of the enemy's unreadiness, make your way by unexpected routes, and attack unguarded spots.
+
+凡為客之道，深入則專，主人不克。
+The following are the principles to be observed by an invading force: The further you penetrate into a country, the greater will be the solidarity of your troops, and thus the defenders will not prevail against you. 
+
+掠于饒野，三軍足食。
+Make forays in fertile country in order to supply your army with food. 
+
+謹養而勿勞，併氣積力，運兵計謀，為不可測。
+Carefully study the well-being of your men, and do not overtax them. Concentrate your energy and hoard your strength. Keep your army continually on the move, and devise unfathomable plans.
+
+投之無所往，死且不北。死焉不得，士人盡力。
+ Throw your soldiers into positions whence there is no escape, and they will prefer death to flight. If they will face death, there is nothing they may not achieve. Officers and men alike will put forth their uttermost strength. 
+
+兵士甚陷則不懼，無所往則固，深入則拘，不得已則鬥。
+Soldiers when in desperate straits lose the sense of fear. If there is no place of refuge, they will stand firm. If they are in hostile country, they will show a stubborn front. If there is no help for it, they will fight hard.
+
+是故其兵不修而戒，不求而得，不約而親，不令而信。
+Thus, without waiting to be marshalled, the soldiers will be constantly on the qui vive; without waiting to be asked, they will do your will; without restrictions, they will be faithful; without giving orders, they can be trusted.
+
+禁祥去疑，至死無所之。
+Prohibit the taking of omens, and do away with superstitious doubts. Then, until death itself comes, no calamity need be feared.
+
+吾士無餘財，非惡貨也；無餘命，非惡壽也。
+If our soldiers are not overburdened with money, it is not because they have a distaste for riches; if their lives are not unduly long, it is not because they are disinclined to longevity.
+
+令發之日，士卒坐者涕沾襟，偃臥者淚交頤。投之無所往者，則諸、劌之勇也。
+On the day they are ordered out to battle, your soldiers may weep, those sitting up bedewing their garments, and those lying down letting the tears run down their cheeks. But let them once be brought to bay, and they will display the courage of a Chu or a Kuei.
+
+故善用兵者，譬如率然。率然者，常山之蛇也。擊其首則尾至，擊其尾則首至，擊其中則首尾俱至。
+The skillful tactician may be likened to the shuai-jan. Now the shuai-jan is a snake that is found in the Ch'ang mountains. Strike at its head, and you will be attacked by its tail; strike at its tail, and you will be attacked by its head; strike at its middle, and you will be attacked by head and tail both.
+
+敢問︰「兵可使如率然乎？」曰︰「可。夫吳人與越人相惡也，當其同舟而濟。遇風，其相救也，如左右手。」
+Asked if an army can be made to imitate the shuai-jan, I should answer, Yes. For the men of Wu and the men of Yueh are enemies; yet if they are crossing a river in the same boat and are caught by a storm, they will come to each other's assistance just as the left hand helps the right.
+
+是故方馬埋輪，未足恃也；
+Hence it is not enough to put one's trust in the tethering of horses, and the burying of chariot wheels in the ground.
+
+齊勇如一，政之道也；
+The principle on which to manage an army is to set up one standard of courage which all must reach. 
+
+剛柔皆得，地之理也。
+How to make the best of both strong and weak — that is a question involving the proper use of ground. 
+
+故善用兵者，攜手若使一人，不得已也。
+Thus the skillful general conducts his army just as though he were leading a single man, willy-nilly, by the hand.
+
+將軍之事，靜以幽，正以治。
+It is the business of a general to be quiet and thus ensure secrecy; upright and just, and thus maintain order. 
+
+能愚士卒之耳目，使之無知；
+He must be able to mystify his officers and men by false reports and appearances, and thus keep them in total ignorance.
+
+易其事，革其謀，使人無識；易其居，迂其途，使人不得慮。
+By altering his arrangements and changing his plans, he keeps the enemy without definite knowledge. By shifting his camp and taking circuitous routes, he prevents the enemy from anticipating his purpose.
+
+帥與之期，如登高而去其梯；帥與之深入諸侯之地，而發其機，
+At the critical moment, the leader of an army acts like one who has climbed up a height and then kicks away the ladder behind him. He carries his men deep into hostile territory before he shows his hand. 
+
+焚舟破釜，若驅群羊。驅而往，驅而來，莫知所之。
+He burns his boats and breaks his cooking-pots; like a shepherd driving a flock of sheep, he drives his men this way and that, and nothing knows whither he is going.
+
+聚三軍之衆，投之於險，此謂將軍之事也。
+To muster his host and bring it into danger: — this may be termed the business of the general. 
+
+九地之變，屈伸之利，人情之理，不可不察也。
+The different measures suited to the nine varieties of ground; the expediency of aggressive or defensive tactics; and the fundamental laws of human nature: these are things that must most certainly be studied. 
+
+凡為客之道，深則專，淺則散。
+When invading hostile territory, the general principle is, that penetrating deeply brings cohesion; penetrating but a short way means dispersion. 
+
+去國越境而師者，絕地也；四達者，衢地也；
+When you leave your own country behind, and take your army across neighbouring territory, you find yourself on critical ground. When there are means of communication on all four sides, the ground is one of intersecting highways.
+
+入深者，重地也；入淺者，輕地也；
+When you penetrate deeply into a country, it is serious ground. When you penetrate but a little way, it is facile ground. 
+
+背固前隘者，圍地也；無所往者，死地也。
+When you have the enemy's strongholds on your rear, and narrow passes in front, it is hemmed-in ground. When there is no place of refuge at all, it is desperate ground. 
+
+是故散地，吾將一其志；輕地，吾將使之屬；
+Therefore, on dispersive ground, I would inspire my men with unity of purpose. On facile ground, I would see that there is close connection between all parts of my army.
+
+爭地，吾將趨其後；
+On contentious ground, I would hurry up my rear.
+
+交地，吾將謹其守；衢地，吾將固其結；
+On open ground, I would keep a vigilant eye on my defenses. On ground of intersecting highways, I would consolidate my alliances. 
+
+重地，吾將繼其食；圮地，吾將進其途；
+On serious ground, I would try to ensure a continuous stream of supplies. On difficult ground, I would keep pushing on along the road. 
+
+圍地，吾將塞其闕；死地，吾將示之以不活。
+On hemmed-in ground, I would block any way of retreat. On desperate ground, I would proclaim to my soldiers the hopelessness of saving their lives.
+
+故兵之情：圍則禦，不得已則鬥，過則從。
+For it is the soldier's disposition to offer an obstinate resistance when surrounded, to fight hard when he cannot help himself, and to obey promptly when he has fallen into danger.
+
+是故不知諸侯之謀者，不能豫交；不知山林、險阻、沮澤之形者，不能行軍；不用鄉導者，不能得地利。
+We cannot enter into alliance with neighboring princes until we are acquainted with their designs. We are not fit to lead an army on the march unless we are familiar with the face of the country--its mountains and forests, its pitfalls and precipices, its marshes and swamps. We shall be unable to turn natural advantages to account unless we make use of local guides.
+
+四五者，不知一，非霸王之兵也。
+To be ignorant of any one of the following four or five principles does not befit a warlike prince.
+
+夫霸王之兵，伐大國，則其衆不得聚；威加於敵，則其交不得合。
+When a warlike prince attacks a powerful state, his generalship shows itself in preventing the concentration of the enemy's forces. He overawes his opponents, and their allies are prevented from joining against him.
+
+是故不爭天下之交，不養天下之權，信己之私，威加於敵，則其城可拔，其國可隳。
+Hence he does not strive to ally himself with all and sundry, nor does he foster the power of other states. He carries out his own secret designs, keeping his antagonists in awe. Thus he is able to capture their cities and overthrow their kingdoms.
+
+施無法之賞，懸無政之令。犯三軍之衆，若使一人。
+Bestow rewards without regard to rule, issue orders without regard to previous arrangements; and you will be able to handle a whole army as though you had to do with but a single man.
+
+犯之以事，勿告以言；犯之以利，勿告以害。
+Confront your soldiers with the deed itself; never let them know your design. When the outlook is bright, bring it before their eyes; but tell them nothing when the situation is gloomy.
+
+投之亡地然後存，陷之死地然後生。
+Place your army in deadly peril, and it will survive; plunge it into desperate straits, and it will come off in safety.
+
+夫衆陷於害，然後能為勝敗。
+For it is precisely when a force has fallen into harm's way that is capable of striking a blow for victory. 
+
+故為兵之事，在於佯順敵之意，
+Success in warfare is gained by carefully accommodating ourselves to the enemy's purpose. 
+
+併敵一向，千里殺將，
+By persistently hanging on the enemy's flank, we shall succeed in the long run in killing the commander-in-chief. 
+
+是謂巧能成事者也。
+ This is called ability to accomplish a thing by sheer cunning.
+
+是故政舉之日，夷關折符，無通其使；
+On the day that you take up your command, block the frontier passes, destroy the official tallies, and stop the passage of all emissaries.
+
+厲於廊廟之上，以誅其事。
+Be stern in the council-chamber, so that you may control the situation.
+
+敵人開闔，必亟入之，
+If the enemy leaves a door open, you must rush in.
+
+先其所愛，微與之期，
+Forestall your opponent by seizing what he holds dear, and subtly contrive to time his arrival on the ground.
+
+踐墨隨敵，以決戰事。
+Walk in the path defined by rule, and accommodate yourself to the enemy until you can fight a decisive battle.
+
+是故始如處女，敵人開戶；後如脫兔，敵不及拒。
+At first, then, exhibit the coyness of a maiden, until the enemy gives you an opening; afterwards emulate the rapidity of a running hare, and it will be too late for the enemy to oppose you.
+
 火攻第十二
+Section XII: The Attack by Fire
 
-孫子曰：凡火攻有五：一曰火人，二曰火積，三曰火輜，四曰火庫，五曰火隊。行火必有因，烟火必素具。發火有時，起火有日。時者，天之燥也。日者，月在箕、壁、翼、軫也。凡此四宿者，風起之日也。
+孫子曰：凡火攻有五：一曰火人，二曰火積，三曰火輜，四曰火庫，五曰火隊。
+Sun Tzŭ said: There are five ways of attacking with fire. The first is to burn soldiers in their camp; 
+the second is to burn stores; 
+the third is to burn baggage trains; 
+the fourth is to burn arsenals and magazines; 
+the fifth is to hurl dropping fire amongst the enemy. 
 
-凡火攻，必因五火之變而應之：火發於內，則早應之於外；火發而其兵靜者，待而勿攻，極其火力，可從而從之，不可從則止；火可發於外，無待於內，以時發之；火發上風，無攻下風；晝風久，夜風止。凡軍必知有五火之變，以數守之。故以火佐攻者明，以水佐攻者強。水可以絕，不可以奪。
+行火必有因，烟火必素具。
+In order to carry out an attack with fire, we must have means available. 
+the material for raising fire should always be kept in readiness. 
 
-夫戰勝攻取，而不修其功者凶，命曰「費留」。故曰：明主慮之，良將修之，非利不動，非得不用，非危不戰。主不可以怒而興師，將不可以慍而致戰。合於利而動，不合於利而止。怒可以復喜，慍可以復悅，亡國不可以復存，死者不可以復生。故明主慎之，良將警之，此安國全軍之道也。
-↑返回頁首
+發火有時，起火有日。
+There is a proper season for making attacks with fire, and special days for starting a conflagration. 
+
+時者，天之燥也。日者，月在箕、壁、翼、軫也。凡此四宿者，風起之日也。
+The proper season is when the weather is very dry; the special days are those when the moon is in the constellations of the Sieve, the Wall, the Wing or the Cross-bar; 
+for these four are all days of rising wind. 
+
+凡火攻，必因五火之變而應之：
+In attacking with fire, one should be prepared to meet five possible developments: 
+
+火發於內，則早應之於外；
+(1) When fire breaks out inside to enemy's camp, respond at once with an attack from without. 
+
+火發而其兵靜者，待而勿攻，
+(2) If there is an outbreak of fire, but the enemy's soldiers remain quiet, bide your time and do not attack. 
+
+極其火力，可從而從之，不可從則止；
+(3) When the force of the flames has reached its height, follow it up with an attack, if that is practicable; if not, stay where you are. 
+
+火可發於外，無待於內，以時發之；
+(4) If it is possible to make an assault with fire from without, do not wait for it to break out within, but deliver your attack at a favourable moment. 
+
+火發上風，無攻下風；
+(5) When you start a fire, be to windward of it. Do not attack from the leeward. 
+
+晝風久，夜風止。
+A wind that rises in the daytime lasts long, but a night breeze soon falls. 
+
+凡軍必知有五火之變，以數守之。
+In every army, the five developments connected with fire must be known, the movements of the stars calculated, and a watch kept for the proper days. 
+
+故以火佐攻者明，
+Hence those who use fire as an aid to the attack show intelligence; 
+
+以水佐攻者強。
+those who use water as an aid to the attack gain an accession of strength. 
+
+水可以絕，不可以奪。
+By means of water, an enemy may be intercepted, but not robbed of all his belongings. 
+
+夫戰勝攻取，而不修其功者凶，命曰「費留」。
+Unhappy is the fate of one who tries to win his battles and succeed in his attacks without cultivating the spirit of enterprise; for the result is waste of time and general stagnation. 
+
+故曰：明主慮之，良將修之，
+Hence the saying: The enlightened ruler lays his plans well ahead; the good general cultivates his resources. 
+
+非利不動，非得不用，非危不戰。
+Move not unless you see an advantage; 
+use not your troops unless there is something to be gained; fight not unless the position is critical. 
+
+主不可以怒而興師，將不可以慍而致戰。
+No ruler should put troops into the field merely to gratify his own spleen; no general should fight a battle simply out of pique. 
+
+合於利而動，不合於利而止。
+If it is to your advantage, make a forward move; if not, stay where you are. 
+
+怒可以復喜，慍可以復悅，
+Anger may in time change to gladness; vexation may be succeeded by content. 
+
+亡國不可以復存，死者不可以復生。
+But a kingdom that has once been destroyed can never come again into being; 
+
+故明主慎之，良將警之，此安國全軍之道也。
+Hence the enlightened ruler is heedful, and the good general full of caution. 
+This is the way to keep a country at peace and an army intact. 
+
 用間第十三
+Section XIII: The Use of Spies
 
-孫子曰：凡興師十萬，出征千里，百姓之費，公家之奉，日費千金，內外騷動，怠于道路，不得操事者，七十萬家。相守數年，以爭一日之勝，而愛爵祿百金，不知敵之情者，不仁之至也，非人之將也，非主之佐也，非勝之主也。故明君賢將，所以動而勝人，成功出於眾者，先知也。先知者，不可取於鬼神，不可象於事，不可驗於度，必取於人，知敵之情者也。
+孫子曰：凡興師十萬，出征千里，百姓之費，公家之奉，日費千金，內外騷動，怠于道路，不得操事者，七十萬家。
+Sun Tzu said: Raising a host of a hundred thousand men and marching them great distances entails heavy loss on the people and a drain on the resources of the State. The daily expenditure will amount to a thousand ounces of silver. There will be commotion at home and abroad, and men will drop down exhausted on the highways. As many as seven hundred thousand families will be impeded in their labor.
 
-故用間有五：有鄉間，有內間，有反間，有死間，有生間。五間俱起，莫知其道，是謂「神紀」，人君之寶也。鄉間者，因其鄉人而用之；內間者，因其官人而用之；反間者，因其敵間而用之；死間者，為誑事於外，令吾間知之，而傳於敵間也；生間者，反報也。
+相守數年，以爭一日之勝，而愛爵祿百金，不知敵之情者，不仁之至也，
+Hostile armies may face each other for years, striving for the victory which is decided in a single day. This being so, to remain in ignorance of the enemy's condition simply because one grudges the outlay of a hundred ounces of silver in honors and emoluments, is the height of inhumanity.
 
-故三軍之事，莫親於間，賞莫厚於間，事莫密於間，非聖智不能用間，非仁義不能使間，非微妙不能得間之實。微哉！微哉！無所不用間也。間事未發而先聞者，間與所告者皆死。
+非人之將也，非主之佐也，非勝之主也。
+One who acts thus is no leader of men, no present help to his sovereign, no master of victory.
 
-凡軍之所欲擊，城之所欲攻，人之所欲殺，必先知其守將、左右、謁者、門者、舍人之姓名，令吾間必索知之。必索敵人之間來間我者，因而利之，導而舍之，故反間可得而用也；因是而知之，故鄉間、內間可得而使也；因是而知之，故死間為誑事，可使告敵；因是而知之，故生間可使如期。五間之事，主必知之，知之必在於反間，故反間不可不厚也。
+故明君賢將，所以動而勝人，成功出於眾者，先知也。
+Thus, what enables the wise sovereign and the good general to strike and conquer, and achieve things beyond the reach of ordinary men, is foreknowledge. 
 
-昔殷之興也，伊摯在夏；周之興也，呂牙在殷。故明君賢將，能以上智為間者，必成大功。此兵之要，三軍之所恃而動也。
-↑返回頁首
+先知者，不可取於鬼神，不可象於事，不可驗於度，
+Now this foreknowledge cannot be elicited from spirits; it cannot be obtained inductively from experience, nor by any deductive calculation. 
+
+必取於人，知敵之情者也。
+Knowledge of the enemy's dispositions can only be obtained from other men.
+
+故用間有五：有鄉間，有內間，有反間，有死間，有生間。
+Hence the use of spies, of whom there are five classes: (1) Local spies; (2) inward spies; (3) converted spies; (4) doomed spies; (5) surviving spies. 
+
+五間俱起，莫知其道，是謂「神紀」，人君之寶也。
+When these five kinds of spy are all at work, none can discover the secret system. This is called “divine manipulation of the threads.” It is the sovereign's most precious faculty. 
+
+鄉間者，因其鄉人而用之；
+Having local spies means employing the services of the inhabitants of a district.
+
+內間者，因其官人而用之；
+Having inward spies, making use of officials of the enemy.
+
+反間者，因其敵間而用之；
+Having converted spies, getting hold of the enemy's spies and using them for our own purposes.
+
+死間者，為誑事於外，令吾間知之，而傳於敵間也；
+Having doomed spies, doing certain things openly for purposes of deception, and allowing our spies to know of them and report them to the enemy.
+
+生間者，反報也。
+Surviving spies, finally, are those who bring back news from the enemy's camp.
+
+故三軍之事，莫親於間，
+Hence it is that which none in the whole army are more intimate relations to be maintained than with spies. None should be more liberally rewarded. In no other business should greater secrecy be preserved.
+
+賞莫厚於間，事莫密於間，非聖智不能用間，
+Spies cannot be usefully employed without a certain intuitive sagacity.
+
+非仁義不能使間，
+They cannot be properly managed without benevolence and straightforwardness. 
+
+非微妙不能得間之實。
+Without subtle ingenuity of mind, one cannot make certain of the truth of their reports. 
+
+微哉！微哉！無所不用間也。
+Be subtle! be subtle! and use your spies for every kind of business. 
+
+間事未發而先聞者，間與所告者皆死。
+If a secret piece of news is divulged by a spy before the time is ripe, he must be put to death together with the man to whom the secret was told.
+
+凡軍之所欲擊，城之所欲攻，人之所欲殺，必先知其守將、左右、謁者、門者、舍人之姓名，令吾間必索知之。
+Whether the object be to crush an army, to storm a city, or to assassinate an individual, it is always necessary to begin by finding out the names of the attendants, the aides-de-camp, and door-keepers and sentries of the general in command. Our spies must be commissioned to ascertain these.
+
+必索敵人之間來間我者，因而利之，導而舍之，故反間可得而用也；
+The enemy's spies who have come to spy on us must be sought out, tempted with bribes, led away and comfortably housed. Thus they will become converted spies and available for our service. 
+
+因是而知之，故鄉間、內間可得而使也；
+It is through the information brought by the converted spy that we are able to acquire and employ local and inward spies. 
+
+因是而知之，故死間為誑事，可使告敵；
+It is owing to his information, again, that we can cause the doomed spy to carry false tidings to the enemy. 
+
+因是而知之，故生間可使如期。
+Lastly, it is by his information that the surviving spy can be used on appointed occasions.
+
+五間之事，主必知之，知之必在於反間，故反間不可不厚也。
+The end and aim of spying in all its five varieties is knowledge of the enemy; and this knowledge can only be derived, in the first instance, from the converted spy. Hence it is essential that the converted spy be treated with the utmost liberality. 
+
+昔殷之興也，伊摯在夏；周之興也，呂牙在殷。
+Of old, the rise of the Yin dynasty was due to I Chih who had served under the Hsia. Likewise, the rise of the Chou dynasty was due to Lü Ya
+who had served under the Yin.
+
+故明君賢將，能以上智為間者，必成大功。此兵之要，三軍之所恃而動也。
+Hence it is only the enlightened ruler and the wise general who will use the highest intelligence of the army for purposes of spying, and thereby they achieve great results. Spies are a most important element in water, because on them depends an army's ability to move.
+
 答話
+Commentary
 
 「吳王謂子胥、孫武曰：『始子言郢不可入，今果何如？』二將曰：『夫戰，借勝以成其威，非常勝之道。』吳王曰：『何謂也？』二將曰：『楚之為兵，天下彊敵也。今臣與之爭鋒，十亡一存，而王入郢者，天也，臣不敢必。』吳王曰：『吾欲復擊楚，奈何而有功？』伍胥、孫武曰：『囊瓦者，貪而多過於諸侯，而唐、蔡怨之。王必伐，得唐、蔡。』」
 

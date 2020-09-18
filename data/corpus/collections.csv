@@ -14,7 +14,7 @@ mengzi.csv	mengzi.html	Mencius 孟子	Also known as Mengzi, with English transla
 xiaojing.csv	xiaojing.html	The Classic of Filial Piety 孝經	Also known as the Xiao Jing, with English translation by James Legge	xiaojing/xiaojing000.txt	Literary Chinese	Prose	c. 4th century BCE	Confucian
 mozi.csv	mozi.html	Mozi 墨子	An early master with text of the same name	mozi/mozi000.txt	Literary Chinese	Prose	c. 4th century BCE	Masters Literature
 guanzi.csv	guanzi.html	Guanzi 管子	Traditionally attributed to statesman 管仲 Zhan Zhong	guanzi/guanzi000.txt	Literary Chinese	Prose	Pre-Qin	Masters Literature
-sunzibingfa.csv	sunzibingfa.html	Art of War 孫子兵法	The early classic on military strategy by Sunzi 孫子	sunzibingfa/sunzibingfa000.txt	Literary Chinese	Prose	Warring States	Masters Literature
+sunzibingfa.csv	sunzibingfa.html	Art of War 孫子兵法	The early classic on military strategy by Sunzi 孫子  with parallel English translation by Giles	sunzibingfa/sunzibingfa000.txt	Literary Chinese	Prose	Warring States	Masters Literature
 huainanzi.csv	huainanzi.html	Huainanzi 淮南子	An early collection of debates in the court of 劉安 Liu An	huainanzi/huainanzi000.txt	Literary Chinese	Prose	Before 139 BCE	Masters Literature
 hanfeizi.csv	hanfeizi.html	Han Feizi 韓非子	An early master with text of the same name	hanfeizi/hanfeizi000.txt	Literary Chinese	Prose	c. 280-233 BCE	Masters Literature
 xunzi.csv	xunzi.html	Xunzi 荀子	An early master with text of the same name	xunzi/xunzi000.txt	Literary Chinese	Prose	- c. 237 BCE	Masters Literature

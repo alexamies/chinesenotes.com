@@ -1411,3 +1411,5 @@
 7001411	竺法乘	\N	zhú fǎchéng	Zhu Facheng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 4 梁高僧傳卷第四 (T 2059)	7001411
 7001412	竺潜深	竺潛深	Zhú Qiánshēn	Zhu Qianshen	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 4 梁高僧傳卷第四 (T 2059)	7001412
 7001413	支道林	\N	Zhī Dàolín	Zhi Daolin	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 4 梁高僧傳卷第四 (T 2059)	7001413
+7001414	于法兰	于法蘭	yú Fǎlán	Yu Falan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Jin dynasty monk from Hebei mentioned in the Liang Biographies of Eminent Monks, Scroll 4 梁高僧傳卷第四 (T 2059)	7001414
+7001415	于法开	于法開	yú fǎkāi	Yu Fakai	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Jin dynasty monk mentioned in the Liang Biographies of Eminent Monks, Scroll 4 梁高僧傳卷第四 (T 2059)	7001415

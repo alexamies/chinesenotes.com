@@ -665,3 +665,11 @@
 3000665	承交	\N	chéng jiāo	take over responsibility for a task	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承交', p. 51)	3000665
 3000666	承允	\N	chéng yǔn	to permit	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承允', p. 51)	3000666
 3000667	承典	\N	chéng diǎn	to take a loan	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承典', p. 51)	3000667
+3000668	火积	火積	huǒ jī	to burn stores	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 12 (Giles 1910, p. 151)	3000668
+3000669	素具	\N	sù jù	should always be kept in readiness	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 12 (Giles 1910, p. 152)	3000669
+3000670	天之燥	\N	tiān zhī zào	when the weather is dry	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 12 (reworded from Giles 1910, p. 152)	3000670
+3000671	风起	風起	fēng qǐ	rising wind	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 12 (Giles 1910, p. 153)	3000671
+3000672	火发	火發	huǒ fā	an outbreak of fire	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 12 (Giles 1910, p. 153)	3000672
+3000673	火力	\N	huǒlì	fthe force of the flames	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 12 (Giles 1910, p. 153)	12436
+3000674	昼风	晝風	zhòu fēng	a wind that rises in the daytime	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 12 (Giles 1910, p. 155)	3000674
+3000675	非利不动	非利不動	fēi lì bù dòng	do not move unless it is to your advantage	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 12 (reworded from Giles 1910, p. 158)	3000675
