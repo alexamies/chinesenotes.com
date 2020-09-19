@@ -272,3 +272,8 @@
 5000272	泥坨子	\N	ní tuózi	a clump of mud	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '坨')	5000272
 5000273	两坨土	兩坨土	liǎng tuó tǔ	two lumps of dirt	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '坨')	5000273
 5000274	脾气大	脾氣大	píqì dà	very angry	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '脾氣')	5000274
+5000275	佚文	\N	yì wén	lost documents	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '佚')	5000275
+5000276	佚书	佚書	yì shū	lost books	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '佚')	5000276
+5000277	承揽工程	承攬工程	chénglǎn gōngchéng	to contract for an entire project	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '承攬'; Guoyu '承攬')	5000277
+5000278	承约	承約	chéng yuē	to contract for	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '承約', p. 51)	5000278
+5000279	承买	承買	chéngmǎi	to sign a contract for a purchase	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '承買', p. 51)	5000279

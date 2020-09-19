@@ -5,7 +5,7 @@
 Section I: Laying Plans
 
 孫子曰：兵者，國之大事，
-Sun Tzŭ said: The art of war is of vital importance to the State. 
+[p. 1] Sun Tzŭ said: The art of war is of vital importance to the State. 
 
 死生之地，存亡之道，不可不察也。
 It is a matter of life and death, a road either to safety or to ruin. Hence it is a subject of inquiry which can on no account be neglected. 
@@ -14,7 +14,7 @@ It is a matter of life and death, a road either to safety or to ruin. Hence it i
 The art of war, then, is governed by five constant factors, to be taken into account in one's deliberations, when seeking to determine the conditions obtaining in the field. 
 
 一曰道，二曰天，三曰地，四曰将，五曰法。
-These are: (1) The Moral Law; (2) Heaven; (3) Earth; (4) The Commander; (5) Method and discipline. 
+[p. 2] These are: (1) The Moral Law; (2) Heaven; (3) Earth; (4) The Commander; (5) Method and discipline. 
 
 道者，令民與上同意，可與之死，可與之生，而不畏危也。
 The Moral Law causes the people to be in complete accord with their ruler, so that they will follow him regardless of their lives, undismayed by any danger. 
@@ -26,7 +26,7 @@ Heaven signifies night and day, cold and heat, times and seasons.
 Earth comprises distances, great and small; danger and security; open ground and narrow passes; the chances of life and death. 
 
 將者，智、信、仁、勇、嚴也。
-The Commander stands for the virtues of wisdom, sincerity, benevolence, courage and strictness. 
+[p. 3] The Commander stands for the virtues of wisdom, sincerity, benevolence, courage and strictness. 
 
 法者，曲制、官道、主用也。
 By Method and discipline are to be understood the marshalling of the army in its proper subdivisions, the graduations of rank among the officers, the maintenance of roads by which supplies may reach the army, and the control of military expenditure. 
@@ -38,7 +38,7 @@ These five heads should be familiar to every general: he who knows them will be 
 Therefore, in your deliberations, when seeking to determine the military conditions, let them be made the basis of a comparison, in this wise:— 
 
 曰：主孰有道？將孰有能？天地孰得？法令孰行？兵眾孰強？士卒孰練？賞罰孰明？
-Which of the two sovereigns is imbued with the Moral law? 
+[p. 4] Which of the two sovereigns is imbued with the Moral law? 
 Which of the two generals has most ability? 
 With whom lie the advantages derived from Heaven and Earth? 
 On which side is discipline most rigorously enforced? 
@@ -50,7 +50,7 @@ In which army is there the greater constancy both in reward and punishment?
 By means of these seven considerations I can forecast victory or defeat.
 
 將聽吾計，用之必勝，留之；將不聽吾計，用之必敗，去之。
-The general that hearkens to my counsel and acts upon it, will conquer: — let such a one be retained in command! The general that hearkens not to my counsel nor acts upon it, will suffer defeat: — let such a one be dismissed! 
+[p. 5] The general that hearkens to my counsel and acts upon it, will conquer: — let such a one be retained in command! The general that hearkens not to my counsel nor acts upon it, will suffer defeat: — let such a one be dismissed! 
 
 計利以聽，乃為之勢，以佐其外。
 While heeding the profit of my counsel, avail yourself also of any helpful circumstances over and beyond the ordinary rules.
@@ -59,7 +59,7 @@ While heeding the profit of my counsel, avail yourself also of any helpful circu
 According as circumstances are favourable, one should modify one’s plans.
 
 兵者，詭道也。
-All warfare is based on deception. 
+[p. 6] All warfare is based on deception. 
 
 故能而示之不能，用而示之不用，近而示之遠，遠而示之近。
 Hence, when able to attack, we must seem unable; when using our forces, we must seem inactive; when we are near, we must make the enemy believe we are far away; when far away, we must make him believe we are near.
@@ -74,7 +74,7 @@ If he is secure at all points, be prepared for him. If he is in superior strengt
 If your opponent is of choleric temper, seek to irritate him. Pretend to be weak, that he may grow arrogant. 
 
 佚而勞之，親而離之。
-If he is taking his ease, give him no rest. 
+[p. 7] If he is taking his ease, give him no rest. 
 
 攻其無備，出其不意。
 Attack him where he is unprepared, appear where you are not expected. 
@@ -88,27 +88,40 @@ Now the general who wins a battle makes many calculations in his temple where th
 作戰第二
 Section II: Waging War
 
-孫子曰：凡用兵之法，馳車千駟，革車千乘，帶甲十萬，千里饋糧，則內外之費，賓客之用，膠漆之材，車甲之奉，日費千金，然後十萬之師舉矣。
-Sun Tzŭ said: In the operations of war, where there are in the field a thousand swift chariots, as many heavy chariots, and a hundred thousand mail-clad soldiers, 
+孫子曰：凡用兵之法，馳車千駟，革車千乘，
+[p. 9] Sun Tzŭ said: In the operations of war, where there are in the field a thousand swift chariots, as many heavy chariots, 
+
+帶甲十萬，千里饋糧，
+and a hundred thousand mail-clad soldiers, 
 with provisions enough to carry them a thousand li, 
-the expenditure at home and at the front, including entertainment of guests, small items such as glue and paint, and sums spent on chariots and armour, will reach the total of a thousand ounces of silver per day. 
+
+則內外之費，賓客之用，
+the expenditure at home and at the front, including entertainment of guests, 
+
+膠漆之材，車甲之奉，
+[p. 10] small items such as glue and paint, and sums spent on chariots and armour, 
+
+日費千金，然後十萬之師舉矣。
+will reach the total of a thousand ounces of silver per day. 
 Such is the cost of raising an army of 100,000 men. 
 
-其用戰也貴勝，久則鈍兵挫銳，攻城則力屈，
+其用戰也貴勝，久則鈍兵挫銳，
 When you engage in actual fighting, if victory is long in coming, then men's weapons will grow dull and their ardour will be damped. 
+
+攻城則力屈，
 If you lay siege to a town, you will exhaust your strength. 
 
 久暴師則國用不足。
 Again, if the campaign is protracted, the resources of the State will not be equal to the strain. 
 
 夫鈍兵挫銳，屈力殫貨，則諸侯乘其弊而起，雖有智者，不能善其後矣。
-Now, when your weapons are dulled, your ardour damped, your strength exhausted and your treasure spent, other chieftains will spring up to take advantage of your extremity. Then no man, however wise, will be able to avert the consequences that must ensue. 
+[p. 11] Now, when your weapons are dulled, your ardour damped, your strength exhausted and your treasure spent, other chieftains will spring up to take advantage of your extremity. Then no man, however wise, will be able to avert the consequences that must ensue. 
 
 故兵聞拙速，未睹巧之久也。
 Thus, though we have heard of stupid haste in war, cleverness has never been seen associated with long delays. 
 
 夫兵久而國利者，未之有也。
-There is no instance of a country having benefited from prolonged warfare. 
+[p. 12] There is no instance of a country having benefited from prolonged warfare. 
 
 故不盡知用兵之害者，則不能盡知用兵之利也。
 It is only one who is thoroughly acquainted with the evils of war that can thoroughly understand the profitable way of carrying it on. 
@@ -120,7 +133,7 @@ The skilful soldier does not raise a second levy, neither are his supply-wagons 
 Bring war material with you from home, but forage on the enemy. Thus the army will have food enough for its needs.
 
 國之貧於師者遠輸，遠輸則百姓貧；
-Poverty of the State exchequer causes an army to be maintained by contributions from a distance. Contributing to maintain an army at a distance causes the people to be impoverished. 
+[p. 13] Poverty of the State exchequer causes an army to be maintained by contributions from a distance. Contributing to maintain an army at a distance causes the people to be impoverished. 
 
 近於師者貴賣，貴賣則百姓財竭，
 On the other hand, the proximity of an army causes prices to go up; and high prices cause the people's substance to be drained away. 
@@ -128,18 +141,27 @@ On the other hand, the proximity of an army causes prices to go up; and high pri
 財竭則急於丘役。
 When their substance is drained away, the peasantry will be afflicted by heavy exactions. 
 
-力屈財殫，中原內虛於家。百姓之費，十去其七；公家之費，破車罷馬，甲胄矢弩，戟楯蔽櫓，丘牛大車，十去其六。
-With this loss of substance and exhaustion of strength, the homes of the people will be stripped bare, and three-tenths of their income will be dissipated; 
+力屈財殫，中原內虛於家。百姓之費，十去其七；
+[p. 14] With this loss of substance and exhaustion of strength, the homes of the people will be stripped bare, 
+and three-tenths of their income will be dissipated; 
+
+公家之費，破車罷馬，甲胄矢弩，戟楯蔽櫓，丘牛大車，十去其六。
 while Government expenses for broken chariots, worn-out horses, breast-plates and helmets, bows and arrows, spears and shields, protective mantles, draught-oxen and heavy wagons, will amount to four-tenths of its total revenue. 
 
-故智將務食於敵，食敵一鍾，當吾二十鍾；𦮼稈一石，當吾二十石。
-Hence a wise general makes a point of foraging on the enemy. One cartload of the enemy's provisions is equivalent to twenty of one's own, and likewise a single picul of his provender is equivalent to twenty from one's own store.
+故智將務食於敵，食敵一鍾，
+[p. 15] Hence a wise general makes a point of foraging on the enemy. 
+
+當吾二十鍾；𦮼稈一石，當吾二十石。
+One cartload of the enemy's provisions is equivalent to twenty of one's own, and likewise a single picul of his provender is equivalent to twenty from one's own store.
 
 故殺敵者，怒也；取敵之利者，貨也。
 Now in order to kill the enemy, our men must be roused to anger; that there may be advantage from defeating the enemy, they must have their rewards. 
 
-故車戰，得車十乘以上，賞其先得者，而更其旌旗。車雜而乘之，卒善而養之，
-Therefore in chariot fighting, when ten or more chariots have been taken, those should be rewarded who took the first. 
+故車戰，得車十乘以上，賞其先得者，
+Therefore in chariot fighting, when ten or more chariots have been taken, those should be rewarded who took the first.
+
+而更其旌旗。車雜而乘之，卒善而養之， 
+[p. 16] Our own flags should he substituted for those of the enemy, and the chariots mingled and used in conjunction with ours. The captured soldiers should be kindly treated and kept.
 
 是謂勝敵而益強。
 This is called, using the conquered foe to augment one's own strength. 
@@ -151,66 +173,86 @@ In war, then, let your great object be victory, not lengthy campaigns.
 Thus it may be known that the leader of armies is the arbiter of the people's fate, the man on whom it depends whether the nation shall be in peace or in peril. 
 
 謀攻第三
-Section III: Attack by Stratagem
+[p. 17] Section III: Attack by Stratagem
 
-孫子曰：凡用兵之法，全國為上，破國次之；全軍為上，破軍次之；全旅為上，破旅次之；全卒為上，破卒次之；全伍為上，破伍次之。
-Sun Tzŭ said: In the practical art of war, the best thing of all is to take the enemy's country whole and intact; to shatter and destroy it is not so good. So, too, it is better to recapture an army entire than to destroy it, to capture a regiment, a detachment or a company entire than to destroy them. 
+孫子曰：凡用兵之法，全國為上，破國次之；
+Sun Tzŭ said: In the practical art of war, the best thing of all is to take the enemy's country whole and intact; to shatter and destroy it is not so good. 
+
+全軍為上，破軍次之；全旅為上，破旅次之；全卒為上，破卒次之；全伍為上，破伍次之。
+So, too, it is better to recapture an army entire than to destroy it, to capture a regiment, a detachment or a company entire than to destroy them. 
 
 是故百戰百勝，非善之善者也；不戰而屈人之兵，善之善者也。
 Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy's resistance without fighting. 
 
 故上兵伐謀，其次伐交，其次伐兵，其下攻城。
 Thus the highest form of generalship is to baulk the enemy's plans;
-the next best is to prevent the junction of the enemy's forces; 
+[p. 18] the next best is to prevent the junction of the enemy's forces; 
 the next in order is to attack the enemy's army in the field; 
 and the worst policy of all is to besiege walled cities. 
 
-攻城之法，為不得已。修櫓轒轀，具器械，三月而後成；距闉，又三月而後已。
+攻城之法，為不得已。
 The rule is, not to besiege walled cities if it can possibly be avoided. 
-The preparation of mantlets, movable shelters, and various implements of war, will take up three whole months; 
-and the piling up of mounds over against the walls will take three months more. 
 
-將不勝其忿，而蟻附之，殺士三分之一，而城不拔者，此攻之災也。
+修櫓轒轀，具器械，三月而後成；
+The preparation of mantlets, movable shelters, and various implements of war, will take up three whole months; 
+
+距闉，又三月而後已。
+[p. 19] and the piling up of mounds over against the walls will take three months more. 
+
+將不勝其忿，而蟻附之，
 The general, unable to control his irritation, will launch his men to the assault like swarming ants, 
 
-故善用兵者，屈人之兵而非戰也，拔人之城而非攻也，毀人之國而非久也，
-Therefore the skilful leader subdues the enemy's troops without any fighting; he captures their cities without laying siege to them; he overthrows their kingdom without lengthy operations in the field.
+殺士三分之一，而城不拔者，此攻之災也。
+with the result that one-third of his men are slain, while the town still remains untaken. Such are the disastrous effects of a siege
 
-必以全爭於天下，故兵不頓而利可全，此謀攻之法也。
+故善用兵者，屈人之兵而非戰也，拔人之城而非攻也，毀人之國而非久也，
+Therefore the skilful leader subdues the enemy's troops without any fighting; [p. 20] he captures their cities without laying siege to them; he overthrows their kingdom without lengthy operations in the field.
+
+必以全爭於天下，故兵不頓而利可全，
 With his forces intact he will dispute the mastery of the Empire, and thus, without losing a man, his triumph will be complete. 
+
+此謀攻之法也。
+This is the method of attacking by stratagem.
 
 故用兵之法，十則圍之，五則攻之，倍則分之，
 It is the rule in war, if our forces are ten to the enemy's one, to surround him; if five to one, to attack him; 
 if twice as numerous, to divide our army into two. 
 
 敵則能戰之，少則能守之，不若則能避之。
-If equally matched, we can offer battle; 
+[p. 21] If equally matched, we can offer battle; 
 if slightly inferior in numbers, we can avoid the enemy; 
 if quite unequal in every way, we can flee from him. 
 
 故小敵之堅，大敵之擒也。
 Hence, though an obstinate fight may be made by a small force, in the end it must be captured by the larger force. 
 
-夫將者，國之輔也。輔周則國必強，輔隙則國必弱。
-Now the general is the bulwark of the State; if the bulwark is complete at all points; the State will be strong; if the bulwark is defective, the State will be weak. 
+夫將者，國之輔也。
+Now the general is the bulwark of the State; 
+
+輔周則國必強，
+if the bulwark is complete at all points; the State will be strong; 
+
+輔隙則國必弱。
+if the bulwark is defective, the State will be weak. 
 
 故君之所以患於軍者三：
 There are three ways in which a ruler can bring misfortune upon his army: —
 
 不知軍之不可以進，而謂之進，不知軍之不可以退，而謂之退，是為縻軍；
-By commanding the army to advance or to retreat, being ignorant of the fact that it cannot obey. This is called hobbling the army. 
+[p. 22] By commanding the army to advance or to retreat, being ignorant of the fact that it cannot obey. This is called hobbling the army. 
 
 不知三軍之事，而同三軍之政，則軍士惑矣；
 By attempting to govern an army in the same way as he administers a kingdom, being ignorant of the conditions which obtain in an army. This causes restlessness in the soldier's minds. 
 
 不知三軍之權，而同三軍之任，則軍士疑矣。
-By employing the officers of his army without discrimination, 
+[p. 23] By employing the officers of his army without discrimination, 
 
 三軍既惑且疑，則諸侯之難至矣，是謂亂軍引勝。
 But when the army is restless and distrustful, trouble is sure to come from the other feudal princes. This is simply bringing anarchy into the army, and flinging victory away. 
 
 故知勝有五：知可以戰與不可以戰者勝，識衆寡之用者勝，上下同欲者勝，以虞待不虞者勝，將能而君不御者勝。此五者，知勝之道也。
-Thus we may know that there are five essentials for victory: (1) He will win who knows when to fight and when not to fight. 
+Thus we may know that there are five essentials [p. 24] for victory:
+(1) He will win who knows when to fight and when not to fight. 
 (2) He will win who knows how to handle both superior and inferior forces. 
 (3) He will win whose army is animated by the same spirit throughout all its ranks. 
 (4) He will win who, prepared himself, waits to take the enemy unprepared. 
@@ -222,7 +264,7 @@ Hence the saying: If you know the enemy and know yourself, you need not fear the
 If you know neither the enemy nor yourself, you will succumb in every battle. 
 
 軍形第四
-Section IV: Tactical Dispositions
+[p. 26] Section IV: Tactical Dispositions
 
 孫子曰：昔之善戰者，先為不可勝，
 Sun Tzŭ said: The good fighters of old first put themselves beyond the possibility of defeat, and then waited for an opportunity of defeating the enemy. 
@@ -1244,9 +1286,12 @@ Anger may in time change to gladness; vexation may be succeeded by content.
 
 亡國不可以復存，死者不可以復生。
 But a kingdom that has once been destroyed can never come again into being; 
+nor can the dead ever be brought back to life.
 
-故明主慎之，良將警之，此安國全軍之道也。
+故明主慎之，良將警之，
 Hence the enlightened ruler is heedful, and the good general full of caution. 
+
+此安國全軍之道也。
 This is the way to keep a country at peace and an army intact. 
 
 用間第十三

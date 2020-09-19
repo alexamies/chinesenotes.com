@@ -1413,3 +1413,34 @@
 7001413	支道林	\N	Zhī Dàolín	Zhi Daolin	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 4 梁高僧傳卷第四 (T 2059)	7001413
 7001414	于法兰	于法蘭	yú Fǎlán	Yu Falan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Jin dynasty monk from Hebei mentioned in the Liang Biographies of Eminent Monks, Scroll 4 梁高僧傳卷第四 (T 2059)	7001414
 7001415	于法开	于法開	yú fǎkāi	Yu Fakai	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Jin dynasty monk mentioned in the Liang Biographies of Eminent Monks, Scroll 4 梁高僧傳卷第四 (T 2059)	7001415
+7001416	支施崙	\N	Zhī Shīlún 	Zhi Shilun	proper noun	法师	Monastic	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Yuezhi Buddhist monastic, travelled to China in the 4th century and translated the Surataparipṛcchā 'Xulai Jing' (FGDB '支施崙'; T 329; KDC 362)	7001416
+7001417	菩萨修行经	菩薩修行經	púsà xiūxíng jīng 	Vīradattagṛhapatiparipṛcchā (Pusa Xiuxing Jing)	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: vīradattagṛhapatiparipṛcchā; a text in the Chinese Buddhist canon (T 330; KDC 369)	7001417
+7001418	无畏授所问大乘经	無畏授所問大乘經	wúwèi shòu suǒ wèn Dàshèng jīng 	Vīradattagṛhapatiparipṛcchā (Wu Wei Shou Wen Dasheng Jing)	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: vīradattagṛhapatiparipṛcchā; a text in the Chinese Buddhist canon (T 331; KDC 1468)	7001418
+7001419	长秋寺	長秋寺	Chángqiū Sì	Changqiu Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Luoyang mentioned in A Record of Buddhist Monasteries in Luoyang, Scroll 1 《洛陽伽藍記》卷第一 (T 2091)	7001419
+7001420	景乐寺	景樂寺	Jǐnglè Sì	Jingle Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Luoyang mentioned in A Record of Buddhist Monasteries in Luoyang, Scroll 1 《洛陽伽藍記》卷第一 (T 2091)	7001420
+7001421	昭仪尼寺	昭儀尼寺	Zhāoyí Nísì	Zhaoyi Nunnery	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Luoyang mentioned in A Record of Buddhist Monasteries in Luoyang, Scroll 1 《洛陽伽藍記》卷第一 (T 2091)	7001421
+7001422	宗聖寺	宗聖寺	Zōngshèng Sì	Zongsheng Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Luoyang mentioned in A Record of Buddhist Monasteries in Luoyang, Scroll 2 《洛陽伽藍記》卷第二 (T 2091)	7001422
+7001423	景兴尼寺	景興尼寺	Jǐngxīng Nísì	Jingxing Nunnery	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Luoyang mentioned in A Record of Buddhist Monasteries in Luoyang, Scroll 2 《洛陽伽藍記》卷第二 (T 2091)	7001423
+7001424	于道邃	\N	yú Fǎsuì	Yu Fasui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Jin dynasty monk mentioned in the Liang Biographies of Eminent Monks, Scroll 4 梁高僧傳卷第四 (T 2059)	7001424
+7001425	竺法崇	\N	Zhú Fǎchóng	Zhu Fachong	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Jin dynasty monk mentioned in the  《梁高僧傳·卷第四》 'Liang Biographies of Eminent Monks,' Scroll 4; author of 《法華義疏》 'Fa Hua Yi Shu,' a commentary on the Lotus Sutra (FGDB '竺法崇')	7001425
+7001426	竺法义	竺法義	Zhú Fǎyì	Zhu Fayi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	307 - 380, Jin dynasty monk, a disciple of 竺道潛, from Jiangsu, mentioned in the Liang Biographies of Eminent Monks, Scroll 4 梁高僧傳卷第四 (T 2059)	7001426
+7001427	竺道潜	竺道潛	Zhú Dàoqián	Zhu Daoqian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Jin dynasty monk (Wikipedia '竺道潜')	7001427
+7001428	竺僧度	\N	Zhú Fǎdù	Zhu Fadu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 4 梁高僧傳卷第四 (T 2059)	7001428
+7001429	僧先	\N	Sēng Xiān	Seng Xian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (T 2059)	7001429
+7001430	竺僧辅	竺僧輔	Zhú Sēngfǔ	Zhu Sengfu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (T 2059)	7001430
+7001431	竺僧敷	竺僧敷	Zhú Sēngfū	Zhu Sengfu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (T 2059)	7001431
+7001432	昙翼	曇翼	Tányì	Tanyi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (T 2059)	7001432
+7001433	法遇	\N	Fǎyù	Fayu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (T 2059)	7001433
+7001434	昙徽	曇徽	tánhuī	Tanhui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (T 2059)	7001434
+7001435	道立	\N	dàolì	Daoli	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (T 2059)	7001435
+7001436	昙戒	曇戒	tánjiè	Tanjie	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (T 2059)	7001436
+7001437	竺法旷	竺法曠	Zhú Fǎkuàng	Zhu Fakuang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (T 2059)	7001437
+7001438	道壹	\N	Dàoyī	Daoyi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (T 2059)	7001438
+7001439	慧虔	\N	huìqián	Huiqian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 5 梁高僧傳卷第五 (T 2059)	7001439
+7001440	单道开	單道開	Dān Dào Kāi	Dan Dao Kai	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Eastern Jin monk from Dunhuang, mentioned in the Liang Biographies of Eminent Monks, Scroll 9 梁高僧傳卷第九 (T 2059)	7001440
+7001441	竺佛调	竺佛調	zhú fótiáo	Zhu Fotiao	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Jin dynasty monk from India, mentioned in the Liang Biographies of Eminent Monks, Scroll 9 梁高僧傳卷第九 (T 2059)	7001441
+7001442	耆域	\N	Qí Yù	Qi Yu	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Western Jin monk from India, mentioned in the Liang Biographies of Eminent Monks, Scroll 9 梁高僧傳卷第九 (T 2059)	7001442
+7001443	揵陀勒	\N	qiántuólēi	Qiantuolei	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk from the Western Regions, mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001443
+7001444	诃罗竭	訶羅竭	hēluójié	Heluolei	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk from Fanyang, mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001444
+7001445	慧持	\N	huìchí	Huichi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	337-412; Eastern Jin monk from Shanxi mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001445
+7001446	慧永	\N	Huìyǒng	Huiyong	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	332-414; Eastern Jin monk from Henan mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001446
