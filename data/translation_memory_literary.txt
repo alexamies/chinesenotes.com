@@ -693,3 +693,5 @@
 3000693	谋攻	謀攻	móu gōng	plan of attack	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 3 (reworded from tr. by Giles 1910, p. 17)	3000693
 3000694	承工	\N	chéng gōng	to take on work	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '承工', p. 51)	3000694
 3000695	承批	\N	chéng pī	to rent	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(eworded from Mathews 1931 '承批', p. 51)	3000695
+3000696	军形	軍形	jūn xíng	troop disposition	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: title of section 4 in the Warring States period text 孫子兵法 “Art of War” by Sunzi (reworded from tr. by Giles 1910, p. 26)	3000696
+3000697	可胜在敌	可勝在敵	kě shèng zài dí	the opportunity for victory is provided by the enemy himself	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 4 (reworded from tr. by Giles 1910, p. 26)	3000697

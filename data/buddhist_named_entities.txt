@@ -1444,3 +1444,6 @@
 7001444	诃罗竭	訶羅竭	hēluójié	Heluolei	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk from Fanyang, mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001444
 7001445	慧持	\N	huìchí	Huichi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	337-412; Eastern Jin monk from Shanxi mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001445
 7001446	慧永	\N	Huìyǒng	Huiyong	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	332-414; Eastern Jin monk from Henan mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001446
+7001447	僧济	僧濟	huìjì	Huiji	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001447
+7001448	法安	\N	Fǎ Ān	Fa An	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001448
+7001449	昙邕	曇邕	tányōng	Tanyong	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001449

@@ -267,13 +267,17 @@ If you know neither the enemy nor yourself, you will succumb in every battle.
 [p. 26] Section IV: Tactical Dispositions
 
 孫子曰：昔之善戰者，先為不可勝，
-Sun Tzŭ said: The good fighters of old first put themselves beyond the possibility of defeat, and then waited for an opportunity of defeating the enemy. 
+Sun Tzŭ said: The good fighters of old first put themselves beyond the possibility of defeat, 
 
-以待敵之可勝。不可勝在己，可勝在敵。
+以待敵之可勝。
+and then waited for an opportunity of defeating the enemy. 
+
+不可勝在己，可勝在敵。
 To secure ourselves against defeat lies in our own hands, but the opportunity of defeating the enemy is provided by the enemy himself. 
 
 故善戰者，能為不可勝，不能使敵之必可勝。
-Thus the good fighter is able to secure himself against defeat, 
+[p. 27] Thus the good fighter is able to secure himself against defeat, 
+but cannot make certain of defeating the enemy.
 
 故曰：勝可知，而不可為。
 Hence the saying: One may know how to conquer without being able to do it. 
@@ -284,9 +288,13 @@ Security against defeat implies defensive tactics; ability to defeat the enemy m
 守則有餘，攻則不足。
 Standing on the defensive indicates insufficient strength; attacking, a superabundance of strength. 
 
-善守者，藏於九地之下；善攻者，動於九天之上，故能自保而全勝也。
+善守者，藏於九地之下；
 The general who is skilled in defence hides in the most secret recesses of the earth; 
-he who is skilled in attack flashes forth from the topmost heights of heaven. 
+
+善攻者，動於九天之上，
+[p. 28] he who is skilled in attack flashes forth from the topmost heights of heaven. 
+
+故能自保而全勝也。
 Thus on the one hand we have ability to protect ourselves; on the other, a victory that is complete. 
 
 見勝不過衆人之所知，非善之善者也；
@@ -296,7 +304,7 @@ To see victory only when it is within the ken of the common herd is not the acme
 Neither is it the acme of excellence if you fight and conquer and the whole Empire says, “Well done!” 
 
 故舉秋毫不為多力，見日月不為明目，聞雷霆不為聰耳。
-To lift an autumn hair is no sign of great strength; 
+[p. 29] To lift an autumn hair is no sign of great strength; 
 to see the sun and moon is no sign of sharp sight; to hear the noise of thunder is no sign of a quick ear. 
 
 古之所謂善戰者，勝於易勝者也。

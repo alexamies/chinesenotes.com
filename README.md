@@ -29,7 +29,14 @@ The Chinese Notes software includes several components:
    looking up dictionary entries. Dictionary data, library metadata, and a 
    text retrieval index is loaded into a SQL database to support the web site.
 
-There are also some Python ulitities for processing text.
+Web application software for searching the dictionary and corpus is at
+https://github.com/alexamies/chinesenotes-go
+
+A JavaScript library to help in presenting the web application is at
+https://github.com/alexamies/chinesedict-js
+
+Python ulitities for analysis of text in the structure here are at
+https://github.com/alexamies/chinesenotes-python
 
 For a description of how the framework can be used for other corpora see
 [FRAMEWORK.md](FRAMEWORK.md).
@@ -83,9 +90,6 @@ $ ./cnreader -all
 /bin
  - Wrappers for command line Go programs, sich as the bin/cnreadher.sh script
 
-/colab
-- Colab notebooks for exploring the library text data
-
 /corpus
  - raw text files for making up the text corpus
 
@@ -104,28 +108,20 @@ $ ./cnreader -all
    HTML before application of templates for pages that are not considered part
    of the corpus. The home, about, references, and relates pages are here.
 
- /html/templates
-  - Go templates for generation of HTML files. This is a default that can be 
-    overridden by setting an environment variale named TEMPLATE_HOME with the
-    path relative to the project home.
-
 /html/material-templates
   - Go templates for generation of HTML files using material design lite
-    styles.
+    styles. This directory can be overridden by setting an environment variable
+    named TEMPLATE_HOME with the path relative to the project home.
 
 /index
  - Output from corpus analysis
-
-/kubernetes
- - For production deployment
 
 /web-resources
  - Static resources, including CSS, JavaScript, image, and sound files
 
 /web-staging
- - Generate HTML files. Many but not all files are generated with the Go command 
-  line tool cnreader. HTML files are written in HTML 5 (See <a 
-  href='https://developers.google.com/web/fundamentals/'>Web Fundamentals</a>).
+ - Generated HTML files. Many but not all files are generated with the Go
+  command line tool cnreader.
   This is a default that can be overridden by setting an environment varialbe 
   named WEB_DIR with the path relative to the project home.
 
@@ -177,83 +173,15 @@ docker run hello-world
 ```
 
 ## Database
-[Mariadb Documentation](https://mariadb.org/)
+For database setup see 
+https://github.com/alexamies/chinesenotes-go
 
-The local development environment uses a Mariadb database. 
-
-### Mariadb Docker Image
-Mariadb is suggested for a local development environment, GCP Cloud SQL is
-suggested for production.
-
-See the documentation at [Mariadb Image 
-Documentation](https://hub.docker.com/_/mariadb/) and [Installing and using 
-MariaDB via Docker](https://mariadb.com/kb/en/library/installing-and-using-mariadb-via-docker/).
-
-To start a Docker container with Mariadb and connect to it from a MySQL command
-line client execute the command below. First, set environment variable 
-`MYSQL_ROOT_PASSWORD`. Also, create a directory outside the container to use as a
-permanent Docker volume for the database files. In addition, mount volumes for
-the tabe separated data to be loaded into Mariadb. See 
-[Manage data in Docker](https://docs.docker.com/storage/) and 
-[Use volumes](https://docs.docker.com/storage/volumes/) for details on volume
-and mount management with Docker.
-
-```
-MYSQL_ROOT_PASSWORD=[your password]
-mkdir mariadb-data
-docker run --name mariadb -p 3306:3306 \
-  -e MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD -d \
-  -v "$(pwd)"/mariadb-data:/var/lib/mysql \
-  --mount type=bind,source="$(pwd)"/data,target=/cndata \
-  --mount type=bind,source="$(pwd)"/index,target=/cnindex \
-  mariadb:10
-```
-
-The data in the database is persistent even if the container is deleted. To
-restart the database use the command
-
-```
-docker restart  mariadb
-```
 
 Compile the library document files and tiles into a tab separated file for
 loading into the database with the Python program
-```
+
+```shell
 bin/doc_list.sh
-```
-
-To load data from other sources connect to the database container
-or start up a mysql-client
-```
-docker exec -it mariadb bash
-```
-
-In the container command line
-```
-mysql --local-infile=1 -h localhost -u root -p
-```
-
-In the mysql client
-Edit password in the script
-```
-# source first_time_setup.sql
-# source drop.sql
-source delete_index.sql
-source notes.ddl
-source load_data.sql
-source corpus_index.ddl
-source load_index.sql
-source library/digital_library.sql
-quit
-```
-The word frequency index files are large and may take a long time to load.
-Exit MySQL and change to the index directory for loading the word and bigram
-frequency files
-```
-cd ../index
-mysql --local-infile=1 -h localhost -u root -p
-source delete_word_freq.sql
-source load_word_freq.sql
 ```
 
 ### Go Applications
@@ -262,24 +190,8 @@ source load_word_freq.sql
 The indexing command tool and new generation of the web application are written
 in Go. 
 
-##### Install Go
+Install Go
 [Go Install Documentation](https://golang.org/doc/install)
-
-```
-wget https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz
-
-sudo tar -C /usr/local -xzf go*
-
-vi .profile
-```
-
-Add 
-
-```
-export PATH=$PATH:/usr/local/go/bin
-
-source .profile
-```
 
 Build Software locally
 
@@ -419,7 +331,7 @@ docker -- push gcr.io/$PROJECT/cn-app-image:$TAG
 Or use Cloud Build
 
 ```shell
-export BUILD_ID=r162
+BUILD_ID=r162
 gcloud builds submit --config cloudbuild.yaml . \
   --substitutions=_IMAGE_TAG="$BUILD_ID"
 ```
