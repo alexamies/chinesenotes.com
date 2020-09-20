@@ -1447,3 +1447,17 @@
 7001447	僧济	僧濟	huìjì	Huiji	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001447
 7001448	法安	\N	Fǎ Ān	Fa An	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001448
 7001449	昙邕	曇邕	tányōng	Tanyong	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001449
+7001450	道祖	\N	dàozǔ	Daozu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	347 - 419, Eastern Jin monk from Jiangsu, mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (FGDB '道祖')	7001450
+7001451	释道祖	釋道祖	Shì Dàozǔ	Daozu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	347 - 419, Eastern Jin monk from Jiangsu, mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001451
+7001452	道融	\N	dàoróng	Daorong	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Wei and Jin monk from Henan, mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001452
+7001453	释道融	釋道融	Shì Dàoróng	Daorong	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Wei and Jin monk from Henan, mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001453
+7001454	昙影	曇影	tányǐng	Tanying	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Jin dynasty monk, disciple of Kumarajiva, mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001454
+7001455	僧叡	僧叡	sēngruì	Sengrui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Eastern Jin monk from Henan, mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001455
+7001456	道恒	\N	dàohéng	Daoheng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk  mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001456
+7001457	释道恒	釋道恒	Shì Dàohéng	Daoheng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk  mentioned in the Liang Biographies of Eminent Monks, Scroll 6 梁高僧傳卷第六 (T 2059)	7001457
+7001458	慧观	慧觀	Huì Guān	Hui Guan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Liu Song dynasty monk from Shandong mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (T 2059)	7001458
+7001459	慧义	慧義	Huì Yì	Hui Yi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk from Shandong mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (T 2059)	7001459
+7001460	慧渊	道淵	Huì Yuān	Hui Yuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Liu Song dynasty monk mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (T 2059)	7001460
+7001461	释慧渊	釋道淵	Shì Huì Yuān	Hui Yuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Liu Song dynasty monk mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (T 2059)	7001461
+7001462	僧弼	僧弼	Sēng Bì	Seng Bi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	365 - 442 Liu Song dynasty monk from Jiangsu mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (T 2059)	7001462
+7001463	慧静	慧靜	Huì Jìng	Hui Jing	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Eastern Jin monk from Shandong mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (T 2059)	7001463
