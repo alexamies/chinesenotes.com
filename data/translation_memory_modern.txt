@@ -277,3 +277,8 @@
 5000277	承揽工程	承攬工程	chénglǎn gōngchéng	to contract for an entire project	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '承攬'; Guoyu '承攬')	5000277
 5000278	承约	承約	chéng yuē	to contract for	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '承約', p. 51)	5000278
 5000279	承买	承買	chéngmǎi	to sign a contract for a purchase	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '承買', p. 51)	5000279
+5000280	不停留	\N	bù tíngliú	to not remain at	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '不居')	5000280
+5000281	不占有	\N	bù zhànyǒu	to not occupy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '不居')	5000281
+5000282	借而不还	借而不還	jiè ér bù huán	to borrow but not give back	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '不歸')	5000282
+5000283	不返回	\N	bù fǎnhuí	to not go back	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '不歸')	5000283
+5000284	不回	\N	bù huí	to not go back	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '不還')	5000284

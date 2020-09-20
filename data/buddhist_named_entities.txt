@@ -1461,3 +1461,19 @@
 7001461	释慧渊	釋道淵	Shì Huì Yuān	Hui Yuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Liu Song dynasty monk mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (T 2059)	7001461
 7001462	僧弼	僧弼	Sēng Bì	Seng Bi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	365 - 442 Liu Song dynasty monk from Jiangsu mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (T 2059)	7001462
 7001463	慧静	慧靜	Huì Jìng	Hui Jing	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Eastern Jin monk from Shandong mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (T 2059)	7001463
+7001464	僧苞	\N	Sēng Bāo	Seng Bao	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (T 2059)	7001464
+7001465	僧诠	僧詮	Sēng Quán	Seng Quan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Liang dynasty monk mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (T 2059)	7001465
+7001466	昙鉴	曇鑒	Tán Jiàn	Tan Jian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (T 2059)	7001466
+7001467	慧安	\N	Huì Ān	Hui An	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 7 梁高僧傳卷第七 (T 2059)	7001467
+7001468	僧渊	僧淵	Sēngyuān	Seng Yuan / Sengyuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	414 - 481 Northern Wei monk from Yingchuan, mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001468
+7001469	昙度	曇度	Tándù	Tan Du / Tandu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Liu Song dynasty monk from Langya in Anhui, mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001469
+7001470	释道慧	釋道慧	Shì Dàohuì	Shi Daohui / Dao Hui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001470
+7001471	道慧	\N	Dàohuì	Shi Daohui / Dao Hui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001471
+7001472	僧锺	僧鍾	Sēng Zhōng	Seng Zhong	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001472
+7001473	道盛	\N	Dào Shèng	Shi Daosheng / Dao Sheng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001473
+7001474	释道盛	釋道盛	Shì Dàoshèng	Shi Daosheng / Dao Sheng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001474
+7001475	弘充	\N	Hóng Chōng	Hong Chong	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Liu Song monk from Gansu mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001475
+7001476	智林	\N	Zhì Lín	Zhi Lin	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001476
+7001477	法瑗	\N	Fǎ Yuàn	Fa Yuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	409-489; Southern Qi monk from Gansu mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001477
+7001478	玄畅	玄暢	Xuán Chàng	Xuan Chang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	416-484; Northern Wei and Jin monk from Shaanxi mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001478
+7001479	僧远	僧遠	Sēng Yuǎn	Seng Yuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	416-484; Northern Wei and Jin monk from Shaanxi mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001479

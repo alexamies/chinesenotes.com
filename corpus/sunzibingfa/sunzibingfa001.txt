@@ -473,7 +473,7 @@ If we wish to fight, the enemy can be forced to an engagement even though he be 
 By discovering the enemy’s dispositions and remaining invisible ourselves, we can keep our forces concentrated, while the enemy’s must be divided.
 
 我專為一，敵分為十，是以十攻其一也，則我衆而敵寡。
-We can form a single united body, while the enemy must split up into fractions. Hence there will be a whole pitted against separate parts of a whole, 
+[p. 47] We can form a single united body, while the enemy must split up into fractions. Hence there will be a whole pitted against separate parts of a whole, 
 which means that we shall be many to the enemy’s few. 
 
 能以衆擊寡者，則吾之所與戰者，約矣。
@@ -484,7 +484,7 @@ The spot where we intend to fight must not be made known; for then the enemy wil
 and his forces being thus distributed in many directions, the numbers we shall have to face at any given point will be proportionately few.
 
 故備前則後寡，備後則前寡，備左則右寡，備右則左寡，無所不備，則無所不寡。
-For should the enemy strengthen his van, he will weaken his rear; should he strengthen his rear, he will weaken his van; should he strengthen his left, he will weaken his right; should he strengthen his right, he will weaken his left. If he sends reinforcements everywhere, he will everywhere be weak. 
+[p. 48] For should the enemy strengthen his van, he will weaken his rear; should he strengthen his rear, he will weaken his van; should he strengthen his left, he will weaken his right; should he strengthen his right, he will weaken his left. If he sends reinforcements everywhere, he will everywhere be weak. 
 
 寡者，備人者也；衆者，使人備己者也。
 Numerical weakness comes from having to prepare against possible attacks; numerical strength, from compelling our adversary to make these preparations against us. 
@@ -493,11 +493,11 @@ Numerical weakness comes from having to prepare against possible attacks; numeri
 Knowing the place and the time of the coming battle, we may concentrate from the greatest distances in order to fight. 
 
 不知戰之地，不知戰之日，則左不能救右，右不能救左，前不能救後，後不能救前，而況遠者數十里，近者數里乎！
-But if neither time nor place be known, then the left wing will be impotent to succour the right, the right equally impotent to succour the left, the van unable to relieve the rear, or the rear to support the van. How much more so if the furthest portions of the army are anything under a hundred li apart, and even the nearest are separated by several li! 
+[p. 49] But if neither time nor place be known, then the left wing will be impotent to succour the right, the right equally impotent to succour the left, the van unable to relieve the rear, or the rear to support the van. How much more so if the furthest portions of the army are anything under a hundred li apart, and even the nearest are separated by several li! 
 
 以吾度之，越人之兵雖多，亦奚益於勝敗哉！故曰：勝可擅也。
 Though according to my estimate the soldiers of Yüeh exceed our own in number, that shall advantage them nothing in the matter of victory. 
-I say then that victory can be achieved. 
+[p. 50] I say then that victory can be achieved. 
 
 敵雖衆，可使無鬪。
 故策之而知得失之計，
@@ -506,14 +506,14 @@ Scheme so as to discover his plans and the likelihood of their success.
 
 作之而知動靜之理，形之而知死生之地，
 Rouse him, and learn the principle of his activity or inactivity. 
-Force him to reveal himself, so as to find out his vulnerable spots. 
+[p. 51] Force him to reveal himself, so as to find out his vulnerable spots. 
 
 角之而知有餘不足之處。
 Carefully compare the opposing army with your own, 
 
 故形兵之極，至於無形。無形，則深間不能窺，智者不能謀。
 In making tactical dispositions, the highest pitch you can attain is to conceal them; 
-dispositions, and you will be safe from the prying of the subtlest spies, from the machinations of the wisest brains. 
+[p. 52] conceal your dispositions, and you will be safe from the prying of the subtlest spies, from the machinations of the wisest brains. 
 
 因形而措勝於衆，衆不能知。
 How victory may be produced for them out of the enemy’s own tactics — that is what the multitude cannot comprehend. 
@@ -525,7 +525,7 @@ All men can see the tactics whereby I conquer, but what none can see is the stra
 Do not repeat the tactics which have gained you one victory, but let your methods be regulated by the infinite variety of circumstances. 
 
 夫兵形象水，水之行，避高而趨下；
-Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards. 
+[p. 53] Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards. 
 
 兵之勝，避實而擊虛。
 So in war, the way is to avoid what is strong and to strike at what is weak. 
@@ -542,11 +542,11 @@ He who can modify his tactics in relation to his opponent and thereby succeed in
 故五行無常勝，四時無常位，日有短長，月有死生。
 The five elements 
 are not always equally predominant; 
-the four seasons make way for each other in turn. 
+[p. 54] the four seasons make way for each other in turn. 
 There are short days and long; the moon has its periods of waning and waxing. 
 
 軍爭第七
-Section VII: Maneuvering
+[p. 55] Section VII: Maneuvering
 
 孫子曰：凡用兵之法，將受命於君，
 Sun Tzu said: In war, the general receives his commands from the sovereign. 
@@ -555,21 +555,24 @@ Sun Tzu said: In war, the general receives his commands from the sovereign.
 Having collected an army and concentrated his forces, he must blend and harmonize the different elements thereof before pitching his camp. 
 
 莫難於軍爭。軍爭之難者，以迂為直，以患為利。
-After that, comes tactical manœuvring, than which there is nothing more difficult. 
+[p. 56] After that, comes tactical manœuvring, than which there is nothing more difficult. 
 The difficulty of tactical manœuvring consists in turning the devious into the direct, and misfortune into gain.
 
 故迂其途，而誘之以利，後人發，先人至，此知迂直之計者也。
-Thus, to take a long and circuitous route, after enticing the enemy out of the way, and though starting after him, to contrive to reach the goal before him, shows knowledge of the artifice of deviation.
+[p. 57] Thus, to take a long and circuitous route, after enticing the enemy out of the way, and though starting after him, to contrive to reach the goal before him, shows knowledge of the artifice of deviation.
 
 故軍爭為利，軍爭為危。
-Manœuvring with an army is advantageous; with an undisciplined multitude, most dangerous. 
+[p. 58] Manœuvring with an army is advantageous; with an undisciplined multitude, most dangerous. 
 
 舉軍而爭利，則不及；委軍而爭利，則輜重捐。
 If you set a fully equipped army in march in order to snatch an advantage, the chances are that you will be too late. 
 On the other hand, to detach a flying column for the purpose involves the sacrifice of its baggage and stores. 
 
-是故卷甲而趨，日夜不處，倍道兼行，百里而爭利，則擒三軍將，
+是故卷甲而趨，
 Thus, if you order your men to roll up their buff-coats, 
+
+日夜不處，倍道兼行，百里而爭利，則擒三軍將，
+[p. 59] and make forced marches
 without halting day or night, covering double the usual distance at a stretch, 
 doing a hundred li in order to wrest an advantage, the leaders of all your three divisions will fall into the hands of the enemy.
 
@@ -583,7 +586,7 @@ If you march fifty li in order to outmanœuvre the enemy, you will lose the lead
 If you march thirty li with the same object, two-thirds of your army will arrive. 
 
 是故軍無輜重則亡，無糧食則亡，無委積則亡。
-We may take it then that an army without its baggage-train is lost; without provisions it is lost; without bases of supply it is lost. 
+[p. 60] We may take it then that an army without its baggage-train is lost; without provisions it is lost; without bases of supply it is lost. 
 
 故不知諸侯之謀者，不能豫交；
 We cannot enter into alliances until we are acquainted with the designs of our neighbours. 
@@ -598,7 +601,7 @@ and swamps.
 We shall be unable to turn natural advantage to account unless we make use of local guides. 
 
 故兵以詐立，以利動，
-In war, practice dissimulation, and you will succeed. 
+[p. 61] In war, practice dissimulation, and you will succeed. 
 Move only if there is a real advantage to be gained. 
 
 以分合為變者也。
