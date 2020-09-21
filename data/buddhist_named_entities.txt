@@ -1477,3 +1477,23 @@
 7001477	法瑗	\N	Fǎ Yuàn	Fa Yuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	409-489; Southern Qi monk from Gansu mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001477
 7001478	玄畅	玄暢	Xuán Chàng	Xuan Chang	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	416-484; Northern Wei and Jin monk from Shaanxi mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001478
 7001479	僧远	僧遠	Sēng Yuǎn	Seng Yuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	416-484; Northern Wei and Jin monk from Shaanxi mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001479
+7001480	僧慧	\N	Sēng Huì	Seng Hui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001480
+7001481	竺法慧	\N	Zhú Fǎhuì	Zhu Fahui	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk from Guanzhong in Shaanxi, mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001481
+7001482	佛果	\N	fóguǒ	Foguo	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1063-1135; Song dynasty monastic from Sichuan (FGDB '佛果' 1)	7001482
+7001483	毕那嚩蹉	畢那嚩蹉	bìnàfúcuō	Pilindavatsa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 畢陵伽婆蹉 (FGDB '畢陵伽婆蹉')	7001483
+7001484	毕陵伽	畢陵伽	bìlíngjiā	Pilindavatsa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 畢陵伽婆蹉 (FGDB '畢陵伽婆蹉')	7001484
+7001485	睦州道明	\N	mùzhōu dàomíng	Muzhou Daoming	proper noun	师父	Monastic	佛教	Buddhism	禅宗	Chan School	\N	\N	780-877; Tang monastic (FGDB '睦州道明')	7001485
+7001486	睦州	\N	mùzhōu	Muzhou	proper noun	师父	Monastic	佛教	Buddhism	禅宗	Chan School	\N	\N	See 睦州道明 (FGDB '睦州道明')	7001486
+7001487	安慧则	安慧則	Ān Huìzé	An Huize	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001487
+7001488	涉公	\N	Shè Gōng	She Gong	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001488
+7001489	昙霍	曇霍	Tán Huò	Tan Huo	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001489
+7001490	杯度	\N	Bēi Dù	Bei Du	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001490
+7001491	昙始	曇始	Tán Shǐ	Tan Shi	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Eastern Jin and Liu Song monk from Guanzhong in Shaanxi, mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001491
+7001492	法朗	\N	Fǎ Lǎng	Fa Lang	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk from Gaochang, mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001492
+7001493	邵硕	邵碩	Shào Shuò	Shao Shuo	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001493
+7001494	法匮	法匱	Fǎ Kuì	Fa Kui	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk from Wuxing in Zhejiang, mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001494
+7001495	僧慧	\N	Sēng Huì	Seng Hui	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001495
+7001496	慧通	\N	Huì Tōng	Hui Tong	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001496
+7001497	保志	保誌	Bǎo Zhì	Bao Zhi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 寶誌 (BSAD '寶誌', ID A002296)	7001497
+7001498	志磐	\N	Zhì Pán	Zhi Pan	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Southern Song monk who compiled Chronicle of the Buddhas and the Patriarchs佛祖統紀 (Wikipedia '志磐')	7001498
+7001499	竺僧显	竺僧顯	Zhú Sēngxiǎn	Zhu Sengxian	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 11 梁高僧傳卷第十一 (T 2059)	7001499

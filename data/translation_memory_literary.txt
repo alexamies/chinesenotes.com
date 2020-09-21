@@ -716,3 +716,8 @@
 3000716	劲者先	勁者先	jìn zhě xiān	the stronger men will be in front	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 7 (tr. by Giles 1910, p. 59)	3000716
 3000717	豫交	\N	yùjiāo	enter into alliances	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 7 (tr. by Giles 1910, p. 60)	3000717
 3000718	山林险阻	山林險阻	shān lín xiǎn zǔ	mountains and forests, pitfalls and precipices	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 7 (reworded from tr. by Giles 1910, p. 60)	3000718
+3000719	乡导	鄉導	xiāng dǎo	a local guide	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 7 (reworded from tr. by Giles 1910, p. 60)	3000719
+3000720	未疑	\N	wèi yí	before suspicion has awakened	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 63)	3000720
+3000721	谷积	穀積	gǔ jī	stores of grain	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 63)	3000721
+3000722	要害处	要害處	yàohài chù	critical locations	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 63)	3000722
+3000723	宜罢郡	宜罷郡	yíbàjùn	it is preferable to relinquish the commandery	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 63)	3000723
