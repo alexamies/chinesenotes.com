@@ -1497,3 +1497,29 @@
 7001497	保志	保誌	Bǎo Zhì	Bao Zhi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 寶誌 (BSAD '寶誌', ID A002296)	7001497
 7001498	志磐	\N	Zhì Pán	Zhi Pan	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Southern Song monk who compiled Chronicle of the Buddhas and the Patriarchs佛祖統紀 (Wikipedia '志磐')	7001498
 7001499	竺僧显	竺僧顯	Zhú Sēngxiǎn	Zhu Sengxian	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 11 梁高僧傳卷第十一 (T 2059)	7001499
+7001500	荣西	榮西	Róng Xī	Eisai / Myōan Eisai	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1141-1215; Japanese monk who travelled to China. Chinese writing of his name (Inagaki 1984, p. 43)	7001500
+7001501	帛僧光	\N	Bó Sēngguāng	Zhu Sengguang	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 11 梁高僧傳卷第十一 (T 2059)	7001501
+7001502	净符	淨符	jìngfú	Jingfu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Ming dynasty monastic from the Caodong school (Wikipedia '净符')	7001502
+7001503	邬波离	鄔波離	wūbōlí	Upāli / Upali	proper noun	法师	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 優波離 (FGDB '優波離')	7001503
+7001504	西寺	\N	Xī Sì	Sai-ji / West Temple	proper noun	寺院	Monastery	佛教	Buddhism	日本	Japan	\N	\N	Historic temple located in Kyoto, destroyed in 1233 (FGDB '西寺'; Wikipedia 'Sai-ji')	7001504
+7001505	太原寺	\N	Tàiyuánsì	Taiyuan Temples / Temples of the Great Vow	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Five great temples of the early Tang dynasty, located in each of Chang'an, Luoyang, Taiyuan, Jingzhou, and Yangzhou (FGDB '太原寺')	7001505
+7001506	魏国西寺	魏國西寺	Wèiguó Xīsì	Weiguo Xi Temple / Chongfu Temple / National Western Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	A former name of one of the five 太原寺 'great temples' of the early Tang dynasty, located in Chang'an; also known as 崇福寺 Chongfu Temple (FGDB '太原寺')	7001506
+7001507	崇福寺	\N	chóngfúsì	Chongfu Temple / Weiguo Xi Temple / National Western Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	One of the five 太原寺 'great temples' of the early Tang dynasty, located in Chang'an (BSPAD ID: PL000000042324; FGDB '太原寺')	7001507
+7001508	西太原寺	\N	Xī Tàiyuánsì	Xi Taiyuan Temple / Chongfu Temple / Weiguo Xi Temple / National Western Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	See 崇福寺 (Wikipedia '崇福寺 (朔州)')	7001508
+7001509	舍利子	\N	Shèlìzi	Śariputra / Sariputta	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: śāriputra, Pāli: sāriputta, one of the two chief disciples of the Buddha, first in wisdom. Also, one of the ten great disciples of the Buddha 十大弟子, first in wisdom (FGDB '舍利弗'; BL 'Śariputra')	7001509
+7001510	竺昙猷	竺曇猷	Zhú Tányóu	Zhu Tanyou	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 11 梁高僧傳卷第十一 (T 2059)	7001510
+7001511	慧嵬	\N	huìwéi	Huiwei	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 11 梁高僧傳卷第十一 (T 2059)	7001511
+7001512	贤护	賢護	xiánhù	Bhadrapāla	proper noun	菩萨	Bodhisattva	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: bhadrapāla; a lay bodhisattva, one of the 八大菩薩 'eight great bodhisattvas' in one of the formulations (BL 'Bhadrapāla'; FGDB '賢護菩薩')	7001512
+7001513	支昙兰	支曇蘭	Zhī Tán Lán	Zhi Tan Lan	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 11 梁高僧傳卷第十一 (T 2059)	7001513
+7001514	法绪	法緒	fǎxù	Faxu	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 11 梁高僧傳卷第十一 (T 2059)	7001514
+7001515	玄高	\N	xuángāo	Xuangao	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	402-444; Northern Wei monk mentioned in the Liang Biographies of Eminent Monks, Scroll 11 梁高僧傳卷第十一 (T 2059)	7001515
+7001516	慧受	\N	Huìshòu	Huishou	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7001516
+7001517	僧慧	\N	sēnghuì	Senghui	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7001517
+7001518	僧洪	\N	sēnghóng	Senghong	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7001518
+7001519	僧亮	\N	sēngliàng	Sengliang	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7001519
+7001520	法意	\N	fǎyì	Fayi	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7001520
+7001521	慧敬	\N	fǎjìng	Fajing	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7001521
+7001522	法献	法獻	fǎxiàn	Faxian	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7001522
+7001523	僧护	僧護	sēnghù	Senghu	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7001523
+7001524	法悦	法悅	fǎyuè	Fayue	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7001524
+7001525	嘉祥寺	\N	Jiāxiáng Sì	Jiaxiang Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Kuaiji mentioned in the Liang Biographies of Eminent Monks 梁高僧 (T 2059)	7001525
