@@ -1523,3 +1523,12 @@
 7001523	僧护	僧護	sēnghù	Senghu	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7001523
 7001524	法悦	法悅	fǎyuè	Fayue	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 13 梁高僧傳卷第十三 (T 2059)	7001524
 7001525	嘉祥寺	\N	Jiāxiáng Sì	Jiaxiang Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Kuaiji mentioned in the Liang Biographies of Eminent Monks 梁高僧 (T 2059)	7001525
+7001526	毕陵	畢陵	bìlíng	Pilindavatsa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 畢陵伽婆蹉 (FGDB '畢陵伽婆蹉')	7001526
+7001527	并举	並舉	bìngjǔ	Pilindavatsa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 畢陵伽婆蹉 (FGDB '畢陵伽婆蹉')	7001527
+7001528	毕邻陀子	畢鄰陀子	bìlíntuózǐ	Pilindavatsa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 畢陵伽婆蹉 (FGDB '畢陵伽婆蹉')	7001528
+7001529	薄拘罗	薄拘羅	báojūluó	Bakkula	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: Bakkula or Vakula, Pali: Bakkula, Japanese: Hakukura; a direct disciple of the Buddha (BL 'Bakkula'; FGDB '薄拘羅'; SH '薄拘羅', p. 462)	7001529
+7001530	婆拘罗	婆拘羅	pójūluó	Bakkula	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 薄拘羅 (FGDB '薄拘羅')	7001530
+7001531	景明寺	\N	Jǐngmíng Sì	Jingming Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Luoyang mentioned in A Record of Buddhist Monasteries in Luoyang, Scroll 3 《洛陽伽藍記》卷第三 (T 2092)	7001531
+7001532	毘目智仙	\N	pímùzhìxiān	Vimokṣaprajñā / Vimoksaprajna	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: vimokṣaprajñā; Indian Buddhist monastic who travelled to China in the sixth century, translated Suṣṭhitamatidevaputraparipṛcchā 《聖善住意天子所問經》 (FGDB '毘目智仙'; T 341)	7001532
+7001533	王日休	\N	wángrìxiū	Wang Rixiu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	-1173; Chinese monastic who lived in the Song (FGDB '王日休'; T 364)	7001533
+7001534	称赞净土佛摄受经	稱讚淨土佛攝受經	chēngzàn Jìng Tǔ fó shèshòu jīng 	Sukhāvatīvyūha (Chengzan Jing Tu Fo Sheshou Jing)	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Sukhāvatīvyūha; the name of a text in the Chinese Buddhist canon (T 367; KDC 193)	7001534
