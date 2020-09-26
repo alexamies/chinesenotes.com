@@ -1532,3 +1532,18 @@
 7001532	毘目智仙	\N	pímùzhìxiān	Vimokṣaprajñā / Vimoksaprajna	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: vimokṣaprajñā; Indian Buddhist monastic who travelled to China in the sixth century, translated Suṣṭhitamatidevaputraparipṛcchā 《聖善住意天子所問經》 (FGDB '毘目智仙'; T 341)	7001532
 7001533	王日休	\N	wángrìxiū	Wang Rixiu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	-1173; Chinese monastic who lived in the Song (FGDB '王日休'; T 364)	7001533
 7001534	称赞净土佛摄受经	稱讚淨土佛攝受經	chēngzàn Jìng Tǔ fó shèshòu jīng 	Sukhāvatīvyūha (Chengzan Jing Tu Fo Sheshou Jing)	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Sukhāvatīvyūha; the name of a text in the Chinese Buddhist canon (T 367; KDC 193)	7001534
+7001535	那连提黎耶舍	那連提黎耶舍	nàliántílíyéshè	Narendrayaśas	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	490-589; a monastic who translated sutras in the Chinese Buddhist canon, including 大悲經 Mahākaruṇāpuṇḍarīkasūtra (FGDB '那連提黎耶舍'; KDC '110')	7001535
+7001536	波拘卢	波拘盧	bōjūlú	Bakkula	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 薄拘羅 (FGDB '薄拘羅')	7001536
+7001537	缚矩罗	縛矩羅	fújǔluó	Bakkula	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 薄拘羅 (FGDB '薄拘羅')	7001537
+7001538	那连耶舍	那連耶舍	nàliányéshè	Narendrayaśas	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 那連提黎耶舍 (FGDB '那連提黎耶舍')	7001538
+7001539	薄罗	薄羅	báoluó	Bakkula	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 薄拘羅 (FGDB '薄拘羅')	7001539
+7001540	那连提耶舍	那連提耶舍	nàliántíyéshè	Narendrayaśas	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 那連提黎耶舍 (FGDB '那連提黎耶舍')	7001540
+7001541	孙陀罗难陀	孫陀羅難陀	sūntuóluónántuó	Sundarananda / Sunanda	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: sundarananda, Pali: sundarananda, Japanese: Sondarananda; cousin or half-brother of the Buddha (BL 'Sundarananda'; FGDB '孫陀羅難陀'; SH '孫陀羅難陀', p. 323)	7001541
+7001542	富楼那弥多罗尼子	富樓那彌多羅尼子	fùlóunàmíduōluónízǐ	Pūrṇamaitrāyaṇīputra	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	(FGDB '富樓那'; SH '富樓那彌多羅尼子', p. 370)	7001542
+7001543	耶舍	\N	yéshè	Narendrayaśas	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 那連提黎耶舍 (FGDB '那連提黎耶舍')	7001543
+7001544	等集众德三昧经	等集眾德三昧經	děng jí zhòng dé sānmèi jīng	Sarvapuṇyasamuccayasamādhisūtra / Deng Ji Zhong De Sanmei Jing)	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Sarvapuṇyasamuccayasamādhisūtra; the name of a text in the Chinese Buddhist canon (T 381; Lancaster 2004, K 140)	7001544
+7001545	昙景	曇景	tánjǐng	Tan Jing	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	490-589; Chinese monastic who translated sutras in the Chinese Buddhist canon (KDC 373)	7001545
+7001546	菩萨从兜术天降神母胎说广普经	菩薩從兜術天降神母胎說廣普經	púsà cóng Dōushùtiān jiàng shén mǔ tāi shuō guǎng pǔ jīng 	Pusa Cong Doshuaitian Jiang Shen Mu Tai Shuo Guang Pu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Name of a text in the Chinese Buddhist canon (T 384; KDC 406)	7001546
+7001547	中阴经	中陰經	zhōng yīn jīng 	Antarābhava / Zhong Yin Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Antarābhava; the name of a text in the Chinese Buddhist canon (T 385; KDC 414)	7001547
+7001548	莲华面经	蓮華面經	liánhuā miàn jīng 	Lianhua Mian Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 386; KDC 420)	7001548
+7001549	大乘大集经	大乘大集經	Dàshèng Dà Jí Jīng 	Tathāgataśrīsamaya / Dasheng Daji Jing	proper noun	法师	Monastic	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Tathāgataśrīsamaya; the name of a text in the Chinese Buddhist canon (KDC 59; T 397)	7001549
