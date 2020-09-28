@@ -6658,3 +6658,5 @@
 6006658	远见．天下文化事业群	遠見．天下文化事業群	yuǎnjiàntiānxiàwénhuàshìyèqún	Global Views - Commonwealth Publishing Group	proper noun	\N	\N	现代汉语	Modern Chinese	台灣	Taiwan	\N	\N	https://www.cwgv.com.tw/	6006658
 6006659	中国共产党第十六次全国代表大会	中國共產黨第十六次全國代表大會	Zhōngguó Gòngchǎn Dǎng dì shíliù cì quánguó dàibiǎo dàhuì	16th National Congress of the Communist Party of China	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	(Wikipedia '中國共產黨第十六次全國代表大會')	6006659
 6006660	蒲美蓬	\N	púměipéng	Bhumibol Adulyadej	noun	君主	Monarch	历史	History	泰国	Thailand	\N	\N	1927-2016; King of Thailand (Wikipedia '蒲美蓬')	6006660
+6006661	大发	大發	dàfā	Daihatsu	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese car company (CC-CEDICT '大發'; Wikipedia '大發工業')	69220
+6006662	赵丽云	趙麗雲	zhào lìyún	Nancy Chao	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1952 - ; Taiwanese politician, affilitated with the 国民党 Nationalist Party (Wikipedia '趙麗雲')	6006662

@@ -17,6 +17,10 @@
     astronomy and calendrics.
   </li>
   <li>
+    Chinese Text Project, <i>Hanshu</i>, <a href="https://ctext.org/han-shu"
+    >https://ctext.org/han-shu</a>, accessed 2020-09-27.
+  </li>
+  <li>
     Dubs, Homer H trans. 1938-55,
     <i>The History of the Former Han Dynasty</i>,
     3 vols. Baltimore: Waverly,
