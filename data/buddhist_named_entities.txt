@@ -1571,3 +1571,15 @@
 7001571	佛说不增不减经	佛說不增不減經	Fó shuō bù zēng bù jiǎn jīng 	Tathāgatagarbhasūtra / Fo Shuo Bu Zeng Bu Jian Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 不增不減經 (FGDB '不增不減經')	7001571
 7001572	师备	師備	shībèi	Xuan Sha / Hsuan sha / Shi Bei	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	835-908; Chinese monastic from 福州 Fuzhou (Ding '玄沙'; FGDB '師備'; SH '玄沙')	7001572
 7001573	玄沙	\N	xuánshā	Xuan Sha / Hsuan sha / Shi Bei	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 師備 (FGDB '師備')	7001573
+7001574	万行	萬行	wànxíng	Wan Xing	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	D. 1018; name of a Vietnamese monastic (FGDB '萬行')	63159
+7001575	释僧肇	釋僧肇	shì sēngzhào	Seng Zhao	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 僧肇 (FGDB '僧肇')	7001575
+7001576	真空	\N	zhēnkōng	Zhen Kong	proper noun	师父	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	855-937; Korean monastic (FGDB '真空')	7001576
+7001577	广照	廣照	guǎng zhào	Guang Zhao	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Northern Song monastic (Ding '廣照'; FGDB '廣照')	7001577
+7001578	道一禅师	道一禪師	dàoyī chánshī	Chan Master Daoyi / Mazu Daoyi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 馬祖道一 (FGDB '馬祖道一')	7001578
+7001579	道一	\N	dàoyī	Daoyi / Mazu Daoyi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 馬祖道一 (FGDB '馬祖道一')	7001579
+7001580	善来	善來	shànlái	Svāgata / Sāgata	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: svāgata, Pali: sāgata, Japanese: Zenrai, a direct disciple of the Buddha (BL 'Svāgata'; Ding '善來'; FGDB '善來'; SH '善來')	7001580
+7001581	永明延寿	永明延壽	yǒngmíng yánshòu	Yongming Yanshou	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 延壽 (FGDB '延壽')	7001581
+7001582	阇那耶舍	闍那耶舍	shénàyéshè 	Jñānayaśas / Jnanayasas	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Buddhist monastic who translated sutras included in the Chinese Buddhist canon (FGDB '闍那耶舍'; KDC 151; T 673)	7001582
+7001583	西堂智藏	\N	xītáng zhìzàng	Xitang Zhizang / Zhizang	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	735-817; Chan monastic from Jiangxi, a disciple of 馬祖道一 Mazu Daoyi (FGDB '西堂智藏'; Poceski 2015, p. 20)	7001583
+7001584	观无畏	觀無畏	guān wúwèi 	Guan Wuwei	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Chinese Buddhist credited with compiling the 《諸法集要經》 Dharmasamuccaya in the Chinese Buddhist canon (KDC 1494; T 728)	7001584
+7001585	佛说分别善恶所起经	佛說分別善惡所起經	Fó shuō fēnbié shàn è suǒ qǐ jīng 	Fo Shuo Fenbie Shan E Suo Qi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 分別善惡所起經 (T 729)	7001585
