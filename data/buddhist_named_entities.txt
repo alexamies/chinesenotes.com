@@ -1583,3 +1583,45 @@
 7001583	西堂智藏	\N	xītáng zhìzàng	Xitang Zhizang / Zhizang	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	735-817; Chan monastic from Jiangxi, a disciple of 馬祖道一 Mazu Daoyi (FGDB '西堂智藏'; Poceski 2015, p. 20)	7001583
 7001584	观无畏	觀無畏	guān wúwèi 	Guan Wuwei	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Chinese Buddhist credited with compiling the 《諸法集要經》 Dharmasamuccaya in the Chinese Buddhist canon (KDC 1494; T 728)	7001584
 7001585	佛说分别善恶所起经	佛說分別善惡所起經	Fó shuō fēnbié shàn è suǒ qǐ jīng 	Fo Shuo Fenbie Shan E Suo Qi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 分別善惡所起經 (T 729)	7001585
+7001586	金总持	金總持	jīn zǒng chí 	Jin Zong Chi	proper noun	法师	Monastic	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Chinese monastic who translated sutras included in the Chinese Buddhist canon (T 763)	7001586
+7001587	良源	\N	liángyuán	Ryōgen	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	912–985; Japanese monk (Matsuo 2007, p. 25)	7001587
+7001588	史宗	\N	Shǐ Zōng	Shi Zong	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001588
+7001589	阿谟伽	阿謨伽	amójiā 	Amoghavajra	proper noun	法师	Monastic	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 阿目佉 (FGDB '阿目佉')	7001589
+7001590	佛说十力经	佛說十力經	Fó shuō shí lì jīng 	Daśabalasūtra / Fo Shuo Shi Li Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 十力經 (KDC 1386; T 780)	7001590
+7001591	十力经	十力經	shí lì jīng	Daśabalasūtra / Shi Li Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Daśabalasūtra; the name of a text in the Chinese Buddhist canon (KDC 1386; T 780)	7001591
+7001592	勿提提犀鱼	勿提提犀魚	wùtítíxīyú 	Utpalavīrya	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Buddhist monastic who translated sutras included in the Chinese Buddhist canon (KDC 1386; T 780)	7001592
+7001593	佛说佛十力经	佛說佛十力經	Fó shuō Fó shí lì jīng 	Daśabalasūtra / Fo Shuo Fo Shi Li Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 佛十力經 (KDC 1473; T 781)	7001593
+7001594	佛十力经	佛十力經	Fó shí lì jīng	Daśabalasūtra / Fo Shi Li Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Daśabalasūtra; the name of a text in the Chinese Buddhist canon (KDC 1473; T 781)	7001594
+7001595	佛说十号经	佛說十號經	fó shuō shí hào jīng 	Fo Shuo Shi Hao Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 十號經 (T 782)	7001595
+7001596	十号经	十號經	shí hào jīng	Shi Hao Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1141; T 782)	7001596
+7001597	佛说十二头陀经	佛說十二頭陀經	fó shuō shí èr tóutuó jīng 	Fo Shuo Shi Er Toutuo Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 十二頭陀經 (T 783)	7001597
+7001598	十二头陀经	十二頭陀經	shí èr tóutuó jīng	Shi Er Toutuo Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 504; T 783)	7001598
+7001599	得道梯橙锡杖经	得道梯橙錫杖經	de dào tī chéng xīzhàng jīng 	De Dao Ti Cheng Xizhang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 793; T 785)	7001599
+7001600	佛说木槵子经	佛說木槵子經	fó shuō mù huàn zǐ jīng 	Fo Shuo Mu Huan Zi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 木槵子經 (T 786)	7001600
+7001601	木槵子经	木槵子經	mù huàn zǐ jīng	Mu Huan Zi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 862; T 786)	7001601
+7001602	曼殊室利呪藏中校量数珠功德经	曼殊室利呪藏中校量數珠功德經	Mànshūshìlì zhòu cáng zhōng xiàoliàng shǔ zhū gōngdé jīng 	Manshushili Zhou Cang Zhong Xiaoliang Shu Zhu Gongde Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 263; T 787)	7001602
+7001603	宝思惟	寶思惟	bǎo sīwéi 	Ratnacinta	proper noun	法师	Monastic	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Buddhist monastic who translated sutras included in the Chinese Buddhist canon (KDC 285; T 788)	7001603
+7001604	支越	\N	zhī yuè 	Zhi Yue	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Chinese monastic who translated sutras included in the Chinese Buddhist canon (KDC 998; T 793)	7001604
+7001605	若罗严	若羅嚴	ruò luó yán 	Ruo Luoyan	proper noun	法师	Monastic	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Chinese monastic who translated sutras included in the Chinese Buddhist canon (FGDB '若羅嚴'; T 794a)	7001605
+7001606	慧光	\N	huìguāng	Huiguang	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	468-537; Chinese monastic who lived during the Northern Wei (FGDB '慧光')	7001606
+7001607	智者	\N	zhìzhě	Zhi Yi / Chih-i	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 智顗 (Guoyu '智者' 2)	7001607
+7001608	最澄	\N	zuìchéng	Saichō	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	767-833 Japanese monastic, founder of the Tendai school in Japan (BL 'Saichō'; Ding '最澄'; FGDB '最澄')	7001608
+7001609	最澄	\N	zuìchéng	saichō	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	767–822; Japanese monk (Matsuo 2007, p. 29)	7001609
+7001610	忍性	\N	rěnxìng	Ninshō	proper noun	师父	Monastic	佛教	Buddhism	日本	Japan	\N	\N	1217-1303 (FGDB '忍性'; Matsuo 2007, p. 4)	7001610
+7001611	普照	\N	pǔzhào	Fushō	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	8th century Japanese monastic (FGDB '普照'; Matsuo 2007, p. 28)	7001611
+7001612	昙摩蜜多	曇摩蜜多	tánmómìduō 	Dharmamitra	proper noun	法师	Monastic	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Buddhist monastic who translated sutras included in the Chinese Buddhist canon (KDC 185; T 814)	7001612
+7001613	灵树如敏	靈樹如敏	língshù rúmǐn	Lingshu Rumin	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	?-920; Five Dynasties period monastic from Fujian (FGDB '靈樹如敏')	7001613
+7001614	灵树	靈樹	língshù	Lingshu	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	See (FGDB '靈樹如敏')	7001614
+7001615	如敏	\N	rúmǐn	Rumin	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 靈樹如敏 (FGDB '靈樹如敏')	7001615
+7001616	灵树禅师	靈樹禪師	língshù chánshī	Chan Master Lingshu	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 靈樹如敏 (FGDB '靈樹如敏')	7001616
+7001617	常惺	\N	chángxīng	Chang Xing	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1896 - 1939; Chinese monastic from Jiangsu (FGDB '常惺')	7001617
+7001618	曹溪	\N	cáoqī	Caoqi	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Another name for 六祖慧能 the Sixth Patriarch Huineng (Ding '曹溪'; FGDB '曹溪'; SH '曹溪')	7001618
+7001619	曹溪一滴	\N	cáoqī yī dī	A Drop of Water from Caoqi	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	Title of a text composed in the Ming (FGDB '曹溪一滴')	7001619
+7001620	梵琦	\N	fànqí	Chushi Fanqi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 楚石梵琦 (FGDB '楚石梵琦')	7001620
+7001621	紫柏	\N	zǐ bó	Zi Bo	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	1543-1603; Ming dynasty monastic; also known as 達觀 (Ding '紫柏'; FGDB '紫柏老人集'; FGDB '達觀')	7001621
+7001622	安法钦	安法欽	ān fǎ qīn 	An Faqin	proper noun	法师	Monastic	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Buddhist monastic who translated sutras included in the Chinese Buddhist canon (KDC 131; T 816)	7001622
+7001623	大净法门经	大淨法門經	dà jìng Fǎmén jīng	Mañjuśrīvikrīḍitasūtra / Da Jing Famen Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Mañjuśrīvikrīḍitasūtra; the name of a text in the Chinese Buddhist canon (KDC 186; T 817)	7001623
+7001624	大庄严法门经	大莊嚴法門經	dà zhuāngyán Fǎmén jīng 	Mañjuśrīvikrīḍitasūtra / Da Zhuangyan Famen Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Mañjuśrīvikrīḍitasūtra; the name of a text in the Chinese Buddhist canon (KDC 187; T 818)	7001624
+7001625	惠简	惠簡	huì jiǎn 	Hui Jian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Buddhist monastic who translated sutras included in the Chinese Buddhist canon (KDC 852; T 827)	7001625
+7001626	无字宝箧经	無字寶篋經	wú zì bǎo qiè jīng 	Anakṣarakaraṇḍakavairocanagarbha / Wu Zi Bao Qie Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Anakṣarakaraṇḍakavairocanagarbha; the name of a text in the Chinese Buddhist canon (KDC 213; T 828)	7001626
+7001627	大乘离文字普光明藏经	大乘離文字普光明藏經	Dàshèng lí wénzì pǔ guāngmíng cáng jīng 	Anakṣarakaraṇḍakavairocanagarbha / Dasheng Li Wenzi Pu Guangming Cang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Anakṣarakaraṇḍakavairocanagarbha; the name of a text in the Chinese Buddhist canon (KDC 214; T 829)	7001627

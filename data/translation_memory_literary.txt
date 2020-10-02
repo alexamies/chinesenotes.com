@@ -726,6 +726,11 @@
 3000726	妻父	\N	qī fù	father-in-law	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 64)	3000726
 3000727	饷道	餉道	xiǎng dào	supply lines	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 64)	3000727
 3000728	绝其饷道	絕其餉道	juéqíxiǎngdào	cut off supply lines	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 64)	3000728
-3000728	大旱	\N	dà hàn	a great drought	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 64)	3000728
 3000729	征诣京师	征詣京師	zhēng yì jīngshī	summoned to the capital	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 64)	3000729
 3000730	秦并天下	秦並天下	qín bìng tiān xià	Qin united the empire	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 65)	3000730
+3000731	豪桀	\N	háo jié	heroic people	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 66)	3000731
+3000732	承平之世	\N	chéng píng zhī shì	a period of peace	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '承平之世', p. 51)	3000732
+3000733	承首句	\N	chéng shǒu jù	to expand on the leading sentence	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '承首句', p. 51)	3000733
+3000734	大旱	\N	dà hàn	a great drought	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 64)	3000734
+3000735	承招	\N	chéng zhāo	to confess to committing a crime	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '承招', p. 51)	3000735
+3000736	承风	承風	chéng fēng	to continue a custom	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '承風', p. 51)	3000736

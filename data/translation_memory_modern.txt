@@ -282,3 +282,4 @@
 5000282	借而不还	借而不還	jiè ér bù huán	to borrow but not give back	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '不歸')	5000282
 5000283	不返回	\N	bù fǎnhuí	to not go back	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '不歸')	5000283
 5000284	不回	\N	bù huí	to not go back	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '不還')	5000284
+5000285	承上文	\N	chéng shàng wén	continued from the text above	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '承上文', p. 51)	5000285
