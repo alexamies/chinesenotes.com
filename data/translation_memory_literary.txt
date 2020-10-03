@@ -734,3 +734,9 @@
 3000734	大旱	\N	dà hàn	a great drought	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 64)	3000734
 3000735	承招	\N	chéng zhāo	to confess to committing a crime	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '承招', p. 51)	3000735
 3000736	承风	承風	chéng fēng	to continue a custom	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '承風', p. 51)	3000736
+3000737	大疫	\N	dà yì	epidemic	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 67)	3000737
+3000738	岁余	歲餘	suì yú	after a little more than a year	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 67)	3000738
+3000739	岁时奉祀	歲時奉祀	suìshí fèngsì	to perform annual rituals	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 67)	3000739
+3000740	从昆弟	從昆弟	cóng kūndì	cousins	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (Sima Qian and Watson tr. 1993, vol II, p. 209)	3000740
+3000741	官厚	\N	guānhòu	a senior post	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 67)	3000741
+3000742	赐宠	賜寵	cì chǒng	to treated generously	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 67)	3000742
