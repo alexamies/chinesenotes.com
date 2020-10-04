@@ -740,3 +740,5 @@
 3000740	从昆弟	從昆弟	cóng kūndì	cousins	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (Sima Qian and Watson tr. 1993, vol II, p. 209)	3000740
 3000741	官厚	\N	guānhòu	a senior post	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 67)	3000741
 3000742	赐宠	賜寵	cì chǒng	to treated generously	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 67)	3000742
+3000743	道里辽远	道里遼遠	dàolǐ liáoyuǎn	a distant journey	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 68)	3000743
+3000744	澄江	\N	chéngjiāng	a clear stream	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '澄江', p. 51)	160726

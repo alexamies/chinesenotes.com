@@ -283,3 +283,7 @@
 5000283	不返回	\N	bù fǎnhuí	to not go back	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '不歸')	5000283
 5000284	不回	\N	bù huí	to not go back	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '不還')	5000284
 5000285	承上文	\N	chéng shàng wén	continued from the text above	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '承上文', p. 51)	5000285
+5000286	城市小资产阶级	城市小資產階級	chéngshì xiǎo zīchǎn jiējí	urban petty bourgeoisie	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 76-77)	5000286
+5000287	挣断	掙斷	zhèng duàn	to struggle and break free	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '掙')	5000287
+5000288	挣面子	掙面子	zhèng miànzi	to fight for one's reputation	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '掙')	5000288
+5000289	挣光荣	掙光榮	zhèng guāngróng	to struggle for honor and glory	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '掙')	5000289
