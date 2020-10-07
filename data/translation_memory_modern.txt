@@ -287,3 +287,6 @@
 5000287	挣断	掙斷	zhèng duàn	to struggle and break free	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '掙')	5000287
 5000288	挣面子	掙面子	zhèng miànzi	to fight for one's reputation	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '掙')	5000288
 5000289	挣光荣	掙光榮	zhèng guāngróng	to struggle for honor and glory	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '掙')	5000289
+5000290	挣坏了	掙壞了	zhèng huàile	to be pulled apart	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '掙壞了', p. 51)	5000290
+5000291	挣开	掙開	zhèng kāi	to break open	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '掙開', p. 51)	5000291
+5000292	挣来	掙來	zhènglái	to earn	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '掙來', p. 51)	5000292

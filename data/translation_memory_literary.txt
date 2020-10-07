@@ -742,3 +742,9 @@
 3000742	赐宠	賜寵	cì chǒng	to treated generously	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 67)	3000742
 3000743	道里辽远	道里遼遠	dàolǐ liáoyuǎn	a distant journey	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 68)	3000743
 3000744	澄江	\N	chéngjiāng	a clear stream	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '澄江', p. 51)	160726
+3000745	群臣	\N	qún chén	many ministers	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 68)	3000745
+3000746	挣牙	掙牙	zhèng yá	to get something caught between the teeth	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '掙牙', p. 51)	3000746
+3000747	挣子	掙子	zhèng zǐ	a son who earns to support his family	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '掙子', p. 51)	3000747
+3000748	挣家立业	掙家立業	zhèng jiā lì yè	to support a family and establish a career	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '掙家立業', p. 51)	3000748
+3000749	敌寇	敵寇	dí kòu	pillager	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '寇')	3000749
+3000750	寇边	寇邊	kòu biān	to raid the border areas	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '寇')	3000750
