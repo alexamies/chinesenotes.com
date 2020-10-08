@@ -290,3 +290,9 @@
 5000290	挣坏了	掙壞了	zhèng huàile	to be pulled apart	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '掙壞了', p. 51)	5000290
 5000291	挣开	掙開	zhèng kāi	to break open	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '掙開', p. 51)	5000291
 5000292	挣来	掙來	zhènglái	to earn	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '掙來', p. 51)	5000292
+5000293	推翻帝国主义	推翻帝國主義	tuīfān dìguózhǔyì	overthrow imperialism	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 76-77)	5000293
+5000294	竹篙	\N	zhú gāo	a bamboo pole	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '撐')	5000294
+5000295	撑得主	撐得主	chēng de zhǔ	able to support	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '撐得主', p. 51)	5000295
+5000296	撑起来	撐起來	chēng qǐlai	to support in standing up	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '撐起來', p. 51)	5000296
+5000297	斜柱	\N	xié zhù	included prop	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '橕')	5000297
+5000298	屋橕	\N	wū chēng	roof brace	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '橕')	5000298
