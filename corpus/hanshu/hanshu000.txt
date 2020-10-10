@@ -92,7 +92,19 @@
     Berkeley: Society for the Study of Early China, pp. 129-136.
   </li>
   <li>
+    Wang Xianqian 1900, 漢書補注 <i>Hanshu Buzhu</i> ‘Book of Han Supplementary
+    Notes,’ Changsha; Wang Shi, index at 
+    <a href='https://sou-yun.cn/eBookIndex.aspx?id=2665'
+    >https://sou-yun.cn/eBookIndex.aspx?id=2665</a>,
+    accessed 2020-10-08.
+  </li>
+  <li>
     Wilkinson, E P 2015, <i>Chinese History: a New Manual</i>, 
     Harvard University Asia Center, Cambridge and London, p. 711-713.
+  </li>
+  <li>
+    Yang Shuda 2007, 漢書管窺, <i>Hanshu Kuiguan</i> ‘Critical and Explanatory
+    Notes on the Book of Han,’ Kindle Ed., 湖南教育出版社 Changsha: Hunan
+    Education Publishing House.
   </li>
 </ol>
