@@ -297,3 +297,4 @@
 5000297	斜柱	\N	xié zhù	included prop	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '橕')	5000297
 5000298	屋橕	\N	wū chēng	roof brace	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '橕')	5000298
 5000299	木柱	\N	mù zhù	a wooden post	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '棖')	5000299
+5000300	牛圈	\N	niú juàn	a cattle enclosure	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '圈')	5000300
