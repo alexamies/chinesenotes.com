@@ -750,3 +750,4 @@
 3000750	寇边	寇邊	kòu biān	to raid the border areas	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '寇')	3000750
 3000751	撑渡	撐渡	chēngdù	to punt a ferry across a river	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '撐渡', p 51)	3000751
 3000752	骋词	騁詞	chěngcí	a dynamic style [of writing]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '騁詞', p. 52)	3000752
+3000753	关市	關市	guān shì	border markets	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Sabattini 2019, p. 123)	3000753
