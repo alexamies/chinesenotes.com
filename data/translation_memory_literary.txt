@@ -753,3 +753,7 @@
 3000753	关市	關市	guān shì	border markets	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Sabattini 2019, p. 123)	3000753
 3000754	赬霞	\N	chēng xiá	a red sunset	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '赬霞', p. 52)	3000754
 3000755	赬颜	赬顏	chēng yán	a blushing complexion	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '赬顏', p. 52)	3000755
+3000756	雄鸭	雄鴨	xióng yā	a male duck	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '雄')	3000756
+3000757	贤天子	賢天子	xiántiānzǐ	sage Son of Heaven	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 69)	3000757
+3000758	自今以来	自今以來	zì jīn yǐ lái	from now on	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 69)	3000758
+3000759	信谗臣	信讒臣	xìn chán chén	trusted slanderous officials	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 69)	3000759

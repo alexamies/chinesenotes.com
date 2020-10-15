@@ -300,3 +300,6 @@
 5000300	牛圈	\N	niú juàn	a cattle enclosure	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '圈')	5000300
 5000301	牙商	\N	yáshāng	business agent / sales agent	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '牙')	5000301
 5000302	乘快	\N	chéng kuài	to act when in the mood	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '乘快', p. 52)	5000302
+5000303	公鸟	公鳥	gōngniǎo	a male bird	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '雄')	5000303
+5000304	从今	從今	cóng jīn	from now on	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '自今')	5000304
+5000305	当权李执政	當權執政	dāngquánzhízhèng	to hold administrative power	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '用事')	5000305
