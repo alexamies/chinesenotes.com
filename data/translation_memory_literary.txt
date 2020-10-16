@@ -757,3 +757,5 @@
 3000757	贤天子	賢天子	xiántiānzǐ	sage Son of Heaven	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 69)	3000757
 3000758	自今以来	自今以來	zì jīn yǐ lái	from now on	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 69)	3000758
 3000759	信谗臣	信讒臣	xìn chán chén	trusted slanderous officials	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 69)	3000759
+3000760	乘着云	乘著雲	chéng zhe yún	to ride a cloud	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '乘雲'; Mathews 1931 '乘著雲', p. 52)	3000760
+3000761	乘驾	乘駕	chéng jià	to board a carriage	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '乘駕', p. 52)	3000761
