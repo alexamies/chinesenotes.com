@@ -305,3 +305,4 @@
 5000305	当权李执政	當權執政	dāngquánzhízhèng	to hold administrative power	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '用事')	5000305
 5000306	削皮	\N	xiāo pí	to peel	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '削')	5000306
 5000307	削铅笔	削鉛筆	xiāo qiānbǐ	to sharpen a pencil	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '削鉛筆')	5000307
+5000308	翠柏	\N	cuì bǎi	a green cypress	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '翠')	5000308
