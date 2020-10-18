@@ -3,6 +3,15 @@
 # The name of the directory with dictionary files
 DictionaryDir: data
 
+# Dictionary files to load
+LUFiles: words.txt,translation_memory_literary.txt,translation_memory_modern.txt,modern_named_entities.txt,buddhist_named_entities.txt
+
+# Location that the templates are found
+TemplateDir: html/material-templates
+
+# Web site title
+Title: Chinese Notes
+
 # The host name or ip of the database to connect to (used for cnweb)
 DBHost: 127.0.0.1
 
@@ -17,8 +26,6 @@ DBPass: set me
 
 # The name of the database to connect to (used for cnweb)
 DBName: corpus_index
-
-LUFiles: words.txt,translation_memory_literary.txt,translation_memory_modern.txt,modern_named_entities.txt,buddhist_named_entities.txt
 
 # The domain of the corpus
 Domain:

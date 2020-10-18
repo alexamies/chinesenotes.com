@@ -759,3 +759,4 @@
 3000759	信谗臣	信讒臣	xìn chán chén	trusted slanderous officials	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 69)	3000759
 3000760	乘着云	乘著雲	chéng zhe yún	to ride a cloud	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '乘雲'; Mathews 1931 '乘著雲', p. 52)	3000760
 3000761	乘驾	乘駕	chéng jià	to board a carriage	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '乘駕', p. 52)	3000761
+3000762	晋之乘	晉之乘	jìn zhī chéng	annals of Jin	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '乘'; Mathews 1931 '晉之乘', p. 52)	3000762
