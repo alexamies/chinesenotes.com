@@ -306,3 +306,4 @@
 5000306	削皮	\N	xiāo pí	to peel	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '削')	5000306
 5000307	削铅笔	削鉛筆	xiāo qiānbǐ	to sharpen a pencil	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '削鉛筆')	5000307
 5000308	翠柏	\N	cuì bǎi	a green cypress	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '翠')	5000308
+5000309	立基	\N	lì jī	to establish a foundation	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '立基', p. 52)	5000309
