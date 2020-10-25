@@ -760,3 +760,7 @@
 3000760	乘着云	乘著雲	chéng zhe yún	to ride a cloud	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '乘雲'; Mathews 1931 '乘著雲', p. 52)	3000760
 3000761	乘驾	乘駕	chéng jià	to board a carriage	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '乘駕', p. 52)	3000761
 3000762	晋之乘	晉之乘	jìn zhī chéng	annals of Jin	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '乘'; Mathews 1931 '晉之乘', p. 52)	3000762
+3000763	箕帚妻	\N	jīzhǒu qī	your wife to serve you	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Traditional modest saying of a wife (Guoyu '箕帚之使'; Mathews 1931 '箕帚妻', p. 53)	3000763
+3000764	奉箕帚	\N	fèngjīzhǒu	to hold a dustpan and broom / I serve you dutifully	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Traditional modest saying of a wife doing housework for her husband (Guoyu '奉箕帚')	3000764
+3000765	执箕帚	執箕帚	zhíjīzhǒu	to hold a dustpan and broom / I serve you dutifully	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '執箕帚')	3000765
+3000766	箕裘世业	箕裘世業	jī qiú shì yè	to follow the family profession by learning easy and then more difficult tasks	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '箕裘相繼'; Mathews 1931 '箕裘世業', p. 53)	3000766

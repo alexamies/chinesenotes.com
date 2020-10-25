@@ -6,7 +6,6 @@ bound form
 conjunction
 expression
 foreign
-idiom
 infix
 interjection
 interrogative pronoun
