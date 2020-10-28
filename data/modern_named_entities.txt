@@ -276,7 +276,7 @@
 6000276	上海证券交易所	上海證券交易所	shànghǎi zhèngquàn jiāoyìsuǒ	Shanghai Stock Exchange (SSE)	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '上海證券交易所')	6000276
 6000277	上海医科大学	上海醫科大學	shànghǎi yīkē dàxué	Shanghai Medical University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '上海醫科大學')	6000277
 6000278	上海音乐学院	上海音樂學院	shànghǎi yīnyuè xuéyuàn	Shanghai Conservatory of Music	proper noun	音乐学院	Conservatory	教育	Education	中国	China	\N	\N	(CC-CEDICT '上海音樂學院')	6000278
-6000279	上海体育场	上海體育場	shànghǎi tǐyùchǎng	Shanghai Stadium	proper noun	\N	\N	地方	Places	中国	China	\N	\N	(CC-CEDICT '上海體育場')	6000279
+6000279	上海体育场	上海體育場	shànghǎi tǐyùchǎng	Shanghai Stadium	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '上海體育場')	6000279
 6000280	上艾瑟尔	上艾瑟爾	shàng ài sè ěr	Overijssel	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	A place in Holand (CC-CEDICT '上艾瑟爾')	6000280
 6000281	麦迪逊	麥迪遜	màidíxùn	Madison	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(Wikipedia '麦迪逊')	6000281
 6000282	佛得角埃斯库多	佛得角埃斯庫多	fódéjiǎo āisīkùduō	Cape Verde escudo	proper noun	货币	Currency	现代汉语	Modern Chinese	佛得角	Cape Verde	\N	\N	Unit of currency in Cape Verde (Wikipedia 'ISO_4217')	6000282

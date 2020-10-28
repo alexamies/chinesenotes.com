@@ -307,3 +307,7 @@
 5000307	削铅笔	削鉛筆	xiāo qiānbǐ	to sharpen a pencil	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '削鉛筆')	5000307
 5000308	翠柏	\N	cuì bǎi	a green cypress	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '翠')	5000308
 5000309	立基	\N	lì jī	to establish a foundation	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '立基', p. 52)	5000309
+5000310	坐姿	\N	zuòzī	sitting posture	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '箕坐')	5000310
+5000311	不敬的态度	不敬的態度	bùjìng de tàidu	a disrespectful manner	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '箕坐')	5000311
+5000312	豆茎	豆莖	dòu jīng	a bean stalk	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '萁')	5000312
+5000313	小桌子	\N	xiǎo zhuōzi	small table	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '几')	5000313
