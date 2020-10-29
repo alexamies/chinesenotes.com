@@ -769,3 +769,6 @@
 3000769	安几	\N	ānjǐ	quiet and composed	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '安几', p. 53)	3000769
 3000770	浸肌	\N	jìn jī	soaking wet	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '浸肌', p. 53)	3000770
 3000771	玉肌	\N	yù jī	flesh of a beautiful woman	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '玉肌', p. 53)	3000771
+3000772	玉笄	\N	yù jī	a jade hairpin	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '笄')	3000772
+3000773	兽骨	獸骨	shòugǔ	animal bone	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '骨笄')	3000773
+3000774	名姬	\N	míng jī	a well known female singer	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '名姬', p. 53)	3000774
