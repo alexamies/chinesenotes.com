@@ -772,3 +772,6 @@
 3000772	玉笄	\N	yù jī	a jade hairpin	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '笄')	3000772
 3000773	兽骨	獸骨	shòugǔ	animal bone	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '骨笄')	3000773
 3000774	名姬	\N	míng jī	a well known female singer	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '名姬', p. 53)	3000774
+3000775	几不欲生	幾不欲生	jǐ bù yù shēng	almost not wanting to live	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾不欲生', p. 53)	3000775
+3000776	几十	幾十	jǐ shí	several tens / how many tens?	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾十', p. 54)	3000776
+3000777	几早	幾早	jǐ zǎo	when	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾早', p. 54)	3000777

@@ -311,3 +311,12 @@
 5000311	不敬的态度	不敬的態度	bùjìng de tàidu	a disrespectful manner	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '箕坐')	5000311
 5000312	豆茎	豆莖	dòu jīng	a bean stalk	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '萁')	5000312
 5000313	小桌子	\N	xiǎo zhuōzi	small table	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '几')	5000313
+5000314	几及	幾及	jǐ jí	to be almost equal to	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾及', p. 53)	5000314
+5000315	很少	\N	hěn shǎo	very little	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '幾希')	5000315
+5000316	几于	幾於	jǐ yú	nearly at the point of	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾於', p. 53)	5000316
+5000317	几致	幾致	jǐ zhì	nearly until	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾致', p. 53)	5000317
+5000318	几度	幾度	jǐ dù	to what degree?	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾度', p. 54)	5000318
+5000319	几里地	幾里地	jǐ lǐ dì	how many li (distance)?	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾里地', p. 54)	5000319
+5000320	几点钟	幾點鐘	jǐ diǎn zhōng	what time is it?	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾點鐘', p. 54)	5000320
+5000321	第几	第幾	dì jǐ	what rank?	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '第幾', p. 54)	5000321
+5000322	几何公理	幾何公理	jǐhé gōnglǐ	geometry axiom	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾何公理', p. 54)	5000322

@@ -6660,3 +6660,4 @@
 6006660	蒲美蓬	\N	púměipéng	Bhumibol Adulyadej	noun	君主	Monarch	历史	History	泰国	Thailand	\N	\N	1927-2016; King of Thailand (Wikipedia '蒲美蓬')	6006660
 6006661	大发	大發	dàfā	Daihatsu	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese car company (CC-CEDICT '大發'; Wikipedia '大發工業')	69220
 6006662	赵丽云	趙麗雲	zhào lìyún	Nancy Chao	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	1952 - ; Taiwanese politician, affilitated with the 国民党 Nationalist Party (Wikipedia '趙麗雲')	6006662
+6006663	几尼	幾尼	jǐní	Guinea	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(Mathews 1931 '幾尼', p. 54)	6006663
