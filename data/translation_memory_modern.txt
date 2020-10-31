@@ -320,3 +320,6 @@
 5000320	几点钟	幾點鐘	jǐ diǎn zhōng	what time is it?	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾點鐘', p. 54)	5000320
 5000321	第几	第幾	dì jǐ	what rank?	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '第幾', p. 54)	5000321
 5000322	几何公理	幾何公理	jǐhé gōnglǐ	geometry axiom	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾何公理', p. 54)	5000322
+5000323	私人机构	私人機構	sīrén jīgòu	private organization	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '機構')	5000323
+5000324	公家机构	公家機構	gōngjiā jīgòu	government institution	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '機構')	5000324
+5000325	乘机会	乘機會	chéngjīhuì	to take advantage of an opportunity	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '乘機會', p. 55)	5000325

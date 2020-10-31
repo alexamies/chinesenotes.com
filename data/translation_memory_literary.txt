@@ -775,3 +775,6 @@
 3000775	几不欲生	幾不欲生	jǐ bù yù shēng	almost not wanting to live	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾不欲生', p. 53)	3000775
 3000776	几十	幾十	jǐ shí	several tens / how many tens?	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾十', p. 54)	3000776
 3000777	几早	幾早	jǐ zǎo	when	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾早', p. 54)	3000777
+3000778	洩漏机密	洩漏機密	xièlòu jīmì	to divulge a secret	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '洩漏天機')	3000778
+3000779	机妇	機婦	jīfù	a female weaver	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '機婦', p. 54)	3000779
+3000780	机女	機女	jīnǚ	a female weaver	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '機女', p. 54)	3000780
