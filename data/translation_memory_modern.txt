@@ -322,4 +322,13 @@
 5000322	几何公理	幾何公理	jǐhé gōnglǐ	geometry axiom	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '幾何公理', p. 54)	5000322
 5000323	私人机构	私人機構	sīrén jīgòu	private organization	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '機構')	5000323
 5000324	公家机构	公家機構	gōngjiā jīgòu	government institution	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '機構')	5000324
-5000325	乘机会	乘機會	chéngjīhuì	to take advantage of an opportunity	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '乘機會', p. 55)	5000325
+5000325	乘机会	乘機會	chéng jīhuì	to take advantage of an opportunity	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '乘機會', p. 55)	5000325
+5000326	利用机会	利用機會	lìyòng jīhuì	exploit an opportunity	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '利用機會', p. 55)	5000326
+5000327	失机会	失機會	shī jīhuì	lose an opportunity	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '失機會', p. 55)	5000327
+5000328	错失时机	錯失時機	cuòshī shíjī	miss an opportunity	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '時機')	5000328
+5000329	机要大事	機要大事	jīyào dàshì	a confidential matter	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '機事')	5000329
+5000330	秘密的事	祕密的事	mìmì de shì	a secret matter	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '機密')	5000330
+5000331	机密信	機密信	jīmì xìn	confidential correspondence	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '祕密信', p. 55)	5000331
+5000332	机密大事	機密大事	jīmì dàshì	a confidential matter	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '機密大事')	5000332
+5000333	机要秘书	機要祕書	jīyào mìshū	secretary for confidential matters	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '機要祕書', p. 55)	5000333
+5000334	珠串	\N	zhū chuàn	a string of pearls	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '璣琲')	5000334
