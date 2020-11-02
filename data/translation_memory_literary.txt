@@ -778,3 +778,7 @@
 3000778	洩漏机密	洩漏機密	xièlòu jīmì	to divulge a secret	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '洩漏天機')	3000778
 3000779	机妇	機婦	jīfù	a female weaver	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '機婦', p. 54)	3000779
 3000780	机女	機女	jīnǚ	a female weaver	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '機女', p. 54)	3000780
+3000781	讥请	譏請	jīqǐng	to ridicule	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '譏請', p. 55)	3000781
+3000782	饥渴之际	飢渴之際	jī kě zhī jì	in between hunger and thirst	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '飢渴之際', p. 55)	3000782
+3000783	饑名渴势	饑名渴勢	jī míng kě shì	to be hungry for fame and thirsty for power	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '饑名渴勢', p. 55)	3000783
+3000784	饑死	\N	jī sǐ	to starve to death	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '饑死', p. 55)	3000784

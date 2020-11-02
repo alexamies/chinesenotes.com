@@ -1,7 +1,7 @@
 {
   "name": "cnreader",
   "version": "0.0.13",
-  "description": "HB Reader",
+  "description": "Chinese Notes",
   "private": true,
   "scripts": {
     "build": "npx webpack --config webpack.config.js",

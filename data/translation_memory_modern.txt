@@ -332,3 +332,6 @@
 5000332	机密大事	機密大事	jīmì dàshì	a confidential matter	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '機密大事')	5000332
 5000333	机要秘书	機要祕書	jīyào mìshū	secretary for confidential matters	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '機要祕書', p. 55)	5000333
 5000334	珠串	\N	zhū chuàn	a string of pearls	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '璣琲')	5000334
+5000335	饥饿寒冷	飢餓寒冷	jī'è hánlěng	hunger and cold	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '飢寒')	5000335
+5000336	衣食不足	\N	yīshí bùzú	insufficient food and clothing	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '飢寒')	5000336
+5000337	饥死	飢死	jī sǐ	to starve to death	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '飢死', p. 55)	5000337
