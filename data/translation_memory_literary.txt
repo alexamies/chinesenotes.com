@@ -782,3 +782,5 @@
 3000782	饥渴之际	飢渴之際	jī kě zhī jì	in between hunger and thirst	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '飢渴之際', p. 55)	3000782
 3000783	饑名渴势	饑名渴勢	jī míng kě shì	to be hungry for fame and thirsty for power	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '饑名渴勢', p. 55)	3000783
 3000784	饑死	\N	jī sǐ	to starve to death	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '饑死', p. 55)	3000784
+3000785	饑溺	\N	jī nì	starvation and drowning / the suffering of the people	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '饑溺', p. 55)	3000785
+3000786	北斗七星护摩法	北斗七星護摩法	běi dòu qī xīng hù mó fǎ 	Bei Dou Qi Xing Hu Mo Fa	proper noun	经	Sutra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 1310)	3000786
