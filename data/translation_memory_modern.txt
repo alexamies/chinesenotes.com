@@ -340,3 +340,6 @@
 5000340	寄宿舍	\N	jìsùshě	school dormitory	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '寄宿生'; Mathews 1931 '寄宿舍', p. 55)	5000340
 5000341	学校宿舍	學校宿舍	xuéxiào sùshè	school dormitory	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '寄宿生')	5000341
 5000342	暂时寓居	暫時寓居	zànshí yùjū	to stay temporarily	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '寄居')	5000342
+5000343	私通外国	私通外國	sītōng wàiguó	collusion with a foreign state	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '私通')	5000343
+5000344	寄来	寄來	jì lái	to receive in the mail	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '寄來', p. 55)	5000344
+5000345	收信	\N	shōu xìn	to receive a letter	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '寄信')	5000345
