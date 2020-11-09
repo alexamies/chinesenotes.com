@@ -422,6 +422,7 @@ gcloud run deploy --platform=managed $SERVICE \
 --image $IMAGE \
 --region=$REGION \
 --memory "$MEMORY" \
+--allow-unauthenticated \
 --add-cloudsql-instances $INSTANCE_CONNECTION_NAME \
 --set-env-vars INSTANCE_CONNECTION_NAME="$INSTANCE_CONNECTION_NAME" \
 --set-env-vars DBUSER="$DBUSER" \

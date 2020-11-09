@@ -335,3 +335,8 @@
 5000335	饥饿寒冷	飢餓寒冷	jī'è hánlěng	hunger and cold	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '飢寒')	5000335
 5000336	衣食不足	\N	yīshí bùzú	insufficient food and clothing	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '飢寒')	5000336
 5000337	饥死	飢死	jī sǐ	to starve to death	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '飢死', p. 55)	5000337
+5000338	肚子饿	肚子餓	dùzi è	to be hungry	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '肚飢')	5000338
+5000339	曲刀	\N	qǔ dāo	curved knife	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '剞劂')	5000339
+5000340	寄宿舍	\N	jìsùshě	school dormitory	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '寄宿生'; Mathews 1931 '寄宿舍', p. 55)	5000340
+5000341	学校宿舍	學校宿舍	xuéxiào sùshè	school dormitory	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '寄宿生')	5000341
+5000342	暂时寓居	暫時寓居	zànshí yùjū	to stay temporarily	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '寄居')	5000342
