@@ -784,3 +784,4 @@
 3000784	饑死	\N	jī sǐ	to starve to death	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '饑死', p. 55)	3000784
 3000785	饑溺	\N	jī nì	starvation and drowning / the suffering of the people	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '饑溺', p. 55)	3000785
 3000786	恐乱	恐亂	kǒng luàn	to fear a rebellion	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 72)	3000786
+3000787	阴谋作乱	陰謀作亂	yīnmóu zuòluàn	to plot a revolt	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 74)	3000787
