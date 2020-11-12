@@ -2252,3 +2252,35 @@
 7002352	幻师颰陀神呪经	幻師颰陀神呪經	huàn shī bá tuó shén zhòu jīng 	Huan Shi Ba Tuo Shen Zhou Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 1378b)	7002352
 7002353	佛说大爱陀罗尼经	佛說大愛陀羅尼經	Fó shuō dà ài tuóluóní jīng 	Fo Shuo Da Ai Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 大愛陀羅尼經 (T 1379)	7002353
 7002354	大爱陀罗尼经	大愛陀羅尼經	dà ài tuóluóní jīng	Da Ai Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1233; T 1379)	7002354
+7002355	佛说善乐长者经	佛說善樂長者經	Fó shuō shàn lè zhǎngzhě jīng 	Fo Shuo Shan Le Zhangzhe Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 善樂長者經 (T 1380)	7002355
+7002356	伊赊那论师	伊賒那論師	yīshēnà lùnshī	Isana / Īśāna	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: Īśāna; a name for Siva-Rudra, one of the Rudras (DDB '伊賒那天'; FGDB '伊賒那論師'; SH '伊舍那', p. 201)	7002356
+7002357	伊赊那论师	伊賒那論師	yīshēnà lùnshī	Isana / Īśāna	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 伊賒那論師 (FGDB '伊賒那論師')	7002357
+7002358	伊赊那天	伊賒那天	yīshēnàtiān	Īśāna	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 伊賒那論師 (DDB '伊賒那天')	7002358
+7002359	伊舍那	\N	yīshěnà	Īśāna	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 伊賒那論師 (SH '伊舍那', p. 201)	7002359
+7002360	伊舍那天	\N	yīshěnàtiān	Īśāna	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 伊賒那論師 (SH '伊舍那', p. 201)	7002360
+7002361	伊邪那	\N	yīxiénà	Īśāna	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 伊賒那論師 (SH '伊舍那', p. 201)	7002361
+7002362	善乐长者经	善樂長者經	shàn lè zhǎngzhě jīng	Shan Le Zhangzhe Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1246; T 1380)	7002362
+7002363	佛说大吉祥陀罗尼经	佛說大吉祥陀羅尼經	Fó shuō dà jíxiáng tuóluóní jīng 	Fo Shuo Da Jixiang Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 大吉祥陀羅尼經 (T 1381)	7002363
+7002364	大吉祥陀罗尼经	大吉祥陀羅尼經	dà jíxiáng tuóluóní jīng	Da Jixiang Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1238a; T 1381)	7002364
+7002365	佛说宿命智陀罗尼	佛說宿命智陀羅尼	Fó shuō sùmìng zhì tuóluóní 	Fo Shuo Suming Zhi Tuoluoni	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 宿命智陀羅尼 (T 1382)	7002365
+7002366	净觉	淨覺	jìngjué	Jingjue	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	683-750; Tang dynasty monastic (FGDB '淨覺'; Red Pine 2012, loc. 5667)	101681
+7002367	法成	\N	fǎchéng	Chos-grub	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Fl. 865; Tibetan monastic (BSAD '法成', A000696; FGDB '法成'; Red Pine 2012, loc. 5667 Wikipedia '管·法成')	7002367
+7002368	说药师琉璃光如来本愿功德	說藥師琉璃光如來本願功德	Shuō Yàoshī Liúlí Guāng Rúlái Běn Yuàn Gōngdé	Sutra of the Merit of the Medicine Buddha / Sutra on the Master of Healing / Sutra of the Merit of the Medicine Buddha of Pure Crystal Radiance	proper noun	佛经	Buddhist Scripture	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: bhaiṣajyaguruvaidūryaprabharājasūtram (T 450)	7002368
+7002369	说十二神将饶益有情结愿神咒	說十二神將饒益有情結願神咒	Shuō Shí èr Shén Jiāng Ráoyì Yǒuqíng Jié Yuàn Shén Zhòu	Sutra of the Medicine Buddha / Sutra on the Master of Healing / Sutra of the Twelve Vows to Benefit All Sentient Beings	proper noun	佛经	Buddhist Scripture	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: bhaiṣajyaguruvaidūryaprabharājasūtram (T 1770)	7002369
+7002370	宿命智陀罗尼	宿命智陀羅尼	sùmìng zhì tuóluóní	Suming Zhi Tuoluoni	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1230c; T 1382)	7002370
+7002371	佛说宿命智陀罗尼经	佛說宿命智陀羅尼經	Fó shuō sùmìng zhì tuóluóní jīng 	Fo Shuo Suming Zhi Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 宿命智陀羅尼經 (T 1383)	7002371
+7002372	宿命智陀罗尼经	宿命智陀羅尼經	sùmìng zhì tuóluóní jīng	Suming Zhi Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1224f; T 1383)	7002372
+7002373	佛说钵兰那赊嚩哩大陀罗尼经	佛說鉢蘭那賒嚩哩大陀羅尼經	Fó shuō bō Lán nà shē fú lǐ dà tuóluóní jīng 	Parṇaśāvarīdhāraṇīsūtra / Fo Shuo Bo Lan Na She Fu Li Da Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 鉢蘭那賒嚩哩大陀羅尼經 (T 1384)	7002373
+7002374	钵兰那赊嚩哩大陀罗尼经	鉢蘭那賒嚩哩大陀羅尼經	bō Lán nà shē fú lǐ dà tuóluóní jīng	Parṇaśāvarīdhāraṇīsūtra / Bo Lan Na She Fu Li Da Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	Sanskrit equivalent: Parṇaśāvarīdhāraṇīsūtra; the name of a text in the Chinese Buddhist canon (KDC 1224e; T 1384)	7002374
+7002375	佛说俱枳罗陀罗尼经	佛說俱枳羅陀羅尼經	Fó shuō jū zhǐ luó tuóluóní jīng 	Fo Shuo Ju Zhi Luo Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 俱枳羅陀羅尼經 (T 1385)	7002375
+7002376	俱枳罗陀罗尼经	俱枳羅陀羅尼經	jū zhǐ luó tuóluóní jīng	Ju Zhi Luo Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1224a; T 1385)	7002376
+7002377	佛说妙色陀罗尼经	佛說妙色陀羅尼經	Fó shuō miào sè tuóluóní jīng 	Surūpadhāraṇīsūtra / Fo Shuo Miao Se Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 妙色陀羅尼經 (T 1386)	7002377
+7002378	妙色陀罗尼经	妙色陀羅尼經	miào sè tuóluóní jīng	Surūpadhāraṇīsūtra / Miao Se Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	Sanskrit equivalent: Surūpadhāraṇīsūtra; the name of a text in the Chinese Buddhist canon (KDC 1224c; T 1386)	7002378
+7002379	佛说栴檀香身陀罗尼经	佛說栴檀香身陀羅尼經	Fó shuō zhāntán xiāng shēn tuóluóní jīng 	Candanāṅganāmadhāraṇī sūtra / Fo Shuo Zhantan Xiang Shen Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 栴檀香身陀羅尼經 (T 1387)	7002379
+7002380	栴檀香身陀罗尼经	栴檀香身陀羅尼經	zhāntán xiāng shēn tuóluóní jīng	Candanāṅganāmadhāraṇī sūtra / Zhantan Xiang Shen Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	Sanskrit equivalent: Candanāṅganāmadhāraṇī sūtra; the name of a text in the Chinese Buddhist canon (KDC 1224d; T 1387)	7002380
+7002381	佛说无畏陀罗尼经	佛說無畏陀羅尼經	Fó shuō wúwèi tuóluóní jīng 	Fo Shuo Wuwei Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 無畏陀羅尼經 (T 1388)	7002381
+7002382	无畏陀罗尼经	無畏陀羅尼經	wúwèi tuóluóní jīng	Wuwei Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1232; T 1388)	7002382
+7002383	佛说无量寿大智陀罗尼	佛說無量壽大智陀羅尼	Fó shuō wúliàng shòu dà zhì tuóluóní 	Fo Shuo Wuliang Shou Da Zhi Tuoluoni	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 無量壽大智陀羅尼 (T 1389)	7002383
+7002384	无量寿大智陀罗尼	無量壽大智陀羅尼	wúliàng shòu dà zhì tuóluóní	Wuliang Shou Da Zhi Tuoluoni	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1230b; T 1389)	7002384
+7002385	佛说洛叉陀罗尼经	佛說洛叉陀羅尼經	Fó shuō Luò chā tuóluóní jīng 	Fo Shuo Luo Cha Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 洛叉陀羅尼經 (T 1390)	7002385
+7002386	洛叉陀罗尼经	洛叉陀羅尼經	Luò chā tuóluóní jīng	Luo Cha Tuoluoni Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1224k; T 1390)	7002386
