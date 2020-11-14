@@ -153,6 +153,7 @@ mkdir $WEB_DIR/zhuangzi
 mkdir $WEB_DIR/zhushujinian
 mkdir $WEB_DIR/zuozhuan
 
+go get -u github.com/alexamies/cnreader
 go run github.com/alexamies/cnreader
 go run github.com/alexamies/cnreader -hwfiles
 go run github.com/alexamies/cnreader -html
