@@ -2338,3 +2338,8 @@
 7002338	佛说一切如来安像三昧仪轨经	佛說一切如來安像三昧儀軌經	Fó shuō yīqiè Rúlái ān xiàng sānmèi Yí Guǐ Jīng 	Fo Shuo Yiqie Rulai An Xiang Sanmei Yi Gui Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 一切如來安像三昧儀軌經 (T 1418)	7002338
 7002339	一切如来安像三昧仪轨经	一切如來安像三昧儀軌經	yīqiè Rúlái ān xiàng sānmèi Yí Guǐ Jīng	Yiqie Rulai An Xiang Sanmei Yi Gui Jing	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1146; T 1418)	7002339
 7002340	佛说造像量度经解	佛說造像量度經解	Fó shuō zàoxiàng liàngdù jīng jiě 	Fo Shuo Zaoxiang Liangdu Jing Jie	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	See 造像量度經解 (T 1419)	7002340
+7002341	造像量度经解	造像量度經解	zàoxiàng liàngdù jīng jiě	Zaoxiang Liangdu Jing Jie	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 1419)	7002341
+7002342	龙树五明论	龍樹五明論	Lóng Shù wǔ míng lùn 	Long Shu Wu Ming Lun	proper noun	经	Sūtra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 1420)	7002342
+7002343	佛大什	\N	fó dà shén 	Buddhajīva	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 佛陀什 (FGDB '佛陀什')	7002343
+7002344	道生	\N	Zhú Dàoshēng	Zhu Daosheng / Daosheng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 竺道生 (FGDB '竺道生')	7002344
+7002345	弥沙塞五分戒本	彌沙塞五分戒本	mí shā sāi wǔ fēn jiè běn 	Mi Sha Sai Wu Fen Jie Ben	proper noun	书名	Book Title	佛教	Buddhism	\N	\N	\N	\N	The name of a text in the Chinese Buddhist canon (T 1422a)	7002345
