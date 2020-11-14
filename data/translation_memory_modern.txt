@@ -344,3 +344,6 @@
 5000344	寄来	寄來	jì lái	to receive in the mail	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '寄來', p. 55)	5000344
 5000345	收信	\N	shōu xìn	to receive a letter	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '寄信')	5000345
 5000346	振动翅膀	振動翅膀	zhèndòng chìbǎng	beat the wings	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Of a bird (Guoyu '奮')	5000346
+5000347	传达心意	傳達心意	chuándá xīnyì	to convey feelings	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '寄意')	5000347
+5000348	寄货	寄貨	jì huò	to deliver goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '寄貨', p. 55)	5000348
+5000349	寄附	\N	jì fù	to deposit goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '寄附', p. 55)	5000349
