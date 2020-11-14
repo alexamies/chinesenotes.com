@@ -11,7 +11,7 @@
   <li>
     Cullen, Christopher 2017,
     <i>Foundations of Celestial Reckoning - Three Ancient Chinese Astronomical
-    Systems<i>,
+    Systems</i>,
     E-Book=, London and New York: Routledge.
     This book contains translations of some  passages relating to 
     astronomy and calendrics.

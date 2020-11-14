@@ -92,7 +92,7 @@
 
       <main class="main-content" id="main-content">
         <div class="mdc-top-app-bar--fixed-adjust">
-      <h2>{{.Title}}</h2>
+      <h2>{{.Data.Title}}</h2>
 
       <h3>Contents</h3>
       <ol>
@@ -170,12 +170,12 @@
             <td><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
             <td>{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
             <td>
-              {{if $hw.WordSenses}}{{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.Pinyin}}</li>{{ end }}</ol>
-              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.Pinyin}}{{ end }} {{ end }}{{end}}
+              {{if $hw.Senses}}{{ if gt (len $hw.Senses) 1}} <ol>{{ range $ws := $hw.Senses }}<li>{{ $ws.Pinyin}}</li>{{ end }}</ol>
+              {{ else }}{{ range $ws := $hw.Senses }} {{$ws.Pinyin}}{{ end }} {{ end }}{{end}}
             </td>
             <td>
-              {{if $hw.WordSenses}}{{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
-              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.English}}{{ end }} {{ end }}{{end}}
+              {{if $hw.Senses}}{{ if gt (len $hw.Senses) 1}} <ol>{{ range $ws := $hw.Senses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
+              {{ else }}{{ range $ws := $hw.Senses }} {{$ws.English}}{{ end }} {{ end }}{{end}}
             </td>
           </tr>
         {{ end }}
@@ -224,8 +224,8 @@
             <td>{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
             <td>{{ index $hw.Pinyin 0}}</td>
             <td>
-              {{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
-              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.English}}{{ end }} {{ end }}
+              {{ if gt (len $hw.Senses) 1}} <ol>{{ range $ws := $hw.Senses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
+              {{ else }}{{ range $ws := $hw.Senses }} {{$ws.English}}{{ end }} {{ end }}
             </td>
           </tr>
         {{ end }}

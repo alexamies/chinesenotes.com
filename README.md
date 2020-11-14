@@ -176,67 +176,12 @@ docker run hello-world
 For database setup see 
 https://github.com/alexamies/chinesenotes-go
 
-
 Compile the library document files and tiles into a tab separated file for
 loading into the database with the Python program
 
 ```shell
 bin/doc_list.sh
 ```
-
-### Go Applications
-[Go Documentation](https://golang.org)
-
-The indexing command tool and new generation of the web application are written
-in Go. 
-
-Install Go
-[Go Install Documentation](https://golang.org/doc/install)
-
-Build Software locally
-
-```
-cd chinesenotes.com
-cd go/src/cnweb
-go build
-```
-
-For Go unit tests set in a local development environment first export environment
-variables
-
-```
-export DBHOST=localhost
-export DBUSER={database user}
-export DBPASSWORD={the password}
-cd go/src/cnweb/identity
-go test
-```
-
-Run locally:
-```
-export DBHOST=localhost
-export DBUSER=app_user
-export DBPASSWORD="***"
-export DATABASE=cse_dict
-./cnweb
-```
-
-In another window  send a HTTP request:
-```
-curl http://localhost:8080/find/?query=hello
-```
-
-### Email configuration (Optional)
-Optional, used for password recovery in translation portal.
-
-Email is sent with [SendGrid](https://sendgrid.com). 
-[SendGrid Go Client Library Documentation](https://github.com/sendgrid/sendgrid-go)
-
-Follow the following steps to get it set up
-echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env
-echo "sendgrid.env" >> .gitignore
-source ./sendgrid.env
-go get github.com/sendgrid/sendgrid-go
 
 ### Text Files for Full Text Search
 Copy the text files to an object store. If you prefer not to use GCS, then you
