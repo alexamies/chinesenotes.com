@@ -194,12 +194,12 @@
         </tr>
         {{ range $hw := .ProperNouns }}
           <tr>
-            <td><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
+            <td><a href="/words/{{$hw.HeadwordId}}.html">{{$hw.Simplified}}</a></td>
             <td>{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
             <td>{{ index $hw.Pinyin 0}}</td>
             <td>
-              {{ if gt (len $hw.WordSenses) 1}} <ol>{{ range $ws := $hw.WordSenses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
-              {{ else }}{{ range $ws := $hw.WordSenses }} {{$ws.English}}{{ end }} {{ end }}
+              {{ if gt (len $hw.Senses) 1}} <ol>{{ range $ws := $hw.Senses }}<li>{{ $ws.English}}</li>{{ end }}</ol>
+              {{ else }}{{ range $ws := $hw.Senses }} {{$ws.English}}{{ end }} {{ end }}
             </td>
           </tr>
         {{ end }}

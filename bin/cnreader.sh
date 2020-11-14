@@ -2,9 +2,7 @@
 ## Generates the HTML pages for the web site
 ## Run this from the top level directory of the chinesenotes.com 
 ## directory tree
-## DEV_HOME should be set to the location of the Go lang software
 ## CNREADER_HOME should be set to the location of the staging system
-export DEV_HOME=`pwd`
 export CNREADER_HOME=`pwd`
 export WEB_DIR=web-staging
 export TEMPLATE_HOME=html/material-templates
@@ -52,7 +50,7 @@ mkdir $WEB_DIR/analysis/shangshu
 mkdir $WEB_DIR/analysis/shiji
 mkdir $WEB_DIR/analysis/shijing
 mkdir $WEB_DIR/analysis/shuowen
-mkdir $WEB_DIR/analysis/shuowen
+mkdir $WEB_DIR/analysis/shuoyuan
 mkdir $WEB_DIR/analysis/shuihuzhuan
 mkdir $WEB_DIR/analysis/sishuzhangju
 mkdir $WEB_DIR/analysis/songshi
@@ -155,12 +153,10 @@ mkdir $WEB_DIR/zhuangzi
 mkdir $WEB_DIR/zhushujinian
 mkdir $WEB_DIR/zuozhuan
 
-cd $DEV_HOME/go/src/cnreader
-./cnreader
-./cnreader -hwfiles
-./cnreader -html
-./cnreader -tmindex
-cd $CNREADER_HOME
+go run github.com/alexamies/cnreader
+go run github.com/alexamies/cnreader -hwfiles
+go run github.com/alexamies/cnreader -html
+go run github.com/alexamies/cnreader -tmindex
 mkdir $WEB_DIR/dist
 cp web-resources/dist/*.css $WEB_DIR/dist/.
 cp web-resources/dist/*.js $WEB_DIR/dist/.

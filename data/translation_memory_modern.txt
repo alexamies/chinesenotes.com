@@ -347,3 +347,5 @@
 5000347	传达心意	傳達心意	chuándá xīnyì	to convey feelings	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '寄意')	5000347
 5000348	寄货	寄貨	jì huò	to deliver goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '寄貨', p. 55)	5000348
 5000349	寄附	\N	jì fù	to deposit goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '寄附', p. 55)	5000349
+5000350	畸田	\N	jī tián	an irregular plot of land	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '畸田', p. 56)	5000350
+5000351	兽角	獸角	shòu jiǎo	animal horn	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '觭')	5000351

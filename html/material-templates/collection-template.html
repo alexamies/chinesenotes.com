@@ -92,8 +92,8 @@
 
       <main class="main-content" id="main-content">
         <div class="mdc-top-app-bar--fixed-adjust">
-      <h2>{{.Title}}</h2>
-      <p>{{.Summary}}</p>
+      <h2>{{.Data.Title}}</h2>
+      <p>{{.Data.Summary}}</p>
       <p>
         <form name="findAdvancedForm" id="findAdvancedForm"
               action="/advanced_search.html#">
@@ -104,7 +104,7 @@
                    size="40" class="mdc-text-field__input">
             <div class="mdc-line-ripple"></div>
             <input type="hidden" name="collection" id="findInCollection"
-                   value="{{.GlossFile}}"/>
+                   value="{{.Data.GlossFile}}"/>
           </div>
           <button class="mdc-button" type="submit" id="findSubmit">
             <span class="mdc-button__label">Find Documents</span>
@@ -113,17 +113,17 @@
       </p>
 
       <ul class="mdc-list">
-        {{ range $element := .CorpusEntries }}
+        {{ range $element := .Data.CorpusEntries }}
         <li class="mdc-list-item">
           <span class="mdc-list-item__text"><a
                 href='/{{$element.GlossFile}}'>{{ $element.Title }}</a></span>
         </li>
         {{ end }}
       </ul>
-      {{.Intro}}
+      {{.Data.Intro}}
 
       <p>
-        <a href="/analysis/{{.AnalysisFile}}">Collection vocabulary analysis</a>
+        <a href="/analysis/{{.Data.AnalysisFile}}">Collection vocabulary analysis</a>
       </p>
 
         </div>

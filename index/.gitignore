@@ -1,3 +1,7 @@
+bigram_freq_doc.txt
+doc_length.tsv
+ngram_frequencies.txt
 tmindex_uni_domain.tsv
 tmindex_unigram.tsv
 word_freq_doc.txt
+unknown.txt
