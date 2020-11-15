@@ -352,3 +352,6 @@
 5000352	觭角	\N	jī jiǎo	not regular	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '觭角', p. 56)	5000352
 5000353	羇客	\N	jī kè	a guest at an lodge	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '羇客', p. 56)	5000353
 5000354	羇愁	\N	jī chóu	worry about travel	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '羇愁', p. 56)	5000354
+5000355	刑事案件	\N	xíngshì ànjiàn	a criminal case	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '羈押')	5000355
+5000356	羁住	羈住	jī zhù	to keep in custody	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '羈住', p. 56)	5000356
+5000357	羁候	羈候	jī hòu	to keep in custody	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '羈候', p. 56)	5000357
