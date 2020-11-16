@@ -788,3 +788,12 @@
 3000788	诸郡县	諸郡縣	zhū jùn xiàn	all commanderies and counties	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 75)	3000788
 3000789	要害处	要害處	yàohài chù	strategic locations	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 75)	3000789
 3000790	亡成功	\N	wáng chénggōng	not successful	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 75)	3000790
+3000791	稽淹	\N	jī yān	to delay	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '稽淹', p. 56)	3000791
+3000792	久稽	\N	jiǔ jī	to delay for a very long time	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '久稽', p. 56)	3000792
+3000793	反脣而相稽	\N	fǎn chún ér xiāng jī	mutual accusations	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(Guoyu '反脣相稽'; Reworded from Mathews 1931 '反脣而相稽', p. 56)	3000793
+3000794	讥臣	譏臣	jī chén	ridicule the ministers	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 75)	3000794
+3000795	精卒	\N	jīng zú	best troops	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 76)	3000795
+3000796	会暮	會暮	huì mù	as evening approached	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 76)	3000796
+3000797	烧城	燒城	shāo chéng	burning the city	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 76)	3000797
+3000798	遣使	\N	qiǎn shǐ	sent a messenger	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 76)	3000798
+3000799	遣人追	\N	qiǎn rén zhuī	sent men in pursuit	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 76)	3000799
