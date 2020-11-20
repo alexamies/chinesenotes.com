@@ -798,3 +798,5 @@
 3000798	遣使	\N	qiǎn shǐ	sent a messenger	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 76)	3000798
 3000799	遣人追	\N	qiǎn rén zhuī	sent men in pursuit	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 76)	3000799
 3000800	废为君长	廢爲君長	fèiwèijūnzhǎng	reduced to tribal chiefs	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 77)	3000800
+3000801	相攻击	相攻擊	xiāng gōngjī	to fight each other	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 78)	3000801
+3000802	浮海	\N	fú hǎi	to go by sea	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 78)	3000802

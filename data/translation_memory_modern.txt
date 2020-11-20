@@ -355,3 +355,5 @@
 5000355	刑事案件	\N	xíngshì ànjiàn	a criminal case	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '羈押')	5000355
 5000356	羁住	羈住	jī zhù	to keep in custody	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '羈住', p. 56)	5000356
 5000357	羁候	羈候	jī hòu	to keep in custody	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '羈候', p. 56)	5000357
+5000358	鸡啼	雞啼	jī tí	cocks crowing	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '雞鳴狗吠')	5000358
+5000359	狗叫	\N	gǒu jiào	a dog barking	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '雞鳴狗吠')	5000359
