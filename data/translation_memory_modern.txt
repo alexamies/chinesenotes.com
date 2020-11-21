@@ -357,3 +357,4 @@
 5000357	羁候	羈候	jī hòu	to keep in custody	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '羈候', p. 56)	5000357
 5000358	鸡啼	雞啼	jī tí	cocks crowing	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '雞鳴狗吠')	5000358
 5000359	狗叫	\N	gǒu jiào	a dog barking	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '雞鳴狗吠')	5000359
+5000360	皱皮	皺皮	zhòu pí	wrinkled skin	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '雞皮鶴髮')	5000360
