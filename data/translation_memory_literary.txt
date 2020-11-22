@@ -800,3 +800,11 @@
 3000800	废为君长	廢爲君長	fèiwèijūnzhǎng	reduced to tribal chiefs	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 77)	3000800
 3000801	相攻击	相攻擊	xiāng gōngjī	to fight each other	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 78)	3000801
 3000802	浮海	\N	fú hǎi	to go by sea	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 78)	3000802
+3000803	发兵距险	發兵距險	fā bīng jù xiǎn	sent troops to defend the passes	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 79)	3000803
+3000804	兵衆强	兵衆強	bīng zhòng qiáng	troops are numerous and strong	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 79)	3000804
+3000805	灭国乃止	滅國乃止	miè guón ǎi zhǐ	only stopping when the state is destroyed	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 79)	3000805
+3000806	鏦杀	鏦殺	cōng shā	stabbed to death	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 79)	3000806
+3000807	使使	\N	shǐ shǐ	sent an envoy	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 79)	3000807
+3000808	奉其头	奉其頭	fèng qí tóu	presented his head	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 79)	3000808
+3000809	民多属	民多屬	mín duō shǔ	the majority of people submitted	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 79)	3000809
+3000810	师得不劳	師得不勞	shī dé bù láo	avoiding toil for the soldiers	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 80)	3000810
