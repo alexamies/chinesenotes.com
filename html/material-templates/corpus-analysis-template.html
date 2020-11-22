@@ -168,7 +168,7 @@
        </tr>
         {{ range $hw := .TopKeywords }}
           <tr>
-            <td><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
+            <td><a href="/words/{{$hw.HeadwordId}}.html">{{$hw.Simplified}}</a></td>
             <td>{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
             <td>
               {{if $hw.Senses}}{{ if gt (len $hw.Senses) 1}} <ol>{{ range $ws := $hw.Senses }}<li>{{ $ws.Pinyin}}</li>{{ end }}</ol>
@@ -221,7 +221,7 @@
         </tr>
         {{ range $hw := .DocumentGlossary.Words }}
           <tr>
-            <td><a href="/words/{{$hw.Id}}.html">{{$hw.Simplified}}</a></td>
+            <td><a href="/words/{{$hw.HeadwordId}}.html">{{$hw.Simplified}}</a></td>
             <td>{{if DerefNe $hw.Traditional "\\N"}}{{$hw.Traditional}}{{end}}</td>
             <td>{{ index $hw.Pinyin 0}}</td>
             <td>

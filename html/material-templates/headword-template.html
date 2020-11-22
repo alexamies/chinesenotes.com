@@ -115,10 +115,10 @@
               <span class='dict-entry-grammar'>{{if ne $ws.Grammar "\\N"}}{{ $ws.Grammar }}{{end}}</span> 
               <span class='dict-entry-definition'>{{if ne $ws.English "\\N"}}{{ $ws.English }}{{end}}</span> <br/>
               Domain: {{ $ws.Domain }} {{ $ws.DomainCN }}
-              {{if ne $ws.Subdomain "\\N"}}
+              {{if $ws.Subdomain }}
                 , Subdomain: {{ $ws.Subdomain}} {{ $ws.SubdomainCN}}
               {{ end }}
-              {{if ne $ws.Concept "\\N"}}
+              {{if $ws.Concept }}
                 , Concept: {{ $ws.Concept}} {{ $ws.ConceptCN}}
               {{ end }}
               <br/>
