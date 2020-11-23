@@ -810,3 +810,7 @@
 3000810	师得不劳	師得不勞	shī dé bù láo	avoiding toil for the soldiers	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 80)	3000810
 3000811	从军亡功	從軍亡功	cóng jūn wáng gōng	joined the army but did not distinguish himself	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 80)	3000811
 3000812	地遂虚	地遂虛	dì suì xū	the land was deserted	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 81)	3000812
+3000813	为远难守	爲遠難守	wèi yuǎn nán shǒu	a distant region difficult to defend	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 82)	3000813
+3000814	侵降	\N	qīn jiàng	invade and subjugate	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 82)	3000814
+3000815	旁小邑	\N	páng xiǎo yì	small adjacent settlements	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 82)	3000815
+3000816	滋多	\N	zī duō	an increasing number	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 83)	3000816
