@@ -818,3 +818,5 @@
 3000818	袭攻	襲攻	xí gōng	to ambush	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 83)	3000818
 3000819	败散	敗散	bài sàn	defeated and scattered	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 83)	3000819
 3000820	多还走	多還走	duō hái zǒu	many fled back	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 83)	3000820
+3000821	见信节	見信節	jiàn xìn jié	I see that I can trust your moral integrity	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 84)	3000821
+3000822	请服	請服	qǐng fú	to be willing to submit to	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (reworded from tr. Wylie 1880, p. 84)	3000822
