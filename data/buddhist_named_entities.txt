@@ -2617,3 +2617,24 @@
 7002617	除盖障菩萨所问经	除蓋障菩薩所問經	Chú Gài Zhàng púsà suǒ wèn jīng 	Ratnameghasūtra / Chu Gai Zhang Pusa Suo Wen Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Ratnameghasūtra; the name of a text in the Chinese Buddhist canon (KDC 1476; T 489)	7002617
 7002618	法护	法護	Fǎ Hù	Dharmarakṣa	proper noun	法师	Monk	佛教	Buddhism	\N	\N	\N	\N	See 竺法護 (FGDB '竺法護')	7002618
 7002619	八大菩萨经	八大菩薩經	Bā Dà Púsà jīng 	Ba Da Pusa Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1212; T 490)	7002619
+7002620	佛说八大菩萨经	佛說八大菩薩經	Fó shuō Bā Dà Púsà jīng 	Fo Shuo Ba Da Pusa Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 八大菩薩經 (T 490)	7002620
+7002621	六菩萨亦当诵持经	六菩薩亦當誦持經	liù púsà yì dāng sòng chí jīng 	Liu Pusa Yi Dang Song Chi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1030; T 491)	7002621
+7002622	阿难问事佛吉凶经	阿難問事佛吉凶經	Ānán wèn shì fó jíxiōng jīng 	Anan Wen Shi Fo Jixiong Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 761; T 492)	7002622
+7002623	佛说阿难问事佛吉凶经	佛說阿難問事佛吉凶經	Fó shuō Ānán wèn shì fó jíxiōng jīng 	Fo Shuo Anan Wen Shi Fo Jixiong Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 阿難問事佛吉凶經 (T 492)	7002623
+7002624	阿难四事经	阿難四事經	Ānán sì shì jīng 	Anan Si Shi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 817; T 493)	7002624
+7002625	佛说阿难四事经	佛說阿難四事經	Fó shuō Ānán sì shì jīng 	Fo Shuo Anan Si Shi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 阿難四事經 (T 493)	7002625
+7002626	阿难七梦经	阿難七夢經	Ānán qī mèng jīng 	Anan Qi Meng Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 836; T 494)	7002626
+7002627	阿难分别经	阿難分別經	Ānán fēnbié jīng 	Anan Fenbie Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 770; T 495)	7002627
+7002628	佛说阿难分别经	佛說阿難分別經	Fó shuō Ānán fēnbié jīng 	Fo Shuo Anan Fenbie Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 阿難分別經 (T 495)	7002628
+7002629	大迦叶本经	大迦葉本經	Dà Jiāyè běn jīng 	Da Jiaye Ben Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 831; T 496)	7002629
+7002630	佛说大迦叶本经	佛說大迦葉本經	Fó shuō Dà Jiāyè běn jīng 	Fo Shuo Da Jiaye Ben Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 831; T 496)	7002630
+7002631	摩诃迦叶度贫母经	摩訶迦葉度貧母經	Móhē Jiāyè dù pín mǔ jīng 	Mohe Jiaye Du Pin Mu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 839; T 497)	7002631
+7002632	佛说摩诃迦叶度贫母经	佛說摩訶迦葉度貧母經	Fó shuō Móhē Jiāyè dù pín mǔ jīng 	Fo Shuo Mohe Jiaye Du Pin Mu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 839; T 497)	7002632
+7002633	初分说经	初分說經	chū fēnshuō jīng 	Chu Fenshuo Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1448; T 498)	7002633
+7002634	佛说初分说经	佛說初分說經	Fó shuō chū fēnshuō jīng 	Fo Shuo Chu Fenshuo Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 初分說經 (T 498)	7002634
+7002635	佛为阿支罗迦叶自化作苦经	佛為阿支羅迦葉自化作苦經	fó wèi a zhī luó jiāyè zì huàzuò kǔ jīng 	Acela Sutra: Naked Kasyapa	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon, parallel to SN 12.17 ”Acela Sutta: To the Clothless Ascetic” in the Pali Canon (T 499; SN 12.17)	7002635
+7002636	罗云忍辱经	羅云忍辱經	luó yún rěnrǔ jīng 	Luo Yun Renru Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 850; T 500)	7002636
+7002637	佛说沙曷比丘功德经	佛說沙曷比丘功德經	Fó shuō shā hé bǐqiū gōngdé jīng 	Fo Shuo Sha He Biqiu Gongde Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 沙曷比丘功德經 (T 501)	7002637
+7002638	沙曷比丘功德经	沙曷比丘功德經	shā hé bǐqiū gōngdé jīng 	Fo Shuo Sha He Biqiu Gongde Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 851; T 501)	7002638
+7002639	佛为年少比丘说正事经	佛為年少比丘說正事經	fó wèi niánshǎo bǐqiū shuō zhèngshì jīng 	Fo Wei Nianshao Biqiu Shuo Zhengshi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 849; T 502)	7002639
+7002640	比丘避女恶名欲自杀经	比丘避女惡名欲自殺經	bǐqiū bì nǚ è míng yù zìshā jīng 	Biqiu Bi Nu E Ming Yu Zisha Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 886; T 503)	7002640
