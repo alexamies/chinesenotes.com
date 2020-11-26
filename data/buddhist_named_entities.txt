@@ -2638,3 +2638,9 @@
 7002638	沙曷比丘功德经	沙曷比丘功德經	shā hé bǐqiū gōngdé jīng 	Fo Shuo Sha He Biqiu Gongde Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 851; T 501)	7002638
 7002639	佛为年少比丘说正事经	佛為年少比丘說正事經	fó wèi niánshǎo bǐqiū shuō zhèngshì jīng 	Fo Wei Nianshao Biqiu Shuo Zhengshi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 849; T 502)	7002639
 7002640	比丘避女恶名欲自杀经	比丘避女惡名欲自殺經	bǐqiū bì nǚ è míng yù zìshā jīng 	Biqiu Bi Nu E Ming Yu Zisha Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 886; T 503)	7002640
+7002641	比丘听施经	比丘聽施經	bǐqiū tīng shī jīng 	Biqiu Ting Shi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 873; T 504)	7002641
+7002642	佛说随勇尊者经	佛說隨勇尊者經	Fó shuō suí yǒng zūnzhě jīng 	Fo Shuo Sui Yong Zunzhe Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 隨勇尊者經 (T 505)	7002642
+7002643	随勇尊者经	隨勇尊者經	suí yǒng zūnzhě jīng 	Fo Shuo Sui Yong Zunzhe Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1472; T 505)	7002643
+7002644	犍陀国王经	犍陀國王經	jiān tuó guówáng jīng 	Jian Tuo Guowang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 826; T 506)	7002644
+7002645	佛说未生冤经	佛說未生冤經	Fó shuō Wèi shēng yuān jīng 	Fo Shuo Wei Sheng Yuan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 未生冤經 (T 507)	7002645
+7002646	未生冤经	未生冤經	Wèi shēng yuān jīng 	Fo Shuo Wei Sheng Yuan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 821; T 507)	7002646

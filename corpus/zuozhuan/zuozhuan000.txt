@@ -1,10 +1,10 @@
 <p>Source: Wikisource, accessed 2018-04-23 <a href="https://zh.wikisource.org/wiki/春秋左氏傳">https://zh.wikisource.org/wiki/春秋左氏傳</a> </p>
 
-<h4>English translations<h4>
+<h4>English translations</h4>
 <ol>
   <li>
     Durrant, Stephen, Li Wai-yee, and David Schaberg, trans. 2016, <i>Zuo 
-    Tradition: Zuozhuan : Commentary on the "Spring and Autumn Annals"</i>, 
+    Tradition: Zuozhuan: Commentary on the “Spring and Autumn Annals”</i>, 
     Seattle: University of Washington Press.
   </li>
   <li>
@@ -23,7 +23,7 @@
   </li>
 </ol>
 
-<h4>Discussion<h4>
+<h4>Discussion</h4>
 <p>
   Schaberg, David 2017, 'Chapter 12: Classics (Jing 經),' in 
   Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
