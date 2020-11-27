@@ -2644,3 +2644,30 @@
 7002644	犍陀国王经	犍陀國王經	jiān tuó guówáng jīng 	Jian Tuo Guowang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 826; T 506)	7002644
 7002645	佛说未生冤经	佛說未生冤經	Fó shuō Wèi shēng yuān jīng 	Fo Shuo Wei Sheng Yuan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 未生冤經 (T 507)	7002645
 7002646	未生冤经	未生冤經	Wèi shēng yuān jīng 	Fo Shuo Wei Sheng Yuan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 821; T 507)	7002646
+7002647	阿阇世王问五逆经	阿闍世王問五逆經	Āshéshì Wáng wèn wǔ nì jīng 	Asheshi Wang Wen Wu Ni Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 791; T 508)	7002647
+7002648	阿阇世王授决经	阿闍世王授決經	Āshéshì Wáng shòu jué jīng 	Asheshi Wang Shou Jue Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 253; T 509)	7002648
+7002649	采花违王上佛授决号妙花经	採花違王上佛授決號妙花經	cǎi huā wéi wáng shàng fó shòu jué hào miào huā jīng 	Cai Hua Wei Wang Shang Fo Shou Jue Hao Miao Hua Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 254; T 510)	7002649
+7002650	佛说蓱沙王五愿经	佛說蓱沙王五願經	Fó shuō píng shā wáng wǔ yuàn jīng 	Fo Shuo Ping Sha Wang Wu Yuan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 蓱沙王五願經 (T 511)	7002650
+7002651	蓱沙王五愿经	蓱沙王五願經	píng shā wáng wǔ yuàn jīng 	Fo Shuo Ping Sha Wang Wu Yuan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 785; T 511)	7002651
+7002652	佛说净饭王般涅槃经	佛說淨飯王般涅槃經	Fó shuō Jìng Fàn Wáng Bān Nièpán jīng 	Fo Shuo Jing Fan Wang Ban Niepan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 淨飯王般涅槃經 (T 512)	7002652
+7002653	净饭王般涅槃经	淨飯王般涅槃經	Jìng Fàn Wáng Bān Nièpán jīng 	Fo Shuo Jing Fan Wang Ban Niepan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 796; T 512)	7002653
+7002654	佛说琉璃王经	佛說琉璃王經	Fó shuō liúlí wáng jīng 	Fo Shuo Liuli Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 琉璃王經 (T 513)	7002654
+7002655	佛说琉璃王经	佛說琉璃王經	Fó shuō liúlí wáng jīng 	Fo Shuo Liuli Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 琉璃王經 (T 513)	7002655
+7002656	琉璃王经	琉璃王經	liúlí wáng jīng 	Fo Shuo Liuli Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 787; T 513)	7002656
+7002657	佛说谏王经	佛說諫王經	Fó shuō jiàn wáng jīng 	Rājāvavādaka / Fo Shuo Jian Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 諫王經 (T 514)	7002657
+7002658	谏王经	諫王經	jiàn wáng jīng 	Rājāvavādaka / Jian Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 260; T 514)	7002658
+7002659	如来示教胜军王经	如來示教勝軍王經	Rúlái shì jiāo shèng jūn wáng jīng 	Rājāvavādaka / Rulai Shi Jiao Sheng Jun Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Rājāvavādaka; the name of a text in the Chinese Buddhist canon (KDC 258; T 515)	7002659
+7002660	佛说胜军王所问经	佛說勝軍王所問經	fó shuō shèng jūn wáng suǒ wèn jīng	Rājāvavādakasūtra / Fo Shuo Sheng Jun Wang Suo Wen Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 勝軍王所問經 (T 516)	7002660
+7002661	胜军王所问经	勝軍王所問經	shèng jūn wáng suǒ wèn jīng	Rājāvavādakasūtra / Fo Shuo Sheng Jun Wang Suo Wen Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Rājāvavādakasūtra; the name of a text in the Chinese Buddhist canon (KDC 1417; T 516)	7002661
+7002662	佛说末罗王经	佛說末羅王經	Fó shuō mò luó wáng jīng 	Fo Shuo Mo Luo Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 末羅王經 (T 517)	7002662
+7002663	末罗王经	末羅王經	mò luó wáng jīng	Luo Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 848; T 517)	7002663
+7002664	佛说旃陀越国王经	佛說旃陀越國王經	Fó shuō zhān tuó yuè guówáng jīng 	Fo Shuo Zhan Tuo Yue Guowang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 旃陀越國王經 (T 518)	7002664
+7002665	旃陀越国王经	旃陀越國王經	zhān tuó yuè guówáng jīng	Zhan Tuo Yue Guowang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 846; T 518)	7002665
+7002666	佛说摩达国王经	佛說摩達國王經	Fó shuō mó dá guówáng jīng 	Fo Shuo Mo Da Guowang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 摩達國王經 (T 519)	7002666
+7002667	摩达国王经	摩達國王經	mó dá guówáng jīng	Mo Da Guowang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 845; T 519)	7002667
+7002668	佛说萨罗国经	佛說薩羅國經	Fó shuō sàluó guó jīng 	Fo Shuo Saluo Guo Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 薩羅國經 (T 520)	7002668
+7002669	萨罗国经	薩羅國經	sàluó guó jīng	Saluo Guo Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 503; T 520)	7002669
+7002670	佛说梵摩难国王经	佛說梵摩難國王經	Fó shuō Fàn mó nán guówáng jīng	Fo Shuo Fan Mo Nan Guowang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 梵摩難國王經 (T 521)	7002670
+7002671	梵摩难国王经	梵摩難國王經	Fàn mó nán guówáng jīng	Fan Mo Nan Guowang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 879; T 521)	7002671
+7002672	普达王经	普達王經	pǔ dá wáng jīng 	Pu Da Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 877; T 522)	7002672
+7002673	佛说五王经	佛說五王經	fó shuō wǔ wáng jīng 	Fo Shuo Wu Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 五王經 (T 523)	7002673

@@ -1,5 +1,10 @@
 <p>Source: Wikisource, accessed 2018-04-23 <a href="https://zh.wikisource.org/wiki/春秋左氏傳">https://zh.wikisource.org/wiki/春秋左氏傳</a> </p>
 
+<p>
+The Commentary of 左丘明 Zuo Qiuming of the 春秋 Spring and Autumn Annals,
+covering the period 722-479 BCE.
+</p>
+
 <h4>English translations</h4>
 <ol>
   <li>
