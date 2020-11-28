@@ -2671,3 +2671,49 @@
 7002671	梵摩难国王经	梵摩難國王經	Fàn mó nán guówáng jīng	Fan Mo Nan Guowang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 879; T 521)	7002671
 7002672	普达王经	普達王經	pǔ dá wáng jīng 	Pu Da Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 877; T 522)	7002672
 7002673	佛说五王经	佛說五王經	fó shuō wǔ wáng jīng 	Fo Shuo Wu Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 五王經 (T 523)	7002673
+7002674	五王经	五王經	wǔ wáng jīng	Wu Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 863; T 523)	7002674
+7002675	佛为优填王说王法政论经	佛為優填王說王法政論經	fó wèi Yōutián wáng shuō wángfǎ zhèng lùn jīng 	Fo Wei Youtian Wang Shuo Wangfa Zheng Lun Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1357; T 524)	7002675
+7002676	佛说长者子懊恼三处经	佛說長者子懊惱三處經	Fó shuō zhǎngzhě zǐ ào nǎo sān chù jīng 	Fo Shuo Zhangzhe Zi Ao Nao San Chu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 長者子懊惱三處經 (T 525)	7002676
+7002677	长者子懊恼三处经	長者子懊惱三處經	zhǎngzhě zǐ ào nǎo sān chù jīng	Zhangzhe Zi Ao Nao San Chu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 815; T 525)	7002677
+7002678	佛说长者子制经	佛說長者子制經	Fó shuō zhǎngzhě zǐ zhì jīng 	Fo Shuo Zhangzhe Zi Zhi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 長者子制經 (T 526)	7002678
+7002679	长者子制经	長者子制經	zhǎngzhě zǐ zhì jīng	Zhangzhe Zi Zhi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 226; T 526)	7002679
+7002680	佛说逝童子经	佛說逝童子經	Fó shuō shì tóngzǐ jīng 	Fo Shuo Shi Tongzi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 逝童子經 (T 527)	7002680
+7002681	逝童子经	逝童子經	shì tóngzǐ jīng	Shi Tongzi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 228; T 527)	7002681
+7002682	佛说菩萨逝经	佛說菩薩逝經	Fó shuō púsà shì jīng 	Fo Shuo Pusa Shi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 菩薩逝經 (T 528)	7002682
+7002683	佛说阿鸠留经	佛說阿鳩留經	fó shuō a jiū liú jīng 	Aguru Sutra	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 阿鳩留經 (FGDB '佛說阿鳩留經')	7002683
+7002684	阿鸠留经	阿鳩留經	a jiū liú jīng	Aguru Sutra	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (Eitel 'Aguru Sutra', p .6; KDC 822; T 529)	7002684
+7002685	佛说须摩提长者经	佛說須摩提長者經	Fó shuō Xūmótí zhǎngzhě jīng 	Fo Shuo Xumoti Zhangzhe Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 須摩提長者經 (T 530)	7002685
+7002686	须摩提长者经	須摩提長者經	Xūmótí zhǎngzhě jīng	Xumoti Zhangzhe Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 816; T 530)	7002686
+7002687	佛说长者音悦经	佛說長者音悅經	Fó shuō zhǎngzhě yīn yuè jīng 	Fo Shuo Zhangzhe Yin Yue Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 長者音悅經 (T 531)	7002687
+7002688	长者音悦经	長者音悅經	zhǎngzhě yīn yuè jīng	Zhangzhe Yin Yue Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 776; T 531)	7002688
+7002689	私呵昧经	私呵昧經	sī hē mèi jīng 	Si He Mei Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 358; T 532)	7002689
+7002690	菩萨生地经	菩薩生地經	púsà shēng dì jīng 	Kṣemaṅkāraparipṛcchā / Pusa Sheng Di Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Kṣemaṅkāraparipṛcchā; the name of a text in the Chinese Buddhist canon (KDC 359; T 533)	7002690
+7002691	佛说月光童子经	佛說月光童子經	Fó shuō yuèguāng tóngzǐ jīng 	Candraprabhakumāra / Fo Shuo Yueguang Tongzi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 月光童子經 (T 534)	7002691
+7002692	月光童子经	月光童子經	yuèguāng tóngzǐ jīng	Candraprabhakumāra / Yueguang Tongzi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Candraprabhakumāra; the name of a text in the Chinese Buddhist canon (KDC 219; T 534)	7002692
+7002693	佛说申日经	佛說申日經	Fó shuō shēn rì jīng 	Candraprabhakumāra / Fo Shuo Shen Ri Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 申日經 (T 535)	7002693
+7002694	申日经	申日經	shēn rì jīng	Candraprabhakumāra / Shen Ri Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Candraprabhakumāra; the name of a text in the Chinese Buddhist canon (KDC 234; T 535)	7002694
+7002695	申日儿本经	申日兒本經	shēn rì ér běn jīng 	Candraprabhakumāra / Shen Ri Er Ben Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Candraprabhakumāra; the name of a text in the Chinese Buddhist canon (KDC 220; T 536)	7002695
+7002696	聶承远	聶承遠	niè chéngyuǎn 	Nie Chengyuan	proper noun	人	Person	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	A lay Chinese Buddhist who translated sutras included in the Chinese Buddhist canon in the Western Jin (FGDB '聶承遠'; KDC 794; T 537)	7002696
+7002697	佛说呵雕阿那鋡经	佛說呵雕阿那鋡經	Fó shuō hē diāo a nà hán jīng 	Fo Shuo He Diao A Na Han Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 呵雕阿那鋡經 (T 538)	7002697
+7002698	呵雕阿那鋡经	呵雕阿那鋡經	hē diāo a nà hán jīng	He Diao A Na Han Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 834; T 538)	7002698
+7002699	卢至长者因缘经	盧至長者因緣經	lú zhì zhǎngzhě yīnyuán jīng 	Lu Zhi Zhangzhe Yinyuan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 859; T 539)	7002699
+7002700	佛说树提伽经	佛說樹提伽經	Fó shuō shùtí jiā jīng 	Jyotiṣka / Fo Shuo Shuti Jia Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 樹提伽經 (T 540a, b)	7002700
+7002701	树提伽经	樹提伽經	shùtí jiā jīng	Jyotiṣka / Shuti Jia Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Jyotiṣka; the name of a text in the Chinese Buddhist canon (KDC 0; T 540a, b)	7002701
+7002702	佛说佛大僧大经	佛說佛大僧大經	Fó shuō fó dà sēng Dà Jīng 	Fo Shuo Fo Da Seng Da Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 佛大僧大經 (T 541)	7002702
+7002703	佛大僧大经	佛大僧大經	fó dà sēng Dà Jīng	Fo Da Seng Da Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 843; T 541)	7002703
+7002704	佛说耶只经	佛說耶祇經	Fó shuō yé zhǐ jīng 	Fo Shuo Ye Zhi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 耶祇經 (T 542)	7002704
+7002705	耶只经	耶祇經	yé zhǐ jīng	Ye Zhi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 844; T 542)	7002705
+7002706	佛说巨力长者所问大乘经	佛說巨力長者所問大乘經	Fó shuō jù lì zhǎngzhě suǒ wèn Dàshèng jīng 	Fo Shuo Ju Li Zhangzhe Suo Wen Dasheng Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 巨力長者所問大乘經 (T 543)	7002706
+7002707	巨力长者所问大乘经	巨力長者所問大乘經	jù lì zhǎngzhě suǒ wèn Dàshèng jīng	Ju Li Zhangzhe Suo Wen Dasheng Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 543)	7002707
+7002708	辩意长者子经	辯意長者子經	biàn yì zhǎngzhě zǐ jīng 	Pratibhānamatiparipṛcchā / Bian Yi Zhangzhe Zi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 854; T 544)	7002708
+7002709	佛说德护长者经	佛說德護長者經	Fó shuō dé hù zhǎngzhě jīng 	Śrīguptasūtra / Fo Shuo De Hu Zhangzhe Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 德護長者經 (T 545)	7002709
+7002710	德护长者经	德護長者經	dé hù zhǎngzhě jīng	Śrīguptasūtra / De Hu Zhangzhe Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Śrīguptasūtra; the name of a text in the Chinese Buddhist canon (KDC 221; T 545)	7002710
+7002711	佛说金耀童子经	佛說金耀童子經	Fó shuō jīn yào tóngzǐ jīng 	Fo Shuo Jin Yao Tongzi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 金耀童子經 (T 546)	7002711
+7002712	金耀童子经	金耀童子經	jīn yào tóngzǐ jīng	Jin Yao Tongzi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1103; T 546)	7002712
+7002713	大花严长者问佛那罗延力经	大花嚴長者問佛那羅延力經	dà huā yán zhǎngzhě wèn fó Nàluóyán lì jīng 	Da Hua Yan Zhangzhe Wen Fo Naluoyan Li Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1382; T 547)	7002713
+7002714	佛说金光王童子经	佛說金光王童子經	Fó shuō jīn guāng wáng tóngzǐ jīng 	Fo Shuo Jin Guang Wang Tongzi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 金光王童子經 (T 548)	7002714
+7002715	金光王童子经	金光王童子經	jīn guāng wáng tóngzǐ jīng	Jin Guang Wang Tongzi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1174; T 548)	7002715
+7002716	佛说光明童子因缘经	佛說光明童子因緣經	Fó shuō guāngmíng tóngzǐ yīnyuán jīng 	Jyotiṣkāvadāna / Fo Shuo Guangming Tongzi Yinyuan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 光明童子因緣經 (T 549)	7002716
+7002717	光明童子因缘经	光明童子因緣經	guāngmíng tóngzǐ yīnyuán jīng	Jyotiṣkāvadāna / Guangming Tongzi Yinyuan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Jyotiṣkāvadāna; the name of a text in the Chinese Buddhist canon (KDC 1437; T 549)	7002717
+7002718	金色童子因缘经	金色童子因緣經	jīnsè tóngzǐ yīnyuán jīng 	Suvarṇavarṇāvadāna / Jinse Tongzi Yinyuan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Suvarṇavarṇāvadāna; the name of a text in the Chinese Buddhist canon (KDC 1483; T 550)	7002718
+7002719	佛说摩邓女经	佛說摩鄧女經	Fó shuō mó Dèng nǚ jīng 	Mātangīsūtra / Fo Shuo Mo Deng Nu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 摩鄧女經 (T 551)	7002719

@@ -1,0 +1,91 @@
+<h4>Source</h4>
+<p>
+  鹽鐵論 Discourses on Salt and Iron by 桓寬 Huan Guan at 
+  Wikisource, accessed 2020-11-27, <a
+   href="https://zh.wikisource.org/wiki/鹽鐵論"
+  >https://zh.wikisource.org/wiki/鹽鐵論</a>.
+</p>
+
+<h4>English translation (partial)</h4>
+<ol>
+  <li>
+    Kuan Huan, Translated by Esson McDowell Gale 1931,
+    <i>Discourses on Salt and Iron: A Debate on State Control of Commerce and
+    Industry in Ancient China, Chapters I-XIX</i>, Leyden: Brill, online at 
+    <a href='http://www2.iath.virginia.edu/saxon/servlet/SaxonServlet?source=xwomen/texts/yantie.xml&style=xwomen/xsl/dynaxml.xsl&doc.view=tocc&chunk.id=tpage&toc.depth=1&toc.id=d2.24&doc.lang=bilingual/'
+    >Discourses on Salt and Iron</a>.
+  </li>
+</ol>
+
+<h4>Discussion</h4>
+<ol>
+ <li>
+    Lowe, Michael 1993, Yen t'ieh lun 鹽鐵論,” In  Michael Loewe, (ed.),
+    <i>Early Chinese Texts: A Bibliographical Guide</i>,  Berkeley: Society for
+    the Study of Early China, pp. 477-482.
+  </li>
+ <li>
+    Wagner, Donald B 2001, <i>The State and the Iron Industry in Han China</i>,
+    Copenhagen: Nordic Institute of Asian Studies Publishing.
+  </li>
+</ol>
+
+<h4>Contents</h4>
+Titles from Esson McDowell Gale
+<ol>
+  <li>
+    卷一　本議第一 力耕第二 通有第三 錯幣第四 禁耕第五 復古第六
+    Scroll 1: Chapter I. The Basic Argument,
+    Chapter II. Hold Fast the Plough,
+    Chapter III. Circulation of Goods,
+    Chapter IV. Discordant Currencies,
+    Chapter V. Hindrance to Farming,
+    Chapter VI. Back to Ancient Truths
+  </li>
+  <li>
+    卷二　非鞅第七 晁錯第八 刺權第九 刺複第十 論儒第十一 憂邊第十二
+    Scroll 2: Chapter VII. In Criticism of Shang Yang,
+    Chapter VIII. Chao Cuo,
+    Chapter IX. Taunting the Puissant,
+    Chapter X. Thrust and Parry,
+    Chapter XI. Discoursing of Confucianists,
+    Chapter XII. Concern about Borders
+  </li>
+  <li>
+    卷三　園池第十三 輕重第十四 未通第十五
+    Scroll 3: Chapter XIII. Parks and Ponds,
+    Chapter XIV. The Ratio of Production,
+    Chapter XV. Undeveloped Wealth
+  </li>
+  <li>
+    卷四　地廣第十六 貧富第十七 毀學第十八 褒賢第十九
+    Scroll 4:   Chapter XVI. Territorial Expansion,
+    Chapter XVII. The Poor and the Rich,
+    Chapter XVIII. Vilifying the Learned,
+    Chapter XIX. Extolling the Worthy
+  </li>
+  <li>
+    卷五　相刺第二十 殊路第二十一 訟賢第二十二 遵道第二十三 論誹第二十四 孝養第二十五 刺議第二十六 利議第二十七 國疾第二十八
+    Scroll 5
+  </li>
+  <li>
+    卷六　散不足第二十九 救匱第三十 箴石第三十一 除狹第三十二 疾貪第三十三 後刑第三十四 授時第三十五 水旱第三十六
+    Scroll 6
+  </li>
+  <li>
+    卷七　崇禮第三十七 備胡第三十八 執務第三十九 能言第四十 取下第四十一 擊之第四十二
+    Scroll 7
+  </li>
+  <li>
+    卷八　結和第四十三 誅秦第四十四 伐功第四十五 西域第四十六 世務第四十七 和親第四十八
+    Scroll 8
+  </li>
+  <li>
+    卷九　繇役第四十九 險固第五十 論勇第五十一 論功第五十二 論鄒第五十三 論菑第五十四
+    Scroll 9
+  </li>
+  <li>
+    卷十　刑德第五十五 申韓第五十六 周秦第五十七 詔聖第五十八 大論第五十九 雜論第六十
+    Scroll 10
+  </li>
+</ol>
