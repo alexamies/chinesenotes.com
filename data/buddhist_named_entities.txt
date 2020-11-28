@@ -2752,3 +2752,15 @@
 7002752	佛说心明经	佛說心明經	Fó shuō xīn míng jīng 	Fo Shuo Xin Ming Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 心明經 (T 569)	7002752
 7002753	心明经	心明經	xīn míng jīng	Xin Ming Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 461; T 569)	7002753
 7002754	佛说贤首经	佛說賢首經	Fó shuō xián shǒu jīng 	Fo Shuo Xian Shou Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 賢首經 (T 570)	7002754
+7002755	贤首经	賢首經	xián shǒu jīng	Xian Shou Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 469; T 570)	7002755
+7002756	佛说妇人遇辜经	佛說婦人遇辜經	Fó shuō fùrén yù gū jīng 	Fo Shuo Furen Yu Gu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 婦人遇辜經 (T 571)	7002756
+7002757	妇人遇辜经	婦人遇辜經	fùrén yù gū jīng	Furen Yu Gu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 837; T 571)	7002757
+7002758	佛说长者法志妻经	佛說長者法志妻經	Fó shuō zhǎngzhě fǎ zhì qī jīng 	Fo Shuo Zhangzhe Fa Zhi Qi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 長者法志妻經 (T 572)	7002758
+7002759	长者法志妻经	長者法志妻經	zhǎngzhě fǎ zhì qī jīng	Zhangzhe Fa Zhi Qi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 511; T 572)	7002759
+7002760	佛说坚固女经	佛說堅固女經	Fó shuō jiāngù nǚ jīng 	Fo Shuo Jiangu Nu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 堅固女經 (T 574)	7002760
+7002761	坚固女经	堅固女經	jiāngù nǚ jīng	Jiangu Nu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 487; T 574)	7002761
+7002762	佛说大方等修多罗王经	佛說大方等修多羅王經	Fó shuō dàfāng guǎngděng xiūduōluó wáng jīng 	Bhavasaṅkrāntisūtra / Fo Shuo Dafang Guangdeng Xiuduoluo Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 大方等修多羅王經 (T 575)	7002762
+7002763	大方等修多罗王经	大方等修多羅王經	dàfāng guǎngděng xiūduōluó wáng jīng	Bhavasaṅkrāntisūtra / Dafang Guangdeng Xiuduoluo Wang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Bhavasaṅkrāntisūtra; the name of a text in the Chinese Buddhist canon (KDC 264; T 575)	7002763
+7002764	差摩婆帝授记经	差摩婆帝授記經	chà mó pó dì shòu jì jīng 	Kṣemavatīvyākaraṇa / Cha Mo Po Di Shou Ji Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Kṣemavatīvyākaraṇa; the name of a text in the Chinese Buddhist canon (KDC 492; T 573)	7002764
+7002765	佛说转有经	佛說轉有經	Fó shuō zhuǎn yǒu jīng 	Bhavasaṅkrāntisūtra / Fo Shuo Zhuan You Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 轉有經 (T 576)	7002765
+7002766	转有经	轉有經	zhuǎn yǒu jīng	Bhavasaṅkrāntisūtra / Zhuan You Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Bhavasaṅkrāntisūtra; the name of a text in the Chinese Buddhist canon (KDC 266; T 576)	7002766
