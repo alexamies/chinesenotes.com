@@ -8,6 +8,7 @@ HTML pages in looking up Chinese Words. There are two environment file used:
   JS_FILE_NAME - file name of the JavaScript file to write to
 """
 import codecs
+import json
 import os
 import sys
 
@@ -39,6 +40,13 @@ def OpenDictionary(filenames):
           words.append(entry)
   print("OpenDictionary completed with {} entries".format(len(words)))
   return words
+
+
+def ValidateJS(jsfile):
+  """Validate the JSON file created"""
+  with codecs.open(jsfile, 'r', "utf-8") as f:
+    json.load(f)
+  print("Done validating JSON file")
 
 
 def WriteJS(words, jsfile):
@@ -80,16 +88,17 @@ def main():
     filenames = sys.argv[1]
   elif os.environ.get("DICT_FILE_NAMES") is not None:
     filenames = os.environ["DICT_FILE_NAMES"]
-  print("Reading from ", filenames);
+  print("Reading from ", filenames)
   words = OpenDictionary(filenames)
   jsfile = JSON_FILE_NAME
   if len(sys.argv[0]) > 2:
     jsfile = sys.argv[2]
   elif os.environ.get("JSON_FILE_NAME") is not None:
     jsfile = os.environ["JSON_FILE_NAME"]
-  print("Writing to ", jsfile);
+  print("Writing to ", jsfile)
   WriteJS(words, jsfile)
-  print("Done");
+  print("Done writing JSON file")
+  ValidateJS(jsfile)
 
 
 if __name__ == "__main__":

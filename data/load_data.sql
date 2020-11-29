@@ -1,6 +1,8 @@
 /*USE cse_dict;*/
 use cse_dict;
 
+delete from words;
+
 LOAD DATA LOCAL INFILE 'data/grammar.txt' INTO TABLE grammar CHARACTER SET utf8mb4 LINES TERMINATED BY '\n';
 LOAD DATA LOCAL INFILE 'data/topics.txt' INTO TABLE topics CHARACTER SET utf8mb4 LINES TERMINATED BY '\n';
 LOAD DATA LOCAL INFILE 'data/words.txt' INTO TABLE words CHARACTER SET utf8mb4 LINES TERMINATED BY '\n' IGNORE 1 LINES;
