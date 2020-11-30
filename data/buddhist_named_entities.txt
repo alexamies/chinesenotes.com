@@ -2804,3 +2804,18 @@
 7002804	阴持入经	陰持入經	yīn chí rù jīng 	Yin Chi Ru Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 807; T 603)	7002804
 7002805	佛说禅行三十七品经	佛說禪行三十七品經	Fó shuō Chán xíng sān shí qī pǐn jīng 	Fo Shuo Chan Xing San Shi Qi Pin Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 禪行三十七品經 (T 604)	7002805
 7002806	禅行三十七品经	禪行三十七品經	Chán xíng sān shí qī pǐn jīng	Chan Xing San Shi Qi Pin Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 887; T 604)	7002806
+7002807	禅行法想经	禪行法想經	Chán xíng fǎ xiǎng jīng 	Chan Xing Fa Xiang Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 814; T 605)	7002807
+7002808	修行道地经	修行道地經	xiūxíng dào dì jīng 	Yogacārabhūmi / Xiuxing Dao Di Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Yogacārabhūmi; the name of a text in the Chinese Buddhist canon (KDC 984; T 606)	7002808
+7002809	道地经	道地經	dào dì jīng 	Dao Di Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 986; T 607)	7002809
+7002810	小道地经	小道地經	xiǎo dào dì jīng 	Xiao Dao Di Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1028; T 608)	7002810
+7002811	禅要经	禪要經	Chán yào jīng 	Chan Yao Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1012; T 609)	7002811
+7002812	佛说内身观章句经	佛說內身觀章句經	Fó shuō nèi shēn guān zhāng jù jīng 	Fo Shuo Nei Shen Guan Zhang Ju Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 內身觀章句經 (T 610)	7002812
+7002813	内身观章句经	內身觀章句經	nèi shēn guān zhāng jù jīng	Nei Shen Guan Zhang Ju Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1011; T 610)	7002813
+7002814	法观经	法觀經	fǎ guān jīng 	Fa Guan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1008; T 611)	7002814
+7002815	身观经	身觀經	shēn guān jīng 	Shen Guan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 874; T 612)	7002815
+7002816	禅秘要法经	禪祕要法經	Chán mì yào fǎ jīng 	Chan Mi Yao Fa Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 798; T 613)	7002816
+7002817	坐禅三昧经	坐禪三昧經	zuòchán sānmèi jīng 	Zuochan Sanmei Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 991; T 614)	7002817
+7002818	菩萨诃色欲法经	菩薩訶色欲法經	púsà hē sè yù fǎ jīng 	Pusa He Se Yu Fa Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 996; T 615)	7002818
+7002819	阿毘达磨法蕴足论	阿毘達磨法蘊足論	Āpídámó Fǎ Yùn Zú Lùn 	Abhidharma dharma skandha pāda śāstra	proper noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Abhidharmadharmaskandhapādaśāstra; the name of a text in the Chinese Buddhist canon attributed to 大目乾連 Maudgalyāyana (Eitel 'Abhidharma dharma skandha pāda śāstra' p. 2; FGDB '阿毘達磨法蘊足論'; KDC 945; T 1537)	7002819
+7002820	提婆设摩	提婆設摩	Tí Pó shè mó 	Devakṣema	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Buddhist monastic mentioned in the Chinese Buddhist canon as composing 《佛地經論》 Buddhabhūmisūtraśāstra (FGDB '提婆設摩'; KDC 947; T 1539)	7002820
+7002821	天寂	\N	tiān jì 	Devakṣema	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 提婆設摩 (FGDB '提婆設摩')	7002821

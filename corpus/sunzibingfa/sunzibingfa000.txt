@@ -18,6 +18,12 @@ The parallel English text provided is from Giles (1910).
 <h4>Discussion</h4>
 <ol>
   <li>
+    Gentz, Joachim 2015, “Defining Boundaries and Relations of Textual Units:
+    Examples from the Literary Tool-Kit of Early Chinese Argumentation,” 
+    In Joachim Gentz and Dirk Meyer Eds, 
+    <i>Literary Forms of Argument in Early China</i>, Leiden and Boston: Brill.
+  </li>
+  <li>
     Krzysztof, G and Michael Lowe 1993, “Sun tzu ping fa 孫子兵法,” In
     Michael Loewe, (ed.), Early Chinese Texts: A Bibliographical Guide,
     Berkeley: Society for the Study of Early China, pp. 446-455.

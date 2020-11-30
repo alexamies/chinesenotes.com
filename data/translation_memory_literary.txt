@@ -863,3 +863,4 @@
 3000863	哀元元	\N	āi yuányuán	took pity on the people	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Chapter 1 of 鹽鐵論 “Discourses on Salt and Iron,” compiled by 桓寬 Huan Guan, 1st century (reworded from Kuan Huan and Gale tr. 1931)	3000863
 3000864	损武略	損武略	sǔn wǔlüè	impair military strategy	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Chapter 1 of 鹽鐵論 “Discourses on Salt and Iron,” compiled by 桓寬 Huan Guan, 1st century (reworded from Kuan Huan and Gale tr. 1931)	3000864
 3000865	己独	己獨	jǐ dú	only him	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '己獨', p. 57)	3000865
+3000866	己亲	己親	jǐ qīn	one's relatives	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '己親', p. 57)	3000866
