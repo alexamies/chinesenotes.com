@@ -50,7 +50,7 @@
   <li>
     Swan, Nancy Lee 1950, <i>Food and Money in Ancient China: the Earliest
     Economic History of China to AD 25</i>, Han Shu 24 with related texts 91
-    and Shi Ji 129, Princeton NJ: Princeton University Press, pp. 109-359.
+    and Shiji 129, Princeton NJ: Princeton University Press, pp. 109-359.
   </li>
   <li>
     Watson, Burton, trans. 1974,
@@ -76,14 +76,23 @@
     Cambridge: Cambridge University Press.
   </li>
   <li>
-    Lin, C., Peach, T. and Fang, W. eds. 2019, <i>The Political Economy of the
-    Han Dynasty and Its Legacy</i>. Routledge.
+    Clark, Anthony E 2008, <i>Ban Gu's History of Early China</i>,
+    Amherst, New York: Cambria Press.
+  </li>
+  <li>
+    de Crespigny, Rafe 1967, <i>Official Titles of the Former Han Dynasty</i>,
+    Oriental Monograph Series No. 2,
+    Canberra: Australian National University Press.
   </li>
   <li>
     Durrant, Stephen 2017, 'Chapter 13: Histories (Shi 史),' in 
     Denecke, Wiebke, Wai-Yee Li, and Xiaofei Tian (eds), <i>The Oxford
     Handbook of Classical Chinese Literature (1000 BCE-900CE)</i>, 
     e-book, New York: Oxford University Press, pp. 193-194.
+  </li>
+  <li>
+    Lin, C., Peach, T. and Fang, W. eds. 2019, <i>The Political Economy of the
+    Han Dynasty and Its Legacy</i>. Routledge.
   </li>
   <li>
     Hulsewé, A.F.P. 1961, “Notes on the Historiography of the Han Period,”
@@ -94,6 +103,10 @@
     Hulsewe, A F P 1993, “Han Shu 漢書,” In
     Michael Loewe, (ed.) <i>Early Chinese Texts: A Bibliographical Guide</i>, 
     Berkeley: Society for the Study of Early China, pp. 129-136.
+  </li>
+  <li>
+    Lowe, Michael 2000, <i>A Biographical Dictionary of the Qin, Former Han and
+    Xin Periods, 221 BC - AD 24</i>, Leiden: Brill.
   </li>
   <li>
     Wang Xianqian 1900, 漢書補注 <i>Hanshu Buzhu</i> ‘Book of Han Supplementary
