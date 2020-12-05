@@ -1,0 +1,100 @@
+<h4>Source</h4>
+<p>
+  春秋繁露 Luxuriant Dew of the Spring and Autumn Annals, also known as
+  Chunqiu Fanlu, attributed to Han scholar 董仲舒 Dong Zhongshu at 
+  Wikisource, accessed 2020-12-05, <a
+   href="https://zh.wikisource.org/wiki/春秋繁露"
+  >https://zh.wikisource.org/wiki/春秋繁露</a>.
+</p>
+
+<h4>English translation (partial)</h4>
+<ol>
+  <li>
+    Chan, Wing-Tsit 1963, <i>A Source Book in Chinese Philosophy</i>,
+    Princeton, New Jersey: Princeton University Press.
+    Chapters 35, 42, 56 pp. 271-288.
+  </li>
+  <li>
+    Csikscentmihalyi, Mark tr. 206,
+    <i>Readings in Han Chinese Thought</i>,
+    Indianapolis, Cambridge: Hackett Publishing,
+    pp. 7-8 and pp. 175-179.
+  </li>
+  <li>
+    Csikscentmihalyi, Mark tr. 2014,
+    “Dong Zhongshu Luxuriant Dew of the Spring and Autumn Annals,”
+    In Bryan W. Van Norden editor, <i>Readings in Later Chinese Philosophy
+    Han to the 20th Century</i>,
+    Indianapolis, Cambridge: Hackett Publishing.
+    Chapter 53 at pp. 32-33 and
+    Chapter 42 at pp. 37-39.
+  </li>
+  <li>
+    Queen S 1999, “Dong Zhongshu,”
+    In W M Theodore de Bary and Irene Bloom eds.
+    <i>Sources of Chinese Tradition: Volume One from Earliest Times to 1600</i>,
+    pp. 283-310.
+  </li>
+</ol>
+
+<h4>Discussion</h4>
+<ol>
+  <li>
+    Idema, W L and Haft, L 1997, <i>A Guide to Chinese Literature</i>, 
+    Ann Arbor: Center for Chinese Studies, University of Michigan, p. 88.
+  </li>
+  <li>
+    Davidson, Steve and Michael Lowe 1993, “Ch'un ch'iu fan lu 春秋繁露,”
+    In Michael Loewe, (ed.), <i>Early Chinese Texts: A Bibliographical Guide</i>,
+    Berkeley: Society for the Study of Early China, pp. 77-87.
+  </li>
+</ol>
+
+<h4>Contents</h4>
+<ol>
+  <li>
+    卷一 楚莊王第一 玉杯第二
+    Scroll 1: Chapter 1 King Zhuang of Chu, Chapter 2 A Jade Cup
+  </li>
+  <li>
+    卷二 竹林第三
+    Scroll 2: Chapter 3 Bamboo Forest
+  </li>
+  <li>
+    卷三 玉英第四 精華第五
+    Scroll 3: Chapter 4 Fine Jade, Chapter 5 quintessence
+  </li>
+  <li>
+    卷四 王道第六
+    Scroll 4: Chapter 6 The Way of the King
+  </li>
+  <li>
+    卷五 滅國上第七 滅國下第八 隨本消息第九 盟會要第十 正貫第十一 十指第十二 重政第十三
+    Scroll 5: Chapter 7 Destruction of a State I,
+    Chapter 8 Destruction of a State II, 
+    Chapter 9 Along with the Rise and Fall,
+    Chapter 10 Records of Oaths,
+    Chapter 11
+  </li>
+  <li>
+    
+  </li>
+  <li>
+    
+  </li>
+  <li>
+    
+  </li>
+  <li>
+    
+  </li>
+  <li>
+    
+  </li>
+  <li>
+    
+  </li>
+  <li>
+    
+  </li>
+</ol>
