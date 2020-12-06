@@ -51,30 +51,85 @@
 </ol>
 
 <h4>Contents</h4>
-<ol>
+<ul>
   <li>
-    卷一 楚莊王第一 玉杯第二
-    Scroll 1: Chapter 1 King Zhuang of Chu, Chapter 2 A Jade Cup
+    卷一 Scroll 1:
+    <ul>
+      <li>楚莊王第一 Chapter 1 King Zhuang of Chu</li>
+      <li>玉杯第二 Chapter 2 A Jade Cup</li>
+    </ul>
   </li>
   <li>
-    卷二 竹林第三
-    Scroll 2: Chapter 3 Bamboo Forest
+    卷二 Scroll 2:
+    <ul>
+      <li>竹林第三 Chapter 3 Bamboo Forest</li>
+    </ul>
   </li>
   <li>
-    卷三 玉英第四 精華第五
-    Scroll 3: Chapter 4 Fine Jade, Chapter 5 quintessence
+    卷三 Scroll 3:
+    <ul>
+      <li>玉英第四 Chapter 4 Fine Jade</li>
+      <li>精華第五 Chapter 5 Quintessence</li>
+    </ul>
   </li>
   <li>
-    卷四 王道第六
-    Scroll 4: Chapter 6 The Way of the King
+    卷四 Scroll 4:
+    <ul>
+      <li>王道第六 Chapter 6 The Way of the King</li>
+    </ul>
   </li>
   <li>
-    卷五 滅國上第七 滅國下第八 隨本消息第九 盟會要第十 正貫第十一 十指第十二 重政第十三
-    Scroll 5: Chapter 7 Destruction of a State I,
-    Chapter 8 Destruction of a State II, 
-    Chapter 9 Along with the Rise and Fall,
-    Chapter 10 Records of Oaths,
-    Chapter 11
+    卷五 Scroll 5:
+    <ul>
+      <li>滅國上第七 Chapter 7 Destruction of a State I</li>
+      <li>滅國下第八 Chapter 8 Destruction of a State II</li>
+      <li>隨本消息第九 Chapter 9 Along with the Rise and Fall</li>
+      <li>盟會要第十 Chapter 10 Records of Oaths</li>
+      <li>正貫第十一 Chapter 11 Zheng Guan</li>
+      <li>十指第十二 Chapter 12 Ten Fingers</li>
+      <li>重政第十三 Chapter 13 The Importance of Government</li>
+    </ul>
+  </li>
+  <li>
+    卷六 Scroll 6:
+    <ul>
+      <li>服制像第十四 Chapter 14 Garment Making Drawings</li>
+      <li>二端第十五 Chapter 15 Both Extremes</li>
+      <li>符瑞第十六 Chapter 16 Auspicious Signs</li>
+      <li>俞序第十七 Chapter 17 Agreement about the Order of Things</li>
+      <li>離合根第十八 Chapter 18 Separation and Reunion with the Source</li>
+      <li>立元神第十九 Chapter 19 Establishment of the Primal Spirit</li>
+      <li>保位權第二十 Chapter 20 Preserving a Position of Authority</li>
+    </ul>
+  </li>
+  <li>
+    卷七 Scroll 7:
+    <ul>
+      <li>考功名第二十一 Chapter 21 Considering Achievements</li>
+      <li>通國身第二十二 Chapter 22 The Body of the Whole Land</li>
+      <li>三代改制質文第二十三 Chapter 23 Three Generations of Change</li>
+      <li>官制象天第二十四 Chapter 24 The System of Government is Like the Heavens</li>
+      <li>堯舜不擅移湯武不專殺第二十五 Chapter 25 Yao and Shun did not only Move, Tang and Wu did not only Kill</li>
+      <li>服制第二十六　Chapter 26 Making Clothes</li>
+    </ul>
+  </li>
+  <li>
+    卷八 Scroll 8:
+    <ul>
+    <li>度制第二十七 Chapter 27 Measurement System</li>
+    <li>爵國第二十八 Chapter 28 Nobles and States</li>
+    <li>仁義法第二十九 Chapter 29 Ways of Benevolence and Righteousness</li>
+    <li>必仁且智第三十 Chapter 30 One must be Benevolent and Wise</li>
+    </ul>
+  </li>
+  <li>
+    卷九 Scroll 9
+    <ul>
+      <li>身之養重於義第三十一 Chapter 31 The Importance of Proper Nourishing your Body</li>
+      <li>對膠西王越大夫不得為仁第三十二 Chapter 32 </li>
+      <li>觀德第三十三 Chapter 33 </li>
+      <li>奉本第三十四 Chapter 34 </li>
+    </ul>
   </li>
   <li>
     
@@ -85,16 +140,4 @@
   <li>
     
   </li>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-</ol>
+</ul>
