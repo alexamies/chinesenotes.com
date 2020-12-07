@@ -1,7 +1,7 @@
 <h4>Source</h4>
 <p>
   春秋繁露 Luxuriant Dew of the Spring and Autumn Annals, also known as
-  Chunqiu Fanlu, attributed to Han scholar 董仲舒 Dong Zhongshu at 
+  Chunqiu Fanlu, attributed to Han scholar 董仲舒 Dong Zhongshu 179–104 BCE at 
   Wikisource, accessed 2020-12-05, <a
    href="https://zh.wikisource.org/wiki/春秋繁露"
   >https://zh.wikisource.org/wiki/春秋繁露</a>.
@@ -19,6 +19,7 @@
     <i>Readings in Han Chinese Thought</i>,
     Indianapolis, Cambridge: Hackett Publishing,
     pp. 7-8 and pp. 175-179.
+    Chapters 35 and 42.
   </li>
   <li>
     Csikscentmihalyi, Mark tr. 2014,
@@ -33,7 +34,7 @@
     Queen S 1999, “Dong Zhongshu,”
     In W M Theodore de Bary and Irene Bloom eds.
     <i>Sources of Chinese Tradition: Volume One from Earliest Times to 1600</i>,
-    pp. 283-310.
+    pp. 283-305. Chapters 17, 18, 30, 35, 44, 78
   </li>
 </ol>
 
@@ -53,33 +54,33 @@
 <h4>Contents</h4>
 <ul>
   <li>
-    卷一 Scroll 1:
+    卷一 Scroll 1
     <ul>
       <li>楚莊王第一 Chapter 1 King Zhuang of Chu</li>
       <li>玉杯第二 Chapter 2 A Jade Cup</li>
     </ul>
   </li>
   <li>
-    卷二 Scroll 2:
+    卷二 Scroll 2
     <ul>
       <li>竹林第三 Chapter 3 Bamboo Forest</li>
     </ul>
   </li>
   <li>
-    卷三 Scroll 3:
+    卷三 Scroll 3
     <ul>
       <li>玉英第四 Chapter 4 Fine Jade</li>
       <li>精華第五 Chapter 5 Quintessence</li>
     </ul>
   </li>
   <li>
-    卷四 Scroll 4:
+    卷四 Scroll 4
     <ul>
       <li>王道第六 Chapter 6 The Way of the King</li>
     </ul>
   </li>
   <li>
-    卷五 Scroll 5:
+    卷五 Scroll 5
     <ul>
       <li>滅國上第七 Chapter 7 Destruction of a State I</li>
       <li>滅國下第八 Chapter 8 Destruction of a State II</li>
@@ -91,22 +92,22 @@
     </ul>
   </li>
   <li>
-    卷六 Scroll 6:
+    卷六 Scroll 6
     <ul>
       <li>服制像第十四 Chapter 14 Garment Making Drawings</li>
       <li>二端第十五 Chapter 15 Both Extremes</li>
       <li>符瑞第十六 Chapter 16 Auspicious Signs</li>
-      <li>俞序第十七 Chapter 17 Agreement about the Order of Things</li>
+      <li>俞序第十七 Chapter 17 Agreement on the Order of Things</li>
       <li>離合根第十八 Chapter 18 Separation and Reunion with the Source</li>
       <li>立元神第十九 Chapter 19 Establishment of the Primal Spirit</li>
       <li>保位權第二十 Chapter 20 Preserving a Position of Authority</li>
     </ul>
   </li>
   <li>
-    卷七 Scroll 7:
+    卷七 Scroll 7
     <ul>
       <li>考功名第二十一 Chapter 21 Considering Achievements</li>
-      <li>通國身第二十二 Chapter 22 The Body of the Whole Land</li>
+      <li>通國身第二十二 Chapter 22 Understanding the State as Body</li>
       <li>三代改制質文第二十三 Chapter 23 Three Generations of Change</li>
       <li>官制象天第二十四 Chapter 24 The System of Government is Like the Heavens</li>
       <li>堯舜不擅移湯武不專殺第二十五 Chapter 25 Yao and Shun did not only Move, Tang and Wu did not only Kill</li>
@@ -114,30 +115,109 @@
     </ul>
   </li>
   <li>
-    卷八 Scroll 8:
+    卷八 Scroll 8
     <ul>
     <li>度制第二十七 Chapter 27 Measurement System</li>
     <li>爵國第二十八 Chapter 28 Nobles and States</li>
     <li>仁義法第二十九 Chapter 29 Ways of Benevolence and Righteousness</li>
-    <li>必仁且智第三十 Chapter 30 One must be Benevolent and Wise</li>
+    <li>必仁且智第三十 Chapter 30 Benevolences must Precede and Wisedom</li>
     </ul>
   </li>
   <li>
     卷九 Scroll 9
     <ul>
       <li>身之養重於義第三十一 Chapter 31 The Importance of Proper Nourishing your Body</li>
-      <li>對膠西王越大夫不得為仁第三十二 Chapter 32 </li>
-      <li>觀德第三十三 Chapter 33 </li>
-      <li>奉本第三十四 Chapter 34 </li>
+      <li>對膠西王越大夫不得為仁第三十二 Chapter 32</li>
+      <li>觀德第三十三 Chapter 33 Observing Virtue</li>
+      <li>奉本第三十四 Chapter 34 Offerings</li>
     </ul>
   </li>
   <li>
-    
+    卷十 Scroll 10
+    <ul>
+      <li>深察名號第三十五 Chapter 35 Thorough Examination of Names</li>
+      <li>實性第三十六 Chapter 36 True Nature</li>
+      <li>諸侯第三十七 Chapter 37 The Feudal Lords</li>
+      <li>五行對第三十八 Chapter 38 Regarding the Five Elements</li>
+      <li>第三十九 Chapter 39</li>
+      <li>第四十 Chapter 40</li>
+    </ul>
   </li>
   <li>
-    
+    卷十一 Scroll 11
+    <ul>
+      <li>為人者天第四十一 Chapter 41 Personal Conduct and Heavens</li>
+      <li>五行之義第四十二 Chapter 42 The Meaning of the Five Elements</li>
+      <li>陽尊陰卑第四十三 Chapter 43</li>
+      <li>王道通三第四十四 Chapter 44 The Way of Kings Connects the Three</li>
+      <li>天容第四十五 Chapter 45 The Color of the Sky</li>
+      <li>天辨在人第四十六 Chapter 46</li>
+      <li>陰陽位第四十七 Chapter 47 The Place of Yin and Yang</li>
+    </ul>
   </li>
   <li>
-    
+    卷十二 Scroll 12
+    <ul>
+      <li>陰陽終始第四十八 Chapter 48 Yin and Yang from Start to Finish</li>
+      <li>陰陽義第四十九  Chapter 49 The Meaning of Yin and Yang</li>
+      <li>陰陽出入上下第五十 Chapter 50</li>
+      <li>天道無二第五十一 Chapter 51 There is only One Way of Heaven</li>
+      <li>暖燠常多第五十二  Chapter 52</li>
+      <li>基義第五十三  Chapter 53</li>
+      <li>第五十四 Chapter 54</li>
+    </ul>
+  </li>
+  <li>
+    卷十三 Scroll 13
+    <ul>
+      <li>四時之副第五十五 Chapter 55 The Changing of the Four Seasons</li>
+      <li>人副天數第五十六 Chapter 56 The Correspondence between Man and the Enumerations of Heaven</li>
+      <li>同類相動第五十七 Chapter 57 Like Kinds Attract Each Other</li>
+      <li>五行相生第五十八 Chapter 58 The Five Elements Give Rise to One Another</li>
+      <li>五行相勝第五十九 Chapter 59 The Five Elements Give Rise to and then Overcome Each Other</li>
+      <li>五行順逆第六十 Chapter 60 The Five Elements Act with and Against Each Other</li>
+      <li>治水五行第六十一　Chapter 61 Managing Water with the Five Elements</li>
+    </ul>
+  </li>
+  <li>
+    卷十四 Scroll 14
+    <ul>
+      <li>治亂五行第六十二 Chapter 62 The Order and Chaos of the Five Elements</li>
+      <li>五行變救第六十三 Chapter 63</li>
+      <li>五行五事第六十四 Chapter 64</li>
+      <li>郊語第六十五　Chapter 65</li>
+    </ul>
+  </li>
+  <li>
+    卷十五 Scroll 15
+    <ul>
+      <li>郊義第六十六 Chapter 66</li>
+      <li>郊祭第六十七 Chapter 67 Countryside Ritual</li>
+      <li>四祭第六十八 Chapter 68 The Four Rituals</li>
+      <li>郊祀第六十九 Chapter 69 Annual Rituals</li>
+      <li>順命第七十 Chapter 70 Following the Mandate of Heaven</li>
+      <li>郊事對第七十一　Chapter 71</li>
+    </ul>
+  </li>
+  <li>
+    卷十六 Scroll 16
+    <ul>
+      <li>執贄第七十二 Chapter 72 Courtesy Gifts</li>
+      <li>山川頌第七十三 Chapter 73 An Ode to Mountains and Rivers</li>
+      <li>求雨第七十四 Chapter 74 Praying for Rain</li>
+      <li>止雨第七十五 Chapter 75 Stopping the Rain</li>
+      <li>祭義第七十六 Chapter 76 The Meaning of Rituals</li>
+      <li>循天之道第七十七　Chapter 77 The Way of Following Heaven</li>
+    </ul>
+  </li>
+  <li>
+    卷十七 Scroll 17
+    <ul>
+      <li>天地之行第七十八 Chapter 78 Heaven and Earth's Conduct</li>
+      <li>威德所生第七十九 Chapter 79 All that Powerful, Benevolent rule Gives Rise to</li>
+      <li>如天之為第八十 Chapter 80</li>
+      <li>天地陰陽第八十一 Chapter 81 Heaven and Earth Yin and Yang</li>
+      <li>天道施第八十二　Chapter 82</li>
+    </ul>
   </li>
 </ul>
