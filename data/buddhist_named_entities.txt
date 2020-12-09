@@ -3041,6 +3041,11 @@
 7003041	法性佛	\N	fǎxìng fó	Dharmata Buddha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	(Red Pine 2012, loc. 5667)	7003041
 7003042	铁围山	鐵圍山	Tiě Wéi Shān	Cakravada-parvata / Iron Wall Mountain	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit: Cakravāda-parvata; Pāli: Cakkavāla-pabbata (FGDB '鐵圍山')	7003042
 7003043	铁轮围山	鐵輪圍山	Tiě Lún Wéi Shān	Cakravada-parvata / Iron Wall Mountain	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 鐵圍山 (FGDB '鐵圍山')	7003043
-7003043	轮围山	輪圍山	Lún Wéi Shān	Cakravada-parvata / Iron Wall Mountain	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 鐵圍山 (FGDB '鐵圍山')	7003043
-7003044	金刚山	金剛山	Jīngāng Shān	Cakravada-parvata / Iron Wall Mountain	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit: Cakravāda-parvata; Pāli: Cakkavāla-pabbata (FGDB '金剛山'; Red Pine 2012, loc. 5667)	7003044
-7003045	金刚围山	金剛圍山	 Jīngāng Wéi Shān	Cakravada-parvata / Iron Wall Mountain	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 鐵圍山 (FGDB '鐵圍山')	7003045
+7003044	轮围山	輪圍山	Lún Wéi Shān	Cakravada-parvata / Iron Wall Mountain	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 鐵圍山 (FGDB '鐵圍山')	7003044
+7003045	金刚山	金剛山	Jīngāng Shān	Cakravada-parvata / Iron Wall Mountain	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit: Cakravāda-parvata; Pāli: Cakkavāla-pabbata (FGDB '金剛山'; Red Pine 2012, loc. 5667)	7003045
+7003046	金刚围山	金剛圍山	 Jīngāng Wéi Shān	Cakravada-parvata / Iron Wall Mountain	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 鐵圍山 (FGDB '鐵圍山')	7003046
+7003047	总释陀罗尼义赞	總釋陀羅尼義讚	zǒng shì tuóluóní yì zàn 	Zong Shi Tuoluoni Yi Zan	proper noun	经	Sutra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 902)	7003047
+7003048	不空羂索陀罗尼经	不空羂索陀羅尼經	Bù Kōng juàn suǒ tuóluóní jīng 	Bu Kong Juan Suo Tuoluoni Jing	proper noun	经	Sutra	佛教	Buddhism	密教	Esoteric Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 291; T 1096)	7003048
+7003049	铁围	鐵圍	Tiě Wéi	Cakravada-parvata / Iron Wall Mountain	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 鐵圍山 (FGDB '鐵圍山')	7003049
+7003050	极无间	極無間	Wú Jiān Dìyù	Avici Hell	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 阿鼻地獄 (FGDB '阿鼻地獄')	7003050
+7003051	大阿鼻	\N	Dà Ābí	Great Avici	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 阿鼻地獄 (FGDB '阿鼻地獄')	7003051
