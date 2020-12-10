@@ -3049,3 +3049,23 @@
 7003049	铁围	鐵圍	Tiě Wéi	Cakravada-parvata / Iron Wall Mountain	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 鐵圍山 (FGDB '鐵圍山')	7003049
 7003050	极无间	極無間	Wú Jiān Dìyù	Avici Hell	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 阿鼻地獄 (FGDB '阿鼻地獄')	7003050
 7003051	大阿鼻	\N	Dà Ābí	Great Avici	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 阿鼻地獄 (FGDB '阿鼻地獄')	7003051
+7003052	通度寺	\N	tōngdùsì	Tongdosa	proper noun	寺	Temple	佛教	Buddhism	韩国	South Korea	\N	\N	Hangul: 통도사; Revised Romanization: Tongdosa; a temple in South Gyeongsang Province, South Korea (FGDB '通度寺'; Wikipedia 'Tongdosa')	7003052
+7003053	金刚顶瑜伽理趣般若经	金剛頂瑜伽理趣般若經	Jīngāng Dǐng Yújiā Lǐ Qù Bōrě Jīng	Jingang Ding Yujia Li Qu Jing / Jingang Ding Jing / Vajraśekharasūtra	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Reconstructed Sanskrit: vajraśekharasūtra, translated to Chinese by Vajrabodhi 金剛智 in the Tang (BL 'Vajraśekharasūtra'; T 241) 	7003053
+7003054	直指寺	\N	zhízhǐsì	Jikjisa	proper noun	寺	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Hangul: 지직사; Revised Romanization: Jikjisa; a temple in Gimcheon, North Gyeongsang Province, South Korea (FGDB '直指寺'; Wikipedia 'Jikjisa')	7003054
+7003055	盂兰	盂蘭	yúlán	Ullambana Sutra	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	(FGDB '盂蘭盆經')	7003055
+7003056	泉隐寺	泉隱寺	Quán Yǐn Sì	Cheoneun-sa / Cheoneun-sa Temple	proper noun	寺	Temple	佛教	Buddhism	韩国	South Korea	\N	\N	Hangul: 천은사; Revised Romanization: Cheoneun-sa; temple in South Korea (Baike '智异山国立公园')	7003056
+7003057	金刚亥母	金剛亥母	jīngāng hài mǔ	Vajravarahi / Dakini Vajravarahi / Dorje Pakmo	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	Sanskrit equivalent: vajravārāhī; the consort of the wrathful deity Demchok (Wikipedia '金剛亥母')	7003057
+7003058	七佛灭罪真言	七佛滅罪真言	Qī Fó Miè Zuì Zhēnyán	Bhisajya Sapta Jina Bhasitam Papa Vinas ana Dharani	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Literally, Seven Buddhas Elimination of Sins Dharani (Wikipedia '七佛滅罪真言')	7003058
+7003059	宋高僧传	宋高僧傳	Sòng Gāo Sēng Zhuàn	Song Biographies of Eminent Monks	proper noun	传	Biography	佛教	Buddhism	\N	\N	\N	\N	Biographies of monks in China, compiled during the Song dynasty (BL 'Song Gaoseng Zhuan'; T 2061)	7003059
+7003060	大遍空寺	\N	dà biàn kōng sì	Da Bian Kong Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Historic temple in Luoyang in the Tang dynasty	7003060
+7003061	真言宗	\N	Zhēnyán Zōng	Mantra School	proper noun	宗派	School	佛教	Buddhism	\N	\N	\N	\N	Japanese: Shingon-shū ; a broad term covering the Shingon School of Japanese Buddhism and historic Chinese Esoteric school, closely related or overlapping with the term 密宗 Tantric Schools, which includes Indian and Tibetan Buddhist Schools (FGDB '真言宗'; Sharf 2005, p. 263)	7003061
+7003062	轮转五道罪福报应经	輪轉五道罪福報應經	lúnzhuǎn Wǔ Dào zuì fú bàoyīng jīng	Lunzhuan Wu Dao Zui Fu Baoying Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 747b)	7003062
+7003063	曹溪宗	\N	cáo xī zōng	Jogye Order / Jogye Order of Korean Buddhism	proper noun	\N	\N	佛教	Buddhism	韩国	South Korea	\N	\N	Hangul: 조계종; Revised Romanization: Jogye-jong (Wikipedia '大韩佛教曹溪宗')	7003063
+7003064	佛说护净经	佛說護淨經	fó shuō hù jìng jīng 	Fo Shuo Hu Jing Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 護淨經 (T 748)	7003064
+7003065	护净经	護淨經	hù jìng jīng	Hu Jing Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 864; T 748)	7003065
+7003066	佛说因缘僧护经	佛說因緣僧護經	Fó shuō yīnyuán Sēnghù jīng 	Saṅgharakṣitāvadāna / Fo Shuo Yinyuan Senghu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 因緣僧護經 (T 749)	7003066
+7003067	因缘僧护经	因緣僧護經	yīnyuán Sēnghù jīng	Saṅgharakṣitāvadāna / Yinyuan Senghu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Saṅgharakṣitāvadāna; the name of a text in the Chinese Buddhist canon (KDC 858; T 749)	7003067
+7003068	僧纲	僧綱	sēnggāng	Sōgō / Office of Priestly Affairs	proper noun	\N	\N	佛教	Buddhism	日本	Japan	\N	\N	(FGDB '僧綱'; Wikipedia 'Sōkan')	7003068
+7003069	西明寺	\N	Xī Míng Sì	Xi Ming Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Temple located in Xi'an, well known in the Tang dynasty (Wikipedia '西明寺')	7003069
+7003070	神护寺	神護寺	Shén Hù Sì	Jingo-ji / Jingo-ji Temple	proper noun	寺	Temple	佛教	Buddhism	日本	Japan	\N	\N	Temple located in Kyoto, Japan (Wikipedia '神護寺')	7003070
+7003071	阎罗天子	閻羅天子	Yán Luó Tiānzǐ	Yama / Yamaraja	proper noun	神	Deity	佛教	Buddhism	印度	India	yama400.jpg	\N	Sanskrit equivalent: Yama, the lord of death (FGDB '預修十王生七經')	7003071
