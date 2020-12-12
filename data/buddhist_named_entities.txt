@@ -1295,7 +1295,7 @@
 7001295	经量部	經量部	Jīngliàngbù	Sautrāntika / Sautrantika	proper noun	\N	\N	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: sautrāntika, Japanese: Kyōryōbu; literally, 'followers of the sūtras', the Sautrāntika were an early Indian Buddhist school (BL 'Sautrāntika'; FGDB '經量部')	7001295
 7001296	法盛	\N	fǎshèng	Fasheng	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	A Chinese monk who lived during the Northern dynasties, translated some texts in the Chinese Buddhist canon (FGDB '法盛')	7001296
 7001297	清辩	清辯	Qīng Biàn	Bhāviveka	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	See 清辨 (FGDB '清辨')	7001297
-7001298	马鸣	馬鳴	Mǎ Míng	Aśvaghoṣa / Asvaghosa	proper noun	法师	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: Aśvaghoṣa, c. 80-150 CE an Indian philosopher-poet, known for composition of the 佛所行讚 Buddhacarita (BL 'Aśvaghoṣa'; FGDB '馬鳴'; KDC '980'; T 192).	7001298
+7001298	马鸣	馬鳴	Mǎ Míng	Aśvaghoṣa / Asvaghosa	proper noun	法师	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: Aśvaghoṣa, c. 80-150 CE an Indian philosopher-poet, known for composition of the 佛所行讚 Buddhacarita (BL 'Aśvaghoṣa'; FGDB '馬鳴'; KDC '980'; T 192)	3000926
 7001299	支娄迦谶	支婁迦讖	Zhīlóujiāchèn	Lokakṣema / Lokaksema	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: lokakṣema, c. 147 CE, monk from Gandhara, travelled to China and translated sutras (Wikipedia '支娄迦谶')	7001299
 7001300	提云般若	提雲般若	tíyúnbōrě	Devaprajñā	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	A monastic from Yutian who  translated 《大方廣佛華嚴經不思議佛境界分》'Dafangguang Fo Huayan Jing Bu Siyi Fo Jingjie Fen' (FGDB '提雲般若'; KDC 88; T 300)	7001300
 7001301	提云陀若	提雲陀若	Tíyúntuórě	Devaprajñā	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 提雲般若 (FGDB '提雲般若')	7001301
@@ -1576,7 +1576,7 @@
 7001576	真空	\N	zhēnkōng	Zhen Kong	proper noun	师父	Monastic	佛教	Buddhism	韩国	Korea	\N	\N	855-937; Korean monastic (FGDB '真空')	7001576
 7001577	广照	廣照	guǎng zhào	Guang Zhao	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Northern Song monastic (Ding '廣照'; FGDB '廣照')	7001577
 7001578	道一禅师	道一禪師	dàoyī chánshī	Chan Master Daoyi / Mazu Daoyi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 馬祖道一 (FGDB '馬祖道一')	7001578
-7001579	道一	\N	dàoyī	Daoyi / Mazu Daoyi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 馬祖道一 (FGDB '馬祖道一')	7001579
+7001579	道一	\N	dàoyī	Daoyi / Mazu Daoyi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 馬祖道一 (FGDB '馬祖道一')	3000931
 7001580	善来	善來	shànlái	Svāgata / Sāgata	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: svāgata, Pali: sāgata, Japanese: Zenrai, a direct disciple of the Buddha (BL 'Svāgata'; Ding '善來'; FGDB '善來'; SH '善來')	7001580
 7001581	永明延寿	永明延壽	yǒngmíng yánshòu	Yongming Yanshou	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 延壽 (FGDB '延壽')	7001581
 7001582	阇那耶舍	闍那耶舍	shénàyéshè 	Jñānayaśas / Jnanayasas	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Buddhist monastic who translated sutras included in the Chinese Buddhist canon (FGDB '闍那耶舍'; KDC 151; T 673)	7001582
@@ -3069,3 +3069,30 @@
 7003069	西明寺	\N	Xī Míng Sì	Xi Ming Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Temple located in Xi'an, well known in the Tang dynasty (Wikipedia '西明寺')	7003069
 7003070	神护寺	神護寺	Shén Hù Sì	Jingo-ji / Jingo-ji Temple	proper noun	寺	Temple	佛教	Buddhism	日本	Japan	\N	\N	Temple located in Kyoto, Japan (Wikipedia '神護寺')	7003070
 7003071	阎罗天子	閻羅天子	Yán Luó Tiānzǐ	Yama / Yamaraja	proper noun	神	Deity	佛教	Buddhism	印度	India	yama400.jpg	\N	Sanskrit equivalent: Yama, the lord of death (FGDB '預修十王生七經')	7003071
+7003072	沙弥罗经	沙彌羅經	shāmí luó jīng 	Shami Luo Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 769; T 750)	7003072
+7003073	佛说五无反复经	佛說五無反復經	Fó shuō wǔ wú fǎnfù jīng 	Fo Shuo Wu Wu Fanfu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 五無反復經 (T 751a)	7003073
+7003074	五无反复经	五無反復經	wǔ wú fǎnfù jīng	Wu Wu Fanfu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 751a)	7003074
+7003075	主命鬼王	\N	Zhǔ Mìng Guǐ Wáng	Master of Life Ghost King	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Mentioned in the Kṣitigarbha Sutra (T 412, Scroll 2)	7003075
+7003076	无边身如来	無邊身如來	Wúbiān Shēn Rúlái	Boundless Body Tathāgata	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Mentioned in the Kṣitigarbha Sutra, Chapter 9 (T 412, Scroll 2)	7003076
+7003077	宝性如来	寶性如來	Bǎo Xìng Rúlái	Jewel Nature Tathāgata	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Mentioned in the Kṣitigarbha Sūtra, Chapter 9 (T 412, Scroll 2)	7003077
+7003078	波头摩胜如来	波頭摩勝如來	Bōtóumó Shèng Rúlái	Red Lotus Supreme Tathāgata	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Mentioned in the Kṣitigarbha Sūtra, Chapter 9 (T 412, Scroll 2)	7003078
+7003079	宝胜如来	寶勝如來	Bǎo Shèng Rúlái	Jeweled Victory Tathāgata	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Mentioned in the Kṣitigarbha Sūtra, Chapter 9 (T 412, Scroll 2)	7003079
+7003080	五无间罪	五無間罪	Wǔ Wú Jiān Zuì	Avici Hell / offenses deserving Fivefold Relentless Retribution	phrase	\N	\N	佛教	Buddhism	\N	\N	\N	\N	FGS translation standard: Avici Hell (Tzu Chuang 2012, p. 26)	7003080
+7003081	佛说五无返复经	佛說五無返復經	Fó shuō wǔ wú fǎn fù jīng 	Fo Shuo Wu Wu Fan Fu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 五無返復經 (T 751b)	7003081
+7003082	五无返复经	五無返復經	wǔ wú fǎn fù jīng	Wu Wu Fan Fu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 751b)	7003082
+7003083	佛说五无返复经	佛說五無返復經	fó shuō wǔ wú fǎn fù jīng 	Fo Shuo Wu Wu Fan Fu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 五無返復經 (T 752)	7003083
+7003084	五无返复经	五無返復經	wǔ wú fǎn fù jīng	Wu Wu Fan Fu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 752)	7003084
+7003085	佛说未曾有因缘经	佛說未曾有因緣經	fó shuō wèi céng yǒu yīnyuán jīng 	Adbhutadharmparyāya / Fo Shuo Wei Ceng You Yinyuan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 未曾有因緣經 (T 754)	7003085
+7003086	未曾有因缘经	未曾有因緣經	wèi céng yǒu yīnyuán jīng	Adbhutadharmparyāya / Wei Ceng You Yinyuan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Adbhutadharmparyāya; the name of a text in the Chinese Buddhist canon (KDC 383; T 754)	7003086
+7003087	佛说净意优婆塞所问经	佛說淨意優婆塞所問經	Fó shuō jìng yì yōupósāi suǒ wèn jīng 	Southern Qi	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 淨意優婆塞所問經 (T 755)	7003087
+7003088	十二品生死经	十二品生死經	shí èr pǐn Shēngsǐ jīng 	Shi Er Pin Shengsi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 840; T 753)	7003088
+7003089	净意优婆塞所问经	淨意優婆塞所問經	jìng yì yōupósāi suǒ wèn jīng	Sutra on the Questions from Upasaka Śuddhamati	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1431; T 755)	7003089
+7003090	佛说八无暇有暇经	佛說八無暇有暇經	Fó shuō bā wú xiá yǒu xiá jīng 	Sutra on the Questions from Upasaka Śuddhamati	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 八無暇有暇經 (T 756)	7003090
+7003091	八无暇有暇经	八無暇有暇經	bā wú xiá yǒu xiá jīng	Ba Wu Xia You Xia Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 865; T 756)	7003091
+7003092	佛说身毛喜竖经	佛說身毛喜豎經	Fó shuō shēn máo xǐ shù jīng 	Shen Mao Xi Shu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 身毛喜豎經 (T 757)	7003092
+7003093	身毛喜竖经	身毛喜豎經	shēn máo xǐ shù jīng	Shen Mao Xi Shu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1477; T 757)	7003093
+7003094	佛说诸行有为经	佛說諸行有為經	fó shuō zhū xíng yǒuwèi jīng 	Anityatāsūtra / Fo Shuo Zhu Xing Youwei Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 諸行有為經 (T 758)	7003094
+7003095	诸行有为经	諸行有為經	zhū xíng yǒuwèi jīng	Anityatāsūtra / Zhu Xing Youwei Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Anityatāsūtra; the name of a text in the Chinese Buddhist canon (KDC 1112; T 758)	7003095
+7003096	佛说较量寿命经	佛說較量壽命經	Fó shuō jiàoliàng shòumìng jīng 	Āyuṣparyantasūtra / Fo Shuo Jiaoliang Shouming Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 較量壽命經 (T 759)	7003096
+7003097	较量寿命经	較量壽命經	jiàoliàng shòumìng jīng	Āyuṣparyantasūtra / Jiaoliang Shouming Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Āyuṣparyantasūtra; the name of a text in the Chinese Buddhist canon (KDC 1105; T 759)	7003097
+7003098	惟日杂难经	惟日雜難經	wéi rì zá nán jīng 	Wei Ri Za Nan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 992; T 760)	7003098
