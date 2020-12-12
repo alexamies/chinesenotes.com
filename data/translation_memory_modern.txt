@@ -358,3 +358,9 @@
 5000358	鸡啼	雞啼	jī tí	cocks crowing	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '雞鳴狗吠')	5000358
 5000359	狗叫	\N	gǒu jiào	a dog barking	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '雞鳴狗吠')	5000359
 5000360	皱皮	皺皮	zhòu pí	wrinkled skin	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '雞皮鶴髮')	5000360
+5000361	烫嘴	燙嘴	tàng zuǐ	to burn your mouth	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '燙')	5000361
+5000362	烫衣服	燙衣服	tàng yīfu	to iron clothes	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '燙')	5000362
+5000363	水太烫了	水太燙了	shuǐ tài tàng le	the water is too hot	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '燙')	5000363
+5000364	记下	記下	jì xià	to note down	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '記下', p. 57)	5000364
+5000365	记不得	記不得	jì bù de	to not remember	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '記不得', p. 57)	5000365
+5000366	记不清	記不清	jì bù qīng	to not remember clearly	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '記不清', p. 57)	5000366

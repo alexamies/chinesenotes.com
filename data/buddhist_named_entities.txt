@@ -3096,3 +3096,15 @@
 7003096	佛说较量寿命经	佛說較量壽命經	Fó shuō jiàoliàng shòumìng jīng 	Āyuṣparyantasūtra / Fo Shuo Jiaoliang Shouming Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 較量壽命經 (T 759)	7003096
 7003097	较量寿命经	較量壽命經	jiàoliàng shòumìng jīng	Āyuṣparyantasūtra / Jiaoliang Shouming Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Āyuṣparyantasūtra; the name of a text in the Chinese Buddhist canon (KDC 1105; T 759)	7003097
 7003098	惟日杂难经	惟日雜難經	wéi rì zá nán jīng 	Wei Ri Za Nan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 992; T 760)	7003098
+7003099	佛说法集经	佛說法集經	fó shuō fǎ jí jīng 	Dharmasaṃgītisūtra / Fo Shuo Fa Ji Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 法集經 ( T 761)	7003099
+7003100	法集经	法集經	fǎ jí jīng	Dharmasaṃgītisūtra / Fa Ji Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Dharmasaṃgītisūtra; the name of a text in the Chinese Buddhist canon (KDC 404; T 761)	7003100
+7003101	佛说决定义经	佛說決定義經	fó shuō juédìng yì jīng 	Arthaviniścayadharmaparyāyasūtra / Fo Shuo Jueding Yi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 決定義經 (T 762)	7003101
+7003102	决定义经	決定義經	juédìng yì jīng	Arthaviniścayadharmaparyāyasūtra / Jueding Yi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Arthaviniścayadharmaparyāyasūtra; the name of a text in the Chinese Buddhist canon (KDC 1250; T 762)	7003102
+7003103	佛说法乘义决定经	佛說法乘義決定經	fó shuō fǎ chéng yì juédìng jīng 	Fo Shuo Fa Cheng Yi Jueding Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 法乘義決定經 (T 763)	7003103
+7003104	法乘义决定经	法乘義決定經	fǎ chéng yì juédìng jīng	Fa Cheng Yi Jueding Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (T 763)	7003104
+7003105	佛说法集名数经	佛說法集名數經	fó shuō fǎ jí míng Shù Jīng 	Dharmasangraha / Fo Shuo Fa Ji Ming Shu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 法集名數經 (T 764)	7003105
+7003106	法集名数经	法集名數經	fǎ jí míng Shù Jīng	Dharmasangraha / Fa Ji Ming Shu Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Dharmasangraha; the name of a text in the Chinese Buddhist canon (KDC 1124; T 764)	7003106
+7003107	本事经	本事經	běnshì jīng 	Itivṛttakasūtra / Benshi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Itivṛttakasūtra; the name of a text in the Chinese Buddhist canon (KDC 803; T 765)	7003107
+7003108	佛说法身经	佛說法身經	Fó shuō Fǎshēn jīng 	Dharmaśarīrasūtra / Fo Shuo Fashen Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 法身經 (T 766)	7003108
+7003109	法身经	法身經	Fǎshēn jīng	Dharmaśarīrasūtra / Fashen Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Dharmaśarīrasūtra; the name of a text in the Chinese Buddhist canon (KDC 1249; T 766)	7003109
+7003110	佛说三品弟子经	佛說三品弟子經	Fó shuō sān pǐn dìzi jīng 	Fo Shuo San Pin Dizi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 三品弟子經 (T 767)	7003110
