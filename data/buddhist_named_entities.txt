@@ -3108,3 +3108,4 @@
 7003108	佛说法身经	佛說法身經	Fó shuō Fǎshēn jīng 	Dharmaśarīrasūtra / Fo Shuo Fashen Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 法身經 (T 766)	7003108
 7003109	法身经	法身經	Fǎshēn jīng	Dharmaśarīrasūtra / Fashen Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Dharmaśarīrasūtra; the name of a text in the Chinese Buddhist canon (KDC 1249; T 766)	7003109
 7003110	佛说三品弟子经	佛說三品弟子經	Fó shuō sān pǐn dìzi jīng 	Fo Shuo San Pin Dizi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 三品弟子經 (T 767)	7003110
+7003111	三品弟子经	三品弟子經	sān pǐn dìzi jīng	San Pin Dizi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 522; T 767)	7003111
