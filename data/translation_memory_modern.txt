@@ -364,3 +364,5 @@
 5000364	记下	記下	jì xià	to note down	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '記下', p. 57)	5000364
 5000365	记不得	記不得	jì bù de	to not remember	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '記不得', p. 57)	5000365
 5000366	记不清	記不清	jì bù qīng	to not remember clearly	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '記不清', p. 57)	5000366
+5000367	记言	記言	jì yán	to record a conversation	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '記言', p. 57)	5000367
+5000368	记措	記措	jì cuò	to remember incorrectly	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CReworded from Mathews 1931 '記措', p. 57)	5000368

@@ -3109,3 +3109,21 @@
 7003109	法身经	法身經	Fǎshēn jīng	Dharmaśarīrasūtra / Fashen Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Dharmaśarīrasūtra; the name of a text in the Chinese Buddhist canon (KDC 1249; T 766)	7003109
 7003110	佛说三品弟子经	佛說三品弟子經	Fó shuō sān pǐn dìzi jīng 	Fo Shuo San Pin Dizi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 三品弟子經 (T 767)	7003110
 7003111	三品弟子经	三品弟子經	sān pǐn dìzi jīng	San Pin Dizi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 522; T 767)	7003111
+7003112	增长天	增長天	zēngzhǎng tiān	Virudhaka / Virūḍhaka / Deva King of the South	proper noun	天王	Heavenly King	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: virūḍhaka, Pāli: virūḷhaka; guardian of the South, he who enlarges, Patron of Growth (Ding '增長天'; FGDB '增長天'; SH '增長天')	7003112
+7003113	三慧经	三慧經	Sān Huì Jīng 	San Hui Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1025; T 768)	7003113
+7003114	佛说四辈经	佛說四輩經	fó shuō sì bèi jīng 	Fo Shuo Si Bei Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 四輩經 (T 769)	7003114
+7003115	四辈经	四輩經	sì bèi jīng	Si Bei Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 516; T 769)	7003115
+7003116	佛说四不可得经	佛說四不可得經	Fó shuō sì bù kě de jīng 	Fo Shuo Si Bu Ke De Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 四不可得經 (T 770)	7003116
+7003117	四不可得经	四不可得經	sì bù kě de jīng	Si Bu Ke De Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 357; T 770)	7003117
+7003118	四品学法经	四品學法經	sì pǐn xué fǎ jīng 	Si Pin Xue Fa Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 995; T 771)	7003118
+7003119	大乘四法经	大乘四法經	dàshèng sì fǎ jīng 	Caturdharmakasūtra / Dasheng Si Fa Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Caturdharmakasūtra; the name of a text in the Chinese Buddhist canon (KDC 246; T 772)	7003119
+7003120	记录	記錄	jìlù	Head of Records / Recorder	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Welch 1967, p. 422)	2278
+7003121	衣钵	衣缽	yībō	Sacristan	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery; in charge of the room where robes and bowls are stored (Welch 1967, p. 422)	7003121
+7003122	汤药	湯藥	tāng yào	Medicinal Attendant	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	See 湯藥侍者 (FGDB '湯藥侍者')	30194
+7003123	清眾	清眾	qīngzhòng	duty-less assistants	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (FGDB '清眾')	35459
+7003124	俱舍论光记	俱舍論光記	jūshèlùn guāngjì	Notes on the Abhidharmakośabhāṣya	proper noun	书名	Book Title	佛教	Buddhism	\N	\N	\N	\N	See 俱舍論記 (FGDB '俱舍論光記'; T 1821)	7003124
+7003125	法蕴足论	法蘊足論	Fǎ Yùn Zú Lùn	Dharmaskandha / Dharma-skandha-sastra	proper noun	论	Sastra	佛教	Buddhism	\N	\N	\N	\N	An early Buddhist treatise, composed by either Sariputra or Maudgalyayana; see 阿毘達磨法蘊足論 (FGDB '阿毘達磨法蘊足論')	7003125
+7003126	香灯	香燈	xiāng dēng	Shrine Attendant	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Welch 1967, p. 421)	7003126
+7003127	堂主	\N	táng zhǔ	Yan Shou Hall Chief / Hospice Chief	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery; an abbreviation for 延壽堂主 (Ding '堂主'; FGDB '堂主'; Welch 1967, p. 421)	7003127
+7003128	座元	\N	zuò yuán	First Seat	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (FGDB '座元')	7003128
+7003129	藏主	\N	zàng zhǔ	Librarian / Chief of Sutra Repository	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery; an abbreviation for 主掌經藏 (Ding '藏主'; FGDB '藏主'; SH '藏主'; Welch 1967, p. 422)	7003129
