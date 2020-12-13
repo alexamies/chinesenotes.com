@@ -3127,3 +3127,14 @@
 7003127	堂主	\N	táng zhǔ	Yan Shou Hall Chief / Hospice Chief	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery; an abbreviation for 延壽堂主 (Ding '堂主'; FGDB '堂主'; Welch 1967, p. 421)	7003127
 7003128	座元	\N	zuò yuán	First Seat	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (FGDB '座元')	7003128
 7003129	藏主	\N	zàng zhǔ	Librarian / Chief of Sutra Repository	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery; an abbreviation for 主掌經藏 (Ding '藏主'; FGDB '藏主'; SH '藏主'; Welch 1967, p. 422)	7003129
+7003130	知藏	\N	zhī zàng	Librarian / Chief of Sutra Repository	proper noun	职事	Post	佛教	Buddhism	禅宗	Chan School	\N	\N	See 藏主 (FGDB '藏主')	7003130
+7003131	參头	參頭	cān tóu	Group Leader / Eldest of the Chan Hall	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery, responsible for leading instruction and ceremonies (FGDB '參頭'; Guoyu '參頭'; Welch 1967, p. 421; SH '參頭', p. 343)	7003131
+7003132	司水	\N	sī shuǐ	Water Bearer	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	for Bathing, one of the Forty-Eight Positions in a Chan monastery (Welch 1967, p. 421)	7003132
+7003133	监院	監院	jiàn yuàn	Prior / Temple Supervisor	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Welch 1967, p. 421)	7003133
+7003134	副寺	\N	jiàn yuàn	Subprior / Assistant Supervisor	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (FGDB '副寺'; Welch 1967, p. 421)	7003134
+7003135	库司	庫司	kù sī	Supervisory Clerk	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Welch 1967, p. 421)	7003135
+7003136	维拉	維拉	wéilā	Vala (Middle-earth)	noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	(CC-CEDICT '維拉')	7003136
+7003137	监收	監收	jiàn shōu	Rent Collector	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '監收'; FGDB '監收'; Welch 1967, p. 421)	7003137
+7003138	磨头	磨頭	mó tóu	Head of the Mill	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '磨頭'; FGDB '磨頭'; Welch 1967, p. 421)	7003138
+7003139	殿主	\N	diàn zhǔ	Senior Verger / Shrine Warden	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '殿主'; FGDB '殿主'; SH '殿主'; Welch 1967, p. 421)	7003139
+7003140	钟头	鐘頭	zhōngtóu	Bell Person	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '殿主'; FGDB '殿主'; Welch 1967, p. 421)	7003140
