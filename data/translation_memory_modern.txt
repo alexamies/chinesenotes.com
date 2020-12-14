@@ -108,9 +108,9 @@
 5000108	英语角	英語角	yīngyǔ jiǎo	English corner / spoken English practice group	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '英語角')	5000108
 5000109	菜市仔名	\N	càishì zǐ míng	popular given name (one that will turn many heads if you shout it at a marketplace)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '菜市仔名')	5000109
 5000110	菜市场名	菜市場名	càishìchǎng míng	popular given name (one that will turn many heads if you shout it at a marketplace)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Taiwanese usage (CC-CEDICT '菜市場名')	5000110
-5000111	睁着一只眼	睜著一隻眼	zhēng zhe yī zhī yǎn	to keep one eye open	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '睜著一隻眼', p. 47)	5000111
+5000111	睁着一只眼	睜著一隻眼	zhēng zhe yī zhī yǎn	to keep one eye open	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '睜著一隻眼', p. 47)	5000111
 5000112	万元户	萬元戶	wànyuánhù	household with savings or annual income of 10,000 yuan or more	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Considered a large amount in the 1970s, when the term became established (CC-CEDICT '萬元戶')	5000112
-5000113	睁开眼睛	睜開眼睛	zhēngkāi yǎnjing	to open your eyes	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '睜開眼睛', p. 47)	5000113
+5000113	睁开眼睛	睜開眼睛	zhēngkāi yǎnjing	to open your eyes	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '睜開眼睛', p. 47)	5000113
 5000114	虚心使人进步，骄傲使人落后	虛心使人進步，驕傲使人落後	xūxīn shǐ rén jìnbù, jiāoào shǐ rén luòhòu	Modesty leads to progress, arrogance makes you drop behind (favorite slogan of Mao Zedong)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '虛心使人進步，驕傲使人落後')	5000114
 5000115	血债要用血来偿	血債要用血來償	xuèzhài yào yòng xuè lái cháng	A debt of blood must be paid in blood. / Blood calls for blood.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '血債要用血來償')	5000115
 5000116	血债要用血来还	血債要用血來還	xuèzhài yào yòng xuè lái hái	A debt of blood must be paid in blood. / Blood calls for blood.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '血債要用血來還')	5000116
@@ -187,7 +187,7 @@
 5000187	严重的问题	嚴重的問題	yánzhòng de wèntí	serious problem	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 56-57)	5000187
 5000188	党的领导下	黨的領導下	dǎng de lǐngdǎo xià	under the leadership of the Party	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 56-57)	5000188
 5000189	革命将要胜利	革命將要勝利	gémìng jiāngyào shènglì	approaching triumph of the revolution	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 60-61)	5000189
-5000190	好前程	\N	hǎoqiánchéng	a bright future	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '好前程', p. 47)	5000190
+5000190	好前程	\N	hǎoqiánchéng	a bright future	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '好前程', p. 47)	5000190
 5000191	红军不怕远征难	紅軍不怕遠征難	Hóng Jūn bù pà yuǎn zhēng nán	of the trying long march the Red Army makes light	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	From 七律長征 Seven Character Regular Verse: The Long March (Mao Zedong 2020, <i>Illustrated Poems of Mao Zedong</i>, trans. by Xu Yuanchon, p. loc. 468)	5000191
 5000192	万水千山只等闲	萬水千山只等閒	wàn shuǐ qiān shān zhī děngxián	thousands of rivers and mountains are barriers slight	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 七律長征 Seven Character Regular Verse: The Long March (Mao Zedong 2020, <i>Illustrated Poems of Mao Zedong</i>, trans. by Xu Yuanchon, p. loc. 468)	5000192
 5000193	五岭逶迤腾细浪	五嶺逶迤騰細浪	wǔlǐng wēiyí téng xì làng	Wuling Mountains winding like rippling rills	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	From 七律長征 Seven Character Regular Verse: The Long March (Mao Zedong 2020, <i>Illustrated Poems of Mao Zedong</i>, trans. by Xu Yuanchon, p. loc. 468)	5000193
@@ -212,29 +212,29 @@
 5000212	一山飞峙大江边	一山飛峙大江邊	yī shān fēi shì dà jiāng biān	a mountain stands in mid-air by the riverside	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	From 七律·登庐山 Seven Character Regular Verse: Up Mount Lu (Mao Zedong 2020, <i>Illustrated Poems of Mao Zedong</i>, trans. by Xu Yuanchon, p. loc. 773)	5000212
 5000213	跃上葱茏四百旋	躍上蔥蘢四百旋	yuè shàng cōnglóng sìbǎi xuán	four hundred twists and turns lead to its crest green-dyed	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	From 七律·登庐山 Seven Character Regular Verse: Up Mount Lu (Mao Zedong 2020, <i>Illustrated Poems of Mao Zedong</i>, trans. by Xu Yuanchon, p. loc. 773)	5000213
 5000214	中欧	中歐	zhōng ōu	China-Europe	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	E.g. trading relations (CC-CEDICT '中歐')	5000214
-5000215	成单	成單	chéng dān	to place an order for goods	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '成單', p. 48)	5000215
-5000216	定单	定單	dìng dān	to place an order for goods	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '成單', p. 48)	5000216
+5000215	成单	成單	chéng dān	to place an order for goods	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '成單', p. 48)	5000215
+5000216	定单	定單	dìng dān	to place an order for goods	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '成單', p. 48)	5000216
 5000217	中非	\N	Zhōng Fēi	China-Africa (relations)	set phrase	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '中非')	6006167
 5000218	欧洲帝国	歐洲帝國	ōuzhōu dìguó	European empires	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '欧洲帝国')	5000218
 5000219	老城区	老城區	lǎochéngqū	old city district / historical center	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '老城區')	91146
-5000220	成心作	\N	chéngxīn zuò	to do deliberately	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '成心作', p. 48)	5000220
+5000220	成心作	\N	chéngxīn zuò	to do deliberately	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '成心作', p. 48)	5000220
 5000221	中南	\N	zhōng nán	China-South Africa	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中南')	70373
 5000222	足协	足協	zú xié	soccer association / soccer federation	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '足協')	5000222
 5000223	转台	轉台	zhuǎn tái	to change the channel (TV)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '轉台')	5000223
 5000224	转台	轉台	zhuǎn tái	rotating stage	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '轉台')	5000223
 5000225	迫降	\N	pòjiàng	to force to surrender	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '迫降')	95093
 5000226	亚非拉	亞非拉	yà fēi lā	Asia, Africa and Latin America	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '亞非拉')	5000226
-5000227	成样子	成樣子	chéng yàngzi	to appear well	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '成樣子', p. 48)	5000227
-5000228	成物	\N	chéngwù	a ready made product	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '成物', p. 49)	5000228
+5000227	成样子	成樣子	chéng yàngzi	to appear well	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '成樣子', p. 48)	5000227
+5000228	成物	\N	chéngwù	a ready made product	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '成物', p. 49)	5000228
 5000229	足球协会	足球協會	zúqiú xiéhuì	soccer association	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '足球協會')	5000229
-5000230	成立日	\N	chénglìrì	Founder's day	phrase	\N	\N	代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '成立日', p. 49)	5000230
+5000230	成立日	\N	chénglìrì	Founder's day	phrase	\N	\N	代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '成立日', p. 49)	5000230
 5000231	入团	入團	rù tuán	to enroll in the Communist Youth League	verb	\N	\N	代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '入團')	5000231
-5000232	城市生活	\N	chéngshì shēnghuó	city life	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '城市生活', p. 49)	5000232
-5000233	城里关外	城裡關外	chénglǐ guānwài	city and outside area	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '城裡關外', p. 49)	5000233
-5000234	城门口	城門口	chéngmén kǒu	city gate entrance	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '城門口', p. 49)	5000234
+5000232	城市生活	\N	chéngshì shēnghuó	city life	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '城市生活', p. 49)	5000232
+5000233	城里关外	城裡關外	chénglǐ guānwài	city and outside area	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '城裡關外', p. 49)	5000233
+5000234	城门口	城門口	chéngmén kǒu	city gate entrance	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '城門口', p. 49)	5000234
 5000235	从一开始	從一開始	cóng yī kāishǐ	from the very beginning	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 62-63)	5000235
 5000236	政治的斗争	政治的鬥爭	zhèngzhì de dòuzhēng	political struggle	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 62-63)	5000236
-5000237	城头	城頭	chéng tóu	top of the wall	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '城頭', p. 49)	5000237
+5000237	城头	城頭	chéng tóu	top of the wall	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '城頭', p. 49)	5000237
 5000238	最近几年	最近幾年	zuìjìn jǐnián	the last few years / last several years / recent years	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '最近幾年')	5000238
 5000239	知识越多越反动	知識越多越反動	zhīshi yuè duō yuè fǎndòng	the more knowledgeable, the more reactionary	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	An anti-intellectual slogan attributed after the event to the Gang of Four 四人帮 (CC-CEDICT '知識越多越反動')	5000239
 5000240	到处出现	到處出現	dàochù chūxiàn	springing up everywhere	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 64-65)	5000240
@@ -245,18 +245,18 @@
 5000245	新的基础	新的基礎	xīn de jīchǔ	a new basis	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 66-67)	5000245
 5000246	工人和农民的联盟	工人和農民的聯盟	gōngrén hé nóngmín de liánméng	worker-peasant alliance	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 66-67)	5000246
 5000247	毛塑像	\N	máo sùxiàng	statue of Mao	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	See 毛泽东 (CC-CEDICT '毛塑像')	5000247
-5000248	秤到准	秤到準	chèng dào zhǔn	to weigh accurately	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '秤到準', p. 50)	5000248
+5000248	秤到准	秤到準	chèng dào zhǔn	to weigh accurately	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '秤到準', p. 50)	5000248
 5000249	灰濛濛	\N	huī méngméng	gray mist	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '灰濛濛')	5000249
 5000250	路阻	\N	lù zǔ	a road barrier	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '路阻')	5000250
-5000251	称算	稱算	chēng suàn	to estimate the amount of	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱算', p.50)	5000251
-5000252	称一称	稱一稱	chēng yī chēng	to measure the weight	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱一稱', p. 50)	5000252
+5000251	称算	稱算	chēng suàn	to estimate the amount of	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '稱算', p.50)	5000251
+5000252	称一称	稱一稱	chēng yī chēng	to measure the weight	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '稱一稱', p. 50)	5000252
 5000253	统筹兼顾	統籌兼顧	tǒng chóu jiān gù	an overall plan taking into account all factors	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '統籌兼顧'; Mao Zedong 1966, pp. 68-69)	5000253
 5000254	千万不要	千萬不要	qiān wàn bú yào	we must never	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 68-69)	5000254
-5000255	称货	稱貨	chēng huò	to weigh goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱貨', p. 50)	5000255
-5000256	称进	稱進	chēng jìn	to weigh incoming goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱進', p. 50)	5000256
-5000257	称出	稱出	chēng chū	to weigh outgoing goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '稱出', p. 50)	5000257
-5000258	人多议论多	人多議論多	rén duō yìlùn duō	having more people leads to a greater ferment of ideas	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from tr. in Mao Zedong 1966, pp. 68-69)	5000258
-5000259	不彀称	不彀稱	bù gòu chēng	less than full weight	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(reworded from Mathews 1931 '不彀稱', p. 50)	5000259
+5000255	称货	稱貨	chēng huò	to weigh goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '稱貨', p. 50)	5000255
+5000256	称进	稱進	chēng jìn	to weigh incoming goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '稱進', p. 50)	5000256
+5000257	称出	稱出	chēng chū	to weigh outgoing goods	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '稱出', p. 50)	5000257
+5000258	人多议论多	人多議論多	rén duō yìlùn duō	having more people leads to a greater ferment of ideas	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from tr. in Mao Zedong 1966, pp. 68-69)	5000258
+5000259	不彀称	不彀稱	bù gòu chēng	less than full weight	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '不彀稱', p. 50)	5000259
 5000260	没人味儿	沒人味兒	méi rén wèir	to be lacking in human character	phrase	\N	\N	现代汉语	Modern Chinese	方言	Dialect	\N	\N	Erhua variant of 没人味 (CC-CEDICT '沒人味兒')	5000260
 5000261	没有劲头儿	沒有勁頭兒	méiyǒu jìntóur	to have no strength	phrase	\N	\N	现代汉语	Modern Chinese	方言	Dialect	\N	\N	Erhua variant of 没有劲头 (CC-CEDICT '沒有勁頭兒')	5000261
 5000262	擂胸	\N	lèi xiōng	to pound [your] chest	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '擂胸')	5000262

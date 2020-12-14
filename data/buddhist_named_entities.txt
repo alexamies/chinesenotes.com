@@ -3137,4 +3137,39 @@
 7003137	监收	監收	jiàn shōu	Rent Collector	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '監收'; FGDB '監收'; Welch 1967, p. 421)	7003137
 7003138	磨头	磨頭	mó tóu	Head of the Mill	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '磨頭'; FGDB '磨頭'; Welch 1967, p. 421)	7003138
 7003139	殿主	\N	diàn zhǔ	Senior Verger / Shrine Warden	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '殿主'; FGDB '殿主'; SH '殿主'; Welch 1967, p. 421)	7003139
-7003140	钟头	鐘頭	zhōngtóu	Bell Person	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '殿主'; FGDB '殿主'; Welch 1967, p. 421)	7003140
+7003140	钟头	鐘頭	zhōngtóu	Bell Person	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '殿主'; FGDB '殿主'; Welch 1967, p. 421)	433
+7003141	佛说菩萨修行四法经	佛說菩薩修行四法經	Fó shuō púsà xiūxíng sì fǎ jīng 	Caturdharmakasūtra / Fo Shuo Pusa Xiuxing Si Fa Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 菩薩修行四法經 (T 773)	7003141
+7003142	菩萨修行四法经	菩薩修行四法經	púsà xiūxíng sì fǎ jīng	Caturdharmakasūtra / Pusa Xiuxing Si Fa Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Caturdharmakasūtra; the name of a text in the Chinese Buddhist canon (KDC 247; T 773)	7003142
+7003143	鼓头	鼓頭	gǔtóu	Chief of Drum	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (FGDB '鐘頭')	7003143
+7003144	夜巡	夜頭	yè xún	Night Patrol	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Welch 1967, p. 421)	7003144
+7003145	典座	\N	diǎn zuò	Chef / Chief of Kitchen and Storage	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '典座'; FGDB '典座'; Welch 1967, p. 421)	7003145
+7003146	大乘四法经	大乘四法經	Dàshèng sì fǎ jīng 	Catuṣkanirhārasūtra / Dasheng Si Fa Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Catuṣkanirhārasūtra; the name of a text in the Chinese Buddhist canon (KDC 485; T 774)	7003146
+7003147	佛说四无所畏经	佛說四無所畏經	fó shuō sì wú suǒ wèi jīng 	Fo Shuo Si Wu Suo Wei Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 四無所畏經 (T 775)	7003147
+7003148	四无所畏经	四無所畏經	sì wú suǒ wèi jīng	Si Wu Suo Wei Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1193; T 775)	7003148
+7003149	佛说四品法门经	佛說四品法門經	fó shuō sì pǐn Fǎmén jīng 	Bahudhātukasūtra / Fo Shuo Si Pin Famen Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 四品法門經 (T 776)	7003149
+7003150	四品法门经	四品法門經	sì pǐn Fǎmén jīng	Bahudhātukasūtra / Si Pin Famen Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Bahudhātukasūtra; the name of a text in the Chinese Buddhist canon (KDC 1254; T 776)	7003150
+7003151	佛说贤者五福德经	佛說賢者五福德經	Fó shuō xián zhě wǔ fúdé jīng 	Fo Shuo Xian Zhe Wu Fude Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 賢者五福德經 (T 777)	7003151
+7003152	贤者五福德经	賢者五福德經	xián zhě wǔ fúdé jīng	Xian Zhe Wu Fude Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 888; T 777)	7003152
+7003153	佛说菩萨内习六波罗蜜经	佛說菩薩內習六波羅蜜經	fó shuō púsà nèi xí Liù Bōluómì jīng 	Fo Shuo Pusa Nei Xi Liu Boluomi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 菩薩內習六波羅蜜經 (T 778)	7003153
+7003154	菩萨内习六波罗蜜经	菩薩內習六波羅蜜經	púsà nèi xí Liù Bōluómì jīng	Pusa Nei Xi Liu Boluomi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 510; T 778)	7003154
+7003155	般若部	\N	Bōrě Bù	Prajñāpāramitā Section	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Of the Chinese Triptaka, especially the Taisho Tripiṭaka (FGDB '般若部')	7003155
+7003156	宁玛派	寧瑪派	Níng Mǎ Pài	Nyingma School / Red Hat School	proper noun	派	School	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan School of Buddhism (FGDB '寧瑪派'; Wikipedia '宁玛派')	7003156
+7003157	红教	紅教	hóng jiāo	Nyingma School / Red Hat School	proper noun	派	School	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan School of Buddhism (FGDB '寧瑪派')	7003157
+7003158	黄教	黃教	Gé Lǔ Pài	Geluk School / Yellow Hat School	proper noun	派	School	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan School of Buddhism; see 格魯派 (FGDB '格魯派')	7003158
+7003159	新嘎档派	新嘎檔派	Xīn Gá Dàng Pài	Geluk School / Yellow Hat School	proper noun	派	School	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan School of Buddhism (FGDB '格魯派')	7003159
+7003160	法称	法稱	Fǎ Chēng	Dharmakirti	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Dharmakīrti, 7th century Buddhist scholar (FGDB '法稱')	7003160
+7003161	安般守意经	安般守意經	Ānbānshǒuì Jīng	Anapanasati Sutta	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	(FGDB '安般守意經')	7003161
+7003162	清净道论	清淨道論	Qīngjìngdào Lùn	Visuddhimagga	proper noun	论	Treatise	佛教	Buddhism	南传佛教	Theravada	\N	\N	Literally, The Path to Purification; c. 430, the great treatise on Theravada Buddhist doctrine written by Buddhaghosa (BL 'Visuddhimagga'; PPN 'Visuddhimagga') 	7003162
+7003163	噶举派	噶舉派	Géjǔ Pài	Geju School / Kagyu / Kagyu / Kagyupa / Kagyud	proper noun	派	School	佛教	Buddhism	西藏	Tibet	\N	\N	Wylie bKa’ brgyud; 'Oral Lineage' or 'Whispered Transmission' school, one of six main schools of Tibetan Buddhism (BL 'Bka’ brgyud'; DDB '噶擧派'; FGDB '迦爾居派'; Wikipedia '噶舉派')	7003163
+7003163	无忧	無憂	wú yōu	No Suffering / Aśoka / Asoka / Ashoka	proper noun	人	Person	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 阿育王 (FGDB '阿育王')	31358
+7003164	北拘卢洲	北拘盧洲	běi jūlú zhōu	Uttarakuru	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 鬱單越 (FGDB '鬱單越')	7003164
+7003165	梁高僧传	梁高僧傳	Liáng Gāo Sēng Zhuàn	Biographies of Eminent Monks	proper noun	传	Biography	佛教	Buddhism	中国	China	\N	\N	A collection of biographies of monks in China, compiled in the Liang dynasty by Huijiao 慧皎 (FGDB '梁高僧傳')	7003165
+7003166	续高僧传	續高僧傳	Xù Gāo Sēng Zhuàn	Supplement to the Biographies of Eminent Monks	proper noun	传	Biography	佛教	Buddhism	中国	China	\N	\N	A collection of biographies of monks in China after the Liang, compiled in the Tang dynasty by Dao An 道宣 (BL 'Xu Gaoseng Zhuan'; KDC 1075; T 2060)	7003166
+7003167	大明高僧传	大明高僧傳	Dà Míng Gāo Sēng Zhuàn	Continued Biographies of Eminent Monks	proper noun	传	Biography	佛教	Buddhism	中国	China	\N	\N	A collection of biographies of monks in China, compiled in the Ming dynasty (T 2062)	7003167
+7003168	电子佛典	電子佛典	Diànzǐ Fó Diǎn	CBETA	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	(Wikipedia '中華電子佛典協會')	7003168
+7003169	史传部	史傳部	shǐchuán Bù	Historical Biography Section	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Especially, of the Tripiṭaka (FGDB '禪宗全書')	7003169
+7003170	经录部	經錄部	Jīng Lù Bù	Sūtra Record Section	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Especially, of the Tripiṭaka (FGDB '佛典精解')	7003170
+7003171	大涅盘	大涅槃	Dà Nièpán	Mahaparinirvana Sutra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	See 大般涅槃經 (FGDB '大般涅槃經')	7003171
+7003172	过去现在因果经	過去現在因果經	Guòqu Xiànzài Yīnguǒ Jīng	Sutra on Past and Present Causes and Effects	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Japanese: Kako genzai inga-kyō; a text in the Chinese Buddhist canon (T 189; KDC 'K 777'; Hsing Yun and Miao Guang trans. 2016, p. 373; Matsuo 2007, p. 8)	7003172
+7003173	聶道眞	\N	Niè Dào Zhēn	Nie Dao Zhen	proper noun	译师	Translator	佛教	Buddhism	中国	China	\N	\N	Eastern Jin lay Buddhist and translator. Translated the Abhiniṣkramaṇa Sūtra 異出菩薩本起經, T3, No. 188 and Bodhisattva Fasting Sūtra《菩薩受齋經》T24, No. 1502 and other works (T 1502).	7003173
+7003174	哥利王	\N	Gēlì Wáng	Rajah of Kalinga / King Kali / Kalirājā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: kalirājā; variant of 歌利王 (FGDB '歌利王')	7003174
