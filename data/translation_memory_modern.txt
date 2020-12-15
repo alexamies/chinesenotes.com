@@ -367,3 +367,7 @@
 5000367	记言	記言	jì yán	to record a conversation	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '記言', p. 57)	5000367
 5000368	记措	記措	jì cuò	to remember incorrectly	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '記措', p. 57)	5000368
 5000369	忌酒	\N	jì jiǔ	to avoid drinking alcohol	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '忌酒')	5000369
+5000370	缔结的契约	締結的契約	dìjié de qìyuē	a completed agreement	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '條約')	5000370
+5000371	衰亡的时期	衰亡的時期	shuāiwáng de shíqī	a declining period	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '季世')	5000371
+5000372	听到脚步声	聽到腳步聲	tīngdào jiǎobù shēng	hear the sound of footsteps	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '偷偷')	5000372
+5000373	从后门溜走了	從後門溜走了	cóng hòumén liūzǒu le	slipped out the back door	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '偷偷')	5000373

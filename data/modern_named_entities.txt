@@ -6664,4 +6664,4 @@
 6006664	大学联考	大學聯考	dàxué liánkǎo	Joint College Entrance Examination	proper noun	\N	\N	教育	Education	\N	\N	\N	\N	In Taiwan (Guoyu '大學聯考'; Wikipedia '大學聯合招生考試')	6006664
 6006665	诺贝尔	諾貝爾	nuòbèi'ěr	Nobel	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(Wikipedia '诺贝尔文学奖')	6006665
 6006666	诺贝尔文学奖	諾貝爾文學獎	nuòbèi'ěr wénxué jiǎng	Nobel Prize in Literature	proper noun	诺贝尔奖	Nobel Prize	文学	Literature	\N	\N	\N	\N	(Wikipedia '诺贝尔文学奖')	6006666
-6006667	诺贝尔奖	諾貝爾獎	Nuòbèi'ěr jiǎng	Nobel prize	proper noun	\N	\N	现代汉语	Modern Chinese	社会	Society	\N	\N	(CC-CEDICT '諾貝爾獎'; Guoyu '諾貝爾獎')	6006667
+6006667	诺贝尔奖	諾貝爾獎	Nuòbèi'ěr jiǎng	Nobel prize	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '諾貝爾獎'; Guoyu '諾貝爾獎')	6006667

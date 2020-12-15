@@ -1,4 +1,4 @@
-# Copyright Fo Guang Shan 佛光山 2013-2020. May be reused under the Creative Commons Attribution-Share Alike 3.0 License (CCASE 3.0), https://creativecommons.org/licenses/by-sa/3.0/
+# Copyright Fo Guang Shan 佛光山 2013-2020. May be reused under the Creative Commons Attribution-Share Alike 3.0 License (CCASE 3.0), https://creativecommons.org/licenses/by-sa/3.0/ Includes names of people, places, and titles of texts
 7000002	证严	證嚴	zhèng yán	Cheng Yen	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 釋證嚴 (Wikipedia '釋證嚴')	7000002
 7000003	释证严	釋證嚴	shì zhèngyán	Cheng Yen	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1937- ; Taiwanese Buddhist nun and founder of the 慈濟功德會 Buddhist Compassion Relief Tzu Chi Foundation (Wikipedia '釋證嚴')	7000003
 7000004	慈济	慈濟	cíjì	Tzu-Chi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Abbreviation of 慈濟基金會 Buddhist Compassion Relief Tzu Chi Foundation (Wikipedia '慈濟基金會')	7000004
@@ -3161,7 +3161,6 @@
 7003161	安般守意经	安般守意經	Ānbānshǒuì Jīng	Anapanasati Sutta	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	(FGDB '安般守意經')	7003161
 7003162	清净道论	清淨道論	Qīngjìngdào Lùn	Visuddhimagga	proper noun	论	Treatise	佛教	Buddhism	南传佛教	Theravada	\N	\N	Literally, The Path to Purification; c. 430, the great treatise on Theravada Buddhist doctrine written by Buddhaghosa (BL 'Visuddhimagga'; PPN 'Visuddhimagga') 	7003162
 7003163	噶举派	噶舉派	Géjǔ Pài	Geju School / Kagyu / Kagyu / Kagyupa / Kagyud	proper noun	派	School	佛教	Buddhism	西藏	Tibet	\N	\N	Wylie bKa’ brgyud; 'Oral Lineage' or 'Whispered Transmission' school, one of six main schools of Tibetan Buddhism (BL 'Bka’ brgyud'; DDB '噶擧派'; FGDB '迦爾居派'; Wikipedia '噶舉派')	7003163
-7003163	无忧	無憂	wú yōu	No Suffering / Aśoka / Asoka / Ashoka	proper noun	人	Person	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 阿育王 (FGDB '阿育王')	31358
 7003164	北拘卢洲	北拘盧洲	běi jūlú zhōu	Uttarakuru	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	See 鬱單越 (FGDB '鬱單越')	7003164
 7003165	梁高僧传	梁高僧傳	Liáng Gāo Sēng Zhuàn	Biographies of Eminent Monks	proper noun	传	Biography	佛教	Buddhism	中国	China	\N	\N	A collection of biographies of monks in China, compiled in the Liang dynasty by Huijiao 慧皎 (FGDB '梁高僧傳')	7003165
 7003166	续高僧传	續高僧傳	Xù Gāo Sēng Zhuàn	Supplement to the Biographies of Eminent Monks	proper noun	传	Biography	佛教	Buddhism	中国	China	\N	\N	A collection of biographies of monks in China after the Liang, compiled in the Tang dynasty by Dao An 道宣 (BL 'Xu Gaoseng Zhuan'; KDC 1075; T 2060)	7003166
@@ -3173,3 +3172,30 @@
 7003172	过去现在因果经	過去現在因果經	Guòqu Xiànzài Yīnguǒ Jīng	Sutra on Past and Present Causes and Effects	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Japanese: Kako genzai inga-kyō; a text in the Chinese Buddhist canon (T 189; KDC 'K 777'; Hsing Yun and Miao Guang trans. 2016, p. 373; Matsuo 2007, p. 8)	7003172
 7003173	聶道眞	\N	Niè Dào Zhēn	Nie Dao Zhen	proper noun	译师	Translator	佛教	Buddhism	中国	China	\N	\N	Eastern Jin lay Buddhist and translator. Translated the Abhiniṣkramaṇa Sūtra 異出菩薩本起經, T3, No. 188 and Bodhisattva Fasting Sūtra《菩薩受齋經》T24, No. 1502 and other works (T 1502).	7003173
 7003174	哥利王	\N	Gēlì Wáng	Rajah of Kalinga / King Kali / Kalirājā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: kalirājā; variant of 歌利王 (FGDB '歌利王')	7003174
+7003175	羯利王	\N	Jiélì Wáng	Rajah of Kalinga / King Kali / Kalirājā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: kalirājā; variant of 歌利王 (FGDB '歌利王')	7003175
+7003176	迦梨王	\N	Jiālì Wáng	Rajah of Kalinga / King Kali / Kalirājā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: kalirājā; variant of 歌利王 (FGDB '歌利王')	7003176
+7003177	迦陵伽王	\N	Jiālíngjiā Wáng	Rajah of Kalinga / King Kali / Kalirājā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: kalirājā; variant of 歌利王 (FGDB '歌利王')	7003177
+7003178	羯陵伽王	\N	jiélíngjiā wáng	Rajah of Kalinga / King Kali / Kalirājā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: kalirājā; variant of 歌利王 (FGDB '歌利王')	7003178
+7003179	迦蓝浮王	迦藍浮王	jiālánfú wáng	Rajah of Kalinga / King Kali / Kalirājā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: kalirājā; variant of 歌利王 (FGDB '歌利王')	7003179
+7003180	罗什曼那	羅什曼那	Luóshímànnà	Laksmana / Lakshmana	proper noun	\N	\N	文学	Literature	印度	India	\N	\N	Sanskrit equivalent: lakśmaṇa, one of Rama's brothers (Wikipedia '羅什曼那')	7003180
+7003181	悉多	\N	Xīduō	Sita	proper noun	\N	\N	文学	Literature	印度	India	\N	\N	Sanskrit equivalent: sita, the central female character in the Ramayana (Wikipedia '悉多')	7003181
+7003182	小品般若	\N	Xiǎo Pǐn Bōrě	Aṣṭasāhasrikā Prajñāpāramitā / The Perfection of Wisdom in Eight Thousand Lines	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	 (T 227)	7003182
+7003183	小品般若波罗蜜经	小品般若波羅蜜經	Xiǎo Pǐn Bōrěbōluómì Jīng	Xiaopin Boreboluomi Jing / The Perfection of Wisdom in Eight Thousand Lines	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	 Ten scrolls, similar to the Sanskrit Aṣṭasāhasrikāprajñāpāramitāsūtra (KDC 7; T 227)	7003183
+7003184	无忧	無憂	wú yōu	No Suffering / Aśoka / Asoka / Ashoka	proper noun	人	Person	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 阿育王 (FGDB '阿育王')	7003184
+7003185	大金塔	\N	Dà Jīn Tǎ	Shwedagon Pagoda	proper noun	塔	Pagoda	佛教	Buddhism	亚洲	Asia	\N	\N	Located in Yangon, Myanmar (Wikipedia '仰光大金寺')	7003185
+7003186	佛说灌顶经	佛說灌頂經	Fó Shuō Guàn Dǐng Jīng	Consecration Sutra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	(T 1331)	7003186
+7003187	金凌刻经处	金凌刻經處	jīnlíng kè jīng chù	Jinling Sutra Publishing House	proper noun	出版者	Publisher	佛教	Buddhism	中国	China	\N	\N	(Hsing Yun 2016, p. 13)	7003187
+7003188	空之探究	\N	kōng zhī tànjiū	An Investigation into Emptiness	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	Title of a book by 印順 Yun Shun (Yinshun 2017)	7003188
+7003189	游心法海六十年	\N	yóu xīn fǎ hǎi liùshí nián	A Sixty-Year Spiritual Voyage on the Ocean of Dharma	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	Title of a autobiography by 印順 Yun Shun (Yinshun 2009)	7003189
+7003190	妙云集	\N	miào yún jí	Sublime Clouds Collection	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	Title of a a collection of writings by 印順 Yun Shun (Yinshun 2017, p. 280)	7003190
+7003191	成佛之道	\N	chéng fó zhī dào	The Way to Buddhahood	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	Title of a book by 印順 Yun Shun (Yinshun 2017, p. 280)	7003191
+7003192	钵逻犀那恃多	鉢邏犀那恃多	bōluóxīnàshìduō	King Prasenajit	proper noun	国王	King	佛教	Buddhism	印度	India	\N	\N	See 波斯匿王 (FGDB '波斯匿王')	7003192
+7003193	钵罗洗曩喻那	鉢囉洗曩喻那	bōluōxǐnǎngyùnà	King Prasenajit	proper noun	国王	King	佛教	Buddhism	印度	India	\N	\N	See 波斯匿王 (FGDB '波斯匿王')	7003193
+7003194	胜军王	勝軍王	shèngjūn wáng	King Prasenajit	proper noun	国王	King	佛教	Buddhism	印度	India	\N	\N	See 波斯匿王 (FGDB '波斯匿王')	7003194
+7003195	灌顶拔除过罪生死得度经	灌頂拔除過罪生死得度經	Guàn Dǐng Bá Chú Guò Zuì Shēngsǐ de Dù Jīng	Apothecary Sutra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	See 佛說灌頂經 (T 1331)	7003195
+7003196	未生怨	\N	Wèi Shēng Yuàn	Enemy before Birth / Ajātaśatru / Ajatasutru / Ajātasattu	proper noun	国王	King	佛教	Buddhism	古印度	Ancient India	\N	\N	Literally, 'Enemy before Birth'. See 阿闍世王 (FGDB '阿闍世王')	7003196
+7003197	佛本生经	佛本生經	Fó Běn Shēng Jīng	Sutra of the Buddha's Reincarnated Manifestations	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	(FGDB '竺法蘭')	7003197
+7003198	光相	\N	guāngxiāng	Aruṇavatī	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Pali: aruṇavatī; personal name (Kieschnick and Wiles 2017, vol. 1, p. 68; T 1)	7003198
+7003199	清那叻	\N	Qīngnàlè	Chinaraj	proper noun	佛	Buddha	佛教	Buddhism	\N	\N	\N	\N	(FGDB '泰國佛教')	7003199
+7003200	法宗派	\N	Fǎ Zōngpài	Thammayut Nikai	proper noun	宗派	School	佛教	Buddhism	泰国	Thailand	\N	\N	A Thai school of Buddhism (Wikipedia '法相应派')	7003200
+7003201	若他那塔	\N	Ruòtānà tǎ	Ratana Chedi	proper noun	塔	Pagoda	佛教	Buddhism	泰国	Thailand	\N	\N	In Wat Ku Kut, Thailand (FGS Encyclopedia of Buddhist Arts)	7003201
