@@ -371,3 +371,4 @@
 5000371	衰亡的时期	衰亡的時期	shuāiwáng de shíqī	a declining period	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '季世')	5000371
 5000372	听到脚步声	聽到腳步聲	tīngdào jiǎobù shēng	hear the sound of footsteps	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '偷偷')	5000372
 5000373	从后门溜走了	從後門溜走了	cóng hòumén liūzǒu le	slipped out the back door	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '偷偷')	5000373
+5000374	脱离关系	脫離關係	tuōlí guānxi	to break off relations	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '脫離')	5000374

@@ -821,7 +821,7 @@
 7000821	寂天	\N	Jìtiān	Shantideva / Śāntideva	proper noun	法师	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: śāntideva; an 8th-century Indian Buddhist scholar (FGDB '寂天'; Wikipedia '寂天')	7000821
 7000822	僧肇	\N	 Sēng Zhào	Seng Zhao	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	384-414; Eastern Jin monastic based in Chang'an, working under Kumārajīva. Seng Zhao is attributed with composing the 《寶藏論》 “Treasure Store Treatise” (T 1857) and 《金剛經註》 “Jingang Jing Zhu” (Ding '因緣生'; FGDB '因緣生'; Sharf 2005, p. 31)	7000822
 7000823	达磨笈多	達磨笈多	Dámó Jíduō	Dharmagupta	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 達摩笈多 (FGDB '達摩笈多')	7000823
-7000824	陈那	陳那	chénnà	Dignāga	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	480 – c. 540 Indian monk and scholar (Edelglass and Garfield 2009, p. 107; FGDB '陳那')	7000824
+7000824	陈那	陳那	chénnà	Dignaga / Dignāga	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: dignāga, Japanese: Jinna;; 480 – c. 540 Indian monk and scholar important in the study of Buddhist Logics (BL 'Dignāga', p. 259; Edelglass and Garfield 2009, p. 107; FGDB '陳那')	7000824
 7000825	慧锷	慧鍔	Huì È	Egaku / Hui E	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	9th century Japanese monk who was shipwrecked during the Tang Dynasty on Mount Puotuo when trying to transport a Avalokitesvara Bodhisattva statue to Japan (Wikipedia '慧锷')	7000825
 7000826	多宝塔	多寶塔	Duō Bǎo Tǎ	Prabhutaratna Stupa / Duobao Pagoda	proper noun	塔	Pagoda	佛教	Buddhism	中国	China	duobaota400.jpg	\N	Pagoda on Mount Putuo and other locations (Wikipedia '多寶塔')	7000826
 7000827	康僧铠	康僧鎧	Kāng Sēng Kǎi	Saṅghavarman / Sajghavarman / Saņghavarman	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	An Indian monk from the Kushan kingdom who travelled to China and lived at the White Horse Temple in Luoyang.  He translated the Infinite Life Sutra c. 252 CE. (FGDB '康僧鎧')	7000827
@@ -2559,7 +2559,7 @@
 7002559	佛说百佛名经	佛說百佛名經	fó shuō bǎi fó míng jīng  	Fo Shuo Bai Fo Ming Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	the name of a text in the Chinese Buddhist canon (KDC 365; T 444)	7002559
 7002560	不思议功德诸佛所护念经	不思議功德諸佛所護念經	bù sīyì gōngdé zhū fó suǒ hùniàn jīng 	Bu Siyi Gongde Zhu Fo Suo Hunian Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 395; T 445)	7002560
 7002561	佛说不思议功德诸佛所护念经	佛說不思議功德諸佛所護念經	Fó shuō bù sīyì gōngdé zhū fó suǒ hùniàn jīng 	Fo Shuo Bu Siyi Gongde Zhu Fo Suo Hunian Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	the name of a text in the Chinese Buddhist canon (KDC 395; T 445)	7002561
-7002562	过去庄严劫千佛名经	過去莊嚴劫千佛名經	Guòqu Zhuāngyán Jié Qiān Fó Míng Jīng 	Guoqu Zhuangyan Jie Qian Fo Ming Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	the name of a text in the Chinese Buddhist canon (KDC 391; T 446a)	7002562
+7002562	过去庄严劫千佛名经	過去莊嚴劫千佛名經	Guòqu Zhuāngyán Jié Qiān Fó Míng Jīng 	Thousand Buddhas Names of the Past Vyuha Kalpa Sutra	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	the name of a text in the Chinese Buddhist canon (KDC 391; T 446a)	7002562
 7002563	现在贤劫千佛名经	現在賢劫千佛名經	xiànzài xián jié qiān fó míng jīng  	Xianzai Xian Jie Qian Fo Ming Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	the name of a text in the Chinese Buddhist canon (KDC 392; T 447a)	7002563
 7002564	未来星宿劫千佛名经	未來星宿劫千佛名經	wèilái xīngxiù jié qiān fó míng jīng  	Weilai Xingxiu Jie Qian Fo Ming Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	the name of a text in the Chinese Buddhist canon (KDC 393; T 448a)	7002564
 7002565	药师如来本愿经	藥師如來本願經	Yàoshī Rúlái běnyuàn jīng 	Bhaiṣajyagurupūrvapraṇidhānaviśeṣavistara / Medicine Buddha / Yaoshi Rulai Benyuan Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Bhaiṣajyagurupūrvapraṇidhānaviśeṣavistara; the name of a text in the Chinese Buddhist canon (KDC 176; T 449)	7002565
@@ -3157,7 +3157,7 @@
 7003157	红教	紅教	hóng jiāo	Nyingma School / Red Hat School	proper noun	派	School	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan School of Buddhism (FGDB '寧瑪派')	7003157
 7003158	黄教	黃教	Gé Lǔ Pài	Geluk School / Yellow Hat School	proper noun	派	School	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan School of Buddhism; see 格魯派 (FGDB '格魯派')	7003158
 7003159	新嘎档派	新嘎檔派	Xīn Gá Dàng Pài	Geluk School / Yellow Hat School	proper noun	派	School	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan School of Buddhism (FGDB '格魯派')	7003159
-7003160	法称	法稱	Fǎ Chēng	Dharmakirti	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Dharmakīrti, 7th century Buddhist scholar (FGDB '法稱')	7003160
+7003160	法称	法稱	Fǎ Chēng	Dharmakirti	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: dharmakīrti, Japanese: Hōshō, c. 600-670; Buddhist scholar known for studies in Buddhist logic (BL 'dharmakīrti', p. 246; FGDB '法稱')	7003160
 7003161	安般守意经	安般守意經	Ānbānshǒuì Jīng	Anapanasati Sutta	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	(FGDB '安般守意經')	7003161
 7003162	清净道论	清淨道論	Qīngjìngdào Lùn	Visuddhimagga	proper noun	论	Treatise	佛教	Buddhism	南传佛教	Theravada	\N	\N	Literally, The Path to Purification; c. 430, the great treatise on Theravada Buddhist doctrine written by Buddhaghosa (BL 'Visuddhimagga'; PPN 'Visuddhimagga') 	7003162
 7003163	噶举派	噶舉派	Géjǔ Pài	Geju School / Kagyu / Kagyu / Kagyupa / Kagyud	proper noun	派	School	佛教	Buddhism	西藏	Tibet	\N	\N	Wylie bKa’ brgyud; 'Oral Lineage' or 'Whispered Transmission' school, one of six main schools of Tibetan Buddhism (BL 'Bka’ brgyud'; DDB '噶擧派'; FGDB '迦爾居派'; Wikipedia '噶舉派')	7003163
@@ -3199,3 +3199,19 @@
 7003199	清那叻	\N	Qīngnàlè	Chinaraj	proper noun	佛	Buddha	佛教	Buddhism	\N	\N	\N	\N	(FGDB '泰國佛教')	7003199
 7003200	法宗派	\N	Fǎ Zōngpài	Thammayut Nikai	proper noun	宗派	School	佛教	Buddhism	泰国	Thailand	\N	\N	A Thai school of Buddhism (Wikipedia '法相应派')	7003200
 7003201	若他那塔	\N	Ruòtānà tǎ	Ratana Chedi	proper noun	塔	Pagoda	佛教	Buddhism	泰国	Thailand	\N	\N	In Wat Ku Kut, Thailand (FGS Encyclopedia of Buddhist Arts)	7003201
+7003202	南邦銮寺佛塔	南邦鑾寺佛塔	Nán Bāng Luán sì fótǎ	Wat Phra That Lampang Luang Chedi	proper noun	塔	Pagoda	佛教	Buddhism	泰国	Thailand	\N	\N	Located in Lampang, Thailand (Wikipedia '漥寺')	7003202
+7003203	净饭王	淨飯王	Jìng Fàn Wáng	Shuddhodana / Suddhodana	proper noun	王	King	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: śuddhodana, Pāli: suddhodana; the Buddha, Siddhartha Gautama's father (Ding '淨飯王'; FGDB '淨飯王'; SH '淨飯王')	7003203
+7003204	桑奇遗址	桑奇遺址	Sāng Qí Yízhǐ	Sanchi Ruins	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Historic site in central India (Wikipedia '桑吉')	7003204
+7003205	桑奇	桑奇	Sāng Qí	Sanchi [Ruins]	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Historic site in central India (Wikipedia '桑吉')	7003205
+7003206	商诺迦缚娑	商諾迦縛娑	shāngnuòjiāfúsuō	Sanaka-vasa / Śānaka-vāsa	proper noun	罗汉	Arhat	佛教	Buddhism	印度	India	\N	\N	See 商那和修 (FGDB '商那和修')	7003206
+7003207	胜光王	勝光王	shèngguāng wáng	King Prasenajit	proper noun	国王	King	佛教	Buddhism	印度	India	\N	\N	See 波斯匿王 (FGDB '波斯匿王')	7003207
+7003208	和悦王	和悅王	héyuè wáng	King Prasenajit	proper noun	国王	King	佛教	Buddhism	印度	India	\N	\N	See 波斯匿王 (FGDB '波斯匿王')	7003208
+7003209	商那和修	\N	shāngnàhéxiū	Śāṇaka / Sana-vasin / Śāna-vāsin	proper noun	罗汉	Arhat	佛教	Buddhism	印度	India	\N	\N	Sanskrit: Śāṇaka; a disciple of Ananda (BSAD '商那和修'; FGDB '商那和修'; Wikipedia '商那和修')	7003209
+7003210	集量论	集量論	jí liàng lùn	Compendium on Valid Knowledge / Pramāṇasamuccaya	proper noun	书名	Book Title	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: pramāṇasamuccaya, Japanese: Jūryōron; Title of a foundational text on Buddhist logic attributed to Dignaga, now lost (BL 'Pramāṇasamuccaya', p. 661; FGDB '集量論'; Wikipedia '集量論')	7003210
+7003211	僧伽提婆	\N	Sēngjiātípó	 Saṅghadeva / Saṃghadeva / Sajghadeva	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Monk from Kashmir who travelled to China in the 4th century during the Eastern Jin. Translated sutras (FGDB '僧伽提婆'; KDC 'K 648')	7003211
+7003212	十诵律	十誦律	Shí Sòng Lǜ	Sarvāstivādavinaya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Sarvāstivādavinaya; the name of a text in the Chinese Buddhist canon (KDC 890; T 1435)	7003212
+7003213	摩诃僧只律	摩訶僧祇律	Móhēsēngzhǐ Lǜ	Mahāsaṅghikavinaya	proper noun	书名	Book Title	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Mahāsaṅghikavinaya; Title of a text in the Chinese Buddhist canon (KDC 889; T 1425)	7003213
+7003214	阿阇世王	阿闍世王	Āshéshì Wáng	Ajātaśatru / Ajatasutru / Ajātasattu	proper noun	国王	King	佛教	Buddhism	古印度	Ancient India	\N	\N	Sanskrit equivalent: Ajātaśatru, Pāli: Ajātaśatru; the son of 頻婆娑羅王 King Bimbisāra and sovereign of 摩揭陀國 Magadha, a kingdom in central India during the Buddha's time (BL 'Ajātaśatru'; Eitel 'Ajātaśatru', p. 4; FGDB '阿闍世王'; SH '阿闍世', p. 293)	7003214
+7003215	尊胜陀罗尼经	尊勝陀羅尼經	Zūnshèng Tuóluóní Jīng	Usnisa Vijaya Dharani / Uṣṇīṣa Vijaya Dhāraṇī	proper noun	咒	Dharani	佛教	Buddhism	\N	\N	\N	\N	(FGDB '尊勝陀羅尼經')	7003215
+7003216	大自在陀罗尼神咒经	大自在陀羅尼神咒經	Dà Zìzai Tuóluóní Shén Zhòu Jīng	Great Freedom Dharani	proper noun	咒	Dharani	佛教	Buddhism	\N	\N	\N	\N	(FGDB '大隨求陀羅尼')	7003216
+7003217	尸毗王	\N	Shīpí Wáng	King Sibi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	(Wikipedia 'Sibi Jataka')	7003217
