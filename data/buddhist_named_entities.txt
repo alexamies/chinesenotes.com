@@ -3215,3 +3215,11 @@
 7003215	尊胜陀罗尼经	尊勝陀羅尼經	Zūnshèng Tuóluóní Jīng	Usnisa Vijaya Dharani / Uṣṇīṣa Vijaya Dhāraṇī	proper noun	咒	Dharani	佛教	Buddhism	\N	\N	\N	\N	(FGDB '尊勝陀羅尼經')	7003215
 7003216	大自在陀罗尼神咒经	大自在陀羅尼神咒經	Dà Zìzai Tuóluóní Shén Zhòu Jīng	Great Freedom Dharani	proper noun	咒	Dharani	佛教	Buddhism	\N	\N	\N	\N	(FGDB '大隨求陀羅尼')	7003216
 7003217	尸毗王	\N	Shīpí Wáng	King Sibi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	(Wikipedia 'Sibi Jataka')	7003217
+7003218	贤愚经	賢愚經	Xián Yú Jīng	Sutra on the Wise and Foolish / Damamūka	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: damamūka; title of a text in the Chinese Buddhist canon (T 202; KDC 'K 983'; Ding '賢愚經'; FGDB '賢愚經'; Hsing Yun and Miao Guang trans. 2016, p. 374)	7003218
+7003219	父母恩重经	父母恩重經	Fùmǔ Ēn Zhòng Jīng	Sutra on the Profound Kindness of Parents	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	(FGDB '父母恩重經')	7003219
+7003220	刘萨诃	劉薩訶	Liú Sà Hē	Liu Sa He	proper noun	高僧	Senior monk	佛教	Buddhism	\N	\N	\N	\N	Northern Wei, first Chinese monk to go to India to obtain sutras (FGDB '阿育王寺')	7003220
+7003221	宾头卢	賓頭盧	bīntóulú	Pindola / Piṇḍola / The Tiger Subduing Arhat / Pindolabharadvaja	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: Piṇḍola; FGS translation standard: The Tiger Subduing Arhat / Pindolabharadvaja (Ding '賓頭盧'; Tzu Chuang 2012; FGDB '賓頭盧')	7003221
+7003222	东胜身洲	東勝身洲	dōng shèngshēn zhōu	Purva-videha / Purvavideha / Pubbavideha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit Pūrvavideha, one of the four Earthly realms, located in the east; FGS translation standard: Purva-videha; See also 毘提訶 (FGBD '毘提訶洲'; Tzu Chuang 2012)	7003222
+7003223	东胜神洲	東勝神洲	Dōng Shèng Shén Zhōu	Purvavideha / Pubbavideha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶 (FGBD '毘提訶洲')	7003223
+7003224	东毗提诃洲	東毗提訶洲	Dōng Pí Tí Hē Zhōu	Purvavideha / Pubbavideha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶 (FGBD '毘提訶洲')	7003224
+7003225	跋厘堕阇	跋釐墮闍	Bá Lí Duò Shé	Kanakabharadraja	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 迦諾迦跋釐墮闍 (FGDB '迦諾迦跋釐墮闍)	7003225
