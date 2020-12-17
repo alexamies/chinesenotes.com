@@ -3223,3 +3223,15 @@
 7003223	东胜神洲	東勝神洲	Dōng Shèng Shén Zhōu	Purvavideha / Pubbavideha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶 (FGBD '毘提訶洲')	7003223
 7003224	东毗提诃洲	東毗提訶洲	Dōng Pí Tí Hē Zhōu	Purvavideha / Pubbavideha	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 毘提訶 (FGBD '毘提訶洲')	7003224
 7003225	跋厘堕阇	跋釐墮闍	Bá Lí Duò Shé	Kanakabharadraja	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 迦諾迦跋釐墮闍 (FGDB '迦諾迦跋釐墮闍)	7003225
+7003226	戍博迦	\N	shùbójiā	Jivaka / The Open Heart Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent Jīvaka, one of the 16 Arhats; FGS translation standard: The Open Heart Arhat / Jivaka (Tzu Chuang 2012; FGDB '戍博迦')	7003226
+7003227	戎博迦	\N	róngbójiā	Jivaka	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 戍博迦 (FGDB '戍博迦')	7003227
+7003228	瞿波迦	\N	jùbójiā	Jivaka	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 戍博迦 (FGDB '戍博迦')	7003228
+7003229	鍋巴嘎	\N	guōbāgá	Jivaka	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 戍博迦 (FGDB '戍博迦')	7003229
+7003230	永嘉玄觉	永嘉玄覺	Yǒngjiā Xuánjué	Yongjia Xuanjue	proper noun	高僧	Senior monk	佛教	Buddhism	中国	China	\N	\N	See 玄覺 (FGDB '玄覺')	7003230
+7003231	大梅法常	\N	Dàméi Fǎcháng	Damei Fachang	proper noun	高僧	Senior monk	佛教	Buddhism	中国	China	\N	\N	752-839 Chinese monk (FGDB '法常'; Poceski 2015, p. 55)	7003231
+7003232	菩提道次第广论	菩提道次第廣論	Pútí Dào Cìdì Guǎng Lùn	Lamrim Chenmo / The Great Treatise on the Stages of the Path to Enlightmenent	proper noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 菩提道次第論 (FGDB '菩提道次第論')	7003232
+7003233	广论	廣論	Guǎng Lùn	Lamrim Chenmo / The Great Treatise on the Stages of the Path to Enlightmenent	proper noun	论	Treatise	佛教	Buddhism	中国	China	\N	\N	See 菩提道次第論 (FGDB '菩提道次第論')	7003233
+7003234	宗喀巴	\N	Zōng Kā Bā	Je Tsongkhapa / Tsongkhapa	proper noun	高僧	Senior Monk	佛教	Buddhism	中国	China	\N	\N	1357–1419; Tibetan monk, founder of the Geluk School (Yellow Hat School), author of 《菩提道次第广论》 Lamrim Chenmo 'The Great Treatise on the Stages of the Path to Enlightmenent' (FGDB '宗喀巴'; Wikipedia '宗喀巴')	7003234
+7003235	阿底峡	阿底峽	Ādǐxiá	Atisa / Atisha	proper noun	高僧	Senior Monk	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: atiśa; 980–1054; Indian monk who travelled to Tibet (Wikipedia '阿底峽')	7003235
+7003236	格鲁派	格魯派	gélǔ pài	Geluk School / Gelug School / Yellow Hat School / Dge lugs	proper noun	派	School	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan: Dge lugs; Tibetan School of Buddhism (BL 'Dge lugs'; FGDB '格鲁派'; Wikipedia '格鲁派')	7003236
+7003237	菩提道灯论	菩提道燈論	Pútí Dào Dēng Lùn	A Lamp for the Path to Enlightenment / Bodhipathapradīpa 	noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Bodhipathapradīpa, 11th century Buddhist text by Atisha (FGDB '菩提道燈論')	7003237

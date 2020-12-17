@@ -13,6 +13,13 @@ The parallel English text provided is from Giles (1910).
     <a href="https://www.sacred-texts.com/tao/aow/index.htm"
     >https://www.sacred-texts.com/tao/aow/index.htm</a>
   </li>
+  <li>
+    Smith, Kidder  1999, “The Military Texs: The Sunzi,”
+    In W M Theodore de Bary and Irene Bloom eds.
+    <i>Sources of Chinese Tradition: Volume One from Earliest Times to 1600</i>,
+    New York: Columbia University Press,
+    pp. 213-224.
+  </li>
 </ol>
 
 <h4>Discussion</h4>
@@ -24,7 +31,7 @@ The parallel English text provided is from Giles (1910).
     <i>Literary Forms of Argument in Early China</i>, Leiden and Boston: Brill.
   </li>
   <li>
-    Krzysztof, G and Michael Lowe 1993, “Sun tzu ping fa 孫子兵法,” In
+    Krzysztof, G and Michael Loewe 1993, “Sun tzu ping fa 孫子兵法,” In
     Michael Loewe, (ed.), Early Chinese Texts: A Bibliographical Guide,
     Berkeley: Society for the Study of Early China, pp. 446-455.
   </li>
