@@ -372,3 +372,10 @@
 5000372	听到脚步声	聽到腳步聲	tīngdào jiǎobù shēng	hear the sound of footsteps	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '偷偷')	5000372
 5000373	从后门溜走了	從後門溜走了	cóng hòumén liūzǒu le	slipped out the back door	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '偷偷')	5000373
 5000374	脱离关系	脫離關係	tuōlí guānxi	to break off relations	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '脫離')	5000374
+5000375	互敬互爱	互敬互愛	hù jìng hù ài	mutual respect and love	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '互')	5000375
+5000376	刀术	刀術	dāo shù	swordfighting sports	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '武術')	5000376
+5000377	武术指导	武術指導	wǔshù zhǐdǎo	martial arts coach	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '武術指導')	5000377
+5000378	判断错误	判斷錯誤	pànduàn cuòwù	an error in judgement	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '誤會')	5000378
+5000379	我误会你了	我誤會你了	wǒ wùhuì nǐ le	I misjudged you	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '誤會')	5000379
+5000380	一场误会	一場誤會	yī chǎng wùhuì	one mistake	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '誤會')	5000380
+5000381	西式的餐点	西式的餐點	xīshì de cāndiǎn	Western style dishes	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '西餐')	5000381

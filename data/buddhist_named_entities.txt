@@ -3235,3 +3235,15 @@
 7003235	阿底峡	阿底峽	Ādǐxiá	Atisa / Atisha	proper noun	高僧	Senior Monk	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: atiśa; 980–1054; Indian monk who travelled to Tibet (Wikipedia '阿底峽')	7003235
 7003236	格鲁派	格魯派	gélǔ pài	Geluk School / Gelug School / Yellow Hat School / Dge lugs	proper noun	派	School	佛教	Buddhism	西藏	Tibet	\N	\N	Tibetan: Dge lugs; Tibetan School of Buddhism (BL 'Dge lugs'; FGDB '格鲁派'; Wikipedia '格鲁派')	7003236
 7003237	菩提道灯论	菩提道燈論	Pútí Dào Dēng Lùn	A Lamp for the Path to Enlightenment / Bodhipathapradīpa 	noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Bodhipathapradīpa, 11th century Buddhist text by Atisha (FGDB '菩提道燈論')	7003237
+7003238	菩提道炬论	菩提道炬論	Pútí Dào Jù Lùn	A Lamp for the Path to Enlightenment / Bodhipathapradīpa 	noun	论	Treatise	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 菩提道燈論 (FGDB '菩提道燈論')	7003238
+7003239	阇那崛多	闍那崛多	shénàjuéduō	Jñānagupta / Jnanagupta	proper noun	高僧	Senior Monk	佛教	Buddhism	印度	India	\N	\N	C. 523-600, Sanskrit equivalent: Jñānagupta, Indian monk who travelled to China during the Sui dynasty, well known for translating the popular version of the Universal Gate Sutra to Chinese (KDCFGDB '闍那崛多'; KDC 124; T 479)	7003239
+7003240	多宝佛塔	多寶佛塔	Duō Bǎo Fó Tǎ	Prabhutaratna Stupa / Duobao Pagoda	proper noun	塔	Pagoda	佛教	Buddhism	中国	China	duobaota400.jpg	\N	Pagoda on Mount Putuo (Baike '多宝佛塔')	7003240
+7003241	佛说四十二章经	佛說四十二章經	Sì Shí è Zhāng Jīng	The Sutra of Forty-Two Sections	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	(FGDB '四十二章經')	7003241
+7003242	蓝毗尼	藍毗尼	lánpíní	Lumbini	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	See 藍毘尼園 (FGDB '藍毘尼園')	7003242
+7003243	岚毘尼	嵐毘尼	lánpíní	Lumbini	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	See 藍毘尼園 (FGDB '藍毘尼園')	7003243
+7003244	腊伐尼	臘伐尼	làfání	Lumbini	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	See 藍毘尼園 (FGDB '藍毘尼園')	7003244
+7003245	浮图纳特塔	浮圖納特塔	fútúnàté tǎ	Boudha / Boudhanath	proper noun	佛塔	Stupa	佛教	Buddhism	\N	\N	\N	\N	Located in Kathmandu, Nepal (Wikipedia '满愿塔')	7003245
+7003246	佛所行赞	佛所行讚	Fó Suǒ Xíng Zàn	Buddhacarita	proper noun	书	Book	佛教	Buddhism	\N	\N	\N	\N	Sanskrit: buddhacarita, Japanese: Butsushogyōsan. The Buddhacarita is a text circa 2nd century by Aśvaghoṣa 馬鳴 describing the life of the Buddha, included in the Chinese Buddhist canon (KDC 'K 980'; T 192; BL 'Buddhacarita'; FGDB '佛所行讚'; Hsing Yun and Miao Guang trans. 2016, p. 370)	7003246
+7003247	佛所行贊	\N	Fó Suǒ Xíng Zàn	Buddhacarita	proper noun	书	Book	佛教	Buddhism	\N	\N	\N	\N	See 佛所行讚 (FGDB '佛所行讚')	7003247
+7003248	域龙	域龍	Yù Lóng	Dignāga	proper noun	论师	Pandit	佛教	Buddhism	\N	\N	\N	\N	See 陳那 (FGDB '陳那')	7003248
+7003249	维摩诘所说经	維摩詰所說經	Wéimójié Suǒ Shuō Jīng	Vimalakirti Sutra / Vimalakirti Nirdesa Sutra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Vimalakīrtinirdeśasūtra; the popular translation of the text in the Chinese Buddhist canon (KDC 119; T 475)	7003249
