@@ -689,7 +689,7 @@ Do not press a desperate foe too hard.
 Such is the art of warfare.
 
 九變第八
-Section VIII: Variation in Tactics
+[p. 71] Section VIII: Variation in Tactics
 
 孫子曰：凡用兵之法，將受命於君，合軍聚眾。
 Sun Tzu said: In war, the general receives his commands from the sovereign, collects his army and concentrates his forces. 
@@ -697,6 +697,7 @@ Sun Tzu said: In war, the general receives his commands from the sovereign, coll
 圮地無舍，衢地合交，絕地無留，圍地則謀，死地則戰。
 When in difficult country, do not encamp.
 In country where high roads intersect, join hands with your allies. 
+[p. 72] Do not linger in dangerously isolated positions. 
 In hemmed-in situations, you must resort to stratagem. 
 In desperate position, you must fight. 
 
