@@ -6665,3 +6665,4 @@
 6006665	诺贝尔	諾貝爾	nuòbèi'ěr	Nobel	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(Wikipedia '诺贝尔文学奖')	6006665
 6006666	诺贝尔文学奖	諾貝爾文學獎	nuòbèi'ěr wénxué jiǎng	Nobel Prize in Literature	proper noun	诺贝尔奖	Nobel Prize	文学	Literature	\N	\N	\N	\N	(Wikipedia '诺贝尔文学奖')	6006666
 6006667	诺贝尔奖	諾貝爾獎	Nuòbèi'ěr jiǎng	Nobel prize	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '諾貝爾獎'; Guoyu '諾貝爾獎')	6006667
+6006668	中芯国际	中芯國際	zhōngxīn guójì	Semiconductor Manufacturing International Corporation	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '中芯国际')	6006668

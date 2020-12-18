@@ -14,3 +14,5 @@ LOAD DATA LOCAL INFILE 'data/licenses.txt' INTO TABLE licenses CHARACTER SET utf
 LOAD DATA LOCAL INFILE 'data/authors.txt' INTO TABLE authors CHARACTER SET utf8mb4 LINES TERMINATED BY '\n';
 LOAD DATA LOCAL INFILE 'data/illustrations.txt' INTO TABLE illustrations CHARACTER SET utf8mb4 LINES TERMINATED BY '\n';
 SHOW WARNINGS;
+
+select count(*) from words;
