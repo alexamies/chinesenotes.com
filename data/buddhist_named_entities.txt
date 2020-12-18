@@ -3247,3 +3247,6 @@
 7003247	佛所行贊	\N	Fó Suǒ Xíng Zàn	Buddhacarita	proper noun	书	Book	佛教	Buddhism	\N	\N	\N	\N	See 佛所行讚 (FGDB '佛所行讚')	7003247
 7003248	域龙	域龍	Yù Lóng	Dignāga	proper noun	论师	Pandit	佛教	Buddhism	\N	\N	\N	\N	See 陳那 (FGDB '陳那')	7003248
 7003249	维摩诘所说经	維摩詰所說經	Wéimójié Suǒ Shuō Jīng	Vimalakirti Sutra / Vimalakirti Nirdesa Sutra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Vimalakīrtinirdeśasūtra; the popular translation of the text in the Chinese Buddhist canon (KDC 119; T 475)	7003249
+7003250	毗舍离	毗舍離	Píshèlí	Vaisali / Vaissali / Vaishali / City of Vaisali	proper noun	城市	City	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: vaiśālī, Pāli: vesālī; an ancient city in Bihar state, India visited by the Buddha many times (FGDB '毘舍離'; Wikipedia '毗舍離')	7003250
+7003251	金刚般若波罗蜜多经	金剛般若波羅蜜多經	jīngāng bānruòbōmì jīng	Prajnaparamita Diamond Sūtra / Diamond Sūtra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: vajracchedikāprajñāpāramitāsūtra, a variant of the more commonly used 金剛般若波羅蜜經 (FGDB '金剛般若波羅蜜經')	7003251
+7003252	拘萨罗	拘薩羅	Jūsàluó	Kośala / Kosala	proper noun	王国	Kingdom	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: kośala, Pāli: kosala, a kingdom in ancient India in the Buddha's time where he lived and taught for some time. See 十六大國 (FGDB '憍薩羅國'; BL 'Kośala').	7003252

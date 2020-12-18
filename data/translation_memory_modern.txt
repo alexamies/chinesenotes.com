@@ -379,3 +379,10 @@
 5000379	我误会你了	我誤會你了	wǒ wùhuì nǐ le	I misjudged you	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '誤會')	5000379
 5000380	一场误会	一場誤會	yī chǎng wùhuì	one mistake	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '誤會')	5000380
 5000381	西式的餐点	西式的餐點	xīshì de cāndiǎn	Western style dishes	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '西餐')	5000381
+5000382	三桌客人	\N	sān zhuō kèrén	three tables of guests	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '桌')	5000382
+5000383	挽救国家	挽救國家	wǎnjiù guójiā	save the nation	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '犧牲')	5000383
+5000384	他牺牲了生命	他犧牲了生命	tā xīshēng le shēngmìng	he sacrificed his life	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '犧牲')	5000384
+5000385	单细胞的微生物	單細胞的微生物	dānxìbāo de wēishēngwù	a single-celled microorganism	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '細菌')	5000385
+5000386	现实的条件	現實的條件	xiànshí de tiáojiàn	actual conditions	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '現實')	5000386
+5000387	城市以外	\N	chéngshì yǐwài	outside the city 	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '鄉下')	5000387
+5000388	黑暗的角落	\N	hēiàn de jiǎoluò	a dark corner	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '消失')	5000388
