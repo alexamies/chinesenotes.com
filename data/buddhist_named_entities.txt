@@ -3250,3 +3250,25 @@
 7003250	毗舍离	毗舍離	Píshèlí	Vaisali / Vaissali / Vaishali / City of Vaisali	proper noun	城市	City	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: vaiśālī, Pāli: vesālī; an ancient city in Bihar state, India visited by the Buddha many times (FGDB '毘舍離'; Wikipedia '毗舍離')	7003250
 7003251	金刚般若波罗蜜多经	金剛般若波羅蜜多經	jīngāng bānruòbōmì jīng	Prajnaparamita Diamond Sūtra / Diamond Sūtra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: vajracchedikāprajñāpāramitāsūtra, a variant of the more commonly used 金剛般若波羅蜜經 (FGDB '金剛般若波羅蜜經')	7003251
 7003252	拘萨罗	拘薩羅	Jūsàluó	Kośala / Kosala	proper noun	王国	Kingdom	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: kośala, Pāli: kosala, a kingdom in ancient India in the Buddha's time where he lived and taught for some time. See 十六大國 (FGDB '憍薩羅國'; BL 'Kośala').	7003252
+7003253	安玄	\N	Ān Xuán	An Xuan	proper noun	居士	Layperson	佛教	Buddhism	\N	\N	\N	\N	Buddhist layperson who worked with 安世高 An Shigao in translation of Buddhist texts (BSAD '安玄', ID A000367; FGDB '安玄') 	7003253
+7003254	支曜	\N	Zhī Yào	Zhi Yao	proper noun	法师	Monk	佛教	Buddhism	\N	\N	\N	\N	Buddhist monk from Gandhara, disciple of Lokaksema, traveled to China in the Later Han, translated the Sutra on the Completion of Brightness into Chinese among others (FGDB '支曜') 	7003254
+7003255	支谦	支謙	Zhī qiān	Zhi Qian	proper noun	居士	Layperson	佛教	Buddhism	\N	\N	\N	\N	222-252 CE; layperson from Gandhara who translated Buddhist texts to Chinese (BSAD '支謙'; FGDB '支謙'; Wikipedia '支謙')	7003255
+7003256	康僧会	康僧會	Kāng Sēng Huì	Kang Seng Hui	proper noun	法师	Monk	佛教	Buddhism	\N	\N	\N	\N	?-282 CE; Sogdian monk who translated Buddhist texts to Chinese (BSAD '康僧會', ID A001046; FGDB '康僧會'; Wikipedia '康僧會')	7003256
+7003257	竺法护	竺法護	Zhú Fǎ Hù	Dharmarakṣa	proper noun	法师	Monk	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: dharmarakṣa, c. 230 CE, from Dunhuang, made the first known translation of the Lotus Sutra (FGDB '竺法護')	7003257
+7003258	乌臼	烏臼	wūjiù	Wujiu	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	Tang dynasty monastic (BSAD '烏臼和尚', ID A019912)	7003258
+7003259	广严	廣嚴	guǎngyán	Vesālī / Vaisali / Vaissali / Vaishali / City of Vaisali	proper noun	古城	Ancient City	佛教	Buddhism	印度	India	\N	\N	See 毘舍離 (FGDB '毘舍離')	7003259
+7003260	广严城	廣嚴城	Guǎngyán Chéng	Vesālī / Vaisali / Vaissali / Vaishali / City of Vaisali	proper noun	古城	Ancient City	佛教	Buddhism	印度	India	\N	\N	 See 毘舍離 (FGDB '毘舍離')	7003260
+7003261	枳秣罗国	枳秣羅國	Zhǐmòluó Guó	Malakūṭa	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	See 秣羅矩吒國 (FGDB '秣羅矩吒國')	7003261
+7003262	憍陈如	憍陳如	jiāochénrú	Kaundinya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: kauṇḍinya; first disciple of the Buddha (FGDB '憍陳如'; SH '憍陳如' p. 433)	7003262
+7003263	车匿	車匿	Chēnì	Channa / Chandaka	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Charioteer for Prince Siddhartha (Ding '車匿'; FGDB '車匿'; SH '車匿')	7003263
+7003264	转法轮经	轉法輪經	Zhuǎn Fǎlún Jīng	Dharmacakrapravartanasūtra / Dharmacakra Pravartana Sūtra / Setting in Motion the Wheel of the Dhamma	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: dharmacakrapravartanasūtra, literally, <em>The Setting in Motion of the Wheel of Dharma</em>, the Buddha's first discourse after he attained enlightenment. This is the title of the sūtra in the Agama section of the Chinese Buddhist canon (T 109, K 741). 	7003264
+7003265	大乘庄严宝王经	大乘莊嚴寶王經	Dàchéng Zhuāngyán Bǎo Wáng Jīng	The Mahayana Sublime Treasure King Sutra / Karandavyuha Sutra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: kāraṇḍavyūha sūtra (FGDB '大乘莊嚴寶王經'; T 1050)	7003265
+7003266	舍身饲虎	捨身飼虎	shěshēn sì hǔ	Prince Mahasattva Jataka	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Story about the prince giving his life to a tiger (FGDB '孔望山漢代摩崖像')	7003266
+7003267	萨埵那	薩埵那	Sàduǒnà	Prince Mahasattva	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Central character in a story about the prince giving his life to a tiger (FGDB '本生圖')	7003267
+7003268	桑吉	\N	sānghí	Sanchi Ruins	proper noun	\N	\N	佛教	Buddhism	印度	India	\N	\N	Historic site in central India (Wikipedia '桑吉')	7003268
+7003269	须摩提	須摩提	xūmótí	Sumati	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Sumati; A woman from Sravasti in ancient India (FBDB '須摩提'; BCSD '須摩提')	7003269
+7003270	修摩提	\N	xiūmótí	Sumagadhi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	A woman from Sravasti in ancient India (T 128b)	7003270
+7003271	三摩竭	\N	sānmójié	Sumagadhi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	A woman from Sravasti in ancient India; also written 修摩提 (T 129)	7003271
+7003272	频婆娑罗	頻婆娑羅	pínpósuōluó	King Bimbisāra	proper noun	王	King	佛教	Buddhism	印度	India	\N	\N	See 頻婆娑羅王 (FGDB '頻婆娑羅王')	7003272
+7003273	摩诃菩提寺	摩訶菩提寺	Móhē Pútí Sì	Mahabodhi Temple	proper noun	寺	Temple	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: mahābodhi maṃdira, temple in Bodh Gaya, the locatation where the Buddha attained enlightenment (FGDB '摩訶菩提寺')	7003273
+7003274	陳兵	\N	chén bīng	Chen Bing	proper noun	学者	Scholar	佛教	Buddhism	中国	China	\N	\N	1945-, a Chinese  Buddhist scholar (FGDB '陳兵')	66750
