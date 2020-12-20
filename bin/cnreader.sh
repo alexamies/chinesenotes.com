@@ -67,6 +67,7 @@ mkdir $WEB_DIR/analysis/xiaojing
 mkdir $WEB_DIR/analysis/xintangshu
 mkdir $WEB_DIR/analysis/xinwudaishi
 mkdir $WEB_DIR/analysis/xiyouji
+mkdir $WEB_DIR/analysis/xinshu
 mkdir $WEB_DIR/analysis/xinyu
 mkdir $WEB_DIR/analysis/xunzi
 mkdir $WEB_DIR/analysis/yanshijiaxun
@@ -143,6 +144,7 @@ mkdir $WEB_DIR/words
 mkdir $WEB_DIR/xiaojing
 mkdir $WEB_DIR/xintangshu
 mkdir $WEB_DIR/xinwudaishi
+mkdir $WEB_DIR/xinshu
 mkdir $WEB_DIR/xinyu
 mkdir $WEB_DIR/xiyouji
 mkdir $WEB_DIR/xunzi

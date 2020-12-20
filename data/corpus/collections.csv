@@ -22,6 +22,7 @@ shuoyuan.csv	shuoyuan.html	Garden of Stories 說苑	An early collection of stori
 taixuanjing.csv	taixuanjing.html	Canon of Supreme Mystery 太玄經	A text on divination by Han scholar 扬雄 Yang Xiong	taixuanjing/taixuanjing000.txt	Literary Chinese	Prose	Han	Literature
 fayan.csv	fayan.html	Exemplary Figures 法言	Composed by Han scholar 扬雄 Yang Xiong	fayan/fayan000.txt	Literary Chinese	Prose	Han	Literature
 xinyu.csv	xinyu.html	New Discussions 新語	by Western Han scholar 陸賈 Lu Jia (d. 170 BCE)	xinyu/xinyu000.txt	Literary Chinese	Prose	Han	Literature
+xinshu.csv	xinshu.html	Xin Shu 新書	by Western Han scholar 賈誼 Jia Yi (d. 169 BCE)	xinshu/xinshu000.txt	Literary Chinese	Prose	Han	Literature
 chunqiufanlu.csv	chunqiufanlu.html	Luxuriant Dew of the Spring and Autumn Annals 春秋繁露	Also known as Chunqiu Fanlu, attributed to Han scholar 董仲舒 Dong Zhongshu	chunqiufanlu/chunqiufanlu000.txt	Literary Chinese	Prose	Han	Literature
 shiji.csv	shiji.html	Records of the Grand Historian 史記	By 司馬遷 Sima Qian, the first of the standard Chinese histories	shiji/shiji000.txt	Literary Chinese	Prose	109-91 BCE	historic
 hanshu.csv	hanshu.html	Book of Han 漢書	The second of the standard Chinese histories by 班固 Ban Gu with others, covering the 西漢 Western [Former] Han dynasty 206 BCE - 25 CE	hanshu/hanshu000.txt	Literary Chinese	Prose	111 CE	historic

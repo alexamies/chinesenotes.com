@@ -41,13 +41,17 @@
 <h4>Discussion</h4>
 <ol>
   <li>
+    Davidson, Steve and Michael Lowe 1993, “Ch'un ch'iu fan lu 春秋繁露,”
+    In Michael Loewe, (ed.), <i>Early Chinese Texts: A Bibliographical Guide</i>,
+    Berkeley: Society for the Study of Early China, pp. 77-87.
+  </li>
+  <li>
     Idema, W L and Haft, L 1997, <i>A Guide to Chinese Literature</i>, 
     Ann Arbor: Center for Chinese Studies, University of Michigan, p. 88.
   </li>
   <li>
-    Davidson, Steve and Michael Lowe 1993, “Ch'un ch'iu fan lu 春秋繁露,”
-    In Michael Loewe, (ed.), <i>Early Chinese Texts: A Bibliographical Guide</i>,
-    Berkeley: Society for the Study of Early China, pp. 77-87.
+    Loewe, Michael 2011, <i>Dong Zhongshu, a “Confucian” Heritage and the
+    Chunqiu Fanlu</i>, Leiden, Netherlands: Brill.
   </li>
   <li>
     Queen S 1996, <i>From Chronicle to Canon: The Hermeneutics of the Spring and
