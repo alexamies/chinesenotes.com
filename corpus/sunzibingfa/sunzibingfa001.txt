@@ -897,7 +897,7 @@ you may know that they are determined to fight to the death.
 諄諄翕翕，徐與人言者，失衆也；
 The sight of men whispering together 
 in small knots
-[p. 94] or speaking in subdued tones
+[p. 95] or speaking in subdued tones
 points to disaffection amongst the rank and file. 
 
 數賞者，窘也；數罰者，困也；
@@ -911,7 +911,7 @@ To begin by bluster, but afterwards to take fright at the enemy's numbers, shows
 When envoys are sent with compliments in their mouths, it is a sign that the enemy wishes for a truce. 
 
 兵怒而相迎，久而不合，又不相去，必謹察之。
-If the enemy's troops march up angrily and remain facing ours for a long time without either joining battle or taking themselves off again, the situation is one that demands great vigilance and circumspection. 
+[p. 96] If the enemy's troops march up angrily and remain facing ours for a long time without either joining battle or taking themselves off again, the situation is one that demands great vigilance and circumspection. 
 
 故兵非貴益多也，惟無武進，足以併力、料敵、取人而已。
 If our troops are no more in number than the enemy, that is amply sufficient; 
@@ -919,10 +919,14 @@ it only means that no direct attack can be made.
 What we can do is simply to concentrate all our available strength, keep a close watch on the enemy, and obtain reinforcements. 
 
 夫惟無慮而易敵者，必擒於人。
-He who exercises no forethought but makes light of his opponents is sure to be captured by them. 
+[p. 97] He who exercises no forethought but makes light of his opponents is sure to be captured by them. 
 
 卒未親附而罰之，則不服，不服則難用也。
-If soldiers are punished before they have grown attached to you, they will not prove submissive; and, unless submissive, then will be practically useless. If, when the soldiers have become attached to you, punishments are not enforced, they will still be useless. 
+If soldiers are punished before they have grown 
+[p. 98] attached to you, they will not prove submissive; and, unless submissive, then will be practically useless. If, when the soldiers have become attached to you, punishments are not enforced, they will still be useless.
+
+故令之以文齊之以武是謂必取
+Therefore soldiers must be treated in the first instance with humanity, but kept under control by means of iron discipline.
 This is a certain road to victory. 
 
 卒已親附而罰不行，則不可用也。故合之以文，齊之以武，是謂必取。
@@ -930,13 +934,13 @@ If in training soldiers commands are habitually enforced, the army will be well-
 
 令素行以教其民，則民服；令素不行以教其民，則民不服。令素行者，與衆相得也。
 If a general shows confidence in his men but always insists on his orders being obeyed, 
-the gain will be mutual. 
+[p. 99] the gain will be mutual. 
 
 地形第十
 Section X: Terrain
 
 孫子曰：凡地形有通者、有掛者、有支者、有隘者、有險者、有遠者。
-Sun Tzu said: We may distinguish six kinds of terrain, to wit: 
+[p. 100] Sun Tzu said: We may distinguish six kinds of terrain, to wit: 
 (1) Accessible ground; 
 (2) entangling ground; 
 (3) temporizing ground; 
@@ -945,13 +949,13 @@ Sun Tzu said: We may distinguish six kinds of terrain, to wit:
 (6) positions at a great distance from the enemy.
 
 我可以往，彼可以來，曰通。
-2. Ground which can be freely traversed by both sides is called accessible. 
+[p. 101] 2. Ground which can be freely traversed by both sides is called accessible. 
 
 通形者，先居高陽，利糧道，以戰則利。
 With regard to ground of this nature, be before the enemy in occupying the raised and sunny spots, and carefully guard your line of supplies. Then you will be able to fight with advantage.
 
 可以往，難以返，曰掛。
-Ground which can be abandoned but is hard to re-occupy is called entangling. 
+[p. 102] Ground which can be abandoned but is hard to re-occupy is called entangling. 
 
 掛形者，敵無備，出而勝之；敵若有備，出而不勝，難以返，不利。
 From a position of this sort, if the enemy is unprepared, you may sally forth and defeat him. But if the enemy is prepared for your coming, and you fail to defeat him, then, return being impossible, disaster will ensue.
@@ -963,7 +967,7 @@ When the position is such that neither side will gain by making the first move, 
 In a position of this sort, even though the enemy should offer us an attractive bait, it will be advisable not to stir forth, but rather to retreat, thus enticing the enemy in his turn; then, when part of his army has come out, we may deliver our attack with advantage.
 
 隘形者，我先居之，必盈之以待敵。
-With regard to narrow passes, if you can occupy them first, let them be strongly garrisoned and await the advent of the enemy. 
+[p. 103] With regard to narrow passes, if you can occupy them first, let them be strongly garrisoned and await the advent of the enemy. 
 
 若敵先居之，盈而勿從，不盈而從之。
 Should the army forestall you in occupying a pass, do not go after him if the pass is fully garrisoned, but only if it is weakly garrisoned. 
@@ -972,7 +976,7 @@ Should the army forestall you in occupying a pass, do not go after him if the pa
 With regard to precipitous heights, if you are beforehand with your adversary, you should occupy the raised and sunny spots, and there wait for him to come up.
 
 若敵先居之，引而去之，勿從也。
-If the enemy has occupied them before you, do not follow him, but retreat and try to entice him away. 
+[p. 104] If the enemy has occupied them before you, do not follow him, but retreat and try to entice him away. 
 
 遠形者，勢均，難以挑戰，戰而不利。
 If you are situated at a great distance from the enemy, and the strength of the two armies is equal, it is not easy to provoke a battle, and fighting will be to your disadvantage. 
@@ -981,49 +985,51 @@ If you are situated at a great distance from the enemy, and the strength of the 
 These six are the principles connected with Earth. The general who has attained a responsible post must be careful to study them.
 
 故兵有走者、有弛者、有陷者、有崩者、有亂者、有北者。凡此六者，非天之災，將之過也。
-Now an army is exposed to six several calamities, not arising from natural causes, but from faults for which the general is responsible. These are: (1) Flight; (2) insubordination; (3) collapse; (4) ruin; (5) disorganization; (6) rout. 
+[p. 105] Now an army is exposed to six several calamities, not arising from natural causes, but from faults for which the general is responsible. These are: (1) Flight; (2) insubordination; (3) collapse; (4) ruin; (5) disorganization; (6) rout. 
 
 夫勢均，以一擊十，曰走；
 Other conditions being equal, if one force is hurled against another ten times its size, the result will be the flight of the former. 
 
 卒强吏弱，曰弛；吏强卒弱，曰陷；
-When the common soldiers are too strong and their officers too weak, the result is insubordination. When the officers are too strong and the common soldiers too weak, the result is collapse.
+When the common soldiers are too strong and their officers too weak, the result is insubordination. 
+[p. 106] When the officers are too strong and the common soldiers too weak, the result is collapse.
 
 大吏怒而不服，遇敵懟而自戰，將不知其能，曰崩；
 When the higher officers are angry and insubordinate, and on meeting the enemy give battle on their own account from a feeling of resentment, before the commander-in-chief can tell whether or not he is in a position to fight, the result is ruin.
 
 將弱不嚴，教道不明，吏卒無常，陳兵縱橫，曰亂；
-When the general is weak and without authority; when his orders are not clear and distinct; when there are no fixed duties assigned to officers and men, and the ranks are formed in a slovenly haphazard manner, the result is utter disorganization.
+[p. 107] When the general is weak and without authority; when his orders are not clear and distinct; when there are no fixed duties assigned to officers and men, and the ranks are formed in a slovenly haphazard manner, the result is utter disorganization.
 
 將不能料敵，以少合衆，以弱擊強，兵無選鋒，曰北。
 When a general, unable to estimate the enemy's strength, allows an inferior force to engage a larger one, or hurls a weak detachment against a powerful one, and neglects to place picked soldiers in the front rank, the result must be rout.
 
 凡此六者，敗之道也，將之至任，不可不察也。
-These are six ways of courting defeat, which must be carefully noted by the general who has attained a responsible post.
+[p. 108] These are six ways of courting defeat, which must be carefully noted by the general who has attained a responsible post.
 
 夫地形者，兵之助也。料敵制勝，計險厄遠近，上將之道也。
-The natural formation of the country is the soldier's best ally; but a power of estimating the adversary, of controlling the forces of victory, and of shrewdly calculating difficulties, dangers and distances, constitutes the test of a great general.
+The natural formation of the country is the soldier's best ally; but a power of estimating the adversary, of controlling the forces of victory, and of shrewdly calculating difficulties, dangers and distances, 
+[p. 109] constitutes the test of a great general.
 
 知此而用戰者必勝，不知此而用戰者必敗。
 He who knows these things, and in fighting puts his knowledge into practice, will win his battles. He who knows them not, nor practices them, will surely be defeated. 
 
-故戰道必勝，主曰無戰，必戰可也；
+故戰道必勝，主曰無戰，必戰可也；戰道不勝，主曰必戰，無戰可也。
 If fighting is sure to result in victory, then you must fight, even though the ruler forbid it; if fighting will not result in victory, then you must not fight even at the ruler's bidding.
 
-戰道不勝，主曰必戰，無戰可也。是故進不求名，退不避罪，唯民是保，而利合於主，國之寶也。
-The general who advances without coveting fame and retreats without fearing disgrace, whose only thought is to protect his country and do good service for his sovereign, is the jewel of the kingdom.
+是故進不求名，退不避罪，唯民是保，而利合於主，國之寶也。
+[p. 110] The general who advances without coveting fame and retreats without fearing disgrace, whose only thought is to protect his country and do good service for his sovereign, is the jewel of the kingdom.
 
 視卒如嬰兒，故可以與之赴深溪；視卒如愛子，故可與之俱死。
 Regard your soldiers as your children, and they will follow you into the deepest valleys; look upon them as your own beloved sons, and they will stand by you even unto death.
 
 厚而不能使，愛而不能令，亂而不能治，譬若驕子，不可用也。
-If, however, you are indulgent, but unable to make your authority felt; kind-hearted, but unable to enforce your commands; and incapable, moreover, of quelling disorder: then your soldiers must be likened to spoilt children; they are useless for any practical purpose.
+[p. 111] If, however, you are indulgent, but unable to make your authority felt; kind-hearted, but unable to enforce your commands; and incapable, moreover, of quelling disorder: then your soldiers must be likened to spoilt children; they are useless for any practical purpose.
 
 知吾卒之可以擊，而不知敵之不可擊，勝之半也；
 If we know that our own men are in a condition to attack, but are unaware that the enemy is not open to attack, we have gone only halfway towards victory.
 
 知敵之可擊，而不知吾卒之不可以擊，勝之半也；
-If we know that the enemy is open to attack, but are unaware that our own men are not in a condition to attack, we have gone only halfway towards victory. 
+[p. 112] If we know that the enemy is open to attack, but are unaware that our own men are not in a condition to attack, we have gone only halfway towards victory. 
 
 知敵之可擊，知吾卒之可以擊，而不知地形之不可以戰，勝之半也。
 If we know that the enemy is open to attack, and also know that our men are in a condition to attack, but are unaware that the nature of the ground makes fighting impracticable, we have still gone only halfway towards victory. 
@@ -1032,13 +1038,14 @@ If we know that the enemy is open to attack, and also know that our men are in a
 Hence the experienced soldier, once in motion, is never bewildered; once he has broken camp, he is never at a loss. 
 
 故曰：知彼知己，勝乃不殆；知天知地，勝乃可全。
-Hence the saying: If you know the enemy and know yourself, your victory will not stand in doubt; if you know Heaven and know Earth, you may make your victory complete.
+Hence the saying: If you know the enemy and know yourself, your victory will not stand in doubt; 
+[p. 113] if you know Heaven and know Earth, you may make your victory complete.
 
 九地第十一
 Section XI: The Nine Situations
 
 孫子曰：凡用兵之法，有散地，有輕地，有爭地，有交地，有衢地，有重地，有圮地，有圍地，有死地。
-Sun Tzu said that the art of war recognizes nine varieties of ground: (1) Dispersive ground; (2) facile ground; (3) contentious ground; (4) open ground; (5) ground of intersecting highways; (6) serious ground; (7) difficult ground; (8) hemmed-in ground; (9) desperate ground. 
+[p. 114] Sun Tzu said that the art of war recognizes nine varieties of ground: (1) Dispersive ground; (2) facile ground; (3) contentious ground; (4) open ground; (5) ground of intersecting highways; (6) serious ground; (7) difficult ground; (8) hemmed-in ground; (9) desperate ground. 
 
 諸侯自戰其地者，為散地；
 When a chieftain is fighting in his own territory, it is dispersive ground.

@@ -3272,3 +3272,17 @@
 7003272	频婆娑罗	頻婆娑羅	pínpósuōluó	King Bimbisāra	proper noun	王	King	佛教	Buddhism	印度	India	\N	\N	See 頻婆娑羅王 (FGDB '頻婆娑羅王')	7003272
 7003273	摩诃菩提寺	摩訶菩提寺	Móhē Pútí Sì	Mahabodhi Temple	proper noun	寺	Temple	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: mahābodhi maṃdira, temple in Bodh Gaya, the locatation where the Buddha attained enlightenment (FGDB '摩訶菩提寺')	7003273
 7003274	陳兵	\N	chén bīng	Chen Bing	proper noun	学者	Scholar	佛教	Buddhism	中国	China	\N	\N	1945-, a Chinese  Buddhist scholar (FGDB '陳兵')	66750
+7003275	明光王	\N	míngguāng wáng	King Prasenajit	proper noun	国王	King	佛教	Buddhism	印度	India	\N	\N	See 波斯匿王 (FGDB '波斯匿王')	7003275
+7003276	马大师	馬大師	mǎdàshī	Mazu Daoyi / Mazu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 馬祖道一 (FGDB '馬祖道一')	7003276
+7003277	罗摩经	羅摩經	luómójīng	Discourse on the Noble Quest / Ariyapariyesana Sutta	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	(BL 'ariyapariyesanasutta', p. 62)	7003277
+7003278	圣求经	聖求經	shèngqiújīng	Discourse on the Noble Quest / Ariyapariyesana Sutta	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	See 羅摩經 (BL 'ariyapariyesanasutta', p. 62)	7003278
+7003279	须摩提女经	須摩提女經	Xūmótí Nǚ Jīng	Xumoti Nu Jing / Sumāgadhāvadānasūtra / Sumāgadha Avadāna Sūtra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	(T 128a; Lancaster 2004 'K 723')	7003279
+7003280	契丹大藏经	契丹大藏經	Qìdān Dà Zàng Jīng	Khitan Tripitaka	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Completed in 1054, used in the Liao Dynasty (FGDB '契丹')	7003280
+7003281	房山石经	房山石經	Fáng Shān Shí Jīng	Fang Shan Stone Sutras	proper noun	大藏经	Tripitaka	佛教	Buddhism	中国	China	\N	\N	A version of the Khitan Tripitaka discovered in the Fang Shan district of Beijing area (BL 'Fangshan Shijing', FGDB '石經')	7003281
+7003282	龙藏	龍藏	Lóng Zàng	Qian Long Canon / Long Zang	proper noun	大藏经	Tripitaka	佛教	Buddhism	中国	China	\N	\N	Completed in 1738, a version of the Chinese Buddhist Canon (FGDB '中文大藏經')	7003282
+7003283	八万大藏经	八萬大藏經	Bā Wàn Dà Zàng Jīng	Tripitaka Koreana	proper noun	大藏经	Tripitaka	佛教	Buddhism	\N	\N	\N	\N	Completed in 1251, Korean version of the Chinese Buddhist Canon (Wikipedia '高丽大藏经')	7003283
+7003284	高丽大藏经	高麗大藏經	Gāolì Dà Zàng Jīng	Tripitaka Koreana / Koryo taejangyong	proper noun	大藏经	Tripitaka	佛教	Buddhism	\N	\N	\N	\N	Completed in 1251, Korean version of the Chinese Buddhist Canon (BL 'Koryo taejangyong', p. 442)	7003284
+7003285	卍续藏	卍續藏	Wàn Xù Zàng	Zokuzōkyō	proper noun	大藏经	Buddhist Canon	佛教	Buddhism	日本	Japan	\N	\N	A Japanese collection of Buddhist texts; see 大日本續藏經 (FGDB '大日本續藏經')	7003285
+7003286	阿罗逻迦蓝	阿羅邏迦藍	aluóluó jiālán	Āḷāra Kālāma / Alara Kalama / Arada Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: Ārāda Kālāma, Pali: Āḷāra Kālāma, Japanese: Ararakaran; one of the Buddha's meditation teachers before his enlightenment (BL 'Āḷāra Kālāma'; Ding '阿羅邏'; FGDB '阿羅邏迦藍'; SH '阿羅邏'; Wikipedia '阿羅邏伽藍')	7003286
+7003287	阿罗拏迦罗摩	阿囉拏迦羅摩	aluōná jiāluómó	Āḷāra Kālāma / Alara Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 阿羅邏迦藍 (FGDB '阿羅邏迦藍')	7003287
+7003288	中华大藏经	中華大藏經	Zhōnghuá Dà Zàng Jīng	Tripitaka Sinica / Zhonghua Canon	proper noun	大藏经	Buddhist Canon	佛教	Buddhism	中国	China	\N	\N	A modern version of the Chinese Buddhist Canon produced in 1956 in Taiwan (FGDB '中文大藏經')	7003288
