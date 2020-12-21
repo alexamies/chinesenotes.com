@@ -3281,8 +3281,46 @@
 7003281	房山石经	房山石經	Fáng Shān Shí Jīng	Fang Shan Stone Sutras	proper noun	大藏经	Tripitaka	佛教	Buddhism	中国	China	\N	\N	A version of the Khitan Tripitaka discovered in the Fang Shan district of Beijing area (BL 'Fangshan Shijing', FGDB '石經')	7003281
 7003282	龙藏	龍藏	Lóng Zàng	Qian Long Canon / Long Zang	proper noun	大藏经	Tripitaka	佛教	Buddhism	中国	China	\N	\N	Completed in 1738, a version of the Chinese Buddhist Canon (FGDB '中文大藏經')	7003282
 7003283	八万大藏经	八萬大藏經	Bā Wàn Dà Zàng Jīng	Tripitaka Koreana	proper noun	大藏经	Tripitaka	佛教	Buddhism	\N	\N	\N	\N	Completed in 1251, Korean version of the Chinese Buddhist Canon (Wikipedia '高丽大藏经')	7003283
-7003284	高丽大藏经	高麗大藏經	Gāolì Dà Zàng Jīng	Tripitaka Koreana / Koryo taejangyong	proper noun	大藏经	Tripitaka	佛教	Buddhism	\N	\N	\N	\N	Completed in 1251, Korean version of the Chinese Buddhist Canon (BL 'Koryo taejangyong', p. 442)	7003284
+7003284	高丽大藏经	高麗大藏經	Gāolì Dà Zàng Jīng	Tripitaka Koreana / Koryo taejangyong	proper noun	大藏经	Tripitaka	佛教	Buddhism	\N	\N	\N	\N	Completed in 1251, Korean version of the Chinese Buddhist Canon (BL 'Koryo taejangyong', p. 442; Wikipedia '高丽大藏经')	7003284
 7003285	卍续藏	卍續藏	Wàn Xù Zàng	Zokuzōkyō	proper noun	大藏经	Buddhist Canon	佛教	Buddhism	日本	Japan	\N	\N	A Japanese collection of Buddhist texts; see 大日本續藏經 (FGDB '大日本續藏經')	7003285
 7003286	阿罗逻迦蓝	阿羅邏迦藍	aluóluó jiālán	Āḷāra Kālāma / Alara Kalama / Arada Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: Ārāda Kālāma, Pali: Āḷāra Kālāma, Japanese: Ararakaran; one of the Buddha's meditation teachers before his enlightenment (BL 'Āḷāra Kālāma'; Ding '阿羅邏'; FGDB '阿羅邏迦藍'; SH '阿羅邏'; Wikipedia '阿羅邏伽藍')	7003286
 7003287	阿罗拏迦罗摩	阿囉拏迦羅摩	aluōná jiāluómó	Āḷāra Kālāma / Alara Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 阿羅邏迦藍 (FGDB '阿羅邏迦藍')	7003287
 7003288	中华大藏经	中華大藏經	Zhōnghuá Dà Zàng Jīng	Tripitaka Sinica / Zhonghua Canon	proper noun	大藏经	Buddhist Canon	佛教	Buddhism	中国	China	\N	\N	A modern version of the Chinese Buddhist Canon produced in 1956 in Taiwan (FGDB '中文大藏經')	7003288
+7003289	蕃大藏经	蕃大藏經	Fán Dà Zàng Jīng	Mi Canon / Tangut Canon	proper noun	大藏经	Buddhist Canon	佛教	Buddhism	中国	China	\N	\N	The Tangut canon (FGDB '安全國師')	7003289
+7003290	八廓	\N	Bākuò	Barkhor	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	Pilgrim circuit around Jokhang temple in Lhasa, Tibet (Wikipedia '八廓')	7003290
+7003291	如意宝树史	如意寶樹史	Rúyì Bǎo Shù Shǐ	History of the Mani Tree	proper noun	书	Book	佛教	Buddhism	西藏	Tibet	\N	\N	Book written by Sumpa Khenpo 松巴堪布 1704 - 1776 (Baike '如意宝树史'; FGDB ' 如意寶樹史')	7003291
+7003292	如意宝珠史	如意寶珠史	Rúyì Bǎo Shū Shǐ	History of the Mani Tree	proper noun	书	Book	佛教	Buddhism	西藏	Tibet	\N	\N	See 如意寶樹史 (FGDB ' 如意寶樹史')	7003292
+7003293	松巴活佛	\N	Sōng Bā Huó Fó	Sumpa Khenpo	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	1704 - 1776 (Wikipedia '松巴活佛')	7003293
+7003294	松巴堪布	\N	Sōng Bā Kānbù	Sumpa Khenpo	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 松巴活佛 (Wikipedia '松巴活佛')	7003294
+7003295	松巴勘布	\N	Sōng Bā Kānbù	Sumpa Khenpo	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	See 松巴活佛 (Wikipedia '松巴活佛')	7003295
+7003296	龙藏经	龍藏經	Lóng Zàng Jīng	Qian Long Tripitaka / Lung Tripitaka	proper noun	大藏经	Tripitaka	佛教	Buddhism	中国	China	\N	\N	Completed in 1738, a version of the Chinese Buddhist Canon (Wikipedia '龍藏經')	7003296
+7003297	清藏	\N	Qīng Jīng	Qian Long Tripitaka / Lung Tripitaka	proper noun	大藏经	Tripitaka	佛教	Buddhism	中国	China	\N	\N	See 龍藏經 (Wikipedia '龍藏經')	7003297
+7003298	乾隆大藏经	乾隆大藏經	Qián Lóng Dà Zàng Jīng	Qian Long Tripitaka / Lung Tripitaka	proper noun	大藏经	Tripitaka	佛教	Buddhism	中国	China	\N	\N	See 龍藏經 (Wikipedia '龍藏經')	7003298
+7003299	径山藏	徑山藏	Jìng Shān Zàng	Lengyan Temple Canon / Jiaxing Canon	proper noun	大藏經	Buddhist Canon	佛教	Buddhism	中国	China	\N	\N	See 楞嚴寺版 (FGDB '中華大藏經')	7003299
+7003300	方册藏	方冊藏	Fāng Cè Zàng	Lengyan Temple Canon / Jiaxing Canon	proper noun	大藏經	Buddhist Canon	佛教	Buddhism	中国	China	\N	\N	See 楞嚴寺版 (FGDB '中華大藏經')	7003300
+7003301	永乐北藏	永樂北藏	Yǒng Lè Běi Zàng	Yong Le Northern Tripitaka	proper noun	大藏经	Tripitaka	佛教	Buddhism	中国	China	\N	\N	Completed in 1440, a version of the Chinese Buddhist Canon (FGDB '永樂萬曆藏'; Wikipedia '永樂北藏')	7003301
+7003302	北藏	\N	Běi Zàng	Yong Le Northern Tripitaka	proper noun	大藏经	Tripitaka	佛教	Buddhism	中国	China	\N	\N	Completed in 1440, a version of the Chinese Buddhist Canon (FGDB '中文大藏經')	7003302
+7003303	金藏	\N	Jīn Zàng	Jin Canon / Zhao Cheng Jin Canon	proper noun	大藏经	Tripitaka	佛教	Buddhism	中国	China	\N	\N	Completed in 1173, a version of the Chinese Buddhist canon (FGDB '中文大藏經')	7003303
+7003304	赵城金藏	趙城金藏	Zhào Chéng Jīn Zàng	Zhaocheng Canon / Jin Canon / Zhaocheng Jin Zang	proper noun	大藏经	Buddhist Canon	佛教	Buddhism	中国	China	\N	\N	Completed in 1173, a version of the Chinese Buddhist Canon (FGDB '趙城金藏')	7003304
+7003305	高丽藏	高麗藏	Gāolì Zàng	Korean Canon / Tripitaka Koreana	proper noun	大藏经	Tripitaka	佛教	Buddhism	\N	\N	\N	\N	See 高麗大藏經 (Wikipedia '高丽大藏经')	7003305
+7003306	契丹藏	\N	Qìdān Zàng	Khitan Canon	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Completed in 1054, used in the Liao Dynasty (Wu 2016, loc. 597)	7003306
+7003307	永乐南藏	永樂南藏	Yǒng Lè Nán Zàng	Yong Le Southern Canon	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Completed in 1417, a version of the Chinese Buddhist Canon, a reprint of the 洪武南藏 Hongwu Southern Canon (FGDB '中文大藏經')	7003307
+7003308	南藏	\N	Nán Zàng	Southern Canon	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	A version of the Chinese Buddhist Canon, either the 洪武南藏 Hongwu Southern Canon or the 永樂南藏 Yong Le Southern Canon (FGDB '中文大藏經')	7003308
+7003309	再刻南藏	\N	Zài Kè Nán Zàng	Yong Le Southern Canon	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Completed in 1417, a version of the Chinese Buddhist Canon (Fang 2020, pp. 93-94)	7003309
+7003310	洪武南藏	\N	Hóng Wǔ Nán Zàng	Hong Wu Southern Canon	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Completed in 1399, a version of the Chinese Buddhist Canon (Fang 2020, p. 93; FGDB '中文大藏經')	7003310
+7003311	初刻南藏	\N	Chū Kè Nán Zàng	Hong Wu Southern Canon	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Completed in 1399, a version of the Chinese Buddhist Canon (Li 2020, p. 62)	7003311
+7003312	开宝藏	開寶藏	Kāi Bǎo Zàng	Kaibao Canon / Kaibaozang	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	The first version of the Chinese Buddhist Canon, printed in 971-983 (FGDB '開寶藏'; Li 2020, p. 62)	7003312
+7003313	阿罗罗伽罗摩	阿羅羅伽羅摩	aluóluó jiāluómó	Āḷāra Kālāma / Alara Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 阿羅邏迦藍 (FGDB '阿羅邏迦藍')	7003313
+7003314	阿蓝迦蓝	阿藍迦藍	alán jiālán	Āḷāra Kālāma / Alara Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 阿羅邏迦藍 (FGDB '阿羅邏迦藍')	7003314
+7003315	阿罗逻	阿羅邏	aluóluó	Āḷāra Kālāma / Alara Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 阿羅邏迦藍 (FGDB '阿羅邏迦藍')	7003315
+7003316	阿蓝	阿藍	alán	Āḷāra Kālāma / Alara Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 阿羅邏迦藍 (FGDB '阿羅邏迦藍')	7003316
+7003317	罗迦蓝	羅迦藍	luójiālán	Āḷāra Kālāma / Alara Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 阿羅邏迦藍 (FGDB '阿羅邏迦藍')	7003317
+7003318	迦罗摩	迦羅摩	jiāluómó	Āḷāra Kālāma / Alara Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 阿羅邏迦藍 (FGDB '阿羅邏迦藍')	7003318
+7003319	迦兰	迦蘭	jiālán	Āḷāra Kālāma / Alara Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 阿羅邏迦藍 (FGDB '阿羅邏迦藍')	7003319
+7003320	阿兰	阿蘭	alán	Āḷāra Kālāma / Alara Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 阿羅邏迦藍 (FGDB '阿羅邏迦藍')	7003320
+7003321	解深密经	解深密經	Jiě Shēn Mì Jīng	Sandhinir Mokcana Vyuha Sutra / Wisdom of Buddha	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Sandhīnirmocanasūtra; the name of a text in the Chinese Buddhist canon (KDC 154; T 676)	7003321
+7003322	拔除一切业障	拔除一切業障	Bá Chú Yīqiè Yèzhàng	Sutra of the Medicine Buddha / Sutra on the Master of Healing / Sutra to Eliminate Karmic Obstructions	proper noun	佛经	Buddhist Scripture	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: bhaiṣajyaguruvaidūryaprabharājasūtram (T 450)	7003322
+7003323	药师琉璃光如来本愿功德	藥師琉璃光如來本願功德	Yàoshī Liúlí Guāng Rúlái Běn Yuàn Gōngdé	Sutra of the Merit of the Medicine Buddha / Sutra on the Master of Healing / Sutra of the Merit of the Medicine Buddha of Pure Crystal Radiance	proper noun	佛经	Buddhist Scripture	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: bhaiṣajyaguruvaidūryaprabharājasūtram (T 450)	7003323
+7003324	药师如来本愿功德经	藥師如來本願功德經	Yàoshī Rúlái Běn Yuàn Gōngdé Jīng	Sutra of the Medicine Buddha / Sutra on the Master of Healing / Sutra of the Vows of the Medicine Buddha	proper noun	佛经	Buddhist Scripture	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Name of the Sutra as translated by Dharmagupta (T 449)	7003324
+7003325	药师琉璃光如来本愿功德经	藥師琉璃光如來本願功德經	Yàoshī Liúlí Guāng Rúlái Běn Yuàn Gōngdé Jīng	Sūtra of the Medicine Buddha / Sūtra on the Master of Healing / Sūtra of the Vows of the Medicine Buddha of Lapus Lazuli Crystal Radiance	proper noun	佛经	Buddhist Scripture	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Bhaiṣajyaguruvaiḍūryaprabhāsapūrvapraṇidhānaviśeṣavistara; the name of a text in the Chinese Buddhist canon (KDC 177; T 450)	7003325
+7003326	修行本起经	修行本起經	Xiūxíng Běn Qǐ Jīng	Xiuxing Ben Qi Jing / Cāryanidāna	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: cāryanidāna; a text describing Sakyamuni Buddha being born from Tushita Heaven and his life, in the Chinese Buddhist Canon (T 184; KDC 'K 765')	7003326
