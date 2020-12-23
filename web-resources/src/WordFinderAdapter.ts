@@ -60,7 +60,20 @@ export class WordFinderAdapter {
         };
         iTerms.push(iTerm);
       } else {
-        console.log(`WordViewFinder.showTerms no entry for ${t.getChinese()}`);
+        console.log(`WordFinderAdapter.transform no entry for ${t.getChinese()}`);
+        const iEntry = {
+          HeadwordId: 0,
+          Pinyin: "",
+          Senses: [],
+          Simplified: "",
+          Traditional: "",
+        };
+        const iTerm = {
+          DictEntry: iEntry,
+          QueryText: t.getChinese(),
+          Senses: [],
+        };
+        iTerms.push(iTerm);
       }
     }
     return iTerms;

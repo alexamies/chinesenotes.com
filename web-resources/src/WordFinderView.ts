@@ -84,7 +84,7 @@ export class WordFinderView {
    */
   private addTerms(terms: ITerm[], listId: string, termsDivId: string,
                    termsTitleId: string, outerDivId: string) {
-    console.log("showResults: detailed results for dictionary lookup");
+    console.log(`showResults: results for dictionary lookup: ${listId}`);
     const qList = document.getElementById(listId);
     if (qList) {
       while (qList.hasChildNodes()) {
@@ -95,7 +95,7 @@ export class WordFinderView {
     } else {
       console.log(`showResults: ${listId} not in DOM`);
     }
-    if ((terms.length > 0) && terms[0].DictEntry && (!terms[0].Senses ||
+    if (terms && (terms.length > 0) && terms[0].DictEntry && (!terms[0].Senses ||
           (terms[0].Senses.length === 0))) {
       console.log(`showResults: Query has ${terms.length} Chinese words`);
       for (const term of terms) {
@@ -103,8 +103,8 @@ export class WordFinderView {
           this.addTermToList(term, qList);
         }
       }
-    } else if ((terms.length === 1) && terms[0].Senses) {
-      console.log("showResults: Query is English", terms[0].Senses);
+    } else if (terms && (terms.length === 1) && terms[0].Senses) {
+      console.log(`showResults: Query is English, ${terms[0].Senses}`);
       const senses = terms[0].Senses;
       for (const sense of senses) {
         if (qList) {
@@ -112,7 +112,7 @@ export class WordFinderView {
         }
       }
     } else {
-      console.log("showResults: not able to handle this case", terms);
+      console.log(`showResults: no terms for list ${listId}, ${terms}`);
     }
     const queryTermsDiv = document.getElementById(termsDivId);
     if (queryTermsDiv) {
