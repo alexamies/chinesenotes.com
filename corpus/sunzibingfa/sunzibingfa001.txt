@@ -1134,7 +1134,8 @@ On the day they are ordered out to battle, your soldiers may weep, those sitting
 [p. 128] But let them once be brought to bay, and they will display the courage of a Chu or a Kuei.
 
 故善用兵者，譬如率然。率然者，常山之蛇也。擊其首則尾至，擊其尾則首至，擊其中則首尾俱至。
-The skillful tactician may be likened to the shuai-jan. Now the shuai-jan is a snake that is found in the Ch'ang mountains. Strike at its head, and you will be attacked by its tail; strike at its tail, and you will be attacked by its head; strike at its middle, and you will be attacked by head and tail both.
+The skillful tactician may be likened to the shuai-jan. Now the shuai-jan is a snake that is found in the Ch'ang mountains. 
+[p. 129] Strike at its head, and you will be attacked by its tail; strike at its tail, and you will be attacked by its head; strike at its middle, and you will be attacked by head and tail both.
 
 敢問︰「兵可使如率然乎？」曰︰「可。夫吳人與越人相惡也，當其同舟而濟。遇風，其相救也，如左右手。」
 Asked if an army can be made to imitate the shuai-jan, I should answer, Yes. For the men of Wu and the men of Yueh are enemies; yet if they are crossing a river in the same boat and are caught by a storm, they will come to each other's assistance just as the left hand helps the right.
@@ -1143,7 +1144,7 @@ Asked if an army can be made to imitate the shuai-jan, I should answer, Yes. For
 Hence it is not enough to put one's trust in the tethering of horses, and the burying of chariot wheels in the ground.
 
 齊勇如一，政之道也；
-The principle on which to manage an army is to set up one standard of courage which all must reach. 
+[p. 130] The principle on which to manage an army is to set up one standard of courage which all must reach. 
 
 剛柔皆得，地之理也。
 How to make the best of both strong and weak — that is a question involving the proper use of ground. 
@@ -1152,13 +1153,14 @@ How to make the best of both strong and weak — that is a question involving th
 Thus the skillful general conducts his army just as though he were leading a single man, willy-nilly, by the hand.
 
 將軍之事，靜以幽，正以治。
-It is the business of a general to be quiet and thus ensure secrecy; upright and just, and thus maintain order. 
+[p. 131] It is the business of a general to be quiet and thus ensure secrecy; upright and just, and thus maintain order. 
 
 能愚士卒之耳目，使之無知；
 He must be able to mystify his officers and men by false reports and appearances, and thus keep them in total ignorance.
 
 易其事，革其謀，使人無識；易其居，迂其途，使人不得慮。
-By altering his arrangements and changing his plans, he keeps the enemy without definite knowledge. By shifting his camp and taking circuitous routes, he prevents the enemy from anticipating his purpose.
+[p. 132] By altering his arrangements and changing his plans, he keeps the enemy without definite knowledge. 
+[p. 133] By shifting his camp and taking circuitous routes, he prevents the enemy from anticipating his purpose.
 
 帥與之期，如登高而去其梯；帥與之深入諸侯之地，而發其機，
 At the critical moment, the leader of an army acts like one who has climbed up a height and then kicks away the ladder behind him. He carries his men deep into hostile territory before he shows his hand. 
@@ -1167,7 +1169,7 @@ At the critical moment, the leader of an army acts like one who has climbed up a
 He burns his boats and breaks his cooking-pots; like a shepherd driving a flock of sheep, he drives his men this way and that, and nothing knows whither he is going.
 
 聚三軍之衆，投之於險，此謂將軍之事也。
-To muster his host and bring it into danger: — this may be termed the business of the general. 
+[p. 134] To muster his host and bring it into danger: — this may be termed the business of the general. 
 
 九地之變，屈伸之利，人情之理，不可不察也。
 The different measures suited to the nine varieties of ground; the expediency of aggressive or defensive tactics; and the fundamental laws of human nature: these are things that must most certainly be studied. 
