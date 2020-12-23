@@ -3340,3 +3340,11 @@
 7003340	高僧传	高僧傳	Gāo Sēng Zhuàn	Biographies of Eminent Monks	proper noun	传	Biography	佛教	Buddhism	\N	\N	\N	\N	A collection of biographies of monks in China, compiled in the Liang dynasty by Huijiao 慧皎 (BL 'Gaoseng Zhuan'; KDC 1074; T 2059)	7003340
 7003341	延历寺	延曆寺	yánlìsì	Enryaku-ji	proper noun	寺院	Temple	佛教	Buddhism	日本	Japan	\N	\N	A temple located on Mount Hiei, important in the Tendai tradition (Wikipedia '延曆寺')	7003341
 7003342	大本经	大本經	Dà Běn Jīng	The Scripture of the Great Origin / Mahāpadāna Sutta	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	From Pāli: mahāpadānasutta; parallel to Mahāpadāna Sutta in the Pali canon, the first sutra in the Taisho (KDC 'K 647'; T 1, Scroll 1; Dīgha Nikāya 14; Kieschnick and Wiles 2017, vol. 1, p. 56)	7003342
+7003343	麻谷宝彻	麻谷寶徹	mágǔ bǎochè	Magu Baoche	proper noun	师父	Monastic	佛教	Buddhism	禅宗	Chan School	\N	\N	Tang monastic (FGDB '麻谷寶徹')	7003343
+7003344	麻谷	\N	mágǔ	Magu	proper noun	师父	Monastic	佛教	Buddhism	禅宗	Chan School	\N	\N	See 麻谷寶徹 (FGDB '麻谷寶徹')	7003344
+7003345	章敬寺	\N	zhāngjìng sì	Zhangjing Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	(FGDB '章敬寺')	7003345
+7003346	义青	義青	yìqīng	Yiqing	proper noun	师父	Monastic	佛教	Buddhism	禅宗	Chan School	\N	\N	See 投子義青 (FGDB '投子義青')	7003346
+7003347	投子	\N	tóuzǐ	Touzi	proper noun	师父	Monastic	佛教	Buddhism	禅宗	Chan School	\N	\N	See 投子義青 (FGDB '投子義青')	7003347
+7003348	弊宿经	弊宿經	Bì Sù Jīng	Pāyāsi Sutta / Pāyāsisutta	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	From Pāli: pāyāsisutta (KDC 'K 647'; T 1; Dīgha Nikāya 23)	7003348
+7003349	大缘经	大緣經	Bì Yuán Jīng	Mahanidana Sutta	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	A Theravada text (FGDB '調牛聚落')	7003349
+7003350	阿湿波国	阿濕波國	ashībō guó	Aśmakā / Aśvakā	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	A state in ancient India (Guoyu '阿濕波國')	7003350

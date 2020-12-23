@@ -6666,3 +6666,14 @@
 6006666	诺贝尔文学奖	諾貝爾文學獎	nuòbèi'ěr wénxué jiǎng	Nobel Prize in Literature	proper noun	诺贝尔奖	Nobel Prize	文学	Literature	\N	\N	\N	\N	(Wikipedia '诺贝尔文学奖')	6006666
 6006667	诺贝尔奖	諾貝爾獎	Nuòbèi'ěr jiǎng	Nobel prize	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '諾貝爾獎'; Guoyu '諾貝爾獎')	6006667
 6006668	中芯国际	中芯國際	zhōngxīn guójì	Semiconductor Manufacturing International Corporation	proper noun	公司	Company	商务	Commerce	中国	China	\N	\N	(Wikipedia '中芯国际')	6006668
+6006669	墨田区	墨田區	mòtián qū	Sumida City	proper noun	地名	Place Name	地方	Places	日本	Japan	\N	\N	Located in Tokyo (Wikipedia '墨田區')	6006669
+6006670	彼得	\N	bǐde	Peter	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '彼得'; Guoyu '彼得')	6006670
+6006671	伊里奇	\N	yīlǐqí	Illyich	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '伊里奇')	6006671
+6006672	柴可夫斯基	\N	cháikěfūsījī	Tchaikovsky	proper noun	人	Person	现代汉语	Modern Chinese	音乐	Music	\N	\N	(CC-CEDICT '柴可夫斯基'; Wikipedia '彼得·伊里奇·柴可夫斯基')	6006672
+6006673	百老汇	百老匯	bǎilǎohuì	Broadway	proper noun	\N	\N	现代汉语	Modern Chinese	表演艺术	Performing Arts	\N	\N	Broadway theatre (CC-CEDICT '百匯匯'; Wikipedia '百老匯劇院')	6006673
+6006674	百老汇剧院	百老匯劇院	bǎilǎohuì jùyuàn	Broadway theatre	proper noun	\N	\N	现代汉语	Modern Chinese	表演艺术	Performing Arts	\N	\N	(Wikipedia '百老匯劇院')	6006674
+6006675	贾里德	賈里德	jiǎlǐdé	Jared	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(Wikipedia '贾里德·库什纳')	6006675
+6006676	科里	\N	kēlǐ	Corey	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(Wikipedia '贾里德·库什纳')	6006676
+6006677	梅拉尼娅	\N	méilāníyà	Melania	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(Wikipedia '梅拉尼娅·特朗普')	6006677
+6006678	麦肯锡	\N	màikěnxī	MacKenzie / McKinsey	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '麦肯锡')	6006678
+6006679	皮尔森	\N	píěrsēn	Pearson	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '皮尔森')	6006679
