@@ -20,13 +20,14 @@ import { fromEvent, of } from "rxjs";
 import { ajax } from "rxjs/ajax";
 import { catchError, delay, map, retry } from "rxjs/operators";
 import { IDocSearchRestults } from "./CNInterfaces";
+import { ITerm } from "./CNInterfaces";
 import { CNotes } from "./CNotes";
 import { WordFinderAdapter } from "./WordFinderAdapter";
 import { WordFinderNavigation } from "./WordFinderNavigation";
 import { WordFinderView } from "./WordFinderView";
 
 /**
- * JavaScript functions for sending and displaying search results for words and
+ * Functions for sending and displaying search results for words and
  * phrases. The results may be a word or table of words and matching collections
  * and documents.
  */
@@ -136,7 +137,8 @@ export class WordFinder {
           const navHelper = new WordFinderNavigation(true);
           const jsonObj = data as IDocSearchRestults;
           const termsFound = jsonObj.Terms;
-          this.view.showResults(termsFound, navHelper);
+          const similarTerms = jsonObj.SimilarTerms;
+          this.view.showResults(termsFound, similarTerms, navHelper);
         }),
       catchError(
         (error) => {
@@ -150,7 +152,8 @@ export class WordFinder {
             const adapter = new WordFinderAdapter();
             const aTerms = adapter.transform(terms);
             const navHelper = new WordFinderNavigation(false);
-            this.view.showResults(aTerms, navHelper);
+            const similarTerms = new Array<ITerm>();
+            this.view.showResults(aTerms, similarTerms, navHelper);
             return of("Loading from local cache");
           } else {
             // Retry with a delay
@@ -162,7 +165,8 @@ export class WordFinder {
                 const navHelper1 = new WordFinderNavigation(true);
                 const jsonObj1 = data1 as IDocSearchRestults;
                 const termsFound1 = jsonObj1.Terms;
-                this.view.showResults(termsFound1, navHelper1);
+                const similarTerms = jsonObj1.SimilarTerms;
+                this.view.showResults(termsFound1, similarTerms, navHelper1);
               },
               (err) => {
                 console.log(`makeRequest, failed after retries: ${err}`);

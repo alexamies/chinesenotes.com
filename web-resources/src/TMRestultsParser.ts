@@ -34,6 +34,9 @@ export class TMRestultsParser {
   public static parse(jsonObj: any): IDictEntry[] {
     console.log(`TMRestultsParser, jsonObj: ${jsonObj}`);
     const data = jsonObj as ITMSearchRestults;
+    if (!data.Words) {
+      return new Array<IDictEntry>();
+    }
     for (const word of data.Words) {
       if (word.Traditional === "\\N") {
         word.Traditional = "";

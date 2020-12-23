@@ -62,13 +62,17 @@ export class WordFinderView {
    * Display term lookup results in the HTML document
    * @param {ITerm[]} termsFound - the terms to display
    */
-  public showResults(termsFound: ITerm[], navHelper: WordFinderNavigation) {
+  public showResults(termsFound: ITerm[], similarTerms: ITerm[],
+                     navHelper: WordFinderNavigation) {
     if (termsFound && termsFound.length > 0) {
       const obs = navHelper.newResults(termsFound);
       obs.subscribe((terms) => {
         // Display dictionary lookup for the segmented query terms in a table
-        this.addTerms(terms as ITerm[]);
+        this.addTerms(terms as ITerm[], "queryTermsList", "queryTermsDiv",
+            "queryTermsTitle", "queryTerms");
       });
+      this.addTerms(similarTerms, "similarTermsList", "similarTermsList",
+          "similarTermsTitle", "similarTerms");
     } else {
       this.showMessage(this.NO_RESULTS_MSG);
     }
@@ -78,9 +82,10 @@ export class WordFinderView {
    * Add terms to the page
    * @param {ITerm[]}  terms - the terms to add
    */
-  private addTerms(terms: ITerm[]) {
+  private addTerms(terms: ITerm[], listId: string, termsDivId: string,
+                   termsTitleId: string, outerDivId: string) {
     console.log("showResults: detailed results for dictionary lookup");
-    const qList = document.getElementById("queryTermsList");
+    const qList = document.getElementById(listId);
     if (qList) {
       while (qList.hasChildNodes()) {
         if (qList.firstChild) {
@@ -88,7 +93,7 @@ export class WordFinderView {
         }
       }
     } else {
-      console.log("showResults: queryTermsList not in DOM");
+      console.log(`showResults: ${listId} not in DOM`);
     }
     if ((terms.length > 0) && terms[0].DictEntry && (!terms[0].Senses ||
           (terms[0].Senses.length === 0))) {
@@ -109,15 +114,15 @@ export class WordFinderView {
     } else {
       console.log("showResults: not able to handle this case", terms);
     }
-    const queryTermsDiv = document.getElementById("queryTermsDiv");
+    const queryTermsDiv = document.getElementById(termsDivId);
     if (queryTermsDiv) {
       queryTermsDiv.style.display = "block";
     }
-    const qTitle = document.getElementById("queryTermsTitle");
+    const qTitle = document.getElementById(termsTitleId);
     if (qTitle) {
       qTitle.style.display = "block";
     }
-    const queryTerms =  document.getElementById("queryTerms");
+    const queryTerms =  document.getElementById(outerDivId);
     if (queryTerms) {
       queryTerms.style.display = "block";
     }

@@ -30,6 +30,7 @@ export interface IDocSearchRestults {
   NumCollections: number;
   NumDocuments: number;
   Terms: ITerm[];
+  SimilarTerms: ITerm[];
 }
 
 // Interface for JSON document data loaded from AJAX call
