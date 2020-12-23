@@ -1051,19 +1051,19 @@ Section XI: The Nine Situations
 When a chieftain is fighting in his own territory, it is dispersive ground.
 
 入人之地而不深者，為輕地；
-When he has penetrated into hostile territory, but to no great distance, it is facile ground.
+[p. 115] When he has penetrated into hostile territory, but to no great distance, it is facile ground.
 
 我得則利，彼得亦利者，為爭地；
 Ground the possession of which imports great advantage to either side, is contentious ground.
 
 我可以往，彼可以來者，為交地；
-Ground on which each side has liberty of movement is open ground.
+[p. 116] Ground on which each side has liberty of movement is open ground.
 
 諸侯之地三屬，先至而得天下之衆者，為衢地；
 Ground which forms the key to three contiguous states, so that he who occupies it first has most of the Empire at his command, is ground of intersecting highways.
 
 入人之地深，背城邑多者，為重地；
-When an army has penetrated into the heart of a hostile country, leaving a number of fortified cities in its rear, it is serious ground. 
+[p. 117] When an army has penetrated into the heart of a hostile country, leaving a number of fortified cities in its rear, it is serious ground. 
 
 山林、險阻、沮澤，凡難行之道者，為圮地；
 Mountain forests, rugged steeps, marshes and fens--all country that is hard to traverse: this is difficult ground. 
@@ -1075,20 +1075,21 @@ Ground which is reached through narrow gorges, and from which we can only retire
 Ground on which we can only be saved from destruction by fighting without delay, is desperate ground.
 
 是故散地則無戰，輕地則無止，爭地則無攻，
-On dispersive ground, therefore, fight not. On facile ground, halt not. On contentious ground, attack not.
+[p. 118] On dispersive ground, therefore, fight not. On facile ground, halt not. On contentious ground, attack not.
 
 交地則無絕，衢地則合交，
-On open ground, do not try to block the enemy's way. On the ground of intersecting highways, join hands with your allies. 
+[p. 119] On open ground, do not try to block the enemy's way. On the ground of intersecting highways, join hands with your allies. 
 
 重地則掠，圮地則行，
-On serious ground, gather in plunder. In difficult ground, keep steadily on the march.
+On serious ground, gather in plunder.
+[p. 120] In difficult ground, keep steadily on the march.
 
 圍地則謀，死地則戰。
 On hemmed-in ground, resort to stratagem. On desperate ground, fight. 
 
 所謂古之善用兵者，能使敵人前後不相及，衆寡不相恃，貴賤不相救，上下不相收，
 Those who were called skilful leaders of old knew how to drive a wedge between the enemy's front and rear;
-to prevent co-operation between his large and small divisions; to hinder the good troops from rescuing the bad, the officers from rallying their men.
+[p. 121] to prevent co-operation between his large and small divisions; to hinder the good troops from rescuing the bad, the officers from rallying their men.
 
 卒離而不集，兵合而不齊。
 When the enemy's men were united, they managed to keep them in disorder. 
@@ -1100,7 +1101,8 @@ When it was to their advantage, they made a forward move; when otherwise, they s
 If asked how to cope with a great host of the enemy in orderly array and on the point of marching to the attack, I should say: “Begin by seizing something which your opponent holds dear; then he will be amenable to your will.”
 
 故兵之情主速，乘人之不及，由不虞之道，攻其所不戒也。
-Rapidity is the essence of war: take advantage of the enemy's unreadiness, make your way by unexpected routes, and attack unguarded spots.
+[p. 122] Rapidity is the essence of war: 
+[p. 123] take advantage of the enemy's unreadiness, make your way by unexpected routes, and attack unguarded spots.
 
 凡為客之道，深入則專，主人不克。
 The following are the principles to be observed by an invading force: The further you penetrate into a country, the greater will be the solidarity of your troops, and thus the defenders will not prevail against you. 
@@ -1109,25 +1111,27 @@ The following are the principles to be observed by an invading force: The furthe
 Make forays in fertile country in order to supply your army with food. 
 
 謹養而勿勞，併氣積力，運兵計謀，為不可測。
-Carefully study the well-being of your men, and do not overtax them. Concentrate your energy and hoard your strength. Keep your army continually on the move, and devise unfathomable plans.
+Carefully study the well-being of your men, 
+[p. 124] and do not overtax them. Concentrate your energy and hoard your strength. Keep your army continually on the move, and devise unfathomable plans.
 
 投之無所往，死且不北。死焉不得，士人盡力。
- Throw your soldiers into positions whence there is no escape, and they will prefer death to flight. If they will face death, there is nothing they may not achieve. Officers and men alike will put forth their uttermost strength. 
+[p. 125] Throw your soldiers into positions whence there is no escape, and they will prefer death to flight. If they will face death, there is nothing they may not achieve. Officers and men alike will put forth their uttermost strength. 
 
 兵士甚陷則不懼，無所往則固，深入則拘，不得已則鬥。
 Soldiers when in desperate straits lose the sense of fear. If there is no place of refuge, they will stand firm. If they are in hostile country, they will show a stubborn front. If there is no help for it, they will fight hard.
 
 是故其兵不修而戒，不求而得，不約而親，不令而信。
-Thus, without waiting to be marshalled, the soldiers will be constantly on the qui vive; without waiting to be asked, they will do your will; without restrictions, they will be faithful; without giving orders, they can be trusted.
+[p. 126] Thus, without waiting to be marshalled, the soldiers will be constantly on the qui vive; without waiting to be asked, they will do your will; without restrictions, they will be faithful; without giving orders, they can be trusted.
 
 禁祥去疑，至死無所之。
 Prohibit the taking of omens, and do away with superstitious doubts. Then, until death itself comes, no calamity need be feared.
 
 吾士無餘財，非惡貨也；無餘命，非惡壽也。
-If our soldiers are not overburdened with money, it is not because they have a distaste for riches; if their lives are not unduly long, it is not because they are disinclined to longevity.
+[p. 127] If our soldiers are not overburdened with money, it is not because they have a distaste for riches; if their lives are not unduly long, it is not because they are disinclined to longevity.
 
 令發之日，士卒坐者涕沾襟，偃臥者淚交頤。投之無所往者，則諸、劌之勇也。
-On the day they are ordered out to battle, your soldiers may weep, those sitting up bedewing their garments, and those lying down letting the tears run down their cheeks. But let them once be brought to bay, and they will display the courage of a Chu or a Kuei.
+On the day they are ordered out to battle, your soldiers may weep, those sitting up bedewing their garments, and those lying down letting the tears run down their cheeks. 
+[p. 128] But let them once be brought to bay, and they will display the courage of a Chu or a Kuei.
 
 故善用兵者，譬如率然。率然者，常山之蛇也。擊其首則尾至，擊其尾則首至，擊其中則首尾俱至。
 The skillful tactician may be likened to the shuai-jan. Now the shuai-jan is a snake that is found in the Ch'ang mountains. Strike at its head, and you will be attacked by its tail; strike at its tail, and you will be attacked by its head; strike at its middle, and you will be attacked by head and tail both.
