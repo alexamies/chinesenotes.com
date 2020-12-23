@@ -123,7 +123,7 @@ export class WordFinderView {
       qTitle.style.display = "block";
     }
     const queryTerms =  document.getElementById(outerDivId);
-    if (queryTerms) {
+    if (queryTerms && terms) {
       queryTerms.style.display = "block";
     }
     this.hideMessage();
