@@ -123,8 +123,14 @@ export class WordFinderView {
       qTitle.style.display = "block";
     }
     const queryTerms =  document.getElementById(outerDivId);
-    if (queryTerms && terms) {
-      queryTerms.style.display = "block";
+    if (queryTerms) {
+      if (terms) {
+        queryTerms.style.display = "block";
+      } else {
+        queryTerms.style.display = "none";
+      }
+    } else {
+      console.log(`showResults: ${outerDivId} not found in dom`);
     }
     this.hideMessage();
   }
