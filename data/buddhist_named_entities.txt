@@ -1479,7 +1479,7 @@
 7001479	僧远	僧遠	Sēng Yuǎn	Seng Yuan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	416-484; Northern Wei and Jin monk from Shaanxi mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001479
 7001480	僧慧	\N	Sēng Huì	Seng Hui	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Monk mentioned in the Liang Biographies of Eminent Monks, Scroll 8 梁高僧傳卷第八 (T 2059)	7001480
 7001481	竺法慧	\N	Zhú Fǎhuì	Zhu Fahui	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Monk from Guanzhong in Shaanxi, mentioned in the Liang Biographies of Eminent Monks, Scroll 10 梁高僧傳卷第十 (T 2059)	7001481
-7001482	佛果	\N	fóguǒ	Foguo	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1063-1135; Song dynasty monastic from Sichuan (FGDB '佛果' 1)	7001482
+7001482	佛果	\N	fóguǒ	Foguo	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1063-1135; Song dynasty monastic from Sichuan; also known as 佛果圜悟 (FGDB '佛果' 1; Heine 2016, p. 2; K’o-ch’in, and Thomas F. Cleary trans. 1998, p. 397; T 2003, Scroll 9)	7001482
 7001483	毕那嚩蹉	畢那嚩蹉	bìnàfúcuō	Pilindavatsa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 畢陵伽婆蹉 (FGDB '畢陵伽婆蹉')	7001483
 7001484	毕陵伽	畢陵伽	bìlíngjiā	Pilindavatsa	proper noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Same as 畢陵伽婆蹉 (FGDB '畢陵伽婆蹉')	7001484
 7001485	睦州道明	\N	mùzhōu dàomíng	Muzhou Daoming	proper noun	师父	Monastic	佛教	Buddhism	禅宗	Chan School	\N	\N	780-877; Tang monastic (FGDB '睦州道明')	7001485
@@ -3401,3 +3401,24 @@
 7003401	挖耳罗汉	挖耳羅漢	wā ěr luóhàn	the Ear Picking Arhat / Nagasena	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: nāgasena; one of the Eighteen Arhats; FGS translation standard: The Ear Picking Arhat / Nagasena (Tzu Chuang 2012, p. 14)	7003401
 7003402	那迦犀那	\N	nàjiāxīnà	 Nagasena / The Ear Picking Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 挖耳羅漢 (Tzu Chuang 2012, p. 14)	7003402
 7003403	芭蕉罗汉	芭蕉羅漢	bājiāo luóhàn	The Banana Tree Arhat / Vanavasin / Vanavasa	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 伐那婆斯 (Tzu Chuang 2012, p. 14)	7003403
+7003404	伐那婆斯	\N	fánàpósī	 Vanavasin / Vanavāsin / Vanavasa / The Banana Tree Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: vanavāsa; one of the 十六羅漢 'sixteen Arhats'; FGS translation standard: The Banana Tree Arhat / Vanavasin (Tzu Chuang 2012, p. 14; Ding '伐那婆斯'; FGDB '伐那婆斯'; SH '伐那婆斯')	7003404
+7003405	阿氏多	\N	Āshìduō	Ajita / The Long Eyebrow Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 阿氏多 (Tzu Chuang 2012, p. 14)	7003405
+7003406	看门罗汉	看門羅漢	kàn mén luóhàn	The House Guarding Arhat / Cudapanthaka	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	One of the eighteen Arhats; FGS translation standard: The House Guarding Arhat / Cudapanthaka (Tzu Chuang 2012, p. 14)	7003406
+7003407	注茶半托迦	\N	zhùchá bàntuōjiā	Cudapanthaka / The House Guarding Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	One of the eighteen Arhats (Tzu Chuang 2012, p. 14)	7003407
+7003408	绍隆	紹隆	shàolóng	Shaolong	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	-1136, Chinese Buddhist monastic credited with recording 《圓悟佛果禪師語錄》 'Quotations from Chan Master Yuanwu Foguo', included in the Chinese Buddhist canon (FGDB '紹隆'; T 1997)	7003408
+7003409	大慧普觉禅师语录	大慧普覺禪師語錄	Dà Huì Pǔ Jué Chán Shī Yǔlù	Quotations from Chan Master Dahui Pujue	proper noun	典籍	Canonical Text	佛教	Buddhism	中国	China	\N	\N	The name of a text compiled by 蘊聞 Yun Wen included in the Chinese Buddhist canon (FGDB '大慧普覺'; T 1998A)	7003409
+7003410	大慧普觉	大慧普覺	Dà Huì Pǔ Jué	Dahui Pujue	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1089-1163, Chinese Buddhist monastic from the Chan school (FGDB '大慧普覺'; T 1998A)	7003410
+7003411	郁陀罗罗摩	鬱陀羅羅摩	yùtuóluó luómó	Udraka Rāmaputra	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 優陀羅羅摩子 (FGDB '優陀羅羅摩子')	7003411
+7003412	瞿默目犍连经	瞿默目犍連經	jùmò mùjiānlián jīng	Maudgalyāyana Sūtra	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	Included in Scroll 35 the 中阿含經 ”Madhyamāgama” of the Taisho as 目揵連經 (Ding '瞿默目犍連經'; T 26.0652a06)	7003412
+7003413	骑鹿罗汉	騎鹿羅漢	qí lù luóhàn	Pindola / the Deer Riding Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 賓頭盧 (Tzu Chuang 2012, p. 15)	7003413
+7003414	降龙罗汉	降龍羅漢	jiàng lóng luóhàn	Nandimitra / the Dragon Subduing Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	One of the eighteen Arhats (Tzu Chuang 2012, p. 15)	7003414
+7003415	庆友	慶友	qìng yǒu	Nandimitra / the Dragon Subduing Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	One of the eighteen Arhats (Tzu Chuang 2012, p. 15)	7003415
+7003416	沩仰	溈仰	wéiyǎng	Weiyang School / Guiyang School	proper noun	宗	School	佛教	Buddhism	禅宗	Chan	\N	\N	See 溈仰宗 (Wikipedia '沩仰宗')	7003416
+7003417	沩仰宗	溈仰宗	Wéiyǎng Zōng	The Guiyang School / Weiyang School	proper noun	宗	School	佛教	Buddhism	禅宗	Chan	\N	\N	Weiyang or Guiyang School of Chan Buddhism; FGS translation standard: The Guiyang School (FGDB '溈仰宗'; Tzu Chuang 2012, pp. 39-40; Wikipedia '沩仰宗')	7003417
+7003418	曹洞	\N	cáodòng	Caodong School	proper noun	宗	School	佛教	Buddhism	禅宗	Chan	\N	\N	See 曹洞宗 (FGDB '曹洞宗')	7003418
+7003419	曹洞宗	\N	cáodòng zōng	The Caodong School / Caodong sect / Caodong zong	proper noun	宗	School	佛教	Buddhism	禅宗	Chan	\N	\N	Japanese: Sōtōshū; Caodong sect of Chan Buddhism (BL 'Caodong zong', p. 166; FGDB '曹洞宗'); FGS translation standard: The Caodong School (Tzu Chuang 2012, pp. 40)	7003419
+7003420	目揵连经	目揵連經	mùqiánlián jīng	Maudgalyāyana Sūtra	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	See 瞿默目犍連經 (T 26, Scroll 36)	7003420
+7003421	卡拉玛经	卡拉瑪經	kǎlāmǎjīng	Kālāma Sutta	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	Included in Taisho in 中阿含經 ”Madhyamāgama,” Scroll 3 as 伽藍經 (Wikipedia '卡拉瑪經'; T 26.0439c22)	7003421
+7003422	云门	雲門	yúnmén	Yunmen School	proper noun	宗	School	佛教	Buddhism	禅宗	Chan	\N	\N	See 雲門宗 (FGDB '雲門宗')	7003422
+7003423	云门宗	雲門宗	yúnmén zōng	Yunmen School / Yunmen zong	proper noun	宗	School	佛教	Buddhism	禅宗	Chan	\N	\N	Yunmen School of Chan Buddhism, on of the Five Houses and Seven Schools of Chan, named after a mountain in present-day Guangdong province; FGS translation standard: The Yunmen School (BL 'Yunmen zong', p. 1046; Tzu Chuang 2012, p. 41; FGDB '雲門宗')	7003423
+7003424	法眼	\N	fǎyǎn	Fayan School	proper noun	宗	School	佛教	Buddhism	禅宗	Chan	\N	\N	885～958; monastic (FGDB '法眼')	29810
