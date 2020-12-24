@@ -3110,7 +3110,7 @@
 7003110	佛说三品弟子经	佛說三品弟子經	Fó shuō sān pǐn dìzi jīng 	Fo Shuo San Pin Dizi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 三品弟子經 (T 767)	7003110
 7003111	三品弟子经	三品弟子經	sān pǐn dìzi jīng	San Pin Dizi Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 522; T 767)	7003111
 7003112	增长天	增長天	zēngzhǎng tiān	Virudhaka / Virūḍhaka / Deva King of the South	proper noun	天王	Heavenly King	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: virūḍhaka, Pāli: virūḷhaka; guardian of the South, he who enlarges, Patron of Growth (Ding '增長天'; FGDB '增長天'; SH '增長天')	7003112
-7003113	三慧经	三慧經	Sān Huì Jīng 	San Hui Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 1025; T 768)	7003113
+7003113	三慧经	三慧經	Sān Huì Jīng 	San Hui Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (FGDB '三慧經'; KDC 1025; T 768)	7003113
 7003114	佛说四辈经	佛說四輩經	fó shuō sì bèi jīng 	Fo Shuo Si Bei Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 四輩經 (T 769)	7003114
 7003115	四辈经	四輩經	sì bèi jīng	Si Bei Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 516; T 769)	7003115
 7003116	佛说四不可得经	佛說四不可得經	Fó shuō sì bù kě de jīng 	Fo Shuo Si Bu Ke De Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	See 四不可得經 (T 770)	7003116
@@ -3368,3 +3368,20 @@
 7003368	经律异相	經律異相	Jīng Lǜ Yì Xiāng	Different Aspects of the Sutras and Vinaya	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	A historic Buddhist encyclopedia (KDC 1050; T 2121)	7003368
 7003369	法苑珠林	\N	Fǎ Yuàn Zhū Lín	A Grove of Pearls in the Garden of the Dharma / Fayuan Zhulin	proper noun	典籍	Canonical Text	佛教	Buddhism	中国	China	\N	\N	Japanese: hōgo; a historic Buddhist encyclopedia by the Tang monastic Daoshi 道世. The text is an ency clopedia of of Buddhism (KDC 1406; T 2122; BL 'Fayuan zhulin'; FGDB '法苑珠林'; FGDB '法苑珠林')	7003369
 7003370	佛祖统纪	佛祖統紀	Fó Zǔ Tǒng Jì	Chronicle of Buddhas and Patriarchs / A Chronicle of Buddhism in China	proper noun	书	Book	佛教	Buddhism	\N	\N	\N	\N	Compiled by Zhipan 志磐 in the Southern Song, 54 scrolls (Bingenheimer 2016; Sharf 2005, p. 276; T 2035)	7003370
+7003371	菩萨受斋经	菩薩受齋經	Púsà Shòu Zhāi Jīng	Bodhisattva Fasting Sutra	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	The title of a text in the Chinese Buddhist canon (KDC 545; T 1502)	7003371
+7003372	长眉罗汉	長眉羅漢	Cháng Méi Luóhàn	Ajita / The Long Eyebrow Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	\N	\N	\N	\N	One of the eighteen Arhats; FGS translation standard: Ajita / The Long Eyebrow Arhat (Tzu Chuang 2012, p. 14)	7003372
+7003373	布袋罗汉	布袋羅漢	Bùdài Luóhàn	Angaja / Angida / Aṅgada / The Bag Carrying Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 因揭陀 (Tzu Chuang 2012, p. 14)	7003373
+7003374	因揭陀	\N	Yīnjiētuó	Angaja / Angida / Aṅgada / The Bag Carrying Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit: aṅgada; one of the eighteen Arhats; FGS translation standard: Angaja (Tzu Chuang 2012, p. 14; FGDB '因揭陀')	7003374
+7003375	十八罗汉	十八羅漢	Shí Bā Luóhàn	the Eighteen Arhats	noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	FGS translation standard: Eighteen Arhats (Tzu Chuang 2012, p. 11)	7003375
+7003376	宾头庐	賓頭廬	bīntóulú	Pindola / Pindolabharadvaja / the Tiger Taming Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 賓頭盧 (Tzu Chuang 2012, p. 12)	7003376
+7003377	伏虎罗汉	伏虎羅漢	Fú Hǔ Luóhàn	The Tiger Subduing Arhat / Pindolabharadvaja / Pindola	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 賓頭盧 (Tzu Chuang 2012, p. 12)	7003377
+7003378	喜庆罗汉	喜慶羅漢	xǐqìng luóhàn	The Celebrating Arhat / Kanakavatsa	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	One of the Eighteen Arhats; FGS translation standard: The Celebrating Arhat / Kanakavatsa (Tzu Chuang 2012, p. 12)	7003378
+7003379	迦诺迦伐蹉	迦諾迦伐蹉	Jiānuò Jiāfácuō	Kanakavasta / Happy Luohan / Celebrating Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: Kanakavatsa; one of the 十六羅漢 'sixteen Arhats' (Ding '迦諾迦伐蹉'; FGDB '迦諾迦伐蹉'; Tzu Chuang 2012, p. 12)	7003379
+7003380	托塔罗汉	托塔羅漢	tuō tǎ luóhàn	The Stupa Raising Arhat / Subinda	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 蘇頻陀 (Tzu Chuang 2012, p. 12)	7003380
+7003381	苏频陀	蘇頻陀	sūpíntuó	 Subinda / Nandimitra / Stupa Raising Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	One of the 十六羅漢 'sixteen Arhats'; FGS translation standard: The Stupa Raising Arhat / Subinda (Ding '蘇頻陀'; Tzu Chuang 2012, p. 12; FGDB '蘇頻陀')	7003381
+7003382	静座罗汉	靜座羅漢	jìng zuò luóhàn	 Nakula / The Meditating Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 諾矩羅 (Tzu Chuang 2012, p. 13)	7003382
+7003383	诺距罗	諾距羅	nuòjùluó	 Nakula / The Meditating Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 諾矩羅 (Tzu Chuang 2012, p. 13)	7003383
+7003384	过江罗汉	過江羅漢	Guò Jiāng Luóhàn	The River Crossing Arhat / Bhadra /  Bhadrika / Bhaddiya	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 婆提; FGS translation standard: The River Crossing Arhat / Bhadra (Tzu Chuang 2012, p. 13)	7003384
+7003385	跋陀罗	跋陀羅	bátuóluó	 Bhadrika / Bhaddiya	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 婆提 (Tzu Chuang 2012, p. 13)	7003385
+7003386	迦理迦	\N	jiālǐjiā	 Kalika / Kālika / The Elephant Riding Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: kālika; one of the 十六大阿羅 'sixteen Arhats'; FGS translation standard: The Elephant Riding Arhat / Kalika (Tzu Chuang 2012, p. 13; FGDB '迦理迦')	7003386
+7003387	骑象罗汉	騎象羅漢	Qí Xiàng Luóhàn	Kalika / Kālika / The Elephant Riding Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 迦理迦 (Tzu Chuang 2012, p. 13)	7003387

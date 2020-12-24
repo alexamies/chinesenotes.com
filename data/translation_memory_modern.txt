@@ -389,3 +389,4 @@
 5000389	人的感情	\N	rén de gǎnqíng	human feelings	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '人情')	5000389
 5000390	难怪他伤心	難怪他傷心	nánguài tā shāngxīn	no wonder he is upset	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '人情')	5000390
 5000391	每季	\N	měi jì	each quarter	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '每季', p. 58)	5000391
+5000392	拔草	\N	bá cǎo	to pull out weeds	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '草')	5000392
