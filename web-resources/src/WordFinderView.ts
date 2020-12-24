@@ -124,7 +124,7 @@ export class WordFinderView {
     }
     const queryTerms =  document.getElementById(outerDivId);
     if (queryTerms) {
-      if (terms) {
+      if (terms && (terms.length > 0)) {
         queryTerms.style.display = "block";
       } else {
         queryTerms.style.display = "none";
