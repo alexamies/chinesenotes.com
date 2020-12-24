@@ -1351,13 +1351,14 @@ Section XIII: The Use of Spies
 [p. 161] There will be commotion at home and abroad, and men will drop down exhausted on the highways. As many as seven hundred thousand families will be impeded in their labor.
 
 相守數年，以爭一日之勝，而愛爵祿百金，不知敵之情者，不仁之至也，
-Hostile armies may face each other for years, striving for the victory which is decided in a single day. This being so, to remain in ignorance of the enemy's condition simply because one grudges the outlay of a hundred ounces of silver in honors and emoluments, is the height of inhumanity.
+Hostile armies may face each other for years, striving
+[p. 162] for the victory which is decided in a single day. This being so, to remain in ignorance of the enemy's condition simply because one grudges the outlay of a hundred ounces of silver in honors and emoluments, is the height of inhumanity.
 
 非人之將也，非主之佐也，非勝之主也。
 One who acts thus is no leader of men, no present help to his sovereign, no master of victory.
 
 故明君賢將，所以動而勝人，成功出於眾者，先知也。
-Thus, what enables the wise sovereign and the good general to strike and conquer, and achieve things beyond the reach of ordinary men, is foreknowledge. 
+[p. 163] Thus, what enables the wise sovereign and the good general to strike and conquer, and achieve things beyond the reach of ordinary men, is foreknowledge. 
 
 先知者，不可取於鬼神，不可象於事，不可驗於度，
 Now this foreknowledge cannot be elicited from spirits; it cannot be obtained inductively from experience, nor by any deductive calculation. 
@@ -1366,7 +1367,7 @@ Now this foreknowledge cannot be elicited from spirits; it cannot be obtained in
 Knowledge of the enemy's dispositions can only be obtained from other men.
 
 故用間有五：有鄉間，有內間，有反間，有死間，有生間。
-Hence the use of spies, of whom there are five classes: (1) Local spies; (2) inward spies; (3) converted spies; (4) doomed spies; (5) surviving spies. 
+[p. 164] Hence the use of spies, of whom there are five classes: (1) Local spies; (2) inward spies; (3) converted spies; (4) doomed spies; (5) surviving spies. 
 
 五間俱起，莫知其道，是謂「神紀」，人君之寶也。
 When these five kinds of spy are all at work, none can discover the secret system. This is called “divine manipulation of the threads.” It is the sovereign's most precious faculty. 
@@ -1375,25 +1376,26 @@ When these five kinds of spy are all at work, none can discover the secret syste
 Having local spies means employing the services of the inhabitants of a district.
 
 內間者，因其官人而用之；
-Having inward spies, making use of officials of the enemy.
+[p. 165] Having inward spies, making use of officials of the enemy.
 
 反間者，因其敵間而用之；
-Having converted spies, getting hold of the enemy's spies and using them for our own purposes.
+[p. 166] Having converted spies, getting hold of the enemy's spies and using them for our own purposes.
 
 死間者，為誑事於外，令吾間知之，而傳於敵間也；
-Having doomed spies, doing certain things openly for purposes of deception, and allowing our spies to know of them and report them to the enemy.
+[p. 167] Having doomed spies, doing certain things openly for purposes of deception, and allowing our spies to know of them and report them to the enemy.
 
 生間者，反報也。
 Surviving spies, finally, are those who bring back news from the enemy's camp.
 
 故三軍之事，莫親於間，
-Hence it is that which none in the whole army are more intimate relations to be maintained than with spies. None should be more liberally rewarded. In no other business should greater secrecy be preserved.
+[p. 168] Hence it is that which none in the whole army are more intimate relations to be maintained than with spies. 
 
 賞莫厚於間，事莫密於間，非聖智不能用間，
+[p. 169] None should be more liberally rewarded. In no other business should greater secrecy be preserved.
 Spies cannot be usefully employed without a certain intuitive sagacity.
 
 非仁義不能使間，
-They cannot be properly managed without benevolence and straightforwardness. 
+[p. 170] They cannot be properly managed without benevolence and straightforwardness. 
 
 非微妙不能得間之實。
 Without subtle ingenuity of mind, one cannot make certain of the truth of their reports. 
@@ -1405,7 +1407,7 @@ Be subtle! be subtle! and use your spies for every kind of business.
 If a secret piece of news is divulged by a spy before the time is ripe, he must be put to death together with the man to whom the secret was told.
 
 凡軍之所欲擊，城之所欲攻，人之所欲殺，必先知其守將、左右、謁者、門者、舍人之姓名，令吾間必索知之。
-Whether the object be to crush an army, to storm a city, or to assassinate an individual, it is always necessary to begin by finding out the names of the attendants, the aides-de-camp, and door-keepers and sentries of the general in command. Our spies must be commissioned to ascertain these.
+[p. 171] Whether the object be to crush an army, to storm a city, or to assassinate an individual, it is always necessary to begin by finding out the names of the attendants, the aides-de-camp, and door-keepers and sentries of the general in command. Our spies must be commissioned to ascertain these.
 
 必索敵人之間來間我者，因而利之，導而舍之，故反間可得而用也；
 The enemy's spies who have come to spy on us must be sought out, tempted with bribes, led away and comfortably housed. Thus they will become converted spies and available for our service. 

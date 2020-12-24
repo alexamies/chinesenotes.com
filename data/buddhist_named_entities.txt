@@ -3385,3 +3385,19 @@
 7003385	跋陀罗	跋陀羅	bátuóluó	 Bhadrika / Bhaddiya	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 婆提 (Tzu Chuang 2012, p. 13)	7003385
 7003386	迦理迦	\N	jiālǐjiā	 Kalika / Kālika / The Elephant Riding Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: kālika; one of the 十六大阿羅 'sixteen Arhats'; FGS translation standard: The Elephant Riding Arhat / Kalika (Tzu Chuang 2012, p. 13; FGDB '迦理迦')	7003386
 7003387	骑象罗汉	騎象羅漢	Qí Xiàng Luóhàn	Kalika / Kālika / The Elephant Riding Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 迦理迦 (Tzu Chuang 2012, p. 13)	7003387
+7003388	笑狮罗汉	笑獅羅漢	Xiào Shī Luóhàn	Vijraputra	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 伐闍羅弗多 (Tzu Chuang 2012, p. 13)	7003388
+7003389	伐阇罗弗多	伐闍羅弗多	fáshéluófúduō	 Vijraputra	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	One of the 十六羅漢 'sixteen Arhats'; FGS translation standard: The Laughing Lion Arhat / Vajraputra (Ding '伐闍羅弗多羅'; Tzu Chuang 2012, p. 13; FGDB '伐闍羅弗多'; SH '伐闍羅弗多羅')	7003389
+7003390	开心罗汉	開心羅漢	kāixīn luóhàn	The Open Heart Arhat / Jivaka	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 戍博迦 (Tzu Chuang 2012, p. 13)	7003390
+7003391	戌博迦	\N	Xūbójiā	 Jivaka / Gobaka / The Open Heart Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 戍博迦 (Tzu Chuang 2012, p. 13)	7003391
+7003392	探手罗汉	探手羅漢	Tàn Shǒu Luóhàn	The Raised Arm Arhat / Panthaka	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	One of the Eighteen Arhats; FGS translation standard: The Raised Arm Arhat / Panthaka (Tzu Chuang 2012, p. 13)	7003392
+7003393	优陀罗罗摩子	優陀羅羅摩子	yōutuóluó luómózǐ	Udraka Rāmaputra	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	(Ding '鬱頭藍弗'; FGDB '優陀羅羅摩子')	7003393
+7003394	半托迦	\N	bàntuōjiā	 Panthaka / The Raised Arm Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 半託迦 (Tzu Chuang 2012, p. 13)	7003394
+7003395	举钵罗汉	舉缽羅漢	jǔ bō luóhàn	 Kanakabhaharadvaja / The Bowl Raising Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	One of the Eighteen Arhats; FGS translation standard: The Bowl Raising Arhat (Tzu Chuang 2012, p. 13)	7003395
+7003396	郁头蓝弗	鬱頭藍弗	yùtóulánfú	Udraka Rāmaputra	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 優陀羅羅摩子 (FGDB '優陀羅羅摩子')	7003396
+7003397	雪窦禅师	雪竇禪師	xuědòu chánshī	Chan Master Xuedou	proper noun	法师	Monastic	佛教	Buddhism	禅宗	Chan	\N	\N	See 雪竇 (T 2003, Scroll 1)	7003397
+7003398	迦诺迦跋厘堕阇	迦諾迦跋釐堕闍	jiānuòjiābálíduòshé	 Kanakabhaharadvaja / The Bowl Raising Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: kanakabharadrāja; one of the Eighteen Arhats (Tzu Chuang 2012, p. 12)	7003398
+7003399	沉思罗汉	沉思羅漢	Chénsī Luóhàn	 Rahula / The Deep Thinking Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	One of the Eighteen Arhats; FGS translation standard: The Deep Thinking Arhat (Tzu Chuang 2012, p. 14)	7003399
+7003400	罗怙罗	羅怙羅	Luóhùluó	 Rahula / the Deep Thinking Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	One of the Eighteen Arhats (Tzu Chuang 2012, p. 14)	7003400
+7003401	挖耳罗汉	挖耳羅漢	wā ěr luóhàn	the Ear Picking Arhat / Nagasena	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Sanskrit equivalent: nāgasena; one of the Eighteen Arhats; FGS translation standard: The Ear Picking Arhat / Nagasena (Tzu Chuang 2012, p. 14)	7003401
+7003402	那迦犀那	\N	nàjiāxīnà	 Nagasena / The Ear Picking Arhat	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 挖耳羅漢 (Tzu Chuang 2012, p. 14)	7003402
+7003403	芭蕉罗汉	芭蕉羅漢	bājiāo luóhàn	The Banana Tree Arhat / Vanavasin / Vanavasa	proper noun	罗汉	Arhat	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	See 伐那婆斯 (Tzu Chuang 2012, p. 14)	7003403
