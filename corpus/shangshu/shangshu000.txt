@@ -14,6 +14,12 @@
     >https://archive.org/details/chineseclassics01minggoog</a>,
     also at <a href="https://ctext.org/shang-shu">https://ctext.org/shang-shu</a>
   </li>
+  <li>
+    Watson B, David S Nivison, and Irene Bloom 1999, “Classical Sources of
+    Chinese Tradition,” In W M Theodore de Bary and Irene Bloom eds.
+    <i>Sources of Chinese Tradition: Volume One from Earliest Times to 1600</i>,
+    pp. 29-36, Chapter 2. Partial translation.
+  </li>
 </ol>
 
 <h4>Discussion</h4>

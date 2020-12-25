@@ -1,0 +1,27 @@
+<h4>Source</h4>
+<p>
+  越絕書 Yue Jue Shu at 
+  Wikisource, accessed 2020-12-05, <a
+   href="https://zh.wikisource.org/wiki/越絕書"
+  >https://zh.wikisource.org/wiki/越絕書</a>.
+</p>
+
+<h4>English translation</h4>
+<ol>
+  <li>
+    Milburn, Olivia 2010, <i>The Glory of Yue: An Annotated Translation of the
+    Yuejue Shu</i>,
+    Leiden, Boston: Brill.
+  </li>
+</ol>
+
+<h4>Discussion</h4>
+<ol>
+  <li>
+    Schuessler, Axel and Michael Lowe 1993, “Yueh chueh shu 越絕書,”
+    In Michael Loewe, (ed.), <i>Early Chinese Texts: A Bibliographical Guide</i>,
+    Berkeley: Society for the Study of Early China, pp. 490-495.
+  </li>
+</ol>
+
+Copyright status: out of copyright due to being over 100 years old.
