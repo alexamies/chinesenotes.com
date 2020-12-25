@@ -292,7 +292,7 @@
 7000292	银水寺	銀水寺	yínshuǐsì	Eunsusa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Wikipedia 'Eunsusa')	7000292
 7000293	金塘寺	\N	jīntángsì	Geumdangsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Wikipedia 'Geumdangsa')	7000293
 7000294	金山寺	\N	jīnshānsì	Jinshan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Former name of 江天禅寺 Jiangtian Chan Temple on the Yangtze River in the town of Zhenjiang 鎮江 (FGDB '金山寺'; Wikipedia '江天禅寺')	7000294
-7000295	金山寺	\N	jīnshānsì	Geumsansa	proper noun	寺	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (BSPAD '金山寺', PL000000048620; FGDB '金山寺'; Wikipedia 'Geumsansa')	7000294
+7000295	金山寺	\N	jīnshānsì	Geumsansa	proper noun	寺	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (BSPAD '金山寺', PL000000048620; FGDB '金山寺'; Jungmann B, et al 2020, p. 231 Wikipedia 'Geumsansa')	7000294
 7000296	弥勒寺	彌勒寺	mílèsì	Mireuksa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (Guoyu '彌勒寺'; Wikipedia '彌勒寺 (益山)')	7000296
 7000297	弥勒寺	彌勒寺	mílèsì	Mile Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Temple in Jiangsu (BSPAD '彌勒寺', PL000000010076)	7000296
 7000298	禅云寺	禪雲寺	chányúnsì	Seonunsa	proper noun	寺院	Monastery	佛教	Buddhism	韩国	Korea	\N	\N	Temple in North Jeolla, Korea (BSPAD '禪雲寺', PL000000053376; FGDB '禪雲寺'; Wikipedia 'Seonunsa')	7000298
@@ -3051,9 +3051,9 @@
 7003051	大阿鼻	\N	Dà Ābí	Great Avici	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 阿鼻地獄 (FGDB '阿鼻地獄')	7003051
 7003052	通度寺	\N	tōngdùsì	Tongdosa	proper noun	寺	Temple	佛教	Buddhism	韩国	South Korea	\N	\N	Hangul: 통도사; Revised Romanization: Tongdosa; a temple in South Gyeongsang Province, South Korea (FGDB '通度寺'; Wikipedia 'Tongdosa')	7003052
 7003053	金刚顶瑜伽理趣般若经	金剛頂瑜伽理趣般若經	Jīngāng Dǐng Yújiā Lǐ Qù Bōrě Jīng	Jingang Ding Yujia Li Qu Jing / Jingang Ding Jing / Vajraśekharasūtra	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Reconstructed Sanskrit: vajraśekharasūtra, translated to Chinese by Vajrabodhi 金剛智 in the Tang (BL 'Vajraśekharasūtra'; T 241) 	7003053
-7003054	直指寺	\N	zhízhǐsì	Jikjisa	proper noun	寺	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Hangul: 지직사; Revised Romanization: Jikjisa; a temple in Gimcheon, North Gyeongsang Province, South Korea (FGDB '直指寺'; Wikipedia 'Jikjisa')	7003054
+7003054	直指寺	\N	zhízhǐsì	Jikjisa	proper noun	寺	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Hangul: 지직사; Revised Romanization: Jikjisa; a temple in Gimcheon, North Gyeongsang Province, South Korea (FGDB '直指寺';Jungmann B, et al 2020, p. 396; Wikipedia 'Jikjisa')	7003054
 7003055	盂兰	盂蘭	yúlán	Ullambana Sutra	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	(FGDB '盂蘭盆經')	7003055
-7003056	泉隐寺	泉隱寺	Quán Yǐn Sì	Cheoneun-sa / Cheoneun-sa Temple	proper noun	寺	Temple	佛教	Buddhism	韩国	South Korea	\N	\N	Hangul: 천은사; Revised Romanization: Cheoneun-sa; temple in South Korea (Baike '智异山国立公园')	7003056
+7003056	泉隐寺	泉隱寺	Quán Yǐn Sì	Cheoneun-sa / Cheoneun-sa Temple	proper noun	寺	Temple	佛教	Buddhism	韩国	South Korea	\N	\N	Hangul: 천은사; Revised Romanization: Cheoneun-sa; temple in South Korea (Baike '智异山国立公园'; Jungmann B, et al 2020, p. 396)	7003056
 7003057	金刚亥母	金剛亥母	jīngāng hài mǔ	Vajravarahi / Dakini Vajravarahi / Dorje Pakmo	proper noun	\N	\N	佛教	Buddhism	西藏	Tibet	\N	\N	Sanskrit equivalent: vajravārāhī; the consort of the wrathful deity Demchok (Wikipedia '金剛亥母')	7003057
 7003058	七佛灭罪真言	七佛滅罪真言	Qī Fó Miè Zuì Zhēnyán	Bhisajya Sapta Jina Bhasitam Papa Vinas ana Dharani	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Literally, Seven Buddhas Elimination of Sins Dharani (Wikipedia '七佛滅罪真言')	7003058
 7003059	宋高僧传	宋高僧傳	Sòng Gāo Sēng Zhuàn	Song Biographies of Eminent Monks	proper noun	传	Biography	佛教	Buddhism	\N	\N	\N	\N	Biographies of monks in China, compiled during the Song dynasty (BL 'Song Gaoseng Zhuan'; T 2061)	7003059
@@ -3463,3 +3463,10 @@
 7003463	顺世外道	順世外道	shùnshì wàidào	Lokāyata	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	A non-Buddhist school at the time of the Buddha that promoted materialism (Ding '順世外道'; FGDB '順世外道')	7003463
 7003464	婆蹉衢多三明经	婆蹉衢多三明經	pócuōqúduō sān míng jīng	The three Vedas to Vacchagotta / Tevijjavacchagotta	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	Pali: Tevijjavacchagotta; title of a sutta in the Pali Canon (Majjhima Nikāya 71; <a href='https://suttacentral.net/mn71'>https://suttacentral.net/mn71</a>)	7003464
 7003465	婆蹉衢多	\N	pócuōqúduō	Vacchagotta	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	Name of a person mentioned in of a sutta in Tevijjavacchagotta in the the Pali Canon (Majjhima Nikāya 71; <a href='https://suttacentral.net/mn71'>https://suttacentral.net/mn71</a>)	7003465
+7003466	无量寿殿	無量壽殿	Wúliàng Shòu Diàn	Muryangsujeon	proper noun	殿	Hall	佛教	Buddhism	韩国	Korea	\N	\N	Longevity Hall in Buseoksa Temple, South Korea (FGDB '浮石寺')	7003466
+7003467	浮石	\N	Fú Shí	Buseok / Buseoksa / Buseok Rural District	proper noun	寺	Temple	佛教	Buddhism	韩国	South Korea	\N	\N	Hangul: 부석; name of a temple and rural district in North Gyeongsang Province, South Korea (Jungmann B, et al 2020, p. 181; Wikipedia '浮石寺')	7003467
+7003468	伽耶城	\N	Jiā Yē Chéng	Bodh Gaya	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	Located at the Buddha's place of enlightenment, India (FGDB '伽耶城')	7003468
+7003469	龙渊寺	龍淵寺	Lóng Yuān Sì	Longyuan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Chengdu, Sichuan (Baike '龙渊寺')	7003469
+7003470	龙渊寺	龍淵寺	Lóng Yuān Sì	Yongyeonsa / Yongyeon Temple	proper noun	寺	Temple	佛教	Buddhism	韩国	South Korea	\N	\N	Hangul: 용연사; McCune–Reischauer Romanization: Ryongyŏn; name of a temple in North Gyeongsang Province, South Korea (Wikipedia '龍淵郡')	7003469
+7003471	双磎寺	雙磎寺	shuāngxīsì	Ssanggyesa	proper noun	寺	Temple	佛教	Buddhism	韩国	Korea	\N	\N	Hangul:쌍계사; Revised Romanization; Ssanggyesa; McCune–Reischauer: Ssanggyesa (FGDB '直指寺'; Jungmann B, et al 2020, p. 400; Wikipedia 'Ssanggyesa')	7003471
+7003472	兴国寺	興國寺	Xīng Guó Sì	Xinguo Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Shandong (Baike '兴国寺')	7003472
