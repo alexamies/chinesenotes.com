@@ -394,3 +394,5 @@
 5000394	一段时间	一段時間	yī duàn shíjiān	a period of time	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '夜裡')	5000394
 5000395	印象深刻	\N	yìnxiàng shēnkè	the impression was profound	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '印象')	5000395
 5000396	好印象	\N	hǎo yìnxiàng	a good impression	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '印象')	5000396
+5000397	灵活的方法	靈活的方法	línghuó de fāngfǎ	a flexible method	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '活法')	5000397
+5000398	诗论家	詩論家	shī lùn jiā	poetry critic	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '活法')	5000398
