@@ -1071,3 +1071,5 @@
 3001071	平秩东作	平秩東作	píng zhì dōng zuò	fixed sequence of spring plowing	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the text 尚書 “Book of History”, 堯典 Canon of Yao (retranslated from tr. by Legge 1865, vol. 3, part 1, p. 19)	3001071
 3001072	鸟兽希革	鳥獸希革	niǎoshòuxīgé	birds and animals have thin  [feathers and] fur	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the text 尚書 “Book of History”, 堯典 Canon of Yao (retranslated from tr. by Legge 1865, vol. 3, part 1, p. 20)	3001072
 3001073	寅饯纳日	寅餞納日	yín jiàn nà rì	to respectfully send off the setting sun	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the text 尚書 “Book of History”, 堯典 Canon of Yao (retranslated from tr. by Legge 1865, vol. 3, part 1, p. 20)	3001073
+3001074	庋置	\N	jǐ zhì	to store in a cupboard	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '庋置', p. 58)	3001074
+3001075	庋食物	\N	jǐ shíwù	to store food	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '庋食物', p. 58)	3001075
