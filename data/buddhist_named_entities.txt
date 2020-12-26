@@ -1,4 +1,4 @@
-# Copyright Fo Guang Shan 佛光山 2013-2020. May be reused under the Creative Commons Attribution-Share Alike 3.0 License (CCASE 3.0), https://creativecommons.org/licenses/by-sa/3.0/ Includes names of people, places, and titles of texts
+# Copyright Fo Guang Shan 佛光山 2013-2020. May be reused under the Creative Commons Attribution-Share Alike 3.0 License (CCASE 3.0), https://creativecommons.org/licenses/by-sa/3.0/ Includes names of people, places, titles of texts, and organizations
 7000002	证严	證嚴	zhèng yán	Cheng Yen	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 釋證嚴 (Wikipedia '釋證嚴')	7000002
 7000003	释证严	釋證嚴	shì zhèngyán	Cheng Yen	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1937- ; Taiwanese Buddhist nun and founder of the 慈濟功德會 Buddhist Compassion Relief Tzu Chi Foundation (Wikipedia '釋證嚴')	7000003
 7000004	慈济	慈濟	cíjì	Tzu-Chi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Abbreviation of 慈濟基金會 Buddhist Compassion Relief Tzu Chi Foundation (Wikipedia '慈濟基金會')	7000004
@@ -3282,7 +3282,7 @@
 7003282	龙藏	龍藏	Lóng Zàng	Qian Long Canon / Long Zang	proper noun	大藏经	Tripitaka	佛教	Buddhism	中国	China	\N	\N	Completed in 1738, a version of the Chinese Buddhist Canon (FGDB '中文大藏經')	7003282
 7003283	八万大藏经	八萬大藏經	Bā Wàn Dà Zàng Jīng	Tripitaka Koreana	proper noun	大藏经	Tripitaka	佛教	Buddhism	\N	\N	\N	\N	Completed in 1251, Korean version of the Chinese Buddhist Canon (Wikipedia '高丽大藏经')	7003283
 7003284	高丽大藏经	高麗大藏經	Gāolì Dà Zàng Jīng	Tripitaka Koreana / Koryo taejangyong	proper noun	大藏经	Tripitaka	佛教	Buddhism	\N	\N	\N	\N	Completed in 1251, Korean version of the Chinese Buddhist Canon (BL 'Koryo taejangyong', p. 442; Wikipedia '高丽大藏经')	7003284
-7003285	卍续藏	卍續藏	Wàn Xù Zàng	Zokuzōkyō	proper noun	大藏经	Buddhist Canon	佛教	Buddhism	日本	Japan	\N	\N	A Japanese collection of Buddhist texts; see 大日本續藏經 (FGDB '大日本續藏經')	7003285
+7003285	卍续藏	卍續藏	Wàn Xù Zàng	Zokuzōkyō	proper noun	大藏经	Buddhist Canon	佛教	Buddhism	日本	Japan	\N	\N	See 卍續藏經 (FGDB '大日本續藏經')	7003285
 7003286	阿罗逻迦蓝	阿羅邏迦藍	aluóluó jiālán	Āḷāra Kālāma / Alara Kalama / Arada Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: Ārāda Kālāma, Pali: Āḷāra Kālāma, Japanese: Ararakaran; one of the Buddha's meditation teachers before his enlightenment (BL 'Āḷāra Kālāma'; Ding '阿羅邏'; FGDB '阿羅邏迦藍'; SH '阿羅邏'; Wikipedia '阿羅邏伽藍')	7003286
 7003287	阿罗拏迦罗摩	阿囉拏迦羅摩	aluōná jiāluómó	Āḷāra Kālāma / Alara Kalama	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 阿羅邏迦藍 (FGDB '阿羅邏迦藍')	7003287
 7003288	中华大藏经	中華大藏經	Zhōnghuá Dà Zàng Jīng	Tripitaka Sinica / Zhonghua Canon	proper noun	大藏经	Buddhist Canon	佛教	Buddhism	中国	China	\N	\N	A modern version of the Chinese Buddhist Canon produced in 1956 in Taiwan (FGDB '中文大藏經')	7003288
@@ -3490,3 +3490,29 @@
 7003490	解脱道论	解脫道論	 Jiětuō Dào Lùn	Upatiṣya	proper noun	论	Treatise	佛教	Buddhism	南傳佛教	Theravada	\N	\N	Translated by Saṅghabhara in 515 (T 1648, KDC 968)	7003490
 7003491	僧伽婆罗	僧伽婆羅	sēngjiāpóluó	Saṅghabhara / Sajghavarman / Savghapāla	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Sajghavarman or Savghapāla or Saṅghabhara; lived 460-524, translated Vimokāamārga-śāstra (FGDB '僧伽婆羅'; KDC 'K 11')	7003491
 7003492	玉岑休休	\N	yùcén xiūxiū	Yucen Xiuxiu	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	Wrote a Preface by Yucen Xiuxiu to 碧巖錄 “Blue Cliff Record” (Ch’ung-hsien,  K’o-ch’in, and Thomas F. Cleary trans. 1998, p. 6; T 2003, Scroll 1)	7003492
+7003493	景德传灯录	景德傳燈錄	Jǐng Dé Zhuàn Dēng Lù	The Records of the Transmission of the Lamp / Jingde Chuandeng Lu	proper noun	\N	\N	佛教	Buddhism	禅宗	Chan Buddhism	\N	\N	Circa 1007; compiled by Daoyuan 道原, records the history of Chan Buddhism (Bingenheimer 2016; BL 'Jingde chuandeng lu'; FGDB '景德傳燈錄'; T 2076)	7003493
+7003494	传灯录	傳燈錄	Zhuàn Dēng Lù	The Records of the Transmission of the Lamp	proper noun	\N	\N	佛教	Buddhism	禅宗	Chan Buddhism	\N	\N	Circa 1007, compiled by Shi Daoyuan 釋道原, records the history of Chan Buddhism (FGDB '傳燈錄')	7003494
+7003495	圜悟	\N	yuánwù	Yuanwu Keqin / Yuanwu / Keqin	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 圜悟克勤 (FGDB '圜悟克勤')	7003495
+7003496	金刚般若波罗蜜经心印疏	金剛般若波羅蜜經心印疏	Jīngāng Bānruòbōmì Jīng Xīn Yìn Shū	Mind Seal Commentary to the Diamond Sutra	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Qing, commentary on the Diamond Sutra by 溥畹述 Pu Wan Shu (X 505)	7003496
+7003497	金刚经心印疏	金剛經心印疏	Jīngāng Jīng Xīn Yìn Shū	Mind Seal Commentary to the Diamond Sutra	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 金剛般若波羅蜜經心印疏 (X 505)	7003497
+7003498	溥畹述	\N	Pǔ Wǎn Shù	Pu Wan Shu	proper noun	\N	\N	佛教	Buddhism	禅宗	Chan Buddhism	\N	\N	Qing, author of 金剛般若波羅蜜經心印疏 “Mind Seal Commentary to the Diamond Sutra” (X 505)	7003498
+7003499	金刚经直说	金剛經直說	Jīngāng Jīng Zhí Shuō	Jingang Jing Zhi Shuo	proper noun	经疏	Sūtra Commentary	佛教	Buddhism	中国	China	\N	\N	Commentary on the Diamond Sūtra by Qing writer Ji Shan Jiu 迹删鹫 (X 496)	7003499
+7003500	金刚经注解	金剛經注解	Jīngāng Jīng Zhù Jiě	Jingang Jing Zhu Jie	proper noun	经疏	Sūtra Commentary	佛教	Buddhism	中国	China	\N	\N	Commentary on the Diamond Sūtra by Qing writer Fu You Di 孚佑帝 (X 0503)	7003500
+7003501	金刚经大意	金剛經大意	jīngāng jīng Dàyì	Jingang Jing Dayi	proper noun	经疏	Sūtra Commentary	佛教	Buddhism	中国	China	\N	\N	Commentary on the Diamond Sūtra by Qing writer Wang Qi Long 王起隆 (X 0484)	7003501
+7003502	金刚经易解	金剛經易解	jīngāng jīng yì jiě	Jingang Jing Yi Jie	proper noun	经疏	Sūtra Commentary	佛教	Buddhism	中国	China	\N	\N	Commentary on the Diamond Sūtra by Qing writer Xie Cheng Mo 谢承谟 (X 510)	7003502
+7003503	金刚经持验记	金剛經持驗記	Jīngāng Jīng Chí Yàn Jì	Jingang Jing Chi Yan Ji	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	Commentary on the Diamond Sūtra by Qing writer Zhou Ke 周克 (X 1635)	7003503
+7003504	金刚新眼疏经偈合释	金剛新眼疏經偈合釋	jīngāng Xīn Yǎn Shū Jīng Jì Hé Shì	Jingang Xin Yan Shu Jing Ji He Shi	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	Commentary on the Diamond Sūtra by Qing writer Tong Li 通理 (X 487)	7003504
+7003505	通理	\N	Tōng Lǐ	Tong Li	proper noun	作者	Writer	佛教	Buddhism	中国	China	\N	\N	Qing writer, composed the commentary on the Diamond Sutra ”Jingang Xin Yan Shu Jing Ji He Shi” 金刚新眼疏经偈合释 (X 487)	7003505
+7003506	阿梨吒	\N	alízhà	Alagaddūpama	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	Name of a monastic mentioned in 阿梨吒經 ”Alagaddūpama Sutta” in Scroll 54 of the 中阿含 ”Madhyamāgama” 'Middle-length Discourses'; parallel to ”Alagad­dūpama­sutta” in the Pali Canon (Ding '阿梨吒經'; T 26.0763b02)	7003506
+7003507	无畏王子经	無畏王子經	wúwèiwángzǐjīng	Discourse to Prince Abhaya / Abhayarājakumāra Sutta	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	Pali: abhayarājakumāra; title of a sutta in the Pali Canon (Majjhima Nikāya 58; <a href='https://suttacentral.net/pi/mn58'>https://suttacentral.net/pi/mn58</a>)	7003507
+7003508	回向院	\N	huíxiàng yuàn	Ekō-in	proper noun	寺院	Temple	佛教	Buddhism	日本	Japan	\N	\N	Temple in Tokyo (FGDB '回向院'; Wikipedia 'Ekō-in')	7003508
+7003509	大毗婆娑论	大毗婆娑論	dàpípósuō lùn	Abhidharmasamuccayavyākhyā / Treatise on the Mahayana Abhidharma	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	See 大乘阿毘達磨雜集論 (FGDB '大乘阿毘達磨雜集論')	7003509
+7003510	阿毘达磨杂集论	阿毘達磨雜集論	apídámó zá jí lùn	Abhidharmasamuccayavyākhyā / Treatise on the Mahayana Abhidharma	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	See 大乘阿毘達磨雜集論 (FGDB '大乘阿毘達磨雜集論')	7003510
+7003511	了菴清欲禅师语录	了菴清欲禪師語錄	Liǎo Ān Qīng Yù Chán Shī Yǔlù	Quotes from Chan Master Liao An Qing	proper noun	书	Book	佛教	Buddhism	禅	Chan	\N	\N	(X 1414)	7003511
+7003512	南堂录	南堂錄	Nán Táng Lù	Quotes from Chan Master Liao An Qing	proper noun	书	Book	佛教	Buddhism	禅	Chan	\N	\N	See 了菴清欲禪師語錄 (X 1414)	7003512
+7003513	优婆塞戒经	優婆塞戒經	Yōupósāi Jiè Jīng	Upāsakāśīlasūtra / Sūtra of the Upāsakā Precepts	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Upāsakāśīlasūtra; the title of a text in the Chinese Buddhist canon (KDC 526; T 1488)	7003513
+7003514	说出世部	說出世部	Shuō Chū Shì Bù	Lokottaravāda	proper noun	\N	\N	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: lokottaravāda, An early Mahāyāna school (FGDB '說出世部')	7003514
+7003515	舍利弗阿毘昙论	舍利弗阿毘曇論	Shèlìfú Āpítán Lùn	Sariputra Abhidharma / Śāriputrā Abhidharma	proper noun	论	Sastra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: śāriputrābhidharma-śāstra, a treatise attributed to Śāriputrā (KDC 969; T 1548)	7003515
+7003516	舍利弗阿毘昙	舍利弗阿毘曇	Shèlìfú Āpítán	Sariputra Abhidharma / Śāriputrā Abhidharma	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: śāriputrābhidharma-śāstra, a treatise attributed to Śāriputrā (FGDB '舍利弗阿毘曇')	7003516
+7003517	分别论	分別論	fēnbié lùn	Vibhanga	proper noun	论	Sastra	佛教	Buddhism	\N	\N	\N	\N	Pāli: vibhaṅga. Literally meaning 'analysis', a treatise in the Abhidhamma (FGDB '分別論')	7003517
+7003518	界论	界論	Jiè Lùn	Dhatukatha	proper noun	论	Sastra	佛教	Buddhism	\N	\N	\N	\N	Pāli: dhātukathā; literally meaning 'Discussion of Elements', a treatise in the Abhidhamma (FGDB '界論')	7003518
