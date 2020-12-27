@@ -3591,3 +3591,28 @@
 7003591	门头行者	門頭行者	méntóu xíngzhě	Gatekeeper	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	See 門頭 (FGDB '門頭')	7003591
 7003592	园头	園頭	yuán tóu	Head Gardener	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (FGDB '園頭'; Welch 1967, p. 421)	7003592
 7003593	殿司	\N	diànsī	Head Gardener	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	See 園頭 (FGDB '園頭')	7003593
+7003594	宋云	宋雲	Sòng Yún	Song Yun	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	Northern Wei monk, visited the Western Regions (FGDB '宋雲'; Wikipedia '宋雲')	7003594
+7003595	道荣	道榮	Dào Róng	Dao Rong	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	Buddhist monk in the Northern Wei Dynasty, visited the Western Regions (BSAD '道營', ID A002323)	7003595
+7003596	照客	\N	zhào kè	Usher / Guest Attendant	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Welch 1967, p. 421)	7003596
+7003597	摩诃止观	摩訶止観	Móhē Zhǐ Guān	Great Concentration and Insight	proper noun	论	Treatise	佛教	Buddhism	中国	China	\N	\N	The Japanese variant 観 of 觀 in the title; see 摩訶止觀 (FGDB '摩訶止觀')	7003597
+7003598	法华文句	法華文句	Fǎhuá Wén Jù	Words and Phrases of the Lotus Sutra	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	Written by Zhi Yi 智顗 538—597, fourth patriarch of the Tiantai School (T 1719)	7003598
+7003599	法华玄义	法華玄義	fǎhuá xuán yì	Profound Meaning of the Lotus Sutra	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	Title of a text attributed to Zhi Yi 智顗 538—597, fourth patriarch of the Tiantai School (FGDB '法華玄義'; T 1717)	7003599
+7003600	慈悲水忏法	慈悲水懺法	Cíbēi Shuǐ Chànfǎ	Cibei Shui Chanfa	proper noun	论	Treatise	佛教	Buddhism	中国	China	\N	\N	The name of a text  included in the Chinese Buddhist canon (T 1910)	61973
+7003601	次第禅门	次第禪門	Cì Dì Chán Mén	Ci Di Chan Men	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	Wade-Giles: tz'u-ti ch'an-men. Title of a text written by Zhi Yi 智顗 538—597, of the Tiantai school, giving a scheme for doctrinal classification (FGDB '次第禪門')	7003601
+7003602	圆顿止观	圓頓止觀	yuán dùn zhǐ guān	Complete Stopping and Seeing / Great Concentration and Insight	proper noun	论	Treatise	佛教	Buddhism	中国	China	\N	\N	Wade-Giles: Yüan-Tun Chih-Kuan. Earlier title for Mohe Zhi Guan 摩訶止觀. Written by Zhi Yi 智顗,538—597, recognized as the seminal text of the Tiantai school.; FGS translation standard: Complete Stopping and Seeing (FGDB '圓頓止觀')	7003602
+7003603	维摩经玄疏	維摩經玄疏	Wéi Mó Jīng Xuán Shū	Commentary on the Vimalakīrti Sūtra	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	A commentary on the Vimalakīrti Nirdeśa Sūtra by Zhi Yi 智顗 (T 1777)	7003603
+7003604	四教义	四教義	Sì Jiàoyì	Si Jiao Yi / The Meaning of the Four Teachings	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	By Zhi Yi 智顗 (T 1929; Yixuan and Kirchner 2009, p. 411)	7003604
+7003605	菩萨璎珞本业经	菩薩瓔珞本業經	Púsà Yīngluò Běn Yè Jīng	Yingluo Sūtra	proper noun	经	Sutra	佛教	Buddhism	中国	China	\N	\N	Thought to be an apocryphal sūtra (BL 'Pusa yingluo benye jing', p. 686; T 1485)	7003605
+7003606	佛说仁王般若般若波罗蜜经	佛說仁王般若波羅蜜經	Fó shuō Rén Wáng Bōrěluómì Jīng	Renwang Jing / Scripture for Humane Kings	proper noun	经	Sutra	佛教	Buddhism	中国	China	\N	\N	See 仁王般若波羅蜜經 (FGDB '仁王般若波羅蜜經')	7003606
+7003607	摩诃般若波罗蜜经	摩訶般若波羅蜜經	Móhē Bōrěluómì Jīng	The Perfection of Wisdom in 25,000 Lines / Pañcaviṃśatisāhasrikāprajñāpāramitāsūtra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Sanskrit: Pañcaviṃśatisāhasrikāprajñāpāramitāsūtra, T 223 (KDC 'K 3'; BL 'Pañcaviṃśatisāhasrikāprajñāpāramitāsūtra', p. 618)	7003607
+7003608	玉泉寺	\N	Yù Quán Sì	Yu Quan Temple / Jade Spring Temple / Yü-ch'ün ssu	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Wade-Giles:  Yü-ch'ün ssu, temple founded by Zhi Yi, fourth patriarch of the Tiantai School (Wikipedia '玉泉寺')	7003608
+7003609	大经	大經	Dà Jīng	The Mahāpirvāṇa Sūtra / The Nirvāṇa Sūtra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	An abbreviation used by Zhi Yi 智顗 in the Mohe Zhi Guan 摩诃止观 (T 375)	7003609
+7003610	观心论	觀心論	Guān Xīn Lùn	Treatise on Contemplating Thoughts / Treatise on Discerning Mind	proper noun	论	Treatise	佛教	Buddhism	中国	China	\N	\N	By Zhi Yi 智顗 (FGDB '觀心論'; Sharf 2005, p. 199; T 1920)	7003610
+7003611	璎珞经	瓔珞經	Yīngluò Jīng	Yingluo Sūtra	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	See 菩薩瓔珞本業經 (BL 'Yingluo jing', p. 1028; T 1485)	7003611
+7003612	付法藏因缘传	付法藏因緣傳	Fù Fǎ Zàng Yīnyuán Zhuàn	The History of the Transmission of the Dharma Treasury	proper noun	书	Book	佛教	Buddhism	\N	\N	\N	\N	An text in the Chinese Buddhist canon from the Northern Wei (T 2058)	7003612
+7003613	付法藏	\N	Fù Fǎ Zàng	THistory of the Transmission of the Dharma Treasury	proper noun	书	Book	佛教	Buddhism	\N	\N	\N	\N	A text from the Northern Wei (T 2058)	7003613
+7003614	吉迦夜	\N	jíjiāyè	Kinkara / Kekaya	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Northern Wei figure, attributed with translation of Za Baozang Jing 雜寶藏經 (FGDB '吉迦夜'; T 203; KDC 'K 1001')	7003614
+7003615	昙曜	曇曜	Tán Yào	Tan Yao	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	c. 450-490; Northern Wei figure, attributed with translation of Za Baozang Jing 雜寶藏經 (FGDB '曇曜'; T 203; KDC 'K 1001')	7003615
+7003616	诸法无诤三昧法门	諸法無諍三昧法門	Zhū Fǎ Wú Zhèng Sānmèi Fǎmén	The Samādhi of Non-contention of Following After One's Own Thoughts	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	Attributed to Hui Si 慧思 (T 1923)	7003616
+7003617	大乘止观法门	大乘止觀法門	Dàchéng Zhǐ Guān Fǎmén	The Mahāyāna Teaching on Calm and Insight	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	A text attributed to Hui Si 慧思 (T 1924)	7003617
+7003618	法华经安乐行义	法華經安樂行義	Fǎ Huà Jīng Ānlè Xíng Yì	The Practice for Attaining Peace based on the Lotus Sūtra	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	A text attributed to Hui Si 慧思 c. 515-557 (T 1926)	7003618
