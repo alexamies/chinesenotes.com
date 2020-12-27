@@ -1,4 +1,4 @@
-# Copyright Fo Guang Shan 佛光山 2013-2020. May be reused under the Creative Commons Attribution-Share Alike 3.0 License (CCASE 3.0), https://creativecommons.org/licenses/by-sa/3.0/ Includes names of people, places, titles of texts, and organizations
+# Copyright Fo Guang Shan 佛光山 2013-2020. May be reused under the Creative Commons Attribution-Share Alike 3.0 License (CCASE 3.0), https://creativecommons.org/licenses/by-sa/3.0/ Includes names of people, places, titles of texts, organizations, and official posts
 7000002	证严	證嚴	zhèng yán	Cheng Yen	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 釋證嚴 (Wikipedia '釋證嚴')	7000002
 7000003	释证严	釋證嚴	shì zhèngyán	Cheng Yen	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	1937- ; Taiwanese Buddhist nun and founder of the 慈濟功德會 Buddhist Compassion Relief Tzu Chi Foundation (Wikipedia '釋證嚴')	7000003
 7000004	慈济	慈濟	cíjì	Tzu-Chi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Abbreviation of 慈濟基金會 Buddhist Compassion Relief Tzu Chi Foundation (Wikipedia '慈濟基金會')	7000004
@@ -756,7 +756,7 @@
 7000756	支娄迦谶	\N	zhīlóujiāchèn	Lokaksema	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	C. 147-? CE, well known translator (Wikipedia '支娄迦谶')	7000756
 7000757	鸠摩罗什	鳩摩羅什	Jiūmóluóshí	Kumarajiva / Kumārajīva	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	C. 334-413; Kumārajīva was born in Kucha 库车 (formerly Kezil 龟茲), according to hagiography. He was well known translator and credited with founding the 三論宗 San Lun Zong 'Three Treatises School'; FGS translation standard: Kumarajiva (BL 'Kumārajīva'; Faxiang; FGDB '鳩摩羅什')	7000757
 7000758	三藏鸠摩罗什	三藏鳩摩羅什	Sān Zàng Jiūmóluóshí	Kumārajīva	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	三藏 'Tripiṭaka' was a title deferred on Kumārajīva (FGDB '鳩摩羅什')	7000758
-7000759	天竺三藏求那跋陀罗	天竺三藏求那跋陀羅	Tiānzhú Sān Zàng Qiúnàbátuóluó	Guṇabhadra / Gunabhadra	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	(394-468) A monk from India, translated the Lankavatara Sutra to Chinese (FGDB '求那跋陀羅'; BL 'Guṇabhadra')	7000759
+7000759	天竺三藏求那跋陀罗	天竺三藏求那跋陀羅	Tiānzhú Sān Zàng Qiúnàbátuóluó	Guṇabhadra / Gunabhadra	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 求那跋陀羅 (FGDB '求那跋陀羅')	7000759
 7000760	毘尼多流支	\N	Píníduōliúzhī	Vinītaruci	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	?-594, monastic and translator of Buddhist texts from Sanskrit to Chinese  (FGDB '毘尼多流支'; KDC 148)	7000760
 7000761	不空	\N	Bù Kōng	Amoghavajra /	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: amoghavajra, Japanese: Fukū; c. 705-774 CE, Buddhist monastic who translated texts in the Tang included in the Chinese Buddhist canon; one of the 四大翻譯家 'four great translators', especially known for translating esoteric texts to Chinese; FGS translation standard: Amoghavajra (BL 'Amoghavajra'; FGDB '不空')	7000761
 7000762	灌顶	灌頂	Guàn Dǐng	Guanding	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Wade-Giles: Kuan-ting, 561—632; disciple of 智顗 Zhi Yi 538—597, key figure of the Tiantai school; Guan Ding wrote down the text of 摩訶止觀 “Great Concentration and Insight” based on Zhi Yi's lectures (Ding '灌頂'; FGDB '灌頂')	7000762
@@ -794,7 +794,7 @@
 7000794	大爱道	大愛道	dà'àidào	Maha-prajapti	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	(FGDB '大愛道比丘尼經')	7000794
 7000795	蔡愔	\N	Cài Yīn	Cai Yin	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	Travelled with Kasyapamatanga and Dharmaratna to Luo Yang during the early days of Buddhism in China (Wikipedia '蔡愔')	7000795
 7000796	法显	法顯	Fǎ Xiǎn	Faxian / Fa Hsien	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	(c. 337-422) Faxian was a monk who traveled to Nepal, India, and Sri Lanka to acquire Buddhist scriptures. Faxian's travels are recorded in the text 佛國記 'A Record of Buddhist Kingdoms' (BL 'Faxian'; FGDB '法顯').	7000796
-7000797	求那跋陀罗	求那跋陀羅	qiúnàbátuóluó	Guṇabhadra / Gunabhadra	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	(394-468) Sanskrit equivalent: guṇabhadra; a monk from India, translated the Lankavatara Sutra to Chinese (FGDB '求那跋陀羅'; BL 'Guṇabhadra').	7000797
+7000797	求那跋陀罗	求那跋陀羅	qiúnàbátuóluó	Guṇabhadra / Gunabhadra	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	394-468; Sanskrit equivalent: guṇabhadra; a monk from India, translated the Lankavatara Sutra and 過去現在因果經 the Sūtra on Past and Present Causes and Effects to Chinese (BL 'Guṇabhadra', p. 336; FGDB '求那跋陀羅').	7000797
 7000798	辨机	辨機	biàn jī	Bian Ji	proper noun	师父	Monastic	佛教	Buddhism	\N	\N	\N	\N	619-?; A disciple of Xuanzang, he compiled 《大唐西域记》Tang Records on the Western Regions based on Xuanzang's oral account (Wikipedia '辨機')	7000798
 7000799	义净	義淨	Yì Jìng	Yijing	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	(635-713) Yijing was a Tang Dynasty monk who travelled to India. His travels notes are recorded in the text 南海寄歸內法傳 'A Record of the Buddhist Religion: As Practised in India and the Malay Archipelago.'; FGS translation standard: Yijing (BL 'Yijing'; Faxiang; FGDB '義淨')	7000799
 7000800	须提那	須提那	xūtínà	Sudinna	noun	师父	Monastic	佛教	Buddhism	印度佛教	Indian Buddhism	\N	\N	Notes: Son of Kalandaka 迦蘭陀; a monastic mentioned in the 四分律 “Four Part Vinaya” (Ding '須提那'; FGDB '須提那子'; Hsing Yun 2010, p. 3)	7000800
@@ -1288,7 +1288,7 @@
 7001288	沮渠京声	沮渠京聲	Jǔqú Jīngshēng	Juqu Jingsheng	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	-464; Xiongnu Buddhist and translator who travelled to China in the Northern Liang (FGDB '沮渠京聲')	7001288
 7001289	莲花戒	蓮花戒	Liánhuā Jiè	Kamalasila	proper noun	师父	Monastic	佛教	Buddhism	西藏	Tibet	\N	\N	Sanskrit equivalent: Kamalaśīla (fl. 713-763) was an Indian Buddhist who travelled to Tibet (Wikipedia '蓮花戒')	7001289
 7001290	中观派	中觀派	Zhōng Guān Pài	Madhyamaka / Sanlun School / Three Sastra School	proper noun	宗	School	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	Sanskrit equivalent: Madhyamaka, Japanese: Chūgan; also see 三論宗 (BL 'Madhyamaka'; FGDB '中觀派')	7001290
-7001291	迦留陀伽	\N	Jiāliútuójiā	 Kalodaka / Kālodaka	proper noun	译师	Translator	佛教	Buddhism	\N	\N	\N	\N	Monastic from the Western Regions who travelled to China in the Eastern Jin; translated Shi Er You Jing 《佛說十二遊經》 (FGDB '迦留陀伽'; T 195; KDC 'K 1009')	7001291
+7001291	迦留陀伽	\N	Jiāliútuójiā	 Kalodaka / Kālodaka	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	Monastic from the Western Regions who travelled to China in the Eastern Jin; translated Shi Er You Jing 《佛說十二遊經》 (FGDB '迦留陀伽'; T 195; KDC 'K 1009')	7001291
 7001292	毘尼藏	\N	Píní Zàng	Collection of Monastic Rules / Vinaya / Vinayapiṭaka / Vinaya Piṭaka	proper noun	\N	\N	佛教	Buddhism	南傳佛教	Theravada	\N	\N	See 律藏 (SH '律藏', p. 301)	7001292
 7001293	月称	月稱	Yuè Chēng	Candrakirti	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: Candrakīrti an Indian scholar, a khenpo of Nālandā Mahāvihāra, and a disciple of Nāgārjuna (FGDB '月稱')	7001293
 7001294	那烂陀寺	那爛陀寺	Nàlàntuósì	Nālandā Temple	proper noun	寺院	Monastery	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: nālandā, Japanese: Narandaji; the temple and university that was an important Buddhist center in ancient India (BL 'Nālandā'; FGDB '那爛陀寺')	7001294
@@ -3170,7 +3170,7 @@
 7003170	经录部	經錄部	Jīng Lù Bù	Sūtra Record Section	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Especially, of the Tripiṭaka (FGDB '佛典精解')	7003170
 7003171	大涅盘	大涅槃	Dà Nièpán	Mahaparinirvana Sutra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	See 大般涅槃經 (FGDB '大般涅槃經')	7003171
 7003172	过去现在因果经	過去現在因果經	Guòqu Xiànzài Yīnguǒ Jīng	Sutra on Past and Present Causes and Effects	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Japanese: Kako genzai inga-kyō; a text in the Chinese Buddhist canon (T 189; KDC 'K 777'; Hsing Yun and Miao Guang trans. 2016, p. 373; Matsuo 2007, p. 8)	7003172
-7003173	聶道眞	\N	Niè Dào Zhēn	Nie Dao Zhen	proper noun	译师	Translator	佛教	Buddhism	中国	China	\N	\N	Eastern Jin lay Buddhist and translator. Translated the Abhiniṣkramaṇa Sūtra 異出菩薩本起經, T3, No. 188 and Bodhisattva Fasting Sūtra《菩薩受齋經》T24, No. 1502 and other works (T 1502).	7003173
+7003173	聶道眞	\N	Niè Dào Zhēn	Nie Dao Zhen	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	Eastern Jin lay Buddhist and translator. Translated the Abhiniṣkramaṇa Sūtra 異出菩薩本起經, T3, No. 188 and Bodhisattva Fasting Sūtra《菩薩受齋經》T24, No. 1502 and other works (T 1502).	7003173
 7003174	哥利王	\N	Gēlì Wáng	Rajah of Kalinga / King Kali / Kalirājā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: kalirājā; variant of 歌利王 (FGDB '歌利王')	7003174
 7003175	羯利王	\N	Jiélì Wáng	Rajah of Kalinga / King Kali / Kalirājā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: kalirājā; variant of 歌利王 (FGDB '歌利王')	7003175
 7003176	迦梨王	\N	Jiālì Wáng	Rajah of Kalinga / King Kali / Kalirājā	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: kalirājā; variant of 歌利王 (FGDB '歌利王')	7003176
@@ -3546,3 +3546,48 @@
 7003546	道元	\N	Dào Yuán	Dōgen	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	Japanese: Dōgen; 1200-1253, Japanese monastic who travelled to China in the Song; also known as 道元希玄 Dōgen Kigen (BL 'Dōgen Kigen', p. 263; FGDB '道元'; Wikipedia '道元')	7003546
 7003547	道元禅师	道元禪師	Dào Yuán Chán Shī	Dōgen Zenji	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 道元 (FGDB '道元')	7003547
 7003548	道元希玄	\N	Dào Yuán Xī Xuán	Dōgen Kigen	proper noun	法师	Monastic	佛教	Buddhism	日本	Japan	\N	\N	See 道元 (FGDB '道元')	7003548
+7003549	聶道真	\N	Niè Dào Zhēn	Nie Dao Zhen	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	Eastern Jin lay Buddhist and translator. Translated the Abhiniṣkramaṇa Sūtra 異出菩薩本起經, T3, No. 188 and Bodhisattva Fasting Sūtra《菩薩受齋經》T24, No. 1502 and other works (FGDB '聶道真')	7003549
+7003550	法炬	\N	Fǎ Jù	Fa Ju	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	Monk and translator who lived in China circa 308, translated the Dharmapada 《法句譬喻經》 and other texts (FGDB '法炬'; KDC 'K 1021'; T 1020)	1002888
+7003551	萨婆多毘尼毘婆沙	薩婆多毘尼毘婆沙	Sàpóduōpínípípóshā	Sarvāstivādavinayavibhāṣā / Sarvastivadavinayavibhasa	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Sanskrit equivalent: Sarvāstivādavinayavibhāṣā; the title of a text in the Chinese Buddhist canon (KDC 941; T 1440)	7003551
+7003552	迦留陁伽	\N	jiāliútuójiā	 Kalodaka / Kālodaka	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	See 迦留陀伽 (FGDB '迦留陀伽')	7003552
+7003553	白净王	白淨王	Bái Jìng Wáng	Shuddhodana / Suddhodana	proper noun	王	King	佛教	Buddhism	印度	India	\N	\N	See 淨飯王 (FGDB '淨飯王')	7003553
+7003554	真净王	真淨王	Zhēn Jìng Wáng	Shuddhodana / Suddhodana	proper noun	王	King	佛教	Buddhism	印度	India	\N	\N	See 淨飯王 (FGDB '淨飯王')	7003554
+7003555	白净	白淨	Bái Jìng	Shuddhodana / Suddhodana	proper noun	王	King	佛教	Buddhism	\N	\N	\N	\N	See 淨飯王 (FGDB '淨飯王')	7003555
+7003556	甘露饭王	甘露飯王	gānlùfàn wáng	King Amitodana	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: amṛtodana, Pāli: amitodana; the Buddha, Siddhartha Gautama's paternal uncle (FGDB '甘露飯王'; Wikipedia '释迦牟尼')	7003556
+7003557	甘露净	甘露淨	Gānlùjìng	Amitodana	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 甘露飯王 (FGDB '甘露飯王')	7003557
+7003558	调达	調達	tiáodá	Devadatta	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 提婆達多 (FGDB '提婆達多')	7003558
+7003559	谷净	穀淨	gǔjìng	Amitodana	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 甘露飯王 (FGDB '甘露飯王')	7003559
+7003560	摩诃男	摩訶男	móhēnán	Mahanama / Mahānāma	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	One of the Buddha's first five disciples; also the name of a lay disciple at the time of the Buddha (BL 'Mahānāma'; FGDB '摩訶男'; Wikipedia '摩訶男')	7003560
+7003561	摩诃南	摩訶南	móhēnán	Mahanama / Mahānāma	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 摩訶男 (FGDB '摩訶男')	7003561
+7003562	摩诃那摩	摩訶那摩	móhēnàmó	Mahanama / Mahānāma	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 摩訶男 (FGDB '摩訶男')	7003562
+7003563	迦惟罗阅	迦惟羅閱	jiāwéiluóyuè	Kapilavastu / Kapilavatthu	proper noun	王国	Kingdom	佛教	Buddhism	印度	India	\N	\N	See 迦毘羅衛 (FGDB '迦毘羅衛')	7003563
+7003564	跋陀	\N	bátuó	 Gunabhadra	proper noun	人	Person	佛教	Buddhism	印度	India	\N	\N	See 求那跋陀羅 (FGDB '求那跋陀羅')	7003564
+7003565	蓝毘尼	藍毘尼	lánpíní	Lumbini	proper noun	地名	Place Name	佛教	Buddhism	印度	India	\N	\N	See 藍毘尼園 (FGDB '藍毘尼園')	7003565
+7003566	白王	\N	Bái Wáng	Shuddhodana / Suddhodana	proper noun	王	King	佛教	Buddhism	\N	\N	\N	\N	See 淨飯王 (FGDB '淨飯王')	7003566
+7003567	普曜	\N	Pǔ Yào	lalitavistara sūtra	proper noun	经	Sutra	佛教	Buddhism	\N	\N	\N	\N	Describes the birth of the Buddha (FGDB '普曜')	7003567
+7003568	牟子	\N	Móuzǐ	Mouzi	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	A scholar from Cangwu, in present-day Guangxi, who lived at the end of the Eastern Han (FGDB '牟子')	7003568
+7003569	佛圖澄	\N	fótúdèng	Fotudeng	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	232–348, Monk from Kucha who was important in the early spread of Buddhism in China (FGDB '佛圖澄'; Wikipedia '佛圖澄')	7003569
+7003570	须达	須達	Xūdá	Sudatta	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	The personal name of Anāthapiṇḍada, a wealthy elder of Śrāvastī at the time when Śākyamuni was teaching (BL 'Sudatta', p. 862; FGDB '須達')	7003570
+7003571	须达多	須達多	Xūdáduō	Sudatta	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	See 須達 (FGDB '須達')	7003571
+7003572	须达长者	須達長者	Xūdá Zhǎngzhě	Elder Sudatta	proper noun	人	Person	佛教	Buddhism	\N	\N	\N	\N	See 須達 (FGDB '須達')	7003572
+7003573	竹林精舍	\N	Zhú Lín Jīngshè	Veṇuvana Vihāra / Veḷuvana Vihāra	proper noun	精舍	Vihara	佛教	Buddhism	古印度	Ancient India	\N	\N	Sanskrit: veṇuvanavihāra, Pali: veḷuvanavihāra, Japanese: Chikurin shōja; Literally, the bamboo forest vihara; a vihara built by King Bimbisāra for the Buddha in Sravasti, India (BL 'Veṇuvanavihāra', p. 964; FGDB '竹林精舍')	7003573
+7003574	庄主	莊主	zhuāngzhǔ	property manager in a temple	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (FGDB '莊主')	7003574
+7003575	典宾	典賓	diǎn bīn	Guest Prefect	proper noun	职事	Post	佛教	Buddhism	禅宗	Chan School	\N	\N	See 知客 (FGDB '知客')	7003575
+7003576	禅苑清规	禪苑清規	Chányuàn Qīngguī	Chanyuan Qinggui / Pure Rules of the Chan Garden	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	Japanese: Zen’on shingi; compiled by the Chan Master Ghanglu Zongze circa 1103, a book for administration of Chan monasteries (BL 'Chanyuan qinggui', pp. 177-178; FGDB '禪苑清規')	7003576
+7003577	圊头	圊頭	qīngtóu	Sanitation Steward	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Welch 1967, p. 421)	7003577
+7003578	寮元	\N	liáoyuán	Head of Room and Board / Head of Wandering Monks Hall	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	The monk in charge of a pilgrim's lodge at a Chan temple. One of the Forty-Eight Positions in a Chan monastery (Ding '寮元'; FGDB '寮元'; Welch 1967, p. 421)	7003578
+7003579	都监	都監	dūjiàn	Executive	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (FGDB '都監')	7003579
+7003580	悦众	悅眾	yuè zhòng	Director of Affairs / Karmadana / Vinaya Master / Discipline Master	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	See 知事 (FGDB '知事')	7003580
+7003581	烧香	燒香	shāo xiāng	Head of Devotees’ Gathering	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Welch 1967, p. 422)	7003581
+7003582	貼案	贴案	tiē àn	Taster	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Welch 1967, p. 421)	7003582
+7003583	饭头	飯頭	fàn tóu	Rice Steward	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Welch 1967, p. 421)	7003583
+7003584	白云守端和尚广录	白雲守端和尚廣錄	báiyún shǒuduān héshang guǎnglù	Extensive Records of Abbot Baiyun Shouduan	proper noun	书名	Book Title	佛教	Buddhism	禅宗	Chan	\N	\N	Title of a text of recorded sayings by the Song Dynasty Chan Monastic Baiyun Shouduan (FGDB '白雲守端和尚廣錄')	7003584
+7003585	菜头	菜頭	cài tóu	Vegetable Steward	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '菜頭'; FGDB '菜頭'; Welch 1967, p. 421)	7003585
+7003586	水头	水頭	shuǐ tóu	Water Steward	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	For the kitchen, one of the Forty-Eight Positions in a Chan monastery (Ding '水頭'; FGDB '水頭'; SH '水頭'; Welch 1967, p. 421)	7003586
+7003587	火头	火頭	huǒ tóu	Stoker / Cook	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '火頭'; FGDB '火頭'; SH '火頭'; Welch 1967, p. 421)	7003587
+7003588	茶头	茶頭	chá tóu	Tea Steward	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '茶頭'; FGDB '茶頭'; Welch 1967, p. 421)	7003588
+7003589	行堂	\N	xíng táng	Waiter	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (Ding '行堂'; FGDB '行堂'; Welch 1967, p. 421)	7003589
+7003590	门头	門頭	mén tóu	Gatekeeper	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery in the sense of 守門僧 'monastic guarding the gate' (FGDB '門頭'; Welch 1967, p. 421)	7003590
+7003591	门头行者	門頭行者	méntóu xíngzhě	Gatekeeper	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	See 門頭 (FGDB '門頭')	7003591
+7003592	园头	園頭	yuán tóu	Head Gardener	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	One of the Forty-Eight Positions in a Chan monastery (FGDB '園頭'; Welch 1967, p. 421)	7003592
+7003593	殿司	\N	diànsī	Head Gardener	proper noun	职事	Post	佛教	Buddhism	禪宗	Chan School	\N	\N	See 園頭 (FGDB '園頭')	7003593
