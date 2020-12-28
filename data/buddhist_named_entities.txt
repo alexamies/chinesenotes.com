@@ -3616,3 +3616,7 @@
 7003616	诸法无诤三昧法门	諸法無諍三昧法門	Zhū Fǎ Wú Zhèng Sānmèi Fǎmén	The Samādhi of Non-contention of Following After One's Own Thoughts	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	Attributed to Hui Si 慧思 (T 1923)	7003616
 7003617	大乘止观法门	大乘止觀法門	Dàchéng Zhǐ Guān Fǎmén	The Mahāyāna Teaching on Calm and Insight	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	A text attributed to Hui Si 慧思 (T 1924)	7003617
 7003618	法华经安乐行义	法華經安樂行義	Fǎ Huà Jīng Ānlè Xíng Yì	The Practice for Attaining Peace based on the Lotus Sūtra	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	A text attributed to Hui Si 慧思 c. 515-557 (T 1926)	7003618
+7003619	真觉寺	真覺寺	zhēnjué sì	Zhenjue Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Haidian, Beijing; also known as  五塔寺 Five Pagoda Temple; also another name for 高明寺 Gaoming Temple in Zhejiang (BSPAD '真覺寺', ID PL000000014710; Wikipedia '真觉寺')	7003619
+7003620	佛陇真觉寺	佛隴真覺寺	fó lǒng zhēnjué sì	Zhenjue Buddhist Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Another name for 高明寺 Gaoming Temple in Zhejiang (BSPAD '真覺寺', ID PL000000014710)	7003620
+7003621	高明寺	\N	gāomíng sì	Gaoming Temple	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	Located in Zhejiang (Wikipedia '高明寺')	7003621
+7003622	智者大师塔院	智者大師塔院	zhìzhědàshītǎyuàn	Venerable Master Zhi Yi Pagoda	proper noun	寺院	Temple	佛教	Buddhism	中国	China	\N	\N	In Zhejiang (FGDB '智者大師塔院'; Wikipedia '高明寺')	7003622
