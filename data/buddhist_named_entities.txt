@@ -3671,3 +3671,24 @@
 7003671	众造寺	眾造寺	zhòngzào sì	 Zhongzao Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '眾造寺', ID PL000000048183)	7003671
 7003672	栖玄寺	\N	qīxuán sì	 Qixuan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '栖玄寺', ID PL000000009498)	7003672
 7003673	香严	香嚴	xiāngyán	Xiangyan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Tang dynasty monastic (FGDB '香嚴')	7003673
+7003674	定林上寺	\N	dìnglínshàng sì	 Dinglinshang Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '上定林寺', ID PL000000008754)	7003674
+7003675	定林寺	\N	dìnglín sì	 Dinglin Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (Wikipedia '定林寺')	7003675
+7003676	显明寺	顯明寺	xiǎnmíng sì	 Xianming Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in a number of locations (BSPAD '顯明寺', ID PL000000058279)	7003676
+7003677	别译杂阿含	別譯雜阿含	Bié Yì Zá Āhán	An Alternative Translation of the Saṃyukta Āgama / Saṁyukatāgamasūtra	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	See 別譯雜阿含經 (FGDB '別譯雜阿含經')	7003677
+7003678	城傍寺	\N	chéngpáng sì	 Chengpang Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Shaoxing, Zhejiang (BSPAD '城傍寺', ID PL000000013170)	7003678
+7003679	宝林寺	寶林寺	bǎolín sì	 Baolin Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in a number of locations (BSPAD '寶林寺', ID PL000000013213)	7003679
+7003680	谢寺	謝寺	xiè sì	 Xie Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Nanjing and Yangzhou (BSPAD '謝寺', ID PL000000009146)	7003680
+7003681	太昌寺	\N	tàichāng sì	 Taichang Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '太昌寺', ID PL000000008677)	7003681
+7003682	中寺	\N	Zhōng Sì	 Zhong Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in a number of locations (BSPAD '中寺', ID PL000000001459)	7003682
+7003683	禅冈寺	禪岡寺	chángāng sì	 Changang Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '禪岡寺', ID PL000000008681)	7003683
+7003684	延贤寺	延賢寺	yánxián sì	 Yanxian Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '延賢寺', ID PL000000008757)	7003684
+7003685	建元寺	\N	jiànyuán sì	 Jianyuan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in a number of locations (BSPAD '建元寺', ID PL000000008683)	7003685
+7003686	法华寺	法華寺	fǎhuá sì	 Fahua Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in a number of locations (BSPAD '法華寺', ID PL000000012908)	7003686
+7003687	北磵居简	北磵居簡	Běijiàn Jūjiǎn	Beijian Jujian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1164-1246; Chinese monastic in the Chan school (BSAD '居簡', ID: A000617)	7003687
+7003688	北磵	\N	běijiàn	Beijian / Beijian Jujian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 北磵居簡 (BSAD '居簡', ID: A000617)	7003688
+7003689	居简	居簡	jūjiǎn	Jujian / Beijian Jujian	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 北磵居簡 (BSAD '居簡', ID: A000617)	7003689
+7003690	旷野寺	曠野寺	kuàngyě sì	 Kuangye Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '曠野寺', ID PL000000009072)	7003690
+7003691	南岩寺	南巖寺	Nányán Sì	 Nanyan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Shaoxing (BSPAD '南巖寺', ID PL000000013329)	7003691
+7003692	常山寺	\N	chángshān sì	 Changshan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Shanqiu, Henan (BSPAD '常山寺', ID PL000000025651)	7003692
+7003693	昭德寺	\N	zhāodé sì	 Zhaode Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Shanqiu, Henan (BSPAD '昭德寺', ID PL000000001439)	7003693
+7003694	满水寺	滿水寺	mǎnshuǐ sì	 Manshui Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Luoyang (BSPAD '滿水寺', ID PL000000023544)	7003694
