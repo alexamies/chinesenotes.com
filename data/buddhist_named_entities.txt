@@ -3662,3 +3662,12 @@
 7003662	长干寺	長干寺	Chánggàn Sì	 Changgan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Former name of a historic temple in Nanjing, see 建初寺 (BSPAD '建初寺', ID PL000000008825)	7003662
 7003663	长沙寺	長沙寺	chángshā sì	 Changsha Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Jingzhou, Hubei (BSPAD '長沙寺', ID PL000000027743)	7003663
 7003664	中兴寺	中興寺	Zhōngxīng Sì	 Zhongxing Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in several cities (BSPAD '中興寺', ID PL000000008874)	7003664
+7003665	宋熙寺	\N	sòngxī sì	 Songxi Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '宋熙寺', ID PL000000008758)	7003665
+7003666	湘宫寺	湘宮寺	Xiānggōng Sì	 Xianggong Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '湘宮寺', ID PL000000008943)	7003666
+7003667	灵基寺	靈基寺	Língjī Sì	 Lingji Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '靈基寺', ID PL000000008705)	7003667
+7003668	灵根寺	靈根寺	línggēn sì	 Linggen Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '靈根寺', ID PL000000008704)	7003668
+7003669	大石寺	\N	dàshí sì	Dashi Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Chengdu (BSPAD '大石寺', ID PL000000034767)	7003669
+7003670	孙泰寺	孫泰寺	sūntài sì	 Suntai Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Lianyungang, Jiangsu (BSPAD '孫泰寺', ID PL000000010392)	7003670
+7003671	众造寺	眾造寺	zhòngzào sì	 Zhongzao Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '眾造寺', ID PL000000048183)	7003671
+7003672	栖玄寺	\N	qīxuán sì	 Qixuan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '栖玄寺', ID PL000000009498)	7003672
+7003673	香严	香嚴	xiāngyán	Xiangyan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Tang dynasty monastic (FGDB '香嚴')	7003673
