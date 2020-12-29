@@ -809,7 +809,7 @@
 7000809	神秀	\N	Shén Xiù	Shen Xiu	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	Mentioned in the Platform Sutra (FGDB '神秀')	7000809
 7000810	五祖	\N	Wǔ Zǔ	Fifth Patriarch	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	601 - 674; Fifth Patriarch 弘忍 Hong Ren of the Chan tradition (FGDB '弘忍')	7000810
 7000811	莲花生	蓮花生	liánhuāshēng	Padmasambhava	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Said to have transmitted Tantric Buddhism to Bhutan and Tibet (Wikipedia '蓮花生')	7000811
-7000812	智顗	\N	Zhìyǐ	Zhi Yi / Chih-i	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Wade-Giles: Chih-i (538-597), fourth patriarch of the Tiantai School of Buddhism (Ding '智顗'; FGDB '智顗'; SH '智顗')	7000812
+7000812	智顗	\N	Zhìyǐ	Zhi Yi / Chih-i	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Wade-Giles: Chih-i 538-597, third patriarch of the Tiantai School of Buddhism (Ding '智顗'; FGDB '智顗'; SH '智顗')	7000812
 7000813	吉藏	\N	Jí Zàng	Jizang	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	549-623 CE; founder of the Sanlun School of Buddhism (BL 'Jizang'; Ding '吉藏'; FGDB '吉藏')	7000813
 7000814	龙树	龍樹	lóng shù	Nāgārjuna	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: nāgārjuna (c. 150 - 250 CE) Indian monastic and philosopher, attributed with composing the 中論 'Fundamental Verses on the Middle Way' (BL 'nāgārjuna'; FGDB '龍樹')	7000814
 7000815	提婆	\N	típó	Āryadeva / Deva	proper noun	师父	Monastic	佛教	Buddhism	印度	India	\N	\N	Sanskrit equivalent: āryadeva, 3rd Century CE Indian Buddhist, a disciple of Nagarjuna (BL 'Āryadeva'; FGDB '提婆')	7000815
@@ -1240,7 +1240,7 @@
 7001240	金刚经注疏	金剛經註疏	Jīngāng Jīng Zhù Shū	Jingang Jing Zhu Shu	proper noun	经疏	Sūtra Commentary	佛教	Buddhism	中国	China	\N	\N	Commentary on the Diamond Sūtra by Tang monk Hui Jing 慧净, Manji No. 0456	7001240
 7001241	慧净	慧淨	Huì Jìng	Hui Jing	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	Tang monk, composed the commentary on the Diamond Sutra ”Jingang Jing Zhu Shu” 金刚经注疏, Manji No. 0456 (FGDB '金剛經註正訛')	7001241
 7001242	金刚经纂要刊定记	金剛經纂要刊定記	Jīngāng Jīng Zuǎn Yào Kān Dìng Jì	Jingang Jing Zuan Yao Kan Ding Ji	proper noun	经疏	Sūtra Commentary	佛教	Buddhism	中国	China	\N	\N	Commentary on the Diamond Sūtra by Song monk Zi Xuan 子璿 (T 1702)	7001242
-7001243	承远	承遠	chéngyuǎn	Cheng Yuan	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	712-802; Tang dynasty monastic (FGDB '承遠')	7001243
+7001243	承远	承遠	chéngyuǎn	Cheng Yuan	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	712-802; Tang dynasty monastic, third patriarch of the Pureland school (FGDB '承遠')	7001243
 7001244	大珠慧海	\N	dàzhū huìhǎi	Dazhu Huihai	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	Tang dynasty monastic (FGDB '大珠慧海')	7001244
 7001245	慧海	\N	huìhǎi	Huihai	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	541-609; Sui dynasty monastic and the name of several other historic masters (FGDB '慧海')	7001245
 7001246	报恩寺	報恩寺	Bào ēn Sì	Bao En Temple	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	The Bao En Temple in Suzhou is well known and there are other temples with the same name in other places (Ding '報恩寺'; FGDB '報恩寺')	7001246
@@ -3635,3 +3635,30 @@
 7003635	寒山寺	\N	hánshān sì	Hanshan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Suzhou, Jiangsu (BSPAD '寒山寺', ID PL000000009978)	7003635
 7003636	同泰寺	\N	tóngtài sì	Tongtai Temple / Jiming Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Nanjing, Jiangsu (BSPAD '同泰寺', ID PL000000008748)	7003636
 7003637	大悲院	\N	Dàbēi Yuàn	Temple of Great Compassion	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Temple in Tianjin (BSPAD '大悲院', ID PL000000000667)	7003637
+7003638	泽心寺	澤心寺	Zéxīn Sì	Zexin Temple / Jinshan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Temple on the Yangtze River in the town of Zhenjiang 鎮江 (BSPAD '澤心寺', ID PL000000011011)	7003638
+7003639	中国佛寺志丛刊	中國佛寺志叢刊	zhōngguó fó sì zhì huì kān	Collection of Chinese Buddhist Temple Gazetteers	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	A compiliation from temple gazetteers. 2006, compiled by Zhang Zhi, 197 volumes (FGDB '中國佛寺志叢刊')	7003639
+7003640	法鼓文理学院	法鼓文理學院	fǎgǔ wénlǐ xuéyuàn	Dharma Drum Institute of Liberal Arts	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Located in Taiwan (Wikipedia '法鼓文理學院')	7003640
+7003641	法鼓佛教学院	法鼓佛教學院	Fǎ Gǔ Fójiào Xuéyuàn	Dharma Drum Buddhist College	proper noun	学院	College	佛教	Buddhism	\N	\N	\N	\N	A Former name for 法鼓文理學院 (Wikipedia '法鼓文理學院')	7003641
+7003642	白沙寺	\N	Báishā Sì	Baisha Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Guangzhou (BSPAD '白沙寺', ID PL000000030426)	7003642
+7003643	瓦官寺	\N	wǎguān sì	Waguan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Nanjing, built during the reign of Emperor Ai of Jin 341－365 (Wikipedia '瓦官寺')	7003643
+7003644	东山寺	東山寺	Dōngshān Sì	Dongshan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Anhui (BSPAD '石澗寺', ID PL000000016333')	7003644
+7003645	禅宗三祖	禪宗三祖	chán zōng sān zǔ	third patriarch of the Chan school	proper noun	\N	\N	佛教	Buddhism	禅宗	Chan	\N	\N	See 僧璨 (FGDB '禪宗三祖')	7003645
+7003646	净土宗三祖	淨土宗三祖	jìngtǔ zōng sān zǔ	third patriarch of the Pureland school	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	See 承遠 (FGDB '淨土宗三祖')	7003646
+7003647	天台宗三祖	\N	tiāntái zōng sān zǔ	third patriarch of the Tiantai school	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	See 智顗 (FGDB '天台宗三祖')	7003647
+7003648	华严宗三祖	華嚴宗三祖	huàyán zōng sān zǔ	third patriarch of the Huayan school	proper noun	\N	\N	佛教	Buddhism	中国	China	\N	\N	See 法師 (FGDB '華嚴宗三祖')	7003648
+7003649	长安中寺	長安中寺	Cháng'ān Zhōng Sì	Chang'an Zhong Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Xi'an (BSPAD '中寺', ID PL000000042069)	7003649
+7003650	道场寺	道場寺	Dàochǎng Sì	Daochang Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Nanjing ('合併至', ID PL000000010767)	7003650
+7003651	竹园寺	竹園寺	zhúyuán sì	Zhuyuan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Nanjing (BSPAD '竹園寺', ID PL000000008753)	7003651
+7003652	祇洹寺	\N	qíhuán sì	Zhihuan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Nanjing, Hubei, and Sichuan (Red Pine 2012, loc. 5667)	7003652
+7003653	天王寺	\N	Tiānwáng Sì	Tianwang Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in several different cities (Wikipedia '天王寺')	7003653
+7003654	石留寺	\N	shíliú sì	Shiliu Temple	proper noun	寺	Temple	佛教	Buddhism	巴基斯坦	Pakistan	\N	\N	The name of historic temple in Pakistan (BSPAD '石留寺', ID PL000000049228)	7003654
+7003655	龙光寺	龍光寺	Lóngguāng Sì	 Longguang Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Shaanxi, Nanjing, and Jinan (BSPAD '龍光寺', ID PL000000008756)	7003655
+7003656	枳园寺	枳園寺	zhǐyuán sì	 Zhiyuan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '枳園寺', ID PL000000008708)	7003656
+7003657	始兴寺	始興寺	shǐxīng sì	 Shixing Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Nanjing and Chang'an (BSPAD '始興寺', ID PL000000008585)	7003657
+7003658	六合山寺	\N	liùhéshān sì	 Liuheshan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Chaohu, Anhui (BSPAD '六合山寺', ID PL000000016236)	7003658
+7003659	影福寺	\N	yǐngfú sì	 Yingfu Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '影福寺', ID PL000000009068)	7003659
+7003660	平陆寺	平陸寺	pínglù sì	 Pinglu Temple / Fengcheng Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '平陸寺', ID PL000000008663)	7003660
+7003661	奉诚寺	奉誠寺	fèngchéng sì	 Pinglu Temple / Fengcheng Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '奉誠寺', ID PL000000008663)	7003661
+7003662	长干寺	長干寺	Chánggàn Sì	 Changgan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	Former name of a historic temple in Nanjing, see 建初寺 (BSPAD '建初寺', ID PL000000008825)	7003662
+7003663	长沙寺	長沙寺	chángshā sì	 Changsha Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Jingzhou, Hubei (BSPAD '長沙寺', ID PL000000027743)	7003663
+7003664	中兴寺	中興寺	Zhōngxīng Sì	 Zhongxing Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in several cities (BSPAD '中興寺', ID PL000000008874)	7003664
