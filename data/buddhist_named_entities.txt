@@ -3692,3 +3692,44 @@
 7003692	常山寺	\N	chángshān sì	 Changshan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Shanqiu, Henan (BSPAD '常山寺', ID PL000000025651)	7003692
 7003693	昭德寺	\N	zhāodé sì	 Zhaode Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Shanqiu, Henan (BSPAD '昭德寺', ID PL000000001439)	7003693
 7003694	满水寺	滿水寺	mǎnshuǐ sì	 Manshui Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Luoyang (BSPAD '滿水寺', ID PL000000023544)	7003694
+7003695	简靖寺	簡靖寺	jiǎnjìng sì	 Jianjing Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '簡靖寺', ID PL000000008707)	7003695
+7003696	龙山大寺	龍山大寺	Jiǎnjìng Sì	 Jianjing Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Shaoxing, Zhejiang (BSPAD '龍山大寺', ID PL000000013393)	7003696
+7003697	通云寺	通雲寺	tōngyún sì	Tongyun Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Sichuan (BSPAD '通雲寺', ID PL000000037465)	7003697
+7003698	禅月贯休	禪月貫休	chányuè guànxiū	Chanyue Guanxiu	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	832-912; Tang dynasty monk (FGDB '禪月貫休')	7003698
+7003699	禅月	禪月	chányuè	Chanyue	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 禪月貫休 (FGDB '禪月貫休')	7003699
+7003700	禅月集	禪月集	chányuè jí	Chanyue Collected Works	proper noun	书名	Book Title	佛教	Buddhism	中国	China	\N	\N	Title of a work in thirty scrolls by Tang dynasty monk 禪月貫休 Chanyue Guanxiu (FGDB '禪月集')	7003700
+7003701	魔王三女经	魔王三女經	mówángsānnǚ jīng	Mara’s Daughters / Māradhītusutta	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	Title of a sutta in the Pali Canon (Saṃyutta Nikāya 4; <a href='https://suttacentral.net/sn4.25'>https://suttacentral.net/sn4.25</a>)	7003701
+7003702	巴宙	\N	bā zhòu	Ba Zhou	proper noun	学者	Scholar	佛教	Buddhism	\N	\N	\N	\N	1918 - ; Buddhist scholar (FGDB '巴宙')	7003702
+7003703	纯陀经	純陀經	chúntuó jīng	Cunda Sutta / Cundasutta	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	Title of a sutta in the Pali Canon (Saṃyutta Nikāya 47; <a href='https://suttacentral.net/sn47.13'>https://suttacentral.net/sn47.13</a>)	7003703
+7003704	蛇喻经	蛇喻經	shéyù jīng	The Simile of the Snake / Alagaddūpamasutta	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	Title of a text in the Pali Canon (Majjhima Nikāya 22; <a href='https://suttacentral.net/mn22'>https://suttacentral.net/mn22</a>)	7003704
+7003705	陟屺寺	通雲寺	zhìqǐ sì	Zhiqi Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Jingzhou, Hubei (BSPAD '通雲寺', ID PL000000037465)	7003705
+7003706	三层寺	三層寺	Sāncéng Sì	Sanceng Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Jingzhou, Hubei (BSPAD '三層寺', ID PL000000028396)	7003706
+7003707	祖庭事苑	\N	zǔ tíng shì yuàn	Lexicon of the Ancestral Garden	proper noun	书名	Book Title	佛教	Buddhism	禅宗	Chan	\N	\N	Title of a work compiled by Song dynasty monastic 睦庵善卿 Mu'an Shanqing (FGDB '祖庭事苑'; Heine, Steven 2016, p. 61; X 1261)	7003707
+7003708	睦庵善卿	\N	mù'ān shànqīng	Mu'an Shanqing	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	善卿 (BSAD '善卿', ID A001335)	7003708
+7003709	道林寺	\N	dàolín sì	Daolin Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in a number of locations (BSPAD '道林寺', ID PL000000008744)	7003709
+7003710	华林寺	華林寺	Huálín Sì	Hualin Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of temples in a number of locations (BSPAD '華林寺', ID PL000000010869)	7003710
+7003711	阎兴寺	閻興寺	Yánxīng Sì	Yanxing Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Guanghan county, Deyang city, Sichuan (BSPAD '閻興寺', ID PL000000035339)	7003711
+7003712	太后寺	\N	tàihòu sì	Taihou Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Xi'an ( '太后寺', ID PL000000042074)	7003712
+7003713	左军寺	左軍寺	zuǒjūn Sì	Zuojun Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Chengdu, Sichuan (BSPAD '左軍寺', ID PL000000034697)	7003713
+7003714	天宫寺	天宮寺	tiāngōng sì	Tiangong Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in a number of locations (BSPAD '天宮寺', ID PL000000058236)	7003714
+7003715	龙潭崇信	龍潭崇信	lóngtán chóngxìn	Longtan Chongxin	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	A Tang dynasty monastic (FGDB '龍潭崇信')	7003715
+7003716	灵期寺	靈期寺	língqī sì	Lingqi Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Chengdu, Sichuan (BSPAD '靈期寺', ID PL000000034698)	7003716
+7003717	安乐寺	安樂寺	Ānlè Sì	Anle Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in a number of locations (BSPAD '安樂寺', ID PL000000054293)	7003717
+7003718	头陀寺	頭陀寺	tóutuó sì	Toutuo Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Nanjing, Wuhan, and Wenzhou (BSPAD '頭陀寺', ID PL000000008986)	7003718
+7003719	高峰原妙	\N	gāofēng yuánmiào	Gaofeng Yuanmiao	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	1238-1295; Southern Song dynasty monastic from the Linji school (FGDB '高峰原妙')	7003719
+7003720	原妙	\N	yuánmiào	Yuanmiao	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 高峰原妙 (FGDB '原妙')	7003720
+7003721	高峰	\N	gāofēng	Gaofeng	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 高峰原妙 (FGDB '高峰')	7003721
+7003722	高峰原妙禅师语录	高峰原妙禪師語錄	gāofēng yuánmiào chánshī yǔlù	Sayings of Chan Master Gaofeng Yuanmiao	proper noun	书名	Book Title	佛教	Buddhism	禅宗	Chan	\N	\N	Title of a work by Gaofeng Yuanmiao 1238-1295 (FGDB '高峰原妙禪師語錄', X 1400)	7003722
+7003723	善卿	\N	shànqīng	Shanqing	proper noun	人	Person	佛教	Buddhism	中国	China	\N	\N	Song dynasty monastic, compiled 祖庭事苑 “Lexicon of the Ancestral Garden” (BSAD '善卿', ID A001335)	7003723
+7003724	高峰原妙禅师禅要	高峰原妙禪師禪要	gāofēng yuánmiào chánshī chán yào	Chan Master Gaofeng Yuanmiao Essentials of Chan	proper noun	书名	Book Title	佛教	Buddhism	禅宗	Chan	\N	\N	(Broughton 2014, p. 44; X 1400)	7003724
+7003725	爱尽大经	愛盡大經	ài jìn dà jīng	The Greater Discourse on the Destruction of Craving / Mahātaṇhāsaṅkhayasutta	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	Title of a sutta in the Pali Canon (Majjhima Nikāya 38; <a href='https://suttacentral.net/mn38'>https://suttacentral.net/mn38</a>)	7003725
+7003726	鬘童子小经	鬘童子小經	mántóngzǐxiǎojīng	The Shorter Discourse to Mālunkyāputta / Cūḷamāluṅkya	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	Title of a sutta in the Pali Canon (Majjhima Nikāya 63; <a href='https://suttacentral.net/mn63'>https://suttacentral.net/mn63</a>)	7003726
+7003727	申恕林经	申恕林經	shēnshùlínjīng	The Siṃsapa Grove / Sīsapāvanasutta	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	Title of a sutta in the Pali Canon (Saṃyutta Nikāya 56; <a href='https://suttacentral.net/sn56.31'>https://suttacentral.net/sn56.31</a>)	7003727
+7003728	临泉寺	臨泉寺	línquán sì	Linquan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temple in Hangzhou (BSPAD '臨泉寺', ID PL000000012044)	7003728
+7003729	富阳	富陽	fùyáng	Fuyang	proper noun	城市	City	地方	Places	中国	China	\N	\N	A city in the Hangzhou area of Zhejiang (BSPAD '富陽', ID PL000000012054)	7003729
+7003730	安东寺	安東寺	Āndōng Sì	Andong Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in the Nanjing area (BSPAD '安東寺', ID PL000000008371)	7003730
+7003731	赤城山	\N	Chìchéng Shān	Chicheng Shan	proper noun	山	Mountain	地方	Places	中国	China	\N	\N	A mountain in Zhejiang, near Mount Tiantai (BSPAD '赤城山', ID PL000000014519)	7003731
+7003732	闲居寺	閑居寺	xiánjū shān	Xianju Shan	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Suzhou, Jiangsu (BSPAD '閑居寺', ID PL000000009844)	7003732
+7003733	闲心寺	閑心寺	xiánxīn sì	Xianxin Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Nanjing (BSPAD '閑心寺', ID PL000000008710)	7003733
+7003734	引水寺	\N	yǐnshuǐ sì	Yinshui Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Henan (BSPAD '引水寺', ID PL000000023155)	7003734
+7003735	公府寺	\N	gōngfǔ sì	Gongfu Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Gansu (BSPAD '公府寺', ID PL000000046537)	7003735
