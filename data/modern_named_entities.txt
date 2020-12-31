@@ -6677,3 +6677,5 @@
 6006677	梅拉尼娅	\N	méilāníyà	Melania	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	(Wikipedia '梅拉尼娅·特朗普')	6006677
 6006678	麦肯锡	\N	màikěnxī	MacKenzie / McKinsey	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '麦肯锡')	6006678
 6006679	皮尔森	\N	píěrsēn	Pearson	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '皮尔森')	6006679
+6006680	星巴克	星巴剋	xīngbākè	Starbucks	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '星巴克')	6006680
+6006681	摩卡	\N	mókǎ	Caffè Mocha	noun	饮料	Beverage	商务	Commerce	美国	United States	\N	\N	(Wikipedia '星巴克')	6006681

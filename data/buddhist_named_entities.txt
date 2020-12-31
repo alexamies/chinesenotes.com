@@ -3764,3 +3764,4 @@
 7003764	齐熙寺	齊熙寺	qíxī sì	Qixi Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temple in Yangzhou and Hangzhou (BSPAD '齊熙寺', ID PL000000010763)	7003764
 7003765	东云寺	東雲寺	Dōngyún Sì	Dongyun Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Suzhou (BSPAD '東雲寺', ID PL000000055046)	7003765
 7003766	通玄寺	\N	tōngxuán sì	Tongxuan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Suzhou, Jiangsu and Taizhou, Zhejiang (BSPAD '通玄寺', ID PL000000009882)	7003766
+7003767	从容录	從容錄	cōngróng lù	Congrong Lu / Shōyōroku / Book of Serenity	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Japanese: Shōyōroku; Congrong Lu is the commonly used name for the Buddhist text in the Chan tradition by 萬松行秀 Wansong Xingxiu 1165-1246 of the Caodong school. The full title that it is known by in the Taishō is 萬松老人評唱天童覺和尚頌古從容庵錄 (BL 'Congrong lu', p. 197; Cleary, 2005; FGDB '從容錄'; T 2004)	7003767
