@@ -1188,7 +1188,7 @@
 7001188	南岳思	南嶽思	Nán Yuè Sī	Hui Si / Nan Yue Hui Si	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	C. 515-557; considered the third patriarch of the Tiantai school and teacher of Zhi Yi 智顗 (BSAD '慧思', ID A001711)	7001188
 7001189	立誓愿文	立誓願文	Lìshì Yuàn Wén	Establishment of Vows	proper noun	书	Book	佛教	Buddhism	中国	China	\N	\N	Attributed to Hui Si 慧思, c. 515-557 (T 1933)	7001189
 7001190	弘一大师	弘一大師	hóngyī dàshī	Hong Yi	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 弘一 (Wikipedia '李叔同')	7001190
-7001191	沩山	溈山	wéishān	Weishan	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Names of a temple in Ningxian County, Hunan (Ding '溈山'; FGDB '溈山'; SH '溈山')	7001191
+7001191	沩山	溈山	guīshān	Guishan	proper noun	寺院	Monastery	佛教	Buddhism	中国	China	\N	\N	Names of a temple in Ningxian County, Hunan (Ding '溈山'; FGDB '溈山'; SH '溈山')	7001191
 7001192	德山	\N	déshān	Cuifeng Deshan / Deshan	proper noun	师父	Monastic	佛教	Buddhism	中国	China	\N	\N	See 翠峰德山 (FGDB '翠峰德山')	7001192
 7001193	三藏法师	三藏法師	Sān Zàng Fǎshī	Venerable Xuanzang / Tripiṭaka	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	602-664; Tang dynasty Buddhist monk and translator who traveled to India in 629-645 (FGDB '三藏法師').	7001193
 7001194	陈袆	陳褘	Chén Huī	Chen Hui / Venerable Xuanzang / Tripitaka	proper noun	法师	Monastic	佛教	Buddhism	\N	\N	\N	\N	See 三藏法師 (FGDB '三藏法師')	7001194
@@ -3733,3 +3733,21 @@
 7003733	闲心寺	閑心寺	xiánxīn sì	Xianxin Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Nanjing (BSPAD '閑心寺', ID PL000000008710)	7003733
 7003734	引水寺	\N	yǐnshuǐ sì	Yinshui Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Henan (BSPAD '引水寺', ID PL000000023155)	7003734
 7003735	公府寺	\N	gōngfǔ sì	Gongfu Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Gansu (BSPAD '公府寺', ID PL000000046537)	7003735
+7003736	玄沙大师语录	玄沙大師語錄	xuánshā dàshī yǔlù	Records of Venerable Master Xuansha	proper noun	书名	Book Title	佛教	Buddhism	禅宗	Chan	\N	\N	Title of a work with the recorded sayings of monastic 玄沙師備 Xuansha Shibei 835-908; see also 玄沙師備禪師廣語錄 (FGDB '玄沙大師語錄'; X 1446)	7003736
+7003737	玄沙师备禅师广录	玄沙師備禪師廣錄	xuánshā shībèi chánshī guǎng lù	Compendium of Sayings by Chan Master Xuansha	proper noun	书名	Book Title	佛教	Buddhism	禅宗	Chan	\N	\N	Title of a work with the recorded sayings of monastic 玄沙師備 Xuansha Shibei 835-908; full title 詳稱福州玄沙宗一大師廣錄 (FGDB '玄沙師備禪師廣語錄'; X 1445)	7003737
+7003738	福州玄沙宗一大师广录	福州玄沙宗一大師廣錄	fúzhōu xuánshā zōngyī dàshī guǎng lù	Compendium of Sayings by Venerable Master Xuansha Zongyi of Fuzhou	proper noun	书名	Book Title	佛教	Buddhism	禅宗	Chan	\N	\N	See 玄沙師備禪師廣錄 (FGDB '福州玄沙宗一大師廣錄'; X 1445)	167286
+7003739	玄沙广录	玄沙廣錄	xuánshā guǎnglù	Compendium of Sayings by Xuansha	proper noun	书名	Book Title	佛教	Buddhism	禅宗	Chan	\N	\N	See 玄沙師備禪師廣錄 (FGDB '玄沙廣錄'; X 1445)	7003739
+7003740	新亭寺	\N	xīntíng sì	Xinting Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Nanjing (BSPAD '中興寺', ID PL000000008874)	7003740
+7003741	天宝寺	天寶寺	tiānbǎo sì	Tianbao Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Nanjing and Chang'an (BSPAD '天保寺', ID PL000000009069)	7003741
+7003742	沩山警策注	溈山警策註	guīshān jǐngcè zhù	Notes on Guishan's Warning Whip	proper noun	书名	Book Title	佛教	Buddhism	禅宗	Chan	\N	\N	(FGDB '溈山警策註'; X 1239)	7003742
+7003743	灵建寺	靈建寺	língjiàn sì	Lingjian Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Chengdu (BSPAD '靈建寺', ID PL000000034691)	7003743
+7003743	沩山	溈山	guīshān	Guishan	proper noun	法师	Monastic	佛教	Buddhism	中国	China	\N	\N	See 溈山靈祐 (FGDB '溈山靈祐')	7001191
+7003745	沩山灵祐禅师语录	溈山靈祐禪師語錄	guīshān língyòu chánshī yǔlù	Records of Chan Master Guishan LingyouGuishan	proper noun	书名	Book Title	佛教	Buddhism	禅宗	Chan	\N	\N	(FGDB '溈山靈祐禪師語錄'; T 1989)	7003745
+7003746	裴寺	\N	péi sì	Pei Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Chengdu (BSPAD '裴寺', ID PL000000034690)	7003746
+7003747	宝安寺	寶安寺	bǎo'ān sì	Bao'an Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in Hangzhou (BSPAD '寶安寺', ID PL000000011796)	7003747
+7003748	廷尉寺	\N	tíngwèi sì	Tingwei Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	A historic temple in the city of Ye, Heibei (BSPAD '廷尉寺', ID PL000000003711)	7003748
+7003749	药王寺	藥王寺	yào wáng sì	Yao Wang Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Nanjing and Baoji, Shaanxi (BSPAD '藥王寺', ID PL000000042932)	7003749
+7003750	义兴寺	義興寺	yìxīng sì	Yixing Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Chengdu and Taiyuan (BSPAD '義興寺', ID PL000000055044)	7003750
+7003751	记城寺	記城寺	Jìchéng Sì	Jicheng Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Gansu (BSPAD '記城寺', ID PL000000046106)	7003751
+7003752	仙山寺	\N	xiānshān sì	Xianshan Temple	proper noun	寺	Temple	佛教	Buddhism	亚洲	Asia	\N	\N	The name of a historic temple in the Red River Delta, Vietnam (BSPAD '仙山寺', ID PL000000055168)	7003752
+7003753	越城寺	\N	Yuèchéng Sì	Yuecheng Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '越城寺', ID PL000000009070)	7003753
