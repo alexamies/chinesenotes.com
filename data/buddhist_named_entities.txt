@@ -3750,4 +3750,17 @@
 7003750	义兴寺	義興寺	yìxīng sì	Yixing Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Chengdu and Taiyuan (BSPAD '義興寺', ID PL000000055044)	7003750
 7003751	记城寺	記城寺	Jìchéng Sì	Jicheng Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Gansu (BSPAD '記城寺', ID PL000000046106)	7003751
 7003752	仙山寺	\N	xiānshān sì	Xianshan Temple	proper noun	寺	Temple	佛教	Buddhism	亚洲	Asia	\N	\N	The name of a historic temple in the Red River Delta, Vietnam (BSPAD '仙山寺', ID PL000000055168)	7003752
-7003753	越城寺	\N	Yuèchéng Sì	Yuecheng Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '越城寺', ID PL000000009070)	7003753
+7003753	越城寺	\N	yuèchéng sì	Yuecheng Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '越城寺', ID PL000000009070)	7003753
+7003754	显义寺	顯義寺	xiǎnyì sì	Xianyi Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in the city of Ye, Hebei and Shaoxing, Zhejiang (BSPAD '顯義寺', ID PL000000001443)	7003754
+7003755	三贤寺	三賢寺	sānxián sì	Sanxian Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Chengdu (BSPAD '三賢寺', ID PL000000034703)	7003755
+7003756	南涧寺	南澗寺	nánjiàn sì	Nanjian Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Nanjing and Fuzhou (BSPAD '南澗寺', ID PL000000008674)	7003756
+7003757	庐山寺	廬山寺	Lúshān Sì	Lushan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Jiujiang, Jiangxi (BSPAD '廬山寺', ID PL000000018792)	7003757
+7003758	安养寺	安養寺	Ānyǎng Sì	Anyang Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Jingzhou, Hubei (BSPAD '安養寺', ID PL000000027763)	7003758
+7003759	高座寺	\N	gāozuò sì	Gaozuo Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Nanjing and Zhenjiang (BSPAD '高座寺', ID PL000000009063)	7003759
+7003760	云门寺	雲門寺	yúnmén Sì	Yunmen Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in a number of places (BSPAD '雲門寺', ID PL000000006428)	7003760
+7003761	昭玄寺	\N	Zhāoxuán Sì	Zhaoxuan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in the city of Ye and Nanjing (BSPAD '昭玄寺', ID PL000000001439)	7003761
+7003762	天柱山寺	\N	Tiānzhùshān Sì	Tianzhushan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Shaoxing, Zhejiang (BSPAD '天柱山寺', ID PL000000013178)	7003762
+7003763	泉林寺	\N	quánlín sì	Quanlin Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temple in Jining, Shandong and Hangzhou (BSPAD '泉林寺', ID PL000000021466)	7003763
+7003764	齐熙寺	齊熙寺	qíxī sì	Qixi Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temple in Yangzhou and Hangzhou (BSPAD '齊熙寺', ID PL000000010763)	7003764
+7003765	东云寺	東雲寺	Dōngyún Sì	Dongyun Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Suzhou (BSPAD '東雲寺', ID PL000000055046)	7003765
+7003766	通玄寺	\N	tōngxuán sì	Tongxuan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Suzhou, Jiangsu and Taizhou, Zhejiang (BSPAD '通玄寺', ID PL000000009882)	7003766
