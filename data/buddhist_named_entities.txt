@@ -3765,3 +3765,11 @@
 7003765	东云寺	東雲寺	Dōngyún Sì	Dongyun Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Suzhou (BSPAD '東雲寺', ID PL000000055046)	7003765
 7003766	通玄寺	\N	tōngxuán sì	Tongxuan Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Suzhou, Jiangsu and Taizhou, Zhejiang (BSPAD '通玄寺', ID PL000000009882)	7003766
 7003767	从容录	從容錄	cōngróng lù	Congrong Lu / Shōyōroku / Book of Serenity	proper noun	\N	\N	佛教	Buddhism	\N	\N	\N	\N	Japanese: Shōyōroku; Congrong Lu is the commonly used name for the Buddhist text in the Chan tradition by 萬松行秀 Wansong Xingxiu 1165-1246 of the Caodong school. The full title that it is known by in the Taishō is 萬松老人評唱天童覺和尚頌古從容庵錄 (BL 'Congrong lu', p. 197; Cleary, 2005; FGDB '從容錄'; T 2004)	7003767
+7003768	崇明寺	\N	Chóngmíng Sì	Chongming Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Nanjing, Jiangsu and in Hengzhou, Anhui (BSPAD '崇明寺', ID PL000000008712)	7003768
+7003769	隐岳寺	隱嶽寺	Yǐnyuè Sì	Yinyue Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Shaoxing and Taizhou, both in Zhejiang (BSPAD '隱嶽寺', ID PL000000057069)	7003769
+7003770	正觉寺	正覺寺	Zhèngjué Sì	Zhengjue Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in a number of places (BSPAD '正覺寺', ID PL000000008805)	7003770
+7003771	瞻波经	瞻波經	zhānbō jīng	Campā Sutra	proper noun	典籍	Canonical Text	佛教	Buddhism	\N	\N	\N	\N	Title of a sutta in Scroll 9 of the 中阿含經 ”Madhyamāgama” (Ding '瞻波經'; FGDB '瞻波經'; <a href='https://suttacentral.net/ma37'>https://suttacentral.net/ma37</a>; T 26.0478b15)	7003771
+7003772	宋王寺	\N	sòngwáng sì	Songwang Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple Xuzhou, Jiangsu (BSPAD '宋王寺', ID PL000000009499)	7003772
+7003773	光宅寺	\N	guāngzhái sì	Guangzhai Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in Nanjing and Chang'an (BSPAD '光宅寺', ID PL000000008839)	7003773
+7003774	乌依寺	烏依寺	wūyī sì	Wuyi Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of a historic temple in Nanjing (BSPAD '烏依寺', ID PL000000008835)	7003774
+7003775	兴福寺	興福寺	Xīngfú Sì	Xingfu Temple	proper noun	寺	Temple	佛教	Buddhism	中国	China	\N	\N	The name of historic temples in a number of places (BSPAD '興福寺', ID PL000000059167)	7003775

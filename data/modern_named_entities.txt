@@ -6679,3 +6679,7 @@
 6006679	皮尔森	\N	píěrsēn	Pearson	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '皮尔森')	6006679
 6006680	星巴克	星巴剋	xīngbākè	Starbucks	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '星巴克')	6006680
 6006681	摩卡	\N	mókǎ	Caffè Mocha	noun	饮料	Beverage	商务	Commerce	美国	United States	\N	\N	(Wikipedia '星巴克')	6006681
+6006682	杨紫琼	楊紫瓊	yáng zǐqióng	Michelle Yeoh	proper noun	演员	Actress	戏剧	Drama	\N	\N	\N	\N	1962 -; Malaysian born actress (Wikipedia '楊紫瓊')	6006682
+6006683	刘家辉	劉家輝	liú jiāhuī	Gordon Liu	proper noun	演员	Actress	戏剧	Drama	\N	\N	\N	\N	1955 -; Hong Kong born actor (Wikipedia '劉家輝')	6006683
+6006684	奥斯卡	奧斯卡	Àosīkǎ	Oscar	proper noun	\N	\N	现代汉语	Modern Chinese	戏剧	Drama	\N	\N	The Academy of Motion Picture Arts and Sciences annual award	6006684
+6006685	一茶一坐	\N	Yī Chá Yī Zuò	Chamate	proper noun	连锁餐馆	chain of Restaurants	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	Web site: <a href='http://www.chamate.cn'>www.chamate.cn</a>	6006685
