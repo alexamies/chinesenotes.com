@@ -1,4 +1,4 @@
-# Copyright Fo Guang Shan 佛光山 2013-2020. May be reused under the Creative Commons Attribution-Share Alike 3.0 License (CCASE 3.0), https://creativecommons.org/licenses/by-sa/3.0/
+# Copyright Fo Guang Shan 佛光山 2013-2020. May be reused under the Creative Commons Attribution-Share Alike 3.0 License (CCASE 3.0), https://creativecommons.org/licenses/by-sa/3.0/ Includes multiword expressions found in historic Chinese literature with English translaitons
 3000002	春林	\N	chūn lín	the forest in spring	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: generic expression (retranslated from tr. in Barnes 2007, p. 35; Guoyu '春林')	3000002
 3000003	春鸟	春鳥	chūn niǎo	birds in the spring	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: generic expression (retranslated from tr. in Barnes 2007, p. 35)	3000003
 3000004	夜风	夜風	yè fēng	the night breeze	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: generic expression (retranslated from tr. in Barnes 2007, p. 35)	3000004
