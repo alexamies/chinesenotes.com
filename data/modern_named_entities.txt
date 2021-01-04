@@ -6683,3 +6683,5 @@
 6006683	刘家辉	劉家輝	liú jiāhuī	Gordon Liu	proper noun	演员	Actress	戏剧	Drama	\N	\N	\N	\N	1955 -; Hong Kong born actor (Wikipedia '劉家輝')	6006683
 6006684	奥斯卡	奧斯卡	Àosīkǎ	Oscar	proper noun	\N	\N	现代汉语	Modern Chinese	戏剧	Drama	\N	\N	The Academy of Motion Picture Arts and Sciences annual award	6006684
 6006685	一茶一坐	\N	Yī Chá Yī Zuò	Chamate	proper noun	连锁餐馆	chain of Restaurants	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	Web site: <a href='http://www.chamate.cn'>www.chamate.cn</a>	6006685
+6006686	自由党	自由黨	zìyóu dǎng	Liberal Party	proper noun	\N	\N	政治	Politics	\N	\N	\N	\N	(CC-CEDICT '自由黨')	6006686
+6006687	舒淇	\N	shūqí	Shu Qi	proper noun	演员	Actress	戏剧	Drama	\N	\N	\N	\N	Taiwanese actress (Wikipedia 'Shu Qi')	6006687
