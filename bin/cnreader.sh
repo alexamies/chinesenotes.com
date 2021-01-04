@@ -177,5 +177,5 @@ cp web-resources/images/*.* $WEB_DIR/images/.
 cp web-resources/mp3/*.* $WEB_DIR/mp3/.
 cp corpus/images/*.* $WEB_DIR/images/.
 
-python3 bin/words2json.py "data/words.txt,data/translation_memory_literary.txt,data/translation_memory_modern.txt,data/modern_named_entities.txt,data/buddhist_named_entities.txt" $WEB_DIR/dist/ntireader.json
+python3 bin/words2json.py "data/words.txt,data/translation_memory_literary.txt,data/translation_memory_modern.txt,data/modern_named_entities.txt" $WEB_DIR/dist/ntireader.json
 echo 'cnreader done'

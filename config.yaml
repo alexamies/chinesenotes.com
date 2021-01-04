@@ -4,7 +4,7 @@
 DictionaryDir: data
 
 # Dictionary files to load
-LUFiles: words.txt,translation_memory_literary.txt,translation_memory_modern.txt,modern_named_entities.txt,buddhist_named_entities.txt
+LUFiles: words.txt,translation_memory_literary.txt,translation_memory_modern.txt,modern_named_entities.txt
 
 # Location that the templates are found
 TemplateDir: html/material-templates
