@@ -397,3 +397,4 @@
 5000397	灵活的方法	靈活的方法	línghuó de fāngfǎ	a flexible method	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '活法')	5000397
 5000398	诗论家	詩論家	shī lùn jiā	poetry critic	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '活法')	5000398
 5000399	敌军交战	敵軍交戰	díjūn jiāozhàn	to engage with enemy troops	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '第一線')	5000399
+5000400	一个地方	一個地方	yī gè dìfāng	one place	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '一處')	5000400
