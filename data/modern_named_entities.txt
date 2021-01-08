@@ -6685,3 +6685,4 @@
 6006685	一茶一坐	\N	Yī Chá Yī Zuò	Chamate	proper noun	连锁餐馆	chain of Restaurants	现代汉语	Modern Chinese	饮食	Food and Drink	\N	\N	Web site: <a href='http://www.chamate.cn'>www.chamate.cn</a>	6006685
 6006686	自由党	自由黨	zìyóu dǎng	Liberal Party	proper noun	\N	\N	政治	Politics	\N	\N	\N	\N	(CC-CEDICT '自由黨')	6006686
 6006687	舒淇	\N	shūqí	Shu Qi	proper noun	演员	Actress	戏剧	Drama	\N	\N	\N	\N	Taiwanese actress (Wikipedia 'Shu Qi')	6006687
+6006688	刘镇伟	劉鎮偉	Liú Zhènwěi	Jeffrey Lau	proper noun	导演	Director	戏剧	Drama	\N	\N	\N	\N	1952-; Hong Kong born film director (Wikipedia '劉鎮偉')	6006688
