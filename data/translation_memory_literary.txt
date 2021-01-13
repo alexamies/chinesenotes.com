@@ -1075,3 +1075,5 @@
 3001075	庋食物	\N	jǐ shíwù	to store food	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (reworded from Mathews 1931 '庋食物', p. 58)	3001075
 3001076	梳髻	\N	shū jì	to comb the hair	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (reworded from Mathews 1931 '梳髻', p. 59)	3001076
 3001077	秀髻	\N	xiù jì	hair bun with ornaments	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (reworded from Mathews 1931 '秀髻', p. 59)	3001077
+3001078	计明	計明	jì míng	to check a calculation	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '計明', p. 60)	3001078
+3001079	计最	計最	jì zuì	to compare the standing of officials	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '計最', p. 60)	3001079
