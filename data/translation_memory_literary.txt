@@ -1077,3 +1077,5 @@
 3001077	秀髻	\N	xiù jì	hair bun with ornaments	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (reworded from Mathews 1931 '秀髻', p. 59)	3001077
 3001078	计明	計明	jì míng	to check a calculation	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '計明', p. 60)	3001078
 3001079	计最	計最	jì zuì	to compare the standing of officials	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '計最', p. 60)	3001079
+3001080	济川	濟川	jì chuān	to cross a river	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (reworded from Mathews 1931 '濟川', p. 60)	3001080
+3001081	济涉	濟涉	jì shè	to ford a stream	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (reworded from Mathews 1931 '濟涉', p. 60)	3001081
