@@ -7,7 +7,7 @@
   >https://zh.wikisource.org/wiki/春秋繁露</a>.
 </p>
 
-<h4>English translation (partial)</h4>
+<h4>English translation</h4>
 <ol>
   <li>
     Chan, Wing-Tsit 1963, <i>A Source Book in Chinese Philosophy</i>,
@@ -31,15 +31,15 @@
     Chapter 42 at pp. 37-39.
   </li>
   <li>
+    Dong, Zhongshu, Queen Sarah, and John S. Major tr. 2016, <i>Luxuriant Gems
+    of the Spring and Autumn</i>, New York: Columbia University Press.
+    Full translation.
+  </li>
+  <li>
     Queen S 1999, “Dong Zhongshu,”
     In W M Theodore de Bary and Irene Bloom eds.
     <i>Sources of Chinese Tradition: Volume One from Earliest Times to 1600</i>,
     pp. 283-305, Chapter 78.
-  </li>
-  <li>
-    Zhongshu Dong and John S. Major tr. 2016, <i>Luxuriant Gems of the Spring
-    and Autumn</i>, New York: Columbia University Press.
-    Full translation.
   </li>
 </ol>
 
@@ -66,72 +66,74 @@
 </ol>
 
 <h4>Contents</h4>
+<p>Page numbers from Dong, Queen, and Major tr. 2016, titles retranslated.
 <ul>
   <li>
     卷一 Scroll 1
     <ul>
-      <li>楚莊王第一 Chapter 1 King Zhuang of Chu</li>
-      <li>玉杯第二 Chapter 2 A Jade Cup</li>
+      <li>楚莊王第一 Chapter 1 King Zhuang of Chu (p. 67)</li>
+      <li>玉杯第二 Chapter 2 A Jade Cup (p. 79)</li>
     </ul>
   </li>
   <li>
     卷二 Scroll 2
     <ul>
-      <li>竹林第三 Chapter 3 Bamboo Forest</li>
+      <li>竹林第三 Chapter 3 Bamboo Forest (p. 91)</li>
     </ul>
   </li>
   <li>
     卷三 Scroll 3
     <ul>
-      <li>玉英第四 Chapter 4 Fine Jade</li>
-      <li>精華第五 Chapter 5 Quintessence</li>
+      <li>玉英第四 Chapter 4 Fine Jade (p. 107)</li>
+      <li>精華第五 Chapter 5 Quintessence (p. 122)</li>
     </ul>
   </li>
   <li>
     卷四 Scroll 4
     <ul>
-      <li>王道第六 Chapter 6 The Way of the King</li>
+      <li>王道第六 Chapter 6 The Way of the King (p. 132)</li>
     </ul>
   </li>
   <li>
     卷五 Scroll 5
     <ul>
-      <li>滅國上第七 Chapter 7 Destruction of a State I</li>
-      <li>滅國下第八 Chapter 8 Destruction of a State II</li>
-      <li>隨本消息第九 Chapter 9 Along with the Rise and Fall</li>
-      <li>盟會要第十 Chapter 10 Records of Oaths</li>
-      <li>正貫第十一 Chapter 11 Zheng Guan</li>
-      <li>十指第十二 Chapter 12 Ten Fingers</li>
-      <li>重政第十三 Chapter 13 The Importance of Government</li>
+      <li>滅國上第七 Chapter 7 Destruction of a State I (p. 153)</li>
+      <li>滅國下第八 Chapter 8 Destruction of a State II (p. 156)</li>
+      <li>隨本消息第九 Chapter 9 Along with the Rise and Fall (p. 159)</li>
+      <li>盟會要第十 Chapter 10 Essentials of Oaths (p. 163)</li>
+      <li>正貫第十一 Chapter 11 Correcting a Thread (p. 166)</li>
+      <li>十指第十二 Chapter 12 Ten Orders (p. 169)</li>
+      <li>重政第十三 Chapter 13 The Importance of Governance (p. 171)</li>
     </ul>
   </li>
   <li>
     卷六 Scroll 6
     <ul>
-      <li>服制像第十四 Chapter 14 Garment Making Drawings</li>
-      <li>二端第十五 Chapter 15 Both Extremes</li>
-      <li>符瑞第十六 Chapter 16 Auspicious Signs</li>
-      <li>俞序第十七 Chapter 17 Agreement on the Order of Things</li>
-      <li>離合根第十八 Chapter 18 Separation and Reunion with the Source</li>
-      <li>立元神第十九 Chapter 19 Establishment of the Primal Spirit</li>
-      <li>保位權第二十 Chapter 20 Preserving a Position of Authority</li>
+      <li>服制像第十四 Chapter 14 Drawings of Garments (p. 175)</li>
+      <li>二端第十五 Chapter 15 Two Beginnings (p. 177)</li>
+      <li>符瑞第十六 Chapter 16 Auspicious Signs (p. 179)</li>
+      <li>俞序第十七 Chapter 17 Yu's Preface (p. 181)</li>
+      <li>離合根第十八 Chapter 18 Separation and Reunion with the Source (p. 199)</li>
+      <li>立元神第十九 Chapter 19 Establishment of the Primal Spirit (p. 202)</li>
+      <li>保位權第二十 Chapter 20 Retaining a Position of Authority (p. 209)</li>
     </ul>
   </li>
   <li>
     卷七 Scroll 7
     <ul>
-      <li>考功名第二十一 Chapter 21 Considering Achievements</li>
-      <li>通國身第二十二 Chapter 22 Understanding the State as Body</li>
-      <li>三代改制質文第二十三 Chapter 23 Three Generations of Change</li>
-      <li>官制象天第二十四 Chapter 24 The System of Government is Like the Heavens</li>
-      <li>堯舜不擅移湯武不專殺第二十五 Chapter 25 Yao and Shun did not only Move, Tang and Wu did not only Kill</li>
-      <li>服制第二十六　Chapter 26 Making Clothes</li>
+      <li>考功名第二十一 Chapter 21 Considering Achievements (p. 213)</li>
+      <li>通國身第二十二 Chapter 22 Understanding the State as Body (p. 213)</li>
+      <li>三代改制質文第二十三 Chapter 23 Three Dynsties of Change (p. 241)</li>
+      <li>官制象天第二十四 Chapter 24 The System of Government is Like the Heavens (p. 257)</li>
+      <li>堯舜不擅移湯武不專殺第二十五 Chapter 25 Yao and Shun did not only Move,
+        Tang and Wu did not only Kill (p. 264)</li>
+      <li>服制第二十六　Chapter 26 Regulations on Attire (p. 268)</li>
     </ul>
   </li>
   <li>
     卷八 Scroll 8
     <ul>
-    <li>度制第二十七 Chapter 27 Measurement System</li>
+    <li>度制第二十七 Chapter 27 Measurement System (p. 270)</li>
     <li>爵國第二十八 Chapter 28 Nobles and States</li>
     <li>仁義法第二十九 Chapter 29 Ways of Benevolence and Righteousness</li>
     <li>必仁且智第三十 Chapter 30 Benevolences must Precede and Wisedom</li>
@@ -235,3 +237,4 @@
     </ul>
   </li>
 </ul>
+mUyyPZnrSp2UY8t

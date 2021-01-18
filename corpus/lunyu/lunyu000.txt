@@ -21,8 +21,13 @@
 <p>Source: Chinese Text Project
 <a href="http://ctext.org/analects">http://ctext.org/analects</a></p>
 
-<h4>Secondary References</h4>
+<h4>Secondary Sources</h4>
 <ol>
   <li>Chan, W., 1969. <i>A Source Book in Chinese Philosophy</i>. Princeton University Press, Princeton, N.J.</li>
+  <li>
+    Cheng, Anne 1993, “Lun yu 論語,”
+    In Michael Loewe, (ed.), <i>Early Chinese Texts: A Bibliographical Guide</i>,
+    Berkeley: Society for the Study of Early China, pp. 313-323.
+  </li>
   <li>Yao, X., 2000. <i>An introduction to Confucianism</i>. Cambridge University Press, Cambridge.</li>
 </ol>
