@@ -1,10 +1,27 @@
-<h4>Notes on the Analects of Confucius 《論語》</h4>
+<h4>Translations</h4>
+<ol>
+  <li>
+    Legge, James 1861, <i>The Chinese Classics: with a Translation, Critical
+    and Exegetical Notes, Prolegomena, and Copious Indexes</i>, Volume I:
+    Confucian Analects, the Great Learning, and the Doctrine of the Mean,
+    Hong Kong and London: Trubner &amp; Co.
+    Digitization at Wikipedia <a 
+    href='https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects'
+    >https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects</a>
+    and <a href='https://www.google.com/books/edition/The_Chinese_Classics/XAdJSH6CkyUC'
+    >https://www.google.com/books/edition/The_Chinese_Classics/XAdJSH6CkyUC</a>.
+  </li>
+  <li>
+    Chan, Wing-tsit 1963, <i>A Source Book in Chinese Philosophy</i>,
+    Princeton, New Jersey: Princeton University Press. Partial translaiton.
+  </li>
+<ol>
 
-<p>Source: Chinese Text Project <a href="http://ctext.org/analects">http://ctext.org/analects</a>, from "The Chinese Classics, volume 1", James Legge, 1861</p>
+<h4>Source</h4>
+<p>Source: Chinese Text Project
+<a href="http://ctext.org/analects">http://ctext.org/analects</a></p>
 
-<p>The Analects of Confucius 《論語》, also known as Lunyu, is a collection of sayings from Confucius 孔子. The date of the text is uncertain. (Yao, 2000, p. 66) Alternative translation to some sections is given by Chan. (Chan, 1969, pp. 14-48)</p>
-
-<h4>References</h4>
+<h4>Secondary References</h4>
 <ol>
   <li>Chan, W., 1969. <i>A Source Book in Chinese Philosophy</i>. Princeton University Press, Princeton, N.J.</li>
   <li>Yao, X., 2000. <i>An introduction to Confucianism</i>. Cambridge University Press, Cambridge.</li>

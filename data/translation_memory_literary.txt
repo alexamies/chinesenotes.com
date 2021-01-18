@@ -623,9 +623,9 @@
 3000623	遂迷	\N	suì mí	got lost	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the poem 桃花源記 “Peach Blossom Shangri-la” by 陶淵明 Tao Yuanming 365-427 in Scroll 6 of 陶淵明集 Tao Yuanming Collected Poems (Tao Yuan Ming, Davis, and Steelman tr. 2008)	3000623
 3000624	不复得路	不復得路	bù fù dé lù	never again found the way	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the poem 桃花源記 “Peach Blossom Shangri-la” by 陶淵明 Tao Yuanming 365-427 in Scroll 6 of 陶淵明集 Tao Yuanming Collected Poems (retranslated from Tao Yuan Ming, Davis, and Steelman tr. 2008)	3000624
 3000625	高尚士	\N	gāoshàng shì	a noble person	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the poem 桃花源記 “Peach Blossom Shangri-la” by 陶淵明 Tao Yuanming 365-427 in Scroll 6 of 陶淵明集 Tao Yuanming Collected Poems (retranslated from Tao Yuan Ming, Davis, and Steelman tr. 2008)	3000625
-3000626	惩戒案	懲戒案	chéngjiè àn	a case requiring discipline	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲戒案', p. 50)	3000626
-3000627	惩戒处分	懲戒處分	chéngjiè chǔfèn	discipline of officials	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲戒處分', p. 50)	167282
-3000628	惩辩	懲辯	chéng biàn	to punish strictly	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '懲辯', p. 50)	3000628
+3000626	惩戒案	懲戒案	chéngjiè àn	a case requiring discipline	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Retranslated from Mathews 1931 '懲戒案', p. 50)	3000626
+3000627	惩戒处分	懲戒處分	chéngjiè chǔfèn	discipline of officials	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Retranslated from Mathews 1931 '懲戒處分', p. 50)	167282
+3000628	惩辩	懲辯	chéng biàn	to punish strictly	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Retranslated from Mathews 1931 '懲辯', p. 50)	3000628
 3000629	天阴骘	天陰騭	tiān yīn zhì	Heaven, unseen	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (tr. by Legge 1865, Vol III, Part II, p. 320)	3000629
 3000630	鲧堙洪水	鯀堙洪水	gǔnyīnhóngshuǐ	Gun dammed up the inundating waters	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (tr. by Legge 1865, Vol III, Part II, p. 323)	3000630
 3000631	陈其五行	陳其五行	chén qí wǔ xíng	arrangement of the five elements	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (tr. by Legge 1865, Vol III, Part II, p. 323)	3000631
@@ -633,19 +633,19 @@
 3000632	九畴	九疇	jiǔ chóu	nine divisions	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (tr. by Legge 1865, Vol III, Part II, p. 323)	3000632
 3000633	嗣兴	嗣興	sì xīng	kept a prisoner till his death	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 尚書 “Book of Documents”, section 洪範 Hong Fan (tr. by Legge 1865, Vol III, Part II, p. 323)	3000633
 3000634	种殖	種殖	zhǒng zhí	to grow [crops]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Guoyu '殖')	3000634
-3000635	承下尘	承下塵	chéng xià chén	to get the dust [at the rear of battle]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承下塵', p. 50)	3000635
-3000636	承享	\N	chéng xiǎng	to receive and benefit from use of	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承享', p. 50)	3000636
-3000637	承先	\N	chéngxiān	to continue ancestral traditions	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承先', p. 50)	3000637
+3000635	承下尘	承下塵	chéng xià chén	to get the dust [at the rear of battle]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承下塵', p. 50)	3000635
+3000636	承享	\N	chéng xiǎng	to receive and benefit from use of	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承享', p. 50)	3000636
+3000637	承先	\N	chéngxiān	to continue ancestral traditions	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承先', p. 50)	3000637
 3000638	不能臣使	\N	bù néng chén shǐ	not able to bring into subjection	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 57)	3000638
 3000640	上书说上	上書說上	shàngshū shuōshàng	wrote in a memorial to the Imperial throne	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, pp. 57-58)	3000640
 3000641	地东西万余里	地東西萬餘里	dì dōng xī wàn yú lǐ	territory is over 10,000 li from east to west	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 58)	3000641
 3000642	名为外臣	名爲外臣	míng wèi wài chén	nominally a foreign vassal	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 58)	3000642
 3000643	一奇	\N	yī qí	taken by surprise	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 58)	3000643
-3000644	承函	\N	chéng hán	to receive correspondence	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承函', p. 50)	3000644
-3000645	承惠	\N	chénghuì	thank you for your kindness [polite expression]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承惠', p. 50)	3000645
-3000646	承业	承業	chéng yè	to receive an inheritance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承業', p. 50)	3000646
-3000647	承发	承發	chéng fā	to receive and forward [a message]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承發', p. 50)	3000647
-3000648	承示	\N	chéng shì	to receive a hint	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承示', p. 50)	3000648
+3000644	承函	\N	chéng hán	to receive correspondence	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承函', p. 50)	3000644
+3000645	承惠	\N	chénghuì	thank you for your kindness [polite expression]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承惠', p. 50)	3000645
+3000646	承业	承業	chéng yè	to receive an inheritance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承業', p. 50)	3000646
+3000647	承发	承發	chéng fā	to receive and forward [a message]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承發', p. 50)	3000647
+3000648	承示	\N	chéng shì	to receive a hint	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承示', p. 50)	3000648
 3000649	治道	\N	zhì dào	make a road	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 58)	3000649
 3000650	当是时	當是時	dāng shì shí	at this time	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 59)	3000650
 3000651	数岁	數歲	shǔ suì	a few years	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 59)	3000651
@@ -653,8 +653,8 @@
 3000653	数反	數反	shǔ fǎn	several times rebelled	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 59)	3000653
 3000654	发兵兴击	發兵興擊	fā bīng xīng jī	troops were sent to suppress the uprising	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 59)	3000654
 3000655	专力	專力	zhuān lì	concentrate energy	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 59)	3000655
-3000656	承祖	\N	chéng zǔ	to receive an inheritance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承祖', p. 51)	3000656
-3000657	石承	\N	shí chéng	the base of a stone	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '石承', p. 51)	3000657
+3000656	承祖	\N	chéng zǔ	to receive an inheritance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承祖', p. 51)	3000656
+3000657	石承	\N	shí chéng	the base of a stone	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '石承', p. 51)	3000657
 3000658	竹杖	\N	zhú zhàng	a bamboo staff	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 59)	3000658
 3000659	隔其道	\N	gé qí dào	intercepted along the road	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 59)	3000659
 3000660	亡害	\N	wánghài	avoid harm	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 59)	3000660
@@ -662,9 +662,9 @@
 3000662	相攻	\N	xiāng gōng	at war with each other	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (Wylie 1880, p. 62)	3000662
 3000663	道远	道遠	dào yuǎn	great distance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (Wylie 1880, p. 62)	3000663
 3000664	木象	\N	mù xiàng	wooden image	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (Wylie 1880, p. 62)	3000664
-3000665	承交	\N	chéng jiāo	take over responsibility for a task	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承交', p. 51)	3000665
-3000666	承允	\N	chéng yǔn	to permit	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承允', p. 51)	3000666
-3000667	承典	\N	chéng diǎn	to take a loan	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承典', p. 51)	3000667
+3000665	承交	\N	chéng jiāo	take over responsibility for a task	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承交', p. 51)	3000665
+3000666	承允	\N	chéng yǔn	to permit	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承允', p. 51)	3000666
+3000667	承典	\N	chéng diǎn	to take a loan	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承典', p. 51)	3000667
 3000668	火积	火積	huǒ jī	to burn stores	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 12 (Giles 1910, p. 151)	3000668
 3000669	素具	\N	sù jù	should always be kept in readiness	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 12 (Giles 1910, p. 152)	3000669
 3000670	天之燥	\N	tiān zhī zào	when the weather is dry	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 12 (retranslated from tr. by Giles 1910, p. 152)	3000670
@@ -691,8 +691,8 @@
 3000691	千里馈粮	千里饋糧	qiān lǐ kuìliáng	provisions enough to carry [soldiers] a thousand li	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 2 (retranslated from tr. by Giles 1910, p. 9)	3000691
 3000692	攻城则力屈	攻城則力屈	gōng chéng zé lì qū	if you lay siege to a town, you will exhaust your strength	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 2 (retranslated from tr. by Giles 1910, p. 9)	3000692
 3000693	谋攻	謀攻	móu gōng	plan of attack	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 3 (retranslated from tr. by Giles 1910, p. 17)	3000693
-3000694	承工	\N	chéng gōng	to take on work	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承工', p. 51)	3000694
-3000695	承批	\N	chéng pī	to rent	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '承批', p. 51)	3000695
+3000694	承工	\N	chéng gōng	to take on work	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承工', p. 51)	3000694
+3000695	承批	\N	chéng pī	to rent	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '承批', p. 51)	3000695
 3000696	军形	軍形	jūn xíng	troop disposition	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: title of section 4 in the Warring States period text 孫子兵法 “Art of War” by Sunzi (retranslated from tr. by Giles 1910, p. 26)	3000696
 3000697	可胜在敌	可勝在敵	kě shèng zài dí	the opportunity for victory is provided by the enemy himself	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 4 (retranslated from tr. by Giles 1910, p. 26)	3000697
 3000698	战胜不忒	戰勝不忒	zhàn shèng bù tè	to wins a battle by making no mistakes	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Warring States period text 孫子兵法 “Art of War” by Sunzi, section 4 (retranslated from tr. by Giles 1910, p. 30)	3000698
@@ -743,16 +743,16 @@
 3000743	道里辽远	道里遼遠	dàolǐ liáoyuǎn	a distant journey	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 68)	3000743
 3000744	澄江	\N	chéngjiāng	a clear stream	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Mathews 1931 '澄江', p. 51)	160726
 3000745	群臣	\N	qún chén	many ministers	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 68)	3000745
-3000746	挣牙	掙牙	zhèng yá	to get something caught between the teeth	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '掙牙', p. 51)	3000746
-3000747	挣子	掙子	zhèng zǐ	a son who earns to support his family	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '掙子', p. 51)	3000747
-3000748	挣家立业	掙家立業	zhèng jiā lì yè	to support a family and establish a career	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '掙家立業', p. 51)	3000748
+3000746	挣牙	掙牙	zhèng yá	to get something caught between the teeth	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '掙牙', p. 51)	3000746
+3000747	挣子	掙子	zhèng zǐ	a son who earns to support his family	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '掙子', p. 51)	3000747
+3000748	挣家立业	掙家立業	zhèng jiā lì yè	to support a family and establish a career	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '掙家立業', p. 51)	3000748
 3000749	敌寇	敵寇	dí kòu	pillager	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Guoyu '寇')	3000749
 3000750	寇边	寇邊	kòu biān	to raid the border areas	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Guoyu '寇')	3000750
-3000751	撑渡	撐渡	chēngdù	to punt a ferry across a river	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation(Reworded from Mathews 1931 '撐渡', p 51)	3000751
-3000752	骋词	騁詞	chěngcí	a dynamic style [of writing]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '騁詞', p. 52)	3000752
+3000751	撑渡	撐渡	chēngdù	to punt a ferry across a river	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation(Retranslated from Mathews 1931 '撐渡', p 51)	3000751
+3000752	骋词	騁詞	chěngcí	a dynamic style [of writing]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '騁詞', p. 52)	3000752
 3000753	关市	關市	guān shì	border markets	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Sabattini 2019, p. 123)	3000753
-3000754	赬霞	\N	chēng xiá	a red sunset	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '赬霞', p. 52)	3000754
-3000755	赬颜	赬顏	chēng yán	a blushing complexion	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '赬顏', p. 52)	3000755
+3000754	赬霞	\N	chēng xiá	a red sunset	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '赬霞', p. 52)	3000754
+3000755	赬颜	赬顏	chēng yán	a blushing complexion	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '赬顏', p. 52)	3000755
 3000756	雄鸭	雄鴨	xióng yā	a male duck	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Guoyu '雄')	3000756
 3000757	贤天子	賢天子	xiántiānzǐ	sage Son of Heaven	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 69)	3000757
 3000758	自今以来	自今以來	zì jīn yǐ lái	from now on	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 69)	3000758
@@ -764,33 +764,33 @@
 3000764	奉箕帚	\N	fèngjīzhǒu	to hold a dustpan and broom / I serve you dutifully	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Traditional modest saying of a wife doing housework for her husband (Guoyu '奉箕帚')	3000764
 3000765	执箕帚	執箕帚	zhíjīzhǒu	to hold a dustpan and broom / I serve you dutifully	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Guoyu '執箕帚')	3000765
 3000766	箕裘世业	箕裘世業	jī qiú shì yè	to follow the family profession by learning easy and then more difficult tasks	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '箕裘相繼'; Mathews 1931 '箕裘世業', p. 53)	3000766
-3000767	箕张	箕張	jī zhāng	for troops to advance in a formation with two wings	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '箕張', p. 53)	3000767
-3000768	条几	條几	tiáo jǐ	a narrow long table	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '條几', p. 53)	3000768
-3000769	安几	\N	ānjǐ	quiet and composed	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '安几', p. 53)	3000769
-3000770	浸肌	\N	jìn jī	soaking wet	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '浸肌', p. 53)	3000770
-3000771	玉肌	\N	yù jī	flesh of a beautiful woman	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '玉肌', p. 53)	3000771
+3000767	箕张	箕張	jī zhāng	for troops to advance in a formation with two wings	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '箕張', p. 53)	3000767
+3000768	条几	條几	tiáo jǐ	a narrow long table	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '條几', p. 53)	3000768
+3000769	安几	\N	ānjǐ	quiet and composed	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '安几', p. 53)	3000769
+3000770	浸肌	\N	jìn jī	soaking wet	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '浸肌', p. 53)	3000770
+3000771	玉肌	\N	yù jī	flesh of a beautiful woman	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '玉肌', p. 53)	3000771
 3000772	玉笄	\N	yù jī	a jade hairpin	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Guoyu '笄')	3000772
 3000773	兽骨	獸骨	shòugǔ	animal bone	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Guoyu '骨笄')	3000773
-3000774	名姬	\N	míng jī	a well known female singer	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '名姬', p. 53)	3000774
-3000775	几不欲生	幾不欲生	jǐ bù yù shēng	almost not wanting to live	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '幾不欲生', p. 53)	3000775
-3000776	几十	幾十	jǐ shí	several tens / how many tens?	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '幾十', p. 54)	3000776
-3000777	几早	幾早	jǐ zǎo	when	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '幾早', p. 54)	3000777
+3000774	名姬	\N	míng jī	a well known female singer	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '名姬', p. 53)	3000774
+3000775	几不欲生	幾不欲生	jǐ bù yù shēng	almost not wanting to live	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '幾不欲生', p. 53)	3000775
+3000776	几十	幾十	jǐ shí	several tens / how many tens?	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '幾十', p. 54)	3000776
+3000777	几早	幾早	jǐ zǎo	when	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '幾早', p. 54)	3000777
 3000778	洩漏机密	洩漏機密	xièlòu jīmì	to divulge a secret	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Guoyu '洩漏天機')	3000778
 3000779	机妇	機婦	jīfù	a female weaver	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Mathews 1931 '機婦', p. 54)	3000779
 3000780	机女	機女	jīnǚ	a female weaver	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Mathews 1931 '機女', p. 54)	3000780
-3000781	讥请	譏請	jīqǐng	to ridicule	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '譏請', p. 55)	3000781
-3000782	饥渴之际	飢渴之際	jī kě zhī jì	in between hunger and thirst	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '飢渴之際', p. 55)	3000782
-3000783	饑名渴势	饑名渴勢	jī míng kě shì	to be hungry for fame and thirsty for power	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '饑名渴勢', p. 55)	3000783
-3000784	饑死	\N	jī sǐ	to starve to death	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '饑死', p. 55)	3000784
-3000785	饑溺	\N	jī nì	starvation and drowning / the suffering of the people	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '饑溺', p. 55)	3000785
+3000781	讥请	譏請	jīqǐng	to ridicule	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '譏請', p. 55)	3000781
+3000782	饥渴之际	飢渴之際	jī kě zhī jì	in between hunger and thirst	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '飢渴之際', p. 55)	3000782
+3000783	饑名渴势	饑名渴勢	jī míng kě shì	to be hungry for fame and thirsty for power	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '饑名渴勢', p. 55)	3000783
+3000784	饑死	\N	jī sǐ	to starve to death	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '饑死', p. 55)	3000784
+3000785	饑溺	\N	jī nì	starvation and drowning / the suffering of the people	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '饑溺', p. 55)	3000785
 3000786	恐乱	恐亂	kǒng luàn	to fear a rebellion	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 72)	3000786
 3000787	阴谋作乱	陰謀作亂	yīnmóu zuòluàn	to plot a revolt	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 74)	3000787
 3000788	诸郡县	諸郡縣	zhū jùn xiàn	all commanderies and counties	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 75)	3000788
 3000789	要害处	要害處	yàohài chù	strategic locations	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 75)	3000789
 3000790	亡成功	\N	wáng chénggōng	not successful	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 75)	3000790
-3000791	稽淹	\N	jī yān	to delay	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '稽淹', p. 56)	3000791
-3000792	久稽	\N	jiǔ jī	to delay for a very long time	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '久稽', p. 56)	3000792
-3000793	反脣而相稽	\N	fǎn chún ér xiāng jī	mutual accusations	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	Collocation (Guoyu '反脣相稽'; Reworded from Mathews 1931 '反脣而相稽', p. 56)	3000793
+3000791	稽淹	\N	jī yān	to delay	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '稽淹', p. 56)	3000791
+3000792	久稽	\N	jiǔ jī	to delay for a very long time	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '久稽', p. 56)	3000792
+3000793	反脣而相稽	\N	fǎn chún ér xiāng jī	mutual accusations	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	Collocation (Guoyu '反脣相稽'; Retranslated from Mathews 1931 '反脣而相稽', p. 56)	3000793
 3000794	讥臣	譏臣	jī chén	ridicule the ministers	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 75)	3000794
 3000795	精卒	\N	jīng zú	best troops	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (retranslated from tr. Wylie 1880, p. 76)	3000795
 3000796	会暮	會暮	huì mù	as evening approached	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from the 漢書 “Book of Han”, volume 95 by 班固 Ban Gu 32-92 CE (tr. Wylie 1880, p. 76)	3000796
@@ -862,9 +862,9 @@
 3000862	宜诛讨	宜誅討	yí zhūtǎo	deserve to be punished	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Chapter 1 of 鹽鐵論 “Discourses on Salt and Iron,” compiled by 桓寬 Huan Guan, 1st century (retranslated from Kuan Huan and Gale tr. 1931)	3000862
 3000863	哀元元	\N	āi yuányuán	took pity on the people	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Chapter 1 of 鹽鐵論 “Discourses on Salt and Iron,” compiled by 桓寬 Huan Guan, 1st century (retranslated from Kuan Huan and Gale tr. 1931)	3000863
 3000864	损武略	損武略	sǔn wǔlüè	impair military strategy	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Chapter 1 of 鹽鐵論 “Discourses on Salt and Iron,” compiled by 桓寬 Huan Guan, 1st century (retranslated from Kuan Huan and Gale tr. 1931)	3000864
-3000865	己独	己獨	jǐ dú	only him	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '己獨', p. 57)	3000865
-3000866	己亲	己親	jǐ qīn	one's relatives	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '己親', p. 57)	3000866
-3000867	纪功	紀功	jì gōng	to record merit	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '紀功', p. 57)	3000867
+3000865	己独	己獨	jǐ dú	only him	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '己獨', p. 57)	3000865
+3000866	己亲	己親	jǐ qīn	one's relatives	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '己親', p. 57)	3000866
+3000867	纪功	紀功	jì gōng	to record merit	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '紀功', p. 57)	3000867
 3000868	超日明三昧经	超日明三昧經	chāo rì míng sānmèi jīng	Chao Ri Ming Sanmei Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 386; T 638)	3000868
 3000869	百官公卿表	\N	bǎiguān gōngqīng biǎo	table of government officials and ranks of nobility	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Contained in the Hanshu (de Crespigny 1967, p. vii)	3000869
 3000870	丞相府	\N	chéngxiāng fǔ	Chancellor's office	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (de Crespigny 1967, p. 3)	3000870
@@ -955,7 +955,7 @@
 3000955	为一国宰	為一國宰	wèi yī guó zǎi	the chancellor of a state	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Scroll 17, Chapter 78 of 春秋繁露 “Luxuriant Dew of the Spring and Autumn Annals,” attributed to 董仲舒 Dong Zhongshu 179–104 BCE (retranslated from tr. by Queen 1999, p. 290)	3000955
 3000956	宰不可以不忠	\N	zǎi bù kě yǐ bù zhōng	a chancellor cannot be disloyal	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Scroll 17, Chapter 78 of 春秋繁露 “Luxuriant Dew of the Spring and Autumn Annals,” attributed to 董仲舒 Dong Zhongshu 179–104 BCE (retranslated from tr. by Queen 1999, p. 290)	3000956
 3000957	姦臣危其君	\N	jiān chén wéi qí jūn	treacherous officials endanger their ruler	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Scroll 17, Chapter 78 of 春秋繁露 “Luxuriant Dew of the Spring and Autumn Annals,” attributed to 董仲舒 Dong Zhongshu 179–104 BCE (retranslated from tr. by Queen 1999, p. 291)	3000957
-3000958	纲纪四方	綱紀四方	gāngjì sì fāng	to rule the four corners of the land	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '綱紀四方', p. 57)	3000958
+3000958	纲纪四方	綱紀四方	gāngjì sì fāng	to rule the four corners of the land	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Retranslated from Mathews 1931 '綱紀四方', p. 57)	3000958
 3000959	莫大于无为	莫大於無為	mòdà yú wúwèi	there is nothing greater than nonaction	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Scroll 1, Chapter 4 of 新語 “New Discussions,” by 陸賈 Lu Jia, d. 170 BCE (retranslated from tr. by Csikszentmihalyi 2006, p. 54)	3000959
 3000960	谨敬	謹敬	jǐn jìng	attentive respect	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Scroll 1, Chapter 4 of 新語 “New Discussions,” by 陸賈 Lu Jia, d. 170 BCE (retranslated from tr. by Csikszentmihalyi 2006, p. 54)	3000960
 3000961	何以言之	\N	héyǐ yán zhī	Why say this?	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Scroll 1, Chapter 4 of 新語 “New Discussions,” by 陸賈 Lu Jia, d. 170 BCE (retranslated from tr. by Csikszentmihalyi 2006, p. 54)	3000961
@@ -1071,11 +1071,27 @@
 3001071	平秩东作	平秩東作	píng zhì dōng zuò	fixed sequence of spring plowing	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the text 尚書 “Book of History”, 堯典 Canon of Yao (retranslated from tr. by Legge 1865, vol. 3, part 1, p. 19)	3001071
 3001072	鸟兽希革	鳥獸希革	niǎoshòuxīgé	birds and animals have thin  [feathers and] fur	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the text 尚書 “Book of History”, 堯典 Canon of Yao (retranslated from tr. by Legge 1865, vol. 3, part 1, p. 20)	3001072
 3001073	寅饯纳日	寅餞納日	yín jiàn nà rì	to respectfully send off the setting sun	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the text 尚書 “Book of History”, 堯典 Canon of Yao (retranslated from tr. by Legge 1865, vol. 3, part 1, p. 20)	3001073
-3001074	庋置	\N	jǐ zhì	to store in a cupboard	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Reworded from Mathews 1931 '庋置', p. 58)	3001074
-3001075	庋食物	\N	jǐ shíwù	to store food	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (reworded from Mathews 1931 '庋食物', p. 58)	3001075
-3001076	梳髻	\N	shū jì	to comb the hair	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (reworded from Mathews 1931 '梳髻', p. 59)	3001076
-3001077	秀髻	\N	xiù jì	hair bun with ornaments	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (reworded from Mathews 1931 '秀髻', p. 59)	3001077
+3001074	庋置	\N	jǐ zhì	to store in a cupboard	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '庋置', p. 58)	3001074
+3001075	庋食物	\N	jǐ shíwù	to store food	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (retranslated from Mathews 1931 '庋食物', p. 58)	3001075
+3001076	梳髻	\N	shū jì	to comb the hair	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (retranslated from Mathews 1931 '梳髻', p. 59)	3001076
+3001077	秀髻	\N	xiù jì	hair bun with ornaments	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (retranslated from Mathews 1931 '秀髻', p. 59)	3001077
 3001078	计明	計明	jì míng	to check a calculation	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '計明', p. 60)	3001078
 3001079	计最	計最	jì zuì	to compare the standing of officials	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '計最', p. 60)	3001079
-3001080	济川	濟川	jì chuān	to cross a river	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (reworded from Mathews 1931 '濟川', p. 60)	3001080
-3001081	济涉	濟涉	jì shè	to ford a stream	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (reworded from Mathews 1931 '濟涉', p. 60)	3001081
+3001080	济川	濟川	jì chuān	to cross a river	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (retranslated from Mathews 1931 '濟川', p. 60)	3001080
+3001081	济涉	濟涉	jì shè	to ford a stream	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (retranslated from Mathews 1931 '濟涉', p. 60)	3001081
+3001082	气跻	氣躋	qì jī	rising mist	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (retranslated from Mathews 1931 '濟涉', p. 61)	3001082
+3001083	学而	學而	xué ér	Xue Er	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: title of Book 1 學而 Xue Er of the 論語 “Analects of Confucius” (Legge 1861, vol. 1, Confucian Analects, p. 1)	3001083
+3001084	人不知而不愠	人不知而不慍	rén bù zhī ér bù yùn	to feel no displeasure when people take no notice of you	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 學而 Xue Er of the 論語 “Analects of Confucius” (retranslated from Legge 1861, vol. 1, Confucian Analects, p. 1)	3001084
+3001085	好犯上	\N	hǎo fàn shàng	fond of offending superiors	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 學而 Xue Er of the 論語 “Analects of Confucius” (retranslated from Legge 1861, vol. 1, Confucian Analects, p. 3)	3001085
+3001086	为仁之本	為仁之本	wèi rén zhī běn	the source of benevolent actions	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 學而 Xue Er of the 論語 “Analects of Confucius” (retranslated from Legge 1861, vol. 1, Confucian Analects, p. 3)	3001086
+3001087	使民以时	使民以時	shǐmínyǐshí	to employ people at the proper season	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 學而 Xue Er of the 論語 “Analects of Confucius” (retranslated from Legge 1861, vol. 1, Confucian Analects, p. 4)	3001087
+3001088	事父母	\N	shì fù mǔ	serve parents	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: for example, in Book 1 學而 Xue Er of the 論語 “Analects of Confucius” (retranslated from Legge 1861, vol. 1, Confucian Analects, p. 4)	3001088
+3001089	君子不重则不威	君子不重則不威	jūnzi bù zhòng zé bù wēi	if a person of virtue does not act with dignity then he will not inspire respect	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 學而 Xue Er of the 論語 “Analects of Confucius” (retranslated from Legge 1861, vol. 1, Confucian Analects, p. 4)	3001089
+3001090	过则勿惮改	過則勿憚改	guò zé wù dàn gǎi	when you have faults, do not fear to correct them	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 學而 Xue Er of the 論語 “Analects of Confucius” (retranslated from Legge 1861, vol. 1, Confucian Analects, p. 5)	3001090
+3001091	远耻辱	遠恥辱	yuǎn chǐ rǔ	to avoid shame and disgrace	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 學而 Xue Er of the 論語 “Analects of Confucius” (retranslated from Legge 1861, vol. 1, Confucian Analects, p. 7)	3001091
+3001092	为政以德	為政以德	wèi zhèng yǐ dé	to govern with virtue	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 2 為政 Wei Zheng of the 論語 “Analects of Confucius” (retranslated from Legge 1861, vol. 1, Confucian Analects, p. 9)	3001092
+3001093	有耻且格	有恥且格	yǒu chǐ qiě gé	to know shame and abide by the rules of propriety	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 2 為政 Wei Zheng of the 論語 “Analects of Confucius” (retranslated from Legge 1861, vol. 1, Confucian Analects, p. 10)	3001093
+3001094	霁怒	霽怒	jì nù	cease to be angry	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '霽')	3001094
+3001095	雨霁	雨霽	yǔ jì	a clear sky after rain	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Retranslated from Mathews 1931 '雨霽', p. 61)	3001095
+3001096	多见阙殆	多見闕殆	duō jiàn què dài	Observe extensively and avoid things which are dangerous	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 2 為政 Wei Zheng of the 論語 “Analects of Confucius” (retranslated from Legge 1861, vol. 1, Confucian Analects, p. 15)	3001096
+3001097	举直错诸枉	舉直錯諸枉	jǔ zhí cuò zhū wǎng	advance the upright and set aside the crooked	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 2 為政 Wei Zheng of the 論語 “Analects of Confucius” (Legge 1861, vol. 1, Confucian Analects, p. 15)	3001097
