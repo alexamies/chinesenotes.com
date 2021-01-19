@@ -200,40 +200,40 @@
     <ul>
       <li>治亂五行第六十二 Chapter 62 Managing the Chaos of the Five Elements (p. 482)</li>
       <li>五行變救第六十三 Chapter 63 Reverting Changes in the Five Elements (p. 484)</li>
-      <li>五行五事第六十四 Chapter 64</li>
-      <li>郊語第六十五　Chapter 65</li>
+      <li>五行五事第六十四 Chapter 64 Five Elements and Five Matters (p. 487)</li>
+      <li>郊語第六十五　Chapter 65 Words for the Sacrifice to Heaven and Earth (p. 511)</li>
     </ul>
   </li>
   <li>
     卷十五 Scroll 15
     <ul>
-      <li>郊義第六十六 Chapter 66</li>
-      <li>郊祭第六十七 Chapter 67 Countryside Ritual</li>
-      <li>四祭第六十八 Chapter 68 The Four Rituals</li>
-      <li>郊祀第六十九 Chapter 69 Annual Rituals</li>
-      <li>順命第七十 Chapter 70 Following the Mandate of Heaven</li>
-      <li>郊事對第七十一　Chapter 71</li>
+      <li>郊義第六十六 Chapter 66 Meaning of the Sacrifice to Heaven and Earth (p. 516)</li>
+      <li>郊祭第六十七 Chapter 67 Ritual of the Sacrifice to Heaven and Earth (p. 517)</li>
+      <li>四祭第六十八 Chapter 68 The Four Rituals (p. 520)</li>
+      <li>郊祀第六十九 Chapter 69 Annual Rituals (p. 523)</li>
+      <li>順命第七十 Chapter 70 Following the Mandate of Heaven (p. 526)</li>
+      <li>郊事對第七十一　Chapter 71 Regarding Matters for the Sacrifice to Heaven and Earth (p. 532)</li>
     </ul>
   </li>
   <li>
     卷十六 Scroll 16
     <ul>
-      <li>執贄第七十二 Chapter 72 Courtesy Gifts</li>
-      <li>山川頌第七十三 Chapter 73 An Ode to Mountains and Rivers</li>
-      <li>求雨第七十四 Chapter 74 Praying for Rain</li>
-      <li>止雨第七十五 Chapter 75 Stopping the Rain</li>
-      <li>祭義第七十六 Chapter 76 The Meaning of Rituals</li>
-      <li>循天之道第七十七　Chapter 77 The Way of Following Heaven</li>
+      <li>執贄第七十二 Chapter 72 Courtesy Gifts (p. 535)</li>
+      <li>山川頌第七十三 Chapter 73 A Verse to the Mountains and Rivers (p. 538)</li>
+      <li>求雨第七十四 Chapter 74 Praying for Rain (p. 541)</li>
+      <li>止雨第七十五 Chapter 75 Praying for the Rain to Stop (p. 547)</li>
+      <li>祭義第七十六 Chapter 76 The Meaning of Rituals (p. 550)</li>
+      <li>循天之道第七十七　Chapter 77 The Way of Following Heaven (p. 569)</li>
     </ul>
   </li>
   <li>
     卷十七 Scroll 17
     <ul>
-      <li>天地之行第七十八 Chapter 78 Heaven and Earth's Conduct</li>
-      <li>威德所生第七十九 Chapter 79 All that Powerful, Benevolent rule Gives Rise to</li>
-      <li>如天之為第八十 Chapter 80</li>
-      <li>天地陰陽第八十一 Chapter 81 Heaven and Earth Yin and Yang</li>
-      <li>天道施第八十二　Chapter 82</li>
+      <li>天地之行第七十八 Chapter 78 Heaven and Earth's Conduct (p. 582)</li>
+      <li>威德所生第七十九 Chapter 79 All that Majestic Virtue Gives Rise to (p. 594)</li>
+      <li>如天之為第八十 Chapter 80 Like the Conduct of Heaven (p. 597)</li>
+      <li>天地陰陽第八十一 Chapter 81 Heaven and Earth, Yin and Yang (p. 604)</li>
+      <li>天道施第八十二　Chapter 82 The Way of Heaven Gives (p. 611)</li>
     </ul>
   </li>
 </ul>
