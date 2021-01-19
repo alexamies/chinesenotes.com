@@ -134,72 +134,72 @@
     卷八 Scroll 8
     <ul>
     <li>度制第二十七 Chapter 27 Measurement System (p. 270)</li>
-    <li>爵國第二十八 Chapter 28 Nobles and States</li>
-    <li>仁義法第二十九 Chapter 29 Ways of Benevolence and Righteousness</li>
-    <li>必仁且智第三十 Chapter 30 Benevolences must Precede and Wisedom</li>
+    <li>爵國第二十八 Chapter 28 Noble Titles and States (p. 275)</li>
+    <li>仁義法第二十九 Chapter 29 Ways of Benevolence and Righteousness (p. 313)</li>
+    <li>必仁且智第三十 Chapter 30 Benevolence must Precede Wisdom (p. 319)</li>
     </ul>
   </li>
   <li>
     卷九 Scroll 9
     <ul>
-      <li>身之養重於義第三十一 Chapter 31 The Importance of Proper Nourishing your Body</li>
-      <li>對膠西王越大夫不得為仁第三十二 Chapter 32</li>
-      <li>觀德第三十三 Chapter 33 Observing Virtue</li>
-      <li>奉本第三十四 Chapter 34 Offerings</li>
+      <li>身之養重於義第三十一 Chapter 31 The Importance Righteousness in Proper Nourishing the Self (p. 324)</li>
+      <li>對膠西王越大夫不得為仁第三十二 Chapter 32 To the Prince of Jiangdu (p. 327)</li>
+      <li>觀德第三十三 Chapter 33 Upholding Virtue (p. 329)</li>
+      <li>奉本第三十四 Chapter 34 Offerings to the Source (p. 337)</li>
     </ul>
   </li>
   <li>
     卷十 Scroll 10
     <ul>
-      <li>深察名號第三十五 Chapter 35 Thorough Examination of Names</li>
-      <li>實性第三十六 Chapter 36 True Nature</li>
-      <li>諸侯第三十七 Chapter 37 The Feudal Lords</li>
-      <li>五行對第三十八 Chapter 38 Regarding the Five Elements</li>
-      <li>第三十九 Chapter 39</li>
-      <li>第四十 Chapter 40</li>
+      <li>深察名號第三十五 Chapter 35 Thorough Examination of Names (p. 343)</li>
+      <li>實性第三十六 Chapter 36 Actual Nature (p. 353)</li>
+      <li>諸侯第三十七 Chapter 37 The Feudal Lords (p. 356)</li>
+      <li>五行對第三十八 Chapter 38 Regarding the Five Elements (p. 357)</li>
+      <li>第三十九 Chapter 39 [omitted]</li>
+      <li>第四十 Chapter 40 [omitted]</li>
     </ul>
   </li>
   <li>
     卷十一 Scroll 11
     <ul>
-      <li>為人者天第四十一 Chapter 41 Personal Conduct and Heavens</li>
-      <li>五行之義第四十二 Chapter 42 The Meaning of the Five Elements</li>
-      <li>陽尊陰卑第四十三 Chapter 43</li>
-      <li>王道通三第四十四 Chapter 44 The Way of Kings Connects the Three</li>
-      <li>天容第四十五 Chapter 45 The Color of the Sky</li>
-      <li>天辨在人第四十六 Chapter 46</li>
-      <li>陰陽位第四十七 Chapter 47 The Place of Yin and Yang</li>
+      <li>為人者天第四十一 Chapter 41 People were created by Heaven (p. 363)</li>
+      <li>五行之義第四十二 Chapter 42 The Meaning of the Five Elements (p. 367)</li>
+      <li>陽尊陰卑第四十三 Chapter 43 Yang is Noble, Yin is Base (p. 393)</li>
+      <li>王道通三第四十四 Chapter 44 The Way of Kings Connects the Three (p. 399)</li>
+      <li>天容第四十五 Chapter 45 (p. 405)</li>
+      <li>天辨在人第四十六 Chapter 46 (p. 407)</li>
+      <li>陰陽位第四十七 Chapter 47 The Place of Yin and Yang (p. 410)</li>
     </ul>
   </li>
   <li>
     卷十二 Scroll 12
     <ul>
-      <li>陰陽終始第四十八 Chapter 48 Yin and Yang from Start to Finish</li>
-      <li>陰陽義第四十九  Chapter 49 The Meaning of Yin and Yang</li>
-      <li>陰陽出入上下第五十 Chapter 50</li>
-      <li>天道無二第五十一 Chapter 51 There is only One Way of Heaven</li>
-      <li>暖燠常多第五十二  Chapter 52</li>
-      <li>基義第五十三  Chapter 53</li>
-      <li>第五十四 Chapter 54</li>
+      <li>陰陽終始第四十八 Chapter 48 Yin and Yang Finish and Start (p. 412)</li>
+      <li>陰陽義第四十九  Chapter 49 The Significance of Yin and Yang (p. 414)</li>
+      <li>陰陽出入上下第五十 Chapter 50 Yin and Yang Leave and Enter, Rise and Descend (p. 416)</li>
+      <li>天道無二第五十一 Chapter 51 There is Only One Way of Heaven (p. 420)</li>
+      <li>暖燠常多第五十二 Chapter 52 Warmth and Cold, Which is Longer Lasting? (p. 423)</li>
+      <li>基義第五十三 Chapter 53 The Fundamentals of Righteousness (p. 426)</li>
+      <li>第五十四 Chapter 54 [omitted]</li>
     </ul>
   </li>
   <li>
     卷十三 Scroll 13
     <ul>
-      <li>四時之副第五十五 Chapter 55 The Changing of the Four Seasons</li>
-      <li>人副天數第五十六 Chapter 56 The Correspondence between Man and the Enumerations of Heaven</li>
-      <li>同類相動第五十七 Chapter 57 Like Kinds Attract Each Other</li>
-      <li>五行相生第五十八 Chapter 58 The Five Elements Give Rise to One Another</li>
-      <li>五行相勝第五十九 Chapter 59 The Five Elements Give Rise to and then Overcome Each Other</li>
-      <li>五行順逆第六十 Chapter 60 The Five Elements Act with and Against Each Other</li>
-      <li>治水五行第六十一　Chapter 61 Managing Water with the Five Elements</li>
+      <li>四時之副第五十五 Chapter 55 The Correspondences of the Four Seasons (p. 432)</li>
+      <li>人副天數第五十六 Chapter 56 The Correspondences between People and the Enumerations of Heaven (p. 434)</li>
+      <li>同類相動第五十七 Chapter 57 Like Kinds Attract Each Other (p. 438)</li>
+      <li>五行相生第五十八 Chapter 58 The Five Elements Give Rise to One Another (p. 467)</li>
+      <li>五行相勝第五十九 Chapter 59 The Five Elements Give Overcome Each Other (p. 471)</li>
+      <li>五行順逆第六十 Chapter 60 The Five Elements Act with and Against Each Other (p. 475)</li>
+      <li>治水五行第六十一　Chapter 61 Managing Water with the Five Elements (p. 480)</li>
     </ul>
   </li>
   <li>
     卷十四 Scroll 14
     <ul>
-      <li>治亂五行第六十二 Chapter 62 The Order and Chaos of the Five Elements</li>
-      <li>五行變救第六十三 Chapter 63</li>
+      <li>治亂五行第六十二 Chapter 62 Managing the Chaos of the Five Elements (p. 482)</li>
+      <li>五行變救第六十三 Chapter 63 Reverting Changes in the Five Elements (p. 484)</li>
       <li>五行五事第六十四 Chapter 64</li>
       <li>郊語第六十五　Chapter 65</li>
     </ul>
