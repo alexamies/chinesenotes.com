@@ -399,3 +399,6 @@
 5000399	敌军交战	敵軍交戰	díjūn jiāozhàn	to engage with enemy troops	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '第一線')	5000399
 5000400	一个地方	一個地方	yī gè dìfāng	one place	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '一處')	5000400
 5000401	既然如此	\N	jìrán rúcǐ	since this is the case	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '既然如此', p. 59)	5000401
+5000402	太多	\N	tài duō	too much / too many	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '太')	5000402
+5000403	太热	太熱	tài rè	too hot	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '太')	5000403
+5000404	太客气了	太客氣了	tài kèqi le	too polite	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '太')	5000404
