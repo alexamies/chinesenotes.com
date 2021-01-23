@@ -15,7 +15,7 @@
     Chapters 35, 42, 56, and 57; pp. 271-288.
   </li>
   <li>
-    Csikscentmihalyi, Mark tr. 206,
+    Csikscentmihalyi, Mark tr. 2006,
     <i>Readings in Han Chinese Thought</i>,
     Indianapolis, Cambridge: Hackett Publishing,
     pp. 7-8 and pp. 175-179.
@@ -59,8 +59,8 @@
     Chunqiu Fanlu</i>, Leiden, Netherlands: Brill.
   </li>
   <li>
-    Queen S 1996, <i>From Chronicle to Canon: The Hermeneutics of the Spring and
-    Autumn Annals according to Tung Chung-shu</i>,
+    Queen, Sarah A 1996, <i>From Chronicle to Canon: The Hermeneutics of the
+    Spring and Autumn Annals according to Tung Chung-shu</i>,
     Cambridge: Cambridge University Press.
   </li>
 </ol>
@@ -100,7 +100,7 @@
       <li>滅國上第七 Chapter 7 Destruction of a State I (p. 153)</li>
       <li>滅國下第八 Chapter 8 Destruction of a State II (p. 156)</li>
       <li>隨本消息第九 Chapter 9 Along with the Rise and Fall (p. 159)</li>
-      <li>盟會要第十 Chapter 10 Essentials of Oaths (p. 163)</li>
+      <li>盟會要第十 Chapter 10 Essentials of Alliance Meetings (p. 163)</li>
       <li>正貫第十一 Chapter 11 Correcting a Thread (p. 166)</li>
       <li>十指第十二 Chapter 12 Ten Orders (p. 169)</li>
       <li>重政第十三 Chapter 13 The Importance of Governance (p. 171)</li>
@@ -111,7 +111,7 @@
     <ul>
       <li>服制像第十四 Chapter 14 Drawings of Garments (p. 175)</li>
       <li>二端第十五 Chapter 15 Two Beginnings (p. 177)</li>
-      <li>符瑞第十六 Chapter 16 Auspicious Signs (p. 179)</li>
+      <li>符瑞第十六 Chapter 16 Auspicious and Ominous Signs (p. 179)</li>
       <li>俞序第十七 Chapter 17 Yu's Preface (p. 181)</li>
       <li>離合根第十八 Chapter 18 Separation and Reunion with the Source (p. 199)</li>
       <li>立元神第十九 Chapter 19 Establishment of the Primal Spirit (p. 202)</li>
