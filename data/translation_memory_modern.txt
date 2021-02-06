@@ -402,3 +402,4 @@
 5000402	太多	\N	tài duō	too much / too many	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '太')	5000402
 5000403	太热	太熱	tài rè	too hot	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '太')	5000403
 5000404	太客气了	太客氣了	tài kèqi le	too polite	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '太')	5000404
+5000405	及早起来	及早起來	jízǎo qǐlai	to wake up early	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '及早起來', p. 61)	5000405
