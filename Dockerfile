@@ -1,7 +1,7 @@
 # Docker file for chinesenotes.com web app
 FROM golang:1.15.8 as builder
 ADD https://api.github.com/repos/alexamies/chinesenotes-go/git/refs/heads/master version.json
-RUN git clone https://github.com/alexamies/chinesenotes-go.git --branch v0.0.51
+RUN git clone https://github.com/alexamies/chinesenotes-go.git --branch v0.0.52
 WORKDIR /go/chinesenotes-go
 COPY config.yaml .
 COPY data/*.txt data/
