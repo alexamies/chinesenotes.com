@@ -49,5 +49,3 @@ transMem.init();
 // substring search
 const subApp = new SubstringApp();
 subApp.wireObservers();
-// Lastly, load the dictionary data, which might take time
-app.load();
