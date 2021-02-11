@@ -35,7 +35,7 @@ https://github.com/alexamies/chinesenotes-go
 A JavaScript library to help in presenting the web application is at
 https://github.com/alexamies/chinesedict-js
 
-Python ulitities for analysis of text in the structure here are at
+Python utilities for analysis of text in the structure here are at
 https://github.com/alexamies/chinesenotes-python
 
 For a description of how the framework can be used for other corpora see
