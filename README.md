@@ -53,7 +53,7 @@ Wikimedia Foundation, aslo under a Creative Commons license
 - [Unihan Database](http://www.unicode.org/charts/unihan.html) from the Unicode
 Consortium under a freely reusable license
 - [教育部國語辭典](http://resources.publicense.moe.edu.tw/dict_reviseddict_download.html)
-Republic of China Ministry of Education Standard Chinese Dicionary, aslo under a
+Republic of China Ministry of Education Standard Chinese Dictionary, also under a
 Creative Commons license
 
 ## Installing the Chinese Notes web site
