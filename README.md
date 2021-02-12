@@ -35,7 +35,7 @@ https://github.com/alexamies/chinesenotes-go
 A JavaScript library to help in presenting the web application is at
 https://github.com/alexamies/chinesedict-js
 
-Python ulitities for analysis of text in the structure here are at
+Python utilities for analysis of text in the structure here are at
 https://github.com/alexamies/chinesenotes-python
 
 For a description of how the framework can be used for other corpora see
@@ -53,7 +53,7 @@ Wikimedia Foundation, aslo under a Creative Commons license
 - [Unihan Database](http://www.unicode.org/charts/unihan.html) from the Unicode
 Consortium under a freely reusable license
 - [教育部國語辭典](http://resources.publicense.moe.edu.tw/dict_reviseddict_download.html)
-Republic of China Ministry of Education Standard Chinese Dicionary, aslo under a
+Republic of China Ministry of Education Standard Chinese Dictionary, also under a
 Creative Commons license
 
 ## Installing the Chinese Notes web site

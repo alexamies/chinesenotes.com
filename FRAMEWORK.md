@@ -1,5 +1,5 @@
 # Use of Chinese Notes as a Framework for other Corpora
-This page introduces the framework use by Chinese Notes, discussing how it
+This page introduces the framework used by Chinese Notes, discussing how it
 can be used to generate web sites for other corpora. The detailed instructions
 for setting up the framework are in [README.md](README.md).
 
@@ -22,7 +22,7 @@ well. If you do not need text or dictionary search, then it does not need to go
 on the cluster. In that case it a site be hosted on a static storage system.
 
 The  system is fairly easy to use and does not require software development
-skills for for management of static content. The files that the HTML templates
+skills for management of static content. The files that the HTML templates
 use are plain text files and can be edited in a text editor like Windows
 Notepad, exported from Google Sheets or MS XL, or even directly on the GitHub
 website.
