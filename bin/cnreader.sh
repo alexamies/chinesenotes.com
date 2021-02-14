@@ -6,7 +6,6 @@
 export CNREADER_HOME=.
 export WEB_DIR=web-staging
 export TEMPLATE_HOME=html/material-templates
-python bin/doc_list.py
 mkdir $WEB_DIR
 mkdir $WEB_DIR/analysis
 mkdir $WEB_DIR/analysis/articles
@@ -167,6 +166,7 @@ go get -u github.com/alexamies/cnreader
 go run github.com/alexamies/cnreader
 go run github.com/alexamies/cnreader -hwfiles
 go run github.com/alexamies/cnreader -html
+go run github.com/alexamies/cnreader -titleindex
 go run github.com/alexamies/cnreader -tmindex
 mkdir $WEB_DIR/dist
 cp web-resources/dist/*.css $WEB_DIR/dist/.
