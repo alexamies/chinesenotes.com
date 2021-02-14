@@ -6688,3 +6688,4 @@
 6006688	刘镇伟	劉鎮偉	Liú Zhènwěi	Jeffrey Lau	proper noun	导演	Director	戏剧	Drama	\N	\N	\N	\N	1952-; Hong Kong born film director (Wikipedia '劉鎮偉')	6006688
 6006689	马拉	馬拉	mǎlā	Marat	proper noun	人	Person	历史	History	\N	\N	\N	\N	Jean-Paul Marat 1743-1793, Swiss scientist and physician (CC-CEDICT '馬拉')	6006689
 6006690	国际狮子会	國際獅子會	guójì shīzi huì	Lion's Club	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際獅子會'; Guoyu '國際獅子會'; Wikipedia '國際獅子會')	6006690
+6006691	德基水库	德基水庫	déjī shuǐkù	Techi Dam	proper noun	\N	\N	地方	Places	\N	\N	\N	\N	Reservoir with a concrete arch dam in Taiwan (Guoyu '德基水庫'; Wikipedia '德基水庫')	6006691

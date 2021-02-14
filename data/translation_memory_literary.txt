@@ -1248,4 +1248,4 @@
 3001248	赍赐	齎賜	jī cì	to grant / to bestow	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '齎賜', p. 61)	3001248
 3001249	愚者不及	\N	yú zhě bù jí	a fool is not sufficient	set phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '愚者不及', p. 61)	3001249
 3001250	殆哉圾乎	\N	dàizāijīhū	very dangerous	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Chapter 天地 Heaven and Earth in 莊子 “Zhuang Zi” (Amies 2021 tr.; Mathews 1931, p. 61)	3001250
-3001251	汲引高风	汲引高風	jíyǐngāofēng	to imitate a person of lofty character	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '汲引高風', p. 62)	3001251
+3001251	汲引高风	汲引高風	jí yǐn gāo fēng	to imitate a person of lofty character	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '汲引高風', p. 62)	3001251
