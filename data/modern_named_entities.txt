@@ -6689,3 +6689,4 @@
 6006689	马拉	馬拉	mǎlā	Marat	proper noun	人	Person	历史	History	\N	\N	\N	\N	Jean-Paul Marat 1743-1793, Swiss scientist and physician (CC-CEDICT '馬拉')	6006689
 6006690	国际狮子会	國際獅子會	guójì shīzi huì	Lion's Club	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際獅子會'; Guoyu '國際獅子會'; Wikipedia '國際獅子會')	6006690
 6006691	德基水库	德基水庫	déjī shuǐkù	Techi Dam	proper noun	\N	\N	地方	Places	\N	\N	\N	\N	Reservoir with a concrete arch dam in Taiwan (Guoyu '德基水庫'; Wikipedia '德基水庫')	6006691
+6006692	线装书局	線裝書局	Xiàn Zhuāng Xhūjú	Thread-binding Books Publishing House	proper noun	出版史	Publishing House	商务	Commerce	出版	Publishing	\N	\N	(Baike '线装书局')	6006692

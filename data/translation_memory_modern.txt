@@ -404,3 +404,7 @@
 5000404	太客气了	太客氣了	tài kèqi le	too polite	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '太')	5000404
 5000405	及早起来	及早起來	jízǎo qǐlai	to wake up early	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '及早起來', p. 61)	5000405
 5000406	激烈手段	\N	jīliè shǒuduàn	violent means	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '激烈手段', p. 62)	5000406
+5000407	急性胃炎	\N	jíxìng wèiyán	acute gastritis	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '急性')	5000407
+5000408	桥梁支柱	橋梁支柱	qiáoliáng zhīzhù	a bridge pillar	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '支柱')	5000408
+5000409	主要人物	\N	zhǔyào rénwù	an important figure	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '支柱')	5000409
+5000410	急遽无序	急遽無序	jíjù wúxù	sudden disorder	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '急遽無序', p. 63)	5000410
