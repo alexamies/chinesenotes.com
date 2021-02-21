@@ -5,6 +5,7 @@ RUN git clone https://github.com/alexamies/chinesenotes-go.git --branch v0.0.63
 WORKDIR /go/chinesenotes-go
 COPY config.yaml .
 COPY data/*.txt data/
+COPY index/documents.tsv index/
 RUN go build
 ENV GO111MODULE=on
 RUN CGO_ENABLED=0 GOOS=linux go build -mod=readonly -v -o cnweb
@@ -13,4 +14,5 @@ RUN apk add --no-cache ca-certificates
 COPY --from=builder /go/chinesenotes-go/cnweb /cnweb
 COPY --from=builder /go/chinesenotes-go/config.yaml /config.yaml
 COPY --from=builder /go/chinesenotes-go/data/*.txt /data/
+COPY --from=builder /go/chinesenotes-go/index/documents.tsv /index/
 CMD ["./cnweb"]
