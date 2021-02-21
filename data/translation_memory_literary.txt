@@ -208,7 +208,7 @@
 3000208	池水	\N	chí shuǐ	water in the pond	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 宋史·卷一百八十一 “History of Song”, volume 181 (Amies 2021 tr.; see also tr. in Chien 2004, p. 95)	3000208
 3000209	水耗	\N	shuǐ hào	water consume	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 宋史·卷一百八十一 “History of Song”, volume 181 (Amies 2021 tr.; see also tr. in Chien 2004, p. 95)	3000209
 3000210	巡逻之兵	巡邏之兵	xúnluó zhī bīng	troops on patrol	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 宋史·卷一百八十一 “History of Song”, volume 181 (Amies 2021 tr.; see also tr. in Chien 2004, p. 96)	3000210
-3000211	北行	\N	běi xíng	going north	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 遼史·卷三十 “History of Liao”, volume 30 (Amies 2021 tr.; see also tr. in Biran 2005, p. 26)	3000211
+3000211	北行	\N	běi xíng	going north	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 遼史·卷三十 “History of Liao”, volume 30 (Amies 2021 tr.; see also tr. in Biran 2005, p. 26)	3000211
 3000212	艰难创业	艱難創業	jiānnán chuàngyè	suffer many trials	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 遼史·卷三十 “History of Liao”, volume 30 (Amies 2021 tr.; see also tr. in Biran 2005, p. 29)	3000212
 3000213	残我黎庶	殘我黎庶	cánwǒ líshù	massacre the people	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 遼史·卷三十 “History of Liao”, volume 30 (Amies 2021 tr.; see also tr. in Biran 2005, p. 29)	3000213
 3000214	欲借力	\N	yù jiè lì	ask your help	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 遼史·卷三十 “History of Liao”, volume 30 (Amies 2021 tr.; see also tr. in Biran 2005, p. 29)	3000214
