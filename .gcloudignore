@@ -1,10 +1,5 @@
-bin/
 corpus/
-docker/
-e2etest/
-go/
 index/
-mariadb-data/
-web/
+!index/documents.tsv
 web-resources/
 web-staging/
