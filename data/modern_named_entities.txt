@@ -178,7 +178,7 @@
 6000178	摩洛哥	\N	móluògē	Morocco	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Kingdom of Morocco (SDC, p. 117; XHZD, p. 702)	6000178
 6000179	莫桑比克	\N	mòsāngbǐkè	Mozambique	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Mozambique (SDC, p. 151; XHZD, p. 703)	6000179
 6000180	墨西哥	\N	mòxīgē	Mexico	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	Short form is 墨 (SDC, p. 183; XHZD, p. 705)	6000180
-6000181	尼泊尔	尼泊爾	níbóěr	Nepal	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	The Federal Democratic Republic of Nepal (SDC, p. 32; XHZD, p. 698)	6000181
+6000181	北京工人体育场	北京工人體育場	Běijīng gōngrén tǐyùchǎng	Workers Stadium	proper noun	体育场	Stadium	地方	Places	中国	China	\N	\N	(CC-CEDICT '北京工人體育場'; Wikipedia '工人體育場')	6000181
 6000182	尼加拉瓜	\N	níjiālāguā	Nicaragua	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	The Republic of Nicaragua (SDC, p. 187; XHZD, p. 706)	6000182
 6000183	尼日利亚	尼日利亞	nírìlìyà	Nigeria	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 126; XHZD, p. 702)	6000183
 6000184	挪威	\N	nuówēi	Norway	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 62; XHZD, p. 700)	6000184
@@ -6690,4 +6690,3 @@
 6006690	国际狮子会	國際獅子會	guójì shīzi huì	Lion's Club	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '國際獅子會'; Guoyu '國際獅子會'; Wikipedia '國際獅子會')	6006690
 6006691	德基水库	德基水庫	déjī shuǐkù	Techi Dam	proper noun	\N	\N	地方	Places	\N	\N	\N	\N	Reservoir with a concrete arch dam in Taiwan (Guoyu '德基水庫'; Wikipedia '德基水庫')	6006691
 6006692	线装书局	線裝書局	Xiàn Zhuāng Xhūjú	Thread-binding Books Publishing House	proper noun	出版史	Publishing House	商务	Commerce	出版	Publishing	\N	\N	(Baike '线装书局')	6006692
-6006693	北京工人体育场	北京工人體育場	Běijīng gōngrén tǐyùchǎng	Workers Stadium	proper noun	体育场	Stadium	地方	Places	中国	China	\N	\N	(CC-CEDICT '北京工人體育場'; Wikipedia '工人體育場')	6006693
