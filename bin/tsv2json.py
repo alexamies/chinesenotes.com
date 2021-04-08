@@ -76,10 +76,8 @@ def WriteJS(words,
     for i in range(l):
       w = words[i]
       f.write(u"{\"s\":\"%s\"," % w["simplified"])
-      if w["traditional"] != "\\N":
+      if w["traditional"] != "\\N" and w["traditional"] != "":
         f.write(u"\"t\":\"%s\"," % w["traditional"])
-      else:
-        f.write(u"\"t\":\"%s\"," % w["simplified"])
       if w["pinyin"] != "\\N":
         f.write(u"\"p\":\"%s\"," % w["pinyin"])
       if w["english"] != "\\N":
