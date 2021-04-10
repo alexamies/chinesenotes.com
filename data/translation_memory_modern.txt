@@ -149,7 +149,7 @@
 5000149	门户开放	門戶開放	ménhù kāifàng	open door policy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '門戶開放')	5000149
 5000150	澳纽	澳紐	ào niǔ	Australia and New Zealand	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '澳紐')	5000150
 5000151	中澳	\N	zhōng ào	China-Australia (relations)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中澳')	5000152
-5000152	陪唱小姐	\N	péi chàng xiǎojie	KTV hostess	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '陪唱小姐')	6005513
+5000152	陪唱小姐	\N	péi chàng xiǎojie	KTV hostess	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '陪唱小姐')	5000152
 5000153	陪聊	\N	péi liáo	to keep company for a chat / (esp.) to be a paid escort	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '陪聊')	5000153
 5000154	陪读	陪讀	péi dú	to accompany one's child or spouse who is studying overseas	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '陪讀')	5000154
 5000155	陶冶情操	\N	táoyě qíngcāo	to cultivate one's mind / to build character	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '陶冶情操')	5000155
@@ -173,7 +173,7 @@
 5000173	党政机关	黨政機關	dǎngzhèng jīguān	(Communist) Party and government organizations	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '黨政機關')	5000173
 5000174	两德	兩德	liǎngdé	two Germanies	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Refers to German Democratic Republic, East Germany, and the Federal Republic of Germany, West Germany (CC-CEDICT '兩德')	5000174
 5000175	中德诊所	中德診所	zhōng dé zhěnsuǒ	Sino-German clinic	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中德診所')	5000175
-5000176	剑走偏锋	劍走偏鋒	jiàn zǒu piān fēng	the sword moves with side stroke / unexpected winning move	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '劍走偏鋒')	164758
+5000176	剑走偏锋	劍走偏鋒	jiàn zǒu piān fēng	the sword moves with side stroke / unexpected winning move	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '劍走偏鋒')	5000176
 5000177	地面零点	地面零點	dìmiàn língdiǎn	ground zero	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '地面零點')	5000177
 5000178	奔三	\N	bēnsān	to be pushing 30 years old	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '奔三')	5000178
 5000179	港警	\N	gǎng jǐng	Hong Kong police	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '港警')	5000179
@@ -214,15 +214,15 @@
 5000214	中欧	中歐	zhōng ōu	China-Europe	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	E.g. trading relations (CC-CEDICT '中歐')	5000214
 5000215	成单	成單	chéng dān	to place an order for goods	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '成單', p. 48)	5000215
 5000216	定单	定單	dìng dān	to place an order for goods	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '成單', p. 48)	5000216
-5000217	中非	\N	Zhōng Fēi	China-Africa (relations)	set phrase	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '中非')	6006167
+5000217	中非	\N	Zhōng Fēi	China-Africa (relations)	set phrase	国家	Country	地方	Places	非洲	Africa	\N	\N	(CC-CEDICT '中非')	5000217
 5000218	欧洲帝国	歐洲帝國	ōuzhōu dìguó	European empires	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '欧洲帝国')	5000218
-5000219	老城区	老城區	lǎochéngqū	old city district / historical center	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '老城區')	91146
+5000219	老城区	老城區	lǎochéngqū	old city district / historical center	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '老城區')	5000219
 5000220	成心作	\N	chéngxīn zuò	to do deliberately	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '成心作', p. 48)	5000220
-5000221	中南	\N	zhōng nán	China-South Africa	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中南')	70373
+5000221	中南	\N	zhōng nán	China-South Africa	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中南')	5000221
 5000222	足协	足協	zú xié	soccer association / soccer federation	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '足協')	5000222
 5000223	转台	轉台	zhuǎn tái	to change the channel (TV)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '轉台')	5000223
 5000224	转台	轉台	zhuǎn tái	rotating stage	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '轉台')	5000223
-5000225	迫降	\N	pòjiàng	to force to surrender	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '迫降')	95093
+5000225	迫降	\N	pòjiàng	to force to surrender	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '迫降')	5000225
 5000226	亚非拉	亞非拉	yà fēi lā	Asia, Africa and Latin America	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '亞非拉')	5000226
 5000227	成样子	成樣子	chéng yàngzi	to appear well	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '成樣子', p. 48)	5000227
 5000228	成物	\N	chéngwù	a ready made product	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(retranslated from Mathews 1931 '成物', p. 49)	5000228
