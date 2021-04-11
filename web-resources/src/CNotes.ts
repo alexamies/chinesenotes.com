@@ -76,6 +76,7 @@ export class CNotes implements ICNotes {
     const partsTitle = document.querySelector("#partsTitle");
     // Only download the dictionary if we need to split the term into parts
     if (partsTitle) {
+      console.log("CNotes.init: download the dictionary");
       this.load();
     }
   }
@@ -121,7 +122,7 @@ export class CNotes implements ICNotes {
           }
         }
       },
-      (err) => {
+      (err: any) => {
         console.error(`load error:  + ${ err }`);
         const helpBlock = document.getElementById("lookup-help-block");
         if (helpBlock && !navigator.onLine) {

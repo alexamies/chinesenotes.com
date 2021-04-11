@@ -169,6 +169,18 @@ span.dict-entry-notes {
     font-weight: bold;
 }
 
+.dict-entry-source {
+  padding: 10px 0px 15px 0px;
+  font-size: medium;
+}
+
+/* Multilingual lookup */
+fieldset.source-form-element {
+  margin: 20;
+  padding: 20;
+  border: 0;
+}
+
 /* Query terms decomposition table */
 .query-term {
     font-size: 150%;
