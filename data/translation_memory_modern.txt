@@ -408,3 +408,4 @@
 5000408	桥梁支柱	橋梁支柱	qiáoliáng zhīzhù	a bridge pillar	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '支柱')	5000408
 5000409	主要人物	\N	zhǔyào rénwù	an important figure	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '支柱')	5000409
 5000410	急遽无序	急遽無序	jíjù wúxù	sudden disorder	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '急遽無序', p. 63)	5000410
+5000411	中流社会	中流社會	zhōngliú shèhuì	mainstream society	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '中流')	5000411
