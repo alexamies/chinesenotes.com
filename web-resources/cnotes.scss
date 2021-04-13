@@ -20,6 +20,14 @@ body {
   padding: 0px 20px 20px 20px;
 }
 
+a.regular {
+  color: blue;
+}
+
+a.regular-on-dark {
+  text-decoration: underline;
+}
+
 .mdc-drawer-app-content {
   flex: auto;
   overflow: auto;
@@ -67,6 +75,7 @@ a.title--mdc-theme-on-primary {
 
 .footer-link {
   color: $mdc-theme-background;
+  text-decoration: underline;
 }
 
 .cnotes-header {
@@ -242,14 +251,6 @@ th {
 
 #loadingStatus {
     font-size: smaller;
-}
-
-a.regular {
-  color: blue;
-}
-
-a.regular-on-dark {
-  text-decoration: underline;
 }
 
 fieldset{

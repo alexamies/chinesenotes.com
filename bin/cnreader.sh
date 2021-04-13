@@ -6,6 +6,7 @@
 export CNREADER_HOME=.
 export WEB_DIR=web-staging
 export TEMPLATE_HOME=html/material-templates
+PATH=$PATH:$HOME/go/bin
 mkdir $WEB_DIR
 mkdir $WEB_DIR/analysis
 mkdir $WEB_DIR/analysis/articles
@@ -162,12 +163,12 @@ mkdir $WEB_DIR/zhuangzi
 mkdir $WEB_DIR/zhushujinian
 mkdir $WEB_DIR/zuozhuan
 
-go get -u github.com/alexamies/cnreader
-go run github.com/alexamies/cnreader
-go run github.com/alexamies/cnreader -hwfiles
-go run github.com/alexamies/cnreader -html
-go run github.com/alexamies/cnreader -titleindex
-go run github.com/alexamies/cnreader -tmindex
+go install github.com/alexamies/cnreader@latest
+cnreader
+cnreader -hwfiles
+cnreader -html
+cnreader -titleindex
+cnreader -tmindex
 mkdir $WEB_DIR/dist
 cp web-resources/dist/*.css $WEB_DIR/dist/.
 cp web-resources/dist/*.js $WEB_DIR/dist/.
