@@ -7,6 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="25.4"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-filename="/Users/alex/Documents/code/chinesenotes.com/web-resources/images/favicon16.png"
    sodipodi:docname="icon.svg"
    inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
    id="svg8"
@@ -33,8 +36,8 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="560"
-     inkscape:cx="353"
+     inkscape:cy="562"
+     inkscape:cx="360"
      inkscape:zoom="1"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -59,12 +62,16 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <text
-       style="font-style:normal;font-weight:normal;font-size:22.57779999999999987px;line-height:1.25;font-family:sans-serif;shape-inside:url(#rect835);fill:#000000;fill-opacity:1;stroke:none;"
+       transform="matrix(1.0780815,0,0,1.0517584,-4.09521,-5.54471)"
+       inkscape:export-ydpi="37.061726"
+       inkscape:export-xdpi="37.061726"
+       inkscape:export-filename="/Users/alex/Documents/code/chinesenotes.com/web-resources/images/icon32.png"
+       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;shape-inside:url(#rect835);fill:#000000;fill-opacity:1;stroke:none"
        id="text833"
        xml:space="preserve"><tspan
          x="58.208984"
-         y="125.80554"
+         y="126.2571"
          sodipodi:role="line"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5778px;font-family:'Songti SC';-inkscape-font-specification:'Songti SC Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">筆</tspan></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5778px;font-family:'Noto Sans Mono CJK JP';-inkscape-font-specification:'Noto Sans Mono CJK JP';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">筆</tspan></tspan></text>
   </g>
 </svg>
