@@ -6694,3 +6694,5 @@
 6006694	十六大	\N	Shíliùdà	16th National Congress of the Communist Party of China	proper noun	\N	\N	政治	Politics	中国	China	\N	shi2liu4da4.mp3	(Wikipedia '中國共產黨第十六次全國代表大會')	6006694
 6006695	东欧集团	東歐集團	dōng ōu jítuán	Eastern Bloc	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(Guoyu '東歐集團')	6006695
 6006696	共产集团	共產集團	gòngchǎn jítuán	Communist [Soviet] Bloc	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(Guoyu '共產集團')	6006696
+6006697	中国国际广播电台	中國國際廣播電台	Zhōngguó Guójì Guǎngbō Diàntái	China Radio International	proper noun	广播电台	Radio Station	现代汉语	Modern Chinese	媒体	Media	\N	\N	(Wikipedia '中国国际广播电台')	6006697
+6006698	中央人民广播电台	中央人民廣播電台	Zhōngyāng Rénmín Guǎngbō Diàntái	China National Radio	proper noun	广播电台	Radio Station	现代汉语	Modern Chinese	媒体	Media	\N	\N	(Wikipedia '中央人民广播电台')	6006698
