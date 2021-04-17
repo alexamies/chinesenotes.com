@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="258.3829"
-   inkscape:export-xdpi="258.3829"
-   inkscape:export-filename="/Users/alex/Documents/code/chinesenotes.com/web-resources/images/icon128.png"
+   inkscape:export-ydpi="365.44247"
+   inkscape:export-xdpi="365.44247"
+   inkscape:export-filename="/Users/alex/Documents/code/chinesenotes.com/web-resources/images/icon512.png"
    sodipodi:docname="icon.svg"
    inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
    id="svg8"
@@ -58,18 +58,19 @@
     </rdf:RDF>
   </metadata>
   <g
+     style="opacity:1"
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="base">
-    <rect
-       style="fill:#ffffff;stroke-width:0.508086"
-       id="rect844"
-       width="25.135416"
-       height="25.135418"
-       x="59.002083"
-       y="106.89166" />
+    <circle
+       r="17.793228"
+       cy="117.67342"
+       cx="70.709892"
+       id="path850"
+       style="fill:#ffffff;stroke:none;stroke-width:0.62999;stroke-opacity:1" />
   </g>
   <g
+     style="opacity:1"
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
@@ -78,7 +79,7 @@
        inkscape:export-ydpi="37.061726"
        inkscape:export-xdpi="37.061726"
        inkscape:export-filename="/Users/alex/Documents/code/chinesenotes.com/web-resources/images/icon32.png"
-       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;shape-inside:url(#rect835);fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:22.57779999999999987px;line-height:1.25;font-family:sans-serif;shape-inside:url(#rect835);fill:#000000;fill-opacity:1;stroke:none"
        id="text833"
        xml:space="preserve"><tspan
          x="58.208984"
