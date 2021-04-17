@@ -7,44 +7,44 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
-   version="1.1"
-   id="svg8"
-   inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
-   sodipodi:docname="icon.svg"
-   inkscape:export-filename="/Users/alex/Documents/code/chinesenotes.com/web-resources/images/icon256.png"
+   inkscape:export-ydpi="258.3829"
    inkscape:export-xdpi="258.3829"
-   inkscape:export-ydpi="258.3829">
+   inkscape:export-filename="/Users/alex/Documents/code/chinesenotes.com/web-resources/images/icon128.png"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
   <defs
      id="defs2">
     <rect
-       x="58.208333"
-       y="103.56548"
-       width="83.910714"
+       id="rect835"
        height="70.303571"
-       id="rect835" />
+       width="83.910714"
+       y="103.56548"
+       x="58.208333" />
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="352"
-     inkscape:cy="570.76173"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="787"
-     inkscape:window-x="0"
+     inkscape:window-maximized="0"
      inkscape:window-y="25"
-     inkscape:window-maximized="0" />
+     inkscape:window-x="0"
+     inkscape:window-height="763"
+     inkscape:window-width="1440"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer2"
+     inkscape:document-units="mm"
+     inkscape:cy="494.6066"
+     inkscape:cx="324.06331"
+     inkscape:zoom="2"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -58,29 +58,29 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="base"
+     inkscape:groupmode="layer"
      id="layer2"
-     inkscape:groupmode="layer">
+     inkscape:label="base">
     <rect
-       y="106.89166"
-       x="59.002083"
-       height="24.870834"
-       width="25.135416"
+       style="fill:#ffffff;stroke-width:0.508086"
        id="rect844"
-       style="fill:#ffffff;stroke-width:0.505405" />
+       width="25.135416"
+       height="25.135418"
+       x="59.002083"
+       y="106.89166" />
   </g>
   <g
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
+     inkscape:label="Layer 1">
     <text
-       xml:space="preserve"
-       id="text833"
-       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;shape-inside:url(#rect835);fill:#000000;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/Users/alex/Documents/code/chinesenotes.com/web-resources/images/icon32.png"
-       inkscape:export-xdpi="37.061726"
+       transform="matrix(1.0780815,0,0,1.0517584,-4.09521,-5.54471)"
        inkscape:export-ydpi="37.061726"
-       transform="matrix(1.0780815,0,0,1.0517584,-4.09521,-5.54471)"><tspan
+       inkscape:export-xdpi="37.061726"
+       inkscape:export-filename="/Users/alex/Documents/code/chinesenotes.com/web-resources/images/icon32.png"
+       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;shape-inside:url(#rect835);fill:#000000;fill-opacity:1;stroke:none"
+       id="text833"
+       xml:space="preserve"><tspan
          x="58.208984"
          y="126.2571"
          sodipodi:role="line"><tspan
