@@ -170,6 +170,12 @@ cnreader -html
 cnreader -titleindex
 cnreader -tmindex
 mkdir $WEB_DIR/dist
+cp web-resources/manifest.json $WEB_DIR/.
+cp web-resources/*.dart.js $WEB_DIR/.
+cp web-resources/register_sw.js $WEB_DIR/.
+cp web-resources/serviceworker.js $WEB_DIR/.
+cp web-resources/offline.html $WEB_DIR/.
+cp web-resources/downloads/chinesenotes_words.json $WEB_DIR/.
 cp web-resources/dist/*.css $WEB_DIR/dist/.
 cp web-resources/dist/*.js $WEB_DIR/dist/.
 cp web-resources/*.css $WEB_DIR/.

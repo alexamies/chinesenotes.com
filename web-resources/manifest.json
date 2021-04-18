@@ -1,0 +1,29 @@
+{
+  "short_name": "Chinese Notes",
+  "name": "Chinese Notes Chinese-English Dictionary",
+  "icons": [
+    {
+      "src": "/images/icon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#2f5cb6",
+  "description": "Open source Chinese-English dictionary",
+  "screenshots": [
+    {
+      "src": "/images/screenshot.png",
+      "type": "image/png",
+      "sizes": "688×617"
+    }
+  ]
+}
