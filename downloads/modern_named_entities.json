@@ -6693,4 +6693,6 @@
 {"s":"中共十六大","p":"Zhōnggòng Shíliù dà","e": "16th National Congress of the Communist Party of China","g":"proper noun","n":"See 中国共产党第十六次全国代表大会 (Wikipedia '中國共產黨第十六次全國代表大會')","luid":"6006693","h":"6006693"},
 {"s":"十六大","p":"Shíliùdà","e": "16th National Congress of the Communist Party of China","g":"proper noun","n":"(Wikipedia '中國共產黨第十六次全國代表大會')","luid":"6006694","h":"6006694"},
 {"s":"东欧集团","t":"東歐集團","p":"dōng ōu jítuán","e": "Eastern Bloc","g":"proper noun","n":"(Guoyu '東歐集團')","luid":"6006695","h":"6006695"},
-{"s":"共产集团","t":"共產集團","p":"gòngchǎn jítuán","e": "Communist [Soviet] Bloc","g":"proper noun","n":"(Guoyu '共產集團')","luid":"6006696","h":"6006696"}]
+{"s":"共产集团","t":"共產集團","p":"gòngchǎn jítuán","e": "Communist [Soviet] Bloc","g":"proper noun","n":"(Guoyu '共產集團')","luid":"6006696","h":"6006696"},
+{"s":"中国国际广播电台","t":"中國國際廣播電台","p":"Zhōngguó Guójì Guǎngbō Diàntái","e": "China Radio International","g":"proper noun","n":"(Wikipedia '中国国际广播电台')","luid":"6006697","h":"6006697"},
+{"s":"中央人民广播电台","t":"中央人民廣播電台","p":"Zhōngyāng Rénmín Guǎngbō Diàntái","e": "China National Radio","g":"proper noun","n":"(Wikipedia '中央人民广播电台')","luid":"6006698","h":"6006698"}]
