@@ -2509,7 +2509,7 @@
 6002509	北京语言学院	北京語言學院	Běijīng yǔyánxué yuàn	Beijing Language Institute	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '北京語言學院')	6002509
 6002510	北卡罗来纳	北卡羅來納	Běikǎ luó lái nà	North Carolina, US state	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '北卡羅來納')	6002510
 6002511	北卡罗来纳州	北卡羅來納州	Běikǎ luó lái nà zhōu	North Carolina, US state	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(CC-CEDICT '北卡羅來納州')	6002511
-6002512	北圻	\N	běizhuì	Tonkin, northern Vietnam during the French colonial period	proper noun	\N	\N	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '北圻')	6002512
+6002512	北圻	\N	běizhuì	Tonkin	proper noun	\N	\N	地方	Places	亚洲	Asia	\N	\N	Northern Vietnam during the French colonial period (CC-CEDICT '北圻'; Guoyu '北圻')	6002512
 6002513	北威州	\N	běiwēizhōu	North Rhine-Westphalia, Germany	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '北威州')	6002513
 6002514	北安普敦	\N	běiān pǔ dūn	Northampton,	proper noun	县	County	地方	Places	英国	England	\N	\N	Town in central England, county town of Northamptonshire 北安普敦郡 (CC-CEDICT '北安普敦')	6002514
 6002515	北布拉班特	\N	běi bù lā bān té	Noord Brabant, Netherlands	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '北布拉班特')	6002515
@@ -6696,3 +6696,8 @@
 6006696	共产集团	共產集團	gòngchǎn jítuán	Communist [Soviet] Bloc	proper noun	\N	\N	历史	History	欧洲	Europe	\N	\N	(Guoyu '共產集團')	6006696
 6006697	中国国际广播电台	中國國際廣播電台	Zhōngguó Guójì Guǎngbō Diàntái	China Radio International	proper noun	广播电台	Radio Station	现代汉语	Modern Chinese	媒体	Media	\N	\N	(Wikipedia '中国国际广播电台')	6006697
 6006698	中央人民广播电台	中央人民廣播電台	Zhōngyāng Rénmín Guǎngbō Diàntái	China National Radio	proper noun	广播电台	Radio Station	现代汉语	Modern Chinese	媒体	Media	\N	\N	(Wikipedia '中央人民广播电台')	6006698
+6006699	胜利油田	\N	shènglì yóutián	Shengli Oil Field	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '胜利油田'; Guoyu '胜利油田'; Wikipedia '胜利油田')	6006699
+6006700	清华大学美术学院	清華大學美術學院	qīnghuá dàxué měishù xuéyuàn	Tsinghua University Academy of Arts and Design	proper noun	团体	Organization	艺术	Art	中国	China	\N	\N	(Baike '清华大学美术学院'; Wikipedia '清华大学美术学院')	6006700
+6006701	共和国勋章	共和國勛章	gònghéguó xūnzhāng	Order of the Republic [medal, China]	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '共和国勋章')	6006701
+6006702	秦二爷	秦二爺	Qín èr Yé	Qin Er Ye	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She, 2010)	6006702
+6006703	米兰理工大学	米蘭理工大學	Mǐlán lǐgōng dàxué	Polytechnic University of Milan	proper noun	大学	University	教育	Education	欧洲	Europe	\N	\N	(Wikipedia '米蘭理工大學')	6006703

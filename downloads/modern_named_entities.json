@@ -6695,4 +6695,9 @@
 {"s":"东欧集团","t":"東歐集團","p":"dōng ōu jítuán","e": "Eastern Bloc","g":"proper noun","n":"(Guoyu '東歐集團')","luid":"6006695","h":"6006695"},
 {"s":"共产集团","t":"共產集團","p":"gòngchǎn jítuán","e": "Communist [Soviet] Bloc","g":"proper noun","n":"(Guoyu '共產集團')","luid":"6006696","h":"6006696"},
 {"s":"中国国际广播电台","t":"中國國際廣播電台","p":"Zhōngguó Guójì Guǎngbō Diàntái","e": "China Radio International","g":"proper noun","n":"(Wikipedia '中国国际广播电台')","luid":"6006697","h":"6006697"},
-{"s":"中央人民广播电台","t":"中央人民廣播電台","p":"Zhōngyāng Rénmín Guǎngbō Diàntái","e": "China National Radio","g":"proper noun","n":"(Wikipedia '中央人民广播电台')","luid":"6006698","h":"6006698"}]
+{"s":"中央人民广播电台","t":"中央人民廣播電台","p":"Zhōngyāng Rénmín Guǎngbō Diàntái","e": "China National Radio","g":"proper noun","n":"(Wikipedia '中央人民广播电台')","luid":"6006698","h":"6006698"},
+{"s":"胜利油田","p":"shènglì yóutián","e": "Shengli Oil Field","g":"proper noun","n":"(CC-CEDICT '胜利油田'; Guoyu '胜利油田'; Wikipedia '胜利油田')","luid":"6006699","h":"6006699"},
+{"s":"清华大学美术学院","t":"清華大學美術學院","p":"qīnghuá dàxué měishù xuéyuàn","e": "Tsinghua University Academy of Arts and Design","g":"proper noun","n":"(Baike '清华大学美术学院'; Wikipedia '清华大学美术学院')","luid":"6006700","h":"6006700"},
+{"s":"共和国勋章","t":"共和國勛章","p":"gònghéguó xūnzhāng","e": "Order of the Republic [medal, China]","g":"proper noun","n":"(Wikipedia '共和国勋章')","luid":"6006701","h":"6006701"},
+{"s":"秦二爷","t":"秦二爺","p":"Qín èr Yé","e": "Qin Er Ye","g":"proper noun","n":"A character in Teahouse by Lao She (Lao She, 2010)","luid":"6006702","h":"6006702"},
+{"s":"米兰理工大学","t":"米蘭理工大學","p":"Mǐlán lǐgōng dàxué","e": "Polytechnic University of Milan","g":"proper noun","n":"(Wikipedia '米蘭理工大學')","luid":"6006703","h":"6006703"}]
