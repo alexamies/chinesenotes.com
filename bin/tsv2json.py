@@ -86,8 +86,8 @@ def WriteJS(words,
         f.write(u"\"g\":\"%s\"," % w["grammar"])
       if w["notes"] != "\\N":
         f.write(u"\"n\":\"%s\"," % w["notes"])
-      f.write(u"\"luid\":\"%s\"," % w["id"])
-      f.write(u"\"h\":\"%s\"}" % w["hwid"])
+      f.write(u"\"luid\":%s," % w["id"])
+      f.write(u"\"h\":%s}" % w["hwid"])
       if i < l - 1:
         f.write(u",\n")
     f.write(u"]")
