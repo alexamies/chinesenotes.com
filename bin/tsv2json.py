@@ -14,6 +14,22 @@ import sys
 
 DICT_FILE_NAMES = "../data/words.txt"
 JSON_FILE_NAME = "words.json"
+PINYIN_CONVERSION = {'ā': 'a', 'á': 'a', 'ǎ': 'a', 'à': 'a',
+                     'Ā': 'a', 'Á': 'a', 'Ǎ': 'a', 'À': 'a',
+                     'ē': 'e', 'é': 'e', 'ě': 'e', 'è': 'e',
+                     'Ē': 'e', 'É': 'e', 'Ě': 'e', 'È': 'e',
+                     'ī': 'i', 'í': 'i', 'ǐ': 'i', 'ì': 'i',
+                     'Ī': 'i', 'Í': 'i', 'Ǐ': 'i', 'Ì': 'i',
+                     'ō': 'o', 'ó': 'o', 'ǒ': 'o', 'ò': 'o',
+                     'ū': 'u', 'ú': 'u', 'ǔ': 'u', 'ù': 'u',
+                     ' ': ''}
+
+
+def flattenPinyin(pinyin: str) -> str:
+  flattened = pinyin
+  for key in PINYIN_CONVERSION:
+    flattened = flattened.replace(key, PINYIN_CONVERSION[key])
+  return flattened
 
 
 def OpenDictionary(filenames):
@@ -80,6 +96,8 @@ def WriteJS(words,
         f.write(u"\"t\":\"%s\"," % w["traditional"])
       if w["pinyin"] != "\\N":
         f.write(u"\"p\":\"%s\"," % w["pinyin"])
+      if w["pinyin"] != "\\N":
+        f.write(u"\"fp\":\"%s\"," % flattenPinyin(w["pinyin"]))
       if w["english"] != "\\N":
         f.write(u"\"e\": \"%s\"," % w["english"])
       if w["grammar"] != "\\N":
