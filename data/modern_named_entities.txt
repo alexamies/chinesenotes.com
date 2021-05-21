@@ -6705,3 +6705,4 @@
 6006705	锺肇政	鍾肇政	zhōng zhàozhèng	Chung Chao-cheng	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1925 - ; Taiwanese writer (Wikipedia '鍾肇政')	6006705
 6006706	亚省	\N	yàshěng	Alberta	proper noun	地名	Place Name	地方	Places	加拿大	Canada	\N	\N	Province in Canada; abbrevation for 艾伯塔省 (Wikipedia '艾伯塔省')	6006706
 6006707	阿省	\N	āshěng	Alberta	proper noun	地名	Place Name	地方	Places	加拿大	Canada	\N	\N	Province in Canada; abbrevation for 艾伯塔省 (Wikipedia '艾伯塔省')	6006707
+6006708	红十字会	紅十字會	hóngshízìhuì	Red Cross	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '紅十字會')	6006708
