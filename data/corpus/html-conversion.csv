@@ -4,6 +4,7 @@
 ../html/abbreviations-raw.html	abbreviations.html	about-template.html	false
 ../html/about-raw.html	about.html	about-template.html	false
 ../html/advanced_search.html	advanced_search.html	advanced-search-template.html	true
+../html/chrome-extension.html	chrome-extension.html	about-template.html	false
 ../corpus/poetry-raw.html	poetry.html	reference-template.html	true
 ../corpus/poetry_references-raw.html	poetry_references.html	reference-template.html	true
 ../html/corpus.html	corpus.html	about-template.html	false

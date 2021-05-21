@@ -141,7 +141,7 @@
 6000141	佛得角	\N	fódéjiǎo	Cape Verde	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 109; XHZD, p. 702)	6000141
 6000142	冈比亚	岡比亞	gāngbǐyà	Gambia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 130; XHZD, p. 702)	6000142
 6000143	哥伦比亚	哥倫比亞	gēlúnbǐyà	Colombia	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	The Republic of Colombia (SDC, p. 206; XHZD, p. 707)	6000143
-6000144	加拿大	\N	jiānádà	Canada	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	Abbreviation is 加 (SDC, p. 176; XHZD, p. 705)	6000144
+6000144	艾省	\N	àishěng	Alberta	proper noun	地名	Place Name	地方	Places	加拿大	Canada	\N	\N	Province in Canada; abbreviation for 艾伯塔省 (Wikipedia '艾伯塔省')	6000144
 6000145	哥斯达黎加	哥斯達黎加	gēsīdálíjiā	Costa Rica	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	The Republic of Costa Rica (SDC, p. 190; XHZD, p. 706)	6000145
 6000146	圭亚那	圭亞那	guīyànà	Guyana	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	The Republic of Guyana (SDC, p. 210; XHZD, p. 707)	6000146
 6000147	海地	\N	hǎidì	Haiti	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	The Republic of Haiti (SDC, p. 195; XHZD, p. 706)	6000147
@@ -6703,3 +6703,5 @@
 6006703	米兰理工大学	米蘭理工大學	Mǐlán lǐgōng dàxué	Polytechnic University of Milan	proper noun	大学	University	教育	Education	欧洲	Europe	\N	\N	(Wikipedia '米蘭理工大學')	6006703
 6006704	怒涛	怒濤	nùtāo	Raging Waves	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	Book by 鍾肇政 Chung Chao-cheng (CC-CEDICT '怒濤'; Guoyu '怒濤'; Wikipedia '怒涛')	6006704
 6006705	锺肇政	鍾肇政	zhōng zhàozhèng	Chung Chao-cheng	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1925 - ; Taiwanese writer (Wikipedia '鍾肇政')	6006705
+6006706	亚省	\N	yàshěng	Alberta	proper noun	地名	Place Name	地方	Places	加拿大	Canada	\N	\N	Province in Canada; abbrevation for 艾伯塔省 (Wikipedia '艾伯塔省')	6006706
+6006707	阿省	\N	āshěng	Alberta	proper noun	地名	Place Name	地方	Places	加拿大	Canada	\N	\N	Province in Canada; abbrevation for 艾伯塔省 (Wikipedia '艾伯塔省')	6006707
