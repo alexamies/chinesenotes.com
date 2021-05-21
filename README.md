@@ -1,5 +1,5 @@
 # Chinese Notes Project
-## About the project
+
 Chinese-English dictionary and digital library of literary Chinese classic
 and historic texts for English speakers. It includes a framework that can be
 re-used for other corpora including a template system,
@@ -9,6 +9,8 @@ looking up the words in the texts by mouse over and popover by clicking on the
 words. Please join the low volume email group
 [chinesenotes-announce](https://groups.google.com/forum/#!forum/chinesenotes-announce)
 for announcements of new features and other updates.
+
+## About the project
 
 The software and dictionary powers several web sites with different corpora:
 
@@ -56,13 +58,17 @@ Consortium under a freely reusable license
 Republic of China Ministry of Education Standard Chinese Dictionary, also under a
 Creative Commons license
 
-## Installing the Chinese Notes web site
+## Developers
+
+This section explains building the Chinese Notes web site.
 
 ### Environment
+
 Installation instructions are for Debian.
 
-### Install git on the host and checkout the code base
-```
+Install git on the host and checkout the code base
+
+```shell
 git clone git://github.com/alexamies/chinesenotes.com
 
 cd chinesenotes.com
@@ -70,14 +76,18 @@ export CNREADER_HOME=`pwd`
 ```
 
 ### Go command line tool
+
 Generates markup for HTML page popovers
 
 Install go (see https://golang.org/doc/install)
 
 For more details on the corpus organization and command line tool to process
-it see corpus/CORPUS-README.md and go/src/cnreader/README-go.md. Basic use:
+it see corpus/CORPUS-README.md and 
+https://github.com/alexamies/cnreader
 
-```
+Basic use:
+
+```shell
 $ cd go/src/cnreader
 
 $ go build
@@ -98,10 +108,6 @@ $ ./cnreader -all
 
 /data/corpus
  - metadata files describing the structure of the corpus
-
-/go
- - source code for the command line tool for analysis of the corpus and
-   generation of HTML pages
 
 /html
  - raw HTML content minus headers, footers, menus, etc. This is the source
@@ -140,6 +146,7 @@ git clone https://github.com/alexamies/chinesenotes.com.git
 ```
 
 ### Install Docker
+
 [Docker Documentation](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
 
 Instance name: BUILD_VM
@@ -173,6 +180,7 @@ docker run hello-world
 ```
 
 ## Database
+
 For database setup see 
 https://github.com/alexamies/chinesenotes-go
 
@@ -184,6 +192,7 @@ bin/doc_list.sh
 ```
 
 ### Text Files for Full Text Search
+
 Copy the text files to an object store. If you prefer not to use GCS, then you
 can use the local file system on the application server. The instructions here
 are for GCS. See [Authenticating to Cloud Platform with Service
@@ -210,6 +219,7 @@ export GOOGLE_APPLICATION_CREDENTIALS=$PWD/credentials.json
 go get -u cloud.google.com/go/storage
 
 #### Make and Save Go Application Image
+
 The Go app is not needed for chinesenotes.com at the moment but it is use for
 other sites (eg. hbreader.org).
 
