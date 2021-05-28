@@ -6706,3 +6706,12 @@
 6006706	亚省	\N	yàshěng	Alberta	proper noun	地名	Place Name	地方	Places	加拿大	Canada	\N	\N	Province in Canada; abbrevation for 艾伯塔省 (Wikipedia '艾伯塔省')	6006706
 6006707	阿省	\N	āshěng	Alberta	proper noun	地名	Place Name	地方	Places	加拿大	Canada	\N	\N	Province in Canada; abbrevation for 艾伯塔省 (Wikipedia '艾伯塔省')	6006707
 6006708	红十字会	紅十字會	hóngshízìhuì	Red Cross	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '紅十字會')	6006708
+6006709	冯小刚	馮小剛	féng xiǎogāng	Feng Xiaogang	proper noun	导演	Director	戏剧	Drama	中国	China	\N	\N	1958 - ; Chinese film director and screenwriter (Wikipedia '冯小刚')	6006709
+6006710	中国共产主义青年团	中國共產主義青年團	Zhōngguó gòngchǎn zhǔyì qīngnián tuán	Communist Youth League of China	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	(CC-CEDICT '中國共產主義青年團'; Wikipedia '中国共产主义青年团')	6006710
+6006711	中国共青团	中國共青團	Zhōngguó gòng qīng tuán	Communist Youth League of China	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	See 中国共产主义青年团 (Wikipedia '中国共产主义青年团')	6006711
+6006712	共青团	共青團	Gòng Qīng Tuán	Communist Youth League of China	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	See 中国共产主义青年团 (Wikipedia '中国共产主义青年团')	6006712
+6006713	程小东	程小東	chéng xiǎodōng	Ching Siu-tung	proper noun	导演	Director	戏剧	Drama	中国	China	\N	\N	1953 -; Directed 白蛇传说之法海 'The Sorcerer and the White Snake' and other movies (Wikipedia '程小東')	6006713
+6006714	山谷	\N	shāngǔ	Shangu	proper noun	作者	Writer	文学	Literature	中国	China	\N	\N	1943-; writer from Jiangsu (Wikipedia '山谷 (作家)')	6006714
+6006715	尼米兹	尼米茲	nímǐzī	Nimitz	proper noun	航空母舰	Aircraft carrier	现代汉语	Modern Chinese	军事	Military	\N	ni2mi3zi1.mp3	As in USS Nimitz (CC-CEDICT '尼米茲')	6006715
+6006716	小鹰	小鷹	Xiǎoyīng	USS Kitty Hawk	proper noun	航空母舰	Aircraft carrier	军事	Military	\N	\N	\N	xiao3ying1.mp3	(CC-CEDICT '小鷹')	6006716
+6006717	达尔富尔	達爾富爾	Dáěrfùěr	Darfur	proper noun	地区	Area	地方	Places	苏丹	Sudan	\N	da2er3fu4er3.mp3	A region of far western Sudan (CC-CEDICT '達爾富爾')	6006717
