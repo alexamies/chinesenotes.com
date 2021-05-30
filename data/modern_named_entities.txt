@@ -6715,3 +6715,5 @@
 6006715	尼米兹	尼米茲	nímǐzī	Nimitz	proper noun	航空母舰	Aircraft carrier	现代汉语	Modern Chinese	军事	Military	\N	ni2mi3zi1.mp3	As in USS Nimitz (CC-CEDICT '尼米茲')	6006715
 6006716	小鹰	小鷹	Xiǎoyīng	USS Kitty Hawk	proper noun	航空母舰	Aircraft carrier	军事	Military	\N	\N	\N	xiao3ying1.mp3	(CC-CEDICT '小鷹')	6006716
 6006717	达尔富尔	達爾富爾	Dáěrfùěr	Darfur	proper noun	地区	Area	地方	Places	苏丹	Sudan	\N	da2er3fu4er3.mp3	A region of far western Sudan (CC-CEDICT '達爾富爾')	6006717
+6006718	本拉登	\N	Běn Lā Dēng	Osama bin Laden	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	(CC-CEDICT '本拉登'; Wikipedia '奥萨马·本·拉登')	6006718
+6006719	少先队	少先隊	Shàoxiān Duì	Young Pioneers	proper noun	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	Primary school league, a preparation for Communist Youth League (Wikipedia '先鋒運動')	6006719
