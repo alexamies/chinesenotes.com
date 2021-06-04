@@ -6699,7 +6699,7 @@
 6006699	胜利油田	\N	shènglì yóutián	Shengli Oil Field	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	(CC-CEDICT '胜利油田'; Guoyu '胜利油田'; Wikipedia '胜利油田')	6006699
 6006700	清华大学美术学院	清華大學美術學院	qīnghuá dàxué měishù xuéyuàn	Tsinghua University Academy of Arts and Design	proper noun	团体	Organization	艺术	Art	中国	China	\N	\N	(Baike '清华大学美术学院'; Wikipedia '清华大学美术学院')	6006700
 6006701	共和国勋章	共和國勛章	gònghéguó xūnzhāng	Order of the Republic [medal, China]	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '共和国勋章')	6006701
-6006702	秦二爷	秦二爺	Qín èr Yé	Qin Er Ye	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She, 2010)	6006702
+6006702	秦二爷	秦二爺	Qín èr Yé	Qin Er Ye	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006702
 6006703	米兰理工大学	米蘭理工大學	Mǐlán lǐgōng dàxué	Polytechnic University of Milan	proper noun	大学	University	教育	Education	欧洲	Europe	\N	\N	(Wikipedia '米蘭理工大學')	6006703
 6006704	怒涛	怒濤	nùtāo	Raging Waves	proper noun	书名	Book Title	文学	Literature	中国	China	\N	\N	Book by 鍾肇政 Chung Chao-cheng (CC-CEDICT '怒濤'; Guoyu '怒濤'; Wikipedia '怒涛')	6006704
 6006705	锺肇政	鍾肇政	zhōng zhàozhèng	Chung Chao-cheng	proper noun	作者	Author	文学	Literature	中国	China	\N	\N	1925 - ; Taiwanese writer (Wikipedia '鍾肇政')	6006705
@@ -6717,3 +6717,5 @@
 6006717	达尔富尔	達爾富爾	Dáěrfùěr	Darfur	proper noun	地区	Area	地方	Places	苏丹	Sudan	\N	da2er3fu4er3.mp3	A region of far western Sudan (CC-CEDICT '達爾富爾')	6006717
 6006718	本拉登	\N	Běn Lā Dēng	Osama bin Laden	proper noun	人	Person	政治	Politics	\N	\N	\N	\N	(CC-CEDICT '本拉登'; Wikipedia '奥萨马·本·拉登')	6006718
 6006719	少先队	少先隊	Shàoxiān Duì	Young Pioneers	proper noun	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	Primary school league, a preparation for Communist Youth League (Wikipedia '先鋒運動')	6006719
+6006720	温家宝	溫家寶	Wēn Jiābǎo	Wen Jiabao	proper noun	人	Person	政治	Politics	中国	China	\N	wen1jia1bao3.mp3	1942-; Chairman of CPC from 2007 to 2012 (CV '温家宝'; Wikipedia '温家宝')	6006720
+6006721	裕泰	\N	Yùtài	Yutai Teahouse	proper noun	\N	\N	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	The name of the teahouse in Teahouse by Lao She 老舍茶馆 (Lao She 2010, p. 11)	6006721
