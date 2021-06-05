@@ -6719,3 +6719,4 @@
 6006719	少先队	少先隊	Shàoxiān Duì	Young Pioneers	proper noun	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	Primary school league, a preparation for Communist Youth League (Wikipedia '先鋒運動')	6006719
 6006720	温家宝	溫家寶	Wēn Jiābǎo	Wen Jiabao	proper noun	人	Person	政治	Politics	中国	China	\N	wen1jia1bao3.mp3	1942-; Chairman of CPC from 2007 to 2012 (CV '温家宝'; Wikipedia '温家宝')	6006720
 6006721	裕泰	\N	Yùtài	Yutai Teahouse	proper noun	\N	\N	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	The name of the teahouse in Teahouse by Lao She 老舍茶馆 (Lao She 2010, p. 11)	6006721
+6006722	中央美术学院	中央美術學院	Zhōngyāng Měishù Xuéyuàn	Chinese Central Academy of Fine Arts	proper noun	\N	\N	艺术	Art	中国	China	\N	\N	(Wikipedia '中央美术学院)	6006722
