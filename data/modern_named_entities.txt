@@ -6720,3 +6720,25 @@
 6006720	温家宝	溫家寶	Wēn Jiābǎo	Wen Jiabao	proper noun	人	Person	政治	Politics	中国	China	\N	wen1jia1bao3.mp3	1942-; Chairman of CPC from 2007 to 2012 (CV '温家宝'; Wikipedia '温家宝')	6006720
 6006721	裕泰	\N	Yùtài	Yutai Teahouse	proper noun	\N	\N	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	The name of the teahouse in Teahouse by Lao She 老舍茶馆 (Lao She 2010, p. 11)	6006721
 6006722	中央美术学院	中央美術學院	Zhōngyāng Měishù Xuéyuàn	Chinese Central Academy of Fine Arts	proper noun	\N	\N	艺术	Art	中国	China	\N	\N	(Wikipedia '中央美术学院)	6006722
+6006723	招商银行	招商銀行	zhāoshāng yínháng	Zhaoshang Bank	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	zhao1shang1yin2hang2.mp3	(Wikipedia '招商銀行')	6006723
+6006724	央行	\N	yāng háng	People's Bank of China	proper noun	银行	Bank	政府	Government	\N	\N	\N	yang1hang2.mp3	An abbreviation of 中国人民银行 (CC-CEDICT '央行')	6006724
+6006725	亚洲开发银行	亞洲開發銀行	Yàzhōu Kāifā Yínháng	Asia Development Bank	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	\N	(Wikipedia '亞洲開發銀行')	6006725
+6006726	上海浦东发展银行	上海浦東發展銀行	shànghǎi pǔdōng fāzhǎn yínháng	Shanghai Pudong Development Bank	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	shang4hai3pu3dong1fa1zhan3yin2hang2.mp3	(CC-CEDICT '上海浦東發展銀行')	6006726
+6006727	世行	\N	shì háng	World Bank	proper noun	银行	Bank	现代汉语	Modern Chinese	政府	Government	\N	\N	Abbreviation for 世界银行 (CC-CEDICT '世行')	6006727
+6006728	汇丰	匯豐	huìfēng	Hong Kong and Shanghai Banking Corporation (HSBC)	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '匯豐')	6006728
+6006729	陈水扁	陳水扁	Chén Shuǐbiǎn	Chen Shuibian	proper noun	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	President of Republic of China from 2000 (CC-CEDICT '陳水扁'; Guoyu '陳水扁'; Wikipedia '陳水扁')	6006729
+6006730	美国联邦储备	美國聯邦儲備	Měiguó Liánbāng Chǔbèi	US Federal Reserve (Fed)	proper noun	银行	Bank	政府	Government	美国	United States	\N	\N	(CC-CEDICT '美國聯邦儲備')	6006730
+6006731	美联储	美聯儲	Měi Lián Chǔ	US Federal Reserve (Fed)	proper noun	银行	Bank	政府	Government	美国	United States	\N	\N	Abbreviation for 美国联邦储备 US Federal Reserve (CC-CEDICT '美聯儲')	6006731
+6006732	中国人民银行	中國人民銀行	Zhōngguó Rénmín Yínháng	People's Bank of China	proper noun	银行	Bank	政府	Government	中国	China	\N	\N	The PRC central bank, abbreviation is 央行 (Wikipedia '中國人民銀行')	6006732
+6006733	亚行	亞行	Yà Háng	Asia Development Bank	proper noun	银行	Bank	政府	Government	\N	\N	\N	\N	An abbreviation for 亚洲开发银行 (Wikipedia '亞洲開發銀行')	6006733
+6006734	工行	\N	gōng háng	ICBC (Industrial and Commercial Bank of China)	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	\N	(Wikipedia '中国工商银行')	6006734
+6006735	工商银行	工商銀行	Gōngshāng Yínháng	ICBC (Industrial and Commercial Bank of China)	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	\N	(Wikipedia '中国工商银行')	6006735
+6006736	中国银行	中國銀行	zhōngguó yínháng	Bank of China	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Split from the 中国人民银行 People's Bank of China in 1979 (Sullivan and Hearst 1997, 'BANK OF CHINA'; Wikipedia '中国银行')	6006736
+6006737	全国人民代表大会	全國人民代表大會	quánguó rénmín dàibiǎo dàhuì	National People's Congress (NPC)	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	The highest government body in the PRC (Sullivan and Hearst 1997, 'NATIONAL PEOPLE'S CONGRESS'; Wikipedia '全国人民代表大会')	6006737
+6006738	中行	\N	zhōng háng	Bank of China	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	\N	Abbr. for 中国银行 (CC-CEDICT '中行')	6006738
+6006739	中央银行	中央銀行	zhōngyāng yínháng	central bank	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '中央銀行')	6006739
+6006740	商业银行	商業銀行	shāngyè yínháng	Commercial Bank	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '商業銀行')	6006740
+6006741	人民银行	人民銀行	rénmín yínháng	People's Bank of China	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '人民銀行')	6006741
+6006742	世界银行	世界銀行	shìjiè yínháng	World Bank	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '世界銀行')	6006742
+6006743	日本银行	日本銀行	rìběn yínháng	Bank of Japan	proper noun	银行	Bank	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '日本銀行')	6006743
+6006744	建行	\N	jiànxíng	China Construction Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '建行')	6006744
