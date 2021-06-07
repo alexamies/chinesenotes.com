@@ -6742,3 +6742,21 @@
 6006742	世界银行	世界銀行	shìjiè yínháng	World Bank	proper noun	银行	Bank	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '世界銀行')	6006742
 6006743	日本银行	日本銀行	rìběn yínháng	Bank of Japan	proper noun	银行	Bank	商务	Commerce	日本	Japan	\N	\N	(CC-CEDICT '日本銀行')	6006743
 6006744	建行	\N	jiànxíng	China Construction Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '建行')	6006744
+6006745	小宋恩子	\N	Xiǎo Sòng Ēnzǐ	Xiao Song Enzi	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006745
+6006746	小吴祥子	小吳祥子	Xiǎo Wú Xiángzǐ	Xiao Wu Xiangzi	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006746
+6006747	王利发	王利發	Wáng lìfà	Wang Lifa	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006747
+6006748	唐铁嘴	唐鐵嘴	Táng Tiězuǐ	Tang Tiezui	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006748
+6006749	马五爷	馬五爺	Mǎ Wǔyé	Ma Wuye	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006749
+6006750	刘麻子	劉麻子	Liú Mázǐ	Liu Mazi	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006750
+6006751	黄胖子	黃胖子	Huáng Pàngzǐ	Huang Pangzi	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006751
+6006752	秦仲义	秦仲義	Qín Zhòngyì	Qin Zhongyi	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006752
+6006753	小牛儿	小牛兒	Xiǎo Niúr	Xiao Niur	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006753
+6006754	宋恩子	\N	Sòng Ēnzǐ	Song Enzi	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006754
+6006755	吴祥子	吳祥子	Wú Xiángzǐ	Wu Xiangzi	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006755
+6006756	康顺子	康順子	Kāng Shùnzǐ	Kang Shunzi	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006756
+6006757	王淑芬	\N	Wáng Shūfēn	Wang Shufen	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006757
+6006758	康大力	\N	Kāng Dàlì	Kang Dali	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006758
+6006759	崔久峰	\N	Cuī Jiǔfēng	Cui Jiufeng	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006759
+6006760	王大拴	\N	Wáng Dàshuān	Wang Dashuan	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006760
+6006761	周秀花	週秀花	Zhōu Xiùhuā	Zhou Xiuhua	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006761
+6006762	大拴	\N	Dàshuān	Dashuan; Wang Dashuan	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006762
