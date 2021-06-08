@@ -6760,3 +6760,19 @@
 6006760	王大拴	\N	Wáng Dàshuān	Wang Dashuan	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006760
 6006761	周秀花	週秀花	Zhōu Xiùhuā	Zhou Xiuhua	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006761
 6006762	大拴	\N	Dàshuān	Dashuan; Wang Dashuan	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006762
+6006763	王小花	\N	Wáng Xiǎohuā	Wang Xiaohua	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006763
+6006764	邹福远	鄒福遠	Zōu Fúyuǎn	Zou Fuyuan	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006764
+6006765	卫福喜	衛福喜	Wèi Fúxǐ	Wei Fuxi	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao (Lao She 2010) She	6006765
+6006766	二德子	\N	èr Dézǐ	Er Dezi	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006766
+6006767	车当当	車當當	Chē Dāngdāng	Che Dangdang	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006767
+6006768	于厚斋	于厚齋	yú Hòuzhāi	Yu Houzhai	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006768
+6006769	谢志勇	謝誌勇	Xiè Zhìyǒng	Xie Zhiyong	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006769
+6006770	沈处长	瀋處長	Shěn Chù Zhǎng	Shen Chu Zhang	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006770
+6006771	松二爷	鬆二爺	Sōng èr Yé	Song Er Ye	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006771
+6006772	常四爷	常四爺	Cháng Sì Yé	Chang Si Ye	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006772
+6006773	康六	\N	Kāng Liù	Kang Liu	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006773
+6006774	李三	\N	Lǐ Sān	Li San	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006774
+6006775	刘爷	劉爺	Liú Yé	Li Ye	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006775
+6006776	刘大爷	劉大爺	Liú Dàyé	Liu Daye	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006776
+6006777	庞太监	龐太監	Páng Tàijiàn	Eunuch Pang	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006777
+6006778	王大栓	\N	Wáng Dàshuān	Wang Dashuan	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006778
