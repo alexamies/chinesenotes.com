@@ -6777,3 +6777,4 @@
 6006777	庞太监	龐太監	Páng Tàijiàn	Eunuch Pang	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006777
 6006778	王大栓	\N	Wáng Dàshuān	Wang Dashuan	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006778
 6006779	世界卫生组织	世界衛生組織	Shìjiè Wèishēng Zǔzhī	World Health Organization (WHO)	proper noun	组织	Organization	现代汉语	Modern Chinese	政府	Government	\N	\N	(CC-CEDICT '世界衛生組織'; Sun 2006, loc. 1608)	6006779
+6006780	洲际大酒店	洲際大酒店	Zhōujì Dà Jiǔdiàn	The Intercontinental Hotel	proper noun	饭店	Hotel	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '洲際酒店及度假村')	6006780
