@@ -88,11 +88,7 @@ https://github.com/alexamies/cnreader
 Basic use:
 
 ```shell
-$ cd go/src/cnreader
-
-$ go build
-
-$ ./cnreader -all
+bin/cnreader.sh
 ```
 
 ### Project Organization
@@ -294,7 +290,7 @@ gcloud builds submit --config cloudbuild.yaml . \
 Check that the expected image has been added with the command
 
 ```shell
-gcloud container images list-tags gcr.io/$PROJECT_ID/nti-image
+gcloud container images list-tags gcr.io/$PROJECT_ID/cn-app-image
 ```
 
 ### Web Front End

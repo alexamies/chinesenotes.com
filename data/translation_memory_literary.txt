@@ -129,7 +129,7 @@
 3000129	车营	車營	chē yíng	carriage encampment	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 宋書·卷五十九  “Book of Song”, volume 59 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65)	3000129
 3000130	外翼	\N	wài yì	outermost wings	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 宋書·卷五十九  “Book of Song”, volume 59 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65)	3000130
 3000131	南伐	\N	nán fá	southward campaign	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 魏書·卷五三  “Book of Wei”, volume 53 (Amies 2021 tr.; see also tr. in Dien 2014, p. 64)	3000131
-3000132	步骑	步騎	bù qí	horse and foot troops	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 魏書·卷五三  “Book of Wei”, volume 53 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65)	3000132
+3000132	步骑	步騎	bù qí	horse and foot troops	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 魏書·卷五三  “Book of Wei”, volume 53 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65; Guoyu '步騎')	3000132
 3000133	万余	萬餘	wàn yú	over ten thousand	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 魏書·卷五三  “Book of Wei”, volume 53 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65)	3000133
 3000134	前军	前軍	qián jūn	forward army	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 魏書·卷五三  “Book of Wei”, volume 53 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65)	3000134
 3000135	率众	率眾	lǜ zhòng	to lead a mass	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 魏書·卷五三  “Book of Wei”, volume 53 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65)	3000135
@@ -1249,3 +1249,5 @@
 3001249	愚者不及	\N	yú zhě bù jí	a fool is not sufficient	set phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '愚者不及', p. 61)	3001249
 3001250	殆哉圾乎	\N	dàizāijīhū	very dangerous	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Chapter 天地 Heaven and Earth in 莊子 “Zhuang Zi” (Amies 2021 tr.; Mathews 1931, p. 61)	3001250
 3001251	汲引高风	汲引高風	jí yǐn gāo fēng	to imitate a person of lofty character	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '汲引高風', p. 62)	3001251
+3001252	加害行为	加害行為	jiāhài xíngwéi	dangerous behavior	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '加害行為', p. 77)	3001252
+3001253	应门将将	應門將將	yīngmén qiāngqiāng	the palace gate was imposing	phrase	\N	\N	文言文	Literary Chinese	军事	Military	\N	\N	Quote: from 詩經·大雅·綿 Book of Songs, Greater Odes, Mian (Guoyu '應門將將'; Mathews 1931 '應門將將', p. 90)	3001252
