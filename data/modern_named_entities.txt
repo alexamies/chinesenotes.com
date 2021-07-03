@@ -6778,3 +6778,7 @@
 6006778	王大栓	\N	Wáng Dàshuān	Wang Dashuan	proper noun	人物	Character	文学	Literature	老舍茶馆	Teahouse by Lao She	\N	\N	A character in Teahouse by Lao She (Lao She 2010)	6006778
 6006779	世界卫生组织	世界衛生組織	Shìjiè Wèishēng Zǔzhī	World Health Organization (WHO)	proper noun	组织	Organization	现代汉语	Modern Chinese	政府	Government	\N	\N	(CC-CEDICT '世界衛生組織'; Sun 2006, loc. 1608)	6006779
 6006780	洲际大酒店	洲際大酒店	Zhōujì Dà Jiǔdiàn	The Intercontinental Hotel	proper noun	饭店	Hotel	地方	Places	\N	\N	\N	\N	(Wikipedia '洲際酒店及度假村')	6006780
+6006781	爱国奖券	愛國獎券	àiguó jiǎngquàn	State Lottery	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Previously run in Taiwan (Guoyu '愛國獎券'; Wikipedia '愛國獎券')	6006781
+6006782	中山文艺奖	中山文藝獎	zhōngshān wényì jiǎng	Sun Yat-sen Award for Literature and Arts	proper noun	\N	\N	文学	Literature	\N	\N	\N	\N	(Guoyu '中山文藝獎'; Wikipedia '中山文藝獎')	6006782
+6006783	中旅	\N	Zhōng Lǚ	China Travel Service (CST)	proper noun	\N	\N	现代汉语	Modern Chinese	旅游	Tourism	\N	\N	(Wikipedia '中國旅遊集團')	6006783
+6006784	中国旅行社	中國旅行社	Zhōngguó Lǚxíngshè	China Travel Service (CST)	proper noun	\N	\N	现代汉语	Modern Chinese	旅游	Tourism	\N	\N	(Wikipedia '中國旅遊集團')	6006784
