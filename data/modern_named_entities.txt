@@ -6782,3 +6782,4 @@
 6006782	中山文艺奖	中山文藝獎	zhōngshān wényì jiǎng	Sun Yat-sen Award for Literature and Arts	proper noun	\N	\N	文学	Literature	\N	\N	\N	\N	(Guoyu '中山文藝獎'; Wikipedia '中山文藝獎')	6006782
 6006783	中旅	\N	Zhōng Lǚ	China Travel Service (CST)	proper noun	\N	\N	现代汉语	Modern Chinese	旅游	Tourism	\N	\N	(Wikipedia '中國旅遊集團')	6006783
 6006784	中国旅行社	中國旅行社	Zhōngguó Lǚxíngshè	China Travel Service (CST)	proper noun	\N	\N	现代汉语	Modern Chinese	旅游	Tourism	\N	\N	(Wikipedia '中國旅遊集團')	6006784
+6006785	国家发展改革委	國家發展改革委	Guójiā Fāzhǎn Gǎigé Wěi	China National Development and Reform Commission	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	(Wikipedia '中华人民共和国国家发展和改革委员会')	6006785
