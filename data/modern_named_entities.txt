@@ -6783,3 +6783,5 @@
 6006783	中旅	\N	Zhōng Lǚ	China Travel Service (CST)	proper noun	\N	\N	现代汉语	Modern Chinese	旅游	Tourism	\N	\N	(Wikipedia '中國旅遊集團')	6006783
 6006784	中国旅行社	中國旅行社	Zhōngguó Lǚxíngshè	China Travel Service (CST)	proper noun	\N	\N	现代汉语	Modern Chinese	旅游	Tourism	\N	\N	(Wikipedia '中國旅遊集團')	6006784
 6006785	国家发展改革委	國家發展改革委	Guójiā Fāzhǎn Gǎigé Wěi	China National Development and Reform Commission	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	(Wikipedia '中华人民共和国国家发展和改革委员会')	6006785
+6006786	光大	\N	Guāng Dà	China Everbright Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Abbreviation for 中国光大银行 (Wikipedia '中国光大银行')	6006786
+27435	中国光大银行	中國光大銀行	Guāng Dà	China Everbright Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Abbreviation is 光大 (Wikipedia '中国光大银行')	27435
