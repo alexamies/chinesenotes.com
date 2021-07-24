@@ -409,3 +409,6 @@
 5000409	主要人物	\N	zhǔyào rénwù	an important figure	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '支柱')	5000409
 5000410	急遽无序	急遽無序	jíjù wúxù	sudden disorder	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '急遽無序', p. 63)	5000410
 5000411	中流社会	中流社會	zhōngliú shèhuì	mainstream society	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '中流')	5000411
+5000412	东方红，太阳升	東方紅，太陽升	dōngfāng hóng tàiyáng shēng	The east is red, the sun is rising.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: opening line line in the song 东方红 The East Is Red (Wikipedia '东方红 (歌曲)')	5000412
+5000413	为了建设新中国	為了建設新中國	wèi le jiànshè Xīn Zhōngguó	to build a new China	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: a line line in the song 东方红 The East Is Red (Wikipedia '东方红 (歌曲)')	5000413
+5000414	共产党像太阳	共產黨像太陽	Gòng Chǎn Dǎng xiàng tàiyáng	the Communist Party is like the sun	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N		Quote: a line line in the song 东方红 The East Is Red (Wikipedia '东方红 (歌曲)')	5000414
