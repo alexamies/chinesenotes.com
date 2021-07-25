@@ -432,3 +432,15 @@
 5000432	思想问题	思想問題	sīxiǎng wèntí	ideological issue	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 104-105)	5000432
 5000433	错误思想	錯誤思想	cuòwù sīxiǎng	wrong idea	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 104-105)	5000433
 5000434	错误思想到处泛滥	錯誤思想到處泛濫	cuòwù sīxiǎng dàochù fànlàn	wrong ideas spreading unchecked everywhere	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 104-105)	5000434
+5000435	暂时的现象	暫時的現象	zhànshí de xiànxiàng	a temporary phenomenon	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 108-109)	5000435
+5000436	人剥削人	人剝削人	rén bōxuē rén	exploit of people by other people	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 108-109)	5000436
+5000437	妥协性	妥協性	tuǒxiéxìng	conciliatory nature	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 108-109)	5000437
+5000438	剥削工人阶级	剝削工人階級	bōxuē gōngrén jiējí	exploit the working class	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 110-111)	5000438
+5000439	和平的方法	\N	hépíng de fāngfǎ	peaceful means	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 110-111)	5000439
+5000440	政治集团	政治集團	zhèngzhì jítuán	political group	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 114-115)	5000440
+5000441	非正义的战争	非正義的戰爭	fēizhèngyì de zhànzhēng	unjust war	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 116-117)	5000441
+5000442	发展的飞跃	發展的飛躍	fāzhǎn de fēiyuè	leap in development	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 118-119)	5000442
+5000443	枪杆子里面出政权	槍桿子裡面出政權	qiāng gānzi lǐmiàn chū zhèngquán	political power comes from the barrel of a gun	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 120-121)	5000443
+5000444	武装夺取政权	武裝奪取政權	wǔzhuāng duóqǔ zhèngquán	sieze political power by armed force	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 120-121)	5000444
+5000445	武装斗争	武裝鬥爭	wǔzhuāng dòuzhēng	armed struggle	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 122-123)	5000445
+5000446	永久和平的世代	\N	yǒngjiǔ hépíng de shìdài	an era of enduring peace	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 126-127)	5000446
