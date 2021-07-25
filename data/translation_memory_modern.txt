@@ -411,4 +411,24 @@
 5000411	中流社会	中流社會	zhōngliú shèhuì	mainstream society	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '中流')	5000411
 5000412	东方红，太阳升	東方紅，太陽升	dōngfāng hóng tàiyáng shēng	The east is red, the sun is rising.	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: opening line line in the song 东方红 The East Is Red (Wikipedia '东方红 (歌曲)')	5000412
 5000413	为了建设新中国	為了建設新中國	wèi le jiànshè Xīn Zhōngguó	to build a new China	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: a line line in the song 东方红 The East Is Red (Wikipedia '东方红 (歌曲)')	5000413
-5000414	共产党像太阳	共產黨像太陽	Gòng Chǎn Dǎng xiàng tàiyáng	the Communist Party is like the sun	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N		Quote: a line line in the song 东方红 The East Is Red (Wikipedia '东方红 (歌曲)')	5000414
+5000414	共产党像太阳	共產黨像太陽	Gòng Chǎn Dǎng xiàng tàiyáng	the Communist Party is like the sun	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: a line line in the song 东方红 The East Is Red (Wikipedia '东方红 (歌曲)')	5000414
+5000415	免除官僚主义	免除官僚主義	miǎnchú guānliáo zhǔyì	avoid bureaucracy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 78-79)	5000415
+5000416	避免修正主义	避免修正主義	bìmiǎn xiūzhèng zhǔyì	free from revisionism	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 78-79)	5000416
+5000417	互相勾结	互相勾結	hùxiāng gōujié	to colude together	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 78-79)	5000417
+5000418	社会矛盾	社會矛盾	shèhuì máodùn	social contradiction	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 88-89)	5000418
+5000419	弄清楚	\N	nòng qīngchu	make clear	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 88-89)	5000419
+5000420	人民的敌人	人民的敵人	rénmín de dírén	enemy of the people	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 90-91)	5000420
+5000421	集体利益	集體利益	jítǐ lìyì	collective interest	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 92-93)	5000421
+5000422	个人利益	個人利益	gèrén lìyì	individual interest	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 92-93)	5000422
+5000423	被剥削阶级	被剝削階級	bèi bōxuē jiējí	exploited class	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 92-93)	5000423
+5000424	宪法的原则	憲法的原則	xiànfǎ de yuánzé	principles of the constitution	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 94-95)	5000424
+5000425	政治主张	政治主張	zhèngzhìzhǔzhāng	political viewpoint	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 94-95)	5000425
+5000426	巩固共产党的领导	鞏固共產黨的領導	gǒnggù gòngchǎn dǎng de lǐngdǎo	consolidate the leadership of the Communist Party	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 94-95)	5000426
+5000427	人民大众	人民大眾	rénmín dàzhòng	masses of the people	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 94-95)	5000427
+5000428	是非问题	是非問題	shìfēi wèntí	a question of right and wrong	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 100-101)	5000428
+5000429	争论问题	爭論問題	zhēnglùn wèntí	a controversial question	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 102-103)	5000429
+5000430	维持社会秩序	維持社會秩序	wéichí shèhuì zhìxù	maintain social order	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 102-103)	5000430
+5000431	政治问题	政治問題	zhèngzhì wèntí	political issue	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 104-105)	5000431
+5000432	思想问题	思想問題	sīxiǎng wèntí	ideological issue	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 104-105)	5000432
+5000433	错误思想	錯誤思想	cuòwù sīxiǎng	wrong idea	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 104-105)	5000433
+5000434	错误思想到处泛滥	錯誤思想到處泛濫	cuòwù sīxiǎng dàochù fànlàn	wrong ideas spreading unchecked everywhere	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 104-105)	5000434
