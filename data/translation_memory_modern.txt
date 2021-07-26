@@ -444,3 +444,10 @@
 5000444	武装夺取政权	武裝奪取政權	wǔzhuāng duóqǔ zhèngquán	sieze political power by armed force	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 120-121)	5000444
 5000445	武装斗争	武裝鬥爭	wǔzhuāng dòuzhēng	armed struggle	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 122-123)	5000445
 5000446	永久和平的世代	\N	yǒngjiǔ hépíng de shìdài	an era of enduring peace	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 126-127)	5000446
+5000447	帝国主义分子	帝國主義分子	dìguó zhǔyì fènzǐ	imperialist	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 134-135)	5000447
+5000448	帝国主义分子及其走狗	帝國主義分子及其走狗	dìguó zhǔyì fènzǐ jí qí zǒugǒu	imperialists and their lackeys	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 134-135)	5000448
+5000449	疯狂的报复阴谋	瘋狂的報復陰謀	fēngkuáng de bàofù yīnmóu	insane plot for revenge	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 134-135)	5000449
+5000450	互相勾结在一起	互相勾結在一起	hùxiāng gōujié zài yìqǐ	collude together	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 136-137)	5000450
+5000451	一切反动派都是纸老虎	一切反動派都是紙老虎	yīqiè fǎndòng pài dōu shì zhǐ lǎohǔ	all reactionaries are paper tigers	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 140-141)	5000451
+5000452	奴隶主阶级	奴隸主階級	núlì zhǔ jiējí	slave-owning class	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 140-141)	5000452
+5000453	奴隶阶级	奴隸階級	núlì jiējí	slave class	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 142-143)	5000453
