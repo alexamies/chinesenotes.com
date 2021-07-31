@@ -451,3 +451,7 @@
 5000451	一切反动派都是纸老虎	一切反動派都是紙老虎	yīqiè fǎndòng pài dōu shì zhǐ lǎohǔ	all reactionaries are paper tigers	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 140-141)	5000451
 5000452	奴隶主阶级	奴隸主階級	núlì zhǔ jiējí	slave-owning class	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 140-141)	5000452
 5000453	奴隶阶级	奴隸階級	núlì jiējí	slave class	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 142-143)	5000453
+5000454	脖子上的绞索	脖子上的絞索	bózi shàng de jiǎosuǒ	a noose around the neck	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 148-149)	5000454
+5000455	美国帮凶	美國幫凶	měiguó bāngxiōng	United States' accomplices	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 151-153)	5000455
+5000456	新的转折点	新的轉折點	xīn de zhuǎnzhé diǎn	new turning point	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 156-157)	5000456
+5000457	全世界人民团结起来	全世界人民團結起來	quán shìjiè rénmín tuánjié qǐlai	people of the world unite	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 158-159)	5000457
