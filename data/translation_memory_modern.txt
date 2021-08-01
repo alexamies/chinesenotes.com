@@ -460,3 +460,5 @@
 5000460	歼灭敌人	殲滅敌人	jiānmiè dírén	wipe out the enemy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 182-183)	5000460
 5000461	得失相当的消耗战	得失相當的消耗戰	dé shī xiāngdāng de xiāohào zhàn	gains equal to losses in a war of attrition	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 184-185)	5000461
 5000462	保证了战役的胜利	保證了戰役的勝利	bǎozhèng le zhànyì de shènglì	ensure victory in a military campaign	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 186-187)	5000462
+5000463	力戒骄傲	力戒驕傲	lìjiè jiāo'ào	guard against pride	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 218-219)	5000463
+5000464	反对官僚主义	反對官僚主義	fǎnduìguānliáozhǔyì	oppose bureaucracy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 220-221)	5000464
