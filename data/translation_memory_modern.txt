@@ -455,3 +455,8 @@
 5000455	美国帮凶	美國幫凶	měiguó bāngxiōng	United States' accomplices	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 151-153)	5000455
 5000456	新的转折点	新的轉折點	xīn de zhuǎnzhé diǎn	new turning point	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 156-157)	5000456
 5000457	全世界人民团结起来	全世界人民團結起來	quán shìjiè rénmín tuánjié qǐlai	people of the world unite	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 158-159)	5000457
+5000458	被压迫人民	被壓迫人民	bèi yāpò rénmín	the oppressed people	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 166-167)	5000458
+5000459	勇敢牺牲	勇敢犧牲	yǒnggǎn xīshēng	heroic sacrifice	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 180-181)	5000459
+5000460	歼灭敌人	殲滅敌人	jiānmiè dírén	wipe out the enemy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 182-183)	5000460
+5000461	得失相当的消耗战	得失相當的消耗戰	dé shī xiāngdāng de xiāohào zhàn	gains equal to losses in a war of attrition	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 184-185)	5000461
+5000462	保证了战役的胜利	保證了戰役的勝利	bǎozhèng le zhànyì de shènglì	ensure victory in a military campaign	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 186-187)	5000462
