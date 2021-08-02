@@ -462,3 +462,6 @@
 5000462	保证了战役的胜利	保證了戰役的勝利	bǎozhèng le zhànyì de shènglì	ensure victory in a military campaign	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 186-187)	5000462
 5000463	力戒骄傲	力戒驕傲	lìjiè jiāo'ào	guard against pride	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 218-219)	5000463
 5000464	反对官僚主义	反對官僚主義	fǎnduìguānliáozhǔyì	oppose bureaucracy	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 220-221)	5000464
+5000465	革命要依靠人民群众	革命要依靠人民群眾	gémìng yào yīkào rénmín qúnzhòng	the revolution must rely on the masses	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 234-235)	5000465
+5000466	脱离群众	脫離群眾	tuōlí qúnzhòng	alienated from the masses	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 238-239)	5000466
+5000467	右倾机会主义	右傾機會主義	yòuqīng jīhuì zhǔyì	right wing opportunism	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 242-243)	5000467
