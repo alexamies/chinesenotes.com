@@ -2403,7 +2403,7 @@
 6002403	八大工业国组织	八大工業國組織	bā dà gōngyèguó zǔzhī	G8 (group of eight major industrialized nations)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '八大工業國組織')	6002403
 6002404	八宝山革命公墓	八寶山革命公墓	bābǎoshān gémìng gōngmù	Mt Babao Revolutionary Cemetery	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	In Haidian District of Beijing (CC-CEDICT '八寶山革命公墓')	6002404
 6002405	八荣八耻	八榮八恥	bā róng bā chǐ	Eight Honors and Eight Shames, PRC official moral guidelines	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '八榮八恥')	6002405
-6002406	八路军	八路軍	Bā Lùjūn	Eighth Route Army, the larger of the two major Chinese communist forces fighting the Japanese in the Second Sino-Japanese War	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	1937-1945 (CC-CEDICT '八路軍')	6002406
+6002406	八路军	八路軍	Bā Lùjūn	Eighth Route Army, the larger of the two major Chinese communist forces fighting the Japanese in the Second Sino-Japanese War	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	1937-1945; forerunner of the 中国人民解放军 Chinese People's Liberation Army (CC-CEDICT '八路軍'; Guoyu '八路軍'; Wikipedia '八路军')	6002406
 6002407	公仔面	公仔麵	gōngzǐmiàn	brand  instant noodles / also used as term for instant noodles in general	noun	产品	Product	商务	Commerce	中国	China	\N	\N	(CC-CEDICT '公仔麵')	6002407
 6002408	公民权利和政治权利国际公约	公民權利和政治權利國際公約	gōngmín quánlì hézhèng zhì quánlì guójì gōngyuē	International Covenant on Civil and Political Rights (ICCPR)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '公民權利和政治權利國際公約')	6002408
 6002409	共产国际	共產國際	gòngchǎn guójì	Communist International or Comintern	proper noun	\N	\N	政府	Government	\N	\N	\N	\N	1919-1943; Also known as the Third International 第三国际 (CC-CEDICT '共產國際')	6002409
@@ -6786,3 +6786,4 @@
 6006786	光大	\N	Guāng Dà	China Everbright Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Abbreviation for 中国光大银行 (Wikipedia '中国光大银行')	6006786
 6006787	中国光大银行	中國光大銀行	Guāng Dà	China Everbright Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Abbreviation is 光大 (Wikipedia '中国光大银行')	6006787
 6006788	东方红	東方紅	dōng fāng hóng	The East is Red	proper noun	歌曲	Song	音乐	Music	中国	China	\N	\N	Revolutionary song, adapted from a Shaanxi folk song (CC-CEDICT '東方紅'; Wikipedia '东方红 (歌曲)')	6006788
+6006789	苏区	蘇區	sū qū	Soviet Zone	proper noun	\N	\N	历史	History	中国	China	\N	\N	Communist-controlled China in the period 1927–1949 (Wikipedia '蘇區')	6006789
