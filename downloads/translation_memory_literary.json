@@ -129,7 +129,7 @@
 {"s":"车营","t":"車營","p":"chē yíng","fp":"cheying","e": "carriage encampment","g":"phrase","n":"Collocation: from 宋書·卷五十九  “Book of Song”, volume 59 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65)","luid":3000129,"h":3000129},
 {"s":"外翼","p":"wài yì","fp":"waiyi","e": "outermost wings","g":"phrase","n":"Collocation: from 宋書·卷五十九  “Book of Song”, volume 59 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65)","luid":3000130,"h":3000130},
 {"s":"南伐","p":"nán fá","fp":"nanfa","e": "southward campaign","g":"phrase","n":"Quote: from 魏書·卷五三  “Book of Wei”, volume 53 (Amies 2021 tr.; see also tr. in Dien 2014, p. 64)","luid":3000131,"h":3000131},
-{"s":"步骑","t":"步騎","p":"bù qí","fp":"buqi","e": "horse and foot troops","g":"phrase","n":"Quote: from 魏書·卷五三  “Book of Wei”, volume 53 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65)","luid":3000132,"h":3000132},
+{"s":"步骑","t":"步騎","p":"bù qí","fp":"buqi","e": "horse and foot troops","g":"phrase","n":"Collocation: from 魏書·卷五三  “Book of Wei”, volume 53 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65; Guoyu '步騎')","luid":3000132,"h":3000132},
 {"s":"万余","t":"萬餘","p":"wàn yú","fp":"wanyu","e": "over ten thousand","g":"phrase","n":"Collocation: from 魏書·卷五三  “Book of Wei”, volume 53 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65)","luid":3000133,"h":3000133},
 {"s":"前军","t":"前軍","p":"qián jūn","fp":"qianjun","e": "forward army","g":"phrase","n":"Quote: from 魏書·卷五三  “Book of Wei”, volume 53 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65)","luid":3000134,"h":3000134},
 {"s":"率众","t":"率眾","p":"lǜ zhòng","fp":"lǜzhong","e": "to lead a mass","g":"phrase","n":"Collocation: from 魏書·卷五三  “Book of Wei”, volume 53 (Amies 2021 tr.; see also tr. in Dien 2014, p. 65)","luid":3000135,"h":3000135},
@@ -1248,4 +1248,6 @@
 {"s":"赍赐","t":"齎賜","p":"jī cì","fp":"jici","e": "to grant / to bestow","g":"phrase","n":"(Reworded from Mathews 1931 '齎賜', p. 61)","luid":3001248,"h":3001248},
 {"s":"愚者不及","p":"yú zhě bù jí","fp":"yuzhebuji","e": "a fool is not sufficient","g":"set phrase","n":"(Reworded from Mathews 1931 '愚者不及', p. 61)","luid":3001249,"h":3001249},
 {"s":"殆哉圾乎","p":"dàizāijīhū","fp":"daizaijihu","e": "very dangerous","g":"phrase","n":"Quote: from Chapter 天地 Heaven and Earth in 莊子 “Zhuang Zi” (Amies 2021 tr.; Mathews 1931, p. 61)","luid":3001250,"h":3001250},
-{"s":"汲引高风","t":"汲引高風","p":"jí yǐn gāo fēng","fp":"jiyingaofeng","e": "to imitate a person of lofty character","g":"phrase","n":"(Reworded from Mathews 1931 '汲引高風', p. 62)","luid":3001251,"h":3001251}]
+{"s":"汲引高风","t":"汲引高風","p":"jí yǐn gāo fēng","fp":"jiyingaofeng","e": "to imitate a person of lofty character","g":"phrase","n":"(Reworded from Mathews 1931 '汲引高風', p. 62)","luid":3001251,"h":3001251},
+{"s":"加害行为","t":"加害行為","p":"jiāhài xíngwéi","fp":"jiahaixingwei","e": "dangerous behavior","g":"phrase","n":"(Reworded from Mathews 1931 '加害行為', p. 77)","luid":3001252,"h":3001252},
+{"s":"应门将将","t":"應門將將","p":"yīngmén qiāngqiāng","fp":"yingmenqiangqiang","e": "the palace gate was imposing","g":"phrase","n":"Quote: from 詩經·大雅·綿 Book of Songs, Greater Odes, Mian (Guoyu '應門將將'; Mathews 1931 '應門將將', p. 90)","luid":3001253,"h":3001252}]

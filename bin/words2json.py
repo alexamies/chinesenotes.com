@@ -12,7 +12,7 @@ import json
 import os
 import sys
 
-DICT_FILE_NAMES = "../data/words.txt"
+DICT_FILE_NAMES = "../data/cnotes_zh_en_dict.tsv"
 JSON_FILE_NAME = "words.json"
 
 
