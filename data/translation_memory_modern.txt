@@ -465,3 +465,7 @@
 5000465	革命要依靠人民群众	革命要依靠人民群眾	gémìng yào yīkào rénmín qúnzhòng	the revolution must rely on the masses	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 234-235)	5000465
 5000466	脱离群众	脫離群眾	tuōlí qúnzhòng	alienated from the masses	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 238-239)	5000466
 5000467	右倾机会主义	右傾機會主義	yòuqīng jīhuì zhǔyì	right wing opportunism	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 242-243)	5000467
+5000468	我们都是来自五湖四海	我們都是來自五湖四海	wǒmen dōu shì láizì wǔ hú sì hǎi	we all come from different corners of the land	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 282-283)	5000468
+5000469	团结广大人民	團結廣大人民	tuánjié guǎngdà rénmín	unite with the masses of the people	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 292-293)	5000469
+5000470	烦琐的礼节	煩瑣的禮節	fánsuǒ de lǐjié	tedious formalities	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 300-301)	5000470
+5000471	雇佣军队	雇傭軍隊	gùyòng jūnduì	mercenary army	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 300-301)	5000471
