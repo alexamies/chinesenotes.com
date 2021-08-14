@@ -6787,3 +6787,4 @@
 6006787	中国光大银行	中國光大銀行	Guāng Dà	China Everbright Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Abbreviation is 光大 (Wikipedia '中国光大银行')	6006787
 6006788	东方红	東方紅	dōng fāng hóng	The East is Red	proper noun	歌曲	Song	音乐	Music	中国	China	\N	\N	Revolutionary song, adapted from a Shaanxi folk song (CC-CEDICT '東方紅'; Wikipedia '东方红 (歌曲)')	6006788
 6006789	苏区	蘇區	sū qū	Soviet Zone	proper noun	\N	\N	历史	History	中国	China	\N	\N	Communist-controlled China in the period 1927–1949 (Wikipedia '蘇區')	6006789
+6006790	电影圈	電影圈	diànyǐng quān	movie circles	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '電影圈')	6006790
