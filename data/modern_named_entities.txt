@@ -3860,7 +3860,7 @@
 6003860	杜蕾斯	\N	dùlěisī	Durex, a condom brand name	proper noun	产品	Product	商务	Commerce	\N	\N	\N	\N	(CC-CEDICT '杜蕾斯')	6003860
 6003861	杜马	杜馬	dùmǎ	Duma, lower chamber of Russian parliament	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '杜馬')	6003861
 6003862	东京塔	東京塔	Dōngjīngtǎ	Tokyo Tower	proper noun	地名	Place Name	地方	Places	日本	Japan	\N	\N	(CC-CEDICT '東京塔')	6003862
-6003863	东京帝国大学	東京帝國大學	Dōngjīng dìguó dàxué	Tokyo Imperial University	proper noun	大学	University	教育	Education	日本	Japan	\N	\N	renamed Tokyo University after 1945 (CC-CEDICT '東京帝國大學')	6003863
+6003863	国家铁路局	國家鐵路局	Guójiā Tiělù Jú	National Railway Administration	proper noun	国家局	State Bureau	政府	Government	中国	China	\N	\N	(Wikipedia '國家鐵路局')	6003863
 6003864	东南亚国家联盟	東南亞國家聯盟	Dōngnán Yà guó jiā liánméng	ASEAN (Association of Southeast Asian Nations)	proper noun	\N	\N	政府	Government	亚洲	Asia	\N	\N	(CC-CEDICT '東南亞國家聯盟')	6003864
 6003865	东南大学	東南大學	dōngnán dàxué	Southeast University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '東南大學')	6003865
 6003866	东印度公司	東印度公司	dōng yìndù gōngsī	East India Company	proper noun	公司	Company	商务	Commerce	亚洲	Asia	\N	\N	(CC-CEDICT '東印度公司')	6003866
@@ -6334,7 +6334,7 @@
 6006334	国立中山大学	國立中山大學	guólì zhōngshān dàxué	National Sun Yat-sen University	proper noun	大学 	University 	教育	Education	高雄	Kaohsiung	\N	\N	Established in 1980, a public university in Kaohsiung, Taiwan. Abbreviated NSYSU (Wikipedia '國立中山大學')	6006334
 6006335	天外	\N	tiān wài	Tianjin Foreign Studies University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 天津外国语大学 (CC-CEDICT '天外')	6006335
 6006336	天津外国语大学	天津外國語大學	Tiānjīn Wàiguóyǔ Dàxué	Tianjin Foreign Studies University	proper noun	大学	University	教育	Education	中国	China	\N	\N	(CC-CEDICT '天津外國語大學'; Wikipedia '天津外国语大学')	6006336
-6006337	东京大学	東京大學	dōngjīng dàxué	Tokyo University, Japan	proper noun	大学	University	教育	Education	日本	Japan	\N	\N	(CC-CEDICT '東京大學')	6006337
+6006337	苏区	蘇區	sū qū	Soviet Zone	proper noun	\N	\N	历史	History	中国	China	\N	\N	Communist-controlled China in the period 1927–1949 (Wikipedia '蘇區')	6006337
 6006338	台湾大学	臺灣大學	táiwān dàxué	National Taiwan University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	Abbreviation to 台大 (CC-CEDICT '臺灣大學')	6006338
 6006339	东海大学	東海大學	dōnghǎidàxué	Tunghai University	proper noun	大学	Unversity	教育	Education	\N	\N	\N	\N	In Taichung, Taiwan (CC-CEDICT '東海大學')	6006339
 6006340	交通大学	交通大學	jiāotōng dàxué	Jiao Tong University	proper noun	大学	University	教育	Education	中国	China	\N	\N	Abbreviation for 上海交通大学 Shanghai Jiao Tong University, 西安交通大学 Xia'an Jiaotong University, or 国立交通大学 National Chiao Tung University, Taiwan etc (CC-CEDICT '交通大學')	6006340
@@ -6786,5 +6786,3 @@
 6006786	光大	\N	Guāng Dà	China Everbright Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Abbreviation for 中国光大银行 (Wikipedia '中国光大银行')	6006786
 6006787	中国光大银行	中國光大銀行	Guāng Dà	China Everbright Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Abbreviation is 光大 (Wikipedia '中国光大银行')	6006787
 6006788	东方红	東方紅	dōng fāng hóng	The East is Red	proper noun	歌曲	Song	音乐	Music	中国	China	\N	\N	Revolutionary song, adapted from a Shaanxi folk song (CC-CEDICT '東方紅'; Wikipedia '东方红 (歌曲)')	6006788
-6006789	苏区	蘇區	sū qū	Soviet Zone	proper noun	\N	\N	历史	History	中国	China	\N	\N	Communist-controlled China in the period 1927–1949 (Wikipedia '蘇區')	6006789
-6006790	国家铁路局	國家鐵路局	Guójiā Tiělù Jú	National Railway Administration	proper noun	国家局	State Bureau	政府	Government	中国	China	\N	\N	(Wikipedia '國家鐵路局')	6006790
