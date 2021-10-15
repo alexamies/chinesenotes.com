@@ -1251,3 +1251,4 @@
 3001251	汲引高风	汲引高風	jí yǐn gāo fēng	to imitate a person of lofty character	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '汲引高風', p. 62)	3001251
 3001252	加害行为	加害行為	jiāhài xíngwéi	dangerous behavior	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Reworded from Mathews 1931 '加害行為', p. 77)	3001252
 3001253	应门将将	應門將將	yīngmén qiāngqiāng	the palace gate was imposing	phrase	\N	\N	文言文	Literary Chinese	军事	Military	\N	\N	Quote: from 詩經·大雅·綿 Book of Songs, Greater Odes, Mian (Guoyu '應門將將'; Mathews 1931 '應門將將', p. 90)	3001252
+3001254	孔子愀然作色	\N	Kǒngzi qiǎorán zuò sè	Confucius' face changed color	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 禮記·哀公問 Book of Rites, Lord Ai Questions (Guoyu '愀然'; Mathews 1931 '孔子愀然作色', p. 102)	3001254
