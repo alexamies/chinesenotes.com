@@ -436,8 +436,8 @@
 6000436	布什	\N	bùshí	Bush	proper noun	美国总统	US President	政治	Politics	美国	United States	\N	bu4shi2.mp3	Often referring to either of the two US presidents (Sun 2006, loc. 1595; VIAF http://viaf.org/viaf/71559485)	6000436
 6000437	硅谷	\N	Guīgǔ	Silicon Valley	proper noun	地区	Area	地方	Places	美国	United States	\N	\N	(CC-CEDICT '硅谷')	6000437
 6000438	加州	\N	jiāzhōu	California	proper noun	州	State	地方	Places	美国	United States	\N	\N	(CC-CEDICT '加州')	6000438
-6000439	洛杉矶	洛杉磯	luòshānjī	Los Angeles	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '洛杉磯')	6000439
-6000440	哈仙达岗	哈仙達崗	hāxiāndágǎng	Hacienda Heights	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	A city in the Los Angeles metropolitan area (Wikipedia '哈仙達崗')	6000440
+6000439	长滩	長灘	cháng tān	Long Beach	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	A city in the Los Angeles metropolitan area (Wikipedia '長灘 (加利福尼亞州)')	6000439
+6000440	安那翰	\N	ānnàhàn	Anaheim	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	A city in the Los Angeles metropolitan area (Wikipedia '安那翰 (加利福尼亞州)')	6000440
 6000441	伊利诺伊州	伊利諾伊州	yīlìnuòyī zhōu	Illinois	proper noun	州	State	地方	Places	美国	United States	\N	\N	 US state (CC-CEDICT '伊利諾伊州')	6000441
 6000442	伊斯特	\N	yīsīté	Istres	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	French town (CC-CEDICT '伊斯特')	6000442
 6000443	伊尔库茨克	伊爾庫茨克	yī'ěrkùcíkè	Irkutsk	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '伊爾庫茨克')	6000443
