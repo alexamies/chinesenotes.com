@@ -19,7 +19,7 @@
  */
 import { fromEvent } from "rxjs";
 import { ajax } from "rxjs/ajax";
-import { catchError, map, retry } from "rxjs/operators";
+import { catchError, map, retry, take } from "rxjs/operators";
 import { IDocSearchRestults } from "./CNInterfaces";
 import { DocumentFinderView } from "./DocumentFinderView";
 import { HrefVariableParser } from "./HrefVariableParser";
@@ -83,12 +83,8 @@ export class DocumentFinder {
         (jsonObj) => {
           this.view.addSearchResults(jsonObj as IDocSearchRestults);
         }),
-      catchError(
-        (error) => {
-          this.view.showMessage("There was an error. Retrying ...");
-          console.log(`DocumentFinder.makeDataSource errors ${error}`);
-          return retry(2);
-        }),
+        catchError((err, caught) => caught),
+        take(30),
     ).subscribe(
       (x) => {
         console.log(`makeDataSource ${x}`);

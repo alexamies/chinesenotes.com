@@ -75,9 +75,12 @@ export class CNotes implements ICNotes {
     this.initDialog();
     const partsTitle = document.querySelector("#partsTitle");
     // Only download the dictionary if we need to split the term into parts
-    if (partsTitle) {
+    const w = window.innerWidth;
+    if (partsTitle && w >= 1200) {
       console.log("CNotes.init: download the dictionary");
       this.load();
+    } else {
+      console.log(`Not loading dictionary: partsTitle: ${partsTitle}, w: ${w}`);
     }
   }
 
@@ -216,8 +219,9 @@ export class CNotes implements ICNotes {
       const notesSpan = this.querySelectorOrNull("#VocabNotesSpan");
       if (entry && entry.getSenses().length === 1) {
         const ws = entry.getSenses()[0];
-        if (notesSpan) {
-          notesSpan.innerHTML = ws.getNotes();
+        const notes = ws.getNotes();
+        if (notesSpan && notes !== undefined) {
+          notesSpan.innerHTML = notes;
         }
       } else if (notesSpan) {
         notesSpan.innerHTML = "";

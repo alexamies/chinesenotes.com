@@ -44,24 +44,24 @@
   <body class="mdc-typography">
     <aside class="mdc-drawer mdc-drawer--dismissible"> <!-- Menu drawer-->
       <div class="mdc-drawer__content">
-        <nav class="mdc-list">
-          <a class="mdc-list-item" href="/">
-            <i class="material-icons mdc-list-item__graphic"
+        <nav class="mdc-deprecated-list">
+          <a class="mdc-deprecated-list-item" href="/">
+            <i class="material-icons mdc-deprecated-list-item__graphic"
               aria-hidden="true">home</i>
-            <span class="mdc-list-item__text">Home</span>
+            <span class="mdc-deprecated-list-item__text">Home</span>
           </a>
-          <a class="mdc-list-item" href="/texts.html">
-            <i class="material-icons mdc-list-item__graphic"
+          <a class="mdc-deprecated-list-item" href="/texts.html">
+            <i class="material-icons mdc-deprecated-list-item__graphic"
               aria-hidden="true">library_books</i>
-            <span class="mdc-list-item__text">Library</span>
+            <span class="mdc-deprecated-list-item__text">Library</span>
           </a>
-          <a class="mdc-list-item" href="/translation_memory.html">
-            <i class="material-icons mdc-list-item__graphic"
+          <a class="mdc-deprecated-list-item" href="/translation_memory.html">
+            <i class="material-icons mdc-deprecated-list-item__graphic"
               aria-hidden="true">find_in_page</i>
-            <span class="mdc-list-item__text">Translation Memory</span>
+            <span class="mdc-deprecated-list-item__text">Translation Memory</span>
           </a>
-          <a class="mdc-list-item" href="/idioms.html">
-            <span class="mdc-list-item__text">Idioms</span>
+          <a class="mdc-deprecated-list-item" href="/idioms.html">
+            <span class="mdc-deprecated-list-item__text">Idioms</span>
           </a>
         </nav>
       </div>
@@ -87,7 +87,7 @@
             id="menu-search"
             class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end"
             role="toolbar">
-            <i class="material-icons mdc-list-item__graphic"
+            <i class="material-icons mdc-deprecated-list-item__graphic"
                 aria-hidden="true">search</i>
               <form id="searchBarForm" name="searchBarForm" action="#">
                 <input id="searchInput" name="searchInput" type="text"
@@ -170,16 +170,16 @@
         {{ if .ContainsByDomain }}
         <h3>Contained in</h3>
         <p>
-          <ul class="mdc-list mdc-list--two-line">
+          <ul class="mdc-deprecated-list mdc-deprecated-list--two-line">
           {{ range $index, $w := .ContainsByDomain }}
-              <li class="mdc-list-item">
-                <span class="mdc-list-item__text">
-                  <span class="mdc-list-item__primary-text">
+              <li class="mdc-deprecated-list-item">
+                <span class="mdc-deprecated-list-item__text">
+                  <span class="mdc-deprecated-list-item__primary-text">
                     <a href='/words/{{$w.HeadwordId}}.html'
                        title='{{ $w.Pinyin }}'
                     >{{ $w.Simplified }}{{if ne .Traditional "\\N"}}({{ .Traditional }}){{end}}</a>
                   </span>
-                  <span class="mdc-list-item__secondary-text">
+                  <span class="mdc-deprecated-list-item__secondary-text">
                     {{ range $i, $ws := $w.Senses }}{{if $i}}; {{end}} {{ $ws.English }} {{ end }}
                   </span>
                 </span>
@@ -205,15 +205,15 @@
         {{ if .RelevantDocs }}
         <h3>Word is mentioned most frequently in</h3>
         <p>Truncated for common words</p>
-        <ul class="mdc-list mdc-list--two-line">
+        <ul class="mdc-deprecated-list mdc-deprecated-list--two-line">
           {{ $hwId := .Headword.HeadwordId }}
           {{ range $doc := .RelevantDocs }}
-            <li class="mdc-list-item">
-              <span class="mdc-list-item__text">
-                <span class="mdc-list-item__primary-text">
+            <li class="mdc-deprecated-list-item">
+              <span class="mdc-deprecated-list-item__text">
+                <span class="mdc-deprecated-list-item__primary-text">
                   <a href='/{{$doc.HTMLFile}}#?highlightId={{$hwId}}'>{{ $doc.Title }}</a>
                 </span>
-                <span class="mdc-list-item__secondary-text">
+                <span class="mdc-deprecated-list-item__secondary-text">
                   {{ $doc.ColTitle }} &mdash; count: {{ $doc.Count }}
                 </span>
               </span>
@@ -224,15 +224,15 @@
 
         {{ if .Collocations }}
         <h3>Collocations</h3>
-          <ul class="mdc-list mdc-list--two-line">
+          <ul class="mdc-deprecated-list mdc-deprecated-list--two-line">
           {{ range $c := .Collocations }}
-            <li class="mdc-list-item">
-              <span class="mdc-list-item__text">
-                <span class="mdc-list-item__primary-text">
+            <li class="mdc-deprecated-list-item">
+              <span class="mdc-deprecated-list-item__text">
+                <span class="mdc-deprecated-list-item__primary-text">
                   {{ $c.BigramVal.Simplified }}
                   ({{ $c.BigramVal.Traditional }})
                 </span>
-                <span class="mdc-list-item__secondary-text">
+                <span class="mdc-deprecated-list-item__secondary-text">
                   {{ $c.BigramVal.Example }} 
                   &mdash; {{ $c.BigramVal.ExColTitle }}, 
                  <a href="/{{ $c.BigramVal.ExFile }}">{{ $c.BigramVal.ExDocTitle }}</a>

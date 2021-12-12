@@ -36,13 +36,17 @@ export class WordFinderAdapter {
         const senses = entries[0].getSenses();
         const hid = parseInt(entries[0].getHeadwordId(), 10);
         if (senses && senses.length > 0) {
+          const eng = senses[0].getEnglish();
+          const notes = senses[0].getNotes();
+          const pinyin = senses[0].getPinyin();
+          const trad = senses[0].getTraditional();
           const iWS = {
-            English: senses[0].getEnglish(),
+            English: (eng != undefined)? eng : "",
             HeadwordId: entries[0].getHeadwordId(),
-            Notes: senses[0].getNotes(),
-            Pinyin: senses[0].getPinyin(),
+            Notes: (notes != undefined)? notes : "",
+            Pinyin: (pinyin != undefined)? pinyin : "",
             Simplified: senses[0].getSimplified(),
-            Traditional: senses[0].getTraditional(),
+            Traditional: (trad != undefined)? trad : "",
           };
           iSenses.push(iWS);
         }

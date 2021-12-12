@@ -27,7 +27,7 @@ npm install
 To resolve module dependencies and package the JavaScript source run 
 
 ```shell
-npm run build
+npm run-script build
 ```
 
 ## Compile TypeScript
