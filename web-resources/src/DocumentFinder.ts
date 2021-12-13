@@ -84,7 +84,7 @@ export class DocumentFinder {
           this.view.addSearchResults(jsonObj as IDocSearchRestults);
         }),
         catchError((err, caught) => caught),
-        take(30),
+        take(3),
     ).subscribe(
       (x) => {
         console.log(`makeDataSource ${x}`);
