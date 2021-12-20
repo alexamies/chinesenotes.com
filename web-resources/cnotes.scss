@@ -1,7 +1,9 @@
-$mdc-theme-primary: #2f5cb6; // blue
-$mdc-theme-secondary: #888; // dark grey
-$mdc-theme-background: #FFF;
-$mdc-theme-on-primary: #FFF;
+@use "@material/theme" with (
+  $primary: #2f5cb6, // blue
+  $secondary: #888, // dark grey
+  $on-primary: #FFF,
+  $on-secondary: #FFF,
+);
 
 @use "@material/button/mdc-button";
 @use "@material/dialog";
@@ -27,7 +29,7 @@ body {
 }
 
 a.regular {
-  color: $mdc-theme-primary;
+  @include theme.property(color);
   text-decoration: underline;
 }
 
@@ -74,14 +76,14 @@ a.title--mdc-theme-on-primary {
 }
 
 .page-footer {
-  background: $mdc-theme-secondary;
+  background: #888;
   margin-top: 10px;
   padding: 15px;  
-  color: $mdc-theme-background;
+  color: #FFF;
 }
 
 .footer-link {
-  color: $mdc-theme-background;
+  color: #FFF;
   text-decoration: underline;
 }
 
