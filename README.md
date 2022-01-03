@@ -283,8 +283,8 @@ Or use Cloud Build
 
 ```shell
 BUILD_ID=[your build id]
-gcloud builds submit --config cloudbuild.yaml . \
-  --substitutions=_IMAGE_TAG="$BUILD_ID"
+nohup gcloud builds submit --config cloudbuild.yaml . \
+  --substitutions=_IMAGE_TAG="$BUILD_ID" &
 ```
 
 Check that the expected image has been added with the command

@@ -6786,3 +6786,4 @@
 6006786	光大	\N	Guāng Dà	China Everbright Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Abbreviation for 中国光大银行 (Wikipedia '中国光大银行')	6006786
 6006787	中国光大银行	中國光大銀行	Guāng Dà	China Everbright Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Abbreviation is 光大 (Wikipedia '中国光大银行')	6006787
 6006788	东方红	東方紅	dōng fāng hóng	The East is Red	proper noun	歌曲	Song	音乐	Music	中国	China	\N	\N	Revolutionary song, adapted from a Shaanxi folk song (CC-CEDICT '東方紅'; Wikipedia '东方红 (歌曲)')	6006788
+6006789	海协会	海協會	hǎi xié huì	Association for Relations Across the Taiwan Straits	proper noun	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Wikipedia '海峽兩岸關係協會')	6006789
