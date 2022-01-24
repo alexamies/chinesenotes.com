@@ -64,7 +64,7 @@ export class DocumentFinderView {
     let topSimBigram = 1000.0;
     const numDocuments = results.NumDocuments;
     const documents = results.Documents;
-    console.log(`addSearchResults: numDocuments: ${numDocuments}`);
+    console.log(`addSearchResults: num documents: ${numDocuments}`);
     if (numDocuments > 0) {
       // Report summary reults
       console.log("addSearchResults: processing summary reults");
@@ -80,8 +80,11 @@ export class DocumentFinderView {
       const dOldBody = document.getElementById("findDocResultsBody");
       if (dTable && dOldBody && dOldBody.parentNode) {
         dTable.removeChild(dOldBody);
+      } else {
+        console.log("addSearchResults: not able to remove old results");
       }
       const dTbody = document.createElement("tbody");
+      dTbody.id = "findDocResultsBody";
       const numDoc = documents.length;
       // Find factor to scale document similarity by
       if (numDoc > 0) {
@@ -119,14 +122,18 @@ export class DocumentFinderView {
     }
     // Display dictionary lookup for the segmented query terms in a table
     const terms = results.Terms;
+    console.log(`addSearchResults: terms = ${terms}`);
     if (terms && terms.length > 0) {
-      console.log("addSearchResults: detailed results for dictionary lookup");
+      console.log(`addSearchResults: detailed results for dictionary lookup ${terms.length}`);
       const qPara = document.getElementById("queryTermsP");
       const qOldBody = document.getElementById("queryTermsBody");
       if (qPara && qOldBody) {
         qPara.removeChild(qOldBody);
+      } else {
+        console.log(`addSearchResults: cannot remove query terms`);
       }
       const qBody = document.createElement("span");
+      qBody.id = "queryTermsBody";
       if ((terms.length > 0) && terms[0].DictEntry &&
           (!terms[0].Senses || (terms[0].Senses.length === 0))) {
         console.log("addSearchResults: Query contains Chinese words", terms);
