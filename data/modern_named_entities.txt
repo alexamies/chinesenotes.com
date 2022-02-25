@@ -6789,3 +6789,5 @@
 6006789	海协会	海協會	hǎi xié huì	Association for Relations Across the Taiwan Straits	proper noun	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Wikipedia '海峽兩岸關係協會')	6006789
 6006790	李开复	李開復	lǐ kāifù	Lee Kai-Fu	proper noun	人	Person	商务	Commerce	中国	China	\N	\N	1961-; Taiwanese computer scientist and IT executive, from 2005 Vice president of Google and president of Google China (Wikipedia '李開復')	6006790
 6006791	因特网信息服务器	因特網信息服務器	yīntèwǎng xìnxī fúwùqì	Internet Information Server (IIS)	proper noun	\N	\N	计算机科学	Computer Science	网络	Networking	\N	\N	(Baike '因特网信息服务器')	6006791
+6006792	信息技术基础设施库	信息技術基礎設施庫	xìnxí jìshù jīchǔ shèshī kù	Information Technology Infrastructure Library (ITIL)	proper noun	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Baike '信息技术基础设施库'; Wikipedia '信息技术基础架构库')	6006792
+6006793	资讯技术基础架构资料库	資訊技術基礎架構資料庫	zīxùn jìshù jīchǔ jiàgòu zīliàokù	Information Technology Infrastructure Library (ITIL)	proper noun	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '信息技术基础架构库')N	6006793
