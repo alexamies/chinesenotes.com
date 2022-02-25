@@ -6787,3 +6787,5 @@
 6006787	中国光大银行	中國光大銀行	Guāng Dà	China Everbright Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Abbreviation is 光大 (Wikipedia '中国光大银行')	6006787
 6006788	东方红	東方紅	dōng fāng hóng	The East is Red	proper noun	歌曲	Song	音乐	Music	中国	China	\N	\N	Revolutionary song, adapted from a Shaanxi folk song (CC-CEDICT '東方紅'; Wikipedia '东方红 (歌曲)')	6006788
 6006789	海协会	海協會	hǎi xié huì	Association for Relations Across the Taiwan Straits	proper noun	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Wikipedia '海峽兩岸關係協會')	6006789
+6006790	李开复	李開復	lǐ kāifù	Lee Kai-Fu	proper noun	人	Person	商务	Commerce	中国	China	\N	\N	1961-; Taiwanese computer scientist and IT executive, from 2005 Vice president of Google and president of Google China (Wikipedia '李開復')	6006790
+6006791	因特网信息服务器	因特網信息服務器	yīntèwǎng xìnxī fúwùqì	Internet Information Server (IIS)	proper noun	\N	\N	计算机科学	Computer Science	网络	Networking	\N	\N	(Baike '因特网信息服务器')	6006791
