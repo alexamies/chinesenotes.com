@@ -11,12 +11,17 @@
 @use "@material/list";
 @use "@material/tooltip/styles";
 @use "@material/top-app-bar/mdc-top-app-bar";
+@use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield";
 
 @include dialog.core-styles;
 @include drawer.core-styles;
 @include drawer.dismissible-core-styles;
 @include drawer.modal-core-styles;
 @include list.deprecated-core-styles;
+@include textfield.core-styles;
 
 html, body {
   max-width: 1000px;
@@ -119,6 +124,18 @@ div.collection-meta {
   display: block;
   width: 300px;
   margin: 20px auto;
+}
+
+input.chinese-input {
+  font-size: 150%;
+}
+
+div.helper-line {
+  padding: 10px;
+}
+
+.md-18 {
+  font-size: 18px;
 }
 
 // Vocabulary dialog

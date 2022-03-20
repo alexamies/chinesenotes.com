@@ -5,16 +5,27 @@
           Search for documents containing text.
         </p>
         <p>
-          <form name="findForm" id="findAdvancedForm" action="findadvanced">
-            <div class="mdc-text-field">
-              <label class="mdc-floating-label" for="findInput" >Search for</label>
-              <input class="mdc-text-field__input" type="text" name="text"
-                     id="findInput" size="20" required/>
-            </div>
-            <button class="mdc-button mdc-button--raised"
-                 type="submit" id="findSubmit">
-              <span class="mdc-button__label">Find Documents</span>
+          <form name="findForm" method="post" id="findAdvancedForm"
+                action="findadvanced">
+            <div>Enter Chinese text</div>
+            <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--no-label">
+              <span class="mdc-notched-outline">
+                <span class="mdc-notched-outline__leading"></span>
+                <span class="mdc-notched-outline__trailing"></span>
+              </span>
+              <input type="text" 
+                     class="mdc-text-field__input chinese-input"
+                     name="text"
+                     id="findInput"
+                     size="20" required>
+            </label>
+            <button class="mdc-button mdc-button--raised" type="submit"
+                    id="findSubmit">
+               <span class="mdc-button__label">Find</span>
             </button>
+            <div class="mdc-text-field-helper-line helper-line">
+              Enter Chinese text to find the most relevant documents
+            </div>
           </form>
         </p>
         <p>
