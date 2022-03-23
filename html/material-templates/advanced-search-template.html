@@ -105,8 +105,14 @@
             <i class="material-icons mdc-deprecated-list-item__graphic"
                 aria-hidden="true">search</i>
               <form id="searchForm" name="searchForm" action="#">
-                <input id="searchInput" name="searchInput" type="text"
-                       class="mdc-text-field__input" placeholder="Search">
+                <label class="mdc-text-field mdc-text-field--filled">
+                  <span class="mdc-text-field__ripple"></span>
+                  <input type="text" 
+                         class="mdc-text-field__input"
+                         name="searchInput"
+                         id="searchInput">
+                  <span class="mdc-line-ripple"></span>
+                </label>
               </form>
           </section>
         </div>
