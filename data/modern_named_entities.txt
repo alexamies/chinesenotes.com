@@ -213,7 +213,7 @@
 6000213	匈牙利	\N	xiōngyálì	Hungary	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	Short form is 匈 (SDC 82; XHZD, p. 700)	6000213
 6000214	也门	也門	Yěmén	Yemen	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 53; XHZD, p. 699)	6000214
 6000215	伊拉克	\N	yīlākè	Iraq	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	yi1la1ke4.mp3	Often abbreviated to 伊 (SDC, p. 45; XHZD, p. 699)	6000215
-6000216	伊朗	\N	yīlǎng	Iran	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	Often abbreviated to 伊 (SDC, p. 29; XHZD, p. 699)	6000216
+6000216	达姆甘	達姆甘	dámǔgān	Damghan	proper noun	地名	Place Name	历史	History	\N	\N	\N	\N	Historic city in present-day Iran (Wikipedia '達姆甘')	6000216
 6000217	印度尼西亚	印度尼西亞	yìndùníxīyà	Indonesia	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	yin4du4ni2xi1ya4.mp3	Often abbreviated to 印尼 (SDC 28; XHZD, p. 698)	6000217
 6000218	约旦	約旦	yuēdàn	Jordan	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 57; XHZD, p. 699)	6000218
 6000219	赞比亚	贊比亞	zànbǐyà	Zambia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Zambia (SDC, p. 150; XHZD, p. 703)	6000219
