@@ -95,7 +95,7 @@ export class CNotes implements ICNotes {
    * Load the dictionary
    */
   public load() {
-    const source = new DictionarySource("/dist/ntireader.json",
+    const source = new DictionarySource("/cached/ntireader.json",
                                         "NTI Reader Dictionary",
                                         "Full NTI Reader dictionary");
     const loader = new DictionaryLoader([source], this.dictionaries, true);

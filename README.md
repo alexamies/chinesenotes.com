@@ -316,6 +316,7 @@ See e2etest/README.md
 ## Deploying to Production
 
 ### Store HTML Files in Cloud Storage Bucket
+
 This is not stored to a container, rather the web files are uploaded to
 Google Cloud Storage. These command will run faster if executed from a build
 server in the cloud
@@ -326,6 +327,18 @@ export BUCKET={your bucket}
 gsutil mb gs://$BUCKET
 bin/push.sh
 gsutil web set -m index.html -e 404.html gs://$BUCKET
+```
+
+### Create a Cloud Storage Bucket for Cacheable Content
+
+The JSON file containing the version of the dictionary for the web client
+should be cached to reduce download time and cost. Create a bucket for it.
+
+```
+export CBUCKET={your bucket}
+# First time
+gsutil mb gs://$CBUCKET
+gsutil -m -h "Cache-Control:public,max-age=3600" cp -a public-read -r $WEB_DIR/dist/ntireader.json gs://${CBUCKET}
 ```
 
 ### Set up a Cloud SQL Database
