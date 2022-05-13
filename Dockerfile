@@ -1,5 +1,5 @@
 # Docker file for chinesenotes.com web app
-FROM golang:1.17.3 as builder
+FROM golang:1.18.2 as builder
 ADD https://api.github.com/repos/alexamies/chinesenotes-go/git/refs/heads/master version.json
 RUN git clone https://github.com/alexamies/chinesenotes-go.git --branch v0.0.91
 WORKDIR /go/chinesenotes-go

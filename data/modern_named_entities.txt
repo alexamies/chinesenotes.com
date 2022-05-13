@@ -104,7 +104,7 @@
 6000104	迅销	迅銷	xùnxiāo	Fast Retailing	proper noun	公司	Company	商务	Commerce	日本	Japan	\N	\N	Japanese retail chain (Wikipedia '迅銷')	6000104
 6000105	阿尔及利亚	阿爾及利亞	Āěrjílìyà	Algeria	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The People's Republic of Algeria (SDC, p. 117; XHZD, p. 702)	6000105
 6000106	汤加	湯加	Tāngjiā	Tonga	proper noun	国家	Country	地方	Places	大洋洲	Oceania	\N	\N	The Kingdom of Tonga (SDC, p. 174; XHZD, p. 705)	6000106
-6000107	阿富汗	\N	Āfùhàn	Afghanistan	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	a1fu4han4.mp3	The Islamic Republic of Afghanistan (MPRC; SDC 36; XHZD, p. 699)	6000107
+6000107	康柏电脑	康柏電腦	kāngbǎi diànnǎo	Compaq Computer Corporation	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '康柏')	6000107
 6000108	安道尔	安道爾	Āndàoěr	Andorra	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	The Principality of Andorra (SDC, p. 88; XHZD, p. 701)	6000108
 6000109	安哥拉	\N	Āngēlā	Angola	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Angola (SDC, p. 147; XHZD, p. 703)	6000109
 6000110	安提瓜和巴布达	安提瓜和巴布達	Āntíguā hé Bābùdá	Antigua and Barbuda	proper noun	国家	Country	地方	Places	北美	North America	\N	\N	(SDC, p. 197; XHZD, p. 706)	6000110
@@ -6791,3 +6791,4 @@
 6006791	因特网信息服务器	因特網信息服務器	yīntèwǎng xìnxī fúwùqì	Internet Information Server (IIS)	proper noun	\N	\N	计算机科学	Computer Science	网络	Networking	\N	\N	(Baike '因特网信息服务器')	6006791
 6006792	信息技术基础设施库	信息技術基礎設施庫	xìnxí jìshù jīchǔ shèshī kù	Information Technology Infrastructure Library (ITIL)	proper noun	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Baike '信息技术基础设施库'; Wikipedia '信息技术基础架构库')	6006792
 6006793	资讯技术基础架构资料库	資訊技術基礎架構資料庫	zīxùn jìshù jīchǔ jiàgòu zīliàokù	Information Technology Infrastructure Library (ITIL)	proper noun	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '信息技术基础架构库')N	6006793
+6006794	康柏	\N	kāngbǎi	Compaq	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	See 康柏电脑 (Wikipedia '康柏')	6006794

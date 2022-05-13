@@ -336,9 +336,18 @@ should be cached to reduce download time and cost. Create a bucket for it.
 
 ```
 export CBUCKET={your bucket}
+WEB_DIR=web-staging
 # First time
-gsutil mb gs://$CBUCKET
-gsutil -m -h "Cache-Control:public,max-age=3600" cp -a public-read -r $WEB_DIR/dist/ntireader.json gs://${CBUCKET}
+gsutil mb gs://${CBUCKET}
+gsutil iam ch allUsers:objectViewer gs://${CBUCKET}
+# After updating the dictionary
+gsutil -m -h "Cache-Control:public,max-age=3600" cp -a public-read -r $WEB_DIR/dist/ntireader.json gs://${CBUCKET}/cached/ntireader.json
+```
+
+Test that content is returned properly:
+
+```shell
+curl -I http://chinesenotes.com/cached/ntireader.json
 ```
 
 ### Set up a Cloud SQL Database
