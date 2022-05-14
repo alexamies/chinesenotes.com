@@ -8,4 +8,5 @@ gsutil -m -h "Cache-Control:public,max-age=3600" rsync -a public-read -d -r $WEB
 gsutil -m -h "Cache-Control:public,max-age=3600" \
   -h "Content-Type:application/json" \
   -h "Content-Encoding:gzip" \
-  cp -a public-read -r $WEB_DIR/dist/ntireader.json.gz gs://${CBUCKET}
+  cp -a public-read -r $WEB_DIR/dist/ntireader.json.gz \
+  gs://${CBUCKET}/cached/ntireader.json.gz

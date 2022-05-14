@@ -341,13 +341,17 @@ WEB_DIR=web-staging
 gsutil mb gs://${CBUCKET}
 gsutil iam ch allUsers:objectViewer gs://${CBUCKET}
 # After updating the dictionary
-gsutil -m -h "Cache-Control:public,max-age=3600" cp -a public-read -r $WEB_DIR/dist/ntireader.json gs://${CBUCKET}/cached/ntireader.json
+gsutil -m -h "Cache-Control:public,max-age=3600" \
+  -h "Content-Type:application/json" \
+  -h "Content-Encoding:gzip" \
+  cp -a public-read -r $WEB_DIR/dist/ntireader.json.gz \
+  gs://${CBUCKET}/cached/ntireader.json.gz
 ```
 
 Test that content is returned properly:
 
 ```shell
-curl -I http://chinesenotes.com/cached/ntireader.json
+curl -I https://${DOMAIN}/cached/ntireader.json.gz
 ```
 
 ### Set up a Cloud SQL Database
