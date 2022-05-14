@@ -3,7 +3,7 @@
 ## Run this from the top level directory of the chinesenotes.com 
 ## directory tree
 ## CNREADER_HOME should be set to the location of the staging system
-export CNREADER_HOME=.
+export CNREADER_HOME=$PWD
 export WEB_DIR=web-staging
 export TEMPLATE_HOME=html/material-templates
 PATH=$PATH:$HOME/go/bin
@@ -185,4 +185,5 @@ cp web-resources/mp3/*.* $WEB_DIR/mp3/.
 cp corpus/images/*.* $WEB_DIR/images/.
 
 python3 bin/words2json.py "data/cnotes_zh_en_dict.tsv,data/translation_memory_literary.txt,data/translation_memory_modern.txt,data/modern_named_entities.txt" $WEB_DIR/dist/ntireader.json
+cd $WEB_DIR/dist && gzip ntireader.json && cd $CNREADER_HOME
 echo 'cnreader done'
