@@ -6792,3 +6792,4 @@
 6006792	信息技术基础设施库	信息技術基礎設施庫	xìnxí jìshù jīchǔ shèshī kù	Information Technology Infrastructure Library (ITIL)	proper noun	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Baike '信息技术基础设施库'; Wikipedia '信息技术基础架构库')	6006792
 6006793	资讯技术基础架构资料库	資訊技術基礎架構資料庫	zīxùn jìshù jīchǔ jiàgòu zīliàokù	Information Technology Infrastructure Library (ITIL)	proper noun	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '信息技术基础架构库')N	6006793
 6006794	康柏	\N	kāngbǎi	Compaq	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	See 康柏电脑 (Wikipedia '康柏')	6006794
+6006795	团	團	tuán	Communist Youth League of China	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	Abbreviation for 中国共产主义青年团 (ABC 'tuán' 团 AB; NCCED '团' 7; Wikipedia '中國共產主義青年團')	6006795
