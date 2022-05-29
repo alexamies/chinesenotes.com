@@ -393,7 +393,7 @@ INSTANCE_CONNECTION_NAME=[Your connection]
 DBUSER=[Your database user]
 DBPASSWORD=[Your database password]
 DATABASE=[Your database name]
-MEMORY=400Mi
+MEMORY=500Mi
 TEXT_BUCKET=[Your GCS bucket name for text files]
 gcloud run deploy --platform=managed $SERVICE \
 --image $IMAGE \
