@@ -13,7 +13,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build -mod=readonly -v -o cnweb
 FROM alpine:3
 RUN apk add --no-cache ca-certificates
 COPY --from=builder /go/chinesenotes-go/cnweb /cnweb
-COPY --from=builder /go/chinesenotes-go/config.yaml /config.yaml
+COPY --from=builder /go/chinesenotes-go/*.yaml /
 COPY --from=builder /go/chinesenotes-go/data/*.txt /data/
 COPY --from=builder /go/chinesenotes-go/data/*.tsv /data/
 COPY --from=builder /go/chinesenotes-go/index/documents.tsv /index/

@@ -1,0 +1,4 @@
+# Configuration file for web application
+
+# Extract terms from notes field into reverse index
+NotesExtractorPattern: "Scientific name: (.*?)[\(,\,,\;] Species: (.*?)[\(,\,,\;]"

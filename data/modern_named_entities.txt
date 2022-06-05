@@ -6795,3 +6795,4 @@
 6006795	团	團	tuán	Communist Youth League of China	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	Abbreviation for 中国共产主义青年团 (ABC 'tuán' 团 AB; NCCED '团' 7; Wikipedia '中國共產主義青年團')	6006795
 6006796	新港滩	\N	xīn gǎng tān	Newport Beach	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(Wikipedia '新港滩')	6006796
 6006797	中央谷地	\N	zhōngyāng gǔdì	Central Valley	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	Located in California (Wikipedia '中央谷地')	6006797
+6006798	旧金山湾	舊金山灣	jiùjīnshān wān	San Francisco Bay	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(Wikipedia '舊金山灣')	6006798
