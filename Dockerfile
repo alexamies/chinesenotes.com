@@ -3,7 +3,7 @@ FROM golang:1.18.2 as builder
 ADD https://api.github.com/repos/alexamies/chinesenotes-go/git/refs/heads/master version.json
 RUN git clone https://github.com/alexamies/chinesenotes-go.git --branch v0.0.95
 WORKDIR /go/chinesenotes-go
-COPY *.yaml .
+COPY *.yaml /
 COPY data/*.txt data/
 COPY data/*.tsv data/
 COPY index/documents.tsv index/
