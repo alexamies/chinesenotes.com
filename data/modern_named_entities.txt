@@ -876,7 +876,7 @@
 6000876	芝加哥	\N	zhījiāgē	Chicago	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '芝加哥'; Guoyu '芝加哥'; Wikipedia '芝加哥')	6000876
 6000877	纽约	紐約	niǔyuē	New York	proper noun	州	State	地方	Places	美国	United States	\N	\N	State and city in the US (Wikipedia '纽约')	6000877
 6000878	纽约证券交易所	紐約證券交易所	niǔyuē Zhèngquàn Jiāoyì Suǒ	New York Stock Exchange	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(Wikipedia '纽约证券交易所')	6000878
-6000879	旧金山	舊金山	jiùjīnshān	San Francisco	proper noun	城市	City	地方	Places	美国	United States	\N	\N	In California (CC-CEDICT '舊金山')	6000879
+6000879	旧金山半岛	舊金山半島	jiùjīnshānbàndǎo	San Francisco Peninsula	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(Wikipedia '旧金山半岛')	6000879
 6000880	里加	\N	lǐjiā	Riga	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	Capital of Latvia (CC-CEDICT '里加')	6000880
 6000881	金曲奖	金曲獎	jīnqǔjiǎng	Golden Melody Awards	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '金曲獎')	6000881
 6000882	金沙萨	金沙薩	jīnshāsà	Kinshasa	proper noun	城市	City	地方	Places	非洲	Africa	\N	\N	Capital of Zaire (CC-CEDICT '金沙薩')	6000882
@@ -3036,7 +3036,7 @@
 6003036	奥什	奧什	àoshén	Osh (city in Kyrgyzstan)	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '奧什')	6003036
 6003037	奥克拉荷马	奧克拉荷馬	ào kèlā Hémǎ	Oklahoma, US state	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	Taiwanese usage (CC-CEDICT '奧克拉荷馬')	6003037
 6003038	奥克拉荷马州	奧克拉荷馬州	ào kèlā Hémǎ zhōu	Oklahoma, US state	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	Taiwanese usage (CC-CEDICT '奧克拉荷馬州')	6003038
-6003039	奥克兰	奧克蘭	àokèlán	Auckland (New Zealand city) / Oakland (California, US city)	proper noun	城市	City	地方	Places	美国	United States	\N	\N	(CC-CEDICT '奧克蘭')	6003039
+6003039	奥克兰	奧克蘭	àokèlán	Oakland	proper noun	城市	City	地方	Places	美国	United States	\N	\N	California, US city (CC-CEDICT '奧克蘭')	6003039
 6003040	奥切诺斯	奧切諾斯	àoqiēnuòsī	Oceanus, a Titan in Greek mythology	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '奧切諾斯')	6003040
 6003041	奥利维亚	奧利維亞	ào lì wéi yà	Olivia (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '奧利維亞')	6003041
 6003042	奥古斯塔	奧古斯塔	ào gǔ sī tǎ	Augusta (place name: capital of Maine, city in Georgia etc)	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '奧古斯塔')	6003042
@@ -6796,3 +6796,6 @@
 6006796	新港滩	\N	xīn gǎng tān	Newport Beach	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(Wikipedia '新港滩')	6006796
 6006797	中央谷地	\N	zhōngyāng gǔdì	Central Valley	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	Located in California (Wikipedia '中央谷地')	6006797
 6006798	旧金山湾	舊金山灣	jiùjīnshān wān	San Francisco Bay	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	(Wikipedia '舊金山灣')	6006798
+6006799	美国鱼类及野生动物管理局	美國魚類及野生動物管理局	měiguó yúlèi jí yěshēng dòngwù guǎnlǐ jú	United States Fish and Wildlife Service	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	(Wikipedia '美國魚類及野生動物管理局')	6006799
+6006800	奥克兰	奧克蘭	àokèlán	Auckland	proper noun	城市	City	地方	Places	\N	\N	\N	\N	New Zealand city (CC-CEDICT '奧克蘭')	6003039
+6006801	圣塔克鲁茲	聖塔克魯茲	shèngtǎ kèlǔcí	Santa Cruz	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	In California (Wikipedia '聖塔克魯茲')	6006801
