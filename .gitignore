@@ -1,5 +1,7 @@
 credentials.json
+dataflow-service-account.json
 go/
 sendgrid.env
 mariadb-data/
+outputs
 web-staging/

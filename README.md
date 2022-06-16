@@ -417,3 +417,48 @@ curl $URL/find/?query=你好
 ```
 
 You should see a JSON reply.
+
+
+## Dataflow - Not Complete
+
+Run the term frequency analysis with Google Cloud Dataflow.
+Follow instructions at
+[Chinese Text Reader](https://github.com/alexamies/cnreader)
+
+Create a GCP service account, download a key, and set it to the file:
+
+````
+export GOOGLE_APPLICATION_CREDENTIALS=${PWD}/dataflow-service-account.json
+```
+
+Set the location of the GCS bucket to read text from
+```
+TEXT_BUCKET=[your GCS bucket]
+```
+
+Set the configuration environment variable
+
+```
+export CNREADER_HOME=${PWD}
+```
+
+From a higher directory, clone the cnreader Git project
+
+```
+cd ..
+git clone https://github.com/alexamies/cnreader.git
+cd cnreader/tfidf
+```
+
+Run the pipeline on Dataflow
+
+```
+DATAFLOW_REGION=us-central1
+go run tfidf.go \
+            --input gs://${TEXT_BUCKET}/chuci/chuci001.txt \
+            --output gs://${TEXT_BUCKET}/results/outputs \
+            --runner dataflow \
+            --project $PROJECT_ID \
+            --region $DATAFLOW_REGION \
+            --staging_location gs://${TEXT_BUCKET}/binaries/
+```
