@@ -455,7 +455,8 @@ Run the pipeline on Dataflow
 ```
 DATAFLOW_REGION=us-central1
 go run tfidf.go \
-            --input gs://${TEXT_BUCKET}/chuci/chuci001.txt \
+            --input gs://${TEXT_BUCKET} \
+            --corpus_fn ${CNREADER_HOME}/data/corpus/chuci.csv \
             --output gs://${TEXT_BUCKET}/results/outputs \
             --runner dataflow \
             --project $PROJECT_ID \
