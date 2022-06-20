@@ -455,11 +455,13 @@ Run the pipeline on Dataflow
 ```
 DATAFLOW_REGION=us-central1
 go run tfidf.go \
-            --input gs://${TEXT_BUCKET} \
-            --corpus_fn ${CNREADER_HOME}/data/corpus/chuci.csv \
-            --output gs://${TEXT_BUCKET}/results/outputs \
-            --runner dataflow \
-            --project $PROJECT_ID \
-            --region $DATAFLOW_REGION \
-            --staging_location gs://${TEXT_BUCKET}/binaries/
+  --input gs://${TEXT_BUCKET} \
+  --cnreader_home ${CNREADER_HOME} \
+  --corpus_fn data/corpus/collections.csv \
+  --tfdoc_out gs://${TEXT_BUCKET}/results/word_freq_doc.txt \
+  --df_out gs://${TEXT_BUCKET}/results/doc_freq.txt \
+  --runner dataflow \
+  --project $PROJECT_ID \
+  --region $DATAFLOW_REGION \
+  --staging_location gs://${TEXT_BUCKET}/binaries/
 ```
