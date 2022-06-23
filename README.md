@@ -432,14 +432,21 @@ export GOOGLE_APPLICATION_CREDENTIALS=${PWD}/dataflow-service-account.json
 ```
 
 Set the location of the GCS bucket to read text from
+
 ```
 TEXT_BUCKET=[your GCS bucket]
+```
+
+Use a different bucket for the Dataflow  results and binaries:
+
+```
+DF_BUCKET=[your other GCS bucket]
 ```
 
 Set the configuration environment variable
 
 ```
-export CNREADER_HOME=${PWD}
+CNREADER_HOME=${PWD}
 ```
 
 From a higher directory, clone the cnreader Git project
@@ -458,10 +465,12 @@ go run tfidf.go \
   --input gs://${TEXT_BUCKET} \
   --cnreader_home ${CNREADER_HOME} \
   --corpus_fn data/corpus/collections.csv \
-  --tfdoc_out gs://${TEXT_BUCKET}/results/word_freq_doc.txt \
-  --df_out gs://${TEXT_BUCKET}/results/doc_freq.txt \
+  --corpus_data_dir data/corpus \
+  --tfdoc_out gs://${DF_BUCKET}/results/word_freq_doc.txt \
+  --df_out gs://${DF_BUCKET}/results/doc_freq.txt \
+  --bfdoc_out gs://${DF_BUCKET}/results/bigram_freq_doc.txt \
   --runner dataflow \
   --project $PROJECT_ID \
   --region $DATAFLOW_REGION \
-  --staging_location gs://${TEXT_BUCKET}/binaries/
+  --staging_location gs://${DF_BUCKET}/binaries/
 ```
