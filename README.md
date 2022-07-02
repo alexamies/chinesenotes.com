@@ -466,9 +466,8 @@ go run tfidf.go \
   --cnreader_home ${CNREADER_HOME} \
   --corpus_fn data/corpus/collections.csv \
   --corpus_data_dir data/corpus \
-  --tfdoc_out gs://${DF_BUCKET}/results/word_freq_doc.txt \
-  --df_out gs://${DF_BUCKET}/results/doc_freq.txt \
-  --bfdoc_out gs://${DF_BUCKET}/results/bigram_freq_doc.txt \
+  --corpus cnotes \
+  --generation 0 \
   --runner dataflow \
   --project $PROJECT_ID \
   --region $DATAFLOW_REGION \

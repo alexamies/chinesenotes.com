@@ -4,4 +4,5 @@ go/
 sendgrid.env
 mariadb-data/
 outputs
+tmp/
 web-staging/
