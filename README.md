@@ -446,7 +446,7 @@ DF_BUCKET=[your other GCS bucket]
 Set the configuration environment variable
 
 ```
-CNREADER_HOME=${PWD}
+export CNREADER_HOME=${PWD}
 ```
 
 From a higher directory, clone the cnreader Git project
@@ -461,15 +461,26 @@ Run the pipeline on Dataflow
 
 ```
 DATAFLOW_REGION=us-central1
+CORPUS=cnotes
+GEN=0
 go run tfidf.go \
   --input gs://${TEXT_BUCKET} \
   --cnreader_home ${CNREADER_HOME} \
   --corpus_fn data/corpus/collections.csv \
   --corpus_data_dir data/corpus \
-  --corpus cnotes \
-  --generation 0 \
+  --corpus $CORPUS \
+  --generation $GEN \
   --runner dataflow \
   --project $PROJECT_ID \
   --region $DATAFLOW_REGION \
   --staging_location gs://${DF_BUCKET}/binaries/
+```
+
+Validation test:
+
+```shell
+cd ..
+./cnreader --test_index_corpus $CORPUS \
+  --test_index_gen $GEN \
+  --project $PROJECT_ID
 ```
