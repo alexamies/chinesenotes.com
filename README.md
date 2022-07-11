@@ -459,7 +459,7 @@ cd cnreader/tfidf
 
 The GCP project:
 
-``shell
+```shell
 PROJECT_ID=[your project id]
 ```
 
