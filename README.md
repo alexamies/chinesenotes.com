@@ -457,6 +457,12 @@ git clone https://github.com/alexamies/cnreader.git
 cd cnreader/tfidf
 ```
 
+The GCP project:
+
+``shell
+PROJECT_ID=[your project id]
+```
+
 Run the pipeline on Dataflow
 
 ```
@@ -473,8 +479,13 @@ go run tfidf.go \
   --runner dataflow \
   --project $PROJECT_ID \
   --region $DATAFLOW_REGION \
+  --flexrs_goal=COST_OPTIMIZED \
   --staging_location gs://${DF_BUCKET}/binaries/
 ```
+
+Track the job progress in the GCP console, as shown in the figure below.
+
+![Dataflow job progress](https://raw.githubusercontent.com/alexamies/chinesenotes.com/master/drawings/beam_execution.png?raw=true)
 
 Validation test:
 
