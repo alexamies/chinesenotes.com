@@ -427,7 +427,7 @@ Follow instructions at
 
 Create a GCP service account, download a key, and set it to the file:
 
-````
+```
 export GOOGLE_APPLICATION_CREDENTIALS=${PWD}/dataflow-service-account.json
 ```
 
