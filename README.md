@@ -466,7 +466,7 @@ GEN=0
 go run tfidf.go \
   --input gs://${TEXT_BUCKET} \
   --cnreader_home ${CNREADER_HOME} \
-  --corpus_fn data/corpus/collections.csv \
+  --corpus_fn data/corpus/collections_small.csv \
   --corpus_data_dir data/corpus \
   --corpus $CORPUS \
   --generation $GEN \
