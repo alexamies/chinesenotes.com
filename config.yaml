@@ -35,3 +35,9 @@ VocabFormat: <a title="%s | %s" class="%s" href="/words/%d.html">%s</a>
 
 # Domains to list translations for in the Contained in section of headword pages
 ContainsByDomain: Idiom,Literary Chinese,Modern Chinese,Proverb
+
+# IndexCorpus is the name of the corpus for the term frequency index in Firestore.
+IndexCorpus: cnotes
+
+ # IndexGen is the generation number for the term frequency index in Firestore.
+IndexGen: 0
