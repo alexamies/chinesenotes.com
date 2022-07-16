@@ -491,7 +491,8 @@ Validation test:
 
 ```shell
 cd ..
-./cnreader --test_index_corpus $CORPUS \
-  --test_index_gen $GEN \
-  --project $PROJECT_ID
+COLLECTION=sunzibingfa.html
+./cnreader --test_index_terms "兵,者" \
+  --project $PROJECT_ID \
+  --collection ${COLLECTION}
 ```
