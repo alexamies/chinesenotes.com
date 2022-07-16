@@ -127,19 +127,51 @@ bin/cnreader.sh
   This is a default that can be overridden by setting an environment varialbe 
   named WEB_DIR with the path relative to the project home.
 
-
-## Containerization
-Containerization has now replaced the old system of deployment directly on a
-virtual machine.
-
-### Local Development Environment or Build Machine
+## Local Development
 
 The build machine builds the source code and Docker images. Get the project
 files from GitHub:
 
-```
+```shell
 git clone https://github.com/alexamies/chinesenotes.com.git
 ```
+
+Set the `CNREADER_HOME` env variable for reading data files:
+
+```shell
+export CNREADER_HOME=${PWD}/chinesenotes.com
+```
+
+Get the web application code
+
+```shell
+git clone https://github.com/alexamies/chinesenotes-go.git
+```
+
+Set the web application binary home:
+
+```shell
+CNWEB_BIN_HOME=${PWD}/chinesenotes-go
+```
+
+Build the web application binary:
+
+```shell
+cd $CNWEB_BIN_HOME
+go build
+```
+
+Run the web app
+
+```shell
+cd $CNREADER_HOME
+export CNWEB_HOME=$CNREADER_HOME
+$CNWEB_BIN_HOME/chinesenotes-go
+```
+
+## Containerization
+Containerization has now replaced the old system of deployment directly on a
+virtual machine.
 
 ### Install Docker
 
@@ -454,6 +486,7 @@ From a higher directory, clone the cnreader Git project
 ```
 cd ..
 git clone https://github.com/alexamies/cnreader.git
+export CNREADER_PATH=${PWD}/cnreader
 cd cnreader/tfidf
 ```
 
@@ -495,4 +528,19 @@ COLLECTION=sunzibingfa.html
 ./cnreader --test_index_terms "兵,者" \
   --project $PROJECT_ID \
   --collection ${COLLECTION}
+```
+
+Generate the bibliographic database
+
+```shell
+cd $CNREADER_HOME
+$CNREADER_PATH/cnreader -titleindex
+```
+
+Try full text search in the web app
+
+```shell
+export PROJECT_ID=$PROJECT_ID
+export CNWEB_HOME=$CNREADER_HOME
+$CNWEB_BIN_HOME/chinesenotes-go
 ```
