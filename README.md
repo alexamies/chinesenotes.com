@@ -439,6 +439,7 @@ gcloud run deploy --platform=managed $SERVICE \
 --set-env-vars DATABASE="$DATABASE" \
 --set-env-vars TEXT_BUCKET="$TEXT_BUCKET" \
 --set-env-vars CNREADER_HOME="/" \
+--set-env-vars PROJECT_ID=${PROJECT_ID} \
 --set-env-vars AVG_DOC_LEN="4497"
 ```
 
