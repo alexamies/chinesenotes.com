@@ -513,7 +513,7 @@ go run tfidf.go \
   --runner dataflow \
   --project $PROJECT_ID \
   --region $DATAFLOW_REGION \
-  --flexrs_goal=COST_OPTIMIZED \
+  --flexrs_goal=FLEXRS_COST_OPTIMIZED \
   --staging_location gs://${DF_BUCKET}/binaries/
 ```
 
