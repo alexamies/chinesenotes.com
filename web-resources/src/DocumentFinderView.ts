@@ -213,7 +213,7 @@ export class DocumentFinderView {
       if (titleText.length > this.MAX_TITLE_LEN) {
         titleText = titleText.substring(0, this.MAX_TITLE_LEN - 1) + "...";
       }
-      // console.log("addDocument.DocumentFinderView title: titleText")
+      // console.log(`addDocument.DocumentFinderView title: ${titleText}, match ${doc.MatchDetails}`)
       const textNode = document.createTextNode(titleText);
       a.appendChild(textNode);
       td.appendChild(a);
@@ -294,6 +294,8 @@ export class DocumentFinderView {
         td.appendChild(snippetSpan);
         const br2 = document.createElement("br");
         td.appendChild(br2);
+      } else {
+        console.log(`addMatchDetails: starts = ${starts}, lm = ${lm}, snippet = ${snippet}`);
       }
     }
     return td;
