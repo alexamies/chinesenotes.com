@@ -6799,3 +6799,4 @@
 6006799	美国鱼类及野生动物管理局	美國魚類及野生動物管理局	měiguó yúlèi jí yěshēng dòngwù guǎnlǐ jú	United States Fish and Wildlife Service	proper noun	\N	\N	政府	Government	美国	United States	\N	\N	(Wikipedia '美國魚類及野生動物管理局')	6006799
 6006800	奥克兰	奧克蘭	àokèlán	Auckland	proper noun	城市	City	地方	Places	\N	\N	\N	\N	New Zealand city (CC-CEDICT '奧克蘭')	6003039
 6006801	圣塔克鲁茲	聖塔克魯茲	shèngtǎ kèlǔcí	Santa Cruz	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	In California (Wikipedia '聖塔克魯茲')	6006801
+6006802	圣雄甘地	聖雄甘地	shèngxióng gāndì	Mahatma Gandhi	proper noun	人	Person	历史	History	印度	India	\N	\N	(Wikipedia '圣雄甘地')	6006802
