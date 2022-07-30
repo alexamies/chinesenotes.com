@@ -1,7 +1,7 @@
 corpus/*.html
 corpus/*.txt
 !data/corpus/collections.csv
-index/
+index/*.txt
 !index/documents.tsv
 web-resources/
 web-staging/
