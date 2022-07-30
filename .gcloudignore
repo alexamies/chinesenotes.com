@@ -1,7 +1,7 @@
-!data/corpus/collections.csv
 corpus/*.html
 corpus/*.txt
-!index/documents.tsv
+!data/corpus/collections.csv
 index/
+!index/documents.tsv
 web-resources/
 web-staging/
