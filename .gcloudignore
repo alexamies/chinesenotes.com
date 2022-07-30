@@ -1,5 +1,6 @@
 !data/corpus/collections.csv
-corpus/
+corpus/*.html
+corpus/*.txt
 !index/documents.tsv
 index/
 web-resources/
