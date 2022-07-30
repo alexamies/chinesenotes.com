@@ -1,5 +1,6 @@
+!data/corpus/collections.csv
 corpus/
-index/
 !index/documents.tsv
+index/
 web-resources/
 web-staging/
