@@ -6,6 +6,7 @@ WORKDIR /go/chinesenotes-go
 COPY *.yaml ./
 COPY data/*.txt data/
 COPY data/*.tsv data/
+COPY data/corpus/collections.csv ./data/corpus/
 COPY index/documents.tsv index/
 RUN go build
 ENV GO111MODULE=on
@@ -16,5 +17,6 @@ COPY --from=builder /go/chinesenotes-go/cnweb /cnweb
 COPY --from=builder /go/chinesenotes-go/*.yaml /
 COPY --from=builder /go/chinesenotes-go/data/*.txt /data/
 COPY --from=builder /go/chinesenotes-go/data/*.tsv /data/
+COPY --from=builder /go/chinesenotes-go/data/corpus/collections.csv /data/corpus/
 COPY --from=builder /go/chinesenotes-go/index/documents.tsv /index/
 CMD ["./cnweb"]
