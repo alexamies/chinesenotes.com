@@ -167,7 +167,7 @@ go install github.com/alexamies/cnreader@latest
 cnreader
 cnreader -hwfiles
 cnreader -html
-cnreader -titleindex
+# cnreader -titleindex
 cnreader -tmindex
 mkdir $WEB_DIR/dist
 cp web-resources/manifest.json $WEB_DIR/.

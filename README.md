@@ -553,3 +553,22 @@ export PROJECT_ID=$PROJECT_ID
 export CNWEB_HOME=$CNREADER_HOME
 $CNWEB_BIN_HOME/chinesenotes-go
 ```
+
+## Update the title index in Firestore
+
+```shell
+$CNREADER_PATH/cnreader --titleindex --project $PROJECT_ID
+```
+
+Also, generate a file for the document index, needed for the web app:
+
+```shell
+$CNREADER_PATH/cnreader --titleindex 
+```
+
+Run a search against the index:
+
+```shell
+export TEXT_BUCKET=chinesenotes-text
+$CNREADER_PATH/cnreader --project $PROJECT_ID --find_docs "所以風天下而正夫婦也" --outfile results.csv
+```
