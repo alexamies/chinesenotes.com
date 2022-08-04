@@ -566,7 +566,15 @@ Also, generate a file for the document index, needed for the web app:
 $CNREADER_PATH/cnreader --titleindex 
 ```
 
-Run a search against the index:
+Run a search against the title index:
+
+```shell
+$CNREADER_PATH//cnreader --project $PROJECT_ID --titlesearch "尚書虞書"
+```
+
+## Full Text Search
+
+Run a full text Search search:
 
 ```shell
 export TEXT_BUCKET=chinesenotes-text
