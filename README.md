@@ -161,6 +161,14 @@ cd $CNWEB_BIN_HOME
 go build
 ```
 
+If you have a GCP project setup, you can optionally connect to it from a local
+build by creating a service account key and defining shell variables
+
+```shell
+export PROJECT_ID=$PROJECT_ID
+export GOOGLE_APPLICATION_CREDENTIALS=${PWD}/service-account.json
+```
+
 Run the web app
 
 ```shell
