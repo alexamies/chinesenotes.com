@@ -542,7 +542,7 @@ Validation test:
 ```shell
 cd ..
 COLLECTION=sunzibingfa.html
-./cnreader --test_index_terms "兵,者" \
+$CNREADER_PATH//cnreader --test_index_terms "兵,者" \
   --project $PROJECT_ID \
   --collection ${COLLECTION}
 ```
