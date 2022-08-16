@@ -588,3 +588,12 @@ Run a full text Search search:
 export TEXT_BUCKET=chinesenotes-text
 $CNREADER_PATH/cnreader --project $PROJECT_ID --find_docs "所以風天下而正夫婦也" --outfile results.csv
 ```
+
+## Indexing of Idioms
+
+To index idioms use the command
+
+```shell
+$CNREADER_PATH//cnreader --project $PROJECT_ID --dict_index Idiom
+
+```
