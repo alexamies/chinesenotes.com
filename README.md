@@ -603,7 +603,7 @@ $CNREADER_PATH/cnreader --project $PROJECT_ID --dict_index Idiom
 To index the translation memory use the command
 
 ```shell
-nohup $CNREADER_PATH/cnreader --project $PROJECT_ID --tmindexa &
+nohup $CNREADER_PATH/cnreader --project $PROJECT_ID --tmindex &
 ```
 
 Indexing may take about 12 hours.
