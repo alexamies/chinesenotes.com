@@ -594,6 +594,22 @@ $CNREADER_PATH/cnreader --project $PROJECT_ID --find_docs "所以風天下而正
 To index idioms use the command
 
 ```shell
-$CNREADER_PATH//cnreader --project $PROJECT_ID --dict_index Idiom
+$CNREADER_PATH/cnreader --project $PROJECT_ID --dict_index Idiom
 
+```
+
+## Translation Memory Index
+
+To index the translation memory use the command
+
+```shell
+nohup $CNREADER_PATH/cnreader --project $PROJECT_ID --tmindexa &
+```
+
+Indexing may take about 12 hours.
+
+Search the translation memory index
+
+```shell
+$CNREADER_PATH/cnreader --project $PROJECT_ID --tmsearch 柳暗名明
 ```
