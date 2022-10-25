@@ -420,7 +420,7 @@ Load the proper files into the words table as per data/load_data.sql, the
 proper corpus files into the database as per data/load_index.sql, and the
 proper index files as per index/load_word_freq.sql.
 
-### Deploy to Cloud run
+### Deploy to Cloud Run
 
 Deploy the web app to Cloud Run
 
@@ -429,22 +429,13 @@ PROJECT_ID=[Your project]
 IMAGE=gcr.io/${PROJECT_ID}/cn-app-image:${BUILD_ID}
 SERVICE=cnreader
 REGION=us-central1
-INSTANCE_CONNECTION_NAME=[Your connection]
-DBUSER=[Your database user]
-DBPASSWORD=[Your database password]
-DATABASE=[Your database name]
-MEMORY=500Mi
+MEMORY=800Mi
 TEXT_BUCKET=[Your GCS bucket name for text files]
 gcloud run deploy --platform=managed $SERVICE \
 --image $IMAGE \
 --region=$REGION \
 --memory "$MEMORY" \
 --allow-unauthenticated \
---add-cloudsql-instances $INSTANCE_CONNECTION_NAME \
---set-env-vars INSTANCE_CONNECTION_NAME="$INSTANCE_CONNECTION_NAME" \
---set-env-vars DBUSER="$DBUSER" \
---set-env-vars DBPASSWORD="$DBPASSWORD" \
---set-env-vars DATABASE="$DATABASE" \
 --set-env-vars TEXT_BUCKET="$TEXT_BUCKET" \
 --set-env-vars CNREADER_HOME="/" \
 --set-env-vars PROJECT_ID=${PROJECT_ID} \
