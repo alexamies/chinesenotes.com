@@ -3,7 +3,7 @@
 When combining strokes together to form characters there are a few considerations. When starting out it can be useful to use 字帖 'copybook' to trace the characters. Moving on from that it can be useful to use paper with printed squared and lightly printed diagonal lines in a 米 rice pattern. The 下 character below illustrates this.
 
       <div class="picture">
-        <a href='/mediadetail.html#mediumResolution=xia_mi300.png'><img class='use' src='images/xia_mi300.png' alt='Xia Character (Yan Style)' title='Xia Character (Yan Style)'/></a>
+        <a href='images/xia_mi300.png'><img class='use' src='images/xia_mi300.png' alt='Xia Character (Yan Style)' title='Xia Character (Yan Style)'/></a>
         <div>
          下字（颜体） Xia Character (Yan Style)
         </div>
@@ -12,7 +12,7 @@ When combining strokes together to form characters there are a few consideration
 The balance of the character is an important consideration. It is ok to be heavier on the top or heavier on the bottom characters although they should be balanced geometrically. However, charactes should to be balanced from left to right in terms of weight. Because most characters are not symmetric this means that the main stem will not be centered or the strokes will be longer or thicker on one side. Imagine if the ink was made of iron then the center of the square that the character is set in must also be the center or gravity of the character. Notice in the 下 character above the main stem is to the left of center. This is to balance the 右下点 lower right dot, which would otherwise make the right side heavier. However, we can see that the distance from the middle of the character to the top is about the same as from the middle to the bottom. In the 主字（颜体） Zhu character below the middle horizontal stroke is slightly below the center of the square to make the character balanced top to bottom.
 
       <div class="picture">
-        <a href='/mediadetail.html#mediumResolution=zhu_mi300.png'><img class='use' src='images/zhu_mi300.png' alt='Zhu Character (Yan Style)' title='Zhu Character (Yan Style)'/></a>
+        <a href='images/zhu_mi300.png'><img class='use' src='images/zhu_mi300.png' alt='Zhu Character (Yan Style)' title='Zhu Character (Yan Style)'/></a>
         <div>
          主字（颜体） Zhu Character (Yanti Style)
         </div>
@@ -21,7 +21,7 @@ The balance of the character is an important consideration. It is ok to be heavi
 The thickness of the strokes is also adjusted to balance the character within the space it occupies. In general, strokes on the left side are thinner, strokes to the right are thicker. Long strokes are thinner, short strokes are thicker. Horizontal strokes are thinner, vertical strokes are thicker. downwards-left curved strokes 撇 are thinner and right concave strokes 捺 are thicker. In the the 主字（颜体） Zhu character above the horizontal strokes are thinner than the vertical stroke. In the 牛 character below the horizontal strokes are also thinner than the vertical stroke.
 
       <div class="picture">
-        <a href='/mediadetail.html#mediumResolution=niu_mi300.png'><img class='use' src='images/niu_mi300.png' alt='Niu Character (Yan Style)' title='Niu Character (Yan Style)'/></a>
+        <a href='images/niu_mi300.png'><img class='use' src='images/niu_mi300.png' alt='Niu Character (Yan Style)' title='Niu Character (Yan Style)'/></a>
         <div>
          牛字（颜体） Niu Character (Yan Style)
         </div>
@@ -30,7 +30,7 @@ The thickness of the strokes is also adjusted to balance the character within th
 In Yan style the horizontal lines tend to be thinner than the vertical lines, and this difference is exaggerated compared with other regular script styles. In the 内 character below the the right vertical is thicker than the left vertical stroke and the top horizontal line.
 
       <div class="picture">
-        <a href='/mediadetail.html#mediumResolution=nei_yanti300.png'><img class='use' src='images/nei_yanti300.png' alt='Nei Character (Yan Style)' title='Nei Character (Yan Style)'/></a>
+        <a href='images/nei_yanti300.png'><img class='use' src='images/nei_yanti300.png' alt='Nei Character (Yan Style)' title='Nei Character (Yan Style)'/></a>
         <div>
          内字（颜体） Nei Character (Yan Style)
         </div>
@@ -39,7 +39,7 @@ In Yan style the horizontal lines tend to be thinner than the vertical lines, an
 The length of strokes needs to be adjusted to meet the needs of the individual characters so that the character as a whole is well laid out. For example, in the 牛 character above the top most horizontal stroke is shorter on the left side to accomodate the 短撇 short downwards left curved stroke. The lower horizontal stroke is longer on the left side because the vertical stroke is to the right of center. In the 四字（颜体） si character below the two interior strokes are not formally named as fundamental strokes because the are simple and do not occur frequently. Nevertheless, they are needed for this character.
 
       <div class="picture">
-        <a href='/mediadetail.html#mediumResolution=si_mi300.png'><img class='use' src='images/si_mi300.png' alt='Si Character (Yan Style)' title='Si Character (Yan Style)'/></a>
+        <a href='images/si_mi300.png'><img class='use' src='images/si_mi300.png' alt='Si Character (Yan Style)' title='Si Character (Yan Style)'/></a>
         <div>
          四字（颜体） Si Character (Yan Style)
         </div>
@@ -52,7 +52,7 @@ Strokes are connected to each other like wooden joints in carpentry (without nai
 The forms of characters that we use in calligraphy sometimes match the forms that specific calligraphers used rather than the modern equivalent. For example the character 平 ping in Yan style is often drawn as shown below, which is a form that was common during the Tang Dynasty at the time of Yan Zhenqing.
 
       <div class="picture">
-        <a href='/mediadetail.html#mediumResolution=ping_yanti300.png'><img class='use' src='images/ping_yanti300.png' alt='Ping Character (Yan Style)' title='Ping Character (Yan Style)'/></a>
+        <a href='images/ping_yanti300.png'><img class='use' src='images/ping_yanti300.png' alt='Ping Character (Yan Style)' title='Ping Character (Yan Style)'/></a>
         <div>
          平字（颜体） Ping Character (Yan Style)
         </div>
