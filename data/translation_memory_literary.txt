@@ -1267,3 +1267,6 @@
 3001267	瑶台之偃蹇	瑤臺之偃蹇	yáo tái zhī yǎnjiǎn	the towering jade terrace	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 'Sorrow at Parting' in Songs of Chu, Qu Yuan 楚辭·屈原·離騷 (Guoyu '偃蹇'; Mathews 1931 '瑤臺之偃蹇', p. 116)	3001267
 3001268	见义不为无勇也	見義不為無勇也	jiàn yì bù wèi wú yǒng yě	to pass by an opportunity for doing the right thing is cowardly	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 論語·為政 The Analects of Confucius, Governing (Guoyu '見義勇為'; Mathews 1931 '見義不為無勇也', p. 119)	3001268
 3001269	见色不乱	見色不亂	jiàn sè bù luàn	to see beauty and not lust after it	set phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '見色不亂', p. 119)	3001269
+3001270	人君之道	\N	rén jūn zhī dào	the art of being a ruler of people	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu and Henry 2021, pp. 4-5)	3001270
+3001271	务在博爱	務在博愛	wù zài bó ài	striving for universal fraternity	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu and Henry 2021, pp. 4-5)	3001271
+3001272	有文无武	有文無武	yǒu wén wú wǔ	literate but lacking ability to fight	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu and Henry 2021, pp. 6-7)	3001272
