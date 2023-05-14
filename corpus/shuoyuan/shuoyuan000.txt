@@ -7,10 +7,12 @@
 <h4>English translations</h4>
 <p>
   <li>
-    Csikszentmihalyi, Mark 2006,
-    <i>Readings in Han Chinese Thought</i>,
-    Indianapolis (Ind.): Hackett,
-    pp. 127-137.
+    Liu, Xiang and Eric P. Henry 2021, <i>Garden of Eloquence, Shuoyuan</i>,
+    Classics of Chinese Thought, Seattle: University of Washington Press.
+  </li>
+  <li>
+    Csikszentmihalyi, Mark 2006, <i>Readings in Han Chinese Thought</i>,
+    Indianapolis (Ind.): Hackett, pp. 127-137.
     This text includes a partial translation of 
     卷十八 辨物 Chapter 18: Distinguishes Things.
   </li>

@@ -1263,3 +1263,7 @@
 3001263	佳人难再得	佳人難再得	jiārén nán zài dé	The beautiful woman is difficult to obtain again	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 佳人曲 “Song of Lady Li” by Li Yannian, d. 90 BC (Amies 2021 tr.; see also Cutter 2001, pp. 275-277; Wikipedia 'Li_Yannian_(musician)')	3001263
 3001264	劫掠一空	\N	jiélüè yī kōng	to plunder completely	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '劫掠一空', p. 104)	3001264
 3001265	切问而近思	切問而近思	qiē wèn ér jìn sī	sincerely inquiring and applying with self-reflection	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from the Analects of Confucius 論語, 子張 Zi Zhang (Amies 2022 tr.; see also Mathews 1931 '切問而近思', p. 111)	3001265
+3001266	彼皆偃蹇	\N	bǐjiēyǎnjiǎn	they are all arrogant	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Zuo Zhuan, 6th year of Lord Ai 左傳·哀公六年 (Guoyu '偃蹇'; Mathews 1931 '彼皆偃蹇', p. 116)	3001266
+3001267	瑶台之偃蹇	瑤臺之偃蹇	yáo tái zhī yǎnjiǎn	the towering jade terrace	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 'Sorrow at Parting' in Songs of Chu, Qu Yuan 楚辭·屈原·離騷 (Guoyu '偃蹇'; Mathews 1931 '瑤臺之偃蹇', p. 116)	3001267
+3001268	见义不为无勇也	見義不為無勇也	jiàn yì bù wèi wú yǒng yě	to pass by an opportunity for doing the right thing is cowardly	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 論語·為政 The Analects of Confucius, Governing (Guoyu '見義勇為'; Mathews 1931 '見義不為無勇也', p. 119)	3001268
+3001269	见色不乱	見色不亂	jiàn sè bù luàn	to see beauty and not lust after it	set phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '見色不亂', p. 119)	3001269
