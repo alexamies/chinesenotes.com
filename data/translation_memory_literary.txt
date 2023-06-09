@@ -1267,6 +1267,13 @@
 3001267	瑶台之偃蹇	瑤臺之偃蹇	yáo tái zhī yǎnjiǎn	the towering jade terrace	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 'Sorrow at Parting' in Songs of Chu, Qu Yuan 楚辭·屈原·離騷 (Guoyu '偃蹇'; Mathews 1931 '瑤臺之偃蹇', p. 116)	3001267
 3001268	见义不为无勇也	見義不為無勇也	jiàn yì bù wèi wú yǒng yě	to pass by an opportunity for doing the right thing is cowardly	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 論語·為政 The Analects of Confucius, Governing (Guoyu '見義勇為'; Mathews 1931 '見義不為無勇也', p. 119)	3001268
 3001269	见色不乱	見色不亂	jiàn sè bù luàn	to see beauty and not lust after it	set phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '見色不亂', p. 119)	3001269
-3001270	人君之道	\N	rén jūn zhī dào	the art of being a ruler of people	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu and Henry 2021, pp. 4-5)	3001270
-3001271	务在博爱	務在博愛	wù zài bó ài	striving for universal fraternity	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu and Henry 2021, pp. 4-5)	3001271
-3001272	有文无武	有文無武	yǒu wén wú wǔ	literate but lacking ability to fight	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu and Henry 2021, pp. 6-7)	3001272
+3001270	人君之道	\N	rén jūn zhī dào	the art of being a ruler of people	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu Xiang and Henry 2021, pp. 4-5)	3001270
+3001271	务在博爱	務在博愛	wù zài bó ài	striving for universal fraternity	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu Xiang and Henry 2021, pp. 4-5)	3001271
+3001272	有文无武	有文無武	yǒu wén wú wǔ	literate but lacking ability to fight	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu Xiang and Henry 2021, pp. 6-7)	3001272
+3001273	犹风靡草	猶風靡草	yóu fēng mǐ cǎo	like the wind pushing against the grass	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu Xiang and Henry 2021, pp. 8-9)	3001273
+3001274	好善道	\N	hào shàn dào	love of good	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu Xiang and Henry 2021, pp. 10-11)	3001274
+3001275	忧心惙惙	憂心惙惙	yōu xīn chuòchuò	heart consumed with sadness	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 詩經 Book of Songs, 召南·草蟲 Zhao Nan Cao Chong (Guoyu '惙惙'; Liu Xiang and Henry 2021, pp. 10-11)	3001275
+3001276	加志于穷民	加志於窮民	jiā zhì yú qióng mín	paid special attention to people suffering hardship	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu Xiang and Henry 2021, pp. 12-13)	3001276
+3001277	布德施惠	\N	bù dé shī huì	spread virtue and bestowed favors	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu Xiang and Henry 2021, pp. 16-17)	3001277
+3001278	不动而变	不動而變	bù dòng ér biàn	to transform without acting	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu Xiang and Henry 2021, pp. 20-21)	3001278
+3001279	天子无戏言	天子無戲言	tiānzǐ wú xì yán	the emperor does not play with words	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Book 1 of 說苑 Garden of Eloquence (Liu Xiang and Henry 2021, pp. 22-23)	3001279
