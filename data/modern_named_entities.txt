@@ -6784,7 +6784,7 @@
 6006784	中国旅行社	中國旅行社	Zhōngguó Lǚxíngshè	China Travel Service (CST)	proper noun	\N	\N	现代汉语	Modern Chinese	旅游	Tourism	\N	\N	(Wikipedia '中國旅遊集團')	6006784
 6006785	国家发展改革委	國家發展改革委	Guójiā Fāzhǎn Gǎigé Wěi	China National Development and Reform Commission	proper noun	\N	\N	政治	Politics	中国	China	\N	\N	(Wikipedia '中华人民共和国国家发展和改革委员会')	6006785
 6006786	光大	\N	Guāng Dà	China Everbright Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Abbreviation for 中国光大银行 (Wikipedia '中国光大银行')	6006786
-6006787	中国光大银行	中國光大銀行	Guāng Dà	China Everbright Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Abbreviation is 光大 (Wikipedia '中国光大银行')	6006787
+6006787	中国光大银行	中國光大銀行	guāng dà	China Everbright Bank	proper noun	银行	Bank	商务	Commerce	中国	China	\N	\N	Abbreviation is 光大 (Wikipedia '中国光大银行')	6006787
 6006788	东方红	東方紅	dōng fāng hóng	The East is Red	proper noun	歌曲	Song	音乐	Music	中国	China	\N	\N	Revolutionary song, adapted from a Shaanxi folk song (CC-CEDICT '東方紅'; Wikipedia '东方红 (歌曲)')	6006788
 6006789	海协会	海協會	hǎi xié huì	Association for Relations Across the Taiwan Straits	proper noun	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(Wikipedia '海峽兩岸關係協會')	6006789
 6006790	李开复	李開復	lǐ kāifù	Lee Kai-Fu	proper noun	人	Person	商务	Commerce	中国	China	\N	\N	1961-; Taiwanese computer scientist and IT executive, from 2005 Vice president of Google and president of Google China (Wikipedia '李開復')	6006790
@@ -6800,3 +6800,4 @@
 6006800	奥克兰	奧克蘭	àokèlán	Auckland	proper noun	城市	City	地方	Places	\N	\N	\N	\N	New Zealand city (CC-CEDICT '奧克蘭')	6003039
 6006801	圣塔克鲁茲	聖塔克魯茲	shèngtǎ kèlǔcí	Santa Cruz	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	In California (Wikipedia '聖塔克魯茲')	6006801
 6006802	圣雄甘地	聖雄甘地	shèngxióng gāndì	Mahatma Gandhi	proper noun	人	Person	历史	History	印度	India	\N	\N	(Wikipedia '圣雄甘地')	6006802
+6006803	五眼联盟	五眼聯盟	wǔ yǎn liánméng	Five Eyes	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	An alliance comprising Australia, Canada, New Zealand, the United Kingdom, and the United States (Wikipedia '五眼聯盟')	6006803
