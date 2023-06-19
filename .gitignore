@@ -1,3 +1,4 @@
+*..code-workspace
 credentials.json
 dataflow-service-account.json
 go/

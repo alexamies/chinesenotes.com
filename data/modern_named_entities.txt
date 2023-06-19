@@ -3571,7 +3571,7 @@
 6003571	拉包尔	拉包爾	lābāoěr	Rabaul, port city and capital of New Britain, island of northeast Papua New Guinea	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '拉包爾')	6003571
 6003572	拉鲁湿地国家自然保护区	拉魯濕地國家自然保護區	lālǔ shīdì guójiā zìrán bǎohù qū	Lhalu Wetland National Nature Reserve in Lhasa	proper noun	\N	\N	政府	Government	中国	China	\N	\N	(CC-CEDICT '拉魯濕地國家自然保護區')	6003572
 6003573	拉齐奥	拉齊奧	lāqíào	Lazio (region in Italy)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '拉齊奧')	6003573
-6003574	拜登	\N	bàidēng	Baden or Biden (name) / Joe Biden	proper noun	人	Person	历史	History	名字	Names	\N	\N	1942-; US democrat politician, senator for Delaware from 1972, several times chair of Senate foreign relations committee, vice-president of USA from 2009 (CC-CEDICT '拜登')	6003574
+6003574	拜登	\N	bàidēng	Baden; Biden; Joe Biden	proper noun	人	Person	历史	History	名字	Names	\N	\N	1942-; US democrat politician, senator for Delaware from 1972, several times chair of Senate foreign relations committee, vice-president of USA from 2009 (CC-CEDICT '拜登')	6003574
 6003575	拜科努尔	拜科努爾	bài kē nǔ ěr	Baikonur (Russian space launch site in Kazakhstan)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '拜科努爾')	6003575
 6003576	拜科努尔航天发射基地	拜科努爾航天發射基地	bài kē nǔ ěr hángtiān fāshè jīdì	Baikonur Cosmodrome	proper noun	\N	\N	现代汉语	Modern Chinese	航天	Space Flight	\N	\N	(CC-CEDICT '拜科努爾航天發射基地')	6003576
 6003577	拯救大兵瑞恩	\N	zhěngjiù dà bīng ruì ēn	Saving Private Ryan	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	1998 movie (CC-CEDICT '拯救大兵瑞恩')	6003577
