@@ -6801,3 +6801,4 @@
 6006801	圣塔克鲁茲	聖塔克魯茲	shèngtǎ kèlǔcí	Santa Cruz	proper noun	地名	Place Name	地方	Places	美国	United States	\N	\N	In California (Wikipedia '聖塔克魯茲')	6006801
 6006802	圣雄甘地	聖雄甘地	shèngxióng gāndì	Mahatma Gandhi	proper noun	人	Person	历史	History	印度	India	\N	\N	(Wikipedia '圣雄甘地')	6006802
 6006803	五眼联盟	五眼聯盟	wǔ yǎn liánméng	Five Eyes	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	An alliance comprising Australia, Canada, New Zealand, the United Kingdom, and the United States (Wikipedia '五眼聯盟')	6006803
+6006804	联邦医疗补助	聯邦醫療補助	liánbāng yīliáo bǔzhù	Medicaid	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '聯邦醫療補助')	6006804
