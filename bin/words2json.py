@@ -84,14 +84,14 @@ def main():
   Entry point for the program. 
   """
   filenames = DICT_FILE_NAMES
-  if len(sys.argv[0]) > 1:
+  if len(sys.argv) > 1:
     filenames = sys.argv[1]
   elif os.environ.get("DICT_FILE_NAMES") is not None:
     filenames = os.environ["DICT_FILE_NAMES"]
   print("Reading from ", filenames)
   words = OpenDictionary(filenames)
   jsfile = JSON_FILE_NAME
-  if len(sys.argv[0]) > 2:
+  if len(sys.argv) > 2:
     jsfile = sys.argv[2]
   elif os.environ.get("JSON_FILE_NAME") is not None:
     jsfile = os.environ["JSON_FILE_NAME"]
