@@ -76,11 +76,11 @@ export class CNotes implements ICNotes {
     const partsTitle = document.querySelector("#partsTitle");
     // Only download the dictionary if we need to split the term into parts
     const w = window.innerWidth;
-    if (partsTitle && w >= 1200) {
+    if (partsTitle && w >= 800) {
       console.log("CNotes.init: download the dictionary");
       this.load();
     } else {
-      console.log(`Not loading dictionary: partsTitle: ${partsTitle}, w: ${w}`);
+      console.log(`Not loading dictionary: !partsTitle || w < 800: ${partsTitle}, w: ${w}`);
     }
   }
 
