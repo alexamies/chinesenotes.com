@@ -110,6 +110,10 @@ th {
   font-weight: bold;
 }
 
+tr {
+  padding: 10 px;
+}
+
 #DialogPinyin {
   font-style: italic;
 }

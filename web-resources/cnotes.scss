@@ -269,6 +269,10 @@ th {
   font-weight: bold;
 }
 
+tr {
+  padding: 10 px;
+}
+
 /* Index page*/
 #FullTextSearch {
   color: inherit;
@@ -281,4 +285,8 @@ th {
 
 fieldset{
   border: 0;
+}
+
+#PopoverBody {
+  padding: 5 px;
 }
