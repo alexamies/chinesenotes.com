@@ -6803,3 +6803,4 @@
 6006803	五眼联盟	五眼聯盟	wǔ yǎn liánméng	Five Eyes	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	An alliance comprising Australia, Canada, New Zealand, the United Kingdom, and the United States (Wikipedia '五眼聯盟')	6006803
 6006804	联邦医疗补助	聯邦醫療補助	liánbāng yīliáo bǔzhù	Medicaid	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '聯邦醫療補助')	6006804
 6006805	沙国	沙國	shāguó	Saudi Arabia	proper noun	国家	Country	现代汉语	Modern Chinese	地理学	Geography	\N	\N	Taiwanese usage; abbreviation for 沙烏地阿拉伯王國|沙乌地阿拉伯王国 (CC-CEDICT '沙國')	6006805
+6006806	莫文蔚	\N	mò wényù	Karen Mok	proper noun	女演员	Actress	戏剧	Drama	中国	China	\N	\N	1970 -, Hong Kong born vocalist and actress (Wikipedia '莫文蔚')	6006806
