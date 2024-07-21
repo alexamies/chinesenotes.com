@@ -685,7 +685,7 @@
 6000685	沙那	\N	shānà	Sana'a	proper noun	城市	City	地方	Places	中东	Middle East	\N	\N	Capital of Yemen, Taiwanese usage (CC-CEDICT '沙那')	6000685
 6000686	河鼓二	\N	hégǔèr	Altair (star)	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '河鼓二')	6000686
 6000687	法兰克福车展	法蘭克福車展	Fǎlánkèfú chē zhǎn	the Frankfurt Motor Show	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '法蘭克福車展')	6000687
-6000688	法赫德	\N	fǎHèdé	King Fahd of Saudi Arabia	proper noun	人	Person	现代汉语	Modern Chinese	中东	Middle East	\N	\N	(CC-CEDICT '法赫德')	6000688
+6000688	法赫德	\N	fǎhèdé	King Fahd of Saudi Arabia	proper noun	人	Person	现代汉语	Modern Chinese	中东	Middle East	\N	\N	(CC-CEDICT '法赫德')	6000688
 6000689	泛美	\N	fànměi	Pan American	proper noun	公司	Company	商务	Commerce	美国	United States	\N	\N	(CC-CEDICT '泛美')	6000689
 6000690	波札那	\N	bōzhánà	Botswana	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Taiwanese usage (CC-CEDICT '波札那')	6000690
 6000691	波尔多	波爾多	bōěrduō	Bordeaux	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '波爾多')	6000691
@@ -3462,7 +3462,7 @@
 6003462	怪人奥尔·扬科维奇	怪人奧爾·揚科維奇	guàirén ào ěr yáng kē wéiqí	Weird Al Yankovic	phrase	人	Person	历史	History	美国	United States	\N	\N	1959-; US singer and writer of parody songs (CC-CEDICT '怪人奧爾·揚科維奇')	6003462
 6003463	恒生中资企业指数	恆生中資企業指數	héngshēng zhōngzī qǐyè zhǐshù	Hang Seng China affiliated index	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '恆生中資企業指數')	6003463
 6003464	恩培多克勒	\N	ēn péi duō kèlēi	Empedocles	proper noun	人	Person	现代汉语	Modern Chinese	\N	\N	\N	\N	490-430 BC; Greek Sicilian pre-Socratic philosopher (CC-CEDICT '恩培多克勒')	6003464
-6003465	恩斯赫德	\N	ēn sī Hèdé	Enschede, city in the Netherlands	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '恩斯赫德')	6003465
+6003465	恩斯赫德	\N	ēn sī hèdé	Enschede, city in the Netherlands	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '恩斯赫德')	6003465
 6003466	恩贾梅纳	恩賈梅納	ēnjiǎméinà	N'Djamena, capital of Chad	proper noun	城市	City	地方	Places	\N	\N	\N	\N	(CC-CEDICT '恩賈梅納')	6003466
 6003467	恩里科·费米	恩里科·費米	ēn lǐ kē fèi mǐ	Enrico Fermi	proper noun	人	Person	历史	History	欧洲	Europe	\N	\N	1901-1954; Italian born US nuclear physicist (CC-CEDICT '恩里科·費米')	6003467
 6003468	恰吉	\N	qiàjí	Chucky, murderous villain of the 1988 US horror movie Child's Play	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '恰吉')	6003468
@@ -5139,11 +5139,11 @@
 6005139	赞丹	贊丹	zàndān	Zaandam (	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Town in Netherlands) (CC-CEDICT '贊丹')	6005139
 6005140	赎罪日	贖罪日	shúzuìrì	Yom Kippur or Day of Atonement (Jewish holiday)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '贖罪日')	6005140
 6005141	赎罪日战争	贖罪日戰爭	shúzuì rì zhànzhēng	the Yom Kippur war of October 1973 between Israel and her Arab neighbors	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '贖罪日戰爭')	6005141
-6005142	赫拉特省	\N	Hèlāté shěng	Herat province of Afghanistan	proper noun	地名	Place Name	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '赫拉特省')	6005142
+6005142	赫拉特省	\N	hèlāté shěng	Herat province of Afghanistan	proper noun	地名	Place Name	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '赫拉特省')	6005142
 6005143	赫伯特	\N	hèbóté	Herbert (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '赫伯特')	6005143
 6005144	赫奇帕奇	\N	hèqípàqí	Hufflepuff (Harry Potter)	proper noun	\N	\N	文学	Literature	\N	\N	\N	\N	(CC-CEDICT '赫奇帕奇')	6005144
-6005145	赫拉特	\N	Hèlāté	Herat (city in Afghanistan)	proper noun	城市	City	地方	Places	亚洲	Asia	\N	\N	(CC-CEDICT '赫拉特')	6005145
-6005146	赫斯提亚	赫斯提亞	hè sī tí yà	Hestia (goddess of Greek mythology)	proper noun	\N	\N	现代汉语	Modern Chinese	神话	Mythology	\N	\N	(CC-CEDICT '赫斯提亞')	6005146
+6005145	巴德吉斯	\N	bādéjísī	Badghis	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	Province of Afghanistan (Wikipedia '巴德吉斯省')	6005145
+6005146	赫斯提亚	赫斯提亞	hèsītíyà	Hestia (goddess of Greek mythology)	proper noun	\N	\N	现代汉语	Modern Chinese	神话	Mythology	\N	\N	(CC-CEDICT '赫斯提亞')	6005146
 6005147	赫本	\N	hèběn	Hepburn (name)	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '赫本')	6005147
 6005148	赫尔	赫爾	hè'ěr	Hull (name) / Kingston upon Hull	proper noun	\N	\N	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '赫爾')	6005148
 6005149	赫尔墨斯	赫爾墨斯	hè'ěrmòsī	Hermes (Greek god)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '赫爾墨斯')	6005149
@@ -5352,9 +5352,9 @@
 6005352	墨尔本	墨爾本	Mò'ěrběn	Melbourne	proper noun	城市	City	地方	Places	澳大利亚	Australia	\N	\N	City in the southeast of Australia (Wikipedia '墨尔本')	6005352
 6005353	门兴格拉德巴赫	門興格拉德巴赫	mén xīng gélā dé bāhè	Mönchengladbach (city in Germany)	proper noun	城市	City	地方	Places	欧洲	Europe	\N	\N	(CC-CEDICT '門興格拉德巴赫')	6005353
 6005354	诺福克岛	諾福克島	Nuòfúkè Dǎo	Norfolk Island	proper noun	领地	Territory	现代汉语	Modern Chinese	地方	Places	\N	\N	Pacific island and Australian territory (SDC, p. 158; XHZD, p. 705)	6005354
-6005355	赫德岛和麦克唐纳群岛	赫德島和麥克唐納群島	Hèdé Dǎo hé Màikètángnà Qúndǎo	Heard Island and McDonald Islands	proper noun	领地	Territory	现代汉语	Modern Chinese	地方	Places	\N	\N	Antarctic islands and Australian territory (XHZD, p. 705)	6005355
+6005355	赫德岛和麦克唐纳群岛	赫德島和麥克唐納群島	hèdé Dǎo hé Màikètángnà Qúndǎo	Heard Island and McDonald Islands	proper noun	领地	Territory	现代汉语	Modern Chinese	地方	Places	\N	\N	Antarctic islands and Australian territory (XHZD, p. 705)	6005355
 6005356	闪灵	閃靈	shǎnlíng	The Shining	proper noun	\N	\N	戏剧	Drama	\N	\N	\N	\N	1980 Stanley Kubrick film from Stephen King's 1977 novel (Taiwanese metal band (CC-CEDICT '閃靈')	6005356
-6005357	赫德	\N	Hèdé	Hart / Herd / Heard	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '赫德')	6005357
+6005357	赫德	\N	hèdé	Hart / Herd / Heard	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '赫德')	6005357
 6005358	麦克唐纳	麥克唐納	Màikètángnà	McDonnell	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(Wikipedia '麦克唐纳飞行器公司')	6005358
 6005359	关之琳	關之琳	guānzhīlín	Rosamund Kwan	proper noun	\N	\N	戏剧	Drama	中国	China	\N	\N	1962-; Hong Kong actress (CC-CEDICT '關之琳')	6005359
 6005360	关塔纳摩	關塔納摩	guān tǎ nà mó	Guantanamo, Cuba	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '關塔納摩')	6005360

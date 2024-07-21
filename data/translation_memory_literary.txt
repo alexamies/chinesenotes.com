@@ -16,7 +16,7 @@
 3000016	贱恶	賤惡	jiàn è	disdain and lothing	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 大学 “Great Learning” (Amies 2021 tr.; see also tr. in Plaks 2015, pp. 73-74)	3000016
 3000017	畏敬	\N	wèi jìng	fear and respect	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 大学 “Great Learning” (Amies 2021 tr.; see also tr. in Plaks 2015, pp. 73-74)	3000017
 3000018	敖惰	\N	áo duò	arrogance and conceit	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 大学 “Great Learning” (Amies 2021 tr.; see also tr. in Plaks 2015, pp. 73-74)	3000018
-3000019	知者	\N	zhī zhě	the wise man	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 論語 “Analects of Confucius”, book 6 (Amies 2021 tr.; see also tr. in Plaks 2015, p. 79)	3000019
+3000019	知子莫如父	\N	zhī zǐ mò rú fù	nobody knows a son like his father	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Commentaries on the 新書 Xin Shu by 賈誼 Jia Yi (Mathews 1931 '潛藏隱伏', p. 128)	3000019
 3000020	是何祥也	是何祥也	shì hé xiángy ě	What do these foretell?	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 春秋左氏傳 “The Commentary of Zuo on the Spring and Autumn Annals” (Amies 2021 tr.; see also tr. in Durrant, Li, and Schaberg 2016, p 331)	3000020
 3000021	吉凶焉在	\N	jíxiōng yān zài	Where will the auspicious and the unlucky events occur?	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 春秋左氏傳 “The Commentary of Zuo on the Spring and Autumn Annals” (Amies 2021 tr.; see also tr. in Durrant, Li, and Schaberg 2016, p 331)	3000021
 3000022	改葬幽公	\N	gǎi zàng yōu gōng	they again buriedLord Yu	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 左傳·宣公 “Commentary of Zuo on the Spring and Autumn Annals”, Lord Xuan 10.13 (Amies 2021 tr.; see also tr. in  Durrant, Li, and Schaberg 2016, pp. 720-721)	3000022
@@ -865,7 +865,7 @@
 3000865	己独	己獨	jǐ dú	only him	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '己獨', p. 57)	3000865
 3000866	己亲	己親	jǐ qīn	one's relatives	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '己親', p. 57)	3000866
 3000867	纪功	紀功	jì gōng	to record merit	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Retranslated from Mathews 1931 '紀功', p. 57)	3000867
-3000868	超日明三昧经	超日明三昧經	chāo rì míng sānmèi jīng	Chao Ri Ming Sanmei Jing	proper noun	经	Sutra	佛教	Buddhism	大乘佛教	Mahāyāna Buddhism	\N	\N	The name of a text in the Chinese Buddhist canon (KDC 386; T 638)	3000868
+3000868	潜行水中	潛行水中	qián xíng shuǐ zhōng	to walk under water	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Shuo Wen Jie Zi 說文解字 《卷十二‧水部》 Scroll 12, Shuǐ Radical (Mathews 1931 '潛行水中', p. 126)	3000868
 3000869	百官公卿表	\N	bǎiguān gōngqīng biǎo	table of government officials and ranks of nobility	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Contained in the Hanshu (de Crespigny 1967, p. vii)	3000869
 3000870	丞相府	\N	chéngxiāng fǔ	Chancellor's office	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (de Crespigny 1967, p. 3)	3000870
 3000871	乡序	鄉序	xiāng xù	village school	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation (Guoyu '序')	3000871
@@ -1289,3 +1289,14 @@
 3001289	褰裳涉溱	\N	qiān cháng shè zhēn	to lift up the skirt when crossing a stream	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from chapter 褰裳 Qian Chang in the 诗经 “Book of Songs” (Mathews 1931, p. 123)	3001289
 3001290	钤盖关防	鈐蓋關防	qián gài guānfáng	to affix a seal	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '鈐蓋關防', p. 123)	3001290
 3001291	箝其口	\N	qián qí kǒu	gag him	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 季氏第十六 Commentary on Ji Shi XVI in 朱熹四書章句集注 Commentaries on the Four Books by Zhu Xi (Mathews 1931, p. 124)	3001291
+3001292	潜心而勉学	潛心而勉學	qián xīn ér miǎn xué	to concentrate fully on diligent study	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Commentaries on the Four Books by Zhu Xi 朱熹四書章句集注 《學而第一》 Commentary on Xue Er I (Mathews 1931 '潛心而勉學', p. 126)	3001292
+3001293	潜藏隐伏	潛藏隱伏	qiáncáng yǐnfú	to lie in hiding	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Commentaries on the Four Books by Zhu Xi 朱熹四書章句集注 《憲問第十四》 Commentary on Xian Wen XIV (Mathews 1931 '潛藏隱伏', p. 126)	3001293
+3001294	浅近之徒	淺近之徒	qiǎnjìnzhītú	a superficial person	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 東周列國志 Romance of the Eastern Zhou (Mathews 1931 '淺近之徒', p. 127)	3001294
+3001295	荐食上国	荐食上國	jiàn shí shàng guó	encroach on our territory	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from 左傳·定公四年 The Fourth Year of Lord Ding in Zuo Zhuan(Guoyu '荐食'; Mathews 1931 '荐食上國', p. 128)	3001295
+3001296	知之弗豫	\N	zhī zhī fú yù	to know that he is not suitable	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Commentaries on the Four Books by Zhu Xi 朱熹四書章句集注 《憲問第十四》 Commentary on Xian Wen XIV (Mathews 1931 '潛藏隱伏', p. 128)	3001296
+3001297	之一邦	\N	zhī yī bāng	arrive at another state	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from The Analects of Confucius 論語, 公冶長 Gong Ye Chang (Mathews 1931 '之一邦', p. 129)	3001297
+3001298	将何之	將何之	jiāng hé zhī	where are you going?	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Garden of Stories 說苑, 卷十一 善說 Chapter 11: Virtuous Speech (Mathews 1931 '將何之', p. 129)	3001298
+3001299	心之所之	\N	xīn zhī suǒ zhī	whereever the heart is inclined to go	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Commentaries on the Four Books by Zhu Xi 朱熹四書章句集注, 《盡心章句上》 Commentary on Jin Xin I (Mathews 1931 '心之所之', p. 129)	3001299
+3001300	以其道得之	\N	yǐ qí dào dé zhī	to obtain in the proper way	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Daode Jing 道德經 (Mathews 1931 '以其道得之', p. 129)	3001300
+3001301	之其所畏敬	\N	zhī qí suǒ wèi jìng	with regards to those they revere	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from The Book of Rites 禮記, 《大學》 The Great Learning (Mathews 1931 '之其所畏敬', p. 130)	3001301
+3001302	之于天下也	之於天下也	zhī yú tiān xià yě	with regards to the empire	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Stratagems of the Warring States 戰國策, 卷二十　趙三 Chapter 20: Zhao III (Mathews 1931 '之於天下也', p. 130)	3001302
