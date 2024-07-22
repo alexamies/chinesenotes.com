@@ -151,7 +151,7 @@
 6000151	加纳	加納	jiānà	Ghana	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 122; XHZD, p. 702)	6000151
 6000152	埃及	\N	aījí	Egypt	proper noun	国家	Country	地方	Places	非洲	Africa	\N	ai1ji2.mp3	(SDC, p. 112; XHZD, p. 702)	6000152
 6000153	埃塞俄比亚	埃塞俄比亞	aīsàiébǐyà	Ethiopia	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 132)	6000153
-6000154	柬埔寨	\N	jiǎnpǔzhài	Cambodia	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 20; XHZD, p. 698)	6000154
+6000154	曼纳湾	曼納灣	mànnàwān	Gulf of Mannar	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(Wikipedia '曼納灣')	6000154
 6000155	捷克	捷剋	jiékè	Czech	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	Full name is 捷克共和国 (SDC, p. 82; XHZD, p. 700)	6000155
 6000156	津巴布韦	津巴布韋	jīnbābùwéi	Zimbabwe	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Republic of Zimbabwe (SDC, p. 156; XHZD, p. 703)	6000156
 6000157	卡塔尔	卡塔爾	kǎtǎěr	Qatar	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 52; XHZD, p. 699)	6000157
@@ -191,7 +191,7 @@
 6000191	塞浦路斯	\N	sàipǔlùsī	Cyprus	proper noun	国家	Country	地方	Places	欧洲	Europe	\N	\N	(SDC, p. 55; XHZD, p. 702)	6000191
 6000192	塞舌尔	塞舌爾	sāishéěr	Seychelles	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	Republic of Seychelles (SDC, p. 152; XHZD, p. 703)	6000192
 6000193	沙特阿拉伯	\N	shātè ālābó	Saudi Arabia	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	Short form is 沙特 (SDC, p. 49; XHZD, p. 699)	6000193
-6000194	斯里兰卡	斯里蘭卡	sīlǐlánkǎ	Sri Lanka	proper noun	国家	Country	地方	Places	亚洲	Asia	\N	\N	(SDC, p. 29; XHZD, p. 699)	6000194
+6000194	英属印度	英屬印度	yīngshǔ yìndù	British Raj	proper noun	\N	\N	历史	History	印度	India	\N	\N	(Wikipedia '英屬印度')	6000194
 6000195	斯威士兰	斯威士蘭	sīwēishìlán	Swaziland	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	The Kingdom of Swaziland (SDC, p. 157; XHZD, p. 703)	6000195
 6000196	苏丹	蘇丹	sūdān	Sudan	proper noun	国家	Country	地方	Places	非洲	Africa	\N	\N	(SDC, p. 112; XHZD, p. 702)	6000196
 6000197	苏里南	蘇裡南	sūlǐnán	Suriname	proper noun	国家	Country	地方	Places	南美	South America	\N	\N	(SDC, p. 211; XHZD, p. 707)	6000197
