@@ -1300,3 +1300,4 @@
 3001300	以其道得之	\N	yǐ qí dào dé zhī	to obtain in the proper way	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Daode Jing 道德經 (Mathews 1931 '以其道得之', p. 129)	3001300
 3001301	之其所畏敬	\N	zhī qí suǒ wèi jìng	with regards to those they revere	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from The Book of Rites 禮記, 《大學》 The Great Learning (Mathews 1931 '之其所畏敬', p. 130)	3001301
 3001302	之于天下也	之於天下也	zhī yú tiān xià yě	with regards to the empire	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Stratagems of the Warring States 戰國策, 卷二十　趙三 Chapter 20: Zhao III (Mathews 1931 '之於天下也', p. 130)	3001302
+3001303	止或尼之	\N	zhǐ huò ní zhī	a man can be stopped by another	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Mencius 孟子, 梁惠王下 King Hui of Liang II (Mathews 1931 '之於天下也', p. 130)	3001303
