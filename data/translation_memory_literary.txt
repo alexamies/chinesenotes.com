@@ -1301,3 +1301,7 @@
 3001301	之其所畏敬	\N	zhī qí suǒ wèi jìng	with regards to those they revere	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from The Book of Rites 禮記, 《大學》 The Great Learning (Mathews 1931 '之其所畏敬', p. 130)	3001301
 3001302	之于天下也	之於天下也	zhī yú tiān xià yě	with regards to the empire	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Stratagems of the Warring States 戰國策, 卷二十　趙三 Chapter 20: Zhao III (Mathews 1931 '之於天下也', p. 130)	3001302
 3001303	止或尼之	\N	zhǐ huò ní zhī	a man can be stopped by another	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Mencius 孟子, 梁惠王下 King Hui of Liang II (Mathews 1931 '之於天下也', p. 130)	3001303
+3001304	在水中沚	\N	zài shuǐ zhōng zhǐ	on an islet in the stream	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from The Book of Songs 詩經, 國風‧秦‧蒹葭 Lessons from the states - Odes of Qin - Jian Jia (Mathews 1931 '在水中沚', p. 131)	3001304
+3001305	母也天只	\N	mǔ yě tiān zhī	Mother! Heaven!	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from The Book of Songs 詩經, 鄘風·柏舟 Yong Feng - Bai Zhou (Guoyu '只'; Mathews 1931 '母也天只', p. 131)	3001305
+3001306	不谅人只	不諒人只	bù liàng rén zhī	why do you misunderstand me?	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from The Book of Songs 詩經, 鄘風·柏舟 Yong Feng - Bai Zhou (Guoyu '只'; Mathews 1931 '不諒人只', p. 131)	3001306
+3001307	咫尺天颜	咫尺天顏	zhǐ chǐ tiān yán	a close advisor to the emperor	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Wenxuan 文選 Scroll 22 (Mathews 1931 '咫尺天顏', p. 131)	3001307
