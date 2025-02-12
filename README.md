@@ -254,6 +254,34 @@ export GOOGLE_APPLICATION_CREDENTIALS=$PWD/credentials.json
 
 go get -u cloud.google.com/go/storage
 
+#### Create a Build Server
+
+The build server needs about 8 vCPUs, 52 GB Memory, and 150 GB disk. For example,
+n4-highmem-8 (8 vCPUs, 64 GB Memory). Use Debian for the OS.
+
+```shell
+gcloud compute instances create ${BUILD_SERVER} \
+    --project=${PROJECT_ID} \
+    --zone=${ZONE} \
+    --machine-type=n4-highmem-8 \
+    --create-disk=auto-delete=yes,boot=yes,device-name=build-server,image=projects/debian-cloud/global/images/debian-12-bookworm-v20250113,mode=rw,provisioned-iops=3060,provisioned-throughput=155,size=150,type=hyperdisk-balanced
+```
+
+When the VM is stopped make the storage scope read-writeable and Cloud Platform scope
+enabled (needed for Cloud Build) and give IAM permissions to the service account for
+storage Admin and Cloud Build Editor.
+
+SSH to the build server:
+
+```shell
+gcloud compute ssh --zone ${ZONE} alex@${BUILD_SERVER} --project ${PROJECT_ID}
+```
+
+Install
+1. Go
+2. gsutil
+3. gcloud
+
 #### Make and Save Go Application Image
 
 The Go app is not needed for chinesenotes.com at the moment but it is use for
@@ -280,14 +308,7 @@ curl http://localhost:8080/findsubstring?query=男&topic=Idiom
 
 Run it locally with all features enabled
 ```
-DBUSER=app_user
-DBPASSWORD="***"
-DATABASE=cse_dict
 docker run -itd --rm -p 8080:8080 --name cn-app --link mariadb \
-  -e DBHOST=mariadb \
-  -e DBUSER=$DBUSER \
-  -e DBPASSWORD=$DBPASSWORD \
-  -e DATABASE=$DATABASE \
   -e SENDGRID_API_KEY="$SENDGRID_API_KEY" \
   -e GOOGLE_APPLICATION_CREDENTIALS=/cnotes/credentials.json \
   -e TEXT_BUCKET="$TEXT_BUCKET" \
@@ -344,7 +365,7 @@ To generate all HTML files, from the top level project directory
 ```
 export CNREADER_HOME=`pwd`
 export DEV_HOME=`pwd`
-bin/cnreader.sh
+nohup bin/cnreader.sh &
 ```
 
 For production, copy the files to the storage system.
