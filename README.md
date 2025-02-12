@@ -394,32 +394,6 @@ Test that content is returned properly:
 curl -I https://${DOMAIN}/cached/ntireader.json.gz
 ```
 
-### Set up a Cloud SQL Database
-New: Replacing management of the Mariadb database in a Kubernetes cluster
-Follow instructions in 
-[Cloud SQL Quickstart](https://cloud.google.com/sql/docs/mysql/quickstart) using
-the Cloud Console.
-
-Connect to the instance from a VM
-```
-DB_INSTANCE=[your database instance]
-gcloud sql connect $DB_INSTANCE --user=root
-```
-
-Execute statements in first_time_setup.sql and corpus_index.ddl to define
-database and tables as per instructions at
-https://github.com/alexamies/chinesenotes-go
-
-Don't forget to switch to the proper database
-
-```sql
-use cse_dict
-```
-
-Load the proper files into the words table as per data/load_data.sql, the
-proper corpus files into the database as per data/load_index.sql, and the
-proper index files as per index/load_word_freq.sql.
-
 ### Deploy to Cloud Run
 
 Deploy the web app to Cloud Run
