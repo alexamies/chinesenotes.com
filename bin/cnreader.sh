@@ -183,7 +183,4 @@ cp web-resources/script/*.js $WEB_DIR/script/.
 cp web-resources/images/*.* $WEB_DIR/images/.
 cp web-resources/mp3/*.* $WEB_DIR/mp3/.
 cp corpus/images/*.* $WEB_DIR/images/.
-
-python3 bin/words2json.py "data/cnotes_zh_en_dict.tsv,data/translation_memory_literary.txt,data/translation_memory_modern.txt,data/modern_named_entities.txt" $WEB_DIR/dist/ntireader.json
-cd $WEB_DIR/dist && rm -f ntireader.json.gz && gzip ntireader.json && cd $CNREADER_HOME
 echo 'cnreader done'
