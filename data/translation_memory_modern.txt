@@ -93,7 +93,7 @@
 5000093	老三色	\N	lǎosānsè	the three plain colors used for clothing in the PRC in the 1960s: black, gray and blue	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '老三色')	5000093
 5000094	老子英雄儿好汉，老子反动儿混蛋	老子英雄兒好漢，老子反動兒混蛋	lǎozǐ yīngxióng ér hǎohàn, lǎozǐ fǎndòng ér húndàn	If the father is a hero, the son is a real man. If the father is a reactionary, the son is a bastard. (Cultural Revolution slogan)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '老子英雄兒好漢，老子反動兒混蛋')	5000094
 5000095	亲美	親美	qīn měi	pro-United States	set phrase	\N	\N	现代汉语	Modern Chinese	政治	Politics	\N	\N	(CC-CEDICT '親美')	5000095
-5000096	纸老虎	紙老虎	zhǐ lǎohǔ	paper tiger	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	A term used by 毛泽东 Mao Zedong to refer to the United States (Sullivan and Hearst 1997, 'PAPER TIGER')	5000096
+5000096	雇佣军队	雇傭軍隊	gùyòng jūnduì	mercenary army	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 300-301)	5000096
 5000097	联俄	聯俄	liáné	alliance with Russia (e.g. of early Chinese communists)	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '聯俄')	5000097
 5000098	联产到户	聯產到戶	liánchǎn dào hù	household responsibility system	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Introduced in the early 1980s, under which each rural household could freely decide what to produce and how to sell, as long as it fulfilled its quota of products to the state (CC-CEDICT '聯產到戶')	5000098
 5000099	脱亚入欧	脫亞入歐	tuō yà rù ōu	to abandon the old (Asian) ways and learn from Europe	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '脫亞入歐')	5000099
@@ -468,4 +468,3 @@
 5000468	我们都是来自五湖四海	我們都是來自五湖四海	wǒmen dōu shì láizì wǔ hú sì hǎi	we all come from different corners of the land	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 282-283)	5000468
 5000469	团结广大人民	團結廣大人民	tuánjié guǎngdà rénmín	unite with the masses of the people	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 292-293)	5000469
 5000470	烦琐的礼节	煩瑣的禮節	fánsuǒ de lǐjié	tedious formalities	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 300-301)	5000470
-5000471	雇佣军队	雇傭軍隊	gùyòng jūnduì	mercenary army	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Quote: from 毛主席语录 Quotations from Chairman Mao Tse-Tung (Mao Zedong 1966, pp. 300-301)	5000471
