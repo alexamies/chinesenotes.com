@@ -417,6 +417,10 @@ curl -I https://${DOMAIN}/cached/ntireader.json.gz
 
 ### Deploy to Cloud Run
 
+**Deprecated**: Static site generation with these instructions is now replaced
+by https://github.com/alexamies/chinesenotes-frontend. Full text search
+service is still served by the cnreader service.
+
 Deploy the web app to Cloud Run
 
 ```shell

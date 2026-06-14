@@ -6804,3 +6804,6 @@
 6006804	联邦医疗补助	聯邦醫療補助	liánbāng yīliáo bǔzhù	Medicaid	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '聯邦醫療補助')	6006804
 6006805	沙国	沙國	shāguó	Saudi Arabia	proper noun	国家	Country	现代汉语	Modern Chinese	地理学	Geography	\N	\N	Taiwanese usage; abbreviation for 沙烏地阿拉伯王國|沙乌地阿拉伯王国 (CC-CEDICT '沙國')	6006805
 6006806	莫文蔚	\N	mò wényù	Karen Mok	proper noun	女演员	Actress	戏剧	Drama	中国	China	\N	\N	1970 -, Hong Kong born vocalist and actress (Wikipedia '莫文蔚')	6006806
+6006807	李家同	\N	lǐ jiātóng	R. C. T. Lee	proper noun	学者	Scholar	教育	Education	\N	\N	\N	\N	1939 - (Wikipedia '李家同')	6006807
+6006808	洪兰	洪蘭	hóng lán	Daisy L. Hung	proper noun	科学家	Scientist	教育	Education	\N	\N	\N	\N	1947 - (Wikipedia '洪蘭')	6006808
+6006809	郝明义	郝明義	hǎo míngyì	Rex How	proper noun	人	Person	文学	Literature	\N	\N	\N	\N	1956 - ; Korean born Chinese publisher (Wikipedia '郝明義')	6006809
