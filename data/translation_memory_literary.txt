@@ -11,7 +11,7 @@
 3000011	林声	林聲	lín shēng	noises of the forest	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: generic expression (Amies 2021 tr.; see also tr. in Barnes 2007, p. 36)	3000011
 3000012	竹木	\N	zhú mù	bamboo and wood	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: generic expression (Amies 2021 tr.; see also tr. in Barnes 2007, p. 37; CC-CEDICT '竹'; Guoyu '竹')	3000012
 3000013	好乐	好樂	hǎo lè	fondness and happiness	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 大学 “Great Learning” (Amies 2021 tr.; see also tr. in Plaks 2015, p. 73)	3000013
-3000014	忿懥	\N	fèn zhì	anger and resentment	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 大学 “Great Learning” (Amies 2021 tr.; see also tr. in Plaks 2015, p. 73)	3000014
+3000014	咫尺天颜	咫尺天顏	zhǐ chǐ tiān yán	a close advisor to the emperor	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Wenxuan 文選 Scroll 22 (Mathews 1931 '咫尺天顏', p. 131)	3000014
 3000015	亲爱	親愛	qīn ài	kinship and love	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 大学 “Great Learning” (Amies 2021 tr.; see also tr. in Plaks 2015, pp. 73-74)	3000015
 3000016	贱恶	賤惡	jiàn è	disdain and lothing	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 大学 “Great Learning” (Amies 2021 tr.; see also tr. in Plaks 2015, pp. 73-74)	3000016
 3000017	畏敬	\N	wèi jìng	fear and respect	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Collocation: from 大学 “Great Learning” (Amies 2021 tr.; see also tr. in Plaks 2015, pp. 73-74)	3000017
@@ -1304,4 +1304,3 @@
 3001304	在水中沚	\N	zài shuǐ zhōng zhǐ	on an islet in the stream	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from The Book of Songs 詩經, 國風‧秦‧蒹葭 Lessons from the states - Odes of Qin - Jian Jia (Mathews 1931 '在水中沚', p. 131)	3001304
 3001305	母也天只	\N	mǔ yě tiān zhī	Mother! Heaven!	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from The Book of Songs 詩經, 鄘風·柏舟 Yong Feng - Bai Zhou (Guoyu '只'; Mathews 1931 '母也天只', p. 131)	3001305
 3001306	不谅人只	不諒人只	bù liàng rén zhī	why do you misunderstand me?	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from The Book of Songs 詩經, 鄘風·柏舟 Yong Feng - Bai Zhou (Guoyu '只'; Mathews 1931 '不諒人只', p. 131)	3001306
-3001307	咫尺天颜	咫尺天顏	zhǐ chǐ tiān yán	a close advisor to the emperor	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Quote: from Wenxuan 文選 Scroll 22 (Mathews 1931 '咫尺天顏', p. 131)	3001307
