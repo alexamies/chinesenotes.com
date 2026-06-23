@@ -74,6 +74,5 @@ sanguoyanyi.csv	sanguoyanyi.html	Romance of the Three Kingdoms 三國演義	By L
 xiyouji.csv	xiyouji.html	Journey to the West 西遊記	Ming dynasty novel by Wu Cheng'en 吳承恩, one of the Four Classic Novels of Chinese literature	xiyouji/xiyouji000.txt	Literary Chinese	Prose	c. 1582	fiction
 rulinwaishi.csv	rulinwaishi.html	The Scholars 儒林外史	Also known as <i>Unofficial History of the Scholars</i>, a satirical novel by 吴敬梓 Wu Jingzi 1701—1754	rulinwaishi/rulinwaishi00.txt	Literary Chinese	Prose	1750	fiction
 hongloumeng.csv	hongloumeng.html	Dream of the Red Chamber 紅樓夢	A novel by 曹雪芹 Cao Xueqin c. 1715-1763, one of the Four Great Classical Novels of Chinese literature	hongloumeng/hongloumeng000.txt	Vernacular Chinese	Prose	1791	fiction
-modern_articles.csv	media_articles.html	Media articles	\N	\N	Modern Chinese	Prose	Modern	non-fiction
 laoshe.csv	laoshe.html	A small number of phrases from the writings of Lao She	\N	\N	Modern Chinese	Prose	Modern	fiction
 yeshengtao.csv	yeshengtao.html	A small number of phrases from the writings of Ye Shengtao	\N	\N	Modern Chinese	Prose	Modern	fiction
