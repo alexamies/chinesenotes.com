@@ -6807,3 +6807,4 @@
 6006807	李家同	\N	lǐ jiātóng	R. C. T. Lee	proper noun	学者	Scholar	教育	Education	\N	\N	\N	\N	1939 - (Wikipedia '李家同')	6006807
 6006808	洪兰	洪蘭	hóng lán	Daisy L. Hung	proper noun	科学家	Scientist	教育	Education	\N	\N	\N	\N	1947 - (Wikipedia '洪蘭')	6006808
 6006809	郝明义	郝明義	hǎo míngyì	Rex How	proper noun	人	Person	文学	Literature	\N	\N	\N	\N	1956 - ; Korean born Chinese publisher (Wikipedia '郝明義')	6006809
+6006810	大众	大眾	dàzhòng	Volkswagen	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	da4zhong4.mp3	Automobile manufacturer (CC-CEDICT '大眾')	6006810
