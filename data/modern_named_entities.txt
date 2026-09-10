@@ -3863,8 +3863,8 @@
 6003863	国家铁路局	國家鐵路局	Guójiā tiělù Jú	National Railway Administration	proper noun	国家局	State Bureau	政府	Government	中国	China	\N	\N	(Wikipedia '國家鐵路局')	6003863
 6003864	东南亚国家联盟	東南亞國家聯盟	dōngnán yà guó jiā liánméng	ASEAN (Association of Southeast Asian Nations)	proper noun	\N	\N	政府	Government	亚洲	Asia	\N	\N	(CC-CEDICT '東南亞國家聯盟')	6003864
 6003865	东南大学	東南大學	dōngnán dàxué	Southeast University	proper noun	大学	University	教育	Education	\N	\N	\N	\N	(CC-CEDICT '東南大學')	6003865
-6003866	东印度公司	東印度公司	dōng yìndù gōngsī	East India Company	proper noun	公司	Company	商务	Commerce	亚洲	Asia	\N	\N	(CC-CEDICT '東印度公司')	6003866
-6003867	东密德兰	東密德蘭	dōngmì dé lán	East Midlands, English county	proper noun	县	County	地方	Places	英国	England	\N	\N	(CC-CEDICT '東密德蘭')	6003867
+6003866	大众	大眾	dàzhòng	Volkswagen	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	da4zhong4.mp3	Automobile manufacturer (CC-CEDICT '大眾')	6003866
+6003867	东密德兰	東密德蘭	dōngmì dé lán	East Midlands (English county)	proper noun	县	County	地方	Places	英国	England	\N	\N	(CC-CEDICT '東密德蘭')	6003867
 6003868	东方明珠电视塔	東方明珠電視塔	dōngfāng míngzhū diànshìtǎ	Oriental Pearl Television Tower	proper noun	地名	Place Name	地方	Places	\N	\N	\N	\N	(CC-CEDICT '東方明珠電視塔')	6003868
 6003869	东突厥斯坦伊斯兰运动	東突厥斯坦伊斯蘭運動	dōngtū jué sī tǎn yīsīlán yùndòng	East Turkestan Islamic Movement (ETIM)	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '東突厥斯坦伊斯蘭運動')	6003869
 6003870	东突厥斯坦解放组织	東突厥斯坦解放組織	dōngtū jué sī tǎn jiěfàng zǔzhī	East Turkestan Liberation Organization (ETLO), Xinjiang dissident group	proper noun	\N	\N	现代汉语	Modern Chinese	中国	China	\N	\N	(CC-CEDICT '東突厥斯坦解放組織')	6003870
@@ -6807,4 +6807,3 @@
 6006807	李家同	\N	lǐ jiātóng	R. C. T. Lee	proper noun	学者	Scholar	教育	Education	\N	\N	\N	\N	1939 - (Wikipedia '李家同')	6006807
 6006808	洪兰	洪蘭	hóng lán	Daisy L. Hung	proper noun	科学家	Scientist	教育	Education	\N	\N	\N	\N	1947 - (Wikipedia '洪蘭')	6006808
 6006809	郝明义	郝明義	hǎo míngyì	Rex How	proper noun	人	Person	文学	Literature	\N	\N	\N	\N	1956 - ; Korean born Chinese publisher (Wikipedia '郝明義')	6006809
-6006810	大众	大眾	dàzhòng	Volkswagen	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	da4zhong4.mp3	Automobile manufacturer (CC-CEDICT '大眾')	6006810
