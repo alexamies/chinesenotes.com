@@ -488,7 +488,7 @@
 488	栗色	\N	lìsè	chestnut	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '栗色'; Guoyu '栗色')	488
 489	猩红	猩紅	xīnghóng	scarlet	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '猩紅'; Guoyu '猩紅' 1)	489
 490	猩红色	猩紅色	xīnghóngsè	scarlet (color)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '猩紅色')	490
-491	白	\N	bái	white	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	White in color, in the sense of 白色 (CCD 1 '白' 1; FE '白' 1; GHDC '白' 1). For example, 白云 'white clouds.' (XHW 2016-02-04)	491
+491	白	\N	bái	white	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	White in color, in the sense of 白色 (CC-CEDICT '白'; CCD 1 '白' 1; FE '白' 1; GHDC '白' 1; Guoyu '白' n 1; Kroll 2015 '白' 1, p. 7). For example, 白云 'white clouds.' (XHW 2016-02-04)	491
 492	白色	\N	báisè	white	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '白色'; Guoyu '白色' 1)	492
 493	黑	\N	hēi	black	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	hei1.mp3	For example, 白纸写黑字 'to write black characters on white paper [to clearly document the matter]' (Suyu. p. 22; Guoyu '黑' n 1; Kroll 2015 '黑' 1, p. 159; Unihan '黑')	493
 494	黑色	\N	hēisè	black	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	hei1se4.mp3	(C-CEDICT '黑色'; Guoyu '黑色' 1)	494
@@ -1178,7 +1178,7 @@
 1178	出现	出現	chūxiàn	to appear	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	chu1xian4.mp3	In the sense of 现出 (CC-CEDICT '出現'; Guoyu '出現' 1)	1178
 1179	矛盾	\N	máodùn	contradiction	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	mao2dun4.mp3	For example, in the idiom 自相矛盾 'self-contradictory' (CCD '矛盾' 2; CCI '自相矛盾')	1179
 1180	虽然	雖然	suīrán	although; even though	conjunction	关联词	Correlative	现代汉语	Modern Chinese	虚词	Function Words	\N	sui1ran2.mp3	This conjunction is often used as a connecting word in the main clause of subordinate complex sentences.  It is often used in the pattern 虽然…，但是… to express a contrasting relationship between clauses (Sun 2006, loc. 2069).	1180
-1181	快	\N	kuài	fast; quick	adjective	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	kuai4.mp3	In the sense of 迅速 (Guoyu '快' adj 3; Kroll 2015 '快' 2; Unihan '快'; XHZD '快' 1)	1181
+1181	快	\N	kuài	fast; quick	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	kuai4.mp3	In the sense of 迅速 (Guoyu '快' adj 3; Kroll 2015 '快' 2; Unihan '快'; XHZD '快' 1)	1181
 1182	但	\N	dàn	but; yet; however	conjunction	\N	\N	现代汉语	Modern Chinese	虚词	Function Words	\N	dan4.mp3	In the sense of 可是 (Dobson 1964, p. 28; Guoyu '但' conj; Kroll 2015 '但' 3; Unihan '但'; XHZD '但' 2)	1182
 1183	低	\N	dī	low	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	di1.mp3	For example, 她低声的说 'She said in a low voice.' (Lao She, 2003, p. 176; Unihan '低')	1183
 1184	低	\N	dī	to lower; to drop down	verb	方向	Direction	现代汉语	Modern Chinese	\N	\N	\N	di1.mp3	(Unihan '低')	1183
@@ -1393,7 +1393,7 @@
 1393	需要	\N	xūyào	needs; requirements	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	xu1yao4.mp3	For example, 特殊需要 'special requirements.' (XHN 2015-11-28)	1392
 1394	实现	實現	shíxiàn	to implement; to realize	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	shi2xian4.mp3	(CC-CEDICT '實現')	1394
 1395	协调	協調	xiétiáo	to coordinate; to harmonize	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	xie2tiao2.mp3	(CC-CEDICT '協調')	1395
-1396	迟缓	遲緩	chíhuǎn	slow; sluggish	adjective	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遲緩')	1396
+1396	迟缓	遲緩	chíhuǎn	slow; sluggish	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遲緩'; Guoyu '遲緩'; Mathews 1931 '遲緩', p. 142)	1396
 1397	决心	\N	juéxīn	determination; resolution	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	jue2xin1.mp3	(CC-CEDICT '决心')	1397
 1398	决心	\N	juéxīn	to be determined; to be resolute	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	jue2xin1.mp3	(CC-CEDICT '决心')	1397
 1399	加快	\N	jiākuài	to accelerate	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	jia1kuai4.mp3	(CC-CEDICT '加快')	1399
@@ -1818,7 +1818,7 @@
 1818	龙	龍	lóng	dragon	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	long2.mp3	Symbolic of the emperor (GHC '龙' 1; Kroll 2015 '龍' 1; Unihan '龍')	1818
 1819	头条	頭條	tóutiáo	lead story (on the news)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '頭條')	1819
 1820	仿制品	仿製品	fǎngzhìpǐn	counterfeit object; fake	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '仿製品')	1820
-1821	奔腾	奔騰	bēnténg	to surge forward; to gallop	verb	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	ben1teng2.mp3	(CC-CEDICT '奔騰'; Guoyu '奔騰')	1821
+1821	奔腾	奔騰	bēnténg	to surge forward; to gallop	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	ben1teng2.mp3	(CC-CEDICT '奔騰'; Guoyu '奔騰')	1821
 1822	仿行	\N	fǎngxíng	to fashion after; to imitate	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '仿行')	1822
 1823	吗	嗎	ma	indicates a question	particle	语气助词	Modal Particle	现代汉语	Modern Chinese	虚词	Function Words	\N	ma.mp3	Placed at the end of a sentence to indicate a yes or no question (Sun 2006, loc. 850)	1823
 1824	雷电	雷電	léidiàn	thunder and lightning	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '雷電'; Guoyu '雷電' 1)	1824
@@ -2122,7 +2122,7 @@
 2122	搜索	\N	sōusuǒ	search; to look something up	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	sou1suo3.mp3	Often used in an internet search (CC-CEDICT '搜索')	2122
 2123	选项	選項	xuǎnxiàng	options	noun	\N	\N	计算机科学	Computer Science	\N	\N	\N	xuan3xiang4.mp3	Often used for computer software settings (CC-CEEDICT '選項')	2123
 2124	无法	無法	wúfǎ	unable; incapable	adverb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	wu2fa3.mp3	In the sense of 没有办法 (CC-CEDICT '無法'; Guoyu '無法' 2)	2124
-2125	快速	\N	kuàisù	fast; high-speed; rapid	adjective	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	kuai4su4.mp3	(CC-CEDICT '快速')	2125
+2125	快速	\N	kuàisù	fast; high-speed; rapid	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	kuai4su4.mp3	(CC-CEDICT '快速')	2125
 2126	通道	\N	tōngdào	channel; thoroughfare; passage	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	tong1dao4.mp3	(CC-CEDICT '通道')	2126
 2127	途径	途徑	tújìng	way; channel	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	tu2jing4.mp3	(CC-CEDICT '途徑')	2127
 2128	直接	\N	zhíjiē	direct; straight ahead; immediate	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zhi2jie1.mp3	(CC-CEDICT '直接'; Guoyu '直接'; Mathews 1931 '直接', p. 139)	2128
@@ -2151,7 +2151,7 @@
 2151	突然	\N	tūrán	suddenly; abruptly	adverb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	tu1ran2.mp3	A movable adverb (Sun 2006, loc. 1701)	2150
 2152	照片	\N	zhàopiàn	a photo; a photograph; picture	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zhao1pian4.mp3	Measure word: 张; same as 相片 and 像片 (CC-CEDICT '照片'; Guoyu '照片'; Mathews 1931 '照片', p. 28; Wikipedia '相片')	2152
 2153	论坛	論壇	lùntán	forum (for discussion)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	lun4tan2.mp3	(CC-CEDICT '論壇')	2153
-2154	迅速	\N	xùnsù	rapid; speedy; fast	adjective	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	xun4su4.mp3	(CC-CEDICT '迅速')	2154
+2154	迅速	\N	xùnsù	rapid; speedy; fast	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	xun4su4.mp3	(CC-CEDICT '迅速')	2154
 2155	针对	針對	zhēnduì	in connection with; directed towards	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zhen1dui4.mp3	(CC-CEDICT '針對')	2155
 2156	初步	\N	chūbù	initial; preliminary; tentative	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	chu1bu4.mp3	(CED '初步'; NCCED '初步')	2156
 2157	涉	\N	shè	to ford a stream; to wade across	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	she4.mp3	In the sense of 渡水 (CC-CEDICT '涉'; Guoyu '涉' v 1; Kroll 2015 '涉' 1, p. 405; Unihan '涉'; XHZD '涉' 1, p. 664)	2157
@@ -2309,21 +2309,21 @@
 2309	数字	數字	shùzì	numeral; digit; number; figure; amount	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	shu4zi4.mp3	(CC-CEDICT '數字')	2309
 2310	数字	數字	shùzì	digital	adjective	\N	\N	现代汉语	Modern Chinese	电机工程学	Electrical Engineering	\N	shu4zi4.mp3	(CC-CEDICT '數字')	2309
 2311	区分	區分	qūfēn	to differentiate	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	qu1fen1.mp3	(CC-CEDICT '區分'; Guoyu '區分')	2311
-2312	大小	\N	dàxiǎo	dimension; magnitude; size; measurement	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	da4xiao3.mp3	(CC-CEDICT '大小')	2312
+2312	大小	\N	dàxiǎo	dimension; magnitude; size; measurement	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	da4xiao3.mp3	(CC-CEDICT '大小'; Guoyu '大小' 2)	2312
 2313	大小写	大小寫	dàxiǎo xiě	case	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	da4xiao3xie3.mp3	As in upper and lower case Latin characters (CC-CEDICT '大小寫')	2313
 2314	硬件	\N	yìngjiàn	hardware	noun	\N	\N	计算机科学	Computer Science	硬件	Hardware	\N	ying4jian4.mp3	(CC-CEDICT '硬件')	2314
 2315	仿讽	仿諷	fǎngfěng	parody	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '仿諷')	2315
 2316	规格	規格	guīgé	standard; norm; specification	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	gui1ge2.mp3	(CC-CEDICT '規格')	2316
 2317	处理器	處理器	chǔlǐ qì	microprocessor	noun	\N	\N	现代汉语	Modern Chinese	电机工程学	Electrical Engineering	\N	chu3li3qi4.mp3	(CC-CEDICT '處理器')	2317
-2318	大小	\N	dàxiǎo	large and small	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '大小')	2312
-2319	速度	\N	sùdù	speed; rate; velocity	noun	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	su4du4.mp3	An example of a word that includes the nominalizing suffix 度 'degree' (Sun 2006, loc. 714)	2319
+2318	大小	\N	dàxiǎo	large and small	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '大小')	2312
+2319	速度	\N	sùdù	speed; rate; velocity	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	su4du4.mp3	An example of a word that includes the nominalizing suffix 度 'degree' (Sun 2006, loc. 714)	2319
 2320	级	級	jí	stairs; a step	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	ji2.mp3	In the sense of 台阶 (Guoyu '級' n 3; Kroll 2015 '級' 2, p. 186; XHZD '级' 1)	2320
 2321	高速缓存	高速緩存	gāosù huǎncún	cache; high speed cache	set phrase	\N	\N	计算机科学	Computer Science	操作系统	Operating Systems	\N	gao1su4huan3cun2.mp3	(CC-CEDICT '高速緩存')	2321
 2322	级	級	jí	grade	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	For example, 小学一年级 first grade in elementary school (Guoyu '級' n 2; XHZD '级' 3)	2320
 2323	总线	總線	zǒngxiàn	computer bus	noun	\N	\N	计算机科学	Computer Science	硬件	Hardware	\N	zong3xian4.mp3	(CC-CEDICT '總線')	2323
 2324	转	轉	zhuǎn	to transmit; to convey; to forward (mail)	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In the sense of 转运 (CCD zhuǎn '转' 2; GHDC 1 '转' 1; Unihan '轉')	2324
 2325	转	轉	zhuàn	to revolve; to turn; to circle about; to walk about	verb	方向	Direction	现代汉语	Modern Chinese	\N	\N	\N	zhuan4.mp3	(CCD zhuàn '转' 1; FE '轉' 1; Unihan '轉')	2324
-2326	高速	\N	gāosù	high speed	adjective	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	gao1su4.mp3	(CC-CEDICT '高速')	2326
+2326	高速	\N	gāosù	high speed	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	gao1su4.mp3	(CC-CEDICT '高速')	2326
 2327	转	轉	zhuàn	a revolution	measure word	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zhuan4.mp3	(CCD zhuàn '转' 3)	2324
 2328	硬盘	硬盤	yìngpán	hard disk	noun	\N	\N	计算机科学	Computer Science	存储	Storage	\N	ying4pan2.mp3	(CC-CEDICT '硬盤')	2328
 2329	眩	\N	xuàn	to be dizzy; to be dazed	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	xuan4.mp3	(CC-CEDICT '眩'; Guoyu '眩' v 1; Unihan '眩')	2329
@@ -2949,7 +2949,7 @@
 2949	竞赛	競賽	jìngsài	race; competition; contest; match	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	jing4sai4.mp3	Measure word: 个 (CC-CEDICT '競賽')	2949
 2950	单项	單項	dānxiàng	individual item	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	dan1xiang4.mp3	(CC-CEDICT '單項'; Guoyu '單項')	2950
 2951	培养	培養	péiyǎng	to train; to culture; to groom	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	pei2yang3.mp3	(CC-CEDICT '培養'; Guoyu '培養' 1)	2951
-2952	稳步	穩步	wěnbù	a steady pace	noun	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	wen3bu4.mp3	(ABC 'wěnbù' 穩步; CC-CEDICT '穩步')	2952
+2952	稳步	穩步	wěnbù	a steady pace	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	wen3bu4.mp3	(ABC 'wěnbù' 穩步; CC-CEDICT '穩步')	2952
 2953	抓紧	抓緊	zhuājǐn	to grasp	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '抓緊'; Guoyu '抓緊')	2953
 2954	制订	制訂	zhìdìng	to work out; to formulate	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zhi4ding4.mp3	(CC-CEDICT '制訂'; Ding '制訂')	2954
 2955	日程	\N	rìchéng	itinerary	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	ri4cheng2.mp3	(CC-CEDICT '日程'; Guoyu '日程' 1)	2955
@@ -3064,7 +3064,7 @@
 3064	明	\N	míng	Ming Dynasty	proper noun	朝代	Dynasty	历史	History	中国	China	\N	ming2.mp3	1368-1644 (Giles 1892, p. 1364; Guoyu '明' n 4; Wikipedia '明朝'; XHZD '明' 8, pp. 509-510)	3062
 3065	奎	\N	kuí	stride of a man	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	kui2.mp3	(Guoyu '奎' n 1; Kroll 2015 '奎' 1b, p. 246; Unihan '奎')	3065
 3066	奎	\N	kuí	Kui Constellation	proper noun	星座	Constellation	文言文	Literary Chinese	天文	Astronomy	\N	kui2.mp3	One of the twenty-eight celestial mansions in traditional Chinese astronomy (Guoyu '奎' n 2; Kroll 2015 '奎' 2, p. 246; Unihan '奎'; XHZD '奎', p. 404)	3065
-3067	治安	\N	zhì ān	law and order; public security	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zhi4an2.mp3	(CC-CEDICT '治安'; Guoyu '治安' 2)	3067
+3067	治安	\N	zhì ān	law and order; public security	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zhi4an2.mp3	(CC-CEDICT '治安'; Guoyu '治安' 2; Mathews 1931 '治安', p. 141)	3067
 3068	探险	探險	tànxiǎn	to explore	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '探險'; Guoyu '探險')	3068
 3069	资	資	zī	wealth; capital; money; expenses	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zi1.mp3	In the sense of 費用 (NCCED '资' 2; Guoyu '資' n 2; Kroll 2015 '資' 1; Unihan '資')	3069
 3070	否认	否認	fǒurèn	to deny	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	fou3ren4.mp3	(CC-CEDICT '否認'; Guoyu '否認')	3070
@@ -3920,7 +3920,7 @@
 3920	愚	\N	yú	stupid; doltish; foolish; ignorant	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	yu2.mp3	In the sense of 笨 (CCD '愚' 1; Guoyu'愚' adj 1; Kroll 2015 '愚' 1, p. 567; Unihan '愚'; XHZD '愚' 1)	3920
 3921	辩才	辯才	biàncái	eloquence	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '辯才'; Guoyu '辯才')	3921
 3922	悉	\N	xī	to know; to learn about; to comprehend	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	xi1.mp3	In the sense of 知道 (Guoyu '悉' v 2; Kroll 2015 '悉' 2, p. 484; Unihan '悉'; XHZD '悉' 1, p. 802)	3922
-3923	癡	\N	chī	ignorant; stupid	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	A variant of 痴 (CC-CEDICT '癡'; Guoyu '癡'; Unihan '癡')	3923
+3923	癡	\N	chī	ignorant; stupid	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	A variant of 痴 (CC-CEDICT '癡'; Guoyu '癡'; Mathews 1931 '癡', p. 142; Unihan '癡')	3923
 3924	学	學	xué	to study; to learn	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	xue2.mp3	The sense of 学习 is used in literary Chinese as well as modern Chinese. For example in literary Chinese, 吾十有五而志于學 ‘At fifteen, I had my mind bent on learning.’ (Lunyu 2:4, trans. by Legge 1861; Guoyu '學' v 2; Kroll 2015 '學' 1, p. 521)	3924
 3925	闻	聞	wén	to hear	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	wen2.mp3	In the sense of 听到 (Guoyu '聞' wén v 1; Rouzer 2007, p. 38)	3925
 3926	闻	聞	wén	Wen	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	wen2.mp3	(Guoyu '聞' wén n 3)	3925
@@ -5442,7 +5442,7 @@
 5442	遗	遺	yí	to leave behind	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	yi2.mp3	Middle Chinese: ywij; in the sense of 遗留 (ABC 'yí' bf 2)	5442
 5443	漏	\N	lòu	to leak; to drip	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	lou4.mp3	To leak water or some other liquid; for example, 漏雨 'leak rainwater' (Guoyu '漏' v 1; Kroll 2015 '漏' 1, p. 281; Unihan '漏'; XHZD '漏' 1)	5443
 5444	遗漏	遺漏	yílòu	to overlook; to miss; to omit	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	yi2lou4.mp3	(CC-CEDICT '遺漏'; Guoyu '遺漏')	5444
-5445	急剧	急劇	jíjù	rapid; sudden	adjective	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	ji2ju4.mp3	(CC-CEDICT '急劇'; Guoyu '急劇')	5445
+5445	急剧	急劇	jíjù	rapid; sudden	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	ji2ju4.mp3	(CC-CEDICT '急劇'; Guoyu '急劇')	5445
 5446	萎	\N	wēi	to wither; to wilt	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '萎'; Guoyu '萎' v 1; Kroll 2015 '萎' 1, p. 471; Unihan '萎')	5446
 5447	萎缩	萎縮	wěisuō	to wither; to dry up; to atrophy	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	wei3suo1.mp3	(CC-CEDICT '萎縮')	5447
 5448	发改委	發改委	fā gǎi Wěi	Development and Reform Committee	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	fa1gai3wei3.mp3	(CC-CEDICT '發改委'; Wikipedia '中华人民共和国国家发展和改革委员会')	5448
@@ -5548,7 +5548,7 @@
 5548	其一	\N	qíyī	first; number one of the above	ordinal	\N	\N	现代汉语	Modern Chinese	虚词	Function Words	\N	qi2yi1.mp3	(CC-CEDICT '其一')	5548
 5549	末	\N	mò	end; final stage; latter part	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	mo4.mp3	(CC-CEDICT '末'; Unihan '末')	5549
 5550	末期	\N	mòqī	last times; final stage	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	mo4qi1.mp3	(CC-CEDICT '末期'; Guoyu '末期')	5550
-5551	加速	\N	jiāsù	accelerate; expedite	verb	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	jia1su4.mp3	(CC-CEDICT '加速'; Guoyu '加速'; Mathews 1931 '加速', p. 77)	5551
+5551	加速	\N	jiāsù	accelerate; expedite	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	jia1su4.mp3	(CC-CEDICT '加速'; Guoyu '加速'; Mathews 1931 '加速', p. 77)	5551
 5552	暇	\N	xiá	leisure; relaxation; spare time	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	xia2.mp3	(CC-CEDICT '暇'; Guoyu '暇' n; Unihan '暇')	5552
 5553	不暇	\N	bùxiá	have no time; be too busy	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '不暇'; Guoyu '不暇')	5553
 5554	地步	\N	dìbù	location	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	di4bu4.mp3	In the sense of 位置 (CC-CEDICT '地步'; Guoyu '地步' 1)	5554
@@ -5819,7 +5819,7 @@
 5819	气管	氣管	qìguǎn	windpipe; trachea; respiratory tract; air duct	noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	qi4guan3.mp3	(CC-CEDICT '氣管'; Guoyu '氣管'; Wikipedia '氣管')	5819
 5820	肺	\N	fèi	lung	noun	器官	Organ	现代汉语	Modern Chinese	\N	\N	\N	fei4.mp3	(CC-CEDICT '肺'; Guoyu '肺' n; Unihan '肺')	5820
 5821	肺泡	\N	fèipào	pulmonary alveolus	noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	fei4pao4.mp3	(CC-CEDICT '肺泡'; Guoyu '肺泡'; Wikipedia '肺泡')	5821
-5822	迟	遲	chí	late; tardy	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	chi2.mp3	(Kroll 2015 '遲' 1a, p. 51; Unihan '遲')	5822
+5822	迟	遲	chí	late; tardy	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	chi2.mp3	(Kroll 2015 '遲' 1a, p. 51; Mathews 1931 '遲', p. 141; Unihan '遲')	5822
 5823	谄人	諂人	chǎnrén	somebody who flatters	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '諂人', p. 18)	5823
 5824	肺水肿	肺水腫	fèi shuǐ zhǒng	pulmonary edema	noun	疾病	Illness	现代汉语	Modern Chinese	医学	Medicine	\N	fei4shui3zhong3.mp3	(CC-CEDICT '肺水腫')	5824
 5825	成人	\N	chéngrén	adult	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	cheng2ren2.mp3	(CC-CEDICT '成人'; Guoyu '成人' 1; Mathews 1931 '成人', p. 46)	5825
@@ -6923,7 +6923,7 @@
 6923	疒	\N	nì	sickness	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In the sense of 疾病 (Guoyu '疒' n 1)	6922
 6924	疒	\N	nì	Kangxi radical 104	noun	\N	\N	现代汉语	Modern Chinese	部首	Radicals	\N	\N	(ABC back cover; GHC p. 7; Guoyu '疒' n 2; Unihan '疒')	6922
 6925	癶	\N	bō	Kangxi radical 105	noun	\N	\N	现代汉语	Modern Chinese	部首	Radicals	\N	bo1.mp3	(ABC back cover; GHC p. 7)	6925
-6926	白	\N	bái	Kangxi radical 106	noun	\N	\N	现代汉语	Modern Chinese	部首	Radicals	\N	bai2.mp3	(ABC back cover; GHC p. 7)	491
+6926	白	\N	bái	Kangxi radical 106	noun	\N	\N	现代汉语	Modern Chinese	部首	Radicals	\N	bai2.mp3	(ABC back cover; GHC p. 7; Guoyu '白' n 6)	491
 6927	皮	\N	pí	Kangxi radical 107	noun	\N	\N	现代汉语	Modern Chinese	部首	Radicals	\N	\N	(ABC back cover; GHC p. 7; CC-CEDICT '皿'; Guoyu '皿' n 1; Guoyu '皮' n 6)	5972
 6928	皿	\N	mǐn	a dish; a vessel; a shallow container	noun	餐具	Tableware	文言文	Literary Chinese	\N	\N	\N	\N	皿：飯食之用器也。 'mǐn: a container used for holding food.' (Shuo Wen Jie Zi, Scroll 6 說文解字‧卷六; Unihan '皿')	6928
 6929	皿	\N	mǐn	Kangxi radical 108	noun	\N	\N	现代汉语	Modern Chinese	部首	Radicals	\N	\N	Dish (ABC back cover; GHC p. 7; CC-CEDICT '皿'; Guoyu '皿' n 2; Unihan '皿')	6928
@@ -7659,7 +7659,7 @@
 7659	迷信	\N	míxìn	superstition	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '迷信'; Guoyu '迷信' 1)	7659
 7660	迷信	\N	míxìn	lacking a logical basis	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '迷信' 2)	7659
 7661	阿嚏	\N	ātì	sneeze	onomatopoeia	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '阿嚏')	7661
-7662	浮	\N	fú	to float; to drift; to waft	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	fu2.mp3	(Barnes 2007. p. 57; Guoyu '浮' v 1; Kroll 2015 '浮' 1, p. 120; Unihan '浮'; Wu and Tee 2015, loc. 1351; XHZD '浮' 1)	7662
+7662	浮	\N	fú	to float; to drift; to waft	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	fu2.mp3	(Barnes 2007. p. 57; Guoyu '浮' v 1; Hanyu Dacidian '浮' 1, vol. 5, p. 1238; Kroll 2015 '浮' 1, p. 120; Unihan '浮'; Wu and Tee 2015, loc. 1351; XHZD '浮' 1)	7662
 7663	磁悬浮	磁懸浮	cí xuán fú	magnetic levitation	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	As in the high speed train (CC-CEDICT '磁懸浮'; Wikipedia '磁悬浮')	7663
 7664	神秘	神祕	shénmì	mysterious	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '神祕')	7664
 7665	现代	現代	xiàndài	modern times; modern age	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	xian4dai4.mp3	(CC-CEDICT '現代')	7665
@@ -8856,7 +8856,7 @@
 8856	见识	見識	jiànshi	knowledge and experience	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '見識'; Guoyu '見識' 2; Mathews 1931 '見識', p. 119)	8856
 8857	见识	見識	jiànshi	to increase one's knowledge through firsthand experience	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '見識'; Guoyu '見識' 1)	8856
 8858	见	見	jiàn	opinion; view; understanding	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	jian4.mp3	In the sense of 看法 (CCD 1 '见' jiàn 6; Kroll 2015 '見' 2, p. 199; XHZD '见' jiàn 5)	2940
-8859	痴迷	\N	chīmí	to be infatuated; to be obsessed	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴迷'; Guoyu '痴迷')	8859
+8859	痴迷	\N	chīmí	to be infatuated; to be obsessed	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴迷'; Guoyu '痴迷'; Mathews 1931 '癡迷', p. 142)	8859
 8860	上学	上學	shàngxué	to go to school	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	shang4xue2.mp3	(CC-CEDICT '上學'; Guoyu '上學' 2)	8860
 8861	从小	從小	cóngxiǎo	from childhood	adverb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	cong2xiao3.mp3	(CC-CEDICT '從小'; Guoyu '從小')	8861
 8862	有的	\N	yǒude	some	pronoun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	you3de.mp3	(ABC 'yǒude' 有的 pr; NCCED '有的')	8862
@@ -9688,7 +9688,7 @@
 9688	筒	\N	tǒng	a tube; a cylinder; a pipe	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	For example, 烟筒 chimney (Guoyu '筒' n 2; Kroll 2015 '筒' 1a, p. 458; Unihan '筒'; XHZD '筒' 2, p. 756)	9688
 9689	筒	\N	tǒng	measure word for tube shaped things	measure word	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '筒' n 3)	9688
 9690	膏	\N	gāo	grease; fat	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	gao1.mp3	(Guoyu '膏' n 1; Kroll 2015 '膏' 1, p. 129; Unihan '膏')	9690
-9691	牙膏	\N	yágāo	toothpaste	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙膏'; Guoyu '牙膏')	9691
+9691	牙膏	\N	yágāo	toothpaste	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙膏'; Guoyu '牙膏'; Wikipedia '牙膏')	9691
 9692	鞋油	\N	xiéyóu	shoe polish	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鞋油'; Guoyu '鞋油')	9692
 9693	头	頭	tóu	measure word for heads of cattle, etc	measure word	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	tou2.mp3	(Guoyu '頭' n 9; Norman 1988, p. 115).	3414
 9694	骆	駱	luò	camel	noun	动物	Animal	文言文	Literary Chinese	大自然	Nature	\N	luo4.mp3	(CC-CEDICT '駱'; Guoyu '駱' n 1; Unihan '駱')	9694
@@ -10000,7 +10000,7 @@
 10000	痰	\N	tán	phlegm; mucus; spittle	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	tan2.mp3	(CC-CEDICT '痰'; Guoyu '痰' n 1; Unihan '痰'; Wikipedia '痰')	10000
 10001	唾	\N	tuò	spittle; saliva	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In the sense of 口水 (Guoyu '唾' n; Unihan '唾')	10001
 10002	唾沫	\N	tuòmò	spittle; saliva	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '唾沫'; Guoyu '唾沫')	10002
-10003	牙齿	牙齒	yáchǐ	tooth	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙齒'; Guoyu '牙齒')	10003
+10003	牙齿	牙齒	yáchǐ	tooth	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙齒'; Guoyu '牙齒'; Wikipedia '牙齿')	10003
 10004	锅	鍋	guō	cooking-pot; saucepan	noun	烹调	Cooking	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鍋'; Guoyu '鍋' n; Unihan '鍋')	10004
 10005	香皂	\N	xiāngzào	perfumed soap; toilet soap	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '香皂'; Guoyu '香皂')	10005
 10006	豆腐	\N	dòufu	tofu; bean curd	noun	中餐	Chinese Food	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '豆腐'; Guoyu '豆腐')	10006
@@ -10139,7 +10139,7 @@
 10139	钞票	鈔票	chāopiào	a bank note; paper money	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '钞票'; CCD '钞票'; FE '鈔票'; Guoyu '钞票'; Mathews 1931 '钞票', p. 31)	10139
 10140	车票	車票	chēpiào	ticket; bus ticket; train ticket	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '車票'; Guoyu '車票'; Mathews 1931 '車票', p. 34)	10140
 10141	影碟	\N	yǐngdié	CD; DVD	noun	\N	\N	计算机科学	Computer Science	存储	Storage	\N	\N	(CC-CEDICT '影碟'; Guoyu '影碟')	10141
-10142	章	\N	zhāng	clause	measure word	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zhang1.mp3	(CCD 1 '章' 3, p. 2416; Guoyu '章' n 3; Mathews 1931 '章', p. 19)	6709
+10142	章	\N	zhāng	clause	measure word	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zhang1.mp3	(CCD 1 '章' 3, p. 2416; Guoyu '章' n 3; Hanyu Dacidian '章' 8, vol. 8, pp. 380-381; Mathews 1931 '章', p. 19)	6709
 10143	枪声	槍聲	qiāngshēng	gunshot	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '槍聲')	10143
 10144	哭声	哭聲	kūshēng	sound of weeping	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哭聲')	10144
 10145	笛子	\N	dízi	flute	noun	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	\N	(CC-CEDICT '笛子'; Guoyu '笛子')	10145
@@ -10461,8 +10461,8 @@
 10461	安心	\N	ānxīn	with a compose mind; to be deliberate	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '安心'; Guoyu '安心' 4; Mathews 1931 '安心' p. 4)	10461
 10462	安心	\N	ānxīn	to be at ease; to feel relieved	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '安心'; Guoyu '安心' 1)	10461
 10463	按时	按時	ànshí	on time; before deadline; on schedule	adverb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '按時'; Guoyu '按時')	10463
-10464	白	\N	bái	plain	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	(CCD 1 '白' 1; FE '白' 2). For example, 白文 (plain text)	491
-10465	白	\N	bái	to make clear; to state; to explain; to say; to address	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 说明 (CCD 3 '白' 1; FE '白' 6)	491
+10464	白	\N	bái	plain	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	For example, 白衣 plain clothes (CC-CEDICT '白'; CCD 1 '白' 1; FE '白' 2; Guoyu '白' adj 3; Kroll 2015 '白' 2, p. 7)	491
+10465	白	\N	bái	to make clear; to state; to explain; to say; to address	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 说明 (CC-CEDICT '白'; CCD 3 '白' 1; FE '白' 6; Guoyu '白' v 1; Kroll 2015 '白' 3a, p. 7)	491
 10466	白天	\N	báitiān	daytime	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	An example of an endocentric Chinese word where the first morpheme 白 modifies the second 天 (Shei 2014, loc. 314)	10466
 10467	班长	班長	bānzhǎng	class monitor	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '班長'; Guoyu '班長' 1)	10467
 10468	半导体	半導體	bàndǎotǐ	semiconductor	noun	\N	\N	现代汉语	Modern Chinese	电机工程学	Electrical Engineering	\N	\N	(Wikipedia '半導體')	10468
@@ -11272,7 +11272,7 @@
 11272	棉被	\N	miánbèi	comforter; quilt	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '棉被'; Guoyu '棉被')	11272
 11273	灯泡	燈泡	dēngpào	light bulb	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '燈泡'; Guoyu '燈泡')	11273
 11274	家庭用品	\N	jiātíng yòngpǐn	household article	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '日用品')	11274
-11275	牙线	牙線	yáxiàn	dental floss	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙線'; Guoyu '牙線')	11275
+11275	牙线	牙線	yá xiàn	dental floss	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙線'; Guoyu '牙線'; Wikipedia '牙线')	11275
 11276	桌布	\N	zhuōbù	tablecloth	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '桌布'; Guoyu '桌布')	11276
 11277	脸盆	臉盆	liǎnpén	washbowl	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '臉盆'; Guoyu '臉盆')	11277
 11278	录影机	錄影機	lùyǐngjī	videocassette recorder	noun	\N	\N	现代汉语	Modern Chinese	电器	Electrical Appliances	\N	\N	A Taiwanese term (CC-CEDICT '錄影機'; Guoyu '錄影機')	11278
@@ -12023,7 +12023,7 @@
 12023	放映	\N	fàngyìng	to show [a movie]	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '放映'; Guoyu '放映')	12023
 12024	非	\N	fēi	wrong; bad; untruthful	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	fei1.mp3	(Guoyu '非' adj 1)	1003
 12025	非	\N	fēi	different	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	fei1.mp3	In the sense of 不同的 (Guoyu '非' adj 2)	1003
-12026	飞快	飛快	fēikuài	very fast	adjective	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '飛快'; Guoyu '飛快')	12026
+12026	飞快	飛快	fēikuài	very fast	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '飛快'; Guoyu '飛快')	12026
 12027	飞跃	飛躍	fēiyuè	to leap	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '飛躍')	12027
 12028	肥料	\N	féiliào	fertilizer; manure	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '肥料'; Guoyu '肥料')	12028
 12029	废除	廢除	fèichú	to abolish; to abrogate; to repeal	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '廢除'; Guoyu '廢除')	12029
@@ -13866,7 +13866,7 @@
 13866	自信	\N	zìxìn	confident	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zi4xin4.mp3	(CC-CEDICT '自信'; Guoyu '自信')	4951
 13867	自言自语	自言自語	zì yán zì yǔ	talk to oneself; to think aloud; to soliloquize	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '自言自語'; CCI p. 24; Guoyu '自言自語')	13867
 13868	自愿	自願	zìyuàn	voluntary	adjective	\N	\N	现代汉语	Modern Chinese	慈善会	Charity	\N	\N	(CC-CEDICT '自願'; Guoyu '自願')	13868
-13869	自治	\N	zìzhì	to be autonomous	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '自治'; Guoyu '自治' 1)	13869
+13869	自治	\N	zìzhì	autonomous	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '自治'; Guoyu '自治' 1; Mathews 1931 '自治', p. 141)	13869
 13870	宗派	\N	zōngpài	sect; faction; school	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '宗派')	13870
 13871	总	總	zǒng	to sum up	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zong3.mp3	In the sense of 总括 (CCD '总' 1)	874
 13872	总	總	zǒng	in general	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zong3.mp3	In the sense of 概括 (CCD '总' 3; GHDC '总' 2). For example in literary Chinese, 總說有二種 'Generally speaking, there are two kinds' (T 1666, Treatise on the Awakening of Faith in the Mahāyāna 大乘起信論).	874
@@ -13996,7 +13996,7 @@
 13996	备用	備用	bèiyòng	to reserve; to use as a spare	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '備用'; Guoyu '備用')	13996
 13997	被告	\N	bèigào	defendant	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '被告'; Guoyu '被告')	13997
 13998	驰	馳	chí	to move swiftly	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	chi2.mp3	(CC-CEDICT '馳'; Guoyu '馳' v 2; Kroll 2015 '馳' 2, p. 51; Unihan '馳')	13998
-13999	奔驰	奔馳	bēnchí	to run fast; to speed; to gallop	verb	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '奔馳'; Guoyu '奔馳')	13999
+13999	奔驰	奔馳	bēnchí	to run fast; to speed; to gallop	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '奔馳'; Guoyu '奔馳')	13999
 14000	超距	\N	chāojù	to jump over	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Of a martial arts move (ABC 'chāojù' 超距 vo, p. 99; Guoyu '超距'; Mathews 1931 '超距', p. 30)	14000
 14001	本能	\N	běnnéng	instinct	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '本能'; Guoyu '本能')	14001
 14002	本钱	本錢	běnqián	capital	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(ABC 'běnqián' 本钱 n, p. 38; CC-CEDICT '本錢'; Guoyu '本錢' 2)	14002
@@ -14293,7 +14293,7 @@
 14293	挚	摯	zhì	sincere; warm; cordial	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	zhi4.mp3	(CC-CEDICT '摯'; Guoyu '摯' adj 1; Kroll 2015 '摯' 2, p. 608; Unihan '摯')	14293
 14294	诚挚	誠摯	chéngzhì	sincere; earnest	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '誠摯'; Guoyu '誠摯'; Mathews 1931 '誠摯', p. 49)	14294
 14295	承办	承辦	chéngbàn	to undertake; to accept a contract	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '承辦'; Guoyu '承辦'; Mathews 1931 '承辦', p. 51)	14295
-14296	迟疑	遲疑	chíyí	to hesitate	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遲疑'; Guoyu '遲疑')	14296
+14296	迟疑	遲疑	chíyí	to hesitate	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遲疑'; Guoyu '遲疑'; Mathews 1931 '遲疑', p. 142)	14296
 14297	齿轮	齒輪	chǐlún	machine gear; pinion (gear wheel)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CCD '齿轮'; FE '齒輪')	14297
 14298	赤字	\N	chìzì	deficit; debt	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '赤字'; Guoyu '赤字')	14298
 14299	沛	\N	pèi	copiously; abundantly; overflowing	adverb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '沛'; Guoyu '沛' adv; Kroll 2015 '沛' 2, p. 337; Unihan '沛'; XHZD '沛', p. 555)	14299
@@ -14713,7 +14713,7 @@
 14713	可缩放矢量图形	可縮放矢量圖形	kěsuōfàngshǐliàngtúxíng	Scalable Vector Graphics (SVG)	proper noun	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '可缩放矢量图形')	14713
 14714	小型计算机系统接口	小型計算機系統接口	xiǎoxíng jìsuànjī xìtǒng jiēkǒu	Small Computer System Interface (SCSI)	proper noun	接口	Interface	计算机科学	Computer Science	硬件	Hardware	\N	\N	(Wikipedia '小型计算机系统接口')	14714
 14715	网络搜索引擎	網絡搜索引擎	wǎngluò sōusuǒ yǐnqíng	search engine	set phrase	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '网络搜索引擎')	14715
-14716	安全超文本传输协议	安全超文本傳輸協議	ānquán Chāowénběn Chuánshū Xiéyì	Secure Hypertext Transfer Protocol (HTTPS)	proper noun	协议	Protocol	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '安全超文本传输协议')	14716
+14716	安全超文本传输协议	安全超文本傳輸協議	ānquán Chāowénběn Chuánshū xiéyì	Secure Hypertext Transfer Protocol (HTTPS)	proper noun	协议	Protocol	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '安全超文本传输协议')	14716
 14717	传输层安全性协议	傳輸層安全性協議	chuánshūcéngānquánxìngxiéyì	Transport Layer Security (TLS)	proper noun	协议	Protocol	计算机科学	Computer Science	安全	Security	\N	\N	(Wikipedia '传输层安全性协议')	14717
 14718	伺服器	伺服器	sìfúqì	server (computer)	noun	\N	\N	计算机科学	Computer Science	硬件	Hardware	\N	\N	(Wikipedia '伺服器')	14718
 14719	数字视频转换盒	數字視頻轉換盒	shùzìshìpínzhuǎnhuànhé	set top box	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '数字视频转换盒')	14719
@@ -14721,8 +14721,8 @@
 14721	标准通用标记语言	標準通用標記語言	biāozhǔn tōngyòng biāojì yǔyán	Standard Generalized Markup Language (SGML)	proper noun	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '标准通用标记语言')	14721
 14722	共享软件	共享軟件	gòngxiǎng ruǎnjiàn	shareware	set phrase	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '共享软件')	14722
 14723	简单邮递发送协议	簡單郵遞發送協議	jiǎndān yóudì fāsòng xiéyì	Simple Mail Transfer Protocol (SMTP)	proper noun	协议	Protocol	计算机科学	Computer Science	网络	Networking	\N	\N	(Wikipedia '简单邮递发送协议')	14723
-14724	简单网络管理协议	簡單網絡管理協議	jiǎndān wǎngluò guǎnlǐ Xiéyì	Simple Network Management Protocol (SNMP)	proper noun	协议	Protocol	计算机科学	Computer Science	网络	Networking	\N	\N	(Wikipedia '简单网络管理协议')	14724
-14725	简单对象访问协议	簡單對象訪問協議	jiǎndān Duìxiàng fǎngwèn Xiéyì	Simple Object Access Protocol (SOAP)	proper noun	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '简单对象访问协议')	14725
+14724	简单网络管理协议	簡單網絡管理協議	jiǎndān wǎngluò guǎnlǐ xiéyì	Simple Network Management Protocol (SNMP)	proper noun	协议	Protocol	计算机科学	Computer Science	网络	Networking	\N	\N	(Wikipedia '简单网络管理协议')	14724
+14725	简单对象访问协议	簡單對象訪問協議	jiǎndān Duìxiàng fǎngwèn xiéyì	Simple Object Access Protocol (SOAP)	proper noun	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '简单对象访问协议')	14725
 14726	网址	網址	wǎngzhǐ	universal resource locator (URL)	noun	\N	\N	计算机科学	Computer Science	网络	Networking	\N	\N	(CC-CEDICT '網址'; Guoyu '網址'; Wikipedia '统一资源定位符')	14726
 14727	网站地图	網站地圖	wǎngzhàn dìtú	site map	set phrase	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '网站地图')	14727
 14728	软件工程	軟件工程	ruǎnjiàn gōngchéng	software engineering	set phrase	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '软件工程')	14728
@@ -15030,7 +15030,7 @@
 15030	平板电脑	平板電腦	píngbǎn diànnǎo	a tablet PC	set phrase	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Wikipedia '平板電腦')	15030
 15031	万亿字节	萬億字節	wàn yì zìjié	terabyte (TB)	set phrase	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Baike '字节')	15031
 15032	传输控制协议	傳輸控制協議	chuánshū kòngzhì xiéyì	Transmission Control Protocol (TCP)	proper noun	协议	Protocol	计算机科学	Computer Science	网络	Networking	\N	\N	(Wikipedia '传输控制协议')	15032
-15033	传输控制协议和互联网协议	傳輸控制協議和互聯網協議	Chuánshū Kòngzhì Xiéyì hé hùliánwǎng Xiéyì	Transmission Control Protocol / Internet Protocol (TCP/IP)	proper noun	协议	Protocol	计算机科学	Computer Science	网络	Networking	\N	\N	(Wikipedia '传输控制协议')	15033
+15033	传输控制协议和互联网协议	傳輸控制協議和互聯網協議	Chuánshū Kòngzhì xiéyì hé hùliánwǎng xiéyì	Transmission Control Protocol / Internet Protocol (TCP/IP)	proper noun	协议	Protocol	计算机科学	Computer Science	网络	Networking	\N	\N	(Wikipedia '传输控制协议')	15033
 15034	时分	時分	shífēn	time; a period during the day	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	One of the 12 two-hour periods enumerated by the earthly branches (CC-CEDICT '時分'; Guoyu '時分' 2)	15034
 15035	时分多路复用技术	時分多路復用技術	shífēn duō lù fù yòng jìshù	time division multiplexing (TDM)	noun	\N	\N	计算机科学	Computer Science	\N	\N	\N	\N	(Baike '时分多路复用')	15035
 15036	远距离医疗	遠距离醫療	yuǎn jùlí yīliáo	telemedicine	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	See 远距医疗 (Wikipedia '遠距醫療')	15036
@@ -16449,7 +16449,7 @@
 16449	袖子	\N	xiùzi	sleeve	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	16449
 16450	虚弱	虛弱	xūruò	weak	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	16450
 16451	须知	須知	xūzhī	instructions; a notice	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '須知'; Guoyu '須知' 2)	16451
-16452	徐徐	\N	xúxú	slowly	adverb	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '徐徐')	16452
+16452	徐徐	\N	xúxú	slowly	adverb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '徐徐')	16452
 16453	蓄	\N	xù	to store; to save; to hoard; to gather	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	xu4.mp3	In the sense of 储藏 (Guoyu '蓄' v 1; Kroll 2015 '蓄' 1; Unihan '蓄')	16453
 16454	酗酒	\N	xùjiǔ	to indulge in binge drinking	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	16454
 16455	叙谈	敘談	xùtán	to chat	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	16455
@@ -16549,7 +16549,7 @@
 16549	新颖	新穎	xīnyǐng	new and original	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	16549
 16550	郎	\N	láng	gentleman; minister; official	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	lang2.mp3	A prefix for official titles in imperial China in the Warring States, Eastern Han, and other dynasties or used as a general term (GHC '郎' 2; Hucker 1985, p. 301; Kroll 2015 '郎' 1, p. 254; NCCED 1 '郎' 1)	16550
 16551	一手	\N	yīshǒu	skill	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	16551
-16552	一头	一頭	yītóu	headlong; directly; rapidly	adverb	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	16552
+16552	一头	一頭	yītóu	headlong; directly; rapidly	adverb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	16552
 16553	医药	醫藥	yīyào	medicine	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '醫藥'; Guoyu '醫藥')	16553
 16554	医治	醫治	yīzhì	to heal	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	16554
 16555	挨门挨户	挨門挨戶	āi mén āi hù	from door to door	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(Guoyu '挨門挨戶'; Mathews 1931 '挨门挨户'p. 2)	16555
@@ -17009,7 +17009,7 @@
 17009	一视同仁	一視同仁	yī shì tóng rén	to treat all with equal kindness	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '一視同仁'; CCI '一視同仁', p. 116; Guoyu '一視同仁')	17009
 17010	介宾词组	介賓詞組	jiè bīn cízǔ	a prepositional phrase	noun	\N	\N	现代汉语	Modern Chinese	语法	Grammar	\N	\N	\N	17010
 17011	例行	\N	lìxíng	routine	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	17011
-17012	篪	\N	chí	a bamboo flute with 7 or 8 holes	noun	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	chi2.mp3	\N	17012
+17012	篪	\N	chí	a bamboo flute with 7 or 8 holes	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	chi2.mp3	(Mathews 1931 '篪', 1942; Unihan '篪')	17012
 17013	举世无匹	舉世無匹	jǔ shì wú pǐ	nobody like him throughout the world	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(Guoyu '舉世無匹')	17013
 17014	国务卿	國務卿	guó wù qīng	Secretary of State	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	17014
 17015	探头探脑儿	探頭探腦兒	tàn tóu tàn nǎor	to ake a quick look around	set phrase	\N	\N	现代汉语	Modern Chinese	方言	Dialect	\N	\N	Erhua variant of 探头探脑 (CC-CEDICT '探頭探腦兒')	17015
@@ -17136,7 +17136,7 @@
 17136	观摩	觀摩	guānmó	to observe and emulate; to study	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	17136
 17137	灵感	靈感	línggǎn	inspiration; insight	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	17137
 17138	相机	相機	xiàngjī	a camera	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	17138
-17139	图像	圖像	túxiàng	image; picture; graphic	noun	\N	\N	现代汉语	Modern Chinese	艺术	Art	\N	\N	For example, 图像分辨率 'image resolution.' (XHN 2015-11-28)	17139
+17139	图像	圖像	túxiàng	image; picture; graphic	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	For example, 图像分辨率 'image resolution.' (CC-CEDICT '圖像'; Guoyu '圖像'; XHN 2015-11-28)	17139
 17140	一目了然	一目瞭然	yī mù liǎo rán	obvious at a glance	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '一目瞭然'; CCI '一目瞭然', p. 97; Guoyu '一目瞭然')	17140
 17141	分会	分會	fēnhuì	branch	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	17141
 17142	新闻稿	新聞稿	xīnwén gǎo	press release	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	17142
@@ -17448,7 +17448,7 @@
 17448	成玄英	\N	chéng xuányīng	Cheng Xuanying	proper noun	人	Person	历史	History	中国	China	\N	\N	An early Tang scholar	17448
 17449	武挺绪	武挺緒	wǔ Tǐngxù	Wu Tingxu	proper noun	人	Person	历史	History	中国	China	\N	\N	A Qing scholar	17449
 17450	楝	\N	liàn	chinaberry tree; Melia japonica	noun	树	Tree	现代汉语	Modern Chinese	植物学	Botany	\N	lian4.mp3	\N	17450
-17451	鸱	鴟	chī	owl; scops owl	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '鴟'; Guoyu '鴟' 1; Unihan '鴟')	17451
+17451	鸱	鴟	chī	owl; scops owl	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '鴟'; Guoyu '鴟' 1; Kroll 2015 '鴟' 1, p. 50; Mathews 1931 '鴟', p. 142; Unihan '鴟')	17451
 17452	吓	嚇	hè	to intimidate	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	he4.mp3	(Unihan '嚇')	8876
 17453	姚	\N	yáo	handsome; elegant	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '姚')	17453
 17454	鼐	\N	nài	an incense tripod	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	nai4.mp3	(Unihan '鼐')	17454
@@ -17665,7 +17665,7 @@
 17665	见	見	jiàn	passive marker	particle	\N	\N	文言文	Literary Chinese	\N	\N	\N	jian4.mp3	Used rarely in this way in Late Archaic Chinese it became common in the Late Han (CCD 2 '见' jiàn 1; Dobson 1964, p. 33; FE '見' jiàn 5; Kroll 2015 '見' 3, p. 199; Mathews 1931 '見', p. 119; XHZD '见' jiàn 6)	2940
 17666	白帝	\N	bái dì	White Heavenly Emperor	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Associated with the west	17666
 17667	赤帝	\N	chì dì	Red Heavenly Emperor	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Associated with the south	17667
-17668	笞	\N	chī	to whip	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '笞'; Guoyu '笞' v)	17668
+17668	笞	\N	chī	to beat with a cane	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '笞'; Guoyu '笞' v; Mathews 1931 '笞', p. 141)	17668
 17669	自负	自負	zì fù	to be self-confident; conceited	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '自負'; Guoyu '自負' 2)	17669
 17670	五行	\N	wǔ xíng	five elements	set phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	The five phases of Chinese philosophy: wood 木, fire 火, earth 土, metal 金, and water 水 (CCD '五行'; Guoyu '五行' 1; Sun 2006, loc. 1377)	17670
 17671	熊掌	\N	xióng zhǎng	bear paw	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '熊掌'; Guoyu '熊掌'; Mathews 1931 '熊掌', p. 22)	17671
@@ -19445,7 +19445,7 @@
 19445	印刷术	印刷術	yìnshuāshù	printing; printing technology	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	19445
 19446	胜似	勝似	shèngsì	to surpass; to be better than; to be superior to	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	19446
 19447	陇	隴	lǒng	Gansu	proper noun	\N	\N	地方	Places	中国	China	\N	\N	An abbreviation	19447
-19448	仪陇县	儀隴縣	yílǒng Xxiàn	Yilong County	proper noun	县	County	地方	Places	中国	China	\N	\N	\N	19448
+19448	仪陇县	儀隴縣	yílǒng xiàn	Yilong County	proper noun	县	County	地方	Places	中国	China	\N	\N	\N	19448
 19449	见谅	見諒	jiàn liàng	to forgive; to excuse	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '見諒'; Guoyu '見諒' 1; Mathews 1931 '見諒', p. 119)	19449
 19450	歌喉	歌睺	gēhóu	a singing voice	noun	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	\N	\N	19450
 19451	竹管	\N	zhúguǎn	a bamboo pipe	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	19451
@@ -19457,7 +19457,7 @@
 19457	穿孔纸袋	穿孔紙袋	chuān kǒng zhǐ dài	paper tape; punched tape	set phrase	\N	\N	计算机科学	Computer Science	存储	Storage	\N	\N	\N	19457
 19458	突飞猛进	突飛猛進	tū fēi měng jìn	to advance by leaps and bounds	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '突飛猛進'; CCI '突飞猛进', pp. 57-58; Guoyu '突飛猛進')	19458
 19459	蓝光	藍光	lánguāng	Blu-ray	proper noun	\N	\N	计算机科学	Computer Science	存储	Storage	\N	\N	\N	19459
-19460	飞速	飛速	fēisù	rapid	adjective	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	19460
+19460	飞速	飛速	fēisù	rapid	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	19460
 19461	集成电路	集成電路	jíchéng diànlù	an integrated circuit	noun	\N	\N	现代汉语	Modern Chinese	电机工程学	Electrical Engineering	\N	\N	(Wikipedia '集成电路')	19461
 19462	数字电路	數字電路	shùzì diànlù	a digital circuit	noun	\N	\N	现代汉语	Modern Chinese	电机工程学	Electrical Engineering	\N	\N	\N	19462
 19463	阵列	陣列	zhènliè	an array	noun	\N	\N	现代汉语	Modern Chinese	数学	Mathematics	\N	\N	See 数组 (Wikipedia '数组')	19463
@@ -19514,7 +19514,7 @@
 19514	解散权	解散權	jiěsàn quán	power to dissolve [parliament]	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '解散權')	19514
 19515	自传	自傳	zìzhuàn	autobiography	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	19515
 19516	谿谷	\N	xīgǔ	a river valley	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '谿谷'; Waley 1919, p. 41)	19516
-19517	长安	長安	cháng'ān	Chang'an	proper noun	城市	City	历史	History	中国	China	\N	\N	Tang capital (Wikipedia '长安')	19517
+19517	长安	長安	cháng'ān	Chang'an	proper noun	城市	City	历史	History	中国	China	\N	\N	Former capital and name for Xi'an (Wikipedia '长安')	19517
 19518	郁郁青青	\N	yù yù qīng qīng	lush and green [vegetation]	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(Guoyu '郁郁青青')	19518
 19519	如日中天	\N	rú rì zhōng tiān	at the peak of one's prestige	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	\N	19519
 19520	口述	\N	kǒushù	to dictate; to recount orally	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	19520
@@ -19822,7 +19822,7 @@
 19822	病症	\N	bìngzhèng	an disease; a illness	noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '病症'; Guoyu '病症'; Mathews 1931 '病症', p. 44)	19822
 19823	警示	\N	jǐngshì	to warn	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	19823
 19824	漱	\N	shù	to gargle; to rinse	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '漱')	19824
-19825	漱口水	\N	shùkǒu shuǐ	mouthwash	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	19825
+19825	漱口水	\N	shùkǒu shuǐ	mouthwash	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '漱口水')	19825
 19826	鼻孔	\N	bíkǒng	a nostril	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鼻孔'; Guoyu '鼻孔')	19826
 19827	清洗	\N	qīngxǐ	to wash; to clean; to purge	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	19827
 19828	维他命	維他命	wéitāmìng	a vitamin	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Sun 2006, loc. 1582)	19828
@@ -21544,13 +21544,13 @@
 21544	倒账	倒賬	dǎozhàng	bad debt	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	21543
 21545	吞没	吞沒	tūnmò	to embezzle; to swallow up; to engulf	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	21545
 21546	寄存	\N	jìcún	to deposit; to store	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '寄存'; Guoyu '寄存'; Mathews 1931 '寄存', p. 55)	21546
-21547	罔	\N	wǎng	a net	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	wang3.mp3	Variant of simplified 网, traditional 網 (Unihan '罔')	21547
+21547	罔	\N	wǎng	a net	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	wang3.mp3	Variant of simplified 网, traditional 網 (CC-CEDICT '罔'; Guoyu '罔' n 1; Kroll 2015 '罔' 1, p. 469; Unihan '罔')	21547
 21548	本义	本義	běnyì	original meaning; literal sense	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Unihan '罔')	21548
-21549	罔	\N	wǎng	to deceive	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	wang3.mp3	(Unihan '罔')	21547
+21549	罔	\N	wǎng	to deceive	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 欺骗 (CC-CEDICT '罔'; Guoyu '罔' v 2; Kroll 2015 '罔' 2, p. 469; Unihan '罔')	21547
 21550	失意	\N	shīyì	disappointed; frustrated	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	21550
-21551	罔	\N	wǎng	puzzling; disappointed; frustrated	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	wang3.mp3	\N	21547
-21552	罔	\N	wǎng	not	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	wang3.mp3	罔 is sometimes used as a negating word in the sense of 無 in preclassical Chinese (Pulleyblank 1995, p. 109; Unihan '罔')	21547
-21553	罔	\N	wǎng	to slander	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	wang3.mp3	(Unihan '罔')	21547
+21551	罔	\N	wǎng	confused; to confuse; puzzled	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 迷惑 (Guoyu '罔' adj 2; Kroll 2015 '罔' 2a, p. 469)	21547
+21552	罔	\N	wǎng	not	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	罔 is sometimes used as a negating word in the sense of 無 in preclassical Chinese (CC-CEDICT '罔'; Guoyu '罔' v 3; Kroll 2015 '罔' 5, p. 469-470; Pulleyblank 1995, p. 109; Unihan '罔')	21547
+21553	罔	\N	wǎng	to slander	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 诬蔑 (Guoyu '罔' v 1; Kroll 2015 '罔' 4, p. 469; Unihan '罔')	21547
 21554	独占	獨佔	dúzhàn	to monopolize	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	21554
 21555	欺罔	\N	qīwǎng	to deceive	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	21555
 21556	私取	\N	sīqǔ	to elope; to take	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	21556
@@ -21777,7 +21777,7 @@
 21777	忿怒	\N	fènnù	anger; wrath	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Archaic variant of  憤怒 (CC-CEDICT '忿怒'; Guoyu '忿怒')	21777
 21778	怨恨	\N	yuànhèn	hate; a grudge	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	21778
 21779	愚痴	愚癡	yúchī	ignorance; stupidity	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '愚癡')	21779
-21780	痴呆	癡獃	chīdāi	imbecility; dementia	noun	疾病	Illness	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	21780
+21780	痴呆	癡獃	chīdāi	foolish; stupid	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '癡獃', p. 142)	21780
 21781	憍慢	\N	jiāomàn	arrogance	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	21781
 21782	傲慢	\N	àomàn	arrogant; haughty	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '傲慢'; Guoyu '傲慢'; Mathews 1931 '傲慢', p. 8)	21782
 21783	将相本无种	將相本無種	jiāng xiāng běn wú zhǒng	generals and ministers are not innately different [from ordinary people]	set phrase	\N	\N	谚语	Proverb	\N	\N	\N	\N	Generals and ministers are outstanding thorough their conduct not by their innate nature (Guoyu '將相本無種')	21783
@@ -22561,7 +22561,7 @@
 22561	汉少帝	漢少帝	hàn shǎo dì	Emperor Shao of Han	proper noun	皇帝	Emperor	历史	History	中国	China	\N	\N	Lived 176-190, ruled 189; posthumous name of the twelfth Eastern Han Emperor	22561
 22562	刘辩	劉辯	liú biàn	Liu Bian; Emperor Shao of Han	proper noun	皇帝	Emperor	历史	History	中国	China	\N	\N	Lived 176-190, ruled 189; personal name of the twelfth Eastern Han Emperor	22562
 22563	汉献帝	漢獻帝	hàn xiàn dì	Emperor Xian of Han	proper noun	皇帝	Emperor	历史	History	中国	China	\N	\N	(Lived 181-234, ruled 189-220), posthumous name of the last Eastern Han Emperor	22563
-22564	刘协	劉協	liú Xié	Liu Xie; Emperor Xian of Han	proper noun	皇帝	Emperor	历史	History	中国	China	\N	\N	(Lived 181-234, ruled 189-220), personal name of the last Eastern Han Emperor	22564
+22564	刘协	劉協	liú xié	Liu Xie; Emperor Xian of Han	proper noun	皇帝	Emperor	历史	History	中国	China	\N	\N	(Lived 181-234, ruled 189-220), personal name of the last Eastern Han Emperor	22564
 22565	黄巾之乱	黃巾之亂	huáng jīn zhī luàn	Yellow Turban Rebellion; Yellow Scarves Rebellion	proper noun	起义	Rebellion	历史	History	中国	China	\N	\N	(184 CE) a peasant uprising	22565
 22566	曹魏	\N	cáo wèi	Cao Wei	proper noun	国	State	历史	History	中国	China	\N	\N	220-265; One of the states of the Three Kingdoms Period (Wikipedia '曹魏')	22566
 22567	魏	\N	wèi	Cao Wei	proper noun	国	State	历史	History	中国	China	\N	wei4.mp3	220-265; One of the states of the Three Kingdoms Period (CC-CEDICT '魏'; Guoyu '魏' n 2; Kroll 2015 '魏' 3, p. 476; XHZD '魏' 1, p. 787)	17064
@@ -23194,7 +23194,7 @@
 23194	菲	\N	fěi	a radish	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '菲'; Guoyu '菲' fěi n; Kroll 2015 '菲' fěi 1, p. 111)	23190
 23195	菲特烈一世	\N	fēitéliè yīshì	Friedrich I; Frederick I Barbarossa	proper noun	皇帝	Emperor	历史	History	欧洲	Europe	\N	\N	Lived 1122－1190, reigned as King of Germany 1152－1190, Holy Roman Emperor 1155－1190	23195
 23196	菲特烈	\N	fēitéliè	Friedrich	proper noun	姓名	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	\N	23196
-23197	哈布斯堡	\N	hābùsībǎo	Hapsburg; Habsburg	proper noun	王朝	Dynasty	历史	History	欧洲	Europe	\N	\N	European dynasty	23197
+23197	哈布斯堡	\N	hābùsī bǎo	Hapsburg; Habsburg	proper noun	王朝	Dynasty	历史	History	欧洲	Europe	\N	\N	European dynasty (Wikipedia '哈布斯堡王朝')	23197
 23198	汉萨同盟	漢薩同盟	hànsà tóngméng	Hanseatic League	proper noun	同盟	League	历史	History	欧洲	Europe	\N	\N	An economic alliance of trading cities	23198
 23199	媛	\N	yuán	a beauty	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	yuan2.mp3	\N	23199
 23200	媛	\N	yuàn	a beauty	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	yuan4.mp3	\N	23199
@@ -23248,7 +23248,7 @@
 23248	谢灵运	謝靈運	xiè líng yùn	Xie Lingyun	proper noun	诗人	Poet	文学	Literature	中国	China	\N	\N	385－433 C.E.; courtesy name 康乐 Kangle, first to use the Landscape Style Poem (Idema and Haft 1997, pp. 119-120; Wikipedia '谢灵运')	23248
 23249	勃兴	勃興	bóxīng	to rise suddenly; to grow vigorously	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '勃興'; Guoyu '勃興')	23249
 23250	耳目	\N	ěrmù	eyes and ears; attention; information; knowledge; spies	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '耳目')	23250
-23251	刘勰	劉勰	liú Xié	Liu Xie	proper noun	文学理论家	Literature Critic	文学	Literature	南北朝	Northern and Southern Dynasties	\N	\N	C. 466－539; well known literature critic from the Liang dynasty, author of 文心雕龙 (Durrant 2017, p. 195; Idema and Haft 1997, p. 108; Liu and Shi 2015, loc 488)	23251
+23251	刘勰	劉勰	liú xié	Liu Xie	proper noun	文学理论家	Literature Critic	文学	Literature	南北朝	Northern and Southern Dynasties	\N	\N	C. 466－539; well known literature critic from the Liang dynasty, author of 文心雕龙 (Durrant 2017, p. 195; Idema and Haft 1997, p. 108; Liu and Shi 2015, loc 488; Wikipedia '刘勰')	23251
 23252	文学理论家	文學理論家	wénxué lǐlùnjiā	literature critic	noun	\N	\N	文学	Literature	文学理论	Literary Theory	\N	\N	\N	23252
 23253	理论家	理論家	lǐlùnjiā	theorist; theoretician; critic	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	23253
 23254	文心雕龙	文心雕龍	wén xīn Diāo lóng	The Literary Mind and the Carving of Dragons; Wen Xin Diao Long	proper noun	书	Book	文学	Literature	南北朝	Northern and Southern Dynasties	\N	\N	c. 302 Literature theory book written by Liu Xie 刘勰 c. 465－520 (Durrant 2017, p. 195; Idema and Haft 1997, p. 108; Liu and Shi 2015)	23254
@@ -24258,7 +24258,7 @@
 24258	儡	\N	lěi	tired; weak; ruined	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	lei3.mp3	\N	24258
 24259	满洲	滿洲	mǎnzhōu	Manchuria	proper noun	\N	\N	历史	History	中国	China	\N	\N	A historic name for 中国东北 the Chinese Northeast, including present-day 黑龙江 Heilongjiang, 吉林 Jilin, 辽宁 Liaoning, and parts of 内蒙古 Inner Mongolia (Sullivan and Hearst 1997, 'MANCHURIA')	24259
 24260	满洲国	滿洲國	mǎnzhōuguó	Manchu State; Manchuria	proper noun	国家	Country	历史	History	中国	China	\N	\N	1934－1945； name of the puppet state established by Japan in Northeast China (Wikipedia '满洲国')	24260
-24261	双十协定	雙十協定	Shuāng shí Xiédìng	Double Tenth Agreement	proper noun	协定	Agreement	历史	History	中国	China	\N	\N	(October 10, 1945) agreement between the Nationalist government and the Communist Party bringing the Battle of Shandang to an end	24261
+24261	双十协定	雙十協定	Shuāng shí xiédìng	Double Tenth Agreement	proper noun	协定	Agreement	历史	History	中国	China	\N	\N	(October 10, 1945) agreement between the Nationalist government and the Communist Party bringing the Battle of Shandang to an end	24261
 24262	政府与中共代表会谈纪要	政府與中共代表會談紀要	zhèngfǔ yǔ zhōnggòng dàibiǎo huìtán jìyào	Double Tenth Agreement	proper noun	协定	Agreement	历史	History	中国	China	\N	\N	(October 10, 1945) agreement between the Nationalist government and the Communist Party bringing the Battle of Shandang to an end	24262
 24263	辽沈战役	遼瀋戰役	liáo shěn zhànyì	Liaoning-Shenyang Campaign	proper noun	战役	Campaign	历史	History	中国	China	\N	\N	(September 12, 1948－November 12,1948) campaign during the Chinese Civil War	24263
 24264	平津战役	平津戰役	píngjīn zhànyì	Pingjin Campaign; Battle of Pingjin	proper noun	战役	Campaign	历史	History	中国	China	\N	\N	(November 29, 1948－January 31, 1949) a decisive battle in Communist victory of the Chinese Civil War	24264
@@ -25494,7 +25494,7 @@
 25494	琮	\N	cóng	a cong; a jade artifact with a round hole	noun	\N	\N	艺术	Art	\N	\N	cong_liangzhu400.jpg	cong2.mp3	An Late Neolithic Chinese religious artifact made from jade (AAT '300265725')	25494
 25495	鸟纹	鳥紋	niǎo wén	bird design	noun	花纹	Decorative Design	现代汉语	Modern Chinese	艺术	Art	fengniaowen400.jpg	\N	\N	25495
 25496	凤纹	鳳紋	fèng wén	phoenix design	noun	花纹	Decorative Design	现代汉语	Modern Chinese	艺术	Art	blue_white_phoenix_ming1400.jpg	\N	\N	25496
-25497	鸱	鴟	chī	a kite	noun	鸟	Bird	现代汉语	Modern Chinese	\N	\N	\N	\N	(Unihan '鴟')	17451
+25497	鸱	鴟	chī	a kite	noun	鸟	Bird	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '鴟', p. 142; Unihan '鴟')	17451
 25498	鸱枭	鴟梟	chīxiāo	an owl	noun	鸟	Bird	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	25498
 25499	鸱枭纹	鴟梟紋	chīxiāo wén	owl design	noun	花纹	Decorative Design	现代汉语	Modern Chinese	艺术	Art	\N	\N	In Shang and Zhou dynasty art	25499
 25500	鸾	鸞	luán	luan	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	luan2.mp3	A mythical bird related to phoenix (CC-CEDICT '鸞'; Guoyu '鸞' n 1; Unihan '鸞')	25500
@@ -26280,7 +26280,7 @@
 26280	掺杂	摻雜	chānzá	to mix; to blend; to dilute	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '摻雜')	26280
 26281	穿带	穿帶	chuāndài	to wear	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	26281
 26282	龙头老大	龍頭老大	lóngtóu lǎo dà	a big boss; the leader of a group	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	\N	26282
-26283	急速	\N	jísù	hurried; rapid	adjective	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '急速'; Guoyu '急速'; Mathews 1931 '急速', p. 63)	26283
+26283	急速	\N	jísù	hurried; rapid	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '急速'; Guoyu '急速'; Mathews 1931 '急速', p. 63)	26283
 26284	缛	縟	rù	decorative; adorned; elegant	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	ru4.mp3	\N	26284
 26285	繁缛	繁縟	fánrù	many and elaborate	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	26285
 26286	滑坡	\N	huápō	to slump; to downturn; to decline	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	26286
@@ -26931,7 +26931,7 @@
 26931	贞观	貞觀	zhēn guān	Zhen Guan Reign; Emperor Taizong of Tang	proper noun	年号	Era name	历史	History	中国	China	\N	\N	627-649; Reign name of second Tang emperor 李世民 Li Shimin, also known as 唐太宗 Emperor Taizong of Tang (Giles 1892, p. 1370)	26931
 26932	精微	\N	jīngwēi	subtle; profound; refined	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Describing thought or writing (CC-CEDICT '精微'; Guoyu '精微')	26932
 26933	徼乱	徼亂	jiāo luàn	courting disaster	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '徼亂')	26933
-26934	长安	長安	cháng'ān	Chang'an	proper noun	古城	Historic City	历史	History	中国	China	\N	\N	Former capital and name for Xi'an (CC-CEDICT '長安')	26934
+26934	长安城	長安城	cháng'ān chéng	City of Chang'an	proper noun	古城	Historic City	历史	History	中国	China	\N	\N	See 长安 (CC-CEDICT '長安')	26934
 26935	诏	詔	zhào	an imperial decree	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	zhao4.mp3	(Guoyu '詔' v; Mathews 1931 '詔', p. 29; Unihan '詔')	26935
 26936	颡	顙	sǎng	forehead	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '顙'; Guoyu '顙' 1; Unihan '顙')	26936
 26937	赆	贐	jìn	farewell presents	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	jin4.mp3	\N	26937
@@ -27803,7 +27803,7 @@
 27803	折漕	\N	zhécáo	to send a tribute [to the capitcal]	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '折漕', p. 32)	27803
 27804	急流勇退	\N	jí liú yǒng tuì	a rapidly flow of water requiring quick retreat	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(Guoyu '急流勇退')	27804
 27805	急	\N	jí	urgent; pressing; important	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	ji2.mp3	As in 急事 (Guoyu '急' adj 2; Kroll 2015 '急' 1, p. 184; Mathews 1931 '急', p. 63; Unihan '急'; XHZD '急' 3, p. 312)	4876
-27806	急	\N	jí	fast; rapid	adjective	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	ji2.mp3	(CC-CEDICT '急'; Guoyu '急' adj 3; Unihan '急')	4876
+27806	急	\N	jí	fast; rapid	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	ji2.mp3	(CC-CEDICT '急'; Guoyu '急' adj 3; Unihan '急')	4876
 27807	急	\N	jí	vigorous; not relenting	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	ji2.mp3	(Kroll 2015 '急' 1a, p. 184)	4876
 27808	急	\N	jí	hasty; impatient	adverb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	ji2.mp3	(CC-CEDICT '急'; Guoyu '急' adj 1; Kroll 2015 '急' 3, p. 185; Mathews 1931 '急', p. 63; XHZD '急' 2, p. 312)	4876
 27809	急	\N	jí	to be eager to help	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	ji2.mp3	(Guoyu '急' v 3; Kroll 2015 '急' 4, p. 185; XHZD '急' 4, p. 312)	4876
@@ -29016,7 +29016,7 @@
 29016	虚	虛	xū	false	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	xu1.mp3	For example, 弄虚作假 'to practice fraud' (CCI p. 24; Guoyu '虛' adj 4; Kroll 2015 '虛' 4, p. 514; Unihan '虛')	4520
 29017	前置词	前置詞	qiánzhìcí	preposition	noun	虚词	Function word	现代汉语	Modern Chinese	语法	Grammar	\N	\N	(Mathews 1931 '前置詞', p. 127; Wikipedia '介詞')	29017
 29018	肾结石	腎結石	shènjiéshí	kidney stone	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	29018
-29019	结石	結石	shènjiéshí	a calculus; a stone	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	29019
+29019	结石	結石	jiéshí	a calculus; a stone	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	29019
 29020	羚	\N	líng	an antelope	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	29020
 29021	羚羊	\N	língyáng	an antelope	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '羚羊'; Guoyu '羚羊'; Wikipedia '羚羊')	29021
 29022	水牛	\N	shuǐniú	water buffalo	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '水牛'; Guoyu '水牛'; Wikipedia '水牛')	29022
@@ -30800,23 +30800,23 @@
 30800	哀恋	哀戀	āiliàn	to yearn with great distress	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	\N	30800
 30801	哀伤	哀傷	āishāng	grief; distress; bereavement	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '哀傷'; Guoyu '哀傷'; Mathews 1931 '哀傷' p. 1)	30801
 30802	眷恋	眷戀	juànliàn	to long for; to yearn	verb	\N	\N	文言文	Literary Chinese	感情	Emotion	\N	\N	(CC-CEDICT '眷戀'; Guoyu '眷戀' 1)	30802
-30803	白	\N	bái	pure; clean; stainless	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 纯洁 (FE '白' 1; GHDC '白' 4)	491
+30803	白	\N	bái	pure; clean; stainless	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 纯洁 (CC-CEDICT '白'; FE '白' 1; GHDC '白' 4; Guoyu '白' adj 2)	491
 30804	白	\N	bái	bright	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 明亮 (CCD 1 '白' 2; FE '白' 1; GHDC '白' 5).	491
-30805	白	\N	bái	a wrongly written character	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	bai2.mp3	(CCD 2 '白'; GHDC '白' 9)	491
-30806	白	\N	bái	clear	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 清楚 (GHDC '白' 6)	491
-30807	白	\N	bái	true; sincere; genuine	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 真诚.	491
+30805	白	\N	bái	wrongly written [character]	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	bai2.mp3	(CC-CEDICT '白'; CCD 2 '白'; GHDC '白' 9; Guoyu '白' adj 6)	491
+30806	白	\N	bái	clear	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 清楚 (GHDC '白' 6; Kroll 2015 '白' 3, p. 7)	491
+30807	白	\N	bái	true; sincere; genuine	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 真诚 (Guoyu '白' adj 4)	491
 30808	白	\N	bái	reactionary	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	For example, 白军 (CCD 1 '白' 7)	491
-30809	白	\N	bái	a wine cup	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	bai2.mp3	For drinking illegal alcohol in historic times (GHDC '白' 10)	491
-30810	白	\N	bái	a spoken part in an opera	noun	\N	\N	现代汉语	Modern Chinese	戏剧	Drama	\N	bai2.mp3	(CCD 3 '白' 2; FE '白' 5)	491
+30809	白	\N	bái	a wine cup	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	bai2.mp3	For drinking illegal alcohol in historic times (GHDC '白' 10; Guoyu '白' n 3)	491
+30810	白	\N	bái	a spoken part in an opera	noun	\N	\N	现代汉语	Modern Chinese	戏剧	Drama	\N	bai2.mp3	(CC-CEDICT '白'; CCD 3 '白' 2; FE '白' 5; Guoyu '白' n 4)	491
 30811	白	\N	bái	a dialect	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 方言 (CCD 3 '白' 3)	491
 30812	白	\N	bái	to understand	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 清楚 or 明白.	491
 30813	白	\N	bái	to report	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 报告.	491
 30814	控告	\N	kònggào	to accuse; to charge; to sue; to indict	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	\N	30814
-30815	白	\N	bái	to accuse; to charge; to sue; to indict	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 控告 (GHDC '白' 7)	491
+30815	白	\N	bái	to accuse; to charge; to sue; to indict	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 控告 (GHDC '白' 7; Guoyu '白' v 5)	491
 30816	平白	\N	píngbái	in vain; to no purpose; for nothing	adverb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	30816
-30817	白	\N	bái	in vain; to no purpose; for nothing	adverb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 平白 or 白白 (CCD 1 '白' 5; FE '白' 3)	491
+30817	白	\N	bái	in vain; to no purpose; for nothing	adverb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 平白 or 白白 (CC-CEDICT '白'; CCD 1 '白' 5; FE '白' 3; Guoyu '白' adv 1; Kroll 2015 '白' 4a, p. 7)	491
 30818	单单	單單	zhǐshì	merely; simply; only	adverb	\N	\N	现代汉语	Modern Chinese	虚词	Function Words	\N	\N	\N	30818
-30819	白	\N	bái	merely; simply; only	adverb	\N	\N	现代汉语	Modern Chinese	虚词	Function Words	\N	bai2.mp3	In this sense 白 has a similar meaning to 单单 or 只是.	491
+30819	白	\N	bái	merely; simply; only	adverb	\N	\N	现代汉语	Modern Chinese	虚词	Function Words	\N	\N	In this sense 白 has a similar meaning to 单单 or 只是 (Guoyu '白' adv 3)	491
 30820	揣测	揣測	chuāicè	to guess; to conjecture	adverb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	30820
 30821	反诘	反詰	fǎnjié	to ask a question in reply; to answer a question with a question	adverb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	30821
 30822	其	\N	qí	used when asking a question in reply to a question	adverb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '其' adv 3; Mathews 1931 '其', p. 69)	1574
@@ -32915,7 +32915,7 @@
 32915	语料	語料	yùliào	a corpus; a text corpus	noun	\N	\N	语言学	Linguistics	语料库语言学	Corpus Linguistics	\N	\N	A corpus is a collection of written or verbal data for linguistic analysis, typically dictionary building or machine translation (ABC 'yǔliào'; Chan 2004, 'corpus'; NCCED '语料').	32915
 32916	厨	廚	chú	a chef	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '厨' n 3; Kroll 2015 '厨' 1a, p. 57)	12287
 32917	擣	\N	dǎo	to thresh; to hull; to pound	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '擣'; Guoyu '擣' v 1; Kroll 2015 '擣' 1, p. 79; Unihan '擣')	32917
-32918	欝	\N	yù	luxuriant; dense; thick; moody	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	yu4.mp3	Variant of 鬱｜郁	32918
+32918	欝	\N	yù	luxuriant; dense; thick	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	yu4.mp3	Variant of 鬱｜郁 (Guoyu '欝'; Unihan '欝')	32918
 32919	寤	\N	wù	empty; deserted	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '寤')	32919
 32920	熏	\N	xūn	to smoke; to scent; to fumigate	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	xun1.mp3	\N	32920
 32921	无靠无依	無靠無依	wú kào wú yī	no one to rely on	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	Variant of 无依无靠 (Guoyu '無靠無依')	32921
@@ -33193,19 +33193,19 @@
 33193	颇	頗	pǒ	very; extremely	adverb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 甚 or 很 (Guoyu '頗' pǒ adv 2)	6708
 33194	颇	頗	pǒ	should not	adverb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 不可 (Guoyu '頗' pǒ adv 4)	6708
 33195	叵	\N	pǒ	not; is not possible	adverb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	An uncommon contraction of 不可; for example, 子盍為我言之？'Had you not better tell him this for me?' (Pulleyblank 1995, p. 106; Unihan '叵'; Mengzi: 4.10/23/23, translation by Legge)	33195
-33196	章	\N	zhāng	a stanza; a song	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	zhang1.mp3	(Mathews 1931 '章', p. 18)	6709
-33197	章	\N	zhāng	a decorative pattern; an embroidered pattern; an ornament	noun	\N	\N	艺术	Art	\N	\N	\N	zhang1.mp3	(FE '章' 5, p. 1007; Mathews 1931 '章', p. 19)	6709
-33198	章	\N	zhāng	a rule; a regulation	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zhang1.mp3	Synonymous with 规章 (CCD 1 '章' 4, p. 2416; FE '章' 2, p. 1007; Guoyu '章' n 6; Mathews 1931 '章', p. 19; XHZD '章' 3, p. 955)	6709
-33199	章	\N	zhāng	a seal; a stamp	noun	\N	\N	艺术	Art	\N	\N	\N	zhang1.mp3	Synonymous with 印章 (CCD 2 '章' 1, p. 2416; FE '章' 3, p. 1007; Guoyu '章' n 7; Mathews 1931 '章', p. 19; XHZD '章' 4, p. 955)	6709
-33200	章	\N	zhāng	a badge; an emblem; an insignia	noun	\N	\N	艺术	Art	\N	\N	\N	zhang1.mp3	Synonymous with 标识; as in 徽章 (CCD 2 '章' 2, p. 2416; FE '章' 3, p. 1007; Guoyu '章' n 8; Mathews 1931 '章', p. 19; XHZD '章' 5, p. 955)	6709
-33201	章	\N	zhāng	a memorial presented to the emperor	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	zhang1.mp3	Synonymous with 徽章 (CCD 1 '章' 5, p. 2416; Guoyu '章' n 2; Mathews 1931 '章', p. 19; XHZD '章' 2, p. 955)	6709
+33196	章	\N	zhāng	a stanza; a song	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Hanyu Dacidian '章' 6, vol. 8, pp. 380-381; Mathews 1931 '章', p. 18)	6709
+33197	章	\N	zhāng	a decorative pattern; an embroidered pattern; an ornament	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 花纹 (FE '章' 5, p. 1007; Hanyu Dacidian '章' 2, vol. 8, p. 380; Mathews 1931 '章', p. 19)	6709
+33198	章	\N	zhāng	a rule; a regulation	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Synonymous with 规章 (CCD 1 '章' 4, p. 2416; FE '章' 2, p. 1007; Guoyu '章' n 6; Mathews 1931 '章', p. 19; XHZD '章' 3, p. 955)	6709
+33199	章	\N	zhāng	a seal; a stamp	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Synonymous with 印章 (CCD 2 '章' 1, p. 2416; FE '章' 3, p. 1007; Guoyu '章' n 7; Hanyu Dacidian '章' 18, vol. 8, pp. 380-381; Mathews 1931 '章', p. 19; XHZD '章' 4, p. 955)	6709
+33200	章	\N	zhāng	a badge; an emblem; an insignia	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Synonymous with 标识; as in 徽章 (CCD 2 '章' 2, p. 2416; FE '章' 3, p. 1007; Guoyu '章' n 8; Hanyu Dacidian '章' 4, vol. 8, pp. 380-381; Mathews 1931 '章', p. 19; XHZD '章' 5, p. 955)	6709
+33201	章	\N	zhāng	a memorial presented to the emperor	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CCD 1 '章' 5, p. 2416; Guoyu '章' n 2; Hanyu Dacidian '章' 15, vol. 8, pp. 380-381; Mathews 1931 '章', p. 19; XHZD '章' 2, p. 955)	6709
 33202	奏章	\N	zòuzhāng	a memorial	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	A report presented by an official to the emperor (Guoyu '奏章'; Mathews 1931 '奏章', p. 19)	33202
 33203	臣下	\N	chénxià	an official in feudal court	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Used by the offiical when addressing the ruler (CC-CEDICT '臣下'; Mathews 1931 '臣下', p. 40)	33203
 33204	呈给	呈給	chénggěi	to give; to hand	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	33204
 33205	章	\N	zhāng	literary talent	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	zhang1.mp3	In the sense of 文采 (Guoyu '章' n 4)	6709
 33206	彰明	\N	zhāngmíng	to show clearly; to make public	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '彰明', p. 19)	33206
 33207	昭彰	\N	zhāozhāng	to make known; to reveal	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 显著 (Guoyu '昭彰' 1; Mathews 1931 '昭彰', p. 28)	33207
-33208	章	\N	zhāng	to commend; to praise	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	zhang1.mp3	(Guoyu '章' v)	6709
+33208	章	\N	zhāng	to commend; to praise	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 表彰 (Guoyu '章' v; Hanyu Dacidian '章' 12, vol. 8, pp. 380-381)	6709
 33209	条理化	條理化	tiáolǐhuà	to make systematic	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	33209
 33210	臂章	\N	bìzhāng	a shoulder emblem	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '臂章')	33210
 33211	句	\N	gōu	to bend; to strike; to catch	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As a variant of 勾 (Kroll 2015 '句')	6711
@@ -33558,7 +33558,7 @@
 33558	兰	蘭	lán	thoroughwort	noun	\N	\N	现代汉语	Modern Chinese	植物学	Botany	\N	lan2.mp3	(Guoyu '蘭' n 1; Kroll 2015 '蘭' 1)	3477
 33559	他	\N	tā	other	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 另外 (Guoyu '他' tā adj)	518
 33560	打乱	打亂	dǎluàn	to disturb; to upset	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	33560
-33561	白	\N	bái	empty; blank	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 一无所有 (CCD 1 '白' 4; FE '白' 2; GHDC '白' 8)	491
+33561	白	\N	bái	empty; blank	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	bai2.mp3	In this sense 白 has a similar meaning to 一无所有 (CCD 1 '白' 4; FE '白' 2; GHDC '白' 8; Kroll 2015 '白' 4, p. 7)	491
 33562	落	\N	luò	to degenerate; to decline	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	luo4.mp3	In the sense of 衰败 (CC-CEDICT '落'; Guoyu '落' v 6; Kroll 2015 '落' 2, p. 291; XHZD '落' 2, p. 478)	1264
 33563	慈和	\N	cíhé	kindly; amiable	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	33563
 33564	劝化	勸化	quànhuà	to persuade; to urge virtue	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '劝化'; GHDC '劝化' 1; Guoyu '劝化' 1)	33564
@@ -34346,7 +34346,7 @@
 34346	悝	\N	lǐ	worried; afflicted	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	\N	34345
 34347	肜	\N	róng	Rong	proper noun	姓氏	Surname	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '肜')	34347
 34348	肜	\N	róng	to sacrifice on two consecutive days	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '肜')	34347
-34349	踟	\N	chí	hesitating; undecided; hesitant	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '踟'; Guoyu '踟'; Unihan '踟')	34349
+34349	踟	\N	chí	hesitating; undecided; hesitant	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '踟'; Guoyu '踟'; Kroll 2015 '踟', p. 51; Mathews 1931 '踟', p. 142; Unihan '踟')	34349
 34350	逞	\N	chěng	to indulge	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 放纵 (CC-CEDICT '逞'; Guoyu '逞' v 1; Kroll 2015 '逞' 2, p. 49; Unihan '逞')	34350
 34351	馥	\N	fù	fragrance; scent; aroma	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '馥')	34351
 34352	澧	\N	lǐ	Li River	proper noun	水名	River	地方	Places	\N	\N	\N	\N	\N	34352
@@ -34847,7 +34847,7 @@
 34847	霤	\N	liù	dripping of rain from eaves	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	\N	34847
 34848	芷	\N	zhǐ	angelica	noun	植物	Plant	现代汉语	Modern Chinese	植物学	Botany	\N	\N	A type of iris (Mathews 1931 '芷', p. 131; Unihan '芷')	34848
 34849	硙	磑	wèi	a stone mill	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '磑' wèi 2; Unihan '磑')	34849
-34850	箎	\N	chí	a bamboo flute with eight holes	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	\N	34850
+34850	箎	\N	chí	a bamboo flute with eight holes	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	An ancient woodwind instrument (CC-CEDICT '箎'; Mathews 1931 '箎', p. 1942; Unihan '箎')	34850
 34851	輓	\N	wǎn	to pull; to draw	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	wan3.mp3	Archaic variant of 挽 (Unihan '輓')	34851
 34852	唧	\N	jī	pump	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As in 唧筒 (Guoyu '唧' n; Unihan '唧')	34852
 34853	蹶	\N	jué	to stumble; to fail	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '蹶'; Guoyu '蹶' v 3; Kroll 2015 '蹶' 1, p. 232; Unihan '蹶')	34853
@@ -37264,7 +37264,7 @@
 37264	嘉平	\N	jiāpíng	the twelfth month	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '嘉平'; Mathews 1931 '嘉平月', p. 78)	37264
 37265	蒙逊	蒙遜	mēng xùn	Meng Sun	proper noun	人	Person	历史	History	中国	China	\N	\N	Lived 368-433, Xiongnu monarch of the Northern Liang Kingdom	37265
 37266	弘始	\N	hóngshǐ	Hongshi	proper noun	年号	Era name	历史	History	中国	China	\N	\N	399-416, era of Emperor Wen Huan, also known as Yao Xing, 文桓帝姚兴 of Later Qin (Wikipedia '弘始')	37266
-37267	姚兴	\N	yáo xīng	Yao Xing	proper noun	人	Person	历史	History	中国	China	\N	\N	Lived 366-416, ruled 394-416; also known as Emperor Wen Huan 文桓帝 of Later Qin; Qiang ethnic origin	37267
+37267	姚兴	\N	yáo xīng	Yao Xing	proper noun	人	Person	历史	History	中国	China	\N	\N	Lived 366-416 C.E., ruled 394-416 C.E.; courtesy name 子略 Zilue, also known as Emperor Wen Huan 文桓帝 of Later Qin; Qiang ethnic origin (Wikipedia '姚兴')	37267
 37268	菩萨戒	菩薩戒	púsà jiè	the bodhisattva precepts	set phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(FGDB '菩薩戒'; Hsing Yun 2010)	37268
 37269	河西	\N	héxī	Hexi	proper noun	地区	Area	地方	Places	中国	China	\N	\N	Land west of the Yellow river; Shaanxi, Qinghai and Gansu provinces (Wikipedia '河西走廊')	37269
 37270	三万	三萬	sān wàn	thirty thousand	number	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	37270
@@ -37981,9 +37981,9 @@
 37981	输	輸	shū	to pour into; to instill	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	shu1.mp3	输 is synonymous with 灌输 or 灌注 in this sense.	3753
 37982	灌输	灌輸	guànshū	to imbue with; to inculcate; to instill into; to teach; to impart; to channel water to another place	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	37982
 37983	灌注	\N	guànzhù	to pour into; to concentrate one's attention on; to teach; to inculcate; to instill place	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	37983
-37984	罔	\N	wǎng	dishonest	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	wang3.mp3	罔 is synonymous with 不正直 in this sense.	21547
-37985	罔	\N	wǎng	ignorant	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	wang3.mp3	罔 is synonymous with 无知 in this sense.	21547
-37986	罔	\N	wǎng	to catch in a net	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	wang3.mp3	罔 is synonymous with 结网 in this sense.	21547
+37984	罔	\N	wǎng	cannot but be that	adverb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Rhetorical negative (Kroll 2015 '罔' 6b, p. 469)	21547
+37985	罔	\N	wǎng	should not	adverb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 不可 (Guoyu '罔' adv; Kroll 2015 '罔' 6a, p. 469)	21547
+37986	罔	\N	wǎng	to catch in a net	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	罔 is synonymous with 结网 in this sense (Kroll 2015 '罔' 1a, p. 469)	21547
 37987	刑	\N	xíng	to punish; to penalize	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	xing2.mp3	刑 is synonymous with 处罚 in this sense. Etymology: 刑：剄也。(Shuo Wen)	685
 37988	刑	\N	xíng	to execute	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	xing2.mp3	Etymology: 刑：剄也。(Shuo Wen; Guoyu '刑' v 1)	685
 37989	刭	剄	jǐng	to cut the throat	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	\N	37989
@@ -38674,7 +38674,7 @@
 38674	癈	\N	fèi	to abolish; to abandon; to abrogate	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	fei4.mp3	Archaic variant of simplified 废, traditional 廢 (Unihan '癈')	38673
 38675	篠	\N	xiǎo	dwarf bamboo	noun	植物	Plant	现代汉语	Modern Chinese	植物学	Botany	\N	\N	\N	38675
 38676	屦	屨	jù	sandals	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '屨')	38676
-38677	褫	\N	chǐ	to strip; to deprive of; to discharge; to dismiss; to undress	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	\N	38677
+38677	褫	\N	chǐ	to strip; to undress	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '褫'; Guoyu '褫' 1; Mathews 1931 '褫', p. 142; Unihan '褫')	38677
 38678	饍	\N	shàn	meals	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	shan4.mp3	Archaic variant of 膳 (CC-CEDICT '饍'; Guoyu '饍'; Unihan '饍')	38678
 38679	穬	\N	kuàng	a kind of grain	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '穬'; ZDIC '穬')	38679
 38680	谷物	穀物	gǔwù	cereal; grain	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '穀物'; Wikipedia '穀物')	38680
@@ -39441,7 +39441,7 @@
 39441	乐浪	樂浪	Lèlàng	Lelang	proper noun	地名	Place Name	历史	History	中国	China	\N	\N	Point of historic Chinese presence, c. 108 BCE, located in Korea, near present-day Pyongyang (Hong 1996, p. 19; Wikipedia '乐浪郡')	39441
 39442	本我	\N	běnwǒ	id	noun	\N	\N	现代汉语	Modern Chinese	心理学	Psychology	\N	\N	In Freud's theory of id, ego, and superego	39442
 39443	自恋	自戀	zìliàn	narcissism	noun	\N	\N	现代汉语	Modern Chinese	心理学	Psychology	\N	\N	\N	39443
-39444	蓝图	藍圖	lántú	blueprint	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	39444
+39444	蓝图	藍圖	lántú	blueprint	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '蓝图')	39444
 39445	形于色	形於色	xíng yú sè	to show one's feelings; to show it in one's face	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	\N	39445
 39446	嘉宾	嘉賓	jiābīn	esteemed guest; honored guest; guest	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '嘉賓'; Guoyu '嘉賓'; Mathews 1931 '嘉賓')	39446
 39447	各位	\N	gèwèi	everybody/all (guests, colleagues etc)	pronoun	\N	\N	现代汉语	Modern Chinese	虚词	Function Words	\N	\N	\N	39447
@@ -40836,9 +40836,9 @@
 40836	幖	\N	biāo	biao	foreign	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '幖')	40836
 40837	綘	\N	féng	to sew; to stitch	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Variant of 縫 (Unihan '縫')	40837
 40838	楴	\N	tì	ti	foreign	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '楴')	40838
-40839	坻	\N	chí	an islet; a rock in a river	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '坻'; Kroll 2015 '坻' chí 1)	40839
-40840	坻	\N	chí	an embankment	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '坻'; Kroll 2015 '坻' chí 2)	40839
-40841	坻	\N	zhǐ	to stop	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '坻'; Kroll 2015 '坻' zhǐ 1)	40839
+40839	坻	\N	chí	an islet; a rock in a river	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '坻'; Guoyu '坻' n 1; Kroll 2015 '坻' chí 1; Mathews 1931 '坻', p. 142; Unihan '坻')	40839
+40840	坻	\N	chí	an embankment	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '坻' chí 2; Mathews 1931 '坻', p. 142; Unihan '坻')	40839
+40841	坻	\N	zhǐ	to stop	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '坻' zhǐ 1; Mathews 1931 '坻', p. 142; Unihan '坻')	40839
 40842	坻	\N	zhǐ	a molehill	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '坻' zhǐ 2)	40839
 40843	坻	\N	zhǐ	foundation	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '坻' zhǐ 3)	40839
 40844	坻	\N	dǐ	a slope	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Variant of 阺 (Kroll 2015 '坻' dǐ)	40839
@@ -41587,12 +41587,12 @@
 41587	维吉尼亚	維吉尼亞	wéijíníyà	Virginia	proper noun	名字	Given Name	现代汉语	Modern Chinese	名字	Names	\N	\N	Given name and place name	41587
 41588	政府提案	\N	zhèngfǔtíàn	government proposed bill	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '政府提案', p. 44)	41588
 41589	彩色铅笔	彩色鉛筆	cǎisè qiānbǐ	colored pencils	phrase	\N	\N	艺术	Art	\N	\N	\N	\N	\N	41589
-41590	蜡笔	蠟筆	làbǐ	a crayon	noun	\N	\N	艺术	Art	\N	\N	\N	\N	\N	41590
+41590	蜡笔	蠟筆	làbǐ	a crayon	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	41590
 41591	商机	商機	shāngjī	business opportunity; commercial opportunity	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	41591
 41592	涂色书	塗色書	túsè shū	a coloring book	phrase	\N	\N	艺术	Art	\N	\N	\N	\N	\N	41592
-41593	涂色	塗色	túsè	to color	verb	\N	\N	现代汉语	Modern Chinese	艺术	Art	\N	\N	To fill in with colored pencils, crayons, etc	41593
-41594	手绘	手繪	shǒuhuì	to paint by hand	verb	\N	\N	现代汉语	Modern Chinese	艺术	Art	\N	\N	\N	41594
-41595	素描	\N	sùmiáo	to sketch	verb	\N	\N	现代汉语	Modern Chinese	艺术	Art	\N	\N	\N	41595
+41593	涂色	塗色	túsè	to color	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	To fill in with colored pencils, crayons, etc	41593
+41594	手绘	手繪	shǒuhuì	to paint by hand	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	\N	41594
+41595	素描	\N	sùmiáo	to sketch; to draw	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '素描')	41595
 41596	填色	\N	tiánsè	to color	phrase	\N	\N	艺术	Art	\N	\N	\N	\N	\N	41596
 41597	坷	\N	kě	a clod of earth; a lump of soil	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unicode '坷')	41597
 41598	坎坷	\N	kǎnkě	bumpy (of a road); rough (of life); to be down on one's luck	phrase	\N	\N	艺术	Art	\N	\N	\N	\N	To be full of frustrations and dashed hopes	41598
@@ -42928,7 +42928,7 @@
 42928	繖	\N	sǎn	a parachute	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Variant of 傘 (Unihan '繖')	42927
 42929	磉	\N	sǎng	the stone base or plinth of a pillar	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '磉')	42929
 42930	椑	\N	bēi	an oval	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '椑')	42930
-42931	嫜	\N	zhāng	zhang	phonetic	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '嫜')	42931
+42931	嫜	\N	zhāng	husband's father	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	See 姑嫜 (CC-CEDICT '嫜'; Guoyu '嫜'; Unihan '嫜')	42931
 42932	𣎑	臗	kuān	thigh bone	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '臗' n; Unihan '臗')	42932
 42933	蘅	\N	héng	a fragrant plant the root is medicinal	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '蘅')	42933
 42934	曒	\N	jiǎo	jiao	phonetic	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '曒')	42934
@@ -45150,7 +45150,7 @@
 45150	斒	\N	bān	variegated	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '斒')	45150
 45151	斒	\N	bān	striped	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '斒')	45150
 45152	斒	\N	bān	marbled	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '斒')	45150
-45153	蚳	\N	chí	ant eggs	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '蚳')	45153
+45153	蚳	\N	chí	ant eggs	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '蚳'; Guoyu '蚳' n 1; Mathews 1931 '蚳', p. 142; Unihan '蚳')	45153
 45154	齆	\N	wèng	a stuffed nose	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '齆')	45154
 45155	鍊	\N	liàn	to smelt metals; to forge	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Compatibility variant of 鍊 (Unihan '鍊')	45155
 45156	也不见得	也不見得	yě bù jiàn dé	unlikely	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '也不見得')	45156
@@ -49969,7 +49969,7 @@
 49969	谿壑	\N	xīhè	vengeful	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '谿壑' 2; Mathews 1931 '谿壑', p. 67)	49968
 49970	拶	\N	zǎn	to force	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '拶')	36296
 49971	逼	\N	bī	to approach; to encroach	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '逼'; Guoyu '逼' v 2; Kroll 2015 '逼' 2, p. 15; XHZD '逼' 2, p. 35)	10487
-49972	迅疾	\N	xùnjí	rapid; swift	adjective	速度	Speed	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '迅疾')	49972
+49972	迅疾	\N	xùnjí	rapid; swift	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '迅疾')	49972
 49973	省悟	\N	shěngwù	to wake up to reality; to come to oneself; to realize; to see the truth	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '省悟')	49973
 49974	指模	\N	zhǐmó	fingerprint; thumbprint	noun	\N	\N	现代汉语	Modern Chinese	生物学	Biology	\N	\N	Also written 指摹 (CC-CEDICT '指模')	49974
 49975	指摹	\N	zhǐmó	fingerprint; thumbprint	noun	\N	\N	现代汉语	Modern Chinese	生物学	Biology	\N	\N	Also written 指摹 (CC-CEDICT '指摹')	49975
@@ -52094,12 +52094,12 @@
 52094	核裂变	核裂變	hé lièbiàn	nuclear fission	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '核裂變'; Wikipedia '核裂变')	52094
 52095	伤亡	\N	shāngwáng	casualties; injuries and deaths	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '伤亡')	52095
 52096	市中心	\N	shìzhōngxīn	city center; downtown	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '市中心')	52096
-52097	白	\N	bái	free	adjective	\N	\N	现代汉语	Modern Chinese	口语	Spoken Language	\N	\N	In this sense 白 has a similar meaning to 免费 (CCD 1 '白' 6; FE '白' 4)	491
-52098	白	\N	bái	to stare coldly; a scornful look	bound form	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As in 白眼 (CCD 1 '白' 9)	491
+52097	白	\N	bái	free	adjective	\N	\N	现代汉语	Modern Chinese	口语	Spoken Language	\N	\N	In this sense 白 has a similar meaning to 免费 (CC-CEDICT '白'; CCD 1 '白' 6; FE '白' 4; Guoyu '白' adv 2)	491
+52098	白	\N	bái	to stare coldly; to give a scornful look	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As in 白眼 (CC-CEDICT '白'; CCD 1 '白' 9; Guoyu '白' v 6)	491
 52099	白	\N	bái	relating to funerals	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As in 红白事 'weddings and funerals' (CCD 1 '白' 8; GHDC '白' 2)	491
-52100	白	\N	bái	Bai	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CCD 1 '白' 10; FE '白' 7)	491
+52100	白	\N	bái	Bai	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '白'; CCD 1 '白' 10; FE '白' 7; Guoyu '白' n 5)	491
 52101	白	\N	bái	vernacular; spoken language	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In this sense 白 has a similar meaning to 白话 (CCD 3 '白' 4)	491
-52102	白	\N	bái	a symbol for silver	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(GHDC '白' 11)	491
+52102	白	\N	bái	a symbol for silver	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(GHDC '白' 11; Kroll 2015 '白' 6, p. 7)	491
 52103	雄豪	\N	xióngháo	a hero	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '雄豪')	52103
 52104	拜佛	\N	bàifó	to bow to the Buddha; to pay respect to the Buddha	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CCD '拜佛'; FE '拜佛')	52104
 52105	拜拜	\N	bàibài	to join palms and bow	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(FE '拜拜' 1)	52105
@@ -53596,7 +53596,7 @@
 53596	挅	\N	duǒ	\N	\N	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '挅')	53596
 53597	饆	\N	bì	\N	\N	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '饆')	53597
 53598	馒	饅	mán	steamed bread	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '饅')	53598
-53599	禠	\N	sī	happy	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '禠')	53599
+53599	禠	\N	sī	happy	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '禠')	53599
 53600	厪	\N	jǐn	a hut	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '厪')	53600
 53601	剐	剮	guǎ	cut flesh from bones	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '剮')	53601
 53602	玿	\N	sháo	\N	\N	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '玿')	53602
@@ -57450,7 +57450,7 @@
 57450	族	\N	zú	a family	noun	\N	\N	现代汉语	Modern Chinese	人类学	Anthropology	\N	\N	(Guoyu '族' n 1)	4470
 57451	迁	遷	qiān	to transfer	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Kroll 2015 '遷' 1, p. 360; Unihan '遷')	8551
 57452	居	\N	jū	to stay put	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 停留 (XH '居' 7; Unihan '居')	767
-57453	长安	長安	cháng'ān	Chang'an	proper noun	区	District	地方	Places	中国	China	\N	\N	See 長安區	26934
+57453	长安	長安	cháng'ān	Chang'an	proper noun	区	District	地方	Places	中国	China	\N	\N	See 长安区 (CC-CEDICT '長安區')	26934
 57454	长安区	長安區	cháng'ānqū	Chang'an District	proper noun	地区	District	地方	Places	中国	China	\N	\N	A district in Xi'an (CC-CEDICT '長安區')	57454
 57455	蒲萄	\N	pútáo	grape	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Variant of 葡萄 (Guoyu '蒲萄')	57455
 57456	勇而无谋	勇而無謀	yǒng ér wú móu	brave but lacking strategy	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(Guoyu '勇而無謀')	57456
@@ -62283,11 +62283,11 @@
 62283	湛	\N	zhàn	Zhan	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CCD '湛' 2, p. 2414; FE '湛' 3, p. 795; Guoyu '湛' n)	18211
 62284	湛	\N	dān	happy; joyful	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 快乐 (Guoyu '湛' dān)	18211
 62285	泉	\N	quán	wealth; money	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '泉')	8783
-62286	盈	\N	yíng	to be full	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 满 (Guoyu '盈' v 2; Unihan '盈')	6368
-62287	盈	\N	yíng	to add	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 增加 (Guoyu '盈' v 1)	6368
-62288	盈	\N	yíng	overflowing	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 过多 (Guoyu '盈' adj 1; Unihan '盈')	6368
-62289	盈	\N	yíng	proud; arrogant	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 骄傲 (Guoyu '盈' adj 2)	6368
-62290	盈	\N	yíng	rich; plentiful	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 丰富 (Guoyu '盈' adj 3)	6368
+62286	盈	\N	yíng	to be full	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 满 (Guoyu '盈' v 2; Hanyu Dacidian '盈' 1, vol. 7, p. 1417; Unihan '盈')	6368
+62287	盈	\N	yíng	to add	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 增加 (Guoyu '盈' v 1; Hanyu Dacidian '盈' 6, vol. 7, p. 1417)	6368
+62288	盈	\N	yíng	to overflow; to exceed	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 过多 (Guoyu '盈' adj 1; Hanyu Dacidian '盈' 8, vol. 7, p. 1417; Unihan '盈')	6368
+62289	盈	\N	yíng	proud; arrogant	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 骄傲 (Guoyu '盈' adj 2; Hanyu Dacidian '盈' 11, vol. 7, p. 1417)	6368
+62290	盈	\N	yíng	rich; plentiful	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 丰富 (Guoyu '盈' adj 3; Hanyu Dacidian '盈' 3, vol. 7, p. 1417)	6368
 62291	湛湛	\N	zhànzhàn	dense and deep; important	set phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As in 浓重 (Guoyu '湛湛' 1; Mathews 1931 '湛湛', p. 15)	62291
 62292	流出	\N	liúchū	to flow out	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '流出'; Guoyu '流出')	62292
 62293	体悟	體悟	tǐwù	to experience; to realize; to comprehend	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '體悟'; Guoyu '體悟')	62293
@@ -63116,7 +63116,7 @@
 63116	活	\N	huó	exactly	adverb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CCD '活' 1 huó 6)	5035
 63117	活	\N	huó	product; workmanship	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CCD '活' 2 huó 2)	5035
 63118	页	頁	xié	head	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 头部 (Guoyu '頁' xié)	2480
-63119	装订	裝訂	zhuāngdìng	to bind a book	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In the sense of bookbinding (CC-CEDICT '裝訂'; Guoyu '裝訂')	63119
+63119	装订	裝訂	zhuāngdìng	to bind a book	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In the sense of bookbinding (CC-CEDICT '裝訂'; Guoyu '裝訂'; Wikipedia '装订')	63119
 63120	活页	活頁	huóyè	papers	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In the sense of an unbound book or loose pages of writing (Guoyu '活頁')	63120
 63121	跑龙套	跑龍套	pǎo lóng tào	to play a small role	set phrase	\N	\N	现代汉语	Modern Chinese	戏剧	Drama	\N	\N	(CC-CEDICT '跑龍套'; Guoyu '跑龍套')	63121
 63122	刚	剛	gāng	strong; powerful	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 强劲 (Guoyu '剛' adj 2)	4992
@@ -64797,7 +64797,7 @@
 64797	字顺主题	字順主題	zìshùnzhǔtí	alphabetical subject index	noun	\N	\N	现代汉语	Modern Chinese	图书馆学	Library Science	\N	\N	(GLSIB, p. 5)	64797
 64798	副标题	副標題	fù biāotí	alternative title	noun	\N	\N	现代汉语	Modern Chinese	图书馆学	Library Science	\N	\N	(GLSIB, p. 5)	64798
 64799	交替书名	交替書名	jiāotì shūmíng	subtitle; alternative title	noun	\N	\N	现代汉语	Modern Chinese	图书馆学	Library Science	\N	\N	(GLSIB, p. 5)	64799
-64800	美国图书馆协会	美國圖書館協會	Měiguó Túshūguǎn Xiéhuì	American Library Association	proper noun	协会	Association	现代汉语	Modern Chinese	\N	\N	\N	\N	(GLSIB, p. 5)	64800
+64800	美国图书馆协会	美國圖書館協會	Měiguó Túshūguǎn xiéhuì	American Library Association	proper noun	协会	Association	现代汉语	Modern Chinese	\N	\N	\N	\N	(GLSIB, p. 5)	64800
 64801	轶事	軼事	yìshì	an anecdote	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '軼事'; GLSIB, p. 6; Guoyu '軼事')	64801
 64802	逸事	\N	yìshì	an anecdote	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '逸事'; Guoyu '逸事')	64802
 64803	批注	\N	pīzhù	annotation	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '批注'; GLSIB, p. 6; Guoyu '批注')	64803
@@ -64810,7 +64810,7 @@
 64810	集刊	\N	jíkān	archives; collection of papers	noun	\N	\N	现代汉语	Modern Chinese	图书馆学	Library Science	\N	\N	(CC-CEDICT '集刊'; GLSIB, p. 7; Guoyu '集刊')	64810
 64811	升序	\N	shēngxù	ascending order	noun	\N	\N	计算机科学	Computer Science	信息学	Information Science	\N	\N	(CC-CEDICT '升序')	64811
 64812	升序排列	\N	shēngxù páiliè	ascending order	noun	\N	\N	计算机科学	Computer Science	信息学	Information Science	\N	\N	(GLSIB, p. 8)	64812
-64813	美国出版商协会	美國出版商協會	Měiguó Chūbǎnshāng Xiéhuì	Association of American Publishers	proper noun	协会	Association	现代汉语	Modern Chinese	出版	Publishing	\N	\N	(GLSIB, p. 8)	64813
+64813	美国出版商协会	美國出版商協會	Měiguó Chūbǎnshāng xiéhuì	Association of American Publishers	proper noun	协会	Association	现代汉语	Modern Chinese	出版	Publishing	\N	\N	(GLSIB, p. 8)	64813
 64814	音像	\N	yīnxiàng	audiovisual	adjective	\N	\N	计算机科学	Computer Science	信息学	Information Science	\N	\N	(CC-CEDICT '音像')	64814
 64815	音像档案	音像檔案	yīnxiàng dàngàn	audiovisual archive	set phrase	\N	\N	现代汉语	Modern Chinese	图书馆学	Library Science	\N	\N	(GLSIB, p. 9)	64815
 64816	音像消息	\N	yīnxiàng xiāoxi	audiovisual information	noun	\N	\N	现代汉语	Modern Chinese	图书馆学	Library Science	\N	\N	(GLSIB, p. 9)	64816
@@ -67159,7 +67159,7 @@
 67159	拳术	拳術	quánshù	Chinese boxing; fisticuffs	noun	\N	\N	现代汉语	Modern Chinese	武术	Martial Arts	\N	\N	(CC-CEDICT '拳術')	67159
 67160	重任	\N	zhòngrèn	heavy responsibility	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '重任')	67160
 67161	可敬	\N	kějìng	venerable	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '可敬')	67161
-67162	褫夺	褫奪	chǐduó	to deprive; to strip of	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '褫奪')	67162
+67162	褫夺	褫奪	chǐduó	to deprive; to snatch	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '褫奪'; Guoyu '褫奪'; Mathews 1931 '褫奪', p. 142)	67162
 67163	政客	\N	zhèngkè	politician	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '政客'; Guoyu '政客'; Mathews 1931 '政客', p. 44)	67163
 67164	商品化	\N	shāngpǐnhuà	commodification	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '商品化')	67164
 67165	核武	\N	héwǔ	nuclear weapon	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '核武')	67165
@@ -68315,7 +68315,7 @@
 68315	加一等	\N	jiā yī děng	increase the degree [of guilt]	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '罪加一等'; Mathews 1931 '加一等', p. 77)	68315
 68316	笙	\N	shēng	a woven bamboo mat	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '笙' n 3)	34819
 68317	笛	\N	dí	a shistle	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	di2.mp3	(Guoyu '笛' n 2)	8328
-68318	笞	\N	chī	a bamboo cane used for punishment	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '笞' n; Unihan '笞')	17668
+68318	笞	\N	chī	a bamboo cane used for punishment	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '笞' n; Mathews 1931 '笞', p. 141; Unihan '笞')	17668
 68319	縴户	縴戶	qiànhù	burlak; barge hauler	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '縴戶'; Mathews 1931 '縴戶', p. 122)	68319
 68320	以上	\N	yǐshàng	the above-mentioned	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	yi3shang4.mp3	(CC-CEDICT '以上'; Guoyu '以上' 2)	365
 68321	縴手	\N	qiàn shǒu	middle man	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '縴手'; Mathews 1931 '縴手', p. 122)	68321
@@ -69178,7 +69178,7 @@
 69178	尊君	\N	zūnjūn	(honorific) your father	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '尊君')	69178
 69179	堂堂	\N	tángtáng	grand; magnificent; stately; majestic appearance	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '堂堂')	69179
 69180	爵位	\N	juéwèi	order of feudal nobility	proper noun	人	Person	历史	History	中国	China	\N	\N	Namely: Duke 公, Marquis 侯, Count 伯, Viscount 子, Baron 男 (CC-CEDICT '爵位')	69180
-69181	迟迟	遲遲	chíchí	late (with a task etc); slow	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '遲遲')	69181
+69181	迟迟	遲遲	chíchí	slow	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '遲遲'; Guoyu '遲遲' 1; Mathews 1931 '遲遲', p. 142)	69181
 69182	深谋	深謀	shēnmóu	forethought	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '深謀')	69182
 69183	离宫	離宮	lígōng	detached palace; imperial villa	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '離宮')	69183
 69184	权变	權變	quánbiàn	to do whatever is expedient	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '權變')	69184
@@ -69367,7 +69367,7 @@
 69367	授命	\N	shòumìng	to give orders	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '授命')	69367
 69368	小声	小聲	xiǎoshēng	in a low voice; (speak) in whispers	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '小聲')	69368
 69369	寿终	壽終	shòuzhōng	to die of old age; to live to a ripe old age; (fig.) (of sth) to come to an end (after a long period of service)	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '壽終')	69369
-69370	忌日	\N	jìrì	days to be avoided due to being the anniversary of a death	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '忌日'; Guoyu '忌日' 1; Mathews 1931 '忌日', p. 57)	69370
+69370	忌日	\N	jìrì	memorial days	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Days to be avoided due to being the anniversary of a death (CC-CEDICT '忌日'; Guoyu '忌日' 1; Mathews 1931 '忌日', p. 57)	69370
 69371	任重	\N	rènzhòng	a load; a heavy burden	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '任重')	69371
 69372	车驾	車駕	chējià	imperial chariot; the emperor	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Dien 2014, p. 64; Guoyu '車駕' Mathews 1931 '車駕', p. 34)	69372
 69373	党人	黨人	dǎngrén	party member; partisan	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '黨人')	69373
@@ -69612,7 +69612,7 @@
 69612	苍苍	蒼蒼	cāngcāng	ash gray; vast and hazy; flourishing	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '蒼蒼')	69612
 69613	大度	\N	dàdù	magnanimous; generous (in spirit)	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '大度')	69613
 69614	宝玉	寶玉	bǎoyù	precious jade; treasures	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '寶玉')	69614
-69615	鸱鸮	鴟鴞	chīxiāo	owl	noun	鸟	Bird	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鴟鴞')	69615
+69615	鸱鸮	鴟鴞	chīxiāo	owl; barn own	noun	鸟	Bird	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鴟鴞'; Guoyu '鴟鴞'; Mathews 1931 '鴟鴞', p. 142)	69615
 69616	河源	\N	héyuán	Heyuan	proper noun	城市	City	地方	Places	中国	China	\N	\N	A prefecture-level city in Guangdong (CC-CEDICT '河源')	69616
 69617	歃血	\N	shàxuè	to smear one's lips with the blood of a sacrifice as a means of pledging allegiance (old)	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '歃血')	69617
 69618	变作	變作	biànzuò	to change into; to turn into; to become	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '變作')	69618
@@ -70136,7 +70136,7 @@
 70136	桔梗	\N	júgěng	Chinese bellflower; Platycodon	noun	植物	Plant	现代汉语	Modern Chinese	植物学	Botany	\N	\N	Scientific name: Platycodon grandiflorus (CC-CEDICT '桔梗'; Guoyu '桔梗'; Mathews 1931 '桔梗', p. 105; Wikipedia '桔梗')	70136
 70137	会期	會期	huìqī	the duration of a conference; the period over which a conference (or expo etc) is held; session; the date of a meeting	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '會期')	70137
 70138	中耳	\N	zhōngěr	middle ear	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '中耳')	70138
-70139	笞掠	\N	chīlüè	to flog	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '笞掠')	70139
+70139	笞掠	\N	chīlüè	to flog	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '笞掠'; Mathews 1931 '笞掠', p. 141)	70139
 70140	士多	\N	shìduō	store	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '士多')	70140
 70141	金宝	金寶	jīnbǎo	Campbell	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '金寶')	70141
 70142	儒士	\N	rúshì	a Confucian scholar	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '儒士')	70142
@@ -70913,7 +70913,7 @@
 70913	镇山	鎮山	zhènshān	main mountain of a region	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '鎮山')	70913
 70914	杨梅	楊梅	yángméi	red bayberry; Chinese bayberry; Japanese bayberry	noun	植物	Plant	现代汉语	Modern Chinese	植物学	Botany	\N	\N	Species: Myrica rubra (CC-CEDICT '楊梅')	70914
 70915	移师	移師	yíshī	to move troops to; (fig.) to move to; to shift to	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '移師')	70915
-70916	龋齿	齲齒	qǔchǐ	tooth decay; dental caries; cavity	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '齲齒')	70916
+70916	龋齿	齲齒	qǔchǐ	tooth decay; dental caries; cavity	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '齲齒'; Wikipedia '龋齿')	70916
 70917	呈正	\N	chéngzhèng	to submit a manuscript for review	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '呈正'; Mathews 1931 '呈正', p. 47)	70917
 70918	土邦	\N	tǔ bāng	native state	set phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Term used by British Colonial power to refer to independent states of India or Africa (CC-CEDICT '土邦')	70918
 70919	微火	\N	wēihuǒ	a low fire (for roasting)	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '微火')	70919
@@ -71058,7 +71058,7 @@
 71058	寡头	寡頭	guǎtóu	oligarch	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '寡頭')	71058
 71059	旄期	\N	màoqī	to have reached the age of eighty or ninety	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	A variant of 耄期 (CC-CEDICT '旄期')	71059
 71060	边声	邊聲	biānshēng	outlandish sounds	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Like wind blowing on frontier, wild horses neighing etc (CC-CEDICT '邊聲')	71060
-71061	踟蹰	踟躕	chíchú	to waver; to hesitate	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '踟躕')	71061
+71061	踟蹰	踟躕	chíchú	to waver; to hesitate	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '踟躕'; Guoyu '踟躕' 1; Mathews 1931 '踟躕', p. 142)	71061
 71062	荇菜	\N	xìngcài	yellow floating heart	noun	植物	Plant	现代汉语	Modern Chinese	植物学	Botany	\N	\N	Species: Nymphoides peltatum (CC-CEDICT '荇菜')	71062
 71063	要务	要務	yào wù	key task; important affair	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '要務')	71063
 71064	母丧	母喪	mǔ sàng	the death of one's mother	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '母喪')	71064
@@ -71837,7 +71837,7 @@
 71837	大帝	\N	dàdì	heavenly emperor; the Great (title)	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '大帝')	71837
 71838	麦秋	麥秋	mài qiū	harvest season	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '麥秋')	71838
 71839	看热闹	看熱鬧	kàn rènào	to enjoy watching a bustling scene; to go where the crowds are	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '看熱鬧')	71839
-71840	治罪	\N	zhìzuì	to punish for a crime	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '治罪')	71840
+71840	治罪	\N	zhì zuì	to punish for a crime	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '治罪'; Guoyu '治罪'; Mathews 1931 '治罪', p. 141)	71840
 71841	孑遗	孑遺	jiéyí	remnants; relics	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '孑遺'; Guoyu '孑遺'; Mathews 1931 '孑遺', p. 106)	71841
 71842	塞耳	\N	sāi'ěr	earplug; earwax	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '塞耳')	71842
 71843	危迫	\N	wēipò	urgent; pressing danger	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '危迫')	71843
@@ -71849,7 +71849,7 @@
 71849	铁山	鐵山	tiěshān	Tieshan	proper noun	地区	District	地方	Places	中国	China	\N	\N	District Of Huangshi City 黃石市|黄石市, Hubei (CC-CEDICT '鐵山')	71849
 71850	怒色	\N	nùsè	angry look; glare; scowl	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '怒色')	71850
 71851	富平	\N	fùpíng	Fuping	proper noun	县	County	地方	Places	中国	China	\N	\N	County In Weinan 渭南, Shaanxi (CC-CEDICT '富平')	71851
-71852	笞辱	\N	chīrǔ	to whip and insult	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '笞辱')	71852
+71852	笞辱	\N	chī rǔ	to beat to shame	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '笞辱'; Guoyu '笞辱'; Mathews 1931 '笞辱', p. 141)	71852
 71853	归根	歸根	guīgēn	to return home (after a lifetime's absence); to go back to one's roots	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '歸根')	71853
 71854	竹田	\N	zhútián	Chutien	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	A township in Pingtung County 屏东县, Taiwan (CC-CEDICT '竹田')	71854
 71855	达官	達官	dáguān	high-ranking official	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '達官')	71855
@@ -71903,7 +71903,7 @@
 71903	喜气	喜氣	xǐqì	hilarity; cheerful atmosphere	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '喜氣')	71903
 71904	外销	外銷	wàixiāo	to export; to sell abroad	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '外銷')	71904
 71905	敛衽	斂衽	liǎnrèn	old-fashioned women's obeisance	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '斂衽')	71905
-71906	迟钝	遲鈍	chídùn	slow in one's reactions; sluggish (in movement or thought)	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '遲鈍')	71906
+71906	迟钝	遲鈍	chídùn	slow in one's reactions; sluggish	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '遲鈍'; Guoyu '遲鈍'; Mathews 1931 '遲鈍', p. 142)	71906
 71907	公论	公論	gōnglùn	public opinion	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '公論')	71907
 71908	沂水	\N	yíshuǐ	Yishui	proper noun	县	County	地方	Places	中国	China	\N	\N	County In Linyi 臨沂|临沂, Shandong (CC-CEDICT '沂水')	71908
 71909	仄声	仄聲	zèshēng	oblique tone; nonlevel tone; uneven tone	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	The third tone of classical Chinese (CC-CEDICT '仄聲')	71909
@@ -77263,7 +77263,7 @@
 77263	公权利	公權利	gōng quánlì	public rights	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '公權利')	77263
 77264	改革运动	改革運動	gǎigé yùndòng	reform movement	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '改革')	77264
 77265	治世	\N	zhìshì	Taiping period	proper noun	时代	Period	历史	History	中国	China	\N	\N	In the sense of 太平時代 (Guoyu '治世' 1)	77265
-77266	治世	\N	zhìshì	administration of state affairs	set phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '治世' 2)	77265
+77266	治世	\N	zhì shì	peaceful administration of state affairs	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '治世' 2; Mathews 1931 '治世', p. 141)	77265
 77267	搴	\N	qiān	to extract; to pull; to select	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '搴'; Guoyu '搴' v 1; Kroll 2015 '搴' 1, p. 359; Unihan '搴')	36200
 77268	搴	\N	qiān	to gather up; to hold up the hem of clothes	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As a variant of 褰 (CC-CEDICT '搴'; Guoyu '搴' v 3; Kroll 2015 '搴' 2, p. 359; Unihan '搴')	36200
 77269	搴	\N	qiān	Qian	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(Guoyu '搴' n)	36200
@@ -78486,7 +78486,7 @@
 78486	大解	\N	dàjiě	to defecate; to empty one's bowels	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '大解')	78486
 78487	提出建议	提出建議	tíchū jiànyì	to propose; to raise a suggestion	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '提出建議')	78487
 78488	衣橱	衣櫥	yīchú	wardrobe	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '衣櫥')	78488
-78489	假牙	\N	jiàyá	false teeth; dentures	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '假牙')	78489
+78489	假牙	\N	jià yá	false teeth; dentures	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '假牙'; Mathews 1931 '假牙', p. 142)	78489
 78490	情歌	\N	qínggē	love song	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '情歌')	78490
 78491	归程	歸程	guīchéng	return trip; homeward journey	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '歸程'; Guoyu '歸程')	78491
 78492	独生子	獨生子	dúshēngzǐ	only son	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '獨生子')	78492
@@ -80344,7 +80344,7 @@
 80344	老伴	\N	lǎobàn	husband or wife	proper noun	人	Person	历史	History	中国	China	\N	\N	Of an elderly couple  (CC-CEDICT '老伴')	80344
 80345	客店	\N	kèdiàn	small hotel; inn	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '客店')	80345
 80346	盛宴	\N	chéngyàn	feast	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '盛宴')	80346
-80347	痴心	\N	chīxīn	infatuation	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴心')	80347
+80347	痴心	\N	chī xīn	infatuation	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴心'; Guoyu '痴心')	80347
 80348	云龙	雲龍	yúnlóng	Yunlong	proper noun	地区	District	地方	Places	中国	China	\N	\N	District Of Xuzhou City 徐州市, Jiangsu (CC-CEDICT '雲龍')	80348
 80349	镇远	鎮遠	zhènyuǎn	Zhenyuan	proper noun	县	County	地方	Places	中国	China	\N	\N	County In Qiandongnan Miao And Dong Autonomous Prefecture 黔东南州, Guizhou (CC-CEDICT '鎮遠')	80349
 80350	配音	\N	pèiyīn	dubbing	noun	\N	\N	现代汉语	Modern Chinese	戏剧	Drama	\N	\N	In  filmmaking (CC-CEDICT '配音')	80350
@@ -81212,7 +81212,7 @@
 81212	后备	後備	hòubèi	reserve; backup	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '後備')	81212
 81213	兴安	興安	xīngān	Xing'an	proper noun	县	County	地方	Places	中国	China	\N	\N	A county in Guilin 桂林, Guangxi (CC-CEDICT '興安')	81213
 81214	拆线	拆線	chāixiàn	to remove stitches (from a wound)	verb	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '拆線')	81214
-81215	迟滞	遲滯	chízhì	delay; procrastination	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遲滯')	81215
+81215	迟滞	遲滯	chízhì	delay; procrastination	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遲滯'; Guoyu '遲滯'; Mathews 1931 '遲滯', p. 142)	81215
 81216	默许	默許	mòxǔ	to accept tacitly; acquiescence	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '默許')	81216
 81217	怒放	\N	nùfàng	in full bloom	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '怒放')	81217
 81218	池上	\N	chíshàng	Chihshang; Chihshang	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	A township in Taitung county 台东县, southeast Taiwan (CC-CEDICT '池上')	81218
@@ -83353,7 +83353,7 @@
 83353	果汁机	果汁機	guǒzhījī	blender (device); juicer	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '果汁機')	83353
 83354	居民点	居民點	jūmín diǎn	residential area	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '居民點')	83354
 83355	果皮	\N	guǒpí	(fruit) peel	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '果皮')	83355
-83356	痴傻	癡傻	chīshǎ	stupid; foolish	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '癡傻')	83356
+83356	痴傻	癡傻	chīshǎ	stupid; foolish	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '癡傻'; Guoyu '痴傻'; Mathews 1931 '癡傻', p. 142)	83356
 83357	火警	\N	huǒjǐng	fire alarm	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '火警')	83357
 83358	密实	密實	mìshí	close (texture); dense; densely woven	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '密實')	83358
 83359	眩惑	\N	xuànhuò	confusion; unable to escape from infatuation or addiction	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '眩惑')	83359
@@ -85359,7 +85359,7 @@
 85359	掠取	\N	lüèqǔ	to plunder; to pillage; to loot	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '掠取')	85359
 85360	炒热	炒熱	chǎorè	hot (i.e. selling well); to raise prices by speculation; to hype	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '炒熱')	85360
 85361	土财主	土財主	tǔcáizhǔ	local wealthy landlord; country money-bags; rich provincial	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '土財主')	85361
-85362	迟暮	遲暮	chímù	past one's prime	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遲暮')	85362
+85362	迟暮	遲暮	chí mù	old; past one's prime	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '遲暮'; Guoyu '遲暮'; Mathews 1931 '遲暮', p. 142)	85362
 85363	退房	\N	tuìfáng	to check out of a hotel room	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '退房')	85363
 85364	藤田	\N	téngtián	Fujita	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(CC-CEDICT '藤田')	85364
 85365	黏液	\N	niányè	mucus	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '黏液')	85365
@@ -87195,7 +87195,7 @@
 87195	粗大	\N	cūdà	thick; bulky; loud	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '粗大')	87195
 87196	情资	情資	qíngzī	intelligence; information	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '情資')	87196
 87197	床边	床邊	chuángbiān	bedside	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '床邊')	87197
-87198	纤维素	纖維素	xiānwéisù	cellulose	noun	\N	\N	现代汉语	Modern Chinese	生物学	Biology	\N	\N	(CC-CEDICT '纖維素')	87198
+87198	纤维素	纖維素	xiānwéisù	cellulose	noun	\N	\N	现代汉语	Modern Chinese	生物学	Biology	\N	\N	(CC-CEDICT '纖維素'; Wikipedia '纤维素')	87198
 87199	恋家	戀家	liànjiā	home-loving; to feel a strong attachment to home life; to begrudge being away from home	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '戀家')	87199
 87200	沦陷区	淪陷區	lúnxiànqū	enemy-held territory	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '淪陷區')	87200
 87201	花童	\N	huātóng	page boy; flower girl (at a wedding)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '花童')	87201
@@ -87833,7 +87833,7 @@
 87833	修正液	\N	xiūzhèngyè	correction fluid	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '修正液')	87833
 87834	川贝	川貝	chuānbèi	Sichuan fritillary bulb	noun	\N	\N	文言文	Literary Chinese	中医	Chinese Medicine	\N	\N	Bulbus fritillariae cirrhosae (CC-CEDICT '川貝')	87834
 87835	寄信	\N	jìxìn	to send a letter	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '寄信'; Mathews 1931 '寄信', p. 55)	87835
-87836	工程图	工程圖	gōngchéng tú	engineering graphics; technical drawing	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '工程圖')	87836
+87836	工程图	工程圖	gōngchéng tú	engineering drawing; technical drawing	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '工程圖'; Wikipedia '工程图')	87836
 87837	外来投资	外來投資	wàilái tóuzī	foreign investment	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '外來投資')	87837
 87838	纸马	紙馬	zhǐmǎ	paper dolls	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	For ritual use in the shape of people or animals (CC-CEDICT '紙馬'; Guoyu '紙馬'; Mathews 1931 '紙馬', p. 132)	87838
 87839	龙门山	龍門山	lóngménshān	Mt Longmen	proper noun	山	Mountain	地方	Places	中国	China	\N	\N	The northwest boundary of the Sichuan basin, an active geological fault line, Mt Longmen in Shandong, or Mt Longmen in Henan (CC-CEDICT '龍門山')	87839
@@ -90603,7 +90603,7 @@
 90603	五凉	五涼	wǔliáng	the five Liang	set phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Of the Sixteen Kingdoms, namely: Former Liang 前凉 314-376, Later Liang 後凉 386-403, Northern Liang 北凉 398-439, Southern Liang 南涼 397-414, Western Liang 西凉 400-421 (CC-CEDICT '五涼')	90603
 90604	荫蔽	蔭蔽	yìnbì	to be shaded or concealed by foliage; to conceal; hidden; covert; shade (of a tree)	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '蔭蔽')	90604
 90605	葱翠	蔥翠	cōngcuì	fresh green	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '蔥翠')	90605
-90606	处治	處治	chùzhì	to punish; to handle; to deal with	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '處治')	90606
+90606	处治	處治	chù zhì	to punish	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '處治'; Guoyu '處治' 1; Mathews 1931 '處治', p. 141)	90606
 90607	雅爱	雅愛	yǎài	your great kindness	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '雅愛')	90607
 90608	媒合	\N	méihé	to match up	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Employers and jobseekers, men and women seeking a partner, blind people and guide dogs etc (CC-CEDICT '媒合')	90608
 90609	商贩	商販	shāngfàn	trader; peddler	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '商販')	90609
@@ -91573,7 +91573,7 @@
 91573	暴龙	暴龍	bàolóng	Tyrannosaurus spp.; T. rex	noun	\N	\N	现代汉语	Modern Chinese	古生物学	Paleontology	\N	\N	(CC-CEDICT '暴龍')	91573
 91574	余绪	餘緒	yúxù	vestigial residue; a throwback (to a former age)	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '餘緒')	91574
 91575	充车	充車	chōngchē	to be transported to a distant place for penal servitude; to banish	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '充車')	91575
-91576	笞杖	\N	chīzhàng	a cudgel	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '笞杖')	91576
+91576	笞杖	\N	chī zhàng	a cane; a cudgel	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '笞杖'; Guoyu '笞杖' 2; Mathews 1931 '笞杖', p. 141)	91576
 91577	聚议	聚議	jùyì	to meet for negotiation	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '聚議')	91577
 91578	芜湖	蕪湖	wúhú	Wuhu	proper noun	城市	City	地方	Places	中国	China	\N	\N	Prefecture level city in Anhui (CC-CEDICT '蕪湖')	91578
 91579	瑰异	瑰異	guīyì	marvelous; magnificent	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '瑰異')	91579
@@ -92828,7 +92828,7 @@
 92828	品族	\N	pǐnzú	strain (of a species)	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '品族')	92828
 92829	蠲涤	蠲滌	juāndí	to wash; to cleanse	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '蠲滌')	92829
 92830	迁安	遷安	qiānān	Qian'an	proper noun	地名	Place Name	地方	Places	中国	China	\N	\N	County level city in Tangshan 唐山, Hebei (CC-CEDICT '遷安')	92830
-92831	笞责	笞責	chīzé	to flog with a bamboo stick	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '笞責')	92831
+92831	笞责	笞責	chī zé	to flog with a bamboo stick	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '笞責'; Mathews 1931 '笞責', p. 141)	92831
 92832	觅句	覓句	mìjù	to search for the right word (of poet)	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '覓句')	92832
 92833	伊宁	伊寧	yīníng	Yining	proper noun	县	County	地方	Places	中国	China	\N	\N	City and county or Ghulja nahiyisi in Ili Kazakh autonomous prefecture 伊犁哈萨克自治州, Xinjiang (CC-CEDICT '伊寧')	92833
 92834	羽冠	\N	yǔguān	feathered crest (of bird)	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '羽冠')	92834
@@ -92992,7 +92992,7 @@
 92992	粮行	糧行	liángxíng	grain retailer (in former times)	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '糧行')	92992
 92993	宜君县	宜君縣	yíjūn xiàn	Yijun County	proper noun	县	County	地方	Places	中国	China	\N	\N	In Tongchuan 铜川, Shaanxi (CC-CEDICT '宜君縣')	92993
 92994	脚夫	腳夫	jiǎofū	porter; bearer	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '腳夫')	92994
-92995	治死	\N	zhìsǐ	to put to death	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '治死')	92995
+92995	治死	\N	zhì sǐ	to put to death	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '治死'; Guoyu '治死'; Mathews 1931 '治死', p. 141)	92995
 92996	太湖县	太湖縣	tàihú xiàn	Taihu county	proper noun	县	County	地方	Places	中国	China	\N	\N	In Anqing 安庆, Anhui (CC-CEDICT '太湖縣')	92996
 92997	雀子	\N	quèzǐ	a freckle; lentigo	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '雀子')	92997
 92998	茹荤饮酒	茹葷飲酒	rúhūnyǐnjiǔ	to eat meat and drink wine	verb	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '茹葷飲酒')	92998
@@ -95729,7 +95729,7 @@
 95729	思觉失调症	思覺失調症	sījué shītiáo zhèng	schizophrenia	noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(Wikipedia '思覺失調症')	95729
 95730	失调	失調	shīdiào	out of tune	adjective	\N	\N	现代汉语	Modern Chinese	音乐	Music	\N	\N	(CC-CEDICT '失調')	5221
 95731	水葵	\N	shuǐkuí	bracenia	noun	植物	Plant	现代汉语	Modern Chinese	\N	\N	\N	\N	Same as 莼 (Wikipedia '蓴')	95731
-95732	浮	\N	fú	to exceed; to surpass	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 超过 (Guoyu '浮' v 3; Kroll 2015 '浮' 1b, p. 120; Unihan '浮')	7662
+95732	浮	\N	fú	to exceed; to surpass	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 超过 (Guoyu '浮' v 3; Hanyu Dacidian '浮' 9, vol. 5, p. 1238; Kroll 2015 '浮' 1b, p. 120; Unihan '浮')	7662
 95733	浮	\N	fú	excessive; superfluous	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '浮'; XHZD '浮' 6)	7662
 95734	叶	葉	yè	period	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In the sense of 时期; for example 唐朝中叶 'mid-Tang' (Guoyu '葉' n 3; Kroll 2015 '葉' 2, p. 540; Unihan '葉'; XHZD '叶' 3)	4846
 95735	印度枣	印度棗	yìndù zǎo	blue or green jujube; Chinese green date; ber; Chinee apple; Indian plum; Regi pandu; Indian jujube	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '印度棗')	95735
@@ -96728,11 +96728,11 @@
 96728	解释	解釋	jiěshì	to dispel; to eliminate; to remove	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 消除 (Guoyu '解釋' 3)	1941
 96729	边	邊	biān	a party; a side	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	For example, 双边 bilateral (XHZD '边' 4)	3121
 96730	此处	此處	cǐ chù	this place; here	phrase	\N	\N	文言文	Literary Chinese	虚词	Function Words	\N	\N	(CC-CEDICT '此處'; Barnes 2007, p. 57)	96730
-96731	浮	\N	fú	superficial; frivolous; not substantial	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 表面的 (Guoyu '浮' adj 2; Kroll 2015 '浮' 2, p. 120; XHZD '浮' 2)	7662
-96732	浮	\N	fú	impermanent; fleeting; provisional; temporary	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 暂时 (Kroll 2015 '浮' 2a, p. 120; XHZD '浮' 3)	7662
-96733	浮	\N	fú	empty; void; false	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 虚 (Guoyu '浮' adj 3; XHZD '浮' 5)	7662
-96734	浮	\N	fú	to appear	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 显现 (Guoyu '浮' v 2)	7662
-96735	浮	\N	fú	a penalty in a drinking game	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '浮' 4, p. 120)	7662
+96731	浮	\N	fú	superficial; frivolous; not substantial	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 表面的 (Guoyu '浮' adj 2; Hanyu Dacidian '浮' 10, vol. 5, p. 1238; Kroll 2015 '浮' 2, p. 120; XHZD '浮' 2)	7662
+96732	浮	\N	fú	impermanent; fleeting; provisional; temporary	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 暂时 (Hanyu Dacidian '浮' 11, vol. 5, p. 1238; Kroll 2015 '浮' 2a, p. 120; XHZD '浮' 3)	7662
+96733	浮	\N	fú	empty; void; false	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 虚 (Guoyu '浮' adj 3; Hanyu Dacidian '浮' 7, vol. 5, p. 1238; XHZD '浮' 5)	7662
+96734	浮	\N	fú	to appear	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 显现 (Guoyu '浮' v 2; Hanyu Dacidian '浮' 5, vol. 5, p. 1238)	7662
+96735	浮	\N	fú	a penalty in a drinking game	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Hanyu Dacidian '浮' 15, vol. 5, p. 1238; Kroll 2015 '浮' 4, p. 120)	7662
 96736	河	\N	hé	a river-like thing	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	For example, 银河 Milky Way (Guoyu '河' 3)	2978
 96737	河	\N	hé	He	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(Guoyu '河' 4)	2978
 96738	湖	\N	hú	Hu	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(Guoyu '湖' 2)	2979
@@ -98968,7 +98968,7 @@
 98968	干犯	\N	gànfàn	to violate	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '干犯')	98968
 98969	葳	\N	wēi	luxuriant; flourishing	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Used for various plant names (Unihan '葳')	98969
 98970	蕤	\N	ruí	soft; delicate	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '蕤')	34460
-98971	大小	\N	dàxiǎo	adults and children	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '大小')	2312
+98971	大小	\N	dàxiǎo	adults and children	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '大小'; Guoyu '大小' 1)	2312
 98972	占兆	\N	zhānzhào	to observe signs	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '占兆', p. 13)	98972
 98973	键	鍵	jiàn	door bolt; lock bolt	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '鍵'; Guoyu '鍵' n 1; Mathews 1931 '鍵', p. 119; Unihan '鍵'; XHZD '键' 2, p. 333)	2353
 98974	少白头	少白頭	shào báitóu	a person whose hair has turned grey prematurely	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CCD '少白头' 2; Guoyu '少白頭' 1)	2105
@@ -99906,9 +99906,9 @@
 99906	怒	\N	nù	huge and strong	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 声势浩大 (Guoyu '怒' adj 3)	7307
 99907	怒潮	\N	nùcháo	tidal bore; tidal surge	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '怒潮'; Guoyu '怒潮')	99907
 99908	痴	\N	chī	delusion; moha	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Sanskrit equivalent: moha (Ding '痴'; FGDB '癡'; SH '痴')	38321
-99909	痴	\N	chī	ignorant; stupid	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '痴' adj 1)	38321
+99909	痴	\N	chī	ignorant; stupid	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '痴' adj 1; Mathews 1931 '痴', p. 142)	38321
 99910	痴人说梦	痴人說夢	chīrénshuōmèng	a fool explains a dream; lunatic ravings	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '痴人說夢'; Guoyu '痴人說夢')	99910
-99911	痴	\N	chī	infatuated	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 专情 (Guoyu '痴' adj 2)	38321
+99911	痴	\N	chī	infatuated	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 专情 (Guoyu '痴' adj 2; Mathews 1931 '痴', p. 142)	38321
 99912	专情	專情	zhuānqíng	infatuated	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '專情')	99912
 99913	假伪	假偽	jià wěi	fake	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '假偽', p. 80)	99913
 99914	能	\N	néng	talent	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '能' adj 1; Kroll 2015 '能' 1a; XHZD '能' 2)	1263
@@ -107169,7 +107169,7 @@
 107169	协议栈	協議栈	xiéyì zhàn	protocol stack	set phrase	\N	\N	计算机科学	Computer Science	网络	Networking	\N	\N	(Wikipedia '协议栈')	107169
 107170	协议堆叠	協議堆疊	xiéyì duīdié	protocol stack	set phrase	\N	\N	计算机科学	Computer Science	网络	Networking	\N	\N	(Wikipedia '协议栈')	107170
 107171	栈	\N	zhàn	enclosure for keeping animals	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '栈' n 1)	104274
-107172	颜延之	顏延之	yán yánzhī	Yan Yanzhi	proper noun	人	Person	历史	History	中国	China	\N	\N	384-456; Historic figure from the Former Liang (Guoyu '顏延之')	107172
+107172	颜延之	顏延之	yán yánzhī	Yan Yanzhi	proper noun	人	Person	历史	History	中国	China	\N	\N	384-456 C.E.; Scholar from the Eastern Jin and Former Liang (Guoyu '顏延之')	107172
 107173	栈	\N	zhàn	a mountain path	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '栈' n 2)	104274
 107174	明修栈道暗渡陈仓	明修棧道暗渡陳倉	míng xiū zhàn dào àn dù chéncāng	repair the plank road by day while secretly crossing the [Wei River] at Chencang	set phrase	\N	\N	俗语	Common Saying	\N	\N	\N	\N	(CC-CEDICT '明修棧道，暗渡陳倉'; Guoyu '明修棧道，暗渡陳倉')	107174
 107175	蜀道	\N	shǔdào	Sichuan [mountain] road	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '蜀道')	107175
@@ -107447,8 +107447,8 @@
 107447	厉	厲	lì	to grind; to sharpen	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	li4.mp3	(Unihan '厲')	5584
 107448	厉	厲	lì	to whet	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	li4.mp3	(Unihan '厲')	5584
 107449	牡	\N	mǔ	bolt of a door	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '牡')	11352
-107450	迟	遲	chí	slow	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	chi2.mp3	(Kroll 2015 '遲' 1, p. 51; Unihan '遲')	5822
-107451	迟	遲	chí	to delay; to procrastinate	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	chi2.mp3	(Kroll 2015 '遲' 1b, p. 51; Unihan '遲')	5822
+107450	迟	遲	chí	slow	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '遲' 1, p. 51; Unihan '遲')	5822
+107451	迟	遲	chí	to delay; to procrastinate	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '遲' 1b, p. 51; Mathews 1931 '遲', p. 141; Unihan '遲')	5822
 107452	干禄	干祿	gànlù	to seek after fame and fortune	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '干祿')	107452
 107453	粟	\N	sù	Su	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(Guoyu '粟' n 5)	17148
 107454	子张	子張	zǐ zhāng	Zi Zhang	proper noun	人	Person	文学	Literature	中国	China	\N	\N	Courtesy name of 颛孙师 Zhuansun Shi (Guoyu '子張'; Wikipedia '子張')	107454
@@ -108845,7 +108845,7 @@
 108845	迟	遲	chí	a long time	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '遲' 2, p. 51)	5822
 108846	迟	遲	chí	dim-witted	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '遲' 3, p. 51)	5822
 108847	迟	遲	chí	to hesitate	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '遲' 4, p. 51)	5822
-108848	迟	遲	zhì	to wait	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '遲' zhì, p. 51)	5822
+108848	迟	遲	zhì	to wait	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '遲' zhì, p. 51; Mathews 1931 '遲', p. 142)	5822
 108849	醉	\N	zuì	soaked in wine	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '醉' adj 2)	8443
 108850	前缘	前緣	qián yuán	destiny; lot	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '前緣'; Mathews 1931 '前緣', p. 127)	108850
 108851	钱文	錢文	qiánwén	money	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '錢文'; Mathews 1931 '錢文', p. 127)	108851
@@ -109575,7 +109575,7 @@
 109575	徯落	\N	xīluò	to snub	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 冷落 (Guoyu '徯落' 2)	109572
 109576	奚落	\N	xīluò	to snub	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 冷落 (Guoyu '奚落' 2)	109573
 109577	謷	\N	ào	arrogant	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 倨傲; as a variant of 傲 (Guoyu '謷' ào adj)	53186
-109578	墀	\N	chí	porch	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Unihan '墀')	6572
+109578	墀	\N	chí	porch; courtyard	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '墀'; Guoyu '墀'; Mathews 1931 '墀', p. 141; Unihan '墀')	6572
 109579	謷謷	\N	áo'áo	slander	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '謷謷' 1; Mathews 1931 '謷謷', p. 8)	109579
 109580	謷謷	\N	áo'áo	the sound of weeping	onomatopoeia	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '謷謷' 2; Mathews 1931 '謷謷', p. 8)	109579
 109581	挺身而出	\N	tǐng shēn ér chū	straighten up and step out; to step forward bravely	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '挺身而出'; CCI '挺身而出', p. 74; Guoyu '挺身而出')	109581
@@ -112753,7 +112753,7 @@
 112753	风角	風角	fēngjiǎo	the sound of a flute	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '風角' 2)	112752
 112754	笛	\N	dí	a whistle	noun	\N	\N	文言文	Literary Chinese	音乐	Music	\N	\N	(Unihan '笛')	8328
 112755	章	\N	zhāng	order	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	zhang1.mp3	(CCD 1 '章' 3, p. 2416; Guoyu '章' n 5)	6709
-112756	章	\N	zhāng	to make known; to display	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(FE '章' 4, p. 1007; Mathews 1931 '章', p. 19)	6709
+112756	章	\N	zhāng	to make known; to display	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 显示 (FE '章' 4, p. 1007; Hanyu Dacidian '章' 11, vol. 8, pp. 380-381; Mathews 1931 '章', p. 19)	6709
 112757	下笔成章	下筆成章	xià bǐ chéng zhāng	to put a pen to paper and immediately produce a composition	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	Of somebody very good at creative writing (Guoyu '下筆成章')	112757
 112758	下笔成篇	下筆成篇	xiàbǐchéngpiān	to put a pen to paper and immediately produce a composition	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	A variant of 下笔成章 (Guoyu '下筆成篇')	112758
 112759	走笔成章	走筆成章	zǒubǐchéngzhāng	to rapidly write a composition	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	A variant of 下笔成章 (Guoyu '走筆成章')	112759
@@ -123508,7 +123508,7 @@
 123508	干掉	幹掉	gāndiào	to get rid of	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '幹掉')	123508
 123509	干材	幹材	gāncái	ability; capable	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '幹材')	123509
 123510	干渠	幹渠	gānqú	trunk canal	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '幹渠')	123510
-123511	干细胞	幹細胞	gānxìbāo	stem cell	noun	\N	\N	现代汉语	Modern Chinese	生物学	Biology	\N	\N	(CC-CEDICT '幹細胞')	123511
+123511	干细胞	幹細胞	gānxìbāo	stem cell	noun	\N	\N	现代汉语	Modern Chinese	生物学	Biology	\N	\N	(CC-CEDICT '幹細胞'; Wikipedia '干细胞')	123511
 123512	干警	幹警	gānjǐng	police; police cadres	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '幹警')	123512
 123513	幻景	\N	huànjǐng	illusion; mirage	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '幻景')	123513
 123514	幻椅式	\N	huànyǐshì	chair (yoga pose)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '幻椅式')	123514
@@ -128255,7 +128255,7 @@
 128255	油麦	油麥	yóumài	naked oat	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '油麥')	128255
 128256	油麦菜	油麥菜	yóumàicài	Indian lettuce	proper noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '油麥菜')	128256
 128257	油黑	\N	yóuhēi	glossy black	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '油黑')	128257
-128258	治下	\N	zhìxià	under the jurisdiction of	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '治下')	128258
+128258	治下	\N	zhì xià	under the jurisdiction of	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '治下'; Guoyu '治下'; Mathews '治下')	128258
 128259	治疗炎症	治療炎症	zhìliáo yánzhèng	anti-inflammatory	set phrase	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '治療炎症')	128259
 128260	沼泽地带	沼澤地帶	zhǎozédì dài	marsh; swamp; everglade	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '沼澤地帶')	128260
 128261	沾染控制	\N	zhānrǎn kòngzhì	contamination control	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '沾染控制')	128261
@@ -129837,15 +129837,15 @@
 129837	牌戏	牌戲	páixì	a card game	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牌戲')	129837
 129838	牌号	牌號	páihào	trademark	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牌號')	129838
 129839	牙人	\N	yárén	middleman; broker	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '牙人')	129839
-129840	牙周炎	\N	yázhōuyán	periodontitis (gum disorder)	noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '牙周炎')	129840
-129841	牙周病	\N	yázhōubìng	periodontitis (gum disorder)	noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '牙周病')	129841
+129840	牙周炎	\N	yázhōuyán	periodontitis	noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '牙周炎'; Wikipedia '牙周炎')	129840
+129841	牙周病	\N	yázhōubìng	periodontitis	noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '牙周病')	129841
 129842	牙垢	\N	yágòu	dental plaque; tartar	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙垢')	129842
 129843	无聊	無聊	wúliáo	bored	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In the sense of 愁闷 (ABC 'wúliáo' 无聊  sv 1, p. 1006; CC-CEDICT '無聊'; Guoyu '無聊' 1)	9126
 129844	无聊	無聊	wúliáo	stupid	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In the sense of 愁闷 (ABC 'wúliáo' 无聊  sv 3, p. 1006; CC-CEDICT '無聊'; Guoyu '無聊' 1)	9126
 129845	无聊	無聊	wúliáo	destitute; poverty stricken	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 穷困 (Guoyu '無聊' 2)	9126
 129846	无聊	無聊	wúliáo	to have no alternative	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 无可奈何 (Guoyu '無聊' 3)	9126
 129847	牤	\N	māng	a bull	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As in 牤牛 (CC-CEDICT '牤')	129847
-129848	牙本质	牙本質	yáběnzhì	dentin; dentine	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙本質')	129848
+129848	牙本质	牙本質	yáběnzhì	dentin; dentine	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙本質'; Wikipedia '牙本质')	129848
 129849	牙桥	牙橋	yáqiáo	dental bridge	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙橋')	129849
 129850	牙班	\N	yábān	dental plaque	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙班')	129850
 129851	牙盘	牙盤	yápán	(bicycle) crankset	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙盤')	129851
@@ -129855,8 +129855,8 @@
 129855	牙线棒	牙線棒	yáxiànbàng	floss pick	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙線棒')	129855
 129856	牙缝	牙縫	yáfèng	gap between teeth	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙縫')	129856
 129857	牙缝儿	牙縫兒	yáfèngr	gap between teeth	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙縫兒')	129857
-129858	牙菌斑	\N	yájūnbān	dental bacterial plaque	noun	\N	\N	现代汉语	Modern Chinese	生物学	Biology	\N	\N	(CC-CEDICT '牙菌斑')	129858
-129859	牙釉质	牙釉質	yáyòuzhì	tooth enamel	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙釉質')	129859
+129858	牙菌斑	\N	yájūnbān	dental bacterial plaque	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙菌斑'; Wikipedia '牙菌斑')	129858
+129859	牙釉质	牙釉質	yáyòuzhì	tooth enamel	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙釉質'; Wikipedia '牙釉质')	129859
 129860	牙关紧闭症	牙關緊閉症	yáguān jǐn bì zhèng	lockjaw; trismus	set phrase	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '牙關緊閉症')	129860
 129861	牙雕	\N	yádiāo	ivory carving	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙雕')	129861
 129862	牙齿矫正器	牙齒矯正器	yáchǐ jiǎozhèng qì	orthodontic braces	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙齒矯正器')	129862
@@ -130621,8 +130621,8 @@
 130621	痰盂儿	痰盂兒	tányúér	spittoon	noun	\N	\N	现代汉语	Modern Chinese	方言	Dialect	\N	\N	Erhua variant of 痰盂 (CC-CEDICT '痰盂兒')	130621
 130622	痰盂式	\N	tányúshì	spittoon-shaped	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痰盂式')	130622
 130623	痴呆症	\N	chīdāizhèng	dementia	noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '痴呆症')	130623
-130624	痴呆	痴獃	chīdāi	imbecility; dementia	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴獃')	130624
-130625	痴笑	\N	chīxiào	to giggle foolishly; to titter	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴笑')	130625
+130624	痴呆	痴獃	chīdāi	foolish; stupid	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴獃'; Guoyu '痴呆'; Mathews 1931 '癡獃', p. 142)	130624
+130625	痴笑	\N	chī xiào	to giggle foolishly; to titter	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴笑'; Guoyu '痴笑'; Mathews 1931 '癡笑', p. 142)	130625
 130626	痼癖	\N	gùpǐ	addiction	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痼癖')	130626
 130627	痼习	痼習	gùxí	inveterate habit	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痼習')	130627
 130628	瘀斑	\N	yūbān	ecchymosis; bruising	noun	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '瘀斑')	130628
@@ -131900,7 +131900,7 @@
 131900	笑纹	笑紋	xiàowén	laugh lines (on the face)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '笑紋')	131900
 131901	笑纳	笑納	xiàonà	to kindly accept (an offering)	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '笑納')	131901
 131902	笞棰	\N	chīchuí	to beat with a bamboo whip	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '笞棰')	131902
-131903	笞臀	\N	chītún	to whip the buttocks	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '笞臀')	131903
+131903	笞臀	\N	chī tún	to cane the buttocks	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '笞臀'; Mathews 1931 '笞臀', p. 141)	131903
 131904	笥匮囊空	笥匱囊空	sì kuì náng kōng	extremely destitute	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '笥匱囊空')	131904
 131905	符牌	\N	fúpái	a talisman; a lucky charm	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '符牌')	131905
 131906	符记	符記	fújì	token	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '符記')	131906
@@ -132802,7 +132802,7 @@
 132802	羊油	\N	yángyóu	sheep's fat; suet; mutton tallow	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '羊油')	132802
 132803	羊痫风	羊癇風	yángxiánfēng	epilepsy	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '羊癇風')	132803
 132804	羊癫疯	羊癲瘋	yángdiānfēng	epilepsy	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '羊癲瘋')	132804
-132805	羊皮纸	羊皮紙	yángpízhǐ	parchment	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '羊皮紙')	132805
+132805	羊皮纸	羊皮紙	yángpízhǐ	parchment	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '羊皮紙'; Guoyu '羊皮紙'; Wikipedia '羊皮紙')	132805
 132806	羊肉馅	羊肉餡	yángròuxiàn	minced mutton	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '羊肉餡')	132806
 132807	羊膜穿刺术	羊膜穿刺術	yángmó chuāncì shù	amniocentesis	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '羊膜穿刺術')	132807
 132808	羊角包	\N	yángjiǎobāo	croissant	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '羊角包')	132808
@@ -136700,7 +136700,7 @@
 136700	遮目鱼	遮目魚	zhēmùyú	milkfish (Chanos chanos)	noun	鱼	Fish	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遮目魚')	136700
 136701	遮护板	遮護板	zhēhùbǎn	shield; protective board	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遮護板')	136701
 136702	迟了	遲了	chíle	late	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遲了')	136702
-136703	迟慢	遲慢	chímàn	slow; late	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遲慢')	136703
+136703	迟慢	遲慢	chímàn	slow; late	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遲慢'; Mathews 1931 '遲慢', p. 142)	136703
 136704	迟滞现象	遲滯現象	chízhì xiànxiàng	hysteresis	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遲滯現象')	136704
 136705	迟发性损伤	遲發性損傷	chí fà xìng sǔnshāng	delayed lesion	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遲發性損傷')	136705
 136706	迟顿	遲頓	chídùn	inactive; obtuse	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '遲頓')	136706
@@ -142661,7 +142661,7 @@
 142661	齐聚一堂	齊聚一堂	qí jù yī táng	to get together all at once	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '齊聚一堂')	142661
 142662	齌怒	\N	jìnù	to suddenly become extremely angry	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '齌怒')	142662
 142663	赍恨	齎恨	jīhèn	to harbor malice	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '齎恨'; Guoyu '齎恨'; Mathews 1931 '齎恨', p. 61)	142663
-142664	齿冠	齒冠	chǐguān	crown of tooth	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '齒冠')	142664
+142664	齿冠	齒冠	chǐguān	crown of tooth	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '齒冠'; Wikipedia '齿冠')	142664
 142665	齿列矫正	齒列矯正	chǐ liè jiǎozhèng	orthodontic treatment; orthodontics	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '齒列矯正')	142665
 142666	齿孔	齒孔	chǐkǒng	perforations (on a postage stamp)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '齒孔')	142666
 142667	齿嵴	齒嵴	chǐjí	alveolar ridge	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '齒嵴')	142667
@@ -145985,8 +145985,8 @@
 145985	病毒学家	病毒學家	bìngdúxué jiā	virologist (person who studies viruses)	set phrase	\N	\N	现代汉语	Modern Chinese	医学	Medicine	\N	\N	(CC-CEDICT '病毒學家')	145985
 145986	痛砭时弊	痛砭時弊	tòngbiān shíbì	to strongly criticize the evils of the day	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痛砭時弊')	145986
 145987	真怪	\N	zhēnguài	odd; unusual	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '真怪')	145987
-145988	痴人痴福	\N	chī rén chī fú	a fool suffers foolish fortune	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '痴人痴福')	145988
-145989	痴想	\N	chīxiǎng	to daydream; wishful thinking; pipe dream	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴想')	145989
+145988	痴人痴福	\N	chī rén chī fú	a fool suffers foolish fortune	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '痴人痴福'; Guoyu '痴人痴福')	145988
+145989	痴想	\N	chīxiǎng	daydreams; wishful thinking; vain thoughts	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴想'; Guoyu '痴想'; ; Mathews 1931 '癡想', p. 142)	145989
 145990	痴痴	\N	chīchī	foolish; stupid; lost in thought; in a daze	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴痴')	145990
 145991	瘦肉精	\N	shòuròujīng	leanness-enhancing agent (for livestock)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '瘦肉精')	145991
 145992	瘸腿	\N	quétuǐ	crippled; lame; a cripple; a lame person	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '瘸腿')	145992
@@ -147681,7 +147681,7 @@
 147681	隐情不报	隱情不報	yǐnqíng bù bào	not to report something; to keep something secret	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '隱情不報')	147681
 147682	隐颧	隱顴	yǐnquán	a skull with sunken cheek bone; cryptozygous	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '隱顴')	147682
 147683	陇南市	隴南市	lǒngnánshì	Longnan	proper noun	城市	City	地方	Places	中国	China	\N	\N	Prefecture-level city in south Gansu (CC-CEDICT '隴南市')	147683
-147684	陇县	隴縣	lǒngxiàn	Long	proper noun	县	County	地方	Places	中国	China	\N	\N	County in Baoji 宝鸡, Shaanxi (CC-CEDICT '隴縣')	147684
+147684	陇县	隴縣	lǒngxiàn	Long county	proper noun	县	County	地方	Places	中国	China	\N	\N	County in Baoji 宝鸡, Shaanxi (CC-CEDICT '隴縣'; Wikipedia '陇县')	147684
 147685	雄心勃勃	\N	xióngxīn bóbó	aggressive and grand; ambitious; pushy	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(CC-CEDICT '雄心勃勃')	147685
 147686	雄县	雄縣	xióngxiàn	Xiong	proper noun	县	County	地方	Places	中国	China	\N	\N	County in Baoding 保定, Hebei (CC-CEDICT '雄縣')	147686
 147687	雅各书	雅各書	yǎgèshū	Epistle of St James (in New Testament)	proper noun	\N	\N	现代汉语	Modern Chinese	基督教	Christianity	\N	\N	(CC-CEDICT '雅各書'; Wikipedia '雅各書')	147687
@@ -160524,7 +160524,7 @@
 160524	河西堡	\N	héxībǎo	Hexipu	proper noun	县	County	地方	Places	中国	China	\N	\N	Town in Yongchang county 永昌县, Jinchang 金昌, Gansu (CC-CEDICT '河西堡')	160524
 160525	油泼扯面	油潑扯麵	yóu pō chěmiàn	broad, belt-shaped noodles	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Popular in Shaanxi, also known as biángbiáng miàn (CC-CEDICT '油潑扯麵')	160525
 160526	油盐酱醋	油鹽醬醋	yóu yán jiàng cù	oil, salt, soy sauce and vinegar; the trivia of everyday life	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '油鹽醬醋')	160526
-160527	治外法权	治外法權	zhì wài fǎ quán	diplomatic immunity	set phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '治外法權')	160527
+160527	治外法权	治外法權	zhì wài fǎ quán	diplomatic immunity; extraterritoriality	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '治外法權'; Guoyu '治外法權'; Mathews 1931 '治外法權', p. 141)	160527
 160528	治多县	治多縣	zhìduōxiàn	Zhidoi county	proper noun	县	County	地方	Places	中国	China	\N	\N	In Yushu Tibetan autonomous prefecture 玉树藏族自治州, Qinghai (CC-CEDICT '治多縣')	160528
 160529	治大国若烹小鲜	治大國若烹小鮮	zhì dàguó ruò pēng xiǎo xiān	ruling a large nation is like cooking a small delicacy	phrase	\N	\N	谚语	Proverb	\N	\N	\N	\N	(CC-CEDICT '治大國若烹小鮮')	160529
 160530	专制政体	專制政體	zhuānzhì zhèngtǐ	autocracy	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '專制政體'; Mathews 1931 '專制政體', p. 45)	160530
@@ -161271,9 +161271,9 @@
 161271	好处	好處	hǎochù	favor; grace	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In the sense of 恩惠 (Guoyu '好處' hǎochù 6)	10306
 161272	好办	好辦	hǎobàn	maneagable	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '好辦')	161272
 161273	好处	好處	hǎochǔ	congenial	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In the sense of 容易交往 (ABC 'hǎochu' 好处 sv, p. 355 ; Guoyu '好處' hǎochǔ 2)	10306
-161274	浮	\N	fú	to sail	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '浮' 1a, p. 120)	7662
+161274	浮	\N	fú	to sail	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 航行 (Hanyu Dacidian '浮' 2, vol. 5, p. 1238; Kroll 2015 '浮' 1a, p. 120)	7662
 161275	浮	\N	fú	to drift from one place to the next	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Of a person (Kroll 2015 '浮' 3, p. 120)	7662
-161276	浮	\N	fú	to immerse; to soak	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '浮' 5, p. 120)	7662
+161276	浮	\N	fú	to immerse; to soak	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Hanyu Dacidian '浮' 4, vol. 5, p. 1238; Kroll 2015 '浮' 5, p. 120)	7662
 161277	江口	\N	jiāngkǒu	Jiangkou	proper noun	县	County	地方	Places	中国	China	\N	\N	County in Tongren prefecture 铜仁地区, Guizhou (CC-CEDICT '江口')	160481
 161278	有事	\N	yǒushì	an offering to Heaven on an imperial tour	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '有事' 3)	160104
 161279	短尾鹩鹛	短尾鷯鶥	duǎn wěi liáo méi	rufous-throated wren-babbler (Spelaeornis caudatus)	noun	鸟	Bird	现代汉语	Modern Chinese	\N	\N	\N	\N	Bird species of China (CC-CEDICT '短尾鷯鶥')	161279
@@ -164058,7 +164058,7 @@
 164058	珲春市	琿春市	húnchūnshì	Hunchun	proper noun	城市	City	地方	Places	中国	China	\N	\N	County level city in Yanbian Korean autonomous prefecture 延边朝鲜族自治州, Jilin (CC-CEDICT '琿春市')	164058
 164059	甘纳豆	甘納豆	gānnàdòu	amanattō, traditional Japanese sweets made from azuki or other beans	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '甘納豆')	164059
 164060	甲申政变	甲申政變	jiǎ Shēn zhèngbiàn	Korean palace coup of 1884	proper noun	\N	\N	历史	History	亚洲	Asia	\N	\N	Unsuccessful and bloody Korean palace coup in 1884 by Westernisers against conservatives, crushed by Qing troops (CC-CEDICT '甲申政變')	164060
-164061	痴汉	痴漢	chīhàn	pervert; idiot; fool	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Loanword from Japanese 'chikan'; Taiwanese usage (CC-CEDICT '痴漢')	164061
+164061	痴汉	痴漢	chīhàn	idiot; fool	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴漢'; Mathews 1931 '癡漢', p. 142)	164061
 164062	白翎岛	白翎島	báilíngdǎo	Baengnyeong Island	proper noun	岛	Island	地方	Places	韩国	South Korea	\N	\N	Of South Korea, near the Northern Limit Line (CC-CEDICT '白翎島')	164062
 164063	白翎面	\N	báilíngmiàn	Baengnyeong township	proper noun	地名	Place Name	地方	Places	韩国	South Korea	\N	\N	See also 白翎岛 (CC-CEDICT '白翎面')	164063
 164064	皇军	皇軍	huángjūn	imperial army (especially Japanese)	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '皇軍')	164064
@@ -168972,7 +168972,7 @@
 168972	备质	備質	bèi zhí	to call as a witness	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '備質', p. 140)	168972
 168973	颜延年	顏延年	yán yánnián	Yan Yannian	proper noun	人	Person	历史	History	中国	China	\N	\N	See 颜延之 (Wikipedia '颜延之')	168973
 168974	质借	質借	zhí jiè	to borrow against a security deposit	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '質借', p. 140)	168974
-168975	宗炳	\N	zōng bǐng	Zong Bing	proper noun	人	Person	历史	History	中国	China	\N	\N	An Eastern Jin and Liu Song dynasty artist and art critic from present-day Henan (Wikipedia '宗炳')	168975
+168975	宗炳	\N	zōng bǐng	Zong Bing	proper noun	人	Person	历史	History	中国	China	\N	\N	375-443 C.E.; An Eastern Jin and Liu Song dynasty artist and art critic from present-day Henan (Wikipedia '宗炳')	168975
 168976	宗少文	\N	zōng shǎowén	Zong Shaowen	proper noun	人	Person	历史	History	中国	China	\N	\N	See 宗炳 (Wikipedia '宗炳')	168976
 168977	质铺	質舖	zhípù	a pawnshop	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	See 典当行 (Mathews 1931 '質舖', p. 140)	168977
 168978	典当业	典當業	diǎndàngyè	pawnbroker	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '典当业')	168978
@@ -169216,4 +169216,217 @@
 169216	数	數	shǔ	to enumerate	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In the sense of 数说 (Hanyu Dacidian '數' shǔ 5, vol. 5, p. 506-507)	2818
 169217	数	數	shǔ	to distinguish	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	In the sense of 分辨 (Hanyu Dacidian '數' shǔ 8, vol. 5, p. 506-507)	2818
 169218	数	數	shuò	to be close to	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 亲近 (Hanyu Dacidian '數' shuò 2, vol. 5, p. 506-507)	2818
-169219	数	數	shuò	fast	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As a variant of 速 (Hanyu Dacidian '數' shuò 3, vol. 5, p. 506-507)	2818
+169219	数	數	shuò	fast; quick	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As a variant of 速 (Hanyu Dacidian '數' shuò 3, vol. 5, p. 506-507)	2818
+169220	治经	治經	zhì jīng	to study the classics	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '治經', p. 141)	169220
+169221	盈	\N	yíng	enough; sufficient	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 足够 (Hanyu Dacidian '盈' 2, vol. 7, p. 1417)	6368
+169222	盈	\N	yíng	perfect	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 圆满 (Hanyu Dacidian '盈' 4, vol. 7, p. 1417)	6368
+169223	盈	\N	yíng	prosperous	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 旺盛 (Hanyu Dacidian '盈' 5, vol. 7, p. 1417)	6368
+169224	盈	\N	yíng	many	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 众多 (Hanyu Dacidian '盈' 7, vol. 7, p. 1417)	6368
+169225	盈	\N	yíng	to rise	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 上涨 (Hanyu Dacidian '盈' 9, vol. 7, p. 1417)	6368
+169226	盈	\N	yíng	to be excessive	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 过分 (Hanyu Dacidian '盈' 10, vol. 7, p. 1417)	6368
+169227	盈	\N	yíng	Ying	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(Hanyu Dacidian '盈' 13, vol. 7, p. 1417)	6368
+169228	治县	治縣	zhì xiàn	to administer a county	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '治縣', p. 141)	169228
+169229	盈数	盈數	yíng shù	a round number; ten, one hundred, or ten thousand	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Hanyu Dacidian '盈數', vol. 7, p. 1420)	169229
+169230	治行装	治行裝	zhì xíngzhuāng	to pack luggage	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '治行裝', p. 141)	169230
+169231	八维	八維	bā wéi	eight cardinal directions	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '八維')	169231
+169232	八维	八維	bā wéi	eight dimensions	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '八维空间')	169231
+169233	治身	\N	zhì shēn	physical training	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '治身', p. 141)	169233
+169234	治躬	\N	zhì gōng	physical training	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '治躬'; Mathews 1931 '治躬', p. 141)	169234
+169235	迂诞	迂誕	yū dàn	exaggeration beyond belief	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '迂誕')	169235
+169236	治狱	治獄	zhì yù	to punish in a criminal case	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '治獄', p. 141)	169236
+169237	章	\N	zhāng	an institution	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 典章 (Hanyu Dacidian '章' 1, vol. 8, p. 380)	6709
+169238	章	\N	zhāng	a banner	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 旌旗 (Hanyu Dacidian '章' 5, vol. 8, pp. 380-381)	6709
+169239	章	\N	zhāng	a stage of development	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Hanyu Dacidian '章' 7, vol. 8, pp. 380-381)	6709
+169240	章	\N	zhāng	an impressive achievement	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Hanyu Dacidian '章' 9, vol. 8, pp. 380-381)	6709
+169241	章	\N	zhāng	to contain	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 盛 (Hanyu Dacidian '章' 10, vol. 8, pp. 380-381)	6709
+169242	章	\N	zhāng	clear; obvious	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 明显 (Hanyu Dacidian '章' 13, vol. 8, pp. 380-381)	6709
+169243	章	\N	zhāng	to distinguish	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 区分 (Hanyu Dacidian '章' 14, vol. 8, pp. 380-381)	6709
+169244	章	\N	zhāng	timber; lumber	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 大木材 (Hanyu Dacidian '章' 19, vol. 8, pp. 380-381)	6709
+169245	章	\N	zhāng	a ritual cap	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	An abbreviation for 章甫 (Hanyu Dacidian '章' 20, vol. 8, pp. 380-381)	6709
+169246	章	\N	zhāng	ritual dress	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	An abbreviation for 章服 (Hanyu Dacidian '章' 21, vol. 8, pp. 380-381)	6709
+169247	章	\N	zhāng	memorial script	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	An abbreviation for 章草 (Hanyu Dacidian '章' 22, vol. 8, pp. 380-381)	6709
+169248	章	\N	zhāng	a river deer	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As a variant of 獐 (Hanyu Dacidian '章' 23, vol. 8, pp. 380-381)	6709
+169249	章	\N	zhāng	camphor tree	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As a variant of 樟 (Hanyu Dacidian '章' 24, vol. 8, pp. 380-381)	6709
+169250	章	\N	zhāng	husband's father	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As a variant of 嫜 (Hanyu Dacidian '章' 25, vol. 8, pp. 380-381)	6709
+169251	章	\N	zhāng	an obstruction	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	As a variant of 障 (Hanyu Dacidian '章' zhàng, vol. 8, pp. 380-381)	6709
+169252	治辩	\N	zhì biàn	to argue a case in court	phrase	\N	\N	佛教	Buddhism	\N	\N	\N	\N	(Mathews 1931 '治辩', p. 141)	169252
+169253	章亥	\N	zhāng hài	Dazhang and Shuhai	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Refers to the legendary figures 大章 and 竖亥 (Hanyu Dacidian '章亥', vol. 8, p. 382)	169253
+169254	处治	處治	chù zhì	to handle; to deal with	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '處治'; Guoyu '處治' 2)	90606
+169255	大咸	\N	dàxián	Daxian	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	A legendary musician (Wikipedia '大咸')	169255
+169256	咸池	\N	xiánchí	Xianchi	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	See 大咸 (Wikipedia '大咸')	169256
+169257	大章	\N	dàzhāng	Dazhang	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	See 大咸 (Wikipedia '大咸')	169257
+169258	治功	\N	zhì gōng	meritorious service to the state	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '治功'; Mathews 1931 '治功', p. 141)	169258
+169259	竖亥	豎亥	shùhài	Shuhai	proper noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	A legendary character mentioned in the 山海经 Classic of Mountains and Seas (Wikipedia '海外东经')	169259
+169260	治命	\N	zhì mìng	request by somebody who is about to pass away	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '治命'; Mathews 1931 '治命', p. 141)	169260
+169261	大小	\N	dà xiǎo	greater or lesser importance; at any rate	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '大小'; Guoyu '大小' 3)	169261
+169262	治属	治屬	zhì shǔ	under the juristiction of	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '治屬', p. 141)	169262
+169263	萧衍	蕭衍	xiāo yǎn	Xiao Yan	proper noun	人	Person	历史	History	中国	China	\N	\N	Personal name of Emperor Wu of Southern Liang; see 梁武帝 (Wikipedia '萧衍')	169263
+169264	治体	治體	zhìtǐ	constitution	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '治體', p. 141)	169264
+169265	纷纶	紛綸	fēn lún	vast and plentiful	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '紛綸' 1)	169265
+169266	纷纶	紛綸	fēn lún	numerous and disorderly	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '紛綸' 2)	169265
+169267	纷纶	紛綸	fēn lún	numerous varieties	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '紛綸' 3)	169265
+169268	纷纶	紛綸	fēn lún	a complex and beautiful appearance	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '紛綸' 4)	169265
+169269	县治	縣治	xiàn zhì	a county under the jurisdiction of a magistrate	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '縣治', p. 141)	169269
+169270	欝	\N	yù	moody	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '欝'; Unihan '欝')	32918
+169271	笞杖	\N	chī zhàng	to beat with a cane	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '笞杖'; Guoyu '笞杖' 1; Mathews 1931 '笞杖', p. 141)	91576
+169272	逵路	\N	kuí lù	crossroads	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Baike '逵路')	169272
+169273	堦墀	\N	ji chí	a palace courtyard	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '堦墀', p. 141)	169273
+169274	吉美国立亚洲艺术博物馆	吉美國立亞洲藝術博物館	jíměi guólì yàzhōu yìshù bówùguǎn	Guimet Museum; Musée national des arts asiatiques-Guimet	proper noun	地名	Place Name	地方	Places	欧洲	Europe	\N	\N	Museum of Asian art located in Paris (Wikipedia '吉美国立亚洲艺术博物馆')	169273
+169275	丹墀	\N	dān chí	dan chi	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '丹墀', p. 141)	169275
+169276	陈思王	陳思王	chénsī wáng	Prince Chensi	proper noun	人	Person	历史	History	中国	China	\N	\N	See 曹植 Cao Zhi (Wikipedia '陈思王')	169276
+169277	迟一日	遲一日	chí yī rì	a day later	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '遲一日', p. 141)	169277
+169278	连句	連句	lián jù	linked verse	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '連句' 1)	169278
+169279	连句	連句	lián jù	to recite a verse as a group alternating between people	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '連句' 2)	169278
+169280	迟来不及	遲來不及	chí lái bù jí	you will miss it if you come late	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '遲一日', p. 142)	169280
+169281	齐文皇帝	齊文皇帝	qí wén huángdì	Emperor Wen of Southern Qi	proper noun	人	Person	历史	History	中国	China	\N	\N	A posthumous name for crown prince 萧长懋 Xiao Zhangmao although he never became emperor (Wikipedia '蕭長懋')	169281
+169282	迟回	遲回	chí huí	hesitating	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '遲回', p. 142)	169282
+169283	挟纻	挾紵	xié zhù	dry-lacquer sculpture	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Baike '挟纻')	169283
+169284	迟延	遲延	chí yán	to delay	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '遲延', p. 142)	169284
+169285	谯郡	譙郡	qiáo jùn	Qiao Commandery	proper noun	\N	\N	历史	History	中国	China	\N	\N	A historic administrative district in the area of present-day Anhui (Wikipedia '谯郡')	169285
+169286	谯国	譙國	qiáo guó	State of Qiao	proper noun	\N	\N	历史	History	中国	China	\N	\N	See 谯郡 (Wikipedia '谯郡')	169286
+169287	迟悞	遲悞	chí wù	to loiter; to spoil by delaying	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '遲悞', p. 142)	169287
+169288	司马郁	司馬鬱	sīmǎ yù	Sima Yu	proper noun	\N	\N	历史	History	中国	China	\N	\N	A crown prince in the Eastern Jin (Wikipedia '司马郁')	169288
+169289	萧映	蕭映	xiāo yìng	Xiao Ying	proper noun	\N	\N	历史	History	中国	China	\N	\N	A prince in the Southern Qi (Wikipedia '萧映')	169289
+169290	临川王	臨川王	línchuān wáng	Prince of Linchuan	proper noun	\N	\N	历史	History	中国	China	\N	\N	Could refer to 司马郁 Sima Yu or 萧映 Xiao Ying (Wikipedia '司马郁')	169290
+169291	迟日	遲日	chí rì	days late	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '遲日', p. 142)	169291
+169292	仇池	\N	chóuchí	chouchi	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	A historic group ruled by the Yang clan of Di people in present-day Gansu (Wikipedia '仇池')	169292
+169293	迟但	遲但	chí dàn	dawn	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '遲但', p. 142)	169293
+169294	迟明	遲明	chí míng	dawn	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '遲明', p. 142)	169294
+169295	周孔	\N	zhōu kǒng	Zhou and Kong	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	周公 Duke Zhou and 孔子 Confucius (Baike '周孔')	169295
+169296	天尚迟明	天尚遲明	tiān shàng chí míng	right at dawn	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '天尚遲明', p. 142)	169296
+169297	左道	\N	zuǒ dào	left-leaning path; evil ways	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '左道')	169297
+169298	迟留	遲留	chíliú	to postpone	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '遲留', p. 142)	169298
+169299	迟留	遲留	chíliú	to stay at	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '遲留')	169298
+169300	朱紫	\N	zhū zǐ	red and purple	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '朱紫' 1)	169300
+169301	朱紫	\N	zhū zǐ	a red costume with purple tassle	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Worn by senior officials in historic times, so refers to high officials (Guoyu '朱紫' 2)	169300
+169302	朱紫	\N	zhū zǐ	good and bad	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Red representing good and purple representing bad (Guoyu '朱紫' 3)	169300
+169303	朱紫	\N	zhū zǐ	artistic talent	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '朱紫' 4)	169300
+169304	迟疑不答	遲疑不答	chíyí bù dá	to hesitate in replying	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '遲疑不答', p. 142)	169304
+169305	罔	\N	wǎng	a disaster	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 灾祸 (Guoyu '罔' n 2)	21547
+169306	罔	\N	wǎng	sad; melancholy; disappointed	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 失意 (Guoyu '罔' adj 1)	21547
+169307	迟累	遲累	chílèi	to impede	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '遲累'; Mathews 1931 '遲累', p. 142)	169307
+169308	弱植	\N	ruò zhí	weak and unable to make a contribution	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '弱植')	169308
+169309	迟莫	遲莫	chímò	late; evening; old	adjective	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '遲莫', p. 142)	169220
+169310	浮	\N	fú	to swim	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 游泳 (Hanyu Dacidian '浮' 3, vol. 5, p. 1238)	7662
+169311	浮	\N	fú	impetuous; impulsive	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 浮躁 (Hanyu Dacidian '浮' 6, vol. 5, p. 1238)	7662
+169312	浮	\N	fú	confused	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 迷惑 (Hanyu Dacidian '浮' 8, vol. 5, p. 1238)	7662
+169313	浮	\N	fú	shifting	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 游动 (Hanyu Dacidian '浮' 12, vol. 5, p. 1238)	7662
+169314	浮	\N	fú	shallow; thin	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 薄 or 浅 (Hanyu Dacidian '浮' 13, vol. 5, p. 1238)	7662
+169315	浮	\N	fú	not yet	adverb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 犹末 (Hanyu Dacidian '浮' 14, vol. 5, p. 1238)	7662
+169316	浮	\N	fú	a floating pulse	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 浮脉 (Hanyu Dacidian '浮' 16, vol. 5, p. 1238)	7662
+169317	浮	\N	fú	a bottle gourd; calabash	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 葫芦 (Hanyu Dacidian '浮' 17, vol. 5, p. 1238)	7662
+169318	迟速不同	遲速不同	chí sù bù tóng	slow and fast are not the same	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '遲速不同', p. 142)	169318
+169319	浮俗	\N	fú sú	shallow customs	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Hanyu Dacidian '浮俗', vol. 5, p. 1248)	169319
+169320	迟迟	遲遲	chíchí	unhurried; relaxed	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '遲遲' 2; Mathews 1931 '遲遲', p. 142)	69181
+169321	中丞	\N	zhōng chéng	Palace Aide to the Censor-in-Chief; Zhong Cheng	proper noun	官名	Official Title	历史	History	中国	China	\N	\N	(Guoyu '中丞'; Hucker 1985 '中丞', p. 189)	169321
+169322	太迟	太遲	tài chí	too late	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '太遲', p. 142)	169322
+169323	明僧绍	\N	míng sēngshào	Ming Sengshao	proper noun	人	Person	历史	History	中国	China	\N	\N	Scholar-recluse in the Southern and Northern dynasties (Wikipedia '明僧绍')	169323
+169324	明征君	明徵君	míng zhēngjūn	Ming Zhengjun	proper noun	人	Person	历史	History	中国	China	\N	\N	See 明僧绍 (Wikipedia '明僧绍')	169324
+169325	拖迟	拖遲	tuō chí	to procrastinate	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '拖遲', p. 142)	169325
+169326	张融	張融	zhāng róng	Zhang Rong	proper noun	人	Person	历史	History	中国	China	\N	\N	444-497 C.E.; Poet and calligrapher (Wikipedia '张融')	169326
+169327	栖迟	棲遲	qī chí	to stay at; to lodge at	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '棲遲' 1; Mathews 1931 '棲遲', p. 142)	169327
+169328	栖迟	棲遲	qī chí	to continue	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 延续 (Guoyu '棲遲' 2)	169327
+169329	栖迟	棲遲	qī chí	to be clumsy	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 拙劣 (Guoyu '棲遲' 3)	169327
+169330	栖迟	棲遲	qī chí	to detain	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 滞留 (Guoyu '棲遲' 4)	169327
+169331	栖迟	棲遲	qī chí	to be disappointed	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	In the sense of 失意 (Guoyu '棲遲' 5)	169327
+169332	犊皮纸	犢皮紙	dúpízhǐ	vellum	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Traditional writing material (Wikipedia '犊皮纸')	169332
+169333	什迟	甚遲	shén chí	very late	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '甚遲', p. 142)	169333
+169334	泥金装饰手抄本	泥金裝飾手抄本	níjīn zhuāngshì shǒuchāoběn	illuminated manuscript	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '泥金裝飾手抄本')	169334
+169335	癡人	\N	chīrén	fool; idiot	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '癡人', p. 142)	169335
+169336	痴人	\N	chīrén	fool; idiot	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '痴人')	169336
+169337	技术制图	技術製圖	jìshù zhìtú	technical drawing	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '技术制图')	169337
+169338	癡人得癡福	\N	chīrén dé chī fú	a fool has his own hapiness	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Variant of 痴人痴福 (Mathews 1931 '癡人得癡福', p. 142)	169338
+169339	造纸厂	造紙廠	zàozhǐchǎng	paper mill	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '造纸厂')	169339
+169340	癡人说梦	癡人說夢	chī rén shuō mèng	raving of an idiot	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Variant of 痴人说梦 (Mathews 1931 '癡人說夢', p. 142)	169340
+169341	麻纸	麻紙	má zhǐ	hemp paper	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '麻纸')	169341
+169342	痴子	\N	chīzi	a fool; an idiot	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '痴子')	169342
+169343	癡子	\N	chīzǐ	a fool; an idiot	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Variant of 痴子 (Mathews 1931 '癡子', p. 142)	169343
+169344	铜版纸	銅版紙	tóng bǎn zhǐ	coated paper	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '铜版纸')	169344
+169345	癡心	\N	chī xīn	infatuated with	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	See 痴心 (Mathews 1931 '癡心', p. 142)	169345
+169346	孙盛	孫盛	sūn shèng	Sun Sheng	proper noun	人	Person	历史	History	中国	China	\N	\N	302-373; Eastern Jin historian (Wikipedia '孙盛')	169346
+169347	癡心妄想的人	\N	chīxīn wàngxiǎng de rén	a person infatuated with delusions	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '癡心妄想的人', p. 142)	169347
+169348	牙龈病	牙齦病	yáyínbìng	gingivitis	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '牙龈病')	169348
+169349	癡情子	\N	chīqíngzi	debauchee	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '癡情子', p. 142)	169349
+169350	痴情子	\N	chīqíngzi	debauchee	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '癡情子', p. 142)	169350
+169351	电动牙刷	電動牙刷	diàndòng yáshuā	electric toothbrush	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '电动牙刷')	169351
+169352	癡想	\N	chīxiǎng	daydreams; wishful thinking; vain thoughts	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴想'; Guoyu '痴想'; ; Mathews 1931 '癡想', p. 142)	169352
+169353	口腔卫生	口腔衛生	kǒuqiāng wèishēng	oral hygiene	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '口腔卫生')	169353
+169354	痴汉	痴漢	chīhàn	pervert	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Loanword from Japanese 'chikan'; Taiwanese usage (CC-CEDICT '痴漢')	164061
+169355	癡汉	癡漢	chīhàn	idiot; fool	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴漢'; Mathews 1931 '癡漢', p. 142)	169355
+169356	掉牙	\N	diào yá	tooth loss	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '掉牙')	169356
+169357	痴物	\N	chīwù	a fool	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '痴物'; Mathews 1931 '癡物', p. 142)	169357
+169358	癡物	\N	chīwù	a fool	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '痴物'; Mathews 1931 '癡物', p. 142)	169358
+169359	牙槽	\N	yácáo	dental alveoli; tooth sockets	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '牙槽')	169359
+169360	痴狂	\N	chī kuáng	mad after	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '痴狂'; Mathews 1931 '癡狂', p. 142)	169360
+169361	癡狂	\N	chī kuáng	mad after	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '痴狂'; Mathews 1931 '癡狂', p. 142)	169361
+169362	拔牙术	拔牙術	báyá shù	tooth extraction	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '拔牙术')	169362
+169363	痴病	\N	chībìng	stupidity	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '癡病', p. 142)	169363
+169364	癡病	\N	chībìng	stupidity	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '癡病', p. 142)	169364
+169365	植牙	\N	zhí yá	dental implant	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '植牙')	169365
+169366	癡笑	\N	chī xiào	to giggle foolishly; to titter	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴笑'; Guoyu '痴笑'; Mathews 1931 '癡笑', p. 142)	169366
+169367	牙齿发育	牙齒發育	yáchǐ fāyù	tooth development; odontogenesis	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '牙齿发育')	169367
+169368	癡迷	\N	chīmí	to be infatuated; to be obsessed	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '痴迷'; Guoyu '痴迷'; Mathews 1931 '癡迷', p. 142)	169368
+169369	恒齿	恆齒	héng chǐ	permanent teeth; adult teeth	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '恒齿')	169369
+169370	癡头癡脑	癡頭癡腦	chī tóu chī nǎo	idiotic	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '癡頭癡腦', p. 142)	169370
+169371	痴头痴脑	痴頭痴腦	chī tóu chī nǎo	idiotic	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '癡頭癡腦', p. 142)	169371
+169372	牙医学	牙醫學	yáyīxué	dentistry	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '牙医学')	169372
+169373	踟蹰	踟躕	chíchú	linked together	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '踟躕' 2)	71061
+169374	踟蹰	踟躕	chíchú	a kind of ancient water vessel	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '踟躕' 3)	71061
+169375	牙周病学	牙周病學	yázhōubìngxué	periodontology; periodontics	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '牙周病学')	169375
+169376	褫	\N	chǐ	to deprive of	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(CC-CEDICT '褫'; Guoyu '褫' 2; Mathews 1931 '褫', p. 142)	38677
+169377	牙科用汞齐	牙科用汞齊	yákēyònggǒngqí	amalgam	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Used to fill tooth cavities (Wikipedia '牙科用汞齐')	169377
+169378	褫夺公权	褫奪公權	chǐduó gōngquán	to disenfranchise	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '褫奪公權'; Mathews 1931 '褫奪公權', p. 142)	169378
+169379	牙科复合树脂	牙科複合樹脂	yákē fùhé shùzhī	dental composite resin	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	Used for fillings (Wikipedia '牙科复合树脂')	169379
+169380	褫毡	褫氈	chǐ zhān	thick felt for sleeping on	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '褫氈', p. 142)	169380
+169381	齿石	齒石	chǐshí	dental calculus; tartar	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '齒石'; Wikipedia '齿石')	169381
+169382	褫职	褫職	chǐzhí	to dismiss	verb	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Guoyu '褫職'; Mathews 1931 '褫職', p. 142)	169382
+169383	牙结石	牙結石	yá jiéshí	dental calculus; tartar	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(CC-CEDICT '牙結石'; Guoyu '牙結石'; Wikipedia '齿石')	169383
+169384	褫脱	褫脫	chǐ tuō	to strip off	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '褫脫', p. 142)	169384
+169385	试验设计	試驗設計	shìyàn shèjì	experimental design	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '试验设计')	169385
+169386	褫革	\N	chǐ gé	to strip of rank and privileges	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '褫革')	169386
+169387	褫革顶翎	褫革頂翎	chǐ gé dǐng líng	to strip the button and feather; to strip of rank and privileges	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '褫革頂翎', p. 142)	169387
+169388	承建商	\N	chéng jiàn shāng	general contractor	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Wikipedia '承建商')	169388
+169389	褫魄	\N	chǐ pò	to be disheartened	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '褫魄'; Mathews 1931 '褫魄', p. 142)	169389
+169390	姚略	\N	yáo lüè	Yao Lue	proper noun	人	Person	历史	History	中国	China	\N	\N	See 姚兴 (Wikipedia '姚兴')	169390
+169391	坻伏	\N	zhǐ fú	stop and hide	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '坻伏', p. 142)	169391
+169392	刘善明	劉善明	liú shànmíng	Liu Shanming	proper noun	人	Person	历史	History	中国	China	\N	\N	432-480 C.E.; Liu Song and Southern Qi official (Wikipedia '刘善明')	169392
+169393	白	\N	bó	white	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Same meanings as bái (Guoyu '白' bó)	491
+169394	白	\N	bái	a color representing the metal element	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	A color representing the metal element of the five elements and west among the four directions (Guoyu '白' n 2; Kroll 2015 '白' 1, p. 7)	491
+169395	白	\N	bái	symbolizing decline	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '白' 1a, p. 7)	491
+169396	白	\N	bái	frank; candid	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '白' 3b, p. 7)	491
+169397	白	\N	bái	suddenly; abruptly	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '白' 5, p. 7)	491
+169398	白	\N	bái	best regards	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Used at the end of a letter (Guoyu '白' v 2)	491
+169399	白	\N	bái	to break day; to send the first light of day	verb	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '白' v 3)	491
+169400	坻伏郁堙	坻伏鬱堙	chí fú yù yīn	protruding but semi-concealed by mounds	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '坻伏鬱堙', p. 142)	169400
+169401	张辅	張輔	zhāng fǔ	Zhang Fu	proper noun	人	Person	历史	History	中国	China	\N	\N	3rd century - 305 C.E.; Western Jin official from Nanyang Commandery in present-day Henan (Wikipedia '张辅 (西晋)')	169401
+169402	坡坻	\N	pōchí	a dike; a slope	noun	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '坡坻', p. 142)	169402
+169403	汧县	汧縣	qiān xiàn	Qian county	proper noun	地名	Place Name	历史	History	中国	China	\N	\N	A historic name for 陇县 (Wikipedia '陇县')	169403
+169404	蚳	\N	chí	Chi	proper noun	姓氏	Surname	现代汉语	Modern Chinese	名字	Names	\N	\N	(Guoyu '蚳' n 2)	45153
+169405	对当	對當	duì dāng	to reply	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '對當' 1)	169405
+169406	对当	對當	duì dāng	to be equal to; to be similar to	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '對當' 2)	169405
+169407	对当	對當	duì dāng	to arrange	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '對當' 3)	169405
+169408	蚳醢	\N	chí hǎi	pickled larvae	phrase	\N	\N	现代汉语	Modern Chinese	\N	\N	\N	\N	(Mathews 1931 '蚳醢', p. 142)	169408
+169409	王浮	\N	wáng fú	Wang Fu	proper noun	人	Person	历史	History	中国	China	\N	\N	265-313 C.E.; Taoist monk (Wikipedia '王浮')	169409
+169410	鸱尾	鴟尾	chī wěi	owl's tail	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Ridge ornaments on palace roofs (Guoyu '鴟尾'; Kroll 2015 '鴟' 2, p. 50)	169410
+169411	角鸱	角鴟	jiǎo chī	horned owl	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Kroll 2015 '鴟' 1a, p. 50)	169411
+169412	鸱吻	鴟吻	chī wěn	an ornament on palace roof	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '鴟吻'; Mathews 1931 '鴟吻', p. 142)	169412
+169413	张光	張光	zhāng guāng	Zhang Guang	proper noun	人	Person	历史	History	中国	China	\N	\N	259-313 C.E.; Courtesy name 景武 Jingwu, Western Jin official (Wikipedia '张光 (西晋)')	169413
+169414	鸱夷	鴟夷	chī yí	a leather pouch	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '鴟夷' 1; Mathews 1931 '鴟夷', p. 142)	169414
+169415	杨难敌	楊難敵	yáng nándí	Yang Nandi	proper noun	人	Person	历史	History	中国	China	\N	\N	D. 334 C.E.; A leader of the 氐 Di people (Wikipedia '杨难敌')	169415
+169416	鸱峙	鴟峙	chī zhì	a savage enemy	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '鴟峙'; Mathews 1931 '鴟峙', p. 142)	169416
+169417	桓冲	桓沖	huán chōng	Huang Chong	proper noun	人	Person	历史	History	中国	China	\N	\N	328-384 C.E.; Eastern Jin military officer from present-day Anhui (Wikipedia '桓沖')	169417
+169418	鸱张	鴟張	chī zhāng	to act savagely	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '鴟張'; Mathews 1931 '鴟張', p. 142)	169418
+169419	朱序	\N	zhū xù	Zhu Xu	proper noun	人	Person	历史	History	中国	China	\N	\N	D. 393 C.E.; Eastern Jin military commander (Wikipedia '朱序')	169419
+169420	鸱目虎吻	鴟目虎吻	chī mù hǔ wěn	eyes of an owl and lips of a tiger; very fierce	set phrase	\N	\N	成语	Idiom	\N	\N	\N	\N	(Guoyu '鴟目虎吻'; Mathews 1931 '鴟目虎吻', p. 142)	169420
+169421	权翼	權翼	quán yì	Quan Yi	proper noun	人	Person	历史	History	中国	China	\N	\N	Fourth century figure from 天水 Tianshui (Wikipedia '权翼')	169421
+169422	鸱义	鴟義	chī yì	to act like an owl	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '鴟義', p. 142)	169422
+169423	六师	六師	liù shī	the commanders of the six armies; the six armies	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '六師')	169423
+169424	鸱视	鴟視	chī shì	excessively greedy; covetous	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '鴟視' 1; Mathews 1931 '鴟視', p. 142)	169424
+169425	鸱视	鴟視	chī shì	to raise one's head and gaze upwards	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	A Taoist exercise (Guoyu '鴟視' 2)	169424
+169426	巡狩	\N	xún shòu	to go on a tour of inspection	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	For the emperor to go on a tour of the empire (Guoyu '巡狩')	169426
+169427	鸱顾	鴟顧	chī gù	owl gaze	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	Turning the head to look back while keeping the body fixed like an owl (Guoyu '鴟顧'; Mathews 1931 '鴟顧', p. 142)	169427
+169428	御世	\N	yù shì	to rule the world	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '御世')	169428
+169429	怪鵰	\N	guàidiāo	barn owl	noun	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '怪鵰', p. 142)	169429
+169430	怪鵰	\N	guàidiāo	unfilial	adjective	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Mathews 1931 '怪鵰', p. 142)	169429
+169431	下下	\N	xià xià	each time	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '下下' 1)	169431
+169432	下下	\N	xià xià	the lowest grade	phrase	\N	\N	文言文	Literary Chinese	\N	\N	\N	\N	(Guoyu '下下' 2)	169431
